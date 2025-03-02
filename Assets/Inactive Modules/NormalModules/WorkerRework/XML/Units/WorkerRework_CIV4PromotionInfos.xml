@@ -11,7 +11,7 @@
 		
 		<PromotionInfo>		<!-- Stone Tools -->
 			<Type>PROMOTION_STONE_TOOLS</Type>
-			<Description>TXT_KEY_PROMOTION_STONE_TOOLS</Description>
+			<Description>TXT_KEY_PROMOTION_STONE_TOOLS_1</Description>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
 			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
@@ -306,6 +306,15 @@
 			<iMinLevel>-1</iMinLevel>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
+		
+		
+		
+		<PromotionInfo>		<!-- Dwarven Worker -->
+			<Type>PROMOTION_DWARVEN_WORKER</Type>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_LUCHUIRP</PrereqCivilization>
+			</PrereqCivilizations>
+        </PromotionInfo>
 		
 		
 		

@@ -681,7 +681,7 @@
 			<Type>SPELL_JOT_FEED</Type>
 			<Description>TXT_KEY_SPELL_FEED</Description>
 			<Civilopedia>TXT_KEY_SPELL_FEED_PEDIA</Civilopedia>
-			<Help>TXT_KEY_SPELL_FEED_HELP</Help>
+			<Help>TXT_KEY_SPELL_JOT_FEED_HELP</Help>
 			<PromotionPrereq1>PROMOTION_GIANTKIN</PromotionPrereq1>
 			<UnitInStackPrereq>UNIT_THRALL_MILITIA</UnitInStackPrereq>
 			<bAllowAI>1</bAllowAI>
