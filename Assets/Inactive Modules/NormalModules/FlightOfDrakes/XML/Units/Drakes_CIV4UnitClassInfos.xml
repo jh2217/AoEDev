@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- UnitClass Schema -->
+<Civ4UnitClassInfos xmlns="x-schema:Drakes_CIV4UnitSchema.xml">
+	<UnitClassInfos>
+		<UnitClassInfo>		<!-- Prismatic Drake Flock -->
+			<Type>UNITCLASS_PRISMATIC_DRAKE_FLIGHT</Type>
+			<Description>TXT_KEY_UNIT_GRIFFON</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_PRISMATIC_DRAKE_FLIGHT</DefaultUnit>
+			<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+	</UnitClassInfos>
+</Civ4UnitClassInfos>

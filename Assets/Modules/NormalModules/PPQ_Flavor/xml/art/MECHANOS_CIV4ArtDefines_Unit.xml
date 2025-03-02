@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Unit art path information -->
+<Civ4ArtDefines xmlns="x-schema:PPQ_CIV4ArtDefinesSchema.xml">
+	<UnitArtInfos>
+	
+		<!-- PPQ -->
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_WARRIOR_MECHANOS_1</Type>
+			<Button>Art/Interface/Buttons/Units/Warrior.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Mechanos/Warrior/1.nif</NIF>
+			<KFM>Art/Units/Warrior/Warrior.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_WARRIOR_MECHANOS_2</Type>
+			<Button>Art/Interface/Buttons/Units/Warrior.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Mechanos/Warrior/2.nif</NIF>
+			<KFM>Art/Units/Warrior/Warrior.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_WARRIOR_MECHANOS_3</Type>
+			<Button>Art/Interface/Buttons/Units/Warrior.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Mechanos/Warrior/3.nif</NIF>
+			<KFM>Art/Units/Warrior/Warrior.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+			
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_ENGINEER_MECHANOS</Type>
+			<Button>Art/Civs/CivSpecialists/Human/Engineer.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Mechanos/Great Engineer/greatprophet engineer.nif</NIF>
+			<KFM>Art/Units/GreatPeople/Engineer/Engineer.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.9</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HANDGUN_HUNTER</Type>
+			<Button>Art/Interface/Buttons/Units/Hunter.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Mechanos/Handgun_Hunter/Captain.nif</NIF>
+			<KFM>Art/Modules/PPQ/Units/Mechanos/Handgun_Hunter/Captain.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>1</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_KNIGHT_MECHANOS</Type>
+			<Button>,Art/Interface/Buttons/Units/Knight.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,1</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Mechanos/Knight/Knight.nif</NIF>
+			<KFM>Art/animations/companion cavalry/Companion_Cavalry.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HORSEMAN_MECHANOS</Type>
+			<Button>,Art/Interface/Buttons/Units/Knight.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,1</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Mechanos/Knight - light/Knight.nif</NIF>
+			<KFM>Art/animations/companion cavalry/Companion_Cavalry.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_PALADIN_MECHANOS</Type>
+			<Button>Art/Interface/Buttons/Units/Paladin.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Mechanos/Paladin/warrior.nif</NIF>
+			<KFM>Art/Units/Warrior/warrior.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_WORKER_MECHANOS</Type>
+			<Button>Art/Interface/Buttons/Units/Worker.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Mechanos/Worker/CombatWorker.nif</NIF>
+			<KFM>Art/Animations/CombatWorker/CombatWorker.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.9</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_ZEPPELIN_PPQ</Type>
+			<Button>,Art/Interface/Buttons/Units/ICBM.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,5,12</Button>
+			<fScale>0.6</fScale>
+			<fInterfaceScale>0.6</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>1</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Mechanos/zeppelin/Airship.nif</NIF>
+			<KFM>Art/Units/Airship/Airship.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/BearShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.65</fShadowScale>
+			</ShadowDef>
+			<iDamageStates>4</iDamageStates>
+				<fBattleDistance>0.55</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bSmoothMove>1</bSmoothMove>
+				<fAngleInterpRate>720</fAngleInterpRate>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<PatrolSound>AS3D_UN_AIRSHIP_PATROL</PatrolSound>
+			<SelectionSound>AS3D_UN_AIRSHIP_COMMAND_PATROL</SelectionSound>
+			<ActionSound>AS3D_UN_AIRSHIP_COMMAND_PATROL</ActionSound>
+		</UnitArtInfo>	
+	</UnitArtInfos>
+</Civ4ArtDefines>

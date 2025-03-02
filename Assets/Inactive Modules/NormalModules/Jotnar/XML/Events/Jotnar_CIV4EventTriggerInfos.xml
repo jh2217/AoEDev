@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- Event Trigger Infos -->
+<Civ4EventTriggerInfos xmlns="x-schema:Jotnar_CIV4EventSchema.xml">
+	<EventTriggerInfos>
+		<EventTriggerInfo>
+			<Type>EVENTTRIGGER_JOT_SEARCH_FOR_LOST_CHILDREN</Type>
+			<TriggerTexts>
+				<TriggerText>
+					<Text>TXT_KEY_EVENTTRIGGER_JOT_SEARCH_FOR_LOST_CHILDREN</Text>
+					<Era>NONE</Era>
+				</TriggerText>
+			</TriggerTexts>
+			<iPercentGamesActive>100</iPercentGamesActive>
+			<iWeight>0</iWeight>
+			<iMaxOurLandmass>-1</iMaxOurLandmass>
+			<iNumPlotsRequired>1</iNumPlotsRequired>
+			<iPlotType>-1</iPlotType>
+			<Events>
+				<Event>EVENT_JOT_SEARCH_FOR_LOST_CHILDREN</Event>
+			</Events>
+			<AndPreReqs>
+				<PrereqTech>TECH_JO1</PrereqTech>
+			</AndPreReqs>
+			<bRecurring>0</bRecurring>
+			<bShowPlot>0</bShowPlot>
+			<iPrereqGlobalCounter>20</iPrereqGlobalCounter>
+		</EventTriggerInfo>
+	</EventTriggerInfos>
+</Civ4EventTriggerInfos>
+	

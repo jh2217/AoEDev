@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Game Text - New missions-->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_GATE</Tag>
+		<English>Gate Mode:</English>
+		<French>Mode Portail:</French>
+		<German>Teleport:</German>
+		<Italian>Gate Mode:</Italian>
+		<Spanish>Gate Mode:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_EXPLORE_LAIR</Tag>
+		<English>Explore Lair</English>
+		<French>Explorer le lieu</French>
+		<German>Höhle erforschen</German>
+		<Italian>Explore Lair</Italian>
+		<Spanish>Explore Lair</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_EXPLORE_LAIR_HELP</Tag>
+		<English>[ICON_BULLET]Send your unit in to destroy the lair</English>
+		<French>[ICON_BULLET]Envoyer votre unité saccager le lieu</French>
+		<German>[ICON_BULLET]Schickt eine Einheit, um die Höhle zu zerstören</German>
+		<Italian>[ICON_BULLET]Send your unit in to destroy the lair</Italian>
+		<Spanish>[ICON_BULLET]Send your unit in to destroy the lair</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_INQUISITION</Tag>
+		<English>Inquisition mission</English>
+		<French>Inquisition</French>
+		<German>Inquisition</German>
+		<Italian>Inquisition</Italian>
+		<Spanish>Inquisition</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_INQUISITION_HELP</Tag>
+		<English>[ICON_BULLET]Removes non-state religions from the city</English>
+		<French>[ICON_BULLET]Supprime de la ville les religions autres que la religion d'État</French>
+		<German>[ICON_BULLET]Entfernt nicht-staatliche Religionen aus der Stadt.</German>
+		<Italian>[ICON_BULLET]Removes non-state religions from the city</Italian>
+		<Spanish>[ICON_BULLET]Removes non-state religions from the city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_CLAIM_FORT</Tag>
+		<English>Claim Fort</English>
+		<French>Revendiquer le fort</French>
+		<German>Fort in Besitz nehmen</German>
+		<Italian>Claim Fort</Italian>
+		<Spanish>Claim Fort</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_CLAIM_FORT_HELP</Tag>
+		<English>Appoints Fort Commander</English>
+		<French>Crée un commandant sur le fort</French>
+		<German>Ernennt Fort Kommandanten</German>
+		<Italian>Appoints Fort Commander</Italian>
+		<Spanish>Appoints Fort Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_ZOMBIE</Tag>
+		<English>Zombies arise from the lair, searching for easy prey</English>
+		<French>Zombies arise from the lair, searching for easy prey</French>
+		<German>Zombies erheben sich aus der Höhle, auf der Suche nach leichter Beute</German>
+		<Italian>Zombies arise from the lair, searching for easy prey</Italian>
+		<Spanish>Zombies arise from the lair, searching for easy prey</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_PILLAGE_ROUTE_HELP</Tag>
+		<English>The unit destroys a route in the tile it occupies.</English>
+		<French>L'unité détruit la route de la case qu'elle occupe.</French>
+		<German>Die Einheit zerstört den Weg auf der Straße, den sie besetzt</German>
+		<Italian>The unit destroys a route in the tile it occupies.</Italian>
+		<Spanish>The unit destroys a route in the tile it occupies.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_PILLAGE_ROUTE</Tag>
+		<English>Pillage Route</English>
+		<French>Piller la route</French>
+		<German>Wege plündern</German>
+		<Italian>Pillage Route</Italian>
+		<Spanish>Pillage Route</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_PARADROP</Tag>
+		<English>Teleport</English>
+		<French>Téléporter</French>
+		<German>Teleport</German>
+		<Italian>Teleport</Italian>
+		<Spanish>Teleport</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISSION_PARADROP_HELP</Tag>
+		<English>Teleports to given location, bypassing intervening terrain and units.</English>
+		<French>Téléporte jusqu'à la destination en ignorant les obstacles, relief ou unités</French>
+		<German>Teleportiert sich an die vorgegebene Stelle, behindernde Geländefelder und Einheiten werden ignoriert.</German>
+		<Italian>Teleports to given location, bypassing intervening terrain and units.</Italian>
+		<Spanish>Teleports to given location, bypassing intervening terrain and units.</Spanish>
+	</TEXT>
+</Civ4GameText>

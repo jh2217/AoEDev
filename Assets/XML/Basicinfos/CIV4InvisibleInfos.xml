@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<Civ4InvisibleInfos xmlns="x-schema:CIV4BasicInfoSchema.xml">
+	<InvisibleInfos>
+		<InvisibleInfo>
+			<Type>INVISIBLE_0</Type>
+			<Description>TXT_KEY_INVISIBLE_0</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_1</Type>
+			<Description>TXT_KEY_INVISIBLE_1</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_2</Type>
+			<Description>TXT_KEY_INVISIBLE_2</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_3</Type>
+			<Description>TXT_KEY_INVISIBLE_3</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_4</Type>
+			<Description>TXT_KEY_INVISIBLE_4</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_5</Type>
+			<Description>TXT_KEY_INVISIBLE_5</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_6</Type>
+			<Description>TXT_KEY_INVISIBLE_6</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_7</Type>
+			<Description>TXT_KEY_INVISIBLE_7</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_8</Type>
+			<Description>TXT_KEY_INVISIBLE_8</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_9</Type>
+			<Description>TXT_KEY_INVISIBLE_9</Description>
+		</InvisibleInfo>
+		<InvisibleInfo>
+			<Type>INVISIBLE_10</Type>
+			<Description>TXT_KEY_INVISIBLE_10</Description>
+		</InvisibleInfo>
+	</InvisibleInfos>
+</Civ4InvisibleInfos>

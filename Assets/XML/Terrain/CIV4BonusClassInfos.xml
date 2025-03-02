@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Progtern (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Bonus Class -->
+<Civ4BonusClassInfos xmlns="x-schema:CIV4TerrainSchema.xml">
+	<BonusClassInfos>
+		<BonusClassInfo>		<!-- General -->
+			<Type>BONUSCLASS_GENERAL</Type>
+			<iUnique>0</iUnique>
+		</BonusClassInfo>
+		<BonusClassInfo>		<!-- Grain -->
+			<Type>BONUSCLASS_GRAIN</Type>
+			<iUnique>5</iUnique>
+		</BonusClassInfo>
+		<BonusClassInfo>		<!-- Livestock -->
+			<Type>BONUSCLASS_LIVESTOCK</Type>
+			<iUnique>5</iUnique>
+		</BonusClassInfo>
+		<BonusClassInfo>		<!-- Mana -->
+			<Type>BONUSCLASS_MANA</Type>
+			<iUnique>3</iUnique>
+		</BonusClassInfo>
+		<BonusClassInfo>		<!-- Modern -->
+			<Type>BONUSCLASS_MODERN</Type>
+			<iUnique>4</iUnique>
+		</BonusClassInfo>
+		<BonusClassInfo>		<!-- Raw Mana -->
+			<Type>BONUSCLASS_RAWMANA</Type>
+			<iUnique>3</iUnique>
+		</BonusClassInfo>
+		<BonusClassInfo>		<!-- Rush -->
+			<Type>BONUSCLASS_RUSH</Type>
+			<iUnique>3</iUnique>
+		</BonusClassInfo>
+		<BonusClassInfo>		<!-- Stone -->
+			<Type>BONUSCLASS_STONE</Type>
+			<iUnique>2</iUnique>
+		</BonusClassInfo>
+		<BonusClassInfo>		<!-- Wonder -->
+			<Type>BONUSCLASS_WONDER</Type>
+			<iUnique>4</iUnique>
+		</BonusClassInfo>
+	</BonusClassInfos>
+</Civ4BonusClassInfos>

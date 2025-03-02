@@ -1,0 +1,52 @@
+;Name - no need to explain
+;note: one line
+[name]
+Widen Technology
+;
+;
+;Version - version of module
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[version]
+1.2
+;
+;
+;RifE version - version of RifE for which is this module tested, checked, developed, etc
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[rifeversion]
+375
+;
+;
+;
+[compatible]
+Vcivics
+DynRel
+;Author - you
+;note: one line
+[author]
+blazenclaw
+;
+;
+;Short description - text showed in contect menu
+;note: one line
+[shortdesc]
+Cheaper earlier techs, MUCH more expensive late techs.
+;
+;
+;Description - text showed in message box
+;note: can be multiline
+[desc]
+First tier of techs is slightly cheaper, tier 1.5 and 2 are the same, but the ramping per tier past that changes from 2x/tier to 2.5x.
+The tech tree display (F6) is redone to place techs in their appropriate tiers.
+In addition, tech diffusion effect is strongly increased from 10% max to 100% max (linear map from [met teams that have the tech] / [all possible teams]).
+
+###
+
+Changelog:
+
+- 1.2 --Renamed to Widen Technology instead of Tech Exponentiation for load order compatability reasons (see 1.1).
+      --Changed to superexponential tech cost tier progression; 2x, 2x, 2.5x, 2.5x, 3x, 3x, 4x from prior 2x -> 2.5x at tier 3.
+      --Tweaked some of the mid-tier costs to be closer to each other.
+
+- 1.1 --Moved dependency checking into vcivics, so that the user should load in any pass instead of specified order.

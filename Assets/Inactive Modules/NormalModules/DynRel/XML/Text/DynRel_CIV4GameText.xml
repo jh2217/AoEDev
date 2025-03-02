@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCLASS_RELIGION</Tag>
+		<English>Religious Paths</English>
+		<French>Religious Paths</French>
+		<German>Religious Paths</German>
+		<Italian>Religious Paths</Italian>
+		<Spanish>Religious Paths</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ORDER</Tag>
+		<English>Path of Junil</English>
+		<French>Path of Junil</French>
+		<German>Path of Junil</German>
+		<Italian>Path of Junil</Italian>
+		<Spanish>Path of Junil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_OVERLORDS</Tag>
+		<English>Path of the Overlords</English>
+		<French>Path of the Overlords</French>
+		<German>Path of the Overlords</German>
+		<Italian>Path of the Overlords</Italian>
+		<Spanish>Path of the Overlords</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RUNES</Tag>
+		<English>Path of Kilmorph</English>
+		<French>Path of Kilmorph</French>
+		<German>Path of Kilmorph</German>
+		<Italian>Path of Kilmorph</Italian>
+		<Spanish>Path of Kilmorph</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FELLOWSHIP</Tag>
+		<English>Path of Cernunnos</English>
+		<French>Path of Cernunnos</French>
+		<German>Path of Cernunnos</German>
+		<Italian>Path of Cernunnos</Italian>
+		<Spanish>Path of Cernunnos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EMPYREAN</Tag>
+		<English>Path of Lugus</English>
+		<French>Path of Lugus</French>
+		<German>Path of Lugus</German>
+		<Italian>Path of Lugus</Italian>
+		<Spanish>Path of Lugus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ESUS</Tag>
+		<English>Path of Esus</English>
+		<French>Path of Esus</French>
+		<German>Path of Esus</German>
+		<Italian>Path of Esus</Italian>
+		<Spanish>Path of Esus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WHITE_HAND</Tag>
+		<English>Path of Mulcarn</English>
+		<French>Path of Mulcarn</French>
+		<German>Path of Mulcarn</German>
+		<Italian>Path of Mulcarn</Italian>
+		<Spanish>Path of Mulcarn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_VEIL</Tag>
+		<English>Path of Agares</English>
+		<French>Path of Agares</French>
+		<German>Path of Agares</German>
+		<Italian>Path of Agares</Italian>
+		<Spanish>Path of Agares</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DYNREL</Tag>
+		<English>Dynamic Religions</English>
+		<French>Dynamic Religions</French>
+		<German>Dynamic Religions</German>
+		<Italian>Dynamic Religions</Italian>
+		<Spanish>Dynamic Religions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_DYNREL_PEDIA</Tag>
+		<English>Dynamic Religion is a module using the system of Dynamic traits to change how religions are founded.[NEWLINE][NEWLINE]Instead of being founded by researching technologies, Religions in this module are founded depending on the various civilizations' actions. Taking control of more forests will get you closer to the Fellowship of Leaves for example.[NEWLINE][NEWLINE]A full list of the actions granting points towards the religion of your choice is available in the dynamic trait menu in the top left of the screen while in game.</English>
+		<French>Dynamic Religion is a module using the system of Dynamic traits to change how religions are founded.[NEWLINE][NEWLINE]Instead of being founded by researching technologies, Religions in this module are founded depending on the various civilizations' actions. Taking control of more forests will get you closer to the Fellowship of Leaves for example.[NEWLINE][NEWLINE]A full list of the actions granting points towards the religion of your choice is available in the dynamic trait menu in the top left of the screen while in game.</French>
+		<German>Dynamic Religion is a module using the system of Dynamic traits to change how religions are founded.[NEWLINE][NEWLINE]Instead of being founded by researching technologies, Religions in this module are founded depending on the various civilizations' actions. Taking control of more forests will get you closer to the Fellowship of Leaves for example.[NEWLINE][NEWLINE]A full list of the actions granting points towards the religion of your choice is available in the dynamic trait menu in the top left of the screen while in game.</German>
+		<Italian>Dynamic Religion is a module using the system of Dynamic traits to change how religions are founded.[NEWLINE][NEWLINE]Instead of being founded by researching technologies, Religions in this module are founded depending on the various civilizations' actions. Taking control of more forests will get you closer to the Fellowship of Leaves for example.[NEWLINE][NEWLINE]A full list of the actions granting points towards the religion of your choice is available in the dynamic trait menu in the top left of the screen while in game.</Italian>
+		<Spanish>Dynamic Religion is a module using the system of Dynamic traits to change how religions are founded.[NEWLINE][NEWLINE]Instead of being founded by researching technologies, Religions in this module are founded depending on the various civilizations' actions. Taking control of more forests will get you closer to the Fellowship of Leaves for example.[NEWLINE][NEWLINE]A full list of the actions granting points towards the religion of your choice is available in the dynamic trait menu in the top left of the screen while in game.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ORDER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants Access to the Order Religion</English>
+		<French>[NEWLINE][ICON_BULLET]Grants Access to the Order Religion</French>
+		<German>[NEWLINE][ICON_BULLET]Grants Access to the Order Religion</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants Access to the Order Religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants Access to the Order Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_VEIL_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants Access to the Ashen Veil Religion</English>
+		<French>[NEWLINE][ICON_BULLET]Grants Access to the Ashen Veil Religion</French>
+		<German>[NEWLINE][ICON_BULLET]Grants Access to the Ashen Veil Religion</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants Access to the Ashen Veil Religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants Access to the Ashen Veil Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_OVERLORDS_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants Access to the Octopus Overlords Religion</English>
+		<French>[NEWLINE][ICON_BULLET]Grants Access to the Octopus Overlords Religion</French>
+		<German>[NEWLINE][ICON_BULLET]Grants Access to the Octopus Overlords Religion</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants Access to the Octopus Overlords Religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants Access to the Octopus Overlords Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RUNES_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants Access to the Runes of Kilmorph Religion</English>
+		<French>[NEWLINE][ICON_BULLET]Grants Access to the Runes of Kilmorph Religion</French>
+		<German>[NEWLINE][ICON_BULLET]Grants Access to the Runes of Kilmorph Religion</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants Access to the Runes of Kilmorph Religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants Access to the Runes of Kilmorph Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FELLOWSHIP_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants Access to the Fellowship of Leaves Religion</English>
+		<French>[NEWLINE][ICON_BULLET]Grants Access to the Fellowship of Leaves Religion</French>
+		<German>[NEWLINE][ICON_BULLET]Grants Access to the Fellowship of Leaves Religion</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants Access to the Fellowship of Leaves Religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants Access to the Fellowship of Leaves Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EMPYREAN_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants Access to the Empyrean Religion</English>
+		<French>[NEWLINE][ICON_BULLET]Grants Access to the Empyrean Religion</French>
+		<German>[NEWLINE][ICON_BULLET]Grants Access to the Empyrean Religion</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants Access to the Empyrean Religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants Access to the Empyrean Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ESUS_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants Access to the Council of Esus Religion</English>
+		<French>[NEWLINE][ICON_BULLET]Grants Access to the Council of Esus Religion</French>
+		<German>[NEWLINE][ICON_BULLET]Grants Access to the Council of Esus Religion</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants Access to the Council of Esus Religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants Access to the Council of Esus Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WHITE_HAND_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants Access to the White Hand Religion</English>
+		<French>[NEWLINE][ICON_BULLET]Grants Access to the White Hand Religion</French>
+		<German>[NEWLINE][ICON_BULLET]Grants Access to the White Hand Religion</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants Access to the White Hand Religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants Access to the White Hand Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_DISABLED_DYN_REL</Tag>
+		<English>Cannot be obtained normally. Obtained through corresponding religious trait.</English>
+		<French>Cannot be obtained normally. Obtained through corresponding religious trait.</French>
+		<German>Cannot be obtained normally. Obtained through corresponding religious trait.</German>
+		<Italian>Cannot be obtained normally. Obtained through corresponding religious trait.</Italian>
+		<Spanish>Cannot be obtained normally. Obtained through corresponding religious trait.</Spanish>
+	</TEXT>
+</Civ4GameText>

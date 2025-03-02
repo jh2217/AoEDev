@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jesse Smith (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Goody Infos -->
+<Civ4GoodyInfo xmlns="x-schema:AnimalLairs_CIV4GameInfoSchema.xml">
+	<GoodyInfos>
+		<GoodyInfo> <!--Animal Unit joins player-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_FRIENDLY_ANIMAL</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MINOR</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>333</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_FRIENDLY_ANIMAL</Description>
+			<iDestroyLairChance>90</iDestroyLairChance>
+			<bBad>0</bBad>
+			<Sound/>
+			<PythonCallback>ExploreLairFriendly</PythonCallback>
+		</GoodyInfo>
+
+		<GoodyInfo> <!--Adds Subdue Animal to a recon unit-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_SUBDUE_ANIMAL</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MINOR</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>333</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_SUBDUE_ANIMAL</Description>
+			<iDestroyLairChance>90</iDestroyLairChance>
+			<bBad>0</bBad>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<PromotionAdds>
+				<Promotion>PROMOTION_SUBDUE_ANIMAL</Promotion>
+			</PromotionAdds>
+			<bAnyPromotion>0</bAnyPromotion>
+		</GoodyInfo>
+		
+		<GoodyInfo> <!--Adds Gold-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_LOW_GOLD</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MINOR</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>333</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_LOW_GOLD</Description>
+			<iDestroyLairChance>90</iDestroyLairChance>
+			<bBad>0</bBad>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<iGold>20</iGold>
+			<iGoldRand1>21</iGoldRand1>
+			<iGoldRand2>21</iGoldRand2>
+		</GoodyInfo>
+
+		<GoodyInfo> <!--Animal Unit attacks player-->
+			<Type>GOODY_EXPLORE_LAIR_HOSTILE_ANIMAL_T1</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MINOR</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>750</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_HOSTILE_ANIMAL</Description>
+			<iDestroyLairChance>90</iDestroyLairChance>
+			<bBad>1</bBad>
+			<Sound>AS2D_GOODY_HOSTILE</Sound>
+			<PythonCallback>ExploreLairHostileT1</PythonCallback>
+		</GoodyInfo>
+
+		<GoodyInfo> <!--Goblin Recon Unit attacks player-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_HOSTILE_RECON</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MINOR</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>250</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_HOSTILE_RECON</Description>
+			<iDestroyLairChance>60</iDestroyLairChance>
+			<bBad>1</bBad>
+			<Sound>AS2D_GOODY_HOSTILE</Sound>
+			<PythonCallback>ExploreLairHostileGoblin</PythonCallback>
+		</GoodyInfo>
+
+		<GoodyInfo> <!--Adds Poisoned Blade to a recon unit-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_POISON_GOOD</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MODERATE</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>250</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_POISON_GOOD</Description>
+			<iDestroyLairChance>90</iDestroyLairChance>
+			<bBad>0</bBad>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<PromotionAdds>
+				<Promotion>PROMOTION_POISONED_BLADE</Promotion>
+			</PromotionAdds>
+			<bAnyPromotion>0</bAnyPromotion>
+		</GoodyInfo>
+		
+		<GoodyInfo> <!--Adds Subdue Beast to a recon unit-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_SUBDUE_BEAST</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MODERATE</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>250</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_SUBDUE_BEAST</Description>
+			<iDestroyLairChance>90</iDestroyLairChance>
+			<bBad>0</bBad>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<PromotionAdds>
+				<Promotion>PROMOTION_SUBDUE_BEASTS</Promotion>
+			</PromotionAdds>
+			<bAnyPromotion>0</bAnyPromotion>
+		</GoodyInfo>
+		
+		<GoodyInfo> <!--Adds Free Unit to any unit-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_MAINTENANCE</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MODERATE</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>250</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_MAINTENANCE</Description>
+			<iDestroyLairChance>90</iDestroyLairChance>
+			<bBad>0</bBad>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<PromotionAdds>
+				<Promotion>PROMOTION_FREE_UNIT</Promotion>
+			</PromotionAdds>
+			<bAnyPromotion>1</bAnyPromotion>
+		</GoodyInfo>
+		
+		<GoodyInfo> <!--Adds random animal bonus to a tile-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_LIVESTOCK</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MODERATE</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>250</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_HERBIVORE</Description>
+			<iDestroyLairChance>100</iDestroyLairChance>
+			<bBad>0</bBad>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<PythonCallback>ExploreLairLivestock</PythonCallback>
+			<PythonPrereq>ReqLairLivestock</PythonPrereq>
+		</GoodyInfo>	
+		
+		<GoodyInfo> <!--Adds Poisoned to any unit and damages it-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_POISON_BAD</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MODERATE</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>500</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_POISON_BAD</Description>
+			<iDestroyLairChance>60</iDestroyLairChance>
+			<bBad>1</bBad>
+			<Sound>AS2D_GOODY_HOSTILE</Sound>
+			<PromotionAdds>
+				<Promotion>PROMOTION_POISONED</Promotion>
+			</PromotionAdds>
+			<bAnyPromotion>1</bAnyPromotion>
+			<iHealing>-50</iHealing>
+			<DamageType>DAMAGE_POISON</DamageType>
+			<iDamageLimit>50</iDamageLimit>
+		</GoodyInfo>
+
+		<GoodyInfo> <!--Strong Animal Unit attacks player-->
+			<Type>GOODY_EXPLORE_LAIR_HOSTILE_ANIMAL_T2</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MODERATE</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>500</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_HOSTILE_PACK</Description>
+			<iDestroyLairChance>90</iDestroyLairChance>
+			<bBad>1</bBad>
+			<Sound>AS2D_GOODY_HOSTILE</Sound>
+			<PythonCallback>ExploreLairHostileT2</PythonCallback>
+		</GoodyInfo>
+
+		<GoodyInfo> <!--Adds Great Hunter to any unit (cuz it has no UnitCombat)-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_GREAT_HUNTER</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MAJOR</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>400</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_GREAT_HUNTER</Description>
+			<iDestroyLairChance>90</iDestroyLairChance>
+			<bBad>0</bBad>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<PromotionAdds>
+				<Promotion>PROMOTION_GREAT_HUNTER</Promotion>
+			</PromotionAdds>
+			<bAnyPromotion>1</bAnyPromotion>
+		</GoodyInfo>
+		
+		<GoodyInfo> <!--Adds Compelling Jewel to any unit-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_SHINY_1</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MAJOR</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>50</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_SHINY_1</Description>
+			<iDestroyLairChance>100</iDestroyLairChance>
+			<bBad>0</bBad>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<PromotionAdds>
+				<Promotion>PROMOTION_COMPELLING_JEWEL</Promotion>
+			</PromotionAdds>
+			<bAnyPromotion>1</bAnyPromotion>
+		</GoodyInfo>
+		
+		<GoodyInfo> <!--Adds Jade Torc to any unit-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_SHINY_2</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MAJOR</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>50</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_SHINY_2</Description>
+			<iDestroyLairChance>100</iDestroyLairChance>
+			<bBad>0</bBad>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<PromotionAdds>
+				<Promotion>PROMOTION_JADE_TORC</Promotion>
+			</PromotionAdds>
+			<bAnyPromotion>1</bAnyPromotion>
+		</GoodyInfo>
+
+		<GoodyInfo> <!--Strong pack of diseased Animal Units attacks player-->
+			<Type>GOODY_EXPLORE_LAIR_HOSTILE_ANIMAL_T3</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MAJOR</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>500</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_HOSTILE_PACK_RABID</Description>
+			<iDestroyLairChance>90</iDestroyLairChance>
+			<bBad>1</bBad>
+			<Sound>AS2D_GOODY_HOSTILE</Sound>
+			<PythonCallback>ExploreLairHostileT3</PythonCallback>
+		</GoodyInfo>
+
+		<GoodyInfo> <!--Adds Withered and Plagued to any unit and damages it-->
+			<Type>GOODY_EXPLORE_LAIR_DEN_WITHERED</Type>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_ANIMAL_MAJOR</GoodyClassType>	
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>500</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_WITHERED</Description>
+			<iDestroyLairChance>60</iDestroyLairChance>
+			<bBad>1</bBad>
+			<Sound>AS2D_GOODY_HOSTILE</Sound>
+			<PromotionAdds>
+				<Promotion>PROMOTION_WITHERED</Promotion>
+				<Promotion>PROMOTION_PLAGUED</Promotion>
+			</PromotionAdds>
+			<bAnyPromotion>1</bAnyPromotion>
+			<iHealing>-20</iHealing>
+			<DamageType>DAMAGE_POISON</DamageType>
+			<iDamageLimit>50</iDamageLimit>
+		</GoodyInfo>
+
+<!--Nature Minor Blood promotions alternative-->
+		<GoodyInfo> <!--Random Blood-->
+			<Type>GOODY_EXPLORE_LAIR_ANIMAL_BLOOD</Type>
+			<bForceOverwrite>1</bForceOverwrite>
+			<GoodyClasses>
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_NATURE_MINOR</GoodyClassType>
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<iWeight>800</iWeight>
+			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_ANIMAL_BLOOD</Description>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<iDestroyLairChance>80</iDestroyLairChance>
+			<PythonCallback>ExploreLairAnimalBlood</PythonCallback>
+			<PythonPrereq>ReqLairAnimalBlood</PythonPrereq>
+			<bBad>0</bBad>
+			<iHealing>-10</iHealing>
+			<DamageType>DAMAGE_PHYSICAL</DamageType>
+			<iDamageLimit>50</iDamageLimit>
+		</GoodyInfo>
+
+	</GoodyInfos>
+</Civ4GoodyInfo>		

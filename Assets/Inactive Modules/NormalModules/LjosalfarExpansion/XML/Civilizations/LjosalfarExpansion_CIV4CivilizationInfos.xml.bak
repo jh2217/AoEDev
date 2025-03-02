@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4CivilizationInfos xmlns="x-schema:LjosalfarExpansion_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+			<CivilizationInfo><!-- Ljosalfar -->
+			<Type>CIVILIZATION_LJOSALFAR</Type>
+			<Buildings>
+			<Building>
+					<BuildingClassType>BUILDINGCLASS_HUNTERS_HALL</BuildingClassType>
+					<BuildingType>BUILDING_HUNTERS_HALL_LJOS</BuildingType>
+				</Building>
+			<Building>
+					<BuildingClassType>BUILDINGCLASS_ARCHERY_RANGE</BuildingClassType>
+					<BuildingType>BUILDING_ARCHERY_RANGE_LJOS</BuildingType>
+				</Building>
+			<Building>
+					<BuildingClassType>BUILDINGCLASS_ARCHERY_RANGE_UPGRADE</BuildingClassType>
+					<BuildingType>BUILDING_ARCHERY_RANGE_UPGRADE_LJOS</BuildingType>
+				</Building>
+				</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+					<UnitType>UNIT_WARRIOR_LJOS</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+					<UnitType>UNIT_ARCHER_LJOS</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LONGBOWMAN</UnitClassType>
+					<UnitType>UNIT_LONGBOWMAN_LJOS</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARQUEBUS</UnitClassType>
+					<UnitType>UNIT_FLURRY</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MARKSMAN</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_HUNTER</UnitClassType>
+					<UnitType>UNIT_HUNTER_LJOS</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_RANGER</UnitClassType>
+					<UnitType>UNIT_RANGER_LJOS</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_BEASTMASTER</UnitClassType>
+					<UnitType>UNIT_BEASTMASTER_LJOS</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+					<UnitType>UNIT_WARRIOR_LJOS</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
+					<UnitType>UNIT_FYRDWELL</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_FYRDWELL_CHAMPION</UnitClassType>
+					<UnitType>UNIT_FYRDWELL_CHAMPION</UnitType>
+				</Unit>
+			</Units>
+			
+		</CivilizationInfo>
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

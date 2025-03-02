@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FYRDWELL_CHAMPION</Tag>
+		<English>Fyrdwell Champion</English>
+		<French>Fyrdwell Champion</French>
+		<German>Fyrdwell Champion</German>
+		<Italian>Fyrdwell Champion</Italian>
+		<Spanish>Fyrdwell Champion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FYRDWELL_CHAMPION_PEDIA</Tag>
+		<English>TXT_KEY_UNIT_FYRDWELL_CHAMPION_PEDIA</English>
+		<French>TXT_KEY_UNIT_FYRDWELL_CHAMPION_PEDIA</French>
+		<German>TXT_KEY_UNIT_FYRDWELL_CHAMPION_PEDIA</German>
+		<Italian>TXT_KEY_UNIT_FYRDWELL_CHAMPION_PEDIA</Italian>
+		<Spanish>TXT_KEY_UNIT_FYRDWELL_CHAMPION_PEDIA</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FYRDWELL_CHAMPION_STRATEGY</Tag>
+		<English>TXT_KEY_UNIT_FYRDWELL_CHAMPION_STRATEGY</English>
+		<French>TXT_KEY_UNIT_FYRDWELL_CHAMPION_STRATEGY</French>
+		<German>TXT_KEY_UNIT_FYRDWELL_CHAMPION_STRATEGY</German>
+		<Italian>TXT_KEY_UNIT_FYRDWELL_CHAMPION_STRATEGY</Italian>
+		<Spanish>TXT_KEY_UNIT_FYRDWELL_CHAMPION_STRATEGY</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FOREST_RANGER</Tag>
+		<English>Forest Ranger</English>
+		<French>Forest Ranger</French>
+		<German>Forest Ranger</German>
+		<Italian>Forest Ranger</Italian>
+		<Spanish>Forest Ranger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FOREST_RANGER_HELP</Tag>
+		<English>Hides Unit in Acient Forest</English>
+		<French>Hides Unit in Acient Forest</French>
+		<German>Hides Unit in Acient Forest</German>
+		<Italian>Hides Unit in Acient Forest</Italian>
+		<Spanish>Hides Unit in Acient Forest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FOREST_HIDDEN</Tag>
+		<English>Forest Hidden</English>
+		<French>Forest Hidden</French>
+		<German>Forest Hidden</German>
+		<Italian>Forest Hidden</Italian>
+		<Spanish>Forest Hidden</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GUARDIAN_WOODS</Tag>
+		<English>Guardian of the Woods</English>
+		<French>Guardian of the Woods</French>
+		<German>Guardian of the Woods</German>
+		<Italian>Guardian of the Woods</Italian>
+		<Spanish>Guardian of the Woods</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GUARDIAN_WOODS_SHORT</Tag>
+		<English>GotW</English>
+		<French>GotW</French>
+		<German>GotW</German>
+		<Italian>GotW</Italian>
+		<Spanish>GotW</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GUARDIAN_WOODS2_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]All Units get homeland promotion.</English>
+		<French>[NEWLINE][ICON_BULLET]All Units get homeland promotion.</French>
+		<German>[NEWLINE][ICON_BULLET]All Units get homeland promotion.</German>
+		<Italian>[NEWLINE][ICON_BULLET]All Units get homeland promotion.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]All Units get homeland promotion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DUSKBOW_LJOS</Tag>
+		<English>Duskbow</English>
+		<French>Duskbow</French>
+		<German>Duskbow</German>
+		<Italian>Duskbow</Italian>
+		<Spanish>Duskbow</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DUSKBOW_LJOS_PEDIA</Tag>
+		<English>As the sun fades, these elite marksmen put to sleep those who dare harm the homelands of the elves.</English>
+		<French>As the sun fades, these elite marksmen put to sleep those who dare harm the homelands of the elves.</French>
+		<German>As the sun fades, these elite marksmen put to sleep those who dare harm the homelands of the elves.</German>
+		<Italian>As the sun fades, these elite marksmen put to sleep those who dare harm the homelands of the elves.</Italian>
+		<Spanish>As the sun fades, these elite marksmen put to sleep those who dare harm the homelands of the elves.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DEFENDER_LJOS</Tag>
+		<English>Defender</English>
+		<French>Defender</French>
+		<German>Defender</German>
+		<Italian>Defender</Italian>
+		<Spanish>Defender</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GUARDIAN_LJOS</Tag>
+		<English>Guardian</English>
+		<French>Guardian</French>
+		<German>Guardian</German>
+		<Italian>Guardian</Italian>
+		<Spanish>Guardian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WARDEN_LJOS</Tag>
+		<English>Warden</English>
+		<French>Warden</French>
+		<German>Warden</German>
+		<Italian>Warden</Italian>
+		<Spanish>Warden</Spanish>
+	</TEXT>
+	
+	
+	
+</Civ4GameText>

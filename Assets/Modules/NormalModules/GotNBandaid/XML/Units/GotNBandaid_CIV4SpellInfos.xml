@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:GotNBandaid_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+		<SpellInfo>			<!-- Recruit Mercenary (Hippus) -->			<!-- HIPPUS SPELLS -->
+			<Type>SPELL_RECRUIT_MERCENARY_HIPPUS</Type>
+			<Description>TXT_KEY_SPELL_RECRUIT_MERCENARY</Description>
+			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
+			<Help>TXT_KEY_SPELL_RECRUIT_MERCENARY_HELP</Help>
+			<UnitPrereq>UNIT_FORT_COMMANDER</UnitPrereq>
+			<CivilizationPrereq>CIVILIZATION_HIPPUS</CivilizationPrereq>
+			<TechPrereq>TECH_CURRENCY</TechPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<iCost>180</iCost>
+			<PyResult>spellMercenary(pCaster)</PyResult>
+			<PyRequirement>reqMercenary(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_RECRUIT</Sound>
+			<Button>Art/Interface/Buttons/Units/Mercenary.dds</Button>
+		</SpellInfo>
+				<SpellInfo>			<!-- Recruit Mercenary -->
+			<Type>SPELL_RECRUIT_MERCENARY</Type>
+			<Description>TXT_KEY_SPELL_RECRUIT_MERCENARY</Description>
+			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
+			<Help>TXT_KEY_SPELL_RECRUIT_MERCENARY_HELP</Help>
+			<BuildingClassOwnedPrereq>BUILDINGCLASS_GUILD_OF_THE_NINE</BuildingClassOwnedPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bInBordersOnly>1</bInBordersOnly>
+			<bInCityOnly>1</bInCityOnly>
+			<bHasCasted>1</bHasCasted>
+			<iCost>120</iCost>
+			<PyRequirement>reqMercenary(pCaster)</PyRequirement>
+			<PyResult>spellMercenary(pCaster)</PyResult>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_RECRUIT</Sound>
+			<Button>Art/Interface/Buttons/Units/Mercenary.dds</Button>
+		</SpellInfo>
+	</SpellInfos>
+</Civ4SpellInfos>

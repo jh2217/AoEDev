@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Misc -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_FISHERMANS_GUILD_PEDIA</Tag>
+		<English>Starting as a small flotilla of fishing boats that operated in unison, the Kingfisher Brotherhood quickly spread to be the sole food providers of Dunwich and had a sizable merchant presence in Innsmouth. Representatives of the guild travelled to other neighbouring ports in an effort to spread its influence, meeting with mixed degrees of success.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Kingfisher Brotherhood allows you to use sea food resources to supply additional food and commerce to your coastal cities.[COLOR_REVERT]</English>
+		<French>Starting as a small flotilla of fishing boats that operated in unison, the Kingfisher Brotherhood quickly spread to be the sole food providers of Dunwich and had a sizable merchant presence in Innsmouth. Representatives of the guild travelled to other neighbouring ports in an effort to spread its influence, meeting with mixed degrees of success.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Kingfisher Brotherhood allows you to use sea food resources to supply additional food and commerce to your coastal cities.[COLOR_REVERT]</French>
+		<German>Die Bruderschaft des Eisvogels begann als kleine, im Einklang arbeitende Flotte aus Fischerbooten, die sich schnell zu den einzigen Nahrungsproduzenten von Dunwich aufschwang und eine bemerkenswerte Händlerpräsenz in Innsmouth aufweist. Vertreter der Gilde reisten zu anderen benachbarten Häfen und dehnten ihren Einfluss aus, mit mehr oder weniger großem Erfolg.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Die Bruderschaft des Eisvogels erhöht den Ertrag an Nahrung und Handel aus Meeresressourcen in Küstenstädten.[COLOR_REVERT]</German>
+		<Italian>Starting as a small flotilla of fishing boats that operated in unison, the Kingfisher Brotherhood quickly spread to be the sole food providers of Dunwich and had a sizable merchant presence in Innsmouth. Representatives of the guild travelled to other neighbouring ports in an effort to spread its influence, meeting with mixed degrees of success.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Kingfisher Brotherhood allows you to use sea food resources to supply additional food and commerce to your coastal cities.[COLOR_REVERT]</Italian>
+		<Spanish>Starting as a small flotilla of fishing boats that operated in unison, the Kingfisher Brotherhood quickly spread to be the sole food providers of Dunwich and had a sizable merchant presence in Innsmouth. Representatives of the guild travelled to other neighbouring ports in an effort to spread its influence, meeting with mixed degrees of success.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Kingfisher Brotherhood allows you to use sea food resources to supply additional food and commerce to your coastal cities.[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_FISHERMANS_GUILD</Tag>
+		<English>Kingfisher Brotherhood</English>
+		<French>Confrérie des martins-pêcheurs</French>
+		<German>Bruderschaft des Eisvogels</German>
+		<Italian>Kingfisher Brotherhood</Italian>
+		<Spanish>Kingfisher Brotherhood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FISHER</Tag>
+		<English>Kingfisher Wharf</English>
+		<French>Quai des martins-pêcheurs</French>
+		<German>Landeplatz des Eisvogels</German>
+		<Italian>Kingfisher Wharf</Italian>
+		<Spanish>Kingfisher Wharf</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FISHER_PEDIA</Tag>
+		<English>The Kingfisher Wharf in Dunwich was home to the Kingfisher Brotherhood, a mercantile group that gained great influence due to their expertise at sea.</English>
+		<French>The Kingfisher Wharf in Dunwich was home to the Kingfisher Brotherhood, a mercantile group that gained great influence due to their expertise at sea.</French>
+		<German>Der Kontor der Eisvögel in Dunwich war das Heim der Bruderschaft der Königsfischer, einer Händlervereinigung, die durch ihre Erfahrung und ihren Erfolg auf See zu sehr großen Einfluß gelangte.</German>
+		<Italian>The Kingfisher Wharf in Dunwich was home to the Kingfisher Brotherhood, a mercantile group that gained great influence due to their expertise at sea.</Italian>
+		<Spanish>The Kingfisher Wharf in Dunwich was home to the Kingfisher Brotherhood, a mercantile group that gained great influence due to their expertise at sea.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FISHER_STRATEGY</Tag>
+		<English>Building the Kingfisher Wharf creates the Kingfisher Brotherhood in your city. This guild may then be spread using fishing boats, provided the city has access to at least one of the appropriate resources.</English>
+		<French>Building the Kingfisher Wharf creates the Kingfisher Brotherhood in your city. This guild may then be spread using fishing boats, provided the city has access to at least one of the appropriate resources.</French>
+		<German>Der Bau des Landeplatzes des Eisvogels gründet die Bruderschaft des Eisvogels in Eurer Stadt. Diese Gilde könnt Ihr durch Fischerboote verbreiten, vorausgesetzt, die Stadt hat Zugang zu mindestens einer der dazugehörigen Resourcen.</German>
+		<Italian>Building the Kingfisher Wharf creates the Kingfisher Brotherhood in your city. This guild may then be spread using fishing boats, provided the city has access to at least one of the appropriate resources.</Italian>
+		<Spanish>Building the Kingfisher Wharf creates the Kingfisher Brotherhood in your city. This guild may then be spread using fishing boats, provided the city has access to at least one of the appropriate resources.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FISHER_HELP</Tag>
+		<English>[ICON_BULLET]Spreads "Kingfisher Brotherhood" to city</English>
+		<French>[ICON_BULLET]Propage la confrérie des martins-pêcheurs à la ville</French>
+		<German>[ICON_BULLET]Breitet die "Bruderschaft des Eisvogels" in der Stadt aus.</German>
+		<Italian>[ICON_BULLET]Spreads "Kingfisher Brotherhood" to city</Italian>
+		<Spanish>[ICON_BULLET]Spreads "Kingfisher Brotherhood" to city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FISHINGBOAT</Tag>
+		<English>Fishing Boat</English>
+		<French>Bateau de pêche</French>
+		<German>Fischerboot</German>
+		<Italian>Fishing Boat</Italian>
+		<Spanish>Fishing Boat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FISHINGBOAT_PEDIA</Tag>
+		<English>The Kingfisher Brotherhood are master fisherman and an organized merchant group.</English>
+		<French>La confrérie des martins-pêcheurs est un groupe organisé de pêcheurs et commerçants.</French>
+		<German>Die Bruderschaft des Eisvogels sind Meisterfischer und eine gut organisierte Händlervereinigung.</German>
+		<Italian>The Kingfisher Brotherhood are master fisherman and an organized merchant group.</Italian>
+		<Spanish>The Kingfisher Brotherhood are master fisherman and an organized merchant group.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FISHINGBOAT_STRATEGY</Tag>
+		<English>You can use Fishing Boats to spread the "Kingfisher Brotherhood" to your coastal cities.</English>
+		<French>Utilisez les bateaux de pêche pour propager la guilde des martins-pêcheurs à vos villes côtières.</French>
+		<German>Ihr könnt Fischerboote benutzen, um die "Bruderschaft des Eisvogels" in Euren Küstenstädten zu verbreiten.</German>
+		<Italian>You can use Fishing Boats to spread the "Kingfisher Brotherhood" to your coastal cities.</Italian>
+		<Spanish>You can use Fishing Boats to spread the "Kingfisher Brotherhood" to your coastal cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_MASQUERADE</Tag>
+		<English>Masquerade</English>
+		<French>Mascarade</French>
+		<German>Maskerade</German>
+		<Italian>Masquerade</Italian>
+		<Spanish>Masquerade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_MASQUERADE_PEDIA</Tag>
+		<English>The Masquerade troupe is a travelling circus, infamous for their part in releasing Perpentach from his tower and influencing the nature of the Balseraph nation. They are as well known for their extravagant and brightly coloured costumes as they are for their stunning displays of acrobatics and petty magic.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]A city which is regularly visited by Masquerade will benefit from additional Culture and Commerce for each textile or dye resource you can provide them with. This guild is also required in order to build Carnival, Masquerade is automatically present in all cities that the Balseraphs found.[COLOR_REVERT]</English>
+		<French>The Masquerade troupe is a travelling circus, infamous for their part in releasing Perpentach from his tower and influencing the nature of the Balseraph nation. They are as well known for their extravagant and brightly coloured costumes as they are for their stunning displays of acrobatics and petty magic.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]A city which is regularly visited by Masquerade will benefit from additional Culture and Commerce for each textile or dye resource you can provide them with. This guild is also required in order to build Carnival, Masquerade is automatically present in all cities that the Balseraphs found.[COLOR_REVERT]</French>
+		<German>Die Gruppe der Maskerade ist ein Wanderzirkus, berüchtigt für ihre Mitwirkung bei der Befreiung von Perpentach aus seinem Turm und die Unterwanderung des gesamten Volkes der Balseraph. Sind sind überall ebenso bekannt für ihre extravaganten und in hellen Farben leuchtenden Kostüme wie auch für ihre beeindruckenden Vorführungen von Akrobatik und niederer Magie.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Eine Stadt, die regelmäßig von der Maskerade besucht wird, profitiert von zusätzlichem Kultur- und Handelsausstoß im Tausch für jede Stoffe- und Färbemittel Ressource, mit der man sie versorgen kann. Diese Gilde wird außerdem zum Bau des Karnivals benötigt und ist von Beginn an in jeder von den Balseraph gegründeten Stadt ansässig.[COLOR_REVERT]</German>
+		<Italian>The Masquerade troupe is a travelling circus, infamous for their part in releasing Perpentach from his tower and influencing the nature of the Balseraph nation. They are as well known for their extravagant and brightly coloured costumes as they are for their stunning displays of acrobatics and petty magic.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]A city which is regularly visited by Masquerade will benefit from additional Culture and Commerce for each textile or dye resource you can provide them with. This guild is also required in order to build Carnival, Masquerade is automatically present in all cities that the Balseraphs found.[COLOR_REVERT]</Italian>
+		<Spanish>The Masquerade troupe is a travelling circus, infamous for their part in releasing Perpentach from his tower and influencing the nature of the Balseraph nation. They are as well known for their extravagant and brightly coloured costumes as they are for their stunning displays of acrobatics and petty magic.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]A city which is regularly visited by Masquerade will benefit from additional Culture and Commerce for each textile or dye resource you can provide them with. This guild is also required in order to build Carnival, Masquerade is automatically present in all cities that the Balseraphs found.[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_MASQUERADE_GYPSY_CAMP</Tag>
+		<English>Masquerade Gypsy Camp</English>
+		<French>Camp tsigane de la Mascarade</French>
+		<German>Lager der Maskerade</German>
+		<Italian>Masquerade Gypsy Camp</Italian>
+		<Spanish>Masquerade Gypsy Camp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_MASQUERADE_GYPSY_CAMP_PEDIA</Tag>
+		<English>The campsite of Masquerade is a famously chaotic sight in which the performers practice their art. It is typically located close to the town, though locals are rarely welcomed.</English>
+		<French>The campsite of Masquerade is a famously chaotic sight in which the performers practice their art. It is typically located close to the town, though locals are rarely welcomed</French>
+		<German>Das Lager der Maskerade ist ein berühmt-berüchtigter und chaotischer Treffpunkt für die Künstler der Bewegung. Nahe der jeweiligen Stadt gelegen, dient sie der übung, der Suche nach Ideen und Besucher aus der Gegend sind - zumindest hier - selten willkommen.</German>
+		<Italian>The campsite of Masquerade is a famously chaotic sight in which the performers practice their art. It is typically located close to the town, though locals are rarely welcomed</Italian>
+		<Spanish>The campsite of Masquerade is a famously chaotic sight in which the performers practice their art. It is typically located close to the town, though locals are rarely welcomed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_MASQUERADE_GYPSY_CAMP_STRATEGY</Tag>
+		<English>Building the Masquerade Gypsy Camp allows the troupe to travel to your cities, via gypsy wagons.</English>
+		<French>Construire le camp tsigane de la Mascarade permet à la troupe de voyager vers vos autres villes, grâce à leurs caravanes.</French>
+		<German>Der Bau des Lagers der Maskerade macht es der Truppe möglich, mit Schaustellerwagen andere Städte anzufahren.</German>
+		<Italian>Building the Masquerade Gypsy Camp allows the troupe to travel to your cities, via gypsy wagons.</Italian>
+		<Spanish>Building the Masquerade Gypsy Camp allows the troupe to travel to your cities, via gypsy wagons.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_MASQUERADE_GYPSY_CAMP_HELP</Tag>
+		<English>[ICON_BULLET]Spreads "Masquerade" to city</English>
+		<French>[ICON_BULLET]Propage "Mascarade" à la ville.</French>
+		<German>[ICON_BULLET]Die "Maskerade" hat sich in der Stadt ausgebreitet</German>
+		<Italian>[ICON_BULLET]Spreads "Masquerade" to city</Italian>
+		<Spanish>[ICON_BULLET]Spreads "Masquerade" to city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MASQUERADE_GYPSY_WAGON</Tag>
+		<English>Masquerade Gypsy Wagon</English>
+		<French>Caravane tsigane de la Mascarade</French>
+		<German>Schaustellerwagen der Maskerade</German>
+		<Italian>Masquerade Gypsy Wagon</Italian>
+		<Spanish>Masquerade Gypsy Wagon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MASQUERADE_GYPSY_WAGON_PEDIA</Tag>
+		<English>Masquerade performers travel between cities in these wagons, which take many forms from a simple horse and cart to a mobile palace, depending on the success and tastes of the performers.</English>
+		<French>Masquerade performers travel between cities in these wagons, which take many forms from a simple horse and cart to a mobile palace, depending on the success and tastes of the performers.</French>
+		<German>Schausteller der Maskerade reisen in den Schaustellerwagen zwischen den Städten hin und her, wobei diese Wagen einfache Fuhrwerke oder aber auch fahrbare Paläste sein können, je nach Erfolg und Geschmack der Künstler.</German>
+		<Italian>Masquerade performers travel between cities in these wagons, which take many forms from a simple horse and cart to a mobile palace, depending on the success and tastes of the performers.</Italian>
+		<Spanish>Masquerade performers travel between cities in these wagons, which take many forms from a simple horse and cart to a mobile palace, depending on the success and tastes of the performers.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MASQUERADE_GYPSY_WAGON_STRATEGY</Tag>
+		<English>You can use gypsy wagons to direct Masquerade to visit your cities.</English>
+		<French>You can use gypsy wagons to direct Masquerade to visit your cities.</French>
+		<German>Ihr könnt Schaustellerwagen benutzen, um die Maskerade in Eure Städte zu locken.</German>
+		<Italian>You can use gypsy wagons to direct Masquerade to visit your cities.</Italian>
+		<Spanish>You can use gypsy wagons to direct Masquerade to visit your cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_FARMERS_GUILD</Tag>
+		<English>Farmers Guild</English>
+		<French>Guilde des fermiers</French>
+		<German>Gilde der Landwirte</German>
+		<Italian>Farmers Guild</Italian>
+		<Spanish>Farmers Guild</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_FARMERS_GUILD_PEDIA</Tag>
+		<English>With the development of organized farming techniques (which replaced homegrown produce), small groups of local farmers began to co-operate rather than compete. By deciding which members would be responsible for producing a certain good, the farmers increased the amount and quality of food that was supplied to the cities. They were also able to hold Farmer's Markets, with fixed pricing, to further improve the profitability of their produce.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Farmer's Guild supplies additional food per city for each food resource you control. It also allows the construction of Farmer's Markets.[COLOR_REVERT]</English>
+		<French>With the development of organized farming techniques (which replaced homegrown produce), small groups of local farmers began to co-operate rather than compete. By deciding which members would be responsible for producing a certain good, the farmers increased the amount and quality of food that was supplied to the cities. They were also able to hold Farmer's Markets, with fixed pricing, to further improve the profitability of their produce.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Farmer's Guild supplies additional food per city for each food resource you control. It also allows the construction of Farmer's Markets.[COLOR_REVERT]</French>
+		<German>Mit der Entwicklung der organisierten Landwirtschaft (die den Eigenanbau ersetzt) begannen kleine Gruppen von regionalen Bauern  miteinander zu kooperieren als zu konkurrieren. Durch die Entscheidung, sich auf die Produktion bestimmter Nahrungsgüter zu spezialisieren, erhöhten die Bauern und Landwirte die Menge und Qualität der Nahrung, die sie zur Versorgung der Städte zur Verfügung stand. Außerdem einigten sie sich auf die Einführung von eigenen Märkten. Der "Markt der Landwirte", der die Kontrolle über die Preise innehat, verbessert die Wirtschaftlichkeit ihrer Produktion.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Die Gilde der Landwirte liefert zusätzliche Nahrung in der Stadt für jede Nahrungsressource, die man kontrolliert. Außerdem erlaubt sie den Bau des Marktes der Landwirte.[COLOR_REVERT]</German>
+		<Italian>With the development of organized farming techniques (which replaced homegrown produce), small groups of local farmers began to co-operate rather than compete. By deciding which members would be responsible for producing a certain good, the farmers increased the amount and quality of food that was supplied to the cities. They were also able to hold Farmer's Markets, with fixed pricing, to further improve the profitability of their produce.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Farmer's Guild supplies additional food per city for each food resource you control. It also allows the construction of Farmer's Markets.[COLOR_REVERT]</Italian>
+		<Spanish>With the development of organized farming techniques (which replaced homegrown produce), small groups of local farmers began to co-operate rather than compete. By deciding which members would be responsible for producing a certain good, the farmers increased the amount and quality of food that was supplied to the cities. They were also able to hold Farmer's Markets, with fixed pricing, to further improve the profitability of their produce.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Farmer's Guild supplies additional food per city for each food resource you control. It also allows the construction of Farmer's Markets.[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FARMERS_GUILD</Tag>
+		<English>Farmers Guildhall</English>
+		<French>Hall de guilde des fermiers</French>
+		<German>Gildenhaus der Landwirte</German>
+		<Italian>Farmers Guildhall</Italian>
+		<Spanish>Farmers Guildhall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FARMERS_GUILD_PEDIA</Tag>
+		<English>Meetings of the Farmer's Guild are conducted in a Guildhall, with organization of quotas and fixing of prices being the normal points of business.</English>
+		<French>Meetings of the Farmer's Guild are conducted in a Guildhall, with organization of quotas and fixing of prices being the normal points of business.</French>
+		<German>Die Treffen der Landwirtgilde wird in einem Gildenhaus abgehalten, wobei Quoten und Preise festgelegt werden, was ja auch Sinn der Sache sein sollte.</German>
+		<Italian>Meetings of the Farmer's Guild are conducted in a Guildhall, with organization of quotas and fixing of prices being the normal points of business.</Italian>
+		<Spanish>Meetings of the Farmer's Guild are conducted in a Guildhall, with organization of quotas and fixing of prices being the normal points of business.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FARMERS_GUILD_STRATEGY</Tag>
+		<English>The Farmers Guildhall will create a Farming Guild in your city, which can be spread to other cities using Farmer units.</English>
+		<French>The Farmers Guildhall will create a Farming Guild in your city, which can be spread to other cities using Farmer units.</French>
+		<German>Das Gildenhaus der Landwirte gründet eine Gilde der Landwirte in dieser Stadt, die sich dann mithilfe von Lanwirten auf andere Städte verbreiten kann.</German>
+		<Italian>The Farmers Guildhall will create a Farming Guild in your city, which can be spread to other cities using Farmer units.</Italian>
+		<Spanish>The Farmers Guildhall will create a Farming Guild in your city, which can be spread to other cities using Farmer units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FARMERS_GUILD_HELP</Tag>
+		<English>[ICON_BULLET]Creates "Farmers Guild" in city.</English>
+		<French>[ICON_BULLET]Crée la "Guilde des fermiers" dans la ville</French>
+		<German>[ICON_BULLET]Gründet "Gilde der Landwirte" in der Stadt.</German>
+		<Italian>[ICON_BULLET]Creates "Farmers Guild" in city.</Italian>
+		<Spanish>[ICON_BULLET]Creates "Farmers Guild" in city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FARMERS_GUILD_FARMER</Tag>
+		<English>Farmer</English>
+		<French>Fermier</French>
+		<German>Landwirt</German>
+		<Italian>Farmer</Italian>
+		<Spanish>Farmer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FARMERS_GUILD_FARMER_PEDIA</Tag>
+		<English>Farmers rarely travel far from their home settlement, but when they do they often carry with them ideas that spread to others in their new community.</English>
+		<French>Farmers rarely travel far from their home settlement, but when they do they often carry with them ideas that spread to others in their new community.</French>
+		<German>Landwirte verlassen selten ihre Heimat, aber wenn sie es doch tun, dann nehmen sie ihr Wissen und Ideen mit sich, um sie in der neuen Umgebung zu verbreiten. Und dann mit Erfolg.</German>
+		<Italian>Farmers rarely travel far from their home settlement, but when they do they often carry with them ideas that spread to others in their new community.</Italian>
+		<Spanish>Farmers rarely travel far from their home settlement, but when they do they often carry with them ideas that spread to others in their new community.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FARMERS_GUILD_FARMER_STRATEGY</Tag>
+		<English>Use Farmers to spread the Farmers Guild in your cities.</English>
+		<French>Utilisez les fermiers pour propager la guilde des fermiers à vos villes.</French>
+		<German>Landwirte werden benötigt, um eine Zweigstelle der Gilde der Landwirte in den Städten zu errichten.</German>
+		<Italian>Use Farmers to spread the Farmers Guild in your cities.</Italian>
+		<Spanish>Use Farmers to spread the Farmers Guild in your cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_FABRICAFORMA</Tag>
+		<English>Fabricaforma</English>
+		<French>Fabricaforma</French>
+		<German>Fabricaforma</German>
+		<Italian>Fabricaforma</Italian>
+		<Spanish>Fabricaforma</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_FABRICAFORMA_PEDIA</Tag>
+		<English>Fabricaforma was more of a philosophy than an organized guild, though it certainly held guild meetings and wielded considerable power in the Dural empire. Starting in Brookden, a group of artisans believed that the form of an object was just as important as its ability to fulfill its purpose. Inspired by artifacts from ancient Patria (which are reknowned for their dark beauty), the guild encouraged all smiths and masons to embellish and decorate their work such that the artistry of the Dural became legendary amongst their neighbours. These influences even spread into some of the vast Kuriotate cities, though the neighbouring Bannor were less impressed by the fancy smithing.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Fabricaforma provides Gold, Culture and raw Commerce for each of the luxury resources listed. This guild competes with the Stonefire guild.[COLOR_REVERT]</English>
+		<French>Fabricaforma was more of a philosophy than an organized guild, though it certainly held guild meetings and wielded considerable power in the Dural empire. Starting in Brookden, a group of artisans believed that the form of an object was just as important as its ability to fulfill its purpose. Inspired by artifacts from ancient Patria (which are reknowned for their dark beauty), the guild encouraged all smiths and masons to embellish and decorate their work such that the artistry of the Dural became legendary amongst their neighbours. These influences even spread into some of the vast Kuriotate cities, though the neighbouring Bannor were less impressed by the fancy smithing.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Fabricaforma provides Gold, Culture and raw Commerce for each of the luxury resources listed. This guild competes with the Stonefire guild.[COLOR_REVERT]</French>
+		<German>Fabricaforma war mehr eine Weltanschauung als eine organisierte Gilde, obwohl es natürlich auch Gildentreffen gab und sie eine beachtliche Macht im Dural Reich innehatte. Angefangen hat alles in Brookden, wo eine dort ansässige Gruppe von Handwerkern die &#220;berzeugung vertrat, daß die Form eines Objektes ebenso wichtig wie seine Funkionalität sei. Inspiriert durch die Artifakte des antiken Patria (die für ihre dunkle Schönheit geschätzt sind), ermutigte die Gilde alle Schmiede und Steinmetze, ihre Arbeiten dermaßen dekorativ zu planen und auszuschmücken, daß die Kunstfertigkeit der Dural bei allen Nachbarvölkern legendär wurde. Diese Einflüsse gelangten sogar bis in die gewaltigen Städte der Kuriotaten, allein die benachbarten Bannor waren etwas weniger beeindruckt von der ausgefallenen Schmiedekunst.[COLOR_HIGHLIGHT_TEXT]Fabricaforma liefert Gold, Kultur und Handel für jedes Luxusgut, das verfügbar ist. Diese Gilde steht im Wettstreit mit der Steinfeuer Gilde.[COLOR_REVERT]</German>
+		<Italian>Fabricaforma was more of a philosophy than an organized guild, though it certainly held guild meetings and wielded considerable power in the Dural empire. Starting in Brookden, a group of artisans believed that the form of an object was just as important as its ability to fulfill its purpose. Inspired by artifacts from ancient Patria (which are reknowned for their dark beauty), the guild encouraged all smiths and masons to embellish and decorate their work such that the artistry of the Dural became legendary amongst their neighbours. These influences even spread into some of the vast Kuriotate cities, though the neighbouring Bannor were less impressed by the fancy smithing.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Fabricaforma provides Gold, Culture and raw Commerce for each of the luxury resources listed. This guild competes with the Stonefire guild.[COLOR_REVERT]</Italian>
+		<Spanish>Fabricaforma was more of a philosophy than an organized guild, though it certainly held guild meetings and wielded considerable power in the Dural empire. Starting in Brookden, a group of artisans believed that the form of an object was just as important as its ability to fulfill its purpose. Inspired by artifacts from ancient Patria (which are reknowned for their dark beauty), the guild encouraged all smiths and masons to embellish and decorate their work such that the artistry of the Dural became legendary amongst their neighbours. These influences even spread into some of the vast Kuriotate cities, though the neighbouring Bannor were less impressed by the fancy smithing.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Fabricaforma provides Gold, Culture and raw Commerce for each of the luxury resources listed. This guild competes with the Stonefire guild.[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FABRICAFORMA</Tag>
+		<English>Fabricaforma Gallery</English>
+		<French>Fabricaforma Gallery</French>
+		<German>Fabricaforma Galerie</German>
+		<Italian>Fabricaforma Gallery</Italian>
+		<Spanish>Fabricaforma Gallery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FABRICAFORMA_PEDIA</Tag>
+		<English>The Gallery of the Fabricaforma in Brookden is amongst the finest architectural works of the Dural. From the finely carved oak doors to the ornate supporting columns, every inch of the structure is a testament to their philosophy.</English>
+		<French>The Gallery of the Fabricaforma in Brookden is amongst the finest architectural works of the Dural. From the finely carved oak doors to the ornate supporting columns, every inch of the structure is a testament to their philosophy.</French>
+		<German>Die Gallerie der Fabricaforma in Brookden gehört zu den besten Arbeiten der Dural in der Architektur. Von den feinen Schnitzereien der Eichentore bis hin zu den Verzierungen der Sützsäulen, jeder Millimeter ist ein Zeugnis ihrer Philosophie.</German>
+		<Italian>The Gallery of the Fabricaforma in Brookden is amongst the finest architectural works of the Dural. From the finely carved oak doors to the ornate supporting columns, every inch of the structure is a testament to their philosophy.</Italian>
+		<Spanish>The Gallery of the Fabricaforma in Brookden is amongst the finest architectural works of the Dural. From the finely carved oak doors to the ornate supporting columns, every inch of the structure is a testament to their philosophy.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FABRICAFORMA_STRATEGY</Tag>
+		<English>The Fabricaforma Gallery will create the Fabricaforma guild in your city. It can then be further spread using Artisans trained at the guildhall.</English>
+		<French>The Fabricaforma Gallery will create the Fabricaforma guild in your city. It can then be further spread using Artisans trained at the guildhall.</French>
+		<German>Die Fabricaforma Gallerie erschafft die Fabricaforma Gilde in dieser Stadt. Letztere kann dann durch Kunsthandwerker, die in der Gallerie ausgebildet werden können, weiter verbreitet werden.</German>
+		<Italian>The Fabricaforma Gallery will create the Fabricaforma guild in your city. It can then be further spread using Artisans trained at the guildhall.</Italian>
+		<Spanish>The Fabricaforma Gallery will create the Fabricaforma guild in your city. It can then be further spread using Artisans trained at the guildhall.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_FABRICAFORMA_HELP</Tag>
+		<English>[ICON_BULLET]Creates "Fabricaforma" in city.</English>
+		<French>[ICON_BULLET]Crée "Fabricaforma" dans la ville.</French>
+		<German>[ICON_BULLET]Gründet "Fabricaforma" in der Stadt.</German>
+		<Italian>[ICON_BULLET]Creates "Fabricaforma" in city.</Italian>
+		<Spanish>[ICON_BULLET]Creates "Fabricaforma" in city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FABRICAFORMA_ARTISAN</Tag>
+		<English>Artisan</English>
+		<French>Artisan</French>
+		<German>Kunsthandwerker</German>
+		<Italian>Artisan</Italian>
+		<Spanish>Artisan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FABRICAFORMA_ARTISAN_PEDIA</Tag>
+		<English>Artisans of the Fabricaforma are highly skilled individuals. They often travel to neighbouring settlements and may instruct other craftsmen on their more advanced techniques.</English>
+		<French>Artisans of the Fabricaforma are highly skilled individuals. They often travel to neighbouring settlements and may instruct other craftsmen on their more advanced techniques.</French>
+		<German>Kunsthandwerker der Fabricaforma sind höchst geschulte Individuen. Sie reisen häufig in benachbarte Siedlungen, um dort andere Handwerker in ihren ausgefeilten Techniken zu unterrichten.</German>
+		<Italian>Artisans of the Fabricaforma are highly skilled individuals. They often travel to neighbouring settlements and may instruct other craftsmen on their more advanced techniques.</Italian>
+		<Spanish>Artisans of the Fabricaforma are highly skilled individuals. They often travel to neighbouring settlements and may instruct other craftsmen on their more advanced techniques.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FABRICAFORMA_ARTISAN_STRATEGY</Tag>
+		<English>Use these units to spread "Fabricaforma".</English>
+		<French>Use these units to spread "Fabricaforma".</French>
+		<German>Mithilfe der Kunsthandwerker kann sich der Wirkungskreis der "Fabricaforma" erweitern.</German>
+		<Italian>Use these units to spread "Fabricaforma".</Italian>
+		<Spanish>Use these units to spread "Fabricaforma".</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_STONEFIRE</Tag>
+		<English>Stonefire Guild</English>
+		<French>Guilde Pierrafeu</French>
+		<German>Gilde des Steinfeuers</German>
+		<Italian>Stonefire Guild</Italian>
+		<Spanish>Stonefire Guild</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_STONEFIRE_PEDIA</Tag>
+		<English>The Stonefire Guild originated in the Dwarven holds during the Age of Magic. Producers of strong and durable tools, weapons and armour, the services of the guild were much sought after by other nations. Their secrets were mostly lost during the Age of Ice, but a small part of their work lived on and was studied by Khazad smiths living in the Underhome. Now those smiths are venerable members of their community and offer training to members of the future generations that prove themselves worthy.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Stonefire guild provides Gold and Production for each of the production resources listed. This guild competes with Fabricaforma.[COLOR_REVERT]</English>
+		<French>The Stonefire Guild originated in the Dwarven holds during the Age of Magic. Producers of strong and durable tools, weapons and armour, the services of the guild were much sought after by other nations. Their secrets were mostly lost during the Age of Ice, but a small part of their work lived on and was studied by Khazad smiths living in the Underhome. Now those smiths are venerable members of their community and offer training to members of the future generations that prove themselves worthy.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Stonefire guild provides Gold and Production for each of the production resources listed. This guild competes with Fabricaforma.[COLOR_REVERT]</French>
+		<German>Die Gilde des Steinfeuers hat ihren Ursprung in den Zwergengebieten während des Zeitalters der Magie. Als Produzenten von starken und dauerhaften Werkzeugen und von überlegenen, belastbareren Waffen und Rüstung waren die Dienste der Gilde bei den anderen Nationen heiß begehrt. Ein Großteil ihrer Geheimnisse ging während des Zeitalters des Eises verloren, aber ein kleiner Teil ihrer Arbeit überdauerte und wurde von den Khazad Schmieden studiert. Mittlerweile werden die Schmiede als bedeutende Mitglieder der Gesellschaft verehrt und geben ihr Wissen an Vertreter nachfolgender Generationen, die sich als würdig erweisen, weiter.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Die Steinfeuer Gilde liefert Gold und Produktion für jede Produktionsressource, die in der Stadt verfügbar ist. Die Gilde steht darüber hinaus in Konkurrenz mit der Fabricaforma Gilde.[COLOR_REVERT]</German>
+		<Italian>The Stonefire Guild originated in the Dwarven holds during the Age of Magic. Producers of strong and durable tools, weapons and armour, the services of the guild were much sought after by other nations. Their secrets were mostly lost during the Age of Ice, but a small part of their work lived on and was studied by Khazad smiths living in the Underhome. Now those smiths are venerable members of their community and offer training to members of the future generations that prove themselves worthy.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Stonefire guild provides Gold and Production for each of the production resources listed. This guild competes with Fabricaforma.[COLOR_REVERT]</Italian>
+		<Spanish>The Stonefire Guild originated in the Dwarven holds during the Age of Magic. Producers of strong and durable tools, weapons and armour, the services of the guild were much sought after by other nations. Their secrets were mostly lost during the Age of Ice, but a small part of their work lived on and was studied by Khazad smiths living in the Underhome. Now those smiths are venerable members of their community and offer training to members of the future generations that prove themselves worthy.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]The Stonefire guild provides Gold and Production for each of the production resources listed. This guild competes with Fabricaforma.[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_STONEFIRE</Tag>
+		<English>Stonefire Forge</English>
+		<French>Forge Pierrafeu</French>
+		<German>Schmiede des Steinfeuers</German>
+		<Italian>Stonefire Forge</Italian>
+		<Spanish>Stonefire Forge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_STONEFIRE_PEDIA</Tag>
+		<English>The Stonefire Forge of Stoville is considered amongst dwarves to be the most prestigious forge of the empire, home of the surviving members of those who studied the works of the original Stonefire clan.</English>
+		<French>The Stonefire Forge of Stoville is considered amongst dwarves to be the most prestigious forge of the empire, home of the surviving members of those who studied the works of the original Stonefire clan.</French>
+		<German>Die Schmiede des Steinfeuers von Stoville wird unter den Zwergen als die bemerkenswerteste und angesehenste Schmiede des Reiches betrachtet, Heimat der überlebenden des ursprünglichen Steinfeuer Clans, deren Fertigkeit und Wissen.</German>
+		<Italian>The Stonefire Forge of Stoville is considered amongst dwarves to be the most prestigious forge of the empire, home of the surviving members of those who studied the works of the original Stonefire clan.</Italian>
+		<Spanish>The Stonefire Forge of Stoville is considered amongst dwarves to be the most prestigious forge of the empire, home of the surviving members of those who studied the works of the original Stonefire clan.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_STONEFIRE_STRATEGY</Tag>
+		<English>The Stonefire Forge creates the Stonefire guild in your city, which may be further spread using Stonefire Smith units.</English>
+		<French>La forge Pierrafeu crée la guilde du même nom dans votre ville, qui peut être propagée au moyen de ses forgerons.</French>
+		<German>Die Schmiede des Steinfeuers gründet die Steinfeuer Gilde in Eurer Stadt, welche sich durch das Einsetzen von Schmieden des Steinfeuers weiter ausbreiten kann.</German>
+		<Italian>The Stonefire Forge creates the Stonefire guild in your city, which may be further spread using Stonefire Smith units.</Italian>
+		<Spanish>The Stonefire Forge creates the Stonefire guild in your city, which may be further spread using Stonefire Smith units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GUILD_STONEFIRE_HELP</Tag>
+		<English>[ICON_BULLET]Creates the Stonefire Guild in your city.</English>
+		<French>[ICON_BULLET]Crée la guilde Pierrafeu dans votre ville.</French>
+		<German>[ICON_BULLET]Gründet die Gilde des Steinfeuers in Eurer Stadt.</German>
+		<Italian>[ICON_BULLET]Creates the Stonefire Guild in your city.</Italian>
+		<Spanish>[ICON_BULLET]Creates the Stonefire Guild in your city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STONEFIRE_SMITH</Tag>
+		<English>Stonefire Smith</English>
+		<French>Forgeron Pierrafeu</French>
+		<German>Schmied des Steinfeuers</German>
+		<Italian>Stonefire Smith</Italian>
+		<Spanish>Stonefire Smith</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STONEFIRE_SMITH_PEDIA</Tag>
+		<English>Stonefire Smiths are master craftsmen and many apprentices are keen to trade hard work and sweat for their teachings.</English>
+		<French>Stonefire Smiths are master craftsmen and many apprentices are keen to trade hard work and sweat for their teachings.</French>
+		<German>Schmiede des Steinfeuers sind Meister ihrer Zunft und viele Lehrlinge sind ganz versessen darauf, diese Legenden der Steinfeuergilde mit harter Arbeit für ihren Unterricht zu entschädigen.</German>
+		<Italian>Stonefire Smiths are master craftsmen and many apprentices are keen to trade hard work and sweat for their teachings.</Italian>
+		<Spanish>Stonefire Smiths are master craftsmen and many apprentices are keen to trade hard work and sweat for their teachings.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STONEFIRE_SMITH_STRATEGY</Tag>
+		<English>Use this unit to spread the Stonefire Guild.</English>
+		<French>Utilisez cette unité pour propager la guilde Pierrafeu.</French>
+		<German>Mit diesen Einheiten wird die Gilde des Steinfeuers weiterverbreitet.</German>
+		<Italian>Use this unit to spread the Stonefire Guild.</Italian>
+		<Spanish>Use this unit to spread the Stonefire Guild.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FARMERS_MARKET</Tag>
+		<English>Farmers Market</English>
+		<French>Marché des fermiers</French>
+		<German>Markt der Landwirte</German>
+		<Italian>Farmers Market</Italian>
+		<Spanish>Farmers Market</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_THEATRE_MASQUERADE</Tag>
+		<English>Grand Playhouse</English>
+		<French>Grande Scène</French>
+		<German>Große Schaubühne</German>
+		<Italian>Grand Playhouse</Italian>
+		<Spanish>Grand Playhouse</Spanish>
+	</TEXT>
+</Civ4GameText>

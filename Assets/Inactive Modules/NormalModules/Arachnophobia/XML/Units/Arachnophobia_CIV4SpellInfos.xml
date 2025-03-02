@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:Arachnophobia_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+		<SpellInfo>			<!-- Upgrade to Giant Spider -->
+			<Type>SPELL_SPIDER_ARCHOS</Type>
+			<Description>TXT_KEY_SPELL_SPIDER_UPGRADE</Description>
+			<Help>TXT_KEY_SPELL_SPIDER_UPGRADE_HELP</Help>
+			<UnitPrereq>UNIT_SPIDER</UnitPrereq>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>300</iAIWeight>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
+			<ConvertUnitType>UNIT_GIANT_SPIDER</ConvertUnitType>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_COMMANDER_JOIN</Sound>
+			<PyRequirement>reqGiantSpiderUpgrade(pCaster)</PyRequirement>
+			<Button>Art/Interface/Buttons/Projects/Natures Revolt.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Wake Mother -->
+			<Type>SPELL_WAKE_MOTHER</Type>
+			<Description>TXT_KEY_SPELL_WAKE_MOTHER_ARACHNOPHOBIA</Description>
+			<Civilopedia>TXT_KEY_SPELL_WAKE_MOTHER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SPELL_WAKE_MOTHER_STRATEGY</Strategy>
+			<Help>TXT_KEY_SPELL_WAKE_MOTHER_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<bCityAction>1</bCityAction>
+			<TechPrereq>TECH_FERAL_BOND</TechPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bGlobal>1</bGlobal>
+			<Quote>TXT_KEY_GLOBALSPELL_WAKE_MOTHER</Quote>
+			<iAIWeight>300</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellWakeMother(pCaster)</PyResult>
+			<PyRequirement>reqWakeMother(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_RAISE_SKELETON</Sound>
+			<Button>Art/Interface/Buttons/Spells/Civs/Archos/WakeMother.dds</Button>
+			<bForceOverwrite>1</bForceOverwrite>
+		</SpellInfo>
+		
+		<SpellInfo>			<!-- Poison Explosion I-->
+			<Type>SPELL_POISON_EXPLOSION1</Type>
+			<Description>TXT_KEY_SPELL_POISON_EXPLOSION1</Description>
+			<Help>TXT_KEY_SPELL_POISON_EXPLOSION_HELP</Help>
+			<PromotionPrereq1>PROMOTION_SPIDER_RHAGODESSA</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<iRange>1</iRange>
+			<bResistable>1</bResistable>
+			<iResistModify>30</iResistModify>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_POISONED</AddPromotion>
+			</AddPromotions>
+			<bImmuneNotAlive>1</bImmuneNotAlive>
+			<bSacrificeCaster>1</bSacrificeCaster>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/PoisonExplosion1.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Poison Explosion II-->
+			<Type>SPELL_POISON_EXPLOSION2</Type>
+			<Description>TXT_KEY_SPELL_POISON_EXPLOSION2</Description>
+			<Help>TXT_KEY_SPELL_POISON_EXPLOSION_HELP</Help>
+			<PromotionPrereq1>PROMOTION_SPIDER_RHAGODESSA_GREATER</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<iRange>2</iRange>
+			<bResistable>1</bResistable>
+			<iResistModify>30</iResistModify>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_POISONED</AddPromotion>
+			</AddPromotions>
+			<bImmuneNotAlive>1</bImmuneNotAlive>
+			<bSacrificeCaster>1</bSacrificeCaster>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/PoisonExplosion2.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Consume the Weak -->
+			<Type>SPELL_CONSUME_THE_WEAK</Type>
+			<Description>TXT_KEY_SPELL_CONSUME_THE_WEAK</Description>
+			<Help>TXT_KEY_SPELL_CONSUME_THE_WEAK_HELP</Help>
+			<PromotionPrereq1>PROMOTION_SPIDER_ARGYRONETA_GREATER</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<bIsAutoCastable>1</bIsAutoCastable>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_CONSUME_THE_WEAK</AddPromotion>
+			</AddPromotions>
+			<bImmuneNeutral>1</bImmuneNeutral>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/ConsumeTheWeak.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Predatory Scream -->
+			<Type>SPELL_PREDATORY_SCREAM</Type>
+			<Description>TXT_KEY_SPELL_PREDATORY_SCREAM</Description>
+			<Help>TXT_KEY_SPELL_PREDATORY_SCREAM_HELP</Help>
+			<UnitPrereq>UNIT_MOTHER_SPIDER</UnitPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<bResistable>1</bResistable>
+			<iRange>1</iRange>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_MARKED_PREY</AddPromotion>
+			</AddPromotions>
+			<bImmuneTeam>1</bImmuneTeam>
+			<bImmuneNeutral>1</bImmuneNeutral>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/PredatoryScream.dds</Button>
+		</SpellInfo>
+
+		<!-- Symbiotic Communion Start -->
+
+		<SpellInfo>			<!-- Rite of Ruby -->
+			<Type>SPELL_RITE_RUBY</Type>
+			<Description>TXT_KEY_SPELL_RITE_RUBY</Description>
+			<Help>TXT_KEY_SPELL_RITE_RUBY_HELP</Help>
+			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
+			<PromotionPrereq1>PROMOTION_SYMBIOTIC_COMMUNION</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>10</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>0</bHasCasted>
+			<PyResult>spellCommunion(pCaster,1)</PyResult>
+			<PyRequirement>reqCommunion(pCaster,1)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Ruby.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Rite of Topaz -->
+			<Type>SPELL_RITE_TOPAZ</Type>
+			<Description>TXT_KEY_SPELL_RITE_TOPAZ</Description>
+			<Help>TXT_KEY_SPELL_RITE_TOPAZ_HELP</Help>
+			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
+			<PromotionPrereq1>PROMOTION_SYMBIOTIC_COMMUNION</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>10</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>0</bHasCasted>
+			<PyResult>spellCommunion(pCaster,2)</PyResult>
+			<PyRequirement>reqCommunion(pCaster,2)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Topaz.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Rite of Diamond -->
+			<Type>SPELL_RITE_DIAMOND</Type>
+			<Description>TXT_KEY_SPELL_RITE_DIAMOND</Description>
+			<Help>TXT_KEY_SPELL_RITE_DIAMOND_HELP</Help>
+			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
+			<PromotionPrereq1>PROMOTION_SYMBIOTIC_COMMUNION</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>10</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>0</bHasCasted>
+			<PyResult>spellCommunion(pCaster,3)</PyResult>
+			<PyRequirement>reqCommunion(pCaster,3)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Diamond.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Rite of Sapphire -->
+			<Type>SPELL_RITE_SAPPHIRE</Type>
+			<Description>TXT_KEY_SPELL_RITE_SAPPHIRE</Description>
+			<Help>TXT_KEY_SPELL_RITE_SAPPHIRE_HELP</Help>
+			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
+			<PromotionPrereq1>PROMOTION_SYMBIOTIC_COMMUNION</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>10</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>0</bHasCasted>
+			<PyResult>spellCommunion(pCaster,4)</PyResult>
+			<PyRequirement>reqCommunion(pCaster,4)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Sapphire.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Rite of Emerald -->
+			<Type>SPELL_RITE_EMERALD</Type>
+			<Description>TXT_KEY_SPELL_RITE_EMERALD</Description>
+			<Help>TXT_KEY_SPELL_RITE_EMERALD_HELP</Help>
+			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
+			<PromotionPrereq1>PROMOTION_SYMBIOTIC_COMMUNION</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>10</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>0</bHasCasted>
+			<PyResult>spellCommunion(pCaster,5)</PyResult>
+			<PyRequirement>reqCommunion(pCaster,5)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Emerald.dds</Button>
+		</SpellInfo>
+
+
+	</SpellInfos>
+</Civ4SpellInfos>

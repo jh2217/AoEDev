@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCANE_PRIVILEGE</Tag>
+		<English>Arcane Privilege</English>
+		<French>Arcane Privilege</French>
+		<German>Arcane Privilege</German>
+		<Italian>Arcane Privilege</Italian>
+		<Spanish>Arcane Privilege</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCANE_AUTHORITY</Tag>
+		<English>Arcane Authority</English>
+		<French>Arcane Authority</French>
+		<German>Arcane Authority</German>
+		<Italian>Arcane Authority</Italian>
+		<Spanish>Arcane Authority</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCANE_SUPREMACY</Tag>
+		<English>Arcane Supremacy</English>
+		<French>Arcane Supremacy</French>
+		<German>Arcane Supremacy</German>
+		<Italian>Arcane Supremacy</Italian>
+		<Spanish>Arcane Supremacy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCANE_BATTLE_SUPPORT</Tag>
+		<English>Arcane Battle Support</English>
+		<French>Arcane Battle Support</French>
+		<German>Arcane Battle Support</German>
+		<Italian>Arcane Battle Support</Italian>
+		<Spanish>Arcane Battle Support</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCANE_AUXILIARY1</Tag>
+		<English>Arcane Auxiliary I</English>
+		<French>Arcane Auxiliary I</French>
+		<German>Arcane Auxiliary I</German>
+		<Italian>Arcane Auxiliary I</Italian>
+		<Spanish>Arcane Auxiliary I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCANE_AUXILIARY1_HELP</Tag>
+		<English>[ICON_BULLET]Allows the unit to cast any level 1 spell, if the commanding unit can cast the level 2 spell of the same sphere</English>
+		<French>[ICON_BULLET]Allows the unit to cast any level 1 spell, if the commanding unit can cast the level 2 spell of the same sphere</French>
+		<German>[ICON_BULLET]Allows the unit to cast any level 1 spell, if the commanding unit can cast the level 2 spell of the same sphere</German>
+		<Italian>[ICON_BULLET]Allows the unit to cast any level 1 spell, if the commanding unit can cast the level 2 spell of the same sphere</Italian>
+		<Spanish>[ICON_BULLET]Allows the unit to cast any level 1 spell, if the commanding unit can cast the level 2 spell of the same sphere</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCANE_AUXILIARY2</Tag>
+		<English>Arcane Auxiliary II</English>
+		<French>Arcane Auxiliary II</French>
+		<German>Arcane Auxiliary II</German>
+		<Italian>Arcane Auxiliary II</Italian>
+		<Spanish>Arcane Auxiliary II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCANE_AUXILIARY2_HELP</Tag>
+		<English>[ICON_BULLET]Allows the unit to cast any level 2 spell, if the commanding unit can cast the level 3 spell of the same sphere</English>
+		<French>[ICON_BULLET]Allows the unit to cast any level 2 spell, if the commanding unit can cast the level 3 spell of the same sphere</French>
+		<German>[ICON_BULLET]Allows the unit to cast any level 2 spell, if the commanding unit can cast the level 3 spell of the same sphere</German>
+		<Italian>[ICON_BULLET]Allows the unit to cast any level 2 spell, if the commanding unit can cast the level 3 spell of the same sphere</Italian>
+		<Spanish>[ICON_BULLET]Allows the unit to cast any level 2 spell, if the commanding unit can cast the level 3 spell of the same sphere</Spanish>
+	</TEXT>
+</Civ4GameText>

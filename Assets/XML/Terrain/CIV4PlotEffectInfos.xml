@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Feature -->
+<Civ4PlotEffectInfos xmlns="x-schema:CIV4TerrainSchema.xml">
+	<PlotEffectInfos>
+		<PlotEffectInfo>		<!-- Blizzard -->
+			<Type>PLOT_EFFECT_BLIZZARD</Type>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Description>TXT_KEY_FEATURE_BLIZZARD</Description>
+			<DefaultFeatureGraphics>FEATURE_BLIZZARD</DefaultFeatureGraphics>
+			<iTurnDamage>10</iTurnDamage>
+			<iDamageLimit>50</iDamageLimit>
+			<DamageType>DAMAGE_COLD</DamageType>
+			<Button>Art/Interface/Buttons/TerrainFeatures/Blizzard.dds</Button>
+		</PlotEffectInfo>
+		<PlotEffectInfo>		<!-- Flames -->
+			<Type>PLOT_EFFECT_FLAMES</Type>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Description>TXT_KEY_FEATURE_FLAMES</Description>
+			<DefaultFeatureGraphics>FEATURE_FLAMES</DefaultFeatureGraphics>
+			<iTurnDamage>10</iTurnDamage>
+			<iDamageLimit>50</iDamageLimit>
+			<DamageType>DAMAGE_FIRE</DamageType>
+			<Button>Art/Interface/Buttons/TerrainFeatures/Flames.dds</Button>
+		</PlotEffectInfo>
+		<PlotEffectInfo>		<!-- Haunted Lands -->
+			<Type>PLOT_EFFECT_HAUNTED_LANDS</Type>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Description>TXT_KEY_FEATURE_HAUNTED_LANDS</Description>
+			<DefaultFeatureGraphics>FEATURE_HAUNTED_LANDS</DefaultFeatureGraphics>
+			<Button>Art/Interface/Buttons/TerrainFeatures/haunted.dds</Button>
+		</PlotEffectInfo>
+		<PlotEffectInfo>		<!-- Mist -->
+			<Type>PLOT_EFFECT_MIST</Type>
+			<Description>TXT_KEY_FEATURE_MIST</Description>
+			<Button>Art/Civs/Sidar/mist.dds</Button>
+			<DefaultFeatureGraphics>FEATURE_MIST</DefaultFeatureGraphics>
+			<iPerceptionCost>3</iPerceptionCost>
+			<iSeeThrough>4</iSeeThrough>
+			<bDispellable>1</bDispellable>
+			<TerrainBooleans>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_OCEAN</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_OCEAN_DEEP</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_PLAINS</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_TAIGA</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_GLACIER</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_COAST</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+			</TerrainBooleans>
+		</PlotEffectInfo>
+		<PlotEffectInfo>		<!-- Smoke -->
+			<Type>PLOT_EFFECT_SMOKE</Type>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Description>TXT_KEY_FEATURE_SMOKE</Description>
+			<DefaultFeatureGraphics>FEATURE_MIST</DefaultFeatureGraphics>
+			<Button>Art/Interface/Buttons/Improvements/Smoke.dds</Button>
+		</PlotEffectInfo>
+		<PlotEffectInfo>		<!-- Blessed Lands -->
+			<Type>PLOT_EFFECT_BLESSED_LANDS</Type>
+			<Description>TXT_KEY_FEATURE_BLESSED_LANDS</Description>
+			<DefaultFeatureGraphics>FEATURE_BLESSED_LANDS</DefaultFeatureGraphics>
+			<Button>Art/Interface/Buttons/Spells/sanctify.dds</Button>
+			<iMaxPlotCounter>0</iMaxPlotCounter>
+			<bDispellable>1</bDispellable>
+		</PlotEffectInfo>
+		<PlotEffectInfo>		<!-- Thunderstorm -->
+			<Type>PLOT_EFFECT_THUNDERSTORM</Type>
+			<Description>TXT_KEY_PLOT_EFFECT_THUNDERSTORM</Description>
+			<DefaultFeatureGraphics>FEATURE_STORM</DefaultFeatureGraphics>
+			<Button>Art/Interface/Buttons/Worldbuilder/storm.dds</Button>
+			<iTurnDamage>10</iTurnDamage>
+			<iDamageLimit>50</iDamageLimit>
+			<DamageType>DAMAGE_LIGHTNING</DamageType>
+			<iSpawnChance>25</iSpawnChance>
+			<iMoveChance>1000</iMoveChance>
+			<iSpreadChance>10</iSpreadChance>
+			<iDisappearChance>1000</iDisappearChance>
+			<TerrainBooleans>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_OCEAN</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_OCEAN_DEEP</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+			</TerrainBooleans>
+		</PlotEffectInfo>
+		<PlotEffectInfo>		<!-- sandstorm -->
+			<Type>PLOT_EFFECT_SANDSTORM</Type>
+			<Description>TXT_KEY_PLOT_EFFECT_SANDSTORM</Description>
+			<DefaultFeatureGraphics>FEATURE_SANDSTORM</DefaultFeatureGraphics>
+			<Button>, ,Art/Interface/Buttons/Misc_Atlas3.dds,5,11</Button>
+			<iTurnDamage>5</iTurnDamage>
+			<iDamageLimit>50</iDamageLimit>
+			<iSeeThrough>2</iSeeThrough>
+			<DamageType>DAMAGE_PHYSICAL</DamageType>
+			<iSpawnChance>15</iSpawnChance>
+			<iMoveChance>1000</iMoveChance>
+			<iSpreadChance>10</iSpreadChance>
+			<iDisappearChance>1000</iDisappearChance>
+			<TerrainBooleans>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+			</TerrainBooleans>
+		</PlotEffectInfo>
+		</PlotEffectInfos>
+</Civ4PlotEffectInfos>

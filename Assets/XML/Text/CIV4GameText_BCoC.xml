@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Misc -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CORPORAL</Tag>
+		<English>Corporal</English>
+		<French>Caporal</French>
+		<German>Korporal</German>
+		<Italian>Caporale</Italian>
+		<Spanish>Corporal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REGIMENTAL_DISCIPLINE</Tag>
+		<English>Regimental Discipline</English>
+		<French>Discipline Militaire</French>
+		<German>Regimentsdiziplin</German>
+		<Italian>Disciplina Militare</Italian>
+		<Spanish>Regimental Discipline</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SEARGENT</Tag>
+		<English>Sergeant</English>
+		<French>Sergent</French>
+		<German>Wachtmeister</German>
+		<Italian>Sergente</Italian>
+		<Spanish>Sergeant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_SEARGENT</Tag>
+		<English>Master Sergeant</English>
+		<French>Sergent Chef</French>
+		<German>Oberwachtmeister</German>
+		<Italian>Sergente Maggiore</Italian>
+		<Spanish>Master Sergeant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HARDENED_TROOPS</Tag>
+		<English>Hardened Troops</English>
+		<French>Vétérans</French>
+		<German>Veteranen</German>
+		<Italian>Veterani</Italian>
+		<Spanish>Hardened Troops</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CAPTAIN</Tag>
+		<English>Captain</English>
+		<French>Capitaine</French>
+		<German>Hauptmann</German>
+		<Italian>Capitano</Italian>
+		<Spanish>Captain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENLISTED</Tag>
+		<English>Enlisted</English>
+		<French>Recrue</French>
+		<German>Rekrut</German>
+		<Italian>Arruolato</Italian>
+		<Spanish>Enlisted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GENERAL</Tag>
+		<English>General</English>
+		<French>Général</French>
+		<German>General</German>
+		<Italian>Generale</Italian>
+		<Spanish>General</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUPERIOR_TRAINING</Tag>
+		<English>Superior Training</English>
+		<French>Entrainement Poussé</French>
+		<German>Überlegene Ausbildung</German>
+		<Italian>Addestramento Avanzato</Italian>
+		<Spanish>Superior Training</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHAIN_OF_COMMAND</Tag>
+		<English>Chain of Command</English>
+		<French>Chaîne de Commandement</French>
+		<German>Kommandokette</German>
+		<Italian>Catena di Comando</Italian>
+		<Spanish>Chain of Command</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOTIVATED</Tag>
+		<English>Motivated</English>
+		<French>Motivé</French>
+		<German>Motiviert</German>
+		<Italian>Motivato</Italian>
+		<Spanish>Motivated</Spanish>
+	</TEXT>
+</Civ4GameText>

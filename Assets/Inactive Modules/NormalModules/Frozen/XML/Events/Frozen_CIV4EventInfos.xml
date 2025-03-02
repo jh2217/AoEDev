@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Event Infos -->
+<Civ4EventInfos xmlns="x-schema:Frozen_CIV4EventSchema.xml">
+	<EventInfos>
+<!--Added in Better Auric Ascended: TC01-->
+		<EventInfo>
+			<Type>EVENT_SUMMON_FROSTLINGS</Type>
+			<Description>TXT_KEY_EVENT_SUMMON_FROSTLINGS</Description>
+			<PythonCallback>applySummonFrostlings</PythonCallback>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_SUMMON_WINTER_WOLVES</Type>
+			<Description>TXT_KEY_EVENT_SUMMON_WINTER_WOLVES</Description>
+			<PythonCallback>applySummonWinterWolves</PythonCallback>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_SUMMON_KOCRACHON</Type>
+			<Description>TXT_KEY_EVENT_SUMMON_KOCRACHON</Description>
+			<PythonCallback>applySummonKocrachon</PythonCallback>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_SUMMON_ICE_ELEMENTALS</Type>
+			<Description>TXT_KEY_EVENT_SUMMON_ICE_ELEMENTALS</Description>
+			<PythonCallback>applySummonIceElementals</PythonCallback>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_SUMMON_AQUILAN</Type>
+			<Description>TXT_KEY_EVENT_SUMMON_AQUILAN</Description>
+			<PythonCallback>applySummonAquilan</PythonCallback>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_SUMMON_FROST_GIANT</Type>
+			<Description>TXT_KEY_EVENT_SUMMON_FROST_GIANT</Description>
+			<PythonCallback>applySummonFrostGiant</PythonCallback>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+		</EventInfo>
+	</EventInfos>
+</Civ4EventInfos>

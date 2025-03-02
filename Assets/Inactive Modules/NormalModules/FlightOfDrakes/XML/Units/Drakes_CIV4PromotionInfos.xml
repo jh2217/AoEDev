@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Formatted by Xienwolf -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Promotion Infos -->
+<Civ4PromotionInfos xmlns="x-schema:Drakes_CIV4UnitSchema.xml">
+	<PromotionInfos>
+		<PromotionInfo>		<!-- Elemental Fusion -->
+			<Type>PROMOTION_ELEMENTAL_FUSION</Type>
+			<Description>TXT_KEY_PROMOTION_ELEMENTAL_FUSION</Description>
+			<bNoXP>1</bNoXP>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_MOLTEN_CORE</Promotion>
+				<Promotion>PROMOTION_THUNDERMAW</Promotion>
+				<Promotion>PROMOTION_HEART_OF_FROST</Promotion>
+				<Promotion>PROMOTION_ACID_TONGUE</Promotion>
+			</PromotionExcludes>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_MOLTEN_CORE</Promotion>
+				<Promotion>PROMOTION_THUNDERMAW</Promotion>
+				<Promotion>PROMOTION_HEART_OF_FROST</Promotion>
+				<Promotion>PROMOTION_ACID_TONGUE</Promotion>
+			</PromotionOverwrites>
+			<Button>Art/Modules/FlightOfDrakes/Buttons/elemental_fusion_btn.dds</Button>
+		</PromotionInfo>
+	</PromotionInfos>
+</Civ4PromotionInfos>

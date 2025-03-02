@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Event Trigger Infos -->
+<Civ4EventTriggerInfos xmlns="x-schema:Frozen_CIV4EventSchema.xml">
+	<EventTriggerInfos>
+<!--Added in Better Ascended Units: TC01-->
+<!-- 		<EventTriggerInfo>
+			<Type>EVENTTRIGGER_SUMMON_WINTER_CREATURES</Type>
+			<WorldNewsTexts/>
+			<TriggerTexts>
+				<TriggerText>
+					<Text>TXT_KEY_EVENTTRIGGER_SUMMON_WINTER_CREATURES</Text>
+					<Era>NONE</Era>
+				</TriggerText>
+			</TriggerTexts>
+			<iPercentGamesActive>100</iPercentGamesActive>
+			<iWeight>0</iWeight>
+			<iMaxOurLandmass>-1</iMaxOurLandmass>
+			<UnitsRequired/>
+			<iPlotType>-1</iPlotType>
+			<Events>
+				<Event>EVENT_SUMMON_FROSTLINGS</Event>
+				<Event>EVENT_SUMMON_WINTER_WOLVES</Event>
+				<Event>EVENT_SUMMON_KOCRACHON</Event>
+				<Event>EVENT_SUMMON_ICE_ELEMENTALS</Event>
+				<Event>EVENT_SUMMON_AQUILAN</Event>
+				<Event>EVENT_SUMMON_FROST_GIANT</Event>
+			</Events>
+			<OrPreReqs/>
+			<AndPreReqs/>
+			<ObsoleteTechs/>
+			<bRecurring>0</bRecurring>
+			<bShowPlot>0</bShowPlot>
+		</EventTriggerInfo> -->
+	</EventTriggerInfos>
+</Civ4EventTriggerInfos>

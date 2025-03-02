@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Civ4TerrainClassInfos xmlns="x-schema:CIV4TerrainSchema.xml">
+	<TerrainClassInfos>
+		<TerrainClassInfo>		<!-- Coast -->
+			<Type>TERRAINCLASS_COAST</Type>
+			<iDefaultTemperature>2</iDefaultTemperature>
+			<iDefaultHumidity>2</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_COAST</NaturalTerrain>
+			<HellTerrain>TERRAIN_BLIGHTED_COAST</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Desert -->
+			<Type>TERRAINCLASS_DESERT</Type>
+			<iDefaultTemperature>27</iDefaultTemperature>
+			<iDefaultHumidity>7</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_DESERT</NaturalTerrain>
+			<HellTerrain>TERRAIN_BURNING_SANDS</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Glacial -->
+			<Type>TERRAINCLASS_GLACIER</Type>
+			<iDefaultTemperature>2</iDefaultTemperature>
+			<iDefaultHumidity>17</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_GLACIER</NaturalTerrain>
+			<HellTerrain>TERRAIN_GLACIER</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Grass -->
+			<Type>TERRAINCLASS_GRASS</Type>
+			<iDefaultTemperature>17</iDefaultTemperature>
+			<iDefaultHumidity>17</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_GRASS</NaturalTerrain>
+			<HellTerrain>TERRAIN_BROKEN_LANDS</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Hill -->
+			<Type>TERRAINCLASS_HILL</Type>
+			<iDefaultTemperature>2</iDefaultTemperature>
+			<iDefaultHumidity>-2</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_HILL</NaturalTerrain>
+			<HellTerrain>TERRAIN_HILL</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Marsh -->
+			<Type>TERRAINCLASS_MARSH</Type>
+			<iDefaultTemperature>17</iDefaultTemperature>
+			<iDefaultHumidity>22</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_MARSH</NaturalTerrain>
+			<HellTerrain>TERRAIN_SHALLOWS</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Ocean -->
+			<Type>TERRAINCLASS_OCEAN</Type>
+			<iDefaultTemperature>2</iDefaultTemperature>
+			<iDefaultHumidity>2</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_OCEAN</NaturalTerrain>
+			<HellTerrain>TERRAIN_BLACKWATER</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Deep Ocean -->
+			<Type>TERRAINCLASS_OCEAN_DEEP</Type>
+			<iDefaultTemperature>2</iDefaultTemperature>
+			<iDefaultHumidity>2</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_OCEAN_DEEP</NaturalTerrain>
+			<HellTerrain>TERRAIN_OCEAN_DEEP</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Peak -->
+			<Type>TERRAINCLASS_PEAK</Type>
+			<iDefaultTemperature>0</iDefaultTemperature>
+			<iDefaultHumidity>1</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_PEAK</NaturalTerrain>
+			<HellTerrain>TERRAIN_PEAK</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Plains -->
+			<Type>TERRAINCLASS_PLAINS</Type>
+			<iDefaultTemperature>22</iDefaultTemperature>
+			<iDefaultHumidity>12</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_PLAINS</NaturalTerrain>
+			<HellTerrain>TERRAIN_FIELDS_OF_PERDITION</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Tundra -->
+			<Type>TERRAINCLASS_TUNDRA</Type>
+			<iDefaultTemperature>7</iDefaultTemperature>
+			<iDefaultHumidity>17</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_TUNDRA</NaturalTerrain>
+			<HellTerrain>TERRAIN_TUNDRA</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Taiga -->
+			<Type>TERRAINCLASS_TAIGA</Type>
+			<iDefaultTemperature>12</iDefaultTemperature>
+			<iDefaultHumidity>17</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_TAIGA</NaturalTerrain>
+			<HellTerrain>TERRAIN_TAIGA</HellTerrain>
+		</TerrainClassInfo>
+		<TerrainClassInfo>		<!-- Wasteland -->
+			<Type>TERRAINCLASS_WASTELAND</Type>
+			<iDefaultTemperature>32</iDefaultTemperature>
+			<iDefaultHumidity>2</iDefaultHumidity>
+			<NaturalTerrain>TERRAIN_WASTELAND</NaturalTerrain>
+			<HellTerrain>TERRAIN_WASTELAND</HellTerrain>
+		</TerrainClassInfo>
+		</TerrainClassInfos>
+</Civ4TerrainClassInfos>

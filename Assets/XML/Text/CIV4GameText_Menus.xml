@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_ACTION_SHOW_CORPORATION_SCREEN</Tag>
+		<English>Play Somnium</English>
+		<French>Jouer à Somnium</French>
+		<German>Spiele Somnium</German>
+		<Italian>Play Somnium</Italian>
+		<Spanish>Play Somnium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DYN_TRAITS</Tag>
+		<English>Dynamic Traits</English>
+		<French>Dynamic Traits</French>
+		<German>Dynamic Traits</German>
+		<Italian>Dynamic Traits</Italian>
+		<Spanish>Dynamic Traits</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMBAT_MESSAGE_DEFEATED</Tag>
+		<English>%[s1_CivName]'s %[s2_UnitName] has defeated %[s3_CivName]'s %[s4_UnitName]!</English>
+		<French>%s2_UnitName (%s1_CivName) a vaincu l'unité %s4_UnitName (%s3_CivName) !</French>
+		<German>%[s1_CivName]s Einheit %[s2_UnitName] hat %[s3_CivName]s Einheit %[s4_UnitName] besiegt!</German>
+		<Italian>L'unit&#224; %[s2_UnitName] dell'%[s1_CivName] ha sconfitto l'unit&#224; %[s4_UnitName] dell'%[s3_CivName]!</Italian>
+		<Spanish>[NUM2:Un:Una:Unos:Unas] %[s2_UnitName] del %[s1_CivName] [NUM2:ha:ha:han:han] derrotado a [NUM3:un:una:unos:unas] %[s3_UnitName] del %[s4_CivName].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMBAT_MESSAGE_HIT</Tag>
+		<English>%[s1_CivName]'s %[s2_UnitName] is hit for %[d3_damage] (%[d4]/%[d5]HP)</English>
+		<French>%[s2_UnitName] (%s1_CivName) subit %[d3] points de dégâts (%[d4]/%[d5]PV)) !</French>
+		<German>%[s1_CivName]s Einheit %[s2_UnitName] f&#252;gt Einheit %[d3] (%[d4]/%[d5]TP)</German>
+		<Italian>L'unit&#224; %[s2_UnitName] dell'%[s1_CivName] viene colpita subendo %[d3] punti di danno (%[d4]/%[d5]PV)</Italian>
+		<Spanish>[NUM2:Un:Una:Unos:Unas] %[s2_UnitName] del %[s1_CivName] (con %[d3]/%[d4] PG) [NUM2:ha alcanzado:ha alcanzado:han alcanzado:han alcanzado] a [NUM6:un:una:unos:unas] %[s6_UnitName] del %[s5_CivName] (con %[d7]/%[d8] PG) y [NUM6:le han infligido:le han infligido:les han infligido:les han infligido] %[d9] de da&#241;o.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INFO_NUM_TURNS</Tag>
+		<English>%d1_Num [NUM1:Turn:Turns]</English>
+		<French>%d1_Num [NUM1:tour:tours]</French>
+		<German>%d1_Num [NUM1:Runde:Runden]</German>
+		<Italian>%d1_Num [NUM1:turno:turni]</Italian>
+		<Spanish>%d1_Num [NUM1:turno:turnos]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INFO_SCREEN</Tag>
+		<English>Info Screen</English>
+		<French>Écran d'informations</French>
+		<German>Info-Bildschirm</German>
+		<Italian>Schermata delle informazioni</Italian>
+		<Spanish>Pantalla de informaci&#243;n</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INFO_SCREEN_BUILT_BUILDING</Tag>
+		<English>Built</English>
+		<French>Bâtis</French>
+		<German>Errichtet</German>
+		<Italian>Realizzati</Italian>
+		<Spanish>Construido</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INFO_SCREEN_BUILT_UNIT</Tag>
+		<English>Built</English>
+		<French>Créés</French>
+		<German>Errichtet</German>
+		<Italian>Realizzati</Italian>
+		<Spanish>Construido</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INFO_SCREEN_KILLED</Tag>
+		<English>Killed</English>
+		<French>Tués</French>
+		<German>Gefallene</German>
+		<Italian>Uccisi</Italian>
+		<Spanish>Bajas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EXIT_PEDIA</Tag>
+		<English>Exit Civilopedia</English>
+		<French>Fermer la Civilopedia</French>
+		<German>Zivilopädie beenden</German>
+		<Italian>Esci Civilopedia</Italian>
+		<Spanish>Salir Civilopedia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EXIT_PANTHEON</Tag>
+		<English>Exit Pantheon</English>
+		<French>Fermer le Panthéon</French>
+		<German>Pantheon beenden</German>
+		<Italian>Esci Pantheon</Italian>
+		<Spanish>Salir Pantheon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRANSFER_GAME_DATA_TITLE</Tag><!-- Directly called by Civ4 exe file... -->
+		<English>Transferring Game Data to </English>
+		<French>Transfert des informations de jeu</French>
+		<German>Spieldaten werden &#252;bertragen an</German>
+		<Italian>Trasferimento dati a</Italian>
+		<Spanish>Transfiriendo datos de la partida a </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MENU_ERA</Tag>
+		<English>Era:</English>
+		<French>Époque :</French>
+		<German>Zeitalter:</German>
+		<Italian>Era:</Italian>
+		<Spanish>&#201;poca:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_LORE</Tag>
+		<English>Lore</English>
+		<French>Folklore</French>
+		<German>Lore</German>
+		<Italian>Lore</Italian>
+		<Spanish>Lore</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_CONCEPT</Tag>
+		<English>Fall from Heaven Concepts</English>
+		<French>Concepts du mod</French>
+		<German>Fall from Heaven Spielkonzepte</German>
+		<Italian>Fall from Heaven Concepts</Italian>
+		<Spanish>Fall from Heaven Concepts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_HERO</Tag>
+		<English>Heroes</English>
+		<French>Héros</French>
+		<German>Helden</German>
+		<Italian>Heroes</Italian>
+		<Spanish>Heroes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_LEADER</Tag>
+		<English>Leader</English>
+		<French>Dirigeant</French>
+		<German>Staatsoberhaüpter</German>
+		<Italian>Leader</Italian>
+		<Spanish>L&#237;deres</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_PROJECT</Tag>
+		<English>Rituals</English>
+		<French>Rituels</French>
+		<German>Rituale</German>
+		<Italian>Rituals</Italian>
+		<Spanish>Rituals</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_SPELL</Tag>
+		<English>Spells and Abilities</English>
+		<French>Sorts et Capacités</French>
+		<German>Zauber und Fähigkeiten</German>
+		<Italian>Spells and Abilities</Italian>
+		<Spanish>Spells and Abilities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_TRAIT</Tag>
+		<English>Traits</English>
+		<French>Traits de caractère</French>
+		<German>Merkmal</German>
+		<Italian>Traits</Italian>
+		<Spanish>Traits</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_ALPHABETICAL</Tag>
+		<English>Sort by Alphabet</English>
+		<French>Tri alphabétique</French>
+		<German>Sort by Alphabet</German>
+		<Italian>Sort by Alphabet</Italian>
+		<Spanish>Sort by Alphabet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_COMMERCE</Tag>
+		<English>Sort by Commerce Bonus</English>
+		<French>Tri par rendement commercial</French>
+		<German>Sort by Commerce Bonus</German>
+		<Italian>Sort by Commerce Bonus</Italian>
+		<Spanish>Sort by Commerce Bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_COST_PRODUCTION</Tag>
+		<English>Sort by Cost</English>
+		<French>Tri par coût de production</French>
+		<German>Sort by Cost</German>
+		<Italian>Sort by Cost</Italian>
+		<Spanish>Sort by Cost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_COST_RESEARCH</Tag>
+		<English>Sort by Cost</English>
+		<French>Tri par coût de recherche</French>
+		<German>Sort by Cost</German>
+		<Italian>Sort by Cost</Italian>
+		<Spanish>Sort by Cost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FOOD</Tag>
+		<English>Sort by Food Bonus</English>
+		<French>Tri par rendement alimentaire</French>
+		<German>Sort by Food Bonus</German>
+		<Italian>Sort by Food Bonus</Italian>
+		<Spanish>Sort by Food Bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PRODUCTION_BONUS</Tag>
+		<English>Sort by Production Bonus</English>
+		<French>Tri par production</French>
+		<German>Sort by Production Bonus</German>
+		<Italian>Sort by Production Bonus</Italian>
+		<Spanish>Sort by Production Bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNFILTERED</Tag>
+		<English>UnFiltered</English>
+		<French>Tout afficher</French>
+		<German>UnFiltered</German>
+		<Italian>UnFiltered</Italian>
+		<Spanish>UnFiltered</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_XML_ORDER</Tag>
+		<English>Sort by XML Order</English>
+		<French>Tri par ordre du XML</French>
+		<German>Sort by XML Order</German>
+		<Italian>Sort by XML Order</Italian>
+		<Spanish>Sort by XML Order</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BONUS_HAPPINESS</Tag>
+		<English>Sort by Happiness Bonus</English>
+		<French>Tri par bonus de bonheur</French>
+		<German>Sort by Happiness Bonus</German>
+		<Italian>Sort by Happiness Bonus</Italian>
+		<Spanish>Sort by Happiness Bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BONUS_HEALTH</Tag>
+		<English>Health Resources</English>
+		<French>Bonus de santé</French>
+		<German>Health Resources</German>
+		<Italian>Health Resources</Italian>
+		<Spanish>Health Resources</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BONUS_HEALTH_SORT</Tag>
+		<English>Sort by Health Bonus</English>
+		<French>Tri par bonus de santé</French>
+		<German>Sort by Health Bonus</German>
+		<Italian>Sort by Health Bonus</Italian>
+		<Spanish>Sort by Health Bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BONUS_HELL</Tag>
+		<English>Hell Resources</English>
+		<French>Sur les terrains infernaux</French>
+		<German>Hell Resources</German>
+		<Italian>Hell Resources</Italian>
+		<Spanish>Hell Resources</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BONUS_LIMITED</Tag>
+		<English>Limited Access Resources</English>
+		<French>Accès limité</French>
+		<German>Limited Access Resources</German>
+		<Italian>Limited Access Resources</Italian>
+		<Spanish>Limited Access Resources</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BONUS_LUXURIES</Tag>
+		<English>Luxuries</English>
+		<French>Ressources de luxe</French>
+		<German>Luxuries</German>
+		<Italian>Luxuries</Italian>
+		<Spanish>Luxuries</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BONUS_MANA</Tag>
+		<English>Mana Types</English>
+		<French>Types de manas</French>
+		<German>Mana Types</German>
+		<Italian>Mana Types</Italian>
+		<Spanish>Mana Types</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BUILDING_BUILDABLE</Tag>
+		<English>Buildable</English>
+		<French>Constructible</French>
+		<German>Buildable</German>
+		<Italian>Buildable</Italian>
+		<Spanish>Buildable</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BUILDING_CIV_SPECIFIC</Tag>
+		<English>Civ Specific</English>
+		<French>Bâtiments raciaux</French>
+		<German>Civ Specific</German>
+		<Italian>Civ Specific</Italian>
+		<Spanish>Civ Specific</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BUILDING_STANDARD</Tag>
+		<English>Standard Building</English>
+		<French>Bâtiments normaux</French>
+		<German>Standard Building</German>
+		<Italian>Standard Building</Italian>
+		<Spanish>Standard Building</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BUILDING_N_WONDERS</Tag>
+		<English>National Wonders</English>
+		<French>Merveilles nationales</French>
+		<German>National Wonders</German>
+		<Italian>National Wonders</Italian>
+		<Spanish>National Wonders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BUILDING_NON_WONDERS</Tag>
+		<English>Non Wonders</English>
+		<French>Tout sauf merveilles</French>
+		<German>Non Wonders</German>
+		<Italian>Non Wonders</Italian>
+		<Spanish>Non Wonders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BUILDING_UNBUILDABLE</Tag>
+		<English>Unbuildable</English>
+		<French>Inconstructible</French>
+		<German>Unbuildable</German>
+		<Italian>Unbuildable</Italian>
+		<Spanish>Unbuildable</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_BUILDING_W_WONDERS</Tag>
+		<English>World Wonders</English>
+		<French>Merveilles mondiales</French>
+		<German>World Wonders</German>
+		<Italian>World Wonders</Italian>
+		<Spanish>World Wonders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_CIVIC_CULTURE</Tag>
+		<English>Cultural Values Civics</English>
+		<French>Doctrines culturelles</French>
+		<German>Cultural Values Civics</German>
+		<Italian>Cultural Values Civics</Italian>
+		<Spanish>Cultural Values Civics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_CIVIC_ECONOMY</Tag>
+		<English>Economy Civics</English>
+		<French>Doctrines économiques</French>
+		<German>Economy Civics</German>
+		<Italian>Economy Civics</Italian>
+		<Spanish>Economy Civics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_CIVIC_GOVERNMENT</Tag>
+		<English>Government Civics</English>
+		<French>Doctrines gouvernementales</French>
+		<German>Government Civics</German>
+		<Italian>Government Civics</Italian>
+		<Spanish>Government Civics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_CIVIC_LABOR</Tag>
+		<English>Labor Civics</English>
+		<French>Doctrines du travail</French>
+		<German>Labor Civics</German>
+		<Italian>Labor Civics</Italian>
+		<Spanish>Labor Civics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_CIVIC_MEMBERSHIP</Tag>
+		<English>Membership Civics</English>
+		<French>Doctrines des conseils</French>
+		<German>Membership Civics</German>
+		<Italian>Membership Civics</Italian>
+		<Spanish>Membership Civics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_CIVIC_SPECIFIC</Tag>
+		<English>Civ Specific Civics</English>
+		<French>Doctrines spécifiques</French>
+		<German>Civ Specific Civics</German>
+		<Italian>Civ Specific Civics</Italian>
+		<Spanish>Civ Specific Civics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_CIVIC_UPKEEP</Tag>
+		<English>Sort by Upkeep Level</English>
+		<French>Tri par coût doctrinal</French>
+		<German>Sort by Upkeep Level</German>
+		<Italian>Sort by Upkeep Level</Italian>
+		<Spanish>Sort by Upkeep Level</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FEATURE_COAST</Tag>
+		<English>Valid on Coast</English>
+		<French>Possible sur une côte</French>
+		<German>Valid on Coast</German>
+		<Italian>Valid on Coast</Italian>
+		<Spanish>Valid on Coast</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FEATURE_DEFENSE</Tag>
+		<English>Sort by Defense Bonus</English>
+		<French>Tri par bonus de défense</French>
+		<German>Sort by Defense Bonus</German>
+		<Italian>Sort by Defense Bonus</Italian>
+		<Spanish>Sort by Defense Bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FEATURE_DESERT</Tag>
+		<English>Valid on Desert</English>
+		<French>Possible dans un désert</French>
+		<German>Valid on Desert</German>
+		<Italian>Valid on Desert</Italian>
+		<Spanish>Valid on Desert</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FEATURE_GRASSLAND</Tag>
+		<English>Valid on Grassland</English>
+		<French>Possible sur une prairie</French>
+		<German>Valid on Grassland</German>
+		<Italian>Valid on Grassland</Italian>
+		<Spanish>Valid on Grassland</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FEATURE_HELL</Tag>
+		<English>Valid on Hell Terrain</English>
+		<French>Possible sur un terrain infernal</French>
+		<German>Valid on Hell Terrain</German>
+		<Italian>Valid on Hell Terrain</Italian>
+		<Spanish>Valid on Hell Terrain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FEATURE_MARSH</Tag>
+		<English>Valid on Marsh</English>
+		<French>Possible dans un marécage</French>
+		<German>Valid on Marsh</German>
+		<Italian>Valid on Marsh</Italian>
+		<Spanish>Valid on Marsh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FEATURE_OCEAN</Tag>
+		<English>Valid on Ocean</English>
+		<French>Possible dans un océan</French>
+		<German>Valid on Ocean</German>
+		<Italian>Valid on Ocean</Italian>
+		<Spanish>Valid on Ocean</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FEATURE_PLAINS</Tag>
+		<English>Valid on Plains</English>
+		<French>Possible sur une plaine</French>
+		<German>Valid on Plains</German>
+		<Italian>Valid on Plains</Italian>
+		<Spanish>Valid on Plains</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FEATURE_TAIGA</Tag>
+		<English>Valid on Taiga</English>
+		<French>Possible dans une taïga</French>
+		<German>Valid on Taiga</German>
+		<Italian>Valid on Taiga</Italian>
+		<Spanish>Valid on Taiga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_FEATURE_TUNDRA</Tag>
+		<English>Valid on Tundra</English>
+		<French>Possible dans une tundra</French>
+		<German>Valid on Tundra</German>
+		<Italian>Valid on Tundra</Italian>
+		<Spanish>Valid on Tundra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_IMPROVEMENT_CONVERSION</Tag>
+		<English>Conversion Improvements</English>
+		<French>Convertissant les ressources</French>
+		<German>Conversion Improvements</German>
+		<Italian>Conversion Improvements</Italian>
+		<Spanish>Conversion Improvements</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_IMPROVEMENT_CULTURE</Tag>
+		<English>Culture Expanding Improvements</English>
+		<French>Étendant les frontières</French>
+		<German>Culture Expanding Improvements</German>
+		<Italian>Culture Expanding Improvements</Italian>
+		<Spanish>Culture Expanding Improvements</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_IMPROVEMENT_LAIRS</Tag>
+		<English>Lairs</English>
+		<French>Donjons</French>
+		<German>Lairs</German>
+		<Italian>Lairs</Italian>
+		<Spanish>Lairs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_IMPROVEMENT_REGULAR</Tag>
+		<English>Regular Improvements</English>
+		<French>Aménagements standards</French>
+		<German>Regular Improvements</German>
+		<Italian>Regular Improvements</Italian>
+		<Spanish>Regular Improvements</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_IMPROVEMENT_SPECIFIC</Tag>
+		<English>Civilization-Specific Improvements</English>
+		<French>Aménagements spécifiques</French>
+		<German>Civilization-Specific Improvements</German>
+		<Italian>Civilization-Specific Improvements</Italian>
+		<Spanish>Civilization-Specific Improvements</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_IMPROVEMENT_UNIQUE</Tag>
+		<English>Unique Features</English>
+		<French>Merveilles naturelles</French>
+		<German>Unique Features</German>
+		<Italian>Unique Features</Italian>
+		<Spanish>Unique Features</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_ALIGNMENT</Tag>
+		<English>Sort by Broad Alignment</English>
+		<French>Tri par alignement</French>
+		<German>Sort by Broad Alignment</German>
+		<Italian>Sort by Broad Alignment</Italian>
+		<Spanish>Sort by Broad Alignment</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_EMERGENT</Tag>
+		<English>Emergent Leaders</English>
+		<French>Dirigeants émergents</French>
+		<German>Emergent Leaders</German>
+		<Italian>Emergent Leaders</Italian>
+		<Spanish>Emergent Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_EVIL</Tag>
+		<English>Evil Aligned Leaders</English>
+		<French>Alignement mauvais</French>
+		<German>Evil Aligned Leaders</German>
+		<Italian>Evil Aligned Leaders</Italian>
+		<Spanish>Evil Aligned Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_FEMALE</Tag>
+		<English>Female Leaders</English>
+		<French>Femmes</French>
+		<German>Female Leaders</German>
+		<Italian>Female Leaders</Italian>
+		<Spanish>Female Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_GOOD</Tag>
+		<English>Good Aligned Leaders</English>
+		<French>Alignement bon</French>
+		<German>Good Aligned Leaders</German>
+		<Italian>Good Aligned Leaders</Italian>
+		<Spanish>Good Aligned Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_HISTORICAL</Tag>
+		<English>Historical Leaders</English>
+		<French>Dirigeants historiques</French>
+		<German>Historical Leaders</German>
+		<Italian>Historical Leaders</Italian>
+		<Spanish>Historical Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_IMPORTANT</Tag>
+		<English>Important Leaders</English>
+		<French>Dirigeants importants</French>
+		<German>Important Leaders</German>
+		<Italian>Important Leaders</Italian>
+		<Spanish>Important Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_MALE</Tag>
+		<English>Male Leaders</English>
+		<French>Hommes</French>
+		<German>Male Leaders</German>
+		<Italian>Male Leaders</Italian>
+		<Spanish>Male Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_NEUTRAL</Tag>
+		<English>Neutral Aligned Leaders</English>
+		<French>Alignement neutre</French>
+		<German>Neutral Aligned Leaders</German>
+		<Italian>Neutral Aligned Leaders</Italian>
+		<Spanish>Neutral Aligned Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_STATUS</Tag>
+		<English>Sort by Leader Status</English>
+		<French>Tri par statut du dirigeant</French>
+		<German>Sort by Leader Status</German>
+		<Italian>Sort by Leader Status</Italian>
+		<Spanish>Sort by Leader Status</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROJECT_ARMAGEDDON</Tag>
+		<English>Armageddon Counter Requirement</English>
+		<French>Requiert le compteur armageddon</French>
+		<German>Armageddon Counter Requirement</German>
+		<Italian>Armageddon Counter Requirement</Italian>
+		<Spanish>Armageddon Counter Requirement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROJECT_REPEATABLE</Tag>
+		<English>Repeatable Rituals</English>
+		<French>Rituels renouvelables</French>
+		<German>Repeatable Rituals</German>
+		<Italian>Repeatable Rituals</Italian>
+		<Spanish>Repeatable Rituals</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROJECT_SPECIFIC</Tag>
+		<English>Civilization Specific</English>
+		<French>Spécifiques de civillisations</French>
+		<German>Civilization Specific</German>
+		<Italian>Civilization Specific</Italian>
+		<Spanish>Civilization Specific</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROMOTION_AUTOMATIC</Tag>
+		<English>Automatically acquired</English>
+		<French>Obtention automatique</French>
+		<German>Automatically acquired</German>
+		<Italian>Automatically acquired</Italian>
+		<Spanish>Automatically acquired</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROMOTION_CITY_AUGMENTATION</Tag>
+		<English>City Augmentation</English>
+		<French>Effets sur les villes</French>
+		<German>City Augmentation</German>
+		<Italian>City Augmentation</Italian>
+		<Spanish>City Augmentation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROMOTION_COMMAND_SYSTEM</Tag>
+		<English>Command System</English>
+		<French>Effets sur les subalternes</French>
+		<German>Command System</German>
+		<Italian>Command System</Italian>
+		<Spanish>Command System</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROMOTION_DEFAULT</Tag>
+		<English>EXP</English>
+		<French>EXP</French>
+		<German>EXP</German>
+		<Italian>EXP</Italian>
+		<Spanish>EXP</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROMOTION_EFFECTS</Tag>
+		<English>Non EXP</English>
+		<French>Tout sauf par l'EXP</French>
+		<German>Non EXP</German>
+		<Italian>Non EXP</Italian>
+		<Spanish>Non EXP</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROMOTION_EQUIPMENT</Tag>
+		<English>Equipment</English>
+		<French>Équipement</French>
+		<German>Equipment</German>
+		<Italian>Equipment</Italian>
+		<Spanish>Equipment</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROMOTION_RACES</Tag>
+		<English>Races</English>
+		<French>Races</French>
+		<German>Races</German>
+		<Italian>Races</Italian>
+		<Spanish>Races</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROMOTION_MAGIC_SPHERES</Tag>
+		<English>Magic Spheres</English>
+		<French>Sphères Magiques</French>
+		<German>Magic Spheres</German>
+		<Italian>Magic Spheres</Italian>
+		<Spanish>Magic Spheres</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROMOTION_NON_UNITCOMBAT_SPECIFIC</Tag>
+		<English>Non Unit Type Specific</English>
+		<French>Non Unit Type Specific</French>
+		<German>Non Unit Type Specific</German>
+		<Italian>Non Unit Type Specific</Italian>
+		<Spanish>Non Unit Type Specific</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_PROMOTION_UNITCOMBAT_SPECIFIC</Tag>
+		<English>Unit Type Specific...</English>
+		<French>Unit Type Specific...</French>
+		<German>Unit Type Specific...</German>
+		<Italian>Unit Type Specific...</Italian>
+		<Spanish>Unit Type Specific...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_SPELL_ABILITIES</Tag>
+		<English>Abilities</English>
+		<French>Capacités</French>
+		<German>Abilities</German>
+		<Italian>Abilities</Italian>
+		<Spanish>Abilities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_SPELL_DIVINE</Tag>
+		<English>Divine Spells</English>
+		<French>Sorts divins</French>
+		<German>Divine Spells</German>
+		<Italian>Divine Spells</Italian>
+		<Spanish>Divine Spells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_SPELL_SUMMMON</Tag>
+		<English>Summon Spells</English>
+		<French>Évocations</French>
+		<German>Summon Spells</German>
+		<Italian>Summon Spells</Italian>
+		<Spanish>Summon Spells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_SPELL_MANA</Tag>
+		<English>Mana Spells...</English>
+		<French>Mana Spells...</French>
+		<German>Mana Spells...</German>
+		<Italian>Mana Spells...</Italian>
+		<Spanish>Mana Spells...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TECH_CIV_SPECIFIC</Tag>
+		<English>Civilization Specific</English>
+		<French>Technologies raciales</French>
+		<German>Civilization Specific</German>
+		<Italian>Civilization Specific</Italian>
+		<Spanish>Civilization Specific</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TECH_GOODY_HUTS</Tag>
+		<English>Available from Goody Huts</English>
+		<French>Donnée par les villages tribaux</French>
+		<German>Available from Goody Huts</German>
+		<Italian>Available from Goody Huts</Italian>
+		<Spanish>Available from Goody Huts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TECH_GREAT_BARD</Tag>
+		<English>Great Bard Bulb List</English>
+		<French>Possible avec Bardes illustres</French>
+		<German>Great Bard Bulb List</German>
+		<Italian>Great Bard Bulb List</Italian>
+		<Spanish>Great Bard Bulb List</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TECH_GREAT_ENGINEER</Tag>
+		<English>Great Engineer Bulb List</English>
+		<French>Possible avec Ingénieurs illustres</French>
+		<German>Great Engineer Bulb List</German>
+		<Italian>Great Engineer Bulb List</Italian>
+		<Spanish>Great Engineer Bulb List</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TECH_GREAT_HEALER</Tag>
+		<English>Great Healer Bulb List</English>
+		<French>Possible avec Guérisseurs illustres</French>
+		<German>Great Healer Bulb List</German>
+		<Italian>Great Healer Bulb List</Italian>
+		<Spanish>Great Healer Bulb List</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TECH_GREAT_MERCHANT</Tag>
+		<English>Great Merchant Bulb List</English>
+		<French>Possible avec Marchands illustres</French>
+		<German>Great Merchant Bulb List</German>
+		<Italian>Great Merchant Bulb List</Italian>
+		<Spanish>Great Merchant Bulb List</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TECH_GREAT_PROPHET</Tag>
+		<English>Great Prophet Bulb List</English>
+		<French>Possible avec Prophètes illustres</French>
+		<German>Great Prophet Bulb List</German>
+		<Italian>Great Prophet Bulb List</Italian>
+		<Spanish>Great Prophet Bulb List</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TECH_GREAT_SAGE</Tag>
+		<English>Great Sage Bulb List</English>
+		<French>Possible avec Sages illustres</French>
+		<German>Great Sage Bulb List</German>
+		<Italian>Great Sage Bulb List</Italian>
+		<Spanish>Great Sage Bulb List</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TECH_SAVANT</Tag>
+		<English>Savant Bulb List</English>
+		<French>Possible avec Savants</French>
+		<German>Savant Bulb List</German>
+		<Italian>Savant Bulb List</Italian>
+		<Spanish>Savant Bulb List</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TERRAIN_HELL</Tag>
+		<English>Hell Terrain</English>
+		<French>Terrains infernaux</French>
+		<German>Hell Terrain</German>
+		<Italian>Hell Terrain</Italian>
+		<Spanish>Hell Terrain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_TERRAIN_NONHELL</Tag>
+		<English>Non-Hell Terrain</English>
+		<French>Terrains normaux</French>
+		<German>Non-Hell Terrain</German>
+		<Italian>Non-Hell Terrain</Italian>
+		<Spanish>Non-Hell Terrain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_AMURITE</Tag>
+		<English>   Amurite Units</English>
+		<French>   Unités amurites</French>
+		<German>   Amurite Units</German>
+		<Italian>   Amurite Units</Italian>
+		<Spanish>   Amurite Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_ANIMAL</Tag>
+		<English>   Animal Pack Units</English>
+		<French>   Unités animales</French>
+		<German>   Animal Pack Units</German>
+		<Italian>   Animal Pack Units</Italian>
+		<Spanish>   Animal Pack Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_ARCHOS</Tag>
+		<English>   Archos Units</English>
+		<French>   Unités archosiennes</French>
+		<German>   Archos Units</German>
+		<Italian>   Archos Units</Italian>
+		<Spanish>   Archos Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_ATTACK</Tag>
+		<English>Sort by Attack Strength</English>
+		<French>Tri par l'attaque</French>
+		<German>Sort by Attack Strength</German>
+		<Italian>Sort by Attack Strength</Italian>
+		<Spanish>Sort by Attack Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_AUSTRIN</Tag>
+		<English>   Austrin Units</English>
+		<French>   Unités austrinoises</French>
+		<German>   Austrin Units</German>
+		<Italian>   Austrin Units</Italian>
+		<Spanish>   Austrin Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_BALSERAPHS</Tag>
+		<English>   Balseraph Units</English>
+		<French>   Unités balséraphines</French>
+		<German>   Balseraph Units</German>
+		<Italian>   Balseraph Units</Italian>
+		<Spanish>   Balseraph Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_BANNOR</Tag>
+		<English>   Bannor Units</English>
+		<French>   Unités bannoriennes</French>
+		<German>   Bannor Units</German>
+		<Italian>   Bannor Units</Italian>
+		<Spanish>   Bannor Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_BARBARIAN</Tag>
+		<English>   Orcish Savage Units</English>
+		<French>   Unités barbares</French>
+		<German>   Orcish Savage Units</German>
+		<Italian>   Orcish Savage Units</Italian>
+		<Spanish>   Orcish Savage Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_CALABIM</Tag>
+		<English>   Calabim Units</English>
+		<French>   Unités calabionnes</French>
+		<German>   Calabim Units</German>
+		<Italian>   Calabim Units</Italian>
+		<Spanish>   Calabim Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_CHISLEV</Tag>
+		<English>   Chislev Units</English>
+		<French>   Unités chislevites</French>
+		<German>   Chislev Units</German>
+		<Italian>   Chislev Units</Italian>
+		<Spanish>   Chislev Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_CIV_SPECIFIC</Tag>
+		<English>Civ Specific...</English>
+		<French>Unités spécifiques...</French>
+		<German>Civ Specific...</German>
+		<Italian>Civ Specific...</Italian>
+		<Spanish>Civ Specific...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_CLAN</Tag>
+		<English>   Clan of Embers Units</English>
+		<French>   Unités claniques</French>
+		<German>   Clan of Embers Units</German>
+		<Italian>   Clan of Embers Units</Italian>
+		<Spanish>   Clan of Embers Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_COLLATERAL</Tag>
+		<English>Sort by Collateral Strength</English>
+		<French>Tri par dommages collatéraux</French>
+		<German>Sort by Collateral Strength</German>
+		<Italian>Sort by Collateral Strength</Italian>
+		<Spanish>Sort by Collateral Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_CUALLI</Tag>
+		<English>   Cualli Units</English>
+		<French>   Unités cuallardes</French>
+		<German>   Cualli Units</German>
+		<Italian>   Cualli Units</Italian>
+		<Spanish>   Cualli Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_DEFAULT</Tag>
+		<English>Non Civ Specific</English>
+		<French>Unités standards</French>
+		<German>Non Civ Specific</German>
+		<Italian>Non Civ Specific</Italian>
+		<Spanish>Non Civ Specific</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_DEFENSE</Tag>
+		<English>Sort by Defense Strength</English>
+		<French>Tri par la défense</French>
+		<German>Sort by Defense Strength</German>
+		<Italian>Sort by Defense Strength</Italian>
+		<Spanish>Sort by Defense Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_DEMONIC</Tag>
+		<English>   Demonic Horde Units</English>
+		<French>   Unités démoniaques</French>
+		<German>   Demonic Horde Units</German>
+		<Italian>   Demonic Horde Units</Italian>
+		<Spanish>   Demonic Horde Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_DOMAIN</Tag>
+		<English>Sort by Defense Strength</English>
+		<French>Tri par la défense</French>
+		<German>Sort by Defense Strength</German>
+		<Italian>Sort by Defense Strength</Italian>
+		<Spanish>Sort by Defense Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_DOVIELLO</Tag>
+		<English>   Doviello Units</English>
+		<French>   Unités doviellonnes</French>
+		<German>   Doviello Units</German>
+		<Italian>   Doviello Units</Italian>
+		<Spanish>   Doviello Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_DURAL</Tag>
+		<English>   Dural Units</English>
+		<French>   Unités durales</French>
+		<German>   Dural Units</German>
+		<Italian>   Dural Units</Italian>
+		<Spanish>   Dural Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_DTESH</Tag>
+		<English>   The Legion of D'tesh Units</English>
+		<French>   Unités D'teshi</French>
+		<German>   The Legion of D'tesh Units</German>
+		<Italian>   The Legion of D'tesh Units</Italian>
+		<Spanish>   The Legion of D'tesh Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_ELOHIM</Tag>
+		<English>   Elohim Units</English>
+		<French>   Unités élohionnes</French>
+		<German>   Elohim Units</German>
+		<Italian>   Elohim Units</Italian>
+		<Spanish>   Elohim Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_FROZEN</Tag>
+		<English>   Frozen Units</English>
+		<French>   Unités gelées</French>
+		<German>   Frozen Units</German>
+		<Italian>   Frozen Units</Italian>
+		<Spanish>   Frozen Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_GRIGORI</Tag>
+		<English>   Grigori Units</English>
+		<French>   Unités grigories</French>
+		<German>   Grigori Units</German>
+		<Italian>   Grigori Units</Italian>
+		<Spanish>   Grigori Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_HAMSTALFAR</Tag>
+		<English>   Hamstalfar Units</English>
+		<French>   Unités hamstálfar</French>
+		<German>   Hamstalfar Units</German>
+		<Italian>   Hamstalfar Units</Italian>
+		<Spanish>   Hamstalfar Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_HIPPUS</Tag>
+		<English>   Hippus Units</English>
+		<French>   Unités hippasques</French>
+		<German>   Hippus Units</German>
+		<Italian>   Hippus Units</Italian>
+		<Spanish>   Hippus Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_ILLIAN</Tag>
+		<English>   Illian Units</English>
+		<French>   Unités illianes</French>
+		<German>   Illian Units</German>
+		<Italian>   Illian Units</Italian>
+		<Spanish>   Illian Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_INFERNAL</Tag>
+		<English>   Infernal Units</English>
+		<French>   Unités infernales</French>
+		<German>   Infernal Units</German>
+		<Italian>   Infernal Units</Italian>
+		<Spanish>   Infernal Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_JOTNAR</Tag>
+		<English>   Jotnar Units</English>
+		<French>   Unités jotnarois</French>
+		<German>   Jotnar Units</German>
+		<Italian>   Jotnar Units</Italian>
+		<Spanish>   Jotnar Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_KHAZAD</Tag>
+		<English>   Khazad Units</English>
+		<French>   Unités khazadores</French>
+		<German>   Khazad Units</German>
+		<Italian>   Khazad Units</Italian>
+		<Spanish>   Khazad Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_KURIOTATE</Tag>
+		<English>   Kuriotates Units</English>
+		<French>   Unités kuriotates</French>
+		<German>   Kuriotates Units</German>
+		<Italian>   Kuriotates Units</Italian>
+		<Spanish>   Kuriotates Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_LANUN</Tag>
+		<English>   Lanuns Units</English>
+		<French>   Unités lanounistes</French>
+		<German>   Lanuns Units</German>
+		<Italian>   Lanuns Units</Italian>
+		<Spanish>   Lanuns Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_LJOSALFAR</Tag>
+		<English>   Ljosalfar Units</English>
+		<French>   Unités ljósálfar</French>
+		<German>   Ljosalfar Units</German>
+		<Italian>   Ljosalfar Units</Italian>
+		<Spanish>   Ljosalfar Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_LUCHUIRP</Tag>
+		<English>   Luchuirp Units</English>
+		<French>   Unités luchuries</French>
+		<German>   Luchuirp Units</German>
+		<Italian>   Luchuirp Units</Italian>
+		<Spanish>   Luchuirp Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_MALAKIM</Tag>
+		<English>   Malakim Units</English>
+		<French>   Unités malakimes</French>
+		<German>   Malakim Units</German>
+		<Italian>   Malakim Units</Italian>
+		<Spanish>   Malakim Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_MAZATL</Tag>
+		<English>   Mazatl Units</English>
+		<French>   Unités mazatli</French>
+		<German>   Mazatl Units</German>
+		<Italian>   Mazatl Units</Italian>
+		<Spanish>   Mazatl Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_MECHANOS</Tag>
+		<English>   Mechanos Units</English>
+		<French>   Unités méchanos</French>
+		<German>   Mechanos Units</German>
+		<Italian>   Mechanos Units</Italian>
+		<Spanish>   Mechanos Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_MEKARA</Tag>
+		<English>   Mekara Units</English>
+		<French>   Unités mekara</French>
+		<German>   Mekara Units</German>
+		<Italian>   Mekara Units</Italian>
+		<Spanish>   Mekara Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_MERCURIAN</Tag>
+		<English>   Mercurian Units</English>
+		<French>   Unités mercuriennes</French>
+		<German>   Mercurian Units</German>
+		<Italian>   Mercurian Units</Italian>
+		<Spanish>   Mercurian Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_NATIONAL</Tag>
+		<English>National Units</English>
+		<French>Unités nationales</French>
+		<German>National Units</German>
+		<Italian>National Units</Italian>
+		<Spanish>National Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_RANGED</Tag>
+		<English>Sort by Ranged Strength</English>
+		<French>Tri par l'attaque à distance</French>
+		<German>Sort by Ranged Strength</German>
+		<Italian>Sort by Ranged Strength</Italian>
+		<Spanish>Sort by Ranged Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_SCIONS</Tag>
+		<English>   Scion Units</English>
+		<French>   Unités scions</French>
+		<German>   Scion Units</German>
+		<Italian>   Scion Units</Italian>
+		<Spanish>   Scion Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_SHEAIM</Tag>
+		<English>   Sheaim Units</English>
+		<French>   Unités sheaïm</French>
+		<German>   Sheaim Units</German>
+		<Italian>   Sheaim Units</Italian>
+		<Spanish>   Sheaim Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_SIDAR</Tag>
+		<English>   Sidar Units</English>
+		<French>   Unités sidarea</French>
+		<German>   Sidar Units</German>
+		<Italian>   Sidar Units</Italian>
+		<Spanish>   Sidar Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_STARTING</Tag>
+		<English>Starting Units</English>
+		<French>Unités de début de jeu</French>
+		<German>Starting Units</German>
+		<Italian>Starting Units</Italian>
+		<Spanish>Starting Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_SVARTALFAR</Tag>
+		<English>   Ljosalfar Units</English>
+		<French>   Unités Svartálfar</French>
+		<German>   Ljosalfar Units</German>
+		<Italian>   Ljosalfar Units</Italian>
+		<Spanish>   Ljosalfar Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_TIER</Tag>
+		<English>Sort by Tier</English>
+		<French>Tri par Rang</French>
+		<German>Sort by Tier</German>
+		<Italian>Sort by Tier</Italian>
+		<Spanish>Sort by Tier</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_TIER_1</Tag>
+		<English>Tier 1</English>
+		<French>Rang 1</French>
+		<German>Tier 1</German>
+		<Italian>Tier 1</Italian>
+		<Spanish>Tier 1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_TIER_2</Tag>
+		<English>Tier 2</English>
+		<French>Rang 2</French>
+		<German>Tier 2</German>
+		<Italian>Tier 2</Italian>
+		<Spanish>Tier 2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_TIER_3</Tag>
+		<English>Tier 3</English>
+		<French>Rang 3</French>
+		<German>Tier 3</German>
+		<Italian>Tier 3</Italian>
+		<Spanish>Tier 3</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_TIER_4</Tag>
+		<English>Tier 4</English>
+		<French>Rang 4</French>
+		<German>Tier 4</German>
+		<Italian>Tier 4</Italian>
+		<Spanish>Tier 4</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_UNIT_UNITCOMBAT</Tag>
+		<English>Sort by UnitCombat</English>
+		<French>Tri par catégories d'unités</French>
+		<German>Sort by UnitCombat</German>
+		<Italian>Sort by UnitCombat</Italian>
+		<Spanish>Sort by UnitCombat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_BONUS_MENU_GIVEN_BY</Tag>
+		<English>Given by</English>
+		<French>Fourni par</French>
+		<German>Given by</German>
+		<Italian>Given by</Italian>
+		<Spanish>Given by</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CIV_MENU_UNIQUE_BUILDINGS</Tag>
+		<English>Unique Buildings</English>
+		<French>Bâtiments Uniques</French>
+		<German>Einzigartige Gebäude</German>
+		<Italian>Edifici Unici</Italian>
+		<Spanish>Unique Buildings</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CIV_MENU_BLOCKED_BUILDINGS</Tag>
+		<English>Blocked Buildings</English>
+		<French>Bâtiment(s) bloqué(s)</French>
+		<German>Blockierte Gebäude</German>
+		<Italian>Blocked Buildings</Italian>
+		<Spanish>Blocked Buildings</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CIV_MENU_BLOCKED_UNITS</Tag>
+		<English>Blocked Units</English>
+		<French>Unité(s) bloquée(s)</French>
+		<German>Blockierte Einheiten</German>
+		<Italian>Blocked Units</Italian>
+		<Spanish>Blocked Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_PROMO_UNITS</Tag>
+		<English>Units beginning with this promotion</English>
+		<French>Unités apparaissant avec la promotion</French>
+		<German>Units beginning with this promotion</German>
+		<Italian>Units beginning with this promotion</Italian>
+		<Spanish>Units beginning with this promotion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_ADEPT</Tag>
+		<English>Arcane Units</English>
+		<French>
+			<Text>Unités Magiques:Unité Magique</Text>
+			<Gender>Female</Gender>
+			<Plural>1:0</Plural>
+		</French>
+		<German>Magisch begabte Einheiten</German>
+		<Italian>Arcane Units</Italian>
+		<Spanish>Arcane Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_ANIMAL</Tag>
+		<English>Animal Units</English>
+		<French>
+			<Text>Animaux:Animal</Text>
+			<Gender>Male</Gender>
+			<Plural>1:0</Plural>
+		</French>
+		<German>Raubtiere</German>
+		<Italian>Animal Units</Italian>
+		<Spanish>Animal Units</Spanish>
+	</TEXT>
+	<TEXT><!-- overwrites vanilla -->
+		<Tag>TXT_KEY_UNITCOMBAT_ARCHER</Tag>
+		<English>Archery Units</English>
+		<French>
+			<Text>Unités à distance:Unité à distance</Text>
+			<Gender>Female</Gender>
+			<Plural>1:0</Plural>
+		</French>
+		<German>
+			<Text>Bogensch&#252;tzen</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Unit&#224; di arcieri:Unit&#224; di arcieri</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Unidad con armas de proyectil:Unidades con armas de proyectil</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_BEAST</Tag>
+		<English>Beast Units</English>
+		<French>
+			<Text>Unités Bestiales:Unité Bestiale</Text>
+			<Gender>Female</Gender>
+			<Plural>1:0</Plural>
+		</French>
+		<German>Bestien</German>
+		<Italian>Beast Units</Italian>
+		<Spanish>Beast Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_COMMANDER</Tag>
+		<English>Commander</English>
+		<French>
+			<Text>Commandants:Commandant</Text>
+			<Gender>Male</Gender>
+			<Plural>1:0</Plural>
+		</French>
+		<German>Kommandant</German>
+		<Italian>Commander</Italian>
+		<Spanish>Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_DEFENSIVE_MELEE</Tag>
+		<English>Defensive Melee Units</English>
+		<French>
+			<Text>Unités Défensives:Unité Défensive</Text>
+			<Gender>Female</Gender>
+			<Plural>1:0</Plural>
+		</French>
+		<German>Defensive Melee Units</German>
+		<Italian>Defensive Melee Units</Italian>
+		<Spanish>Defensive Melee Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_DISCIPLE</Tag>
+		<English>Disciple Units</English>
+		<French>
+			<Text>Unités religieuses:Unité religieuse</Text>
+			<Gender>Female</Gender>
+			<Plural>1:0</Plural>
+		</French>
+		<German>Geweihte Einheiten</German>
+		<Italian>Disciple Units</Italian>
+		<Spanish>Disciple Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_ROGUE</Tag>
+		<English>Rogue Units</English>
+		<French>
+			<Text>Unités Scélérates:Unité Scélérate</Text>
+			<Gender>Female</Gender>
+			<Plural>1:0</Plural>
+		</French>
+		<German>Rogue Units</German>
+		<Italian>Rogue Units</Italian>
+		<Spanish>Rogue Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_SHAMAN</Tag>
+		<English>Shaman Units</English>
+		<French>
+			<Text>Unités Chamaniques:Unité Chamanique</Text>
+			<Gender>Female</Gender>
+			<Plural>1:0</Plural>
+		</French>
+		<German>Shaman Units</German>
+		<Italian>Shaman Units</Italian>
+		<Spanish>Shaman Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITCOMBAT_WORKER</Tag>
+		<English>Worker Units</English>
+		<French>
+			<Text>Travailleurs:Travailleur</Text>
+			<Gender>Male</Gender>
+			<Plural>1:0</Plural>
+		</French>
+		<German>Bautrupp</German>
+		<Italian>Worker Units</Italian>
+		<Spanish>Worker Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GONE_TO_HELL</Tag>
+		<English>Gone to Hell</English>
+		<French>Parti en enfer</French>
+		<German>Zur Hölle!</German>
+		<Italian>Gone to Hell</Italian>
+		<Spanish>Gone to Hell</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_GONE_TO_HELL_PEDIA</Tag>
+		<English>To win a Gone to Hell victory, the whole of Erebus must be covered by Hell Terrain and you must be responsible for more of the AC total than any other player, or Agares himself.</English>
+		<French>To win a Gone to Hell victory, the whole of Erebus must be covered by Hell Terrain and you must be responsible for more of the AC total than any other player, or Agares himself.</French>
+		<German>Um einen Sieg durch "Zur Hölle!" zu erringen, muß ganz Erebus von Höllenterrain überzogen sein, und du mußt mehr Anteil als alle anderen Spieler und selbst Agares an dem Armageddonzählerstand aufweisen können.</German>
+		<Italian>To win a Gone to Hell victory, the whole of Erebus must be covered by Hell Terrain and you must be responsible for more of the AC total than any other player, or Agares himself.</Italian>
+		<Spanish>To win a Gone to Hell victory, the whole of Erebus must be covered by Hell Terrain and you must be responsible for more of the AC total than any other player, or Agares himself.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_PERCENT_HELL_TERRAIN</Tag>
+		<English>%d1%% of Erebus is covered by hell terrain (need %d2%%)</English>
+		<French>%d1%% d'Erebus sont envahis par les Enfers (%d2%% requis)</French>
+		<German>%d1%% von Erebus ist mit Höllenterrain bedeckt (benötigt %d2%%)</German>
+		<Italian>%d1%% of Erebus is covered by hell terrain (need %d2%%)</Italian>
+		<Spanish>%d1%% of Erebus is covered by hell terrain (need %d2%%)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_SCREEN_AC_CONTRIBUTION</Tag>
+		<English>Individual AC contributions (highest wins)</English>
+		<French>Contributions individuelles au compteur Armageddon (le plus élevé gagne)</French>
+		<German>Eigener Armageddonzähler Beitrag (höchster gewinnt)</German>
+		<Italian>Individual AC contributions (highest wins)</Italian>
+		<Spanish>Individual AC contributions (highest wins)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_NO_HOLY_CITY</Tag>
+		<English>No Holy City</English>
+		<French>Pas de ville sainte</French>
+		<German>No Holy City</German>
+		<Italian>No Holy City</Italian>
+		<Spanish>No Holy City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ALTAR_OF_THE_LUONNOTAR</Tag>
+		<English>Altar of the Luonnotar</English>
+		<French>Autel des Luonnotar</French>
+		<German>Altar der Luonnotar</German>
+		<Italian>Altar of the Luonnotar</Italian>
+		<Spanish>Altar of the Luonnotar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_ALTAR_OF_THE_LUONNOTAR_PEDIA</Tag>
+		<English>If a Great Prophet is sacrificed the Altar of the Luonnotar can be built. Each further Great Prophet sacrificed improves the Altar and if the altar is improved to its final form (requiring 6 Great Prophets) the player wins the game.</English>
+		<French>Si un Prophète Illustre est sacrifié, l'Autel des Luonnotar peut être construit. Chaque Prophète Illustre sacrifié ensuite améliore l'Autel et si l'autel est amélioré dans sa forme finale (requerrant 7 Prophètes Illustres), le joueur gagne la partie.</French>
+		<German>Wenn ein großer Prophet geopfert wird kann er den Altar des Luonnotar  errichten. Jeder weitere große Prophet welcher geopfert wird erweitert den Altar um eine Stufe und wenn der Altar vollendet ist (dies benötigt 7 große Propheten) gewinnt der Spieler die Partie</German>
+		<Italian>If a Great Prophet is sacrificed the Altar of the Luonnotar can be built. Each further Great Prophet sacrificed improves the Altar and if the altar is improved to its final form (requiring 6 Great Prophets) the player wins the game.</Italian>
+		<Spanish>If a Great Prophet is sacrificed the Altar of the Luonnotar can be built. Each further Great Prophet sacrificed improves the Altar and if the altar is improved to its final form (requiring 6 Great Prophets) the player wins the game.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_RELIGIOUS</Tag>
+		<English>Religious</English>
+		<French>Religieuse</French>
+		<German>Religionssieg</German>
+		<Italian>Religious</Italian>
+		<Spanish>Religious</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TOWER_OF_MASTERY</Tag>
+		<English>Tower of Mastery</English>
+		<French>Tour de Maîtrise</French>
+		<German>Turm der Macht</German>
+		<Italian>Tower of Mastery</Italian>
+		<Spanish>Tower of Mastery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_TOWER_OF_MASTERY_PEDIA</Tag>
+		<English>If a player is able to build all four of the lesser towers, the Tower of Alteration, Tower of Divination, Tower of Elementalism and Tower of Necromancy and has access to all 15 mana types they will be able to construct the Tower of Mastery. If it is completed that player will win the game.</English>
+		<French>Si un joueur est capable de construire les quatre tours mineurs, la Tour d'Altération, la Tour de Divination, la Tour d'Elémentalisme et la Tour de Nécromancie, et si il a accès aux 14 types de manas, il sera alors capable de construire la Tour de Maîtrise. S'il la termine, le joueur remporte la partie.</French>
+		<German>Ist ein Spieler in der Lage, jeden der 4 niederen Türme zu erbauen, den Turm der Alteration, den Turm der Weissagung, den Turm der Elemente sowie den Turm der Nekromantie und besitzt Zugang zu allen 14 Manatypen, steht es ihm frei, auch den Turm der Macht zu errichten. Bei seiner Vollendung, gewinnt der Erbauer das Spiel.</German>
+		<Italian>If a player is able to build all four of the lesser towers, the Tower of Alteration, Tower of Divination, Tower of Elementalism and Tower of Necromancy and has access to all 15 mana types they will be able to construct the Tower of Mastery. If it is completed that player will win the game.</Italian>
+		<Spanish>If a player is able to build all four of the lesser towers, the Tower of Alteration, Tower of Divination, Tower of Elementalism and Tower of Necromancy and has access to all 15 mana types they will be able to construct the Tower of Mastery. If it is completed that player will win the game.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_QUICK_RELIGIOUS</Tag>
+		<English>Quick Religious</English>
+		<French>Religieuse rapide</French>
+		<German>Schnelle Religion</German>
+		<Italian>Quick Religious</Italian>
+		<Spanish>Quick Religious</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_QUICK_CULTURAL</Tag>
+		<English>Quick Cultural</English>
+		<French>Culture rapide</French>
+		<German>Schnelle Kultur</German>
+		<Italian>Quick Cultural</Italian>
+		<Spanish>Quick Cultural</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VICTORY_QUICK_DOMINATION</Tag>
+		<English>Quick Domination</English>
+		<French>Domination rapide</French>
+		<German>Schnelle Vorherrschaft</German>
+		<Italian>Quick Domination</Italian>
+		<Spanish>Quick Domination</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_LEADER_EXPERIENCE</Tag>
+		<English>XP %d1/%d2 (%d3%). %d4 required for %s5 level %d6</English>
+		<French>EXP %d1/%d2 (%d3%). %d4 requis pour %s5 niveau %d6</French>
+		<German>XP %d1/%d2 (%d3%). %d4 required for %s5 level %d6</German>
+		<Italian>XP %d1/%d2 (%d3%). %d4 required for %s5 level %d6</Italian>
+		<Spanish>XP %d1/%d2 (%d3%). %d4 required for %s5 level %d6</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_LEADER_LEVELUP</Tag>
+		<English>XP %d1/%d2. %s3 level %d4 on next turn</English>
+		<French>EXP %d1/%d2. %s3 niveau %d4 au prochain tour</French>
+		<German>XP %d1/%d2. %s3 level %d4 on next turn</German>
+		<Italian>XP %d1/%d2. %s3 level %d4 on next turn</Italian>
+		<Spanish>XP %d1/%d2. %s3 level %d4 on next turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_RANDOM_DESC</Tag>
+		<English>@Random (by Alignment)</English>
+		<French>@Random (by Alignment)</French>
+		<German>Zufall (Gesinnung wählbar)</German>
+		<Italian>@Random (by Alignment)</Italian>
+		<Spanish>@Random (by Alignment)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FOREIGN_ADVISOR_INFO</Tag>
+		<English>Info</English>
+		<French>Infos</French>
+		<German>Info</German>
+		<Italian>Info</Italian>
+		<Spanish>Info.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COMMAND_CAST</Tag>
+		<English>Cast</English>
+		<French>Lancer</French>
+		<German>Zauberspruch</German>
+		<Italian>Cast</Italian>
+		<Spanish>Lanzar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CORPORATION_SCREEN_TITLE</Tag>
+		<English>Guilds</English>
+		<French>Guildes</French>
+		<German>Gilden</German>
+		<Italian>Guilds</Italian>
+		<Spanish>Cofradías</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>SYSTEM_END_TURN</Tag><!-- overwrites vanilla tag because of French typos -->
+		<English>Press &lt;ENTER> to end turn...</English>
+		<French>Appuyez sur &lt;ENTRÉE> pour finir votre tour...</French>
+		<German>Runde beenden mit &lt;EINGABETASTE> ...</German>
+		<Italian>Premi &lt;INVIO> per terminare il turno...</Italian>
+		<Spanish>Pulsar &lt;INTRO> para terminar el turno...</Spanish>
+	</TEXT>
+</Civ4GameText>

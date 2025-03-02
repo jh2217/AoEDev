@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Alignment -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_EVIL</Tag>
+		<English>Evil</English>
+		<French>Mauvais</French>
+		<German>Böse</German>
+		<Italian>Malvagio</Italian>
+		<Spanish>Maligno</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_GOOD</Tag>
+		<English>Good</English>
+		<French>Bon</French>
+		<German>Gut</German>
+		<Italian>Buono</Italian>
+		<Spanish>Bueno</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL</Tag>
+		<English>Neutral</English>
+		<French>Neutre</French>
+		<German>Neutral</German>
+		<Italian>Neutrale</Italian>
+		<Spanish>Neutral</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PREREQ_ALIGN</Tag>
+		<English>[ICON_BULLET]Requires %D1 Alignment Value</English>
+		<French>[ICON_BULLET]Nécessite d'être d'Alignement %D1</French>
+		<German>[ICON_BULLET]Erfordert einen Gesinnungswert von %D1</German>
+		<Italian>[ICON_BULLET]Richiede di essere di Allinemaento %D1</Italian>
+		<Spanish>[ICON_BULLET]Requires %D1 Alignment Value</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Modifies your Alignment by %D1</English>
+		<French>[ICON_BULLET]Modifie votre Alignement de %D1</French>
+		<German>[ICON_BULLET]Wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Modifica il tuo Allineamento del %D1</Italian>
+		<Spanish>[ICON_BULLET]Modifies your Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Using this Civic will modify your Alignment by %D1</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine modifiera votre Alignement de %D1</French>
+		<German>[ICON_BULLET]Die Verwendung dieses Bewohners wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Adottare questa Forma di Governo modificherà il tuo Allineamento del %D1</Italian>
+		<Spanish>[ICON_BULLET]Using this Civic will modify your Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CRIME_PER_TURN</Tag>
+		<English>[ICON_BULLET]Using this Civic will cause crime in your cities to change by %D1 per turn</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine modifiera le taux de criminalité de %D1 par tour dans vos villes.</French>
+		<German>[ICON_BULLET]Using this Civic will cause crime in your cities to change by %D1 per turn</German>
+		<Italian>[ICON_BULLET]Using this Civic will cause crime in your cities to change by %D1 per turn</Italian>
+		<Spanish>[ICON_BULLET]Using this Civic will cause crime in your cities to change by %D1 per turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Casting this Spell will modify your Alignment by %D1</English>
+		<French>[ICON_BULLET]Lancer ce sort modifiera votre Alignement de %D1</French>
+		<German>[ICON_BULLET]Das Wirken dieses Zaubers wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Lanciare questa Magia modificherà il tuo Allineamento del %D1</Italian>
+		<Spanish>[ICON_BULLET]Casting this Spell will modify your Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Researching this will modify your Alignment by %D1</English>
+		<French>[ICON_BULLET]Découvrir cette technologie modifiera votre Alignement de %D1</French>
+		<German>[ICON_BULLET]Die Erforschung dieser Technologie wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Scoprire questa Tecnologia modificherà il tuo Allineamento del %D1</Italian>
+		<Spanish>[ICON_BULLET]Researching this will modify your Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Training this Unit this will modify your Alignment by %D1</English>
+		<French>[ICON_BULLET]Produire cette Unité modifiera votre Alignement de %D1</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Creare questa Unità modificherà il tuo Allineamento del %D1</Italian>
+		<Spanish>[ICON_BULLET]Training this Unit this will modify your Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Constructing this Building this will modify your Alignment by %D1</English>
+		<French>[ICON_BULLET]Construire ce bâtiment modifiera votre Alignement de %D1</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Costruire questo Edificio modificherà il tuo Allineamento del %D1</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building this will modify your Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALIGN_SHIFT</Tag>
+		<English>[ICON_BULLET]Constructing this Building will shift your Alignment by %D1 each turn, to a max of %D2</English>
+		<French>[ICON_BULLET]Construire ce bâtiment modifiera votre Alignement de %D1 chaque tour, jusqu'à un maximum de %D2</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes wandelt Eure Gesinnung um %D1, bis auf maximal %D2</German>
+		<Italian>[ICON_BULLET]Costruire questo Edificio sposterà il tuo Allineamento di %D1 a ogni turno, sino a un massimo di %D2</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building will shift your Alignment by %D1 each turn, to a max of %D2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Building will shift your Alignment to within +/%D1 of Neutral, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Construire ce bâtiment fera tendre votre Alignement vers le Neutre de +/%D1, au rythme de +/%D2 chaque tour</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes verändert Eure Gesinnung innerhalb von Neutral +/%D1, um +/%D2 je Runde</German>
+		<Italian>[ICON_BULLET]Costruire questo Edificio sposterà il tuo Allinemento verso il Neutrale fino a +/%D1, al ritmo di +/%D2 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building will shift your Alignment to within +/%D1 of Neutral, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Building will shift your Alignment to Neutral, at a rate of %D1 each turn</English>
+		<French>[ICON_BULLET]Construire ce bâtiment fera tendre vote Alignement vers le Neutre, à un rythme de %D1 chaque tour</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes verändert Eure Gesinnung zu Neutral mit einer Rate von %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Costruire questo Edificio sposterà il tuo Allineamento verso il Neutrale, al ritmo di %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building will shift your Alignment to Neutral, at a rate of %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALIGN_SHIFT_MOD</Tag>
+		<English>[ICON_BULLET]Constructing this Building will shift your Alignment by %D1 each turn</English>
+		<French>[ICON_BULLET]Construire ce bâtiment modifiera votre Alignement de %D1 chaque tour</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes verändert Eure Gesinnung um %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Costruire questo Edificio modificherà il tuo Allineamento del %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building will shift your Alignment by %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ALIGN_SHIFT</Tag>
+		<English>[ICON_BULLET]Constructing this Unit will shift your Alignment by %D1 each turn, to a max of %D2</English>
+		<French>[ICON_BULLET]Produire cette Unité modifiera votre Alignement de %D1 à chaque tour, jusqu'à un maximum de %D2</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit wandelt Eure Gesinnung um %D1, bis auf maximal %D2</German>
+		<Italian>[ICON_BULLET]Creare questa Unità modificherà il tuo Allineamento del %D1 a ogni turno, sino a un massimo di %D2</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Unit will shift your Alignment by %D1 each turn, to a max of %D2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Unit will shift your Alignment to within +/%D1 of Neutral, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Produire cette Unité fera tendre votre Alignement vers le Neutre de +/%D1, au rythme de +/%D2 à chaque tour</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit verändert Eure Gesinnung innerhalb von Neutral +/%D1, um +/%D2 je Runde</German>
+		<Italian>[ICON_BULLET]Costruire questa Unità sposterà il tuo Allineamento verso il Neutrale fino a +/%D1, al ritmo di +/%D2 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Unit will shift your Alignment to within +/%D1 of Neutral, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Unit will shift your Alignment to Neutral, at a rate of %D1 each turn</English>
+		<French>[ICON_BULLET]Produire cette Unité fera tendre votre Alignement vers le Neutre, à un rythme de %D1 chaque tour</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit verändert Eure Gesinnung zu Neutral, mit einer Rate von %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Creare questa Unità sposterà il tuo Allineamento verso il Neutrale, al ritmo di %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Unit will shift your Alignment to Neutral, at a rate of %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ALIGN_SHIFT_MOD</Tag>
+		<English>[ICON_BULLET]Constructing this Unit will shift your Alignment by %D1 each turn</English>
+		<French>[ICON_BULLET]Produire cette Unité modifiera votre Alignement de %D1 chaque tour</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit verändert Eure Gesinnung um %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Creare questa Unità modificherà il tuo Allineamento del %D1 a ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Unit will shift your Alignment by %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ALIGN_SHIFT</Tag>
+		<English>[ICON_BULLET]Adopting this Civic will shift your Alignment by %D1 each turn, to a max of %D2</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine modifiera votre Alignement de %D1 à chaque tour, jusqu'à un maximum de %D2</French>
+		<German>[ICON_BULLET]Die &#220;bernahme dieser Staatsform wird Eure Gesinnung je Runde um %D1 ändern, bis zu einem Maximum von %D2</German>
+		<Italian>[ICON_BULLET]Adottare questa Forma di Governo modificherà il tuo Allineamento del %D1, sino ad un massimo del %D2</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Civic will shift your Alignment by %D1 each turn, to a max of %D2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Civic will shift your Alignment to within +/%D1 of Neutral, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine fera tendre votre Alignement vers le Neutre de +/%D1, à un rythme de +/%D2 à chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Staatsform wird Eure Gesinnung zu Neutral +/%D1 ändern, um %D2 je Runde</German>
+		<Italian>[ICON_BULLET]Adottare questa Forma di Governo sposterà il tuo Allineamento verso il Neutrale fino a +/%D1, al ritmo di +/%D2 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Civic will shift your Alignment to within +/%D1 of Neutral, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Civic will shift your Alignment to Neutral, at a rate of %D1 each turn</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine fera tendre votre Alignement vers le Neutre, à un rythme de %D1 à chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Staatsform wird Eure Gesinnung zu Neutral ändern, mit einer Rate von %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Adottare questa Forma di Governo sposterà il tuo Allineamento verso il Neutrale, al ritmo di %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Civic will shift your Alignment to Neutral, at a rate of %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ALIGN_SHIFT_MOD</Tag>
+		<English>[ICON_BULLET]Adopting this Civic will shift your Alignment by %D1 each turn</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine modifiera votre Alignement de %D1 à chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Staatsform wird Eure Gesinnung um %D1 pro Runde ändern</German>
+		<Italian>[ICON_BULLET]Adottare questa Forma di Governo modificherà il tuo Allineamento del %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Civic will shift your Alignment by %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ALIGN_SHIFT</Tag>
+		<English>[ICON_BULLET]Adopting this Religion will shift your Alignment by %D1 each turn, to a max of %d2</English>
+		<French>[ICON_BULLET]Se convertir à cette Religion modifiera votre Alignement de %D1 à chaque tour, jusqu'à un maximum de %d2</French>
+		<German>[ICON_BULLET]Die &#220;bernahme dieser Religion wird Eure Gesinnung je Runde um %D1 ändern, bis zu einem Maximum von %d2</German>
+		<Italian>[ICON_BULLET]Convertirsi a questa Religione modificherà il tuo Allineamento del %D1 ogni turno, sino ad un massimo di %d2</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Religion will shift your Alignment by %D1 each turn, to a max of %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Religion will shift your Alignment to within +/%D1 of Neutral, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Se convertir à cette Religion fera tendre votre Alignement vers le Neutre de +/%D1 à un rythme de +/%D2 chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Religion wird Eure Gesinnung zu Neutral +/%D1 ändern, um %D2 je Runde</German>
+		<Italian>[ICON_BULLET]Convertirsi a questa Religione sposterà il tuo allinemaneto verso il Neutrale fino a +/%D1, al ritmo di +/%D2 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Religion will shift your Alignment to within +/%D1 of Neutral, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Religion will shift your Alignment to Neutral, at a rate of %d1 each turn</English>
+		<French>[ICON_BULLET]Se convertir à cette Religion fera tendre votre Alignement vers le Neutre au rythme de %d1 à chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Religion wird Eure Gesinnung zu Neutral ändern, mit einer Rate von %d1 je Runde</German>
+		<Italian>[ICON_BULLET]Convertirsi a questa Religione sposterà il tuo Allineamento verso il Neutrale, al ritmo di %d1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Religion will shift your Alignment to Neutral, at a rate of %d1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ALIGN_SHIFT_MOD</Tag>
+		<English>[ICON_BULLET]Adopting this Religion will shift your Alignment by %D1 each turn</English>
+		<French>[ICON_BULLET]Se convertir à cette Religion modifiera votre Alignement de %D1 à chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Religion wird Eure Gesinnung um %D1 pro Runde ändern</German>
+		<Italian>[ICON_BULLET]Convertirsi a questa Religione modificherà il tuo Allineamento del %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Religion will shift your Alignment by %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_EXTRA_RANGE</Tag>
+		<English>[ICON_BULLET]%D1 Spell Range</English>
+		<French>[ICON_BULLET]%D1 Portée des sorts</French>
+		<German>[ICON_BULLET]%D1 Spruchreichweite</German>
+		<Italian>[ICON_BULLET]%D1 Portata della Magia</Italian>
+		<Spanish>[ICON_BULLET]%D1 Spell Range</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_EVIL_BA</Tag>
+		<English>Chaotic Evil: %d1 %d2</English>
+		<French>Chaotique Mauvais: %d1 %d2</French>
+		<German>Chaotisch Böse: %d1 %d2</German>
+		<Italian>Caotico Malvagio: %d1 %d2</Italian>
+		<Spanish>Chaotic Evil: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_GOOD_BA</Tag>
+		<English>Chaotic Good: %d1 %d2</English>
+		<French>Chaotique Bon : %d1 %d2</French>
+		<German>Chaotisch Gut: %d1 %d2</German>
+		<Italian>Caotico Buono: %d1 %d2</Italian>
+		<Spanish>Chaotic Good: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_NEUTRAL_BA</Tag>
+		<English>Chaotic: %d1 %d2</English>
+		<French>Chaotique Neutre: %d1 %d2</French>
+		<German>Chaotisch: %d1 %d2</German>
+		<Italian>Caotico Neutrale: %d1 %d2</Italian>
+		<Spanish>Chaotic: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_EVIL_BA</Tag>
+		<English>Lawful Evil: %d1 %d2</English>
+		<French>Loyal Mauvais : %d1 %d2</French>
+		<German>Rechtschaffen Böse: %d1 %d2</German>
+		<Italian>Legale Malvagio: %d1 %d2</Italian>
+		<Spanish>Lawful Evil: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_GOOD_BA</Tag>
+		<English>Lawful Good: %d1 %d2</English>
+		<French>Loyal Bon : %d1 %d2</French>
+		<German>Rechtschaffen Gut: %d1 %d2</German>
+		<Italian>Legale Buono: %d1 %d2</Italian>
+		<Spanish>Lawful Good: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_NEUTRAL_BA</Tag>
+		<English>Lawful: %d1 %d2</English>
+		<French>Loyal Neutre : %d1 %d2</French>
+		<German>Rechtschaffen: %d1 %d2</German>
+		<Italian>Legale Neutrale: %d1 %d2</Italian>
+		<Spanish>Lawful: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_EVIL_BA</Tag>
+		<English>Evil: %d1 %d2</English>
+		<French>Neutre Mauvais : %d1 %d2</French>
+		<German>Böse: %d1 %d2</German>
+		<Italian>Neutrale Malvagio: %d1 %d2</Italian>
+		<Spanish>Evil: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_GOOD_BA</Tag>
+		<English>Good: %d1 %d2</English>
+		<French>Neutre Bon : %d1 %d2</French>
+		<German>Gut: %d1 %d2</German>
+		<Italian>Neutrale Buono: %d1 %d2</Italian>
+		<Spanish>Good: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_NEUTRAL_BA</Tag>
+		<English>Neutral: %d1 %d2</English>
+		<French>Neutre Complet : %d1 %d2</French>
+		<German>Neutral: %d1 %d2</German>
+		<Italian>Vero Neutrale: %d1 %d2</Italian>
+		<Spanish>Neutral: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_EVIL</Tag>
+		<English>Chaotic Evil</English>
+		<French>Chaotique Mauvais</French>
+		<German>Chaotisch Böse</German>
+		<Italian>Caotico Malvagio</Italian>
+		<Spanish>Chaotic Evil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_GOOD</Tag>
+		<English>Chaotic Good</English>
+		<French>Chaotique Bon</French>
+		<German>Chaotisch Gut</German>
+		<Italian>Caotico Buono</Italian>
+		<Spanish>Chaotic Good</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_NEUTRAL</Tag>
+		<English>Chaotic</English>
+		<French>Chaotique Neutre</French>
+		<German>Chaotisch</German>
+		<Italian>Caotico Neutrale</Italian>
+		<Spanish>Chaotic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_EVIL</Tag>
+		<English>Lawful Evil</English>
+		<French>Loyal Mauvais</French>
+		<German>Rechtschaffen Böse</German>
+		<Italian>Legale Malvagio</Italian>
+		<Spanish>Lawful Evil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_GOOD</Tag>
+		<English>Lawful Good</English>
+		<French>Loyal Bon</French>
+		<German>Rechtschaffen Gut</German>
+		<Italian>Legale Buono</Italian>
+		<Spanish>Lawful Good</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_NEUTRAL</Tag>
+		<English>Lawful</English>
+		<French>Loyal Neutre</French>
+		<German>Rechtschaffen</German>
+		<Italian>Legale Neutrale</Italian>
+		<Spanish>Lawful</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_EVIL</Tag>
+		<English>Evil</English>
+		<French>Neutre Mauvais</French>
+		<German>Böse</German>
+		<Italian>Neutrale Malvagio</Italian>
+		<Spanish>Evil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_GOOD</Tag>
+		<English>Good</English>
+		<French>Neutre Bon</French>
+		<German>Gut</German>
+		<Italian>Neutrale Buono</Italian>
+		<Spanish>Good</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_NEUTRAL</Tag>
+		<English>Neutral</English>
+		<French>Neutre Complet</French>
+		<German>Neutral</German>
+		<Italian>Vero Neutrale</Italian>
+		<Spanish>Neutral</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PREREQ_ETHICAL_ALIGN</Tag>
+		<English>[ICON_BULLET]Requires %D1 Ethical Alignment Value</English>
+		<French>[ICON_BULLET]Requiert un Alignement Moral %D1</French>
+		<German>[ICON_BULLET]Erfordert einen Gesinnungswert von %D1</German>
+		<Italian>[ICON_BULLET]Richiede un'Allineamento Etico %D1</Italian>
+		<Spanish>[ICON_BULLET]Requires %D1 Ethical Alignment Value</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ETHICAL_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Modifies your Ethical Alignment by %D1</English>
+		<French>[ICON_BULLET]Modifie votre Alignement Moral de %D1</French>
+		<German>[ICON_BULLET]Wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Modifica il tuo Allineamento Etico del %D1</Italian>
+		<Spanish>[ICON_BULLET]Modifies your Ethical Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ETHICAL_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Using this Civic will modify your Ethical Alignment by %D1</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine modifiera votre Alignement Moral de %D1</French>
+		<German>[ICON_BULLET]Die Verwendung dieser Staatsform wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Adottare questa Forma di Governo modificherà il tuo Allineamento Etico del %D1</Italian>
+		<Spanish>[ICON_BULLET]Using this Civic will modify your Ethical Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ETHICAL_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Casting this Spell will modify your Ethical Alignment by %D1</English>
+		<French>[ICON_BULLET]Lancer ce sort modifiera votre Alignement Moral de %D1</French>
+		<German>[ICON_BULLET]Das Wirken dieses Zaubers wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Lanciare questa Magia modificherà il tuo Allinemento Etico del %D1</Italian>
+		<Spanish>[ICON_BULLET]Casting this Spell will modify your Ethical Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ETHICAL_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Researching this will modify your Ethical Alignment by %D1</English>
+		<French>[ICON_BULLET]Effectuer cette Recherche modifiera votre Alignement Moral de %D1</French>
+		<German>[ICON_BULLET]Die Erforschung dieser Technologie wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Scoprire questa Tecnologia modificherà il tuo Allinemento Etico del %D1</Italian>
+		<Spanish>[ICON_BULLET]Researching this will modify your Ethical Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ETHICAL_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Training this Unit this will modify your Ethical Alignment by %D1</English>
+		<French>[ICON_BULLET]Produire cette Unité modifiera votre Alignement Moral de %D1</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Creare questa Unità modificherà il tuo Allinemento Etico del %D1</Italian>
+		<Spanish>[ICON_BULLET]Training this Unit this will modify your Ethical Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ETHICAL_ALIGN_MOD</Tag>
+		<English>[ICON_BULLET]Constructing this Building this will modify your Ethical Alignment by %D1</English>
+		<French>[ICON_BULLET]Construire ce Bâtiment modifiera votre Alignement Moral de %D1</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes wandelt Eure Gesinnung um %D1</German>
+		<Italian>[ICON_BULLET]Costruire questo Edificio modificherà il tuo Allinemento Etico del %D1</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building this will modify your Ethical Alignment by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ETHICAL_ALIGN_SHIFT</Tag>
+		<English>[ICON_BULLET]Constructing this Building will shift your Ethical Alignment by %D1 each turn, to a max of %D2</English>
+		<French>[ICON_BULLET]Construire ce Bâtiment modifiera votre Alignement Moral de %D1 à chaque tour, jusqu'à un maximum de %D2</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes wandelt Eure Gesinnung um %D1 pro Runde, bis zu einem Maximum von %D2</German>
+		<Italian>[ICON_BULLET]Costruire questo Edificio modificherà il tuo Allineamento Etico del %D1 ogni turno, sino ad un massimo di %D2</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building will shift your Ethical Alignment by %D1 each turn, to a max of %D2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ETHICAL_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Building will shift your Ethical Alignment to within +/%D1 of Neutral, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Construire ce Bâtiment fera tendre votre Alignement Moral vers le Neutre de +/%D1 à un rythme de +/%D2 à chaque tour</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes wandelt Eure Gesinnung innerhalb von Neutral +/%D1, mit +/%D2 pro Runde</German>
+		<Italian>[ICON_BULLET]Costruire questo Edificio sposterà il tuo Allinemento Etico verso il Neutrale fino a +/%D1, al ritmo di +/%D2 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building will shift your Ethical Alignment to within +/%D1 of Neutral, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ETHICAL_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Building will shift your Ethical Alignment to Neutral, at a rate of %D1 each turn</English>
+		<French>[ICON_BULLET]Construire ce Bâtiment fera tendre votre Alignement Moral vers le Neutre à un rythme de %D1 à chaque tour</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes wandelt Eure Gesinnung zu Neutral, mit %D1 pro Runde</German>
+		<Italian>[ICON_BULLET]Costruire questo Edificio sposterà il tuo Allineamento Etico verso il Neutrale, al ritmo di %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building will shift your Ethical Alignment to Neutral, at a rate of %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ETHICAL_ALIGN_SHIFT_MOD</Tag>
+		<English>[ICON_BULLET]Constructing this Building will shift your Ethical Alignment by %D1 each turn</English>
+		<French>[ICON_BULLET]Construire ce Bâtiment modifiera votre Alignement Moral de %D1 à chaque tour</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes wandelt Eure Gesinnung um %D1 pro Runde</German>
+		<Italian>[ICON_BULLET]Costruire questo Edificio modificherà il tuo Allineamento Etico del %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building will shift your Ethical Alignment by %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ETHICAL_ALIGN_SHIFT</Tag>
+		<English>[ICON_BULLET]Constructing this Unit will shift your Ethical Alignment by %D1 each turn, to a max of %D2</English>
+		<French>[ICON_BULLET]Produire cette Unité modifiera votre Alignement Moral de %D1 à chaque tour, jusqu'à un maximum de %D2</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit wandelt Eure Gesinnung um %D1 pro Runde, bis zu einem Maximum von %D2</German>
+		<Italian>[ICON_BULLET]Creare questa Unità modificherà il tuo Allineamento Etico del %D1, sino ad un massimo del %D2</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Unit will shift your Ethical Alignment by %D1 each turn, to a max of %D2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ETHICAL_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Unit will shift your Ethical Alignment to within +/%D1 of Neutral, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Produire cette Unité fera tendre votre Alignement Moral vers le Neutre de +/%D1 à un rythme de +/%D2 à chaque tour</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit wandelt Eure Gesinnung innerhalb von Neutral +/%D1, um +/%D2 je Runde</German>
+		<Italian>[ICON_BULLET]Creare questa Unità sposterà il tuo Allineamento Etico verso il Neutrale fino a +/%D1, al ritmo di +/%D2 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Unit will shift your Ethical Alignment to within +/%D1 of Neutral, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ETHICAL_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Unit will shift your Ethical Alignment to Neutral, at a rate of %D1 each turn</English>
+		<French>[ICON_BULLET]Produire cette Unité fera tendre votre Alignement Moral vers le Neutre à un rythme de %D1 à chaque tour</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit wandelt Eure Gesinnung zu Neutral, mit einer Rate von %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Creare questa Unità sposterà il tuo Allinemento Etico verso il Neutrale, al ritmo di %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Unit will shift your Ethical Alignment to Neutral, at a rate of %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ETHICAL_ALIGN_SHIFT_MOD</Tag>
+		<English>[ICON_BULLET]Constructing this Unit will shift your Ethical Alignment by %D1 each turn</English>
+		<French>[ICON_BULLET]Produire cette Unité modifiera votre Alignement Moral de %D1 à chaque tour</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit ändert Eure Gesinnung mit einer Rate von %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Creare questa Unità modificherà il tuo Allineamento Etico del %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Unit will shift your Ethical Alignment by %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ETHICAL_ALIGN_SHIFT</Tag>
+		<English>[ICON_BULLET]Adopting this Civic will shift your Ethical Alignment by %D1 each turn, to a max of %D2</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine modifiera votre Alignement Moral de %D1 à chaque tour, jusqu'à un maximum de %D2</French>
+		<German>[ICON_BULLET]Die Annahme dieser Staatsform wird Eure Gesinnung um %D1 je Runde verändern, bis zu einem Maximum von %D2</German>
+		<Italian>[ICON_BULLET]Adottare questa Forma di Governo modificherà il tuo Allineamento Etico del %D1 ogni turno, sino ad un massimo del %D2</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Civic will shift your Ethical Alignment by %D1 each turn, to a max of %D2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ETHICAL_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Civic will shift your Ethical Alignment to within +/%D1 of Neutral, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine fera tendre votre Alignement Moral vers le Neutre de +/%D1 à un rythme de +/%D2 à chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Staatsform wird Eure Gesinnung innerhalb von Neutral um  +/%D1 verändern, um %D2 je Runde</German>
+		<Italian>[ICON_BULLET]Adottare questa Forma di Governo sposterà il tuo Allineamento Etico verso il Neutrale fino a +/%D1, al ritmo di +/%D2 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Civic will shift your Ethical Alignment to within +/%D1 of Neutral, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ETHICAL_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Civic will shift your Ethical Alignment to Neutral, at a rate of %D1 each turn</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine fera tendre votre Alignement Moral vers le Neutre de %D1 à chaque tour</French>
+		<German>[ICON_BULLET] Die Annahme dieser Staatsform wird Eure Gesinnung zu Neutral ändern, mit %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Adottare questa Forma di Governo sposterà il tuo Allineamento Etico verso il Neutrale, al ritmo di %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Civic will shift your Ethical Alignment to Neutral, at a rate of %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ETHICAL_ALIGN_SHIFT_MOD</Tag>
+		<English>[ICON_BULLET]Adopting this Civic will shift your Ethical Alignment by %D1 each turn</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine modifiera votre Alignement Moral de %D1 à chaque tour</French>
+		<German>[ICON_BULLET] Die Annahme dieser Staatsform wird Eure Gesinnung ändern, mit %D1 je Runde </German>
+		<Italian>[ICON_BULLET]Adottare questa Forma di Governo modificherà il tuo Allineamento Etico del %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Civic will shift your Ethical Alignment by %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ETHICAL_ALIGN_SHIFT</Tag>
+		<English>[ICON_BULLET]Adopting this Religion will shift your Ethical Alignment by %D1 each turn, to a max of %D2</English>
+		<French>[ICON_BULLET]Se convertir à cette Religion modifiera votre Alignement Moral de %D1 à chaque tour, jusqu'à un maximum de %D2</French>
+		<German>[ICON_BULLET] Die &#220;bernahme dieser Religion wird Eure Gesinnung je Runde um %D1 ändern, bis zu einem Maximum von %D2</German>
+		<Italian>[ICON_BULLET]Convertirsi a questa Religione modificherà il tuo Allineamento Etico del %D1 ogni turno, sino ad un massimo di %D2</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Religion will shift your Ethical Alignment by %D1 each turn, to a max of %D2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ETHICAL_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Religion will shift your Ethical Alignment to within +/%D1 of Neutral, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Se convertir à cette Religion fera tendre votre Alignement Moral vers le Neutre de +/%D1à un rythme de +/%D2 à chaque tour</French>
+		<German>[ICON_BULLET] Die Annahme dieser Religion wird Eure Gesinnung zu Neutral +/%D1 ändern, um %D2 je Runde </German>
+		<Italian>[ICON_BULLET]Convertirsi a questa Religione sposterà il tuo Allineamento Etico verso il Neutrale fino a +/%D1, al ritmo di +/%D2 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Religion will shift your Ethical Alignment to within +/%D1 of Neutral, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ETHICAL_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Religion will shift your Ethical Alignment to Neutral, at a rate of %D1 each turn</English>
+		<French>[ICON_BULLET]Se convertir à cette Religion fera tendre votre Alignement Moral vers le Neutre à un rythme de %D1 à chaque tour</French>
+		<German>[ICON_BULLET] Die Annahme dieser Religion wird Eure Gesinnung zu Neutral ändern, mit einer Rate von %D1 je Runde </German>
+		<Italian>[ICON_BULLET]Convertirsi a questa Religione sposterà il tuo Allineamento Etico verso il Neutrale, al ritmo di %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Religion will shift your Ethical Alignment to Neutral, at a rate of %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ETHICAL_ALIGN_SHIFT_MOD</Tag>
+		<English>[ICON_BULLET]Adopting this Religion will shift your Ethical Alignment by %D1 each turn</English>
+		<French>[ICON_BULLET]Se convertir à cette Religion modifiera votre Alignement Moral de %D1 à chaque tour</French>
+		<German>[ICON_BULLET] Die Annahme dieser Religion wird Eure Gesinnung um %D1 pro Runde ändern </German>
+		<Italian>[ICON_BULLET]Convertirsi a questa Religione modificherà il tuo Allineamento Etico del %D1 ogni turno</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Religion will shift your Ethical Alignment by %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT</Tag>
+		<English>Alignment: %s1 %s2</English>
+		<French>Alignement : %s1 %s2</French>
+		<German>Gesinnung: %s1 %s2</German>
+		<Italian>Allineamento: %s1 %s2</Italian>
+		<Spanish>Alineamiento: %s1 %s2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_ETHICAL_ALIGNMENT</Tag>
+		<English>%D1: "You are %s2."</English>
+		<French>%D1: "Vous êtes %s2."</French>
+		<German>%D1: "Ihr seid %s2."</German>
+		<Italian>%D1: "Tu sei %s2."</Italian>
+		<Spanish>%D1: "You are %s2."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ETHICAL_ALIGNMENT_LAWFUL</Tag>
+		<English>Lawful</English>
+		<French>Loyal</French>
+		<German>Rechtschaffen</German>
+		<Italian>Legale</Italian>
+		<Spanish>Lawful</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ETHICAL_ALIGNMENT_NEUTRAL</Tag>
+		<English>Neutral</English>
+		<French>Neutre</French>
+		<German>Neutral</German>
+		<Italian>Neutrale</Italian>
+		<Spanish>Neutral</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ETHICAL_ALIGNMENT_CHAOTIC</Tag>
+		<English>Chaotic</English>
+		<French>Chaotique</French>
+		<German>Chaotisch</German>
+		<Italian>Caotico</Italian>
+		<Spanish>Chaotic</Spanish>
+	</TEXT>
+</Civ4GameText>

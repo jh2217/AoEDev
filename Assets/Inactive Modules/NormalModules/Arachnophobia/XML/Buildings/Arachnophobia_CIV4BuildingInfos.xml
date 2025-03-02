@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building Infos -->
+<Civ4BuildingInfos xmlns="x-schema:Arachnophobia_CIV4BuildingsSchema.xml">
+	<BuildingInfos>
+		<BuildingInfo>
+			<!-- Palace Archos -->
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Type>BUILDING_PALACE_ARCHOS</Type>
+			<Description>TXT_KEY_BUILDING_PALACE_ARCHOS_ARACHNOPHOBIA</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PALACE_ARCHOS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PALACE_ARCHOS_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_PALACE_ARCHOS_HELP</Help>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_PALACE_ARCHOS</ArtDefineTag>
+			<FreePromotion>PROMOTION_SPIDER_BLOOD</FreePromotion>
+			<FreeBonus>BONUS_MANA_CHAOS</FreeBonus>
+			<FreeBonus2>BONUS_MANA_NATURE</FreeBonus2>
+			<FreeBonus3>BONUS_SILK</FreeBonus3>
+			<iNumFreeBonuses>1</iNumFreeBonuses>
+			<bCapital>1</bCapital>
+			<iHealth>2</iHealth>
+			<bGovernmentCenter>1</bGovernmentCenter>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<iCost>320</iCost>
+			<iHurryCostModifier>50</iHurryCostModifier>
+			<iConquestProb>0</iConquestProb>
+			<iCitiesPrereq>4</iCitiesPrereq>
+			<iFoodKept>20</iFoodKept>
+			<iGlobalWarWearinessModifier>-20</iGlobalWarWearinessModifier>
+			<iHappiness>1</iHappiness>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>1</iYield>
+				<iYield>12</iYield>
+			</YieldChanges>
+			<ObsoleteSafeCommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>2</iCommerce>
+			</ObsoleteSafeCommerceChanges>
+			<SpecialistCounts>
+				<SpecialistCount>
+					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
+					<iSpecialistCount>2</iSpecialistCount>
+				</SpecialistCount>
+			</SpecialistCounts>
+			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_COW</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_PIG</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_SHEEP</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TOAD</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+			</BonusHappinessChanges>
+			<iCrime>-10</iCrime>
+			<SpecialistCommerceChanges>
+				<SpecialistCommerceChange>
+					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
+					<CommerceChanges>
+						<iCommerce>0</iCommerce>
+						<iCommerce>1</iCommerce>
+						<iCommerce>0</iCommerce>
+					</CommerceChanges>
+				</SpecialistCommerceChange>
+			</SpecialistCommerceChanges>
+			<bForceOverwrite>1</bForceOverwrite>
+		</BuildingInfo>
+	
+	</BuildingInfos>
+</Civ4BuildingInfos>

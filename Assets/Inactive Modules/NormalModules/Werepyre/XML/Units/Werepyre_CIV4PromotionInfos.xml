@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!-- Formatted by Xienwolf -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Promotion Infos -->
+<Civ4PromotionInfos xmlns="x-schema:Werepyre_CIV4UnitSchema.xml">
+	<PromotionInfos>
+		<PromotionInfo>		<!-- Conflicted Blood -->
+			<Type>PROMOTION_CONFLICTED_BLOOD</Type>
+			<Description>TXT_KEY_PROMOTION_CONFLICTED_BLOOD</Description>
+			<Button>Art/Modules/Werepyre/Buttons/Conflicted.dds</Button>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_VAMPIRE</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_WEREWOLF</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<iPromotionDuration>5</iPromotionDuration>
+			<iPromotionRandomApplyChance>7</iPromotionRandomApplyChance>
+			<PromotionDegradesTo>
+				<Promotion>PROMOTION_WEREPYRE</Promotion>
+			</PromotionDegradesTo>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>	
+			</UnitCombats>
+			<PromotionRandomApply>PROMOTION_DYING_WEREPYRE</PromotionRandomApply>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Werepyre -->
+			<Type>PROMOTION_WEREPYRE</Type>
+			<Description>TXT_KEY_PROMOTION_WEREPYRE</Description>
+			<Button>Art/Modules/Werepyre/Buttons/Werepyre.dds</Button>
+			<iExtraCombatStr>2</iExtraCombatStr>
+			<iExtraCombatDefense>2</iExtraCombatDefense>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_CONFLICTED_BLOOD</Promotion>
+			</PromotionExcludes>	
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Death to Werepyres! -->
+			<Type>PROMOTION_DYING_WEREPYRE</Type>
+			<Description>TXT_KEY_PROMOTION_WEREPYREDEATH</Description>
+			<Button>Art/Modules/Werepyre/Buttons/Conflicted.dds</Button>
+			<bEffectProm>1</bEffectProm>
+			<iPromotionDuration>1</iPromotionDuration>
+			<iDamageOnRemove>100</iDamageOnRemove>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+	</PromotionInfos>
+</Civ4PromotionInfos>

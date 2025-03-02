@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_AGRARIANISM</Tag>
+		<English>Agrarianism</English>
+		<French>Agriculture</French>
+		<German>Landwirtschaft</German>
+		<Italian>Agrarianism</Italian>
+		<Spanish>Agricultura</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_AGRARIANISM_PEDIA</Tag>
+		<English>Even after the death of Sucellus nature was not completely lost. Farmers mirrored the actions of the gods by creating order out of chaos and life from the fertile earth.[NEWLINE][NEWLINE]- The Age of Ice, D. Paxton</English>
+		<French>Even after the death of Sucellus nature was not completely lost. Farmers mirrored the actions of the gods by creating order out of chaos and life from the fertile earth.[NEWLINE][NEWLINE]- The Age of Ice, D. Paxton</French>
+		<German>Even after the death of Sucellus nature was not completely lost. Farmers mirrored the actions of the gods by creating order out of chaos and life from the fertile earth.[NEWLINE][NEWLINE]- The Age of Ice, D. Paxton</German>
+		<Italian>Even after the death of Sucellus nature was not completely lost. Farmers mirrored the actions of the gods by creating order out of chaos and life from the fertile earth.[NEWLINE][NEWLINE]- The Age of Ice, D. Paxton</Italian>
+		<Spanish>Even after the death of Sucellus nature was not completely lost. Farmers mirrored the actions of the gods by creating order out of chaos and life from the fertile earth.[NEWLINE][NEWLINE]- The Age of Ice, D. Paxton</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_APPRENTICESHIP</Tag>
+		<English>Apprenticeship</English>
+		<French>Apprentissage</French>
+		<German>Ausbildung</German>
+		<Italian>Apprenticeship</Italian>
+		<Spanish>Aprendizaje</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_APPRENTICESHIP_PEDIA</Tag>
+		<English>Great institutions of learning passed knowledge to eager scholars in ages past. Sages and pupils are too much of an economic drain to sustain in these harsh times, but that doesn't mean education is neglected. The blacksmith and the butcher both need an intellectual heir, and a system of apprenticeship is the surest way to insure one.[NEWLINE][NEWLINE]- The Age of Ice, D. Paxton</English>
+		<French>Great institutions of learning passed knowledge to eager scholars in ages past. Sages and pupils are too much of an economic drain to sustain in these harsh times, but that doesn't mean education is neglected. The blacksmith and the butcher both need an intellectual heir, and a system of apprenticeship is the surest way to insure one.[NEWLINE][NEWLINE]- The Age of Ice, D. Paxton</French>
+		<German>Great institutions of learning passed knowledge to eager scholars in ages past. Sages and pupils are too much of an economic drain to sustain in these harsh times, but that doesn't mean education is neglected. The blacksmith and the butcher both need an intellectual heir, and a system of apprenticeship is the surest way to insure one.[NEWLINE][NEWLINE]- The Age of Ice, D. Paxton</German>
+		<Italian>Great institutions of learning passed knowledge to eager scholars in ages past. Sages and pupils are too much of an economic drain to sustain in these harsh times, but that doesn't mean education is neglected. The blacksmith and the butcher both need an intellectual heir, and a system of apprenticeship is the surest way to insure one.[NEWLINE][NEWLINE]- The Age of Ice, D. Paxton</Italian>
+		<Spanish>Great institutions of learning passed knowledge to eager scholars in ages past. Sages and pupils are too much of an economic drain to sustain in these harsh times, but that doesn't mean education is neglected. The blacksmith and the butcher both need an intellectual heir, and a system of apprenticeship is the surest way to insure one.[NEWLINE][NEWLINE]- The Age of Ice, D. Paxton</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ARETE</Tag>
+		<English>Arete</English>
+		<French>Arête</French>
+		<German>Ansporn</German>
+		<Italian>Arete</Italian>
+		<Spanish>Arete</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ARETE_PEDIA</Tag>
+		<English>Arete is a form of government who derives its power from the belief that the earth is to be worshipped and worked. The earth is the provider, the hills sacred, the mountains cathedrals. Much like ants, civilizations that follow arete build mines, tunnels, and other structures underground, to get the most from mother earth.</English>
+		<French>Arete is a form of government who derives its power from the belief that the earth is to be worshipped and worked. The earth is the provider, the hills sacred, the mountains cathedrals. Much like ants, civilizations that follow arete build mines, tunnels, and other structures underground, to get the most from mother earth.</French>
+		<German>Arete is a form of government who derives its power from the belief that the earth is to be worshipped and worked. The earth is the provider, the hills sacred, the mountains cathedrals. Much like ants, civilizations that follow arete build mines, tunnels, and other structures underground, to get the most from mother earth.</German>
+		<Italian>Arete is a form of government who derives its power from the belief that the earth is to be worshipped and worked. The earth is the provider, the hills sacred, the mountains cathedrals. Much like ants, civilizations that follow arete build mines, tunnels, and other structures underground, to get the most from mother earth.</Italian>
+		<Spanish>Arete is a form of government who derives its power from the belief that the earth is to be worshipped and worked. The earth is the provider, the hills sacred, the mountains cathedrals. Much like ants, civilizations that follow arete build mines, tunnels, and other structures underground, to get the most from mother earth.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ARETE_STRATEGY</Tag>
+		<English>Runes of Kilmorph state religion required.</English>
+		<French>Les Runes de Kilmorph doivent être la religion d'État.</French>
+		<German>Runen von Kilmorph Staatsreligion benötigt.</German>
+		<Italian>Runes of Kilmorph state religion required.</Italian>
+		<Spanish>Se requiere Runas de Kilmorph como religión oficial.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ARISTOCRACY</Tag>
+		<English>Aristocracy</English>
+		<French>Aristocratie</French>
+		<German>Erbrecht</German>
+		<Italian>Aristocracy</Italian>
+		<Spanish>Aristocracia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ARISTOCRACY_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Allows access to [LINK=UNIT_ROYAL_GUARD]Royal Guard[\LINK] units</English>
+		<French>[NEWLINE][ICON_BULLET]Donne accès à l'unité [LINK=UNIT_ROYAL_GUARD]Garde Royale[\LINK]</French>
+		<German>[NEWLINE][ICON_BULLET]erlaubt [LINK=UNIT_ROYAL_GUARD]Garde des Königs[\LINK]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Allows access to [LINK=UNIT_ROYAL_GUARD]Royal Guard[\LINK] units</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Permite acceder a las unidades de [LINK=UNIT_ROYAL_GUARD]Guardia Real[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ARISTOCRACY_PEDIA</Tag>
+		<English>There is really only one benefit to aristocracy: The best and the brightest will rule the state or society. The alternatives are mediocrity or oligarchy. The basic view of aristocracy is that people differ in terms of their basic abilities and aptitudes.</English>
+		<French>There is really only one benefit to aristocracy: The best and the brightest will rule the state or society. The alternatives are mediocrity or oligarchy. The basic view of aristocracy is that people differ in terms of their basic abilities and aptitudes.</French>
+		<German>There is really only one benefit to aristocracy: The best and the brightest will rule the state or society. The alternatives are mediocrity or oligarchy. The basic view of aristocracy is that people differ in terms of their basic abilities and aptitudes.</German>
+		<Italian>There is really only one benefit to aristocracy: The best and the brightest will rule the state or society. The alternatives are mediocrity or oligarchy. The basic view of aristocracy is that people differ in terms of their basic abilities and aptitudes.</Italian>
+		<Spanish>There is really only one benefit to aristocracy: The best and the brightest will rule the state or society. The alternatives are mediocrity or oligarchy. The basic view of aristocracy is that people differ in terms of their basic abilities and aptitudes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CASTE_SYSTEM_HELP</Tag>
+		<English>[ICON_BULLET]Allows production to be split equally between Research, Wealth and Culture</English>
+		<French>[ICON_BULLET]Permet de répartir la production équitablement entre recherche, richesse et culture</French>
+		<German>[ICON_BULLET]Erlaubt die Aufteilung der Produktion in Forschung, Reichtum und Kultur</German>
+		<Italian>[ICON_BULLET]Allows production to be split equally between Research, Wealth and Culture</Italian>
+		<Spanish>[ICON_BULLET]Allows production to be split equally between Research, Wealth and Culture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CITY_STATES</Tag>
+		<English>City States</English>
+		<French>Cités États</French>
+		<German>Stadtstaaten</German>
+		<Italian>City States</Italian>
+		<Spanish>Ciudades Estado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CONQUEST</Tag>
+		<English>Conquest</English>
+		<French>Conquête</French>
+		<German>Eroberung</German>
+		<Italian>Conquest</Italian>
+		<Spanish>Conquista</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CONSUMPTION</Tag>
+		<English>Consumption</English>
+		<French>Consommation</French>
+		<German>Münzwesen</German>
+		<Italian>Consumption</Italian>
+		<Spanish>Consumismo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CRUSADE</Tag>
+		<English>Crusade</English>
+		<French>Croisade</French>
+		<German>Kreuzzug</German>
+		<Italian>Crociata</Italian>
+		<Spanish>Cruzada</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CRUSADE_PEDIA</Tag>
+		<English>[NEWLINE][ICON_BULLET]Blocks the building of non-military units and buildings</English>
+		<French>[NEWLINE][ICON_BULLET]Empêche la construction des unités et bâtiments non-militaires</French>
+		<German>[NEWLINE][ICON_BULLET]Verhindert den Bau nicht-miltärischer Einheiten und Gebäude</German>
+		<Italian>[NEWLINE][ICON_BULLET]Blocks the building of non-military units and buildings</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]No permite la construcción de unidades y edificios no militares</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CRUSADE_STRATEGY</Tag>
+		<English>Crusade can only be adopted while at war. It boosts the military production and reduces the war weariness of the civilization. It also blocks the building of many non-military units and buildings while allowing access to some special units. Once in a crusade, the player cannot start diplomacy with leaders he is at war with. (Bannor only)</English>
+		<French>Une Croisade peut seulement être adoptée pendant la guerre. Elle améliore la production militaire et réduit la lassitude de la guerre. Elle bloque aussi la construction de beaucoup d'unités et de bâtiments non-militaires, tout en autorisant la création de quelques unités spéciales. Une fois en croisade, le joueur ne peut pas entamer de négociations diplomatique avec les Dirigeants avec qui il est en guerre. (Bannor seulement)</French>
+		<German>Die Staatsform Kreuzzug kann nur während eines Krieges angenommen werden. Sie beschleunigt die Produktion von Einheiten und reduziert die Kriegsmüdigkeit in der Bevölkerung. Sie unterbindet die Ausbildung vieler nicht-militärischer Einheiten und Gebäude, erlaubt dafür aber, einige Spezialeinheiten zu bauen. Während eines Kreuzzuges können keine diplomatischen Beziehungen zu den Führern aufgenommen werden, mit denen Ihr Euch im Krieg befindet (außer Bannor).</German>
+		<Italian>Crusade can only be adopted while at war. It boosts the military production and reduces the war weariness of the civilization. It also blocks the building of many non-military units and buildings while allowing access to some special units. Once in a crusade, the player cannot start diplomacy with leaders he is at war with. (Bannor only)</Italian>
+		<Spanish>La Cruzada sólo puede adoptarse cuando se está en guerra.  Potencia la producción militar y reduce el hastío bélico de la civilización.  Tampoco permite la construcción de unidades y edificios no militares mientras al mismo tiempo se puede acceder a algunas unidades especiales.  Una vez en una cruzada, el jugador no puede iniciar la diplomacia con los líderes con los que está en guerra.  (Sólo para Bannor)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FOREIGN_TRADE</Tag>
+		<English>Foreign Trade</English>
+		<French>Commerce Extérieur</French>
+		<German>Kontorhandel</German>
+		<Italian>Foreign Trade</Italian>
+		<Spanish>Comercio Exterior</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_GOD_KING</Tag>
+		<English>God King</English>
+		<French>Monarchie de droit divin</French>
+		<German>Gottgleicher König</German>
+		<Italian>God King</Italian>
+		<Spanish>Rey Dios</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_GUARDIAN_OF_NATURE</Tag>
+		<English>Guardian of Nature</English>
+		<French>Gardien de la Nature</French>
+		<German>Symbiose</German>
+		<Italian>Guardian of Nature</Italian>
+		<Spanish>Guardián de la Naturaleza</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_GUILDS</Tag>
+		<English>Guilds</English>
+		<French>Guildes</French>
+		<German>Gilden</German>
+		<Italian>Guilds</Italian>
+		<Spanish>Cofradías</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_LIBERTY</Tag>
+		<English>Liberty</English>
+		<French>Liberté</French>
+		<German>Hochkultur</German>
+		<Italian>Liberty</Italian>
+		<Spanish>Libertad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_LIBERTY_HELP</Tag>
+		<English>[ICON_BULLET]Increases the rate at which hammers are converted to Culture.</English>
+		<French>[ICON_BULLET]Augmente le taux de conversion des marteaux[ICON_PRODUCTION] en culture [ICON_CULTURE]</French>
+		<German>[ICON_BULLET]Erhöht die Rate der Umwandlung von Hämmern in Kultur.</German>
+		<Italian>[ICON_BULLET]Increases the rate at which hammers are converted to Culture.</Italian>
+		<Spanish>[ICON_BULLET]Increases the rate at which hammers are converted to Culture.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_LOST_LANDS</Tag>
+		<English>Lost Lands</English>
+		<French>Terres Perdues</French>
+		<German>Verlorene Lande</German>
+		<Italian>Lost Lands</Italian>
+		<Spanish>Lost Lands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_LOST_LANDS_PEDIA</Tag>
+		<English>The Mazatl civilization emerged from the Age of Ice in relative isolation. The swampland they inhabited proved inhospitable to other races whilst the Mazatl thrived there alone. Trading only amongst themselves, they developed an advanced barter-economy that shared work across the empire.</English>
+		<French>La civilisation Mazatl est sortie de l'Âge de Glace dans un relatif isolement. Les marais qu'ils habitaient se sont révélés inhospitaliers pour les autres races tandis que les Mazatls y prospéraient. Ne commerçant qu'entre eux, ils ont développé un système évolué de troc qui répartit le travail dans tout l'empire.</French>
+		<German>The Mazatl civilization emerged from the Age of Ice in relative isolation. The swampland they inhabited proved inhospitable to other races whilst the Mazatl thrived there alone. Trading only amongst themselves, they developed an advanced barter-economy that shared work across the empire.</German>
+		<Italian>The Mazatl civilization emerged from the Age of Ice in relative isolation. The swampland they inhabited proved inhospitable to other races whilst the Mazatl thrived there alone. Trading only amongst themselves, they developed an advanced barter-economy that shared work across the empire.</Italian>
+		<Spanish>The Mazatl civilization emerged from the Age of Ice in relative isolation. The swampland they inhabited proved inhospitable to other races whilst the Mazatl thrived there alone. Trading only amongst themselves, they developed an advanced barter-economy that shared work across the empire.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_LOST_LANDS_STRATEGY</Tag>
+		<English>The Lost Lands civic represents the advanced barter economy that the Mazatl developed during their time in isolation. It prevents you establishing external trade, but all internal routes have potential to provide Production and Food as well as Commerce.</English>
+		<French>La doctrine des Terres Perdues représente l'économie avancée de troc développée par les Mazatl durant leur isolement. Elle vous empêche d'établir un commerce extérieur, mais toutes les routes internes peuvent fournir de la production et de la nourriture en plus du Commerce.</French>
+		<German>The Lost Lands civic represents the advanced barter economy that the Mazatl developed during their time in isolation. It prevents you establishing external trade, but all internal routes have potential to provide Production and Food as well as Commerce.</German>
+		<Italian>The Lost Lands civic represents the advanced barter economy that the Mazatl developed during their time in isolation. It prevents you establishing external trade, but all internal routes have potential to provide Production and Food as well as Commerce.</Italian>
+		<Spanish>The Lost Lands civic represents the advanced barter economy that the Mazatl developed during their time in isolation. It prevents you establishing external trade, but all internal routes have potential to provide Production and Food as well as Commerce.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MERCANTILISM</Tag>
+		<English>Mercantilism</English>
+		<French>Mercantilisme</French>
+		<German>Merkantilismus</German>
+		<Italian>Mercantilism</Italian>
+		<Spanish>Mercantilismo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MILITARY_DISCIPLINE</Tag>
+		<English>Military Discipline</English>
+		<French>Discipline Militaire</French>
+		<German>Militärdisziplin</German>
+		<Italian>Military Discipline</Italian>
+		<Spanish>Disciplina Militar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MILITARY_DISCIPLINE_STRATEGY</Tag>
+		<English>+10% Military production</English>
+		<French>+10% Production Militaire</French>
+		<German>+10% Militärproduktion</German>
+		<Italian>+10% Military production</Italian>
+		<Spanish>+10% de Producción Militar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MILITARY_STATE</Tag>
+		<English>Military State</English>
+		<French>État Militaire</French>
+		<German>Militärstaat</German>
+		<Italian>Military State</Italian>
+		<Spanish>Estado Militar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MILITARY_STATE_PEDIA</Tag>
+		<English>"I had a dream of a city plunged into the abyss, a place of eternal night and fire. Those people, surrounded by demons, are fighting to return to creation. They have hope in a barren world and memories of the joys of this world."[NEWLINE]"Yet here we stand in their paradise and see nothing but loss around us. You have not seen victory beyond a single successful hunt, and often too many days between those. The empire of men has been broken, but we will reforge it here. We will fight through this world and claim it again for men, and if those in hell do return there will be a world here worth their efforts."[NEWLINE][NEWLINE]- Kylorin, speaking to the Amurite army at the battle of Adenshire</English>
+		<French>"I had a dream of a city plunged into the abyss, a place of eternal night and fire. Those people, surrounded by demons, are fighting to return to creation. They have hope in a barren world and memories of the joys of this world."[NEWLINE]"Yet here we stand in their paradise and see nothing but loss around us. You have not seen victory beyond a single successful hunt, and often too many days between those. The empire of men has been broken, but we will reforge it here. We will fight through this world and claim it again for men, and if those in hell do return there will be a world here worth their efforts."[NEWLINE][NEWLINE]- Kylorin, speaking to the Amurite army at the battle of Adenshire</French>
+		<German>"I had a dream of a city plunged into the abyss, a place of eternal night and fire. Those people, surrounded by demons, are fighting to return to creation. They have hope in a barren world and memories of the joys of this world."[NEWLINE]"Yet here we stand in their paradise and see nothing but loss around us. You have not seen victory beyond a single successful hunt, and often too many days between those. The empire of men has been broken, but we will reforge it here. We will fight through this world and claim it again for men, and if those in hell do return there will be a world here worth their efforts."[NEWLINE][NEWLINE]- Kylorin, speaking to the Amurite army at the battle of Adenshire</German>
+		<Italian>"I had a dream of a city plunged into the abyss, a place of eternal night and fire. Those people, surrounded by demons, are fighting to return to creation. They have hope in a barren world and memories of the joys of this world."[NEWLINE]"Yet here we stand in their paradise and see nothing but loss around us. You have not seen victory beyond a single successful hunt, and often too many days between those. The empire of men has been broken, but we will reforge it here. We will fight through this world and claim it again for men, and if those in hell do return there will be a world here worth their efforts."[NEWLINE][NEWLINE]- Kylorin, speaking to the Amurite army at the battle of Adenshire</Italian>
+		<Spanish>"I had a dream of a city plunged into the abyss, a place of eternal night and fire. Those people, surrounded by demons, are fighting to return to creation. They have hope in a barren world and memories of the joys of this world."[NEWLINE]"Yet here we stand in their paradise and see nothing but loss around us. You have not seen victory beyond a single successful hunt, and often too many days between those. The empire of men has been broken, but we will reforge it here. We will fight through this world and claim it again for men, and if those in hell do return there will be a world here worth their efforts."[NEWLINE][NEWLINE]- Kylorin, speaking to the Amurite army at the battle of Adenshire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NO_MEMBERSHIP</Tag>
+		<English>No Membership</English>
+		<French>Non Membre</French>
+		<German>Kein Mitglied</German>
+		<Italian>No Membership</Italian>
+		<Spanish>No es Miembro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NO_MEMBERSHIP_PEDIA</Tag>
+		<English>"Some men wager smart money on Somnium, the arena, or the battlefield. But the smartest money of all is the coin that stays in the pouch."[NEWLINE][NEWLINE]- Kelsie, Barmaid at The Bent Nail.</English>
+		<French>"Some men wager smart money on Somnium, the arena, or the battlefield. But the smartest money of all is the coin that stays in the pouch."[NEWLINE][NEWLINE]- Kelsie, Barmaid at The Bent Nail.</French>
+		<German>"Some men wager smart money on Somnium, the arena, or the battlefield. But the smartest money of all is the coin that stays in the pouch."[NEWLINE][NEWLINE]- Kelsie, Barmaid at The Bent Nail.</German>
+		<Italian>"Some men wager smart money on Somnium, the arena, or the battlefield. But the smartest money of all is the coin that stays in the pouch."[NEWLINE][NEWLINE]- Kelsie, Barmaid at The Bent Nail.</Italian>
+		<Spanish>"Some men wager smart money on Somnium, the arena, or the battlefield. But the smartest money of all is the coin that stays in the pouch."[NEWLINE][NEWLINE]- Kelsie, Barmaid at The Bent Nail.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_NO_MEMBERSHIP_HELP</Tag>
+		<English>[ICON_BULLET]Abstain from the Councils and conduct your affairs as you see fit</English>
+		<French>[ICON_BULLET]Refusez de prendre part à ces Conseils. Continuez à agir en toute indépendance.</French>
+		<German>[ICON_BULLET]Bleib dem Rat fern und regele deine Angelegenheiten allein und auf deine eigene Weise.</German>
+		<Italian>[ICON_BULLET]Abstain from the Councils and conduct your affairs as you see fit</Italian>
+		<Spanish>[ICON_BULLET]Abstain from the Councils and conduct your affairs as you see fit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_OVERCOUNCIL</Tag>
+		<English>Overcouncil</English>
+		<French>Conseil Supérieur</French>
+		<German>Hoher Rat</German>
+		<Italian>Overcouncil</Italian>
+		<Spanish>Gran Consejo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_OVERCOUNCIL_HELP</Tag>
+		<English>[ICON_BULLET]Join the Overcouncil to follow Guidelines as voted into place by other Members</English>
+		<French>[ICON_BULLET]Rejoignez le Conseil Supérieur. Votez pour les lignes de conduite à tenir et suivez les décisions prises.</French>
+		<German>[ICON_BULLET]Tritt dem Hohen Rat bei und folge damit Richtlinien, die von allen Mitgliedern festgelegt werden.</German>
+		<Italian>[ICON_BULLET]Join the Overcouncil to follow Guidelines as voted into place by other Members</Italian>
+		<Spanish>[ICON_BULLET]Join the Overcouncil to follow Guidelines as voted into place by other Members</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_OVERCOUNCIL_PEDIA</Tag>
+		<English>The Overcouncil is founded when the Empyrean is founded. After that any good or neutral player that has researched the Honor tech can join it.[NEWLINE][NEWLINE]Being a member of the Overcouncil grants a significant diplomacy bonus with other members. It also forces members to comply with any resolutions that the Overcouncil has voted and agreed on, unless the player wants to defy and leave the Overcouncil. Overall these resolutions can be powerful and restrictive. Players that expect to remain members of the Overcouncil should expect to enjoy the advantages of the friendships it allows, but also be subject to its control. That is unless they maintain the relationships required to be voted the head of the council and get to pick the decrees themselves.[NEWLINE][NEWLINE]Each member of the Overcouncil has one vote on resolutions. Both the Empyrean hero Chalid Astrakein and the Malakim hero Teutorix grant the players that control them an additional vote on the Overcouncil.[NEWLINE][NEWLINE]The Overcouncil can vote on the following resolutions:[NEWLINE][NEWLINE][TAB]Head Councilor: The head councilor selects all other resolutions[NEWLINE][TAB]Force War: Force war on a non-member[NEWLINE][TAB]Assign City: Return control of a city to a member[NEWLINE][TAB]Single Currency: +1 Trade Route in all cities[NEWLINE][TAB]Open Markets: Trade Routes with all foreign cities[NEWLINE][TAB]Global Civic Public Healers: All members must adopt the Public Healers civic[NEWLINE][TAB]Global Civic Liberty: All members must adopt the Liberty civic[NEWLINE][TAB]Defensive Pact with all members: All members enter into a defensive pact[NEWLINE][TAB]Outlaw Death mana: No members can use Death mana[NEWLINE][TAB]Outlaw Entropy mana: No members can use Entropy mana[NEWLINE][TAB]Outlaw Shadow mana: No members can use Shadow mana</English>
+		<French>Le Conseil Supérieur est fondé lorsque Dies Diei ( la merveille sainte des Empyréens) est créée. Après cela, toute civilisation bonne ou neutre ayant recherché la technologie Honneur peut le rejoindre.[NEWLINE][NEWLINE]Etre membre du Conseil Supérieur implique un bonus diplomatique avec les autres membres. Les membres doivent aussi accepter toute résolution votée par le Conseil, à moins que le joueur ne veuille défier et quitter le Conseil. Ces résolution sont puissantes et restrictives. Les Joueurs qui veulent rester membres du Conseil Supérieur doivent profiter des avantages qu’il apporte mais aussi rester soumis à son contrôle, à moins qu’ils ne préfèrent maintenir les relations nécéssaires pour etre élu Haut Conseiller et choisir les résolutions eux-meme.[NEWLINE][NEWLINE]Chaque membre du Conseil Supérieur possède un vote pour les résolution. Les héros empyréen Chalid Astrakein et le héros malakim Teutorix fournissent au joueur qui les contrôle un vote supplémentaire.[NEWLINE][NEWLINE]Le Conseil Supérieur peut voter les résolutions suivantes:[NEWLINE][NEWLINE][TAB] Haut Conseiller- Le Haut Conseiller choisit les autres résolutions [NEWLINE][TAB] Appel à la Guerre- Les membres déclarent la Guerre à un Non-membre [NEWLINE][TAB]Assigner une ville : Rend le contrôle d’une ville à un membre [NEWLINE][TAB] Concurrence Unique - +1 Route Commerciale ([ICON_TRADE]) dans Toutes les Villes [NEWLINE][TAB]Marché ouverts – Routes commerciales avec toutes les villes étrangères [NEWLINE][TAB] Doctrine Mondiale Guérisseurs Publics - Tous les membres doivent adopter cette doctrine. [NEWLINE][TAB] Doctrine Mondiale Liberté  - Tous les membres doivent adopter cette doctrine. [NEWLINE][TAB]Pacte défensif avec tous les membres – Tous les membres signent un pacte de défense [NEWLINE][TAB] Déclarer la Mana de Mort Hors-la-Loi –Aucun membre ne peut utiliser la Mana de Mort[NEWLINE][TAB] Déclarer la Mana d’Entropie Hors-la-Loi –Aucun membre ne peut utiliser la Mana d’Entropie [NEWLINE][TAB] Déclarer la Mana d’Ombre Hors-la-Loi –Aucun membre ne peut utiliser la Mana d’Ombre</French>
+		<German>Der Hohe Rat ist gegründet, wenn der Tag der Tage ausgerufen wird. Nach der Gründung können alle Zivilisationen beitreten, die neutral oder gut sind und die Technologie Ehre erforscht haben.[NEWLINE][NEWLINE]Ein Mitglied des Hohen Rates zu sein, gestattet einen bedeutenden Bonus für die Diplomatie mit den anderen Mitgliedern. Es zwingt die Mitglieder aber auch, sich an sämtlichen Resolutionen zu halten, die der Hohe Rat gewählt und verabschiedet hat, ausgenommen der Spieler widersetzt sich und verlässt den Hohen Rat. Insgesamt können diese Resolutionen einflussreich und einschränkend sein. Spieler, die verharren, als ein Mitglied im Hohen Rat zu verweilen, sollten den Genuss der Freundschaft und deren Vorzüge die sie bietet, annehmen. Jedoch ist man unter ihrer Kontrolle und somit untertänig. Dies ist zu beachten, da die Spieler die Freundschaften aufrechterhalten die erforderlich sind, um als Hauptrat gewählt zu werden und die Verordnungen für sich zu beanspruchen.[NEWLINE][NEWLINE]Jedes Mitglied des Hohen Rates hat je eine Stimme pro Resolution. Die Helden Chalid Astrakein (Empyrion) und Teutorix (Malakim) gewähren demjenigen Spieler der sie kontrolliert, eine zusätzliche Stimme im Hohen Rat.[NEWLINE][NEWLINE]Der Hohe Rat kann folgende Resolutionen abstimmen lassen:[NEWLINE][NEWLINE][TAB]Ratsvorsitzender – Der Ratsvorsitzende wählt all die anderen Resolutionen[NEWLINE][TAB]Kriegszwang – erzwingt einen Krieg gegen ein *Nichtmitglied*.[NEWLINE][TAB]Stadt abtreten – man übergibt die Kontrolle über eine Stadt an ein Mitglied.[NEWLINE][TAB]Einheitswährung - +1 Handelsroute in allen Städten.[NEWLINE][TAB]Offene Märkte - Handelsrouten mit allen auswärtigen Städten.[NEWLINE][TAB]Einheitliche Gesellschaftsform Hippokratischer Eid - Alle Mitglieder müssen die Gesellschaftsform Hippokratischer Eid annehmen.[NEWLINE][TAB]Einheitliche Gesellschaftsform Hochkultur - Alle Mitglieder müssen die Gesellschaftsform Hochkultur annehmen.[NEWLINE][TAB]Verteidigungsbündnis mit allen Mitgliedern – Alle Mitglieder beschliessen ein Verteidigungsbündnis.[NEWLINE][TAB]Mana des Todes ächten – Kein Mitglied kann Mana des Todes verwenden.[NEWLINE][TAB]Mana der Entropie ächten - Kein Mitglied kann Mana der Entropie verwenden.[NEWLINE][TAB]Mana der Schatten ächten - Kein Mitglied kann Mana der Schatten verwenden.</German>
+		<Italian>The Overcouncil is founded when the Empyrean is founded. After that any good or neutral player that has researched the Honor tech can join it.[NEWLINE][NEWLINE]Being a member of the Overcouncil grants a significant diplomacy bonus with other members. It also forces members to comply with any resolutions that the Overcouncil has voted and agreed on, unless the player wants to defy and leave the Overcouncil. Overall these resolutions can be powerful and restrictive. Players that expect to remain members of the Overcouncil should expect to enjoy the advantages of the friendships it allows, but also be subject to its control. That is unless they maintain the relationships required to be voted the head of the council and get to pick the decrees themselves.[NEWLINE][NEWLINE]Each member of the Overcouncil has one vote on resolutions. Both the Empyrean hero Chalid Astrakein and the Malakim hero Teutorix grant the players that control them an additional vote on the Overcouncil.[NEWLINE][NEWLINE]The Overcouncil can vote on the following resolutions:[NEWLINE][NEWLINE][TAB]Head Councilor: The head councilor selects all other resolutions[NEWLINE][TAB]Force War: Force war on a non-member[NEWLINE][TAB]Assign City: Return control of a city to a member[NEWLINE][TAB]Single Currency: +1 Trade Route in all cities[NEWLINE][TAB]Open Markets: Trade Routes with all foreign cities[NEWLINE][TAB]Global Civic Public Healers: All members must adopt the Public Healers civic[NEWLINE][TAB]Global Civic Liberty: All members must adopt the Liberty civic[NEWLINE][TAB]Defensive Pact with all members: All members enter into a defensive pact[NEWLINE][TAB]Outlaw Death mana: No members can use Death mana[NEWLINE][TAB]Outlaw Entropy mana: No members can use Entropy mana[NEWLINE][TAB]Outlaw Shadow mana: No members can use Shadow mana</Italian>
+		<Spanish>El Gran Consejo se funda cuando es creado el Dies Diei (el santuario Empyreo) is created.  Después de que cualquier jugador bueno o neutral haya investigado el Honor puede unirse a él.[NEWLINE][NEWLINE]Ser miembro del Gran Consejo garantiza una significante bonificación de diplomacia con los otros miembros. También fuerza a los miembros a cumplir con cualquier resolución que el Gran Consejo haya votado y accedido, a menos que el jugador quiera desafiar y dejar al Consejo. Todas estas resoluciones pueden ser poderosas y estrictas. Los jugadores que pretendan seguir siendo miembros del Gran Consejo deberían disfrutar de las ventajas de las amistades que permite, pero también estar sujetos bajo su control. Esto es al menos para mantener las relaciones requeridas para ser votados como dirigentes del consejo y seleccionar ellos mismos los decretos.[NEWLINE][NEWLINE]Cada miembro del Gran Consejo tiene un voto en las resoluciones.  Tanto el héroe Empyreo Chalid Astrakein como el héroe Malakim Teutórix garantizan a los jugadores que los controlen un voto adicional de cada uno en el Gran Consejo.[NEWLINE][NEWLINE]El Gran Consejo puede votar en las siguientes resoluciones:[NEWLINE][NEWLINE][TAB]Dirigente del Consejo: El dirigente del consejo selecciona las demás resoluciones[NEWLINE][TAB]Forzar Guerra: Forzar la guerra sobre un no-miembro[NEWLINE][TAB]Asignar Ciudad: Devolver el control de una ciudad a un miembro[NEWLINE][TAB]Moneda Única: +1 ruta comercial en todas las ciudades[NEWLINE][TAB]Mercados Abiertos: Rutas comerciales con todas las ciudades extranjeras[NEWLINE][TAB]Doctrina Global de Curanderos Públicos: Todos los miembros deben adoptar la doctrina Curanderos Públicos[NEWLINE][TAB]Doctrina Global de Libertad: Todos los miembros deben adoptar la doctrina Libertad[NEWLINE][TAB]Pacto de Defensa Mutua entre todos los miembros: Todos los miembros entran en un Pacto de Defensa Mutua[NEWLINE][TAB]Ilegalizar el maná de Muerte: Ningún miembro puede usar maná de Muerte[NEWLINE][TAB]Ilegalizar el maná de Entropía: Ningún miembro puede usar maná de Entropía[NEWLINE][TAB]Ilegalizar el maná de Sombra: Ningún miembro puede usar el maná Sombrío</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_RELIGION</Tag>
+		<English>Religion</English>
+		<French>Religion</French>
+		<German>Religion</German>
+		<Italian>Religion</Italian>
+		<Spanish>Religión</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_REPUBLIC</Tag>
+		<English>Republic</English>
+		<French>République</French>
+		<German>Republik</German>
+		<Italian>Republic</Italian>
+		<Spanish>República</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SACRIFICE_THE_WEAK</Tag>
+		<English>Sacrifice the Weak</English>
+		<French>Sacrifice du Faible</French>
+		<German>Opfer die Schwachen</German>
+		<Italian>Sacrifice the Weak</Italian>
+		<Spanish>Sacrificar al Débil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SACRIFICE_THE_WEAK_PEDIA</Tag>
+		<English>Tebryn regarded Carnuk with disdain and briefly considered how many different ways there were to skin a cat. Seventeen. [NEWLINE]"Sergeant Carnuk, I have heard much your heroism."[NEWLINE]The man standing before him was noble, brave and chivalrous. An honourable Sheaim was as rare as an abstinent Lanun. [NEWLINE]"Sir?"[NEWLINE]Tebryn toyed with the idea of turning Carnuk inside-out, the self-righteous prig certainly deserved it. But Carnuk was popular amongst the peasant classes, and the last thing Tebryn needed at this vital stage was... awkwardness. Nonetheless, a man like Carnuk could be a problem once the world began to crack. Tebryn was all too aware that Carnuk would do the right thing.[NEWLINE]"You fought two Hill Giants single-handedly. And all that for a family of farmers!"[NEWLINE]It was just a matter of making sure he did the right right thing.[NEWLINE]"With respect, sir. The fire-dead had already seriously weakened them. It was nothing, honestly."[NEWLINE]Tebyrn winced. Honesty was a crutch. A hiding place for those too weak to accept the world as it is. And the weak must cede to the strong. Only a fool thinks otherwise, because only a fool believes in truth. The only truth is that there is no truth, just different hues of the same lie.[NEWLINE]"Sergeant, the Sheaim Empire is in need of a new ambassador. There are some lands to the West of here which are spreading the most appalling rumours about our conduct."[NEWLINE]But an honest man has his uses. [NEWLINE]"Me? Sir. This is an honour indeed"[NEWLINE]Because an honest man, so honourable he can tell no lies, will happily lie for you, if he believes the lies you tell him.[NEWLINE]"Yes, Carnuk, I believe you are the perfect man for this task."[NEWLINE]And when your lies are finally exposed, who better to sacrifice? Eighteen.</English>
+		<French>Tebryn regarded Carnuk with disdain and briefly considered how many different ways there were to skin a cat. Seventeen. [NEWLINE]"Sergeant Carnuk, I have heard much your heroism."[NEWLINE]The man standing before him was noble, brave and chivalrous. An honourable Sheaim was as rare as an abstinent Lanun. [NEWLINE]"Sir?"[NEWLINE]Tebryn toyed with the idea of turning Carnuk inside-out, the self-righteous prig certainly deserved it. But Carnuk was popular amongst the peasant classes, and the last thing Tebryn needed at this vital stage was... awkwardness. Nonetheless, a man like Carnuk could be a problem once the world began to crack. Tebryn was all too aware that Carnuk would do the right thing.[NEWLINE]"You fought two Hill Giants single-handedly. And all that for a family of farmers!"[NEWLINE]It was just a matter of making sure he did the right right thing.[NEWLINE]"With respect, sir. The fire-dead had already seriously weakened them. It was nothing, honestly."[NEWLINE]Tebyrn winced. Honesty was a crutch. A hiding place for those too weak to accept the world as it is. And the weak must cede to the strong. Only a fool thinks otherwise, because only a fool believes in truth. The only truth is that there is no truth, just different hues of the same lie.[NEWLINE]"Sergeant, the Sheaim Empire is in need of a new ambassador. There are some lands to the West of here which are spreading the most appalling rumours about our conduct."[NEWLINE]But an honest man has his uses. [NEWLINE]"Me? Sir. This is an honour indeed"[NEWLINE]Because an honest man, so honourable he can tell no lies, will happily lie for you, if he believes the lies you tell him.[NEWLINE]"Yes, Carnuk, I believe you are the perfect man for this task."[NEWLINE]And when your lies are finally exposed, who better to sacrifice? Eighteen.</French>
+		<German>Tebryn regarded Carnuk with disdain and briefly considered how many different ways there were to skin a cat. Seventeen. [NEWLINE]"Sergeant Carnuk, I have heard much your heroism."[NEWLINE]The man standing before him was noble, brave and chivalrous. An honourable Sheaim was as rare as an abstinent Lanun. [NEWLINE]"Sir?"[NEWLINE]Tebryn toyed with the idea of turning Carnuk inside-out, the self-righteous prig certainly deserved it. But Carnuk was popular amongst the peasant classes, and the last thing Tebryn needed at this vital stage was... awkwardness. Nonetheless, a man like Carnuk could be a problem once the world began to crack. Tebryn was all too aware that Carnuk would do the right thing.[NEWLINE]"You fought two Hill Giants single-handedly. And all that for a family of farmers!"[NEWLINE]It was just a matter of making sure he did the right right thing.[NEWLINE]"With respect, sir. The fire-dead had already seriously weakened them. It was nothing, honestly."[NEWLINE]Tebyrn winced. Honesty was a crutch. A hiding place for those too weak to accept the world as it is. And the weak must cede to the strong. Only a fool thinks otherwise, because only a fool believes in truth. The only truth is that there is no truth, just different hues of the same lie.[NEWLINE]"Sergeant, the Sheaim Empire is in need of a new ambassador. There are some lands to the West of here which are spreading the most appalling rumours about our conduct."[NEWLINE]But an honest man has his uses. [NEWLINE]"Me? Sir. This is an honour indeed"[NEWLINE]Because an honest man, so honourable he can tell no lies, will happily lie for you, if he believes the lies you tell him.[NEWLINE]"Yes, Carnuk, I believe you are the perfect man for this task."[NEWLINE]And when your lies are finally exposed, who better to sacrifice? Eighteen.</German>
+		<Italian>Tebryn regarded Carnuk with disdain and briefly considered how many different ways there were to skin a cat. Seventeen. [NEWLINE]"Sergeant Carnuk, I have heard much your heroism."[NEWLINE]The man standing before him was noble, brave and chivalrous. An honourable Sheaim was as rare as an abstinent Lanun. [NEWLINE]"Sir?"[NEWLINE]Tebryn toyed with the idea of turning Carnuk inside-out, the self-righteous prig certainly deserved it. But Carnuk was popular amongst the peasant classes, and the last thing Tebryn needed at this vital stage was... awkwardness. Nonetheless, a man like Carnuk could be a problem once the world began to crack. Tebryn was all too aware that Carnuk would do the right thing.[NEWLINE]"You fought two Hill Giants single-handedly. And all that for a family of farmers!"[NEWLINE]It was just a matter of making sure he did the right right thing.[NEWLINE]"With respect, sir. The fire-dead had already seriously weakened them. It was nothing, honestly."[NEWLINE]Tebyrn winced. Honesty was a crutch. A hiding place for those too weak to accept the world as it is. And the weak must cede to the strong. Only a fool thinks otherwise, because only a fool believes in truth. The only truth is that there is no truth, just different hues of the same lie.[NEWLINE]"Sergeant, the Sheaim Empire is in need of a new ambassador. There are some lands to the West of here which are spreading the most appalling rumours about our conduct."[NEWLINE]But an honest man has his uses. [NEWLINE]"Me? Sir. This is an honour indeed"[NEWLINE]Because an honest man, so honourable he can tell no lies, will happily lie for you, if he believes the lies you tell him.[NEWLINE]"Yes, Carnuk, I believe you are the perfect man for this task."[NEWLINE]And when your lies are finally exposed, who better to sacrifice? Eighteen.</Italian>
+		<Spanish>Tebryn regarded Carnuk with disdain and briefly considered how many different ways there were to skin a cat. Seventeen. [NEWLINE]"Sergeant Carnuk, I have heard much your heroism."[NEWLINE]The man standing before him was noble, brave and chivalrous. An honourable Sheaim was as rare as an abstinent Lanun. [NEWLINE]"Sir?"[NEWLINE]Tebryn toyed with the idea of turning Carnuk inside-out, the self-righteous prig certainly deserved it. But Carnuk was popular amongst the peasant classes, and the last thing Tebryn needed at this vital stage was... awkwardness. Nonetheless, a man like Carnuk could be a problem once the world began to crack. Tebryn was all too aware that Carnuk would do the right thing.[NEWLINE]"You fought two Hill Giants single-handedly. And all that for a family of farmers!"[NEWLINE]It was just a matter of making sure he did the right right thing.[NEWLINE]"With respect, sir. The fire-dead had already seriously weakened them. It was nothing, honestly."[NEWLINE]Tebyrn winced. Honesty was a crutch. A hiding place for those too weak to accept the world as it is. And the weak must cede to the strong. Only a fool thinks otherwise, because only a fool believes in truth. The only truth is that there is no truth, just different hues of the same lie.[NEWLINE]"Sergeant, the Sheaim Empire is in need of a new ambassador. There are some lands to the West of here which are spreading the most appalling rumours about our conduct."[NEWLINE]But an honest man has his uses. [NEWLINE]"Me? Sir. This is an honour indeed"[NEWLINE]Because an honest man, so honourable he can tell no lies, will happily lie for you, if he believes the lies you tell him.[NEWLINE]"Yes, Carnuk, I believe you are the perfect man for this task."[NEWLINE]And when your lies are finally exposed, who better to sacrifice? Eighteen.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SACRIFICE_THE_WEAK_STRATEGY</Tag>
+		<English>Gives Ashen Veil civs a defense against the lack of health in hell terrain.</English>
+		<French>Gives Ashen Veil civs a defense against the lack of health in hell terrain.</French>
+		<German>Gives Ashen Veil civs a defense against the lack of health in hell terrain.t</German>
+		<Italian>Gives Ashen Veil civs a defense against the lack of health in hell terrain.</Italian>
+		<Spanish>Gives Ashen Veil civs a defense against the lack of health in hell terrain.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SCHOLARSHIP</Tag>
+		<English>Scholarship</English>
+		<French>Érudition</French>
+		<German>Stipendium</German>
+		<Italian>Scholarship</Italian>
+		<Spanish>Erudición</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SCHOLARSHIP_PEDIA</Tag>
+		<English>Prior to the Age of Ice, there was a flourishing of learning and education in Erebus, and the rise of scholarship meant a new class of educated professional devoted to study. Most scholars focused on practical affairs like law, but a growing group turned to questions of knowledge and nature, paving the way for early philosophy.</English>
+		<French>Prior to the Age of Ice, there was a flourishing of learning and education in Erebus, and the rise of scholarship meant a new class of educated professional devoted to study. Most scholars focused on practical affairs like law, but a growing group turned to questions of knowledge and nature, paving the way for early philosophy.</French>
+		<German>Prior to the Age of Ice, there was a flourishing of learning and education in Erebus, and the rise of scholarship meant a new class of educated professional devoted to study. Most scholars focused on practical affairs like law, but a growing group turned to questions of knowledge and nature, paving the way for early philosophy.</German>
+		<Italian>Prior to the Age of Ice, there was a flourishing of learning and education in Erebus, and the rise of scholarship meant a new class of educated professional devoted to study. Most scholars focused on practical affairs like law, but a growing group turned to questions of knowledge and nature, paving the way for early philosophy.</Italian>
+		<Spanish>Prior to the Age of Ice, there was a flourishing of learning and education in Erebus, and the rise of scholarship meant a new class of educated professional devoted to study. Most scholars focused on practical affairs like law, but a growing group turned to questions of knowledge and nature, paving the way for early philosophy.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SLAVERY</Tag>
+		<English>Slavery</English>
+		<French>Esclavage</French>
+		<German>Sklaverei</German>
+		<Italian>Slavery</Italian>
+		<Spanish>Esclavitud</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SOCIAL_ORDER</Tag>
+		<English>Social Order</English>
+		<French>Ordre Social</French>
+		<German>Sozialer Frieden</German>
+		<Italian>Social Order</Italian>
+		<Spanish>Orden Social</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_UNDERCOUNCIL</Tag>
+		<English>Undercouncil</English>
+		<French>Conseil Souterrain</French>
+		<German>Geheimer Rat</German>
+		<Italian>Undercouncil</Italian>
+		<Spanish>Consejo Oculto</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_UNDERCOUNCIL_HELP</Tag>
+		<English>[ICON_BULLET]Join the Undercouncil to plot against the weaker Civilizations with other Members</English>
+		<French>[ICON_BULLET]Rejoignez le Conseil Souterrain afin de comploter contre les civilisations plus faibles.</French>
+		<German>[ICON_BULLET]Tritt dem Geheimen Rat bei, um gemeinsame Sache gegen die schwächeren Zivilisationen zu machen.</German>
+		<Italian>[ICON_BULLET]Join the Undercouncil to plot against the weaker Civilizations with other Members</Italian>
+		<Spanish>[ICON_BULLET]Join the Undercouncil to plot against the weaker Civilizations with other Members</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_UNDERCOUNCIL_PEDIA</Tag>
+		<English>The Undercouncil it is founded at the same time as the Council of Esus. It can only be joined by Neutral or Evil players that have researched the Deception tech. Although they don't have to worship the Council of Esus to join, they can't be members of the Overcouncil.[NEWLINE][NEWLINE]The Undercouncil is run by money, nearly all of its resolutions cost gold from its members. They can vote to declare war on a common enemy, and open borders to each other. There are no restrictive resolutions on the Undercouncil, they never vote to enforce a civic or outlaw anything but players don't get the larger attitude modifier members of the Overcouncil share with each other.[NEWLINE][NEWLINE]The Undercouncil can vote on the following resolutions:[NEWLINE][NEWLINE][TAB]Head Councilor: The head councilor selects all other resolutions[NEWLINE][TAB]Force War: Force war on a non-member[NEWLINE][TAB]Develop Secret Codes: Grants a free Great Sage to each player, players can only trade techs with Undercouncil members[NEWLINE][TAB]Enlist the Nightwatch: Grants a Nightwatch unit to each member[NEWLINE][TAB]Fund Dissidents: Has a chance to create unhappiness in non-Undercouncil cities[NEWLINE][TAB]Gambling Ring: Reduces the cost of Gambling Houses by 75%, raises the global crime rate[NEWLINE][TAB]Slave Trade: Allows members to buy and sell slaves, raises the global crime rate[NEWLINE][TAB]Smuggling Ring: Allows members to build Smugglers' Ports in their coastal cities, raises the global crime rate[NEWLINE][TAB]Open Borders: All members open borders to each other</English>
+		<French>Le Conseil Souterrain est fondé en utilisant un prophète ou un marchant pour créer Nox Nioctis (La merveille sainte du Conseil d’Esus) dans la ville sainte du Conseil d’Esus. Seulzs les civilisations Neutres ou mauvaises ayant recherché la technologie Subterfuge. Bienqu’ils n’aient pas à vénérer le Conseil d’Esus, ils ne peuvent être membres du Conseil Supérieur.[NEWLINE][NEWLINE] Le Conseil Souterrain est dirigé par l’argent, presque toutes les résolutions coutent de l’argent aux membres. Ils peuvent voter la guerre contre un ennemi commun, et signer des accords de libres passage entre eux. Il n’y a pas de resolutions restrictives dans le Conseil Souterrain, ils ne votent jamais pour imposer une doctrine ou bannir quelque chose mais les membres n’ont pas les bonus diplomatiques que partagent les membres du Conseiol Supérieur.[NEWLINE][NEWLINE] Le Conseil Souterrain peut voter les résolutions suivantes: [NEWLINE][NEWLINE][TAB] Haut Conseiller- Le Haut Conseiller choisit les autres résolutions[NEWLINE][TAB]Appel à la Guerre- Les membres déclarent la Guerre à un Non-membre [NEWLINE][TAB] Developpper des Codes Secrets –Fournit un Sage Illustre gratuit à chaque membre, Les membres peuvent seulement échanger les technologies avec d'autres membres [NEWLINE][TAB] Enrôler la Garde de Nuit - Un Garde de Nuit est fourni à chaque membre[NEWLINE][TAB] Fomenter des Troubles - Peut causer du mécontentement dans les villes des non-Membres du Conseil Souterrain [NEWLINE][TAB] Intaller un Cercle de Jeu - Réduit le coût de production des Maisons de Jeu de 75%, augmente le crime global[NEWLINE][TAB] Installer le marché aux esclaves -les Membres peuvent acheter et vendre des esclaves, augmente le crime global [NEWLINE][TAB] Installer un Cercle de Contrebande - Permet la construction du Port de Contrebandiers dans les villes côtières, augmente le crime global [NEWLINE][TAB]Frontières Ouvertes – Tous les membres signet des accords de libre passage</French>
+		<German>Der Geheime Rat wird durch die Verwendung eines Großen Propheten oder eines Großen Händlers gegründet, indem man mit einem dieser Großen Persönlichkeiten die "Nacht der Nächte", in der heiligen Stadt des Rat des Esus ausrufen lässt. Nur Spieler, die neutral oder böse sind und die Technologie List erforscht haben, können dem Rat beitreten. Obwohl sie nicht den Rat des Esus anbeten müssen um ihm beizutreten, können sie nicht auch noch ein Mitglied des Hohen Rates sein.[NEWLINE][NEWLINE]Der Geheime Rat funktioniert durch Geld, fast alle seiner Resolutionen kostet Gold, welche die Mitglieder finanzieren. Sie können für eine Kriegserklärung an einen gemeinsamen Gegner abstimmen, und die Grenzen unter sich für jeden anderen öffnen. Der Geheimer Rat verabschiedet keine einschränkenden Resolutionen, niemals wird über eine Erzwingung einer einheitlichen Gesellschaftsform abgestimmt, weder wird irgendwas verachtet oder ausgeschlossen, aber die Spieler erhalten nicht den größeren Umwandler, was die Gesinnung füreinander betrifft, welchen die Mitglieder des Hohen Rates jedoch sich untereinander teilen.[NEWLINE][NEWLINE]Der Geheime Rat kann folgenden Resolutionen abstimmen lassen:[NEWLINE][TAB]Ratsvorsitzender- Der Ratsvorsitzende wählt alle anderen Resolutionen.[NEWLINE][TAB]Geheimcode entwickeln - Mitglieder können Technologien nur zwischen Mitgliedern tauschen, jedes Mitglied das 25 Gold zahlt, bekommt einen freien großen Forscher.[NEWLINE][TAB]Nachtwache anwerben - jedes Mitglied das 25 Gold zahlt, bekommt eine Nachtwache.[NEWLINE][TAB]Dissidenten finanzieren - kann Unzufriedenheit in Städten von nicht-Ratsmitgliedern verursachen.[NEWLINE][TAB]Glücksspielerring - reduziert die Produktionskosten von Glücksspielhäusern um 75%, erhöht die weltweite Verbrechensrate um 5%.[NEWLINE][TAB]Sklavenhandel - erlaubt Mitgliedern Sklaven zu kaufen und verkaufen, erhöht die weltweite Verbrechensrate um 5%.[NEWLINE][TAB]Schmugglerring - +1 Handelsweg in allen Städten, erlaubt Mitgliedern Schmugglerhäfen in ihren Küstenstädten zu bauen, erhöht die weltweite Verbrechensrate um 5%.[NEWLINE][TAB]Grenzen öffnen - Alle Mitglieder öffnen untereinander ihre Grenzen.</German>
+		<Italian>The Undercouncil it is founded at the same time as the Council of Esus. It can only be joined by Neutral or Evil players that have researched the Deception tech. Although they don't have to worship the Council of Esus to join, they can't be members of the Overcouncil.[NEWLINE][NEWLINE]The Undercouncil is run by money, nearly all of its resolutions cost gold from its members. They can vote to declare war on a common enemy, and open borders to each other. There are no restrictive resolutions on the Undercouncil, they never vote to enforce a civic or outlaw anything but players don't get the larger attitude modifier members of the Overcouncil share with each other.[NEWLINE][NEWLINE]The Undercouncil can vote on the following resolutions:[NEWLINE][NEWLINE][TAB]Head Councilor: The head councilor selects all other resolutions[NEWLINE][TAB]Force War: Force war on a non-member[NEWLINE][TAB]Develop Secret Codes: Grants a free Great Sage to each player, players can only trade techs with Undercouncil members[NEWLINE][TAB]Enlist the Nightwatch: Grants a Nightwatch unit to each member[NEWLINE][TAB]Fund Dissidents: Has a chance to create unhappiness in non-Undercouncil cities[NEWLINE][TAB]Gambling Ring: Reduces the cost of Gambling Houses by 75%, raises the global crime rate[NEWLINE][TAB]Slave Trade: Allows members to buy and sell slaves, raises the global crime rate[NEWLINE][TAB]Smuggling Ring: Allows members to build Smugglers' Ports in their coastal cities, raises the global crime rate[NEWLINE][TAB]Open Borders: All members open borders to each other</Italian>
+		<Spanish>El Consejo Oculto se funda usando un profeta o un mercante para crear el Nox Noctis (el santuario sagrado del Consejo de Esus) en la ciudad santa del Consejo de Esus. Sólo se pueden unir a él jugadores Neutrales o Malvados que hayan investigado el Engaño.  Aunque no tienen que ser seguidores del Consejo de Esus para unirse, no pueden ser miembros del Consejo Oculto si no lo hacen.[NEWLINE][NEWLINE]El Consejo Oculto funciona con dinero, casi todas las resoluciones del mismo les cuesta oro a sus miembros. Pueden votar para declarar la guerra sobre un enemigo común, y abrir fronteras entre ellos. No hay resoluciones estrictas en el Consejo Oculto, nunca votan para forzar una doctrina o prohibir algo, y los jugadores no consiguen el modificador alto de actitud que los miembros del Gran Consejo comparten entre ellos.[NEWLINE][NEWLINE]El Consejo Oculto puede votar por las siguientes resoluciones:[NEWLINE][NEWLINE][TAB]Cabeza del Consejo: El Cabeza del Consejo selecciona las demás resoluciones[NEWLINE][TAB]Forzar Guerra: Forzar la guerra sobre un no-miembro[NEWLINE][TAB]Desarrollar códigos secretos: Da un Gran Científico gratis a cada jugador, y los jugadores sólo pueden comerciar tecnología con otros miembros del Consejo Oculto[NEWLINE][TAB]Enrolar a los Vigilantes de la Noche: Da una unidad Vigilante de la Noche a cada miembro[NEWLINE][TAB]Colocar Disidentes: Tiene una probabilidad de crear infelicidad en todas las ciudades que no sean de miembros del Consejo Oculto[NEWLINE][TAB]Círculo de Apuestas: Reduce los costes de las Casas de Apuestas en un 75% y aumenta el índice de criminalidad global[NEWLINE][TAB]Mercado de Esclavos: Permite a los miembros comprar y vender esclavos, y aumenta el índice de criminalidad global[NEWLINE][TAB]Círculo de Contrabando: Permite a los miembros construir Puertos de Contrabandistas en sus ciudades costeras, y aumenta el índice global de criminalidad[NEWLINE][TAB]Fronteras Abiertas: Todos los miembros abren sus fronteras los unos con los otros</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVICOPTION_CULTURAL_VALUES</Tag>
+		<English>Cultural Values</English>
+		<French>Valeurs Culturelles</French>
+		<German>Kulturelle Werte</German>
+		<Italian>Cultural Values</Italian>
+		<Spanish>Valores Culturales</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVICOPTION_MEMBERSHIP</Tag>
+		<English>Membership</English>
+		<French>Membre</French>
+		<German>Mitgliedschaft</German>
+		<Italian>Membership</Italian>
+		<Spanish>Ser miembro</Spanish>
+	</TEXT>
+</Civ4GameText>

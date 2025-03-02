@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Alignment -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+        <Tag>TXT_KEY_PROMOTION_CONFLICTED_BLOOD</Tag>
+        <English>Conflicted Blood</English>
+        <French>Conflicted Blood</French>
+        <German>Conflicted Blood</German>
+        <Italian>Conflicted Blood</Italian>
+        <Spanish>Conflicted Blood</Spanish>
+    </TEXT>
+	<TEXT>
+        <Tag>TXT_KEY_PROMOTION_WEREPYRE</Tag>
+        <English>Werepyre</English>
+        <French>Werepyre</French>
+        <German>Werepyre</German>
+        <Italian>Werepyre</Italian>
+        <Spanish>Werepyre</Spanish>
+    </TEXT>
+	<TEXT>
+        <Tag>TXT_KEY_PROMOTION_WEREPYREDEATH</Tag>
+        <English>Dying Werepyre</English>
+        <French>Dying Werepyre</French>
+        <German>Dying Werepyre</German>
+        <Italian>Dying Werepyre</Italian>
+        <Spanish>Dying Werepyre</Spanish>
+    </TEXT>
+</Civ4GameText>

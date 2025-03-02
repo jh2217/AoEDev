@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Unit Infos -->
+<Civ4UnitInfos xmlns="x-schema:MoreEvents_CIV4UnitSchema.xml">
+	<UnitInfos>
+		<UnitInfo>		<!--Flying Patrian -->
+			<Class>UNITCLASS_THE_FLYING_PATRIAN</Class>
+			<Type>UNIT_THE_FLYING_PATRIAN</Type>
+			<Combat>UNITCOMBAT_NAVAL</Combat>
+			<Domain>DOMAIN_SEA</Domain>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_THE_FLYING_PATRIAN</Description>
+			<Civilopedia>TXT_KEY_UNIT_THE_FLYING_PATRIAN_PEDIA</Civilopedia>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bPillage>1</bPillage>
+			<bImmortal>1</bImmortal>
+			<bMechanized>1</bMechanized>
+			<bRenderBelowWater>1</bRenderBelowWater>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<iMinAreaSize>20</iMinAreaSize>
+			<iMoves>4</iMoves>
+			<iCombat>15</iCombat>
+			<iXPValueAttack>32</iXPValueAttack>
+			<iXPValueDefense>16</iXPValueDefense>
+			<iWithdrawalProb>20</iWithdrawalProb>
+			<DomainCargo>DOMAIN_LAND</DomainCargo>
+			<iCargo>3</iCargo>
+			<iAsset>7</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<fMaxSpeed>2.25</fMaxSpeed>
+				<iMeleeWaveSize>1</iMeleeWaveSize>
+				<iRangedWaveSize>1</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_FLYING_PATRIAN</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_HERO</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_FLYING</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_NORMAL_CREW</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<iTier>3</iTier>
+			<Image>Art/Interface/Popups/Sailor's Dirge.dds</Image>
+		</UnitInfo>
+	</UnitInfos>
+</Civ4UnitInfos>

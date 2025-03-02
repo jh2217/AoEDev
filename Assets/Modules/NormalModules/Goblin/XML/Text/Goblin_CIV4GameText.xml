@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the Orbis editor by Ahwaric -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MAGE_NEITH_CLAN</Tag>
+		<English>Neith Clan Mage</English>
+		<French>Mage du Clan Neith Clan</French>
+		<German>Neith Clan Mage</German>
+		<Italian>Neith Clan Mage</Italian>
+		<Spanish>Neith Clan Mage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARCHMAGE_NEITH_CLAN</Tag>
+		<English>Neith Clan Archmage</English>
+		<French>Archimage du Clan Neith</French>
+		<German>Neith Clan Archmage</German>
+		<Italian>Neith Clan Archmage</Italian>
+		<Spanish>Neith Clan Archmage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HUNTER_MURIS_CLAN</Tag>
+		<English>Muris Clan Hunter</English>
+		<French>Chasseur du Clan Muris</French>
+		<German>Muris Clan Hunter</German>
+		<Italian>Muris Clan Hunter</Italian>
+		<Spanish>Muris Clan Hunter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ASSASSIN_MURIS_CLAN</Tag>
+		<English>Muris Clan Assassin</English>
+		<French>Assassin du Clan Muris</French>
+		<German>Muris Clan Assassin</German>
+		<Italian>Muris Clan Assassin</Italian>
+		<Spanish>Muris Clan Assassin</Spanish>
+	</TEXT>
+  <TEXT>
+		<Tag>TXT_KEY_UNIT_THIEF_MURIS_CLAN</Tag>
+		<English>Muris Clan Thief</English>
+		<French>Voleur du Clan Muris</French>
+		<German>Muris Clan Thief</German>
+		<Italian>Muris Clan Thief</Italian>
+		<Spanish>Muris Clan Thief</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RANGER_MURIS_CLAN</Tag>
+		<English>Muris Clan Ranger</English>
+		<French>Rôdeur du Clan Muris</French>
+		<German>Muris Clan Ranger</German>
+		<Italian>Muris Clan Ranger</Italian>
+		<Spanish>Muris Clan Ranger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BEASTMASTER_MURIS_CLAN</Tag>
+		<English>Muris Clan Beastmaster</English>
+		<French>Belluaire du Clan Muris</French>
+		<German>Muris Clan Beastmaster</German>
+		<Italian>Muris Clan Beastmaster</Italian>
+		<Spanish>Muris Clan Beastmaster</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LONGBOWMAN_SCORPION_CLAN</Tag>
+		<English>Scorpion Clan Longbowman</English>
+		<French>Archer Long du Clan Scorpion</French>
+		<German>Scorpion Clan Longbowman</German>
+		<Italian>Scorpion Clan Longbowman</Italian>
+		<Spanish>Scorpion Clan Longbowman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARKSMAN_SCORPION_CLAN</Tag>
+		<English>Scorpion Clan Marksman</English>
+		<French>Tireur d'Élite du Clan Scorpion</French>
+		<German>Scorpion Clan Marksman</German>
+		<Italian>Scorpion Clan Marksman</Italian>
+		<Spanish>Scorpion Clan Marksman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARQUEBUS_SCORPION_CLAN</Tag>
+		<English>Scorpion Clan Arquebus</English>
+		<French>Arquebusier du Clan Scorpion</French>
+		<German>Scorpion Clan Arquebus</German>
+		<Italian>Scorpion Clan Arquebus</Italian>
+		<Spanish>Scorpion Clan Arquebus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CROSSBOWMAN_SCORPION_CLAN</Tag>
+		<English>Scorpion Clan Crossbowman</English>
+		<French>Arbalétrier du Clan Scorpion</French>
+		<German>Scorpion Clan Crossbowman</German>
+		<Italian>Scorpion Clan Crossbowman</Italian>
+		<Spanish>Scorpion Clan Crossbowman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_GOBLIN_CLASS_CHOICE</Tag>
+		<English>Which Clan shall take control of this City ?</English>
+		<French>Quel Clan aura le contrôle de cette ville ?</French>
+		<German>Which Clan shall take control of this City ?</German>
+		<Italian>Which Clan shall take control of this City ?</Italian>
+		<Spanish>Which Clan shall take control of this City ?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_SCORPION</Tag>
+		<English>The Bows of the Scorpion Clan</English>
+		<French>Les Archers du Clan Scorpion</French>
+		<German>The Bows of the Scorpion Clan</German>
+		<Italian>The Bows of the Scorpion Clan</Italian>
+		<Spanish>The Bows of the Scorpion Clan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_LUKOS</Tag>
+		<English>The Wolves of the Lukos Clan</English>
+		<French>Les Loups du clan Lukos</French>
+		<German>The Wolves of the Lukos Clan</German>
+		<Italian>The Wolves of the Lukos Clan</Italian>
+		<Spanish>The Wolves of the Lukos Clan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_NEITH</Tag>
+		<English>The Arcanists of the Neith Clan</English>
+		<French>Les Arcanistes du Clan Neith</French>
+		<German>The Arcanists of the Neith Clan</German>
+		<Italian>The Arcanists of the Neith Clan</Italian>
+		<Spanish>The Arcanists of the Neith Clan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MURIS</Tag>
+		<English>The Rogues of the Muris Clan</English>
+		<French>Les Scélérats du Clan Muris</French>
+		<German>The Rogues of the Muris Clan</German>
+		<Italian>The Rogues of the Muris Clan</Italian>
+		<Spanish>The Rogues of the Muris Clan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KNIGHT_LUKOS_CLAN</Tag>
+		<English>Lukos Clan WolfKnight</English>
+		<French>Louvier du Clan Lukos</French>
+		<German>Lukos Clan WolfKnight</German>
+		<Italian>Lukos Clan WolfKnight</Italian>
+		<Spanish>Lukos Clan WolfKnight</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WAR_CHARIOT_LUKOS_CLAN</Tag>
+		<English>Lukos Clan War Chariot</English>
+		<French>Char de Guerre du Clan Lukos</French>
+		<German>Lukos Clan War Chariot</German>
+		<Italian>Lukos Clan War Chariot</Italian>
+		<Spanish>Lukos Clan War Chariot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GOBLIN_DESC</Tag>
+		<English>Chimar Confederation</English>
+		<French>Confédération chimaraise</French>
+		<German>Chimar Confederation</German>
+		<Italian>Chimar Confederation</Italian>
+		<Spanish>Chimar Confederation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_GOBLIN_ADJECTIVE</Tag>
+		<English>Chimarese</English>
+		<French>chimarais:chimaraise:chimarais:chimaraises</French>
+		<German>Chimarese</German>
+		<Italian>Chimarese</Italian>
+		<Spanish>Chimarese</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PALACE_GOBLINS</Tag>
+		<English>Chimarese Palace</English>
+		<French>Palais chimarais</French>
+		<German>Chimarese Palace</German>
+		<Italian>Chimarese Palace</Italian>
+		<Spanish>Chimarese Palace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_GOBLIN</Tag>
+		<English>Gurlug the Battle-Hardened</English>
+		<French>Gurlug le Foudre de Guerre</French>
+		<German>Gurlug the Battle-Hardened</German>
+		<Italian>Gurlug the Battle-Hardened</Italian>
+		<Spanish>Gurlug the Battle-Hardened</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_GOBLIN</Tag>
+		<English>The Union may be no more[NEWLINE]But the Clans will still wage War.</English>
+		<French>L'Union n'est plus.[NEWLINE]Mais les Clans mèneront toujours la guerre.</French>
+		<German>The Union may be no more[NEWLINE]But the Clans will still wage War.</German>
+		<Italian>The Union may be no more[NEWLINE]But the Clans will still wage War.</Italian>
+		<Spanish>The Union may be no more[NEWLINE]But the Clans will still wage War.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LUKOS_GAMES</Tag>
+		<English>More and more attention has been given to Lukos clan cities recently due to their interesting horse games.  Most of these games started as simple games that the Lukos encourage their youths to play, but some are becoming full fledged sports with increasingly firm and ritualized rules.  The effect on Lukos military units has been positive as well, as the most recent generation of Lukos are naturally talented. This may be the best moment for you to step into the situation.</English>
+		<French>More and more attention has been given to Lukos clan cities recently due to their interesting horse games.  Most of these games started as simple games that the Lukos encourage their youths to play, but some are becoming full fledged sports with increasingly firm and ritualized rules.  The effect on Lukos military units has been positive as well, as the most recent generation of Lukos are naturally talented. This may be the best moment for you to step into the situation.</French>
+		<German>More and more attention has been given to Lukos clan cities recently due to their interesting horse games.  Most of these games started as simple games that the Lukos encourage their youths to play, but some are becoming full fledged sports with increasingly firm and ritualized rules.  The effect on Lukos military units has been positive as well, as the most recent generation of Lukos are naturally talented. This may be the best moment for you to step into the situation.</German>
+		<Italian>More and more attention has been given to Lukos clan cities recently due to their interesting horse games.  Most of these games started as simple games that the Lukos encourage their youths to play, but some are becoming full fledged sports with increasingly firm and ritualized rules.  The effect on Lukos military units has been positive as well, as the most recent generation of Lukos are naturally talented. This may be the best moment for you to step into the situation.</Italian>
+		<Spanish>More and more attention has been given to Lukos clan cities recently due to their interesting horse games.  Most of these games started as simple games that the Lukos encourage their youths to play, but some are becoming full fledged sports with increasingly firm and ritualized rules.  The effect on Lukos military units has been positive as well, as the most recent generation of Lukos are naturally talented. This may be the best moment for you to step into the situation.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LUKOS_GAMES_1</Tag>
+		<English>Officially funding these games will ensure they can prosper.  As an added bonus, Lukos striving for greatness will become even better wolf riders.</English>
+		<French>Officially funding these games will ensure they can prosper.  As an added bonus, Lukos striving for greatness will become even better wolf riders.</French>
+		<German>Officially funding these games will ensure they can prosper.  As an added bonus, Lukos striving for greatness will become even better wolf riders.</German>
+		<Italian>Officially funding these games will ensure they can prosper.  As an added bonus, Lukos striving for greatness will become even better wolf riders.</Italian>
+		<Spanish>Officially funding these games will ensure they can prosper.  As an added bonus, Lukos striving for greatness will become even better wolf riders.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LUKOS_GAMES_2</Tag>
+		<English>It won't take much effort to further magnify this Lukos tradition - we already have travelers flocking to Lukos cities.  A few decrees will capitalize on Lukos culture and make things official.  Now if only you could decide on your favorite player...</English>
+		<French>It won't take much effort to further magnify this Lukos tradition - we already have travelers flocking to Lukos cities.  A few decrees will capitalize on Lukos culture and make things official.  Now if only you could decide on your favorite player...</French>
+		<German>It won't take much effort to further magnify this Lukos tradition - we already have travelers flocking to Lukos cities.  A few decrees will capitalize on Lukos culture and make things official.  Now if only you could decide on your favorite player...</German>
+		<Italian>It won't take much effort to further magnify this Lukos tradition - we already have travelers flocking to Lukos cities.  A few decrees will capitalize on Lukos culture and make things official.  Now if only you could decide on your favorite player...</Italian>
+		<Spanish>It won't take much effort to further magnify this Lukos tradition - we already have travelers flocking to Lukos cities.  A few decrees will capitalize on Lukos culture and make things official.  Now if only you could decide on your favorite player...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_LUKOS_GAMES_3</Tag>
+		<English>The other clans are not happy with this increased Lukos focus - and you're inclined to agree with them.  No sense allowing the ego of Lukos Clan to get too big.  Try to subtly downplay these displays.</English>
+		<French>The other clans are not happy with this increased Lukos focus - and you're inclined to agree with them.  No sense allowing the ego of Lukos Clan to get too big.  Try to subtly downplay these displays.</French>
+		<German>The other clans are not happy with this increased Lukos focus - and you're inclined to agree with them.  No sense allowing the ego of Lukos Clan to get too big.  Try to subtly downplay these displays.</German>
+		<Italian>The other clans are not happy with this increased Lukos focus - and you're inclined to agree with them.  No sense allowing the ego of Lukos Clan to get too big.  Try to subtly downplay these displays.</Italian>
+		<Spanish>The other clans are not happy with this increased Lukos focus - and you're inclined to agree with them.  No sense allowing the ego of Lukos Clan to get too big.  Try to subtly downplay these displays.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SCORPION_SABOTAGE_1</Tag>
+		<English>Some gold in the right hands will get to the bottom of this.  Although while the problem is being addressed, there are some adjustments to Scorpion clan bows that will make them easier to fire - may as well bolster the clan while spending money here.</English>
+		<French>Some gold in the right hands will get to the bottom of this.  Although while the problem is being addressed, there are some adjustments to Scorpion clan bows that will make them easier to fire - may as well bolster the clan while spending money here.</French>
+		<German>Some gold in the right hands will get to the bottom of this.  Although while the problem is being addressed, there are some adjustments to Scorpion clan bows that will make them easier to fire - may as well bolster the clan while spending money here.</German>
+		<Italian>Some gold in the right hands will get to the bottom of this.  Although while the problem is being addressed, there are some adjustments to Scorpion clan bows that will make them easier to fire - may as well bolster the clan while spending money here.</Italian>
+		<Spanish>Some gold in the right hands will get to the bottom of this.  Although while the problem is being addressed, there are some adjustments to Scorpion clan bows that will make them easier to fire - may as well bolster the clan while spending money here.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SCORPION_SABOTAGE</Tag>
+		<English>This has happened far too often to be a coincidence - something is wrong with Scorpion clan's bows.  You've spent the past week meeting with Scorpion clan leaders - they are now assuming sabotage, fortunately from out of the Confederation.  These discussions have shown just how much attention the Scorpion clan spends on their bows - and their poison, yes, but the bows and arrows that deliver the poison as well.</English>
+		<French>This has happened far too often to be a coincidence - something is wrong with Scorpion clan's bows.  You've spent the past week meeting with Scorpion clan leaders - they are now assuming sabotage, fortunately from out of the Confederation.  These discussions have shown just how much attention the Scorpion clan spends on their bows - and their poison, yes, but the bows and arrows that deliver the poison as well.</French>
+		<German>This has happened far too often to be a coincidence - something is wrong with Scorpion clan's bows.  You've spent the past week meeting with Scorpion clan leaders - they are now assuming sabotage, fortunately from out of the Confederation.  These discussions have shown just how much attention the Scorpion clan spends on their bows - and their poison, yes, but the bows and arrows that deliver the poison as well.</German>
+		<Italian>This has happened far too often to be a coincidence - something is wrong with Scorpion clan's bows.  You've spent the past week meeting with Scorpion clan leaders - they are now assuming sabotage, fortunately from out of the Confederation.  These discussions have shown just how much attention the Scorpion clan spends on their bows - and their poison, yes, but the bows and arrows that deliver the poison as well.</Italian>
+		<Spanish>This has happened far too often to be a coincidence - something is wrong with Scorpion clan's bows.  You've spent the past week meeting with Scorpion clan leaders - they are now assuming sabotage, fortunately from out of the Confederation.  These discussions have shown just how much attention the Scorpion clan spends on their bows - and their poison, yes, but the bows and arrows that deliver the poison as well.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SCORPION_SABOTAGE_2</Tag>
+		<English>Given the scorpion clan's focus on their bows and poison alike, a little carefully placed poison resolved the saboteurs.  In fact, Scorpion clan is feeling more bold after dealing with this problem.  Traders are more cautious, but are also more plentiful than before.  Excellent.</English>
+		<French>Given the scorpion clan's focus on their bows and poison alike, a little carefully placed poison resolved the saboteurs.  In fact, Scorpion clan is feeling more bold after dealing with this problem.  Traders are more cautious, but are also more plentiful than before.  Excellent.</French>
+		<German>Given the scorpion clan's focus on their bows and poison alike, a little carefully placed poison resolved the saboteurs.  In fact, Scorpion clan is feeling more bold after dealing with this problem.  Traders are more cautious, but are also more plentiful than before.  Excellent.</German>
+		<Italian>Given the scorpion clan's focus on their bows and poison alike, a little carefully placed poison resolved the saboteurs.  In fact, Scorpion clan is feeling more bold after dealing with this problem.  Traders are more cautious, but are also more plentiful than before.  Excellent.</Italian>
+		<Spanish>Given the scorpion clan's focus on their bows and poison alike, a little carefully placed poison resolved the saboteurs.  In fact, Scorpion clan is feeling more bold after dealing with this problem.  Traders are more cautious, but are also more plentiful than before.  Excellent.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SCORPION_SABOTAGE_3</Tag>
+		<English>I learned long ago not to meddle in internal clan affairs - this sabotage effects the Scorpion clan, not the Chimar as a whole.  No sense in intervening.</English>
+		<French>I learned long ago not to meddle in internal clan affairs - this sabotage effects the Scorpion clan, not the Chimar as a whole.  No sense in intervening.</French>
+		<German>I learned long ago not to meddle in internal clan affairs - this sabotage effects the Scorpion clan, not the Chimar as a whole.  No sense in intervening.</German>
+		<Italian>I learned long ago not to meddle in internal clan affairs - this sabotage effects the Scorpion clan, not the Chimar as a whole.  No sense in intervening.</Italian>
+		<Spanish>I learned long ago not to meddle in internal clan affairs - this sabotage effects the Scorpion clan, not the Chimar as a whole.  No sense in intervening.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MURIS_YOUTH</Tag>
+		<English>A new group of Muris clan youths are coming of age, and there's a small problem of their focus.  Exploration- that's easy and by this point in their training comes naturally enough... but mapmaking is something almost this entire slew of troops is increasingly poor at.  They avoid it when they can, and rush it otherwise.  Elder Muris expect them to grow out of this problem, but it hasn't happened yet...</English>
+		<French>A new group of Muris clan youths are coming of age, and there's a small problem of their focus.  Exploration- that's easy and by this point in their training comes naturally enough... but mapmaking is something almost this entire slew of troops is increasingly poor at.  They avoid it when they can, and rush it otherwise.  Elder Muris expect them to grow out of this problem, but it hasn't happened yet...</French>
+		<German>A new group of Muris clan youths are coming of age, and there's a small problem of their focus.  Exploration- that's easy and by this point in their training comes naturally enough... but mapmaking is something almost this entire slew of troops is increasingly poor at.  They avoid it when they can, and rush it otherwise.  Elder Muris expect them to grow out of this problem, but it hasn't happened yet...</German>
+		<Italian>A new group of Muris clan youths are coming of age, and there's a small problem of their focus.  Exploration- that's easy and by this point in their training comes naturally enough... but mapmaking is something almost this entire slew of troops is increasingly poor at.  They avoid it when they can, and rush it otherwise.  Elder Muris expect them to grow out of this problem, but it hasn't happened yet...</Italian>
+		<Spanish>A new group of Muris clan youths are coming of age, and there's a small problem of their focus.  Exploration- that's easy and by this point in their training comes naturally enough... but mapmaking is something almost this entire slew of troops is increasingly poor at.  They avoid it when they can, and rush it otherwise.  Elder Muris expect them to grow out of this problem, but it hasn't happened yet...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MURIS_YOUTH_1</Tag>
+		<English>More training will help resolve this problem - it'll be expensive, but the new Muris will be happy that their attention to detail  will be improved.</English>
+		<French>More training will help resolve this problem - it'll be expensive, but the new Muris will be happy that their attention to detail  will be improved.</French>
+		<German>More training will help resolve this problem - it'll be expensive, but the new Muris will be happy that their attention to detail  will be improved.</German>
+		<Italian>More training will help resolve this problem - it'll be expensive, but the new Muris will be happy that their attention to detail  will be improved.</Italian>
+		<Spanish>More training will help resolve this problem - it'll be expensive, but the new Muris will be happy that their attention to detail  will be improved.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MURIS_YOUTH_2</Tag>
+		<English>Given how central Muris culture is to the Chimar, encouraging an apprentice system might work.  That way the young muris can learn mapmaking from their elders - and learn a bit about modern recon tricks.  Between the maps and the scouting, Muris clan cities will become even more of the backbone of the Chimar.</English>
+		<French>Given how central Muris culture is to the Chimar, encouraging an apprentice system might work.  That way the young muris can learn mapmaking from their elders - and learn a bit about modern recon tricks.  Between the maps and the scouting, Muris clan cities will become even more of the backbone of the Chimar.</French>
+		<German>Given how central Muris culture is to the Chimar, encouraging an apprentice system might work.  That way the young muris can learn mapmaking from their elders - and learn a bit about modern recon tricks.  Between the maps and the scouting, Muris clan cities will become even more of the backbone of the Chimar.</German>
+		<Italian>Given how central Muris culture is to the Chimar, encouraging an apprentice system might work.  That way the young muris can learn mapmaking from their elders - and learn a bit about modern recon tricks.  Between the maps and the scouting, Muris clan cities will become even more of the backbone of the Chimar.</Italian>
+		<Spanish>Given how central Muris culture is to the Chimar, encouraging an apprentice system might work.  That way the young muris can learn mapmaking from their elders - and learn a bit about modern recon tricks.  Between the maps and the scouting, Muris clan cities will become even more of the backbone of the Chimar.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_MURIS_YOUTH_3</Tag>
+		<English>If the Muris cannot do their job, punish them as has happened to  others who have fallen behind.  They won't be happy with this, but I cannot play favorites.</English>
+		<French>If the Muris cannot do their job, punish them as has happened to  others who have fallen behind.  They won't be happy with this, but I cannot play favorites.</French>
+		<German>If the Muris cannot do their job, punish them as has happened to  others who have fallen behind.  They won't be happy with this, but I cannot play favorites.</German>
+		<Italian>If the Muris cannot do their job, punish them as has happened to  others who have fallen behind.  They won't be happy with this, but I cannot play favorites.</Italian>
+		<Spanish>If the Muris cannot do their job, punish them as has happened to  others who have fallen behind.  They won't be happy with this, but I cannot play favorites.</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4UnitArtStyleTypeInfos xmlns="x-schema:Goblin_CIV4CivilizationsSchema.xml">
+	<UnitArtStyleTypeInfos>
+		<UnitArtStyleTypeInfo>
+			<Type>UNIT_ARTSTYLE_GOBLIN</Type>
+			<StyleUnits>
+				<StyleUnit>
+					<UnitType>UNIT_WORKER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_GRETCHIN</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_GRETCHIN</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_GRETCHIN</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_GRETCHIN</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_GRETCHIN</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_GRETCHIN</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_GRETCHIN</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_GRETCHIN</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_GRETCHIN</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_GRETCHIN</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_GRETCHIN</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_GRETCHIN</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_GRETCHIN</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_GRETCHIN</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_GRETCHIN</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+			
+			</StyleUnits>
+		</UnitArtStyleTypeInfo>
+	</UnitArtStyleTypeInfos>
+</Civ4UnitArtStyleTypeInfos>

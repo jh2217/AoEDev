@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FALLOW_SCION</Tag>
+		<English>bla</English>
+		<French>bla</French>
+		<German>bla</German>
+		<Italian>bla</Italian>
+		<Spanish>bla</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FALLOW_SCION_PEDIA</Tag>
+		<English>bla</English>
+		<French>bla</French>
+		<German>bla</German>
+		<Italian>bla</Italian>
+		<Spanish>bla</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FALLOW_SCION_SHORT</Tag>
+		<English>bla</English>
+		<French>bla</French>
+		<German>bla</German>
+		<Italian>bla</Italian>
+		<Spanish>bla</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IGNORE_HEALTH_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Cities won't be affected by unhealth</English>
+		<French>[NEWLINE][ICON_BULLET]Cities won't be affected by unhealth</French>
+		<German>[NEWLINE][ICON_BULLET]Cities won't be affected by unhealth</German>
+		<Italian>[NEWLINE][ICON_BULLET]Cities won't be affected by unhealth</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Cities won't be affected by unhealth</Spanish>
+	</TEXT>
+
+</Civ4GameText>

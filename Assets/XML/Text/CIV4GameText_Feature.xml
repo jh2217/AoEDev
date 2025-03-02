@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_BLIZZARD</Tag>
+		<English>Blizzard</English>
+		<French>
+			<Text>Blizzard</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Schneesturm</German>
+		<Italian>Blizzard</Italian>
+		<Spanish>Blizzard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MULTI_BLIZZARD</Tag>
+		<English>[H1]Blizzards[\H1][PARAGRAPH:2]Blizzards in normal Fall from Heaven 2 are features that appear after the Deepening ritual is completed. They do nothing, other then turn plots directly below them to taiga or tundra when the Call Blizzard spell is cast, which is incidentally the only way to move them.[PARAGRAPH:1]In the Blizzards mod, however, Blizzards are randomly spawned in any ice plot under Frozen or Illian control. Blizzards can move around, spreading ice terrain and terraforming all plots directly around them, turning them to colder terrain, and on water, can create ice features. They don't last indefinitely however, and disappear as they move around the map.[PARAGRAPH:1]Here is a detailed list of what happens to features and terrains that blizzards pass by:[NEWLINE][NEWLINE][ICON_BULLET]Taiga Terrain: Become permanent tundra terrain.[NEWLINE][ICON_BULLET]Other Land Terrains: Become tundra terrain, either temporary or permanent.[NEWLINE][ICON_BULLET] Removed Features/Improvements: Flames, Flood Plains, Scrubs and Smoke.[NEWLINE][ICON_BULLET]Converted Features: Forests and Jungles become snow-covered forests.[NEWLINE][ICON_BULLET]Water Plots: An ice feature has a chance of being created on the plot.[PARAGRAPH:2]To help balance these changes, specifically those related to water ice, the [LINK=SPELL_SCORCH]Scorch[\LINK] spell can now remove water ice from within a 1-plot radius of the caster.</English>
+		<French>[H1]Blizzards[\H1][PARAGRAPH:2]Blizzards in normal Fall from Heaven 2 are features that appear after the Deepening ritual is completed. They do nothing, other then turn plots directly below them to taiga or tundra when the Call Blizzard spell is cast, which is incidentally the only way to move them.[PARAGRAPH:1]In the Blizzards mod, however, Blizzards are randomly spawned in any ice plot under Frozen or Illian control. Blizzards can move around, spreading ice terrain and terraforming all plots directly around them, turning them to colder terrain, and on water, can create ice features. They don't last indefinitely however, and disappear as they move around the map.[PARAGRAPH:1]Here is a detailed list of what happens to features and terrains that blizzards pass by:[NEWLINE][NEWLINE][ICON_BULLET]Taiga Terrain: Become permanent tundra terrain.[NEWLINE][ICON_BULLET]Other Land Terrains: Become tundra terrain, either temporary or permanent.[NEWLINE][ICON_BULLET] Removed Features/Improvements: Flames, Flood Plains, Scrubs and Smoke.[NEWLINE][ICON_BULLET]Converted Features: Forests and Jungles become snow-covered forests.[NEWLINE][ICON_BULLET]Water Plots: An ice feature has a chance of being created on the plot.[PARAGRAPH:2]To help balance these changes, specifically those related to water ice, the [LINK=SPELL_SCORCH]Scorch[\LINK] spell can now remove water ice from within a 1-plot radius of the caster.</French>
+		<German>[H1]Blizzards[\H1][PARAGRAPH:2]Blizzards in normal Fall from Heaven 2 are features that appear after the Deepening ritual is completed. They do nothing, other then turn plots directly below them to taiga or tundra when the Call Blizzard spell is cast, which is incidentally the only way to move them.[PARAGRAPH:1]In the Blizzards mod, however, Blizzards are randomly spawned in any ice plot under Frozen or Illian control. Blizzards can move around, spreading ice terrain and terraforming all plots directly around them, turning them to colder terrain, and on water, can create ice features. They don't last indefinitely however, and disappear as they move around the map.[PARAGRAPH:1]Here is a detailed list of what happens to features and terrains that blizzards pass by:[NEWLINE][NEWLINE][ICON_BULLET]Taiga Terrain: Become permanent tundra terrain.[NEWLINE][ICON_BULLET]Other Land Terrains: Become tundra terrain, either temporary or permanent.[NEWLINE][ICON_BULLET] Removed Features/Improvements: Flames, Flood Plains, Scrubs and Smoke.[NEWLINE][ICON_BULLET]Converted Features: Forests and Jungles become snow-covered forests.[NEWLINE][ICON_BULLET]Water Plots: An ice feature has a chance of being created on the plot.[PARAGRAPH:2]To help balance these changes, specifically those related to water ice, the [LINK=SPELL_SCORCH]Scorch[\LINK] spell can now remove water ice from within a 1-plot radius of the caster.</German>
+		<Italian>[H1]Blizzards[\H1][PARAGRAPH:2]Blizzards in normal Fall from Heaven 2 are features that appear after the Deepening ritual is completed. They do nothing, other then turn plots directly below them to taiga or tundra when the Call Blizzard spell is cast, which is incidentally the only way to move them.[PARAGRAPH:1]In the Blizzards mod, however, Blizzards are randomly spawned in any ice plot under Frozen or Illian control. Blizzards can move around, spreading ice terrain and terraforming all plots directly around them, turning them to colder terrain, and on water, can create ice features. They don't last indefinitely however, and disappear as they move around the map.[PARAGRAPH:1]Here is a detailed list of what happens to features and terrains that blizzards pass by:[NEWLINE][NEWLINE][ICON_BULLET]Taiga Terrain: Become permanent tundra terrain.[NEWLINE][ICON_BULLET]Other Land Terrains: Become tundra terrain, either temporary or permanent.[NEWLINE][ICON_BULLET] Removed Features/Improvements: Flames, Flood Plains, Scrubs and Smoke.[NEWLINE][ICON_BULLET]Converted Features: Forests and Jungles become snow-covered forests.[NEWLINE][ICON_BULLET]Water Plots: An ice feature has a chance of being created on the plot.[PARAGRAPH:2]To help balance these changes, specifically those related to water ice, the [LINK=SPELL_SCORCH]Scorch[\LINK] spell can now remove water ice from within a 1-plot radius of the caster.</Italian>
+		<Spanish>[H1]Blizzards[\H1][PARAGRAPH:2]Blizzards in normal Fall from Heaven 2 are features that appear after the Deepening ritual is completed. They do nothing, other then turn plots directly below them to taiga or tundra when the Call Blizzard spell is cast, which is incidentally the only way to move them.[PARAGRAPH:1]In the Blizzards mod, however, Blizzards are randomly spawned in any ice plot under Frozen or Illian control. Blizzards can move around, spreading ice terrain and terraforming all plots directly around them, turning them to colder terrain, and on water, can create ice features. They don't last indefinitely however, and disappear as they move around the map.[PARAGRAPH:1]Here is a detailed list of what happens to features and terrains that blizzards pass by:[NEWLINE][NEWLINE][ICON_BULLET]Taiga Terrain: Become permanent tundra terrain.[NEWLINE][ICON_BULLET]Other Land Terrains: Become tundra terrain, either temporary or permanent.[NEWLINE][ICON_BULLET] Removed Features/Improvements: Flames, Flood Plains, Scrubs and Smoke.[NEWLINE][ICON_BULLET]Converted Features: Forests and Jungles become snow-covered forests.[NEWLINE][ICON_BULLET]Water Plots: An ice feature has a chance of being created on the plot.[PARAGRAPH:2]To help balance these changes, specifically those related to water ice, the [LINK=SPELL_SCORCH]Scorch[\LINK] spell can now remove water ice from within a 1-plot radius of the caster.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_CRYSTAL_PLAINS</Tag>
+		<English>Crystal Plains</English>
+		<French>
+			<Text>Plaine de cristal:Plaines de cristal</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Kristallene Ebenen</German>
+		<Italian>Crystal Plains</Italian>
+		<Spanish>Crystal Plains</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_DOOR</Tag>
+		<English>Door</English>
+		<French>Porte</French>
+		<German>Door</German>
+		<Italian>Door</Italian>
+		<Spanish>Door</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_FLAMES</Tag>
+		<English>Flames</English>
+		<French>Flammes</French>
+		<German>Flammen</German>
+		<Italian>Flames</Italian>
+		<Spanish>Llamas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_FOREST_ANCIENT</Tag>
+		<English>Ancient Forest</English>
+		<French>
+			<Text>Forêt ancestrale:Forêts ancestrales</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Alter Wald</German>
+		<Italian>Ancient Forest</Italian>
+		<Spanish>Bosque Ancestral</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_FOREST_BURNT</Tag>
+		<English>Burnt Forest</English>
+		<French>
+			<Text>Forêt brûlée:Forêts brûlées</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Verbrannter Wald</German>
+		<Italian>Burnt Forest</Italian>
+		<Spanish>Bosque Quemado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_FOREST_BURNT_HELP</Tag>
+		<English>[ICON_BULLET]Has a chance per turn of regrowing into a new forest.</English>
+		<French>[ICON_BULLET]A une chance par tour de redevenir une nouvelle forêt.</French>
+		<German>[ICON_BULLET]Das Feuer hat jede Runde eine Chance auf einen neuen Wald überzugreifen.</German>
+		<Italian>[ICON_BULLET]Has a chance per turn of regrowing into a new forest.</Italian>
+		<Spanish>[ICON_BULLET]Tiene una probabilidad por turno de volver a crecer como un bosque nuevo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_FOREST_NEW</Tag>
+		<English>New Forest</English>
+		<French>
+			<Text>Forêt naissante:Forêts naissantes</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Junger Wald</German>
+		<Italian>New Forest</Italian>
+		<Spanish>Bosque Nuevo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_HAUNTED_LANDS</Tag>
+		<English>Haunted Lands</English>
+		<French>
+			<Text>Terre hantée:Terres hantées</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Heimgesuchte Lande</German>
+		<Italian>Haunted Lands</Italian>
+		<Spanish>Haunted Lands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_HAUNTED_LANDS_HELP</Tag>
+		<English>Can be removed with[LINK=SPELL_DISPEL_MAGIC]dispel magic[\LINK]</English>
+		<French>Peut être retiré avec le sort[LINK=SPELL_DISPEL_MAGIC]Dissipation de la magie[\LINK]</French>
+		<German>Can be removed with[LINK=SPELL_DISPEL_MAGIC]dispel magic[\LINK]</German>
+		<Italian>Can be removed with[LINK=SPELL_DISPEL_MAGIC]dispel magic[\LINK]</Italian>
+		<Spanish>Can be removed with[LINK=SPELL_DISPEL_MAGIC]dispel magic[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_HAUNTED_LANDS_PEDIA</Tag>
+		<English>It is the nature of the world that everything is itself.  This may seem a truism, but it does not hold true in the Haunted Lands.  The Haunted Lands join everything together, in the Haunted Lands things *blur*.  Notibly the line between death and life.  There life, of a sort, is found in death and death, of a sort, is found in life.[PARAGRAPH:1]Eating anything grown within the Haunted Lands is very difficult.  The grain may scream when harvested and make bread that crumbles into something like bone meal when baked.  Its beer could taste and smell of nightmares.  Cattle tend to be stillborn, which makes it all the more disturbing as the herds continue to grow.[PARAGRAPH:1]Nevertheless there is much wealth to be found in the Haunted Lands for the brave of heart and strong of stomach.  Examples:  A tree with branches that, when dropped, aged, and dried, taste of nectar and honey after being killed and cooked.  A stream lined with trainable, watchful stones.  A pit full of knowledgeable darkness.[NEWLINE][NEWLINE][NEWLINE]Haunted Lands can be removed by the [LINK=SPELL_DISPEL_MAGIC]Dispel Magic[\LINK] Spell. </English>
+		<French>It is the nature of the world that everything is itself.  This may seem a truism, but it does not hold true in the Haunted Lands.  The Haunted Lands join everything together, in the Haunted Lands things *blur*.  Notibly the line between death and life.  There life, of a sort, is found in death and death, of a sort, is found in life.[PARAGRAPH:1]Eating anything grown within the Haunted Lands is very difficult.  The grain may scream when harvested and make bread that crumbles into something like bone meal when baked.  Its beer could taste and smell of nightmares.  Cattle tend to be stillborn, which makes it all the more disturbing as the herds continue to grow.[PARAGRAPH:1]Nevertheless there is much wealth to be found in the Haunted Lands for the brave of heart and strong of stomach.  Examples:  A tree with branches that, when dropped, aged, and dried, taste of nectar and honey after being killed and cooked.  A stream lined with trainable, watchful stones.  A pit full of knowledgeable darkness.[NEWLINE][NEWLINE][NEWLINE]Haunted Lands can be removed by the [LINK=SPELL_DISPEL_MAGIC]Dispel Magic[\LINK] Spell.</French>
+		<German>It is the nature of the world that everything is itself.  This may seem a truism, but it does not hold true in the Haunted Lands.  The Haunted Lands join everything together, in the Haunted Lands things *blur*.  Notibly the line between death and life.  There life, of a sort, is found in death and death, of a sort, is found in life.[PARAGRAPH:1]Eating anything grown within the Haunted Lands is very difficult.  The grain may scream when harvested and make bread that crumbles into something like bone meal when baked.  Its beer could taste and smell of nightmares.  Cattle tend to be stillborn, which makes it all the more disturbing as the herds continue to grow.[PARAGRAPH:1]Nevertheless there is much wealth to be found in the Haunted Lands for the brave of heart and strong of stomach.  Examples:  A tree with branches that, when dropped, aged, and dried, taste of nectar and honey after being killed and cooked.  A stream lined with trainable, watchful stones.  A pit full of knowledgeable darkness.[NEWLINE][NEWLINE][NEWLINE]Haunted Lands can be removed by the [LINK=SPELL_DISPEL_MAGIC]Dispel Magic[\LINK] Spell.</German>
+		<Italian>It is the nature of the world that everything is itself.  This may seem a truism, but it does not hold true in the Haunted Lands.  The Haunted Lands join everything together, in the Haunted Lands things *blur*.  Notibly the line between death and life.  There life, of a sort, is found in death and death, of a sort, is found in life.[PARAGRAPH:1]Eating anything grown within the Haunted Lands is very difficult.  The grain may scream when harvested and make bread that crumbles into something like bone meal when baked.  Its beer could taste and smell of nightmares.  Cattle tend to be stillborn, which makes it all the more disturbing as the herds continue to grow.[PARAGRAPH:1]Nevertheless there is much wealth to be found in the Haunted Lands for the brave of heart and strong of stomach.  Examples:  A tree with branches that, when dropped, aged, and dried, taste of nectar and honey after being killed and cooked.  A stream lined with trainable, watchful stones.  A pit full of knowledgeable darkness.[NEWLINE][NEWLINE][NEWLINE]Haunted Lands can be removed by the [LINK=SPELL_DISPEL_MAGIC]Dispel Magic[\LINK] Spell.</Italian>
+		<Spanish>It is the nature of the world that everything is itself.  This may seem a truism, but it does not hold true in the Haunted Lands.  The Haunted Lands join everything together, in the Haunted Lands things *blur*.  Notibly the line between death and life.  There life, of a sort, is found in death and death, of a sort, is found in life.[PARAGRAPH:1]Eating anything grown within the Haunted Lands is very difficult.  The grain may scream when harvested and make bread that crumbles into something like bone meal when baked.  Its beer could taste and smell of nightmares.  Cattle tend to be stillborn, which makes it all the more disturbing as the herds continue to grow.[PARAGRAPH:1]Nevertheless there is much wealth to be found in the Haunted Lands for the brave of heart and strong of stomach.  Examples:  A tree with branches that, when dropped, aged, and dried, taste of nectar and honey after being killed and cooked.  A stream lined with trainable, watchful stones.  A pit full of knowledgeable darkness.[NEWLINE][NEWLINE][NEWLINE]Haunted Lands can be removed by the [LINK=SPELL_DISPEL_MAGIC]Dispel Magic[\LINK] Spell.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_ICE</Tag>
+		<English>Iceberg</English>
+		<French>
+			<Text>Iceberg:Icebergs</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>
+			<Text>Eisberg</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Ghiaccio:Ghiacci</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Hielo:Hielos</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_KELP</Tag>
+		<English>Kelp</English>
+		<French>
+			<Text>Kelp</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Seetang</German>
+		<Italian>Kelp</Italian>
+		<Spanish>Kelp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_KELP_FOREST</Tag>
+		<English>Kelp Forest</English>
+		<French>
+			<Text>Forêt de Kelp:Forêts de Kelp</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Seetang Wald</German>
+		<Italian>Kelp Forest</Italian>
+		<Spanish>Kelp Forest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_MIST</Tag>
+		<English>Mist</English>
+		<French>
+			<Text>Brouillard</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Nebel</German>
+		<Italian>Mist</Italian>
+		<Spanish>Mist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_MIST_LIGHT</Tag>
+		<English>Light[SPACE]</English>
+		<French>Léger[SPACE]</French>
+		<German>Licht[SPACE]</German>
+		<Italian>Light[SPACE]</Italian>
+		<Spanish>Light[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_MIST_HEAVY</Tag>
+		<English>Heavy[SPACE]</English>
+		<French>Épais[SPACE]</French>
+		<German>Schwer[SPACE]</German>
+		<Italian>Heavy[SPACE]</Italian>
+		<Spanish>Heavy[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_MIST_PEDIA</Tag>
+		<English>can be removed with air spell [LINK=SPELL_GUST_OF_WIND]Gust of wind[\LINK] (Air I)</English>
+		<French>Peut être retiré par le sort d'air [LINK=SPELL_GUST_OF_WIND]Gust of wind[\LINK] (Air I)</French>
+		<German>can be removed with air spell [LINK=SPELL_GUST_OF_WIND]Gust of wind[\LINK] (Air I)</German>
+		<Italian>can be removed with air spell [LINK=SPELL_GUST_OF_WIND]Gust of wind[\LINK] (Air I)</Italian>
+		<Spanish>can be removed with air spell [LINK=SPELL_GUST_OF_WIND]Gust of wind[\LINK] (Air I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_OBSIDIAN_PLAINS</Tag>
+		<English>Obsidian Plains</English>
+		<French>
+			<Text>Plaine d'Obsidienne:Plaines d'Obsidienne</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Äußere Ebenen</German>
+		<Italian>Obsidian Plains</Italian>
+		<Spanish>Planos de Obsidiana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_REEFS</Tag>
+		<English>Reef</English>
+		<French>
+			<Text>Récif:Récifs</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Riff</German>
+		<Italian>Reef</Italian>
+		<Spanish>Reef</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_SCRUB</Tag>
+		<English>Scrubs</English>
+		<French>
+			<Text>Broussailles</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Wüstengras</German>
+		<Italian>Scrubs</Italian>
+		<Spanish>Matorrales</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_TORMENTED_SOULS</Tag>
+		<English>Tormented Souls</English>
+		<French>Âmes tourmentées</French>
+		<German>Tormented Souls</German>
+		<Italian>Tormented Souls</Italian>
+		<Spanish>Tormented Souls</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_VOLCANO</Tag>
+		<English>Volcano</English>
+		<French>Volcan</French>
+		<German>Vulkan</German>
+		<Italian>Volcano</Italian>
+		<Spanish>Volcán</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_WALLS</Tag>
+		<English>Walls</English>
+		<French>Remparts</French>
+		<German>Walls</German>
+		<Italian>Walls</Italian>
+		<Spanish>Walls</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_WINTER</Tag>
+		<English>Winter</English>
+		<French>Hiver éternel</French>
+		<German>Winter</German>
+		<Italian>Winter</Italian>
+		<Spanish>Winter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FEATURE_WINTER_PEDIA</Tag>
+		<English>[TAB]The eternal winter of the Age of Ice provided sustainable benefits to those who knew how to live with it. The Illians, for example, could extract food bonuses from otherwise unworkable terrain. But the Frozen of Mulcarn, who need no food, can turn the latent energy of winter into what they need- not food or water, but raw materials and rare metals. [PARAGRAPH:2]But for anyone else, these extremely harsh winters, harsher than blizzards, provide nothing at all.</English>
+		<French>[TAB]The eternal winter of the Age of Ice provided sustainable benefits to those who knew how to live with it. The Illians, for example, could extract food bonuses from otherwise unworkable terrain. But the Frozen of Mulcarn, who need no food, can turn the latent energy of winter into what they need- not food or water, but raw materials and rare metals. [PARAGRAPH:2]But for anyone else, these extremely harsh winters, harsher than blizzards, provide nothing at all.</French>
+		<German>[TAB]The eternal winter of the Age of Ice provided sustainable benefits to those who knew how to live with it. The Illians, for example, could extract food bonuses from otherwise unworkable terrain. But the Frozen of Mulcarn, who need no food, can turn the latent energy of winter into what they need- not food or water, but raw materials and rare metals. [PARAGRAPH:2]But for anyone else, these extremely harsh winters, harsher than blizzards, provide nothing at all.</German>
+		<Italian>[TAB]The eternal winter of the Age of Ice provided sustainable benefits to those who knew how to live with it. The Illians, for example, could extract food bonuses from otherwise unworkable terrain. But the Frozen of Mulcarn, who need no food, can turn the latent energy of winter into what they need- not food or water, but raw materials and rare metals. [PARAGRAPH:2]But for anyone else, these extremely harsh winters, harsher than blizzards, provide nothing at all.</Italian>
+		<Spanish>[TAB]The eternal winter of the Age of Ice provided sustainable benefits to those who knew how to live with it. The Illians, for example, could extract food bonuses from otherwise unworkable terrain. But the Frozen of Mulcarn, who need no food, can turn the latent energy of winter into what they need- not food or water, but raw materials and rare metals. [PARAGRAPH:2]But for anyone else, these extremely harsh winters, harsher than blizzards, provide nothing at all.</Spanish>
+	</TEXT>
+</Civ4GameText>

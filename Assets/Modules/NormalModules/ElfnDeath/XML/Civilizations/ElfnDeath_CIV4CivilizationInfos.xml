@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4CivilizationInfos xmlns="x-schema:ElfnDeath_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+		<CivilizationInfo><!-- Once Elves -->
+			<Type>CIVILIZATION_ONCE_ELVES</Type>
+			<Civilopedia>TXT_KEY_CIV_ONCEELF_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_CIV_ONCEELF_STRATEGY</Strategy>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<BuildingType>BUILDING_PALACE_MALACHITE</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+					<BuildingType>BUILDING_ARCHIVES_OF_THE_HONORED_DEAD</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_MAGE_GUILD</BuildingClassType>
+					<BuildingType>BUILDING_SPIRIT_VIGIL</BuildingType>
+				</Building>
+			</Buildings>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_WALDRUN</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

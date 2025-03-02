@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building Infos -->
+<Civ4BuildingInfos xmlns="x-schema:Goblin_CIV4BuildingsSchema.xml">
+    <BuildingInfos>
+  	<BuildingInfo>		<!-- Palace Goblins -->
+			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
+			<Type>BUILDING_PALACE_GOBLINS</Type>
+			<Description>TXT_KEY_BUILDING_PALACE_GOBLINS</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PALACE_PEDIA</Civilopedia>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_PALACE_CLAN_OF_EMBERS</ArtDefineTag>
+			<FreeBonus>BONUS_MANA_NATURE</FreeBonus>
+			<iNumFreeBonuses>1</iNumFreeBonuses>
+			<bCapital>1</bCapital>
+			<iHealth>2</iHealth>
+			<bGovernmentCenter>1</bGovernmentCenter>
+			<bNeverCapture>1</bNeverCapture>
+			<bNukeImmune>1</bNukeImmune>
+			<iCost>160</iCost>
+			<iHurryCostModifier>50</iHurryCostModifier>
+			<iConquestProb>0</iConquestProb>
+			<iCitiesPrereq>4</iCitiesPrereq>
+			<iGlobalWarWearinessModifier>-40</iGlobalWarWearinessModifier>
+			<iHappiness>1</iHappiness>
+			<fVisibilityPriority>10000</fVisibilityPriority>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>1</iYield>
+				<iYield>12</iYield>
+			</YieldChanges>
+			<ObsoleteSafeCommerceChanges>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>2</iCommerce>
+			</ObsoleteSafeCommerceChanges>
+			<iCrime>-10</iCrime>
+			<FreeBonus2>BONUS_MANA_CHAOS</FreeBonus2>
+			<FreeBonus3>BONUS_MANA_MIND</FreeBonus3>
+		</BuildingInfo>
+	
+    </BuildingInfos>
+</Civ4BuildingInfos>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SOULBINDER</Tag>
+		<English>Soul Binder</English>
+		<French>Soul Binder</French>
+		<German>Soul Binder</German>
+		<Italian>Soul Binder</Italian>
+		<Spanish>Soul Binder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SOULBINDER_SHORT</Tag>
+		<English>Sb</English>
+		<French>Sb</French>
+		<German>Sb</German>
+		<Italian>Sb</Italian>
+		<Spanish>Sb</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SOULBINDER_PEDIA</Tag>
+		<English>Waldrun has taught his Adepts and Disciples the cruel art of trapping souls and dragging them back to Erebus to serve as Sluaghs. if you focus on teaching your adepts shadow and undeath and upgrading your arcane line you will grow more and more powerful!</English>
+		<French>Waldrun has taught his Adepts and Disciples the cruel art of trapping souls and dragging them back to Erebus to serve as Sluaghs. if you focus on teaching your adepts shadow and undeath and upgrading your arcane line you will grow more and more powerful!</French>
+		<German>Waldrun has taught his Adepts and Disciples  the cruel rt of trapping souls and dragging them back to Erebus to serve as Sluaghs. if you focus on teaching your adepts shadow and undeath and upgrading your arcane line you will grow more and more powerful!</German>
+		<Italian>Waldrun has taught his Adepts and Disciples  the cruel art of trapping souls and dragging them back to Erebus to serve as Sluaghs. if you focus on teaching your adepts shadow and undeath and upgrading your arcane line you will grow more and more powerful!</Italian>
+		<Spanish>Waldrun has taught his Adepts and Disciples the cruel art of trapping souls and dragging them back to Erebus to serve as Sluaghs. if you focus on teaching your adepts shadow and undeath and upgrading your arcane line you will grow more and more powerful!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SOULBINDER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Level 1: Your Adepts and Disciples gain the chance to summon Sluaghs on killing a living unit. [NEWLINE][ICON_BULLET]Level 2: Your mages gain a new spell when they have Shadow II and Undeath II. Elementals gain death and shadow affinity. [NEWLINE][ICON_BULLET]Level 3: Your Archmages gain the ability to become a willing vessel for one of Laroth's Dullahan at level 10.</English>
+		<French>[NEWLINE][ICON_BULLET]Level 1: Your Adepts and Disciples gain the chance to summon Sluaghs on killing a living unit. [NEWLINE][ICON_BULLET]Level 2: Your mages gain a new spell when they have Shadow II and Undeath II. Elementals gain death and shadow affinity. [NEWLINE][ICON_BULLET]Level 3: Your Archmages gain the ability to become a willing vessel for one of Laroth's Dullahan at level 10.</French>
+		<German>[NEWLINE][ICON_BULLET]Level 1: Your Adepts and Disciples gain the chance to summon Sluaghs on killing a living unit. [NEWLINE][ICON_BULLET]Level 2: Your mages gain a new spell when they have Shadow II and Undeath II. Elementals gain death and shadow affinity. [NEWLINE][ICON_BULLET]Level 3: Your Archmages gain the ability to become a willing vessel for one of Laroth's Dullahan at level 10.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Level 1: Your Adepts and Disciples gain the chance to summon Sluaghs on killing a living unit. [NEWLINE][ICON_BULLET]Level 2: Your mages gain a new spell when they have Shadow II and Undeath II. Elementals gain death and shadow affinity. [NEWLINE][ICON_BULLET]Level 3: Your Archmages gain the ability to become a willing vessel for one of Laroth's Dullahan at level 10.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Level 1: Your Adepts and Disciples gain the chance to summon Sluaghs on killing a living unit. [NEWLINE][ICON_BULLET]Level 2: Your mages gain a new spell when they have Shadow II and Undeath II. Elementals gain death and shadow affinity. [NEWLINE][ICON_BULLET]Level 3: Your Archmages gain the ability to become a willing vessel for one of Laroth's Dullahan at level 10.</Spanish>
+	</TEXT>
+</Civ4GameText>

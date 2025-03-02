@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Formatted by Xienwolf -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Promotion Infos -->
+<Civ4PromotionInfos xmlns="x-schema:adv-workers_CIV4UnitSchema.xml">
+	<PromotionInfos>
+		<PromotionInfo>		<!-- Dwarven Worker -->
+			<Type>PROMOTION_DWARVEN_WORKER</Type>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_LUCHUIRP</PrereqCivilization>
+			</PrereqCivilizations>
+        	</PromotionInfo>
+	</PromotionInfos>
+</Civ4PromotionInfos>

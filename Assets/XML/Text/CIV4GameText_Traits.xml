@@ -1,0 +1,2036 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_LEADERCLASS_BARBARIAN</Tag>
+		<English>Barbarian Leader</English>
+		<French>Dirigeant barbare</French>
+		<German>Barbarischer Anführer</German>
+		<Italian>Barbarian Leader</Italian>
+		<Spanish>Barbarian Leader</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADERCLASS_EMERGENT</Tag>
+		<English>Emergent Leader</English>
+		<French>Dirigeant émergent</French>
+		<German>Aufstrebender Anführer</German>
+		<Italian>Emergent Leader</Italian>
+		<Spanish>Emergent Leader</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADERCLASS_HISTORICAL</Tag>
+		<English>Historical Leader</English>
+		<French>Dirigeant historique</French>
+		<German>Historischer Anführer</German>
+		<Italian>Historical Leader</Italian>
+		<Spanish>Historical Leader</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADERCLASS_IMPORTANT</Tag>
+		<English>Important Leader</English>
+		<French>Dirigeant important</French>
+		<German>Wichtiger Anführer</German>
+		<Italian>Important Leader</Italian>
+		<Spanish>Important Leader</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ADAPTIVE</Tag>
+		<English>Adaptive</English>
+		<French>Adaptatif</French>
+		<German>Adaptiv</German>
+		<Italian>Adaptive</Italian>
+		<Spanish>Adaptive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ADAPTIVE_SHORT</Tag>
+		<English>Ada</English>
+		<French>Ada</French>
+		<German>Ada</German>
+		<Italian>Ada</Italian>
+		<Spanish>Ada</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ADAPTIVE_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Allows the player to pick the trait of their choice</English>
+		<French>[NEWLINE][ICON_BULLET]Permet au joueur de choisir un trait de son choix.</French>
+		<German>[NEWLINE][ICON_BULLET]Erlaubt freie Wahl einer Eigenschaft und deren Wechsel</German>
+		<Italian>[NEWLINE][ICON_BULLET]Allows the player to pick the trait of their choice</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Allows the player to pick the trait of their choice</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AUTORAZE_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Automatically razes a conquered city</English>
+		<French>[NEWLINE][ICON_BULLET]Automatically razes a conquered city</French>
+		<German>[NEWLINE][ICON_BULLET]Automatically razes a conquered city</German>
+		<Italian>[NEWLINE][ICON_BULLET]Automatically razes a conquered city</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Automatically razes a conquered city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGNOSTIC</Tag>
+		<English>Agnostic</English>
+		<French>Agnostique</French>
+		<German>Agnostisch[NEWLINE]</German>
+		<Italian>Agnostic</Italian>
+		<Spanish>Agnostic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGNOSTIC_SHORT</Tag>
+		<English>Agn</English>
+		<French>Agn</French>
+		<German>Agn</German>
+		<Italian>Agn</Italian>
+		<Spanish>Agn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGNOSTIC_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Leader cannot adopt a state religion[NEWLINE][ICON_BULLET]Reduces the chance religions will spread to the leader's cities</English>
+		<French>[NEWLINE][ICON_BULLET]Le dirigeant ne peut pas choisir de religion d'état.[NEWLINE][ICON_BULLET]Réduit la probabilité qu'une religion se répande dans les villes de la civilisation.</French>
+		<German>[NEWLINE][ICON_BULLET]Kann keine Staatsreligion annehmen[NEWLINE][ICON_BULLET]Verminderter religiöser Einfluss auf eigene Städte</German>
+		<Italian>[NEWLINE][ICON_BULLET]Leader cannot adopt a state religion[NEWLINE][ICON_BULLET]Reduces the chance religions will spread to the leader's cities</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Leader cannot adopt a state religion[NEWLINE][ICON_BULLET]Reduces the chance religions will spread to the leader's cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_AGGRESSIVE_TRAIT</Tag>
+		<English>Gain the Aggressive Trait.</English>
+		<French>Obtenir le trait Aggressif.</French>
+		<German>Gain the Aggressive Trait.</German>
+		<Italian>Gain the Aggressive Trait.</Italian>
+		<Spanish>Gain the Aggressive Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_AGGRESSIVE_TRAIT_1</Tag>
+		<English>Gain the Aggressive Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Aggressif, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Aggressive Trait, Lose the Important Status.</German>
+		<Italian>Gain the Aggressive Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Aggressive Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_AGGRESSIVE_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective doesn't play nice with others and has gained the Aggressive Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective n'est pas tendre avec les autres et a obtenu le trait Aggressif.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective doesn't play nice with others and has gained the Aggressive Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective doesn't play nice with others and has gained the Aggressive Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective doesn't play nice with others and has gained the Aggressive Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_AGGRESSIVE_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Aggressive[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Free Promotion (Combat I)[NEWLINE]    [ICON_BULLET]Recon Units[NEWLINE]    [ICON_BULLET]Archery Units[NEWLINE]    [ICON_BULLET]Mounted Units[NEWLINE]    [ICON_BULLET]Melee Units[NEWLINE]    [ICON_BULLET]Arcane Units[NEWLINE]    [ICON_BULLET]Disciple Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Shipyard, Siege Workshop, Stable</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Aggressif[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Promotion Gratuite (Combat I)[NEWLINE]    [ICON_BULLET]Éclaireurs[NEWLINE]    [ICON_BULLET]Archers[NEWLINE]    [ICON_BULLET]Unités Montées[NEWLINE]    [ICON_BULLET]Unités de Mélée[NEWLINE]    [ICON_BULLET]Unités Magiques[NEWLINE]    [ICON_BULLET]Disciples[NEWLINE]  [ICON_BULLET]Double la vitesse de Production du Chantier Naval, de l'Atelier de Siège, et des Écuries</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Aggressiv[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Freie Bef&#246;rderung (Kampf I)[NEWLINE]    [ICON_BULLET]Aufkl&#228;rungseinheiten[NEWLINE]    [ICON_BULLET]Bogeneinheiten[NEWLINE]    [ICON_BULLET]Berittene Einheiten[NEWLINE]    [ICON_BULLET]Nahkampfeinheiten[NEWLINE]    [ICON_BULLET]Magische Einheiten[NEWLINE]    [ICON_BULLET]Geweihte Einheiten[NEWLINE]  [ICON_BULLET]Doppelte Produktionsgeschwindigkeit f&#252;r Schiffswerft, Werkstatt f&#252;r Belagerungswaffen, St&#228;lle</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Aggressive[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Free Promotion (Combat I)[NEWLINE]    [ICON_BULLET]Recon Units[NEWLINE]    [ICON_BULLET]Archery Units[NEWLINE]    [ICON_BULLET]Mounted Units[NEWLINE]    [ICON_BULLET]Melee Units[NEWLINE]    [ICON_BULLET]Arcane Units[NEWLINE]    [ICON_BULLET]Disciple Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Shipyard, Siege Workshop, Stable</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Aggressive[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Free Promotion (Combat I)[NEWLINE]    [ICON_BULLET]Recon Units[NEWLINE]    [ICON_BULLET]Archery Units[NEWLINE]    [ICON_BULLET]Mounted Units[NEWLINE]    [ICON_BULLET]Melee Units[NEWLINE]    [ICON_BULLET]Arcane Units[NEWLINE]    [ICON_BULLET]Disciple Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Shipyard, Siege Workshop, Stable</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AMBITIOUS</Tag>
+		<English>Ambitious</English>
+		<French>Ambitieux</French>
+		<German>Ambitioniert</German>
+		<Italian>Ambitious</Italian>
+		<Spanish>Ambitious</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AMBITIOUS_SHORT</Tag>
+		<English>Amb</English>
+		<French>Amb</French>
+		<German>Amb</German>
+		<Italian>Amb</Italian>
+		<Spanish>Amb</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AMBITIOUS_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Reduced level requirements to upgrade Arcane units</English>
+		<French>[NEWLINE][ICON_BULLET]Les prérequis de niveau pour améliorer les unités magiques sont réduits</French>
+		<German>[NEWLINE][ICON_BULLET]Reduziert Levelanforderung für die Modernisierung von magischen Einheiten</German>
+		<Italian>[NEWLINE][ICON_BULLET]Reduced level requirements to upgrade Arcane units</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Reduced level requirements to upgrade Arcane units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ARCANE</Tag>
+		<English>Arcane</English>
+		<French>Arcaniste</French>
+		<German>Magisch</German>
+		<Italian>Arcane</Italian>
+		<Spanish>Arcane</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ARCANE_SHORT</Tag>
+		<English>Arc</English>
+		<French>Arc</French>
+		<German>Mag</German>
+		<Italian>Arc</Italian>
+		<Spanish>Arc</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_ARCANE_TRAIT</Tag>
+		<English>Gain the Arcane Trait.</English>
+		<French>Obtenir le trait Magicien.</French>
+		<German>Gain the Arcane Trait.</German>
+		<Italian>Gain the Arcane Trait.</Italian>
+		<Spanish>Gain the Arcane Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_ARCANE_TRAIT_1</Tag>
+		<English>Gain the Arcane Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Magicien, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Arcane Trait, Lose the Important Status.</German>
+		<Italian>Gain the Arcane Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Arcane Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_ARCANE_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has displayed magical prowess and gained the Arcane Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective a accompli des prouesses magiques et a obtenu le trait Magicien.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has displayed magical prowess and gained the Arcane Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has displayed magical prowess and gained the Arcane Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has displayed magical prowess and gained the Arcane Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ARCANE_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Arcane[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Free Promotion (Potency)[NEWLINE]    [ICON_BULLET]Arcane Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Mage Guild</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Magicien[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Promotion Gratuite (Affinité Arcanique)[NEWLINE]    [ICON_BULLET]Unités Magiques[NEWLINE]  [ICON_BULLET]Double la vitesse de Production de la Guilde des Mages</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Magisch[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Freie Bef&#246;rderung (Magiebegabung)[NEWLINE]    [ICON_BULLET]Magische Einheiten[NEWLINE]  [ICON_BULLET]Doppelte Produktionsgeschwindigkeit f&#252;r Magischer Zirkel</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Arcane[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Free Promotion (Potency)[NEWLINE]    [ICON_BULLET]Arcane Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Mage Guild</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Arcane[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Free Promotion (Potency)[NEWLINE]    [ICON_BULLET]Arcane Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Mage Guild</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ASSIMILATION_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Captured cities build their original civilization's units and buildings instead of the owning civilization (so a captured Calabim city would still be able to build Vampires and Governor's Manors)[NEWLINE][ICON_BULLET]This ability does not allow the building of other civilization's heroes</English>
+		<French>[NEWLINE][ICON_BULLET]Les villes capturées construisent les bâtiments et unités spécifiques à leur civilisations originelles au lieu de ceux de la civilisation conquérante (par exemple une ville Calabim conquise pourrait toujours produire des Vampires et des Manoirs de Gouverneur)[NEWLINE][ICON_BULLET]Cette capacité ne permet pas la production des héros d'une autre civilisation</French>
+		<German>[NEWLINE][ICON_BULLET]Eroberte Städte bauen die Einheiten und Gebäude ihrer ursprünglichen Zivilisation anstelle der ihrer neuen (d.h. eine eroberte Stadt der Calabim wird weiterhin in der Lage sein, Vampire und die Gruft des Grafen zu bauen).[NEWLINE][ICON_BULLET]Diese Fähigkeit ermöglicht es jedoch nicht, die Helden anderer Zivilisationen aufzustellen.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Captured cities build their original civilization's units and buildings instead of the owning civilization (so a captured Calabim city would still be able to build Vampires and Governor's Manors)[NEWLINE][ICON_BULLET]This ability does not allow the building of other civilization's heroes</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Captured cities build their original civilization's units and buildings instead of the owning civilization (so a captured Calabim city would still be able to build Vampires and Governor's Manors)[NEWLINE][ICON_BULLET]This ability does not allow the building of other civilization's heroes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BLOOD_THIRSTY</Tag>
+		<English>Blood Thirsty</English>
+		<French>Assoifé de Sang</French>
+		<German>Blutdürstend</German>
+		<Italian>Blood Thirsty</Italian>
+		<Spanish>Blood Thirsty</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BLOOD_THIRSTY_SHORT</Tag>
+		<English>Blood</English>
+		<French>Sang</French>
+		<German>Blut</German>
+		<Italian>Blood</Italian>
+		<Spanish>Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CHARISMATIC_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Charismatic[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+1[ICON_HAPPY]/City[NEWLINE]  [ICON_BULLET]-25% XP Needed for Unit Promotions</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Charismatique[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+1[ICON_HAPPY]/Ville[NEWLINE]  [ICON_BULLET]-25% XP nécessaires pour la promotion des unités</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Charismatisch[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+1[ICON_HAPPY]/Stadt[NEWLINE]  [ICON_BULLET]-25% XP ben&#246;tigt f&#252;r Bef&#246;rderung</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Charismatic[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+1[ICON_HAPPY]/City[NEWLINE]  [ICON_BULLET]-25% XP Needed for Unit Promotions</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Charismatic[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+1[ICON_HAPPY]/City[NEWLINE]  [ICON_BULLET]-25% XP Needed for Unit Promotions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_COLD_BLOODED</Tag>
+		<English>Cold Blooded</English>
+		<French>Insensible</French>
+		<German>Kaltblütig</German>
+		<Italian>Cold Blooded</Italian>
+		<Spanish>Cold Blooded</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_COLD_BLOODED_SHORT</Tag>
+		<English>Cold</English>
+		<French>Ins</French>
+		<German>Kalt</German>
+		<Italian>Cold</Italian>
+		<Spanish>Cold</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CONQUEROR</Tag>
+		<English>Conqueror</English>
+		<French>Conquérant</French>
+		<German>Eroberer</German>
+		<Italian>Conqueror</Italian>
+		<Spanish>Conqueror</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CONQUEROR_SHORT</Tag>
+		<English>Con</English>
+		<French>Con</French>
+		<German>Erob</German>
+		<Italian>Con</Italian>
+		<Spanish>Con</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CRAFTMASTER</Tag>
+		<English>Craftmaster</English>
+		<French>Maître Artisan</French>
+		<German>Handwerksmann</German>
+		<Italian>Craftmaster</Italian>
+		<Spanish>Craftmaster</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CRAFTMASTER_SHORT</Tag>
+		<English>Cra</English>
+		<French>Art</French>
+		<German>Handw</German>
+		<Italian>Cra</Italian>
+		<Spanish>Cra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CRAFTMASTER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_MOBILITY3]Mobility[\LINK] to all Golem units.</English>
+		<French>[NEWLINE][ICON_BULLET]Confère la [LINK=PROMOTION_MOBILITY3]Mobilité[\LINK] à tous les Golems.</French>
+		<German>[NEWLINE][ICON_BULLET]Bringt [LINK=PROMOTION_MOBILITY3]Mobilität[\LINK] für alle Golem Einheiten</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_MOBILITY3]Mobility[\LINK] to all Golem units.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_MOBILITY3]Mobility[\LINK] to all Golem units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CRAFTMASTER3_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SELF_REPAIRING_GOLEM]Self Repairing[\LINK] to all Golem units.</English>
+		<French>[NEWLINE][ICON_BULLET]Confère la [LINK=PROMOTION_SELF_REPAIRING_GOLEM]Self Repairing[\LINK] à tous les Golems.</French>
+		<German>[NEWLINE][ICON_BULLET]Bringt [LINK=PROMOTION_SELF_REPAIRING_GOLEM]Self Repairing[\LINK] für alle Golem Einheiten</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SELF_REPAIRING_GOLEM]Self Repairing[\LINK] to all Golem units.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SELF_REPAIRING_GOLEM]Self Repairing[\LINK] to all Golem units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_CREATIVE_TRAIT</Tag>
+		<English>Gain the Creative Trait.</English>
+		<French>Obtenir le trait Créatif.</French>
+		<German>Gain the Creative Trait.</German>
+		<Italian>Gain the Creative Trait.</Italian>
+		<Spanish>Gain the Creative Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_CREATIVE_TRAIT_1</Tag>
+		<English>Gain the Creative Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Créatif, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Creative Trait, Lose the Important Status.</German>
+		<Italian>Gain the Creative Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Creative Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_CREATIVE_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has displayed great vision and gained the Creative Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective a exposé fait part de grandes visions et a obtenu le trait Créatif.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has displayed great vision and gained the Creative Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has displayed great vision and gained the Creative Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has displayed great vision and gained the Creative Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_CREATIVE_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Creative[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+2[ICON_CULTURE]/City[NEWLINE]  [ICON_BULLET]Double Production Speed of Carnival, Monument</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Créatif[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+2[ICON_CULTURE]/Ville[NEWLINE]  [ICON_BULLET]Double la vitesse de Production du Carnaval, et du Monument</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Kreativ[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+2[ICON_CULTURE]/Stadt[NEWLINE]  [ICON_BULLET]Doppelte Produktionsgeschwindigkeit f&#252;r Jahrmarkt, Monument</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Creative[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+2[ICON_CULTURE]/City[NEWLINE]  [ICON_BULLET]Double Production Speed of Carnival, Monument</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Creative[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+2[ICON_CULTURE]/City[NEWLINE]  [ICON_BULLET]Double Production Speed of Carnival, Monument</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEATHTOUCHED</Tag>
+		<English>Deathtouched</English>
+		<French>Touché par la Mort</French>
+		<German>Vom Tod geküsst</German>
+		<Italian>Deathtouched</Italian>
+		<Spanish>Deathtouched</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEATHTOUCHED_SHORT</Tag>
+		<English>Dea</English>
+		<French>Mort</French>
+		<German>Tod</German>
+		<Italian>Dea</Italian>
+		<Spanish>Dea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEATHTOUCHED_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Summoned Skeletons gain the Melee combat type</English>
+		<French>[NEWLINE][ICON_BULLET]Les Squelettes invoqués obtiennent le type de combat Mélée</French>
+		<German>[NEWLINE][ICON_BULLET]Beschworene Skeletee erhalten Nahkampfausbildung</German>
+		<Italian>[NEWLINE][ICON_BULLET]Summoned Skeletons gain the Melee combat type</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Summoned Skeletons gain the Melee combat type</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEFEAT_INFLUENCE_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Modifies culture change after a defeat by %d1%.</English>
+		<French>[NEWLINE][ICON_BULLET]Diminue la Culture après chaque défaite de %d1%.</French>
+		<German>[NEWLINE][ICON_BULLET]Modifiziert die Kulturänderung nach einer Niederlage im Kampf um %d1%.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Modifies culture change after a defeat by %d1%.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Modifies culture change after a defeat by %d1%.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEFENDER</Tag>
+		<English>Defender</English>
+		<French>Défenseur</French>
+		<German>Defensiv</German>
+		<Italian>Defender</Italian>
+		<Spanish>Defender</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEFENDER_SHORT</Tag>
+		<English>Def</English>
+		<French>Def</French>
+		<German>Def</German>
+		<Italian>Def</Italian>
+		<Spanish>Def</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEFENDER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HOMELAND]Homeland[\LINK] to all units inside your team's territory[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HARDY1]Hardy I[\LINK] to all your worker units.</English>
+		<French>[NEWLINE][ICON_BULLET]Fournit la promotion [LINK=PROMOTION_HOMELAND]Mère Patrie[\LINK] à toutes les unités à l'intérieur des frontières de votre équipe[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HARDY1]Hardy I[\LINK] to all your worker units.</French>
+		<German>[NEWLINE][ICON_BULLET]Verleiht allen Einheiten innerhalb der Teamgrenzen die Beförderung [LINK=PROMOTION_HOMELAND]Heimisch[\LINK][NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HARDY1]Hardy I[\LINK] to all your worker units.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HOMELAND]Homeland[\LINK] to all units inside your team's territory[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HARDY1]Hardy I[\LINK] to all your worker units.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HOMELAND]Homeland[\LINK] to all units inside your team's territory[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HARDY1]Hardy I[\LINK] to all your worker units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_DEFENDER_TRAIT</Tag>
+		<English>Gain the Defender Trait.</English>
+		<French>Obtenir le trait Défenseur.</French>
+		<German>Gain the Defender Trait.</German>
+		<Italian>Gain the Defender Trait.</Italian>
+		<Spanish>Gain the Defender Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_DEFENDER_TRAIT_1</Tag>
+		<English>Gain the Defender Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Défenseur, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Defender Trait, Lose the Important Status.</German>
+		<Italian>Gain the Defender Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Defender Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_DEFENDER_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has improved their defenses and gained the Defender Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective a amélioré ses défenses et a obtenu le trait Défenseur.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has improved their defenses and gained the Defender Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has improved their defenses and gained the Defender Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has improved their defenses and gained the Defender Trait.</Spanish>
+	</TEXT>
+	
+	
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DOMINANT</Tag>
+		<English>Dominant</English>
+		<French>Dominant</French>
+		<German>Dominant</German>
+		<Italian>Dominant</Italian>
+		<Spanish>Dominant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DOMINANT_SHORT</Tag>
+		<English>Dom</English>
+		<French>Dom</French>
+		<German>Dom</German>
+		<Italian>Dom</Italian>
+		<Spanish>Dom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EGALITARIAN</Tag>
+		<English>Egalitarian</English>
+		<French>Égalitaire</French>
+		<German>Egalitär</German>
+		<Italian>Egalitarian</Italian>
+		<Spanish>Egalitarian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EGALITARIAN_SHORT</Tag>
+		<English>Ega</English>
+		<French>Éga</French>
+		<German>Ega</German>
+		<Italian>Ega</Italian>
+		<Spanish>Ega</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EMERGENT</Tag>
+		<English>Emergent</English>
+		<French>Émergent</French>
+		<German>Aufstrebend</German>
+		<Italian>Emergent</Italian>
+		<Spanish>Emergent</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EMERGENT_SHORT</Tag>
+		<English>Emerge</English>
+		<French>Emerge</French>
+		<German>Aufstr</German>
+		<Italian>Emerge</Italian>
+		<Spanish>Emerge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_EXPANSIVE_TRAIT</Tag>
+		<English>Gain the Expansive Trait.</English>
+		<French>Obtenir le trait Conquérant.</French>
+		<German>Gain the Expansive Trait.</German>
+		<Italian>Gain the Expansive Trait.</Italian>
+		<Spanish>Gain the Expansive Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_EXPANSIVE_TRAIT_1</Tag>
+		<English>Gain the Expansive Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Conquérant, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Expansive Trait, Lose the Important Status.</German>
+		<Italian>Gain the Expansive Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Expansive Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_EXPANSIVE_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has an eye for empire and gained the Expansive Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective garde à l'esprit l'empire et a obtenur le trait Conquérant.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has an eye for empire and gained the Expansive Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has an eye for empire and gained the Expansive Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has an eye for empire and gained the Expansive Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_EXPANSIVE_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Expansive[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+6[ICON_HEALTHY]/City[NEWLINE]  [ICON_BULLET]Double Production Speed of Settler, Pioneer[NEWLINE]  [ICON_BULLET]Double Production Speed of Smokehouse, Granary, Harbor, Salthouse</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Conquérant[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+6[ICON_HEALTHY]/Ville[NEWLINE]  [ICON_BULLET]Double la vitesse de Production des Colons, Pioniers[NEWLINE]  [ICON_BULLET]Double la vitesse de Production du Fumoir, Grenier, Port, Atelier de Salaison</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Expansiv[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+6[ICON_HEALTHY]/Stadt[NEWLINE]  [ICON_BULLET]Doppelte Produktionsgeschwindigkeit f&#252;r Siedler, Pionier[NEWLINE]  [ICON_BULLET]Doppelte Produktionsgeschwindigkeit f&#252;r R&#228;ucherei, Kornspeicher, Hafen, Salzhaus</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Expansive[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+6[ICON_HEALTHY]/City[NEWLINE]  [ICON_BULLET]Double Production Speed of Settler, Pioneer[NEWLINE]  [ICON_BULLET]Double Production Speed of Smokehouse, Granary, Harbor, Salthouse</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Expansive[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+6[ICON_HEALTHY]/City[NEWLINE]  [ICON_BULLET]Double Production Speed of Settler, Pioneer[NEWLINE]  [ICON_BULLET]Double Production Speed of Smokehouse, Granary, Harbor, Salthouse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FALLOW</Tag>
+		<English>Fallow</English>
+		<French>En Friche</French>
+		<German>Verseuchter Boden</German>
+		<Italian>Fallow</Italian>
+		<Spanish>Fallow</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FALLOW_SHORT</Tag>
+		<English>Fal</English>
+		<French>Fri</French>
+		<German>VsB</German>
+		<Italian>Fal</Italian>
+		<Spanish>Fal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FEATURE_SLOWSPREAD</Tag>
+		<English>[NEWLINE][ICON_BULLET]Decreases %s1_FeatName spread chance within your borders</English>
+		<French>[NEWLINE][ICON_BULLET]Diminue les chances de propagation des %s1_FeatName</French>
+		<German>[NEWLINE][ICON_BULLET]Verringert Verbreitungschance von %s1_FeatName</German>
+		<Italian>[NEWLINE][ICON_BULLET]Decreases %s1_FeatName spread chance within your borders</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Decreases %s1_FeatName spread chance within your borders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FEATURE_SPREAD</Tag>
+		<English>[NEWLINE][ICON_BULLET]Increases %s1_FeatName spread chance within your borders</English>
+		<French>[NEWLINE][ICON_BULLET]Augmente les chances de propagation des %s1_FeatName</French>
+		<German>[NEWLINE][ICON_BULLET]Erhöht Verbreitungschance von %s1_FeatName </German>
+		<Italian>[NEWLINE][ICON_BULLET]Increases %s1_FeatName spread chance within your borders</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Increases %s1_FeatName spread chance within your borders</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TRAIT_FEATURE_EXPIRE</Tag>
+		<English>[NEWLINE][ICON_BULLET]Increases %s1_FeatName disappearance chance</English>
+		<French>[NEWLINE][ICON_BULLET]Augmente les chances de disparition des %s1_FeatName</French>
+		<German>[NEWLINE][ICON_BULLET]Increases %s1_FeatName disappearance chance </German>
+		<Italian>[NEWLINE][ICON_BULLET]Increases %s1_FeatName disappearance chance</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Increases %s1_FeatName disappearance chance</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TRAIT_FEATURE_EXPIRE_DECREASE</Tag>
+		<English>[NEWLINE][ICON_BULLET]Decreases %s1_FeatName disappearance chance</English>
+		<French>[NEWLINE][ICON_BULLET]Diminue les chances de disparition des %s1_FeatName</French>
+		<German>[NEWLINE][ICON_BULLET]Erhöht Verbreitungschance von %s1_FeatName </German>
+		<Italian>[NEWLINE][ICON_BULLET]Decreases %s1_FeatName disappearance chance</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Decreases %s1_FeatName disappearance chance</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FERAL</Tag>
+		<English>Feral</English>
+		<French>Féral</French>
+		<German>Verwildert</German>
+		<Italian>Feral</Italian>
+		<Spanish>Feral</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FERAL_SHORT</Tag>
+		<English>Feral</English>
+		<French>Féral</French>
+		<German>Wild</German>
+		<Italian>Feral</Italian>
+		<Spanish>Feral</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FERAL_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Animal Kindred</English>
+		<French>[NEWLINE][ICON_BULLET]Ami des animaux</French>
+		<German>[NEWLINE][ICON_BULLET]Tierhaftigkeit</German>
+		<Italian>[NEWLINE][ICON_BULLET]Animal Kindred</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Animal Kindred</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_FINANCIAL_TRAIT</Tag>
+		<English>Gain the Financial Trait.</English>
+		<French>Obtenir le trait Financier.</French>
+		<German>Erhalte das Merkmal "Finanzorientiert".</German>
+		<Italian>Gain the Financial Trait.</Italian>
+		<Spanish>Gain the Financial Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_FINANCIAL_TRAIT_1</Tag>
+		<English>Gain the Financial Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Financier, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Financial Trait, Lose the Important Status.</German>
+		<Italian>Gain the Financial Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Financial Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_FINANCIAL_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has focused on wealth and gained the Financial Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective s'est concentré sur les richesses et a obtenu le trait Financier.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has focused on wealth and gained the Financial Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has focused on wealth and gained the Financial Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has focused on wealth and gained the Financial Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_FINANCIAL_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Financial[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+1[ICON_COMMERCE] on Plots with 2[ICON_COMMERCE]  [NEWLINE][ICON_BULLET]Double Production Speed of Money Changer, Market, Exchange</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Financier[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+1[ICON_COMMERCE] sur les cases disposant déjà  d'au moins 2[ICON_COMMERCE]  [NEWLINE][ICON_BULLET]Double la vitesse de production du Changeur, Marché, Comptoir Commercial</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Finanzorientiert[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+1[ICON_COMMERCE] auf Feldern mit 2[ICON_COMMERCE]  [NEWLINE][ICON_BULLET]Doppelte Produktionsgeschwindigkeit f&#252;r Geldwechsler, Markt, B&#246;rse</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Financial[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+1[ICON_COMMERCE] on Plots with 2[ICON_COMMERCE]  [NEWLINE][ICON_BULLET]Double Production Speed of Money Changer, Market, Exchange</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Financial[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+1[ICON_COMMERCE] on Plots with 2[ICON_COMMERCE]  [NEWLINE][ICON_BULLET]Double Production Speed of Money Changer, Market, Exchange</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FIRE_VULNERABILITY</Tag>
+		<English>Fire Vulnerability</English>
+		<French>Vulnérabilité au feu</French>
+		<German>Feuerempfindlichkeit</German>
+		<Italian>Fire Vulnerability</Italian>
+		<Spanish>Fire Vulnerability</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FIRE_VULNERABILITY_SHORT</Tag>
+		<English>Fire V</English>
+		<French>V Feu</French>
+		<German>Feuer V</German>
+		<Italian>Fire V</Italian>
+		<Spanish>Fire V</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FIXED_BORDERS_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Borders are not influenced by combat.</English>
+		<French>[NEWLINE][ICON_BULLET]Les frontières ne sont pas influencées par les combats.</French>
+		<German>[NEWLINE][ICON_BULLET]Die Grenzen werden nicht durch Kampf beeinflusst.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Borders are not influenced by combat.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Borders are not influenced by combat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FREE_XP_FROM_COMBAT_HELP</Tag>
+		<English>[PARAGRAPH:1][ICON_BULLET]%s1 XP from combat</English>
+		<French>[PARAGRAPH:1][ICON_BULLET]%s1 XP dû au combat</French>
+		<German>[PARAGRAPH:1][ICON_BULLET]%s1 Erfahrungspunkte aus dem Kampf</German>
+		<Italian>[PARAGRAPH:1][ICON_BULLET]%s1 XP from combat</Italian>
+		<Spanish>[PARAGRAPH:1][ICON_BULLET]%s1 XP from combat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GUARDSMAN</Tag>
+		<English>Guardsman</English>
+		<French>Gardien</French>
+		<German>Wächter</German>
+		<Italian>Guardsman</Italian>
+		<Spanish>Guardsman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GUARDSMAN_SHORT</Tag>
+		<English>Gua</English>
+		<French>Gardien</French>
+		<German>Wäc</German>
+		<Italian>Gua</Italian>
+		<Spanish>Gua</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HORDE</Tag>
+		<English>Horde</English>
+		<French>Horde</French>
+		<German>Horde</German>
+		<Italian>Horde</Italian>
+		<Spanish>Horde</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HORDE_SHORT</Tag>
+		<English>Horde</English>
+		<French>Horde</French>
+		<German>Horde</German>
+		<Italian>Horde</Italian>
+		<Spanish>Horde</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HORSELORD</Tag>
+		<English>Horselord</English>
+		<French>Seigneur Équestre</French>
+		<German>Pferdefürst[NEWLINE]</German>
+		<Italian>Horselord</Italian>
+		<Spanish>Horselord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HORSELORD_SHORT</Tag>
+		<English>Hor</English>
+		<French>Cheval</French>
+		<German>Pfe</German>
+		<Italian>Hor</Italian>
+		<Spanish>Hor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HORSELORD_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HORSELORD]Horselord[\LINK] to all Mounted units</English>
+		<French>[NEWLINE][ICON_BULLET]Confère la promotion [LINK=PROMOTION_HORSELORD]Seigneur Équestre[\LINK] à toutes les unités Montées</French>
+		<German>[NEWLINE][ICON_BULLET]Verleiht allen berittenen Einheiten die Beförderung [LINK=PROMOTION_HORSELORD]Pferdefürst[\LINK]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HORSELORD]Horselord[\LINK] to all Mounted units</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_HORSELORD]Horselord[\LINK] to all Mounted units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HUMANIST1</Tag>
+		<English>Humanist</English>
+		<French>Humaniste</French>
+		<German>Humanist</German>
+		<Italian>Humanist</Italian>
+		<Spanish>Humanist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HUMANIST1_SHORT</Tag>
+		<English>Hum</English>
+		<French>Hum</French>
+		<German>Hum</German>
+		<Italian>Hum</Italian>
+		<Spanish>Hum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HUMANIST1_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Allows training of [LINK=UNIT_CUSTODIAN]Custodians[\LINK], [LINK=UNIT_SHARPSHOOTER]Sharpshooters[\LINK] and [LINK=UNIT_SKIRMISHER]Skirmishers[\LINK][NEWLINE][ICON_BULLET]Allows [LINK=UNIT_ASPIRANT]Aspirants[\LINK] to be born in your empire</English>
+		<French>[NEWLINE][ICON_BULLET]Permet la création de Dépositaires, de Tireurs d'Élite et des Tirailleurs[NEWLINE][ICON_BULLET]Permet aux Aspirants de naître dans votre empire</French>
+		<German>[NEWLINE][ICON_BULLET]Allows training of Custodians, Sharpshooters and Skirmishers[NEWLINE][ICON_BULLET]Allows Aspirants to be born in your empire</German>
+		<Italian>[NEWLINE][ICON_BULLET]Allows training of Custodians, Sharpshooters and Skirmishers[NEWLINE][ICON_BULLET]Allows Aspirants to be born in your empire</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Allows training of Custodians, Sharpshooters and Skirmishers[NEWLINE][ICON_BULLET]Allows Aspirants to be born in your empire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HUMANIST1_PEDIA</Tag>
+		<English>Iram Damarr's firm belief in the potential of humanity, and his willingness to share the power and secrets of the Mekara with the people to fulfil that potential, lets him draw on the significant productive assets of the population to a greater extent. Having their willing and eager support also leads to many of them volonteering for military duties, to protect their fledgeling nation.</English>
+		<French>La ferme foi d'Iram Damarr dans le potentiel de l'humanité, et la volonté de partager le pouvoir et les secrets des Mekaras avec tous pour réaliser ce potentiel lui permet d'attirer à lui une plus large part des acteurs importants de la population. Avoir leur soutien sans faille permet également à beaucoup d'entre eux de se porter volontaires pour le service militaire, afin de protéger leur nation naissante.</French>
+		<German>Iram Damarr's firm belief in the potential of humanity, and his willingness to share the power and secrets of the Mekara with the people to fulfil that potential, lets him draw on the significant productive assets of the population to a greater extent. Having their willing and eager support also leads to many of them volonteering for military duties, to protect their fledgeling nation.</German>
+		<Italian>Iram Damarr's firm belief in the potential of humanity, and his willingness to share the power and secrets of the Mekara with the people to fulfil that potential, lets him draw on the significant productive assets of the population to a greater extent. Having their willing and eager support also leads to many of them volonteering for military duties, to protect their fledgeling nation.</Italian>
+		<Spanish>Iram Damarr's firm belief in the potential of humanity, and his willingness to share the power and secrets of the Mekara with the people to fulfil that potential, lets him draw on the significant productive assets of the population to a greater extent. Having their willing and eager support also leads to many of them volonteering for military duties, to protect their fledgeling nation.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HURRY_PRODUCTION</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% [ICON_PRODUCTION] from population hurry.</English>
+		<French>[NEWLINE][ICON_BULLET]Gain de %D1%% [ICON_PRODUCTION] par la population.</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% [ICON_PRODUCTION] durch Bevölkerungsbeschleunigung</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% [ICON_PRODUCTION] from population hurry.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% [ICON_PRODUCTION] from population hurry.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HYDROMANCER</Tag>
+		<English>Hydromancer</English>
+		<French>Hydromancienne</French>
+		<German>Hydromant</German>
+		<Italian>Hydromancer</Italian>
+		<Spanish>Hydromancer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HYDROMANCER_SHORT</Tag>
+		<English>Hydro</English>
+		<French>Hydro</French>
+		<German>Hydro</German>
+		<Italian>Hydro</Italian>
+		<Spanish>Hydro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HYDROMANCER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Free water mana in capital</English>
+		<French>[NEWLINE][ICON_BULLET]Mana d'eau gratuit à la capitale</French>
+		<German>[NEWLINE][ICON_BULLET]Free water mana in capital</German>
+		<Italian>[NEWLINE][ICON_BULLET]Free water mana in capital</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Free water mana in capital</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ICE_TOUCHED</Tag>
+		<English>Ice Touched</English>
+		<French>Touché par la Glace</French>
+		<German>Vom Eis berührt</German>
+		<Italian>Ice Touched</Italian>
+		<Spanish>Ice Touched</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ICE_TOUCHED_SHORT</Tag>
+		<English>Ice</English>
+		<French>Glacé</French>
+		<German>Eis</German>
+		<Italian>Ice</Italian>
+		<Spanish>Ice</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ICE_TOUCHED_PEDIA</Tag>
+		<English>Touched by the precept of Ice, this leader suffers no anarchy when changing civics.</English>
+		<French>Convaincu par les préceptes de la Glace, ce dirigeant peut changer de doctrines sans déclencher d'anarchie.</French>
+		<German>Touched by the precept of Ice, this leader suffers no anarchy when changing civics.</German>
+		<Italian>Touched by the precept of Ice, this leader suffers no anarchy when changing civics.</Italian>
+		<Spanish>Touched by the precept of Ice, this leader suffers no anarchy when changing civics.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IGNORE_FOOD_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Cities won't change population due to food</English>
+		<French>[NEWLINE][ICON_BULLET]Les villes ne varieront pas en population via la nourriture.</French>
+		<German>[NEWLINE][ICON_BULLET]Die Stadtbevölkerung wird sich nicht in Abhängigkeit der Nahrung ändern.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Cities won't change population due to food</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Cities won't change population due to food</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ILLUSIONIST</Tag>
+		<English>Illusionist</English>
+		<French>Illusioniste</French>
+		<German>Illusionist</German>
+		<Italian>Illusionist</Italian>
+		<Spanish>Illusionist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ILLUSIONIST_SHORT</Tag>
+		<English>Ill</English>
+		<French>Ill</French>
+		<German>Kränklich</German>
+		<Italian>Ill</Italian>
+		<Spanish>Ill</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IMPERIALIST</Tag>
+		<English>Imperialist</English>
+		<French>Impérialiste</French>
+		<German>Imperialist</German>
+		<Italian>Imperialist</Italian>
+		<Spanish>Imperialist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IMPERIALIST_SHORT</Tag>
+		<English>Imp</English>
+		<French>Imp</French>
+		<German>Imp</German>
+		<Italian>Imp</Italian>
+		<Spanish>Imp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_IMPERIALIST_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Founded cities starts with a cultural level of 2</English>
+		<French>[NEWLINE][ICON_BULLET]Les villes nouvellement fondées commencent avec un niveau culturel de 2</French>
+		<German>[NEWLINE][ICON_BULLET]Neue Städte beginnen mit einem Kulturlevel von 2</German>
+		<Italian>[NEWLINE][ICON_BULLET]Founded cities starts with a cultural level of 2</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Founded cities starts with a cultural level of 2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INFLUENCE_ALLOWED_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Allows combat to influence Culture.</English>
+		<French>[NEWLINE][ICON_BULLET]Permet au combat d'influer sur la Culture.</French>
+		<German>[NEWLINE][ICON_BULLET]Erlaubt die Beeinflussung der Kultur durch Kampf.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Allows combat to influence Culture.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Allows combat to influence Culture.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_INDUSTRIOUS_TRAIT</Tag>
+		<English>Gain the Industrious Trait.</English>
+		<French>Obtenir le trait Travailleur.</French>
+		<German>Gain the Industrious Trait.</German>
+		<Italian>Gain the Industrious Trait.</Italian>
+		<Spanish>Gain the Industrious Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_INDUSTRIOUS_TRAIT_1</Tag>
+		<English>Gain the Industrious Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Travailleur, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Industrious Trait, Lose the Important Status.</German>
+		<Italian>Gain the Industrious Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Industrious Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_INDUSTRIOUS_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has become skilled in architecture and gained the Industrious Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective est devenu un architecte accompli et a obtenu le trait Travailleur.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has become skilled in architecture and gained the Industrious Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has become skilled in architecture and gained the Industrious Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has become skilled in architecture and gained the Industrious Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_INDUSTRIOUS_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Industrious[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+50% Wonder Production[NEWLINE]  [ICON_BULLET]Free Promotion (Skilled I)[NEWLINE]    [ICON_BULLET]Worker Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Dwarven Smithy, Artisan's Workshop</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Travailleur[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+50% à  la Production de Merveilles[NEWLINE]  [ICON_BULLET]Promotion Gratuite (Compétent I)[NEWLINE]    [ICON_BULLET]Ouvriers[NEWLINE]  [ICON_BULLET]Double la vitesse de production de la Forge Naine et de l'Atelier d'Artisans</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Produktiv[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+50% Produktion von Wundern[NEWLINE]  [ICON_BULLET]Freie Bef&#246;rderung (Flei&#223; I)[NEWLINE]    [ICON_BULLET]Bautrupps[NEWLINE]  [ICON_BULLET]Doppelte Produktionsgeschwindigkeit f&#252;r Zwergenschmiede, Kunstschmiede</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Industrious[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+50% Wonder Production[NEWLINE]  [ICON_BULLET]Free Promotion (Skilled I)[NEWLINE]    [ICON_BULLET]Worker Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Dwarven Smithy, Artisan's Workshop</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Industrious[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+50% Wonder Production[NEWLINE]  [ICON_BULLET]Free Promotion (Skilled I)[NEWLINE]    [ICON_BULLET]Worker Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Dwarven Smithy, Artisan's Workshop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INGENUITY</Tag>
+		<English>Ingenuity</English>
+		<French>Ingéniosité</French>
+		<German>Erfinderisch</German>
+		<Italian>Ingenuity</Italian>
+		<Spanish>Ingenuity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INGENUITY_SHORT</Tag>
+		<English>Ing</English>
+		<French>Ing</French>
+		<German>Erf</German>
+		<Italian>Ing</Italian>
+		<Spanish>Ing</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INGENUITY_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET] Free [LINK=PROMOTION_CORNED_POWDER]Corned Powder[\LINK] for Gunpowder based units.</English>
+		<French>[NEWLINE][ICON_BULLET] Confère la promotion [LINK=PROMOTION_CORNED_POWDER]Poudre Grenue[\LINK] à toutes les unités utilisant la poudre à canon.</French>
+		<German>[NEWLINE][ICON_BULLET] Freie Beförderung "Gekörntes Pulver" für alle Schießpulver Einheiten</German>
+		<Italian>[NEWLINE][ICON_BULLET] Free Corned Powder for Gunpowder based units.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET] Free Corned Powder for Gunpowder based units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INGENUITY_PEDIA</Tag>
+		<English></English>
+		<French>La poudre grenue a plus de force que celle qui est en poussiere ; parce que l'air se trouve comprimé dans chacun de ses grains, et les gros grains font plus d'effet que les petits ; c'est pourquoi les grains de poudre à canon sont toujours plus gros que ceux des autres poudres, et en chargeant une piece d'artillerie, il ne faut point briser les grains.</French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_INGENUITY_TRAIT</Tag>
+		<English>Gain the Ingenuity Trait.</English>
+		<French>Obtenir le trait Ingéniosité.</French>
+		<German>Gain the Ingenuity Trait.</German>
+		<Italian>Gain the Ingenuity Trait.</Italian>
+		<Spanish>Gain the Ingenuity Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_INGENUITY_TRAIT_1</Tag>
+		<English>Gain the Ingenuity Trait.</English>
+		<French>Obtenir le trait Ingéniosité.</French>
+		<German>Gain the Ingenuity Trait.</German>
+		<Italian>Gain the Ingenuity Trait.</Italian>
+		<Spanish>Gain the Ingenuity Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_INGENUITY_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has improved unit training.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective a amélioré l'entraînement de ses unités et a obtenu le trait Ingéniosité.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has improved unit training.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has improved unit training.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has improved unit training.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INITIAL_CITY_CAP_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Population limit of cities: %d1 (Can be increased)</English>
+		<French>[NEWLINE][ICON_BULLET]Limite initiale de population des villes : %d1 (Peut être augmenté)</French>
+		<German>[NEWLINE][ICON_BULLET]Bevölkerungslimit der Städte: %d1 (Kann erhöht werden)</German>
+		<Italian>[NEWLINE][ICON_BULLET]Population limit of cities: %d1 (Can be increased)</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Population limit of cities: %d1 (Can be increased)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INSANE</Tag>
+		<English>Insane</English>
+		<French>Fou</French>
+		<German>Verrückt</German>
+		<Italian>Insane</Italian>
+		<Spanish>Insane</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INSANE_SHORT</Tag>
+		<English>Insane</English>
+		<French>Fou</French>
+		<German>Irr</German>
+		<Italian>Insane</Italian>
+		<Spanish>Insane</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INSANE_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Three traits are generated randomly and switch randomly during the game</English>
+		<French>[NEWLINE][ICON_BULLET]Trois traits de caractère sont choisis aléatoirement et changent aléatoirement durant la partie.</French>
+		<German>[NEWLINE][ICON_BULLET]Drei Eigenschaften werden wahllos und stetig wechselnd neu generiert</German>
+		<Italian>[NEWLINE][ICON_BULLET]Three traits are generated randomly and switch randomly during the game</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Three traits are generated randomly and switch randomly during the game</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INSTRUCTOR</Tag>
+		<English>Instructor</English>
+		<French>Instructeur</French>
+		<German>Ausbilder</German>
+		<Italian>Instructor</Italian>
+		<Spanish>Instructor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INSTRUCTOR_SHORT</Tag>
+		<English>Ins</English>
+		<French>Ins</French>
+		<German>Ausb</German>
+		<Italian>Ins</Italian>
+		<Spanish>Ins</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INSTRUCTOR_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants one free promotion to all built units.[NEWLINE][ICON_BULLET] Can Build Command Posts.</English>
+		<French>[NEWLINE][ICON_BULLET]Confère une promotion gratuite à toutes les unités produites.</French>
+		<German>[NEWLINE][ICON_BULLET]&#220;berträgt eine freie Beförderung auf alle gebauten Einheiten</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants one free promotion to all built units.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants one free promotion to all built units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INTOLERANT</Tag>
+		<English>Intolerant</English>
+		<French>Intolérant</French>
+		<German>Intolerant</German>
+		<Italian>Intolerant</Italian>
+		<Spanish>Intolerant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INTOLERANT_SHORT</Tag>
+		<English>Int</English>
+		<French>Int</French>
+		<German>Int</German>
+		<Italian>Int</Italian>
+		<Spanish>Int</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INTOLERANT_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Cannot adopt religion</English>
+		<French>[NEWLINE][ICON_BULLET]Ne peut pas se convertir à une religion</French>
+		<German>[NEWLINE][ICON_BULLET]Kann keine Religion annehmen</German>
+		<Italian>[NEWLINE][ICON_BULLET]Cannot adopt religion</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Cannot adopt religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INTOLERANT_PEDIA</Tag>
+		<English>[NEWLINE][ICON_BULLET]The leader despise the gods, hating everyone who happens to follow them</English>
+		<French>[NEWLINE][ICON_BULLET]Le dirigeant méprise les dieux, et hait quiconque a la foi</French>
+		<German>[NEWLINE][ICON_BULLET]Der Anführer hasst alle Götter, und alle, die ihnen folgen.</German>
+		<Italian>[NEWLINE][ICON_BULLET]The leader despise the gods, hating everyone who happens to follow them</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]The leader despise the gods, hating everyone who happens to follow them</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JAMAL_INFO</Tag>
+		<English>Master of the Mekara</English>
+		<French>Maître des Mekaras</French>
+		<German>Meister der Mekara</German>
+		<Italian>Master of the Mekara</Italian>
+		<Spanish>Master of the Mekara</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JAMAL_INFO_SHORT</Tag>
+		<English>Mek</English>
+		<French>Mek</French>
+		<German>Mek</German>
+		<Italian>Mek</Italian>
+		<Spanish>Mek</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JAMAL_INFO_PEDIA</Tag>
+		<English>As the Mekara Order's Master, Jamal has considerable influence over the it's members, commanding the loyalty of many of them, and the obedience of all of them. This allows him access to considerable resources, that others would find hard to achieve.</English>
+		<French>En tant que Maître de l'Ordre Mékara, Jamal a une influence considérable sur ses membres, commandant la loyauté de beaucoup d'entre eux, et l'obséquiosité de tous. Ça lui donne accès à des ressources considérables, dont l'obtention par d'autres serait difficile.</French>
+		<German>As the Mekara Order's Master, Jamal has considerable influence over the it's members, commanding the loyalty of many of them, and the obedience of all of them. This allows him access to considerable resources, that others would find hard to achieve.</German>
+		<Italian>As the Mekara Order's Master, Jamal has considerable influence over the it's members, commanding the loyalty of many of them, and the obedience of all of them. This allows him access to considerable resources, that others would find hard to achieve.</Italian>
+		<Spanish>As the Mekara Order's Master, Jamal has considerable influence over the it's members, commanding the loyalty of many of them, and the obedience of all of them. This allows him access to considerable resources, that others would find hard to achieve.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JAMAL_INFO_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Allows training of Karas[NEWLINE][ICON_BULLET]Allows casting of Create Behemoth spell</English>
+		<French>[NEWLINE][ICON_BULLET]Permet l'entraînement de Karas[NEWLINE][ICON_BULLET]Permet de lancer le sort [LINK=SPELL_BEHEMOTH_CREATION]Créer Béhémoth[\LINK]</French>
+		<German>[NEWLINE][ICON_BULLET]Allows training of Karas[NEWLINE][ICON_BULLET]Allows casting of Create Behemoth spell</German>
+		<Italian>[NEWLINE][ICON_BULLET]Allows training of Karas[NEWLINE][ICON_BULLET]Allows casting of Create Behemoth spell</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Allows training of Karas[NEWLINE][ICON_BULLET]Allows casting of Create Behemoth spell</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JUNGLEDWELLING</Tag>
+		<English>Jungledwelling</English>
+		<French>Habitant de la Jungle</French>
+		<German>Dschungelbewohner</German>
+		<Italian>Jungledwelling</Italian>
+		<Spanish>Jungledwelling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_JUNGLEDWELLING_SHORT</Tag>
+		<English>Jung</English>
+		<French>Jung</French>
+		<German>Dsch</German>
+		<Italian>Jung</Italian>
+		<Spanish>Jung</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LEGION</Tag>
+		<English>Legion</English>
+		<French>Légion</French>
+		<German>Legion</German>
+		<Italian>Legion</Italian>
+		<Spanish>Legion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LEGION_SHORT</Tag>
+		<English>Leg</English>
+		<French>Lég</French>
+		<German>Leg</German>
+		<Italian>Leg</Italian>
+		<Spanish>Leg</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LYCANTHROPIC</Tag>
+		<English>Lycanthropic</English>
+		<French>Lycanthrope</French>
+		<German>Lykanthroph</German>
+		<Italian>Lycanthropic</Italian>
+		<Spanish>Lycanthropic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LYCANTHROPIC_SHORT</Tag>
+		<English>Lyc</English>
+		<French>Lyc</French>
+		<German>Lyk</German>
+		<Italian>Lyc</Italian>
+		<Spanish>Lyc</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MAGIC_RESISTANT</Tag>
+		<English>Magic Resistant</English>
+		<French>Résistant à la Magie</French>
+		<German>Magisch Resistent</German>
+		<Italian>Magic Resistant</Italian>
+		<Spanish>Magic Resistant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MAGIC_RESISTANT_SHORT</Tag>
+		<English>Mag</English>
+		<French>Mag</French>
+		<German>MaR</German>
+		<Italian>Mag</Italian>
+		<Spanish>Mag</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_MAGIC_RESISTANT_TRAIT</Tag>
+		<English>Gain the Magic Resistant Trait.</English>
+		<French>Obtenir le trait Résistant à la Magie.</French>
+		<German>Gain the Magic Resistant Trait.</German>
+		<Italian>Gain the Magic Resistant Trait.</Italian>
+		<Spanish>Gain the Magic Resistant Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_MAGIC_RESISTANT_TRAIT_1</Tag>
+		<English>Gain the Magic Resistant Trait.</English>
+		<French>Obtenir le trait Résistant à la Magie.</French>
+		<German>Gain the Magic Resistant Trait.</German>
+		<Italian>Gain the Magic Resistant Trait.</Italian>
+		<Spanish>Gain the Magic Resistant Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_MAGIC_RESISTANT_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has acquired magical defenses.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective a fait l'acquisition de défenses magiques et a obtenu le trait Résistant à la Magie.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has acquired magical defenses.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has acquired magical defenses.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has acquired magical defenses.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MAX_CITIES_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1 Maximum Cities</English>
+		<French>[NEWLINE][ICON_BULLET]%D1 Villes Maximum</French>
+		<German>[NEWLINE][ICON_BULLET]%D1 Maximale Städte</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1 Maximum Cities</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1 Maximum Cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MAX_CITY_CAP_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Population limit of cities: %d1 (Cannot be increased)</English>
+		<French>[NEWLINE][ICON_BULLET]Limite maximale de population des villes : %d1 (Ne peut pas être augmenté)</French>
+		<German>[NEWLINE][ICON_BULLET]Bevölkerungslimit der Städte: %d1 (Kann nicht erhöht werden)</German>
+		<Italian>[NEWLINE][ICON_BULLET]Population limit of cities: %d1 (Cannot be increased)</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Population limit of cities: %d1 (Cannot be increased)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MECHANIC</Tag>
+		<English>Mechanic</English>
+		<French>Mécanique</French>
+		<German>Mechanisch</German>
+		<Italian>Mechanic</Italian>
+		<Spanish>Mechanic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MECHANIC_SHORT</Tag>
+		<English>Mech</English>
+		<French>Méca</French>
+		<German>Mech</German>
+		<Italian>Mech</Italian>
+		<Spanish>Mech</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MERCHANT</Tag>
+		<English>Merchant</English>
+		<French>Marchand</French>
+		<German>Kaufmann</German>
+		<Italian>Commerciante</Italian>
+		<Spanish>Comerciante</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MERCHANT_SHORT</Tag>
+		<English>Mer</English>
+		<French>Mar</French>
+		<German>Kau</German>
+		<Italian>Com</Italian>
+		<Spanish>Com</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MERCHANT_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Merchant</English>
+		<French>[NEWLINE][ICON_BULLET]Marchand</French>
+		<German>[NEWLINE][ICON_BULLET]Kaufmann</German>
+		<Italian>[NEWLINE][ICON_BULLET]Commerciante</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Comerciante</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_VEINHUNTER</Tag>
+		<English>Veinhunter</English>
+		<French>Chasseur de filon</French>
+		<German>Aderjäger</German>
+		<Italian>Veinhunter</Italian>
+		<Spanish>Veinhunter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_VEINHUNTER_SHORT</Tag>
+		<English>Veinhunter</English>
+		<French>Chassefilon</French>
+		<German>Veinhunter</German>
+		<Italian>Veinhunter</Italian>
+		<Spanish>Veinhunter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NECROMANCER</Tag>
+		<English>Necromancer</English>
+		<French>Nécromancien</French>
+		<German>Nekromant</German>
+		<Italian>Necromancer</Italian>
+		<Spanish>Necromancer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NECROMANCER_SHORT</Tag>
+		<English>Necro</English>
+		<French>Nécro</French>
+		<German>Nekro</German>
+		<Italian>Necro</Italian>
+		<Spanish>Necro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NOMADIC_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Nomadic</English>
+		<French>[NEWLINE][ICON_BULLET]Nomade</French>
+		<German>[NEWLINE][ICON_BULLET]Nomadisch</German>
+		<Italian>[NEWLINE][ICON_BULLET]Nomadic</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Nomadic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_OPPORTUNISTIC</Tag>
+		<English>Opportunistic</English>
+		<French>Opportuniste</French>
+		<German>Opportunistisch</German>
+		<Italian>Opportunistic</Italian>
+		<Spanish>Opportunistic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_OPPORTUNISTIC_SHORT</Tag>
+		<English>Opp</English>
+		<French>Opp</French>
+		<German>Opp</German>
+		<Italian>Opp</Italian>
+		<Spanish>Opp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_ORGANIZED_TRAIT</Tag>
+		<English>Gain the Organized Trait.</English>
+		<French>Obtenir le trait Organisé.</French>
+		<German>Gain the Organized Trait.</German>
+		<Italian>Gain the Organized Trait.</Italian>
+		<Spanish>Gain the Organized Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_ORGANIZED_TRAIT_1</Tag>
+		<English>Gain the Organized Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Organisé, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Organized Trait, Lose the Important Status.</German>
+		<Italian>Gain the Organized Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Organized Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_ORGANIZED_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has become proficient in accounting and gained the Organized Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective est devenu un comptable efficace et a obtenu le trait Organisé.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has become proficient in accounting and gained the Organized Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has become proficient in accounting and gained the Organized Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has become proficient in accounting and gained the Organized Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ORGANIZED_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Organized[COLOR_REVERT][NEWLINE]  [ICON_BULLET]-50% Civic Upkeep[NEWLINE]  [ICON_BULLET]Double Production Speed of Courthouse, Lighthouse</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Organisé[COLOR_REVERT][NEWLINE]  [ICON_BULLET]-50% d'entretien des Doctrines[NEWLINE]  [ICON_BULLET]Double la vitesse de Production du Tribunal et du Phare</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Organisiert[COLOR_REVERT][NEWLINE]  [ICON_BULLET]-50% Stadtunterhaltskosten[NEWLINE]  [ICON_BULLET]Doppelte Produktionsgeschwindigkeit f&#252;r Gerichtsgeb&#228;ude, Leuchtturm</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Organized[COLOR_REVERT][NEWLINE]  [ICON_BULLET]-50% Civic Upkeep[NEWLINE]  [ICON_BULLET]Double Production Speed of Courthouse, Lighthouse</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Organized[COLOR_REVERT][NEWLINE]  [ICON_BULLET]-50% Civic Upkeep[NEWLINE]  [ICON_BULLET]Double Production Speed of Courthouse, Lighthouse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_OVERFLOW_PRODUCTION_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Multiple items can be constructed each turn, if production is sufficient.</English>
+		<French>[NEWLINE][ICON_BULLET]Plusieurs objets peuvent être faits chaque tour si la production le permet.</French>
+		<German>[NEWLINE][ICON_BULLET]Wenn die Produktion ausreicht, können mehrere Dinge je Runde produziert werden.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Multiple items can be constructed each turn, if production is sufficient.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Multiple items can be constructed each turn, if production is sufficient.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PEACECOMMERCE_MODIFIERS</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce when at peace</English>
+		<French>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce en période de paix</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce wenn im Frieden</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce when at peace</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce when at peace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PEDIA</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1</English>
+		<French>[NEWLINE][ICON_BULLET]%D1</French>
+		<German>[NEWLINE][ICON_BULLET]%D1</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PERSONALITY_CULT</Tag>
+		<English>Personality Cult</English>
+		<French>Culte de la personnalité</French>
+		<German>Personality Cult</German>
+		<Italian>Personality Cult</Italian>
+		<Spanish>Personality Cult</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PERSONALITY_CULT_SHORT</Tag> <!-- TODO Ronkhar -->
+		<English>Emp</English>
+		<French>Per</French>
+		<German>Imp</German>
+		<Italian>Emp</Italian>
+		<Spanish>Emp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_PHILOSOPHICAL_TRAIT</Tag>
+		<English>Gain the Philosophical Trait.</English>
+		<French>Obtenir le trait Philosophe.</French>
+		<German>Gain the Philosophical Trait.</German>
+		<Italian>Gain the Philosophical Trait.</Italian>
+		<Spanish>Gain the Philosophical Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_PHILOSOPHICAL_TRAIT_1</Tag>
+		<English>Gain the Philosophical Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Philosophe, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Philosophical Trait, Lose the Important Status.</German>
+		<Italian>Gain the Philosophical Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Philosophical Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_PHILOSOPHICAL_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has achieved higher learning and gained the Philosophical Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective a terminé son apprentissage poussé et a obtenu le trait Philosophe.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has achieved higher learning and gained the Philosophical Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has achieved higher learning and gained the Philosophical Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has achieved higher learning and gained the Philosophical Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PHILOSOPHICAL_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Philosophical[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+100%[ICON_GREATPEOPLE] Birth Rate[NEWLINE]  [ICON_BULLET]Double Production Speed of Elder Council, Library</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Philosophe[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+100%[ICON_GREATPEOPLE] taux de Natalité[NEWLINE]  [ICON_BULLET]Double la vitesse de Production du Conseil des Anciens et de la Bibliothèque</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Philosophisch[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+100%[ICON_GREATPEOPLE] Geburtenrate f&#252;r Gro&#223;e Pers&#246;nlichkeiten[NEWLINE]  [ICON_BULLET]Doppelte Produktionsgeschwindigkeit f&#252;r &#196;ltestenrat, Bibliothek</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Philosophical[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+100%[ICON_GREATPEOPLE] Birth Rate[NEWLINE]  [ICON_BULLET]Double Production Speed of Elder Council, Library</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Philosophical[COLOR_REVERT][NEWLINE]  [ICON_BULLET]+100%[ICON_GREATPEOPLE] Birth Rate[NEWLINE]  [ICON_BULLET]Double Production Speed of Elder Council, Library</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PILLAGE_INFLUENCE_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Modifies culture change after pillaging by %d1%.</English>
+		<French>[NEWLINE][ICON_BULLET]Augmente la culture après un pillage de %d1%.</French>
+		<German>[NEWLINE][ICON_BULLET]Modifiziert die Kulturänderung nach Plünderung um %d1%.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Modifies culture change after pillaging by %d1%.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Modifies culture change after pillaging by %d1%.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PILLAGING_GOLD_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1% gold from pillaging</English>
+		<French>[NEWLINE][ICON_BULLET]%D1% [ICON_GOLD] lors d'un pillage</French>
+		<German>[NEWLINE][ICON_BULLET]%D1% Gold aus Plünderungen</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1% gold from pillaging</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1% gold from pillaging</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROTECTIVE</Tag>
+		<English>Protective</English>
+		<French>Protecteur</French>
+		<German>Beschützend</German>
+		<Italian>Protective</Italian>
+		<Spanish>Protective</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROTECTIVE_SHORT</Tag>
+		<English>Pro</English>
+		<French>Pro</French>
+		<German>Besch</German>
+		<Italian>Pro</Italian>
+		<Spanish>Pro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RAIDERS</Tag>
+		<English>Raiders</English>
+		<French>Pillard</French>
+		<German>Räuberisch</German>
+		<Italian>Raiders</Italian>
+		<Spanish>Raiders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RAIDERS_SHORT</Tag>
+		<English>Rai</English>
+		<French>Pil</French>
+		<German>Räu</German>
+		<Italian>Rai</Italian>
+		<Spanish>Rai</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_RAIDERS_TRAIT</Tag>
+		<English>Gain the Raiders Trait.</English>
+		<French>Obtenir le trait Pillard.</French>
+		<German>Gain the Raiders Trait.</German>
+		<Italian>Gain the Raiders Trait.</Italian>
+		<Spanish>Gain the Raiders Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_RAIDERS_TRAIT_1</Tag>
+		<English>Gain the Raiders Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Pillard, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Raiders Trait, Lose the Important Status.</German>
+		<Italian>Gain the Raiders Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Raiders Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_RAIDERS_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective likes to destroy nice things and gained the Raiders Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective aime détruire les jolies choses et a obtenu le trait Pillard.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective likes to destroy nice things and gained the Raiders Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective likes to destroy nice things and gained the Raiders Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective likes to destroy nice things and gained the Raiders Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_RAIDERS_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Raiders[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Free Promotion (Raider)[NEWLINE]    [ICON_BULLET]Recon Units[NEWLINE]    [ICON_BULLET]Archery Units[NEWLINE]    [ICON_BULLET]Mounted Units[NEWLINE]    [ICON_BULLET]Melee Units[NEWLINE]    [ICON_BULLET]Arcane Units[NEWLINE]    [ICON_BULLET]Disciple Units[NEWLINE]  [ICON_BULLET]+100%[ICON_GOLD] from Pillaging</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Pillard[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Promotion Gratuite (Pillard)[NEWLINE]    [ICON_BULLET]Éclaireurs[NEWLINE]    [ICON_BULLET]Archers[NEWLINE]    [ICON_BULLET]Unités Montées[NEWLINE]    [ICON_BULLET]Unités de Mélée[NEWLINE]    [ICON_BULLET]Unités Magiques[NEWLINE]    [ICON_BULLET]Disciples[NEWLINE]  [ICON_BULLET]+100%[ICON_GOLD] des Pillages</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Pl&#252;nderer[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Freie Bef&#246;rderung (Pl&#252;nderer)[NEWLINE]    [ICON_BULLET]Aufkl&#228;rungseinheiten[NEWLINE]    [ICON_BULLET]Bogeneinheiten [ICON_BULLET]Berittene Einheiten[NEWLINE]    [ICON_BULLET]Nahkampfeinheiten[NEWLINE]    [ICON_BULLET]Magische Einheiten[NEWLINE]    [ICON_BULLET]Geweihte Einheiten[NEWLINE]  [ICON_BULLET]+100%[ICON_GOLD] bei Pl&#252;nderung</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Raiders[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Free Promotion (Raider)[NEWLINE]    [ICON_BULLET]Recon Units[NEWLINE]    [ICON_BULLET]Archery Units[NEWLINE]    [ICON_BULLET]Mounted Units[NEWLINE]    [ICON_BULLET]Melee Units[NEWLINE]    [ICON_BULLET]Arcane Units[NEWLINE]    [ICON_BULLET]Disciple Units[NEWLINE]  [ICON_BULLET]+100%[ICON_GOLD] from Pillaging</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Raiders[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Free Promotion (Raider)[NEWLINE]    [ICON_BULLET]Recon Units[NEWLINE]    [ICON_BULLET]Archery Units[NEWLINE]    [ICON_BULLET]Mounted Units[NEWLINE]    [ICON_BULLET]Melee Units[NEWLINE]    [ICON_BULLET]Arcane Units[NEWLINE]    [ICON_BULLET]Disciple Units[NEWLINE]  [ICON_BULLET]+100%[ICON_GOLD] from Pillaging</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RECKLESS</Tag>
+		<English>Reckless</English>
+		<French>Téméraire</French>
+		<German>Leichtfertig</German>
+		<Italian>Reckless</Italian>
+		<Spanish>Reckless</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RECKLESS_SHORT</Tag>
+		<English>Rec</English>
+		<French>Impr</French>
+		<German>Leichtf</German>
+		<Italian>Rec</Italian>
+		<Spanish>Rec</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REGIMENTED</Tag>
+		<English>Regimented</English>
+		<French>Régent</French>
+		<German>Reguliert</German>
+		<Italian>Regimented</Italian>
+		<Spanish>Regimented</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REGIMENTED_SHORT</Tag>
+		<English>Reg</English>
+		<French>Rég</French>
+		<German>Reg</German>
+		<Italian>Reg</Italian>
+		<Spanish>Reg</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RUTHLESS</Tag>
+		<English>Ruthless</English>
+		<French>Impitoyable</French>
+		<German>Ruchlos</German>
+		<Italian>Ruthless</Italian>
+		<Spanish>Ruthless</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RUTHLESS_SHORT</Tag>
+		<English>Ruth</English>
+		<French>Impit</French>
+		<German>Ruch</German>
+		<Italian>Ruth</Italian>
+		<Spanish>Ruth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_RUTHLESS_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Decreases happiness and culture, while providing the Slaver promotion and improving civic upkeep.</English>
+		<French>[NEWLINE][ICON_BULLET]Diminue le bonheur et la culture, tout en conférant la promotion [LINK=PROMOTION_SLAVER]Esclavagiste[\LINK] et améliorant l'entretien doctrinal.</French>
+		<German>[NEWLINE][ICON_BULLET]Senkt die Zufriedenheit und Kultur, liefert dafür die Sklavenhalter Beförderung und erleichtert den Unterhalt des Staates.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Decreases happiness and culture, while providing the Slaver promotion and improving civic upkeep.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Decreases happiness and culture, while providing the Slaver promotion and improving civic upkeep.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SINISTER</Tag>
+		<English>Sinister</English>
+		<French>Sinistre</French>
+		<German>Unheimlich[NEWLINE]</German>
+		<Italian>Sinister</Italian>
+		<Spanish>Sinister</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SINISTER_SHORT</Tag>
+		<English>Sin</English>
+		<French>Sin</French>
+		<German>Unh</German>
+		<Italian>Sin</Italian>
+		<Spanish>Sin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SINISTER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SINISTER]Sinister[\LINK] to all Recon and Rogue units</English>
+		<French>[NEWLINE][ICON_BULLET]Confère la promotion [LINK=PROMOTION_SINISTER]Sinistre[\LINK] à toutes les unités de Reconnaissance</French>
+		<German>[NEWLINE][ICON_BULLET]Verleiht allen Aufklärungseinheiten die Beförderung [LINK=PROMOTION_SINISTER]Unheimlich[\LINK]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SINISTER]Sinister[\LINK] to all Recon and Rogue units</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SINISTER]Sinister[\LINK] to all Recon and Rogue units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SLAVER</Tag>
+		<English>Slaver</English>
+		<French>Esclavagiste</French>
+		<German>Sklavenhalter</German>
+		<Italian>Slaver</Italian>
+		<Spanish>Slaver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SLAVER_SHORT</Tag>
+		<English>Sla</English>
+		<French>Escl</French>
+		<German>Skla</German>
+		<Italian>Sla</Italian>
+		<Spanish>Sla</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SLAVER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Conquered cities lose half of their population, and spawn one slave unit for every two population lost.</English>
+		<French>[NEWLINE][ICON_BULLET]Les villes conquises perdent la moitié de leur population, et font apparaître un eclave pour chaque groupe de deux population perdues.</French>
+		<German>[NEWLINE][ICON_BULLET]Eroberte Städte verlieren die älfte ihrer Bevölkerung, aus je zwei Punkten wird je ein Sklave errichtet</German>
+		<Italian>[NEWLINE][ICON_BULLET]Conquered cities lose half of their population, and spawn one slave unit for every two population lost.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Conquered cities lose half of their population, and spawn one slave unit for every two population lost.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN</Tag>
+		<English>Spiderkin</English>
+		<French>Arachnomorphe</French>
+		<German>Spinne</German>
+		<Italian>Spiderkin</Italian>
+		<Spanish>Spiderkin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN_SHORT</Tag>
+		<English>Spdr</English>
+		<French>Araignée</French>
+		<German>Spinne</German>
+		<Italian>Spdr</Italian>
+		<Spanish>Spdr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Increases the chance for cities to generate Spiders.[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_SPIDERKIN]Spiderkin[\LINK] promotion once the Nest reaches size 10.[NEWLINE][ICON_BULLET]All other units are born with the [LINK=PROMOTION_SPIDERKIN]Spiderkin[\LINK] promotion once the Nest reaches size 15.</English>
+		<French>[NEWLINE][ICON_BULLET]Augmente les chances que les villes génèrent des Araignées.[NEWLINE][ICON_BULLET]Les Araignées démarrent avec la promotion [LINK=PROMOTION_SPIDERKIN]Arachnomorphe[\LINK] une fois que la Tanière atteint 10 de population.[NEWLINE][ICON_BULLET]Toutes les autes unités démarrent avec la promotion [LINK=PROMOTION_SPIDERKIN]Arachnomorphe[\LINK] une fois que la Tanière atteint 15 de population.</French>
+		<German>[NEWLINE][ICON_BULLET]Erhöht die Wahrscheinlichkeit in Stödten, Spinnen zu erschaffen[NEWLINE][ICON_BULLET]Spinnen werden ab einer Nestgröße von 10 mit der [LINK=PROMOTION_SPIDERKIN]Spinnentier[\LINK] Beförderung geboren[NEWLINE][ICON_BULLET]Andere Einheiten erhalten die  [LINK=PROMOTION_SPIDERKIN]Spinnentier[\LINK] Beförderung ab einer Nestgröße von 15</German>
+		<Italian>[NEWLINE][ICON_BULLET]Increases the chance for cities to generate Spiders.[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_SPIDERKIN]Spiderkin[\LINK] promotion once the Nest reaches size 10.[NEWLINE][ICON_BULLET]All other units are born with the [LINK=PROMOTION_SPIDERKIN]Spiderkin[\LINK] promotion once the Nest reaches size 15.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Increases the chance for cities to generate Spiders.[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_SPIDERKIN]Spiderkin[\LINK] promotion once the Nest reaches size 10.[NEWLINE][ICON_BULLET]All other units are born with the [LINK=PROMOTION_SPIDERKIN]Spiderkin[\LINK] promotion once the Nest reaches size 15.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_SPIRITUAL_TRAIT</Tag>
+		<English>Gain the Spiritual Trait.</English>
+		<French>Obtenir le trait Spirituel.</French>
+		<German>Gain the Spiritual Trait.</German>
+		<Italian>Gain the Spiritual Trait.</Italian>
+		<Spanish>Gain the Spiritual Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_SPIRITUAL_TRAIT_1</Tag>
+		<English>Gain the Spiritual Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Spirituel, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Spiritual Trait, Lose the Important Status.</German>
+		<Italian>Gain the Spiritual Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Spiritual Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_SPIRITUAL_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has sought a higher power and gained the Spiritual Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective a cherché un pouvoir supérieur et a obtenu le trait Spirituel</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has sought a higher power and gained the Spiritual Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has sought a higher power and gained the Spiritual Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has sought a higher power and gained the Spiritual Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_SPIRITUAL_HELP</Tag>
+		<English>[COLOR_ALT_HIGHLIGHT_TEXT]Spiritual[COLOR_REVERT][NEWLINE]  [ICON_BULLET]No Anarchy[NEWLINE]  [ICON_BULLET]Free Promotion (Potency, Mobility I)[NEWLINE]    [ICON_BULLET]Disciple Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Temple</English>
+		<French>[COLOR_ALT_HIGHLIGHT_TEXT]Spirituel[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Pas d'anarchie[NEWLINE]  [ICON_BULLET]Promotion Gratuite (Affinité Arcanique, Mobilité I)[NEWLINE]    [ICON_BULLET]Disciples[NEWLINE]  [ICON_BULLET]Double la vitesse de Production du Temple</French>
+		<German>[COLOR_ALT_HIGHLIGHT_TEXT]Spirituell[COLOR_REVERT][NEWLINE]  [ICON_BULLET]Keine Anarchie[NEWLINE]  [ICON_BULLET]Freie Bef&#246;rderung (St&#228;rke, Mobilit&#228;t I)[NEWLINE]    [ICON_BULLET]Geweihte Einheiten[NEWLINE]  [ICON_BULLET]Doppelte Produktionsgeschwindigkeit f&#252;r Tempel</German>
+		<Italian>[COLOR_ALT_HIGHLIGHT_TEXT]Spiritual[COLOR_REVERT][NEWLINE]  [ICON_BULLET]No Anarchy[NEWLINE]  [ICON_BULLET]Free Promotion (Potency, Mobility I)[NEWLINE]    [ICON_BULLET]Disciple Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Temple</Italian>
+		<Spanish>[COLOR_ALT_HIGHLIGHT_TEXT]Spiritual[COLOR_REVERT][NEWLINE]  [ICON_BULLET]No Anarchy[NEWLINE]  [ICON_BULLET]Free Promotion (Potency, Mobility I)[NEWLINE]    [ICON_BULLET]Disciple Units[NEWLINE]  [ICON_BULLET]Double Production Speed of Temple</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPRAWLING</Tag>
+		<English>Sprawling</English>
+		<French>Rassemblé</French>
+		<German>Extensiv</German>
+		<Italian>Sprawling</Italian>
+		<Spanish>Sprawling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPRAWLING_SHORT</Tag>
+		<English>Spr</English>
+		<French>Expe</French>
+		<German>Ext</German>
+		<Italian>Spr</Italian>
+		<Spanish>Spr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPRAWLING_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Cities are able to work the 3rd plot ring instead of just the first 2[NEWLINE][ICON_BULLET]Player has a limited number of cities (amount determined by map size)</English>
+		<French>[NEWLINE][ICON_BULLET]Les villes peuvent travailler sur un rayon de trois cases au lieu de deux[NEWLINE][ICON_BULLET]Le joueur n'a accès qu'à un nombre limité de villes (déterminé par la taille de la carte).[NEWLINE][ICON_BULLET]La vitesse d'expansion des frontières culturelles est accélérée.</French>
+		<German>[NEWLINE][ICON_BULLET]Städte können 3 anstelle von 2 Stadtfeldringen bewirtschaften[NEWLINE][ICON_BULLET]Kulturelle Grenzen sind erweitert</German>
+		<Italian>[NEWLINE][ICON_BULLET]Cities are able to work the 3rd plot ring instead of just the first 2[NEWLINE][ICON_BULLET]Player has a limited number of cities (amount determined by map size)</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Cities are able to work the 3rd plot ring instead of just the first 2[NEWLINE][ICON_BULLET]Player has a limited number of cities (amount determined by map size)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_STARTING_GOLD_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1 to starting gold</English>
+		<French>[NEWLINE][ICON_BULLET]%D1 à l'or de départ</French>
+		<German>[NEWLINE][ICON_BULLET]%D1 für Startgold</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1 to starting gold</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1 to starting gold</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_STRATEGIST</Tag>
+		<English>Strategist</English>
+		<French>Stratège</French>
+		<German>Stratege</German>
+		<Italian>Strategist</Italian>
+		<Spanish>Strategist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_STRATEGIST_SHORT</Tag>
+		<English>Strat</English>
+		<French>Strat</French>
+		<German>Strat</German>
+		<Italian>Strat</Italian>
+		<Spanish>Strat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_STRATEGIST_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants Battle Field Tactics to all Commander Units.</English>
+		<French>[NEWLINE][ICON_BULLET]Confère la promotion [LINK=PROMOTION_GC_BATTLEFIELD_TACTICS]Stratège de Terrain[\LINK] à tous les Généraux Illustres.</French>
+		<German>[NEWLINE][ICON_BULLET]Liefert allen Kommandanten Einheiten die Beförderung Schlachtfeldtaktiken</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants Battle Field Tactics to all Commander Units.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants Battle Field Tactics to all Commander Units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUMMON_DURATION_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1 duration to summoned units</English>
+		<French>[NEWLINE][ICON_BULLET]Augmente la durée des unités évoquées de %d1</French>
+		<German>[NEWLINE][ICON_BULLET]%D1 Verweildauer von Beschworenen Einheiten</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1 duration to summoned units</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1 duration to summoned units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MULTI_SUMMONER</Tag>
+		<English>Summoner</English>
+		<French>Invocateur</French>
+		<German>Beschwörer</German>
+		<Italian>Summoner</Italian>
+		<Spanish>Summoner</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUMMONER_SHORT</Tag>
+		<English>Sum</English>
+		<French>Invo</French>
+		<German>Bes</German>
+		<Italian>Sum</Italian>
+		<Spanish>Sum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_SUMMONER_TRAIT</Tag>
+		<English>Gain the Summoner Trait.</English>
+		<French>Obtenir le Trait Invocateur.</French>
+		<German>Gain the Summoner Trait.</German>
+		<Italian>Gain the Summoner Trait.</Italian>
+		<Spanish>Gain the Summoner Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_SUMMONER_TRAIT_1</Tag>
+		<English>Gain the Summoner Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Invocateur, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Summoner Trait, Lose the Important Status.</German>
+		<Italian>Gain the Summoner Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Summoner Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_SUMMONER_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective has perfected the art of conjuring and gained the Summoner Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective a perfectionné son art de la conjuration et a obtenu le trait Invocateur</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective has perfected the art of conjuring and gained the Summoner Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective has perfected the art of conjuring and gained the Summoner Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective has perfected the art of conjuring and gained the Summoner Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUNDERED</Tag>
+		<English>Sundered</English>
+		<French>Scindé</French>
+		<German>Abtrünnig</German>
+		<Italian>Sundered</Italian>
+		<Spanish>Sundered</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SUNDERED_SHORT</Tag>
+		<English>Sun</English>
+		<French>Scindé</French>
+		<German>Abt</German>
+		<Italian>Sun</Italian>
+		<Spanish>Sun</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SWASHBUCKLER</Tag>
+		<English>Swashbuckler</English>
+		<French>Fanfaron</French>
+		<German>Säbelrassler</German>
+		<Italian>Swashbuckler</Italian>
+		<Spanish>Swashbuckler</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SWASHBUCKLER_SHORT</Tag>
+		<English>Swash</English>
+		<French>Fanf</French>
+		<German>Säbelrassler</German>
+		<Italian>Swash</Italian>
+		<Spanish>Swash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_SWASHBUCKLER_TRAIT</Tag>
+		<English>Gain the Swashbuckler Trait.</English>
+		<French>Obtenir le trait Fanfaron.</French>
+		<German>Gain the Swashbuckler Trait.</German>
+		<Italian>Gain the Swashbuckler Trait.</Italian>
+		<Spanish>Gain the Swashbuckler Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_SWASHBUCKLER_TRAIT_1</Tag>
+		<English>Gain the Swashbuckler Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Fanfaron, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Swashbuckler Trait, Lose the Important Status.</German>
+		<Italian>Gain the Swashbuckler Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Swashbuckler Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_SWASHBUCKLER_TRAIT</Tag>
+		<English>ARRR! A matey of the %s1_civ_adjective has tamed the high seas and gained the Swashbuckler Trait.</English>
+		<French>Erf! Un pote des %s1_civ_adjective a apprivoisé les hautes mers et a obtenu le trait Fanfaron.</French>
+		<German>ARRR! A matey of the %s1_civ_adjective has tamed the high seas and gained the Swashbuckler Trait.</German>
+		<Italian>ARRR! A matey of the %s1_civ_adjective has tamed the high seas and gained the Swashbuckler Trait.</Italian>
+		<Spanish>ARRR! A matey of the %s1_civ_adjective has tamed the high seas and gained the Swashbuckler Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_THEOCRATIC</Tag>
+		<English>Theocratic</English>
+		<French>Théocrate</French>
+		<German>Theokratisch</German>
+		<Italian>Theocratic</Italian>
+		<Spanish>Theocratic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_THEOCRATIC_SHORT</Tag>
+		<English>Theo</English>
+		<French>Théo</French>
+		<German>Theo</German>
+		<Italian>Theo</Italian>
+		<Spanish>Theo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TOLERANT</Tag>
+		<English>Tolerant</English>
+		<French>Tolérant</French>
+		<German>Tolerant</German>
+		<Italian>Tolerant</Italian>
+		<Spanish>Tolerant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TOLERANT_SHORT</Tag>
+		<English>Tol</English>
+		<French>Tol</French>
+		<German>Tol</German>
+		<Italian>Tol</Italian>
+		<Spanish>Tol</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADER</Tag>
+		<English>Trader</English>
+		<French>Commerçant</French>
+		<German>Händler</German>
+		<Italian>Trader</Italian>
+		<Spanish>Trader</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADER_SHORT</Tag>
+		<English>Tra</English>
+		<French>Comm</French>
+		<German>Händl</German>
+		<Italian>Tra</Italian>
+		<Spanish>Tra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADE_COMMERCE_MODIFIERS</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1% %F2_commerce from [ICON_TRADE]</English>
+		<French>[NEWLINE][ICON_BULLET]%D1% %F2_commerce avec : [ICON_TRADE]</French>
+		<German>[NEWLINE][ICON_BULLET]%D1% %F2_commerce durch [ICON_TRADE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1% %F2_commerce da [ICON_TRADE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1% %F2_commerce por [ICON_TRADE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TREACHEROUS</Tag>
+		<English>Treacherous</English>
+		<French>Perfide</French>
+		<German>Betrügerisch</German>
+		<Italian>Treacherous</Italian>
+		<Spanish>Treacherous</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TREACHEROUS_SHORT</Tag>
+		<English>Treach</English>
+		<French>Perf</French>
+		<German>Betrüg</German>
+		<Italian>Treach</Italian>
+		<Spanish>Treach</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_TREACHEROUS_TRAIT</Tag>
+		<English>Gain the Treacherous Trait.</English>
+		<French>Obtenir le trait Perfide.</French>
+		<German>Gain the Treacherous Trait.</German>
+		<Italian>Gain the Treacherous Trait.</Italian>
+		<Spanish>Gain the Treacherous Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADD_TREACHEROUS_TRAIT_1</Tag>
+		<English>Gain the Treacherous Trait, Lose the Important Status.</English>
+		<French>Obtenir le trait Perfide, perdre le Statut de Dirigeant Important.</French>
+		<German>Gain the Treacherous Trait, Lose the Important Status.</German>
+		<Italian>Gain the Treacherous Trait, Lose the Important Status.</Italian>
+		<Spanish>Gain the Treacherous Trait, Lose the Important Status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_ADDED_TREACHEROUS_TRAIT</Tag>
+		<English>Rumor has it that a leader of the %s1_civ_adjective is skilled in the art of poisons and gained the Treacherous Trait.</English>
+		<French>Des rumeurs indiquent que le dirigeant des %s1_civ_adjective est doué dans l'art des poisons et a obtenu le trait Perfide.</French>
+		<German>Rumor has it that a leader of the %s1_civ_adjective is skilled in the art of poisons and gained the Treacherous Trait.</German>
+		<Italian>Rumor has it that a leader of the %s1_civ_adjective is skilled in the art of poisons and gained the Treacherous Trait.</Italian>
+		<Spanish>Rumor has it that a leader of the %s1_civ_adjective is skilled in the art of poisons and gained the Treacherous Trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_UNDYING</Tag>
+		<English>Undying</English>
+		<French>Éternel</French>
+		<German>Untot</German>
+		<Italian>Undying</Italian>
+		<Spanish>Undying</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_UNDYING_SHORT</Tag>
+		<English>Und</English>
+		<French>Éter</French>
+		<German>Untot</German>
+		<Italian>Und</Italian>
+		<Spanish>Und</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_UNIQUE_CULT_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]The leader is following a personal cult, upsetting other religions</English>
+		<French>[NEWLINE][ICON_BULLET]Le dirigeant pratique un culte personnel, irritant les autres religions</French>
+		<German>[NEWLINE][ICON_BULLET]Der Anführer ist Teil eines Personenkults, was zu Irritationen mit anderen Religionen führt</German>
+		<Italian>[NEWLINE][ICON_BULLET]The leader is following a personal cult, upsetting other religions</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]The leader is following a personal cult, upsetting other religions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_VICTORY_INFLUENCE_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Modifies culture change after a victory by %d1%.</English>
+		<French>[NEWLINE][ICON_BULLET]Augmente la Culture après chaque victoire de %d1%.</French>
+		<German>[NEWLINE][ICON_BULLET]Modifiziert die Kulturänderung nach einem Sieg im Kampf um %d1%.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Modifies culture change after a victory by %d1%.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Modifies culture change after a victory by %d1%.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_VIRTUOUS_PIRATE</Tag>
+		<English>Virtuous Pirate</English>
+		<French>Pirate Vertueux</French>
+		<German>Tugendhafter Pirat</German>
+		<Italian>Virtuous Pirate</Italian>
+		<Spanish>Virtuous Pirate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_VIRTUOUS_PIRATE_SHORT</Tag>
+		<English>Pirate</English>
+		<French>Pirate</French>
+		<German>TugPir</German>
+		<Italian>Pirate</Italian>
+		<Spanish>Pirate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WANDERER</Tag>
+		<English>Wanderer</English>
+		<French>Vagabond</French>
+		<German>Wanderer</German>
+		<Italian>Wanderer</Italian>
+		<Spanish>Wanderer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WANDERER_SHORT</Tag>
+		<English>Wan</English>
+		<French>Vag</French>
+		<German>Wan</German>
+		<Italian>Wan</Italian>
+		<Spanish>Wan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WARLORD</Tag>
+		<English>Warlord</English>
+		<French>Seigneur de Guerre</French>
+		<German>Kriegsherr</German>
+		<Italian>Warlord</Italian>
+		<Spanish>Warlord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WARLORD_SHORT</Tag>
+		<English>War</English>
+		<French>Guerr</French>
+		<German>Kriegsh</German>
+		<Italian>War</Italian>
+		<Spanish>War</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WRETCHED</Tag>
+		<English>Wretched</English>
+		<French>Misérable</French>
+		<German>Elendig</German>
+		<Italian>Wretched</Italian>
+		<Spanish>Wretched</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WRETCHED_SHORT</Tag>
+		<English>Wrt</English>
+		<French>Mis</French>
+		<German>Wrt</German>
+		<Italian>Wrt</Italian>
+		<Spanish>Wrt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ZARIA_INFO</Tag>
+		<English>Caretaker</English>
+		<French>Infirmière</French>
+		<German>Betreuer</German>
+		<Italian>Caretaker</Italian>
+		<Spanish>Caretaker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ZARIA_INFO_SHORT</Tag>
+		<English>Car</English>
+		<French>Inf</French>
+		<German>Betr</German>
+		<Italian>Car</Italian>
+		<Spanish>Car</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ZARIA_INFO_PEDIA</Tag>
+		<English>Zaria has at her disposal an extensive network of spies and assassins, as well as a propaganda machine, in the form of the [LINK=UNIT_CARETAKER]Caretakers[\LINK]. This allows her to recruit talented [LINK=UNIT_AGENT]Agents[\LINK] for her cause, as well as the [LINK=UNIT_CARETAKER_MATRON]Caretaker Matrons[\LINK] and the powerful [LINK=UNIT_ADJUNCT]Adjuncts[\LINK].</English>
+		<French>Zaria dispose d'un énorme réseau d'espions et d'assassins, de même qu'une machine de propagande, sous la forme des [LINK=UNIT_CARETAKER]Infirmières[\LINK]. Ça lui permet de recruter des [LINK=UNIT_AGENT]Agents[\LINK] talentueux à sa cause, de même que les [LINK=UNIT_CARETAKER_MATRON]Infirmières en Chef[\LINK] et les puissants [LINK=UNIT_ADJUNCT]Adjointes[\LINK].</French>
+		<German>Zaria has at her disposal an extensive network of spies and assassins, as well as a propaganda machine, in the form of the Caretakers. This allows her to recruit talented Agents for her cause, as well as the Caretaker Matrons and the powerful Adjuncts.</German>
+		<Italian>Zaria has at her disposal an extensive network of spies and assassins, as well as a propaganda machine, in the form of the Caretakers. This allows her to recruit talented Agents for her cause, as well as the Caretaker Matrons and the powerful Adjuncts.</Italian>
+		<Spanish>Zaria has at her disposal an extensive network of spies and assassins, as well as a propaganda machine, in the form of the Caretakers. This allows her to recruit talented Agents for her cause, as well as the Caretaker Matrons and the powerful Adjuncts.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ZARIA_INFO_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Allows training of [LINK=UNIT_AGENT]Agents[\LINK], [LINK=UNIT_ADJUNCT]Adjuncts[\LINK], [LINK=UNIT_CARETAKER]Caretakers[\LINK] and [LINK=UNIT_CARETAKER_MATRON]Caretaker Matrons[\LINK]</English>
+		<French>[NEWLINE][ICON_BULLET]Permet la construction des [LINK=UNIT_AGENT]Agents[\LINK], [LINK=UNIT_ADJUNCT]Adjointes[\LINK], [LINK=UNIT_CARETAKER]Infirmières[\LINK] et des [LINK=UNIT_CARETAKER_MATRON]Infirmières en Chef[\LINK]</French>
+		<German>[NEWLINE][ICON_BULLET]Erlaubt die Ausbildung von Agenten, Ergebenen und Oberbetreuerinnen</German>
+		<Italian>[NEWLINE][ICON_BULLET]Allows training of Agents, Adjuncts and Caretaker Matrons</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Allows training of Agents, Adjuncts and Caretaker Matrons</Spanish>
+	</TEXT>
+	
+		<TEXT>
+		<Tag>TXT_KEY_TRAIT_NECROMANCER_PEDIA</Tag>
+		<English>Necromancer is an emergent trait focusing on the corrupted Death art of Necromancy. To unlock its full potential, be sure to cast spells, build and use units, control lands and wonders affiliated to the Death sphere.</English>
+		<French>Necromancer is an emergent trait focusing on the corrupted Death art of Necromancy. To unlock its full potential, be sure to cast spells, build and use units, control lands and wonders affiliated to the Death sphere.</French>
+		<German>Necromancer is an emergent trait focusing on the corrupted Death art of Necromancy. To unlock its full potential, be sure to cast spells, build and use units, control lands and wonders affiliated to the Death sphere.</German>
+		<Italian>Necromancer is an emergent trait focusing on the corrupted Death art of Necromancy. To unlock its full potential, be sure to cast spells, build and use units, control lands and wonders affiliated to the Death sphere.</Italian>
+		<Spanish>Necromancer is an emergent trait focusing on the corrupted Death art of Necromancy. To unlock its full potential, be sure to cast spells, build and use units, control lands and wonders affiliated to the Death sphere.</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HYDROMANCER_PEDIA</Tag>
+		<English>Hydromancer is an emergent trait focusing of manipulating Water. Coastal cities, along with a strong Water-oriented magical army are a must to help it unlock its full potential.</English>
+		<French>Hydromancer is an emergent trait focusing of manipulating Water. Coastal cities, along with a strong Water-oriented magical army are a must to help it unlock its full potential.</French>
+		<German>Hydromancer is an emergent trait focusing of manipulating Water. Coastal cities, along with a strong Water-oriented magical army are a must to help it unlock its full potential.</German>
+		<Italian>Hydromancer is an emergent trait focusing of manipulating Water. Coastal cities, along with a strong Water-oriented magical army are a must to help it unlock its full potential.</Italian>
+		<Spanish>Hydromancer is an emergent trait focusing of manipulating Water. Coastal cities, along with a strong Water-oriented magical army are a must to help it unlock its full potential.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN_PEDIA</Tag>
+		<English>The strategy to make the better of the Spiderkin emergent trait is scaringly simple. Have your spiders fight. Have your spiders kill. Have your spiders grow.</English>
+		<French>The strategy to make the better of the Spiderkin emergent trait is scaringly simple. Have your spiders fight. Have your spiders kill. Have your spiders grow.</French>
+		<German>The strategy to make the better of the Spiderkin emergent trait is scaringly simple. Have your spiders fight. Have your spiders kill. Have your spiders grow.</German>
+		<Italian>The strategy to make the better of the Spiderkin emergent trait is scaringly simple. Have your spiders fight. Have your spiders kill. Have your spiders grow.</Italian>
+		<Spanish>The strategy to make the better of the Spiderkin emergent trait is scaringly simple. Have your spiders fight. Have your spiders kill. Have your spiders grow.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_THEOCRATIC_PEDIA</Tag>
+		<English>The Theocratic emergent trait stands on two pillars: A united mankind under a powerful faith. To unlock its full potential, strengthen your state religion while purging heresy and lesser species.</English>
+		<French>The Theocratic emergent trait stands on two pillars: A united mankind under a powerful faith. To unlock its full potential, strengthen your state religion while purging heresy and lesser species.</French>
+		<German>The Theocratic emergent trait stands on two pillars: A united mankind under a powerful faith. To unlock its full potential, strengthen your state religion while purging heresy and lesser species.</German>
+		<Italian>The Theocratic emergent trait stands on two pillars: A united mankind under a powerful faith. To unlock its full potential, strengthen your state religion while purging heresy and lesser species.</Italian>
+		<Spanish>The Theocratic emergent trait stands on two pillars: A united mankind under a powerful faith. To unlock its full potential, strengthen your state religion while purging heresy and lesser species.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SCORCHED_EARTH_PEDIA</Tag>
+		<English>To get the most use of the Scorched Earth emergent trait, just listen to your inner Barbarian. Burn, Pillage, Kill and Raze! </English>
+		<French>To get the most use of the Scorched Earth emergent trait, just listen to your inner Barbarian. Burn, Pillage, Kill and Raze!</French>
+		<German>To get the most use of the Scorched Earth emergent trait, just listen to your inner Barbarian. Burn, Pillage, Kill and Raze!</German>
+		<Italian>To get the most use of the Scorched Earth emergent trait, just listen to your inner Barbarian. Burn, Pillage, Kill and Raze!</Italian>
+		<Spanish>To get the most use of the Scorched Earth emergent trait, just listen to your inner Barbarian. Burn, Pillage, Kill and Raze!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_VEINHUNTER_PEDIA</Tag>
+		<English>Hills and Mines and Mineral bonuses. Those are the keys of the Veinhunter emergent trait. Along with honoring Kilmorph of course.</English>
+		<French>Hills and Mines and Mineral bonuses. Those are the keys of the Veinhunter emergent trait. Along with honoring Kilmorph of course.</French>
+		<German>Hills and Mines and Mineral bonuses. Those are the keys of the Veinhunter emergent trait. Along with honoring Kilmorph of course.</German>
+		<Italian>Hills and Mines and Mineral bonuses. Those are the keys of the Veinhunter emergent trait. Along with honoring Kilmorph of course.</Italian>
+		<Spanish>Hills and Mines and Mineral bonuses. Those are the keys of the Veinhunter emergent trait. Along with honoring Kilmorph of course.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EGALITARIAN_PEDIA</Tag>
+		<English>A large, healthy and happy population protected by a Centaur army, that's the objective of the Egalitarian emergent trait.</English>
+		<French>A large, healthy and happy population protected by a Centaur army, that's the objective of the Egalitarian emergent trait.</French>
+		<German>A large, healthy and happy population protected by a Centaur army, that's the objective of the Egalitarian emergent trait.</German>
+		<Italian>A large, healthy and happy population protected by a Centaur army, that's the objective of the Egalitarian emergent trait.</Italian>
+		<Spanish>A large, healthy and happy population protected by a Centaur army, that's the objective of the Egalitarian emergent trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_VIRTUOUS_PIRATE_PEDIA</Tag>
+		<English>Two objectives for the Virtuous Pirate emergent trait. First, use your navy to control the oceans. Then, once the seas are safe, expand your trade opportunities.</English>
+		<French>Two objectives for the Virtuous Pirate emergent trait. First, use your navy to control the oceans. Then, once the seas are safe, expand your trade opportunities.</French>
+		<German>Two objectives for the Virtuous Pirate emergent trait. First, use your navy to control the oceans. Then, once the seas are safe, expand your trade opportunities.</German>
+		<Italian>Two objectives for the Virtuous Pirate emergent trait. First, use your navy to control the oceans. Then, once the seas are safe, expand your trade opportunities.</Italian>
+		<Spanish>Two objectives for the Virtuous Pirate emergent trait. First, use your navy to control the oceans. Then, once the seas are safe, expand your trade opportunities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NULL_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+</Civ4GameText>

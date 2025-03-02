@@ -1,0 +1,1402 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ADVANCEMENT</Tag>
+		<English>Advancement</English>
+		<French>Avancement</French>
+		<German>Weiterentwicklung</German>
+		<Italian>Advancement</Italian>
+		<Spanish>Advancement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ADVANCEMENT_HELP</Tag>
+		<English>[ICON_BULLET]Converts the unit to a Captain and reverts him to an unpromoted Level 1 unit</English>
+		<French>[ICON_BULLET]Converts the unit to a Captain and reverts him to an unpromoted Level 1 unit</French>
+		<German>[ICON_BULLET]Wandelt die Einheit in einen Kapitän um, wobei er zu einer Einheit ohne Beförderung auf 1 wird.</German>
+		<Italian>[ICON_BULLET]Converts the unit to a Captain and reverts him to an unpromoted Level 1 unit</Italian>
+		<Spanish>[ICON_BULLET]Converts the unit to a Captain and reverts him to an unpromoted Level 1 unit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_BUILD_COMMAND_POST</Tag>
+		<English>Build Command Post</English>
+		<French>Bâtir un poste de commandement</French>
+		<German>Kommandoposten bauen</German>
+		<Italian>Build Command Post</Italian>
+		<Spanish>Build Command Post</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISONED_WEAPON</Tag>
+		<English>Poisoned Weapon</English>
+		<French>Arme empoisonnée</French>
+		<German>Vergiftete Waffe</German>
+		<Italian>Poisoned Weapon</Italian>
+		<Spanish>Poisoned Weapon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_TRAIL</Tag>
+		<English>Build Trail</English>
+		<French>Aménager un Sentier</French>
+		<German>Baue Pfad</German>
+		<Italian>Build Trail</Italian>
+		<Spanish>Build Trail</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ROUTE_TRAIL</Tag>
+		<English>Trail</English>
+		<French>Sentier</French>
+		<German>Pfad</German>
+		<Italian>Trail</Italian>
+		<Spanish>Trail</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LIZARDMAN</Tag>
+		<English>Lizardkin</English>
+		<French>Homme-lézard</French>
+		<German>Echsenartig</German>
+		<Italian>Lizardkin</Italian>
+		<Spanish>Lizardkin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SLAVE_LIZARD</Tag>
+		<English>Lizardman Slave</English>
+		<French>Esclave homme-lézard</French>
+		<German>Echsensklave</German>
+		<Italian>Lizardman Slave</Italian>
+		<Spanish>Lizardman Slave</Spanish>
+	</TEXT>
+	<!--Worker Mod-->
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AMBITION</Tag>
+		<English>Ambition</English>
+		<French>Ambition</French>
+		<German>Ehrgeiz</German>
+		<Italian>Ambition</Italian>
+		<Spanish>Ambition</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_PARADROP</Tag>
+		<English>Teleport Mode</English>
+		<French>Teleport Mode</French>
+		<German>Teleportmodus</German>
+		<Italian>Teleport Mode</Italian>
+		<Spanish>Teleport Mode</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_INTERFACEMODE_PARADROP_HELP</Tag>
+		<English>Order the unit to teleport to a specified location.</English>
+		<French>Order the unit to teleport to a specified location.</French>
+		<German>Befehlt der Einheit, sich an eine festgelegte Stelle zu teleportieren.</German>
+		<Italian>Order the unit to teleport to a specified location.</Italian>
+		<Spanish>Order the unit to teleport to a specified location.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PARADROP_RANGE</Tag>
+		<English>[ICON_BULLET]Can Teleport up to [COLOR_YELLOW]%d1[COLOR_REVERT] tiles away</English>
+		<French>[ICON_BULLET]Peut téléporter jusqu'à [COLOR_YELLOW]%d1[COLOR_REVERT] cases de distance</French>
+		<German>[ICON_BULLET]Kann sich bis zu [COLOR_YELLOW]%d1[COLOR_REVERT] Felder weit teleportieren</German>
+		<Italian>[ICON_BULLET]Can Teleport up to [COLOR_YELLOW]%d1[COLOR_REVERT] tiles away</Italian>
+		<Spanish>[ICON_BULLET]Can Teleport up to [COLOR_YELLOW]%d1[COLOR_REVERT] tiles away</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ETHEREAL_CALL</Tag>
+		<English>Ethereal Call</English>
+		<French>Appel Éthéré</French>
+		<German>Ruf des &#196;thers</German>
+		<Italian>Ethereal Call</Italian>
+		<Spanish>Ethereal Call</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ETHEREAL_CALL_STRATEGY</Tag>
+		<English>This spell teleports the Divided Soul that created the Severed Soul to the unit's position and the two recombine.</English>
+		<French>This spell teleports the Divided Soul that created the Severed Soul to the unit's position and the two recombine.</French>
+		<German>Dieser Zauber teleportiert die Gespaltene Seele, die die Losgelöste Seele erschaffen hat, zu deren Position und die beiden vereinigen sich wieder.</German>
+		<Italian>This spell teleports the Divided Soul that created the Severed Soul to the unit's position and the two recombine.</Italian>
+		<Spanish>This spell teleports the Divided Soul that created the Severed Soul to the unit's position and the two recombine.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SEVER_SOUL</Tag>
+		<English>Sever Soul</English>
+		<French>Scinder l'Âme</French>
+		<German>Seele loslösen</German>
+		<Italian>Sever Soul</Italian>
+		<Spanish>Sever Soul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SEVER_SOUL_STRATEGY</Tag>
+		<English>This spell allows the Divided Soul unit to create a severed part of itself. The severed unit can then travel independantly but can call the master to its location instantly.</English>
+		<French>This spell allows the Divided Soul unit to create a severed part of itself. The severed unit can then travel independantly but can call the master to its location instantly.</French>
+		<German>Dieser Zauber erlaubt es der Gespaltenen Seele, einen von ihr gespaltenen Teil zu erschaffen. Diese Losgelöste Seele kann sich völlig unabhängig und unentdeckt bewegen und kann den Zauberer zur Wiedervereinigung an ihren Standort zaubern.</German>
+		<Italian>This spell allows the Divided Soul unit to create a severed part of itself. The severed unit can then travel independantly but can call the master to its location instantly.</Italian>
+		<Spanish>This spell allows the Divided Soul unit to create a severed part of itself. The severed unit can then travel independantly but can call the master to its location instantly.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TRAIN_AS_WAR_ELEPHANT</Tag>
+		<English>Train as War Elephant</English>
+		<French>Train as War Elephant</French>
+		<German>Zum Kriegselefanten ausbilden</German>
+		<Italian>Train as War Elephant</Italian>
+		<Spanish>Train as War Elephant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TRAIN_AS_WAR_ELEPHANT_PEDIA</Tag>
+		<English>Wild elephants are awesome creatures to behold and certainly capable of defending themselves if threatened. It is only though skilled training however that the beast can be tamed and made to follow instructions.</English>
+		<French>Wild elephants are awesome creatures to behold and certainly capable of defending themselves if threatened. It is only though skilled training however that the beast can be tamed and made to follow instructions.</French>
+		<German>Dem Anblick nach sind Wilde Elefanten beeindruckende Geschöpfe, die eindeutig in der Lage sind, sich bei Bedrohung zu verteidigen. Aber nur durch Training mit viel Erfahrung ist es machbar, daß sie gezähmt werden können und Befehle befolgen.</German>
+		<Italian>Wild elephants are awesome creatures to behold and certainly capable of defending themselves if threatened. It is only though skilled training however that the beast can be tamed and made to follow instructions.</Italian>
+		<Spanish>Wild elephants are awesome creatures to behold and certainly capable of defending themselves if threatened. It is only though skilled training however that the beast can be tamed and made to follow instructions.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CORPSEFLIES</Tag>
+		<English>Corpseflies</English>
+		<French>Mouches à viande</French>
+		<German>Leichenfliegen</German>
+		<Italian>Corpseflies</Italian>
+		<Spanish>Corpseflies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DISEASED_CORPSE</Tag>
+		<English>Diseased Corpse</English>
+		<French>Cadavre Infecté</French>
+		<German>Verseuchte Leiche</German>
+		<Italian>Diseased Corpse</Italian>
+		<Spanish>Diseased Corpse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DISEASED_CORPSE_STRATEGY</Tag>
+		<English>A unique unit for the Ashen Veil, Diseased Corpses weaken the enemy units by spreading the "Diseased" promotion to any they engage in combat. They can also be used to harm enemy cities - the Corpseflies promotion allows them to reduce the health in any nearby city with which you are at war. Diseased Corpses require no building or resources to be built, only the Ashen Veil in the city they are being built and as a state religion.</English>
+		<French>A unique unit for the Ashen Veil, Diseased Corpses weaken the enemy units by spreading the "Diseased" promotion to any they engage in combat. They can also be used to harm enemy cities - the Corpseflies promotion allows them to reduce the health in any nearby city with which you are at war. Diseased Corpses require no building or resources to be built, only the Ashen Veil in the city they are being built and as a state religion.</French>
+		<German>Als einzigartige Einheiten des Aschfahlen Schleiers können "Infizierte Leichen" den Gegner schwächen, indem sie die "Krank"-Beförderung auf jeden übertragen, dem sie im Kampf gegenübertreten. Außerdem können sie feindliche Städte schädigen - die "Leichenfliegen"-Beförderung erlaubt ihnen die Verringerung an Gesundheit in jeder angrenzenden Stadt, mit der man sich im Krieg befindet. Infizierte Leichen können ohne besondere Gebäude oder Ressourcen erschaffen werden, allein der Aschfahle Schleier muß die Staatsreligion und in der Stadt der Produktion verbreitet sein.</German>
+		<Italian>A unique unit for the Ashen Veil, Diseased Corpses weaken the enemy units by spreading the "Diseased" promotion to any they engage in combat. They can also be used to harm enemy cities - the Corpseflies promotion allows them to reduce the health in any nearby city with which you are at war. Diseased Corpses require no building or resources to be built, only the Ashen Veil in the city they are being built and as a state religion.</Italian>
+		<Spanish>A unique unit for the Ashen Veil, Diseased Corpses weaken the enemy units by spreading the "Diseased" promotion to any they engage in combat. They can also be used to harm enemy cities - the Corpseflies promotion allows them to reduce the health in any nearby city with which you are at war. Diseased Corpses require no building or resources to be built, only the Ashen Veil in the city they are being built and as a state religion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DISEASED_CORPSE_PEDIA</Tag>
+		<English>"There is nothing so unnatural as the dead walking the earth, spreading dread poxes to all they encounter. Despite our city walls, these abominations blight us - their filth carried into our city by those infernal buzzing flies..." [NEWLINE]From the journal of Morgan Kallman, Dural Scholar.</English>
+		<French>"There is nothing so unnatural as the dead walking the earth, spreading dread poxes to all they encounter. Despite our city walls, these abominations blight us - their filth carried into our city by those infernal buzzing flies..." [NEWLINE]From the journal of Morgan Kallman, Dural Scholar.</French>
+		<German>"Es gibt nicht Unnatürlicheres als die Toten, die auf Erden wandern, um die Pocken und die Pest auf alle zu übertragen, denen sie begegnen. Was helfen uns unsere Stadtmauern gegen diese Scheußlichkeiten? Nichts, rein gar nichts - sie verderben uns, denn gegen diese Scharen von höllischen surrenden Fliegen, die den  Dreck und den Unrat der Leichen zu uns bringen, wurde noch keine Mauer erfunden..." [NEWLINE]Aus den Aufzeichnungen von Morgan Kallman, Gelehrter der Dural</German>
+		<Italian>"There is nothing so unnatural as the dead walking the earth, spreading dread poxes to all they encounter. Despite our city walls, these abominations blight us - their filth carried into our city by those infernal buzzing flies..." [NEWLINE]From the journal of Morgan Kallman, Dural Scholar.</Italian>
+		<Spanish>"There is nothing so unnatural as the dead walking the earth, spreading dread poxes to all they encounter. Despite our city walls, these abominations blight us - their filth carried into our city by those infernal buzzing flies..." [NEWLINE]From the journal of Morgan Kallman, Dural Scholar.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INSTABILITY</Tag>
+		<English>Instability</English>
+		<French>Instability</French>
+		<German>Instabilität</German>
+		<Italian>Instability</Italian>
+		<Spanish>Instability</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INSTABILITY_HELP</Tag>
+		<English>[ICON_BULLET]Granted to Demons and Angels that move within 2 tiles of [LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK]</English>
+		<French>[ICON_BULLET]Granted to Demons and Angels that move within 2 tiles of [LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK]</French>
+		<German>[ICON_BULLET]Erhalten Dämonen und Engel, die sich im Umkreis von 2 Feldern der [LINK=IMPROVEMENT_SEVEN_PINES]Sieben Kiefern[\LINK] befinden.</German>
+		<Italian>[ICON_BULLET]Granted to Demons and Angels that move within 2 tiles of [LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Granted to Demons and Angels that move within 2 tiles of [LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BUCCANEER</Tag>
+		<English>Buccaneer</English>
+		<French>Boucanier</French>
+		<German>Seeräuber</German>
+		<Italian>Buccaneer</Italian>
+		<Spanish>Buccaneer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_BUCCANEERS_SPIRIT</Tag>
+		<English>Buccaneer's Spirit</English>
+		<French>Tempérament des Boucaniers</French>
+		<German>Geist des Seeräubers</German>
+		<Italian>Buccaneer's Spirit</Italian>
+		<Spanish>Buccaneer's Spirit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_BUCCANEERS_SPIRIT_PEDIA</Tag>
+		<English>So.... a pirate walks into a bar, and he has a huge steering wheel from a ship, stuck in the front of his pants. He sits down at the bar(don't ask how) and demands a drink. The befuddled bartender quickly complies, and hands him the drink.[NEWLINE]Finally, unable to contain himself any longer, the bartender says "Um, i dont mean to be rude, but do you mind me asking about that... huge thing... i mean... doesn't it bother you?"[NEWLINE]  "Yarr!" replied the Pirate. "It drives mi' nuts!"</English>
+		<French>So.... a pirate walks into a bar, and he has a huge steering wheel from a ship, stuck in the front of his pants. He sits down at the bar(don't ask how) and demands a drink. The befuddled bartender quickly complies, and hands him the drink. [NEWLINE]Finally, unable to contain himself any longer, the bartender says "Um, i dont mean to be rude, but do you mind me asking about that... huge thing... i mean... doesn't it bother you?"[NEWLINE]  "Yarr!" replied the Pirate. "It drives mi' nuts!"</French>
+		<German>"Also ... ein Pirat geht in eine Bar, und er hat eine riesiges Steuerrad von nem Schiff vorne an seiner Hose dran gebunden. Er setzt sich an der Bar (frag mich nich wie) und verlangt nach was zu Trinken. Der verdatterte Barmann ist sofort dabei und gibt ihm nen Drink.[NEWLINE]Schließlich kann sich der Barmann nicht mehr zurückhalten und fragt:"ähm, ich ... ich will nicht unhöflich sein, aber ich frag mich, ob ich mal fragen darf ... dieses riesige Ding ... ich mein ... stört das nich irgendwie?"[NEWLINE]"Aye!" antwortet der Pirat. "Das Ding geht mir tierisch auf die Nüsse!"</German>
+		<Italian>So.... a pirate walks into a bar, and he has a huge steering wheel from a ship, stuck in the front of his pants. He sits down at the bar(don't ask how) and demands a drink. The befuddled bartender quickly complies, and hands him the drink. [NEWLINE]Finally, unable to contain himself any longer, the bartender says "Um, i dont mean to be rude, but do you mind me asking about that... huge thing... i mean... doesn't it bother you?"[NEWLINE]  "Yarr!" replied the Pirate. "It drives mi' nuts!"</Italian>
+		<Spanish>So.... a pirate walks into a bar, and he has a huge steering wheel from a ship, stuck in the front of his pants. He sits down at the bar(don't ask how) and demands a drink. The befuddled bartender quickly complies, and hands him the drink. [NEWLINE]Finally, unable to contain himself any longer, the bartender says "Um, i dont mean to be rude, but do you mind me asking about that... huge thing... i mean... doesn't it bother you?"[NEWLINE]  "Yarr!" replied the Pirate. "It drives mi' nuts!"</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PEOPLES_CHAMPION</Tag>
+		<English>People's Champion</English>
+		<French>People's Champion</French>
+		<German>Kämpfer des Volkes</German>
+		<Italian>People's Champion</Italian>
+		<Spanish>People's Champion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_BEAKERS</Tag><!-- another sentence will be appended -->
+		<English>The villagers share some of their knowledge with you.[SPACE]</English>
+		<French>Les villageois vous enseignent une partie de leur savoir.[SPACE]</French>
+		<German>Die Dorfbewohner teilen ihr Wissen mit Euch.[SPACE]</German>
+		<Italian>The villagers share some of their knowledge with you.[SPACE]</Italian>
+		<Spanish>The villagers share some of their knowledge with you.[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FOREST_STALKER</Tag>
+		<English>Stalker</English>
+		<French>Stalker</French>
+		<German>Pirschjäger</German>
+		<Italian>Stalker</Italian>
+		<Spanish>Stalker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FOREST_STALKER_HELP</Tag>
+		<English>[ICON_BULLET]Grants "Forest Stealth" when in woodland tiles</English>
+		<French>[ICON_BULLET]Vous octroie « Dissimulé en forêt » sur les cases boisées.</French>
+		<German>[ICON_BULLET]Erlaubt "Pirsch" auf Waldfeldern</German>
+		<Italian>[ICON_BULLET]Grants "Forest Stealth" when in woodland tiles</Italian>
+		<Spanish>[ICON_BULLET]Grants "Forest Stealth" when in woodland tiles</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_JUNGLE_STALKER_HELP</Tag>
+		<English>[ICON_BULLET]Grants "Jungle Stealth" when in Jungle tiles</English>
+		<French>[ICON_BULLET]Vous octroie « Dissimulé en jungle » sur les cases de jungle.</French>
+		<German>[ICON_BULLET]Erlaubt "Pirsch" auf Waldfeldern</German>
+		<Italian>[ICON_BULLET]Grants "Jungle Stealth" when in Jungle tiles</Italian>
+		<Spanish>[ICON_BULLET]Grants "Jungle Stealth" when in Jungle tiles</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FOREST_STEALTH</Tag>
+		<English>Forest Stealth</English>
+		<French>Camouflage Sylvestre</French>
+		<German>Pirsch</German>
+		<Italian>Forest Stealth</Italian>
+		<Spanish>Forest Stealth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WALL_DEFENDER</Tag>
+		<English>Wall Defender</English>
+		<French>Défenseur des murailles</French>
+		<German>Verteidiger des Walls</German>
+		<Italian>Wall Defender</Italian>
+		<Spanish>Wall Defender</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ASSAULT1</Tag>
+		<English>Assault I</English>
+		<French>Assaut I</French>
+		<German>Sturmangriff I</German>
+		<Italian>Assault I</Italian>
+		<Spanish>Assault I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ASSAULT2</Tag>
+		<English>Assault II</English>
+		<French>Assaut II</French>
+		<German>Sturmangriff II</German>
+		<Italian>Assault II</Italian>
+		<Spanish>Assault II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ASSAULT3</Tag>
+		<English>Assault III</English>
+		<French>Assaut III</French>
+		<German>Sturmangriff III</German>
+		<Italian>Assault III</Italian>
+		<Spanish>Assault III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SILVER_CIRCLE_HQ</Tag>
+		<English>Silver Circle</English>
+		<French>Cercle d'Argent</French>
+		<German>Der Silberne Kreis</German>
+		<Italian>Silver Circle</Italian>
+		<Spanish>Silver Circle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SILVER_CIRCLE_HQ_PEDIA</Tag>
+		<English>Silver Circle is a guild of alchemists and enchanters, who instead of higher knowledge or mystical power, seek simply wealth and financial well-being. They produce magical trinkets and sell it to anyone willing to buy. Most of their products are of limited use and need regular recharging. This ensures, "customer loyalty".</English>
+		<French>Le Cercle d'Argent est une guilde d'alchimistes et enchanteurs qui briguent la richesse et l'aisance financière plutôt que l'accumulation de savoirs ésotériques ou de puissance mystique. Ils fabriquent des babioles magiques et les vendent à tout acheteur potentiel. La plupart de leurs produits sont à usage limité et nécessitent des recharges régulières. Cela leur assure la « loyauté » des consommateurs.</French>
+		<German>Der Silberne Kreis ist eine Gilde von Alchemisten und Zauberkundigen, die nicht nach höherem Wissen oder mystischer Macht suchen, sondern einfach nur Wohlstand und ein finanzielles Polster im Sinn haben. Sie stellen magische Tränke und Tinkturen her, die sie an jeden verkaufen, der sie bezahlen kann. Viele ihrer Produkte haben eine begrenzte Haltbarkeit und benötigen regelmäßige Wiederaufladung. Das fördert natürlich die "Kundentreue" und kostet extra! So ein Jammer aber auch!</German>
+		<Italian>Silver Circle is a guild of alchemists and enchanters, who instead of higher knowledge or mystical power, seek simply wealth and financial well-being. They produce magical trinkets and sell it to anyone willing to buy. Most of their products are of limited use and need regular recharging. This ensures, "customer loyalty".</Italian>
+		<Spanish>Silver Circle is a guild of alchemists and enchanters, who instead of higher knowledge or mystical power, seek simply wealth and financial well-being. They produce magical trinkets and sell it to anyone willing to buy. Most of their products are of limited use and need regular recharging. This ensures, "customer loyalty".</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SILVER_CIRCLE_OUTPOST</Tag>
+		<English>Enchanter's Enclave</English>
+		<French>Enclave des Enchanteurs </French>
+		<German>Enklave des Silbernen Kreises</German>
+		<Italian>Enchanter's Enclave</Italian>
+		<Spanish>Enchanter's Enclave</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SILVER_CIRCLE_OUTPOST_PEDIA</Tag>
+		<English>Silver Circle is managed as both an industrious guild and a college. The main learning institutions are centralized in one city, but to distribute its products Silver Circle must also have a presence elsewhere. Responsibility to sell enchanted items and buy raw materials lies with various magical enclaves, which also provide a safe place to rest for many travelling members of the guild.</English>
+		<French>Silver Circle is managed as both an industrious guild and a college. The main learning institutions are centralized in one city, but to distribute its products Silver Circle must also have a presence elsewhere. Responsibility to sell enchanted items and buy raw materials lies with various magical enclaves, which also provide a safe place to rest for many travelling members of the guild.</French>
+		<German>Der Silberne Kreis wird sowohl als Ausbildungsort als auch als Produktionsgilde betrieben. Die Haupteinrichtungen für die Ausbildung liegen in einer einzigen Stadt, aber um die Produkte des Silbernen Kreises zu vertreiben, muß diese natürlich überall Präsenz zeigen. Die Verantwortung des Verkaufs von magischen Gegenständen und des Einkaufs von neuen Ausgangsstoffen liegt in den Händen einiger unterschiedlicher Enklaven, die darüber hinaus noch einen sicheren übernachtungsort für reisende Mitglieder der Gilde darstellen.</German>
+		<Italian>Silver Circle is managed as both an industrious guild and a college. The main learning institutions are centralized in one city, but to distribute its products Silver Circle must also have a presence elsewhere. Responsibility to sell enchanted items and buy raw materials lies with various magical enclaves, which also provide a safe place to rest for many travelling members of the guild.</Italian>
+		<Spanish>Silver Circle is managed as both an industrious guild and a college. The main learning institutions are centralized in one city, but to distribute its products Silver Circle must also have a presence elsewhere. Responsibility to sell enchanted items and buy raw materials lies with various magical enclaves, which also provide a safe place to rest for many travelling members of the guild.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WANDERING_SAGE</Tag>
+		<English>Wandering Sage</English>
+		<French>Sage Itinérant</French>
+		<German>Silberner Reisender</German>
+		<Italian>Wandering Sage</Italian>
+		<Spanish>Wandering Sage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WANDERING_SAGE_PEDIA</Tag>
+		<English>Some members of the Silver Circle decide to choose the life of a traveller. For the guild it is a good option, as Wandering Sages spread Circle's artifacts across all of Erebus, effectively increasing organization's income.</English>
+		<French>Quelques membres du Cercle d'Argent choisissent une vie de voyageur. Pour la guilde, c'est une bonne option, puisque les Sages Itinérants propagent les artéfacts du Cercle à travers tout Erebus, accroissant ainsi les revenus de l'organisme.</French>
+		<German>Einige Mitglieder des Silbernen Kreises entscheiden sich für ein Leben als Reisender. Für die Gilde ist das eine willkommene Möglichkeit, denn die sogeannten "Silbernen Reisenden" verbreiten dabei gleichzeitig die Produkte und den Namen der Gilde in der weiten Welt. Und beides trägt natürlich nicht unerheblich zu einem großen Gewinnzuwachs der Organisation bei.</German>
+		<Italian>Some members of the Silver Circle decide to choose the life of a traveller. For the guild it is a good option, as Wandering Sages spread Circle's artifacts across all of Erebus, effectively increasing organization's income.</Italian>
+		<Spanish>Some members of the Silver Circle decide to choose the life of a traveller. For the guild it is a good option, as Wandering Sages spread Circle's artifacts across all of Erebus, effectively increasing organization's income.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NEWNAME_HERO_OF_FOXFORD</Tag>
+		<English>Hero of Foxford</English>
+		<French>Héros de Foxford</French>
+		<German>Held von Fuchsfurt</German>
+		<Italian>Hero of Foxford</Italian>
+		<Spanish>Hero of Foxford</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_NOMAD_CAMP</Tag>
+		<English>Create Nomad Camp</English>
+		<French>Création de camp nomade</French>
+		<German>Nomadenlager erschaffen</German>
+		<Italian>Create Nomad Camp</Italian>
+		<Spanish>Create Nomad Camp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_NOMAD_CAMP_PEDIA</Tag>
+		<English>This spell causes a group of nomads to create a camp in a desert tile within your territory. They provide small amounts of each yield and allow access to the Incense resource. Nomad Camps cannot be created adjacent to any other Nomad Camp or on tiles that contain floodplains.\</English>
+		<French>This spell causes a group of nomads to create a camp in a desert tile within your territory. They provide small amounts of each yield and allow access to the Incense resource. Nomad Camps cannot be created adjacent to any other Nomad Camp or on tiles that contain floodplains.</French>
+		<German>Dieser Zauber veranlasst eine Gruppe von Nomaden, ein Lager in einem Wüstenfeld innerhalb des eigenen Territoriums zuerrichten. Dieses liefert kleine Mengen von jeder Ressource und ermöglicht die Gewinnung von Weihrauch. Nomadenlager können nicht auf Flußfeldern oder angrenzend an bereits vorhandene Nomadenlager errichtet werden.</German>
+		<Italian>This spell causes a group of nomads to create a camp in a desert tile within your territory. They provide small amounts of each yield and allow access to the Incense resource. Nomad Camps cannot be created adjacent to any other Nomad Camp or on tiles that contain floodplains.</Italian>
+		<Spanish>This spell causes a group of nomads to create a camp in a desert tile within your territory. They provide small amounts of each yield and allow access to the Incense resource. Nomad Camps cannot be created adjacent to any other Nomad Camp or on tiles that contain floodplains.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_NOMAD_CAMP_HELP</Tag>
+		<English>Creates a Nomad Camp in the tile</English>
+		<French>Crée un camp nomade sur la case</French>
+		<German>Erschafft ein Nomandenlager auf dem Feld</German>
+		<Italian>Creates a Nomad Camp in the tile</Italian>
+		<Spanish>Creates a Nomad Camp in the tile</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CREATION1</Tag>
+		<English>Creation I</English>
+		<French>Création I</French>
+		<German>Schöpfung I</German>
+		<Italian>Creation I</Italian>
+		<Spanish>Creation I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CREATION2</Tag>
+		<English>Creation II</English>
+		<French>Création II</French>
+		<German>Schöpfung II</German>
+		<Italian>Creation II</Italian>
+		<Spanish>Creation II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CREATION3</Tag>
+		<English>Creation III</English>
+		<French>Création III</French>
+		<German>Schöpfung III</German>
+		<Italian>Creation III</Italian>
+		<Spanish>Creation III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DIMENSIONAL1</Tag>
+		<English>Dimensional I</English>
+		<French>Dimensionnel I</French>
+		<German>Dimension I</German>
+		<Italian>Dimensional I</Italian>
+		<Spanish>Dimensional I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DIMENSIONAL2</Tag>
+		<English>Dimensional II</English>
+		<French>Dimensionnel II</French>
+		<German>Dimension II</German>
+		<Italian>Dimensional II</Italian>
+		<Spanish>Dimensional II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DIMENSIONAL3</Tag>
+		<English>Dimensional III</English>
+		<French>Dimensionnel III</French>
+		<German>Dimension III</German>
+		<Italian>Dimensional III</Italian>
+		<Spanish>Dimensional III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ICE1</Tag>
+		<English>Ice I</English>
+		<French>Glace I</French>
+		<German>Eis I</German>
+		<Italian>Ice I</Italian>
+		<Spanish>Ice I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ICE2</Tag>
+		<English>Ice II</English>
+		<French>Glace II</French>
+		<German>Eis II</German>
+		<Italian>Ice II</Italian>
+		<Spanish>Ice II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ICE3</Tag>
+		<English>Ice III</English>
+		<French>Glace III</French>
+		<German>Eis III</German>
+		<Italian>Ice III</Italian>
+		<Spanish>Ice III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FORCE1</Tag>
+		<English>Force I</English>
+		<French>Force I</French>
+		<German>Macht I</German>
+		<Italian>Force I</Italian>
+		<Spanish>Force I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FORCE2</Tag>
+		<English>Force II</English>
+		<French>Force II</French>
+		<German>Macht II</German>
+		<Italian>Force II</Italian>
+		<Spanish>Force II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FORCE3</Tag>
+		<English>Force III</English>
+		<French>Force III</French>
+		<German>Macht III</German>
+		<Italian>Force III</Italian>
+		<Spanish>Force III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STASIS</Tag>
+		<English>Stasis</English>
+		<French>Stase</French>
+		<German>Stasis</German>
+		<Italian>Stasis</Italian>
+		<Spanish>Stasis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNSTOPPABLE</Tag>
+		<English>Unstoppable</English>
+		<French>Unstoppable</French>
+		<German>Unaufhaltsam</German>
+		<Italian>Unstoppable</Italian>
+		<Spanish>Unstoppable</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_GATE</Tag>
+		<English>Gate</English>
+		<French>Portail</French>
+		<German>Tor durch den &#196;ther</German>
+		<Italian>Gate</Italian>
+		<Spanish>Gate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_GATE_PEDIA</Tag>
+		<English>Opening a gate across the ether allows instantaneous travel between two points. The secret of opening the gate however is a jealously guarded secret known only to a few archmages.</English>
+		<French>Opening a gate across the ether allows instantaneous travel between two points. The secret of opening the gate however is a jealously guarded secret known only to a few archmages.</French>
+		<German>Das öffnen eines Tores durch den äther erlaubt den augenblicklichen Ortswechsel zwischen zwei solchen Toren. Das Geheimnis, wie solche Tore geöffnet werden, wird jedoch von einigen wenigen Erzmagiern eifersüchtig gehütet.</German>
+		<Italian>Opening a gate across the ether allows instantaneous travel between two points. The secret of opening the gate however is a jealously guarded secret known only to a few archmages.</Italian>
+		<Spanish>Opening a gate across the ether allows instantaneous travel between two points. The secret of opening the gate however is a jealously guarded secret known only to a few archmages.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_GATE_STRATEGY</Tag>
+		<English>The dimensional gate allows early use of teleportation between cities, before the availability of Obsidian gates or the Nexus. Once these tools are available, the dimensional gate still allows additional units to be transported per turn.</English>
+		<French>The dimensional gate allows early use of teleportation between cities, before the availability of Obsidian gates or the Nexus. Once these tools are available, the dimensional gate still allows additional units to be transported per turn.</French>
+		<German>Das Dimensionstor erlaubt früh die Teleportation zwischen Städten, noch vor der Verfügbarkeit von Obsidiantoren oder dem Nexus. Wenn diese Bauten einmal verfügbar sind, können durch das Tor durch den &#196;ther noch immer zusätzliche Einheiten pro Runde transportiert werden.</German>
+		<Italian>The dimensional gate allows early use of teleportation between cities, before the availability of Obsidian gates or the Nexus. Once these tools are available, the dimensional gate still allows additional units to be transported per turn.</Italian>
+		<Spanish>The dimensional gate allows early use of teleportation between cities, before the availability of Obsidian gates or the Nexus. Once these tools are available, the dimensional gate still allows additional units to be transported per turn.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DETERMINATION</Tag>
+		<English>Determination</English>
+		<French>Détermination</French>
+		<German>Enschlossenheit</German>
+		<Italian>Determination</Italian>
+		<Spanish>Determination</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DETERMINATION_PEDIA</Tag>
+		<English>The guards stood around the body. A single man, a small man - nothing special. Except that he'd just smashed his way through the barracks door and slain half a dozen armoured guards before finally succumbing to his injuries. Surely some dread magic had fuelled his attack.</English>
+		<French>The guards stood around the body. A single man, a small man - nothing special. Except that he'd just smashed his way through the barracks door and slain half a dozen armoured guards before finally succumbing to his injuries. Surely some dread magic had fuelled his attack.</French>
+		<German>Die Wachen standen um den Körper herum. Ein einzelner Mann, ein kleiner Mann - nichts besonderes. Naja, außer, daß er sich gerade den Weg durch die Kasernentür freigekämpft und ein halbes Dutzend gut gepanzerter Wachen erschlagen hatte, bevor er seinen Verletzungen erlag. Mit Sicherheit hatte eine furchtbare Magie seinen Angriff begleitet.</German>
+		<Italian>The guards stood around the body. A single man, a small man - nothing special. Except that he'd just smashed his way through the barracks door and slain half a dozen armoured guards before finally succumbing to his injuries. Surely some dread magic had fuelled his attack.</Italian>
+		<Spanish>The guards stood around the body. A single man, a small man - nothing special. Except that he'd just smashed his way through the barracks door and slain half a dozen armoured guards before finally succumbing to his injuries. Surely some dread magic had fuelled his attack.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DETERMINATION_STRATEGY</Tag>
+		<English>This spell grants the "Unstoppable" promotion, allowing a unit to inflict collateral damage and ignore first strikes. Ideal for assaulting a well defended position with weaker troops.</English>
+		<French>This spell grants the "Unstoppable" promotion, allowing a unit to inflict collateral damage and ignore first strikes. Ideal for assaulting a well defended position with weaker troops.</French>
+		<German>Dieser Zauber fügt die "Unaufhaltsam"-Beförderung hinzu, die es der Einheit erlaubt, Kollateralschaden zu verursachen und Erstangriffe zu verhindern. Er ist ideal, um gut verteidigte Positionen mit schwächeren Truppen einzunehmen.</German>
+		<Italian>This spell grants the "Unstoppable" promotion, allowing a unit to inflict collateral damage and ignore first strikes. Ideal for assaulting a well defended position with weaker troops.</Italian>
+		<Spanish>This spell grants the "Unstoppable" promotion, allowing a unit to inflict collateral damage and ignore first strikes. Ideal for assaulting a well defended position with weaker troops.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FROZEN_LANDS_ICE3</Tag>
+		<English>Frozen Lands (Ice III)</English>
+		<French>Terres gelées (Glace III)</French>
+		<German>Gefrorene Lande (Ice III)</German>
+		<Italian>Frozen Lands (Ice III)</Italian>
+		<Spanish>Frozen Lands (Ice III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FROZEN_LANDS_MASTER</Tag>
+		<English>Frozen Lands (Master of Ice)</English>
+		<French>Terres gelées (Maître de la Glace)</French>
+		<German>Gefrorene Lande (Master of Ice)</German>
+		<Italian>Frozen Lands (Master of Ice)</Italian>
+		<Spanish>Frozen Lands (Master of Ice)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FROZEN_LANDS_ICE3_HELP</Tag>
+		<English>[ICON_BULLET]Temporarily and randomly converts nearby terrain to taiga or tundra.[NEWLINE][ICON_BULLET]Has no effect on civilizations with whom you are not at war.</English>
+		<French>[ICON_BULLET]Temporarily and randomly converts nearby terrain to taiga or tundra.[NEWLINE][ICON_BULLET]Has no effect on civilizations with whom you are not at war.</French>
+		<German>[ICON_BULLET]Temporarily and randomly converts nearby terrain to taiga or tundra.[NEWLINE][ICON_BULLET]Has no effect on civilizations with whom you are not at war.</German>
+		<Italian>[ICON_BULLET]Temporarily and randomly converts nearby terrain to taiga or tundra.[NEWLINE][ICON_BULLET]Has no effect on civilizations with whom you are not at war.</Italian>
+		<Spanish>[ICON_BULLET]Temporarily and randomly converts nearby terrain to taiga or tundra.[NEWLINE][ICON_BULLET]Has no effect on civilizations with whom you are not at war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FROZEN_LANDS_MASTER_HELP</Tag>
+		<English>[ICON_BULLET]Permanently and randomly converts nearby terrain to taiga or tundra.[NEWLINE][ICON_BULLET]Has no effect on civilizations with whom you are not at war.</English>
+		<French>[ICON_BULLET]Permanently and randomly converts nearby terrain to taiga or tundra.[NEWLINE][ICON_BULLET]Has no effect on civilizations with whom you are not at war.</French>
+		<German>[ICON_BULLET]Permanently and randomly converts nearby terrain to taiga or tundra.[NEWLINE][ICON_BULLET]Has no effect on civilizations with whom you are not at war.</German>
+		<Italian>[ICON_BULLET]Permanently and randomly converts nearby terrain to taiga or tundra.[NEWLINE][ICON_BULLET]Has no effect on civilizations with whom you are not at war.</Italian>
+		<Spanish>[ICON_BULLET]Permanently and randomly converts nearby terrain to taiga or tundra.[NEWLINE][ICON_BULLET]Has no effect on civilizations with whom you are not at war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FROZEN_LANDS_ICE3_PEDIA</Tag>
+		<English>The wind blew hard upon the land, forcing warmth from flesh and driving the people from their fields. The Illians had arrived weeks before, demanding that Brookden surrendered to their icy god. Dannmos had turned them away and set about preparing for a potential siege, but had not expected to be sieged by the weather itself. A whole harvest had been lost overnight and his people sheltered in their homes, trying to find whatever warmth they could.</English>
+		<French>Le vent soufflait durement sur les terres, aspirant la chaleur de la chair et obligeant les gens à fuir leurs propriétés. Les Illians étaient arrivés il y a quelques semaines, demandant que Brookden se convertisse à leur dieu gelé. Danmos refusa et prépara la ville à un possible siège, mais n'imaginait pas que le siège viendrait du temps lui même. Une récolte complète fut perdue sur la nuit et son peuple se calfeutrait dans leurs maisons, essayant de se réchauffer par tous les moyens.</French>
+		<German>Der Wind blies hart über das Land, trieb die Wärme aus den Körpern und die Leute von den Feldern. Die Illianer waren vor Wochen angekommen und forderten, daß sich Brookden ihrem Gott des Eises ergeben möge. Dannmos hatte sie weggeschickt und Vorbereitungen für eine mögliche Belagerung getroffen, aber er hatte nicht erwartet, vom Wetter selbst belagert zu werden. Eine ganze Ernte war über Nacht verloren und sein Volk verkroch sich in ihren Häusern, sie versuchten, alle Wärme zu finden, die sie finden konnten.</German>
+		<Italian>The wind blew hard upon the land, forcing warmth from flesh and driving the people from their fields. The Illians had arrived weeks before, demanding that Brookden surrendered to their icy god. Dannmos had turned them away and set about preparing for a potential siege, but had not expected to be sieged by the weather itself. A whole harvest had been lost overnight and his people sheltered in their homes, trying to find whatever warmth they could.</Italian>
+		<Spanish>The wind blew hard upon the land, forcing warmth from flesh and driving the people from their fields. The Illians had arrived weeks before, demanding that Brookden surrendered to their icy god. Dannmos had turned them away and set about preparing for a potential siege, but had not expected to be sieged by the weather itself. A whole harvest had been lost overnight and his people sheltered in their homes, trying to find whatever warmth they could.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FROZEN_LANDS_ICE3_STRATEGY</Tag>
+		<English>Frozen Lands with Ice III allows the player to put an opponent's economy "on ice" by temporarily and randomly converting nearby terrain to taiga or tundra. The spell has no effect on nations with whom you are not at war.</English>
+		<French>Frozen Lands with Ice III allows the player to put an opponent's economy "on ice" by temporarily and randomly converting nearby terrain to taiga or tundra. The spell has no effect on nations with whom you are not at war.</French>
+		<German>Frozen Lands with Ice III allows the player to put an opponent's economy "on ice" by temporarily and randomly converting nearby terrain to taiga or tundra. The spell has no effect on nations with whom you are not at war.</German>
+		<Italian>Frozen Lands with Ice III allows the player to put an opponent's economy "on ice" by temporarily and randomly converting nearby terrain to taiga or tundra. The spell has no effect on nations with whom you are not at war.</Italian>
+		<Spanish>Frozen Lands with Ice III allows the player to put an opponent's economy "on ice" by temporarily and randomly converting nearby terrain to taiga or tundra. The spell has no effect on nations with whom you are not at war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FROZEN_LANDS_MASTER_PEDIA</Tag>
+		<English>There are few archmages powerful enough to fiddle with the weather and transform large areas into cold and empty nothing. Whether through bloodline or by patient adoration of the icy gods, they all can be persuaded with plenty of coin on hand. And this is well worth the effort since their magic is unlike that of the lesser Mulyalfar Priestesses or even the Priests of Winter; no, these are true masters of ice who can actually permanently scar the landscape with a cold curse.</English>
+		<French>There are few archmages powerful enough to fiddle with the weather and transform large areas into cold and empty nothing. Whether through bloodline or by patient adoration of the icy gods, they all can be persuaded with plenty of coin on hand. And this is well worth the effort since their magic is unlike that of the lesser Mulyalfar Priestesses or even the Priests of Winter; no, these are true masters of ice who can actually permanently scar the landscape with a cold curse.</French>
+		<German>There are few archmages powerful enough to fiddle with the weather and transform large areas into cold and empty nothing. Whether through bloodline or by patient adoration of the icy gods, they all can be persuaded with plenty of coin on hand. And this is well worth the effort since their magic is unlike that of the lesser Mulyalfar Priestesses or even the Priests of Winter; no, these are true masters of ice who can actually permanently scar the landscape with a cold curse.</German>
+		<Italian>There are few archmages powerful enough to fiddle with the weather and transform large areas into cold and empty nothing. Whether through bloodline or by patient adoration of the icy gods, they all can be persuaded with plenty of coin on hand. And this is well worth the effort since their magic is unlike that of the lesser Mulyalfar Priestesses or even the Priests of Winter; no, these are true masters of ice who can actually permanently scar the landscape with a cold curse.</Italian>
+		<Spanish>There are few archmages powerful enough to fiddle with the weather and transform large areas into cold and empty nothing. Whether through bloodline or by patient adoration of the icy gods, they all can be persuaded with plenty of coin on hand. And this is well worth the effort since their magic is unlike that of the lesser Mulyalfar Priestesses or even the Priests of Winter; no, these are true masters of ice who can actually permanently scar the landscape with a cold curse.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FROZEN_LANDS_MASTER_STRATEGY</Tag>
+		<English>Frozen Lands with Ice III allows the player to put an opponent's economy "on ice" by permanently and randomly converting nearby terrain to taiga or tundra. The spell has no effect on nations with whom you are not at war.</English>
+		<French>Frozen Lands with Ice III allows the player to put an opponent's economy "on ice" by permanently and randomly converting nearby terrain to taiga or tundra. The spell has no effect on nations with whom you are not at war.</French>
+		<German>Frozen Lands with Ice III allows the player to put an opponent's economy "on ice" by permanently and randomly converting nearby terrain to taiga or tundra. The spell has no effect on nations with whom you are not at war.</German>
+		<Italian>Frozen Lands with Ice III allows the player to put an opponent's economy "on ice" by permanently and randomly converting nearby terrain to taiga or tundra. The spell has no effect on nations with whom you are not at war.</Italian>
+		<Spanish>Frozen Lands with Ice III allows the player to put an opponent's economy "on ice" by permanently and randomly converting nearby terrain to taiga or tundra. The spell has no effect on nations with whom you are not at war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SUMMON_FROSTLING</Tag>
+		<English>Summon Frostling</English>
+		<French>Évocation de gelbionte</French>
+		<German>Frostling beschwören</German>
+		<Italian>Summon Frostling</Italian>
+		<Spanish>Summon Frostling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_GROWTH</Tag>
+		<English>Growth</English>
+		<French>Croissance</French>
+		<German>Magische Kornkammer</German>
+		<Italian>Growth</Italian>
+		<Spanish>Growth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_GROWTH_PEDIA</Tag>
+		<English>Growth creates a temporary effect (represented as a building) in the city which remains until the caster leaves. It increases the amount of food kept upon population growth as well as offering dramatic health benefits.</English>
+		<French>Growth creates a temporary effect (represented as a building) in the city which remains until the caster leaves. It increases the amount of food kept upon population growth as well as offering dramatic health benefits.</French>
+		<German>Der Zauber "Magische Kornkammer" erzeugt einen vorübergehenden Effekt (der als Gebäude repräsentiert wird) in der Stadt, der anhält, bis der Zaubernde die Stadt verläßt. Er erhöht die Menge, die nach Bevölkerungswachstum in den Vorratskammern verbleibt, ebenso wie die Gesundheit dramatisch gesteigert wird.</German>
+		<Italian>Growth creates a temporary effect (represented as a building) in the city which remains until the caster leaves. It increases the amount of food kept upon population growth as well as offering dramatic health benefits.</Italian>
+		<Spanish>Growth creates a temporary effect (represented as a building) in the city which remains until the caster leaves. It increases the amount of food kept upon population growth as well as offering dramatic health benefits.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_BIRTH</Tag>
+		<English>Birth</English>
+		<French>Naissance</French>
+		<German>Entbindung</German>
+		<Italian>Birth</Italian>
+		<Spanish>Birth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_BIRTH_PEDIA</Tag>
+		<English>The Birth spell allows rapid growth of new cities - upto a maximum size of 8. The new population must be maintainable and will consume food as normal however, so planning ahead is advised. This can be incredibly useful when combined with certain races or civics that allow population to be traded for other benefits - though be wary of unhappiness that may arise from overuse of these methods.[NEWLINE][NEWLINE]The spell cannot be used in cities belonging to Fallow players.</English>
+		<French>The Birth spell allows rapid growth of new cities - upto a maximum size of 8. The new population must be maintainable and will consume food as normal however, so planning ahead is advised. This can be incredibly useful when combined with certain races or civics that allow population to be traded for other benefits - though be wary of unhappiness that may arise from overuse of these methods.[NEWLINE][NEWLINE]The spell cannot be used in cities belonging to Fallow players.</French>
+		<German>Der Zauber "Entbindung" erlaubt ein rasantes Wachstum neuer Städte - bis zu einem Maximum der Größe 8. Die neue Population muß unterhalten werden können und wird soviel Nahrung wie üblich verbrauchen, also sollte man geschickt im Voraus planen. Er kann in Kombination mit der Wahl bestimmter Rassen oder Zivilisationen ungeheuer nützlich sein, zum Beispiel, wenn man Bevölkerung gegen andere Vorteile wie Erfahrung oder ähnliches eintauschen kann. Dennoch sollte man sich immer der Gefahr von Unzufriedenheit bewußt sein, die bei übertriebener Anwendung dieser Methoden aufkommen kann.[NEWLINE][NEWLINE]Der Zauber kann nicht in Städten von verbündeten Spielern gewirkt werden.</German>
+		<Italian>The Birth spell allows rapid growth of new cities - upto a maximum size of 8. The new population must be maintainable and will consume food as normal however, so planning ahead is advised. This can be incredibly useful when combined with certain races or civics that allow population to be traded for other benefits - though be wary of unhappiness that may arise from overuse of these methods.[NEWLINE][NEWLINE]The spell cannot be used in cities belonging to Fallow players.</Italian>
+		<Spanish>The Birth spell allows rapid growth of new cities - upto a maximum size of 8. The new population must be maintainable and will consume food as normal however, so planning ahead is advised. This can be incredibly useful when combined with certain races or civics that allow population to be traded for other benefits - though be wary of unhappiness that may arise from overuse of these methods.[NEWLINE][NEWLINE]The spell cannot be used in cities belonging to Fallow players.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FERTILITY</Tag>
+		<English>Fertility</English>
+		<French>Fertilité</French>
+		<German>Fruchtbarkeit</German>
+		<Italian>Fertility</Italian>
+		<Spanish>Fertility</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FERTILITY_PEDIA</Tag>
+		<English>The fertility spell allows you to swap one type of grain or animal resource for another, allowing you to gain maximum benefit from the resources.</English>
+		<French>Le sort de Fertilité vous permet d'échanger un type d'animal ou de ressource pour un autre, vous permettant de tirer le bénéfice maximum des ressources.</French>
+		<German>Der Zauber "Fruchtbarkeit" erlaubt es, eine Art einer Getreide- oder Tierressource gegen eine andere zu tauschen. Dadurch kann man den maximalen Vorteil aller eigenen Ressourcen ausnutzen.</German>
+		<Italian>The fertility spell allows you to swap one type of grain or animal resource for another, allowing you to gain maximum benefit from the resources.</Italian>
+		<Spanish>The fertility spell allows you to swap one type of grain or animal resource for another, allowing you to gain maximum benefit from the resources.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FERTILITY_HELP</Tag>
+		<English>[ICON_BULLET]Converts Grain and Animal resources to a different type</English>
+		<French>[ICON_BULLET]Converts Grain and Animal resources to a different type</French>
+		<German>[ICON_BULLET]Wandelt Korn- und Tierresssourcen in einen anderen Typ um.</German>
+		<Italian>[ICON_BULLET]Converts Grain and Animal resources to a different type</Italian>
+		<Spanish>[ICON_BULLET]Converts Grain and Animal resources to a different type</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_NEXUS_PORTAL</Tag>
+		<English>Nexus Portal</English>
+		<French>Portail du Nexus</French>
+		<German>Portal in den Nexus</German>
+		<Italian>Nexus Portal</Italian>
+		<Spanish>Nexus Portal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DIMENSIONAL_GATE</Tag>
+		<English>Dimensional Gate</English>
+		<French>Portail Dimensionnel</French>
+		<German>Dimensionstor</German>
+		<Italian>Dimensional Gate</Italian>
+		<Spanish>Dimensional Gate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GROWTH</Tag>
+		<English>Growth</English>
+		<French>Croissance</French>
+		<German>Kornkammer</German>
+		<Italian>Growth</Italian>
+		<Spanish>Growth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_ICE</Tag>
+		<English>Build Ice Node</English>
+		<French>Construire N&#156;ud de Glace</French>
+		<German>Knoten des Eises bauen</German>
+		<Italian>Build Ice Node</Italian>
+		<Spanish>Build Ice Node</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_FORCE</Tag>
+		<English>Build Force Node</English>
+		<French>Construire N&#156;ud de Force</French>
+		<German>Knoten der Macht bauen</German>
+		<Italian>Build Force Node</Italian>
+		<Spanish>Build Force Node</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_INDUSTRY</Tag>
+		<English>Industry</English>
+		<French>Industrie</French>
+		<German>Industrie</German>
+		<Italian>Industry</Italian>
+		<Spanish>Industry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_INDUSTRY_STRATEGY</Tag>
+		<English>With the development of ever more complex machinery, many laborious tasks can now be performed far more easily.</English>
+		<French>With the development of ever more complex machinery, many laborious tasks can now be performed far more easily.</French>
+		<German>Mit der Entwicklung von immer komplexeren Maschinen können viele anstrengende Arbeiten viel viel leichter und mit weniger Aufwand erledigt werden.</German>
+		<Italian>With the development of ever more complex machinery, many laborious tasks can now be performed far more easily.</Italian>
+		<Spanish>With the development of ever more complex machinery, many laborious tasks can now be performed far more easily.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RIVERSIDE_HELP</Tag>
+		<English>[ICON_BULLET]Can only be built in a riverside city</English>
+		<French>[ICON_BULLET]Nécessite une rivière</French>
+		<German>[ICON_BULLET]Kann nur in einer Stadt in Flussnähe errichtet werden</German>
+		<Italian>[ICON_BULLET]Can only be built in a riverside city</Italian>
+		<Spanish>[ICON_BULLET]Can only be built in a riverside city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANBUILD</Tag>
+		<English>May Construct Special Building</English>
+		<French>May Construct Special Building</French>
+		<German>Kann Spezialgebäude errichten</German>
+		<Italian>May Construct Special Building</Italian>
+		<Spanish>May Construct Special Building</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANTBUILD</Tag>
+		<English>Cannot build special</English>
+		<French>Cannot build special</French>
+		<German>Kann kein Spezialgebäude errichten</German>
+		<Italian>Cannot build special</Italian>
+		<Spanish>Cannot build special</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANBUILD_HELP</Tag>
+		<English>[ICON_BULLET]Unit can construct a building</English>
+		<French>[ICON_BULLET]Unit can construct a building</French>
+		<German>[ICON_BULLET]Einheit kann ein Gebäude errichten</German>
+		<Italian>[ICON_BULLET]Unit can construct a building</Italian>
+		<Spanish>[ICON_BULLET]Unit can construct a building</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARRACK_STRATEGY</Tag>
+		<English>The Carrack is the first true warship to take to the seas. Able to bombard enemy vessels and city fortifications from adjacent tiles and the highest raw combat availble for its tier.</English>
+		<French>The Carrack is the first true warship to take to the seas. Able to bombard enemy vessels and city fortifications from adjacent tiles and the highest raw combat availble for its tier.</French>
+		<German>Die Karacke ist das erste echte Kriegsschiff der Schifffahrt. Es kann feindliche Gefährte und Stadtbefestigungen von angrenzenden Feldern aus bombardieren und ist einfach das beste Schiff in dieser Phase des Spiels.</German>
+		<Italian>The Carrack is the first true warship to take to the seas. Able to bombard enemy vessels and city fortifications from adjacent tiles and the highest raw combat availble for its tier.</Italian>
+		<Spanish>The Carrack is the first true warship to take to the seas. Able to bombard enemy vessels and city fortifications from adjacent tiles and the highest raw combat availble for its tier.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARRACK</Tag>
+		<English>Carrack</English>
+		<French>
+			<Text>Caraque:Caraques</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>
+			<Text>Karacke</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Caracca:Caracche</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Carraca:Carracas</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CARRACK_PEDIA</Tag>
+		<English>[TAB]These four-masted sailing ships are the first ships able to reliably navigate the open ocean. Although small by some standards, the Carrack affords enough space for crew, cargo and weaponry. Because the ship rises high out of the water it is nearly impossible for smaller ships to board a carrack.</English>
+		<French>[TAB]These four-masted sailing ships are the first ships able to reliably navigate the open ocean. Although small by some standards, the Carrack affords enough space for crew, cargo and weaponry. Because the ship rises high out of the water it is nearly impossible for smaller ships to board a carrack.</French>
+		<German>[TAB]Diese viermastigen Segelschiffe sind die ersten Schiffe, die zuverlässig auch im offenen Ozean navigieren können. Obwohl sie nach bestimmten Standards klein wirken, bieten sie doch genug Platz für Crew, Ladung und Bewaffnung. Da die Schiffe sehr hoch aus dem Wasser rage, ist es für kleinere Schiffe so gut wie unmöglich, eine Karacke zu entern.</German>
+		<Italian>[TAB]These four-masted sailing ships are the first ships able to reliably navigate the open ocean. Although small by some standards, the Carrack affords enough space for crew, cargo and weaponry. Because the ship rises high out of the water it is nearly impossible for smaller ships to board a carrack.</Italian>
+		<Spanish>[TAB]These four-masted sailing ships are the first ships able to reliably navigate the open ocean. Although small by some standards, the Carrack affords enough space for crew, cargo and weaponry. Because the ship rises high out of the water it is nearly impossible for smaller ships to board a carrack.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FRIGATE_STRATEGY</Tag>
+		<English>Frigates are considerably stronger than the earlier Carrack and better suited to patrol and escort roles, being faster and enjoying a bonus against transport vessels.</English>
+		<French>Frigates are considerably stronger than the earlier Carrack and better suited to patrol and escort roles, being faster and enjoying a bonus against transport vessels.</French>
+		<German>Fregatten sind deutlich stärker als die frühen Karacken und besser geeignet für Patrouillen und Eskorten, da sie schneller sind und einen Bonus gegen Transportschiffe erhalten.</German>
+		<Italian>Frigates are considerably stronger than the earlier Carrack and better suited to patrol and escort roles, being faster and enjoying a bonus against transport vessels.</Italian>
+		<Spanish>Frigates are considerably stronger than the earlier Carrack and better suited to patrol and escort roles, being faster and enjoying a bonus against transport vessels.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TRADESHIP</Tag>
+		<English>Trade Ship</English>
+		<French>Navire Marchand</French>
+		<German>Handelsschiff</German>
+		<Italian>Trade Ship</Italian>
+		<Spanish>Trade Ship</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TRADESHIP_STRATEGY</Tag>
+		<English>Trade can be the lifeblood of a civilization - these ships can perform trade missions in foreign ports. The amount of gold earned is increased if the target city is a long distance from your capital and is a large, prosperous city.</English>
+		<French>Trade can be the lifeblood of a civilization - these ships can perform trade missions in foreign ports. The amount of gold earned is increased if the target city is a long distance from your capital and is a large, prosperous city.</French>
+		<German>Handel kann der Lebenssaft einer Zivilisation sein - diese Schiffe können Handeslmissionen zu fremden Häfen ausführen. Dabei errechnet sich der Ertrag an Gold durch die Entfernung von der eigenen Hauptstadt und der Größe der Stadt. In wenigen Worten: Je größer und reicher und weiter entfernt, desto besser.</German>
+		<Italian>Trade can be the lifeblood of a civilization - these ships can perform trade missions in foreign ports. The amount of gold earned is increased if the target city is a long distance from your capital and is a large, prosperous city.</Italian>
+		<Spanish>Trade can be the lifeblood of a civilization - these ships can perform trade missions in foreign ports. The amount of gold earned is increased if the target city is a long distance from your capital and is a large, prosperous city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TRADESHIP_PEDIA</Tag>
+		<English>A rough grey sea[NEWLINE]And leaden sky.[NEWLINE]A wallowing ship[NEWLINE]And sea birds cry --[NEWLINE]Fogbanks to leeward,[NEWLINE]Icebergs nearby,[NEWLINE]Slow in the passage,[NEWLINE]Decks never dry.[PARAGRAPH:1]Deckload secure,[NEWLINE]Hatches battened down,[NEWLINE]Booms in their cradles[NEWLINE]And officers frown;[NEWLINE]Silent quartermaster.[NEWLINE]Thoughts grim and long,[NEWLINE]Freshening gale,[NEWLINE]Thin rigging song.[PARAGRAPH:1]Oilskins and seaboots,[NEWLINE]Rig of the day,[NEWLINE]Sharp is the lookout--[NEWLINE]Convoy array.[NEWLINE]Long line of ships,[NEWLINE]Guns sweeping the way,[NEWLINE]Fogbound horizon,[NEWLINE]Desolate, grey.[PARAGRAPH:1][TAB]-- Convoy, Anon  </English>
+		<French>A rough grey sea[NEWLINE]And leaden sky.[NEWLINE]A wallowing ship[NEWLINE]And sea birds cry --[NEWLINE]Fogbanks to leeward,[NEWLINE]Icebergs nearby,[NEWLINE]Slow in the passage,[NEWLINE]Decks never dry.[PARAGRAPH:1]Deckload secure,[NEWLINE]Hatches battened down,[NEWLINE]Booms in their cradles[NEWLINE]And officers frown;[NEWLINE]Silent quartermaster.[NEWLINE]Thoughts grim and long,[NEWLINE]Freshening gale,[NEWLINE]Thin rigging song.[PARAGRAPH:1]Oilskins and seaboots,[NEWLINE]Rig of the day,[NEWLINE]Sharp is the lookout--[NEWLINE]Convoy array.[NEWLINE]Long line of ships,[NEWLINE]Guns sweeping the way,[NEWLINE]Fogbound horizon,[NEWLINE]Desolate, grey.[PARAGRAPH:1][TAB]-- Convoy, Anon</French>
+		<German>A rough grey sea[NEWLINE]And leaden sky.[NEWLINE]A wallowing ship[NEWLINE]And sea birds cry --[NEWLINE]Fogbanks to leeward,[NEWLINE]Icebergs nearby,[NEWLINE]Slow in the passage,[NEWLINE]Decks never dry.[PARAGRAPH:1]Deckload secure,[NEWLINE]Hatches battened down,[NEWLINE]Booms in their cradles[NEWLINE]And officers frown;[NEWLINE]Silent quartermaster.[NEWLINE]Thoughts grim and long,[NEWLINE]Freshening gale,[NEWLINE]Thin rigging song.[PARAGRAPH:1]Oilskins and seaboots,[NEWLINE]Rig of the day,[NEWLINE]Sharp is the lookout--[NEWLINE]Convoy array.[NEWLINE]Long line of ships,[NEWLINE]Guns sweeping the way,[NEWLINE]Fogbound horizon,[NEWLINE]Desolate, grey.[PARAGRAPH:1][TAB]-- Convoy, Anon</German>
+		<Italian>A rough grey sea[NEWLINE]And leaden sky.[NEWLINE]A wallowing ship[NEWLINE]And sea birds cry --[NEWLINE]Fogbanks to leeward,[NEWLINE]Icebergs nearby,[NEWLINE]Slow in the passage,[NEWLINE]Decks never dry.[PARAGRAPH:1]Deckload secure,[NEWLINE]Hatches battened down,[NEWLINE]Booms in their cradles[NEWLINE]And officers frown;[NEWLINE]Silent quartermaster.[NEWLINE]Thoughts grim and long,[NEWLINE]Freshening gale,[NEWLINE]Thin rigging song.[PARAGRAPH:1]Oilskins and seaboots,[NEWLINE]Rig of the day,[NEWLINE]Sharp is the lookout--[NEWLINE]Convoy array.[NEWLINE]Long line of ships,[NEWLINE]Guns sweeping the way,[NEWLINE]Fogbound horizon,[NEWLINE]Desolate, grey.[PARAGRAPH:1][TAB]-- Convoy, Anon</Italian>
+		<Spanish>A rough grey sea[NEWLINE]And leaden sky.[NEWLINE]A wallowing ship[NEWLINE]And sea birds cry --[NEWLINE]Fogbanks to leeward,[NEWLINE]Icebergs nearby,[NEWLINE]Slow in the passage,[NEWLINE]Decks never dry.[PARAGRAPH:1]Deckload secure,[NEWLINE]Hatches battened down,[NEWLINE]Booms in their cradles[NEWLINE]And officers frown;[NEWLINE]Silent quartermaster.[NEWLINE]Thoughts grim and long,[NEWLINE]Freshening gale,[NEWLINE]Thin rigging song.[PARAGRAPH:1]Oilskins and seaboots,[NEWLINE]Rig of the day,[NEWLINE]Sharp is the lookout--[NEWLINE]Convoy array.[NEWLINE]Long line of ships,[NEWLINE]Guns sweeping the way,[NEWLINE]Fogbound horizon,[NEWLINE]Desolate, grey.[PARAGRAPH:1][TAB]-- Convoy, Anon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCANE_CREW</Tag>
+		<English>Arcane Crew</English>
+		<French>Équipage Arcaniste</French>
+		<German>Magische Crew</German>
+		<Italian>Arcane Crew</Italian>
+		<Spanish>Arcane Crew</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BARRACKS</Tag>
+		<English>Barracks</English>
+		<French>Caserne</French>
+		<German>Kaserne</German>
+		<Italian>Barracks</Italian>
+		<Spanish>Barracks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_JOUSTING_TILT</Tag>
+		<English>Jousting Tilt</English>
+		<French>Lice de joute</French>
+		<German>Tjoste Bahn</German>
+		<Italian>Jousting Tilt</Italian>
+		<Spanish>Jousting Tilt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ACCELERATED</Tag>
+		<English>Accelerated</English>
+		<French>Accéléré</French>
+		<German>Beschleunigt</German>
+		<Italian>Accelerated</Italian>
+		<Spanish>Accelerated</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ACCELERATE</Tag>
+		<English>Accelerate</English>
+		<French>Accélérer</French>
+		<German>Beschleunigen</German>
+		<Italian>Accelerate</Italian>
+		<Spanish>Accelerate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_TURN_ON</Tag>
+		<English>Turn on AI Auto Control?</English>
+		<French>Basculer en mode Jeu Automatique ?</French>
+		<German>KI-Kontrolle aktivieren?</German>
+		<Italian>Turn on AI Auto Control?</Italian>
+		<Spanish>?Activar el Auto Control de la IA?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_TURNS</Tag>
+		<English>How many turns would you like the AI to control?</English>
+		<French>Combien de tours souhaitez-vous que l'ordinateur joue en mode Jeu Automatique ?</French>
+		<German>Wie viele Runden wollt Ihr Euch durch die KI vertreten lassen?</German>
+		<Italian>How many turns would you like the AI to control?</Italian>
+		<Spanish>?CuÃ¡ntos turnos quieres que coja el control la IA?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AIAUTOPLAY_CANCEL</Tag>
+		<English>Cancel</English>
+		<French>Annuler</French>
+		<German>Abbrechen</German>
+		<Italian>Cancel</Italian>
+		<Spanish>Cancelar</Spanish>
+	</TEXT>
+	<!--Esus promotions -->
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RACKETEERING1</Tag>
+		<English>Racketeering I</English>
+		<French>Racketeering I</French>
+		<German>Dunkle Machenschaften I</German>
+		<Italian>Racketeering I</Italian>
+		<Spanish>Racketeering I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RACKETEERING2</Tag>
+		<English>Racketeering II</English>
+		<French>Racketeering II</French>
+		<German>Dunkle Machenschaften II</German>
+		<Italian>Racketeering II</Italian>
+		<Spanish>Racketeering II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RACKETEERING3</Tag>
+		<English>Racketeering III</English>
+		<French>Racketeering III</French>
+		<German>Dunkle Machenschaften III</German>
+		<Italian>Racketeering III</Italian>
+		<Spanish>Racketeering III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FADE_AWAY</Tag>
+		<English>Fade Away</English>
+		<French>Fade Away</French>
+		<German>Entschwinden</German>
+		<Italian>Fade Away</Italian>
+		<Spanish>Fade Away</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DECEITFUL</Tag>
+		<English>Deceitful</English>
+		<French>Deceitful</French>
+		<German>Doppelzüngig</German>
+		<Italian>Deceitful</Italian>
+		<Spanish>Deceitful</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DECEITFUL_HELP</Tag>
+		<English>With Tactics II allows "Misdirection"</English>
+		<French>With Tactics II allows "Misdirection"</French>
+		<German>Mit Taktiken II erlaubt es "Irreführung"</German>
+		<Italian>With Tactics II allows "Misdirection"</Italian>
+		<Spanish>With Tactics II allows "Misdirection"</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FALSE_POSITION</Tag>
+		<English>Misdirection</English>
+		<French>Misdirection</French>
+		<German>Irreführung</German>
+		<Italian>Misdirection</Italian>
+		<Spanish>Misdirection</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SNEAK</Tag>
+		<English>Sneak</English>
+		<French>Infiltration</French>
+		<German>Schleichen</German>
+		<Italian>Sneak</Italian>
+		<Spanish>Sneak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CAMISADE</Tag>
+		<English>Camisade</English>
+		<French>Camisade</French>
+		<German>&#220;berrumpelung</German>
+		<Italian>Camisade</Italian>
+		<Spanish>Camisade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TACTICS1</Tag>
+		<English>Tactics I</English>
+		<French>Tactique I</French>
+		<German>Taktiken I</German>
+		<Italian>Tactics I</Italian>
+		<Spanish>Tactics I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TACTICS2</Tag>
+		<English>Tactics II</English>
+		<French>Tactique II</French>
+		<German>Taktiken II</German>
+		<Italian>Tactics II</Italian>
+		<Spanish>Tactics II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TACTICS3</Tag>
+		<English>Tactics III</English>
+		<French>Tactique III</French>
+		<German>Taktiken III</German>
+		<Italian>Tactics III</Italian>
+		<Spanish>Tactics III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TACTICS1_HELP</Tag>
+		<English>[ICON_BULLET]+15% Defensive Strength</English>
+		<French>[ICON_BULLET]+15% en défense</French>
+		<German>[ICON_BULLET]+15% Verteidigungsstärke</German>
+		<Italian>[ICON_BULLET]+15% Defensive Strength</Italian>
+		<Spanish>[ICON_BULLET]+15% Defensive Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TACTICS2_HELP</Tag>
+		<English>[ICON_BULLET]+20% Defensive Strength</English>
+		<French>[ICON_BULLET]+20% en défense</French>
+		<German>[ICON_BULLET]+20% Verteidigungsstärke</German>
+		<Italian>[ICON_BULLET]+20% Defensive Strength</Italian>
+		<Spanish>[ICON_BULLET]+20% Defensive Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TACTICS3_HELP</Tag>
+		<English>[ICON_BULLET]+30% Defensive Strength</English>
+		<French>[ICON_BULLET]+30% en défense</French>
+		<German>[ICON_BULLET]+30% Verteidigungsstärke</German>
+		<Italian>[ICON_BULLET]+30% Defensive Strength</Italian>
+		<Spanish>[ICON_BULLET]+30% Defensive Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AMBUSH1</Tag>
+		<English>Ambush I</English>
+		<French>Embuscade I</French>
+		<German>Hinterhalt I</German>
+		<Italian>Ambush I</Italian>
+		<Spanish>Ambush I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AMBUSH2</Tag>
+		<English>Ambush II</English>
+		<French>Embuscade II</French>
+		<German>Hinterhalt II</German>
+		<Italian>Ambush II</Italian>
+		<Spanish>Ambush II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AMBUSH1_HELP</Tag>
+		<English>[ICON_BULLET]+1 to Defense strength within Team borders.</English>
+		<French>[ICON_BULLET]+1 en défense, à l'intérieur des frontières de l'équipe.</French>
+		<German>[ICON_BULLET]+1 zur Verteidigungsstärke, wenn innerhalb der Team-Grenzen.</German>
+		<Italian>[ICON_BULLET]+1 to Defense strength within Team borders.</Italian>
+		<Spanish>[ICON_BULLET]+1 to Defense strength within Team borders.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ENLIST</Tag>
+		<English>Enlist</English>
+		<French>Enrôler</French>
+		<German>Einberufung</German>
+		<Italian>Enlist</Italian>
+		<Spanish>Enlist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PAX_DIABOLIS_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifices city (becomes ruins)[NEWLINE][ICON_BULLET]All population become Manes[NEWLINE][ICON_BULLET]Grants peace with the Demonic Hordes.</English>
+		<French>[ICON_BULLET]Sacrifices city (becomes ruins)[NEWLINE][ICON_BULLET]All population become Manes[NEWLINE][ICON_BULLET]Grants peace with the Demonic Hordes.</French>
+		<German>[ICON_BULLET]Opfert Stadt (wird zu Ruine)[NEWLINE][ICON_BULLET]Gesamte Bevölkerung wird zu Manen[NEWLINE][ICON_BULLET]Gewährt Frieden mit der Dämonischen Horde.</German>
+		<Italian>[ICON_BULLET]Sacrifices city (becomes ruins)[NEWLINE][ICON_BULLET]All population become Manes[NEWLINE][ICON_BULLET]Grants peace with the Demonic Hordes.</Italian>
+		<Spanish>[ICON_BULLET]Sacrifices city (becomes ruins)[NEWLINE][ICON_BULLET]All population become Manes[NEWLINE][ICON_BULLET]Grants peace with the Demonic Hordes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TROJAN_HORSE</Tag>
+		<English>Trojan Horse</English>
+		<French>Cheval de Troie</French>
+		<German>Pferd des Lavaeolus</German>
+		<Italian>Trojan Horse</Italian>
+		<Spanish>Trojan Horse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAINT_MOD_GOLD</Tag>
+		<English>[ICON_BULLET]%d1_Mod%% [LINK=CONCEPT_MAINTENANCE]Maintenance[\LINK]: %s2_Num [ICON_GOLD]</English>
+		<French>[ICON_BULLET][LINK=CONCEPT_MAINTENANCE]Entretien[\LINK] %d1_Mod%%: %s2_Num [ICON_GOLD]</French>
+		<German>[ICON_BULLET]%d1_Mod%% [LINK=CONCEPT_MAINTENANCE]Unterhalt[\LINK]: %s2_Num [ICON_GOLD]</German>
+		<Italian>[ICON_BULLET]%d1_Mod%% di [LINK=CONCEPT_MAINTENANCE]mantenimento[\LINK]: %s2_Num [ICON_GOLD]</Italian>
+		<Spanish>[ICON_BULLET]%d1_Mod%% al [LINK=CONCEPT_MAINTENANCE]mantenimiento[\LINK]: %s2_Num [ICON_GOLD]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GOVERNMENT_MAINT_MOD_GOLD</Tag>
+		<English>[ICON_BULLET]Total Maintenance Change: %s1 [ICON_GOLD]</English>
+		<French>[ICON_BULLET]Variation de l'entretien global : %s1 [ICON_GOLD]</French>
+		<German>[ICON_BULLET]Gesamte &#196;nderung Unterhalt: %s1 [ICON_GOLD]</German>
+		<Italian>[ICON_BULLET]Total Maintenance Change: %s1 [ICON_GOLD]</Italian>
+		<Spanish>[ICON_BULLET]Total Maintenance Change: %s1 [ICON_GOLD]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCHERY1</Tag>
+		<English>Archery I</English>
+		<French>Archerie I</French>
+		<German>Bogenschießen I</German>
+		<Italian>Archery I</Italian>
+		<Spanish>Archery I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCHERY2</Tag>
+		<English>Archery II</English>
+		<French>Archerie II</French>
+		<German>Bogenschießen II</German>
+		<Italian>Archery II</Italian>
+		<Spanish>Archery II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCHERY3</Tag>
+		<English>Archery III</English>
+		<French>Archerie III</French>
+		<German>Bogenschießen III</German>
+		<Italian>Archery III</Italian>
+		<Spanish>Archery III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FELLOWSHIP_FORESTER</Tag>
+		<English>Fellowship Warden</English>
+		<French>Gardien de la Communauté</French>
+		<German>Hüter der Gefährten</German>
+		<Italian>Fellowship Warden</Italian>
+		<Spanish>Fellowship Warden</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WARDEN</Tag>
+		<English>Warden</English>
+		<French>Gardien</French>
+		<German>Hüter</German>
+		<Italian>Warden</Italian>
+		<Spanish>Warden</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WARDEN_HELP</Tag>
+		<English>Unit will AutoCast Sanctify.</English>
+		<French>Unit will AutoCast Sanctify.</French>
+		<German>Einheit zaubert automatisch Segnen</German>
+		<Italian>Unit will AutoCast Sanctify.</Italian>
+		<Spanish>Unit will AutoCast Sanctify.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_AUTO_SANCTIFY_ON</Tag>
+		<English>AutoCast: Sanctify</English>
+		<French>AutoCast: Sanctify</French>
+		<German>Automatisch zaubern: Segnen</German>
+		<Italian>AutoCast: Sanctify</Italian>
+		<Spanish>AutoCast: Sanctify</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_AUTO_SANCTIFY_OFF</Tag>
+		<English>End AutoCast: Sanctify</English>
+		<French>End AutoCast: Sanctify</French>
+		<German>Automatisch zaubern beenden: Segnen</German>
+		<Italian>End AutoCast: Sanctify</Italian>
+		<Spanish>End AutoCast: Sanctify</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CHARM_PERSON_HELP</Tag>
+		<English>Targets Charmed cannot attack.</English>
+		<French>[ICON_BULLET]Les cibles charmées ne peuvent pas attaquer.</French>
+		<German>Bezauberte Ziele können nicht angreifen.</German>
+		<Italian>Targets Charmed cannot attack.</Italian>
+		<Spanish>Targets Charmed cannot attack.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_STONESKIN_PEDIA</Tag>
+		<English>The Enlightened Adept will form a sphere of Focus.  The Enlightened Adept will lower this Focus into the Earth, and return with a Will of Stone.  The Enlightened Adept will Spin or Cast this Will of Stone about himself, and form a Shell of Stone.  This Shell of Stone offers true Protection.  The Enlightened Adept will Benefit from this Protection until the Enlightened Adept offers himself in individual Combat.  Combat violates the Will, which destroys Focus, which cracks the Shell.  The Enlightened Adept now knows all but the Final Secret.  The Final Secret is to always place holes for Air. - Doctrines of the Wholly Mages, no. 1143.</English>
+		<French>The Enlightened Adept will form a sphere of Focus.  The Enlightened Adept will lower this Focus into the Earth, and return with a Will of Stone.  The Enlightened Adept will Spin or Cast this Will of Stone about himself, and form a Shell of Stone.  This Shell of Stone offers true Protection.  The Enlightened Adept will Benefit from this Protection until the Enlightened Adept offers himself in individual Combat.  Combat violates the Will, which destroys Focus, which cracks the Shell.  The Enlightened Adept now knows all but the Final Secret.  The Final Secret is to always place holes for Air. - Doctrines of the Wholly Mages, no. 1143.</French>
+		<German>The Enlightened Adept will form a sphere of Focus.  The Enlightened Adept will lower this Focus into the Earth, and return with a Will of Stone.  The Enlightened Adept will Spin or Cast this Will of Stone about himself, and form a Shell of Stone.  This Shell of Stone offers true Protection.  The Enlightened Adept will Benefit from this Protection until the Enlightened Adept offers himself in individual Combat.  Combat violates the Will, which destroys Focus, which cracks the Shell.  The Enlightened Adept now knows all but the Final Secret.  The Final Secret is to always place holes for Air. - Doctrines of the Wholly Mages, no. 1143.</German>
+		<Italian>The Enlightened Adept will form a sphere of Focus.  The Enlightened Adept will lower this Focus into the Earth, and return with a Will of Stone.  The Enlightened Adept will Spin or Cast this Will of Stone about himself, and form a Shell of Stone.  This Shell of Stone offers true Protection.  The Enlightened Adept will Benefit from this Protection until the Enlightened Adept offers himself in individual Combat.  Combat violates the Will, which destroys Focus, which cracks the Shell.  The Enlightened Adept now knows all but the Final Secret.  The Final Secret is to always place holes for Air. - Doctrines of the Wholly Mages, no. 1143.</Italian>
+		<Spanish>The Enlightened Adept will form a sphere of Focus.  The Enlightened Adept will lower this Focus into the Earth, and return with a Will of Stone.  The Enlightened Adept will Spin or Cast this Will of Stone about himself, and form a Shell of Stone.  This Shell of Stone offers true Protection.  The Enlightened Adept will Benefit from this Protection until the Enlightened Adept offers himself in individual Combat.  Combat violates the Will, which destroys Focus, which cracks the Shell.  The Enlightened Adept now knows all but the Final Secret.  The Final Secret is to always place holes for Air. - Doctrines of the Wholly Mages, no. 1143.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_AUREALIS_PEDIA</Tag>
+		<English>The being shone with a light so bright that the orcs raised their shields to save their eyes, but the heat as it reached toward them burned the flimsy defense to ash. The smell of charred orc-flesh filled the air as the servant of Lugus stepped among them.</English>
+		<French>The being shone with a light so bright that the orcs raised their shields to save their eyes, but the heat as it reached toward them burned the flimsy defense to ash. The smell of charred orc-flesh filled the air as the servant of Lugus stepped among them.</French>
+		<German>Das Wesen schien in einem Licht, so hell und leuchtend, daß die Orks ihre Schilde hochrissen, um ihre Augen zu schützen. Aber die Hitze schnappte nach ihnen und verbrannte diese ärmliche Verteidigung zu Asche. Der Gestank von gegrilltem Orkfleisch erfüllte die Luft als die Diener des Lugus über sie kamen.</German>
+		<Italian>The being shone with a light so bright that the orcs raised their shields to save their eyes, but the heat as it reached toward them burned the flimsy defense to ash. The smell of charred orc-flesh filled the air as the servant of Lugus stepped among them.</Italian>
+		<Spanish>The being shone with a light so bright that the orcs raised their shields to save their eyes, but the heat as it reached toward them burned the flimsy defense to ash. The smell of charred orc-flesh filled the air as the servant of Lugus stepped among them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BATTERING_RAM_PEDIA</Tag>
+		<English>A battering ram is a siege engine to break open fortification walls or doors. In its simplest form, a battering ram is just a large, heavy log carried by several people and propelled with force against an obstacle; the momentum of the ram would be sufficient to damage the target if the log were massive enough and/or it were moved quickly enough (i.e., had sufficient velocity). In a more sophisticated design, a battering ram was slung from a wheeled support frame by ropes or chains so that it could be much more massive and also more easily swung against its target. Sometimes the ram's attacking point would be reinforced with a metal head and vulnerable parts of the ram might be bound with metal bands. Many battering rams had protective roofs and side-screens covered in materials, usually fresh wet hides, presumably from the animals eaten by the besiegers, to prevent the ram being set on fire, as well as to protect the operators of the ram from enemies firing arrows down on them by allowing them to seek shelter within the battering ram structure</English>
+		<French>A battering ram is a siege engine to break open fortification walls or doors. In its simplest form, a battering ram is just a large, heavy log carried by several people and propelled with force against an obstacle; the momentum of the ram would be sufficient to damage the target if the log were massive enough and/or it were moved quickly enough (i.e., had sufficient velocity). In a more sophisticated design, a battering ram was slung from a wheeled support frame by ropes or chains so that it could be much more massive and also more easily swung against its target. Sometimes the ram's attacking point would be reinforced with a metal head and vulnerable parts of the ram might be bound with metal bands. Many battering rams had protective roofs and side-screens covered in materials, usually fresh wet hides, presumably from the animals eaten by the besiegers, to prevent the ram being set on fire, as well as to protect the operators of the ram from enemies firing arrows down on them by allowing them to seek shelter within the battering ram structure</French>
+		<German>Der Rammbock (oft auch: der Sturmbock) ist eine Belagerungswaffe, die bis zum Mittelalter oft Verwendung fand. Er diente dazu Mauern, Tore oder Türme einzureißen. Den Rammbock gab es in vielen Varianten. Sie reichten vom einfachen Baumstamm, der von Personen gegen das einzureißende Ziel geprellt wurde, über belastete Wagen, die mit Schwung gegen das Ziel gesteuert wurden und auf Grund ihrer hohen Masse eine enorme Durchschlagskraft hatten, bis hin zu einem schwingenden Stamm, der unter einem Gerüst aufgehängt, von den Angreifern immer wieder gegen das Hindernis gestoßen wurde.</German>
+		<Italian>A battering ram is a siege engine to break open fortification walls or doors. In its simplest form, a battering ram is just a large, heavy log carried by several people and propelled with force against an obstacle; the momentum of the ram would be sufficient to damage the target if the log were massive enough and/or it were moved quickly enough (i.e., had sufficient velocity). In a more sophisticated design, a battering ram was slung from a wheeled support frame by ropes or chains so that it could be much more massive and also more easily swung against its target. Sometimes the ram's attacking point would be reinforced with a metal head and vulnerable parts of the ram might be bound with metal bands. Many battering rams had protective roofs and side-screens covered in materials, usually fresh wet hides, presumably from the animals eaten by the besiegers, to prevent the ram being set on fire, as well as to protect the operators of the ram from enemies firing arrows down on them by allowing them to seek shelter within the battering ram structure</Italian>
+		<Spanish>A battering ram is a siege engine to break open fortification walls or doors. In its simplest form, a battering ram is just a large, heavy log carried by several people and propelled with force against an obstacle; the momentum of the ram would be sufficient to damage the target if the log were massive enough and/or it were moved quickly enough (i.e., had sufficient velocity). In a more sophisticated design, a battering ram was slung from a wheeled support frame by ropes or chains so that it could be much more massive and also more easily swung against its target. Sometimes the ram's attacking point would be reinforced with a metal head and vulnerable parts of the ram might be bound with metal bands. Many battering rams had protective roofs and side-screens covered in materials, usually fresh wet hides, presumably from the animals eaten by the besiegers, to prevent the ram being set on fire, as well as to protect the operators of the ram from enemies firing arrows down on them by allowing them to seek shelter within the battering ram structure</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BERSERKER_PEDIA</Tag>
+		<English>Berserkers are fierce warriors who commonly wear coats of wolf or bear skin and decorate their bodies with ghastly scars - either trophies of past battles or self-inflicted. They fight in an uncontrollable rage or trance of fury, oblivious to reason and wishing only to see the blood of their foes.</English>
+		<French>Berserkers are fierce warriors who commonly wear coats of wolf or bear skin and decorate their bodies with ghastly scars - either trophies of past battles or self-inflicted. They fight in an uncontrollable rage or trance of fury, oblivious to reason and wishing only to see the blood of their foes.</French>
+		<German>Als Berserker wird ein im Rausch Kämpfender bezeichnet, der keine Schmerzen oder Wunden mehr wahrnimmt. über diese Art von Kämpfern, die auf der Seite verschiedener Stämme kämpfen, ist bekannt, daß sie oft Wolfs- oder Bärenhaut als Mantel nutzen und über und über von grauenhaften Narben bedeckt sind, entweder durch Kampf errungen, oder von ihnen selbst zugefügt, um sich in Kampfesrausch zu versetzen.</German>
+		<Italian>Berserkers are fierce warriors who commonly wear coats of wolf or bear skin and decorate their bodies with ghastly scars - either trophies of past battles or self-inflicted. They fight in an uncontrollable rage or trance of fury, oblivious to reason and wishing only to see the blood of their foes.</Italian>
+		<Spanish>Berserkers are fierce warriors who commonly wear coats of wolf or bear skin and decorate their bodies with ghastly scars - either trophies of past battles or self-inflicted. They fight in an uncontrollable rage or trance of fury, oblivious to reason and wishing only to see the blood of their foes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BOAR_RIDER_PEDIA</Tag>
+		<English>The body of the wild boar is compact; the head is large, the legs relatively short. Covered in stiff bristles and prone to a beligerent demeanor. The rider is pretty much the same.</English>
+		<French>The body of the wild boar is compact; the head is large, the legs relatively short. Covered in stiff bristles and prone to a beligerent demeanor. The rider is pretty much the same.</French>
+		<German>Der Körper eines Bären ist kompakt, der Kopf ist groß, die Beine ziemlich kurz. Er ist eine tödliche Waffe mit seinen Klauen und seiner Unzurechnungsfähigkeit. Der Reiter - ist so ziemlich dasselbe.</German>
+		<Italian>The body of the wild boar is compact; the head is large, the legs relatively short. Covered in stiff bristles and prone to a beligerent demeanor. The rider is pretty much the same.</Italian>
+		<Spanish>The body of the wild boar is compact; the head is large, the legs relatively short. Covered in stiff bristles and prone to a beligerent demeanor. The rider is pretty much the same.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BUCCANEER_PEDIA</Tag>
+		<English>"A pirate? Me? Nonsense!", he scoffed. "Simply because I have appropriated your vessel, you assume me to be a brigand of the sea? If you had known how to sail such a fine ship, I would never have had to step aboard..."</English>
+		<French>"A pirate? Me? Nonsense!", he scoffed. "Simply because I have appropriated your vessel, you assume me to be a brigand of the sea? If you had known how to sail such a fine ship, I would never have had to step aboard..."</French>
+		<German>"Ein Pirat? Ich? Nein, völliger Unsinn!" schimpfte er. Nur weil ich dein Schiff übernommen habe, um es angemessener zu behandeln, hältst du mich für einen Räuber auf See? Wenn du gewußt hättest, wie man mit so einem Schiff umgeht und es segelt, hätte ich niemals an Bord kommen müssen..."</German>
+		<Italian>"A pirate? Me? Nonsense!", he scoffed. "Simply because I have appropriated your vessel, you assume me to be a brigand of the sea? If you had known how to sail such a fine ship, I would never have had to step aboard..."</Italian>
+		<Spanish>"A pirate? Me? Nonsense!", he scoffed. "Simply because I have appropriated your vessel, you assume me to be a brigand of the sea? If you had known how to sail such a fine ship, I would never have had to step aboard..."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BUCCANEER_STRATEGY</Tag>
+		<English>Buccaneer units can be recruited from the crew of Lanun ships to capture "targets of opportunity" - typically damaged vessels limping back toward port. Once crewed by sailors loyal to the Lanun, the ships are repaired, refitted and relaunched to find more vessels to join your fleet.</English>
+		<French>Buccaneer units can be recruited from the crew of Lanun ships to capture "targets of opportunity" - typically damaged vessels limping back toward port. Once crewed by sailors loyal to the Lanun, the ships are repaired, refitted and relaunched to find more vessels to join your fleet.</French>
+		<German>Seeräuber Einheiten können von der Besatzung von Lanun Schiffen rektrutiert werden. Sie können "Gelegenheitsziele" kapern - gewöhnlich beschädigte Schiffe, die zurück in den Hafen schlingern. Einmal mit Besatzung ausgerüstet, die den Lanun treu ergeben sind, werden die Schiffe repariert, neu ausgerüstet und können wieder in die Weite der Meere starten, um deine Flotte zu vergrößern.</German>
+		<Italian>Buccaneer units can be recruited from the crew of Lanun ships to capture "targets of opportunity" - typically damaged vessels limping back toward port. Once crewed by sailors loyal to the Lanun, the ships are repaired, refitted and relaunched to find more vessels to join your fleet.</Italian>
+		<Spanish>Buccaneer units can be recruited from the crew of Lanun ships to capture "targets of opportunity" - typically damaged vessels limping back toward port. Once crewed by sailors loyal to the Lanun, the ships are repaired, refitted and relaunched to find more vessels to join your fleet.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FOREST_CULTURE_DRAIN</Tag>
+		<English>Culture Drain</English>
+		<French>Culture Drain</French>
+		<German>Kulturrückgang</German>
+		<Italian>Culture Drain</Italian>
+		<Spanish>Culture Drain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_BLIGHTED_FOREST</Tag>
+		<English>Agares' taint has driven a unit from the forest.</English>
+		<French>Agares' taint has driven a unit from the forest.</French>
+		<German>Agares' Verderbtheit hat eine Einheit aus dem Wald geweckt.</German>
+		<Italian>Agares' taint has driven a unit from the forest.</Italian>
+		<Spanish>Agares' taint has driven a unit from the forest.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_WHISPERING_FOREST</Tag>
+		<English>Something has driven a unit from the forest.</English>
+		<French>Something has driven a unit from the forest.</French>
+		<German>Agares' Verderbtheit hat eine Einheit aus dem Wald geweckt.</German>
+		<Italian>Something has driven a unit from the forest.</Italian>
+		<Spanish>Something has driven a unit from the forest.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FOREST_CREEPER</Tag>
+		<English>more Blighted</English>
+		<French>more Blighted</French>
+		<German>Waldkriecher</German>
+		<Italian>more Blighted</Italian>
+		<Spanish>more Blighted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MALIGNANT_FLORA</Tag>
+		<English>Malignant Flora</English>
+		<French>Flore malveillante</French>
+		<German>Böswillige Pflanzen</German>
+		<Italian>Malignant Flora</Italian>
+		<Spanish>Malignant Flora</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MALIGNANT_FLORA_STRATEGY</Tag>
+		<English>Sometimes impossible to even approach without the tools available with Iron Working, Malignant Flora are nearly unique in the plant kingdom both for taking down prey at range, and for taking down prey at all.  A variety of means are employed:  Hurled stones of great size, poison mists, powerful and mobile runners that may be found miles from the root-growth.  A "garden" is far more deadly than a troop of archers.  Venturing among them is even worse, but if civilization is to expand these strange and terrible plants must be up-rooted and burned.</English>
+		<French>Sometimes impossible to even approach without the tools available with Iron Working, Malignant Flora are nearly unique in the plant kingdom both for taking down prey at range, and for taking down prey at all.  A variety of means are employed:  Hurled stones of great size, poison mists, powerful and mobile runners that may be found miles from the root-growth.  A "garden" is far more deadly than a troop of archers.  Venturing among them is even worse, but if civilization is to expand these strange and terrible plants must be up-rooted and burned.</French>
+		<German>Manchmal ist es ohne die geeigneten Werkzeuge der Eisenverarbeitung unmöglich, sich Böswilligen Pflanzen überhaupt zu nähern. Böswillige Pflanzen sind einzigartig im Pflanzenreich, sie können ihre Beute über Entfernung erlegen, ja, genau, sie können Beute erlegen. Sie äußert sich auf unterschiedliche Arten: Geschleuderte Steine von erschreckender Größe, Giftiger Nebel, mächtige und bewegliche Triebe, die man auch Meilen von der eigentlichen Wurzel entfernt antreffen kann. Ein "Garten" kann tödlicher sein als eine Truppe von Bogenschützen. Sich in ihre Nähe zu wagen ist noch gefährlicher, aber wenn eine Zivilisation sich ausdehnen will, hilft alles nichts, diese furchtbaren Pflanzen müssen herausgerissen und verbrannt werden.</German>
+		<Italian>Sometimes impossible to even approach without the tools available with Iron Working, Malignant Flora are nearly unique in the plant kingdom both for taking down prey at range, and for taking down prey at all.  A variety of means are employed:  Hurled stones of great size, poison mists, powerful and mobile runners that may be found miles from the root-growth.  A "garden" is far more deadly than a troop of archers.  Venturing among them is even worse, but if civilization is to expand these strange and terrible plants must be up-rooted and burned.</Italian>
+		<Spanish>Sometimes impossible to even approach without the tools available with Iron Working, Malignant Flora are nearly unique in the plant kingdom both for taking down prey at range, and for taking down prey at all.  A variety of means are employed:  Hurled stones of great size, poison mists, powerful and mobile runners that may be found miles from the root-growth.  A "garden" is far more deadly than a troop of archers.  Venturing among them is even worse, but if civilization is to expand these strange and terrible plants must be up-rooted and burned.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MALIGNANT_FLORA_PEDIA</Tag>
+		<English>Some plants within the Blighted Forest grow far beyond their natural limits.[NEWLINE]Grotesque blossoms shelter queer toxins that should be found no where in nature.  Branches sprout thorns so great and numerous that every limb is bloated and bent, pierced by its neighbor.[NEWLINE]Runners stretch far outside the forest itself, lying just beneath the surface and twitching in readiness.  They will spring and contract with the first unwary step.  Predation without feeding, action without guiding thought.[NEWLINE]If evil can exist without mind, sin without conscious choice, it is here.</English>
+		<French>Some plants within the Blighted Forest grow far beyond their natural limits.[NEWLINE]Grotesque blossoms shelter queer toxins that should be found no where in nature.  Branches sprout thorns so great and numerous that every limb is bloated and bent, pierced by its neighbor.[NEWLINE]Runners stretch far outside the forest itself, lying just beneath the surface and twitching in readiness.  They will spring and contract with the first unwary step.  Predation without feeding, action without guiding thought.[NEWLINE]If evil can exist without mind, sin without conscious choice, it is here.</French>
+		<German>Some plants within the Blighted Forest grow far beyond their natural limits.[NEWLINE]Grotesque blossoms shelter queer toxins that should be found no where in nature.  Branches sprout thorns so great and numerous that every limb is bloated and bent, pierced by its neighbor.[NEWLINE]Runners stretch far outside the forest itself, lying just beneath the surface and twitching in readiness.  They will spring and contract with the first unwary step.  Predation without feeding, action without guiding thought.[NEWLINE]If evil can exist without mind, sin without conscious choice, it is here.</German>
+		<Italian>Some plants within the Blighted Forest grow far beyond their natural limits.[NEWLINE]Grotesque blossoms shelter queer toxins that should be found no where in nature.  Branches sprout thorns so great and numerous that every limb is bloated and bent, pierced by its neighbor.[NEWLINE]Runners stretch far outside the forest itself, lying just beneath the surface and twitching in readiness.  They will spring and contract with the first unwary step.  Predation without feeding, action without guiding thought.[NEWLINE]If evil can exist without mind, sin without conscious choice, it is here.</Italian>
+		<Spanish>Some plants within the Blighted Forest grow far beyond their natural limits.[NEWLINE]Grotesque blossoms shelter queer toxins that should be found no where in nature.  Branches sprout thorns so great and numerous that every limb is bloated and bent, pierced by its neighbor.[NEWLINE]Runners stretch far outside the forest itself, lying just beneath the surface and twitching in readiness.  They will spring and contract with the first unwary step.  Predation without feeding, action without guiding thought.[NEWLINE]If evil can exist without mind, sin without conscious choice, it is here.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_UNIT_WANDERING</Tag>
+		<English>A unit wanders, lost.</English>
+		<French>A unit wanders, lost.</French>
+		<German>Eine Einheit streift verirrt über die Lande.</German>
+		<Italian>A unit wanders, lost.</Italian>
+		<Spanish>A unit wanders, lost.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DIAKONOS</Tag>
+		<English>Diakonos</English>
+		<French>Diakonos</French>
+		<German>Diakonos</German>
+		<Italian>Diakonos</Italian>
+		<Spanish>Diakonos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DIAKONOS_PEDIA</Tag>
+		<English>Gilden crept along the trail, tracking. His keen eye could spot the slightest sign of a creature passing through the forest, but that skill was unnecessary here. The tracks were plain - a group travelling in haste, seemingly panicked as they darted back and forth trying to force a path through the undergrowth. By their number they matched the hunting party that he was looking for - they had been due back a day since, but had not returned.[NEWLINE][NEWLINE]There was movement ahead - something in the scrubs. This had once been thick forest, but now the ground was dry as ash and the trees had recently burned. They would recover given time, but the forest seemed to have little time left - it was sick. At its heart the Archmage, Thessa had discovered a dark blight, whilst at its edge the land itself seemed to no longer welcome the tree's roots. More recently, elves had been found slain in the groves, but no tracks led away from the bodies. Hopefully he would find answers with the hunters.[NEWLINE][NEWLINE]He crouched low, trying to catch sight of the movement again. As the moments passed, there was nothing, Then he saw it, moving quickly between the trees - the silhouette of a fawn, a defender of the woods. Perhaps the creature would be able to tell him of the lost hunters. He stood.[NEWLINE][NEWLINE]As soon as he did, he realized he had made a grievous error. The creature turned toward him, its eyes fixed on his. What he saw then was no fawn - it was a dark and twisted mockery of those noble creatures. Its eyes burned from dark sockets whilst its fur hung in ragged clumps from its legs. Its hooves were bloodstained and its skin draped, pale and lifeless.[NEWLINE][NEWLINE]"Diakonos..." whispered Gilden in disbelief. The creatures were legend - twisted servants of the Angel of Despair from an age long since passed, when Succellus and mighty Cernunnos defended the woods from Agares himself. Most galling of all, the worst injuries were inflicted upon the woods by such corrupt versions of the woodland creatures as these, created through the black power of the mirror sea in Agares' own hell. At the battle's height, Cernunnos battled a demonic-copy of himself whilst Sucellus and the remaining guardians of the forest drove Agares' forces away from the heart of the wood. The story was known by all elves, but none living was known to have seen such a creature, until now.[NEWLINE][NEWLINE]The moment of surprise had passed for them both. The diakonos lowered its head and charged, rapidly closing the distance between them. Gilden lifted his bow and let fly. </English>
+		<French>Gilden crept along the trail, tracking. His keen eye could spot the slightest sign of a creature passing through the forest, but that skill was unnecessary here. The tracks were plain - a group travelling in haste, seemingly panicked as they darted back and forth trying to force a path through the undergrowth. By their number they matched the hunting party that he was looking for - they had been due back a day since, but had not returned.[NEWLINE][NEWLINE]There was movement ahead - something in the scrubs. This had once been thick forest, but now the ground was dry as ash and the trees had recently burned. They would recover given time, but the forest seemed to have little time left - it was sick. At its heart the Archmage, Thessa had discovered a dark blight, whilst at its edge the land itself seemed to no longer welcome the tree's roots. More recently, elves had been found slain in the groves, but no tracks led away from the bodies. Hopefully he would find answers with the hunters.[NEWLINE][NEWLINE]He crouched low, trying to catch sight of the movement again. As the moments passed, there was nothing, Then he saw it, moving quickly between the trees - the silhouette of a fawn, a defender of the woods. Perhaps the creature would be able to tell him of the lost hunters. He stood.[NEWLINE][NEWLINE]As soon as he did, he realized he had made a grievous error. The creature turned toward him, its eyes fixed on his. What he saw then was no fawn - it was a dark and twisted mockery of those noble creatures. Its eyes burned from dark sockets whilst its fur hung in ragged clumps from its legs. Its hooves were bloodstained and its skin draped, pale and lifeless.[NEWLINE][NEWLINE]"Diakonos..." whispered Gilden in disbelief. The creatures were legend - twisted servants of the Angel of Despair from an age long since passed, when Succellus and mighty Cernunnos defended the woods from Agares himself. Most galling of all, the worst injuries were inflicted upon the woods by such corrupt versions of the woodland creatures as these, created through the black power of the mirror sea in Agares' own hell. At the battle's height, Cernunnos battled a demonic-copy of himself whilst Sucellus and the remaining guardians of the forest drove Agares' forces away from the heart of the wood. The story was known by all elves, but none living was known to have seen such a creature, until now.[NEWLINE][NEWLINE]The moment of surprise had passed for them both. The diakonos lowered its head and charged, rapidly closing the distance between them. Gilden lifted his bow and let fly. </French>
+		<German>Gilden crept along the trail, tracking. His keen eye could spot the slightest sign of a creature passing through the forest, but that skill was unnecessary here. The tracks were plain - a group travelling in haste, seemingly panicked as they darted back and forth trying to force a path through the undergrowth. By their number they matched the hunting party that he was looking for - they had been due back a day since, but had not returned.[NEWLINE][NEWLINE]There was movement ahead - something in the scrubs. This had once been thick forest, but now the ground was dry as ash and the trees had recently burned. They would recover given time, but the forest seemed to have little time left - it was sick. At its heart the Archmage, Thessa had discovered a dark blight, whilst at its edge the land itself seemed to no longer welcome the tree's roots. More recently, elves had been found slain in the groves, but no tracks led away from the bodies. Hopefully he would find answers with the hunters.[NEWLINE][NEWLINE]He crouched low, trying to catch sight of the movement again. As the moments passed, there was nothing, Then he saw it, moving quickly between the trees - the silhouette of a fawn, a defender of the woods. Perhaps the creature would be able to tell him of the lost hunters. He stood.[NEWLINE][NEWLINE]As soon as he did, he realized he had made a grievous error. The creature turned toward him, its eyes fixed on his. What he saw then was no fawn - it was a dark and twisted mockery of those noble creatures. Its eyes burned from dark sockets whilst its fur hung in ragged clumps from its legs. Its hooves were bloodstained and its skin draped, pale and lifeless.[NEWLINE][NEWLINE]"Diakonos..." whispered Gilden in disbelief. The creatures were legend - twisted servants of the Angel of Despair from an age long since passed, when Succellus and mighty Cernunnos defended the woods from Agares himself. Most galling of all, the worst injuries were inflicted upon the woods by such corrupt versions of the woodland creatures as these, created through the black power of the mirror sea in Agares' own hell. At the battle's height, Cernunnos battled a demonic-copy of himself whilst Sucellus and the remaining guardians of the forest drove Agares' forces away from the heart of the wood. The story was known by all elves, but none living was known to have seen such a creature, until now.[NEWLINE][NEWLINE]The moment of surprise had passed for them both. The diakonos lowered its head and charged, rapidly closing the distance between them. Gilden lifted his bow and let fly. </German>
+		<Italian>Gilden crept along the trail, tracking. His keen eye could spot the slightest sign of a creature passing through the forest, but that skill was unnecessary here. The tracks were plain - a group travelling in haste, seemingly panicked as they darted back and forth trying to force a path through the undergrowth. By their number they matched the hunting party that he was looking for - they had been due back a day since, but had not returned.[NEWLINE][NEWLINE]There was movement ahead - something in the scrubs. This had once been thick forest, but now the ground was dry as ash and the trees had recently burned. They would recover given time, but the forest seemed to have little time left - it was sick. At its heart the Archmage, Thessa had discovered a dark blight, whilst at its edge the land itself seemed to no longer welcome the tree's roots. More recently, elves had been found slain in the groves, but no tracks led away from the bodies. Hopefully he would find answers with the hunters.[NEWLINE][NEWLINE]He crouched low, trying to catch sight of the movement again. As the moments passed, there was nothing, Then he saw it, moving quickly between the trees - the silhouette of a fawn, a defender of the woods. Perhaps the creature would be able to tell him of the lost hunters. He stood.[NEWLINE][NEWLINE]As soon as he did, he realized he had made a grievous error. The creature turned toward him, its eyes fixed on his. What he saw then was no fawn - it was a dark and twisted mockery of those noble creatures. Its eyes burned from dark sockets whilst its fur hung in ragged clumps from its legs. Its hooves were bloodstained and its skin draped, pale and lifeless.[NEWLINE][NEWLINE]"Diakonos..." whispered Gilden in disbelief. The creatures were legend - twisted servants of the Angel of Despair from an age long since passed, when Succellus and mighty Cernunnos defended the woods from Agares himself. Most galling of all, the worst injuries were inflicted upon the woods by such corrupt versions of the woodland creatures as these, created through the black power of the mirror sea in Agares' own hell. At the battle's height, Cernunnos battled a demonic-copy of himself whilst Sucellus and the remaining guardians of the forest drove Agares' forces away from the heart of the wood. The story was known by all elves, but none living was known to have seen such a creature, until now.[NEWLINE][NEWLINE]The moment of surprise had passed for them both. The diakonos lowered its head and charged, rapidly closing the distance between them. Gilden lifted his bow and let fly. </Italian>
+		<Spanish>Gilden crept along the trail, tracking. His keen eye could spot the slightest sign of a creature passing through the forest, but that skill was unnecessary here. The tracks were plain - a group travelling in haste, seemingly panicked as they darted back and forth trying to force a path through the undergrowth. By their number they matched the hunting party that he was looking for - they had been due back a day since, but had not returned.[NEWLINE][NEWLINE]There was movement ahead - something in the scrubs. This had once been thick forest, but now the ground was dry as ash and the trees had recently burned. They would recover given time, but the forest seemed to have little time left - it was sick. At its heart the Archmage, Thessa had discovered a dark blight, whilst at its edge the land itself seemed to no longer welcome the tree's roots. More recently, elves had been found slain in the groves, but no tracks led away from the bodies. Hopefully he would find answers with the hunters.[NEWLINE][NEWLINE]He crouched low, trying to catch sight of the movement again. As the moments passed, there was nothing, Then he saw it, moving quickly between the trees - the silhouette of a fawn, a defender of the woods. Perhaps the creature would be able to tell him of the lost hunters. He stood.[NEWLINE][NEWLINE]As soon as he did, he realized he had made a grievous error. The creature turned toward him, its eyes fixed on his. What he saw then was no fawn - it was a dark and twisted mockery of those noble creatures. Its eyes burned from dark sockets whilst its fur hung in ragged clumps from its legs. Its hooves were bloodstained and its skin draped, pale and lifeless.[NEWLINE][NEWLINE]"Diakonos..." whispered Gilden in disbelief. The creatures were legend - twisted servants of the Angel of Despair from an age long since passed, when Succellus and mighty Cernunnos defended the woods from Agares himself. Most galling of all, the worst injuries were inflicted upon the woods by such corrupt versions of the woodland creatures as these, created through the black power of the mirror sea in Agares' own hell. At the battle's height, Cernunnos battled a demonic-copy of himself whilst Sucellus and the remaining guardians of the forest drove Agares' forces away from the heart of the wood. The story was known by all elves, but none living was known to have seen such a creature, until now.[NEWLINE][NEWLINE]The moment of surprise had passed for them both. The diakonos lowered its head and charged, rapidly closing the distance between them. Gilden lifted his bow and let fly. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DIAKONOS_STRATEGY</Tag>
+		<English>Diakonos are hard to pin down.  They often stike from surprise and quickly vanish should the battle go against them.  Worse, they command a magic that often leaves those they encounter mazed and bemused.  The survivors, that is.</English>
+		<French>Diakonos are hard to pin down.  They often stike from surprise and quickly vanish should the battle go against them.  Worse, they command a magic that often leaves those they encounter mazed and bemused.  The survivors, that is.</French>
+		<German>Diakonos are hard to pin down.  They often stike from surprise and quickly vanish should the battle go against them.  Worse, they command a magic that often leaves those they encounter mazed and bemused.  The survivors, that is.</German>
+		<Italian>Diakonos are hard to pin down.  They often stike from surprise and quickly vanish should the battle go against them.  Worse, they command a magic that often leaves those they encounter mazed and bemused.  The survivors, that is.</Italian>
+		<Spanish>Diakonos are hard to pin down.  They often stike from surprise and quickly vanish should the battle go against them.  Worse, they command a magic that often leaves those they encounter mazed and bemused.  The survivors, that is.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LOST</Tag>
+		<English>Lost</English>
+		<French>Perdu</French>
+		<German>Verirrt</German>
+		<Italian>Lost</Italian>
+		<Spanish>Lost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LOST_PEDIA</Tag>
+		<English>The sun is in the sky, but still darkness hides all paths.  Other units may track the unit, but they cannot help.</English>
+		<French>Le soleil est levé, mais les ténèbres dissimulent tous les chemins. Le autres unités peuvent poursuivre l'unité perdue, mais pas l'aider.</French>
+		<German>Die Sonne ist der Himmel, aber die Dunkelheit verdekct alle Pfade und Wege. Andere Einheiten können die Einheiten finden, aber helfen - können sie nicht.</German>
+		<Italian>The sun is in the sky, but still darkness hides all paths.  Other units may track the unit, but they cannot help.</Italian>
+		<Spanish>The sun is in the sky, but still darkness hides all paths.  Other units may track the unit, but they cannot help.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DIRE_HAMSTER</Tag>
+		<English>Dire Hamster</English>
+		<French>Dire Hamster</French>
+		<German>Grässlicher Hamster</German>
+		<Italian>Dire Hamster</Italian>
+		<Spanish>Dire Hamster</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_WONDER_HAMSTER</Tag>
+		<English>Go for the eyes, Boo!</English>
+		<French>Go for the eyes, Boo!</French>
+		<German>Holt euch die Augen, Buh!</German>
+		<Italian>Go for the eyes, Boo!</Italian>
+		<Spanish>Go for the eyes, Boo!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_CASTE_SYSTEM</Tag>
+		<English>Caste System</English>
+		<French>Système de castes</French>
+		<German>Kastensystem</German>
+		<Italian>Caste System</Italian>
+		<Spanish>Caste System</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CASTE_SYSTEM_STRATEGY</Tag>
+		<English>Granting your citizens time away from production and training allows them to concentrate on their caste-designated arts. As each citizen is trained from birth in a specific role, they are more effective than those focused on a single commerce value, with a significant bonus overall to commerce produced.</English>
+		<French>Granting your citizens time away from production and training allows them to concentrate on their caste-designated arts. As each citizen is trained from birth in a specific role, they are more effective than those focused on a single commerce value, with a significant bonus overall to commerce produced.</French>
+		<German>Indem die Bürger Zeit jenseits von Produktion und Ausbildung bekommen, haben sie die Möglichkeit, sich auf ihre Kasten eigenen Künste zu konzentrieren. Jeder Bürger wird von seiner Geburt an in einer besonderen Fähigkeit geschult, wodurch sie wesentlich effektiver sind als ddie, die sich nur auf Handel beschränken. Das kommt dem gesamten Handel zugute.</German>
+		<Italian>Granting your citizens time away from production and training allows them to concentrate on their caste-designated arts. As each citizen is trained from birth in a specific role, they are more effective than those focused on a single commerce value, with a significant bonus overall to commerce produced.</Italian>
+		<Spanish>Granting your citizens time away from production and training allows them to concentrate on their caste-designated arts. As each citizen is trained from birth in a specific role, they are more effective than those focused on a single commerce value, with a significant bonus overall to commerce produced.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_WEALTH_IMPROVED</Tag>
+		<English>Wealth (Taxation)</English>
+		<French>Richesse (Taxation)</French>
+		<German>Reichtum (Besteuerung)</German>
+		<Italian>Wealth (Taxation)</Italian>
+		<Spanish>Wealth (Taxation)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_RESEARCH_IMPROVED</Tag>
+		<English>Research (Academy)</English>
+		<French>Recherche (Académie)</French>
+		<German>Forschung (Akademie)</German>
+		<Italian>Research (Academy)</Italian>
+		<Spanish>Research (Academy)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_CULTURE_IMPROVED</Tag>
+		<English>Culture (Liberty)</English>
+		<French>Culture (Liberté)</French>
+		<German>Kultur (Freiheit)</German>
+		<Italian>Culture (Liberty)</Italian>
+		<Spanish>Culture (Liberty)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PACK_ALPHA</Tag>
+		<English>Pack Alpha</English>
+		<French>Pack Alpha</French>
+		<German>Alphatier</German>
+		<Italian>Pack Alpha</Italian>
+		<Spanish>Pack Alpha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BONUS_CONVERT</Tag>
+		<English>[ICON_BULLET]Creates a %F3_Char [LINK=%s1_resource]%s2_Name[\LINK] on its own tile</English>
+		<French>[ICON_BULLET]Crée un %F3_Char [LINK=%s1_resource]%s2_Name[\LINK] sur sa case</French>
+		<German>Erschafft einen %F3_Char [LINK=%s1_resource]%s2_Name[\LINK] auf demselben Feld</German>
+		<Italian>[ICON_BULLET]Creates a %F3_Char [LINK=%s1_resource]%s2_Name[\LINK] on its own tile</Italian>
+		<Spanish>[ICON_BULLET]Creates a %F3_Char [LINK=%s1_resource]%s2_Name[\LINK] on its own tile</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEASHED</Tag>
+		<English> [Leashed]</English>
+		<French> [Enchaîné]</French>
+		<German> [Angeleint]</German>
+		<Italian> [Leashed]</Italian>
+		<Spanish> [Leashed]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAWN_OF_MAN_SCREEN_TITLE</Tag>
+		<English>The End of Winter</English>
+		<French>La Fin de L'Hiver</French>
+		<German>Das Ende des Winters</German>
+		<Italian>The End of Winter</Italian>
+		<Spanish>The End of Winter</Spanish>
+	</TEXT>
+</Civ4GameText>

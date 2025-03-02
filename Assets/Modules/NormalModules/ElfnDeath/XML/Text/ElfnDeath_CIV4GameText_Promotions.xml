@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FATED_END</Tag>
+		<English>Fated End</English>
+		<French>Fin fatale</French>
+		<German>Schicksalhaftes Ende</German>
+		<Italian>Fine Predestinata</Italian>
+		<Spanish>Final Predestinado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LAST_RITE</Tag>
+		<English>Last Rite</English>
+		<French>Dernier Sacrement</French>
+		<German>Letzter Ritus</German>
+		<Italian>Ultimo Rito</Italian>
+		<Spanish>Último Rito</Spanish>
+    </TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEATHWARD</Tag>
+		<English>Deathward</English>
+		<French>Deathward</French>
+		<German>Deathward</German>
+		<Italian>Deathward</Italian>
+		<Spanish>Deathward</Spanish>
+    </TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARAWNS_EMBRACE</Tag>
+		<English>Arawn's Embrace</English>
+		<French>Arawn's Embrace</French>
+		<German>Arawn's Embrace</German>
+		<Italian>Arawn's Embrace</Italian>
+		<Spanish>Arawn's Embrace</Spanish>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_PROMOTION_FINALITY1</Tag>
+		<English>Death I</English>
+		<French>Death I</French>
+		<German>Death I</German>
+		<Italian>Death I</Italian>
+		<Spanish>Death I</Spanish>
+    </TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FINALITY_PEDIA</Tag>
+		<English>Those with a minor affinity often make great investigators. They can often sense places where people have died, and people or items that have taken lives. They can detect information from a corpse, often including the last things they experienced before death. Most cultures view manipulating death as immoral, so many practitioners avoid that.
+
+                 No one is born with death affinity. Instead it is found in those that suffer some traumatic event early in life. Those gifted in this dominion are generally barren. Many practitioners use the ability to manipulate death to create perversions of the dead, but moral practitioners can be just as powerful. These two groups often war with each other</English>
+		<French>Those with a minor affinity often make great investigators. They can often sense places where people have died, and people or items that have taken lives. They can detect information from a corpse, often including the last things they experienced before death. Most cultures view manipulating death as immoral, so many practitioners avoid that.
+
+                 No one is born with death affinity. Instead it is found in those that suffer some traumatic event early in life. Those gifted in this dominion are generally barren. Many practitioners use the ability to manipulate death to create perversions of the dead, but moral practitioners can be just as powerful. These two groups often war with each other</French>
+		<German>Those with a minor affinity often make great investigators. They can often sense places where people have died, and people or items that have taken lives. They can detect information from a corpse, often including the last things they experienced before death. Most cultures view manipulating death as immoral, so many practitioners avoid that.
+
+                 No one is born with death affinity. Instead it is found in those that suffer some traumatic event early in life. Those gifted in this dominion are generally barren. Many practitioners use the ability to manipulate death to create perversions of the dead, but moral practitioners can be just as powerful. These two groups often war with each other</German>
+		<Italian>Those with a minor affinity often make great investigators. They can often sense places where people have died, and people or items that have taken lives. They can detect information from a corpse, often including the last things they experienced before death. Most cultures view manipulating death as immoral, so many practitioners avoid that.
+
+                 No one is born with death affinity. Instead it is found in those that suffer some traumatic event early in life. Those gifted in this dominion are generally barren. Many practitioners use the ability to manipulate death to create perversions of the dead, but moral practitioners can be just as powerful. These two groups often war with each other</Italian>
+		<Spanish>Those with a minor affinity often make great investigators. They can often sense places where people have died, and people or items that have taken lives. They can detect information from a corpse, often including the last things they experienced before death. Most cultures view manipulating death as immoral, so many practitioners avoid that.
+
+                 No one is born with death affinity. Instead it is found in those that suffer some traumatic event early in life. Those gifted in this dominion are generally barren. Many practitioners use the ability to manipulate death to create perversions of the dead, but moral practitioners can be just as powerful. These two groups often war with each other</Spanish>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_PROMOTION_FINALITY2</Tag>
+		<English>Death II</English>
+		<French>Death II</French>
+		<German>Death II</German>
+		<Italian>Death II</Italian>
+		<Spanish>Death II</Spanish>
+    </TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_PROMOTION_FINALITY3</Tag>
+		<English>Death III</English>
+		<French>Death III</French>
+		<German>Death III</German>
+		<Italian>Death III</Italian>
+		<Spanish>Death III</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_DEATH1_ElfnDeath</Tag>
+        <English>Undeath I</English>
+        <French>Undeath I</French>
+        <German>Undeath I</German>
+        <Italian>Undeath I</Italian>
+        <Spanish>Undeath I</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_DEATH2_ElfnDeath</Tag>
+        <English>Undeath II</English>
+        <French>Undeath II</French>
+        <German>Undeath II</German>
+        <Italian>Undeath II</Italian>
+        <Spanish>Undeath II</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_DEATH3_ElfnDeath</Tag>
+        <English>Undeath III</English>
+        <French>Undeath III</French>
+        <German>Undeath III</German>
+        <Italian>Undeath III</Italian>
+        <Spanish>Undeath III</Spanish>
+    </TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GHOSTLY_MOUNTS</Tag>
+		<English>Ghostly Mounts</English>
+		<French>Ghostly Mounts</French>
+		<German>Ghostly Mounts</German>
+		<Italian>Ghostly Mounts</Italian>
+		<Spanish>Ghostly Mounts</Spanish>
+    </TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CORRUPTED_ELEMENTAL</Tag>
+		<English>Corrupted Elemental</English>
+		<French>Corrupted Elemental</French>
+		<German>Corrupted Elemental</German>
+		<Italian>Corrupted Elemental</Italian>
+		<Spanish>Corrupted Elemental</Spanish>		
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SOULBINDER</Tag>
+		<English>Soul Binder</English>
+		<French>Soul Binder</French>
+		<German>Soul Binder</German>
+		<Italian>Soul Binder</Italian>
+		<Spanish>Soul Binder</Spanish>		
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GREATER_SOULBINDER</Tag>
+		<English>Greater Soul Binder</English>
+		<French>Greater Soul Binder</French>
+		<German>Greater Soul Binder</German>
+		<Italian>Greater Soul Binder</Italian>
+		<Spanish>Greater Soul Binder</Spanish>	
+	</TEXT>
+</Civ4GameText>

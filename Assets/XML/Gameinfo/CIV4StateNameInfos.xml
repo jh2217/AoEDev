@@ -1,0 +1,334 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<Civ4StateNameInfos xmlns="x-schema:CIV4GameInfoSchema.xml">
+	<StateNameInfos>
+		<StateNameInfo>	<!-- Tribe -->
+			<Type>STATE_NAME_TRIBE</Type>
+			<Description>TXT_KEY_STATE_NAME_TRIBE</Description>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Province -->
+			<Type>STATE_NAME_PROVINCE</Type>
+			<Description>TXT_KEY_STATE_NAME_PROVINCE</Description>
+			<bVassal>1</bVassal>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Colony -->
+			<Type>STATE_NAME_COLONY</Type>
+			<Description>TXT_KEY_STATE_NAME_COLONY</Description>
+			<bColony>1</bColony>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Dictatorship -->
+			<Type>STATE_NAME_DICTATORSHIP</Type>
+			<Description>TXT_KEY_STATE_NAME_DICTATORSHIP</Description>
+			<iMinNumCities>2</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Tyranny -->
+			<Type>STATE_NAME_TYRANNY</Type>
+			<Description>TXT_KEY_STATE_NAME_TYRANNY</Description>
+			<iMinNumCities>2</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+			</PrereqCivics>
+			<PrereqAlignments>
+				<Alignment>ALIGNMENT_EVIL</Alignment>
+			</PrereqAlignments>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Horde -->
+			<Type>STATE_NAME_HORDE</Type>
+			<Description>TXT_KEY_STATE_NAME_HORDE</Description>
+			<iMinNumCities>2</iMinNumCities>
+			<iMinNumCitiesConquered>1</iMinNumCitiesConquered>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+			</PrereqCivics>
+			<PrereqAlignments>
+				<Alignment>ALIGNMENT_EVIL</Alignment>
+			</PrereqAlignments>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Autocracy -->
+			<Type>STATE_NAME_AUTOCRACY</Type>
+			<Description>TXT_KEY_STATE_NAME_AUTOCRACY</Description>
+			<iMinNumCities>2</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_DESPOTISM</CivicType>
+			</PrereqCivics>
+			<PrereqAlignments>
+				<Alignment>ALIGNMENT_GOOD</Alignment>
+			</PrereqAlignments>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- City State -->
+			<Type>STATE_NAME_CITY_STATE</Type>
+			<Description>TXT_KEY_STATE_NAME_CITY_STATE</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<iMaxNumCities>1</iMaxNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_CITY_STATES</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Sacred City -->
+			<Type>STATE_NAME_SACRED_CITY</Type>
+			<Description>TXT_KEY_STATE_NAME_SACRED_CITY</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_CITY_STATES</CivicType>
+				<CivicType>CIVIC_RELIGION</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- City States -->
+			<Type>STATE_NAME_CITY_STATES</Type>
+			<Description>TXT_KEY_STATE_NAME_CITY_STATES</Description>
+			<iMinNumCities>2</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_CITY_STATES</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Sacred Cities -->
+			<Type>STATE_NAME_SACRED_CITIES</Type>
+			<Description>TXT_KEY_STATE_NAME_SACRED_CITIES</Description>
+			<iMinNumCities>2</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_CITY_STATES</CivicType>
+				<CivicType>CIVIC_RELIGION</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Peace League -->
+			<Type>STATE_NAME_PEACE_LEAGUE</Type>
+			<Description>TXT_KEY_STATE_NAME_PEACE_LEAGUE</Description>
+			<iMinNumCities>2</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_CITY_STATES</CivicType>
+				<CivicType>CIVIC_PACIFISM</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Free Cities -->
+			<Type>STATE_NAME_FREE_CITIES</Type>
+			<Description>TXT_KEY_STATE_NAME_FREE_CITIES</Description>
+			<iMinNumCities>2</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_CITY_STATES</CivicType>
+				<CivicType>CIVIC_LIBERTY</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Chiefdom -->
+			<Type>STATE_NAME_CHIEFDOM</Type>
+			<Description>TXT_KEY_STATE_NAME_CHIEFDOM</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_TRIBAL_LAW</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Tribal Chiefdom -->
+			<Type>STATE_NAME_TRIBAL_CHIEFDOM</Type>
+			<Description>TXT_KEY_STATE_NAME_TRIBAL_CHIEFDOM</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_TRIBAL_LAW</CivicType>
+				<CivicType>CIVIC_TRIBALISM</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- God Kingdom -->
+			<Type>STATE_NAME_GOD_KINGDOM</Type>
+			<Description>TXT_KEY_STATE_NAME_GOD_KINGDOM</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_GOD_KING</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- See of City  -->
+			<Type>STATE_NAME_SEE</Type>
+			<Description>TXT_KEY_STATE_NAME_SEE</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_GOD_KING</CivicType>
+				<CivicType>CIVIC_RELIGION</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Realm of Peace -->
+			<Type>STATE_NAME_REALM_OF_PEACE</Type>
+			<Description>TXT_KEY_STATE_NAME_REALM_OF_PEACE</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_GOD_KING</CivicType>
+				<CivicType>CIVIC_PACIFISM</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Realm of Nation -->
+			<Type>STATE_NAME_REALM_OF_NATION</Type>
+			<Description>TXT_KEY_STATE_NAME_REALM_OF_NATION</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_GOD_KING</CivicType>
+				<CivicType>CIVIC_NATIONHOOD</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Kingdom -->
+			<Type>STATE_NAME_KINGDOM</Type>
+			<Description>TXT_KEY_STATE_NAME_KINGDOM</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_ARISTOCRACY</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Free Imperial Estates -->
+			<Type>STATE_NAME_FREE_IMPERIAL_ESTATES</Type>
+			<Description>TXT_KEY_STATE_NAME_FREE_IMPERIAL_ESTATES</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_ARISTOCRACY</CivicType>
+				<CivicType>CIVIC_LIBERTY</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Principality -->
+			<Type>STATE_NAME_PRINCIPALITY</Type>
+			<Description>TXT_KEY_STATE_NAME_PRINCIPALITY</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_ARISTOCRACY</CivicType>
+			</PrereqCivics>
+			<PrereqCivilization>CIVILIZATION_CALABIM</PrereqCivilization>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Theocracy -->
+			<Type>STATE_NAME_THEOCRACY</Type>
+			<Description>TXT_KEY_STATE_NAME_THEOCRACY</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_THEOCRACY</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Ashen Veil Theocracy -->
+			<Type>STATE_NAME_THE_ASHEN_VEIL_THEOCRACY</Type>
+			<Description>TXT_KEY_STATE_NAME_THE_ASHEN_VEIL_THEOCRACY</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_THEOCRACY</CivicType>
+			</PrereqCivics>
+			<PrereqReligion>RELIGION_THE_ASHEN_VEIL</PrereqReligion>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Empyrean Theocracy -->
+			<Type>STATE_NAME_THE_EMPYREAN_THEOCRACY</Type>
+			<Description>TXT_KEY_STATE_NAME_THE_EMPYREAN_THEOCRACY</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_THEOCRACY</CivicType>
+			</PrereqCivics>
+			<PrereqReligion>RELIGION_THE_EMPYREAN</PrereqReligion>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Order Theocracy -->
+			<Type>STATE_NAME_THE_ORDER_THEOCRACY</Type>
+			<Description>TXT_KEY_STATE_NAME_THE_ORDER_THEOCRACY</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_THEOCRACY</CivicType>
+			</PrereqCivics>
+			<PrereqReligion>RELIGION_THE_ORDER</PrereqReligion>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Republic -->
+			<Type>STATE_NAME_REPUBLIC</Type>
+			<Description>TXT_KEY_STATE_NAME_REPUBLIC</Description>
+			<iMinNumCities>1</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_REPUBLIC</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Pack -->
+			<Type>STATE_NAME_PACK</Type>
+			<Description>TXT_KEY_STATE_NAME_PACK</Description>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_WILDCOUNCIL</CivicType>
+			</PrereqCivics>
+			<PrereqAlignments>
+				<Alignment>ALIGNMENT_EVIL</Alignment>
+			</PrereqAlignments>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Blood Brothers -->
+			<Type>STATE_NAME_BLOOD_BROTHERS</Type>
+			<Description>TXT_KEY_STATE_NAME_BLOOD_BROTHERS</Description>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_WILDCOUNCIL</CivicType>
+			</PrereqCivics>
+			<PrereqAlignments>
+				<Alignment>ALIGNMENT_NEUTRAL</Alignment>
+			</PrereqAlignments>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Wildmen -->
+			<Type>STATE_NAME_WILDMEN</Type>
+			<Description>TXT_KEY_STATE_NAME_WILDMEN</Description>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_WILDCOUNCIL</CivicType>
+			</PrereqCivics>
+			<PrereqAlignments>
+				<Alignment>ALIGNMENT_GOOD</Alignment>
+			</PrereqAlignments>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Huntsmen -->
+			<Type>STATE_NAME_HUNTSMEN</Type>
+			<Description>TXT_KEY_STATE_NAME_HUNTSMEN</Description>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_WILDCOUNCIL</CivicType>
+			</PrereqCivics>
+			<PrereqReligion>RELIGION_FELLOWSHIP_OF_LEAVES</PrereqReligion>
+		</StateNameInfo>
+	</StateNameInfos>
+</Civ4StateNameInfos>

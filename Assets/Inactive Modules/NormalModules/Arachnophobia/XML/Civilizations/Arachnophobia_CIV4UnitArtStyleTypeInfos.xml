@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4UnitArtStyleTypeInfos xmlns="x-schema:Arachnophobia_CIV4CivilizationsSchema.xml">
+	<UnitArtStyleTypeInfos>
+		<UnitArtStyleTypeInfo>
+			<Type>UNIT_ARTSTYLE_ARCHOS</Type>
+			<StyleUnits>
+				<StyleUnit>
+					<UnitType>UNIT_HUNTER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HUNTER_ARCHOS</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HUNTER_ARCHOS</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HUNTER_ARCHOS</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_BABY_SPIDER</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_BABY_SPIDER</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_BABY_SPIDER</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_RANGER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_RANGER_ARCHOS</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_RANGER_ARCHOS</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_RANGER_ARCHOS</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_SPIDER</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_SPIDER</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_SPIDER</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_MAGE</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_MAGE_ARCHOS</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_MAGE_ARCHOS</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_MAGE_ARCHOS</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_ARCHMAGE</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_ARCHMAGE_ARCHOS</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_ARCHMAGE_ARCHOS</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_ARCHMAGE_ARCHOS</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_BERSERKER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_BERSERKER_ARCHOS</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_BERSERKER_ARCHOS</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_BERSERKER_ARCHOS</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+			</StyleUnits>
+		</UnitArtStyleTypeInfo>
+	</UnitArtStyleTypeInfos>
+</Civ4UnitArtStyleTypeInfos>

@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4UnitArtStyleTypeInfos xmlns="x-schema:CIV4CivilizationsSchema.xml">
+	<UnitArtStyleTypeInfos>
+		<UnitArtStyleTypeInfo>
+			<Type>UNIT_ARTSTYLE_BALSERAPHS</Type>
+				<StyleUnits>
+					<StyleUnit>
+						<UnitType>UNIT_BERSERKER</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_PANZERFREAK</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_PANZERFREAK</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_PANZERFREAK</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+
+					<StyleUnit>
+						<UnitType>UNIT_SCIENTIST</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_SCIENTIST_BALSERAPH</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_SCIENTIST_BALSERAPH</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_SCIENTIST_BALSERAPH</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>		
+					
+					<StyleUnit>
+						<UnitType>UNIT_ARTIST</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_ARTIST_BALSERAPH</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_ARTIST_BALSERAPH</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_ARTIST_BALSERAPH</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+				
+					<StyleUnit>
+						<UnitType>UNIT_CROSSBOWMAN</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_BALSERAPH</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_BALSERAPH</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_BALSERAPH</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+				
+					<StyleUnit>
+						<UnitType>UNIT_LONGBOWMAN</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_BALSERAPH</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_BALSERAPH</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_LONGBOWMAN_BALSERAPH</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+
+					<StyleUnit>
+						<UnitType>UNIT_ARCHER</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_BALSERAPH</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_ARCHER_BALSERAPH</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_BALSERAPH</MiddleArtDefineTag>
+						</UnitMeshGroup>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_BALSERAPH</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_ARCHER_BALSERAPH</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_BALSERAPH</MiddleArtDefineTag>
+						</UnitMeshGroup>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_ARCHER_BALSERAPH</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_ARCHER_BALSERAPH</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_ARCHER_BALSERAPH</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+				</StyleUnits>
+		</UnitArtStyleTypeInfo>
+	</UnitArtStyleTypeInfos>
+</Civ4UnitArtStyleTypeInfos>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:Dwarves_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+		<SpellInfo>			<!-- Ale Ration -->					<!-- Khazad SPELLS -->
+			<Type>SPELL_ALE_RATION</Type>
+			<Description>TXT_KEY_SPELL_ALE_RATION</Description>
+			<Civilopedia>TXT_KEY_SPELL_ALE_RATION_PEDIA</Civilopedia>
+			<UnitPrereq>UNIT_COMMANDER_DWARVEN_THANE</UnitPrereq>
+			<CivilizationPrereq>CIVILIZATION_KHAZAD</CivilizationPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bIsAutoCastable>1</bIsAutoCastable>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<iRange>1</iRange>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_DRUNK</AddPromotion>
+			</AddPromotions>
+			<bImmuneNeutral>1</bImmuneNeutral>
+			<bImmuneEnemy>1</bImmuneEnemy>
+			<bImmuneNotAlive>1</bImmuneNotAlive>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_ENCHANTMENT</Sound>
+			<Button>Art/Interface/Buttons/Worldbuilder/Ale.dds</Button>
+		</SpellInfo>		
+		<SpellInfo>			<!-- Create Battering Ram -->				<!-- KHAZAD ABILITIES -->
+			<Type>SPELL_CREATE_BATTERING_RAM_EA</Type>
+			<Description>TXT_KEY_SPELL_CREATE_BATTERING_RAM</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<UnitClassPrereq>UNITCLASS_ADEPT</UnitClassPrereq>
+			<CivilizationPrereq>CIVILIZATION_KHAZAD</CivilizationPrereq>
+			<FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
+			<TechPrereq>TECH_CONSTRUCTION</TechPrereq>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<CreateUnitType>UNIT_BATTERING_RAM</CreateUnitType>
+			<iCreateUnitNum>1</iCreateUnitNum>
+			<bPermanentUnitCreate>1</bPermanentUnitCreate>
+			<bAbility>1</bAbility>
+			<iDelay>3</iDelay>
+			<PyResult>spellCreateBatteringRam(pCaster)</PyResult>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_TRAIN</Sound>
+			<Button>Art/Interface/Buttons/Units/Battering Ram.dds</Button>
+		</SpellInfo>		
+		<SpellInfo>			<!-- Create Trebuchet -->				<!-- KHAZAD ABILITIES -->
+			<Type>SPELL_CREATE_TREBUCHET</Type>
+			<Description>TXT_KEY_SPELL_CREATE_TREBUCHET</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<UnitClassPrereq>UNITCLASS_MAGE</UnitClassPrereq>
+			<CivilizationPrereq>CIVILIZATION_KHAZAD</CivilizationPrereq>
+			<FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
+			<TechPrereq>TECH_CONSTRUCTION</TechPrereq>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<CreateUnitType>UNIT_TREBUCHET</CreateUnitType>
+			<iCreateUnitNum>1</iCreateUnitNum>
+			<bPermanentUnitCreate>1</bPermanentUnitCreate>
+			<bAbility>1</bAbility>
+			<iDelay>3</iDelay>
+			<PyResult>spellCreateBatteringRam(pCaster)</PyResult>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_TRAIN</Sound>
+			<Button>Art/Interface/Buttons/Units/Trebuchet.dds</Button>
+		</SpellInfo>		
+		<SpellInfo>			<!-- Create Battering Ram -->				<!-- KHAZAD ABILITIES -->
+			<Type>SPELL_CREATE_TREBUCHET_TWO</Type>
+			<Description>TXT_KEY_SPELL_CREATE_TREBUCHET_TWO</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<UnitClassPrereq>UNITCLASS_ARCHMAGE</UnitClassPrereq>
+			<CivilizationPrereq>CIVILIZATION_KHAZAD</CivilizationPrereq>
+			<FeatureOrPrereq1>FEATURE_FOREST</FeatureOrPrereq1>
+			<TechPrereq>TECH_CONSTRUCTION</TechPrereq>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<CreateUnitType>UNIT_TREBUCHET</CreateUnitType>
+			<iCreateUnitNum>2</iCreateUnitNum>
+			<bPermanentUnitCreate>1</bPermanentUnitCreate>
+			<bAbility>1</bAbility>
+			<iDelay>3</iDelay>
+			<PyResult>spellCreateBatteringRam(pCaster)</PyResult>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_TRAIN</Sound>
+			<Button>Art/Interface/Buttons/Units/Trebuchet.dds</Button>
+		</SpellInfo>
+	</SpellInfos>
+</Civ4SpellInfos>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_DWARVEN_SETTLEMENT</Tag>
+		<English>Dwarven Settlement</English>
+		<French>Dwarven Settlement</French>
+		<German>Dwarven Settlement</German>
+		<Italian>Dwarven Settlement</Italian>
+		<Spanish>Dwarven Settlement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_DWARVEN_HALL</Tag>
+		<English>Dwarven Hall</English>
+		<French>Dwarven Hall</French>
+		<German>Dwarven Hall</German>
+		<Italian>Dwarven Hall</Italian>
+		<Spanish>Dwarven Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_DWARVEN_CITADEL</Tag>
+		<English>Dwarven Citadel</English>
+		<French>Dwarven Citadel</French>
+		<German>Dwarven Citadel</German>
+		<Italian>Dwarven Citadel</Italian>
+		<Spanish>Dwarven Citadel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_CITADEL</Tag>
+		<English>Citadel</English>
+		<French>Citadel</French>
+		<German>Citadel</German>
+		<Italian>Citadel</Italian>
+		<Spanish>Citadel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FORGEGUARDS</Tag>
+		<English>Forgeguards</English>
+		<French>Forgeguards</French>
+		<German>Forgeguards</German>
+		<Italian>Forgeguards</Italian>
+		<Spanish>Forgeguards</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FORGEGUARDS_PEDIA</Tag>
+		<English>The Forgeguards' defensive promotions make them excellent city defenders.  They are only available to Khazad that have selected the Aristocracy civic and will abandon you if that civic is changed.</English>
+		<French>The Forgeguards' defensive promotions make them excellent city defenders.  They are only available to Khazad that have selected the Aristocracy civic and will abandon you if that civic is changed.</French>
+		<German>The Forgeguards' defensive promotions make them excellent city defenders.  They are only available to Khazad that have selected the Aristocracy civic and will abandon you if that civic is changed.</German>
+		<Italian>The Forgeguards' defensive promotions make them excellent city defenders.  They are only available to Khazad that have selected the Aristocracy civic and will abandon you if that civic is changed.</Italian>
+		<Spanish>The Forgeguards' defensive promotions make them excellent city defenders.  They are only available to Khazad that have selected the Aristocracy civic and will abandon you if that civic is changed.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FORGEGUARDS_STRATEGY</Tag>
+		<English>Forgeguards require the Aristocracy civic to build, and will leave you if you change civics--so don't bother building them if you plan to change government civics soon. They are very nice units if you meet the requirements, however, as they protect stacks against enemies with Marksman promotion and they can cast the Hope spell to add happiness and culture to a city. Whilst slightly weaker than Royal Guards of other nations the Forgeguards connection to stone has given them the abilty to turn their skin to stone for a short period of time.</English>
+		<French>Forgeguards require the Aristocracy civic to build, and will leave you if you change civics--so don't bother building them if you plan to change government civics soon. They are very nice units if you meet the requirements, however, as they protect stacks against enemies with Marksman promotion and they can cast the Hope spell to add happiness and culture to a city. Whilst slightly weaker than Royal Guards of other nations the Forgeguards connection to stone has given them the abilty to turn their skin to stone for a short period of time.</French>
+		<German>Forgeguards require the Aristocracy civic to build, and will leave you if you change civics--so don't bother building them if you plan to change government civics soon. They are very nice units if you meet the requirements, however, as they protect stacks against enemies with Marksman promotion and they can cast the Hope spell to add happiness and culture to a city. Whilst slightly weaker than Royal Guards of other nations the Forgeguards connection to stone has given them the abilty to turn their skin to stone for a short period of time.</German>
+		<Italian>Forgeguards require the Aristocracy civic to build, and will leave you if you change civics--so don't bother building them if you plan to change government civics soon. They are very nice units if you meet the requirements, however, as they protect stacks against enemies with Marksman promotion and they can cast the Hope spell to add happiness and culture to a city. Whilst slightly weaker than Royal Guards of other nations the Forgeguards connection to stone has given them the abilty to turn their skin to stone for a short period of time.</Italian>
+		<Spanish>Forgeguards require the Aristocracy civic to build, and will leave you if you change civics--so don't bother building them if you plan to change government civics soon. They are very nice units if you meet the requirements, however, as they protect stacks against enemies with Marksman promotion and they can cast the Hope spell to add happiness and culture to a city. Whilst slightly weaker than Royal Guards of other nations the Forgeguards connection to stone has given them the abilty to turn their skin to stone for a short period of time.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMMANDER_DWARVEN_THANE</Tag>
+		<English>Dwarven Thane</English>
+		<French>Dwarven Thane</French>
+		<German>Dwarven Thane</German>
+		<Italian>Dwarven Thane</Italian>
+		<Spanish>Dwarven Thane</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMMANDER_DWARVEN_THANE_PEDIA</Tag>
+		<English>As one of the oldest living dwarves a Thane is a source of great inspiration to his people. Many a hopless battle have been won thanks to their leadership and the stubborn refusal to die of their followers. If all else fails they are able to increase the Dwarves ale ration...</English>
+		<French>As one of the oldest living dwarves a Thane is a source of great inspiration to his people. Many a hopless battle have been won thanks to their leadership and the stubborn refusal to die of their followers. If all else fails they are able to increase the Dwarves ale ration...</French>
+		<German>As one of the oldest living dwarves a Thane is a source of great inspiration to his people. Many a hopless battle have been won thanks to their leadership and the stubborn refusal to die of their followers. If all else fails they are able to increase the Dwarves ale ration...</German>
+		<Italian>As one of the oldest living dwarves a Thane is a source of great inspiration to his people. Many a hopless battle have been won thanks to their leadership and the stubborn refusal to die of their followers. If all else fails they are able to increase the Dwarves ale ration...</Italian>
+		<Spanish>As one of the oldest living dwarves a Thane is a source of great inspiration to his people. Many a hopless battle have been won thanks to their leadership and the stubborn refusal to die of their followers. If all else fails they are able to increase the Dwarves ale ration...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DRUNK</Tag>
+		<English>Drunk</English>
+		<French>Drunk</French>
+		<German>Drunk</German>
+		<Italian>Drunk</Italian>
+		<Spanish>Drunk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HUNG_OVER</Tag>
+		<English>Hung Over</English>
+		<French>Hung Over</French>
+		<German>Hung Over</German>
+		<Italian>Hung Over</Italian>
+		<Spanish>Hung Over</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ALE_RATION</Tag>
+		<English>Ale Ration</English>
+		<French>Ale Ration</French>
+		<German>Ale Ration</German>
+		<Italian>Ale Ration</Italian>
+		<Spanish>Ale Ration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ALE_RATION_PEDIA</Tag>
+		<English>I am the very model of a stubborn Dwarven warrior[NEWLINE]My great homelands are Khazak, the Halowell, and Kwythellar[NEWLINE]I know the line of Bambur and I quote the names historical[NEWLINE]From Arturus to Kandros in order categorical[NEWLINE]I'm very well acquainted, too, with matters concerning battle[NEWLINE]I understand my axe work and how it helps Orc skulls to rattle[NEWLINE]About Dis I am teeming with a lot of hate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE][NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE][NEWLINE]I'm very good at knocking heads and yelling out a big war cry[NEWLINE]The Orcs that see me know to run because they know that they will die[NEWLINE]I'm short, I'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]I know our ancient history, how Kandros found Hallowell[NEWLINE]I'll answer your three questions, stout, brave and hardy O' yes I am[NEWLINE]I quote in such anger all the crimes of the wicked Kanlore[NEWLINE]And I'll never forget the stories of the terrible Underdark[NEWLINE][NEWLINE]I can hew off heads and make Orcs flee from Braduk to Far Shahad[NEWLINE]Those Hippus they fear me even though they say they are all bad[NEWLINE]And I can drink some ale after I'm done with this quest that I've sworn[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE][NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE][NEWLINE]Then I can fight some Ogres with my axe and my steel corset[NEWLINE]And I'll tell you every detail of Gildens' little bet[NEWLINE]I'm short, I'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]In fact, I even know what is meant by "ai-menu" and "Khazad" too[NEWLINE]And I can even meet the elves and start with them friendship anew[NEWLINE]At such affairs like battle with the Orcs I'm not wary at[NEWLINE]I'll face the dead and so much more even though I am scared of that[NEWLINE]I've learnt all there is to know 'bout the Dwarven way of mining ore[NEWLINE]And I can recite tales of Dwarven kings that were thought lost in lore[NEWLINE]I'm short, and if I make a home and find another Mithrill Vein[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE][NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE][NEWLINE]For my own tactical finesse, I am clumsy and perhaps too bold[NEWLINE]That will be the only Dwarf way until all Erebus grows old[NEWLINE]I'm short, I honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior</English>
+		<French>I am the very model of a stubborn Dwarven warrior[NEWLINE]My great homelands are Khazak, the Halowell, and Kwythellar[NEWLINE]I know the line of Bambur and I quote the names historical[NEWLINE]From Arturus to Kandros in order categorical[NEWLINE]I'm very well acquainted, too, with matters concerning battle[NEWLINE]I understand my axe work and how it helps Orc skulls to rattle[NEWLINE]About Dis I am teeming with a lot of hate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE][NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE][NEWLINE]I'm very good at knocking heads and yelling out a big war cry[NEWLINE]The Orcs that see me know to run because they know that they will die[NEWLINE]I'm short, I'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]I know our ancient history, how Kandros found Hallowell[NEWLINE]I'll answer your three questions, stout, brave and hardy O' yes I am[NEWLINE]I quote in such anger all the crimes of the wicked Kanlore[NEWLINE]And I'll never forget the stories of the terrible Underdark[NEWLINE][NEWLINE]I can hew off heads and make Orcs flee from Braduk to Far Shahad[NEWLINE]Those Hippus they fear me even though they say they are all bad[NEWLINE]And I can drink some ale after I'm done with this quest that I've sworn[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE][NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE][NEWLINE]Then I can fight some Ogres with my axe and my steel corset[NEWLINE]And I'll tell you every detail of Gildens' little bet[NEWLINE]I'm short, I'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]In fact, I even know what is meant by "ai-menu" and "Khazad" too[NEWLINE]And I can even meet the elves and start with them friendship anew[NEWLINE]At such affairs like battle with the Orcs I'm not wary at[NEWLINE]I'll face the dead and so much more even though I am scared of that[NEWLINE]I've learnt all there is to know 'bout the Dwarven way of mining ore[NEWLINE]And I can recite tales of Dwarven kings that were thought lost in lore[NEWLINE]I'm short, and if I make a home and find another Mithrill Vein[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE][NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE][NEWLINE]For my own tactical finesse, I am clumsy and perhaps too bold[NEWLINE]That will be the only Dwarf way until all Erebus grows old[NEWLINE]I'm short, I honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior</French>
+		<German>I am the very model of a stubborn Dwarven warrior[NEWLINE]My great homelands are Khazak, the Halowell, and Kwythellar[NEWLINE]I know the line of Bambur and I quote the names historical[NEWLINE]From Arturus to Kandros in order categorical[NEWLINE]I'm very well acquainted, too, with matters concerning battle[NEWLINE]I understand my axe work and how it helps Orc skulls to rattle[NEWLINE]About Dis I am teeming with a lot of hate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE][NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE][NEWLINE]I'm very good at knocking heads and yelling out a big war cry[NEWLINE]The Orcs that see me know to run because they know that they will die[NEWLINE]I'm short, I'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]I know our ancient history, how Kandros found Hallowell[NEWLINE]I'll answer your three questions, stout, brave and hardy O' yes I am[NEWLINE]I quote in such anger all the crimes of the wicked Kanlore[NEWLINE]And I'll never forget the stories of the terrible Underdark[NEWLINE][NEWLINE]I can hew off heads and make Orcs flee from Braduk to Far Shahad[NEWLINE]Those Hippus they fear me even though they say they are all bad[NEWLINE]And I can drink some ale after I'm done with this quest that I've sworn[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE][NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE][NEWLINE]Then I can fight some Ogres with my axe and my steel corset[NEWLINE]And I'll tell you every detail of Gildens' little bet[NEWLINE]I'm short, I'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]In fact, I even know what is meant by "ai-menu" and "Khazad" too[NEWLINE]And I can even meet the elves and start with them friendship anew[NEWLINE]At such affairs like battle with the Orcs I'm not wary at[NEWLINE]I'll face the dead and so much more even though I am scared of that[NEWLINE]I've learnt all there is to know 'bout the Dwarven way of mining ore[NEWLINE]And I can recite tales of Dwarven kings that were thought lost in lore[NEWLINE]I'm short, and if I make a home and find another Mithrill Vein[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE][NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE][NEWLINE]For my own tactical finesse, I am clumsy and perhaps too bold[NEWLINE]That will be the only Dwarf way until all Erebus grows old[NEWLINE]I'm short, I honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior</German>
+		<Italian>I am the very model of a stubborn Dwarven warrior[NEWLINE]My great homelands are Khazak, the Halowell, and Kwythellar[NEWLINE]I know the line of Bambur and I quote the names historical[NEWLINE]From Arturus to Kandros in order categorical[NEWLINE]I'm very well acquainted, too, with matters concerning battle[NEWLINE]I understand my axe work and how it helps Orc skulls to rattle[NEWLINE]About Dis I am teeming with a lot of hate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE][NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE][NEWLINE]I'm very good at knocking heads and yelling out a big war cry[NEWLINE]The Orcs that see me know to run because they know that they will die[NEWLINE]I'm short, I'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]I know our ancient history, how Kandros found Hallowell[NEWLINE]I'll answer your three questions, stout, brave and hardy O' yes I am[NEWLINE]I quote in such anger all the crimes of the wicked Kanlore[NEWLINE]And I'll never forget the stories of the terrible Underdark[NEWLINE][NEWLINE]I can hew off heads and make Orcs flee from Braduk to Far Shahad[NEWLINE]Those Hippus they fear me even though they say they are all bad[NEWLINE]And I can drink some ale after I'm done with this quest that I've sworn[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE][NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE][NEWLINE]Then I can fight some Ogres with my axe and my steel corset[NEWLINE]And I'll tell you every detail of Gildens' little bet[NEWLINE]I'm short, I'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]In fact, I even know what is meant by "ai-menu" and "Khazad" too[NEWLINE]And I can even meet the elves and start with them friendship anew[NEWLINE]At such affairs like battle with the Orcs I'm not wary at[NEWLINE]I'll face the dead and so much more even though I am scared of that[NEWLINE]I've learnt all there is to know 'bout the Dwarven way of mining ore[NEWLINE]And I can recite tales of Dwarven kings that were thought lost in lore[NEWLINE]I'm short, and if I make a home and find another Mithrill Vein[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE][NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE][NEWLINE]For my own tactical finesse, I am clumsy and perhaps too bold[NEWLINE]That will be the only Dwarf way until all Erebus grows old[NEWLINE]I'm short, I honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior</Italian>
+		<Spanish>I am the very model of a stubborn Dwarven warrior[NEWLINE]My great homelands are Khazak, the Halowell, and Kwythellar[NEWLINE]I know the line of Bambur and I quote the names historical[NEWLINE]From Arturus to Kandros in order categorical[NEWLINE]I'm very well acquainted, too, with matters concerning battle[NEWLINE]I understand my axe work and how it helps Orc skulls to rattle[NEWLINE]About Dis I am teeming with a lot of hate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE][NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE]With many evil tales about how we would not cross the east gate[NEWLINE][NEWLINE]I'm very good at knocking heads and yelling out a big war cry[NEWLINE]The Orcs that see me know to run because they know that they will die[NEWLINE]I'm short, I'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]I know our ancient history, how Kandros found Hallowell[NEWLINE]I'll answer your three questions, stout, brave and hardy O' yes I am[NEWLINE]I quote in such anger all the crimes of the wicked Kanlore[NEWLINE]And I'll never forget the stories of the terrible Underdark[NEWLINE][NEWLINE]I can hew off heads and make Orcs flee from Braduk to Far Shahad[NEWLINE]Those Hippus they fear me even though they say they are all bad[NEWLINE]And I can drink some ale after I'm done with this quest that I've sworn[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE][NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE]And go with Gilden to that infernal forest called Evermore[NEWLINE][NEWLINE]Then I can fight some Ogres with my axe and my steel corset[NEWLINE]And I'll tell you every detail of Gildens' little bet[NEWLINE]I'm short, I'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]In fact, I even know what is meant by "ai-menu" and "Khazad" too[NEWLINE]And I can even meet the elves and start with them friendship anew[NEWLINE]At such affairs like battle with the Orcs I'm not wary at[NEWLINE]I'll face the dead and so much more even though I am scared of that[NEWLINE]I've learnt all there is to know 'bout the Dwarven way of mining ore[NEWLINE]And I can recite tales of Dwarven kings that were thought lost in lore[NEWLINE]I'm short, and if I make a home and find another Mithrill Vein[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE][NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE]You'll say a better Dwarven warrior has never come from stone[NEWLINE][NEWLINE]For my own tactical finesse, I am clumsy and perhaps too bold[NEWLINE]That will be the only Dwarf way until all Erebus grows old[NEWLINE]I'm short, I honor Khazak, the Halowell, and Kwythellar[NEWLINE]I am the very model of a stubborn Dwarven warrior[NEWLINE][NEWLINE]He's short, he'll honor Khazak, the Halowell, and Kwythellar[NEWLINE]He is the very model of a stubborn Dwarven warrior</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DWARVEN_ENGINEERS_APPRENTICE</Tag>
+		<English>Dwarven Engineers Apprentice</English>
+		<French>Dwarven Engineers Apprentice</French>
+		<German>Dwarven Engineers Apprentice</German>
+		<Italian>Dwarven Engineers Apprentice</Italian>
+		<Spanish>Dwarven Engineers Apprentice</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DWARVEN_ENGINEER</Tag>
+		<English>Dwarven Engineer</English>
+		<French>Dwarven Engineer</French>
+		<German>Dwarven Engineer</German>
+		<Italian>Dwarven Engineer</Italian>
+		<Spanish>Dwarven Engineer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DWARVEN_MASTER_ENGINEER</Tag>
+		<English>Dwarven Master Engineer</English>
+		<French>Dwarven Master Engineer</French>
+		<German>Dwarven Master Engineer</German>
+		<Italian>Dwarven Master Engineer</Italian>
+		<Spanish>Dwarven Master Engineer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DWARVEN_ENGINEER_PEDIA</Tag>
+		<English>Dwarven Engineer</English>
+		<French>Dwarven Engineer</French>
+		<German>Dwarven Engineer</German>
+		<Italian>Dwarven Engineer</Italian>
+		<Spanish>Dwarven Engineer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CREATE_TREBUCHET</Tag>
+		<English>Create Trebuchet</English>
+		<French>Create Trebuchet</French>
+		<German>Create Trebuchet</German>
+		<Italian>Create Trebuchet</Italian>
+		<Spanish>Create Trebuchet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CREATE_TREBUCHET_TWO</Tag>
+		<English>Create 2 Trebuchet</English>
+		<French>Create 2 Trebuchet</French>
+		<German>Create 2 Trebuchet</German>
+		<Italian>Create 2 Trebuchet</Italian>
+		<Spanish>Create 2 Trebuchet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_FIELD_REPAIR1</Tag>
+		<English>Field Repair 1</English>
+		<French>Field Repair 1</French>
+		<German>Field Repair 1</German>
+		<Italian>Field Repair 1</Italian>
+		<Spanish>Field Repair 1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_FIELD_REPAIR2</Tag>
+		<English>Field Repair 2</English>
+		<French>Field Repair 2</French>
+		<German>Field Repair 2</German>
+		<Italian>Field Repair 2</Italian>
+		<Spanish>Field Repair 2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_FIELD_REPAIR1</Tag>
+		<English>Field Repair 1</English>
+		<French>Field Repair 1</French>
+		<German>Field Repair 1</German>
+		<Italian>Field Repair 1</Italian>
+		<Spanish>Field Repair 1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_FIELD_REPAIR2</Tag>
+		<English>Field Repair 2</English>
+		<French>Field Repair 2</French>
+		<German>Field Repair 2</German>
+		<Italian>Field Repair 2</Italian>
+		<Spanish>Field Repair 2</Spanish>
+	</TEXT>
+</Civ4GameText>

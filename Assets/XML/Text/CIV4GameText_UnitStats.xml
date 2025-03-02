@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Misc -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STATISTICS</Tag>
+		<English>UNIT STATISTICS</English>
+		<French>UNIT STATISTICS</French>
+		<German>EINHEITENSTATISTIK</German>
+		<Italian>STAT UNITA'</Italian>
+		<Spanish>UNIT STATISTICS</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STATISTICS_SMALL</Tag>
+		<English>Unit Statistics &lt;U></English>
+		<French>Unit Statistics &lt;U></French>
+		<German>Einheitenstatistik  &lt;U></German>
+		<Italian>Statistiche unit&#224; &lt;U></Italian>
+		<Spanish>Unit Statistics &lt;U></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_STATISTICS</Tag>
+		<English>PLAYER STATISTICS</English>
+		<French>PLAYER STATISTICS</French>
+		<German>SPIELERSTATISTIK</German>
+		<Italian>STAT GIOCATORE</Italian>
+		<Spanish>PLAYER STATISTICS</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_STATISTICS_SMALL</Tag>
+		<English>Player Statistics</English>
+		<French>Player Statistics</French>
+		<German>Spielerstatistik</German>
+		<Italian>Statistiche giocatore</Italian>
+		<Spanish>Player Statistics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GRAVEYARD</Tag>
+		<English>GRAVEYARD</English>
+		<French>GRAVEYARD</French>
+		<German>FRIEDHOF</German>
+		<Italian>TOMBA</Italian>
+		<Spanish>GRAVEYARD</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOP10</Tag>
+		<English>TOP 10</English>
+		<French>TOP 10</French>
+		<German>TOP 10</German>
+		<Italian>TOP 10</Italian>
+		<Spanish>TOP 10</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CURRHIGHSCORES</Tag>
+		<English>LIVING UNITS</English>
+		<French>LIVING UNITS</French>
+		<German>AKTIVE EINHEITEN </German>
+		<Italian>UNITA' VIVE</Italian>
+		<Spanish>LIVING UNITS</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HIGHSCORES</Tag>
+		<English>HIGH SCORES</English>
+		<French>HIGH SCORES</French>
+		<German>BESTENLISTE</German>
+		<Italian>TOP SCORES</Italian>
+		<Spanish>HIGH SCORES</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HIGHSCORES_SMALL</Tag>
+		<English>High Scores</English>
+		<French>High Scores</French>
+		<German>Bestenliste</German>
+		<Italian>Migliori punteggi</Italian>
+		<Spanish>High Scores</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HALLOFFAME</Tag>
+		<English>HALL OF FAME</English>
+		<French>HALL OF FAME</French>
+		<German>EWIGE BESTENLISTE</German>
+		<Italian>I MIGLIORI</Italian>
+		<Spanish>HALL OF FAME</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HALLOFFAME_SMALL</Tag>
+		<English>Hall of Fame</English>
+		<French>Hall of Fame</French>
+		<German>Ewige Bestenliste</German>
+		<Italian>I migliori</Italian>
+		<Spanish>Hall of Fame</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_EXIT</Tag>
+		<English>EXIT</English>
+		<French>EXIT</French>
+		<German>SCHLIESSEN</German>
+		<Italian>ESCI</Italian>
+		<Spanish>EXIT</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_OVERVIEW</Tag>
+		<English>Unit Overview</English>
+		<French>Unit Overview</French>
+		<German>Einheiten&#252;bersicht</German>
+		<Italian>Info sull'unit&#224;</Italian>
+		<Spanish>Unit Overview</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OVERVIEW</Tag>
+		<English>Player Overview</English>
+		<French>Player Overview</French>
+		<German>Spieler&#252;bersicht</German>
+		<Italian>Info sul giocatore</Italian>
+		<Spanish>Player Overview</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HIGHSCORE_UNITS</Tag>
+		<English>High Score Units</English>
+		<French>High Score Units</French>
+		<German>Einheiten-Bestenliste</German>
+		<Italian>Unit&#224; con punteggi migliori</Italian>
+		<Spanish>High Score Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HALLOFFAME_UNITS</Tag>
+		<English>Hall of Fame Units</English>
+		<French>Hall of Fame Units</French>
+		<German>Ewige Einheiten-Bestenliste</German>
+		<Italian>Le migliori unit&#224;</Italian>
+		<Spanish>Hall of Fame Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOP10_UNITS</Tag>
+		<English>Top 10 Units</English>
+		<French>Top 10 Units</French>
+		<German>Top 10 Einheiten</German>
+		<Italian>Migliori 10 unit&#224;</Italian>
+		<Spanish>Top 10 Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_UNITTYPE</Tag>
+		<English>Unit Type:</English>
+		<French>Unit Type:</French>
+		<German>Einheitentyp:</German>
+		<Italian>Tipo di unit&#224;:</Italian>
+		<Spanish>Unit Type:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TURNS_IN_SERVICE</Tag>
+		<English>Turns in Service:</English>
+		<French>Turns in Service:</French>
+		<German>Runden im Dienst:</German>
+		<Italian>Turni di servizio:</Italian>
+		<Spanish>Turns in Service:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BATTLES_FOUGHT</Tag>
+		<English>Battles Fought: %d1 (Attacking: %d2 - Defending: %d3)</English>
+		<French>Battles Fought: %d1 (Attacking: %d2 - Defending: %d3)</French>
+		<German>Anzahl K&#228;mpfe: %d1 (Offensiv: %d2 - Defensiv: %d3)</German>
+		<Italian>Battaglie combattute: %d1 (in attacco: %d2 - in difesa: %d3)</Italian>
+		<Spanish>Battles Fought: %d1 (Attacking: %d2 - Defending: %d3)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITS_KILLED</Tag>
+		<English>Units Killed: %d1 (Attacking: %d2 - Defending: %d3 - Other: %d4)</English>
+		<French>Units Killed: %d1 (Attacking: %d2 - Defending: %d3 - Other: %d4)</French>
+		<German>Erlegte Gegner: %d1 (Offensiv: %d2 - Defensiv: %d3 - Andere: %d4)</German>
+		<Italian>Unit&#224; uccise: %d1 (in attacco: %d2 - in difesa: %d3 - altro: %d4)</Italian>
+		<Spanish>Units Killed: %d1 (Attacking: %d2 - Defending: %d3 - Other: %d4)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITS_LOST</Tag>
+		<English>Units Lost: %d1 (Attacking: %d2 - Defending: %d3 - Other: %d4)</English>
+		<French>Units Lost: %d1 (Attacking: %d2 - Defending: %d3 - Other: %d4)</French>
+		<German>Eigene Opfer: %d1 (Offensiv: %d2 - Defensiv: %d3 - Andere: %d4)</German>
+		<Italian>Unit&#224; perdute: %d1 (in attacco: %d2 - in difesa: %d3 - altro: %d4)</Italian>
+		<Spanish>Units Lost: %d1 (Attacking: %d2 - Defending: %d3 - Other: %d4)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNDECIDED_BATTLES</Tag>
+		<English>Undecided Battles: %d1 (Own Retreats: %d2 - Enemy Retreats: %d3)</English>
+		<French>Undecided Battles: %d1 (Own Retreats: %d2 - Enemy Retreats: %d3)</French>
+		<German>K&#228;mpfe ohne Ergebnis: %d1 (Eigene R&#252;ckz&#252;ge: %d2 - R&#252;ckz&#252;ge des Gegners: %d3)</German>
+		<Italian>Battaglie non concluse: %d1 (ritirata propria: %d2 - ritirata nemica: %d3)</Italian>
+		<Spanish>Undecided Battles: %d1 (Own Retreats: %d2 - Enemy Retreats: %d3)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUM_AIR_STRIKES</Tag>
+		<English>Successful Air Strikes: %d1</English>
+		<French>Successful Air Strikes: %d1</French>
+		<German>Erfolgreiche Luftbombardierungen: %d1</German>
+		<Italian>Attacchi aerei riusciti: %d1</Italian>
+		<Spanish>Successful Air Strikes: %d1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUM_AIR_COMBATS</Tag>
+		<English>Air Combats Fought: %d1 (Attacking: %d2 - Intercepting: %d3)</English>
+		<French>Air Combats Fought: %d1 (Attacking: %d2 - Intercepting: %d3)</French>
+		<German>Anzahl Luftk&#228;mpfe: %d1 (Offensiv: %d2 - Abfangmissionen: %d3)</German>
+		<Italian>Battaglie aeree combattute: %d1 (in attacco: %d2 - in intercezione: %d3)</Italian>
+		<Spanish>Air Combats Fought: %d1 (Attacking: %d2 - Intercepting: %d3)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUM_AIR_KILLS</Tag>
+		<English>Units Killed in Air Combat: %d1 (Attacking: %d2 - Intercepting: %d3)</English>
+		<French>Units Killed in Air Combat: %d1 (Attacking: %d2 - Intercepting: %d3)</French>
+		<German>Anzahl erfolgreich abgeschossener Flugzeuge: %d1 (Offensiv: %d2 - Abfangmissionen: %d3)</German>
+		<Italian>Unit&#224; uccise in battaglie aeree: %d1 (in attacco: %d2 - in intercezione: %d3)</Italian>
+		<Spanish>Units Killed in Air Combat: %d1 (Attacking: %d2 - Intercepting: %d3)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUM_AIR_LOSSES</Tag>
+		<English>Units Lost in Air Combat: %d1 (Attacking: %d2 - Intercepting: %d3)</English>
+		<French>Units Lost in Air Combat: %d1 (Attacking: %d2 - Intercepting: %d3)</French>
+		<German>Anzahl verlorener Flugzeuge: %d1 (Offensiv: %d2 - Abfangmissionen: %d3)</German>
+		<Italian>Unit&#224; perdute in battaglie aeree: %d1 (in attacco: %d2 - in intercezione: %d3)</Italian>
+		<Spanish>Units Lost in Air Combat: %d1 (Attacking: %d2 - Intercepting: %d3)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MOVECOUNTERS</Tag>
+		<English>Distance Moved: %d1 [NUM1:Tile:Tiles] - Distance Transported: %d2 [NUM2:Tile:Tiles] - Total Distance Travelled: %d3 [NUM3:Tile:Tiles]</English>
+		<French>Distance Moved: %d1 [NUM1:Tile:Tiles] - Distance Transported: %d2 [NUM2:Tile:Tiles] - Total Distance Travelled: %d3 [NUM3:Tile:Tiles]</French>
+		<German>Selbst zur&#252;ckgelegte Strecke: %d1 [NUM1:Feld:Felder] - Transportierte Strecke: %d2 [NUM2:Feld:Felder] - Insgesamt zur&#252;ckgelegte Strecke: %d3 [NUM3:Feld:Felder]</German>
+		<Italian>Distanza percorsa: %d1 [NUM1:casella:caselle] - Trasportato per: %d2 [NUM2:casella:caselle] - Distanza totale di spostamento: %d3 [NUM3:casella:caselle]</Italian>
+		<Spanish>Distance Moved: %d1 [NUM1:Tile:Tiles] - Distance Transported: %d2 [NUM2:Tile:Tiles] - Total Distance Travelled: %d3 [NUM3:Tile:Tiles]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CARGOCOUNTER</Tag>
+		<English>Total Distance Moved with Cargo: %d1 [NUM1:Tile:Tiles]</English>
+		<French>Total Distance Moved with Cargo: %d1 [NUM1:Tile:Tiles]</French>
+		<German>Zur&#252;ckgelegte Strecke mit Fracht an Bord: %d1 [NUM1:Feld:Felder]</German>
+		<Italian>Distanza totale percorsa con carico a bordo: %d1 [NUM1:casella:caselle]</Italian>
+		<Spanish>Total Distance Moved with Cargo: %d1 [NUM1:Tile:Tiles]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAMAGE_INFLICTED</Tag>
+		<English>Damage Inflicted: %s1 (Attacking: %s2 - Defending: %s3 - Air Strikes: %s4 - Other: %s5)</English>
+		<French>Damage Inflicted: %s1 (Attacking: %s2 - Defending: %s3 - Air Strikes: %s4 - Other: %s5)</French>
+		<German>Zugef&#252;gter Schaden: %s1 (Offensiv: %s2 - Defensiv: %s3 - Luftbombardierung: %s4 - Sonstiges: %s5)</German>
+		<Italian>Danno inflitto: %s1 (in attacco: %s2 - in difesa: %s3 - Battaglie aeree: %s4 - Altro: %s5)</Italian>
+		<Spanish>Damage Inflicted: %s1 (Attacking: %s2 - Defending: %s3 - Air Strikes: %s4 - Other: %s5)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DAMAGE_SUFFERED</Tag>
+		<English>Damage Suffered: %s1 (Attacking: %s2 - Defending: %s3 - Air Strikes: %s4 - Other: %s5)</English>
+		<French>Damage Suffered: %s1 (Attacking: %s2 - Defending: %s3 - Air Strikes: %s4 - Other: %s5)</French>
+		<German>Erlittener Schaden: %s1 (Offensiv: %s2 - Defensiv: %s3 - Luftbombardierung: %s4 - Sonstiges: %s5)</German>
+		<Italian>Danno subito: %s1 (in attacco: %s2 - in difesa: %s3 - Battaglie aeree: %s4 - Altro: %s5)</Italian>
+		<Spanish>Damage Suffered: %s1 (Attacking: %s2 - Defending: %s3 - Air Strikes: %s4 - Other: %s5)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ODDSINFORMATION</Tag>
+		<English>Average Combat Odds: %s1 [NEWLINE]Total Survival Odds: %s2 [NEWLINE]%s3</English>
+		<French>Average Combat Odds: %s1 [NEWLINE]Total Survival Odds: %s2 [NEWLINE]%s3</French>
+		<German>Durchschnittliche Kampfchancen: %s1 [NEWLINE]&#252;berlebenschancen insgesamt: %s2 [NEWLINE]%s3</German>
+		<Italian>Prob media di combattimento: %s1 [NEWLINE]Prob totale di sopravvivenza: %s2 [NEWLINE]%s3</Italian>
+		<Spanish>Average Combat Odds: %s1 [NEWLINE]Total Survival Odds: %s2 [NEWLINE]%s3</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOTALTIMEFORTIFIED</Tag>
+		<English>Total Time Fortified: %d1 [NUM1:turn:turns]</English>
+		<French>Total Time Fortified: %d1 [NUM1:turn:turns]</French>
+		<German>Verschanzungsdauer insgesamt: %d1 [NUM1:Runde:Runden]</German>
+		<Italian>Tempo complessivo di fortificazione: %d1 [NUM1:turno:turni]</Italian>
+		<Spanish>Total Time Fortified: %d1 [NUM1:turn:turns]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MAXTIMEFORTIFIED</Tag>
+		<English>Longest Period Fortified: %d1 [NUM1:Turn:Turns]</English>
+		<French>Longest Period Fortified: %d1 [NUM1:Turn:Turns]</French>
+		<German>L&#228;ngste Verschanzung: %d1 [NUM1:Runde:Runden]</German>
+		<Italian>Massimo periodo di fortificazione: %d1 [NUM1:turno:turni]</Italian>
+		<Spanish>Longest Period Fortified: %d1 [NUM1:Turn:Turns]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_COMMANDO</Tag>
+		<English>Time Spent in Enemy Territory: %d1 [NUM1:Turn:Turns]</English>
+		<French>Time Spent in Enemy Territory: %d1 [NUM1:Turn:Turns]</French>
+		<German>In gegnerischem Territorium verbrachte Zeit: %d1 [NUM1:Runde:Runden]</German>
+		<Italian>Tempo in territorio nemico: %d1 [NUM1:turno:turni]</Italian>
+		<Spanish>Time Spent in Enemy Territory: %d1 [NUM1:Turn:Turns]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EXPERIENCE_GAINED</Tag>
+		<English>Total Experience Gained: %d1</English>
+		<French>Total Experience Gained: %d1</French>
+		<German>Erfahrungpunkte erhalten: %d1</German>
+		<Italian>Esperienza complessiva guadagnata: %d1</Italian>
+		<Spanish>Total Experience Gained: %d1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODIES_RECEIVED</Tag>
+		<English>Total Villages Entered: %d1</English>
+		<French>Total Villages Entered: %d1</French>
+		<German>Betretene Stammesd&#246;rfer: %d1</German>
+		<Italian>Totale villaggi visitati: %d1</Italian>
+		<Spanish>Total Villages Entered: %d1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HIGHEST_DEFEAT_ODDS</Tag>
+		<English>Highest Combat Odds that Resulted in Defeat: %s1</English>
+		<French>Highest Combat Odds that Resulted in Defeat: %s1</French>
+		<German>H&#246;chste Kampfchancen, die zu einer Niederlage f&#252;hrten: %s1</German>
+		<Italian>Combattimento perso con probabilit&#224; migliore: %s1</Italian>
+		<Spanish>Highest Combat Odds that Resulted in Defeat: %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LOWEST_VICTORY_ODDS</Tag>
+		<English>Worst Combat Odds that Resulted in Victory: %s1</English>
+		<French>Worst Combat Odds that Resulted in Victory: %s1</French>
+		<German>Schlechteste Kampfchancen, die zu einem Sieg f&#252;hrten: %s1</German>
+		<Italian>Combattimento vinto con probabilit&#224; peggiore: %s1</Italian>
+		<Spanish>Worst Combat Odds that Resulted in Victory: %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AVERAGE_ODDS</Tag>
+		<English>Average Combat Odds: %s1</English>
+		<French>Average Combat Odds: %s1</French>
+		<German>Durchschnittliche Kampfchancen: %s1</German>
+		<Italian>Prob media di combattimento: %s1</Italian>
+		<Spanish>Average Combat Odds: %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AVERAGE_RESULTS</Tag>
+		<English>Actual Combat Results: %s1 Victorious</English>
+		<French>Actual Combat Results: %s1 Victorious</French>
+		<German>Tats&#228;chlicher Ausgang der K&#228;mpfe: %s1 siegreich</German>
+		<Italian>Esiti combattimento: %s1 vittorie</Italian>
+		<Spanish>Actual Combat Results: %s1 Victorious</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LUCK_INDEX</Tag>
+		<English>Luck Index: %s1 (number of battles that should have resulted in defeat)</English>
+		<French>Luck Index: %s1 (number of battles that should have resulted in defeat)</French>
+		<German>Gl&#252;cksindex: %s1 (Anzahl K&#228;mpfe, die h&#228;tte verloren gehen m&#252;ssen)</German>
+		<Italian>Fattore fortuna: %s1 (numero di battaglie che sarebbero dovute finire con una sconfitta)</Italian>
+		<Spanish>Luck Index: %s1 (number of battles that should have resulted in defeat)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LIVING_UNITS</Tag>
+		<English>Living Units:</English>
+		<French>Living Units:</French>
+		<German>Aktive Einheiten:</German>
+		<Italian>Unit&#224; vive:</Italian>
+		<Spanish>Living Units:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_CASTCOUNT</Tag>
+		<English>Spells Cast: %d1</English>
+		<French>Spells Cast: %d1</French>
+		<German>Gewirkte Zauber: %d1</German>
+		<Italian>Spells Cast: %d1</Italian>
+		<Spanish>Spells Cast: %d1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_SPELLCOUNT</Tag>
+		<English>Spells and Summons Survived: %d1</English>
+		<French>Spells and Summons Survived: %d1</French>
+		<German>Anzahl beschworener Einheiten und Zauber &#252;berlebt: %d1</German>
+		<Italian>Spells and Summons Survived: %d1</Italian>
+		<Spanish>Spells and Summons Survived: %d1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_HEROCOUNT</Tag>
+		<English>Heroes Killed: %d1</English>
+		<French>Heroes Killed: %d1</French>
+		<German>Anzahl besiegter Helden: %d1</German>
+		<Italian>Heroes Killed: %d1</Italian>
+		<Spanish>Heroes Killed: %d1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_BodyCount</Tag>
+		<English>Most kills:</English>
+		<French>Most kills:</French>
+		<German>H&#246;chste Anzahl Siege:</German>
+		<Italian>Maggiori uccisioni:</Italian>
+		<Spanish>Most kills:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_BattleCount</Tag>
+		<English>Most battles:</English>
+		<French>Most battles:</French>
+		<German>H&#246;chste Anzahl K&#228;mpfe:</German>
+		<Italian>Maggiori battaglie:</Italian>
+		<Spanish>Most battles:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_DamageInflicted</Tag>
+		<English>Most damage inflicted:</English>
+		<French>Most damage inflicted:</French>
+		<German>H&#246;chster zugef&#252;gter Schaden:</German>
+		<Italian>Maggior danno inflitto:</Italian>
+		<Spanish>Most damage inflicted:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_DamageInflictedAttacking</Tag>
+		<English>Most damage inflicted (attacking):</English>
+		<French>Most damage inflicted (attacking):</French>
+		<German>H&#246;chster zugef&#252;gter Schaden (offensiv):</German>
+		<Italian>Maggior danno inflitto (in attacco):</Italian>
+		<Spanish>Most damage inflicted (attacking):</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_DamageInflictedDefending</Tag>
+		<English>Most damage inflicted (defending):</English>
+		<French>Most damage inflicted (defending):</French>
+		<German>H&#246;chster zugef&#252;gter Schaden (defensiv):</German>
+		<Italian>Maggior danno inflitto (in difesa):</Italian>
+		<Spanish>Most damage inflicted (defending):</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_CollateralDamageInflicted</Tag>
+		<English>Most collateral damage inflicted:</English>
+		<French>Most collateral damage inflicted:</French>
+		<German>H&#246;chster zugef&#252;gter Kollateralschaden:</German>
+		<Italian>Maggior danno collaterale inflitto:</Italian>
+		<Spanish>Most collateral damage inflicted:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_AirStrikeDamageInflicted</Tag>
+		<English>Most air strike damage inflicted:</English>
+		<French>Most air strike damage inflicted:</French>
+		<German>H&#246;chster zugef&#252;gter Schaden bei Luftbombardierungen:</German>
+		<Italian>Maggior danno aereo inflitto:</Italian>
+		<Spanish>Most air strike damage inflicted:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_DamageSuffered</Tag>
+		<English>Most damage suffered:</English>
+		<French>Most damage suffered:</French>
+		<German>H&#246;chster erlittener Schaden:</German>
+		<Italian>Maggior danno subito:</Italian>
+		<Spanish>Most damage suffered:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_DamageSufferedAttacking</Tag>
+		<English>Most damage suffered (attacking):</English>
+		<French>Most damage suffered (attacking):</French>
+		<German>H&#246;chster erlittener Schaden (offensiv):</German>
+		<Italian>Maggior danno subito (in attacco):</Italian>
+		<Spanish>Most damage suffered (attacking):</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_DamageSufferedDefending</Tag>
+		<English>Most damage suffered (defending):</English>
+		<French>Most damage suffered (defending):</French>
+		<German>H&#246;chster erlittener Schaden (defensiv):</German>
+		<Italian>Maggior danno subito (in difesa):</Italian>
+		<Spanish>Most damage suffered (defending):</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_CollateralDamageSuffered</Tag>
+		<English>Most collateral damage suffered:</English>
+		<French>Most collateral damage suffered:</French>
+		<German>H&#246;chster erlittener Kollateralschaden:</German>
+		<Italian>Maggior danno collaterale subito:</Italian>
+		<Spanish>Most collateral damage suffered:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_AirStrikeDamageSuffered</Tag>
+		<English>Most air strike damage suffered:</English>
+		<French>Most air strike damage suffered:</French>
+		<German>H&#246;chster durch Flankenangriffe erlittene Schaden:</German>
+		<Italian>Maggior danno aereo subito:</Italian>
+		<Spanish>Most air strike damage suffered:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_FlankingDamageSuffered</Tag>
+		<English>Most flanking damage suffered:</English>
+		<French>Most flanking damage suffered:</French>
+		<German>H&#246;chster durch Flankenangriffe erlittener Schaden:</German>
+		<Italian>Maggior attacco ai fianchi subito:</Italian>
+		<Spanish>Most flanking damage suffered:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_OtherDamageSuffered</Tag>
+		<English>Most damage suffered by other means:</English>
+		<French>Most damage suffered by other means:</French>
+		<German>H&#246;chster auf andere Weise zugef&#252;gter Schaden:</German>
+		<Italian>Maggior danno subito in altri modi:</Italian>
+		<Spanish>Most damage suffered by other means:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_FlankingDamageInflicted</Tag>
+		<English>Most flanking damage inflicted:</English>
+		<French>Most flanking damage inflicted:</French>
+		<German>H&#246;chster durch Flankenangriffe zugef&#252;gter Schaden:</German>
+		<Italian>aggior danno ai fianchi inflitto:</Italian>
+		<Spanish>Most flanking damage inflicted:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_OtherDamageInflicted</Tag>
+		<English>Most damage inflicted by other means:</English>
+		<French>Most damage inflicted by other means:</French>
+		<German>H&#246;chster auf andere Weise zugef&#252;gter Schaden:</German>
+		<Italian>Maggior danno inflitto in altri modi:</Italian>
+		<Spanish>Most damage inflicted by other means:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_MoveCounter</Tag>
+		<English>Longest distance moved:</English>
+		<French>Longest distance moved:</French>
+		<German>L&#228;ngste selbst zur&#252;ckgelegte Strecke:</German>
+		<Italian>Maggior distanza percorsa:</Italian>
+		<Spanish>Longest distance moved:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_Warp</Tag>
+		<English>Longest distance travelled:</English>
+		<French>Longest distance travelled:</French>
+		<German>L&#228;ngste insgesamt zu&#252;rckgelegte Strecke:</German>
+		<Italian>Maggior distanza attraversata:</Italian>
+		<Spanish>Longest distance travelled:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_CargoCounter</Tag>
+		<English>Longest distance moved with freight on board:</English>
+		<French>Longest distance moved with freight on board:</French>
+		<German>L&#228;ngste mit Fracht an Bord zur&#252;ckgelegte Strecke:</German>
+		<Italian>Maggior distanza percorsa con carico a bordo:</Italian>
+		<Spanish>Longest distance moved with freight on board:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_Experience</Tag>
+		<English>Most experience gained:</English>
+		<French>Most experience gained:</French>
+		<German>H&#246;chste Erfahrung:</German>
+		<Italian>Maggior esperienza guadagnata:</Italian>
+		<Spanish>Most experience gained:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_TotalTurnsFortified</Tag>
+		<English>Most time fortified:</English>
+		<French>Most time fortified:</French>
+		<German>L&#228;ngste verschanzte Zeit:</German>
+		<Italian>Maggior tempo fortificato:</Italian>
+		<Spanish>Most time fortified:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_MaxTurnsFortified</Tag>
+		<English>Longest time fortified without interruption:</English>
+		<French>Longest time fortified without interruption:</French>
+		<German>L&#228;ngste ohne Unterbruch verschanzte Zeit:</German>
+		<Italian>Maggior tempo fortificato senza interruzioni:</Italian>
+		<Spanish>Longest time fortified without interruption:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_Commando</Tag>
+		<English>Most time spent in enemy territory:</English>
+		<French>Most time spent in enemy territory:</French>
+		<German>L&#228;ngste in gegnerischem Gebiet verbrachte Zeit:</German>
+		<Italian>Maggior tempo in territorio nemico:</Italian>
+		<Spanish>Most time spent in enemy territory:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_BestOdds</Tag>
+		<English>Worst combat odds that resulted in victory:</English>
+		<French>Worst combat odds that resulted in victory:</French>
+		<German>Schlechteste Kampfchancen, die zum Sieg f&#252;hrten:</German>
+		<Italian>Combattimento vinto con le peggiori probabilit&#224;:</Italian>
+		<Spanish>Worst combat odds that resulted in victory:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_AverageOddsHighest</Tag>
+		<English>Average combat odds of your most cautious unit:</English>
+		<French>Average combat odds of your most cautious unit:</French>
+		<German>Durchschnittliche Kampfchancen Ihrer vorsichtigsten Einheit:</German>
+		<Italian>Probabilit&#224; media di combattimento della tua unit&#224; pi&#249; cauta:</Italian>
+		<Spanish>Average combat odds of your most cautious unit:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_AverageOddsLowest</Tag>
+		<English>Average combat odds of your most reckless unit:</English>
+		<French>Average combat odds of your most reckless unit:</French>
+		<German>Durchschnittliche Kampfchancen Ihrer wagemutigsten Einheit:</German>
+		<Italian>Probabilit&#224; media di combattimento della tua unit&#224; pi&#249; impavida:</Italian>
+		<Spanish>Average combat odds of your most reckless unit:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_LifeOdds</Tag>
+		<English>Total survival odds of your luckiest unit:</English>
+		<French>Total survival odds of your luckiest unit:</French>
+		<German> &#220;berlebenschancen Ihrer gl&#252;cklichsten Einheit:</German>
+		<Italian>Probabilit&#224; totale di sopravvivenza della tua unit&#224; pi&#249; fortunata:</Italian>
+		<Spanish>Total survival odds of your luckiest unit:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_UnitAge</Tag>
+		<English>Oldest unit:[NEWLINE]%d1 [NUM1:turn:turns] old (living units: %d2 [NUM2:turn:turns] old)</English>
+		<French>Oldest unit:[NEWLINE]%d1 [NUM1:turn:turns] old (living units: %d2 [NUM2:turn:turns] old)</French>
+		<German> &#196;lteste Einheit:[NEWLINE]%d1 [NUM1:Runde:Runden] alt (aktive Einheiten: %d2 [NUM2:Runde:Runden] alt)</German>
+		<Italian>Unit&#224; pi&#249; vecchia:[NEWLINE]%d1 [NUM1:turno:turni] (tra le unit&#224; vive: %d2 [NUM2:turno:turni])</Italian>
+		<Spanish>Oldest unit:[NEWLINE]%d1 [NUM1:turn:turns] old (living units: %d2 [NUM2:turn:turns] old)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_CastCount</Tag>
+		<English>Most spells cast:</English>
+		<French>Most spells cast:</French>
+		<German>H&#246;chste Anzahl gewirkter Zauber:</German>
+		<Italian>Most spells cast:</Italian>
+		<Spanish>Most spells cast:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_SpellCount</Tag>
+		<English>Most spells and summons survived:</English>
+		<French>Most spells and summons survived:</French>
+		<German>H&#246;chste Anzahl Siege gegen beschw&#246;rte Einheiten:</German>
+		<Italian>Most spells and summons survived:</Italian>
+		<Spanish>Most spells and summons survived:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYERHIGHSCORE_HeroCount</Tag>
+		<English>Most heroes killed:</English>
+		<French>Most heroes killed:</French>
+		<German>H&#246;chste Anzahl besiegter Helden:</German>
+		<Italian>Most heroes killed:</Italian>
+		<Spanish>Most heroes killed:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_BodyCount</Tag>
+		<English>This unit has defeated the most enemy units.</English>
+		<French>This unit has defeated the most enemy units.</French>
+		<German>Diese Einheit hat am meisten Gegner besiegt.</German>
+		<Italian>Quest'unit&#224; ha ucciso il maggior numero di nemici.</Italian>
+		<Spanish>This unit has defeated the most enemy units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_BattleCount</Tag>
+		<English>This unit has fought the most battles.</English>
+		<French>This unit has fought the most battles.</French>
+		<German>Diese Einheit hat am meisten K&#228;mpfe bestritten.</German>
+		<Italian>Quest'unit&#224; ha combattuto il maggior numero di battaglie.</Italian>
+		<Spanish>This unit has fought the most battles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_DamageInflicted</Tag>
+		<English>This unit has inflicted the most damage.</English>
+		<French>This unit has inflicted the most damage.</French>
+		<German>Diese Einheit hat am meisten Schaden angerichtet.</German>
+		<Italian>Quest'unit&#224; ha inflitto la maggior quantit&#224; di danno.</Italian>
+		<Spanish>This unit has inflicted the most damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_DamageInflictedAttacking</Tag>
+		<English>This unit has inflicted the most damage (attacking).</English>
+		<French>This unit has inflicted the most damage (attacking).</French>
+		<German>Diese Einheit hat am meisten Schaden angerichtet (offensiv).</German>
+		<Italian>Quest'unit&#224; ha inflitto la maggior quantit&#224; di danno (in attacco).</Italian>
+		<Spanish>This unit has inflicted the most damage (attacking).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_DamageInflictedDefending</Tag>
+		<English>This unit has inflicted the most damage (defending).</English>
+		<French>This unit has inflicted the most damage (defending).</French>
+		<German>Diese Einheit hat am meisten Schaden angerichtet (defensiv).</German>
+		<Italian>Quest'unit&#224; ha inflitto la maggior quantit&#224; di danno (in difesa).</Italian>
+		<Spanish>This unit has inflicted the most damage (defending).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_CollateralDamageInflicted</Tag>
+		<English>This unit has inflicted the most collateral damage.</English>
+		<French>This unit has inflicted the most collateral damage.</French>
+		<German>Diese Einheit hat am meisten Kollateralschaden angerichtet.</German>
+		<Italian>Quest'unit&#224; ha inflitto la maggior quantit&#224; di danno collaterale.</Italian>
+		<Spanish>This unit has inflicted the most collateral damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_AirStrikeDamageInflicted</Tag>
+		<English>This unit has inflicted the most air strike damage.</English>
+		<French>This unit has inflicted the most air strike damage.</French>
+		<German>Diese Einheit hat am meisten Schaden durch Luftbombardierungen angerichtet.</German>
+		<Italian>Quest'unit&#224; ha inflitto la maggior quantit&#224; di danno aereo.</Italian>
+		<Spanish>This unit has inflicted the most air strike damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_DamageSuffered</Tag>
+		<English>This unit has suffered the most damage.</English>
+		<French>This unit has suffered the most damage.</French>
+		<German>Diese Einheit hat am meisten Schaden erlitten.</German>
+		<Italian>Quest'unit&#224; ha subito la maggior quantit&#224; di danno.</Italian>
+		<Spanish>This unit has suffered the most damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_DamageSufferedAttacking</Tag>
+		<English>This unit has suffered the most damage (attacking).</English>
+		<French>This unit has suffered the most damage (attacking).</French>
+		<German>Diese Einheit hat am meisten Schaden erlitten (offensiv).</German>
+		<Italian>Quest'unit&#224; ha subito la maggior quantit&#224; di danno (in attacco).</Italian>
+		<Spanish>This unit has suffered the most damage (attacking).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_DamageSufferedDefending</Tag>
+		<English>This unit has suffered the most damage (defending).</English>
+		<French>This unit has suffered the most damage (defending).</French>
+		<German>Diese Einheit hat am meisten Schaden erlitten (defensiv).</German>
+		<Italian>Quest'unit&#224; ha subito la maggior quantit&#224; di danno (in difesa).</Italian>
+		<Spanish>This unit has suffered the most damage (defending).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_CollateralDamageSuffered</Tag>
+		<English>This unit has suffered the most collateral damage.</English>
+		<French>This unit has suffered the most collateral damage.</French>
+		<German>Diese Einheit hat am meisten Kollateralschaden erlitten.</German>
+		<Italian>Quest'unit&#224; ha subito la maggior quantit&#224; di danno collaterale.</Italian>
+		<Spanish>This unit has suffered the most collateral damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_AirStrikeDamageSuffered</Tag>
+		<English>This unit has suffered the most air strike damage.</English>
+		<French>This unit has suffered the most air strike damage.</French>
+		<German>Diese Einheit hat am meisten Schaden durch Luftbombardierungen erlitten.</German>
+		<Italian>Quest'unit&#224; ha subito la maggior quantit&#224; di danno aereo.</Italian>
+		<Spanish>This unit has suffered the most air strike damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_FlankingDamageSuffered</Tag>
+		<English>This unit has suffered the most flanking damage.</English>
+		<French>This unit has suffered the most flanking damage.</French>
+		<German>Diese Einheit hat am meisten Schaden durch Flankenangriffe erlitten.</German>
+		<Italian>Quest'unit&#224; ha subito la maggior quantit&#224; di danno ai fianchi.</Italian>
+		<Spanish>This unit has suffered the most flanking damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_OtherDamageSuffered</Tag>
+		<English>This unit has suffered the most damage by other means.</English>
+		<French>This unit has suffered the most damage by other means.</French>
+		<German>Diese Einheit hat am meisten Schaden durch andere Effekte erlitten.</German>
+		<Italian>Quest'unit&#224; ha subito la maggior quantit&#224; di danno in altri modi.</Italian>
+		<Spanish>This unit has suffered the most damage by other means.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_FlankingDamageInflicted</Tag>
+		<English>This unit has inflicted the most flanking damage.</English>
+		<French>This unit has inflicted the most flanking damage.</French>
+		<German>Diese Einheit hat am meisten Schaden durch Flankenangriffe angerichtet.</German>
+		<Italian>Quest'unit&#224; ha inflitto la maggior quantit&#224; di danno ai fianchi.</Italian>
+		<Spanish>This unit has inflicted the most flanking damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_OtherDamageInflicted</Tag>
+		<English>This unit has inflicted the most damage by other means.</English>
+		<French>This unit has inflicted the most damage by other means.</French>
+		<German>Diese Einheit hat am meisten Schaden durch andere Effekte angerichtet.</German>
+		<Italian>Quest'unit&#224; ha inflitto la maggior quantit&#224; di danno in altri modi.</Italian>
+		<Spanish>This unit has inflicted the most damage by other means.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_MoveCounter</Tag>
+		<English>This unit has moved furthest.</English>
+		<French>This unit has moved furthest.</French>
+		<German>Diese Einheit hat sich am weitesten fortbewegt.</German>
+		<Italian>Quest'unit&#224; si &#232; mossa percorrendo la maggior distanza.</Italian>
+		<Spanish>This unit has moved furthest.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_Warp</Tag>
+		<English>This unit has travelled furthest.</English>
+		<French>This unit has travelled furthest.</French>
+		<German>Diese Einheit hat die gr&#246;sste Strecke zur&#252;ckgelegt (Fortbewegung + Transport).</German>
+		<Italian>Quest'unit&#232; ha attraversato le maggiori distanze.</Italian>
+		<Spanish>This unit has travelled furthest.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_CargoCounter</Tag>
+		<English>This unit has moved furthest with cargo on board.</English>
+		<French>This unit has moved furthest with cargo on board.</French>
+		<German>Diese Einheit hat die gr&#246;sste Strecke mit Fracht an Bord zur&#252;ckgelegt.</German>
+		<Italian>Quest'unit&#224; si &#232; mossa percorrendo la maggior distanza con carico a bordo.</Italian>
+		<Spanish>This unit has moved furthest with cargo on board.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_Experience</Tag>
+		<English>This is your most experienced unit.</English>
+		<French>This is your most experienced unit.</French>
+		<German>Dies ist Eure erfahrenste Einheit.</German>
+		<Italian>Questa &#232; la tua unit&#224; con pi&#249; esperienza.</Italian>
+		<Spanish>This is your most experienced unit.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_UnitAge</Tag>
+		<English>This is your oldest unit.</English>
+		<French>This is your oldest unit.</French>
+		<German>Dies ist Eure &#228;lteste Einheit.</German>
+		<Italian>Questa &#232; la tua unit&#224; pi&#249; vecchia.</Italian>
+		<Spanish>This is your oldest unit.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_BestOdds</Tag>
+		<English>This unit survived the battle with the worst odds.</English>
+		<French>This unit survived the battle with the worst odds.</French>
+		<German>Diese Einheit hat den schwersten Kampf &#252;berlebt.</German>
+		<Italian>Questa &#232; la tua unit&#224; che &#232; sopravvissuta ad un combattimento con la peggior probabilit&#224;.</Italian>
+		<Spanish>This unit survived the battle with the worst odds.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_AverageOddsHighest</Tag>
+		<English>This unit is your most cautious unit - its average combat odds are highest.</English>
+		<French>This unit is your most cautious unit - its average combat odds are highest.</French>
+		<German>Dies ist Ihre vorsichtigste Einheit - ihre durchschnittlichen Kampfchancen sind am h&#246;chsten.</German>
+		<Italian>Questa &#232; la tua unit&#224; pi&#249; cauta - la sua media di probabilit&#224; di combattimento &#232; la maggiore.</Italian>
+		<Spanish>This unit is your most cautious unit - its average combat odds are highest.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_AverageOddsLowest</Tag>
+		<English>This unit is your most reckless unit - its average combat odds are lowest.</English>
+		<French>This unit is your most reckless unit - its average combat odds are lowest.</French>
+		<German>Dies ist Ihre wagemutigste Einheit - ihre durchschnittlichen Kampfchancen sind am tiefsten.</German>
+		<Italian>Questa &#232; la tua unit&#224; pi&#249; impavida - la sua media di probabilit&#224; di combattimento &#232; la minore.</Italian>
+		<Spanish>This unit is your most reckless unit - its average combat odds are lowest.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_LifeOdds</Tag>
+		<English>This is your luckiest unit - its total survival odds are lowest.</English>
+		<French>This is your luckiest unit - its total survival odds are lowest.</French>
+		<German>Dies ist Ihre gl&#252;cklichste Einheit - ihre zusammengez&#228;hlten &#252;berlebenschancen sind am tiefsten.</German>
+		<Italian>Questa &#232; la tua unit&#224; pi&#249; fortunata - la sua probabilit&#224; totale di sopravvivenza &#232; la minore.</Italian>
+		<Spanish>This is your luckiest unit - its total survival odds are lowest.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_MaxTurnsFortified</Tag>
+		<English>This unit spent the longest time fortified without interruption.</English>
+		<French>This unit spent the longest time fortified without interruption.</French>
+		<German>Diese Einheit war am l&#228;nsten ohne Unterbruch verschanzt.</German>
+		<Italian>Questa &#232; la tua unit&#224; che &#232; rimasta fortificata pi&#249; a lungo senza interruzioni.</Italian>
+		<Spanish>This unit spent the longest time fortified without interruption.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_TotalTurnsFortified</Tag>
+		<English>This unit spent the most time fortified.</English>
+		<French>This unit spent the most time fortified.</French>
+		<German>Diese Einheit war insgesamt am l&#228;nsten verschanzt.</German>
+		<Italian>Questa &#232; la tua unit&#224; che &#232; rimasta fortificata pi&#249; a lungo complessivamente.</Italian>
+		<Spanish>This unit spent the most time fortified.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_Commando</Tag>
+		<English>This unit spent the most time in enemy territory.</English>
+		<French>This unit spent the most time in enemy territory.</French>
+		<German>Diese Einheit war insgesamt am l&#228;nsten in feindlichem Gebiet.</German>
+		<Italian>Questa &#232; la tua unit&#224; che ha trascorso pi&#249; tempo in territorio nemico.</Italian>
+		<Spanish>This unit spent the most time in enemy territory.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_CastCount</Tag>
+		<English>This unit has cast the most spells.</English>
+		<French>This unit has cast the most spells.</French>
+		<German>Diese Einheit hat am meisten Zauber gewirkt.</German>
+		<Italian>This unit has cast the most spells.</Italian>
+		<Spanish>This unit has cast the most spells.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_SpellCount</Tag>
+		<English>This unit has survived the most enemy spells and summoned units.</English>
+		<French>This unit has survived the most enemy spells and summoned units.</French>
+		<German>Diese Einheit hat am meisten K&#228;mpfe gegen beschworene Einheiten und Zauber r&#252;berlebt.</German>
+		<Italian>This unit has survived the most enemy spells and summoned units.</Italian>
+		<Spanish>This unit has survived the most enemy spells and summoned units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITHIGHSCORE_HeroCount</Tag>
+		<English>This unit has killed the most enemy heroes</English>
+		<French>This unit has killed the most enemy heroes</French>
+		<German>Diese Einheit hat am meisten Helden besiegt.</German>
+		<Italian>This unit has killed the most enemy heroes</Italian>
+		<Spanish>This unit has killed the most enemy heroes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_BUILTIN</Tag>
+		<English>built in</English>
+		<French>construit dans</French>
+		<German>errichtet in</German>
+		<Italian>construito a</Italian>
+		<Spanish>construido en</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_CREATED</Tag>
+		<English>created</English>
+		<French>créé</French>
+		<German>erschaffen</German>
+		<Italian>creato</Italian>
+		<Spanish>creado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_UPGRADE</Tag>
+		<English>upgraded from %s to %s</English>
+		<French>amélioré de %s en %s</French>
+		<German>modernisiert von %s zu %s</German>
+		<Italian>aggiornato da %s a %s</Italian>
+		<Spanish>modernizado de %s a %s</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_KILL</Tag>
+		<English>Killed a %s1 %s2 (Remaining Strength: %s3/%s4) - Combat Odds: %s5</English>
+		<French>éliminé [NUM2:un:une:des:des] %s2_EnUName (%s1_owner_adjective) (Nouveau puissance: %s3/%s4) - Probabilité de conflit: %s5</French>
+		<German>%s2_EnUName (%s1_owner_adjective) wurde vernichtet (verbleibende Kampfst&#228;rke: %s3/%s4) - Kampfchancen: %s5</German>
+		<Italian>ucciso l'unit&#224; nemica %s2_EnUName (%s1_owner_adjective) (Forza rimasta: %s3/%s4) - Probabilit&#224; di combattimento: %s5</Italian>
+		<Spanish>acabado con [NUM2:un:una:unos:unas] %s2_EnUName (%s1_owner_adjective) (Fuerza nueva: %s3/%s4) - Probabilidades del combate: %s5</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_KILLED</Tag>
+		<English>Killed by a %s1 %s2  (Remaining Strength: %s3/%s4) - Combat Odds: %s5</English>
+		<French>éliminé par [NUM2:un:une:des:des] %s2_EnUName (%s1_owner_adjective) (Nouveau puissance: %s3/%s4) - Probabilité de conflit: %s5</French>
+		<German>Einheit wurde von %s2_EnUName (%s1_owner_adjective) vernichtet (verbleibende Kampfst&#228;rke: %s3/%s4) - Kampfchancen: %s5</German>
+		<Italian>ucciso dall'unit&#224; nemica %s2_EnUName (%s1_owner_adjective) (Forza rimasta: %s3/%s4) - Probabilit&#224; di combattimento: %s5</Italian>
+		<Spanish>acabado por [NUM2:un:una:unos:unas] %s2_EnUName (%s1_owner_adjective) (Fuerza nueva: %s3/%s4) - Probabilidades del combate: %s5</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_LUCKIEST_FIGHT</Tag>
+		<English>Luckiest fight:</English>
+		<French>Luckiest fight:</French>
+		<German>Gl&#252;cklichster Kampf:</German>
+		<Italian>Combattimento pi&#249; fortunato:</Italian>
+		<Spanish>Luckiest fight:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_PROMOTION</Tag>
+		<English>%s1 Promotion gained</English>
+		<French>%s1 Promotion accordée</French>
+		<German>%s1 Bef&#246;rderung erhalten</German>
+		<Italian>%s1 Promozione conquistata</Italian>
+		<Spanish>%s1 ascenso recompensa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_TURN</Tag>
+		<English>Turn</English>
+		<French>Toure</French>
+		<German>Runde</German>
+		<Italian>Turno</Italian>
+		<Spanish>Turno</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_OWN_WITHDRAWAL</Tag>
+		<English>Withdrew from combat with %s1 %s2 (Remaining Strength: %s3/%s4) - Combat Odds: %s5</English>
+		<French>Withdrew from combat with %s1 %s2 (Remaining Strength: %s3/%s4) - Combat Odds: %s5</French>
+		<German>Einheit hat sich vom Kampf mit %s2 (%s1) zur&#252;ckgezogen (verbleibende Kampfst&#228;rke: %s3/%s4) - Kampfchancen: %s5</German>
+		<Italian>Ritirato dal combattimento con %s1 %s2 (Forza rimasta: %s3/%s4) - Probabilit&#224; di comnattimento: %s5</Italian>
+		<Spanish>Withdrew from combat with %s1 %s2 (Remaining Strength: %s3/%s4) - Combat Odds: %s5</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_ENEMY_WITHDRAWAL</Tag>
+		<English>%s1 %s2 withdrew from combat (Remaining Strength: %s3/%s4) - Combat Odds: %s5</English>
+		<French>%s1 %s2 withdrew from combat (Remaining Strength: %s3/%s4) - Combat Odds: %s5</French>
+		<German>%s2 (%s1) hat sich vom Kampf mit Ihrer Einheit zur&#252;ckgezogen (verbleibende Kampfst&#228;rke: %s3/%s4) - Kampfchancen: %s5</German>
+		<Italian>%s1 %s2 ritirato dal combattimento (Forza rimasta: %s3/%s4) - Probabilit&#224; di comnattimento: %s5</Italian>
+		<Spanish>%s1 %s2 withdrew from combat (Remaining Strength: %s3/%s4) - Combat Odds: %s5</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_UNITBUTTON</Tag>
+		<English>Open this unit's statistics</English>
+		<French>Open this unit's statistics</French>
+		<German>Hier klicken, um die Statistiken dieser Einheit zu &#246;ffnen</German>
+		<Italian>Statistiche di questa unit&#224;</Italian>
+		<Spanish>Open this unit's statistics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_FINDBUTTON</Tag>
+		<English>Close the screen and select this unit</English>
+		<French>Close the screen and select this unit</French>
+		<German>Hier klicken, um die Statistiken zu schliessen und die Einheit zu zentrieren</German>
+		<Italian>Chiudi la schermata e seleziona l'unit&#224;</Italian>
+		<Spanish>Close the screen and select this unit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_ATTACK</Tag>
+		<English>Attack</English>
+		<French>Attaquant </French>
+		<German>Angriffsman&#246;ver</German>
+		<Italian>Attaccando</Italian>
+		<Spanish>Atacando</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_DEFENSE</Tag>
+		<English>Defense</English>
+		<French>Defendant</French>
+		<German>Verteidigungsman&#246;ver</German>
+		<Italian>Difendendo</Italian>
+		<Spanish>Defendendo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_COLLATERAL</Tag>
+		<English>Collateral damage</English>
+		<French>Dég&#226;t collatéral</French>
+		<German>Kollateralschaden</German>
+		<Italian>Danno collaterale</Italian>
+		<Spanish>Da&#241;o colaterale</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_FLANKING</Tag>
+		<English>Flank attack</English>
+		<French>Attaque de flanc</French>
+		<German>Flankenangriff</German>
+		<Italian>Attacco ai fianchi</Italian>
+		<Spanish>Flanqueo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_AIRSTRIKE</Tag>
+		<English>Air strike</English>
+		<French>Frappe aérienne</French>
+		<German>Luftangriff</German>
+		<Italian>Attaccho aereo</Italian>
+		<Spanish>Ataque aéreo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_DEAD</Tag>
+		<English>DEAD</English>
+		<French>MORT</French>
+		<German>TOT</German>
+		<Italian>MORTO</Italian>
+		<Spanish>MUERTO</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITSTATS_CONVERT</Tag>
+		<English>Converted from %s1 %s2 to %s3 %s4</English>
+		<French>Converted from %s1 %s2 to %s3 %s4</French>
+		<German>Konvertiert von %s2 (%s1) zu %s4 (%s3)</German>
+		<Italian>Convertito da %s1 %s2 a %s3 %s4</Italian>
+		<Spanish>Converted from %s1 %s2 to %s3 %s4</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSpy v2008 rel. 2 (http://www.altova.com) by Hazem Shams al'Din (Baraka Designs) -->
+<!--
+  Copyright (c) 2007, BUG Mod.
+  This file is part of Civilization IV BUG Mod.
+  -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!-- BUG -->
+	<TEXT>
+		<Tag>TXT_KEY_BUG_OPTIONS_KEY_REMINDER</Tag>
+		<English>Press [BOLD]ALT + CTRL + O[\BOLD] to customize the BUG Mod</English>
+		<French>Poussez sur [BOLD]ALT + CTRL + O[\BOLD] pour configurer le Mode DEBUG</French>
+		<German>[BOLD]&lt;STRG + ALT + O&gt;[\BOLD] drücken, um die BUG Mod anzupassen...</German>
+		<Italian>Premi [BOLD]ALT + CTRL + O[\BOLD] per personalizzare il BUG Mod</Italian>
+		<Spanish>Press [BOLDALT + CTRL + O[\BOLD] to customize the BUG Mod</Spanish>
+	</TEXT>
+	<!-- Great Person / General Bars -->
+	<TEXT>
+		<Tag>INTERFACE_GREAT_PERSON_NONE</Tag>
+		<English>%s1: None</English>
+		<French>%s1: Aucun</French>
+		<German>%s1: Keine</German>
+		<Italian>%s1: Nessuno</Italian>
+		<Spanish>%s1: Ninguno</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>INTERFACE_GREAT_PERSON_CITY</Tag>
+		<English>%s1: %s2</English>
+		<French>%s1: %s2</French>
+		<German>%s1: %s2</German>
+		<Italian>%s1: %s2</Italian>
+		<Spanish>%s1: %s2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>INTERFACE_GREAT_PERSON_TURNS</Tag>
+		<English>%s1: (%d2)</English>
+		<French>%s1: (%d2)</French>
+		<German>%s1: (%d2)</German>
+		<Italian>%s1: (%d2)</Italian>
+		<Spanish>%s1: (%d2)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>INTERFACE_GREAT_PERSON_CITY_TURNS</Tag>
+		<English>%s1: %s2 (%d3)</English>
+		<French>%s1: %s2 (%d3)</French>
+		<German>%s1: %s2 (%d3)</German>
+		<Italian>%s1: %s2 (%d3)</Italian>
+		<Spanish>%s1: %s2 (%d3)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>INTERFACE_NEXT_GREAT_GENERAL_XP</Tag>
+		<English>General (%d1)</English>
+		<French>Général (%d1)</French>
+		<German>Allgemein (%d1)</German>
+		<Italian>Generale (%d1)</Italian>
+		<Spanish>General (%d1)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GROUPER_LEVEL_GROUP</Tag>
+		<English>Level %s1</English>
+		<French>Niveau %s1</French>
+		<German>Stufe %s1</German>
+		<Italian>Livello %s1</Italian>
+		<Spanish>Nivel %s1</Spanish>
+	</TEXT>
+	<!-- Military Adviser -->
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_UNIT_LOCATION</Tag>
+		<English>Deployment</English>
+		<French>Déploiement</French>
+		<German>Aufstellung</German>
+		<Italian>Dispiegamento</Italian>
+		<Spanish>Deployment</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITUATION_REPORT</Tag>
+		<English>Sit-Rep</English>
+		<French>Rapport de Situation</French>
+		<German>Situationsbericht</German>
+		<Italian>Rapporti</Italian>
+		<Spanish>Sit-Rep</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_WORST</Tag>
+		<English>Worst</English>
+		<French>Pire</French>
+		<German>Schlimmster</German>
+		<Italian>Peggior</Italian>
+		<Spanish>Worst</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_ENEMY</Tag>
+		<English>Enemy</English>
+		<French>Ennemi</French>
+		<German>Feind</German>
+		<Italian>Nemico</Italian>
+		<Spanish>Enemy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_THREAT_INDEX</Tag>
+		<English>Threat Index</English>
+		<French>Index de Menace</French>
+		<German>Bedrohungsindex</German>
+		<Italian>Rischio</Italian>
+		<Spanish>Threat Index</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_WARS</Tag>
+		<English>Wars</English>
+		<French>Guerre</French>
+		<German>Kriege</German>
+		<Italian>Guerre</Italian>
+		<Spanish>Wars</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_WARS_ACTIVE</Tag>
+		<English>Active</English>
+		<French>Guerres Actives</French>
+		<German>Aktive Kriege</German>
+		<Italian>In corso</Italian>
+		<Spanish>Active</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_WARS_OPTIONAL</Tag>
+		<English>Optional</English>
+		<French>Optionnel</French>
+		<German>Kriegserklärung an</German>
+		<Italian>Potenziali</Italian>
+		<Spanish>Optional</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_STRATEGIC_RESOURCES</Tag>
+		<English>Strategic Advantages</English>
+		<French>Avantages Stratégiques</French>
+		<German>Strategische Vorteile</German>
+		<Italian>Vantaggi Strategici</Italian>
+		<Spanish>Strategic Advantages</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_STRAT_RES_OURS</Tag>
+		<English>Ours</English>
+		<French>Nous</French>
+		<German>Eigene</German>
+		<Italian>Propri</Italian>
+		<Spanish>Ours</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_STRAT_RES_THEIRS</Tag>
+		<English>Theirs</English>
+		<French>Eux</French>
+		<German>Gegnerische</German>
+		<Italian>Altrui</Italian>
+		<Spanish>Theirs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_VASSALS</Tag>
+		<English>Vassals</English>
+		<French>Vassaux</French>
+		<German>Vasallen</German>
+		<Italian>Vassalli</Italian>
+		<Spanish>Vassals</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_VASSAL</Tag>
+		<English>Vassal</English>
+		<French>Vassal</French>
+		<German>Vasall</German>
+		<Italian>Vassallo</Italian>
+		<Spanish>Vassal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_SITREP_DEFPACTS</Tag>
+		<English>Def Pacts</English>
+		<French>Pactes Défensifs</French>
+		<German>Verteidigungsbündnis</German>
+		<Italian>Patti Difensivi</Italian>
+		<Spanish>Def Pacts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_THREAT_INDEX_LOW</Tag>
+		<English>Low</English>
+		<French>Bas</French>
+		<German>Gering</German>
+		<Italian>Rischio Basso</Italian>
+		<Spanish>Low</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_THREAT_INDEX_GUARDED</Tag>
+		<English>Guarded</English>
+		<French>En garde</French>
+		<German>Erhöht</German>
+		<Italian>Prudenza</Italian>
+		<Spanish>Guarded</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_THREAT_INDEX_ELEVATED</Tag>
+		<English>Elevated</English>
+		<French>Élevé</French>
+		<German>Angespannt</German>
+		<Italian>Rischio Notevole</Italian>
+		<Spanish>Elevated</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_THREAT_INDEX_HIGH</Tag>
+		<English>High</English>
+		<French>Haut</French>
+		<German>Alarmierend</German>
+		<Italian>Allarme</Italian>
+		<Spanish>High</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MILITARY_THREAT_INDEX_SEVERE</Tag>
+		<English>Severe</English>
+		<French>Sévère</French>
+		<German>Akut</German>
+		<Italian>Grave allarme</Italian>
+		<Spanish>Severe</Spanish>
+	</TEXT>
+	<!--Fix for Overlap in Foreign Advisor Tab in Translation-->
+</Civ4GameText>

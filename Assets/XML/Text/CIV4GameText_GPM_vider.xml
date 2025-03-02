@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_MISC_DEFEAT_POPUP</Tag>
+		<English>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] has been Defeated![NEWLINE][NEWLINE]%s2_Quote</English>
+		<French>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] a été [NUM1:vaincu:vaincue:vaincus:vaincues] ![NEWLINE][NEWLINE]%s2_Quote</French>
+		<German>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] wurde vernichtet![NEWLINE][NEWLINE]%s2_Quote</German>
+		<Italian>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] has been Defeated![NEWLINE][NEWLINE]%s2_Quote</Italian>
+		<Spanish>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] has been Defeated![NEWLINE][NEWLINE]%s2_Quote</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_SPELL_POPUP</Tag>
+		<English>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] has cast [COLOR_UNIT_TEXT]%s2_SpellName[COLOR_REVERT]![NEWLINE][NEWLINE]%s3_Quote</English>
+		<French>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] a incanté [COLOR_UNIT_TEXT]%s2_SpellName[COLOR_REVERT]![NEWLINE][NEWLINE]%s3_Quote</French>
+		<German>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] hat den Zauber [COLOR_UNIT_TEXT]%s2_SpellName[COLOR_REVERT] gewirkt![NEWLINE][NEWLINE]%s3_Quote</German>
+		<Italian>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] has cast [COLOR_UNIT_TEXT]%s2_SpellName[COLOR_REVERT]![NEWLINE][NEWLINE]%s3_Quote</Italian>
+		<Spanish>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] has cast [COLOR_UNIT_TEXT]%s2_SpellName[COLOR_REVERT]![NEWLINE][NEWLINE]%s3_Quote</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_UNIT_POPUP</Tag>
+		<English>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] has created [COLOR_UNIT_TEXT]%s2_UnitName[COLOR_REVERT]![NEWLINE][NEWLINE]%s3_Quote</English>
+		<French>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] a créé [COLOR_UNIT_TEXT]%s2_UnitName[COLOR_REVERT] ![NEWLINE][NEWLINE]%s3_Quote</French>
+		<German>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] hat die Einheit [COLOR_UNIT_TEXT]%s2_UnitName[COLOR_REVERT] erschaffen![NEWLINE][NEWLINE]%s3_Quote</German>
+		<Italian>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] ha creato l'unit&#224; [COLOR_UNIT_TEXT]%s2_UnitName[COLOR_REVERT]![NEWLINE][NEWLINE]%s3_Quote</Italian>
+		<Spanish>[COLOR_YIELD_FOOD]%s1_PlyrName[COLOR_REVERT] ha creado [NUM1:un:unos:una:unas] [COLOR_UNIT_TEXT]%s2_UnitName[COLOR_REVERT].[NEWLINE][NEWLINE]%s3_Quote</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_UNIT_POPUP_UNKNOWN</Tag>
+		<English>[COLOR_UNIT_TEXT]%s1_UnitName[COLOR_REVERT] has been created in a far away land![NEWLINE][NEWLINE]%s2_Quote</English>
+		<French>Un pays lointain a créé [COLOR_UNIT_TEXT]%s1_UnitName[COLOR_REVERT] ![NEWLINE][NEWLINE]%s2_Quote</French>
+		<German>[COLOR_UNIT_TEXT]%s1_UnitName[COLOR_REVERT] wurde in einem fernen Land geboren![NEWLINE][NEWLINE]%s2_Quote</German>
+		<Italian>L'unit&#224; [COLOR_UNIT_TEXT]%s1_UnitName[COLOR_REVERT] &#232; stata creata in una terra lontana![NEWLINE][NEWLINE]%s2_Quote</Italian>
+		<Spanish>Se [NUM1:ha:ha:han:han] creado [NUM1:un:una:unos:unas] [COLOR_UNIT_TEXT]%s1_UnitName[COLOR_REVERT] en una tierra muy lejana.[NEWLINE][NEWLINE]%s2_Quote</Spanish>
+	</TEXT>
+	<TEXT>		<!-- HEROES -->
+		<Tag>TXT_KEY_POPUP_ABASHI_CREATION</Tag>
+		<English>A dragon of sleek black scales is silhouetted briefly against the sky, darker even than the night like a hole in sackcloth.  The dragon spits out the paladin's remains, a small rain of blood and once perfect holy vestments.  Then she roars and I find myself suddenly nostalgic for the days of constant battle.</English>
+		<French>A dragon of sleek black scales is silhouetted briefly against the sky, darker even than the night like a hole in sackcloth.  The dragon spits out the paladin's remains, a small rain of blood and once perfect holy vestments.  Then she roars and I find myself suddenly nostalgic for the days of constant battle.</French>
+		<German>Ein schwarzer Drache mit schwarz schimmernden Schuppen zeigte sich als Silhoutte am Himmer, nur kurz, nur kurz. Er war schw&#228;rzer als als ein Loch in einem Sack in einem Tunnel in der H&#246;hle der Dunkelheit in der Mine der Finsternis. Er stie&#223; vom Himmel herab, spuckte die &#196;berreste der Paladine, es gab einen kleinen Regen aus Blut und St&#246;cken von ehemals stattlichen K&#246;rpern. Dann br&#228;llte Sie und ich, der ich mich unter Leichen versteckte, dachte mit Wehmut an die alten Tage der Andauernden Kriege zur&#228;ck.</German>
+		<Italian>A dragon of sleek black scales is silhouetted briefly against the sky, darker even than the night like a hole in sackcloth.  The dragon spits out the paladin's remains, a small rain of blood and once perfect holy vestments.  Then she roars and I find myself suddenly nostalgic for the days of constant battle.</Italian>
+		<Spanish>A dragon of sleek black scales is silhouetted briefly against the sky, darker even than the night like a hole in sackcloth.  The dragon spits out the paladin's remains, a small rain of blood and once perfect holy vestments.  Then she roars and I find myself suddenly nostalgic for the days of constant battle.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ALCINUS_CREATION</Tag>
+		<English>The story goes that Alcinus would have been one of Kylorin's students, but was rejected for two reasons. First, Alcinus is of such great potential that even the great Kylorin was forced to know envy.  Second, Alcinus is completely, irretrievably, and violently mad.</English>
+		<French>The story goes that Alcinus would have been one of Kylorin's students, but was rejected for two reasons. First, Alcinus is of such great potential that even the great Kylorin was forced to know envy.  Second, Alcinus is completely, irretrievably, and violently mad.</French>
+		<German>Es hei&#223;t, dass Alcinus einer der Sch&#252;ler von Kylorin h&#228;tte sein k&#246;nnen, aus zwei Gr&#252;nden jedoch abgelehnt worden war. Erstens schlummert solch gro&#223;es Potential in Alcinus, dass sogar der gro&#223;e Kylorin gezwungen war, neidisch zu sein. Und zweitens ist, ist Alcinus vllst&#228;ndig, unumkehrbar und komplett verr&#252;ckt.</German>
+		<Italian>The story goes that Alcinus would have been one of Kylorin's students, but was rejected for two reasons. First, Alcinus is of such great potential that even the great Kylorin was forced to know envy.  Second, Alcinus is completely, irretrievably, and violently mad.</Italian>
+		<Spanish>The story goes that Alcinus would have been one of Kylorin's students, but was rejected for two reasons. First, Alcinus is of such great potential that even the great Kylorin was forced to know envy.  Second, Alcinus is completely, irretrievably, and violently mad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ALCINUS_ARCHMAGE_CREATION</Tag>
+		<English>"The Thaumaturge is in the capital and we anticipate his re-Awakening at any moment.  I again strongly recommend he be taken to the prepared place of confinement.  He is too great a threat to the Emperor.  At the very least I ask the training of the next Dagger be accelerated.  He must be watched, and must not be allowed to gain any more power."[NEWLINE]- Angrigous, Consul of the Apparat, found among his papers.</English>
+		<French>""The Thaumaturge is in the capital and we anticipate his re-Awakening at any moment.  I again strongly recommend he be taken to the prepared place of confinement.  He is too great a threat to the Emperor.  At the very least I ask the training of the next Dagger be accelerated.  He must be watched, and must not be allowed to gain any more power."[NEWLINE]- Angrigous, Consul of the Apparat, found among his papers.</French>
+		<German>"Der Thaumaturg ist in der Hauptstadt und wir wohnen seiner Wiedererweckung durchgehend bei. Ich bitte hiermit erneut darum, dass er an einem sicheren Platz in Verwahrung genommen wird. Er ist eine viel zu gro&#223;e Bedrohung f&#252;r den Imperator. Ich bitte zumindest darum, dass ein neuer 'Dolch des Imperators' schnellstm&#246;glich ausgebildet wird,. Der Thaumaturg muss beobachtet werden, rund um die Uhr, und es muss verhindert werden, dass er noch mehr Macht erlangt."[NEWLINE]- Angrigous, Stabskonsul, Notiz in seinen Paieren.</German>
+		<Italian>"T"The Thaumaturge is in the capital and we anticipate his re-Awakening at any moment.  I again strongly recommend he be taken to the prepared place of confinement.  He is too great a threat to the Emperor.  At the very least I ask the training of the next Dagger be accelerated.  He must be watched, and must not be allowed to gain any more power."[NEWLINE]- Angrigous, Consul of the Apparat, found among his papers.</Italian>
+		<Spanish>""The Thaumaturge is in the capital and we anticipate his re-Awakening at any moment.  I again strongly recommend he be taken to the prepared place of confinement.  He is too great a threat to the Emperor.  At the very least I ask the training of the next Dagger be accelerated.  He must be watched, and must not be allowed to gain any more power."[NEWLINE]- Angrigous, Consul of the Apparat, found among his papers.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ALCINUS_UPGRADED_CREATION</Tag>
+		<English>"Frankly, I don't even remember what he was talking about.  Whatever it was, he was talking about it as he came in.  Anyway, the whole class went completely silent.  He talked on, these weird white flames flaring out under his robe, burning in his beard, and lifting his hair almost straight up from his head.  His skin got finer and drier and yes, you could actually see him calcifing right before your eyes.  I guess he thought we were just being attentive.  With him who can tell?  The Refining Fire?  No, I haven't tried it yet." [NEWLINE]- Luecretta, Adept</English>
+		<French>"Frankly, I don't even remember what he was talking about.  Whatever it was, he was talking about it as he came in.  Anyway, the whole class went completely silent.  He talked on, these weird white flames flaring out under his robe, burning in his beard, and lifting his hair almost straight up from his head.  His skin got finer and drier and yes, you could actually see him calcifing right before your eyes.  I guess he thought we were just being attentive.  With him who can tell?  The Refining Fire?  No, I haven't tried it yet." [NEWLINE]- Luecretta, Adept</French>
+		<German>"Ehrlich gesagt, Ich habe keine Ahnung, wovon er sprach. Was es auch war, er sprach schon dar&#252;ber, bevor er in den Raum kam. Wie auch immer, die gesammte Klasse wurde schlagartig mucksm&#228;uschenstill. Er sprach weiter. Seltsame wei&#223;e Flammen brachen unter seiner Robe hervor, entz&#252;ndeten seinen Bart und lie&#223;en sein Haar zu Berge stehen. Seine Haut wurde d&#252;nner und trockener und ja, man konnte sehen, wie er dirket vor unseren Augen kalzinierte. Ich wette, er dachte, wir w&#223;ren einfach nur zuvorkommend. Bei ihm kann man das nicht wissen. Das Veredelnde Feuer? Nein, ich hab es noch nicht versucht." [NEWLINE]- Luecretta, Adeptin</German>
+		<Italian>"Frankly, I don't even remember what he was talking about.  Whatever it was, he was talking about it as he came in.  Anyway, the whole class went completely silent.  He talked on, these weird white flames flaring out under his robe, burning in his beard, and lifting his hair almost straight up from his head.  His skin got finer and drier and yes, you could actually see him calcifing right before your eyes.  I guess he thought we were just being attentive.  With him who can tell?  The Refining Fire?  No, I haven't tried it yet." [NEWLINE]- Luecretta, Adept</Italian>
+		<Spanish>"Frankly, I don't even remember what he was talking about.  Whatever it was, he was talking about it as he came in.  Anyway, the whole class went completely silent.  He talked on, these weird white flames flaring out under his robe, burning in his beard, and lifting his hair almost straight up from his head.  His skin got finer and drier and yes, you could actually see him calcifing right before your eyes.  I guess he thought we were just being attentive.  With him who can tell?  The Refining Fire?  No, I haven't tried it yet." [NEWLINE]- Luecretta, Adept</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_ARTHENDAIN_CREATION</Tag>
+		<English>Arthendain began applying healing poultices to the wounds, but they were already growing green with infection.  The finger sized gashes broke open, skin and muscle peeled back as if it was trying to escape the bone.  They writhed in pain, and in minutes they looked as if they had been flogged with a whip; after a few more, they appeared as fresh zombies, still screaming, minds alive as their bodies died.  Then finally, mercifully, they died.</English>
+		<French>Arthendain began applying healing poultices to the wounds, but they were already growing green with infection.  The finger sized gashes broke open, skin and muscle peeled back as if it was trying to escape the bone.  They writhed in pain, and in minutes they looked as if they had been flogged with a whip; after a few more, they appeared as fresh zombies, still screaming, minds alive as their bodies died.  Then finally, mercifully, they died.</French>
+		<German>Arthendain begann, heilende Umschl&#228;ge auf die Wunden zu legen, aber sie wurden durch die Infektion bereits gr&#252;n. Der Finger erweiterte die klaffende Wunde, Haut und Muskel zogen sich zur&#252;ck, als w&#252;rden sie vor dem Knochen zur&#252;ckweichen. Die Gestalten kr&#252;mmten sich und Minuten sp&#228;ter sahen sie aus, als w&#228;ren sie ausgepeitscht worden. nach einigen weiteren Minuten waren sie allesamt in frische Zombies verwandelt, noch immer schreiend, der Geist noch wacht, die K&#246;rper tot. Dann, endlich, starben sie.</German>
+		<Italian>Arthendain began applying healing poultices to the wounds, but they were already growing green with infection.  The finger sized gashes broke open, skin and muscle peeled back as if it was trying to escape the bone.  They writhed in pain, and in minutes they looked as if they had been flogged with a whip; after a few more, they appeared as fresh zombies, still screaming, minds alive as their bodies died.  Then finally, mercifully, they died.</Italian>
+		<Spanish>Arthendain began applying healing poultices to the wounds, but they were already growing green with infection.  The finger sized gashes broke open, skin and muscle peeled back as if it was trying to escape the bone.  They writhed in pain, and in minutes they looked as if they had been flogged with a whip; after a few more, they appeared as fresh zombies, still screaming, minds alive as their bodies died.  Then finally, mercifully, they died.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_AURIC_ULVIN_CREATION</Tag>
+		<English>"Once you had been the greatest of scholars and priests, tributes were paid to you by all nations.  You think those days are past, you dream of the return of your lord and I tell you, he will not come.  I am your lord now, forget what you have lost, and think only on what can be gained; follow me and I will return your glory.  This world will be yours again."[NEWLINE][NEWLINE]They heard Auric's call, and they followed him.</English>
+		<French>"Once you had been the greatest of scholars and priests, tributes were paid to you by all nations.  You think those days are past, you dream of the return of your lord and I tell you, he will not come.  I am your lord now, forget what you have lost, and think only on what can be gained; follow me and I will return your glory.  This world will be yours again."[NEWLINE][NEWLINE]They heard Auric's call, and they followed him.</French>
+		<German>"Einst wart Ihr der h&#246;chste der Gelehrten und Priester, von allen V&#246;lkern wurden Ehrbekundungen gesandt. Ihr denkt, diese Zeiten seien vorbei, Ihr tr&#228;umt von der R&#252;ckkehr Eures hohen Herren und ich sage Euch, dieser Tag wird nicht kommen. Ich bin nun Euer Herr, vergesst, was Ihr verloren habt und denkt daran, was Ihr gewinnen k&#246;nnt. Folgt mir und ich werde Euren Ruhm zur&#252;ckbringen. Diese Welt wird erneut Euch geh&#246;ren."[NEWLINE][NEWLINES]Sie h&#246;rten Aurics Ruf und sie folgten Ihm.</German>
+		<Italian>"Once you had been the greatest of scholars and priests, tributes were paid to you by all nations.  You think those days are past, you dream of the return of your lord and I tell you, he will not come.  I am your lord now, forget what you have lost, and think only on what can be gained; follow me and I will return your glory.  This world will be yours again."[NEWLINE][NEWLINE]They heard Auric's call, and they followed him.</Italian>
+		<Spanish>"Once you had been the greatest of scholars and priests, tributes were paid to you by all nations.  You think those days are past, you dream of the return of your lord and I tell you, he will not come.  I am your lord now, forget what you have lost, and think only on what can be gained; follow me and I will return your glory.  This world will be yours again."[NEWLINE][NEWLINE]They heard Auric's call, and they followed him.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_AURIC_ASCENDED_CREATION</Tag>
+		<English>"Once you had been the greatest of scholars and priests, tributes were paid to you by all nations.  You think those days are past, you dream of the return of your lord and I tell you, he will not come.  I am your lord now, forget what you have lost, and think only on what can be gained; follow me and I will return your glory.  This world will be yours again."[NEWLINE][NEWLINE]They heard Auric's call, and they followed him.</English>
+		<French>"Once you had been the greatest of scholars and priests, tributes were paid to you by all nations.  You think those days are past, you dream of the return of your lord and I tell you, he will not come.  I am your lord now, forget what you have lost, and think only on what can be gained; follow me and I will return your glory.  This world will be yours again."[NEWLINE][NEWLINE]They heard Auric's call, and they followed him.</French>
+		<German>"Einst wart Ihr der h&#246;chste der Gelehrten und Priester, von allen V&#246;lkern wurden Ehrbekundungen gesandt. Ihr denkt, diese Zeiten seien vorbei, Ihr tr&#228;umt von der R&#252;ckkehr Eures hohen Herren und ich sage Euch, dieser Tag wird nicht kommen. Ich bin nun Euer Herr, vergesst, was Ihr verloren habt und denkt daran, was Ihr gewinnen k&#246;nnt. Folgt mir und ich werde Euren Ruhm zur&#252;ckbringen. Diese Welt wird erneut Euch geh&#246;ren."[NEWLINE][NEWLINES]Sie h&#246;rten Aurics Ruf und sie folgten Ihm.</German>
+		<Italian>"Once you had been the greatest of scholars and priests, tributes were paid to you by all nations.  You think those days are past, you dream of the return of your lord and I tell you, he will not come.  I am your lord now, forget what you have lost, and think only on what can be gained; follow me and I will return your glory.  This world will be yours again."[NEWLINE][NEWLINE]They heard Auric's call, and they followed him.</Italian>
+		<Spanish>"Once you had been the greatest of scholars and priests, tributes were paid to you by all nations.  You think those days are past, you dream of the return of your lord and I tell you, he will not come.  I am your lord now, forget what you have lost, and think only on what can be gained; follow me and I will return your glory.  This world will be yours again."[NEWLINE][NEWLINE]They heard Auric's call, and they followed him.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_BAMBUR_CREATION</Tag>
+		<English>The first generation of Dwarves never age, they are exactly as they were when they were carved, but each generation of dwarves gets a slightly shorter lifespan.  As they get farther and farther from the breath of Kilmorph, they become more mortal, in spirit and life.  Bambur has had to watch this fall, the Umberguard himself has even turned away from Kilmorph, but Bambur fights on for his goddess and mother.</English>
+		<French>The first generation of Dwarves never age, they are exactly as they were when they were carved, but each generation of dwarves gets a slightly shorter lifespan.  As they get farther and farther from the breath of Kilmorph, they become more mortal, in spirit and life.  Bambur has had to watch this fall, the Umberguard himself has even turned away from Kilmorph, but Bambur fights on for his goddess and mother.</French>
+		<German>Die erste Generation von Zwergen altert nicht. Sie ist genauso alt, wie sie war, als sie gemei&#223;elt worden war. Doch mit jeder Generation der Zwerge hatte eine etwas k&#252;rzere Lebenspanne. Indem sie sich weiter und weiter vom Atem der Kilmproph entfernten, wurden sie sterblich, sowohl im Geiste als auch k&#246;rperlich. Bambur hatte diesen Verfall mit ansehen m&#252;ssen, selbst der H&#252;ter der Welt unter der Erde selbst hatte sich von Kilmorph entfernt. Doch Bambur k&#228;mpft noch immer im Namen seiner G&#246;ttin und Mutter.</German>
+		<Italian>The first generation of Dwarves never age, they are exactly as they were when they were carved, but each generation of dwarves gets a slightly shorter lifespan.  As they get farther and farther from the breath of Kilmorph, they become more mortal, in spirit and life.  Bambur has had to watch this fall, the Umberguard himself has even turned away from Kilmorph, but Bambur fights on for his goddess and mother.</Italian>
+		<Spanish>The first generation of Dwarves never age, they are exactly as they were when they were carved, but each generation of dwarves gets a slightly shorter lifespan.  As they get farther and farther from the breath of Kilmorph, they become more mortal, in spirit and life.  Bambur has had to watch this fall, the Umberguard himself has even turned away from Kilmorph, but Bambur fights on for his goddess and mother.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_BARNAXUS_CREATION</Tag>
+		<English>Barnaxus did not "take orders." He cooperated, he discussed, and he made suggestions. Barnaxus was a thinking golem, a learning golem. No one could guess how he had managed to break the magical ties that bind a golem to the two-dimensional world of "order and execution", and nobody really expected that they would ever find out. When asked, Barnaxus merely said: "A man spoke to me in the wastes and I awoke," he would say no more.</English>
+		<French>Barnaxus ne suivait pas des « ordres ». Il coopérait, il discutait, et il faisait des suggestions. Barnaxus était un golem doué d'intelligence, un golem évolutif. Nul ne savait comment il s'était débrouillé pour se défaire des contraintes magiques qui enchaînent un golem au monde bidimensionnel de la [BOLD]Commande[\BOLD] et de son [BOLD]Exécution[\BOLD], et pesonne ne s'attendait à trouver un jour la réponse. Quand on lui posait directement la question, la réponse de Barnaxus se limitait à : « Un homme s'est adressé à moi dans les terres désolées, et je me suis éveillé. »</French>
+		<German>Barnaxus konnte man nicht "befehlen". Er kooperierte, er diskutierte und machte Vorschl&#228;ge. Barnaxus war ein denkender Golem, ein lernender Golem. Niemand hatte eine Vorstellung, wie er die magischen Bande durchbrochen hatte, die einen Golem an die zweidimensionale Welt der "Befehl und Ausf&#252;hrung" gekettet hatten, und niemand glaubte wirklich, dass man es jemals heraufinden w&#252;rde. Darauf angesprochen antwortete Barnaxus: "Ein Mann sprach mich bei der Abfallentsorgung an und ich erwachte." Mehr sagte er nie zu diesem Thema.</German>
+		<Italian>Barnaxus did not "take orders." He cooperated, he discussed, and he made suggestions. Barnaxus was a thinking golem, a learning golem. No one could guess how he had managed to break the magical ties that bind a golem to the two-dimensional world of "order and execution", and nobody really expected that they would ever find out. When asked, Barnaxus merely said: "A man spoke to me in the wastes and I awoke," he would say no more.</Italian>
+		<Spanish>Barnaxus did not "take orders." He cooperated, he discussed, and he made suggestions. Barnaxus was a thinking golem, a learning golem. No one could guess how he had managed to break the magical ties that bind a golem to the two-dimensional world of "order and execution", and nobody really expected that they would ever find out. When asked, Barnaxus merely said: "A man spoke to me in the wastes and I awoke," he would say no more.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_BARON_DUIN_CREATION</Tag>
+		<English>Duin was a fearsome warlord during the Age of Magic.  He hosted lavish banquets after his victories, where he and his generals feasted on the bodies of the captured opponents.  His generals' ambition grew to match his own and they turned on him in a bloody civil war.  Duin won the war but lost his empire; in the end, he sat alone, feasting on his generals' bodies. [NEWLINE][NEWLINE]Like all mortals, even the horrific Duin passed away, but he would not be allowed to sleep forever. In time of dire need, desperate mages performed rites to bring back the greatest, most feared general of history. But it was not without price: the gods knew of Duin's character, and would not suffer him to be raised back to life without an appropriate form.[NEWLINE][NEWLINE]Werewolves had not been seen in the world since the Age of Ice, but in Duin Halfmorn, these dark creatures will witness a terrible rebirth, and the free peoples would do right to tremble in fear.</English>
+		<French>Duin was a fearsome warlord during the Age of Magic.  He hosted lavish banquets after his victories, where he and his generals feasted on the bodies of the captured opponents.  His generals' ambition grew to match his own and they turned on him in a bloody civil war.  Duin won the war but lost his empire; in the end, he sat alone, feasting on his generals' bodies. [NEWLINE][NEWLINE]Like all mortals, even the horrific Duin passed away, but he would not be allowed to sleep forever. In time of dire need, desperate mages performed rites to bring back the greatest, most feared general of history. But it was not without price: the gods knew of Duin's character, and would not suffer him to be raised back to life without an appropriate form.[NEWLINE][NEWLINE]Werewolves had not been seen in the world since the Age of Ice, but in Duin Halfmorn, these dark creatures will witness a terrible rebirth, and the free peoples would do right to tremble in fear.</French>
+		<German>Duin war ein gef&#252;rchteter Kriegsherr im Zeitalter des Eises. Er war daf&#252;r bekannt, nach siegreichen Schlachten verschwenderische Bankette auszurichten, bei denen er und seine Gener&#228;le sich an den Leibern der gefangenen Gegner labten. Seine h&#246;chsten Offiziere jedoch begannen einen blutigen B&#252;rgerkrieg, um sich ihm in Rang und Macht gleichzustellen. Duin gewann diesen Krieg, doch er verlor sein Reich. Am Ende sa&#223; er einsam da und fra&#223; die K&#246;rper seiner eigenen Gener&#228;le.[NEWLINE][NEWLINE]Wie f&#252;r alle Sterblichen kam auch f&#252;r den entsetzlichen Duin der Tag des Todes, doch ihm war kein ewiger Schlaf verg&#246;nnt. In einer Zeit gr&#246;&#223;ter Not vollf&#252;hrten verzweifelte Magier Rituale, um den gr&#246;&#223;ten und gef&#252;rchtetsten Feldherren der Geschichte zur&#252;ckzuholen. Doch es war nicht ganz so einfach: Die G&#246;tter kannten Duins Charakter und lie&#223;en es nicht zu, dass er wieder auf die Welt losgelassen wurde ohne das dazu passende &#196;u&#223;ere.[NEWLINE][NEWLINE]Werw&#246;lfe waren seit dem Zeitalter des Eises nicht mehr auf Erebus gesehen worden, doch ausgehend von Duin Halfmorn erlebten diese dunklen Kreaturen einen furchtbaren Aufstieg, eine Wiedergeburt, und die freien V&#246;lker taten recht daran, in Angst zu erbeben.</German>
+		<Italian>Duin was a fearsome warlord during the Age of Magic.  He hosted lavish banquets after his victories, where he and his generals feasted on the bodies of the captured opponents.  His generals' ambition grew to match his own and they turned on him in a bloody civil war.  Duin won the war but lost his empire; in the end, he sat alone, feasting on his generals' bodies. [NEWLINE][NEWLINE]Like all mortals, even the horrific Duin passed away, but he would not be allowed to sleep forever. In time of dire need, desperate mages performed rites to bring back the greatest, most feared general of history. But it was not without price: the gods knew of Duin's character, and would not suffer him to be raised back to life without an appropriate form.[NEWLINE][NEWLINE]Werewolves had not been seen in the world since the Age of Ice, but in Duin Halfmorn, these dark creatures will witness a terrible rebirth, and the free peoples would do right to tremble in fear.</Italian>
+		<Spanish>Duin was a fearsome warlord during the Age of Magic.  He hosted lavish banquets after his victories, where he and his generals feasted on the bodies of the captured opponents.  His generals' ambition grew to match his own and they turned on him in a bloody civil war.  Duin won the war but lost his empire; in the end, he sat alone, feasting on his generals' bodies. [NEWLINE][NEWLINE]Like all mortals, even the horrific Duin passed away, but he would not be allowed to sleep forever. In time of dire need, desperate mages performed rites to bring back the greatest, most feared general of history. But it was not without price: the gods knew of Duin's character, and would not suffer him to be raised back to life without an appropriate form.[NEWLINE][NEWLINE]Werewolves had not been seen in the world since the Age of Ice, but in Duin Halfmorn, these dark creatures will witness a terrible rebirth, and the free peoples would do right to tremble in fear.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_BRIGIT_HELD_CREATION</Tag>
+		<English>The lone remnant of Bhall's forces who survived refusing to Fall, Brigit has been imprisoned within the frozen wastes.  It will take an individual of remarkable strength to break the binding of a God.</English>
+		<French>The lone remnant of Bhall's forces who survived refusing to Fall, Brigit has been imprisoned within the frozen wastes.  It will take an individual of remarkable strength to break the binding of a God.</French>
+		<German>Das einsame &#220;berbleibsel von Bhalls Truppen, das den Fall &#252;berlebte. Brigit war in den gefrorenen Brachlanden eingekerkert. Es braucht ein Individuum von bemerkenswerter St&#228;rke, um die Fesseln eines Gottes zu durchtrennen.</German>
+		<Italian>The lone remnant of Bhall's forces who survived refusing to Fall, Brigit has been imprisoned within the frozen wastes.  It will take an individual of remarkable strength to break the binding of a God.</Italian>
+		<Spanish>The lone remnant of Bhall's forces who survived refusing to Fall, Brigit has been imprisoned within the frozen wastes.  It will take an individual of remarkable strength to break the binding of a God.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_BRIGIT_RELEASED_CREATION</Tag>
+		<English>Finally freed of her seemingly eternal prison, Brigit will serve the one who has released her with literally undying devotion.  Her power is vast, but her comittment to Duty is greater.</English>
+		<French>Finally freed of her seemingly eternal prison, Brigit will serve the one who has released her with literally undying devotion.  Her power is vast, but her comittment to Duty is greater.</French>
+		<German>Endlich aus ihrem ewig erscheinenden Gef&#228;ngnis befreit, wird Brigit ihrem Befreier mit unsterblicher Hingabe dienen. Ihre Macht ist gewaltig, doch ihr Pflichtgef&#252;hl ist gr&#246;&#223;er.</German>
+		<Italian>Finally freed of her seemingly eternal prison, Brigit will serve the one who has released her with literally undying devotion.  Her power is vast, but her comittment to Duty is greater.</Italian>
+		<Spanish>Finally freed of her seemingly eternal prison, Brigit will serve the one who has released her with literally undying devotion.  Her power is vast, but her comittment to Duty is greater.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_CHALID_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German>Chalid Astrakein, der Gefolgsmann der ewigen Sonne ist vom Himmel auf die Erde gekommen. Seine Worte k&#246;nnen seine Gegner genauso durchboren, wie die Sonnenstrahlen die Dunkelheit.</German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_CORLINDALE_CREATION</Tag>
+		<English>One evening in the late autumn, a stranger approached the city of Cahir Abbey, in the lands of the Elohim. He was clad in a brown cloak, with no symbols or markings of any kind, and seemed very fatigued, so the sentries on the wall took him in, and gave him food and shelter. Some were curious about his origin, but one look at his eyes was enough to convince them that not all stories were fit for human ears. This was a broken man, in spirit more so than in body, and their hearts ached with pity for his cruel fate.</English>
+		<French>One evening in the late autumn, a stranger approached the city of Cahir Abbey, in the lands of the Elohim. He was clad in a brown cloak, with no symbols or markings of any kind, and seemed very fatigued, so the sentries on the wall took him in, and gave him food and shelter. Some were curious about his origin, but one look at his eyes was enough to convince them that not all stories were fit for human ears. This was a broken man, in spirit more so than in body, and their hearts ached with pity for his cruel fate.</French>
+		<German>Eines Abends im sp&#228;ten Herbst n&#228;herte sich ein Fremder der Abtei von Cahir im Reich der Elohim. Er war in einen braunen Mantel gekleidet, ohne Symbole oder Kennzeichen irgendeiner Art, und wirkte wirklich ausgehungert. Daher lie&#228;en ihn die Stadtwachen ein und gaben ihm Obdach und Essen. Einige wollten ihn nach seinem Schicksal und seiner Herkunft fragen, doch ein Blick in seine Augen reichte aus, um zu erkennen, dass nicht alle Geschichten f&#252;r menschliche Ohren geeignet sind. Dies war ein gebrochener Mann, mehr seelisch als k&#246;rperlich, und ihre Herzen wurden schwer von Mitleid f&#252;r sein grausames Schicksal.</German>
+		<Italian>One evening in the late autumn, a stranger approached the city of Cahir Abbey, in the lands of the Elohim. He was clad in a brown cloak, with no symbols or markings of any kind, and seemed very fatigued, so the sentries on the wall took him in, and gave him food and shelter. Some were curious about his origin, but one look at his eyes was enough to convince them that not all stories were fit for human ears. This was a broken man, in spirit more so than in body, and their hearts ached with pity for his cruel fate.</Italian>
+		<Spanish>One evening in the late autumn, a stranger approached the city of Cahir Abbey, in the lands of the Elohim. He was clad in a brown cloak, with no symbols or markings of any kind, and seemed very fatigued, so the sentries on the wall took him in, and gave him food and shelter. Some were curious about his origin, but one look at his eyes was enough to convince them that not all stories were fit for human ears. This was a broken man, in spirit more so than in body, and their hearts ached with pity for his cruel fate.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DONAL_CREATION</Tag>
+		<English>Blood splattered on Donal's face, and by the burning, he knew it belonged to the demon. He gritted his teeth and ducked under a leaping Hellhound, thrusting upward with his short sword. Its snarl turned to a yelp, but it still managed to kick his helmet off as it tumbled gracelessly to the ground. Donal raised his shield to fend off a fireball hurled by a towering fire elemental, shouting over his shoulder, "Are we about done here, my lord? I do think they are sorry to see us leaving."</English>
+		<French>Blood splattered on Donal's face, and by the burning, he knew it belonged to the demon. He gritted his teeth and ducked under a leaping Hellhound, thrusting upward with his short sword. Its snarl turned to a yelp, but it still managed to kick his helmet off as it tumbled gracelessly to the ground. Donal raised his shield to fend off a fireball hurled by a towering fire elemental, shouting over his shoulder, "Are we about done here, my lord? I do think they are sorry to see us leaving."</French>
+		<German>Blut spritzte in Donals Gesicht und an dem Brennen erkannte er, dass es dem D&#228;mon geh&#246;rte. Er fletschte seine Z&#228;hne und duckte sich unter dem H&#246;llenhund hinweg, er versenkte sein Kurzschwert. Das Br&#252;llen wurde zu einem hilflosen Kl&#228;ffen, und doch schaffte es die Bestie, ihm seinen Helm wegzurei&#223;en, w&#228;hrend sie ungeschickt zu Boden taumelte. Donal hob seinen Schild und wehrte einen Feuerball des hochaufgeschossenen Feuerelementars ab. Er br&#252;llte &#252;ber seine Schulter hinweg: "Sind wir hier fertig, Herr? Ich glaube, sie werden traurig sein, wenn wir verschwinden."</German>
+		<Italian>Blood splattered on Donal's face, and by the burning, he knew it belonged to the demon. He gritted his teeth and ducked under a leaping Hellhound, thrusting upward with his short sword. Its snarl turned to a yelp, but it still managed to kick his helmet off as it tumbled gracelessly to the ground. Donal raised his shield to fend off a fireball hurled by a towering fire elemental, shouting over his shoulder, "Are we about done here, my lord? I do think they are sorry to see us leaving."</Italian>
+		<Spanish>Blood splattered on Donal's face, and by the burning, he knew it belonged to the demon. He gritted his teeth and ducked under a leaping Hellhound, thrusting upward with his short sword. Its snarl turned to a yelp, but it still managed to kick his helmet off as it tumbled gracelessly to the ground. Donal raised his shield to fend off a fireball hurled by a towering fire elemental, shouting over his shoulder, "Are we about done here, my lord? I do think they are sorry to see us leaving."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DRIFA_CREATION</Tag>
+		<English>Requiring the sacrifice of an entire population to be reborn, the fearsome Dragon of Mulcarn's design possesses all the faculties of her breathren.  The capacity to scatter entire battalions of enemies with a single Roar, capability of weilding fire to weaken the opposition, and a natural presence which inflicts mind-numbing fear in her oppponents.</English>
+		<French>Requiring the sacrifice of an entire population to be reborn, the fearsome Dragon of Mulcarn's design possesses all the faculties of her breathren.  The capacity to scatter entire battalions of enemies with a single Roar, capability of weilding fire to weaken the opposition, and a natural presence which inflicts mind-numbing fear in her oppponents.</French>
+		<German>Da es das Opfer einer ganzen Bev&#246;lkerung f&#252;r ihre Wiedergeburt ben&#246;tigte, vereint der f&#252;rchterliche Drache aus Mulcarns Sch&#246;pfung alle Eigenschaften ihrer Art. Die F&#228;higkeit, ganze Batallione von Feinden mit einem einzigen Gebr&#252;ll zu ersch&#252;ttern, die F&#228;higkeit, mit seinem Feueratem die Stellungen zu schw&#228;chen, und die F&#228;higkeit, durch die blo&#223;e Pr&#228;senz den Gegnern den Verstand durch bet&#228;ubende Angst zu rauben.</German>
+		<Italian>Requiring the sacrifice of an entire population to be reborn, the fearsome Dragon of Mulcarn's design possesses all the faculties of her breathren.  The capacity to scatter entire battalions of enemies with a single Roar, capability of weilding fire to weaken the opposition, and a natural presence which inflicts mind-numbing fear in her oppponents.</Italian>
+		<Spanish>Requiring the sacrifice of an entire population to be reborn, the fearsome Dragon of Mulcarn's design possesses all the faculties of her breathren.  The capacity to scatter entire battalions of enemies with a single Roar, capability of weilding fire to weaken the opposition, and a natural presence which inflicts mind-numbing fear in her oppponents.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_EURABATRES_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German>Der Goldene Drache ist da! Aaah! Der Goldene Drache! Ist da! Aaah!</German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_GAELAN_CREATION</Tag>
+		<English>The Mad Mastermind of Magical Mayhem.  Gaelan's experiments with the unwitting populous has granted him a keen eye for the thaumaturgical wonders of the world, and now that he has been given a free hand, he seeks to... "expand" his field of operations.</English>
+		<French>The Mad Mastermind of Magical Mayhem.  Gaelan's experiments with the unwitting populous has granted him a keen eye for the thaumaturgical wonders of the world, and now that he has been given a free hand, he seeks to... "expand" his field of operations.</French>
+		<German>Gaelan ist das verr&#252;ckte Genie der magischen Verw&#252;stung. Gaelans Experimente mit den unerw&#252;nschten Ausw&#252;chsen der Geselsschaft hatten ihm ein feines Auge f&#252;r die thaumaturgischen Wunder der Welt verschafft. Nun hatte er freie Hand, er versuchte ... sein Oprationsfeld zu erweitern.</German>
+		<Italian>The Mad Mastermind of Magical Mayhem.  Gaelan's experiments with the unwitting populous has granted him a keen eye for the thaumaturgical wonders of the world, and now that he has been given a free hand, he seeks to... "expand" his field of operations.</Italian>
+		<Spanish>The Mad Mastermind of Magical Mayhem.  Gaelan's experiments with the unwitting populous has granted him a keen eye for the thaumaturgical wonders of the world, and now that he has been given a free hand, he seeks to... "expand" his field of operations.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_GIBBON_CREATION</Tag>
+		<English>The Master of Deciet.  Gibbon is a powerful archmage by any standards, but his eyes are set on a slightly more mundane goal than many of his fellows; he seeks to claim a throne for himself, and will do whatever is neccessary to see his ambition come to pass.  Though it will mean his life when he is finally found out, Gibbon is more than happy to revel in the moment and wreak havoc with the kingdom another leader has slowly built up from nothing.</English>
+		<French>The Master of Deciet.  Gibbon is a powerful archmage by any standards, but his eyes are set on a slightly more mundane goal than many of his fellows; he seeks to claim a throne for himself, and will do whatever is neccessary to see his ambition come to pass.  Though it will mean his life when he is finally found out, Gibbon is more than happy to revel in the moment and wreak havoc with the kingdom another leader has slowly built up from nothing.</French>
+		<German>Der Meister von Deciet. Gibbon ist au&#223;ergew&#246;hnlich m&#228;chtiger Erzmagier, doch sein Blick sind auf ein wesentlich weltlicheres Ziel gerichtet als es bei solchen Personen normalerweise der Fall ist. Er trachtet danach, einen Thron f&#252;r sich zu erringen, und wird alles Notwendige tun, um diese Absichten Realit&#228;t werden sehen zu k&#246;nnen. Auch wenn es ihn den Kopf kosten kann, wenn er als Urheber von Aufruhr und Verw&#252;stung in einem K&#246;nigreich gefasst w&#252;rde, das ein anderer m&#252;hsam aus dem Nichts aufgebaut hat, ist Gibbon in diesen Momenten des Gl&#252;cks gefangen und kann es nicht lassen.</German>
+		<Italian>The Master of Deciet.  Gibbon is a powerful archmage by any standards, but his eyes are set on a slightly more mundane goal than many of his fellows; he seeks to claim a throne for himself, and will do whatever is neccessary to see his ambition come to pass.  Though it will mean his life when he is finally found out, Gibbon is more than happy to revel in the moment and wreak havoc with the kingdom another leader has slowly built up from nothing.</Italian>
+		<Spanish>The Master of Deciet.  Gibbon is a powerful archmage by any standards, but his eyes are set on a slightly more mundane goal than many of his fellows; he seeks to claim a throne for himself, and will do whatever is neccessary to see his ambition come to pass.  Though it will mean his life when he is finally found out, Gibbon is more than happy to revel in the moment and wreak havoc with the kingdom another leader has slowly built up from nothing.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_GURID_CREATION</Tag>
+		<English>Whether by magical enhancement of freak accident of nature, Gurid has surpassed the natural realm of the common Gorrila.  He possesses the same docile nature as his native species, and their fear of populated areas, but with such a large hide, there are few hunters who can resist the temptation to hunt him.</English>
+		<French>Whether by magical enhancement of freak accident of nature, Gurid has surpassed the natural realm of the common Gorrila.  He possesses the same docile nature as his native species, and their fear of populated areas, but with such a large hide, there are few hunters who can resist the temptation to hunt him.</French>
+		<German>Sei es durch magische Verst&#228;rkung oder eine Laune der Natur, Gurid hat das nat&#252;rliche Wesen eines gew&#246;hnlichen Gorillas hinter sich gelassen. Er besitzt dieselbe gelehrige Natur seiner Artgenossen und ihre Angst vor dicht bev&#246;lkerten Orten, doch bei solch einem enormen Fell gibt es wenige J&#228;ger, die nicht den Versuchung unternehmen wollen, ihn zu erlegen.</German>
+		<Italian>Whether by magical enhancement of freak accident of nature, Gurid has surpassed the natural realm of the common Gorrila.  He possesses the same docile nature as his native species, and their fear of populated areas, but with such a large hide, there are few hunters who can resist the temptation to hunt him.</Italian>
+		<Spanish>Whether by magical enhancement of freak accident of nature, Gurid has surpassed the natural realm of the common Gorrila.  He possesses the same docile nature as his native species, and their fear of populated areas, but with such a large hide, there are few hunters who can resist the temptation to hunt him.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_HYBOREM_CREATION</Tag>
+		<English>Long has Hyborem's gaze rested enviously upon Erebus.  Now that a pact has been formed and the way is paved for his entrance, he feels little obligation to his unwitting accomplice and may well turn on him when the mood strikes his fancy.  Without Hyborem's leadership, his demonic hordes will surely flounder, but fortunately his power is so great that he will not go easily back to oblivion.</English>
+		<French>Long has Hyborem's gaze rested enviously upon Erebus.  Now that a pact has been formed and the way is paved for his entrance, he feels little obligation to his unwitting accomplice and may well turn on him when the mood strikes his fancy.  Without Hyborem's leadership, his demonic hordes will surely flounder, but fortunately his power is so great that he will not go easily back to oblivion.</French>
+		<German>F&#252;r lange Zeit hatte Hyborems BLick gierig auf Erebus ausgeharrt. Nun, da ein Pakt geschlossen worden war und der Weg f&#246;r den Zugriff auf Erebus vor ihm lag, f&#252;hlte er wenig Verpflichtung gegen&#252;ber seinen unwissenden Helfern. Wenn die Laune es verlangte, w&#252;rde er sich ihrer entledigen. Ohne Hyborems F&#252;hrung werden seine d&#228;monischen Horden mit Sicherheit unorganisiert &#252;ber die Welt "zappeln", doch gl&#252;cklicherweise ist seine Macht so gro&#223;, dass er nicht so einfach zur&#252;ck in die Vergessenheit geschickt werden kann.</German>
+		<Italian>Long has Hyborem's gaze rested enviously upon Erebus.  Now that a pact has been formed and the way is paved for his entrance, he feels little obligation to his unwitting accomplice and may well turn on him when the mood strikes his fancy.  Without Hyborem's leadership, his demonic hordes will surely flounder, but fortunately his power is so great that he will not go easily back to oblivion.</Italian>
+		<Spanish>Long has Hyborem's gaze rested enviously upon Erebus.  Now that a pact has been formed and the way is paved for his entrance, he feels little obligation to his unwitting accomplice and may well turn on him when the mood strikes his fancy.  Without Hyborem's leadership, his demonic hordes will surely flounder, but fortunately his power is so great that he will not go easily back to oblivion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_KAHD_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_KARRLSON_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_KITHRA KYRIEL_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_KORRINA_BLACK_CREATION</Tag>
+		<English>"There were trees all around us.  They rustled only when the wind died.  I'd taken my wound the night before, but was awake again.  The blanket had been pulled all the way over my head.  When I pulled it down I saw Karl jump up from the fire and stare at me.  He looked like he was about to scream, then blood came out of his mouth and he fell.  I could hear grunts and weapons work from the other fires, but none had time to scream... I was frozen, I admit, for at least a minute.  Then I got up and could feel her behind me.  When I turned she was there.  Right there.  Pale and dark, red dripping from her blades, red a band covering her eyes.  She said "You belong here now.  Go and get your family.  The forest will let you pass, and speed your passage.  So... thats why I'm here, Melinda.  It's all right.  Don't be frightened.  I'm fine.  We'll all be fine.  It's two hours past midnight.  The boys are getting the horses and we can be in Patria by dawn.  All of us together again, and forever."</English>
+		<French>"There were trees all around us.  They rustled only when the wind died.  I'd taken my wound the night before, but was awake again.  The blanket had been pulled all the way over my head.  When I pulled it down I saw Karl jump up from the fire and stare at me.  He looked like he was about to scream, then blood came out of his mouth and he fell.  I could hear grunts and weapons work from the other fires, but none had time to scream... I was frozen, I admit, for at least a minute.  Then I got up and could feel her behind me.  When I turned she was there.  Right there.  Pale and dark, red dripping from her blades, red a band covering her eyes.  She said "You belong here now.  Go and get your family.  The forest will let you pass, and speed your passage.  So... thats why I'm here, Melinda.  It's all right.  Don't be frightened.  I'm fine.  We'll all be fine.  It's two hours past midnight.  The boys are getting the horses and we can be in Patria by dawn.  All of us together again, and forever."</French>
+		<German>"Um uns herum waren B&#228;ume. Sie raschelten, wenn der Wind erstarb. Ich war in der Nacht zuvor verwundet worden, war jedoch schon wieder zu mir gekommen. Das Tuch hatte man mir um den gesamten Kopf gewickelt. Als ich es herunterriss, sah ich Karl am Lagerfeuer aufspringen und mich mich anstarren. Er wirkte, als w&#252;rde er jeden Moment anfangen, zu schreien, doch dann kam Blut aus seinem Mund und er fiel vorn&#252;ber. Ich h&#246;rte, dass die M&#228;nner an dern Feuern &#228;chzten und nach ihren Waffen griffen, doch keiner von ihnen hatte die Zeit zu rufen... Ich war gel&#228;hmt, f&#252;r mindestens eine Minute, das gebe ich zu. Dann erhob ich mich und konnte sie hinter mir sp&#252;ren. Als ich mich umdrehte, war sie da. Stand einfach da. Blass und dunkel, rot tropften ihre Klingen, rot war der Streifen Tuch, der ihre Augen bedeckte. Sie sagte: "Du geh&#228;rst jetzt zu uns. Geh und hol deine Familie. Hab keine Angst. Der Walt wird euch passieren lassen und euch sogar noch helfen. Ja ... deshalb bin ich hier, Melinda. Es ist alles gut. Keine Angst. Alles wird gut. Mir geht es gut, uns allen wird es gut gehen. Es ist zwei Stunden nach Mitternacht. Die Jungs holen die Pferde und wir k&#246;nnen bei Sonnenaufgang in Patria sein. Wir alle wieder zusammen, und f&#252;r immer."</German>
+		<Italian>"There were trees all around us.  They rustled only when the wind died.  I'd taken my wound the night before, but was awake again.  The blanket had been pulled all the way over my head.  When I pulled it down I saw Karl jump up from the fire and stare at me.  He looked like he was about to scream, then blood came out of his mouth and he fell.  I could hear grunts and weapons work from the other fires, but none had time to scream... I was frozen, I admit, for at least a minute.  Then I got up and could feel her behind me.  When I turned she was there.  Right there.  Pale and dark, red dripping from her blades, red a band covering her eyes.  She said "You belong here now.  Go and get your family.  The forest will let you pass, and speed your passage.  So... thats why I'm here, Melinda.  It's all right.  Don't be frightened.  I'm fine.  We'll all be fine.  It's two hours past midnight.  The boys are getting the horses and we can be in Patria by dawn.  All of us together again, and forever."</Italian>
+		<Spanish>"There were trees all around us.  They rustled only when the wind died.  I'd taken my wound the night before, but was awake again.  The blanket had been pulled all the way over my head.  When I pulled it down I saw Karl jump up from the fire and stare at me.  He looked like he was about to scream, then blood came out of his mouth and he fell.  I could hear grunts and weapons work from the other fires, but none had time to scream... I was frozen, I admit, for at least a minute.  Then I got up and could feel her behind me.  When I turned she was there.  Right there.  Pale and dark, red dripping from her blades, red a band covering her eyes.  She said "You belong here now.  Go and get your family.  The forest will let you pass, and speed your passage.  So... thats why I'm here, Melinda.  It's all right.  Don't be frightened.  I'm fine.  We'll all be fine.  It's two hours past midnight.  The boys are getting the horses and we can be in Patria by dawn.  All of us together again, and forever."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_KORRINA_RED_CREATION</Tag>
+		<English>"The Emperor is an inexhaustible spring.  Life, and light.  In return I offer a river of blood.  Erebus will live at his pleasure or die by my hand.  This he has decreed and so will it be forever." [NEWLINE] - Korrina's Answer.  Year 523, at the ill-fated Brookden Conferance.</English>
+		<French>"The Emperor is an inexhaustible spring.  Life, and light.  In return I offer a river of blood.  Erebus will live at his pleasure or die by my hand.  This he has decreed and so will it be forever."[NEWLINE] - Korrina's Answer.  Year 523, at the ill-fated Brookden Conferance.</French>
+		<German>"Der Imperator ist ein unersch&#246;pfliche Quelle. Leben und Licht. Als Gegenleistung biete ich ihm ein Meer aus Blut. Erebus wird nach seinem Willen leben oder durch meine Hand sterben. Das hat er beschlossen und so wird es sein, f&#252;r immer.[NEWLINE] - Korrinas Antwort. Im Jahr 523, w&#228;hrend der schlecht laufenden Brookden Konferenz.</German>
+		<Italian>"The Emperor is an inexhaustible spring.  Life, and light.  In return I offer a river of blood.  Erebus will live at his pleasure or die by my hand.  This he has decreed and so will it be forever."[NEWLINE] - Korrina's Answer.  Year 523, at the ill-fated Brookden Conferance.</Italian>
+		<Spanish>"The Emperor is an inexhaustible spring.  Life, and light.  In return I offer a river of blood.  Erebus will live at his pleasure or die by my hand.  This he has decreed and so will it be forever."[NEWLINE] - Korrina's Answer.  Year 523, at the ill-fated Brookden Conferance.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_KORRINA_UNSHACKLED_CREATION</Tag>
+		<English>"This is what I see.  I see the Wards fall.  The circle of blood and salt had been laid on the first day of the ritual, the first thing, and is now the end.  An adept reaches down and sweeps a break.  Suddenly it is as if a noise no one can hear stops, the silence is that clean.  ... Sorry, that's as best I may explain.  There my vision goes awry, because as you step out of the circle, my Lady, eveone feels it.  Everyone turns to the gateway.  The Emperor is coming.  Near him all world-lines turn back on themseves, and there my vision goes awry.  But I see you freed, my Lady.  Someday.  For now these walls must be enough.  The ice cannot last forever, Lady.  You will see your Emperor again."  - [NEWLINE]  McCagge's Prophecy, Year 100 of the Age of Ice.</English>
+		<French>"This is what I see.  I see the Wards fall.  The circle of blood and salt had been laid on the first day of the ritual, the first thing, and is now the end.  An adept reaches down and sweeps a break.  Suddenly it is as if a noise no one can hear stops, the silence is that clean.  ... Sorry, that's as best I may explain.  There my vision goes awry, because as you step out of the circle, my Lady, eveone feels it.  Everyone turns to the gateway.  The Emperor is coming.  Near him all world-lines turn back on themseves, and there my vision goes awry.  But I see you freed, my Lady.  Someday.  For now these walls must be enough.  The ice cannot last forever, Lady.  You will see your Emperor again."  - [NEWLINE]  McCagge's Prophecy, Year 100 of the Age of Ice.</French>
+		<German>"Das ist, was ich sehe. Ich sehe Eure Bannzelle in Tr&#252;mmern. Der Kreis aus Blut und Salz wurde am ersten Tag des Rituals gelegt, er war der Anfang und ist nun das Ende. Ein Adept beugt sich herab und erzeugt eine L&#252;cke. Mit einem Mal ist es so, als w&#228;re ein T&#246;sen, das niemand h&#246;rt, vorbei, die Stille ist gereinigt. ... Es tut mir leid, aber besser kan ich es nicht beschreiben. Ab da wird meine Vision undeutlich, denn als Ihr, meine Prinzessin, den Bannkreis verlasst, sp&#252;rt es jeder. Jedermann wendet sich zum Tor. Der Imperator kommt. In seiner N&#228;he verschwimmen alle Zukunftslinien ineinander, daher wurde die Vision undeutlich. Doch ich sehe Euch frei, meine Prinzessin. ... Eines Tages. Denn bis dahin werden diese Mauern f&#252;r Euch genug sein m&#252;ssen. Das Eis kann nicht ewig w&#252;hren, Herrin. Ihr werdet Euren Imperator wiedersehen." - [NEWLINE]  Prophezeihung des McCagge, im Jahr 100 im Zeitalter des Eises.</German>
+		<Italian>"This is what I see.  I see the Wards fall.  The circle of blood and salt had been laid on the first day of the ritual, the first thing, and is now the end.  An adept reaches down and sweeps a break.  Suddenly it is as if a noise no one can hear stops, the silence is that clean.  ... Sorry, that's as best I may explain.  There my vision goes awry, because as you step out of the circle, my Lady, eveone feels it.  Everyone turns to the gateway.  The Emperor is coming.  Near him all world-lines turn back on themseves, and there my vision goes awry.  But I see you freed, my Lady.  Someday.  For now these walls must be enough.  The ice cannot last forever, Lady.  You will see your Emperor again."  - [NEWLINE]  McCagge's Prophecy, Year 100 of the Age of Ice.</Italian>
+		<Spanish>"This is what I see.  I see the Wards fall.  The circle of blood and salt had been laid on the first day of the ritual, the first thing, and is now the end.  An adept reaches down and sweeps a break.  Suddenly it is as if a noise no one can hear stops, the silence is that clean.  ... Sorry, that's as best I may explain.  There my vision goes awry, because as you step out of the circle, my Lady, eveone feels it.  Everyone turns to the gateway.  The Emperor is coming.  Near him all world-lines turn back on themseves, and there my vision goes awry.  But I see you freed, my Lady.  Someday.  For now these walls must be enough.  The ice cannot last forever, Lady.  You will see your Emperor again."  - [NEWLINE]  McCagge's Prophecy, Year 100 of the Age of Ice.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_LEVIATHAN_CREATION</Tag>
+		<English>Danalin sent out his Great Beast to protect his precious Aifon long ago when he could do nothing himself.  Now, not even the God knows what has happened to his people, and the Leviathan has been driven insane by whatever horrible act he bears sole witness to in the world.</English>
+		<French>Danalin sent out his Great Beast to protect his precious Aifon long ago when he could do nothing himself.  Now, not even the God knows what has happened to his people, and the Leviathan has been driven insane by whatever horrible act he bears sole witness to in the world.</French>
+		<German>Danalin sandte vor langer Zeit seine Gro&#223;e Bestie, seinem geliebten Aifon zu Schutze, da er selbst nichts f&#252;r ihn tun konnte. Heute wei&#223; nicht einmal der Gott, was aus seinem Volk geworden ist und der Leviathan verlor seinen Verstand, durch ein f&#252;chterliches Erlebnis, dessen einziger Zeuge in der Welt diese Gro&#223;e Bestie war.</German>
+		<Italian>Danalin sent out his Great Beast to protect his precious Aifon long ago when he could do nothing himself.  Now, not even the God knows what has happened to his people, and the Leviathan has been driven insane by whatever horrible act he bears sole witness to in the world.</Italian>
+		<Spanish>Danalin sent out his Great Beast to protect his precious Aifon long ago when he could do nothing himself.  Now, not even the God knows what has happened to his people, and the Leviathan has been driven insane by whatever horrible act he bears sole witness to in the world.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_LOKI_CREATION</Tag>
+		<English>Enigma to all who meet him, few think it is possible to understand Loki's intentions, let alone Loki himself.  His knack for escape is rivaled only by his propensity for trouble.  The only saving grace for Erebus is that he seems not to grow or develop, though this might mean that he shall also never die to leave the world in peace...</English>
+		<French>Enigma to all who meet him, few think it is possible to understand Loki's intentions, let alone Loki himself.  His knack for escape is rivaled only by his propensity for trouble.  The only saving grace for Erebus is that he seems not to grow or develop, though this might mean that he shall also never die to leave the world in peace...</French>
+		<German>F&#252;r alle, die ihn treffen, ist er ein R&#228;tsel, nur f&#252;r wenige ist es m&#246;glich, Lokis Absichten nachzuvollziehen, wahrscheinlich nicht mal ihm selbst. Sein Geschick, seinen H&#228;schern zu entgehen kommt seinem Hang nah, &#196;rger zu machen. Die einzige Erleichterung f&#252;r Erebus d&#252;rfte sein, dass er nicht lernt und w&#228;chst oder altert. Der Nachteil daran k&#246;nnte allerdings sein, dass das auch bedeutet, dass vielleicht die Welt niemals ihren Frieden finden kann, durch seinen ...</German>
+		<Italian>Enigma to all who meet him, few think it is possible to understand Loki's intentions, let alone Loki himself.  His knack for escape is rivaled only by his propensity for trouble.  The only saving grace for Erebus is that he seems not to grow or develop, though this might mean that he shall also never die to leave the world in peace...</Italian>
+		<Spanish>Enigma to all who meet him, few think it is possible to understand Loki's intentions, let alone Loki himself.  His knack for escape is rivaled only by his propensity for trouble.  The only saving grace for Erebus is that he seems not to grow or develop, though this might mean that he shall also never die to leave the world in peace...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_LOSHA_STRATEGY</Tag>
+		<English></English>
+		<French></French>
+		<German>"Hat sich das Unheil erst einmal zu Euch an den Tisch gesellt, bestellt es ein Bier nach dem anderen. Nun, ich ziehe Blut dem Hopfen vor.".</German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_LUCIAN_CREATION</Tag>
+		<English>A remarkable man amongst the Doviello in their present state, after the shattering of their tribes following the Age of Ice, Lucian is actually just a standard specimen of what his once noble people had been in the Ages now gone.</English>
+		<French>A remarkable man amongst the Doviello in their present state, after the shattering of their tribes following the Age of Ice, Lucian is actually just a standard specimen of what his once noble people had been in the Ages now gone.</French>
+		<German>Eigentlich ist Lucian nur ein bemerkenswertes Beispiel seines einst stolzen Volkes der Doviello, wie es vor Unzeiten existierte und jetzt verschwunden scheint, jetzt da sich die einzelnen St&#228;mme w&#228;hrend des Zeitalters des Eises in alle Winde vertreuten.</German>
+		<Italian>A remarkable man amongst the Doviello in their present state, after the shattering of their tribes following the Age of Ice, Lucian is actually just a standard specimen of what his once noble people had been in the Ages now gone.</Italian>
+		<Spanish>A remarkable man amongst the Doviello in their present state, after the shattering of their tribes following the Age of Ice, Lucian is actually just a standard specimen of what his once noble people had been in the Ages now gone.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MAGNADINE_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MARDERO_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MARGALARD_CREATION</Tag>
+		<English>Stories of the origin of Margalard are many and varied.  Oddest among them, and the most persistent claims that he arose from the ruins of a library which was destroyed in a freak magical catastrophe.  So wild are the tales, that few hunters believe he truly exists until they meet him personally.  Unfortunately at that point most hunters begin to have sympathy for the common Banana and forget everything except how nice it had been having skin for all those years up until now....</English>
+		<French>Stories of the origin of Margalard are many and varied.  Oddest among them, and the most persistent claims that he arose from the ruins of a library which was destroyed in a freak magical catastrophe.  So wild are the tales, that few hunters believe he truly exists until they meet him personally.  Unfortunately at that point most hunters begin to have sympathy for the common Banana and forget everything except how nice it had been having skin for all those years up until now....</French>
+		<German>Es gibt viele und vor allem viele unterschiedliche Geschichten &#252;ber die Herkunft von Margalard. Die seltsamste und gleichzeitig am meisten erz&#228;hlte behauptet, dass er sich aus den Ruinen einer Bibliothek erhoben hat, die durch eine sonderbare magische Katastrophe zerst&#246;rt worden war. Die Geschichten sind so unglaubw&#252;rdig, dass einige J&#228;ger erst an seine Existenz glauben, wenn sie ihm von Angesicht zu Angesicht gegen&#252;ber stehen. Ungl&#252;cklicherweise ist das auch der Zeitpunkt, wo sie beginnen, das Leid der Bananen verstehen, wenn ihnen die eigene Haut abgezogen wird ...</German>
+		<Italian>Stories of the origin of Margalard are many and varied.  Oddest among them, and the most persistent claims that he arose from the ruins of a library which was destroyed in a freak magical catastrophe.  So wild are the tales, that few hunters believe he truly exists until they meet him personally.  Unfortunately at that point most hunters begin to have sympathy for the common Banana and forget everything except how nice it had been having skin for all those years up until now....</Italian>
+		<Spanish>Stories of the origin of Margalard are many and varied.  Oddest among them, and the most persistent claims that he arose from the ruins of a library which was destroyed in a freak magical catastrophe.  So wild are the tales, that few hunters believe he truly exists until they meet him personally.  Unfortunately at that point most hunters begin to have sympathy for the common Banana and forget everything except how nice it had been having skin for all those years up until now....</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MAROS_CREATION</Tag>
+		<English>One of the stalwart lovers of the Underhome, Maros is a steadfast defender by any means.  If he decides to hold a city, it tends to stay held.</English>
+		<French>One of the stalwart lovers of the Underhome, Maros is a steadfast defender by any means.  If he decides to hold a city, it tends to stay held.</French>
+		<German>Durch seine unersch&#252;tterliche Liebe zu Unterheim ist Maros ohne Zweifel einer seiner standhaftesten Verteidiger. Wenn er beschlie&#223;t, dass eine Stadt nicht f&#228;llt, dann neigt diese dazu, nicht zu fallen.</German>
+		<Italian>One of the stalwart lovers of the Underhome, Maros is a steadfast defender by any means.  If he decides to hold a city, it tends to stay held.</Italian>
+		<Spanish>One of the stalwart lovers of the Underhome, Maros is a steadfast defender by any means.  If he decides to hold a city, it tends to stay held.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MARY_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German>Marie Morbus, die Verbreiterin der Seuche, der Seuche und nochmals der Seuche, wandelt auf Erebus. Das Armageddon r&#252;ckt n&#228;her. H&#252;tet Euch vor ihr, t&#246;tet sie oder umarmt sie. Aber eines k&#246;nnt Ihr nicht. Die Tatsache ihrer siechenden Existenz ignorieren.</German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MELANTE_CREATION</Tag>
+		<English>The Artful Governor.  Balancing desires against needs, powers against responsibilities, Melante controls while seeming to merely suggest.</English>
+		<French>The Artful Governor.  Balancing desires against needs, powers against responsibilities, Melante controls while seeming to merely suggest.</French>
+		<German>Die Listige Verwalterin und viertes Mitglied des Dunklen Konzils. Sie gleicht Notwendigkeit gegen Bedarf aus, Macht gegen Verantwortung, und kontrolliert alles, wobei sie wirkt, ales w&#252;rde sie dem&#252;tigst Vorschl&#228;ge unterbreiten.</German>
+		<Italian>The Artful Governor.  Balancing desires against needs, powers against responsibilities, Melante controls while seeming to merely suggest.</Italian>
+		<Spanish>The Artful Governor.  Balancing desires against needs, powers against responsibilities, Melante controls while seeming to merely suggest.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MESHABBER_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MESKWAKI_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MIQUIZTLI_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MITHRIL_GOLEM_CREATION</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MOKKA_CREATION</Tag>
+		<English>Once one of Mulcarn's favored minions, Mokka has recovered a relic from his Icy Master's previous reign and now seeks to carve out a holding for himself to restore glory to his tribe of Frostlings.</English>
+		<French>Once one of Mulcarn's favored minions, Mokka has recovered a relic from his Icy Master's previous reign and now seeks to carve out a holding for himself to restore glory to his tribe of Frostlings.</French>
+		<German>Einst war er einer der bevorzugten G&#252;nstlinge von Mulcarn, doch da er ein Relikt aus der Herrschaft seines einstigen eisigen Meisters in seinen Besitz bringen konnte, strebt er nun die Errichtung eines Reiches an, um seinem Stamm der Frostlinge den Ruhm vergangener Tage wiederzubringen.</German>
+		<Italian>Once one of Mulcarn's favored minions, Mokka has recovered a relic from his Icy Master's previous reign and now seeks to carve out a holding for himself to restore glory to his tribe of Frostlings.</Italian>
+		<Spanish>Once one of Mulcarn's favored minions, Mokka has recovered a relic from his Icy Master's previous reign and now seeks to carve out a holding for himself to restore glory to his tribe of Frostlings.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_MOTHER_CREATION</Tag>
+		<English>Oh Gods! She is free! Sing a song and raise your spider-paws! Mother is free! Mother is FREE!!!</English>
+		<French>Oh Dieux du Ciel ! Elle est libre ! Chantez, clamez votre joie, et levez les pattes, la Mère est libre ! La Mère est LIBRE !!!</French>
+		<German>"Oh G&#246;tter, sie ist frei! Jubelt ein Lied und hebt ein Spinnenbein, Mutter ist frei. Mutter ist frei"</German>
+		<Italian>Oh Gods! She is free! Sing a song and raise your spider-paws! Mother is free! Mother is FREE!!!</Italian>
+		<Spanish>Oh Gods! She is free! Sing a song and raise your spider-paws! Mother is free! Mother is FREE!!!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_SAILORS_DIRGE_CREATION</Tag>
+		<English>Long has the Sailor's Dirge roamed the seas.  Sailor's tell tales of the spirits of those who have died at sea being reborn as Dolphins to play in the wake of ships for eternity, but those who has borne witness to the Dirge know the truth of what awaits those who die at sea is far darker.</English>
+		<French>Le Requiem des Marins parcourt les mers depuis bien longtemps. Les marins racontent souvent que ceux qui décèdent en mer sont réincarnés en dauphins afin de jouer dans le sillage des navires pour l'éternité. Mais ceux qui ont croisé la route du Requiem connaissent le véritable destin des morts en mer. et il est bien plus sombre.</French>
+		<German>Lang hat das Schiff der Toten die Meere besegelt. Die Seel&#228;ute erz&#228;hlen Geschichten von den Seelen derer, die auf See gestorben und als Delphine wiedergeboren werden und f&#252;r alle Ewigkeit im Kielwasser von Schiffen spielen. Doch diejenigen, die sich dem Schiff der Toten verpflichtet haben, wissen um die viel dunklere Wahrheit, die diejenigen erwartet, die auf See sterben.</German>
+		<Italian>Long has the Sailor's Dirge roamed the seas.  Sailor's tell tales of the spirits of those who have died at sea being reborn as Dolphins to play in the wake of ships for eternity, but those who has borne witness to the Dirge know the truth of what awaits those who die at sea is far darker.</Italian>
+		<Spanish>Long has the Sailor's Dirge roamed the seas.  Sailor's tell tales of the spirits of those who have died at sea being reborn as Dolphins to play in the wake of ships for eternity, but those who has borne witness to the Dirge know the truth of what awaits those who die at sea is far darker.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_TEUTORIX_CREATION</Tag>
+		<English>Enlightened and well educated, Teutorix can see a future for Erebus in which Man triumphs over his own petty and base desires, casts aside the whims of the Gods, and harnesses the world for his own embetterment.  He seeks to drive the Overcouncil's course toward this vision.</English>
+		<French>Enlightened and well educated, Teutorix can see a future for Erebus in which Man triumphs over his own petty and base desires, casts aside the whims of the Gods, and harnesses the world for his own embetterment.  He seeks to drive the Overcouncil's course toward this vision.</French>
+		<German>Teutorix ist erleuchtet und gebildet, er kann die Zukunft von Erebus sehen, in der die Menschheit &#252;ber ihre armseligen und niederen Bed&#252;rfnisse triumphiert, den Launen der G&#246;tter zum Trotz und ihnen gleich Magie beherrscht und die Welt f&#252;r ihr eigenes Schicksal wappnet. Er strebt danach, die Richtung des Hohen Rates auf diesen Ziel zu einen.</German>
+		<Italian>Enlightened and well educated, Teutorix can see a future for Erebus in which Man triumphs over his own petty and base desires, casts aside the whims of the Gods, and harnesses the world for his own embetterment.  He seeks to drive the Overcouncil's course toward this vision.</Italian>
+		<Spanish>Enlightened and well educated, Teutorix can see a future for Erebus in which Man triumphs over his own petty and base desires, casts aside the whims of the Gods, and harnesses the world for his own embetterment.  He seeks to drive the Overcouncil's course toward this vision.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_EMPEROR_CREATION</Tag>
+		<English>"There was a clear, bright light coming from something out in the tall grass on the plain, and then the whole world seemed to bend toward it.  We waited in our lines and ranks, and watched when he rode up to the city.  He was tall, and so obviously a king!  No, and Emperor!  The armor was gold, but hard to look at.  It was like trying to meet the gaze of a god - just trying to look at him.  At least that's what it felt like to me.  The whole line wavered.  I think maybe we all took a step back.  Then the grass parted and the others came.  Some you could tell were there but you couldn't really see, but others you could.  Too well.  Uniforms tattered or just rags.  Weapons often broken or bent, armor dented.  But our uniforms.  Weapons made in our city.  Their eyes glowed in the sunset, or maybe, I guess, it was just light gleaming from exposed bone.  I know we took a step back, and then the whole line broke.  And so you find me here, friend, drinking the last of your wine while I still can."</English>
+		<French>"There was a clear, bright light coming from something out in the tall grass on the plain, and then the whole world seemed to bend toward it.  We waited in our lines and ranks, and watched when he rode up to the city.  He was tall, and so obviously a king!  No, and Emperor!  The armor was gold, but hard to look at.  It was like trying to meet the gaze of a god - just trying to look at him.  At least that's what it felt like to me.  The whole line wavered.  I think maybe we all took a step back.  Then the grass parted and the others came.  Some you could tell were there but you couldn't really see, but others you could.  Too well.  Uniforms tattered or just rags.  Weapons often broken or bent, armor dented.  But our uniforms.  Weapons made in our city.  Their eyes glowed in the sunset, or maybe, I guess, it was just light gleaming from exposed bone.  I know we took a step back, and then the whole line broke.  And so you find me here, friend, drinking the last of your wine while I still can."</French>
+		<German>"Es bildete sich ein klares, helles Licht irgendwo im hohen Gras der Ebene und pl&#246;tzlich bog sich die gesamte Welt ihm entgegen. Wir warteten in unseren Stellungen und Linien und beobachteten, wie ER zur Stadt hinauf ritt. Er war hochgewachsen und so offensichtlich ein K&#246;nig. Nein, ein Imperator! Die R&#252;stung war golden und es war schwer, sie zu betrachten. Als w&#252;rde man versuchen, dem Blick eines Gottes standzuhalten – so schwer war es, IHN zu betrachten. So f&#252;hlte es sich f&#252;r mich an. Die gesamte Schlachtline schlug Wellen. Ich glaube, wie alle wichen geschlossen einen Schritt zur&#252;ck. Dann teilte sich das Gras und die Anderen kamen. Man konnte sp&#252;ren, dass da jemand war, aber richtig sehen konnte man sie nicht. Ja, manche schon. Zu gut. Sie trugen zerissene Uniformen oder einfach nur Lumpen, ihre Waffen waren verbogen oder gebrochen, ihre R&#252;stungen bestanden nur aus Beulen. Und die Uniformen waren welche von uns! Die Waffen waren in unseren St&#228;dten geschmiedet worden! Ihre Augen gl&#252;hten oder vielleicht, was ich glaube, leuchtete auch einfach nur das Wei&#223; der entbl&#246;&#223;ten Knochen in der Sonne. Ich wei&#223;, dass wir alle einen Schritt zur&#252;ckwichen und dann brach unsere Schlachtformation auseinander. In Panik! Und so sitze ich hier, mein Freund, und trinke den letzten Rest deines Weins, so lange ich es noch kann."</German>
+		<Italian>"There was a clear, bright light coming from something out in the tall grass on the plain, and then the whole world seemed to bend toward it.  We waited in our lines and ranks, and watched when he rode up to the city.  He was tall, and so obviously a king!  No, and Emperor!  The armor was gold, but hard to look at.  It was like trying to meet the gaze of a god - just trying to look at him.  At least that's what it felt like to me.  The whole line wavered.  I think maybe we all took a step back.  Then the grass parted and the others came.  Some you could tell were there but you couldn't really see, but others you could.  Too well.  Uniforms tattered or just rags.  Weapons often broken or bent, armor dented.  But our uniforms.  Weapons made in our city.  Their eyes glowed in the sunset, or maybe, I guess, it was just light gleaming from exposed bone.  I know we took a step back, and then the whole line broke.  And so you find me here, friend, drinking the last of your wine while I still can."</Italian>
+		<Spanish>"There was a clear, bright light coming from something out in the tall grass on the plain, and then the whole world seemed to bend toward it.  We waited in our lines and ranks, and watched when he rode up to the city.  He was tall, and so obviously a king!  No, and Emperor!  The armor was gold, but hard to look at.  It was like trying to meet the gaze of a god - just trying to look at him.  At least that's what it felt like to me.  The whole line wavered.  I think maybe we all took a step back.  Then the grass parted and the others came.  Some you could tell were there but you couldn't really see, but others you could.  Too well.  Uniforms tattered or just rags.  Weapons often broken or bent, armor dented.  But our uniforms.  Weapons made in our city.  Their eyes glowed in the sunset, or maybe, I guess, it was just light gleaming from exposed bone.  I know we took a step back, and then the whole line broke.  And so you find me here, friend, drinking the last of your wine while I still can."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_WAR_MACHINE_CREATION</Tag>
+		<English>An oddity amongst the Doviello, this technological marvel mystifies engineers and archmages both with the complicated intertwining of the mystical and mundane.  Though in honesty few have more than a few moments to study the inner workings before placing their own insides on display as well...</English>
+		<French>An oddity amongst the Doviello, this technological marvel mystifies engineers and archmages both with the complicated intertwining of the mystical and mundane.  Though in honesty few have more than a few moments to study the inner workings before placing their own insides on display as well...</French>
+		<German>Dieses technologische Wunder ist f&#252;r die Doviello eine Kuriosit&#228;t, die Ingenieure und Erzmagier gleicherma&#223;en durch die Verquickung von Mystischem und Irdischem verzaubert. Eigentlich haben nur wenige die Gelegenheit, dass Innere  der Maschine zu studieren, bevor sie selbst ihr Innerstes nach au&#223;en pr&#228;sentieren. </German>
+		<Italian>An oddity amongst the Doviello, this technological marvel mystifies engineers and archmages both with the complicated intertwining of the mystical and mundane.  Though in honesty few have more than a few moments to study the inner workings before placing their own insides on display as well...</Italian>
+		<Spanish>An oddity amongst the Doviello, this technological marvel mystifies engineers and archmages both with the complicated intertwining of the mystical and mundane.  Though in honesty few have more than a few moments to study the inner workings before placing their own insides on display as well...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_THEMOCH_CREATION</Tag>
+		<English>Themoch sees all without being seen, hears all without being heard.</English>
+		<French>Themoch sees all without being seen, hears all without being heard.</French>
+		<German>Themoch, das dritte Mitglied des Dunklen Konzils, sieht alles, und alles, ohne gesehen zu werden. Er h&#246;rt alles, und alles, ohne geh&#246;rt zu werden.</German>
+		<Italian>Themoch sees all without being seen, hears all without being heard.</Italian>
+		<Spanish>Themoch sees all without being seen, hears all without being heard.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_VALIN_CREATION</Tag>
+		<English>One of the Bulwarks against Armageddon, Valin has seen much in his life, and realizes that he shall see far more.  He is quick to seek out battle for he realizes that if dealt with quickly and ruthlessly, he can save things from escalating beyond control.</English>
+		<French>One of the Bulwarks against Armageddon, Valin has seen much in his life, and realizes that he shall see far more.  He is quick to seek out battle for he realizes that if dealt with quickly and ruthlessly, he can save things from escalating beyond control.</French>
+		<German>Valin stellt eines der Bollwerke gegen das Armageddon dar und hat daher bereits viel in seinem Leben durchgemacht, und er wei&#223;, dass er noch weitaus mehr durchzumachen hat. Er sucht schnell den Kampf, da er wei&#223;, dass viele Probleme im Keim erstickt werden k&#246;nnen, wenn man schnell und unbarmherzig vorgeht. Dann, ja dann, verhindert man die Eskalation vieler unangenehmer Situationen.</German>
+		<Italian>One of the Bulwarks against Armageddon, Valin has seen much in his life, and realizes that he shall see far more.  He is quick to seek out battle for he realizes that if dealt with quickly and ruthlessly, he can save things from escalating beyond control.</Italian>
+		<Spanish>One of the Bulwarks against Armageddon, Valin has seen much in his life, and realizes that he shall see far more.  He is quick to seek out battle for he realizes that if dealt with quickly and ruthlessly, he can save things from escalating beyond control.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_WILBOMAN_CREATION</Tag>
+		<English>The last of his kind, Wilboman is seeking only to destroy whatever stands between this moment and his Master's rebirth.  For that will herald a return to the Age of his dominance.</English>
+		<French>The last of his kind, Wilboman is seeking only to destroy whatever stands between this moment and his Master's rebirth.  For that will herald a return to the Age of his dominance.</French>
+		<German>Als letztes seiner Art strebt Wilboman nichts anderes an, als alles zu zerst&#246;ren, was zwischen dem Jetzt und dem Moment der Wiedergeburt seines Herrn steht. Er k&#252;ndet von der R&#252;ckkehr des Zeitalters dessen Dominanz.</German>
+		<Italian>The last of his kind, Wilboman is seeking only to destroy whatever stands between this moment and his Master's rebirth.  For that will herald a return to the Age of his dominance.</Italian>
+		<Spanish>The last of his kind, Wilboman is seeking only to destroy whatever stands between this moment and his Master's rebirth.  For that will herald a return to the Age of his dominance.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_ARCANE_LACUNA</Tag>
+		<English>Blocks all other Civilizations from casting any spells for a short period</English>
+		<French>Blocks all other Civilizations from casting any spells for a short period</French>
+		<German>Hindert alle anderen Zivilisationen f&#252;r eine kurze Zeit am Ausprechen jedweden Zaubers</German>
+		<Italian>Blocks all other Civilizations from casting any spells for a short period</Italian>
+		<Spanish>Blocks all other Civilizations from casting any spells for a short period</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_ARDOR</Tag>
+		<English>Resets the amount of Great People Points required per new Great Person for the caster</English>
+		<French>Resets the amount of Great People Points required per new Great Person for the caster</French>
+		<German>Setzt den Z&#228;hler f&#252;r die Erschaffung Gro&#223;er Pers&#246;nlichkeiten f&#252;r das Volk des Zaubernden zur&#252;ck.</German>
+		<Italian>Resets the amount of Great People Points required per new Great Person for the caster</Italian>
+		<Spanish>Resets the amount of Great People Points required per new Great Person for the caster</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_RETRIBUTION</Tag>
+		<English>Damages all units with [LINK=literal]Demon[\LINK] or [LINK=literal]Undead[\LINK]</English>
+		<French>Damages all units with [LINK=literal]Demon[\LINK] or [LINK=literal]Undead[\LINK]</French>
+		<German>Sch&#228;digt alle [LINK=literal]d&#228;mon[\LINK]ischen oder [LINK=literal]untot[\LINK]en Einheiten</German>
+		<Italian>Damages all units with [LINK=literal]Demon[\LINK] or [LINK=literal]Undead[\LINK]</Italian>
+		<Spanish>Damages all units with [LINK=literal]Demon[\LINK] or [LINK=literal]Undead[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_GIFTS_OF_NANTOSUELTA</Tag>
+		<English>Creates a [LINK=literal]Golden Hammer[\LINK] in each of the caster's cities</English>
+		<French>Creates a [LINK=literal]Golden Hammer[\LINK] in each of the caster's cities</French>
+		<German>Erschafft einen [LINK=literal]Goldenen Hammer[\LINK] in jeder Stadt des Zaubernden</German>
+		<Italian>Creates a [LINK=literal]Golden Hammer[\LINK] in each of the caster's cities</Italian>
+		<Spanish>Creates a [LINK=literal]Golden Hammer[\LINK] in each of the caster's cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_GREATWORKS</Tag>
+		<English>Grants 100 [ICON_PRODUCTION] toward the current build order in every one of the caster's cities</English>
+		<French>Grants 100 [ICON_PRODUCTION] toward the current build order in every one of the caster's cities</French>
+		<German>Liefert 100 [ICON_PRODUCTION] f&#252;r das derzeitige Bauvorhaben in jeder Stadt des Zaubernden</German>
+		<Italian>Grants 100 [ICON_PRODUCTION] toward the current build order in every one of the caster's cities</Italian>
+		<Spanish>Grants 100 [ICON_PRODUCTION] toward the current build order in every one of the caster's cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_HYBOREMS_WHISPER</Tag>
+		<English>Provides the Infernal with a choice to take control of the top 3 non-Capital cities in the world with Ashen Veil present</English>
+		<French>Provides the Infernal with a choice to take control of the top 3 non-Capital cities in the world with Ashen Veil present</French>
+		<German>Macht es den Infernalen m&#246;glich, die drei gr&#246;&#223;ten St&#228;dte (nicht Hauptst&#228;dte) zu &#252;bernehmen, in denen der Aschfahle Schleier als Religion vertreten ist.</German>
+		<Italian>Provides the Infernal with a choice to take control of the top 3 non-Capital cities in the world with Ashen Veil present</Italian>
+		<Spanish>Provides the Infernal with a choice to take control of the top 3 non-Capital cities in the world with Ashen Veil present</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_LEGENDS</Tag>
+		<English>Provides 300 [ICON_CULTURE] in each of the caster's cities and settlements</English>
+		<French>Provides 300 [ICON_CULTURE] in each of the caster's cities and settlements</French>
+		<German>Erschafft 300 [ICON_CULTURE] in jeder Stadt UND Siedlung des Zaubernden</German>
+		<Italian>Provides 300 [ICON_CULTURE] in each of the caster's cities and settlements</Italian>
+		<Spanish>Provides 300 [ICON_CULTURE] in each of the caster's cities and settlements</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_MARCH_OF_THE_TREES</Tag>
+		<English>Creates a [LINK=literal]Treant[\LINK] from each [LINK=literal]Forest[\LINK] and [LINK=literal]Ancient Forest[\LINK] in the caster's territory.  The Treant will last for 5 turns, then become a [LINK=literal]New Forest[\LINK]</English>
+		<French>Crée un [LINK=literal]Homarbre[\LINK] dans chaque[LINK=literal]Forêt[\LINK] et [LINK=literal]Forêt ancestrale[\LINK] sur le territoire. Les Homarbres auront une durée de vie de 5 tours, à l'issue desquels ils deviendront une forêt naissante.</French>
+		<German>Erschafft einen Baumhirten aus jedem Wald und Altem Wald im Gebiet des Zaubernden. Die Baumhirten existieren f&#252;r f&#252;nf Runden und werden dann zu einem Jungen Wald.</German>
+		<Italian>Creates a [LINK=literal]Treant[\LINK] from each [LINK=literal]Forest[\LINK] and [LINK=literal]Ancient Forest[\LINK] in the caster's territory.  The Treant will last for 5 turns, then become a [LINK=literal]New Forest[\LINK]</Italian>
+		<Spanish>Creates a [LINK=literal]Treant[\LINK] from each [LINK=literal]Forest[\LINK] and [LINK=literal]Ancient Forest[\LINK] in the caster's territory.  The Treant will last for 5 turns, then become a [LINK=literal]New Forest[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_RAGING_SEAS</Tag>
+		<English>Damages all non-Lanun units which are near the oceans</English>
+		<French>Damages all non-Lanun units which are near the oceans</French>
+		<German>Alle Einheiten, die nicht zum Volk der Lanun geh&#246;ren, erhalten Schaden, wenn sie sich zum Zeitpunkt des Zaubers nahe der Ozeane aufhalten.</German>
+		<Italian>Damages all non-Lanun units which are near the oceans</Italian>
+		<Spanish>Damages all non-Lanun units which are near the oceans</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_RALLY</Tag>
+		<English>Creates a [LINK=literal]Demagog[\LINK] in each of the caster's Cities and on any [LINK=literal]Town[\LINK] they control</English>
+		<French>Creates a [LINK=literal]Demagog[\LINK] in each of the caster's Cities and on any [LINK=literal]Town[\LINK] they control</French>
+		<German>Erschafft einen Demagogen in jeder Stadt des Zaubernden und in jeder Kleinstadt unter dessen Kontrolle</German>
+		<Italian>Creates a [LINK=literal]Demagog[\LINK] in each of the caster's Cities and on any [LINK=literal]Town[\LINK] they control</Italian>
+		<Spanish>Creates a [LINK=literal]Demagog[\LINK] in each of the caster's Cities and on any [LINK=literal]Town[\LINK] they control</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_RELIGIOUS_FERVOR</Tag>
+		<English>Grants 1 Priest of the current State Religion in each of the caster's cities</English>
+		<French>Grants 1 Priest of the current State Religion in each of the caster's cities</French>
+		<German>Erschafft einen Geweihten der derzeitigen Staatsreligion in jeder Stadt des Zaubernden</German>
+		<Italian>Grants 1 Priest of the current State Religion in each of the caster's cities</Italian>
+		<Spanish>Grants 1 Priest of the current State Religion in each of the caster's cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_REVELRY</Tag>
+		<English>Starts a Golden Age</English>
+		<French>Débute un âge d'or</French>
+		<German>Beginnt ein Goldenes Zeitalter</German>
+		<Italian>Starts a Golden Age</Italian>
+		<Spanish>Starts a Golden Age</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_RIVER_OF_BLOOD</Tag>
+		<English>Increases the population in every city of the caster by 2, and decreases all other cities population by 2</English>
+		<French>Increases the population in every city of the caster by 2, and decreases all other cities population by 2</French>
+		<German>Die St&#228;dte aller anderen Zivilisationen verlieren +2 Bev&#246;lkerung, daf&#252;r wachsen alle St&#228;dte des Zaubernden um +2.</German>
+		<Italian>Increases the population in every city of the caster by 2, and decreases all other cities population by 2</Italian>
+		<Spanish>Increases the population in every city of the caster by 2, and decreases all other cities population by 2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_SANCTUARY</Tag>
+		<English>Evicts all other player's units from the caster's borders and prevents access to the caster's territory for 30 turns</English>
+		<French>Evicts all other player's units from the caster's borders and prevents access to the caster's territory for 30 turns</French>
+		<German>Verbannt alle Einheiten anderer V&#246;lker aus dem Gebiet des Zaubernden und verhindert das Betreten des Gebietes f&#252;r 30 Runden</German>
+		<Italian>Evicts all other player's units from the caster's borders and prevents access to the caster's territory for 30 turns</Italian>
+		<Spanish>Evicts all other player's units from the caster's borders and prevents access to the caster's territory for 30 turns</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_STASIS</Tag>
+		<English>Disables all Production, Growth and Research in other player's lands for a short while</English>
+		<French>Disables all Production, Growth and Research in other player's lands for a short while</French>
+		<German>Verhindert f&#252;r eine kurze Dauer jegliche Produktion, Wachstum und Forschung in den Gebieten anderer V&#246;lker</German>
+		<Italian>Disables all Production, Growth and Research in other player's lands for a short while</Italian>
+		<Spanish>Disables all Production, Growth and Research in other player's lands for a short while</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_TEMPEST</Tag>
+		<English>Temporarily Immobilizes enemy units in the caster's territory and generates [LINK=literal]Air Elementals[\LINK] which will last for a short while throughout the caster's territory</English>
+		<French>Temporarily Immobilizes enemy units in the caster's territory and generates [LINK=literal]Air Elementals[\LINK] which will last for a short while throughout the caster's territory</French>
+		<German>Macht feindliche Einheiten im Gebiet des Zaubernden vor&#252;bergehend unbeweglich und erschafft [LINK=literal]Luftelementare[\LINK], die f&#252;r eine gewisse Zeit auf dem Gebiet des Zaubernden entstehen</German>
+		<Italian>Temporarily Immobilizes enemy units in the caster's territory and generates [LINK=literal]Air Elementals[\LINK] which will last for a short while throughout the caster's territory</Italian>
+		<Spanish>Temporarily Immobilizes enemy units in the caster's territory and generates [LINK=literal]Air Elementals[\LINK] which will last for a short while throughout the caster's territory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_VEIL_OF_NIGHT</Tag>
+		<English>Grants all of the caster's units [LINK=literal]Hidden Nationality[\LINK]</English>
+		<French>Grants all of the caster's units [LINK=literal]Hidden Nationality[\LINK]</French>
+		<German>Gew&#228;hrt allen Einheiten des Zaubernden [LINK=literal]Versteckte Nationalit&#228;t[\LINK]</German>
+		<Italian>Grants all of the caster's units [LINK=literal]Hidden Nationality[\LINK]</Italian>
+		<Spanish>Grants all of the caster's units [LINK=literal]Hidden Nationality[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_WAKE_MOTHER</Tag>
+		<English>Creates [LINK=literal]Mother[\LINK] in the caster's capital</English>
+		<French>Creates [LINK=literal]Mother[\LINK] in the caster's capital</French>
+		<German>Erschafft [LINK=literal]Die Mutter[\LINK] in der Hauptstadt des Zaubernden</German>
+		<Italian>Creates [LINK=literal]Mother[\LINK] in the caster's capital</Italian>
+		<Spanish>Creates [LINK=literal]Mother[\LINK] in the caster's capital</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_WARCRY</Tag>
+		<English>Grants all the caster's units [LINK=literal]Warcry[\LINK]</English>
+		<French>Grants all the caster's units [LINK=literal]Warcry[\LINK]</French>
+		<German>Gew&#228;hrt allen Einheiten des Zaubernden [LINK=literal]Kriegsschrei[\LINK]</German>
+		<Italian>Grants all the caster's units [LINK=literal]Warcry[\LINK]</Italian>
+		<Spanish>Grants all the caster's units [LINK=literal]Warcry[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_WARPATH</Tag>
+		<English>Creates units for the caster in every city with a [LINK=literal]Council of the Warchief[\LINK]</English>
+		<French>Creates units for the caster in every city with a [LINK=literal]Council of the Warchief[\LINK]</French>
+		<German>Erschafft f&#252;r den Zaubernden Einheiten in jeder Stadt mit einem [LINK=literal]Rat der H&#228;uptlinge[\LINK]</German>
+		<Italian>Creates units for the caster in every city with a [LINK=literal]Council of the Warchief[\LINK]</Italian>
+		<Spanish>Creates units for the caster in every city with a [LINK=literal]Council of the Warchief[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_WILD_HUNT</Tag>
+		<English>Grants the caster a [LINK=literal]Wolf[\LINK] for every combat unit he already controls, with a strength based on the combat unit it spawns for</English>
+		<French>Grants the caster a [LINK=literal]Wolf[\LINK] for every combat unit he already controls, with a strength based on the combat unit it spawns for</French>
+		<German>Liefert dem Zaubernden einen [LINK=literal]Wolf[\LINK] für jede Milit&#228;reinheit, die er bereits kontrolliert, die St&#228;rke richtet sich nach der St&#228;rke dieser Einheit</German>
+		<Italian>Grants the caster a [LINK=literal]Wolf[\LINK] for every combat unit he already controls, with a strength based on the combat unit it spawns for</Italian>
+		<Spanish>Grants the caster a [LINK=literal]Wolf[\LINK] for every combat unit he already controls, with a strength based on the combat unit it spawns for</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_WORLDBREAK</Tag>
+		<English>Causes random destruction of improvements and starts fires throughout the world while damaging all units stationed in cities.  The Sheaim are unaffected, and the degree of damage is based on the current Armageddon Counter</English>
+		<French>Causes random destruction of improvements and starts fires throughout the world while damaging all units stationed in cities.  The Sheaim are unaffected, and the degree of damage is based on the current Armageddon Counter</French>
+		<German>Verursacht zuf&#228;lliges Zerst&#246;ren von Modernisierungen und l&#228;sst ein Feuer durch die Welt rasen, das alle Einheiten, die in einer Stadt stationiert sind, verletzt. Die Sheaim bleiben unber&#252;hrt, das Ausma&#223; des angerichteten Schadens h&#228;ngt vom dem Stand des Armageddonz&#228;hlers ab.</German>
+		<Italian>Causes random destruction of improvements and starts fires throughout the world while damaging all units stationed in cities.  The Sheaim are unaffected, and the degree of damage is based on the current Armageddon Counter</Italian>
+		<Spanish>Causes random destruction of improvements and starts fires throughout the world while damaging all units stationed in cities.  The Sheaim are unaffected, and the degree of damage is based on the current Armageddon Counter</Spanish>
+	</TEXT>
+</Civ4GameText>

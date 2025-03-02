@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!-- UnitClass Schema -->
+<Civ4UnitClassInfos xmlns="x-schema:Jotnar_CIV4UnitSchema.xml">
+	<UnitClassInfos>
+		
+		<UnitClassInfo>		<!-- GOTHI -->
+			<Type>UNITCLASS_GOTHI</Type>
+			<Description>Gothi</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_GOTHI</DefaultUnit>
+				<iMercenaryWeight>1</iMercenaryWeight>
+		</UnitClassInfo>
+		
+		<UnitClassInfo>		<!-- Voice of the Divine -->
+			<Type>UNITCLASS_VOICE_OF_THE_DIVINE</Type>
+			<Description>Voice of the Divine</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>4</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_VOICE_OF_THE_DIVINE</DefaultUnit>
+				<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_JOT_MOUTH_OF_THE_DIVINE</Type>
+			<Description>TXT_KEY_UNIT_JOT_MOUTH_OF_THE_DIVINE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_JOT_MOUTH_OF_THE_DIVINE</DefaultUnit>
+				<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+		
+		<UnitClassInfo>
+			<Type>UNITCLASS_EGRASS</Type>
+			<Description>TXT_KEY_UNIT_JOT_EGRASS</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_EGRASS</DefaultUnit>
+				<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+		
+		<UnitClassInfo>
+			<Type>UNITCLASS_REAVER</Type>
+			<Description>Reaver</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_REAVER</DefaultUnit>
+				<iMercenaryWeight>1</iMercenaryWeight>
+		</UnitClassInfo>
+		<UnitClassInfo>
+			<Type>UNITCLASS_FREEBOOTER</Type>
+			<Description>Freebooter</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_FREEBOOTER</DefaultUnit>
+				<iMercenaryWeight>1</iMercenaryWeight>
+		</UnitClassInfo>
+		
+	</UnitClassInfos>
+</Civ4UnitClassInfos>

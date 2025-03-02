@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Game Text - CIV Name -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_ALE</Tag>
+		<English>Ale</English>
+		<French>Bière</French>
+		<German>Bier</German>
+		<Italian>Birra</Italian>
+		<Spanish>Ale</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_ALE_PEDIA</Tag>
+		<English>Ale can only be produced by the Deruptus Brewing House national wonder, which might be useful for a slow early-game defensive empire that needs the extra happiness to expand. [LINK=LEADER_GOODREAU]Though, Ale provides more than just happiness...[\LINK]</English>
+		<French>La bière est produite à la Brasserie Deruptus (une merveille nationale).</French>
+		<German>Bier kann nur von dem Nationalwunder Brauerei der Deruptus produziert werden, which might be useful for a slow early-game defensive empire that needs the extra happiness to expand. [LINK=LEADER_GOODREAU]Though, Ale provides more than just happiness...[\LINK]</German>
+		<Italian>La birra può essere prodotta solo dalla meraviglia nazionale Birrificio Dereptus. La birra fornisce un bonus alla felicità. [LINK=LEADER_GOODREAU]Anche se, la birra può portare altro oltre la felicità...[\LINK]</Italian>
+		<Spanish>Ale can only be produced by the Deruptus Brewing House national wonder, which might be useful for a slow early-game defensive empire that needs the extra happiness to expand. [LINK=LEADER_GOODREAU]Though, Ale provides more than just happiness...[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_ASH</Tag>
+		<English>Infused Ash</English>
+		<French>
+			<Text>Cendres infusées</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Geklärte Asche</German>
+		<Italian>Cenere Infusa</Italian>
+		<Spanish>Infused Ash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_ASH_PEDIA</Tag>
+		<English>The Legion is known for burning almost all substances down into ash, letting the mages of D'tesh use it in their fell experiments.</English>
+		<French>La Légion est connue pour sa propension à brûler la quasi-totalité des substances, permettant ainsi aux mages de D'tesh d'en utiliser les cendres dans leurs sombres expériences.</French>
+		<German>Die Legion ist dafür bekannt, dass sie nahezu alles zu Asche verbrennen wird. Daraus können die Magier der D'tesh dann für ihrer seltsamen Experimente Nutzen ziehen.</German>
+		<Italian>La Legione è conosciuta per bruciare quasi tutte le sostanze in cenere, permettendo ai maghi di D'tesh di usarla per i loro crudeli esperimenti.</Italian>
+		<Spanish>The Legion is known for burning almost all substances down into ash, letting the mages of D'tesh use it in their fell experiments.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_BISON</Tag>
+		<English>Bison</English>
+		<French>Bison</French>
+		<German>Bison</German>
+		<Italian>Bisonte</Italian>
+		<Spanish>Bison</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_BISON_PEDIA</Tag>
+		<English>Bison are born without their trademark hump and horns and live for approximately twenty years. They grow to maturity at two to three years, although males continue to grow until about their seventh year. Adult bulls express a high degree of dominance competitiveness during mating season. Male bison fight for females and these fights often result in injury or death. After the bison mate, the herd splits up into smaller herds. Calves are born nine months after mating. The mothers take care of and nurse their young for a year. Male bison grow to as much as to 11.5 feet (3.5m) long, and 6.5 feet (2m) tall at the shoulder and can weigh up to 2200lbs (998 kg).</English>
+		<French>Les Bisons naissent sans leur bosse et leurs cornes reconnaissables, et vivent environ 20 ans. Ils atteignent l'âge adulte vers deux ou trois ans, même si les mâles continuent de grandir jusqu'à leur 7 ans. Les mâles expriment une forte tendance à la bagarre à la domination durant la saison des amours. Le Bison mâle se bat souvent pour les femelles et ces luttes se terminent souvent pour des blessures ou la mort. Après l'accouplement, le troupeau se sépare en troupeaux plus réduits. Les femelles vêlent 9 mois plus tard, et s'occupent et nourissent leurs petits pour un an. Les Bisons mâles peuvent atteindre 3,5 m de long et 2 m au garrot, et peuvent peser jusqu'à 1100 kg.</French>
+		<German>Bison are born without their trademark hump and horns and live for approximately twenty years. They grow to maturity at two to three years, although males continue to grow until about their seventh year. Adult bulls express a high degree of dominance competitiveness during mating season. Male bison fight for females and these fights often result in injury or death. After the bison mate, the herd splits up into smaller herds. Calves are born nine months after mating. The mothers take care of and nurse their young for a year. Male bison grow to as much as to 11.5 feet (3.5m) long, and 6.5 feet (2m) tall at the shoulder and can weigh up to 2200lbs (998 kg).</German>
+		<Italian>I bisonti nascono senza la loro caratteristice gobbe e corni e possono vivere per circa 20 anni. Diventano adulti intorno ai 2-3 anni, nonostante ciò i maschi continuano a crescere sino al loro settimo anno. I bisonti maschi adulti diventano particolarmente competitivi per il dominio durante la stagione degli accoppiamenti. Spesso questi scontri per le femmini si concludono con ferite o addirittura la morte. Dopo che si accoppiano la mandira principale si divide in mandrie più piccole. I vitelli nascono 9 mesi dopo l'accoppiamento e le madri si prendono cura del piccolo per un anno intero. I bisonti maschi possono arrivare ad essere lunghi 3.5m e alti, alla spalla, 2m  e pesare sino ai 998 kg.</Italian>
+		<Spanish>Bison are born without their trademark hump and horns and live for approximately twenty years. They grow to maturity at two to three years, although males continue to grow until about their seventh year. Adult bulls express a high degree of dominance competitiveness during mating season. Male bison fight for females and these fights often result in injury or death. After the bison mate, the herd splits up into smaller herds. Calves are born nine months after mating. The mothers take care of and nurse their young for a year. Male bison grow to as much as to 11.5 feet (3.5m) long, and 6.5 feet (2m) tall at the shoulder and can weigh up to 2200lbs (998 kg).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_BLEEDING_GOD_WINE</Tag>
+		<English>Bleeding God Wine</English>
+		<French>Vin des Dieux Hémophiles</French>
+		<German>Bleeding God Wine</German>
+		<Italian>Bleeding God Wine</Italian>
+		<Spanish>Bleeding God Wine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_BLEEDING_GOD_WINE_PEDIA</Tag>
+		<English>Bleeding Gods were once sea giants used by Danalin to defend his islands during the Godswar. But since Danalin has gone mad they have followed. Now these great towering creatures swim through the ocean eternally bleeding. Turning the water red in their wake, and usually shadowed by a herd of equally crazed sharks. The "Gods" bear little direct ill will toward humanity but will occasionally lash out at a ship, tearing it to pieces and dumping the sailors into the ocean where the sharks wait.[NEWLINE][NEWLINE] Bleeding God wine, said to be from the bloody water these creatures have passed through, is dangerous to gather and highly valued by the Balseraphs, and is said to cause madness. Patrian Mages used it ritually in sacrifices to Agares.</English>
+		<French>Bleeding Gods were once sea giants used by Danalin to defend his islands during the Godswar. But since Danalin has gone mad they have followed. Now these great towering creatures swim through the ocean eternally bleeding. Turning the water red in their wake, and usually shadowed by a herd of equally crazed sharks. The "Gods" bear little direct ill will toward humanity but will occasionally lash out at a ship, tearing it to pieces and dumping the sailors into the ocean where the sharks wait.[NEWLINE][NEWLINE] Bleeding God wine, said to be from the bloody water these creatures have passed through, is dangerous to gather and highly valued by the Balseraphs, and is said to cause madness. Patrian Mages used it ritually in sacrifices to Agares.</French>
+		<German>Bleeding Gods were once sea giants used by Danalin to defend his islands during the Godswar. But since Danalin has gone mad they have followed. Now these great towering creatures swim through the ocean eternally bleeding. Turning the water red in their wake, and usually shadowed by a herd of equally crazed sharks. The "Gods" bear little direct ill will toward humanity but will occasionally lash out at a ship, tearing it to pieces and dumping the sailors into the ocean where the sharks wait.[NEWLINE][NEWLINE] Bleeding God wine, said to be from the bloody water these creatures have passed through, is dangerous to gather and highly valued by the Balseraphs, and is said to cause madness. Patrian Mages used it ritually in sacrifices to Agares.</German>
+		<Italian>Bleeding Gods were once sea giants used by Danalin to defend his islands during the Godswar. But since Danalin has gone mad they have followed. Now these great towering creatures swim through the ocean eternally bleeding. Turning the water red in their wake, and usually shadowed by a herd of equally crazed sharks. The "Gods" bear little direct ill will toward humanity but will occasionally lash out at a ship, tearing it to pieces and dumping the sailors into the ocean where the sharks wait.[NEWLINE][NEWLINE] Bleeding God wine, said to be from the bloody water these creatures have passed through, is dangerous to gather and highly valued by the Balseraphs, and is said to cause madness. Patrian Mages used it ritually in sacrifices to Agares.</Italian>
+		<Spanish>Bleeding Gods were once sea giants used by Danalin to defend his islands during the Godswar. But since Danalin has gone mad they have followed. Now these great towering creatures swim through the ocean eternally bleeding. Turning the water red in their wake, and usually shadowed by a herd of equally crazed sharks. The "Gods" bear little direct ill will toward humanity but will occasionally lash out at a ship, tearing it to pieces and dumping the sailors into the ocean where the sharks wait.[NEWLINE][NEWLINE] Bleeding God wine, said to be from the bloody water these creatures have passed through, is dangerous to gather and highly valued by the Balseraphs, and is said to cause madness. Patrian Mages used it ritually in sacrifices to Agares.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CAMEL</Tag>
+		<English>Camel</English>
+		<French>Chameau</French>
+		<German>Kamel</German>
+		<Italian>Cammello</Italian>
+		<Spanish>Camel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CAMEL_PEDIA</Tag>
+		<English>Camels are even-toed ungulates within the genus Camelus. The dromedary, one-humped or Arabian camel has a single hump and is well known for its healthy low fat milk, and the Bactrian camel has two humps. They are native to the dry desert areas of western Asia, and central and east Asia, respectively.
+		The term camel is also used more broadly to describe any of the six camellike creatures in the family Camelidae: the two true camels, and the four South American camelids, the llama, alpaca, guanaco, and vicuña.
+		The average life expectancy of a camel is 40 to 50 years. A fully grown adult camel stands 1.85 m (6 ft 1 in) at the shoulder and 2.15 m (7 ft 1 in) at the hump. The hump rises about 30 inches (75 cm) out of its body. Camels can run up to 65 km/h (40 mph) in short bursts and sustain speeds of up to 40 km/h (25 mph).
+		Fossil evidence indicates that the ancestors of modern camels evolved in North America during the Palaeogene period, and later spread to most parts of Asia. Humans first domesticated camels before 2000 BC. The dromedary and the Bactrian camel are both still used for milk, meat, and as beasts of burden—the dromedary in western Asia and in Africa north of the sub-Saharan savannahs, and the Bactrian camel further to the north and east in central Asia.</English>
+		<French>Camels are even-toed ungulates within the genus Camelus. The dromedary, one-humped or Arabian camel has a single hump and is well known for its healthy low fat milk, and the Bactrian camel has two humps. They are native to the dry desert areas of western Asia, and central and east Asia, respectively.
+		The term camel is also used more broadly to describe any of the six camellike creatures in the family Camelidae: the two true camels, and the four South American camelids, the llama, alpaca, guanaco, and vicuña.
+		The average life expectancy of a camel is 40 to 50 years. A fully grown adult camel stands 1.85 m (6 ft 1 in) at the shoulder and 2.15 m (7 ft 1 in) at the hump. The hump rises about 30 inches (75 cm) out of its body. Camels can run up to 65 km/h (40 mph) in short bursts and sustain speeds of up to 40 km/h (25 mph).
+		Fossil evidence indicates that the ancestors of modern camels evolved in North America during the Palaeogene period, and later spread to most parts of Asia. Humans first domesticated camels before 2000 BC. The dromedary and the Bactrian camel are both still used for milk, meat, and as beasts of burden—the dromedary in western Asia and in Africa north of the sub-Saharan savannahs, and the Bactrian camel further to the north and east in central Asia.</French>
+		<German>Camels are even-toed ungulates within the genus Camelus. The dromedary, one-humped or Arabian camel has a single hump and is well known for its healthy low fat milk, and the Bactrian camel has two humps. They are native to the dry desert areas of western Asia, and central and east Asia, respectively.
+		The term camel is also used more broadly to describe any of the six camellike creatures in the family Camelidae: the two true camels, and the four South American camelids, the llama, alpaca, guanaco, and vicuña.
+		The average life expectancy of a camel is 40 to 50 years. A fully grown adult camel stands 1.85 m (6 ft 1 in) at the shoulder and 2.15 m (7 ft 1 in) at the hump. The hump rises about 30 inches (75 cm) out of its body. Camels can run up to 65 km/h (40 mph) in short bursts and sustain speeds of up to 40 km/h (25 mph).
+		Fossil evidence indicates that the ancestors of modern camels evolved in North America during the Palaeogene period, and later spread to most parts of Asia. Humans first domesticated camels before 2000 BC. The dromedary and the Bactrian camel are both still used for milk, meat, and as beasts of burden—the dromedary in western Asia and in Africa north of the sub-Saharan savannahs, and the Bactrian camel further to the north and east in central Asia.</German>
+		<Italian>Il cammello è un mammifero artiodattilo della famiglia dei camelidi. Il cammello possiede due gobbe, mentre il dromedario (suo parente) ne ha solo una. L'aspettativa di vita per un cammello e tra i 40 sino ai 50 anni. Un cammello completamente cresciuto è alto, alla spalla, 1.85m o  2.15m comprese le gobbe. Le gobbe spuntano per circa 75cm dal corpo. Il cammello viene allevato per il suo late, la sua carne e la sua pelle, oppure come bestia da soma. Si trovano in ambienti desertici o aridi</Italian>
+		<Spanish>Camels are even-toed ungulates within the genus Camelus. The dromedary, one-humped or Arabian camel has a single hump and is well known for its healthy low fat milk, and the Bactrian camel has two humps. They are native to the dry desert areas of western Asia, and central and east Asia, respectively.
+		The term camel is also used more broadly to describe any of the six camellike creatures in the family Camelidae: the two true camels, and the four South American camelids, the llama, alpaca, guanaco, and vicuña.
+		The average life expectancy of a camel is 40 to 50 years. A fully grown adult camel stands 1.85 m (6 ft 1 in) at the shoulder and 2.15 m (7 ft 1 in) at the hump. The hump rises about 30 inches (75 cm) out of its body. Camels can run up to 65 km/h (40 mph) in short bursts and sustain speeds of up to 40 km/h (25 mph).
+		Fossil evidence indicates that the ancestors of modern camels evolved in North America during the Palaeogene period, and later spread to most parts of Asia. Humans first domesticated camels before 2000 BC. The dromedary and the Bactrian camel are both still used for milk, meat, and as beasts of burden—the dromedary in western Asia and in Africa north of the sub-Saharan savannahs, and the Bactrian camel further to the north and east in central Asia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COTTON</Tag>
+		<English>Cotton</English>
+		<French>Coton</French>
+		<German>Baumwolle</German>
+		<Italian>Cotone</Italian>
+		<Spanish>Algodón</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_COW_PEDIA</Tag>
+		<English>A Letter on Cowing[NEWLINE][NEWLINE][NEWLINE]To my son Adonijah at the Nimarail School of the Arcane,[NEWLINE][NEWLINE]My son, I am writing to you to warn you of your future. Magic is a risky business! Too risky for a poor son of mine, I reckon. So I urge you to take up cowing instead. I’m a cower, and I have earned a great deal of money through the business. Haven’t you ever wondered why I have such a nice home for all the cows?[NEWLINE][NEWLINE]Cowing’s a respectable business, unlike that ‘death magic’ stuff your learning. Why raise the dead when you can raise a cow? Cows don’t hurt you; cows don’t attempt to kill you like those skeletons do. And if you like the death part of death magic, then there’s plenty of that in cowing, too! You even get to eat the cows you kill – or sell them for a profit. Dead cows are just as good as live cows, I say.[NEWLINE][NEWLINE]With cows you can do countless things, unlike death magic. With death magic all you can do raise the dead or summon some spirits or become a lich. With cows you can eat them, milk them, sell them live, sell them dead, sell their milk, you can even sell the sick ones to Balseraph noblemen to use as projectiles. Also, they warn you of coming storms. Does death magic do all those things? I think not.[NEWLINE][NEWLINE]I urge you, Adonijah, to drop out of school and become a cower.[NEWLINE][NEWLINE]Your loving father,[NEWLINE][NEWLINE]Nikud</English>
+		<French>A Letter on Cowing[NEWLINE][NEWLINE][NEWLINE]To my son Adonijah at the Nimarail School of the Arcane,[NEWLINE][NEWLINE]My son, I am writing to you to warn you of your future. Magic is a risky business! Too risky for a poor son of mine, I reckon. So I urge you to take up cowing instead. I’m a cower, and I have earned a great deal of money through the business. Haven’t you ever wondered why I have such a nice home for all the cows?[NEWLINE][NEWLINE]Cowing’s a respectable business, unlike that ‘death magic’ stuff your learning. Why raise the dead when you can raise a cow? Cows don’t hurt you; cows don’t attempt to kill you like those skeletons do. And if you like the death part of death magic, then there’s plenty of that in cowing, too! You even get to eat the cows you kill – or sell them for a profit. Dead cows are just as good as live cows, I say.[NEWLINE][NEWLINE]With cows you can do countless things, unlike death magic. With death magic all you can do raise the dead or summon some spirits or become a lich. With cows you can eat them, milk them, sell them live, sell them dead, sell their milk, you can even sell the sick ones to Balseraph noblemen to use as projectiles. Also, they warn you of coming storms. Does death magic do all those things? I think not.[NEWLINE][NEWLINE]I urge you, Adonijah, to drop out of school and become a cower.[NEWLINE][NEWLINE]Your loving father,[NEWLINE][NEWLINE]Nikud</French>
+		<German>A Letter on Cowing[NEWLINE][NEWLINE][NEWLINE]To my son Adonijah at the Nimarail School of the Arcane,[NEWLINE][NEWLINE]My son, I am writing to you to warn you of your future. Magic is a risky business! Too risky for a poor son of mine, I reckon. So I urge you to take up cowing instead. I’m a cower, and I have earned a great deal of money through the business. Haven’t you ever wondered why I have such a nice home for all the cows?[NEWLINE][NEWLINE]Cowing’s a respectable business, unlike that ‘death magic’ stuff your learning. Why raise the dead when you can raise a cow? Cows don’t hurt you; cows don’t attempt to kill you like those skeletons do. And if you like the death part of death magic, then there’s plenty of that in cowing, too! You even get to eat the cows you kill – or sell them for a profit. Dead cows are just as good as live cows, I say.[NEWLINE][NEWLINE]With cows you can do countless things, unlike death magic. With death magic all you can do raise the dead or summon some spirits or become a lich. With cows you can eat them, milk them, sell them live, sell them dead, sell their milk, you can even sell the sick ones to Balseraph noblemen to use as projectiles. Also, they warn you of coming storms. Does death magic do all those things? I think not.[NEWLINE][NEWLINE]I urge you, Adonijah, to drop out of school and become a cower.[NEWLINE][NEWLINE]Your loving father,[NEWLINE][NEWLINE]Nikud</German>
+		<Italian>A Letter on Cowing[NEWLINE][NEWLINE][NEWLINE]To my son Adonijah at the Nimarail School of the Arcane,[NEWLINE][NEWLINE]My son, I am writing to you to warn you of your future. Magic is a risky business! Too risky for a poor son of mine, I reckon. So I urge you to take up cowing instead. I’m a cower, and I have earned a great deal of money through the business. Haven’t you ever wondered why I have such a nice home for all the cows?[NEWLINE][NEWLINE]Cowing’s a respectable business, unlike that ‘death magic’ stuff your learning. Why raise the dead when you can raise a cow? Cows don’t hurt you; cows don’t attempt to kill you like those skeletons do. And if you like the death part of death magic, then there’s plenty of that in cowing, too! You even get to eat the cows you kill – or sell them for a profit. Dead cows are just as good as live cows, I say.[NEWLINE][NEWLINE]With cows you can do countless things, unlike death magic. With death magic all you can do raise the dead or summon some spirits or become a lich. With cows you can eat them, milk them, sell them live, sell them dead, sell their milk, you can even sell the sick ones to Balseraph noblemen to use as projectiles. Also, they warn you of coming storms. Does death magic do all those things? I think not.[NEWLINE][NEWLINE]I urge you, Adonijah, to drop out of school and become a cower.[NEWLINE][NEWLINE]Your loving father,[NEWLINE][NEWLINE]Nikud</Italian>
+		<Spanish>A Letter on Cowing[NEWLINE][NEWLINE][NEWLINE]To my son Adonijah at the Nimarail School of the Arcane,[NEWLINE][NEWLINE]My son, I am writing to you to warn you of your future. Magic is a risky business! Too risky for a poor son of mine, I reckon. So I urge you to take up cowing instead. I’m a cower, and I have earned a great deal of money through the business. Haven’t you ever wondered why I have such a nice home for all the cows?[NEWLINE][NEWLINE]Cowing’s a respectable business, unlike that ‘death magic’ stuff your learning. Why raise the dead when you can raise a cow? Cows don’t hurt you; cows don’t attempt to kill you like those skeletons do. And if you like the death part of death magic, then there’s plenty of that in cowing, too! You even get to eat the cows you kill – or sell them for a profit. Dead cows are just as good as live cows, I say.[NEWLINE][NEWLINE]With cows you can do countless things, unlike death magic. With death magic all you can do raise the dead or summon some spirits or become a lich. With cows you can eat them, milk them, sell them live, sell them dead, sell their milk, you can even sell the sick ones to Balseraph noblemen to use as projectiles. Also, they warn you of coming storms. Does death magic do all those things? I think not.[NEWLINE][NEWLINE]I urge you, Adonijah, to drop out of school and become a cower.[NEWLINE][NEWLINE]Your loving father,[NEWLINE][NEWLINE]Nikud</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DEER_ARCTIC</Tag>
+		<English>Arctic Deer</English>
+		<French>Caribou</French>
+		<German>Arktische Wildtiere</German>
+		<Italian>Renna</Italian>
+		<Spanish>Arctic Deer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DESERT_ROSE</Tag>
+		<English>Desert Rose</English>
+		<French>Rose du Désert</French>
+		<German>Desert Rose</German>
+		<Italian>Desert Rose</Italian>
+		<Spanish>Desert Rose</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_DESERT_ROSE_PEDIA</Tag>
+		<English>The Desert Rose is a rare desert plant which produces a poison that leaves its victims in excruciating pain that continues undiminished for the rest of their lives, and has no known cure. It is highly valued by the Council of Esus.</English>
+		<French>La rose du désert est une plante désertique rare, dont on extrait un terrible poison. L'atroce souffrance qu'il inflige à ses victimes persiste sans s'atténuer jusqu'à leur mort. Aucun antidote n'a été trouvé à ce jour. Ce poison est très apprécié du Conseil d'Esus.</French>
+		<German>The Desert Rose is a rare desert plant which produces a poison that leaves its victims in excruciating pain that continues undiminished for the rest of their lives, and has no known cure. It is highly valued by the Council of Esus.</German>
+		<Italian>The Desert Rose is a rare desert plant which produces a poison that leaves its victims in excruciating pain that continues undiminished for the rest of their lives, and has no known cure. It is highly valued by the Council of Esus.</Italian>
+		<Spanish>The Desert Rose is a rare desert plant which produces a poison that leaves its victims in excruciating pain that continues undiminished for the rest of their lives, and has no known cure. It is highly valued by the Council of Esus.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_FINE_CLOTHES</Tag>
+		<English>Fine Clothes</English>
+		<French>Vêtements de qualité</French>
+		<German>Wunderschöne Kleider</German>
+		<Italian>Vestiti Raffinati</Italian>
+		<Spanish>Fine Clothes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_FINE_CLOTHES_PEDIA</Tag>
+		<English>[TAB]Fine clothes can only be produced by the Kuriotate Tailor building.</English>
+		<French>[TAB]Les vêtements de qualité sont produits par le tailleur kuriotate.</French>
+		<German>[TAB]Wunderschöne Kleider können nur vom Tuchmacher der Kuriotaten produziert werden.</German>
+		<Italian>[TAB]I vestiti raffinati posso essere prodotti solo dall'edificio Sarto dei Kuriotate.</Italian>
+		<Spanish>[TAB]Fine clothes can only be produced by the Kuriotate Tailor building.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_FRUIT_OF_YGGDRASIL</Tag>
+		<English>Fruit of Yggdrasil</English>
+		<French>Fruit d'Yggdrasil</French>
+		<German>Frucht des Weltenbaumes Yggdrasil</German>
+		<Italian>Frutto di Yggdrasil</Italian>
+		<Spanish>Fruta de Yggdrasil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_FRUIT_OF_YGGDRASIL_PEDIA</Tag>
+		<English>The bounty of Yggdrasil is the finest of foods, said to offer increased strength and health to those that consume it. They grace the tables of kings and are offered to injured heroes to help speed their healing.</English>
+		<French>Le don d'Yggdrasil est la plus fine des nourritures, supposée donner une plus grande force et une meilleure santé à ceux qui le consomment. Ils honorent les tables des rois et sont offerts aux héros blessés pour accélérer leur guérison.</French>
+		<German>Die Gaben des Yggdrasil sind die feinste Nahrung. Angeblich verbessern sie die Kraft und Gesundheit derer, die sie essen. Diese Gaben schmücken die Tische der Könige und werden oft verletzten Helden angeboten, um deren Heilungsprozess zu beschleunigen.</German>
+		<Italian>I frutti di Yggdrasil sono i più raffinati di tutti i cibi, si dice conferiscano forza e benessere a coloro che li mangiano. Sono presenti sulle tavole dei re e vengono offerti agli eroi feriti per aiutarli a guarire.</Italian>
+		<Spanish>El don del Yggdrasil es el mejor de los alimentos, del que se dice que incrementa la fuerza y la vitalidad de aquellos que lo consumen. Adornan las mesas de los reyes y son ofrecidas a héroes heridos para acelerar su curación.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GULAGARM</Tag>
+		<English>Gulagarm</English>
+		<French>Gulagarm</French>
+		<German>Gulagarm</German>
+		<Italian>Gulagarm</Italian>
+		<Spanish>Gamogula</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GULAGARM_PEDIA</Tag>
+		<English>[TAB]The innocent berries are always ripe. But it is said that the soul of anyone who eats them will never be able to leave hell.</English>
+		<French>[TAB]Ces baies innocentes sont toujours mûres. Mais on dit que l'âme de quiconque en mange ne pourra jamais quitter l'Enfer.</French>
+		<German>[TAB]Die unschuldigen Beeren sind immer reif. Aber man sagt wer sie ißt, dessen Seele kann die Hölle nicht mehr verlassen.</German>
+		<Italian>[TAB]Queste innocenti bacche sono sempre mature. Ma si dice che l'anima di chiunque le mangi non potrà mai abbandonare l'inferno.</Italian>
+		<Spanish>[TAB]Las bayas de los inocentes siempre están maduras. Pero se dice que el alma de todo aquel que las coma nunca podrá salir del infierno.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GUNPOWDER</Tag>
+		<English>Gunpowder</English>
+		<French>Poudre à canon</French>
+		<German>Schwarzpulver</German>
+		<Italian>Polvere da Sparo</Italian>
+		<Spanish>Pólvora</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GUNPOWDER_PEDIA</Tag>
+		<English>Often known as Blasting Powder, Gunpowder is a new innovation of the Age of Rebirth, and some say it signals the coming of a new age without magic.</English>
+		<French>Souvent appelée Poudre Explosive, la Poudre à Canon est une innovation de l'Âge de la Renaissance et certains disent qu'elle est annonciatrice d'un nouvel âge sans magie.</French>
+		<German>Auch bekannt als "Sprengpulver" ist Schwarzpulver eine neue Erfindung des Zeitalters der Wiedergeburt, und manche denken, es würde ein neues Zeitalter der Magie einläuten.</German>
+		<Italian>Spesso conosciuta come Polvere Esplosiva, la Polvere da Sparo è un'invenzione dell'Era della Rinascità, e si dice che segni l'inizio di una nuova era senza magia.</Italian>
+		<Spanish>También conocida como Polvo Explosivo, la Pólvora es una nueva innovación de la Edad del Renacimiento, y hay quien dice que señala la llegada de una nueva edad sin magia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HYAPON</Tag>
+		<English>Hyapon</English>
+		<French>Hyapon</French>
+		<German>Hyapon</German>
+		<Italian>Hyapon</Italian>
+		<Spanish>Hyapon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_HYAPON_PEDIA</Tag>
+		<English>These majestic horses are both faster and stronger than normal horses. Though they are nearly impossible to capture and break, once they are mastered they make for the more prized mounts in Erebus outside of supernatural creatures like griffons and nightmares.</English>
+		<French>These majestic horses are both faster and stronger than normal horses. Though they are nearly impossible to capture and break, once they are mastered they make for the more prized mounts in Erebus outside of supernatural creatures like griffons and nightmares.</French>
+		<German>These majestic horses are both faster and stronger than normal horses. Though they are nearly impossible to capture and break, once they are mastered they make for the more prized mounts in Erebus outside of supernatural creatures like griffons and nightmares.</German>
+		<Italian>These majestic horses are both faster and stronger than normal horses. Though they are nearly impossible to capture and break, once they are mastered they make for the more prized mounts in Erebus outside of supernatural creatures like griffons and nightmares.</Italian>
+		<Spanish>These majestic horses are both faster and stronger than normal horses. Though they are nearly impossible to capture and break, once they are mastered they make for the more prized mounts in Erebus outside of supernatural creatures like griffons and nightmares.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_JETEYE</Tag>
+		<English>Jeteye</English>
+		<French>Jeteye</French>
+		<German>Jeteye</German>
+		<Italian>Jeteye</Italian>
+		<Spanish>Jeteye</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_JETEYE_PEDIA</Tag>
+		<English>An addictive drug that sedates and can cause horrible hallucinations, it turn the entire iris and sclera of the user black. It is administered by squirting the liquid inside the eyelid.[PARAGRAPH:2]The Nether Blade is stored in the Bay of Laurus and Os-Gabella ends up traveling to the city to attempt to find it and use it to end her immortal life. Before she does so she discovers the Jeteye dealers of the cities ports and finds some measure of escape in the delusions and opiate dreams the drug offers. Somewhere among the cities beggars the first human lives in squaller, once queen of the Sheaim, once grandmother to the Calabim, once unwilling bride to the god Nemed, her world is now little more than visions and dancing shadows. More than one man seeking to abuse or hurt the cities beggars has met his end when he assumed Os-Gabella was just another broken vagrant.</English>
+		<French>An addictive drug that sedates and can cause horrible hallucinations, it turn the entire iris and sclera of the user black. It is administered by squirting the liquid inside the eyelid.[PARAGRAPH:2]The Nether Blade is stored in the Bay of Laurus and Os-Gabella ends up traveling to the city to attempt to find it and use it to end her immortal life. Before she does so she discovers the Jeteye dealers of the cities ports and finds some measure of escape in the delusions and opiate dreams the drug offers. Somewhere among the cities beggars the first human lives in squaller, once queen of the Sheaim, once grandmother to the Calabim, once unwilling bride to the god Nemed, her world is now little more than visions and dancing shadows. More than one man seeking to abuse or hurt the cities beggars has met his end when he assumed Os-Gabella was just another broken vagrant.</French>
+		<German>An addictive drug that sedates and can cause horrible hallucinations, it turn the entire iris and sclera of the user black. It is administered by squirting the liquid inside the eyelid.[PARAGRAPH:2]The Nether Blade is stored in the Bay of Laurus and Os-Gabella ends up traveling to the city to attempt to find it and use it to end her immortal life. Before she does so she discovers the Jeteye dealers of the cities ports and finds some measure of escape in the delusions and opiate dreams the drug offers. Somewhere among the cities beggars the first human lives in squaller, once queen of the Sheaim, once grandmother to the Calabim, once unwilling bride to the god Nemed, her world is now little more than visions and dancing shadows. More than one man seeking to abuse or hurt the cities beggars has met his end when he assumed Os-Gabella was just another broken vagrant.</German>
+		<Italian>An addictive drug that sedates and can cause horrible hallucinations, it turn the entire iris and sclera of the user black. It is administered by squirting the liquid inside the eyelid.[PARAGRAPH:2]The Nether Blade is stored in the Bay of Laurus and Os-Gabella ends up traveling to the city to attempt to find it and use it to end her immortal life. Before she does so she discovers the Jeteye dealers of the cities ports and finds some measure of escape in the delusions and opiate dreams the drug offers. Somewhere among the cities beggars the first human lives in squaller, once queen of the Sheaim, once grandmother to the Calabim, once unwilling bride to the god Nemed, her world is now little more than visions and dancing shadows. More than one man seeking to abuse or hurt the cities beggars has met his end when he assumed Os-Gabella was just another broken vagrant.</Italian>
+		<Spanish>An addictive drug that sedates and can cause horrible hallucinations, it turn the entire iris and sclera of the user black. It is administered by squirting the liquid inside the eyelid.[PARAGRAPH:2]The Nether Blade is stored in the Bay of Laurus and Os-Gabella ends up traveling to the city to attempt to find it and use it to end her immortal life. Before she does so she discovers the Jeteye dealers of the cities ports and finds some measure of escape in the delusions and opiate dreams the drug offers. Somewhere among the cities beggars the first human lives in squaller, once queen of the Sheaim, once grandmother to the Calabim, once unwilling bride to the god Nemed, her world is now little more than visions and dancing shadows. More than one man seeking to abuse or hurt the cities beggars has met his end when he assumed Os-Gabella was just another broken vagrant.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_JEWELS</Tag>
+		<English>Jewelry</English>
+		<French>Bijoux</French>
+		<German>Schmuck</German>
+		<Italian>Gioielli</Italian>
+		<Spanish>Jewelry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_JEWELS_PEDIA</Tag>
+		<English>[TAB]Jewels can only be produced by the Kuriotate Jeweler building.</English>
+		<French>[TAB]Les bijoux sont taillés par le joaillier kuriotate.</French>
+		<German>[TAB]Schmuck kann nur vom Goldschmied der Kuriotaten produziert werden</German>
+		<Italian>[TAB]I gioielli possono essere prodotti solo dall'edificio Gioielliere dei Kuriotate.</Italian>
+		<Spanish>[TAB]Jewels can only be produced by the Kuriotate Jeweler building.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA</Tag>
+		<English>Mana</English>
+		<French>Mana</French>
+		<German>Mana</German>
+		<Italian>Mana</Italian>
+		<Spanish>Maná</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_AIR</Tag>
+		<English>Air Mana</English>
+		<French>Mana d'Air</French>
+		<German>Mana der Luft</German>
+		<Italian>Mana dell'Aria</Italian>
+		<Spanish>Maná de Aire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_AIR_PEDIA</Tag>
+		<English>Why do I like studying air magic? Oh sure, you don't get to hurl fireballs or raise the dead. But it's great fun. More an art then a science, really, with plenty of room for creativity. You can completely wing it, not learn a single formal spell, and still do well just by willpower and ingenuity. Besides, controlling the wind has many suprising uses, especially considering the length of most girl's skirts these days. -Adept Morin</English>
+		<French>Why do I like studying air magic? Oh sure, you don't get to hurl fireballs or raise the dead. But it's great fun. More an art then a science, really, with plenty of room for creativity. You can completely wing it, not learn a single formal spell, and still do well just by willpower and ingenuity. Besides, controlling the wind has many suprising uses, especially considering the length of most girl's skirts these days. -Adept Morin</French>
+		<German>Why do I like studying air magic? Oh sure, you don't get to hurl fireballs or raise the dead. But it's great fun. More an art then a science, really, with plenty of room for creativity. You can completely wing it, not learn a single formal spell, and still do well just by willpower and ingenuity. Besides, controlling the wind has many suprising uses, especially considering the length of most girl's skirts these days. -Adept Morin</German>
+		<Italian>Perché mi piace studiare la magia dell'aria? Vero, non lanci palle di fuoco o rianimi i morti. Ma è molto divertente. Più un'arte che una scienza, veramente, con cui puoi essere molto creativo. La puoi adattare, senza dover imparare una magia formale, e ottenere un buon risultato solo con forza di volonta e ingenuità. Inoltre, il controllare i venti può avere un sacco di usi, specialmente prendendo in considerazione la lunghezza delle gonne usate dalle ragazze in questi giorni. -Adepto Morin</Italian>
+		<Spanish>Why do I like studying air magic? Oh sure, you don't get to hurl fireballs or raise the dead. But it's great fun. More an art then a science, really, with plenty of room for creativity. You can completely wing it, not learn a single formal spell, and still do well just by willpower and ingenuity. Besides, controlling the wind has many suprising uses, especially considering the length of most girl's skirts these days. -Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_AIR_STRATEGY</Tag>
+		<English>Grants access to Air spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_FAIR_WINDS]Fair Winds[\LINK] and [LINK=SPELL_GUST_OF_WIND]Gust of Wind[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_MAELSTROM]Maelstorm[\LINK] and, for Austrin only [LINK=SPELL_SUMMON_PEGASUS]Summon Pegasus[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_AIR_ELEMENTAL]Summon Air Elemental[\LINK]. Owning multiple sources of this resource will increase the strength of [LINK=UNIT_SUMMON_AIR_ELEMENTAL]Air Elementals[\LINK] summoned by Archmages.</English>
+		<French>Donne accès aux sorts d'Air. Permet aux adeptes de lancer le sort Fair Winds. La force des élementaires d'air invoqués par les archimages croîtra avec le nombre de n&#156;uds contrôlés.</French>
+		<German>Ermöglicht Luftmagie. Erlaubt Adepten "Günstige Winde" zu zaubern. Zusätzliche Manaquellen dieser Art erhöhen die Stärke von Erzmagiern beschworenen Luftelementaren.</German>
+		<Italian>Fornisce accesso alle magie dell'Aria. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_FAIR_WINDS]Venti Favorevoli[\LINK] e [LINK=SPELL_GUST_OF_WIND]Folata di Vento[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_MAELSTROM]Maelstorm[\LINK] e, solo per gli Austrin, [LINK=SPELL_SUMMON_PEGASUS]Evoca Pegaso[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_SUMMON_AIR_ELEMENTAL]Evoca Elementale dell'Aria[\LINK]. Possedere fonti aggiuntive di questa risorsa aumenterà la forza degli [LINK=UNIT_AIR_ELEMENTAL]Elementali dell'Aria[\LINK] evocati dagli Arcimaghi.</Italian>
+		<Spanish>Grants access to Air spells. This will allow Adepts to cast Fair Winds. Additional sources of this resource will increase the strength of Air Elementals summoned by Archmages.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_BODY</Tag>
+		<English>Body Mana</English>
+		<French>Mana de Corps</French>
+		<German>Mana des Körpers</German>
+		<Italian>Mana del Corpo</Italian>
+		<Spanish>Maná de Cuerpo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_BODY_PEDIA</Tag>
+		<English>"Are all mages that... big?" "No, that's Tyr, the school's body magic specialist." "He must get a lot of ladies." "Actually, too much time around raw body mana has some unfortunate side-effects... You see, Tyr's actually a woman. Don't worry, it's a common mistake." -Adept Morin and his younger brother</English>
+		<French>"Are all mages that... big?" "No, that's Tyr, the school's body magic specialist." "He must get a lot of ladies." "Actually, too much time around raw body mana has some unfortunate side-effects... You see, Tyr's actually a woman. Don't worry, it's a common mistake." -Adept Morin and his younger brother</French>
+		<German>"Are all mages that... big?" "No, that's Tyr, the school's body magic specialist." "He must get a lot of ladies." "Actually, too much time around raw body mana has some unfortunate side-effects... You see, Tyr's actually a woman. Don't worry, it's a common mistake." -Adept Morin and his younger brother</German>
+		<Italian>"Tutti i maghi sono cosi... grandi?" "No, quello è Tyr, uno specialista della magia del corpo." "Deve avere un sacco di ragazze." "Vedi, passare troppo tempo vicino al mana del corpo grezzo ha qualche sfortunato effetto collatterale... Vedi, Tyr in verità è una donna. Non preoccuparti, è un errore comune." -Adepto Morin e suo fratello minore</Italian>
+		<Spanish>"Are all mages that... big?" "No, that's Tyr, the school's body magic specialist." "He must get a lot of ladies." "Actually, too much time around raw body mana has some unfortunate side-effects... You see, Tyr's actually a woman. Don't worry, it's a common mistake." -Adept Morin and his younger brother</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_BODY_STRATEGY</Tag>
+		<English>Grants access to Body spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_HASTE]Haste[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_REGENERATION]Regeneration[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_GRAFT_FLESH]Graft Flesh[\LINK]. Owning this resource will increase your unit's heal rates.</English>
+		<French>Donne accès aux sorts de Corps. Permet aux adeptes de lancer le sort Hâte. Les unités se soigneront plus vite grâce à ce mana.</French>
+		<German>Ermöglicht Körpermagie. Erlaubt Adepten "Hast" zu zaubern. Der Besitz dieser Manaquelle erhöht deine Heilrate.</German>
+		<Italian>Fornisce accesso alle magie del Corpo. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_HASTE]Rapidità[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_REGENERATION]Rigenerazione[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_GRAFT_FLESH]Scolpire Carne[\LINK]. Possedere questa risorsa aumenta il tasso di guarigione delle tue unità.</Italian>
+		<Spanish>Grants access to Body spells. This will allow Adepts to cast Haste. Owning this resource will increase your units' heal rates.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_CHAOS</Tag>
+		<English>Chaos Mana</English>
+		<French>Mana de Chaos</French>
+		<German>Mana des Chaos</German>
+		<Italian>Mana del Caos</Italian>
+		<Spanish>Maná de Caos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_CHAOS_PEDIA</Tag>
+		<English>Don't you see? Chaos is life! Without chaos, we would be nothing but clockwork men! But with chaos, life is interesting. Life is worth living. Some people waste their lives seeking order and stability. These people have no sense of fun. -Archmage Luke[NEWLINE][NEWLINE]That was awesome... -Archmage Luke, last words</English>
+		<French>Don't you see? Chaos is life! Without chaos, we would be nothing but clockwork men! But with chaos, life is interesting. Life is worth living. Some people waste their lives seeking order and stability. These people have no sense of fun. -Archmage Luke[NEWLINE][NEWLINE]That was awesome... -Archmage Luke, last words</French>
+		<German>Don't you see? Chaos is life! Without chaos, we would be nothing but clockwork men! But with chaos, life is interesting. Life is worth living. Some people waste their lives seeking order and stability. These people have no sense of fun. -Archmage Luke[NEWLINE][NEWLINE]That was awesome... -Archmage Luke, last words</German>
+		<Italian>Non vedi? Il caos è vita! Senza il caos, noi non sareme che automi! Ma con il caos, la vita è interessante. La vita è degna di essere vissuta. Alcune persone sprecano la loro vita cercando ordine e stabilità. Quelle persone non sanno divertirsi. -Arcimago Luke[NEWLINE][NEWLINE]Quello era fantastico... -Arcimago Luke, ultime parole</Italian>
+		<Spanish>Don't you see? Chaos is life! Without chaos, we would be nothing but clockwork men! But with chaos, life is interesting. Life is worth living. Some people waste their lives seeking order and stability. These people have no sense of fun. -Archmage Luke[NEWLINE][NEWLINE]That was awesome... -Archmage Luke, last words</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_CHAOS_STRATEGY</Tag>
+		<English>Grants access to Chaos spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_DANCE_OF_BLADES]Dance of Blades[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_MUTATION]Mutation[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_WONDER]Wonder[\LINK]. Owning this resource gives a small chance for any living unit built to start mutated.</English>
+		<French>Donne accès aux sorts de Chaos. Permet aux adeptes de lancer le sort Dance of Blades. Posséder ce mana donne une faible chance de créer des unités mutantes.</French>
+		<German>Ermöglicht Chaosmagie. Erlaubt Adepten "Klingentanz" zu zaubern. Der Besitz dieser Manaquelle gibt für jede Einheit eine geringe Chance mit der Beförderung "Mutiert" zu starten.</German>
+		<Italian>Fornisce accesso alle magie del Caos. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_DANCE_OF_BLADES]Danza delle Lame[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_MUTATION]Mutazione[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_WONDER]Portento[\LINK]. Possedere questa risorsa fornisce una piccola probabilità a ogni unità vivente che crei di iniziare mutata.</Italian>
+		<Spanish>Grants access to Chaos spells. This will allow Adepts to cast Dance of Blades. Owning this resource gives a small chance for any living unit built to start mutated.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_CREATION</Tag>
+		<English>Creation Mana</English>
+		<French>Mana de Création</French>
+		<German>Mana der Schöpfung</German>
+		<Italian>Mana della Creazione</Italian>
+		<Spanish>Creation Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_CREATION_PEDIA</Tag>
+		<English>Creation. To form something from the very ether itself is not an easy task, but it is beyond any doubt the greatest of any magical achievements. By channeling the power of Creation, and using it to power our own achievements, we defy the gods themselves, and prove what mortal minds are capable of.[PARAGRAPH:2][ITALICS]Aerith, Grigori Archmage</English>
+		<French>Creation. To form something from the very ether itself is not an easy task, but it is beyond any doubt the greatest of any magical achievements. By channeling the power of Creation, and using it to power our own achievements, we defy the gods themselves, and prove what mortal minds are capable of.[PARAGRAPH:2][ITALICS]Aerith, Grigori Archmage</French>
+		<German>Creation. To form something from the very ether itself is not an easy task, but it is beyond any doubt the greatest of any magical achievements. By channeling the power of Creation, and using it to power our own achievements, we defy the gods themselves, and prove what mortal minds are capable of.[PARAGRAPH:2][ITALICS]Aerith, Grigori Archmage</German>
+		<Italian>Creare. Creare qualcosa dal niente non è un impresa facile, ma è senza ombra di dubbio il più grande dei traguardi magici. Focalizzando il potere della Creazione, e usandolo per raggiungere i nostri obiettivi, sfidiamo gli dei stessi, e dimostriamo di cosa sono capaci le menti mortali.[PARAGRAPH:2][ITALICS]Aerith, Arcimago Grigori</Italian>
+		<Spanish>Creation. To form something from the very ether itself is not an easy task, but it is beyond any doubt the greatest of any magical achievements. By channeling the power of Creation, and using it to power our own achievements, we defy the gods themselves, and prove what mortal minds are capable of.[PARAGRAPH:2][ITALICS]Aerith, Grigori Archmage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_CREATION_STRATEGY</Tag>
+		<English>Allows access to Creation Spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_GROWTH]Growth[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_FERTILITY]Fertility[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_BIRTH]Birth[\LINK].</English>
+		<French>Donne accès aux sorts de Création</French>
+		<German>Erlaubt Schöpfungszauber.</German>
+		<Italian>Fornisce accesso alle magie della Creazione. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_GROWTH]Crescità[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_FERTILITY]Fertilità[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_BIRTH]Nascita[\LINK].</Italian>
+		<Spanish>Allows access to Creation Spells.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_DEATH</Tag>
+		<English>Death Mana</English>
+		<French>Mana de Mort</French>
+		<German>Mana des Todes</German>
+		<Italian>Mana della Morte</Italian>
+		<Spanish>Maná de Muerte</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_DEATH_PEDIA</Tag>
+		<English>They say that a necromancer needs the curiosity to follow the darkest paths, the courage to keep going when he realizes where that path leads, and a bit of insanity to keep from having nightmares about what he finds on the other side. This is true. But I assure you, the most important part of being a necromancer is public relations. For some reason, raising the dead is unpopular amongst the common folk. -Dasan, Necromancer</English>
+		<French>They say that a necromancer needs the curiosity to follow the darkest paths, the courage to keep going when he realizes where that path leads, and a bit of insanity to keep from having nightmares about what he finds on the other side. This is true. But I assure you, the most important part of being a necromancer is public relations. For some reason, raising the dead is unpopular amongst the common folk. -Dasan, Necromancer</French>
+		<German>They say that a necromancer needs the curiosity to follow the darkest paths, the courage to keep going when he realizes where that path leads, and a bit of insanity to keep from having nightmares about what he finds on the other side. This is true. But I assure you, the most important part of being a necromancer is public relations. For some reason, raising the dead is unpopular amongst the common folk. -Dasan, Necromancer</German>
+		<Italian>Dicono che un necromante ha bisogno della curiosità, per seguire i percorsi più oscuri, del coraggio per continuare quando quando realizza fin dove si sta spingendo, e di un pizzico di follia per non avere gli incubi riguardo a ciò che trova dall'altra parte. Tutto vero. Ma ti assicuro che la cosa più importante dell'essere un necromante sono le relazioni pubbliche. Per qualche ragione, rianimare i morti e impopolare tra la gente comune. -Dasan, Necromante</Italian>
+		<Spanish>They say that a necromancer needs the curiosity to follow the darkest paths, the courage to keep going when he realizes where that path leads, and a bit of insanity to keep from having nightmares about what he finds on the other side. This is true. But I assure you, the most important part of being a necromancer is public relations. For some reason, raising the dead is unpopular amongst the common folk. -Dasan, Necromancer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_DEATH_STRATEGY</Tag>
+		<English>Grants access to Death spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_RAISE_SKELETON]Raise Skeleton[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_SUMMON_SPECTRE]Summon Spectre[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_WRAITH]Summon Wraith[\LINK] and [LINK=SPELL_LICHDOM]Lichdom[\LINK]. Owning this resource will give you a diplomacy penalty with many leaders. Owning additional sources of this resource will increase the strength of any [LINK=UNIT_SPECTRE]Spectres[\LINK] summoned by Mages and [LINK=UNIT_WRAITH]Wraiths[\LINK] summoned by Archmages.</English>
+		<French>Donne accès aux sorts de Mort. Permet aux adeptes d'invoquer des squelettes. De nombreux dirigeants vous considèreront avec méfiance si vous utilisez ce mana. La force des spectres et wraiths invoqués par les mages croîtra avec le nombre de n&#156;uds contrôlés.</French>
+		<German>Ermöglicht Todesmagie. Erlaubt Adepten "Skelette zu erschaffen". Besitzer dieser Manaquelle erhalten einen kleinen Diplomalus gegenüber vielen Staatsoberhäuptern. Zusätzliche Manaquellen dieser Art erhöhen sowohl die Stärke von Magiern beschworenen Phantomen als auch von Erzmagiern beschworenen Gespenstern.</German>
+		<Italian>Fornisce accesso alle magie della Morte. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_RAISE_SKELETON]Rianima Scheletro[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_SUMMON_SPECTRE]Evoca Spettro[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_SUMMON_WRAITH]Evoca Wraith[\LINK] e [LINK=SPELL_LICHDOM]Diventa un Lich[\LINK]. Possedere questa risorsa comporterà un malus alle relazioni con molti leader. Possedere fonti aggiuntive di questa risorsa aumenterà la forza degli [LINK=UNIT_SPECTRE]Spettri[\LINK] evocati dai Maghi e dei [LINK=UNIT_WRAITH]Wraiths[\LINK] evocati dagli Arcimaghi.</Italian>
+		<Spanish>Grants access to Death spells. This will allow Adepts to cast Raise Skeleton. Owning this resource will give you a diplomacy penalty with many leaders. Owning additional sources of this resource will increase the strength of any Spectres summoned by Mages and Wraiths summoned by Archmages.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_DIMENSIONAL</Tag>
+		<English>Dimensional Mana</English>
+		<French>Mana Dimensionnel</French>
+		<German>Mana der Dimensionsmagie</German>
+		<Italian>Mana Dimensionale</Italian>
+		<Spanish>Dimensional Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_DIMENSIONAL_PEDIA</Tag>
+		<English>For Oghma's sake, never fall asleep in Archmage Drahm's class. Ever. Under any circumstances. Sleep before class, collapse after class, but not during his class. You see, Drahm has an evil sense of humor. And he's a master of bending the fabric of reality itself. Last time I fell asleep in his class, I woke up, spent ten minutes wondering how I'd ended up in the girls' bathroom, and then several hours trying to explain myself when Tyr walked in.[PARAGRAPH:2][ITALICS]Adept Morin</English>
+		<French>For Oghma's sake, never fall asleep in Archmage Drahm's class. Ever. Under any circumstances. Sleep before class, collapse after class, but not during his class. You see, Drahm has an evil sense of humor. And he's a master of bending the fabric of reality itself. Last time I fell asleep in his class, I woke up, spent ten minutes wondering how I'd ended up in the girls' bathroom, and then several hours trying to explain myself when Tyr walked in.[PARAGRAPH:2][ITALICS]Adept Morin</French>
+		<German>For Oghma's sake, never fall asleep in Archmage Drahm's class. Ever. Under any circumstances. Sleep before class, collapse after class, but not during his class. You see, Drahm has an evil sense of humor. And he's a master of bending the fabric of reality itself. Last time I fell asleep in his class, I woke up, spent ten minutes wondering how I'd ended up in the girls' bathroom, and then several hours trying to explain myself when Tyr walked in.[PARAGRAPH:2][ITALICS]Adept Morin</German>
+		<Italian>Per l'amor di Oghma, non addormentarti mai durante la lezione dell'Arcimago Drahm. Mai. In nessun caso. Dormi prima, svieni dopo, ma non durante la sua lezione. Vedi, Drahm ha un senso del humor crudele. E lui è un maestro a piegare la struttura della realtà stessa. L'ultima volta che mi sono addormentato durante la sua lezione mi sono svegliato passando 10 minuti cercando di capire come avevo fatto a finire nel bagno delle ragazze, per poi passare diverse ore cercando di spiegare il perché quando Tyr è entrata.[PARAGRAPH:2][ITALICS]Adepto Morin</Italian>
+		<Spanish>For Oghma's sake, never fall asleep in Archmage Drahm's class. Ever. Under any circumstances. Sleep before class, collapse after class, but not during his class. You see, Drahm has an evil sense of humor. And he's a master of bending the fabric of reality itself. Last time I fell asleep in his class, I woke up, spent ten minutes wondering how I'd ended up in the girls' bathroom, and then several hours trying to explain myself when Tyr walked in.[PARAGRAPH:2][ITALICS]Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_DIMENSIONAL_STRATEGY</Tag>
+		<English>Allows access to Dimensional Spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_ESCAPE]Escape[\LINK] and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_GATE]Gate[\LINK].</English>
+		<French>Donne accès aux sorts dimensionnels</French>
+		<German>Erlaubt Zugang zu Sprüchen der Dimensionsmagie.</German>
+		<Italian>Fornisce accesso alle magie Dimensionali. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_ESCAPE]Fuga[\LINK] e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_GATE]Portale[\LINK].</Italian>
+		<Spanish>Allows access to Dimensional Spells.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_EARTH</Tag>
+		<English>Earth Mana</English>
+		<French>Mana de Terre</French>
+		<German>Mana der Erde</German>
+		<Italian>Mana della Terra</Italian>
+		<Spanish>Maná de Tierra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_EARTH_PEDIA</Tag>
+		<English>You can tell a lot about a mage by their preferred sphere. Take Korven there. Earth adept. Not too bright, but honest. He's hardworking and a bit stubborn. He might not get the spell right the first time, but he'll try again until he can do it on a whim. It takes him twice as long to learn a spell, but when he gets the hang of it he'll do it twice as well. -Adept Morin</English>
+		<French>You can tell a lot about a mage by their preferred sphere. Take Korven there. Earth adept. Not too bright, but honest. He's hardworking and a bit stubborn. He might not get the spell right the first time, but he'll try again until he can do it on a whim. It takes him twice as long to learn a spell, but when he gets the hang of it he'll do it twice as well. -Adept Morin</French>
+		<German>You can tell a lot about a mage by their preferred sphere. Take Korven there. Earth adept. Not too bright, but honest. He's hardworking and a bit stubborn. He might not get the spell right the first time, but he'll try again until he can do it on a whim. It takes him twice as long to learn a spell, but when he gets the hang of it he'll do it twice as well. -Adept Morin</German>
+		<Italian>Si può capire molto di un mago dal suo campo preferito. Prendiamo Korven come esempio. Adepto della Terra. Non molto sveglio, ma onesto. È un grande lavoratore e anche un po testardo. Può non lanciare bene la magia la prima volta, ma lui riproverà fino a quando non riuscirà a farlo come un passatempo. Ci impiega il doppio del tempo a imparare una nuova magia, ma quando la impara la fa doppiamente meglio. -Adepto Morin</Italian>
+		<Spanish>You can tell a lot about a mage by their preferred sphere. Take Korven there. Earth adept. Not too bright, but honest. He's hardworking and a bit stubborn. He might not get the spell right the first time, but he'll try again until he can do it on a whim. It takes him twice as long to learn a spell, but when he gets the hang of it he'll do it twice as well. -Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_EARTH_STRATEGY</Tag>
+		<English>Grants access to Earth spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_WALL_OF_STONE]Wall of Stone[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_STONESKIN]Stoneskin[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_EARTH_ELEMENTAL]Summon Earth Elemental[\LINK]. Owning this resource will give an increased chance of finding metals from mines. Owning multiple sources of this resource will increase the strength of any [LINK=UNIT_EARTH_ELEMENTAL]Earth Elementals[\LINK] summoned by Archmages as well as your [LINK=UNIT_DWARVEN_DRUID]Dwarven Druids[\LINK].</English>
+		<French>Grants access to Earth spells. This will allow adepts to cast Wall of Stone. Owning this resource will give an increased chance of finding metals from mines. Owning multiple sources of this resource will increase the strength of any Earth Elementals summoned by Archmages as well as Dwarven Druids.</French>
+		<German>Grants access to Earth spells. This will allow adepts to cast Wall of Stone. Owning this resource will give an increased chance of finding metals from mines. Owning multiple sources of this resource will increase the strength of any Earth Elementals summoned by Archmages as well as Dwarven Druids.</German>
+		<Italian>Fornisce accesso alle magie della Terra. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_WALL_OF_STONE]Muro di Pietra[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_STONESKIN]Pelle di Pietra[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_SUMMON_EARTH_ELEMENTAL]Evoca Elementale della Terra[\LINK]. Possedere questa risorsa fornisce una probabilità aggiuntiva di trovare metalli dalle miniere. Possedere fonti aggiuntive di questa risorsa aumenterà la forza degli [LINK=UNIT_EARTH_ELEMENTAL]Elementali della Terra[\LINK] evocati dagli Arcimaghi cosi come quella dei tuoi [LINK=UNIT_DWARVEN_DRUID]Druidi Nanici[\LINK].</Italian>
+		<Spanish>Grants access to Earth spells. This will allow adepts to cast Wall of Stone. Owning this resource will give an increased chance of finding metals from mines. Owning multiple sources of this resource will increase the strength of any Earth Elementals summoned by Archmages as well as Dwarven Druids.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_ENCHANTMENT</Tag>
+		<English>Enchantment Mana</English>
+		<French>Mana d'Enchantement</French>
+		<German>Mana der Verzauberung</German>
+		<Italian>Mana da Incantamento</Italian>
+		<Spanish>Maná de Encantamiento</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_ENCHANTMENT_PEDIA</Tag>
+		<English>I don't consider myself a mage. You see, mages are arrogant. Half of them are useless fools who turn good food into daydreams, and the other half would blow up a city just to see what patterns the debris would make. I am a craftsman, who just happens to use magic to make swords sharper, hammers strike more true, and armor withstand more abuse then steel alone can.[PARAGRAPH:2][ITALICS]Flavius, Bannor enchanter</English>
+		<French>I don't consider myself a mage. You see, mages are arrogant. Half of them are useless fools who turn good food into daydreams, and the other half would blow up a city just to see what patterns the debris would make. I am a craftsman, who just happens to use magic to make swords sharper, hammers strike more true, and armor withstand more abuse then steel alone can.[PARAGRAPH:2][ITALICS]Flavius, Bannor enchanter</French>
+		<German>I don't consider myself a mage. You see, mages are arrogant. Half of them are useless fools who turn good food into daydreams, and the other half would blow up a city just to see what patterns the debris would make. I am a craftsman, who just happens to use magic to make swords sharper, hammers strike more true, and armor withstand more abuse then steel alone can.[PARAGRAPH:2][ITALICS]Flavius, Bannor enchanter</German>
+		<Italian>Io non mi considero un mago. Vedi, i maghi sono arroganti. Metà di loro sono inutili buffoni che trasformano del buon cibo in distrazioni, l'altra metà farebbe saltare in aria una città solo per vedere come si disporreberò i detriti. Io sono un artigiano, che guarda caso usa la magia per rendere più affilate le spade, far colpire più forte i martelli, e permettere alle armature di assorbire più colpi di quanto l'acciaio soltanto sia capace.[PARAGRAPH:2][ITALICS]Flavius, Incantatore Bannor</Italian>
+		<Spanish>I don't consider myself a mage. You see, mages are arrogant. Half of them are useless fools who turn good food into daydreams, and the other half would blow up a city just to see what patterns the debris would make. I am a craftsman, who just happens to use magic to make swords sharper, hammers strike more true, and armor withstand more abuse then steel alone can.[PARAGRAPH:2][ITALICS]Flavius, Bannor enchanter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_ENCHANTMENT_STRATEGY</Tag>
+		<English>Grants access to Enchantment spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_ENCHANTED_BLADE]Enchanted Blade[\LINK] and [LINK=SPELL_REPAIR]Repair[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_FLAMING_ARROWS]Flaming Arrows[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_ENCHANT_SPELLSTAFF]Enchant Spellstaff[\LINK]. Owning this resource may give a bonus to happiness.</English>
+		<French>Donne accès aux sorts d'Enchantement. Permet aux adeptes de lancer le sort Enchanted Blade. Ce mana agit aussi comme une source de bonheur pour la population.</French>
+		<German>Ermöglicht Verzauberungsmagie. Erlaubt Adepten "Letzter Schliff" zu zaubern. Dies zählt wie eine Glücklichkeitsressource.</German>
+		<Italian>Fornisce accesso alle magie da Incantamento. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_ENCHANTED_BLADE]Lama Incantata[\LINK] e [LINK=SPELL_REPAIR]Riparare[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_FLAMING_ARROWS]Frecce Infuocate[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_ENCHANT_SPELLSTAFF]Incanta Bastone Magico[\LINK]. Possedere questa risorsa può fornire un bonus alla felicità.</Italian>
+		<Spanish>Grants access to Enchantment spells. This will allow Adepts to cast Enchanted Blade. This also counts as a happiness resource.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_ENTROPY</Tag>
+		<English>Entropy Mana</English>
+		<French>Mana d'Entropie</French>
+		<German>Mana der Entropie</German>
+		<Italian>Mana dell'Entropia</Italian>
+		<Spanish>Maná de Entropía</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_ENTROPY_PEDIA</Tag>
+		<English>For any nonmagical process, you cannot get out more energy then you put in. At first, magic was assumed to be different; you could put in the effort of a few words and get raw energy out, more than you put in. Interestingly, we've been studying the inner workings of magic and have found that with every spell, a little power gets... lost. We even determined where that power ends up, and have recently managed to harness that "lost" power... -3rd entry in Archmage Fulton's journal[NEWLINE][NEWLINE]We live such short lives. A single death, a hundred deaths, a million deaths... I'd sacrifice them all. People live their pathetic little lives and then die. Nobody really matters on this dying rock. But I'd like to at least enjoy my time on this wretched world before I go to Hell. -12th entry in Archmage Fulton's journal</English>
+		<French>For any nonmagical process, you cannot get out more energy then you put in. At first, magic was assumed to be different; you could put in the effort of a few words and get raw energy out, more than you put in. Interestingly, we've been studying the inner workings of magic and have found that with every spell, a little power gets... lost. We even determined where that power ends up, and have recently managed to harness that "lost" power... -3rd entry in Archmage Fulton's journal[NEWLINE][NEWLINE]We live such short lives. A single death, a hundred deaths, a million deaths... I'd sacrifice them all. People live their pathetic little lives and then die. Nobody really matters on this dying rock. But I'd like to at least enjoy my time on this wretched world before I go to Hell. -12th entry in Archmage Fulton's journal</French>
+		<German>For any nonmagical process, you cannot get out more energy then you put in. At first, magic was assumed to be different; you could put in the effort of a few words and get raw energy out, more than you put in. Interestingly, we've been studying the inner workings of magic and have found that with every spell, a little power gets... lost. We even determined where that power ends up, and have recently managed to harness that "lost" power... -3rd entry in Archmage Fulton's journal[NEWLINE][NEWLINE]We live such short lives. A single death, a hundred deaths, a million deaths... I'd sacrifice them all. People live their pathetic little lives and then die. Nobody really matters on this dying rock. But I'd like to at least enjoy my time on this wretched world before I go to Hell. -12th entry in Archmage Fulton's journal</German>
+		<Italian>In ogni processo non magico non si può ottenere più energia di quanta non se ne inserisca. All'inizio si ipotizzava che la magia fosse diversa; con lo sforzo di qualche parola si ottiene energia grezza, più di quanto ne hai usata per le parole. È interessante notare che, mentre stavamo studiando i meccanismi interni della magia, con ogni magia un pò di potere viene... perduto. Siamo perfino riusciti a capire dove questo potere finisce, e recentemente siamo riusciti a imbrigliare questo potere "perduto"... -3° pagina del diario dell'Arcimago Fulton[NEWLINE][NEWLINE]Viviamo vite cosi corte. Una morte, cento morti, un milione di morti... Li sachrificherei tutti. La gente vive le loro piccole patetiche vite e poi muoiono. Nessuno conta davvero qualcosa su questa roccia morente. Mi piacerebbe godere del mio tempo su questo miserabile mondo prima di finire all'Inferno. -12° pagina del diario dell'Arcimago Fulton</Italian>
+		<Spanish>For any nonmagical process, you cannot get out more energy then you put in. At first, magic was assumed to be different; you could put in the effort of a few words and get raw energy out, more than you put in. Interestingly, we've been studying the inner workings of magic and have found that with every spell, a little power gets... lost. We even determined where that power ends up, and have recently managed to harness that "lost" power... -3rd entry in Archmage Fulton's journal[NEWLINE][NEWLINE]We live such short lives. A single death, a hundred deaths, a million deaths... I'd sacrifice them all. People live their pathetic little lives and then die. Nobody really matters on this dying rock. But I'd like to at least enjoy my time on this wretched world before I go to Hell. -12th entry in Archmage Fulton's journal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_ENTROPY_STRATEGY</Tag>
+		<English>Grants access to Entropy spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_RUST]Corrode[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_SUMMON_PIT_BEAST]Summon Pit Beast[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_WITHER]Wither[\LINK]. Owning this resources gives a diplomacy penalty with many leaders. Owning this resources also decrease healing of enemy units inside your borders.</English>
+		<French>Donne accès aux sorts d'Entropie. Permet aux adeptes de lancer le sort Rouille. De nombreux dirigeants vous considèreront avec méfiance si vous utilisez ce mana. Les unités ennemies sur vos terres se soigneront moins vite grâce à ce mana.</French>
+		<German>Ermöglicht Entropische Magie. Erlaubt Adepten "Atrophie" zu zaubern. Besitzer dieser Manaquelle erhalten einen kleinen Diplomalus gegenüber vielen Staatsoberhäuptern. Die Heilungsrate von feindlichen Einheiten innerhalb eurer Kulturgrenzen wird verringert.</German>
+		<Italian>Fornisce accesso alle magie dell'Entropia. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_RUST]Corrosione[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_SUMMON_PIT_BEAST]Evoca Bestia della Fossa[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_WITHER]Avvizzire[\LINK]. Possedere questa risorsa comporterà un malus alle relazioni con molti leader. Possedere questa risorsa diminuirà il tasso di guarigione delle unità nemiche all'interno dei tuoi confini.</Italian>
+		<Spanish>Grants access to Entropy spells. This will allow Adepts to cast Rust. Owning this resources gives a diplomacy penalty with many leaders. It will also decrease healing of enemy units in your borders.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_FIRE</Tag>
+		<English>Fire Mana</English>
+		<French>Mana de Feu</French>
+		<German>Mana des Feuers</German>
+		<Italian>Mana del Fuoco</Italian>
+		<Spanish>Maná de Fuego</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_FIRE_PEDIA</Tag>
+		<English>Mages. I used to laugh at them. Scrawny little buggers with words and chants and charms. Weaklings more interested in watching stars and experimenting than feeding their families. Then I saw one make it rain fire. I don't laugh at mages any more. -Thoros, Doviello warrior</English>
+		<French>Mages. I used to laugh at them. Scrawny little buggers with words and chants and charms. Weaklings more interested in watching stars and experimenting than feeding their families. Then I saw one make it rain fire. I don't laugh at mages any more. -Thoros, Doviello warrior</French>
+		<German>Mages. I used to laugh at them. Scrawny little buggers with words and chants and charms. Weaklings more interested in watching stars and experimenting than feeding their families. Then I saw one make it rain fire. I don't laugh at mages any more. -Thoros, Doviello warrior</German>
+		<Italian>Maghi. Ridevo di loro. Piccoli insettini pelle e ossa con parole, canti e amuleti. Deboli più interessati a guardare le stelle e sperimentare che a nutrire le loro famiglie. Poi ne ho visto uno far piovere fuoco. Ora non rido più dei maghi. -Thoros, Guerriero Doviello</Italian>
+		<Spanish>Mages. I used to laugh at them. Scrawny little buggers with words and chants and charms. Weaklings more interested in watching stars and experimenting than feeding their families. Then I saw one make it rain fire. I don't laugh at mages any more. -Thoros, Doviello warrior</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_FIRE_STRATEGY</Tag>
+		<English>Grants access to Fire spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_BLAZE]Blaze[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_FIREBALL]Fireball[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_FIRE_ELEMENTAL]Summon Fire Elemental[\LINK]. Owning multiple sources of this resource will increase the strength of any [LINK=UNIT_FIRE_ELEMENTAL]Fire Elementals[\LINK] summoned by Archmages.</English>
+		<French>Grants access to Fire spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_BLAZE]Blaze[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_FIREBALL]Fireball[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_FIRE_ELEMENTAL]Summon Fire Elemental[\LINK]. Owning multiple sources of this resource will increase the strength of any [LINK=UNIT_FIRE_ELEMENTAL]Fire Elementals[\LINK] summoned by Archmages.</French>
+		<German>Grants access to Fire spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_BLAZE]Blaze[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_FIREBALL]Fireball[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_FIRE_ELEMENTAL]Summon Fire Elemental[\LINK]. Owning multiple sources of this resource will increase the strength of any [LINK=UNIT_FIRE_ELEMENTAL]Fire Elementals[\LINK] summoned by Archmages.</German>
+		<Italian>Fornisce accesso alle magie del Fuoco. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_BLAZE]Fiammata[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_FIREBALL]Palla di Fuoco[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_SUMMON_FIRE_ELEMENTAL]Evoca Elementale del Fuoco[\LINK]. Possedere fonti aggiuntive di questa risorsa aumenterà la forza degli [LINK=UNIT_FIRE_ELEMENTAL]Elementali del Fuoco[\LINK] evocati dagli Arcimaghi.</Italian>
+		<Spanish>Grants access to Fire spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_BLAZE]Blaze[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_FIREBALL]Fireball[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_FIRE_ELEMENTAL]Summon Fire Elemental[\LINK]. Owning multiple sources of this resource will increase the strength of any [LINK=UNIT_FIRE_ELEMENTAL]Fire Elementals[\LINK] summoned by Archmages.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_FORCE</Tag>
+		<English>Force Mana</English>
+		<French>Mana de Force</French>
+		<German>Mana der Macht</German>
+		<Italian>Mana della Forza</Italian>
+		<Spanish>Force Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_FORCE_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_FORCE_STRATEGY</Tag>
+		<English>Allows access to Force Spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_ACCELERATE]Accelerate[\LINK] and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_WALL_OF_FORCE]Wall of Force[\LINK].</English>
+		<French>Donne accès aux sorts de Force</French>
+		<German>Erlaubt Machtzauber.</German>
+		<Italian>Fornisce accesso alle magie della Forza. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_ACCELERATE]Accelerare[\LINK] e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_WALL_OF_FORCE]Muro di Forza[\LINK].</Italian>
+		<Spanish>Allows access to Force Spells.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_ICE</Tag>
+		<English>Ice Mana</English>
+		<French>Mana de Glace</French>
+		<German>Mana des Eises</German>
+		<Italian>Mana del Ghiaccio</Italian>
+		<Spanish>Ice Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_ICE_PEDIA</Tag>
+		<English>If you're stuck taking an Ice Magic class, bring a coat, no matter how hot it is outside. Make sure it has a really thick hood, so you can use it as a pillow. Oh, sure, every so often that doddering fool does something impressive, but for the most part, you get to hear an old windbag complain about how he'd trudge twenty miles, uphill both ways, just for a chance to polish Kylorin's boots.[PARAGRAPH:2][ITALICS]Adept Morin</English>
+		<French>If you're stuck taking an Ice Magic class, bring a coat, no matter how hot it is outside. Make sure it has a really thick hood, so you can use it as a pillow. Oh, sure, every so often that doddering fool does something impressive, but for the most part, you get to hear an old windbag complain about how he'd trudge twenty miles, uphill both ways, just for a chance to polish Kylorin's boots.[PARAGRAPH:2][ITALICS]Adept Morin</French>
+		<German>If you're stuck taking an Ice Magic class, bring a coat, no matter how hot it is outside. Make sure it has a really thick hood, so you can use it as a pillow. Oh, sure, every so often that doddering fool does something impressive, but for the most part, you get to hear an old windbag complain about how he'd trudge twenty miles, uphill both ways, just for a chance to polish Kylorin's boots.[PARAGRAPH:2][ITALICS]Adept Morin</German>
+		<Italian>Se rimani bloccato durante una lezione di Magia del Ghiaccio portati un cappotto, non importa quanto è caldo fuori. Assicurati che abbia un cappuccio spesso, cosi da poterlo usare come cuscino. Oh, sicuro, ogni tanto quello stupido idiota fa qualcosa di impressionante, ma per la maggior parte delle volte senti un vecchio fanfarone lamentarsi sul fatto che lui doveva farsi 32 km, sempre in salita, solo per avere la possibilità di lucidare gli stivali di Kylorin.[PARAGRAPH:2][ITALICS]Adepto Morin</Italian>
+		<Spanish>If you're stuck taking an Ice Magic class, bring a coat, no matter how hot it is outside. Make sure it has a really thick hood, so you can use it as a pillow. Oh, sure, every so often that doddering fool does something impressive, but for the most part, you get to hear an old windbag complain about how he'd trudge twenty miles, uphill both ways, just for a chance to polish Kylorin's boots.[PARAGRAPH:2][ITALICS]Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_ICE_STRATEGY</Tag>
+		<English>Grants access to Ice spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_SLOW]Slow[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_SUMMON_ICE_ELEMENTAL]Summon Ice Elemental[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_FROZEN_LANDS]Frozen Lands[\LINK]. Owning multiple sources of this resource will increase the strength of any [LINK=UNIT_ICE_ELEMENTAL]Ice Elementals[\LINK] summoned by Archmages.</English>
+		<French>Donne accès aux sorts de Glace. Permet aux adeptes de lancer le sort Slow.</French>
+		<German>Ermöglicht Eismagie. Erlaubt Adepten "Verlangsamen" zu zaubern</German>
+		<Italian>Fornisce accesso alle magide del Ghiaccio. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_SLOW]Lentezza[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_SUMMON_ICE_ELEMENTAL]Evoca Elementale del Ghiaccio[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_FROZEN_LANDS]Lande Ghiacciate[\LINK]. Possedere fonti aggiuntive di questa risorsa aumenterà la forza degli [LINK=UNIT_ICE_ELEMENTAL]Elementali del Ghiaccio[\LINK] evocati dagli Arcimaghi.</Italian>
+		<Spanish>Grants access to Ice spells. This will allow Adepts to cast Slow.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_LAW</Tag>
+		<English>Law Mana</English>
+		<French>Mana de Loi</French>
+		<German>Mana der Ordnung</German>
+		<Italian>Mana della Legge</Italian>
+		<Spanish>Maná de Ley</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_LAW_PEDIA</Tag>
+		<English>The Law Magic class? By Oghma, I could barely stay awake through it. Those people are crazier than Balseraphs. No, I mean it. Anyone who, when given the almost limitless potentials of magic, chooses to can it up and bind it to a bunch of complicated and seemingly arbitrary laws is simply not right in the head. -Adept Morin</English>
+		<French>The Law Magic class? By Oghma, I could barely stay awake through it. Those people are crazier than Balseraphs. No, I mean it. Anyone who, when given the almost limitless potentials of magic, chooses to can it up and bind it to a bunch of complicated and seemingly arbitrary laws is simply not right in the head. -Adept Morin</French>
+		<German>The Law Magic class? By Oghma, I could barely stay awake through it. Those people are crazier than Balseraphs. No, I mean it. Anyone who, when given the almost limitless potentials of magic, chooses to can it up and bind it to a bunch of complicated and seemingly arbitrary laws is simply not right in the head. -Adept Morin</German>
+		<Italian>La lezione di Magia della Legge? Per Oghma, a stento non mi sono addormentato. Quelle persone sono più pazze dei Balseraph. No, sul serio. Chiunque che, fornitogli una magia dal potere quasi illimitato, decide di limitarlo e regolamentarlo seguendo una serie di complicate e, apparentemente, arbitrarie leggi ha qualcosa che non va in testa. -Adepto Morin</Italian>
+		<Spanish>The Law Magic class? By Oghma, I could barely stay awake through it. Those people are crazier than Balseraphs. No, I mean it. Anyone who, when given the almost limitless potentials of magic, chooses to can it up and bind it to a bunch of complicated and seemingly arbitrary laws is simply not right in the head. -Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_LAW_STRATEGY</Tag>
+		<English>Grants access to Law spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_LOYALTY]Loyalty[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_SUMMON_EINHERJAR]Summon Host Of The Einherjar[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_VALOR]Valor[\LINK]. Owning this resource will lower maintenance in all your cities.</English>
+		<French>Donne accès aux sorts de Loi. Permet aux adeptes de lancer le sort Loyauté. Ce mana diminuera les coûts d'entretien dans vos villes.</French>
+		<German>Ermöglicht Ordnungsmagie. Erlaubt Adepten "Loyalität" zu zaubern. Besitzer dieser Manaquelle haben geringere Unterhaltskosten in allen Städten.</German>
+		<Italian>Fornisce accesso alle magie della Legge. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_LOYALTY]Lealtà[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_SUMMON_EINHERJAR]Evoca Schiera di Einherjar[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_VALOR]Valore[\LINK]. Possedere questa risorsa abbasserà il manteninimento in tutte le tue città.</Italian>
+		<Spanish>Grants access to Law spells. This will allow Adepts to cast Loyalty. Owning this resource will lower maintenance in all cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_LIFE</Tag>
+		<English>Life Mana</English>
+		<French>Mana de Vie</French>
+		<German>Mana des Lebens</German>
+		<Italian>Mana della Vita</Italian>
+		<Spanish>Maná de Vida</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_LIFE_PEDIA</Tag>
+		<English>Some mages want to play with fire, toy with death, gamble with chaos. They called me a coward for sticking with the powers of life. They're all dead now, some slain by an assassin sent by one of their numerous enemies, some killed in their mad experiments, some corpses upon some gods-forsaken battlefield. I, meanwhile, have a beautiful wife, a fine estate in the country, three children, and an excellent retirment pension. -Mirthan, life mage</English>
+		<French>Some mages want to play with fire, toy with death, gamble with chaos. They called me a coward for sticking with the powers of life. They're all dead now, some slain by an assassin sent by one of their numerous enemies, some killed in their mad experiments, some corpses upon some gods-forsaken battlefield. I, meanwhile, have a beautiful wife, a fine estate in the country, three children, and an excellent retirment pension. -Mirthan, life mage</French>
+		<German>Some mages want to play with fire, toy with death, gamble with chaos. They called me a coward for sticking with the powers of life. They're all dead now, some slain by an assassin sent by one of their numerous enemies, some killed in their mad experiments, some corpses upon some gods-forsaken battlefield. I, meanwhile, have a beautiful wife, a fine estate in the country, three children, and an excellent retirment pension. -Mirthan, life mage</German>
+		<Italian>Qualche mago vuole giocare col fuoco, avere a che fare con la morte o rischiare con il caos. Loro mi danno del codardo per aver scelto i poteri della vita. Loro sono tutti morti, alcuni uccisi da un'assassino inviato da uno dei loro numerosi nemici, altri rimasti uccisi dai loro folli esperimenti, altri ancora morti su qualche campo di battagli dimenticato dagli dei. Io, intanto, ho una bellissima moglie, una bella villa in campagna, tre bambini, e un eccellente pensione. -Mirthan, mago della vita</Italian>
+		<Spanish>Some mages want to play with fire, toy with death, gamble with chaos. They called me a coward for sticking with the powers of life. They're all dead now, some slain by an assassin sent by one of their numerous enemies, some killed in their mad experiments, some corpses upon some gods-forsaken battlefield. I, meanwhile, have a beautiful wife, a fine estate in the country, three children, and an excellent retirment pension. -Mirthan, life mage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_LIFE_STRATEGY</Tag>
+		<English>Grants access to Life spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_SANCTIFY]Sanctify[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_DESTROY_UNDEAD]Banishment[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_RESURRECTION]Resurrection[\LINK] and [LINK=SPELL_RESURRECTION_GRAVEYARD]Resurrection (graveyard)[\LINK]. Owning this resource may give a bonus to health.</English>
+		<French>Donne accès aux sorts de Vie. Permet aux adeptes de lancer le sort Sanctifier. Ce mana agit aussi comme une source de bonne santé pour la population.</French>
+		<German>Ermöglicht Lebensmagie. Erlaubt Adepten "Heiligen" zu zaubern. Dies zählt wie eine Gesundheitsressource.</German>
+		<Italian>Fornisce accesso alle magie della Vita. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_SANCTIFY]Santificare[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_DESTROY_UNDEAD]Bandire[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_RESURRECTION]Resurrezione[\LINK] e [LINK=SPELL_RESURRECTION_GRAVEYARD]Resurrezione (cimitero)[\LINK]. Possedere questa risorsa può fornire un bonus alla salute.</Italian>
+		<Spanish>Grants access to Life spells. This will allow Adepts to cast Sanctify. This resource counts as a health resource.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_METAMAGIC</Tag>
+		<English>Metamagic Mana</English>
+		<French>Mana de Métamagie</French>
+		<German>Mana der Metamagie</German>
+		<Italian>Mana Metamagico</Italian>
+		<Spanish>Maná Metamágico</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_METAMAGIC_STRATEGY</Tag>
+		<English>Grants access to Metamagic spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_FLOATING_EYE]Floating Eye[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_DISPEL_MAGIC]Dispel Magic[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_DJINN]Summon Djinn[\LINK].</English>
+		<French>Donne accès aux sorts de Métamagie. Permet aux adeptes de lancer le sort Floating Eye.</French>
+		<German>Ermöglicht Metamagie. Erlaubt Adepten "Suchendes Auge" zu zaubern.</German>
+		<Italian>Fornisce accesso alle magie Metamagiche. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_FLOATING_EYE]Occhio Volante[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_DISPEL_MAGIC]Neutralizza Magie[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_SUMMON_DJINN]Evoca Djinn[\LINK].</Italian>
+		<Spanish>Grants access to Metamagic spells. This will allow Adepts to cast Floating Eye.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_MIND</Tag>
+		<English>Mind Mana</English>
+		<French>Mana de Pensée</French>
+		<German>Mana des Geistes</German>
+		<Italian>Mana della Mente</Italian>
+		<Spanish>Maná de Mente</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_MIND_PEDIA</Tag>
+		<English>I used to be paranoid, yeah. I thought everyone was out to get me, without any reason. So I decided I'd learn some magic, so nobody could stab me in the back. Now I can look into the deepest thoughts of those around me. And they all thought I was paranoid. Which I was. Now, however, I know they're not out to get me. Because I'm out to get them. -Bjorn, mage and amatuer assassin</English>
+		<French>I used to be paranoid, yeah. I thought everyone was out to get me, without any reason. So I decided I'd learn some magic, so nobody could stab me in the back. Now I can look into the deepest thoughts of those around me. And they all thought I was paranoid. Which I was. Now, however, I know they're not out to get me. Because I'm out to get them. -Bjorn, mage and amatuer assassin</French>
+		<German>I used to be paranoid, yeah. I thought everyone was out to get me, without any reason. So I decided I'd learn some magic, so nobody could stab me in the back. Now I can look into the deepest thoughts of those around me. And they all thought I was paranoid. Which I was. Now, however, I know they're not out to get me. Because I'm out to get them. -Bjorn, mage and amatuer assassin</German>
+		<Italian>Io ero paranoico, yeah. Credevo che chiunque volesse farmi del male, senza alcuna ragione. Cosi decisi di imparare un pò di magia, cosi che nessuno potesse pugnalarmi alle spalle. Ora posso leggere i pensieri più profondi di chi mi circonda. E tutti loro pensano che io ero paranoico. Lo ero. Ora, comunque, io so che non stanno cercando me. Perche sono io a cercare loro. -Bjorn, mago e assassino dilettante</Italian>
+		<Spanish>I used to be paranoid, yeah. I thought everyone was out to get me, without any reason. So I decided I'd learn some magic, so nobody could stab me in the back. Now I can look into the deepest thoughts of those around me. And they all thought I was paranoid. Which I was. Now, however, I know they're not out to get me. Because I'm out to get them. -Bjorn, mage and amatuer assassin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_MIND_STRATEGY</Tag>
+		<English>Grants access to Mind spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_INSPIRATION]Inspiration[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_CHARM_PERSON]Charm Person[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_DOMINATION]Domination[\LINK]. Owning this resource will give a small boost to the research of all your cities.</English>
+		<French>Donne accès aux sorts de Pensée. Permet aux adeptes de lancer le sort Inspiration. Ce mana augmentera la vitesse de recherche dans vos villes.</French>
+		<German>Ermöglicht Geistesmagie. Erlaubt Adepten "Beeindrucken" zu zaubern. Besitzer dieser Manaquelle erhalten einen kleinen Forschungsbonus in allen Städten.</German>
+		<Italian>Fornisce accesso alle magie della Mente. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_INSPIRATION]Ispirazione[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_CHARM_PERSON]Charme su Persone[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_DOMINATION]Dominazione[\LINK]. Possedere questa risorsa fornisce un piccolo bonus alla ricerca di tutte le città.</Italian>
+		<Spanish>Grants access to Mind spells. This will allow Adepts to cast Inspiration. Owning this resource will give a small boost to the research of all cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_NATURE</Tag>
+		<English>Nature Mana</English>
+		<French>Mana de Nature</French>
+		<German>Mana der Natur</German>
+		<Italian>Mana della Natura</Italian>
+		<Spanish>Maná de Naturaleza</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_NATURE_PEDIA</Tag>
+		<English>I tell ya, all the best looking girls in this school study nature magic. Don't ask me why, but they do. Now, I'd love to ask one out on a date, but the only time they're alone is when they meditate in the woods. Surrounded by woodland animals... including ones that would happily eat me. -Adept Morin</English>
+		<French>I tell ya, all the best looking girls in this school study nature magic. Don't ask me why, but they do. Now, I'd love to ask one out on a date, but the only time they're alone is when they meditate in the woods. Surrounded by woodland animals... including ones that would happily eat me. -Adept Morin</French>
+		<German>I tell ya, all the best looking girls in this school study nature magic. Don't ask me why, but they do. Now, I'd love to ask one out on a date, but the only time they're alone is when they meditate in the woods. Surrounded by woodland animals... including ones that would happily eat me. -Adept Morin</German>
+		<Italian>Te lo dico, tutte le ragazze più belle della scuola studiano la magia della natura. Non chiedermi il perché, ma è cosi. Ora, mi piacerebbe chiedere a una di loro un appuntamento, ma l'unico momento in cui sono da sole è quando meditano nelle foreste. Circondate dagli animali della foresta... compresi quelli che sarebberò felici di mangiarmi. -Adepto Morin</Italian>
+		<Spanish>I tell ya, all the best looking girls in this school study nature magic. Don't ask me why, but they do. Now, I'd love to ask one out on a date, but the only time they're alone is when they meditate in the woods. Surrounded by woodland animals... including ones that would happily eat me. -Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_NATURE_STRATEGY</Tag>
+		<English>Grants access to Nature spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_TREETOP_DEFENCE]Treetop Defence[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_POISONED_BLADE]Poisoned Blade[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_VITALIZE]Vitalize[\LINK] and [LINK=SPELL_VITALIZE_COMPANION]Drought[\LINK]. Owning additional sources of this resource will increase the strength of your [LINK=UNIT_DRUID]Druids[\LINK].</English>
+		<French>Donne accès aux sorts de Nature. Permet aux adeptes de lancer le sort Treetop Defense. La force de vos druides croîtra avec le nombre de n&#156;uds contrôlés.</French>
+		<German>Ermöglicht Naturmagie. Erlaubt Adepten "Wipfelwehr" zu zaubern. Zusätzliche Manaquellen dieser Art erhöhen die Stärke von Druiden.</German>
+		<Italian>Fornisce accesso alle magie della Natura. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_TREETOP_DEFENCE]Difesa delle Cime d'albero[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_POISONED_BLADE]Lama Avvelenata[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_VITALIZE]Vitalizza[\LINK] e [LINK=SPELL_VITALIZE_COMPANION]Siccità[\LINK]. Possedere fonti aggiuntive di questa risorsa aumenterà la forza dei tuoi [LINK=UNIT_DRUID]Druidi[\LINK].</Italian>
+		<Spanish>Grants access to Nature spells. This will allow Adepts to cast Treetop Defense. Owning additional sources of this resource will increase the strength of your Druids.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_PEDIA</Tag>
+		<English>It was the last day of my apprenticeship, the first day I could claim the title Adept. My master brought me to this hilltop and sat. By his silence, I knew he was awaiting the answer to an unasked question. This time, as usual, I didn't know what was expected of me. I looked around, searching. After a time, as he continued to gaze at me, I grew frustrated. I was about to speak, to ask for the riddle so I could begin to answer it, when suddenly I felt-nay, tasted the glorious stuff for the first time. The Ether. My eyes betrayed my ecstasy, and my master smirked knowingly. He arched his eyebrow. I answered, finally, with one word. "Power."</English>
+		<French>It was the last day of my apprenticeship, the first day I could claim the title Adept. My master brought me to this hilltop and sat. By his silence, I knew he was awaiting the answer to an unasked question. This time, as usual, I didn't know what was expected of me. I looked around, searching. After a time, as he continued to gaze at me, I grew frustrated. I was about to speak, to ask for the riddle so I could begin to answer it, when suddenly I felt-nay, tasted the glorious stuff for the first time. The Ether. My eyes betrayed my ecstasy, and my master smirked knowingly. He arched his eyebrow. I answered, finally, with one word. "Power."</French>
+		<German>Am letzten Tag meiner Ausbildung, gleichzeitig der erste Tag, an dem ich den Titel Adept tragen durfte, nahm mich mein Meister mit auf den Gipfel dieses Hügels. Er setzte sich nieder. Durch sein Schweigen wusste ich, dass er eine Antwort auf eine unausgesprochene Frage erwartete. Wie immer wusste ich nicht, was von mir erwartet wurde, also schaute ich mich suchend um. Nach einer Weile, während er mich fortwährend anstarrte, wurde ich ungeduldig. Ich öffnete meine Lippen, um nach der Aufgabe fragen, da spürte – nein kostete – ich es plötzlich zum ersten Mal. Den Äther. Mein Augen müssen meine Verzückung verraten haben, den mein Meister grinste vielsagend. Erwartungsvoll hob er seine Augenbrauen und ich antwortete mit einem einzigen Wort: "Macht".</German>
+		<Italian>Era l'ultimo giorno del mio apprendistato, il primo giorno in cui potevo fregiarmi del titolo di Adepto. Il mio maestro mi portò su questa collina e si sedette. Dal suo silenzio sapevo che stava aspettando una risposta a una domanda non posta. Quella volta, come al solito, non sapevo cosa si apettasse da me. Io guardavo in giro, cercando. Dopo un pò, mentre continuava a fissarmi, diventavo sempre più frustrato. Stavo per parlare, per chiedere quale fosse l'indovinello cosi da poter rispondere, quando all'improvviso percepii per la prima volta la sensazione gloriosa dell'etere. I miei occhi tradirono la mia estasi, e il mio maestro sorrise compiaciuto. Lui arcuò le sopracciglia. Io risposi, finalmente, con una parola. "Potere."</Italian>
+		<Spanish>It was the last day of my apprenticeship, the first day I could claim the title Adept. My master brought me to this hilltop and sat. By his silence, I knew he was awaiting the answer to an unasked question. This time, as usual, I didn't know what was expected of me. I looked around, searching. After a time, as he continued to gaze at me, I grew frustrated. I was about to speak, to ask for the riddle so I could begin to answer it, when suddenly I felt-nay, tasted the glorious stuff for the first time. The Ether. My eyes betrayed my ecstasy, and my master smirked knowingly. He arched his eyebrow. I answered, finally, with one word. "Power."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_STRATEGY</Tag>
+		<English>[TAB]Mana Nodes may be upgraded by any arcane unit, such as [LINK=UNIT_ADEPT]Adepts[\LINK], to provide any type of mana-once the appropriate technology is researched. Having access to mana of the appropriate type will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to learn spells of that type.</English>
+		<French>[TAB]Mana Nodes may be upgraded by any arcane unit, such as Adepts, to provide any type of mana-once the appropriate technology is researched. Having access to mana of the appropriate type will allow Adepts to learn spells of that type.</French>
+		<German>[TAB]Manaquellen aller Arten können von Bautrupps oder Adepten errichtet werden, wobei Adepten weniger Zeit dafür brauchen. Zugang zu bestimmten Mana-Arten befähigt Adepten, entsprechende Zauber zu erlernen.</German>
+		<Italian>[TAB]I Nodi di Mana possono essere migliorati dalle Unità Arcane, come gli [LINK=UNIT_ADEPT]Adepti[\LINK], per fornire ogni tipo di mana, una volta aver scoperta l'appropriata tecnologia. L'accesso a un tipo di mana permette agli [LINK=UNIT_ADEPT]Adepti[\LINK] di imparare magie di quel tipo.</Italian>
+		<Spanish>[TAB]Mana Nodes may be upgraded by any arcane unit, such as Adepts, to provide any type of mana-once the appropriate technology is researched. Having access to mana of the appropriate type will allow Adepts to learn spells of that type.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_SHADOW</Tag>
+		<English>Shadow Mana</English>
+		<French>Mana d'Ombre</French>
+		<German>Mana der Schatten</German>
+		<Italian>Mana dell'Ombra</Italian>
+		<Spanish>Maná Sombrío</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_SHADOW_STRATEGY</Tag>
+		<English>Grants access to Shadow spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_BLUR]Blur[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_SHADOWWALK]Shadowwalk[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_MISTFORM]Summon Mistform[\LINK]. Owning additional sources of this resource will increase the strength of any [LINK=UNIT_MISTFORM]Mistforms[\LINK] summoned by your Archmages as well as any [LINK=UNIT_SHADOWRIDER]Shadowriders[\LINK] you build.</English>
+		<French>Donne accès aux sorts d'Ombre. Permet aux adeptes de lancer le sort Blur. La force des Formes brumeuses invoqués par les archimages et de vos Chevaucheurs d'Ombre croîtra avec le nombre de n&#156;uds contrôlés.</French>
+		<German>Ermöglicht Schattenmagie. Erlaubt Adepten "Verschwimmen" zu zaubern. Zusätzliche Manaquellen dieser Art erhöhen die Stärke von Erzmagier beschworenen Nebelgeistern genauso wie von euch aufgestellten Schattenreitern.</German>
+		<Italian>Fornisce accesso alle magie dell'Ombra. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_BLUR]Sfocatura[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_SHADOWWALK]Passo d'Ombra[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_SUMMON_MISTFORM]Evoca Nebbiforme[\LINK]. Possedere fonti aggiuntive di questa risorsa aumenterà la forza delle [LINK=UNIT_MISTFORM]Nebbiforme[\LINK] evocate dai tuoi Arcimaghi come quella dei tuoi [LINK=UNIT_SHADOWRIDER]Cavalieri d'ombra[\LINK].</Italian>
+		<Spanish>Grants access to Shadow spells. This will allow Adepts to cast Blur. Owning additional sources of this resource will increase the strength of any Mistforms summoned by your Archmages as well as any Shadowriders you build.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_SPIRIT</Tag>
+		<English>Spirit Mana</English>
+		<French>Mana d'Esprit</French>
+		<German>Mana der Seele</German>
+		<Italian>Mana dello Spirito</Italian>
+		<Spanish>Maná de Espíritu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_SPIRIT_STRATEGY</Tag>
+		<English>Grants access to Spirit spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_COURAGE]Courage[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_HOPE]Hope[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_TRUST]Trust[\LINK]. Owning this resource will give a small boost Great Person growth of all your cities.</English>
+		<French>Donne accès aux sorts de la sphère d'Esprit. Cela permet aux adeptes de lancer Courage.</French>
+		<German>Ermöglicht Seelenmagie. Erlaubt Adepten "Heldenmut" zu zaubern.</German>
+		<Italian>Fornisce accesso alle magie dello Spirito. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_COURAGE]Coraggio[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_HOPE]Speranza[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_TRUST]Fiducia[\LINK]. Possedere questa risorsa fornisce un piccolo bonus al tasso di nascità dei Grandi Personaggi in tutte le tue città.</Italian>
+		<Spanish>Permite acceder a conjuros de Espíritu. Esto permitirá a los adeptos lanzar Coraje.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_SUN</Tag>
+		<English>Sun Mana</English>
+		<French>Mana de Soleil</French>
+		<German>Mana der Sonne</German>
+		<Italian>Mana del Sole</Italian>
+		<Spanish>Maná Solar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_SUN_STRATEGY</Tag>
+		<English>Grants access to Sun spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_SCORCH]Scorch[\LINK] and [LINK=SPELL_SUN_PERCEPTION]Illuminating Light[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_BLINDING_LIGHT]Blinding Light[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_AUREALIS]Summon Aurealis[\LINK]. Owning additional sources of this mana will increase the strength of any [LINK=UNIT_AUREALIS]Aurelii[\LINK] summoned by your Archmages.</English>
+		<French>Donne accès aux sorts de la sphère de Soleil.</French>
+		<German>Ermöglicht Sonnenmagie. Erlaubt Adepten "Versengen" zu zaubern.</German>
+		<Italian>Fornisce acesso alle magie del Sole. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_SCORCH]Bruciatura[\LINK] e [LINK=SPELL_SUN_PERCEPTION]Luce Rivelante[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_BLINDING_LIGHT]Luce Accecante[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_SUMMON_AUREALIS]Evoca Aurealis[\LINK]. Possedere fonti aggiuntive di questa risorsa aumenterà la forza degli [LINK=UNIT_AUREALIS]Aurealis[\LINK] evocati dai tuoi Arcimaghi.</Italian>
+		<Spanish>Permite acceder a conjuros Solares. ESto permitirá a los adeptos lanzar Quemar.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_WATER</Tag>
+		<English>Water Mana</English>
+		<French>Mana d'Eau</French>
+		<German>Mana des Wassers</German>
+		<Italian>Mana dell'Acqua</Italian>
+		<Spanish>Maná de Agua</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_WATER_PEDIA</Tag>
+		<English>"HORATIUS: What element could be mightier than water? It extinguishes the flames when all others perish before them. It gnaws ceaselessly at the earth, never tiring til in time it has worn even the greatest mountain down to the smallest speck of sand. Even the wind is its servant, scattering raindrops so that all may know its manifold blessings. With such power at our call, what threat could ever endanger our glorious republic?"[PARAGRAPH:2][ITALICS]Excerpt from The Vanity of the Aifons, Bernado Juvenal</English>
+		<French>"HORATIUS: What element could be mightier than water? It extinguishes the flames when all others perish before them. It gnaws ceaselessly at the earth, never tiring til in time it has worn even the greatest mountain down to the smallest speck of sand. Even the wind is its servant, scattering raindrops so that all may know its manifold blessings. With such power at our call, what threat could ever endanger our glorious republic?"[PARAGRAPH:2][ITALICS]Excerpt from The Vanity of the Aifons, Bernado Juvenal</French>
+		<German>"HORATIUS: What element could be mightier than water? It extinguishes the flames when all others perish before them. It gnaws ceaselessly at the earth, never tiring til in time it has worn even the greatest mountain down to the smallest speck of sand. Even the wind is its servant, scattering raindrops so that all may know its manifold blessings. With such power at our call, what threat could ever endanger our glorious republic?"[PARAGRAPH:2][ITALICS]Excerpt from The Vanity of the Aifons, Bernado Juvenal</German>
+		<Italian>"HORATIUS: Quale elemento potrebbe essere più poderosa dell'acqua? Essa estingue le fiamme quando tutti gli altri periscono. Essa rosicchia incessantemente la terra, senza mai stancarsi sino a quando non riduce anche la più grande delle montagne a un piccolo granello di sabbia. Persino il vento è il suo servo, distribuendo gocce di pioggia cosi che tutti possano conoscere le sue molteplici benedizioni. Con tale potere al nostro comando, quale pericolo potrebbe mai minacciare la nostra gloriosa repubblica?"[PARAGRAPH:2][ITALICS]Estratti da "Le vanità degli Aifon", Bernado Juvenal</Italian>
+		<Spanish>"HORATIUS: What element could be mightier than water? It extinguishes the flames when all others perish before them. It gnaws ceaselessly at the earth, never tiring til in time it has worn even the greatest mountain down to the smallest speck of sand. Even the wind is its servant, scattering raindrops so that all may know its manifold blessings. With such power at our call, what threat could ever endanger our glorious republic?"[PARAGRAPH:2][ITALICS]Excerpt from The Vanity of the Aifons, Bernado Juvenal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MANA_WATER_STRATEGY</Tag>
+		<English>Grants access to Water spells. This will allow [LINK=UNIT_ADEPT]Adepts[\LINK] to cast [LINK=SPELL_SPRING]Spring[\LINK] and [LINK=SPELL_DOUSING_TORRENT]Dousing Torrent[\LINK], [LINK=UNIT_MAGE]Mages[\LINK] to cast [LINK=SPELL_WATER_WALKING]Water Walking[\LINK], and [LINK=UNIT_ARCHMAGE]Archmage[\LINK] to cast [LINK=SPELL_SUMMON_WATER_ELEMENTAL]Summon Water Elemental[\LINK]. Owning additional sources of this resource will increase the strength of any [LINK=UNIT_WATER_ELEMENTAL]Water Elementals[\LINK] summoned by your Archmages.</English>
+		<French>Donne accès aux sorts de la sphère d'Eau. Cela permet aux adeptes de lancer Source.</French>
+		<German>Ermöglicht Wassermagie. Erlaubt Adepten "Frühling" zu zaubern.</German>
+		<Italian>Fornisce accesso alle magie dell'Acqua. Questo permetterà agli [LINK=UNIT_ADEPT]Adepti[\LINK] di lanciare [LINK=SPELL_SPRING]Sorgente[\LINK] and [LINK=SPELL_DOUSING_TORRENT]Versare Acqua[\LINK], ai [LINK=UNIT_MAGE]Maghi[\LINK] di lanciare [LINK=SPELL_WATER_WALKING]Camminare sull'Acqua[\LINK], e agli [LINK=UNIT_ARCHMAGE]Arcimaghi[\LINK] di lanciare [LINK=SPELL_SUMMON_WATER_ELEMENTAL]Evoca Elementale dell'Acqua[\LINK]. Possedere fonti aggiuntive di questa risorsa aumenterà la forza degli [LINK=UNIT_WATER_ELEMENTAL]Elementali dell'Acqua[\LINK] evocata dai tuoi Arcimaghi.</Italian>
+		<Spanish>Permite acceder a conjuros de Agua. Esto permitirá a los adeptos lanzar Manantial.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MITHRIL</Tag>
+		<English>Mithril</English>
+		<French>Mithril</French>
+		<German>Mithril</German>
+		<Italian>Mithril</Italian>
+		<Spanish>Mithril</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MITHRIL_PEDIA</Tag>
+		<English>[TAB]First discovered in the Age of Magic, Mithril is stronger and lighter than steel. Dwarves, the first to discover it, used to spread the rumor that the white metal was actually carved dragon bone and laughed as their competition marched off into dragon lairs to attempt to recover some. Today the tradition continues, but since the lairs hold many of the artifacts created during the Age of Magic, those lucky enough to survive the raids are often rewarded with the Mithril they were hunting.</English>
+		<French>[TAB]Découvert d'abord à l'Âge de Magie, le mithril est plus solide et plus clair que l'acier. Les nains, les premier à le découvrir, prirent l'habitude de répandre la rumeur que le métal blanc était de l'os de dragon sculpté et rirent de cette compétition à aller dans les repaires de dragon pour essayer d'en récupérer. Aujourd'hui la tradition continue, mais depuis que les trésors de dragons contiennent beaucoup d'objets fabriqués durant l'Âge de Magie, ceux assez fortunés pour survivre aux raids sont souvent récompensés avec le mithril qu'ils recherchaient.</French>
+		<German>[TAB]Im Zeitalter der Magie entdeckt, ist Mithril härter und leichter als Stahl. Die Zwerge, die es entdeckten, verbreiteten das Gerücht, das weiße Metall sei geschnitzter Drachenknochen und lachten, als ihre Konkurrenz die Drachenhöhlen durchsuchten, um etwas davon zu finden. Diese Tradition besteht auch heute noch, da es aber in Drachennestern viele Artefakte zu finden gibt, die während des Zeitalters der Magie geschaffen wurden, werden die Glücklichen, die die Raubzüge überleben, oftmals mit dem Mithril ausgezeichnet, welches sie suchten.</German>
+		<Italian>[TAB]Scoperto la prima volta nell'Era della Magia il Mithril è più resistente e leggero dell'acciaio. I Nani, i primi a scoprirlo, sparsero la voce che quel metallo bianco fosse in realtà osso di drago lavorato e risero quando la concorrenza entravano nei nascondigli dei draghi cercando di recuperarne un pò. Oggi la tradizione continua, ma siccome i nascondigli contengono molti degli artefatti creati durante l'Era della Magia coloro sufficentemente fortunati a sopravvivere alle esplorazioni sono spesso ricompensati con il Mithril che stavano cercando.</Italian>
+		<Spanish>[TAB]Descubierto por primera vez en la Edad de la Magia, el Mithril es más fuerte y ligero que el acero. Los Enanos, sus descubridores, lo utilizaron para difundir el rumor de que el metal blanco era hueso de dragon escarbado y se regocijaron mientras su competición se adentraba en lo profundo de los cubiles de los dragones para intentar coger un poco. Hoy la tradición continúa, pero desde que los cubiles empezaron a guardar muchos artefactos creados durante la Edad de la Magia, aquellos lo suficientemente afortunados que sobreviven a las incursiones también son recompensados con el Mithril que andaban buscando.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MUSHROOMS</Tag>
+		<English>Mushrooms</English>
+		<French>
+			<Text>Champignons</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Pilze</German>
+		<Italian>Funghi</Italian>
+		<Spanish>Mushrooms</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_MUSHROOMS_PEDIA</Tag>
+		<English>Mushrooms are commonly picked in the wild and used as food, especially to add great flavour. They are not real plants and can survive without light, provided there is enough organic matter to feed them. As such, they are farmed underground and are a main food in the Underhome. But almost every civilization has a favoured breed of mushrooms, as during the Age of Ice, when humans and non-humans alike were often forced to live underground, mushrooms were staples of their diet.</English>
+		<French>Mushrooms are commonly picked in the wild and used as food, especially to add great flavour. They are not real plants and can survive without light, provided there is enough organic matter to feed them. As such, they are farmed underground and are a main food in the Underhome. But almost every civilization has a favoured breed of mushrooms, as during the Age of Ice, when humans and non-humans alike were often forced to live underground, mushrooms were staples of their diet.</French>
+		<German>Mushrooms are commonly picked in the wild and used as food, especially to add great flavour. They are not real plants and can survive without light, provided there is enough organic matter to feed them. As such, they are farmed underground and are a main food in the Underhome. But almost every civilization has a favoured breed of mushrooms, as during the Age of Ice, when humans and non-humans alike were often forced to live underground, mushrooms were staples of their diet.</German>
+		<Italian>Mushrooms are commonly picked in the wild and used as food, especially to add great flavour. They are not real plants and can survive without light, provided there is enough organic matter to feed them. As such, they are farmed underground and are a main food in the Underhome. But almost every civilization has a favoured breed of mushrooms, as during the Age of Ice, when humans and non-humans alike were often forced to live underground, mushrooms were staples of their diet.</Italian>
+		<Spanish>Mushrooms are commonly picked in the wild and used as food, especially to add great flavour. They are not real plants and can survive without light, provided there is enough organic matter to feed them. As such, they are farmed underground and are a main food in the Underhome. But almost every civilization has a favoured breed of mushrooms, as during the Age of Ice, when humans and non-humans alike were often forced to live underground, mushrooms were staples of their diet.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_NIGHTMARE</Tag>
+		<English>Nightmare</English>
+		<French>Cauchemar</French>
+		<German>Höllenpferde</German>
+		<Italian>Incubo</Italian>
+		<Spanish>Pesadilla</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_NIGHTMARE_PEDIA</Tag>
+		<English>It's a horse. We've fought demons, dragons and liches, and you're scared of a horse? I mean, really, a horse is a horse, even in these blasted lands. I'm just gonna offer her an apple and see what happens. -Private Mortimer, last words</English>
+		<French>It's a horse. We've fought demons, dragons and liches, and you're scared of a horse? I mean, really, a horse is a horse, even in these blasted lands. I'm just gonna offer her an apple and see what happens. -Private Mortimer, last words</French>
+		<German>It's a horse. We've fought demons, dragons and liches, and you're scared of a horse? I mean, really, a horse is a horse, even in these blasted lands. I'm just gonna offer her an apple and see what happens. -Private Mortimer, last words</German>
+		<Italian>È un cavallo. Abbiamo combattuto demoni, draghi e lich, e tu sei spaventato da un cavallo? Intendo, sul serio, un cavallo è un cavallo, anche in queste terre devastate. Sto andando a offrirgli una mela e vedere cosa succede. -Soldato Mortimer, ultime parole</Italian>
+		<Spanish>It's a horse. We've fought demons, dragons and liches, and you're scared of a horse? I mean, really, a horse is a horse, even in these blasted lands. I'm just gonna offer her an apple and see what happens. -Private Mortimer, last words</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_OBSIDIAN</Tag>
+		<English>Obsidian</English>
+		<French>Obsidienne</French>
+		<German>Obsidian</German>
+		<Italian>Ossidiana</Italian>
+		<Spanish>Obsidian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_OBSIDIAN_PEDIA</Tag>
+		<English>Obsidian is a naturally occurring volcanic glass formed as an extrusive igneous rock. It is produced when felsic lava extruded from a volcano cools without crystal growth. Obsidian is commonly found within the margins of rhyolitic lava flows known as obsidian flows, where the chemical composition (high silica content) induces a high viscosity of the lava. Because of the lack of crystal structure, obsidian blade edges can reach incredible thinness, leading to its use as projectile points and scalpel blades.</English>
+		<French>Obsidian is a naturally occurring volcanic glass formed as an extrusive igneous rock. It is produced when felsic lava extruded from a volcano cools without crystal growth. Obsidian is commonly found within the margins of rhyolitic lava flows known as obsidian flows, where the chemical composition (high silica content) induces a high viscosity of the lava. Because of the lack of crystal structure, obsidian blade edges can reach incredible thinness, leading to its use as projectile points and scalpel blades.</French>
+		<German>Obsidian is a naturally occurring volcanic glass formed as an extrusive igneous rock. It is produced when felsic lava extruded from a volcano cools without crystal growth. Obsidian is commonly found within the margins of rhyolitic lava flows known as obsidian flows, where the chemical composition (high silica content) induces a high viscosity of the lava. Because of the lack of crystal structure, obsidian blade edges can reach incredible thinness, leading to its use as projectile points and scalpel blades.</German>
+		<Italian>L'Ossidiana è un vetro vulcanico la cui formazione è dovuta al rapidissimo raffreddamento della lava acida, ovvero ad alto contenuto di ioni di silicio, i quali non riescono a raggiungere la formazione ordinata di un reticolo cristallino. Il filo delle lame in ossidiana può essere incredibilmente sottile e tagliente, portando al suo utilizzo nella creazione di oggetti taglienti (coltelli) e perforanti (punte di freccia e lancia) oltre a essere usata per oggetti decorativi.</Italian>
+		<Spanish>Obsidian is a naturally occurring volcanic glass formed as an extrusive igneous rock. It is produced when felsic lava extruded from a volcano cools without crystal growth. Obsidian is commonly found within the margins of rhyolitic lava flows known as obsidian flows, where the chemical composition (high silica content) induces a high viscosity of the lava. Because of the lack of crystal structure, obsidian blade edges can reach incredible thinness, leading to its use as projectile points and scalpel blades.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_PATRIAN_ARTIFACTS</Tag>
+		<English>Patrian Artifacts</English>
+		<French>Artefacts Patriens</French>
+		<German>Patrianische Artefakte</German>
+		<Italian>Artefatti di Patria</Italian>
+		<Spanish>Patrian Artifacts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_PATRIAN_ARTIFACTS_PEDIA</Tag>
+		<English>Overseen by the Apparat of the Emperor's Cult, digging crews discover Patrian artifacts with uncanny frequency.  The Scions of Patria put a good deal of effort into looting Patria.</English>
+		<French>Overseen by the Apparat of the Emperor's Cult, digging crews discover Patrian artifacts with uncanny frequency.  The Scions of Patria put a good deal of effort into looting Patria.</French>
+		<German>Overseen by the Apparat of the Emperor's Cult, digging crews discover Patrian artifacts with uncanny frequency.  The Scions of Patria put a good deal of effort into looting Patria.</German>
+		<Italian>Supervisionate dall'Apparato del Culto dell'Imperatore, le squadre di scavo scoprono degli Artefatti di Patria con una frequenza inquietante.  Gli Eredi di Patria impiegano un sacco di energie per saccheggiare Patria.</Italian>
+		<Spanish>Overseen by the Apparat of the Emperor's Cult, digging crews discover Patrian artifacts with uncanny frequency.  The Scions of Patria put a good deal of effort into looting Patria.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_PEARL</Tag>
+		<English>Pearls</English>
+		<French>Perles</French>
+		<German>Perlen</German>
+		<Italian>Perle</Italian>
+		<Spanish>Perlas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_PEARL_PEDIA</Tag>
+		<English>[TAB]A shelly concretion, usually rounded, and having a brilliant luster, with varying tints, found in the mantle, or between the mantle and shell of pearl oysters and river mussels. It is usually due to a secretion of shelly substance around some irritating foreign particle. Its substance is the same as nacre, or mother-of-pearl. Pearls that are round, or nearly round, and of fine luster, are highly esteemed as jewels and compare in value with the precious stones.</English>
+		<French>[TAB]Une concrétion de coquillage, habituellement arrondie, et possédant un éclat brillant, avec les teintes variables, trouvée dans la valve, ou entre la valve et la coquille d'huîtres perlières et de mulettes d'eau douce. C'est généralement du à la sécrétion d'une substance autour d'une particule étrangère irritante. Sa substance est la même que la nacre ou le burgau. Les perles qui sont rondes, ou presque rondes, et d'un bel éclat, sont hautement estimées comme les bijoux, et sont d'une valeur comparable à celle des pierres précieuses.</French>
+		<German>[TAB]Eine schalige, normalerweise rundliche Absonderung mit einem schimmernden Glanz in wechselnden Farbtönen. Sie werden in der Umhüllung oder zwischen Hülle und Schale von Perlenaustern oder Flussmuscheln gefunden. Gewöhnlich handelt es sich dabei um Schalensubstanz, die sich um einen Fremdpartikel legt, und die das gleiche wie Perlmutt ist. Perlen, die kugelrund sind, oder fast kugelrund, und einen edlen Glanz haben, werden als Juwelen hoch geschätzt und sind im Wert vergleichbar mit edlen Steinen.</German>
+		<Italian>[TAB]Le perle sono di solito rotonde, e hanno una lucentezza brillante, con vari colori, e si trova nel mantello o tra il mantello e il guscio dei molluschi (in particolare delle ostriche). La perla non è altro che un corpo estraneo che viene ricoperto di madreperla per proteggere i tessuti dell'animale dall'irritazione. Le pearle che sono particolarmente sferiche, e di raffinata lucentezza, sono molto apprezzate come gioielli e sono simili come valore alle pietre preziose.</Italian>
+		<Spanish>[TAB]A shelly concretion, normalmente redonda, y con un lustre brillante, con varios tonos, se encuentran en el manto, o entre el manto y la concha de ostras y moluscos de río. Se debe normalmente a la secreción de una sustancia alrededor de una partícula externa irritada. Su sustancia es la misma que el nácar, o madreperla. Las perlas que son redondas, o aproximadamente redondas, y con un lustre fino, son consideradas joyas de alta estima, y comparable al valor de algunas piedras preciosas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_RAZORWEED</Tag>
+		<English>Razorweed</English>
+		<French>Herbelame</French>
+		<German>Klingengras</German>
+		<Italian>Erba Rasoio</Italian>
+		<Spanish>Hierbacortante</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_RAZORWEED_PEDIA</Tag>
+		<English>[TAB]Sometimes called "Bloodweed" or "Assassin's Gift," Razorweed is a horrid plant that first grew in hell. It was later taken into creation, though difficult to grow in captivity because of its unruly habit of killing its gardener. That tendency made it a favorite gift of assassins, who would sneak it into their victim’s gardens, where, once it had grown to maturity, the plant would perform the assassin’s work.[NEWLINE][TAB]Composed mostly of vines with strong, hollow thorns along its length, dark sacs of blood can blossom along its length after feeding.</English>
+		<French>[TAB]Parfois appelée "herbesang" ou "cadeau de l’assassin", l’herbelame est une horrible plante qui poussa tout d’abord en enfer. Elle fut importée plus tard dans la création, bien que difficile à faire pousser en captivité car elle tue en général son jardinier. Cette tendance en a fait l’un des cadeaux favoris des assassins, qui se cache dans le jardin des victimes et les tue quand elle a assez grandi.[NEWLINE][TAB]La plante elle-même est principalement constituée de lianes grimpantes parsemées de dures épines. Lorsqu’elle s’est nourrie, de sombres poches de sang peuvent fleurir sur toute sa longueur. </French>
+		<German>[TAB]Das manchmal auch "Blutgras" oder "Geschenk an die Mörder" genannte Klingengras ist eine abscheuliche Pflanze, die zuerst in der Hölle wuchs. Später wurde sie dann gezüchtet, obwohl sie schwierig anzubauen war - denn in der Regel tötete sie ihre Gärtner. Diese Eigenart machte sie für Attentäter zu einem bevorzugten "Präsent" - sie pflanzten heimlich ein Exemplar im Garten des Opfers, das ihn töten würde sobald es nur groß genug geworden war.[NEWLINE][TAB]Die Pflanze an sich besteht zum Großteil aus Reben, mit stabilen, hohlen Dornen. Nach dem Verspeisen von Beute können dunkle Blutsäcke auf ihr gedeihen.</German>
+		<Italian>[TAB]A volte chiamata "Erba del sangue" o "Regalo dell'Assassino", l'Erba Rasoio è un orrida pianta che prima cresceva solo all'inferno. È stata poi inserità nella creazione, anche se difficile da coltivare a causa della sua abitudine di uccidere il suo giardiniere. Questa tendenza la ha resa il regalo preferito degli assassini, che la inseriscono di nascosto nel giardino delle loro vittime, dove, una volta cresciuta abbastanza, compiera il lavoro dell'assassino.[NEWLINE][TAB]Composta principalmente di viticci con spesse spine cave lungo tutta la loro lunghezza. Sacche scure di sangue possono sbocciare lungo tutta la pianta dopo essersi nutrita.</Italian>
+		<Spanish>[TAB]Denominada a veces "Hierba Sangrienta" u "Obsequio del Asesino", la Hierbacortante es una planta horrible que creció primero en el infierno. Después fue traída a la creación, aunque es difícil de plantar en cautividad porque normalmente podría matar a su jardinero. Esa tendencia la convirtió en un regalo preferido por los asesinos, que se infiltraría en los jardines de sus víctimas donde los acabaría matando cuando creciera lo suficientemente largo.[NEWLINE][TAB]La planta en sí es principalmente un conjunto de vides con espinas fuertes y huecas a lo largo de ella. Después de alimentarse de bolsas oscuras de sangre puede florecer.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_REAGENTS</Tag>
+		<English>Reagents</English>
+		<French>Réactifs</French>
+		<German>Reagenzien</German>
+		<Italian>Reagenti</Italian>
+		<Spanish>Reactivos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_REAGENTS_PEDIA</Tag>
+		<English>[TAB]Reagents are plants that are specially tended and prepared to be used in spellcasting. The caster taps into the latent magical energy in the reagents and is able to access more powerful spells, as he doesn't have to rely on just the power developed in his or her own body.</English>
+		<French>Les réactifs sont des plantes qui sont spécialement entretenues et préparées pour être utilisées pour lancer des sorts. Le lanceur puise dans l'énergie magique latente contenue dans les réactifs et ainsi est capable de lancer des sorts plus puissants car il n'a plus à compter sur son seul corps comme focus.</French>
+		<German>[TAB]Reagenzien sind Pflanzen, die sehr gut für die Zauberei geeignet sind. Wenn ein Zauberer die verborgene Magie innerhalb dieser Pflanzen anzapft, kann er mächtigere Sprüche benutzen, da er auf mehr als nur seinen eigenen Körper als Fokus zurückgreifen kann.</German>
+		<Italian>[TAB]I reagenti sono piante che sono specificatamente coltivate e lavorate per essere usate nel lancio di magie. L'incantatore attinge alla magia latente dei ragenti ed è capace di lanciare magie più potenti, cosi da non dover fare affidamento solo sul potere sviluppato dal suo corpo.</Italian>
+		<Spanish>[TAB]Los Reactivos son plantas que son especialmente preparadas para el lanzamiento de hechizos. El lanzador explota la energía mágica latente en los reactivos y es capaz de acceder a hechizos más poderosos debido a ello, ya que no tiene que recurrir a su propio cuerpo como foco.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_REFINED_MANA</Tag>
+		<English>Refined Mana</English>
+		<French>Mana raffiné</French>
+		<German>Raffiniertes Mana</German>
+		<Italian>Mana Raffinato</Italian>
+		<Spanish>Refined Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_REFINED_MANA_STRATEGY</Tag>
+		<English>Being radioactive, this resource grants a very small chance for a newly built unit to mutate.</English>
+		<French>Cette ressource radioactive risque parfois de faire muter les nouvelles unités.</French>
+		<German>Being radioactive, this resource grants a very small chance for a newly built unit to mutate.</German>
+		<Italian>Essendo radioattiva, questa risorsa comporta un probabilità molto bassa per le nuove unità di nascere mutate.</Italian>
+		<Spanish>Being radioactive, this resource grants a very small chance for a newly built unit to mutate.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SALT</Tag>
+		<English>Salt</English>
+		<French>Sel</French>
+		<German>Salz</German>
+		<Italian>Sale</Italian>
+		<Spanish>Sal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SALT_PEDIA</Tag>
+		<English>[TAB]Salt has been one of the most valued commodities in the history of mankind - among other reasons, humans need a certain amount of salt in their diet to survive. Humans have been harvesting salt for thousands of years; the practice started in the dim recesses of history, long before any written records were made. [PARAGRAPH:2]One of salt's greatest properties is its ability to preserve food. Before the development of reliable refrigeration, one of the few known ways to keep food from becoming inedible was to apply salt, which delays or prevents microbial invasion. (Some kinds of foods can also by preserved by "smoking" them.) In addition to its preservative qualities, salt also simply makes food taste better. [PARAGRAPH:2]One of the earliest-discovered methods of harvesting salt was by evaporating seawater under the sun, a very tedious and expensive process, leading to high prices for this important good. It wouldn't be until the mid-nineteenth century - when salt mining was widely practiced across the world - that this commodity would become much less expensive, no longer "worth its weight in gold," as it was commonly described.</English>
+		<French>[TAB]Le sel a été l'un des produits les plus évalués dans l'histoire de l'humanité - entre d'autres raisons, le besoin d'humains par certaine quantité de sel dans leur régime de survivre. Les humains avaient moissonné le sel pour des milliers d'années ; la pratique a commencé dans les faibles cavités de l'histoire, longtemps avant que tous les écrits aient été notés. [ PARAGRAPH:2]One des plus grandes propriétés du sel est sa capacité de conserver la nourriture. Avant le développement de la réfrigération fiable, une des quelques manières connues de conserver la nourriture de devenir non comestible devait appliquer le sel, qui retarde ou empêche l'invasion microbienne. (quelques genres de nourritures mettent en bo&#238;te également par préservé "en les fumant".) En plus de ses qualités préservatives, salez rend également simplement le goût de nourriture meilleur. [ PARAGRAPH:2]One des méthodes tôt-découvertes de moissonner le sel était en évaporant l'eau de mer sous le soleil, un processus très pénible et cher, menant aux prix élevés de ce bon important. Elle n'aurait pas lieu jusqu'au mi-dix-neuvième siècle - quand l'exploitation de sel n'a été plus largement pratiquée à travers le monde que ce produit deviendrait beaucoup moins cher, "en valeur son poids en or," pendant qu'elle était généralement décrite.</French>
+		<German>[TAB]Salz ist eins der bewerteten Gebrauchsgüter in der Geschichte der Menschheit - unter anderen Gründen gewesen, Menschen Notwendigkeit ein bestimmte Menge Salz in ihrer Diät zu überleben. Menschen haben Salz für Tausenden Jahre geerntet; die Praxis begann in den schwachen Aussparungen der Geschichte, lange zuvor alle mögliche schriftlichen Aufzeichnungen gebildet wurden. [ PARAGRAPH:2]One der größten Eigenschaften des Salzes ist seine Fähigkeit, Nahrung zu konservieren. Vor der Entwicklung der zuverlässigen Abkühlung, sollte eine der wenigen bekannten Weisen, Nahrung vom Werden zu halten ungenießbar Salz anwenden, das Mikrobeninvasion verzögert oder verhindert. (einige Arten Nahrungsmittel machen auch ein, durch konserviert, indem sie sie."rauchen") Zusätzlich zu seinen konservierenden Qualitäten salzen Sie auch bildet einfach Nahrungsmittelgeschmack besser. [ PARAGRAPH:2]One der früh-entdeckten Methoden des Erntens des Salzes war, indem es Meerwasser unter der Sonne, einem sehr langwierigen und kostspieligen Prozeß verdunstete und zu hohe Preise für dieses wichtige gute führte. Es würde sein nicht bis das mittler-19.jahrhundert - als Salzbergbau weit über der Welt - die dieses Gebrauchsgut viel weniger kostspielig werden würde, nicht mehr "wert sein Gewicht im Gold," geübt wurde, während er allgemein beschrieben wurde.</German>
+		<Italian>[TAB]Il sale è stato uno dei prodotti più preziosi nella storia dell'umanità - tra i vari motivi, la necessità degli esseri umani di una determinata quantità di sale nella loro dieta per sopravvivere. Gli esseri umani stanno raccogliendo il sale da migliaia di anni; una pratica iniziata nella storia più remota, molto prima che si scrivesse la storia. [ PARAGRAPH:2]Una delle principali proprietà del sale è la capacità di conservare il cibo. Prima dello sviluppo di un affidabile refrigerazione, uno dei pochi modi conosciuti per conservare il cibo dal deperire era usare il sale, che ritardarda o impedisce l'invasione microbica (alcuni tipi di cibo possono essere conservati anche atrtaverso l'affumicatura). Oltre alle capacità di conservazione, il sale rende il sapore di alcuni cibi migliore. [ PARAGRAPH:2]Uno dei primi metodi scoperti per la raccolta del sale era far evaporare l'acqua di mare sotto il sole, un processo molto noioso e costoso, motivo del costo elevato di tale importante bene. Cio non cambiera sino alla metà del diciannovesimo secolo - quando la raccolta e l'estrazione mineraria del sale sono ampiamente svolte nell mondo che questo bene diventerà molto meno costoso, non valendo più "il suo peso in oro", come veniva comunemente descritto.</Italian>
+		<Spanish>[TAB]La sal ha sido una de las materias valoradas de la historia de la humanidad - entre otras razones, necesidad de los seres humanos a cierta cantidad de sal en su dieta de sobrevivir. Los seres humanos han estado cosechando la sal para los millares de a&#241;os; la pr&#225;ctica comenz&#243; en las hendiduras déviles de la historia, mucho antes cualquier expediente escrito fue hecho. [ PARAGRAPH:2]One de las caracter&#237;sticas m&#225;s grandes de la sal es su capacidad de preservar el alimento. Antes del desarrollo de la refrigeraci&#243;n confiable, una de las pocas maneras sabidas de guardar el alimento de llegar a ser no comestible deb&#237;a aplicar la sal, que retrasa o previene la invasi&#243;n microbiana. (algunas clases de alimentos conservan también por preservado "fum&#225;ndolos".) Adem&#225;s de sus calidades preservativas, sale también simplemente hace gusto del alimento mejor. [ PARAGRAPH:2]One de los métodos temprano-descubiertos de cosechar la sal estaba evaporando el agua de mar bajo el sol, proceso muy aburrido y costoso, conduciendo a los precios altos elevados para este bueno importante. No ser&#237;a hasta el mediados de-diecinueveavo siglo - cuando la explotaci&#243;n minera de la sal fue practicada extensamente a través del mundo que esta materia lleg&#243; a ser mucho menos costosa, no m&#225;s de largo "digno de su peso en oro," mientras que fue descrita com&#250;nmente.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SHEUT_STONE</Tag>
+		<English>Sheut Stone</English>
+		<French>Malpierre</French>
+		<German>Seelensteine</German>
+		<Italian>Pietra Sheut</Italian>
+		<Spanish>Piedra Sombría</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SHEUT_STONE_PEDIA</Tag>
+		<English>[TAB]Only Agares knows the origin of these stones. They may be a pale reflection of the gems of creation or Agares's failed attempts to make his own. Regardless, they radiate powerful death magic and draw wraiths to them like silent beacons. During the Age of Magic necromancers were said to have turned the stones into powerful weapons for those that wielded them.</English>
+		<French>[TAB]Seul Agares connaît l'origine de ces pierres. Elles sont peut être le pâle reflet des gemmes de la Création ou une tentative avortée d'Agares pour créer les siennes. Quoi qu'il en soit, elles irradient d'une puissante magie de mort et attirent les fantômes comme une balise silencieuse. On dit que durant l'Âge de la Magie, les nécromants transformèrent ces pierres en de puissantes armes pour ceux qui les maniaient.</French>
+		<German>[TAB]Nur Agares kennt die Herkunft dieser Steine. Vielleicht sind sie ein schwacher Abglanz der Schöpfungssteine oder Agares' Versuch, eigene zu schaffen, schlug fehl. Wie auch immer, von ihnen geht starke Todesmagie aus und sie ziehen wie ein stilles Leuchtfeuer Gespenster an. Von Totenbeschwörern heißt es, dass sie im Zeitalter der Magie die Steine für ihre Besitzer in mächtige Waffen verwandelt haben.</German>
+		<Italian>[TAB]Solo Agares conosce l'origine di queste pietre. Possono essere un pallido riflessodelle gemme della creazione o il risultato dei tentativi falliti di Agares di crearne di sue. Indipendentemente da ciò, esse emanano una fortissima magia della morte e attirano verso di loro i wraiths come fari silenziosi. Si dice che, durante l'Era della Magia, i necromanti trasformassero le pietre in potentissime armi per coloro che le maneggiavano.</Italian>
+		<Spanish>[TAB]Sólo Agares conoce el origen de estas piedras. Pueden ser un reflejo pálido de las gemas de la creación o un intento fallido de Agares de crear la suya propia. De cualquier forma irradian magia de muerte potente y dibuja espectros en ellas como balizas silenciosas. Durante la Edad de la Magia se decía que los nigromantes convirtieron las piedras en poderosas armas para aquellos que pudieran manejarlas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SHRIMP</Tag>
+		<English>Shrimp</English>
+		<French>Crevettes</French>
+		<German>Garnelen</German>
+		<Italian>Gamberetti</Italian>
+		<Spanish>Shrimp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_SHRIMP_PEDIA</Tag>
+		<English>Shrimp are aquatic crustaceans classified in the infraorder Caridea, found widely around the world in both fresh and salt water. Adult shrimp are filter feeding benthic animals living close to the bottom. They can live in schools and can swim rapidly backwards. Shrimp are an important food source for larger animals from fish to whales. They have a high resistance to toxins in polluted areas, and may contribute to high toxin levels in their predators. Together with prawns, shrimp are widely caught and farmed for human consumption.</English>
+		<French>Shrimp are aquatic crustaceans classified in the infraorder Caridea, found widely around the world in both fresh and salt water. Adult shrimp are filter feeding benthic animals living close to the bottom. They can live in schools and can swim rapidly backwards. Shrimp are an important food source for larger animals from fish to whales. They have a high resistance to toxins in polluted areas, and may contribute to high toxin levels in their predators. Together with prawns, shrimp are widely caught and farmed for human consumption.</French>
+		<German>Garnelen sind aquatische Krustentiere, die zur Ordnung der Caridea gehören. Man findet sie überall auf der Welt in Süß- und Salzwasser. Erwachsene Garnelen ernähren sich durch das Herausfiltern von Krill aus den Wasserschichten nah am Boden. Sie leben in Schulen und können sich sehr schnell rückwärts bewegen. Garnelen sind eine wichtige Nahrungsquelle für große Tiere wie Fische und Wale. Sie sind sehr widerstandsfähig gegenüber den Giften in verschmutzten Gegenden und können so zur Anreicherung der Toxine in ihren Fressfeinden führen. Zusammen mit Riesengarnelen werden Garnelen weltweit gefangen und für den menschlichen Verbrauch in Farmen gezüchtet.</German>
+		<Italian>I gamberetti (caridea) sono crostacei acquatici, diffusi intorno al mondo sia in acqua salata che dolce. La maggior parte dei gamberetti sono onnivori, ma alcune specie si nutrono filtrando l'acqua. Possono vivere in branchi e nuotare rapidamente all'indietro. I gamberetti sono un'importante fonte di cibo per gli animali più grandi, dai pesci alle balene. Hanno un'elevata resistenza alle tossine delle aree inquinate pertanto possono contribuire agli alti tassi di tossine presenti nei loro predatori. Insieme ai gamberi comuni, i gamberetti sono ampiamente pescati e allevati per il consumo umano.</Italian>
+		<Spanish>Shrimp are aquatic crustaceans classified in the infraorder Caridea, found widely around the world in both fresh and salt water. Adult shrimp are filter feeding benthic animals living close to the bottom. They can live in schools and can swim rapidly backwards. Shrimp are an important food source for larger animals from fish to whales. They have a high resistance to toxins in polluted areas, and may contribute to high toxin levels in their predators. Together with prawns, shrimp are widely caught and farmed for human consumption.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TOAD</Tag>
+		<English>Toads</English>
+		<French>Crapauds</French>
+		<German>Kröte</German>
+		<Italian>Rospi</Italian>
+		<Spanish>Sapos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TOAD_PEDIA</Tag>
+		<English>[TAB]A common delicacy in the hells, Toads are much less useful in Erebus. They can be found on hell terrain and in jungles.</English>
+		<French>[TAB]Friandise commune aux Enfers, les crapauds ne sont présents que les terrains infernaux et disparaîtront si le terrain est reconverti à la normale.</French>
+		<German>[TAB]Kröten sind in der Hölle eine beliebte Delikatesse und können nur auf Höllenfeldern gefunden werden. Verschwinden diese und werden in normales Gebiet zurückverwandelt, verschwinden auch die Kröten.</German>
+		<Italian>[TAB]Una prelibatezza comune negli inferi, i Rospi sono molto meno utili su Erebus. Possono essere trovati sul terreno Infernale e nella giungla.</Italian>
+		<Spanish>[TAB]Una delicia común en los infiernos, los Sapos sólo pueden encontrarse en terrero infernal y desaparecerán si el terreno vuelve a su estado normal.</Spanish>
+	</TEXT>
+</Civ4GameText>

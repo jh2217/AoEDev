@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DESPOTISM_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Gives a free defender (Warrior/Archer/Longbowman) on founding a new city.</English>
+		<French>[NEWLINE][ICON_BULLET]Gives a free defender (Warrior/Archer/Longbowman) on founding a new city.</French>
+		<German>[NEWLINE][ICON_BULLET]Gives a free defender (Warrior/Archer/Longbowman) on founding a new city.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Gives a free defender (Warrior/Archer/Longbowman) on founding a new city.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Gives a free defender (Warrior/Archer/Longbowman) on founding a new city.</Spanish>
+	</TEXT>
+</Civ4GameText>

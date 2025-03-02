@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!--minorleadersmod-->
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KOUN</Tag>
+		<English>Minister Koun</English>
+		<French>Ministre Koun</French>
+		<German>Minister Koun</German>
+		<Italian>Minister Koun</Italian>
+		<Spanish>Minister Koun</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_SEVEN_PINES</Tag>
+		<English>Your unit has entered Seven Pines.</English>
+		<French>Your unit has entered Seven Pines.</French>
+		<German>Eure Einheit steht unter "Siebenkiefern".</German>
+		<Italian>Your unit has entered Seven Pines.</Italian>
+		<Spanish>Your unit has entered Seven Pines.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_DEMONIC_PACT</Tag>
+		<English>Demonic Pact</English>
+		<French>Demonic Pact</French>
+		<German>Dämonischer Pakt</German>
+		<Italian>Demonic Pact</Italian>
+		<Spanish>Demonic Pact</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LETHE</Tag>
+		<English>Lethe</English>
+		<French>Lethe</French>
+		<German>Lethe</German>
+		<Italian>Lethe</Italian>
+		<Spanish>Lethe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STATIUS</Tag>
+		<English>Statius</English>
+		<French>Statius</French>
+		<German>Statius</German>
+		<Italian>Statius</Italian>
+		<Spanish>Statius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MERESIN</Tag>
+		<English>Meresin</English>
+		<French>Meresin</French>
+		<German>Meresin</German>
+		<Italian>Meresin</Italian>
+		<Spanish>Meresin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_OUZZA</Tag>
+		<English>Ouzza</English>
+		<French>Ouzza</French>
+		<German>Ouzza</German>
+		<Italian>Ouzza</Italian>
+		<Spanish>Ouzza</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SALLOS</Tag>
+		<English>Sallos</English>
+		<French>Sallos</French>
+		<German>Sallos</German>
+		<Italian>Sallos</Italian>
+		<Spanish>Sallos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JUDECCA</Tag>
+		<English>Judecca</English>
+		<French>Judecca</French>
+		<German>Judecca</German>
+		<Italian>Judecca</Italian>
+		<Spanish>Judecca</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_DEMONIC_PACT_STRATEGY</Tag>
+		<English>Summons the Infernals into the world.</English>
+		<French>Summons the Infernals into the world.</French>
+		<German>Holt die Infernalen in die Welt.</German>
+		<Italian>Summons the Infernals into the world.</Italian>
+		<Spanish>Summons the Infernals into the world.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DEFEATED_OPHELIA</Tag>
+		<English>Have you no remorse in your heart, sending me back into the Hells from which I escaped?</English>
+		<French>Have you no remorse in your heart, sending me back into the Hells from which I escaped?</French>
+		<German>Habt Ihr kein schlechtes Gewissen, mich in die Hölle zurückzuschicken, aus der ich entflohen war?</German>
+		<Italian>Have you no remorse in your heart, sending me back into the Hells from which I escaped?</Italian>
+		<Spanish>Have you no remorse in your heart, sending me back into the Hells from which I escaped?</Spanish>
+	</TEXT>
+<!--	<TEXT>
+		<Tag>TXT_KEY_POPUP_DEFEATED_OPHELIA</Tag>
+		<English>Well, I was defeated! But you, what did you really win?</English>
+		<French>Well, I was defeated! But you, what did you really win?</French>
+		<German>Nun, ich wurde besiegt! Doch Ihr, was habt Ihr wirklich gewonnen?</German>
+		<Italian>Well, I was defeated! But you, what did you really win?</Italian>
+		<Spanish>Well, I was defeated! But you, what did you really win?</Spanish>
+	</TEXT>-->
+
+	
+</Civ4GameText>

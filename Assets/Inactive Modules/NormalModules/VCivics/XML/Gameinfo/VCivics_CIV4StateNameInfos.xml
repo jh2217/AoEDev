@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Civ4StateNameInfos xmlns="x-schema:VCivics_CIV4GameInfoSchema.xml">
+	<StateNameInfos>
+		<StateNameInfo>	<!-- Magocracy -->
+			<Type>STATE_NAME_MAGOCRACY</Type>
+			<Description>TXT_KEY_STATE_NAME_MAGOCRACY</Description>
+			<PrereqCivics>
+				<CivicType>CIVIC_MAGOCRACY</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Imperium -->
+			<Type>STATE_NAME_IMPERIUM</Type>
+			<Description>TXT_KEY_STATE_NAME_IMPERIUM</Description>
+			<iMinNumCities>4</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_IMPERIUM</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+		<StateNameInfo>	<!-- Imperium Grand -->
+			<Type>STATE_NAME_IMPERIUM_GRAND</Type>
+			<Description>TXT_KEY_STATE_NAME_IMPERIUM_GRAND</Description>
+			<iMinNumCities>24</iMinNumCities>
+			<bFullCiv>1</bFullCiv>
+			<bSovereign>1</bSovereign>
+			<PrereqCivics>
+				<CivicType>CIVIC_IMPERIUM</CivicType>
+			</PrereqCivics>
+		</StateNameInfo>
+	</StateNameInfos>
+</Civ4StateNameInfos>

@@ -1,0 +1,4136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_1</Tag>
+		<English>Cevedes</English>
+		<French>Cevedes</French>
+		<German>Cevedes</German>
+		<Italian>Cevedes</Italian>
+		<Spanish>Cevedes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_2</Tag>
+		<English>Udenarat</English>
+		<French>Udenarat</French>
+		<German>Udenarat</German>
+		<Italian>Udenarat</Italian>
+		<Spanish>Udenarat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_3</Tag>
+		<English>Nimarail</English>
+		<French>Nimarail</French>
+		<German>Nimarail</German>
+		<Italian>Nimarail</Italian>
+		<Spanish>Nimarail</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_4</Tag>
+		<English>Ciriail</English>
+		<French>Ciriail</French>
+		<German>Ciriail</German>
+		<Italian>Ciriail</Italian>
+		<Spanish>Ciriail</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_5</Tag>
+		<English>Glorairine</English>
+		<French>Glorairine</French>
+		<German>Glorairine</German>
+		<Italian>Glorairine</Italian>
+		<Spanish>Glorairine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_6</Tag>
+		<English>Enaillellion</English>
+		<French>Enaillellion</French>
+		<German>Enaillellion</German>
+		<Italian>Enaillellion</Italian>
+		<Spanish>Enaillellion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_7</Tag>
+		<English>Orrondhuir</English>
+		<French>Orrondhuir</French>
+		<German>Orrondhuir</German>
+		<Italian>Orrondhuir</Italian>
+		<Spanish>Orrondhuir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_8</Tag>
+		<English>Sierundirel</English>
+		<French>Sierundirel</French>
+		<German>Sierundirel</German>
+		<Italian>Sierundirel</Italian>
+		<Spanish>Sierundirel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_9</Tag>
+		<English>Coranttilli</English>
+		<French>Coranttilli</French>
+		<German>Coranttilli</German>
+		<Italian>Coranttilli</Italian>
+		<Spanish>Coranttilli</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_10</Tag>
+		<English>Seaneriel</English>
+		<French>Seaneriel</French>
+		<German>Seaneriel</German>
+		<Italian>Seaneriel</Italian>
+		<Spanish>Seaneriel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_11</Tag>
+		<English>Angostendil</English>
+		<French>Angostendil</French>
+		<German>Angostendil</German>
+		<Italian>Angostendil</Italian>
+		<Spanish>Angostendil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_12</Tag>
+		<English>Wendar</English>
+		<French>Wendar</French>
+		<German>Wendar</German>
+		<Italian>Wendar</Italian>
+		<Spanish>Wendar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_13</Tag>
+		<English>Kevar</English>
+		<French>Kevar</French>
+		<German>Kevar</German>
+		<Italian>Kevar</Italian>
+		<Spanish>Kevar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_14</Tag>
+		<English>Sylvair</English>
+		<French>Sylvair</French>
+		<German>Sylvair</German>
+		<Italian>Sylvair</Italian>
+		<Spanish>Sylvair</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_15</Tag>
+		<English>Doriath</English>
+		<French>Doriath</French>
+		<German>Doriath</German>
+		<Italian>Doriath</Italian>
+		<Spanish>Doriath</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_16</Tag>
+		<English>Surewatch</English>
+		<French>Surewatch</French>
+		<German>Surewatch</German>
+		<Italian>Surewatch</Italian>
+		<Spanish>Surewatch</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_17</Tag>
+		<English>Baamor</English>
+		<French>Baamor</French>
+		<German>Baamor</German>
+		<Italian>Baamor</Italian>
+		<Spanish>Baamor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_AMURITES_18</Tag>
+		<English>Korrigan</English>
+		<French>Korrigan</French>
+		<German>Korrigan</German>
+		<Italian>Korrigan</Italian>
+		<Spanish>Korrigan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_1</Tag>
+		<English>Jubilee</English>
+		<French>Jubilee</French>
+		<German>Jubilee</German>
+		<Italian>Jubilee</Italian>
+		<Spanish>Jubilee</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_2</Tag>
+		<English>Coombe View</English>
+		<French>Coombe View</French>
+		<German>Muldenblick</German>
+		<Italian>Coombe View</Italian>
+		<Spanish>Coombe View</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_3</Tag>
+		<English>Hexam</English>
+		<French>Hexam</French>
+		<German>Hexam</German>
+		<Italian>Hexam</Italian>
+		<Spanish>Hexam</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_4</Tag>
+		<English>Argenteria</English>
+		<French>Argenteria</French>
+		<German>Argenteria</German>
+		<Italian>Argenteria</Italian>
+		<Spanish>Argenteria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_5</Tag>
+		<English>Gaudium</English>
+		<French>Gaudium</French>
+		<German>Gaudium</German>
+		<Italian>Gaudium</Italian>
+		<Spanish>Gaudium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_6</Tag>
+		<English>Guell</English>
+		<French>Guell</French>
+		<German>Guell</German>
+		<Italian>Guell</Italian>
+		<Spanish>Guell</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_7</Tag>
+		<English>Ocells</English>
+		<French>Ocells</French>
+		<German>Ocells</German>
+		<Italian>Ocells</Italian>
+		<Spanish>Ocells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_8</Tag>
+		<English>Vincon</English>
+		<French>Vincon</French>
+		<German>Vincon</German>
+		<Italian>Vincon</Italian>
+		<Spanish>Vincon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_9</Tag>
+		<English>Miro</English>
+		<French>Miro</French>
+		<German>Miro</German>
+		<Italian>Miro</Italian>
+		<Spanish>Miro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_10</Tag>
+		<English>Umbracle</English>
+		<French>Umbracle</French>
+		<German>Umbracle</German>
+		<Italian>Umbracle</Italian>
+		<Spanish>Umbracle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_11</Tag>
+		<English>Drassanes</English>
+		<French>Drassanes</French>
+		<German>Drassanes</German>
+		<Italian>Drassanes</Italian>
+		<Spanish>Drassanes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_12</Tag>
+		<English>Sant Mapfre</English>
+		<French>Sant Mapfre</French>
+		<German>Sant Mapfre</German>
+		<Italian>Sant Mapfre</Italian>
+		<Spanish>Sant Mapfre</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_13</Tag>
+		<English>Nouveau</English>
+		<French>Nouveau</French>
+		<German>Nouveau</German>
+		<Italian>Nouveau</Italian>
+		<Spanish>Nouveau</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_14</Tag>
+		<English>Girona</English>
+		<French>Girona</French>
+		<German>Girona</German>
+		<Italian>Girona</Italian>
+		<Spanish>Girona</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_15</Tag>
+		<English>Horta</English>
+		<French>Horta</French>
+		<German>Horta</German>
+		<Italian>Horta</Italian>
+		<Spanish>Horta</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_16</Tag>
+		<English>Tapas</English>
+		<French>Tapas</French>
+		<German>Tapas</German>
+		<Italian>Tapas</Italian>
+		<Spanish>Tapas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_17</Tag>
+		<English>Manresa</English>
+		<French>Manresa</French>
+		<German>Manresa</German>
+		<Italian>Manresa</Italian>
+		<Spanish>Manresa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_18</Tag>
+		<English>Ciutat</English>
+		<French>Ciutat</French>
+		<German>Ciutat</German>
+		<Italian>Ciutat</Italian>
+		<Spanish>Ciutat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_19</Tag>
+		<English>Bispe</English>
+		<French>Bispe</French>
+		<German>Bispe</German>
+		<Italian>Bispe</Italian>
+		<Spanish>Bispe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BALSERAPHS_20</Tag>
+		<English>Torre Paisos</English>
+		<French>Torre Paisos</French>
+		<German>Torre Paisos</German>
+		<Italian>Torre Paisos</Italian>
+		<Spanish>Torre Paisos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_1</Tag>
+		<English>Torrolerial</English>
+		<French>Torrolerial</French>
+		<German>Torrolerial</German>
+		<Italian>Torrolerial</Italian>
+		<Spanish>Torrolerial</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_2</Tag>
+		<English>Vallus</English>
+		<French>Vallus</French>
+		<German>Vallus</German>
+		<Italian>Vallus</Italian>
+		<Spanish>Vallus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_3</Tag>
+		<English>Trinity</English>
+		<French>Trinity</French>
+		<German>Trinity</German>
+		<Italian>Trinity</Italian>
+		<Spanish>Trinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_4</Tag>
+		<English>Tentatio-onis</English>
+		<French>Tentatio-onis</French>
+		<German>Tentatio-onis</German>
+		<Italian>Tentatio-onis</Italian>
+		<Spanish>Tentatio-onis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_5</Tag>
+		<English>Astrum</English>
+		<French>Astrum</French>
+		<German>Astrum</German>
+		<Italian>Astrum</Italian>
+		<Spanish>Astrum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_6</Tag>
+		<English>Caelestis</English>
+		<French>Caelestis</French>
+		<German>Caelestis</German>
+		<Italian>Caelestis</Italian>
+		<Spanish>Caelestis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_7</Tag>
+		<English>Ventry</English>
+		<French>Ventry</French>
+		<German>Ventry</German>
+		<Italian>Ventry</Italian>
+		<Spanish>Ventry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_8</Tag>
+		<English>Corona</English>
+		<French>Corona</French>
+		<German>Corona</German>
+		<Italian>Corona</Italian>
+		<Spanish>Corona</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_9</Tag>
+		<English>Solium</English>
+		<French>Solium</French>
+		<German>Solium</German>
+		<Italian>Solium</Italian>
+		<Spanish>Solium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_10</Tag>
+		<English>Censura</English>
+		<French>Censura</French>
+		<German>Censura</German>
+		<Italian>Censura</Italian>
+		<Spanish>Censura</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_11</Tag>
+		<English>Domus Novus</English>
+		<French>Domus Novus</French>
+		<German>Domus Novus</German>
+		<Italian>Domus Novus</Italian>
+		<Spanish>Domus Novus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_12</Tag>
+		<English>Fides</English>
+		<French>Fides</French>
+		<German>Fides</German>
+		<Italian>Fides</Italian>
+		<Spanish>Fides</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_13</Tag>
+		<English>Judicium</English>
+		<French>Judicium</French>
+		<German>Judicium</German>
+		<Italian>Judicium</Italian>
+		<Spanish>Judicium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_14</Tag>
+		<English>Vis Vires</English>
+		<French>Vis Vires</French>
+		<German>Vis Vires</German>
+		<Italian>Vis Vires</Italian>
+		<Spanish>Vis Vires</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_15</Tag>
+		<English>Pactum</English>
+		<French>Pactum</French>
+		<German>Pactum</German>
+		<Italian>Pactum</Italian>
+		<Spanish>Pactum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_16</Tag>
+		<English>Re Vera</English>
+		<French>Re Vera</French>
+		<German>Re Vera</German>
+		<Italian>Re Vera</Italian>
+		<Spanish>Re Vera</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_17</Tag>
+		<English>Barak-Tor</English>
+		<French>Barak-Tor</French>
+		<German>Barak-Tor</German>
+		<Italian>Barak-Tor</Italian>
+		<Spanish>Barak-Tor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_18</Tag>
+		<English>Clar Manaul</English>
+		<French>Clar Manaul</French>
+		<German>Clar Manaul</German>
+		<Italian>Clar Manaul</Italian>
+		<Spanish>Clar Manaul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_19</Tag>
+		<English>Athel Maraya</English>
+		<French>Athel Maraya</French>
+		<German>Athel Maraya</German>
+		<Italian>Athel Maraya</Italian>
+		<Spanish>Athel Maraya</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_20</Tag>
+		<English>Ithmariar</English>
+		<French>Ithmariar</French>
+		<German>Ithmariar</German>
+		<Italian>Ithmariar</Italian>
+		<Spanish>Ithmariar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BANNOR_21</Tag>
+		<English>Chaend</English>
+		<French>Chaend</French>
+		<German>Chaend</German>
+		<Italian>Chaend</Italian>
+		<Spanish>Chaend</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_1</Tag>
+		<English>Myrean</English>
+		<French>Myrean</French>
+		<German>Myrean</German>
+		<Italian>Myrean</Italian>
+		<Spanish>Myrean</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_2</Tag>
+		<English>Spilan</English>
+		<French>Spilan</French>
+		<German>Spilan</German>
+		<Italian>Spilan</Italian>
+		<Spanish>Spilan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_3</Tag>
+		<English>Deluoc</English>
+		<French>Deluoc</French>
+		<German>Deluoc</German>
+		<Italian>Deluoc</Italian>
+		<Spanish>Deluoc</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_4</Tag>
+		<English>Kalocly</English>
+		<French>Kalocly</French>
+		<German>Kalocly</German>
+		<Italian>Kalocly</Italian>
+		<Spanish>Kalocly</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_5</Tag>
+		<English>Uddrur</English>
+		<French>Uddrur</French>
+		<German>Uddrur</German>
+		<Italian>Uddrur</Italian>
+		<Spanish>Uddrur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_6</Tag>
+		<English>Domir</English>
+		<French>Domir</French>
+		<German>Domir</German>
+		<Italian>Domir</Italian>
+		<Spanish>Domir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_7</Tag>
+		<English>Kabhalg</English>
+		<French>Kabhalg</French>
+		<German>Kabhalg</German>
+		<Italian>Kabhalg</Italian>
+		<Spanish>Kabhalg</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_8</Tag>
+		<English>Hyol</English>
+		<French>Hyol</French>
+		<German>Hyol</German>
+		<Italian>Hyol</Italian>
+		<Spanish>Hyol</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_9</Tag>
+		<English>Sludgehome</English>
+		<French>Sludgehome</French>
+		<German>Matschheim</German>
+		<Italian>Sludgehome</Italian>
+		<Spanish>Sludgehome</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_10</Tag>
+		<English>Dirage</English>
+		<French>Dirage</French>
+		<German>Dirage</German>
+		<Italian>Dirage</Italian>
+		<Spanish>Dirage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_11</Tag>
+		<English>Ultigar</English>
+		<French>Ultigar</French>
+		<German>Ultigar</German>
+		<Italian>Ultigar</Italian>
+		<Spanish>Ultigar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_12</Tag>
+		<English>Straatus</English>
+		<French>Straatus</French>
+		<German>Straatus</German>
+		<Italian>Straatus</Italian>
+		<Spanish>Straatus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_13</Tag>
+		<English>Zbolub</English>
+		<French>Zbolub</French>
+		<German>Zbolub</German>
+		<Italian>Zbolub</Italian>
+		<Spanish>Zbolub</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_14</Tag>
+		<English>Ahepetr</English>
+		<French>Ahepetr</French>
+		<German>Ahepetr</German>
+		<Italian>Ahepetr</Italian>
+		<Spanish>Ahepetr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_15</Tag>
+		<English>Nininsnal</English>
+		<French>Nininsnal</French>
+		<German>Nininsnal</German>
+		<Italian>Nininsnal</Italian>
+		<Spanish>Nininsnal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_16</Tag>
+		<English>Skarnhold</English>
+		<French>Skarnhold</French>
+		<German>Skarnhold</German>
+		<Italian>Skarnhold</Italian>
+		<Spanish>Skarnhold</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_17</Tag>
+		<English>Ulthvangar</English>
+		<French>Ulthvangar</French>
+		<German>Ulthvangar</German>
+		<Italian>Ulthvangar</Italian>
+		<Spanish>Ulthvangar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_18</Tag>
+		<English>Kaelstrum</English>
+		<French>Kaelstrum</French>
+		<German>Kaelstrum</German>
+		<Italian>Kaelstrum</Italian>
+		<Spanish>Kaelstrum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_19</Tag>
+		<English>Velorin</English>
+		<French>Velorin</French>
+		<German>Velorin</German>
+		<Italian>Velorin</Italian>
+		<Spanish>Velorin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_20</Tag>
+		<English>Zareth</English>
+		<French>Zareth</French>
+		<German>Zareth</German>
+		<Italian>Zareth</Italian>
+		<Spanish>Zareth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_21</Tag>
+		<English>Ghorath</English>
+		<French>Ghorath</French>
+		<German>Ghorath</German>
+		<Italian>Ghorath</Italian>
+		<Spanish>Ghorath</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_22</Tag>
+		<English>Phaelon</English>
+		<French>Phaelon</French>
+		<German>Phaelon</German>
+		<Italian>Phaelon</Italian>
+		<Spanish>Phaelon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_23</Tag>
+		<English>Lurithal</English>
+		<French>Lurithal</French>
+		<German>Lurithal</German>
+		<Italian>Lurithal</Italian>
+		<Spanish>Lurithal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_24</Tag>
+		<English>Varnix</English>
+		<French>Varnix</French>
+		<German>Varnix</German>
+		<Italian>Varnix</Italian>
+		<Spanish>Varnix</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_25</Tag>
+		<English>Brellin</English>
+		<French>Brellin</French>
+		<German>Brellin</German>
+		<Italian>Brellin</Italian>
+		<Spanish>Brellin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_26</Tag>
+		<English>Talric</English>
+		<French>Talric</French>
+		<German>Talric</German>
+		<Italian>Talric</Italian>
+		<Spanish>Talric</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_27</Tag>
+		<English>Grendahl</English>
+		<French>Grendahl</French>
+		<German>Grendahl</German>
+		<Italian>Grendahl</Italian>
+		<Spanish>Grendahl</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_28</Tag>
+		<English>Falryn</English>
+		<French>Falryn</French>
+		<German>Falryn</German>
+		<Italian>Falryn</Italian>
+		<Spanish>Falryn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_29</Tag>
+		<English>Zulnar</English>
+		<French>Zulnar</French>
+		<German>Zulnar</German>
+		<Italian>Zulnar</Italian>
+		<Spanish>Zulnar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BARBARIAN_30</Tag>
+		<English>Skarhul</English>
+		<French>Skarhul</French>
+		<German>Skarhul</German>
+		<Italian>Skarhul</Italian>
+		<Spanish>Skarhul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_1</Tag>
+		<English>Prespur</English>
+		<French>Prespur</French>
+		<German>Prespur</German>
+		<Italian>Prespur</Italian>
+		<Spanish>Prespur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_2</Tag>
+		<English>Nubia</English>
+		<French>Nubia</French>
+		<German>Nubia</German>
+		<Italian>Nubia</Italian>
+		<Spanish>Nubia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_3</Tag>
+		<English>Acaia</English>
+		<French>Acaia</French>
+		<German>Acaia</German>
+		<Italian>Acaia</Italian>
+		<Spanish>Acaia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_4</Tag>
+		<English>Morr'ta'nar</English>
+		<French>Morr'ta'nar</French>
+		<German>Morr'ta'nar</German>
+		<Italian>Morr'ta'nar</Italian>
+		<Spanish>Morr'ta'nar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_5</Tag>
+		<English>Adonias</English>
+		<French>Adonias</French>
+		<German>Adonias</German>
+		<Italian>Adonias</Italian>
+		<Spanish>Adonias</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_6</Tag>
+		<English>San'ta'ron</English>
+		<French>San'ta'ron</French>
+		<German>San'ta'ron</German>
+		<Italian>San'ta'ron</Italian>
+		<Spanish>San'ta'ron</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_7</Tag>
+		<English>Pavu'nar</English>
+		<French>Pavu'nar</French>
+		<German>Pavu'nar</German>
+		<Italian>Pavu'nar</Italian>
+		<Spanish>Pavu'nar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_8</Tag>
+		<English>Krinera</English>
+		<French>Krinera</French>
+		<German>Krinera</German>
+		<Italian>Krinera</Italian>
+		<Spanish>Krinera</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_9</Tag>
+		<English>Itos</English>
+		<French>Itos</French>
+		<German>Itos</German>
+		<Italian>Itos</Italian>
+		<Spanish>Itos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_10</Tag>
+		<English>Maron</English>
+		<French>Maron</French>
+		<German>Maron</German>
+		<Italian>Maron</Italian>
+		<Spanish>Maron</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_11</Tag>
+		<English>Pina'dom</English>
+		<French>Pina'dom</French>
+		<German>Pina'dom</German>
+		<Italian>Pina'dom</Italian>
+		<Spanish>Pina'dom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_12</Tag>
+		<English>Amapia</English>
+		<French>Amapia</French>
+		<German>Amapia</German>
+		<Italian>Amapia</Italian>
+		<Spanish>Amapia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_13</Tag>
+		<English>Kasava</English>
+		<French>Kasava</French>
+		<German>Kasava</German>
+		<Italian>Kasava</Italian>
+		<Spanish>Kasava</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_14</Tag>
+		<English>Pevas</English>
+		<French>Pevas</French>
+		<German>Pevas</German>
+		<Italian>Pevas</Italian>
+		<Spanish>Pevas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_15</Tag>
+		<English>Anaea</English>
+		<French>Anaea</French>
+		<German>Anaea</German>
+		<Italian>Anaea</Italian>
+		<Spanish>Anaea</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CALABIM_16</Tag>
+		<English>Strages</English>
+		<French>Strages</French>
+		<German>Strages</German>
+		<Italian>Strages</Italian>
+		<Spanish>Strages</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_1</Tag>
+		<English>Braduk the Burning</English>
+		<French>Braduk la Brûlante</French>
+		<German>Braduk die Brennende</German>
+		<Italian>Braduk the Burning</Italian>
+		<Spanish>Braduk the Burning</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_2</Tag>
+		<English>Renegade Hill</English>
+		<French>Renegade Hill</French>
+		<German>Überläuferhügel</German>
+		<Italian>Renegade Hill</Italian>
+		<Spanish>Renegade Hill</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_3</Tag>
+		<English>Shazak</English>
+		<French>Shazak</French>
+		<German>Shazak</German>
+		<Italian>Shazak</Italian>
+		<Spanish>Shazak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_4</Tag>
+		<English>Hezic'kul</English>
+		<French>Hezic'kul</French>
+		<German>Hezic'kul</German>
+		<Italian>Hezic'kul</Italian>
+		<Spanish>Hezic'kul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_5</Tag>
+		<English>Sorodh</English>
+		<French>Sorodh</French>
+		<German>Sorodh</German>
+		<Italian>Sorodh</Italian>
+		<Spanish>Sorodh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_6</Tag>
+		<English>Pain</English>
+		<French>Pain</French>
+		<German>Schmerz</German>
+		<Italian>Pain</Italian>
+		<Spanish>Pain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_7</Tag>
+		<English>Ah'roog</English>
+		<French>Ah'roog</French>
+		<German>Ah'roog</German>
+		<Italian>Ah'roog</Italian>
+		<Spanish>Ah'roog</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_8</Tag>
+		<English>Belphemon</English>
+		<French>Belphemon</French>
+		<German>Belphemon</German>
+		<Italian>Belphemon</Italian>
+		<Spanish>Belphemon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_9</Tag>
+		<English>Death Fort</English>
+		<French>Death Fort</French>
+		<German>Todesfeste</German>
+		<Italian>Death Fort</Italian>
+		<Spanish>Death Fort</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_10</Tag>
+		<English>Nezhev</English>
+		<French>Nezhev</French>
+		<German>Nezhev</German>
+		<Italian>Nezhev</Italian>
+		<Spanish>Nezhev</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_11</Tag>
+		<English>Naga's Tail</English>
+		<French>Naga's Tail</French>
+		<German>Nagas Schweif</German>
+		<Italian>Naga's Tail</Italian>
+		<Spanish>Naga's Tail</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_12</Tag>
+		<English>Shavraim</English>
+		<French>Shavraim</French>
+		<German>Shavraim</German>
+		<Italian>Shavraim</Italian>
+		<Spanish>Shavraim</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_13</Tag>
+		<English>Dark Sky</English>
+		<French>Dark Sky</French>
+		<German>Finsterer Himmel</German>
+		<Italian>Dark Sky</Italian>
+		<Spanish>Dark Sky</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_14</Tag>
+		<English>Ator</English>
+		<French>Ator</French>
+		<German>Ator</German>
+		<Italian>Ator</Italian>
+		<Spanish>Ator</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_15</Tag>
+		<English>Baal</English>
+		<French>Baal</French>
+		<German>Baal</German>
+		<Italian>Baal</Italian>
+		<Spanish>Baal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_16</Tag>
+		<English>Gurr'ash</English>
+		<French>Gurr'ash</French>
+		<German>Gurr'ash</German>
+		<Italian>Gurr'ash</Italian>
+		<Spanish>Gurr'ash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_17</Tag>
+		<English>Mephisto</English>
+		<French>Mephisto</French>
+		<German>Mephisto</German>
+		<Italian>Mephisto</Italian>
+		<Spanish>Mephisto</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_18</Tag>
+		<English>Wallara</English>
+		<French>Wallara</French>
+		<German>Wallara</German>
+		<Italian>Wallara</Italian>
+		<Spanish>Wallara</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_19</Tag>
+		<English>Deep Dark</English>
+		<French>Deep Dark</French>
+		<German>Tiefe Dunkelheit</German>
+		<Italian>Deep Dark</Italian>
+		<Spanish>Deep Dark</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_20</Tag>
+		<English>Shahav</English>
+		<French>Shahav</French>
+		<German>Shahav</German>
+		<Italian>Shahav</Italian>
+		<Spanish>Shahav</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_21</Tag>
+		<English>Ghouls Touch</English>
+		<French>Ghouls Touch</French>
+		<German>Ghouls Berührung</German>
+		<Italian>Ghouls Touch</Italian>
+		<Spanish>Ghouls Touch</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_22</Tag>
+		<English>Cay</English>
+		<French>Cay</French>
+		<German>Inselchen</German>
+		<Italian>Cay</Italian>
+		<Spanish>Cay</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_23</Tag>
+		<English>Heaven's Bane</English>
+		<French>Heaven's Bane</French>
+		<German>Himmelsfluch</German>
+		<Italian>Heaven's Bane</Italian>
+		<Spanish>Heaven's Bane</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_24</Tag>
+		<English>Tu'eth</English>
+		<French>Tu'eth</French>
+		<German>Tu'eth</German>
+		<Italian>Tu'eth</Italian>
+		<Spanish>Tu'eth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_25</Tag>
+		<English>Death's Head</English>
+		<French>Death's Head</French>
+		<German>Todeshand</German>
+		<Italian>Death's Head</Italian>
+		<Spanish>Death's Head</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_CLAN_OF_EMBERS_26</Tag>
+		<English>Dark Heart</English>
+		<French>Dark Heart</French>
+		<German>Finsteres Herz</German>
+		<Italian>Dark Heart</Italian>
+		<Spanish>Dark Heart</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_1</Tag>
+		<English>Urslo</English>
+		<French>Urslo</French>
+		<German>Urslo</German>
+		<Italian>Urslo</Italian>
+		<Spanish>Urslo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_2</Tag>
+		<English>Fjirgard</English>
+		<French>Fjirgard</French>
+		<German>Fjirgard</German>
+		<Italian>Fjirgard</Italian>
+		<Spanish>Fjirgard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_3</Tag>
+		<English>Mortensholm</English>
+		<French>Mortensholm</French>
+		<German>Mortensholm</German>
+		<Italian>Mortensholm</Italian>
+		<Spanish>Mortensholm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_4</Tag>
+		<English>Heimseter</English>
+		<French>Heimseter</French>
+		<German>Heimseter</German>
+		<Italian>Heimseter</Italian>
+		<Spanish>Heimseter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_5</Tag>
+		<English>Suderholm</English>
+		<French>Suderholm</French>
+		<German>Suderholm</German>
+		<Italian>Suderholm</Italian>
+		<Spanish>Suderholm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_6</Tag>
+		<English>Olricstaad</English>
+		<French>Olricstaad</French>
+		<German>Olricstaad</German>
+		<Italian>Olricstaad</Italian>
+		<Spanish>Olricstaad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_7</Tag>
+		<English>Stavgard</English>
+		<French>Stavgard</French>
+		<German>Stavgard</German>
+		<Italian>Stavgard</Italian>
+		<Spanish>Stavgard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_8</Tag>
+		<English>Finnsvik</English>
+		<French>Finnsvik</French>
+		<German>Finnsvik</German>
+		<Italian>Finnsvik</Italian>
+		<Spanish>Finnsvik</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_9</Tag>
+		<English>Thorshafn</English>
+		<French>Thorshafn</French>
+		<German>Thorshafn</German>
+		<Italian>Thorshafn</Italian>
+		<Spanish>Thorshafn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_10</Tag>
+		<English>Hyttaholm</English>
+		<French>Hyttaholm</French>
+		<German>Hyttaholm</German>
+		<Italian>Hyttaholm</Italian>
+		<Spanish>Hyttaholm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_11</Tag>
+		<English>Bjarkavig</English>
+		<French>Bjarkavig</French>
+		<German>Bjarkavig</German>
+		<Italian>Bjarkavig</Italian>
+		<Spanish>Bjarkavig</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_12</Tag>
+		<English>Vidarheim</English>
+		<French>Vidarheim</French>
+		<German>Vidarheim</German>
+		<Italian>Vidarheim</Italian>
+		<Spanish>Vidarheim</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_13</Tag>
+		<English>Aesirvig</English>
+		<French>Aesirvig</French>
+		<German>Aesirvig</German>
+		<Italian>Aesirvig</Italian>
+		<Spanish>Aesirvig</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_14</Tag>
+		<English>Volsbaek</English>
+		<French>Volsbaek</French>
+		<German>Volsbaek</German>
+		<Italian>Volsbaek</Italian>
+		<Spanish>Volsbaek</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_15</Tag>
+		<English>Rotundvig</English>
+		<French>Rotundvig</French>
+		<German>Rotundvig</German>
+		<Italian>Rotundvig</Italian>
+		<Spanish>Rotundvig</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_16</Tag>
+		<English>Volpirsvig</English>
+		<French>Volpirsvig</French>
+		<German>Volpirsvig</German>
+		<Italian>Volpirsvig</Italian>
+		<Spanish>Volpirsvig</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_17</Tag>
+		<English>Gnistvag</English>
+		<French>Gnistvag</French>
+		<German>Gnistvag</German>
+		<Italian>Gnistvag</Italian>
+		<Spanish>Gnistvag</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_18</Tag>
+		<English>Bjarkoy</English>
+		<French>Bjarkoy</French>
+		<German>Bjarkoy</German>
+		<Italian>Bjarkoy</Italian>
+		<Spanish>Bjarkoy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_19</Tag>
+		<English>Ildelver</English>
+		<French>Ildelver</French>
+		<German>Ildelver</German>
+		<Italian>Ildelver</Italian>
+		<Spanish>Ildelver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_20</Tag>
+		<English>Urgathastad</English>
+		<French>Urgathastad</French>
+		<German>Urgathastad</German>
+		<Italian>Urgathastad</Italian>
+		<Spanish>Urgathastad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_DOVIELLO_21</Tag>
+		<English>Iskvard</English>
+		<French>Iskvard</French>
+		<German>Iskvard</German>
+		<Italian>Iskvard</Italian>
+		<Spanish>Iskvard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_1</Tag>
+		<English>Cahir Abbey</English>
+		<French>Abbaye de Cahir</French>
+		<German>Abtei von Cahir</German>
+		<Italian>Cahir Abbey</Italian>
+		<Spanish>Cahir Abbey</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_2</Tag>
+		<English>Glens of Killybegs</English>
+		<French>Glens of Killybegs</French>
+		<German>Täler von Killybegs</German>
+		<Italian>Glens of Killybegs</Italian>
+		<Spanish>Glens of Killybegs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_3</Tag>
+		<English>Inishbofin</English>
+		<French>Inishbofin</French>
+		<German>Inishbofin</German>
+		<Italian>Inishbofin</Italian>
+		<Spanish>Inishbofin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_4</Tag>
+		<English>Slane</English>
+		<French>Slane</French>
+		<German>Slane</German>
+		<Italian>Slane</Italian>
+		<Spanish>Slane</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_5</Tag>
+		<English>Garryvoe</English>
+		<French>Garryvoe</French>
+		<German>Garryvoe</German>
+		<Italian>Garryvoe</Italian>
+		<Spanish>Garryvoe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_6</Tag>
+		<English>Cafes</English>
+		<French>Cafes</French>
+		<German>Cafes</German>
+		<Italian>Cafes</Italian>
+		<Spanish>Cafes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_7</Tag>
+		<English>Ballinasloe</English>
+		<French>Ballinasloe</French>
+		<German>Ballinasloe</German>
+		<Italian>Ballinasloe</Italian>
+		<Spanish>Ballinasloe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_8</Tag>
+		<English>Warrenpoint</English>
+		<French>Warrenpoint</French>
+		<German>Warrenpoint</German>
+		<Italian>Warrenpoint</Italian>
+		<Spanish>Warrenpoint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_9</Tag>
+		<English>Niveus</English>
+		<French>Niveus</French>
+		<German>Niveus</German>
+		<Italian>Niveus</Italian>
+		<Spanish>Niveus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_10</Tag>
+		<English>Ring of Sion</English>
+		<French>Ring of Sion</French>
+		<German>Ring von Sion</German>
+		<Italian>Ring of Sion</Italian>
+		<Spanish>Ring of Sion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_11</Tag>
+		<English>Glencar Lough</English>
+		<French>Glencar Lough</French>
+		<German>Glencar Lough</German>
+		<Italian>Glencar Lough</Italian>
+		<Spanish>Glencar Lough</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_12</Tag>
+		<English>Foxford</English>
+		<French>Foxford</French>
+		<German>Foxford</German>
+		<Italian>Foxford</Italian>
+		<Spanish>Foxford</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_13</Tag>
+		<English>Einions Hold</English>
+		<French>Einions Hold</French>
+		<German>Einions Hold</German>
+		<Italian>Einions Hold</Italian>
+		<Spanish>Einions Hold</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_14</Tag>
+		<English>Drogheda Oratory</English>
+		<French>Drogheda Oratory</French>
+		<German>Drogheda Oratory</German>
+		<Italian>Drogheda Oratory</Italian>
+		<Spanish>Drogheda Oratory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_15</Tag>
+		<English>Oriel</English>
+		<French>Oriel</French>
+		<German>Oriel</German>
+		<Italian>Oriel</Italian>
+		<Spanish>Oriel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_16</Tag>
+		<English>Rosguill</English>
+		<French>Rosguill</French>
+		<German>Rosguill</German>
+		<Italian>Rosguill</Italian>
+		<Spanish>Rosguill</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_17</Tag>
+		<English>Valentia</English>
+		<French>Valentia</French>
+		<German>Valentia</German>
+		<Italian>Valentia</Italian>
+		<Spanish>Valentia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_18</Tag>
+		<English>Achill</English>
+		<French>Achill</French>
+		<German>Achill</German>
+		<Italian>Achill</Italian>
+		<Spanish>Achill</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_19</Tag>
+		<English>Inishmaan</English>
+		<French>Inishmaan</French>
+		<German>Inishmaan</German>
+		<Italian>Inishmaan</Italian>
+		<Spanish>Inishmaan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ELOHIM_20</Tag>
+		<English>Sapientia</English>
+		<French>Sapientia</French>
+		<German>Sapientia</German>
+		<Italian>Sapientia</Italian>
+		<Spanish>Sapientia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_1</Tag>
+		<English>Midgar</English>
+		<French>Midgar</French>
+		<German>Midgar</German>
+		<Italian>Midgar</Italian>
+		<Spanish>Midgar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_2</Tag>
+		<English>Junon</English>
+		<French>Junon</French>
+		<German>Junon</German>
+		<Italian>Junon</Italian>
+		<Spanish>Junon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_3</Tag>
+		<English>Kalm</English>
+		<French>Kalm</French>
+		<German>Kalm</German>
+		<Italian>Kalm</Italian>
+		<Spanish>Kalm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_4</Tag>
+		<English>Edge</English>
+		<French>Edge</French>
+		<German>Edge</German>
+		<Italian>Edge</Italian>
+		<Spanish>Edge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_5</Tag>
+		<English>Corel</English>
+		<French>Corel</French>
+		<German>Corel</German>
+		<Italian>Corel</Italian>
+		<Spanish>Corel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_6</Tag>
+		<English>Costa del Sol</English>
+		<French>Costa del Sol</French>
+		<German>Costa del Sol</German>
+		<Italian>Costa del Sol</Italian>
+		<Spanish>Costa del Sol</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_7</Tag>
+		<English>Gongaga</English>
+		<French>Gongaga</French>
+		<German>Gongaga</German>
+		<Italian>Gongaga</Italian>
+		<Spanish>Gongaga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_8</Tag>
+		<English>Nibelheim</English>
+		<French>Nibelheim</French>
+		<German>Nibelheim</German>
+		<Italian>Nibelheim</Italian>
+		<Spanish>Nibelheim</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_9</Tag>
+		<English>Wutai</English>
+		<French>Wutai</French>
+		<German>Wutai</German>
+		<Italian>Wutai</Italian>
+		<Spanish>Wutai</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_10</Tag>
+		<English>Mideel</English>
+		<French>Mideel</French>
+		<German>Mideel</German>
+		<Italian>Mideel</Italian>
+		<Spanish>Mideel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_11</Tag>
+		<English>North Corel</English>
+		<French>North Corel</French>
+		<German>Nord-Corel</German>
+		<Italian>North Corel</Italian>
+		<Spanish>North Corel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_12</Tag>
+		<English>Fort Condor</English>
+		<French>Fort Condor</French>
+		<German>Kondorfeste</German>
+		<Italian>Fort Condor</Italian>
+		<Spanish>Fort Condor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_13</Tag>
+		<English>Bon Birejji</English>
+		<French>Bon Birejji</French>
+		<German>Bon Birejji</German>
+		<Italian>Bon Birejji</Italian>
+		<Spanish>Bon Birejji</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_14</Tag>
+		<English>Wasuraruru To</English>
+		<French>Wasuraruru To</French>
+		<German>Wasuraruru To</German>
+		<Italian>Wasuraruru To</Italian>
+		<Spanish>Wasuraruru To</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_15</Tag>
+		<English>Nemuri no Mori</English>
+		<French>Nemuri no Mori</French>
+		<German>Nemuri no Mori</German>
+		<Italian>Nemuri no Mori</Italian>
+		<Spanish>Nemuri no Mori</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_16</Tag>
+		<English>Aishikuru Rojji</English>
+		<French>Aishikuru Rojji</French>
+		<German>Aishikuru Rojji</German>
+		<Italian>Aishikuru Rojji</Italian>
+		<Spanish>Aishikuru Rojji</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_17</Tag>
+		<English>Daihyoga</English>
+		<French>Daihyoga</French>
+		<German>Daihyoga</German>
+		<Italian>Daihyoga</Italian>
+		<Spanish>Daihyoga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_18</Tag>
+		<English>Gaia no Zeppeki</English>
+		<French>Gaia no Zeppeki</French>
+		<German>Gaia no Zeppeki</German>
+		<Italian>Gaia no Zeppeki</Italian>
+		<Spanish>Gaia no Zeppeki</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_19</Tag>
+		<English>Tatsumaki no Meikyu</English>
+		<French>Tatsumaki no Meikyu</French>
+		<German>Tatsumaki no Meikyu</German>
+		<Italian>Tatsumaki no Meikyu</Italian>
+		<Spanish>Tatsumaki no Meikyu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_20</Tag>
+		<English>Kita no Daikudo</English>
+		<French>Kita no Daikudo</French>
+		<German>Kita no Daikudo</German>
+		<Italian>Kita no Daikudo</Italian>
+		<Spanish>Kita no Daikudo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_21</Tag>
+		<English>Saboten Airando</English>
+		<French>Saboten Airando</French>
+		<German>Saboten Airando</German>
+		<Italian>Saboten Airando</Italian>
+		<Spanish>Saboten Airando</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_22</Tag>
+		<English>Misuriru Main</English>
+		<French>Misuriru Main</French>
+		<German>Misuriru Main</German>
+		<Italian>Misuriru Main</Italian>
+		<Spanish>Misuriru Main</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_23</Tag>
+		<English>Gorudo Sosa</English>
+		<French>Gorudo Sosa</French>
+		<German>Gorudo Sosa</German>
+		<Italian>Gorudo Sosa</Italian>
+		<Spanish>Gorudo Sosa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_24</Tag>
+		<English>Roketto Mura</English>
+		<French>Roketto Mura</French>
+		<German>Roketto Mura</German>
+		<Italian>Roketto Mura</Italian>
+		<Spanish>Roketto Mura</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_25</Tag>
+		<English>Materia Dokutsu</English>
+		<French>Materia Dokutsu</French>
+		<German>Materia Dokutsu</German>
+		<Italian>Materia Dokutsu</Italian>
+		<Spanish>Materia Dokutsu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_GRIGORI_26</Tag>
+		<English>Midiru</English>
+		<French>Midiru</French>
+		<German>Midiru</German>
+		<Italian>Midiru</Italian>
+		<Spanish>Midiru</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_1</Tag>
+		<English>Altheriol-ta-Mealthiel</English>
+		<French>Altheriol-ta-Mealthiel</French>
+		<German>Altheriol-ta-Mealthiel</German>
+		<Italian>Altheriol-ta-Mealthiel</Italian>
+		<Spanish>Altheriol-ta-Mealthiel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_2</Tag>
+		<English>Conrond Mor</English>
+		<French>Conrond Mor</French>
+		<German>Conrond Mor</German>
+		<Italian>Conrond Mor</Italian>
+		<Spanish>Conrond Mor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_3</Tag>
+		<English>Radonnor</English>
+		<French>Radonnor</French>
+		<German>Radonnor</German>
+		<Italian>Radonnor</Italian>
+		<Spanish>Radonnor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_4</Tag>
+		<English>Feiss Mabdon</English>
+		<French>Feiss Mabdon</French>
+		<German>Feiss Mabdon</German>
+		<Italian>Feiss Mabdon</Italian>
+		<Spanish>Feiss Mabdon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_5</Tag>
+		<English>Murousbane</English>
+		<French>Murousbane</French>
+		<German>Murousbane</German>
+		<Italian>Murousbane</Italian>
+		<Spanish>Murousbane</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_6</Tag>
+		<English>Clar Marrachir</English>
+		<French>Clar Marrachir</French>
+		<German>Clar Marrachir</German>
+		<Italian>Clar Marrachir</Italian>
+		<Spanish>Clar Marrachir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_7</Tag>
+		<English>Urgortheth</English>
+		<French>Urgortheth</French>
+		<German>Urgortheth</German>
+		<Italian>Urgortheth</Italian>
+		<Spanish>Urgortheth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_8</Tag>
+		<English>Gaene</English>
+		<French>Gaene</French>
+		<German>Gaene</German>
+		<Italian>Gaene</Italian>
+		<Spanish>Gaene</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_9</Tag>
+		<English>Ihara</English>
+		<French>Ihara</French>
+		<German>Ihara</German>
+		<Italian>Ihara</Italian>
+		<Spanish>Ihara</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_10</Tag>
+		<English>Kaselorne</English>
+		<French>Kaselorne</French>
+		<German>Kaselorne</German>
+		<Italian>Kaselorne</Italian>
+		<Spanish>Kaselorne</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_11</Tag>
+		<English>Ukanevar</English>
+		<French>Ukanevar</French>
+		<German>Ukanevar</German>
+		<Italian>Ukanevar</Italian>
+		<Spanish>Ukanevar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_12</Tag>
+		<English>Glorairmor</English>
+		<French>Glorairmor</French>
+		<German>Glorairmor</German>
+		<Italian>Glorairmor</Italian>
+		<Spanish>Glorairmor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_13</Tag>
+		<English>Drathastine</English>
+		<French>Drathastine</French>
+		<German>Drathastine</German>
+		<Italian>Drathastine</Italian>
+		<Spanish>Drathastine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_14</Tag>
+		<English>Manar Gandar</English>
+		<French>Manar Gandar</French>
+		<German>Manar Gandar</German>
+		<Italian>Manar Gandar</Italian>
+		<Spanish>Manar Gandar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_15</Tag>
+		<English>Enekandril</English>
+		<French>Enekandril</French>
+		<German>Enekandril</German>
+		<Italian>Enekandril</Italian>
+		<Spanish>Enekandril</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_16</Tag>
+		<English>Caranaad</English>
+		<French>Caranaad</French>
+		<German>Caranaad</German>
+		<Italian>Caranaad</Italian>
+		<Spanish>Caranaad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_17</Tag>
+		<English>Nimharuan</English>
+		<French>Nimharuan</French>
+		<German>Nimharuan</German>
+		<Italian>Nimharuan</Italian>
+		<Spanish>Nimharuan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_18</Tag>
+		<English>Iosichaard</English>
+		<French>Iosichaard</French>
+		<German>Iosichaard</German>
+		<Italian>Iosichaard</Italian>
+		<Spanish>Iosichaard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_19</Tag>
+		<English>Mengostlox</English>
+		<French>Mengostlox</French>
+		<German>Mengostlox</German>
+		<Italian>Mengostlox</Italian>
+		<Spanish>Mengostlox</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_20</Tag>
+		<English>Lamistuis</English>
+		<French>Lamistuis</French>
+		<German>Lamistuis</German>
+		<Italian>Lamistuis</Italian>
+		<Spanish>Lamistuis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_21</Tag>
+		<English>Ard'ien</English>
+		<French>Ard'ien</French>
+		<German>Ard'ien</German>
+		<Italian>Ard'ien</Italian>
+		<Spanish>Ard'ien</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_22</Tag>
+		<English>Clar Nasacar</English>
+		<French>Clar Nasacar</French>
+		<German>Clar Nasacar</German>
+		<Italian>Clar Nasacar</Italian>
+		<Spanish>Clar Nasacar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_HIPPUS_23</Tag>
+		<English>Khanec</English>
+		<French>Khanec</French>
+		<German>Khanec</German>
+		<Italian>Khanec</Italian>
+		<Spanish>Khanec</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_1</Tag>
+		<English>Garduk</English>
+		<French>Garduk</French>
+		<German>Garduk</German>
+		<Italian>Garduk</Italian>
+		<Spanish>Garduk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_2</Tag>
+		<English>Lakis</English>
+		<French>Lakis</French>
+		<German>Lakis</German>
+		<Italian>Lakis</Italian>
+		<Spanish>Lakis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_3</Tag>
+		<English>Tolero</English>
+		<French>Tolero</French>
+		<German>Tolero</German>
+		<Italian>Tolero</Italian>
+		<Spanish>Tolero</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_4</Tag>
+		<English>Gostai</English>
+		<French>Gostai</French>
+		<German>Gostai</German>
+		<Italian>Gostai</Italian>
+		<Spanish>Gostai</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_5</Tag>
+		<English>Sopor</English>
+		<French>Sopor</French>
+		<German>Sopor</German>
+		<Italian>Sopor</Italian>
+		<Spanish>Sopor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_6</Tag>
+		<English>Hooplak</English>
+		<French>Hooplak</French>
+		<German>Hooplak</German>
+		<Italian>Hooplak</Italian>
+		<Spanish>Hooplak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_7</Tag>
+		<English>Sliktor</English>
+		<French>Sliktor</French>
+		<German>Sliktor</German>
+		<Italian>Sliktor</Italian>
+		<Spanish>Sliktor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_8</Tag>
+		<English>Ashtuk</English>
+		<French>Ashtuk</French>
+		<German>Ashtuk</German>
+		<Italian>Ashtuk</Italian>
+		<Spanish>Ashtuk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_9</Tag>
+		<English>Gigno</English>
+		<French>Gigno</French>
+		<German>Yaks Sporn</German>
+		<Italian>Gigno</Italian>
+		<Spanish>Gigno</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_10</Tag>
+		<English>Suspiro</English>
+		<French>Suspiro</French>
+		<German>Heilige Kaverne</German>
+		<Italian>Suspiro</Italian>
+		<Spanish>Suspiro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_11</Tag>
+		<English>Drakon</English>
+		<French>Drakon</French>
+		<German>Drakon</German>
+		<Italian>Drakon</Italian>
+		<Spanish>Drakon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_12</Tag>
+		<English>Rorkat</English>
+		<French>Rorkat</French>
+		<German>Rorkat</German>
+		<Italian>Rorkat</Italian>
+		<Spanish>Rorkat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_13</Tag>
+		<English>Latkor</English>
+		<French>Latkor</French>
+		<German>Latkor</German>
+		<Italian>Latkor</Italian>
+		<Spanish>Latkor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_14</Tag>
+		<English>Tarkar</English>
+		<French>Tarkar</French>
+		<German>Tarkar</German>
+		<Italian>Tarkar</Italian>
+		<Spanish>Tarkar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_15</Tag>
+		<English>Tenura</English>
+		<French>Tenura</French>
+		<German>Schwarzes Herz</German>
+		<Italian>Tenura</Italian>
+		<Spanish>Tenura</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_16</Tag>
+		<English>Gelu</English>
+		<French>Gelu</French>
+		<German>Goblinskopf</German>
+		<Italian>Gelu</Italian>
+		<Spanish>Gelu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_17</Tag>
+		<English>Roxar</English>
+		<French>Roxar</French>
+		<German>Roxar</German>
+		<Italian>Roxar</Italian>
+		<Spanish>Roxar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_18</Tag>
+		<English>Caltakk</English>
+		<French>Caltakk</French>
+		<German>Caltakk</German>
+		<Italian>Caltakk</Italian>
+		<Spanish>Caltakk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_19</Tag>
+		<English>Retlan</English>
+		<French>Retlan</French>
+		<German>Retlan</German>
+		<Italian>Retlan</Italian>
+		<Spanish>Retlan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ILLIANS_20</Tag>
+		<English>Telkar</English>
+		<French>Telkar</French>
+		<German>Telkar</German>
+		<Italian>Telkar</Italian>
+		<Spanish>Telkar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_1</Tag>
+		<English>Dis</English>
+		<French>Dis</French>
+		<German>Dis</German>
+		<Italian>Dis</Italian>
+		<Spanish>Dis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_2</Tag>
+		<English>Despero</English>
+		<French>Despero</French>
+		<German>Despero</German>
+		<Italian>Despero</Italian>
+		<Spanish>Despero</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_3</Tag>
+		<English>Poena</English>
+		<French>Poena</French>
+		<German>Poena</German>
+		<Italian>Poena</Italian>
+		<Spanish>Poena</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_4</Tag>
+		<English>Bastradam</English>
+		<French>Bastradam</French>
+		<German>Bastradam</German>
+		<Italian>Bastradam</Italian>
+		<Spanish>Bastradam</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_5</Tag>
+		<English>Raglame</English>
+		<French>Raglame</French>
+		<German>Raglame</German>
+		<Italian>Raglame</Italian>
+		<Spanish>Raglame</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_6</Tag>
+		<English>Kador</English>
+		<French>Kador</French>
+		<German>Kador</German>
+		<Italian>Kador</Italian>
+		<Spanish>Kador</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_7</Tag>
+		<English>Longrud</English>
+		<French>Longrud</French>
+		<German>Longrud</German>
+		<Italian>Longrud</Italian>
+		<Spanish>Longrud</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_8</Tag>
+		<English>Patior</English>
+		<French>Patior</French>
+		<German>Patior</German>
+		<Italian>Patior</Italian>
+		<Spanish>Patior</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_9</Tag>
+		<English>Ordstone</English>
+		<French>Ordstone</French>
+		<German>Ordstone</German>
+		<Italian>Ordstone</Italian>
+		<Spanish>Ordstone</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_10</Tag>
+		<English>Astori</English>
+		<French>Astori</French>
+		<German>Astori</German>
+		<Italian>Astori</Italian>
+		<Spanish>Astori</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_11</Tag>
+		<English>Utomach</English>
+		<French>Utomach</French>
+		<German>Utomach</German>
+		<Italian>Utomach</Italian>
+		<Spanish>Utomach</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_12</Tag>
+		<English>Heradh</English>
+		<French>Heradh</French>
+		<German>Heradh</German>
+		<Italian>Heradh</Italian>
+		<Spanish>Heradh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_13</Tag>
+		<English>Defalos</English>
+		<French>Defalos</French>
+		<German>Defalos</German>
+		<Italian>Defalos</Italian>
+		<Spanish>Defalos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_14</Tag>
+		<English>Charack</English>
+		<French>Charack</French>
+		<German>Charack</German>
+		<Italian>Charack</Italian>
+		<Spanish>Charack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_15</Tag>
+		<English>Phobas</English>
+		<French>Phobas</French>
+		<German>Phobas</German>
+		<Italian>Phobas</Italian>
+		<Spanish>Phobas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_16</Tag>
+		<English>Krakatorum</English>
+		<French>Krakatorum</French>
+		<German>Krakatorum</German>
+		<Italian>Krakatorum</Italian>
+		<Spanish>Krakatorum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_17</Tag>
+		<English>Linkbone</English>
+		<French>Linkbone</French>
+		<German>Linkbone</German>
+		<Italian>Linkbone</Italian>
+		<Spanish>Linkbone</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_18</Tag>
+		<English>Draed</English>
+		<French>Draed</French>
+		<German>Draed</German>
+		<Italian>Draed</Italian>
+		<Spanish>Draed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_19</Tag>
+		<English>Astrakan</English>
+		<French>Astrakan</French>
+		<German>Astrakan</German>
+		<Italian>Astrakan</Italian>
+		<Spanish>Astrakan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_20</Tag>
+		<English>Hic Jacet</English>
+		<French>Hic Jacet</French>
+		<German>Hic Jacet</German>
+		<Italian>Hic Jacet</Italian>
+		<Spanish>Hic Jacet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_21</Tag>
+		<English>Locus Desperatus</English>
+		<French>Locus Desperatus</French>
+		<German>Locus Desperatus</German>
+		<Italian>Locus Desperatus</Italian>
+		<Spanish>Locus Desperatus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_22</Tag>
+		<English>Felo de se</English>
+		<French>Felo de se</French>
+		<German>Felo de se</German>
+		<Italian>Felo de se</Italian>
+		<Spanish>Felo de se</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_23</Tag>
+		<English>Diligere Errorem</English>
+		<French>Diligere Errorem</French>
+		<German>Diligere Errorem</German>
+		<Italian>Diligere Errorem</Italian>
+		<Spanish>Diligere Errorem</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_24</Tag>
+		<English>Interfice Errantem</English>
+		<French>Interfice Errantem</French>
+		<German>Interfice Errantem</German>
+		<Italian>Interfice Errantem</Italian>
+		<Spanish>Interfice Errantem</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_25</Tag>
+		<English>Uxor</English>
+		<French>Uxor</French>
+		<German>Uxor</German>
+		<Italian>Uxor</Italian>
+		<Spanish>Uxor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_26</Tag>
+		<English>Peccavi</English>
+		<French>Peccavi</French>
+		<German>Peccavi</German>
+		<Italian>Peccavi</Italian>
+		<Spanish>Peccavi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_27</Tag>
+		<English>Tacet</English>
+		<French>Tacet</French>
+		<German>Tacet</German>
+		<Italian>Tacet</Italian>
+		<Spanish>Tacet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_28</Tag>
+		<English>Abuti</English>
+		<French>Abuti</French>
+		<German>Abuti</German>
+		<Italian>Abuti</Italian>
+		<Spanish>Abuti</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_29</Tag>
+		<English>Lachryma</English>
+		<French>Lachryma</French>
+		<German>Lachryma</German>
+		<Italian>Lachryma</Italian>
+		<Spanish>Lachryma</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_INFERNAL_30</Tag>
+		<English>Dies Irae</English>
+		<French>Dies Irae</French>
+		<German>Dies Irae</German>
+		<Italian>Dies Irae</Italian>
+		<Spanish>Dies Irae</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_1</Tag>
+		<English>Khazak</English>
+		<French>Khazak</French>
+		<German>Khazak</German>
+		<Italian>Khazak</Italian>
+		<Spanish>Khazak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_2</Tag>
+		<English>Halowell</English>
+		<French>Halowell</French>
+		<German>Halowell</German>
+		<Italian>Halowell</Italian>
+		<Spanish>Halowell</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_3</Tag>
+		<English>Riylod</English>
+		<French>Riylod</French>
+		<German>Riylod</German>
+		<Italian>Riylod</Italian>
+		<Spanish>Riylod</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_4</Tag>
+		<English>Kadar</English>
+		<French>Kadar</French>
+		<German>Kadar</German>
+		<Italian>Kadar</Italian>
+		<Spanish>Kadar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_5</Tag>
+		<English>Glulynn</English>
+		<French>Glulynn</French>
+		<German>Glulynn</German>
+		<Italian>Glulynn</Italian>
+		<Spanish>Glulynn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_6</Tag>
+		<English>Stoville</English>
+		<French>Stoville</French>
+		<German>Stoville</German>
+		<Italian>Stoville</Italian>
+		<Spanish>Stoville</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_7</Tag>
+		<English>Wercer</English>
+		<French>Wercer</French>
+		<German>Wercer</German>
+		<Italian>Wercer</Italian>
+		<Spanish>Wercer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_8</Tag>
+		<English>Rockhomme</English>
+		<French>Rockhomme</French>
+		<German>Felsheim</German>
+		<Italian>Rockhomme</Italian>
+		<Spanish>Rockhomme</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_9</Tag>
+		<English>Deep Well</English>
+		<French>Deep Well</French>
+		<German>Tiefe Quelle</German>
+		<Italian>Deep Well</Italian>
+		<Spanish>Deep Well</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_10</Tag>
+		<English>Boulder Falls</English>
+		<French>Boulder Falls</French>
+		<German>Geröllfälle</German>
+		<Italian>Boulder Falls</Italian>
+		<Spanish>Boulder Falls</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_11</Tag>
+		<English>Granite Village</English>
+		<French>Granite Village</French>
+		<German>Granitdorf</German>
+		<Italian>Granite Village</Italian>
+		<Spanish>Granite Village</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_12</Tag>
+		<English>Namp'o</English>
+		<French>Namp'o</French>
+		<German>Namp'o</German>
+		<Italian>Namp'o</Italian>
+		<Spanish>Namp'o</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_13</Tag>
+		<English>Gridmok</English>
+		<French>Gridmok</French>
+		<German>Gridmok</German>
+		<Italian>Gridmok</Italian>
+		<Spanish>Gridmok</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_14</Tag>
+		<English>Eruo</English>
+		<French>Eruo</French>
+		<German>Eruo</German>
+		<Italian>Eruo</Italian>
+		<Spanish>Eruo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_15</Tag>
+		<English>Earlwin</English>
+		<French>Earlwin</French>
+		<German>Earlwin</German>
+		<Italian>Earlwin</Italian>
+		<Spanish>Earlwin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_16</Tag>
+		<English>Hulraden</English>
+		<French>Hulraden</French>
+		<German>Hulraden</German>
+		<Italian>Hulraden</Italian>
+		<Spanish>Hulraden</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_17</Tag>
+		<English>Tiros</English>
+		<French>Tiros</French>
+		<German>Tiros</German>
+		<Italian>Tiros</Italian>
+		<Spanish>Tiros</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_18</Tag>
+		<English>Roil'n'boil</English>
+		<French>Roil'n'boil</French>
+		<German>Roil'n'boil</German>
+		<Italian>Roil'n'boil</Italian>
+		<Spanish>Roil'n'boil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_19</Tag>
+		<English>Sher</English>
+		<French>Sher</French>
+		<German>Sher</German>
+		<Italian>Sher</Italian>
+		<Spanish>Sher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_20</Tag>
+		<English>Shorisy</English>
+		<French>Shorisy</French>
+		<German>Shorisy</German>
+		<Italian>Shorisy</Italian>
+		<Spanish>Shorisy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_21</Tag>
+		<English>Lonkris</English>
+		<French>Lonkris</French>
+		<German>Lonkris</German>
+		<Italian>Lonkris</Italian>
+		<Spanish>Lonkris</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_22</Tag>
+		<English>Boradon</English>
+		<French>Boradon</French>
+		<German>Boradon</German>
+		<Italian>Boradon</Italian>
+		<Spanish>Boradon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KHAZAD_23</Tag>
+		<English>Arkran</English>
+		<French>Arkran</French>
+		<German>Arkran</German>
+		<Italian>Arkran</Italian>
+		<Spanish>Arkran</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_1</Tag>
+		<English>Kwythellar</English>
+		<French>Kwythellar</French>
+		<German>Kwythellar</German>
+		<Italian>Kwythellar</Italian>
+		<Spanish>Kwythellar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_2</Tag>
+		<English>Naggarond</English>
+		<French>Naggarond</French>
+		<German>Naggarond</German>
+		<Italian>Naggarond</Italian>
+		<Spanish>Naggarond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_3</Tag>
+		<English>Avelorn</English>
+		<French>Avelorn</French>
+		<German>Avelorn</German>
+		<Italian>Avelorn</Italian>
+		<Spanish>Avelorn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_4</Tag>
+		<English>Karond Kar</English>
+		<French>Karond Kar</French>
+		<German>Karond Kar</German>
+		<Italian>Karond Kar</Italian>
+		<Spanish>Karond Kar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_5</Tag>
+		<English>Caledor</English>
+		<French>Caledor</French>
+		<German>Caledor</German>
+		<Italian>Caledor</Italian>
+		<Spanish>Caledor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_6</Tag>
+		<English>Clar Karond</English>
+		<French>Clar Karond</French>
+		<German>Clar Karond</German>
+		<Italian>Clar Karond</Italian>
+		<Spanish>Clar Karond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_7</Tag>
+		<English>Lothern</English>
+		<French>Lothern</French>
+		<German>Lothern</German>
+		<Italian>Lothern</Italian>
+		<Spanish>Lothern</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_8</Tag>
+		<English>Har Ganeth</English>
+		<French>Har Ganeth</French>
+		<German>Har Ganeth</German>
+		<Italian>Har Ganeth</Italian>
+		<Spanish>Har Ganeth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_9</Tag>
+		<English>Hag Graef</English>
+		<French>Hag Graef</French>
+		<German>Hag Graef</German>
+		<Italian>Hag Graef</Italian>
+		<Spanish>Hag Graef</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_10</Tag>
+		<English>Ghrond</English>
+		<French>Ghrond</French>
+		<German>Ghrond</German>
+		<Italian>Ghrond</Italian>
+		<Spanish>Ghrond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_11</Tag>
+		<English>Tiranoc</English>
+		<French>Tiranoc</French>
+		<German>Tiranoc</German>
+		<Italian>Tiranoc</Italian>
+		<Spanish>Tiranoc</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_12</Tag>
+		<English>Pax</English>
+		<French>Pax</French>
+		<German>Pax</German>
+		<Italian>Pax</Italian>
+		<Spanish>Pax</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_13</Tag>
+		<English>Ghaba Ghanaf</English>
+		<French>Ghaba Ghanaf</French>
+		<German>Ghaba Ghanaf</German>
+		<Italian>Ghaba Ghanaf</Italian>
+		<Spanish>Ghaba Ghanaf</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_14</Tag>
+		<English>Cairn Lotherl</English>
+		<French>Cairn Lotherl</French>
+		<German>Cairn Lotherl</German>
+		<Italian>Cairn Lotherl</Italian>
+		<Spanish>Cairn Lotherl</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_15</Tag>
+		<English>Nagarythe</English>
+		<French>Nagarythe</French>
+		<German>Nagarythe</German>
+		<Italian>Nagarythe</Italian>
+		<Spanish>Nagarythe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_16</Tag>
+		<English>Maledor</English>
+		<French>Maledor</French>
+		<German>Maledor</German>
+		<Italian>Maledor</Italian>
+		<Spanish>Maledor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_17</Tag>
+		<English>Sith Rionnasc</English>
+		<French>Sith Rionnasc</French>
+		<German>Sith Rionnasc</German>
+		<Italian>Sith Rionnasc</Italian>
+		<Spanish>Sith Rionnasc</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_18</Tag>
+		<English>Khaef Korrond</English>
+		<French>Khaef Korrond</French>
+		<German>Khaef Korrond</German>
+		<Italian>Khaef Korrond</Italian>
+		<Spanish>Khaef Korrond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_19</Tag>
+		<English>Anlec</English>
+		<French>Anlec</French>
+		<German>Anlec</German>
+		<Italian>Anlec</Italian>
+		<Spanish>Anlec</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_20</Tag>
+		<English>Calith</English>
+		<French>Calith</French>
+		<German>Calith</German>
+		<Italian>Calith</Italian>
+		<Spanish>Calith</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_21</Tag>
+		<English>Argond</English>
+		<French>Argond</French>
+		<German>Argond</German>
+		<Italian>Argond</Italian>
+		<Spanish>Argond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_22</Tag>
+		<English>Giaf Gabh Dion</English>
+		<French>Giaf Gabh Dion</French>
+		<German>Giaf Gabh Dion</German>
+		<Italian>Giaf Gabh Dion</Italian>
+		<Spanish>Giaf Gabh Dion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_KURIOTATES_23</Tag>
+		<English>Shathirob</English>
+		<French>Shathirob</French>
+		<German>Shathirob</German>
+		<Italian>Shathirob</Italian>
+		<Spanish>Shathirob</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_1</Tag>
+		<English>Innsmouth</English>
+		<French>Innsmouth</French>
+		<German>Innsmouth</German>
+		<Italian>Innsmouth</Italian>
+		<Spanish>Innsmouth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_2</Tag>
+		<English>Dunwich</English>
+		<French>Dunwich</French>
+		<German>Dunwich</German>
+		<Italian>Dunwich</Italian>
+		<Spanish>Dunwich</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_3</Tag>
+		<English>Kingsport</English>
+		<French>Kingsport</French>
+		<German>Kingsport</German>
+		<Italian>Kingsport</Italian>
+		<Spanish>Kingsport</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_4</Tag>
+		<English>Aylesbury</English>
+		<French>Aylesbury</French>
+		<German>Aylesbury</German>
+		<Italian>Aylesbury</Italian>
+		<Spanish>Aylesbury</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_5</Tag>
+		<English>Paradera</English>
+		<French>Paradera</French>
+		<German>Paradera</German>
+		<Italian>Paradera</Italian>
+		<Spanish>Paradera</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_6</Tag>
+		<English>Bolans</English>
+		<French>Bolans</French>
+		<German>Bolans</German>
+		<Italian>Bolans</Italian>
+		<Spanish>Bolans</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_7</Tag>
+		<English>Seroe Vakas</English>
+		<French>Seroe Vakas</French>
+		<German>Seroe Vakas</German>
+		<Italian>Seroe Vakas</Italian>
+		<Spanish>Seroe Vakas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_8</Tag>
+		<English>Bathsheba</English>
+		<French>Bathsheba</French>
+		<German>Bathsheba</German>
+		<Italian>Bathsheba</Italian>
+		<Spanish>Bathsheba</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_9</Tag>
+		<English>Oistins</English>
+		<French>Oistins</French>
+		<German>Oistins</German>
+		<Italian>Oistins</Italian>
+		<Spanish>Oistins</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_10</Tag>
+		<English>Boscobelle</English>
+		<French>Boscobelle</French>
+		<German>Boscobelle</German>
+		<Italian>Boscobelle</Italian>
+		<Spanish>Boscobelle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_11</Tag>
+		<English>Speightstown</English>
+		<French>Speightstown</French>
+		<German>Speightstown</German>
+		<Italian>Speightstown</Italian>
+		<Spanish>Speightstown</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_12</Tag>
+		<English>Willikies</English>
+		<French>Willikies</French>
+		<German>Willikies</German>
+		<Italian>Willikies</Italian>
+		<Spanish>Willikies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_13</Tag>
+		<English>Garrislyr</English>
+		<French>Garrislyr</French>
+		<German>Garrislyr</German>
+		<Italian>Garrislyr</Italian>
+		<Spanish>Garrislyr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_14</Tag>
+		<English>Villanon</English>
+		<French>Villanon</French>
+		<German>Villanon</German>
+		<Italian>Villanon</Italian>
+		<Spanish>Villanon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_15</Tag>
+		<English>Undertow</English>
+		<French>Undertow</French>
+		<German>Sog</German>
+		<Italian>Undertow</Italian>
+		<Spanish>Undertow</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LANUN_16</Tag>
+		<English>Bren Bagage</English>
+		<French>Bren Bagage</French>
+		<German>Brens Bagage</German>
+		<Italian>Bren Bagage</Italian>
+		<Spanish>Bren Bagage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_1</Tag>
+		<English>Evermore</English>
+		<French>Evermore</French>
+		<German>Evermore</German>
+		<Italian>Evermore</Italian>
+		<Spanish>Evermore</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_2</Tag>
+		<English>Hyll</English>
+		<French>Hyll</French>
+		<German>Hyll</German>
+		<Italian>Hyll</Italian>
+		<Spanish>Hyll</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_3</Tag>
+		<English>Bruti</English>
+		<French>Bruti</French>
+		<German>Bruti</German>
+		<Italian>Bruti</Italian>
+		<Spanish>Bruti</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_4</Tag>
+		<English>Yonna</English>
+		<French>Yonna</French>
+		<German>Yonna</German>
+		<Italian>Yonna</Italian>
+		<Spanish>Yonna</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_5</Tag>
+		<English>Dendrom</English>
+		<French>Dendrom</French>
+		<German>Dendrom</German>
+		<Italian>Dendrom</Italian>
+		<Spanish>Dendrom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_6</Tag>
+		<English>Eaca</English>
+		<French>Eaca</French>
+		<German>Eaca</German>
+		<Italian>Eaca</Italian>
+		<Spanish>Eaca</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_7</Tag>
+		<English>Eodd</English>
+		<French>Eodd</French>
+		<German>Eodd</German>
+		<Italian>Eodd</Italian>
+		<Spanish>Eodd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_8</Tag>
+		<English>Berk</English>
+		<French>Berk</French>
+		<German>Berk</German>
+		<Italian>Berk</Italian>
+		<Spanish>Berk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_9</Tag>
+		<English>Khandar</English>
+		<French>Khandar</French>
+		<German>Khandar</German>
+		<Italian>Khandar</Italian>
+		<Spanish>Khandar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_10</Tag>
+		<English>Idul</English>
+		<French>Idul</French>
+		<German>Idul</German>
+		<Italian>Idul</Italian>
+		<Spanish>Idul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_11</Tag>
+		<English>Elendiwe</English>
+		<French>Elendiwe</French>
+		<German>Elendiwe</German>
+		<Italian>Elendiwe</Italian>
+		<Spanish>Elendiwe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_12</Tag>
+		<English>Helion</English>
+		<French>Helion</French>
+		<German>Helion</German>
+		<Italian>Helion</Italian>
+		<Spanish>Helion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_13</Tag>
+		<English>Gon Gatha</English>
+		<French>Gon Gatha</French>
+		<German>Gon Gatha</German>
+		<Italian>Gon Gatha</Italian>
+		<Spanish>Gon Gatha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_14</Tag>
+		<English>Mazenshire</English>
+		<French>Mazenshire</French>
+		<German>Mazenshire</German>
+		<Italian>Mazenshire</Italian>
+		<Spanish>Mazenshire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_15</Tag>
+		<English>Tivix</English>
+		<French>Tivix</French>
+		<German>Tivix</German>
+		<Italian>Tivix</Italian>
+		<Spanish>Tivix</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_16</Tag>
+		<English>Lan Neual</English>
+		<French>Lan Neual</French>
+		<German>Lan Neual</German>
+		<Italian>Lan Neual</Italian>
+		<Spanish>Lan Neual</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_17</Tag>
+		<English>Wispolen</English>
+		<French>Wispolen</French>
+		<German>Wispolen</German>
+		<Italian>Wispolen</Italian>
+		<Spanish>Wispolen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_18</Tag>
+		<English>Cerrolan</English>
+		<French>Cerrolan</French>
+		<German>Cerrolan</German>
+		<Italian>Cerrolan</Italian>
+		<Spanish>Cerrolan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_19</Tag>
+		<English>Pauleun</English>
+		<French>Pauleun</French>
+		<German>Pauleun</German>
+		<Italian>Pauleun</Italian>
+		<Spanish>Pauleun</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_20</Tag>
+		<English>Organum</English>
+		<French>Organum</French>
+		<German>Organum</German>
+		<Italian>Organum</Italian>
+		<Spanish>Organum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_21</Tag>
+		<English>Kalos</English>
+		<French>Kalos</French>
+		<German>Kalos</German>
+		<Italian>Kalos</Italian>
+		<Spanish>Kalos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_22</Tag>
+		<English>Camena</English>
+		<French>Camena</French>
+		<German>Camena</German>
+		<Italian>Camena</Italian>
+		<Spanish>Camena</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LJOSALFAR_23</Tag>
+		<English>Natura</English>
+		<French>Natura</French>
+		<German>Natura</German>
+		<Italian>Natura</Italian>
+		<Spanish>Natura</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_1</Tag>
+		<English>Ithralia</English>
+		<French>Ithralia</French>
+		<German>Ithralia</German>
+		<Italian>Ithralia</Italian>
+		<Spanish>Ithralia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_2</Tag>
+		<English>Mutanbo</English>
+		<French>Mutanbo</French>
+		<German>Mutanbo</German>
+		<Italian>Mutanbo</Italian>
+		<Spanish>Mutanbo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_3</Tag>
+		<English>Tia'ran</English>
+		<French>Tia'ran</French>
+		<German>Tia'ran</German>
+		<Italian>Tia'ran</Italian>
+		<Spanish>Tia'ran</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_4</Tag>
+		<English>Morr'tebio</English>
+		<French>Morr'tebio</French>
+		<German>Morr'tebio</German>
+		<Italian>Morr'tebio</Italian>
+		<Spanish>Morr'tebio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_5</Tag>
+		<English>Val'ron</English>
+		<French>Val'ron</French>
+		<German>Val'ron</German>
+		<Italian>Val'ron</Italian>
+		<Spanish>Val'ron</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_6</Tag>
+		<English>Tia'na'dom</English>
+		<French>Tia'na'dom</French>
+		<German>Tia'na'dom</German>
+		<Italian>Tia'na'dom</Italian>
+		<Spanish>Tia'na'dom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_7</Tag>
+		<English>Nubilar</English>
+		<French>Nubilar</French>
+		<German>Nubilar</German>
+		<Italian>Nubilar</Italian>
+		<Spanish>Nubilar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_8</Tag>
+		<English>Aborlenia</English>
+		<French>Aborlenia</French>
+		<German>Aborlenia</German>
+		<Italian>Aborlenia</Italian>
+		<Spanish>Aborlenia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_9</Tag>
+		<English>Tia'minar</English>
+		<French>Tia'minar</French>
+		<German>Tia'minar</German>
+		<Italian>Tia'minar</Italian>
+		<Spanish>Tia'minar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_10</Tag>
+		<English>Sil'ron</English>
+		<French>Sil'ron</French>
+		<German>Sil'ron</German>
+		<Italian>Sil'ron</Italian>
+		<Spanish>Sil'ron</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_11</Tag>
+		<English>Sha'na'ron</English>
+		<French>Sha'na'ron</French>
+		<German>Sha'na'ron</German>
+		<Italian>Sha'na'ron</Italian>
+		<Spanish>Sha'na'ron</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_12</Tag>
+		<English>Vinubar</English>
+		<French>Vinubar</French>
+		<German>Vinubar</German>
+		<Italian>Vinubar</Italian>
+		<Spanish>Vinubar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_13</Tag>
+		<English>Ashi'marr</English>
+		<French>Ashi'marr</French>
+		<German>Ashi'marr</German>
+		<Italian>Ashi'marr</Italian>
+		<Spanish>Ashi'marr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_14</Tag>
+		<English>Atenia</English>
+		<French>Atenia</French>
+		<German>Atenia</German>
+		<Italian>Atenia</Italian>
+		<Spanish>Atenia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_15</Tag>
+		<English>Leticia</English>
+		<French>Leticia</French>
+		<German>Leticia</German>
+		<Italian>Leticia</Italian>
+		<Spanish>Leticia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_16</Tag>
+		<English>Su'minar</English>
+		<French>Su'minar</French>
+		<German>Su'minar</German>
+		<Italian>Su'minar</Italian>
+		<Spanish>Su'minar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_17</Tag>
+		<English>Manaus</English>
+		<French>Manaus</French>
+		<German>Manaus</German>
+		<Italian>Manaus</Italian>
+		<Spanish>Manaus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_18</Tag>
+		<English>Ithis</English>
+		<French>Ithis</French>
+		<German>Ithis</German>
+		<Italian>Ithis</Italian>
+		<Spanish>Ithis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_LUCHUIRP_19</Tag>
+		<English>Para'dom</English>
+		<French>Para'dom</French>
+		<German>Para'dom</German>
+		<Italian>Para'dom</Italian>
+		<Spanish>Para'dom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_1</Tag>
+		<English>Golden Leane</English>
+		<French>Golden Leane</French>
+		<German>Golden Leane</German>
+		<Italian>Golden Leane</Italian>
+		<Spanish>Golden Leane</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_2</Tag>
+		<English>Timberling</English>
+		<French>Timberling</French>
+		<German>Timberling</German>
+		<Italian>Timberling</Italian>
+		<Spanish>Timberling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_3</Tag>
+		<English>Balderham</English>
+		<French>Balderham</French>
+		<German>Balderham</German>
+		<Italian>Balderham</Italian>
+		<Spanish>Balderham</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_4</Tag>
+		<English>Lodente</English>
+		<French>Lodente</French>
+		<German>Lodente</German>
+		<Italian>Lodente</Italian>
+		<Spanish>Lodente</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_5</Tag>
+		<English>Froihk</English>
+		<French>Froihk</French>
+		<German>Froihk</German>
+		<Italian>Froihk</Italian>
+		<Spanish>Froihk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_6</Tag>
+		<English>Bryn</English>
+		<French>Bryn</French>
+		<German>Bryn</German>
+		<Italian>Bryn</Italian>
+		<Spanish>Bryn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_7</Tag>
+		<English>Belerien</English>
+		<French>Belerien</French>
+		<German>Belerien</German>
+		<Italian>Belerien</Italian>
+		<Spanish>Belerien</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_8</Tag>
+		<English>Tiriyn</English>
+		<French>Tiriyn</French>
+		<German>Tiriyn</German>
+		<Italian>Tiriyn</Italian>
+		<Spanish>Tiriyn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_9</Tag>
+		<English>Stormgul</English>
+		<French>Stormgul</French>
+		<German>Stormgul</German>
+		<Italian>Stormgul</Italian>
+		<Spanish>Stormgul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_10</Tag>
+		<English>Udgul</English>
+		<French>Udgul</French>
+		<German>Udgul</German>
+		<Italian>Udgul</Italian>
+		<Spanish>Udgul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_11</Tag>
+		<English>Uros</English>
+		<French>Uros</French>
+		<German>Uros</German>
+		<Italian>Uros</Italian>
+		<Spanish>Uros</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_12</Tag>
+		<English>Grison</English>
+		<French>Grison</French>
+		<German>Grison</German>
+		<Italian>Grison</Italian>
+		<Spanish>Grison</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_13</Tag>
+		<English>Minolow</English>
+		<French>Minolow</French>
+		<German>Minolow</German>
+		<Italian>Minolow</Italian>
+		<Spanish>Minolow</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_14</Tag>
+		<English>Chish</English>
+		<French>Chish</French>
+		<German>Chish</German>
+		<Italian>Chish</Italian>
+		<Spanish>Chish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_15</Tag>
+		<English>Adihaniel</English>
+		<French>Adihaniel</French>
+		<German>Adihaniel</German>
+		<Italian>Adihaniel</Italian>
+		<Spanish>Adihaniel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MALAKIM_16</Tag>
+		<English>Shotaka</English>
+		<French>Shotaka</French>
+		<German>Shotaka</German>
+		<Italian>Shotaka</Italian>
+		<Spanish>Shotaka</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_1</Tag>
+		<English>Vaul</English>
+		<French>Vaul</French>
+		<German>Vaul</German>
+		<Italian>Vaul</Italian>
+		<Spanish>Vaul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_2</Tag>
+		<English>Tarantum</English>
+		<French>Tarantum</French>
+		<German>Tarantum</German>
+		<Italian>Tarantum</Italian>
+		<Spanish>Tarantum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_3</Tag>
+		<English>Remas</English>
+		<French>Remas</French>
+		<German>Remas</German>
+		<Italian>Remas</Italian>
+		<Spanish>Remas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_4</Tag>
+		<English>Omnis</English>
+		<French>Omnis</French>
+		<German>Omnis</German>
+		<Italian>Omnis</Italian>
+		<Spanish>Omnis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_5</Tag>
+		<English>Verezzo</English>
+		<French>Verezzo</French>
+		<German>Verezzo</German>
+		<Italian>Verezzo</Italian>
+		<Spanish>Verezzo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_6</Tag>
+		<English>Pavona</English>
+		<French>Pavona</French>
+		<German>Pavona</German>
+		<Italian>Pavona</Italian>
+		<Spanish>Pavona</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_7</Tag>
+		<English>Luccini</English>
+		<French>Luccini</French>
+		<German>Luccini</German>
+		<Italian>Luccini</Italian>
+		<Spanish>Luccini</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_8</Tag>
+		<English>Tylos</English>
+		<French>Tylos</French>
+		<German>Tylos</German>
+		<Italian>Tylos</Italian>
+		<Spanish>Tylos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_9</Tag>
+		<English>Sartosa</English>
+		<French>Sartosa</French>
+		<German>Sartosa</German>
+		<Italian>Sartosa</Italian>
+		<Spanish>Sartosa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_10</Tag>
+		<English>Miragliano</English>
+		<French>Miragliano</French>
+		<German>Miragliano</German>
+		<Italian>Miragliano</Italian>
+		<Spanish>Miragliano</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_11</Tag>
+		<English>Tobaro</English>
+		<French>Tobaro</French>
+		<German>Tobaro</German>
+		<Italian>Tobaro</Italian>
+		<Spanish>Tobaro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_12</Tag>
+		<English>Organza</English>
+		<French>Organza</French>
+		<German>Organza</German>
+		<Italian>Organza</Italian>
+		<Spanish>Organza</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_13</Tag>
+		<English>Lambrusco</English>
+		<French>Lambrusco</French>
+		<German>Lambrusco</German>
+		<Italian>Lambrusco</Italian>
+		<Spanish>Lambrusco</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_14</Tag>
+		<English>Ravola</English>
+		<French>Ravola</French>
+		<German>Ravola</German>
+		<Italian>Ravola</Italian>
+		<Spanish>Ravola</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_15</Tag>
+		<English>Mordax</English>
+		<French>Mordax</French>
+		<German>Mordax</German>
+		<Italian>Mordax</Italian>
+		<Spanish>Mordax</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_16</Tag>
+		<English>Nostramo</English>
+		<French>Nostramo</French>
+		<German>Nostramo</German>
+		<Italian>Nostramo</Italian>
+		<Spanish>Nostramo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_17</Tag>
+		<English>Prospero</English>
+		<French>Prospero</French>
+		<German>Prospero</German>
+		<Italian>Prospero</Italian>
+		<Spanish>Prospero</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_18</Tag>
+		<English>Skitis</English>
+		<French>Skitis</French>
+		<German>Skitis</German>
+		<Italian>Skitis</Italian>
+		<Spanish>Skitis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_19</Tag>
+		<English>Adrantis</English>
+		<French>Adrantis</French>
+		<German>Adrantis</German>
+		<Italian>Adrantis</Italian>
+		<Spanish>Adrantis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_20</Tag>
+		<English>Cypra</English>
+		<French>Cypra</French>
+		<German>Cypra</German>
+		<Italian>Cypra</Italian>
+		<Spanish>Cypra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_21</Tag>
+		<English>Apuccini</English>
+		<French>Apuccini</French>
+		<German>Apuccini</German>
+		<Italian>Apuccini</Italian>
+		<Spanish>Apuccini</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_22</Tag>
+		<English>Grottio</English>
+		<French>Grottio</French>
+		<German>Grottio</German>
+		<Italian>Grottio</Italian>
+		<Spanish>Grottio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_23</Tag>
+		<English>Agrippina</English>
+		<French>Agrippina</French>
+		<German>Agrippina</German>
+		<Italian>Agrippina</Italian>
+		<Spanish>Agrippina</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MECHANOS_24</Tag>
+		<English>Tilea</English>
+		<French>Tilea</French>
+		<German>Tilea</German>
+		<Italian>Tilea</Italian>
+		<Spanish>Tilea</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 1-->
+		<Tag>TXT_KEY_CITY_MEKARA_1</Tag>
+		<English>Korasch</English>
+		<French>Korasch</French>
+		<German>Korasch</German>
+		<Italian>Korasch</Italian>
+		<Spanish>Korasch</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 2-->
+		<Tag>TXT_KEY_CITY_MEKARA_2</Tag>
+		<English>Deselen</English>
+		<French>Deselen</French>
+		<German>Deselen</German>
+		<Italian>Deselen</Italian>
+		<Spanish>Deselen</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 3-->
+		<Tag>TXT_KEY_CITY_MEKARA_3</Tag>
+		<English>Korschenn</English>
+		<French>Korschenn</French>
+		<German>Korschenn</German>
+		<Italian>Korschenn</Italian>
+		<Spanish>Korschenn</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 4-->
+		<Tag>TXT_KEY_CITY_MEKARA_4</Tag>
+		<English>Krass</English>
+		<French>Krass</French>
+		<German>Krass</German>
+		<Italian>Krass</Italian>
+		<Spanish>Krass</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 5-->
+		<Tag>TXT_KEY_CITY_MEKARA_5</Tag>
+		<English>Jasp</English>
+		<French>Jasp</French>
+		<German>Jasp</German>
+		<Italian>Jasp</Italian>
+		<Spanish>Jasp</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 6-->
+		<Tag>TXT_KEY_CITY_MEKARA_6</Tag>
+		<English>Karyx</English>
+		<French>Karyx</French>
+		<German>Karyx</German>
+		<Italian>Karyx</Italian>
+		<Spanish>Karyx</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 7-->
+		<Tag>TXT_KEY_CITY_MEKARA_7</Tag>
+		<English>Brous</English>
+		<French>Brous</French>
+		<German>Brous</German>
+		<Italian>Brous</Italian>
+		<Spanish>Brous</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 8-->
+		<Tag>TXT_KEY_CITY_MEKARA_8</Tag>
+		<English>Aythan</English>
+		<French>Aythan</French>
+		<German>Aythan</German>
+		<Italian>Aythan</Italian>
+		<Spanish>Aythan</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 9-->
+		<Tag>TXT_KEY_CITY_MEKARA_9</Tag>
+		<English>Halas</English>
+		<French>Halas</French>
+		<German>Halas</German>
+		<Italian>Halas</Italian>
+		<Spanish>Halas</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 10-->
+		<Tag>TXT_KEY_CITY_MEKARA_10</Tag>
+		<English>Carasin</English>
+		<French>Carasin</French>
+		<German>Carasin</German>
+		<Italian>Carasin</Italian>
+		<Spanish>Carasin</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 11-->
+		<Tag>TXT_KEY_CITY_MEKARA_11</Tag>
+		<English>Larent</English>
+		<French>Larent</French>
+		<German>Larent</German>
+		<Italian>Larent</Italian>
+		<Spanish>Larent</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 12-->
+		<Tag>TXT_KEY_CITY_MEKARA_12</Tag>
+		<English>Kaliban</English>
+		<French>Kaliban</French>
+		<German>Kaliban</German>
+		<Italian>Kaliban</Italian>
+		<Spanish>Kaliban</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 13-->
+		<Tag>TXT_KEY_CITY_MEKARA_13</Tag>
+		<English>Tellick</English>
+		<French>Tellick</French>
+		<German>Tellick</German>
+		<Italian>Tellick</Italian>
+		<Spanish>Tellick</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 14-->
+		<Tag>TXT_KEY_CITY_MEKARA_14</Tag>
+		<English>Destry</English>
+		<French>Destry</French>
+		<German>Destry</German>
+		<Italian>Destry</Italian>
+		<Spanish>Destry</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 15-->
+		<Tag>TXT_KEY_CITY_MEKARA_15</Tag>
+		<English>Lothal</English>
+		<French>Lothal</French>
+		<German>Lothal</German>
+		<Italian>Lothal</Italian>
+		<Spanish>Lothal</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 16-->
+		<Tag>TXT_KEY_CITY_MEKARA_16</Tag>
+		<English>Sepik</English>
+		<French>Sepik</French>
+		<German>Sepik</German>
+		<Italian>Sepik</Italian>
+		<Spanish>Sepik</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 17-->
+		<Tag>TXT_KEY_CITY_MEKARA_17</Tag>
+		<English>Kansu</English>
+		<French>Kansu</French>
+		<German>Kansu</German>
+		<Italian>Kansu</Italian>
+		<Spanish>Kansu</Spanish>
+	</TEXT>
+	<TEXT>	<!-- City, 18-->
+		<Tag>TXT_KEY_CITY_MEKARA_18</Tag>
+		<English>Dhebel</English>
+		<French>Dhebel</French>
+		<German>Dhebel</German>
+		<Italian>Dhebel</Italian>
+		<Spanish>Dhebel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_1</Tag>
+		<English>Bourne the Gleaming</English>
+		<French>Bourne la Resplendissante</French>
+		<German>Bourne die Strahlende</German>
+		<Italian>Bourne the Gleaming</Italian>
+		<Spanish>Bourne the Gleaming</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_2</Tag>
+		<English>Gap of Lond</English>
+		<French>Fossé de Lond</French>
+		<German>Kluft von Lond</German>
+		<Italian>Gap of Lond</Italian>
+		<Spanish>Gap of Lond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_3</Tag>
+		<English>Spera</English>
+		<French>Spera</French>
+		<German>Spera</German>
+		<Italian>Spera</Italian>
+		<Spanish>Spera</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_4</Tag>
+		<English>High Clere</English>
+		<French>Haute-Claire</French>
+		<German>High Clere</German>
+		<Italian>High Clere</Italian>
+		<Spanish>High Clere</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_5</Tag>
+		<English>Ranelagh Cres</English>
+		<French>Ranelagh Cres</French>
+		<German>Ranelagh Cres</German>
+		<Italian>Ranelagh Cres</Italian>
+		<Spanish>Ranelagh Cres</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_6</Tag>
+		<English>Vigilo</English>
+		<French>Vigilo</French>
+		<German>Vigilo</German>
+		<Italian>Vigilo</Italian>
+		<Spanish>Vigilo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_7</Tag>
+		<English>Locks</English>
+		<French>Locks</French>
+		<German>Locks</German>
+		<Italian>Locks</Italian>
+		<Spanish>Locks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_8</Tag>
+		<English>Priory Hold</English>
+		<French>Citadellle du Prieuré</French>
+		<German>Klosterfestung</German>
+		<Italian>Priory Hold</Italian>
+		<Spanish>Priory Hold</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_9</Tag>
+		<English>Warrage</English>
+		<French>Warrage</French>
+		<German>Warrage</German>
+		<Italian>Warrage</Italian>
+		<Spanish>Warrage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_10</Tag>
+		<English>Newell Green</English>
+		<French>Verte Neville</French>
+		<German>Newell Green</German>
+		<Italian>Newell Green</Italian>
+		<Spanish>Newell Green</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_11</Tag>
+		<English>Kennet Carn</English>
+		<French>Kennet Carn</French>
+		<German>Kennet Carn</German>
+		<Italian>Kennet Carn</Italian>
+		<Spanish>Kennet Carn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_12</Tag>
+		<English>Swidon</English>
+		<French>Swidon</French>
+		<German>Swidon</German>
+		<Italian>Swidon</Italian>
+		<Spanish>Swidon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_13</Tag>
+		<English>Aldworth</English>
+		<French>Aldworth</French>
+		<German>Aldworth</German>
+		<Italian>Aldworth</Italian>
+		<Spanish>Aldworth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_14</Tag>
+		<English>Ains Field</English>
+		<French>Nostrechamp</French>
+		<German>Ains Feld</German>
+		<Italian>Ains Field</Italian>
+		<Spanish>Ains Field</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_15</Tag>
+		<English>Llangar</English>
+		<French>Llangar</French>
+		<German>Llangar</German>
+		<Italian>Llangar</Italian>
+		<Spanish>Llangar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_16</Tag><!-- Lammas = Harvest festival / Mead => either the beverage or Meadow. Lammas Mead = street name in the UK -->
+		<English>Lammas Mead</English>
+		<French>Prairie Lammas</French>
+		<German>Lammas Auen</German>
+		<Italian>Lammas Mead</Italian>
+		<Spanish>Lammas Mead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_MERCURIANS_17</Tag>
+		<English>Bulpit</English>
+		<French>Bulpit</French>
+		<German>Bulpit</German>
+		<Italian>Bulpit</Italian>
+		<Spanish>Bulpit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_RANDOM_1</Tag>
+		<English>Farnworth</English>
+		<French>Farnworth</French>
+		<German>Farnworth</German>
+		<Italian>Farnworth</Italian>
+		<Spanish>Farnworth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_1</Tag>
+		<English>Galveholm</English>
+		<French>Galveholm</French>
+		<German>Galveholm</German>
+		<Italian>Galveholm</Italian>
+		<Spanish>Galveholm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_2</Tag>
+		<English>Grottiburg</English>
+		<French>Grottiburg</French>
+		<German>Grottiburg</German>
+		<Italian>Grottiburg</Italian>
+		<Spanish>Grottiburg</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_3</Tag>
+		<English>Tongurstad</English>
+		<French>Tongurstad</French>
+		<German>Tongurstad</German>
+		<Italian>Tongurstad</Italian>
+		<Spanish>Tongurstad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_4</Tag>
+		<English>Graelingvig</English>
+		<French>Graelingvig</French>
+		<German>Graelingvig</German>
+		<Italian>Graelingvig</Italian>
+		<Spanish>Graelingvig</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_5</Tag>
+		<English>Steinvik</English>
+		<French>Steinvik</French>
+		<German>Steinvik</German>
+		<Italian>Steinvik</Italian>
+		<Spanish>Steinvik</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_6</Tag>
+		<English>Kuldevind</English>
+		<French>Kuldevind</French>
+		<German>Kuldevind</German>
+		<Italian>Kuldevind</Italian>
+		<Spanish>Kuldevind</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_7</Tag>
+		<English>Vargstad</English>
+		<French>Vargstad</French>
+		<German>Vargstad</German>
+		<Italian>Vargstad</Italian>
+		<Spanish>Vargstad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_8</Tag>
+		<English>Skadistad</English>
+		<French>Skadistad</French>
+		<German>Skadistad</German>
+		<Italian>Skadistad</Italian>
+		<Spanish>Skadistad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_9</Tag>
+		<English>Nidhoggstad</English>
+		<French>Nidhoggstad</French>
+		<German>Nidhoggstad</German>
+		<Italian>Nidhoggstad</Italian>
+		<Spanish>Nidhoggstad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_10</Tag>
+		<English>Bjoernlingburg</English>
+		<French>Bjoernlingburg</French>
+		<German>Bjoernlingburg</German>
+		<Italian>Bjoernlingburg</Italian>
+		<Spanish>Bjoernlingburg</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_11</Tag>
+		<English>Morkurburg</English>
+		<French>Morkurburg</French>
+		<German>Morkurburg</German>
+		<Italian>Morkurburg</Italian>
+		<Spanish>Morkurburg</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_12</Tag>
+		<English>Jordekburg</English>
+		<French>Jordekburg</French>
+		<German>Jordekburg</German>
+		<Italian>Jordekburg</Italian>
+		<Spanish>Jordekburg</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_13</Tag>
+		<English>Stromstad</English>
+		<French>Stromstad</French>
+		<German>Stromstad</German>
+		<Italian>Stromstad</Italian>
+		<Spanish>Stromstad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_14</Tag>
+		<English>Frost</English>
+		<French>Frost</French>
+		<German>Frost</German>
+		<Italian>Frost</Italian>
+		<Spanish>Frost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_15</Tag>
+		<English>Lade</English>
+		<French>Lade</French>
+		<German>Lade</German>
+		<Italian>Lade</Italian>
+		<Spanish>Lade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_16</Tag>
+		<English>Skeggi</English>
+		<French>Skeggi</French>
+		<German>Skeggi</German>
+		<Italian>Skeggi</Italian>
+		<Spanish>Skeggi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_17</Tag>
+		<English>Kvellig</English>
+		<French>Kvellig</French>
+		<German>Kvellig</German>
+		<Italian>Kvellig</Italian>
+		<Spanish>Kvellig</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_18</Tag>
+		<English>Aghol</English>
+		<French>Aghol</French>
+		<German>Aghol</German>
+		<Italian>Aghol</Italian>
+		<Spanish>Aghol</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_19</Tag>
+		<English>Raunvake</English>
+		<French>Raunvake</French>
+		<German>Raunvake</German>
+		<Italian>Raunvake</Italian>
+		<Spanish>Raunvake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SHEAIM_20</Tag>
+		<English>Sjoktraken</English>
+		<French>Sjoktraken</French>
+		<German>Sjoktraken</German>
+		<Italian>Sjoktraken</Italian>
+		<Spanish>Sjoktraken</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_1</Tag>
+		<English>Celo</English>
+		<French>Celo</French>
+		<German>Celo</German>
+		<Italian>Celo</Italian>
+		<Spanish>Celo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_2</Tag>
+		<English>Vetus</English>
+		<French>Vetus</French>
+		<German>Vetus</German>
+		<Italian>Vetus</Italian>
+		<Spanish>Vetus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_3</Tag>
+		<English>Zarlra</English>
+		<French>Zarlra</French>
+		<German>Zarlra</German>
+		<Italian>Zarlra</Italian>
+		<Spanish>Zarlra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_4</Tag>
+		<English>Skarlas</English>
+		<French>Skarlas</French>
+		<German>Skarlas</German>
+		<Italian>Skarlas</Italian>
+		<Spanish>Skarlas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_5</Tag>
+		<English>Latito</English>
+		<French>Latito</French>
+		<German>Latito</German>
+		<Italian>Latito</Italian>
+		<Spanish>Latito</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_6</Tag>
+		<English>Stakrus</English>
+		<French>Stakrus</French>
+		<German>Stakrus</German>
+		<Italian>Stakrus</Italian>
+		<Spanish>Stakrus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_7</Tag>
+		<English>Velius</English>
+		<French>Velius</French>
+		<German>Velius</German>
+		<Italian>Velius</Italian>
+		<Spanish>Velius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_8</Tag>
+		<English>Shadow Mist</English>
+		<French>Shadow Mist</French>
+		<German>Schattenhauch</German>
+		<Italian>Shadow Mist</Italian>
+		<Spanish>Shadow Mist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_9</Tag>
+		<English>Senectus</English>
+		<French>Senectus</French>
+		<German>Senectus</German>
+		<Italian>Senectus</Italian>
+		<Spanish>Senectus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_10</Tag>
+		<English>Kartlost</English>
+		<French>Kartlost</French>
+		<German>Kartlost</German>
+		<Italian>Kartlost</Italian>
+		<Spanish>Kartlost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_11</Tag>
+		<English>Provectus</English>
+		<French>Provectus</French>
+		<German>Provectus</German>
+		<Italian>Provectus</Italian>
+		<Spanish>Provectus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_12</Tag>
+		<English>Priscus</English>
+		<French>Priscus</French>
+		<German>Priscus</German>
+		<Italian>Priscus</Italian>
+		<Spanish>Priscus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_13</Tag>
+		<English>Bogz</English>
+		<French>Bogz</French>
+		<German>Bogz</German>
+		<Italian>Bogz</Italian>
+		<Spanish>Bogz</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_14</Tag>
+		<English>Verminaard</English>
+		<French>Verminaard</French>
+		<German>Verminaard</German>
+		<Italian>Verminaard</Italian>
+		<Spanish>Verminaard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_15</Tag>
+		<English>Sark</English>
+		<French>Sark</French>
+		<German>Sark</German>
+		<Italian>Sark</Italian>
+		<Spanish>Sark</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_16</Tag>
+		<English>Rrackon</English>
+		<French>Rrackon</French>
+		<German>Rrackon</German>
+		<Italian>Rrackon</Italian>
+		<Spanish>Rrackon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_17</Tag>
+		<English>Asrassiv</English>
+		<French>Asrassiv</French>
+		<German>Asrassiv</German>
+		<Italian>Asrassiv</Italian>
+		<Spanish>Asrassiv</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_18</Tag>
+		<English>Varza</English>
+		<French>Varza</French>
+		<German>Varza</German>
+		<Italian>Varza</Italian>
+		<Spanish>Varza</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_19</Tag>
+		<English>Zratos</English>
+		<French>Zratos</French>
+		<German>Zratos</German>
+		<Italian>Zratos</Italian>
+		<Spanish>Zratos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SIDAR_20</Tag>
+		<English>Drakor</English>
+		<French>Drakor</French>
+		<German>Drakor</German>
+		<Italian>Drakor</Italian>
+		<Spanish>Drakor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_1</Tag>
+		<English>Thariss</English>
+		<French>Thariss</French>
+		<German>Thariss</German>
+		<Italian>Thariss</Italian>
+		<Spanish>Thariss</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_2</Tag>
+		<English>Gereth Minar</English>
+		<French>Gereth Minar</French>
+		<German>Gereth Minar</German>
+		<Italian>Gereth Minar</Italian>
+		<Spanish>Gereth Minar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_3</Tag>
+		<English>Nameless Tower</English>
+		<French>Nameless Tower</French>
+		<German>Namenloser Turm</German>
+		<Italian>Nameless Tower</Italian>
+		<Spanish>Nameless Tower</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_4</Tag>
+		<English>Idris</English>
+		<French>Idris</French>
+		<German>Idris</German>
+		<Italian>Idris</Italian>
+		<Spanish>Idris</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_5</Tag>
+		<English>Brakkah</English>
+		<French>Brakkah</French>
+		<German>Brakkah</German>
+		<Italian>Brakkah</Italian>
+		<Spanish>Brakkah</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_6</Tag>
+		<English>Enoreth</English>
+		<French>Enoreth</French>
+		<German>Enoreth</German>
+		<Italian>Enoreth</Italian>
+		<Spanish>Enoreth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_7</Tag>
+		<English>Geron</English>
+		<French>Geron</French>
+		<German>Geron</German>
+		<Italian>Geron</Italian>
+		<Spanish>Geron</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_8</Tag>
+		<English>Aeleris's Pits</English>
+		<French>Aeleris's Pits</French>
+		<German>Aeleris' Gruben</German>
+		<Italian>Aeleris's Pits</Italian>
+		<Spanish>Aeleris's Pits</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_9</Tag>
+		<English>Drax Tallen</English>
+		<French>Drax Tallen</French>
+		<German>Drax Tallen</German>
+		<Italian>Drax Tallen</Italian>
+		<Spanish>Drax Tallen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_10</Tag>
+		<English>Geffron</English>
+		<French>Geffron</French>
+		<German>Geffron</German>
+		<Italian>Geffron</Italian>
+		<Spanish>Geffron</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_11</Tag>
+		<English>Malor</English>
+		<French>Malor</French>
+		<German>Malor</German>
+		<Italian>Malor</Italian>
+		<Spanish>Malor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_12</Tag>
+		<English>Avien</English>
+		<French>Avien</French>
+		<German>Avien</German>
+		<Italian>Avien</Italian>
+		<Spanish>Avien</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_13</Tag>
+		<English>Essuria</English>
+		<French>Essuria</French>
+		<German>Essuria</German>
+		<Italian>Essuria</Italian>
+		<Spanish>Essuria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_14</Tag>
+		<English>Lothenar</English>
+		<French>Lothenar</French>
+		<German>Lothenar</German>
+		<Italian>Lothenar</Italian>
+		<Spanish>Lothenar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_15</Tag>
+		<English>Crepusculum</English>
+		<French>Crepusculum</French>
+		<German>Crepusculum</German>
+		<Italian>Crepusculum</Italian>
+		<Spanish>Crepusculum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_16</Tag>
+		<English>Black Axe</English>
+		<French>Black Axe</French>
+		<German>Schwarze Axt</German>
+		<Italian>Black Axe</Italian>
+		<Spanish>Black Axe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_17</Tag>
+		<English>Wolf Claw</English>
+		<French>Wolf Claw</French>
+		<German>Wolfsklaue</German>
+		<Italian>Wolf Claw</Italian>
+		<Spanish>Wolf Claw</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_18</Tag>
+		<English>Evil Eye</English>
+		<French>Evil Eye</French>
+		<German>Böser Blick</German>
+		<Italian>Evil Eye</Italian>
+		<Spanish>Evil Eye</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_19</Tag>
+		<English>Beast Clan</English>
+		<French>Beast Clan</French>
+		<German>Bestienklan</German>
+		<Italian>Beast Clan</Italian>
+		<Spanish>Beast Clan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_20</Tag>
+		<English>Goathorns</English>
+		<French>Goathorns</French>
+		<German>Ziegenhörner</German>
+		<Italian>Goathorns</Italian>
+		<Spanish>Goathorns</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_21</Tag>
+		<English>Tarka</English>
+		<French>Tarka</French>
+		<German>Tarka</German>
+		<Italian>Tarka</Italian>
+		<Spanish>Tarka</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_22</Tag>
+		<English>Helshaven</English>
+		<French>Helshaven</French>
+		<German>Hafen der Hölle</German>
+		<Italian>Helshaven</Italian>
+		<Spanish>Helshaven</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_23</Tag>
+		<English>Terror</English>
+		<French>Terror</French>
+		<German>Terror</German>
+		<Italian>Terror</Italian>
+		<Spanish>Terror</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_24</Tag>
+		<English>Herath</English>
+		<French>Herath</French>
+		<German>Herath</German>
+		<Italian>Herath</Italian>
+		<Spanish>Herath</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_SVARTALFAR_25</Tag>
+		<English>Sickly Mist</English>
+		<French>Sickly Mist</French>
+		<German>Widerlicher Hauch</German>
+		<Italian>Sickly Mist</Italian>
+		<Spanish>Sickly Mist</Spanish>
+	</TEXT>
+</Civ4GameText>

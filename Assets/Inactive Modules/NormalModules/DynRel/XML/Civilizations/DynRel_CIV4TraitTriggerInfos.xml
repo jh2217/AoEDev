@@ -1,0 +1,827 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<!-- CONFIRMED WORKING INGAME:
+- build improvement
+- cast spell (unit or city)
+- construct building (buildingclass, 
+- gain promo (on levelup, on unit trained, on unit upgraded)
+- kill enemy (unitclass, unitcombat, 
+- train unit
+-->
+
+<Civ4TraitTriggerInfos xmlns="x-schema:DynRel_CIV4CivilizationsSchema.xml">
+	<TraitTriggerInfos>
+		<TraitTriggerInfo> <!-- Build               Dwarven Mine                                Kilmorph -->
+			<Type>TRAITTRIGGER_BUILD_DWARVEN_MINE_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_RUNES</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_BUILD_IMPROVEMENT</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_DWARVEN_MINE</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Build               Mine                                        Kilmorph -->
+			<Type>TRAITTRIGGER_BUILD_MINE_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_RUNES</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>			
+			<TraitHookType>TRAITHOOK_BUILD_IMPROVEMENT</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_MINE</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Anything                               Veil -->
+			<Type>TRAITTRIGGER_CAST</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			
+		</TraitTriggerInfo>
+	<TraitTriggerInfo> <!-- Connect             Copper                                      Runes -->
+			<Type>TRAITTRIGGER_CONNECT_COPPER_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_RUNES</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CONNECT_RESOURCE</TraitHookType>
+			
+			<PrereqBonusType>BONUS_COPPER</PrereqBonusType>
+		</TraitTriggerInfo>
+	<TraitTriggerInfo> <!-- Connect             Jeteye                                      Overlords -->
+			<Type>TRAITTRIGGER_CONNECT_JETEYE_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_OVERLORDS</TraitType>
+					<iModifier>50</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CONNECT_RESOURCE</TraitHookType>
+			
+			<PrereqBonusType>BONUS_JETEYE</PrereqBonusType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Barracks	                       	Order -->
+			<Type>TRAITTRIGGER_CONSTRUCT_BARRACKS_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ORDER</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_BARRACKS</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Courthouse	                       	Order -->
+			<Type>TRAITTRIGGER_CONSTRUCT_COURTHOUSE_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ORDER</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_COURTHOUSE</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Dungeon	                       	Order -->
+			<Type>TRAITTRIGGER_CONSTRUCT_DUNGEON_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ORDER</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_DUNGEON</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Forge	                       	Runes -->
+			<Type>TRAITTRIGGER_CONSTRUCT_FORGE_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_RUNES</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_FORGE</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Gambling House	                       	Esus -->
+			<Type>TRAITTRIGGER_CONSTRUCT_GAMBLING_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ESUS</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_GAMBLING_HOUSE</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Harbor	                       	Overlords -->
+			<Type>TRAITTRIGGER_CONSTRUCT_HARBOR_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_OVERLORDS</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_HARBOR</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Herbalist                       	Fellowship -->
+			<Type>TRAITTRIGGER_CONSTRUCT_HERBALIST_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_FELLOWSHIP</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_HERBALIST</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Hunting lodge                       	Fellowship -->
+			<Type>TRAITTRIGGER_CONSTRUCT_HUNTING_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_FELLOWSHIP</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_HUNTING_LODGE</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Mage Guild                       	Veil -->
+			<Type>TRAITTRIGGER_CONSTRUCT_MAGE_GUILD_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_MAGE_GUILD</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Mage Guild                       	Veil -->
+			<Type>TRAITTRIGGER_CONSTRUCT_PLANAR_GATE_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_PLANAR_GATE</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain Alignment                                                  Empyrean -->
+			<Type>TRAITTRIGGER_GAIN_ALIGNMENT_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_EMPYREAN</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GAIN_ALIGNMENT_POINTS</TraitHookType>
+			
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose Alignment                                                  Veil -->
+			<Type>TRAITTRIGGER_LOSE_ALIGNMENT_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_LOSE_ALIGNMENT_POINTS</TraitHookType>
+			
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain Ethical Alignment                                                  Order -->
+			<Type>TRAITTRIGGER_GAIN_ETHICAL_ALIGNMENT_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ORDER</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GAIN_ETHICAL_ALIGNMENT_POINTS</TraitHookType>
+			
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose Ethical Alignment                                                  Overlords -->
+			<Type>TRAITTRIGGER_LOSE_ETHICAL_ALIGNMENT_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_OVERLORDS</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_LOSE_ETHICAL_ALIGNMENT_POINTS</TraitHookType>
+			
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain GP		Great Commander                                		Order -->
+			<Type>TRAITTRIGGER_GAIN_GP_COMMANDER_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ORDER</TraitType>
+					<iModifier>50</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GP_BORN</TraitHookType>
+			<PrereqUnitClassType>UNITCLASS_COMMANDER</PrereqUnitClassType>
+			
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Forest                               Fellowship -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_FOREST_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_FELLOWSHIP</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqFeatureType>FEATURE_FOREST</PrereqFeatureType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Coast Terrain                               Overlords -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_COAST_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_OVERLORDS</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqTerrainType>TERRAIN_COAST</PrereqTerrainType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Ocean Terrain                               Overlords -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_OCEAN_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_OVERLORDS</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqTerrainType>TERRAIN_OCEAN</PrereqTerrainType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Deep Ocean Terrain                          Overlords -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_OCEAN_DEEP_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_OVERLORDS</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqTerrainType>TERRAIN_OCEAN_DEEP</PrereqTerrainType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Taiga Terrain                          White Hand -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_TAIGA_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WHITE_HAND</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqTerrainType>TERRAIN_TAIGA</PrereqTerrainType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Tundra Terrain                          White Hand -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_TUNDRA_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WHITE_HAND</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqTerrainType>TERRAIN_TUNDRA</PrereqTerrainType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Glacier Terrain                          White Hand -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_GLACIER_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WHITE_HAND</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqTerrainType>TERRAIN_GLACIER</PrereqTerrainType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Hill                          Kilmorph -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_HILL_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_RUNES</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			<bPrereqHill>1</bPrereqHill>
+		</TraitTriggerInfo>
+				<TraitTriggerInfo> <!-- Gain plot           Bair of Lacuna    			                Veil -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_BAIR_OF_LACUNA_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_BAIR_OF_LACUNA</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Bradeline's Well                            Veil -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_BRADELINES_WELL_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>									
+			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_BRADELINES_WELL</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Letum Frigus            					White Hand -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_LETUM_FRIGUS_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WHITE_HAND</TraitType>
+					<iModifier>200</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_LETUM_FRIGUS</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Mirror of Heaven							Empyrean -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_MIRROR_OF_HEAVEN_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_EMPYREAN</TraitType>
+					<iModifier>200</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_MIRROR_OF_HEAVEN</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Level Up          Commander           			             Order -->
+			<Type>TRAITTRIGGER_LEVEL_COMMANDER_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ORDER</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>			
+				<TraitHookType>TRAITHOOK_UNIT_LEVEL_UP</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_COMMANDER</PrereqUnitCombatType>
+		</TraitTriggerInfo>
+	
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Entropy 1             Veil -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_ENTROPY1_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>			
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_ENTROPY1</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Entropy 2             Veil -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_ENTROPY2_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>4</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>			
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_ENTROPY2</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Entropy 3             Veil -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_ENTROPY3_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>			
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_ENTROPY3</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains Esus' mask of the coven of the black candle             Esus  -->
+			<Type>TRAITTRIGGER_GAIN_MASK_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ESUS</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE_ESUS</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose promo          Anything        lose Esus' mask of the coven of the black candle             Esus  -->
+			<Type>TRAITTRIGGER_LOSE_MASK_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ESUS</TraitType>
+					<iModifier>-100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_UNIT_LOSE_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE_ESUS</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Kill                Anything        kills Opposite Alignment                  Order -->
+			<Type>TRAITTRIGGER_KILL_VS_OPPOSITE_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ORDER</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_KILL_UNIT</TraitHookType>
+			<bPrereqOppositeAlignment>1</bPrereqOppositeAlignment>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Civic Foreign Trade                             Empyrean -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_CIVIC_FOREIGN_TRADE_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_EMPYREAN</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+			
+			<PrereqCivics>
+				<CivicType>CIVIC_FOREIGN_TRADE</CivicType>
+			</PrereqCivics>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Civic liberty                               Empyrean -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_CIVIC_LIBERTY_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_EMPYREAN</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+			
+			<PrereqCivics>
+				<CivicType>CIVIC_LIBERTY</CivicType>
+			</PrereqCivics>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Civic Military State                             Order -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_CIVIC_MILITARY_STATE_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ORDER</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+			
+			<PrereqCivics>
+				<CivicType>CIVIC_MILITARY_STATE</CivicType>
+			</PrereqCivics>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Civic Nationhood                             Order -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_CIVIC_NATIONHOOD_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ORDER</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+			
+			<PrereqCivics>
+				<CivicType>CIVIC_NATIONHOOD</CivicType>
+			</PrereqCivics>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Civic Pacifism                             Empyrean -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_CIVIC_PACIFISM_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_EMPYREAN</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+			
+			<PrereqCivics>
+				<CivicType>CIVIC_PACIFISM</CivicType>
+			</PrereqCivics>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Civic slavery                               Esus -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_CIVIC_SLAVERY_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ESUS</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+			
+			<PrereqCivics>
+				<CivicType>CIVIC_SLAVERY</CivicType>
+			</PrereqCivics>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Number of Nature Mana                        Fellowship -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_NATURE_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_NATURE</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_FELLOWSHIP</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Number of Sun Mana                        Empyrean -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_SUN_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_SUN</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_EMPYREAN</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Number of Earth Mana                        Kilmorph -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_EARTH_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_EARTH</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_RUNES</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Number of Law Mana                        Order -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_LAW_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_LAW</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ORDER</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+	
+		<TraitTriggerInfo> <!-- Player turn         Number of Water Mana                        Overlords -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_WATER_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_WATER</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_OVERLORDS</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+		
+		<TraitTriggerInfo> <!-- Player turn         Number of Mind Mana                        Overlords -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_MIND_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_MIND</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_OVERLORDS</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+		
+		<TraitTriggerInfo> <!-- Player turn         Number of Ice Mana                        White Hand -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_ICE_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_ICE</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WHITE_HAND</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Number of Shadow Mana                        Esus -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_SHADOW_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_SHADOW</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ESUS</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Number of Entropy Mana                        Veil -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_ENTROPY_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_ENTROPY</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Number of Dimensional Mana                        Veil -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_DIMENSIONAL_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_DIMENSIONAL</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Player turn         Number of Chaos Mana                        Veil -->
+			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_CHAOS_RELIGION</Type>
+			<BonusMultiplierType>BONUS_MANA_CHAOS</BonusMultiplierType>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Trade               Open Borders                                Empyrean -->
+			<Type>TRAITTRIGGER_TRADE_OPEN_BORDERS_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_EMPYREAN</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_TRADE</TraitHookType>
+			
+			<PrereqTradeableItem>TRADE_OPEN_BORDERS</PrereqTradeableItem>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Trade               Anything                                Empyrean -->
+			<Type>TRAITTRIGGER_TRADE_ANYTHING_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_EMPYREAN</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_TRADE</TraitHookType>
+			
+		</TraitTriggerInfo>
+			<TraitTriggerInfo> <!-- Train               Adept                                       Veil -->
+			<Type>TRAITTRIGGER_TRAIN_ADEPT_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_VEIL</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_TRAIN_UNIT</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+		</TraitTriggerInfo>
+			<TraitTriggerInfo> <!-- Train               Naval                                       Overlords -->
+			<Type>TRAITTRIGGER_TRAIN_NAVAL_RELIGION</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_OVERLORDS</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_RELIGION</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_TRAIN_UNIT</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_NAVAL</PrereqUnitCombatType>
+		</TraitTriggerInfo>
+		
+	</TraitTriggerInfos>
+</Civ4TraitTriggerInfos>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_BLACKWATER</Tag>
+		<English>Blackwater</English>
+		<French>
+			<Text>Eaux corrompues</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Schwarzwasser</German>
+		<Italian>Blackwater</Italian>
+		<Spanish>Blackwater</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_BLIGHTED_COAST</Tag>
+		<English>Blighted Coast</English>
+		<French>
+			<Text>Côte sinistrée:Côtes sinistrées</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Verdorbene Küste</German>
+		<Italian>Blighted Coast</Italian>
+		<Spanish>Blighted Coast</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_BROKEN_LANDS</Tag>
+		<English>Broken Lands</English>
+		<French>
+			<Text>Terres Brisées</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Ausgemergeltes Land</German>
+		<Italian>Broken Lands</Italian>
+		<Spanish>Broken Lands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_BURNING_SANDS</Tag>
+		<English>Burning Sands</English>
+		<French>
+			<Text>Sables Brûlants</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Brennender Sand</German>
+		<Italian>Burning Sands</Italian>
+		<Spanish>Burning Sands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_FIELDS_OF_PERDITION</Tag>
+		<English>Fields of Perdition</English>
+		<French>
+			<Text>Champs de la Perdition</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Verdammtes Land</German>
+		<Italian>Fields of Perdition</Italian>
+		<Spanish>Fields of Perdition</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_GLACIER</Tag>
+		<English>Glacier</English>
+		<French>
+			<Text>Glacier:Glaciers</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Gletscher</German>
+		<Italian>Glacier</Italian>
+		<Spanish>Glacier</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATEZONE_GLACIAL</Tag>
+		<English>Fimbulwinter</English>
+		<French>Fimbulvetr</French>
+		<German>Fimbulwinter</German>
+		<Italian>Fimbulvetr</Italian>
+		<Spanish>Fimbulvetr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_MARSH</Tag>
+		<English>Marsh</English>
+		<French>
+			<Text>Marécage:Marécages</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Sumpf</German>
+		<Italian>Marsh</Italian>
+		<Spanish>Marsh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_OCEAN_DEEP</Tag>
+		<English>Deep Ocean</English>
+		<French>
+			<Text>Océan profond</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Tiefer Ozean</German>
+		<Italian>Deep Ocean</Italian>
+		<Spanish>Deep Ocean</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_SHALLOWS</Tag>
+		<English>Shallows</English>
+		<French>
+			<Text>Marécage maudit</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Untiefen</German>
+		<Italian>Shallows</Italian>
+		<Spanish>Shallows</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_TAIGA</Tag>
+		<English>Taiga</English>
+		<French>
+			<Text>Taïga:Taïgas</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Taiga</German>
+		<Italian>Taiga</Italian>
+		<Spanish>Taiga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_WASTELAND</Tag>
+		<English>Wasteland</English>
+		<French>
+			<Text>Terres nécromantiques</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Brachland</German>
+		<Italian>Wasteland</Italian>
+		<Spanish>Wasteland</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TERRAIN_WASTELAND_PEDIA</Tag>
+		<English>Land blighted by D'tesh's magic.</English>
+		<French>Terrain dévasté par la magie de D'tesh.</French>
+		<German>Land, das durch die Magie der D'tesh verdorben wurde.</German>
+		<Italian>Land blighted by D'tesh's magic.</Italian>
+		<Spanish>Land blighted by D'tesh's magic.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATEZONE_FROST</Tag>
+		<English>Polar</English>
+		<French>Polaire</French>
+		<German>Polar</German>
+		<Italian>Polar</Italian>
+		<Spanish>Polar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATEZONE_BOREAL</Tag>
+		<English>Boreal</English>
+		<French>Boréal</French>
+		<German>Boreal</German>
+		<Italian>Boreal</Italian>
+		<Spanish>Boreal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATEZONE_WETLAND</Tag>
+		<English>Wetland</English>
+		<French>Tropical</French>
+		<German>Feuchtgebiet</German>
+		<Italian>Wetland</Italian>
+		<Spanish>Wetland</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATEZONE_TEMPERATE</Tag>
+		<English>Temperate</English>
+		<French>Tempéré</French>
+		<German>Gemäßigt</German>
+		<Italian>Temperate</Italian>
+		<Spanish>Temperate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATEZONE_SEMIARID</Tag>
+		<English>Semiarid</English>
+		<French>Semi-aride</French>
+		<German>Halbtrocken</German>
+		<Italian>Semiarid</Italian>
+		<Spanish>Semiarid</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATEZONE_ARID</Tag>
+		<English>Arid</English>
+		<French>Aride</French>
+		<German>Trocken</German>
+		<Italian>Arid</Italian>
+		<Spanish>Arid</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATEZONE_WASTELAND</Tag>
+		<English>Wasteland</English>
+		<French>Stérile</French>
+		<German>Brache</German>
+		<Italian>Wasteland</Italian>
+		<Spanish>Wasteland</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CLIMATEZONE_OCEANIC</Tag>
+		<English>Oceanic</English>
+		<French>Océanique</French>
+		<German>Ozeanisch</German>
+		<Italian>Oceanic</Italian>
+		<Spanish>Oceanic</Spanish>
+	</TEXT>
+</Civ4GameText>

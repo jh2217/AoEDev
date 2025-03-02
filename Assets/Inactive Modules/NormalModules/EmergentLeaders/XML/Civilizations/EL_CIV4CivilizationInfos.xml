@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4CivilizationInfos xmlns="x-schema:EL_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+		<CivilizationInfo><!-- Amurites -->
+			<Type>CIVILIZATION_AMURITES</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_DETLESIAS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Clan of Embers -->
+			<Type>CIVILIZATION_CLAN_OF_EMBERS</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_RIZURUK</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Hippus -->
+			<Type>CIVILIZATION_HIPPUS</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_RIGMORA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

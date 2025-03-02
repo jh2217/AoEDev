@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_AGGRESSIVE_AI</Tag>
+		<English>Challenge- Aggressive AI</English>
+		<French>Challenge - IA agressive</French>
+		<German>Challenge- Aggressive AI</German>
+		<Italian>Challenge- Aggressive AI</Italian>
+		<Spanish>Challenge- Aggressive AI</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_AI_NO_BUILDING_PREREQS</Tag>
+		<English>Challenge- AI No Building Requirements</English>
+		<French>Challenge - Pas de bâtiments prérequis pour l'IA</French>
+		<German>KI Benötigt keine Gebäude</German>
+		<Italian>Challenge- AI No Building Requirements</Italian>
+		<Spanish>IA Sin Requisitos de Construcción</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_AI_NO_BUILDING_PREREQS_HELP</Tag>
+		<English>The AI ignores building prereqs for units (i.e.: doesn't need an archery range to build archers)</English>
+		<French>L'IA ignore les bâtiments requis par les unités (ie: elle n'a pas besoin d'un champ de tir pour créer des archers)</French>
+		<German>Die KI benötigt keine Gebäude um Einheiten aufzustellen (z.B. benötigt sie keinen Schießstand um Bogenschützen auszubilden</German>
+		<Italian>The AI ignores building prereqs for units (i.e.: doesn't need an archery range to build archers)</Italian>
+		<Spanish>La IA ignora los prerrequisitos de edificios para construir unidades (Ej: no necesitan una campo de tiro para construir arqueros)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_AI_NO_MINIMUM_LEVEL</Tag>
+		<English>Challenge- AI No Minimum Levels</English>
+		<French>Challenge - Pas de prérequis de niveau pour l'IA</French>
+		<German>KI benötigt keine Beförderungstufen</German>
+		<Italian>Challenge- AI No Minimum Levels</Italian>
+		<Spanish>Challenge- AI No Minimum Levels</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_AI_NO_MINIMUM_LEVEL_HELP</Tag>
+		<English>The AI ignores minimum levels for units (i.e.: can build archmages directly)</English>
+		<French>L'IA ne tient pas compte des prérequis en niveau pour les unités (par ex : elle peut construire directement des Archimages).</French>
+		<German>Die KI benötigt keine Beförderungstufen um Einheiten aufzuwerten (z.B. kann sie direkt Erzmagier aufstellen)</German>
+		<Italian>The AI ignores minimum levels for units (i.e.: can build archmages directly)</Italian>
+		<Spanish>The AI ignores minimum levels for units (i.e.: can build archmages directly)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_ALL_UNIQUE_FEATURES</Tag>
+		<English>All Unique Features</English>
+		<French>Tous les aménagement uniques</French>
+		<German>Alle Einzigartigen Geländefelder</German>
+		<Italian>All Unique Features</Italian>
+		<Spanish>All Unique Features</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_ALL_UNIQUE_FEATURES_HELP</Tag>
+		<English>Map will include every Unique Feature when generated</English>
+		<French>Tous les aménagements uniques seront placés sur la carte.</French>
+		<German>Alle Einzigartigen Geländefelder werden auf der Karte erschaffen</German>
+		<Italian>Map will include every Unique Feature when generated</Italian>
+		<Spanish>Map will include every Unique Feature when generated</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_ALL_UNIQUE_IMPROVEMENTS</Tag>
+		<English>All Unique Features</English>
+		<French>Tous les aménagements uniques</French>
+		<German>Alle einzigartigen Modernisierungen</German>
+		<Italian>All Unique Features</Italian>
+		<Spanish>All Unique Features</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_ALL_UNIQUE_IMPROVEMENTS_HELP</Tag>
+		<English>All of the game's Unique Features will be placed on the map</English>
+		<French>Tous les aménagements uniques seront placés sur la carte.</French>
+		<German>Alle einzigartigen Modernisierungen werden auf der Karte generriert.</German>
+		<Italian>All of the game's Unique Features will be placed on the map</Italian>
+		<Spanish>All of the game's Unique Features will be placed on the map</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_BARBARIAN_WORLD</Tag>
+		<English>Challenge- Barbarian World</English>
+		<French>Challenge - Monde Barbare</French>
+		<German>Fortgeschrittener Barbaren-Start</German>
+		<Italian>Challenge- Barbarian World</Italian>
+		<Spanish>Mundo Bárbaro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_BARBARIAN_WORLD_HELP</Tag>
+		<English>The world starts already inhabited with barbarian cities</English>
+		<French>Le monde commence déjà colonisé par des cités barbares</French>
+		<German>Das Spiel startet mit bewohnten Barbarenstädten</German>
+		<Italian>The world starts already inhabited with barbarian cities</Italian>
+		<Spanish>El mundo empieza previamente habitado con ciudades bárbaras</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_BLUE_MARBLE_TERRAIN</Tag>
+		<English>Blue Marble Terrain</English>
+		<French>Terrains Blue Marble</French>
+		<German>Blue Marble Terrain</German>
+		<Italian>Blue Marble Terrain</Italian>
+		<Spanish>Terreno Blue Marble</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_BLUE_MARBLE_TERRAIN_HELP</Tag>
+		<English>Use Kai Fiebach's Blue Marble terrain instead of FfH fantasy terrain</English>
+		<French>Utilise les terrains Blue Marble de Kai Fiebach's au lieu des terrains heroic fantasy de FFH</French>
+		<German>Benutze Kai Fiebachs Blue Marble terrain anstelle des FfH fantasy terrains</German>
+		<Italian>Use Kai Fiebach's Blue Marble terrain instead of FfH fantasy terrain</Italian>
+		<Spanish>Utilizar terreno Blue Marble de Kai Fiebach en lugar del terreno de fantasía FfH</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_BROADER_ALIGNMENTS</Tag>
+		<English>Broader Alignments</English>
+		<French>Alignements étendus</French>
+		<German>Ausweitung der Gesinnungen</German>
+		<Italian>Broader Alignments</Italian>
+		<Spanish>Broader Alignments</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_BROADER_ALIGNMENTS_HELP</Tag>
+		<English>Alignment is determined by a sliding scale and can be changed in many more ways than just by adopting a Religion.</English>
+		<French>L'alignment est déterminé plus finement sur une échelle de valeurs. Outre la religion, d'autres facteurs peuvent désormais le modifier.</French>
+		<German>Gesinnung wird auf einer Maßskala ermittelt und kann auf vielfältigere Weise verändert werden, als durch bloße Annahme einer Religion.</German>
+		<Italian>Alignment is determined by a sliding scale and can be changed in many more ways than just by adopting a Religion.</Italian>
+		<Spanish>Alignment is determined by a sliding scale and can be changed in many more ways than just by adopting a Religion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_CHALLENGE_CUT_LOSERS</Tag>
+		<English>Challenge- Final Five</English>
+		<French>Challenge - Il ne peut en rester que 5</French>
+		<German>Herausforderung - Die letzten Fünf</German>
+		<Italian>Challenge- Final Five</Italian>
+		<Spanish>Challenge- Final Five</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_CHALLENGE_CUT_LOSERS_HELP</Tag>
+		<English>Every 50 turns the lowest ranked player is cut from the game until there are only 5 players left</English>
+		<French>Tous les 50 tours, le joueur le plus faible est éliminé de la partie, jusqu'à ce qu'il n'en reste que 5 en jeu</French>
+		<German>Alle 50 Runden werden der Spieler mit der niedrigsten Wertung aus der Partie entfernt, bis nur noch 5 Spieler übrig bleiben</German>
+		<Italian>Every 50 turns the lowest ranked player is cut from the game until there are only 5 players left</Italian>
+		<Spanish>Every 50 turns the lowest ranked player is cut from the game until there are only 5 players left</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_CHALLENGE_HIGH_TO_LOW</Tag>
+		<English>Challenge- High to Low</English>
+		<French>Challenge - De haut en bas</French>
+		<German>Herausforderung - Erster gleich Letzter</German>
+		<Italian>Challenge- High to Low</Italian>
+		<Spanish>Challenge- High to Low</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_CHALLENGE_HIGH_TO_LOW_HELP</Tag>
+		<English>When you become the highest ranked player you are forced to take over the lowest-ranked team. You must make them into the highest-ranked team and you will be switched to the lowest-ranked team again. That third team is your final team that you have to win with. (single player only)</English>
+		<French>Quand vous atteignez la première place, vous vous retrouvez à la tête de l'équipe la plus faible. Vous devez en faire alors l'équipe la mieux classée, avant de basculer à nouveau  sur l'équipe la plus faible. Cette troisième équipe sera votre dernière, avec laquelle vous devrez gagner (partie solo uniquement)</French>
+		<German>Sobald der Spieler die Spitze der Wertung eingenommen hat, muss er die Zivilisation mit der niedrigsten Wertung übernehmen. Mit dieser muss der Spieler dann wieder die Spitze der Wertung übernehmen und muss dann abermals zur Zivilisation mit der niedrigsten Wertung wechseln. Dieses dritte Zivilisation ist dann die endgültige Zivilisation des Spielers, mit der auch die Partie gewonnen werden muss. (nur Einzelspieler)</German>
+		<Italian>When you become the highest ranked player you are forced to take over the lowest-ranked team. You must make them into the highest-ranked team and you will be switched to the lowest-ranked team again. That third team is your final team that you have to win with. (single player only)</Italian>
+		<Spanish>When you become the highest ranked player you are forced to take over the lowest-ranked team. You must make them into the highest-ranked team and you will be switched to the lowest-ranked team again. That third team is your final team that you have to win with. (single player only)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_CHALLENGE_INCREASING_DIFFICULTY</Tag>
+		<English>Challenge- Increasing Difficulty</English>
+		<French>Challenge - Difficulté croissante</French>
+		<German>Herausforderung - Steigende Schwierigkeit</German>
+		<Italian>Challenge- Increasing Difficulty</Italian>
+		<Spanish>Challenge- Increasing Difficulty</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_CHALLENGE_INCREASING_DIFFICULTY_HELP</Tag>
+		<English>Every 50 turns the game difficulty increases by 1 until it gets to Deity</English>
+		<French>Tous les 50 tours, la difficulté de jeu augmente d'un cran jusqu'à ce que vous soyez en "Divinité"</French>
+		<German>Alle 50 Runden erhöht sich der Schwierigkeitsgard um eine Stufe, bis er "Gottheit" erreicht</German>
+		<Italian>Every 50 turns the game difficulty increases by 1 until it gets to Deity</Italian>
+		<Spanish>Every 50 turns the game difficulty increases by 1 until it gets to Deity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DARK_FORESTS</Tag>
+		<English>Dark Forests</English>
+		<French>Forêts menaçantes</French>
+		<German>Dunkle Wälder</German>
+		<Italian>Dark Forests</Italian>
+		<Spanish>Dark Forests</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DARK_FORESTS_HELP</Tag>
+		<English>Start the game with Blighted Forests (45%) or Diakonos (45%) or both (10%) on the map.</English>
+		<French>45% de chance que la carte génère des forêts funestes, 45% de chance qu'elle génère des Diakonos et 10% de chance d'avoir les deux</French>
+		<German>Beginnt mit Verdorbenen Wäldern (45%) oder Diakonos (45%) oder beide (10%) auf der Karte.</German>
+		<Italian>Start the game with Blighted Forests (45%) or Diakonos (45%) or both (10%) on the map.</Italian>
+		<Spanish>Start the game with Blighted Forests (45%) or Diakonos (45%) or both (10%) on the map.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DISABLE_ARCHOS</Tag>
+		<English>[FF]Disable Archos</English>
+		<French>[FF]Désactiver la civilisation Archos</French>
+		<German>[FF]Deaktiviere Arachonen</German>
+		<Italian>[FF]Disable Archos</Italian>
+		<Spanish>[FF]Disable Archos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DISABLE_AUSTRIN</Tag>
+		<English>[FF]Disable Austrin</English>
+		<French>[FF]Désactiver la civilisation Austrin</French>
+		<German>[FF]Deaktiviere Austrin</German>
+		<Italian>[FF]Disable Austrin</Italian>
+		<Spanish>[FF]Disable Austrin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DISABLE_CHISLEV</Tag>
+		<English>[FF]Disable Chislev</English>
+		<French>[FF]Désactiver la civilisation Chislev</French>
+		<German>[FF]Deaktiviere Chislev</German>
+		<Italian>[FF]Disable Chislev</Italian>
+		<Spanish>[FF]Disable Chislev</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DISABLE_CUALLI</Tag>
+		<English>[FF]Disable Cualli</English>
+		<French>[FF]Désactiver la civilisation Cualli</French>
+		<German>[FF]Deaktiviere Cualli</German>
+		<Italian>[FF]Disable Cualli</Italian>
+		<Spanish>[FF]Disable Cualli</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DISABLE_DURAL</Tag>
+		<English>[FF]Disable Dural</English>
+		<French>[FF]Désactiver la civilisation Dural</French>
+		<German>[FF]Deaktiviere Dural</German>
+		<Italian>[FF]Disable Dural</Italian>
+		<Spanish>[FF]Disable Dural</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DISABLE_KAHDI</Tag>
+		<English>[FF]Disable Kahdi</English>
+		<French>[FF]Désactiver la civilisation Kahdi</French>
+		<German>[FF]Deaktiviere Kahdi</German>
+		<Italian>[FF]Disable Kahdi</Italian>
+		<Spanish>[FF]Disable Kahdi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DISABLE_MAZATL</Tag>
+		<English>[FF]Disable Mazatl</English>
+		<French>[FF]Désactiver la civilisation Mazatl</French>
+		<German>[FF]Deaktiviere Mazatl</German>
+		<Italian>[FF]Disable Mazatl</Italian>
+		<Spanish>[FF]Disable Mazatl</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DOUBLE_ANIMALS</Tag>
+		<English>Wildlands</English>
+		<French>Terres Sauvages</French>
+		<German>Mehr Tiere</German>
+		<Italian>Wildlands</Italian>
+		<Spanish>Tierras Salvajes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DOUBLE_ANIMALS_HELP</Tag>
+		<English>Double the amount of animals that spawn</English>
+		<French>Double le taux d'apparition des animaux</French>
+		<German>Verdoppelt die Menge der Tiere die im Spiel erscheinen</German>
+		<Italian>Double the amount of animals that spawn</Italian>
+		<Spanish>Se dobla la cantidad de animales que se generan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DOUBLE_BONUSES</Tag>
+		<English>Blessing of Amathaon</English>
+		<French>Bénédiction d'Amathaon</French>
+		<German>Mehr Ressourcen</German>
+		<Italian>Blessing of Amathaon</Italian>
+		<Spanish>Bendición de Amateón</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DOUBLE_BONUSES_HELP</Tag>
+		<English>Double the amount of bonuses</English>
+		<French>Double le nombre de bonus</French>
+		<German>Verdoppelt die Anzahl der Ressourcen im Spiel</German>
+		<Italian>Double the amount of bonuses</Italian>
+		<Spanish>Duplica la cantidad de bonificaciones</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DOUBLE_EVENTS</Tag>
+		<English>Living World</English>
+		<French>Monde Vivant</French>
+		<German>Mehr Zufallsereignisse</German>
+		<Italian>Living World</Italian>
+		<Spanish>Mundo Vivo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DOUBLE_EVENTS_HELP</Tag>
+		<English>Doubles the frequency of Events</English>
+		<French>Double la fréquence des évènements</French>
+		<German>Verdoppelt die Häufigkeit der Zufallsereignisse</German>
+		<Italian>Doubles the frequency of Events</Italian>
+		<Spanish>Dobla la frecuencia de los Eventos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DOUBLE_GLOBAL_COUNTER</Tag>
+		<English>Last Days</English>
+		<French>Derniers Jours</French>
+		<German>Beschleunigtes Armageddon</German>
+		<Italian>Last Days</Italian>
+		<Spanish>Últimos días</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_DOUBLE_GLOBAL_COUNTER_HELP</Tag>
+		<English>Doubles any changes to the Armageddon Counter</English>
+		<French>Double tous les changements au compteur Armageddon</French>
+		<German>Verdoppelt die Veränderungen auf den Armageddonzähler</German>
+		<Italian>Doubles any changes to the Armageddon Counter</Italian>
+		<Spanish>Dobla cualquier cambio producido en el Contador del Armagedón</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_ENABLE_COMBAT_LOG</Tag>
+		<English>Enable Combat Log</English>
+		<French>Activer l'archivage des combats</French>
+		<German>Kampf-Log aktivieren</German>
+		<Italian>Enable Combat Log</Italian>
+		<Spanish>Enable Combat Log</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_ENABLE_COMBAT_LOG_HELP</Tag>
+		<English>Enables the Combat Log ingame to record combat calculations.[NEWLINE] --WARNING--   May cause game to run slower</English>
+		<French>Permet l'archivage des combats et des calculs.[NEWLINE] --ATTENTION--[TAB]Peut ralentir le jeu</French>
+		<German>Aktiviert Kampf-Log im Spiel, um die Kampfberechnungen aufzuzeichnen.[NEWLINE] --WARNUNG--   Kann die Spielperformance ERHEBLICH verlangsamen!</German>
+		<Italian>Enables the Combat Log ingame to record combat calculations.[NEWLINE] --WARNING--   May cause game to run slower</Italian>
+		<Spanish>Enables the Combat Log ingame to record combat calculations.[NEWLINE] --WARNING--   May cause game to run slower</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_FERAL_MANA</Tag>
+		<English>Feral Mana</English>
+		<French>Mana sauvage</French>
+		<German>Verwildertes Mana</German>
+		<Italian>Feral Mana</Italian>
+		<Spanish>Feral Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_FERAL_MANA_HELP</Tag>
+		<English>Converts nearly all of the worlds mana. Depends on the 'Wild Mana' option.</English>
+		<French>Convertit pratiquement tous les n&#156;uds de mana de la carte. Dépend de l'option 'Mana déchaîné'.</French>
+		<German>Wandelt nahezu alles Mana in die verfügbaren Arten um. Benötigt die 'Wildes Mana' Option.</German>
+		<Italian>Converts nearly all of the worlds mana. Depends on the 'Wild Mana' option.</Italian>
+		<Spanish>Converts nearly all of the worlds mana. Depends on the 'Wild Mana' option.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_FLAVOUR_START</Tag>
+		<English>Flavour Start</English>
+		<French>Départ adapté</French>
+		<German>Passende Startposition</German>
+		<Italian>Flavour Start</Italian>
+		<Spanish>Flavour Start</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_FLAVOUR_START_HELP</Tag>
+		<English>All civilizations and unique features start in flavourwise appropriate regions.</English>
+		<French>Toutes les civilisations et les aménagements uniques commencent dans une région correspondant à leur pédia..</French>
+		<German>Alle Zivilisationen und einzigartigen Geländefelder beginnen in zu ihnen passenden Landschaften.</German>
+		<Italian>All civilizations and unique features start in flavourwise appropriate regions.</Italian>
+		<Spanish>All civilizations and unique features start in flavourwise appropriate regions.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_FLEXIBLE_DIFFICULTY</Tag>
+		<English>Flexible Difficulty</English>
+		<French>Difficulté adaptable</French>
+		<German>Wechselnder Schwierigkeitsgrad</German>
+		<Italian>Flexible Difficulty</Italian>
+		<Spanish>Flexible Difficulty</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_FLEXIBLE_DIFFICULTY_HELP</Tag>
+		<English>If the player is in the top third the game difficulty increases by one. If the player is in the bottom third the game difficulty decreases by one. (single player only)</English>
+		<French>Si le joueur est dans le top 3, la difficulté augmente d'un cran. S'il est dans les 3 derniers, la difficulté diminue d'un cran (partie solo uniquement)</French>
+		<German>Wenn der Spieler unter den besten 3 ist, steigt der Schwierigkeitsgrad um eine Stufe, wenn er unter den schlechtesten 3 ist, fällt er um eine Stufe. (Nur Einzelspielermodus)</German>
+		<Italian>If the player is in the top third the game difficulty increases by one. If the player is in the bottom third the game difficulty decreases by one. (single player only)</Italian>
+		<Spanish>If the player is in the top third the game difficulty increases by one. If the player is in the bottom third the game difficulty decreases by one. (single player only)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_LIMITED_CIVILIZATION_SELECTION</Tag>
+		<English>Restrict Random Civilizations</English>
+		<French>Restreindre les civilisations aléatoires</French>
+		<German>Beschränkung zufälliger Zivilisationen</German>
+		<Italian>Restrict Random Civilizations</Italian>
+		<Spanish>Restrict Random Civilizations</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_LIMITED_CIVILIZATION_SELECTION_HELP</Tag>
+		<English>Launches a Pop-up to select which Civilizations will be allowed for Random option to select from.[NEWLINE][NEWLINE]This restriction of available Civilizations only applies for starting the game, once the game is up and running any Civilization can join again (via Minister Koun, Infernal, or Mercurians)[NEWLINE][NEWLINE]Disabled for Multiplayer, would cause an automatic OOS on first turn</English>
+		<French>Fait apparaître un pop-up pour sélectionner quelles civilisations sont disponibles lors d'une sélection aléatoire.[NEWLINE][NEWLINE]Cette restriction des civilisations disponibles ne s'applique qu'au démarrage de la partie. Une fois la partie commencée, n'importe quelle civilisation peut à nouveau apparaître (via le Ministre Koun, les Infernaux ou les Mercuriens)[NEWLINE][NEWLINE]Désactivé en Multijoueurs, car causerait un OOS automatique dès le premier tour.</French>
+		<German>öffnet ein neues Fenster mit einem Auswahlmenü zum Einstellen der erlaubten Zivilisationen bei einer zufällige Auswahl.[NEWLINE][NEWLINE]Diese Beschränkung der Zivilisationen gilt nur für den Spielstart, hat das Spiel erst einmal begonnen, kann wieder jede Zivilisation teilnehmen (durch Minister Koun, die Infernalen oder die Mercurianer)[NEWLINE][NEWLINE]Deaktiviert für Multiplayer-Modus, würde automatisch OOS in der ersten Runde verursachen.</German>
+		<Italian>Launches a Pop-up to select which Civilizations will be allowed for Random option to select from.[NEWLINE][NEWLINE]This restriction of available Civilizations only applies for starting the game, once the game is up and running any Civilization can join again (via Minister Koun, Infernal, or Mercurians)[NEWLINE][NEWLINE]Disabled for Multiplayer, would cause an automatic OOS on first turn</Italian>
+		<Spanish>Launches a Pop-up to select which Civilizations will be allowed for Random option to select from.[NEWLINE][NEWLINE]This restriction of available Civilizations only applies for starting the game, once the game is up and running any Civilization can join again (via Minister Koun, Infernal, or Mercurians)[NEWLINE][NEWLINE]Disabled for Multiplayer, would cause an automatic OOS on first turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_MANA_GUARDIANS</Tag>
+		<English>Mana Guardians</English>
+		<French>Gardiens du Mana</French>
+		<German>Mana Wächter</German>
+		<Italian>Mana Guardians</Italian>
+		<Spanish>Mana Guardians</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_MANA_GUARDIANS_HELP</Tag>
+		<English>Spawns a guardian on all typed manas. Depends on the 'Wild Mana' option.</English>
+		<French>Fait apparaître un gardien sur chaque type de mana converti. Dépend de l'option 'Mana déchaîné'.</French>
+		<German>Erschafft einen Wächter auf jedem verfügbaren Mana. Benötigt die 'Wildes Mana' Option.</German>
+		<Italian>Spawns a guardian on all typed manas. Depends on the 'Wild Mana' option.</Italian>
+		<Spanish>Spawns a guardian on all typed manas. Depends on the 'Wild Mana' option.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_ACHERON</Tag>
+		<English>No Acheron</English>
+		<French>Sans Acheron</French>
+		<German>Kein Archeron</German>
+		<Italian>No Acheron</Italian>
+		<Spanish>Sin Acheron</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_ACHERON_HELP</Tag>
+		<English>The Barbarians will be unable to create Acheron</English>
+		<French>Les barbares ne feront pas apparaître le dragon Acheron</French>
+		<German>Die Barbaren können keinen Archeron aufstellen</German>
+		<Italian>The Barbarians will be unable to create Acheron</Italian>
+		<Spanish>Los Bárbaros serán incapaces de crear a Acheron</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_ANIMALS</Tag>
+		<English>No Wild Animals</English>
+		<French>Pas d'animaux sauvages</French>
+		<German>Keine Wilden Tiere</German>
+		<Italian>No Wild Animals</Italian>
+		<Spanish>No Wild Animals</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_ANIMALS_HELP</Tag>
+		<English>Removes the Animal faction of the Barbarians from the game</English>
+		<French>Retire la faction Animale des barbares de la partie.</French>
+		<German>Schließt die barbarische Fraktion der Tiere (Cernunnos) vom Spiel aus. Was dumm wäre.</German>
+		<Italian>Removes the Animal faction of the Barbarians from the game</Italian>
+		<Spanish>Removes the Animal faction of the Barbarians from the game</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_BARBARIANS</Tag>
+		<English>No Savages</English>
+		<French>Pas de Barbares</French>
+		<German>Keine Barbaren</German>
+		<Italian>No Savages</Italian>
+		<Spanish>No Savages</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_BARBARIANS_HELP</Tag>
+		<English>Removes the Savage faction of the Barbarians from the game</English>
+		<French>Retire la faction Sauvage des Barbares de la partie.</French>
+		<German>Entfernt das Volk der wilden Barbaren (Bhall) aus dem Spiel</German>
+		<Italian>Removes the Savage faction of the Barbarians from the game</Italian>
+		<Spanish>Removes the Savage faction of the Barbarians from the game</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_DEMONS</Tag>
+		<English>No Demonic Horde</English>
+		<French>Pas de Horde Démoniaque</French>
+		<German>Keine Dämonische Horde</German>
+		<Italian>No Demonic Horde</Italian>
+		<Spanish>No Demonic Horde</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_DEMONS_HELP</Tag>
+		<English>Removes the Demon faction of the Barbarians from the game</English>
+		<French>Retire la faction Démoniaque des Barbares de la partie.</French>
+		<German>Entfernt die Fraktion der Dämonen (Agares) aus dem Spiel.</German>
+		<Italian>Removes the Demon faction of the Barbarians from the game</Italian>
+		<Spanish>Removes the Demon faction of the Barbarians from the game</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_DUIN</Tag>
+		<English>No Duin</English>
+		<French>Sans Duin</French>
+		<German>Kein Baron Duin Halfmorn</German>
+		<Italian>No Duin</Italian>
+		<Spanish>Sin Duin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_DUIN_HELP</Tag>
+		<English>No players will be able to build Duin Halfmorn</English>
+		<French>Aucun joueur ne pourra créer le baron Duin Halfmorn</French>
+		<German>Keinem Spieler ist es möglich Baron Duin Halfmorn aufzustellen</German>
+		<Italian>No players will be able to build Duin Halfmorn</Italian>
+		<Spanish>Ningún jugador podrá construir a Duin Halfmorn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_EVENTS</Tag>
+		<English>DEBUG- Disable Events</English>
+		<French>DEBUG - Désactiver les évènements</French>
+		<German>Keine Zufallsereignisse</German>
+		<Italian>DEBUG- Disable Events</Italian>
+		<Spanish>DEBUG- Desactivar Eventos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_EVENTS_HELP</Tag>
+		<English>Note- Only use this to debug OOS issues, many functions in AoE use events and this will break them</English>
+		<French>Note - À n'utiliser que pour corriger les problèmes liés à un OOS. De nombreuses focntionnalités de AoE utilisent les évènements et ceci bloquera.</French>
+		<German>Anmerkung: Diese Option ist nur zur Fehlersuche für OOS-Fehler, viele Features in AoE benutzen die Zufallsereignisse und dies setzt sie ausser Funktion.</German>
+		<Italian>Note- Only use this to debug OOS issues, many functions in AoE use events and this will break them</Italian>
+		<Spanish>Note- Only use this to debug OOS issues, many functions in AoE use events and this will break them</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_GLOBAL_COUNTER</Tag>
+		<English>Hallowed Ground</English>
+		<French>Sol Béni</French>
+		<German>kein Armageddon</German>
+		<Italian>Hallowed Ground</Italian>
+		<Spanish>Tierra Santificada</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_GLOBAL_COUNTER_HELP</Tag>
+		<English>Removes the Armageddon Counter from the game</English>
+		<French>Enlève le Compteur Armageddon de la partie</French>
+		<German>entfernt den Armageddonzähler aus dem Spiel</German>
+		<Italian>Removes the Armageddon Counter from the game</Italian>
+		<Spanish>Quita el Contador del Armagedón del juego</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_HYBOREM_OR_BASIUM</Tag>
+		<English>Compact Enforced</English>
+		<French>Convention Renforcée</French>
+		<German>keine Infernals oder Mercurians</German>
+		<Italian>Compact Enforced</Italian>
+		<Spanish>Concisión Forzada</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_HYBOREM_OR_BASIUM_HELP</Tag>
+		<English>The Infernal and the Mercurians will never enter the game</English>
+		<French>Les Infernaux et les Mercuriens n'entreront jamais en jeu</French>
+		<German>Die Infernals oder Mercurians werden diese Welt nicht betreten</German>
+		<Italian>The Infernal and the Mercurians will never enter the game</Italian>
+		<Spanish>Los Infernales y los Mercurians nunca entrarán en la partida</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_INFLATION</Tag>
+		<English>No Inflation</English>
+		<French>Pas d'inflation</French>
+		<German>Keine Inflation</German>
+		<Italian>No Inflation</Italian>
+		<Spanish>No Inflation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_LAIRS</Tag>
+		<English>No Lairs</English>
+		<French>Pas de donjons</French>
+		<German>Keine Unterschlüpfe</German>
+		<Italian>No Lairs</Italian>
+		<Spanish>Sin Guaridas/Cubiles</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_LAIRS_HELP</Tag>
+		<English>No lairs will be created on the map</English>
+		<French>Aucun donjon ne sera créé sur la carte</French>
+		<German>Auf der Karte erscheinen keine Unterschlüpfe, aus denen Einheiten herauskommen können</German>
+		<Italian>No lairs will be created on the map</Italian>
+		<Spanish>No serán creadas guaridas en el mapa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_LIBERATION</Tag>
+		<English>No Liberation</English>
+		<French>Pas de Libération</French>
+		<German>Keine Befreiung der Gefrorenen Zivilisation</German>
+		<Italian>No Liberation</Italian>
+		<Spanish>No Liberation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_LIBERATION_HELP</Tag>
+		<English>Prevents summoning the Frozen civilization.</English>
+		<French>Empêche l'invocation de la civilisation cryonide.</French>
+		<German>Verhindert die Beschwörung der Gefrorenen Zivilisation.</German>
+		<Italian>Prevents summoning the Frozen civilization.</Italian>
+		<Spanish>Prevents summoning the Frozen civilization.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_INFLATION_HELP</Tag>
+		<English>Makes it impossible to blow balloons up.</English>
+		<French>Empêche une hausse incontrôlée des coûts</French>
+		<German>Macht es unmöglich, Ballons aufzublasen!</German>
+		<Italian>Makes it impossible to blow balloons up.</Italian>
+		<Spanish>Makes it impossible to blow balloons up.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_ORTHUS</Tag>
+		<English>No Orthus</English>
+		<French>Sans Orthus</French>
+		<German>Kein Orthus</German>
+		<Italian>No Orthus</Italian>
+		<Spanish>Sin Orthus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_ORTHUS_HELP</Tag>
+		<English>The Barbarians will be unable to create Orthus</English>
+		<French>Les barbares ne feront pas apparaître Orthus</French>
+		<German>Die Barbaren können keinen Orthus aufstellen</German>
+		<Italian>The Barbarians will be unable to create Orthus</Italian>
+		<Spanish>Los Bárbaros no pueden crear a Orthus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_PLOT_COUNTER</Tag>
+		<English>No Hell Terrain</English>
+		<French>Pas de Terrain Infernal</French>
+		<German>Kein Höllengebiet</German>
+		<Italian>No Hell Terrain</Italian>
+		<Spanish>Sin terreno Infernal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_PLOT_COUNTER_HELP</Tag>
+		<English>Removes Hell Terrain from the game (hell terrain created with the worldbuilder will stay hell terrain)</English>
+		<French>Supprime le Terrain Infernal de la partie (le terrain infernal créé via le worldbuilder restera du terrain infernal).</French>
+		<German>Entfent das Höllengebiet aus dem Spiel (Höllengebiet das mit dem Weltenbauer erzeugt wurde bleibt)</German>
+		<Italian>Removes Hell Terrain from the game (hell terrain created with the worldbuilder will stay hell terrain)</Italian>
+		<Spanish>Quita el Terreno Infernal del juego (el terreno infernal creado en el editor de mundos permanecerá como tal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_0</Tag>
+		<English>Remove Religion- Fellowship of Leaves</English>
+		<French>Désactiver Religion - Communauté des Feuilles</French>
+		<German>Keine "Gefährten des Laubes" Religion</German>
+		<Italian>Remove Religion- Fellowship of Leaves</Italian>
+		<Spanish>Quitar Religión- Comunidad de las Hojas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_0_HELP</Tag>
+		<English>Removes the Fellowship of Leaves religion from the game</English>
+		<French>Retire la Communauté des Feuilles du jeu</French>
+		<German>Entfernt die Religion "Gefährten des Laubes" aus dem Spiel</German>
+		<Italian>Removes the Fellowship of Leaves religion from the game</Italian>
+		<Spanish>Quita la religión Comunidad de las Hojas del juego</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_1</Tag>
+		<English>Remove Religion- The Order</English>
+		<French>Désactiver Religion - l'Ordre</French>
+		<German>Keine "Die Weisung" Religion</German>
+		<Italian>Remove Religion- The Order</Italian>
+		<Spanish>Quitar Religión- El Orden</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_1_HELP</Tag>
+		<English>Removes the Order religion from the game</English>
+		<French>Retire l'Ordre du jeu</French>
+		<German>Entfernt die Religion "Die Weisung" aus dem Spiel</German>
+		<Italian>Removes the Order religion from the game</Italian>
+		<Spanish>Quita la religión del Orden de la partida</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_2</Tag>
+		<English>Remove Religion- Octopus Overlords</English>
+		<French>Désactiver Religion - Poulpes Suzerains</French>
+		<German>Keine "Schatten der Tiefe" Religion</German>
+		<Italian>Remove Religion- Octopus Overlords</Italian>
+		<Spanish>Quitar Religión- Octópodos Supremos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_2_HELP</Tag>
+		<English>Removes the Octopus Overlords religion from the game</English>
+		<French>Retire les Poulpes Suzerains du jeu</French>
+		<German>Entfernt die Religion "Schatten der Tiefe" aus dem Spiel</German>
+		<Italian>Removes the Octopus Overlords religion from the game</Italian>
+		<Spanish>Quita la religión de los Octópodos Supremos del juego</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_3</Tag>
+		<English>Remove Religion- Runes of Kilmorph</English>
+		<French>Désactiver Religion - Runes de Kilmorph</French>
+		<German>Keine "Runen von Kilmorph" Religion</German>
+		<Italian>Remove Religion- Runes of Kilmorph</Italian>
+		<Spanish>Quitar Religión- Runas de Kilmorph</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_3_HELP</Tag>
+		<English>Removes the Runes of Kilmorph religion from the game</English>
+		<French>Retire les Runes de Kilmorph du jeu</French>
+		<German>Entfernt die Religion "Runen von Kilmorph" aus dem Spiel</German>
+		<Italian>Removes the Runes of Kilmorph religion from the game</Italian>
+		<Spanish>Quita la religión de las Runas de Kilmorph del juego</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_4</Tag>
+		<English>Remove Religion- The Ashen Veil</English>
+		<French>Désactiver Religion - Le Voile de Cendres</French>
+		<German>Keine "Der Aschfahle Schleier" Religion</German>
+		<Italian>Remove Religion- The Ashen Veil</Italian>
+		<Spanish>Quitar Religión- El Velo Ceniciento</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_4_HELP</Tag>
+		<English>Removes the Ashen Veil religion from the game (Hyborem can't enter the game when this option is selected)</English>
+		<French>Retire le Voile de Cendres du jeu (Hyborem ne peut pas entrer dans le jeu lorsque cette option est sélectionnée)</French>
+		<German>Entfernt die Religion "Der Aschfahle Schleier" aus dem Spiel</German>
+		<Italian>Removes the Ashen Veil religion from the game (Hyborem can't enter the game when this option is selected)</Italian>
+		<Spanish>Quita la religión del Velo Ceniciento del juego (Hyborem no puede entrar en el juego cuando se selecciona esta opción)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_5</Tag>
+		<English>Remove Religion- The Empyrean</English>
+		<French>Désactiver Religion- Les Empyréens</French>
+		<German>Keine "Das Empyrion" Religion</German>
+		<Italian>Remove Religion- The Empyrean</Italian>
+		<Spanish>Quitar Religión- Los Empyreos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_5_HELP</Tag>
+		<English>Removes the Empyrean religion from the game</English>
+		<French>Retire les Empyréens du jeu</French>
+		<German>Entfernt die Religion "Das Empyrion" aus dem Spiel</German>
+		<Italian>Removes the Empyrean religion from the game</Italian>
+		<Spanish>Quita la religión de los Empyreos del juego</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_6</Tag>
+		<English>Remove Religion- The Council of Esus</English>
+		<French>Désactiver Religion- Le Conseil d'Esus</French>
+		<German>Keine "Rat des Esus" Religion</German>
+		<Italian>Remove Religion- The Council of Esus</Italian>
+		<Spanish>Quitar Religión- El Consejo de Esus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_6_HELP</Tag>
+		<English>Removes the Council of Esus religion from the game</English>
+		<French>Retire le Conseil d'Esus du jeu</French>
+		<German>Entfernt die Religion "Rat des Esus" aus dem Spiel</German>
+		<Italian>Removes the Council of Esus religion from the game</Italian>
+		<Spanish>Quita la religión del Consejo de Esus del juego</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_7</Tag>
+		<English>Remove Religion- The White Hand</English>
+		<French>Désactiver Religion- La Main Blanche</French>
+		<German>Remove Religion- The White Hand</German>
+		<Italian>Remove Religion- The White Hand</Italian>
+		<Spanish>Remove Religion- The White Hand</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RELIGION_7_HELP</Tag>
+		<English>Removes the White Hand religion from the game</English>
+		<French>Retire la Main Blanche du jeu</French>
+		<German>Removes the White Hand religion from the game</German>
+		<Italian>Removes the White Hand religion from the game</Italian>
+		<Spanish>Removes the White Hand religion from the game</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_SETTLERS</Tag>
+		<English>Challenge- No Settlers</English>
+		<French>Challenge - Pas de Colons</French>
+		<German>Keine Siedler</German>
+		<Italian>Challenge- No Settlers</Italian>
+		<Spanish>Sin Colonos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_SETTLERS_HELP</Tag>
+		<English>No one can build settlers</English>
+		<French>Personne ne peut construire de colons</French>
+		<German>Kein Spieler kann Siedler bauen</German>
+		<Italian>No one can build settlers</Italian>
+		<Spanish>Nadie puede construir colonos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_UNIQUE_IMPROVEMENTS</Tag>
+		<English>No Unique Features</English>
+		<French>Pas d'aménagements uniques</French>
+		<German>Keine einzigartigen Features</German>
+		<Italian>No Unique Features</Italian>
+		<Spanish>Sin Lugares Únicos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_UNIQUE_IMPROVEMENTS_HELP</Tag>
+		<English>No Unique Features will be generated on the map</English>
+		<French>Aucun aménagement unique ne sera placé sur la carte.</French>
+		<German>Es werden auf der Karte keine einzigartigen Features generiert</German>
+		<Italian>No Unique Features will be generated on the map</Italian>
+		<Spanish>No se generarán Lugares Únicos en el mapa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_WORKER_XP</Tag>
+		<English>No Worker XP</English>
+		<French>Pas d'EXP pour les ouvriers</French>
+		<German>Kein EP für Bautrupp</German>
+		<Italian>No Worker XP</Italian>
+		<Spanish>No Worker XP</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_WORKER_XP_HELP</Tag>
+		<English>Disables automatic XP gain on Worker Units.  Worker promotions can still be acquired if XP is gained by other means (like Spirit Guide or a Training Building)</English>
+		<French>Le gain automatique d'EXP est désactivé pour les ouvriers. Les promotions des ouvriers sont toujours disponibles si l'EXP est acquise via un autre moyen (tel que le Guide Spirituel ou un bâtiment d'entraînement)</French>
+		<German>Deaktiviert den automatischen Erfahrungszugewinn von Bautrupps. Bautrupps können aber noch befördert werden, sofern die Erfahrung anders erworben wurde (z.B. durch Geistführer oder ein Trainingsgebäude)</German>
+		<Italian>Disables automatic XP gain on Worker Units.  Worker promotions can still be acquired if XP is gained by other means (like Spirit Guide or a Training Building)</Italian>
+		<Spanish>Disables automatic XP gain on Worker Units.  Worker promotions can still be acquired if XP is gained by other means (like Spirit Guide or a Training Building)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_WORLD_SPELLS</Tag>
+		<English>No World Spells</English>
+		<French>Pas de sorts mondiaux</French>
+		<German>Keine Weltzauber</German>
+		<Italian>No World Spells</Italian>
+		<Spanish>No World Spells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_WORLD_SPELLS_HELP</Tag>
+		<English>All players are unable to use their civ-specific world spell</English>
+		<French>Aucun joueur ne peut utiliser le sort mondial de sa civilisation</French>
+		<German>Allen Spielern ist es unmöglich ihre spezifischen Weltzauber zu benutzen.</German>
+		<Italian>All players are unable to use their civ-specific world spell</Italian>
+		<Spanish>All players are unable to use their civ-specific world spell</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_ONE_CITY_CHALLENGE</Tag>
+		<English>Challenge- One City</English>
+		<French>Challenge - Ville unique</French>
+		<German>Challenge- One City</German>
+		<Italian>Challenge- One City</Italian>
+		<Spanish>Challenge- One City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_RAGING_BARBARIANS</Tag>
+		<English>Challenge- Raging Barbarians</English>
+		<French>Challenge - Barbares enragés</French>
+		<German>Challenge- Orkische Horden!</German>
+		<Italian>Challenge- Raging Barbarians</Italian>
+		<Spanish>Challenge- Raging Barbarians</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_RAGING_BARBARIANS_HELP</Tag>
+		<English>Orcish Hordes respawn quicker and gain new cities more rapidly</English>
+		<French>Les hordes barbares réapparaissent et construisent des villes plus vite.</French>
+		<German>Erhöhte Barbarenaktivität und -aggressivität</German>
+		<Italian>Aumenta le attività e l'aggressività dei Barbari</Italian>
+		<Spanish>Aumenta la actividad y agresividad de los b&#225;rbaros.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_RELIGIOUS_HUD</Tag>
+		<English>Religion Based Interfaces</English>
+		<French>Interfaces basées sur la religion</French>
+		<German>Religionsbasiertes Interface</German>
+		<Italian>Religion Based Interfaces</Italian>
+		<Spanish>Religion Based Interfaces</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_RELIGIOUS_HUD_HELP</Tag>
+		<English>Enables a complete change in Interface based on Currently used Religion</English>
+		<French>Permet un changement complet d'interface basé sur la religion d'état actuelle.</French>
+		<German>Ermöglicht eine komplette änderung des Interfaces, basierend auf der momentan ausgeübten Religion.</German>
+		<Italian>Enables a complete change in Interface based on Currently used Religion</Italian>
+		<Spanish>Enables a complete change in Interface based on Currently used Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_SLOWER_XP</Tag>
+		<English>Challenge- Slower XP</English>
+		<French>Challenge - XP diminuée</French>
+		<German>Geringere Erfahrung</German>
+		<Italian>Challenge- Slower XP</Italian>
+		<Spanish>Challenge- Slower XP</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_SLOWER_XP_HELP</Tag>
+		<English>Halves the rate that units gain experience through combat</English>
+		<French>Diminue de moitié les gains d'expérience au combat</French>
+		<German>Halbiert die Erfahrungspunkte, die Einheiten durch einen Kampf erhalten.</German>
+		<Italian>Halves the rate that units gain experience through combat</Italian>
+		<Spanish>Halves the rate that units gain experience through combat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_THAW</Tag>
+		<English>Challenge- End of Winter</English>
+		<French>Challenge - Fin de l'hiver</French>
+		<German>Ende des Winters</German>
+		<Italian>Challenge- End of Winter</Italian>
+		<Spanish>Fin del Invierno</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_THAW_HELP</Tag>
+		<English>The world will start frozen and gradually warm up</English>
+		<French>Le monde commence à l'Âge de Glace et se réchauffera progressivement</French>
+		<German>Die Welt startet mit viel Eis und wärmt sich fortwährend auf</German>
+		<Italian>The world will start frozen and gradually warm up</Italian>
+		<Spanish>Es mundo empezará congelado e ira calentándose gradualmente</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_THE_ACKNOWLEDGEMENT</Tag>
+		<English>The Acknowledgement</English>
+		<French>La Reconnaissance</French>
+		<German>Die Anerkennung</German>
+		<Italian>The Acknowledgement</Italian>
+		<Spanish>The Acknowledgement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_THE_ACKNOWLEDGEMENT_HELP</Tag>
+		<English>While this option is selected, only important and emergent leaders will be randomly generated. Do not use with Well-Known Faces! Only works when both Leader and Civ are set to Random.</English>
+		<French>Lorsque cette option est active, seuls les dirigeants importants et émergents seront générés aléatoirement. A ne pas utiliser avec Figures Historiques! Only works when both Leader and Civ are set to Random.</French>
+		<German>Bei Wahl dieser Option werden nur Wichtige und Aufstrebende Anführer zufällig ausgewählt. Nicht mit 'Bekannte Gesichter' benutzen! Only works when both Leader and Civ are set to Random.</German>
+		<Italian>While this option is selected, only important and emergent leaders will be randomly generated. Do not use with Well-Known Faces! Only works when both Leader and Civ are set to Random.</Italian>
+		<Spanish>While this option is selected, only important and emergent leaders will be randomly generated. Do not use with Well-Known Faces! Only works when both Leader and Civ are set to Random.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_TIMID_ANIMALS</Tag>
+		<English>Timid Animals</English>
+		<French>Animaux craintifs</French>
+		<German>Scheue Tiere</German>
+		<Italian>Timid Animals</Italian>
+		<Spanish>Timid Animals</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_TIMID_ANIMALS_HELP</Tag>
+		<English>Wild animals can only enter peaceful borders.</English>
+		<French>Les animaux sauvages ne peuvent entrer que sur des territoires en paix.</French>
+		<German>Wilde Tiere können nur friedliche Grenzen überschreiten.</German>
+		<Italian>Wild animals can only enter peaceful borders.</Italian>
+		<Spanish>Wild animals can only enter peaceful borders.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_WELLKNOWN_FACES</Tag>
+		<English>Well-Known Faces</English>
+		<French>Figures Historiques</French>
+		<German>Bekannte Gesichter</German>
+		<Italian>Well-Known Faces</Italian>
+		<Spanish>Well-Known Faces</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_WELLKNOWN_FACES_HELP</Tag>
+		<English>While this option is selected, only historical leaders will be randomly generated. Do not use with The Acknowledgement!. Only works when both Leader and Civ are set to Random.</English>
+		<French>Lorsque cette option est active, seuls les dirigeants historiques seront générés aléatoirement. A ne pas utiliser avec La Reconnaissance! Only works when both Leader and Civ are set to Random.</French>
+		<German>Bei Wahl dieser Option werden nur Historischen Anführer zufällig ausgewählt. Nicht zusammen mit 'Anerkennung' benutzen! Only works when both Leader and Civ are set to Random.</German>
+		<Italian>While this option is selected, only historical leaders will be randomly generated. Do not use with The Acknowledgement! Only works when both Leader and Civ are set to Random.</Italian>
+		<Spanish>While this option is selected, only historical leaders will be randomly generated. Do not use with The Acknowledgement! Only works when both Leader and Civ are set to Random.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_WILD_MANA</Tag>
+		<English>Wild Mana</English>
+		<French>Mana déchaîné</French>
+		<German>Wildes Mana</German>
+		<Italian>Wild Mana</Italian>
+		<Spanish>Wild Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_WILD_MANA_HELP</Tag>
+		<English>Adds extra mana to the world, and converts around half of it to the various typed manas.</English>
+		<French>Ajoute des n&#156;uds de mana sur la carte, et en convertit environ la moitié en n&#156;uds de mana divers.</French>
+		<German>Fügt der Welt eine weitere Mana-Art hinzu, und wandelt ca. die Hälfte in die verfügbaren Arten um.</German>
+		<Italian>Adds extra mana to the world, and converts around half of it to the various typed manas.</Italian>
+		<Spanish>Adds extra mana to the world, and converts around half of it to the various typed manas.</Spanish>
+	</TEXT>
+</Civ4GameText>

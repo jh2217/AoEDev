@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4UnitArtStyleTypeInfos xmlns="x-schema:CIV4CivilizationsSchema.xml">
+	<UnitArtStyleTypeInfos>
+			<UnitArtStyleTypeInfo>
+			<Type>UNIT_ARTSTYLE_DWARF</Type>
+			<StyleUnits>
+				<StyleUnit>
+					<UnitType>UNIT_MERCHANT</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_MERCHANT_DWARF</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_MERCHANT_DWARF</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_MERCHANT_DWARF</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_SCIENTIST</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_SCIENTIST_DWARF</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_SCIENTIST_DWARF</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_SCIENTIST_DWARF</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_ENGINEER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_ENGINEER_DWARF</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_ENGINEER_DWARF</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_ENGINEER_DWARF</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_HEALER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HEALER_DWARF</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HEALER_DWARF</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HEALER_DWARF</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<!-- disciple units end -->
+			</StyleUnits>
+			</UnitArtStyleTypeInfo>
+		</UnitArtStyleTypeInfos>
+</Civ4UnitArtStyleTypeInfos>

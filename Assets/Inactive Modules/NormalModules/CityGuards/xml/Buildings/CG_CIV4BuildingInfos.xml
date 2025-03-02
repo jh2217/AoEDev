@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building Infos -->
+<Civ4BuildingInfos xmlns="x-schema:CG_CIV4BuildingsSchema.xml">
+	<BuildingInfos>
+		
+		<BuildingInfo>		<!-- Palace Amurites -->
+			<Type>BUILDING_PALACE_AMURITES</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Balseraphs -->
+			<Type>BUILDING_PALACE_BALSERAPHS</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Bannor -->
+			<Type>BUILDING_PALACE_BANNOR</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Calabim -->
+			<Type>BUILDING_PALACE_CALABIM</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Clan Of Embers -->
+			<Type>BUILDING_PALACE_CLAN_OF_EMBERS</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Doviello -->
+			<Type>BUILDING_PALACE_DOVIELLO</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Elohim -->
+			<Type>BUILDING_PALACE_ELOHIM</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Grigori -->
+			<Type>BUILDING_PALACE_GRIGORI</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Hippus -->
+			<Type>BUILDING_PALACE_HIPPUS</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Illians -->
+			<Type>BUILDING_PALACE_ILLIANS</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Kuriotates -->
+			<Type>BUILDING_PALACE_KURIOTATES</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Lanun -->
+			<Type>BUILDING_PALACE_LANUN</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Ljosalfar -->
+			<Type>BUILDING_PALACE_LJOSALFAR</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Luchuirp -->
+			<Type>BUILDING_PALACE_LUCHUIRP</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Malakim -->
+			<Type>BUILDING_PALACE_MALAKIM</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Mercurians -->
+			<Type>BUILDING_PALACE_MERCURIANS</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Sheaim -->
+			<Type>BUILDING_PALACE_SHEAIM</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Sidar -->
+			<Type>BUILDING_PALACE_SIDAR</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Svartalfar -->
+			<Type>BUILDING_PALACE_SVARTALFAR</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo><!-- Palace Archos -->
+			<Type>BUILDING_PALACE_ARCHOS</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Chislev -->
+			<Type>BUILDING_PALACE_CHISLEV</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Cualli -->
+			<Type>BUILDING_PALACE_CUALLI</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Mazatl -->
+			<Type>BUILDING_PALACE_MAZATL</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Austrin -->
+			<Type>BUILDING_PALACE_AUSTRIN</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Scionss -->
+			<Type>BUILDING_PALACE_SCIONS</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Mechanos                                            Mechanos UB -->
+			<Type>BUILDING_PALACE_MECHANOS</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Palace Mekaran -->
+			<Type>BUILDING_PALACE_MEKARA</Type>
+			<iDefense>20</iDefense>
+		</BuildingInfo>
+		</BuildingInfos>
+</Civ4BuildingInfos>

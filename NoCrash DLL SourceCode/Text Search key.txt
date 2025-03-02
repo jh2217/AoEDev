@@ -1,0 +1,192 @@
+The Non-Functional Pieces are marked (XML loading, and Display Output pieces)
+	/**	New Tag Defs
+My personal Notes are flagged as 
+	/**	Xienwolf Notes
+Minor Changes to improve Display/Gameplay are: 
+	/**	Xienwolf Tweak
+	/**	Vehem Tweak
+	/**	Jean Tweak
+Trimming FfH fields or code segments which are made redundant in FF code
+	/**	BeenThereDoneThat
+Imported DLL changes are flagged:
+	Imported: Xienwolf
+		/**	FoodFromAnimals
+		/**	Flavour Mod
+		/**	Broader Alignments
+		/**	PyPromote
+		/**	Spellcasting Range
+		/**	DecimalHappiness
+		/**	DecimalFood
+		/**	GrowthControl
+		/**	Alertness
+		/**	TrueModular
+		/**	Omens
+		/**	CivicSpread
+		/**	LoadedTGA
+		(And annotations are included at the start of each section with thoughts on what the code does)
+Cleanup and re-arrange for new Pedia design
+	/**	NewPedia
+Replace all of the unit equipment things with a single equipment holder entity
+	/**	EquipRedux
+XP sharing for Commanders
+	/**	CommandingPresence
+Prevent AI from trying to heal right next to a ranged attacker
+	/**	HealRight
+Fix so that Global Events should occur properly again
+	/**	GlobalEventFix
+Cautious Move Prioritization for AI
+	/**	TipToe
+Modified WeaponTier System
+	/**	Tierable
+AI Logic for Unique Improvement Upgrades
+	/**	MyLand
+Properly Account for Fallow and other Food Per Population adjustments in AI logic
+	/**	Hunger
+City Artstyle maintained based on initial founder
+	/**	PrettyCity
+Special Rules for Blind Units
+	/**	Stumbler
+Variable Buildrates
+	/**	JohnHenry
+Multiple Invisiblity Types per unit possible
+	/**	CandyMan
+Modifications to XML load methods
+	/**	Reload
+Added new icons to the font files
+	/**	PrettyPic
+Invisible Units are allowed to capture Cities
+	/**	InvisAlign
+Civilization Selector
+	/**	CivSelector
+Limitation of number of spawns per lair
+	/**	LairLimit
+Promotions/Spells checking tiles for units/promotions present
+	/**	TileTrack
+Block Civilization from any non-specified units
+	/**	TrimmingFat
+Linking Victory Conditions
+	/**	EasyBreezy
+Tracking AC Contribution per player
+	/**	WorldBreakers
+Improved AI Defense Routine
+	/**	ForLife
+New Game Option for enabling the Combat Log
+	/**	Logger
+Tracking of Unit Master & Slave (revised Summoning System)
+	/**	Whiplash
+Decimal XP
+	/**	DecimalXP
+Refined Merchant Trade Missions
+	/**	Merchandizing
+Additional Barbarian Factions
+	/**	MultiBarb
+<bNeverHostile>
+	/**	PeaceAndFlowers
+<iWorkRateChange>
+	/**	WorkerRate
+<bRivalTerritoryExplore> & <bRivalTerritoryBlock>
+	/**	Rivals
+<bPillageOnMove>
+	/**	AutoPillage
+<bSelfPillage>
+	/**	SelfPillage
+<bGetCasterXP>
+	/**	CasterXP
+<bNonWarWeariness>
+	/**	NoWeary
+<bNoMapReveal>
+	/**	No Reveal
+<bCannotCapture>
+	/**	CannotCapture
+<bCityHappy> & <bCityNoHappy>
+	/**	MilHappy
+<bCanPillage> & <bCannotPillage>
+	/**	PillageToggle
+<bCitySpy>
+	/**	CitySpy
+<bNoSupport>
+	/**	MilSupport
+<bStartGoldenAge>
+	/**	Goldie
+<bNoDefenseBonus>
+	/**	DefenseBlock
+<bAllowDefenseBonuses>
+	/**	DefenseEnable
+<bMoveImpassable>
+	/**	ImpassMove
+<bFlatMoveCost>
+	/**	MoveConst
+<bIgnoreTerrainCosts>
+	/**	MoveBetter
+<bAttackNoWar>
+	/**	Hostility
+<bAllowAttacks>
+	/**	AttackEnable
+<bFirstStrikeVulnerable>
+	/**	FirstStrikeable
+<bNonAbandon>
+	/**	NonAbandon
+<bIndependant>
+	/**	Independance
+<iSlaveGenerationChance>
+	/**	Slavers
+<iCombatExtraDuration>
+	/**	StayingPower
+<iChangeDuration>
+	/**	Durable
+<iDurationPerTurn>
+	/**	Renewing
+<iDurationAlter>
+	/**	Ephemereal
+<bEffectProm>
+	/**	GM Action
+	Requires 1 Line Change in Python/Screens/CvMainInterface.py.  Marked as #Xienwolf Modify GM Action
+<iExtraSupport>
+	/**	Upkeep
+<iChanceMiscast>
+	/**	Fizzle
+<iCombatDmgCapBoost>
+	/**	Lethality
+<iPreReqMinAge> & <iPreReqMaxAge>
+	/**	MinMaxAge
+<iPreReqLevel>
+	/**	MinLevel
+<iGoldCost>
+	/**	Shopping
+<bRequireCity>
+	/**	HomeFires
+<bNoXP>
+	/**	Existential
+<bAutoAcquire> & <bMustMaintain>
+	/**	AutoBots
+<bStackEffect>
+	/**	Stackable
+<NewName>
+	/**	Moniker
+<UniqueName>
+	/**	UltraMoniker
+<CityBonuses>
+	/**	People's Choice
+<iModReligionSpreadChance>
+	/**	Heathens
+<iRevealAllBonuses> & <iBlockBonuses>
+	/**	DousingRod
+<iAirCombat><iAirCombatLimitBoost><iDropRange>
+	/**	SkyRocket
+<PromotionExcludes>
+	/**	PromExclusivity
+<iDuration> (PromotionInfos) & <iPromotionDuration> (SpellInfos)
+	/**	TickTock
+<bUnique> (In BuildingClassInfos & UnitClassInfos)
+	/**	Streamline
+<TempUnitCombat>
+	/**	TempCombat
+<PythonOnDeath>
+	/**	DeathPython
+	Requires Python work as well in CvSpellInterface.py
+<TechBuildDiscounts>
+	/**	Choppers
+<iPower> & <iAsset>
+	/**	PromotionPower
+<bCannotCast>
+	/**	FeedbackCast

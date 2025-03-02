@@ -1,0 +1,41 @@
+;Name - no need to explain
+;note: one line
+[name]
+Emergent Leaders
+;
+;
+;Version - version of module
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[version]
+1.4
+;
+;
+;RifE version - version of RifE for which is this module tested, checked, developed, etc
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[rifeversion]
+14.11
+;
+;
+;Author - you
+;note: one line
+[author]
+azatote
+;
+;
+;Short description - text showed in contect menu
+;note: one line
+[shortdesc]
+Adds new leaders with the Emergent mechanic.
+;
+;
+;Description - text showed in message box
+;note: can be multiline
+[desc]
+Adds new leaders with the Emergent mechanic.
+Current leaders added:
+- Detlesias (Amurites, ch-ev): Pyromancer - gives your army, especially your adepts, fire proficiency in various ways.
+- Rigmora the Forgotten (Hippus, ne-ev): Incorporeal - transforms your cavalry into ghost riders, giving them various abilities but capping the damage they can deal.
+- Rizuruk (Clan, ne-ev): Matriarch - Orthus will join you when he spawns, your improved trait buffs your heroes in various ways.
+- Angaad (overhaul of the existing leader): Warleader - improves your commanders and the efficiency of the chain of command promotions.

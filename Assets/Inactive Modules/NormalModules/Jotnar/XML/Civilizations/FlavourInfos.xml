@@ -1,0 +1,18 @@
+<CivFlavourInfos>
+	<CivFlavourInfo>
+		<Civilization>CIVILIZATION_JOTNAR</Civilization>
+		<Preference>
+			<FlavourType>COASTAL_START</FlavourType>
+			<Value>2</Value>
+		</Preference>
+		<Preference>
+			<FlavourType>IMPROVEMENT_YGGDRASIL</FlavourType>
+			<Value>8</Value>
+		</Preference>
+		<Preference>
+			<FlavourType>TERRAIN_TAIGA</FlavourType>
+			<Value>4</Value>
+		</Preference>
+		<iSearchAreaModifier>-1</iSearchAreaModifier>
+	</CivFlavourInfo>
+</CivFlavourInfos>

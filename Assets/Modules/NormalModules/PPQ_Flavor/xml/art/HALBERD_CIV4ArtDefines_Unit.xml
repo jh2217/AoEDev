@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- This file contains XML for old models that have been rejiged to use new animations that look better. -->
+<!-- Unit art path information -->
+<Civ4ArtDefines xmlns="x-schema:PPQ_CIV4ArtDefinesSchema.xml">
+	<UnitArtInfos>
+	
+		<UnitArtInfo>
+			<!-- 
+				LAxe	-	HAxe	-	OStab
+			-->
+			<Type>ART_DEF_UNIT_PHALANX_AMURITES</Type>
+			<Button>Art/Interface/Buttons/Units/Phalanx Amurites.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Civs/Amurites/Phalanx/Pikeman.nif</NIF>
+			<KFM>Art/Modules/PPQ/Animations/Polearm/LAxe-HAxe-Overhand.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<!-- 
+				LAxe	-	HAxe	-	Lunge
+			-->
+			<Type>ART_DEF_UNIT_PHALANX_DOVIELLO</Type>
+			<Button>Art/Interface/Buttons/Units/Phalanx Doviello.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Civs/Doviello/Phalanx/Pikeman.nif</NIF>
+			<KFM>Art/Modules/PPQ/Animations/Polearm/LAxe-HAxe-Lunge.kfm</KFM>
+			<SHADERNIF>Art/Units/Civs/Doviello/Phalanx/Pikeman_FX.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+
+	</UnitArtInfos>
+</Civ4ArtDefines>
+
+<!-- ====================================================================================== -->
+
+<!-- 
+		<UnitArtInfo>
+				NOT MODIFIED
+			<Type>ART_DEF_UNIT_HLPHALANX_SCIONS</Type>
+			<Button>Art/Interface/Buttons/Units/Scions/phalanx.dds</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Civs/Scions/hlphalanx/pikeman.nif</NIF>
+			<KFM>Art/Units/Pikeman/Pikeman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+-->
+<!-- ====================================================================================== -->
+<!-- 		
+		<UnitArtInfo>
+				USES HEAVY SPERAMAN ANIMATIONS WHICH ARE CONNECTED TO SPEARMAN AND NOT PHALANX.
+				WILL HAVE TO RERIG THIS ONE WHEN I CREATE A SHIELD-HALBERDIER ANIMATION.
+				
+				Think:
+						LAxe	-	HAxe	-	LAxe
+					OR:
+						lAxe	-	HAxe	-	LStab
+			<Type>ART_DEF_UNIT_PHALANX_KURIOTATES</Type>
+			<Button>Art/Interface/Buttons/Units/Phalanx.dds</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Civs/Kuriotates/Phalanx/HeavySpearman.nif</NIF>
+			<KFM>Art/Units/Charlemagne_HeavySpearman/HeavySpearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+-->
+<!-- ====================================================================================== -->

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Improvement Infos -->
+<Civ4ImprovementInfos xmlns="x-schema:fortifications_CIV4TerrainSchema.xml">
+	<ImprovementInfos>
+		<ImprovementInfo>		<!-- Tower of Eyes -->
+			<Type>IMPROVEMENT_TOWER_OF_EYES</Type>
+			<iUpgradeTime>10</iUpgradeTime>
+			<bOutsideBorders>1</bOutsideBorders>
+			<bFort>1</bFort>
+			<iMinimumDistance>0</iMinimumDistance>
+			<ImprovementUpgrade>IMPROVEMENT_TOWER_OF_EYES_UPGRADED</ImprovementUpgrade>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Tower of Eyes Upgraded -->
+			<Type>IMPROVEMENT_TOWER_OF_EYES_UPGRADED</Type>
+			<Description>TXT_KEY_IMPROVEMENT_TOWER_OF_EYES</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_TOWER_OF_EYES_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_TOWER_OF_EYES</ArtDefineTag>
+			<iDefenseModifier>100</iDefenseModifier>
+			<bOutsideBorders>1</bOutsideBorders>
+			<bFort>1</bFort>
+			<iMinimumDistance>0</iMinimumDistance>
+			<bPermanent>1</bPermanent>
+			<iHappiness>100</iHappiness>
+			<bRequiresFlatlands>1</bRequiresFlatlands>
+			<BonusTypeStructs>
+				<BonusTypeStruct>
+					<BonusType>BONUS_MANA_MIND</BonusType>
+					<bBonusMakesValid>1</bBonusMakesValid>
+					<bBonusTrade>1</bBonusTrade>
+					<iDiscoverRand>0</iDiscoverRand>
+					<iSpreadRand>0</iSpreadRand>
+					<YieldChanges>
+						<iYieldChange>0</iYieldChange>
+						<iYieldChange>0</iYieldChange>
+						<iYieldChange>0</iYieldChange>
+					</YieldChanges>
+				</BonusTypeStruct>
+			</BonusTypeStructs>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bUnique>1</bUnique>
+			<iVisibilityChange>4</iVisibilityChange>
+			<BonusConvert>BONUS_MANA_MIND</BonusConvert>
+			<iCultureRange>2</iCultureRange>
+			<iCultureControlStrength>3</iCultureControlStrength>
+			<iCultureCenterBonus>2</iCultureCenterBonus>
+		</ImprovementInfo>
+	</ImprovementInfos>
+</Civ4ImprovementInfos>

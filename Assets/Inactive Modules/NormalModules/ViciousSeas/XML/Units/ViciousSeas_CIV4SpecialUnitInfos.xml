@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Special Unit Infos -->
+<Civ4SpecialUnitInfos xmlns="x-schema:ViciousSeas_CIV4UnitSchema.xml">
+	<SpecialUnitInfos>
+		<SpecialUnitInfo>
+			<Type>SPECIALUNIT_SEABEAST</Type>
+			<Description>TXT_KEY_SPECIALUNIT_SEABEAST</Description>
+			<bValid>1</bValid>
+			<bCityLoad>0</bCityLoad>
+			<CarrierUnitAIs>
+				<CarrierUnitAI>
+					<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</CarrierUnitAI>
+			</CarrierUnitAIs>
+			<ProductionTraits/>
+		</SpecialUnitInfo>
+	</SpecialUnitInfos>
+</Civ4SpecialUnitInfos>
+
+	<!--	<SpecialUnitInfo> --><!-- SOP inf start -->
+	<!--		<Type>SPECIALUNIT_CREEPER</Type>
+			<Description>TXT_KEY_SPECIALUNIT_CREEPER</Description>
+			<bValid>1</bValid>
+			<bCityLoad>0</bCityLoad>
+			<CarrierUnitAIs>
+				<CarrierUnitAI>
+					<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</CarrierUnitAI>
+			</CarrierUnitAIs>
+			<ProductionTraits/>
+		</SpecialUnitInfo> -->

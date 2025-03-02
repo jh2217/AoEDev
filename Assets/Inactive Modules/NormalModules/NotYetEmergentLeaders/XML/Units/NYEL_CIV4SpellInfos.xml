@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:NYEL_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+		<SpellInfo>			<!-- Sanctuary -->
+			<Type>SPELL_SANCTUARY</Type>
+			<PyResult>spellSanctuary2(pCaster)</PyResult>
+		</SpellInfo>
+		<SpellInfo>			<!-- Veil of Night -->
+			<Type>SPELL_VEIL_OF_NIGHT</Type>
+			<PyResult>spellVeilOfNight2(pCaster)</PyResult>
+			<PyRequirement>reqVeilOfNight2(pCaster)</PyRequirement>
+		</SpellInfo>
+		<SpellInfo>			<!-- Warcry -->
+			<Type>SPELL_WARCRY</Type>
+			<PyResult>spellWarcry2(pCaster)</PyResult>
+		</SpellInfo>
+		<SpellInfo>			<!-- Worldbreak -->						<!-- END WORLD SPELLS -->
+			<Type>SPELL_WORLDBREAK</Type>
+			<PyResult>spellWorldbreak2(pCaster)</PyResult>
+		</SpellInfo>
+		<SpellInfo>			<!-- Unholy Blessing -->
+			<Type>SPELL_UNHOLY_BLESSING</Type>
+			<Description>TXT_KEY_SPELL_UNHOLY_BLESSING</Description>
+			<Civilopedia>TXT_KEY_SPELL_UNHOLY_BLESSING_PEDIA</Civilopedia>
+			<PromotionPrereq1>PROMOTION_AGRUONN_CHOSEN</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bIsAutoCastable>1</bIsAutoCastable>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_UNHOLY_BLESSING</AddPromotion>
+			</AddPromotions>
+			<bImmuneNotAlive>1</bImmuneNotAlive>
+			<Effect>EFFECT_BLESS</Effect>
+			<Sound>AS3D_SPELL_BLESS</Sound>
+			<Button>Art/Interface/Buttons/Promotions/Blessed.dds</Button>
+		</SpellInfo>
+	</SpellInfos>
+</Civ4SpellInfos>

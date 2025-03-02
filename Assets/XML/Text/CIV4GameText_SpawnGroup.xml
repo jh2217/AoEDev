@@ -1,0 +1,1120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_SPAWNGROUP</Tag>
+		<English>SpawnGroups</English>
+		<French>Barbares aléatoires</French>
+		<German>SpawnGroups</German>
+		<Italian>SpawnGroups</Italian>
+		<Spanish>SpawnGroups</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_UNIQUE</Tag>
+		<English>[NEWLINE][ICON_BULLET]May only spawn once each game</English>
+		<French>[NEWLINE][ICON_BULLET]Apparaît une seule fois par partie</French>
+		<German>[NEWLINE][ICON_BULLET]Können im Spiel nur einmalig erzeugt werden</German>
+		<Italian>[NEWLINE][ICON_BULLET]May only spawn once each game</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]May only spawn once each game</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_ALWAYS_SPAWN</Tag>
+		<English>[NEWLINE][ICON_BULLET]Spawns as soon as requirements are met</English>
+		<French>[NEWLINE][ICON_BULLET]Apparaît dès que les prérequis sont remplis</French>
+		<German>[NEWLINE][ICON_BULLET]Werden erzeugt, sobald die Vorraussetzungen erfüllt sind</German>
+		<Italian>[NEWLINE][ICON_BULLET]Spawns as soon as requirements are met</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Spawns as soon as requirements are met</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_NEVER_SPAWN</Tag>
+		<English>[NEWLINE][ICON_BULLET]Unable to spawn under normal circumstances</English>
+		<French>[NEWLINE][ICON_BULLET]Ne peut pas apparaître en temps normal</French>
+		<German>[NEWLINE][ICON_BULLET]Werden unter normalen Umständen nicht erzeugt</German>
+		<Italian>[NEWLINE][ICON_BULLET]Unable to spawn under normal circumstances</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Unable to spawn under normal circumstances</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_NAVAL</Tag>
+		<English>[NEWLINE][ICON_BULLET]Naval</English>
+		<French>[NEWLINE][ICON_BULLET]Naval</French>
+		<German>[NEWLINE][ICON_BULLET]Seetauglich</German>
+		<Italian>[NEWLINE][ICON_BULLET]Naval</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Naval</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_MIN_MAX_TURN</Tag>
+		<English>[NEWLINE][ICON_BULLET]May only spawn between turns %d1 and %d2</English>
+		<French>[NEWLINE][ICON_BULLET]Apparaît seulement entre les tours %d1 et %d2</French>
+		<German>[NEWLINE][ICON_BULLET]Kann nur zwischen den Runden %d1 und %d2 erzeugt werden</German>
+		<Italian>[NEWLINE][ICON_BULLET]May only spawn between turns %d1 and %d2</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]May only spawn between turns %d1 and %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_MIN_TURN</Tag>
+		<English>[NEWLINE][ICON_BULLET]May not spawn until %d1 turns have passed</English>
+		<French>[NEWLINE][ICON_BULLET]May not spawn until %d1 turns have passed</French>
+		<German>[NEWLINE][ICON_BULLET]Kann nicht erzeugt werden, bis %d1 Runden vollzogen sind</German>
+		<Italian>[NEWLINE][ICON_BULLET]May not spawn until %d1 turns have passed</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]May not spawn until %d1 turns have passed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_MAX_TURN</Tag>
+		<English>[NEWLINE][ICON_BULLET]May not spawn after %d1 turns have passed</English>
+		<French>[NEWLINE][ICON_BULLET]May not spawn after %d1 turns have passed</French>
+		<German>[NEWLINE][ICON_BULLET]Kann nicht erzeugt werden, wenn %d1 Runden bereits vollzogen sind</German>
+		<Italian>[NEWLINE][ICON_BULLET]May not spawn after %d1 turns have passed</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]May not spawn after %d1 turns have passed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_MIN_MAX_AC</Tag>
+		<English>[NEWLINE][ICON_BULLET]May only spawn when the Armageddon Counter is between %d1 and %d2</English>
+		<French>[NEWLINE][ICON_BULLET]May only spawn when the Armageddon Counter is between %d1 and %d2</French>
+		<German>[NEWLINE][ICON_BULLET]Kann bei einem Armageddonzähler zwischen %d1 und %d2 erzeugt werden</German>
+		<Italian>[NEWLINE][ICON_BULLET]May only spawn when the Armageddon Counter is between %d1 and %d2</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]May only spawn when the Armageddon Counter is between %d1 and %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_MIN_AC</Tag>
+		<English>[NEWLINE][ICON_BULLET]May not spawn until the Armageddon Counter has reached %d1</English>
+		<French>[NEWLINE][ICON_BULLET]May not spawn until the Armageddon Counter has reached %d1</French>
+		<German>[NEWLINE][ICON_BULLET]Kann nicht bei einem Stand des Armageddonzühlers kleiner als %d1 erzeugt werden</German>
+		<Italian>[NEWLINE][ICON_BULLET]May not spawn until the Armageddon Counter has reached %d1</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]May not spawn until the Armageddon Counter has reached %d1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_MAX_AC</Tag>
+		<English>[NEWLINE][ICON_BULLET]May not spawn after the Armageddon Counter has reached %d1</English>
+		<French>[NEWLINE][ICON_BULLET]May not spawn after the Armageddon Counter has reached %d1</French>
+		<German>[NEWLINE][ICON_BULLET]Kann nur bei einem Stand des Armageddonzühlers unterhalb von %d1 erzeugt werden</German>
+		<Italian>[NEWLINE][ICON_BULLET]May not spawn after the Armageddon Counter has reached %d1</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]May not spawn after the Armageddon Counter has reached %d1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_WEIGHT</Tag>
+		<English>[NEWLINE][ICON_BULLET]Spawn Weight: %d1</English>
+		<French>[NEWLINE][ICON_BULLET]Coefficient d'apparition: %d1</French>
+		<German>[NEWLINE][ICON_BULLET]Erzeugungsgröe: %d1</German>
+		<Italian>[NEWLINE][ICON_BULLET]Spawn Weight: %d1</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Spawn Weight: %d1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_COMMANDER</Tag>
+		<English>[NEWLINE][ICON_BULLET]Commanded By:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Commandé par :[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Angeführt von:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Commanded By:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Commanded By:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_UNITS</Tag>
+		<English>[NEWLINE][ICON_BULLET]Units:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Unités :[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Einheiten:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Units:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Units:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_UNITCLASSES</Tag>
+		<English>[NEWLINE][ICON_BULLET]Unit Classes:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Classes des unités :[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Einheitenklassen:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Unit Classes:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Unit Classes:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_GROUP_PROMOTIONS</Tag>
+		<English>[NEWLINE][ICON_BULLET]Unit Promotions:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Promotions des unités :[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Einheitenbeförderungen:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Unit Promotions:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Unit Promotions:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_COMMANDER_PROMOTIONS</Tag>
+		<English>[NEWLINE][ICON_BULLET]Commander Promotions:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Promotions du commandant :[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Kommandantenbeförderungen:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Commander Promotions:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Commander Promotions:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_SPAWN_TERRAINS</Tag>
+		<English>[NEWLINE][ICON_BULLET]May only spawn on:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]May only spawn on:[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Kann nur erzeugt werden auf:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]May only spawn on:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]May only spawn on:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_SPAWN_FEATURES</Tag>
+		<English>[NEWLINE][ICON_BULLET]Must spawn in:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Must spawn in:[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Muss erzeugt werden auf:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Must spawn in:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Must spawn in:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_PREREQ_TECHS</Tag>
+		<English>[NEWLINE][ICON_BULLET]Requires:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Requiert :[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Erfordert:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Requires:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Requires:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWNGROUP_BLOCK_TECHS</Tag>
+		<English>[NEWLINE][ICON_BULLET]Blocked By:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Bloqué par :[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Blockiert durch:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Blocked By:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Blocked By:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MONS</Tag>
+		<English>Mons</English>
+		<French>Mons</French>
+		<German>Mons</German>
+		<Italian>Mons</Italian>
+		<Spanish>Mons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MONS_GOBLIN_RAIDERS</Tag>
+		<English>Mons's Goblin Raiders</English>
+		<French>Pillards gobelins de Mons</French>
+		<German>Mons' Goblinräuber</German>
+		<Italian>Mons's Goblin Raiders</Italian>
+		<Spanish>Mons's Goblin Raiders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MONS_GOBLIN_RAIDERS_PEDIA</Tag>
+		<English>Flavor Text Goes Here!</English>
+		<French>Flavor Text Goes Here!</French>
+		<German>Flavor Text Goes Here!</German>
+		<Italian>Flavor Text Goes Here!</Italian>
+		<Spanish>Flavor Text Goes Here!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MONS_GOBLIN_RAIDERS_STRATEGY</Tag>
+		<English>Strategy Text Goes Here!</English>
+		<French>Strategy Text Goes Here!</French>
+		<German>Strategy Text Goes Here!</German>
+		<Italian>Strategy Text Goes Here!</Italian>
+		<Spanish>Strategy Text Goes Here!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_GRAKTARS_SKULLSMASHER</Tag>
+		<English>Take Graktar's Skullsmasher</English>
+		<French>Prendre le Brise-Crânes de Graktar</French>
+		<German>Nimm Graktars Schädelschmetterer</German>
+		<Italian>Take Graktar's Skullsmasher</Italian>
+		<Spanish>Take Graktar's Skullsmasher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GRAKTAR</Tag>
+		<English>Graktar</English>
+		<French>Graktar</French>
+		<German>Graktar</German>
+		<Italian>Graktar</Italian>
+		<Spanish>Graktar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GRAKTARS_SKULLSMASHER</Tag>
+		<English>Graktar's Skullsmasher</English>
+		<French>Brise-crânes de Graktar</French>
+		<German>Graktars Schädelschmetterer</German>
+		<Italian>Graktar's Skullsmasher</Italian>
+		<Spanish>Graktar's Skullsmasher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SKULLSMASHERS</Tag>
+		<English>Skullsmashers</English>
+		<French>Brise-crânes</French>
+		<German>Schädelschmetterer</German>
+		<Italian>Skullsmashers</Italian>
+		<Spanish>Skullsmashers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TWISTED_TROUPE</Tag>
+		<English>Twisted Troupe</English>
+		<French>Twisted Troupe</French>
+		<German>Verzogene Darsteller</German>
+		<Italian>Twisted Troupe</Italian>
+		<Spanish>Twisted Troupe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FALLEN_ANGELS_LEADER</Tag>
+		<English>Fallen Commander</English>
+		<French>Commandant Déchu</French>
+		<German>Gefallener Kommandant</German>
+		<Italian>Fallen Commander</Italian>
+		<Spanish>Fallen Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CAPTAIN_ACHARE</Tag>
+		<English>Captain Achare</English>
+		<French>Captain Achare</French>
+		<German>Kapitän Achare</German>
+		<Italian>Captain Achare</Italian>
+		<Spanish>Captain Achare</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NAME_ACHARET_KEY_</Tag>
+		<English>Captain Kierran Achare</English>
+		<French>Capitaine Kierran Achare</French>
+		<German>Kapitän Kierran Achare</German>
+		<Italian>Captain Kierran Achare</Italian>
+		<Spanish>Captain Kierran Achare</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_LOST_REGIMENT_PEDIA</Tag>
+		<English>Having sworn to kill all demons, these Bannors, forgotten by time, uphold their oath even long after their death.</English>
+		<French>Having sworn to kill all demons, these Bannors, forgotten by time, uphold their oath even long after their death.</French>
+		<German>Sie schworen, alle Dämonen zu töten. Vergessen von der Zeit, folgen diese Bannorischen Soldaten ihrem Schwur selbst lange Zeit über ihren Tod hinaus.</German>
+		<Italian>Having sworn to kill all demons, these Bannors, forgotten by time, uphold their oath even long after their death.</Italian>
+		<Spanish>Having sworn to kill all demons, these Bannors, forgotten by time, uphold their oath even long after their death.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GOLEMICIST</Tag>
+		<English>The Mad Golemicist</English>
+		<French>Le Golémiste Fou</French>
+		<German>Der Verrückte Golemizist</German>
+		<Italian>The Mad Golemicist</Italian>
+		<Spanish>The Mad Golemicist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_HEMAHS_NIGHTMARES_STRATEGY</Tag>
+		<English>This group of monsters out of Hemah's worst nightmares may, or may not be real.</English>
+		<French>This group of monsters out of Hemah's worst nightmares may, or may not be real.</French>
+		<German>Diese Gruppe von Monstern aus Hemahs schlimmsten Alpträumen ist, oder ist eben nicht real.</German>
+		<Italian>This group of monsters out of Hemah's worst nightmares may, or may not be real.</Italian>
+		<Spanish>This group of monsters out of Hemah's worst nightmares may, or may not be real.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_VAHUA</Tag>
+		<English>Vahua</English>
+		<French>Vahua</French>
+		<German>Vahua</German>
+		<Italian>Vahua</Italian>
+		<Spanish>Vahua</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WILD_KHA</Tag>
+		<English>Wild Kha</English>
+		<French>Kha Sauvage</French>
+		<German>Wilder Kha</German>
+		<Italian>Wild Kha</Italian>
+		<Spanish>Wild Kha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WILD_VAHUA</Tag>
+		<English>Wild Vahua</English>
+		<French>Vahua Sauvage</French>
+		<German>Wilder Vahua</German>
+		<Italian>Wild Vahua</Italian>
+		<Spanish>Wild Vahua</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIERY_WANGOLE</Tag>
+		<English>Fiery Wangole</English>
+		<French>Fiery Wangole</French>
+		<German>Feueriger Wangole</German>
+		<Italian>Fiery Wangole</Italian>
+		<Spanish>Fiery Wangole</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_THE_WHISPERS</Tag>
+		<English>The Whispers</English>
+		<French>The Whispers</French>
+		<German>Das Geflüster</German>
+		<Italian>The Whispers</Italian>
+		<Spanish>The Whispers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIERY_WANGOLE_CHORUS</Tag>
+		<English>Fiery Wangole Chorus</English>
+		<French>Fiery Wangole Chorus</French>
+		<German>Chorus des Feurigen Wangole</German>
+		<Italian>Fiery Wangole Chorus</Italian>
+		<Spanish>Fiery Wangole Chorus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_THE_WHISPERS_CHORUS</Tag>
+		<English>The Whispers Chorus</English>
+		<French>The Whispers Chorus</French>
+		<German>Chorus des Geflüsters</German>
+		<Italian>The Whispers Chorus</Italian>
+		<Spanish>The Whispers Chorus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_GUNSLINGERS_PEDIA</Tag>
+		<English>These groups of gunslingers claim to follow a mysterious man, garbed in black clothes.</English>
+		<French>These groups of gunslingers claim to follow a mysterious man, garbed in black clothes.</French>
+		<German>Diese Gruppen von Schießwütigen folgen nach eigener Aussage einem mysteriösen Mann, der ganz in Schwarz gekleidet ist.</German>
+		<Italian>These groups of gunslingers claim to follow a mysterious man, garbed in black clothes.</Italian>
+		<Spanish>These groups of gunslingers claim to follow a mysterious man, garbed in black clothes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_HIGHLANDER_PEDIA</Tag>
+		<English>Curiously these men always seem to travel alone. If asked, they answer that there can be no other way.</English>
+		<French>Curiously these men always seem to travel alone. If asked, they answer that there can be no other way.</French>
+		<German>Seltsamerweis reisen diese Männer immer allein. Darauf angesprochen werden sie immer antworten: 'Es gibt keine andere Lösung.'</German>
+		<Italian>Curiously these men always seem to travel alone. If asked, they answer that there can be no other way.</Italian>
+		<Spanish>Curiously these men always seem to travel alone. If asked, they answer that there can be no other way.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MURIS_CLAN</Tag>
+		<English>Muris Clan</English>
+		<French>Clan Muris</French>
+		<German>Clan des Muris</German>
+		<Italian>Muris Clan</Italian>
+		<Spanish>Muris Clan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MURIS_CLAN_PEDIA</Tag>
+		<English>Remember the guys that dropped their waste in that forest of yours? Well here they are. Go get them.</English>
+		<French>Vous vous rappelez les gars qui ont balancé leurs ordures dans votre forêt ? Ben ils sont revenus. Massacrez-les !</French>
+		<German>Die Leute, die Eure Wälder verschmutzt haben. Erinnert Ihr Euch? Nun, hier sind sie. Holt sie Euch!</German>
+		<Italian>Remember the guys that dropped their waste in that forest of yours? Well here they are. Go get them.</Italian>
+		<Spanish>Remember the guys that dropped their waste in that forest of yours? Well here they are. Go get them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_RAMPAGING_BEASTMEN_PEDIA</Tag>
+		<English>A group of insane wild-men, bearing more resemblance to beasts than men. They emerge from the forest to roam the wilds. Their goals, if any known only to them.</English>
+		<French>A group of insane wild-men, bearing more resemblance to beasts than men. They emerge from the forest to roam the wilds. Their goals, if any known only to them.</French>
+		<German>Eine Gruppe von durchgedrehten Wilden, die mehr &#196;hnlichkeit mit wilden Tieren als mit Menschen haben. Sie kommen aus den Wäldern, um die Wildnis zu durchstreifen. Wenn sie bestimmte Ziele habe, kennen nur sie selbst sie.</German>
+		<Italian>A group of insane wild-men, bearing more resemblance to beasts than men. They emerge from the forest to roam the wilds. Their goals, if any known only to them.</Italian>
+		<Spanish>A group of insane wild-men, bearing more resemblance to beasts than men. They emerge from the forest to roam the wilds. Their goals, if any known only to them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FANATICS_PEDIA</Tag>
+		<English>There are those that don't think the Bannor are fundmentalist enough. They'll even attack civilizations following Order, citing a lack of genuine devotion as a reason.</English>
+		<French>There are those that don't think the Bannor are fundmentalist enough. They'll even attack civilizations following Order, citing a lack of genuine devotion as a reason.</French>
+		<German>Es gibt Leute, die der Meinung sind, dass die Bannor nicht fundamentalistisch genug sind. Sie attackieren selbst die Vülker, die der "Weisung" folgen. Einfach, weil diese es nicht ernst genug damit meinen.</German>
+		<Italian>There are those that don't think the Bannor are fundmentalist enough. They'll even attack civilizations following Order, citing a lack of genuine devotion as a reason.</Italian>
+		<Spanish>There are those that don't think the Bannor are fundmentalist enough. They'll even attack civilizations following Order, citing a lack of genuine devotion as a reason.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_LOST_CREW_PEDIA</Tag>
+		<English>The crew of an unknown ship lost to the waves. They return to stalk the living.</English>
+		<French>The crew of an unknown ship lost to the waves. They return to stalk the living.</French>
+		<German>Die Mannschaft eines unbekannten verschollenen Schiffes. Sie ist zurück und stellt den Lebenden nach.</German>
+		<Italian>The crew of an unknown ship lost to the waves. They return to stalk the living.</Italian>
+		<Spanish>The crew of an unknown ship lost to the waves. They return to stalk the living.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_RECONNAISSANCE_TEAM_PEDIA</Tag>
+		<English>Where do they come from? Nobody seems to know. But they seem to be interested in mapping your borders.</English>
+		<French>Where do they come from? Nobody seems to know. But they seem to be interested in mapping your borders.</French>
+		<German>Woher sie kommen? Keiner scheint etwas zu wissen. Aber sie scheinen in der Kartierung Eurer Grenzen interessiert zu sein!</German>
+		<Italian>Where do they come from? Nobody seems to know. But they seem to be interested in mapping your borders.</Italian>
+		<Spanish>Where do they come from? Nobody seems to know. But they seem to be interested in mapping your borders.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MOREAUS_REJECTS_PEDIA</Tag>
+		<English>Moreau, an archmage specializing in the body sphere created many twisted creatures during the age of magic. He is long dead by now, but some decendents of his experiments live on to this day.</English>
+		<French>Moreau, an archmage specializing in the body sphere created many twisted creatures during the age of magic. He is long dead by now, but some decendents of his experiments live on to this day.</French>
+		<German>Moreau, ein auf die Sphäre des Körpers spezialisierter Erzmagier, erschuf während des Zeitalters der Magie unzählige unnatürliche Wesen. Er ist schon lange tot, doch einige Nachkommen seiner Experimente leben bis heute fort.</German>
+		<Italian>Moreau, an archmage specializing in the body sphere created many twisted creatures during the age of magic. He is long dead by now, but some decendents of his experiments live on to this day.</Italian>
+		<Spanish>Moreau, an archmage specializing in the body sphere created many twisted creatures during the age of magic. He is long dead by now, but some decendents of his experiments live on to this day.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_WILD_VAHUA_STRATEGY</Tag>
+		<English>The Wild Kha can start with one of two songs. Either the [LINK=PROMOTION_FIERY_WANGOLE]Fiery Wangole[\LINK], which gives a combat bonus to his minions, or  [LINK=PROMOTION_THE_WHISPERS]The Whispers[\LINK], which allw his minions to bombard defenses.</English>
+		<French>The Wild Kha can start with one of two songs. Either the [LINK=PROMOTION_FIERY_WANGOLE]Fiery Wangole[\LINK], which gives a combat bonus to his minions, or  [LINK=PROMOTION_THE_WHISPERS]The Whispers[\LINK], which allw his minions to bombard defenses.</French>
+		<German>Der Wilde Kha kann mit einem oder zwei Liedern beginnen. Entweder mit dem [LINK=PROMOTION_FIERY_WANGOLE]Feurigen Wangole[\LINK], der seinen Anhängern Kampfboni gibt, oder mit dem [LINK=PROMOTION_THE_WHISPERS]Geflüster[\LINK], der seinem Gefolge die Bombardierung von Verteidigungsnalagen erlaubt.</German>
+		<Italian>The Wild Kha can start with one of two songs. Either the [LINK=PROMOTION_FIERY_WANGOLE]Fiery Wangole[\LINK], which gives a combat bonus to his minions, or  [LINK=PROMOTION_THE_WHISPERS]The Whispers[\LINK], which allw his minions to bombard defenses.</Italian>
+		<Spanish>The Wild Kha can start with one of two songs. Either the [LINK=PROMOTION_FIERY_WANGOLE]Fiery Wangole[\LINK], which gives a combat bonus to his minions, or  [LINK=PROMOTION_THE_WHISPERS]The Whispers[\LINK], which allw his minions to bombard defenses.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CATTLE_RUSTLER</Tag>
+		<English>Cattle Rustler</English>
+		<French>Voleur de bétail</French>
+		<German>Viehdieb</German>
+		<Italian>Cattle Rustler</Italian>
+		<Spanish>Cattle Rustler</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CATTLE_RUSTLER_PEDIA</Tag>
+		<English>This promotion is given to a group of random barbarians, who can spawn with the ability to steal cattle on tiles.</English>
+		<French>This promotion is given to a group of random barbarians, who can spawn with the ability to steal cattle on tiles.</French>
+		<German>This promotion is given to a group of random barbarians, who can spawn with the ability to steal cattle on tiles.</German>
+		<Italian>This promotion is given to a group of random barbarians, who can spawn with the ability to steal cattle on tiles.</Italian>
+		<Spanish>This promotion is given to a group of random barbarians, who can spawn with the ability to steal cattle on tiles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STOLEN_CATTLE</Tag>
+		<English>Stolen Cattle</English>
+		<French>Bétail volé</French>
+		<German>Gestohlenes Vieh</German>
+		<Italian>Stolen Cattle</Italian>
+		<Spanish>Stolen Cattle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_STEAL_CATTLE</Tag>
+		<English>Steal Cattle</English>
+		<French>Steal Cattle</French>
+		<German>Vieh stehlen</German>
+		<Italian>Steal Cattle</Italian>
+		<Spanish>Steal Cattle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_STEAL_CATTLE_STRATEGY</Tag>
+		<English>This spell is used by a group of random barbarians, who can spawn with the ability to steal cattle on tiles. Once they've stolen the cattle, they can put it somewhere else with [LINK=SPELL_RETURN_CATTLE]Return Cattle[\LINK]</English>
+		<French>This spell is used by a group of random barbarians, who can spawn with the ability to steal cattle on tiles. Once they've stolen the cattle, they can put it somewhere else with [LINK=SPELL_RETURN_CATTLE]Return Cattle[\LINK]</French>
+		<German>This spell is used by a group of random barbarians, who can spawn with the ability to steal cattle on tiles. Once they've stolen the cattle, they can put it somewhere else with [LINK=SPELL_RETURN_CATTLE]Return Cattle[\LINK]</German>
+		<Italian>This spell is used by a group of random barbarians, who can spawn with the ability to steal cattle on tiles. Once they've stolen the cattle, they can put it somewhere else with [LINK=SPELL_RETURN_CATTLE]Return Cattle[\LINK]</Italian>
+		<Spanish>This spell is used by a group of random barbarians, who can spawn with the ability to steal cattle on tiles. Once they've stolen the cattle, they can put it somewhere else with [LINK=SPELL_RETURN_CATTLE]Return Cattle[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RETURN_CATTLE</Tag>
+		<English>Return Cattle</English>
+		<French>Return Cattle</French>
+		<German>Vieh zurückgeben</German>
+		<Italian>Return Cattle</Italian>
+		<Spanish>Return Cattle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RETURN_CATTLE_STRATEGY</Tag>
+		<English>This spell is used by a group of random barbarians, who can spawn with the ability to [LINK=SPELL_STEAL_CATTLE]steal cattle[\LINK] on tiles.</English>
+		<French>This spell is used by a group of random barbarians, who can spawn with the ability to [LINK=SPELL_STEAL_CATTLE]steal cattle[\LINK] on tiles.</French>
+		<German>This spell is used by a group of random barbarians, who can spawn with the ability to [LINK=SPELL_STEAL_CATTLE]steal cattle[\LINK] on tiles.</German>
+		<Italian>This spell is used by a group of random barbarians, who can spawn with the ability to [LINK=SPELL_STEAL_CATTLE]steal cattle[\LINK] on tiles.</Italian>
+		<Spanish>This spell is used by a group of random barbarians, who can spawn with the ability to [LINK=SPELL_STEAL_CATTLE]steal cattle[\LINK] on tiles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_ARCANE_BARGES</Tag>
+		<English>Arcane Barges</English>
+		<French>Barges des Arcanes</French>
+		<German>Arcane Barges</German>
+		<Italian>Arcane Barges</Italian>
+		<Spanish>Arcane Barges</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MARSH_MARCHERS</Tag>
+		<English>Marsh Marchers</English>
+		<French>Marcheurs des marécages</French>
+		<German>Marschländer</German>
+		<Italian>Marsh Marchers</Italian>
+		<Spanish>Marsh Marchers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_HIGHWAYMEN</Tag>
+		<English>Highwaymen</English>
+		<French>Bandits de grand chemin</French>
+		<German>Wegelagerer</German>
+		<Italian>Highwaymen</Italian>
+		<Spanish>Highwaymen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SCORPION_CLAN_GOBLIN_PARTY</Tag>
+		<English>Scorpion Clan Goblin Party</English>
+		<French>Troupe gobeline du Clan Scorpion</French>
+		<German>Skorpion Clan Goblin Trupp</German>
+		<Italian>Scorpion Clan Goblin Party</Italian>
+		<Spanish>Scorpion Clan Goblin Party</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SCORPION_CLAN_WOLF_RIDER_PARTY</Tag>
+		<English>Scorpion Clan Wolf Riders</English>
+		<French>Monteloups du Clan Scorpion</French>
+		<German>Skorpion Clan Wolfsreiter</German>
+		<Italian>Scorpion Clan Wolf Riders</Italian>
+		<Spanish>Scorpion Clan Wolf Riders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_WOLF_ARCHER_PARTY</Tag>
+		<English>Wolf Archers</English>
+		<French>Monteloups Archers</French>
+		<German>Wolfsbogenschützen</German>
+		<Italian>Wolf Archers</Italian>
+		<Spanish>Wolf Archers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_GOBLIN_LORD</Tag>
+		<English>Goblin Lord</English>
+		<French>Chef Gobelin</French>
+		<German>Goblin Lord</German>
+		<Italian>Goblin Lord</Italian>
+		<Spanish>Goblin Lord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SKALD</Tag>
+		<English>Skald</English>
+		<French>Skald</French>
+		<German>Skalde</German>
+		<Italian>Skald</Italian>
+		<Spanish>Skald</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_ARMY_OF_THE_DEAD</Tag>
+		<English>Army of the Dead</English>
+		<French>Armée des Morts</French>
+		<German>Armee der Toten</German>
+		<Italian>Army of the Dead</Italian>
+		<Spanish>Army of the Dead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_CENTAUR_WARBAND</Tag>
+		<English>Centaur Warband</English>
+		<French>Troupe Centaure</French>
+		<German>Zentaurischer Kriegstrupp</German>
+		<Italian>Centaur Warband</Italian>
+		<Spanish>Centaur Warband</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FROST_GIANT_ENTOURAGE</Tag>
+		<English>Frost Giant Entourage</English>
+		<French>Entourage du Géant de Froid</French>
+		<German>Frostriesen Gefolge</German>
+		<Italian>Frost Giant Entourage</Italian>
+		<Spanish>Frost Giant Entourage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_GALLEY</Tag>
+		<English>Galleys</English>
+		<French>Galères</French>
+		<German>Galleys</German>
+		<Italian>Galleys</Italian>
+		<Spanish>Galleys</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_SPAWN_GROUP_GALLEON</Tag>
+		<English>Galleons</English>
+		<French>Galions</French>
+		<German>Galleons</German>
+		<Italian>Galleons</Italian>
+		<Spanish>Galleons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_CARAVEL</Tag>
+		<English>Caravels</English>
+		<French>Caravelles</French>
+		<German>Caravels</German>
+		<Italian>Caravels</Italian>
+		<Spanish>Caravels</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_CARRACK</Tag>
+		<English>Carracks</English>
+		<French>Caraques</French>
+		<German>Carracks</German>
+		<Italian>Carracks</Italian>
+		<Spanish>Carracks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_PRIVATEER</Tag>
+		<English>Privateers</English>
+		<French>Corsaires</French>
+		<German>Privateers</German>
+		<Italian>Privateers</Italian>
+		<Spanish>Privateers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FRIGATE</Tag>
+		<English>Frigates</English>
+		<French>Frégates</French>
+		<German>Frigates</German>
+		<Italian>Frigates</Italian>
+		<Spanish>Frigates</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_QUEEN_OF_THE_LINE</Tag>
+		<English>Queen of the Lines</English>
+		<French>Reines des Flots</French>
+		<German>Queen of the Lines</German>
+		<Italian>Queen of the Lines</Italian>
+		<Spanish>Queen of the Lines</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_ASSASSIN</Tag>
+		<English>Assassins</English>
+		<French>Assassins</French>
+		<German>Assassins</German>
+		<Italian>Assassins</Italian>
+		<Spanish>Assassins</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_BEASTMASTER</Tag>
+		<English>Beastmasters</English>
+		<French>Belluaires</French>
+		<German>Beastmasters</German>
+		<Italian>Beastmasters</Italian>
+		<Spanish>Beastmasters</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FROSTLING</Tag>
+		<English>Frostlings</English>
+		<French>Gelbiontes</French>
+		<German>Frostlings</German>
+		<Italian>Frostlings</Italian>
+		<Spanish>Frostlings</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FROSTLING_ARCHER</Tag>
+		<English>Frostling Archers</English>
+		<French>Archers Gelbiontes</French>
+		<German>Frostling Archers</German>
+		<Italian>Frostling Archers</Italian>
+		<Spanish>Frostling Archers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FROSTLING_WOLF_RIDER</Tag>
+		<English>Frostling Wolf Rider</English>
+		<French>Monteloups Gelbiontes</French>
+		<German>Frostling Wolf Rider</German>
+		<Italian>Frostling Wolf Rider</Italian>
+		<Spanish>Frostling Wolf Rider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_LIZARDMAN</Tag>
+		<English>Lizardmen</English>
+		<French>Hommes-lézards</French>
+		<German>Lizardmen</German>
+		<Italian>Lizardmen</Italian>
+		<Spanish>Lizardmen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_CENTAUR</Tag>
+		<English>Centaur Herd</English>
+		<French>Harde Centaure</French>
+		<German>Centaur Herd</German>
+		<Italian>Centaur Herd</Italian>
+		<Spanish>Centaur Herd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_RANGER</Tag>
+		<English>Rangers</English>
+		<French>Rôdeurs</French>
+		<German>Rangers</German>
+		<Italian>Rangers</Italian>
+		<Spanish>Rangers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_CHARIOT</Tag>
+		<English>Chariots</English>
+		<French>Chars</French>
+		<German>Chariots</German>
+		<Italian>Chariots</Italian>
+		<Spanish>Chariots</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SCOUT</Tag>
+		<English>Scouts</English>
+		<French>Éclaireurs</French>
+		<German>Scouts</German>
+		<Italian>Scouts</Italian>
+		<Spanish>Scouts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FAWN</Tag>
+		<English>Fawns</English>
+		<French>Faunes</French>
+		<German>Fawns</German>
+		<Italian>Fawns</Italian>
+		<Spanish>Fawns</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_TROLL</Tag>
+		<English>Trolls</English>
+		<French>Trolls</French>
+		<German>Trolls</German>
+		<Italian>Trolls</Italian>
+		<Spanish>Trolls</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_WARRIOR</Tag>
+		<English>Warriors</English>
+		<French>Guerriers</French>
+		<German>Warriors</German>
+		<Italian>Warriors</Italian>
+		<Spanish>Warriors</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_AXEMAN</Tag>
+		<English>Axemen</English>
+		<French>Soldats avec Hache</French>
+		<German>Axemen</German>
+		<Italian>Axemen</Italian>
+		<Spanish>Axemen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_ORTHUS</Tag>
+		<English>Orthus's Horde</English>
+		<French>Horde d'Orthus</French>
+		<German>Orthus's Horde</German>
+		<Italian>Orthus's Horde</Italian>
+		<Spanish>Orthus's Horde</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_ZARCAZ</Tag>
+		<English>Zarcaz and Friends</English>
+		<French>Zarcaz et ses amis</French>
+		<German>Zarcaz and Friends</German>
+		<Italian>Zarcaz and Friends</Italian>
+		<Spanish>Zarcaz and Friends</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MOKKA</Tag>
+		<English>Mokka and Friends</English>
+		<French>Mokka et ses amis</French>
+		<German>Mokka and Friends</German>
+		<Italian>Mokka and Friends</Italian>
+		<Spanish>Mokka and Friends</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MOKKA_COMPANION</Tag>
+		<English>Mokka's Companions</English>
+		<French>Compagnons de Mokka</French>
+		<German>Mokka's Companions</German>
+		<Italian>Mokka's Companions</Italian>
+		<Spanish>Mokka's Companions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SHAMAN_ORCS</Tag>
+		<English>Orc Tribe</English>
+		<French>Tribu orque</French>
+		<German>Orc Tribe</German>
+		<Italian>Orc Tribe</Italian>
+		<Spanish>Orc Tribe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_ELDRITCH_CABAL</Tag>
+		<English>Eldritch Cabal</English>
+		<French>Cabale Occulte</French>
+		<German>Eldritch Cabal</German>
+		<Italian>Eldritch Cabal</Italian>
+		<Spanish>Eldritch Cabal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_UNSEELIE_ENCLAVE</Tag>
+		<English>Unseelie Enclave</English>
+		<French>Enclave de la Cour de l'Hiver</French>
+		<German>Unseelie Enclave</German>
+		<Italian>Unseelie Enclave</Italian>
+		<Spanish>Unseelie Enclave</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FOREST_PROTECTORS</Tag>
+		<English>Forest Protectors</English>
+		<French>Protecteurs des forêts</French>
+		<German>Forest Protectors</German>
+		<Italian>Forest Protectors</Italian>
+		<Spanish>Forest Protectors</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SKULLSMASHER</Tag>
+		<English>Skullsmashers</English>
+		<French>Brise-crânes</French>
+		<German>Skullsmashers</German>
+		<Italian>Skullsmashers</Italian>
+		<Spanish>Skullsmashers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SKULLSMASHER_BIGBAD</Tag>
+		<English>Graktar's Skullsmashers</English>
+		<French>Les Brise-crânes de Grakta</French>
+		<German>Graktar's Skullsmashers</German>
+		<Italian>Graktar's Skullsmashers</Italian>
+		<Spanish>Graktar's Skullsmashers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_TWISTED_TROUPE</Tag>
+		<English>Twisted Troupe</English>
+		<French>Troupe Détraquée</French>
+		<German>Twisted Troupe</German>
+		<Italian>Twisted Troupe</Italian>
+		<Spanish>Twisted Troupe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_LOST_REGIMENT</Tag>
+		<English>Lost Regiment</English>
+		<French>Régiment Perdu</French>
+		<German>Lost Regiment</German>
+		<Italian>Lost Regiment</Italian>
+		<Spanish>Lost Regiment</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MOUNTED_MERCS</Tag>
+		<English>Mounted Mercenary Band</English>
+		<French>Bande de Mercenaires Montés</French>
+		<German>Mounted Mercenary Band</German>
+		<Italian>Mounted Mercenary Band</Italian>
+		<Spanish>Mounted Mercenary Band</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_DISEASED_CORPSES</Tag>
+		<English>Diseased Corpses</English>
+		<French>Cadavres Malades</French>
+		<German>Diseased Corpses</German>
+		<Italian>Diseased Corpses</Italian>
+		<Spanish>Diseased Corpses</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FALLEN_ANGELS</Tag>
+		<English>Fallen Angels</English>
+		<French>Anges déchus</French>
+		<German>Fallen Angels</German>
+		<Italian>Fallen Angels</Italian>
+		<Spanish>Fallen Angels</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_DOVIELLO_RAIDING_PARTY</Tag>
+		<English>Doviello Raiding Party</English>
+		<French>Pillards doviellons</French>
+		<German>Doviello Raiding Party</German>
+		<Italian>Doviello Raiding Party</Italian>
+		<Spanish>Doviello Raiding Party</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MAD_GOLEM_MAKER</Tag>
+		<English>Mad Golemicist</English>
+		<French>Golémiste Fou</French>
+		<German>Mad Golemicist</German>
+		<Italian>Mad Golemicist</Italian>
+		<Spanish>Mad Golemicist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_HEMAHS_NIGHTMARES</Tag>
+		<English>Hemah's Nightmares</English>
+		<French>Cauchemars d'Hemah</French>
+		<German>Hemah's Nightmares</German>
+		<Italian>Hemah's Nightmares</Italian>
+		<Spanish>Hemah's Nightmares</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_LUNATICS</Tag>
+		<English>Escaped Lunatics</English>
+		<French>Lunatiques en Cavale</French>
+		<German>Escaped Lunatics</German>
+		<Italian>Escaped Lunatics</Italian>
+		<Spanish>Escaped Lunatics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SAVAGE_HORDE</Tag>
+		<English>Savage Horde</English>
+		<French>Horde sauvage</French>
+		<German>Savage Horde</German>
+		<Italian>Savage Horde</Italian>
+		<Spanish>Savage Horde</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MILITIA</Tag>
+		<English>Militia Patrol</English>
+		<French>Patrouille de miliciens</French>
+		<German>Militia Patrol</German>
+		<Italian>Militia Patrol</Italian>
+		<Spanish>Militia Patrol</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MUSTEVAL_PACK</Tag>
+		<English>Musteval Pack</English>
+		<French>Pack de Mustélidés</French>
+		<German>Musteval Pack</German>
+		<Italian>Musteval Pack</Italian>
+		<Spanish>Musteval Pack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SLAVE_CARAVAN</Tag>
+		<English>Slave Caravan</English>
+		<French>Caravane d'esclaves</French>
+		<German>Slave Caravan</German>
+		<Italian>Slave Caravan</Italian>
+		<Spanish>Slave Caravan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_WILD_VAHUA</Tag>
+		<English>Wild Vahua</English>
+		<French>Vahua Sauvage</French>
+		<German>Wild Vahua</German>
+		<Italian>Wild Vahua</Italian>
+		<Spanish>Wild Vahua</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_GUNSLINGERS</Tag>
+		<English>Gunslingers</English>
+		<French>Arquebusiers</French>
+		<German>Gunslingers</German>
+		<Italian>Gunslingers</Italian>
+		<Spanish>Gunslingers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_HIGHLANDER</Tag>
+		<English>Highlander</English>
+		<French>Montagnard</French>
+		<German>Highlander</German>
+		<Italian>Highlander</Italian>
+		<Spanish>Highlander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FELLOWSHIP</Tag>
+		<English>Fellowship</English>
+		<French>Communauté</French>
+		<German>Fellowship</German>
+		<Italian>Fellowship</Italian>
+		<Spanish>Fellowship</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_BAND_OF_THIEVES</Tag>
+		<English>Band of Thieves</English>
+		<French>Bande de voleurs</French>
+		<German>Band of Thieves</German>
+		<Italian>Band of Thieves</Italian>
+		<Spanish>Band of Thieves</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_COHORT_OF_THIEVES</Tag>
+		<English>Cohort of Thieves</English>
+		<French>Cohorte de Voleurs</French>
+		<German>Cohort of Thieves</German>
+		<Italian>Cohort of Thieves</Italian>
+		<Spanish>Cohort of Thieves</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_DISCIPLES_OF_ESUS</Tag>
+		<English>Disciples of Esus</English>
+		<French>Disciples d'Esus</French>
+		<German>Disciples of Esus</German>
+		<Italian>Disciples of Esus</Italian>
+		<Spanish>Disciples of Esus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_ROGUE_NECROMANCER</Tag>
+		<English>Rogue Necromancer</English>
+		<French>Nécromancien rebelle</French>
+		<German>Rogue Necromancer</German>
+		<Italian>Rogue Necromancer</Italian>
+		<Spanish>Rogue Necromancer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_RAMPAGING_BEASTMEN</Tag>
+		<English>Rampaging Beastmen</English>
+		<French>Hommes-bêtes Rampaging</French>
+		<German>Rampaging Beastmen</German>
+		<Italian>Rampaging Beastmen</Italian>
+		<Spanish>Rampaging Beastmen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_FANATICS</Tag>
+		<English>Fanatics</English>
+		<French>Fanatiques</French>
+		<German>Fanatics</German>
+		<Italian>Fanatics</Italian>
+		<Spanish>Fanatics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_VORACIOUS_GHOSTS</Tag>
+		<English>Voracious Ghosts</English>
+		<French>Spectres voraces</French>
+		<German>Voracious Ghosts</German>
+		<Italian>Voracious Ghosts</Italian>
+		<Spanish>Voracious Ghosts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_LOST_CREW</Tag>
+		<English>Lost Crew</English>
+		<French>Équipage perdu</French>
+		<German>Lost Crew</German>
+		<Italian>Lost Crew</Italian>
+		<Spanish>Lost Crew</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SHOOTING_CHALLENGE</Tag>
+		<English>Shooting Challenge</English>
+		<French>Concours de Tir</French>
+		<German>Shooting Challenge</German>
+		<Italian>Shooting Challenge</Italian>
+		<Spanish>Shooting Challenge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_RECONNAISSANCE_TEAM</Tag>
+		<English>Reconnaissance Team</English>
+		<French>Équipe de reconnaissance</French>
+		<German>Reconnaissance Team</German>
+		<Italian>Reconnaissance Team</Italian>
+		<Spanish>Reconnaissance Team</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_MOREAUS_REJECTS</Tag>
+		<English>Moreau's Rejects</English>
+		<French>Rejetons de Moreau</French>
+		<German>Moreau's Rejects</German>
+		<Italian>Moreau's Rejects</Italian>
+		<Spanish>Moreau's Rejects</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_VISITORS_FROM_AFAR</Tag>
+		<English>Visitors from Afar</English>
+		<French>Visiteurs lointains</French>
+		<German>Visitors from Afar</German>
+		<Italian>Visitors from Afar</Italian>
+		<Spanish>Visitors from Afar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SEWAGE_HORDER</Tag>
+		<English>Sewage Horde</English>
+		<French>Horde des égoûts</French>
+		<German>Sewage Horde</German>
+		<Italian>Sewage Horde</Italian>
+		<Spanish>Sewage Horde</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_GOLEM</Tag>
+		<English>Rogue Golem</English>
+		<French>Golem rebelle</French>
+		<German>Rogue Golem</German>
+		<Italian>Rogue Golem</Italian>
+		<Spanish>Rogue Golem</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_PARTISANS</Tag>
+		<English>Partisans</English>
+		<French>Partisans</French>
+		<German>Partisans</German>
+		<Italian>Partisans</Italian>
+		<Spanish>Partisans</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SVARTALFAR_ASSAULT_TEAM</Tag>
+		<English>Unseelie Assault Team</English>
+		<French>Équipe d'assaut de la Cour de l'Hiver</French>
+		<German>Unseelie Assault Team</German>
+		<Italian>Unseelie Assault Team</Italian>
+		<Spanish>Unseelie Assault Team</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_NIGHT_RIDERS</Tag>
+		<English>Night Riders</English>
+		<French>Chevaucheurs Nocturnes</French>
+		<German>Night Riders</German>
+		<Italian>Night Riders</Italian>
+		<Spanish>Night Riders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_UNSEELIE_COURT_EMISSARIES</Tag>
+		<English>Emissaires of the Unseelie Court</English>
+		<French>Émissaires de la Cour de l'Hiver</French>
+		<German>Emissaires of the Unseelie Court</German>
+		<Italian>Emissaires of the Unseelie Court</Italian>
+		<Spanish>Emissaires of the Unseelie Court</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_SHADOW_GUILD</Tag>
+		<English>Shadow Guild</English>
+		<French>Guilde de l'Ombre</French>
+		<German>Shadow Guild</German>
+		<Italian>Shadow Guild</Italian>
+		<Spanish>Shadow Guild</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPAWN_GROUP_CATTLE_RUSTLIERS</Tag>
+		<English>Cattle Rustlers</English>
+		<French>Voleurs de bétail</French>
+		<German>Cattle Rustlers</German>
+		<Italian>Cattle Rustlers</Italian>
+		<Spanish>Cattle Rustlers</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- Civic Infos -->
+<Civ4CivicInfos xmlns="x-schema:Jotnar_CIV4GameInfoSchema.xml">
+	<CivicInfos>
+		<CivicInfo>		<!-- Traditions -->
+			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
+			<Type>CIVIC_TRADITIONS</Type>
+			<Description>TXT_KEY_CIVIC_TRADITIONS</Description>
+			<Civilopedia>NONE</Civilopedia>
+			<Strategy>TXT_KEY_CIVIC_TRADITIONS_STRATEGY</Strategy>
+			<Button>Art/Civs/Jotnar/buttons/jot_traditions.dds</Button>
+			<TechPrereq>TECH_JO1</TechPrereq>
+			<iAnarchyLength>1</iAnarchyLength>
+			<Upkeep>UPKEEP_MEDIUM</Upkeep>
+			<iDistanceMaintenanceModifier>-100</iDistanceMaintenanceModifier>
+			<iNumCitiesMaintenanceModifier>400</iNumCitiesMaintenanceModifier>
+			<iHappyPerMilitaryUnit>50</iHappyPerMilitaryUnit>
+			<TradeYieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>100</iYield>
+			</TradeYieldModifiers>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<BuildingHappinessChanges>
+				<BuildingHappinessChange>
+					<BuildingType>BUILDINGCLASS_WALLS</BuildingType>
+					<iHappinessChange>1</iHappinessChange>
+				</BuildingHappinessChange>
+				<BuildingHappinessChange>
+					<BuildingType>BUILDINGCLASS_PALISADE</BuildingType>
+					<iHappinessChange>1</iHappinessChange>
+				</BuildingHappinessChange>
+			</BuildingHappinessChanges>
+			<iEnslavementChance>20</iEnslavementChance>
+			<iFoodConsumptionPerPopulation>300</iFoodConsumptionPerPopulation>
+			<PrereqCivilization>CIVILIZATION_JOTNAR</PrereqCivilization>
+		</CivicInfo>
+	</CivicInfos>
+</Civ4CivicInfos>

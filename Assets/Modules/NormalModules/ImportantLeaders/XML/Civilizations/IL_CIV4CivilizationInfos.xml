@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4CivilizationInfos xmlns="x-schema:IL_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+		<CivilizationInfo><!-- Luchuirp -->
+			<Type>CIVILIZATION_LUCHUIRP</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_LETIGO</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Calabim -->
+			<Type>CIVILIZATION_CALABIM</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_MAHON</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+			<CivilizationInfo><!-- Kuriotates -->
+			<Type>CIVILIZATION_KURIOTATES</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_CHERON</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+			<CivilizationInfo><!-- Ljosalfar -->
+			<Type>CIVILIZATION_LJOSALFAR</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_ELDARWEN</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+				<CivilizationInfo><!-- Sidar -->
+			<Type>CIVILIZATION_SIDAR</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_MIRROUGH</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+				<CivilizationInfo><!-- Hippus -->
+			<Type>CIVILIZATION_HIPPUS</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_OSTANES</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_ULDANOR</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+				<CivilizationInfo><!-- Balseraph -->
+			<Type>CIVILIZATION_BALSERAPHS</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_MELISANDRE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+				<CivilizationInfo><!-- Doviello -->
+			<Type>CIVILIZATION_DOVIELLO</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_EMMA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+				<CivilizationInfo><!-- Svartalfar -->
+			<Type>CIVILIZATION_SVARTALFAR</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_UTIRUSO</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_JIVORN</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+				<CivilizationInfo><!-- Sheaim -->
+			<Type>CIVILIZATION_SHEAIM</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_AVERAX</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_GOSEA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MALCHAVIC</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+				<CivilizationInfo><!-- Mercurians -->
+			<Type>CIVILIZATION_MERCURIANS</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_BERTUS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_DAUVUM</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_FERTHEGIS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Jotnar -->
+			<Type>CIVILIZATION_JOTNAR</Type>
+			<bTypeDependency>1</bTypeDependency>
+				<AndDependencyTypes>
+			<DependencyType>MODULE_JOTNAR</DependencyType>
+			</AndDependencyTypes>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_AURGELMIR</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+				<CivilizationInfo><!-- Illians -->
+			<Type>CIVILIZATION_ILLIANS</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_BRAEDEN</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_DUMANNIOS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_RIUROS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_ANAGANTIOS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_AURGELMIR</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+				<CivilizationInfo><!-- Infernal -->
+			<Type>CIVILIZATION_INFERNAL</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_JUDECCA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_SALLOS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_OUZZA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_MERESIN</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_STATIUS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_LETHE</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

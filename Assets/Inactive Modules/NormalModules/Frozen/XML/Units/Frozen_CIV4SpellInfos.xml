@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:Frozen_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+		<SpellInfo>			<!-- Wintering -->							<!-- FROZEN SPELLS -->
+			<Type>SPELL_WINTERING</Type>
+			<Description>TXT_KEY_SPELL_WINTERING</Description>
+			<Civilopedia>TXT_KEY_SPELL_WINTERING_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_WINTERING_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_FROZEN</CivilizationPrereq>
+			<bCityAction>1</bCityAction>
+			<TechPrereq>TECH_SORCERY</TechPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bGlobal>1</bGlobal>
+			<iAIWeight>50</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellWintering(pCaster)</PyResult>
+			<PyRequirement>reqWintering(pCaster)</PyRequirement>
+			<Effect>EFFECT_SNOWFALL</Effect>
+			<Sound>AS3D_SPELL_EARTHQUAKE</Sound>
+			<Button>Art/Interface/Buttons/Promotions/Slow.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Passive Snow -->
+			<Type>SPELL_PASSIVE_SNOW</Type>
+			<Description>TXT_KEY_SPELL_SNOWFALL</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_SNOWFALL_HELP</Help>
+			<UnitClassPrereq>UNITCLASS_AURIC_ASCENDED</UnitClassPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<PyRequirement>spellSnowfallPassive(pCaster)</PyRequirement>
+			<Effect>EFFECT_SNOWFALL_GREATOR</Effect>
+			<Sound>AS3D_SPELL_SPRING</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Spells/Snowfall.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Freeze Forest -->
+			<Type>SPELL_FREEZE_FOREST</Type>
+			<Description>TXT_KEY_SPELL_FREEZE_FOREST</Description>
+			<Civilopedia>TXT_KEY_SPELL_FREEZE_FOREST_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_FREEZE_FOREST_HELP</Help>
+			<UnitPrereq>UNIT_ICE_DRUID</UnitPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bCausesWar>1</bCausesWar>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellFreezeForest(pCaster)</PyResult>
+			<PyRequirement>reqFreezeForest(pCaster)</PyRequirement>
+			<Effect>EFFECT_SNOWFALL</Effect>
+			<Sound>AS3D_SPELL_DEFILE</Sound>
+			<Button>Art/Interface/Buttons/Spells/Whiteout.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Greater Slow -->
+			<Type>SPELL_SLOW_GREATOR</Type>
+			<Description>TXT_KEY_SPELL_SLOW</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<UnitClassPrereq>UNITCLASS_AURIC_ASCENDED</UnitClassPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<bResistable>1</bResistable>
+			<iRange>2</iRange>
+			<AddPromotions>
+			<AddPromotion>PROMOTION_SLOW</AddPromotion>
+			</AddPromotions>
+			<RemovePromotions>
+			<RemovePromotion>PROMOTION_HASTED</RemovePromotion>
+			</RemovePromotions>
+			<bImmuneTeam>1</bImmuneTeam>
+			<bImmuneNeutral>1</bImmuneNeutral>
+			<Effect>EFFECT_SLOW</Effect>
+			<Sound>AS3D_SPELL_SPRING</Sound>
+			<Button>Art/Interface/Buttons/Promotions/Slow.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Summon Winter Creatures -->
+			<Type>SPELL_SUMMON_WINTER_CREATURES</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_WINTER_CREATURES</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<UnitClassPrereq>UNITCLASS_AURIC_ASCENDED</UnitClassPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellSummonWinterCreatures(pCaster)</PyResult>
+			<Effect>EFFECT_ICE_SUMMON</Effect>
+			<Sound>AS3D_SPELL_SPRING</Sound>
+			<Button>Art/Interface/Buttons/Units/Ice Elemental.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Summon Frostling Warrior -->
+			<Type>SPELL_SUMMON_FROSTLING_WARRIOR_GREATOR</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_ICE_ELEMENTAL</Description>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+			<PyRequirement>reqWinterCreatureSummoning(pCaster)</PyRequirement>
+			<CreateUnitType>UNIT_FROSTLING</CreateUnitType>
+			<iCreateUnitNum>2</iCreateUnitNum>
+			<Effect>EFFECT_ICE_SUMMON</Effect>
+			<Sound>AS3D_SPELL_SPRING</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Units/Ice Elemental.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Summon Frostling Archer -->
+			<Type>SPELL_SUMMON_FROSTLING_ARCHER_GREATOR</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_ICE_ELEMENTAL</Description>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+			<PyRequirement>reqWinterCreatureSummoning(pCaster)</PyRequirement>
+			<CreateUnitType>UNIT_FROSTLING_ARCHER</CreateUnitType>
+			<iCreateUnitNum>2</iCreateUnitNum>
+			<Effect>EFFECT_ICE_SUMMON</Effect>
+			<Sound>AS3D_SPELL_SPRING</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Units/Ice Elemental.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Summon Winter Wolf -->
+			<Type>SPELL_SUMMON_WINTER_WOLF_GREATOR</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_ICE_ELEMENTAL</Description>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+			<PyRequirement>reqWinterCreatureSummoning(pCaster)</PyRequirement>
+			<CreateUnitType>UNIT_WOLVERINE</CreateUnitType>
+			<iCreateUnitNum>2</iCreateUnitNum>
+			<Effect>EFFECT_ICE_SUMMON</Effect>
+			<Sound>AS3D_SPELL_SPRING</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Units/Ice Elemental.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Summon Kocrachon -->
+			<Type>SPELL_SUMMON_KOCRACHON_GREATOR</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_ICE_ELEMENTAL</Description>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+			<PyRequirement>reqWinterCreatureSummoning(pCaster)</PyRequirement>
+			<CreateUnitType>UNIT_KOCRACHON</CreateUnitType>
+			<iCreateUnitNum>2</iCreateUnitNum>
+			<Effect>EFFECT_ICE_SUMMON</Effect>
+			<Sound>AS3D_SPELL_SPRING</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Units/Ice Elemental.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Summon Ice Elemental -->
+			<Type>SPELL_SUMMON_ICE_ELEMENTAL_GREATOR</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_ICE_ELEMENTAL</Description>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+			<PyRequirement>reqWinterCreatureSummoning(pCaster)</PyRequirement>
+			<CreateUnitType>UNIT_ICE_ELEMENTAL</CreateUnitType>
+			<iCreateUnitNum>2</iCreateUnitNum>
+			<Effect>EFFECT_ICE_SUMMON</Effect>
+			<Sound>AS3D_SPELL_SPRING</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Units/Ice Elemental.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Summon Aquilan -->
+			<Type>SPELL_SUMMON_AQUILAN_GREATOR</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_ICE_ELEMENTAL</Description>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+			<PyRequirement>reqWinterCreatureSummoning(pCaster)</PyRequirement>
+			<CreateUnitType>UNIT_AQUILAN</CreateUnitType>
+			<iCreateUnitNum>1</iCreateUnitNum>
+			<Effect>EFFECT_ICE_SUMMON</Effect>
+			<Sound>AS3D_SPELL_SPRING</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Units/Ice Elemental.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Wintering -->
+			<Type>SPELL_SUMMON_FROST_GIANT_GREATER</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_ICE_ELEMENTAL</Description>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
+			<PyRequirement>reqWinterCreatureSummoning(pCaster)</PyRequirement>
+			<CreateUnitType>UNIT_FROST_GIANT</CreateUnitType>
+			<iCreateUnitNum>1</iCreateUnitNum>
+			<Effect>EFFECT_ICE_SUMMON</Effect>
+			<Sound>AS3D_SPELL_SPRING</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Units/Ice Elemental.dds</Button>
+		</SpellInfo>
+	</SpellInfos>
+</Civ4SpellInfos>

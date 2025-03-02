@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Improvement Infos -->
+<Civ4ImprovementInfos xmlns="x-schema:MoreEvents_CIV4TerrainSchema.xml">
+	<ImprovementInfos>
+		<ImprovementInfo>		<!-- Aifon Isle -->					<!-- Uniques -->
+			<Type>IMPROVEMENT_AIFON_ISLE</Type>
+			<PythonOnMove>onMoveAifonIsle(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Bair of Lacuna -->
+			<Type>IMPROVEMENT_BAIR_OF_LACUNA</Type>
+			<PythonOnMove>onMoveBairofLacuna(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Bradeline's Well -->
+			<Type>IMPROVEMENT_BRADELINES_WELL</Type>
+			<PythonOnMove>onMoveBradelinesWell2(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Bradeline's Well (Purified) -->
+			<Type>IMPROVEMENT_BRADELINES_WELL_PURIFIED</Type>
+			<PythonOnMove>onMoveBradelinesWell2(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Broken Sepulcher -->
+			<Type>IMPROVEMENT_BROKEN_SEPULCHER</Type>
+			<PythonOnMove>onMoveBrokenSepulcher(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Dragon Bones -->
+			<Type>IMPROVEMENT_DRAGON_BONES</Type>
+			<PythonOnMove>onMoveDragonBones(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Foxford -->
+			<Type>IMPROVEMENT_FOXFORD</Type>
+			<PythonOnMove>onMoveFoxford2(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Letum Frigus -->
+			<Type>IMPROVEMENT_LETUM_FRIGUS</Type>
+			<PythonOnMove>onMoveLetumFrigus2(pCaster, pPlot)</PythonOnMove> 
+			<iSpawnPerGameLimit>15</iSpawnPerGameLimit>
+			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+		</ImprovementInfo> 
+		<ImprovementInfo>		<!-- Maelstrom -->
+			<Type>IMPROVEMENT_MAELSTROM</Type>
+			<PythonOnMove>onMoveMaelstrom2(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Mirror of Heaven -->
+			<Type>IMPROVEMENT_MIRROR_OF_HEAVEN</Type>
+			<PythonOnMove>onMoveMirrorOfHeaven2(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Mount Kalshekk -->
+			<Type>IMPROVEMENT_MOUNT_KALSHEKK</Type>
+			<PythonOnMove>onMoveMountKalshekk(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Odio's Prison -->
+			<Type>IMPROVEMENT_ODIOS_PRISON</Type>
+			<PythonOnMove>onMoveOdiosPrison2(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!--Pool of Tears -->
+			<Type>IMPROVEMENT_POOL_OF_TEARS</Type>
+			<PythonOnMove>onMovePoolOfTears2(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Pyre of the Seraphic -->
+			<Type>IMPROVEMENT_PYRE_OF_THE_SERAPHIC</Type>
+			<PythonOnMove>onMovePyreofTheSeraphic(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Remnants of Patria -->
+			<Type>IMPROVEMENT_REMNANTS_OF_PATRIA</Type>
+			<PythonOnMove>onMoveRemnantsOfPatria2(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Rinwell -->
+			<Type>IMPROVEMENT_RINWELL</Type>
+			<PythonOnMove>onMoveRinwell(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Rinwell 2 -->
+			<Type>IMPROVEMENT_RINWELL2</Type>
+			<PythonOnMove>onMoveRinwell(pCaster, pPlot)</PythonOnMove>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
+			<iSpawnAtOnceLimit>6</iSpawnAtOnceLimit>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Rinwell 3 -->
+			<Type>IMPROVEMENT_RINWELL3</Type>
+			<PythonOnMove>onMoveRinwell(pCaster, pPlot)</PythonOnMove>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
+			<iSpawnAtOnceLimit>6</iSpawnAtOnceLimit>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Seven Pines -->
+			<Type>IMPROVEMENT_SEVEN_PINES</Type>
+			<PythonOnMove>onMoveSevenPines(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Sirona's Beacon -->
+			<Type>IMPROVEMENT_SIRONAS_BEACON</Type>
+			<PythonOnMove>onMoveSironasBeacon2(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Standing Stones -->
+			<Type>IMPROVEMENT_STANDING_STONES</Type>
+			<PythonOnMove>onMoveStandingStones(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Tower of Eyes -->
+			<Type>IMPROVEMENT_TOWER_OF_EYES</Type>
+			<PythonOnMove>onMoveTowerofEyes(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Tomb of Sucellus -->
+			<Type>IMPROVEMENT_TOMB_OF_SUCELLUS</Type>
+			<PythonOnMove>onMoveTombofSucellus(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo>		<!-- Yggdrasil -->
+			<Type>IMPROVEMENT_YGGDRASIL</Type>
+			<PythonOnMove>onMoveYggdrasil(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+	</ImprovementInfos>
+</Civ4ImprovementInfos>

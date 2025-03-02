@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Game Text - CIV Name -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_APPEASE_DIVINITY</Tag>
+		<English>Appease Divinity</English>
+		<French>Apaiser les divinités</French>
+		<German>Gottheit beschwichtigen</German>
+		<Italian>Appease Divinity</Italian>
+		<Spanish>Appease Divinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_APPEASE_DIVINITY_PEDIA</Tag>
+		<English>The Gods are as Fickle as any other being.  Someone else has bought their favor in this war, but that does not mean we cannot buy it back for ourselves.[NEWLINE][NEWLINE]Once stuck with "Curse the Land" there is only one salvation, and that is to rush as many Appeasements as you can afford to as quickly as you can. Five are required to counteract the curse.</English>
+		<French>The Gods are as Fickle as any other being.  Someone else has bought their favor in this war, but that does not mean we cannot buy it back for ourselves.[NEWLINE][NEWLINE]Once stuck with "Curse the Land" there is only one salvation, and that is to rush as many Appeasements as you can afford to as quickly as you can. Five are required to counteract the curse.</French>
+		<German>Götter sind ebenso flatterhaft wie jedes andere Wesen.  Jemand anderes hat ihre Gunst in diesem Krieg erworben, aber das bedeutet nicht, dass wir sie nicht zurückkaufen können.[NEWLINE][NEWLINE]Einmal angeschmiert mit "Verfluchtem Land" gibt es nur eine Rettung, und die liegt darin, soviel Beschwichtigung zu betreiben, wie Ihr Euch leisten könnt - und das so schnell wie möglich. Fünf werden benötigt, um den Fluch aufzuheben</German>
+		<Italian>The Gods are as Fickle as any other being.  Someone else has bought their favor in this war, but that does not mean we cannot buy it back for ourselves.[NEWLINE][NEWLINE]Once stuck with "Curse the Land" there is only one salvation, and that is to rush as many Appeasements as you can afford to as quickly as you can. Five are required to counteract the curse.</Italian>
+		<Spanish>The Gods are as Fickle as any other being.  Someone else has bought their favor in this war, but that does not mean we cannot buy it back for ourselves.[NEWLINE][NEWLINE]Once stuck with "Curse the Land" there is only one salvation, and that is to rush as many Appeasements as you can afford to as quickly as you can. Five are required to counteract the curse.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_APPEASE_DIVINITY_STRATEGY</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ASCENSION</Tag>
+		<English>Auric Ascension</English>
+		<French>Ascension d'Auric</French>
+		<German>Aufstieg</German>
+		<Italian>Auric Ascension</Italian>
+		<Spanish>Auric Ascension</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ASCENSION_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ASCENSION_STRATEGY</Tag>
+		<English>Allows Auric to ascend to the position of God of Winter.</English>
+		<French>Permet à Auric de devenir le Dieu de l'Hiver.</French>
+		<German>Erlaubt Auric zum Gott des Winters aufzusteigen</German>
+		<Italian>Allows Auric to ascend to the position of God of Winter.</Italian>
+		<Spanish>Allows Auric to ascend to the position of God of Winter.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BANE_DIVINE</Tag>
+		<English>Bane Divine</English>
+		<French>Fléau Divin</French>
+		<German>Götterdämmerung</German>
+		<Italian>Bane Divine</Italian>
+		<Spanish>Bane Divine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BANE_DIVINE_PEDIA</Tag>
+		<English>Bane Divine severs the connection between the faithful and their deities.</English>
+		<French>Le Fléau Divin brise la connexion entre les fidèles et leur divinités.</French>
+		<German>Die Götterdämmerung unterbricht die Verbindung zwischen den Gläubigen und ihren Göttern.</German>
+		<Italian>Bane Divine severs the connection between the faithful and their deities.</Italian>
+		<Spanish>Bane Divine severs the connection between the faithful and their deities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BANE_DIVINE_STRATEGY</Tag>
+		<English>It turns all the world's Disciple units into level 1 prophets with no promotions, even your own. It requires a 70 Armageddon Count to start.</English>
+		<French>Cela transforme tous les disciples du monde en prophète de niveau 1, même les vôtres.</French>
+		<German>Er verwandelt alle geweihten Einheiten der Welt in Level 1 Propheten ohne Beförderungen, auch Eure eigenen. Um mit dem Bau zu beginnen, wird ein Armageddonzähler von 70 benötigt.</German>
+		<Italian>It turns all the world's Disciple units into level 1 prophets with no promotions, even your own. It requires a 70 Armageddon Count to start.</Italian>
+		<Spanish>It turns all the world's Disciple units into level 1 prophets with no promotions, even your own. It requires a 70 Armageddon Count to start.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BIRTHRIGHT_REGAINED</Tag>
+		<English>Birthright Regained</English>
+		<French>Droit de naissance Recouvré</French>
+		<German>Geburtsrecht wiedererlangt</German>
+		<Italian>Birthright Regained</Italian>
+		<Spanish>Birthright Regained</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BIRTHRIGHT_REGAINED_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BIRTHRIGHT_REGAINED_STRATEGY</Tag>
+		<English>This ritual allows the building empire to reuse their world spell.</English>
+		<French>Ce rituel permet à son constructeur de réutiliser son sort mondial.</French>
+		<German>Dieses Ritual erlaubt der erbauenden Zivilisation seinen Weltzauber erneut zu sprechen</German>
+		<Italian>This ritual allows the building empire to reuse their world spell.</Italian>
+		<Spanish>This ritual allows the building empire to reuse their world spell.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BLIGHT_THE_CROPS</Tag>
+		<English>Curse the Land</English>
+		<French>Maudire la Terre</French>
+		<German>Land verfluchen</German>
+		<Italian>Curse the Land</Italian>
+		<Spanish>Curse the Land</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BLIGHT_THE_CROPS_PEDIA</Tag>
+		<English>Through much effort and Ceremony, the Gods themselves may be called to favor one side over the other in Battle.  It matters not which one replies, so long as the opposition is crushed[NEWLINE][NEWLINE]Though expensive, a ritual which can cut off your opponent's lifeblood without risking your own troops is nearly priceless during War.  But you only get a handful of chances to use this remarkable ability.</English>
+		<French>Through much effort and Ceremony, the Gods themselves may be called to favor one side over the other in Battle.  It matters not which one replies, so long as the opposition is crushed[NEWLINE][NEWLINE]Though expensive, a ritual which can cut off your opponent's lifeblood without risking your own troops is nearly priceless during War.  But you only get a handful of chances to use this remarkable ability.</French>
+		<German>Through much effort and Ceremony, the Gods themselves may be called to favor one side over the other in Battle.  It matters not which one replies, so long as the opposition is crushed[NEWLINE][NEWLINE]Though expensive, a ritual which can cut off your opponent's lifeblood without risking your own troops is nearly priceless during War.  But you only get a handful of chances to use this remarkable ability.</German>
+		<Italian>Through much effort and Ceremony, the Gods themselves may be called to favor one side over the other in Battle.  It matters not which one replies, so long as the opposition is crushed[NEWLINE][NEWLINE]Though expensive, a ritual which can cut off your opponent's lifeblood without risking your own troops is nearly priceless during War.  But you only get a handful of chances to use this remarkable ability.</Italian>
+		<Spanish>Through much effort and Ceremony, the Gods themselves may be called to favor one side over the other in Battle.  It matters not which one replies, so long as the opposition is crushed[NEWLINE][NEWLINE]Though expensive, a ritual which can cut off your opponent's lifeblood without risking your own troops is nearly priceless during War.  But you only get a handful of chances to use this remarkable ability.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BLIGHT_THE_CROPS_STRATEGY</Tag>
+		<English>TODO Translate : Pour récupérer l'accès à leurs bonus, vos ennemis doivent compléter le rituel [LINK=PROJECT_APPEASE_DIVINITY]Apaiser les divinités[\LINK] à 5 reprises.</English>
+		<French>Pour récupérer l'accès à leurs bonus, vos ennemis doivent compléter le rituel [LINK=PROJECT_APPEASE_DIVINITY]Apaiser les divinités[\LINK] à 5 reprises.</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BLOOD_OF_THE_PHOENIX</Tag>
+		<English>Blood of the Phoenix</English>
+		<French>Sang du Phénix</French>
+		<German>Blut des Phoenix</German>
+		<Italian>Blood of the Phoenix</Italian>
+		<Spanish>Blood of the Phoenix</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BLOOD_OF_THE_PHOENIX_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_BLOOD_OF_THE_PHOENIX_STRATEGY</Tag>
+		<English>This ritual gives the Immortal promotion to all of the civilization's current units. Try to time its creation with a time when you have a lot of units available to take advantage of the effect. The Immortal promotion only resurrects a unit once, so this doesn't grant an eternal supply of units, but it gives every unit a second chance.</English>
+		<French>[TAB]Ce rituel donne la promotion Immortel à toutes les unités actuelles de la civilisation. Essayez de planifier sa création au moment où vous avez le plus d'unités disponibles pour prendre le plus grand avantage de l'effet. La promotion Immortel ne ramène à la vie qu'une seule fois, donc il ne fournit pas un renfort éternel d'unités, mais donnent à chaque unité une seconde chance.</French>
+		<German>Dieses Ritual gibt die Beförderung "Unsterblich" zu allen im Moment vorhandenen Einheiten der Zivilisation. Versuche, es so zu timen dass das Ritual fertig ist, wenn du möglichst viele Einheiten hast. Die Beförderung "Unsterblich" belebt jede Einheit nur ein einziges Mal wieder, so dass man nicht unendlich viele Einheiten hat, aber es gibt jeder Einheit eine zweite Chance.</German>
+		<Italian>This ritual gives the Immortal promotion to all of the civilization's current units. Try to time its creation with a time when you have a lot of units available to take advantage of the effect. The Immortal promotion only resurrects a unit once, so this doesn't grant an eternal supply of units, but it gives every unit a second chance.</Italian>
+		<Spanish>This ritual gives the Immortal promotion to all of the civilization's current units. Try to time its creation with a time when you have a lot of units available to take advantage of the effect. The Immortal promotion only resurrects a unit once, so this doesn't grant an eternal supply of units, but it gives every unit a second chance.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CHOSEN_OF_ESUS</Tag>
+		<English>Chosen of Esus</English>
+		<French>Élus d'Esus</French>
+		<German>Auserwähler von Esus</German>
+		<Italian>Chosen of Esus</Italian>
+		<Spanish>Chosen of Esus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CHOSEN_OF_ESUS_PEDIA</Tag>
+		<English>Though the Cloak of Esus may forever drape itself upon the highest of the Order, those who devote themselves regularly may also share in the boon[NEWLINE][NEWLINE]Esus's Favor is a fickle thing, so it is important to have more than one city lined up to complete the Ritual, or act very quickly to take advantage of your enhanced powers of deception</English>
+		<French>Though the Cloak of Esus may forever drape itself upon the highest of the Order, those who devote themselves regularly may also share in the boon[NEWLINE][NEWLINE]Esus's Favor is a fickle thing, so it is important to have more than one city lined up to complete the Ritual, or act very quickly to take advantage of your enhanced powers of deception</French>
+		<German>Though the Cloak of Esus may forever drape itself upon the highest of the Order, those who devote themselves regularly may also share in the boon[NEWLINE][NEWLINE]Esus's Favor is a fickle thing, so it is important to have more than one city lined up to complete the Ritual, or act very quickly to take advantage of your enhanced powers of deception</German>
+		<Italian>Though the Cloak of Esus may forever drape itself upon the highest of the Order, those who devote themselves regularly may also share in the boon[NEWLINE][NEWLINE]Esus's Favor is a fickle thing, so it is important to have more than one city lined up to complete the Ritual, or act very quickly to take advantage of your enhanced powers of deception</Italian>
+		<Spanish>Though the Cloak of Esus may forever drape itself upon the highest of the Order, those who devote themselves regularly may also share in the boon[NEWLINE][NEWLINE]Esus's Favor is a fickle thing, so it is important to have more than one city lined up to complete the Ritual, or act very quickly to take advantage of your enhanced powers of deception</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_CHOSEN_OF_ESUS_STRATEGY</Tag>
+		<English>Reminder: the cooldowns are separate for each instance of this ritual. If you complete the 1st instance at turn 100 and the 2nd instance at turn 105, you can't perform the ritual anymore. At turn [100+cooldown = 130 at normal game speed], you have 1 use of the ritual. At turn [105+cooldown = 135 at normal game speed], both instances are back.</English>
+		<French>Reminder: the cooldowns are separate for each instance of this ritual. If you complete the 1st instance at turn 100 and the 2nd instance at turn 105, you can't perform the ritual anymore. At turn [100+cooldown = 130 at normal game speed], you have 1 use of the ritual. At turn [105+cooldown = 135 at normal game speed], both instances are back.</French>
+		<German>Reminder: the cooldowns are separate for each instance of this ritual. If you complete the 1st instance at turn 100 and the 2nd instance at turn 105, you can't perform the ritual anymore. At turn [100+cooldown = 130 at normal game speed], you have 1 use of the ritual. At turn [105+cooldown = 135 at normal game speed], both instances are back.</German>
+		<Italian>Reminder: the cooldowns are separate for each instance of this ritual. If you complete the 1st instance at turn 100 and the 2nd instance at turn 105, you can't perform the ritual anymore. At turn [100+cooldown = 130 at normal game speed], you have 1 use of the ritual. At turn [105+cooldown = 135 at normal game speed], both instances are back.</Italian>
+		<Spanish>Reminder: the cooldowns are separate for each instance of this ritual. If you complete the 1st instance at turn 100 and the 2nd instance at turn 105, you can't perform the ritual anymore. At turn [100+cooldown = 130 at normal game speed], you have 1 use of the ritual. At turn [105+cooldown = 135 at normal game speed], both instances are back.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_DOWSING</Tag>
+		<English>Dowsing</English>
+		<French>Radiesthésie</French>
+		<German>Wünschelrutengehen</German>
+		<Italian>Dowsing</Italian>
+		<Spanish>Dowsing</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_DOWSING_PEDIA</Tag>
+		<English>One of the most basic of gifts bestowed upon the followers of any Divinity is inspiration about the world around them.[NEWLINE][NEWLINE]Though expensive, the value of Dowsing early is immeasurable.  By peeking at all the resources on the map you can plan a city to gather Mithril years in the future.  Or by continuously completing the Ritual it is possible to even garner some benefits from resources well before their time</English>
+		<French>One of the most basic of gifts bestowed upon the followers of any Divinity is inspiration about the world around them.[NEWLINE][NEWLINE]Though expensive, the value of Dowsing early is immeasurable.  By peeking at all the resources on the map you can plan a city to gather Mithril years in the future.  Or by continuously completing the Ritual it is possible to even garner some benefits from resources well before their time</French>
+		<German>One of the most basic of gifts bestowed upon the followers of any Divinity is inspiration about the world around them.[NEWLINE][NEWLINE]Though expensive, the value of Dowsing early is immeasurable.  By peeking at all the resources on the map you can plan a city to gather Mithril years in the future.  Or by continuously completing the Ritual it is possible to even garner some benefits from resources well before their time</German>
+		<Italian>One of the most basic of gifts bestowed upon the followers of any Divinity is inspiration about the world around them.[NEWLINE][NEWLINE]Though expensive, the value of Dowsing early is immeasurable.  By peeking at all the resources on the map you can plan a city to gather Mithril years in the future.  Or by continuously completing the Ritual it is possible to even garner some benefits from resources well before their time</Italian>
+		<Spanish>One of the most basic of gifts bestowed upon the followers of any Divinity is inspiration about the world around them.[NEWLINE][NEWLINE]Though expensive, the value of Dowsing early is immeasurable.  By peeking at all the resources on the map you can plan a city to gather Mithril years in the future.  Or by continuously completing the Ritual it is possible to even garner some benefits from resources well before their time</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_DOWSING_STRATEGY</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ELEGY_OF_THE_SHEAIM</Tag>
+		<English>Elegy of the Sheaim</English>
+		<French>Élégie des Sheaïms</French>
+		<German>Klagelied der Sheaïm</German>
+		<Italian>Elegy of the Sheaim</Italian>
+		<Spanish>Elegy of the Sheaim</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ELEGY_OF_THE_SHEAIM_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_ELEGY_OF_THE_SHEAIM_STRATEGY</Tag>
+		<English>Increases the Armageddon counter by a small amount.</English>
+		<French>Incrémente légèrement le Compteur de l'Armageddon.</French>
+		<German>Erhöht den Armageddon-Zähler um 3</German>
+		<Italian>Increases the Armageddon counter by a small amount.</Italian>
+		<Spanish>Increases the Armageddon counter by a small amount.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_GENESIS</Tag>
+		<English>Genesis</English>
+		<French>Genèse</French>
+		<German>Genesis</German>
+		<Italian>Genesis</Italian>
+		<Spanish>Genesis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_GENESIS_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_GENESIS_STRATEGY</Tag>
+		<English>Upgrades the terrain in the building empire.</English>
+		<French>Améliore le terrain de l'Empire qui le construit.</French>
+		<German>Wertet das Gelände der Erbauer-Zivilisation auf</German>
+		<Italian>Upgrades the terrain in the building empire.</Italian>
+		<Spanish>Upgrades the terrain in the building empire.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_GLORY_EVERLASTING</Tag>
+		<English>Glory Everlasting</English>
+		<French>Gloire Éternelle</French>
+		<German>Gleißender Ruhm</German>
+		<Italian>Glory Everlasting</Italian>
+		<Spanish>Glory Everlasting</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_GLORY_EVERLASTING_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_GLORY_EVERLASTING_STRATEGY</Tag>
+		<English>[TAB]Destroys all demons in the world. Nothing is keeping your opponents from building more demons afterward, so time its creation well. It requires a 70 Armageddon Count to start.</English>
+		<French>[TAB]Détruit tout les démons dans le monde. Rien n'empêche vos adversaires d'en créer ultérieurement, donc planifiez sa création avec soin.</French>
+		<German>[TAB]Vernichtet alle Dämonen in der Welt. Danach aber hält Eure Gegner nichts davon ab, neue Dämonen zu bauen, also wählt den Zeitpunkt gut. Um mit dem Bau zu beginnen, wird ein Armageddonzähler von 70 benötigt.</German>
+		<Italian>[TAB]Destroys all demons in the world. Nothing is keeping your opponents from building more demons afterward, so time its creation well. It requires a 70 Armageddon Count to start.</Italian>
+		<Spanish>[TAB]Destroys all demons in the world. Nothing is keeping your opponents from building more demons afterward, so time its creation well. It requires a 70 Armageddon Count to start.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_HALLOWING_OF_THE_ELOHIM</Tag>
+		<English>Hallowing of the Elohim</English>
+		<French>Consécration des Elohims</French>
+		<German>Heiligung der Elohim</German>
+		<Italian>Hallowing of the Elohim</Italian>
+		<Spanish>Hallowing of the Elohim</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_HALLOWING_OF_THE_ELOHIM_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_HALLOWING_OF_THE_ELOHIM_STRATEGY</Tag>
+		<English>Decreases the Armageddon counter by a small amount.</English>
+		<French>Décrémente légèrement le Compteur de l'Armageddon.</French>
+		<German>Verringert den Armageddonzähler um 3</German>
+		<Italian>Decreases the Armageddon counter by a small amount.</Italian>
+		<Spanish>Decreases the Armageddon counter by a small amount.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_LIGHT_OF_LUGUS</Tag>
+		<English>Light of Lugus</English>
+		<French>Lumière de Lugus</French>
+		<German>Licht von Lugus</German>
+		<Italian>Light of Lugus</Italian>
+		<Spanish>Light of Lugus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_LIGHT_OF_LUGUS_PEDIA</Tag>
+		<English>With proper devotion to Lugus, it is possible to enlighten the masses to the dangers around them.  What they do once informed however, is left to their own judgement.[NEWLINE][NEWLINE]People are quick to forget the Teachings of Lugus in such a harsh world as Erebus, so continual teaching is required, but a single well timed boon can often be enough to turn the tides</English>
+		<French>With proper devotion to Lugus, it is possible to enlighten the masses to the dangers around them.  What they do once informed however, is left to their own judgement.[NEWLINE][NEWLINE]People are quick to forget the Teachings of Lugus in such a harsh world as Erebus, so continual teaching is required, but a single well timed boon can often be enough to turn the tides</French>
+		<German>With proper devotion to Lugus, it is possible to enlighten the masses to the dangers around them.  What they do once informed however, is left to their own judgement.[NEWLINE][NEWLINE]People are quick to forget the Teachings of Lugus in such a harsh world as Erebus, so continual teaching is required, but a single well timed boon can often be enough to turn the tides</German>
+		<Italian>With proper devotion to Lugus, it is possible to enlighten the masses to the dangers around them.  What they do once informed however, is left to their own judgement.[NEWLINE][NEWLINE]People are quick to forget the Teachings of Lugus in such a harsh world as Erebus, so continual teaching is required, but a single well timed boon can often be enough to turn the tides</Italian>
+		<Spanish>With proper devotion to Lugus, it is possible to enlighten the masses to the dangers around them.  What they do once informed however, is left to their own judgement.[NEWLINE][NEWLINE]People are quick to forget the Teachings of Lugus in such a harsh world as Erebus, so continual teaching is required, but a single well timed boon can often be enough to turn the tides</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_LIGHT_OF_LUGUS_STRATEGY</Tag>
+		<English>Reminder: the cooldowns are separate for each instance of this ritual. If you complete the 1st instance at turn 100 and the 2nd instance at turn 105, you have 2 more uses of the ritual. At turn [100+cooldown = 110 at normal game speed], you have 3 uses of the ritual. At turn [105+cooldown = 115 at normal game speed], you have 4 uses of the ritual.</English>
+		<French>Reminder: the cooldowns are separate for each instance of this ritual. If you complete the 1st instance at turn 100 and the 2nd instance at turn 105, you have 2 more uses of the ritual. At turn [100+cooldown = 110 at normal game speed], you have 3 uses of the ritual. At turn [105+cooldown = 115 at normal game speed], you have 4 uses of the ritual.</French>
+		<German>Reminder: the cooldowns are separate for each instance of this ritual. If you complete the 1st instance at turn 100 and the 2nd instance at turn 105, you have 2 more uses of the ritual. At turn [100+cooldown = 110 at normal game speed], you have 3 uses of the ritual. At turn [105+cooldown = 115 at normal game speed], you have 4 uses of the ritual.</German>
+		<Italian>Reminder: the cooldowns are separate for each instance of this ritual. If you complete the 1st instance at turn 100 and the 2nd instance at turn 105, you have 2 more uses of the ritual. At turn [100+cooldown = 110 at normal game speed], you have 3 uses of the ritual. At turn [105+cooldown = 115 at normal game speed], you have 4 uses of the ritual.</Italian>
+		<Spanish>Reminder: the cooldowns are separate for each instance of this ritual. If you complete the 1st instance at turn 100 and the 2nd instance at turn 105, you have 2 more uses of the ritual. At turn [100+cooldown = 110 at normal game speed], you have 3 uses of the ritual. At turn [105+cooldown = 115 at normal game speed], you have 4 uses of the ritual.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_MANA_SURGE</Tag>
+		<English>Mana Surge</English>
+		<French>Éruption de mana</French>
+		<German>Mana Druckwelle</German>
+		<Italian>Mana Surge</Italian>
+		<Spanish>Mana Surge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_MANA_SURGE_PEDIA</Tag>
+		<English>Initially a phenomenon associated with spectacularly gifted students of magic attempting to reach beyond their true capabilities, the Mana Surge has become a Military Tactic after a horrific incident with phenomenally bad timing revealed the true level of disturbance caused by this Mystical backlash.[NEWLINE][NEWLINE]Cheap and easy to perform, this "Ritual" -- Should you call such a simple thing by such a complex name -- will disrupt all advanced Mystical energy focus of your opposition.  The cost to your own Mystical efforts can be just as steep, if you fail to simply plan for it.  But the toll which is exacted upon your Ritualists is severe and it shall take a very long time to recuperate.</English>
+		<French>Initially a phenomenon associated with spectacularly gifted students of magic attempting to reach beyond their true capabilities, the Mana Surge has become a Military Tactic after a horrific incident with phenomenally bad timing revealed the true level of disturbance caused by this Mystical backlash.[NEWLINE][NEWLINE]Cheap and easy to perform, this "Ritual" -- Should you call such a simple thing by such a complex name -- will disrupt all advanced Mystical energy focus of your opposition.  The cost to your own Mystical efforts can be just as steep, if you fail to simply plan for it.  But the toll which is exacted upon your Ritualists is severe and it shall take a very long time to recuperate.</French>
+		<German>Initially a phenomenon associated with spectacularly gifted students of magic attempting to reach beyond their true capabilities, the Mana Surge has become a Military Tactic after a horrific incident with phenomenally bad timing revealed the true level of disturbance caused by this Mystical backlash.[NEWLINE][NEWLINE]Cheap and easy to perform, this "Ritual" -- Should you call such a simple thing by such a complex name -- will disrupt all advanced Mystical energy focus of your opposition.  The cost to your own Mystical efforts can be just as steep, if you fail to simply plan for it.  But the toll which is exacted upon your Ritualists is severe and it shall take a very long time to recuperate.</German>
+		<Italian>Initially a phenomenon associated with spectacularly gifted students of magic attempting to reach beyond their true capabilities, the Mana Surge has become a Military Tactic after a horrific incident with phenomenally bad timing revealed the true level of disturbance caused by this Mystical backlash.[NEWLINE][NEWLINE]Cheap and easy to perform, this "Ritual" -- Should you call such a simple thing by such a complex name -- will disrupt all advanced Mystical energy focus of your opposition.  The cost to your own Mystical efforts can be just as steep, if you fail to simply plan for it.  But the toll which is exacted upon your Ritualists is severe and it shall take a very long time to recuperate.</Italian>
+		<Spanish>Initially a phenomenon associated with spectacularly gifted students of magic attempting to reach beyond their true capabilities, the Mana Surge has become a Military Tactic after a horrific incident with phenomenally bad timing revealed the true level of disturbance caused by this Mystical backlash.[NEWLINE][NEWLINE]Cheap and easy to perform, this "Ritual" -- Should you call such a simple thing by such a complex name -- will disrupt all advanced Mystical energy focus of your opposition.  The cost to your own Mystical efforts can be just as steep, if you fail to simply plan for it.  But the toll which is exacted upon your Ritualists is severe and it shall take a very long time to recuperate.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_MANA_SURGE_STRATEGY</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_NATURES_REVOLT</Tag>
+		<English>Nature's Revolt</English>
+		<French>Révolte de la Nature</French>
+		<German>Rache der Natur</German>
+		<Italian>Nature's Revolt</Italian>
+		<Spanish>Nature's Revolt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_NATURES_REVOLT_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_NATURES_REVOLT_STRATEGY</Tag>
+		<English>Turns most of the world's barbarian units into animals. All animals' combat strength is increased.</English>
+		<French>Transforme la plupart des unités barbares en animaux. La force de tous les animaux est accrue.</French>
+		<German>Dieses Wunder verwandelt die meisten der Barbaren in Erebus in Tiere. Die Kampfstärke aller Raubtiere ist erhöht.</German>
+		<Italian>Turns most of the world's barbarian units into animals. All animals' combat strength is increased.</Italian>
+		<Spanish>Turns most of the world's barbarian units into animals. All animals' combat strength is increased.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PACT_OF_THE_NILHORN_STRATEGY</Tag>
+		<English>Three allied Hill Giants will appear in the building civilization's city.</English>
+		<French>Trois Géants des Collines alliés apparaîtront dans la ville de la civilisation construisant cette merveille.</French>
+		<German>Drei verbündete Hügelriesen erscheinen in der Stadt.</German>
+		<Italian>Three allied Hill Giants will appear in the building civilization's city.</Italian>
+		<Spanish>Tres gigantes de las colinas aliados aparecerán en la ciudad de la civilización que lo construya.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PAX_DIABOLIS</Tag>
+		<English>Pax Diabolis</English>
+		<French>Pax Diabolis</French>
+		<German>Pax Diabolis</German>
+		<Italian>Pax Diabolis</Italian>
+		<Spanish>Pax Diabolis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PAX_DIABOLIS_PEDIA</Tag>
+		<English>The Pax Diabolis is a dark rite by which an ambitious leader may sign over the souls of his subjects to gain favour with Agares.</English>
+		<French>The Pax Diabolis is a dark rite by which an ambitious leader may sign over the souls of his subjects to gain favour with Agares.</French>
+		<German>Der "Pax Diabolis" ist ein dunkles, höchst blutiges und grausames Ritual, bei dem man eine Stadt inklusive aller Bevölkerung opfert, um sich das Wohlwollen von Agares zu erkaufen.</German>
+		<Italian>The Pax Diabolis is a dark rite by which an ambitious leader may sign over the souls of his subjects to gain favour with Agares.</Italian>
+		<Spanish>The Pax Diabolis is a dark rite by which an ambitious leader may sign over the souls of his subjects to gain favour with Agares.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PAX_DIABOLIS_STRATEGY</Tag>
+		<English>You must have Ashen Veil as your state religion to complete this ritual. Completion of the Pax Diabolis ritual allows any unit in the city to fulfill the terms of the pact, sacrificing all citizens in the city and reducing it to ruins. Once this is done, Agares will be satisfied and your civilization will not be targetted further by the Demonic Barbarians.</English>
+		<French>You must have Ashen Veil as your state religion to complete this ritual. Completion of the Pax Diabolis ritual allows any unit in the city to fulfill the terms of the pact, sacrificing all citizens in the city and reducing it to ruins. Once this is done, Agares will be satisfied and your civilization will not be targetted further by the Demonic Barbarians.</French>
+		<German>Man muß den Aschfahlen Schleier als Staatsreligion haben, um dieses Ritual vollenden zu können. Die Vollendung des Pax Diabolis erlaubt es jeder Einheit in der Stadt, den Pakt zu vollziehen. Dabei werden alle Bürger aufs grausamste geopfert und die Stadt wird bis auf die Grundmauern niedergebrannt - es bleiben nur noch Ruinen übrig. Ist dies geschehen, ist Agares zufrieden und das eigene Volk wird nie wieder etwas von den dämonischen Horden des Agares zu befürchten haben.</German>
+		<Italian>You must have Ashen Veil as your state religion to complete this ritual. Completion of the Pax Diabolis ritual allows any unit in the city to fulfill the terms of the pact, sacrificing all citizens in the city and reducing it to ruins. Once this is done, Agares will be satisfied and your civilization will not be targetted further by the Demonic Barbarians.</Italian>
+		<Spanish>You must have Ashen Veil as your state religion to complete this ritual. Completion of the Pax Diabolis ritual allows any unit in the city to fulfill the terms of the pact, sacrificing all citizens in the city and reducing it to ruins. Once this is done, Agares will be satisfied and your civilization will not be targetted further by the Demonic Barbarians.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PURGE_THE_UNFAITHFUL</Tag>
+		<English>Purge the Unfaithful</English>
+		<French>Purger l'infidèle</French>
+		<German>Großes Pogrom</German>
+		<Italian>Purge the Unfaithful</Italian>
+		<Spanish>Purge the Unfaithful</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PURGE_THE_UNFAITHFUL_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_PURGE_THE_UNFAITHFUL_STRATEGY</Tag>
+		<English>Removes all non-state religions and non-state religions' buildings from all of the player's cities. It can cause rioting in the player's affected cities.</English>
+		<French>Supprime des villes de tous les joueurs toutes les religions et tous les bâtiments autres que ceux de la religion d'état. Cela peut provoquer des émeutes dans les villes affectées.</French>
+		<German>Verbannt alle nicht-staatlichen Religionen und dazugehörigen Gebäude aus allen Städten des Spielers. In den betroffenen Städten kann es zu Ausschreitungen kommen.</German>
+		<Italian>Removes all non-state religions and non-state religions' buildings from all of the player's cities. It can cause rioting in the player's affected cities.</Italian>
+		<Spanish>Removes all non-state religions and non-state religions' buildings from all of the player's cities. It can cause rioting in the player's affected cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_RITES_OF_OGHMA</Tag>
+		<English>Rites of Oghma</English>
+		<French>Rites d'Oghma</French>
+		<German>Riten von Oghma</German>
+		<Italian>Rites of Oghma</Italian>
+		<Spanish>Rites of Oghma</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_RITES_OF_OGHMA_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_RITES_OF_OGHMA_STRATEGY</Tag>
+		<English>Creates new raw mana nodes in the world.</English>
+		<French>Crée de nouveaux n&#156;uds de mana pur dans le monde.</French>
+		<German>Erschafft weltweit neue Manaquellen.</German>
+		<Italian>Creates new raw mana nodes in the world.</Italian>
+		<Spanish>Creates new raw mana nodes in the world.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SAMHAIN</Tag>
+		<English>Samhain</English>
+		<French>Samhain</French>
+		<German><Text>Samhain:Samhains:Samhain:Samhain</Text><Gender>Male:Male:Male:Male</Gender><Plural>0:0:0:0</Plural></German>
+		<Italian>Samhain</Italian>
+		<Spanish>Samhain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SAMHAIN_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_SAMHAIN_STRATEGY</Tag>
+		<English>Samhain is the first of the spells of winter. Completing this ritual will spawn several barbarian frostlings around the map as well as the frostling hero Mokka. Frostlings are surly creatures and will even attack the Illians that summoned them. So make sure you have adequate defenses or you may fall victim to your own ritual.</English>
+		<French>Samhain is the first of the spells of winter. Completing this ritual will spawn several barbarian frostlings around the map as well as the frostling hero Mokka. Frostlings are surly creatures and will even attack the Illians that summoned them. So make sure you have adequate defenses or you may fall victim to your own ritual.</French>
+		<German>Ist das erste der Winterrituale. Nach erfolgreicher Durchführung dieses Rituals werden überall in der Welt barbarische Frostlinge sowie deren Heldeneinheit Mokka erscheinen. Frostlinge sind mürrische Kreaturen und werden selbst die Illianer angreifen, die sie beschworen haben. Daher sollten auch die Illianer sicherstellen, dass sie über eine angemessene Verteidigung verfügen oder sie könnten ihrem eigenen Ritual zum Opfer fallen.</German>
+		<Italian>Samhain is the first of the spells of winter. Completing this ritual will spawn several barbarian frostlings around the map as well as the frostling hero Mokka. Frostlings are surly creatures and will even attack the Illians that summoned them. So make sure you have adequate defenses or you may fall victim to your own ritual.</Italian>
+		<Spanish>Samhain is the first of the spells of winter. Completing this ritual will spawn several barbarian frostlings around the map as well as the frostling hero Mokka. Frostlings are surly creatures and will even attack the Illians that summoned them. So make sure you have adequate defenses or you may fall victim to your own ritual.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_STIR_FROM_SLUMBER</Tag>
+		<English>Stir from Slumber</English>
+		<French>Tirer du sommeil</French>
+		<German><Text>Erweckung:Erweckung:Erweckung:Erweckung</Text><Gender>Female:Female:Female:Female</Gender><Plural>0:0:0:0</Plural></German>
+		<Italian>Stir from Slumber</Italian>
+		<Spanish>Stir from Slumber</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_STIR_FROM_SLUMBER_PEDIA</Tag>
+		<English>Awakens the White Dragon Drifa to your cause.</English>
+		<French>Awakens the White Dragon Drifa to your cause.</French>
+		<German>Awakens the White Dragon Drifa to your cause.</German>
+		<Italian>Awakens the White Dragon Drifa to your cause.</Italian>
+		<Spanish>Awakens the White Dragon Drifa to your cause.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_STIR_FROM_SLUMBER_STRATEGY</Tag>
+		<English>Awakens the White Dragon Drifa to your cause. Requires the White Hand Religion. To perform this ritual you must first remove another player from the game.</English>
+		<French>Éveille Drifa le Dragon Blanc. Nécessite la religion de la Main Blanche. Pour incanter ce rituel, vous devez au préalable avoir vaincu un autre joueur.</French>
+		<German>erweckt den weißen Drachen [COLOR_UNIT_TEXT]Drifa für die Sache der Illianer. Um dieses Ritual durchführen zu können, muss der Spieler erst eine andere Zivilisation ausgelöscht haben.</German>
+		<Italian>Awakens the White Dragon Drifa to your cause. Requires the White Hand Religion. To perform this ritual you must first remove another player from the game.</Italian>
+		<Spanish>Awakens the White Dragon Drifa to your cause. Requires the White Hand Religion. To perform this ritual you must first remove another player from the game.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_DEEPENING</Tag>
+		<English>The Deepening</English>
+		<French>Le Refroidissement</French>
+		<German><Text>Die Eiszeit:Eiszeit:Eiszeit:Eiszeit</Text><Gender>Female:Female:Female:Female</Gender><Plural>0:0:0:0</Plural></German>
+		<Italian>The Deepening</Italian>
+		<Spanish>The Deepening</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_DEEPENING_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_DEEPENING_STRATEGY</Tag>
+		<English>Completing this ritual will cool the world, affecting one quarter of the tiles (deserts to plains, plains to taiga, taiga to tundra, tundra to glacier). It will also spawn occasional [LINK=FEATURE_BLIZZARD]Blizzards[\LINK] around the map.</English>
+		<French>Completing this ritual will cool the world, affecting one quarter of the tiles (deserts to plains, plains to taiga, taiga to tundra, tundra to glacier). It will also spawn occasional [LINK=FEATURE_BLIZZARD]Blizzards[\LINK] around the map.</French>
+		<German>Ist eines der Winterrituale. Nach erfolgreicher Durchführung dieses Rituals wird die Welt abkühlen, wodurch Wüsten- in Ebenen-, Ebenen- und Grasland- in Tundra- und Tundra- in Schnee-Geländefelder verwandelt werden. Außerdem können gelegentlich Schneestürme überall in der Welt auftreten.</German>
+		<Italian>Completing this ritual will cool the world, affecting one quarter of the tiles (deserts to plains, plains to taiga, taiga to tundra, tundra to glacier). It will also spawn occasional [LINK=FEATURE_BLIZZARD]Blizzards[\LINK] around the map.</Italian>
+		<Spanish>Completing this ritual will cool the world, affecting one quarter of the tiles (deserts to plains, plains to taiga, taiga to tundra, tundra to glacier). It will also spawn occasional [LINK=FEATURE_BLIZZARD]Blizzards[\LINK] around the map.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_DRAW</Tag>
+		<English>The Draw</English>
+		<French>The Draw</French>
+		<German><Text>Der Sog:Sogs:Sog:Sog</Text><Gender>Male:Male:Male:Male</Gender><Plural>0:0:0:0</Plural></German>
+		<Italian>The Draw</Italian>
+		<Spanish>The Draw</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_DRAW_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_DRAW_STRATEGY</Tag>
+		<English>Completing this ritual halves all your cities' populations, damages all your units and causes you to declare war on every player in the game. You will also be unable to enter diplomacy with any player you are at war with for the rest of the game. The only positive benefit of this is that it allows you to begin the Ascension ritual.</English>
+		<French>Completing this ritual halves all your cities' populations, damages all your units and causes you to declare war on every player in the game. You will also be unable to enter diplomacy with any player you are at war with for the rest of the game. The only positive benefit of this is that it allows you to begin the Ascension ritual.</French>
+		<German>Ist eines der Winterrituale. Nach erfolgreicher Durchführung dieses Rituals wird die Bevölkerung in allen eigenen Städten halbiert, erleiden alle eigenen Einheiten Schaden und wird eine Kriegserklärung an alle anderen Zivilisationen ausgelöst. Außerdem ist es für den Rest der Partie nicht mehr möglich, diplomatischen Kontakt mit Zivilisationen aufzunehmen, mit denen sich der Spieler im Krieg befindet. Der einzige tatsächliche Nutzen des Rituals ist, dass es die Durchführung des Aufstiegsrituals erlaubt.</German>
+		<Italian>Completing this ritual halves all your cities' populations, damages all your units and causes you to declare war on every player in the game. You will also be unable to enter diplomacy with any player you are at war with for the rest of the game. The only positive benefit of this is that it allows you to begin the Ascension ritual.</Italian>
+		<Spanish>Completing this ritual halves all your cities' populations, damages all your units and causes you to declare war on every player in the game. You will also be unable to enter diplomacy with any player you are at war with for the rest of the game. The only positive benefit of this is that it allows you to begin the Ascension ritual.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_WHITE_HAND</Tag>
+		<English>The White Hand Ritual</English>
+		<French>Le rituel de la Main Blanche</French>
+		<German><Text>Die Weiße Hand:Weißen Hand:Weißen Hand:Weiße Hand</Text><Gender>Female:Female:Female:Female</Gender><Plural>0:0:0:0</Plural></German>
+		<Italian>The White Hand Ritual</Italian>
+		<Spanish>The White Hand Ritual</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_WHITE_HAND_PEDIA</Tag>
+		<English>Text must be written</English>
+		<French>Text must be written</French>
+		<German>Text must be written</German>
+		<Italian>Text must be written</Italian>
+		<Spanish>Text must be written</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROJECT_THE_WHITE_HAND_STRATEGY</Tag>
+		<English>Completing this ritual will spawn three [LINK=UNIT_PRIEST_OF_WINTER]Priest of Winter[\LINK] in the player's city.</English>
+		<French>Terminer ce rituel fera apparaître 3 [LINK=UNIT_PRIEST_OF_WINTER]Prêtres de l'Hiver[\LINK] dans la ville du joueur.</French>
+		<German>Ist eines der Winterrituale. Nach erfolgreicher Durchführung dieses Rituals werden in der durchführenden Stadt 3 [LINK=UNIT_PRIEST_OF_WINTER]Priester des Winters[\LINK] erscheinen.</German>
+		<Italian>Completing this ritual will spawn three [LINK=UNIT_PRIEST_OF_WINTER]Priest of Winter[\LINK] in the player's city.</Italian>
+		<Spanish>Completing this ritual will spawn three [LINK=UNIT_PRIEST_OF_WINTER]Priest of Winter[\LINK] in the player's city.</Spanish>
+	</TEXT>
+</Civ4GameText>

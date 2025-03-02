@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEASH_2</Tag>
+		<English>Leash 2</English>
+		<French>Leash 2</French>
+		<German>Leash 2</German>
+		<Italian>Leash 2</Italian>
+		<Spanish>Leash 2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KRAKEN_SPAWN</Tag>
+		<English>Kraken Spawn</English>
+		<French>Kraken Spawn</French>
+		<German>Kraken Spawn</German>
+		<Italian>Kraken Spawn</Italian>
+		<Spanish>Kraken Spawn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEASH_3</Tag>
+		<English>Leash 3</English>
+		<French>Leash 3</French>
+		<German>Leash 3</German>
+		<Italian>Leash 3</Italian>
+		<Spanish>Leash 3</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SHIP_MARCH</Tag>
+		<English>Self Repairing Hull</English>
+		<French>Self Repairing Hull</French>
+		<German>Self Repairing Hull</German>
+		<Italian>Self Repairing Hull</Italian>
+		<Spanish>Self Repairing Hull</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DEEPENED_VISION</Tag>
+		<English>Deepened Vision</English>
+		<French>Deepened Vision</French>
+		<German>Deepened Vision</German>
+		<Italian>Deepened Vision</Italian>
+		<Spanish>Deepened Vision</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BAD_KRAKEN</Tag>
+		<English>Bad Kraken</English>
+		<French>Bad Kraken</French>
+		<German>Bad Kraken</German>
+		<Italian>Bad Kraken</Italian>
+		<Spanish>Bad Kraken</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BAD_KRAKEN</Tag>
+		<English>Bad Kraken</English>
+		<French>Bad Kraken</French>
+		<German>Bad Kraken</German>
+		<Italian>Bad Kraken</Italian>
+		<Spanish>Bad Kraken</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TITAN_SCALE_PLATING</Tag>
+		<English>Titan Scale Plating</English>
+		<French>Titan Scale Plating</French>
+		<German>Titan Scale Plating</German>
+		<Italian>Titan Scale Plating</Italian>
+		<Spanish>Titan Scale Plating</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TITAN_TURTLE_SCALES</Tag>
+		<English>Titan Turtle Scales</English>
+		<French>Titan Turtle Scales</French>
+		<German>Titan Turtle Scales</German>
+		<Italian>Titan Turtle Scales</Italian>
+		<Spanish>Titan Turtle Scales</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_TITAN_TURTLE_SCALES_PEDIA</Tag>
+		<English>[TAB]Scales from a Titan's Shell, These nearly invulnerable scales can be used both in peace and wartime. In times of peace, these chromatic, rainbow-colored scales are highly sought after for the making of art pieces and beautiful yet extremely durable furniture; in times of war, they are able to be plated together to protect the hull of ships or carved into a nearly impenetrable shield. </English>
+		<French>[TAB]Scales from a Titan's Shell, These nearly invulnerable scales can be used both in peace and wartime. In times of peace, these chromatic, rainbow-colored scales are highly sought after for the making of art pieces and beautiful yet extremely durable furniture; in times of war, they are able to be plated together to protect the hull of ships or carved into a nearly impenetrable shield.</French>
+		<German>[TAB]Scales from a Titan's Shell, These nearly invulnerable scales can be used both in peace and wartime. In times of peace, these chromatic, rainbow-colored scales are highly sought after for the making of art pieces and beautiful yet extremely durable furniture; in times of war, they are able to be plated together to protect the hull of ships or carved into a nearly impenetrable shield.</German>
+		<Italian>[TAB]Scales from a Titan's Shell, These nearly invulnerable scales can be used both in peace and wartime. In times of peace, these chromatic, rainbow-colored scales are highly sought after for the making of art pieces and beautiful yet extremely durable furniture; in times of war, they are able to be plated together to protect the hull of ships or carved into a nearly impenetrable shield.</Italian>
+		<Spanish>[TAB]Scales from a Titan's Shell, These nearly invulnerable scales can be used both in peace and wartime. In times of peace, these chromatic, rainbow-colored scales are highly sought after for the making of art pieces and beautiful yet extremely durable furniture; in times of war, they are able to be plated together to protect the hull of ships or carved into a nearly impenetrable shield.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GIANT_KRAKEN_EYE</Tag>
+		<English>Krakens Eyes</English>
+		<French>Krakens Eyes</French>
+		<German>Krakens Eyes</German>
+		<Italian>Krakens Eyes</Italian>
+		<Spanish>Krakens Eyes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GIANT_KRAKEN_EYE_PEDIA</Tag>
+		<English>[TAB]A blue, translucent marble found deep within kraken lairs, Krakens Eyes are forever cold to the touch. When held up to the face, it can be peered through to see the world as it truly is without illusion or deception. Oftentimes a brave diver has attempted to collect these marbles, only to hold one up to their eye and find that the kraken's lair was not as empty as they thought.</English>
+		<French>[TAB]A blue, translucent marble found deep within kraken lairs, Krakens Eyes are forever cold to the touch. When held up to the face, it can be peered through to see the world as it truly is without illusion or deception. Oftentimes a brave diver has attempted to collect these marbles, only to hold one up to their eye and find that the kraken's lair was not as empty as they thought.</French>
+		<German>[TAB]A blue, translucent marble found deep within kraken lairs, Krakens Eyes are forever cold to the touch. When held up to the face, it can be peered through to see the world as it truly is without illusion or deception. Oftentimes a brave diver has attempted to collect these marbles, only to hold one up to their eye and find that the kraken's lair was not as empty as they thought.</German>
+		<Italian>[TAB]A blue, translucent marble found deep within kraken lairs, Krakens Eyes are forever cold to the touch. When held up to the face, it can be peered through to see the world as it truly is without illusion or deception. Oftentimes a brave diver has attempted to collect these marbles, only to hold one up to their eye and find that the kraken's lair was not as empty as they thought.</Italian>
+		<Spanish>[TAB]A blue, translucent marble found deep within kraken lairs, Krakens Eyes are forever cold to the touch. When held up to the face, it can be peered through to see the world as it truly is without illusion or deception. Oftentimes a brave diver has attempted to collect these marbles, only to hold one up to their eye and find that the kraken's lair was not as empty as they thought.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GIANT_KELP_LUMBER</Tag>
+		<English>Giant Kelp Lumber</English>
+		<French>Giant Kelp Lumber</French>
+		<German>Giant Kelp Lumber</German>
+		<Italian>Giant Kelp Lumber</Italian>
+		<Spanish>Giant Kelp Lumber</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_GIANT_KELP_LUMBER_PEDIA</Tag>
+		<English>[TAB]Giant kelp found growing within the lairs of ancient sea serpents are able to grow to truly monolithic proportions thanks to a healthy diet of sea serpent waste and sunlight reflecting off their dazzling scales. When harvested, as long as the kelp trunks are kept in contact with water, they will continue to slowly grow and heal. This allows ships constructed of this material to quickly repair their hulls at sea from even the most severe storm or monster attack. As well as this, while not having the same regenerative property on dry land, this kelp still makes for excellent building material.</English>
+		<French>[TAB]Giant kelp found growing within the lairs of ancient sea serpents are able to grow to truly monolithic proportions thanks to a healthy diet of sea serpent waste and sunlight reflecting off their dazzling scales. When harvested, as long as the kelp trunks are kept in contact with water, they will continue to slowly grow and heal. This allows ships constructed of this material to quickly repair their hulls at sea from even the most severe storm or monster attack. As well as this, while not having the same regenerative property on dry land, this kelp still makes for excellent building material.</French>
+		<German>[TAB]Giant kelp found growing within the lairs of ancient sea serpents are able to grow to truly monolithic proportions thanks to a healthy diet of sea serpent waste and sunlight reflecting off their dazzling scales. When harvested, as long as the kelp trunks are kept in contact with water, they will continue to slowly grow and heal. This allows ships constructed of this material to quickly repair their hulls at sea from even the most severe storm or monster attack. As well as this, while not having the same regenerative property on dry land, this kelp still makes for excellent building material.</German>
+		<Italian>[TAB]Giant kelp found growing within the lairs of ancient sea serpents are able to grow to truly monolithic proportions thanks to a healthy diet of sea serpent waste and sunlight reflecting off their dazzling scales. When harvested, as long as the kelp trunks are kept in contact with water, they will continue to slowly grow and heal. This allows ships constructed of this material to quickly repair their hulls at sea from even the most severe storm or monster attack. As well as this, while not having the same regenerative property on dry land, this kelp still makes for excellent building material.</Italian>
+		<Spanish>[TAB]Giant kelp found growing within the lairs of ancient sea serpents are able to grow to truly monolithic proportions thanks to a healthy diet of sea serpent waste and sunlight reflecting off their dazzling scales. When harvested, as long as the kelp trunks are kept in contact with water, they will continue to slowly grow and heal. This allows ships constructed of this material to quickly repair their hulls at sea from even the most severe storm or monster attack. As well as this, while not having the same regenerative property on dry land, this kelp still makes for excellent building material.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CORAL_REEF</Tag>
+		<English>Coral</English>
+		<French>Coral</French>
+		<German>Coral</German>
+		<Italian>Coral</Italian>
+		<Spanish>Coral</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BONUS_CORAL_REEF_PEDIA</Tag>
+		<English>[TAB]Coral found on lush, thriving reefs. useful both for crafts as well as building by being stacked like crude bricks.</English>
+		<French>[TAB]Coral found on lush, thriving reefs. useful both for crafts as well as building by being stacked like crude bricks.</French>
+		<German>[TAB]Coral found on lush, thriving reefs. useful both for crafts as well as building by being stacked like crude bricks.</German>
+		<Italian>[TAB]Coral found on lush, thriving reefs. useful both for crafts as well as building by being stacked like crude bricks.</Italian>
+		<Spanish>[TAB]Coral found on lush, thriving reefs. useful both for crafts as well as building by being stacked like crude bricks.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GIANT_KELP_LUMBER</Tag>
+		<English>Giant Kelp Lumber</English>
+		<French>Giant Kelp Lumber</French>
+		<German>Giant Kelp Lumber</German>
+		<Italian>Giant Kelp Lumber</Italian>
+		<Spanish>Giant Kelp Lumber</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GIANT_KELP_LUMBER_PEDIA</Tag>
+		<English>[TAB]Giant kelp found growing within the lairs of ancient sea serpents are able to grow to truly monolithic proportions thanks to a healthy diet of sea serpent waste and sunlight reflecting off their dazzling scales. When harvested, as long as the kelp trunks are kept in contact with water, they will continue to slowly grow and heal. This allows ships constructed of this material to quickly repair their hulls at sea from even the most severe storm or monster attack. As well as this, while not having the same regenerative property on dry land, this kelp still makes for excellent building material.</English>
+		<French>[TAB]Giant kelp found growing within the lairs of ancient sea serpents are able to grow to truly monolithic proportions thanks to a healthy diet of sea serpent waste and sunlight reflecting off their dazzling scales. When harvested, as long as the kelp trunks are kept in contact with water, they will continue to slowly grow and heal. This allows ships constructed of this material to quickly repair their hulls at sea from even the most severe storm or monster attack. As well as this, while not having the same regenerative property on dry land, this kelp still makes for excellent building material.</French>
+		<German>[TAB]Giant kelp found growing within the lairs of ancient sea serpents are able to grow to truly monolithic proportions thanks to a healthy diet of sea serpent waste and sunlight reflecting off their dazzling scales. When harvested, as long as the kelp trunks are kept in contact with water, they will continue to slowly grow and heal. This allows ships constructed of this material to quickly repair their hulls at sea from even the most severe storm or monster attack. As well as this, while not having the same regenerative property on dry land, this kelp still makes for excellent building material.</German>
+		<Italian>[TAB]Giant kelp found growing within the lairs of ancient sea serpents are able to grow to truly monolithic proportions thanks to a healthy diet of sea serpent waste and sunlight reflecting off their dazzling scales. When harvested, as long as the kelp trunks are kept in contact with water, they will continue to slowly grow and heal. This allows ships constructed of this material to quickly repair their hulls at sea from even the most severe storm or monster attack. As well as this, while not having the same regenerative property on dry land, this kelp still makes for excellent building material.</Italian>
+		<Spanish>[TAB]Giant kelp found growing within the lairs of ancient sea serpents are able to grow to truly monolithic proportions thanks to a healthy diet of sea serpent waste and sunlight reflecting off their dazzling scales. When harvested, as long as the kelp trunks are kept in contact with water, they will continue to slowly grow and heal. This allows ships constructed of this material to quickly repair their hulls at sea from even the most severe storm or monster attack. As well as this, while not having the same regenerative property on dry land, this kelp still makes for excellent building material.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GIANT_KRAKEN_EYE</Tag>
+		<English>Krakens Eyes</English>
+		<French>Krakens Eyes</French>
+		<German>Krakens Eyes</German>
+		<Italian>Krakens Eyes</Italian>
+		<Spanish>Krakens Eyes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_GIANT_KRAKEN_EYE_PEDIA</Tag>
+		<English>[TAB]A blue, translucent marble found deep within kraken lairs, Krakens Eyes are forever cold to the touch. When held up to the face, it can be peered through to see the world as it truly is without illusion or deception. Oftentimes a brave diver has attempted to collect these marbles, only to hold one up to their eye and find that the kraken's lair was not as empty as they thought.</English>
+		<French>[TAB]A blue, translucent marble found deep within kraken lairs, Krakens Eyes are forever cold to the touch. When held up to the face, it can be peered through to see the world as it truly is without illusion or deception. Oftentimes a brave diver has attempted to collect these marbles, only to hold one up to their eye and find that the kraken's lair was not as empty as they thought.</French>
+		<German>[TAB]A blue, translucent marble found deep within kraken lairs, Krakens Eyes are forever cold to the touch. When held up to the face, it can be peered through to see the world as it truly is without illusion or deception. Oftentimes a brave diver has attempted to collect these marbles, only to hold one up to their eye and find that the kraken's lair was not as empty as they thought.</German>
+		<Italian>[TAB]A blue, translucent marble found deep within kraken lairs, Krakens Eyes are forever cold to the touch. When held up to the face, it can be peered through to see the world as it truly is without illusion or deception. Oftentimes a brave diver has attempted to collect these marbles, only to hold one up to their eye and find that the kraken's lair was not as empty as they thought.</Italian>
+		<Spanish>[TAB]A blue, translucent marble found deep within kraken lairs, Krakens Eyes are forever cold to the touch. When held up to the face, it can be peered through to see the world as it truly is without illusion or deception. Oftentimes a brave diver has attempted to collect these marbles, only to hold one up to their eye and find that the kraken's lair was not as empty as they thought.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TITAN_TURTLE_SCALES</Tag>
+		<English>Titan Turtle Scales</English>
+		<French>Titan Turtle Scales</French>
+		<German>Titan Turtle Scales</German>
+		<Italian>Titan Turtle Scales</Italian>
+		<Spanish>Titan Turtle Scales</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TITAN_TURTLE_SCALES_PEDIA</Tag>
+		<English>[TAB]Scales from a Titan's Shell, These nearly invulnerable scales can be used both in peace and wartime. In times of peace, these chromatic, rainbow-colored scales are highly sought after for the making of art pieces and beautiful yet extremely durable furniture; in times of war, they are able to be plated together to protect the hull of ships or carved into a nearly impenetrable shield.</English>
+		<French>[TAB]Scales from a Titan's Shell, These nearly invulnerable scales can be used both in peace and wartime. In times of peace, these chromatic, rainbow-colored scales are highly sought after for the making of art pieces and beautiful yet extremely durable furniture; in times of war, they are able to be plated together to protect the hull of ships or carved into a nearly impenetrable shield.</French>
+		<German>[TAB]Scales from a Titan's Shell, These nearly invulnerable scales can be used both in peace and wartime. In times of peace, these chromatic, rainbow-colored scales are highly sought after for the making of art pieces and beautiful yet extremely durable furniture; in times of war, they are able to be plated together to protect the hull of ships or carved into a nearly impenetrable shield.</German>
+		<Italian>[TAB]Scales from a Titan's Shell, These nearly invulnerable scales can be used both in peace and wartime. In times of peace, these chromatic, rainbow-colored scales are highly sought after for the making of art pieces and beautiful yet extremely durable furniture; in times of war, they are able to be plated together to protect the hull of ships or carved into a nearly impenetrable shield.</Italian>
+		<Spanish>[TAB]Scales from a Titan's Shell, These nearly invulnerable scales can be used both in peace and wartime. In times of peace, these chromatic, rainbow-colored scales are highly sought after for the making of art pieces and beautiful yet extremely durable furniture; in times of war, they are able to be plated together to protect the hull of ships or carved into a nearly impenetrable shield.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DROWNED_LAIR</Tag>
+		<English>Drowned Lair</English>
+		<French>Drowned Lair</French>
+		<German>Drowned Lair</German>
+		<Italian>Drowned Lair</Italian>
+		<Spanish>Drowned Lair</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DROWNED_LAIR_PEDIA</Tag>
+		<English>[TAB]Sailors thrown to the waves to appease a raging storm, sacrificed improperly by small villages trying to gain the Overlord's blessing, or a fanatic trying to swim down to the Overlords in the underdeep. Whatever the cause, these drowned now wander the ocean floor, waiting for a chance to pull another innocent into the waves to join them in the gurgling, gasping dirge.</English>
+		<French>[TAB]Sailors thrown to the waves to appease a raging storm, sacrificed improperly by small villages trying to gain the Overlord's blessing, or a fanatic trying to swim down to the Overlords in the underdeep. Whatever the cause, these drowned now wander the ocean floor, waiting for a chance to pull another innocent into the waves to join them in the gurgling, gasping dirge.</French>
+		<German>[TAB]Sailors thrown to the waves to appease a raging storm, sacrificed improperly by small villages trying to gain the Overlord's blessing, or a fanatic trying to swim down to the Overlords in the underdeep. Whatever the cause, these drowned now wander the ocean floor, waiting for a chance to pull another innocent into the waves to join them in the gurgling, gasping dirge.</German>
+		<Italian>[TAB]Sailors thrown to the waves to appease a raging storm, sacrificed improperly by small villages trying to gain the Overlord's blessing, or a fanatic trying to swim down to the Overlords in the underdeep. Whatever the cause, these drowned now wander the ocean floor, waiting for a chance to pull another innocent into the waves to join them in the gurgling, gasping dirge.</Italian>
+		<Spanish>[TAB]Sailors thrown to the waves to appease a raging storm, sacrificed improperly by small villages trying to gain the Overlord's blessing, or a fanatic trying to swim down to the Overlords in the underdeep. Whatever the cause, these drowned now wander the ocean floor, waiting for a chance to pull another innocent into the waves to join them in the gurgling, gasping dirge.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DREDGE_HEEP</Tag>
+		<English>Dredge Heep</English>
+		<French>Dredge Heep</French>
+		<German>Dredge Heep</German>
+		<Italian>Dredge Heep</Italian>
+		<Spanish>Dredge Heep</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HOWLING_REEF</Tag>
+		<English>Howling Reef</English>
+		<French>Howling Reef</French>
+		<German>Howling Reef</German>
+		<Italian>Howling Reef</Italian>
+		<Spanish>Howling Reef</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_DEN</Tag>
+		<English>Pirate Den</English>
+		<French>Pirate Den</French>
+		<German>Pirate Den</German>
+		<Italian>Pirate Den</Italian>
+		<Spanish>Pirate Den</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_DEN_PEDIA</Tag>
+		<English>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+These scum have created a den to organize their raids from and store the booty of successful pillaging.</English>
+		<French>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+These scum have created a den to organize their raids from and store the booty of successful pillaging.</French>
+		<German>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+These scum have created a den to organize their raids from and store the booty of successful pillaging.</German>
+		<Italian>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+These scum have created a den to organize their raids from and store the booty of successful pillaging.</Italian>
+		<Spanish>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+These scum have created a den to organize their raids from and store the booty of successful pillaging.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_STRONGHOLD</Tag>
+		<English>Pirate Stronghold</English>
+		<French>Pirate Stronghold</French>
+		<German>Pirate Stronghold</German>
+		<Italian>Pirate Stronghold</Italian>
+		<Spanish>Pirate Stronghold</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_STRONGHOLD_PEDIA</Tag>
+		<English>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+forming a naval military structure and stockpiling looted weaponry, these pirates have turned this region into a stronghold; woe be upon their next victims.</English>
+		<French>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+forming a naval military structure and stockpiling looted weaponry, these pirates have turned this region into a stronghold; woe be upon their next victims.</French>
+		<German>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+forming a naval military structure and stockpiling looted weaponry, these pirates have turned this region into a stronghold; woe be upon their next victims.</German>
+		<Italian>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+forming a naval military structure and stockpiling looted weaponry, these pirates have turned this region into a stronghold; woe be upon their next victims.</Italian>
+		<Spanish>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+forming a naval military structure and stockpiling looted weaponry, these pirates have turned this region into a stronghold; woe be upon their next victims.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_FREE_CITY</Tag>
+		<English>Pirate Free City</English>
+		<French>Pirate Free City</French>
+		<German>Pirate Free City</German>
+		<Italian>Pirate Free City</Italian>
+		<Spanish>Pirate Free City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_FREE_CITY_PEDIA</Tag>
+		<English>[TAB]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+opulent, garish, depraved, a pirate free city is a wonder and a horror in equal measure; vagabonds can make their fortunes here or just as easily be hung from the gallows for violating one of the pirate princes many arbitrary laws-that is, if they don't get caught between feuding pirate lords first. The only reason a pirate city does not immediately collapse is the rigged backbone of buccaneers wielding the best weaponry money can steal.</English>
+		<French>[TAB]]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+opulent, garish, depraved, a pirate free city is a wonder and a horror in equal measure; vagabonds can make their fortunes here or just as easily be hung from the gallows for violating one of the pirate princes many arbitrary laws-that is, if they don't get caught between feuding pirate lords first. The only reason a pirate city does not immediately collapse is the rigged backbone of buccaneers wielding the best weaponry money can steal.</French>
+		<German>[TAB]]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+opulent, garish, depraved, a pirate free city is a wonder and a horror in equal measure; vagabonds can make their fortunes here or just as easily be hung from the gallows for violating one of the pirate princes many arbitrary laws-that is, if they don't get caught between feuding pirate lords first. The only reason a pirate city does not immediately collapse is the rigged backbone of buccaneers wielding the best weaponry money can steal.</German>
+		<Italian>[TAB]]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+opulent, garish, depraved, a pirate free city is a wonder and a horror in equal measure; vagabonds can make their fortunes here or just as easily be hung from the gallows for violating one of the pirate princes many arbitrary laws-that is, if they don't get caught between feuding pirate lords first. The only reason a pirate city does not immediately collapse is the rigged backbone of buccaneers wielding the best weaponry money can steal.</Italian>
+		<Spanish>[TAB]]Outside the walls of cities, stifling laws and hypocritical morals are the wild men, thieves, brigands, murderers, and worse. The only law they respect is the law of the sea; the only morals they hold are what can be paid for.
+
+		
+
+		
+
+opulent, garish, depraved, a pirate free city is a wonder and a horror in equal measure; vagabonds can make their fortunes here or just as easily be hung from the gallows for violating one of the pirate princes many arbitrary laws-that is, if they don't get caught between feuding pirate lords first. The only reason a pirate city does not immediately collapse is the rigged backbone of buccaneers wielding the best weaponry money can steal.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_OCEAN_TOWER</Tag>
+		<English>Abandoned Ocean Lighthouse</English>
+		<French>Abandoned Ocean Lighthouse</French>
+		<German>Abandoned Ocean Lighthouse</German>
+		<Italian>Abandoned Ocean Lighthouse</Italian>
+		<Spanish>Abandoned Ocean Lighthouse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_OCEAN_TOWER_PEDIA</Tag>
+		<English>[TAB]An old abandoned lighthouse from the time before the age of ice.
+
+		
+
+"Everything seems peaceful, Captain, and yet the sailors cannot help but feel uneasy. Where are the cries of seabirds? How come our fishing nets pull up nothing, not even crabs? This place is peaceful alright, peaceful like the grave."</English>
+		<French>[TAB]An old abandoned lighthouse from the time before the age of ice.
+
+		
+
+"Everything seems peaceful, Captain, and yet the sailors cannot help but feel uneasy. Where are the cries of seabirds? How come our fishing nets pull up nothing, not even crabs? This place is peaceful alright, peaceful like the grave."</French>
+		<German>[TAB]An old abandoned lighthouse from the time before the age of ice.
+
+		
+
+"Everything seems peaceful, Captain, and yet the sailors cannot help but feel uneasy. Where are the cries of seabirds? How come our fishing nets pull up nothing, not even crabs? This place is peaceful alright, peaceful like the grave."</German>
+		<Italian>[TAB]An old abandoned lighthouse from the time before the age of ice.
+
+		
+
+"Everything seems peaceful, Captain, and yet the sailors cannot help but feel uneasy. Where are the cries of seabirds? How come our fishing nets pull up nothing, not even crabs? This place is peaceful alright, peaceful like the grave."</Italian>
+		<Spanish>[TAB]An old abandoned lighthouse from the time before the age of ice.
+
+		
+
+"Everything seems peaceful, Captain, and yet the sailors cannot help but feel uneasy. Where are the cries of seabirds? How come our fishing nets pull up nothing, not even crabs? This place is peaceful alright, peaceful like the grave."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TITAN_SHELL_LAIR</Tag>
+		<English>Jagged Islands</English>
+		<French>Jagged Islands</French>
+		<German>Jagged Islands</German>
+		<Italian>Jagged Islands</Italian>
+		<Spanish>Jagged Islands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TITAN_SHELL_LAIR_PEDIA</Tag>
+		<English>[TAB]A jagged outcrop of islands lay ahead of The Marionette, prized flagship of the Belsaraph city-states; patchwork colors of every hue cover the sails as two sailors argue up in the crow's nest.
+
+"The coordinates we got from the Lanun have been way off; I don't see the mainland anywhere!" said the first sailor. 
+
+"Nonsense, they have no reason to mislead us; our gold was as good as anyone's, see? Those islands ahead mean land must be just behind them!" said the second.
+
+"Do you call that land?? There is not a single living thing on those ridges besides barnacles and... and..." said the first sailor, trailing off.
+
+The first sailor's face started to go a funny shade of purple and green.
+
+"What the hell has gotten into you?" said the second sailor.
+
+"T-That island just blinked at me!" said the first.
+
+Suddenly the waves around The Marionette exploded into froth and roil as the ship started to lift up into the air, stranded on the flipper of a megalithic beast from nightmare.
+
+"THOSE BASTARDS SET US-" The second sailor's words were cut off as the ship pitched violently, a deafening roar filling the skies, causing every board in the vessel to vibrate. Tumbling out of the crow's nest, all the second sailor could do was watch helplessly as the roil rushed up to meet him.
+
+		
+
+The Marionette was the prized flagship of the Balserath city-states, and now it was flotsam floating around a jagged outcrop of islands that did not exist on any map.</English>
+		<French>[TAB]A jagged outcrop of islands lay ahead of The Marionette, prized flagship of the Belsaraph city-states; patchwork colors of every hue cover the sails as two sailors argue up in the crow's nest.
+
+"The coordinates we got from the Lanun have been way off; I don't see the mainland anywhere!" said the first sailor. 
+
+"Nonsense, they have no reason to mislead us; our gold was as good as anyone's, see? Those islands ahead mean land must be just behind them!" said the second.
+
+"Do you call that land?? There is not a single living thing on those ridges besides barnacles and... and..." said the first sailor, trailing off.
+
+The first sailor's face started to go a funny shade of purple and green.
+
+"What the hell has gotten into you?" said the second sailor.
+
+"T-That island just blinked at me!" said the first.
+
+Suddenly the waves around The Marionette exploded into froth and roil as the ship started to lift up into the air, stranded on the flipper of a megalithic beast from nightmare.
+
+"THOSE BASTARDS SET US-" The second sailor's words were cut off as the ship pitched violently, a deafening roar filling the skies, causing every board in the vessel to vibrate. Tumbling out of the crow's nest, all the second sailor could do was watch helplessly as the roil rushed up to meet him.
+
+		
+
+The Marionette was the prized flagship of the Balserath city-states, and now it was flotsam floating around a jagged outcrop of islands that did not exist on any map.</French>
+		<German>[TAB]A jagged outcrop of islands lay ahead of The Marionette, prized flagship of the Belsaraph city-states; patchwork colors of every hue cover the sails as two sailors argue up in the crow's nest.
+
+"The coordinates we got from the Lanun have been way off; I don't see the mainland anywhere!" said the first sailor. 
+
+"Nonsense, they have no reason to mislead us; our gold was as good as anyone's, see? Those islands ahead mean land must be just behind them!" said the second.
+
+"Do you call that land?? There is not a single living thing on those ridges besides barnacles and... and..." said the first sailor, trailing off.
+
+The first sailor's face started to go a funny shade of purple and green.
+
+"What the hell has gotten into you?" said the second sailor.
+
+"T-That island just blinked at me!" said the first.
+
+Suddenly the waves around The Marionette exploded into froth and roil as the ship started to lift up into the air, stranded on the flipper of a megalithic beast from nightmare.
+
+"THOSE BASTARDS SET US-" The second sailor's words were cut off as the ship pitched violently, a deafening roar filling the skies, causing every board in the vessel to vibrate. Tumbling out of the crow's nest, all the second sailor could do was watch helplessly as the roil rushed up to meet him.
+
+		
+
+The Marionette was the prized flagship of the Balserath city-states, and now it was flotsam floating around a jagged outcrop of islands that did not exist on any map.</German>
+		<Italian>[TAB]A jagged outcrop of islands lay ahead of The Marionette, prized flagship of the Belsaraph city-states; patchwork colors of every hue cover the sails as two sailors argue up in the crow's nest.
+
+"The coordinates we got from the Lanun have been way off; I don't see the mainland anywhere!" said the first sailor. 
+
+"Nonsense, they have no reason to mislead us; our gold was as good as anyone's, see? Those islands ahead mean land must be just behind them!" said the second.
+
+"Do you call that land?? There is not a single living thing on those ridges besides barnacles and... and..." said the first sailor, trailing off.
+
+The first sailor's face started to go a funny shade of purple and green.
+
+"What the hell has gotten into you?" said the second sailor.
+
+"T-That island just blinked at me!" said the first.
+
+Suddenly the waves around The Marionette exploded into froth and roil as the ship started to lift up into the air, stranded on the flipper of a megalithic beast from nightmare.
+
+"THOSE BASTARDS SET US-" The second sailor's words were cut off as the ship pitched violently, a deafening roar filling the skies, causing every board in the vessel to vibrate. Tumbling out of the crow's nest, all the second sailor could do was watch helplessly as the roil rushed up to meet him.
+
+		
+
+The Marionette was the prized flagship of the Balserath city-states, and now it was flotsam floating around a jagged outcrop of islands that did not exist on any map.</Italian>
+		<Spanish>[TAB]A jagged outcrop of islands lay ahead of The Marionette, prized flagship of the Belsaraph city-states; patchwork colors of every hue cover the sails as two sailors argue up in the crow's nest.
+
+"The coordinates we got from the Lanun have been way off; I don't see the mainland anywhere!" said the first sailor. 
+
+"Nonsense, they have no reason to mislead us; our gold was as good as anyone's, see? Those islands ahead mean land must be just behind them!" said the second.
+
+"Do you call that land?? There is not a single living thing on those ridges besides barnacles and... and..." said the first sailor, trailing off.
+
+The first sailor's face started to go a funny shade of purple and green.
+
+"What the hell has gotten into you?" said the second sailor.
+
+"T-That island just blinked at me!" said the first.
+
+Suddenly the waves around The Marionette exploded into froth and roil as the ship started to lift up into the air, stranded on the flipper of a megalithic beast from nightmare.
+
+"THOSE BASTARDS SET US-" The second sailor's words were cut off as the ship pitched violently, a deafening roar filling the skies, causing every board in the vessel to vibrate. Tumbling out of the crow's nest, all the second sailor could do was watch helplessly as the roil rushed up to meet him.
+
+		
+
+The Marionette was the prized flagship of the Balserath city-states, and now it was flotsam floating around a jagged outcrop of islands that did not exist on any map.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SEA_SERPENT_NEST</Tag>
+		<English>Sea Serpent Nest</English>
+		<French>Sea Serpent Nest</French>
+		<German>Sea Serpent Nest</German>
+		<Italian>Sea Serpent Nest</Italian>
+		<Spanish>Sea Serpent Nest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SEA_SERPENT_NEST_PEDIA</Tag>
+		<English>[TAB]The nest of an ancient sea serpent, the stones ground smooth, as if polished marble, by slicked scales over a millennia, kelp the size of old-growth trees twisting and roping into one another a hundred times until the tangle is so firm a castle could be built upon it.</English>
+		<French>[TAB]The nest of an ancient sea serpent, the stones ground smooth, as if polished marble, by slicked scales over a millennia, kelp the size of old-growth trees twisting and roping into one another a hundred times until the tangle is so firm a castle could be built upon it.</French>
+		<German>[TAB]The nest of an ancient sea serpent, the stones ground smooth, as if polished marble, by slicked scales over a millennia, kelp the size of old-growth trees twisting and roping into one another a hundred times until the tangle is so firm a castle could be built upon it.</German>
+		<Italian>[TAB]The nest of an ancient sea serpent, the stones ground smooth, as if polished marble, by slicked scales over a millennia, kelp the size of old-growth trees twisting and roping into one another a hundred times until the tangle is so firm a castle could be built upon it.</Italian>
+		<Spanish>[TAB]The nest of an ancient sea serpent, the stones ground smooth, as if polished marble, by slicked scales over a millennia, kelp the size of old-growth trees twisting and roping into one another a hundred times until the tangle is so firm a castle could be built upon it.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GIANT_TURTLE</Tag>
+		<English>Dragon Turtle</English>
+		<French>Dragon Turtle</French>
+		<German>Dragon Turtle</German>
+		<Italian>Dragon Turtle</Italian>
+		<Spanish>Dragon Turtle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ANCIENT_SEA_SERPENT</Tag>
+		<English>Ancient Sea Serpent</English>
+		<French>Ancient Sea Serpent</French>
+		<German>Ancient Sea Serpent</German>
+		<Italian>Ancient Sea Serpent</Italian>
+		<Spanish>Ancient Sea Serpent</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ANCIENT_SEA_SERPENT_PEDIA</Tag>
+		<English>[TAB]Serpents, like all reptiles, never stop growing. When an ancient sea serpent wakes, its roar can be heard for hundreds of miles.</English>
+		<French>[TAB]Serpents, like all reptiles, never stop growing. When an ancient sea serpent wakes, its roar can be heard for hundreds of miles.</French>
+		<German>[TAB]Serpents, like all reptiles, never stop growing. When an ancient sea serpent wakes, its roar can be heard for hundreds of miles.</German>
+		<Italian>[TAB]Serpents, like all reptiles, never stop growing. When an ancient sea serpent wakes, its roar can be heard for hundreds of miles.</Italian>
+		<Spanish>[TAB]Serpents, like all reptiles, never stop growing. When an ancient sea serpent wakes, its roar can be heard for hundreds of miles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TITAN_SHELL_TURTLE</Tag>
+		<English>Titan Dragon Turtle</English>
+		<French>Titan Dragon Turtle</French>
+		<German>Titan Dragon Turtle</German>
+		<Italian>Titan Dragon Turtle</Italian>
+		<Spanish>Titan Dragon Turtle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TITAN_SHELL_TURTLE_PEDIA</Tag>
+		<English>[TAB]Dragon turtles have few (read: any) natural predators, so it stands to reason that given enough time and a steady food supply, they will reach sizes that are hard to fathom but easy to feel when they crash onto the shore to lay eggs once every hundred years.</English>
+		<French>[TAB]Dragon turtles have few (read: any) natural predators, so it stands to reason that given enough time and a steady food supply, they will reach sizes that are hard to fathom but easy to feel when they crash onto the shore to lay eggs once every hundred years.</French>
+		<German>[TAB]Dragon turtles have few (read: any) natural predators, so it stands to reason that given enough time and a steady food supply, they will reach sizes that are hard to fathom but easy to feel when they crash onto the shore to lay eggs once every hundred years.</German>
+		<Italian>[TAB]Dragon turtles have few (read: any) natural predators, so it stands to reason that given enough time and a steady food supply, they will reach sizes that are hard to fathom but easy to feel when they crash onto the shore to lay eggs once every hundred years.</Italian>
+		<Spanish>[TAB]Dragon turtles have few (read: any) natural predators, so it stands to reason that given enough time and a steady food supply, they will reach sizes that are hard to fathom but easy to feel when they crash onto the shore to lay eggs once every hundred years.</Spanish>
+	</TEXT>
+</Civ4GameText>

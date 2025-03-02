@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIVINER</Tag>
+		<English>Diviner</English>
+		<French>Diviner</French>
+		<German>Diviner</German>
+		<Italian>Diviner</Italian>
+		<Spanish>Diviner</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIVINER_SHORT</Tag>
+		<English>Dvr</English>
+		<French>Dvr</French>
+		<German>Dvr</German>
+		<Italian>Dvr</Italian>
+		<Spanish>Dvr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIVINER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Gains one melee follower (warrior/axeman/champion/phalanx) after conquering a city. Follower type depends on metal-working technique level</English>
+		<French>[NEWLINE][ICON_BULLET]Gains one melee follower (warrior/axeman/champion/phalanx) after conquering a city. Follower type depends on metal-working technique level</French>
+		<German>[NEWLINE][ICON_BULLET]Gains one melee follower (warrior/axeman/champion/phalanx) after conquering a city. Follower type depends on metal-working technique level</German>
+		<Italian>[NEWLINE][ICON_BULLET]Gains one melee follower (warrior/axeman/champion/phalanx) after conquering a city. Follower type depends on metal-working technique level</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Gains one melee follower (warrior/axeman/champion/phalanx) after conquering a city. Follower type depends on metal-working technique level</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIVERSE</Tag>
+		<English>Diverse</English>
+		<French>Diverse</French>
+		<German>Diverse</German>
+		<Italian>Diverse</Italian>
+		<Spanish>Diverse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIVERSE_SHORT</Tag>
+		<English>Dvs</English>
+		<French>Dvs</French>
+		<German>Dvs</German>
+		<Italian>Dvs</Italian>
+		<Spanish>Dvs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIVERSE_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Units can come from different races</English>
+		<French>[NEWLINE][ICON_BULLET]Units can come from different races</French>
+		<German>[NEWLINE][ICON_BULLET]Units can come from different races</German>
+		<Italian>[NEWLINE][ICON_BULLET]Units can come from different races</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Units can come from different races</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ABIDER</Tag>
+		<English>Abider</English>
+		<French>Abider</French>
+		<German>Abider</German>
+		<Italian>Abider</Italian>
+		<Spanish>Abider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ABIDER_SHORT</Tag>
+		<English>Abi</English>
+		<French>Abi</French>
+		<German>Abi</German>
+		<Italian>Abi</Italian>
+		<Spanish>Abi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ABIDER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]All your units get one free promotion after conquering a civilization</English>
+		<French>[NEWLINE][ICON_BULLET]All your units get one free promotion after conquering a civilization</French>
+		<German>[NEWLINE][ICON_BULLET]All your units get one free promotion after conquering a civilization</German>
+		<Italian>[NEWLINE][ICON_BULLET]All your units get one free promotion after conquering a civilization</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]All your units get one free promotion after conquering a civilization</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_USURPER</Tag>
+		<English>Usurper</English>
+		<French>Usurper</French>
+		<German>Usurper</German>
+		<Italian>Usurper</Italian>
+		<Spanish>Usurper</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_USURPER_SHORT</Tag>
+		<English>Usp</English>
+		<French>Usp</French>
+		<German>Usp</German>
+		<Italian>Usp</Italian>
+		<Spanish>Usp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_USURPER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Can acquire historical leader traits from a conquerred civilization</English>
+		<French>[NEWLINE][ICON_BULLET]Can acquire historical leader traits from a conquerred civilization</French>
+		<German>[NEWLINE][ICON_BULLET]Can acquire historical leader traits from a conquerred civilization</German>
+		<Italian>[NEWLINE][ICON_BULLET]Can acquire historical leader traits from a conquerred civilization</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Can acquire historical leader traits from a conquerred civilization</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXONERATOR</Tag>
+		<English>Exonerator</English>
+		<French>Exonerator</French>
+		<German>Exonerator</German>
+		<Italian>Exonerator</Italian>
+		<Spanish>Exonerator</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXONERATOR_SHORT</Tag>
+		<English>Exo</English>
+		<French>Exo</French>
+		<German>Exo</German>
+		<Italian>Exo</Italian>
+		<Spanish>Exo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXONERATOR_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Can convert all remaining units from a conquerred civilization</English>
+		<French>[NEWLINE][ICON_BULLET]Can convert all remaining units from a conquerred civilization</French>
+		<German>[NEWLINE][ICON_BULLET]Can convert all remaining units from a conquerred civilization</German>
+		<Italian>[NEWLINE][ICON_BULLET]Can convert all remaining units from a conquerred civilization</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Can convert all remaining units from a conquerred civilization</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GRAND_MARSHAL</Tag>
+		<English>Grand Marshal</English>
+		<French>Grand Marshal</French>
+		<German>Grand Marshal</German>
+		<Italian>Grand Marshal</Italian>
+		<Spanish>Grand Marshal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GRAND_MARSHAL_SHORT</Tag>
+		<English>Gml</English>
+		<French>Gml</French>
+		<German>Gml</German>
+		<Italian>Gml</Italian>
+		<Spanish>Gml</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GRAND_MARSHAL_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Gains one free great commander after building your capital.[NEWLINE][ICON_BULLET]Military units gain free rank promotions based on levels</English>
+		<French>[NEWLINE][ICON_BULLET]Gains one free great commander after building your capital.[NEWLINE][ICON_BULLET]Military units gain free rank promotions based on levels</French>
+		<German>[NEWLINE][ICON_BULLET]Gains one free great commander after building your capital.[NEWLINE][ICON_BULLET]Military units gain free rank promotions based on levels</German>
+		<Italian>[NEWLINE][ICON_BULLET]Gains one free great commander after building your capital.[NEWLINE][ICON_BULLET]Military units gain free rank promotions based on levels</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Gains one free great commander after building your capital.[NEWLINE][ICON_BULLET]Military units gain free rank promotions based on levels</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_DECIUS_CREATION</Tag>
+		<English>Decius, a man brave, loyal, and ever steadfast. Your destiny is in your hands</English>
+		<French>Decius, a man brave, loyal, and ever steadfast. Your destiny is in your hands</French>
+		<German>Decius, a man brave, loyal, and ever steadfast. Your destiny is in your hands</German>
+		<Italian>Decius, a man brave, loyal, and ever steadfast. Your destiny is in your hands</Italian>
+		<Spanish>Decius, a man brave, loyal, and ever steadfast. Your destiny is in your hands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TRAIT_RETURN_OF_WINTER</Tag>
+		<English>Return of Winter</English>
+		<French>Return of Winter</French>
+		<German>Return of Winter</German>
+		<Italian>Return of Winter</Italian>
+		<Spanish>Return of Winter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TRAIT_RETURN_OF_WINTER_SHORT</Tag>
+		<English>Row</English>
+		<French>Row</French>
+		<German>Row</German>
+		<Italian>Row</Italian>
+		<Spanish>Row</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TRAIT_RETURN_OF_WINTER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Winter sweeps your cities as they expand</English>
+		<French>[NEWLINE][ICON_BULLET]Winter sweeps your cities as they expand</French>
+		<German>[NEWLINE][ICON_BULLET]Winter sweeps your cities as they expand</German>
+		<Italian>[NEWLINE][ICON_BULLET]Winter sweeps your cities as they expand</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Winter sweeps your cities as they expand</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ZARIA_INFO2_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]+1 Mind Mana</English>
+		<French>[NEWLINE][ICON_BULLET]+1 Mind Mana</French>
+		<German>[NEWLINE][ICON_BULLET]+1 Mind Mana</German>
+		<Italian>[NEWLINE][ICON_BULLET]+1 Mind Mana</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]+1 Mind Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ZARIA_INFO3_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</English>
+		<French>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</French>
+		<German>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</German>
+		<Italian>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</Spanish>
+	</TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_TRAIT_THOUSAND_FACES</Tag>
+        <English>Thousand Faces</English>
+        <French>Thousand Faces</French>
+        <German>Thousand Faces</German>
+        <Italian>Thousand Faces</Italian>
+        <Spanish>Mil Caras</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_TRAIT_THOUSAND_FACES_SHORT</Tag>
+        <English>TF</English>
+        <French>TF</French>
+        <German>TF</German>
+        <Italian>TF</Italian>
+        <Spanish>MC</Spanish>
+    </TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REDEEMING</Tag>
+		<English>Redeeming</English>
+		<French>Redeeming</French>
+		<German>bekehrt</German>
+		<Italian>Redeeming</Italian>
+		<Spanish>Redeeming</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REDEEMING_SHORT</Tag>
+		<English>Red</English>
+		<French>Red</French>
+		<German>Red</German>
+		<Italian>Red</Italian>
+		<Spanish>Red</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REDEEMING_HELP</Tag>
+        <English>[NEWLINE][ICON_BULLET]Redemption by defeating an "Evil" leader's unit is possible, and could trigger a Golden Age!</English>
+        <French>[NEWLINE][ICON_BULLET]Redemption by defeating an "Evil" leader's unit is possible, and could trigger a Golden Age!</French>
+        <German>[NEWLINE][ICON_BULLET]Redemption by defeating an "Evil" leader's unit is possible, and could trigger a Golden Age!</German>
+        <Italian>[NEWLINE][ICON_BULLET]Redemption by defeating an "Evil" leader's unit is possible, and could trigger a Golden Age!</Italian>
+        <Spanish>[NEWLINE][ICON_BULLET]Redemption by defeating an "Evil" leader's unit is possible, and could trigger a Golden Age!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PUPPETEER</Tag>
+		<English>Puppeteer</English>
+		<French>Puppeteer</French>
+		<German>Puppeteer</German>
+		<Italian>Puppeteer</Italian>
+		<Spanish>Puppeteer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PUPPETEER_SHORT</Tag>
+		<English>Pup</English>
+		<French>Pup</French>
+		<German>Pup</German>
+		<Italian>Pup</Italian>
+		<Spanish>Pup</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PUPPETEER_HELP</Tag>
+        <English>[NEWLINE][ICON_BULLET]Puppets are more lively.</English>
+        <French>[NEWLINE][ICON_BULLET]Puppets are more lively.</French>
+        <German>[NEWLINE][ICON_BULLET]Puppets are more lively.</German>
+        <Italian>[NEWLINE][ICON_BULLET]Puppets are more lively.</Italian>
+        <Spanish>[NEWLINE][ICON_BULLET]Puppets are more lively.</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PUPPETEER</Tag>
+		<English>Puppeteer</English>
+		<French>Puppeteer</French>
+		<German>Puppeteer</German>
+		<Italian>Puppeteer</Italian>
+		<Spanish>Puppeteer</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KAMIKAZE</Tag>
+		<English>Kamikaze</English>
+		<French>Kamikaze</French>
+		<German>Kamikaze</German>
+		<Italian>Kamikaze</Italian>
+		<Spanish>Kamikaze</Spanish>
+	</TEXT>		
+</Civ4GameText>

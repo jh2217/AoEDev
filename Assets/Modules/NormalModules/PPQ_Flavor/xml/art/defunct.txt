@@ -1,0 +1,490 @@
+
+		<UnitArtInfo>
+			<!-- 
+				STAB	-	AXE LIGHT	-	OVERHAND STAB
+			-->
+			<Type>ART_DEF_UNIT_PHALANX_SCIONS</Type>
+			<Button>Art/Interface/Buttons/Units/Scions/phalanx.dds</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Scions/phalanx/Unique_HolyRoman_Landsknecht.nif</NIF>
+			<KFM>Art/Modules/PPQ/Animations/Polearm/Stab-LAxe-Overhand.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SWORDSMAN_MAZATL</Type>
+			<Button>Art/Interface/Buttons/Units/LizardWarrior.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/mazatl/swordsman/swordsman.nif</NIF>
+			<KFM>Art\Units\Unique_Sumeria_Vulture\Unique_Sumerian_Vulture blood.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_CHAMPION_MAZATL_NEW</Type>
+			<Button>Art/Interface/Buttons/Units/LizardChampion.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/mazatl/champion/Banor Captain Lizardmen.nif</NIF>
+			<KFM>Art\Units\Unique_Sumeria_Vulture\Unique_Sumerian_Vulture blood.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+
+===========================
+			<StyleUnits>
+				
+				<StyleUnit>
+					<UnitType>UNIT_COMMANDER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_GREAT_COMMANDER_AMURITES</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_GREAT_COMMANDER_AMURITES</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_GREAT_COMMANDER_AMURITES</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				
+		<UnitArtInfo>		
+			<Type>ART_DEF_UNIT_ARTIST</Type>
+			<Button>,Art/Interface/Buttons/Units/GreatArtist.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,2,4</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/Demon/greatpeople/artist/greatartist.nif</NIF>
+			<KFM>Art/Modules/PPQ/Units/Demon/greatpeople/artist/greatartist.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.95</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>1</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+
+		--- Religion	
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_DISCIPLE_ORDER</Type>
+			<Button>Art/Interface/Buttons/Units/Disciple Order.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/HUMAN/Religions/Order/Disciple/Unique_Sumerian_Vulture.nif</NIF>
+			<KFM>Art\Units\Unique_Sumeria_Vulture\Unique_Sumerian_Vulture.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.9</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_PRIEST_ORDER</Type>
+			<Button>Art/Interface/Buttons/Units/Priest Order.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/HUMAN/Religions/Order/Priest/Spearman.nif</NIF>
+			<KFM>Art/Units/Spearman/Spearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HIGH_PRIEST_ORDER</Type>
+			<Button>Art/Interface/Buttons/Units/High Priest of the Order.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/HUMAN/Religions/Order/High Priest/Spearman.nif</NIF>
+			<KFM>Art/Units/Spearman/Spearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		
+
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_DISCIPLE_OVERLORDS</Type>
+			<Button>Art/Interface/Buttons/Units/Disciple Overlords.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/HUMAN/Religions/oo/Disciple/Unique_Sumerian_Vulture.nif</NIF>
+			<KFM>Art\Units\Unique_Sumeria_Vulture\Unique_Sumerian_Vulture.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.9</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_PRIEST_OVERLORDS</Type>
+			<Button>Art/Interface/Buttons/Units/Priest Overlords.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/HUMAN/Religions/oo/Priest/Spearman.nif</NIF>
+			<KFM>Art/Units/Spearman/Spearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HIGH_PRIEST_OVERLORDS</Type>
+			<Button>Art/Interface/Buttons/Units/High Priest of the Overlords.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/HUMAN/Religions/oo/High Priest/Spearman.nif</NIF>
+			<KFM>Art/Units/Spearman/Spearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		-- Clowns
+		-- Elf Priests
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_DISCIPLE_ORDER_ELF</Type>
+			<Button>Art/Interface/Buttons/Units/Disciple Order.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/ELF/Religions/Order/Disciple/Unique_Sumerian_Vulture.nif</NIF>
+			<KFM>Art\Units\Unique_Sumeria_Vulture\Unique_Sumerian_Vulture.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.9</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_PRIEST_ORDER_ELF</Type>
+			<Button>Art/Interface/Buttons/Units/Priest Order.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/ELF/Units/Religions/Order/Priest/Spearman.nif</NIF>
+			<KFM>Art/Units/Spearman/Spearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HIGH_PRIEST_ORDER_ELF</Type>
+			<Button>Art/Interface/Buttons/Units/High Priest of the Order.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/ELF/Religions/Order/High Priest/Spearman.nif</NIF>
+			<KFM>Art/Units/Spearman/Spearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_DISCIPLE_OVERLORDS_ELF</Type>
+			<Button>Art/Interface/Buttons/Units/Disciple Overlords.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/ELF/Religions/oo/Disciple/Unique_Sumerian_Vulture.nif</NIF>
+			<KFM>Art\Units\Unique_Sumeria_Vulture\Unique_Sumerian_Vulture.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.9</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_PRIEST_OVERLORDS_ELF</Type>
+			<Button>Art/Interface/Buttons/Units/Priest Overlords.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/ELF/Religions/oo/Priest/Spearman.nif</NIF>
+			<KFM>Art/Units/Spearman/Spearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HIGH_PRIEST_OVERLORDS_ELF</Type>
+			<Button>Art/Interface/Buttons/Units/High Priest of the Overlords.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/ELF/Religions/oo/High Priest/Spearman.nif</NIF>
+			<KFM>Art/Units/Spearman/Spearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		
+				<StyleUnit>
+					<UnitType>UNIT_DISCIPLE_THE_ORDER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_DISCIPLE_ORDER_ELF</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_DISCIPLE_ORDER_ELF</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_DISCIPLE_ORDER_ELF</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_PRIEST_OF_THE_ORDER</UnitType><!-- !!! -->
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_PRIEST_ORDER_ELF</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_PRIEST_ORDER_ELF</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_PRIEST_ORDER_ELF</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_HIGH_PRIEST_OF_THE_ORDER</UnitType><!-- !!! -->
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_ORDER_ELF</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_ORDER_ELF</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_ORDER_ELF</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+
+				<StyleUnit>
+					<UnitType>UNIT_DISCIPLE_OCTOPUS_OVERLORDS</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_DISCIPLE_OVERLORDS_ELF</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_DISCIPLE_OVERLORDS_ELF</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_DISCIPLE_OVERLORDS_ELF</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_PRIEST_OF_THE_OVERLORDS</UnitType><!-- !!! -->
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_PRIEST_OVERLORDS_ELF</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_PRIEST_OVERLORDS_ELF</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_PRIEST_OVERLORDS_ELF</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				<StyleUnit>
+					<UnitType>UNIT_HIGH_PRIEST_OF_THE_OVERLORDS</UnitType><!-- !!! -->
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_OVERLORDS_ELF</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_OVERLORDS_ELF</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_HIGH_PRIEST_OVERLORDS_ELF</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_PRIEST_KILMORPH</Type>
+			<Button>Art/Interface/Buttons/Units/Priest Kilmorph.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/HUMAN/Religions/rok/Priest/Spearman.nif</NIF>
+			<KFM>Art/Units/Spearman/Spearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_HIGH_PRIEST_KILMORPH</Type>
+			<Button>Art/Interface/Buttons/Units/High Priest of Kilmorph.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/PPQ/Units/HUMAN/Religions/rok/High Priest/Spearman.nif</NIF>
+			<KFM>Art/Units/Spearman/Spearman.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+				<fBattleDistance>0.35</fBattleDistance>
+				<fRangedDeathTime>0.31</fRangedDeathTime>
+				<bActAsRanged>0</bActAsRanged>
+				<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>		

@@ -1,0 +1,149 @@
+[name]
+Arachnophobia
+[version]
+1.0
+[rifeversion]
+363
+[author]
+LeastCraft
+[dependency]
+;
+[compatible]
+;
+[desc]
+tweaks to archos civ
+
+v1.0
+By: @LeastCraft
+
+Buildings:
+	Mother's Nest:
+	Grants "Spider Blood" to all eligible units
+	No longer grants +10% tech
+	Cost increased from 160 to 320
+
+Units:
+	Animal Packs and Archos now share the same spiders, with hidden nationality
+	CHANGED Baby spider to gain Growth Spurt immediately after and only after killing a living unit
+	ADDED 90% damage limit to Tribesman 
+	ADDED "Spider Blood" promotion to Nesting Spider
+	ADDED Spider Rider (Replaces chariot, same thing but does not require horses)
+	ADDED War Spider (Replaces war chariot, same thing but does not require horses)
+	REMOVED Huntsman and Recluse (Art kept, lore moved to spiderkin)
+
+v1.1
+By: @LeastCraft
+
+Graphics:
+	Updated Mother Model
+
+Units:
+	ADDED Free Unit promotion to Baby Spider
+
+v1.2
+By: @Honourable596
+
+Units:
+	Commented out scorpions as unique units
+	CHANGED the spider rider UU to replace the vanilla Horseman (tier 1 mounted) instead of the Horse Archer (tier 2 mounted) and adjusted stats accordingly
+	CHANGED the war spider into replacing the knight unit and only requiring the construction technology and siege workshop building - adjusted stats to match vanilla knight
+	RE-ADDED the Archos UU replacing the Hunter and Ranger Tier 2+3 recon units.
+
+v1.3
+By: @LeastCraft
+
+QoA:
+	Added help text for Spider Upgrade spell
+
+Graphics:
+	Updated Mother's Nest model and button, changed name to "Silksong Cradle"
+
+	Updated all greater spider variant buttons to have a little star on the bottom right
+	Updated Mother model and button, changed name to "Mother of Mothers"
+	Updated Nesting Spider model and button to that of the original Mother model
+	Updated Berserker model and button
+	Updated Mage model and button
+	Updated Archmage model and button to that of the original Haruspex
+	Updated Haruspex model and button
+	Added Spider Huntress and Spider Knightess models and buttons
+	
+	Updated Poisoned Promotion button
+	Updated Spiderkin Promotion button
+
+	Changed Wake Mother spell name to "Ia! Black queen of the depths with a thousand young!"
+
+Buildings:
+	Mother's Nest now gives 1 Silk
+
+Units:
+	Baby Spider combat strength reduced from 2 to 1
+	Spider combat strength reduced from 4 to 3
+	Giant Spider combat strength reduced from 6 to 5
+	Mother gains access to a new spell "Predatory Scream"
+
+Promotions:
+	CHANGED Spiderkin to give immunity to poison and +30% damage against poisoned units.
+	Poisoned now have applicable unitcombats so that it can be applied by spells
+	ADDED PROMOTION_SPIDER_MUCRO_BURROWED which grants invisibility
+	ADDED PROMOTION_SPIDER_MUCRO_REVEALED1 which buffs attack (+50%) and debuffs defense (-80%), and grants immunity to first strikes for 1 turn
+	ADDED PROMOTION_SPIDER_MUCRO_REVEALED2 which further grants 1 first strike, immunity to defensive strike and ignore terrain defense for 1 turn
+	ADDED PROMOTION_MARKED_PREY which grants -50% against spider blood and marksman counter until healed
+	ADDED PROMOTION_CONSUME_THE_WEAK which grants marksman for 1 turn
+	ADDED PROMOTION_POISON_FUME which "heals" units in the same tile by -10
+
+	CHANGED Rhagodessa to grant access to spell "Poison Explosion 1"
+	CHANGED Rhagodessa Greater to grant access to spell "Poison Explosion 2"
+	CHANGED Mucro to grant access to promotions "Burrow" and "Reveal 1"
+	CHANGED Mucro Greater to grant access to promotions "Reveal 2"
+	CHANGED Argyroneta to grant "Marksman" and pass "Marked Prey" to enemy in combat
+	CHANGED Argyroneta Greater to grant access to spell "Consume the Weak"
+	CHANGED Venenum to additionally pass "Poison Fume" in combat
+
+	CHANGED all greater spider variants to be available only to giant spiders, and no longer grants "beast" unicombat
+
+Spells:
+	ADDED SPELL_POISON_EXPLOSION1 which applies poison with 70% chance to all units in a 3x3 range and kills the caster
+	ADDED SPELL_POISON_EXPLOSION2 which applies poison with 70% chance to all units in a 5x5 range and kills the caster
+	ADDED SPELL_CONSUME_THE_WEAK which grants "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.
+	ADDED SPELL_PREDATORY_SCREAM which applies "Marked Prey" Promotion to enemy units in a 3x3 range
+
+By: @FoxXavier
+
+Removed scorpion spawning
+Spider Rider stats have been rebalanced. Now replaces the horseman line. Loses a movement for extra poison damage. War Spider (Knight replacement) has gained a ranged attack.
+Baby Spider gains +50% against animal units
+
+v1.4
+By: @LeastCraft (idea from @black_imperator)
+
+Graphics: 
+	Updated buttons for growth spurts, fort spider I and fort spider II
+
+Promotions:
+	CHANGED Marked Prey to no longer grant marksman counter
+	RESTORED Spiderkin to original(+1 poison combat; pass poisoned to enemies)
+	FIXED Mucro so that it cannot Burrow and Reveal in the same turn to get free buff
+	SWAPPED Venenum and Greater Venenum effects:
+		CHANGED Venenum from (+1 poison combat and pass "Poison Fume" in combat) to (ranged attack)
+		CHANGED Greater Venenum from (ranged attack) to (+1 poison combat and pass "Poison Fume" in combat and +25% withdrawal)
+
+	ADDED Symbiotic Communion promotion which allows the haruspex access to sacrifial rites
+	ADDED Symbiotic Communion End promotion which removes Symbiotic Communion promotion and excludes it for 1 turn
+
+	ADDED 5 spider mutations for the Symbiotic Communion:
+		Venom Secretion: +1 poison combat, immune to getting poisoned
+		Jointed Limbs: +1-2 first strikes
+		Chitin Carapace: immune to first strikes
+		Trail Pheromone: +30% vs poisoned
+		Spitter Gland: ranged attack
+
+Spells:
+	ADDED 5 spider mutation rites:
+		Rite of Ruby: Sacrifices the weakest RED spider and grants Venom Secretion on melee and recon units in the same stack
+		Rite of Topaz: Sacrifices the weakest RED spider and grants Jointed Limbs on melee and recon units in the same stack
+		Rite of Diamond: Sacrifices the weakest RED spider and grants Chitin Carapace on melee and recon units in the same stack
+		Rite of Sapphire: Sacrifices the weakest RED spider and grants Trail Pheromone on melee and recon units in the same stack
+		Rite of Emerald: Sacrifices the weakest RED spider and grants Spitter Gland on melee and recon units in the same stack
+
+New mechanics:
+	When a spider with variant promotion is stationed in a city, +10% chance to grant the respective mutation to newly created melee and recon units in the city.

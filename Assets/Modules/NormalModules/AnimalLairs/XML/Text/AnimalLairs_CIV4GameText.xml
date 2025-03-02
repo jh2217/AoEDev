@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Alignment -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_FRIENDLY_ANIMAL</Tag>
+		<English>Your unit finds a cub, that could be tamed.</English>
+		<French>Your unit finds a cub, that could be tamed.</French>
+		<German>Your unit finds a cub, that could be tamed.</German>
+		<Italian>Your unit finds a cub, that could be tamed.</Italian>
+		<Spanish>Your unit finds a cub, that could be tamed.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_SUBDUE_ANIMAL</Tag>
+		<English>Clearing out an animal den your scout perfected his taming skills.</English>
+		<French>Clearing out an animal den your scout perfected his taming skills.</French>
+		<German>Clearing out an animal den your scout perfected his taming skills.</German>
+		<Italian>Clearing out an animal den your scout perfected his taming skills.</Italian>
+		<Spanish>Clearing out an animal den your scout perfected his taming skills.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_LOW_GOLD</Tag>
+		<English>Within the den your unit finds some gnawed bones and a purse.</English>
+		<French>Within the den your unit finds some gnawed bones and a purse.</French>
+		<German>Within the den your unit finds some gnawed bones and a purse.</German>
+		<Italian>Within the den your unit finds some gnawed bones and a purse.</Italian>
+		<Spanish>Within the den your unit finds some gnawed bones and a purse.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_HOSTILE_ANIMAL</Tag>
+		<English>A wild animal defends its home.</English>
+		<French>A wild animal defends its home.</French>
+		<German>A wild animal defends its home.</German>
+		<Italian>A wild animal defends its home.</Italian>
+		<Spanish>A wild animal defends its home.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_HOSTILE_RECON</Tag>
+		<English>You are not the only one to hunt here. Goblin scout confronts you.</English>
+		<French>You are not the only one to hunt here. Goblin scout confronts you.</French>
+		<German>You are not the only one to hunt here. Goblin scout confronts you.</German>
+		<Italian>You are not the only one to hunt here. Goblin scout confronts you.</Italian>
+		<Spanish>You are not the only one to hunt here. Goblin scout confronts you.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_POISON_GOOD</Tag>
+		<English>Dressing wild animals your hunters gather a potent poisonous glands</English>
+		<French>Dressing wild animals your hunters gather a potent poisonous glands</French>
+		<German>Dressing wild animals your hunters gather a potent poisonous glands</German>
+		<Italian>Dressing wild animals your hunters gather a potent poisonous glands</Italian>
+		<Spanish>Dressing wild animals your hunters gather a potent poisonous glands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_SUBDUE_BEAST</Tag>
+		<English>Clearing out an animal den your scout perfected his taming skills.</English>
+		<French>Clearing out an animal den your scout perfected his taming skills.</French>
+		<German>Clearing out an animal den your scout perfected his taming skills.</German>
+		<Italian>Clearing out an animal den your scout perfected his taming skills.</Italian>
+		<Spanish>Clearing out an animal den your scout perfected his taming skills.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_MAINTENANCE</Tag>
+		<English>Your unit find means to provide for himself in the wilds.</English>
+		<French>Your unit find means to provide for himself in the wilds.</French>
+		<German>Your unit find means to provide for himself in the wilds.</German>
+		<Italian>Your unit find means to provide for himself in the wilds.</Italian>
+		<Spanish>Your unit find means to provide for himself in the wilds.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_HERBIVORE</Tag>
+		<English>After predators were cleared out more animals returned to their natural habitat.</English>
+		<French>After predators were cleared out more animals returned to their natural habitat.</French>
+		<German>After predators were cleared out more animals returned to their natural habitat.</German>
+		<Italian>After predators were cleared out more animals returned to their natural habitat.</Italian>
+		<Spanish>After predators were cleared out more animals returned to their natural habitat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_POISON_BAD</Tag>
+		<English>Poisonous snake maimed your unit.</English>
+		<French>Poisonous snake maimed your unit.</French>
+		<German>Poisonous snake maimed your unit.</German>
+		<Italian>Poisonous snake maimed your unit.</Italian>
+		<Spanish>Poisonous snake maimed your unit.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_HOSTILE_PACK</Tag>
+		<English>A wild animal pack defends their home.</English>
+		<French>A wild animal pack defends their home.</French>
+		<German>A wild animal pack defends their home.</German>
+		<Italian>A wild animal pack defends their home.</Italian>
+		<Spanish>A wild animal pack defends their home.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_GREAT_HUNTER</Tag>
+		<English>Proving his ability to deal with wild animals, the tale of your hunter's deeds travels around Erebus.</English>
+		<French>Proving his ability to deal with wild animals, the tale of your hunter's deeds travels around Erebus.</French>
+		<German>Proving his ability to deal with wild animals, the tale of your hunter's deeds travels around Erebus.</German>
+		<Italian>Proving his ability to deal with wild animals, the tale of your hunter's deeds travels around Erebus.</Italian>
+		<Spanish>Proving his ability to deal with wild animals, the tale of your hunter's deeds travels around Erebus.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_SHINY_1</Tag>
+		<English>Within the den your unit finds some gnawed bones and a jewel.</English>
+		<French>Within the den your unit finds some gnawed bones and a jewel.</French>
+		<German>Within the den your unit finds some gnawed bones and a jewel.</German>
+		<Italian>Within the den your unit finds some gnawed bones and a jewel.</Italian>
+		<Spanish>Within the den your unit finds some gnawed bones and a jewel.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_SHINY_2</Tag>
+		<English>Within the den your unit finds some gnawed bones and a jade braclet.</English>
+		<French>Within the den your unit finds some gnawed bones and a jade braclet.</French>
+		<German>Within the den your unit finds some gnawed bones and a jade braclet.</German>
+		<Italian>Within the den your unit finds some gnawed bones and a jade braclet.</Italian>
+		<Spanish>Within the den your unit finds some gnawed bones and a jade braclet.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_HOSTILE_PACK_RABID</Tag>
+		<English>Drooling, grinning maws, hard breath, twitchy moves... Something is wrong.</English>
+		<French>Drooling, grinning maws, hard breath, twitchy moves... Something is wrong.</French>
+		<German>Drooling, grinning maws, hard breath, twitchy moves... Something is wrong.</German>
+		<Italian>Drooling, grinning maws, hard breath, twitchy moves... Something is wrong.</Italian>
+		<Spanish>Drooling, grinning maws, hard breath, twitchy moves... Something is wrong.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_DEN_WITHERED</Tag>
+		<English>Within the den your unit finds a reeking animal carcass. Hopefully it's not dangerous.</English>
+		<French>Within the den your unit finds a reeking animal carcass. Hopefully it's not dangerous.</French>
+		<German>Within the den your unit finds a reeking animal carcass. Hopefully it's not dangerous.</German>
+		<Italian>Within the den your unit finds a reeking animal carcass. Hopefully it's not dangerous.</Italian>
+		<Spanish>Within the den your unit finds a reeking animal carcass. Hopefully it's not dangerous.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BEAR_DEN_1</Tag>
+		<English>Small Bear Den (I)</English>
+		<French>
+			<Text>Caverne d'Ours exigüe (I):Cavernes d'Ours exigües (I)</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Small Bear Den (I)</German>
+		<Italian>Small Bear Den (I)</Italian>
+		<Spanish>Small Bear Den (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BEAR_DEN_2</Tag>
+		<English>Bear Den (II)</English>
+		<French>
+			<Text>Caverne d'Ours (II):Cavernes d'Ours (II)</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Bear Den (II)</German>
+		<Italian>Bear Den (II)</Italian>
+		<Spanish>Bear Den (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BEAR_DEN_3</Tag>
+		<English>Large Bear Den (III)</English>
+		<French>
+			<Text>Caverne d'Ours spacieuse (III):Cavernes d'Ours spacieuses (III)</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Large Bear Den (III)</German>
+		<Italian>Large Bear Den (III)</Italian>
+		<Spanish>Large Bear Den (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_ROC_WEYR</Tag>
+		<English>Roc Weyr (III)</English>
+		<French>Nid des Rokhs (III)</French>
+		<German>Roc Weyr (III)</German>
+		<Italian>Roc Weyr (III)</Italian>
+		<Spanish>Roc Weyr (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LION_DEN_1</Tag>
+		<English>Lion Den (I)</English>
+		<French>Antre des Lions (I)</French>
+		<German>Lion Den (I)</German>
+		<Italian>Lion Den (I)</Italian>
+		<Spanish>Lion Den(I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LION_DEN_2</Tag>
+		<English>Lion Den (II)</English>
+		<French>Antre des Lions (II)</French>
+		<German>Lion Den (II)</German>
+		<Italian>Lion Den (II)</Italian>
+		<Spanish>Lion Den (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LION_DEN_3</Tag>
+		<English>Lion Den (III)</English>
+		<French>Antre des Lions (III)</French>
+		<German>Lion Den (III)</German>
+		<Italian>Lion Den (III)</Italian>
+		<Spanish>Lion Den (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPIDER_DEN_1</Tag>
+		<English>Spider Den (I)</English>
+		<French>Cocon d'Araignée (I)</French>
+		<German>Spider Den (I)</German>
+		<Italian>Spider Den (I)</Italian>
+		<Spanish>Spider Den (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPIDER_DEN_2</Tag>
+		<English>Spider Den (II)</English>
+		<French>Cocon d'Araignée (II)</French>
+		<German>Spider Den (II)</German>
+		<Italian>Spider Den (II)</Italian>
+		<Spanish>Spider Den (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPIDER_DEN_3</Tag>
+		<English>Spider Den (III)</English>
+		<French>Cocon d'Araignée (III)</French>
+		<German>Spider Den (III)</German>
+		<Italian>Spider Den (III)</Italian>
+		<Spanish>Spider Den (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WOLF_LAIR_1</Tag>
+		<English>Wolf Lair (I)</English>
+		<French>
+			<Text>Tanière à loups (I):Tanières à loups (I)</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Wolf Lair (I)</German>
+		<Italian>Wolf Lair (I)</Italian>
+		<Spanish>Wolf Lair (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WOLF_LAIR_2</Tag>
+		<English>Wolf Lair (II)</English>
+		<French>
+			<Text>Tanière à loups (II):Tanières à loups (II)</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Wolf Lair (II)</German>
+		<Italian>Wolf Lair (II)</Italian>
+		<Spanish>Wolf Lair (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WOLF_LAIR_3</Tag>
+		<English>Wolf Lair (III)</English>
+		<French>
+			<Text>Tanière à loups (III):Tanières à loups (III)</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Wolf Lair (III)</German>
+		<Italian>Wolf Lair (III)</Italian>
+		<Spanish>Wolf Lair (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SCORPION_NEST_1</Tag>
+		<English>Scorpion Nest (I)</English>
+		<French>Terrier de Scorpions (I)</French>
+		<German>Scorpion Nest (I)</German>
+		<Italian>Scorpion Nest (I)</Italian>
+		<Spanish>Scorpion Nest (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SCORPION_NEST_2</Tag>
+		<English>Scorpion Swarm Nest (II)</English>
+		<French>Terrier de Scorpions (II)</French>
+		<German>Scorpion Swarm Nest (II)</German>
+		<Italian>Scorpion SwarmNest (II)</Italian>
+		<Spanish>Scorpion SwarmNest (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SCORPION_NEST_3</Tag>
+		<English>Giant Scorpion Nest (III)</English>
+		<French>Terrier de Scorpions (III)</French>
+		<German>Giant Scorpion Nest (III)</German>
+		<Italian>Giant Scorpion Nest (III)</Italian>
+		<Spanish>Giant Scorpion Nest (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WYRM_BLOOD</Tag>
+		<English>Wyrm Blood</English>
+		<French>Sang de Ver</French>
+		<German>Wyrm Blood</German>
+		<Italian>Wyrm Blood</Italian>
+		<Spanish>Wyrm Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CONSUME_BLOOD_WYRM</Tag>
+		<English>Sacrifice the Wyrm</English>
+		<French>Sacrifier le Ver</French>
+		<German>Sacrifice the Wyrm</German>
+		<Italian>Sacrifice the Wyrm</Italian>
+		<Spanish>Sacrifice the Wyrm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SERPENT_BLOOD</Tag>
+		<English>Serpent Blood</English>
+		<French>Sang de Serpent</French>
+		<German>Serpent Blood</German>
+		<Italian>Serpent Blood</Italian>
+		<Spanish>Serpent Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CONSUME_BLOOD_SERPENT</Tag>
+		<English>Sacrifice the Serpent</English>
+		<French>Sacrifier le Serpent</French>
+		<German>Sacrifice the Serpent</German>
+		<Italian>Sacrifice the Serpent</Italian>
+		<Spanish>Sacrifice the Serpent</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Commander Picker -->
+<!-- By TiberiusW 15/11/2023 -->
+<!-- -->
+<!-- Text Keys -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_ADD_TO_COMMANDER</Tag>
+		<English>[TAB]Add to Commander</English>
+		<French>[TAB]Add to Commander</French>
+		<German>[TAB]Add to Commander</German>
+		<Italian>[TAB]Add to Commander</Italian>
+		<Spanish>[TAB]Add to Commander</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_CANCEL</Tag>
+		<English>[ICON_BULLET]Cancel</English>
+		<French>[ICON_BULLET]Cancel</French>
+		<German>[ICON_BULLET]Cancel</German>
+		<Italian>[ICON_BULLET]Cancel</Italian>
+		<Spanish>[ICON_BULLET]Cancel</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_JOIN_COMMANDER_MULTIPLE</Tag>
+		<English>Choose from a list of available Commanders</English>
+		<French>Choose from a list of available Commanders</French>
+		<German>Choose from a list of available Commanders</German>
+		<Italian>Choose from a list of available Commanders</Italian>
+		<Spanish>Choose from a list of available Commanders</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_JOIN_COMMANDER_POPUP</Tag>
+		<English>[ICON_BULLET]Assigns [COLOR_YIELD_COMMERCE]%s1[COLOR_REVERT] [NEWLINE](level %d2, Commanding: %d3/%d4) [NEWLINE]to be the Commander of [COLOR_HIGHLIGHT_TEXT]%s5[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Assigns [COLOR_YIELD_COMMERCE]%s1[COLOR_REVERT] [NEWLINE](level %d2, Commanding: %d3/%d4) [NEWLINE]to be the Commander of [COLOR_HIGHLIGHT_TEXT]%s5[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]Assigns [COLOR_YIELD_COMMERCE]%s1[COLOR_REVERT] [NEWLINE](level %d2, Commanding: %d3/%d4) [NEWLINE]to be the Commander of [COLOR_HIGHLIGHT_TEXT]%s5[COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET]Assigns [COLOR_YIELD_COMMERCE]%s1[COLOR_REVERT] [NEWLINE](level %d2, Commanding: %d3/%d4) [NEWLINE]to be the Commander of [COLOR_HIGHLIGHT_TEXT]%s5[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]Assigns [COLOR_YIELD_COMMERCE]%s1[COLOR_REVERT] [NEWLINE](level %d2, Commanding: %d3/%d4) [NEWLINE]to be the Commander of [COLOR_HIGHLIGHT_TEXT]%s5[COLOR_REVERT]</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_JOIN_BCOC_COMMANDER_POPUP</Tag>
+		<English>[ICON_BULLET]Assigns [COLOR_YIELD_COMMERCE]%s1[COLOR_REVERT] [NEWLINE](%s2, level %d3, Commanding: %d4/%d5) [NEWLINE]to be the Commander of [COLOR_HIGHLIGHT_TEXT]%s6[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]Assigns [COLOR_YIELD_COMMERCE]%s1[COLOR_REVERT] [NEWLINE](%s2, level %d3, Commanding: %d4/%d5) [NEWLINE]to be the Commander of [COLOR_HIGHLIGHT_TEXT]%s6[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]Assigns [COLOR_YIELD_COMMERCE]%s1[COLOR_REVERT] [NEWLINE](%s2, level %d3, Commanding: %d4/%d5) [NEWLINE]to be the Commander of [COLOR_HIGHLIGHT_TEXT]%s6[COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET]Assigns [COLOR_YIELD_COMMERCE]%s1[COLOR_REVERT] [NEWLINE](%s2, level %d3, Commanding: %d4/%d5) [NEWLINE]to be the Commander of [COLOR_HIGHLIGHT_TEXT]%s6[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]Assigns [COLOR_YIELD_COMMERCE]%s1[COLOR_REVERT] [NEWLINE](%s2, level %d3, Commanding: %d4/%d5) [NEWLINE]to be the Commander of [COLOR_HIGHLIGHT_TEXT]%s6[COLOR_REVERT]</Spanish>
+	</TEXT>
+
+</Civ4GameText>

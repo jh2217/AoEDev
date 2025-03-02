@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY</Tag>
+		<English>Trophy Screen</English>
+		<French>Écran des trophées</French>
+		<German>Trophäen</German>
+		<Italian>Trophy Screen</Italian>
+		<Spanish>Trophy Screen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_DEFEATED_ACHERON</Tag>
+		<English>Defeated Acheron</English>
+		<French>Defeated Acheron</French>
+		<German>Besiege Archeron</German>
+		<Italian>Defeated Acheron</Italian>
+		<Spanish>Defeated Acheron</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_DEFEATED_ARS</Tag>
+		<English>Defeated Ars</English>
+		<French>Defeated Ars</French>
+		<German>Besiege Ars</German>
+		<Italian>Defeated Ars</Italian>
+		<Spanish>Defeated Ars</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_DEFEATED_BASIUM</Tag>
+		<English>Defeated Basium</English>
+		<French>Defeated Basium</French>
+		<German>Besiege Basium</German>
+		<Italian>Defeated Basium</Italian>
+		<Spanish>Defeated Basium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_DEFEATED_BUBOES</Tag>
+		<English>Defeated Buboes</English>
+		<French>Defeated Buboes</French>
+		<German>Besiege Buboes</German>
+		<Italian>Defeated Buboes</Italian>
+		<Spanish>Defeated Buboes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_DEFEATED_HYBOREM</Tag>
+		<English>Defeated Hyborem</English>
+		<French>Defeated Hyborem</French>
+		<German>Besiege Hyborem</German>
+		<Italian>Defeated Hyborem</Italian>
+		<Spanish>Defeated Hyborem</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_DEFEATED_LEVIATHAN</Tag>
+		<English>Defeated Leviathan</English>
+		<French>Defeated Leviathan</French>
+		<German>Besiege Leviathan</German>
+		<Italian>Defeated Leviathan</Italian>
+		<Spanish>Defeated Leviathan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_DEFEATED_ORTHUS</Tag>
+		<English>Defeated Orthus</English>
+		<French>Defeated Orthus</French>
+		<German>Besiege Orthus</German>
+		<Italian>Defeated Orthus</Italian>
+		<Spanish>Defeated Orthus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_DEFEATED_STEPHANOS</Tag>
+		<English>Defeated Stephanos</English>
+		<French>Defeated Stephanos</French>
+		<German>Besiege Stephanos</German>
+		<Italian>Defeated Stephanos</Italian>
+		<Spanish>Defeated Stephanos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_DEFEATED_YERSINIA</Tag>
+		<English>Defeated Yersinia</English>
+		<French>Defeated Yersinia</French>
+		<German>Besiege Yersinia</German>
+		<Italian>Defeated Yersinia</Italian>
+		<Spanish>Defeated Yersinia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_DEFEATED_ZARCAZ</Tag>
+		<English>Defeated Zarcaz</English>
+		<French>Zarcaz vaincu</French>
+		<German>Besiege Zarcaz</German>
+		<Italian>Defeated Zarcaz</Italian>
+		<Spanish>Defeated Zarcaz</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_FEAT_APOCALYPSE</Tag>
+		<English>Reach 100 on the Armageddon Counter</English>
+		<French>Reach 100 on the Armageddon Counter</French>
+		<German>Erreiche 100 auf dem Armaggeddonzähler</German>
+		<Italian>Reach 100 on the Armageddon Counter</Italian>
+		<Spanish>Reach 100 on the Armageddon Counter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_FEAT_ASCENSION</Tag>
+		<English>Lead Auric to Ascension</English>
+		<French>Lead Auric to Ascension</French>
+		<German>Führe Auric zum Aufstieg</German>
+		<Italian>Lead Auric to Ascension</Italian>
+		<Spanish>Lead Auric to Ascension</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_FEAT_BABOON</Tag>
+		<English>Turn one of your units into a baboon</English>
+		<French>Turn one of your units into a baboon</French>
+		<German>Verwandle eine deiner Einheiten in einen Pavian</German>
+		<Italian>Turn one of your units into a baboon</Italian>
+		<Spanish>Turn one of your units into a baboon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_FEAT_FLESH_GOLEM_15</Tag>
+		<English>Build a Flesh Golem with more than 15 strength</English>
+		<French>Build a Flesh Golem with more than 15 strength</French>
+		<German>Baue einen Fleischgolem mit mehr als Stärke 15</German>
+		<Italian>Build a Flesh Golem with more than 15 strength</Italian>
+		<Spanish>Build a Flesh Golem with more than 15 strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_FEAT_GODSLAYER</Tag>
+		<English>Defeat Auric Ascended with the Godslayer</English>
+		<French>Defeat Auric Ascended with the Godslayer</French>
+		<German>Besiege den Aufgestiegenen Auric mit dem Gottesschlächterer</German>
+		<Italian>Defeat Auric Ascended with the Godslayer</Italian>
+		<Spanish>Defeat Auric Ascended with the Godslayer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_FEAT_GRAND_MENAGERIE</Tag>
+		<English>Build the Grand Menagerie</English>
+		<French>Build the Grand Menagerie</French>
+		<German>Baue die große Menagerie</German>
+		<Italian>Build the Grand Menagerie</Italian>
+		<Spanish>Build the Grand Menagerie</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_FEAT_MIMIC_20</Tag>
+		<English>Get more than 20 promotions with a Mimic</English>
+		<French>Get more than 20 promotions with a Mimic</French>
+		<German>Erreiche mit einem Formwandler Beförderungsstufe 20</German>
+		<Italian>Get more than 20 promotions with a Mimic</Italian>
+		<Spanish>Get more than 20 promotions with a Mimic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_FEAT_RESCUE_BRIGIT</Tag>
+		<English>Rescue Brigit</English>
+		<French>Rescue Brigit</French>
+		<German>Rette Brigit</German>
+		<Italian>Rescue Brigit</Italian>
+		<Spanish>Rescue Brigit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_HALL_TITLE</Tag>
+		<English>Trophy Hall</English>
+		<French>Hall des Trophées</French>
+		<German>Trophäenhalle</German>
+		<Italian>Trophy Hall</Italian>
+		<Spanish>Trophy Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_SCREEN_ACHIEVED</Tag>
+		<English>Achieved Trophies</English>
+		<French>Achieved Trophies</French>
+		<German>Archivierte Trophäen</German>
+		<Italian>Achieved Trophies</Italian>
+		<Spanish>Achieved Trophies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_SCREEN_UNACHIEVED</Tag>
+		<English>Unachieved Trophies</English>
+		<French>Unachieved Trophies</French>
+		<German>nicht-archivierte Trophäen</German>
+		<Italian>Unachieved Trophies</Italian>
+		<Spanish>Unachieved Trophies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_ALTAR_OF_THE_LUONNOTAR</Tag>
+		<English>Altar of the Luonnotar Victory</English>
+		<French>Altar of the Luonnotar Victory</French>
+		<German>Altar-Sieg</German>
+		<Italian>Altar of the Luonnotar Victory</Italian>
+		<Spanish>Altar of the Luonnotar Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_AMURITES</Tag>
+		<English>Amurite Victory</English>
+		<French>Amurite Victory</French>
+		<German>Amuriten-Sieg</German>
+		<Italian>Amurite Victory</Italian>
+		<Spanish>Amurite Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_ARCHOS</Tag>
+		<English>Archos Victory</English>
+		<French>Archos Victory</French>
+		<German>Sieg der Archos</German>
+		<Italian>Archos Victory</Italian>
+		<Spanish>Archos Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_AUSTRIN</Tag>
+		<English>Austrin Victory</English>
+		<French>Austrin Victory</French>
+		<German>Sieg der Austrin</German>
+		<Italian>Austrin Victory</Italian>
+		<Spanish>Austrin Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_BALSERAPHS</Tag>
+		<English>Balseraph Victory</English>
+		<French>Balseraph Victory</French>
+		<German>Balseraphs-Sieg</German>
+		<Italian>Balseraph Victory</Italian>
+		<Spanish>Balseraph Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_BANNOR</Tag>
+		<English>Bannor Victory</English>
+		<French>Bannor Victory</French>
+		<German>Bannor-Sieg</German>
+		<Italian>Bannor Victory</Italian>
+		<Spanish>Bannor Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_BARBARIAN_WORLD</Tag>
+		<English>Win a game with the Barbarian World game option enabled</English>
+		<French>Win a game with the Barbarian World game option enabled</French>
+		<German>Gewinne ein Spiel mit eingeschalteter "Barbaren-Welt" Option</German>
+		<Italian>Win a game with the Barbarian World game option enabled</Italian>
+		<Spanish>Win a game with the Barbarian World game option enabled</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_CALABIM</Tag>
+		<English>Calabim Victory</English>
+		<French>Calabim Victory</French>
+		<German>Calabim-Sieg</German>
+		<Italian>Calabim Victory</Italian>
+		<Spanish>Calabim Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_CHISLEV</Tag>
+		<English>Chislev Victory</English>
+		<French>Chislev Victory</French>
+		<German>Sieg der Chislev</German>
+		<Italian>Chislev Victory</Italian>
+		<Spanish>Chislev Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_CLAN_OF_EMBERS</Tag>
+		<English>Clan of Embers Victory</English>
+		<French>Clan of Embers Victory</French>
+		<German>Aschenklan-Sieg</German>
+		<Italian>Clan of Embers Victory</Italian>
+		<Spanish>Clan of Embers Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_CONQUEST</Tag>
+		<English>Conquest Victory</English>
+		<French>Conquest Victory</French>
+		<German>Eroberungssieg</German>
+		<Italian>Conquest Victory</Italian>
+		<Spanish>Conquest Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_CUALLI</Tag>
+		<English>Cualli Victory</English>
+		<French>Cualli Victory</French>
+		<German>Sieg der Cualli</German>
+		<Italian>Cualli Victory</Italian>
+		<Spanish>Cualli Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_CULTURAL</Tag>
+		<English>Cultural Victory</English>
+		<French>Victoire culturelle</French>
+		<German>Kultursieg</German>
+		<Italian>Cultural Victory</Italian>
+		<Spanish>Cultural Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_DOMINATION</Tag>
+		<English>Domination Victory</English>
+		<French>Domination Victory</French>
+		<German>Vorherrschaftssieg</German>
+		<Italian>Domination Victory</Italian>
+		<Spanish>Domination Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_DOVIELLO</Tag>
+		<English>Doviello Victory</English>
+		<French>Victoire doviellonne</French>
+		<German>Doviello-Sieg</German>
+		<Italian>Doviello Victory</Italian>
+		<Spanish>Doviello Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_DTESH</Tag>
+		<English>D'teshi Victory</English>
+		<French>D'teshi Victory</French>
+		<German>D'teshi hat gesiegt</German>
+		<Italian>D'teshi Victory</Italian>
+		<Spanish>D'teshi Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_DURAL</Tag>
+		<English>Dural Victory</English>
+		<French>Victoire durale</French>
+		<German>Sieg der Dural</German>
+		<Italian>Dural Victory</Italian>
+		<Spanish>Dural Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_ELOHIM</Tag>
+		<English>Elohim Victory</English>
+		<French>Elohim Victory</French>
+		<German>Elohim-Sieg</German>
+		<Italian>Elohim Victory</Italian>
+		<Spanish>Elohim Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_FINAL_FIVE</Tag>
+		<English>Win a game with the Final Five game option enabled</English>
+		<French>Win a game with the Final Five game option enabled</French>
+		<German>Gewinne ein Spiel mit eingeschalteter "Die letzten Fünf" Option</German>
+		<Italian>Win a game with the Final Five game option enabled</Italian>
+		<Spanish>Win a game with the Final Five game option enabled</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_FROZEN</Tag>
+		<English>Frozen Victory</English>
+		<French>Frozen Victory</French>
+		<German>Sieg der Gefrorenen</German>
+		<Italian>Frozen Victory</Italian>
+		<Spanish>Frozen Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_GRIGORI</Tag>
+		<English>Grigori Victory</English>
+		<French>Grigori Victory</French>
+		<German>Grigori-Sieg</German>
+		<Italian>Grigori Victory</Italian>
+		<Spanish>Grigori Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_HIGH_TO_LOW</Tag>
+		<English>Win a game with the High to Low game option enabled</English>
+		<French>Win a game with the High to Low game option enabled</French>
+		<German>Gewinne ein Spiel mit eingeschalteter "Großer Fall"-Option</German>
+		<Italian>Win a game with the High to Low game option enabled</Italian>
+		<Spanish>Win a game with the High to Low game option enabled</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_HIPPUS</Tag>
+		<English>Hippus Victory</English>
+		<French>Hippus Victory</French>
+		<German>Hippus-Sieg</German>
+		<Italian>Hippus Victory</Italian>
+		<Spanish>Hippus Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_ILLIANS</Tag>
+		<English>Illian Victory</English>
+		<French>Illian Victory</French>
+		<German>Illianer-Sieg</German>
+		<Italian>Illian Victory</Italian>
+		<Spanish>Illian Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_INCREASING_DIFFICULTY</Tag>
+		<English>Win a game with the Increasing Difficulty game option enabled</English>
+		<French>Win a game with the Increasing Difficulty game option enabled</French>
+		<German>Gewinne ein Spiel mit eingeschalteter "wachsender Schwierigkeitsgrad"-Option</German>
+		<Italian>Win a game with the Increasing Difficulty game option enabled</Italian>
+		<Spanish>Win a game with the Increasing Difficulty game option enabled</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_INFERNAL</Tag>
+		<English>Infernal Victory</English>
+		<French>Infernal Victory</French>
+		<German>Infernal-Sieg</German>
+		<Italian>Infernal Victory</Italian>
+		<Spanish>Infernal Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_JOTNAR</Tag>
+		<English>Jotnar Victory</English>
+		<French>Jotnar Victory</French>
+		<German>Sieg der Jotnar</German>
+		<Italian>Jotnar Victory</Italian>
+		<Spanish>Jotnar Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_KAHDI</Tag>
+		<English>Kahdi Victory</English>
+		<French>Kahdi Victory</French>
+		<German>Sieg der Kahdi</German>
+		<Italian>Kahdi Victory</Italian>
+		<Spanish>Kahdi Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_KHAZAD</Tag>
+		<English>Khazad Victory</English>
+		<French>Khazad Victory</French>
+		<German>Khazad-Sieg</German>
+		<Italian>Khazad Victory</Italian>
+		<Spanish>Khazad Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_KURIOTATES</Tag>
+		<English>Kuriotate Victory</English>
+		<French>Kuriotate Victory</French>
+		<German>Kuriotaten-Sieg</German>
+		<Italian>Kuriotate Victory</Italian>
+		<Spanish>Kuriotate Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_LANUN</Tag>
+		<English>Lanun Victory</English>
+		<French>Lanun Victory</French>
+		<German>Lanun-Sieg</German>
+		<Italian>Lanun Victory</Italian>
+		<Spanish>Lanun Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_LJOSALFAR</Tag>
+		<English>Ljosalfar Victory</English>
+		<French>Ljosalfar Victory</French>
+		<German>Ljosalfar-Sieg</German>
+		<Italian>Ljosalfar Victory</Italian>
+		<Spanish>Ljosalfar Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_LUCHUIRP</Tag>
+		<English>Luchuirp Victory</English>
+		<French>Luchuirp Victory</French>
+		<German>Luchuirp-Sieg</German>
+		<Italian>Luchuirp Victory</Italian>
+		<Spanish>Luchuirp Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_MALAKIM</Tag>
+		<English>Malakim Victory</English>
+		<French>Victoire malakime</French>
+		<German>Malakim-Sieg</German>
+		<Italian>Malakim Victory</Italian>
+		<Spanish>Malakim Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_MAZATL</Tag>
+		<English>Mazatl Victory</English>
+		<French>Victoire mazatl</French>
+		<German>Sieg der Mazatl</German>
+		<Italian>Mazatl Victory</Italian>
+		<Spanish>Mazatl Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_MECHANOS</Tag>
+		<English>Mechanos Victory</English>
+		<French>Victoire mécaniste</French>
+		<German>Mechanos Sieg</German>
+		<Italian>Mechanos Victory</Italian>
+		<Spanish>Mechanos Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_MERCURIANS</Tag>
+		<English>Mercurian Victory</English>
+		<French>Victoire mercurienne</French>
+		<German>Mercurianer-Sieg</German>
+		<Italian>Mercurian Victory</Italian>
+		<Spanish>Mercurian Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_RELIGIOUS</Tag>
+		<English>Religious Victory</English>
+		<French>Victoire religieuse</French>
+		<German>Religionssieg</German>
+		<Italian>Religious Victory</Italian>
+		<Spanish>Religious Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_SCIONS</Tag>
+		<English>Scion Victory</English>
+		<French>Victoire scionne</French>
+		<German>Sieg der Scionen</German>
+		<Italian>Scion Victory</Italian>
+		<Spanish>Scion Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_SCORE</Tag>
+		<English>Score Victory</English>
+		<French>Score Victory</French>
+		<German>Punktesieg</German>
+		<Italian>Score Victory</Italian>
+		<Spanish>Score Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_SHEAIM</Tag>
+		<English>Sheaim Victory</English>
+		<French>Victoire sheaïm</French>
+		<German>Sheaïm-Sieg</German>
+		<Italian>Sheaim Victory</Italian>
+		<Spanish>Sheaim Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_SIDAR</Tag>
+		<English>Sidar Victory</English>
+		<French>Victoire sidar</French>
+		<German>Sidar-Sieg</German>
+		<Italian>Sidar Victory</Italian>
+		<Spanish>Sidar Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_SVARTALFAR</Tag>
+		<English>Svartalfar Victory</English>
+		<French>Victoire svartálfur</French>
+		<German>Svartalfar-Sieg</German>
+		<Italian>Svartalfar Victory</Italian>
+		<Spanish>Svartalfar Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_TIME</Tag>
+		<English>Time Victory</English>
+		<French>Time Victory</French>
+		<German>Zeitsieg</German>
+		<Italian>Time Victory</Italian>
+		<Spanish>Time Victory</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TROPHY_VICTORY_TOWER_OF_MASTERY</Tag>
+		<English>Tower of Mastery Victory</English>
+		<French>Victoire de la Tour de Maîtrise</French>
+		<German>Turm der Macht-Sieg</German>
+		<Italian>Tower of Mastery Victory</Italian>
+		<Spanish>Tower of Mastery Victory</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+    <TEXT>
+        <Tag>TXT_KEY_EMPTY</Tag>
+        <English></English>
+        <French ></French>
+        <German ></German>
+        <Italian></Italian>
+        <Spanish></Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_STRONG_BOOST_AWAKENING</Tag>
+        <English>[ICON_BULLET] Boosts awakened spawning strongly</English>
+        <French >[ICON_BULLET] Boosts awakened spawning strongly</French>
+        <German >[ICON_BULLET] Boosts awakened spawning strongly</German>
+        <Italian>[ICON_BULLET] Boosts awakened spawning strongly</Italian>
+        <Spanish>[ICON_BULLET] Boosts awakened spawning strongly</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BOOST_AWAKENING</Tag>
+        <English>[ICON_BULLET] Boosts awakened spawning</English>
+        <French >[ICON_BULLET] Boosts awakened spawning</French>
+        <German >[ICON_BULLET] Boosts awakened spawning</German>
+        <Italian>[ICON_BULLET] Boosts awakened spawning</Italian>
+        <Spanish>[ICON_BULLET] Boosts awakened spawning</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_WEAK_BOOST_AWAKENING</Tag>
+        <English>[ICON_BULLET] Boosts awakened spawning slightly</English>
+        <French >[ICON_BULLET] Boosts awakened spawning slightly</French>
+        <German >[ICON_BULLET] Boosts awakened spawning slightly</German>
+        <Italian>[ICON_BULLET] Boosts awakened spawning slightly</Italian>
+        <Spanish>[ICON_BULLET] Boosts awakened spawning slightly</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_STRENGTH_OF_PATRIA</Tag>
+        <English>Strength of Patria</English>
+        <French >Strength of Patria</French>
+        <German >Strength of Patria</German>
+        <Italian>Strength of Patria</Italian>
+        <Spanish>Strength of Patria</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_STRENGTH_OF_PATRIA_EFFECT</Tag>
+        <English>Strength of Patria Effect</English>
+        <French >Strength of Patria Effect</French>
+        <German >Strength of Patria Effect</German>
+        <Italian>Strength of Patria Effect</Italian>
+        <Spanish>Strength of Patria Effect</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_DOOMSOOTHER</Tag>
+        <English>Doomsoother</English>
+        <French >Doomsoother</French>
+        <German >Doomsoother</German>
+        <Italian>Doomsoother</Italian>
+        <Spanish>Doomsoother</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_UNIT_DOOMSOOTHER_STRATEGY</Tag>
+        <English></English>
+        <French ></French>
+        <German ></German>
+        <Italian></Italian>
+        <Spanish></Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_UNIT_DOOMSOOTHER</Tag>
+        <English>Doomsoother</English>
+        <French >Doomsoother</French>
+        <German >Doomsoother</German>
+        <Italian>Doomsoother</Italian>
+        <Spanish>Doomsoother</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_UPROOT_CREEPER</Tag>
+        <English>Uproot Creeper</English>
+        <French >Uproot Creeper</French>
+        <German >Uproot Creeper</German>
+        <Italian>Uproot Creeper</Italian>
+        <Spanish>Uproot Creeper</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_UPROOT_CREEPER_HELP</Tag>
+        <English>[ICON_BULLET]Uproot the Creeper, allowing it to seek new vistas</English>
+        <French >[ICON_BULLET]Uproot the Creeper, allowing it to seek new vistas</French>
+        <German >[ICON_BULLET]Uproot the Creeper, allowing it to seek new vistas</German>
+        <Italian>[ICON_BULLET]Uproot the Creeper, allowing it to seek new vistas</Italian>
+        <Spanish>[ICON_BULLET]Uproot the Creeper, allowing it to seek new vistas</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_BLOCK_ROOTING_CREEPER_CITY</Tag>
+        <English>Block Rooting Creeper City</English>
+        <French >Block Rooting Creeper City</French>
+        <German >Block Rooting Creeper City</German>
+        <Italian>Block Rooting Creeper City</Italian>
+        <Spanish>Block Rooting Creeper City</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_BLOCK_ROOTING_CREEPER_WATER</Tag>
+        <English>Block Rooting Creeper Water</English>
+        <French >Block Rooting Creeper Water</French>
+        <German >Block Rooting Creeper Water</German>
+        <Italian>Block Rooting Creeper Water</Italian>
+        <Spanish>Block Rooting Creeper Water</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_AUTOCAST_TAKE_ROOT</Tag>
+        <English>Autocast Take Root</English>
+        <French >Autocast Take Root</French>
+        <German >Autocast Take Root</German>
+        <Italian>Autocast Take Root</Italian>
+        <Spanish>Autocast Take Root</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_ROOTING_CREEPER</Tag>
+        <English>Rooting Creeper</English>
+        <French >Rooting Creeper</French>
+        <German >Rooting Creeper</German>
+        <Italian>Rooting Creeper</Italian>
+        <Spanish>Rooting Creeper</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_ROOTING_CREEPER_HELP</Tag>
+        <English>[ICON_BULLET]The creeper is rooted in place, eventually blooming into Haunted Lands</English>
+        <French >[ICON_BULLET]The creeper is rooted in place, eventually blooming into Haunted Lands</French>
+        <German >[ICON_BULLET]The creeper is rooted in place, eventually blooming into Haunted Lands</German>
+        <Italian>[ICON_BULLET]The creeper is rooted in place, eventually blooming into Haunted Lands</Italian>
+        <Spanish>[ICON_BULLET]The creeper is rooted in place, eventually blooming into Haunted Lands</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_FLYING_DUTCHMAN</Tag>
+        <English>Flying Dutchman</English>
+        <French >Flying Dutchman</French>
+        <German >Flying Dutchman</German>
+        <Italian>Flying Dutchman</Italian>
+        <Spanish>Flying Dutchman</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_RANDOM_HIDE_AFTER_COMBAT</Tag>
+        <English>Random Hide After Combat</English>
+        <French >Random Hide After Combat</French>
+        <German >Random Hide After Combat</German>
+        <Italian>Random Hide After Combat</Italian>
+        <Spanish>Random Hide After Combat</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_SINKING</Tag>
+        <English>Sinking</English>
+        <French >Sinking</French>
+        <German >Sinking</German>
+        <Italian>Sinking</Italian>
+        <Spanish>Sinking</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_GHOST_CREW</Tag>
+        <English>Ghost Crew</English>
+        <French >Ghost Crew</French>
+        <German >Ghost Crew</German>
+        <Italian>Ghost Crew</Italian>
+        <Spanish>Ghost Crew</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_GHOST_CREW_HELP</Tag>
+        <English>[ICON_BULLET]Can sometimes become [LINK=PROMOTION_HIDDEN]Hidden[\LINK] after combat</English>
+        <French >[ICON_BULLET]Can sometimes become [LINK=PROMOTION_HIDDEN]Hidden[\LINK] after combat</French>
+        <German >[ICON_BULLET]Can sometimes become [LINK=PROMOTION_HIDDEN]Hidden[\LINK] after combat</German>
+        <Italian>[ICON_BULLET]Can sometimes become [LINK=PROMOTION_HIDDEN]Hidden[\LINK] after combat</Italian>
+        <Spanish>[ICON_BULLET]Can sometimes become [LINK=PROMOTION_HIDDEN]Hidden[\LINK] after combat</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_GHOSTHOUSE</Tag>
+        <English>Ghosthouse</English>
+        <French >Ghosthouse</French>
+        <German >Ghosthouse</German>
+        <Italian>Ghosthouse</Italian>
+        <Spanish>Ghosthouse</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_GHOSTHOUSE_PEDIA</Tag>
+        <English></English>
+        <French ></French>
+        <German ></German>
+        <Italian></Italian>
+        <Spanish></Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_WATER_SCULPTURE</Tag>
+        <English>Water Sculpture</English>
+        <French >Water Sculpture</French>
+        <German >Water Sculpture</German>
+        <Italian>Water Sculpture</Italian>
+        <Spanish>Water Sculpture</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_WATER_SCULPTURE_PEDIA</Tag>
+        <English></English>
+        <French ></French>
+        <German ></German>
+        <Italian></Italian>
+        <Spanish></Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_POISONED_WELL</Tag>
+        <English>Poisoned Well</English>
+        <French >Poisoned Well</French>
+        <German >Poisoned Well</German>
+        <Italian>Poisoned Well</Italian>
+        <Spanish>Poisoned Well</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_POISONED_WELL_PEDIA</Tag>
+        <English></English>
+        <French ></French>
+        <German ></German>
+        <Italian></Italian>
+        <Spanish></Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_POISONED_WELL_HELP</Tag>
+        <English>[ICON_BULLET] Celebrates the victory of death over life</English>
+        <French >[ICON_BULLET] Celebrates the victory of death over life</French>
+        <German >[ICON_BULLET] Celebrates the victory of death over life</German>
+        <Italian>[ICON_BULLET] Celebrates the victory of death over life</Italian>
+        <Spanish>[ICON_BULLET] Celebrates the victory of death over life</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_OTHERWORLDLY_BEACON</Tag>
+        <English>Otherworldly Beacon</English>
+        <French >Otherworldly Beacon</French>
+        <German >Otherworldly Beacon</German>
+        <Italian>Otherworldly Beacon</Italian>
+        <Spanish>Otherworldly Beacon</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_OTHERWORLDLY_BEACON_PEDIA</Tag>
+        <English></English>
+        <French ></French>
+        <German ></German>
+        <Italian></Italian>
+        <Spanish></Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_MORTUARY</Tag>
+        <English>Mortuary</English>
+        <French >Mortuary</French>
+        <German >Mortuary</German>
+        <Italian>Mortuary</Italian>
+        <Spanish>Mortuary</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_MORTUARY_PEDIA</Tag>
+        <English></English>
+        <French ></French>
+        <German ></German>
+        <Italian></Italian>
+        <Spanish></Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_EMBALMER</Tag>
+        <English>Embalmer</English>
+        <French >Embalmer</French>
+        <German >Embalmer</German>
+        <Italian>Embalmer</Italian>
+        <Spanish>Embalmer</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_EMBALMER_PEDIA</Tag>
+        <English></English>
+        <French ></French>
+        <German ></German>
+        <Italian></Italian>
+        <Spanish></Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_PAPER_MILL</Tag>
+        <English>Paper Mill</English>
+        <French >Paper Mill</French>
+        <German >Paper Mill</German>
+        <Italian>Paper Mill</Italian>
+        <Spanish>Paper Mill</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_PAPER_MILL_PEDIA</Tag>
+        <English></English>
+        <French ></French>
+        <German ></German>
+        <Italian></Italian>
+        <Spanish></Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_CITIZENS_COUNCIL</Tag>
+        <English>Citizens Council</English>
+        <French >Citizens Council</French>
+        <German >Citizens Council</German>
+        <Italian>Citizens Council</Italian>
+        <Spanish>Citizens Council</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_BUILDING_CITIZENS_COUNCIL_PEDIA</Tag>
+        <English></English>
+        <French ></French>
+        <German ></German>
+        <Italian></Italian>
+        <Spanish></Spanish>
+    </TEXT>
+</Civ4GameText>

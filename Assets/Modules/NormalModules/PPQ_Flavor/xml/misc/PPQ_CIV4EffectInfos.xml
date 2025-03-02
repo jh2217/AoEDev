@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Effect Infos -->
+<Civ4EffectInfos xmlns="x-schema:CIV4MiscSchema.xml">
+	<EffectInfos>
+		<!-- Projectiles:-->
+		<EffectInfo>
+			<Type>EFFECT_LONGBOWARROW_PPQ_1</Type>
+			<Description>Longbow Arrow</Description>
+			<fScale>1.0</fScale>
+			<fUpdateRate>1.0</fUpdateRate>
+			<Path>Art/Modules/PPQ/effects/Longbow Arrow 1/LongbowArrow.nif</Path>
+			<bIsProjectile>1</bIsProjectile>
+			<fSpeed>500.0</fSpeed>
+			<fArcValue>0.0</fArcValue>
+		</EffectInfo>
+	</EffectInfos>
+</Civ4EffectInfos>

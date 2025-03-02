@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_AIFON_ISLE</Tag>
+		<English>Aifon Isle</English>
+		<French>L'île des Aifons</French>
+		<German><Text>Insel der Aifon</Text><Gender>Female</Gender><Plural>0</Plural></German>
+		<Italian>Aifon Isle</Italian>
+		<Spanish>Aifon Isle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_AIFON_ISLE_PEDIA</Tag>
+		<English>Now barren this isle was once the home of the Aifons, a race of men sacred to the water god Danalin. The Aifons disappeared entirely in the Age of Magic, but no one knows the cause of their extinction.</English>
+		<French>Now barren this isle was once the home of the Aifons, a race of men sacred to the water god Danalin. The Aifons disappeared entirely in the Age of Magic, but no one knows the cause of their extinction.</French>
+		<German>Heute unfruchtbar war diese Insel einst die Heimat der Aifon, ein Volk von Menschen, das den Wassergott Danalin verehrte. Die Aifon verschwanden während des Zeitalters der Magie vollständig, aber niemand weiß, was die Ursache ihrer Auslöschung war.</German>
+		<Italian>Now barren this isle was once the home of the Aifons, a race of men sacred to the water god Danalin. The Aifons disappeared entirely in the Age of Magic, but no one knows the cause of their extinction.</Italian>
+		<Spanish>Now barren this isle was once the home of the Aifons, a race of men sacred to the water god Danalin. The Aifons disappeared entirely in the Age of Magic, but no one knows the cause of their extinction.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BAIR_OF_LACUNA</Tag>
+		<English>Bair of Lacuna</English>
+		<French>Bair de Lacuna</French>
+		<German>Bair der Lacuna</German>
+		<Italian>Bair of Lacuna</Italian>
+		<Spanish>Bair of Lacuna</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BRADELINES_WELL</Tag>
+		<English>Bradeline's Well</English>
+		<French>Puits de Bradeline</French>
+		<German><Text>Bradelines Brunnen</Text><Gender>Male</Gender><Plural>0</Plural></German>
+		<Italian>Bradeline's Well</Italian>
+		<Spanish>Bradeline's Well</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BRADELINES_WELL_EXPLORED</Tag>
+		<English>Bradeline's Well (explored)</English>
+		<French>Puits de Bradeline (exploré)</French>
+		<German><Text>Bradelines Brunnen (explored)</Text><Gender>Male</Gender><Plural>0</Plural></German>
+		<Italian>Bradeline's Well (explored)</Italian>
+		<Spanish>Bradeline's Well (explored)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BRADELINES_WELL_PURIFIED</Tag>
+		<English>Bradeline's Well (purified)</English>
+		<French>Puits de Bradeline (purifié)</French>
+		<German><Text>Bradelines Brunnen (purified)</Text><Gender>Male</Gender><Plural>0</Plural></German>
+		<Italian>Bradeline's Well (purified)</Italian>
+		<Spanish>Bradeline's Well (purified)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BRADELINES_WELL_PEDIA</Tag>
+		<English>The bottomless well is said to reach all the way down into the underworld of Arawn, where those unclaimed by any god spend their afterlife. Only those brave enough to explore the well can find out what dwells between that world and this.[NEWLINE]Bradeline's Well marks the location where the archmage Bradeline met his final demise, betrayed by his student and crushed by a greater demon. The site was once used as a summoning circle, calling forth minor demons under controlled conditions, but after that power of that circle was sabotaged by Kael Coalbane it could no longer contain the beings that were summoned forth.[NEWLINE]The Corruption of Bradeline's Well has allowed Agared to strengthen his armies by diverting souls meant for the Underworld.[NEWLINE]Purifying it would restore the balance and weaken the Infernals by limiting their potential reinforcements.[NEWLINE]They will not allow this to happen without acting.</English>
+		<French>The bottomless well is said to reach all the way down into the underworld of Arawn, where those unclaimed by any god spend their afterlife. Only those brave enough to explore the well can find out what dwells between that world and this.[NEWLINE]Bradeline's Well marks the location where the archmage Bradeline met his final demise, betrayed by his student and crushed by a greater demon. The site was once used as a summoning circle, calling forth minor demons under controlled conditions, but after that power of that circle was sabotaged by Kael Coalbane it could no longer contain the beings that were summoned forth.[NEWLINE]The Corruption of Bradeline's Well has allowed Agared to strengthen his armies by diverting souls meant for the Underworld.[NEWLINE]Purifying it would restore the balance and weaken the Infernals by limiting their potential reinforcements.[NEWLINE]They will not allow this to happen without acting.</French>
+		<German>Es heißt, der bodenlose Brunnen reicht bis tief hinunter in die Unterwelt von Arawn, wo jene Seelen, die von keinem Gott beansprucht werden, ihr Leben nach dem Tode verbringen. Nur jene, die mutig genug sind, um in den Brunnen hinabzusteigen, können herausfinden, was zwischen ihrer und dieser Welt haust.[NEWLINE]Bradelines Brunnen markiert den Ort, an dem der Erzmagier Bradeline seinen entgültigen Untergang gefunden hat.  Er wurde von seinem Schüler verraten und einem Erzdämon zermalmt. Die Stelle wurde einst als Beschwörungsort genutzt, zur kontrollierten Invokation niederer Dämonen, aber nachdem die Macht des Bannkreises durch Kael Coalbane sabotiert worden war, konnte er die Geschöpfe, die dort beschworen wurden, nicht mehr unter Kontrolle halten.</German>
+		<Italian>The bottomless well is said to reach all the way down into the underworld of Arawn, where those unclaimed by any god spend their afterlife. Only those brave enough to explore the well can find out what dwells between that world and this.[NEWLINE]Bradeline's Well marks the location where the archmage Bradeline met his final demise, betrayed by his student and crushed by a greater demon. The site was once used as a summoning circle, calling forth minor demons under controlled conditions, but after that power of that circle was sabotaged by Kael Coalbane it could no longer contain the beings that were summoned forth.[NEWLINE]The Corruption of Bradeline's Well has allowed Agared to strengthen his armies by diverting souls meant for the Underworld.[NEWLINE]Purifying it would restore the balance and weaken the Infernals by limiting their potential reinforcements.[NEWLINE]They will not allow this to happen without acting.</Italian>
+		<Spanish>The bottomless well is said to reach all the way down into the underworld of Arawn, where those unclaimed by any god spend their afterlife. Only those brave enough to explore the well can find out what dwells between that world and this.[NEWLINE]Bradeline's Well marks the location where the archmage Bradeline met his final demise, betrayed by his student and crushed by a greater demon. The site was once used as a summoning circle, calling forth minor demons under controlled conditions, but after that power of that circle was sabotaged by Kael Coalbane it could no longer contain the beings that were summoned forth.[NEWLINE]The Corruption of Bradeline's Well has allowed Agared to strengthen his armies by diverting souls meant for the Underworld.[NEWLINE]Purifying it would restore the balance and weaken the Infernals by limiting their potential reinforcements.[NEWLINE]They will not allow this to happen without acting.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_BRADELINES_WELL_CREATURE</Tag>
+		<English>Your adepts have struck a bargain with a creature from Bradeline's Well</English>
+		<French>Your adepts have struck a bargain with a creature from Bradeline's Well</French>
+		<German>Eure Adepten haben einen Handel mit einer Kreatur aus Bradelines Brunnen abgeschlossen.</German>
+		<Italian>Your adepts have struck a bargain with a creature from Bradeline's Well</Italian>
+		<Spanish>Your adepts have struck a bargain with a creature from Bradeline's Well</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BROKEN_SEPULCHER</Tag>
+		<English>Broken Sepulcher</English>
+		<French>Sépulture profanée</French>
+		<German><Text>Geschändetes Grab</Text><Gender>Neuter</Gender><Plural>0</Plural></German>
+		<Italian>Broken Sepulcher</Italian>
+		<Spanish>Sepulcro profanado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BROKEN_SEPULCHER_EXPLORED</Tag>
+		<English>Broken Sepulcher (explored)</English>
+		<French>Sépulture profanée (explorée)</French>
+		<German><Text>Geschändetes Grab (explored)</Text><Gender>Neuter</Gender><Plural>0</Plural></German>
+		<Italian>Broken Sepulcher (explored)</Italian>
+		<Spanish>Sepulcro profanado (explored)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BROKEN_SEPULCHER_PEDIA</Tag>
+		<English>Though Barbatos, master of death magic, was imprisoned in the Sepulcher in the Age of Magic it has not weathered the Age of Ice well. Now the stone block that Kylorin used to seal the tomb is shattered and the catacombs beneath lie open.</English>
+		<French>Though Barbatos, master of death magic, was imprisoned in the Sepulcher in the Age of Magic it has not weathered the Age of Ice well. Now the stone block that Kylorin used to seal the tomb is shattered and the catacombs beneath lie open.</French>
+		<German>Obwohl Barbatos, Meister der Todesmagie, im Zeitalter der Magie in dieses Grab eingesperrt wurde, hat es das Zeitalter des Eises nicht besonders gut überstanden. Nun ist der Steinblock, mit dem Kylorin das Grab einst versiegelte, zerbrochen und die Katakomben darunter sind freigelegt.</German>
+		<Italian>Though Barbatos, master of death magic, was imprisoned in the Sepulcher in the Age of Magic it has not weathered the Age of Ice well. Now the stone block that Kylorin used to seal the tomb is shattered and the catacombs beneath lie open.</Italian>
+		<Spanish>Though Barbatos, master of death magic, was imprisoned in the Sepulcher in the Age of Magic it has not weathered the Age of Ice well. Now the stone block that Kylorin used to seal the tomb is shattered and the catacombs beneath lie open.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CLIFFS_OF_KELLE</Tag>
+		<English>Cliffs of Kelle</English>
+		<French>Colinnes de Kelle</French>
+		<German>Felsen von Kelle</German>
+		<Italian>Cliffs of Kelle</Italian>
+		<Spanish>Cliffs of Kelle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CLIFFS_OF_KELLE_PEDIA</Tag>
+		<English>Once the site of a centre for the worship of Tali, any settlements on these storm-shrouded mountains have long since been abandoned. It has been said that the ruined temples carved into it's peaks are inhabited by the spirit of a priestess of Tali, whose devotion towards her deity drove her to madness, as he never responded to her prayers. Seeking affirmation of her faith, she threw herself off the highest of the cliffs, believing that her god would lift her to safety, and died on the rocks below. Ever since, stormclouds have covered the mountains, covering them in a constant veil of darkness, only ever shattered by flashes of lightning.</English>
+		<French>Once the site of a centre for the worship of Tali, any settlements on these storm-shrouded mountains have long since been abandoned. It has been said that the ruined temples carved into it's peaks are inhabited by the spirit of a priestess of Tali, whose devotion towards her deity drove her to madness, as he never responded to her prayers. Seeking affirmation of her faith, she threw herself off the highest of the cliffs, believing that her god would lift her to safety, and died on the rocks below. Ever since, stormclouds have covered the mountains, covering them in a constant veil of darkness, only ever shattered by flashes of lightning.</French>
+		<German>Einst waren die Felsen ein Anbetungsort fü Tali, doch jedwede Siedlungen auf diesen sturmverwitterten Bergen sind bereits vor langer Zeit aufgegeben worden. Es wird erzählt, dass die verfallenen Tempel, die in die Gipfel geschlagen sind, vom Geist einer Priesterin der Tali bewohnt werden, die durch ihre Hingabe zu ihrer Göttin um ihren Verstand gebracht worden war, da keines ihrer Gebete erhört worden war. Um ihren Glauben zu prüfen, warf sie sich von dem höchsten Fels und glaubte, ihre Göttin würde sie retten und wieder hinaufschweben lassen. Doch sie starb auf den Felsen in der Tiefe. Seitdem sind die Berge immer in Sturmwolken verborgen, bedeckt von einem dauerhaften, undurchdringlichen Schleier der Dunkelheit, nur von Blitzen von Zeit zu Zeit durchdrungen.</German>
+		<Italian>Once the site of a centre for the worship of Tali, any settlements on these storm-shrouded mountains have long since been abandoned. It has been said that the ruined temples carved into it's peaks are inhabited by the spirit of a priestess of Tali, whose devotion towards her deity drove her to madness, as he never responded to her prayers. Seeking affirmation of her faith, she threw herself off the highest of the cliffs, believing that her god would lift her to safety, and died on the rocks below. Ever since, stormclouds have covered the mountains, covering them in a constant veil of darkness, only ever shattered by flashes of lightning.</Italian>
+		<Spanish>Once the site of a centre for the worship of Tali, any settlements on these storm-shrouded mountains have long since been abandoned. It has been said that the ruined temples carved into it's peaks are inhabited by the spirit of a priestess of Tali, whose devotion towards her deity drove her to madness, as he never responded to her prayers. Seeking affirmation of her faith, she threw herself off the highest of the cliffs, believing that her god would lift her to safety, and died on the rocks below. Ever since, stormclouds have covered the mountains, covering them in a constant veil of darkness, only ever shattered by flashes of lightning.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DRAGON_BONES</Tag>
+		<English>Dragon Bones</English>
+		<French>Os de Dragon</French>
+		<German>Drachenknochen</German>
+		<Italian>Dragon Bones</Italian>
+		<Spanish>Huesos de Dragón</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DRAGON_BONES_PEDIA</Tag>
+		<English>.....Once I set the sea alight[NEWLINE]with a single fiery breath[NEWLINE]Once I was so mighty[NEWLINE]that I thought my name was death[NEWLINE]Sing out loud until you're heard[NEWLINE]the song of melancholy bliss,[NEWLINE]For the mighty and the middling[NEWLINE]all shall come to this....[NEWLINE][NEWLINE]- Inscription left by the Dragons Bones</English>
+		<French>.....Once I set the sea alight[NEWLINE]with a single fiery breath[NEWLINE]Once I was so mighty[NEWLINE]that I thought my name was death[NEWLINE]Sing out loud until you're heard[NEWLINE]the song of melancholy bliss,[NEWLINE]For the mighty and the middling[NEWLINE]all shall come to this....[NEWLINE][NEWLINE]- Inscription left by the Dragons Bones</French>
+		<German>....Einst setzt' ich das Meer in Flammen,[NEWLINE]mit einem einz'gen Atemzug.[NEWLINE]Einst war ich so übermächtig,[NEWLINE]ich brachte Tod in meinen Flug.[NEWLINE]Singet laut, bis man euch hört,[NEWLINE]das Lied der traurigen Glückseligkeit.[NEWLINE]All die Mächt'gen und die Armen,[NEWLINE]enden so, nach ihrer Zeit....[NEWLINE][NEWLINE] - Inschrift, gefunden bei den Knochen eines Großen Drachen</German>
+		<Italian>.....Once I set the sea alight[NEWLINE]with a single fiery breath[NEWLINE]Once I was so mighty[NEWLINE]that I thought my name was death[NEWLINE]Sing out loud until you're heard[NEWLINE]the song of melancholy bliss,[NEWLINE]For the mighty and the middling[NEWLINE]all shall come to this....[NEWLINE][NEWLINE]- Inscription left by the Dragons Bones</Italian>
+		<Spanish>.....Una vez que hice arder al mar[NEWLINE]Con un único aliento fiero[NEWLINE]Una vez fue tan poderoso[NEWLINE]que pensé que mi nombre era la muerte[NEWLINE]Cantad alto hasta que seáis escuchados[NEWLINE]la canción de la dicha melancólica,[NEWLINE]Para el poderoso y el mediano[NEWLINE]todos llegarán a esto....[NEWLINE][NEWLINE]- Inscripción dejada en los Huesos de los Dragónes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LETUM_FRIGUS</Tag>
+		<English>Letum Frigus</English>
+		<French>Letum Frigus</French>
+		<German>Letum Frigus</German>
+		<Italian>Letum Frigus</Italian>
+		<Spanish>Letum Frigus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LETUM_FRIGUS_PEDIA</Tag>
+		<English>There is nothing left here but echoes of the battles that have been fought here. This is where Kylorin met Mulcarn in the final battle that killed a god. Wild men live in the caves around the site and claim that someday their god will return.</English>
+		<French>Il ne reste ici rien d'autre que les echos des batailles qui se sont déroulées là. C'est ici que Kylorin rencontra Mulcarn dans le combat final qui tua un dieu.  les sauvages vivent dans des grottes alentours et soutiennent que leur dieu reviendra un jour.</French>
+		<German>Hier ist nichts mehr übrig ausser den Echos der Kämpfe die hier ausgetragen wurden. Hier traf Kylorin Mulcarn im letzten Kampf, der einen Gott getötet hat. Wilde Barbaren leben in Höhlen um die Stätte herum und behaupten, dass ihr Gott eines Tages zurückkehren wird.</German>
+		<Italian>There is nothing left here but echoes of the battles that have been fought here. This is where Kylorin met Mulcarn in the final battle that killed a god. Wild men live in the caves around the site and claim that someday their god will return.</Italian>
+		<Spanish>No queda nada más aquí a parte de los ecos de las batallas que han tenido lugar aquí.  Aquí es donde Kylorin se enfrentó a Mulcarn en la batalla final que mató a un dios.  Hombres salvajes viven en las cuevas de alrededor y aseguran que algún día su dios volverá.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAELSTROM</Tag>
+		<English>Maelstrom</English>
+		<French>Maelstrom</French>
+		<German>Strudel</German>
+		<Italian>Maelstrom</Italian>
+		<Spanish>Maelstrom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAELSTROM_PEDIA</Tag>
+		<English>Ships do well to avoid the swirling Maelstrom, though sailors claim ships that pass through it often come out on seas in different parts of the world.</English>
+		<French>Les vaisseaux font bien d'éviter le tourbillonant Maelstrom, pourtant les marins racontent que les vaisseaux qui le traversent ressortent sur des mers des quatres coins du monde.</French>
+		<German>Schiffe täten gut daran den wirbelden Strudel zu meiden, obwohl Matrosen behaupten, das Schiffe die hindurch fahren in anderen Meeren an anderen Orten der Welt herauskommen würden.</German>
+		<Italian>Ships do well to avoid the swirling Maelstrom, though sailors claim ships that pass through it often come out on seas in different parts of the world.</Italian>
+		<Spanish>Los barcos hacen bien en evitar los remolinos, aunque los marineros aseguran que barcos han pasado a través de ellos para después salir sobre el mar en diferentes partes del mundo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MIRROR_OF_HEAVEN</Tag>
+		<English>Mirror of Heaven</English>
+		<French>Miroir du Paradis</French>
+		<German>Himmelsspiegel</German>
+		<Italian>Mirror of Heaven</Italian>
+		<Spanish>Espejo del Cielo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MIRROR_OF_HEAVEN_PEDIA</Tag>
+		<English>When in great need the Malakim seek guidance by heading alone into the desert. Though they risk death they often receive visions or enlightenment. The most holy of these wildlands is the Mirror of Heaven, a desert so hot the sands have melted to a smooth glass sea.</English>
+		<French>Lorsqu'ils sont dans le besoin , les Malakim recherchent des conseils en partant seul dans le désert. Bien qu'ils risquent la mort , ils ont souvent des visions ou des illuminations. La plus sainte de ces terres sauvages est le Miroir du Paradis, un désert si chaud que les sables se sont fondus en une mer de verre lisse.</French>
+		<German>In großen Nöten suchen die Malakim Rat, indem sie alleine in der Wüste wandeln. Obwohl sie ihren Tod riskieren erlangen sie oft Erleuchtung oder bekommen Visionen. Die heiligste aller Einöden ist der Himmelsspiegel, eine Wüste so heiß, dass der Sand zu einem glatten Glassee geschmolzen ist.</German>
+		<Italian>When in great need the Malakim seek guidance by heading alone into the desert. Though they risk death they often receive visions or enlightenment. The most holy of these wildlands is the Mirror of Heaven, a desert so hot the sands have melted to a smooth glass sea.</Italian>
+		<Spanish>Cuando tienen una gran necesidad, los Malakim buscan guía viajando en solitario hacia el desierto.  Aún a riesgo de morir, reciben visiones o iluminación.  Lo más sagrado de estas tierras inhóspitas es el Espejo del Cielo, un desierto tan caliente que las arenas se han fundido en un liso mar de cristal.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MOUNT_KALSHEKK</Tag>
+		<English>Mount Kalshekk</English>
+		<French>Mont Kalshekk</French>
+		<German>Der Berg Kalshekk</German>
+		<Italian>Mount Kalshekk</Italian>
+		<Spanish>Mount Kalshekk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MOUNT_KALSHEKK_PEDIA</Tag>
+		<English>Dormant throughout the Age of Ice though sheltering the lizardmen that would become the Mazatl tribe in its warm heart, Mount Kalshekk has reawoken in the Age of Rebirth. It is a sacred site to the Mazatl, though followers of Kilmorph also feel their goddess's presence in the tunnels beneath the volcano.</English>
+		<French>En sommeil durant l'Âge de Glace, même s'il fournissait un abri aux sauriens qui deviendraient les Mazatls dans ses chaudes entrailles, le Mont Kalshekk s'est réveillé durant l'Âge de la Renaissance. C'ets un lieu sacré pour les Mazatls, même si les adeptes de Kilmorph ressente la présence de leur déesse dans les tunnels sous le volcan.</French>
+		<German>Während er während des Zeitalters des Eises schlummerte und den Echsenmenschen, die einmal zum Stamm der Mazatl werden sollten, Schutz bot, erwachte der Berg Kalshekk in der Zeit der Wiedergeburt von neuem. Er ist eine heilige Stätte für die Mazatl und auch die Anhänger von Kilmorph fühlen die Präsenz ihrer Göttin in den Tunneln unter dem Vulkan.</German>
+		<Italian>Dormant throughout the Age of Ice though sheltering the lizardmen that would become the Mazatl tribe in its warm heart, Mount Kalshekk has reawoken in the Age of Rebirth. It is a sacred site to the Mazatl, though followers of Kilmorph also feel their goddess's presence in the tunnels beneath the volcano.</Italian>
+		<Spanish>Dormant throughout the Age of Ice though sheltering the lizardmen that would become the Mazatl tribe in its warm heart, Mount Kalshekk has reawoken in the Age of Rebirth. It is a sacred site to the Mazatl, though followers of Kilmorph also feel their goddess's presence in the tunnels beneath the volcano.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_ODIOS_PRISON</Tag>
+		<English>Odio's Prison</English>
+		<French>Prison d'Odio</French>
+		<German>Odios Gefängnis</German>
+		<Italian>Odio's Prison</Italian>
+		<Spanish>Prisión de Odio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_ODIOS_PRISON_PEDIA</Tag>
+		<English>When the gods met at the seven pines they called a truce in the Godswar. The divine armies withdrew to their sacred lands and humanity had a hint of the peaceful times that would come. But the greatest of Aeron's angels, the archangel Odio, ignored his lord's command. He was given over to his bloodlust and led an army of Ira into the lands of Kilmorph.[PARAGRAPH:1]"What means the words of one who does not rule his own home? If Aeron is to share our council he must withdraw his ara from Odio"[PARAGRAPH1:]The gods agreed with Kilmorph and Aeron's protection was removed from the raging Odio, in that instant the queen of gems reached out and pulled Odio into the earth. There she left him transformed to stone, eternal testament to the power of the gods and the cost of defying their will.</English>
+		<French>When the gods met at the seven pines they called a truce in the Godswar. The divine armies withdrew to their sacred lands and humanity had a hint of the peaceful times that would come. But the greatest of Aeron's angels, the archangel Odio, ignored his lord's command. He was given over to his bloodlust and led an army of Ira into the lands of Kilmorph.[PARAGRAPH:1]"What means the words of one who does not rule his own home? If Aeron is to share our council he must withdraw his ara from Odio"[PARAGRAPH1:]The gods agreed with Kilmorph and Aeron's protection was removed from the raging Odio, in that instant the queen of gems reached out and pulled Odio into the earth. There she left him transformed to stone, eternal testament to the power of the gods and the cost of defying their will.</French>
+		<German>Als die Götter sich an den sieben Tannen trafen, riefen sie einen Waffenstillstand im Götterkrieg aus. Die göttlichen Armeen zogen sich in ihre geweihten Länder zurück und die Menschheit erhielt einen Vorgeschmack auf die friedvollen Zeiten, die folgen sollten. Aber der Oberste der Engel Aerons, der Erzengel Odio, verweigerte seinem Herren den Gehorsam. Er verfiel der Blutlust und führte eine Armee von Ira in die Länder Kilmorphs.[PARAGRAPH:1]"Was bedeuten die Worte eines Gottes, der nicht sein eigenes Heim regiert? Wenn Aeron unseren Rat folgt, muss er Odio seinen Segen entziehen."[PARAGRAPH1:]Die Götter pflichteten Kilmorph bei und Aerons Schutz wurde aufgehoben und in just diesem Augenblick, griff die Königin der Juwelen nach dem tobenden Odio und zog ihn in die Erde. Dort verwandelte sie ihn in Stein, zu einem ewiges Zeugnis der Macht der Götter und einem Mahnmal für jene, die sich gegen ihren Willen richten.</German>
+		<Italian>When the gods met at the seven pines they called a truce in the Godswar. The divine armies withdrew to their sacred lands and humanity had a hint of the peaceful times that would come. But the greatest of Aeron's angels, the archangel Odio, ignored his lord's command. He was given over to his bloodlust and led an army of Ira into the lands of Kilmorph.[PARAGRAPH:1]"What means the words of one who does not rule his own home? If Aeron is to share our council he must withdraw his ara from Odio"[PARAGRAPH1:]The gods agreed with Kilmorph and Aeron's protection was removed from the raging Odio, in that instant the queen of gems reached out and pulled Odio into the earth. There she left him transformed to stone, eternal testament to the power of the gods and the cost of defying their will.</Italian>
+		<Spanish>Cuando los dioses se encontraron en los siete abetos declararon una tregua para la guerra de los dioses.  Los ejércitos divinos se retiraron a sus tierras sagradas y la humanidad tuvo una señal de que vendrían tiempos de paz y tranquilidad.  Pero el más grande de los ángeles de Aeron, el arcángel Odio, ignoró las órdenes de su señor.  Estaba harto de su sed de sangre y lideró un ejército de Ira hacia las tierras de Kilmorph.[PARAGRAPH:1]"¿Qué significado tienen las palabras de alguien que no gobierna su propio hogar?  Si Aeron va a formar parte de nuestro consejo debe retirar su asociación de Odio"[PARAGRAPH1:]Los dioses estuvieron de acuerdo con Kilmorph y la protección de Aeron sobre el irascible Odio fue revocada; en ese instante la reina de las gemas extendió su mano y tiró de él hacia dentro de la tierra.  Allí le dejó transformado en piedra, un recuerdo eterno del poder de los dioses y el coste de desafiar su voluntad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_POOL_OF_TEARS</Tag>
+		<English>Pool of Tears</English>
+		<French>Bassin de Larmes</French>
+		<German>See der Tränen</German>
+		<Italian>Pool of Tears</Italian>
+		<Spanish>Estanque de las Lágrimas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_POOL_OF_TEARS_HELP</Tag>
+		<English>[ICON_BULLET]Cures Disease[NEWLINE][ICON_BULLET]Cures Plague[NEWLINE][ICON_BULLET]Cures Poison</English>
+		<French>[ICON_BULLET]Soigne les maladies[NEWLINE][ICON_BULLET]Guérit les épidémies[NEWLINE][ICON_BULLET]Cure du poison</French>
+		<German>[ICON_BULLET]Cures Disease[NEWLINE][ICON_BULLET]Cures Plague[NEWLINE][ICON_BULLET]Cures Poison</German>
+		<Italian>[ICON_BULLET]Cures Disease[NEWLINE][ICON_BULLET]Cures Plague[NEWLINE][ICON_BULLET]Cures Poison</Italian>
+		<Spanish>[ICON_BULLET]Cures Disease[NEWLINE][ICON_BULLET]Cures Plague[NEWLINE][ICON_BULLET]Cures Poison</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PYRE_OF_THE_SERAPHIC</Tag>
+		<English>Pyre of the Seraphic</English>
+		<French>Bûcher des Séraphins</French>
+		<German>Scheiterhaufen der Engel</German>
+		<Italian>Pyre of the Seraphic</Italian>
+		<Spanish>Pira de los Serafines</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PYRE_OF_THE_SERAPHIC_EXPLORED</Tag>
+		<English>Pyre of the Seraphic (explored)</English>
+		<French>Bûcher des Séraphins (exploré)</French>
+		<German>Scheiterhaufen der Engel (explored)</German>
+		<Italian>Pyre of the Seraphic (explored)</Italian>
+		<Spanish>Pira de los Serafines (explored)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PYRE_OF_THE_SERAPHIC_PEDIA</Tag>
+		<English>What was once a grand temple of Bhall now has no references to her name. The inscriptions have been worn off, the murals covered in crude orcish paintings. But the fire that burns atop the temple cannot be extinguished, and the Clan is said to sacrifice angels to Bhall at the Pyre.</English>
+		<French>Ce qui fut un grand temple de Bhall n'a maintenant plus de référence à son nom. Les inscriptions ont été effacées, les murs couverts de peintures orcs. Mais le feu qui brule au sommet du temple ne peut etre éteint, et on dit que le Clan sacrifie des anges à Bhall sur ce Bucher.</French>
+		<German>Was einst ein großer Tempel der Bhall war, trägt nun keine Hinweis mehr auf ihren Namen. Die Inschriften sind abgenutzt und die Wandmalereien sind von grobschlächtigen, orkischen Schmierereien bedeckt. Aber das Feuer, das auf der Spitze des Tempels brennt, kann nicht gelöscht werden und es wird gesagt, das dort der Clan Engel zu Ehren Bhalls opfert</German>
+		<Italian>What was once a grand temple of Bhall now has no references to her name. The inscriptions have been worn off, the murals covered in crude orcish paintings. But the fire that burns atop the temple cannot be extinguished, and the Clan is said to sacrifice angels to Bhall at the Pyre.</Italian>
+		<Spanish>Lo que una vez fue el gran templo a Bhall ahora no tiene ninguna referencia a su nombre.  Las inscripciones han sido desgastadas, los murales cubiertos de crueles pinturas orcas.  Pero el fuego que arde en el tejado del templo no puede ser extinguido, y se dice que el Clan sacrifica ángeles a Bhall en la Pira.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_REMNANTS_OF_PATRIA</Tag>
+		<English>Remnants of Patria</English>
+		<French>Restes de Patria</French>
+		<German>Überreste des Vaterlandes</German>
+		<Italian>Remnants of Patria</Italian>
+		<Spanish>Remanentes de Patria</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_REMNANTS_OF_PATRIA_PEDIA</Tag>
+		<English>Once mankind was joined in a single empire. These jade statues are the last symbols of this great empire, and will remind your people of what mankind is capable of.</English>
+		<French>A une époque , l'humanité était réunie en un seul empire. Ces statues de jade sont les derniers syboles de cet immense empire, et rappellereont à votre peuple ce dont est capable l'humanité.</French>
+		<German>Einst war die gesamte Menschheit in einem einzigen Imperium vereint. Diese Jadestatuen sind die letzten Überbleibsel dieses großen Reiches und wird deine Leute daran erinnern, zu was die Menschheit fähig ist.</German>
+		<Italian>Once mankind was joined in a single empire. These jade statues are the last symbols of this great empire, and will remind your people of what mankind is capable of.</Italian>
+		<Spanish>Una vez la humanidad estaba unida en un solo imperio.  Estas estatuas de jade son los últimos símbolos de este gran imperio, y recordará a vuestro pueblo de lo que es capaz la humanidad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_RING_OF_CARCER</Tag>
+		<English>Ring of Carcer</English>
+		<French>Prison de glace</French>
+		<German>Kerker des Lichts</German>
+		<Italian>Ring of Carcer</Italian>
+		<Spanish>Ring of Carcer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_RING_OF_CARCER_PEDIA</Tag>
+		<English>In the frozen wastes explorers have reported seeing a beautiful glow in the night sky. There have been many stories about the source of this glow, the passing of spirits from this world to the next, the shimmering of the sleeping sun, the remains of Mulcarn himself.[PARAGRAPH:1]But the truth is that far into the wastes there exists a ring of starlight, the Ring of Carcer. And trapped within is Brigit, the archangel of Bhall whom Bhall was unwilling to kill in her fall. Those seeking evidence that the queen of fire is not completely lost to the whispers of Agares cite her preservation of Brigit as their evidence. Others say that if Brigit can be freed she could kill Bhall and claim her dominion for herself. And we would once again have a goddess of holy fire.[PARAGRAPH:1]But these are only stories, shared on cold snowy nights. For there is none so far who is capable of passing through the Ring of Carcer and freeing the trapped archangel.</English>
+		<French>In the frozen wastes explorers have reported seeing a beautiful glow in the night sky. There have been many stories about the source of this glow, the passing of spirits from this world to the next, the shimmering of the sleeping sun, the remains of Mulcarn himself.[PARAGRAPH:1]But the truth is that far into the wastes there exists a ring of starlight, the Ring of Carcer. And trapped within is Brigit, the archangel of Bhall whom Bhall was unwilling to kill in her fall. Those seeking evidence that the queen of fire is not completely lost to the whispers of Agares cite her preservation of Brigit as their evidence. Others say that if Brigit can be freed she could kill Bhall and claim her dominion for herself. And we would once again have a goddess of holy fire.[PARAGRAPH:1]But these are only stories, shared on cold snowy nights. For there is none so far who is capable of passing through the Ring of Carcer and freeing the trapped archangel.</French>
+		<German>Entdecker berichteten von einer wunderschönen Leuchterscheinung am Nachthimmel über den gefrorenen Einöden des Nordens. Es gibt viele Geschichten über die Entstehung dieses Leuchtens, das Vorrüberziehen von Geistern von dieser zur nächsten Welt, das Schimmern der schlafenden Sonne oder sogar die Gebeine Mulcarns.[PARAGRAPH:1]Aber die Wahrheit ist, dass tief in den Ödlanden ein Ring aus Sternenlicht existiert, der Kerker des Lichts. Und in ihm gefangen ist Brigit, der Erzengel von Bhall, den zu töten Bhall nicht bereit war, als sie fiel. Diejenigen, die Beweise dafür suchen, dass die Königin des Feuers nicht den Einflüsterungen von Agares verfiel, ziehen die Bewahrung von Brigit als ihre Beweise heran. Andere sind der Meinung, dass Brigit, sollte sie befreit werden können, in der Lage wäre Bhall zu töten und ihre Domäne für sich zu beanspruchen. Dann würden wir wieder eine Göttin des heiligen Feuers haben.[PARAGRAPH:1]Aber das sind nur Geschichten, die in kalten verschneiten Nächten erzählt werden. Denn bisher gibt es niemanden, der in der Lage wäre den Kerker des Lichts zu betreten und Brigit zu befreien.</German>
+		<Italian>In the frozen wastes explorers have reported seeing a beautiful glow in the night sky. There have been many stories about the source of this glow, the passing of spirits from this world to the next, the shimmering of the sleeping sun, the remains of Mulcarn himself.[PARAGRAPH:1]But the truth is that far into the wastes there exists a ring of starlight, the Ring of Carcer. And trapped within is Brigit, the archangel of Bhall whom Bhall was unwilling to kill in her fall. Those seeking evidence that the queen of fire is not completely lost to the whispers of Agares cite her preservation of Brigit as their evidence. Others say that if Brigit can be freed she could kill Bhall and claim her dominion for herself. And we would once again have a goddess of holy fire.[PARAGRAPH:1]But these are only stories, shared on cold snowy nights. For there is none so far who is capable of passing through the Ring of Carcer and freeing the trapped archangel.</Italian>
+		<Spanish>In the frozen wastes explorers have reported seeing a beautiful glow in the night sky. There have been many stories about the source of this glow, the passing of spirits from this world to the next, the shimmering of the sleeping sun, the remains of Mulcarn himself.[PARAGRAPH:1]But the truth is that far into the wastes there exists a ring of starlight, the Ring of Carcer. And trapped within is Brigit, the archangel of Bhall whom Bhall was unwilling to kill in her fall. Those seeking evidence that the queen of fire is not completely lost to the whispers of Agares cite her preservation of Brigit as their evidence. Others say that if Brigit can be freed she could kill Bhall and claim her dominion for herself. And we would once again have a goddess of holy fire.[PARAGRAPH:1]But these are only stories, shared on cold snowy nights. For there is none so far who is capable of passing through the Ring of Carcer and freeing the trapped archangel.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SEVEN_PINES</Tag>
+		<English>Seven Pines</English>
+		<French>Sept Pins</French>
+		<German><Text>Sieben Kiefern</Text><Gender>Female</Gender><Plural>1</Plural></German>
+		<Italian>Seven Pines</Italian>
+		<Spanish>Seven Pines</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SEVEN_PINES_HELP</Tag>
+		<English>[ICON_BULLET]The owner of the Seven Pines may call a council here that will end all wars he is in. This can only be done once per game. A unit must be in this tile to use this ability.</English>
+		<French>[ICON_BULLET]The owner of the Seven Pines may call a council here that will end all wars he is in. This can only be done once per game. A unit must be in this tile to use this ability.</French>
+		<German>[ICON_BULLET]The owner of the Seven Pines may call a council here that will end all wars he is in. This can only be done once per game. A unit must be in this tile to use this ability.</German>
+		<Italian>[ICON_BULLET]The owner of the Seven Pines may call a council here that will end all wars he is in. This can only be done once per game. A unit must be in this tile to use this ability.</Italian>
+		<Spanish>[ICON_BULLET]The owner of the Seven Pines may call a council here that will end all wars he is in. This can only be done once per game. A unit must be in this tile to use this ability.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SIRONAS_BEACON</Tag>
+		<English>Sirona's Beacon</English>
+		<French>Fanal de Sirona</French>
+		<German>Sironas Leuchtfeuer</German>
+		<Italian>Sirona's Beacon</Italian>
+		<Spanish>Sirona's Beacon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SIRONAS_BEACON_PEDIA</Tag>
+		<English>The site now known as Sirona's beacon is all that is left of one of her grandest temples from the Age of Dragons. It is said to have once been attended by Immanuel Logos and it is believed among the Elohim that the light that shines from its spire is his.</English>
+		<French>The site now known as Sirona's beacon is all that is left of one of her grandest temples from the Age of Dragons. It is said to have once been attended by Immanuel Logos and it is believed among the Elohim that the light that shines from its spire is his.</French>
+		<German>The site now known as Sirona's beacon is all that is left of one of her grandest temples from the Age of Dragons. It is said to have once been attended by Immanuel Logos and it is believed among the Elohim that the light that shines from its spire is his.</German>
+		<Italian>The site now known as Sirona's beacon is all that is left of one of her grandest temples from the Age of Dragons. It is said to have once been attended by Immanuel Logos and it is believed among the Elohim that the light that shines from its spire is his.</Italian>
+		<Spanish>The site now known as Sirona's beacon is all that is left of one of her grandest temples from the Age of Dragons. It is said to have once been attended by Immanuel Logos and it is believed among the Elohim that the light that shines from its spire is his.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_STANDING_STONES</Tag>
+		<English>Standing Stones</English>
+		<French>Menhir sacré</French>
+		<German><Text>Monolith</Text><Gender>Male</Gender><Plural>0</Plural></German>
+		<Italian>Standing Stones</Italian>
+		<Spanish>Piedras Derechas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_STANDING_STONES_PEDIA</Tag>
+		<English>Built long ago by the gentle Calculpech the stones remain, though its creators have long since withdrawn into Kilmorph's vault.</English>
+		<French>Built long ago by the gentle Calculpech the stones remain, though its creators have long since withdrawn into Kilmorph's vault.</French>
+		<German>Vor langer Zeit vom vornehmen Calculpech errichtet, stehen die Steine noch immer, obwohl sich ihre Erbauer schon lange in Kilmorphs Höhlen zurückgezogen haben.</German>
+		<Italian>Built long ago by the gentle Calculpech the stones remain, though its creators have long since withdrawn into Kilmorph's vault.</Italian>
+		<Spanish>Built long ago by the gentle Calculpech the stones remain, though its creators have long since withdrawn into Kilmorph's vault.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TOMB_OF_SUCELLUS</Tag>
+		<English>Tomb of Sucellus</English>
+		<French>Tombeau de Sucellus</French>
+		<German>Grab des Sucellus</German>
+		<Italian>Tomb of Sucellus</Italian>
+		<Spanish>Tumba de Sucellus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TOMB_OF_SUCELLUS_PEDIA</Tag>
+		<English>The site of Sucellus's resurrection, the empty tomb is still strongly in?uenced by the dead god's magic and acts like a Life mana node for the owning empire.[PARAGRAPH:2]Mulcarn tore Sucellus into seven pieces and scattered six of those pieces across creation. The last piece, Sucellus's heart, Mulcarn kept for himself.[PARAGRAPH:1]These scattered pieces were unguarded, held within vast shards of ice that could not be chipped away and would not melt. The ice was like stakes driven down into the world's core, and although only a pillar of ice the size of a small home would show above the surface, it would extend for miles beneath.[PARAGRAPH:1]Unable to move the shards, those that found them built tombs over them instead. Cold, hollow places, they still showed reverence for what the god of nature had been. And the vines and ?owers that bloomed at the edge of the temples were testament to some lingering hope.[PARAGRAPH:1]After Mulcarn's death, the shards melted and the pieces of Sucellus were brought back together by the goddess Nantosuelta. The melting ice formed vast underground lakes and the gaping pits where they had been were used by the Khazad, and occasionally darker creatures, to reach the surface.</English>
+		<French>Le lieu de la résurrection de Sucellus, le tombeau vide possède toujours une forte influence de la magie des anciens dieux et agit comme un N&#156;ud de Vie pour l'empire le possédant.[PARAGRAPH:2]Mulcarn tore Sucellus into seven pieces and scattered six of those pieces across creation. The last piece, Sucellus's heart, Mulcarn kept for himself.[PARAGRAPH:1]These scattered pieces were unguarded, held within vast shards of ice that could not be chipped away and would not melt. The ice was like stakes driven down into the world's core, and although only a pillar of ice the size of a small home would show above the surface, it would extend for miles beneath.[PARAGRAPH:1]Unable to move the shards, those that found them built tombs over them instead. Cold, hollow places, they still showed reverence for what the god of nature had been. And the vines and ?owers that bloomed at the edge of the temples were testament to some lingering hope.[PARAGRAPH:1]After Mulcarn's death, the shards melted and the pieces of Sucellus were brought back together by the goddess Nantosuelta. The melting ice formed vast underground lakes and the gaping pits where they had been were used by the Khazad, and occasionally darker creatures, to reach the surface.</French>
+		<German>Der Ort der Auferstehung des Sucellus, das leere Grab ist immer noch erfüllt von der Magie des toten Gottes und wirkt für den Besitzer wie ein Brunnen der Lebensmagie.[PARAGRAPH:2]Mulcarn tore Sucellus into seven pieces and scattered six of those pieces across creation. The last piece, Sucellus's heart, Mulcarn kept for himself.[PARAGRAPH:1]These scattered pieces were unguarded, held within vast shards of ice that could not be chipped away and would not melt. The ice was like stakes driven down into the world's core, and although only a pillar of ice the size of a small home would show above the surface, it would extend for miles beneath.[PARAGRAPH:1]Unable to move the shards, those that found them built tombs over them instead. Cold, hollow places, they still showed reverence for what the god of nature had been. And the vines and ?owers that bloomed at the edge of the temples were testament to some lingering hope.[PARAGRAPH:1]After Mulcarn's death, the shards melted and the pieces of Sucellus were brought back together by the goddess Nantosuelta. The melting ice formed vast underground lakes and the gaping pits where they had been were used by the Khazad, and occasionally darker creatures, to reach the surface.</German>
+		<Italian>The site of Sucellus' resurrection, the empty tomb is still strongly influenced by the dead god's magic and acts like a Life mana node for the owning empire.[PARAGRAPH:2]Mulcarn tore Sucellus into seven pieces and scattered six of those pieces across creation. The last piece, Sucellus's heart, Mulcarn kept for himself.[PARAGRAPH:1]These scattered pieces were unguarded, held within vast shards of ice that could not be chipped away and would not melt. The ice was like stakes driven down into the world's core, and although only a pillar of ice the size of a small home would show above the surface, it would extend for miles beneath.[PARAGRAPH:1]Unable to move the shards, those that found them built tombs over them instead. Cold, hollow places, they still showed reverence for what the god of nature had been. And the vines and ?owers that bloomed at the edge of the temples were testament to some lingering hope.[PARAGRAPH:1]After Mulcarn's death, the shards melted and the pieces of Sucellus were brought back together by the goddess Nantosuelta. The melting ice formed vast underground lakes and the gaping pits where they had been were used by the Khazad, and occasionally darker creatures, to reach the surface.</Italian>
+		<Spanish>El lugar de la resurrección de Sucellus, la tumba vacía aún está fuertemente influenciada por la magia del dios muerto y actúa como un nodo de maná de Vida para el imperio que lo posee.[PARAGRAPH:2]Mulcarn tore Sucellus into seven pieces and scattered six of those pieces across creation. The last piece, Sucellus's heart, Mulcarn kept for himself.[PARAGRAPH:1]These scattered pieces were unguarded, held within vast shards of ice that could not be chipped away and would not melt. The ice was like stakes driven down into the world's core, and although only a pillar of ice the size of a small home would show above the surface, it would extend for miles beneath.[PARAGRAPH:1]Unable to move the shards, those that found them built tombs over them instead. Cold, hollow places, they still showed reverence for what the god of nature had been. And the vines and ?owers that bloomed at the edge of the temples were testament to some lingering hope.[PARAGRAPH:1]After Mulcarn's death, the shards melted and the pieces of Sucellus were brought back together by the goddess Nantosuelta. The melting ice formed vast underground lakes and the gaping pits where they had been were used by the Khazad, and occasionally darker creatures, to reach the surface.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TOWER_OF_EYES</Tag>
+		<English>Tower of Eyes</English>
+		<French>Tour des Yeux</French>
+		<German>Turm der Augen</German>
+		<Italian>Tower of Eyes</Italian>
+		<Spanish>Tower of Eyes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_YGGDRASIL</Tag>
+		<English>Yggdrasil</English>
+		<French>Yggdrasil</French>
+		<German>Weltenbaum Yggdrasil</German>
+		<Italian>Yggdrasil</Italian>
+		<Spanish>Yggdrasil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_YGGDRASIL_PEDIA</Tag>
+		<English>Eternal Yggdrasil was undimmed by the Age of Ice. Its fruit still blooms and becomes a staple of any empire lucky enough to claim it.[PARAGRAPH:2]"She stood with me at the forest's edge next to our town. She held a bag of enriched soil in her left hand, and a small glowing seed in the other. She said that this particular seed would bring us happiness and prosperity beyond our imagination. When I asked my master why the seed glowed so strongly, she just smiled back at me, a thin smile, veiling a story perhaps she did not wish for me to hear. I recall the sun was shining warmly that day and it made her eyes look enigmatic, yet somehow, sad. She looked around, eyes staring deep into the forest for a moment, then kneeled down, planted the seed, and whispered some incantation I could not hear. Upon breathing the final words, she fell unconscious to the ground.[PARAGRAPH:1]Before I could even move to help her, small roots began to grow from beneath her body, quickly covering her fallen form. The roots kept growing upwards, intertwining and rising into the form of a tree growing with a magical speed beyond anything I'd seen, even from my master. Then I heard a creaking, and looking around, saw nearby trees in the forest bending and pushing through the earth to reach this divine spell, seeking to join in that miraculous growth. Moss beneath us started to pulse with light, and glowing butterflies and other life forms emerged from thin air around the still-growing tree, slowly transforming the whole forest into a radiant garden under the shadow of this colossal entity. Only later, gazing at the giant tree, did I realize that she filled the seed with her own soul.[PARAGRAPH:1]Every day from then on, I came back to the tree and harvested her magical fruits in honor of my former master. We began to call her Yggdrasil, the Life Tree."[NEWLINE][BOLD]Laudellina, druid apprentice[\BOLD]</English>
+		<French>L'éternel Yggdrasil a été épargné par l'Age de Glace.  Ses fruits s'épanouissent toujours et deviennent un produit incontournable pour tout empire assez chanceux pour le posséder.[PARAGRAPH:2]"Elle se tenait à mes côtés à l'orée de la forêt jouxtant notre ville. Elle tenait un sac de terreau à la main gauche, et une petite pousse brillante dans l'autre. Elle affirmait que cette pousse particulière apporterait bonheur et prospérité au-delà de toute imagination. Lorsque je demandai à mon mentor pourquoi la pousse brillait si fortement, elle esquiva la question d'un sourire discret ; sans doute une histoire qu'elle ne souhaitait pas me faire écouter. Je me rappelle que le soleil nous éclairait chaudement ce jour-là, et que cela donnait à ses yeux une apparence énigmatique et triste tout à la fois. Elle regarda autour d'elle, son regard plongé dans la forêt pendant un moment ; ensuite, elle s'agenouilla, planta la pousse et chuchota une incantation inaudible. A peine avait-elle prononcé les derniers mots, qu'elle tomba inconsciente au sol.[PARAGRAPH:1]Avant même que je puisse me précipiter pour l'aider, de petites racines avaient surgi de la terre sous elle, recouvrant rapidement son corps. Les racines continuèrent à grandir, s'entremêlant et prenant la forme d'un arbre poussant à une vitesse incroyable, au delà de tout ce que j'avais jamais pu voir, même de la part de mon mentor. J'entendis alors un craquement, et découvris alors que les arbres les plus proches se penchaient et tentaient d'avancer à travers la terre afin d'atteindre ce sort divin, cherchant à se joindre à cette croissance miraculeuse. Sous nos pieds, la mousse s'illumina ; des papillons brillants et d'autres formes de vies se formèrent autour de l'arbre, toujours en croissance, transformant peu à peu la forêt entière en un jardin radieux à l'ombre de cette entité colossale. C'est n'est que plus tard, alors que je fixais l'arbre géant, que je réalisai qu'elle avait en fait nourri la pousse de son âme.[PARAGRAPH:1]Chaque jour depuis lors, je suis revenu auprès de l'arbre et j'ai récolté ses fruits magiques en l'honneur de mon ancien guide. Nous l'avons nommé Yggdrasil, l'arbre de vie.[NEWLINE][BOLD]Laudellina, druide novice[\BOLD]</French>
+		<German>Die Pracht des Weltenbaumes Yggdrasil konnte durch das Zeitalter des Eises nicht gemindert werden. Er blüht immer noch. Er trägt immer noch Früchte. Er wird das Prachtstück eines jeden Reiches sein, was glücklich ist, ihn für sich zu beanspruchen</German>
+		<Italian>Eternal Yggdrasil was undimmed by the Age of Ice. Its fruit still blooms and becomes a staple of any empire lucky enough to claim it.[PARAGRAPH:2]"She stood with me at the forest's edge next to our town. She held a bag of enriched soil in her left hand, and a small glowing seed in the other. She said that this particular seed would bring us happiness and prosperity beyond our imagination. When I asked my master why the seed glowed so strongly, she just smiled back at me, a thin smile, veiling a story perhaps she did not wish for me to hear. I recall the sun was shining warmly that day and it made her eyes look enigmatic, yet somehow, sad. She looked around, eyes staring deep into the forest for a moment, then kneeled down, planted the seed, and whispered some incantation I could not hear. Upon breathing the final words, she fell unconscious to the ground.[PARAGRAPH:1]Before I could even move to help her, small roots began to grow from beneath her body, quickly covering her fallen form. The roots kept growing upwards, intertwining and rising into the form of a tree growing with a magical speed beyond anything I'd seen, even from my master. Then I heard a creaking, and looking around, saw nearby trees in the forest bending and pushing through the earth to reach this divine spell, seeking to join in that miraculous growth. Moss beneath us started to pulse with light, and glowing butterflies and other life forms emerged from thin air around the still-growing tree, slowly transforming the whole forest into a radiant garden under the shadow of this colossal entity. Only later, gazing at the giant tree, did I realize that she filled the seed with her own soul.[PARAGRAPH:1]Every day from then on, I came back to the tree and harvested her magical fruits in honor of my former master. We began to call her Yggdrasil, the Life Tree."[NEWLINE][BOLD]Laudellina, druid apprentice[\BOLD]</Italian>
+		<Spanish>El Eterno Yggdrasil no fue empañado por la Edad de Hielo.  Sus frutas aún crecen y se convierten en algo inestimable para cualquier imperio afortunado que lo posea.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_RINWELL</Tag>
+		<English>Rinwell Isle</English>
+		<French>Île de Rinwell</French>
+		<German>Die Insel Rinwell</German>
+		<Italian>Rinwell Isle</Italian>
+		<Spanish>Rinwell Isle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CLOCKWORK_TOWER</Tag>
+		<English>Clockwork City</English>
+		<French>La Cité des Rouages</French>
+		<German>Clockwork City</German>
+		<Italian>Clockwork City</Italian>
+		<Spanish>Clockwork City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WELL_OF_SOULS</Tag>
+		<English>The Well of Souls</English>
+		<French>Puits des Âmes</French>
+		<German>The Well of Souls</German>
+		<Italian>The Well of Souls</Italian>
+		<Spanish>The Well of Souls</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WELL_OF_SOULS_PEDIA</Tag>
+		<English>The Well of Souls is one of the paths between Erebus and the Underworld. Closed by Tebryn Arbandi, the area near has since become infested by undead, as none of the dead's souls can pass through.</English>
+		<French>The Well of Souls is one of the paths between Erebus and the Underworld. Closed by Tebryn Arbandi, the area near has since become infested by undead, as none of the dead's souls can pass through.</French>
+		<German>The Well of Souls is one of the paths between Erebus and the Underworld. Closed by Tebryn Arbandi, the area near has since become infested by undead, as none of the dead's souls can pass through.</German>
+		<Italian>The Well of Souls is one of the paths between Erebus and the Underworld. Closed by Tebryn Arbandi, the area near has since become infested by undead, as none of the dead's souls can pass through.</Italian>
+		<Spanish>The Well of Souls is one of the paths between Erebus and the Underworld. Closed by Tebryn Arbandi, the area near has since become infested by undead, as none of the dead's souls can pass through.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WELL_OF_SOULS_PURIFIED</Tag>
+		<English>Purified Well of Souls</English>
+		<French>Puits des Âmes Purifié</French>
+		<German>Purified Well of Souls</German>
+		<Italian>Purified Well of Souls</Italian>
+		<Spanish>Purified Well of Souls</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FOXFORD</Tag>
+		<English>Foxford</English>
+		<French>Foxford</French>
+		<German>Fuchsfurt</German>
+		<Italian>Foxford</Italian>
+		<Spanish>Foxford</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GUARDIAN</Tag>
+		<English>Guardian of Pristin Pass</English>
+		<French>Gardien de la Passe Originelle</French>
+		<German>
+			<Text>Wächter des Pristinuspasses</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>Guardian of Pristin Pass</Italian>
+		<Spanish>Guardian of Pristin Pass</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GUARDIAN_PEDIA</Tag>
+		<English>Beware the Guardian of Pristin Pass, foul creatures roost in its alcoves and they are likely to swoop down on those who come too close to the stone giant.</English>
+		<French>Beware the Guardian of Pristin Pass, foul creatures roost in its alcoves and they are likely to swoop down on those who come too close to the stone giant.</French>
+		<German>Vorsicht vor dem Wächter des Pristinpasses. Üble Kreaturen leben in seinen Nischen und sie werden wahrscheinlich auf jene herabfahren, die dem steinernen Giganten zu nahe kommen.</German>
+		<Italian>Beware the Guardian of Pristin Pass, foul creatures roost in its alcoves and they are likely to swoop down on those who come too close to the stone giant.</Italian>
+		<Spanish>Beware the Guardian of Pristin Pass, foul creatures roost in its alcoves and they are likely to swoop down on those who come too close to the stone giant.</Spanish>
+	</TEXT>
+</Civ4GameText>

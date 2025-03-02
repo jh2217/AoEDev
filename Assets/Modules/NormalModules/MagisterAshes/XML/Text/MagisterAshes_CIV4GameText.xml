@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- Game Text - Events -->
+<!-- MORE EVENTS MOD STARTS -->
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ABADDON</Tag>
+		<English>Abaddon, Lord of Locusts</English>
+		<French>Abaddon, Seigneur des Locustes</French>
+		<German>Abaddon, Lord of Locusts</German>
+		<Italian>Abaddon, Lord of Locusts</Italian>
+		<Spanish>Abaddon, Lord of Locusts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ABADDON_PEDIA</Tag>
+		<English>Abaddon began as a Father or Worlds, one of the Seven Aspects of Amathaon. These True Angels traveled out from the heart of creation and made infinite new lands as they passed. Though the raw form already existed, it was the Father of Worlds that turned the continents, oceans, mountains, etc., into living worlds complete with unique and wonderful creations.[PARAGRAPH]During the Godswar, Agares corrupted each of the Father of Worlds and turned them into the Unraveling. They lost all their Creation affinity and became Dark creatures said to be able to destroy creation.[PARAGRAPH]At the signing of the Compact, Agares bound Abaddon in a pit beneath the Underhome. In later ages the dwarven city of Vallum is built atop this pit and the Vigil of the Deep and the Umberguard was established to make sure Abbadon is never released.[PARAGRAPH]In the Age of Ruin Belphegor shall send Oriens to the underground city of Vallum to free Abbadon, but the Vigil of the Deep catches him and the Keeper of Keys executes Oriens before he can do so.</English>
+		<French>Abaddon began as a Father or Worlds, one of the Seven Aspects of Amathaon. These True Angels traveled out from the heart of creation and made infinite new lands as they passed. Though the raw form already existed, it was the Father of Worlds that turned the continents, oceans, mountains, etc., into living worlds complete with unique and wonderful creations.[PARAGRAPH]During the Godswar, Agares corrupted each of the Father of Worlds and turned them into the Unraveling. They lost all their Creation affinity and became Dark creatures said to be able to destroy creation.[PARAGRAPH]At the signing of the Compact, Agares bound Abaddon in a pit beneath the Underhome. In later ages the dwarven city of Vallum is built atop this pit and the Vigil of the Deep and the Umberguard was established to make sure Abbadon is never released.[PARAGRAPH]In the Age of Ruin Belphegor shall send Oriens to the underground city of Vallum to free Abbadon, but the Vigil of the Deep catches him and the Keeper of Keys executes Oriens before he can do so.</French>
+		<German>Abaddon began as a Father or Worlds, one of the Seven Aspects of Amathaon. These True Angels traveled out from the heart of creation and made infinite new lands as they passed. Though the raw form already existed, it was the Father of Worlds that turned the continents, oceans, mountains, etc., into living worlds complete with unique and wonderful creations.[PARAGRAPH]During the Godswar, Agares corrupted each of the Father of Worlds and turned them into the Unraveling. They lost all their Creation affinity and became Dark creatures said to be able to destroy creation.[PARAGRAPH]At the signing of the Compact, Agares bound Abaddon in a pit beneath the Underhome. In later ages the dwarven city of Vallum is built atop this pit and the Vigil of the Deep and the Umberguard was established to make sure Abbadon is never released.[PARAGRAPH]In the Age of Ruin Belphegor shall send Oriens to the underground city of Vallum to free Abbadon, but the Vigil of the Deep catches him and the Keeper of Keys executes Oriens before he can do so.</German>
+		<Italian>Abaddon began as a Father or Worlds, one of the Seven Aspects of Amathaon. These True Angels traveled out from the heart of creation and made infinite new lands as they passed. Though the raw form already existed, it was the Father of Worlds that turned the continents, oceans, mountains, etc., into living worlds complete with unique and wonderful creations.[PARAGRAPH]During the Godswar, Agares corrupted each of the Father of Worlds and turned them into the Unraveling. They lost all their Creation affinity and became Dark creatures said to be able to destroy creation.[PARAGRAPH]At the signing of the Compact, Agares bound Abaddon in a pit beneath the Underhome. In later ages the dwarven city of Vallum is built atop this pit and the Vigil of the Deep and the Umberguard was established to make sure Abbadon is never released.[PARAGRAPH]In the Age of Ruin Belphegor shall send Oriens to the underground city of Vallum to free Abbadon, but the Vigil of the Deep catches him and the Keeper of Keys executes Oriens before he can do so.</Italian>
+		<Spanish>Abaddon began as a Father or Worlds, one of the Seven Aspects of Amathaon. These True Angels traveled out from the heart of creation and made infinite new lands as they passed. Though the raw form already existed, it was the Father of Worlds that turned the continents, oceans, mountains, etc., into living worlds complete with unique and wonderful creations.[PARAGRAPH]During the Godswar, Agares corrupted each of the Father of Worlds and turned them into the Unraveling. They lost all their Creation affinity and became Dark creatures said to be able to destroy creation.[PARAGRAPH]At the signing of the Compact, Agares bound Abaddon in a pit beneath the Underhome. In later ages the dwarven city of Vallum is built atop this pit and the Vigil of the Deep and the Umberguard was established to make sure Abbadon is never released.[PARAGRAPH]In the Age of Ruin Belphegor shall send Oriens to the underground city of Vallum to free Abbadon, but the Vigil of the Deep catches him and the Keeper of Keys executes Oriens before he can do so.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_ABADDONS_PIT</Tag>
+		<English>Abaddons's Pit</English>
+		<French>
+			<Text>Fosse d'Abaddon</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Abaddons's Pit</German>
+		<Italian>Abaddons's Pit</Italian>
+		<Spanish>Abaddons's Pit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNLEASH_ABADDON_HELP</Tag>
+		<English>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 30[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_ABADDON]Abaddon, Lord of Locusts[\LINK]</English>
+		<French>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 30[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_ABADDON]Abaddon, Lord of Locusts[\LINK] </French>
+		<German>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 30[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_ABADDON]Abaddon, Lord of Locusts[\LINK] </German>
+		<Italian>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 30[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_ABADDON]Abaddon, Lord of Locusts[\LINK] </Italian>
+		<Spanish>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 30[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_ABADDON]Abaddon, Lord of Locusts[\LINK] </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNLEASH_ARS_HELP</Tag>
+		<English>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 20[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_ARS]Ars Moriendi[\LINK]</English>
+		<French>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 20[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_ARS]Ars Moriendi[\LINK] </French>
+		<German>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 20[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_ARS]Ars Moriendi[\LINK] </German>
+		<Italian>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 20[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_ARS]Ars Moriendi[\LINK] </Italian>
+		<Spanish>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 20[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_ARS]Ars Moriendi[\LINK] </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNLEASH_ABADDON</Tag>
+		<English>Unleash Abaddon</English>
+		<French>Libérer Abaddon</French>
+		<German>Unleash Abaddon</German>
+		<Italian>Unleash Abaddon</Italian>
+		<Spanish>Unleash Abaddon</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_SPELL_UNLEASH_BUBOES_HELP</Tag>
+		<English>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 20[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_BUBOES]Buboes[\LINK]</English>
+		<French>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 20[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_BUBOES]Buboes[\LINK] </French>
+		<German>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 20[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_BUBOES]Buboes[\LINK] </German>
+		<Italian>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 20[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_BUBOES]Buboes[\LINK] </Italian>
+		<Spanish>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 20[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_BUBOES]Buboes[\LINK] </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNLEASH_APOPHIS_HELP</Tag>
+		<English>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 30[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_APOPHIS]Apophis the Endless Hunger[\LINK]</English>
+		<French>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 30[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_APOPHIS]Apophis the Endless Hunger[\LINK] </French>
+		<German>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 30[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_APOPHIS]Apophis the Endless Hunger[\LINK] </German>
+		<Italian>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 30[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_APOPHIS]Apophis the Endless Hunger[\LINK] </Italian>
+		<Spanish>[ICON_BULLET]Caster must be evil and follow [LINK=RELIGION_THE_ASHEN_VEIL]The Ashen Veil[\LINK][NEWLINE][ICON_BULLET] Armageddon Counter must be at least 30[NEWLINE][ICON_BULLET] Releases [LINK=UNIT_APOPHIS]Apophis the Endless Hunger[\LINK] </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNLEASH_BUBOES</Tag>
+		<English>Unleash Buboes</English>
+		<French>Libérer Buboes</French>
+		<German>Unleash Buboes</German>
+		<Italian>Unleash Buboes</Italian>
+		<Spanish>Unleash Buboes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BADB</Tag>
+		<English>Badb</English>
+		<French>Badb</French>
+		<German>Badb</German>
+		<Italian>Badb</Italian>
+		<Spanish>Badb</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BADB_PEDIA</Tag>
+		<English>There is a blizzard that rages across Erebus, horrible, sudden and dark. It settles into an area at night, and is always gone by dawn. Those lost in the blizzard sometimes find an ancient castle that didn't exist before and seek shelter from the cold. The castle is haunted, endlessly reliving one horrific night. But the king is very much alive, Badb is caught in this nightmare and is as powerful as he is insane.</English>
+		<French>There is a blizzard that rages across Erebus, horrible, sudden and dark. It settles into an area at night, and is always gone by dawn. Those lost in the blizzard sometimes find an ancient castle that didn't exist before and seek shelter from the cold. The castle is haunted, endlessly reliving one horrific night. But the king is very much alive, Badb is caught in this nightmare and is as powerful as he is insane.</French>
+		<German>There is a blizzard that rages across Erebus, horrible, sudden and dark. It settles into an area at night, and is always gone by dawn. Those lost in the blizzard sometimes find an ancient castle that didn't exist before and seek shelter from the cold. The castle is haunted, endlessly reliving one horrific night. But the king is very much alive, Badb is caught in this nightmare and is as powerful as he is insane.</German>
+		<Italian>There is a blizzard that rages across Erebus, horrible, sudden and dark. It settles into an area at night, and is always gone by dawn. Those lost in the blizzard sometimes find an ancient castle that didn't exist before and seek shelter from the cold. The castle is haunted, endlessly reliving one horrific night. But the king is very much alive, Badb is caught in this nightmare and is as powerful as he is insane.</Italian>
+		<Spanish>There is a blizzard that rages across Erebus, horrible, sudden and dark. It settles into an area at night, and is always gone by dawn. Those lost in the blizzard sometimes find an ancient castle that didn't exist before and seek shelter from the cold. The castle is haunted, endlessly reliving one horrific night. But the king is very much alive, Badb is caught in this nightmare and is as powerful as he is insane.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BADBS_BLIZZARD</Tag>
+		<English>Wandering Castle of the Eternal Blizzard</English>
+		<French>Château Itinérant du Blizzard Éternel</French>
+		<German>Wandering Castle of the Eternal Blizzard</German>
+		<Italian>Wandering Castle of the Eternal Blizzard</Italian>
+		<Spanish>Wandering Castle of the Eternal Blizzard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BADBS_BLIZZARD_PEDIA</Tag>
+		<English>There is a blizzard that rages across Erebus, horrible, sudden and dark. It settles into an area at night, and is always gone by dawn. Those lost in the blizzard sometimes find an ancient castle that didn't exist before and seek shelter from the cold. The castle is haunted, endlessly reliving one horrific night. But the king is very much alive, Badb is caught in this nightmare and is as powerful as he is insane.</English>
+		<French>There is a blizzard that rages across Erebus, horrible, sudden and dark. It settles into an area at night, and is always gone by dawn. Those lost in the blizzard sometimes find an ancient castle that didn't exist before and seek shelter from the cold. The castle is haunted, endlessly reliving one horrific night. But the king is very much alive, Badb is caught in this nightmare and is as powerful as he is insane.</French>
+		<German>There is a blizzard that rages across Erebus, horrible, sudden and dark. It settles into an area at night, and is always gone by dawn. Those lost in the blizzard sometimes find an ancient castle that didn't exist before and seek shelter from the cold. The castle is haunted, endlessly reliving one horrific night. But the king is very much alive, Badb is caught in this nightmare and is as powerful as he is insane.</German>
+		<Italian>There is a blizzard that rages across Erebus, horrible, sudden and dark. It settles into an area at night, and is always gone by dawn. Those lost in the blizzard sometimes find an ancient castle that didn't exist before and seek shelter from the cold. The castle is haunted, endlessly reliving one horrific night. But the king is very much alive, Badb is caught in this nightmare and is as powerful as he is insane.</Italian>
+		<Spanish>There is a blizzard that rages across Erebus, horrible, sudden and dark. It settles into an area at night, and is always gone by dawn. Those lost in the blizzard sometimes find an ancient castle that didn't exist before and seek shelter from the cold. The castle is haunted, endlessly reliving one horrific night. But the king is very much alive, Badb is caught in this nightmare and is as powerful as he is insane.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BADBS_BLIZZARD_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GRAVE_OF_ASMODAY</Tag>
+		<English>Grave of Asmoday</English>
+		<French>Tombeau d'Asmoday</French>
+		<German>Grave of Asmoday</German>
+		<Italian>Grave of Asmoday</Italian>
+		<Spanish>Grave of Asmoday</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GRAVE_OF_ASMODAY_PEDIA</Tag>
+		<English>[TAB]Asmoday was the eldest of Sallos's 34 children. His soul was consecrated to Agares while his mother pregnant with him. When he was seven years old he inherited a wealthy Patrian duchy following his father's early death, but soon everything fell to ruin. Blights struck the crops, plagues hit his people, trade relations soured. As he grew into a young man his duchy crumbled around him. It wasn't until Kylorin came to review the duchy and explained his latent ability that Asmoday felt like anything other than a failure. As a member of the Imprimatur Council he learned control for his power and the ability to focus it to tear people, armies and empires apart.[PARAGRAPH]Asmoday battled the Empyrean, broke Dies Diei, blinded the captured priests and then offered them as a gift to Alexis.[PARAGRAPH]He had an irrational hatred for elves, capturing, torturing and killing any he found. Rumors of "elven blood" in Dust citizens was often enough to get them killed. He was a member of the Coven of the Black Candle with Faeryl, but never would have participated if he had known she was there (and vise-versa since the elves knew what happened to them in his duchy and hated him for it).[PARAGRAPH]During the second revolution, revolutionaries came to Dust in response to rumors that a tax had been imposed, that every village would supply a child for demonic sacrifice. These revolutionaries (thousands of farmers and workers from across Patria with crude weapons) were crushed by trained soldiers, black magic and demonic spirits. The bodies were then set on long pikes and marched back to their home cities where they were displayed impaled at the village center. The town was gathered to curse and spit on the corpses of the revolutionaries, and any that didn't were impaled and put up on a pike beside them. Then each home village was ordered to select a child for sacrifice, and they all did. This was the end of the second revolution.[PARAGRAPH]In the third revolution Asmoday caused the Sanctus Inquisition to turn against Basium by ringing summoning circles with the innocent, that Basium would tear through in battle and hiding mages in villages that Basium would destroy to uncover. Ultimately Basium became more feared than the Imprimatur Council and the Inquisition nearly lost support for the civil war. Rather than risk openly opposing Basium (which they feared would lead to him turning on them) the Inquisition abandoned Basium in battle, and without the protection of the golden fire Asmoday and his mages defeated Basium. They would have killed him if Basium's twin Gyra hadn't pulled him from the battlefield and into the Otherworld.[PARAGRAPH]Following the defeat of Basium, Kylorin went alone to face Asmoday. Within that battle Kylorin was faced with every evil action he had performed, every life he had carelessly ruined, a legacy of pain he had submitted the world to. By the end, Asmoday was dead. But Kylorin was also finished with war. The only battle he fought in the Patrian civil war after that was against Henri Ghouls, who Kylorin wouldn't kill.[PARAGRAPH]After Asmoday's death his followers entombed his corpse on the Isle of Scorpions. The isle was once green and full of life but after burying Asmoday there, all life died or fled and the isle itself started slipping into the sea. A few decades after his burial a shipwreck occurred nearby and the survivors swam to the island. It would have been better for them to die at sea. They quickly turned on each other and within a few days they were all dead. Sometimes their spirits can still be seen wandering the island, especially during storms.[PARAGRAPH]After his death the Daughters of Saleos summoned the soul of Asmoday and bound it to a skull carved from a Zabulus horn. It is known as the Skull of Asmoday and it is their most prized relic and a powerful source of entropy magic.[PARAGRAPH]Asmoday was buried with his Mask of the Coven of the Black Candle. But during the Age of Invention his grave was dug up, the mask was stolen and used to steal the Heart of Fire.</English>
+		<French>[TAB]Asmoday was the eldest of Sallos's 34 children. His soul was consecrated to Agares while his mother pregnant with him. When he was seven years old he inherited a wealthy Patrian duchy following his father's early death, but soon everything fell to ruin. Blights struck the crops, plagues hit his people, trade relations soured. As he grew into a young man his duchy crumbled around him. It wasn't until Kylorin came to review the duchy and explained his latent ability that Asmoday felt like anything other than a failure. As a member of the Imprimatur Council he learned control for his power and the ability to focus it to tear people, armies and empires apart.[PARAGRAPH]Asmoday battled the Empyrean, broke Dies Diei, blinded the captured priests and then offered them as a gift to Alexis.[PARAGRAPH]He had an irrational hatred for elves, capturing, torturing and killing any he found. Rumors of "elven blood" in Dust citizens was often enough to get them killed. He was a member of the Coven of the Black Candle with Faeryl, but never would have participated if he had known she was there (and vise-versa since the elves knew what happened to them in his duchy and hated him for it).[PARAGRAPH]During the second revolution, revolutionaries came to Dust in response to rumors that a tax had been imposed, that every village would supply a child for demonic sacrifice. These revolutionaries (thousands of farmers and workers from across Patria with crude weapons) were crushed by trained soldiers, black magic and demonic spirits. The bodies were then set on long pikes and marched back to their home cities where they were displayed impaled at the village center. The town was gathered to curse and spit on the corpses of the revolutionaries, and any that didn't were impaled and put up on a pike beside them. Then each home village was ordered to select a child for sacrifice, and they all did. This was the end of the second revolution.[PARAGRAPH]In the third revolution Asmoday caused the Sanctus Inquisition to turn against Basium by ringing summoning circles with the innocent, that Basium would tear through in battle and hiding mages in villages that Basium would destroy to uncover. Ultimately Basium became more feared than the Imprimatur Council and the Inquisition nearly lost support for the civil war. Rather than risk openly opposing Basium (which they feared would lead to him turning on them) the Inquisition abandoned Basium in battle, and without the protection of the golden fire Asmoday and his mages defeated Basium. They would have killed him if Basium's twin Gyra hadn't pulled him from the battlefield and into the Otherworld.[PARAGRAPH]Following the defeat of Basium, Kylorin went alone to face Asmoday. Within that battle Kylorin was faced with every evil action he had performed, every life he had carelessly ruined, a legacy of pain he had submitted the world to. By the end, Asmoday was dead. But Kylorin was also finished with war. The only battle he fought in the Patrian civil war after that was against Henri Ghouls, who Kylorin wouldn't kill.[PARAGRAPH]After Asmoday's death his followers entombed his corpse on the Isle of Scorpions. The isle was once green and full of life but after burying Asmoday there, all life died or fled and the isle itself started slipping into the sea. A few decades after his burial a shipwreck occurred nearby and the survivors swam to the island. It would have been better for them to die at sea. They quickly turned on each other and within a few days they were all dead. Sometimes their spirits can still be seen wandering the island, especially during storms.[PARAGRAPH]After his death the Daughters of Saleos summoned the soul of Asmoday and bound it to a skull carved from a Zabulus horn. It is known as the Skull of Asmoday and it is their most prized relic and a powerful source of entropy magic.[PARAGRAPH]Asmoday was buried with his Mask of the Coven of the Black Candle. But during the Age of Invention his grave was dug up, the mask was stolen and used to steal the Heart of Fire.</French>
+		<German>[TAB]Asmoday was the eldest of Sallos's 34 children. His soul was consecrated to Agares while his mother pregnant with him. When he was seven years old he inherited a wealthy Patrian duchy following his father's early death, but soon everything fell to ruin. Blights struck the crops, plagues hit his people, trade relations soured. As he grew into a young man his duchy crumbled around him. It wasn't until Kylorin came to review the duchy and explained his latent ability that Asmoday felt like anything other than a failure. As a member of the Imprimatur Council he learned control for his power and the ability to focus it to tear people, armies and empires apart.[PARAGRAPH]Asmoday battled the Empyrean, broke Dies Diei, blinded the captured priests and then offered them as a gift to Alexis.[PARAGRAPH]He had an irrational hatred for elves, capturing, torturing and killing any he found. Rumors of "elven blood" in Dust citizens was often enough to get them killed. He was a member of the Coven of the Black Candle with Faeryl, but never would have participated if he had known she was there (and vise-versa since the elves knew what happened to them in his duchy and hated him for it).[PARAGRAPH]During the second revolution, revolutionaries came to Dust in response to rumors that a tax had been imposed, that every village would supply a child for demonic sacrifice. These revolutionaries (thousands of farmers and workers from across Patria with crude weapons) were crushed by trained soldiers, black magic and demonic spirits. The bodies were then set on long pikes and marched back to their home cities where they were displayed impaled at the village center. The town was gathered to curse and spit on the corpses of the revolutionaries, and any that didn't were impaled and put up on a pike beside them. Then each home village was ordered to select a child for sacrifice, and they all did. This was the end of the second revolution.[PARAGRAPH]In the third revolution Asmoday caused the Sanctus Inquisition to turn against Basium by ringing summoning circles with the innocent, that Basium would tear through in battle and hiding mages in villages that Basium would destroy to uncover. Ultimately Basium became more feared than the Imprimatur Council and the Inquisition nearly lost support for the civil war. Rather than risk openly opposing Basium (which they feared would lead to him turning on them) the Inquisition abandoned Basium in battle, and without the protection of the golden fire Asmoday and his mages defeated Basium. They would have killed him if Basium's twin Gyra hadn't pulled him from the battlefield and into the Otherworld.[PARAGRAPH]Following the defeat of Basium, Kylorin went alone to face Asmoday. Within that battle Kylorin was faced with every evil action he had performed, every life he had carelessly ruined, a legacy of pain he had submitted the world to. By the end, Asmoday was dead. But Kylorin was also finished with war. The only battle he fought in the Patrian civil war after that was against Henri Ghouls, who Kylorin wouldn't kill.[PARAGRAPH]After Asmoday's death his followers entombed his corpse on the Isle of Scorpions. The isle was once green and full of life but after burying Asmoday there, all life died or fled and the isle itself started slipping into the sea. A few decades after his burial a shipwreck occurred nearby and the survivors swam to the island. It would have been better for them to die at sea. They quickly turned on each other and within a few days they were all dead. Sometimes their spirits can still be seen wandering the island, especially during storms.[PARAGRAPH]After his death the Daughters of Saleos summoned the soul of Asmoday and bound it to a skull carved from a Zabulus horn. It is known as the Skull of Asmoday and it is their most prized relic and a powerful source of entropy magic.[PARAGRAPH]Asmoday was buried with his Mask of the Coven of the Black Candle. But during the Age of Invention his grave was dug up, the mask was stolen and used to steal the Heart of Fire.</German>
+		<Italian>[TAB]Asmoday was the eldest of Sallos's 34 children. His soul was consecrated to Agares while his mother pregnant with him. When he was seven years old he inherited a wealthy Patrian duchy following his father's early death, but soon everything fell to ruin. Blights struck the crops, plagues hit his people, trade relations soured. As he grew into a young man his duchy crumbled around him. It wasn't until Kylorin came to review the duchy and explained his latent ability that Asmoday felt like anything other than a failure. As a member of the Imprimatur Council he learned control for his power and the ability to focus it to tear people, armies and empires apart.[PARAGRAPH]Asmoday battled the Empyrean, broke Dies Diei, blinded the captured priests and then offered them as a gift to Alexis.[PARAGRAPH]He had an irrational hatred for elves, capturing, torturing and killing any he found. Rumors of "elven blood" in Dust citizens was often enough to get them killed. He was a member of the Coven of the Black Candle with Faeryl, but never would have participated if he had known she was there (and vise-versa since the elves knew what happened to them in his duchy and hated him for it).[PARAGRAPH]During the second revolution, revolutionaries came to Dust in response to rumors that a tax had been imposed, that every village would supply a child for demonic sacrifice. These revolutionaries (thousands of farmers and workers from across Patria with crude weapons) were crushed by trained soldiers, black magic and demonic spirits. The bodies were then set on long pikes and marched back to their home cities where they were displayed impaled at the village center. The town was gathered to curse and spit on the corpses of the revolutionaries, and any that didn't were impaled and put up on a pike beside them. Then each home village was ordered to select a child for sacrifice, and they all did. This was the end of the second revolution.[PARAGRAPH]In the third revolution Asmoday caused the Sanctus Inquisition to turn against Basium by ringing summoning circles with the innocent, that Basium would tear through in battle and hiding mages in villages that Basium would destroy to uncover. Ultimately Basium became more feared than the Imprimatur Council and the Inquisition nearly lost support for the civil war. Rather than risk openly opposing Basium (which they feared would lead to him turning on them) the Inquisition abandoned Basium in battle, and without the protection of the golden fire Asmoday and his mages defeated Basium. They would have killed him if Basium's twin Gyra hadn't pulled him from the battlefield and into the Otherworld.[PARAGRAPH]Following the defeat of Basium, Kylorin went alone to face Asmoday. Within that battle Kylorin was faced with every evil action he had performed, every life he had carelessly ruined, a legacy of pain he had submitted the world to. By the end, Asmoday was dead. But Kylorin was also finished with war. The only battle he fought in the Patrian civil war after that was against Henri Ghouls, who Kylorin wouldn't kill.[PARAGRAPH]After Asmoday's death his followers entombed his corpse on the Isle of Scorpions. The isle was once green and full of life but after burying Asmoday there, all life died or fled and the isle itself started slipping into the sea. A few decades after his burial a shipwreck occurred nearby and the survivors swam to the island. It would have been better for them to die at sea. They quickly turned on each other and within a few days they were all dead. Sometimes their spirits can still be seen wandering the island, especially during storms.[PARAGRAPH]After his death the Daughters of Saleos summoned the soul of Asmoday and bound it to a skull carved from a Zabulus horn. It is known as the Skull of Asmoday and it is their most prized relic and a powerful source of entropy magic.[PARAGRAPH]Asmoday was buried with his Mask of the Coven of the Black Candle. But during the Age of Invention his grave was dug up, the mask was stolen and used to steal the Heart of Fire.</Italian>
+		<Spanish>[TAB]Asmoday was the eldest of Sallos's 34 children. His soul was consecrated to Agares while his mother pregnant with him. When he was seven years old he inherited a wealthy Patrian duchy following his father's early death, but soon everything fell to ruin. Blights struck the crops, plagues hit his people, trade relations soured. As he grew into a young man his duchy crumbled around him. It wasn't until Kylorin came to review the duchy and explained his latent ability that Asmoday felt like anything other than a failure. As a member of the Imprimatur Council he learned control for his power and the ability to focus it to tear people, armies and empires apart.[PARAGRAPH]Asmoday battled the Empyrean, broke Dies Diei, blinded the captured priests and then offered them as a gift to Alexis.[PARAGRAPH]He had an irrational hatred for elves, capturing, torturing and killing any he found. Rumors of "elven blood" in Dust citizens was often enough to get them killed. He was a member of the Coven of the Black Candle with Faeryl, but never would have participated if he had known she was there (and vise-versa since the elves knew what happened to them in his duchy and hated him for it).[PARAGRAPH]During the second revolution, revolutionaries came to Dust in response to rumors that a tax had been imposed, that every village would supply a child for demonic sacrifice. These revolutionaries (thousands of farmers and workers from across Patria with crude weapons) were crushed by trained soldiers, black magic and demonic spirits. The bodies were then set on long pikes and marched back to their home cities where they were displayed impaled at the village center. The town was gathered to curse and spit on the corpses of the revolutionaries, and any that didn't were impaled and put up on a pike beside them. Then each home village was ordered to select a child for sacrifice, and they all did. This was the end of the second revolution.[PARAGRAPH]In the third revolution Asmoday caused the Sanctus Inquisition to turn against Basium by ringing summoning circles with the innocent, that Basium would tear through in battle and hiding mages in villages that Basium would destroy to uncover. Ultimately Basium became more feared than the Imprimatur Council and the Inquisition nearly lost support for the civil war. Rather than risk openly opposing Basium (which they feared would lead to him turning on them) the Inquisition abandoned Basium in battle, and without the protection of the golden fire Asmoday and his mages defeated Basium. They would have killed him if Basium's twin Gyra hadn't pulled him from the battlefield and into the Otherworld.[PARAGRAPH]Following the defeat of Basium, Kylorin went alone to face Asmoday. Within that battle Kylorin was faced with every evil action he had performed, every life he had carelessly ruined, a legacy of pain he had submitted the world to. By the end, Asmoday was dead. But Kylorin was also finished with war. The only battle he fought in the Patrian civil war after that was against Henri Ghouls, who Kylorin wouldn't kill.[PARAGRAPH]After Asmoday's death his followers entombed his corpse on the Isle of Scorpions. The isle was once green and full of life but after burying Asmoday there, all life died or fled and the isle itself started slipping into the sea. A few decades after his burial a shipwreck occurred nearby and the survivors swam to the island. It would have been better for them to die at sea. They quickly turned on each other and within a few days they were all dead. Sometimes their spirits can still be seen wandering the island, especially during storms.[PARAGRAPH]After his death the Daughters of Saleos summoned the soul of Asmoday and bound it to a skull carved from a Zabulus horn. It is known as the Skull of Asmoday and it is their most prized relic and a powerful source of entropy magic.[PARAGRAPH]Asmoday was buried with his Mask of the Coven of the Black Candle. But during the Age of Invention his grave was dug up, the mask was stolen and used to steal the Heart of Fire.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KEEPERS_ABADDON</Tag>
+		<English>Keepers of the Locusts' Jail</English>
+		<French>Keepers of the Locusts' Jail</French>
+		<German>Keepers of the Locusts' Jail</German>
+		<Italian>Keepers of the Locusts' Jail</Italian>
+		<Spanish>Keepers of the Locusts' Jail</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KEEPERS_ASMODAY</Tag>
+		<English>Keepers of the Lord of Dust's Tomb</English>
+		<French>Keepers of the Lord of Dust's Tomb</French>
+		<German>Keepers of the Lord of Dust's Tomb</German>
+		<Italian>Keepers of the Lord of Dust's Tomb</Italian>
+		<Spanish>Keepers of the Lord of Dust's Tomb</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KEEPERS_BADB</Tag>
+		<English>Keepers of the Eternal Blizzard</English>
+		<French>Keepers of the Eternal Blizzard</French>
+		<German>Keepers of the Eternal Blizzard</German>
+		<Italian>Keepers of the Eternal Blizzard</Italian>
+		<Spanish>Keepers of the Eternal Blizzard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_UMBERGUARD_HOSTILE</Tag>
+		<English>Two heavily-armed dwarves stop your troops on the way to the pit. They're from the Umberguard and have to stop everyone from getting closer. That includes you.</English>
+		<French>Two heavily-armed dwarves stop your troops on the way to the pit. They're from the Umberguard and have to stop everyone from getting closer. That includes you.</French>
+		<German>Two heavily-armed dwarves stop your troops on the way to the pit. They're from the Umberguard and have to stop everyone from getting closer. That includes you.</German>
+		<Italian>Two heavily-armed dwarves stop your troops on the way to the pit. They're from the Umberguard and have to stop everyone from getting closer. That includes you.</Italian>
+		<Spanish>Two heavily-armed dwarves stop your troops on the way to the pit. They're from the Umberguard and have to stop everyone from getting closer. That includes you.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_UMBERGUARD_FRIEND</Tag>
+		<English>A lone member of the Umberguard is defending this path to the pit. After some talk, he realizes joining your troops will be a better use of his time.</English>
+		<French>A lone member of the Umberguard is defending this path to the pit. After some talk, he realizes joining your troops will be a better use of his time.</French>
+		<German>A lone member of the Umberguard is defending this path to the pit. After some talk, he realizes joining your troops will be a better use of his time.</German>
+		<Italian>A lone member of the Umberguard is defending this path to the pit. After some talk, he realizes joining your troops will be a better use of his time.</Italian>
+		<Spanish>A lone member of the Umberguard is defending this path to the pit. After some talk, he realizes joining your troops will be a better use of his time.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FREE_ODIO</Tag>
+		<English>Free Odio</English>
+		<French>Libérer Odio</French>
+		<German>Free Odio</German>
+		<Italian>Free Odio</Italian>
+		<Spanish>Free Odio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ODIO</Tag>
+		<English>Odio</English>
+		<French>Odio</French>
+		<German>Odio</German>
+		<Italian>Odio</Italian>
+		<Spanish>Odio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ODIO_STRATEGY</Tag>
+		<English>Aeron's Archangel Odio can never be built, only [LINK=SPELL_FREE_ODIO]freed[\LINK] from [LINK=literal]Odio's Prison[\LINK] by a level 6+ unit once [LINK=literal]Rage[\LINK] is known.</English>
+		<French>Aeron's Archangel Odio can never be built, only [LINK=SPELL_FREE_ODIO]freed[\LINK] from [LINK=literal]Odio's Prison[\LINK] by a level 6+ unit once [LINK=literal]Rage[\LINK] is known.</French>
+		<German>Aeron's Archangel Odio can never be built, only [LINK=SPELL_FREE_ODIO]freed[\LINK] from [LINK=literal]Odio's Prison[\LINK] by a level 6+ unit once [LINK=literal]Rage[\LINK] is known. </German>
+		<Italian>Aeron's Archangel Odio can never be built, only [LINK=SPELL_FREE_ODIO]freed[\LINK] from [LINK=literal]Odio's Prison[\LINK] by a level 6+ unit once [LINK=literal]Rage[\LINK] is known. </Italian>
+		<Spanish>Aeron's Archangel Odio can never be built, only [LINK=SPELL_FREE_ODIO]freed[\LINK] from [LINK=literal]Odio's Prison[\LINK] by a level 6+ unit once [LINK=literal]Rage[\LINK] is known. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FREE_ODIO_HELP</Tag>
+		<English>[ICON_BULLET]Requires non-Good Alignment[NEWLINE][ICON_BULLET]Grants control of the [LINK=literal]Crazed[\LINK] Archangel [LINK=literal]Odio[\LINK] [NEWLINE][ICON_BULLET]Destroys [LINK=literal]Odio's Prison[\LINK]</English>
+		<French>[ICON_BULLET]Nécessite un Alignment Neutre ou Mauvais[NEWLINE][ICON_BULLET]Donne le contrôle de l'Archange [LINK=PROMOTION_CRAZED]fou[\LINK] [LINK=UNIT_ODIO]Odio[\LINK] [NEWLINE][ICON_BULLET]Détruit la [LINK=IMPROVEMENT_ODIOS_PRISON]Prison d'Odio[\LINK]</French>
+		<German>[ICON_BULLET]Requires non-Good Alignment[NEWLINE][ICON_BULLET]Grants control of the [LINK=literal]Crazed[\LINK] Archangel [LINK=literal]Odio[\LINK] [NEWLINE][ICON_BULLET]Destroys [LINK=literal]Odio's Prison[\LINK]</German>
+		<Italian>[ICON_BULLET]Requires non-Good Alignment[NEWLINE][ICON_BULLET]Grants control of the [LINK=literal]Crazed[\LINK] Archangel [LINK=literal]Odio[\LINK] [NEWLINE][ICON_BULLET]Destroys [LINK=literal]Odio's Prison[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Requires non-Good Alignment[NEWLINE][ICON_BULLET]Grants control of the [LINK=literal]Crazed[\LINK] Archangel [LINK=literal]Odio[\LINK] [NEWLINE][ICON_BULLET]Destroys [LINK=literal]Odio's Prison[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_BADB</Tag>
+		<English>As your unit explores the castle, they find a large room with a snow storm raging. As far as your unit can see, there are no windows in the room. At the end of it, a throne with a figure sitting on it. Suddenly, the storms intensifies as the figure rises. </English>
+		<French>As your unit explores the castle, they find a large room with a snow storm raging. As far as your unit can see, there are no windows in the room. At the end of it, a throne with a figure sitting on it. Suddenly, the storms intensifies as the figure rises.</French>
+		<German>As your unit explores the castle, they find a large room with a snow storm raging. As far as your unit can see, there are no windows in the room. At the end of it, a throne with a figure sitting on it. Suddenly, the storms intensifies as the figure rises.</German>
+		<Italian>As your unit explores the castle, they find a large room with a snow storm raging. As far as your unit can see, there are no windows in the room. At the end of it, a throne with a figure sitting on it. Suddenly, the storms intensifies as the figure rises.</Italian>
+		<Spanish>As your unit explores the castle, they find a large room with a snow storm raging. As far as your unit can see, there are no windows in the room. At the end of it, a throne with a figure sitting on it. Suddenly, the storms intensifies as the figure rises.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WHISPERING_WOOD</Tag>
+		<English>Whispering Woods</English>
+		<French>Bois chuchotants</French>
+		<German>Whispering Woods</German>
+		<Italian>Whispering Woods</Italian>
+		<Spanish>Whispering Woods</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WHISPERING_WOOD_PEDIA</Tag>
+		<English>The woods around the Well of Shadows is protected by the Widdershins Curse, confounding the sense of direction of all who wander near.</English>
+		<French>The woods around the Well of Shadows is protected by the Widdershins Curse, confounding the sense of direction of all who wander near.</French>
+		<German>The woods around the Well of Shadows is protected by the Widdershins Curse, confounding the sense of direction of all who wander near.</German>
+		<Italian>The woods around the Well of Shadows is protected by the Widdershins Curse, confounding the sense of direction of all who wander near.</Italian>
+		<Spanish>The woods around the Well of Shadows is protected by the Widdershins Curse, confounding the sense of direction of all who wander near.</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_DISCOVER_ONCE_ELVES</Tag>
+		<English>While exploring the woods, your unit finds some sort of shadowy veil  blocking part of the forest. There seems to be some sort of city behind it. Maybe with some powerful magic to counteract the shadows, you could find a way into the city. In the meantime, your unit returns with some rare plants that will net some gold.</English>
+		<French>While exploring the woods, your unit finds some sort of shadowy veil  blocking part of the forest. There seems to be some sort of city behind it. Maybe with some powerful magic to counteract the shadows, you could find a way into the city. In the meantime, your unit returns with some rare plants that will net some gold.</French>
+		<German>While exploring the woods, your unit finds some sort of shadowy veil  blocking part of the forest. There seems to be some sort of city behind it. Maybe with some powerful magic to counteract the shadows, you could find a way into the city. In the meantime, your unit returns with some rare plants that will net some gold.</German>
+		<Italian>While exploring the woods, your unit finds some sort of shadowy veil  blocking part of the forest. There seems to be some sort of city behind it. Maybe with some powerful magic to counteract the shadows, you could find a way into the city. In the meantime, your unit returns with some rare plants that will net some gold.</Italian>
+		<Spanish>While exploring the woods, your unit finds some sort of shadowy veil  blocking part of the forest. There seems to be some sort of city behind it. Maybe with some powerful magic to counteract the shadows, you could find a way into the city. In the meantime, your unit returns with some rare plants that will net some gold.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_BREAK_WIDDERSHINS_CURSE</Tag>
+		<English>Your unit's magic seems to work in opening a way through the veil. However, something goes wrong and the whole barrier starts to desintegrate. The mist evaporates as the sun shines once more on the whispering woods. Your troops hear horrible screams coming from what was once beyond the veil. Some time later, they hear the sounds of an army.</English>
+		<French>Your unit's magic seems to work in opening a way through the veil. However, something goes wrong and the whole barrier starts to desintegrate. The mist evaporates as the sun shines once more on the whispering woods. Your troops hear horrible screams coming from what was once beyond the veil. Some time later, they hear the sounds of an army.</French>
+		<German>Your unit's magic seems to work in opening a way through the veil. However, something goes wrong and the whole barrier starts to desintegrate. The mist evaporates as the sun shines once more on the whispering woods. Your troops hear horrible screams coming from what was once beyond the veil. Some time later, they hear the sounds of an army.</German>
+		<Italian>Your unit's magic seems to work in opening a way through the veil. However, something goes wrong and the whole barrier starts to desintegrate. The mist evaporates as the sun shines once more on the whispering woods. Your troops hear horrible screams coming from what was once beyond the veil. Some time later, they hear the sounds of an army.</Italian>
+		<Spanish>Your unit's magic seems to work in opening a way through the veil. However, something goes wrong and the whole barrier starts to desintegrate. The mist evaporates as the sun shines once more on the whispering woods. Your troops hear horrible screams coming from what was once beyond the veil. Some time later, they hear the sounds of an army.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_NETHER_BLADE</Tag>
+		<English>As your unit gets lost within the mist, it goes through some sort of archway. Everything seems greyer beyond it. Suddenly, A blue skinned angel stands before your unit. It appears to be both young and old at once, and carries chains and a key. There is a sword lying at his feet. It smiles " If you seek retribution, to thin humanity of those that monopolize it, my lord will not end, but i will." It motions to the sword and your unit picks it up. "This is the Nether Blade, it will strike strongest against those whom the angels have favored most. Those who no longer fear death will fear you." With that, your unit turns and leaves through the portal.</English>
+		<French>As your unit gets lost within the mist, it goes through some sort of archway. Everything seems greyer beyond it. Suddenly, A blue skinned angel stands before your unit. It appears to be both young and old at once, and carries chains and a key. There is a sword lying at his feet. It smiles " If you seek retribution, to thin humanity of those that monopolize it, my lord will not end, but i will." It motions to the sword and your unit picks it up. "This is the Nether Blade, it will strike strongest against those whom the angels have favored most. Those who no longer fear death will fear you." With that, your unit turns and leaves through the portal.</French>
+		<German>As your unit gets lost within the mist, it goes through some sort of archway. Everything seems greyer beyond it. Suddenly, A blue skinned angel stands before your unit. It appears to be both young and old at once, and carries chains and a key. There is a sword lying at his feet. It smiles " If you seek retribution, to thin humanity of those that monopolize it, my lord will not end, but i will." It motions to the sword and your unit picks it up. "This is the Nether Blade, it will strike strongest against those whom the angels have favored most. Those who no longer fear death will fear you." With that, your unit turns and leaves through the portal.</German>
+		<Italian>As your unit gets lost within the mist, it goes through some sort of archway. Everything seems greyer beyond it. Suddenly, A blue skinned angel stands before your unit. It appears to be both young and old at once, and carries chains and a key. There is a sword lying at his feet. It smiles " If you seek retribution, to thin humanity of those that monopolize it, my lord will not end, but i will." It motions to the sword and your unit picks it up. "This is the Nether Blade, it will strike strongest against those whom the angels have favored most. Those who no longer fear death will fear you." With that, your unit turns and leaves through the portal.</Italian>
+		<Spanish>As your unit gets lost within the mist, it goes through some sort of archway. Everything seems greyer beyond it. Suddenly, A blue skinned angel stands before your unit. It appears to be both young and old at once, and carries chains and a key. There is a sword lying at his feet. It smiles " If you seek retribution, to thin humanity of those that monopolize it, my lord will not end, but i will." It motions to the sword and your unit picks it up. "This is the Nether Blade, it will strike strongest against those whom the angels have favored most. Those who no longer fear death will fear you." With that, your unit turns and leaves through the portal.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_OSTAURII_PATROL</Tag>
+		<English>While lost in the mist, your unit encounters troops from an unknown force. They give chase.</English>
+		<French>While lost in the mist, your unit encounters troops from an unknown force. They give chase.</French>
+		<German>While lost in the mist, your unit encounters troops from an unknown force. They give chase.</German>
+		<Italian>While lost in the mist, your unit encounters troops from an unknown force. They give chase.</Italian>
+		<Spanish>While lost in the mist, your unit encounters troops from an unknown force. They give chase.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_ROGUE_NECROMANCER_GOOD</Tag>
+		<English>An elf emerges from the mist, seemingly blind. He offers his services as a mage.</English>
+		<French>An elf emerges from the mist, seemingly blind. He offers his services as a mage.</French>
+		<German>An elf emerges from the mist, seemingly blind. He offers his services as a mage.</German>
+		<Italian>An elf emerges from the mist, seemingly blind. He offers his services as a mage.</Italian>
+		<Spanish>An elf emerges from the mist, seemingly blind. He offers his services as a mage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_ROGUE_NECROMANCER_BAD</Tag>
+		<English>An elf emerges from the mist, seemingly blind. When your unit gets close, he starts summoning spirits who attack.</English>
+		<French>An elf emerges from the mist, seemingly blind. When your unit gets close, he starts summoning spirits who attack.</French>
+		<German>An elf emerges from the mist, seemingly blind. When your unit gets close, he starts summoning spirits who attack.</German>
+		<Italian>An elf emerges from the mist, seemingly blind. When your unit gets close, he starts summoning spirits who attack.</Italian>
+		<Spanish>An elf emerges from the mist, seemingly blind. When your unit gets close, he starts summoning spirits who attack.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KEEPERS_WHISPERING</Tag>
+		<English>Keepers of the Veil of Shadows</English>
+		<French>Keepers of the Veil of Shadows</French>
+		<German>Keepers of the Veil of Shadows</German>
+		<Italian>Keepers of the Veil of Shadows</Italian>
+		<Spanish>Keepers of the Veil of Shadows</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNLEASH_STEPHANOS</Tag>
+		<English>Unleash Stephanos</English>
+		<French>Unleash Stephanos</French>
+		<German>Unleash Stephanos</German>
+		<Italian>Unleash Stephanos</Italian>
+		<Spanish>Unleash Stephanos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNLEASH_ARS</Tag>
+		<English>Unleash Ars Moriendi</English>
+		<French>Unleash Ars Moriendi</French>
+		<German>Unleash Ars Moriendi</German>
+		<Italian>Unleash Ars Moriendi</Italian>
+		<Spanish>Unleash Ars Moriendi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNLEASH_APOPHIS</Tag>
+		<English>Unleash Apophis the Endless Hunger</English>
+		<French>Unleash Apophis the Endless Hunger</French>
+		<German>Unleash Apophis the Endless Hunger</German>
+		<Italian>Unleash Apophis the Endless Hunger</Italian>
+		<Spanish>Unleash Apophis the Endless Hunger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_BONE_CIRCLET_HELP</Tag>
+		<English>[ICON_BULLET]Has a chance to spawn a Demonic Wraith nearby.</English>
+		<French>[ICON_BULLET]Has a chance to spawn a Demonic Wraith nearby.</French>
+		<German>[ICON_BULLET]Has a chance to spawn a Demonic Wraith nearby.</German>
+		<Italian>[ICON_BULLET]Has a chance to spawn a Demonic Wraith nearby.</Italian>
+		<Spanish>[ICON_BULLET]Has a chance to spawn a Demonic Wraith nearby.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_BONE_CIRCLET_PEDIA</Tag>
+		<English>As a consequence of the Compact, Agares bound the Unraveling in different ways. Apophis was turned into an ordinary goat. Agares bound this transformation through a bone circlet , which he threw into the Black Sea in the razor-glass plains of Naraka ( in the lowers level of Hell), protected by Wraiths.[NEWLINE][NEWLINE] Should this Bone Circlet find itself in the presence of the Goat Apophis, The Endless Hunger would be unleashed.</English>
+		<French>As a consequence of the Compact, Agares bound the Unraveling in different ways. Apophis was turned into an ordinary goat. Agares bound this transformation through a bone circlet , which he threw into the Black Sea in the razor-glass plains of Naraka ( in the lowers level of Hell), protected by Wraiths.[NEWLINE][NEWLINE] Should this Bone Circlet find itself in the presence of the Goat Apophis, The Endless Hunger would be unleashed.</French>
+		<German>As a consequence of the Compact, Agares bound the Unraveling in different ways. Apophis was turned into an ordinary goat. Agares bound this transformation through a bone circlet , which he threw into the Black Sea in the razor-glass plains of Naraka ( in the lowers level of Hell), protected by Wraiths.[NEWLINE][NEWLINE] Should this Bone Circlet find itself in the presence of the Goat Apophis, The Endless Hunger would be unleashed.</German>
+		<Italian>As a consequence of the Compact, Agares bound the Unraveling in different ways. Apophis was turned into an ordinary goat. Agares bound this transformation through a bone circlet , which he threw into the Black Sea in the razor-glass plains of Naraka ( in the lowers level of Hell), protected by Wraiths.[NEWLINE][NEWLINE] Should this Bone Circlet find itself in the presence of the Goat Apophis, The Endless Hunger would be unleashed.</Italian>
+		<Spanish>As a consequence of the Compact, Agares bound the Unraveling in different ways. Apophis was turned into an ordinary goat. Agares bound this transformation through a bone circlet , which he threw into the Black Sea in the razor-glass plains of Naraka ( in the lowers level of Hell), protected by Wraiths.[NEWLINE][NEWLINE] Should this Bone Circlet find itself in the presence of the Goat Apophis, The Endless Hunger would be unleashed.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RESTORE_MATRON_ESSENDI</Tag>
+		<English>Restore the Matron Essendi</English>
+		<French>Restore the Matron Essendi</French>
+		<German>Restore the Matron Essendi</German>
+		<Italian>Restore the Matron Essendi</Italian>
+		<Spanish>Restore the Matron Essendi</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_MATRON_ESSENDI</Tag>
+		<English>Matron Essendi</English>
+		<French>Matron Essendi</French>
+		<German>Matron Essendi</German>
+		<Italian>Matron Essendi</Italian>
+		<Spanish>Matron Essendi</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_MATRON_ESSENDI_PEDIA</Tag>
+		<English>The Matron Essendi was the sacred staff of the high priestess of Bhall. It was stolen and desacrated by Orthus to make his Axe. A pious Bhall worshipper could restore it.</English>
+		<French>The Matron Essendi was the sacred staff of the high priestess of Bhall. It was stolen and desacrated by Orthus to make his Axe. A pious Bhall worshipper could restore it.</French>
+		<German>The Matron Essendi was the sacred staff of the high priestess of Bhall. It was stolen and desacrated by Orthus to make his Axe. A pious Bhall worshipper could restore it.</German>
+		<Italian>The Matron Essendi was the sacred staff of the high priestess of Bhall. It was stolen and desacrated by Orthus to make his Axe. A pious Bhall worshipper could restore it.</Italian>
+		<Spanish>The Matron Essendi was the sacred staff of the high priestess of Bhall. It was stolen and desacrated by Orthus to make his Axe. A pious Bhall worshipper could restore it.</Spanish>
+	</TEXT>
+</Civ4GameText>

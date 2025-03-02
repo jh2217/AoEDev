@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<Civ4ClimateZoneInfos xmlns="x-schema:CIV4TerrainSchema.xml">
+	<ClimateZoneInfos>
+		<ClimateZoneInfo>	<!-- Arid -->
+			<Type>CLIMATEZONE_ARID</Type>
+			<Description>TXT_KEY_CLIMATEZONE_ARID</Description>
+			<iMinTemperature>5</iMinTemperature>
+			<iMinHumidity>5</iMinHumidity>
+			<iMaxHumidity>9</iMaxHumidity>
+			<TerrainClass>TERRAINCLASS_DESERT</TerrainClass>
+		</ClimateZoneInfo>
+		<ClimateZoneInfo>	<!-- Boreal -->
+			<Type>CLIMATEZONE_BOREAL</Type>
+			<Description>TXT_KEY_CLIMATEZONE_BOREAL</Description>
+			<iMinTemperature>10</iMinTemperature>
+			<iMaxTemperature>14</iMaxTemperature>
+			<iMinHumidity>10</iMinHumidity>
+			<TerrainClass>TERRAINCLASS_TAIGA</TerrainClass>
+		</ClimateZoneInfo>
+		<ClimateZoneInfo>	<!-- Frost -->
+			<Type>CLIMATEZONE_FROST</Type>
+			<Description>TXT_KEY_CLIMATEZONE_FROST</Description>
+			<iMinTemperature>5</iMinTemperature>
+			<iMaxTemperature>9</iMaxTemperature>
+			<iMinHumidity>10</iMinHumidity>
+			<TerrainClass>TERRAINCLASS_TUNDRA</TerrainClass>
+		</ClimateZoneInfo>
+		<ClimateZoneInfo>	<!-- Glacial -->
+			<Type>CLIMATEZONE_GLACIAL</Type>
+			<Description>TXT_KEY_CLIMATEZONE_GLACIAL</Description>
+			<iMaxTemperature>4</iMaxTemperature>
+			<iMinHumidity>5</iMinHumidity>
+			<TerrainClass>TERRAINCLASS_GLACIER</TerrainClass>
+		</ClimateZoneInfo>
+		<ClimateZoneInfo>	<!-- Oceanic -->
+			<Type>CLIMATEZONE_OCEANIC</Type>
+			<Description>TXT_KEY_CLIMATEZONE_OCEANIC</Description>
+			<bOceanicClimate>1</bOceanicClimate>
+			<TerrainClass>TERRAINCLASS_OCEAN</TerrainClass>
+		</ClimateZoneInfo>
+		<ClimateZoneInfo>	<!-- Semiarid -->
+			<Type>CLIMATEZONE_SEMIARID</Type>
+			<Description>TXT_KEY_CLIMATEZONE_SEMIARID</Description>
+			<iMinTemperature>15</iMinTemperature>
+			<iMinHumidity>10</iMinHumidity>
+			<iMaxHumidity>14</iMaxHumidity>
+			<TerrainClass>TERRAINCLASS_PLAINS</TerrainClass>
+		</ClimateZoneInfo>
+		<ClimateZoneInfo>	<!-- Temperate -->
+			<Type>CLIMATEZONE_TEMPERATE</Type>
+			<Description>TXT_KEY_CLIMATEZONE_TEMPERATE</Description>
+			<iMinTemperature>15</iMinTemperature>
+			<iMinHumidity>15</iMinHumidity>
+			<iMaxHumidity>19</iMaxHumidity>
+			<TerrainClass>TERRAINCLASS_GRASS</TerrainClass>
+		</ClimateZoneInfo>
+		<ClimateZoneInfo>	<!-- Wasteland -->
+			<Type>CLIMATEZONE_WASTELAND</Type>
+			<Description>TXT_KEY_CLIMATEZONE_WASTELAND</Description>
+			<iMaxHumidity>4</iMaxHumidity>
+			<TerrainClass>TERRAINCLASS_WASTELAND</TerrainClass>
+		</ClimateZoneInfo>
+		<ClimateZoneInfo>	<!-- Wetland -->
+			<Type>CLIMATEZONE_WETLAND</Type>
+			<Description>TXT_KEY_CLIMATEZONE_WETLAND</Description>
+			<iMinTemperature>15</iMinTemperature>
+			<iMinHumidity>20</iMinHumidity>
+			<TerrainClass>TERRAINCLASS_MARSH</TerrainClass>
+		</ClimateZoneInfo>
+	</ClimateZoneInfos>
+</Civ4ClimateZoneInfos>

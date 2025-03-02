@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_MERCENARIES_SCREEN_TITLE</Tag>
+		<English>Mercenary Manager</English>
+		<French>Mercenary Manager</French>
+		<German>Mercenary Manager</German>
+		<Italian>Mercenary Manager</Italian>
+		<Spanish>Mercenary Manager</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MERCENARY_SCREEN_TITLE</Tag>
+		<English>Mercenaries</English>
+		<French>Mercenaries</French>
+		<German>Mercenaries</German>
+		<Italian>Mercenaries</Italian>
+		<Spanish>Mercenaries</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MERCENARY_GROUPS_SCREEN_TITLE</Tag>
+		<English>Mercenary Groups</English>
+		<French>Mercenary Groups</French>
+		<German>Mercenary Groups</German>
+		<Italian>Mercenary Groups</Italian>
+		<Spanish>Mercenary Groups</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MERCENARY_CONTRACTS_SCREEN_TITLE</Tag>
+		<English>Mercenary Contracts</English>
+		<French>Mercenary Contracts</French>
+		<German>Mercenary Contracts</German>
+		<Italian>Mercenary Contracts</Italian>
+		<Spanish>Mercenary Contracts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AVAILABLE_MERCENARIES</Tag>
+		<English>Available Mercenaries</English>
+		<French>Available Mercenaries</French>
+		<German>Available Mercenaries</German>
+		<Italian>Available Mercenaries</Italian>
+		<Spanish>Available Mercenaries</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AVAILABLE_MERCENARY_GROUPS</Tag>
+		<English>Available Mercenary Groups</English>
+		<French>Available Mercenary Groups</French>
+		<German>Available Mercenary Groups</German>
+		<Italian>Available Mercenary Groups</Italian>
+		<Spanish>Available Mercenary Groups</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITS_CONTRACTED_OUT</Tag>
+		<English>Units Contracted Out</English>
+		<French>Units Contracted Out</French>
+		<German>Units Contracted Out</German>
+		<Italian>Units Contracted Out</Italian>
+		<Spanish>Units Contracted Out</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HIRED_MERCENARIES</Tag>
+		<English>Hired Mercenaries</English>
+		<French>Hired Mercenaries</French>
+		<German>Hired Mercenaries</German>
+		<Italian>Hired Mercenaries</Italian>
+		<Spanish>Hired Mercenaries</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HIRED_MERCENARY_GROUPS</Tag>
+		<English>Hired Mercenary Groups</English>
+		<French>Hired Mercenary Groups</French>
+		<German>Hired Mercenary Groups</German>
+		<Italian>Hired Mercenary Groups</Italian>
+		<Spanish>Hired Mercenary Groups</Spanish>
+	</TEXT>	
+	<TEXT>
+		<Tag>TXT_KEY_AVAILABLE_UNITS</Tag>
+		<English>Available Units</English>
+		<French>Available Units</French>
+		<German>Available Units</German>
+		<Italian>Available Units</Italian>
+		<Spanish>Available Units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MERCENARY_INFORMATION</Tag>
+		<English>Mercenary Information</English>
+		<French>Mercenary Information</French>
+		<German>Mercenary Information</German>
+		<Italian>Mercenary Information</Italian>
+		<Spanish>Mercenary Information</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MERCENARY_GROUP_INFORMATION</Tag>
+		<English>Mercenary Group Information</English>
+		<French>Mercenary Group Information</French>
+		<German>Mercenary Group Information</German>
+		<Italian>Mercenary Group Information</Italian>
+		<Spanish>Mercenary Group Information</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INFORMATION</Tag>
+		<English>Unit Information</English>
+		<French>Information sur l'Unité</French>
+		<German>Einheiteninformation</German>
+		<Italian>Unit Information</Italian>
+		<Spanish>Unit Information</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FINANCIAL_ADVISOR_MERCENARY_MAINTENANCE_COST</Tag>
+		<English>Mercenary Maintenance Cost</English>
+		<French>Mercenary Maintenance Cost</French>
+		<German>Mercenary Maintenance Cost</German>
+		<Italian>Mercenary Maintenance Cost</Italian>
+		<Spanish>Mercenary Maintenance Cost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_FINANCIAL_ADVISOR_MERCENARY_CONTRACT_INCOME</Tag>
+		<English>Mercenary Contract Income</English>
+		<French>Mercenary Contract Income</French>
+		<German>Mercenary Contract Income</German>
+		<Italian>Mercenary Contract Income</Italian>
+		<Spanish>Mercenary Contract Income</Spanish>
+	</TEXT>	
+		<TEXT>
+		<Tag>TXT_KEY_UNIT_MERCENARY</Tag>
+		<English>[ICON_BULLET]Mercenary Unit</English>
+		<French>[ICON_BULLET]Mercenary Unit</French>
+		<German>[ICON_BULLET]Mercenary Unit</German>
+		<Italian>[ICON_BULLET]Mercenary Unit</Italian>
+		<Spanish>[ICON_BULLET]Mercenary Unit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_WIDGET_FIRE_MERCENARY</Tag>
+		<English>Fire This Mercenary</English>
+		<French>Fire This Mercenary</French>
+		<German>Fire This Mercenary</German>
+		<Italian>Fire This Mercenary</Italian>
+		<Spanish>Fire This Mercenary</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_WIDGET_CONTRACT_OUT</Tag>
+		<English>Contract Out This Unit</English>
+		<French>Contract Out This Unit</French>
+		<German>Contract Out This Unit</German>
+		<Italian>Contract Out This Unit</Italian>
+		<Spanish>Contract Out This Unit</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_MERCENARY_UNLOCK_HELP</Tag>
+		<English>[ICON_BULLET]Unlocks Mercenaries for all Civilisations</English>
+		<French>[ICON_BULLET]Unlocks Mercenaries for all Civilisations</French>
+		<German>[ICON_BULLET]Unlocks Mercenaries for all Civilisations</German>
+		<Italian>[ICON_BULLET]Unlocks Mercenaries for all Civilisations</Italian>
+		<Spanish>[ICON_BULLET]Unlocks Mercenaries for all Civilisations</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MERCENARY_COST_DECREASE</Tag>
+		<English>[ICON_BULLET]Decreases all Mercenary Costs by %d1 %.</English>
+		<French>[ICON_BULLET]Decreases all Mercenary Costs by %d1 %.</French>
+		<German>[ICON_BULLET]Decreases all Mercenary Costs by %d1 %.</German>
+		<Italian>[ICON_BULLET]Decreases all Mercenary Costs by %d1 %.</Italian>
+		<Spanish>[ICON_BULLET]Decreases all Mercenary Costs by %d1 %.</Spanish>
+	</TEXT>	
+		<TEXT>
+		<Tag>TXT_KEY_MERCENARY_LEAVING</Tag>
+		<English>A Mercenary has left your service.</English>
+		<French>A Mercenary has left your service.</French>
+		<German>A Mercenary has left your service.</German>
+		<Italian>A Mercenary has left your service.</Italian>
+		<Spanish>A Mercenary has left your service.</Spanish>
+	</TEXT>	
+		<TEXT>
+		<Tag>TXT_KEY_UNIT_MERCENARY_TYPE</Tag>
+		<English>Mercenary</English>
+		<French>Mercenary</French>
+		<German>Mercenary</German>
+		<Italian>Mercenary</Italian>
+		<Spanish>Mercenary</Spanish>
+	</TEXT>	
+</Civ4GameText>

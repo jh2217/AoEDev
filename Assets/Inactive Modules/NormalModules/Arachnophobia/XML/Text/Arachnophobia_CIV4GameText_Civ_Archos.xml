@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SPIDER_UPGRADE_HELP</Tag>
+		<English>[ICON_BULLET]All spiders can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 12 population.</English>
+		<French>[ICON_BULLET]All spiders can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 12 population.</French>
+		<German>[ICON_BULLET]All spiders can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 12 population.</German>
+		<Italian>[ICON_BULLET]All spiders can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 12 population.</Italian>
+		<Spanish>[ICON_BULLET]All spiders can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 12 population.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPIDERKIN_PEDIA</Tag>
+		<English>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</English>
+		<French>Les Veneurs Archosiens passent des semaines dans les contrées sauvages d'Erebus, pistant ses proies avec son compagnon Araignée. Lorsqu'il faut frapper, l'Araignée attaque et paralyse sa cible avec son venin avant que le Veneur fasse le tir mortel. Le clan a vécu avec les Araignées depuis si longtemps que le venin présent dans la carcasse n'est plus mortel pour eux (même s'il continue de prendre son dû). [NEWLINE][NEWLINE]Quand un binôme de chasse survit suffisamment longtemps pour être remarqué, ils peuvent être envoyés encore plus loin pour chasser des proies encore plus dangereuses. L'Araignée devient plus dangereuse à mesure qu'elle grandit et le Reclus compte encore plus sur elle. [NEWLINE][NEWLINE]Les chasseurs les plus efficaces peuvent découvrir qu'ils développent des mutations tandis qu'ils continuent de manger la viande empoisonnée de leurs victimes. Elles sont vues comme des "présents" de la Mère et un signe que le chasseur est favorisé. N'importe comment, la plupart de ces mutations se révèlent bénéfiques en combat et l'Arachnomorphe est pratiquement immunisé à tout empoisonnement ultérieur.</French>
+		<German>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]Die erfolgreichsten Jäger mögen Mutationen an sich bemerken, wenn sie nur kontinuierlich das vergiftete Fleisch ihrer Beute verzehren. Dies wird als ein "Geschenk" von Mutter und als Zeichen ihrer Gunst angesehen. In jedem Fall entpuppen sich viele dieser Mutationen als nützlich im Kampf, so sind die Sipplinge der Spinnentiere z.B. praktisch immun gegen weitere Vergiftungen.</German>
+		<Italian>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</Italian>
+		<Spanish>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_WAKE_MOTHER_ARACHNOPHOBIA</Tag>
+		<English>Ia! Black queen of the depths with a thousand young!</English>
+		<French>Ia! Black queen of the depths with a thousand young!</French>
+		<German>Ia! Black queen of the depths with a thousand young!</German>
+		<Italian>Ia! Black queen of the depths with a thousand young!</Italian>
+		<Spanish>Ia! Black queen of the depths with a thousand young!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PREDATORY_SCREAM</Tag>
+		<English>Predatory Scream</English>
+		<French>Predatory Scream</French>
+		<German>Predatory Scream</German>
+		<Italian>Predatory Scream</Italian>
+		<Spanish>Predatory Scream</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PREDATORY_SCREAM_HELP</Tag>
+		<English>[ICON_BULLET]Apply "Marked Prey" to all enemy units in range.</English>
+		<French>[ICON_BULLET]Apply "Marked Prey" to all enemy units in range.</French>
+		<German>[ICON_BULLET]Apply "Marked Prey" to all enemy units in range.</German>
+		<Italian>[ICON_BULLET]Apply "Marked Prey" to all enemy units in range.</Italian>
+		<Spanish>[ICON_BULLET]Apply "Marked Prey" to all enemy units in range.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PALACE_ARCHOS_ARACHNOPHOBIA</Tag>
+		<English>Silksong Cradle</English>
+		<French>Silksong Cradle</French>
+		<German>Silksong Cradle</German>
+		<Italian>Silksong Cradle</Italian>
+		<Spanish>Silksong Cradle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOTHER_SPIDER_ARACHNOPHOBIA</Tag>
+		<English>Mother of Mothers</English>
+		<French>Mother of Mothers</French>
+		<German>Mother of Mothers</German>
+		<Italian>Mother of Mothers</Italian>
+		<Spanish>Mother of Mothers</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPIDER_HUNTRESS</Tag>
+		<English>Spider Huntress</English>
+		<French>Spider Huntress</French>
+		<German>Spider Huntress</German>
+		<Italian>Spider Huntress</Italian>
+		<Spanish>Spider Huntress</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPIDER_KNIGHTESS</Tag>
+		<English>Spider Knightess</English>
+		<French>Spider Knightess</French>
+		<German>Spider Knightess</German>
+		<Italian>Spider Knightess</Italian>
+		<Spanish>Spider Knightess</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WAR_SPIDER</Tag>
+		<English>War Spider</English>
+		<French>War Spider</French>
+		<German>War Spider</German>
+		<Italian>War Spider</Italian>
+		<Spanish>War Spider</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_POISON_EXPLOSION1</Tag>
+		<English>Poison Explosion I</English>
+		<French>Poison Explosion I</French>
+		<German>Poison Explosion I</German>
+		<Italian>Poison Explosion I</Italian>
+		<Spanish>Poison Explosion I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_POISON_EXPLOSION2</Tag>
+		<English>Poison Explosion II</English>
+		<French>Poison Explosion II</French>
+		<German>Poison Explosion II</German>
+		<Italian>Poison Explosion II</Italian>
+		<Spanish>Poison Explosion II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_POISON_EXPLOSION_HELP</Tag>
+		<English>[ICON_BULLET]Explode and apply poison to all units in range.</English>
+		<French>[ICON_BULLET]Explode and apply poison to all units in range.</French>
+		<German>[ICON_BULLET]Explode and apply poison to all units in range.</German>
+		<Italian>[ICON_BULLET]Explode and apply poison to all units in range.</Italian>
+		<Spanish>[ICON_BULLET]Explode and apply poison to all units in range.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BURROWED_NO_REVEAL</Tag>
+		<English>Mucro Burrowed (Can't reveal yet)</English>
+		<French>Mucro Enterré (Can't reveal yet)</French>
+		<German>Mucro Verborgen (Can't reveal yet)</German>
+		<Italian>Mucro Burrowed (Can't reveal yet)</Italian>
+		<Spanish>Mucro Burrowed (Can't reveal yet)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_BURROWED</Tag>
+		<English>Mucro Burrowed</English>
+		<French>Mucro Enterré</French>
+		<German>Mucro Verborgen</German>
+		<Italian>Mucro Burrowed</Italian>
+		<Spanish>Mucro Burrowed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_REVEALED1</Tag>
+		<English>Mucro Revealed I</English>
+		<French>Mucro À découvert I</French>
+		<German>Mucro Entblößt I</German>
+		<Italian>Mucro Revealed I</Italian>
+		<Spanish>Mucro Revealed I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_REVEALED2</Tag>
+		<English>Mucro Revealed II</English>
+		<French>Mucro À découvert II</French>
+		<German>Mucro Entblößt II</German>
+		<Italian>Mucro Revealed II</Italian>
+		<Spanish>Mucro Revealed II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MARKED_PREY</Tag>
+		<English>Marked Prey</English>
+		<French>Marked Prey</French>
+		<German>Marked Prey</German>
+		<Italian>Marked Prey</Italian>
+		<Spanish>Marked Prey</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CONSUME_THE_WEAK</Tag>
+		<English>Consume the Weak</English>
+		<French>Consume the Weak</French>
+		<German>Consume the Weak</German>
+		<Italian>Consume the Weak</Italian>
+		<Spanish>Consume the Weak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CONSUME_THE_WEAK_HELP</Tag>
+		<English>[ICON_BULLET]Give "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.</English>
+		<French>[ICON_BULLET]Give "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.</French>
+		<German>[ICON_BULLET]Give "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.</German>
+		<Italian>[ICON_BULLET]Give "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.</Italian>
+		<Spanish>[ICON_BULLET]Give "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CONSUME_THE_WEAK</Tag>
+		<English>Consume the Weak</English>
+		<French>Consume the Weak</French>
+		<German>Consume the Weak</German>
+		<Italian>Consume the Weak</Italian>
+		<Spanish>Consume the Weak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON_FUME</Tag>
+		<English>Poison Fume</English>
+		<French>Poison Fume</French>
+		<German>Poison Fume</German>
+		<Italian>Poison Fume</Italian>
+		<Spanish>Poison Fume</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_EXPLODER</Tag>
+		<English>Exploder</English>
+		<French>Exploder</French>
+		<German>Exploder</German>
+		<Italian>Exploder</Italian>
+		<Spanish>Exploder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_EXPLODER_GREATER</Tag>
+		<English>Greater Exploder</English>
+		<French>Greater Exploder</French>
+		<German>Greater Exploder</German>
+		<Italian>Greater Exploder</Italian>
+		<Spanish>Greater Exploder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_WEAVER</Tag>
+		<English>Weaver</English>
+		<French>Weaver</French>
+		<German>Weaver</German>
+		<Italian>Weaver</Italian>
+		<Spanish>Weaver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_WEAVER_GREATER</Tag>
+		<English>Greater Weaver</English>
+		<French>Greater Weaver</French>
+		<German>Greater Weaver</German>
+		<Italian>Greater Weaver</Italian>
+		<Spanish>Greater Weaver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_BURROWER</Tag>
+		<English>Burrower</English>
+		<French>Burrower</French>
+		<German>Burrower</German>
+		<Italian>Burrower</Italian>
+		<Spanish>Burrower</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_BURROWER_GREATER</Tag>
+		<English>Greater Burrower</English>
+		<French>Greater Burrower</French>
+		<German>Greater Burrower</German>
+		<Italian>Greater Burrower</Italian>
+		<Spanish>Greater Burrower</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_GREATER_HELP</Tag>
+		<English>[ICON_BULLET]Gain even bigger buff on reveal.</English>
+		<French>[ICON_BULLET]Gain even bigger buff on reveal.</French>
+		<German>[ICON_BULLET]Gain even bigger buff on reveal.</German>
+		<Italian>[ICON_BULLET]Gain even bigger buff on reveal.</Italian>
+		<Spanish>[ICON_BULLET]Gain even bigger buff on reveal.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_WETNURSE</Tag>
+		<English>Wetnurse</English>
+		<French>Wetnurse</French>
+		<German>Wetnurse</German>
+		<Italian>Wetnurse</Italian>
+		<Spanish>Wetnurse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_WETNURSE_GREATER</Tag>
+		<English>Greater Wetnurse</English>
+		<French>Greater Wetnurse</French>
+		<German>Greater Wetnurse</German>
+		<Italian>Greater Wetnurse</Italian>
+		<Spanish>Greater Wetnurse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_SPITTER</Tag>
+		<English>Spitter</English>
+		<French>Spitter</French>
+		<German>Spitter</German>
+		<Italian>Spitter</Italian>
+		<Spanish>Spitter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_SPITTER_GREATER</Tag>
+		<English>Greater Spitter</English>
+		<French>Greater Spitter</French>
+		<German>Greater Spitter</German>
+		<Italian>Greater Spitter</Italian>
+		<Spanish>Greater Spitter</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Tag>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Venom Secretion to newly created melee and recon units in the city.</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Venom Secretion to newly created melee and recon units in the city.</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Venom Secretion to newly created melee and recon units in the city.</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Venom Secretion to newly created melee and recon units in the city.</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Venom Secretion to newly created melee and recon units in the city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Tag>
+		<English>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Jointed Limbs to newly created melee and recon units in the city.</English>
+		<French>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Jointed Limbs to newly created melee and recon units in the city.</French>
+		<German>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Jointed Limbs to newly created melee and recon units in the city.</German>
+		<Italian>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Jointed Limbs to newly created melee and recon units in the city.</Italian>
+		<Spanish>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Jointed Limbs to newly created melee and recon units in the city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Tag>
+		<English>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Chitin Carapace to newly created melee and recon units in the city.</English>
+		<French>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Chitin Carapace to newly created melee and recon units in the city.</French>
+		<German>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Chitin Carapace to newly created melee and recon units in the city.</German>
+		<Italian>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Chitin Carapace to newly created melee and recon units in the city.</Italian>
+		<Spanish>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Chitin Carapace to newly created melee and recon units in the city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA_HELP</Tag>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Trail Pheromone to newly created melee and recon units in the city.</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Trail Pheromone to newly created melee and recon units in the city.</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Trail Pheromone to newly created melee and recon units in the city.</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Trail Pheromone to newly created melee and recon units in the city.</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Trail Pheromone to newly created melee and recon units in the city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_VENENUM_HELP</Tag>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Spitter Gland to newly created melee and recon units in the city.</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Spitter Gland to newly created melee and recon units in the city.</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Spitter Gland to newly created melee and recon units in the city.</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Spitter Gland to newly created melee and recon units in the city.</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Spitter Gland to newly created melee and recon units in the city.</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_VENOM_SECRETION</Tag>
+		<English>Spider Mutation - Venom Secretion</English>
+		<French>Spider Mutation - Venom Secretion</French>
+		<German>Spider Mutation - Venom Secretion</German>
+		<Italian>Spider Mutation - Venom Secretion</Italian>
+		<Spanish>Spider Mutation - Venom Secretion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_JOINTED_LIMBS</Tag>
+		<English>Spider Mutation - Jointed Limbs</English>
+		<French>Spider Mutation - Jointed Limbs</French>
+		<German>Spider Mutation - Jointed Limbs</German>
+		<Italian>Spider Mutation - Jointed Limbs</Italian>
+		<Spanish>Spider Mutation - Jointed Limbs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE</Tag>
+		<English>Spider Mutation - Chitin Carapace</English>
+		<French>Spider Mutation - Chitin Carapace</French>
+		<German>Spider Mutation - Chitin Carapace</German>
+		<Italian>Spider Mutation - Chitin Carapace</Italian>
+		<Spanish>Spider Mutation - Chitin Carapace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE</Tag>
+		<English>Spider Mutation - Trail Pheromone</English>
+		<French>Spider Mutation - Trail Pheromone</French>
+		<German>Spider Mutation - Trail Pheromone</German>
+		<Italian>Spider Mutation - Trail Pheromone</Italian>
+		<Spanish>Spider Mutation - Trail Pheromone</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_SPITTER_GLAND</Tag>
+		<English>Spider Mutation - Spitter Gland</English>
+		<French>Spider Mutation - Spitter Gland</French>
+		<German>Spider Mutation - Spitter Gland</German>
+		<Italian>Spider Mutation - Spitter Gland</Italian>
+		<Spanish>Spider Mutation - Spitter Gland</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_RUBY</Tag>
+		<English>Rite of Ruby</English>
+		<French>Rite of Ruby</French>
+		<German>Rite of Ruby</German>
+		<Italian>Rite of Ruby</Italian>
+		<Spanish>Rite of Ruby</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_TOPAZ</Tag>
+		<English>Rite of Topaz</English>
+		<French>Rite of Topaz</French>
+		<German>Rite of Topaz</German>
+		<Italian>Rite of Topaz</Italian>
+		<Spanish>Rite of Topaz</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_DIAMOND</Tag>
+		<English>Rite of Diamond</English>
+		<French>Rite of Diamond</French>
+		<German>Rite of Diamond</German>
+		<Italian>Rite of Diamond</Italian>
+		<Spanish>Rite of Diamond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE</Tag>
+		<English>Rite of Sapphire</English>
+		<French>Rite of Sapphire</French>
+		<German>Rite of Sapphire</German>
+		<Italian>Rite of Sapphire</Italian>
+		<Spanish>Rite of Sapphire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_EMERALD</Tag>
+		<English>Rite of Emerald</English>
+		<French>Rite of Emerald</French>
+		<German>Rite of Emerald</German>
+		<Italian>Rite of Emerald</Italian>
+		<Spanish>Rite of Emerald</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_RUBY_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifices the weakest red spider in stack to grant Spider Mutation - Venom Secretion on melee and recon units in stack</English>
+		<French>[ICON_BULLET]Sacrifices the weakest red spider in stack to grant Spider Mutation - Venom Secretion on melee and recon units in stack</French>
+		<German>[ICON_BULLET]Sacrifices the weakest red spider in stack to grant Spider Mutation - Venom Secretion on melee and recon units in stack</German>
+		<Italian>[ICON_BULLET]Sacrifices the weakest red spider in stack to grant Spider Mutation - Venom Secretion on melee and recon units in stack</Italian>
+		<Spanish>[ICON_BULLET]Sacrifices the weakest red spider in stack to grant Spider Mutation - Venom Secretion on melee and recon units in stack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_TOPAZ_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Jointed Limbs on melee and recon units in stack</English>
+		<French>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Jointed Limbs on melee and recon units in stack</French>
+		<German>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Jointed Limbs on melee and recon units in stack</German>
+		<Italian>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Jointed Limbs on melee and recon units in stack</Italian>
+		<Spanish>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Jointed Limbs on melee and recon units in stack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_DIAMOND_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Chitin Carapace on melee and recon units in stack</English>
+		<French>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Chitin Carapace on melee and recon units in stack</French>
+		<German>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Chitin Carapace on melee and recon units in stack</German>
+		<Italian>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Chitin Carapace on melee and recon units in stack</Italian>
+		<Spanish>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Chitin Carapace on melee and recon units in stack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Trail Pheromone on melee and recon units in stack</English>
+		<French>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Trail Pheromone on melee and recon units in stack</French>
+		<German>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Trail Pheromone on melee and recon units in stack</German>
+		<Italian>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Trail Pheromone on melee and recon units in stack</Italian>
+		<Spanish>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Trail Pheromone on melee and recon units in stack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_EMERALD_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Spitter Gland on melee and recon units in stack</English>
+		<French>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Spitter Gland on melee and recon units in stack</French>
+		<German>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Spitter Gland on melee and recon units in stack</German>
+		<Italian>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Spitter Gland on melee and recon units in stack</Italian>
+		<Spanish>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Spitter Gland on melee and recon units in stack</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION</Tag>
+		<English>Symbiotic Communion</English>
+		<French>Symbiotic Communion</French>
+		<German>Symbiotic Communion</German>
+		<Italian>Symbiotic Communion</Italian>
+		<Spanish>Symbiotic Communion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION_END</Tag>
+		<English>Symbiotic Communion End</English>
+		<French>Symbiotic Communion End</French>
+		<German>Symbiotic Communion End</German>
+		<Italian>Symbiotic Communion End</Italian>
+		<Spanish>Symbiotic Communion End</Spanish>
+	</TEXT>
+</Civ4GameText>

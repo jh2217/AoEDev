@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building Infos -->
+<Civ4BuildingInfos xmlns="x-schema:EL_CIV4BuildingsSchema.xml">
+	<BuildingInfos>
+		<BuildingInfo>		<!-- Nightmare                                               Hippus Rigmora UB -->
+			<BuildingClass>BUILDINGCLASS_MANA_NODE</BuildingClass>
+			<Type>BUILDING_NIGHTMARE</Type>
+			<Description>TXT_KEY_BONUS_NIGHTMARE</Description>
+			<ArtDefineTag>ART_DEF_BUILDING_KEEP_SMALL</ArtDefineTag>
+			<PrereqTech>TECH_NEVER</PrereqTech>
+			<Parent>BUILDINGCLASS_PALACE</Parent>
+			<FreeBonus>BONUS_NIGHTMARE</FreeBonus>
+			<iNumFreeBonuses>1</iNumFreeBonuses>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</BuildingInfo>
+	</BuildingInfos>
+</Civ4BuildingInfos>

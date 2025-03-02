@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_MAGOCRACY</Tag>
+		<English>%s2_aciv Arcane Council</English>
+		<French>%s2_aciv Arcane Council</French>
+		<German>%s2_aciv Arcane Council</German>
+		<Italian>%s2_aciv Arcane Council</Italian>
+		<Spanish>%s2_aciv Arcane Council</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_IMPERIUM</Tag>
+		<English>%s2_aciv Empire</English>
+		<French>%s2_aciv Empire></French>
+		<German>%s2_aciv Empire</German>
+		<Italian>%s2_aciv Empire</Italian>
+		<Spanish>%s2_aciv Empire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_IMPERIUM_GRAND</Tag>
+		<English>%s2_aciv Imperium</English>
+		<French>%s2_aciv Imperium></French>
+		<German>%s2_aciv Imperium</German>
+		<Italian>%s2_aciv Imperium</Italian>
+		<Spanish>%s2_aciv Imperium</Spanish>
+	</TEXT>
+</Civ4GameText>

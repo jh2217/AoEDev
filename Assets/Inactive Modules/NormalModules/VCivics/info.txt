@@ -1,0 +1,24 @@
+[name]
+VCivics
+[version]
+1.1
+[rifeversion]
+367
+[author]
+Volrath
+[dependency]
+;
+[compatible]
+;
+;Short description - text showed in contect menu
+;note: one line
+[shortdesc]
+Civic overhaul
+[desc]
+* Reworks most civics to make decisions more interesting while trying to keep to the original design as much as possible.
+* Adds the Magocracy and Imperium civics.
+* Complete reimagining of the City States civic.
+* Changes to industry improvements (windmill, watermill, lumbermill and workshop) and associated technologies.
+* New icons for all civics.
+Changelog:
+* v1.1: Removed unneeded bforceoverwrites from techinfos, removed inaccurate or prereqs from Industry

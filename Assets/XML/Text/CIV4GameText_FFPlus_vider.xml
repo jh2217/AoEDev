@@ -1,0 +1,1684 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ZEALOTRY</Tag>
+		<English>Zealotry</English>
+		<French>Zélotisme</French>
+		<German>Blinder Eifer</German>
+		<Italian>Zealotry</Italian>
+		<Spanish>Zealotry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GRAPESHOT</Tag>
+		<English>Grapeshot</English>
+		<French>Mitraille</French>
+		<German>Kartätsche</German>
+		<Italian>Grapeshot</Italian>
+		<Spanish>Grapeshot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANISTER_SHOT</Tag>
+		<English>Canister Shot</English>
+		<French>Shrapnel</French>
+		<German>Büchsenschuss</German>
+		<Italian>Canister Shot</Italian>
+		<Spanish>Canister Shot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SIGHTED_SHOT</Tag>
+		<English>Sighted Shot</English>
+		<French>Sighted Shot</French>
+		<German>Schuss auf Sicht</German>
+		<Italian>Sighted Shot</Italian>
+		<Spanish>Sighted Shot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLAMING_SHOT</Tag>
+		<English>Flaming Shot</English>
+		<French>Tir enflammé</French>
+		<German>Flammenschuss</German>
+		<Italian>Flaming Shot</Italian>
+		<Spanish>Flaming Shot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PLAGUE_SHOT</Tag>
+		<English>Plague-Infested Shot</English>
+		<French>Plague-Infested Shot</French>
+		<German>Verseuchter Schuss</German>
+		<Italian>Plague-Infested Shot</Italian>
+		<Spanish>Plague-Infested Shot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BLACKBLOOD_SHOT</Tag>
+		<English>Blackblood Shot</English>
+		<French>Tir de Noirsang</French>
+		<German>Schwarzblut Schuss</German>
+		<Italian>Blackblood Shot</Italian>
+		<Spanish>Blackblood Shot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXPLOSIVE_SHOT</Tag>
+		<English>Explosive Shot</English>
+		<French>Tir explosif</French>
+		<German>Explosiver Schuss</German>
+		<Italian>Explosive Shot</Italian>
+		<Spanish>Explosive Shot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TRAINED</Tag>
+		<English>Well-Trained</English>
+		<French>Well-Trained</French>
+		<German>Gut ausgebildet</German>
+		<Italian>Well-Trained</Italian>
+		<Spanish>Well-Trained</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CRAFTMANSHIP_FINE</Tag>
+		<English>Fine Craftmanship (I)</English>
+		<French>Artisanat de qualité (I)</French>
+		<German>Feine Handwerkskunst (I)</German>
+		<Italian>Fine Craftmanship (I)</Italian>
+		<Spanish>Fine Craftmanship (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CRAFTMANSHIP_EXCELLENT</Tag>
+		<English>Excellent Craftmanship (II)</English>
+		<French>Artisanat Excellent (II)</French>
+		<German>Exzellenter Schuss (II)</German>
+		<Italian>Excellent Shot (II)</Italian>
+		<Spanish>Excellent Shot (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CRAFTMANSHIP_SUPERIOR</Tag>
+		<English>Superior Craftmanship (III)</English>
+		<French>Artisanat Supérieur (III)</French>
+		<German>&#220;berlegene Handwerkskunst (III)</German>
+		<Italian>Superior Craftmanship (III)</Italian>
+		<Spanish>Superior Craftmanship (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CRAFTMANSHIP_ARTISAN</Tag>
+		<English>Artisan Craftmanship (IV)</English>
+		<French>Artisanat Exceptionnel (IV)</French>
+		<German>Vollendete Handwerkskunst (IV)</German>
+		<Italian>Artisan Craftmanship (IV)</Italian>
+		<Spanish>Artisan Craftmanship (IV)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMPROVED_MACHINERY</Tag>
+		<English>Improved Machinery</English>
+		<French>Mécanisme amélioré</French>
+		<German>Verbesserte Maschinerie</German>
+		<Italian>Improved Machinery</Italian>
+		<Spanish>Improved Machinery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARTILLERY</Tag>
+		<English>Artillery</English>
+		<French>Artillerie</French>
+		<German>Artillerie</German>
+		<Italian>Artillery</Italian>
+		<Spanish>Artillery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMPROVED_ACCURACY</Tag>
+		<English>Improved Accuracy</English>
+		<French>Précision améliorée</French>
+		<German>Verbesserte Genauigkeit</German>
+		<Italian>Improved Accuracy</Italian>
+		<Spanish>Improved Accuracy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEADEYE_CREW</Tag>
+		<English>Deadeye Crew</English>
+		<French>Équipage Précis</French>
+		<German>Todaugentruppe</German>
+		<Italian>Deadeye Crew</Italian>
+		<Spanish>Deadeye Crew</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POINT_DEFENSE</Tag>
+		<English>Point Defense System</English>
+		<French>Système de défense rapprochée</French>
+		<German>Punktverteidigungssystem</German>
+		<Italian>Point Defense System</Italian>
+		<Spanish>Point Defense System</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOUBLETIME_TEAM</Tag>
+		<English>Doubletime Team</English>
+		<French>Doubletime Team</French>
+		<German>Geschwindes Team</German>
+		<Italian>Doubletime Team</Italian>
+		<Spanish>Doubletime Team</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PONTOON</Tag>
+		<English>Pontoons</English>
+		<French>Pontons</French>
+		<German>Schwimmende Brücken</German>
+		<Italian>Pontoons</Italian>
+		<Spanish>Pontoons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AMPHIBIOUS_ASSAULT</Tag>
+		<English>Amphibious Assault</English>
+		<French>Assaut amphibie</French>
+		<German>Amphibischer Angriff</German>
+		<Italian>Amphibious Assault</Italian>
+		<Spanish>Amphibious Assault</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GOLIATH_SIEGE</Tag>
+		<English>Siege Configuration</English>
+		<French>Configuration de siège</French>
+		<German>Belagerungskonfiguration</German>
+		<Italian>Siege Configuration</Italian>
+		<Spanish>Siege Configuration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LETTER_MARQUE</Tag>
+		<English>Letter of Marque</English>
+		<French>Lettre de marque</French>
+		<German>Kaperbrief</German>
+		<Italian>Letter of Marque</Italian>
+		<Spanish>Letter of Marque</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBATSIEGE1</Tag>
+		<English>Siege Combat 1</English>
+		<French>Combat de siège 1</French>
+		<German>Belagerungskampf 1</German>
+		<Italian>Siege Combat 1</Italian>
+		<Spanish>Siege Combat 1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBATSIEGE2</Tag>
+		<English>Siege Combat 2</English>
+		<French>Combat de siège 2</French>
+		<German>Belagerungskampf 2</German>
+		<Italian>Siege Combat 2</Italian>
+		<Spanish>Siege Combat 2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBATSIEGE3</Tag>
+		<English>Siege Combat 3</English>
+		<French>Combat de siège 3</French>
+		<German>Belagerungskampf 3</German>
+		<Italian>Siege Combat 3</Italian>
+		<Spanish>Siege Combat 3</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBATSIEGE4</Tag>
+		<English>Siege Combat 4</English>
+		<French>Combat de siège 4</French>
+		<German>Belagerungskampf 4</German>
+		<Italian>Siege Combat 4</Italian>
+		<Spanish>Siege Combat 4</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBATSIEGE5</Tag>
+		<English>Siege Combat 5</English>
+		<French>Combat de siège 5</French>
+		<German>Belagerungskampf 5</German>
+		<Italian>Siege Combat 5</Italian>
+		<Spanish>Siege Combat 5</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBATSIEGE</Tag>
+		<English>Siege Combat</English>
+		<French>Combat de siège</French>
+		<German>Belagerungskampf</German>
+		<Italian>Siege Combat</Italian>
+		<Spanish>Siege Combat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_SEA_FARM</Tag>
+		<English>Build a [LINK=IMPROVEMENT_SEA_FARM]Sea Farm[\LINK]</English>
+		<French>Build a [LINK=IMPROVEMENT_SEA_FARM]Sea Farm[\LINK]</French>
+		<German>Baut eine [LINK=IMPROVEMENT_SEA_FARM]Meeresfarm[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_SEA_FARM]Sea Farm[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_SEA_FARM]Sea Farm[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_PIRATE_COVE</Tag>
+		<English>Build a [LINK=IMPROVEMENT_PIRATE_COVE]Pirate Cove[\LINK]</English>
+		<French>Construire une [LINK=IMPROVEMENT_PIRATE_COVE]crique pirate[\LINK]</French>
+		<German>Errichtet einen [LINK=IMPROVEMENT_PIRATE_COVE]Piratenunterschlupf[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_PIRATE_COVE]Pirate Cove[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_PIRATE_COVE]Pirate Cove[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WORKER_DWARVEN</Tag>
+		<English>Dwarven Worker</English>
+		<French>Ouvrier nain</French>
+		<German>Zwergenarbeiter</German>
+		<Italian>Dwarven Worker</Italian>
+		<Spanish>Dwarven Worker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FORT_COMMANDER</Tag>
+		<English>Fort Commander</English>
+		<French>
+			<Text>Commandant de fort</Text>
+			<Gender>male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Fort Kommandant</German>
+		<Italian>Fort Commander</Italian>
+		<Spanish>Fort Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FORT_COMMANDER_PEDIA</Tag>
+		<English>"You youngsters are all alike, bitter to be stuck here in garrison and not '‘gathering glory' with the armies. Well beyond the fact I'll wager you'd soil your breaches the first time a horde of pyre zombies struck your line, you miss the point of war. Wars may be won in battle, but it's getting the troops to that battle, supplied, paid and fed that is the key. Do you think that could happen without security? Do you think all those supplies that go through here to the front would magically get there safely if we weren't here? Tis not a glamorous job we do here, boy, but if it weren't for us, many of those great victories that the bards sing about wouldn't have happened."[NEWLINE][PARAGRAPH:1]Scuttlebutt over cards and dice, Fort Kiel in the Haridrine pass along the Malakim/Sheaim border.[NEWLINE][NEWLINE]In a dangerous world and with armies often spread out over vast areas, civilians and militia have always counted on the protection of the local garrison fort. Beyond the defensive benefit, a garrison fort reminds the people of the land who rules the land. Fort Commanders, like feudal lords, are a rulers eyes and ears over his people and his lands.</English>
+		<French>"You youngsters are all alike, bitter to be stuck here in garrison and not '‘gathering glory' with the armies. Well beyond the fact I'll wager you'd soil your breaches the first time a horde of pyre zombies struck your line, you miss the point of war. Wars may be won in battle, but it's getting the troops to that battle, supplied, paid and fed that is the key. Do you think that could happen without security? Do you think all those supplies that go through here to the front would magically get there safely if we weren't here? Tis not a glamorous job we do here, boy, but if it weren't for us, many of those great victories that the bards sing about wouldn't have happened."[NEWLINE][PARAGRAPH:1]Scuttlebutt over cards and dice, Fort Kiel in the Haridrine pass along the Malakim/Sheaim border.[NEWLINE][NEWLINE]In a dangerous world and with armies often spread out over vast areas, civilians and militia have always counted on the protection of the local garrison fort. Beyond the defensive benefit, a garrison fort reminds the people of the land who rules the land. Fort Commanders, like feudal lords, are a rulers eyes and ears over his people and his lands.</French>
+		<German>"You youngsters are all alike, bitter to be stuck here in garrison and not ‘'gathering glory' with the armies. Well beyond the fact I'll wager you'd soil your breaches the first time a horde of pyre zombies struck your line, you miss the point of war. Wars may be won in battle, but it's getting the troops to that battle, supplied, paid and fed that is the key. Do you think that could happen without security? Do you think all those supplies that go through here to the front would magically get there safely if we weren't here? Tis not a glamorous job we do here, boy, but if it weren't for us, many of those great victories that the bards sing about wouldn't have happened."[NEWLINE][PARAGRAPH:1]Scuttlebutt over cards and dice, Fort Kiel in the Haridrine pass along the Malakim/Sheaim border.[NEWLINE][NEWLINE]In a dangerous world and with armies often spread out over vast areas, civilians and militia have always counted on the protection of the local garrison fort. Beyond the defensive benefit, a garrison fort reminds the people of the land who rules the land. Fort Commanders, like feudal lords, are a rulers eyes and ears over his people and his lands.</German>
+		<Italian>"You youngsters are all alike, bitter to be stuck here in garrison and not ‘'gathering glory' with the armies. Well beyond the fact I'll wager you'd soil your breaches the first time a horde of pyre zombies struck your line, you miss the point of war. Wars may be won in battle, but it's getting the troops to that battle, supplied, paid and fed that is the key. Do you think that could happen without security? Do you think all those supplies that go through here to the front would magically get there safely if we weren't here? Tis not a glamorous job we do here, boy, but if it weren't for us, many of those great victories that the bards sing about wouldn't have happened."[NEWLINE][PARAGRAPH:1]Scuttlebutt over cards and dice, Fort Kiel in the Haridrine pass along the Malakim/Sheaim border.[NEWLINE][NEWLINE]In a dangerous world and with armies often spread out over vast areas, civilians and militia have always counted on the protection of the local garrison fort. Beyond the defensive benefit, a garrison fort reminds the people of the land who rules the land. Fort Commanders, like feudal lords, are a rulers eyes and ears over his people and his lands.</Italian>
+		<Spanish>"You youngsters are all alike, bitter to be stuck here in garrison and not '‘gathering glory' with the armies. Well beyond the fact I'll wager you'd soil your breaches the first time a horde of pyre zombies struck your line, you miss the point of war. Wars may be won in battle, but it's getting the troops to that battle, supplied, paid and fed that is the key. Do you think that could happen without security? Do you think all those supplies that go through here to the front would magically get there safely if we weren't here? Tis not a glamorous job we do here, boy, but if it weren't for us, many of those great victories that the bards sing about wouldn't have happened."[NEWLINE][PARAGRAPH:1]Scuttlebutt over cards and dice, Fort Kiel in the Haridrine pass along the Malakim/Sheaim border.[NEWLINE][NEWLINE]In a dangerous world and with armies often spread out over vast areas, civilians and militia have always counted on the protection of the local garrison fort. Beyond the defensive benefit, a garrison fort reminds the people of the land who rules the land. Fort Commanders, like feudal lords, are a rulers eyes and ears over his people and his lands.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FORT_COMMANDER_STRATEGY</Tag>
+		<English>While the defensive bonus of the fort and the bombard ability of the Fort Commander are important, one of the most strategic uses of forts is the ability to claim land when one cannot afford to place a settler in that area. Unique features and important resources can thus be claimed and kept from bordering civs. Furthermore, as the fort ages, it's cultural boundary will increase and allow for workers upgrades. Then when a settler is available, the new city will already have worked tiles.</English>
+		<French>While the defensive bonus of the fort and the bombard ability of the Fort Commander are important, one of the most strategic uses of forts is the ability to claim land when one cannot afford to place a settler in that area. Unique features and important resources can thus be claimed and kept from bordering civs. Furthermore, as the fort ages, it's cultural boundary will increase and allow for workers upgrades. Then when a settler is available, the new city will already have worked tiles.</French>
+		<German>While the defensive bonus of the fort and the bombard ability of the Fort Commander are important, one of the most strategic uses of forts is the ability to claim land when one cannot afford to place a settler in that area. Unique features and important resources can thus be claimed and kept from bordering civs. Furthermore, as the fort ages, it's cultural boundary will increase and allow for workers upgrades. Then when a settler is available, the new city will already have worked tiles.</German>
+		<Italian>While the defensive bonus of the fort and the bombard ability of the Fort Commander are important, one of the most strategic uses of forts is the ability to claim land when one cannot afford to place a settler in that area. Unique features and important resources can thus be claimed and kept from bordering civs. Furthermore, as the fort ages, it's cultural boundary will increase and allow for workers upgrades. Then when a settler is available, the new city will already have worked tiles.</Italian>
+		<Spanish>While the defensive bonus of the fort and the bombard ability of the Fort Commander are important, one of the most strategic uses of forts is the ability to claim land when one cannot afford to place a settler in that area. Unique features and important resources can thus be claimed and kept from bordering civs. Furthermore, as the fort ages, it's cultural boundary will increase and allow for workers upgrades. Then when a settler is available, the new city will already have worked tiles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXPANDED_INFLUENCE</Tag>
+		<English>Expanded Influence</English>
+		<French>Expanded Influence</French>
+		<German>Erweiterter Einfluss</German>
+		<Italian>Expanded Influence</Italian>
+		<Spanish>Expanded Influence</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXPANDED_INFLUENCE_HELP</Tag>
+		<English>Extends territory around commander by +1 tile radius</English>
+		<French>Extends territory around commander by +1 tile radius</French>
+		<German>Erweitert das Gebiet um den Kommandanten um +1 Radius</German>
+		<Italian>Extends territory around commander by +1 tile radius</Italian>
+		<Spanish>Extends territory around commander by +1 tile radius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEGENDARY_INFLUENCE</Tag>
+		<English>Legendary Influence</English>
+		<French>Influence légendaire</French>
+		<German>Legendärer Einfluss</German>
+		<Italian>Legendary Influence</Italian>
+		<Spanish>Legendary Influence</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEGENDARY_INFLUENCE_HELP</Tag>
+		<English>Extends territory around commander by +2 tile radius</English>
+		<French>Extends territory around commander by +2 tile radius</French>
+		<German>Erweitert das Gebiet um den Kommandanten um +2 Radius</German>
+		<Italian>Extends territory around commander by +2 tile radius</Italian>
+		<Spanish>Extends territory around commander by +2 tile radius</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMMANDER1</Tag>
+		<English>Commander I</English>
+		<French>Commandant I</French>
+		<German>Kommandant I</German>
+		<Italian>Commander I</Italian>
+		<Spanish>Commander I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMMANDER2</Tag>
+		<English>Commander II</English>
+		<French>Commandant II</French>
+		<German>Kommandant II</German>
+		<Italian>Commander II</Italian>
+		<Spanish>Commander II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMMANDER3</Tag>
+		<English>Commander III</English>
+		<French>Commandant III</French>
+		<German>Kommandant III</German>
+		<Italian>Commander III</Italian>
+		<Spanish>Commander III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DWARVEN_COMMANDER1</Tag>
+		<English>Dwarven Commander I</English>
+		<French>Commandant nain I</French>
+		<German>Zwergenkommandant I</German>
+		<Italian>Dwarven Commander I</Italian>
+		<Spanish>Dwarven Commander I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DWARVEN_COMMANDER2</Tag>
+		<English>Dwarven Commander II</English>
+		<French>Commandant nain II</French>
+		<German>Zwergenkommandant II</German>
+		<Italian>Dwarven Commander II</Italian>
+		<Spanish>Dwarven Commander II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DWARVEN_COMMANDER3</Tag>
+		<English>Dwarven Commander III</English>
+		<French>Commandant nain III</French>
+		<German>Zwergenkommandant III</German>
+		<Italian>Dwarven Commander III</Italian>
+		<Spanish>Dwarven Commander III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INFLUENCE</Tag>
+		<English>Influence</English>
+		<French>Influence</French>
+		<German>Einfluss</German>
+		<Italian>Influence</Italian>
+		<Spanish>Influence</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INFLUENCE_HELP</Tag>
+		<English>[ICON_BULLET]Expands unit's owner territory to the tile</English>
+		<French>[ICON_BULLET]Étend le territoire du propriétaire à la case</French>
+		<German>[ICON_BULLET]Erweitert das Gebiet des Besitzers der Einheit auf dieses Feld</German>
+		<Italian>[ICON_BULLET]Expands unit's owner territory to the tile</Italian>
+		<Spanish>[ICON_BULLET]Expands unit's owner territory to the tile</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ZARCAZ</Tag>
+		<English>Zarcaz the Long-Sighted</English>
+		<French>Zarcaz à la Vue Perçante</French>
+		<German>Zarcaz der Weitsichtige</German>
+		<Italian>Zarcaz the Long-Sighted</Italian>
+		<Spanish>Zarcaz the Long-Sighted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_ZARCAZS_BOW</Tag>
+		<English>Bow of the Long-Sighted</English>
+		<French>Bow of the Long-Sighted</French>
+		<German>Bogen der Weitsicht</German>
+		<Italian>Bow of the Long-Sighted</Italian>
+		<Spanish>Bow of the Long-Sighted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIRST_AID</Tag>
+		<English>First Aid</English>
+		<French>Premiers secours</French>
+		<German>Erste Hilfe</German>
+		<Italian>First Aid</Italian>
+		<Spanish>First Aid</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BERSERKER</Tag>
+		<English>Berserker</English>
+		<French>Berserk</French>
+		<German>Berserker</German>
+		<Italian>Berserker</Italian>
+		<Spanish>Berserker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BAIR</Tag>
+		<English>Step Through the Rift</English>
+		<French>Step Through the Rift</French>
+		<German>Schritt durch den Spalt</German>
+		<Italian>Step Through the Rift</Italian>
+		<Spanish>Step Through the Rift</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CATHEDRAL_OF_TALI</Tag>
+		<English>Cathedral of Tali</English>
+		<French>Cathédrale de Tali</French>
+		<German>Kathedrale der Tali</German>
+		<Italian>Cathedral of Tali</Italian>
+		<Spanish>Cathedral of Tali</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEEP_SHAPER</Tag>
+		<English>Deep Shaper</English>
+		<French>Deep Shaper</French>
+		<German>Tiefenformer</German>
+		<Italian>Deep Shaper</Italian>
+		<Spanish>Deep Shaper</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SHAPE_JUNGLE</Tag>
+		<English>Shape Jungle</English>
+		<French>Shape Jungle</French>
+		<German>Dschungel formen</German>
+		<Italian>Shape Jungle</Italian>
+		<Spanish>Shape Jungle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DEEPEN_FOREST</Tag>
+		<English>Deepen Forest</English>
+		<French>Deepen Forest</French>
+		<German>Wald vertiefen</German>
+		<Italian>Deepen Forest</Italian>
+		<Spanish>Deepen Forest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SHAPE_JUNGLE_HELP</Tag>
+		<English>[ICON_BULLET]Can only be cast on Grassland or Wetlands tiles[NEWLINE][ICON_BULLET]Creates a Jungle on the tile</English>
+		<French>[ICON_BULLET]Can only be cast on Grassland or Wetlands tiles[NEWLINE][ICON_BULLET]Creates a Jungle on the tile</French>
+		<German>[ICON_BULLET]Kann nur auf Grasland oder Feuchtgebieten gezaubert werden.[NEWLINE][ICON_BULLET]Erschafft einen Dschungel auf dem Feld</German>
+		<Italian>[ICON_BULLET]Can only be cast on Grassland or Wetlands tiles[NEWLINE][ICON_BULLET]Creates a Jungle on the tile</Italian>
+		<Spanish>[ICON_BULLET]Can only be cast on Grassland or Wetlands tiles[NEWLINE][ICON_BULLET]Creates a Jungle on the tile</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STONE_TOOLS</Tag>
+		<English>Stone Tools</English>
+		<French>Outils de pierre</French>
+		<German>Steinwerkzeuge</German>
+		<Italian>Stone Tools</Italian>
+		<Spanish>Stone Tools</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OBSIDIAN_TOOLS</Tag>
+		<English>Obsidian Tools</English>
+		<French>Outils d'obsidienne</French>
+		<German>Obsidianwerkzeuge</German>
+		<Italian>Obsidian Tools</Italian>
+		<Spanish>Obsidian Tools</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTERWORK_TOOLS</Tag>
+		<English>Masterwork Tools</English>
+		<French>Outils de maître</French>
+		<German>Meisterwerkzeuge</German>
+		<Italian>Masterwork Tools</Italian>
+		<Spanish>Masterwork Tools</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_VEHEM_RIVAL_PARTY_NEUTRAL</Tag>
+		<English>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. They are injured and low on supplies, but seem to have successfully raided the dungeon. After much negotiation, your unit trades them some rations and medical necessities for a share of the equipment they looted from the dungeon.</English>
+		<French>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. They are injured and low on supplies, but seem to have successfully raided the dungeon. After much negotiation, your unit trades them some rations and medical necessities for a share of the equipment they looted from the dungeon.</French>
+		<German>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. They are injured and low on supplies, but seem to have successfully raided the dungeon. After much negotiation, your unit trades them some rations and medical necessities for a share of the equipment they looted from the dungeon.</German>
+		<Italian>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. They are injured and low on supplies, but seem to have successfully raided the dungeon. After much negotiation, your unit trades them some rations and medical necessities for a share of the equipment they looted from the dungeon.</Italian>
+		<Spanish>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. They are injured and low on supplies, but seem to have successfully raided the dungeon. After much negotiation, your unit trades them some rations and medical necessities for a share of the equipment they looted from the dungeon.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ABSORB_ESSENCE</Tag>
+		<English>Gift Essence</English>
+		<French>Transférer l'Essence</French>
+		<German>Gabe der Essenz</German>
+		<Italian>Gift Essence</Italian>
+		<Spanish>Gift Essence</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ABSORB_ESSENCE_STRATEGY</Tag>
+		<English>Grants xp equal to the caster's level to a D'teshi Commander on the same tile.</English>
+		<French>Grants xp equal to the caster's level to a D'teshi Commander on the same tile.</French>
+		<German>überträgt eine dem Level des Zaubernden entsprechende Zahl an Erfahrung auf einen D'teshi Kommandanten auf demselben Feld.</German>
+		<Italian>Grants xp equal to the caster's level to a D'teshi Commander on the same tile.</Italian>
+		<Spanish>Grants xp equal to the caster's level to a D'teshi Commander on the same tile.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FLAY_FLESH</Tag>
+		<English>Flay Flesh</English>
+		<French>Écorcher la chair</French>
+		<German>Fleisch häuten</German>
+		<Italian>Flay Flesh</Italian>
+		<Spanish>Flay Flesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PYRELORD</Tag>
+		<English>Pyrelord</English>
+		<French>Seigneur du bûcher</French>
+		<German>Herr des Scheiterhaufens</German>
+		<Italian>Pyrelord</Italian>
+		<Spanish>Pyrelord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FALCON2</Tag>
+		<English>Attack Falcon</English>
+		<French>Faucon de combat</French>
+		<German>Kampffalke</German>
+		<Italian>Attack Falcon</Italian>
+		<Spanish>Attack Falcon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FALCON</Tag>
+		<English>Falcon</English>
+		<French>Faucon</French>
+		<German>Falke</German>
+		<Italian>Falcon</Italian>
+		<Spanish>Falcon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CALL_FALCON1</Tag>
+		<English>Call Attack Falcon</English>
+		<French>Appeler un faucon de combat</French>
+		<German>Kampffalken rufen</German>
+		<Italian>Call Attack Falcon</Italian>
+		<Spanish>Call Attack Falcon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CALL_FALCON2</Tag>
+		<English>Call Falcon</English>
+		<French>Appeler un faucon</French>
+		<German>Falken rufen</German>
+		<Italian>Call Falcon</Italian>
+		<Spanish>Call Falcon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SIDEQUEST</Tag>
+		<English>Sidequest</English>
+		<French>Quête annexe</French>
+		<German>Nebenauftrag</German>
+		<Italian>Sidequest</Italian>
+		<Spanish>Sidequest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_QUESTING</Tag>
+		<English>Questing</English>
+		<French>Questing</French>
+		<German>Führt Nebenauftrag aus</German>
+		<Italian>Questing</Italian>
+		<Spanish>Questing</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BATTLE_ARCHITECT</Tag>
+		<English>Battle Architect</English>
+		<French>Architecte de combat</French>
+		<German>Gefechtsarchitekt</German>
+		<Italian>Battle Architect</Italian>
+		<Spanish>Battle Architect</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BEACON_INSPIRATION</Tag>
+		<English>Beacon of Inspiration</English>
+		<French>Balise d'inspiration</French>
+		<German>Leuchtfeuer der Inspiration</German>
+		<Italian>Beacon of Inspiration</Italian>
+		<Spanish>Beacon of Inspiration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BEACON_HOPE</Tag>
+		<English>Beacon of Hope</English>
+		<French>Balise d'espoir</French>
+		<German>Leuchtfeuer der Hoffnung</German>
+		<Italian>Beacon of Hope</Italian>
+		<Spanish>Beacon of Hope</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BEACON_VALOR</Tag>
+		<English>Beacon of Valor</English>
+		<French>Balise de valeur</French>
+		<German>Leuchtfeuer des Heldenmuts</German>
+		<Italian>Beacon of Valor</Italian>
+		<Spanish>Beacon of Valor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BEACON_LOYALTY</Tag>
+		<English>Beacon of Loyalty</English>
+		<French>Balise de loyauté</French>
+		<German>Leuchtfeuer der Loyalität</German>
+		<Italian>Beacon of Loyalty</Italian>
+		<Spanish>Beacon of Loyalty</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXPERT_FORTIFICATIONS</Tag>
+		<English>Expert Fortifications</English>
+		<French>Expert Fortifications</French>
+		<German>Verschanzungsexperte</German>
+		<Italian>Expert Fortifications</Italian>
+		<Spanish>Expert Fortifications</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEMOLITIONS_EXPERT</Tag>
+		<English>Demolitions Expert</English>
+		<French>Expert en démolition</French>
+		<German>Abrissexperte</German>
+		<Italian>Demolitions Expert</Italian>
+		<Spanish>Demolitions Expert</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEMOLITIONS_EXPERT_HELP</Tag>
+		<English>Destroys the fort when the unit dies.</English>
+		<French>Détruit le fort quand l'unité meurt.</French>
+		<German>Zerstört das Fort bei Tod der Einheit.</German>
+		<Italian>Destroys the fort when the unit dies.</Italian>
+		<Spanish>Destroys the fort when the unit dies.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_SHARD_COURAGE</Tag>
+		<English>Shard of Courage</English>
+		<French>Shard of Courage</French>
+		<German>Scherbe des Mutes</German>
+		<Italian>Shard of Courage</Italian>
+		<Spanish>Shard of Courage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_SHARD_STRENGTH</Tag>
+		<English>Shard of Strength</English>
+		<French>Shard of Strength</French>
+		<German>Scherbe der Stärke</German>
+		<Italian>Shard of Strength</Italian>
+		<Spanish>Shard of Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_SHARD_WISDOM</Tag>
+		<English>Shard of Wisdom</English>
+		<French>Shard of Wisdom</French>
+		<German>Scherbe der Weisheit</German>
+		<Italian>Shard of Wisdom</Italian>
+		<Spanish>Shard of Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_SHARD_HELP</Tag>
+		<English>[ICON_BULLET]If all three shards are equipped on the same unit, and brought to Pristin Pass, something may happen...</English>
+		<French>[ICON_BULLET]If all three shards are equipped on the same unit, and brought to Pristin Pass, something may happen...</French>
+		<German>[ICON_BULLET]Wenn alle drei Scherben in Besitz derselben Einheit sind und zum Pass des Pristinus gebracht werden, ja, dann könnte dort etwas passieren....</German>
+		<Italian>[ICON_BULLET]If all three shards are equipped on the same unit, and brought to Pristin Pass, something may happen...</Italian>
+		<Spanish>[ICON_BULLET]If all three shards are equipped on the same unit, and brought to Pristin Pass, something may happen...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_TRIFORCE</Tag>
+		<English>Triforce</English>
+		<French>Triforce</French>
+		<German>Dreimacht</German>
+		<Italian>Triforce</Italian>
+		<Spanish>Triforce</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WAR_BEAST</Tag>
+		<English>War Beast</English>
+		<French>War Beast</French>
+		<German>Kriegsbestie</German>
+		<Italian>War Beast</Italian>
+		<Spanish>War Beast</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WINTERING</Tag>
+		<English>Wintering</English>
+		<French>Wintering</French>
+		<German>Winter bringend</German>
+		<Italian>Wintering</Italian>
+		<Spanish>Wintering</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_THUNDERMAW</Tag>
+		<English>Thundermaw</English>
+		<French>Thundermaw</French>
+		<German>Donnerschlund</German>
+		<Italian>Thundermaw</Italian>
+		<Spanish>Thundermaw</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BUNYIP</Tag>
+		<English>Bunyip</English>
+		<French>Bunyip</French>
+		<German>Bunyip</German>
+		<Italian>Bunyip</Italian>
+		<Spanish>Bunyip</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_ZARCAZS_BOW</Tag>
+		<English>Take the Bow of the Long-Sighted</English>
+		<French>Take the Bow of the Long-Sighted</French>
+		<German>Nimm den Bogen der Weitsicht</German>
+		<Italian>Take the Bow of the Long-Sighted</Italian>
+		<Spanish>Take the Bow of the Long-Sighted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_SHARD_COURAGE</Tag>
+		<English>Take the Shard of Courage</English>
+		<French>Take the Shard of Courage</French>
+		<German>Nimm die Scherbe des Mutes</German>
+		<Italian>Take the Shard of Courage</Italian>
+		<Spanish>Take the Shard of Courage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_SHARD_STRENGTH</Tag>
+		<English>Take the Shard of Strength</English>
+		<French>Take the Shard of Strength</French>
+		<German>Nimm die Scherbe der Stärke</German>
+		<Italian>Take the Shard of Strength</Italian>
+		<Spanish>Take the Shard of Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_SHARD_WISDOM</Tag>
+		<English>Take the Shard of Wisdom</English>
+		<French>Take the Shard of Wisdom</French>
+		<German>Nimm die Scherbe der Weisheit</German>
+		<Italian>Take the Shard of Wisdom</Italian>
+		<Spanish>Take the Shard of Wisdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_APOTHECARY</Tag>
+		<English>Apothecary</English>
+		<French>Apothicairerie</French>
+		<German>Apotheke</German>
+		<Italian>Apothecary</Italian>
+		<Spanish>Apothecary</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_APOTHECARY_HELP</Tag>
+		<English>[ICON_BULLET]Allows you to purchase Potions.</English>
+		<French>[ICON_BULLET]Vous permet d'acheter des potions.</French>
+		<German>[ICON_BULLET]Erlaubt den Erwerb von Tränken.</German>
+		<Italian>[ICON_BULLET]Allows you to purchase Potions.</Italian>
+		<Spanish>[ICON_BULLET]Allows you to purchase Potions.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PURCHASE_HEALING_POTION</Tag>
+		<English>Purchase Healing Potion</English>
+		<French>Acheter une potion de soins</French>
+		<German>Kaufe Heiltrank</German>
+		<Italian>Purchase Healing Potion</Italian>
+		<Spanish>Purchase Healing Potion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PURCHASE_NEWTS_DRAUGHT</Tag>
+		<English>Purchase Newt's Draught</English>
+		<French>Purchase Newt's Draught</French>
+		<German>Erwerbe Trank des Molches</German>
+		<Italian>Purchase Newt's Draught</Italian>
+		<Spanish>Purchase Newt's Draught</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PURCHASE_POTION_OF_INVISIBILITY</Tag>
+		<English>Purchase Potion of Invisibility</English>
+		<French>Purchase Potion of Invisibility</French>
+		<German>Kaufe Trank der Unsichtbarkeit</German>
+		<Italian>Purchase Potion of Invisibility</Italian>
+		<Spanish>Purchase Potion of Invisibility</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PURCHASE_POTION_OF_RESTORATION</Tag>
+		<English>Purchase Potion of Restoration</English>
+		<French>Purchase Potion of Restoration</French>
+		<German>Kaufe Trank der Wiederherstellung</German>
+		<Italian>Purchase Potion of Restoration</Italian>
+		<Spanish>Purchase Potion of Restoration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SALTHOUSE</Tag>
+		<English>Salthouse</English>
+		<French>Grenier à Sel</French>
+		<German>Salzhaus</German>
+		<Italian>Salthouse</Italian>
+		<Spanish>Salthouse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MULTI_TREE_OF_LIFE</Tag>
+		<English>Tree of Life</English>
+		<French>Arbre de Vie</French>
+		<German>Baumm des Lebens</German>
+		<Italian>Tree of Life</Italian>
+		<Spanish>Tree of Life</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_ALTERATION</Tag>
+		<English>Master of Alteration</English>
+		<French>Master of Alteration</French>
+		<German>Meister der Alteration</German>
+		<Italian>Master of Alteration</Italian>
+		<Spanish>Master of Alteration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_BODY_AND_ENCHANTMENT</Tag>
+		<English>Master of Body and Enchantment</English>
+		<French>Maître du Corps et de l'Enchantement</French>
+		<German>Meister des Körpers und der Verzauberung</German>
+		<Italian>Master of Body and Enchantment</Italian>
+		<Spanish>Master of Body and Enchantment</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_CHAOS_AND_ENTROPY</Tag>
+		<English>Master of Chaos and Entropy</English>
+		<French>Maître du Chaos et de l'Entropie</French>
+		<German>Meister des Chaos und der Entropie</German>
+		<Italian>Master of Chaos and Entropy</Italian>
+		<Spanish>Master of Chaos and Entropy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_DEATH_AND_SHADOW</Tag>
+		<English>Master of Death and Shadow</English>
+		<French>Maître de la Mort et de l'Ombre</French>
+		<German>Meister des Todes und des Schattens</German>
+		<Italian>Master of Death and Shadow</Italian>
+		<Spanish>Master of Death and Shadow</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_DIVINATION</Tag>
+		<English>Master of Divination</English>
+		<French>Maître de la Divination</French>
+		<German>Meister der Göttlichkeit</German>
+		<Italian>Master of Divination</Italian>
+		<Spanish>Master of Divination</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_EARTH_AND_AIR</Tag>
+		<English>Master of Earth and Air</English>
+		<French>Maître de la Terre et de l'Air</French>
+		<German>Meister der Erde und der Luft</German>
+		<Italian>Master of Earth and Air</Italian>
+		<Spanish>Master of Earth and Air</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_FIRE_AND_WATER</Tag>
+		<English>Master of Fire and Water</English>
+		<French>Maître du Feu et de l'Eau</French>
+		<German>Meister von Feuer und Wasser</German>
+		<Italian>Master of Fire and Water</Italian>
+		<Spanish>Master of Fire and Water</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_LAW_AND_SUN</Tag>
+		<English>Master of Law and Sun</English>
+		<French>Maître de la Loi et du Soleil</French>
+		<German>Meister des Rechts und der Sonne</German>
+		<Italian>Master of Law and Sun</Italian>
+		<Spanish>Master of Law and Sun</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_CREATION_AND_NATURE</Tag>
+		<English>Master of Creation and Nature</English>
+		<French>Maître de la Création et de la Nature</French>
+		<German>Meister der Schöpfung und der Natur</German>
+		<Italian>Master of Creation and Nature</Italian>
+		<Spanish>Master of Creation and Nature</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_MIND_AND_SPIRIT</Tag>
+		<English>Master of Mind and Spirit</English>
+		<French>Maître de la Pensée et de l'Esprit</French>
+		<German>Meister des Verstandes und des Geistes</German>
+		<Italian>Master of Mind and Spirit</Italian>
+		<Spanish>Master of Mind and Spirit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_NECROMANCY</Tag>
+		<English>Master of Necromancy</English>
+		<French>Maître de la Nécromancie</French>
+		<German>Meister der Nekromantie</German>
+		<Italian>Master of Necromancy</Italian>
+		<Spanish>Master of Necromancy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_THE_ELEMENTS</Tag>
+		<English>Master of the Elements</English>
+		<French>Maître des Éléments</French>
+		<German>Meister der Elemente</German>
+		<Italian>Master of the Elements</Italian>
+		<Spanish>Master of the Elements</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PROTECTOR</Tag>
+		<English>Protector</English>
+		<French>Protecteur</French>
+		<German>Protektor</German>
+		<Italian>Protector</Italian>
+		<Spanish>Protector</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DESTROYER</Tag>
+		<English>Destroyer</English>
+		<French>Destructeur</French>
+		<German>Zerstörer</German>
+		<Italian>Destroyer</Italian>
+		<Spanish>Destroyer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OMNIPOTENCE</Tag>
+		<English>Omnipotence</English>
+		<French>Omnipotence</French>
+		<German>Allmacht</German>
+		<Italian>Omnipotence</Italian>
+		<Spanish>Omnipotence</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MIGHT</Tag>
+		<English>Might</English>
+		<French>Might</French>
+		<German>Vermögen</German>
+		<Italian>Might</Italian>
+		<Spanish>Might</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TOUCH_OF_LIFE</Tag>
+		<English>Touch of Life</English>
+		<French>Touch of Life</French>
+		<German>Berührung des Lebens</German>
+		<Italian>Touch of Life</Italian>
+		<Spanish>Touch of Life</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WICKED</Tag>
+		<English>Wicked</English>
+		<French>Wicked</French>
+		<German>Verschlagen</German>
+		<Italian>Wicked</Italian>
+		<Spanish>Wicked</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CURSED</Tag>
+		<English>Cursed</English>
+		<French>Cursed</French>
+		<German>Verflucht</German>
+		<Italian>Cursed</Italian>
+		<Spanish>Cursed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TREE_OF_LIFE_PEDIA</Tag>
+		<English>The Tree of Life can cast the Tree of Life spell in cities to provide certain bonuses.</English>
+		<French>The Tree of Life can cast the Tree of Life spell in cities to provide certain bonuses.</French>
+		<German>Der Baum des Lebens kann den Zauber Baum des Lebens in Städten zaubern. +10 Nahrung, +5 Zufriedenheit, +5 Gesundheit.</German>
+		<Italian>The Tree of Life can cast the Tree of Life spell in cities to provide certain bonuses.</Italian>
+		<Spanish>The Tree of Life can cast the Tree of Life spell in cities to provide certain bonuses.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VYRKUL</Tag>
+		<English>Vyrkul</English>
+		<French>Vyrkul</French>
+		<German>Vyrkul</German>
+		<Italian>Vyrkul</Italian>
+		<Spanish>Vyrkul</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VYRKUL_PEDIA</Tag>
+		<English>A Vyrkul is an ancient wizard who transformed himself into an elemental king through rituals that have long been lost in the sands of time. He can only be summoned by those with an unprecedented knowledge of the elements and the arcane.</English>
+		<French>A Vyrkul is an ancient wizard who transformed himself into an elemental king through rituals that have long been lost in the sands of time. He can only be summoned by those with an unprecedented knowledge of the elements and the arcane.</French>
+		<German>A Vyrkul is an ancient wizard who transformed himself into an elemental king through rituals that have long been lost in the sands of time. He can only be summoned by those with an unprecedented knowledge of the elements and the arcane.</German>
+		<Italian>A Vyrkul is an ancient wizard who transformed himself into an elemental king through rituals that have long been lost in the sands of time. He can only be summoned by those with an unprecedented knowledge of the elements and the arcane.</Italian>
+		<Spanish>A Vyrkul is an ancient wizard who transformed himself into an elemental king through rituals that have long been lost in the sands of time. He can only be summoned by those with an unprecedented knowledge of the elements and the arcane.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VYRKUL_STRATEGY</Tag>
+		<English>It takes 7 turns to summon a Vyrkul.</English>
+		<French>It takes 7 turns to summon a Vyrkul.</French>
+		<German>Beschwörung eines Vyrkul dauert 7 Runden.</German>
+		<Italian>It takes 7 turns to summon a Vyrkul.</Italian>
+		<Spanish>It takes 7 turns to summon a Vyrkul.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHOOTING_STAR</Tag>
+		<English>Shooting Star</English>
+		<French>
+			<Text>Étoile filante:Étoiles filantes</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Sternschnuppe</German>
+		<Italian>Shooting Star</Italian>
+		<Spanish>Shooting Star</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHOOTING_STAR_PEDIA</Tag>
+		<English>Available only to those that have mastered all 5 elements, the Shooting Stars spell summons stars of energy that the caster can hurl at their enemies.</English>
+		<French>Available only to units that have mastered all 5 elements, the Shooting Stars spell summons stars of energy that the caster can hurl at their enemies.</French>
+		<German>Available only to units that have mastered all 5 elements, the Shooting Stars spell summons stars of energy that the caster can hurl at their enemies.</German>
+		<Italian>Available only to units that have mastered all 5 elements, the Shooting Stars spell summons stars of energy that the caster can hurl at their enemies.</Italian>
+		<Spanish>Available only to units that have mastered all 5 elements, the Shooting Stars spell summons stars of energy that the caster can hurl at their enemies.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SHOOTING_STAR_STRATEGY</Tag>
+		<English>Collateral damage: 60% up to 90% max, affects 2 units.</English>
+		<French>Collateral damage: 60% up to 90% max, affects 2 units.</French>
+		<German>Kollateralschaden: 60% bis 90% max, wirkt auf 2 Einheiten.</German>
+		<Italian>Collateral damage: 60% up to 90% max, affects 2 units.</Italian>
+		<Spanish>Collateral damage: 60% up to 90% max, affects 2 units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HOLY_AVENGER</Tag>
+		<English>Holy Avenger</English>
+		<French>Vengeur Saint</French>
+		<German>Heiliger Rächer</German>
+		<Italian>Holy Avenger</Italian>
+		<Spanish>Holy Avenger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HOLY_AVENGER_STRATEGY</Tag>
+		<English>Use the Holy Avenger to smite forces of darkness.</English>
+		<French>Use the Holy Avenger to smite forces of darkness.</French>
+		<German>Nutze den Heiligen Rächer, um die Kräfte der Dunkelheit zu zerschlagen.</German>
+		<Italian>Use the Holy Avenger to smite forces of darkness.</Italian>
+		<Spanish>Use the Holy Avenger to smite forces of darkness.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_LIFE</Tag>
+		<English>Master of Life</English>
+		<French>Maître de la Vie</French>
+		<German>Meister des Lebens</German>
+		<Italian>Master of Life</Italian>
+		<Spanish>Master of Life</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_LIFE_HELP</Tag>
+		<English>Grants 66% chance in practice to Twincast</English>
+		<French>Grants 66% chance in practice to Twincast</French>
+		<German>Grants 66% chance in practice to Twincast</German>
+		<Italian>Grants 66% chance in practice to Twincast</Italian>
+		<Spanish>Grants 66% chance in practice to Twincast</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_ICE</Tag>
+		<English>Master of Ice</English>
+		<French>Maître de la Glace</French>
+		<German>Meister des Eises</German>
+		<Italian>Master of Ice</Italian>
+		<Spanish>Master of Ice</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_ICE_HELP</Tag>
+		<English>Effects of Frozen Lands are permanent</English>
+		<French>Effects of Terres gelées are permanent</French>
+		<German>Effects of Gefrorene Lande are permanent</German>
+		<Italian>Effects of Frozen Lands are permanent</Italian>
+		<Spanish>Effects of Frozen Lands are permanent</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_DIMENSIONS</Tag>
+		<English>Master of Dimensions</English>
+		<French>Maître des Dimensions</French>
+		<German>Meister der Dimensionen</German>
+		<Italian>Master of Dimensions</Italian>
+		<Spanish>Master of Dimensions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_FORCE</Tag>
+		<English>Master of Force</English>
+		<French>Maître de la Force</French>
+		<German>Meister der Macht</German>
+		<Italian>Master of Force</Italian>
+		<Spanish>Master of Force</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WILD_MAN</Tag>
+		<English>Wild Man</English>
+		<French>Wild Man</French>
+		<German>Wilder Mann</German>
+		<Italian>Wild Man</Italian>
+		<Spanish>Wild Man</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WILD_MAN_TROOP</Tag>
+		<English>Wild Man Troop</English>
+		<French>Wild Man Troop</French>
+		<German>Wilder Mann Truppe</German>
+		<Italian>Wild Man Troop</Italian>
+		<Spanish>Wild Man Troop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WILD_MAN_CLAN</Tag>
+		<English>Wild Man Clan</English>
+		<French>Wild Man Clan</French>
+		<German>Wilder Mann Clan</German>
+		<Italian>Wild Man Clan</Italian>
+		<Spanish>Wild Man Clan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KONG</Tag>
+		<English>Kong</English>
+		<French>Kong</French>
+		<German>Kong</German>
+		<Italian>Kong</Italian>
+		<Spanish>Kong</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPIDER_ARMY</Tag>
+		<English>Spider Army</English>
+		<French>Spider Army</French>
+		<German>Spinnenarmee</German>
+		<Italian>Spider Army</Italian>
+		<Spanish>Spider Army</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DREAD_HAMSTER</Tag>
+		<English>Dread Hamster</English>
+		<French>Dread Hamster</French>
+		<German>Grauenhafter Hamster</German>
+		<Italian>Dread Hamster</Italian>
+		<Spanish>Dread Hamster</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GIANT_HAMSTER</Tag>
+		<English>Giant Hamster</English>
+		<French>Giant Hamster</French>
+		<German>Riesenhamster</German>
+		<Italian>Giant Hamster</Italian>
+		<Spanish>Giant Hamster</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GIANT_HAMSTER_SWARM</Tag>
+		<English>Giant Hamster Swarm</English>
+		<French>Giant Hamster Swarm</French>
+		<German>Gruppe von Riesenhamstern</German>
+		<Italian>Giant Hamster Swarm</Italian>
+		<Spanish>Giant Hamster Swarm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LIZARD</Tag>
+		<English>Lizard</English>
+		<French>Lizard</French>
+		<German>Echse</German>
+		<Italian>Lizard</Italian>
+		<Spanish>Lizard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LIZARD_PACK</Tag>
+		<English>Lizard Pack</English>
+		<French>Lizard Pack</French>
+		<German>Echsenrudel</German>
+		<Italian>Lizard Pack</Italian>
+		<Spanish>Lizard Pack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GIANT_LIZARD</Tag>
+		<English>Giant Lizard</English>
+		<French>Giant Lizard</French>
+		<German>Riesenechse</German>
+		<Italian>Giant Lizard</Italian>
+		<Spanish>Giant Lizard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GIANT_LIZARD_PACK</Tag>
+		<English>Giant Lizard Pack</English>
+		<French>Giant Lizard Pack</French>
+		<German>Rudel von Riesenechsen</German>
+		<Italian>Giant Lizard Pack</Italian>
+		<Spanish>Giant Lizard Pack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_THUNDER_LIZARD</Tag>
+		<English>Thunderlizard</English>
+		<French>Thunderlizard</French>
+		<German>Donnerechse</German>
+		<Italian>Thunderlizard</Italian>
+		<Spanish>Thunderlizard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ICE_SCORPION</Tag>
+		<English>Ice Scorpion</English>
+		<French>Scorpion de Glace</French>
+		<German>Eisskorpion</German>
+		<Italian>Ice Scorpion</Italian>
+		<Spanish>Ice Scorpion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ICE_SCORPION_SWARM</Tag>
+		<English>Ice Scorpion Swarm</English>
+		<French>Nuée de Scorpions de Glace</French>
+		<German>Eisskorpion Schwarm</German>
+		<Italian>Ice Scorpion Swarm</Italian>
+		<Spanish>Ice Scorpion Swarm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DEATH_SCORPION</Tag>
+		<English>Death Scorpion</English>
+		<French>Death Scorpion</French>
+		<German>Todesskorpion</German>
+		<Italian>Death Scorpion</Italian>
+		<Spanish>Death Scorpion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BLACK_DRAGON</Tag>
+		<English>Black Dragon</English>
+		<French>Dragon Noir</French>
+		<German>Schwarzer Drache</German>
+		<Italian>Black Dragon</Italian>
+		<Spanish>Black Dragon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RED_DRAGON</Tag>
+		<English>Red Dragon</English>
+		<French>Dragon rouge</French>
+		<German>Roter Drache</German>
+		<Italian>Red Dragon</Italian>
+		<Spanish>Red Dragon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WHITE_DRAGON</Tag>
+		<English>White Dragon</English>
+		<French>Dragon blanc</French>
+		<German>Weißer Drache</German>
+		<Italian>White Dragon</Italian>
+		<Spanish>White Dragon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BRASS_DRAGON</Tag>
+		<English>Brass Dragon</English>
+		<French>Dragon de bronze</French>
+		<German>Blechdrache</German>
+		<Italian>Brass Dragon</Italian>
+		<Spanish>Brass Dragon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BLACK_DRAKE</Tag>
+		<English>Black Drake</English>
+		<French>Vouivre d'acide</French>
+		<German>Schwarzer Drakus</German>
+		<Italian>Black Drake</Italian>
+		<Spanish>Black Drake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BLACK_DRAKE_FLIGHT</Tag>
+		<English>Black Drake flock</English>
+		<French>Vol de vouivres d'acide</French>
+		<German>Schwarzer Drakus flock</German>
+		<Italian>Black Drake flock</Italian>
+		<Spanish>Black Drake flock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RED_DRAKE</Tag>
+		<English>Red Drake</English>
+		<French>Vouivre de feu</French>
+		<German>Roter Drakus</German>
+		<Italian>Red Drake</Italian>
+		<Spanish>Red Drake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RED_DRAKE_FLIGHT</Tag>
+		<English>Red Drake flock</English>
+		<French>Vol de vouivres de feu</French>
+		<German>Roter Drakus flock</German>
+		<Italian>Red Drake flock</Italian>
+		<Spanish>Red Drake flock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WHITE_DRAKE</Tag>
+		<English>White Drake</English>
+		<French>Vouivre de glace</French>
+		<German>Weißer Drakus</German>
+		<Italian>White Drake</Italian>
+		<Spanish>White Drake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WHITE_DRAKE_FLIGHT</Tag>
+		<English>White Drake flock</English>
+		<French>Vol de vouivres de glace</French>
+		<German>Weißer Drakus flock</German>
+		<Italian>White Drake flock</Italian>
+		<Spanish>White Drake flock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BRASS_DRAKE</Tag>
+		<English>Brass Drake</English>
+		<French>Vouivre de tempête</French>
+		<German>Blechdrakus</German>
+		<Italian>Brass Drake</Italian>
+		<Spanish>Brass Drake</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BRASS_DRAKE_FLIGHT</Tag>
+		<English>Brass Drake flock</English>
+		<French>Vol de vouivres de tempête</French>
+		<German>Blechdrakus flock</German>
+		<Italian>Brass Drake flock</Italian>
+		<Spanish>Brass Drake flock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HAMSTER_WHEEL</Tag>
+		<English>Hamster Wheel</English>
+		<French>Roue à hamster</French>
+		<German>Hamsterrad</German>
+		<Italian>Hamster Wheel</Italian>
+		<Spanish>Hamster Wheel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KINGS_FOREST</Tag>
+		<English>King's Forest</English>
+		<French>Forêt du roi</French>
+		<German>Wald des Königs</German>
+		<Italian>King's Forest</Italian>
+		<Spanish>King's Forest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ELEPHANT_STABLE</Tag>
+		<English>Elephant Stable</English>
+		<French>Enclos à élephants</French>
+		<German>Elefantenstall</German>
+		<Italian>Elephant Stable</Italian>
+		<Spanish>Elephant Stable</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CARRIES_FRESH_WATER</Tag>
+		<English>[ICON_BULLET]Provides Fresh Water (%D1[ICON_HEALTHY])</English>
+		<French>[ICON_BULLET]Fournit de l'eau douce (%D1[ICON_HEALTHY])</French>
+		<German>[ICON_BULLET]Liefert frisches Wasser (%D1[ICON_HEALTHY])</German>
+		<Italian>[ICON_BULLET]Provides Fresh Water (%D1[ICON_HEALTHY])</Italian>
+		<Spanish>[ICON_BULLET]Provides Fresh Water (%D1[ICON_HEALTHY])</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PREREQ_NO_FRESH_WATER</Tag>
+		<English>[ICON_BULLET]Requires that the city does not have access to Fresh Water </English>
+		<French>[ICON_BULLET]Nécessite une ville sans accès à l'eau douce</French>
+		<German>[ICON_BULLET]Requires that the city does not have access to Fresh Water</German>
+		<Italian>[ICON_BULLET]Requires that the city does not have access to Fresh Water</Italian>
+		<Spanish>[ICON_BULLET]Requires that the city does not have access to Fresh Water</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOUNTAINEER</Tag>
+		<English>Mountaineer</English>
+		<French>Montagnard</French>
+		<German>Bergsteiger</German>
+		<Italian>Mountaineer</Italian>
+		<Spanish>Mountaineer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RECRUIT_HELP</Tag>
+		<English>[ICON_BULLET]Recruits 1 unit per 3 population in the city to your cause[NEWLINE][ICON_BULLET]The Order state religion doubles the amount of recruits[NEWLINE][ICON_BULLET]Removes 1 population point for every 5 units granted</English>
+		<French>[ICON_BULLET]Recruits 1 unit per 3 population in the city to your cause[NEWLINE][ICON_BULLET]The Order state religion doubles the amount of recruits[NEWLINE][ICON_BULLET]Removes 1 population point for every 5 units granted</French>
+		<German>[ICON_BULLET]Rekrutiert 1 Einheit je 3 Bevölkerung in der gewählten Stadt[NEWLINE][ICON_BULLET]Eine Staatsreligion verdoppelt die Menge an Rekruten.[NEWLINE][ICON_BULLET]Verbraucht 1 Bevölkerung je 5 erhaltenen Einheiten</German>
+		<Italian>[ICON_BULLET]Recruits 1 unit per 3 population in the city to your cause[NEWLINE][ICON_BULLET]The Order state religion doubles the amount of recruits[NEWLINE][ICON_BULLET]Removes 1 population point for every 5 units granted</Italian>
+		<Spanish>[ICON_BULLET]Recruits 1 unit per 3 population in the city to your cause[NEWLINE][ICON_BULLET]The Order state religion doubles the amount of recruits[NEWLINE][ICON_BULLET]Removes 1 population point for every 5 units granted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_CASTLE</Tag>
+		<English>Build a [LINK=IMPROVEMENT_CASTLE]Castle[\LINK]</English>
+		<French>Build a [LINK=IMPROVEMENT_CASTLE]Castle[\LINK]</French>
+		<German>Errichte [LINK=IMPROVEMENT_CASTLE]Schloss[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_CASTLE]Castle[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_CASTLE]Castle[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUSTEVAL</Tag>
+		<English>Musteval</English>
+		<French>Musteval</French>
+		<German>Musteval</German>
+		<Italian>Musteval</Italian>
+		<Spanish>Musteval</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_POP_COST_MOD</Tag>
+		<English>[ICON_BULLET]Cost Modified by %d1 for Each Population Point in City</English>
+		<French>[ICON_BULLET]Cost Modified by %d1 for Each Population Point in City</French>
+		<German>[ICON_BULLET]Kosten werden für jeden Bevölkerungspunkt der Stadt um %d1 modifiziert</German>
+		<Italian>[ICON_BULLET]Cost Modified by %d1 for Each Population Point in City</Italian>
+		<Spanish>[ICON_BULLET]Cost Modified by %d1 for Each Population Point in City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POP_COST</Tag>
+		<English>[ICON_BULLET]Requires %d1 Population to be built. </English>
+		<French>[ICON_BULLET]Requires %d1 Population to be built.</French>
+		<German>[ICON_BULLET]Requires %d1 Population to be built.</German>
+		<Italian>[ICON_BULLET]Requires %d1 Population to be built.</Italian>
+		<Spanish>[ICON_BULLET]Requires %d1 Population to be built.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPIRE_POP_COST_MOD</Tag>
+		<English>[ICON_BULLET]Player's Average Population Modifies Unit Cost by %d1 for Each Population Point</English>
+		<French>[ICON_BULLET]Player's Average Population Modifies Unit Cost by %d1 for Each Population Point</French>
+		<German>[ICON_BULLET]Durchschnittliche Bevölkerung des Spielers modifiziert die Einheitenkosten für jeden Bevölkerungspunkt um %d1</German>
+		<Italian>[ICON_BULLET]Player's Average Population Modifies Unit Cost by %d1 for Each Population Point</Italian>
+		<Spanish>[ICON_BULLET]Player's Average Population Modifies Unit Cost by %d1 for Each Population Point</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NUM_CITY_COST_MOD</Tag>
+		<English>[ICON_BULLET]Cost Modified by %d1 for Each City Controlled</English>
+		<French>[ICON_BULLET]Cost Modified by %d1 for Each City Controlled</French>
+		<German>[ICON_BULLET]Kosten werden für jede kontrollierte Stadt um %d1 modifiziert</German>
+		<Italian>[ICON_BULLET]Cost Modified by %d1 for Each City Controlled</Italian>
+		<Spanish>[ICON_BULLET]Cost Modified by %d1 for Each City Controlled</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_POP_COST_MOD</Tag>
+		<English>[ICON_BULLET]Player's Total Population Modifies Unit Cost by %d1 for Each Population Point</English>
+		<French>[ICON_BULLET]Player's Total Population Modifies Unit Cost by %d1 for Each Population Point</French>
+		<German>[ICON_BULLET]Gesamtbevölkerung des Spielers modifiziert die Einheitenkosten für jeden Bevölkerungspunkt um %d1</German>
+		<Italian>[ICON_BULLET]Player's Total Population Modifies Unit Cost by %d1 for Each Population Point</Italian>
+		<Spanish>[ICON_BULLET]Player's Total Population Modifies Unit Cost by %d1 for Each Population Point</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_COUNT_CITIES_AS_UNIT</Tag>
+		<English>[ICON_BULLET]Cities Count Towards Unit Limit</English>
+		<French>[ICON_BULLET]Les villes comptent dans la limite d'exemplaires de l'unité</French>
+		<German>[ICON_BULLET]Cities Count Towards Unit Limit</German>
+		<Italian>[ICON_BULLET]Cities Count Towards Unit Limit</Italian>
+		<Spanish>[ICON_BULLET]Cities Count Towards Unit Limit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BAR_CITY_COUNTER</Tag>
+		<English>City Counter : %D1%</English>
+		<French>City Counter : %D1%</French>
+		<German>Stadtzähler : %D1%</German>
+		<Italian>City Counter : %D1%</Italian>
+		<Spanish>City Counter : %D1%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BAR_CITY_COUNTER_MOD</Tag>
+		<English>City Counter Mod : %D1%</English>
+		<French>City Counter Mod : %D1%</French>
+		<German>Stadtzähler Mod : %D1%</German>
+		<Italian>City Counter Mod : %D1%</Italian>
+		<Spanish>City Counter Mod : %D1%</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_FIXED_BORDERS_HELP</Tag>
+		<English>[ICON_BULLET]Borders are not influenced by combat.</English>
+		<French>[ICON_BULLET]Les frontières ne sont pas modifiées par les combats.</French>
+		<German>[ICON_BULLET]Grenzen werden durch Kampf nicht beeinflusst.</German>
+		<Italian>[ICON_BULLET]Borders are not influenced by combat.</Italian>
+		<Spanish>[ICON_BULLET]Borders are not influenced by combat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_INFLUENCE_ALLOWED_HELP</Tag>
+		<English>[ICON_BULLET]Allows combat to influence Culture.</English>
+		<French>[ICON_BULLET]Permet au combat d'influencer la culture.</French>
+		<German>[ICON_BULLET]Erlaubt die Einflussnahme von Kampf auf Kultur</German>
+		<Italian>[ICON_BULLET]Allows combat to influence Culture.</Italian>
+		<Spanish>[ICON_BULLET]Allows combat to influence Culture.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_VICTORY_INFLUENCE_HELP</Tag>
+		<English>[ICON_BULLET]Modifies culture change after a victory by %d1%.</English>
+		<French>[ICON_BULLET]Modifies culture change after a victory by %d1%.</French>
+		<German>[ICON_BULLET]Modifiziert die Kulturänderung nach einem Sieg im Kampf um %d1%.</German>
+		<Italian>[ICON_BULLET]Modifies culture change after a victory by %d1%.</Italian>
+		<Spanish>[ICON_BULLET]Modifies culture change after a victory by %d1%.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DEFEAT_INFLUENCE_HELP</Tag>
+		<English>[ICON_BULLET]Modifies culture change after a defeat by %d1%.</English>
+		<French>[ICON_BULLET]Modifies culture change after a defeat by %d1%.</French>
+		<German>[ICON_BULLET]Modifiziert die Kulturänderung nach einer Niederlage im Kampf um %d1%.</German>
+		<Italian>[ICON_BULLET]Modifies culture change after a defeat by %d1%.</Italian>
+		<Spanish>[ICON_BULLET]Modifies culture change after a defeat by %d1%.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_PILLAGE_INFLUENCE_HELP</Tag>
+		<English>[ICON_BULLET]Modifies culture change after pillaging by %d1%.</English>
+		<French>[ICON_BULLET]Modifies culture change after pillaging by %d1%.</French>
+		<German>[ICON_BULLET]Modifiziert die Kulturänderung nach Plündern um %d1%.</German>
+		<Italian>[ICON_BULLET]Modifies culture change after pillaging by %d1%.</Italian>
+		<Spanish>[ICON_BULLET]Modifies culture change after pillaging by %d1%.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NON_INFLUENCE</Tag>
+		<English>[ICON_BULLET]This unit does not influence culture via combat.</English>
+		<French>[ICON_BULLET]This unit does not influence culture via combat.</French>
+		<German>[ICON_BULLET]Diese Einheit beeinflusst Kultur nicht durch Kampf</German>
+		<Italian>[ICON_BULLET]This unit does not influence culture via combat.</Italian>
+		<Spanish>[ICON_BULLET]This unit does not influence culture via combat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_INFLUENCE</Tag>
+		<English>[ICON_BULLET]This unit influences culture via combat.</English>
+		<French>[ICON_BULLET]This unit influences culture via combat.</French>
+		<German>[ICON_BULLET]Diese Einheit beeinflusst Kultur durch Kampf</German>
+		<Italian>[ICON_BULLET]This unit influences culture via combat.</Italian>
+		<Spanish>[ICON_BULLET]This unit influences culture via combat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VICTORY_INFLUENCE</Tag>
+		<English>[ICON_BULLET]Modifies culture change after a victory by %d1%.</English>
+		<French>[ICON_BULLET]Modifies culture change after a victory by %d1%.</French>
+		<German>[ICON_BULLET]Modifiziert die Kulturänderung nach einem Sieg im Kampf um %d1%.</German>
+		<Italian>[ICON_BULLET]Modifies culture change after a victory by %d1%.</Italian>
+		<Spanish>[ICON_BULLET]Modifies culture change after a victory by %d1%.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PILLAGE_INFLUENCE</Tag>
+		<English>[ICON_BULLET]Modifies culture change after pillaging by %d1%.</English>
+		<French>[ICON_BULLET]Modifies culture change after pillaging by %d1%.</French>
+		<German>[ICON_BULLET]Modifiziert die Kulturänderung nach Plündern um %d1%.</German>
+		<Italian>[ICON_BULLET]Modifies culture change after pillaging by %d1%.</Italian>
+		<Spanish>[ICON_BULLET]Modifies culture change after pillaging by %d1%.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BAR_FIXED_BORDERS</Tag>
+		<English>Fixed Borders</English>
+		<French>Fixed Borders</French>
+		<German>Feste Grenzen</German>
+		<Italian>Fixed Borders</Italian>
+		<Spanish>Fixed Borders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_FIXED_BORDERS</Tag>
+		<English>[ICON_BULLET]Prevents the City's borders from being influenced by combat.</English>
+		<French>[ICON_BULLET]Prevents the City's borders from being influenced by combat.</French>
+		<German>[ICON_BULLET]Verhindert die Einflussnahme auf die Stadtgrenzen durch Kampf</German>
+		<Italian>[ICON_BULLET]Prevents the City's borders from being influenced by combat.</Italian>
+		<Spanish>[ICON_BULLET]Prevents the City's borders from being influenced by combat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEFENSE_MODIFIER</Tag>
+		<English>[ICON_BULLET]%D1_Bonus%% Defensive Strength</English>
+		<French>[ICON_BULLET]%D1_Bonus%% Force défensive</French>
+		<German>[ICON_BULLET]%D1_Bonus%% Verteidigungsstärke</German>
+		<Italian>[ICON_BULLET]%D1_Bonus%% Defensive Strength</Italian>
+		<Spanish>[ICON_BULLET]%D1_Bonus%% Defensive Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_BIRTH_PEDIA_HELP</Tag>
+		<English>[ICON_BULLET]Increases the population of the city by 1, up to a limit of 8</English>
+		<French>[ICON_BULLET]Accroît la population de la ville de 1, à concurrence de 8</French>
+		<German>[ICON_BULLET]Erhöht die Bevölkerung der Stadt um 1, bis zu einem Maximum von 8</German>
+		<Italian>[ICON_BULLET]Increases the population of the city by 1, up to a limit of 8</Italian>
+		<Spanish>[ICON_BULLET]Increases the population of the city by 1, up to a limit of 8</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MISC_PREREQ_ITEM</Tag>
+		<English>[ICON_BULLET]Requires: </English>
+		<French>[ICON_BULLET]Requiert : </French>
+		<German>[ICON_BULLET]Erfordert: </German>
+		<Italian>[ICON_BULLET]Requires: </Italian>
+		<Spanish>[ICON_BULLET]Requires: </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_STRENGTHPER</Tag>
+		<English>[ICON_BULLET]%d1% Strength</English>
+		<French>[ICON_BULLET]%d1% Force</French>
+		<German>[ICON_BULLET]%d1% Stärke</German>
+		<Italian>[ICON_BULLET]%d1% Strength</Italian>
+		<Spanish>[ICON_BULLET]%d1% Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_ATTACKPER</Tag>
+		<English>[ICON_BULLET]%d1% Attack Strength</English>
+		<French>[ICON_BULLET]%d1% Attack Strength</French>
+		<German>[ICON_BULLET]%d1% Angriffstärke</German>
+		<Italian>[ICON_BULLET]%d1% Attack Strength</Italian>
+		<Spanish>[ICON_BULLET]%d1% Attack Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_DEFENSEPER</Tag>
+		<English>[ICON_BULLET]%d1% Defense Strength</English>
+		<French>[ICON_BULLET]%d1% Defense Strength</French>
+		<German>[ICON_BULLET]%d1% Verteidigungsstärke</German>
+		<Italian>[ICON_BULLET]%d1% Defense Strength</Italian>
+		<Spanish>[ICON_BULLET]%d1% Defense Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_MOVEMENT</Tag>
+		<English>[ICON_BULLET]+%d1 Movement</English>
+		<French>[ICON_BULLET]+%d1 Movement</French>
+		<German>[ICON_BULLET]+%d1 Bewegung</German>
+		<Italian>[ICON_BULLET]+%d1 Movement</Italian>
+		<Spanish>[ICON_BULLET]+%d1 Movement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_FSCHANCE</Tag>
+		<English>[ICON_BULLET]%d1 First Strike Chances</English>
+		<French>[ICON_BULLET]%d1 First Strike Chances</French>
+		<German>[ICON_BULLET]%d1 Erstangriffschancen</German>
+		<Italian>[ICON_BULLET]%d1 First Strike Chances</Italian>
+		<Spanish>[ICON_BULLET]%d1 First Strike Chances</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_FS</Tag>
+		<English>[ICON_BULLET]%d1 First Strikes</English>
+		<French>[ICON_BULLET]%d1 First Strikes</French>
+		<German>[ICON_BULLET]%d1 Erstangriffe</German>
+		<Italian>[ICON_BULLET]%d1 First Strikes</Italian>
+		<Spanish>[ICON_BULLET]%d1 First Strikes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_DS</Tag>
+		<English>[ICON_BULLET]%d1% Defensive Strike Chance and Damage</English>
+		<French>[ICON_BULLET]%d1% Defensive Strike Chance and Damage</French>
+		<German>[ICON_BULLET]%d1% Chance auf Verteidigungsschlag und Schaden</German>
+		<Italian>[ICON_BULLET]%d1% Defensive Strike Chance and Damage</Italian>
+		<Spanish>[ICON_BULLET]%d1% Defensive Strike Chance and Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_STRENGTH</Tag>
+		<English>[ICON_BULLET]%d1 Strength</English>
+		<French>[ICON_BULLET]%d1 Strength</French>
+		<German>[ICON_BULLET]%d1 Stärke</German>
+		<Italian>[ICON_BULLET]%d1 Strength</Italian>
+		<Spanish>[ICON_BULLET]%d1 Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_ATTACKSTR</Tag>
+		<English>[ICON_BULLET]%d1 Attack Strength</English>
+		<French>[ICON_BULLET]%d1 Attack Strength</French>
+		<German>[ICON_BULLET]%d1 Angriffsstärke</German>
+		<Italian>[ICON_BULLET]%d1 Attack Strength</Italian>
+		<Spanish>[ICON_BULLET]%d1 Attack Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_DEFENSESTR</Tag>
+		<English>[ICON_BULLET]%d1 Defense Strength</English>
+		<French>[ICON_BULLET]%d1 Defense Strength</French>
+		<German>[ICON_BULLET]%d1 Verteidigungsstärke</German>
+		<Italian>[ICON_BULLET]%d1 Defense Strength</Italian>
+		<Spanish>[ICON_BULLET]%d1 Defense Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_HEALING</Tag>
+		<English>[ICON_BULLET]%d1% Healing</English>
+		<French>[ICON_BULLET]%d1% Healing</French>
+		<German>[ICON_BULLET]%d1% Heilend</German>
+		<Italian>[ICON_BULLET]%d1% Healing</Italian>
+		<Spanish>[ICON_BULLET]%d1% Healing</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_HEALINGCOMBAT</Tag>
+		<English>[ICON_BULLET]+%d1% Healing from Combat</English>
+		<French>[ICON_BULLET]+%d1% de soins suite à un combat</French>
+		<German>[ICON_BULLET]+%d1% Heilung nach dem Kampf</German>
+		<Italian>[ICON_BULLET]+%d1% Healing from Combat</Italian>
+		<Spanish>[ICON_BULLET]+%d1% Healing from Combat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_MOVEMENT_BAD</Tag>
+		<English>[ICON_BULLET]+%d1 Movement Cost</English>
+		<French>[ICON_BULLET]+%d1 Movement Cost</French>
+		<German>[ICON_BULLET]+%d1 Bewegungskosten</German>
+		<Italian>[ICON_BULLET]+%d1 Movement Cost</Italian>
+		<Spanish>[ICON_BULLET]+%d1 Movement Cost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_CRAZED</Tag>
+		<English>[ICON_BULLET]Crazed</English>
+		<French>[ICON_BULLET]Crazed</French>
+		<German>[ICON_BULLET]Wirr</German>
+		<Italian>[ICON_BULLET]Crazed</Italian>
+		<Spanish>[ICON_BULLET]Crazed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_MUTATION_FLYING</Tag>
+		<English>[ICON_BULLET]Flying</English>
+		<French>[ICON_BULLET]Flying</French>
+		<German>[ICON_BULLET]Flying</German>
+		<Italian>[ICON_BULLET]Flying</Italian>
+		<Spanish>[ICON_BULLET]Flying</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUN_PERCEPTION</Tag>
+		<English>Illuminating Light</English>
+		<French>Illuminating Light</French>
+		<German>Erhellendes Licht</German>
+		<Italian>Illuminating Light</Italian>
+		<Spanish>Illuminating Light</Spanish>
+	</TEXT>
+</Civ4GameText>

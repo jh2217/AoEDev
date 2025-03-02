@@ -1,0 +1,16 @@
+
+<Civ4UnitClassInfos xmlns="x-schema:MoreEvents_CIV4UnitSchema.xml">
+	<UnitClassInfos>
+	<UnitClassInfo>		<!-- Flying Patrian -->
+			<Type>UNITCLASS_THE_FLYING_PATRIAN</Type>
+			<Description>TXT_KEY_UNIT_THE_FLYING_PATRIAN</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_THE_FLYING_PATRIAN</DefaultUnit>
+			<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+	</UnitClassInfos>
+</Civ4UnitClassInfos>

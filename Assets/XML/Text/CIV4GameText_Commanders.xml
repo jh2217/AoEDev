@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_LIMIT1</Tag>
+		<English>Command Limit I</English>
+		<French>Extension d'unités I</French>
+		<German>Befehligen I</German>
+		<Italian>Command Limit I</Italian>
+		<Spanish>Command Limit I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_LIMIT2</Tag>
+		<English>Command Limit II</English>
+		<French>Extension d'unités II</French>
+		<German>Befehligen II</German>
+		<Italian>Command Limit II</Italian>
+		<Spanish>Command Limit II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_LIMIT3</Tag>
+		<English>Command Limit III</English>
+		<French>Extension d'unités III</French>
+		<German>Befehligen III</German>
+		<Italian>Command Limit III</Italian>
+		<Spanish>Command Limit III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_RANGE1</Tag>
+		<English>Command Range I</English>
+		<French>Portée de Commandement I</French>
+		<German>Befehligen Reichweite I</German>
+		<Italian>Command Range I</Italian>
+		<Spanish>Command Range I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_RANGE2</Tag>
+		<English>Command Range II</English>
+		<French>Portée de Commandement II</French>
+		<German>Befehligen Reichweite II</German>
+		<Italian>Command Range II</Italian>
+		<Spanish>Command Range II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_RANGE3</Tag>
+		<English>Command Range III</English>
+		<French>Portée de Commandement III</French>
+		<German>Befehligen Reichweite III</German>
+		<Italian>Command Range III</Italian>
+		<Spanish>Command Range III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_LEADERSHIP</Tag>
+		<English>Field Commander</English>
+		<French>Commandant de Terrain</French>
+		<German>Feldkommandant</German>
+		<Italian>Field Commander</Italian>
+		<Spanish>Field Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_LEADERSHIP</Tag>
+		<English>Leadership</English>
+		<French>Charisme</French>
+		<German>Führungsstärke</German>
+		<Italian>Leadership</Italian>
+		<Spanish>Leadership</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_FIELD_MEDIC1</Tag>
+		<English>Field Medic I</English>
+		<French>Médecin de Terrain I </French>
+		<German>Feldarzt I</German>
+		<Italian>Field Medic I</Italian>
+		<Spanish>Field Medic I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_FIELD_MEDIC2</Tag>
+		<English>Field Medic II</English>
+		<French>Médecin de Terrain II</French>
+		<German>Feldarzt II</German>
+		<Italian>Field Medic II</Italian>
+		<Spanish>Field Medic II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_FIELD_MEDICINE1</Tag>
+		<English>Field Medicine I</English>
+		<French>Médecine de Terrain I</French>
+		<German>Feldmedizin I</German>
+		<Italian>Field Medicine I</Italian>
+		<Spanish>Field Medicine I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_FIELD_MEDICINE2</Tag>
+		<English>Field Medicine II</English>
+		<French>Médecine de Terrain II</French>
+		<German>Feldmedizin II</German>
+		<Italian>Field Medicine II</Italian>
+		<Spanish>Field Medicine II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_BATTLE_COMMAND1</Tag>
+		<English>Battle Commander I</English>
+		<French>Battle Commander I</French>
+		<German>Schlachtkommandant I</German>
+		<Italian>Battle Commander I</Italian>
+		<Spanish>Battle Commander I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_BATTLE_COMMAND2</Tag>
+		<English>Battle Commander II</English>
+		<French>Battle Commander II</French>
+		<German>Schlachtkommandant II</German>
+		<Italian>Battle Commander II</Italian>
+		<Spanish>Battle Commander II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_BATTLE_COMMAND3</Tag>
+		<English>Battle Commander III</English>
+		<French>Battle Commander III</French>
+		<German>Schlachtkommandant III</German>
+		<Italian>Battle Commander III</Italian>
+		<Spanish>Battle Commander III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_BATTLE_COMMAND1</Tag>
+		<English>Battle Command I</English>
+		<French>Battle Command I</French>
+		<German>Schlachtkommando I</German>
+		<Italian>Battle Command I</Italian>
+		<Spanish>Battle Command I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_BATTLE_COMMAND2</Tag>
+		<English>Battle Command II</English>
+		<French>Battle Command II</French>
+		<German>Schlachtkommando II</German>
+		<Italian>Battle Command II</Italian>
+		<Spanish>Battle Command II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_BATTLE_COMMAND3</Tag>
+		<English>Battle Command III</English>
+		<French>Battle Command III</French>
+		<German>Schlachtkommando III</German>
+		<Italian>Battle Command III</Italian>
+		<Spanish>Battle Command III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_BATTLEFIELD_TACTICS</Tag>
+		<English>Battlefield Tactician</English>
+		<French>Stratège de terrain</French>
+		<German>Schlachtfeld Takitiker</German>
+		<Italian>Battlefield Tactician</Italian>
+		<Spanish>Battlefield Tactician</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_SUBTERFUGE</Tag>
+		<English>Subtle Tactics</English>
+		<French>Subtle Tactics</French>
+		<German>Raffinierte Taktiken</German>
+		<Italian>Subtle Tactics</Italian>
+		<Spanish>Subtle Tactics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_SUBTERFUGE</Tag>
+		<English>Subterfuge</English>
+		<French>Subterfuge</French>
+		<German>Ausflüchte</German>
+		<Italian>Subterfuge</Italian>
+		<Spanish>Subterfuge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_FORMATION_BATTLELINE</Tag>
+		<English>Tactical Knowledge - Battleline</English>
+		<French>Tactical Knowledge - Battleline</French>
+		<German>Taktikverständnis - Schlachtlinie</German>
+		<Italian>Tactical Knowledge - Battleline</Italian>
+		<Spanish>Tactical Knowledge - Battleline</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_FORMATION_BATTLELINE_INACTIVE</Tag>
+		<English>Battleline Tactics</English>
+		<French>Battleline Tactics</French>
+		<German>Schlachtlinien Taktiken</German>
+		<Italian>Battleline Tactics</Italian>
+		<Spanish>Battleline Tactics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_FORMATION_BATTLELINE_ACTIVE</Tag>
+		<English>Battleline Formation</English>
+		<French>Battleline Formation</French>
+		<German>Schlachtlinie Formation</German>
+		<Italian>Battleline Formation</Italian>
+		<Spanish>Battleline Formation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_FORMATION_BLOCK</Tag>
+		<English>Tactical Knowledge - Block Formation</English>
+		<French>Tactical Knowledge - Block Formation</French>
+		<German>Taktikverständnis - Block Formation</German>
+		<Italian>Tactical Knowledge - Block Formation</Italian>
+		<Spanish>Tactical Knowledge - Block Formation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_FORMATION_BLOCK_INACTIVE</Tag>
+		<English>Block Tactics</English>
+		<French>Block Tactics</French>
+		<German>Block Taktiken</German>
+		<Italian>Block Tactics</Italian>
+		<Spanish>Block Tactics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_FORMATION_BLOCK_ACTIVE</Tag>
+		<English>Block Formation</English>
+		<French>Block Formation</French>
+		<German>Block Formation</German>
+		<Italian>Block Formation</Italian>
+		<Spanish>Block Formation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_FORMATION_LOOSE</Tag>
+		<English>Tactical Knowledge - Loose Formation</English>
+		<French>Tactical Knowledge - Loose Formation</French>
+		<German>Taktikverständnis - Lose Formation</German>
+		<Italian>Tactical Knowledge - Loose Formation</Italian>
+		<Spanish>Tactical Knowledge - Loose Formation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_FORMATION_LOOSE_INACTIVE</Tag>
+		<English>Loose Tactics</English>
+		<French>Loose Tactics</French>
+		<German>Lose Taktiken</German>
+		<Italian>Loose Tactics</Italian>
+		<Spanish>Loose Tactics</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_FORMATION_LOOSE_ACTIVE</Tag>
+		<English>Loose Formation</English>
+		<French>Loose Formation</French>
+		<German>Lose Formation</German>
+		<Italian>Loose Formation</Italian>
+		<Spanish>Loose Formation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_SIEGE_WARFARE1</Tag>
+		<English>Siege Commander I</English>
+		<French>Siege Commander I</French>
+		<German>Belagerungskommandant I</German>
+		<Italian>Siege Commander I</Italian>
+		<Spanish>Siege Commander I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_SIEGE_WARFARE2</Tag>
+		<English>Siege Commander II</English>
+		<French>Siege Commander II</French>
+		<German>Belagerungskommandant II</German>
+		<Italian>Siege Commander II</Italian>
+		<Spanish>Siege Commander II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_SIEGE_WARFARE1</Tag>
+		<English>Siege Warfare I</English>
+		<French>Siege Warfare I</French>
+		<German>Belagerungskunst I</German>
+		<Italian>Siege Warfare I</Italian>
+		<Spanish>Siege Warfare I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_SIEGE_WARFARE2</Tag>
+		<English>Siege Warfare II</English>
+		<French>Siege Warfare II</French>
+		<German>Belagerungskunst II</German>
+		<Italian>Siege Warfare II</Italian>
+		<Spanish>Siege Warfare II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_ARTILLERY_MASTER</Tag>
+		<English>Artillery Master</English>
+		<French>Artillery Master</French>
+		<German>Artillerie Meister</German>
+		<Italian>Artillery Master</Italian>
+		<Spanish>Artillery Master</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_ARTILLERY_MASTER</Tag>
+		<English>Master Artillerist</English>
+		<French>Master Artillerist</French>
+		<German>Meisterartillerist</German>
+		<Italian>Master Artillerist</Italian>
+		<Spanish>Master Artillerist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_ARCHERY_COMMANDER1</Tag>
+		<English>Archery Commander I</English>
+		<French>Archery Commander I</French>
+		<German>Bogenschützenkommandant I</German>
+		<Italian>Archery Commander I</Italian>
+		<Spanish>Archery Commander I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_ARCHERY_COMMANDER2</Tag>
+		<English>Archery Commander II</English>
+		<French>Archery Commander II</French>
+		<German>Bogenschützenkommandant II</German>
+		<Italian>Archery Commander II</Italian>
+		<Spanish>Archery Commander II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_ARCHERY_COMMANDER1</Tag>
+		<English>Volley I</English>
+		<French>Volée I</French>
+		<German>Salve I</German>
+		<Italian>Volley I</Italian>
+		<Spanish>Volley I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_ARCHERY_COMMANDER2</Tag>
+		<English>Volley II</English>
+		<French>Volée II</French>
+		<German>Salve II</German>
+		<Italian>Volley II</Italian>
+		<Spanish>Volley II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_GARRISON_COMMANDER1</Tag>
+		<English>Garrison Commander I</English>
+		<French>Commandant de garnison I</French>
+		<German>Garnisonskommandant I</German>
+		<Italian>Garrison Commander I</Italian>
+		<Spanish>Garrison Commander I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_GARRISON_COMMANDER2</Tag>
+		<English>Garrison Commander II</English>
+		<French>Commandant de garnison II</French>
+		<German>Garnisonskommandant II</German>
+		<Italian>Garrison Commander II</Italian>
+		<Spanish>Garrison Commander II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_GARRISON_COMMANDER1</Tag>
+		<English>Defensive Station I</English>
+		<French>Posture Défensive I</French>
+		<German>Verteidungsposition I</German>
+		<Italian>Defensive Station I</Italian>
+		<Spanish>Defensive Station I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_GARRISON_COMMANDER2</Tag>
+		<English>Defensive Station II</English>
+		<French>Posture Défensive II</French>
+		<German>Verteidungsposition II</German>
+		<Italian>Defensive Station II</Italian>
+		<Spanish>Defensive Station II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_ZEALOUS1</Tag>
+		<English>Religious Leader I</English>
+		<French>Chef religieux I</French>
+		<German>Religiöser Führer I</German>
+		<Italian>Religious Leader I</Italian>
+		<Spanish>Religious Leader I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_ZEALOUS2</Tag>
+		<English>Religious Leader II</English>
+		<French>Chef religieux II</French>
+		<German>Religiöser Führer II</German>
+		<Italian>Religious Leader II</Italian>
+		<Spanish>Religious Leader II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_ZEALOUS1</Tag>
+		<English>Zealot I</English>
+		<French>Zélé I</French>
+		<German>Eiferer I</German>
+		<Italian>Zealot I</Italian>
+		<Spanish>Zealot I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_ZEALOUS2</Tag>
+		<English>Zealot II</English>
+		<French>Zélé II</French>
+		<German>Eiferer II</German>
+		<Italian>Zealot II</Italian>
+		<Spanish>Zealot II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_SCOUTING1</Tag>
+		<English>Field Survey I</English>
+		<French>Enquête de terrain I</French>
+		<German>Feldübersicht I</German>
+		<Italian>Field Survey I</Italian>
+		<Spanish>Field Survey I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_SCOUTING2</Tag>
+		<English>Field Survey II</English>
+		<French>Enquête de terrain II</French>
+		<German>Feldübersicht II</German>
+		<Italian>Field Survey II</Italian>
+		<Spanish>Field Survey II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_SCOUTING3</Tag>
+		<English>Field Survey III</English>
+		<French>Enquête de terrain III</French>
+		<German>Feldübersicht III</German>
+		<Italian>Field Survey III</Italian>
+		<Spanish>Field Survey III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_SCOUTING1</Tag>
+		<English>Scouting I</English>
+		<French>Repérage I</French>
+		<German>Auskundschaften I</German>
+		<Italian>Scouting I</Italian>
+		<Spanish>Scouting I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_SCOUTING2</Tag>
+		<English>Scouting II</English>
+		<French>Repérage II</French>
+		<German>Auskundschaften II</German>
+		<Italian>Scouting II</Italian>
+		<Spanish>Scouting II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_SCOUTING3</Tag>
+		<English>Scouting III</English>
+		<French>Repérage III</French>
+		<German>Auskundschaften III</German>
+		<Italian>Scouting III</Italian>
+		<Spanish>Scouting III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_ARCANE_MENTOR1</Tag>
+		<English>Arcane Mentor I</English>
+		<French>Mentor des Arcanes I</French>
+		<German>Magischer Mentor I</German>
+		<Italian>Arcane Mentor I</Italian>
+		<Spanish>Arcane Mentor I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_ARCANE_MENTOR2</Tag>
+		<English>Arcane Mentor II</English>
+		<French>Mentor des Arcanes II</French>
+		<German>Magischer Mentor II</German>
+		<Italian>Arcane Mentor II</Italian>
+		<Spanish>Arcane Mentor II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_ARCANE_MENTOR1</Tag>
+		<English>Arcane Student I</English>
+		<French>Étudiant des Arcanes I</French>
+		<German>Magischer Student I</German>
+		<Italian>Arcane Student I</Italian>
+		<Spanish>Arcane Student I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_ARCANE_MENTOR2</Tag>
+		<English>Arcane Student II</English>
+		<French>Étudiant des Arcanes II</French>
+		<German>Magischer Student II</German>
+		<Italian>Arcane Student II</Italian>
+		<Spanish>Arcane Student II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FOLLOWER_JOIN_ARMY</Tag>
+		<English>Join Army</English>
+		<French>Rejoindre l'armée</French>
+		<German>Dem Heer beitreten</German>
+		<Italian>Join Army</Italian>
+		<Spanish>Join Army</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FOLLOWER_LEAVE_ARMY</Tag>
+		<English>Leave Army</English>
+		<French>Quitter l'armée</French>
+		<German>Das Heer verlassen</German>
+		<Italian>Leave Army</Italian>
+		<Spanish>Leave Army</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_DEFENSE1</Tag>
+		<English>Commander Defense I</English>
+		<French>Commander Defense I</French>
+		<German>Kommandant Verteidigung I</German>
+		<Italian>Commander Defense I</Italian>
+		<Spanish>Commander Defense I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_DEFENSE2</Tag>
+		<English>Commander Defense II</English>
+		<French>Commander Defense II</French>
+		<German>Kommandant Verteidigung II</German>
+		<Italian>Commander Defense II</Italian>
+		<Spanish>Commander Defense II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GC_DEFENSE3</Tag>
+		<English>Commander Defense III</English>
+		<French>Commander Defense III</French>
+		<German>Kommandant Verteidigung III</German>
+		<Italian>Commander Defense III</Italian>
+		<Spanish>Commander Defense III</Spanish>
+	</TEXT>
+</Civ4GameText>

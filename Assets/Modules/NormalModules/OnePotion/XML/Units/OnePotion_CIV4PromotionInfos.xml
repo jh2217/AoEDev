@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- Promotion Infos -->
+<Civ4PromotionInfos xmlns="x-schema:OnePotion_CIV4UnitSchema.xml">
+	<PromotionInfos>
+		<PromotionInfo>		<!-- Healing Potion -->
+			<Type>PROMOTION_HEALING_POTION</Type>
+				<PromotionClass>PROMOTIONCLASS_POTION</PromotionClass>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Healing Salve -->
+			<Type>PROMOTION_HEALING_SALVE</Type>
+			<PromotionClass>PROMOTIONCLASS_POTION</PromotionClass>
+		</PromotionInfo>
+	<PromotionInfo>		<!-- Newt's Draught -->
+			<Type>PROMOTION_NEWTS_DRAUGHT</Type>
+			<PromotionClass>PROMOTIONCLASS_POTION</PromotionClass>
+		</PromotionInfo>
+	<PromotionInfo>		<!-- Potion of Invisibility -->
+			<Type>PROMOTION_POTION_OF_INVISIBILITY</Type>
+			<PromotionClass>PROMOTIONCLASS_POTION</PromotionClass>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Potion of Restoration -->
+			<Type>PROMOTION_POTION_OF_RESTORATION</Type>
+			<PromotionClass>PROMOTIONCLASS_POTION</PromotionClass>
+		</PromotionInfo>
+		
+	</PromotionInfos>
+</Civ4PromotionInfos>

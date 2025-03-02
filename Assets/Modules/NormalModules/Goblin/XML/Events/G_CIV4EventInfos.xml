@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Event Infos -->
+<Civ4EventInfos xmlns="x-schema:G_CIV4EventSchema.xml">
+	<EventInfos>
+	<EventInfo>	<!--Lukos Games-->
+			<Type>EVENT_LUKOS_GAMES_1</Type>
+			<Description>TXT_KEY_EVENT_LUKOS_GAMES_1</Description>
+			<bPickCity>1</bPickCity>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+			<UnitClassPromotions>
+				<UnitClassPromotion>
+					<UnitClass>UNITCLASS_HORSEMAN</UnitClass>
+					<UnitPromotion>PROMOTION_FLANKING1</UnitPromotion>
+				</UnitClassPromotion>
+			</UnitClassPromotions>
+			
+		</EventInfo>
+	<EventInfo>
+			<Type>EVENT_LUKOS_GAMES_2</Type>
+			<Description>TXT_KEY_EVENT_LUKOS_GAMES_2</Description>
+			<bPickCity>1</bPickCity>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+			<BuildingExtraYields>
+				<BuildingExtraYield>
+					<BuildingClass>BUILDINGCLASS_JOUSTING_TILT</BuildingClass>
+					<YieldType>YIELD_PRODUCTION</YieldType>
+					<iExtraYield>2</iExtraYield>
+				</BuildingExtraYield>
+			</BuildingExtraYields>
+		</EventInfo>
+	<EventInfo>
+			<Type>EVENT_LUKOS_GAMES_3</Type>
+			<Description>TXT_KEY_EVENT_LUKOS_GAMES_3</Description>
+			<bPickCity>1</bPickCity>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+			<PythonCallback>DoLukosGames3</PythonCallback>
+			
+			<iHurryAnger>2</iHurryAnger>
+		</EventInfo>
+		<EventInfo>	<!--Scorpion Sabotage-->
+			<Type>EVENT_SCORPION_SABOTAGE_1</Type>
+			<Description>TXT_KEY_EVENT_SCORPION_SABOTAGE_1</Description>
+			<bPickCity>1</bPickCity>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+			<UnitClassPromotions>
+				<UnitClassPromotion>
+					<UnitClass>UNITCLASS_ARCHER</UnitClass>
+					<UnitPromotion>PROMOTION_DRILL1</UnitPromotion>
+				</UnitClassPromotion>
+			</UnitClassPromotions>
+			
+		</EventInfo>
+	<EventInfo>
+			<Type>EVENT_SCORPION_SABOTAGE_2</Type>
+			<Description>TXT_KEY_EVENT_SCORPION_SABOTAGE_2</Description>
+			<bPickCity>1</bPickCity>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+			<BuildingExtraYields>
+				<BuildingExtraYield>
+					<BuildingClass>BUILDINGCLASS_ARCHERY_RANGE</BuildingClass>
+					<YieldType>YIELD_COMMERCE</YieldType>
+					<iExtraYield>2</iExtraYield>
+				</BuildingExtraYield>
+			</BuildingExtraYields>
+		</EventInfo>
+	<EventInfo>
+			<Type>EVENT_SCORPION_SABOTAGE_3</Type>
+			<Description>TXT_KEY_EVENT_SCORPION_SABOTAGE_3</Description>
+			<bPickCity>1</bPickCity>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+			<iHurryAnger>2</iHurryAnger>
+			<PythonCallback>DoScorpionSabotage3</PythonCallback>
+
+		</EventInfo>
+	<EventInfo>	<!--Muris Youth-->
+			<Type>EVENT_MURIS_YOUTH_1</Type>
+			<Description>TXT_KEY_EVENT_MURIS_YOUTH_1</Description>
+			<bPickCity>1</bPickCity>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+			<UnitClassPromotions>
+				<UnitClassPromotion>
+					<UnitClass>UNITCLASS_HUNTER</UnitClass>
+					<UnitPromotion>PROMOTION_SENTRY</UnitPromotion>
+				</UnitClassPromotion>
+			</UnitClassPromotions>
+			
+		</EventInfo>
+	<EventInfo>
+			<Type>EVENT_MURIS_YOUTH_2</Type>
+			<Description>TXT_KEY_EVENT_MURIS_YOUTH_2</Description>
+			<bPickCity>1</bPickCity>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+			<BuildingExtraCommerces>
+				<BuildingExtraCommerce>
+					<BuildingClass>BUILDINGCLASS_HUNTING_LODGE</BuildingClass>
+					<CommerceType>COMMERCE_GOLD</CommerceType>
+					<iExtraCommerce>2</iExtraCommerce>
+				</BuildingExtraCommerce>
+			</BuildingExtraCommerces>
+		</EventInfo>
+	<EventInfo>
+			<Type>EVENT_MURIS_YOUTH_3</Type>
+			<Description>TXT_KEY_EVENT_MURIS_YOUTH_3</Description>
+			<bPickCity>1</bPickCity>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+			<iHurryAnger>2</iHurryAnger>
+			<PythonCallback>DoMurisYouth3</PythonCallback>
+
+		</EventInfo>
+	</EventInfos>
+</Civ4EventInfos>

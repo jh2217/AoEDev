@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Event Infos -->
+<Civ4EventInfos xmlns="x-schema:BlackDuke_CIV4EventSchema.xml">
+	<EventInfos>
+				<EventInfo>
+			<Type>EVENT_BLACKDUKE_1</Type>
+			<Description>TXT_KEY_EVENT_BLACKDUKE_1</Description>
+			<WorldNewsTexts>
+				<Text>TXT_KEY_EVENT_BLACKDUKE_1</Text>
+			</WorldNewsTexts>
+			<bPickCity>1</bPickCity>
+			<iGold>-540</iGold>
+			<PythonCallback>doBlackDuke1</PythonCallback>
+			<PythonHelp>getHelpBlackDuke1</PythonHelp>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_BLACKDUKE_2</Type>
+			<Description>TXT_KEY_EVENT_BLACKDUKE_2</Description>
+			<WorldNewsTexts>
+				<Text>TXT_KEY_EVENT_BLACKDUKE_2</Text>
+			</WorldNewsTexts>
+			<bPickCity>1</bPickCity>
+			<iGold>-270</iGold>
+			<BuildingClass>BUILDINGCLASS_GUILD_OF_THE_NINE</BuildingClass>
+			<PythonCallback>doBlackDuke1</PythonCallback>
+			<PythonHelp>getHelpBlackDuke1</PythonHelp>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+		</EventInfo>
+	</EventInfos>
+</Civ4EventInfos>

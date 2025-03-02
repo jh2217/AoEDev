@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Unit Infos -->
+<Civ4UnitInfos xmlns="x-schema:BD_CIV4UnitSchema.xml">
+	<UnitInfos>
+		<UnitInfo>		<!-- The Black Duke -->
+			<Class>UNITCLASS_BLACK_DUKE</Class>
+			<Type>UNIT_BLACK_DUKE</Type>
+			<Combat>NONE</Combat>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_BLACK_DUKE</Description>
+			<Civilopedia>TXT_KEY_UNIT_BLACK_DUKE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BLACK_DUKE_STRATEGY</Strategy>
+			<bMilitaryHappiness>0</bMilitaryHappiness>
+			<bMilitarySupport>0</bMilitarySupport>
+			<bMilitaryProduction>0</bMilitaryProduction>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COUNTER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<iMoves>2</iMoves>
+			<iCombat>6</iCombat>
+			<iCombatDefense>6</iCombatDefense>
+			<iFirstStrikes>2</iFirstStrikes>
+			<iWithdrawalProb>20</iWithdrawalProb>
+			<iAsset>10</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>4</iGroupSize>
+				<fMaxSpeed>1.75</fMaxSpeed>
+				<fPadTime>1</fPadTime>
+				<iMeleeWaveSize>4</iMeleeWaveSize>
+				<iRangedWaveSize>4</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BLACK_DUKE</EarlyArtDefineTag>
+				</UnitMeshGroup>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BLACK_DUKE</EarlyArtDefineTag>
+				</UnitMeshGroup>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BLACK_DUKE</EarlyArtDefineTag>
+				</UnitMeshGroup>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BLACK_DUKE</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<iExtraCost>2</iExtraCost>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_BLACK_DUKE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_HERO</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<iMinLevel>1</iMinLevel>
+			<iTier>4</iTier>
+			<iWeaponTierMax>3</iWeaponTierMax>
+		</UnitInfo>
+	</UnitInfos>
+</Civ4UnitInfos>

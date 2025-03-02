@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:HAMSTER_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+		<SpellInfo>		<!-- Trial -->
+			<Type>SPELL_HAMSTER_TRIAL</Type>
+			<Description>TXT_KEY_SPELL_HAMSTER_TRIAL</Description>
+			<Civilopedia>TXT_KEY_SPELL_HAMSTER_TRIAL_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_HAMSTER_TRIAL_HELP</Help>
+			<PromotionPrereq1>PROMOTION_ALFAR</PromotionPrereq1>
+			<bHasCasted>1</bHasCasted>
+			<iCasterMinLevel>6</iCasterMinLevel>
+			<bInCityOnly>1</bInCityOnly>
+			<bAbility>1</bAbility>
+			<bAllowAI>1</bAllowAI>
+			<PyResult>spellHamsterTrial(pCaster)</PyResult>
+			<PyRequirement>reqHamsterTrial(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_FOUND_TEMPLE</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Hamstalfar/Buttons/inspired.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Summon Celvar -->	
+			<Type>SPELL_CELVAR</Type>
+			<Description>TXT_KEY_SPELL_CELVAR</Description>
+			<Civilopedia>TXT_KEY_SPELL_CELVAR_HELP</Civilopedia>
+			<Help>TXT_KEY_SPELL_CELVAR_HELP</Help>
+			<UnitCombatPrereq>UNITCOMBAT_RECON</UnitCombatPrereq>
+			<CivilizationPrereq>CIVILIZATION_HAMSTALFAR</CivilizationPrereq>
+			<TechPrereq>TECH_ANIMAL_HANDLING</TechPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bAbility>1</bAbility>
+			<iAIWeight>100</iAIWeight>
+			<iCasterMinLevel>6</iCasterMinLevel>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellCelvarSpawn(pCaster)</PyResult>
+			<PyRequirement>reqCelvarSpawn(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_COMMANDER_JOIN</Sound>
+			<Button>Art/Modules/Hamstalfar/Buttons/EagleHunter.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Add to Freak Show (Hamstalfar) -->
+			<Type>SPELL_ADD_TO_FREAK_SHOW_HAMSTALFAR</Type>
+			<Description>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW</Description>
+			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
+			<Help>TXT_KEY_SPELL_ADD_TO_FREAK_SHOW_HELP</Help>
+			<PromotionPrereq1>PROMOTION_ALFAR</PromotionPrereq1>
+			<UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
+			<CivilizationPrereq>CIVILIZATION_BALSERAPHS</CivilizationPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bInBordersOnly>1</bInBordersOnly>
+			<bInCityOnly>1</bInCityOnly>
+			<iAIWeight>30</iAIWeight>
+			<bHasCasted>1</bHasCasted>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<CreateBuildingType>BUILDING_CAGE_ELF</CreateBuildingType>
+			<bAbility>1</bAbility>
+			<bSacrificeCaster>1</bSacrificeCaster>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_DISPEL_MAGIC</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Spells/Add to Freak Show.dds</Button>
+		</SpellInfo>
+	</SpellInfos>
+</Civ4SpellInfos>

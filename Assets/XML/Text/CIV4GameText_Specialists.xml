@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Game Text - CIV Name -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT><!-- Culture -->
+		<Tag>TXT_KEY_SPECIALIST_ARTIST</Tag>
+		<English>Bard</English>
+		<French>
+			<Text>Barde:Bardes</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Barde</German>
+		<Italian>Bard</Italian>
+		<Spanish>Bard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_ARTIST_RIFE</Tag>
+		<English>Great Artist</English>
+		<French>
+			<Text>Artiste illustre:Artistes illustres</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Großer Künstler</German>
+		<Italian>Great Artist</Italian>
+		<Spanish>Great Artist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_ARTIST</Tag>
+		<English>Great Bard</English>
+		<French>Barde Illustre</French>
+		<German>Begnadeter Barde</German>
+		<Italian>Great Bard</Italian>
+		<Spanish>Great Bard</Spanish>
+	</TEXT>
+	<TEXT><!-- Health -->
+		<Tag>TXT_KEY_SPECIALIST_HEALER</Tag>
+		<English>Healer</English>
+		<French>
+			<Text>Guérisseur:Guérisseurs</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Heiler</German>
+		<Italian>Healer</Italian>
+		<Spanish>Healer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_PHYSICIAN</Tag>
+		<English>Great Physician</English>
+		<French>
+			<Text>Docteur illustre:Docteur illustre</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Großer Apotheker</German>
+		<Italian>Great Physician</Italian>
+		<Spanish>Great Physician</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEALER</Tag>
+		<English>Healer</English>
+		<French>
+			<Text>Guérisseur:Guérisseurs</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Heiler</German>
+		<Italian>Healer</Italian>
+		<Spanish>Healer</Spanish>
+	</TEXT>
+	<TEXT><!-- Religion -->
+		<Tag>TXT_KEY_SPECIALIST_PRIEST</Tag>
+		<English>Priest</English>
+		<French>
+			<Text>Prêtre:Prêtres</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>
+			<Text>Priester</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Sacerdote:Sacerdoti</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sacerdote:Sacerdotes</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_PRIEST</Tag><!-- overwrites vanilla: cause=missing plural in French -->
+		<English>Great Prophet</English>
+		<French>
+			<Text>Prophète illustre:Prophètes illustres</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>
+			<Text>Gro&#223;er Prophet</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Grande Sacerdote:Grandi Sacerdoti</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Sumo sacerdote:Sumo sacerdotes</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT><!-- Research -->
+		<Tag>TXT_KEY_SPECIALIST_SCIENTIST</Tag>
+		<English>Elder</English>
+		<French>
+			<Text>Ancien:Anciens</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>&#196;ltester</German>
+		<Italian>Elder</Italian>
+		<Spanish>Elder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_SCIENTIST</Tag>
+		<English>Great Sage</English>
+		<French>
+			<Text>Sage illustre:Sages illustres</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Genialer Forscher</German>
+		<Italian>Great Sage</Italian>
+		<Spanish>Great Sage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GREAT_SCIENTIST</Tag>
+		<English>Great Sage</English>
+		<French>Sage Illustre</French>
+		<German>Genialer Forscher</German>
+		<Italian>Great Sage</Italian>
+		<Spanish>Great Sage</Spanish>
+	</TEXT>
+	<TEXT><!-- Production -->
+		<Tag>TXT_KEY_SPECIALIST_CRAFTSMAN</Tag>
+		<English>Craftsman</English>
+		<French>
+			<Text>Artisan:Artisans</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Handwerker</German>
+		<Italian>Craftsman</Italian>
+		<Spanish>Craftsman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALIST_GREAT_ENGINEER</Tag>
+		<English>Great Engineer</English>
+		<French>
+			<Text>Ingénieur illustre:Ingénieurs illustres</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>
+			<Text>Gro&#223;er Ingenieur</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Grande Ingegnere:Grandi Ingegneri</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Gran ingeniero:Grandes ingenieros</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT><!-- Money -->
+		<Tag>TXT_KEY_SPECIALIST_GREAT_GUILDMASTER</Tag>
+		<English>Great Guildmaster</English>
+		<French>
+			<Text>Maître de guilde illustre:Maîtres de guilde illustres</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Great Guildmaster</German>
+		<Italian>Great Guildmaster</Italian>
+		<Spanish>Great Guildmaster</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMMANDER</Tag>
+		<English>Great Commander</English>
+		<French>Commandant Illustre</French>
+		<German>Genialer Feldherr</German>
+		<Italian>Great Commander</Italian>
+		<Spanish>Great Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMMANDER_PEDIA</Tag>
+		<English>Great Commanders can be used to either recruit units, build a Command Post in a city, or be added to another unit to increase its strength and the rate it gains experience points from combat. The recruit ability offers a quick random assortment of units, but the Command Post tends to have a better long term effect as it adds Great Commander points to the city making getting another all the more likely. A commander that is joined with a unit can always be split from the unit later on and used for other purposes, or joined to a different unit.</English>
+		<French>Great Commanders can be used to either recruit units, build a Command Post in a city, or be added to another unit to increase its strength and the rate it gains experience points from combat. The recruit ability offers a quick random assortment of units, but the Command Post tends to have a better long term effect as it adds Great Commander points to the city making getting another all the more likely. A commander that is joined with a unit can always be split from the unit later on and used for other purposes, or joined to a different unit.</French>
+		<German>Genialer Feldherr können benutzt werden, um entweder Einheiten zu rekrutieren, einen Kommandoposten in einer Stadt zu errichten, oder einer anderen Einheit hinzugefügt werden, um deren Stärke und die Geschwindigkeit mit der sie Erfahrungspunkte aus Kämpfen erhält zu steigern. Die Fähigkeit zu rekrutieren gewährt eine schnelle zufällige Auswahl von Einheiten, aber der Kommandoposten hat gewöhnlich einen besseren Langzeiteffekt, da er der Stadt Genialer Feldherr-Punkte hinzufügt, die es wahrscheinlicher machen, einen neuen Genialer Feldherr zu bekommen. Ein Genialer Feldherr der einer Einheit zugeteilt ist, kann später jederzeit von dieser Einheit getrennt werden und für andere Zwecke benützt werden, oder einer anderen Einheit zugeteilt werden.</German>
+		<Italian>Great Commanders can be used to either recruit units, build a Command Post in a city, or be added to another unit to increase its strength and the rate it gains experience points from combat. The recruit ability offers a quick random assortment of units, but the Command Post tends to have a better long term effect as it adds Great Commander points to the city making getting another all the more likely. A commander that is joined with a unit can always be split from the unit later on and used for other purposes, or joined to a different unit.</Italian>
+		<Spanish>Great Commanders can be used to either recruit units, build a Command Post in a city, or be added to another unit to increase its strength and the rate it gains experience points from combat. The recruit ability offers a quick random assortment of units, but the Command Post tends to have a better long term effect as it adds Great Commander points to the city making getting another all the more likely. A commander that is joined with a unit can always be split from the unit later on and used for other purposes, or joined to a different unit.</Spanish>
+	</TEXT>
+</Civ4GameText>

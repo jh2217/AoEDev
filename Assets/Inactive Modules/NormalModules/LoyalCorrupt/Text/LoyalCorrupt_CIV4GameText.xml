@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PICK_ALIGNMENT_1</Tag>
+		<English>Virtuous</English>
+		<French>Vertueux</French>
+		<German>Virtuous</German>
+		<Italian>Virtuous</Italian>
+		<Spanish>Virtuous</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PICK_ALIGNMENT_2</Tag>
+		<English>Pragmatic</English>
+		<French>Pragmatique</French>
+		<German>Pragmatic</German>
+		<Italian>Pragmatic</Italian>
+		<Spanish>Pragmatic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PICK_ALIGNMENT_3</Tag>
+		<English>Corrupt</English>
+		<French>Corrompu</French>
+		<German>Corrupt</German>
+		<Italian>Corrupt</Italian>
+		<Spanish>Corrupt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_GOOD</Tag>
+		<English>Virtuous Aligned Leaders</English>
+		<French>Alignement Vertueux</French>
+		<German>Virtuous Aligned Leaders</German>
+		<Italian>Virtuous Aligned Leaders</Italian>
+		<Spanish>Virtuous Aligned Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_FILTER_LEADER_EVIL</Tag>
+		<English>Corrupt Aligned Leaders</English>
+		<French>Alignement Corrompu</French>
+		<German>Corrupt Aligned Leaders</German>
+		<Italian>Corrupt Aligned Leaders</Italian>
+		<Spanish>Corrupt Aligned Leaders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RANDOM_EVIL</Tag>
+		<English>Random Corrupt Leader</English>
+		<French>Random Corrupt Leader</French>
+		<German>Random Corrupt Leader</German>
+		<Italian>Random Corrupt Leader</Italian>
+		<Spanish>Random Corrupt Leader</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RANDOM_GOOD</Tag>
+		<English>Random Virtuous Leader</English>
+		<French>Random Virtuous Leader</French>
+		<German>Random Virtuous Leader</German>
+		<Italian>Random Virtuous Leader</Italian>
+		<Spanish>Random Virtuous Leader</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_UNIT_ANGEL_STRATEGY</Tag>
+		<English>Angels are awarded to the Mercurians when Virtuous people die. This could be from a Virtuous* unit being killed, in which case they are made into an angel and maintain their experience to spend on new skills, or when a Virtuous city is razed. Angels are the only units that can be upgraded into the Mercurians' most powerful units, so a healthy supply is crucial to their conquest of Erebus.[NEWLINE][NEWLINE]*Virtuous units are those who follow the Empyrean, the Order or the Runes of Kilmorph religion. It also includes any living unit from the Mercurian civilization except for animal units.</English>
+		<French>Angels are awarded to the Mercurians when Virtuous people die. This could be from a Virtuous* unit being killed, in which case they are made into an angel and maintain their experience to spend on new skills, or when a Virtuous city is razed. Angels are the only units that can be upgraded into the Mercurians' most powerful units, so a healthy supply is crucial to their conquest of Erebus.[NEWLINE][NEWLINE]*Virtuous units are those who follow the Empyrean, the Order or the Runes of Kilmorph religion. It also includes any living unit from the Mercurian civilization except for animal units.</French>
+		<German>Angels are awarded to the Mercurians when Virtuous people die. This could be from a Virtuous* unit being killed, in which case they are made into an angel and maintain their experience to spend on new skills, or when a Virtuous city is razed. Angels are the only units that can be upgraded into the Mercurians' most powerful units, so a healthy supply is crucial to their conquest of Erebus.[NEWLINE][NEWLINE]*Virtuous units are those who follow the Empyrean, the Order or the Runes of Kilmorph religion. It also includes any living unit from the Mercurian civilization except for animal units.</German>
+		<Italian>Angels are awarded to the Mercurians when Virtuous people die. This could be from a Virtuous* unit being killed, in which case they are made into an angel and maintain their experience to spend on new skills, or when a Virtuous city is razed. Angels are the only units that can be upgraded into the Mercurians' most powerful units, so a healthy supply is crucial to their conquest of Erebus.[NEWLINE][NEWLINE]*Virtuous units are those who follow the Empyrean, the Order or the Runes of Kilmorph religion. It also includes any living unit from the Mercurian civilization except for animal units.</Italian>
+		<Spanish>Angels are awarded to the Mercurians when Virtuous people die. This could be from a Virtuous* unit being killed, in which case they are made into an angel and maintain their experience to spend on new skills, or when a Virtuous city is razed. Angels are the only units that can be upgraded into the Mercurians' most powerful units, so a healthy supply is crucial to their conquest of Erebus.[NEWLINE][NEWLINE]*Virtuous units are those who follow the Empyrean, the Order or the Runes of Kilmorph religion. It also includes any living unit from the Mercurian civilization except for animal units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PALADIN_STRATEGY</Tag>
+		<English>Paladins are the strongest Disciple unit. Only Virtuous players can build Paladins. The perfect heathen slaying unit for those following the noble path, the Paladin is immune to disease and gets a bonus against demons.</English>
+		<French>Paladins are the strongest Disciple unit. Only Virtuous players can build Paladins. Parfaite unité tueuse de païens pour ceux suivant la voie noble, le Paladin est immunisé à la maladie est possède un bonus contre les démons.</French>
+		<German>Der Paladin ist die stärkste geweihte Einheit. Nur Anführer mit guter Gesinnung können sie ausbilden. Der Paladin, ein Schlächter der Ungläubigen, folgt dem Pfad des Guten, ist immun gegen Infektionen und tötet – dank seines Bonus gegen sie – mit Leichtigkeit  die Dämonen.</German>
+		<Italian>Paladins are the strongest Disciple unit. Only Virtuous players can build Paladins. The perfect heathen slaying unit for those following the noble path, the Paladin is immune to disease and gets a bonus against demons.</Italian>
+		<Spanish>Paladins are the strongest Disciple unit. Only Virtuous players can build Paladins. The perfect heathen slaying unit for those following the noble path, the Paladin is immune to disease and gets a bonus against demons.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_OVERCOUNCIL_PEDIA</Tag>
+		<English>The Overcouncil is founded when the Empyrean is founded. After that any Virtuous or Pragmatic player that has researched the Honor tech can join it.[NEWLINE][NEWLINE]Being a member of the Overcouncil grants a significant diplomacy bonus with other members. It also forces members to comply with any resolutions that the Overcouncil has voted and agreed on, unless the player wants to defy and leave the Overcouncil. Overall these resolutions can be powerful and restrictive. Players that expect to remain members of the Overcouncil should expect to enjoy the advantages of the friendships it allows, but also be subject to its control. That is unless they maintain the relationships required to be voted the head of the council and get to pick the decrees themselves.[NEWLINE][NEWLINE]Each member of the Overcouncil has one vote on resolutions. Both the Empyrean hero Chalid Astrakein and the Malakim hero Teutorix grant the players that control them an additional vote on the Overcouncil.[NEWLINE][NEWLINE]The Overcouncil can vote on the following resolutions:[NEWLINE][NEWLINE][TAB]Head Councilor: The head councilor selects all other resolutions[NEWLINE][TAB]Force War: Force war on a non-member[NEWLINE][TAB]Assign City: Return control of a city to a member[NEWLINE][TAB]Single Currency: +1 Trade Route in all cities[NEWLINE][TAB]Open Markets: Trade Routes with all foreign cities[NEWLINE][TAB]Global Civic Public Healers: All members must adopt the Public Healers civic[NEWLINE][TAB]Global Civic Liberty: All members must adopt the Liberty civic[NEWLINE][TAB]Defensive Pact with all members: All members enter into a defensive pact[NEWLINE][TAB]Outlaw Death mana: No members can use Death mana[NEWLINE][TAB]Outlaw Entropy mana: No members can use Entropy mana[NEWLINE][TAB]Outlaw Shadow mana: No members can use Shadow mana</English>
+		<French>Le Conseil Supérieur est fondé lorsque Dies Diei ( la merveille sainte des Empyréens) est créée. Après cela, toute civilisation bonne ou neutre ayant recherché la technologie Honneur peut le rejoindre.[NEWLINE][NEWLINE]Etre membre du Conseil Supérieur implique un bonus diplomatique avec les autres membres. Les membres doivent aussi accepter toute résolution votée par le Conseil, à moins que le joueur ne veuille défier et quitter le Conseil. Ces résolution sont puissantes et restrictives. Les Joueurs qui veulent rester membres du Conseil Supérieur doivent profiter des avantages qu’il apporte mais aussi rester soumis à son contrôle, à moins qu’ils ne préfèrent maintenir les relations nécéssaires pour etre élu Haut Conseiller et choisir les résolutions eux-meme.[NEWLINE][NEWLINE]Chaque membre du Conseil Supérieur possède un vote pour les résolution. Les héros empyréen Chalid Astrakein et le héros malakim Teutorix fournissent au joueur qui les contrôle un vote supplémentaire.[NEWLINE][NEWLINE]Le Conseil Supérieur peut voter les résolutions suivantes:[NEWLINE][NEWLINE][TAB] Haut Conseiller- Le Haut Conseiller choisit les autres résolutions [NEWLINE][TAB] Appel à la Guerre- Les membres déclarent la Guerre à un Non-membre [NEWLINE][TAB]Assigner une ville : Rend le contrôle d’une ville à un membre [NEWLINE][TAB] Concurrence Unique - +1 Route Commerciale ([ICON_TRADE]) dans Toutes les Villes [NEWLINE][TAB]Marché ouverts – Routes commerciales avec toutes les villes étrangères [NEWLINE][TAB] Doctrine Mondiale Guérisseurs Publics - Tous les membres doivent adopter cette doctrine. [NEWLINE][TAB] Doctrine Mondiale Liberté  - Tous les membres doivent adopter cette doctrine. [NEWLINE][TAB]Pacte défensif avec tous les membres – Tous les membres signent un pacte de défense [NEWLINE][TAB] Déclarer la Mana de Mort Hors-la-Loi –Aucun membre ne peut utiliser la Mana de Mort[NEWLINE][TAB] Déclarer la Mana d’Entropie Hors-la-Loi –Aucun membre ne peut utiliser la Mana d’Entropie [NEWLINE][TAB] Déclarer la Mana d’Ombre Hors-la-Loi –Aucun membre ne peut utiliser la Mana d’Ombre</French>
+		<German>Der Hohe Rat ist gegründet, wenn der Tag der Tage ausgerufen wird. Nach der Gründung können alle Zivilisationen beitreten, die neutral oder gut sind und die Technologie Ehre erforscht haben.[NEWLINE][NEWLINE]Ein Mitglied des Hohen Rates zu sein, gestattet einen bedeutenden Bonus für die Diplomatie mit den anderen Mitgliedern. Es zwingt die Mitglieder aber auch, sich an sämtlichen Resolutionen zu halten, die der Hohe Rat gewählt und verabschiedet hat, ausgenommen der Spieler widersetzt sich und verlässt den Hohen Rat. Insgesamt können diese Resolutionen einflussreich und einschränkend sein. Spieler, die verharren, als ein Mitglied im Hohen Rat zu verweilen, sollten den Genuss der Freundschaft und deren Vorzüge die sie bietet, annehmen. Jedoch ist man unter ihrer Kontrolle und somit untertänig. Dies ist zu beachten, da die Spieler die Freundschaften aufrechterhalten die erforderlich sind, um als Hauptrat gewählt zu werden und die Verordnungen für sich zu beanspruchen.[NEWLINE][NEWLINE]Jedes Mitglied des Hohen Rates hat je eine Stimme pro Resolution. Die Helden Chalid Astrakein (Empyrion) und Teutorix (Malakim) gewähren demjenigen Spieler der sie kontrolliert, eine zusätzliche Stimme im Hohen Rat.[NEWLINE][NEWLINE]Der Hohe Rat kann folgende Resolutionen abstimmen lassen:[NEWLINE][NEWLINE][TAB]Ratsvorsitzender – Der Ratsvorsitzende wählt all die anderen Resolutionen[NEWLINE][TAB]Kriegszwang – erzwingt einen Krieg gegen ein *Nichtmitglied*.[NEWLINE][TAB]Stadt abtreten – man übergibt die Kontrolle über eine Stadt an ein Mitglied.[NEWLINE][TAB]Einheitswährung - +1 Handelsroute in allen Städten.[NEWLINE][TAB]Offene Märkte - Handelsrouten mit allen auswärtigen Städten.[NEWLINE][TAB]Einheitliche Gesellschaftsform Hippokratischer Eid - Alle Mitglieder müssen die Gesellschaftsform Hippokratischer Eid annehmen.[NEWLINE][TAB]Einheitliche Gesellschaftsform Hochkultur - Alle Mitglieder müssen die Gesellschaftsform Hochkultur annehmen.[NEWLINE][TAB]Verteidigungsbündnis mit allen Mitgliedern – Alle Mitglieder beschliessen ein Verteidigungsbündnis.[NEWLINE][TAB]Mana des Todes ächten – Kein Mitglied kann Mana des Todes verwenden.[NEWLINE][TAB]Mana der Entropie ächten - Kein Mitglied kann Mana der Entropie verwenden.[NEWLINE][TAB]Mana der Schatten ächten - Kein Mitglied kann Mana der Schatten verwenden.</German>
+		<Italian>The Overcouncil is founded when the Empyrean is founded. After that any Virtuous or Pragmatic player that has researched the Honor tech can join it.[NEWLINE][NEWLINE]Being a member of the Overcouncil grants a significant diplomacy bonus with other members. It also forces members to comply with any resolutions that the Overcouncil has voted and agreed on, unless the player wants to defy and leave the Overcouncil. Overall these resolutions can be powerful and restrictive. Players that expect to remain members of the Overcouncil should expect to enjoy the advantages of the friendships it allows, but also be subject to its control. That is unless they maintain the relationships required to be voted the head of the council and get to pick the decrees themselves.[NEWLINE][NEWLINE]Each member of the Overcouncil has one vote on resolutions. Both the Empyrean hero Chalid Astrakein and the Malakim hero Teutorix grant the players that control them an additional vote on the Overcouncil.[NEWLINE][NEWLINE]The Overcouncil can vote on the following resolutions:[NEWLINE][NEWLINE][TAB]Head Councilor: The head councilor selects all other resolutions[NEWLINE][TAB]Force War: Force war on a non-member[NEWLINE][TAB]Assign City: Return control of a city to a member[NEWLINE][TAB]Single Currency: +1 Trade Route in all cities[NEWLINE][TAB]Open Markets: Trade Routes with all foreign cities[NEWLINE][TAB]Global Civic Public Healers: All members must adopt the Public Healers civic[NEWLINE][TAB]Global Civic Liberty: All members must adopt the Liberty civic[NEWLINE][TAB]Defensive Pact with all members: All members enter into a defensive pact[NEWLINE][TAB]Outlaw Death mana: No members can use Death mana[NEWLINE][TAB]Outlaw Entropy mana: No members can use Entropy mana[NEWLINE][TAB]Outlaw Shadow mana: No members can use Shadow mana</Italian>
+		<Spanish>El Gran Consejo se funda cuando es creado el Dies Diei (el santuario Empyreo) is created.  Después de que cualquier jugador bueno o neutral haya investigado el Honor puede unirse a él.[NEWLINE][NEWLINE]Ser miembro del Gran Consejo garantiza una significante bonificación de diplomacia con los otros miembros. También fuerza a los miembros a cumplir con cualquier resolución que el Gran Consejo haya votado y accedido, a menos que el jugador quiera desafiar y dejar al Consejo. Todas estas resoluciones pueden ser poderosas y estrictas. Los jugadores que pretendan seguir siendo miembros del Gran Consejo deberían disfrutar de las ventajas de las amistades que permite, pero también estar sujetos bajo su control. Esto es al menos para mantener las relaciones requeridas para ser votados como dirigentes del consejo y seleccionar ellos mismos los decretos.[NEWLINE][NEWLINE]Cada miembro del Gran Consejo tiene un voto en las resoluciones.  Tanto el héroe Empyreo Chalid Astrakein como el héroe Malakim Teutórix garantizan a los jugadores que los controlen un voto adicional de cada uno en el Gran Consejo.[NEWLINE][NEWLINE]El Gran Consejo puede votar en las siguientes resoluciones:[NEWLINE][NEWLINE][TAB]Dirigente del Consejo: El dirigente del consejo selecciona las demás resoluciones[NEWLINE][TAB]Forzar Guerra: Forzar la guerra sobre un no-miembro[NEWLINE][TAB]Asignar Ciudad: Devolver el control de una ciudad a un miembro[NEWLINE][TAB]Moneda Única: +1 ruta comercial en todas las ciudades[NEWLINE][TAB]Mercados Abiertos: Rutas comerciales con todas las ciudades extranjeras[NEWLINE][TAB]Doctrina Global de Curanderos Públicos: Todos los miembros deben adoptar la doctrina Curanderos Públicos[NEWLINE][TAB]Doctrina Global de Libertad: Todos los miembros deben adoptar la doctrina Libertad[NEWLINE][TAB]Pacto de Defensa Mutua entre todos los miembros: Todos los miembros entran en un Pacto de Defensa Mutua[NEWLINE][TAB]Ilegalizar el maná de Muerte: Ningún miembro puede usar maná de Muerte[NEWLINE][TAB]Ilegalizar el maná de Entropía: Ningún miembro puede usar maná de Entropía[NEWLINE][TAB]Ilegalizar el maná de Sombra: Ningún miembro puede usar el maná Sombrío</Spanish>
+	</TEXT>
+<TEXT>
+		<Tag>TXT_KEY_CONCEPT_ALIGNMENT_PEDIA</Tag>
+		<English>[H1]Alignment[\H1][PARAGRAPH:2]Rise from Erebus features a DnD-style alignment system, with 9 possible alignments on two seperate axes. These axes are Virtuous, Pragmatic, and Corrupt, and Lawful, Neutral, and Chaotic. Each leader starts with one from each axis, and some units and civics can only be used by players of a specific alignment.  They also affect your diplomatic relations with other players, granting you bonuses to players of the same alignment (on that axis) and negatives to players of other alignments. [PARAGRAPH:2]Without the Broader Alignments game option selected, the only way to change your alignment is by adopting a State Religion. With the Broader Alignments option, many additional things can affect alignment; Units, Spells, Promotions, Events, Civics, Buildings. Some of these can only do so in lump-sum amounts, while others are able to do so via prolonged effects. [PARAGRAPH:2]Available Alignment combinations: Lawful Virtuous, Neutral Virtuous, Chaotic Virtuous, Lawful Pragmatic, True Pragmatic, Chaotic Pragmatic, Lawful Corrupt, Neutral Corrupt, and Chaotic Corrupt.</English>
+		<French>[H1]Alignement[\H1][PARAGRAPH:2]Rise from Erebus implémente un système d'alignement basé sur Donjons et Dragons, contenant 9 alignements possibles sur deux axes distincts.[NEWLINE]Ces axes sont:[NEWLINE][TAB]Bon, Neutre et Mauvais[NEWLINE][TAB]Loyal, Neutre et Chaotique.[NEWLINE]Chaque dirigeant commence en étant positionné sur ces deux axes (ex. Loyal Bon).[PARAGRAPH:2]Certaines unités et doctrines ne peuvent être utilisées que par les joueurs d'un alignement spécifique.[NEWLINE]Elles affectent également les relations diplomatiques avec les autres joueurs, vous conférant des bonus diplomatiques avec les joueurs de même alignement (sur un axe donné) et des malus avec les joueurs d'alignement différent.[PARAGRAPH:2]Sans avoir activé l'option des alignements enrichis, la seule façon de changer d'alignement est d'adopter une Religion d'État.Avec l'option activée, de nombreuses choses peuvent affecter votre alignement: unités, sorts, promotions, évènements, doctrines, constructions. Certaines influent de manière fixe, tandis que d'autres ont une influence à long terme.[PARAGRAPH:2]Les combinaisons possibles d'alignements sont : Loyal Bon, Neutre Bon, Chaotique Bon, Loyal Neutre, Neutre Neutre (Vrai Neutre), Chaotic Neutre, Loyal Mauvais, Neutre Mauvais et Chaotique Mauvais.</French>
+		<German>[H1]Gesinnung[\H1][PARAGRAPH:2]Rise from Erebus enthält ein DnD (Dungeons'n'Dragons) Gesinnungssystem, das sich aus 9 unterschiedlichen Gesinnungen, die durch zwei Axen bestimmt werden. Die eine Achse enthält Gut, Neutral und Böse, die andere enthält Rechtschaffen, Neutral und Chaotisch. Jeder Anführer beginnt mit je einer Eigenschaft von jeder Achse, manche Einheiten und Staatsformen im Spiel können nur von Spielern mit einer bestimmten Gesinnung gewählt werden. Die Gesinnungen haben außerdem Einfluss auf die diplomatischen Beziehungen  mit anderen Völkern, indem sie Boni für Spieler derselben Gesinnung und Mali bei Spielern einer anderen Gesinnung liefern. [PARAGRAPH:2]Ohne die Aktivierung der Breiteren Gesinnung im Spiel ist die einzige Möglichkeit, die eigene Gesinnung zu ändern, die Annahme von Staatsreligionen. Durch die Option Bereitere Gesinnung können viele weitere Dinge die Gesinnung beeinflussen. Einheiten, Zauber, Beförderungen, Ereignisse, Staatsformen, Gebäude. Manche von diesen verändern nur in geringem Maße etwas, während wieder andere über einen langen Zeitraum Wirkung entfalten.[PARAGRAPH:2]Verfügbare Kombinationen der Gesinnungen sind: [NEWLINE]Rechtschaffen Gut[NEWLINE]Neutral Gut[NEWLINE]Chaotisch Gut[NEWLINE]Rechtschaffen Neutral[NEWLINE]Neutral Neutral[NEWLINE]Chaotisch Neutral[NEWLINE]Rechtschaffen Böse[NEWLINE]Neutral Böse[NEWLINE]Chaotisch Böse.</German>
+		<Italian>[H1]Alignment[\H1][PARAGRAPH:2]Rise from Erebus features a DnD-style alignment system, with 9 possible alignments on two seperate axes. These axes are Virtuous, Pragmatic, and Corrupt, and Lawful, Neutral, and Chaotic. Each leader starts with one from each axis, and some units and civics can only be used by players of a specific alignment.  They also affect your diplomatic relations with other players, granting you bonuses to players of the same alignment (on that axis) and negatives to players of other alignments. [PARAGRAPH:2]Without the Broader Alignments game option selected, the only way to change your alignment is by adopting a State Religion. With the Broader Alignments option, many additional things can affect alignment; Units, Spells, Promotions, Events, Civics, Buildings. Some of these can only do so in lump-sum amounts, while others are able to do so via prolonged effects. [PARAGRAPH:2]Available Alignment combinations: Lawful Virtuous, Neutral Virtuous, Chaotic Virtuous, Lawful Pragmatic, True Pragmatic, Chaotic Pragmatic, Lawful Corrupt, Neutral Corrupt, and Chaotic Corrupt.</Italian>
+		<Spanish>[H1]Alignment[\H1][PARAGRAPH:2]Rise from Erebus features a DnD-style alignment system, with 9 possible alignments on two seperate axes. These axes are Virtuous, Pragmatic, and Corrupt, and Lawful, Neutral, and Chaotic. Each leader starts with one from each axis, and some units and civics can only be used by players of a specific alignment.  They also affect your diplomatic relations with other players, granting you bonuses to players of the same alignment (on that axis) and negatives to players of other alignments. [PARAGRAPH:2]Without the Broader Alignments game option selected, the only way to change your alignment is by adopting a State Religion. With the Broader Alignments option, many additional things can affect alignment; Units, Spells, Promotions, Events, Civics, Buildings. Some of these can only do so in lump-sum amounts, while others are able to do so via prolonged effects. [PARAGRAPH:2]Available Alignment combinations: Lawful Virtuous, Neutral Virtuous, Chaotic Virtuous, Lawful Pragmatic, True Pragmatic, Chaotic Pragmatic, Lawful Corrupt, Neutral Corrupt, and Chaotic Corrupt.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_OVERCOUNCIL_PEDIA</Tag>
+		<English>[H1]Overcouncil[\H1][PARAGRAPH:2]Any Virtuous or Pragmatic player that has researched [LINK=TECH_WAY_OF_THE_WISE]Way of the Wise[\LINK] can join the Overcouncil. The primary advantage of the Overcouncil is the large diplomatic bonus with other members, but also has some special resolutions to increase trade, etc. However, it also forces members to comply with any degrees that the Overcouncil has voted and agreed on (unless the player wants to defy and leave the Overcouncil). These degrees can enforce a defensive pact between all the members, force war or stop trade with another player, outlaw death, entropy or shadow mana, and similar. Overall these laws are powerful and restrictive. Players that expect to remain members of the Overcouncil should expect to enjoy the advantages of the friendships it allows, but also be subject to its control. That is unless they maintain the relationships required to be voted the head of the council and get to pick the decrees themselves.[PARAGRAPH:2]The Empyrean religious hero, [LINK=UNIT_CHALID]Chalid Astrakein[\LINK], and the Malakim Civilization's hero, [LINK=UNIT_TEUTORIX]Teutorix[\LINK], are both councilors, giving the civilization that controls them an additional vote in the Overcouncil.</English>
+		<French>[H1]Overcouncil[\H1][PARAGRAPH:2]Any Virtuous or Pragmatic player that has researched [LINK=TECH_WAY_OF_THE_WISE]Way of the Wise[\LINK] can join the Overcouncil. The primary advantage of the Overcouncil is the large diplomatic bonus with other members, but also has some special resolutions to increase trade, etc. However, it also forces members to comply with any degrees that the Overcouncil has voted and agreed on (unless the player wants to defy and leave the Overcouncil). These degrees can enforce a defensive pact between all the members, force war or stop trade with another player, outlaw death, entropy or shadow mana, and similar. Overall these laws are powerful and restrictive. Players that expect to remain members of the Overcouncil should expect to enjoy the advantages of the friendships it allows, but also be subject to its control. That is unless they maintain the relationships required to be voted the head of the council and get to pick the decrees themselves.[PARAGRAPH:2]The Empyrean religious hero, [LINK=UNIT_CHALID]Chalid Astrakein[\LINK], and the Malakim Civilization's hero, [LINK=UNIT_TEUTORIX]Teutorix[\LINK], are both councilors, giving the civilization that controls them an additional vote in the Overcouncil.</French>
+		<German>[H1]Overcouncil[\H1][PARAGRAPH:2]Any Virtuous or Pragmatic player that has researched [LINK=TECH_WAY_OF_THE_WISE]Way of the Wise[\LINK] can join the Overcouncil. The primary advantage of the Overcouncil is the large diplomatic bonus with other members, but also has some special resolutions to increase trade, etc. However, it also forces members to comply with any degrees that the Overcouncil has voted and agreed on (unless the player wants to defy and leave the Overcouncil). These degrees can enforce a defensive pact between all the members, force war or stop trade with another player, outlaw death, entropy or shadow mana, and similar. Overall these laws are powerful and restrictive. Players that expect to remain members of the Overcouncil should expect to enjoy the advantages of the friendships it allows, but also be subject to its control. That is unless they maintain the relationships required to be voted the head of the council and get to pick the decrees themselves.[PARAGRAPH:2]The Empyrean religious hero, [LINK=UNIT_CHALID]Chalid Astrakein[\LINK], and the Malakim Civilization's hero, [LINK=UNIT_TEUTORIX]Teutorix[\LINK], are both councilors, giving the civilization that controls them an additional vote in the Overcouncil.</German>
+		<Italian>[H1]Overcouncil[\H1][PARAGRAPH:2]Any Virtuous or Pragmatic player that has researched [LINK=TECH_WAY_OF_THE_WISE]Way of the Wise[\LINK] can join the Overcouncil. The primary advantage of the Overcouncil is the large diplomatic bonus with other members, but also has some special resolutions to increase trade, etc. However, it also forces members to comply with any degrees that the Overcouncil has voted and agreed on (unless the player wants to defy and leave the Overcouncil). These degrees can enforce a defensive pact between all the members, force war or stop trade with another player, outlaw death, entropy or shadow mana, and similar. Overall these laws are powerful and restrictive. Players that expect to remain members of the Overcouncil should expect to enjoy the advantages of the friendships it allows, but also be subject to its control. That is unless they maintain the relationships required to be voted the head of the council and get to pick the decrees themselves.[PARAGRAPH:2]The Empyrean religious hero, [LINK=UNIT_CHALID]Chalid Astrakein[\LINK], and the Malakim Civilization's hero, [LINK=UNIT_TEUTORIX]Teutorix[\LINK], are both councilors, giving the civilization that controls them an additional vote in the Overcouncil.</Italian>
+		<Spanish>[H1]Overcouncil[\H1][PARAGRAPH:2]Any Virtuous or Pragmatic player that has researched [LINK=TECH_WAY_OF_THE_WISE]Way of the Wise[\LINK] can join the Overcouncil. The primary advantage of the Overcouncil is the large diplomatic bonus with other members, but also has some special resolutions to increase trade, etc. However, it also forces members to comply with any degrees that the Overcouncil has voted and agreed on (unless the player wants to defy and leave the Overcouncil). These degrees can enforce a defensive pact between all the members, force war or stop trade with another player, outlaw death, entropy or shadow mana, and similar. Overall these laws are powerful and restrictive. Players that expect to remain members of the Overcouncil should expect to enjoy the advantages of the friendships it allows, but also be subject to its control. That is unless they maintain the relationships required to be voted the head of the council and get to pick the decrees themselves.[PARAGRAPH:2]The Empyrean religious hero, [LINK=UNIT_CHALID]Chalid Astrakein[\LINK], and the Malakim Civilization's hero, [LINK=UNIT_TEUTORIX]Teutorix[\LINK], are both councilors, giving the civilization that controls them an additional vote in the Overcouncil.</Spanish>
+	</TEXT>
+<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALTAR_OF_THE_LUONNOTAR_STRATEGY</Tag>
+		<English>The first 6 pieces of the Altar can only be created by sacrificing a Great Prophet, and even then only by Virtuous or Pragmatic civilizations. The last piece has to be built.</English>
+		<French>[TAB]Les Luonnotar proclament que ce bloc de pierre est l'endroit où s'est tenu le Démiurge lorsqu'il vint en sa création avant la chute d'Agares. Chaque religion a un mythe différent sur l'origine de la pierre, mais aucune ne conteste sa puissance, toutes les unités créées par l'empire la possédant sont bénies.[PARAGRAPH:2]Les six premières parties de l'autel ne peuvent être construites qu'en sacrifiant un Prophète Illustre ou un Luonnotar, et seulement par une civilisation Bonne ou Neutre. La dernière partie doit être construite.</French>
+		<German>[TAB]Die Luonnotar beteuern, dass der einzig wahre Gott auf diesem Stück Stein stand, als er vor dem Untergang von Agares auf die Erde kam. Jede Religion kennt ihren eigenen Mythos über die Herkunft dieses Steins, aber keine bestreitet seine Macht; jede Einheit, die in dem Reich aufgestellt wird, welches den Stein besitzt, erhält die Beförderung "Gesegnet".[PARAGRAPH:2]Die ersten sechs Teile des Altars können nur durch die Opferung eines Großen Propheten oder eines Luonnotar errichtet werden, und nur von Zivilisationen, die gut oder neutral sind. Der letzte Teil muss gebaut werden.</German>
+		<Italian>The first 6 pieces of the Altar can only be created by sacrificing a Great Prophet, and even then only by Virtuous or Pragmatic civilizations. The last piece has to be built.</Italian>
+		<Spanish>TAB]Los Luonnotar proclaman que este eslabón de piedra fue sobre el que el dios verdadero se mantuvo en pie cuando vino a la creación antes de la caída de Agares. Cada religión tiene un mito diferente acerca del origen de la piedra, pero ninguna disputa su control; todas las unidades creadas en el imperio que la posea serán Bendecidas.[PARAGRAPH:2]Las primeras 6 piezas del Altar sólo pueden ser creadas sacrificando un Gran Profeta o un Luonnotar, y solamente por civilizaciones Buenas o Neutrales. La última pieza debe ser construida.</Spanish>
+	</TEXT>
+<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_EVIL</Tag>
+		<English>Corrupt</English>
+		<French>Corrompu</French>
+		<German>Böse</German>
+		<Italian>Corrupt</Italian>
+		<Spanish>Maligno</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_GOOD</Tag>
+		<English>Virtuous</English>
+		<French>Vertueux</French>
+		<German>Gut</German>
+		<Italian>Virtuous</Italian>
+		<Spanish>Bueno</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL</Tag>
+		<English>Pragmatic</English>
+		<French>Pragmatique</French>
+		<German>Pragmatic</German>
+		<Italian>Pragmatic</Italian>
+		<Spanish>Pragmatic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Building will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Construire ce bâtiment fera tendre votre Alignement vers Pragmatique de +/%D1, au rythme de +/%D2 chaque tour</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes verändert Eure Gesinnung innerhalb von Pragmatic +/%D1, um +/%D2 je Runde</German>
+		<Italian>[ICON_BULLET]Constructing this Building will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Building will shift your Alignment to Pragmatic, at a rate of %D1 each turn</English>
+		<French>[ICON_BULLET]Construire ce bâtiment fera tendre vote Alignement vers Pragmatique, à un rythme de %D1 chaque tour</French>
+		<German>[ICON_BULLET]Die Errichtung dieses Gebäudes verändert Eure Gesinnung zu Neutral mit einer Rate von %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Constructing this Building will shift your Alignment to Pragmatic, at a rate of %D1 each turn</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Building will shift your Alignment to Pragmatic, at a rate of %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Unit will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Produire cette Unité fera tendre votre Alignement vers Pragmatique de +/%D1, au rythme de +/%D2 à chaque tour</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit verändert Eure Gesinnung innerhalb von Pragmatic +/%D1, um +/%D2 je Runde</German>
+		<Italian>[ICON_BULLET]Constructing this Unit will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Unit will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Constructing this Unit will shift your Alignment to Pragmatic, at a rate of %D1 each turn</English>
+		<French>[ICON_BULLET]Produire cette Unité fera tendre votre Alignement vers Pragmatique, à un rythme de %D1 chaque tour</French>
+		<German>[ICON_BULLET]Die Ausbildung dieser Einheit verändert Eure Gesinnung zu Pragmatic, mit einer Rate von %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Constructing this Unit will shift your Alignment to Pragmatic, at a rate of %D1 each turn</Italian>
+		<Spanish>[ICON_BULLET]Constructing this Unit will shift your Alignment to Pragmatic, at a rate of %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Civic will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine fera tendre votre Alignement vers Pragmatique de +/%D1, à un rythme de +/%D2 à chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Staatsform wird Eure Gesinnung zu Pragmatic +/%D1 ändern, um %D2 je Runde</German>
+		<Italian>[ICON_BULLET]Adopting this Civic will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Civic will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Civic will shift your Alignment to Pragmatic, at a rate of %D1 each turn</English>
+		<French>[ICON_BULLET]Adopter cette Doctrine fera tendre votre Alignement vers Pragmatique, à un rythme de %D1 à chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Staatsform wird Eure Gesinnung zu Pragmatic ändern, mit einer Rate von %D1 je Runde</German>
+		<Italian>[ICON_BULLET]Adopting this Civic will shift your Alignment to Pragmatic, at a rate of %D1 each turn</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Civic will shift your Alignment to Pragmatic, at a rate of %D1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ALIGN_SHIFT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Religion will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</English>
+		<French>[ICON_BULLET]Se convertir à cette Religion fera tendre votre Alignement vers Pragmatique de +/%D1 à un rythme de +/%D2 chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Religion wird Eure Gesinnung zu Pragmatic +/%D1 ändern, um %D2 je Runde</German>
+		<Italian>[ICON_BULLET]Adopting this Religion will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Religion will shift your Alignment to within +/%D1 of Pragmatic, by +/%D2 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELIGION_ALIGN_SHIFT_FLAT_NEUTRAL</Tag>
+		<English>[ICON_BULLET]Adopting this Religion will shift your Alignment to Pragmatic, at a rate of %d1 each turn</English>
+		<French>[ICON_BULLET]Se convertir à cette Religion fera tendre votre Alignement vers Pragmatique au rythme de %d1 à chaque tour</French>
+		<German>[ICON_BULLET]Die Annahme dieser Religion wird Eure Gesinnung zu Pragmatic ändern, mit einer Rate von %d1 je Runde</German>
+		<Italian>[ICON_BULLET]Adopting this Religion will shift your Alignment to Pragmatic, at a rate of %d1 each turn</Italian>
+		<Spanish>[ICON_BULLET]Adopting this Religion will shift your Alignment to Pragmatic, at a rate of %d1 each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_EVIL_BA</Tag>
+		<English>Chaotic Corrupt: %d1 %d2</English>
+		<French>Chaotique Corrompu: %d1 %d2</French>
+		<German>Chaotisch Böse: %d1 %d2</German>
+		<Italian>Chaotic Corrupt: %d1 %d2</Italian>
+		<Spanish>Chaotic Corrupt: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_GOOD_BA</Tag>
+		<English>Chaotic Virtuous: %d1 %d2</English>
+		<French>Chaotique Vertueux : %d1 %d2</French>
+		<German>Chaotisch Gut: %d1 %d2</German>
+		<Italian>Chaotic Virtuous: %d1 %d2</Italian>
+		<Spanish>Chaotic Virtuous: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_NEUTRAL_BA</Tag>
+		<English>Chaotic Pragmatic: %d1 %d2</English>
+		<French>Chaotique Pragmatique: %d1 %d2</French>
+		<German>Chaotisch: %d1 %d2</German>
+		<Italian>Chaotic Pragmatic: %d1 %d2</Italian>
+		<Spanish>Chaotic Pragmatic: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_EVIL_BA</Tag>
+		<English>Lawful Corrupt: %d1 %d2</English>
+		<French>Loyal Corrompu : %d1 %d2</French>
+		<German>Rechtschaffen Böse: %d1 %d2</German>
+		<Italian>Lawful Corrupt: %d1 %d2</Italian>
+		<Spanish>Lawful Corrupt: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_GOOD_BA</Tag>
+		<English>Lawful Virtuous: %d1 %d2</English>
+		<French>Loyal Vertueux : %d1 %d2</French>
+		<German>Rechtschaffen Gut: %d1 %d2</German>
+		<Italian>Lawful Virtuous: %d1 %d2</Italian>
+		<Spanish>Lawful Virtuous: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_NEUTRAL_BA</Tag>
+		<English>Lawful Pragmatic: %d1 %d2</English>
+		<French>Loyal Pragmatique: %d1 %d2</French>
+		<German>Rechtschaffen: %d1 %d2</German>
+		<Italian>Lawful Pragmatic: %d1 %d2</Italian>
+		<Spanish>Lawful Pragmatic: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_EVIL_BA</Tag>
+		<English>Corrupt Pragmatic: %d1 %d2</English>
+		<French>Corrompu Pragmatique: %d1 %d2</French>
+		<German>Böse: %d1 %d2</German>
+		<Italian>Corrupt Pragmatic: %d1 %d2</Italian>
+		<Spanish>Corrupt Pragmatic: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_GOOD_BA</Tag>
+		<English>Virtuous: %d1 %d2</English>
+		<French>Vertueux : %d1 %d2</French>
+		<German>Gut: %d1 %d2</German>
+		<Italian>Virtuous: %d1 %d2</Italian>
+		<Spanish>Virtuous: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_NEUTRAL_BA</Tag>
+		<English>Neutral Pragmatic: %d1 %d2</English>
+		<French>Neutre Pragmatique : %d1 %d2</French>
+		<German>Neutral Pragmatic: %d1 %d2</German>
+		<Italian>Neutral Pragmatic: %d1 %d2</Italian>
+		<Spanish>Neutral Pragmatic: %d1 %d2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_EVIL</Tag>
+		<English>Chaotic Corrupt</English>
+		<French>Chaotique Corrompu</French>
+		<German>Chaotisch Böse</German>
+		<Italian>Chaotic Corrupt</Italian>
+		<Spanish>Chaotic Corrupt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_GOOD</Tag>
+		<English>Chaotic Virtuous</English>
+		<French>Chaotique Vertueux</French>
+		<German>Chaotisch Gut</German>
+		<Italian>Chaotic Virtuous</Italian>
+		<Spanish>Chaotic Virtuous</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_CHAOTIC_NEUTRAL</Tag>
+		<English>Chaotic Pragmatic</English>
+		<French>Chaotique Pragmatique</French>
+		<German>Chaotisch</German>
+		<Italian>Chaotic Pragmatic</Italian>
+		<Spanish>Chaotic Pragmatic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_EVIL</Tag>
+		<English>Lawful Corrupt</English>
+		<French>Loyal Corrompu</French>
+		<German>Rechtschaffen Böse</German>
+		<Italian>Lawful Corrupt</Italian>
+		<Spanish>Lawful Corrupt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_GOOD</Tag>
+		<English>Lawful Virtuous</English>
+		<French>Loyal Vertueux</French>
+		<German>Rechtschaffen Gut</German>
+		<Italian>Lawful Virtuous</Italian>
+		<Spanish>Lawful Virtuous</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_LAWFUL_NEUTRAL</Tag>
+		<English>Lawful Pragmatic</English>
+		<French>Loyal Pragmatique</French>
+		<German>Rechtschaffen</German>
+		<Italian>Lawful Pragmatic</Italian>
+		<Spanish>Lawful Pragmatic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_EVIL</Tag>
+		<English>Corrupt</English>
+		<French>Neutre Corrompu</French>
+		<German>Böse</German>
+		<Italian>Corrupt</Italian>
+		<Spanish>Corrupt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_GOOD</Tag>
+		<English>Virtuous</English>
+		<French>Neutre Vertueux</French>
+		<German>Gut</German>
+		<Italian>Virtuous</Italian>
+		<Spanish>Virtuous</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALIGNMENT_NEUTRAL_NEUTRAL</Tag>
+		<English>Neutral Pragmatic</English>
+		<French>Neutre Pragmatique</French>
+		<German>Neutral Pragmatic</German>
+		<Italian>Neutral Pragmatic</Italian>
+		<Spanish>Neutral Pragmatic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_UNDERCOUNCIL_PEDIA</Tag>
+		<English>The Undercouncil it is founded at the same time as the Council of Esus. It can only be joined by Pragmatic or Corrupt players that have researched the Deception tech. Although they don't have to worship the Council of Esus to join, they can't be members of the Overcouncil.[NEWLINE][NEWLINE]The Undercouncil is run by money, nearly all of its resolutions cost gold from its members. They can vote to declare war on a common enemy, and open borders to each other. There are no restrictive resolutions on the Undercouncil, they never vote to enforce a civic or outlaw anything but players don't get the larger attitude modifier members of the Overcouncil share with each other.[NEWLINE][NEWLINE]The Undercouncil can vote on the following resolutions:[NEWLINE][NEWLINE][TAB]Head Councilor: The head councilor selects all other resolutions[NEWLINE][TAB]Force War: Force war on a non-member[NEWLINE][TAB]Develop Secret Codes: Grants a free Great Sage to each player, players can only trade techs with Undercouncil members[NEWLINE][TAB]Enlist the Nightwatch: Grants a Nightwatch unit to each member[NEWLINE][TAB]Fund Dissidents: Has a chance to create unhappiness in non-Undercouncil cities[NEWLINE][TAB]Gambling Ring: Reduces the cost of Gambling Houses by 75%, raises the global crime rate[NEWLINE][TAB]Slave Trade: Allows members to buy and sell slaves, raises the global crime rate[NEWLINE][TAB]Smuggling Ring: Allows members to build Smugglers' Ports in their coastal cities, raises the global crime rate[NEWLINE][TAB]Open Borders: All members open borders to each other</English>
+		<French>Le Conseil Souterrain est fondé en utilisant un prophète ou un marchant pour créer Nox Nioctis (La merveille sainte du Conseil d’Esus) dans la ville sainte du Conseil d’Esus. Seulzs les civilisations Pragmatiques ou Corrompu ayant recherché la technologie Subterfuge. Bienqu’ils n’aient pas à vénérer le Conseil d’Esus, ils ne peuvent être membres du Conseil Supérieur.[NEWLINE][NEWLINE] Le Conseil Souterrain est dirigé par l’argent, presque toutes les résolutions coutent de l’argent aux membres. Ils peuvent voter la guerre contre un ennemi commun, et signer des accords de libres passage entre eux. Il n’y a pas de resolutions restrictives dans le Conseil Souterrain, ils ne votent jamais pour imposer une doctrine ou bannir quelque chose mais les membres n’ont pas les bonus diplomatiques que partagent les membres du Conseiol Supérieur.[NEWLINE][NEWLINE] Le Conseil Souterrain peut voter les résolutions suivantes: [NEWLINE][NEWLINE][TAB] Haut Conseiller- Le Haut Conseiller choisit les autres résolutions[NEWLINE][TAB]Appel à la Guerre- Les membres déclarent la Guerre à un Non-membre [NEWLINE][TAB] Developpper des Codes Secrets –Fournit un Sage Illustre gratuit à chaque membre, Les membres peuvent seulement échanger les technologies avec d'autres membres [NEWLINE][TAB] Enrôler la Garde de Nuit - Un Garde de Nuit est fourni à chaque membre[NEWLINE][TAB] Fomenter des Troubles - Peut causer du mécontentement dans les villes des non-Membres du Conseil Souterrain [NEWLINE][TAB] Intaller un Cercle de Jeu - Réduit le coût de production des Maisons de Jeu de 75%, augmente le crime global[NEWLINE][TAB] Installer le marché aux esclaves -les Membres peuvent acheter et vendre des esclaves, augmente le crime global [NEWLINE][TAB] Installer un Cercle de Contrebande - Permet la construction du Port de Contrebandiers dans les villes côtières, augmente le crime global [NEWLINE][TAB]Frontières Ouvertes – Tous les membres signet des accords de libre passage</French>
+		<German>Der Geheime Rat wird durch die Verwendung eines Großen Propheten oder eines Großen Händlers gegründet, indem man mit einem dieser Großen Persönlichkeiten die "Nacht der Nächte", in der heiligen Stadt des Rat des Esus ausrufen lässt. Nur Spieler, die neutral oder böse sind und die Technologie List erforscht haben, können dem Rat beitreten. Obwohl sie nicht den Rat des Esus anbeten müssen um ihm beizutreten, können sie nicht auch noch ein Mitglied des Hohen Rates sein.[NEWLINE][NEWLINE]Der Geheime Rat funktioniert durch Geld, fast alle seiner Resolutionen kostet Gold, welche die Mitglieder finanzieren. Sie können für eine Kriegserklärung an einen gemeinsamen Gegner abstimmen, und die Grenzen unter sich für jeden anderen öffnen. Der Geheimer Rat verabschiedet keine einschränkenden Resolutionen, niemals wird über eine Erzwingung einer einheitlichen Gesellschaftsform abgestimmt, weder wird irgendwas verachtet oder ausgeschlossen, aber die Spieler erhalten nicht den größeren Umwandler, was die Gesinnung füreinander betrifft, welchen die Mitglieder des Hohen Rates jedoch sich untereinander teilen.[NEWLINE][NEWLINE]Der Geheime Rat kann folgenden Resolutionen abstimmen lassen:[NEWLINE][TAB]Ratsvorsitzender- Der Ratsvorsitzende wählt alle anderen Resolutionen.[NEWLINE][TAB]Geheimcode entwickeln - Mitglieder können Technologien nur zwischen Mitgliedern tauschen, jedes Mitglied das 25 Gold zahlt, bekommt einen freien großen Forscher.[NEWLINE][TAB]Nachtwache anwerben - jedes Mitglied das 25 Gold zahlt, bekommt eine Nachtwache.[NEWLINE][TAB]Dissidenten finanzieren - kann Unzufriedenheit in Städten von nicht-Ratsmitgliedern verursachen.[NEWLINE][TAB]Glücksspielerring - reduziert die Produktionskosten von Glücksspielhäusern um 75%, erhöht die weltweite Verbrechensrate um 5%.[NEWLINE][TAB]Sklavenhandel - erlaubt Mitgliedern Sklaven zu kaufen und verkaufen, erhöht die weltweite Verbrechensrate um 5%.[NEWLINE][TAB]Schmugglerring - +1 Handelsweg in allen Städten, erlaubt Mitgliedern Schmugglerhäfen in ihren Küstenstädten zu bauen, erhöht die weltweite Verbrechensrate um 5%.[NEWLINE][TAB]Grenzen öffnen - Alle Mitglieder öffnen untereinander ihre Grenzen.</German>
+		<Italian>The Undercouncil it is founded at the same time as the Council of Esus. It can only be joined by Pragmatic or Corrupt players that have researched the Deception tech. Although they don't have to worship the Council of Esus to join, they can't be members of the Overcouncil.[NEWLINE][NEWLINE]The Undercouncil is run by money, nearly all of its resolutions cost gold from its members. They can vote to declare war on a common enemy, and open borders to each other. There are no restrictive resolutions on the Undercouncil, they never vote to enforce a civic or outlaw anything but players don't get the larger attitude modifier members of the Overcouncil share with each other.[NEWLINE][NEWLINE]The Undercouncil can vote on the following resolutions:[NEWLINE][NEWLINE][TAB]Head Councilor: The head councilor selects all other resolutions[NEWLINE][TAB]Force War: Force war on a non-member[NEWLINE][TAB]Develop Secret Codes: Grants a free Great Sage to each player, players can only trade techs with Undercouncil members[NEWLINE][TAB]Enlist the Nightwatch: Grants a Nightwatch unit to each member[NEWLINE][TAB]Fund Dissidents: Has a chance to create unhappiness in non-Undercouncil cities[NEWLINE][TAB]Gambling Ring: Reduces the cost of Gambling Houses by 75%, raises the global crime rate[NEWLINE][TAB]Slave Trade: Allows members to buy and sell slaves, raises the global crime rate[NEWLINE][TAB]Smuggling Ring: Allows members to build Smugglers' Ports in their coastal cities, raises the global crime rate[NEWLINE][TAB]Open Borders: All members open borders to each other</Italian>
+		<Spanish>El Consejo Oculto se funda usando un profeta o un mercante para crear el Nox Noctis (el santuario sagrado del Consejo de Esus) en la ciudad santa del Consejo de Esus. Sólo se pueden unir a él jugadores Neutrales o Malvados que hayan investigado el Engaño.  Aunque no tienen que ser seguidores del Consejo de Esus para unirse, no pueden ser miembros del Consejo Oculto si no lo hacen.[NEWLINE][NEWLINE]El Consejo Oculto funciona con dinero, casi todas las resoluciones del mismo les cuesta oro a sus miembros. Pueden votar para declarar la guerra sobre un enemigo común, y abrir fronteras entre ellos. No hay resoluciones estrictas en el Consejo Oculto, nunca votan para forzar una doctrina o prohibir algo, y los jugadores no consiguen el modificador alto de actitud que los miembros del Gran Consejo comparten entre ellos.[NEWLINE][NEWLINE]El Consejo Oculto puede votar por las siguientes resoluciones:[NEWLINE][NEWLINE][TAB]Cabeza del Consejo: El Cabeza del Consejo selecciona las demás resoluciones[NEWLINE][TAB]Forzar Guerra: Forzar la guerra sobre un no-miembro[NEWLINE][TAB]Desarrollar códigos secretos: Da un Gran Científico gratis a cada jugador, y los jugadores sólo pueden comerciar tecnología con otros miembros del Consejo Oculto[NEWLINE][TAB]Enrolar a los Vigilantes de la Noche: Da una unidad Vigilante de la Noche a cada miembro[NEWLINE][TAB]Colocar Disidentes: Tiene una probabilidad de crear infelicidad en todas las ciudades que no sean de miembros del Consejo Oculto[NEWLINE][TAB]Círculo de Apuestas: Reduce los costes de las Casas de Apuestas en un 75% y aumenta el índice de criminalidad global[NEWLINE][TAB]Mercado de Esclavos: Permite a los miembros comprar y vender esclavos, y aumenta el índice de criminalidad global[NEWLINE][TAB]Círculo de Contrabando: Permite a los miembros construir Puertos de Contrabandistas en sus ciudades costeras, y aumenta el índice global de criminalidad[NEWLINE][TAB]Fronteras Abiertas: Todos los miembros abren sus fronteras los unos con los otros</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_UNIT_EIDOLON_STRATEGY</Tag>
+		<English>Eidolons are demon disciple units that offer alternate upgrades for Champions and Priests. They require Iron or Mithril and an Corrupt alignment, but no specific building. Priest upgraded Eidolons keep their spells, and melee upgraded Eidolons keep any melee-only promotions they have acquired, so consider upgrading rather than building directly. In any case, they multi-use units with high strength and free march promotion.</English>
+		<French>Eidolons are demon disciple units that offer alternate upgrades for Champions and Priests. They require Iron or Mithril and an Corrupt alignment, but no specific building. Priest upgraded Eidolons keep their spells, and melee upgraded Eidolons keep any melee-only promotions they have acquired, so consider upgrading rather than building directly. In any case, they multi-use units with high strength and free march promotion.</French>
+		<German>Eidolons sind dämonische geweihte Einheiten, die eine Alternative zum Aufrüsten von Champions und Priestern bieten. Sie erfordern Eisen oder Mithril und stehen nur bösen Reichen zur Verfügung, erfordern jedoch kein Gebäude. Zu Eidolons aufgerüstete Priester behalten ihre Zaubersprüche, und Nahkampfeinheiten behalten alle für sie spezifischen Beförderungen, die sie erworben haben. Daher sollte man in Betracht ziehen andere Einheiten aufzurüsten anstatt Eidolons direkt zu bauen. In jedem Fall sind sie vielseitige Einheiten mit hoher Stärke und einer freien "Marschieren"-Beförderung.</German>
+		<Italian>Eidolons are demon disciple units that offer alternate upgrades for Champions and Priests. They require Iron or Mithril and an Corrupt alignment, but no specific building. Priest upgraded Eidolons keep their spells, and melee upgraded Eidolons keep any melee-only promotions they have acquired, so consider upgrading rather than building directly. In any case, they multi-use units with high strength and free march promotion.</Italian>
+		<Spanish>Eidolons are demon disciple units that offer alternate upgrades for Champions and Priests. They require Iron or Mithril and an Corrupt alignment, but no specific building. Priest upgraded Eidolons keep their spells, and melee upgraded Eidolons keep any melee-only promotions they have acquired, so consider upgrading rather than building directly. In any case, they multi-use units with high strength and free march promotion.</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_UNIT_MANES_STRATEGY</Tag>
+		<English>Manes have a chance of being automatically created when an Corrupt* unit dies or a Pragmatic or Corrupt city is razed. They are gifted to Infernal civilizations and can either be upgraded to other units or sacrificed to add population to the city.[NEWLINE][NEWLINE]*Corrupt units are those with the Ashen Veil, Council of Esus or Octopus overlords religion. Or spellcasters that practice Death or Entropy magic.</English>
+		<French>Manes have a chance of being automatically created when an Corrupt* unit dies or a Pragmatic or Corrupt city is razed. They are gifted to Infernal civilizations and can either be upgraded to other units or sacrificed to add population to the city.[NEWLINE][NEWLINE]*Corrupt units are those with the Ashen Veil, Council of Esus or Octopus overlords religion. Or spellcasters that practice Death or Entropy magic.</French>
+		<German>Manes have a chance of being automatically created when an Corrupt* unit dies or a Pragmatic or Corrupt city is razed. They are gifted to Infernal civilizations and can either be upgraded to other units or sacrificed to add population to the city.[NEWLINE][NEWLINE]*Corrupt units are those with the Ashen Veil, Council of Esus or Octopus overlords religion. Or spellcasters that practice Death or Entropy magic.</German>
+		<Italian>Manes have a chance of being automatically created when an Corrupt* unit dies or a Pragmatic or Corrupt city is razed. They are gifted to Infernal civilizations and can either be upgraded to other units or sacrificed to add population to the city.[NEWLINE][NEWLINE]*Corrupt units are those with the Ashen Veil, Council of Esus or Octopus overlords religion. Or spellcasters that practice Death or Entropy magic.</Italian>
+		<Spanish>Manes have a chance of being automatically created when an Corrupt* unit dies or a Pragmatic or Corrupt city is razed. They are gifted to Infernal civilizations and can either be upgraded to other units or sacrificed to add population to the city.[NEWLINE][NEWLINE]*Corrupt units are those with the Ashen Veil, Council of Esus or Octopus overlords religion. Or spellcasters that practice Death or Entropy magic.</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_CONCEPT_ARMAGEDDON_COUNTER_PEDIA</Tag>
+		<English>[H1]The Armageddon Counter[\H1][PARAGRAPH:2]The Armageddon counter goes up when bad things happen (cities are razed, the Ashen Veil is founded, an entropy node is built, etc) and down when good things happen (Mardero dies, The Ashen Veil holy city is razed, etc.). Depending on the civs in the game the Armageddon Counter either rises slowly over the course of the game, or tends to grow to about 20-40 and then levels off (assuming the player doesn't do anything to influence it).[PARAGRAPH:2]It affects many things. Hell terrain will only spread to Ashen Veil players lands until the counter hits 25, then it will start to spread to unowned tiles. At 50 it will start to spread to other Corrupt players lands and at 75 it will start to spread to Pragmatic lands.[PARAGRAPH:2]So if hell is beginning to creep into your lands you have a few options to respond. Sending out some units to sack the Ashen Veil holy city would be an excellent way to get the Armageddon counter under control and to keep hell out of your lands. You could also gift a few powerful units to a player that is at war with the Infernals if you wanted to contribute without getting into the war directly.[PARAGRAPH:2]The Armageddon counter also influences the chance that fire spreads to nearby tiles and the attitude modifier between good and evil civs. There is a promotion called Stigmata that gives the unit a percentage bonus equal to half the Armageddon counter as well as other mechanics that reward some players (especially the Sheaim) for having a high Armageddon count.[PARAGRAPH:2]Since the alignment attitudes are influenced by the Armageddon count (getting better towards their own alignment and worse towards the opposed alignment) when the Armageddon count gets high huge good vs evil battles tend to break out.[PARAGRAPH:2]Kael's Notes: Functionally the AC serves to bring additional conflict to the end game. In Beyond the Sword Firaxis added espionage and corporations to address late game stagnancy. We were trying to solve the same problem but did it with the AC to try to bring conflict and a sense of urgency to the late game.</English>
+		<French>[H1]Le Compteur Armageddon[\H1][PARAGRAPH:2][TAB]Le Compteur Armageddon augmente lorsque de mauvaises choses ont lieu ( villes rasées, Le Voile de Cendres fondé, un n&#156;ud d'entropie construit etc ) et diminue lorsque de bonnes choses ont lieu ( Mort de Mardero, ville sainte du Voile de Cendres rasée etc ). Selon les civilisations en jeu, le Compteur Armageddon soit monte lentement au cours de la partie, soit monte dans les 20-40 avant de stagner(Si le joueur ne fait rien pour l'influencer).[PARAGRAPH:1]Il affecte de nombreuses choses. Le terrain infernal ne s'étendra que sur les terres des adeptes du Voile de Cendres jusqu'à ce qu'il atteigne 25, puis il s'étendra sur les zones non possédées. A 50 il commencera à s'étendre sur les terres des joueurs Corrompus et à 75 sur celles des joueurs Pragmatiques.[PARAGRAPH:1]Donc si l'enfer commence à apparaître sur vos terres, vous avez quelques possibilités de le contrer. Envoyer quelques unités piller la ville sainte du Voile de Cendres est un excellent moyen de garder le contrôle du Compteur Armageddon et de laisser les Enfers hors de vos frontières. Vous pouvez aussi offrir quelques puissantes unités à un joueur en guerre avec les infernaux si vous voulez aider sans entrer en guerre.[PARAGRAPH:1]Le Compteur Armageddon influence aussi les chances que le feu se propage sur les cases proches et modifie les attitudes entre les civilisations du Bien et celles du Mal. La promotion Stigmate donne à une unité une pourcentage bonus égal à la moitié du compteur, et d'autres mécanismes avantagent certains joueurs (particulièrement les Sheaïms) pour avoir un haut compteur. Puisque les attitudes liées aux alignements sont influencées par le compteur Armageddon (meilleures relations avec ceux qui partagent votre alignement et moins bonnes avec ceux qui ont l'alignement opposé), lorsque celui-ci atteint de hautes valeurs, Des guerres dantesques du Bien contre le Mal ont des chances d'éclater.[PARAGRAPH:1]Notez que la plupart des contributions au Compteur Armageddon sont assignées au joueur. Cela a un impact sur les relations IA-Joueur.</French>
+		<German>[H1]Der Armageddonzähler[\H1][PARAGRAPH:2][TAB]Der Armageddonzähler steigt, wenn schlimme Dinge passieren (Städte werden niedergebrannt, die Religion des Aschfahlen Schleiers wird gegründet, eine Quelle entropischer Manabrunnen wird gebaut, etc.) und sinkt wenn gute Dinge passieren (Mardero stirbt, die heilige Stadt des Aschfahlen Schleiers wird niedergebrannt). In Abhängigkeit der am Spiel teilnehmenden Zivilisationen steigt der Zähler entweder langsam aber kontinuierlich an, oder aber steigt auf 20-40 um dann wieder zu sinken.[PARAGRAPH:1]Der Zähler beeinflusst viele Dinge im Spiel. Höllenterritorium wird sich nur innerhalb des Gebietes der dem Aschfahlen Schleier zugehörigen Spielern verbreiten, bis der Zähler die 25 erreicht. Ab diesem Punkt wird sich das Höllenterritorium auch auf nicht beanspruchtes Land ausbreiten. Ab einem Zählerstand von 50 wird es sich auch auf Gebieten anderer böser Zivilisationen ausbreiten und ab einem Wert von 75 sogar auf den Ländereien neutraler Zivilisationen[PARAGRAPH:1]So, was kannst Du tun wenn sich die Hölle langsam aber sicher breit macht? Du hast ein paar Optionen. Zum einen kannst Du ein paar Einheiten ausschicken um die Heilige Stadt des Aschfahlen Schleiers dem Erdboden gleich zu machen. Das wäre ein hervorragender Weg dem Aschfahlen Schleier Einhalt zu gebieten und den Armageddonzähler unter Kontrolle zu bekommen. Zum anderen kannst Du Zivilisationen die sich im Kriegszustand mit den Dämonen befinden militärisch unterstützen und Ihnen ein paar starke Einheiten schicken. Dies würde Dich zudem aus einer direkten Konfrontation heraushalten.[PARAGRAPH:1]Der Armageddonzähler beeinflusst auch die Möglichkeiten, dass sich Feuer auf Nachbarfelder ausbreitet und die Beziehungen zwischen den guten und den bösen Zivilisationen. Es gibt ferner eine Beförderung namens Stigmata die einen prozentualen Bonus auf die Stärke einer Einheit, entsprechend der Hälfte des Armageddon-Zähler verleiht sowie andere Mechanismen die einige Zivilisationen (im speziellem die Sheaim) bei einem hohen Stand des Zählers belohnen.[PARAGRAPH:1]Dadurch dass ein Ansteigen des Zählers eine Verschlechterung der Beziehungen von bösen und guten Zivilisationen zur Folge hat, steigt mit dem Zähler gleichzeitig die Wahrscheinlichkeit eines Krieges zwischen diesen beiden Anschauungen.[PARAGRAPH:1]Beachte das der größte Anteil am Verhalten des Zählers beim Spieler liegt. Dies hat einen Einfluss auf die Ai-Spieler Beziehungen.</German>
+		<Italian>[H1]The Armageddon Counter[\H1][PARAGRAPH:2]The Armageddon counter goes up when bad things happen (cities are razed, the Ashen Veil is founded, an entropy node is built, etc) and down when good things happen (Mardero dies, The Ashen Veil holy city is razed, etc.). Depending on the civs in the game the Armageddon Counter either rises slowly over the course of the game, or tends to grow to about 20-40 and then levels off (assuming the player doesn't do anything to influence it).[PARAGRAPH:2]It affects many things. Hell terrain will only spread to Ashen Veil players lands until the counter hits 25, then it will start to spread to unowned tiles. At 50 it will start to spread to other Corrupt players lands and at 75 it will start to spread to Pragmatic lands.[PARAGRAPH:2]So if hell is beginning to creep into your lands you have a few options to respond. Sending out some units to sack the Ashen Veil holy city would be an excellent way to get the Armageddon counter under control and to keep hell out of your lands. You could also gift a few powerful units to a player that is at war with the Infernals if you wanted to contribute without getting into the war directly.[PARAGRAPH:2]The Armageddon counter also influences the chance that fire spreads to nearby tiles and the attitude modifier between good and evil civs. There is a promotion called Stigmata that gives the unit a percentage bonus equal to half the Armageddon counter as well as other mechanics that reward some players (especially the Sheaim) for having a high Armageddon count.[PARAGRAPH:2]Since the alignment attitudes are influenced by the Armageddon count (getting better towards their own alignment and worse towards the opposed alignment) when the Armageddon count gets high huge good vs evil battles tend to break out.[PARAGRAPH:2]Kael's Notes: Functionally the AC serves to bring additional conflict to the end game. In Beyond the Sword Firaxis added espionage and corporations to address late game stagnancy. We were trying to solve the same problem but did it with the AC to try to bring conflict and a sense of urgency to the late game.</Italian>
+		<Spanish>[H1]El Contador del Armagedón[\H1][PARAGRAPH:2]El contador del Armagedón aumenta cuando ocurren cosas malas (ciudades arrasadas, fundación del Velo Ceniciento, se construye un nodo de Entropía, etc) y disminuye cuando pasan cosas buenas (Mardero muere, la ciudad santa del Velo Ceniciento es arrasada, etc). Dependiendo de las civilizaciones en el juego el Contador del Armagedón puede ir aumentando lentamente a lo largo de la partida, o tiende a crecer a 20-40 y después disminuye (asumiendo que el jugador(es) no hace nada para influir en él).[PARAGRAPH:2]Afecta a muchas cosas. El Terreno Infernal sólo se propagará a las tierras de los jugadores del Velo Ceniciento hasta que el contador marca 25, entonces empezará a propagarse a territorios vacíos. En el 50 empezará a propagarse a las tierras de otros jugadores malvados y a 75 lo hará en las de los neutrales.[PARAGRAPH:2]Así que si el infierno empieza a tocar las tierras de un jugador, éste tiene pocas opciones para responder.  Enviar unidades fuera a saquear la ciudad santa del Velo Ceniciento sería una manera excelente para llevar al Contador del Armagedón a niveles aceptables y mantener al infierno fuera de sus tierras.  También puede dar unas pocas unidades poderosas a un jugador que esté en guerra con los Infernales si quisiera contribuir sin entrar en guerra de forma directa.[PARAGRAPH:2]El contador del Armagedón también afecta a la probabilidad de que el fuego se propague por casillas cercanas y al modificador de actitud entre civilizaciones buenas y malvadas. Hay un ascenso llamado Estigma que da a la unidad una bonificación de porcentaje igual a la mitad del contador del Armagedón así como otras adiciones que recompensan a algunos jugadores (especialmente a los Sheaim) por haber un contador alto del Armagedón.[PARAGRAPH:2]Así como las actitudes de alineamiento son influenciadas por el contador del Armagedón (siendo mejor hacia los del propio alineamiento y peor hacia los de alineamiento opuesto) cuando el Contador del Armagedón sea alto tenderán a haber gigantescas batallas entre el bien y el mal.[PARAGRAPH:2]Notas de Kael: Funcionalmente el CA sirve para traer conflictos adicionales al final del juego. En Beyond the Sword, Firaxis añadió espionaje y corporaciones para acabar un poco con el estancamiento de esa parte del juego. Estuvimos intentanto resolver el mismo problema y lo hicimos con el CA para intentar traer conflictos y una sensación de emergencia al final del juego.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_43</Tag>
+		<English>Paladins are special units only available to Virtuous nations. Similarly, Only nations with an Corrupt alignment can train Eidolons, and Druids are restricted to Pragmatic. Alignment is displayed by score and modified by religion and various actions.</English>
+		<French>Les Paladins sont des unités spécifiques aux nations Virtuouss. Similarly, Seules les nations Corrompues peuvent entrainer des Eidolons, et les Druides sont réservés aux Pragmatiques. L'alignement est donné par la nature du leader et peut etre changé par les religions.</French>
+		<German>Tipp... Paladine sind spezielle Einheiten, die nur für gute Zivilisationen verfügbar sind. Nur Zivilisationen mit böser Gesinnung können hingegen Eidolons ausbilden, während Druiden neutralen Zivilisationen vorbehalten sind. Die Gesinnung wird bei den Punkten angezeigt und kann durch verschiedene Religionen verändert werden.</German>
+		<Italian>Paladins are special units only available to Virtuous nations. Similarly, Only nations with an Corrupt alignment can train Eidolons, and Druids are restricted to Pragmatic. Alignment is displayed by score and modified by religion.</Italian>
+		<Spanish>Los Paladines son unidades especiales disponibles sólo para las naciones buenas. Igualmente, sólo las naciones con la alineación de malvadas pueden entrenar Eidolons, y los druidas están restringidos a los neutrales. Se muestra la alineación junto a los puntos y pueden modificarse con religiones.</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<Civ4PromotionInfos xmlns="x-schema:scion-healthcare_CIV4UnitSchema.xml">
+	<PromotionInfos>
+		<PromotionInfo>		<!-- Doomsoother -->
+			<Type>PROMOTION_DOOMSOOTHER</Type>
+			<Description>TXT_KEY_PROMOTION_DOOMSOOTHER</Description>
+			<CityBonuses>
+				<CityBonus>
+					<bApplyRival>1</bApplyRival>
+					<bApplySelf>1</bApplySelf>
+					<bApplyTeam>1</bApplyTeam>
+					<fDiplo>0.10</fDiplo>
+					<fHealth>3</fHealth>
+					<iBonusRange>0</iBonusRange>
+				</CityBonus>
+			</CityBonuses>
+			<Button>Art/Interface/Buttons/Promotions/doomsign.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Strength of Patria Effect -->
+			<Type>PROMOTION_STRENGTH_OF_PATRIA_EFFECT</Type>
+			<Description>TXT_KEY_PROMOTION_STRENGTH_OF_PATRIA_EFFECT</Description>
+			<Button>Art/Interface/Buttons/Promotions/Strong.dds</Button>
+			<iAIWeight>100</iAIWeight>
+			<iExtraCombatStr>1</iExtraCombatStr>
+			<iExtraCombatDefense>1</iExtraCombatDefense>
+			<iMinLevel>-1</iMinLevel>
+			<bStackEffect>1</bStackEffect>
+			<bEffectProm>1</bEffectProm>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</PromotionInfo>
+		<PromotionInfo>		<!--  Strength of Patria -->
+			<Type>PROMOTION_STRENGTH_OF_PATRIA</Type>
+			<Description>TXT_KEY_PROMOTION_STRENGTH_OF_PATRIA</Description>
+			<PromotionAllows>
+				<Promotion>PROMOTION_BRONZE_WEAPONS</Promotion>
+				<Promotion>PROMOTION_IRON_WEAPONS</Promotion>
+				<Promotion>PROMOTION_MITHRIL_WEAPONS</Promotion>
+			</PromotionAllows>
+			<Button>Art/Civs/Other/FortCommander/FortC.dds</Button>
+			<PyPerTurn>patriaAffinity(pCaster)</PyPerTurn>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Ghost Crew -->
+			<Type>PROMOTION_GHOST_CREW</Type>
+			<Description>TXT_KEY_PROMOTION_GHOST_CREW</Description>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_LONGSHOREMEN</Promotion>
+				<Promotion>PROMOTION_SKELETON_CREW</Promotion>
+				<Promotion>PROMOTION_NORMAL_CREW</Promotion>
+				<Promotion>PROMOTION_BUCCANEERS</Promotion>
+			</PromotionOverwrites>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_LONGSHOREMEN</Promotion>
+				<Promotion>PROMOTION_SKELETON_CREW</Promotion>
+				<Promotion>PROMOTION_NORMAL_CREW</Promotion>
+				<Promotion>PROMOTION_BUCCANEERS</Promotion>
+			</PromotionExcludes>
+			<iCargoChange>1</iCargoChange>
+			<iWithdrawalChange>30</iWithdrawalChange>
+			<iExtraCombatStr>-1</iExtraCombatStr>
+			<iExtraCombatDefense>-1</iExtraCombatDefense>
+			<Help>TXT_KEY_PROMOTION_GHOST_CREW_HELP</Help>
+			<iPromotionRandomApplyChance>100</iPromotionRandomApplyChance>
+			<PromotionRandomApply>PROMOTION_UNDEAD</PromotionRandomApply>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<PromotionAllows>
+				<Promotion>PROMOTION_IMPLACABLE</Promotion>
+				<Promotion>PROMOTION_DRILL3</Promotion>
+				<Promotion>PROMOTION_DRILL4</Promotion>
+			</PromotionAllows>
+			<Button>Art/Modules/ScionHealthcare/Buttons/ghost_ship.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Sinking (hide after combat) -->
+			<Type>PROMOTION_SINKING</Type>
+			<Description>TXT_KEY_PROMOTION_SINKING</Description>
+			<Sound>NONE</Sound>
+			<PromotionDegradesTo>
+				<Promotion>PROMOTION_HIDDEN</Promotion>
+			</PromotionDegradesTo>
+			<Button>Art/Modules/ScionHealthcare/Buttons/scion_healthcare.dds</Button>
+			<bRemovedByCombat>1</bRemovedByCombat>
+			<bValidate>1</bValidate>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bEffectProm>1</bEffectProm>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Random Hide After Combat -->
+			<Type>PROMOTION_RANDOM_HIDE_AFTER_COMBAT</Type>
+			<Description>TXT_KEY_PROMOTION_RANDOM_HIDE_AFTER_COMBAT</Description>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_GHOST_CREW</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<Sound>NONE</Sound>
+			<iPromotionRandomApplyChance>7</iPromotionRandomApplyChance>
+			<PromotionRandomApply>PROMOTION_SINKING</PromotionRandomApply>
+			<Button>Art/Modules/ScionHealthcare/Buttons/scion_healthcare.dds</Button>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bEffectProm>1</bEffectProm>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Flying Dutchman -->
+			<Type>PROMOTION_FLYING_DUTCHMAN</Type>
+			<Description>TXT_KEY_PROMOTION_FLYING_DUTCHMAN</Description>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_GHOST_CREW</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<bAmphib>1</bAmphib>
+			<bRiver>1</bRiver>
+			<iVisibilityChange>1</iVisibilityChange>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Modules/ScionHealthcare/Buttons/flying_dutchman.dds</Button>
+			<bFlying>1</bFlying>
+			<iMinLevel>8</iMinLevel>
+		</PromotionInfo> 
+	</PromotionInfos>
+</Civ4PromotionInfos>
+
+
+		<!-- <PromotionInfo>		 Rooting Creeper  -->
+			<!-- <Type>PROMOTION_ROOTING_CREEPER</Type> -->
+			<!-- <Description>TXT_KEY_PROMOTION_ROOTING_CREEPER</Description> -->
+			<!-- <Help>TXT_KEY_PROMOTION_ROOTING_CREEPER_HELP</Help> -->
+			<!-- <Sound>AS2D_IF_LEVELUP</Sound> -->
+			<!-- <bNoXP>1</bNoXP> -->
+            		<!-- <bHeld>1</bHeld> -->
+			<!-- <PrereqUnits> -->
+				<!-- <PrereqUnit>UNIT_CREEPER</PrereqUnit> -->
+			<!-- </PrereqUnits> -->
+			<!-- <UnitCombats> -->
+				<!-- <UnitCombat> -->
+					<!-- <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType> -->
+					<!-- <iMaxApplications>0</iMaxApplications> -->
+				<!-- </UnitCombat> -->
+			<!-- </UnitCombats> -->
+			<!-- <Button>Art/Interface/Buttons/Spells/haunted.dds</Button> -->
+		<!-- </PromotionInfo> -->
+		<!-- <PromotionInfo>		 Uproot Creeper  -->
+			<!-- <Type>PROMOTION_UPROOT_CREEPER</Type> -->
+			<!-- <Description>TXT_KEY_PROMOTION_UPROOT_CREEPER</Description> -->
+			<!-- <Help>TXT_KEY_PROMOTION_UPROOT_CREEPER_HELP</Help> -->
+			<!-- <PrereqPromotionANDs> -->
+				<!-- <PrereqPromotionAND> -->
+					<!-- <PromotionType>PROMOTION_ROOTING_CREEPER</PromotionType> -->
+					<!-- <iPrereqApplications>1</iPrereqApplications> -->
+				<!-- </PrereqPromotionAND> -->
+			<!-- </PrereqPromotionANDs> -->
+			<!-- <Sound>AS2D_IF_LEVELUP</Sound> -->
+			<!-- <bNoXP>1</bNoXP> -->
+			<!-- <iAIWeight>-150</iAIWeight> -->
+			<!-- <PrereqUnits> -->
+				<!-- <PrereqUnit>UNIT_CREEPER</PrereqUnit> -->
+			<!-- </PrereqUnits> -->
+			<!-- <UnitCombats> -->
+				<!-- <UnitCombat> -->
+					<!-- <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType> -->
+					<!-- <iMaxApplications>0</iMaxApplications> -->
+				<!-- </UnitCombat> -->
+			<!-- </UnitCombats> -->
+			<!-- <PromotionExcludes> -->
+				<!-- <Promotion>PROMOTION_ROOTING_CREEPER</Promotion> -->
+			<!-- </PromotionExcludes> -->
+			<!-- <PromotionOverwrites> -->
+				<!-- <Promotion>PROMOTION_ROOTING_CREEPER</Promotion> -->
+			<!-- </PromotionOverwrites>             -->
+			<!-- <iExpireChance>100</iExpireChance> -->
+			<!-- <Button>Art/Interface/Buttons/Spells/haunted.dds</Button> -->
+		<!-- </PromotionInfo> -->
+		<!-- <PromotionInfo>		 Block Rooting Creeper City -->
+			<!-- <Type>PROMOTION_BLOCK_ROOTING_CREEPER_CITY</Type> -->
+			<!-- <Description>TXT_KEY_PROMOTION_BLOCK_ROOTING_CREEPER_CITY</Description> -->
+			<!-- <bAutoAcquire>1</bAutoAcquire> -->
+			<!-- <bMustMaintain>1</bMustMaintain> -->
+			<!-- <bNoXP>1</bNoXP> -->
+			<!-- <bEffectProm>1</bEffectProm> -->
+			<!-- <bGraphicalOnly>1</bGraphicalOnly> -->
+			<!-- <PrereqUnits> -->
+				<!-- <PrereqUnit>UNIT_CREEPER</PrereqUnit> -->
+			<!-- </PrereqUnits> -->
+			<!-- <PrereqInCity>1</PrereqInCity> -->
+			<!-- <UnitCombats> -->
+				<!-- <UnitCombat> -->
+					<!-- <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType> -->
+					<!-- <iMaxApplications>0</iMaxApplications> -->
+				<!-- </UnitCombat> -->
+			<!-- </UnitCombats> -->
+			<!-- <PromotionExcludes> -->
+				<!-- <Promotion>PROMOTION_ROOTING_CREEPER</Promotion> -->
+			<!-- </PromotionExcludes> -->
+			<!-- <PromotionOverwrites> -->
+				<!-- <Promotion>PROMOTION_ROOTING_CREEPER</Promotion> -->
+			<!-- </PromotionOverwrites>             -->
+			<!-- <Button>Art/Modules/ScionHealthcare/Buttons/scion_healthcare.dds</Button> -->
+		<!-- </PromotionInfo> -->
+		<!-- <PromotionInfo>		 Block Rooting Creeper Water -->
+			<!-- <Type>PROMOTION_BLOCK_ROOTING_CREEPER_WATER</Type> -->
+			<!-- <Description>TXT_KEY_PROMOTION_BLOCK_ROOTING_CREEPER_WATER</Description> -->
+			<!-- <bAutoAcquire>1</bAutoAcquire> -->
+			<!-- <bMustMaintain>1</bMustMaintain> -->
+			<!-- <bNoXP>1</bNoXP> -->
+			<!-- <bEffectProm>1</bEffectProm> -->
+			<!-- <bGraphicalOnly>1</bGraphicalOnly> -->
+			<!-- <PrereqUnits> -->
+				<!-- <PrereqUnit>UNIT_CREEPER</PrereqUnit> -->
+			<!-- </PrereqUnits> -->
+			<!-- <PrereqTerrains> -->
+				<!-- <PrereqTerrain>TERRAIN_OCEAN</PrereqTerrain> -->
+				<!-- <PrereqTerrain>TERRAIN_COAST</PrereqTerrain> -->
+			<!-- </PrereqTerrains> -->
+			<!-- <UnitCombats> -->
+				<!-- <UnitCombat> -->
+					<!-- <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType> -->
+					<!-- <iMaxApplications>0</iMaxApplications> -->
+				<!-- </UnitCombat> -->
+			<!-- </UnitCombats> -->
+			<!-- <PromotionExcludes> -->
+				<!-- <Promotion>PROMOTION_ROOTING_CREEPER</Promotion> -->
+			<!-- </PromotionExcludes> -->
+			<!-- <PromotionOverwrites> -->
+				<!-- <Promotion>PROMOTION_ROOTING_CREEPER</Promotion> -->
+			<!-- </PromotionOverwrites>             -->
+			<!-- <Button>Art/Modules/ScionHealthcare/Buttons/scion_healthcare.dds</Button> -->
+		<!-- </PromotionInfo> -->
+		<!-- <PromotionInfo>		 HauntStalk --> 
+			<!-- <Type>PROMOTION_HAUNTSTALK</Type> -->
+			<!-- <PromotionExcludes> -->
+				<!-- <Promotion>PROMOTION_ROOTING_CREEPER</Promotion> -->
+			<!-- </PromotionExcludes> -->
+			<!-- <PromotionOverwrites> -->
+				<!-- <Promotion>PROMOTION_ROOTING_CREEPER</Promotion> -->
+			<!-- </PromotionOverwrites>             -->
+		<!-- </PromotionInfo> -->
+		<!-- <PromotionInfo>		Autocast Take Root --> 
+			<!-- <Type>PROMOTION_AUTOCAST_TAKE_ROOT</Type> -->
+			<!-- <Description>TXT_KEY_PROMOTION_AUTOCAST_TAKE_ROOT</Description> -->
+			<!-- <PrereqPromotionORs> -->
+				<!-- <PrereqPromotionOR> -->
+					<!-- <PromotionType>PROMOTION_ROOTING_CREEPER</PromotionType> -->
+					<!-- <iPrereqApplications>1</iPrereqApplications> -->
+				<!-- </PrereqPromotionOR> -->
+				<!-- <PrereqPromotionOR> -->
+					<!-- <PromotionType>PROMOTION_FED_CREEPER</PromotionType> -->
+					<!-- <iPrereqApplications>1</iPrereqApplications> -->
+				<!-- </PrereqPromotionOR> -->
+			<!-- </PrereqPromotionORs> -->
+			<!-- <bAutoAcquire>1</bAutoAcquire> -->
+			<!-- <bMustMaintain>1</bMustMaintain> -->
+			<!-- <bNoXP>1</bNoXP> -->
+			<!-- <bEffectProm>1</bEffectProm> -->
+			<!-- <bGraphicalOnly>1</bGraphicalOnly> -->
+			<!-- <PrereqUnits> -->
+				<!-- <PrereqUnit>UNIT_CREEPER</PrereqUnit> -->
+			<!-- </PrereqUnits> -->
+			<!-- <UnitCombats> -->
+				<!-- <UnitCombat> -->
+					<!-- <UnitCombatType>UNITCOMBAT_RECON</UnitCombatType> -->
+					<!-- <iMaxApplications>0</iMaxApplications> -->
+				<!-- </UnitCombat> -->
+			<!-- </UnitCombats> -->
+			<!-- <PyPerTurn>pCaster.cast(gc.getInfoTypeForString('SPELL_TAKE_ROOT'))</PyPerTurn> -->
+			<!-- <Button>Art/Modules/ScionHealthcare/Buttons/scion_healthcare.dds</Button> -->
+		<!-- </PromotionInfo>-->

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_MOUNTED_ARCANE</Tag>
+		<English>Mounted Arcane units are identical to their unmounted counterparts, except they cannot build Mana Nodes any longer. Their mounts allow them to act much quicker however, allowing for hit-and-run spellcasting.</English>
+		<French>Mounted Arcane units are identical to their unmounted counterparts, except they cannot build Mana Nodes any longer. Their mounts allow them to act much quicker however, allowing for hit-and-run spellcasting.</French>
+		<German>Mounted Arcane units are identical to their unmounted counterparts, except they cannot build Mana Nodes any longer. Their mounts allow them to act much quicker however, allowing for hit-and-run spellcasting.</German>
+		<Italian>Mounted Arcane units are identical to their unmounted counterparts, except they cannot build Mana Nodes any longer. Their mounts allow them to act much quicker however, allowing for hit-and-run spellcasting.</Italian>
+		<Spanish>Mounted Arcane units are identical to their unmounted counterparts, except they cannot build Mana Nodes any longer. Their mounts allow them to act much quicker however, allowing for hit-and-run spellcasting.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOUNTED_ARCANE</Tag>
+		<English>Mounted Arcane Unit</English>
+		<French>Mounted Arcane Unit</French>
+		<German>Mounted Arcane Unit</German>
+		<Italian>Mounted Arcane Unit</Italian>
+		<Spanish>Mounted Arcane Unit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_ADEPT</Tag>
+		<English>Mounted Adept</English>
+		<French>Mounted Adept</French>
+		<German>Mounted Adept</German>
+		<Italian>Mounted Adept</Italian>
+		<Spanish>Mounted Adept</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_MAGE</Tag>
+		<English>Mounted Mage</English>
+		<French>Mounted Mage</French>
+		<German>Mounted Mage</German>
+		<Italian>Mounted Mage</Italian>
+		<Spanish>Mounted Mage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_ARCHMAGE</Tag>
+		<English>Mounted Archmage</English>
+		<French>Mounted Archmage</French>
+		<German>Mounted Archmage</German>
+		<Italian>Mounted Archmage</Italian>
+		<Spanish>Mounted Archmage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_ILLUSIONIST</Tag>
+		<English>Mounted Illusionist</English>
+		<French>Mounted Illusionist</French>
+		<German>Mounted Illusionist</German>
+		<Italian>Mounted Illusionist</Italian>
+		<Spanish>Mounted Illusionist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_NECROMANCER</Tag>
+		<English>Mounted Necromancer</English>
+		<French>Mounted Necromancer</French>
+		<German>Mounted Necromancer</German>
+		<Italian>Mounted Necromancer</Italian>
+		<Spanish>Mounted Necromancer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_WRAITH_LORD</Tag>
+		<English>Mounted Wraith Lord</English>
+		<French>Mounted Wraith Lord</French>
+		<German>Mounted Wraith Lord</German>
+		<Italian>Mounted Wraith Lord</Italian>
+		<Spanish>Mounted Wraith Lord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_BINDER</Tag>
+		<English>Mounted Binder</English>
+		<French>Mounted Binder</French>
+		<German>Mounted Binder</German>
+		<Italian>Mounted Binder</Italian>
+		<Spanish>Mounted Binder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_COD</Tag>
+		<English>Mounted Chosen of D'tesh</English>
+		<French>Mounted Chosen of D'tesh</French>
+		<German>Mounted Chosen of D'tesh</German>
+		<Italian>Mounted Chosen of D'tesh</Italian>
+		<Spanish>Mounted Chosen of D'tesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_APPRENTICE</Tag>
+		<English>Mounted Apprentice</English>
+		<French>Mounted Apprentice</French>
+		<German>Mounted Apprentice</German>
+		<Italian>Mounted Apprentice</Italian>
+		<Spanish>Mounted Apprentice</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_WIZARD</Tag>
+		<English>Mounted Wizard</English>
+		<French>Mounted Wizard</French>
+		<German>Mounted Wizard</German>
+		<Italian>Mounted Wizard</Italian>
+		<Spanish>Mounted Wizard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOUNTED_BATTLEMAGE</Tag>
+		<English>Mounted Battlemage</English>
+		<French>Mounted Battlemage</French>
+		<German>Mounted Battlemage</German>
+		<Italian>Mounted Battlemage</Italian>
+		<Spanish>Mounted Battlemage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MADEPT_DEBUFF</Tag>
+		<English>Mounted Adept</English>
+		<French>Mounted Adept</French>
+		<German>Mounted Adept</German>
+		<Italian>Mounted Adept</Italian>
+		<Spanish>Mounted Adept</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MMAGE_DEBUFF</Tag>
+		<English>Mounted Mage</English>
+		<French>Mounted Mage</French>
+		<German>Mounted Mage</German>
+		<Italian>Mounted Mage</Italian>
+		<Spanish>Mounted Mage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MAMAGE_DEBUFF</Tag>
+		<English>Mounted Archmage</English>
+		<French>Mounted Archmage</French>
+		<German>Mounted Archmage</German>
+		<Italian>Mounted Archmage</Italian>
+		<Spanish>Mounted Archmage</Spanish>
+	</TEXT>
+</Civ4GameText>

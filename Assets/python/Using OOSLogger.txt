@@ -1,0 +1,23 @@
+To use OOSLogger, simply follow these steps:
+
+3.) Run your mod in a multiplayer setting. When the game goes out of sync, a log file will be created in the main civ4 directory (normally "C:\Program Files\Firaxis Games\Sid Meier's Civilization 4\") called "OOSLog.txt".
+4.) Have each player or tester in the game rename their log file to some unique name (or, better yet, modify the script to make each log name for each player unique to your liking) and have all the logs sent to one player, tester or developer.
+4 - Alternative)  Post all of the Log Text Files to the Fall Further Bug Thread
+5.) Use a diff tool between the files to see exactly what lines have changed, which will hopefully give you a clue as to where the OOS error is happening.
+
+
+
+Steps 1 & 2 are already completed for Fall Further:
+
+1.) Import OOSLogger into your CvEventManager (or CvCustomEventManager.py) file.
+
+2.) Change your onGameUpdate function to look like this:
+
+	def onGameUpdate(self, argsList):
+		'sample generic event, called on each game turn slice'
+		genericArgs = argsList[0][0]	# tuple of tuple of my args
+		turnSlice = genericArgs[0]
+
+                # Added by Gerikes for OOS logging.
+                OOSLogger.doGameUpdate()
+                # End added by Gerikes for OOS logging.

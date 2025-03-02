@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!-- Formatted by Xienwolf -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Promotion Infos -->
+<Civ4PromotionInfos xmlns="x-schema:MoreEvents_CIV4UnitSchema.xml">
+	<PromotionInfos>
+		<PromotionInfo>		<!-- Assassin Chapter 1-->
+			<Type>PROMOTION_ASSASSIN_CHAPTER_1</Type>
+			<Description>TXT_KEY_PROMOTION_ASSASSIN_CHAPTER_1</Description>
+			<Button>Art/Interface/Buttons/Equipment/NetherBlade.dds</Button>
+			<iCityAttack>50</iCityAttack>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_POISON</DamageType>
+					<iCombat>1</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Assassin Chapter 2-->
+			<Type>PROMOTION_ASSASSIN_CHAPTER_2</Type>
+			<Description>TXT_KEY_PROMOTION_ASSASSIN_CHAPTER_2</Description>
+			<Button>Art/Interface/Buttons/Equipment/NetherBlade.dds</Button>
+			<bBlitz>1</bBlitz>
+			<iWithdrawalChange>40</iWithdrawalChange>
+		</PromotionInfo>
+		<PromotionInfo>	<!-- Gela promos -->
+			<Type>PROMOTION_PIKE_OF_TEARS</Type>
+			<Description>TXT_KEY_EQUIPMENT_PIKE_OF_TEARS</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<TechPrereq>TECH_NEVER</TechPrereq>
+			<Button>Art/Interface/Buttons/Equipment/Gela.dds</Button>
+			<bEquipment>1</bEquipment>
+			<iAIWeight>100</iAIWeight>
+			<BonusAffinities>
+				<BonusAffinity>
+					<BonusType>BONUS_MANA_NATURE</BonusType>
+					<iAffinity>1</iAffinity>
+				</BonusAffinity>
+				<BonusAffinity>
+					<BonusType>BONUS_MANA_WATER</BonusType>
+					<iAffinity>1</iAffinity>
+				</BonusAffinity>
+			</BonusAffinities>
+		</PromotionInfo>
+		<PromotionInfo>	<!-- Gela promos -->
+			<Type>PROMOTION_FROZEN_FLAME</Type>
+			<Description>TXT_KEY_EQUIPMENT_FROZEN_FLAME</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<TechPrereq>TECH_NEVER</TechPrereq>
+			<Button>Art/Interface/Buttons/Equipment/DragonsHoard.dds</Button>
+			<bEquipment>1</bEquipment>
+		</PromotionInfo>
+		<PromotionInfo>	<!-- Gela promos -->
+			<Type>PROMOTION_TEMP_HELD</Type>
+			<Description>TXT_KEY_PROMOTION_HELD</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<iVisibilityChange>-1</iVisibilityChange>
+			<Button>Art/Interface/Buttons/Promotions/Held.dds</Button>
+			<bHeld>1</bHeld>
+			<iAIWeight>-100</iAIWeight>
+			<iExpireChance>10</iExpireChance>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>	<!-- Gela promos -->
+			<Type>PROMOTION_SOL</Type>
+			<Description>TXT_KEY_EQUIPMENT_SOL</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<TechPrereq>TECH_NEVER</TechPrereq>
+			<Button>Art/Interface/Buttons/Equipment/Gela.dds</Button>
+			<bEquipment>1</bEquipment>
+			<iAIWeight>100</iAIWeight>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_HOLY</DamageType>
+					<iCombat>2</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
+			<BonusAffinities>
+				<BonusAffinity>
+					<BonusType>BONUS_MANA_SUN</BonusType>
+					<iAffinity>1</iAffinity>
+				</BonusAffinity>
+			</BonusAffinities>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_GOBLIN</Type>
+			<PythonPostCombatLost>postCombatLossOrphanedGoblin(pCaster,pOpponent)</PythonPostCombatLost>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_GELA</Type>
+			<PyPerTurn>perTurnGela(pCaster)</PyPerTurn>
+		</PromotionInfo>
+	</PromotionInfos>
+</Civ4PromotionInfos>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4UnitArtStyleTypeInfos xmlns="x-schema:CIV4CivilizationsSchema.xml">
+	<UnitArtStyleTypeInfos>
+		<UnitArtStyleTypeInfo>
+			<Type>UNIT_ARTSTYLE_ELOHIM</Type>
+				<StyleUnits>
+					<StyleUnit>
+						<UnitType>UNIT_KNIGHT</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_KNIGHT_ELOHIM</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_KNIGHT_ELOHIM</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_KNIGHT_ELOHIM</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>				
+					<StyleUnit>
+						<UnitType>UNIT_CROSSBOWMAN</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_ELOHIM</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_ELOHIM</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_ELOHIM</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+				</StyleUnits>
+		</UnitArtStyleTypeInfo>
+	</UnitArtStyleTypeInfos>
+</Civ4UnitArtStyleTypeInfos>

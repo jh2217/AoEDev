@@ -1,0 +1,40 @@
+;Name - no need to explain
+;note: one line
+[name]
+Keepers of Noggormotha
+;
+;
+;Version - version of module
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[version]
+1.5
+;
+;
+;RifE version - version of RifE for which is this module tested, checked, developed, etc
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[rifeversion]
+1.4
+;
+;
+;Author - you
+;note: one line
+[author]
+jonnnes, Derf
+;
+;
+;Short description - text showed in contect menu
+;note: one line
+[shortdesc]
+Adds the Keepers of Noggormotha to your game 
+;
+;
+;Description - text showed in message box
+;note: can be multiline
+[desc]
+The keepers of Noggormotha are possessed by fractures of Noggormotha, the demonic Mistress of Torture. If there is only one left of them or one of them becomes too powerful ... well, check it out! 
+
+Acknowledments:
+--------------
+A lot of thanks go to saibotlieh for the nice model of the skuld demon he converted from Atlantica Online, thx to the developers of this game as well (I take no credit for the artwork and all rights are within NDOORS Corporation of course), and really much thanx go to shoggi, anw, black imperator, Opera, Jheral, Valkrionn, Snarko ... especially Morte and lots of more of the RIFE team and whoever were patient with me asking stupid questions in the chat or on the forums ... this is my first module. Help me improve it by writing my on http://greyfox.me/rife/forum/ if you encounter bugs or stupid nonsense within this piece of work. Thank you for trying out.

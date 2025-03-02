@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Color Vals -->
+<Civ4ColorVals xmlns="x-schema:CB_CIV4InterfaceSchema.xml">
+	<ColorVals>
+		<ColorVal><!--general positive effect text-->
+			<Type>COLOR_POSITIVE_TEXT</Type>
+			<fRed>0.50</fRed>
+			<fGreen>1.00</fGreen>
+			<fBlue>0.10</fBlue>
+			<fAlpha>1.00</fAlpha>
+		</ColorVal>
+		<ColorVal> <!--general negative effect text-->
+			<Type>COLOR_NEGATIVE_TEXT</Type>
+			<fRed>0.80</fRed>
+			<fGreen>0.80</fGreen>
+			<fBlue>1.00</fBlue>
+			<fAlpha>1.00</fAlpha>
+		</ColorVal>
+		<ColorVal> <!--warning text ( used in prereqs, constraints)-->
+			<Type>COLOR_WARNING_TEXT</Type>
+			<fRed>0.80</fRed>
+			<fGreen>0.80</fGreen>
+			<fBlue>1.00</fBlue>
+			<fAlpha>1.00</fAlpha>
+		</ColorVal>
+		<ColorVal>
+			<Type>COLOR_ALIGNMENT_EVIL</Type>
+		<fRed>0.80</fRed>
+			<fGreen>0.80</fGreen>
+			<fBlue>1.00</fBlue>
+			<fAlpha>1.00</fAlpha>
+			</ColorVal>
+		
+		<ColorVal> <!--text originally in red-->
+			<Type>COLOR_RED</Type>
+			<fRed>0.80</fRed>
+			<fGreen>0.80</fGreen>
+			<fBlue>1.00</fBlue>
+			<fAlpha>1.00</fAlpha>
+		</ColorVal>
+		
+	</ColorVals>
+</Civ4ColorVals>

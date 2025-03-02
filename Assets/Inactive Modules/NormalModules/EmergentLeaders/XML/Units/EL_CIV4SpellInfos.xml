@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:EL_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+		<SpellInfo>			<!-- Ring of Flames -->			<!-- Pyromancer -->
+			<Type>SPELL_RING_OF_FLAMES2</Type>
+			<Description>TXT_KEY_SPELL_RING_OF_FLAMES</Description>
+			<Civilopedia>TXT_KEY_SPELL_RING_OF_FLAMES_PEDIA</Civilopedia>
+			<PromotionPrereq1>PROMOTION_FIRE2</PromotionPrereq1>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_PYROMANCER</PrereqTrait>
+			</PrereqTraits>
+			<UnitCombatPrereq>UNITCOMBAT_ADEPT</UnitCombatPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bIsAutoCastable>1</bIsAutoCastable>
+			<bCausesWar>1</bCausesWar>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<iRange>1</iRange>
+			<iDamage>20</iDamage>
+			<iDamageLimit>40</iDamageLimit>
+			<DamageType>DAMAGE_FIRE</DamageType>
+			<PyResult>spellRingofFlames(pCaster)</PyResult>
+			<Effect>EFFECT_RING_OF_FLAMES</Effect>
+			<Sound>AS3D_SPELL_FIREBALL</Sound>
+			<Button>Art/Interface/Buttons/Spells/Ringofflames.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Pillar of Fire -->			<!-- Pyromancer -->
+			<Type>SPELL_CLAN_PILLAR_OF_FIRE2</Type>
+			<Description>TXT_KEY_SPELL_PILLAR_OF_FIRE</Description>
+			<Civilopedia>TXT_KEY_SPELL_PILLAR_OF_FIRE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_PILLAR_OF_FIRE_HELP</Help>
+			<PromotionPrereq1>PROMOTION_FIRE3</PromotionPrereq1>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_PYROMANCER2</PrereqTrait>
+			</PrereqTraits>
+			<UnitCombatPrereq>UNITCOMBAT_ADEPT</UnitCombatPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<iRange>2</iRange>
+			<PyResult>spellPillarofFire(pCaster)</PyResult>
+			<PyRequirement>reqPillarofFire(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_FIREBALL</Sound>
+			<Button>Art/Interface/Buttons/Spells/PillarofFire.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Ignite Pyre -->			<!-- Pyromancer -->
+			<Type>SPELL_IGNITE_PYRE2</Type>
+			<Description>TXT_KEY_SPELL_IGNITE_PYRE</Description>
+			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
+			<Help>TXT_KEY_SPELL_IGNITE_PYRE_HELP</Help>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_PYROMANCER2</PrereqTrait>
+			</PrereqTraits>
+			<bInBordersOnly>1</bInBordersOnly>
+			<bIsAutoCastable>1</bIsAutoCastable>
+			<bInCityOnly>1</bInCityOnly>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<iChangePopulation>-1</iChangePopulation>
+			<PyResult>spellIgnitePyre(pCaster)</PyResult>
+			<PyRequirement>reqIgnitePyre(pCaster)</PyRequirement>
+			<Effect>EFFECT_WITHER</Effect>
+			<Sound>AS3D_SPELL_CONSUME_SOUL</Sound>
+			<Button>Art/Interface/Buttons/Units/Pyre Zombie.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Orthus - Escape -->		<!-- Patriarch -->
+			<Type>SPELL_ESCAPEORTHUS</Type>
+			<Description>TXT_KEY_SPELL_ESCAPE</Description>
+			<Civilopedia>TXT_KEY_SPELL_ESCAPE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_ESCAPE_HELP</Help>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_PATRIARCH2</PrereqTrait>
+			</PrereqTraits>
+			<PromotionPrereq1>PROMOTION_BERSERKER</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellTeleport(pCaster,'Capital')</PyResult>
+			<PyRequirement>reqEscape(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL2</Effect>
+			<Sound>AS3D_SPELL_ESCAPE</Sound>
+			<Button>Art/Interface/Buttons/Spells/Escape.dds</Button>
+		</SpellInfo>
+	</SpellInfos>
+</Civ4SpellInfos>

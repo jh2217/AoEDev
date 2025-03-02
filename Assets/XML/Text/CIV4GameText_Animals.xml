@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BEAR_PEDIA</Tag>
+		<English>Mankind's greatest adversary at the beginning of the Age of Ice wasn't other humans, but massive bears that roamed the tundra. Man and bear fought over the world's most precious commodity, habitable caves. Only the Illians were able to form basic cities. The rest of men lived like animals, garbed in their skins and fighting them for their homes.</English>
+		<French>Au début de l'Age de Glace, les plus féroces adversaires de l'humanité n'étaient pas les autres humains, mais des ours massifs qui erraient dans la tundra. L'Homme et l'ours se battirent pour la plus précieuse des ressources du monde, des cavernes habitables. Seuls les Illians parvinrent à mettre en place des cités basiques. Le reste des hommes vivaient commme des animaux, blottis dans leurs fourrures et se battant pour leurs antres.</French>
+		<German>Der grösste Feind der Menschheit zu Beginn der Eiszeit waren nicht andere Menschen, sondern riesige Bären die in der Tundra umher streiften. Die Menschen kämpften mit dem Bären um das wertvollste Gut; bewohnbare Höhlen. Nur das Volk der Illianer war im Stande einfache Städte zu gründen. Der Rest der Menschen lebte gekleidet in ihrer Haut wie Tiere und kämpfte um ihr Zuhause.</German>
+		<Italian>All'inizio dell'Era del Ghiaccio il più grande avversario dell'umanità non erano altri umani, ma gli enormi Orsi che girovagavano per la tundra. Uomo e Orso combatterono sul bene più prezioso al mondo, caverne abitabili. Solo gli Illians erano capaci di creare delle città per quanto basilari. Tutti gli altri umani vivevano come gli animali, combattendoli per i loro rifugi e vestendosi delle loro pelli.</Italian>
+		<Spanish>Mankind's greatest adversary at the beginning of the Age of Ice wasn't other humans, but massive bears that roamed the tundra. Man and bear fought over the world's most precious commodity, habitable caves. Only the Illians were able to form basic cities. The rest of men lived like animals, garbed in their skins and fighting them for their homes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BEAR_STRATEGY</Tag>
+		<English>Bears that wander into a terrain that will support a bear den may settle there and form a den. Dens will occasionally spawn new bears that will wander out into the world and settle new dens.</English>
+		<French>Bears that wander into a terrain that will support a bear den may settle there and form a den. Dens will occasionally spawn new bears that will wander out into the world and settle new dens.</French>
+		<German>Obwohl weit weniger gefährlich als die humanoiden und gelegentlich untoten Bewohner der Wildnis sind wilde Tiere nicht weniger eine ständige Gefahr für diejenigen, die das Wagnis eingehen sich über die Grenzen hinaus zu trauen.</German>
+		<Italian>Gli orsi che finiscono su un terreno capace di ospitare una Tana di Orsi potrebbero insediarsi e crearne una. La Tana degli Orsi occasionalmente crea nuovi Orsi che, girando per il mondo, potrebbero creare nuove Tane.</Italian>
+		<Spanish>Bears that wander into a terrain that will support a bear den may settle there and form a den. Dens will occasionally spawn new bears that will wander out into the world and settle new dens.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BEAR_GROUP</Tag>
+		<English>Bear group</English>
+		<French>Groupe d'ours</French>
+		<German>Bärengruppe</German>
+		<Italian>Gruppo di Orsi</Italian>
+		<Spanish>Bear group</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CAVE_BEARS</Tag>
+		<English>Cave Bears</English>
+		<French>Ours des Cavernes</French>
+		<German>Höhlenbär</German>
+		<Italian>Orsi delle Caverne</Italian>
+		<Spanish>Cave Bears</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BOAR</Tag>
+		<English>Boar</English>
+		<French>Sanglier</French>
+		<German>Keiler</German>
+		<Italian>Cinghiale</Italian>
+		<Spanish>Boar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BOAR_HERD</Tag>
+		<English>Boar herd</English>
+		<French>
+			<Text>Harde de sangliers:Hardes de sangliers</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Keilerherde</German>
+		<Italian>Mandria di Cinghiali</Italian>
+		<Spanish>Boar herd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BLOOD_BOAR</Tag>
+		<English>Blood Boar herd</English>
+		<French>
+			<Text>Harde de sangliers sanguinaires:Hardes de sangliers sanguinaires</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Blutkeilerherde</German>
+		<Italian>Cinghiale Sanguinario</Italian>
+		<Spanish>Blood Boar herd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GIANT_TORTOISE_NEW</Tag>
+		<English>Dragon Tortoise</English>
+		<French>Tortue dragon</French>
+		<German>Drachenschildkröte</German>
+		<Italian>Tartaruga Dragone</Italian>
+		<Spanish>Dragon Tortoise</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DIRE_WOLF</Tag>
+		<English>Dire wolf pack</English>
+		<French>
+			<Text>Meute de loups anciens:Meutes de loups anciens</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Getriebener Wolf</German>
+		<Italian>Meta-Lupo</Italian>
+		<Spanish>Dire wolf pack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SCORPION</Tag>
+		<English>Scorpion</English>
+		<French>Scorpion</French>
+		<German>Skorpion</German>
+		<Italian>Scorpione</Italian>
+		<Spanish>Scorpion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SCORPION_PEDIA</Tag>
+		<English>Scorpions are active hunters. They track their prey with their keen senses and then grasp it with their scissor-like pincers. Once in the scorpion's grasp, the prey is stung repeatedly until it stops moving. It is then consumed by the arachnid, whether or not it is still living.</English>
+		<French>Scorpions are active hunters. They track their prey with their keen senses and then grasp it with their scissor-like pincers. Once in the scorpion's grasp, the prey is stung repeatedly until it stops moving. It is then consumed by the arachnid, whether or not it is still living.</French>
+		<German>Scorpions are active hunters. They track their prey with their keen senses and then grasp it with their scissor-like pincers. Once in the scorpion's grasp, the prey is stung repeatedly until it stops moving. It is then consumed by the arachnid, whether or not it is still living.</German>
+		<Italian>Scorpions are active hunters. They track their prey with their keen senses and then grasp it with their scissor-like pincers. Once in the scorpion's grasp, the prey is stung repeatedly until it stops moving. It is then consumed by the arachnid, whether or not it is still living.</Italian>
+		<Spanish>Scorpions are active hunters. They track their prey with their keen senses and then grasp it with their scissor-like pincers. Once in the scorpion's grasp, the prey is stung repeatedly until it stops moving. It is then consumed by the arachnid, whether or not it is still living.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SCORPION_STRATEGY</Tag>
+		<English>[ICON_BULLET]From level 3, Scorpions can choose 1 color among 5 possibilities (2 consecutive promotions):[NEWLINE][ICON_BULLET]White (defensive strength and more cold terrain motion; [LINK=PROMOTION_SCORPION_GLACIALIS]Glacialis[\LINK], then [LINK=PROMOTION_SCORPION_GLACIALIS_GREATER]Greater Glacialis[\LINK]).[NEWLINE][ICON_BULLET]Black (stronger poison combat; [LINK=PROMOTION_SCORPION_MORTALITAS]Mortalitas[\LINK], then [LINK=PROMOTION_SCORPION_MORTALITAS_GREATER]Greater Mortalitas[\LINK]).[NEWLINE][ICON_BULLET]Green (desert strength, can see stealth and Sun Mana affinity; [LINK=PROMOTION_SCORPION_VIDELICET]Videlicet[\LINK], then [LINK=PROMOTION_SCORPION_VIDELICET_GREATER]Greater Videlicet[\LINK])[NEWLINE][ICON_BULLET]Blue (various aquatic powers; [LINK=PROMOTION_SCORPION_AEQUOR]Aequor[\LINK],then [LINK=PROMOTION_SCORPION_AEQUOR_GREATER]Greater Aequor[\LINK])[NEWLINE][ICON_BULLET]Brown (hill and peak strength and movement; [LINK=PROMOTION_SCORPION_RUTILA]Rutila[\LINK], then [LINK=PROMOTION_SCORPION_RUTILA_GREATER]Greater Rutilia[\LINK])</English>
+		<French>[ICON_BULLET]From level 3, Scorpions can choose 1 color among 5 possibilities (2 consecutive promotions):[NEWLINE][ICON_BULLET]White (defensive strength and more cold terrain motion; [LINK=PROMOTION_SCORPION_GLACIALIS]Glacialis[\LINK], then [LINK=PROMOTION_SCORPION_GLACIALIS_GREATER]Greater Glacialis[\LINK]).[NEWLINE][ICON_BULLET]Black (stronger poison combat; [LINK=PROMOTION_SCORPION_MORTALITAS]Mortalitas[\LINK], then [LINK=PROMOTION_SCORPION_MORTALITAS_GREATER]Greater Mortalitas[\LINK]).[NEWLINE][ICON_BULLET]Green (desert strength, can see stealth and Sun Mana affinity; [LINK=PROMOTION_SCORPION_VIDELICET]Videlicet[\LINK], then [LINK=PROMOTION_SCORPION_VIDELICET_GREATER]Greater Videlicet[\LINK])[NEWLINE][ICON_BULLET]Blue (various aquatic powers; [LINK=PROMOTION_SCORPION_AEQUOR]Aequor[\LINK],then [LINK=PROMOTION_SCORPION_AEQUOR_GREATER]Greater Aequor[\LINK])[NEWLINE][ICON_BULLET]Brown (hill and peak strength and movement; [LINK=PROMOTION_SCORPION_RUTILA]Rutila[\LINK], then [LINK=PROMOTION_SCORPION_RUTILA_GREATER]Greater Rutilia[\LINK])</French>
+		<German>[ICON_BULLET]From level 3, Scorpions can choose 1 color among 5 possibilities (2 consecutive promotions):[NEWLINE][ICON_BULLET]White (defensive strength and more cold terrain motion; [LINK=PROMOTION_SCORPION_GLACIALIS]Glacialis[\LINK], then [LINK=PROMOTION_SCORPION_GLACIALIS_GREATER]Greater Glacialis[\LINK]).[NEWLINE][ICON_BULLET]Black (stronger poison combat; [LINK=PROMOTION_SCORPION_MORTALITAS]Mortalitas[\LINK], then [LINK=PROMOTION_SCORPION_MORTALITAS_GREATER]Greater Mortalitas[\LINK]).[NEWLINE][ICON_BULLET]Green (desert strength, can see stealth and Sun Mana affinity; [LINK=PROMOTION_SCORPION_VIDELICET]Videlicet[\LINK], then [LINK=PROMOTION_SCORPION_VIDELICET_GREATER]Greater Videlicet[\LINK])[NEWLINE][ICON_BULLET]Blue (various aquatic powers; [LINK=PROMOTION_SCORPION_AEQUOR]Aequor[\LINK],then [LINK=PROMOTION_SCORPION_AEQUOR_GREATER]Greater Aequor[\LINK])[NEWLINE][ICON_BULLET]Brown (hill and peak strength and movement; [LINK=PROMOTION_SCORPION_RUTILA]Rutila[\LINK], then [LINK=PROMOTION_SCORPION_RUTILA_GREATER]Greater Rutilia[\LINK])</German>
+		<Italian>[ICON_BULLET]From level 3, Scorpions can choose 1 color among 5 possibilities (2 consecutive promotions):[NEWLINE][ICON_BULLET]White (defensive strength and more cold terrain motion; [LINK=PROMOTION_SCORPION_GLACIALIS]Glacialis[\LINK], then [LINK=PROMOTION_SCORPION_GLACIALIS_GREATER]Greater Glacialis[\LINK]).[NEWLINE][ICON_BULLET]Black (stronger poison combat; [LINK=PROMOTION_SCORPION_MORTALITAS]Mortalitas[\LINK], then [LINK=PROMOTION_SCORPION_MORTALITAS_GREATER]Greater Mortalitas[\LINK]).[NEWLINE][ICON_BULLET]Green (desert strength, can see stealth and Sun Mana affinity; [LINK=PROMOTION_SCORPION_VIDELICET]Videlicet[\LINK], then [LINK=PROMOTION_SCORPION_VIDELICET_GREATER]Greater Videlicet[\LINK])[NEWLINE][ICON_BULLET]Blue (various aquatic powers; [LINK=PROMOTION_SCORPION_AEQUOR]Aequor[\LINK],then [LINK=PROMOTION_SCORPION_AEQUOR_GREATER]Greater Aequor[\LINK])[NEWLINE][ICON_BULLET]Brown (hill and peak strength and movement; [LINK=PROMOTION_SCORPION_RUTILA]Rutila[\LINK], then [LINK=PROMOTION_SCORPION_RUTILA_GREATER]Greater Rutilia[\LINK])</Italian>
+		<Spanish>[ICON_BULLET]From level 3, Scorpions can choose 1 color among 5 possibilities (2 consecutive promotions):[NEWLINE][ICON_BULLET]White (defensive strength and more cold terrain motion; [LINK=PROMOTION_SCORPION_GLACIALIS]Glacialis[\LINK], then [LINK=PROMOTION_SCORPION_GLACIALIS_GREATER]Greater Glacialis[\LINK]).[NEWLINE][ICON_BULLET]Black (stronger poison combat; [LINK=PROMOTION_SCORPION_MORTALITAS]Mortalitas[\LINK], then [LINK=PROMOTION_SCORPION_MORTALITAS_GREATER]Greater Mortalitas[\LINK]).[NEWLINE][ICON_BULLET]Green (desert strength, can see stealth and Sun Mana affinity; [LINK=PROMOTION_SCORPION_VIDELICET]Videlicet[\LINK], then [LINK=PROMOTION_SCORPION_VIDELICET_GREATER]Greater Videlicet[\LINK])[NEWLINE][ICON_BULLET]Blue (various aquatic powers; [LINK=PROMOTION_SCORPION_AEQUOR]Aequor[\LINK],then [LINK=PROMOTION_SCORPION_AEQUOR_GREATER]Greater Aequor[\LINK])[NEWLINE][ICON_BULLET]Brown (hill and peak strength and movement; [LINK=PROMOTION_SCORPION_RUTILA]Rutila[\LINK], then [LINK=PROMOTION_SCORPION_RUTILA_GREATER]Greater Rutilia[\LINK])</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SCORPION_SWARM</Tag>
+		<English>Scorpion Swarm</English>
+		<French>Nuée de Scorpions</French>
+		<German>Skorpion Schwarm</German>
+		<Italian>Sciame di Scorpioni</Italian>
+		<Spanish>Scorpion Swarm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SCORPION_GIANT</Tag>
+		<English>Giant Scorpion</English>
+		<French>Scorpion Géant</French>
+		<German>Riesenskorpion</German>
+		<Italian>Scorpione Gigante</Italian>
+		<Spanish>Giant Scorpion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GIANT_SCORPION_PEDIA</Tag>
+		<English>Giant scorpions are a breed of arachnids known for their poisonous stingers. They are found in a variety of climates, but are most numerous in deserts. Giant scorpions are the size of horses. They are perfectly content with attacking whatever prey is smaller than themselves, including humans, dwarves, and elves.</English>
+		<French>Giant scorpions are a breed of arachnids known for their poisonous stingers. They are found in a variety of climates, but are most numerous in deserts. Giant scorpions are the size of horses. They are perfectly content with attacking whatever prey is smaller than themselves, including humans, dwarves, and elves.</French>
+		<German>Giant scorpions are a breed of arachnids known for their poisonous stingers. They are found in a variety of climates, but are most numerous in deserts. Giant scorpions are the size of horses. They are perfectly content with attacking whatever prey is smaller than themselves, including humans, dwarves, and elves.</German>
+		<Italian>Giant scorpions are a breed of arachnids known for their poisonous stingers. They are found in a variety of climates, but are most numerous in deserts. Giant scorpions are the size of horses. They are perfectly content with attacking whatever prey is smaller than themselves, including humans, dwarves, and elves.</Italian>
+		<Spanish>Giant scorpions are a breed of arachnids known for their poisonous stingers. They are found in a variety of climates, but are most numerous in deserts. Giant scorpions are the size of horses. They are perfectly content with attacking whatever prey is smaller than themselves, including humans, dwarves, and elves.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FREEZE_SCORPION</Tag>
+		<English>Cold Snap</English>
+		<French>Vague de froid</French>
+		<German>Kälteeinbruch</German>
+		<Italian>Ondata di Freddo</Italian>
+		<Spanish>Cold Snap</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GORILLA</Tag>
+		<English>Gorilla</English>
+		<French>
+			<Text>Gorille:Gorilles</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Gorilla</German>
+		<Italian>Gorilla</Italian>
+		<Spanish>Gorilla</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GORILLA_TROOP</Tag>
+		<English>Ape Troop</English>
+		<French>Groupe de gorilles</French>
+		<German>Menschenaffentrupp</German>
+		<Italian>Gruppo di Gorilla</Italian>
+		<Spanish>Ape Troop</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SILVERBACK</Tag>
+		<English>Silverback</English>
+		<French>Dos argenté</French>
+		<German>Silberrücken</German>
+		<Italian>Silverback</Italian>
+		<Spanish>Silverback</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BABY_SPIDER</Tag>
+		<English>Baby Spider</English>
+		<French>
+			<Text>Araignée juvénile:Araignées juvéniles</Text>
+			<Gender>Female:Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Baby-Spinne</German>
+		<Italian>Ragnetto</Italian>
+		<Spanish>Baby Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPIDER</Tag>
+		<English>Spider</English>
+		<French>
+			<Text>Araignée:Araignées</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Spinne</German>
+		<Italian>Ragno</Italian>
+		<Spanish>Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MULTI_SPIDER_PEDIA</Tag>
+		<English>How these creatures managed to grow so big and fierce in the bleak and infertile Ice Age is something of a mystery, but unwary travelers who stumble upon a giant spider will have little time to consider such frivolities...</English>
+		<French>Que ces créatures soient devenues aussi grosses et féroces malgré un Âge de Glace hostile et infertile reste un mystère entier. Mais les voyageurs imprudents qui en croisent une sur leur chemin n'auront que peu de temps à consacrer à de telles frivolités...</French>
+		<German>Wie diese Kreaturen in der Lage waren in der der trostlosen und unfruchtbaren Eiszeit so gross und massiv zu werden, beilbt ein Geheimnis. Aber unachtsame Reisende die den Weg mit einer Riesenspinne kreuzen haben wenig Zeit über solche Dinge nachzudenken...</German>
+		<Italian>Come queste creature siano diventate cosi grandi e feroci durante la fredda e sterile Era del Ghiaccio è un mistero, non che gli incauti viaggiatori che ne incontrino uno abbiano molto tempo per riflette su ciò...</Italian>
+		<Spanish>How these creatures managed to grow so big and fierce in the bleak and infertile Ice Age is something of a mystery, but unwary travelers who stumble upon a giant spider will have little time to consider such frivolities...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPIDER_STRATEGY</Tag>
+		<English>[ICON_BULLET]Baby spiders automatically grow to spiders after a random time (hidden mechanism: [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK]).[NEWLINE][ICON_BULLET]Spiders are invisible to all but recon units. They lay in wait in forested areas and attack units that draw to close to them.[NEWLINE][ICON_BULLET]They have the [LINK=PROMOTION_SPIDER_BLOOD]spider blood promotion[\LINK], giving them +1 poison combat, but they do not pass the poisoned promotion to units in combat.[PARAGRAPH:2]From level 3, Spiders can choose 1 color among 5 possibilities (2 consecutive promotions):[NEWLINE][ICON_BULLET]Red (speed and blitz; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK], then [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][ICON_BULLET]Yellow (can cast Web spells; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK], then [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]).[NEWLINE][ICON_BULLET]Grey (strength and anti recon; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK], then [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][ICON_BULLET]Blue (various aquatic powers; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK], then [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][ICON_BULLET]Green (strength and ranged attack; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK], then [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]).</English>
+		<French>[ICON_BULLET]Baby spiders automatically grow to spiders after a random time (hidden mechanism: [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK]).[NEWLINE][ICON_BULLET]Spiders are invisible to all but recon units. They lay in wait in forested areas and attack units that draw to close to them.[NEWLINE][ICON_BULLET]They have the [LINK=PROMOTION_SPIDER_BLOOD]spider blood promotion[\LINK], giving them +1 poison combat, but they do not pass the poisoned promotion to units in combat.[PARAGRAPH:2]From level 3, Spiders can choose 1 color among 5 possibilities (2 consecutive promotions):[NEWLINE][ICON_BULLET]Red (speed and blitz; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK], then [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][ICON_BULLET]Yellow (can cast Web spells; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK], then [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]).[NEWLINE][ICON_BULLET]Grey (strength and anti recon; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK], then [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][ICON_BULLET]Blue (various aquatic powers; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK], then [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][ICON_BULLET]Green (strength and ranged attack; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK], then [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]).</French>
+		<German>[ICON_BULLET]Spinnenjungtiere wachsen nach einer zufälligen Zeit zu einer ausgewachsenen Spinne heran (verstecker Mechanismus: [LINK=PROMOTION_GROWTH_SPURTS]Wachstumschub[\LINK]).[NEWLINE][ICON_BULLET]Spinnen sind für alle Einheiten ausser Erkundungseinheiten unsichtbar. Sie lauern Einheiten die zu nahe kommen in bewaldeten Gebieten auf.[NEWLINE][ICON_BULLET]Sie haben die [LINK=PROMOTION_SPIDER_BLOOD]Spinnenblut Beförderung[\LINK], welche ihnen +1 Giftangriff verleiht aber sie geben diese Beförderung im Kampf nicht weiter.[PARAGRAPH:2]Ab Level 3 können Spinnen 1 Farbe von 5 Möglichkeiten ausäwhlen (2 aufeinanderfolgende Beförderungen):[NEWLINE][ICON_BULLET]Rot (Geschwindigkeit und Luftangriff; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK], then [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Grosse Rhagodessa[\LINK]).[NEWLINE][ICON_BULLET]Gelb (Kann Netzezauber zaubern; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK], then [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Grosser Textus[\LINK]).[NEWLINE][ICON_BULLET]Grau (Stärke und Tarnunng; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK], then [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Grosser Mucro[\LINK]).[NEWLINE][ICON_BULLET]Blau (diverse wasserbasierte Fähigkeiten; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK], then [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Grosse Argyroneta[\LINK]).[NEWLINE][ICON_BULLET]Grün (Stärke und Fernkampfangriff; [LINK=PROMOTION_SPIDER_VENENUM]Gift[\LINK], then [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Grosse Venenum[\LINK]).</German>
+		<Italian>[ICON_BULLET]I [LINK=UNIT_BABY_SPIDER]ragnetti[\LINK] si trasformano automaticamente in [LINK=UNIT_SPIDER]ragni[\LINK] dopo un periodo di tempo casuale  (meccanismo nascosto: [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK]).[NEWLINE][ICON_BULLET]I Ragni sono visibili solo alle Unità da Ricognizione. Rimangono in attesa nelle aree boschive e attaccano le unità che gli si avvicinano troppo.[NEWLINE][ICON_BULLET]I Ragni possiedono la promozione [LINK=PROMOTION_SPIDER_BLOOD]Sangue di Ragno[\LINK], che gli fornisce un +1 alla forza da veleno, nonostante ciò non avvelenano le unità che combattono.[PARAGRAPH:2]Dal 3° livello, i Ragni possono scegliere 1 colore tra 5 disponibili (2 promozioni consecutive):[NEWLINE][ICON_BULLET]Rosso (Velocità e Incursione; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK], poi [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Rhagodessa Maggiore[\LINK]).[NEWLINE][ICON_BULLET]Giallo (Puo lanciare la magia Ragnatela; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK], poi [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Textus Maggiore[\LINK]).[NEWLINE][ICON_BULLET]Grigio (Forza e bonus contro Unità da Ricognizione; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK], poi [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Mucro Maggiore[\LINK]).[NEWLINE][ICON_BULLET]Blu (Diversi poteri acquatici; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK], poi [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Argyroneta Maggiore[\LINK]).[NEWLINE][ICON_BULLET]Verde (Forza e attacco dalla distanza; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK], poi [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Venenum Maggiore[\LINK]).</Italian>
+		<Spanish>[ICON_BULLET]Baby spiders automatically grow to spiders after a random time (hidden mechanism: [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK]).[NEWLINE][ICON_BULLET]Spiders are invisible to all but recon units. They lay in wait in forested areas and attack units that draw to close to them.[NEWLINE][ICON_BULLET]They have the [LINK=PROMOTION_SPIDER_BLOOD]spider blood promotion[\LINK], giving them +1 poison combat, but they do not pass the poisoned promotion to units in combat.[PARAGRAPH:2]From level 3, Spiders can choose 1 color among 5 possibilities (2 consecutive promotions):[NEWLINE][ICON_BULLET]Red (speed and blitz; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK], then [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][ICON_BULLET]Yellow (can cast Web spells; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK], then [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]).[NEWLINE][ICON_BULLET]Grey (strength and anti recon; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK], then [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][ICON_BULLET]Blue (various aquatic powers; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK], then [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][ICON_BULLET]Green (strength and ranged attack; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK], then [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GIANT_SPIDER</Tag>
+		<English>Giant Spider</English>
+		<French>
+		<Text>Araignée Ancienne:Araignées Anciennes</Text>
+		<Gender>Female</Gender>
+		<Plural>0:1</Plural>
+		</French>
+		<German>Riesenspinne</German>
+		<Italian>Ragno Gigante</Italian>
+		<Spanish>Giant Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GIANT_SPIDER_STRATEGY</Tag>
+		<English>[ICON_BULLET] Giant spiders are invisible to all but recon units. They lay in wait in forested areas and attack units that draw to close to them.[NEWLINE][ICON_BULLET]They have the [LINK=PROMOTION_SPIDER_BLOOD]spider blood promotion[\LINK], giving them +1 poison combat, but they do not pass the poisoned promotion to units in combat.</English>
+		<French>[ICON_BULLET] Giant spiders are invisible to all but recon units. They lay in wait in forested areas and attack units that draw to close to them.[NEWLINE][ICON_BULLET]They have the [LINK=PROMOTION_SPIDER_BLOOD]spider blood promotion[\LINK], giving them +1 poison combat, but they do not pass the poisoned promotion to units in combat.</French>
+		<German>[ICON_BULLET] Grosse Spinnen sind für alle Einheiten ausser Erkundungseinheiten unsichtbar. Sie lauern Einheiten die zu nahe kommen in bewaldeten Gebieten auf.[NEWLINE][ICON_BULLET]Sie haben die [LINK=PROMOTION_SPIDER_BLOOD]Spinnenblut Beförderung[\LINK], welche ihnen +1 Giftangriff verleiht aber sie geben diese Beförderung im Kampf nicht weiter.</German>
+		<Italian>[ICON_BULLET] I Ragni Giganti sono visibili solo alle Unità da Ricognizione. Rimangono in attesa nelle aree boschive e attaccano le unità che gli si avvicinano troppo.[NEWLINE][ICON_BULLET]I Ragni Giganti possiedono la promozione [LINK=PROMOTION_SPIDER_BLOOD]Sangue di Ragno[\LINK], che gli fornisce un +1 alla forza da veleno, nonostante ciò non avvelenano le unità che combattono.</Italian>
+		<Spanish>[ICON_BULLET] Giant spiders are invisible to all but recon units. They lay in wait in forested areas and attack units that draw to close to them.[NEWLINE][ICON_BULLET]They have the [LINK=PROMOTION_SPIDER_BLOOD]spider blood promotion[\LINK], giving them +1 poison combat, but they do not pass the poisoned promotion to units in combat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WOLF_PACK</Tag>
+		<English>Wolf Pack</English>
+		<French>
+			<Text>Meute de loups:Meutes de loups</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Wolfsrudel</German>
+		<Italian>Branco di Lupi</Italian>
+		<Spanish>Wolf Pack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WOLF_STRATEGY</Tag>
+		<English>Wolves occasionally grow into wolf packs. Wolf Packs can spawn new wolves that split off and hunt on their own, making them mobile monster lairs.</English>
+		<French>Wolves occasionally grow into wolf packs. Wolf Packs can spawn new wolves that split off and hunt on their own, making them mobile monster lairs.</French>
+		<German>Ökologie:[NEWLINE][PARAGRAPH:1]Wölfe wachsen von Zeit zu Zeit zu Wolfsrudeln an. Wolfsrudel spalten hin und wieder neue Wölfe ab, die das Rudel verlassen um auf eigene Faust zu jagen. Das macht sie zu mobilen Monsterhöhlen</German>
+		<Italian>Occasionalmente i [LINK=UNIT_WOLF]lupi[\LINK] possono trasformarsi in un [LINK=UNIT_WOLF_PACK]Branco di Lupi[\LINK]. I Branchi di Lupi funzionano come Tane mobili, generando nuovi lupi che si dividono dal branco e cacciano per conto loro.</Italian>
+		<Spanish>Wolves occasionally grow into wolf packs. Wolf Packs can spawn new wolves that split off and hunt on their own, making them mobile monster lairs.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LION_PRIDE</Tag>
+		<English>Lion Pride</English>
+		<French>
+			<Text>Horde de Lions:Hordes de Lions</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Löwenrudel</German>
+		<Italian>Branco di Leoni</Italian>
+		<Spanish>Lion Pride</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LION_BLOOD_HELP</Tag>
+		<English>[ICON_BULLET]Allows animal and beast units to become invisible. Becomes visible after combat for 3 turns.</English>
+		<French>[ICON_BULLET]Permet aux animaux et bêtes de devenir invisible. Redevient visible pour trois tours après un combat.</French>
+		<German>[ICON_BULLET]Erlaubt Tieren und Bestieneinheiten unsichtbar zu werden. Sie werden nach einem Kampf für 3 Runden sichtbar.</German>
+		<Italian>[ICON_BULLET]Permette alle Unità Animali e Bestiali di diventare invisibili. Tornano visibili dopo il combattimento per 3 turni.</Italian>
+		<Spanish>[ICON_BULLET]Allows animal and beast units to become invisible. Becomes visible after combat for 3 turns.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ELEPHANT</Tag>
+		<English>Elephant</English>
+		<French>
+			<Text>Éléphant:Éléphants</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Elefant</German>
+		<Italian>Elefante</Italian>
+		<Spanish>Elephant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAWK</Tag>
+		<English>Hawk</English>
+		<French>Aigle</French>
+		<German>Falke</German>
+		<Italian>Falco</Italian>
+		<Spanish>Hawk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAWK_PEDIA</Tag>
+		<English>To soar, weightless, above the world: it is the dream of man, and the reality of the Hawk. Trained Hawks act as the eyes of Hunters, Rangers and Beastmasters, increasing their already considerable recon ability.</English>
+		<French>S'élever, léger, au-dessus du monde, tel est le rêve de l'Homme, et la réalité de l'Aigle. Les Aigles Dressés sont les yeux des Chasseurs, Rôdeurs et Maîtres d'Animaux, augmentant leur champ de vision déjà conséquent.</French>
+		<German>Sich scheinbar schwerelos über die Welt erheben: dies ist der Traum der Menschheit und die Realität des Falken. Trainierte Falken dienen als Augen von Jägern, Waldläufern und Stammeskriegern und erhöhen deren bereits großartige Fähigkeiten als Aufklärer.</German>
+		<Italian>Volare, senza peso, sopra il mondo: il sogno dell'uomo e la realtà del Falco. I Falchi addestrati agiscono come occhi dei Cacciatori, Ranger e Signori degli animali, aumentando ulteriormente la loro già notevole capacità di ricognizione.</Italian>
+		<Spanish>To soar, weightless, above the world: it is the dream of man, and the reality of the Hawk. Trained Hawks act as the eyes of Hunters, Rangers and Beastmasters, increasing their already considerable recon ability.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAWK_STRATEGY</Tag>
+		<English>They can be carried by Rangers, Hunters, and Druids. They can recon into unknown or enemy territory, expanding on their host's already considerable recon abilities and reveal any hidden Shadows in the area.</English>
+		<French>Ils peuvent être transportés par les Rôdeurs, les Chasseurs, les Belluaires et les Druides. Ils peuvent partir en éclaireur en territoire inconnu ou ennemi, étendant les capacités de reconnaissance déjà considérable de leurs hôtes et dévoiler toute Ombre caché dans le secteur.</French>
+		<German>Können von Waldläufern, Jägern und Druiden getragen werden. Sie können unbekanntes oder feindliches Gebiet aufklären und erhöhen dadurch die Aufklärer-Fähigkeiten ihrer Herren.</German>
+		<Italian>Possono essere trasportati dai Cacciatori, Rangers, Signori degli Animali e Druidi. Possono volare nei terreni sconosciuti o in quelli nemici, aumentando la già considerevole capacità di osservazione di chi li trasporta e rivela qualsiasi unità nascosta nell'area.</Italian>
+		<Spanish>They can be carried by Rangers, Hunters, and Druids. They can recon into unknown or enemy territory, expanding on their host's already considerable recon abilities and reveal any hidden Shadows in the area.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HIPPOGRIFF</Tag>
+		<English>Hippogriff</English>
+		<French>Hippogriffe</French>
+		<German>Hippogreif</German>
+		<Italian>Ippogriffo</Italian>
+		<Spanish>Hippogriff</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GRIFFON</Tag>
+		<English>Griffon</English>
+		<French>
+			<Text>Griffon:Griffons</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Greif</German>
+		<Italian>Griffone</Italian>
+		<Spanish>Griffon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TIGER</Tag>
+		<English>Tiger</English>
+		<French>
+			<Text>Tigre:Tigres</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Tiger</German>
+		<Italian>Tigre</Italian>
+		<Spanish>Tiger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TIGER_STRATEGY</Tag>
+		<English>Though far less dangerous than the humanoid and occasionally undead denizens of the wilderness, wild animals are nevertheless a constant hazard to those who dare venture beyond the pale.</English>
+		<French>Though far less dangerous than the humanoid and occasionally undead denizens of the wilderness, wild animals are nevertheless a constant hazard to those who dare venture beyond the pale.</French>
+		<German>Obwohl sie weit weniger gef?hrlich sind als die humanoiden und gelegentlich untoten Bewohner der Wildnis, sind wilde Tiere nichtsdestoweniger eine st?ndige Bedrohung f?r diejenigen, die sich hinaus in die Natur wagen.</German>
+		<Italian>Anche se decisamente meno pericolosa dei pericoli umanoidi e, occasionalmente, non-morti presenti nelle terre selvagge, gli animali selvaggi sono comunque un pericolo costante per chi osa avventurarsi oltre la palizzata.</Italian>
+		<Spanish>Though far less dangerous than the humanoid and occasionally undead denizens of the wilderness, wild animals are nevertheless a constant hazard to those who dare venture beyond the pale.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SABRETOOTH</Tag>
+		<English>Sabretooth</English>
+		<French>Dent-de-Sabre</French>
+		<German>Säbelzahntiger</German>
+		<Italian>Tigre dai denti a sciabola</Italian>
+		<Spanish>Sabretooth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STAG</Tag>
+		<English>Stag</English>
+		<French>Cerf</French>
+		<German>
+			<Text>Hirsch</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>Cervo</Italian>
+		<Spanish>Ciervo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_STAG_PEDIA</Tag>
+		<English>[TAB]Even in winter's grasp some remnants of an earlier age remains.  The Great Stag is a symbol of that time and reminds a world populated by gaunt wolves and even more lean men that there was a time of plenty, when nature had a primal strength and was as nurturing as it was fierce.  Those times seem well past, covered by layers of ice.[PARAGRAPH:1]But beneath that ice, and in the spirit of this great creature, some piece of that strength lives on.  A talented hunter who is able to defeat the Stag can claim its pelt and its legend for himself.  Those that choose to nurture the Stag instead may find another reward awaits them.</English>
+		<French>[TAB]M&#234;me au c&#156;ur de l'hiver, on trouve les vestiges d'un âge révolu. Le Grand Cerf est l'un des symboles de ce temps. Il rappelle à un monde de loups faméliques et d'hommes plus maigres encore qu'autrefois régnait l'abondance. Autrefois, la nature était une force essentielle et elle s'avérait souvent aussi nourricière que féroce. Ces temps semblent révolus : ils ont été ensevelis sous la glace.[PARAGRAPH:1]Mais sous cette couche de glace, comme dans l'esprit du cerf, une partie de cette force continue à vivre. Un chasseur talentueux capable de tuer le Grand Cerf peut réclamer sa fourrure et sa légende pour lui. Une autre récompense attendra peut-&#234;tre ceux qui décident au contraire de le nourrir.</French>
+		<German>[TAB]Auch im eiskalten Griff des Winters gibt es &#220;Überbleibsel eines früheren Zeitalters. Der Große Hirsch ist ein Symbol dieser Zeit und in einer Welt, die von hungerigen Wölfen und noch magereren Menschen bewohnt wird, erinnert er daran, dass es einst eine Zeit der Fülle gab, als die Natur noch urwüchsige Kraft hatte und ebenso reich an Nahrung wie Wildheit war. Diese Zeiten scheinen längst vergangen, bedeckt von Lagen aus Eis.[PARAGRAPH:1]Doch unter diesem Eis und im Geist dieser großartigen Kreatur lebt ein Teil dieser Stärke weiter. Ein talentierter Jäger, der den Hirsch besiegen kann und sein Fell für sich beanspruchen, wird selbst zur Legende. Diejenigen, die sich stattdessen entschließen, den Hirsch leben zu lassen, erwartet vielleicht eine andere Belohnung.</German>
+		<Italian>[TAB]Anche nella presa dell'inverno rimane qualcosa delle ere precedenti. Il Grande Cervo è un simbolo di quei tempi e ricorda a un mondo popolato da lupi sparuti e uomini ancor pi&#249; magri che ci fu un tempo di abbondanza, quando la natura era forte ed era tanto generosa quanto feroce. Quei tempi sembrano ormai andati, coperti da strati di ghiaccio.[PARAGRAPH:1]Ma sotto quel ghiaccio, e nello spirito di questa grande creatura, rimane un po' di quella forza. Un cacciatore capace in grado di sconfiggere il grande cervo ne pu&#242; prendere la pelle e la leggenda. Quelli che decidono invece di nutrirlo potrebbero scoprire che li aspetta un'altra ricompensa.</Italian>
+		<Spanish>[TAB]Incluso bajo la tenaza del invierno perduran a&#250;n algunos vestigios de una era anterior.  El gran ciervo es un s&#237;mbolo de aquellos tiempos, y recuerda que hubo un mundo poblado por lobos macilentos y hombres descarnados, as&#237; como una época de plenitud, cuando la naturaleza pose&#237;a una fuerza primaria y era tan generosa como feroz.  Esos tiempos parecen muy lejanos, sepultados bajo varias capas de hielo.[PARAGRAPH:1]Pero bajo ese hielo, y en el esp&#237;ritu de esta criatura, parte de esa fuerza a&#250;n pervive.  Un cazador de talento, capaz de cazar al ciervo, podr&#237;a reclamar para s&#237; su piel y su leyenda.  Pero si perdona al noble animal, es posible que encuentre otra recompensa en el futuro.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ELK</Tag>
+		<English>Elk</English>
+		<French>Élan</French>
+		<German>Elch</German>
+		<Italian>Alce</Italian>
+		<Spanish>Elk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RAPTOR</Tag>
+		<English>Raptor</English>
+		<French>Raptor</French>
+		<German>Raptor</German>
+		<Italian>Raptor</Italian>
+		<Spanish>Raptor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RAPTOR_PACK</Tag>
+		<English>Raptor Pack</English>
+		<French>Raptor Pack</French>
+		<German>Raptor Rudel</German>
+		<Italian>Branco di Raptor</Italian>
+		<Spanish>Raptor Pack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ALLOSAUR</Tag>
+		<English>Allosaur</English>
+		<French>Allosaure</French>
+		<German>Allosaurier</German>
+		<Italian>Allosauro</Italian>
+		<Spanish>Allosaur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TYRANT</Tag>
+		<English>Tyrant</English>
+		<French>Tyrant</French>
+		<German>Tyrann</German>
+		<Italian>Tyrant</Italian>
+		<Spanish>Tyrant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SEA_SERPENT</Tag>
+		<English>Sea Serpent</English>
+		<French>
+			<Text>Serpent de Mer:Serpents de Mer</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Seeschlange</German>
+		<Italian>Serpente Marino</Italian>
+		<Spanish>Sea Serpent</Spanish>
+	</TEXT>
+</Civ4GameText>

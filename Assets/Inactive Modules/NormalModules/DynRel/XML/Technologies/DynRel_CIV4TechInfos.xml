@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Tech Infos -->
+<Civ4TechInfos xmlns="x-schema:DynRel_CIV4TechnologiesSchema.xml">
+	<TechInfos>
+	<TechInfo>		<!-- Corruption of Spirit -->
+			<Type>TECH_CORRUPTION_OF_SPIRIT</Type>
+			<iCost>-1</iCost>
+			<bDisable>1</bDisable>
+			<Help>TXT_KEY_RELIGION_DISABLED_DYN_REL</Help>
+			
+		</TechInfo>
+	<TechInfo>		<!-- Deception -->
+			<Type>TECH_DECEPTION</Type>
+			<iCost>-1</iCost>
+			<bDisable>1</bDisable>
+			<Help>TXT_KEY_RELIGION_DISABLED_DYN_REL</Help>
+		</TechInfo>
+	<TechInfo>		<!-- Honor -->
+			<Type>TECH_HONOR</Type>
+			<iCost>-1</iCost>
+			<bDisable>1</bDisable>
+			<Help>TXT_KEY_RELIGION_DISABLED_DYN_REL</Help>
+		</TechInfo>
+	<TechInfo>		<!-- Message from the Deep -->
+			<Type>TECH_MESSAGE_FROM_THE_DEEP</Type>
+			<iCost>-1</iCost>
+			<bDisable>1</bDisable>
+			<Help>TXT_KEY_RELIGION_DISABLED_DYN_REL</Help>
+		</TechInfo>
+	<TechInfo>		<!-- Orders from Heaven -->
+			<Type>TECH_ORDERS_FROM_HEAVEN</Type>
+			<iCost>-1</iCost>
+			<bDisable>1</bDisable>
+			<Help>TXT_KEY_RELIGION_DISABLED_DYN_REL</Help>
+		</TechInfo>
+	<TechInfo>		<!-- Way of the EarthMother -->
+			<Type>TECH_WAY_OF_THE_EARTHMOTHER</Type>
+			<iCost>-1</iCost>
+			<bDisable>1</bDisable>
+			<Help>TXT_KEY_RELIGION_DISABLED_DYN_REL</Help>
+		</TechInfo>
+	<TechInfo>		<!-- Way of the Forests -->
+			<Type>TECH_WAY_OF_THE_FORESTS</Type>
+			<iCost>-1</iCost>
+			<bDisable>1</bDisable>
+			<Help>TXT_KEY_RELIGION_DISABLED_DYN_REL</Help>
+		</TechInfo>
+	<TechInfo>		<!-- White Hand -->
+			<Type>TECH_WHITE_HAND</Type>
+			<iCost>-1</iCost>
+			<bDisable>1</bDisable>
+			<Help>TXT_KEY_RELIGION_DISABLED_DYN_REL</Help>
+		</TechInfo>
+	</TechInfos>
+</Civ4TechInfos>

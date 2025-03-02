@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 Beyond the Sword -->
+<!-- Modified by the World of Civilization Team -->
+<!-- Game Text -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PALACE_HAMSTER</Tag>
+		<English>Hall of the Fuzzy Lords</English>
+		<French>Hall of the Fuzzy Lords</French>
+		<German>Halle der Flauschigen Lords</German>
+		<Italian>Hall of the Fuzzy Lords</Italian>
+		<Spanish>Hall of the Fuzzy Lords</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WHEEL</Tag>
+		<English>Hall of Wheels</English>
+		<French>Hall of Wheels</French>
+		<German>Halle der R&#228;der</German>
+		<Italian>Hall of Wheels</Italian>
+		<Spanish>Hall of Wheels</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_WHEEL_PEDIA</Tag>
+		<English>Hamstalfar Training Yards are dominated by huge exersize wheels. The city's entire population is expected to use the wheels regularly. This results in a particularly fit population, well demonstrating the benevolent leadership of the Hamstalfar Lords.</English>
+		<French>Hamstalfar Training Yards are dominated by huge exersize wheels. The city's entire population is expected to use the wheels regularly. This results in a particularly fit population, well demonstrating the benevolent leadership of the Hamstalfar Lords.</French>
+		<German>Hamstalfar Training Yards are dominated by huge exersize wheels. The city's entire population is expected to use the wheels regularly. This results in a particularly fit population, well demonstrating the benevolent leadership of the Hamstalfar Lords.</German>
+		<Italian>Hamstalfar Training Yards are dominated by huge exersize wheels. The city's entire population is expected to use the wheels regularly. This results in a particularly fit population, well demonstrating the benevolent leadership of the Hamstalfar Lords.</Italian>
+		<Spanish>Hamstalfar Training Yards are dominated by huge exersize wheels. The city's entire population is expected to use the wheels regularly. This results in a particularly fit population, well demonstrating the benevolent leadership of the Hamstalfar Lords.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HAMSTER_DESC</Tag>
+		<English>Hamstalfar</English>
+		<French>Hamstálfafólk</French>
+		<German>Hamstalfar</German>
+		<Italian>Hamstalfar</Italian>
+		<Spanish>Hamstalfar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HAMSTER_SHORT_DESC</Tag>
+		<English>Hamstalfar</English>
+		<French>Hamstálfar</French>
+		<German>Hamstalfar</German>
+		<Italian>Hamstalfar</Italian>
+		<Spanish>Hamstalfar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HAMSTER_ADJECTIVE</Tag>
+		<English>Hamstalfar</English>
+		<French>hamstálfur:hamstálfur:hamstálfar:hamstálfar</French>
+		<German>Hamstalfarisch:Hamstalfarischen:Hamstalfarische</German>
+		<Italian>Hamstalfar</Italian>
+		<Spanish>Hamstalfar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_HAMSTER_PEDIA</Tag>
+		<English>At the dawn of the Age of Ice, the once-mighty Alfar civilization fell victim to the forces of the nascent age, with a rivalry between the Summer and Winter courts erupting into violent civil war. This left many smaller settlements isolated and destined for deathâ€¦ Or so they thought. One particular settlement was destined for far greater things, however, and just when things looked the most dire, as ice choked the land and food became impossible to find, they were rescued by a rather unexpected group; A race of intelligent Hamsters.
+Now, much later, the hybrid "Hamstalfar" culture is well established. The Fuzzy Lords rule a much larger Elven population and own most property. Still, the relationship between the species is generally very good as the hamsters are gifted leaders. Elven culture tends to dominate outside the capital, though the "Kibblic Edda", an ancient cycle of hamster legend, is a common inspiration for most Hamstalfar artists.[PARAGRAPH:1]When commanded by Hamster officers Elven troops are among the finest in the world.</English>
+		<French>At the dawn of the Age of Ice, the once-mighty Alfar civilization fell victim to the forces of the nascent age, with a rivalry between the Summer and Winter courts erupting into violent civil war. This left many smaller settlements isolated and destined for deathâ€¦ Or so they thought. One particular settlement was destined for far greater things, however, and just when things looked the most dire, as ice choked the land and food became impossible to find, they were rescued by a rather unexpected group; A race of intelligent Hamsters.
+Now, much later, the hybrid "Hamstalfar" culture is well established. The Fuzzy Lords rule a much larger Elven population and own most property. Still, the relationship between the species is generally very good as the hamsters are gifted leaders. Elven culture tends to dominate outside the capital, though the "Kibblic Edda", an ancient cycle of hamster legend, is a common inspiration for most Hamstalfar artists.[PARAGRAPH:1]When commanded by Hamster officers Elven troops are among the finest in the world.</French>
+		<German>At the dawn of the Age of Ice, the once-mighty Alfar civilization fell victim to the forces of the nascent age, with a rivalry between the Summer and Winter courts erupting into violent civil war. This left many smaller settlements isolated and destined for deathâ€¦ Or so they thought. One particular settlement was destined for far greater things, however, and just when things looked the most dire, as ice choked the land and food became impossible to find, they were rescued by a rather unexpected group; A race of intelligent Hamsters.
+Now, much later, the hybrid "Hamstalfar" culture is well established. The Fuzzy Lords rule a much larger Elven population and own most property. Still, the relationship between the species is generally very good as the hamsters are gifted leaders. Elven culture tends to dominate outside the capital, though the "Kibblic Edda", an ancient cycle of hamster legend, is a common inspiration for most Hamstalfar artists.[PARAGRAPH:1]When commanded by Hamster officers Elven troops are among the finest in the world.</German>
+		<Italian>At the dawn of the Age of Ice, the once-mighty Alfar civilization fell victim to the forces of the nascent age, with a rivalry between the Summer and Winter courts erupting into violent civil war. This left many smaller settlements isolated and destined for deathâ€¦ Or so they thought. One particular settlement was destined for far greater things, however, and just when things looked the most dire, as ice choked the land and food became impossible to find, they were rescued by a rather unexpected group; A race of intelligent Hamsters.
+Now, much later, the hybrid "Hamstalfar" culture is well established. The Fuzzy Lords rule a much larger Elven population and own most property. Still, the relationship between the species is generally very good as the hamsters are gifted leaders. Elven culture tends to dominate outside the capital, though the "Kibblic Edda", an ancient cycle of hamster legend, is a common inspiration for most Hamstalfar artists.[PARAGRAPH:1]When commanded by Hamster officers Elven troops are among the finest in the world.</Italian>
+		<Spanish>At the dawn of the Age of Ice, the once-mighty Alfar civilization fell victim to the forces of the nascent age, with a rivalry between the Summer and Winter courts erupting into violent civil war. This left many smaller settlements isolated and destined for deathâ€¦ Or so they thought. One particular settlement was destined for far greater things, however, and just when things looked the most dire, as ice choked the land and food became impossible to find, they were rescued by a rather unexpected group; A race of intelligent Hamsters.
+Now, much later, the hybrid "Hamstalfar" culture is well established. The Fuzzy Lords rule a much larger Elven population and own most property. Still, the relationship between the species is generally very good as the hamsters are gifted leaders. Elven culture tends to dominate outside the capital, though the "Kibblic Edda", an ancient cycle of hamster legend, is a common inspiration for most Hamstalfar artists.[PARAGRAPH:1]When commanded by Hamster officers Elven troops are among the finest in the world.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VALK</Tag>
+		<English>Valkrionn</English>
+		<French>Valkrionn</French>
+		<German>Valkrionn</German>
+		<Italian>Valkrionn</Italian>
+		<Spanish>Valkrionn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VALK_PEDIA</Tag>
+		<English>The Hamster King is an elected monarch, the head of each Great House - the Fuzzy Lords - casting a vote. Valkrionn was elected unanimously and rules with absolute power. A master organizer, all the Hamsterhold is run with deft efficiency. Yet he is also both flexible and persuasive, guiding the Hamstalfar through great policy changes both quickly and without misstep.[NEWLINE][NEWLINE]It is said his gold eye possesses the power to see true motives of both rodent and elf.</English>
+		<French>The Hamster King is an elected monarch, the head of each Great House - the Fuzzy Lords - casting a vote. Valkrionn was elected unanimously and rules with absolute power. A master organizer, all the Hamsterhold is run with deft efficiency. Yet he is also both flexible and persuasive, guiding the Hamstalfar through great policy changes both quickly and without misstep.[NEWLINE][NEWLINE]It is said his gold eye possesses the power to see true motives of both rodent and elf.</French>
+		<German>The Hamster King is an elected monarch, the head of each Great House - the Fuzzy Lords - casting a vote. Valkrionn was elected unanimously and rules with absolute power. A master organizer, all the Hamsterhold is run with deft efficiency. Yet he is also both flexible and persuasive, guiding the Hamstalfar through great policy changes both quickly and without misstep.[NEWLINE][NEWLINE]It is said his gold eye possesses the power to see true motives of both rodent and elf.</German>
+		<Italian>The Hamster King is an elected monarch, the head of each Great House - the Fuzzy Lords - casting a vote. Valkrionn was elected unanimously and rules with absolute power. A master organizer, all the Hamsterhold is run with deft efficiency. Yet he is also both flexible and persuasive, guiding the Hamstalfar through great policy changes both quickly and without misstep.[NEWLINE][NEWLINE]It is said his gold eye possesses the power to see true motives of both rodent and elf.</Italian>
+		<Spanish>The Hamster King is an elected monarch, the head of each Great House - the Fuzzy Lords - casting a vote. Valkrionn was elected unanimously and rules with absolute power. A master organizer, all the Hamsterhold is run with deft efficiency. Yet he is also both flexible and persuasive, guiding the Hamstalfar through great policy changes both quickly and without misstep.[NEWLINE][NEWLINE]It is said his gold eye possesses the power to see true motives of both rodent and elf.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAMSTER_COMMANDER_PEDIA</Tag>
+		<English>It is not unknown for a great hamster commander to take a gifted Elven warrior under his furry "wing." The wise rodent is carried into battle on the elf's strong shoulders, the pair leading the Hamstalfar armies from success to success.</English>
+		<French>It is not unknown for a great hamster commander to take a gifted Elven warrior under his furry "wing." The wise rodent is carried into battle on the elf's strong shoulders, the pair leading the Hamstalfar armies from success to success.</French>
+		<German>It is not unknown for a great hamster commander to take a gifted Elven warrior under his furry "wing." The wise rodent is carried into battle on the elf's strong shoulders, the pair leading the Hamstalfar armies from success to success.</German>
+		<Italian>It is not unknown for a great hamster commander to take a gifted Elven warrior under his furry "wing." The wise rodent is carried into battle on the elf's strong shoulders, the pair leading the Hamstalfar armies from success to success.</Italian>
+		<Spanish>It is not unknown for a great hamster commander to take a gifted Elven warrior under his furry "wing." The wise rodent is carried into battle on the elf's strong shoulders, the pair leading the Hamstalfar armies from success to success.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAMSTER_COMMANDER</Tag>
+		<English>Hamster Warlord</English>
+		<French>Seigneur de Guerre Hamster</French>
+		<German>Hamster Kriegsherr</German>
+		<Italian>Hamster Warlord</Italian>
+		<Spanish>Hamster Warlord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAMSTERTRUPPEN</Tag>
+		<English>Hamstertruppen</English>
+		<French>Hamstertruppen</French>
+		<German>Hamstertruppen</German>
+		<Italian>Hamstertruppen</Italian>
+		<Spanish>Hamstertruppen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAMSTERTRUPPEN_PEDIA</Tag>
+		<English>The Hamstalfar military is almost completely manned by the elves. Only one unit is made up entirely of Hamsters: The dread Hamstertruppen.[PARAGRAPH:1]Moving unseen into enemy territory, pillaging villages or consuming harvests, a swarm of highly-trained hamster warriors is an awesome sight.[PARAGRAPH:1]Without potent weapons the Hamstertruppen have difficulty in pitched battle. However, sufficiently well armed they are not just an awesome sight, but one few foe-men will see twice.</English>
+		<French>The Hamstalfar military is almost completely manned by the elves. Only one unit is made up entirely of Hamsters: The dread Hamstertruppen.[PARAGRAPH:1]Moving unseen into enemy territory, pillaging villages or consuming harvests, a swarm of highly-trained hamster warriors is an awesome sight.[PARAGRAPH:1]Without potent weapons the Hamstertruppen have difficulty in pitched battle. However, sufficiently well armed they are not just an awesome sight, but one few foe-men will see twice.</French>
+		<German>The Hamstalfar military is almost completely manned by the elves. Only one unit is made up entirely of Hamsters: The dread Hamstertruppen.[PARAGRAPH:1]Moving unseen into enemy territory, pillaging villages or consuming harvests, a swarm of highly-trained hamster warriors is an awesome sight.[PARAGRAPH:1]Without potent weapons the Hamstertruppen have difficulty in pitched battle. However, sufficiently well armed they are not just an awesome sight, but one few foe-men will see twice.</German>
+		<Italian>The Hamstalfar military is almost completely manned by the elves. Only one unit is made up entirely of Hamsters: The dread Hamstertruppen.[PARAGRAPH:1]Moving unseen into enemy territory, pillaging villages or consuming harvests, a swarm of highly-trained hamster warriors is an awesome sight.[PARAGRAPH:1]Without potent weapons the Hamstertruppen have difficulty in pitched battle. However, sufficiently well armed they are not just an awesome sight, but one few foe-men will see twice.</Italian>
+		<Spanish>The Hamstalfar military is almost completely manned by the elves. Only one unit is made up entirely of Hamsters: The dread Hamstertruppen.[PARAGRAPH:1]Moving unseen into enemy territory, pillaging villages or consuming harvests, a swarm of highly-trained hamster warriors is an awesome sight.[PARAGRAPH:1]Without potent weapons the Hamstertruppen have difficulty in pitched battle. However, sufficiently well armed they are not just an awesome sight, but one few foe-men will see twice.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIT</Tag>
+		<English>Fit</English>
+		<French>Fit</French>
+		<German>Fit</German>
+		<Italian>Fit</Italian>
+		<Spanish>Fit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INSPIRING</Tag>
+		<English>Inspiring</English>
+		<French>Inspiring</French>
+		<German>Inspirierend</German>
+		<Italian>Inspiring</Italian>
+		<Spanish>Inspiring</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INSPIRED</Tag>
+		<English>Inspired</English>
+		<French>Inspired</French>
+		<German>Inspiriert</German>
+		<Italian>Inspired</Italian>
+		<Spanish>Inspired</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ALFAR</Tag>
+		<English>Hamstalfar</English>
+		<French>Hamstálfur</French>
+		<German>Hamstalfar</German>
+		<Italian>Hamstalfar</Italian>
+		<Spanish>Hamstalfar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ALFAR_HELP</Tag>
+		<English>[ICON_BULLET]Applies either the Elven or Dark Elven artstyle</English>
+		<French>[ICON_BULLET]Applies either the Elven or Dark Elven artstyle</French>
+		<German>[ICON_BULLET]Nimmt entweder den Kunststil der Elfen oder Dunkelelfen an</German>
+		<Italian>[ICON_BULLET]Applies either the Elven or Dark Elven artstyle</Italian>
+		<Spanish>[ICON_BULLET]Applies either the Elven or Dark Elven artstyle</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_COMPACT</Tag>
+		<English>Realm of the Compact</English>
+		<French>Realm of the Compact</French>
+		<German>Reich des Abkommens</German>
+		<Italian>Realm of the Compact</Italian>
+		<Spanish>Realm of the Compact</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_COMPACT_PEDIA</Tag>
+		<English>Thanks to the Compact signed between the Alfar and their rodent overlords, their lands are prosperous, healthy, and well-defended.</English>
+		<French>Thanks to the Compact signed between the Alfar and their rodent overlords, their lands are prosperous, healthy, and well-defended.</French>
+		<German>Thanks to the Compact signed between the Alfar and their rodent overlords, their lands are prosperous, healthy, and well-defended.</German>
+		<Italian>Thanks to the Compact signed between the Alfar and their rodent overlords, their lands are prosperous, healthy, and well-defended.</Italian>
+		<Spanish>Thanks to the Compact signed between the Alfar and their rodent overlords, their lands are prosperous, healthy, and well-defended.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_COMPACT_SHORT</Tag>
+		<English>Compact</English>
+		<French>Compact</French>
+		<German>Abkommen</German>
+		<Italian>Compact</Italian>
+		<Spanish>Compact</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_HAMSTER_TRIAL</Tag>
+		<English>Trial of the Fuzzy Lords</English>
+		<French>Trial of the Fuzzy Lords</French>
+		<German>Pr&#252;fung der Flauschigen Lords</German>
+		<Italian>Trial of the Fuzzy Lords</Italian>
+		<Spanish>Trial of the Fuzzy Lords</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_HAMSTER_TRIAL_PEDIA</Tag>
+		<English>Trial of the Fuzzy Lords</English>
+		<French>Trial of the Fuzzy Lords</French>
+		<German>Pr&#252;fung der Flauschigen Lords</German>
+		<Italian>Trial of the Fuzzy Lords</Italian>
+		<Spanish>Trial of the Fuzzy Lords</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_HAMSTER_TRIAL_HELP</Tag>
+		<English>[ICON_BULLET]May impress a Hamster Commander, fail, or even die</English>
+		<French>[ICON_BULLET]May impress a Hamster Commander, fail, or even die</French>
+		<German>[ICON_BULLET]Kann einen Hamsterkommandanten beeindrucken, versagen und sogar sterben</German>
+		<Italian>[ICON_BULLET]May impress a Hamster Commander, fail, or even die</Italian>
+		<Spanish>[ICON_BULLET]May impress a Hamster Commander, fail, or even die</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HAMSTER_COMMANDER</Tag>
+		<English>Hamster Commander</English>
+		<French>Hamster Commander</French>
+		<German>Hamsterkommandant</German>
+		<Italian>Hamster Commander</Italian>
+		<Spanish>Hamster Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TRIAL_LEASH</Tag>
+		<English>Failed Trial</English>
+		<French>Failed Trial</French>
+		<German>Bei der Pr&#252;fung versagt</German>
+		<Italian>Failed Trial</Italian>
+		<Spanish>Failed Trial</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HAMSTER_COMMANDER_ADEPT</Tag>
+		<English>Arcane Commander</English>
+		<French>Arcane Commander</French>
+		<German>Magischer Kommandant</German>
+		<Italian>Arcane Commander</Italian>
+		<Spanish>Arcane Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HAMSTER_COMMANDER_ARCHER</Tag>
+		<English>Archer Commander</English>
+		<French>Archer Commander</French>
+		<German>Bogensch&#252;tzenkommandant</German>
+		<Italian>Archer Commander</Italian>
+		<Spanish>Archer Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HAMSTER_COMMANDER_DISCIPLE</Tag>
+		<English>Disciple Commander</English>
+		<French>Disciple Commander</French>
+		<German>Kommandant der Geweihten</German>
+		<Italian>Disciple Commander</Italian>
+		<Spanish>Disciple Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HAMSTER_COMMANDER_MELEE</Tag>
+		<English>Melee Commander</English>
+		<French>Melee Commander</French>
+		<German>Nahkampfkommandant</German>
+		<Italian>Melee Commander</Italian>
+		<Spanish>Melee Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HAMSTER_COMMANDER_MOUNTED</Tag>
+		<English>Mounted Commander</English>
+		<French>Mounted Commander</French>
+		<German>Berittenenkommandant</German>
+		<Italian>Mounted Commander</Italian>
+		<Spanish>Mounted Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HAMSTER_COMMANDER_RECON</Tag>
+		<English>Recon Commander</English>
+		<French>Recon Commander</French>
+		<German>Aufkl&#228;rungskommandant</German>
+		<Italian>Recon Commander</Italian>
+		<Spanish>Recon Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EAGLE_HUNTER</Tag>
+		<English>Eagle Hunter</English>
+		<French>Chasseur d'aigles</French>
+		<German>Adlerj&#228;ger</German>
+		<Italian>Eagle Hunter</Italian>
+		<Spanish>Eagle Hunter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EAGLE_HUNTER_PEDIA</Tag>
+		<English>A hawk piloted by a Hamster. Prior to the rescue of the Alfar, the Hamsters were vulnerable to assault by eagles; The Eagle Hunters were their first line of defense.</English>
+		<French>A hawk piloted by a Hamster. Prior to the rescue of the Alfar, the Hamsters were vulnerable to assault by eagles; The Eagle Hunters were their first line of defense.</French>
+		<German>A hawk piloted by a Hamster. Prior to the rescue of the Alfar, the Hamsters were vulnerable to assault by eagles; The Eagle Hunters were their first line of defense.</German>
+		<Italian>A hawk piloted by a Hamster. Prior to the rescue of the Alfar, the Hamsters were vulnerable to assault by eagles; The Eagle Hunters were their first line of defense.</Italian>
+		<Spanish>A hawk piloted by a Hamster. Prior to the rescue of the Alfar, the Hamsters were vulnerable to assault by eagles; The Eagle Hunters were their first line of defense.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_EAGLE_HUNTER_STRATEGY</Tag>
+		<English>Recon and bombard</English>
+		<French>Recon and bombard</French>
+		<German>Recon and bombard</German>
+		<Italian>Recon and bombard</Italian>
+		<Spanish>Recon and bombard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BALLISTA</Tag>
+		<English>Ballista</English>
+		<French>
+			<Text>Baliste</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Ballista</German>
+		<Italian>Ballista</Italian>
+		<Spanish>Ballista</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RIBAULDEQUIN</Tag>
+		<English>Ribauldequin</English>
+		<French>Ribauldequin</French>
+		<German>Ribauldequin</German>
+		<Italian>Ribauldequin</Italian>
+		<Spanish>Ribauldequin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ROGUE</Tag>
+		<English>Rogue</English>
+		<French>Rogue</French>
+		<German>Schurke</German>
+		<Italian>Rogue</Italian>
+		<Spanish>Rogue</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VAGABOND</Tag>
+		<English>Vagabond</English>
+		<French>Vagabond</French>
+		<German>Vagabund</German>
+		<Italian>Vagabond</Italian>
+		<Spanish>Vagabond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WAYLAYER</Tag>
+		<English>Waylayer</English>
+		<French>Waylayer</French>
+		<German>Wegelagerer</German>
+		<Italian>Waylayer</Italian>
+		<Spanish>Waylayer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMPACT_GUARDIAN</Tag>
+		<English>Guardian of the Compact</English>
+		<French>Guardian of the Compact</French>
+		<German>W&#228;chter des Abkommens</German>
+		<Italian>Guardian of the Compact</Italian>
+		<Spanish>Guardian of the Compact</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_ELDER</Tag>
+		<English>Elder Malasa</English>
+		<French>Elder Malasa</French>
+		<German>Malasa, der Altehrw&#252;rdige</German>
+		<Italian>Elder Malasa</Italian>
+		<Spanish>Elder Malasa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ELDER</Tag>
+		<English>Elder</English>
+		<French>Elder</French>
+		<German>Altehrw&#252;rdig</German>
+		<Italian>Elder</Italian>
+		<Spanish>Elder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ELDER_SHORT</Tag>
+		<English>Elder</English>
+		<French>Elder</French>
+		<German>Altehrw</German>
+		<Italian>Elder</Italian>
+		<Spanish>Elder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HARBOR_HAMSTALFAR</Tag>
+		<English>Haven</English>
+		<French>Haven</French>
+		<German>Zuflucht</German>
+		<Italian>Haven</Italian>
+		<Spanish>Haven</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_INN_HAMSTALFAR</Tag>
+		<English>Auberge</English>
+		<French>Auberge</French>
+		<German>Auberge</German>
+		<Italian>Auberge</Italian>
+		<Spanish>Auberge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LIGHTHOUSE_HAMSTALFAR</Tag>
+		<English>Marker of the Covenant</English>
+		<French>Marker of the Covenant</French>
+		<German>Kennzeichen des Abkommens</German>
+		<Italian>Marker of the Covenant</Italian>
+		<Spanish>Marker of the Covenant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TAVERN_HAMSTALFAR</Tag>
+		<English>Taphouse</English>
+		<French>Bar</French>
+		<German>Zapfhaus</German>
+		<Italian>Taphouse</Italian>
+		<Spanish>Taphouse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONEYCHANGER_HAMSTALFAR</Tag>
+		<English>Countinghouse</English>
+		<French>Countinghouse</French>
+		<German>Z&#228;hlstube</German>
+		<Italian>Countinghouse</Italian>
+		<Spanish>Countinghouse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARTISANS_WORKSHOP_HAMSTALFAR</Tag>
+		<English>Bottega</English>
+		<French>Bottega</French>
+		<German>Bottega</German>
+		<Italian>Bottega</Italian>
+		<Spanish>Bottega</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_TARQ</Tag>
+		<English>Tarquelne</English>
+		<French>Tarquelne</French>
+		<German>Tarquelne</German>
+		<Italian>Tarquelne</Italian>
+		<Spanish>Tarquelne</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CELVAR</Tag>
+		<English>Celvar</English>
+		<French>Celvar</French>
+		<German>Celvar</German>
+		<Italian>Celvar</Italian>
+		<Spanish>Celvar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CELVAR_STRATEGY</Tag>
+		<English>Celvar is unbuildable. He must be summoned by a recon unit of at least level 6; The spell to do so becomes available after Animal Handling.</English>
+		<French>Celvar is unbuildable. He must be summoned by a recon unit of at least level 6; The spell to do so becomes available after Animal Handling.</French>
+		<German>Celvar is unbuildable. He must be summoned by a recon unit of at least level 6; The spell to do so becomes available after Animal Handling.</German>
+		<Italian>Celvar is unbuildable. He must be summoned by a recon unit of at least level 6; The spell to do so becomes available after Animal Handling.</Italian>
+		<Spanish>Celvar is unbuildable. He must be summoned by a recon unit of at least level 6; The spell to do so becomes available after Animal Handling.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CELVAR</Tag>
+		<English>Call Celvar</English>
+		<French>Call Celvar</French>
+		<German>Celvar rufen</German>
+		<Italian>Call Celvar</Italian>
+		<Spanish>Call Celvar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CELVAR_HELP</Tag>
+		<English>[ICON_BULLET]Summons Celvar, an Eagle Hunter hero.[NEWLINE][ICON_BULLET]Celvar, unlike other Eagle Hunters, is free-roaming. However, he is leashed to his summoner; Choose wisely.</English>
+		<French>[ICON_BULLET]Summons Celvar, an Eagle Hunter hero.[NEWLINE][ICON_BULLET]Celvar, unlike other Eagle Hunters, is free-roaming. However, he is leashed to his summoner; Choose wisely.</French>
+		<German>[ICON_BULLET]Beschw&#246;rt Celvar, einen Adlerj&#228;ger Held.[NEWLINE][ICON_BULLET]Celvar streift anders als andere J&#228;ger frei herum. Er ist dennoch an seinen Beschw&#246;rer gebunden. W&#228;hlt diesen weise!</German>
+		<Italian>[ICON_BULLET]Summons Celvar, an Eagle Hunter hero.[NEWLINE][ICON_BULLET]Celvar, unlike other Eagle Hunters, is free-roaming. However, he is leashed to his summoner; Choose wisely.</Italian>
+		<Spanish>[ICON_BULLET]Summons Celvar, an Eagle Hunter hero.[NEWLINE][ICON_BULLET]Celvar, unlike other Eagle Hunters, is free-roaming. However, he is leashed to his summoner; Choose wisely.</Spanish>
+	</TEXT>
+</Civ4GameText>

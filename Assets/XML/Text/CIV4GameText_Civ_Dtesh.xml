@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DTESH_ADJECTIVE</Tag>
+		<English>D'teshi</English>
+		<French>D'teshi</French>
+		<German>D'teshi</German>
+		<Italian>D'teshi</Italian>
+		<Spanish>D'teshi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DTESH_DESC</Tag>
+		<English>The Legion of D'tesh</English>
+		<French>La Légion de D'tesh</French>
+		<German>Die Legion von D'tesh</German>
+		<Italian>La Legione di D'tesh</Italian>
+		<Spanish>The Legion of D'tesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DTESH_SHORT_DESC</Tag>
+		<English>The Legion</English>
+		<French>La Légion</French>
+		<German>Die Legion</German>
+		<Italian>La Legione</Italian>
+		<Spanish>The Legion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DTESH_PEDIA</Tag>
+		<English>The Legion of D'Tesh is composed of the undead minions and human mages that serve the powerful necromancer D'Tesh. Skeletons and zombies roam the lands of the D'Teshi Empire and the very ground is poisoned with foul necromantic energies. In stark contrast to Hyborem, who seeks to pull all the souls on Erebus into hell, D'Tesh merely seeks to enslave the entire world's physical bodies. He regards souls as unnecessary for his plans, and only uses the spiritual manifestations of the dead as his eyes and ears.[PARAGRAPH:1]The Legion uses no food and most of its work is done by the soulless slaves captured in combat. From these pitiful and worthless corpses, the necromancer and his mages select the best preserved and most intact in order to fill the ranks of his vast and nightmarish armies. His terrible obsidian spire pierces the skies of Erebus and the vast majority of his armies and plans are constructed and executed within its fell shadow. Other cities in the empire serve mainly as vessels from which to drain bodies to reanimate, fueling the great undead war machine.[PARAGRAPH:1]Capturing and building cities is difficult for the Legion as all cities must be bound to D'Tesh's will. Cities that are captured by the legions are often drained of all population and those unfortunate enough to live there are transported back to the core cities, which can build more powerful undead. These drained cities are then abandoned by the D'Teshi armies and often retaken by their former owners, who hope they can prevent the city from falling again.</English>
+		<French>La Légion de D'tesh est composée de servants mort-vivants et de mages humains qui servent le puissant nécromancien D'tesh. Les squelettes et les zombies parcourent les terres de l'empire D'teshi et le sol lui-même est saturé des viles énergies nécromantiques. Alors que les Hyborem ont pour but d'emporter toutes les âmes d'Erebus en enfer, D'tesh cherche simplement à réduire en esclavage l'ensemble des corps physiques du monde. Il considère les âmes comme accessoires pour ses plans, et n'utilise les manifestations spirituelles de la mort que comme ses yeux et ses oreilles.[PARAGRAPH:1]La Légion n'utilise pas de nourriture et la majeure partie du travail est faite par les esclaves sans âme capturés pendant les combats. De ces corps pitoyables et sans valeur, le nécromancien et ses mages en sélectionnent les mieux préservés et les plus intacts afin de combler les rangs de ses vastes et cauchemardesques armées. Sa terrible Flèche d'Obsidienne transperce les cieux d'Erebus et la grande majorité de ses armées et de ses plans sont mis en place et exécutés dans son ombre. Les autres cités de l'empire servent principalement de reserve d'où récupérer des corps à réanimer, alimentant la grande machine de guerre morte-vivante.[PARAGRAPH:1]Capturer et construire des villes est compliqué pour la Légion, car toutes les villes doivent être soumises à la volonté de D'tesh. Celles capturées par la Légion sont souvent vidées de leur population, et les infortunés survivants sont ramenées dans les villes centrales, qui peuvent produire des mort-vivants plus puissants. Ces villes vidées sont ensuite abandonnées par les armées D'teshi et souvent reconquises par les propriétaires initiaux, qui espèrent éviter qu'elles tombent à nouveau.</French>
+		<German>The Legion of D'Tesh is composed of the undead minions and human mages that serve the powerful necromancer D'Tesh. Skeletons and zombies roam the lands of the D'Teshi Empire and the very ground is poisoned with foul necromantic energies. In stark contrast to Hyborem, who seeks to pull all the souls on Erebus into hell, D'Tesh merely seeks to enslave the entire world's physical bodies. He regards souls as unnecessary for his plans, and only uses the spiritual manifestations of the dead as his eyes and ears.[PARAGRAPH:1]The Legion uses no food and most of its work is done by the soulless slaves captured in combat. From these pitiful and worthless corpses, the necromancer and his mages select the best preserved and most intact in order to fill the ranks of his vast and nightmarish armies. His terrible obsidian spire pierces the skies of Erebus and the vast majority of his armies and plans are constructed and executed within its fell shadow. Other cities in the empire serve mainly as vessels from which to drain bodies to reanimate, fueling the great undead war machine.[PARAGRAPH:1]Capturing and building cities is difficult for the Legion as all cities must be bound to D'Tesh's will. Cities that are captured by the legions are often drained of all population and those unfortunate enough to live there are transported back to the core cities, which can build more powerful undead. These drained cities are then abandoned by the D'Teshi armies and often retaken by their former owners, who hope they can prevent the city from falling again.</German>
+		<Italian>La Legione di D'Tesh è composta da servitori non morti e da maghi umani che servono il potente necromante D'Tesh. Scheletri e zombi vagano per le terre dell'Impero D'Teshi e perfino il terreno è avvelenato da immonde energie necromantiche. In netto contrasto con Hyborem, che cerca di mandare tutte le anime su Erebus all'inferno, D'Tesh cerca semplicemente di schivizzare i corpi fisici di tutto il mondo. Ritiene l'anima non necessaria per i suoi piani, e usa le manifestazioni spirituali dei morti solamente come suoi occhi e orecchie.[PARAGRAPH:1]La Legione non usa cibo e la maggior parte delle opere vengono compiute da schiavi senz'anima catturati in battaglia. Da questi cadaveri pietosi e senza valore, il necromante e i suoi maghi selezionano quelli meglio preservati e più intatti per accrescere i ranghi delle sue vaste e macabre armate. La sua terribile guglia d'ossidiana buca il cielo di Erebus e la maggior parte delle sue armate e dei suoi piani sono costruiti ed eseguiti all'interno della sua crudele ombra. Le altre città dell'impero servono principalmente come punti da cui ottenere cadaveri da rianimare, alimentando cosi la grande macchina da guerra non morta.[PARAGRAPH:1]Catturare e costruire città è difficoltoso per la Legione in quanto tutte le sue città devono essere assoggettate alla volontà di D'Tesh. Le città catturate dalla Legione sono spesso prosciugate di tutta la popolazione e gli sfortunati che ci vivevano vengono portati nelle città principali, in cui è possibile costruire non morti più forti. Le città prosciugate vengono poi abbandonate dagli eserciti D'Teshi e spesso vengono riprese dai vecchi proprietari, che sperano di poter impedire un'ulteriore sua cattura.</Italian>
+		<Spanish>The Legion of D'Tesh is composed of the undead minions and human mages that serve the powerful necromancer D'Tesh. Skeletons and zombies roam the lands of the D'Teshi Empire and the very ground is poisoned with foul necromantic energies. In stark contrast to Hyborem, who seeks to pull all the souls on Erebus into hell, D'Tesh merely seeks to enslave the entire world's physical bodies. He regards souls as unnecessary for his plans, and only uses the spiritual manifestations of the dead as his eyes and ears.[PARAGRAPH:1]The Legion uses no food and most of its work is done by the soulless slaves captured in combat. From these pitiful and worthless corpses, the necromancer and his mages select the best preserved and most intact in order to fill the ranks of his vast and nightmarish armies. His terrible obsidian spire pierces the skies of Erebus and the vast majority of his armies and plans are constructed and executed within its fell shadow. Other cities in the empire serve mainly as vessels from which to drain bodies to reanimate, fueling the great undead war machine.[PARAGRAPH:1]Capturing and building cities is difficult for the Legion as all cities must be bound to D'Tesh's will. Cities that are captured by the legions are often drained of all population and those unfortunate enough to live there are transported back to the core cities, which can build more powerful undead. These drained cities are then abandoned by the D'Teshi armies and often retaken by their former owners, who hope they can prevent the city from falling again.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_DTESH_STRATEGY</Tag>
+		<English>[H2]Reminders[\H2][ICON_BULLET]The D'teshi civilization is [LINK=TRAIT_UNDYING]undying[\LINK], which means food is neither produced nor eaten, and population doesn't change on its own.[NEWLINE][ICON_BULLET]To gain population, you have to bring a slave to your city tile, and cast [LINK=SPELL_ADD_TO_CITY2]Add to city[\LINK]. The slave disappears and the population increases by 1.[NEWLINE][TAB][ICON_BULLET]Your disciple (watchers and upgrades) and arcane (binders and upgrades) units have a chance to enslave any humanoid enemy they defeat[NEWLINE][TAB][ICON_BULLET]The enslavement chance increases with the [LINK=CIVIC_SLAVERY]slavery[\LINK] civic (technology [LINK=TECH_WAY_OF_THE_WICKED]Way of the Wicked[\LINK]) and the number of [LINK=BONUS_ASH]infused ash[\LINK].[NEWLINE][ICON_BULLET]There is an initial population limit of 6 (18 for the capital), which can be increased up to 34 with specific buildings: [LINK=BUILDING_ETERNAL_COUNCIL]eternal council[\LINK] for +2, [LINK=BUILDING_MORGUE]morgue[\LINK] (requires [LINK=BONUS_SALT]salt[\LINK]) for +2, [LINK=BUILDING_BINDING_STONES]binding stones[\LINK] for +4, [LINK=BUILDING_HALLS_DTESH]halls of D'tesh[\LINK] for +6, [LINK=BUILDING_TOWER_DTESH]tower of D'tesh[\LINK] (except in the capital) for +12[NEWLINE][ICON_BULLET]The binding stones building is [BOLD]mandatory[\BOLD], as it removes all [ICON_UNHAPPY][NEWLINE][ICON_BULLET]The palace provides the capital with a plot radius of 3. Other cities get the same with tower of D'tesh[PARAGRAPH:2][H1]Example of strategy with Lord D'tesh leader (focus on arcane)[\H1][H2]1st step: progress towards binders[\H2][PARAGRAPH:1]Focus research on the Arcane line ([LINK=TECH_ANCIENT_CHANTS]Ancient Chants[\LINK] -> [LINK=TECH_MYSTICISM]Mysticism[\LINK] -> [LINK=TECH_KNOWLEDGE_OF_THE_ETHER]Knowledge of Ether[\LINK])[PARAGRAPH:1]Use the 3 initial slaves to build a few improvements. Right now, catacombs (on hills) are the best (+2[ICON_PRODUCTION]), followed by pyres (X [ICON_GOLD] and +1% [ICON_RESEARCH]). Replace them with real workers, and add the slaves to the Obsidian Spire.[PARAGRAPH:1]Build a little army of watchers and try to get as many slaves as possible, which means killing humanoid units (barbarians or by declaring a war on the nearest enemy), and escort slaves back to your territory. Only add slaves until you reach the happiness cap, and build improvements with the others.[H2]2nd step: arcane units (once KotE is researched)[\H2]Here are the main research possibilities:[NEWLINE][ICON_BULLET][LINK=TECH_NECROMANCY]Necromancy[\LINK] for a better economy (crypts and pyres +1G) and the ability to transform raw mana nodes to get affinities[NEWLINE][ICON_BULLET][LINK=TECH_HUNTING]Hunting[\LINK] for your first hero [LINK=UNIT_THANATOS]Thanatos[\LINK][NEWLINE][ICON_BULLET][LINK=TECH_WRITING]Writing[\LINK] for [LINK=BUILDING_HALLS_DTESH]Halls of D'tesh[\LINK] (+40%[ICON_RESEARCH])[NEWLINE][ICON_BULLET]Way of the Wicked for the Slavery civic[PARAGRAPH:1]Once the binding stones are built, add all captured slaves to the city to get a massive production boost, and produce lots of binders and warriors.[PARAGRAPH:1]The warriors won't be used in combat. Instead, binders will kill them with the [LINK=SPELL_DARK_EMPOWERMENT]Dark Empowerment[\LINK] spell to get bonuses.</English>
+		<French>[H1]Spécificités[\H1][H2]Gestion de la population[\H2][ICON_BULLET]La civilisation D'teshi est [LINK=TRAIT_UNDYING]éternelle[\LINK] : aucune nourriture n'est produite ni consommée, et la population n'évolue pas d'elle-même.[NEWLINE][ICON_BULLET]Pour accroître la population, vous devez amener un esclave sur la case de votre ville, et lancer [LINK=SPELL_ADD_TO_CITY2]Ajouter à la ville[\LINK]. L'esclave disparaît alors et la population de la ville augmente de 1.[NEWLINE][ICON_BULLET]Lorsque vos unités vainquent un ennemi humanoïde vivant, elles ont une chance de créer un [LINK=UNIT_SLAVE_UNDEAD]esclave mort-vivant[\LINK] sous votre contrôle.[NEWLINE][ICON_BULLET]La chance de capture augmente avec la doctrine [LINK=CIVIC_SLAVERY]Esclavage[\LINK] (débloquée par la technologie [LINK=TECH_WAY_OF_THE_WICKED]Voie du Mal[\LINK]) et le nombre de [LINK=BONUS_ASH]cendres infusées[\LINK] ([LINK=AFFINITY_ASH]Affinité pour la Cendre[\LINK]). Certaines unités ont une chance de capture intrinsèque (de 5% pour vos élus à 20% pour votre héros D'tesh).[NEWLINE][ICON_BULLET]La limite maximale initiale de population est de 6 (18 pour la capitale), et peut être augmentée jusqu'à 34 grâce à des bâtiments spécifiques : Le [LINK=BUILDING_ETERNAL_COUNCIL]Conseil Éternel[\LINK] (+2), la [LINK=BUILDING_MORGUE]Morgue[\LINK] (requiert la ressource [LINK=BONUS_SALT]sel[\LINK]) (+2), les [LINK=BUILDING_BINDING_STONES]Pierres de Lien[\LINK] (+4), les [LINK=BUILDING_HALLS_DTESH]halls de D'tesh[\LINK] (+6), et la [LINK=BUILDING_TOWER_DTESH]Tour de D'tesh[\LINK] (sauf dans la capitale) (+12).[NEWLINE][ICON_BULLET]Le bâtiment des Pierres de Lien est [BOLD]incontournable[\BOLD], car il élimine tous les [ICON_UNHAPPY].[NEWLINE][ICON_BULLET]Le Palais augmente le rayon de la ville à 3. Les autres villes font de même grâce à la [LINK=BUILDING_TOWER_DTESH]Tour de D'tesh[\LINK].[NEWLINE][H2]Gestion du terrain[\H2][ICON_BULLET]Le territoire contrôlé par la Légion s'assèche peu à peu jusqu'à former un climat stérile (tellement sec qu'il assèche les rivières) recouvert de [LINK=TERRAIN_WASTELAND]terres nécromantiques[\LINK].[NEWLINE][ICON_BULLET](La Légion utilise des aménagements différents des autres civilisations :[PARAGRAPH:1][ICON_BULLET]Les [LINK=IMPROVEMENT_DTESH_PYRE]bûchers[\LINK] peuvent être placés sur toutes les ressources vivantes (faune et flore), ce qui les convertit en cendres infusées.[PARAGRAPH:1][ICON_BULLET]Les [LINK=IMPROVEMENT_PASTURE_CORRUPTED]pâturages corrompus[\LINK] peuvent être placés sur un cheval, si vous souhaitez produire des cavaliers ou archers montés. L'aménagement les transformera en [LINK=BONUS_NIGHTMARE]cauchemars[\LINK].[PARAGRAPH:1][ICON_BULLET]Les [LINK=IMPROVEMENT_DTESH_CRYPT]cryptes[\LINK] peuvent être placées sur toutes les plaines, ainsi que sur les ressources minérales.[PARAGRAPH:1][ICON_BULLET]Les [LINK=IMPROVEMENT_DTESH_CATACOMBS]catacombes[\LINK] peuvent être placées sur toutes les collines, ainsi que sur les ressources métalliques.[PARAGRAPH:1][ICON_BULLET]Les [LINK=IMPROVEMENT_DTESH_PYRE_AQUATIC]bûchers aquatiques[\LINK] peuvent être placés sur les ressources aquatiques vivantes. Mais ils ne produisent pas de cendres infusées.[NEWLINE]TODO : expliquer les cryptes profanées[NEWLINE][H2]Combat[\H2][ICON_BULLET]Les performances de combat sont améliorées par [LINK=AFFINITY_DEATH]l'affinité pour la Mort[\LINK] et [LINK=AFFINITY_SHADOW]l'affinité pour l'Ombre[\LINK].[NEWLINE][ICON_BULLET]Vos unités de corps à corps sont défensives ([LINK=UNIT_WATCHER]Veilleurs[\LINK] et leurs améliorations). Vous n'avez pas accès à la lignée soldat avec hache/champion/immortel.[NEWLINE][ICON_BULLET]Vos unités magiques ([LINK=UNIT_BINDER]Invocateurs[\LINK] et leurs améliorations) ne gagnent pas d'EXP passivement. Vous devez les envoyer au combat. Pour progresser plus rapidement, vos unités magiques ont tout intérêt à sacrifier une unité défensive grâce au sort [LINK=SPELL_DARK_EMPOWERMENT]Infusion de Puissance Occulte[\LINK] : ils seront renforcés et gagneront plus d'EXP de combat pendant les 10 tours suivants.[NEWLINE][ICON_BULLET]Vos archimages étant mort-vivants, ils ne peuvent pas devenir des liches. Leur nombre est directement limité à 8. (au lieu de 4 archimages + 4 liches comme chez leurs homologues, les nécromanciens vivants).[NEWLINE][ICON_BULLET]Vos 2 héros, l'archimage [LINK=UNIT_DTESH]D'tesh[\LINK] et l'ange déchu furtif [LINK=UNIT_THANATOS]Thanatos[\LINK], arrivent en jeu de façon tardive.[PARAGRAPH:2][H1]Exemple de stratégie avec le dirigeant Seigneur D'tesh (focus sur la magie)[\H1][H2]1ère étape : Progression vers les Invocateurs.[\H2][PARAGRAPH:1]Concentrer la recherche sur la ligne de la Magie ([LINK=TECH_ANCIENT_CHANTS]Ancients Chants[\LINK] -> [LINK=TECH_MYSTICISM]Mysticisme[\LINK] -> [LINK=TECH_KNOWLEDGE_OF_THE_ETHER]Connaissance de l'Éther[\LINK])[PARAGRAPH:1]Utilisez les 3 esclaves initiaux pour construires quelques aménagements. À ce moment précis, les catacombes (sur les collines) sont les meilleures (+2[ICON_PRODUCTION]), suivies par les bûchers (X [ICON_GOLD] et +1% [ICON_RESEARCH]). Remplacez les esclaves par de vrais ouvriers, et ajoutez les esclaves à votre capitale, la Flèche d'Obsidienne.[PARAGRAPH:1]Construisez une petite armée de Veillleurs et tentez de récupérer autant d'esclaves que possible, ce qui signifie tuer des unités humanoïdes (barbares ou en déclarant la guerre à l'ennemi le plus proche), et escortez les esclaves vers votre territoire. N'ajoutez des esclaves que jusqu'à atteindre le maximum de bonheur, et construisez des aménagements avec les autres.[H2]2ème étape : les unités magiques.[\H2]Recherche : plusieurs possibilités s'offrent à vous.[PARAGRAPH:1][ICON_BULLET]La [LINK=TECH_NECROMANCY]Nécromancie[\LINK] pour une meilleure économie (les cryptes et les bûchers fournissent +1[ICON_COMMERCE]) et la possibilité de transformer les n&#156;uds de mana bruts, le plus souvent en n&#156;uds de Mort[PARAGRAPH:1][ICON_BULLET]L'[LINK=TECH_WRITING]Écriture[\LINK] pour les [LINK=BUILDING_HALLS_DTESH]halls de D'tesh[\LINK] (+40%[ICON_RESEARCH])[PARAGRAPH:1][ICON_BULLET]La [LINK=TECH_WAY_OF_THE_WICKED]Voie du Mal[\LINK] pour la doctrine [LINK=CIVIC_SLAVERY]Esclavage[\LINK].[PARAGRAPH:1]Une fois les [LINK=BUILDING_BINDING_STONES]Pierres de Lien[\LINK] construites, ajoutez tous les esclaves capturés à votre ville pour un bonus massif de production, et produisez plein d'Invocateurs et de veilleurs.[PARAGRAPH:1]Les veilleurs ne seront pas utilisés en combat. Au lieu de ça, les Invocateurs vont les tuer grâce au sort [LINK=SPELL_DARK_EMPOWERMENT]Infusion de Puissance Occulte[\LINK] pour obtenir des bonus.</French>
+		<German>needs translation</German>
+		<Italian>[H2]Promemoria[\H2][ICON_BULLET]La civiltà D'teshi è [LINK=TRAIT_UNDYING]non morta[\LINK], il che significa che il cibo non viene ne prodotto ne consumato, e la popolazione non cambia automaticamente.[NEWLINE][ICON_BULLET]Per aumentare la popolazione delle città si deve portare uno schiavo nella città e lanciare [LINK=SPELL_ADD_TO_CITY2]Aggiungi alla città[\LINK]. Lo schiavo sparirà e la popolazione aumenterà di 1.[NEWLINE][TAB][ICON_BULLET]Le tue unità di discepoli (guardiani e miglioramenti) e arcane (rilegatori e miglioramenti) hanno una probabilità di ridurre in schiavitù ogni umanoide che sconfiggono[NEWLINE][TAB][ICON_BULLET]La probabilità di ridurre in schiavitù aumenta con la forma di governo [LINK=CIVIC_SLAVERY]schiavitù[\LINK] (diponibile con la tecnologia [LINK=TECH_WAY_OF_THE_WICKED]Via del Male[\LINK]) e dal numero di [LINK=BONUS_ASH]cenere infusa[\LINK].[NEWLINE][ICON_BULLET]Il limite di popolazione iniziale è 6 (18 per la capitale), che può essere incrementato sino a un massimo di 34 grazie a edifici specifici: il [LINK=BUILDING_ETERNAL_COUNCIL]consiglio eterno[\LINK] per un +2, l'[LINK=BUILDING_MORGUE]obitorio[\LINK] (richiede [LINK=BONUS_SALT]sale[\LINK]) per un +2, le [LINK=BUILDING_BINDING_STONES]pietre vincolanti[\LINK] per un +4, le [LINK=BUILDING_HALLS_DTESH]sale di D'tesh[\LINK] per un +6, la [LINK=BUILDING_TOWER_DTESH]torre di D'tesh[\LINK] (tranne nella capitale) per un +12[NEWLINE][ICON_BULLET]L'edificio pietre vincolanti è [BOLD]indispensabile[\BOLD], in quanto rimuove tutto il [ICON_UNHAPPY][NEWLINE][ICON_BULLET]Il palazzo fornisce alla capitale un raggio di sfruttamento del terreno di 3. Le altre città possono ottenere lo stesso raggio con la torre di D'tesh[PARAGRAPH:2][H1]Esempio di strategia con Lord D'tesh come leader (focus sull'arcano)[\H1][H2]1° passo: procedere verso i rilegatori[\H2][PARAGRAPH:1]Concentra la ricerca sulla linea Arcana ([LINK=TECH_ANCIENT_CHANTS]Canti Antichi[\LINK] -> [LINK=TECH_MYSTICISM]Misticismo[\LINK] -> [LINK=TECH_KNOWLEDGE_OF_THE_ETHER]Conoscenza dell'Etere[\LINK])[PARAGRAPH:1]Usa i 3 schiavi iniziali per costruire qualche miglioramento. Al momento, le catacombe (sulle colline) è la sceltà migliore (+2[ICON_PRODUCTION]), seguite dalle pire (X [ICON_GOLD] e +1% [ICON_RESEARCH]). Rimpiazzali con veri lavoratori, e unisci gli schiavi alla Guglia D'Ossidiana.[PARAGRAPH:1]Crea un piccolo esercito di guardiani e prova a ottenere quanti più schiavi possibile, il che significa uccidere unità umanoidi (barbari o dichiarando guerra al nemico più vicino), e scorta indietro gli schiavi cosi ottenuti. Aggiungi schiavi fino a quando non raggiungi limite di felicità, e costruisci miglioramenti con gli altri.[H2]2° passo: unità arcane (dopo aver scoperto CdE)[\H2]Queste sono le principali ricerche possibili:[NEWLINE][ICON_BULLET][LINK=TECH_NECROMANCY]Necromanzia[\LINK] per una migliore economia (cripte e pire +1G) e l'abilità di trasformare i nodi di mana grezzi per ottenere affinità[NEWLINE][ICON_BULLET][LINK=TECH_HUNTING]Caccia[\LINK] per ottenere il tuo primo eroe [LINK=UNIT_THANATOS]Thanatos[\LINK][NEWLINE][ICON_BULLET][LINK=TECH_WRITING]Scrittura[\LINK] per le [LINK=BUILDING_HALLS_DTESH]Sale di D'tesh[\LINK] (+40%[ICON_RESEARCH])[NEWLINE][ICON_BULLET]Via del Male per la forma di governo Schiavitù[PARAGRAPH:1]Una volta che le pietre vincolanti sono state costruite unisci tutti gli schiavi catturati alla città ottenendo un'enorme aumento della produzione e crea un sacco di rilegatori e guerrieri.[PARAGRAPH:1]I guerrieri non verranno usati per combattere. Invece saranno i rilegatori a ucciderli con la magia [LINK=SPELL_DARK_EMPOWERMENT]Potenziamento Oscuro[\LINK] per ottenere dei bonus.</Italian>
+		<Spanish>needs translation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MULTI_DTESH</Tag>
+		<English>Lord D'tesh</English>
+		<French>Seigneur D'tesh</French>
+		<German>Lord D'tesh</German>
+		<Italian>Lord D'tesh</Italian>
+		<Spanish>Lord D'tesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DTESH_PEDIA</Tag>
+		<English>"All praise be to D'tesh, Lord of all necromancy. May the king of plagues decimate all life." - Captured D'teshi mage, minutes before execution[PARAGRAPH:2]D'tesh founded the Mekaran Order with the best of intentions: bringing the power of the gods to all mankind. Hearing of the stolen Gems of Creation, and knowing the power they would bring, he began his search... And ultimately found what he thought to be one, the Opallus Mortis, the Gem of Death. Unfortunately, the great power from the gem warped his mind, overcoming him with the Precept of Death. He decided to keep the power for himself, to become a god over all men, and abandoned the Order. In the process, the Order was exposed to the Amurite authorities, who took issue with their... questionable... practices, and banished them.[NEWLINE]D'tesh returned to the realm of the Amurites several months later, fully in control of the power of the Gem, and launched his attack. He quickly took several border towns, bending the citizenry to his will and obliterating any trace the towns once existed. This is the source of the early D'teshi empire.[NEWLINE]Several mages joined him willingly for the sake of power and retained some of their independence, to serve as his mages and generals. Vanedis is the greatest of those mages, and was once (before the advent of the Gem) considered a friend by D'tesh. It is the last shred of that sentiment that allowed Vanedis the level of freedom he has, enough that he is left in charge of the empire when D'tesh is away.[NEWLINE]Before the Amurites could rally, D'tesh retreated with his new minions into the deep desert, and began the creation of his Spire. It is at this point that Laroth made an direct overture, having already crafted the fake gem that twisted D'tesh, and sent one of his greatest Dullahans, Thanatos, with a message, a proposed alliance: Laroth would aid D'tesh in his desire to conquer all of Erebus, by granting him use of his Dullahans to serve as absolutely loyal, yet capable of creative thought, generals. In return, the souls of all those D'tesh takes as minions are sent to Laroth, to aid him with his own war to usurp the mantle of godhood from Arawn.</English>
+		<French>"Loué soit D'tesh, Seigneur de toute nécromancie. Puisse le roi des calamités décimer toute vie." - Mage D'teshi capturé, quelques minutes avant son exécution[PARAGRAPH:2]D'tesh a fondé l'Ordre de Mekaran avec la meilleure des intentions : transmettre la puissance de dieux à toute l'humanité. Ayant entendu parler des Gemmes de la Création volées, et connaissant le pouvoir qu'elles pouvaient conférer, il se mit à leur recherche. Il en trouva finalement une, l'Opalus Mortis, la Gemme de la Mort. Malheureusement, le pouvoir infini de la gemme corrompit son esprit, le submergeant avec le Précepte de la Mort. Il décida de garder ce pouvoir pour lui-même, de devenir un dieu pour tous, et abandonna l'Ordre. Pendant ce temps, l'Ordre fut mis au jour par les autorités Amurites qui s'inquiétèrent de leurs... pratiques... contestables, et qui le bannit.[NEWLINE]D'tesh revint dans le royaume amurite plusieurs mois plus tard, en possession complète des pouvoirs de la Gemme, et lança son assaut. Il prit rapidement le contrôle de plusieurs villes frontalières, soumettant la population locale à sa volonté et faisant disparaître la moindre trace de l'existence de ces villes. Ce fut la base de la genèse de l'empire D'teshi.[NEWLINE]Quelques mages se joignirent à lui de leur plein gré, en quête de puissance et gardèrent une partie de leur indépendance, pour servir en tant que mages et généraux. Vanedis fut le plus grand de ces mages, et fut autrefois (avant la venue de la Gemme) considéré comme un ami par D'tesh. Ce sont les derniers restes de ces sentiments qui permirent à Vanedis d'avoir son niveau de liberté, suffisamment pour assurer la gouvernance temporaire en l'absence de D'tesh.[NEWLINE]Avant que les Amurites puissent se rassembler pour riposter, D'tesh se replia avec ses nouveaux servants dans le désert profond, et commença la construction de sa Spire. C'est à ce moment que Laroth le remarqua, et lui envoya un de ses meilleurs Dullahans, Thanatos, avec un message, une proposition d'alliance : Laroth aiderait D'tesh dans son objectif de conquête de tout Erebus en lui permettant d'utiliser ses Dullahans en tant que généraux, totalement loyaux bien que capables d'initiative. En échange, l'âme de tous ceux que D'tesh enrôlerait en tant que servant serait envoyée à Laroth, afin de l'aider dans son propre combat pour s'approprier le manteau de la divinité d'Arawn.</French>
+		<German>"Lasset uns alle D'tesh preisen, den Lord aller Nekromantie. Möge der König der Seuchen alles Leben auslöschen." ? Gefangener D'teshi Magier, Minuten vor seiner Exekution[PARAGRAPH:1]D'tesh founded the Mekaran Order with the best of intentions: bringing the power of the gods to all mankind. Hearing of the stolen Gems of Creation, and knowing the power they would bring, he began his search... And ultimately found only one, the Opalus Mortis, the Gem of Death. Unfortunately, the infinite power from the gem warped his mind, overcoming him with the Precept of Death. He decided to keep the power for himself, to become a god over all men, and abandoned the Order. In the process, the Order was exposed to the Amurite authorities, who took issue with their... questionable... practices, and banished them.[NEWLINE]D'tesh returned to the realm of the Amurites several months later, fully in control of the power of the Gem, and launched his attack. He quickly took several border towns, bending the citizenry to his will and obliterating any trace the towns once existed. This is the source of the early D'teshi empire.[NEWLINE]Several mages joined him willingly for the sake of power and retained some of their independence, to serve as his mages and generals. Vanedis is the greatest of those mages, and was once (before the advent of the Gem) considered a friend by D'tesh. It is the last shred of that sentiment that allowed Vanedis the level of freedom he has, enough that he is left in charge of the empire when D'tesh is away.[NEWLINE]Before the Amurites could rally, D'tesh retreated with his new minions into the deep desert, and began the creation of his Spire. It is at this point that Laroth took notice of him, and sent one of his greatest Dullahans, Thanatos, with a message, a proposed alliance: Laroth would aid D'tesh in his desire to conquer all of Erebus, by granting him use of his Dullahans to serve as absolutely loyal, yet capable of creative thought, generals. In return, the souls of all those D'tesh takes as minions are sent to Laroth, to aid him with his own war to usurp the mantle of godhood from Arawn.</German>
+		<Italian>"Sia lodato D'tesh, Signore di tutta la necromanzia. Possa il re delle pestilenze eliminare tutta la vita." - Mago D'teshi catturato, qualche minuto prima di essere giustiziato[PARAGRAPH:1]D'tesh fondò l'Ordine di Mekara con le migliori intenzioni: portare il potere degli dei a tutta l'umanità. Avendo sentito parlare delle Gemme della Creazione rubate, e sapendo il potere che comportavano, iniziò le sue ricerche... Alla fine trovò qualcosa che pensava fosse una di quelle, l'Opalus Mortis, la Gemma della Morte. Sfortunatamente, l'infinito potere della gemma alterò la sua mente, soverchiandolo con il Precetto della Morte. Decise di tenere il potere per se, per diventare un dio su tutti gli uomini, e abbandonò l'Ordine. In tutto questo, l'Ordine fu esposto alle autorità Amurite, che si occuparono delle loro... discutibili... pratiche, e li bandirono.[NEWLINE]D'tesh ritornò nel regno degli Amurites qualche mese dopo, pienamente in controllo del potere della Gemma, e sferrò il suo attacco. Prese rapidamente diverse città di confine, vincolandone i cittadini alla sua volontà e cancellando quasiasi traccia della loro esistenza. Questa è l'origine dell'impero D'teshi.[NEWLINE]Diversi maghi si unirono a lui di propria volontà per ottenere potere e mantennerò una parte della loro indipendenza, servendolo come maghi e generali. Vanedis è il più grande di questi maghi ed era un tempo (prima dell'arrivo della Gemma) considerato un'amico da D'tesh. È stato l'ultimo frammento di quel sentimento che ha permesso a Vanedis di avere il livello di libertà che ha adesso, che è sufficente ad essere lasciato al comando dell'impero quando D'tesh è lontano.[NEWLINE]Prima che gli Amurite potesserò raggrupparsi D'tesh si ritirò, con i suoi nuovi servitori, nel deserto, e iniziò la creazione della sua Guglia. Fu a questo punto che Laroth si palesò direttamente, in quanto egli era colui che aveva creato la falsa gemma che aveva corrotto la mente di Dtesh, e inviò uno dei suoi più potenti Dullahans, Thanatos, con un messaggio, la proposta di un'alleanza: Laroth avrebbe aiutato D'tesh a conquistare tutto Erebus, permettendogli di usare i suoi Dullahans come generali, assolutamente leali ma capaci di pensare creativamente. In cambio, le anime di tutti quelli che diventavano servitori di D'tesh sarebbero state inviate a Laroth, per aiutarlo nella sua guerra per prendere il manto della divinità da Arawn.</Italian>
+		<Spanish>"All praise be to D'tesh, Lord of all necromancy. May the king of plagues decimate all life." - Captured D'teshi mage, minutes before execution[PARAGRAPH:1]D'tesh founded the Mekaran Order with the best of intentions: bringing the power of the gods to all mankind. Hearing of the stolen Gems of Creation, and knowing the power they would bring, he began his search... And ultimately found only one, the Opalus Mortis, the Gem of Death. Unfortunately, the infinite power from the gem warped his mind, overcoming him with the Precept of Death. He decided to keep the power for himself, to become a god over all men, and abandoned the Order. In the process, the Order was exposed to the Amurite authorities, who took issue with their... questionable... practices, and banished them.[NEWLINE]D'tesh returned to the realm of the Amurites several months later, fully in control of the power of the Gem, and launched his attack. He quickly took several border towns, bending the citizenry to his will and obliterating any trace the towns once existed. This is the source of the early D'teshi empire.[NEWLINE]Several mages joined him willingly for the sake of power and retained some of their independence, to serve as his mages and generals. Vanedis is the greatest of those mages, and was once (before the advent of the Gem) considered a friend by D'tesh. It is the last shred of that sentiment that allowed Vanedis the level of freedom he has, enough that he is left in charge of the empire when D'tesh is away.[NEWLINE]Before the Amurites could rally, D'tesh retreated with his new minions into the deep desert, and began the creation of his Spire. It is at this point that Laroth took notice of him, and sent one of his greatest Dullahans, Thanatos, with a message, a proposed alliance: Laroth would aid D'tesh in his desire to conquer all of Erebus, by granting him use of his Dullahans to serve as absolutely loyal, yet capable of creative thought, generals. In return, the souls of all those D'tesh takes as minions are sent to Laroth, to aid him with his own war to usurp the mantle of godhood from Arawn.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MULTI_THANATOS</Tag>
+		<English>Thanatos</English>
+		<French>Thanatos</French>
+		<German>Thanatos</German>
+		<Italian>Thanatos</Italian>
+		<Spanish>Thanatos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_VANEDIS</Tag>
+		<English>Vanedis</English>
+		<French>Vanedis</French>
+		<German>Vanedis</German>
+		<Italian>Vanedis</Italian>
+		<Spanish>Vanedis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CITY_BAR_CITY_CAP</Tag>
+		<English>Population Limit: %d1</English>
+		<French>Limite de Population : %d1</French>
+		<German>Bevölkerungslimit: %d1</German>
+		<Italian>Limite di Popolazione: %d1</Italian>
+		<Spanish>Population Limit: %d1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ALL_CITY_CAP_MODIFIER</Tag>
+		<English>[ICON_BULLET]Increase Population Cap of all cities by %D1</English>
+		<French>[ICON_BULLET]Augmente la Population Maximale de toutes les villes de %D1</French>
+		<German>[ICON_BULLET]Erhöhe das Bevölkerungsmaximum aller Städte %D1</German>
+		<Italian>[ICON_BULLET]Aumenta il Limite di popolazione di tutte le di città di %D1</Italian>
+		<Spanish>[ICON_BULLET]Increase Population Cap of all cities by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_THIS_CITY_CAP_MODIFIER</Tag>
+		<English>[ICON_BULLET]Increase Population Cap of this city by %D1</English>
+		<French>[ICON_BULLET]Augmente la Population Maximale de cette ville de %D1</French>
+		<German>[ICON_BULLET]Erhöhe das Bevölkerungsmaximum dieser Stadt um %D1</German>
+		<Italian>[ICON_BULLET]Aumenta il Limite della Popolazione di questa città di %D1</Italian>
+		<Spanish>[ICON_BULLET]Increase Population Cap of this city by %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WRETCHED</Tag>
+		<English>Wretched</English>
+		<French>Misérable</French>
+		<German>Elendig</German>
+		<Italian>Miserabile</Italian>
+		<Spanish>Wretched</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DARK_SECRETS</Tag>
+		<English>Dark Secrets</English>
+		<French>Sombres Secrets</French>
+		<German>Dunkle Geheimnisse</German>
+		<Italian>Segreti Oscuri</Italian>
+		<Spanish>Dark Secrets</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DARK_SECRETS_STRATEGY</Tag>
+		<English>The Legion's starting technology.</English>
+		<French>Technologie de départ de la Légion.</French>
+		<German>Starttechnologie der Legion des D'tesh.</German>
+		<Italian>La tecnologia iniziale della Legione.</Italian>
+		<Spanish>The Legion's starting technology.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DARK_SECRETS_QUOTE</Tag>
+		<English>Bannor troops were cutting through my skeletons with their glowing swords. They were so laden with enchantments that they couldn't be touched. Then my necromancers joined the fray...[NEWLINE][BOLD]Lord D'tesh[\BOLD]</English>
+		<French>Les armées Bannor tranchaient mes squelettes de leurs épées scintillantes. Leurs troupes étaient si bien protégées par leurs enchantements qu'elles ne pouvaient être blessées. C'est alors que mes nécromants ont rejoint le combat...[NEWLINE][BOLD]Lord D'tesh[\BOLD]</French>
+		<German>Bannor troops were cutting through my skeletons with their glowing swords. They were so laden with enchantments that they couldn't be touched. Then my necromancers joined the fray...[NEWLINE][BOLD]Lord D'tesh[\BOLD]</German>
+		<Italian>Le truppe Bannor si stavano aprendo la strada attraverso i miei scheletri con le loro spade radiose. Erano cosi pieni di incantamenti che non potevano essere toccati. Poi i miei necromanti si unirono alla mischia...[NEWLINE][BOLD]Lord D'tesh[\BOLD]</Italian>
+		<Spanish>Bannor troops were cutting through my skeletons with their glowing swords. They were so laden with enchantments that they couldn't be touched. Then my necromancers joined the fray...[NEWLINE][BOLD]Lord D'tesh[\BOLD]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BINDING_STONES</Tag>
+		<English>Binding Stones</English>
+		<French>Pierres de Lien</French>
+		<German>Bindende Steine</German>
+		<Italian>Pietre Vincolanti</Italian>
+		<Spanish>Binding Stones</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ETERNAL_COUNCIL</Tag>
+		<English>Eternal Council</English>
+		<French>Conseil Éternel</French>
+		<German>Ewiges Konzil</German>
+		<Italian>Consiglio Eterno</Italian>
+		<Spanish>Eternal Council</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HALLS_DTESH</Tag>
+		<English>Halls of D'tesh</English>
+		<French>Halls de D'tesh</French>
+		<German>Hallen des D'tesh</German>
+		<Italian>Sale di D'tesh</Italian>
+		<Spanish>Halls of D'tesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MORGUE</Tag>
+		<English>Morgue</English>
+		<French>Morgue</French>
+		<German>Leichenhalle</German>
+		<Italian>Obitorio</Italian>
+		<Spanish>Morgue</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PALACE_DTESH</Tag>
+		<English>The Obsidian Spire</English>
+		<French>La Flèche d'Obsidienne</French>
+		<German>Der Obsidianturm</German>
+		<Italian>La Guglia D'Ossidiana</Italian>
+		<Spanish>The Obsidian Spire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TEMPLE_DTESH</Tag>
+		<English>Temple to D'tesh</English>
+		<French>Temple de D'tesh</French>
+		<German>Tempel des D'tesh</German>
+		<Italian>Tempio di D'tesh</Italian>
+		<Spanish>Temple to D'tesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TOWER_DTESH</Tag>
+		<English>Tower of D'tesh</English>
+		<French>Tour de D'tesh</French>
+		<German>Turm des D'tesh</German>
+		<Italian>Torre di D'tesh</Italian>
+		<Spanish>Tower of D'tesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BINDER</Tag>
+		<English>Binder</English>
+		<French>Invocateur</French>
+		<German>Binder</German>
+		<Italian>Rilegatore</Italian>
+		<Spanish>Binder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BINDER_PEDIA</Tag>
+		<English>[H2]Draft[\H2]Immortality is a burning desire for several races, and spellcasters are those who feel it the most. Studies and experience taught them that magic can vanquish any obstacle on the path, be it disease or enemies. But ageing is inevitable and they know Arawn is patiently waiting for them. Then, they remember tales of the D'teshi civilization and the bargain that their Lord offers: In exchange for an existence dedicated to the research of magic inside D'teshi laboratories, any arcanist can gain immortality. Thus, many of them gather their possessions and travel to the Obsidian Spire.[PARAGRAPH:1]At first, the candidates are only shown the proper aspects of undead life. They discover D'teshi libraries and the immense knowledge gathered in its shelving; they are told that their mind will at last be freed from physical contingencies and negative feelings (fear, disease, weariness, sadness, hunger, jealousy, ...)[PARAGRAPH:1]When the ritual is accomplished, it's too late. Their soul has become the property of Laroth; they can't feel happiness or love, and they don't care anymore. Lord D'tesh instilled them with absolute obedience: their only satisfaction now stands in the accomplishment of His orders.</English>
+		<French>[H2]Draft[\H2]L'immortalité est un rêve cher pour beaucoup de races, et les lanceurs de sorts sont ceux qui le ressentent le plus. Les études et l'expérience leur ont appris que la magie pouvait vaincre n'importe quel obstacle, que ce soit une maladie ou un ennemi. Mais la vieillesse est inévitable et ils savent qu'Arawn les attend patiemment. C'est à ce moment qu'ils se souviennent de la civilisation d'teshi et du marché que leur seigneur offre : en échange d'une existence dédiée à la recherche sur la magie dans les laboratoires d'teshi, n'iomporte quel arcaniste peut acquérir l'immortalité. Ainsi, beaucoup rassemblent leurs possessions et voyagent jusqu'à la Flèche d'Obsidienne.[PARAGRAPH:1]Au début, on ne montre aux candidats que les aspects positifs de la vie morte-vivante. Ils découvrent les libraires d'teshi et le savoir immense qu'elle contiennent ; on leur raconte que leursesprits seront enfin libérés des contigences physiques et des sentiments négatifs peur, maladie, anxiété, tristesse, faim, jalousie, ...)[PARAGRAPH:1]une fois le rituel accompli, il est trop tard. Les âmes sont devenues la propriété de Laroth ; ils ne peuvent plus ressentir la joie ou l'amour, et ne s'en préoccupent plus. Le seigneur D'tesh les a emplis d'une obéissance absolue : leur seule satisfaction passe maintenant par l'accomplissement de Ses ordres.</French>
+		<German>[H2]Draft[\H2]Immortality is a burning desire for several races, and spellcasters are those who feel it the most. Studies and experience taught them that magic can vanquish any obstacle on the path, be it disease or enemies. But ageing is inevitable and they know Arawn is patiently waiting for them. Then, they remember tales of the D'teshi civilization and the bargain that their Lord offers: In exchange for an existence dedicated to the research of magic inside D'teshi laboratories, any arcanist can gain immortality. Thus, many of them gather their possessions and travel to the Obsidian Spire.[PARAGRAPH:1]At first, the candidates are only shown the proper aspects of undead life. They discover D'teshi libraries and the immense knowledge gathered in its shelving; they are told that their mind will at last be freed from physical contingencies and negative feelings (fear, disease, weariness, sadness, hunger, jealousy, ...)[PARAGRAPH:1]When the ritual is accomplished, it's too late. Their soul has become the property of Laroth; they can't feel happiness or love, and they don't care anymore. Lord D'tesh instilled them with absolute obedience: their only satisfaction now stands in the accomplishment of His orders.</German>
+		<Italian>[H2]Bozza[\H2]L'immortalità è un desiderio bruciante per diverse razze, e gli incantatori sono quelli che lo provano maggiormente. Gli studi e l'esperienza gli hanno insegnato che la magia può eliminare qualsiasi ostacolo sulla strada, sia esso malattie o nemici. Ma l'invecchiamento è inevitabile e sanno che Arawn li sta pazientemente aspettando. Poi si ricordano dei racconti della civiltà D'teshi e dei patti che il suo Signore offre: In cambio di un'esistenza dedicata alla ricerca della magia all'interno dei laboratori D'teshi, qualsiasi arcanista può ottenere l'immortalità. E cosi in molti raccolgono i loro averi e viaggiano sino alla Guglia D'Ossidiana.[PARAGRAPH:1]All'inizio, ai candidati, vengono mostrati solo i lati positivi della non morte. Ammirano le biblioteche D'teshi e l'immensa quantita di conoscenza ivi presente; gli viene detto che la loro mente verrà infine liberata dalle limitazioni fisiche e dalle emozioni negative (paura, malattia, stanchezza, tristezza, fame, gelosia, ...)[PARAGRAPH:1]Quando il rituale è compiuto è ormai troppo tardi. La loro anima è diventata proprietà di Laroth; non provano più ne felicità ne amore, e non si preoccupano più di nulla. Lord D'tesh gli ha instillato un'obbedienza assoluta: la loro unica soddisfazione consiste ora nell'eseguire i Suoi ordini.</Italian>
+		<Spanish>[H2]Draft[\H2]Immortality is a burning desire for several races, and spellcasters are those who feel it the most. Studies and experience taught them that magic can vanquish any obstacle on the path, be it disease or enemies. But ageing is inevitable and they know Arawn is patiently waiting for them. Then, they remember tales of the D'teshi civilization and the bargain that their Lord offers: In exchange for an existence dedicated to the research of magic inside D'teshi laboratories, any arcanist can gain immortality. Thus, many of them gather their possessions and travel to the Obsidian Spire.[PARAGRAPH:1]At first, the candidates are only shown the proper aspects of undead life. They discover D'teshi libraries and the immense knowledge gathered in its shelving; they are told that their mind will at last be freed from physical contingencies and negative feelings (fear, disease, weariness, sadness, hunger, jealousy, ...)[PARAGRAPH:1]When the ritual is accomplished, it's too late. Their soul has become the property of Laroth; they can't feel happiness or love, and they don't care anymore. Lord D'tesh instilled them with absolute obedience: their only satisfaction now stands in the accomplishment of His orders.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BINDER_STRATEGY</Tag>
+		<English>Contrarily to regular adepts, binders don't gain experience over time: send them to combat. And don't forget to send weak melee units with the binders. It will allow them to cast [LINK=SPELL_DARK_EMPOWERMENT]dark empowerment[\LINK]. (the binder sacrifices the melee unit to gain [LINK=PROMOTION_DARK_EMPOWERMENT]more combat experience and more strength for the next 10 turns[\LINK])</English>
+		<French>À l'inverse des adeptes classiques, les invocateurs ne gagnent pas d'expérience avec le temps : envoyez-les au combat. Et n'oubliez pas d'envoyer de faibles unités de mêlée avec eux. Ils leur permettront de lancer [LINK=SPELL_DARK_EMPOWERMENT]Infusion de Puissance Occulte[\LINK] (l'invocateur sacrifie l'unité de mêlée pour obtenir [LINK=PROMOTION_DARK_EMPOWERMENT]plus d'expérience de combat et plus de puissance pour les 10 prochains tours[\LINK]).</French>
+		<German>Contrarily to regular adepts, binders don't gain experience over time: send them to combat. And don't forget to send weak melee units with the binders. It will allow them to cast [LINK=SPELL_DARK_EMPOWERMENT]dark empowerment[\LINK]. (the binder sacrifices the melee unit to gain [LINK=PROMOTION_DARK_EMPOWERMENT]more combat experience and more strength for the next 10 turns[\LINK])</German>
+		<Italian>Contrariamente ai normali Adepti, i rilegatori non guadagnano esperienza col tempo: mandali a combattere. E non dimenticare di mandare deboli unità da mischia con loro. Fare ciò gli permetterà di lanciare [LINK=SPELL_DARK_EMPOWERMENT]Potenziamento Oscuro[\LINK]. (il rilegatore sacrifica l'unità da mischia per ottenere [LINK=PROMOTION_DARK_EMPOWERMENT]più esperienza dal combattimento e più forza per i prossimi 10 turni[\LINK])</Italian>
+		<Spanish>Contrarily to regular adepts, binders don't gain experience over time: send them to combat. And don't forget to send weak melee units with the binders. It will allow them to cast [LINK=SPELL_DARK_EMPOWERMENT]dark empowerment[\LINK]. (the binder sacrifices the melee unit to gain [LINK=PROMOTION_DARK_EMPOWERMENT]more combat experience and more strength for the next 10 turns[\LINK])</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CHOSEN_DTESH</Tag>
+		<English>Chosen of D'tesh</English>
+		<French>Élu de D'tesh</French>
+		<German>Erwählter des D'tesh</German>
+		<Italian>Preferito di D'tesh</Italian>
+		<Spanish>Chosen of D'tesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COUNCIL_EIGHT</Tag>
+		<English>Council of Eight</English>
+		<French>Conseil des Huit</French>
+		<German>Konzil der Acht</German>
+		<Italian>Consiglio dei Otto</Italian>
+		<Spanish>Council of Eight</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DEATHS_HEAD</Tag>
+		<English>Death's Head</English>
+		<French>Commandant de la Mort</French>
+		<German>Haupt des Todes</German>
+		<Italian>Responsabile della Morte</Italian>
+		<Spanish>Death's Head</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DTESHI_COMMANDER</Tag>
+		<English>D'teshi Commander</English>
+		<French>Commandant d'teshi</French>
+		<German>D'teshi Kommandant</German>
+		<Italian>Comandante D'teshi</Italian>
+		<Spanish>D'teshi Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMMANDER_FALLEN</Tag>
+		<English>Dullahan</English>
+		<French>Dullahan</French>
+		<German>Dullahan</German>
+		<Italian>Dullahan</Italian>
+		<Spanish>Dullahan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FUNERAL_BARGE</Tag>
+		<English>Funeral Barge</English>
+		<French>Barge funéraire</French>
+		<German>Begräbnisbarke</German>
+		<Italian>Chiatta Funebre</Italian>
+		<Spanish>Funeral Barge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HAND_OF_DTESH</Tag>
+		<English>Hand of D'tesh</English>
+		<French>Main de D'tesh</French>
+		<German>Hand des D'tesh</German>
+		<Italian>Mano di D'tesh</Italian>
+		<Spanish>Hand of D'tesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SENTINEL</Tag>
+		<English>Sentinel</English>
+		<French>Sentinelle</French>
+		<German>Wachposten</German>
+		<Italian>Sentinella</Italian>
+		<Spanish>Sentinel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SLAVE_UNDEAD</Tag>
+		<English>Undead Slave</English>
+		<French>Esclave mort-vivant</French>
+		<German>Untoter Sklave</German>
+		<Italian>Schiavo non morto</Italian>
+		<Spanish>Undead Slave</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VESSEL_DTESH</Tag>
+		<English>Vessel of D'tesh</English>
+		<French>Propagateur de D'tesh</French>
+		<German>Gefährt des D'tesh</German>
+		<Italian>Tramite di D'tesh</Italian>
+		<Spanish>Vessel of D'tesh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WATCHER</Tag>
+		<English>Watcher</English>
+		<French>Veilleur</French>
+		<German>Beobachter</German>
+		<Italian>Guardiano</Italian>
+		<Spanish>Watcher</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_PYRE</Tag>
+		<English>Build [LINK=IMPROVEMENT_DTESH_PYRE]Pyre[\LINK]</English>
+		<French>Construire un [LINK=IMPROVEMENT_DTESH_PYRE]bûcher[\LINK]</French>
+		<German>Errichte [LINK=IMPROVEMENT_DTESH_PYRE]Scheiterhaufen[\LINK]</German>
+		<Italian>Costruire una [LINK=IMPROVEMENT_DTESH_PYRE]Pira[\LINK]</Italian>
+		<Spanish>Build [LINK=IMPROVEMENT_DTESH_PYRE]Pyre[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_PYRE_AQUATIC</Tag>
+		<English>Build [LINK=IMPROVEMENT_DTESH_PYRE_AQUATIC]Aquatic Pyre[\LINK]</English>
+		<French>Construire un [LINK=IMPROVEMENT_DTESH_PYRE_AQUATIC]bûcher aquatique[\LINK]</French>
+		<German>Build [LINK=IMPROVEMENT_DTESH_PYRE_AQUATIC]Aquatic Pyre[\LINK]</German>
+		<Italian>Costruire una [LINK=IMPROVEMENT_DTESH_PYRE_AQUATIC]Pira Acquatica[\LINK]</Italian>
+		<Spanish>Build [LINK=IMPROVEMENT_DTESH_PYRE_AQUATIC]Aquatic Pyre[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_CATACOMBS</Tag>
+		<English>Build [LINK=IMPROVEMENT_DTESH_CATACOMBS]Catacombs[\LINK]</English>
+		<French>Construire des [LINK=IMPROVEMENT_DTESH_CATACOMBS]catacombes[\LINK]</French>
+		<German>Baue [LINK=IMPROVEMENT_DTESH_CATACOMBS]Katakomben[\LINK]</German>
+		<Italian>Costruire una [LINK=IMPROVEMENT_DTESH_CATACOMBS]Catacomba[\LINK]</Italian>
+		<Spanish>Build [LINK=IMPROVEMENT_DTESH_CATACOMBS]Catacombs[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MAUSOLEUM_LESSER</Tag>
+		<English>Build [LINK=IMPROVEMENT_DTESH_MAUSOLEUM_LESSER]Lesser Mausoleum[\LINK]</English>
+		<French>Construire un [LINK=IMPROVEMENT_DTESH_MAUSOLEUM_LESSER]mausolée mineur[\LINK]</French>
+		<German>Errichte [LINK=IMPROVEMENT_DTESH_MAUSOLEUM_LESSER]Unbedeutendes Mausoleum[\LINK]</German>
+		<Italian>Costruire un [LINK=IMPROVEMENT_DTESH_MAUSOLEUM_LESSER]Mausoleo Minore[\LINK]</Italian>
+		<Spanish>Build [LINK=IMPROVEMENT_DTESH_MAUSOLEUM_LESSER]Lesser Mausoleum[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MAUSOLEUM</Tag>
+		<English>Build [LINK=IMPROVEMENT_DTESH_MAUSOLEUM]Mausoleum[\LINK]</English>
+		<French>Construire un [LINK=IMPROVEMENT_DTESH_MAUSOLEUM]mausolée[\LINK]</French>
+		<German>Errichte [LINK=IMPROVEMENT_DTESH_MAUSOLEUM]Mausoleum[\LINK]</German>
+		<Italian>Costruire un [LINK=IMPROVEMENT_DTESH_MAUSOLEUM]Mausoleo[\LINK]</Italian>
+		<Spanish>Build [LINK=IMPROVEMENT_DTESH_MAUSOLEUM]Mausoleum[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_CRYPT</Tag>
+		<English>Build [LINK=IMPROVEMENT_DTESH_CRYPT]Crypt[\LINK]</English>
+		<French>Construire une [LINK=IMPROVEMENT_DTESH_CRYPT]crypte[\LINK]</French>
+		<German>Errichte [LINK=IMPROVEMENT_DTESH_CRYPT]Krypta[\LINK]</German>
+		<Italian>Costruire una [LINK=IMPROVEMENT_DTESH_CRYPT]Cripta[\LINK]</Italian>
+		<Spanish>Build [LINK=IMPROVEMENT_DTESH_CRYPT]Crypt[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_REMOVE_FROM_CITY</Tag>
+		<English>Remove From City</English>
+		<French>Prélever des citoyens dans la ville</French>
+		<German>Aus der Stadt entfernen</German>
+		<Italian>Preleva dalla città</Italian>
+		<Spanish>Remove From City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNDEAD_LIVING_UNIT</Tag>
+		<English>Purify stench</English>
+		<French>Purifier l'infection</French>
+		<German>Purify stench</German>
+		<Italian>Purifica l'impuro</Italian>
+		<Spanish>Purify stench</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNDEAD_LIVING_UNIT_HELP</Tag>
+		<English>[ICON_BULLET]Transforms this unit into an undead</English>
+		<French>[ICON_BULLET]Transforme cette unité en mort-vivant</French>
+		<German>[ICON_BULLET]Transforms this unit into an undead</German>
+		<Italian>[ICON_BULLET]Trasforma quest'unità in un non morto.</Italian>
+		<Spanish>[ICON_BULLET]Transforms this unit into an undead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CORRUPT_FORT</Tag>
+		<English>Corrupt Fort</English>
+		<French>Corrompre le fort</French>
+		<German>Fort bestechen</German>
+		<Italian>Profana il Forte</Italian>
+		<Spanish>Corrupt Fort</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FELL_ARCANIST</Tag>
+		<English>Fell arcanist</English>
+		<French>Arcaniste sadique</French>
+		<German>Fell arcanist</German>
+		<Italian>Arcanista crudele</Italian>
+		<Spanish>Fell arcanist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FELL_SPIRIT</Tag>
+		<English>Fell Spirit</English>
+		<French>Esprit sadique</French>
+		<German>Grausame Geister</German>
+		<Italian>Spirito crudele</Italian>
+		<Spanish>Fell Spirit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNDEATHS_DOMINION</Tag>
+		<English>Undeath's Dominion</English>
+		<French>Domination des morts-vivants</French>
+		<German>Macht des Untodes</German>
+		<Italian>Dominio della non morte</Italian>
+		<Spanish>Undeath's Dominion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UNDEATHS_DOMINION_HELP</Tag>
+		<English>[ICON_BULLET]All your units gain the [LINK=PROMOTION_UNDEATHS_DOMINION]Undeath's Dominion[\LINK] promotion</English>
+		<French>[ICON_BULLET]Toutes vos unités gagnent la promotion [LINK=PROMOTION_UNDEATHS_DOMINION]Domination des morts-vivants[\LINK]</French>
+		<German>[ICON_BULLET]All deine Einheiten erhalten die [LINK=PROMOTION_UNDEATHS_DOMINION]Macht des Untodes[\LINK] Beförderung</German>
+		<Italian>[ICON_BULLET]Tutte le tue unità ottengono la promozione [LINK=PROMOTION_UNDEATHS_DOMINION]Dominio della non morte[\LINK].</Italian>
+		<Spanish>[ICON_BULLET]All your units gain the [LINK=PROMOTION_UNDEATHS_DOMINION]Undeath's Dominion[\LINK] promotion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GLOBALSPELL_UNDEATHS_DOMINION</Tag>
+		<English>Grants all the caster's units [LINK=PROMOTION_UNDEATHS_DOMINION]Undeath's Dominion[\LINK]</English>
+		<French>Confère à toutes les unités du lanceur la promotion [LINK=PROMOTION_UNDEATHS_DOMINION]Domination des morts-vivants[\LINK]</French>
+		<German>&#220;berträgt auf alle Einheiten des Zaubernden [LINK=PROMOTION_UNDEATHS_DOMINION]Macht des Untodes[\LINK]</German>
+		<Italian>Fornisce a tutte le unità del giocatore che la lancia la promozione [LINK=PROMOTION_UNDEATHS_DOMINION]Dominio della non morte[\LINK]</Italian>
+		<Spanish>Grants all the caster's units [LINK=PROMOTION_UNDEATHS_DOMINION]Undeath's Dominion[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_OPALUS_MORTIS</Tag>
+		<English>Opallus Mortis</English>
+		<French>Opallus Mortis</French>
+		<German>Opallus Mortis</German>
+		<Italian>Opallus Mortis</Italian>
+		<Spanish>Opallus Mortis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_OPALUS_MORTIS_SLAVE</Tag>
+		<English>Slave to the Opallus Mortis</English>
+		<French>Esclave de l'Opallus Mortis</French>
+		<German>Sklave des Opallus Mortis</German>
+		<Italian>Schiavo dell'Opallus Mortis</Italian>
+		<Spanish>Slave to the Opallus Mortis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_COMMAND_UNDEAD</Tag>
+		<English>Command Undead</English>
+		<French>Commander aux mort-vivants</French>
+		<German>Befehlige Untote</German>
+		<Italian>Comanda Non Morti</Italian>
+		<Spanish>Command Undead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_COMMAND_UNDEAD_HELP</Tag>
+		<English>[ICON_BULLET]Attempts control of an enemy undead unit within range</English>
+		<French>[ICON_BULLET]Tente de prendre le contrôle d'un mort-vivant ennemi à portée</French>
+		<German>[ICON_BULLET]&#220;bernimmt möglicherweise die Kontrolle über eine untote Einheit in Reichweite</German>
+		<Italian>[ICON_BULLET]Prova a prendere il controllo delle unità non morte nemiche vicine</Italian>
+		<Spanish>[ICON_BULLET]Attempts control of an enemy undead unit within range</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_COMMAND_UNDEAD</Tag>
+		<English>Unit lost to Command Undead</English>
+		<French>Unité perdue en raison du sort ennemi "Commander aux mort-vivants"</French>
+		<German>Einheit ging durch 'Befehlige Untote' verloren</German>
+		<Italian>Unità persa a causa di Comandare Non Morti</Italian>
+		<Spanish>Unit lost to Command Undead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_COMMAND_UNDEAD_ENEMY</Tag>
+		<English>Unit gained by Command Undead</English>
+		<French>Unité obtenue grâce à "Commander aux mort-vivants"</French>
+		<German>Einheit ging durch 'Befehlige Untote' in Euren Besitz über</German>
+		<Italian>Unità ottenuta con Comandare Non Morti</Italian>
+		<Spanish>Unit gained by Command Undead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WASTELAND_DEFENDER</Tag>
+		<English>Wasteland Defender</English>
+		<French>Défenseur des terres stériles</French>
+		<German>Brachland Verteidiger</German>
+		<Italian>Difensore delle Terre Desolate</Italian>
+		<Spanish>Wasteland Defender</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DTESH_DEFENSE</Tag>
+		<English>Preserved Corpse</English>
+		<French>Cadavre préservé</French>
+		<German>Konservierte Leiche</German>
+		<Italian>Cadavere Preservato</Italian>
+		<Spanish>Preserved Corpse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FALLEN_ANGEL</Tag>
+		<English>Fallen Angel</English>
+		<French>Ange déchu</French>
+		<German>Gefallener Engel</German>
+		<Italian>Angelo Caduto</Italian>
+		<Spanish>Fallen Angel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DARK_EMPOWERMENT</Tag>
+		<English>Dark Empowerment</English>
+		<French>Infusion de Puissance Occulte</French>
+		<German>Dunkle Bemächtigung</German>
+		<Italian>Potenziamento Oscuro</Italian>
+		<Spanish>Dark Empowerment</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DARK_EMPOWERMENT_HELP</Tag>
+		<English>[ICON_BULLET]Caster may not have the [LINK=PROMOTION_DARK_EMPOWERMENT]Dark Empowerment[\LINK] promotion.[NEWLINE][ICON_BULLET]Requires a Melee Unit in the stack.[NEWLINE][ICON_BULLET]Kills the weakest Melee Unit in the stack.</English>
+		<French>[ICON_BULLET]Ne peut être renouvelé que lorsque les effets ont disparu (tous les 10 tours)[NEWLINE][ICON_BULLET]Nécessite la présence d'une unité de combat rapproché dans la pile.[NEWLINE][ICON_BULLET]Tue l'unité de combat rapproché la plus faible de la pile.</French>
+		<German>[ICON_BULLET]Der Zaubernde darf nicht die [LINK=PROMOTION_DARK_EMPOWERMENT]Dunkle Bemächtigung[\LINK] Beförderung tragen.[NEWLINE][ICON_BULLET]Benötigt eine Nahkampfeinheit im Stapel.[NEWLINE][ICON_BULLET]Kills the weakest Melee Unit in the stack.</German>
+		<Italian>[ICON_BULLET]Non è possibile lanciarla se si possiede la promozione [LINK=PROMOTION_DARK_EMPOWERMENT]Potenziamento Oscuro[\LINK].[NEWLINE][ICON_BULLET]Richiede un'unità da mischia nel gruppo.[NEWLINE][ICON_BULLET]Uccide l'unità da mischia più debole del gruppo.</Italian>
+		<Spanish>[ICON_BULLET]Caster may not have the [LINK=PROMOTION_DARK_EMPOWERMENT]Dark Empowerment[\LINK] promotion.[NEWLINE][ICON_BULLET]Requires a Melee Unit in the stack.[NEWLINE][ICON_BULLET]Kills the weakest Melee Unit in the stack.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NECROMANTICALLY_EMPOWERED</Tag>
+		<English>Necromantically Empowered</English>
+		<French>Renforcement Nécromantique</French>
+		<German>Nekromantie Bemächtigung</German>
+		<Italian>Potenziato Necromanticamente</Italian>
+		<Spanish>Necromantically Empowered</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_VANEDIS_CITY_ATTACK</Tag>
+		<English>Fist of Orn</English>
+		<French>Poing d'Orn</French>
+		<German>Faust des Orn</German>
+		<Italian>Pugno di Orn</Italian>
+		<Spanish>Fist of Orn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_VANEDIS_SLAVE</Tag>
+		<English>Grasp of Karn</English>
+		<French>Poigne de Karn</French>
+		<German>Griff des Karn</German>
+		<Italian>Presa di Karn</Italian>
+		<Spanish>Grasp of Karn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_VANEDIS_DEFENSE</Tag>
+		<English>Shield of Ramne</English>
+		<French>Bouclier de Ramne</French>
+		<German>Schild des Ramne</German>
+		<Italian>Scudo di Ramne</Italian>
+		<Spanish>Shield of Ramne</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DTESH_AFFINITY_HELP</Tag>
+		<English>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Death - 10% Strength[PARAGRAPH:1][ICON_BULLET]Entropy - 5% chance for both your own plot and that of the enemy to become Wasteland temporarily.[PARAGRAPH:1][ICON_BULLET]Infused Ash - 1% chance to generate a Slave from combat.[PARAGRAPH:1][ICON_BULLET]Shadow - 1 First Strike Chance. Every 5 mana grant one First Strike.</English>
+		<French>[ICON_BULLET]Confère des effets basés sur le nombre de ressources spécifiques contrôlées.[PARAGRAPH:1][ICON_BULLET]Mort : +10% de force[PARAGRAPH:1][ICON_BULLET]Entropie : +5% de chance que votre case et celle de l'ennemi deviennent des terres stériles, temporairement.[PARAGRAPH:1][ICON_BULLET]Cendres Infusées : +1% de chance de créer un esclave au combat.[PARAGRAPH:1][ICON_BULLET]Ombre : +1 chance de première frappe. Tous les 5 manas, obtient une 1 première frappe.</French>
+		<German>[ICON_BULLET]&#220;beträgt die Effekte in Abhängigkeit von der Zahl der verfügbaren Ressourcen.[PARAGRAPH:1][ICON_BULLET]Tod - 10% Stärke[PARAGRAPH:1][ICON_BULLET]Entropie - 5% Chance, dass sowohl dein eigenes als auch feindliches Land vorübergehend Brachland wird.[PARAGRAPH:1][ICON_BULLET]Geklärte Asche - 1% Chance des Gewinns eines Sklaven nach dem Kampf.[PARAGRAPH:1][ICON_BULLET]Schatten - 1 Erstangriff/5 Mana.</German>
+		<Italian>[ICON_BULLET]Fornisce effetti a seconda del numero di alcune risorse specifiche possedute.[PARAGRAPH:1][ICON_BULLET]Morte - 10% Strength[PARAGRAPH:1][ICON_BULLET]Entropia - 5% probabilità che sia il tuo terreno che quello di uno dei tuoi nemici diventi Terra Desolata temporaneamente.[PARAGRAPH:1][ICON_BULLET]Cenere Infusa - 1% probabilità di creare uno Schiavo dal combattimento.[PARAGRAPH:1][ICON_BULLET]Ombra - 1 Attacco Improvviso probabile. Ogni 5 mana fornisce un Attacco Improvviso.</Italian>
+		<Spanish>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Death - 10% Strength[PARAGRAPH:1][ICON_BULLET]Entropy - 5% chance for both your own plot and that of the enemy to become Wasteland temporarily.[PARAGRAPH:1][ICON_BULLET]Infused Ash - 1% chance to generate a Slave from combat.[PARAGRAPH:1][ICON_BULLET]Shadow - 1 First Strike Chance. Every 5 mana grant one First Strike.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DEFILE_CRYPT</Tag>
+		<English>Defile Crypt</English>
+		<French>Profaner une crypte</French>
+		<German>Krypta entweihen</German>
+		<Italian>Profana la Cripta</Italian>
+		<Spanish>Defile Crypt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DEFILE_CRYPT_HELP</Tag>
+		<English>[ICON_BULLET]Creates a Slave unit, but permanently decreases plot yields.</English>
+		<French>[ICON_BULLET]Crée un esclave, mais diminue le rendement de la case de façon permanente.</French>
+		<German>[ICON_BULLET]Erschafft eines Sklaven, vermindert jedoch dauerhaft den Ertrag des Feldes.</German>
+		<Italian>[ICON_BULLET]Crea uno Schiavo, ma riduce permanentemente il rendimento del terreno.</Italian>
+		<Spanish>[ICON_BULLET]Creates a Slave unit, but permanently decreases plot yields.</Spanish>
+	</TEXT>
+</Civ4GameText>

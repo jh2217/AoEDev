@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:MagisterAshes_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+	<SpellInfo>
+			<Type>SPELL_SUMMON_ABADDON</Type>
+			<Description>TXT_KEY_SPELL_UNLEASH_ABADDON</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_UNLEASH_ABADDON_HELP</Help>
+			<TechPrereq>TECH_MALEVOLENT_DESIGNS</TechPrereq>
+			<ImprovementPrereq>IMPROVEMENT_ABADDONS_PIT</ImprovementPrereq>
+			<PromotionPrereq1>PROMOTION_SUNDERED</PromotionPrereq1>
+			<bHasCasted>1</bHasCasted>
+			<bAbility>1</bAbility>
+			<iDelay>0</iDelay>
+			<PyRequirement>reqUnleashUnraveling(pCaster, eSpell, 'UNIT_ABADDON', 30)</PyRequirement>
+			<PyResult>spellUnleashAbaddon(pCaster)</PyResult>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_TRAIN</Sound>
+			<Button>Art/Interface/Buttons/Units/Ars.dds</Button>
+		</SpellInfo>
+	<SpellInfo>
+			<Type>SPELL_SUMMON_APOPHIS</Type>
+			<Description>TXT_KEY_SPELL_UNLEASH_APOPHIS</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_UNLEASH_APOPHIS_HELP</Help>
+			<TechPrereq>TECH_MALEVOLENT_DESIGNS</TechPrereq>
+			<PromotionPrereq1>PROMOTION_SUNDERED</PromotionPrereq1>
+			<PromotionPrereq2>PROMOTION_BONE_CIRCLET</PromotionPrereq2>
+						<RemovePromotions>
+				<RemovePromotion>PROMOTION_BONE_CIRCLET</RemovePromotion>
+			</RemovePromotions>
+			<UnitInStackPrereq>UNIT_GOAT_2</UnitInStackPrereq>
+			<bHasCasted>1</bHasCasted>
+			<bAbility>1</bAbility>
+			<iDelay>0</iDelay>
+			<PyRequirement>reqUnleashUnraveling(pCaster, eSpell, 'UNIT_APOPHIS', 30)</PyRequirement>
+			<PyResult>spellUnleashApophis(pCaster)</PyResult>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_TRAIN</Sound>
+			<Button>Art/Units/heroes/apophis/coatlannbutton.dds</Button>
+		</SpellInfo>
+		<SpellInfo>
+			<Type>SPELL_SUMMON_BUBOES</Type>
+			<Description>TXT_KEY_SPELL_UNLEASH_BUBOES</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_UNLEASH_BUBOES_HELP</Help>
+			<TechPrereq>TECH_MALEVOLENT_DESIGNS</TechPrereq>
+			<PromotionPrereq1>PROMOTION_WAR</PromotionPrereq1>
+			<PromotionPrereq2>PROMOTION_SUNDERED</PromotionPrereq2>
+			<bHasCasted>1</bHasCasted>
+			<bAbility>1</bAbility>
+			<RemovePromotions>
+				<RemovePromotion>PROMOTION_WAR</RemovePromotion>
+			</RemovePromotions>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
+			<iDelay>0</iDelay>
+			<PyRequirement>reqUnleashUnraveling(pCaster, eSpell, 'UNIT_BUBOES', 20)</PyRequirement>
+			<PyResult>spellUnleashBuboes(pCaster)</PyResult>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_TRAIN</Sound>
+			<Button>Art/Interface/Buttons/Units/Buboes.dds</Button>
+		</SpellInfo>
+		<SpellInfo>
+			<Type>SPELL_SUMMON_ARS</Type>
+			<Description>TXT_KEY_SPELL_UNLEASH_ARS</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_UNLEASH_ARS_HELP</Help>
+			<TechPrereq>TECH_MALEVOLENT_DESIGNS</TechPrereq>
+			<PromotionPrereq1>PROMOTION_HEARTSTONE</PromotionPrereq1>
+			<PromotionPrereq2>PROMOTION_SUNDERED</PromotionPrereq2>
+			<bHasCasted>1</bHasCasted>
+			<bAbility>1</bAbility>
+			<RemovePromotions>
+				<RemovePromotion>PROMOTION_HEARTSTONE</RemovePromotion>
+			</RemovePromotions>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
+			<iDelay>0</iDelay>
+			<PyRequirement>reqUnleashUnraveling(pCaster, eSpell, 'UNIT_ARS', 20)</PyRequirement>
+			<PyResult>spellUnleashArs(pCaster)</PyResult>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_TRAIN</Sound>
+			<Button>Art/Interface/Buttons/Units/Ars.dds</Button>
+		</SpellInfo>
+		<SpellInfo>
+			<Type>SPELL_SUMMON_STEPHANOS</Type>
+			<Description>TXT_KEY_SPELL_UNLEASH_STEPHANOS</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_UNLEASH_STEPHANOS_HELP</Help>
+			<TechPrereq>TECH_MALEVOLENT_DESIGNS</TechPrereq>
+			<BuildingPrereq>BUILDING_HERON_THRONE</BuildingPrereq>
+			<PromotionPrereq1>PROMOTION_SUNDERED</PromotionPrereq1>
+			<bHasCasted>1</bHasCasted>
+			<bAbility>1</bAbility>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
+			<iDelay>0</iDelay>
+			<PyRequirement>reqUnleashUnraveling(pCaster, eSpell, 'UNIT_STEPHANOS', 20)</PyRequirement>
+			<PyResult>spellUnleashStephanos(pCaster)</PyResult>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_TRAIN</Sound>
+			<Button>Art/Interface/Buttons/Units/Stephanos.dds</Button>
+		</SpellInfo>
+		<SpellInfo>
+			<Type>SPELL_FREE_ODIO</Type>
+			<Description>TXT_KEY_SPELL_FREE_ODIO</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_FREE_ODIO_HELP</Help>
+			<ImprovementPrereq>IMPROVEMENT_ODIOS_PRISON</ImprovementPrereq>
+			<TechPrereq>TECH_RAGE</TechPrereq>
+			<bCasterNoDuration>1</bCasterNoDuration>
+			<bCausesWar>1</bCausesWar>
+			<iCasterMinLevel>6</iCasterMinLevel>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>1000</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<PyResult>spellUnleashOdio(pCaster, eSpell)</PyResult>
+			<PyRequirement>reqUnleashOdio(pCaster, eSpell)</PyRequirement>
+			<Effect>EFFECT_SPELL2</Effect>
+			<Sound>AS3D_SPELL_ENCHANTMENT</Sound>
+			<Button>Art/Interface/Buttons/Improvements/Odios Prison.dds</Button>
+		</SpellInfo>
+				<SpellInfo>
+			<Type>SPELL_RESTORE_MATRON_ESSENDI</Type>
+			<Description>TXT_KEY_SPELL_RESTORE_MATRON_ESSENDI</Description>
+			<TechPrereq>TECH_PRIESTHOOD</TechPrereq>
+			<PromotionPrereq1>PROMOTION_ORTHUSS_AXE</PromotionPrereq1>
+			<UnitClassPrereq>UNITCLASS_PRIESTESS_OF_BHALL</UnitClassPrereq>
+			<ImprovementPrereq>IMPROVEMENT_PYRE_OF_THE_SERAPHIC</ImprovementPrereq>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>50</iAIWeight>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<RemovePromotions>
+				<RemovePromotion>PROMOTION_ORTHUSS_AXE</RemovePromotion>
+			</RemovePromotions>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_MATRON_ESSENDI</AddPromotion>
+			</AddPromotions>
+			<ConvertUnitType>UNITCLASS_HIGH_PRIESTESS_OF_BHALL</ConvertUnitType>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
+			<bAbility>1</bAbility>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_TRAIN</Sound>
+			<Button>Art/Interface/Buttons/Equipment/MatronEssendi.dds</Button>
+		</SpellInfo>
+
+		</SpellInfos>
+</Civ4SpellInfos>

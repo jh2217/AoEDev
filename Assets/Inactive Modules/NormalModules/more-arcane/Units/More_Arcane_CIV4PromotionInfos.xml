@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!-- Formatted by Xienwolf -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Promotion Infos -->
+<Civ4PromotionInfos xmlns="x-schema:More_Arcane_CIV4UnitSchema.xml">
+	<PromotionInfos>
+		<PromotionInfo>		<!-- Kylorin's Legacy -->
+			<Type>PROMOTION_KYLORIN_LEGACY</Type>
+			<Description>TXT_KEY_PROMOTION_KYLORIN_LEGACY</Description>
+			<iChanceMiscast>-10</iChanceMiscast>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Horselord -->
+			<Type>PROMOTION_HORSELORD</Type>
+			<Description>TXT_KEY_PROMOTION_HORSELORD</Description>
+			<iChanceMiscast>-5</iChanceMiscast>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Mounted Arcane -->
+			<Type>PROMOTION_MOUNTED_ARCANE</Type>
+			<Description>TXT_KEY_PROMOTION_MOUNTED_ARCANE</Description>
+			<SecondaryUnitCombats>
+				<SecondaryUnitCombat>UNITCOMBAT_ADEPT</SecondaryUnitCombat>
+			</SecondaryUnitCombats>
+			<Button>Art/Interface/Buttons/Promotions/CommandLimit1.dds</Button>
+            <iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Mounted Adept debuff -->
+			<Type>PROMOTION_MOUNTED_ADEPT</Type>
+			<Description>TXT_KEY_PROMOTION_MADEPT_DEBUFF</Description>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<iChanceMiscast>50</iChanceMiscast>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_MOUNTED_ADEPT</PrereqUnit>
+				<PrereqUnit>UNIT_MOUNTED_BINDER</PrereqUnit>
+				<PrereqUnit>UNIT_MOUNTED_APPRENTICE</PrereqUnit>
+			</PrereqUnits>
+			<PromotionReplacedBy>
+				<Promotion>PROMOTION_MOUNTED_MAGE</Promotion>
+				<Promotion>PROMOTION_MOUNTED_ARCHMAGE</Promotion>
+			</PromotionReplacedBy>
+			<Button>Art/Interface/Buttons/Units/UCAdept.dds</Button>
+			<iResistMagic>-30</iResistMagic>
+			<iSpellDamageModify>-20</iSpellDamageModify>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Mounted Mage debuff -->
+			<Type>PROMOTION_MOUNTED_MAGE</Type>
+			<Description>TXT_KEY_PROMOTION_MMAGE_DEBUFF</Description>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<iChanceMiscast>25</iChanceMiscast>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_MOUNTED_MAGE</PrereqUnit>
+				<PrereqUnit>UNIT_MOUNTED_ILLUSIONIST</PrereqUnit>
+				<PrereqUnit>UNIT_MOUNTED_NECROMANCER</PrereqUnit>
+				<PrereqUnit>UNIT_MOUNTED_COD</PrereqUnit>
+				<PrereqUnit>UNIT_MOUNTED_WIZARD</PrereqUnit>
+			</PrereqUnits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_MOUNTED_ADEPT</Promotion>
+			</PromotionExcludes>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_MOUNTED_ADEPT</Promotion>
+			</PromotionOverwrites>
+			<PromotionReplacedBy>
+				<Promotion>PROMOTION_MOUNTED_ARCHMAGE</Promotion>
+			</PromotionReplacedBy>
+			<Button>Art/Interface/Buttons/Units/UCAdept.dds</Button>
+			<iResistMagic>-15</iResistMagic>
+			<iSpellDamageModify>-10</iSpellDamageModify>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Mounted Archmage debuff remover-->
+			<Type>PROMOTION_MOUNTED_ARCHMAGE</Type>
+			<Description>TXT_KEY_PROMOTION_MAMAGE_DEBUFF</Description>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_MOUNTED_ARCHMAGE</PrereqUnit>
+				<PrereqUnit>UNIT_MOUNTED_WRAITH_LORD</PrereqUnit>
+				<PrereqUnit>UNIT_MOUNTED_BATTLEMAGE</PrereqUnit>
+			</PrereqUnits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_MOUNTED_ADEPT</Promotion>
+				<Promotion>PROMOTION_MOUNTED_MAGE</Promotion>
+			</PromotionExcludes>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_MOUNTED_ADEPT</Promotion>
+				<Promotion>PROMOTION_MOUNTED_MAGE</Promotion>
+			</PromotionOverwrites>
+			<Button>Art/Interface/Buttons/Units/UCAdept.dds</Button>
+		</PromotionInfo>
+	</PromotionInfos>
+</Civ4PromotionInfos>

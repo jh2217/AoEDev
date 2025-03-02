@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FATED_END</Tag>
+		<English>Fated End</English>
+		<French>Fin fatale</French>
+		<German>Schicksalhaftes Ende</German>
+		<Italian>Fine Predestinata</Italian>
+		<Spanish>Final Predestinado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FATED_END_HELP</Tag>
+		<English>[ICON_BULLET]Death will not be cheated this time, Enemy units have -100% withdrawl chance.</English>
+		<French>[ICON_BULLET]Death will not be cheated this time, Enemy units have -100% withdrawl chance.</French>
+		<German>[ICON_BULLET]Death will not be cheated this time, Enemy units have -100% withdrawl chance.</German>
+		<Italian>[ICON_BULLET]Death will not be cheated this time, Enemy units have -100% withdrawl chance.</Italian>
+		<Spanish>[ICON_BULLET]Death will not be cheated this time, Enemy units have -100% withdrawl chance.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_LAST_RITE</Tag>
+		<English>Last Rite</English>
+		<French>Dernier Sacrement</French>
+		<German>Letzter Ritus</German>
+		<Italian>Ultimo Rito</Italian>
+		<Spanish>Último Rito</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_LAST_RITE_HELP</Tag>
+		<English>[ICON_BULLET]Gives all living units +1 death damage and 30% damage to undead</English>
+		<French>[ICON_BULLET]Gives all living units +1 death damage and 30% damage to undead</French>
+		<German>[ICON_BULLET]Gives all living units +1 death damage and 30% damage to undead</German>
+		<Italian>[ICON_BULLET]Gives all living units +1 death damage and 30% damage to undead</Italian>
+		<Spanish>[ICON_BULLET]Gives all living units +1 death damage and 30% damage to undead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DEATHWARD</Tag>
+		<English>Deathward</English>
+		<French>Deathward</French>
+		<German>Deathward</German>
+		<Italian>Deathward</Italian>
+		<Spanish>Deathward</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_SPELL_DEATHWARD_HELP</Tag>
+		<English>[ICON_BULLET]Protects Units from all forms of Death Damage</English>
+		<French>[ICON_BULLET]Protects Units from all forms of Death Damage</French>
+		<German>[ICON_BULLET]Protects Units from all forms of Death Damage</German>
+		<Italian>[ICON_BULLET]Protects Units from all forms of Death Damage</Italian>
+		<Spanish>[ICON_BULLET]Protects Units from all forms of Death Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ARAWNS_EMBRACE</Tag>
+		<English>Arawn's Embrace</English>
+		<French>Arawn's Embrace</French>
+		<German>Arawn's Embrace</German>
+		<Italian>Arawn's Embrace</Italian>
+		<Spanish>Arawn's Embrace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ARAWNS_EMBRACE_HELP</Tag>
+		<English>[ICON_BULLET]All practitioners of Undeath have their souls overwhelmed by Arawn's sorrow for several turns, leaving them unable to raise the dead</English>
+		<French>[ICON_BULLET]All practitioners of Undeath have their souls overwhelmed by Arawn's sorrow for several turns, leaving them unable to raise the dead</French>
+		<German>[ICON_BULLET]All practitioners of Undeath have their souls overwhelmed by Arawn's sorrow for several turns, leaving them unable to raise the dead</German>
+		<Italian>[ICON_BULLET]All practitioners of Undeath have their souls overwhelmed by Arawn's sorrow for several turns, leaving them unable to raise the dead</Italian>
+		<Spanish>[ICON_BULLET]All practitioners of Undeath have their souls overwhelmed by Arawn's sorrow for several turns, leaving them unable to raise the dead</Spanish>
+	</TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_SPELLCLASS_UNDEATH</Tag>
+        <English>Undeath </English>
+        <French>Undeath </French>
+        <German>Undeath </German>
+        <Italian>Undeath </Italian>
+        <Spanish>Undeath </Spanish>
+    </TEXT>
+	    <TEXT>
+        <Tag>TXT_KEY_WILLING_VESSEL</Tag>
+        <English>Willing Vessel</English>
+        <French>Willing Vessel</French>
+        <German>Willing Vessel</German>
+        <Italian>Willing Vessel</Italian>
+        <Spanish>Willing Vessel</Spanish>
+    </TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_SPELL_WILLING_VESSEL_HELP</Tag>
+		<English>[ICON_BULLET]This Archmage makes a pact with one of Laroth's Dullahan, giving their body over to be possessed.</English>
+		<French>[ICON_BULLET]This Archmage makes a pact with one of Laroth's Dullahan, giving their body over to be possessed.</French>
+		<German>[ICON_BULLET]This Archmage makes a pact with one of Laroth's Dullahan, giving their body over to be possessed.</German>
+		<Italian>[ICON_BULLET]This Archmage makes a pact with one of Laroth's Dullahan, giving their body over to be possessed.</Italian>
+		<Spanish>[ICON_BULLET]This Archmage makes a pact with one of Laroth's Dullahan, giving their body over to be possessed.</Spanish>
+	</TEXT>
+</Civ4GameText>

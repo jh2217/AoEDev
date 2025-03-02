@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Bart Muzzin (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Build Infos -->
+<Civ4BuildInfos xmlns="x-schema:ViciousSeas_CIV4UnitSchema.xml">
+	<BuildInfos>
+		<BuildInfo> <!-- Hunting Reef -->
+			<Type>BUILD_HUNTING_REEF</Type>
+			<Description>TXT_KEY_BUILD_HUNTING_REEF</Description>
+			<Help/>
+			<PrereqTech>TECH_SWAMPDWELLING</PrereqTech>
+			<iTime>400</iTime>
+			<iCost>0</iCost>
+			<ImprovementType>IMPROVEMENT_HUNTING_REEF</ImprovementType>
+			<RouteType>NONE</RouteType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs/>
+			<HotKey>KB_F</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>1</iHotKeyPriority>
+			<Button>Art/Interface/Buttons/Improvements/Pirate Cove.dds</Button>
+		</BuildInfo>
+		<BuildInfo> <!-- Coral Fort -->
+			<Type>BUILD_CORAL_FORT</Type>
+			<Description>TXT_KEY_BUILD_FORT</Description>
+			<Help/>
+			<PrereqTech>TECH_COMMUNE_WITH_NATURE</PrereqTech>
+			<iTime>3200</iTime>
+			<iCost>0</iCost>
+			<bKill>0</bKill>
+			<ImprovementType>IMPROVEMENT_CORAL_FORT</ImprovementType>
+			<RouteType>NONE</RouteType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<HotKey>KB_F</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>1</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Builds/BuildFort.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,7,9</Button>
+			<TechBuildDiscounts>
+				<TechBuildDiscount>
+					<TechType>TECH_CONSTRUCTION</TechType>
+					<iDiscount>2400</iDiscount>
+				</TechBuildDiscount>
+			</TechBuildDiscounts>
+		</BuildInfo>
+	</BuildInfos>
+</Civ4BuildInfos>

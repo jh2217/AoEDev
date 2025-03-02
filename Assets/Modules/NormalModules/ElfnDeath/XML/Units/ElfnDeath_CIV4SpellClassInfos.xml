@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- SpellClass Infos -->
+<Civ4SpellClassInfos xmlns="x-schema:ElfnDeath_CIV4UnitSpellSchema.xml">
+	<SpellClassInfos>
+		<SpellClassInfo>
+			<Type>SPELLCLASS_DEATH_GOOD</Type>
+			<Description>TXT_KEY_SPELLCLASS_DEATH</Description>
+			<Civilopedia>TXT_KEY_SPELLCLASS_DEATH_PEDIA</Civilopedia>			
+		</SpellClassInfo>
+		<SpellClassInfo>
+			<Type>SPELLCLASS_DEATH</Type>
+			<Description>TXT_KEY_SPELLCLASS_UNDEATH</Description>
+			<Civilopedia>TXT_KEY_SPELLCLASS_DEATH_PEDIA</Civilopedia>			
+		</SpellClassInfo>
+	</SpellClassInfos>
+</Civ4SpellClassInfos>

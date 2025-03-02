@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Unit Infos -->
+<Civ4UnitInfos xmlns="x-schema:AnimalLairs_CIV4UnitSchema.xml">
+	<UnitInfos>
+		<UnitInfo>		<!--Sand Wyrm-->
+			<Class>UNITCLASS_SAND_WORM</Class>
+			<Type>UNIT_SAND_WORM</Type>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_WYRM_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+		</UnitInfo>
+		<UnitInfo>		<!-- Ice Wyrm -->
+			<Class>UNITCLASS_ICE_WORM</Class>
+			<Type>UNIT_ICE_WORM</Type>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_WYRM_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+		</UnitInfo>
+		<UnitInfo>		<!--Marsh Wyrm-->
+			<Class>UNITCLASS_MARSH_WORM</Class>
+			<Type>UNIT_MARSH_WORM</Type>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_WYRM_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+		</UnitInfo>
+		<UnitInfo>		<!--Sea Serpent-->
+			<Class>UNITCLASS_SEA_SERPENT</Class>
+			<Type>UNIT_SEA_SERPENT</Type>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SERPENT_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+		</UnitInfo>
+		<UnitInfo>		<!--Nuckelavee-->
+			<Class>UNITCLASS_NUCKELAVEE</Class>
+			<Type>UNIT_NUCKELAVEE</Type>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SERPENT_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+		</UnitInfo>
+		<UnitInfo>        <!-- Sea Drake -->
+			<Class>UNITCLASS_SEA_DRAKE</Class>
+			<Type>UNIT_SEA_DRAKE</Type>
+			<Buildings>
+				<Building>
+					<BuildingType>BUILDING_CHAINED_WATER_DRAKES</BuildingType>
+					<bBuilding>1</bBuilding>
+				</Building>
+			</Buildings>
+		</UnitInfo>
+	</UnitInfos>
+</Civ4UnitInfos>

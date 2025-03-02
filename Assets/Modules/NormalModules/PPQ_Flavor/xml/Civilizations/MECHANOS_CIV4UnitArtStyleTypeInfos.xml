@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4UnitArtStyleTypeInfos xmlns="x-schema:CIV4CivilizationsSchema.xml">
+	<UnitArtStyleTypeInfos>
+			<UnitArtStyleTypeInfo>		
+				<Type>UNIT_ARTSTYLE_MECHANOS</Type>
+				<StyleUnits>
+					<StyleUnit>
+						<UnitType>UNIT_DIRIGIBLE</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_ZEPPELIN_PPQ</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_ZEPPELIN_PPQ</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_ZEPPELIN_PPQ</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+					
+					<StyleUnit>
+						<UnitType>UNIT_ENGINEER</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_ENGINEER_MECHANOS</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_ENGINEER_MECHANOS</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_ENGINEER_MECHANOS</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+					
+					<StyleUnit>
+						<UnitType>UNIT_HUNTER</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_HANDGUN_HUNTER</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_HANDGUN_HUNTER</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_HANDGUN_HUNTER</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+
+					<StyleUnit>
+						<UnitType>UNIT_KNIGHT</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_KNIGHT_MECHANOS</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_KNIGHT_MECHANOS</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_KNIGHT_MECHANOS</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+					<StyleUnit>
+						<UnitType>UNIT_HORSEMAN</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_MECHANOS</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_MECHANOS</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_MECHANOS</MiddleArtDefineTag>
+						</UnitMeshGroup>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_HORSEMAN_MECHANOS</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_HORSEMAN_MECHANOS</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_HORSEMAN_MECHANOS</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+					
+					<StyleUnit>
+						<UnitType>UNIT_PALADIN</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_PALADIN_MECHANOS</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_PALADIN_MECHANOS</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_PALADIN_MECHANOS</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+					
+					<StyleUnit>
+						<UnitType>UNIT_WARRIOR</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_MECHANOS_3</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_WARRIOR_MECHANOS_3</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_WARRIOR_MECHANOS_3</MiddleArtDefineTag>
+						</UnitMeshGroup>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_MECHANOS_1</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_WARRIOR_MECHANOS_1</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_WARRIOR_MECHANOS_1</MiddleArtDefineTag>
+						</UnitMeshGroup>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_MECHANOS_2</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_WARRIOR_MECHANOS_2</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_WARRIOR_MECHANOS_2</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+				</StyleUnits>
+			</UnitArtStyleTypeInfo>
+		</UnitArtStyleTypeInfos>
+</Civ4UnitArtStyleTypeInfos>

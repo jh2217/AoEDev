@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PEDIA_CATEGORY_AFFINITY</Tag>
+		<English>Affinities</English>
+		<French>Affinités</French>
+		<German>Affinitäten</German>
+		<Italian>Affinità</Italian>
+		<Spanish>Affinities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_TYPES</Tag>
+		<English>Affinity Type</English>
+		<French>Type d'Affinité</French>
+		<German>Affinität Type</German>
+		<Italian>Tipo di Affinità</Italian>
+		<Spanish>Affinity Type</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_PEDIA</Tag>
+		<English>Background</English>
+		<French>Historique</French>
+		<German>Hintergrund</German>
+		<Italian>Storia</Italian>
+		<Spanish>Background</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_DETAILS</Tag>
+		<English>Details</English>
+		<French>Détails</French>
+		<German>Details</German>
+		<Italian>Dettagli</Italian>
+		<Spanish>Details</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STRATEGY</Tag>
+		<English>Strategy</English>
+		<French>Stratégie</French>
+		<German>Strategie</German>
+		<Italian>Strategia</Italian>
+		<Spanish>Strategy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_BONUS_TYPE</Tag>
+		<English>[ICON_BULLET]Affinity for:[SPACE]</English>
+		<French>[ICON_BULLET]Affinité avec:[SPACE]</French>
+		<German>[ICON_BULLET]Affinität zu:[SPACE]</German>
+		<Italian>[ICON_BULLET]Affinità per:[SPACE]</Italian>
+		<Spanish>[ICON_BULLET]Affinity for:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_NUM_CITIES</Tag>
+		<English>[ICON_BULLET]Number of Cities Affinity</English>
+		<French>[ICON_BULLET]Affinité avec le Nombre de Villes</French>
+		<German>[ICON_BULLET]Affinität bezüglich der Städtezahl</German>
+		<Italian>[ICON_BULLET]Affinità per il Numero di Città</Italian>
+		<Spanish>[ICON_BULLET]Number of Cities Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_CAPITAL_POP</Tag>
+		<English>[ICON_BULLET]Capital Population Affinity</English>
+		<French>[ICON_BULLET]Affinité avec la population de la Capitale</French>
+		<German>[ICON_BULLET]Affinität zur Bevölkerungszahl der Hauptstadt</German>
+		<Italian>[ICON_BULLET]Affinità per la Popolazione della Capitale</Italian>
+		<Spanish>[ICON_BULLET]Capital Population Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_POP</Tag>
+		<English>[ICON_BULLET]Total Population Affinity</English>
+		<French>[ICON_BULLET]Affinité avec la Population Totale</French>
+		<German>[ICON_BULLET]Total Affinität zur Gesamtbevölkerung</German>
+		<Italian>[ICON_BULLET]Affinità per la Popolazione Totale</Italian>
+		<Spanish>[ICON_BULLET]Total Population Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_VASSAL</Tag>
+		<English>[ICON_BULLET]Number of Vassals Affinity</English>
+		<French>[ICON_BULLET]Affinité avec le Nombre de Vassaux</French>
+		<German>[ICON_BULLET]Affinität bezüglich Anzahl der Vasallen</German>
+		<Italian>[ICON_BULLET]Affinità per il Numero di Vassalli</Italian>
+		<Spanish>[ICON_BULLET]Number of Vassals Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_STRENGTH</Tag>
+		<English>[ICON_BULLET]%s1 Strength</English>
+		<French>[ICON_BULLET]+%s1 Puissance</French>
+		<German>[ICON_BULLET]%s1 Stärke</German>
+		<Italian>[ICON_BULLET]+%s1 Forza</Italian>
+		<Spanish>[ICON_BULLET]%s1 Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_STRENGTH_MOD</Tag>
+		<English>[ICON_BULLET]%s1% Strength</English>
+		<French>[ICON_BULLET]+%s1% de puissance</French>
+		<German>[ICON_BULLET]%s1% Stärke</German>
+		<Italian>[ICON_BULLET]+%s1% Forza</Italian>
+		<Spanish>[ICON_BULLET]%s1% Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_STRENGTH_ATTACK</Tag>
+		<English>[ICON_BULLET]%s1 Attack</English>
+		<French>[ICON_BULLET]%s1 Puissance Offensive</French>
+		<German>[ICON_BULLET]%s1 Angriff</German>
+		<Italian>[ICON_BULLET]+%s1 Forza d'attacco</Italian>
+		<Spanish>[ICON_BULLET]%s1 Attack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_STRENGTH_MOD_ATTACK</Tag>
+		<English>[ICON_BULLET]%s1% Attack </English>
+		<French>[ICON_BULLET]%s1% Puissance Offensive</French>
+		<German>[ICON_BULLET]%s1% Angriff</German>
+		<Italian>[ICON_BULLET]+%s1% Forza d'attacco</Italian>
+		<Spanish>[ICON_BULLET]%s1% Attack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_STRENGTH_DEFENSE</Tag>
+		<English>[ICON_BULLET]%s1 Defense</English>
+		<French>[ICON_BULLET]+%s1 en puissance défensive</French>
+		<German>[ICON_BULLET]%s1 Verteidigung</German>
+		<Italian>[ICON_BULLET]+%s1 Forza in difesa</Italian>
+		<Spanish>[ICON_BULLET]%s1 Defense</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_STRENGTH_MOD_DEFENSE</Tag>
+		<English>[ICON_BULLET]%s1% Defense</English>
+		<French>[ICON_BULLET]%s1% de puissance défensive</French>
+		<German>[ICON_BULLET]%s1% Verteidigung</German>
+		<Italian>[ICON_BULLET]+%s1% Forza in difesa</Italian>
+		<Spanish>[ICON_BULLET]%s1% Defense</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_MOVEMENT</Tag>
+		<English>[ICON_BULLET]%s1 Movement</English>
+		<French>[ICON_BULLET]%s1 Mouvement</French>
+		<German>[ICON_BULLET]%s1 Bewegung</German>
+		<Italian>[ICON_BULLET]+%s1 Movimento</Italian>
+		<Spanish>[ICON_BULLET]%s1 Movement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_MOVEMENT_DISCOUNT</Tag>
+		<English>[ICON_BULLET]%s1 Movement Cost</English>
+		<French>[ICON_BULLET]Coût de Mouvement de %s1</French>
+		<German>[ICON_BULLET]%s1 Fortbewegungskosten</German>
+		<Italian>[ICON_BULLET]-%s1 Costo di Movimento</Italian>
+		<Spanish>[ICON_BULLET]%s1 Movement Cost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_VISIBILITY</Tag>
+		<English>[ICON_BULLET]%s1 Visibility</English>
+		<French>[ICON_BULLET]Portée de Vision de %s1</French>
+		<German>[ICON_BULLET]%s1 Sichtbarkeit</German>
+		<Italian>[ICON_BULLET]+%s1 Raggio di Visibilità</Italian>
+		<Spanish>[ICON_BULLET]%s1 Visibility</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_PERCEPTION</Tag>
+		<English>[ICON_BULLET]%s1 Perception</English>
+		<French>[ICON_BULLET]%s1 en Perception</French>
+		<German>[ICON_BULLET]%s1 Wahrnehmung</German>
+		<Italian>[ICON_BULLET]+%s1 Percezione</Italian>
+		<Spanish>[ICON_BULLET]%s1 Perception</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_RANGED_STRENGTH</Tag>
+		<English>[ICON_BULLET]%s1 Ranged Strength</English>
+		<French>[ICON_BULLET]+%s1 en attaque à distance</French>
+		<German>[ICON_BULLET]%s1 Fernkampfstärke</German>
+		<Italian>[ICON_BULLET]+%s1 Forza dalla distanza</Italian>
+		<Spanish>[ICON_BULLET]%s1 Ranged Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_RANGED_STRENGTH_MOD</Tag>
+		<English>[ICON_BULLET]%s1% Ranged Strength</English>
+		<French>[ICON_BULLET]%s1% Puissance à distance</French>
+		<German>[ICON_BULLET]%s1% Fernkampfstärke</German>
+		<Italian>[ICON_BULLET]+%s1% Forza dalla distanza</Italian>
+		<Spanish>[ICON_BULLET]%s1% Ranged Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_RANGE</Tag>
+		<English>[ICON_BULLET]%s1 Range</English>
+		<French>[ICON_BULLET]%s1 Portée</French>
+		<German>[ICON_BULLET]%s1 Reichweite</German>
+		<Italian>[ICON_BULLET]+%s1 Gittata</Italian>
+		<Spanish>[ICON_BULLET]%s1 Range</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_RANGED_LIMIT</Tag>
+		<English>[ICON_BULLET]%s1 Ranged Damage Limit</English>
+		<French>[ICON_BULLET]Dégâts maximaux à distance augmentés de %s1</French>
+		<German>[ICON_BULLET]%s1 Maximaler Fernkampfschaden</German>
+		<Italian>[ICON_BULLET]+%s1 Limite danno massimo dalla distanza</Italian>
+		<Spanish>[ICON_BULLET]%s1 Ranged Damage Limit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_FIRST_STRIKES</Tag>
+		<English>[ICON_BULLET]%s1 First Strikes</English>
+		<French>[ICON_BULLET]+%s1 première(s) attaque(s)</French>
+		<German>[ICON_BULLET]%s1 Erstangriffe</German>
+		<Italian>[ICON_BULLET]+%s1 Attacchi Improvvisi</Italian>
+		<Spanish>[ICON_BULLET]%s1 First Strikes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_FIRST_STRIKE_CHANCE</Tag>
+		<English>[ICON_BULLET]%s1 First Strike Chances</English>
+		<French>[ICON_BULLET]+%s1 chance(s) de première(s) attaque(s)</French>
+		<German>[ICON_BULLET]%s1 Erstangriffschance</German>
+		<Italian>[ICON_BULLET]+%s1 Probabilità d'Attacco Improvviso</Italian>
+		<Spanish>[ICON_BULLET]%s1 First Strike Chances</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_ANTI_FIRST_STRIKES</Tag>
+		<English>[ICON_BULLET]%s1 Anti-First Strikes</English>
+		<French>[ICON_BULLET]%s1 contre-attaque(s) pour les premières attaque ennemies</French>
+		<German>[ICON_BULLET]%s1 Erstangriffskonter</German>
+		<Italian>[ICON_BULLET]%s1 Contrasto agli Attacchi Improvvisi nemici</Italian>
+		<Spanish>[ICON_BULLET]%s1 Anti-First Strikes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_DEFENSIVE_STRIKES</Tag>
+		<English>[ICON_BULLET]%s1 Defensive Strikes</English>
+		<French>[ICON_BULLET]%s1 Frappes défensives</French>
+		<German>[ICON_BULLET]%s1 Verteidigungsschlag</German>
+		<Italian>[ICON_BULLET]%s1 Attacchi Difensivi</Italian>
+		<Spanish>[ICON_BULLET]%s1 Defensive Strikes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_ANTI_DEFENSIVE_STRIKES</Tag>
+		<English>[ICON_BULLET]%s1 Anti-Defensive Strikes</English>
+		<French>[ICON_BULLET]%s1 Contre-attaque aux frappes défensives ennemies</French>
+		<German>[ICON_BULLET]%s1 Verteidigunsschlagkonter</German>
+		<Italian>[ICON_BULLET]%s1 Contrasto agli Attacchi difensivi nemici</Italian>
+		<Spanish>[ICON_BULLET]%s1 Anti-Defensive Strikes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_CAPACITY</Tag>
+		<English>[ICON_BULLET]%s1 Capacity</English>
+		<French>[ICON_BULLET]Capacité d'emport augmentée de %s1</French>
+		<German>[ICON_BULLET]%s1 Kapazität</German>
+		<Italian>[ICON_BULLET]+%s1 Capacità di carico</Italian>
+		<Spanish>[ICON_BULLET]%s1 Capacity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_WILLPOWER</Tag>
+		<English>[ICON_BULLET]%s1 Willpower</English>
+		<French>[ICON_BULLET]%s1 Volonté</French>
+		<German>[ICON_BULLET]%s1 Willenskraft</German>
+		<Italian>[ICON_BULLET]%s1 Forza di Volontà</Italian>
+		<Spanish>[ICON_BULLET]%s1 Willpower</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_WITHDRAWAL</Tag>
+		<English>[ICON_BULLET]%s1 Withdrawal</English>
+		<French>[ICON_BULLET]%s1 Retraite</French>
+		<German>[ICON_BULLET]%s1 Rückszug</German>
+		<Italian>[ICON_BULLET]+%s1 di Ritirarsi</Italian>
+		<Spanish>[ICON_BULLET]%s1 Withdrawal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_ANTI_WITHDRAWAL</Tag>
+		<English>[ICON_BULLET]%s1 Anti-Withdrawal</English>
+		<French>[ICON_BULLET]%s1 Anti-Retraite</French>
+		<German>[ICON_BULLET]%s1 Verhinderung des Rückzugs</German>
+		<Italian>[ICON_BULLET]%s1 Contrasto alla Ritirata Nemica</Italian>
+		<Spanish>[ICON_BULLET]%s1 Anti-Withdrawal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_HEAL_RATE</Tag>
+		<English>[ICON_BULLET]%s1% Heal Rate</English>
+		<French>[ICON_BULLET]%s1% Taux de guérison</French>
+		<German>[ICON_BULLET]%s1% Heilungsrate</German>
+		<Italian>[ICON_BULLET]%s1% Velocità di Guarigione</Italian>
+		<Spanish>[ICON_BULLET]%s1% Heal Rate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_XP_FROM_COMBAT</Tag>
+		<English>[ICON_BULLET]%s1 XP from Combat</English>
+		<French>[ICON_BULLET]%s1 XP venant des Combats</French>
+		<German>[ICON_BULLET]%s1 XP durch ein Gefecht</German>
+		<Italian>[ICON_BULLET]%s1 XP dal Combattimento</Italian>
+		<Spanish>[ICON_BULLET]%s1 XP from Combat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_XP_RATE</Tag>
+		<English>[ICON_BULLET]%s1 XP Rate</English>
+		<French>[ICON_BULLET]Gain d'EXP augmenté de %s1</French>
+		<German>[ICON_BULLET]%s1 XP Rate</German>
+		<Italian>[ICON_BULLET]%s1 Velocità di guadagno XP(PE)</Italian>
+		<Spanish>[ICON_BULLET]%s1 XP Rate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_COMMAND_RANGE</Tag>
+		<English>[ICON_BULLET]%s1 Command Range</English>
+		<French>[ICON_BULLET]%s1 Portée de Commandement</French>
+		<German>[ICON_BULLET]%s1 Befehlsreichweite</German>
+		<Italian>[ICON_BULLET]%s1 Raggio di Comando</Italian>
+		<Spanish>[ICON_BULLET]%s1 Command Range</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_COMMAND_LIMIT</Tag>
+		<English>[ICON_BULLET]%s1 Command Limit</English>
+		<French>[ICON_BULLET]%s1 Unités pouvant être commandées : %s1</French>
+		<German>[ICON_BULLET]%s1 Kommandolimit</German>
+		<Italian>[ICON_BULLET]%s1 Numero massimo unità comandate</Italian>
+		<Spanish>[ICON_BULLET]%s1 Command Limit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_WORK_RATE</Tag>
+		<English>[ICON_BULLET]%s1% Workrate</English>
+		<French>[ICON_BULLET]Vitesse d'aménagement : %s1%</French>
+		<German>[ICON_BULLET]%s1% Arbeitsrate</German>
+		<Italian>[ICON_BULLET]%s1% Velocità di Lavoro</Italian>
+		<Spanish>[ICON_BULLET]%s1% Workrate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_COLLATERAL</Tag>
+		<English>[ICON_BULLET]%s1% Collateral Damage</English>
+		<French>[ICON_BULLET]Dégâts collatéraux : +%s1%</French>
+		<German>[ICON_BULLET]%s1% Kollateralschaden</German>
+		<Italian>[ICON_BULLET]%s1% Danno Collaterale</Italian>
+		<Spanish>[ICON_BULLET]%s1% Collateral Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_COLLATERAL_LIMIT</Tag>
+		<English>[ICON_BULLET]%s1% Collateral Limit</English>
+		<French>[ICON_BULLET]Limite de dégâts pour les dégâts collatéraux : +%s1%</French>
+		<German>[ICON_BULLET]%s1% Kollateralschadenslimite</German>
+		<Italian>[ICON_BULLET]%s1% Danno Collatterale massimo</Italian>
+		<Spanish>[ICON_BULLET]%s1% Collateral Limit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_COLLATERAL_TARGETS</Tag>
+		<English>[ICON_BULLET]%s1 Collateral Targets</English>
+		<French>[ICON_BULLET]Nombre de cibles Collatérales : %s1</French>
+		<German>[ICON_BULLET]%s1 kollaterale Ziele</German>
+		<Italian>[ICON_BULLET]%s1 Numero bersagli Collatterali</Italian>
+		<Spanish>[ICON_BULLET]%s1 Collateral Targets</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_VICTORY_INFLUENCE_MODIFIER</Tag>
+		<English>[ICON_BULLET]Modifies culture change after a victory by %s1%</English>
+		<French>[ICON_BULLET]Influence la culture après une victoire de %s1%</French>
+		<German>[ICON_BULLET]Verändert den Kulturwechsel nach einem Sieg um %s1%</German>
+		<Italian>[ICON_BULLET]Influenza il cambio di cultura dopo una vittoria del %s1%</Italian>
+		<Spanish>[ICON_BULLET]Modifies culture change after a victory by %s1%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_DEFEAT_INFLUENCE_MODIFIER</Tag>
+		<English>[ICON_BULLET]Modifies culture change after a defeat by %s1%</English>
+		<French>[ICON_BULLET]Influence la culture après une défaite de %s1%</French>
+		<German>[ICON_BULLET]Verändert den Kulturwechsel nach einer Niederlage um %s1%</German>
+		<Italian>[ICON_BULLET]Influenza il cambio di cultura dopo una sconfitta del %s1%</Italian>
+		<Spanish>[ICON_BULLET]Modifies culture change after a defeat by %s1%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_PILLAGE_INFLUENCE_MODIFIER</Tag>
+		<English>[ICON_BULLET]Modifies culture change after pillaging by %s1%</English>
+		<French>[ICON_BULLET]Influence la culture après un pillage de %s1%</French>
+		<German>[ICON_BULLET]Verändert den Kulturwechsel nach Plünderung um %s1%</German>
+		<Italian>[ICON_BULLET]Influenza il cambio di cultura dopo il saccheggio del %s1%</Italian>
+		<Spanish>[ICON_BULLET]Modifies culture change after pillaging by %s1%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_SLAVE_CHANCE</Tag>
+		<English>[ICON_BULLET]%s1% Capture Chance</English>
+		<French>[ICON_BULLET]+%s1% de chance de capturer l'adversaire</French>
+		<German>[ICON_BULLET]%s1% Capture Chance</German>
+		<Italian>[ICON_BULLET]+%s1% Probabilità di catturare l'avversario</Italian>
+		<Spanish>[ICON_BULLET]%s1% Capture Chance</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_CAPTURE_CHANCE</Tag>
+		<English>[ICON_BULLET]%s1% Capture Chance</English>
+		<French>[ICON_BULLET]+%s1% Capture Chance</French>
+		<German>[ICON_BULLET]%s1% Einnahmewahrscheinlichkeit</German>
+		<Italian>[ICON_BULLET]+%s1% Probabilità di Cattura</Italian>
+		<Spanish>[ICON_BULLET]%s1% Capture Chance</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_COMBAT_HEAL_PERCENT</Tag>
+		<English>[ICON_BULLET]Heals %s1% after Combat</English>
+		<French>[ICON_BULLET]Soigne %s1% de dégâts après un Combat</French>
+		<German>[ICON_BULLET]Heilt %s1% nach einem Gefecht</German>
+		<Italian>[ICON_BULLET]Cura il %s1% dopo il combattimento</Italian>
+		<Spanish>[ICON_BULLET]Heals %s1% after Combat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_ENEMY_HEAL_CHANGE</Tag>
+		<English>[ICON_BULLET]Heals Extra %s1% Damage/Turn in Enemy Lands</English>
+		<French>[ICON_BULLET]Augmente les soins de %s1% Dégâts/Tour en territoire ennemi</French>
+		<German>[ICON_BULLET]Heilt zusätzlich %s1% Schaden/Runde in gegnerischen Landen</German>
+		<Italian>[ICON_BULLET]Aumenta la cura del %s1% Danno/Turno in terreno nemico</Italian>
+		<Spanish>[ICON_BULLET]Heals Extra %s1% Damage/Turn in Enemy Lands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_NEUTRAL_HEAL_CHANGE</Tag>
+		<English>[ICON_BULLET]Heals Extra %s1% Damage/Turn in Neutral Lands</English>
+		<French>[ICON_BULLET]Augmente les soins de %s1% Dégâts/Tour en territoire neutre</French>
+		<German>[ICON_BULLET]Heilt zusätzlich %s1% Schaden/Runde in neutralen Landen</German>
+		<Italian>[ICON_BULLET]Aumenta la cura del %s1% Danno/Turno in terreno neutrale</Italian>
+		<Spanish>[ICON_BULLET]Heals Extra %s1% Damage/Turn in Neutral Lands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_FRIENDLY_HEAL_CHANGE</Tag>
+		<English>[ICON_BULLET]Heals Extra %s1% Damage/Turn in Friendly Lands</English>
+		<French>[ICON_BULLET]Augmente les soins de %s1% Dégâts/Tour en territoire allié</French>
+		<German>[ICON_BULLET]Heilt zusätzlich %s1% Schaden/Runde in verbündeten Landen</German>
+		<Italian>[ICON_BULLET]Aumenta la cura del %s1% Danno/Turno in terreno amico</Italian>
+		<Spanish>[ICON_BULLET]Heals Extra %s1% Damage/Turn in Friendly Lands</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_DAMAGE_TYPE</Tag>
+		<English>[ICON_BULLET]%s1 %s2 Damage</English>
+		<French>[ICON_BULLET]%s1 %s2 Dégâts</French>
+		<German>[ICON_BULLET]%s1 %s2 Schaden</German>
+		<Italian>[ICON_BULLET]%s1 %s2 Danno</Italian>
+		<Spanish>[ICON_BULLET]%s1 %s2 Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_DAMAGE_TYPE_IMMUNE</Tag>
+		<English>[ICON_BULLET]Immune to %s1 damage</English>
+		<French>[ICON_BULLET]Immunisé aux dégâts de %s1</French>
+		<German>[ICON_BULLET]Immun gegenüber %s1 Schaden</German>
+		<Italian>[ICON_BULLET]Immunità ai danni del %s1</Italian>
+		<Spanish>[ICON_BULLET]Immune to %s1 damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_DAMAGE_TYPE_RESIST</Tag>
+		<English>[ICON_BULLET]%s1 Resistance to %s2 Damage</English>
+		<French>[ICON_BULLET]Résistance aux dégâts de %s2 : %s1</French>
+		<German>[ICON_BULLET]%s1 Ressistent gegenüber %s2 Schaden</German>
+		<Italian>[ICON_BULLET]%s1 Resistenza ai danni da %s2 </Italian>
+		<Spanish>[ICON_BULLET]%s1 Resistance to %s2 Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_PROMOTIONS</Tag>
+		<English>[ICON_BULLET]Grants:[SPACE]</English>
+		<French>[ICON_BULLET]Fournit:[SPACE]</French>
+		<German>[ICON_BULLET]Gewährt:[SPACE]</German>
+		<Italian>[ICON_BULLET]Fornisce:[SPACE]</Italian>
+		<Spanish>[ICON_BULLET]Grants:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_ASH</Tag>
+		<English>D'teshi Ash Affinity</English>
+		<French>Affinité de D'tesh pour la Cendre</French>
+		<German>D'teshi Affinität zur Asche</German>
+		<Italian>Affinità dei D'tesh alla Cenere infusa</Italian>
+		<Spanish>D'teshi Ash Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_DEATH</Tag>
+		<English>D'teshi Death Affinity</English>
+		<French>Affinité de D'tesh pour la Mort</French>
+		<German>D'teshi Affinität zum Tode</German>
+		<Italian>Affinità dei D'tesh al Mana della Morte</Italian>
+		<Spanish>D'teshi Death Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_SHADOW</Tag>
+		<English>D'teshi Shadow Affinity</English>
+		<French>Affinité de D'tesh pour l'Ombre</French>
+		<German>D'teshi Affinität zu den Schatten</German>
+		<Italian>Affinità dei D'tesh al Mana dell'Ombra</Italian>
+		<Spanish>D'teshi Shadow Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_MANA_REFINED</Tag>
+		<English>Refined Mana Affinity</English>
+		<French>Affinité pour le Mana raffiné</French>
+		<German>Affinität zur wiedergefundenen Mana </German>
+		<Italian>Affinità al Mana Raffinato</Italian>
+		<Spanish>Refined Mana Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_MITHRIL</Tag>
+		<English>Mithril Affinity</English>
+		<French>Affinité pour le Mithril</French>
+		<German>Mithrilaffinität</German>
+		<Italian>Affinità al Mithril</Italian>
+		<Spanish>Mithril Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_GUNPOWDER</Tag>
+		<English>Gunpowder Affinity</English>
+		<French>Affinité pour la poudre à canon</French>
+		<German>Schiesspulveraffinität</German>
+		<Italian>Affinità alla Polvere da Sparo</Italian>
+		<Spanish>Gunpowder Affinity</Spanish>
+	</TEXT>
+</Civ4GameText>

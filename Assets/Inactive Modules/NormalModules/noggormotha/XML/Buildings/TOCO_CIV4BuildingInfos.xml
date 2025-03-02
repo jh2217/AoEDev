@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Building Infos -->
+<Civ4BuildingInfos xmlns="x-schema:TOCO_CIV4BuildingsSchema.xml">
+	<BuildingInfos>
+		<BuildingInfo>		<!-- Keeper's shrine for Assured-->
+			<BuildingClass>BUILDINGCLASS_SHRINE_KEEPERS1</BuildingClass>
+			<Type>BUILDING_SHRINE_KEEPERS1</Type>
+			<Description>TXT_KEY_BUILDING_SHRINE_KEEPERS1</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SHRINE_KEEPERS_PEDIA</Civilopedia>
+			<Advisor>ADVISOR_CULTURE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_KEEPERS_SHRINE1</ArtDefineTag>
+			<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
+			<bNeverCapture>1</bNeverCapture>
+			<iCost>150</iCost>
+			<iHurryCostModifier>50</iHurryCostModifier>
+			<iConquestProb>0</iConquestProb>
+			<iAsset>8</iAsset>
+			<fVisibilityPriority>20</fVisibilityPriority>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>30</iCommerce>
+			</CommerceModifiers>
+			<SpecialistCounts>
+				<SpecialistCount>
+					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
+					<iSpecialistCount>1</iSpecialistCount>
+				</SpecialistCount>
+			</SpecialistCounts>
+			<iCrime>-5</iCrime>
+			<ConstructSound>AS2D_BUILD_OBELISK</ConstructSound>
+			<iAlignmentModifier>+2</iAlignmentModifier>
+		</BuildingInfo>
+		<BuildingInfo>		<!-- Keeper's shrine for Wish-->
+			<BuildingClass>BUILDINGCLASS_SHRINE_KEEPERS2</BuildingClass>
+			<Type>BUILDING_SHRINE_KEEPERS2</Type>
+			<Description>TXT_KEY_BUILDING_SHRINE_KEEPERS2</Description>
+			<Civilopedia>TXT_KEY_BUILDING_SHRINE_KEEPERS_PEDIA</Civilopedia>
+			<Advisor>ADVISOR_CULTURE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_KEEPERS_SHRINE2</ArtDefineTag>
+			<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
+			<bNeverCapture>1</bNeverCapture>
+			<iCost>150</iCost>
+			<iHurryCostModifier>50</iHurryCostModifier>
+			<iConquestProb>0</iConquestProb>
+			<iAsset>8</iAsset>
+			<fVisibilityPriority>20</fVisibilityPriority>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>30</iCommerce>
+			</CommerceModifiers>
+			<SpecialistCounts>
+				<SpecialistCount>
+					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
+					<iSpecialistCount>1</iSpecialistCount>
+				</SpecialistCount>
+			</SpecialistCounts>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_RELIGION</FlavorType>
+					<iFlavor>5</iFlavor>
+				</Flavor>
+			</Flavors>
+			<iCrime>+5</iCrime>
+			<ConstructSound>AS2D_BUILD_OBELISK</ConstructSound>
+			<iAlignmentModifier>-2</iAlignmentModifier>
+		</BuildingInfo>
+	</BuildingInfos>
+</Civ4BuildingInfos>

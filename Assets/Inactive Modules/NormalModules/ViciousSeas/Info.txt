@@ -1,0 +1,106 @@
+;Name - no need to explain
+;note: one line
+[name]
+ViciousSeas
+;
+;
+;Version - version of module
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[version]
+1.2
+;
+;
+;RifE version - version of RifE for which is this module tested, checked, developed, etc
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[rifeversion]
+375
+;
+;
+;Author - you
+;note: one line
+[author]
+Tikumara
+;
+;
+;Short description - text showed in contect menu
+;note: one line
+[shortdesc]
+Added the Bezeri Civ and attempting to make the ocean more worthwhile with resources and sea fortresses as well as less random spawns.
+;
+;
+;Description - text showed in message box
+;note: can be multiline
+[desc]
+
+Added the Bezeri, an Aquatic Lizardman civ who tame sea monsters and settle the sea. check the strategy section of their Civilopedia page for further info.
+
+Ocean and deep ocean trade moved from Astronomy to Optics.
+
+Turned off random barbarian ship spawns; random animals still permitted(barbarian cities can still build them though!).
+
+Added pirate strongholds and drown lairs that pump out hostile ships and demons.
+
+Added deep-sea fortresses to conquer for powerful empire-wide resource bonuses to be claimed and defended from other civilizations.
+
+Added special unit promotions available to those who have claimed these sea forts.
+
+Added Coral Reef resource (more to come).
+
+Allowed Jeteye, Whale,Bleeding God Wine and Fish resources in Deep Sea.
+
+Also lowered some special sea resources spawn rates to compinsate for how big the sea is now.
+=============================================
+Intended Balance - If you feel that any changes do no fit the intended balance, or feel that the intended balance is wrong and the dev should feel bad, feel free to yell at me on the Ashes of Erebus Discord:
+
+Pirates come from fixed coastal lairs, applying pressure that fades as civs colonize available coastlines and islands, pushing them to the edges of the world. Lair can be walked onto by land units.
+
+Drowns apply soft pressure to coastlines and workers by the shorelines. become Stygian Guards at Malevolent Designs.
+
+Ocean Forts give regional and trade route control; on top of that, they provide powerful late-game boosts to a nation's research/production/commerce as well as promotions to give their owners a further edge. As forts, they can be taken away by other civs during war.
+
+The intended number of forts is about 3-4 for each kind (currently 3 types), if you or loved ones have been a victim of way too many sea forts, please call the emergency helpline 1.800.OhShitAKraken.
+
+Ocean Forts are intended to be medium-medium hard difficulty; they do not respawn, and only the guardian is leashed. By the endgame, the only danger on the seas should be other Civs and hero units (Leviathan).
+
+Trade routes become available at optics, the final tier of research (astronomy), is reserved for seeking greater naval strength.
+
+Bezeri are not supposed to be overpowered, if they are pulling an "illians" and stomping every game, let me know what you think is imbalanced about them so I can tackle it!
+
+V1.4
+Skaa'Raj taken out back and beaten to within an inch of his life:
+-Rech req hunting > Tracking
+-Removed Subdue Beast and Animal promotions
+Skaa'Raj's Coral Curio Beast and animal capture chance 25% > 33%
+"This is a Buff"
+Kraken > Kraken Spawn - 12 > 8 Power, Tsunami>TsunamiWeak(half unit dmg,no improvement damage).
+Shark Hunters: Power 4 > 3/1+1, Ranged power 3 - 25% cap > 2 - 35% cap, gained Poisoned Weapon promotion, gained 15% withdrawl, +1 movement.
+Serpent Hunters: Power 5+1 > 5/3+1, Ranged Power 4 - 40% > 4 - 60%, +1 movement.
+Bezeri improvement yeild -1 hammer: mine, lumbermill, windmill, workshop, quarry, pasture. -1 food: farm, camp, windmill.
+Bezeri adept line defence reduced 0/5 0/7 0/10 > 0/3 1/4 2/5
+added context civpedia links
+
+V1.3
+Blocked Catapults for Bezeri AI.
+Skaa'raj hammercost 60>160, he is also taken out back and beaten to within an inch of his life.
+Added a backup kraken_spawn
+Drowned now cross ocean, Deep ocean still blocked.
+Tidecallers no longer have to know math to use Erosion.
+Misspelled Galapagos regions. 
+Changed bezeri weakness from -25 cold to -25 lightning to avoid the Lanun worldspell removing them from the game.
+Fixed dependency with DynRel module.
+
+V1.2 
+Got carried away, added a civilization
+Nerfed abandoned lighthouse guardian kraken summons by adding a leash of 3.
+Divers realize that the shiny balls in the clams are valuable, Pearl revealed to everyone.
+
+V1.1
+Fixed T2 pirate lair having Stigmata
+Adjusted Spawns: Pirate and Drown Lairs up from (15 world gen spawn/45 turn chance spawn) to (60(pirates)/50(drowned) world gen/80 turn chance spawn) to account for lower number of valid spawn locations.
+Adjusted Forts: down from (25 world gen spawn) to (20 world gen spawn) to account for mapscript values not being made equal.
+Adjusted Coral Reefs base hammers to 1.
+SET THE BEASTS FREE HAHAHAHAH (blame powercrazy), no leash to spawned fortress creatures.
+Changed Abandoned Tower guardian from a kraken to a Speaker, changed spawned creatures from Water Elementals to Krakens.
+V1.0

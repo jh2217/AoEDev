@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Soren Johnson (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Project -->
+<Civ4ProjectInfo xmlns="x-schema:Frozen_CIV4GameInfoSchema.xml">
+	<ProjectInfos>
+<!--Added in Frozen: TC01-->
+		<ProjectInfo>
+			<Type>PROJECT_LIBERATION</Type>
+			<Description>TXT_KEY_PROJECT_LIBERATION</Description>
+			<Civilopedia>TXT_KEY_PROJECT_LIBERATION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_LIBERATION_STRATEGY</Strategy>
+			<TechPrereq>TECH_ELEMENTALISM</TechPrereq>
+			<AnyonePrereqProject>NONE</AnyonePrereqProject>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>600</iCost>
+			<Button>Art/Civs/Frozen/Winter Tech 1.dds</Button>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_ICE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
+			<iAIWeight>100</iAIWeight>
+		</ProjectInfo>
+<!--End of Frozen-->
+<!--Edited normally Illian Only rituals -->
+		<ProjectInfo> <!-- Samhain -->
+			<Type>PROJECT_SAMHAIN</Type>
+			<Description>TXT_KEY_PROJECT_SAMHAIN</Description>
+			<Civilopedia>TXT_KEY_PROJECT_SAMHAIN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_SAMHAIN_STRATEGY</Strategy>
+			<AnyonePrereqProject>NONE</AnyonePrereqProject>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>200</iCost>
+			<Button>Art/Interface/Buttons/Units/Mokka.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+				<PrereqCivilization>CIVILIZATION_FROZEN</PrereqCivilization>
+			</PrereqCivilizations>
+			<iAIWeight>300</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>	<!-- The White Hand -->
+			<Type>PROJECT_THE_WHITE_HAND</Type>
+			<Description>TXT_KEY_PROJECT_THE_WHITE_HAND</Description>
+			<Civilopedia>TXT_KEY_PROJECT_THE_WHITE_HAND_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_THE_WHITE_HAND_STRATEGY</Strategy>
+			<TechPrereq>TECH_PHILOSOPHY</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>400</iCost>
+			<Button>Art/Interface/Buttons/Units/Priest of Winter.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+				<PrereqCivilization>CIVILIZATION_FROZEN</PrereqCivilization>
+			</PrereqCivilizations>
+			<iAIWeight>300</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>	<!-- The Draw -->
+			<Type>PROJECT_THE_DRAW</Type>
+			<Description>TXT_KEY_PROJECT_THE_DRAW</Description>
+			<Civilopedia>TXT_KEY_PROJECT_THE_DRAW_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_THE_DRAW_STRATEGY</Strategy>
+			<TechPrereq>TECH_STRENGTH_OF_WILL</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>900</iCost>
+			<Button>Art/Interface/Buttons/Projects/The Draw.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+				<PrereqCivilization>CIVILIZATION_FROZEN</PrereqCivilization>
+			</PrereqCivilizations>
+			<iAIWeight>300</iAIWeight>
+			<iModifyGlobalCounter>10</iModifyGlobalCounter>
+		</ProjectInfo>
+		<ProjectInfo>	<!-- Ascension -->
+			<Type>PROJECT_ASCENSION</Type>
+			<Description>TXT_KEY_PROJECT_ASCENSION</Description>
+			<Civilopedia>TXT_KEY_PROJECT_ASCENSION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_ASCENSION_STRATEGY</Strategy>
+			<TechPrereq>TECH_OMNISCIENCE</TechPrereq>
+			<AnyonePrereqProject>PROJECT_THE_DRAW</AnyonePrereqProject>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>1200</iCost>
+			<Button>Art/Interface/Buttons/Units/Auric Ascended.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+				<PrereqCivilization>CIVILIZATION_FROZEN</PrereqCivilization>
+			</PrereqCivilizations>
+			<iAIWeight>1000</iAIWeight>
+		</ProjectInfo>
+	</ProjectInfos>
+</Civ4ProjectInfo>

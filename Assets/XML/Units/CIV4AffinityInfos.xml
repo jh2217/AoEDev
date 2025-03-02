@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<Civ4AffinityInfos xmlns="x-schema:CIV4UnitSchema.xml">
+	<AffinityInfos>
+		<AffinityInfo><!-- Ash Affinity --> <!-- D'teshi Affinities Start-->
+			<Type>AFFINITY_ASH</Type>
+			<Description>TXT_KEY_AFFINITY_ASH</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_ASH_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_ASH_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_ASH</BonusType>
+			</BonusTypes>
+			<fSlaveChance>1</fSlaveChance>
+		</AffinityInfo>
+		<AffinityInfo><!-- Death Affinity -->
+			<Type>AFFINITY_DEATH</Type>
+			<Description>TXT_KEY_AFFINITY_DEATH</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_DEATH_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_DEATH_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_DEATH</BonusType>
+			</BonusTypes>
+			<fStrengthMod>10</fStrengthMod>
+		</AffinityInfo>
+		<AffinityInfo><!-- Shadow Affinity --> <!-- D'teshi Affinities End-->
+			<Type>AFFINITY_SHADOW</Type>
+			<Description>TXT_KEY_AFFINITY_SHADOW</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_SHADOW_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_SHADOW_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_SHADOW</BonusType>
+			</BonusTypes>
+			<fFirstStrikes>0.2</fFirstStrikes>
+			<fFirstStrikeChance>1</fFirstStrikeChance>
+		</AffinityInfo>
+		<AffinityInfo><!-- Refined Mana Affinity --> <!-- Mechanos Affinity-->
+			<Type>AFFINITY_MANA_REFINED</Type>
+			<Description>TXT_KEY_AFFINITY_MANA_REFINED</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_MANA_REFINED_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_MANA_REFINED_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_REFINED_MANA</BonusType>
+			</BonusTypes>
+			<fRangedStrength>0.5</fRangedStrength>
+			<fRangedLimit>2.5</fRangedLimit>
+		</AffinityInfo>
+		<AffinityInfo><!-- Mithril Affinity --> <!-- Reorx Veinhunter Affinity-->
+			<Type>AFFINITY_MITHRIL</Type>
+			<Description>TXT_KEY_AFFINITY_MITHRIL</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_MITHRIL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_MITHRIL_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MITHRIL</BonusType>
+			</BonusTypes>
+			<fDefenseStrength>0.25</fDefenseStrength>
+		</AffinityInfo>
+		<AffinityInfo><!-- Gunpowder Affinity --> <!-- Reorx Veinhunter Affinity-->
+			<Type>AFFINITY_GUNPOWDER</Type>
+			<Description>TXT_KEY_AFFINITY_GUNPOWDER</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_GUNPOWDER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_GUNPOWDER_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_GUNPOWDER</BonusType>
+			</BonusTypes>
+			<fCollateral>5</fCollateral>
+			<fCollateralLimit>5</fCollateralLimit>
+		</AffinityInfo>
+		<AffinityInfo><!-- Keepers of Mercy's Light Affinity -->
+			<Type>AFFINITY_KEEPERS_SIRONA</Type>
+			<Description>TXT_KEY_AFFINITY_KEEPERS_SIRONA</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_KEEPERS_SIRONA_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_KEEPERS_SIRONA_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_SPIRIT</BonusType>
+			</BonusTypes>
+			<AffinityDamageTypes>
+			<AffinityDamageType>
+			<DamageType>DAMAGE_HOLY</DamageType>
+			<fCombat>0.5</fCombat>
+			</AffinityDamageType>
+			</AffinityDamageTypes>
+			<fXPRate>0.5</fXPRate>
+			<fHealRate>5</fHealRate>
+			<AffinityDamageResists>
+			<AffinityDamageResist>
+			<DamageType>DAMAGE_UNHOLY</DamageType>
+			<fResist>10</fResist>
+			</AffinityDamageResist>
+			</AffinityDamageResists>
+		</AffinityInfo>
+				<AffinityInfo><!-- Keepers of the Frozen Passion Affinity -->
+			<Type>AFFINITY_KEEPERS_CARCER</Type>
+			<Description>TXT_KEY_AFFINITY_KEEPERS_CARCER</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_KEEPERS_CARCER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_KEEPERS_CARCER_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_FIRE</BonusType>
+			</BonusTypes>
+			<AffinityDamageTypes>
+			<AffinityDamageType>
+			<DamageType>DAMAGE_HOLY</DamageType>
+			<fCombat>0.5</fCombat>
+			</AffinityDamageType>
+			<AffinityDamageType>
+			<DamageType>DAMAGE_FIRE</DamageType>
+			<fCombat>0.5</fCombat>
+			</AffinityDamageType>
+			</AffinityDamageTypes>
+			<fMovement>0.5</fMovement>
+			<fFirstStrikes>0.5</fFirstStrikes>
+		</AffinityInfo>
+		<AffinityInfo><!-- Dominant Affinity --> <!-- Elijah Dominant Affinity-->
+			<Type>AFFINITY_DOMINANT</Type>
+			<Description>TXT_KEY_AFFINITY_DOMINANT</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_DOMINANT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_DOMINANT_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_MIND</BonusType>
+			</BonusTypes>
+			<fSlaveChance>5</fSlaveChance>
+		</AffinityInfo>
+		<AffinityInfo><!-- Death Affinity -->
+			<Type>AFFINITY_NECROMANCER</Type>
+			<Description>TXT_KEY_AFFINITY_NECROMANCER</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_DEATH_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_DEATH_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_DEATH</BonusType>
+			</BonusTypes>
+			<AffinityDamageTypes>
+			<AffinityDamageType>
+			<DamageType>DAMAGE_DEATH</DamageType>
+			<fCombat>0.5</fCombat>
+			</AffinityDamageType>
+			</AffinityDamageTypes>
+		</AffinityInfo>
+		<AffinityInfo><!-- Shadow Affinity Rivanna--> 
+			<Type>AFFINITY_SHADOW_RIVANNA</Type>
+			<Description>TXT_KEY_AFFINITY_SHADOW_RIVANNA</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_SHADOW_RIVANNA_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_SHADOW_RIVANNA_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_SHADOW</BonusType>
+			</BonusTypes>
+			<fFirstStrikes>0.2</fFirstStrikes>
+			<AffinityDamageTypes>
+			<AffinityDamageType>
+			<DamageType>DAMAGE_UNHOLY</DamageType>
+			<fCombat>0.4</fCombat>
+			</AffinityDamageType>
+			</AffinityDamageTypes>
+			<fFirstStrikeChance>1</fFirstStrikeChance>
+		</AffinityInfo>
+		<AffinityInfo><!-- Enchantment Affinity Gimil--> 
+			<Type>AFFINITY_ENCHANTMENT_GIMIL</Type>
+			<Description>TXT_KEY_AFFINITY_ENCHANTMENT_GIMIL</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_ENCHANTMENT_GIMIL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_ENCHANTMENT_GIMIL_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_ENCHANTMENT</BonusType>
+			</BonusTypes>
+			<fHealRate>10</fHealRate>
+			<fDefenseStrength>0.1</fDefenseStrength>
+			<fPerception>0.5</fPerception>
+			<fMovement>0.2</fMovement>
+		</AffinityInfo>
+		<AffinityInfo><!-- Fire Body Affinity Sauros--> 
+			<Type>AFFINITY_FIRE_BODY_SAUROS</Type>
+			<Description>TXT_KEY_AFFINITY_FIRE_BODY_SAUROS</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_FIRE_BODY_SAUROS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_FIRE_BODY_SAUROS_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_BODY</BonusType>
+				<BonusType>BONUS_MANA_FIRE</BonusType>
+			</BonusTypes>
+			<fSlaveChance>5</fSlaveChance>
+		</AffinityInfo>
+	</AffinityInfos>
+</Civ4AffinityInfos>

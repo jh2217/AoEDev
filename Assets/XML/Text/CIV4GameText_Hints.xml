@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_HINT_1</Tag>
+		<English>Exploring native villages with scouts or other recon type units will produce better results.</English>
+		<French>Explorer les villages tribaux avec des unités de reconnaissances produira de meilleurs résultats.</French>
+		<German>Tipp... Eingeborenendörfer zeigen sich spendabler, wenn ein Späher als unbewaffnete Einheit zu ihnen geschickt wird.</German>
+		<Italian>Exploring native villages with scouts or other recon type units will produce better results.</Italian>
+		<Spanish>Explorar aldeas nativas con batidores u otras unidades de reconocimiento producirá mejores resultados</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_10</Tag>
+		<English>Don't always promote a unit as soon as it is possible. It may be wise to wait and see what kinds of units your opponent has before using up a promotion. Also, wounded units heal some damage when a promotion is used.</English>
+		<French>Ne choisissez pas une promotion pour vos unités dès que possible. Il peut être plus sage d'attendre et de voir quelle sorte d'unités votre adversaire possède avant d'assigner une promotion. De plus, les unités blessées sont légèrement soignées lorsque la promotion est affectée.</French>
+		<German>Tipp... Eine verfügbare Beförderung braucht nicht sofort auf eine Einheit angewendet zu werden. Manchmal lohnt es sich zu warten, um im passenden Moment die bestgeeignete Beförderung und Bonusfähigkeit zu wählen. Eine Beförderung wirkt auf verletzte Einheiten übrigens heilsam.</German>
+		<Italian>Don't always promote a unit as soon as it is possible. It may be wise to wait and see what kinds of units your opponent has before using up a promotion. Also, wounded units heal some damage when a promotion is used.</Italian>
+		<Spanish>No asciendas una unidad tan pronto como sea posible. Puede ser sabio esperar y ver que tipo de unidades tiene tu oponente antes de utilizar un ascenso. Además, las unidades heridas se curan algo de daño cuando ascienden.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_11</Tag>
+		<English>Unescorted settlers or galleons--or especially highly promoted mages--are all huge risks. Make sure you are willing to take them!</English>
+		<French>Un colon ou un galion sans escorte sont un risque énorme - soyez sûr de vouloir le prendre.</French>
+		<German>Tipp... Wertvolle Einheiten ohne nennenswerte Verteidigungsfähigkeiten, wie Siedler und Galeonen, können leicht Opfer von Angriffen werden und verdienen deshalb auf fremdem Terrain einen Begleitschutz.</German>
+		<Italian>Unescorted settlers or galleons--or especially highly promoted mages--are all huge risks. Make sure you are willing to take them!</Italian>
+		<Spanish>Colonos o galeones sin escolta--o especialmente magos altamente ascendidos--es demasiado riesgo. ¡Asegúrate de llevarte escolta!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_12</Tag>
+		<English>Barbarians can appear anywhere a tile is obscured by fog of war, or on unexplored lairs, so never assume a tile you can't see is safe, even if you checked it the turn before.</English>
+		<French>Barbarians can appear anywhere a tile is obscured by fog of war, or on unexplored lairs, so never assume a tile you can't see is safe, even if you checked it the turn before.</French>
+		<German>Tipp... Gebiete, in welche keine direkte Sicht besteht, können jederzeit Barbaren hervorbringen. Diese Bereiche der Karte sind also immer mit Vorsicht zu genießen, selbst wenn sie zuvor bereits einmal erkundet wurden.</German>
+		<Italian>Barbarians can appear anywhere a tile is obscured by fog of war, or on unexplored lairs, so never assume a tile you can't see is safe, even if you checked it the turn before.</Italian>
+		<Spanish>Barbarians can appear anywhere a tile is obscured by fog of war, or on unexplored lairs, so never assume a tile you can't see is safe, even if you checked it the turn before.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_13</Tag>
+		<English>Check the foreign advisor often--knowing what your friends (and foes) can offer in trade is valuable information.</English>
+		<French>Consultez régulièrement votre conseiller des affaires étrangères - savoir ce que vos amis (et ennemis) peuvent offrir pour commercer est une information précieuse.</French>
+		<German>Tipp... Es lohnt sich, häufiger einen Blick in die Auslands-übersicht (Taste F4) zu werfen. Hier ist zu erfahren, über welche besonderen Technologien und Ressourcen die anderen Zivilisationen verfügen und welche sie zu handeln bereit sind.</German>
+		<Italian>Check the foreign advisor often--knowing what your friends (and foes) can offer in trade is valuable information.</Italian>
+		<Spanish>Consulta al consejero/ministro de exteriores con frecuencia--saber quienes son tus amigos (y enemigos) puede ofrecer información significante para comerciar.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_14</Tag>
+		<English>Be careful in signing Open Border agreements--make sure your "friend" isn't mapping out your land for sale to the highest bidder! Also be aware that civilizations under the council of Esus religion will be able to declare war without having their units removed from their rivals lands.</English>
+		<French>Be careful in signing Open Border agreements--make sure your "friend" isn't mapping out your land for sale to the highest bidder! Also be aware that civilizations under the council of Esus religion will be able to declare war without having their units removed from their rivals lands.</French>
+		<German>Tipp... Beim Abschluss von Verträgen über Offene Grenzen ist Vorsicht geboten, um eigene Interessensphären nicht ungewollt auszuliefern.</German>
+		<Italian>Be careful in signing Open Border agreements--make sure your "friend" isn't mapping out your land for sale to the highest bidder! Also be aware that civilizations under the council of Esus religion will be able to declare war without having their units removed from their rivals lands.</Italian>
+		<Spanish>Be careful in signing Open Border agreements--make sure your "friend" isn't mapping out your land for sale to the highest bidder! Also be aware that civilizations under the council of Esus religion will be able to declare war without having their units removed from their rivals lands.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_15</Tag>
+		<English>Beware of barbarians in the early stages of the game. Orthus, the Barbarian King is really strong, but the unit who defeats him receives his axe as a reward.</English>
+		<French>Attention aux barbares dans les premiers moments de la partie. Orthus, le Roi Barbare, est très puissant. Mais les unités qui le battent reçoivent sa hache en récompense.</French>
+		<German>Tipp... Vorsicht vor den Barbaren in den frühen Phase einer Partie. Orthus der Barbarenkönig ist sehr stark, aber die Einheit, die ihn besiegt, erhält seine Axt als Belohnung.</German>
+		<Italian>Beware of barbarians in the early stages of the game. Orthus, the Barbarian King is really strong, but the unit who defeats him receives his axe as a reward.</Italian>
+		<Spanish>Cuidado con los Bárbaros en los principios de la partida. Orthus, el Rey Bárbaro es muy fuerte, pero la unidad que le venza recibirá su hacha como recompensa.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_16</Tag>
+		<English>If you find a valuable resource that is too far away for you to use, it may still be smart to keep a unit on top of it, if only to find out who eventually is going to control it.</English>
+		<French>Si vous trouvez des ressources précieuses qui sont trop loin pour être exploitée, il peut être intelligent de garder une unité dessus, pour au moins savoir qui la contrôlera.</French>
+		<German>Tipp... Selbst wenn eine wertvolle Ressource zu weit entfernt ist, um diese nutzen zu können, so kann es sich trotzdem lohnen, eine Einheit auf ihr zu stationieren, und wenn es nur deswegen ist, um den künftigen Eigentümer zu ermitteln.</German>
+		<Italian>If you find a valuable resource that is too far away for you to use, it may still be smart to keep a unit on top of it, if only to find out who eventually is going to control it.</Italian>
+		<Spanish>Si encuentras un recurso valioso que está muy lejos de tí para usarlo, puede ser inteligente mantener una unidad encima de él, sólo para averiguar quién está yendo a por él.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_17</Tag>
+		<English>Don't neglect cottages! They may start small, but once they mature, you will be glad you built them.</English>
+		<French>Ne négligez pas les cottages ! Ils commencent petit, mais une fois mature, vous serez heureux de les avoir construit.</French>
+		<German>Tipp... Der Bau von Gehöften sollte nicht vernachlässigt werden. Sie beginnen klein, aber können sich zu Weilern, Dörfern und Kleinstädten entwickeln, um noch deutlicher zu Erträgen beizutragen.</German>
+		<Italian>Don't neglect cottages! They may start small, but once they mature, you will be glad you built them.</Italian>
+		<Spanish>¡No descuides las villas! Pueden empezar pequeñas, pero una vez que maduran, estarás contento de haberlas construido.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_18</Tag>
+		<English>Take advantage of the opportunity to pillage a cottage improvement. The time required to advance each level of growth for a cottage can't be hurried, and the gold you get for pillaging them is considerable, especially if you have the Raiders trait.</English>
+		<French>Profitez de l'avantage de piller un cottage. Le temps qu'il requiert pour atteindre chaque niveau de croissance ne peut être accéléré, et l'or que vous ramassez du pillage est considérable, surtout si vous avez le trait Pillard.</French>
+		<German>Tipp... Im Falle eines Krieges sollte die Gelegenheit genutzt werden, feindliche Gehöfte, Weiler, Dörfer und Kleinstädte zu plündern. Die Golderträge sind unvergleichlich hoch, besonders bei Oberhäuptern mit der Eigenschaft "Räuberisch", und der Gegner kann die erforderliche Zeit für einen Wiederaufbau dieser Einrichtungen nicht verkürzen.</German>
+		<Italian>Take advantage of the opportunity to pillage a cottage improvement. The time required to advance each level of growth for a cottage can't be hurried, and the gold you get for pillaging them is considerable, especially if you have the Raiders trait.</Italian>
+		<Spanish>Aprovecha la oportunidad de hacer pillaje sobre mejoras de villa. El tiempo requerido para avanzar cada nivel de crecimiento de una villa no puede ser acelerado, y el dinero obtenido por su pillaje es considerable, especialmente si tienes el rasgo Incursores.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_19</Tag>
+		<English>When trying to capture a mature city, bring plenty of siege weapons. You will want to bombard the defenses and to soften up the defenders. If you don't have siege available, fireball-casting mages make a good substitute.</English>
+		<French>Lorsque vous essayez de capturer une ville mature, amenez plein d'armes de sièges. Vous pourrez bombarder les défenses de la ville et affaiblir les défenseurs.</French>
+		<German>Tipp... Für die Einnahme einer größeren Stadt sollten genügend Belagerungswaffen zur Verfügung stehen, um die Verteidigungsanlagen niederzureißen und die Verteidiger zu schwächen. Sind keine Belagerungswaffen verfügbar, geben Magier mit Feuerbällen ebenfalls eine gute Unterstützung ab.</German>
+		<Italian>When trying to capture a mature city, bring plenty of siege weapons. You will want to bombard the defenses and to soften up the defenders. If you don't have siege available, fireball-casting mages make a good substitute.</Italian>
+		<Spanish>Al intentar capturar una ciudad madura, trae un montón de armas de asedio. Querrás bombarderar las defensas y debilitar a los defensores. Si no tienes armas de asedio, lanzadores de bolas de fuego es un buen sustituto.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_2</Tag>
+		<English>Be aware of the strengths and weaknesses of units. For example, Crossbowmen and Longbowmen get a bonus when defending cities, while assassins and marksmen will attack the weakest combat unit in a stack. Phalanxes excel are conquering cites, while berserkers cause collateral damage.</English>
+		<French>Be aware of the strengths and weaknesses of units. For example, Crossbowmen and Longbowmen get a bonus when defending cities, while assassins and marksmen will attack the weakest combat unit in a stack. Phalanxes excel are conquering cites, while berserkers cause collateral damage.</French>
+		<German>Tipp... Stärken und Schwächen der Einheiten sind entscheidend für den Gefechtserfolg. Beispielsweise haben Axtkämpfer gegenüber Schwertkämpfern und Speerkämpfern einen Vorteil. Schwertkämpfer haben dagegen einen Vorteil beim Angriff auf Städte, und Speerkämpfer haben einen Vorteil gegenüber Streitwagen.</German>
+		<Italian>Be aware of the strengths and weaknesses of units. For example, Crossbowmen and Longbowmen get a bonus when defending cities, while assassins and marksmen will attack the weakest combat unit in a stack. Phalanxes excel are conquering cites, while berserkers cause collateral damage.</Italian>
+		<Spanish>Be aware of the strengths and weaknesses of units. For example, Crossbowmen and Longbowmen get a bonus when defending cities, while assassins and marksmen will attack the weakest combat unit in a stack. Phalanxes excel are conquering cites, while berserkers cause collateral damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_20</Tag>
+		<English>Don't be afraid to attack with ranged units--archers and longbowmen may not be the best offensive units, but properly promoted, they can do a respectable job.</English>
+		<French>Ne craignez pas d'attaquer avec des unités à distance - archers et arbalétriers ne sont peut être pas les meilleurs unités offensives, mais correctement promues, ils peuvent faire un travail correct.</French>
+		<German>Tipp... Seien sie nicht ängstlich mit Distanzeinheiten anzugreifen. Bogenschützen und Langbogenschützen sind nicht die besten offensiven Einheiten, aber ordentlich befördert, können sie eine respektable Arbeit leisten.</German>
+		<Italian>Don't be afraid to attack with ranged units--archers and longbowmen may not be the best offensive units, but properly promoted, they can do a respectable job.</Italian>
+		<Spanish> No tengas miedo de atacar con unidades de proyectiles--los arqueros y arcos largos pueden no ser las mejores unidades ofensivas, pero apropiadamente ascendidas, pueden llevar a cabo un trabajo respetable.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_21</Tag>
+		<English>The Flanking promotion only allows a unit to withdrawl when near death, so it may help to leave these units a movement point to run away to safety if they do withdraw from an attack.</English>
+		<French>The Flanking promotion only allows a unit to withdrawl when near death, so it may help to leave these units a movement point to run away to safety if they do withdraw from an attack.</French>
+		<German>Tipp... Flankenangriffs-Eigenschaften sind nur bei Angriffen wirksam, zudem müssen die angreifenden Einheiten noch über einen freien Bewegungspunkt verfügen, um sich im Falle einer drohenden Niederlage zurückziehen zu können.</German>
+		<Italian>The Flanking promotion only allows a unit to withdrawl when near death, so it may help to leave these units a movement point to run away to safety if they do withdraw from an attack.</Italian>
+		<Spanish>The Flanking promotion only allows a unit to withdrawl when near death, so it may help to leave these units a movement point to run away to safety if they do withdraw from an attack.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_22</Tag>
+		<English>Consider keeping one unit with the Medic promotion in every large stack--the bonus isn't cumulative, but it can make the difference in keeping an advance going. Disciple class units are the only ones who begin with this promotion, and no one else can learn it. (The Grigori Civilization can build medics instead.)</English>
+		<French>Pensez à garder une unité avec la promotion Médecin dans les grandes piles d'unités - le bonus n'est pas cumulatif, mais il peut faire la différence pour garder de l'avance.</French>
+		<German>Tipp... Ein größerer Einheitenverband profitiert von einem Sanitäter - besonders wenn es gegen Belagerungswaffen geht, die einen Verband auf breiter Front schwächen können. Geweihte Einheiten beginnen als Einzige mit dieser Beförderung, die andere Einheitenklassen nicht erlernen können. (Das Reich der Grigori kann stattdessen Heiler aufstellen.)</German>
+		<Italian>Consider keeping one unit with the Medic promotion in every large stack--the bonus isn't cumulative, but it can make the difference in keeping an advance going. Disciple class units are the only ones who begin with this promotion, and no one else can learn it. (The Grigori Civilization can build medics instead.)</Italian>
+		<Spanish>Considera guardar una unidad con el ascenso Médico en cada pila grande de unidades... la bonificación no es acumulativa, pero puede marcar la diferencia al mantener el avance. Las unidades clase discípulo son las únicas que empiezan con este ascenso, y nadie más puede aprenderlo. (La Civilización Grigori pueden crear médicos en su lugar.)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_23</Tag>
+		<English>All religions are different and give different benefits, so choose carefully.</English>
+		<French>Toutes les religions sont différentes et donnent des bonus différents, choisissez-la avec soin.</French>
+		<German>Tipp... Jede Religion ist verschieden und hat ihre Vorteile, also wählt mit Bedacht.</German>
+		<Italian>All religions are different and give different benefits, so choose carefully.</Italian>
+		<Spanish>Todas las religiones son diferentes y proporcionan beneficios diferentes, así que elige con cuidado.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_24</Tag>
+		<English>Watch for announcements about religions being founded and wonders being completed--this can give you a hint as to how advanced your foes are. Should you build the Eyes and Ears network wonder you will be able to see what your rivals research.</English>
+		<French>Watch for announcements about religions being founded and wonders being completed--this can give you a hint as to how advanced your foes are. Should you build the Eyes and Ears network wonder you will be able to see what your rivals research.</French>
+		<German>Tipp... Die aktuellen Nachrichten enthalten wertvolle Hinweise zu neuen Religionen und Weltwundern, hierüber lässt sich auf die Fortschritte der Rivalen schließen.</German>
+		<Italian>Watch for announcements about religions being founded and wonders being completed--this can give you a hint as to how advanced your foes are. Should you build the Eyes and Ears network wonder you will be able to see what your rivals research.</Italian>
+		<Spanish>Watch for announcements about religions being founded and wonders being completed--this can give you a hint as to how advanced your foes are. Should you build the Eyes and Ears network wonder you will be able to see what your rivals research.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_25</Tag>
+		<English>If you choose to have a state religion, work diligently to spread it to all your cities. Some civics such as arete, crusade, religion and theology give extra benefits in cities where your state religion is present.</English>
+		<French>Si vous choisissez d'avoir une religion d'état, &#156;uvrez diligemment pour la répandre dans toutes vos villes. La plupart des doctrines religieuses ne sont efficaces que dans les villes où votre religion d'état est présente.</French>
+		<German>Tipp... Wird eine Staatsreligion gewählt, so sollte diese unbedingt in allen Städten verbreitet werden. Die meisten religiösen Gesellschaftsformen sind nur in Städten wirksam, welche die Staatsreligion angenommen haben.</German>
+		<Italian>If you choose to have a state religion, work diligently to spread it to all your cities. Some civics such as god-king and theology give extra benefits in cities where your state religion is present.</Italian>
+		<Spanish>Si eliges tener una religión oficial, trabaja diligentemente para propagarla a todas tus ciudades. Algunas doctrinas como Rey-Dios y Teología dan beneficios extra en las ciudades donde esté presente la religión oficial.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_26</Tag>
+		<English>Open Borders agreements are invitations for your missionaries--spread your state religion quickly and take advantage of the Shrine benefits if you control the holy city. If your religion spreads widely enough, your neighbors may convert to your faith, which can boost relations.</English>
+		<French>Les accords de libre passage sont des invitations pour vos missionnaires : propagez rapidement votre religion d'état pour profiter des avantages de l'espionnage ! Si votre religion se propage suffisamment, vos voisins se convertiront peut-être à votre foi, ce qui peut améliorer vos relations.</French>
+		<German>Tipp... Verträge über Offene Grenzen stellen quasi Einladungen dar, Religionen durch Missionare zu verbreiten und von Bekehrungen zu profitieren. Bekehrte Städte liefern wichtige Informationen. Und verbreitet sich eine Religion besonders erfolgreich, so können rivalisierende Staatsoberhäupter konvertieren, wodurch sich die Beziehungen drastisch verbessern.</German>
+		<Italian>Open Borders agreements are invitations for your missionaries--spread your state religion quickly and take advantage of the Shrine benefits if you control the holy city. If your religion spreads widely enough, your neighbors may convert to your faith, which can boost relations.</Italian>
+		<Spanish>Los acuerdos de Apertura de Fronteras son invitaciones para tus misionarios... propaga tu religión oficial con rapidez y consigue la ventaja de los beneficios del Santuario si controlas la ciudad santa. Si tu religión se propaga lo suficiente, tus vecinos pueden convertirse a tu fe, lo que puede mejorar las relaciones.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_27</Tag>
+		<English>Make sure you need every building your city creates. Cities bringing in no commerce can sometimes skip libraries, just as a city that will never see battle can skip palisade and walls</English>
+		<French>Assurez vous que vos villes ont besoin de ce qu'elles construisent. Celles qui ne produisent pas de commerce peuvent se passer de bibliothèque, celles qui ne verront jamais le combat n'ont besoin ni de remparts ni de châteaux.</French>
+		<German>Tipp... Nicht in jeder Stadt müssen alle kostspieligen Einrichtungen gebaut werden. In Städten mit brachliegender Wirtschaft lohnen sich Bibliotheken nicht unbedingt, ähnliches gilt für Stadtmauern und Burgen in Städten ohne unmittelbare Kriegsgefahr.</German>
+		<Italian>Make sure you need every building your city creates. Cities bringing in no commerce can sometimes skip libraries, just as a city that will never see battle can skip walls and a castle.</Italian>
+		<Spanish>Asegúrate de que necesitas cada construcción que crea tu ciudad. Las ciudades que no traen comercio pueden a veces prescindir de bibliotecas, igual que una ciudad que nunca verá la batalla puede prescindir de murallas y castillo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_28</Tag>
+		<English>There is no limit to the amount of National Wonders you can have per city.  Still, you will want to consider carefully before deciding which city you want to build them in, because your entire empire can only have one, and their benefits are usually localized to the city</English>
+		<French>Il n'y a aucune limite au nombre de Merveilles Nationales que vous pouvez avoir dans une ville. Néanmoins, réfléchissez soigneusement avant choisir la ville dans laquelle vous voulez les construire.</French>
+		<German>Tipp... Es gibt keine Begrenzung für die Anzahl nationaler Wunder in einer Stadt. Trotzdem sollte die Entscheidung, in welcher Stadt welches Wunder errichtet werden soll, mit Bedacht gefällt werden.</German>
+		<Italian>There is no limit to the amount of National Wonders you can have per city.  Still, you will want to consider carefully before deciding which city you want to build them in.</Italian>
+		<Spanish>No hay límite de cantidad de Maravillas Nacionales que puedes tener en cada ciudad.  Aún así, querrás considerarlo con detenimiento antes de decidir qué ciudad quieres que las construya.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_29</Tag>
+		<English>When facing a tough defender with weak units, bring overwhelming numbers. If your target survives the battle, it will have gained experience and then it will become even more dangerous!</English>
+		<French>Lorsque vous faites face à un hardi défenseur avec de faibles unités, apportez en un nombre écrasant. Si votre cible survit à la bataille, il acquiert de l'expérience et deviendra encore plus dangereux !</French>
+		<German>Tipp... Ein Angriff sollte in einer bestimmten Zeit abgeschlossen werden können, ansonsten werden die überlebenden Verteidiger durch wachsende Erfahrungen immer leistungsfähiger. Um eine starke Verteidigung auf Anhieb zu bezwingen, sind ausreichend viele Einheiten zum Angriff aufzubieten.</German>
+		<Italian>When facing a tough defender with weak units, bring overwhelming numbers. If your target survives the battle, it will have gained experience and then it will become even more dangerous!</Italian>
+		<Spanish>Al enfrentarte con unidades débiles a un defensor firme, trae superioridad numérica. ¡Si tu objetivo sobrevive a la batalla, habrá ganado experiencia y entonces se hará aún más peligroso!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_3</Tag>
+		<English>A good time to check for trading possibilities with another civilization is right after researching a new technology--shop around and see what you can get for it before others beat you to it.</English>
+		<French>Un bon moment pour vérifier pour les possibilités d'échange avec une autre civilisation est juste après avoir découvert une nouvelle technologie - observez et voyez ce que vous pouvez avoir avant que les autres ne vous battent.</French>
+		<German>Tipp... Die Entdeckung einer neuen Technologie markiert einen guten Zeitpunkt für diplomatische Verhandlungen. Mit einer neuen Technologie lässt sich deutlich besser handeln als mit einer alten.</German>
+		<Italian>A good time to check for trading possibilities with another civilization is right after researching a new technology--shop around and see what you can get for it before others beat you to it.</Italian>
+		<Spanish>Un buen momento para revisar las posibilidades de comercio con otra civilización es justo después de descubrir una nueva tecnología... ve de compras y mira a ver qué puedes conseguir por ella antes de que otros te arrebaten la oportunidad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_30</Tag>
+		<English>Beware spreading The Order religion to a city with the Ashen Veil religion--the followers of these religions are not prone to peaceful coexistence.</English>
+		<French>Faites attention lorsque vous répandez l'Ordre dans une ville avec le Voile de Cendres--Les adorateurs de ces religions ne pronent pas la coexistence pacifique.</French>
+		<German>Tipp... Bei der Verbreitung der Religion "Die Weisung" in einer Stadt, in der schon Anhänger des "Aschfahlen Schleiers" leben, ist Vorsicht geboten. Die Anhänger dieser beiden Religionen können nicht friedlich nebeneinander koexistieren.</German>
+		<Italian>Beware spreading The Order religion to a city with the Ashen Veil religion--the followers of these religions are not prone to peaceful coexistence.</Italian>
+		<Spanish>Cuidado al propagar el Orden en una ciudad con el Velo Ceniciento... los seguidores de estas religiones no están hechos para coexistir juntas en paz.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_31</Tag>
+		<English>Locate and acquire different resources. While copper can be used for moderate improvement to melee units, iron will give a more substantial bonus once unlocked and you will need mithril to have the strongest melee units. </English>
+		<French>Repérez et prenez possession de diverses ressources. Alors que le cuivre peut être utilisé pour vos premières unités, le fer sera nécessaire pour entraîner des unités plus puissantes et vous aurez besoin de mithril pour produire les meilleurs unités de corps à corps.</French>
+		<German>Tipp... Die Entdeckung und Sicherung verschiedener Ressourcen ist entscheidend. Während mit Kupfer nur leicht verbesserte Nahkampf-Einheiten aufgestellt werden können, sind mit Eisen fortgeschrittenere Einheiten möglich. Um die besten Nahkampf-Einheiten aufstellen zu können, muss ein Mithrilvorkommen vorhanden sein.</German>
+		<Italian>Locate and acquire different resources. While copper can be used for moderate improvement to melee units, iron will give a more substantial bonus once unlocked and you will need mithril to have the strongest melee units. </Italian>
+		<Spanish>Localiza y adquiere diferentes recursos. Mientras el cobre puede usarse para mejoras moderadas de las unidades de melé, el hierro dará una bonificación más sustancial una vez desbloqueada y necesitarás mithril para tener las unidades de melé más fuertes. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_32</Tag>
+		<English>A city's population growth is halted while training settlers and workers. In some cases, it may be better to let a city grow before training these units. The Luchuirp mud golems and Clan gretchin are an exception to this, and cities belonging to civs with the Fallow trait will never expand on their own.</English>
+		<French>A city's population growth is halted while training settlers and workers. In some cases, it may be better to let a city grow before training these units. The Luchuirp mud golems are an exception to this, and Infernal cities will never expand on their own.</French>
+		<German>Tipp... Das Bevölkerungswachstum einer Stadt pausiert, während Siedler und Arbeitstrupps aufgestellt werden. Deswegen kann es besser sein, mit der Aufstellung dieser Einheiten zu warten, bis die Stadt eine gewisse Größe erreicht hat.</German>
+		<Italian>A city's population growth is halted while training settlers and workers. In some cases, it may be better to let a city grow before training these units. The Luchuirp mud golems are an exception to this, and Infernal cities will never expand on their own.</Italian>
+		<Spanish>A city's population growth is halted while training settlers and workers. In some cases, it may be better to let a city grow before training these units. The Luchuirp mud golems are an exception to this, and Infernal cities will never expand on their own.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_33</Tag>
+		<English>Wars are rarely won in a day. If you lack the force to capture enemy cities, consider pillaging the countryside instead. You may lure your opponent's units out of their strongholds. Even if it doesn't lure your enemy out, a war of attrition may lead to economic advantage, and ultimately to your victory.</English>
+		<French>Les guerres se gagnent rarement en un jour. Si vous ne disposez pas des forces nécessaires pour capturer des villes ennemies, pillez les terres alentour. Vous pourriez alors attirer les unités ennemies hors de leur forteresse. Même si ce n'est pas le cas, une guerre d'usure peut vous donner un avantage économique et mène parfois à la victoire.</French>
+		<German>Tipp... Ist ein militärischer Konflikt nicht in kürzerer Zeit mit genügend starken Angriffstruppen zu gewinnen, so kann eine Plünderung städtischer Einflussgebiete auch stark verteidigte Städte langfristig zermürben, die Verteidiger aus der Reserve locken und schließlich zum Sieg führen.</German>
+		<Italian>Wars are rarely won in a day. If you lack the force to capture enemy cities, consider pillaging the countryside instead. You may lure your opponent's units out of their strongholds. Even if it doesn't lure your enemy out, a war of attrition may lead to economic advantage, and ultimately to your victory.</Italian>
+		<Spanish>Raramente se gana las guerras en un día. Si careces de la fuerza para capturar ciudades enemigas, considera el pillaje en su lugar. Puedes atraer a las unidades de tu oponente fuera de sus fortalezas. Si incluso esto no atrae hacia fuera a tu enemigo, una guerra de desgaste puede llevarte a la ventaja económica, y en última instancia a la victoria.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_34</Tag>
+		<English>Some techs can be discovered only if you have the appropriate state religion. For example, only Ashen Veil nations can research Infernal Pact. The Fellowship of the Leaves, Octopus Overlords and Runes of Kilmorph also have an exclusive technology.</English>
+		<French>Some techs can be discovered only if you have the appropriate state religion. For example, only Ashen Veil nations can research Infernal Pact. The Fellowship of the Leaves, Octopus Overlords and Runes of Kilmorph also have an exclusive technology.</French>
+		<German>Tipp... Einige Technologien können nur entdeckt werden, wenn die passende Staatsreligion gewählt wurde. Zum Beispiel, können nur Nationen, die dem "Aschfahlen Schleier" angehören, "Höllischer Pakt" und nur Nationen der "Weisung" "Bedingungslosen Gehorsam" erforschen.</German>
+		<Italian>Some techs can be discovered only if you have the appropriate state religion. For example, only Ashen Veil nations can research Infernal Pact. The Fellowship of the Leaves, Octopus Overlords and Runes of Kilmorph also have an exclusive technology.</Italian>
+		<Spanish>Some techs can be discovered only if you have the appropriate state religion. For example, only Ashen Veil nations can research Infernal Pact. The Fellowship of the Leaves, Octopus Overlords and Runes of Kilmorph also have an exclusive technology.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_35</Tag>
+		<English>Snacks are good in moderation. Watch those calories!</English>
+		<French>Consommez des sucreries avec modération.</French>
+		<German>Tipp... Nützliche Hinweise zu "Fall from Heaven 2" sind auch bei civforum.de, civfanatics.com und civilization4.net zu finden.</German>
+		<Italian>Snacks are good in moderation.</Italian>
+		<Spanish>Las patatas fritas son buenas con moderación.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_36</Tag>
+		<English>Grains, Livestock, Game, Fruit, and Seafood not only provide resources, but also rich yields to the local city. Cities planted near two or more of these food sources will grow quickly!</English>
+		<French>Les céréales, le bétail et les fruits de mer fournissent non seulement des ressources mais permettent également d'enrichir la ville qui les produit. Les villes fondées près de deux telles sources de nourriture ou plus se développent rapidement !</French>
+		<German>Tipp... Getreide, Vieh und Meeresfrüchte liefern nicht nur wichtige Bonusressourcen, sondern auch zusätzliche Nahrungserträge für nahe gelegene Städte, deren Bevölkerung damit umso schneller wachsen kann.</German>
+		<Italian>Grains, Livestock, and Seafood not only provide resources, but also rich yields to the local city. Cities planted near two or more of these food sources will grow quickly!</Italian>
+		<Spanish>Los cereales, el ganado y la pesca no sólo aportan recursos, también reporta riqueza a la ciudad local. Las ciudades cercanas a dos o más de estos recursos alimenticios crecerán con rapidez.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_37</Tag>
+		<English>Explore your region! Discover what types of resources you have nearby, and plan your research paths to enable you to hook up these resources sooner rather than later.</English>
+		<French>Explorez votre région ! Découvrez les types de ressources que recèlent les environs et prévoyez vos recherches afin de pouvoir les exploiter au plus vite !</French>
+		<German>Tipp... Die Erkundung des Umlands ist lebenswichtig, vor allem das Auffinden von Ressourcen. Dieses erlaubt eine Planung der Expansion und der technologischen Entwicklung, um die Rohstoffe möglichst schnell erschließen und nutzen zu können.</German>
+		<Italian>Explore your region! Discover what types of resources you have nearby, and plan your research paths to enable you to hook up these resources sooner rather than later.</Italian>
+		<Spanish>¡Explora tu región! Descubre que clases de recursos tienes cerca, y planea tus rutas de investigación para permitirte usar estos recursos lo antes posible.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_38</Tag>
+		<English>If your enemy is too strong to tackle in the field, hide behind your city walls and buy time. Build unit types and choose promotions that will best counter the forces aligned against you. Archers are useful defensively</English>
+		<French>Si vous n'êtes pas de taille à affronter votre ennemi sur le terrain, retranchez-vous derrière les murs de votre ville et gagnez du temps. Produisez des unités et choisissez des promotions qui vous permettront de contrer au mieux votre adversaire.</French>
+		<German>Tipp... Ist ein Feind für eine direkte Konfrontation zu stark, so kann sich das Verschanzen in Städten lohnen, um erst einmal Kräfte zu sammeln. In der gewonnenen Zeit können weitere geeignete Einheiten aufgestellt werden und über passende Beförderungen optimal an die Gegebenheiten angepasst werden.</German>
+		<Italian>If your enemy is too strong to tackle in the field, hide behind your city walls and buy time. Build unit types and choose promotions that will best counter the forces aligned against you.</Italian>
+		<Spanish>Si tu enemigo es demasiado fuerte para un frente a frente, retírate tras tus murallas de la ciudad y consigue algo de tiempo. Construye diferentes clases de unidades y elige los ascensos que servirán mejor contra las fuerzas de tu adversario.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_39</Tag>
+		<English>Bigger is not always better. Overexpansion can stifle your economy and your research, even while it adds to your population and production. And a bigger empire means more land area to defend</English>
+		<French>Grandir démesurément n'est pas la meilleure des solutions. La sur expansion peut étouffer votre économie et vos recherches, bien qu'elle augmentent votre population et votre production.</French>
+		<German>Tipp... Ein zu rasch expandierendes Reich ist riskant. Zwar steigen mit weiteren Städten auch die Einflussgebiete, Bevölkerungszahlen und Produktionsergebnisse, aber die Kosten zur Erhaltung der notwendigen Infrastruktur können den Staatshaushalt und damit auch die verfügbaren Forschungsausgaben massiv belasten.</German>
+		<Italian>Bigger is not always better. Overexpansion can stifle your economy and your research, even while it adds to your population and production.</Italian>
+		<Spanish>Más grande no significa que sea mejor. Una expansión descontrolada puede ahogar tu economía y tu investigación, incluso cuando crece la población y la producción.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_4</Tag>
+		<English>Guard your experienced units! A veteran unit with older weaponry can often defeat a new unit with more advanced equipment.</English>
+		<French>Protégez vos unités expérimentées ! Une unité de vétérans aux armes dépassées peut souvent vaincre une unité plus moderne et mieux équipée.</French>
+		<German>Tipp... Erfahrene Einheiten sollten besondere Beachtung finden, denn sie können gefechtsentscheidend sein.</German>
+		<Italian>Guard your experienced units! A veteran unit with older weaponry can often defeat a new unit with more advanced equipment.</Italian>
+		<Spanish>¡Protege a tus unidades experimentadas! Una unidad veterana con armamento anticuado también puede derrotar a una nueva unidad con equipo más avanzado.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_40</Tag>
+		<English>A civilization without currency cannot build a specialized economy nor support a growing empire.</English>
+		<French>Une civilisation sans monnaie ne peut bâtir une économie spécialisée ni subvenir aux besoins d'un empire en pleine croissance.</French>
+		<German>Tipp... Ohne eine Währung lässt sich keine fortgeschrittene ökonomie aufbauen und damit auch kein fortgeschrittenes Reich finanzieren.</German>
+		<Italian>A civilization without currency cannot build a specialized economy nor support a growing empire.</Italian>
+		<Spanish>Una civilización sin moneda no puede establecer una economía especializada ni soportar un imperio en crecimiento.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_41</Tag>
+		<English>Wonders of the World not only provide unique benefits, they also inspire your populace. More great people will appear in cities that build wonders.</English>
+		<French>Les Merveilles Mondiales vous apportent non seulement des avantages uniques, mais inspirent également votre population. Plus de personnages illustres feront leur apparition dans les villes hébergeant des merveilles anciennes ou multiples.</French>
+		<German>Tipp... Weltwunder und Nationalwunder besitzen nicht nur jeweils besondere Eigenschaften, sie inspirieren auch das Volk. In Städten mit Wundern können deshalb deutlich mehr Große Persönlichkeiten auftreten.</German>
+		<Italian>Wonders of the World not only provide unique benefits, they also inspire your populace. More great people will appear in cities that build ancient wonders or multiple great wonders.</Italian>
+		<Spanish>Las Maravillas Mundiales no sólo aportan beneficios únicos, también inspiran a la gente. Aparecerán más grandes personajes en las ciudades que construyen maravillas antiguas o múltiples grandes maravillas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_42</Tag>
+		<English>There are many ways to make your people happy: with religion, with luxurious resources, with city improvements, with civics, with culture rate. If you lack opportunities in some areas, focus your attention on the others. Avoid having Angry citizens whenever possible!</English>
+		<French>Il existe de nombreuses façons de faire le bonheur de votre peuple : la religion, les ressources de luxe, les aménagements urbains, différentes doctrines, un niveau de culture élevé. Si vous n'avez pas accès à certaines de ces possibilités, concentrez-vous sur les autres. Evitez d'avoir des citoyens mécontents autant que possible !</French>
+		<German>Tipp... Das Volk lässt sich auf viele Weisen zufrieden stellen. Religion, Luxusgüter, Stadteinrichtungen, Gesellschaftsformen und Kultur bieten hierzu verschiedene Wege. Stehen manche davon nicht zur Verfügung, so kann es sich lohnen, Schwerpunkte auf die realisierbaren Lösungen zu setzen. Aufgebrachte Bürger sollten unbedingt vermieden werden.</German>
+		<Italian>There are many ways to make your people happy: with religion, with luxurious resources, with city improvements, with civics, with culture rate. If you lack opportunities in some areas, focus your attention on the others. Avoid having Angry citizens whenever possible!</Italian>
+		<Spanish>Hay muchas maneras de hacer feliz a tu pueblo: con religión, con recursos de lujo, con mejoras, con doctrinas, con índice de cultura. Si tienes pocas oportunidades en algún área, concentra tu atención en las otras. ¡Evita tener ciudadanos Enfadados en la medida de lo posible!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_43</Tag>
+		<English>Paladins are special units only available to good nations. Similarly, Only nations with an evil alignment can train Eidolons, and Druids are restricted to neutral. Alignment is displayed by score and modified by religion and various actions.</English>
+		<French>Les Paladins sont des unités spécifiques aux nations du Bien. Similarly, Seules les nations mauvaises peuvent entrainer des Eidolons, et les Druids sont réservés aux Neutres. L'alignement est donné par la nature du leader et peut etre changé par les religions.</French>
+		<German>Tipp... Paladine sind spezielle Einheiten, die nur für gute Zivilisationen verfügbar sind. Nur Zivilisationen mit böser Gesinnung können hingegen Eidolons ausbilden, während Druiden neutralen Zivilisationen vorbehalten sind. Die Gesinnung wird bei den Punkten angezeigt und kann durch verschiedene Religionen verändert werden.</German>
+		<Italian>Paladins are special units only available to good nations. Similarly, Only nations with an evil alignment can train Eidolons, and Druids are restricted to neutral. Alignment is displayed by score and modified by religion.</Italian>
+		<Spanish>Los Paladines son unidades especiales disponibles sólo para las naciones buenas. Igualmente, sólo las naciones con la alineación de malvadas pueden entrenar Eidolons, y los druidas están restringidos a los neutrales. Se muestra la alineación junto a los puntos y pueden modificarse con religiones.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_44</Tag>
+		<English>The Fawns are costly units in the beginning of the game, but they do not require any special buildings or resources--just the Fellowship of the Leaves religion present in the city. </English>
+		<French>The Fawns are costly units in the beginning of the game, but they do not require any special buildings or resources--just the Fellowship of the Leaves religion present in the city. </French>
+		<German>Tipp... Die Satyrn sind zu Beginn zwar kostspielig, benötigen zur Aufstellung aber keine Ressourcen oder spezielle Gebäude. Allerdings muss die Religion "Gefährten des Laubes" in der Stadt verbreitet sein.</German>
+		<Italian>The Fawns are costly units in the beginning of the game, but they do not require any special buildings or resources--just the Fellowship of the Leaves religion present in the city. </Italian>
+		<Spanish>The Fawns are costly units in the beginning of the game, but they do not require any special buildings or resources--just the Fellowship of the Leaves religion present in the city. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_45</Tag>
+		<English>When a diseased unit attacks or defends, it can disease units on the tile of its opponent.</English>
+		<French>Quand des unités malades attaquent ou défendent, elles peuvent contaminer des unités sur la case de leur adversaire.</French>
+		<German>Tipp... Wenn eine kranke Einheit angreift oder sich verteidigt, kann sie andere Einheiten anstecken.</German>
+		<Italian>When a diseased unit attacks or defends, it can disease units on the tile of its opponent.</Italian>
+		<Spanish>Cuando una unidad enferma ataca o se defiende, puede contagiar unidades en la casilla de su oponente.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_46</Tag>
+		<English>Diseased or plagued units have lower healing rates, so they may never heal if there is no unit with medic promotion nearby. An Infirmary in a city or a priest can cure the disease</English>
+		<French>Les unités malades ou pestiférées ont un taux de régénération négatif, elles mourront si aucun guérisseur ne se trouve à proximité.</French>
+		<German>Tipp... Kranke oder verseuchte Einheiten haben eine negative Heilungsrate, so dass sie sterben können, wenn kein Heiler in der Nähe ist.</German>
+		<Italian>Diseased or plagued units have lower healing rates, so they may never heal if there is no unit with medic promotion nearby.</Italian>
+		<Spanish>Las unidades enfermas o plagadas tienen niveles bajos de curación, así que puede que nunca se curen si no hay ninguna unidad con el ascenso médico cerca.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_47</Tag>
+		<English>Only Mary Morbius, Fenris and Yersenia can spread the plague. Yersenia is one of the Four Horsemen of the Apocalypse; Mary Mobius may be given to a player who has built and alchemy lab. Fenris is a roaming animal hero.</English>
+		<French>Only Mary Morbius, Fenris and Yersenia can spread the plague. Yersenia is a barbarian hero; Mary Mobius may be given to a player who has built and alchemy lab. Fenris is a roaming animal hero.</French>
+		<German>Tipp... Nur Marie Morbus, Fenris und Yersiania können Pestilenz verbreiten. Yersinia ist einer der vier Apokalyptischen Reiter. Marie Morbus kann sich einem SPieler anschließen, der ein Alchemielabor errichtet hat.</German>
+		<Italian>Only Mary Morbius, Fenris and Yersenia can spread the plague. Yersenia is a barbarian hero; Mary Mobius may be given to a player who has built and alchemy lab. Fenris is a roaming animal hero.</Italian>
+		<Spanish>Only Mary Morbius, Fenris and Yersenia can spread the plague. Yersenia is a barbarian hero; Mary Mobius may be given to a player who has built and alchemy lab. Fenris is a roaming animal hero.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_48</Tag>
+		<English>Immortals are reborn in the owner's capital after dying, with all their experience and promotions, but only once per turn. To kill Immortal forever you must kill them twice in a single turn.</English>
+		<French>Les Immortels renaissent dans la capitale de leur propriétaire après leur mort, avec toute leur expérience et leurs promotions, mais seulement une fois par tour. Pour tuer un Immortel définitivement, vous devez le tuer deux fois dans le même tour.</French>
+		<German>Tipp... Unsterbliche werden in der Hauptstadt ihres Landes einmal pro Runde wiedergeboren, wenn sie sterben. Sie behalten dabei alle ihre Beförderungen und Erfahrung. Um einen Unsterblichen endgültig auszulöschen, muss er zweimal in einer Runde sterben.</German>
+		<Italian>Immortals are reborn in the owner's capital after dying, with all their experience and promotions, but only once per turn. To kill Immortal forever you must kill them twice in a single turn.</Italian>
+		<Spanish>Los Inmortales renacen en la capital después de morir, con toda su experiencia y ascensos, pero sólo una vez por turno. Para matar a un Inmortal de forma definitiva deberás matarlo dos veces en el mismo turno.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_49</Tag>
+		<English>The Blood of the Phoenix wonder gives the Phoenix Blood promotion to all your currently exiting units. These units will be reborn in your capital if killed, but they lose this promotion after they are reborn.</English>
+		<French>La merveille Sang du Phénix donne gratuitement la promotion Phoenix Blood à toutes les unités que vous possédez. Ces unités renaîtront dans la capitale si elles sont tuées, mais perdent la promotion après leur renaissance.</French>
+		<German>Tipp... Das Wunder "Blut des Phoenix" verleiht allen Einheiten, die zum Zeitpunkt der Erbauung lebendig sind, die Beförderung "Phoenix Blood". Sie werden nach ihrem Tod einmal in der Hauptstadt wiedergeboren, aber verlieren anschließend die Beförderung wieder.</German>
+		<Italian>The Blood of the Phoenix wonder gives the Phoenix Blood promotion to all your currently exiting units. These units will be reborn in your capital if killed, but they lose this promotion after they are reborn.</Italian>
+		<Spanish>La maravilla de La Sangre del Fénix da el ascenso Phoenix Blood a todas las unidades existentes cuando se construye. Estas unidades renacerán en tu capital si mueren, pero pierden este ascenso después de renacer.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_5</Tag>
+		<English>New civics are not always better civics! Don't switch automatically. Weigh your options; consider your needs and priorities.</English>
+		<French>Une nouvelle doctrine n'est pas toujours meilleure ! N'en changez pas automatiquement ! Prenez le temps de la réflexion et évaluez vos besoins et vos priorités.</French>
+		<German>Tipp... Neue Gesellschaftsformen müssen nicht unbedingt besser sein und sollten nicht blindlings automatisch verwendet werden. Ihre Nützlichkeit hängt ab von der Spielweise und der Situation. Eine gute Entscheidung basiert auf Notwendigkeiten und Prioritäten.</German>
+		<Italian>New civics are not always better civics! Don't switch automatically. Weigh your options; consider your needs and priorities.</Italian>
+		<Spanish>¡Las nuevas doctrinas no son necesariamente mejores doctrinas! No las cambies automáticamente. Valora tus opciones; considera tus necesidades y prioridades.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_50</Tag>
+		<English>Units defeated by werewolves might become werewolves too. Werewolves become stronger when they kill living units, but until they learn proper restraint, they may go on a rampage after feeding.</English>
+		<French>Units defeated by werewolves might become werewolves too. Werewolves become stronger when they kill living units, but until they learn proper restraint, they may go on a rampage after feeding.</French>
+		<German>Tipp... Von Werwölfen besiegte Einheiten können selbst zu Werwölfen werden. Diese Einheiten werden durch das Töten von lebendigen Einheiten stärker, doch bis sie es lernen, sich unter Kontrolle zu halten, laufen sie immer Gefahr, nach dem Fressen in Blutrausch zu fallen.</German>
+		<Italian>Units defeated by werewolves might become werewolves too. Werewolves become stronger when they kill living units, but until they learn proper restraint, they may go on a rampage after feeding.</Italian>
+		<Spanish>Units defeated by werewolves might become werewolves too. Werewolves become stronger when they kill living units, but until they learn proper restraint, they may go on a rampage after feeding.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_51</Tag>
+		<English>The Runes of Kilmorph religion increases gold income in cities where it spreads. The Ashen Veil religion increases research in cities where it spreads.</English>
+		<French>La religion des Runes de Kilmorph augmente la production d'or des villes où elle se propage. La religion du Voile des Cendres augmente la production scientifique des villes ou elle se propage.</French>
+		<German>Tipp... Die Religion "Runen der Kilmorph" steigert das Goldeinkommen in Städten mit diesem Glauben. Die Religion "Der Aschfahle Schleier" steigert die Forschungsleistung in Städten mit diesem Glauben.</German>
+		<Italian>The Runes of Kilmorph religion increases gold income in cities where it spreads. The Ashen Veil religion increases research in cities where it spreads.</Italian>
+		<Spanish>La religión de Las Runas de Kilmorph aumenta los ingresos de oro en las ciudades donde se propaga. La religión del Velo Ceniciento aumenta la investigación en las ciudades donde se propaga.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_52</Tag>
+		<English>The Vitalize spell transforms deserts, marshes and tundras to plains, and plains to grasslands.</English>
+		<French>Le sort Fertilité transforme les déserts et les toundras en plaines et les plaines en prairies.</French>
+		<German>Tipp... Der Zauber "Urbar" verwandelt Wüste und Tundra in Ebenen, und Ebenen in Grasland.</German>
+		<Italian>The Vitalize Lands spell transforms deserts and tundras to plains, and plains to grasslands.</Italian>
+		<Spanish>El conjuro Revitalizar Tierras transforma desiertos y tundras en llanuras, y a las llanuras en praderas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_53</Tag>
+		<English>The Bloom spell can create new forests, which will slowly grow and become full forests. If you have the Fellowship of Leaves state religion, they can even become Ancient Forests.</English>
+		<French>Le sort Floraison permet de créer des forêts.</French>
+		<German>Tipp... Der Zauber "Wuchs" lässt neuen Wald entstehen.</German>
+		<Italian>The Bloom spell can create forests.</Italian>
+		<Spanish>El conjuro Poblar puede crear bosques.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_54</Tag>
+		<English>The Genesis ritual improves every tile in your current empire. Deserts and tundras become plains, plains becomes grasslands, jungles becomes forests and forests grow on every free tile. It is a one-time action.</English>
+		<French>La Genèse améliore toutes les cases de votre empire actuel. Les déserts et toundras deviennent des plaines, les plaines deviennent des prairies, les jungles deviennent des forêts et des forêts poussent sur chaque case libre. Cette action ne peut se produire qu'une fois.</French>
+		<German>Tipp... Das Wunder "Genesis" verbessert jedes Geländefeld eines Reiches. Wüste und Tundra werden zu Ebenen, Ebenen werden zu Grasland, Dschungel wird zu Wald, und auf jedem freiem Fleck sprießen Bäume. Doch dies ist nur einmal möglich.</German>
+		<Italian>The Genesis ritual improves every tile in your current empire. Deserts and tundras become plains, plains becomes grasslands, jungles becomes forests and forests grow on every free tile. It is a one-time action.</Italian>
+		<Spanish>El ritual Génesis mejora cada casilla de tu imperio. Los desiertos y tundras se convierten en llanuras, las llanuras en praderas, las junglas en bosques y los bosques crecen en cada casilla libre. Esto es de una vez.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_55</Tag>
+		<English>The Hero promotion gives the unit 1 XP per turn until it reaches 100 XP.</English>
+		<French>La promotion Héros donnent 1 EXP par tour jusqu'à 100.</French>
+		<German>Tipp... Die Beförderung "Held" gewährt der Einheit 1 EP pro Runde bis maximal 100 Erfahrungspunkten.</German>
+		<Italian>The Hero promotion gives the unit 1 XP per turn until it reaches 100 XP.</Italian>
+		<Spanish>El ascenso Héroe da a la unidad 1 de XP (puntos de experiencia) por turno hasta los 100 XPs.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_56</Tag>
+		<English>There is a minimum of 10 turns between civic changes, unless you have the Spiritual trait</English>
+		<French>Il y a un minimum de 10 tours entre 2 changements de doctrines</French>
+		<German>Tipp... Zwischen dem Wechsel von einer Gesellschaftform zu einer anderen müssen mindestens 10 Runden vergehen.</German>
+		<Italian>There is a minimum of 10 turns between civic changes.</Italian>
+		<Spanish>Hay un plazo mínimo de 10 turnos entre cambios de doctrinas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_57</Tag>
+		<English>Civilizations with the Slavery civic convert 25% of the units they defeat into Slaves.</English>
+		<French>Les civilisations avec la doctrine Esclavage transforment 25% des unités vaincues en Esclaves.</French>
+		<German>Tipp... Zivilisationen mit Sklaverei als Gesellschaftsform versklaven 25% aller von ihr besiegten Einheiten.</German>
+		<Italian>Civilizations with the Slavery civic convert 25% of the units they defeat into Slaves.</Italian>
+		<Spanish>Las civilizaciones con la doctrina Esclavismo convierten al 25% de las unidades que derrotan en Esclavos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_58</Tag>
+		<English>Some civics are only enabled when you have the required state religion. These are often very powerful.</English>
+		<French>Certaines doctrines ne sont accessibles qu'avec la religion d'État appropriée. Elles sont généralement très puissantes.</French>
+		<German>Tipp... Einige Gesellschaftsformen sind nur verfügbar, wenn eine bestimmte Staatsreligion gewählt wurde. Diese sind dafür oft besonders mächtig.</German>
+		<Italian>Some civics are only enabled when you have the required state religion. These are often very powerful.</Italian>
+		<Spanish>Algunas doctrinas sólo son activadas cuando tienes la religión oficial requerida. Además éstas son muy poderosas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_59</Tag>
+		<English>Some units can be trained only if you have required state religion. You can't train Crusaders without the Order religion, and you can't train Fawns without the Fellowship of the Leaves religion.</English>
+		<French>Certaines unités ne peuvent être produites qu'à condition d'avoir la religion d'État appropriée. Vous ne pouvez pas entraîner de Croisés sans l'Ordre ni d'Archers des Feuilles sans la Communauté des Feuilles.</French>
+		<German>Tipp... Manche Einheiten können nur von Zivilisationen mit einer bestimmten Staatsreligion aufgestellt werden. Ohne die "Weisung" können keine Kreuzritter aufgestellt werden, und keine Zivilisation wird ohne die "Gefährten des Laubes" als Staatsreligion einen Satyr ausbilden können.</German>
+		<Italian>Some units can be trained only if you have required state religion. You can't train Crusaders without the Order religion, and you can't train Satyrs without the Fellowship of the Leaves religion.</Italian>
+		<Spanish>Algunas unidades sólo pueden ser entranadas si tienes la religión oficial requerida. No puedes entrenar Cruzados sin la religión del Orden, y no puedes entrenar Sátiros sin la religión de la Comunidad de las Hojas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_6</Tag>
+		<English>Balance your research. Spending too much time on advanced techs leads to long research times. Neglecting cheaper, older technologies can cost you. But don't overlook the advantage of having a powerful unit early.</English>
+		<French>Equilibrez vos recherches. Passer trop de temps sur une technologie avancée entraîne des temps de recherche longs. Négliger les technologies plus anciennes mais les moins chères peut vous en coûter.</French>
+		<German>Tipp... Meist ist eine ausgewogene Forschung sinnvoll. Das unausgewogene Verfolgen von Schwerpunkten kann zu langen Forschungszeiten führen, die Vernachlässigung älterer Technologien kann teuer zu stehen kommen. Allerdings kann eine mächtige frühe Einheit ebenfalls von Vorteil sein.</German>
+		<Italian>Balance your research. Spending too much time on advanced techs leads to long research times. Neglecting cheaper, older technologies can cost you. But don't overlook the advantage of having a powerful unit early.</Italian>
+		<Spanish>Equilibra tu investigación. Gastar demasiado tiempo en tecnologías avanzadas lleva a largos tiempos de investigación. Desatender las más baratas y viejas tecnologías tiene un coste. Pero no pases por alto la ventaja de tener una unidad poderosa con prontitud.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_60</Tag>
+		<English>The best way to maintain peace is to control a significant military.  Other civilizations will prey on weak neighbors, but if you are strong enough they may look elsewhere for targets.</English>
+		<French>The best way to maintain peace is to control a significant armies.  Other civilizations will prey on weak neighbors, but if you are strong enough they may look elsewhere for targets.</French>
+		<German>Tipp... Die Technologie "Bootsbau" erhöht die Erträge von Fischerbooten, senkt aber die Erträge von Farmen. Nur die Lanun können diese Technologie nutzen und beginnen mit ihr.</German>
+		<Italian>The best way to maintain peace is to control a significant armies.  Other civilizations will prey on weak neighbors, but if you are strong enough they may look elsewhere for targets.</Italian>
+		<Spanish>The best way to maintain peace is to control a significant armies.  Other civilizations will prey on weak neighbors, but if you are strong enough they may look elsewhere for targets.</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_HINT_61</Tag>
+		<English>Clearing out nearby Lairs early is a rewarding but risky strategy. No one knows what will come out of the depths. Better start with the ones closest to your neighbours.</English>
+		<French>Clearing out nearby Lairs early is a rewarding but risky strategy. No one knows what will come out of the depths. Better start with the ones closest to your neighbours.</French>
+		<German>Clearing out nearby Lairs early is a rewarding but risky strategy. No one knows what will come out of the depths. Better start with the ones closest to your neighbours.</German>
+		<Italian>Clearing out nearby Lairs early is a rewarding but risky strategy. No one knows what will come out of the depths. Better start with the ones closest to your neighbours.</Italian>
+		<Spanish>Clearing out nearby Lairs early is a rewarding but risky strategy. No one knows what will come out of the depths. Better start with the ones closest to your neighbours.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_62</Tag>
+		<English>Civilizations with the Organized trait can build Command Posts even without Great Commanders. Other nations must use Great Commanders to construct them.</English>
+		<French>Les civilisations avec le trait Organisé peuvent construire des Postes de Commandement même sans Commandant Illustre.</French>
+		<German>Tipp... Zivilisationen mit der Eingenschaft "Organisiert" können Kommandoposten auch ohne Große Feldherren errichten. Andere Nationen können dies nur mit Hilfe Großer Feldherren.</German>
+		<Italian>Civilizations with the Organized trait can build Command Posts even without Great Commanders. Other nations must use Great Commanders to construct them.</Italian>
+		<Spanish>Las civilizaciones con el rasgo Organizado pueden construir Puestos de Mando sin necesidad de Grandes Comandantes. Las demás naciones deben usar Grandes Comandantes para construirlos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_63</Tag>
+		<English>The Bless enchantment lasts until the end of the unit's first combat. So keep a Confessor with the stack to renew the blessing after battle</English>
+		<French>The Bless enchantment lasts until the end of the unit's first combat.</French>
+		<German>Tipp... Die Zauber "Segen" und "Regeneration" halten bis zum Ende des ersten Kampfes einer Einheit an.</German>
+		<Italian>The Bless enchantment lasts until the end of the unit's first combat.</Italian>
+		<Spanish>The Bless enchantment lasts until the end of the unit's first combat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_64</Tag>
+		<English>Each World Unit can be created only once. If such a unit dies, it can not be recreated. Heroes and Apocalypse units are World Units.</English>
+		<French>Chaque unité mondiale ne peut être crée qu'une seule fois. Si une telle unité meure, elle ne peut plus être recréée. Les Héros et les unités d'Apocalypse sont des unités mondiales.</French>
+		<German>Tipp... Jede Welteinheit ist einmalig. Beim Tod einer solchen, bleibt sie für immer verloren. Helden und apokalyptische Einheiten sind Welteinheiten.</German>
+		<Italian>Each World Unit can be created only once. If such a unit dies, it can not be recreated. Heroes and Apocalypse units are World Units.</Italian>
+		<Spanish>Cada Unidad Mundial puede ser creada sólo una vez. Si una de ellas muere, no puede volver a crearse. Los Héroes y las unidades del Apocalipsis son Unidades Mundiales.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_65</Tag>
+		<English>The Mithril Golem and Meshabber of Dis are Monstrous Creatures. They are enormously strong, but not invulnerable. It's possible to kill them, just very difficult.</English>
+		<French>Le Golem de Mithril et le Meshabber de Dis sont des Avatars. Il sont extrêmement forts, mais pas invulnérables. Il est possible de les tuer, c'est juste très difficile.</French>
+		<German>Tipp... Der Mithrilgolem und Meshabber von Dis sind Avatare. Sie sind extrem stark, aber nicht unverwundbar. Sie zu besiegen ist möglich, jedoch äußerst schwierig.</German>
+		<Italian>The Mithril Golem and Meshabber of Dis are Avatars. They are enormously strong, but not invulnerable. It's possible to kill them, just very difficult.</Italian>
+		<Spanish>El Golem de Mithril y Meshabber de Dis son Avatars. Son enormemente fuertes, pero no invulnerables. Es posible matarlos, sólo que es difícil.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_66</Tag>
+		<English>Apocalypse kills 60% of all living units and halves population in all cities.</English>
+		<French>L'Apocalypse tue 60% des unités et divise par 2 la population de toutes les villes. </French>
+		<German>Tipp... Die Apokalypse löscht 60% aller lebenden Einheiten aus und halbiert die Anzahl der Einwohner jeder Stadt. Sie trifft jede Zivilisation gleichermaßen, also auch deren Auslöser.</German>
+		<Italian>Apocalypse kills 60% of all living units and halves population in all cities.</Italian>
+		<Spanish>El Apocalipsis mata al 60% de todas las unidades vivas y reduce a la mitad la población de todas las ciudades.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_67</Tag>
+		<English>Mages' fireballs cause collateral damage and can bombard city defenses. Fireballs will not be effected by the summoner trait.</English>
+		<French>Mages' fireballs cause collateral damage and can bombard city defenses. Fireballs will not be effected by the summoner trait.</French>
+		<German>Tipp... Der Feuerball eines Magiers ist schwächer als andere beschworene Einheiten, verursacht aber Kollateralschäden und kann Stadtverteidigungen bombardieren.</German>
+		<Italian>Mages' fireballs cause collateral damage and can bombard city defenses. Fireballs will not be effected by the summoner trait.</Italian>
+		<Spanish>Mages' fireballs cause collateral damage and can bombard city defenses. Fireballs will not be effected by the summoner trait.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_68</Tag>
+		<English>The Body I Haste spell affects all living units in the same tile. It lasts for 1 turn. To speed up Non-living units like Catapults, look for the Force I spell, accelerate</English>
+		<French>Le sort Hâte des Adeptes affecte toutes les unités d'une case. Il dure 1 tour.</French>
+		<German>Tipp... Der Zauber "Hast" des Adepten wirkt für eine Runde auf alle lebenden Einheiten auf demselben Geländefeld.</German>
+		<Italian>An Adept's Haste spell affects all living units in the same tile. It lasts for 1 turn.</Italian>
+		<Spanish>El conjuro de adepto Prisa adecta a todas las unidades vivas de la misma casilla. Dura 1 turno.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_69</Tag>
+		<English>Spellcasters only have access to spells in spheres their civilization has the mana for.  So you need Fire mana if you want your spellcasters to learn fire spells. Four technologies give arcane class units the ability to build mana nodes of different types. This is permanent unless you have a mage with the dispel spell, granted by metamagic, which is buildable after researching sorcery.</English>
+		<French>Spellcasters only have access to spells in spheres their civilization has the mana for.  So you need Fire mana if you want your spellcasters to learn fire spells. Four technologies give arcane class units the ability to build mana nodes of different types. This is permanent unless you have a mage with the dispel spell, granted by metamagic, which is buildable after researching sorcery.</French>
+		<German>Tipp... Zauberer haben nur Zugang zu den Zaubern, für die ihre Zivilisation die entsprechende Manaquelle hat. Damit Zauberer Feuerzauber wirken können, muss Zugang zum Mana des Feuers bestehen.</German>
+		<Italian>Spellcasters only have access to spells in spheres their civilization has the mana for.  So you need Fire mana if you want your spellcasters to learn fire spells. Four technologies give arcane class units the ability to build mana nodes of different types. This is permanent unless you have a mage with the dispel spell, granted by metamagic, which is buildable after researching sorcery.</Italian>
+		<Spanish>Spellcasters only have access to spells in spheres their civilization has the mana for.  So you need Fire mana if you want your spellcasters to learn fire spells. Four technologies give arcane class units the ability to build mana nodes of different types. This is permanent unless you have a mage with the dispel spell, granted by metamagic, which is buildable after researching sorcery.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_7</Tag>
+		<English>Units cost money in maintenance--don't use fifty when fifteen will do.</English>
+		<French>Les unités coûtent de l'or en maintenance. N'en utilisez pas quatre-vingt quand vingt suffisent.</French>
+		<German>Tipp... Einheiten verursachen laufende Kosten, weswegen Augenmaß erforderlich ist. Ein Zuviel an Einheiten entzieht der Staatskasse kostbares Gold, ein Zuwenig an Einheiten macht verwundbar.</German>
+		<Italian>Units cost money in maintenance--don't use fifty when fifteen will do.</Italian>
+		<Spanish>Las unidades cuestan un mantenimiento... no uses cincuenta cuando quince son suficientes.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_70</Tag>
+		<English>Don't think your heroes are invincible--they can have an impressive list of promotions, but their raw power is not too great. Late game units can overpower middle game heroes in direct combat.</English>
+		<French>Ne croyez pas que vos héros sont invincibles - ils peuvent avoir une liste de promotions impressionnante, mais leur puissance de base n'est pas trop élevée - des unités de fin de partie peuvent surpasser des héros de milieu de partie en confrontation directe.</French>
+		<German>Tipp... Helden sind nicht unbesiegbar. Sie können eine eindrucksvolle Liste von Beförderungen haben, aber ihre Stärke im Kampf ist nicht besonders groß. Späte Einheiten können frühe Helden besiegen.</German>
+		<Italian>Don't think your heroes are invincible--they can have an impressive list of promotions, but their raw power is not too great. Late game units can overpower middle game heroes in direct combat.</Italian>
+		<Spanish>No creas que tus héroes son invencibles... pueden tener una impresionante lista de ascensos, pero su poder bruto no es tan grande. Las unidades finales pueden superar en poder a los héroes de mitad del juego en combate directo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_71</Tag>
+		<English>Most units require special buildings. Some buildings improve all units of certain type. You should not usually try to build all possible buildings in every city--specialize your cities.</English>
+		<French>Beaucoup d'unités requièrent des bâtiments spéciaux. Certains bâtiments améliorent toutes les unités d'un certain type. N'essayez pas de construire tous les bâtiments possibles dans toutes les villes - spécialisez vos villes.</French>
+		<German>Tipp... Die meisten Einheiten benötigen spezielle Gebäude. Einige Gebäude verbessern alle Einheiten eines bestimmten Typs. Allerdings sollten nicht in jeder Stadt alle möglichen Gebäude errichtet werden. Die Spezialisierung von Städten ist viel effektiver.</German>
+		<Italian>Most units require special buildings. Some buildings improve all units of certain type. Do not try to build all possible buildings in every city--specialize your cities.</Italian>
+		<Spanish>La mayoría de unidades requieren construcciones especiaels. Algunas construcciones mejoran a todas las unidades de una clase concreta. No intentes construir todos los posibles edificios en cada ciudad... especializa tus ciudades.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_72</Tag>
+		<English>Some spells like Tsunami, Maelstrom, and Ring of Flames, will damage your units as well as your enemies. Damaging another civilization's units is considered an act of war.</English>
+		<French>L'aura de feu du Meshabber de Dis endommagera vos unités en même temps que celles de l'ennemi. Endommager les unités d'une autre civilisation est considéré comme un acte de guerre.</French>
+		<German>Tipp... Die Feuer-Aura des Meshabber von Dis beschädigt alle eigenen und feindlichen Einheiten. Die Beschädigung von Einheiten anderer Zivilisationen ist ein kriegerischer Akt.</German>
+		<Italian>The fire aura of Meshabber of Dis will damage your units as well as your enemies. Damaging another civilization's units is considered an act of war.</Italian>
+		<Spanish>El aura de fuego de Meshabber de Dis dañará a tus unidades y a tus enemigos por igual. Dañar la unidad de otra civilización se considera un acto de guerra.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_73</Tag>
+		<English>If the Armageddon Counter gets too high the Avatar of Wrath will enter the world, and a percentage of the worlds living units will join him.</English>
+		<French>Si le Compteur Armageddon monte trop haut, l'Avatar du Courroux entrera dans le monde en tant qu'unité barbare, et une partie des unités vivantes du monde le rejoindra.</French>
+		<German>Tipp... Wenn der Armageddonzähler zu hoch steigt, erscheint der Avatar des Zorns als eine Barbaren-Einheit, und ein Teil der lebenden Einheiten der Welt wird sich ihm anschließen.</German>
+		<Italian>If the Armageddon Counter gets too high the Avatar of Wrath will enter the world as a barbarian unit, and a percentage of the worlds living units will join him.</Italian>
+		<Spanish>Si el Contador del Armagedón llega lo suficientemente alto, el Avatar de la Ira entrará en el mundo como una unidad bárbara, y un porcentaje de las unidades vivas de todo el mundo se unirán a él.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_74</Tag>
+		<English>Blight will strike all players when the Armageddon Counter reaches 30. It gives a large health penalty to every city and damages every unit.</English>
+		<French>Blight will strike all players as the Armageddon Counter rises. It gives a large health penalty to every city and damages every unit.</French>
+		<German>Tipp... Die Dürre verwandelt zufällig fruchtbares Land in Wüste und zerstört Getreidefelder und viele Nahrungsressourcen auf der ganzen Welt.</German>
+		<Italian>Blight will strike all players as the Armageddon Counter rises. It gives a large health penalty to every city and damages every unit.</Italian>
+		<Spanish>Blight will strike all players as the Armageddon Counter rises. It gives a large health penalty to every city and damages every unit.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_75</Tag>
+		<English>Soldiers of Kilmorph and slaves can hurry production in cities.</English>
+		<French>Les Soldats de Kilmorph et les esclaves peuvent accélérer la production des villes.</French>
+		<German>Tipp... Streiter der Kilmorph und Sklaven können die Produktion einer Stadt beschleunigen.</German>
+		<Italian>Soldiers of Kilmorph and slaves can hurry production in cities.</Italian>
+		<Spanish>Los Soldados de Kilmorph y los esclavos pueden acelerar la producción en las ciudades.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_76</Tag>
+		<English>Disciples can make a little culture burst in a city. Priests can construct temples of their religions. Both of these will consume the unit</English>
+		<French>Les disciples peuvent générer un petit bonus de culture dans une ville. Les prêtres peuvent construire des temples de leur religion. </French>
+		<German>Tipp... Geweihte Einheiten können einen Kulturboom in einer Stadt auslösen. Priester können Tempel ihrer Religionen errichten.</German>
+		<Italian>Disciples can make a little culture burst in a city. Priests can construct temples of their religions. </Italian>
+		<Spanish>Los discípulos pueden generar pequeños impulsos de cultura en una ciudad. Los sacerdotes pueden construir templos de su religión.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_77</Tag>
+		<English>Units can be joined to a Great Commander, who can grant many bonuses to his followers. Commanders level up as their followers do, and should be joined with followers of a similar level for best results</English>
+		<French>Un Commandant Illustre peut être adjoint à une unité. Faire cela augmente la force de l'unité et lui fait gagner de l'expérience plus rapidement. Le Commandant Illustre peut être séparé de l'unité à tout moment.</French>
+		<German>Tipp... Ein Großer Feldherr kann auch eine Einheit anführen. Dadurch steigt die Stärke der Einheit und sie erhält schneller Erfahrung. Ein Großer Feldherr kann jederzeit wieder von seiner Einheit gelöst werden.</German>
+		<Italian>The Great Commander can be joined to a unit.  Doing so will increase the unit's strength and cause it to gain xp faster.  Great Commanders can be split from the unit at any point.</Italian>
+		<Spanish>El Gran Comandante puede unirse a una unidad.  Al hacerlo aumentará la fuerza de la unidad y como consecuencia ganará experiencia más rápido.  Los Grandes Comandantes pueden separarse de la unidad en cualquier momento.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_78</Tag>
+		<English>Erebus is a dangerous world; most scouts don't return from exploring and building more cities than you can defend will often doom your empire. Exploring a dungeon or lair, especially an epic dungeon with a unique name, has the potential to make things much more dangerous for those nearby.</English>
+		<French>Erebus is a dangerous world; most scouts don't return from exploring and building more cities than you can defend will often doom your empire. Exploring a dungeon or lair, especially an epic dungeon with a unique name, has the potential to make things much more dangerous for those nearby.</French>
+		<German>Tipp... Erebus ist eine gefährliche Welt: Die meisten Späher kehren nicht von ihren Expeditionen zurück und die Errichtung zuvieler Städte, die nur schwer verteidgt werden können, führt ein Reich oftmals in den Untergang. Eine neugegründete Stadt sollte niemals (NIEMALS!) ungeschützt sein.</German>
+		<Italian>Erebus is a dangerous world; most scouts don't return from exploring and building more cities than you can defend will often doom your empire. Exploring a dungeon or lair, especially an epic dungeon with a unique name, has the potential to make things much more dangerous for those nearby.</Italian>
+		<Spanish>Erebus is a dangerous world; most scouts don't return from exploring and building more cities than you can defend will often doom your empire. Exploring a dungeon or lair, especially an epic dungeon with a unique name, has the potential to make things much more dangerous for those nearby.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_79</Tag>
+		<English>With Conquest civic you receive more gold when you capture a city, but the city loses extra population.</English>
+		<French>Avec la doctrine Conquête vous recevez plus d'or lors de la capture d'une ville, mais la ville perd davantage de population.</French>
+		<German>Tipp... Die Gesellschaftsform "Eroberung" gewährt mehr Gold bei Eroberung einer Stadt, aber gleichzeitig verliert die Stadt auch mehr Bürger.</German>
+		<Italian>With Conquest civic you receive more gold when you capture a city, but the city loses extra population.</Italian>
+		<Spanish>Con la doctrina Conquista recibes más oro cuando capturas una ciudad, pero la ciudad pierde una población adicional.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_8</Tag>
+		<English>Never despair in the face of a large stack of units. A mage's Fireball may not be strong, but it can do a lot of damage to an enemy stack. If you have no mages--use catapults.</English>
+		<French>Ne baissez jamais les bras face à une grosse pile d'unités. Les catapultes ne font peut-être pas le poids face à la cavalerie, mais vous pouvez quand même infliger de sérieux dégâts si vous en avez suffisamment.</French>
+		<German>Tipp... Angesichts eines bedrohlichen Einheitenverbandes heißt es, Ruhe zu bewahren. Der Feuerball des Magiers ist zwar nicht sehr stark, aber er kann einem Truppenverband erheblich schaden. Sind keine Magier verfügbar, können auch Katapulte eingesetzt werden.</German>
+		<Italian>Never despair in the face of a large stack of units. A mage's Fireball may not be strong, but it can do a lot of damage to an enemy stack. If you have no mages--use catapults.</Italian>
+		<Spanish>Nunca desesperes cuando te enfrentes a una gran pila de unidades. La Bola de Fuego de un mago puede no ser fuerte, pero puede infligir muchos daños a una pila de unidades enemiga. Si no tienes magos... usa catapultas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_80</Tag>
+		<English>You may want to choose a religion others share for the diplomatic bonus, or go your own path to have less competition for religious heroes.</English>
+		<French>You may want to choose a religion others share for the diplomatic bonus, or go your own path to have less competition for religious heroes.</French>
+		<German>Tipp... Die Wahl einer Staatsreligion beeinflusst die diplomatischen Beziehungen mit anderen Reichen und kann einen Diplomatie-Bonus gewähren, wenn die gewählte Religion verschiedene Reiche miteinander verbindet. Andererseits kann es vorteilhaft sein einen eigenen Weg zu beschreiten, um die Konkurenz um religiöse Helden zu minimieren.</German>
+		<Italian>You may want to choose a religion others share for the diplomatic bonus, or go your own path to have less competition for religious heroes.</Italian>
+		<Spanish>Quizás quieras elegir una religión que otros comparten por una bonificación de diplomacia, o ir por tu propio camino para tener menos competencia por los héroes de la religión.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_81</Tag>
+		<English>Recon units can be promoted with Subdue Animal to capture animals once the Animal Husbandry tech is researched. These can be used to attack or added to cities to boost happiness and culture. But act fast, animals won't spawn for long!</English>
+		<French>Recon units can be promoted with Subdue Animal to capture animals once the Domesticate Animals tech is researched. These can be used to attack or added to cities to boost happiness and culture. But act fast, animals won't spawn for long!</French>
+		<German>Tipp... Die Technologie "Viehhaltung" ermöglicht Erkundungs-Einheiten die Beförderung "Tierbändigung" zu verleihen, um Tiere zu fangen. Diese können als Kampfeinheiten benutzt oder aber in Städten zur Steigerung von Zufriedenheit und Kultur eingesetzt werden. Allerdings wandern Tiere nur für eine begrenzte Zeit in der Welt umher.</German>
+		<Italian>Recon units can be promoted with Subdue Animal to capture animals once the Domesticate Animals tech is researched. These can be used to attack or added to cities to boost happiness and culture. But act fast, animals won't spawn for long!</Italian>
+		<Spanish>Las unidades de reconocimiento pueden ser ascendidas con Calmar Animal para capturar animales una vez que la tecnología Domesticar Animales sea descubierta. Estos pueden usarse para atacar o para añadirlos a ciudades para subir su felicidad y cultura. ¡Pero actúa rápido, los animales no se generarán mucho tiempo!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_82</Tag>
+		<English>Razing cities and spreading the Ashen Veil religion will raise the Armageddon Counter. This will lead to apocalyptic events and increased aggression. </English>
+		<French>Razing cities and spreading the Ashen Veil religion will raise the Armageddon Counter. This will lead to apocalyptic events and increased aggression. </French>
+		<German>Tipp... Das Brandschatzen von Städten und die Verbreitung des "Aschfahlen Schleiers" erhöht den Armageddonzähler. Dies führt zu apokalyptischen Ereignissen und steigert die Aggressivität der Reiche untereinander.</German>
+		<Italian>Razing cities and spreading the Ashen Veil religion will raise the Armageddon Counter. This will lead to apocalyptic events and increased aggression. </Italian>
+		<Spanish>Arrasar ciudades y propagando la religión del Velo Ceniciento hará crecer el Contador del Armagedón. Esto conducirá a eventos apocalípticos y a un aumento de las agresiones. </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_83</Tag>
+		<English>Often, landmarks will spawn when the map is created. These are unique improvements that are markers of events from ages past. They will often give great tile yields from the start, or other special abilities. Do what you can to control these tiles, but be sure you know what they do. Building a city near the fertile Yggdrasil is a great boon, while building near the Guardian of Pristinus Pass is quite risky.</English>
+		<French>Sometimes landmarks will spawn when the map is created. These are unique improvements that are markers of events from ages past. They will often give great tile yields from the start, or other special abilities. Do what you can to control these tiles, but be sure you know what they do. Building a city near the fertile Yggdrasil is a great boon, while building near the Guardian of Pristinus Pass is quite risky.</French>
+		<German>Tipp... Manchmal erscheinen Denkmäler bei der Generierung einer Karte. Diese sind überbleibsel von Ereignissen vergangener Zeiten und statten das Geländefeld, auf dem sie sich befinden, mit einzigartigen Verbesserungen, wie höheren Erträgen oder anderen speziellen Eigenschaften, aus. Die Kontrolle dieser Denkmäler ist oft hart umkämpft.</German>
+		<Italian>Sometimes landmarks will spawn when the map is created. These are unique improvements that are markers of events from ages past. They will often give great tile yields from the start, or other special abilities. Do what you can to control these tiles, but be sure you know what they do. Building a city near the fertile Yggdrasil is a great boon, while building near the Guardian of Pristinus Pass is quite risky.</Italian>
+		<Spanish>Sometimes landmarks will spawn when the map is created. These are unique improvements that are markers of events from ages past. They will often give great tile yields from the start, or other special abilities. Do what you can to control these tiles, but be sure you know what they do. Building a city near the fertile Yggdrasil is a great boon, while building near the Guardian of Pristinus Pass is quite risky.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_84</Tag>
+		<English>Rushing production with population is only available with the Slavery civic., available at Way of the Wicked. Doing this causes unhappiness in your cities</English>
+		<French>Rushing production with population is only available with the Slavery civic., available at Way of the Wicked.</French>
+		<German>Tipp... Die Beschleunigung von Produktionen durch Opferung von Bevölkerung kann nur mit den Gesellschftsformen "Sklaverei" und "Opfer die Schwachen" durchgeführt werden, welche ausschließlich Nationen mit den Staatsreligionen "Schatten der Tiefe" oder "Aschfahler Schleier" vorbehalten sind.</German>
+		<Italian>Rushing production with population is only available with the Slavery civic., available at Way of the Wicked.</Italian>
+		<Spanish>Rushing production with population is only available with the Slavery civic., available at Way of the Wicked.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_85</Tag>
+		<English>Priests can learn the Command promotion, to have a chance to converting living enemy units that they defeat. After upgrading to high priests they can take subsequent command promotions. Command IV is only available with the Order as your state religion.</English>
+		<French>Priests can learn the Command promotion, to have a chance to converting living enemy units that they defeat. After upgrading to high priests they can take subsequent command promotions. Command IV is only available to High Priests of the Order.</French>
+		<German>Tipp... Priester können im späteren Spielverlauf zu Inquisitoren befördert werden. Diese haben eine Chance von 50%, besiegte lebende Einheiten zur eigenen Seite zu konvertieren.</German>
+		<Italian>Priests can learn the Command promotion, to have a chance to converting living enemy units that they defeat. After upgrading to high priests they can take subsequent command promotions. Command IV is only available to High Priests of the Order.</Italian>
+		<Spanish>Priests can learn the Command promotion, to have a chance to converting living enemy units that they defeat. After upgrading to high priests they can take subsequent command promotions. Command IV is only available to High Priests of the Order.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_86</Tag>
+		<English>Religious heroes will abandon you if you change religions. Demagogs will do so if you leave the Crusade civic, and Royal Guard units will leave if you change from the Aristocracy civic.</English>
+		<French>Religious heroes will abandon you if you change religions. Demagogs will do so if you leave the Crusade civic, and Royal Guard units will leave if you change from the Aristocracy civic.</French>
+		<German>Tipp... Religiöse Helden werden ein Reich verlassen, wenn dieses seine Staaatsreligion wechselt. Demagogen werden dies tun, wenn die Gesellschaftsform "Kreuzzug" aufgegeben wird. Und die Königlichen Garden verlassen das Reich, wenn von der Gesellschaftsform "Erbrecht" zu einer anderen gewechselt wird.</German>
+		<Italian>Religious heroes will abandon you if you change religions. Demagogs will do so if you leave the Crusade civic, and Royal Guard units will leave if you change from the Aristocracy civic.</Italian>
+		<Spanish>Los héroes religiosos te abandonarán si cambias de religión. Los Demagogos harán lo mismo si abandonas la doctrina Cruzada, y las unidades Guardia Real si dejas la doctrina Aristocracia.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_87</Tag>
+		<English>The arrival of the Infernal civilization will also begin transforming the world into hell. Work to lower the Armageddon Counter if you want to keep this from spreading to your lands.</English>
+		<French>The arrival of the Infernal civilization will also begin transforming the world into hell. Work to lower the Armageddon Counter if you want to keep this from spreading to your lands.</French>
+		<German>Tipp... Mit dem Auftreten der dämonischen Zivilisation verändert sich die Welt hin zu einer Höllenlandschaft. Nur die Senkung des Armageddonzählers kann die weitere Verbreitung der Höllenlandschaft verhindern.</German>
+		<Italian>The arrival of the Infernal civilization will also begin transforming the world into hell. Work to lower the Armageddon Counter if you want to keep this from spreading to your lands.</Italian>
+		<Spanish>Con la llegada de la civilización infernal empezará la transformación del mundo en un infierno. Trabaja para reducir el Contador del Armagedón si quieres prevenir que se extienda por tus tierras.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_88</Tag>
+		<English>All players who learn a religion founding tech will receive a disciple of that religion, though only the first gets the benefits of a Holy City.</English>
+		<French>All players who learn a religion founding tech will receive a disciple of that religion, though only the first gets the benefits of a Holy City.</French>
+		<German>Tipp... Die Erforschung einer Technologie, die eine Religion begründet, gewährt eine Geweihte Einheit dieser Religion. Allerdings erhält nur der erste Erforscher den Vorteil einer Heiligen Stadt.</German>
+		<Italian>All players who learn a religion founding tech will receive a disciple of that religion, though only the first gets the benefits of a Holy City.</Italian>
+		<Spanish>Todos los jugadores que aprendan una tecnología de fundación religiosa recibirá un discípulo de esa religión, aunque sólo los primeros consiguen los beneficios de una Ciudad Santa.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_89</Tag>
+		<English>Each Civilization has distinct benefits and drawbacks. The Grigori, for example, cannot adopt a state religion--but watch out for their many heroes!</English>
+		<French>Each Civilization has distinct benefits and drawbacks. The Grigori, for example, cannot adopt a state religion--but watch out for their many heroes!</French>
+		<German>Tipp... Jede Zivilisation hat ausgeprägte Vor- und Nachteile. Die Grigori können beispielsweise keine Staatsreligion wählen, sind aber ein Hort für viele Helden!</German>
+		<Italian>Each Civilization has distinct benefits and drawbacks. The Grigori, for example, cannot adopt a state religion--but watch out for their many heroes!</Italian>
+		<Spanish>Cada Civilización tiene distintos pros y contras. Grigori, por ejemplo, no puede adoptar una religión oficial... ¡pero cuidado con su gran cantidad de héroes!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_9</Tag>
+		<English>Not every city can occupy an ideal location. Some cities can be placed to acquire resources or make use of marginal terrain. Keep an eye on your cities' maintenance costs, so that you do not expand too quickly and stifle your economy.</English>
+		<French>Toutes les villes ne peuvent pas être fondées sur des emplacements parfaits. Certaines peuvent être placées stratégiquement pour exploiter des ressources ou occuper des terrains secondaires. Gardez toujours un &#156;il sur les coûts d'entretien de vos villes afin de ne pas croître trop rapidement au risque d'étouffer votre économie.</French>
+		<German>Tipp... Nicht für jede neue Stadt lässt sich ein idealer Ort finden. Manche Städte können sich an Schlüsselpositionen schon allein deshalb lohnen, nur um eine Ressource zu erschließen oder verschiedene Gewässer zu verbinden. Vorsicht ist aber bei den laufenden Kosten geboten, denn eine zu schnelle Expansion belastet die Staatskasse.</German>
+		<Italian>Not every city can occupy an ideal location. Some cities can be placed to acquire resources or make use of marginal terrain. Keep an eye on your cities' maintenance costs, so that you do not expand too quickly and stifle your economy.</Italian>
+		<Spanish>No todas las ciudades tienen que ocupar una localización ideal. Algunas pueden emplazarse para adquirir recursos o hacer uso de terreno marginal. Échale un ojo a los costes de mantenimiento de tus ciudades, para que no te expandas demasiado rápido y ahogues tu economía.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_90</Tag>
+		<English>Elven workers (and slaves) can build cottages, farms, and plantations on top of forests. This is extremely useful for extra production and health.</English>
+		<French>Elven workers (and slaves) can build cottages, farms, and plantations on top of forests. This is extremely useful for extra production and health.</French>
+		<German>Tipp... Elfen-Arbeitstrupps (und diesselben als Sklaven) können Gehöfte, Getreidefelder und Plantagen in Wäldern errichten. Das ist extrem nützlich für zusätzliche Produktion und Gesundheit.</German>
+		<Italian>Elven workers (and slaves) can build cottages, farms, and plantations on top of forests. This is extremely useful for extra production and health.</Italian>
+		<Spanish>Los trabajadores elfos (y esclavos) pueden construir villas, granjas y plantaciones encima de los bosques. Esto es extremadamente útil para tener producción extra y salud.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_91</Tag>
+		<English>Hidden nationality units, such as animals, can attack without declaring war. Be aware however that this works both ways, and they can also BE attacked by civs you are not at war with, without causing war. If you have many Hidden Nationality units, beware of opening your borders, and remember that the territory of your supposed "friends" is not a safe place for these units</English>
+		<French>Hidden nationality units, such as animals, can attack without declaring war.</French>
+		<German>Tipp... Einheiten mit verborgener Nationalität und Raubtiere können ohne Kriegserklärung angreifen.</German>
+		<Italian>Hidden nationality units, such as animals, can attack without declaring war.</Italian>
+		<Spanish>Las unidades con Nacionalidad Oculta, como los animales, pueden atacar sin declarar la guerra.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_92</Tag>
+		<English>Some leaders have the adaptive trait. This will allow their player to choose a new trait periodically. Plan ahead to be aggressive or raiders during war and financial or philosophical during peace.</English>
+		<French>Some leaders have the adaptive trait. This will allow their player to choose a new trait periodically. Plan ahead to be aggressive or raiders during war and financial or philosophical during peace.</French>
+		<German>Tipp... Einige Oberhäupter verfügen über die Eigenschaft "Adaptiv". Dadurch kann periodisch eine neue Eigenschaft gewählt werden. Mit der richtigen Vorausplanung ist es so möglich, während eines Krieges die Eigenschaften "Aggressiv" oder "Räuberisch" zu nutzen und in Friedenszeiten "Kommerziell" oder "Philosopisch".</German>
+		<Italian>Some leaders have the adaptive trait. This will allow their player to choose a new trait periodically. Plan ahead to be aggressive or raiders during war and financial or philosophical during peace.</Italian>
+		<Spanish>Algunos líderes tienen el rasgo adaptabilidad. Esto permitirá a su jugador elegir un nuevo rasgo periódicamente. Planea ser agresivo o saqueadores durante la guerra, y financiero o filosófico durante la paz.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_93</Tag>
+		<English>There are more options for victory. Religious requires using diplomacy--and inquisitors--to spread a religion you control far and wide. To build the Tower of Mastery, you must control a diverse assortment of mana, and the Altar of the Luonnatar can give the win to those who grow lots of great prophets.</English>
+		<French>There are more options for victory. Religious requires using diplomacy--and inquisitors--to spread a religion you control far and wide. To build the Tower of Mastery, you must control a diverse assortment of mana, and the Altar of the Luonnatar can give the win to those who grow lots of great prophets.</French>
+		<German>Tipp... Es gibt mehrere Siegmöglichkeiten. Ein Religionssieg erfordert Diplomatie und Inquisitoren, um die eigene Religion weit zu verbreiten. Um den Turm der Macht zu errichten, müssen viele verschiedene Manaquellen beherrscht werden. Der Altar der Luonnatar bedeutet den Sieg für jenes Reich, das viele Große Propheten hervorbringt.</German>
+		<Italian>There are more options for victory. Religious requires using diplomacy--and inquisitors--to spread a religion you control far and wide. To build the Tower of Mastery, you must control a diverse assortment of mana, and the Altar of the Luonnatar can give the win to those who grow lots of great prophets.</Italian>
+		<Spanish>Hay más opciones para la victoria. La religiosa requiere usar la diplomacia (e inquisidores) para propagar lejos y sabiamente la religión que controles. Para construir la Torre de la Maestría, debes tener un surtido variado de maná, y el Altar de los Luonnatar concede la victoria a aquel quien haga crecer a un monton de grandes profetas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_94</Tag>
+		<English>Adjust the game options to fit the play experience you want, such as no Armageddon Counter, more animals--or even a world already filled with barbarian cities!</English>
+		<French>Adjust the game options to fit the play experience you want, such as no Armageddon Counter, more animals--or even a world already filled with barbarian cities!</French>
+		<German>Tipp... Die Spieleinstellungen können entsprechend dem gewünschten Spielerlebnis geändert werden, so dass es beispielsweise keinen Armageddonzähler gibt, mehr Tiere umherstreifen oder die Welt bereits mit unzähligen Barbarenstädten bevölkert ist!</German>
+		<Italian>Adjust the game options to fit the play experience you want, such as no Armageddon Counter, more animals--or even a world already filled with barbarian cities!</Italian>
+		<Spanish>Ajusta las opciones de juego para poner a punto la experiencia de juego que quieres, como "sin Contador del Armagedón", "más animales"... ¡o incluso un mundo ya lleno de ciudades bárbaras!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_95</Tag>
+		<English>A leader with the Barbarian trait has nothing to fear from the orcs that seek to ravage other player's lands, though they must still contend with animals. Use this to your advantage, but beware, if your score grows too much higher than your rivals your peace with the barbarians will end.</English>
+		<French>A leader with the Barbarian trait has nothing to fear from the orcs that seek to ravage other player's lands, though they must still contend with animals. Use this to your advantage, but beware, if your score grows too much higher than your rivals your peace with the barbarians will end.</French>
+		<German>Tipp... Ein Oberhaupt mit der Eigenschaft "Barbarisch" hat nichts von den Orks zu befürchten, die die Ländereien anderer Reiche verwüsten. Dennoch muss er sich mit umherstreifenden Tieren auseinandersetzen. Dieser Vorteil kann sich aber auch negativ auswirken. Denn wenn der Punktestand im Vergleich zu den anderen Oberhäuptern zu hoch wird, endet der Frieden mit den Barbaren.</German>
+		<Italian>A leader with the Barbarian trait has nothing to fear from the orcs that seek to ravage other player's lands, though they must still contend with animals. Use this to your advantage, but beware, if your score grows too much higher than your rivals your peace with the barbarians will end.</Italian>
+		<Spanish>Un líder con el rasgo Bárbaro no tiene nada que temer de los orcos que buscan hacer estragos a las otras tierras de los jugadores, aunque aún tienen que enfrentarse a los animales. Utiliza esto para tu ventaja, pero cuidado, si tu puntuación crece más alta que la de tus rivales la paz con los bárbaros terminará.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_96</Tag>
+		<English>Random events will strike players based partly on their in-game actions. Often the options you have to react to these opportunities depend on your state religion, buildings present, or gold on hand.</English>
+		<French>Unless turned off, random events will strike players based partly on their in-game actions. Often the options you have to react to these opportunities depend on your state religion, buildings present, or gold on hand.</French>
+		<German>Tipp... Sofern nicht ausgeschaltet, treten zufällige Ereignisse auf, die zum Teil auf den Taten der laufenden Partie basieren. Oft sind die Möglichkeiten, auf ein Ereignis zu reagieren, von der Staatsreligion und den vorhandenen Gilden abhängig.</German>
+		<Italian>Unless turned off, random events will strike players based partly on their in-game actions. Often the options you have to react to these opportunities depend on your state religion, buildings present, or gold on hand.</Italian>
+		<Spanish>Unless turned off, random events will strike players based partly on their in-game actions. Often the options you have to react to these opportunities depend on your state religion, buildings present, or gold on hand.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_97</Tag>
+		<English>Exploration is vital not only to search for tribal villages and resources to settle near, but to find monster lairs such as barrows and ruins. Destroy these as soon as you can--unless, perhaps, if they are nearer to your rivals than to you.</English>
+		<French>Exploration is vital not only to search for tribal villages and resources to settle near, but to find monster lairs such as barrows and ruins. Destroy these as soon as you can--unless, perhaps, if they are nearer to your rivals than to you.</French>
+		<German>Tipp... Erkundung ist nicht nur wichtig, um Eingeborenendörfer und rohstoffreiche Siedlungsplätze zu finden, sondern auch um Monsterlager wie Hügelgräber oder Ruinen zu finden. Diese sollten so schnell wie möglich zerstört werden, sofern sie nicht näher an einer feindlichen Grenze liegen als an der eigenen.</German>
+		<Italian>Exploration is vital not only to search for tribal villages and resources to settle near, but to find monster lairs such as barrows and ruins. Destroy these as soon as you can--unless, perhaps, if they are nearer to your rivals than to you.</Italian>
+		<Spanish>La Exploración es vital no sólo para buscar aldeas tribales y recursos explotables, también es para encontrar guaridas de monstruos como túmulos y ruinas. Destruyelas tan pronto como puedas... excepto, quizás, si están más cerca de tus rivales que de tí.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_98</Tag>
+		<English>The Mercurian and Infernal civilizations are not of the mortal world, so you cannot begin play as either. But if you call them into the world you will be given the option to play as these powerful civilizations. Call the Infernals by researching Infernal Pact;  the Mercurians can be brought in by building the Mercurian gate wonder.</English>
+		<French>The Mercurian and Infernal civilizations are not of the mortal world, so you cannot begin play as either. But if you call them into the world you will be given the option to play as these powerful civilizations. Call the Infernals by researching Infernal Pact;  the Mercurians can be brought in by building the Mercurian gate wonder.</French>
+		<German>Tipp... Die merkurianische und die infernalische Zivilisation sind nicht Teil der Welt der Sterblichen und können daher bei Spielbeginn nicht ausgewählt werden. Aber wem es gelingt, sie in diese Welt zu locken, erhält die Möglichkeit, als eine dieser mächtigen Zivilisation weiterzuspielen. Die Dämonen werden von demjenigen gerufen, der als Erster die Technologie "Höllischer Pakt" erforscht. Von da an können die Mercurianer durch den Bau des Weltwunders "Tor der Mercurianer" herbeigerufen werden.</German>
+		<Italian>The Mercurian and Infernal civilizations are not of the mortal world, so you cannot begin play as either. But if you call them into the world you will be given the option to play as these powerful civilizations. Call the Infernals by researching Infernal Pact;  the Mercurians can be brought in by building the Mercurian gate wonder.</Italian>
+		<Spanish>The Mercurian and Infernal civilizations are not of the mortal world, so you cannot begin play as either. But if you call them into the world you will be given the option to play as these powerful civilizations. Call the Infernals by researching Infernal Pact;  the Mercurians can be brought in by building the Mercurian gate wonder.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HINT_99</Tag>
+		<English>Be sure to tell use what you think of Ashes of Erebus at http://forums.civfanatics.com/showthread.php?t=493730</English>
+		<French>Be sure to tell use what you think of Ashes of Erebus at http://forums.civfanatics.com/showthread.php?t=493730</French>
+		<German>Tipp... Meinungen und Verbesserungsvorschläge zu "Ashes of Erebus" können auf http://forums.civfanatics.com/showthread.php?t=493730 angebracht werden.</German>
+		<Italian>Be sure to tell use what you think of Ashes of Erebus at http://forums.civfanatics.com/showthread.php?t=493730</Italian>
+		<Spanish>Be sure to tell use what you think of Ashes of Erebus at http://forums.civfanatics.com/showthread.php?t=493730</Spanish>
+	</TEXT>
+</Civ4GameText>

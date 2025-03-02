@@ -1,0 +1,4065 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARMORED</Tag>
+		<English>Armored</English>
+		<French>Armored</French>
+		<German>Gepanzert</German>
+		<Italian>Armored</Italian>
+		<Spanish>Armored</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BODGE</Tag>
+		<English>Bodge</English>
+		<French>Rafistolage</French>
+		<German>Bodge</German>
+		<Italian>Bodge</Italian>
+		<Spanish>Bodge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANNIBALIZE</Tag>
+		<English>Cannibalize</English>
+		<French>Anthropophagisme</French>
+		<German>Kannibalismus</German>
+		<Italian>Cannibalize</Italian>
+		<Spanish>Cannibalize</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CITYRAIDER1</Tag>
+		<English>City Raider I</English>
+		<French>
+			<Text>Assaut de murailles I</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>H&#228;userkampf I</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Razziatore I</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Asalto de ciudades I</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CITYRAIDER2</Tag>
+		<English>City Raider II</English>
+		<French>
+			<Text>Assaut de murailles II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>H&#228;userkampf II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Razziatore II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Asalto de ciudades II</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CITYRAIDER3</Tag>
+		<English>City Raider III</English>
+		<French>
+			<Text>Assaut de murailles III</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>H&#228;userkampf III</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Razziatore III</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Asalto de ciudades III</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CORNED_POWDER</Tag>
+		<English>Corned Powder</English>
+		<French>Poudre grenue</French>
+		<German>Gekörntes Pulver</German>
+		<Italian>Corned Powder</Italian>
+		<Spanish>Corned Powder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CRAFTING_TRADITION</Tag>
+		<English>Crafting Tradition</English>
+		<French>Artisanat Traditionnel</French>
+		<German>Handwerkstradition</German>
+		<Italian>Crafting Tradition</Italian>
+		<Spanish>Crafting Tradition</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DARK_STRENGTH</Tag>
+		<English>Dark Strength</English>
+		<French>Force Occulte</French>
+		<German>Dunkler Stärke</German>
+		<Italian>Dark Strength</Italian>
+		<Spanish>Dark Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEMON_HUNTER</Tag>
+		<English>Demon Hunter</English>
+		<French>Chasseur de démons</French>
+		<German>Dämonenjäger</German>
+		<Italian>Demon Hunter</Italian>
+		<Spanish>Demon Hunter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEXTEROUS</Tag>
+		<English>Dexterous</English>
+		<French>Adroit</French>
+		<German>Geschickt</German>
+		<Italian>Dexterous</Italian>
+		<Spanish>Dexterous</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DISRUPTED</Tag>
+		<English>Disrupted</English>
+		<French>Déconcentré</French>
+		<German>Abgetrennt</German>
+		<Italian>Disrupted</Italian>
+		<Spanish>Disrupted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EASTWINDS</Tag>
+		<English>Eastwinds</English>
+		<French>Vents d'Est</French>
+		<German>Winde des Ostens</German>
+		<Italian>Eastwinds</Italian>
+		<Spanish>Eastwinds</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FERAL</Tag>
+		<English>Feral</English>
+		<French>Sauvage</French>
+		<German>Verwildert</German>
+		<Italian>Feral</Italian>
+		<Spanish>Feral</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FURIOUS</Tag>
+		<English>Furious</English>
+		<French>Furieux</French>
+		<German>Raserei</German>
+		<Italian>Furious</Italian>
+		<Spanish>Furious</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GIANTKIN</Tag>
+		<English>Giantkin</English>
+		<French>Géant</French>
+		<German>Riese</German>
+		<Italian>Giantkin</Italian>
+		<Spanish>Giantkin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GIANTKIN_SEASONED</Tag>
+		<English>Giantkin Seasoned</English>
+		<French>Géant aguerri</French>
+		<German>Reifer Riese</German>
+		<Italian>Giantkin Seasoned</Italian>
+		<Spanish>Giantkin Seasoned</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GIANTKIN_RENOWNED</Tag>
+		<English>Giantkin Renowned</English>
+		<French>Géant renommé</French>
+		<German>Br&#252;hmter Riese</German>
+		<Italian>Giantkin Renowned</Italian>
+		<Spanish>Giantkin Renowned</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GIANTKIN_PROMINENT</Tag>
+		<English>Giantkin Prominent</English>
+		<French>Géant éminent</French>
+		<German>Herrausragender Riese</German>
+		<Italian>Giantkin Prominent</Italian>
+		<Spanish>Giantkin Prominent</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GIANTKIN_LEGENDARY</Tag>
+		<English>Giantkin Legend</English>
+		<French>Géant légendaire</French>
+		<German>Legende unter den Riesen</German>
+		<Italian>Giantkin Legend</Italian>
+		<Spanish>Giantkin Legend</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GIANTKIN_EPIC</Tag>
+		<English>Giantkin God</English>
+		<French>Géant divin</French>
+		<German>Giantkin God</German>
+		<Italian>Giantkin God</Italian>
+		<Spanish>Giantkin God</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GIANT_SLAYING</Tag>
+		<English>Giant Slaying</English>
+		<French>Tueur de géants</French>
+		<German>Riesenschlächter</German>
+		<Italian>Giant Slaying</Italian>
+		<Spanish>Giant Slaying</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HEROIC</Tag>
+		<English>Battle-Hardened</English>
+		<French>Endurci</French>
+		<German>Kampferprobt</German>
+		<Italian>Battle-Hardened</Italian>
+		<Spanish>Battle-Hardened</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HOMELAND</Tag>
+		<English>Homeland</English>
+		<French>Mère Patrie</French>
+		<German>Heimisch</German>
+		<Italian>Homeland</Italian>
+		<Spanish>Homeland</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HORSELORD</Tag>
+		<English>Horselord</English>
+		<French>Seigneur Équestre</French>
+		<German>Pferdefürst</German>
+		<Italian>Horselord</Italian>
+		<Spanish>Horselord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MAGIC_IMMUNE</Tag>
+		<English>Magic Immune</English>
+		<French>Immunisé à la Magie</French>
+		<German>Immunität gegen Magie</German>
+		<Italian>Magic Immune</Italian>
+		<Spanish>Magic Immune</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MINOTAUR</Tag>
+		<English>Minotaur</English>
+		<French>Minotaure</French>
+		<German>Minotaurus</German>
+		<Italian>Minotaur</Italian>
+		<Spanish>Minotaur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NATURAL_HABITAT</Tag>
+		<English>Natural Habitat</English>
+		<French>Habitat naturel</French>
+		<German>Natürliches Habitat</German>
+		<Italian>Natural Habitat</Italian>
+		<Spanish>Natural Habitat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NEWBORN</Tag>
+		<English>Newborn</English>
+		<French>Nouveau-né</French>
+		<German>Neugeboren</German>
+		<Italian>Newborn</Italian>
+		<Spanish>Newborn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NEWBORN_ADULT</Tag>
+		<English>Adult</English>
+		<French>Adulte</French>
+		<German>Erwachsen</German>
+		<Italian>Adult</Italian>
+		<Spanish>Adult</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OBSCURED_LOS</Tag>
+		<English>Obscured Line of Sight</English>
+		<French>Ligne de vue obscurcie</French>
+		<German>Abartige Sichtweite</German>
+		<Italian>Obscured Line of Sight</Italian>
+		<Spanish>Obscured Line of Sight</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PEGASUS_RIDER</Tag>
+		<English>Pegasus Rider</English>
+		<French>Chevaucheur de Pégase</French>
+		<German>Pegasus Reiter</German>
+		<Italian>Pegasus Rider</Italian>
+		<Spanish>Pegasus Rider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REGENERATE_SKIN</Tag>
+		<English>Regenerating Skin</English>
+		<French>Peau régénérante</French>
+		<German>Regenerierende Haut</German>
+		<Italian>Regenerating Skin</Italian>
+		<Spanish>Regenerating Skin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCAVENGER</Tag>
+		<English>Scavenger</English>
+		<French>Charognard</French>
+		<German>Aasfresser</German>
+		<Italian>Scavenger</Italian>
+		<Spanish>Scavenger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCAVENGER_TOKEN</Tag>
+		<English>Scavenger Token</English>
+		<French>Charognard Token</French>
+		<German>Aasfresser Zeichen</German>
+		<Italian>Scavenger Token</Italian>
+		<Spanish>Scavenger Token</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_AEQUOR</Tag>
+		<English>Aequor</English>
+		<French>Aequor</French>
+		<German>Aequor</German>
+		<Italian>Aequor</Italian>
+		<Spanish>Aequor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_AEQUOR_GREATER</Tag>
+		<English>Aequor (Greater)</English>
+		<French>Aequor (Ancien)</French>
+		<German>Aequor (Größer)</German>
+		<Italian>Aequor (Greater)</Italian>
+		<Spanish>Aequor (Greater)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_GLACIALIS</Tag>
+		<English>Glacialis</English>
+		<French>Glacialis</French>
+		<German>Glacialis</German>
+		<Italian>Glacialis</Italian>
+		<Spanish>Glacialis</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_GLACIALIS_GREATER</Tag>
+		<English>Glacialis (Greater)</English>
+		<French>Glacialis (Ancien)</French>
+		<German>Glacialis (Größer)</German>
+		<Italian>Glacialis (Greater)</Italian>
+		<Spanish>Glacialis (Greater)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_MORTALITAS</Tag>
+		<English>Mortalitas</English>
+		<French>Mortalitas</French>
+		<German>Mortalitas</German>
+		<Italian>Mortalitas</Italian>
+		<Spanish>Mortalitas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_MORTALITAS_GREATER</Tag>
+		<English>Mortalitas (Greater)</English>
+		<French>Mortalitas (Ancien)</French>
+		<German>Mortalitas (Größer)</German>
+		<Italian>Mortalitas (Greater)</Italian>
+		<Spanish>Mortalitas (Greater)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_MORTALITAS_POISON</Tag>
+		<English>Crippling Poison</English>
+		<French>Poison Paralysant</French>
+		<German>Verkrüppelndes Gift</German>
+		<Italian>Crippling Poison</Italian>
+		<Spanish>Crippling Poison</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_RUTILA</Tag>
+		<English>Rutila</English>
+		<French>Rutila</French>
+		<German>Rutila</German>
+		<Italian>Rutila</Italian>
+		<Spanish>Rutila</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_RUTILA_BURROWED</Tag>
+		<English>Burrowed</English>
+		<French>Enterré</French>
+		<German>Verborgen</German>
+		<Italian>Burrowed</Italian>
+		<Spanish>Burrowed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_RUTILA_REVEALED</Tag>
+		<English>Revealed</English>
+		<French>À découvert</French>
+		<German>Entblößt</German>
+		<Italian>Revealed</Italian>
+		<Spanish>Revealed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_RUTILA_GREATER</Tag>
+		<English>Rutila (Greater)</English>
+		<French>Rutila (Ancien)</French>
+		<German>Rutila (Größer)</German>
+		<Italian>Rutila (Greater)</Italian>
+		<Spanish>Rutila (Greater)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_VIDELICET</Tag>
+		<English>Videlicet</English>
+		<French>Videlicet</French>
+		<German>Videlicet</German>
+		<Italian>Videlicet</Italian>
+		<Spanish>Videlicet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_VIDELICET_GREATER</Tag>
+		<English>Videlicet (Greater)</English>
+		<French>Videlicet (Ancien)</French>
+		<German>Videlicet (Größer)</German>
+		<Italian>Videlicet (Greater)</Italian>
+		<Spanish>Videlicet (Greater)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SINISTER</Tag>
+		<English>Sinister</English>
+		<French>Sinistre</French>
+		<German>Unheimlich</German>
+		<Italian>Sinister</Italian>
+		<Spanish>Sinister</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SLAVER</Tag>
+		<English>Slaver</English>
+		<French>Esclavagiste</French>
+		<German>Sklaventreiber</German>
+		<Italian>Slaver</Italian>
+		<Spanish>Slaver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA</Tag>
+		<English>Argyroneta</English>
+		<French>Argyroneta</French>
+		<German>Argyroneta</German>
+		<Italian>Argyroneta</Italian>
+		<Spanish>Argyroneta</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA_GREATER</Tag>
+		<English>Argyroneta (Greater)</English>
+		<French>Argyroneta (Ancienne)</French>
+		<German>Argyroneta (Größer)</German>
+		<Italian>Argyroneta (Greater)</Italian>
+		<Spanish>Argyroneta (Greater)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO</Tag>
+		<English>Mucro</English>
+		<French>Mucro</French>
+		<German>Mucro</German>
+		<Italian>Mucro</Italian>
+		<Spanish>Mucro</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_GREATER</Tag>
+		<English>Mucro (Greater)</English>
+		<French>Mucro (Ancienne)</French>
+		<German>Mucro (Größer)</German>
+		<Italian>Mucro (Greater)</Italian>
+		<Spanish>Mucro (Greater)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA</Tag>
+		<English>Rhagodessa</English>
+		<French>Rhagodessa</French>
+		<German>Rhagodessa</German>
+		<Italian>Rhagodessa</Italian>
+		<Spanish>Rhagodessa</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_GREATER</Tag>
+		<English>Rhagodessa (Greater)</English>
+		<French>Rhagodessa (Ancienne)</French>
+		<German>Rhagodessa (Größer)</German>
+		<Italian>Rhagodessa (Greater)</Italian>
+		<Spanish>Rhagodessa (Greater)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_TEXTUS</Tag>
+		<English>Textus</English>
+		<French>Textus</French>
+		<German>Textus</German>
+		<Italian>Textus</Italian>
+		<Spanish>Textus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_TEXTUS_GREATER</Tag>
+		<English>Textus (Greater)</English>
+		<French>Textus (Ancienne)</French>
+		<German>Textus (Größer)</German>
+		<Italian>Textus (Greater)</Italian>
+		<Spanish>Textus (Greater)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_VENENUM</Tag>
+		<English>Venenum</English>
+		<French>Vénéneuse</French>
+		<German>Venenum</German>
+		<Italian>Venenum</Italian>
+		<Spanish>Venenum</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_VENENUM_GREATER</Tag>
+		<English>Venenum (Greater)</English>
+		<French>Vénéneuse (Ancienne)</French>
+		<German>Venenum (Größer)</German>
+		<Italian>Venenum (Greater)</Italian>
+		<Spanish>Venenum (Greater)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDERKIN</Tag>
+		<English>Spiderkin</English>
+		<French>Arachnomorphe</French>
+		<German>Spinnentier</German>
+		<Italian>Spiderkin</Italian>
+		<Spanish>Spiderkin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STONESKIN</Tag>
+		<English>Stoneskin</English>
+		<French>Peau de Pierre</French>
+		<German>Steinhaut</German>
+		<Italian>Stoneskin</Italian>
+		<Spanish>Stoneskin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TROLLKIN</Tag>
+		<English>Trollkin</English>
+		<French>Troll</French>
+		<German>Troll</German>
+		<Italian>Trollkin</Italian>
+		<Spanish>Trollkin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNDISCIPLINED</Tag>
+		<English>Undisciplined</English>
+		<French>Indiscipliné</French>
+		<German>Undiszipliniert</German>
+		<Italian>Undisciplined</Italian>
+		<Spanish>Undisciplined</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WANDERING_CURSE</Tag>
+		<English>Wandering Curse</English>
+		<French>Malédiction de l'errance éternelle</French>
+		<German>Fluch der Verirrung</German>
+		<Italian>Wandering Curse</Italian>
+		<Spanish>Wandering Curse</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AWAKANED</Tag>
+		<English>Awakened</English>
+		<French>Awakened</French>
+		<German>Erwacht</German>
+		<Italian>Awakened</Italian>
+		<Spanish>Awakened</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LYCANTROPIC</Tag>
+		<English>Lycanthrope</English>
+		<French>Lycanthrope</French>
+		<German>Lykantrop</German>
+		<Italian>Lycanthrope</Italian>
+		<Spanish>Lycanthrope</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENCHANTED_SAILS</Tag>
+		<English>Enchanted Sails</English>
+		<French>Voiles Enchantées</French>
+		<German>Verzauberte Segel</German>
+		<Italian>Enchanted Sails</Italian>
+		<Spanish>Enchanted Sails</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MANA_GUARDIAN</Tag>
+		<English>Mana Guardian</English>
+		<French>Gardien du Mana</French>
+		<German>Manawächter</German>
+		<Italian>Mana Guardian</Italian>
+		<Spanish>Mana Guardian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PACK_LEADER</Tag>
+		<English>Pack leader</English>
+		<French>Pack leader</French>
+		<German>Rudelführer</German>
+		<Italian>Pack leader</Italian>
+		<Spanish>Pack leader</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GUARDIAN_PRISTIN_PASS</Tag>
+		<English>Guardian of Pristin Pass</English>
+		<French>Gardien de la Passe Originelle</French>
+		<German>Wächter des Pristinuspasses</German>
+		<Italian>Guardian of Pristin Pass</Italian>
+		<Spanish>Guardian of Pristin Pass</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REAVER</Tag>
+		<English>Reaver</English>
+		<French>Reaver</French>
+		<German>Plünderer</German>
+		<Italian>Reaver</Italian>
+		<Spanish>Reaver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TAME</Tag>
+		<English>Tame</English>
+		<French>Apprivoisé</French>
+		<German>Zähmen</German>
+		<Italian>Tame</Italian>
+		<Spanish>Tame</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WAAAGH</Tag>
+		<English>Waaagh</English>
+		<French>Waaagh</French>
+		<German>Waaagh</German>
+		<Italian>Waaagh</Italian>
+		<Spanish>Waaagh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_VIRTOUS_PIRATE</Tag>
+		<English>Virtuous pirate</English>
+		<French>Pirate vertueux</French>
+		<German>Züchtiger Pirat</German>
+		<Italian>Virtuous pirate</Italian>
+		<Spanish>Virtuous pirate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BEAR_BLOOD</Tag>
+		<English>Bear Blood</English>
+		<French>Sang d'Ours</French>
+		<German>Bärenblut</German>
+		<Italian>Bear Blood</Italian>
+		<Spanish>Bear Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BOAR_BLOOD</Tag>
+		<English>Boar Blood</English>
+		<French>Sang de Sanglier</French>
+		<German>Wildschweinblut</German>
+		<Italian>Boar Blood</Italian>
+		<Spanish>Boar Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ELEPHANT_BLOOD</Tag>
+		<English>Elephant Blood</English>
+		<French>Sang d'Éléphant</French>
+		<German>Elefantenblut</German>
+		<Italian>Elephant Blood</Italian>
+		<Spanish>Elephant Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GORILLA_BLOOD</Tag>
+		<English>Gorilla Blood</English>
+		<French>Sang de Gorille</French>
+		<German>Gorillablut</German>
+		<Italian>Gorilla Blood</Italian>
+		<Spanish>Gorilla Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GRIFFON_BLOOD</Tag>
+		<English>Griffon Blood</English>
+		<French>Sang de Griffon</French>
+		<German>Greifenblut</German>
+		<Italian>Griffon Blood</Italian>
+		<Spanish>Griffon Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LION_BLOOD</Tag>
+		<English>Lion Blood</English>
+		<French>Sang de Lion</French>
+		<German>Löwenblut</German>
+		<Italian>Lion Blood</Italian>
+		<Spanish>Lion Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON_RESISTANCE</Tag>
+		<English>Resist Poison</English>
+		<French>Résistance au Poison</French>
+		<German>Widerstand gegen Vergiftung</German>
+		<Italian>Resist Poison</Italian>
+		<Spanish>Resist Poison</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISONED</Tag>
+		<English>Poisoned</English>
+		<French>Empoisonné</French>
+		<German>Vergiftet</German>
+		<Italian>Poisoned</Italian>
+		<Spanish>Poisoned</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISONED_PEDIA</Tag>
+		<English>[ICON_BULLET]All units with Poison combat strength inflict this effect on enemies they damage</English>
+		<French>[ICON_BULLET]Toutes les unités provoquant des dégâts de type Poison empoisonneront les ennemis qu'elles endommagent.[NEWLINE][ICON_BULLET]Cet état ne disparait qu'une fois l'unité complètement guérie.</French>
+		<German>[NEWLINE][ICON_BULLET]Alle Einheiten mit der Eigenschaft Giftangriff, fügen ihren Feinden diesen Schaden zu.[ICON_BULLET]Die Vergiftung hält so lange an, bis die betreffende Einheit vollständig geheilt wurde.</German>
+		<Italian>[ICON_BULLET]All units with Poison combat strength inflict this effect on enemies they damage</Italian>
+		<Spanish>[ICON_BULLET]All units with Poison combat strength inflict this effect on enemies they damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISONED_BLADE</Tag>
+		<English>Poisoned Blade</English>
+		<French>Lame Empoisonnée</French>
+		<German>vergiftete Klinge</German>
+		<Italian>Poisoned Blade</Italian>
+		<Spanish>Poisoned Blade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RAPTOR_BLOOD</Tag>
+		<English>Dinosaur Blood</English>
+		<French>Sang de Dinosaure</French>
+		<German>Dinosaurierblut</German>
+		<Italian>Dinosaur Blood</Italian>
+		<Spanish>Dinosaur Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCORPION_BLOOD</Tag>
+		<English>Scorpion Blood</English>
+		<French>Sang de Scorpion</French>
+		<German>Skorpionenblut</German>
+		<Italian>Scorpion Blood</Italian>
+		<Spanish>Scorpion Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_BLOOD</Tag>
+		<English>Spider Blood</English>
+		<French>Sang arachnéen</French>
+		<German>Spinnenblut</German>
+		<Italian>Spider Blood</Italian>
+		<Spanish>Spider Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STAG_BLOOD</Tag>
+		<English>Stag Blood</English>
+		<French>Sang de Cervidé</French>
+		<German>Hirschblut</German>
+		<Italian>Stag Blood</Italian>
+		<Spanish>Stag Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TIGER_BLOOD</Tag>
+		<English>Tiger Blood</English>
+		<French>Sang de Tigre</French>
+		<German>Tiger Blood</German>
+		<Italian>Tiger Blood</Italian>
+		<Spanish>Tiger Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WOLF_BLOOD</Tag>
+		<English>Wolf Blood</English>
+		<French>Sang de Loup</French>
+		<German>Wolfsblut</German>
+		<Italian>Wolf Blood</Italian>
+		<Spanish>Wolf Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEADER1</Tag>
+		<English>Leader I</English>
+		<French>Dirigeant I</French>
+		<German>Anführer I</German>
+		<Italian>Leader I</Italian>
+		<Spanish>Leader I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEADER2</Tag>
+		<English>Leader II</English>
+		<French>Dirigeant II</French>
+		<German>Anführer II</German>
+		<Italian>Leader II</Italian>
+		<Spanish>Leader II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEADER3</Tag>
+		<English>Leader III</English>
+		<French>Dirigeant III</French>
+		<German>Anführer III</German>
+		<Italian>Leader III</Italian>
+		<Spanish>Leader III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEADER4</Tag>
+		<English>Leader IV</English>
+		<French>Dirigeant IV</French>
+		<German>Anführer IV</German>
+		<Italian>Leader IV</Italian>
+		<Spanish>Leader IV</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEADER5</Tag>
+		<English>Leader V</English>
+		<French>Dirigeant V</French>
+		<German>Anführer V</German>
+		<Italian>Leader V</Italian>
+		<Spanish>Leader V</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_ARTISAN</Tag>
+		<English>Overseer Artisan</English>
+		<French>Overseer Artisan</French>
+		<German>Kunsthandwerker Aufseher</German>
+		<Italian>Overseer Artisan</Italian>
+		<Spanish>Overseer Artisan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CORGAYLE_ADEPT</Tag>
+		<English>Magician's Apprentice</English>
+		<French>Apprenti Sorcier</French>
+		<German>Lehrling des Zauberkünstlers</German>
+		<Italian>Magician's Apprentice</Italian>
+		<Spanish>Magician's Apprentice</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING_HELP</Tag>
+		<English>casting maelstrom</English>
+		<French>prépare le sort maelstrom</French>
+		<German>Mahlstrom zaubernd</German>
+		<Italian>casting maelstrom</Italian>
+		<Spanish>casting maelstrom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WHIP</Tag>
+		<English>Where There's a Whip</English>
+		<French>Where There's a Whip</French>
+		<German>Wo eine Peitsche ist</German>
+		<Italian>Where There's a Whip</Italian>
+		<Spanish>Where There's a Whip</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CREEPING_DEAD_EFFECT</Tag>
+		<English>Creeping Dead</English>
+		<French>Mort rampante</French>
+		<German>Kriechender Tod</German>
+		<Italian>Creeping Dead</Italian>
+		<Spanish>Creeping Dead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CREEPING_DEAD_EFFECT_BLOCK</Tag>
+		<English>Creeping Dead Exposed</English>
+		<French>À découvert</French>
+		<German>Sichtbarer kriechender Tod</German>
+		<Italian>Creeping Dead Exposed</Italian>
+		<Spanish>Creeping Dead Exposed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CREEPING_DEAD</Tag>
+		<English>Silence of Death</English>
+		<French>Silence de la Mort</French>
+		<German>Stille des Todes</German>
+		<Italian>Silence of Death</Italian>
+		<Spanish>Silence of Death</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MECHANOS_AFFINITY_ENABLER</Tag>
+		<English>Mechanos Affinity</English>
+		<French>Affinité des Mechanos</French>
+		<German>Mechanos Affinität</German>
+		<Italian>Mechanos Affinity</Italian>
+		<Spanish>Mechanos Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DTESH_AFFINITY_ENABLER</Tag>
+		<English>D'tesh Affinity</English>
+		<French>Affinité de D'tesh </French>
+		<German>D'tesh Affinität</German>
+		<Italian>D'tesh Affinity</Italian>
+		<Spanish>D'tesh Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_VEINHUNTER_AFFINITY_ENABLER</Tag>
+		<English>Veinhunter Affinity</English>
+		<French>Affinité des chasseurs de filon</French>
+		<German>Veinhunter Affinität</German>
+		<Italian>Veinhunter Affinity</Italian>
+		<Spanish>Veinhunter Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GNOSLING_AIR</Tag>
+		<English>Air gnosling</English>
+		<French>Gnosling d'air</French>
+		<German>Luftgnosling</German>
+		<Italian>Air gnosling</Italian>
+		<Spanish>Air gnosling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GNOSLING_EARTH</Tag>
+		<English>Earth gnosling</English>
+		<French>Gnosling de terre</French>
+		<German>Erdengnosling</German>
+		<Italian>Earth gnosling</Italian>
+		<Spanish>Earth gnosling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GNOSLING_FIRE</Tag>
+		<English>Fire gnosling</English>
+		<French>Gnosling de feu</French>
+		<German>Feuergnosling</German>
+		<Italian>Fire gnosling</Italian>
+		<Spanish>Fire gnosling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GNOSLING_MASTER</Tag>
+		<English>Master gnosling</English>
+		<French>Master gnosling</French>
+		<German>Meistergnosling</German>
+		<Italian>Master gnosling</Italian>
+		<Spanish>Master gnosling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GNOSLING_WATER</Tag>
+		<English>Water gnosling</English>
+		<French>Gnosling d'eau</French>
+		<German>Wassergnosling</German>
+		<Italian>Water gnosling</Italian>
+		<Spanish>Water gnosling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HORSE_RIDER</Tag>
+		<English>Horse Rider</English>
+		<French>Cavalier</French>
+		<German>Pferdereiter</German>
+		<Italian>Horse Rider</Italian>
+		<Spanish>Horse Rider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HORSE_KNIGHT</Tag>
+		<English>Horse Knight</English>
+		<French>Chevalier</French>
+		<German>Pferderitter</German>
+		<Italian>Horse Knight</Italian>
+		<Spanish>Horse Knight</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ANIMOSITY</Tag>
+		<English>Animosity</English>
+		<French>Animosité</French>
+		<German>Feindselig</German>
+		<Italian>Animosity</Italian>
+		<Spanish>Animosity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ALONG_FOR_THE_RIDE</Tag>
+		<English>Along for the ride</English>
+		<French>Along for the ride</French>
+		<German>Mit von der Partie</German>
+		<Italian>Along for the ride</Italian>
+		<Spanish>Along for the ride</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CALL_OF_THE_HOARD</Tag>
+		<English>Call of the Hoard</English>
+		<French>Call of the Hoard</French>
+		<German>Ruf der Horde</German>
+		<Italian>Call of the Hoard</Italian>
+		<Spanish>Call of the Hoard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DIVINE_RIVALRY</Tag>
+		<English>Divine Rivalry</English>
+		<French>Divine Rivalry</French>
+		<German>G&#246;ttliche Rivalit&#228;t</German>
+		<Italian>Divine Rivalry</Italian>
+		<Spanish>Divine Rivalry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SLUMBERING</Tag>
+		<English>Slumbering</English>
+		<French>Slumbering</French>
+		<German>Schlummernd</German>
+		<Italian>Slumbering</Italian>
+		<Spanish>Slumbering</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HULL_RENDER</Tag>
+		<English>Hull Render</English>
+		<French>Hull Render</French>
+		<German>dreilagige Haut</German>
+		<Italian>Hull Render</Italian>
+		<Spanish>Hull Render</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_JOT_CONVERT</Tag>
+		<English>Jotnar Slave</English>
+		<French>Jotnar Slave</French>
+		<German>Jotnar Sklave</German>
+		<Italian>Jotnar Slave</Italian>
+		<Spanish>Jotnar Slave</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_JOT_GIANT_SPELLCASTER</Tag>
+		<English>Jotnar Spellcaster</English>
+		<French>Jotnar Spellcaster</French>
+		<German>Jotnar Zauberer</German>
+		<Italian>Jotnar Spellcaster</Italian>
+		<Spanish>Jotnar Spellcaster</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RADIANT</Tag>
+		<English>Radiant</English>
+		<French>Radiant</French>
+		<German>Strahlend</German>
+		<Italian>Radiant</Italian>
+		<Spanish>Radiant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RAIDER</Tag>
+		<English>Raider</English>
+		<French>Pillard</French>
+		<German>Räuber</German>
+		<Italian>Raider</Italian>
+		<Spanish>Raider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TROLL_SHADOW</Tag>
+		<English>Shadow</English>
+		<French>Ombre</French>
+		<German>Schatten</German>
+		<Italian>Shadow</Italian>
+		<Spanish>Shadow</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WARSONG</Tag>
+		<English>Warsong</English>
+		<French>Chant de guerre</French>
+		<German>Kriegslied</German>
+		<Italian>Warsong</Italian>
+		<Spanish>Warsong</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AERONS_CHOSEN</Tag>
+		<English>Aeron's Chosen</English>
+		<French>Élu d'Aeron</French>
+		<German>Aerons Auserwählter</German>
+		<Italian>Aeron's Chosen</Italian>
+		<Spanish>Aeron's Chosen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AIR1</Tag>
+		<English>Air I</English>
+		<French>Air I</French>
+		<German>Luft I</German>
+		<Italian>Air I</Italian>
+		<Spanish>Air I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AIR2</Tag>
+		<English>Air II</English>
+		<French>Air II</French>
+		<German>Luft II</German>
+		<Italian>Air II</Italian>
+		<Spanish>Air II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AIR3</Tag>
+		<English>Air III</English>
+		<French>Air III</French>
+		<German>Luft III</German>
+		<Italian>Air III</Italian>
+		<Spanish>Air III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ANGEL</Tag>
+		<English>Angel</English>
+		<French>Ange</French>
+		<German>Engel</German>
+		<Italian>Angel</Italian>
+		<Spanish>Angel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AVATAR</Tag>
+		<English>Avatar</English>
+		<French>Avatar</French>
+		<German>Avatar</German>
+		<Italian>Avatar</Italian>
+		<Spanish>Avatar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BLESSED</Tag>
+		<English>Blessed</English>
+		<French>Béni</French>
+		<German>Gesegnet</German>
+		<Italian>Blessed</Italian>
+		<Spanish>Blessed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BLUR</Tag>
+		<English>Blur</English>
+		<French>Terne</French>
+		<German>Verschwimmen</German>
+		<Italian>Blur</Italian>
+		<Spanish>Blur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BOARDING</Tag>
+		<English>Boarding</English>
+		<French>Abordage</French>
+		<German>Enterkampf</German>
+		<Italian>Boarding</Italian>
+		<Spanish>Boarding</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BOARDING_PEDIA</Tag>
+		<English>[ICON_BULLET]Allows the unit to attack ships</English>
+		<French>[ICON_BULLET]Permet à l'unité d'attaquer et de capturer des bateaux.</French>
+		<German>[ICON_BULLET]Ermöglicht Angriff und Entern feindlicher Schiffe.</German>
+		<Italian>[ICON_BULLET]Allows the unit to attack ships</Italian>
+		<Spanish>[ICON_BULLET]Allows the unit to attack ships</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BODY1</Tag>
+		<English>Body I</English>
+		<French>Corps I</French>
+		<German>Körper I</German>
+		<Italian>Body I</Italian>
+		<Spanish>Body I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BODY2</Tag>
+		<English>Body II</English>
+		<French>Corps II</French>
+		<German>Körper II</German>
+		<Italian>Body II</Italian>
+		<Spanish>Body II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BODY3</Tag>
+		<English>Body III</English>
+		<French>Corps III</French>
+		<German>Körper III</German>
+		<Italian>Body III</Italian>
+		<Spanish>Body III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BOUNTY_HUNTER</Tag>
+		<English>Bounty Hunter</English>
+		<French>Chasseur de primes</French>
+		<German>Bounty Hunter</German>
+		<Italian>Bounty Hunter</Italian>
+		<Spanish>Bounty Hunter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BRONZE_WEAPONS</Tag>
+		<English>Bronze Weapons</English>
+		<French>Armes de Bronze</French>
+		<German>Bronzewaffen</German>
+		<Italian>Bronze Weapons</Italian>
+		<Spanish>Bronze Weapons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BUCCANEERS</Tag>
+		<English>Buccaneers</English>
+		<French>Flibustiers</French>
+		<German>Freibeuter</German>
+		<Italian>Buccaneers</Italian>
+		<Spanish>Buccaneers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BURNING_BLOOD</Tag>
+		<English>Burning Blood</English>
+		<French>Sang Bouillonnant</French>
+		<German>Brennendes Blut</German>
+		<Italian>Burning Blood</Italian>
+		<Spanish>Burning Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CAPTURE_UNITCOMBAT</Tag>
+		<English>[ICON_BULLET]Captures defeated %s1_unitcombat</English>
+		<French>[ICON_BULLET]Capture les %s1_unitcombat vaincu(e)s</French>
+		<German>[ICON_BULLET]Fängt besiegte %s1_unitcombat</German>
+		<Italian>[ICON_BULLET]Captures defeated %s1_unitcombat</Italian>
+		<Spanish>[ICON_BULLET]Captures defeated %s1_unitcombat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BLOCKED_SPELLCLASS</Tag>
+		<English>[ICON_BULLET]Prevents Unit from Casting %s1 spells</English>
+		<French>[ICON_BULLET]Prevents Unit from Casting %s1 spells</French>
+		<German>[ICON_BULLET]Prevents Unit from Casting %s1 spells</German>
+		<Italian>[ICON_BULLET]Prevents Unit from Casting %s1 spells</Italian>
+		<Spanish>[ICON_BULLET]Prevents Unit from Casting %s1 spells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CASTER_RESIST_MODIFY</Tag>
+		<English>[ICON_BULLET]Modifies targets' magic resistance by %D1%</English>
+		<French>[ICON_BULLET]Résistance magique de la cible : %D1%</French>
+		<German>[ICON_BULLET]Verändert die Magieresistenz des Ziels um %D1%</German>
+		<Italian>[ICON_BULLET]Modifies targets' magic resistance by %D1%</Italian>
+		<Spanish>[ICON_BULLET]Modifies targets' magic resistance by %D1%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CENTAUR</Tag>
+		<English>Centaur</English>
+		<French>Centaure</French>
+		<German>Zentaur</German>
+		<Italian>Centaur</Italian>
+		<Spanish>Centaur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHANNELING1</Tag>
+		<English>Channeling I</English>
+		<French>Canalisation I</French>
+		<German>Fokus I</German>
+		<Italian>Channeling I</Italian>
+		<Spanish>Channeling I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHANNELING1_PEDIA</Tag>
+		<English>[ICON_BULLET]Allows the unit to learn rank 1 spells</English>
+		<French>[ICON_BULLET]Permet à l'unité d'apprendre des sorts de niveau 1.</French>
+		<German>[ICON_BULLET]Zauber der Stufe I können erlernt werden.</German>
+		<Italian>[ICON_BULLET]Allows the unit to learn rank 1 spells</Italian>
+		<Spanish>[ICON_BULLET]Allows the unit to learn rank 1 spells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHANNELING2</Tag>
+		<English>Channeling II</English>
+		<French>Canalisation II</French>
+		<German>Fokus II</German>
+		<Italian>Channeling II</Italian>
+		<Spanish>Channeling II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHANNELING2_PEDIA</Tag>
+		<English>[ICON_BULLET]Allows the unit to learn rank 2 spells</English>
+		<French>[ICON_BULLET]Permet à l'unité d'apprendre des sorts de niveau 2.</French>
+		<German>[ICON_BULLET]Zauber der Stufe II können erlernt werden.</German>
+		<Italian>[ICON_BULLET]Allows the unit to learn rank 2 spells</Italian>
+		<Spanish>[ICON_BULLET]Allows the unit to learn rank 2 spells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHANNELING3</Tag>
+		<English>Channeling III</English>
+		<French>Canalisation III</French>
+		<German>Fokus III</German>
+		<Italian>Channeling III</Italian>
+		<Spanish>Channeling III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHANNELING3_PEDIA</Tag>
+		<English>[ICON_BULLET]Allows the unit to learn rank 3 spells</English>
+		<French>[ICON_BULLET]Permet à l'unité d'apprendre des sorts de niveau 3.</French>
+		<German>[ICON_BULLET]Zauber der Stufe III können erlernt werden.</German>
+		<Italian>[ICON_BULLET]Allows the unit to learn rank 3 spells</Italian>
+		<Spanish>[ICON_BULLET]Allows the unit to learn rank 3 spells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHAOS1</Tag>
+		<English>Chaos I</English>
+		<French>Chaos I</French>
+		<German>Chaos I</German>
+		<Italian>Chaos I</Italian>
+		<Spanish>Chaos I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHAOS2</Tag>
+		<English>Chaos II</English>
+		<French>Chaos II</French>
+		<German>Chaos II</German>
+		<Italian>Chaos II</Italian>
+		<Spanish>Chaos II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHAOS3</Tag>
+		<English>Chaos III</English>
+		<French>Chaos III</French>
+		<German>Chaos III</German>
+		<Italian>Chaos III</Italian>
+		<Spanish>Chaos III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARMED</Tag>
+		<English>Charmed</English>
+		<French>Charmé</French>
+		<German>Beeindruckt</German>
+		<Italian>Charmed</Italian>
+		<Spanish>Charmed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHARMED_PEDIA</Tag>
+		<English>[ICON_BULLET]Unit cannot attack</English>
+		<French>[ICON_BULLET]L'unité ne peut pas attaquer.</French>
+		<German>[ICON_BULLET]Einheit kann nicht angreifen.</German>
+		<Italian>[ICON_BULLET]Unit cannot attack</Italian>
+		<Spanish>[ICON_BULLET]Unit cannot attack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COLD_RESISTANCE</Tag>
+		<English>Resist Cold</English>
+		<French>Résistance au Froid</French>
+		<German>Widerstand gegen Erfrierung</German>
+		<Italian>Resist Cold</Italian>
+		<Spanish>Resist Cold</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBAT_APPLY</Tag>
+		<English>[ICON_BULLET]Passes the [LINK=%s1]%s2_promotion[\LINK] promotion to enemies in combat</English>
+		<French>[ICON_BULLET]Donne la promotion [LINK=%s1]%s2_promotion[\LINK] aux ennemis en combat</French>
+		<German>[ICON_BULLET]Gibt die [LINK=%s1]%s2_promotion[\LINK] Beförderung an Feinde im Kampf</German>
+		<Italian>[ICON_BULLET]Passes the [LINK=%s1]%s2_promotion[\LINK] promotion to enemies in combat</Italian>
+		<Spanish>[ICON_BULLET]Passes the [LINK=%s1]%s2_promotion[\LINK] promotion to enemies in combat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBAT_CAPTURE_PERCENT</Tag>
+		<English>[ICON_BULLET]%D1% chance of converting defeated living units</English>
+		<French>[ICON_BULLET]%D1% de chances de convertir des unités vivantes vaincues</French>
+		<German>[ICON_BULLET]%D1% Chance besiegte lebende Einheiten zu konvertieren</German>
+		<Italian>[ICON_BULLET]%D1% chance of converting defeated living units</Italian>
+		<Spanish>[ICON_BULLET]%D1% chance of converting defeated living units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBAT_HEAL_PERCENT</Tag>
+		<English>[ICON_BULLET]Heals %D1% after combat</English>
+		<French>[ICON_BULLET]Soigne %D1% suite au combat</French>
+		<German>[ICON_BULLET]Heilt %D1% nach dem er eine Einheit im Kampf getötet hat</German>
+		<Italian>[ICON_BULLET]Heals %D1% after combat</Italian>
+		<Spanish>[ICON_BULLET]Heals %D1% after combat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMBAT_PERCENT_IN_BORDERS</Tag>
+		<English>[ICON_BULLET]%D1% strength when within the player's borders</English>
+		<French>[ICON_BULLET]%D1% à l'interieur des frontières du joueur</French>
+		<German>[ICON_BULLET]%D1% Stärke wenn innerhalb der Grenzen des Spielers</German>
+		<Italian>[ICON_BULLET]%D1% strength when within the player's borders</Italian>
+		<Spanish>[ICON_BULLET]%D1% strength when within the player's borders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMMAND1</Tag>
+		<English>Command I</English>
+		<French>Commandement I</French>
+		<German>Überzeugung I</German>
+		<Italian>Command I</Italian>
+		<Spanish>Command I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMMAND2</Tag>
+		<English>Command II</English>
+		<French>Commandement II</French>
+		<German>Überzeugung II</German>
+		<Italian>Command II</Italian>
+		<Spanish>Command II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMMAND3</Tag>
+		<English>Command III</English>
+		<French>Commandement III</French>
+		<German>Überzeugung III</German>
+		<Italian>Command III</Italian>
+		<Spanish>Command III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMMAND4</Tag>
+		<English>Command IV</English>
+		<French>Commandement IV</French>
+		<German>Überzeugung IV</German>
+		<Italian>Command IV</Italian>
+		<Spanish>Command IV</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COURAGE</Tag>
+		<English>Courage</English>
+		<French>Courage</French>
+		<German>Tapferkeit</German>
+		<Italian>Courage</Italian>
+		<Spanish>Courage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COVER</Tag>
+		<English>Cover I</English>
+		<French>Couverture I</French>
+		<German>Deckung I</German>
+		<Italian>Cover I</Italian>
+		<Spanish>Cover I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COVER2</Tag>
+		<English>Cover II</English>
+		<French>Couverture II</French>
+		<German>Deckung II</German>
+		<Italian>Cover II</Italian>
+		<Spanish>Cover II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CRAZED</Tag>
+		<English>Crazed</English>
+		<French>Détraqué</French>
+		<German>Wahnsinn</German>
+		<Italian>Crazed</Italian>
+		<Spanish>Crazed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CROWN_OF_BRILLANCE</Tag>
+		<English>Crown of Brilliance</English>
+		<French>Couronne de Brillance</French>
+		<German>Glänzende Krone</German>
+		<Italian>Crown of Brilliance</Italian>
+		<Spanish>Crown of Brilliance</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CROWN_OF_BRILLANCE_PEDIA</Tag>
+		<English>[ICON_BULLET]The unit automatically casts the [LINK=SPELL_CROWN_OF_BRILLANCE]Crown of Brilliance[\LINK] spell each turn</English>
+		<French>[ICON_BULLET]The unit automatically casts the [LINK=SPELL_CROWN_OF_BRILLANCE]Crown of Brilliance[\LINK] spell each turn</French>
+		<German>[ICON_BULLET]Die Einheit zaubert automatisch jede Runde den Zauber [LINK=SPELL_CROWN_OF_BRILLANCE]Glänzende Krone[\LINK] </German>
+		<Italian>[ICON_BULLET]The unit automatically casts the [LINK=SPELL_CROWN_OF_BRILLANCE]Crown of Brilliance[\LINK] spell each turn</Italian>
+		<Spanish>[ICON_BULLET]The unit automatically casts the [LINK=SPELL_CROWN_OF_BRILLANCE]Crown of Brilliance[\LINK] spell each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DAMAGE_COLD_TEXT</Tag>
+		<English>[ICON_BULLET]+%d1_Num Cold Damage</English>
+		<French>[ICON_BULLET]+%d1_Num Dégâts de Froid</French>
+		<German>[ICON_BULLET]+%d1_Num Erfrierung</German>
+		<Italian>[ICON_BULLET]+%d1_Num Cold Damage</Italian>
+		<Spanish>[ICON_BULLET]+%d1_Num Cold Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DAMAGE_DEATH_TEXT</Tag>
+		<English>[ICON_BULLET]+%d1_Num Death Damage</English>
+		<French>[ICON_BULLET]+%d1_Num Dégâts de Mort</French>
+		<German>[ICON_BULLET]+%d1_Num Todeshauch</German>
+		<Italian>[ICON_BULLET]+%d1_Num Death Damage</Italian>
+		<Spanish>[ICON_BULLET]+%d1_Num Death Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DAMAGE_FIRE_TEXT</Tag>
+		<English>[ICON_BULLET]+%d1_Num Fire Damage</English>
+		<French>[ICON_BULLET]+%d1_Num Dégâts de Feu</French>
+		<German>[ICON_BULLET]+%d1_Num Verbrennung</German>
+		<Italian>[ICON_BULLET]+%d1_Num Fire Damage</Italian>
+		<Spanish>[ICON_BULLET]+%d1_Num Fire Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DAMAGE_HOLY_TEXT</Tag>
+		<English>[ICON_BULLET]+%d1_Num Holy Damage</English>
+		<French>[ICON_BULLET]+%d1_Num Dégâts Sacrés</French>
+		<German>[ICON_BULLET]+%d1_Num Weihung</German>
+		<Italian>[ICON_BULLET]+%d1_Num Holy Damage</Italian>
+		<Spanish>[ICON_BULLET]+%d1_Num Holy Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DAMAGE_LIGHTNING_TEXT</Tag>
+		<English>[ICON_BULLET]+%d1_Num Lightning Damage</English>
+		<French>[ICON_BULLET]+%d1_Num Dégâts de Foudre</French>
+		<German>[ICON_BULLET]+%d1_Num Blitzschlag</German>
+		<Italian>[ICON_BULLET]+%d1_Num Lightning Damage</Italian>
+		<Spanish>[ICON_BULLET]+%d1_Num Lightning Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DAMAGE_POISON_TEXT</Tag>
+		<English>[ICON_BULLET]+%d1_Num Poison Damage</English>
+		<French>[ICON_BULLET]+%d1_Num Dégâts de Poison</French>
+		<German>[ICON_BULLET]+%d1_Num Vergiftung</German>
+		<Italian>[ICON_BULLET]+%d1_Num Poison Damage</Italian>
+		<Spanish>[ICON_BULLET]+%d1_Num Poison Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DAMAGE_UNHOLY_TEXT</Tag>
+		<English>[ICON_BULLET]+%d1_Num Unholy Damage</English>
+		<French>[ICON_BULLET]+%d1_Num Dégâts Damnés</French>
+		<German>[ICON_BULLET]+%d1_Num Verderbtheit</German>
+		<Italian>[ICON_BULLET]+%d1_Num Unholy Damage</Italian>
+		<Spanish>[ICON_BULLET]+%d1_Num Unholy Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DANCE_OF_BLADES</Tag>
+		<English>Dance of Blades</English>
+		<French>Danse des Lames</French>
+		<German>Klingentanz</German>
+		<Italian>Dance of Blades</Italian>
+		<Spanish>Dance of Blades</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEATH1</Tag>
+		<English>Death I</English>
+		<French>Mort I</French>
+		<German>Tod I</German>
+		<Italian>Death I</Italian>
+		<Spanish>Death I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEATH2</Tag>
+		<English>Death II</English>
+		<French>Mort II</French>
+		<German>Tod II</German>
+		<Italian>Death II</Italian>
+		<Spanish>Death II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEATH3</Tag>
+		<English>Death III</English>
+		<French>Mort III</French>
+		<German>Tod III</German>
+		<Italian>Death III</Italian>
+		<Spanish>Death III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEATHTRAINED</Tag>
+		<English>Deathtrained</English>
+		<French>Deathtrained</French>
+		<German>Vom Tod ausgebildet</German>
+		<Italian>Deathtrained</Italian>
+		<Spanish>Deathtrained</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEATHWIELDER</Tag>
+		<English>Deathwielder</English>
+		<French>Portemort</French>
+		<German>Todesschwinger</German>
+		<Italian>Deathwielder</Italian>
+		<Spanish>Deathwielder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEFENSIVE</Tag>
+		<English>Defensive</English>
+		<French>Défensif</French>
+		<German>Verteidiger</German>
+		<Italian>Defensive</Italian>
+		<Spanish>Defensive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEFENSIVE_STRIKE_CHANCE_PEDIA</Tag>
+		<English>[ICON_BULLET]+%d1% chance to launch Defensive Strikes</English>
+		<French>[ICON_BULLET]+%d1% de chance de déclencher des frappes défensives</French>
+		<German>[ICON_BULLET]+%d1% chance to launch Defensive Strikes</German>
+		<Italian>[ICON_BULLET]+%d1% chance to launch Defensive Strikes</Italian>
+		<Spanish>[ICON_BULLET]+%d1% chance to launch Defensive Strikes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEFENSIVE_STRIKE_DAMAGE_PEDIA</Tag>
+		<English>[ICON_BULLET]Defensive Strikes do +%d1% more damage</English>
+		<French>[ICON_BULLET]Les frappes défensives font +%d1% dégâts en plus</French>
+		<German>[ICON_BULLET]Defensive Strikes do +%d1% more damage</German>
+		<Italian>[ICON_BULLET]Defensive Strikes do +%d1% more damage</Italian>
+		<Spanish>[ICON_BULLET]Defensive Strikes do +%d1% more damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEFENSIVE_STRIKE_PEDIA</Tag>
+		<English>[ICON_BULLET]+%d1% chance to do +%d2% damage to units attacking this unit's stack</English>
+		<French>[ICON_BULLET]Ajoute %d1% de chance de faire %d2% de dégâts aux unités attaquant la case</French>
+		<German>[ICON_BULLET]+%d1% chance to do +%d2% damage to units attacking this unit's stack</German>
+		<Italian>[ICON_BULLET]+%d1% chance to do +%d2% damage to units attacking this unit's stack</Italian>
+		<Spanish>[ICON_BULLET]+%d1% chance to do +%d2% damage to units attacking this unit's stack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEMON</Tag>
+		<English>Demon</English>
+		<French>Démon</French>
+		<German>Dämon</German>
+		<Italian>Demon</Italian>
+		<Spanish>Demon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEMON_SLAYING</Tag>
+		<English>Demon Slaying I</English>
+		<French>Tueur de Démons I</French>
+		<German>Dämonenhass I</German>
+		<Italian>Demon Slaying I</Italian>
+		<Spanish>Demon Slaying I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DISEASED</Tag>
+		<English>Diseased</English>
+		<French>Malade</French>
+		<German>Krank</German>
+		<Italian>Diseased</Italian>
+		<Spanish>Diseased</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DIVINE</Tag>
+		<English>Divine</English>
+		<French>Divin</French>
+		<German>Erleuchtet</German>
+		<Italian>Divine</Italian>
+		<Spanish>Divine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DIVINE_PEDIA</Tag>
+		<English>[ICON_BULLET]Allows the unit to cast Divine spells</English>
+		<French>[ICON_BULLET]Permet à l'unité de lancer des sorts divins.</French>
+		<German>[ICON_BULLET]Ermöglicht der Einheit göttliche Magie zu wirken.</German>
+		<Italian>[ICON_BULLET]Allows the unit to cast Divine spells</Italian>
+		<Spanish>[ICON_BULLET]Allows the unit to cast Divine spells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DIVINE2</Tag>
+		<English>Divine II</English>
+		<French>Divin II</French>
+		<German>Göttlich II</German>
+		<Italian>Divine II</Italian>
+		<Spanish>Divine II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOUBLE_FORTIFY_BONUS</Tag>
+		<English>[ICON_BULLET]Doubles the unit's fortification bonus</English>
+		<French>[ICON_BULLET]Double le bonus de fortification de l'unité</French>
+		<German>[ICON_BULLET]Verdoppelt den Verschanzungsbonus von Einheiten</German>
+		<Italian>[ICON_BULLET]Doubles the unit's fortification bonus</Italian>
+		<Spanish>[ICON_BULLET]Doubles the unit's fortification bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DRAGON</Tag>
+		<English>Dragon</English>
+		<French>Dragon</French>
+		<German>Drache</German>
+		<Italian>Dragon</Italian>
+		<Spanish>Dragon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DRAGON_SLAYING</Tag>
+		<English>Dragon Slaying</English>
+		<French>Tueur de Dragons</French>
+		<German>Drachentöter</German>
+		<Italian>Dragon Slaying</Italian>
+		<Spanish>Dragon Slaying</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DWARF</Tag>
+		<English>Dwarven</English>
+		<French>Nain</French>
+		<German>Zwerg</German>
+		<Italian>Dwarven</Italian>
+		<Spanish>Dwarven</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EARTH1</Tag>
+		<English>Earth I</English>
+		<French>Terre I</French>
+		<German>Erde I</German>
+		<Italian>Earth I</Italian>
+		<Spanish>Earth I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EARTH2</Tag>
+		<English>Earth II</English>
+		<French>Terre II</French>
+		<German>Erde II</German>
+		<Italian>Earth II</Italian>
+		<Spanish>Earth II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EARTH3</Tag>
+		<English>Earth III</English>
+		<French>Terre III</French>
+		<German>Erde III</German>
+		<Italian>Earth III</Italian>
+		<Spanish>Earth III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ELEMENTAL</Tag>
+		<English>Elemental</English>
+		<French>Élémentaire</French>
+		<German>Elementar</German>
+		<Italian>Elemental</Italian>
+		<Spanish>Elemental</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ELF</Tag>
+		<English>Elven</English>
+		<French>Elfe</French>
+		<German>Elf</German>
+		<Italian>Elven</Italian>
+		<Spanish>Elven</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DARK_ELF</Tag>
+		<English>Dark Elven</English>
+		<French>Elfe sombre</French>
+		<German>Dunkelelf</German>
+		<Italian>Dark Elven</Italian>
+		<Spanish>Dark Elven</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EMPOWER1</Tag>
+		<English>Empower I</English>
+		<French>Habileté I</French>
+		<German>Anabolika I</German>
+		<Italian>Empower I</Italian>
+		<Spanish>Empower I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EMPOWER2</Tag>
+		<English>Empower II</English>
+		<French>Habileté II</French>
+		<German>Anabolika II</German>
+		<Italian>Empower II</Italian>
+		<Spanish>Empower II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EMPOWER3</Tag>
+		<English>Empower III</English>
+		<French>Habileté III</French>
+		<German>Anabolika III</German>
+		<Italian>Empower III</Italian>
+		<Spanish>Empower III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EMPOWER4</Tag>
+		<English>Empower IV</English>
+		<French>Habileté IV</French>
+		<German>Anabolika IV</German>
+		<Italian>Empower IV</Italian>
+		<Spanish>Empower IV</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EMPOWER5</Tag>
+		<English>Empower V</English>
+		<French>Habileté V</French>
+		<German>Anabolika V</German>
+		<Italian>Empower V</Italian>
+		<Spanish>Empower V</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENCHANTED_BLADE</Tag>
+		<English>Enchanted Blade</English>
+		<French>Lame Enchantée</French>
+		<German>Letzter Schliff</German>
+		<Italian>Enchanted Blade</Italian>
+		<Spanish>Enchanted Blade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENCHANTMENT1</Tag>
+		<English>Enchantment I</English>
+		<French>Enchantement I</French>
+		<German>Verzaubern I</German>
+		<Italian>Enchantment I</Italian>
+		<Spanish>Enchantment I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENCHANTMENT2</Tag>
+		<English>Enchantment II</English>
+		<French>Enchantement II</French>
+		<German>Verzaubern II</German>
+		<Italian>Enchantment II</Italian>
+		<Spanish>Enchantment II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENCHANTMENT3</Tag>
+		<English>Enchantment III</English>
+		<French>Enchantement III</French>
+		<German>Verzaubern III</German>
+		<Italian>Enchantment III</Italian>
+		<Spanish>Enchantment III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENERVATED</Tag>
+		<English>Enervated</English>
+		<French>Affaibli</French>
+		<German>Geschwächt</German>
+		<Italian>Enervated</Italian>
+		<Spanish>Enervated</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENRAGED</Tag>
+		<English>Enraged</English>
+		<French>Enragé</French>
+		<German>Wütend</German>
+		<Italian>Enraged</Italian>
+		<Spanish>Enraged</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENRAGED_HELP</Tag>
+		<English>[ICON_BULLET]Unit will be controlled by the AI and will be extremely aggressive</English>
+		<French>[ICON_BULLET]L'unité sera contrôlée par l'IA et sera extrêmement agressive</French>
+		<German>[ICON_BULLET]Die Einheit wird von der KI kontrolliert und ist extrem aggressiv</German>
+		<Italian>[ICON_BULLET]Unit will be controlled by the AI and will be extremely aggressive</Italian>
+		<Spanish>[ICON_BULLET]Unit will be controlled by the AI and will be extremely aggressive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENTROPY1</Tag>
+		<English>Entropy I</English>
+		<French>Entropie I</French>
+		<German>Entropie I</German>
+		<Italian>Entropy I</Italian>
+		<Spanish>Entropy I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENTROPY2</Tag>
+		<English>Entropy II</English>
+		<French>Entropie II</French>
+		<German>Entropie II</German>
+		<Italian>Entropy II</Italian>
+		<Spanish>Entropy II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENTROPY3</Tag>
+		<English>Entropy III</English>
+		<French>Entropie III</French>
+		<German>Entropie III</German>
+		<Italian>Entropy III</Italian>
+		<Spanish>Entropy III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXPANDED_HULL</Tag>
+		<English>Expanded Hull</English>
+		<French>Coque Étendue</French>
+		<German>Extra Laderaum</German>
+		<Italian>Expanded Hull</Italian>
+		<Spanish>Expanded Hull</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXTENSION1</Tag>
+		<English>Spell Extension I</English>
+		<French>Extension de Sorts I</French>
+		<German>Zaubereichweite I</German>
+		<Italian>Spell Extension I</Italian>
+		<Spanish>Spell Extension I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXTENSION2</Tag>
+		<English>Spell Extension II</English>
+		<French>Extension de Sorts II</French>
+		<German>Zaubereichweite II</German>
+		<Italian>Spell Extension II</Italian>
+		<Spanish>Spell Extension II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXTRA_COMBAT_STR</Tag>
+		<English>[ICON_BULLET]%D1 Attack Strength</English>
+		<French>[ICON_BULLET]Attaque : %D1</French>
+		<German>[ICON_BULLET]%D1 Angriffsstärke</German>
+		<Italian>[ICON_BULLET]%D1 Attack Strength</Italian>
+		<Spanish>[ICON_BULLET]%D1 Attack Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXTRA_COMBAT_STR_DEFENSE</Tag>
+		<English>[ICON_BULLET]%D1 Defense Strength</English>
+		<French>[ICON_BULLET]Défense : %D1</French>
+		<German>[ICON_BULLET]%D1 Verteidigungsstärke</German>
+		<Italian>[ICON_BULLET]%D1 Defense Strength</Italian>
+		<Spanish>[ICON_BULLET]%D1 Defense Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAIR_WINDS</Tag>
+		<English>Fair Winds</English>
+		<French>Bons Vents</French>
+		<German>Fahrtwind</German>
+		<Italian>Fair Winds</Italian>
+		<Spanish>Fair Winds</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FATIGUED</Tag>
+		<English>Fatigued</English>
+		<French>Fatigué</French>
+		<German>Erschöpft</German>
+		<Italian>Fatigued</Italian>
+		<Spanish>Fatigued</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FEAR</Tag>
+		<English>Fear</English>
+		<French>Terrifiant</French>
+		<German>Furcht</German>
+		<Italian>Fear</Italian>
+		<Spanish>Fear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FEAR_PEDIA</Tag>
+		<English>[ICON_BULLET]Causes fear, scattering units in tiles it attacks[NEWLINE][ICON_BULLET]Can stop enemy attacks on him.[NEWLINE][ICON_BULLET]Chance depends on strength and experience of both units.</English>
+		<French>[ICON_BULLET]Peut disperser les unités ennemies présentes sur la case qu'il attaque[NEWLINE][ICON_BULLET]Peut stopper les unités qui l'attaquent[NEWLINE][ICON_BULLET]L'efficacité dépend des forces et expériences relatives.</French>
+		<German>[ICON_BULLET]Angreifer dieser Einheit brechen möglicherweise ihren Angriff ab und fliehen.[NEWLINE][ICON_BULLET]Can stop enemy attacks on him.[NEWLINE][ICON_BULLET]Chance depends on strength and experience of both units.</German>
+		<Italian>[ICON_BULLET]Causes fear, scattering units in tiles it attacks[NEWLINE][ICON_BULLET]Can stop enemy attacks on him.[NEWLINE][ICON_BULLET]Chance depends on strength and experience of both units.</Italian>
+		<Spanish>[ICON_BULLET]Causes fear, scattering units in tiles it attacks[NEWLINE][ICON_BULLET]Can stop enemy attacks on him.[NEWLINE][ICON_BULLET]Chance depends on strength and experience of both units.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIRE_RESISTANCE</Tag>
+		<English>Resist Fire</English>
+		<French>Résistance au Feu</French>
+		<German>Widerstand gegen Verbrennung</German>
+		<Italian>Resist Fire</Italian>
+		<Spanish>Resist Fire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIRE1</Tag>
+		<English>Fire I</English>
+		<French>Feu I</French>
+		<German>Feuer I</German>
+		<Italian>Fire I</Italian>
+		<Spanish>Fire I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIRE2</Tag>
+		<English>Fire II</English>
+		<French>Feu II</French>
+		<German>Feuer II</German>
+		<Italian>Fire II</Italian>
+		<Spanish>Fire II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIRE2_SHEAIM</Tag>
+		<English>Fire II (Sheaim)</English>
+		<French>Feu II (Sheaim)</French>
+		<German>Feuer II (Sheaim)</German>
+		<Italian>Fire II (Sheaim)</Italian>
+		<Spanish>Fire II (Sheaim)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIRE3</Tag>
+		<English>Fire III</English>
+		<French>Feu III</French>
+		<German>Feuer III</German>
+		<Italian>Fire III</Italian>
+		<Spanish>Fire III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLAMING_ARROWS</Tag>
+		<English>Flaming Arrows</English>
+		<French>Flèches Incendiaires</French>
+		<German>Flammenpfeile</German>
+		<Italian>Flaming Arrows</Italian>
+		<Spanish>Flaming Arrows</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLANKING1</Tag>
+		<English>Flanking I</English>
+		<French>Contournement I</French>
+		<German>Flanke I</German>
+		<Italian>Flanking I</Italian>
+		<Spanish>Flanking I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLANKING2</Tag>
+		<English>Flanking II</English>
+		<French>Contournement II</French>
+		<German>Flanke II</German>
+		<Italian>Flanking II</Italian>
+		<Spanish>Flanking II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLANKING3</Tag>
+		<English>Flanking III</English>
+		<French>Contournement III</French>
+		<German>Flanke III</German>
+		<Italian>Flanking III</Italian>
+		<Spanish>Flanking III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLYING</Tag>
+		<English>Flying</English>
+		<French>Volant</French>
+		<German>Fliegen</German>
+		<Italian>Flying</Italian>
+		<Spanish>Flying</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FLYING_PEDIA</Tag>
+		<English>[ICON_BULLET]Grants the unit the ability to fly</English>
+		<French>[ICON_BULLET]Donne à l'unité la capacité de voler</French>
+		<German>[ICON_BULLET]Gibt der Einheit die Fähigkeit zu fliegen</German>
+		<Italian>[ICON_BULLET]Grants the unit the ability to fly</Italian>
+		<Spanish>[ICON_BULLET]Grants the unit the ability to fly</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FORMATION</Tag>
+		<English>Formation I</English>
+		<French>Formation I</French>
+		<German>Formation I</German>
+		<Italian>Formation I</Italian>
+		<Spanish>Formation I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FORMATION2</Tag>
+		<English>Formation II</English>
+		<French>Formation II</French>
+		<German>Formation II</German>
+		<Italian>Formation II</Italian>
+		<Spanish>Formation II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FROSTLING</Tag>
+		<English>Frostling</English>
+		<French>Gelbionte</French>
+		<German>Frostling</German>
+		<Italian>Frostling</Italian>
+		<Spanish>Frostling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GOLEM</Tag>
+		<English>Golem</English>
+		<French>Golem</French>
+		<German>Golem</German>
+		<Italian>Golem</Italian>
+		<Spanish>Golem</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GREAT_COMMANDER</Tag>
+		<English>Great Commander</English>
+		<French>Commandant Illustre</French>
+		<German>Genialer Feldherr</German>
+		<Italian>Great Commander</Italian>
+		<Spanish>Great Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GREAT_COMMANDER_PEDIA</Tag>
+		<English>[ICON_BULLET]Used to indicate that a Great Commander is joined with this unit</English>
+		<French>[ICON_BULLET]Utilisé pour indiquer qu'un Commandant Illustre est adjoint à cette unité.</French>
+		<German>[ICON_BULLET]Kennzeichnet eine von einem genialen Feldherrn angeführte Einheit.</German>
+		<Italian>[ICON_BULLET]Used to indicate that a Great Commander is joined with this unit</Italian>
+		<Spanish>[ICON_BULLET]Used to indicate that a Great Commander is joined with this unit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GUARDSMAN</Tag>
+		<English>Guardsman</English>
+		<French>Garde</French>
+		<German>Gardist</German>
+		<Italian>Guardsman</Italian>
+		<Spanish>Guardsman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HASTED</Tag>
+		<English>Hasted</English>
+		<French>Accéléré</French>
+		<German>Beschleunigt</German>
+		<Italian>Hasted</Italian>
+		<Spanish>Hasted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HEAVY</Tag>
+		<English>Heavy</English>
+		<French>Lourd</French>
+		<German>Aufgerüstet</German>
+		<Italian>Heavy</Italian>
+		<Spanish>Heavy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HELD</Tag>
+		<English>Held</English>
+		<French>Immobilisé</French>
+		<German>Gehalten</German>
+		<Italian>Held</Italian>
+		<Spanish>Held</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HELD_PEDIA</Tag>
+		<English>[ICON_BULLET]Keeps the unit from being able to move</English>
+		<French>[ICON_BULLET]Empêche l'unité de se déplacer</French>
+		<German>[ICON_BULLET]Hält die Einheit davon ab sich zu bewegen</German>
+		<Italian>[ICON_BULLET]Keeps the unit from being able to move</Italian>
+		<Spanish>[ICON_BULLET]Keeps the unit from being able to move</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HERO</Tag>
+		<English>Hero</English>
+		<French>Héros</French>
+		<German>Held</German>
+		<Italian>Hero</Italian>
+		<Spanish>Hero</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HEROIC_DEFENSE</Tag>
+		<English>Heroic Defense I</English>
+		<French>Défense Héroique I</French>
+		<German>Heroische Verteidigung I</German>
+		<Italian>Heroic Defense I</Italian>
+		<Spanish>Heroic Defense I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HEROIC_DEFENSE2</Tag>
+		<English>Heroic Defense II</English>
+		<French>Défense Héroique II</French>
+		<German>Heroische Verteidigung II</German>
+		<Italian>Heroic Defense II</Italian>
+		<Spanish>Heroic Defense II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HEROIC_STRENGTH</Tag>
+		<English>Heroic Strength I</English>
+		<French>Attaque Héroïque I</French>
+		<German>Heroische Stärke I</German>
+		<Italian>Heroic Strength I</Italian>
+		<Spanish>Heroic Strength I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HEROIC_STRENGTH2</Tag>
+		<English>Heroic Strength II</English>
+		<French>Attaque Héroïque II</French>
+		<German>Heroische Stärke II</German>
+		<Italian>Heroic Strength II</Italian>
+		<Spanish>Heroic Strength II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HIDDEN</Tag>
+		<English>Hidden</English>
+		<French>Dissimulé</French>
+		<German>Versteckt</German>
+		<Italian>Hidden</Italian>
+		<Spanish>Hidden</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HIDDEN_NATIONALITY</Tag>
+		<English>Hidden Nationality</English>
+		<French>Nationalité Cachée</French>
+		<German>Verborgene Nationalität</German>
+		<Italian>Hidden Nationality</Italian>
+		<Spanish>Hidden Nationality</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ICARGO_TEXT</Tag>
+		<English>[ICON_BULLET]%d1_Num Extra Cargo</English>
+		<French>[ICON_BULLET]%d1_Num Cargaison Supplémentaire</French>
+		<German>[ICON_BULLET]%d1_Num Extra Laderaum</German>
+		<Italian>[ICON_BULLET]%d1_Num Extra Cargo</Italian>
+		<Spanish>[ICON_BULLET]%d1_Num Extra Cargo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ICOMBAT_ATTACK_TEXT</Tag>
+		<English>[ICON_BULLET]%d1_Num Extra Points Attack Strength</English>
+		<French>[ICON_BULLET]%d1_Num Points Bonus de Force d'Attaque</French>
+		<German>[ICON_BULLET]%d1_Num zusätzliche Angriffsstärke</German>
+		<Italian>[ICON_BULLET]%d1_Num Extra Points Attack Strength</Italian>
+		<Spanish>[ICON_BULLET]%d1_Num Extra Points Attack Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ICOMBAT_DEFENSE_TEXT</Tag>
+		<English>[ICON_BULLET]%d1_Num Extra Points Defense Strength</English>
+		<French>[ICON_BULLET]%d1_Num Points Bonus de Force de Défense</French>
+		<German>[ICON_BULLET]%d1_Num zusätzliche Verteidigungsstärke</German>
+		<Italian>[ICON_BULLET]%d1_Num Extra Points Defense Strength</Italian>
+		<Spanish>[ICON_BULLET]%d1_Num Extra Points Defense Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ICOMBAT_TEXT</Tag>
+		<English>[ICON_BULLET]%d1_Num Extra Points Strength</English>
+		<French>[ICON_BULLET]%d1_Num Points Bonus de Force</French>
+		<German>[ICON_BULLET]%d1_Num Extra Stärkepunkt</German>
+		<Italian>[ICON_BULLET]%d1_Num Extra Points Strength</Italian>
+		<Spanish>[ICON_BULLET]%d1_Num Extra Points Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IGNORE_BUILDING_DEFENSE</Tag>
+		<English>[ICON_BULLET]Ignores terrain defense</English>
+		<French>[ICON_BULLET]Ignore la défense due au terrain</French>
+		<German>[ICON_BULLET]Ignoriert Geländeverteidigung</German>
+		<Italian>[ICON_BULLET]Ignores terrain defense</Italian>
+		<Spanish>[ICON_BULLET]Ignores terrain defense</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ILLUSION</Tag>
+		<English>Illusion</English>
+		<French>Illusion</French>
+		<German>Illusion</German>
+		<Italian>Illusion</Italian>
+		<Spanish>Illusion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ILLUSIONIST</Tag>
+		<English>Illusionist</English>
+		<French>Illusioniste</French>
+		<German>Illusionist</German>
+		<Italian>Illusionist</Italian>
+		<Spanish>Illusionist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMORTAL</Tag>
+		<English>Phoenix Blood</English>
+		<French>Sang du Phénix</French>
+		<German>Phoenix Blood</German>
+		<Italian>Phoenix Blood</Italian>
+		<Spanish>Phoenix Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMORTAL_PEDIA</Tag>
+		<English>[ICON_BULLET]Resurrected in the civilization's capital if killed</English>
+		<French>[ICON_BULLET]Une unité tuée ayant cette promotion est ressuscitée dans la capitale de sa civilisation.</French>
+		<German>[ICON_BULLET]Getötete Einheiten werden in der Hauptstadt wiederbelebt.</German>
+		<Italian>[ICON_BULLET]Resurrected in the civilization's capital if killed</Italian>
+		<Spanish>[ICON_BULLET]Resurrected in the civilization's capital if killed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE</Tag>
+		<English>[ICON_BULLET]Immune to the %s1_promotion promotion</English>
+		<French>[ICON_BULLET]Immunisé contre la promotion %s1_promotion</French>
+		<German>[ICON_BULLET]Immun zu der %s1_promotion Beförderung</German>
+		<Italian>[ICON_BULLET]Immune to the %s1_promotion promotion</Italian>
+		<Spanish>[ICON_BULLET]Immune to the %s1_promotion promotion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_COLD</Tag>
+		<English>Immune to Cold</English>
+		<French>Immunité au Froid</French>
+		<German>Immunität gegen Erfrierung</German>
+		<Italian>Immune to Cold</Italian>
+		<Spanish>Immune to Cold</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_COLD_TEXT</Tag>
+		<English>[ICON_BULLET]Immune to Cold Damage</English>
+		<French>[ICON_BULLET]Immunisé aux Dégâts de Froid</French>
+		<German>[ICON_BULLET]verleiht der Einheit Immunität gegen Erfrierung</German>
+		<Italian>[ICON_BULLET]Immune to Cold Damage</Italian>
+		<Spanish>[ICON_BULLET]Immune to Cold Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_DEATH_TEXT</Tag>
+		<English>[ICON_BULLET]Immune to Death Damage</English>
+		<French>[ICON_BULLET]Immunisé aux Dégâts de Mort</French>
+		<German>[ICON_BULLET]verleiht der Einheit Immunität gegen Todeshauch</German>
+		<Italian>[ICON_BULLET]Immune to Death Damage</Italian>
+		<Spanish>[ICON_BULLET]Immune to Death Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_DISEASE</Tag>
+		<English>Immune to Disease</English>
+		<French>Immunité à la Maladie</French>
+		<German>Immunität gegen Krankheiten</German>
+		<Italian>Immune to Disease</Italian>
+		<Spanish>Immune to Disease</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_FIRE</Tag>
+		<English>Immune to Fire</English>
+		<French>Immunité au Feu</French>
+		<German>Immunität gegen Verbrennung</German>
+		<Italian>Immune to Fire</Italian>
+		<Spanish>Immune to Fire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_FIRE_TEXT</Tag>
+		<English>[ICON_BULLET]Immune to Fire Damage</English>
+		<French>[ICON_BULLET]Immunisé aux Dégâts de Feu</French>
+		<German>[ICON_BULLET]verleiht der Einheit Immunität gegen Verbrennung</German>
+		<Italian>[ICON_BULLET]Immune to Fire Damage</Italian>
+		<Spanish>[ICON_BULLET]Immune to Fire Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_HOLY_TEXT</Tag>
+		<English>[ICON_BULLET]Immune to Holy Damage</English>
+		<French>[ICON_BULLET]Immunisé aux Dégâts Sacrés</French>
+		<German>[ICON_BULLET]verleiht der Einheit Immunität gegen Weihung</German>
+		<Italian>[ICON_BULLET]Immune to Holy Damage</Italian>
+		<Spanish>[ICON_BULLET]Immune to Holy Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_LIGHTNING</Tag>
+		<English>Immune to Lightning</English>
+		<French>Immunité à la foudre</French>
+		<German>Immunität gegen Blitzschlag</German>
+		<Italian>Immune to Lightning</Italian>
+		<Spanish>Immune to Lightning</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_LIGHTNING_TEXT</Tag>
+		<English>[ICON_BULLET]Immune to Lightning Damage</English>
+		<French>[ICON_BULLET]Immunité aux dégâts de foudre</French>
+		<German>[ICON_BULLET]verleiht der Einheit Immunität gegen Blitzschlag</German>
+		<Italian>[ICON_BULLET]Immune to Lightning Damage</Italian>
+		<Spanish>[ICON_BULLET]Immune to Lightning Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_POISON_TEXT</Tag>
+		<English>[ICON_BULLET]Immune to Poison Damage</English>
+		<French>[ICON_BULLET]Immunité au poison</French>
+		<German>[ICON_BULLET]verleiht der Einheit Immunität gegen Vergiftung</German>
+		<Italian>[ICON_BULLET]Immune to Poison Damage</Italian>
+		<Spanish>[ICON_BULLET]Immune to Poison Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_TO_CAPTURE_PEDIA</Tag>
+		<English>[ICON_BULLET]Immune to Capture</English>
+		<French>[ICON_BULLET]Immunité à la capture</French>
+		<German>[ICON_BULLET]Immunität gegen Gefangennahme</German>
+		<Italian>[ICON_BULLET]Immune to Capture</Italian>
+		<Spanish>[ICON_BULLET]Immune to Capture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_TO_DEFENSIVE_STRIKE_PEDIA</Tag>
+		<English>[ICON_BULLET]Immune to Defensive Strikes</English>
+		<French>[ICON_BULLET]Immunité aux frappes défensives</French>
+		<German>[ICON_BULLET]Immunität gegen Verteidigungsschläge</German>
+		<Italian>[ICON_BULLET]Immune to Defensive Strikes</Italian>
+		<Spanish>[ICON_BULLET]Immune to Defensive Strikes</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_TO_FEAR_PEDIA</Tag>
+		<English>[ICON_BULLET]Immune to Fear</English>
+		<French>[ICON_BULLET]Immunité à la Peur</French>
+		<German>[ICON_BULLET]Immunität gegen Angst</German>
+		<Italian>[ICON_BULLET]Immune to Fear</Italian>
+		<Spanish>[ICON_BULLET]Immune to Fear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_TO_MAGIC_PEDIA</Tag>
+		<English>[ICON_BULLET]Immune to Magic</English>
+		<French>[ICON_BULLET]Immunité à la Magie</French>
+		<German>[ICON_BULLET]Immunität gegen Magie</German>
+		<Italian>[ICON_BULLET]Immune to Magic</Italian>
+		<Spanish>[ICON_BULLET]Immune to Magic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMMUNE_UNHOLY_TEXT</Tag>
+		<English>[ICON_BULLET]Immune to Unholy Damage</English>
+		<French>[ICON_BULLET]Immunisé aux Dégâts Damnés</French>
+		<German>[ICON_BULLET]verleiht der Einheit Immunität gegen Verderbtheit</German>
+		<Italian>[ICON_BULLET]Immune to Unholy Damage</Italian>
+		<Spanish>[ICON_BULLET]Immune to Unholy Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INQUISITOR</Tag>
+		<English>Inquisitor</English>
+		<French>Inquisiteur</French>
+		<German>Inquisitor</German>
+		<Italian>Inquisitor</Italian>
+		<Spanish>Inquisitor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INQUISITOR_HELP</Tag>
+		<English>Allows the unit to use the Inquisition ability</English>
+		<French>Permet à l'unité d'utiliser la capacité Inquisition</French>
+		<German>Erlaubt der Einheit Nicht-Staatsreligionen zu entfernen</German>
+		<Italian>Allows the unit to use the Inquisition ability</Italian>
+		<Spanish>Allows the unit to use the Inquisition ability</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INVISIBLE</Tag>
+		<English>Invisible</English>
+		<French>Invisible</French>
+		<German>Unsichtbar</German>
+		<Italian>Invisible</Italian>
+		<Spanish>Invisible</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INVISIBLE_PEDIA</Tag>
+		<English>[ICON_BULLET]Makes the unit invisible</English>
+		<French>[ICON_BULLET]Rend l'unité invisible</French>
+		<German>[ICON_BULLET]Einheit wird unsichtbar</German>
+		<Italian>[ICON_BULLET]Makes the unit invisible</Italian>
+		<Spanish>[ICON_BULLET]Makes the unit invisible</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IRON_WEAPONS</Tag>
+		<English>Iron Weapons</English>
+		<French>Armes d'Acier</French>
+		<German>Eisenwaffen</German>
+		<Italian>Iron Weapons</Italian>
+		<Spanish>Iron Weapons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEN_SIGHT</Tag>
+		<English>Keen Sight</English>
+		<French>Keen Sight</French>
+		<German>Keen Sight</German>
+		<Italian>Keen Sight</Italian>
+		<Spanish>Keen Sight</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LAW1</Tag>
+		<English>Law I</English>
+		<French>Loi I</French>
+		<German>Ordnung I</German>
+		<Italian>Law I</Italian>
+		<Spanish>Law I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LAW2</Tag>
+		<English>Law II</English>
+		<French>Loi II</French>
+		<German>Ordnung II</German>
+		<Italian>Law II</Italian>
+		<Spanish>Law II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LAW3</Tag>
+		<English>Law III</English>
+		<French>Loi III</French>
+		<German>Ordnung III</German>
+		<Italian>Law III</Italian>
+		<Spanish>Law III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LIFE1</Tag>
+		<English>Life I</English>
+		<French>Vie I</French>
+		<German>Leben I</German>
+		<Italian>Life I</Italian>
+		<Spanish>Life I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LIFE2</Tag>
+		<English>Life II</English>
+		<French>Vie II</French>
+		<German>Leben II</German>
+		<Italian>Life II</Italian>
+		<Spanish>Life II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LIFE3</Tag>
+		<English>Life III</English>
+		<French>Vie III</French>
+		<German>Leben III</German>
+		<Italian>Life III</Italian>
+		<Spanish>Life III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LIGHT</Tag>
+		<English>Light</English>
+		<French>Léger</French>
+		<German>Leicht</German>
+		<Italian>Light</Italian>
+		<Spanish>Light</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LIGHTNING_RESISTANCE</Tag>
+		<English>Resist Lightning</English>
+		<French>Résistance à la Foudre</French>
+		<German>Widerstand gegen Blitzschlag</German>
+		<Italian>Resist Lightning</Italian>
+		<Spanish>Resist Lightning</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LONGSHOREMEN</Tag>
+		<English>Longshoremen</English>
+		<French>Dockers</French>
+		<German>Rudermannschaft</German>
+		<Italian>Longshoremen</Italian>
+		<Spanish>Longshoremen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LOYALTY</Tag>
+		<English>Loyalty</English>
+		<French>Loyauté</French>
+		<German>Loyalität</German>
+		<Italian>Loyalty</Italian>
+		<Spanish>Loyalty</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LOYALTY_TEMP</Tag>
+		<English>Loyalty (temp)</English>
+		<French>Loyauté (temp)</French>
+		<German>Loyalität (temp)</German>
+		<Italian>Loyalty (temp)</Italian>
+		<Spanish>Loyalty (temp)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LOYALTY_PERFECT</Tag>
+		<English>Perfect Loyalty</English>
+		<French>Loyauté infaillible</French>
+		<German>Absolut Loyalität</German>
+		<Italian>Perfect Loyalty</Italian>
+		<Spanish>Perfect Loyalty</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LOYALTY_PEDIA</Tag>
+		<English>[ICON_BULLET]A loyal unit will die instead of being converted to an opponent's cause[NEWLINE][ICON_BULLET]Unit is 20% more likely to resist the Charm Person spell</English>
+		<French>[ICON_BULLET]Une unité loyale meurt plutôt que d'être convertie à la cause d'un adversaire.</French>
+		<German>[ICON_BULLET]Eine loyale Einheit stirbt, anstatt zum Gegner überzulaufen. [NEWLINE][ICON_BULLET]Es besteht eine Wahrscheinlichkeit von 20%, dass die Einheit dem Beeindrucken Zauber widersteht.</German>
+		<Italian>[ICON_BULLET]A loyal unit will die instead of being converted to an opponent's cause[NEWLINE][ICON_BULLET]Unit is 20% more likely to resist the Charm Person spell</Italian>
+		<Spanish>[ICON_BULLET]A loyal unit will die instead of being converted to an opponent's cause[NEWLINE][ICON_BULLET]Unit is 20% more likely to resist the Charm Person spell</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MACHINE_SPIRIT</Tag>
+		<English>Machine Spirit</English>
+		<French>Esprit de la Machine</French>
+		<German>Machinengeist</German>
+		<Italian>Machine Spirit</Italian>
+		<Spanish>Machine Spirit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MAGIC_RESISTANCE</Tag>
+		<English>Magic Resistance</English>
+		<French>Résistance à la Magie</French>
+		<German>Widerstand gegen Magie</German>
+		<Italian>Magic Resistance</Italian>
+		<Spanish>Magic Resistance</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MAGIC_RESISTANCE_PEDIA</Tag>
+		<English>[ICON_BULLET]Reduces the chance of being affected by enemy spells</English>
+		<French>[ICON_BULLET]Réduit la probabilité d'être affecté par un sort ennemi.</French>
+		<German>[ICON_BULLET]Vermindert die Wahrscheinlichkeit von feindlichen Zaubersprüchen betroffen zu werden.</German>
+		<Italian>[ICON_BULLET]Reduces the chance of being affected by enemy spells</Italian>
+		<Spanish>[ICON_BULLET]Reduces the chance of being affected by enemy spells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MARKSMAN</Tag>
+		<English>Marksman</English>
+		<French>Tireur d'Élite</French>
+		<German>Scharfschütze</German>
+		<Italian>Marksman</Italian>
+		<Spanish>Marksman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MECHANICAL</Tag>
+		<English>Mechanical</English>
+		<French>Mécanique</French>
+		<German>Mechanisch</German>
+		<Italian>Mechanical</Italian>
+		<Spanish>Mechanical</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MEDIC1</Tag>
+		<English>Medic I</English>
+		<French>Médecin I</French>
+		<German>Heilung I</German>
+		<Italian>Medic I</Italian>
+		<Spanish>Medic I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MEDIC2</Tag>
+		<English>Medic II</English>
+		<French>Médecin II</French>
+		<German>Heilung II</German>
+		<Italian>Medic II</Italian>
+		<Spanish>Medic II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MEDIC3</Tag>
+		<English>Medic III</English>
+		<French>Médecin III</French>
+		<German>Heilung III</German>
+		<Italian>Medic III</Italian>
+		<Spanish>Medic III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_METAMAGIC1</Tag>
+		<English>Metamagic I</English>
+		<French>Métamagie I</French>
+		<German>Metamagie I</German>
+		<Italian>Metamagic I</Italian>
+		<Spanish>Metamagic I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_METAMAGIC2</Tag>
+		<English>Metamagic II</English>
+		<French>Métamagie II</French>
+		<German>Metamagie II</German>
+		<Italian>Metamagic II</Italian>
+		<Spanish>Metamagic II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_METAMAGIC3</Tag>
+		<English>Metamagic III</English>
+		<French>Métamagie III</French>
+		<German>Metamagie III</German>
+		<Italian>Metamagic III</Italian>
+		<Spanish>Metamagic III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MIND1</Tag>
+		<English>Mind I</English>
+		<French>Pensée I</French>
+		<German>Geist I</German>
+		<Italian>Mind I</Italian>
+		<Spanish>Mind I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MIND2</Tag>
+		<English>Mind II</English>
+		<French>Pensée II</French>
+		<German>Geist II</German>
+		<Italian>Mind II</Italian>
+		<Spanish>Mind II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MIND3</Tag>
+		<English>Mind III</English>
+		<French>Pensée III</French>
+		<German>Geist III</German>
+		<Italian>Mind III</Italian>
+		<Spanish>Mind III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MITHRIL_WEAPONS</Tag>
+		<English>Mithril Weapons</English>
+		<French>Armes de Mithril</French>
+		<German>Mithrilwaffen</German>
+		<Italian>Mithril Weapons</Italian>
+		<Spanish>Mithril Weapons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOBILITY1</Tag>
+		<English>Mobility I</English>
+		<French>Mobilité I</French>
+		<German>Fortbewegung I</German>
+		<Italian>Mobility I</Italian>
+		<Spanish>Mobility I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOBILITY1_GOLEM</Tag>
+		<English>Mobility I (Golem)</English>
+		<French>Mobilité I (Golem)</French>
+		<German>Fortbewegung I (Golem)</German>
+		<Italian>Mobility I (Golem)</Italian>
+		<Spanish>Mobility I (Golem)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOBILITY2</Tag>
+		<English>Mobility II</English>
+		<French>Mobilité II</French>
+		<German>Fortbewegung II</German>
+		<Italian>Mobility II</Italian>
+		<Spanish>Mobility II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MORALE</Tag>
+		<English>Morale</English>
+		<French>Moral</French>
+		<German>Moral</German>
+		<Italian>Morale</Italian>
+		<Spanish>Morale</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATED</Tag>
+		<English>Mutated</English>
+		<French>Muté</French>
+		<German>Mutiert</German>
+		<Italian>Mutated</Italian>
+		<Spanish>Mutated</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATED_PEDIA</Tag>
+		<English>[ICON_BULLET]Used to mark a unit that has been affected by the Mutate spell</English>
+		<French>[ICON_BULLET]Utilisé pour indiquer que l'unité a été affectée par le sort Mutation.</French>
+		<German>[ICON_BULLET]Kennzeichnet durch Mutation verzauberte Einheiten.</German>
+		<Italian>[ICON_BULLET]Used to mark a unit that has been affected by the Mutate spell</Italian>
+		<Spanish>[ICON_BULLET]Used to mark a unit that has been affected by the Mutate spell</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NATURE1</Tag>
+		<English>Nature I</English>
+		<French>Nature I</French>
+		<German>Natur I</German>
+		<Italian>Nature I</Italian>
+		<Spanish>Nature I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NATURE2</Tag>
+		<English>Nature II</English>
+		<French>Nature II</French>
+		<German>Natur II</German>
+		<Italian>Nature II</Italian>
+		<Spanish>Nature II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NATURE3</Tag>
+		<English>Nature III</English>
+		<French>Nature III</French>
+		<German>Natur III</German>
+		<Italian>Nature III</Italian>
+		<Spanish>Nature III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NIGHTMARE</Tag>
+		<English>Nightmare</English>
+		<French>Cauchemar</French>
+		<German>Alptraum</German>
+		<Italian>Nightmare</Italian>
+		<Spanish>Nightmare</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NOMAD</Tag>
+		<English>Nomad</English>
+		<French>Nomade</French>
+		<German>Nomade</German>
+		<Italian>Nomad</Italian>
+		<Spanish>Nomad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NOT_ALIVE</Tag>
+		<English>[ICON_BULLET]Units with this promotion are not alive</English>
+		<French>[ICON_BULLET]Les unités possédant cette promotion ne sont pas vivantes</French>
+		<German>[ICON_BULLET]Einheiten mit dieser Beförderung sind nicht lebendig</German>
+		<Italian>[ICON_BULLET]Units with this promotion are not alive</Italian>
+		<Spanish>[ICON_BULLET]Units with this promotion are not alive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ORC</Tag>
+		<English>Orcish</English>
+		<French>Orque</French>
+		<German>Ork</German>
+		<Italian>Orcish</Italian>
+		<Spanish>Orcish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PERFECT_SIGHT</Tag>
+		<English>Perfect Sight</English>
+		<French>Vision parfaite</French>
+		<German>Perfekte Sicht</German>
+		<Italian>Perfect Sight</Italian>
+		<Spanish>Perfect Sight</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PIRATE_COVE</Tag>
+		<English>Pirate Cove</English>
+		<French>Crique Pirate</French>
+		<German>Piratenbucht</German>
+		<Italian>Pirate Cove</Italian>
+		<Spanish>Pirate Cove</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PLAGUE_CARRIER</Tag>
+		<English>Plague Carrier</English>
+		<French>Porteur de Peste</French>
+		<German>Seuchenherd</German>
+		<Italian>Plague Carrier</Italian>
+		<Spanish>Plague Carrier</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PLAGUE_CARRIER_PEDIA</Tag>
+		<English>[ICON_BULLET]Has a chance of spreading the plague during combat to units in the defending and attacking stacks</English>
+		<French>[ICON_BULLET]A une chance de propager la peste aux unités de la pile d'attaque et de la pile de défense lors d'un combat.</French>
+		<German>[ICON_BULLET]Es besteht die Chance, das sich Einheiten während eines Kampfes mit der Seuche infizieren.</German>
+		<Italian>[ICON_BULLET]Has a chance of spreading the plague during combat to units in the defending and attacking stacks</Italian>
+		<Spanish>[ICON_BULLET]Has a chance of spreading the plague during combat to units in the defending and attacking stacks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PLAGUED</Tag>
+		<English>Plagued</English>
+		<French>Pestiféré</French>
+		<German>Verseucht</German>
+		<Italian>Plagued</Italian>
+		<Spanish>Plagued</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POTENCY</Tag>
+		<English>Potency</English>
+		<French>Puissance</French>
+		<German>magisch begabt</German>
+		<Italian>Potency</Italian>
+		<Spanish>Potency</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PRECISION</Tag>
+		<English>Precision</English>
+		<French>Précision</French>
+		<German>Präzision</German>
+		<Italian>Precision</Italian>
+		<Spanish>Precision</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PROPHECY_MARK</Tag>
+		<English>Prophecy Mark</English>
+		<French>Marque de la Prophétie</French>
+		<German>Fluch der Vorhersehung</German>
+		<Italian>Prophecy Mark</Italian>
+		<Spanish>Prophecy Mark</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PROPHECY_MARK_PEDIA</Tag>
+		<English>[ICON_BULLET]The Armageddon Counter is increased when this unit is created and decreased when it is killed</English>
+		<French>[ICON_BULLET]Le Compteur Armageddon est incrémenté quand l'unité est créée et décrémenté quand elle est tuée.</French>
+		<German>[ICON_BULLET]Der Armageddonzähler wird erhöht, wenn diese Einheit erschaffen wird und gesenkt, wenn sie stirbt.</German>
+		<Italian>[ICON_BULLET]The Armageddon Counter is increased when this unit is created and decreased when it is killed</Italian>
+		<Spanish>[ICON_BULLET]The Armageddon Counter is increased when this unit is created and decreased when it is killed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RACE_PEDIA</Tag>
+		<English>[ICON_BULLET]Race: %s1_promotion</English>
+		<French>[ICON_BULLET]Race: %s1_promotion</French>
+		<German>[ICON_BULLET]Rasse: %s1_promotion</German>
+		<Italian>[ICON_BULLET]Race: %s1_promotion</Italian>
+		<Spanish>[ICON_BULLET]Race: %s1_promotion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RECRUITER</Tag>
+		<English>Recruiter</English>
+		<French>Recruteur</French>
+		<German>Anwerber</German>
+		<Italian>Recruiter</Italian>
+		<Spanish>Recruiter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REGENERATION</Tag>
+		<English>Regeneration</English>
+		<French>Régénération</French>
+		<German>Regeneration</German>
+		<Italian>Regeneration</Italian>
+		<Spanish>Regeneration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RESIDENT_SPIRIT</Tag>
+		<English>Resident Machine Spirit</English>
+		<French>Resident Machine Spirit</French>
+		<German>Ansässiger Maschinengeist</German>
+		<Italian>Resident Machine Spirit</Italian>
+		<Spanish>Resident Machine Spirit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REMOVED_BY_CASTING</Tag>
+		<English>[ICON_BULLET]Removed by casting spells or using special abilities</English>
+		<French>[ICON_BULLET]Enlevé en lançant un sort ou en utilisant une capacité spéciale</French>
+		<German>[ICON_BULLET]Entfernt wegen eines gesprochenen Zaubers oder wegen Benutzen von speziellen Fähigkeiten</German>
+		<Italian>[ICON_BULLET]Removed by casting spells or using special abilities</Italian>
+		<Spanish>[ICON_BULLET]Removed by casting spells or using special abilities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REMOVED_BY_COMBAT</Tag>
+		<English>[ICON_BULLET]Removed after combat</English>
+		<French>[ICON_BULLET]Enlevé après un combat</French>
+		<German>[ICON_BULLET]entfernt nach dem Kampf</German>
+		<Italian>[ICON_BULLET]Removed after combat</Italian>
+		<Spanish>[ICON_BULLET]Removed after combat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_REMOVED_WHEN_HEALED</Tag>
+		<English>[ICON_BULLET]Removed when the unit is fully healed</English>
+		<French>[ICON_BULLET]Enlevé lorsque l'unité est complètement soignée</French>
+		<German>[ICON_BULLET]entfernt wenn die Einheit vollständig geheilt ist</German>
+		<Italian>[ICON_BULLET]Removed when the unit is fully healed</Italian>
+		<Spanish>[ICON_BULLET]Removed when the unit is fully healed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RESIST</Tag>
+		<English>[ICON_BULLET]%D1% to resist spells</English>
+		<French>[ICON_BULLET]Résistance (Magie) : %D1%</French>
+		<German>[ICON_BULLET]%D1% zum Widerstehen von Zaubern</German>
+		<Italian>[ICON_BULLET]%D1% to resist spells</Italian>
+		<Spanish>[ICON_BULLET]%D1% to resist spells</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RESIST_COLD_TEXT</Tag>
+		<English>[ICON_BULLET]%D1_Bonus%% vs Cold Damage</English>
+		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts de Froid</French>
+		<German>[ICON_BULLET]%D1_Bonus%% gegen Erfrierung</German>
+		<Italian>[ICON_BULLET]%D1_Bonus%% vs Cold Damage</Italian>
+		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Cold Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RESIST_DEATH_TEXT</Tag>
+		<English>[ICON_BULLET]%D1_Bonus%% vs Death Damage</English>
+		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts de Mort</French>
+		<German>[ICON_BULLET]%D1_Bonus%% gegen Todeshauch</German>
+		<Italian>[ICON_BULLET]%D1_Bonus%% vs Death Damage</Italian>
+		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Death Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RESIST_FIRE_TEXT</Tag>
+		<English>[ICON_BULLET]%D1_Bonus%% vs Fire Damage</English>
+		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts de Feu</French>
+		<German>[ICON_BULLET]%D1_Bonus%% gegen Verbrennung</German>
+		<Italian>[ICON_BULLET]%D1_Bonus%% vs Fire Damage</Italian>
+		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Fire Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RESIST_HOLY_TEXT</Tag>
+		<English>[ICON_BULLET]%D1_Bonus%% vs Holy Damage</English>
+		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts Sacrés</French>
+		<German>[ICON_BULLET]%D1_Bonus%% gegen Weihung</German>
+		<Italian>[ICON_BULLET]%D1_Bonus%% vs Holy Damage</Italian>
+		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Holy Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RESIST_LIGHTNING_TEXT</Tag>
+		<English>[ICON_BULLET]%D1_Bonus%% vs Lightning Damage</English>
+		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts de Foudre</French>
+		<German>[ICON_BULLET]%D1_Bonus%% gegen Blitzschlag</German>
+		<Italian>[ICON_BULLET]%D1_Bonus%% vs Lightning Damage</Italian>
+		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Lightning Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RESIST_POISON_TEXT</Tag>
+		<English>[ICON_BULLET]%D1_Bonus%% vs Poison Damage</English>
+		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts de Poison</French>
+		<German>[ICON_BULLET]%D1_Bonus%% gegen Vergiftung</German>
+		<Italian>[ICON_BULLET]%D1_Bonus%% vs Poison Damage</Italian>
+		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Poison Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RESIST_UNHOLY_TEXT</Tag>
+		<English>[ICON_BULLET]%D1_Bonus%% vs Unholy Damage</English>
+		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts Damnés</French>
+		<German>[ICON_BULLET]%D1_Bonus%% gegen Verderbtheit</German>
+		<Italian>[ICON_BULLET]%D1_Bonus%% vs Unholy Damage</Italian>
+		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Unholy Damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RUSTED</Tag>
+		<English>Rusted</English>
+		<French>Rouillé</French>
+		<German>Verrostet</German>
+		<Italian>Rusted</Italian>
+		<Spanish>Rusted</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RUSTED_PEDIA</Tag>
+		<English>[ICON_BULLET]This effect can be removed by visiting a city with a forge in it</English>
+		<French>[ICON_BULLET]Cet effet peut être supprimé en allant dans une ville possédant une Forge.</French>
+		<German>[ICON_BULLET]Dieser Effekt kann durch einen Besuch einer Stadt mit einer Schmiede aufgehoben werden.</German>
+		<Italian>[ICON_BULLET]This effect can be removed by visiting a city with a forge in it</Italian>
+		<Spanish>[ICON_BULLET]This effect can be removed by visiting a city with a forge in it</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCOURGE</Tag>
+		<English>Scourge</English>
+		<French>Fléau</French>
+		<German>Geißel</German>
+		<Italian>Scourge</Italian>
+		<Spanish>Scourge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SEE_INVISIBLE_PEDIA</Tag>
+		<English>[ICON_BULLET]Allows the unit to see invisible units</English>
+		<French>[ICON_BULLET]Allows the unit to see invisible units</French>
+		<German>[ICON_BULLET]Erlaubt der Einheit unsichtbare Einheiten zu sehen.</German>
+		<Italian>[ICON_BULLET]Allows the unit to see invisible units</Italian>
+		<Spanish>[ICON_BULLET]Allows the unit to see invisible units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SENTRY2</Tag>
+		<English>Sentry II</English>
+		<French>Sentinelle II</French>
+		<German>Wache II</German>
+		<Italian>Sentry II</Italian>
+		<Spanish>Sentry II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHADOW1</Tag>
+		<English>Shadow I</English>
+		<French>Ombre I</French>
+		<German>Schatten I</German>
+		<Italian>Shadow I</Italian>
+		<Spanish>Shadow I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHADOW2</Tag>
+		<English>Shadow II</English>
+		<French>Ombre II</French>
+		<German>Schatten II</German>
+		<Italian>Shadow II</Italian>
+		<Spanish>Shadow II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHADOW3</Tag>
+		<English>Shadow III</English>
+		<French>Ombre III</French>
+		<German>Schatten III</German>
+		<Italian>Shadow III</Italian>
+		<Spanish>Shadow III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHADOWWALK</Tag>
+		<English>Shadowwalk</English>
+		<French>Marcheur des Ombres</French>
+		<German>Schattenwandern</German>
+		<Italian>Shadowwalk</Italian>
+		<Spanish>Shadowwalk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHEUT_STONE</Tag>
+		<English>Sheut Stone</English>
+		<French>Malpierre</French>
+		<German>Seelenstein</German>
+		<Italian>Sheut Stone</Italian>
+		<Spanish>Sheut Stone</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHIELD_OF_FAITH</Tag>
+		<English>Shield of Faith</English>
+		<French>Bouclier de la Foi</French>
+		<German>Schild des Glaubens</German>
+		<Italian>Shield of Faith</Italian>
+		<Spanish>Shield of Faith</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOCK</Tag>
+		<English>Shock I</English>
+		<French>Choc I</French>
+		<German>Schock I</German>
+		<Italian>Shock I</Italian>
+		<Spanish>Shock I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHOCK2</Tag>
+		<English>Shock II</English>
+		<French>Choc II</French>
+		<German>Schock II</German>
+		<Italian>Shock II</Italian>
+		<Spanish>Shock II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SKELETON_CREW</Tag>
+		<English>Skeleton Crew</English>
+		<French>Équipage Squelettique</French>
+		<German>Skelettbesatzung</German>
+		<Italian>Skeleton Crew</Italian>
+		<Spanish>Skeleton Crew</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SLOW</Tag>
+		<English>Slow</English>
+		<French>Lent</French>
+		<German>Langsam</German>
+		<Italian>Slow</Italian>
+		<Spanish>Slow</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPELL_CASTER_XP</Tag>
+		<English>[ICON_BULLET]Increases the rate spellcasters gain xp</English>
+		<French>[ICON_BULLET]Augmente le taux de gain d'exp des lanceurs de sort.</French>
+		<German>[ICON_BULLET]Erhöht die Geschwindigkeit mit der der Zaubernde Erfahrungspunkte erhält</German>
+		<Italian>[ICON_BULLET]Increases the rate spellcasters gain xp</Italian>
+		<Spanish>[ICON_BULLET]Increases the rate spellcasters gain xp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPELL_DAMAGE_MODIFY</Tag>
+		<English>[ICON_BULLET]%D1 to spell damage</English>
+		<French>[ICON_BULLET]Dégâts des Sorts : %D1</French>
+		<German>[ICON_BULLET]%D1 für den Zauberschaden</German>
+		<Italian>[ICON_BULLET]%D1 to spell damage</Italian>
+		<Spanish>[ICON_BULLET]%D1 to spell damage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPELLSTAFF</Tag>
+		<English>Spellstaff</English>
+		<French>Baguette Magique</French>
+		<German>Zauberstab</German>
+		<Italian>Spellstaff</Italian>
+		<Spanish>Spellstaff</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPELLSTAFF_PEDIA</Tag>
+		<English>[ICON_BULLET]A Spellstaff can be broken to allow the caster to regain the ability to cast</English>
+		<French>[ICON_BULLET]Une Baguette Magique peut être brisée pour permettre au lancer de regagner la capacité de lancer.</French>
+		<German>[ICON_BULLET]Ein Zauberstab kann für das Wirken eines weiteren Zauberspruchs zerbrochen werden.</German>
+		<Italian>[ICON_BULLET]A Spellstaff can be broken to allow the caster to regain the ability to cast</Italian>
+		<Spanish>[ICON_BULLET]A Spellstaff can be broken to allow the caster to regain the ability to cast</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIRIT_GUIDE</Tag>
+		<English>Spirit Guide</English>
+		<French>Guide Spirituel</French>
+		<German>Guru</German>
+		<Italian>Spirit Guide</Italian>
+		<Spanish>Spirit Guide</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIRIT_GUIDE_PEDIA</Tag>
+		<English>[ICON_BULLET]A unit with a Spirit Guide passes a portion of its experience to another unit when it dies</English>
+		<French>[ICON_BULLET]Une unité avec un Guide Spirituel transmet la moitié de son expérience à une unité alliée lorsqu'elle meurt.</French>
+		<German>[ICON_BULLET]Eine Einheit mit Guru überträgt im Falle einer Niederlage im Kampf einen Teil seiner Erfahrung an befreundete Einheiten im Stack.</German>
+		<Italian>[ICON_BULLET]A unit with a Spirit Guide passes a portion of its experience to another unit when it dies</Italian>
+		<Spanish>[ICON_BULLET]A unit with a Spirit Guide passes a portion of its experience to another unit when it dies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIRIT1</Tag>
+		<English>Spirit I</English>
+		<French>Esprit I</French>
+		<German>Seele I</German>
+		<Italian>Spirit I</Italian>
+		<Spanish>Spirit I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIRIT2</Tag>
+		<English>Spirit II</English>
+		<French>Esprit II</French>
+		<German>Seele II</German>
+		<Italian>Spirit II</Italian>
+		<Spanish>Spirit II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIRIT3</Tag>
+		<English>Spirit III</English>
+		<French>Esprit III</French>
+		<German>Seele III</German>
+		<Italian>Spirit III</Italian>
+		<Spanish>Spirit III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STARTING_SETTLER</Tag>
+		<English>Starting Settler Bonus</English>
+		<French>Bonus du Colon de Départ</French>
+		<German>Startsiedler Bonus</German>
+		<Italian>Starting Settler Bonus</Italian>
+		<Spanish>Starting Settler Bonus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STEALTH</Tag>
+		<English>Stealth</English>
+		<French>Furtif</French>
+		<German>Tarnung</German>
+		<Italian>Stealth</Italian>
+		<Spanish>Stealth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STIGMATA</Tag>
+		<English>Stigmata</English>
+		<French>Stigmate</French>
+		<German>Stigmata</German>
+		<Italian>Stigmata</Italian>
+		<Spanish>Stigmata</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STIGMATA_PEDIA</Tag>
+		<English>[ICON_BULLET]Grants the unit a percentage bonus equal to half the Armageddon count</English>
+		<French>[ICON_BULLET]Accorde à l'unité un bonus de combat égal à la moitié du Compteur d'Armageddon.</French>
+		<German>[ICON_BULLET]Gewährt der Einheit einen prozentualen Bonus, welcher der Hälfte des Armageddonzählers entspricht.</German>
+		<Italian>[ICON_BULLET]Grants the unit a percentage bonus equal to half the Armageddon count</Italian>
+		<Spanish>[ICON_BULLET]Grants the unit a percentage bonus equal to half the Armageddon count</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STRENGTH_ATTACKING_TEXT</Tag>
+		<English>%D1_Bonus%% Strength when Attacking</English>
+		<French>%D1_Bonus%% Force lors d'une Attaque</French>
+		<German>%D1_Bonus%% Angriffsstärke</German>
+		<Italian>%D1_Bonus%% Strength when Attacking</Italian>
+		<Spanish>%D1_Bonus%% Strength when Attacking</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STRENGTH_DEFENSE_TEXT</Tag>
+		<English>%D1_Bonus%% Strength when Defending</English>
+		<French>%D1_Bonus%% Force lors d'une Défense</French>
+		<German>%D1_Bonus%% Verteidigungsstärke</German>
+		<Italian>%D1_Bonus%% Strength when Defending</Italian>
+		<Spanish>%D1_Bonus%% Strength when Defending</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STRONG</Tag>
+		<English>Strong</English>
+		<French>Fort</French>
+		<German>Stark</German>
+		<Italian>Strong</Italian>
+		<Spanish>Strong</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUBDUE_ANIMAL</Tag>
+		<English>Subdue Animal</English>
+		<French>Domptage des animaux</French>
+		<German>Tierbändigung</German>
+		<Italian>Subdue Animal</Italian>
+		<Spanish>Subdue Animal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUBDUE_BEASTS</Tag>
+		<English>Subdue Beasts</English>
+		<French>Domptage des bêtes</French>
+		<German>Bestienzähmung</German>
+		<Italian>Subdue Beasts</Italian>
+		<Spanish>Subdue Beasts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUN1</Tag>
+		<English>Sun I</English>
+		<French>Soleil I</French>
+		<German>Sonne I</German>
+		<Italian>Sun I</Italian>
+		<Spanish>Sun I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUN2</Tag>
+		<English>Sun II</English>
+		<French>Soleil II</French>
+		<German>Sonne II</German>
+		<Italian>Sun II</Italian>
+		<Spanish>Sun II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUN3</Tag>
+		<English>Sun III</English>
+		<French>Soleil III</French>
+		<German>Sonne III</German>
+		<Italian>Sun III</Italian>
+		<Spanish>Sun III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUNDERED</Tag>
+		<English>Sundered</English>
+		<French>Sundered</French>
+		<German>Abtrünnig</German>
+		<Italian>Sundered</Italian>
+		<Spanish>Sundered</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TRAINER</Tag>
+		<English>Trainer</English>
+		<French>Entraîneur</French>
+		<German>Lehrmeister</German>
+		<Italian>Trainer</Italian>
+		<Spanish>Trainer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TREACHEROUS</Tag>
+		<English>Treacherous</English>
+		<French>Sournois</French>
+		<German>Betrügerisch</German>
+		<Italian>Treacherous</Italian>
+		<Spanish>Treacherous</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TWINCAST</Tag>
+		<English>Twincast</English>
+		<French>Double Magie</French>
+		<German>Zwilingszauber</German>
+		<Italian>Twincast</Italian>
+		<Spanish>Twincast</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TWINCAST_PEDIA</Tag>
+		<English>[ICON_BULLET]Can cast an extra spell each turn</English>
+		<French>[ICON_BULLET]Can cast an extra spell each turn</French>
+		<German>[ICON_BULLET]Kann jede Runde einen zusätzlichen Zauber wirken</German>
+		<Italian>[ICON_BULLET]Can cast an extra spell each turn</Italian>
+		<Spanish>[ICON_BULLET]Can cast an extra spell each turn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNDEAD</Tag>
+		<English>Undead</English>
+		<French>Mort-Vivant</French>
+		<German>Untot</German>
+		<Italian>Undead</Italian>
+		<Spanish>Undead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNDEAD_SLAYING</Tag>
+		<English>Undead Slaying</English>
+		<French>Tueur de Morts-Vivants I</French>
+		<German>Untotenhass I</German>
+		<Italian>Undead Slaying</Italian>
+		<Spanish>Undead Slaying</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNHOLY_TAINT</Tag>
+		<English>Unholy Taint</English>
+		<French>Traces Profanes</French>
+		<German>Sündenmal</German>
+		<Italian>Unholy Taint</Italian>
+		<Spanish>Unholy Taint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNHOLY_TAINT_PEDIA</Tag>
+		<English>[ICON_BULLET]Increases the rate arcane and religious casters gain xp</English>
+		<French>[ICON_BULLET]Augmente la vitesse de gain d'expérience des lanceurs de sorts.</French>
+		<German>[ICON_BULLET]Steigert die Rate, mit der der Zaubernde Erfahrungspunkte erhält.</German>
+		<Italian>[ICON_BULLET]Increases the rate arcane and religious casters gain xp</Italian>
+		<Spanish>[ICON_BULLET]Increases the rate arcane and religious casters gain xp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNREADY</Tag>
+		<English>Unready</English>
+		<French>Impréparé</French>
+		<German>Unvorbereitet</German>
+		<Italian>Unready</Italian>
+		<Spanish>Unready</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNREADY_BLOCK</Tag>
+		<English>UnreadyBlock</English>
+		<French>Fin d'Impréparé</French>
+		<German>Unvorbereitet vorbei</German>
+		<Italian>UnreadyBlock</Italian>
+		<Spanish>UnreadyBlock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_VALOR</Tag>
+		<English>Valor</English>
+		<French>Valeur</French>
+		<German>Heldenmut</German>
+		<Italian>Valor</Italian>
+		<Spanish>Valor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_VILE_TOUCH</Tag>
+		<English>Vile Touch</English>
+		<French>Vil Toucher</French>
+		<German>Widerwärtige Berührung</German>
+		<Italian>Vile Touch</Italian>
+		<Spanish>Vile Touch</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_VULNERABLE_TO_FIRE</Tag>
+		<English>Vulnerable to Fire</English>
+		<French>Vulnérable au Feu</French>
+		<German>Anfällig für Feuer</German>
+		<Italian>Vulnerable to Fire</Italian>
+		<Spanish>Vulnerable to Fire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WARCRY</Tag>
+		<English>Warcry</English>
+		<French>Cri de Guerre</French>
+		<German>motiviert</German>
+		<Italian>Warcry</Italian>
+		<Spanish>Warcry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WATER_AFFINITY</Tag>
+		<English>Water Affinity</English>
+		<French>Affinité Aquatique</French>
+		<German>Water Affinity</German>
+		<Italian>Water Affinity</Italian>
+		<Spanish>Water Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WATER_MASTERY</Tag>
+		<English>Water Mastery</English>
+		<French>Maîtrise de l'eau</French>
+		<German>Meisterschaft über das Wasser</German>
+		<Italian>Water Mastery</Italian>
+		<Spanish>Water Mastery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WATER_STEALTH</Tag>
+		<English>Water Stealth</English>
+		<French>Camouflage Aquatique</French>
+		<German>Water Stealth</German>
+		<Italian>Water Stealth</Italian>
+		<Spanish>Water Stealth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WATER_WALKING</Tag>
+		<English>Water Walking</English>
+		<French>Marche Aquatique</French>
+		<German>Wasserwandeln</German>
+		<Italian>Water Walking</Italian>
+		<Spanish>Water Walking</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WATER_WALKING_PEDIA</Tag>
+		<English>[ICON_BULLET]Allows the unit to travel over water tiles</English>
+		<French>[ICON_BULLET]L'unité peut traverser les cases d'eau.</French>
+		<German>[ICON_BULLET]Erlaubt der Einheit über Wasser zu gehen.</German>
+		<Italian>[ICON_BULLET]Allows the unit to travel over water tiles</Italian>
+		<Spanish>[ICON_BULLET]Allows the unit to travel over water tiles</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WATER1</Tag>
+		<English>Water I</English>
+		<French>Eau I</French>
+		<German>Wasser I</German>
+		<Italian>Water I</Italian>
+		<Spanish>Water I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WATER2</Tag>
+		<English>Water II</English>
+		<French>Eau II</French>
+		<German>Wasser II</German>
+		<Italian>Water II</Italian>
+		<Spanish>Water II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WATER3</Tag>
+		<English>Water III</English>
+		<French>Eau III</French>
+		<German>Wasser III</German>
+		<Italian>Water III</Italian>
+		<Spanish>Water III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WEAK</Tag>
+		<English>Weak</English>
+		<French>Faible</French>
+		<German>Schwach</German>
+		<Italian>Weak</Italian>
+		<Spanish>Weak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WEREWOLF</Tag>
+		<English>Werewolf</English>
+		<French>Loup-Garou</French>
+		<German>Werwolf</German>
+		<Italian>Werewolf</Italian>
+		<Spanish>Werewolf</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TEMP_WEREWOLF</Tag>
+		<English>Werewolf (temp)</English>
+		<French>Loup-Garou (temp)</French>
+		<German>Werwolf (temp)</German>
+		<Italian>Werewolf (temp)</Italian>
+		<Spanish>Werewolf (temp)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WEREWOLF_PEDIA</Tag>
+		<English>[ICON_BULLET]Units killed by a Werewolf become Ravenous Werewolves under the werewolf's owner's control</English>
+		<French>[ICON_BULLET]Les unités tuées par un loup-garou deviennent des loups-garous voraces sous le contrôle du propriétaire du loup-garou.</French>
+		<German>[ICON_BULLET]Von einem Werwolf besiegte Einheiten verwandeln sich selbst in Lechzende Werwölfe und folgen ihrem Herrn.</German>
+		<Italian>[ICON_BULLET]Units killed by a Werewolf become Ravenous Werewolves under the werewolf's owner's control</Italian>
+		<Spanish>[ICON_BULLET]Units killed by a Werewolf become Ravenous Werewolves under the werewolf's owner's control</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WINTERBORN</Tag>
+		<English>Winterborn</English>
+		<French>Enfant de l'Hiver</French>
+		<German>Winterhart</German>
+		<Italian>Winterborn</Italian>
+		<Spanish>Winterborn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WITHERED</Tag>
+		<English>Withered</English>
+		<French>Atrophié</French>
+		<German>Atrophie</German>
+		<Italian>Withered</Italian>
+		<Spanish>Withered</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MINOTAUR_LEASH1</Tag>
+		<English>1 range Leash</English>
+		<French>1 range Leash</French>
+		<German>1 range Leash</German>
+		<Italian>1 range Leash</Italian>
+		<Spanish>1 range Leash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MINOTAUR_LEASH2</Tag>
+		<English>2 range Leash</English>
+		<French>2 range Leash</French>
+		<German>2 range Leash</German>
+		<Italian>2 range Leash</Italian>
+		<Spanish>2 range Leash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MINOTAUR_LEASH3</Tag>
+		<English>3 range Leash</English>
+		<French>3 range Leash</French>
+		<German>3 range Leash</German>
+		<Italian>3 range Leash</Italian>
+		<Spanish>3 range Leash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MINOTAUR_LEASH4</Tag>
+		<English>4 range Leash</English>
+		<French>4 range Leash</French>
+		<German>4 range Leash</German>
+		<Italian>4 range Leash</Italian>
+		<Spanish>4 range Leash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MINOTAUR_LEASH_BLOCK</Tag>
+		<English>Remove Leash</English>
+		<French>Remove Leash</French>
+		<German>Remove Leash</German>
+		<Italian>Remove Leash</Italian>
+		<Spanish>Remove Leash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARS</Tag>
+		<English>Ars World Effect</English>
+		<French>Ars World Effect</French>
+		<German>Ars World Effect</German>
+		<Italian>Ars World Effect</Italian>
+		<Spanish>Ars World Effect</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GOLEMICIST_HIDDEN</Tag>
+		<English>golemicist hidden</English>
+		<French>golemicist hidden</French>
+		<German>golemicist hidden</German>
+		<Italian>golemicist hidden</Italian>
+		<Spanish>golemicist hidden</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATION_STRENGTH_PERCENT</Tag>
+		<English>Mutation Percent Strength</English>
+		<French>Mutation Percent Strength</French>
+		<German>Mutation Percent Strength</German>
+		<Italian>Mutation Percent Strength</Italian>
+		<Spanish>Mutation Percent Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATION_STRENGTH_PERCENT_ATTACK</Tag>
+		<English>Mutation Percent Attack Strength</English>
+		<French>Mutation Percent Attack Strength</French>
+		<German>Mutation Percent Attack Strength</German>
+		<Italian>Mutation Percent Attack Strength</Italian>
+		<Spanish>Mutation Percent Attack Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATION_MOVEMENT</Tag>
+		<English>Mutation Movement</English>
+		<French>Mutation Movement</French>
+		<German>Mutation Movement</German>
+		<Italian>Mutation Movement</Italian>
+		<Spanish>Mutation Movement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATION_FIRST_STRIKE_CHANCE</Tag>
+		<English>Mutation First Strike Chance</English>
+		<French>Mutation First Strike Chance</French>
+		<German>Mutation First Strike Chance</German>
+		<Italian>Mutation First Strike Chance</Italian>
+		<Spanish>Mutation First Strike Chance</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATION_FIRST_STRIKE</Tag>
+		<English>Mutation First Strike</English>
+		<French>Mutation First Strike</French>
+		<German>Mutation First Strike</German>
+		<Italian>Mutation First Strike</Italian>
+		<Spanish>Mutation First Strike</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATION_DEFENSIVE_STRIKE</Tag>
+		<English>Mutation Defensive Strike</English>
+		<French>Mutation Defensive Strike</French>
+		<German>Mutation Defensive Strike</German>
+		<Italian>Mutation Defensive Strike</Italian>
+		<Spanish>Mutation Defensive Strike</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATION_STRENGTH</Tag>
+		<English>Mutation Strength</English>
+		<French>Mutation Strength</French>
+		<German>Mutation Strength</German>
+		<Italian>Mutation Strength</Italian>
+		<Spanish>Mutation Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATION_STRENGTH_ATTACK</Tag>
+		<English>Mutation Attack Strength</English>
+		<French>Mutation Attack Strength</French>
+		<German>Mutation Attack Strength</German>
+		<Italian>Mutation Attack Strength</Italian>
+		<Spanish>Mutation Attack Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MUTATION_STRENGTH_DEFENSE</Tag>
+		<English>Mutation Defense Strength</English>
+		<French>Mutation Defense Strength</French>
+		<German>Mutation Defense Strength</German>
+		<Italian>Mutation Defense Strength</Italian>
+		<Spanish>Mutation Defense Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FORTIFICATION_SPECIALIST</Tag>
+		<English>Fortification Specialist</English>
+		<French>Spécialiste des Fortifications</French>
+		<German>Befestigungsspezialist</German>
+		<Italian>Fortification Specialist</Italian>
+		<Spanish>Fortification Specialist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MASTER_OF_CREATION2</Tag>
+		<English>Master of Creation Power Surge</English>
+		<French>Master of Creation Power Surge</French>
+		<German>Master of Creation Power Surge</German>
+		<Italian>Master of Creation Power Surge</Italian>
+		<Spanish>Master of Creation Power Surge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNVEILED</Tag>
+		<English>Refused the Shroud of Esus</English>
+		<French>A refusé le manteau d'Esus</French>
+		<German>Refused the Shroud of Esus</German>
+		<Italian>Refused the Shroud of Esuse</Italian>
+		<Spanish>Refused the Shroud of Esus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WINDED</Tag>
+		<English>Winded</English>
+		<French>Essoufflé</French>
+		<German>Erschöpft</German>
+		<Italian>Winded</Italian>
+		<Spanish>Winded</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KYLORIN_LEGACY</Tag>
+		<English>Kylorin's Legacy</English>
+		<French>Héritage de Kylorin</French>
+		<German>Kylorins Vermächtnis</German>
+		<Italian>Kylorin's Legacy</Italian>
+		<Spanish>Kylorin's Legacy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GLAMOUR</Tag>
+		<English>Glamour</English>
+		<French>Glamour</French>
+		<German>Glamour</German>
+		<Italian>Glamour</Italian>
+		<Spanish>Glamour</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PYROMANIAC</Tag>
+		<English>Pyromaniac</English>
+		<French>Pyromaniaque</French>
+		<German>Pyromaniac</German>
+		<Italian>Pyromaniac</Italian>
+		<Spanish>Pyromaniac</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_SEPULCHER</Tag>
+		<English>Keeper of Death's Jail</English>
+		<French>Keeper of Death's Jail</French>
+		<German>Keeper of Death's Jail</German>
+		<Italian>Keeper of Death's Jail</Italian>
+		<Spanish>Keeper of Death's Jail</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_SERAPHIC</Tag>
+		<English>Keeper of the Eternal Fire</English>
+		<French>Keeper of the Eternal Fire</French>
+		<German>Keeper of the Eternal Fire</German>
+		<Italian>Keeper of the Eternal Fire</Italian>
+		<Spanish>Keeper of the Eternal Fire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_RINWELL</Tag>
+		<English>Keeper of the Dead Island</English>
+		<French>Keeper of the Dead Island</French>
+		<German>Keeper of the Dead Island</German>
+		<Italian>Keeper of the Dead Island</Italian>
+		<Spanish>Keeper of the Dead Island</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_EYES</Tag>
+		<English>Keeper of the Madman's Cell</English>
+		<French>Keeper of the Madman's Cell</French>
+		<German>Keeper of the Madman's Cell</German>
+		<Italian>Keeper of the Madman's Cell</Italian>
+		<Spanish>Keeper of the Madman's Cell</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_BONES</Tag>
+		<English>Keeper of the Giant Skull</English>
+		<French>Keeper of the Giant Skull</French>
+		<German>Keeper of the Giant Skull</German>
+		<Italian>Keeper of the Giant Skull</Italian>
+		<Spanish>Keeper of the Giant Skull</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_SIRONA</Tag>
+		<English>Keeper of Mercy's Light</English>
+		<French>Keeper of Mercy's Light</French>
+		<German>Keeper of Mercy's Light</German>
+		<Italian>Keeper of Mercy's Light</Italian>
+		<Spanish>Keeper of Mercy's Light</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_CARCER</Tag>
+		<English>Keeper of The Frozen Passion</English>
+		<French>Keeper of The Frozen Passion</French>
+		<German>Keeper of The Frozen Passion</German>
+		<Italian>Keeper of The Frozen Passion</Italian>
+		<Spanish>Keeper of The Frozen Passion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_WELL</Tag>
+		<English>Keeper of The Underworld's Gate</English>
+		<French>Keeper of The Underworld's Gate</French>
+		<German>Keeper of The Underworld's Gate</German>
+		<Italian>Keeper of The Underworld's Gate</Italian>
+		<Spanish>Keeper of The Underworld's Gate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_MAELSTROM</Tag>
+		<English>Keeper of The Maelstrom</English>
+		<French>Keeper of The Maelstrom</French>
+		<German>Keeper of The Maelstrom</German>
+		<Italian>Keeper of The Maelstrom</Italian>
+		<Spanish>Keeper of The Maelstrom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_TEARS</Tag>
+		<English>Keeper of the Waters of Birth</English>
+		<French>Keeper of the Waters of Birth</French>
+		<German>Keeper of the Waters of Birth</German>
+		<Italian>Keeper of the Waters of Birth</Italian>
+		<Spanish>Keeper of the Waters of Birth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_ODIO</Tag>
+		<English>Keeper of the Contained Wrath</English>
+		<French>Keeper of the Contained Wrath</French>
+		<German>Keeper of the Contained Wrath</German>
+		<Italian>Keeper of the Contained Wrath</Italian>
+		<Spanish>Keeper of the Contained Wrath</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_SUCELLUS</Tag>
+		<English>Keeper of Nature's Grave</English>
+		<French>Keeper of Nature's Grave</French>
+		<German>Keeper of Nature's Grave</German>
+		<Italian>Keeper of Nature's Grave</Italian>
+		<Spanish>Keeper of Nature's Grave</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_TALI</Tag>
+		<English>Keeper of Storm's Crag</English>
+		<French>Keeper of Storm's Crag</French>
+		<German>Keeper of Storm's Crag</German>
+		<Italian>Keeper of Storm's Crag</Italian>
+		<Spanish>Keeper of Storm's Crag</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_MIRROR</Tag>
+		<English>Keeper of Heaven's Mirror</English>
+		<French>Keeper of Heaven's Mirror</French>
+		<German>Keeper of Heaven's Mirror</German>
+		<Italian>Keeper of Heaven's Mirror</Italian>
+		<Spanish>Keeper of Heaven's Mirror</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GRAVELEECH</Tag>
+		<English>GraveLeech</English>
+		<French>GraveLeech</French>
+		<German>GraveLeech</German>
+		<Italian>GraveLeech</Italian>
+		<Spanish>GraveLeech</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LUKOS_CLAN</Tag>
+		<English>Lukos Clan</English>
+		<French>Clan Lukos</French>
+		<German>Lukos Clan</German>
+		<Italian>Lukos Clan</Italian>
+		<Spanish>Lukos Clan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NEITH_CLAN</Tag>
+		<English>Neith Clan</English>
+		<French>Clan Neith</French>
+		<German>Neith Clan</German>
+		<Italian>Neith Clan</Italian>
+		<Spanish>Neith Clan</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_INTOLERANT_HELP</Tag>
+		<English>[ICON_BULLET]Grants the Crusader Promotion after Combat Victory.</English>
+		<French>[ICON_BULLET]Grants the Crusader Promotion after Combat Victory.</French>
+		<German>[ICON_BULLET]Grants the Crusader Promotion after Combat Victory.</German>
+		<Italian>[ICON_BULLET]Grants the Crusader Promotion after Combat Victory.</Italian>
+		<Spanish>[ICON_BULLET]Grants the Crusader Promotion after Combat Victory.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEATHMARKED_HELP</Tag>
+		<English>[ICON_BULLET]If killed in battle, this Unit Will join their opponent as an Undead.</English>
+		<French>[ICON_BULLET]If killed in battle, this Unit Will join their opponent as an Undead.</French>
+		<German>[ICON_BULLET]If killed in battle, this Unit Will join their opponent as an Undead.</German>
+		<Italian>[ICON_BULLET]If killed in battle, this Unit Will join their opponent as an Undead.</Italian>
+		<Spanish>[ICON_BULLET]If killed in battle, this Unit Will join their opponent as an Undead.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BLOOD_HOUND</Tag>
+		<English>Blood Hound</English>
+		<French>Blood Hound</French>
+		<German>Blood Hound</German>
+		<Italian>Blood Hound</Italian>
+		<Spanish>Blood Hound</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOMINEERING</Tag>
+		<English>Domineering</English>
+		<French>Domineering</French>
+		<German>Domineering</German>
+		<Italian>Domineering</Italian>
+		<Spanish>Domineering</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOMINATED</Tag>
+		<English>Dominated</English>
+		<French>Dominated</French>
+		<German>Dominated</German>
+		<Italian>Dominated</Italian>
+		<Spanish>Dominated</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOMINANT_AFFINITY_HELP</Tag>
+		<English>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Mind Mana - 1% Capture chance.</English>
+		<French>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Mind Mana - 1% Capture chance.</French>
+		<German>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Mind Mana - 1% Capture chance.</German>
+		<Italian>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Mind Mana - 1% Capture chance.</Italian>
+		<Spanish>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Mind Mana - 1% Capture chance.</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MECHANOS_AFFINITY_HELP</Tag>
+		<English>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Refined Mana - 0.5 Ranged Strength, 2.5% Ranged Damage Limit.</English>
+		<French>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Refined Mana - 0.5 Ranged Strength, 2.5% Ranged Damage Limit.</French>
+		<German>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Refined Mana - 0.5 Ranged Strength, 2.5% Ranged Damage Limit.</German>
+		<Italian>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Refined Mana - 0.5 Ranged Strength, 2.5% Ranged Damage Limit.</Italian>
+		<Spanish>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Refined Mana - 0.5 Ranged Strength, 2.5% Ranged Damage Limit.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_VEINHUNTER_AFFINITY_HELP</Tag>
+		<English>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Mithril - 0.25 Defense[PARAGRAPH:1][ICON_BULLET]Gunpowder - 5% Collateral Damage, 5% Collateral Limit.</English>
+		<French>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Mithril - 0.25 Defense[PARAGRAPH:1][ICON_BULLET]Gunpowder - 5% Collateral Damage, 5% Collateral Limit.</French>
+		<German>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Mithril - 0.25 Defense[PARAGRAPH:1][ICON_BULLET]Gunpowder - 5% Collateral Damage, 5% Collateral Limit.</German>
+		<Italian>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Mithril - 0.25 Defense[PARAGRAPH:1][ICON_BULLET]Gunpowder - 5% Collateral Damage, 5% Collateral Limit.</Italian>
+		<Spanish>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Mithril - 0.25 Defense[PARAGRAPH:1][ICON_BULLET]Gunpowder - 5% Collateral Damage, 5% Collateral Limit.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SIRONA_AFFINITY_HELP</Tag>
+		<English>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Spirit Mana - 5% Heal Rate, 0.5% XP Rate, 0.5 Holy Damage, 10% Resistance to Unholy Damage.</English>
+		<French>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Spirit Mana - 5% Heal Rate, 0.5% XP Rate, 0.5 Holy Damage, 10% Resistance to Unholy Damage.</French>
+		<German>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Spirit Mana - 5% Heal Rate, 0.5% XP Rate, 0.5 Holy Damage, 10% Resistance to Unholy Damage.</German>
+		<Italian>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Spirit Mana - 5% Heal Rate, 0.5% XP Rate, 0.5 Holy Damage, 10% Resistance to Unholy Damage.</Italian>
+		<Spanish>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Spirit Mana - 5% Heal Rate, 0.5% XP Rate, 0.5 Holy Damage, 10% Resistance to Unholy Damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CARCER_AFFINITY_HELP</Tag>
+		<English>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Fire Mana - 0.5 Movement, 0.5 First Strikes, 0.5 Holy Damage, 0.5 Fire Damage.</English>
+		<French>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Fire Mana - 0.5 Movement, 0.5 First Strikes, 0.5 Holy Damage, 0.5 Fire Damage.</French>
+		<German>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Fire Mana - 0.5 Movement, 0.5 First Strikes, 0.5 Holy Damage, 0.5 Fire Damage.</German>
+		<Italian>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Fire Mana - 0.5 Movement, 0.5 First Strikes, 0.5 Holy Damage, 0.5 Fire Damage.</Italian>
+		<Spanish>[ICON_BULLET]Grants effects based on the number of specific resources controlled.[PARAGRAPH:1][ICON_BULLET]Fire Mana - 0.5 Movement, 0.5 First Strikes, 0.5 Holy Damage, 0.5 Fire Damage.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DOMINEERING_2</Tag>
+		<English>Domineering II</English>
+		<French>Domineering II</French>
+		<German>Domineering II</German>
+		<Italian>Domineering II</Italian>
+		<Spanish>Domineering II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CHAINED_MIND</Tag>
+		<English>Chained Mind</English>
+		<French>Chained Mind</French>
+		<German>Chained Mind</German>
+		<Italian>Chained Mind</Italian>
+		<Spanish>Chained Mind</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENTERTAINING</Tag>
+		<English>Entertaining</English>
+		<French>Entertaining</French>
+		<German>Entertaining</German>
+		<Italian>Entertaining</Italian>
+		<Spanish>Entertaining</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SIDAR_PERCEPTION</Tag>
+		<English>Sidar Perception</English>
+		<French>Sidar Perception</French>
+		<German>Sidar Perception</German>
+		<Italian>Sidar Perception</Italian>
+		<Spanish>Sidar Perception</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_GREATER_TEXTUS_PEDIA</Tag>
+		<English>[ICON_BULLET]Grants access to the [LINK=SPELL_VENOMOUS_WEB_SPIDER]Venomous Web[\LINK] Spell.</English>
+		<French>[ICON_BULLET]Grants access to the [LINK=SPELL_VENOMOUS_WEB_SPIDER]Venomous Web[\LINK] Spell.</French>
+		<German>[ICON_BULLET]Grants access to the [LINK=SPELL_VENOMOUS_WEB_SPIDER]Venomous Web[\LINK] Spell.</German>
+		<Italian>[ICON_BULLET]Grants access to the [LINK=SPELL_VENOMOUS_WEB_SPIDER]Venomous Web[\LINK] Spell.</Italian>
+		<Spanish>[ICON_BULLET]Grants access to the [LINK=SPELL_VENOMOUS_WEB_SPIDER]Venomous Web[\LINK] Spell.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_TEXTUS_PEDIA</Tag>
+		<English>[ICON_BULLET]Grants access to the [LINK=SPELL_SLOW_SPIDER]Web[\LINK] Spell.</English>
+		<French>[ICON_BULLET]Grants access to the [LINK=SPELL_SLOW_SPIDER]Web[\LINK] Spell.</French>
+		<German>[ICON_BULLET]Grants access to the [LINK=SPELL_SLOW_SPIDER]Web[\LINK] Spell.</German>
+		<Italian>[ICON_BULLET]Grants access to the [LINK=SPELL_SLOW_SPIDER]Web[\LINK] Spell.</Italian>
+		<Spanish>[ICON_BULLET]Grants access to the [LINK=SPELL_SLOW_SPIDER]Web[\LINK] Spell.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WELL_PURIFIER</Tag>
+		<English>Stone of the Purified Well</English>
+		<French>Stone of the Purified Well</French>
+		<German>Stone of the Purified Well</German>
+		<Italian>Stone of the Purified Well</Italian>
+		<Spanish>Stone of the Purified Well</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WELL_PURIFIER_AURA</Tag>
+		<English>Purified Well Aura</English>
+		<French>Purified Well Aura</French>
+		<German>Purified Well Aura</German>
+		<Italian>Purified Well Aura</Italian>
+		<Spanish>Purified Well Aura</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PURIFYING_WELL</Tag>
+		<English>Purifying Bradeline's Well</English>
+		<French>Purification du Puits de Bradeline</French>
+		<German>Purifying Bradeline's Well</German>
+		<Italian>Purifying Bradeline's Well</Italian>
+		<Spanish>Purifying Bradeline's Well</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PATROL3</Tag>
+		<English>Patrol III</English>
+		<French>Patrouille III</French>
+		<German>Patrol III</German>
+		<Italian>Patrol III</Italian>
+		<Spanish>Patrol III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PATROL2</Tag>
+		<English>Patrol II</English>
+		<French>Patrouille II</French>
+		<German>Patrol II</German>
+		<Italian>Patrol II</Italian>
+		<Spanish>Patrol II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PATROL1</Tag>
+		<English>Patrol I</English>
+		<French>Patrouille I</French>
+		<German>Patrol I</German>
+		<Italian>Patrol I</Italian>
+		<Spanish>Patrol I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BOARDING_CREW</Tag>
+		<English>Prize Crew</English>
+		<French>Prize Crew</French>
+		<German>Prize Crew</German>
+		<Italian>Prize Crew</Italian>
+		<Spanish>Prize Crew</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_PATROL</Tag>
+		<English>Patrolling Spider</English>
+		<French>Patrolling Spider</French>
+		<German>Patrolling Spider</German>
+		<Italian>Patrolling Spider</Italian>
+		<Spanish>Patrolling Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DWARVEN_SUPPLY</Tag>
+		<English>Dwarven Supplies</English>
+		<French>Dwarven Supplies</French>
+		<German>Dwarven Supplies</German>
+		<Italian>Dwarven Supplies</Italian>
+		<Spanish>Dwarven Supplies</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FORCED_LABOR</Tag>
+		<English>Forced Labor</English>
+		<French>Forced Labor</French>
+		<German>Forced Labor</German>
+		<Italian>Forced Labor</Italian>
+		<Spanish>Forced Labor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DROWNING_CREW</Tag>
+		<English>Drowning Crew</English>
+		<French>Drowning Crew</French>
+		<German>Drowning Crew</German>
+		<Italian>Drowning Crew</Italian>
+		<Spanish>Drowning Crew</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DROWNED_VESSEL</Tag>
+		<English>Drowned Vessel</English>
+		<French>Drowned Vessel</French>
+		<German>Drowned Vessel</German>
+		<Italian>Drowned Vessel</Italian>
+		<Spanish>Drowned Vessel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_RELENTLESS_BOMBARDMENT</Tag>
+		<English>Relentless Bombardment</English>
+		<French>Relentless Bombardment</French>
+		<German>Relentless Bombardment</German>
+		<Italian>Relentless Bombardment</Italian>
+		<Spanish>Relentless Bombardment</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ROTTEN</Tag>
+		<English>Rotten</English>
+		<French>Rotten</French>
+		<German>Rotten</German>
+		<Italian>Rotten</Italian>
+		<Spanish>Rotten</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SAUROS_AFFINITY_ENABLER</Tag>
+		<English>Sauros Affinity Enabler</English>
+		<French>Sauros Affinity Enabler</French>
+		<German>Sauros Affinity Enabler</German>
+		<Italian>Sauros Affinity Enabler</Italian>
+		<Spanish>Sauros Affinity Enabler</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AASIMAR</Tag>
+		<English>Aasimar</English>
+		<French>Aasimar</French>
+		<German>Aasimar</German>
+		<Italian>Aasimar</Italian>
+		<Spanish>Aasimar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CAMBION</Tag>
+		<English>Cambion</English>
+		<French>Cambion</French>
+		<German>Cambion</German>
+		<Italian>Cambion</Italian>
+		<Spanish>Cambion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AASIMAR_PEDIA</Tag>
+		<English>The product of an angelic and a mortal parent. Aasimar weren't unusual before the compact was signed and many men could trace a remote angelic parentage at some point in their ancestry. Many angels watch over their distant descendants and take pride in those that continue to display their virtues..</English>
+		<French>The product of an angelic and a mortal parent. Aasimar weren't unusual before the compact was signed and many men could trace a remote angelic parentage at some point in their ancestry. Many angels watch over their distant descendants and take pride in those that continue to display their virtues..</French>
+		<German>The product of an angelic and a mortal parent. Aasimar weren't unusual before the compact was signed and many men could trace a remote angelic parentage at some point in their ancestry. Many angels watch over their distant descendants and take pride in those that continue to display their virtues..</German>
+		<Italian>The product of an angelic and a mortal parent. Aasimar weren't unusual before the compact was signed and many men could trace a remote angelic parentage at some point in their ancestry. Many angels watch over their distant descendants and take pride in those that continue to display their virtues..</Italian>
+		<Spanish>The product of an angelic and a mortal parent. Aasimar weren't unusual before the compact was signed and many men could trace a remote angelic parentage at some point in their ancestry. Many angels watch over their distant descendants and take pride in those that continue to display their virtues..</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CAMBION_PEDIA</Tag>
+		<English>The product of a demonic and a mortal parent. Just as the unions of angelic and human parents wasn't uncommon before the compact was signed, neither were births between demons and humans. As with the Aasimar demons often take great interest in those who share their bloodline.</English>
+		<French>The product of a demonic and a mortal parent. Just as the unions of angelic and human parents wasn't uncommon before the compact was signed, neither were births between demons and humans. As with the Aasimar demons often take great interest in those who share their bloodline.</French>
+		<German>The product of a demonic and a mortal parent. Just as the unions of angelic and human parents wasn't uncommon before the compact was signed, neither were births between demons and humans. As with the Aasimar demons often take great interest in those who share their bloodline.</German>
+		<Italian>The product of a demonic and a mortal parent. Just as the unions of angelic and human parents wasn't uncommon before the compact was signed, neither were births between demons and humans. As with the Aasimar demons often take great interest in those who share their bloodline.</Italian>
+		<Spanish>The product of a demonic and a mortal parent. Just as the unions of angelic and human parents wasn't uncommon before the compact was signed, neither were births between demons and humans. As with the Aasimar demons often take great interest in those who share their bloodline.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SLYPH</Tag>
+		<English>Slyph Effect</English>
+		<French>Effet de la Sylphe</French>
+		<German>Slyph Effect</German>
+		<Italian>Slyph Effect</Italian>
+		<Spanish>Slyph Effect</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SLYPH_BLOOD</Tag>
+		<English>Slyph's Blood</English>
+		<French>Sang de Sylphe</French>
+		<German>Slyph's Blood</German>
+		<Italian>Slyph's Blood</Italian>
+		<Spanish>Slyph's Blood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNRAVELING_HELP</Tag>
+		<English>[ICON_BULLET]Increases Armageddon Counter by 1 after each battle.</English>
+		<French>[ICON_BULLET]Le Compteur Armageddon augmente de 1 point après chaque bataille.</French>
+		<German>[ICON_BULLET]Increases Armageddon Counter by 1 after each battle.</German>
+		<Italian>[ICON_BULLET]Increases Armageddon Counter by 1 after each battle.</Italian>
+		<Spanish>[ICON_BULLET]Increases Armageddon Counter by 1 after each battle.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GREATER_GRAVELEECH</Tag>
+		<English>Greater GraveLeech</English>
+		<French>Greater GraveLeech</French>
+		<German>Greater GraveLeech</German>
+		<Italian>Greater GraveLeech</Italian>
+		<Spanish>Greater GraveLeech</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GUARDSMAN2</Tag>
+		<English>Guardsman II</English>
+		<French>Garde II</French>
+		<German>Guardsman II</German>
+		<Italian>Guardsman II</Italian>
+		<Spanish>Guardsman II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PERCEPTIVE_SUMMON</Tag>
+		<English>Perceptive Summon</English>
+		<French>Perceptive Summon</French>
+		<German>Perceptive Summon</German>
+		<Italian>Perceptive Summon</Italian>
+		<Spanish>Perceptive Summon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNDEAD_EATER</Tag>
+		<English>Undead Eater</English>
+		<French>Undead Eater</French>
+		<German>Undead Eater</German>
+		<Italian>Undead Eater</Italian>
+		<Spanish>Undead Eater</Spanish>
+	</TEXT>
+</Civ4GameText>

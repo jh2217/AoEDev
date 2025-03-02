@@ -1,0 +1,1 @@
+Filter names for each category (e.g. TXT_KEY_PEDIA_FILTER_UNFILTERED for everything) can be found in XML\Text\CIV4GameText_Menus.xml

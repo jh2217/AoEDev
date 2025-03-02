@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--  -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- List of AI responses -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>AI_DIPLO_ACCEPT_DEFAULT</Tag>
+		<English>That is acceptable</English>
+		<French>C'est acceptable</French>
+		<German>Das ist akzeptabel.</German>
+		<Italian>That is acceptable</Italian>
+		<Spanish>That is acceptable</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>AI_DIPLO_DECLARE_WAR_DEFAULT</Tag>
+		<English>We have suffered your insolence for long enough!</English>
+		<French>Nous n'avons support&#233; que trop longtemps votre insolence !</French>
+		<German>Wir haben Eure Anma&#223;ungen lange genug ertragen!</German>
+		<Italian>Abbiamo subito le tue insolenze troppo a lungo!</Italian>
+		<Spanish>&#161;Ya hemos aguantado bastante vuestras insolencias!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_DEMAND_REJECTED_DEFAULT</Tag>
+		<English>No. Not going to happen.</English>
+		<French>Non. Ça n'arrivera pas.</French>
+		<German>Nein. Das wird nicht geschehen.</German>
+		<Italian>No. Not going to happen.</Italian>
+		<Spanish>No. Not going to happen.</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_LEADER_DEFAULT</Tag>
+		<English>Give us this or we shall surely come and take it.</English>
+		<French>Donnez-nous ce que nous voulons ou nous viendrons nous en emparer par la force.</French>
+		<German>Gebt uns, was wir verlangen, oder wir werden kommen und es uns holen!</German>
+		<Italian>Dacci ciò che vogliamo, o verremo di certo a prendercelo.</Italian>
+		<Spanish>Dadnos esto si no queréis que vayamos y lo cojamos.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_FIRST_CONTACT_DEFAULT</Tag>
+		<English>Greetings, [CT_NAME]. Would you rather be our friend, or our foe?</English>
+		<French>Salutations, [CT_NAME]. Serez-vous un ami ou un ennemi ?</French>
+		<German>Seid gegrüßt, [CT_NAME]. Würdet Ihr lieber zu unseren Freunden zählen, oder zu unseren Feinden?</German>
+		<Italian>Greetings, [CT_NAME]. Would you rather be our friend, or our foe?</Italian>
+		<Spanish>Greetings, [CT_NAME]. Would you rather be our friend, or our foe?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FR_DEFAULT</Tag>
+		<English>Welcome, friend [CT_NAME]. How may we be of assistance?</English>
+		<French>Bienvenue, [CT_NAME]. Que pouvons-nous faire pour vous ?</French>
+		<German>Herzlich willkommen, [CT_NAME]. Wie k&#246;nnen wir Euch behilflich sein?</German>
+		<Italian>Do il benvenuto a [CT_NAME], un grande amico. Come posso aiutarti?</Italian>
+		<Spanish>Os saludamos, amigable [CT_NAME]. &#191;En qu&#233; podemos ayudaros?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_PL_DEFAULT</Tag>
+		<English>Good day to you, [CT_NAME].</English>
+		<French>Bien le bonjour, [CT_NAME].</French>
+		<German>Ich w&#252;nsche Euch einen guten Tag, [CT_NAME].</German>
+		<Italian>Buongiorno a te, [CT_NAME].</Italian>
+		<Spanish>Buenos d&#237;as teng&#225;is, [CT_NAME].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_CA_DEFAULT</Tag>
+		<English>Hello, [CT_NAME]. What can I do for you?</English>
+		<French>Bonjour, [CT_NAME]. Que puis-je faire pour vous ?</French>
+		<German>Hallo, [CT_NAME]. Was kann ich f&#252;r Euch tun?</German>
+		<Italian>Salve, [CT_NAME]. Cosa posso fare per te?</Italian>
+		<Spanish>Hola, [CT_NAME]. &#191;Qu&#233; puedo hacer por vos?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_AN_DEFAULT</Tag>
+		<English>What do you want, [CT_NAME]? Speak quickly and choose your words carefully.</English>
+		<French>Que voulez-vous, [CT_NAME]? Parlez rapidement et choisissez vos mots soigneusement.</French>
+		<German>Was wollt Ihr, [CT_NAME]? Sprecht rasch und wählt Eure Worte mit Bedacht.</German>
+		<Italian>What do you want, [CT_NAME]? Speak quickly and choose your words carefully.</Italian>
+		<Spanish>What do you want, [CT_NAME]? Speak quickly and choose your words carefully.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_GREETINGS_ATT_FUR_DEFAULT</Tag>
+		<English>What could [CT_CIV_SHORT] possibly have to say that would be of interest to [OUR_CIV_SHORT]?</English>
+		<French>Qu'est ce qui pourrait bien int&#233;resser les [OUR_CIV_SHORT] de la part des [CT_CIV_SHORT] ?</French>
+		<German>Was k&#246;nnte [CT_CIV_SHORT] dem Volk von [OUR_CIV_SHORT] wohl schon Interessantes mitzuteilen haben?</German>
+		<Italian>Che cos'ha [CT_CIV_SHORT:2] da dire che possa interessare [OUR_CIV_SHORT:2]?</Italian>
+		<Spanish>&#191;Y qu&#233; puede decir [CT_CIV_SHORT] que sea de inter&#233;s para [OUR_CIV_SHORT]?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_1</Tag>
+		<English>The %s1:2 are a threat to us all. Please join us in wiping them out.</English>
+		<French>Les %s1:3 représentent une menace pour nous tous. Joignez-vous à nous pour les éliminer.</French>
+		<German>Das %s1:3 Volk ist eine Bedrohung f&#252;r uns alle. Bitte helft uns bei seiner Vernichtung!</German>
+		<Italian>I %s1 sono un pericolo per tutti. Unisciti a noi e li toglieremo di mezzo.</Italian>
+		<Spanish>[NUM1:El:La:Los:Las] %s1:3 son una amenaza para todos nosotros. Un&#237;os a nosotros para borrarlos del mapa.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_2</Tag>
+		<English>Care to assist us in destroying the evil %s1:2?</English>
+		<French>Acceptez-vous de nous aider à écraser les ignobles %s1:3 ?</French>
+		<German>Habt Ihr Interesse, uns bei der Vernichtung des %s1:2 Volkes behilflich zu sein?</German>
+		<Italian>Vuoi darci una mano a distruggere i malvagi %s1?</Italian>
+		<Spanish>&#191;Os importar&#237;a ayudarnos a destruir [NUM1:al malvado:a la malvada:a los malvados:a las malvadas] %s1:3?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_3</Tag>
+		<English>Greetings, [CT_NAME]. The annoying %s1:2 must be destroyed, don't you agree?</English>
+		<French>Salutations, [CT_NAME]. Ne pensez-vous pas que ces maudits %s1:3 doivent être exterminés ?</French>
+		<German>Seid gegr&#252;&#223;t, [CT_NAME]. Das l&#228;stige %s1:3 Volk muss vernichtet werden, findet Ihr nicht auch?</German>
+		<Italian>Salve, [CT_NAME]. I fastidiosi %s1 devono essere distrutti, non sei d'accordo?</Italian>
+		<Spanish>Saludos, [CT_NAME]. [NUM1:El molesto:La molesta:Los molestos:Las molestas] %s1:3 [NUM1:debe ser destruido:debe ser destruida: deben ser destruidos:deben ser destruidas], &#191;no os parece?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_4</Tag>
+		<English>[CT_NAME]: we urgently request mighty [CT_CIV_SHORT]'s assistance in our crusade against the %s1:2!</English>
+		<French>[CT_NAME], nous demandons d'urgence le soutien des [CT_CIV_SHORT] dans notre croisade contre les %s1:3 !</French>
+		<German>[CT_NAME]: Wir bitten das m&#228;chtige Volk von [CT_CIV_SHORT] dringend um Hilfe bei unserem Kreuzzug gegen das %s1:3 Volk!</German>
+		<Italian>[CT_NAME], chiediamo urgentemente l'aiuto del[CT_CIV_SHORT:2] per la nostra crociata contro i %s1!</Italian>
+		<Spanish>[CT_NAME], solicitamos urgentemente la ayuda de la poderosa naci&#243;n de [CT_CIV_SHORT] en nuestra cruzada contra [NUM1:el:la:los:las] %s1:3.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_5</Tag>
+		<English>The treacherous %s1:2 must be punished for their offences against civilization, [CT_NAME]! I assume we can count on your assistance?</English>
+		<French>Les perfides %s1:3 doivent être punis pour leurs offenses envers la civilisation, [CT_NAME] ! J'imagine que nous pouvons compter sur votre aide ?</French>
+		<German>Das hinterh&#228;ltige %s1:3 Volk verdient es, f&#252;r seine Feinseligkeiten gegen andere Zivilisationen bestraft zu werden, [CT_NAME]! K&#246;nnen wir mit Eurer Unterst&#252;tzung rechnen?</German>
+		<Italian>I traditori %s1 devono essere puniti per le loro offese nei confronti delle altre civilt&#224;, [CT_NAME]! Possiamo contare sul tuo aiuto?</Italian>
+		<Spanish>&#161;Hemos de castigar [NUM1:al traicionero:a la traicionera:a los traicioneros:a las traicioneras] %s1:3 por sus ofensas contra la civilizaci&#243;n, [CT_NAME]! Suponemos que podemos contar con vuestra ayuda, &#191;no?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_WAR_6</Tag>
+		<English>The nasty %s1:2 are plotting against us all, [CT_NAME]! Let us destroy them together!</English>
+		<French>Les infâmes %s1:3 complotent contre nous tous, [CT_NAME] ! Détruisons-les ensemble !</French>
+		<German>Das unversch&#228;mte %s1:3 Volk hat sich gegen uns alle verschworen, [CT_NAME]! Lasst es uns gemeinsam vernichten!</German>
+		<Italian>I malvagi %s1 stanno complottando contro noi tutti, [CT_NAME]! Distruggiamoli assieme!</Italian>
+		<Spanish>&#161;[NUM1:El repugnante:La repugnante:Los repugnantes:Las repugnantes] %s1:3 est&#225;n conspirando contra todos nosotros, [CT_NAME]! &#161;Destruy&#225;moslos juntos!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_DEAL_DEFAULT</Tag>
+		<English>That offer is inacceptable.</English>
+		<French>Cette offre est inacceptable.</French>
+		<German>Euer Angebot ist inakzeptabel, [CT_NAME].</German>
+		<Italian>That offer is inacceptable.</Italian>
+		<Spanish>That offer is inacceptable.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_PEACE_DEFAULT</Tag>
+		<English>There shall be no peace until our warriors have had their fill.</English>
+		<French>Il n'y aura pas de paix tant que nos guerriers n'auront pas eu leur compte.</French>
+		<German>Frieden? Nicht, solange unsere Krieger noch nach Blut lechzen.</German>
+		<Italian>There shall be no peace until our warriors have had their fill.</Italian>
+		<Spanish>There shall be no peace until our warriors have had their fill.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_OFFER_PEACE_DEFAULT</Tag>
+		<English>I am tired of war, can there be peace?</English>
+		<French>Je suis fatigué de la guerre, peut-il y avoir une paix ?</French>
+		<German>Ich bin den Krieg so leid. Wollen wir dem Frieden nicht mal eine Chance geben?</German>
+		<Italian>I am tired of war, can there be peace?</Italian>
+		<Spanish>I am tired of war, can there be peace?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_PEACE_DEFAULT</Tag>
+		<English>Good. Then there shall be peace between our lands.</English>
+		<French>Bien. Il y aura donc une paix entre nos peuples.</French>
+		<German>Abgemacht. So soll denn Frieden herrschen zwischen unseren Ländern.</German>
+		<Italian>Good. Then there shall be peace between our lands.</Italian>
+		<Spanish>Good. Then there shall be peace between our lands.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_REFUSE_TO_TALK_DEFAULT</Tag>
+		<English>We have nothing to say to you.</English>
+		<French>Nous n'avons rien à vous dire.</French>
+		<German>Wir haben nichts mit Euch zu besprechen.</German>
+		<Italian>We have nothing to say to you.</Italian>
+		<Spanish>We have nothing to say to you.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_THANKS_DEFAULT</Tag>
+		<English>Thank you, [CT_NAME].</English>
+		<French>Merci, [CT_NAME].</French>
+		<German>Ich danke Euch, [CT_NAME].</German>
+		<Italian>Thank you, [CT_NAME].</Italian>
+		<Spanish>Thank you, [CT_NAME].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_LEADER_RELATION_GOOD</Tag>
+		<English>%D1: "We share a good history."</English>
+		<French>%D1: "Nous avons tissé des liens de confiance entre nos peuples."</French>
+		<German>%D1: "Unsere gemeinsame Vergangenheit ist erfreulich."</German>
+		<Italian>%D1: "We share a good history."</Italian>
+		<Spanish>%D1: "We share a good history."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_LEADER_RELATION_BAD</Tag>
+		<English>%D1: "We share a troubled past."</English>
+		<French>%D1: "Nous partageons un passé trouble."</French>
+		<German>%D1: "Unsere gemeinsame Vergangenheit ist problematisch."</German>
+		<Italian>%D1: "We share a troubled past."</Italian>
+		<Spanish>%D1: "We share a troubled past."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_HATED_CIVIC</Tag>
+		<English>%D1: "Your government is despicable."</English>
+		<French>%D1: "Votre gouvernement est méprisable."</French>
+		<German>%D1: "Eure Regierung ist abstoßend."</German>
+		<Italian>%D1: "Your government is despicable."</Italian>
+		<Spanish>%D1: "Your government is despicable."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_HATED_CIVIC</Tag>
+		<English>Hated Civic:</English>
+		<French>Doctrine Haïe :</French>
+		<German>Verhasste Regierungsform:</German>
+		<Italian>Hated Civic:</Italian>
+		<Spanish>Hated Civic:</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_BOTH_INTOLERANT</Tag>
+		<English>%D1: "You didn't fall in the gods' trap."</English>
+		<French>%D1: "Vous n'êtes pas tombé dans les pièges des dieux."</French>
+		<German>%D1: "Du bist nicht in die Götterfalle' getappt."</German>
+		<Italian>%D1: "You didn't fall in the gods' trap."</Italian>
+		<Spanish>%D1: "You didn't fall in the gods' trap."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_INTOLERANT</Tag>
+		<English>%D1: "You are the gods' puppet. You are nothing!"</English>
+		<French>%D1: "Vous n'êtes rien que la marionnette des dieux!"</French>
+		<German>%D1: "Du bist doch nur eine Marionette. Und damit nichts!"</German>
+		<Italian>%D1: "You are the gods' puppet. You are nothing!"</Italian>
+		<Spanish>%D1: "You are the gods' puppet. You are nothing!"</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_CULT_YOU</Tag>
+		<English>%D1: "You follow a disgusting cult."</English>
+		<French>%D1: "Vous vous êtes convertis à une religion païenne."</French>
+		<German>%D1: "Du hängst einem abscheulichen Kult an."</German>
+		<Italian>%D1: "You follow a disgusting cult."</Italian>
+		<Spanish>%D1: "You follow a disgusting cult."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_ATTITUDE_CULT_US</Tag>
+		<English>%D1: "You refuse to hear the truth we are telling you."</English>
+		<French>%D1: "Vous refusez d'écouter la vérité que nous vous présentons."</French>
+		<German>%D1: "Ihr weigert Euch, die Wahrheit zu hören, die wir Euch verkünden."</German>
+		<Italian>%D1: "You refuse to hear the truth we are telling you."</Italian>
+		<Spanish>%D1: "You refuse to hear the truth we are telling you."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_NO_DEAL_FR_1</Tag>
+		<English>I don't see how a deal is possible.</English>
+		<French>Je ne vois pas comment nous pourrions conclure un march&#233;.</French>
+		<German>Ich glaube nicht, dass wir uns einig werden.</German>
+		<Italian>Non vedo un accordo possibile.</Italian>
+		<Spanish>Nos parece imposible llegar a un acuerdo.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>AI_DIPLO_JOIN_DENIED_3</Tag><!-- Overwrites vanilla. French translation improved -->
+		<English>Really? I had no idea you were so timid!</English>
+		<French>Vraiment ? Je ne pensais pas que vous étiez aussi timoré !</French>
+		<German>Tats&#228;chlich? Ich hatte ja keine Ahnung, dass Ihr so &#228;ngstlich seid!</German>
+		<Italian>Davvero? Non sapevo della tua timidezza.</Italian>
+		<Spanish>&#191;De verdad? &#161;No ten&#237;a ni idea de que fuerais tan t&#237;midos!</Spanish>
+	</TEXT>
+</Civ4GameText>

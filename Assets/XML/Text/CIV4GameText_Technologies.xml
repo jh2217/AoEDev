@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TECH_AGRICULTURE_QUOTE</Tag>
+		<English>Agriculture is Nature's own economic system, and as with all of her designs, it is far superior to the feeble imitations we have managed to create. Imagine the great rewards that can be achieved by a deposit of but a single seed, and then show me a banker who would pay an equal interest.[NEWLINE][BOLD]Dengrahl Lern, Merchant[\BOLD]</English>
+		<French>L'Agriculture est le propre système économique de la Nature, et comme toutes ses créations, c'est grandement supérieur à toutes les pâles imitations que nous ayons créé. Imaginez la forte récompense que l'on peut obtenir par le dépôt d'un simple graine, et alors montrez-moi un banquier qui payerait un intérêt équivalent.[NEWLINE][BOLD]Dengrahl Lern, Marchand[\BOLD]</French>
+		<German>Landwirtschaft ist der Natur eigenes ökonomisches System. Und wie alle ihre Entwicklungen ist auch diese unseren schwachen Imitationen, die wir geschafft haben zu kreieren, bei weitem überlegen. Stell dir die großen Errungenschaften vor, die durch die Saat eines einzelnen Samen erreicht werden können, und dann zeige mir einen Bankier, der ein gleiches Maß an Einsatz zeigt. - Dengrahl Lern, Kaufmann</German>
+		<Italian>Agriculture is Nature's own economic system, and as with all of her designs, it is far superior to the feeble imitations we have managed to create. Imagine the great rewards that can be achieved by a deposit of but a single seed, and then show me a banker who would pay an equal interest.-Dengrahl Lern, Merchant</Italian>
+		<Spanish>Agriculture is Nature's own economic system, and as with all of her designs, it is far superior to the feeble imitations we have managed to create. Imagine the great rewards that can be achieved by a deposit of but a single seed, and then show me a banker who would pay an equal interest.-Dengrahl Lern, Merchant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALCHEMY</Tag>
+		<English>Alchemy</English>
+		<French>Alchimie</French>
+		<German>Alchemie</German>
+		<Italian>Alchemy</Italian>
+		<Spanish>Alchemy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALCHEMY_STRATEGY</Tag>
+		<English>Alchemy</English>
+		<French>Alchimie : à compléter</French>
+		<German>Alchemie</German>
+		<Italian>Alchemy</Italian>
+		<Spanish>Alchemy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALTERATION</Tag>
+		<English>Alteration</English>
+		<French>Altération</French>
+		<German>Lehre der Alteration</German>
+		<Italian>Alteration</Italian>
+		<Spanish>Alteration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ALTERATION_QUOTE</Tag>
+		<English>There are some ways to tell the difference between a real sheep and one that has been polymorphed from a man. The latter will show greater fear and curiosity. It will not seek out its own kind. But they both taste the same.[NEWLINE][BOLD]Gaylin Wayforth, mage and amateur chef[\BOLD]</English>
+		<French>Il y a plusieurs façons de distinguer un vrai mouton d'un humain polymorphé. Ce dernier montrera plus de peur et de curiosité ; il ne cherchera pas ses pairs. Mais les deux ont le même goût.[NEWLINE][BOLD]Gaylin Wayforth, mage et cuisinier amateur[\BOLD]</French>
+		<German>Es gibt einige Wege, um den Unterschied zwischen einem echten Schaf und einem Schaf festzustellen, dass durch den Menschen gezüchtet wurde. Das Letztere wird größere Angst und Neugier zeigen. Es wird nicht Tiere außerhalb der eigenen Gattung begehren. Aber beide schmecken gleich. - Gaylin Wayforth, Magier und Amateurkoch</German>
+		<Italian>There are some ways to tell the difference between a real sheep and one that has been polymorphed from a man. The latter will show greater fear and curiosity. It will not seek out its own kind. But they both taste the same.-Gaylin Wayforth, mage and amateur chef</Italian>
+		<Spanish>There are some ways to tell the difference between a real sheep and one that has been polymorphed from a man. The latter will show greater fear and curiosity. It will not seek out its own kind. But they both taste the same.-Gaylin Wayforth, mage and amateur chef</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANCIENT_CHANTS</Tag>
+		<English>Ancient Chants</English>
+		<French>Chants Ancestraux</French>
+		<German>Anbetung</German>
+		<Italian>Ancient Chants</Italian>
+		<Spanish>Ancient Chants</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANCIENT_CHANTS_QUOTE</Tag>
+		<English>Even in the distant past, before the Gods had revealed their divine presence to us, we still felt an unidentifiable longing, a yearning for some greater purpose, and some guidelines for our existence. Even then, a part of us must have known.[NEWLINE][BOLD]Jobin Seras, Scholar[\BOLD]</English>
+		<French>Même aux premiers jours, bien avant que les Dieux ne nous aient révélé leur divine présence, nous avions toujours eu la sensation d'un besoin inidentifiable, le désir d'un but profond, et de directives pour notre vie. Même alors, une partie d'entre devaient savoir.[NEWLINE][BOLD]Jobin Seras, Erudit[\BOLD]</French>
+		<German>Selbst in der fernen Vergangenheit, bevor die Götter uns ihre göttliche Präsenz enthüllt hatten, fühlten wir ein unerklärliches Verlangen, eine Sehnsucht nach einem größeren Ziel, und nach irgendeinem Leitfaden für unsere Existenz. Selbst damals muss es ein Teil von uns gewusst haben. - Jobin Seras, Gelehrter</German>
+		<Italian>Even in the distant past, before the Gods had revealed their divine presence to us, we still felt an unidentifiable longing, a yearning for some greater purpose, and some guidelines for our existence. Even then, a part of us must have known.-Jobin Seras, Scholar</Italian>
+		<Spanish>Even in the distant past, before the Gods had revealed their divine presence to us, we still felt an unidentifiable longing, a yearning for some greater purpose, and some guidelines for our existence. Even then, a part of us must have known.-Jobin Seras, Scholar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMAL_HANDLING</Tag>
+		<English>Animal Handling</English>
+		<French>Dressage</French>
+		<German>Zähmen</German>
+		<Italian>Animal Handling</Italian>
+		<Spanish>Animal Handling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMAL_HANDLING_QUOTE</Tag>
+		<English>Animals have always been reluctant to come near humans, because we have always been at the top of the food chain. The first step in gaining the trust of an animal is to make it understand that you do not seek to eat it. The second is to make it understand that it should not try to eat you. Once this mutual understanding is established, the rest comes easily.[NEWLINE][BOLD]Keron Maes, Ranger[\BOLD]</English>
+		<French>Les animaux ont toujours été réticents à s'approcher des humains, parce que nous avons toujours été au sommet de la chaîne alimentaire. Le premier pas pour gagner la confiance d'un animal est de lui faire comprendre que vous ne cherchez pas à le manger. Le deuxième est de lui faire comprendre qu'il ne devrait pas essayer de vous manger. Dès que cette compréhension réciproque est établie, le reste vient facilement.[NEWLINE][BOLD]Keron Maes, Garde-Forestier[\BOLD]</French>
+		<German>Tieren hat es immer widerstrebt, sich dem Menschen zu nähern, da wir immer an der Spitze der Nahrungskette standen. Der erste Schritt, um das Vertrauen eines Tieres zu gewinnen, ist es, ihm begreiflich zu machen, dass du nicht vorhast es zu verspeisen. Der zweite ist, ihm begreiflich zu machen, dass es nicht versuchen sollte, dich zu verspeisen. Ist dieses gegenseitige Verständnis einmal etabliert, ergibt sich der Rest von selbst. - Keron Maes, Waldläufer</German>
+		<Italian>Animals have always been reluctant to come near humans, because we have always been at the top of the food chain. The first step in gaining the trust of an animal is to make it understand that you do not seek to eat it. The second is to make it understand that it should not try to eat you. Once this mutual understanding is established, the rest comes easily.- Keron Maes, Ranger</Italian>
+		<Spanish>Animals have always been reluctant to come near humans, because we have always been at the top of the food chain. The first step in gaining the trust of an animal is to make it understand that you do not seek to eat it. The second is to make it understand that it should not try to eat you. Once this mutual understanding is established, the rest comes easily.- Keron Maes, Ranger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMAL_HUSBANDRY</Tag>
+		<English>Animal Husbandry</English>
+		<French>
+			<Text>Élevage</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Tierzucht</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Allevamento di animali</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Ganader&#237;a</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMAL_HUSBANDRY_QUOTE</Tag>
+		<English>All of mankind, with the dread exception of the followers of the Overlords, have always strongly resented slavery, on the grounds that no being should be completely subject to another. Oddly enough, this view has never been put forth in regard to Man's fellow animals...[NEWLINE][BOLD]Selena Yera, Elven Mystic[\BOLD]</English>
+		<French>Toute l'humanité, à l'exception des effroyables disciples des Suzerains, ont toujours eu une forte ranc&#156;ur envers l'esclavage, en raison du fait qu'aucun être ne devrait être soumis complètement à un autre. Assez étrangement, ce point de vue n'a jamais été appliqué en ce qui concerne les animaux...[NEWLINE][BOLD]Selena Yera, Mystique Elfe[\BOLD]</French>
+		<German>Alle Völker, mit der traurigen Ausnahme der Anhänger der Schatten, haben immer aufs stärkste die Sklaverei abgelehnt, basierend auf dem Prinzip, dass kein Lebewesen das komplette Eigentum eines anderem seien sollte. Seltsam nur, dass diese Sicht niemals auf unsere tierischen Begleiter ausgeweitet wurde... - Selena Yera, Elfenesoterikerin</German>
+		<Italian>All of mankind, with the dread exception of the followers of the Overlords, have always strongly resented slavery, on the grounds that no being should be completely subject to another. Oddly enough, this view has never been put forth in regard to Man's fellow animals...-Selena Yera, Elven Mystic</Italian>
+		<Spanish>All of mankind, with the dread exception of the followers of the Overlords, have always strongly resented slavery, on the grounds that no being should be completely subject to another. Oddly enough, this view has never been put forth in regard to Man's fellow animals...-Selena Yera, Elven Mystic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMAL_MASTERY</Tag>
+		<English>Animal Mastery</English>
+		<French>Domptage des bêtes</French>
+		<German>Abrichten</German>
+		<Italian>Animal Mastery</Italian>
+		<Spanish>Animal Mastery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ANIMAL_MASTERY_QUOTE</Tag>
+		<English>It's a rough world out there. Beyond the palisades, wild and ferocious animals roam the forests, and even more mysterious beasts wander across the plains. Most of the time they leave us alone, settling for eating the few wanderers who go astray. Once in a while they come for us, and thankfully, we are always ready to receive them.[NEWLINE][BOLD]Gerod Jiz, Farmer[\BOLD]</English>
+		<French>C'est un monde dangereux là-bas. Au-delà des palissades, des animaux sauvages et féroces rodent dans les forêts, et des bêtes encore plus mystérieuses errent à travers les plaines. La plupart du temps ils nous laissent en paix, se contentant de manger les quelques pauvres hères s'égarant. De temps en temps, ils viennent pour nous, et heureusement, nous sommes toujours prêts à les recevoir.[NEWLINE][BOLD]Gerod Jiz, Fermier[\BOLD]</French>
+		<German>Die Welt dort draußen ist rau. Jenseits der Palisaden streifen wilde und grausame Tiere durch die Wälder und noch geheimnisvollere Bestien wandern durch die Prärie. Die meiste Zeit lassen sie uns in Frieden und begnügen sich damit ein paar verirrte Wanderer zu fressen. Doch hin und wieder kommen sie um uns zu holen. Aber glücklicherweise sind wir stets bereit sie zu empfangen. - Gerod Jiz, Bauer</German>
+		<Italian>It's a rough world out there. Beyond the palisades, wild and ferocious animals roam the forests, and even more mysterious beasts wander across the plains. Most of the time they leave us alone, settling for eating the few wanderers who go astray. Once in a while they come for us, and thankfully, we are always ready to receive them.-Gerod Jiz, Farmer</Italian>
+		<Spanish>It's a rough world out there. Beyond the palisades, wild and ferocious animals roam the forests, and even more mysterious beasts wander across the plains. Most of the time they leave us alone, settling for eating the few wanderers who go astray. Once in a while they come for us, and thankfully, we are always ready to receive them.-Gerod Jiz, Farmer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARCANE_LORE</Tag>
+		<English>Arcane Lore</English>
+		<French>Connaissance des Arcanes</French>
+		<German>Hohe Lehre der Magie</German>
+		<Italian>Arcane Lore</Italian>
+		<Spanish>Arcane Lore</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARCANE_LORE_QUOTE</Tag>
+		<English>Arcane spells and sacred rites[NEWLINE]Are learned as the grimoire ignites;[NEWLINE]In darkened fires' fleeting glow,[NEWLINE]The high is equal to the low[NEWLINE][BOLD]Aldorien Silvermoon, Elven Bard[\BOLD]</English>
+		<French>Sorts magiques et rites sacrés ; Appris d'un grimoire s'embrasant ; Dans le rougeoiement fugitif d'un feu obscur ; Le puissant à l'égal du faible[NEWLINE][BOLD]Aldorien Lunargent, Ménestrel elfique[\BOLD]</French>
+		<German>Magische Zaubersprüche und heilige Riten[NEWLINE]Werden gelernt um die Mächte des Zauberbuches zu entfachen;[NEWLINE]In sich verdunkelnden Feuern glühen sie flüchtig auf,[NEWLINE]Das Hohe gleicht dem Niedrigen. - Aldorien Silbermond, Elfenbarde</German>
+		<Italian>Arcane spells and sacred rites[NEWLINE]Are learned as the grimoire ignites;[NEWLINE]In darkened fires' fleeting glow,[NEWLINE]The high is equal to the low-Aldorien Silvermoon, Elven Bard</Italian>
+		<Spanish>Arcane spells and sacred rites[NEWLINE]Are learned as the grimoire ignites;[NEWLINE]In darkened fires' fleeting glow,[NEWLINE]The high is equal to the low-Aldorien Silvermoon, Elven Bard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARCHERY_QUOTE</Tag>
+		<English>Distance is the only armor I require.[NEWLINE][BOLD]Gilden Silveric, Elven Archer[\BOLD]</English>
+		<French>La distance est la seule armure dont j'ai besoin.[NEWLINE][BOLD]Gilden Silveric, Archer Elfe[\BOLD]</French>
+		<German>Distanz ist der einzige Schutz, den ich benötige. - Gilden Silveric, Elfenbogenschütze</German>
+		<Italian>Distance is the only armor I require.-Gilden Silveric, Elven Archer</Italian>
+		<Spanish>Distance is the only armor I require.-Gilden Silveric, Elven Archer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARETE</Tag>
+		<English>Arete</English>
+		<French>Arête</French>
+		<German>Eifer</German>
+		<Italian>Arete</Italian>
+		<Spanish>Arete</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARETE_QUOTE</Tag>
+		<English>Granted, the humans have strength of arms, and quite adequate tools for the job. But, what good is that, when they don't have a clue where to dig?[NEWLINE][BOLD]Osmand Rockspittle, Mining Supervisor[\BOLD]</English>
+		<French>Bien leur en fasse, les humains ont des bras forts, et des outils adéquats. Mais en quoi leur est-ce utile s'ils ne savent où creuser ?[NEWLINE][BOLD]Osmand Rockspittle, Contre-Maître Minier[\BOLD]</French>
+		<German>Zugegeben, die Menschen haben starke Arme und so ziemlich die passenden Werkzeuge für die Arbeit. Aber was nützt das, wenn sie keinen Schimmer haben wo sie graben müssen? - Osmand Steinspalter, Mienenaufseher</German>
+		<Italian>Granted, the humans have strength of arms, and quite adequate tools for the job. But, what good is that, when they don't have a clue where to dig?-Osmand Rockspittle, Mining Supervisor</Italian>
+		<Spanish>Granted, the humans have strength of arms, and quite adequate tools for the job. But, what good is that, when they don't have a clue where to dig?-Osmand Rockspittle, Mining Supervisor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARMORED_CAVALRY</Tag>
+		<English>Armored Cavalry</English>
+		<French>Cavalerie caparaçonnée</French>
+		<German>Gepanzerte Reiter</German>
+		<Italian>Armored Cavalry</Italian>
+		<Spanish>Armored Cavalry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ARMORED_CAVALRY_QUOTE</Tag>
+		<English>A good seat?  He said that?  The Kings favor gives righteousness, good virtue will *seal* a heart.  If we're talking horses I'll take a chain and some steel plate.  With all that you can ride down a self-styled "Bandit Lord."[NEWLINE][BOLD]Knight-Sheriff Guval[\BOLD]</English>
+		<French>A good seat?  He said that?  The Kings favor gives righteousness, good virtue will *seal* a heart.  If we're talking horses I'll take a chain and some steel plate.  With all that you can ride down a self-styled "Bandit Lord."[NEWLINE][BOLD]Knight-Sheriff Guval[\BOLD]</French>
+		<German>Ein guter Sitz? Hatte er das gesagt? Die Könige bevorzugen Aufrichtigkeit, Tugend wird das Herz 'versiegeln'. Wenn wir von Pferden reden, dann reicht auch eine Kette und eine Stahlplatte. Allein damit kann man einen selbsternannten "Räuberkönig" niedereiten. - Ritter Guval</German>
+		<Italian>A good seat?  He said that?  The Kings favor gives righteousness, good virtue will *seal* a heart.  If we're talking horses I'll take a chain and some steel plate.  With all that you can ride down a self-styled "Bandit Lord." - Knight-Sheriff Guval</Italian>
+		<Spanish>A good seat?  He said that?  The Kings favor gives righteousness, good virtue will *seal* a heart.  If we're talking horses I'll take a chain and some steel plate.  With all that you can ride down a self-styled "Bandit Lord." - Knight-Sheriff Guval</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ASTRONOMY_QUOTE</Tag>
+		<English>Those who seek their fortune in the stars will not see the path laid out in front of them[NEWLINE][BOLD]Kirin Mistfall, Mystic[\BOLD]</English>
+		<French>Ceux qui cherchent fortune dans les étoiles ne verront pas le sentier disposé devant eux[NEWLINE][BOLD]Kirin Mistfall, Mystique[\BOLD]</French>
+		<German>Jene, die ihr Glück in den Sternen suchen, werden nicht den Pfad erkennen, der sich direkt vor ihnen erstreckt. - Kirin Mistfall, Mystikerin</German>
+		<Italian>Those who seek their fortune in the stars will not see the path laid out in front of them-Kirin Mistfall, Mystic</Italian>
+		<Spanish>Those who seek their fortune in the stars will not see the path laid out in front of them-Kirin Mistfall, Mystic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BLASTING_POWDER</Tag>
+		<English>Blasting Powder</English>
+		<French>Poudre explosive</French>
+		<German>Schiesspulver</German>
+		<Italian>Blasting Powder</Italian>
+		<Spanish>Blasting Powder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BLASTING_POWDER_QUOTE</Tag>
+		<English>There is a cure for vampirism. It involves the long barrel of a gun and large doses of splintered iron and powder.[NEWLINE][BOLD]Teutorix[\BOLD]</English>
+		<French>Le vampirisme n'est pas une maladie incurable. Le remède implique le canon d'un fusil et de copieuses doses de poudre et d'acier.[NEWLINE][BOLD]Teutorix[\BOLD]</French>
+		<German>Ich habe ihn gewarnt! Ich sagte ihm, er solle vorsichtig sein! Nichtsdestotrotz erhitzte er die Substanz weiter, und binnen weniger Sekunden war der arme alte Meister Keli über die gesamten Wände des Laboratoriums verteilt. - Elon Ryar, Alchemistenlehrling</German>
+		<Italian>There is a cure for vampirism. It involves the long barrel of a gun and large doses of splintered iron and powder.-Teutorix</Italian>
+		<Spanish>There is a cure for vampirism. It involves the long barrel of a gun and large doses of splintered iron and powder.-Teutorix</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BOWYERS</Tag>
+		<English>Bowyers</English>
+		<French>Balistique</French>
+		<German>Ballistik</German>
+		<Italian>Bowyers</Italian>
+		<Spanish>Bowyers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_BOWYERS_QUOTE</Tag>
+		<English>Let fly these feathered messengers, harbingers of better times, those that speak for common men and punish lords for unjust crimes.[NEWLINE][BOLD]Chronicles of the Wind[\BOLD]</English>
+		<French>Laissez voler ces messagers emplumés, funestes présages de temps meilleurs, ceux qui parlent pour les humbles et punissent les seigneurs pour leurs crimes injustes.[NEWLINE][BOLD]Les Chroniques du Vent[\BOLD]</French>
+		<German>Möge dieser gefiederte Bote davon fliegen, sei er ein Bote besserer Zeiten für die, die sich für den einfachen Manne einsetzen und bestrafe er die Fürsten für ihre ungerechten Verbrechen. - Chroniken des Windes</German>
+		<Italian>Let fly these feathered messengers, harbingers of better times, those that speak for common men and punish lords for unjust crimes.-Chronicles of the Wind</Italian>
+		<Spanish>Let fly these feathered messengers, harbingers of better times, those that speak for common men and punish lords for unjust crimes.-Chronicles of the Wind</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CALENDAR_QUOTE</Tag>
+		<English>The sun begins its journey;[NEWLINE] Across the sky once more;[NEWLINE]As future flies towards the past;[NEWLINE]And now becomes before[NEWLINE][BOLD]Aldorien Silvermoon, Elven Bard[\BOLD]</English>
+		<French>Le soleil commence son voyage ; À travers le ciel encore une fois ; Comme l'avenir vole vers le passé ; Et maintenant devient auparavant[NEWLINE][BOLD]Aldorien Lunargent, Ménestrel elfique[\BOLD]</French>
+		<German>Die Sonne beginnt ihre Reise;[NEWLINE]Auf ein neues über den Himmel;[NEWLINE]Während die Zukunft Richtung Vergangenheit fliegt;[NEWLINE]Und das Jetzt wird zum Damals. - Aldorien Silbermond, Elfenbarde</German>
+		<Italian>The sun begins its journey;[NEWLINE] Across the sky once more;[NEWLINE]As future flies towards the past;[NEWLINE]And now becomes before-Aldorien Silvermoon, Elven Bard</Italian>
+		<Spanish>The sun begins its journey;[NEWLINE] Across the sky once more;[NEWLINE]As future flies towards the past;[NEWLINE]And now becomes before-Aldorien Silvermoon, Elven Bard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CARTOGRAPHY</Tag>
+		<English>Cartography</English>
+		<French>Cartographie</French>
+		<German>Kartografie</German>
+		<Italian>Cartography</Italian>
+		<Spanish>Cartography</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CARTOGRAPHY_QUOTE</Tag>
+		<English>A map is a nothing more than a drawing on a piece of parchment. Yet, at the same time, it is the whole world in the palm of your hand. Maps are powerful tools and dangerous weapons. Do not underestimate them, and always make sure your maps are better than those of the enemy.[NEWLINE][BOLD]Kriss Bechaal, Knight Commander of the Bannor[\BOLD]</English>
+		<French>Une carte n'est un rien d'autre qu'un dessin sur un parchemin. Pourtant, en même temps, c'est le monde entier dans la paume de votre main. Les cartes sont des instruments puissants et des armes dangereuses. Ne les sous-estimez pas et assurez-vous toujours que vos cartes sont meilleures que celles de l'ennemi.[NEWLINE][BOLD]Kriss Bechaal, Chevalier Commandant des Bannoriens[\BOLD]</French>
+		<German>Eine Karte ist nichts weiter als eine Zeichnung auf einem Stück Pergament. Dennoch ist es zur gleichen Zeit die gesamte Welt in der Größe der Hand. Waffen sind mächtige Werkzeuge und sehr gefährlich. Unterschätze sie nicht und stelle stets sicher, dass deine Karten besser sind als die des Feindes. - Kriss Bechaal, Ritterkommandeur der Bannor</German>
+		<Italian>A map is a nothing more than a drawing on a piece of parchment. Yet, at the same time, it is the whole world in the palm of your hand. Maps are powerful tools and dangerous weapons. Do not underestimate them, and always make sure your maps are better than those of the enemy.-Kriss Bechaal, Knight Commander of the Bannor</Italian>
+		<Spanish>A map is a nothing more than a drawing on a piece of parchment. Yet, at the same time, it is the whole world in the palm of your hand. Maps are powerful tools and dangerous weapons. Do not underestimate them, and always make sure your maps are better than those of the enemy.-Kriss Bechaal, Knight Commander of the Bannor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CODE_OF_LAWS_QUOTE</Tag>
+		<English>Laws, and their effective enforcement, are the foundation of any ordered society. Whenever common citizens start to question the letter of the law, anarchy is never far behind, and, therefore, upholding the law must come before all other concerns.[NEWLINE][BOLD]Maer de Vain, Confessor of the Order[\BOLD]</English>
+		<French>Les lois et leurs mises en application efficaces, sont les fondations de toute société organisée. Chaque fois que des citoyens communs critique la lettre de la Loi, l'anarchie n'est jamais loin, et le soutien de la loi doit venir avant toute autre considération.[NEWLINE][BOLD]Maer de Vain, Confesseur de l'Ordre[\BOLD]</French>
+		<German>Gesetze und deren effektive Durchsetzung sind die Grundlagen jeder geregelten Gesellschaft. Sobald das gemeine Volk ein Gesetzesschreiben in Frage stellt, ist Anarchie nie weit entfernt. Und deshalb muss die Aufrechterhaltung der Gesetze stets allen anderen Interessen voran stehen. - Maer de Vain, Bekenner der Weisung</German>
+		<Italian>Laws, and their effective enforcement, are the foundation of any ordered society. Whenever common citizens start to question the letter of the law, anarchy is never far behind, and, therefore, upholding the law must come before all other concerns.-Maer de Vain, Confessor of the Order</Italian>
+		<Spanish>Laws, and their effective enforcement, are the foundation of any ordered society. Whenever common citizens start to question the letter of the law, anarchy is never far behind, and, therefore, upholding the law must come before all other concerns.-Maer de Vain, Confessor of the Order</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_COMMUNE_WITH_NATURE</Tag>
+		<English>Commune with Nature</English>
+		<French>Communion avec la Nature</French>
+		<German>Schöpfung</German>
+		<Italian>Commune with Nature</Italian>
+		<Spanish>Commune with Nature</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_COMMUNE_WITH_NATURE_QUOTE</Tag>
+		<English>In the wilderness, everything wishes either to kill you, or to let something else do it and then consume your remains. Nature has no concept of laws or mercy; in order to live, you must play by its rules.[NEWLINE][BOLD]Grakahl Redan, Hunter[\BOLD]</English>
+		<French>Dans les régions sauvages, toute chose veut vous tuer, ou permettre à quelque chose d'autre de le faire et consommer ensuite votre dépouille. La Nature n'a aucun concept de lois ou de clémence; pour survivre, vous devez jouer selon ses règles.[NEWLINE][BOLD]Grakahl Redan, Chasseur[\BOLD]</French>
+		<German>In der Wildnis hegt alles den Wunsch dich zu töten, oder dich töten zu lassen, um dann deine Überreste zu konsumieren. Die Natur verfügt über kein Konzept von Recht oder Gnade; um zu überleben, musst du dich ihren Regeln anpassen. - Grakahl Redan, Jäger</German>
+		<Italian>In the wilderness, everything wishes either to kill you, or to let something else do it and then consume your remains. Nature has no concept of laws or mercy; in order to live, you must play by its rules.-Grakahl Redan, Hunter</Italian>
+		<Spanish>In the wilderness, everything wishes either to kill you, or to let something else do it and then consume your remains. Nature has no concept of laws or mercy; in order to live, you must play by its rules.-Grakahl Redan, Hunter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CONSTRUCTION_HELP</Tag>
+		<English>[ICON_BULLET][LINK=IMPROVEMENT_SWAMP]Swamps[\LINK] now spread irrigation</English>
+		<French>[ICON_BULLET]Les [LINK=IMPROVEMENT_SWAMP]marais[\LINK] répandent l'irrigation</French>
+		<German>[ICON_BULLET][LINK=IMPROVEMENT_SWAMP]Swamps[\LINK] now spread irrigation</German>
+		<Italian>[ICON_BULLET][LINK=IMPROVEMENT_SWAMP]Swamps[\LINK] now spread irrigation</Italian>
+		<Spanish>[ICON_BULLET][LINK=IMPROVEMENT_SWAMP]Swamps[\LINK] now spread irrigation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CONSTRUCTION_QUOTE</Tag>
+		<English>Your walls do not protect you from the world. The illusion of safety it gives is far more dangerous than the fear of death. Stones will not slow the Riders of Nox Noctis.[NEWLINE][BOLD]Phadean, Shadow Rider[\BOLD]</English>
+		<French>Vos murs ne vous protègent pas du monde. L'illusion de sécurité qu'ils procurent est bien plus dangereuse que la peur de la mort. Les pierres ne ralentiront pas les Cavaliers de Nox Noctis.[NEWLINE][BOLD]Phadean, Chevaucheur d'Ombre[\BOLD]</French>
+		<German>Eure Mauern werden euch nicht vor der Welt beschützen. Die Illusion der Sicherheit die sie euch geben ist gefährlicher als eure Angst vor dem Tod. Denn Steine werden die Reiter der Nacht der Nächte nicht aufhalten. - Phadean, Schattenreiter</German>
+		<Italian>Your walls do not protect you from the world. The illusion of safety it gives is far more dangerous than the fear of death. Stones will not slow the Riders of Nox Noctis.-Phadean, Shadow Rider</Italian>
+		<Spanish>Your walls do not protect you from the world. The illusion of safety it gives is far more dangerous than the fear of death. Stones will not slow the Riders of Nox Noctis.-Phadean, Shadow Rider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CORRUPTION_OF_SPIRIT</Tag>
+		<English>Corruption of Spirit</English>
+		<French>Corruption de l'Esprit</French>
+		<German>Gedankenkontrolle</German>
+		<Italian>Corruption of Spirit</Italian>
+		<Spanish>Corruption of Spirit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CORRUPTION_OF_SPIRIT_QUOTE</Tag>
+		<English>True power is always costly. However, I think I can safely say that the rewards far outweigh any of the possible costs. Who cares for sanity, when you can burn the people claiming you to be insane to cinders with a thought? Who cares for purity, when this taint is so much more vitalizing? Who cares about the soul, when the mind can break all boundaries without it?[NEWLINE][BOLD]Tebryn Arbandi[\BOLD]</English>
+		<French>Le vrai pouvoir est toujours coûteux. Pourtant, je crois que je peux dire sans me tromper que la récompense l'emporte largement sur n'importe quel prix. Qui se préoccupe de santé mentale, quand d'une pensée vous pouvez réduire en cendres ceux qui vous déclare fou ? Qui se préoccupe de sa pureté, quand la souillure est bien plus vivifiante ? Qui se soucie de son âme, quand l'esprit peut outrepasser toutes les limites sans elle ?[NEWLINE][BOLD]Arean Sethrail, Mage Ancestrale[\BOLD]</French>
+		<German>Wahre Macht hat stets einen hohen Preis. Dennoch glaube ich sicher behaupten zu können, dass ihre Vorzüge alle möglichen Nachteile überwiegen. Wenn kümmert die Vernunft, wenn du die Leute, die behaupten du seiest verrückt, mit einer Handbewegung zu Asche verbrennen lassen kannst? Wen kümmert Reinheit, wenn der Makel so viel belebender ist? Wen kümmert die Seele, wenn der Geist ohne sie doch alle Grenzen sprengen kann? - Arean Sethrail, Altehrwürdiger Magier</German>
+		<Italian>True power is always costly. However, I think I can safely say that the rewards far outweigh any of the possible costs. Who cares for sanity, when you can burn the people claiming you to be insane to cinders with a thought? Who cares for purity, when this taint is so much more vitalizing? Who cares about the soul, when the mind can break all boundaries without it?-Tebryn Arbandi</Italian>
+		<Spanish>True power is always costly. However, I think I can safely say that the rewards far outweigh any of the possible costs. Who cares for sanity, when you can burn the people claiming you to be insane to cinders with a thought? Who cares for purity, when this taint is so much more vitalizing? Who cares about the soul, when the mind can break all boundaries without it?-Tebryn Arbandi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CRAFTING</Tag>
+		<English>Crafting</English>
+		<French>Artisanat</French>
+		<German>Handwerk</German>
+		<Italian>Crafting</Italian>
+		<Spanish>Crafting</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CRAFTING_QUOTE</Tag>
+		<English>First, you take a rock. Then you take another rock, and chip the unnecessary bits off the first one. What do you have now? A better rock. With this better rock, you can make something even more useful, and so on. That, my son, is the fundamental premise of tool-making.[NEWLINE][BOLD]Gracken Smokebeard, Master Toolsmith</English>
+		<French>D'abord, tu prends une pierre. Ensuite tu prends une autre pierre et avec tu ôtes les morceaux inutiles de la première. Qu'as-tu maintenant ? Une meilleure pierre. Avec cette meilleure pierre, tu peux fabriquer quelque chose d'encore plus utile, et ainsi de suite. Ceci, mon fils, est la base fondamentale de la fabrication d'outils.[NEWLINE][BOLD]Gracken Barbefumée, Maître Outilleur</French>
+		<German>Zuerst nimmst du einen Stein. Dann nimmst du noch einen Stein und spaltest die unnötigen Teile des ersten ab. Was hast du nun? Einen besseren Stein. Mit diesem besseren Stein kannst nun etwas noch nützlicheres herstellen, und so weiter. Dies, mein Sohn, ist die fundamentale Voraussetzung der Werkzeugherstellung. - Gracken Rauchbart, Meister des Werkzeugschmiedens</German>
+		<Italian>First, you take a rock. Then you take another rock, and chip the unnecessary bits off the first one. What do you have now? A better rock. With this better rock, you can make something even more useful, and so on. That, my son, is the fundamental premise of tool-making.-Gracken Smokebeard, Master Toolsmith</Italian>
+		<Spanish>First, you take a rock. Then you take another rock, and chip the unnecessary bits off the first one. What do you have now? A better rock. With this better rock, you can make something even more useful, and so on. That, my son, is the fundamental premise of tool-making.-Gracken Smokebeard, Master Toolsmith</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_CURRENCY_QUOTE</Tag>
+		<English>Consider this: The value of the coins I hold just now is completely illusory. They only have value because the majority of citizens in our society recognize them as effective bargaining material, but the moment a disaster strikes-drought, war, revolution, flood or famine-our money will be worthless, as it has no practical value in the following struggle for survival.[NEWLINE][BOLD]Dengrahl Lern, Stewards of Inequity</English>
+		<French>Consider this: The value of the coins I hold just now is completely illusory. They only have value because the majority of citizens in our society recognize them as effective bargaining material, but the moment a disaster strikes-drought, war, revolution, flood or famine-our money will be worthless, as it has no practical value in the following struggle for survival.[NEWLINE][BOLD]Dengrahl Lern, Stewards of Inequity</French>
+		<German>Bedenke dies: Der Wert der Münzen die ich in diesem Moment in meinen Händen halte, ist komplett illusionär. Sie sind nur deshalb von Wert, weil die Mehrheit der Mitglieder unserer Gesellschaft sie als effektives Material zum Handeln befindet. Aber in dem Augenblick, wo uns eine Katastrophe trifft, ob Dürre, Krieg, Revolution, Überschwemmung oder eine Hungersnot,  wird unser Geld wertlos sein, da es keinen praktischen Nutzen im folgenden Kampf ums Überleben haben wird. - Dengrahl Lern, Kaufmann</German>
+		<Italian>Consider this: The value of the coins I hold just now is completely illusory. They only have value because the majority of citizens in our society recognize them as effective bargaining material, but the moment a disaster strikes-drought, war, revolution, flood or famine-our money will be worthless, as it has no practical value in the following struggle for survival.-Dengrahl Lern, Stewards of Inequity</Italian>
+		<Spanish>Consider this: The value of the coins I hold just now is completely illusory. They only have value because the majority of citizens in our society recognize them as effective bargaining material, but the moment a disaster strikes-drought, war, revolution, flood or famine-our money will be worthless, as it has no practical value in the following struggle for survival.-Dengrahl Lern, Stewards of Inequity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DECEPTION</Tag>
+		<English>Deception</English>
+		<French>Subterfuge</French>
+		<German>List</German>
+		<Italian>Deception</Italian>
+		<Spanish>Deception</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DECEPTION_QUOTE</Tag>
+		<English>The second most dangerous enemy is the one whose power and influence is vastly superior to yours. The most dangerous enemy is the one whose existence you are not aware of.[NEWLINE][BOLD]Arian Kothrax, High Councillor</English>
+		<French>Le deuxième ennemi le plus dangereux est celui dont le pouvoir et l'influence sont considérablement supérieurs aux vôtres. Mais l'ennemi le plus dangereux est celui dont vous n'êtes pas conscient de l'existence.[NEWLINE][BOLD]Arian Kothrax, Haut Conseiller</French>
+		<German>Der zweitgefährlichste Feind ist der, dessen Macht und Einfluss die deinen über alle Maßen übertreffen. Doch der gefährlichste Feind ist der, von dessen Existenz du gar nichts weisst. - Arian Kothrax, Mitglied des Hohen Rates</German>
+		<Italian>The second most dangerous enemy is the one whose power and influence is vastly superior to yours. The most dangerous enemy is the one whose existence you are not aware of.-Arian Kothrax, High Councillor</Italian>
+		<Spanish>The second most dangerous enemy is the one whose power and influence is vastly superior to yours. The most dangerous enemy is the one whose existence you are not aware of.-Arian Kothrax, High Councillor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIVINATION</Tag>
+		<English>Divination</English>
+		<French>Divination</French>
+		<German>Lehre der Weissagung</German>
+		<Italian>Divination</Italian>
+		<Spanish>Divination</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIVINATION_QUOTE</Tag>
+		<English>Complete knowledge of the future would be the greatest curse imaginable, but the occasional glimpse can often prove quite beneficial.[NEWLINE][BOLD]Kirin Mistfall, Mystic</English>
+		<French>La connaissance complète de l'avenir serait la pire malédiction imaginable, mais une vision fugitive et occasionnelle peut souvent s'avérer vraiment favorable.[NEWLINE][BOLD]Kirin Mistfall, Mystique</French>
+		<German>Alles über die Zukunft zu wissen wäre der größte Fluch, den man sich vorstellen kann. Aber ein gelegentlicher, flüchtiger Blick erweist sich oft als dienlich. - Kirin Mistfall, Mystikerin</German>
+		<Italian>Complete knowledge of the future would be the greatest curse imaginable, but the occasional glimpse can often prove quite beneficial.-Kirin Mistfall, Mystic</Italian>
+		<Spanish>Complete knowledge of the future would be the greatest curse imaginable, but the occasional glimpse can often prove quite beneficial.-Kirin Mistfall, Mystic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIVINE_ESSENCE</Tag>
+		<English>Divine Essence</English>
+		<French>Essence Divine</French>
+		<German>Göttliche Essenz</German>
+		<Italian>Divine Essence</Italian>
+		<Spanish>Divine Essence</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DIVINE_ESSENCE_QUOTE</Tag>
+		<English>Every object retains a part of its creator's influence. Are we to expect that there is no part of the gods in us?[NEWLINE][BOLD]Cellion Jarl, spoken just before leaping off the Tower of Prisms</English>
+		<French>Chaque objet retient une part de l'influence de ses créateurs. Devons-nous nous attendre à ce qu'il n'y ait aucune part des dieux en nous ?[NEWLINE][BOLD]Cellion Jarl, juste avant de pénétrer dans la Tour des Prismes</French>
+		<German>Sobald Jemand etwas kreiert, fließt ein Teil seines Wesens auf das Erschaffene über. Also warum sollten wir glauben, dass Nichts mit göttlichem Ursprung uns inne wohnt? - Cellion Jarl, gesprochen kurz bevor er vom Turm der Prismen sprang.</German>
+		<Italian>Every object retains a part of its creator's influence. Are we to expect that there is no part of the gods in us?-Cellion Jarl, spoken just before leaping off the Tower of Prisms</Italian>
+		<Spanish>Every object retains a part of its creator's influence. Are we to expect that there is no part of the gods in us?-Cellion Jarl, spoken just before leaping off the Tower of Prisms</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_DRAMA_QUOTE</Tag>
+		<English>An uplifting song can make spirits soar and hearts sing in joy. A gloomy melody can make souls wither in pain, and minds shriek with horror. An insistent drumroll can still the restless nerves of marching soldiers, and lead them on towards victory and glory... You offered me a sword, but I think I will hold on to this harp of mine...[NEWLINE][BOLD]Aldorien Silvermoon, Elven Bard</English>
+		<French>Un chant exaltant peut transcender les esprits et égayer les c&#156;urs. Une mélodie lugubre peut torturer l'âme et faire hurler d'horreur les esprits. Un roulement de tambour insistant peut apaiser les nerfs agités des soldats en marche et les mener vers la victoire et la gloire... Vous m'avez offert une épée, mais je crois que je m'en tiendrai à ma harpe...[NEWLINE][BOLD]Aldorien Lunargent, Ménestrel elfique</French>
+		<German>Ein Lied der Hoffnung kann deinen Geist beflügeln und dein Herz vor Freude tanzen lassen. Eine düstere Melodie lässt deine Seele vor Schmerz vergehen und kann deinen Verstand zu einem Schrei des Entsetzens treiben. Aber ein beständiger Trommelwirbel kann die angespannten Nerven der marschierenden Soldaten stählen, und sie zu Sieg und Ehre führen... Du hast mir ein Schwert angeboten, aber ich denke, dass ich lieber meine Harfe behalte... - Aldorien Silbermond, Elfenbarde</German>
+		<Italian>An uplifting song can make spirits soar and hearts sing in joy. A gloomy melody can make souls wither in pain, and minds shriek with horror. An insistent drumroll can still the restless nerves of marching soldiers, and lead them on towards victory and glory... You offered me a sword, but I think I will hold on to this harp of mine...-Aldorien Silvermoon, Elven Bard</Italian>
+		<Spanish>An uplifting song can make spirits soar and hearts sing in joy. A gloomy melody can make souls wither in pain, and minds shriek with horror. An insistent drumroll can still the restless nerves of marching soldiers, and lead them on towards victory and glory... You offered me a sword, but I think I will hold on to this harp of mine...-Aldorien Silvermoon, Elven Bard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EDUCATION</Tag>
+		<English>Education</English>
+		<French>
+			<Text>Éducation</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Bildungswesen</Text>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Educazione</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Educaci&#243;n</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EDUCATION_QUOTE</Tag>
+		<English>The pursuit of knowledge is the noblest of Man's ambitions, but also the most dangerous. Some knowledge is best left alone.[NEWLINE][BOLD]Jobin Seras, Scholar</English>
+		<French>La recherche du savoir est la plus noble des ambitions de l'Homme, mais aussi la plus dangereuse. Certaines connaissances valent mieux être évitées.[NEWLINE][BOLD]Jobin Seras, Érudit</French>
+		<German>Das Streben nach Wissen ist das edelste Ziel des Menschen, aber auch das gefährlichste. So manche Erkenntnis sollte nie erlangt werden. - Jobin Seras, Gelehrter</German>
+		<Italian>The pursuit of knowledge is the noblest of Man's ambitions, but also the most dangerous. Some knowledge is best left alone.-Jobin Seras, Scholar</Italian>
+		<Spanish>The pursuit of knowledge is the noblest of Man's ambitions, but also the most dangerous. Some knowledge is best left alone.-Jobin Seras, Scholar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ELEMENTALISM</Tag>
+		<English>Elementalism</English>
+		<French>Élémentalisme</French>
+		<German>Lehre der Elemente</German>
+		<Italian>Elementalism</Italian>
+		<Spanish>Elementalism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ELEMENTALISM_QUOTE</Tag>
+		<English>Make a fire for a man, you warm him for a day. Make a fire of a man, you warm him for his lifetime[NEWLINE][BOLD]Taneath, Sheaim Poet</English>
+		<French>Allumez un feu pour un homme et vous le réchaufferez pour une journée. Mettez un homme en feu, et vous le réchaufferez pour le reste de son existence.[NEWLINE][BOLD]Taneath, Poète Sheaïm</French>
+		<German>"Entzünde ein Feuer für einen Menschen und du gibst ihm Wärme für einen Tag. Entzünde ein Feuer in einem Menschen und du gibst ihm Wärme für ein ganzes Leben." - Taneath, sheaïmischer Dichter</German>
+		<Italian>Make a fire for a man, you warm him for a day. Make a fire of a man, you warm him for his lifetime-Taneath, Sheaim Poet</Italian>
+		<Spanish>Make a fire for a man, you warm him for a day. Make a fire of a man, you warm him for his lifetime-Taneath, Sheaim Poet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EXPLORATION</Tag>
+		<English>Exploration</English>
+		<French>Exploration</French>
+		<German>Erkundung</German>
+		<Italian>Exploration</Italian>
+		<Spanish>Exploration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_EXPLORATION_QUOTE</Tag>
+		<English>Paradoxically, one of Mankind's first achievements was among its grandest. No other structure outlines the fundamental difference between Nature and Civilization so strongly than that of the wheel. Nature has yet to duplicate the simple, but sublime, circular object, which allows for so much conservation of energy.[NEWLINE][BOLD]Kleox Yarl, Royal Engineer</English>
+		<French>Paradoxalement, une des premières réalisations de l'humanité fut une de ses plus grandes. Nulle autre structure ne démontre si fortement la différence fondamentale entre la Nature et la Civilisation que celle de la roue. La nature doit encore copier l'objet simple, mais sublime, circulaire, qui permet tant l'économie d'effort.[NEWLINE][BOLD]Kleox Yarl, Ingénieur Royal</French>
+		<German>Paradoxerweise war eine der Menschheits ersten Errungenschaften auch ihre bedeutendste. Keine andere Konstruktion zieht eine so starke Grenze zwischen der Natur und der Zivilisation wie das Rad. Die Natur ist nach wie vor dazu verdammt, das Einfache zu kopieren, war so aber nicht in der Lage solch ein energiesparendes und so erhabenes und einfach rundes Objekt zu kreieren. - Kleox Yarl, Königlicher Ingenieur</German>
+		<Italian>Paradoxically, one of Mankind's first achievements was among its grandest. No other structure outlines the fundamental difference between Nature and Civilization so strongly than that of the wheel. Nature has yet to duplicate the simple, but sublime, circular object, which allows for so much conservation of energy.-Kleox Yarl, Royal Engineer</Italian>
+		<Spanish>Paradoxically, one of Mankind's first achievements was among its grandest. No other structure outlines the fundamental difference between Nature and Civilization so strongly than that of the wheel. Nature has yet to duplicate the simple, but sublime, circular object, which allows for so much conservation of energy.-Kleox Yarl, Royal Engineer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FANATICISM</Tag>
+		<English>Fanaticism</English>
+		<French>Fanatisme</French>
+		<German>Fanatismus</German>
+		<Italian>Fanaticism</Italian>
+		<Spanish>Fanaticism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FANATICISM_QUOTE</Tag>
+		<English>Group together people deliberately chosen for strong religious feelings, and you have a practical guarantee of dark morbidities expressed in crime, perversion, and insanity.[NEWLINE][BOLD]Cassiel</English>
+		<French>Rassemblez un groupe des gens délibérément choisis pour leurs forts sentiments religieux et vous obtiendrez un échantillon représentatif de caractères morbides exprimés dans le crime, la perversion et la folie.[NEWLINE][BOLD]Cassiel</French>
+		<German>Fasse eine Gruppe von Leuten zusammen, die sich vorsätzlich für einen streng religiösen Weg entschieden haben und du hast praktisch eine Garantie für gesetzesbrecherische und finstere Morbiditäten, Perversionen und Geisteskrankheiten. - Cassiel</German>
+		<Italian>Group together people deliberately chosen for strong religious feelings, and you have a practical guarantee of dark morbidities expressed in crime, perversion, and insanity.-Cassiel</Italian>
+		<Spanish>Group together people deliberately chosen for strong religious feelings, and you have a practical guarantee of dark morbidities expressed in crime, perversion, and insanity.-Cassiel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FERAL_BOND</Tag>
+		<English>Feral Bond</English>
+		<French>Lien Sauvage</French>
+		<German>Blutfesseln</German>
+		<Italian>Feral Bond</Italian>
+		<Spanish>Feral Bond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FERAL_BOND_QUOTE</Tag>
+		<English>We have always been animals first and people second, so that no matter how eloquently our reason may speak, the final word is always had by our hunger, our rage, our lust.[NEWLINE][BOLD]Talia Gosam</English>
+		<French>Nous avons toujours été des animaux avant d'être des hommes. Ainsi, quelle que soit l'éloquence de notre raison, ceux qui ont toujours le dernier mot sont notre faim, notre rage, notre désir.[NEWLINE][BOLD]Talia Gosam</French>
+		<German>"Wir sind schon immer in erster Linie Tiere gewesen und erst in zweiter Menschen, so dass, egal wie zungenfertig wir unsere Gründe auch darlegen mögen, das letzte Wort immer von unserem Hunger, unserer Wut, unserer Gier gesprochen wird." - Talia Gosam</German>
+		<Italian>We have always been animals first and people second, so that no matter how eloquently our reason may speak, the final word is always had by our hunger, our rage, our lust.-Talia Gosam</Italian>
+		<Spanish>We have always been animals first and people second, so that no matter how eloquently our reason may speak, the final word is always had by our hunger, our rage, our lust.-Talia Gosam</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FESTIVALS</Tag>
+		<English>Festivals</English>
+		<French>Festivals</French>
+		<German>Festivitäten</German>
+		<Italian>Festivals</Italian>
+		<Spanish>Festivals</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FESTIVALS_QUOTE</Tag>
+		<English>Failures pave the path of learning, but even the least of failures made in battle will too often mean death. It is only logical that a way to ensure equal learning without as harsh a penalty should be devised amongst the brighter of military thinkers.[NEWLINE][BOLD]Jasper Rendrahl, Paladin of the Order</English>
+		<French>Les échecs pavent le sentier d'apprentissage, mais le moindre échec dans la bataille conduit trop souvent à la mort. Il est donc logique qu'une façon de garantir un apprentissage équivalent sans une si dure contrepartie soient débattue parmi les plus brillants penseurs militaires.[NEWLINE][BOLD]Jasper Rendrahl, Paladin de l'Ordre</French>
+		<German>Fehler pflastern den Pfad des Lernens, doch selbst der kleinste Fehler in einer Schlacht wird allzu oft den Tod bedeuten. So scheint es nur logisch, dass der Weg, der das Lernen sicher stellt, ohne dass eine derart harsche Strafe folgt, von jenen Militärstrategen ausgeklügelt sein sollte, die zu den Intelligenteren zählen. - Jasper Rendrahl, Paladin der Weisung</German>
+		<Italian>Failures pave the path of learning, but even the least of failures made in battle will too often mean death. It is only logical that a way to ensure equal learning without as harsh a penalty should be devised amongst the brighter of military thinkers.-Jasper Rendrahl, Paladin of the Order</Italian>
+		<Spanish>Failures pave the path of learning, but even the least of failures made in battle will too often mean death. It is only logical that a way to ensure equal learning without as harsh a penalty should be devised amongst the brighter of military thinkers.-Jasper Rendrahl, Paladin of the Order</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FEUDALISM_QUOTE</Tag>
+		<English>I'm telling you, this system is corrupt! Everyone extorts and humiliates the one below their ranks, and is in turn extorted and humiliated by the ones above them! The only one for whom such a system is just is the one on the top of the chain, and he is solely responsible for keeping us locked down like this! I ask you, is this fair? Is this justice?[NEWLINE][BOLD]Soren Castamer, Leader of the First Rebellion</English>
+		<French>Je vous le dis, ce système est corrompu ! Chacun extorque et humilie celui au rang inférieur et il est à son tour extorqué et humilié par ceux au-dessus de lui ! Le seul pour qui un tel système est juste est celui en haut de la chaîne, sa seule responsabilité étant de préserver ce système ! Je vous le demande, est-ce équitable ? Est-ce justice ?[NEWLINE][BOLD]Soren Castamer, Chef de la Première Rébellion</French>
+		<German>Ich sage euch, dieses System ist korrupt! Jeder erpresst und erniedrigt seine Untergebenen und wird dafür wiederum von seinen Vorgesetzten erpresst und erniedrigt! Der einzige, dem solch ein System zu gute kommt, ist der an der Spitze der Befehlskette stehende und er allein ist für unser aller Unterdrückung verantwortlich! Ich frage euch, ist das gerecht?! Ist dass Gerechtigkeit?! - Soren Castamer, Anführer der Ersten Rebellion</German>
+		<Italian>I'm telling you, this system is corrupt! Everyone extorts and humiliates the one below their ranks, and is in turn extorted and humiliated by the ones above them! The only one for whom such a system is just is the one on the top of the chain, and he is solely responsible for keeping us locked down like this! I ask you, is this fair? Is this justice?-Soren Castamer, Leader of the First Rebellion</Italian>
+		<Spanish>I'm telling you, this system is corrupt! Everyone extorts and humiliates the one below their ranks, and is in turn extorted and humiliated by the ones above them! The only one for whom such a system is just is the one on the top of the chain, and he is solely responsible for keeping us locked down like this! I ask you, is this fair? Is this justice?-Soren Castamer, Leader of the First Rebellion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_FUTURE_TECH_QUOTE</Tag>
+		<English>I have seen the world under your hand and it contained more sadness and pain than this age. Are you prepared to return to another age of your failures?[NEWLINE][BOLD]Mulcarn to Kylorin at Letum Frigus</English>
+		<French>I have seen the world under your hand and it contained more sadness and pain than this age. Are you prepared to return to another age of your failures?[NEWLINE][BOLD]Mulcarn to Kylorin at Letum Frigus</French>
+		<German>Ich habe die Welt gesehen, als sie unter eurer Herrschaft war, und sie enthielt mehr Traurigkeit und Schmerz als in diesem Zeitalter. Seid ihr darauf vorbereitet, zu einem weiteren Zeitalter voll von euren Fehlern zurückzukehren? -- Mulcarn zu Kylorin in Letum Frigus</German>
+		<Italian>I have seen the world under your hand and it contained more sadness and pain than this age. Are you prepared to return to another age of your failures?-Mulcarn to Kylorin at Letum Frigus</Italian>
+		<Spanish>I have seen the world under your hand and it contained more sadness and pain than this age. Are you prepared to return to another age of your failures?-Mulcarn to Kylorin at Letum Frigus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_GUILDS_QUOTE</Tag>
+		<English>Illegal? Why, technically I suppose it is. Immoral? No, I do not believe so. We are merely the extension of the conventional trading system, making sure the money keeps flowing through society, instead of being holed up in the treasury of some greedy lord, where it will not benefit anyone.[NEWLINE][BOLD]Fenfahr the Rat, Prince of Thieves.</English>
+		<French>Illégal ? Techniquement, je le conçois. Immoral ? Non, je ne le crois pas. Nous sommes simplement l'extension du système commercial conventionnel, en nous assurant que l'argent continue à circuler dans la société, au lieu d'être terré dans la trésorerie d'un seigneur cupide, où il ne profitera à personne.[NEWLINE][BOLD]Fenfahr le Rat, Prince de Voleurs.</French>
+		<German>Illegal? Nun, formal gesehen wahrscheinlich schon. Unmoralisch? Nein, das glaube ich nicht. Wir sind lediglich die Erweiterung des konventionellen Handelssystem und stellen sicher, dass das Geld weiterhin durch die Reihen der Gesellschaft fließ, anstatt von irgendeinem gierigen Fürsten in einer Schatzkammer geschachert zu werden, wo es niemandem etwas nützt. - Fenfahr die Ratte, König der Diebe</German>
+		<Italian>Illegal? Why, technically I suppose it is. Immoral? No, I do not believe so. We are merely the extension of the conventional trading system, making sure the money keeps flowing through society, instead of being holed up in the treasury of some greedy lord, where it will not benefit anyone.-Fenfahr the Rat, Prince of Thieves.</Italian>
+		<Spanish>Illegal? Why, technically I suppose it is. Immoral? No, I do not believe so. We are merely the extension of the conventional trading system, making sure the money keeps flowing through society, instead of being holed up in the treasury of some greedy lord, where it will not benefit anyone.-Fenfahr the Rat, Prince of Thieves.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HIDDEN_PATHS</Tag>
+		<English>Hidden Paths</English>
+		<French>Sentiers Cachés</French>
+		<German>Verborgene Pfade</German>
+		<Italian>Hidden Paths</Italian>
+		<Spanish>Hidden Paths</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HIDDEN_PATHS_QUOTE</Tag>
+		<English>There's no sign of us here that our enemy sees[NEWLINE]Only whispering leaves in the shade of the trees[NEWLINE][BOLD]Excerpt from ancient elven poem.</English>
+		<French>Il n'y a ici aucune trace que nos ennemis puissent voir[PARAGRAPH:1]Seulement le murmure des feuilles dans le noir[NEWLINE][BOLD]Extrait d'un ancien poème elfe.</French>
+		<German>Hier gibt es kein Zeichen unserer Anwesenheit, welches der Feind sieht. [NEWLINE]Nur das Flüstern der Blätter im Schatten der Bäume. - Auszug aus einem alten, elfischen Gedicht</German>
+		<Italian>There's no sign of us here that our enemy sees[NEWLINE]Only whispering leaves in the shade of the trees-Excerpt from ancient elven poem.</Italian>
+		<Spanish>There's no sign of us here that our enemy sees[NEWLINE]Only whispering leaves in the shade of the trees-Excerpt from ancient elven poem.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HONOR</Tag>
+		<English>Honor</English>
+		<French>Honneur</French>
+		<German>Ehre</German>
+		<Italian>Honor</Italian>
+		<Spanish>Honor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HONOR_QUOTE</Tag>
+		<English>What separates us from them? Honor. We have it, they do not. And without it, even if they win, they will lose in the end. For a victory without honor is like a well without water-empty, and useless. Honor is the mortar that binds friends and the foundation upon which to build a future. Men who fight dishonorably are building their empire on sand.[NEWLINE][BOLD]Caradel Bluestride, Order Commander, speech before the last stand of the Divine Company.</English>
+		<French>Qu'est-ce qui nous sépare d'eux ? L'honneur. Nous l'avons, pas eux. Et sans cela, même s'ils gagnent, ils finirons par perdre. Une victoire sans honneur est comme un puit sans eau - vide, et inutile. L'honneur est le mortier qui attache les amis et les fondations sur lesquelles construire un avenir. Les hommes qui luttent de manière déshonorante construisent leur empire sur le sable.[NEWLINE][BOLD]Caradel Bluestride, Commandant de l'Ordre, discours avant la dernière résistance de la Compagnie Divine.</French>
+		<German>Was unterscheidet uns von ihnen? Ehre. Wir haben sie, sie nicht. Und ohne sie, selbst wenn unsere Feinde gewinnen, werden sie am Ende verlieren. Ein Sieg ohne Ehre ist wie eine Welle ohne Wasser, leer und nutzlos. Ehre ist der Mörtel, der Freundschaften zusammenhält und auf dem die Zukunft ihr Fundament findet. Männer, die unehrenhaft kämpfen, bauen ihr Reich auf Sand. - Caradel Blauschritt, Feldherr der Weisung, Rede vor dem letzten Gefecht der Göttlichen Kompanie</German>
+		<Italian>What separates us from them? Honor. We have it, they do not. And without it, even if they win, they will lose in the end. For a victory without honor is like a well without water-empty, and useless. Honor is the mortar that binds friends and the foundation upon which to build a future. Men who fight dishonorably are building their empire on sand.-Caradel Bluestride, Order Commander, speech before the last stand of the Divine Company.</Italian>
+		<Spanish>What separates us from them? Honor. We have it, they do not. And without it, even if they win, they will lose in the end. For a victory without honor is like a well without water-empty, and useless. Honor is the mortar that binds friends and the foundation upon which to build a future. Men who fight dishonorably are building their empire on sand.-Caradel Bluestride, Order Commander, speech before the last stand of the Divine Company.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORSEBACK_RIDING</Tag>
+		<English>Horseback Riding</English>
+		<French>
+			<Text>Équitation</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Reiterei</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Equitazione</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Equitaci&#243;n</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HORSEBACK_RIDING_QUOTE</Tag>
+		<English>He imagines himself beyond the grasp of men, but we are faster than the storms.  Though the tribes have ever been scattered we will be united by this betrayal and drown him in a symphony of stampeding hooves.[NEWLINE][BOLD]Rhoanna</English>
+		<French>Il s'imagine être hors d'atteinte des hommes, mais nous sommes plus rapides que les tempêtes. Meme si les tribus ont toujours été dispersées, cette trahison nous unira et nous le noierons sous une déferlante de sabots rugissants.[NEWLINE][BOLD]Rhoanna</French>
+		<German>Er meinte er wäre vor dem Zugriff der Menschen sicher, aber wir sind schneller als die Stürme. Obwohl die Stämme schon immer zerstreut und uneins waren, werden wir ihn durch diesen Verrat geeint, in einer Woge wild trampelnder Hufe ertrinken. - Rhoanna</German>
+		<Italian>He imagines himself beyond the grasp of men, but we are faster than the storms. Though the tribes have ever been scattered we will be united by this betrayal and drown him in a symphony of stampeding hooves.-Rhoanna</Italian>
+		<Spanish>He imagines himself beyond the grasp of men, but we are faster than the storms. Though the tribes have ever been scattered we will be united by this betrayal and drown him in a symphony of stampeding hooves.-Rhoanna</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_HUNTING_QUOTE</Tag>
+		<English>Man is the most impressive of predators, for Nature saw fit to give him no advantages. He had to fashion his own fangs, carve his own claws. And now even the greatest of the beasts fear him.[NEWLINE][BOLD]Doras Kelt, Ranger</English>
+		<French>L'homme est le plus impressionnant des prédateurs, pourtant la nature ne lui a accordé aucun avantage. Il a du former ses propres crocs, tailler ses propres griffes. Et maintenant même la plus puissante des bêtes le redoute.[NEWLINE][BOLD]Doras Kelt, Rôdeur</French>
+		<German>Der Mensch ist das beeindruckenste aller Raubtiere, obwohl die Natur sich bemühte, ihm keinerlei Vorteile zu verschaffen. Er musste sich seine eigenen Reißzähne entwerfen, und sich seine eigenen Klauen schleifen und schnitzen. Und nun fürchten ihn selbst die größten Bestien. - Doras Kelt, Waldläufer</German>
+		<Italian>Man is the most impressive of predators, for Nature saw fit to give him no advantages. He had to fashion his own fangs, carve his own claws. And now even the greatest of the beasts fear him.-Doras Kelt, Ranger</Italian>
+		<Spanish>Man is the most impressive of predators, for Nature saw fit to give him no advantages. He had to fashion his own fangs, carve his own claws. And now even the greatest of the beasts fear him.-Doras Kelt, Ranger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_INFERNAL_PACT</Tag>
+		<English>Infernal Pact</English>
+		<French>Pacte Infernal</French>
+		<German>Höllischer Pakt</German>
+		<Italian>Infernal Pact</Italian>
+		<Spanish>Infernal Pact</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_INFERNAL_PACT_QUOTE</Tag>
+		<English>I pledge my body, to gain your strength; I pledge my mind, to gain your insight; I pledge my heart, to gain your devotion; I pledge my soul, to gain your obedience.[NEWLINE][BOLD]The Grimoire of Summoning, Second Ritual</English>
+		<French>J'offre mon corps en échange de votre force[NEWLINE]J'offre mon esprit en échange de votre perspicacité[NEWLINE]J'offre mon c&#156;ur en échange de votre dévotion[NEWLINE]J'offre mon âme en échange de votre obéissance.[NEWLINE][BOLD]Le Grimoire des Évocations, Second Rituel</French>
+		<German>Ich verpfände meinen Körper, um deine Stärke zu erlangen; ich verpfände meinen Geist, um deine Weitsicht zu bekommen; ich verpfände mein Herz, um deine Hingabe zu besitzen; ich verkaufe meine Seele, um mir deinen Gehorsam zu sichern. - Das Zauberbuch der Herbeirufung, Zweites Ritual</German>
+		<Italian>I pledge my body, to gain your strength; I pledge my mind, to gain your insight; I pledge my heart, to gain your devotion; I pledge my soul, to gain your obedience.-The Grimoire of Summoning, Second Ritual</Italian>
+		<Spanish>I pledge my body, to gain your strength; I pledge my mind, to gain your insight; I pledge my heart, to gain your devotion; I pledge my soul, to gain your obedience.-The Grimoire of Summoning, Second Ritual</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_IRON_WORKING_QUOTE</Tag>
+		<English>We cannot breed more than the orcs, or learn more than the Amurites. If we are to survive this age we must do so with muscle and iron[NEWLINE][BOLD]Lucian</English>
+		<French>We cannot breed more than the orcs, or learn more than the Amurites. If we are to survive this age we must do so with muscle and iron.[NEWLINE][BOLD]Lucian</French>
+		<German>We cannot breed more than the orcs, or learn more than the Amurites. If we are to survive this age we must do so with muscle and iron.[NEWLINE][BOLD]Lucian</German>
+		<Italian>We cannot breed more than the orcs, or learn more than the Amurites. If we are to survive this age we must do so with muscle and iron.[NEWLINE][BOLD]Lucian</Italian>
+		<Spanish>We cannot breed more than the orcs, or learn more than the Amurites. If we are to survive this age we must do so with muscle and iron.[NEWLINE][BOLD]Lucian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KNOWLEDGE_OF_THE_ETHER</Tag>
+		<English>Knowledge of the Ether</English>
+		<French>Connaissance de l'Éther</French>
+		<German>Kenntnis vom Äther</German>
+		<Italian>Knowledge of the Ether</Italian>
+		<Spanish>Knowledge of the Ether</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_KNOWLEDGE_OF_THE_ETHER_QUOTE</Tag>
+		<English>I'm telling you, this is the opportunity we've been seeking for decades! Soon, we will be able to escape the boundaries of the material world. Don't you see? There is power there, power beyond your dreams, and that power could be ours, if we were but willing to take the smallest of risks. Surely the council can approve of my proposition?[NEWLINE][BOLD]Arean Sethrail, Mage Elder</English>
+		<French>Je vous le dis, c'est l'opportunité que vous avons recherché pendant des décennies ! Nous serons bientôt capables de nous affranchir du monde matériel. Ne le voyez-vous pas ? Le pouvoir est là, un pouvoir au-delà de vos rêves, et ce pouvoir pourrait être le nôtre, si seulement nous étions disposés à prendre des risques minimes. Le conseil peut bien valider ma proposition, non ?[NEWLINE][BOLD]Arean Sethrail, Doyen des Mages</French>
+		<German>Ich sage euch, das ist die Gelegenheit, auf die wir all die Jahrzehnte lang gewartet haben! Bald werden wir in der Lage sein, den Grenzen dieser irdischen Welt zu entfliehen. Versteht ihr denn nicht? Dort gibt es Macht, Macht jenseits all eurer Träume! Und diese Macht könnte unser sein, wenn wir nur gewillt wären, ein winziges Risiko einzugehen. Der Rat kann solch eine Möglichkeit doch nicht unbeachtet lassen, oder? - Arean Sethrail, Ranghoher Magier</German>
+		<Italian>I'm telling you, this is the opportunity we've been seeking for decades! Soon, we will be able to escape the boundaries of the material world. Don't you see? There is power there, power beyond your dreams, and that power could be ours, if we were but willing to take the smallest of risks. Surely the council can approve of my proposition?-Arean Sethrail, Mage Elder</Italian>
+		<Spanish>I'm telling you, this is the opportunity we've been seeking for decades! Soon, we will be able to escape the boundaries of the material world. Don't you see? There is power there, power beyond your dreams, and that power could be ours, if we were but willing to take the smallest of risks. Surely the council can approve of my proposition?-Arean Sethrail, Mage Elder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MACHINERY</Tag>
+		<English>Machinery</English>
+		<French>Mécanique</French>
+		<German>Maschinenbau</German>
+		<Italian>Machinery</Italian>
+		<Spanish>Machinery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MACHINERY_QUOTE</Tag>
+		<English>Feel the current carrying our boat, and observe the wind filling our sails. Imagine if we were to harness their power, not merely for sailing, but for all manner of labor. The wind does not need food or payment, and water never gets tired or worn out. Ah, but this is folly... only a mage could do such, and what do they know about physical labor?[NEWLINE][BOLD]Reaghar Yor, Fisherman</English>
+		<French>Sentez le courant portant notre bateau, et observez le vent gonflant nos voiles. Imaginez si nous pouvions exploiter leur force, pas uniquement pour la navigation, mais pour toutes sortes de travail. Le vent n'a pas besoin de nourriture ou de paiement, et l'eau n'est jamais fatiguée ou épuisée. Ah, mais c'est la folie... seul un mage pourrait réaliser cela, et que connaissent-ils au travail manuel ?[NEWLINE][BOLD]Reaghar Yor, Pêcheur</French>
+		<German>Fühle, wie die Strömung unser Boot trägt und beobachte den Wind, wie er unsere Segel füllt. Stell dir vor, wie es wäre, wenn wir ihre Kraft nicht nur fürs Segeln, sondern für alle Arten der Arbeit nutzen würden. Der Wind braucht weder Essen noch Bezahlung und das Wasser ist niemals müde oder erschöpft. Ah, doch das ist töricht… Allein ein Magier wäre zu so etwas fähig und was wissen die schon über körperliche Arbeit? - Reaghar Yor, Fischer</German>
+		<Italian>Feel the current carrying our boat, and observe the wind filling our sails. Imagine if we were to harness their power, not merely for sailing, but for all manner of labor. The wind does not need food or payment, and water never gets tired or worn out. Ah, but this is folly... only a mage could do such, and what do they know about physical labor?-Reaghar Yor, Fisherman</Italian>
+		<Spanish>Feel the current carrying our boat, and observe the wind filling our sails. Imagine if we were to harness their power, not merely for sailing, but for all manner of labor. The wind does not need food or payment, and water never gets tired or worn out. Ah, but this is folly... only a mage could do such, and what do they know about physical labor?-Reaghar Yor, Fisherman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MALEVOLENT_DESIGNS</Tag>
+		<English>Malevolent Designs</English>
+		<French>Desseins Malveillants</French>
+		<German>Dämonenentwürfe</German>
+		<Italian>Malevolent Designs</Italian>
+		<Spanish>Malevolent Designs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MALEVOLENT_DESIGNS_QUOTE</Tag>
+		<English>Cruelty is the prime virtue. Nothing else-not honor, not compassion, not purity of mind, not valor-will inspire an equal amount of respect in your underlings. Granted, it will be respect tinged with fear, but is there really any better kind?[NEWLINE][BOLD]Gheroz Haan, Ashen Batliare</English>
+		<French>La cruauté est la première des vertus. Rien d'autre - ni l'honneur, ni la compassion, ni la pureté de l'esprit, ni la valeur - n'inspirera autant de respect chez vos sujets. Certes ce sera un respect teinté de peur, mais y'a-t-il quelque chose de mieux ?[NEWLINE][BOLD]Gheroz Haan, Batliare du Voile Cendreux</French>
+		<German>Grausamkeit ist die mächtigste Tugend von allen. Nichts anderes, weder die Ehre, noch das Mitgefühl, weder die Reinheit des Geistes, noch der Heldenmut werden euren Untertanen einen derartigen Respekt vor euch einflößen. Zugegeben, es wird ein Respekt sein gefärbt in den Farben der Furcht sein. Aber gibt es wirklich etwas Wirksameres als die Furcht? - Gheroz Haan, Aschfahlener Batliar</German>
+		<Italian>Cruelty is the prime virtue. Nothing else-not honor, not compassion, not purity of mind, not valor-will inspire an equal amount of respect in your underlings. Granted, it will be respect tinged with fear, but is there really any better kind?-Gheroz Haan, Ashen Batliare</Italian>
+		<Spanish>Cruelty is the prime virtue. Nothing else-not honor, not compassion, not purity of mind, not valor-will inspire an equal amount of respect in your underlings. Granted, it will be respect tinged with fear, but is there really any better kind?-Gheroz Haan, Ashen Batliare</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MASONRY_QUOTE</Tag>
+		<English>Even the grandest of castles is basically just a large pile o' bricks stuck together.[NEWLINE][BOLD]Goglum, Jester</English>
+		<French>Même le plus grand des châteaux n'est rien de plus qu'un grand tas de briques collées ensemble.[NEWLINE][BOLD]Goglum, Bouffon</French>
+		<German>Selbst die größte Burg ist an sich nichts weiter als ein großer Haufen befestigter Steine. - Goglum, Hofnarr</German>
+		<Italian>Even the grandest of castles is basically just a large pile o' bricks stuck together.-Goglum, Jester</Italian>
+		<Spanish>Even the grandest of castles is basically just a large pile o' bricks stuck together.-Goglum, Jester</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MATHEMATICS_QUOTE</Tag>
+		<English>As we seek to understand the world around us, the basic need for a system to order and categorize becomes evident. Our minds demand that we gaze openly at the world around us, looking right past its superficial qualities, to recognize the shapes and quantities everything consists of.[NEWLINE][BOLD]Hydal Mons, Theoretical Alchemist</English>
+		<French>Tandis que nous cherchons à comprendre le monde qui nous entoure, le besoin élémentaire d'un système pour ordonner et catégoriser devient évident. Nos esprits demandent que nous observions ouvertement le monde alentour, en regardant juste qu-delà de ses qualités superficielles, afin reconnaître les formes et les quantités dont tout se compose.[NEWLINE][BOLD]Hydal Mons, Théoricien Alchimiste</French>
+		<German>Da es uns danach dürstet, die Welt um uns herum zu verstehen, wird die grundsätzliche Notwenigkeit eines Systems, nach welchem wir ordnen und kategorisieren können, offensichtlich. Unser Verstand verlangt von uns, dass wir die Welt ums uns herum mit offenen Augen betrachten. Wir müssen durch ihre oberflächlichen Beschaffenheiten hindurch sehen, um die Formen und Quantitäten zu erkennen, aus welchen sich alles zusammensetzt. - Hydal Mons, Alchemist der Theorien</German>
+		<Italian>As we seek to understand the world around us, the basic need for a system to order and categorize becomes evident. Our minds demand that we gaze openly at the world around us, looking right past its superficial qualities, to recognize the shapes and quantities everything consists of.-Hydal Mons, Theoretical Alchemist</Italian>
+		<Spanish>As we seek to understand the world around us, the basic need for a system to order and categorize becomes evident. Our minds demand that we gaze openly at the world around us, looking right past its superficial qualities, to recognize the shapes and quantities everything consists of.-Hydal Mons, Theoretical Alchemist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MEDICINE_QUOTE</Tag>
+		<English>As Nature gives, so Nature takes away. But with a little skill and herblore, it is possible to use the gifts of Nature to prevent it from taking away, thus shifting the balance in our favor.[NEWLINE][BOLD]Renya Seen, Herbalist</English>
+		<French>La Nature donne, et la Nature reprend. Mais avec un peu de compétence et en connaissant les simples, il est possible d'utiliser les cadeaux de la Nature pour l'empêcher de reprendre, penchant ainsi la balance en notre faveur.[NEWLINE][BOLD]Renya Seen, Herboriste</French>
+		<German>So wie die Natur gibt, so nimmt sie auch. Aber durch ein wenig Geschick und Kräuterkunde ist es möglich, die Gaben der Natur gegen sie zu benutzen und das Nehmen zu verhindern. So verschieben wir die Balance zu unseren Gunsten. - Renya Sehen, Heilerin</German>
+		<Italian>As Nature gives, so Nature takes away. But with a little skill and herblore, it is possible to use the gifts of Nature to prevent it from taking away, thus shifting the balance in our favor.-Renya Seen, Herbalist</Italian>
+		<Spanish>As Nature gives, so Nature takes away. But with a little skill and herblore, it is possible to use the gifts of Nature to prevent it from taking away, thus shifting the balance in our favor.-Renya Seen, Herbalist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MERCANTILISM</Tag>
+		<English>Mercantilism</English>
+		<French>Mercantilisme</French>
+		<German>Merkantilismus</German>
+		<Italian>Mercantilism</Italian>
+		<Spanish>Mercantilism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MERCANTILISM_QUOTE</Tag>
+		<English>The protection of our national wealth demands that we restrict our trading, so as to prevent other nations from profiting from the work our faithful citizens have done. Any foreign power is a potential adversary, a vicious predator probing for weaknesses and biding its time. To hand it weapons and tools is to invite disaster.[NEWLINE][BOLD]Arian Kothrax, High Councillor</English>
+		<French>La protection de notre richesse nationale requiert que nous restreignions notre commerce, afin d'empêcher d'autres nations de tirer profit du travail que nos fidèles citoyens ont réalisé. N'importe quel pouvoir étranger est un adversaire potentiel, un prédateur malfaisant sondant les faiblesses et attendant son heure. Lui donner armes et instruments c'est inviter le malheur.[NEWLINE][BOLD]Arian Kothrax, Haut Conseiller</French>
+		<German>Zum Schutz des Wohlstands unseres Landes müssen wir den Handel einschränken, sodass keine andere Nation von der Arbeit unserer getreuen Bürger profitieren kann.  Jede ausländische Macht ist eine potentielle Gefahr, ein bösartiges Raubtier auf der Suche nach Schwäche und bereit zum Sprung. Es auch noch anzuspornen und in diesem Bestreben zu fördern würde nur eins bedeuten: Ein Desaster. - Arian Kothrax, Mitglied des Hohen Rates</German>
+		<Italian>The protection of our national wealth demands that we restrict our trading, so as to prevent other nations from profiting from the work our faithful citizens have done. Any foreign power is a potential adversary, a vicious predator probing for weaknesses and biding its time. To hand it weapons and tools is to invite disaster.-Arian Kothrax, High Councillor</Italian>
+		<Spanish>The protection of our national wealth demands that we restrict our trading, so as to prevent other nations from profiting from the work our faithful citizens have done. Any foreign power is a potential adversary, a vicious predator probing for weaknesses and biding its time. To hand it weapons and tools is to invite disaster.-Arian Kothrax, High Councillor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MESSAGE_FROM_THE_DEEP</Tag>
+		<English>Message from the Deep</English>
+		<French>Message des Abysses</French>
+		<German>Ruf aus der Tiefe</German>
+		<Italian>Message from the Deep</Italian>
+		<Spanish>Message from the Deep</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MESSAGE_FROM_THE_DEEP_QUOTE</Tag>
+		<English>I was adjusting the mainsail, getting ready to head home after a long day at sea, when suddenly I felt it. A terrible presence situated thousands of feet beneath us. I thought I was going mad, until I saw my expression mirrored on the faces of my crew. Something was down there, and had I known then what it was, I'd have headed for the shore and never sailed out again.[NEWLINE][BOLD]Reaghar Yor, Fisherman</English>
+		<French>Je bordais la grand-voile, m'apprêtant à rentrer à la maison après un long jour en mer, quand subitement je l'ai senti. Une présence terrible située des milliers de pieds au-dessous de nous. J'ai cru que je devenais fou, jusqu'à ce que je voie mon expression reflétée sur les visages de mon équipage. Quelque chose était au fond, et aurais-je su ce que c'était, je me serais dirigé vers la côte et je n'aurais jamais plus navigué.[NEWLINE][BOLD]Reaghar Yor, Pêcheur</French>
+		<German>Ich war gerade dabei das Hauptsegel zu richten, um dann nach einem langen Tag auf See endlich Heim kehren zu können, als ich es plötzlich spürte. Eine Furcht einflößende Präsenz, Tausende von Metern unter uns. Ich dachte, ich wäre verrückt geworden, bis ich sah, wie sich meine Empfindungen auf den Gesichtern meiner Mannschaft widerspiegelten. Etwas war dort unten und hätte ich damals gewusst, was es war, hätte ich nicht nur unverzüglich aufs Festland zu gesteuert, sondern ich wäre auch nieder zurückgekehrt. - Reaghar Yor, Fischer</German>
+		<Italian>I was adjusting the mainsail, getting ready to head home after a long day at sea, when suddenly I felt it. A terrible presence situated thousands of feet beneath us. I thought I was going mad, until I saw my expression mirrored on the faces of my crew. Something was down there, and had I known then what it was, I'd have headed for the shore and never sailed out again.-Reaghar Yor, Fisherman</Italian>
+		<Spanish>I was adjusting the mainsail, getting ready to head home after a long day at sea, when suddenly I felt it. A terrible presence situated thousands of feet beneath us. I thought I was going mad, until I saw my expression mirrored on the faces of my crew. Something was down there, and had I known then what it was, I'd have headed for the shore and never sailed out again.-Reaghar Yor, Fisherman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MILITARY_STRATEGY</Tag>
+		<English>Military Strategy</English>
+		<French>Stratégie Militaire</French>
+		<German>Kriegstaktik</German>
+		<Italian>Military Strategy</Italian>
+		<Spanish>Military Strategy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MILITARY_STRATEGY_QUOTE</Tag>
+		<English>War is sweet to those who do not know it.[NEWLINE][BOLD]Tethira, Bannor General</English>
+		<French>La guerre est plaisante pour qui ne l'a jamais vécue.[NEWLINE][BOLD]Tethira, générale bannorienne</French><!-- Citation poète Pindare/Erasmus -->
+		<German>"Zum Krieg fühlen sich nur jene hingezogen, die ihn nicht kennen." - Tethira, bannorischer General</German>
+		<Italian>War is sweet to those who do not know it.-Tethira, Bannor General</Italian>
+		<Spanish>War is sweet to those who do not know it.-Tethira, Bannor General</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MIND_STAPLING</Tag>
+		<English>Mind Stapling</English>
+		<French>Asservissement de l'Esprit</French>
+		<German>Knechtung des Geistes</German>
+		<Italian>Mind Stapling</Italian>
+		<Spanish>Mind Stapling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MIND_STAPLING_QUOTE</Tag>
+		<English>Freedom of religion, freedom of speech and freedom to protest one's government. All are meaningless without freedom of thought.[NEWLINE][BOLD]Sayrin Nures, Speaker of the Tide</English>
+		<French>Freedom of religion, freedom of speech and freedom to protest one's government. All are meaningless without freedom of thought.[NEWLINE][BOLD]Sayrin Nures, Speaker of the Tide</French>
+		<German>Freiheit der Religion, Freiheit der Rede und Freiheit zum Protest gegen die Regierung. Alle diese Freiheiten sind bedeutungslos ohne die Freiheit der Gedanken. - Sayrin Nures, Sprecherin der Gezeiten</German>
+		<Italian>Freedom of religion, freedom of speech and freedom to protest one's government. All are meaningless without freedom of thought.-Sayrin Nures, Speaker of the Tide</Italian>
+		<Spanish>Freedom of religion, freedom of speech and freedom to protest one's government. All are meaningless without freedom of thought.-Sayrin Nures, Speaker of the Tide</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MINING_QUOTE</Tag><!-- Technologie existant déjà dans civ4, seule la citation est modifiée -->
+		<English>The blessings of the earth are holy gifts from Kilmorph, and it is not only our privilege, but also our sacred duty, to seek these blessings, remove them from their rocky confines, and use them to improve our lives.[NEWLINE][BOLD]Osmand Rockspittle, Mining Supervisor</English>
+		<French>Les bienfaits de la terre sont les cadeaux sacrés de Kilmorph, et ce n'est pas seulement notre chance, mais également notre devoir sacré que de chercher ces bienfaits, de les extraire de leurs prisons de pierre et de les utiliser pour améliorer nos vies.[NEWLINE][BOLD]Osmand Rockspittle, Contre-Maître Mineur</French>
+		<German>Die Segen der Erde sind heilige Gaben von Kilmorph und es ist nicht nur unser Privileg, sondern auch unsere heilige Pflicht, nach jenen Gaben zu suchen, sie von ihrer steinernen Hülle zu befreien und sie zur Verbesserung unseres Lebens einzusetzen. - Osmand Steinspalter, Minenaufseher</German>
+		<Italian>The blessings of the earth are holy gifts from Kilmorph, and it is not only our privilege, but also our sacred duty, to seek these blessings, remove them from their rocky confines, and use them to improve our lives.-Osmand Rockspittle, Mining Supervisor</Italian>
+		<Spanish>The blessings of the earth are holy gifts from Kilmorph, and it is not only our privilege, but also our sacred duty, to seek these blessings, remove them from their rocky confines, and use them to improve our lives.-Osmand Rockspittle, Mining Supervisor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MITHRIL_WEAPONS</Tag>
+		<English>Mithril Weapons</English>
+		<French>Armes de Mithril</French>
+		<German>Mithrilwaffen</German>
+		<Italian>Mithril Weapons</Italian>
+		<Spanish>Mithril Weapons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MITHRIL_WEAPONS_QUOTE</Tag>
+		<English>It has been widely accepted as fact that the pen is mightier than the sword. With our new mithril blades, I think it just might be time to revise that statement.[NEWLINE][BOLD]Bambur, Dwarven Blacksmith</English>
+		<French>Il est couramment admis que la plume est plus forte que l'épée. Avec nos nouvelles lames en mithril, je pense que le moment est venu de corriger ce proverbe.[NEWLINE][BOLD]Bambur, Forgeron Nain</French>
+		<German>Es ist wurde weithin als Tatsache akzeptiert, dass die Feder mächtiger ist, als das Schwert. Mit unseren neuen Mithrilschwertern scheint es an der Zeit zu sein, diese Aussage zu revidieren. - Bambur, Zwergenschmied</German>
+		<Italian>It has been widely accepted as fact that the pen is mightier than the sword. With our new mithril blades, I think it just might be time to revise that statement.-Bambur, Dwarven Blacksmith</Italian>
+		<Spanish>It has been widely accepted as fact that the pen is mightier than the sword. With our new mithril blades, I think it just might be time to revise that statement.-Bambur, Dwarven Blacksmith</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MITHRIL_WORKING</Tag>
+		<English>Mithril Working</English>
+		<French>Travail du Mithril</French>
+		<German>Mithrilverarbeitung</German>
+		<Italian>Mithril Working</Italian>
+		<Spanish>Mithril Working</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MITHRIL_WORKING_QUOTE</Tag>
+		<English>I remember when we first stumbled upon it. At first I mistook it for silver, but then I let my lantern shine upon it. Never before had I seen such beauty, and I mouthed a silent prayer of thanks to Kilmorph. I stood there stunned for a moment, not daring to use my pick on this wondrous material. Then a sudden shaft of light illuminated the mine wall, coming from a hole in the ceiling. I then knew I had Kilmorph's blessing, and with infinite care I began to reap this mythical harvest.[NEWLINE][BOLD]Osmand Rockspittle, Mining Supervisor</English>
+		<French>Je me souviens quand nous trébuchâmes dessus. Au début, je le confondis avec de l'argent, jusqu'à ce que ma lanterne luisit dessus. Jamais auparavant n'avait je n'eusses vu une telle beauté et j'articula une grâce silencieuse à Kilmorph. Je reste groguis un moment, n'osant pas à recours à mon pic sur cette merveilleuse matière. Soudainement, un puits de lumière éclaira le mur de la mine, venant d'un trou dans le plafond. Je sus alors que j'avais la bénédiction Kilmorph et avec un soin infini, je commença à moissonner cette récolte mythique.[NEWLINE][BOLD]Osmand Roche</French>
+		<German>Ich erinnere mich noch, als wir zum ersten Mal darauf gestoßen waren. Zu erst glaubte ich, es sei Silber, doch dann berührte es der Schein meiner Laterne. Nie zuvor hatte ich so etwas Wundervolles erblickt und stumm ersann ich ein Gebet des Dankes an Kilmorph. Für einen Moment stand ich dort, erstarrt vor Ehrfurcht und wagte es nicht, meine Hacke an dieses erstaunliche Material anzulegen. Plötzlich drang von einem Loch in der Decke her eine Welle des Lichtes auf mich und die Mienenwände ein. Nun wusste ich, dass ich Kilmorphs Segen hatte. Und mit unendlicher Sorgfalt begann ich diese mystische Ernte einzubringen. - Osmand Steinspalter, Minenaufseher</German>
+		<Italian>I remember when we first stumbled upon it. At first I mistook it for silver, but then I let my lantern shine upon it. Never before had I seen such beauty, and I mouthed a silent prayer of thanks to Kilmorph. I stood there stunned for a moment, not daring to use my pick on this wondrous material. Then a sudden shaft of light illuminated the mine wall, coming from a hole in the ceiling. I then knew I had Kilmorph's blessing, and with infinite care I began to reap this mythical harvest.-Osmand Rockspittle, Mining Supervisor</Italian>
+		<Spanish>I remember when we first stumbled upon it. At first I mistook it for silver, but then I let my lantern shine upon it. Never before had I seen such beauty, and I mouthed a silent prayer of thanks to Kilmorph. I stood there stunned for a moment, not daring to use my pick on this wondrous material. Then a sudden shaft of light illuminated the mine wall, coming from a hole in the ceiling. I then knew I had Kilmorph's blessing, and with infinite care I began to reap this mythical harvest.-Osmand Rockspittle, Mining Supervisor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_MYSTICISM_QUOTE</Tag>
+		<English>Even in the distant past, before the Gods had revealed their divine presence to us, we still felt an unidentifiable longing, a yearning for some greater purpose, and some guidelines for our existence. Even then, a part of us must have known.[NEWLINE][BOLD]Jobin Seras, Scholar</English>
+		<French>Même à l'aube de l'humanité, bien avant que les Dieux nous aient révélé leur divine présence, nous avions ce sentiment d'envie inidentifiable, le désir d'un but absolu, de directives pour notre existence. Même à ce moment, quelque chose en nous devait savoir.[NEWLINE][BOLD]Jobin Seras, Érudit</French>
+		<German>Selbst in der fernen Vergangenheit, bevor die Götter uns ihre göttliche Präsenz enthüllt hatten, fühlten wir ein unerklärliches Verlangen, eine Sehnsucht nach einem größeren Ziel, und nach irgendeinem Leitfaden für unsere Existenz. Selbst damals muss es ein Teil von uns gewusst haben. - Jobin Seras, Gelehrter</German>
+		<Italian>Even in the distant past, before the Gods had revealed their divine presence to us, we still felt an unidentifiable longing, a yearning for some greater purpose, and some guidelines for our existence. Even then, a part of us must have known.-Jobin Seras, Scholar</Italian>
+		<Spanish>Even in the distant past, before the Gods had revealed their divine presence to us, we still felt an unidentifiable longing, a yearning for some greater purpose, and some guidelines for our existence. Even then, a part of us must have known.-Jobin Seras, Scholar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NECROMANCY</Tag>
+		<English>Necromancy</English>
+		<French>Nécromancie</French>
+		<German>Lehre der Nekromantie</German>
+		<Italian>Necromancy</Italian>
+		<Spanish>Necromancy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NECROMANCY_QUOTE</Tag>
+		<English>The dead do not weep, but are wept for. Let us see who will weep for me.[NEWLINE][BOLD]Lethe, queen of sorrows</English>
+		<French>Les morts ne se lamentent pas ; ce sont les vivants qui se lamentent pour eux. Voyons ceux qui se lamenteront pour moi.[NEWLINE][BOLD]Lethe, Reine des Pleurs</French>
+		<German>The dead do not weep, but are wept for. Let us see who will weep for me.[NEWLINE][BOLD]Lethe, queen of sorrows</German>
+		<Italian>The dead do not weep, but are wept for. Let us see who will weep for me.-Lethe, queen of sorrows</Italian>
+		<Spanish>The dead do not weep, but are wept for. Let us see who will weep for me.-Lethe, queen of sorrows</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NEVER</Tag>
+		<English>Never</English>
+		<French>Pas pour les joueurs</French>
+		<German>Niemals</German>
+		<Italian>Never</Italian>
+		<Spanish>Never</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NEVER_STRATEGY</Tag>
+		<English>This tech is not available for research. It is used to block any action that players cannot build or perform on their own such as objects that are only given in special situations.</English>
+		<French>Cette technologie ne peut être recherchée. Elle sert à bloquer toute chose que les joueurs ne peuvent pas accomplir par eux-mêmes comme des objets qu'ils ne reçoivent que sous certaines conditions spéciales.</French>
+		<German>Es gibt eine mögliche Rettung für euch. Ein Gott, der möglicherweise bereit ist, euch wieder in seiner Ära willkommen zu heißen. Seid ihr bereit, die Ideologie von drei Zeitaltern für die Chance einzutauschen, eure unsterbliche Seele behalten zu dürfen? Seid ihr gewillt zuzugeben, dass ihr lediglich existiert, den Göttern zu dienen? -- Auric Ulvin</German>
+		<Italian>This tech is not available for research. It is used to block any action that players cannot build or perform on their own such as objects that are only given in special situations.</Italian>
+		<Spanish>This tech is not available for research. It is used to block any action that players cannot build or perform on their own such as objects that are only given in special situations.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_NEVER_QUOTE</Tag>
+		<English>There is a rescue waiting for you. A god who may be willing to accept you back in his ara. Will you trade the ideology of three ages for a chance to retain your immortal soul? Are you willing to admit that you exist only to serve the gods?[NEWLINE][BOLD]Auric Ulvin</English>
+		<French>There is a rescue waiting for you. A god who may be willing to accept you back in his ara. Will you trade the ideology of three ages for a chance to retain your immortal soul? Are you willing to admit that you exist only to serve the gods?[NEWLINE][BOLD]Auric Ulvin</French>
+		<German>Diese Tech kann nicht erforscht werden. Sie wird nur benutzt, um jegliche Aktionen des Spielers zu blockieren, welche er nicht selbst ausführen kann, wie zum Beispiel der Bau von Objekten, welche nur in bestimmten Situationen zur Verfügung stehen.</German>
+		<Italian>There is a rescue waiting for you. A god who may be willing to accept you back in his ara. Will you trade the ideology of three ages for a chance to retain your immortal soul? Are you willing to admit that you exist only to serve the gods?-Auric Ulvin</Italian>
+		<Spanish>There is a rescue waiting for you. A god who may be willing to accept you back in his ara. Will you trade the ideology of three ages for a chance to retain your immortal soul? Are you willing to admit that you exist only to serve the gods?-Auric Ulvin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_OMNISCIENCE</Tag>
+		<English>Omniscience</English>
+		<French>Omniscience</French>
+		<German>Allwissenheit</German>
+		<Italian>Omniscience</Italian>
+		<Spanish>Omniscience</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_OMNISCIENCE_QUOTE</Tag>
+		<English>Do not tell me anything! Needing to know is a sign of weakness, and to reveal ignorance is to expose oneself. If I truly knew everything, I would have no weaknesses, and all would tremble before me.[NEWLINE][BOLD]Arean Sethrail, Mage Elder</English>
+		<French>Ne me dîtes rien ! Chercher à savoir est un signe de faiblesse, et révéler mon ignorance m'expose. Si je connaissais réellement tout, je n'aurais aucun point faible, et tout le monde tremblerait devant moi.[NEWLINE][BOLD]Arean Sethrail, Mage Ancien</French>
+		<German>Erzähle mir Nichts davon! Etwas wissen zu müssen ist ein Zeichen der Schwäche. Wer seine Ignoranz entblößt, entblößt sich selbst. Wenn ich wahrhaftig Alles wüsste, so wäre ich ganz ohne Schwäche und jede auf Erden wandelnde Kreatur würde vor mir erzittern. - Arean Sethrail, Alterwürdiger Magier</German>
+		<Italian>Do not tell me anything! Needing to know is a sign of weakness, and to reveal ignorance is to expose oneself. If I truly knew everything, I would have no weaknesses, and all would tremble before me.-Arean Sethrail, Mage Elder</Italian>
+		<Spanish>Do not tell me anything! Needing to know is a sign of weakness, and to reveal ignorance is to expose oneself. If I truly knew everything, I would have no weaknesses, and all would tremble before me.-Arean Sethrail, Mage Elder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_OPTICS_QUOTE</Tag>
+		<English>Vision is the most exquisite and refined of the senses. Lose it, and you are crippled for life. Enhance it, and you are brought one step closer to the gods.[NEWLINE][BOLD]Heron Jire, Sailor</English>
+		<French>La vue est le plus exquis et le plus raffiné des sens. Perdez-le, et vous êtes handicapé pour le restant de votre vie. Améliorez-le, et vous faites un pas de plus vers les Dieux.[NEWLINE][BOLD]Heron Jire, Navigateur</French>
+		<German>Die Sehkraft ist die exquisiteste und raffinierteste Sinneswahrnehmung, die wir besitzen. Verliere sie und du bist auf ewig verkrüppelt. Verbessere sie und du bist den Göttern ein Stück näher gerückt. - Heron Jire, Segler</German>
+		<Italian>Vision is the most exquisite and refined of the senses. Lose it, and you are crippled for life. Enhance it, and you are brought one step closer to the gods.-Heron Jire, Sailor</Italian>
+		<Spanish>Vision is the most exquisite and refined of the senses. Lose it, and you are crippled for life. Enhance it, and you are brought one step closer to the gods.-Heron Jire, Sailor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ORDERS_FROM_HEAVEN</Tag>
+		<English>Orders from Heaven</English>
+		<French>Ordres des Cieux</French>
+		<German>Weisung des Himmels</German>
+		<Italian>Orders from Heaven</Italian>
+		<Spanish>Orders from Heaven</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_ORDERS_FROM_HEAVEN_QUOTE</Tag>
+		<English>And the Lord did speak unto the warriors, and He did give commands, and He said: "I shall not suffer any to disobey these, my orders. But those who follow them, and heed their words, to those I can promise my protection and favor, they shall be my soldiers, and they shall have their reward at the end of time." Hearing this, the warriors fell to their knees and promised their swords and their lives to the Holy War, and they were born again, and none could stand in their way.[NEWLINE][BOLD]3rd Book of Junil, 1st Chapter, 5th Passage</English>
+		<French>Et le Seigneur s'adressa aux guerriers, et Il donna commandements, et Il dit : "Je ne tolèrerai point désobéissance à mes ordres. Mais ceux qui s'y soumettent et prêtent attention à leurs mots, à ceux-là Je promets ma protection et mes faveurs, ils seront mes soldats et ils auront leur récompense à la fin de temps." Entendant ceci, les guerriers tombèrent à genoux et promirent épées et vies à la Guerre Sainte, alors ils renaquirent et personne ne pu se tenir sur leur chemin[NEWLINE][BOLD]3ème Livre de Junil, 1er Chapitre, 5ème Passage</French>
+		<German>Und der Herr sprach zu den Kriegern und Er gab Befehle und Er sagte: "Ich werde keinen der euren dulden, die meine Gebote missachten. Aber diejenigen, die ihnen folgen und auf seine Worte Acht geben, denen kann ich meinen Schutz und meine Gnade zusichern. Sie sollen meine Soldaten sein und sie sollen ihren Lohn am Ende der Zeit bekommen." Als die Krieger dies hörten, fielen sie auf die Knie und versprachen ihre Schwerter und ihr Leben dem Heiligen Krieg und sie wurden wiedergeboren und Niemand vermochte es, sich ihnen in den Weg zu stellen. - Drittes Buch des Junil, 1. Kapitel, 5. Passage</German>
+		<Italian>And the Lord did speak unto the warriors, and He did give commands, and He said: "I shall not suffer any to disobey these, my orders. But those who follow them, and heed their words, to those I can promise my protection and favor, they shall be my soldiers, and they shall have their reward at the end of time." Hearing this, the warriors fell to their knees and promised their swords and their lives to the Holy War, and they were born again, and none could stand in their way.- 3rd Book of Junil, 1st Chapter, 5th Passage</Italian>
+		<Spanish>And the Lord did speak unto the warriors, and He did give commands, and He said: "I shall not suffer any to disobey these, my orders. But those who follow them, and heed their words, to those I can promise my protection and favor, they shall be my soldiers, and they shall have their reward at the end of time." Hearing this, the warriors fell to their knees and promised their swords and their lives to the Holy War, and they were born again, and none could stand in their way.- 3rd Book of Junil, 1st Chapter, 5th Passage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PASS_THROUGH_THE_ETHER</Tag>
+		<English>Pass Through the Ether</English>
+		<French>Traversée de l'Éther</French>
+		<German>Passagen durch den Äther</German>
+		<Italian>Pass Through the Ether</Italian>
+		<Spanish>Pass Through the Ether</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PASS_THROUGH_THE_ETHER_QUOTE</Tag>
+		<English>The expanse was created to separate you from me, so that you would be forever limited by the weakness of your form and unable to barter the only thing the gods want from you: your soul.[NEWLINE][BOLD]Hastur</English>
+		<French>L'étendue a été créée pour vous séparer de moi. Donc vous seriez pour toujours limités par la faiblesse de votre forme et incapable de troquer la seule chose que les Dieux veulent de vous, votre âme.[NEWLINE][BOLD]Hastur</French>
+		<German>Die Weite der Welt wurde geschaffen, um dich von mir zu trennen. Damit du für immer ein Knecht deiner eigenen Schwächen sein würdest und niemals in der Lage wärst, das einzige zu verschachern, was die Götter von dir verlangen: Deine Seele. - Hastur</German>
+		<Italian>The expanse was created to separate you from me, so that you would be forever limited by the weakness of your form and unable to barter the only thing the gods want from you: your soul.-Hastur</Italian>
+		<Spanish>The expanse was created to separate you from me, so that you would be forever limited by the weakness of your form and unable to barter the only thing the gods want from you: your soul.-Hastur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PHILOSOPHY_QUOTE</Tag>
+		<English>My study of philosophy has often been deemed frivolous. "Philosophy!" they will snort. "Each answer yields only more questions!" And yet a single answer and a dozen questions is better than none of either.[NEWLINE][BOLD]Jobin Seras, Scholar</English>
+		<French>Mon étude de la philosophie a souvent été jugée frivole. "Philosophie !" grognaient-ils. "Chaque réponse produit seulement plus de questions !" Et encore, une réponse simple et une douzaine de questions sont mieux que rien du tout.[NEWLINE][BOLD]Jobin Seras, Erudit</French>
+		<German>Mein Studium der Philosophie wurde oft als frivol erachtet. "Philosophie!" schnaufen sie. "Jede Antwort bringt nur neue Fragen!" Und dennoch ist eine einzelne Antwort und ein Dutzend Fragen besser, als keines von beidem. - Jobin Seras, Gelehrter</German>
+		<Italian>My study of philosophy has often been deemed frivolous. "Philosophy!" they will snort. "Each answer yields only more questions!" And yet a single answer and a dozen questions is better than none of either.-Jobin Seras, Scholar</Italian>
+		<Spanish>My study of philosophy has often been deemed frivolous. "Philosophy!" they will snort. "Each answer yields only more questions!" And yet a single answer and a dozen questions is better than none of either.-Jobin Seras, Scholar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_POISONS</Tag>
+		<English>Poisons</English>
+		<French>Poisons</French>
+		<German>Gifte</German>
+		<Italian>Poisons</Italian>
+		<Spanish>Poisons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_POISONS_QUOTE</Tag>
+		<English>A king may surround himself with loyal guards skilled in battle. He may live in a castle protected by 10 feet of fortified wall, and a moat for good measure. He may never travel outside without half his army accompanying him. He may sleep lightly, and keep hidden weapons under his pillow. He may have wired his castle doors and hallways with cunning and virtually undetectable booby traps. But if he neglects something as simple as employing a food taster, he is mine.[NEWLINE][BOLD]Lahros Moonshade, Assassin.</English>
+		<French>Un roi peut s'entourer de fidèles gardes talentueux en combat. Il peut vivre dans un château protégé par des murs fortifiés de 10 pieds, et de douves pour faire bonne mesure. Il peut ne jamais s'aventurer au dehors sans la moitié de son armée. Il peut dormir légèrement et garder des armes cachées sous son oreiller. Il peut avoir truffé ses portes de château et ses couloirs avec des pièges pratiquement indétectables. Mais s'il néglige quelque chose d'aussi simple qu'employer un goûteur, il est à moi.[NEWLINE][BOLD]Lahros Moonshade, Assassin.</French>
+		<German>Ein König mag sich mit loyalen, im Kampf geschulten Leibgarden umgeben. Er mag in einer Burg leben, geschützt durch 10 Meter befestigter Mauer und einen gut ausgebauten Burggraben. Er mag niemals auf Reisen gehen, ohne dass die Hälfte seiner Armee ihn begleitet. Er mag einen leichten Schlaf haben und Waffen unter seinem Kopfkissen verstecken. Er mag die Gänge und Türen seiner Burg mit Täuschungen und nahezu unaufspürbaren Sprengfallen bestückten. Aber sobald er etwas Simples wie einen Vorkoster vernachlässigt, wird er mein sein. - Lahros Mondschatten, Meuchelmörder</German>
+		<Italian>A king may surround himself with loyal guards skilled in battle. He may live in a castle protected by 10 feet of fortified wall, and a moat for good measure. He may never travel outside without half his army accompanying him. He may sleep lightly, and keep hidden weapons under his pillow. He may have wired his castle doors and hallways with cunning and virtually undetectable booby traps. But if he neglects something as simple as employing a food taster, he is mine.-Lahros Moonshade, Assassin.</Italian>
+		<Spanish>A king may surround himself with loyal guards skilled in battle. He may live in a castle protected by 10 feet of fortified wall, and a moat for good measure. He may never travel outside without half his army accompanying him. He may sleep lightly, and keep hidden weapons under his pillow. He may have wired his castle doors and hallways with cunning and virtually undetectable booby traps. But if he neglects something as simple as employing a food taster, he is mine.-Lahros Moonshade, Assassin.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PRECISION</Tag>
+		<English>Precision</English>
+		<French>Précision</French>
+		<German>Präzision</German>
+		<Italian>Precision</Italian>
+		<Spanish>Precision</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PRECISION_QUOTE</Tag>
+		<English>Children, I bid thee, fly to your friends;[NEWLINE]Swiftly and proudly, the dance never ends.[NEWLINE]One should meet up with the eye for a start,[NEWLINE]And one should be able to reach for the heart.[NEWLINE]One should greet the horse, by way of its neck,[NEWLINE]And one should hail the rider, first to his leg.[NEWLINE]One should carry a great gift to the throat,[NEWLINE]And one seek the page by the side of the road.[NEWLINE]One should be casting its glance at the jaw,[NEWLINE]And the last is set in the first head that it saw.[NEWLINE][BOLD]A Hail of Arrows, Old Elvish Nursery Rhyme</English>
+		<French>Enfants, je vous l'offre, voler vers vos amis[PARAGRAPH:1]Rapidement et fièrement, la danse jamais ne finit[PARAGRAPH:1]D'abord un se porte à la rencontre de l'oeil[PARAGRAPH:1]Et un doit être capable d'atteindre le c&#156;ur[PARAGRAPH:1]Qu'un accueille le cheval, de par son cou[PARAGRAPH:1]Et l'un acclame le cavalier, d'abord à sa jambe[PARAGRAPH:1]Un portera grand cadeau à la gorge[PARAGRAPH:1]Et un cherche le page sur le bord de la route[PARAGRAPH:1]Un devrait porter son regard à la mâchoire[PARAGRAPH:1]Et le dernier mis dans la première tête qu'il vue[NEWLINE][BOLD]Une Grêle de Flèches, Vieille Comptine Elfique</French>
+		<German>Fliegt zu euren Freunden Kinder, nehmt euch auch bei den Händen;[NEWLINE]schnell und stolz wird der Tanz nie enden;[NEWLINE]Den Zeitpunkt für den Anfang sowohl man kennt;[NEWLINE]Das man das Herz erreichen nennt;[NEWLINE]So wird er das Pferd beim Halse packen;[NEWLINE]Andere jubeln ihm zu und sitzen ihm im Nacken;[NEWLINE]Der Hals ist frei für ein bezauberndes Geschenk;[NEWLINE]In der kleinen Gasse fand sich aber nur was für das Handgelenk.[NEWLINE]Er lässt den blick heruntergleiten;[NEWLINE]Das er es sah, er war in Schwierigkeiten - Ein Hagel von Pfeilen, Alter elfischer Kinderreim</German>
+		<Italian>Children, I bid thee, fly to your friends;[NEWLINE]Swiftly and proudly, the dance never ends.[NEWLINE]One should meet up with the eye for a start,[NEWLINE]And one should be able to reach for the heart.[NEWLINE]One should greet the horse, by way of its neck,[NEWLINE]And one should hail the rider, first to his leg.[NEWLINE]One should carry a great gift to the throat,[NEWLINE]And one seek the page by the side of the road.[NEWLINE]One should be casting its glance at the jaw,[NEWLINE]And the last is set in the first head that it saw.-A Hail of Arrows, Old Elvish Nursery Rhyme</Italian>
+		<Spanish>Children, I bid thee, fly to your friends;[NEWLINE]Swiftly and proudly, the dance never ends.[NEWLINE]One should meet up with the eye for a start,[NEWLINE]And one should be able to reach for the heart.[NEWLINE]One should greet the horse, by way of its neck,[NEWLINE]And one should hail the rider, first to his leg.[NEWLINE]One should carry a great gift to the throat,[NEWLINE]And one seek the page by the side of the road.[NEWLINE]One should be casting its glance at the jaw,[NEWLINE]And the last is set in the first head that it saw.-A Hail of Arrows, Old Elvish Nursery Rhyme</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_PRIESTHOOD_QUOTE</Tag>
+		<English>The gods, mighty and powerful as they may be, have always had a need for earthly assistants to facilitate and manage communications between the mundane and the divine. Perhaps it is too great a strain for even the gods to attend to all of their worshippers directly, or perhaps they regard it as fitting to let ordinary people speak to ordinary people, to further trust and understanding. Whatever their reasons, we are stuck with the priests, for all the good they do us...[NEWLINE][BOLD]Jobin Seras, Scholar</English>
+		<French>Les Dieux, forts et puissants comme ils peuvent l'être, avaient toujours un besoin pour les assistants terrestres, afin de faciliter et de diriger les communications entre le mortel et le divin. Peut-être est-ce un trop grand effort même pour les Dieux que de s'occuper directement de tous leurs fidèles, ou peut-être considèrent-ils plus adapté de permettre aux gens ordinaires de parler aux gens ordinaires, pour plus de confiance et de compréhension. Quels que soient leurs raisons, nous sommes coincés avec les prêtres, pour tout le bien qu'ils nous font...[NEWLINE][BOLD]Jobin Seras, Erudit</French>
+		<German>Die Götter, so stark und allmächtig sie auch sein mögen, haben immer die Assistenz der Erdenbewohner benötigt, um die Kommunikation zwischen der irdischen und der göttlichen Welt zu bewerkstelligen und zu fördern. Möglicherweise ist es selbst für sie eine zu große Anstrengungen, sich den Wünschen und Problemen eines jeden Einzelnen ihrer Anhänger direkt zu widmen, oder sie befinden es vielleicht als angebracht, gewöhnliches Volk mit gewöhnlichen Volk sprechen zu lassen, um das Vertrauen und das Verstehen zu vertiefen. Was auch immer ihre Gründe sein mögen, uns bleibt nichts weiter, als die Predigten unserer Priester, so viel Gutes die Götter auch für uns tun... - Jobin Seras, Gelehrter</German>
+		<Italian>The gods, mighty and powerful as they may be, have always had a need for earthly assistants to facilitate and manage communications between the mundane and the divine. Perhaps it is too great a strain for even the gods to attend to all of their worshippers directly, or perhaps they regard it as fitting to let ordinary people speak to ordinary people, to further trust and understanding. Whatever their reasons, we are stuck with the priests, for all the good they do us...-Jobin Seras, Scholar</Italian>
+		<Spanish>The gods, mighty and powerful as they may be, have always had a need for earthly assistants to facilitate and manage communications between the mundane and the divine. Perhaps it is too great a strain for even the gods to attend to all of their worshippers directly, or perhaps they regard it as fitting to let ordinary people speak to ordinary people, to further trust and understanding. Whatever their reasons, we are stuck with the priests, for all the good they do us...-Jobin Seras, Scholar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RAGE</Tag>
+		<English>Rage</English>
+		<French>Fureur</French>
+		<German>Raserei</German>
+		<Italian>Rage</Italian>
+		<Spanish>Rage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RAGE_QUOTE</Tag>
+		<English>When all the artificial layers of sophistication, moral codes, self-restraint, and pride are peeled off us, either by circumstance or through a conscious effort of will, we are naught but ferocious animals, no different from the other inhabitants of the great jungle of life.[NEWLINE][BOLD]Doras Kelt, Ranger</English>
+		<French>Quand toutes les couches artificielles de la sophistication, les codes moraux, l'autodiscipline et la fierté se sont détachées de nous, par la circonstance ou par un effort conscient de volonté, nous ne sommes plus rien d'autres que des animaux féroces, identiques aux autres habitants de la grande jungle de vie.[NEWLINE][BOLD]Doras Kelt, Rôdeur</French>
+		<German>Sobald all die künstlich erzeugten Eigenschaften der Kultiviertheit, des moralischen Anstandes, der Selbstbeherrschung und des Stolzes durch äußere Umstände oder durch den bewussten Einsatz unseres Willens von uns gewaschen wurden, sind wir nichts mehr als wilde Tiere. Dann gibt es zwischen uns und den anderen Bewohnern des großen Dschungels keinen Unterschied mehr. - Doras Kelt, Waldläufer</German>
+		<Italian>When all the artificial layers of sophistication, moral codes, self-restraint, and pride are peeled off us, either by circumstance or through a conscious effort of will, we are naught but ferocious animals, no different from the other inhabitants of the great jungle of life.-Doras Kelt, Ranger</Italian>
+		<Spanish>When all the artificial layers of sophistication, moral codes, self-restraint, and pride are peeled off us, either by circumstance or through a conscious effort of will, we are naught but ferocious animals, no different from the other inhabitants of the great jungle of life.-Doras Kelt, Ranger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RELIGIOUS_LAW</Tag>
+		<English>Religious Law</English>
+		<French>Loi Religieuse</French>
+		<German>Religiöse Ordnung</German>
+		<Italian>Religious Law</Italian>
+		<Spanish>Religious Law</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RELIGIOUS_LAW_QUOTE</Tag>
+		<English>Look, this is very simple. We are inspired by the Holy Writ. We alone can read and interpret it. Therefore: Leave the thinking to us. You do what we say is right. If you do, there will be heavenly reward down the line. If you do not, the Divine One, in the form of me and my helpers here, will smite you. And it will not be pleasant.[NEWLINE][BOLD]Lithelan Bruepol, Holy Arbiter</English>
+		<French>Écoutez, c'est très simple. C'est à Nous que les Saintes Écritures ont insufflé la sagesse. Nous seuls sommes capables de les lire et de les interpréter correctement. Alors déléguez-Nous la tâche de la réflexion et contentez-vous d'agir en accord ave ce que Nous révélons être la bonne voie. Si vous obéissez, il y aura une récompense céleste au bout du compte. Si vous n'obéissez pas, le Créateur, par l'intermédiaire de Notre personne et de Nos assistants que voici, vous châtiera. Et ce sera très déplaisant.[NEWLINE][BOLD]Lithelan Bruepol, Saint-Arbitre</French>
+		<German>Schau, das ist eigentlich ganz einfach. Die Heilige Schrift ist unsere Inspiration. Nur wir allein können sie lesen und interpretieren. Deshalb: Überlass uns das Denken. Du tust, was wir als richtig befinden. Wenn du gehorchst, werden dir die himmlischen Frohlockungen auf ewig sicher sein. Verweigerst du dich, wird der Göttliche, irdisch manifestiert durch mich und meine Gehilfen, dich strafen und peinigen. - Lithelan Bruepol, Heiliger Gebieter</German>
+		<Italian>Look, this is very simple. We are inspired by the Holy Writ. We alone can read and interpret it. Therefore: Leave the thinking to us. You do what we say is right. If you do, there will be heavenly reward down the line. If you do not, the Divine One, in the form of me and my helpers here, will smite you. And it will not be pleasant.-Lithelan Bruepol, Holy Arbiter</Italian>
+		<Spanish>Look, this is very simple. We are inspired by the Holy Writ. We alone can read and interpret it. Therefore: Leave the thinking to us. You do what we say is right. If you do, there will be heavenly reward down the line. If you do not, the Divine One, in the form of me and my helpers here, will smite you. And it will not be pleasant.-Lithelan Bruepol, Holy Arbiter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RIGHTEOUSNESS</Tag>
+		<English>Righteousness</English>
+		<French>Vertu</French>
+		<German>Rechtschaffenheit</German>
+		<Italian>Righteousness</Italian>
+		<Spanish>Righteousness</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_RIGHTEOUSNESS_QUOTE</Tag>
+		<English>The spirit of Nemed is within you, and its voice ever guides toward righteousness.[NEWLINE][BOLD]Gloria Rendrahl, Diviner of the Order</English>
+		<French>L'esprit de Nemed vous habite, et sa voix guide toujours vers la Vertu.[NEWLINE][BOLD]Gloria Rendrahl, Devineresse de l'Ordre</French>
+		<German>Der Geist Nemeds ist mit dir und seine Stimme wird dich immer zur Rechtschaffenheit anleiten. - Gloria Rendrahl, Erleuchtete der Weisung</German>
+		<Italian>The spirit of Nemed is within you, and its voice ever guides toward righteousness.-Gloria Rendrahl, Diviner of the Order</Italian>
+		<Spanish>The spirit of Nemed is within you, and its voice ever guides toward righteousness.-Gloria Rendrahl, Diviner of the Order</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SAILING_QUOTE</Tag>
+		<English>The ocean-she's a dangerous wench. She will give you everything you need...your freedom, your food, your livelihood. But catch her on a bad day, and she will snatch it all back[NEWLINE][BOLD]Reaghar Yor, Fisherman</English>
+		<French>La mer est une dangereuse gigolette. Elle vous donnera tout ce dont vous avez besoin... Votre liberté, vos aliments, vos moyens d'existence. Mais prenez-la un jour mauvais, et elle reprendra tout.[NEWLINE][BOLD]Reaghar Yor, le Pêcheur</French>
+		<German>Der Ozean, ein wahrlich gefährliches Frauenzimmer. Er wird dir alles geben, was du brauchst… deine Freiheit, deine Nahrung, deinen Lebensunterhalt. Aber erwische ihn an einem schlechten Tag und er wird es sich alles zurück rauben - Reaghar Yor, Fischer</German>
+		<Italian>The ocean-she's a dangerous wench. She will give you everything you need...your freedom, your food, your livelihood. But catch her on a bad day, and she will snatch it all back-Reaghar Yor, Fisherman</Italian>
+		<Spanish>The ocean-she's a dangerous wench. She will give you everything you need...your freedom, your food, your livelihood. But catch her on a bad day, and she will snatch it all back-Reaghar Yor, Fisherman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SANITATION</Tag>
+		<English>Sanitation</English>
+		<French>Hygiène</French>
+		<German>Reinigung</German>
+		<Italian>Sanitation</Italian>
+		<Spanish>Sanitation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SANITATION_QUOTE</Tag>
+		<English>According to the clergy, purity of spirit will shield you from all kinds of diseases and hardships. Personally, I believe purity of body might be a bit more crucial in this regard.[NEWLINE][BOLD]Renya Seen, Herbalist</English>
+		<French>D'après le clergé, la pureté d'esprit vous protègera de toutes sortes de maladies et de difficultés. Personnellement, je crois que la pureté du corps est plus cruciale pour cela.[NEWLINE][BOLD]Renya Seen, Herboriste</French>
+		<German>Der Klerus behauptet, dass die Reinheit des Glaubens dich von Krankheiten und Beschwerden aller Art schützen würde. Ich behaupte, dass hierfür die Reinheit des Körpers ein wenig mehr ausschlaggebend sein könnte. - Renya Sehen, Heilerin</German>
+		<Italian>According to the clergy, purity of spirit will shield you from all kinds of diseases and hardships. Personally, I believe purity of body might be a bit more crucial in this regard.-Renya Seen, Herbalist</Italian>
+		<Spanish>According to the clergy, purity of spirit will shield you from all kinds of diseases and hardships. Personally, I believe purity of body might be a bit more crucial in this regard.-Renya Seen, Herbalist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SEAFARING</Tag>
+		<English>Seafaring</English>
+		<French>Navigation</French>
+		<German>Bootsbau</German>
+		<Italian>Seafaring</Italian>
+		<Spanish>Seafaring</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SEAFARING_STRATEGY</Tag>
+		<English>This tech is only available to the Lanun civilization, and it is granted to them for free.</English>
+		<French>Cette technologie n'est disponible que pour les civilisations ayant le trait Navigateur, et elle leur est donnée gratuitement.</French>
+		<German>Wie langweilig ist das Land, wo du genau dort wieder aufwachst, wo du eingeschlafen bist. Übergebt mich den Strömungen der See, sodass ich, sollte ich jemals erwachen, dies in neuen Ländern tue. -- Falamar</German>
+		<Italian>This tech is only available to the Lanun civilization, and it is granted to them for free.</Italian>
+		<Spanish>This tech is only available to the Lanun civilization, and it is granted to them for free.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SEAFARING_QUOTE</Tag>
+		<English>How dull is land, that you should sleep and wake up in the same place. Give me the currents of the sea that I should ever awaken in new lands.[NEWLINE][BOLD]Falamar</English>
+		<French>How dull is land, that you should sleep and wake up in the same place. Give me the currents of the sea that I should ever awaken in new lands.[NEWLINE][BOLD]Falamar</French>
+		<German>Diese Technologie ist nur verfügbar für die Lanun und für sie Kostenlos</German>
+		<Italian>How dull is land, that you should sleep and wake up in the same place. Give me the currents of the sea that I should ever awaken in new lands.-Falamar</Italian>
+		<Spanish>How dull is land, that you should sleep and wake up in the same place. Give me the currents of the sea that I should ever awaken in new lands.-Falamar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SEAFARING_REQUIRES</Tag>
+		<English>The Lanun Civilization</English>
+		<French>la Civilisation Lanun</French>
+		<German>Das Volk der Lanun</German>
+		<Italian>The Lanun Civilization</Italian>
+		<Spanish>The Lanun Civilization</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SMELTING</Tag>
+		<English>Smelting</English>
+		<French>Forge</French>
+		<German>Schmelzen</German>
+		<Italian>Smelting</Italian>
+		<Spanish>Smelting</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SMELTING_QUOTE</Tag>
+		<English>We are surrounded by her gifts, but they do not come easily. They were never intended for the hands of man, but the earth mother knows her dwarven children are much more patient.[NEWLINE][BOLD]Garrius Fy, Stonewarden</English>
+		<French>Nous croulons sous ses cadeaux, mais ils ne s'acquièrent pas aisément. Ils n'ont jamais été destinés aux mains des hommes, mais la Terre Mère sait que ses enfants nains sont bien plus patients.[NEWLINE][BOLD]Garrius Fy, Gardien des Pierres</French>
+		<German>Wir sind umgeben von ihren Gaben, doch sie lassen sich nicht so leicht entdecken. Sie sind für die Hände der Menschen nie bestimmt gewesen, aber Mutter Erde wusste, dass ihre Zwergenkinder weit aus geduldiger sind. - Garrius Fy, Edelsteinwächter</German>
+		<Italian>We are surrounded by her gifts, but they do not come easily. They were never intended for the hands of man, but the earth mother knows her dwarven children are much more patient.-Garrius Fy, Stonewarden</Italian>
+		<Spanish>We are surrounded by her gifts, but they do not come easily. They were never intended for the hands of man, but the earth mother knows her dwarven children are much more patient.-Garrius Fy, Stonewarden</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SORCERY</Tag>
+		<English>Sorcery</English>
+		<French>Sorcellerie</French>
+		<German>Zauberei</German>
+		<Italian>Sorcery</Italian>
+		<Spanish>Sorcery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SORCERY_QUOTE</Tag>
+		<English>Despite the teaching of Ceridwen, the power of sorcery is available to any who would claim it. It isn't just the force of our oppression, but the tool of our liberation.[NEWLINE][BOLD]Kylorin, Archmage of the 7th Circle</English>
+		<French>Malgré l'enseignement de Ceridwen, le pouvoir de sorcellerie est accessible à quiconque le réclame. Ce n'est pas seulement la force de notre oppression, mais aussi l'instrument de notre libération.[NEWLINE][BOLD]Kylorin, Archimage du 7ème Cercle</French>
+		<German>Trotz der Lehre von Ceridwen ist die Macht der Zauberei für jeden zugänglich, der nach ihr verlangt. Sie ist nicht nur die Kraft unserer Unterdrückung, sondern auch das Werkzeug für unsere Befreiung. - Kylorin, Erzmagier des siebten Kreises</German>
+		<Italian>Despite the teaching of Ceridwen, the power of sorcery is available to any who would claim it. It isn't just the force of our oppression, but the tool of our liberation.-Kylorin, Archmage of the 7th Circle</Italian>
+		<Spanish>Despite the teaching of Ceridwen, the power of sorcery is available to any who would claim it. It isn't just the force of our oppression, but the tool of our liberation.-Kylorin, Archmage of the 7th Circle</Spanish>
+	</TEXT>
+<!--	<TEXT>
+		<Tag>TXT_KEY_TECH_STEAM_POWER_QUOTE</Tag>
+		<English>"You would make a ship sail against the winds and currents by lighting a bon-fire under her deck? I have no time for such nonsense."</English>
+		<French>"You would make a ship sail against the winds and currents by lighting a bon-fire under her deck? I have no time for such nonsense."</French>
+		<German>"Ihr würdet ein Schiff dazu bringen, gegen die Winde und Strömungen zu segeln, indem ihr ein Feuer unter Deck macht? Für solchen Unsinn habe ich keine Zeit."</German>
+		<Italian>"You would make a ship sail against the winds and currents by lighting a bon-fire under her deck? I have no time for such nonsense."</Italian>
+		<Spanish>"You would make a ship sail against the winds and currents by lighting a bon-fire under her deck? I have no time for such nonsense."</Spanish>
+	</TEXT> -->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STIRRUPS</Tag>
+		<English>Stirrups</English>
+		<French>Étriers</French>
+		<German>Steigbügel</German>
+		<Italian>Stirrups</Italian>
+		<Spanish>Stirrups</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STIRRUPS_QUOTE</Tag>
+		<English>They had loops at the end of their saddles for their feet. For all their supposed horsemanship, the Hippus couldn't manage to hold the horse with their legs. I laughed when I saw the longbows their cavalry carried. They would be impossible to fire while mounted. Then they stood up in their stirrups and drew back their bows.[NEWLINE][BOLD]Percium, after the Slaughter of Nine Fields</English>
+		<French>Ils avaient des boucles à l'extrémité de leurs selles pour leurs pieds. Malgré tout leur talent de monte présumé, les Hippus ne pouvaient réussir à tenir le cheval avec leurs jambes. J'ai ri quand j'ai vu les arcs longs que leurs cavaliers portaient. Ils ne pourraient pas tirer avec tout en restant montés. C'est là qu'ils se sont dressés sur leurs étriers et ont bandé leur arcs.[NEWLINE][BOLD]Percium, après le massacre des Neuf Champs</French>
+		<German>An den Enden ihrer Sattel hatten sie runde Öffnungen für ihre Füße. Bei all ihrer berüchtigten Reitkunst vermochten es die Hippus nicht, die Pferde mit ihren Beinen zu halten. Ich lachte, als ich die Langbögen ihrer Kavallerie sah. Es würde für sie unmöglich sein zu schießen, während sie ritten. Dann erhoben sie sich aus den Steigbügeln and spannten ihre Bogensehnen. - Percium, nach der Schlacht der Neun Ebenen</German>
+		<Italian>They had loops at the end of their saddles for their feet. For all their supposed horsemanship, the Hippus couldn't manage to hold the horse with their legs. I laughed when I saw the longbows their cavalry carried. They would be impossible to fire while mounted. Then they stood up in their stirrups and drew back their bows.-Percium, after the Slaughter of Nine Fields</Italian>
+		<Spanish>They had loops at the end of their saddles for their feet. For all their supposed horsemanship, the Hippus couldn't manage to hold the horse with their legs. I laughed when I saw the longbows their cavalry carried. They would be impossible to fire while mounted. Then they stood up in their stirrups and drew back their bows.-Percium, after the Slaughter of Nine Fields</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STRENGTH_OF_WILL</Tag>
+		<English>Strength of Will</English>
+		<French>Force de la Volonté</French>
+		<German>Willenskraft</German>
+		<Italian>Strength of Will</Italian>
+		<Spanish>Strength of Will</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_STRENGTH_OF_WILL_QUOTE</Tag>
+		<English>There are people who argue that, in order to truly be in control, you need to be able and willing to make the transition from thought to action. As you soon will learn, those ignorant fools have no idea what can be achieved with sufficiently focused thought.[NEWLINE][BOLD]Gaelan Sedracious, Mage Elder</English>
+		<French>Certains soutiennent que, pour assurer un véritable contrôle, vous devez être aptes et disposés à faire la transition entre la pensée et l'action. Comme vous l'apprendrez bientôt, ces imbéciles ignorants n'ont aucune idée ce qui peut être accompli avec une pensée suffisamment focalisée.[NEWLINE][BOLD]Gaelan Sedracious, Doyen de Magie</French>
+		<German>Es gibt Leute, die behaupten, dass um wirklich Kontrolle zu haben, man in der Lage und gewillt sein muss, den Gedanken Taten folgen zu lassen. Wie du bald lernen wirst, haben diese ignoranten Idioten keine Ahnung, was mit einem genügend konzentrierten Gedanken erreicht werden kann. - Gaelan Sedracious, Großmagier</German>
+		<Italian>There are people who argue that, in order to truly be in control, you need to be able and willing to make the transition from thought to action. As you soon will learn, those ignorant fools have no idea what can be achieved with sufficiently focused thought.-Gaelan Sedracious, Mage Elder</Italian>
+		<Spanish>There are people who argue that, in order to truly be in control, you need to be able and willing to make the transition from thought to action. As you soon will learn, those ignorant fools have no idea what can be achieved with sufficiently focused thought.-Gaelan Sedracious, Mage Elder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SWAMPDWELLING</Tag>
+		<English>Swamp-dwelling</English>
+		<French>Espèce Palustre</French>
+		<German>Leben im Sumpf</German>
+		<Italian>Swamp-dwelling</Italian>
+		<Spanish>Swamp-dwelling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SWAMPDWELLING_STRATEGY</Tag>
+		<English>This tech represents the natural affinity that Lizardmen have for swamplike terrain. It is provided freely to the Mazatl and Cualli civilizatons and cannot be researched. It grants bonuses to food production of the Swamp improvement and allows rapid travel on Trails.</English>
+		<French>Cette technologie représente l'affinité naturelle des lézards pour les terres marécageuses. Elle est fournie d'office aux civilisations Mazatl et Cualli et ne peut être recherchée par les autres. Grâce à cette technologie, l'amélioration marais produit plus de nourriture, et les unités se déplacent plus vite sur de simples chemins.</French>
+		<German>Diese Technologie steht für die natürliche Begabung, die Echsenmenschen für sumpfähnliches Gelände haben. Sie steht den Mazatl und den Cualli Zivilisationen frei und kann nicht erforscht werden. Sie liefert diesen Völkern Boni auf Nahrungsproduktion bei Sumpfbewirtschaftung und erlaubt schnellere Bewegung über Sumpfpfaden.</German>
+		<Italian>This tech represents the natural affinity that Lizardmen have for swamplike terrain. It is provided freely to the Mazatl and Cualli civilizatons and cannot be researched. It grants bonuses to food production of the Swamp improvement and allows rapid travel on Trails.</Italian>
+		<Spanish>This tech represents the natural affinity that Lizardmen have for swamplike terrain. It is provided freely to the Mazatl and Cualli civilizatons and cannot be researched. It grants bonuses to food production of the Swamp improvement and allows rapid travel on Trails.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_SWAMPDWELLING_QUOTE</Tag>
+		<English>"Listen, lad. I built this kingdom up from nothing. When I started here, all there was was swamp. Other kings said I was daft to build a castle on a swamp, but I built it all the same, just to show 'em. It sank into the swamp. So, I built a second one. That sank into the swamp. So I built a third one. That burned down, fell over, then sank into the swamp. But the fourth one... stayed up! And that's what you're gonna get, lad: the strongest castle in these islands."[NEWLINE][BOLD]Prince Herbert's Father, The Holy Grail</English>
+		<French>"Listen, lad. I built this kingdom up from nothing. When I started here, all there was was swamp. Other kings said I was daft to build a castle on a swamp, but I built it all the same, just to show 'em. It sank into the swamp. So, I built a second one. That sank into the swamp. So I built a third one. That burned down, fell over, then sank into the swamp. But the fourth one... stayed up! And that's what you're gonna get, lad: the strongest castle in these islands."[NEWLINE][BOLD]Prince Herbert's Father, The Holy Grail</French>
+		<German>"Hör zu, mein Junge. Ich hab das alles aus dem Nichts aufgebaut. Als ich hier anfing, hatte ich nichts als Sumpf. Alle anderen Rancher, ähhh Könige, sagten, ich sei verrückt, hier zu bauen. Aber ich habe trotzdem hier gebaut. Das erste Schloss versank im Sumpf. Dann hab ich ein zweites gebaut. Das versank ebenfalls im Sumpf. Also baute ich ein drittes. Das brannte dann ab, weil Du gekokelt hast. Aber das vierte, das ich baute, das blieb stehen."[NEWLINE][BOLD]Prinz Herberts Vater, Ritter der Kokosnuss</German>
+		<Italian>"Listen, lad. I built this kingdom up from nothing. When I started here, all there was was swamp. Other kings said I was daft to build a castle on a swamp, but I built it all the same, just to show 'em. It sank into the swamp. So, I built a second one. That sank into the swamp. So I built a third one. That burned down, fell over, then sank into the swamp. But the fourth one... stayed up! And that's what you're gonna get, lad: the strongest castle in these islands."[NEWLINE][BOLD]Prince Herbert's Father, The Holy Grail</Italian>
+		<Spanish>"Listen, lad. I built this kingdom up from nothing. When I started here, all there was was swamp. Other kings said I was daft to build a castle on a swamp, but I built it all the same, just to show 'em. It sank into the swamp. So, I built a second one. That sank into the swamp. So I built a third one. That burned down, fell over, then sank into the swamp. But the fourth one... stayed up! And that's what you're gonna get, lad: the strongest castle in these islands."[NEWLINE][BOLD]Prince Herbert's Father, The Holy Grail</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TAXATION</Tag>
+		<English>Taxation</English>
+		<French>Taxation</French>
+		<German>Steuerwesen</German>
+		<Italian>Taxation</Italian>
+		<Spanish>Taxation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TAXATION_QUOTE</Tag>
+		<English>If there is a finite amount of a resource, then it cannot be equally allocated. As with water where there are oceans there will also be deserts. What better method do we have to see that gold is distributed unevenly than the hand of government and the concept of taxation?[NEWLINE][BOLD]Dengrahl Lern, Stewards of Inequity</English>
+		<French>If there is a finite amount of a resource, then it cannot be equally allocated. As with water where there are oceans there will also be deserts. What better method do we have to see that gold is distributed unevenly than the hand of government and the concept of taxation?[NEWLINE][BOLD]Dengrahl Lern, Stewards of Inequity</French>
+		<German>If there is a finite amount of a resource, then it cannot be equally allocated. As with water where there are oceans there will also be deserts. What better method do we have to see that gold is distributed unevenly than the hand of government and the concept of taxation?[NEWLINE][BOLD]Dengrahl Lern, Stewards of Inequity</German>
+		<Italian>If there is a finite amount of a resource, then it cannot be equally allocated. As with water where there are oceans there will also be deserts. What better method do we have to see that gold is distributed unevenly than the hand of government and the concept of taxation?[NEWLINE][BOLD]Dengrahl Lern, Stewards of Inequity</Italian>
+		<Spanish>If there is a finite amount of a resource, then it cannot be equally allocated. As with water where there are oceans there will also be deserts. What better method do we have to see that gold is distributed unevenly than the hand of government and the concept of taxation?[NEWLINE][BOLD]Dengrahl Lern, Stewards of Inequity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_THEOLOGY_QUOTE</Tag>
+		<English>To Junil, we are but lowly servants, mere tools to further his divine plan. We owe him our allegiance, as we owe him our existence. Resisting Him would be akin to a hammer resisting the will of a blacksmith-not only is it impossible, but the very notion is absurd.[NEWLINE][BOLD]Ruvan Ghiz, Confessor</English>
+		<French>Pour Junil, nous ne sommes que de modestes domestiques, des instruments pour parachever son plan divin. Nous lui devons notre fidélité, comme nous lui devons notre existence. S'opposer à Lui serait semblable à un marteau s'opposant à la volonté d'un forgeron - cela est non seulement cela impossible, mais la notion même est absurde.[NEWLINE][BOLD]Ruvan Ghiz, Confesseur</French>
+		<German>Für Junil sind wir nur niedere Diener, schiere Werkzeuge ihres göttlichen Plans. Wir schulden ihm unsere Treue, so wie wir ihm unsere Existenz verdanken. Sich ihm zu widersetzten wäre, wie wenn sich ein Hammer dem Willen seines Schmiedes widersetzt - es ist nicht nur unmöglich, sondern der alleinige Gedanke auch völlig absurd. - Ruvan Ghiz, Bekenner der Weisung</German>
+		<Italian>To Junil, we are but lowly servants, mere tools to further his divine plan. We owe him our allegiance, as we owe him our existence. Resisting Him would be akin to a hammer resisting the will of a blacksmith-not only is it impossible, but the very notion is absurd.- Ruvan Ghiz, Confessor</Italian>
+		<Spanish>To Junil, we are but lowly servants, mere tools to further his divine plan. We owe him our allegiance, as we owe him our existence. Resisting Him would be akin to a hammer resisting the will of a blacksmith-not only is it impossible, but the very notion is absurd.- Ruvan Ghiz, Confessor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TRACKING</Tag>
+		<English>Tracking</English>
+		<French>Traque</French>
+		<German>Fährtenlesen</German>
+		<Italian>Tracking</Italian>
+		<Spanish>Tracking</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TRACKING_QUOTE</Tag>
+		<English>Can I find him? Observe the broken twigs there, the flattened patch of grass over there, and the slight depression around the rock there. Listen to the changes in the birdcalls further ahead, and the squirrels scurrying about in the treetops. He might as well be trailing a bright red carpet.[NEWLINE][BOLD]Doras Kelt, Ranger</English>
+		<French>Puis-je le trouver ? Observez les brindilles cassées ici, l'herbe aplatie par là, et la faible dépression autour de cette roche. Écoutez les changements dans les chants des oiseaux plus loin, et les écureuils courant précipitamment dans la cime des arbres. Il serait aussi simple de suivre un tapis rouge brillant.[NEWLINE][BOLD]Doras Kelt, Rôdeur</French>
+		<German>Kann ich ihn finden? Bemerke die zerbrochenen Zweige dort, den plattgedrückten Flecken Gras dort drüben und die leichte Senke um den Stein dort. Höre auf die Veränderungen der Vogelschreie weiter vorn und die in den Baumspitzen herumhastenden Eichhörnchen. Er könnte genauso gut über einen leuchtend roten Teppich wandeln. - Doras Kelt, Waldläufer</German>
+		<Italian>Can I find him? Observe the broken twigs there, the flattened patch of grass over there, and the slight depression around the rock there. Listen to the changes in the birdcalls further ahead, and the squirrels scurrying about in the treetops. He might as well be trailing a bright red carpet.--Doras Kelt, Ranger</Italian>
+		<Spanish>Can I find him? Observe the broken twigs there, the flattened patch of grass over there, and the slight depression around the rock there. Listen to the changes in the birdcalls further ahead, and the squirrels scurrying about in the treetops. He might as well be trailing a bright red carpet.--Doras Kelt, Ranger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TRADE</Tag>
+		<English>Trade</English>
+		<French>Commerce</French>
+		<German>Handel</German>
+		<Italian>Trade</Italian>
+		<Spanish>Trade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TRADE_QUOTE</Tag>
+		<English>A merchant does not *ride* a horse on the winds of fate; he *drives* a chariot to wherever he wishes!" [NEWLINE][NEWLINE] Omar of Turin</English>
+		<French>A merchant does not *ride* a horse on the winds of fate; he *drives* a chariot to wherever he wishes!" [NEWLINE][NEWLINE] Omar of Turin</French>
+		<German>A merchant does not *ride* a horse on the winds of fate; he *drives* a chariot to wherever he wishes!" [NEWLINE][NEWLINE] Omar of Turin</German>
+		<Italian>A merchant does not *ride* a horse on the winds of fate; he *drives* a chariot to wherever he wishes!" [NEWLINE][NEWLINE] Omar of Turin</Italian>
+		<Spanish>A merchant does not *ride* a horse on the winds of fate; he *drives* a chariot to wherever he wishes!" [NEWLINE][NEWLINE] Omar of Turin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WARFARE</Tag>
+		<English>Warfare</English>
+		<French>Militarisation</French>
+		<German>Militärwesen</German>
+		<Italian>Warfare</Italian>
+		<Spanish>Warfare</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WARFARE_QUOTE</Tag>
+		<English>Our lands were forged through strife. The land was never given to us; we had to carve it out of Nature's grasp with our swords and axes. We are a minority of good men in an evil world, and so we must be ever watchful, ever vigilant, lest the more vicious people of the world should take our lands for theirs.[NEWLINE][BOLD]Jasper Rendrahl, Paladin of the Order</English>
+		<French>Notre territoire a été façonné par les conflits. La terre ne nous a jamais été donnée ; nous avons dû l'arracher à la Nature avec nos épées et nos haches. Nous sommes une minorité de gens bons dans un monde mauvais et donc nous devons toujours être attentifs, toujours vigilants, de peur que les gens les plus malfaisants du monde ne s'accaparent nos terres.[NEWLINE][BOLD]Jasper Rendrahl, Paladin de l'Ordre</French>
+		<German>Unsere Lande wurden durch Unfrieden geformt. Das Land wurde uns nicht einfach gegeben, wir mussten es dem Zugriff der Natur mit Schwertern und Äxten entreißen. Wir sind ein Häuflein guter Menschen in einer bösen Welt, also müssen wir immer wachsam und umsichtig sein, damit nicht ein heimtückisches Volk unser Land als seines erachtet. - Jasper Rendrahl, Paladin der Weisung</German>
+		<Italian>Our lands were forged through strife. The land was never given to us; we had to carve it out of Nature's grasp with our swords and axes. We are a minority of good men in an evil world, and so we must be ever watchful, ever vigilant, lest the more vicious people of the world should take our lands for theirs.-Jasper Rendrahl, Paladin of the Order</Italian>
+		<Spanish>Our lands were forged through strife. The land was never given to us; we had to carve it out of Nature's grasp with our swords and axes. We are a minority of good men in an evil world, and so we must be ever watchful, ever vigilant, lest the more vicious people of the world should take our lands for theirs.-Jasper Rendrahl, Paladin of the Order</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WARHORSES</Tag>
+		<English>Warhorses</English>
+		<French>Chevaux de Guerre</French>
+		<German>Schwere Reiterei</German>
+		<Italian>Warhorses</Italian>
+		<Spanish>Warhorses</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WARHORSES_QUOTE</Tag>
+		<English>A good seat on a horse steals away your opponent's courage and your onlooker's heart-what reason is there to attack? Sit like one who has conquered.[NEWLINE][BOLD]Nietz the Bandit Lord</English>
+		<French>A good seat on a horse steals away your opponent's courage and your onlooker's heart-what reason is there to attack? Sit like one who has conquered.[NEWLINE][BOLD]Nietz the Bandit Lord</French>
+		<German>Die richtige Haltung auf deinem Roß nimmt deinem Feind den Mut und stiehlt den Zaungästen das Herz. Warum noch kämpfen? Reite wie jemand, der bereits gewonnen hat. - Nietzsche</German>
+		<Italian>A good seat on a horse steals away your opponent's courage and your onlooker's heart-what reason is there to attack? Sit like one who has conquered.-Nietz the Bandit Lord</Italian>
+		<Spanish>A good seat on a horse steals away your opponent's courage and your onlooker's heart-what reason is there to attack? Sit like one who has conquered.-Nietz the Bandit Lord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WAY_OF_THE_EARTHMOTHER</Tag>
+		<English>Way of the Earthmother</English>
+		<French>Voie de la Terre Mère</French>
+		<German>Weg der Erdmutter</German>
+		<Italian>Way of the Earthmother</Italian>
+		<Spanish>Way of the Earthmother</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WAY_OF_THE_EARTHMOTHER_QUOTE</Tag>
+		<English>Nothing is more sacred than the earth that gave us birth.[NEWLINE][BOLD]The Tablets of Bambur</English>
+		<French>Rien n'est plus sacré que la terre qui nous a donné naissance.[NEWLINE][BOLD]Les Tablettes de Bambur</French>
+		<German>Nichts ist heiliger als die uns gebärende Erde. - Die Tafeln von Bambur</German>
+		<Italian>Nothing is more sacred than the earth that gave us birth.-The Tablets of Bambur</Italian>
+		<Spanish>Nothing is more sacred than the earth that gave us birth.-The Tablets of Bambur</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WAY_OF_THE_FORESTS</Tag>
+		<English>Way of the Forests</English>
+		<French>Voie des Forêts</French>
+		<German>Weg des Waldes</German>
+		<Italian>Way of the Forests</Italian>
+		<Spanish>Way of the Forests</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WAY_OF_THE_FORESTS_QUOTE</Tag>
+		<English>The smallest patches of grass are more wondrous than the greatest monuments of rock and metal.[NEWLINE][BOLD]The Green Rites, chapter IV, sermon VII</English>
+		<French>La plus petite parcelle d'herbe est plus merveilleuse que les plus grands monuments de pierre et de métal.[NEWLINE][BOLD]Les Rites Verts, chapitre IV, sermon VII</French>
+		<German>Die kleinsten Flecken Gras sind erstaunlicher als die größten Monumente aus Stein und Metall. - Die Grünen Riten, Kapitel IV, Vers VII</German>
+		<Italian>The smallest patches of grass are more wondrous than the greatest monuments of rock and metal.-The Green Rites, chapter IV, sermon VII</Italian>
+		<Spanish>The smallest patches of grass are more wondrous than the greatest monuments of rock and metal.-The Green Rites, chapter IV, sermon VII</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WAY_OF_THE_WICKED</Tag>
+		<English>Way of the Wicked</English>
+		<French>Voie du Mal</French>
+		<German>Weg der Verschlagenen</German>
+		<Italian>Way of the Wicked</Italian>
+		<Spanish>Way of the Wicked</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WAY_OF_THE_WICKED_QUOTE</Tag>
+		<English>Impia tortorum longos hic turba furores[NEWLINE]Sanguinis innocui, non satiata, aluit.[NEWLINE]Sospite nunc patria, franco nunc funeris antro,[NEWLINE]Mors ubi dira fuit vita salusque patent.[NEWLINE][BOLD]e.a.p.</English>
+		<French>Impia tortorum longos hic turba furores[NEWLINE]Sanguinis innocui, non satiata, aluit.[NEWLINE]Sospite nunc patria, franco nunc funeris antro,[NEWLINE]Mors ubi dira fuit vita salusque patent.[NEWLINE][BOLD]e.a.p.</French>
+		<German>Die gottlose, hungrige Menge, nährt hier ihre tollkühne Raserei[NEWLINE] von unschuldigem Blut. [NEWLINE]Halte durch, Vaterland, die Höhle des Todes ist eingestürzt. Wo einst der Tod grimmte, [NEWLINE] sind nun Leben und Erlösung greifbar. [NEWLINE] - e.a.p.</German>
+		<Italian>Impia tortorum longos hic turba furores[NEWLINE]Sanguinis innocui, non satiata, aluit.[NEWLINE]Sospite nunc patria, franco nunc funeris antro,[NEWLINE]Mors ubi dira fuit vita salusque patent.[NEWLINE]-e.a.p.</Italian>
+		<Spanish>Impia tortorum longos hic turba furores[NEWLINE]Sanguinis innocui, non satiata, aluit.[NEWLINE]Sospite nunc patria, franco nunc funeris antro,[NEWLINE]Mors ubi dira fuit vita salusque patent.[NEWLINE]-e.a.p.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WAY_OF_THE_WISE</Tag>
+		<English>Way of the Wise</English>
+		<French>Voie du Sage</French>
+		<German>Weg der Weisen</German>
+		<Italian>Way of the Wise</Italian>
+		<Spanish>Way of the Wise</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WAY_OF_THE_WISE_QUOTE</Tag>
+		<English>What value is land gained by fire? What empire can be built on burnt fields and ruined forests? Demonic pacts are equally short-sighted. The only true strength is in creation and order.[NEWLINE][BOLD]Agadean, Order Acolyte</English>
+		<French>Quelle est la valeur d'un terrain incendié ? Quel empire peut être construit sur des champs brûlés et des forêts ruinées ? Les pactes diaboliques sont tout aussi myopes. La seule vraie force est dans la création et l'ordre.[NEWLINE][BOLD]Agadean, Acolyte de l'Ordre</French>
+		<German>Welchen Wert hat durch Feuer gewonnenes Land? Welches Reich kann auf verbrannten Feldern und abgeholzten Wäldern errichtet werden? Dämonische Bündnisse sind beiderseits kurzsichtig. Die einzig wahre Stärke liegt in Schöpfung und Ordnung. - Agadean, Akolyt der Weisung</German>
+		<Italian>What value is land gained by fire? What empire can be built on burnt fields and ruined forests? Demonic pacts are equally short-sighted. The only true strength is in creation and order.-Agadean, Order Acolyte</Italian>
+		<Spanish>What value is land gained by fire? What empire can be built on burnt fields and ruined forests? Demonic pacts are equally short-sighted. The only true strength is in creation and order.-Agadean, Order Acolyte</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WHITE_HAND</Tag>
+		<English>White Hand</English>
+		<French>Main Blanche</French>
+		<German>Weiße Hand</German>
+		<Italian>White Hand</Italian>
+		<Spanish>White Hand</Spanish>
+	</TEXT>
+	<!--
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WHITE_HAND_QUOTE</Tag>
+		<English>Winter is coming</English>
+		<French>L'hiver vient</French>
+		<German>Der Winter naht</German>
+		<Italian>L'inverno sta arrivando</Italian>
+		<Spanish>Se acerca el invierno</Spanish>
+	</TEXT>
+	-->
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WRITING</Tag>
+		<English>Writing</English>
+		<French>
+			<Text>Écriture</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Schrift</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Scrittura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Escritura</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_WRITING_QUOTE</Tag>
+		<English>I am greater than any magician, my pen more powerful than any wand. For inside it lies the laughter of every child, the tears of every man, the hearts of every woman, and the hopes and fears of every being.[NEWLINE][BOLD]Aldorien Silvermoon, Elven Bard.</English>
+		<French>Je suis plus grand que n'importe quel magicien, et ma plume est plus puissante que n'importe quelle baguette magique. Car elle renferme les éclats de rire de tous les enfants, les larmes de tous les hommes, les cours de toutes les femmes, ainsi que les espoirs et craintes de tous les êtres vivants.[NEWLINE][BOLD]Aldorien Lunargent, Ménestrel elfique</French>
+		<German>Ich bin größer als jeder Zauberer, meine Feder mächtiger als jeder Zauberstab. Denn in ihr ist das Lachen jedes Kindes, die Tränen jedes Mannes, die Herzen aller Frauen und die Hoffnungen und Ängste jedes Wesens. - Aldorien Silbermond, Elfenbarde</German>
+		<Italian>I am greater than any magician, my pen more powerful than any wand. For inside it lies the laughter of every child, the tears of every man, the hearts of every woman, and the hopes and fears of every being.-Aldorien Silvermoon, Elven Bard.</Italian>
+		<Spanish>I am greater than any magician, my pen more powerful than any wand. For inside it lies the laughter of every child, the tears of every man, the hearts of every woman, and the hopes and fears of every being.-Aldorien Silvermoon, Elven Bard.</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- used in Assets\python\Screens\... -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CITY_ACTIONS</Tag>
+		<English>City Actions</English>
+		<French>Actions de Ville</French>
+		<German>City Actions</German>
+		<Italian>City Actions</Italian>
+		<Spanish>City Actions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_DISABLE_PRODUCTION</Tag>
+		<English>Production disabled for %d1 turns</English>
+		<French>Production interrompue pour %d1 [NUM1:tour:tours]</French>
+		<German>Produktion ausgeschaltet für %d1 Runden</German>
+		<Italian>Production disabled for %d1 turns</Italian>
+		<Spanish>Production disabled for %d1 turns</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_DISABLE_RESEARCH</Tag>
+		<English>Research disabled for %d1 turns</English>
+		<French>Recherche interrompue pour %d1 [NUM1:tour:tours]</French>
+		<German>Forschung ausgeschaltet für %d1 Runden</German>
+		<Italian>Research disabled for %d1 turns</Italian>
+		<Spanish>Research disabled for %d1 turns</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_DISABLE_SPELLCASTING</Tag>
+		<English>Spellcasting disabled for %d1 turns</English>
+		<French>Incantations stoppées pour %d1 [NUM1:tour:tours]</French>
+		<German>Zaubern ausgeschaltet für %d1 Runden</German>
+		<Italian>Spellcasting disabled for %d1 turns</Italian>
+		<Spanish>Spellcasting disabled for %d1 turns</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_DIFFICULTY</Tag>
+		<English>Difficulty: %s1</English>
+		<French>Difficulté : %s1</French>
+		<German>Schwierigkeitsgrad: %s1</German>
+		<Italian>Difficulty: %s1</Italian>
+		<Spanish>Difficulty: %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_HIGH_TO_LOW_GOAL_0</Tag>
+		<English>High To Low: Get the high score (stage 1/3)</English>
+		<French>High To Low: Get the high score (stage 1/3)</French>
+		<German>Großer Fall: Führe deine Nation an die Spitze (Schritt 1/3)</German>
+		<Italian>High To Low: Get the high score (stage 1/3)</Italian>
+		<Spanish>High To Low: Get the high score (stage 1/3)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_HIGH_TO_LOW_GOAL_1</Tag>
+		<English>High To Low: Get the high score (stage 2/3)</English>
+		<French>High To Low: Get the high score (stage 2/3)</French>
+		<German>Großer Fall: Führe deine Nation an die Spitze (Schritt 2/3)</German>
+		<Italian>High To Low: Get the high score (stage 2/3)</Italian>
+		<Spanish>High To Low: Get the high score (stage 2/3)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_HIGH_TO_LOW_GOAL_2</Tag>
+		<English>High To Low: Conditions met, now win the game! (stage 3/3)</English>
+		<French>High To Low: Conditions met, now win the game! (stage 3/3)</French>
+		<German>Großer Fall: Bedingungen erfüllt, jetzt heißt es zu gewinnen! (Schritt 3/3)</German>
+		<Italian>High To Low: Conditions met, now win the game! (stage 3/3)</Italian>
+		<Spanish>High To Low: Conditions met, now win the game! (stage 3/3)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_CUT_LOSERS</Tag>
+		<English>Cut lowest player in %d1 turns</English>
+		<French>Cut lowest player in %d1 turns</French>
+		<German>Der Spieler mit den wenigsten Punkten scheidet in %d1 Runden aus.</German>
+		<Italian>Cut lowest player in %d1 turns</Italian>
+		<Spanish>Cut lowest player in %d1 turns</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SECOND_FORM</Tag>
+		<English>%s1:2</English>
+		<French>%s1:2</French>
+		<German>%s1:2</German>
+		<Italian>%s1:2</Italian>
+		<Spanish>%s1:2</Spanish>
+	</TEXT>
+</Civ4GameText>

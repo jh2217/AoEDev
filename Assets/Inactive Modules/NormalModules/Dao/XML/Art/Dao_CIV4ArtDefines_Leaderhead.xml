@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Bart Muzzin (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Leaderhead art path information -->
+<!-- ORBI -->
+<Civ4ArtDefines xmlns="x-schema:Dao_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_RUOLAN</Type>
+			<Button>, ,Art/Modules/Dao/Dao_Atlas.dds,4,1</Button>
+			<NIF>Art/Modules/Dao/leaderheads/Ruolan.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_YINXI</Type>
+			<Button>, ,Art/Modules/Dao/Dao_Atlas.dds,3,1</Button>
+			<NIF>Art/Modules/Dao/leaderheads/Yinxi.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<Civ4AffinityInfos xmlns="x-schema:EL_CIV4UnitSchema.xml">
+	<AffinityInfos>
+		<AffinityInfo><!-- Fire mana Affinity --> <!-- Detlesias Affinity level 1 -->
+			<Type>AFFINITY_FIRE</Type>
+			<Description>TXT_KEY_AFFINITY_FIRE</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_FIRE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_FIRE_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_FIRE</BonusType>
+			</BonusTypes>
+			<fFirstStrikes>0.25</fFirstStrikes>
+			<fFirstStrikeChance>1</fFirstStrikeChance>
+			<fDefensiveStrikes>10</fDefensiveStrikes>
+			<fDefensiveStrikeDamage>10</fDefensiveStrikeDamage>
+		</AffinityInfo>
+		<AffinityInfo><!-- Fire mana Affinity --> <!-- Detlesias Affinity level 3 -->
+			<Type>AFFINITY_FIRE2</Type>
+			<Description>TXT_KEY_AFFINITY_FIRE2</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_FIRE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_FIRE_STRATEGY</Strategy>
+			<BonusTypes>
+				<BonusType>BONUS_MANA_FIRE</BonusType>
+			</BonusTypes>
+			<fCollateral>10</fCollateral>
+			<fCollateralLimit>5</fCollateralLimit>
+			<fFirstStrikes>0.5</fFirstStrikes>
+			<fFirstStrikeChance>1</fFirstStrikeChance>
+			<fDefensiveStrikes>10</fDefensiveStrikes>
+			<fDefensiveStrikeDamage>10</fDefensiveStrikeDamage>
+		</AffinityInfo>
+	</AffinityInfos>
+</Civ4AffinityInfos>

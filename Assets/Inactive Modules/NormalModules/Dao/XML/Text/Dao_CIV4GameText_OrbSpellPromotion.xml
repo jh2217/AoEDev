@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the Orbis editor by Ahwaric -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+        <TEXT>
+        <Tag>TXT_KEY_SPELL_ELEMENTAL_SWARM</Tag>
+        <English>Elemental Swarm</English>
+        <French>Essaim Élémentaire</French>
+        <German>Elemental Swarm</German>
+        <Italian>Elemental Swarm</Italian>
+        <Spanish>Elemental Swarm</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_SPELL_ELEMENTAL_SWARM_HELP</Tag>
+        <English>[ICON_BULLET]Spawns an elder elemental on every elemental node you own[NEWLINE][ICON_BULLET]Grants 1 xp per permanent elemental you own (and 1 extra xp if it is huge) for every unit with elemental ancestry (no matter the type)</English>
+        <French>[ICON_BULLET]Spawns an elder elemental on every elemental node you own[NEWLINE][ICON_BULLET]Grants 1 xp per permanent elemental you own (and 1 extra xp if it is huge) for every unit with elemental ancestry (no matter the type)</French>
+        <German>[ICON_BULLET]Spawns an elder elemental on every elemental node you own[NEWLINE][ICON_BULLET]Grants 1 xp per permanent elemental you own (and 1 extra xp if it is huge) for every unit with elemental ancestry (no matter the type)</German>
+        <Italian>[ICON_BULLET]Spawns an elder elemental on every elemental node you own[NEWLINE][ICON_BULLET]Grants 1 xp per permanent elemental you own (and 1 extra xp if it is huge) for every unit with elemental ancestry (no matter the type)</Italian>
+        <Spanish>[ICON_BULLET]Spawns an elder elemental on every elemental node you own[NEWLINE][ICON_BULLET]Grants 1 xp per permanent elemental you own (and 1 extra xp if it is huge) for every unit with elemental ancestry (no matter the type)</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_SPELL_ELEMENTAL_UNITY</Tag>
+        <English>Elemental Unity</English>
+        <French>Elemental Unity</French>
+        <German>Elemental Unity</German>
+        <Italian>Elemental Unity</Italian>
+        <Spanish>Elemental Unity</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_SPELL_ELEMENTAL_UNITY_HELP</Tag>
+        <English>[ICON_BULLET]Heals the Caster and Ends their turn</English>
+        <French>[ICON_BULLET]Heals the Caster and Ends their turn</French>
+        <German>[ICON_BULLET]Heals the Caster and Ends their turn</German>
+        <Italian>[ICON_BULLET]Heals the Caster and Ends their turn</Italian>
+        <Spanish>[ICON_BULLET]Heals the Caster and Ends their turn</Spanish>
+    </TEXT>
+	   <TEXT>
+        <Tag>TXT_KEY_PROMOTION_ANCESTRY_AIR</Tag>
+        <English>Air Ancestry</English>
+        <French>Air Ancestry</French>
+        <German>Air Ancestry</German>
+        <Italian>Air Ancestry</Italian>
+        <Spanish>Air Ancestry</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_ANCESTRY_EARTH</Tag>
+        <English>Earth Ancestry</English>
+        <French>Earth Ancestry</French>
+        <German>Earth Ancestry</German>
+        <Italian>Earth Ancestry</Italian>
+        <Spanish>Earth Ancestry</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_ANCESTRY_FIRE</Tag>
+        <English>Fire Ancestry</English>
+        <French>Fire Ancestry</French>
+        <German>Fire Ancestry</German>
+        <Italian>Fire Ancestry</Italian>
+        <Spanish>Fire Ancestry</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_ANCESTRY_WATER</Tag>
+        <English>Water Ancestry</English>
+        <French>Water Ancestry</French>
+        <German>Water Ancestry</German>
+        <Italian>Water Ancestry</Italian>
+        <Spanish>Water Ancestry</Spanish>
+    </TEXT>
+	
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_DRUIDIC</Tag>
+        <English>Druidic</English>
+        <French>Druidique</French>
+        <German>Druidisch</German>
+        <Italian>Druidic</Italian>
+        <Spanish>Druidic</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_DRUIDIC_PEDIA</Tag>
+        <English>Druidic</English>
+        <French>Druidique</French>
+        <German>Druidisch</German>
+        <Italian>Druidic</Italian>
+        <Spanish>Druidic</Spanish>
+    </TEXT>
+	<TEXT>
+        <Tag>TXT_KEY_PROMOTION_ELEMENTAL_HUGE</Tag>
+        <English>Huge Elemental</English>
+        <French>Huge Elemental</French>
+        <German>Huge Elemental</German>
+        <Italian>Huge Elemental</Italian>
+        <Spanish>Huge Elemental</Spanish>
+    </TEXT>
+	
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_POTENCY_HERMIT</Tag>
+        <English>Potency Minor</English>
+        <French>Potency Minor</French>
+        <German>magisch begabt</German>
+        <Italian>Potency Minor</Italian>
+        <Spanish>Potency Minor</Spanish>
+    </TEXT>
+	
+    <TEXT>
+        <Tag>TXT_KEY_PROMOTION_MASTERY_ELEMENTS</Tag>
+        <English>Elemental Mastery</English>
+        <French>Maîtrise Élémentaire</French>
+        <German>Elemental Mastery</German>
+        <Italian>Elemental Mastery</Italian>
+        <Spanish>Elemental Mastery</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_SPELL_SUMMON_AIR_ELEMENTAL_MINOR</Tag>
+        <English>Summon Minor Air Elemental</English>
+        <French>Évocation d'Élémentaire d'Eau Mineur</French>
+        <German>Summon Minor Air Elemental</German>
+        <Italian>Summon Minor Air Elemental</Italian>
+        <Spanish>Summon Minor Air Elemental</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_SPELL_SUMMON_FIRE_ELEMENTAL_MINOR</Tag>
+        <English>Summon Minor Fire Elemental</English>
+        <French>Évocation d'Élémentaire de Feu Mineur</French>
+        <German>Summon Minor Fire Elemental</German>
+        <Italian>Summon Minor Fire Elemental</Italian>
+        <Spanish>Summon Minor Fire Elemental</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_SPELL_SUMMON_EARTH_ELEMENTAL_MINOR</Tag>
+        <English>Summon Minor Earth Elemental</English>
+        <French>Évocation d'Élémentaire de Terre Mineur</French>
+        <German>Summon Minor Earth Elemental</German>
+        <Italian>Summon Minor Earth Elemental</Italian>
+        <Spanish>Summon Minor Earth Elemental</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_SPELL_SUMMON_WATER_ELEMENTAL_MINOR</Tag>
+        <English>Summon Minor Water Elemental</English>
+        <French>Évocation d'Élémentaire d'Eau Mineur</French>
+        <German>Summon Minor Water Elemental</German>
+        <Italian>Summon Minor Water Elemental</Italian>
+        <Spanish>Summon Minor Water Elemental</Spanish>
+    </TEXT>
+</Civ4GameText>

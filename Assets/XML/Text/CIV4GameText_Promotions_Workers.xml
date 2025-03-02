@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BEDOUIN_WORKER</Tag>
+		<English>Bedouin Worker</English>
+		<French>Ouvrier bédouin</French>
+		<German>Beduinenarbeiter</German>
+		<Italian>Bedouin Worker</Italian>
+		<Spanish>Bedouin Worker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CUALLI_WORKER</Tag>
+		<English>Cualli Worker</English>
+		<French>Ouvrier cualli</French>
+		<German>Cualli Arbeiter</German>
+		<Italian>Cualli Worker</Italian>
+		<Spanish>Cualli Worker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DTESHI_WORKER</Tag>
+		<English>D'teshi Worker</English>
+		<French>Ouvrier D'teshi</French>
+		<German>D'teshi Arbeiter</German>
+		<Italian>D'teshi Worker</Italian>
+		<Spanish>D'teshi Worker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DWARVEN_WORKER</Tag>
+		<English>Dwarven Worker</English>
+		<French>Ouvrier nain</French>
+		<German>Zwergenarbeiter</German>
+		<Italian>Dwarven Worker</Italian>
+		<Spanish>Dwarven Worker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MAZATL_WORKER</Tag>
+		<English>Mazatl Worker</English>
+		<French>Ouvrier mazatl</French>
+		<German>Mazatl Arbeiter</German>
+		<Italian>Mazatl Worker</Italian>
+		<Spanish>Mazatl Worker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SCION_WORKER</Tag>
+		<English>Scion Worker</English>
+		<French>Ouvrier scion</French>
+		<German>Scion Arbeiter</German>
+		<Italian>Scion Worker</Italian>
+		<Spanish>Scion Worker</Spanish>
+	</TEXT>
+</Civ4GameText>

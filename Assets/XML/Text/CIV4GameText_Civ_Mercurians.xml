@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MERCURIANS_ADJECTIVE</Tag>
+		<English>Mercurian</English>
+		<French>mercurien:mercurienne:mercuriens:mercuriennes</French>
+		<German>Mercurianischer:Mercurianischer:Mercurianischen:Mercurianischen</German>
+		<Italian>Mercurian</Italian>
+		<Spanish>Mercurian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MERCURIANS_DESC</Tag>
+		<English>Mercurians</English>
+		<French>Mercurien</French>
+		<German>Reich der Mercurianer</German>
+		<Italian>Mercurian</Italian>
+		<Spanish>Mercurians</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MERCURIANS_SHORT_DESC</Tag>
+		<English>Mercurians</English>
+		<French>Mercuriens</French>
+		<German>Mercurianer</German>
+		<Italian>Mercurian</Italian>
+		<Spanish>Mercurians</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_MERCURIANS_PEDIA</Tag>
+		<English>[TAB]Basium broke the Compact. He was an angel under Arawn, but when the Compact was signed, he refused to give up the direct battle with the demons. He and a small host of other rebel angels disobeyed their lords and kept fighting. They spend their time split between time on creation and in Hell waging their war directly. They can be found anywhere demons exist. They care little for people, they are only concerned with killing demons, and are often confused with demons because of their single-mindedness and their rough warlike appearance.</English>
+		<French>[TAB]Basium brisa la Convention. Il était un ange au service d'Arawn mais lorsque la Convention fut signée, il refusa d'abandonner le combat direct contre les démons. Lui et une petite armée d'autres anges rebelles désobéirent à leurs seigneurs et continuèrent à combattre. Ils passèrent leur temps entre Création et l'Enfer où ils menèrent leur guerre directement. On peut les trouver partout où les démons existent. Ils se soucient peu des populations, ne cherchant qu'à tuer les démons, et ils sont souvent pris pour des démons du fait de leur étroitesse d'esprit et de leur dur aspect guerrier.</French>
+		<German>[TAB]Basium brach den Pakt. Er war ein Engel unter Arawn, aber als der Pakt unterzeichnet wurde, lehnte er es ab, seinen Kampf gegen die Dämonen aufzugeben. Zusammen mit einer kleinen Schar anderer Engel missachtete er die Befehle ihrer Herren und kämpfte weiter. Sie verbrachten ihre Zeit zur Hälfte mit der Pflege der Schöpfung und zur anderen Hälfte mit der direkten Kriegsführung in der Hölle. Überall dort, wo Dämonen sind, wird man auch sie finden. Sie kümmern sich kaum um die Menschen. Stattdessen sind sie nur am Töten von Dämonen interessiert und werden wegen ihrer Unbeirrbarkeit und ihres unwirschen, streitbaren Auftretens oft mit diesen verwechselt.</German>
+		<Italian>[TAB]Basium violò il Patto. Era inizialmente un angelo al servizio di Arawn, ma quando il Patto fù siglato lui rifiutò di smettere di combattere i demoni. Lui e un piccolo gruppo di altri angeli ribelli disobbedirono ai loro signori e continuarono a combattere. Passano il tempo portando avanti la loro guerra, sia nella creazione che nell'Inferno. Li si può trovare ovunque vi siano demoni. A loro importa poco delle persone, l'unica cosa che gli interessa è uccidere demoni, e per via di questa loro risolutezza e del loro aspetto bellicoso loro stessi vegono spesso scambiati per demoni.</Italian>
+		<Spanish>[TAB]Basium rompió la Concisión. Él era un ángel bajo las órdenes de Arawn, pero cuando la Concisión se firmó, rechazó dejar de luchar contra los demonios. Él y un pequeño grupo de otros ángeles rebeldes desobedecieron a sus señores y siguieron luchando. Dedicaron su tiempo dividido entre el tiempo en la creación y el tiempo en el infierno llevando a cabo su guerra directamente. Pueden ser encontrados en cualquier sitio donde haya demonios. Se preocupan bien poco por la gente, sólo les concierne el matar demonios, y también son confundidos con demonios por su simple forma de pensar y su ruda apariencia de guerreros.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BASIUM</Tag>
+		<English>Basium</English>
+		<French>Basium</French>
+		<German>Basium</German>
+		<Italian>Basium</Italian>
+		<Spanish>Basium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_BASIUM_PEDIA</Tag>
+		<English>[TAB]There is a word in the Angelic tongue for "love". Three, in fact. There are words for "mercy", for "compassion", for "tender kindness". The closest word to be used on this particular medium is carved upon his left forearm: "prudence." Like the word he just finished upon his chest, "justice", this is prayer in his native tongue written in blood and pain upon his now mortal flesh. "Holiness", across his cheeks. "Wrath", along his right forearm. "Judgment", his brow. "Courage", down his torso. Each a prayer to gods he turned his back on. Attributes of divine judgment he seeks to cultivate within his soul.[PARAGRAPH:1]He was just finishing carving into the fingers of his right hand when two young men approached the lord, dwarfed by his stone-faced sergeants that led them. "What... what is he doing?"[PARAGRAPH:1]"It is a prayer... with every pain, I beg for the strength to finish my task." He rose. He towered over even his own mammoth soldiers.[PARAGRAPH:1]The other man gulped. "But aren't you... aren't you a god? To whom do you pray, m'lord?"[PARAGRAPH:1]Basium turned to face his men. "Why do you disturb me?"[PARAGRAPH:1]"I am Lars Lort, lord Basium. We wish to join your cause, me an' Kobe here. A horde of Infernal beasts destroyed our hometown, we were the only two survivors."[PARAGRAPH:1]"Then take you a sword-we march on the morn."[PARAGRAPH:1]"Well, sir, if we may," said Kobe, "we two are more than mere sell-swords. See, we've a bit of magic between us, that's how we survived the assault, by hiding invisible like. But we were watching and we learned something. Wait an' we'll show you." Without waiting for prompting, the two young mages began their spells. Basium took a long, slow breath, the rune on his left arm throbbing.[PARAGRAPH:1]It was the Sulfuric smell that first alerted Basium. All his muscles tensed at its arrival before he was able to recognize the presence of his enemy. Curiously, the Balor stood motionless in the middle of camp. "Isn't it great?" Lars exclaimed gleefully. "We watched how the Infernals gated in reinforcements, but we figured out how to put the ward of command around it ourselves. With us around, you can fight fire with fire!"[PARAGRAPH:1]Basium leapt upon the Hell-beast, wrapping his bare fingers around its neck. Smoke began immediately to hiss from the demon's skin, and in moments flames began to lick at Basium's fingers. On each of the fallen angel's fingers was carved one of the five angelic names for the Most Holy One. The Balor writhed in pain, breaking free of Lort's simple command warding in the process. He whipped at Basium with his tail, raked his back with his claws, bellowed with an unearthly roar, all to no avail-the Mercurian was unshakeable. Eventually the demon was reduced to an almost pitiful writhing and moaning until all that was left was a hellish smell and hissing puddles of black blood.[PARAGRAPH:1]Basium rose, and stalked towards the two mages. "You call forth a Balor in my own camp? Let me show you what I do with fire-I extinguish it!" Basium roared. Lars felt his brother's warm blood splatter on his face before he even noticed that Basium had drawn his war hammer. He never noticed the second swing.[PARAGRAPH:1]Basium walked back to his mat by the fire-pit. He picked up his ceremonial dagger, and began to trace the W on his arm.</English>
+		<French>[TAB]Il y a un mot en langue angélique pour "amour". Trois en fait. Il y a des mots pour " pitié" , pour "compassion", pour "tendresse". Le mot le plus proche de ce champ lexical qu'il utilise est gravé sur son avant-bras gauche : "prudence". Tout comme le mot qu'il venait de finir sur son torse, "justice", c'est une prière dans sa langue native écrite par le sang et la douleur dans sa chair maintenant mortelle. "Sainteté" sur ses joues, "Colère" sur son avant-bras droit,  "Jugement" sur son front, "Courage" dans son dos. Chaque mot était une prière à ces dieux auxquels il avait tourné le dos. Des manifestations du jugement divin qu'il cherchait à cultiver en son âme.[PARAGRAPH:1] Il venait de terminer une gravure sur les doigts de sa main droite lorsque deux jeunes hommes s'approchèrent du seigneur, escorté de ses sergents aux visages comme taillés dans la pierre. "Que... Que fait-il ?"[PARAGRAPH:1]"C'est une prière... Par cette douleur je prie pour avoir la force de finir ma tâche." Il se leva. Il surplombait même ses soldats gigantesques.[PARAGRAPH:1]L'autre homme déglutit. "Mais n'êtes-vous ... n'êtes-vous pas un dieu ? Qui priez-vous, mon seigneur ?"[PARAGRAPH:1]Basium se tourna vers ses hommes. "Pourquoi me dérangez-vous ?"[PARAGRAPH:1]"Je m'appelle Lars Lort, Seigneur Basium. Nous voulons rejoindre votre cause, moi et Kobe. Une horde de bêtes infernales a détruit notre ville, nous deux seuls en avons réchappé."[PARAGRAPH:1]"Alors prenez une épée. Nous partons au matin."[PARAGRAPH:1]"Sire, si je peux me permettre," dit Kobe, "Nous sommes plus que des mercenaires. Voyez, nous avons quelques connaissances en magie, c'est comme cela que nous avons survécu à l'assaut, en devenant comme invisibles. Mais nous observions et nous avons appris quelque chose. Attendez, on va vous montrer."[PARAGRAPH:1]Sans attendre, les deux jeunes mages commencèrent à incanter. Basium prit une longue inspiration, la rune sur son bras gauche palpitant.[PARAGRAPH:1]C'est l'odeur de soufre qui alerta d'abord Basium. Tous ses muscles se tendirent à son arrivée avant qu'il ne puisse reconnaître son ennemi. Curieusement, le Balor resta immobile au milieu du camp.[PARAGRAPH:1]"N'est-ce pas formidable ?" s'exclama gaiement Lars. "Nous avons vu comment les Infernaux appelaient leurs renforts, et nous avons trouvé seuls comment lui imposer un mot de commandement. Avec nous, vous allez pouvoir combattre le feu par le feu !"[PARAGRAPH:1] Basium se jeta sur la bête de l'Enfer,entourant son cou de ses doigts nus. De la fumée commença immédiatement à apparaître sur la peau du démon, et au bout d'un moment des flammes commencèrent à lécher les doigts de Basium. Sur chacun des doigts de l'ange déchu était gravé l'un des cinq noms angéliques de l'Être Le Plus Sain. Le Balor se tordit de douleur, se libérant au passage du simple mot de commandement de Lort. Il fouetta Basium de sa queue, lacéra son dos de ses griffes, poussa un rugissement surnaturel, tout cela en vain : le mercurien était inébranlable. Le démon en fut réduit à se tordre et hurler pitoyablement jusqu'à ce qu'il ne reste de lui qu'une odeur d'enfer et des flaques de sang noir.[PARAGRAPH:1]Basium se retourna et s'approcha des deux mages. "Vous invoquez un Balor au milieu de mon propre camp ? Laissez moi vous montrer ce que je fais avec le feu. Je l'éteins !" hurla Basium. Lars sentit le sang chaud de son frère sur son visage avant même d'avoir vu Basium lever son marteau de guerre. Il ne vit jamais le second coup.[PARAGRAPH:1]Basium retourna sur sa paillasse près du feu. Il prit sa dague cérémoniale et commença à tracer le C sur son bras.</French>
+		<German>[TAB]Es gibt ein Wort in der Sprache der Engel, und es bedeutet "Liebe". Drei Wörter eigentlich. Es gibt weitere Wörter, für "Gnade", für "Mitleid", oder für "zarte Freundlichkeit". Das Wort, das man am besten für dieses spezielle Medium benutzen kann, ist in seinen linken Unterarm geritzt: "Umsicht". Wie das Wort, mit dem er gerade auf seiner Brust fertig geworden ist, "Gerechtigkeit", ist es ein Gebet in seiner Muttersprache, in Blut und Schmerzen auf sein sterbliches Fleisch geschrieben. "Heiligkeit" über seiner Wange. "Zorn" an seinem rechten Unterarm. "Gericht" an seiner Braue. "Starkmut" auf seinem Torso. Jedes Wort ein Gebet zu Göttern, denen er den Rücken zugewandt hatte. Die Eigenschaften eines göttlichen Gerichtes, die er in seiner Seele zu veredeln sucht.[PARAGRAPH:1]Er wurde gerade damit fertig, Wörter in die Finger seiner rechten Hand zu ritzen, als zwei junge Männer, die neben den ausdruckslosen Wachen, die sie führten, geradezu winzig wirkten, an ihn herantraten. "Was... was macht er da?"[PARAGRAPH:1]"Ich bete... durch jeden meiner Schmerzen bete ich um die Kraft, meine Aufgabe zu erfüllen." Er erhob sich. Er überragte selbst seine eigenen elefantengroßen Soldaten. [PARAGRAPH:1]Der andere Mann schluckte. "Aber seid Ihr... seid Ihr nicht selbst ein Gott? Zu wem betet ihr, Herr?"[PARAGRAPH:1]Basium drehte sich zu seinen Männern um. "Warum stört ihr mich?"[PARAGRAPH:1]"Ich bin Lars Lort, Herr Basium. Wir wollen eurer Sache helfen, ich und Kobe hier. Eine Horde infernaler Bestien hat unsere Heimatstadt zerstört, wir sind die einzigen Überlebenden."[PARAGRAPH:1]"Dann nehmt euch Schwerter, wir marschieren am Morgen."[PARAGRAPH:1]"Aber, Herr, wenn Ihr gestattet", sagte Kobe, "wir beide sind mehr als nur einfache Kämpfer. Wisst Ihr, wir können ein bisschen Magie, wir beide, so haben wir auch den Angriff überlebt, wir haben uns wie unsichtbar gemacht. Aber wir haben zugeschaut und etwas gelernt, wartet, und wir zeigen es Euch." Ohne auf eine Antwort zu warten begannen die beiden jungen Magier ihre Sprüche. Basium atmete lange und langsam ein, die Rune auf seinem linken Arm pulsierte.[PARAGRAPH:1]Der Geruch nach Schwefel war das Erste, was Basium alarmierte. Alle seine Muskeln spannten sich als er ihn bemerkte, noch bevor er die Anwesenheit seines Feindes bemerkte. Abwartend und bewegungslos stand ein Balor in der Mitte des Lagers. "Ist das nicht großartig?" rief Lars freudig aus. "Wir haben zugesehen wie die Infernalen Verstärkung herbeiriefen, aber wir haben selber herausgefunden, wie man sie kommandieren kann. Mit uns an Eurer Seite könnt Ihr Feuer mit Feuer bekämpfen!"[PARAGRAPH:1]Basium stürzte sich auf das Höllenwesen, und legte seine ungeschützten Finger um dessen Hals. Sofort begann Dampf von der Haut des Dämonen zu zischen, und in kürzester Zeit leckten Flammen an Basiums Fingern. In jeden Finger des gefallenen Engels war einer der fünf engelhaften Namen des Heiligsten der Heiligen eingeritzt. Der Balor zitterte vor Schmerzen, und schüttelte Lorts einfachen Beherrschungszauber von sich ab. Er schlug mit seinem Schwanz nach Basium, schlug seine Krallen in Basiums Rücken, und stieß einen unmenschlichen Schrei aus, doch alles ohne Erfolg, der Mercurianer war nicht abzuschütteln. Bald war der Dämon nicht mehr als ein fast Mitleid erweckendes Zittern und stöhnen, bis alles was von ihm übrig blieb nur mehr ein höllischer Geruch und zischende Pfützen aus schwarzem Blut waren.[PARAGRAPH:1]Basium erhob sich, und schritt auf die beiden Magier zu und brüllte: "Ihr wagt es einen Balor in meinem eigenen Lager herbeizurufen? Ich werde euch zeigen, was ich mit Feuer mache, ich lösche es aus!" Lars fühlte bereits die warmen Spritzer des Blutes seines Bruders auf seinem Gesicht, bevor er erst bemerkte, dass Basium seinen Kriegshammer gezogen hatte. Den zweiten Schlag merkte er nicht mehr.[PARAGRAPH:1]Basium schritt wieder zu seiner Matte an der Feuerstelle zurück. Er hob seinen Zeremoniendolch auf, und begann, ein W in seinen Arm zu schneiden.</German>
+		<Italian>[TAB]Vi è una parola nella lingua Angelica per "amore". Tre ad esser precisi. Ci sono parole per "pietà", per "compassione" e per "gentilezza". La parola più adatta da usare in questo momento è quella incisa sul suo avambraccio sinistro: "prudenza". Cosi come la parola che aveva giusto completato sul suo torso, "giustizia", questa è una preghiera nella sua lingua nativa scritta con sangue e dolore sulla sua carne ora mortale. "Santità", sulle guance. "Ira", sul suo avambraccio destro. "Giudizio", sulla fronte. "Coraggio", lungo il torso. Ognuna una preghiera verso degli Dei a cui aveva voltato le spalle. Attributi del giudizio divino che cerca di coltivare nella sua anima.[PARAGRAPH:1]Stava giusto finendo di incidere le sue dita della mano destra quando due giovani uomini gli si avvicinarono, venendo oscurati dagli stoici sergenti che li guidavano. "Cosa... cosa state facendo?"[PARAGRAPH:1]"È una preghiera... attraverso il dolore prego di avere la forza per portare a termine il mio compito". Basium si alzò. Sovrastava persino i suoi giganteschi soldati.[PARAGRAPH:1]L'altro uomo deglutì. "Ma voi non siete... non siete un dio? A chi pregate mio signore?"[PARAGRAPH:1]Basium si voltò verso gli uomini. "Perché mi disturbate?"[PARAGRAPH:1]"Io sono Lars Lort, lord Basium. Desideriamo unirci alla vostra causa, me e Kobe. Un orda di bestie Infernali ha distrutto la nostra città, noi siamo gli unici sopravvissuti."[PARAGRAPH:1]"Allora prendete una spada, partiamo all'alba."[PARAGRAPH:1]"Beh, signore, se possiamo" disse Kobe, "noi non siamo semplici mercenari. Vedete, sappiamo usare un pò la magia, è così che siamo sopravvissuti all'assalto, nascosti invisibili. Ma abbiamo osservato, e abbiamo imparato qualcosa. Aspettate, ve lo mostriamo". Senza aspettare il permesso i due giovani maghi iniziarono le loro magie. Basium fece un lento e lungo respiro, la runa sul suo braccio sinistro pulsava.[PARAGRAPH:1]La prima cosa che allertò Basium fù l'odore di zolfo. Tutti i suoi muscoli si tesero appenà lo percepì, ancora prima che si rese conto della presenza del suo nemico. Curiosamente il Balor rimase immobile al centro del campo. "Non è fantastico?" Lars esclamò allegramente. "Abbiamo osservato come gli Infernali facevano arrivare i rinforzi attraverso dei portali, ma siamo stati noi ad escogitare il sigillo di comando attorno al portale. Con noi potrete combattere il fuoco con il fuoco!"[PARAGRAPH:1]Basium saltò addosso alla bestia Infernale, avvolgendo con le sue mani il collo della bestia. Del fumo iniziò subito ad uscire dalla pelle del demone, e in pochi istanti delle fiamme stavano lambendo le dita di Basium. Su ognuna delle sue dita vi era inciso uno dei cinque nomi in lingua angelica del Santissimo. Il Balor si contorse dal dolore, liberandosi dal semplice sigillo di comando di Lort nel mentre. Colpì Basium con la coda, gli graffio la schiena con gli atrigli, urlò con un ruggito soprannaturale, tutto era inutile, il Mercurian era irremovibile. Alla fine il demone si contorse e gemette in maniera quasi pietosa sino a quando l'unica cosa che rimaneva era un odore infernale e una pozza di sangue scuro ribollente.[PARAGRAPH:1]Basium si alzò, e si diresse verso i due maghi. "Voi evocate un Balor nel mio campo? Lasciate che vi mostri cosa faccio io col fuoco... Lo estinguo!" Basium ruggì. Lars senti il sangue caldo del fratello sulla faccia prima ancora di notare che Basium aveva impugnato il suo martello da guerra. Non notò mai il secondo colpo.[PARAGRAPH:1]Basium tornò al suo tappetino vicino al fuoco. Prese il suo pugnale cerimoniale e iniziò a tracciare una I sul suo braccio.</Italian>
+		<Spanish>[TAB]There is a word in the Angelic tongue for "love". Three, in fact. There are words for "mercy", for "compassion", for "tender kindness". The closest word to be used on this particular medium is carved upon his left forearm: "prudence." Like the word he just finished upon his chest, "justice", this is prayer in his native tongue written in blood and pain upon his now mortal flesh. "Holiness", across his cheeks. "Wrath", along his right forearm. "Judgment", his brow. "Courage", down his torso. Each a prayer to gods he turned his back on. Attributes of divine judgment he seeks to cultivate within his soul.[PARAGRAPH:1]He was just finishing carving into the fingers of his right hand when two young men approached the lord, dwarfed by his stone-faced sergeants that led them. "What... what is he doing?"[PARAGRAPH:1]"It is a prayer... with every pain, I beg for the strength to finish my task." He rose. He towered over even his own mammoth soldiers.[PARAGRAPH:1]The other man gulped. "But aren't you... aren't you a god? To whom do you pray, m'lord?"[PARAGRAPH:1]Basium turned to face his men. "Why do you disturb me?"[PARAGRAPH:1]"I am Lars Lort, lord Basium. We wish to join your cause, me an' Kobe here. A horde of Infernal beasts destroyed our hometown, we were the only two survivors."[PARAGRAPH:1]"Then take you a sword-we march on the morn."[PARAGRAPH:1]"Well, sir, if we may," said Kobe, "we two are more than mere sell-swords. See, we've a bit of magic between us, that's how we survived the assault, by hiding invisible like. But we were watching and we learned something. Wait an' we'll show you." Without waiting for prompting, the two young mages began their spells. Basium took a long, slow breath, the rune on his left arm throbbing.[PARAGRAPH:1]It was the Sulfuric smell that first alerted Basium. All his muscles tensed at its arrival before he was able to recognize the presence of his enemy. Curiously, the Balor stood motionless in the middle of camp. "Isn't it great?" Lars exclaimed gleefully. "We watched how the Infernals gated in reinforcements, but we figured out how to put the ward of command around it ourselves. With us around, you can fight fire with fire!"[PARAGRAPH:1]Basium leapt upon the Hell-beast, wrapping his bare fingers around its neck. Smoke began immediately to hiss from the demon's skin, and in moments flames began to lick at Basium's fingers. On each of the fallen angel's fingers was carved one of the five angelic names for the Most Holy One. The Balor writhed in pain, breaking free of Lort's simple command warding in the process. He whipped at Basium with his tail, raked his back with his claws, bellowed with an unearthly roar, all to no avail-the Mercurian was unshakeable. Eventually the demon was reduced to an almost pitiful writhing and moaning until all that was left was a hellish smell and hissing puddles of black blood.[PARAGRAPH:1]Basium rose, and stalked towards the two mages. "You call forth a Balor in my own camp? Let me show you what I do with fire-I extinguish it!" Basium roared. Lars felt his brother's warm blood splatter on his face before he even noticed that Basium had drawn his war hammer. He never noticed the second swing.[PARAGRAPH:1]Basium walked back to his mat by the fire-pit. He picked up his ceremonial dagger, and began to trace the W on his arm.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DIVINE_RETRIBUTION</Tag>
+		<English>Divine Retribution</English>
+		<French>Châtiment divin</French>
+		<German>Göttliche Vergeltung</German>
+		<Italian>Castigo Divino</Italian>
+		<Spanish>Divine Retribution</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DIVINE_RETRIBUTION_HELP</Tag>
+		<English>[ICON_BULLET]Does Damage to all the worlds Demonic and Undead units</English>
+		<French>[ICON_BULLET]Endommage tous les Démons et Mort-vivants du monde</French>
+		<German>[ICON_BULLET]Beschädigt alle Dämonen und untoten Einheiten</German>
+		<Italian>[ICON_BULLET]Danneggia tutte le unità Demoniache e Non Morte</Italian>
+		<Spanish>[ICON_BULLET]Does Damage to all the worlds Demonic and Undead units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PALACE_MERCURIANS</Tag>
+		<English>Mercurian Palace</English>
+		<French>Palais Mercurien</French>
+		<German>Palast der Mercurian</German>
+		<Italian>Palazzo dei Mercurian</Italian>
+		<Spanish>Palacio Mercurian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_CONTROL_MERCURIANS</Tag>
+		<English>You have built the Mercurian Gate and allowed the Mercurians to enter the world. Would you like to abandon your civilization and play as Basium instead?</English>
+		<French>Vous avez construit le Portail Mercurien et permis aux mercuriens d'entrer dans le monde. Voulez-vous abandonner votre civilisation et jouer Basium à la place ?</French>
+		<German>Ihr habt das Tor der Mercurianer errichtet und den Mercurianern Zugang zu dieser Welt verschafft. Wollt Ihr Euch von Eurer Zivilisation abwenden und als Basium weiterspielen?</German>
+		<Italian>Hai costruito il Portale dei Mercurian e permesso a questi ultimi di entrare nel mondo. Desideri abbandonare la tua civiltà e giocare al posto di Basium?</Italian>
+		<Spanish>You have built the Mercurian Gate and allowed the Mercurians to enter the world. Would you like to abandon your civilization and play as Basium instead?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ANGEL_OF_DEATH</Tag>
+		<English>Angel of Death</English>
+		<French>Ange de la Mort</French>
+		<German>Todesengel</German>
+		<Italian>Angelo della Morte</Italian>
+		<Spanish>Angel of Death</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ANGEL_OF_DEATH_PEDIA</Tag>
+		<English>"One may not escape the angel of death, nor say to him, 'Wait until I put my affairs in order,' or 'There is my son, my slave: take him in my stead.'" Where the angel of death appears there is no remedy.</English>
+		<French>"Nul ne peut échapper à l'Ange de la Mort, ou lui dire : 'Attendez que je mette mes affaires en ordre' ou 'Voici mon fils, mon esclave, prenez-le à ma place.' Là où apparaît l'Ange de la Mort, il n'y a aucun échappatoire."</French>
+		<German>"One may not escape the angel of death, nor say to him, 'Wait until I put my affairs in order,' or 'There is my son, my slave: take him in my stead.'" Where the angel of death appears there is no remedy.</German>
+		<Italian>"Uno non può sfuggire all'Angelo della Morte, ne dirgli, 'Aspetta che mettà in ordine i miei affari' o 'C'è mio figlio, o uno schiavo: prendi lui al mio posto'."Quando l'Angelo della Morte arriva non vi è scampo.</Italian>
+		<Spanish>"One may not escape the angel of death, nor say to him, 'Wait until I put my affairs in order,' or 'There is my son, my slave: take him in my stead.'" Where the angel of death appears there is no remedy.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ANGEL_OF_DEATH_STRATEGY</Tag>
+		<English>Angels of Death are invisible and decrease the population of cities they attack by 1.</English>
+		<French>Les Anges de la Mort sont invisibles et diminuent la population des villes qu'ils attaquent de 1.</French>
+		<German>Engel des Todes sind unsichtbar und verringern die Stadtbevölkerung bei Angriff um 1</German>
+		<Italian>Gli Angeli della Morte sono invisibili e riducono la popolazione delle città che attaccano di 1.</Italian>
+		<Spanish>Angels of Death are invisible and decrease the population of cities they attack by 1.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BASIUM_STRATEGY</Tag>
+		<English>Never one to sit back, Basium is glad to join his troops on the front line. Although powerful, a civilization that wages war with him risks his death. If Basium is lost the civilization suffers the loss of its traits.</English>
+		<French>Pas du genre à rester en arrière, Basium se plaît à se joindre à ses troupes au front. Bien que puissant, une civilisation qui l'utilise pour guerroyer risque de le voir mourir. Si Basium est perdu, la civilisation perd également ses traits de dirigeant.</French>
+		<German>Als niemand der hinten herumsitzt, ist Basium froh sich zu seinen Truppen an der Frontline zu gesellen. Obwohl mächtig, riskieren Zivilisationen, die mit ihm Krieg führen seinen Tod. Sollte Basium verloren gehen, leiden die Zivilisationen und der dem Verlust ihrer Anführermerkmale.</German>
+		<Italian>Non essendo mai stato uno che rimane a guardare, Basium è più che felice di partecipare alle battaglie insieme ai suoi uomini. Sebbene molto potente rischia comunque di morire. E se Basium muore la civiltà perde i suoi tratti.</Italian>
+		<Spanish>Never one to sit back, Basium is glad to join his troops on the front line. Although powerful, a civilization that wages war with him risks his death. If Basium is lost the civilization suffers the loss of its traits.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_BASIUM_CREATION</Tag>
+		<English>There is a word in the Angelic tongue for "love". Three, in fact. There are words for "mercy", for "compassion", for "tender kindness". The closest word to be used on this particular medium is carved upon his left forearm: "prudence." Like the word he just finished upon his chest, "justice", this is prayer in his native tongue written in blood and pain upon his now mortal flesh. "Holiness", across his cheeks. "Wrath", along his right forearm. "Judgment", his brow. "Courage", down his torso. Each a prayer to gods he turned his back on. Attributes of divine judgment he seeks to cultivate within his soul.</English>
+		<French>Il y a un mot en langue angélique pour "amour". Trois en fait. Il y a des mots pour " pitié" , pour "compassion", pour "tendresse". Le mot le plus proche de ce champ lexical qu'il utilise est gravé sur son avant-bras gauche : "prudence". Tout comme le mot qu'il venait de finir sur son torse, "justice", c'est une prière dans sa langue native écrite par le sang et la douleur dans sa chair maintenant mortelle. "Sainteté" sur ses joues, "Colère" sur son avant-bras droit,  "Jugement" sur son front, "Courage" dans son dos. Chaque mot était une prière à ces dieux auxquels il avait tourné le dos. Des manifestations du jugement divin qu'il cherchait à cultiver en son âme.</French>
+		<German>In der Sprache der Engel gibt es ein Wort f&#252;r "Liebe". Eigentlich gibt es drei W&#246;rter.  Es gibt eines f&#252;r "Barmherzigkeit", eines f&#252;r "Mitgef&#252;hl" und eines f&#252;r "Sanfte G&#252;te". Das Wort, das dem in Zusammenhang mit dieser Gestalt am n&#228;chsten kommt, ist "Besonnenheit" und in seinen linken Unterarm geritzt. Wie das Wort "Gerechtigkeit", das er mit Blut in sein eigenes, nun sterbliches Fleisch geschnitten hat, stellt es ein Gebet in seiner eigenen Sprache dar. "Heiligkeit" auf seinen Wangen. "Zorn" auf seinem rechten Unterarm. "Richterspruch" auf seiner Stirn. "Tapferkeit" auf seinem gesamten K&#246;rper. Jedes Wort ein Gebet zu G&#246;ttern, denen er den R&#252;cken gekehrt hat. Eigenschaften einer g&#246;ttlichen Einstellung, die er in seiner Seele kultivieren will.</German>
+		<Italian>Vi è una parola nella lingua Angelica per "amore". Tre ad esser precisi. Ci sono parole per "pietà", per "compassione" e per "gentilezza". La parola più adatta da usare in questo momento è quella incisa sul suo avambraccio sinistro: "prudenza". Cosi come la parola che aveva giusto completato sul suo torso, "giustizia", questa è una preghiera nella sua lingua nativa scritta con sangue e dolore sulla sua carne ora mortale. "Santità", sulle guance. "Ira", sul suo avambraccio destro. "Giudizio", sulla fronte. "Coraggio", sulla parte iferiore del torso. Ognuna una preghiera verso degli Dei a cui aveva coltato le spalle. Attributi del giudizio divino che cerca di coltivare nella sua anima.</Italian>
+		<Spanish>There is a word in the Angelic tongue for "love". Three, in fact. There are words for "mercy", for "compassion", for "tender kindness". The closest word to be used on this particular medium is carved upon his left forearm: "prudence." Like the word he just finished upon his chest, "justice", this is prayer in his native tongue written in blood and pain upon his now mortal flesh. "Holiness", across his cheeks. "Wrath", along his right forearm. "Judgment", his brow. "Courage", down his torso. Each a prayer to gods he turned his back on. Attributes of divine judgment he seeks to cultivate within his soul.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HERALD</Tag>
+		<English>Herald</English>
+		<French>Héraut</French>
+		<German>Herald</German>
+		<Italian>Araldo</Italian>
+		<Spanish>Herald</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HERALD_STRATEGY</Tag>
+		<English>Heralds have the Herald's Call ability. With it they grant every allied living unit in their plot the Blessed, Valor, Courage and Loyalty promotions. But the unit dies at the end of the turn. For most civilizations this would be devastating in all but the most extreme circumstances, but living units that die in the Mercurians service are reborn as [LINK=UNIT_ANGEL]Angels[\LINK].</English>
+		<French>Les Hérauts possèdent la capacité [LINK=SPELL_HERALDS_CALL]Appel du Héraut[\LINK]. Elle leur permet de conférer à chaque unité alliée sur la case les promotions Loyauté, Courage, Valeur et Sang Brûlant mais les tuera à la fin du tour. Pour la plupart des civilisation ça serait le dernier recours au vu du prix à payer, mais les unités vivantes mercuriennes qui meurent reviennent à la vie en tant qu'[LINK=UNIT_ANGEL]Anges[\LINK].</French>
+		<German>Heralds have the Herald's Call ability. With it they grant every allied living unit in their plot the Blessed, Valor, Courage and Loyalty promotions. But the unit dies at the end of the turn. For most civilizations this would be devastating in all but the most extreme circumstances, but living units that die in the Mercurians service are reborn as [LINK=UNIT_ANGEL]Angels[\LINK].</German>
+		<Italian>Gli Araldi possiedono l'abilità Chiamata dell'Araldo. Con essa forniscono a tutte le unità viventi presenti sullo stesso quadrato le promozioni Benedetto, Valore, Coraggio e Fedeltà. Ma tali unità muoiono alla fine del turno. Per la maggior parte delle civiltà questo sarebbe una soluzione da usare solo nelle situazioni estreme, ma le unità viventi che muoiono al servizio dei Mercurian rinascono come [LINK=UNIT_ANGEL]Angeli[\LINK].</Italian>
+		<Spanish>Heralds have the Herald's Call ability. With it they grant every allied living unit in their plot the Blessed, Valor, Courage and Loyalty promotions. But the unit dies at the end of the turn. For most civilizations this would be devastating in all but the most extreme circumstances, but living units that die in the Mercurians service are reborn as [LINK=UNIT_ANGEL]Angels[\LINK].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_OPHANIM</Tag>
+		<English>Ophanim</English>
+		<French>Ophanim</French>
+		<German>Ophanim</German>
+		<Italian>Ophanim</Italian>
+		<Spanish>Ophanim</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_OPHANIM_STRATEGY</Tag>
+		<English>The Ophanim is a flying angelic chariot. Use it to attack across water and land alike.</English>
+		<French>L'Ophanim est un chariot angélique volant, qui peut être utilisé pour attaquer indifféremment depuis l'eau ou la terre.</French>
+		<German>The Ophanim is a flying angelic chariot. Use it to attack across water and land alike.</German>
+		<Italian>L'Ophanim è un carro volante angelico. Usalo per attaccare senza preoccuparti della geografia.</Italian>
+		<Spanish>The Ophanim is a flying angelic chariot. Use it to attack across water and land alike.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_REPENTANT_ANGEL</Tag>
+		<English>Repentant Angel</English>
+		<French>Ange Repentant</French>
+		<German>Reumütiger Engel</German>
+		<Italian>Angelo Penitente</Italian>
+		<Spanish>Repentant Angel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_REPENTANT_ANGEL_PEDIA</Tag>
+		<English>Repentant Angels are powerful, but they lose 1 point of strength every time they kill a living creature.</English>
+		<French>L'Ange Repentant est puissant, mais perd un point de force chaque fois qu'il tue une unité vivante.</French>
+		<German>Reumütige Engel sind sehr mächtig aber sie verlieren jedesmal einen Punkt an Stärke wenn sie eine lebende Einheit töten</German>
+		<Italian>Gli Angeli Penitenti sono molto forti, ma perdono 1 punto di forza ogni volta che uccidono un'unità vivente.</Italian>
+		<Spanish>Repentant Angels are powerful, but they lose 1 point of strength every time they kill a living creature.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SERAPH</Tag>
+		<English>Seraph</English>
+		<French>Séraphin</French>
+		<German>Feuerengel</German>
+		<Italian>Serafino</Italian>
+		<Spanish>Seraph</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SERAPH_STRATEGY</Tag>
+		<English>The sons of fire are powerful attackers, they do collateral damage to stacks they attack and can even learn to cast fire spells. They are a terror to enemy units and can decimate entire armies.</English>
+		<French>Les Séraphins, les fils du feu, sont des attaquants puissants, infligeant des dégâts collatéraux à la pile lors de leurs attaques et capables d'apprendre à lancer des sorts de feu. Ils sont la terreur des unités ennemies et sont capables de décimer des armées entières.</French>
+		<German>The sons of fire are powerful attackers, they do collateral damage to stacks they attack and can even learn to cast fire spells. They are a terror to enemy units and can decimate entire armies.</German>
+		<Italian>I Serafini, i figli del fuoco, sono degli attaccanti molto potenti, fanno danno collaterale ai gruppi che attaccano e possono pure imparare a lanciare magie del fuoco. Sono il terrore delle unità nemiche, e possono decimare eserciti interi.</Italian>
+		<Spanish>The sons of fire are powerful attackers, they do collateral damage to stacks they attack and can even learn to cast fire spells. They are a terror to enemy units and can decimate entire armies.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VALKYRIE</Tag>
+		<English>Valkyrie</English>
+		<French>Valkyrie</French>
+		<German>Walküre</German>
+		<Italian>Valchiria</Italian>
+		<Spanish>Valkyrie</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_VALKYRIE_STRATEGY</Tag>
+		<English>Valkyries are immortal units and will be reborn in your capital if killed. As such they are great defenders of your units in the field, sacrificing themselves to save their allies.</English>
+		<French>Les Valkyries sont des unités immortelles, qui renaîtront à votre capitale si elles sont tuées. En conséquence, ce sont des défenseurs exceptionnels pour vos unités sur le champ de bataille, se sacrifiant pour sauver leur alliés.</French>
+		<German>Valkyries are immortal units and will be reborn in your capital if killed. As such they are great defenders of your units in the field, sacrificing themselves to save their allies.</German>
+		<Italian>Le Valchirie sono unità immortali, e rinascono nella tua capitale quando vengono uccise. Pertanto sono ottime difenditrici delle tue unità in campo, sacrificano loro stesse per salvare i loro alleati.</Italian>
+		<Spanish>Valkyries are immortal units and will be reborn in your capital if killed. As such they are great defenders of your units in the field, sacrificing themselves to save their allies.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SOLAR</Tag>
+		<English>Solar</English>
+		<French>Solaire</French>
+		<German>Solar</German>
+		<Italian>Solar</Italian>
+		<Spanish>Solar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SOLAR_PEDIA</Tag>
+		<English>Solars are used as guardians of the most important waypoints and portals for their strength and because nothing can be hidden from their view. Solars are true angels, a direct creation of a god and not the ascendance of a once mortal soul, so they are comparable to the demonic Balors.</English>
+		<French>Solars are used as guardians of the most important waypoints and portals for their strength and because nothing can be hidden from their view. Solars are true angels, a direct creation of a god and not the ascendance of a once mortal soul, so they are comparable to the demonic Balors.</French>
+		<German>Solars are used as guardians of the most important waypoints and portals for their strength and because nothing can be hidden from their view. Solars are true angels, a direct creation of a god and not the ascendance of a once mortal soul, so they are comparable to the demonic Balors.</German>
+		<Italian>Solars are used as guardians of the most important waypoints and portals for their strength and because nothing can be hidden from their view. Solars are true angels, a direct creation of a god and not the ascendance of a once mortal soul, so they are comparable to the demonic Balors.</Italian>
+		<Spanish>Solars are used as guardians of the most important waypoints and portals for their strength and because nothing can be hidden from their view. Solars are true angels, a direct creation of a god and not the ascendance of a once mortal soul, so they are comparable to the demonic Balors.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RUNEWYN</Tag>
+		<English>Runewyn</English>
+		<French>Runewyn</French>
+		<German>Runewyn</German>
+		<Italian>Runewyn</Italian>
+		<Spanish>Runewyn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_RUNEWYN_PEDIA</Tag>
+		<English>The runewyns are winged angels who are immune to all magic. They are frequently sent to battle powerful wizards or to cross magical barriers. They can drain away all but the most powerful spells with a touch.</English>
+		<French>The runewyns are winged angels who are immune to all magic. They are frequently sent to battle powerful wizards or to cross magical barriers. They can drain away all but the most powerful spells with a touch.</French>
+		<German>The runewyns are winged angels who are immune to all magic. They are frequently sent to battle powerful wizards or to cross magical barriers. They can drain away all but the most powerful spells with a touch.</German>
+		<Italian>The runewyns are winged angels who are immune to all magic. They are frequently sent to battle powerful wizards or to cross magical barriers. They can drain away all but the most powerful spells with a touch.</Italian>
+		<Spanish>The runewyns are winged angels who are immune to all magic. They are frequently sent to battle powerful wizards or to cross magical barriers. They can drain away all but the most powerful spells with a touch.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SACRED_KEEPER</Tag>
+		<English>Sacred Guardian</English>
+		<French>Gardien sacré</French>
+		<German>Sacred Guardian</German>
+		<Italian>Sacred Guardian</Italian>
+		<Spanish>Sacred Guardian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DOVOVEO_PEDIA</Tag>
+		<English>These powerful angels inhabit a specific site in creation. Within their site they have almost complete control and these sites tend to be the most sacred of holy areas. One is said to be an island where people never die.</English>
+		<French>These powerful angels inhabit a specific site in creation. Within their site they have almost complete control and these sites tend to be the most sacred of holy areas. One is said to be an island where people never die.</French>
+		<German>These powerful angels inhabit a specific site in creation. Within their site they have almost complete control and these sites tend to be the most sacred of holy areas. One is said to be an island where people never die.</German>
+		<Italian>These powerful angels inhabit a specific site in creation. Within their site they have almost complete control and these sites tend to be the most sacred of holy areas. One is said to be an island where people never die.</Italian>
+		<Spanish>These powerful angels inhabit a specific site in creation. Within their site they have almost complete control and these sites tend to be the most sacred of holy areas. One is said to be an island where people never die.</Spanish>
+	</TEXT>
+</Civ4GameText>

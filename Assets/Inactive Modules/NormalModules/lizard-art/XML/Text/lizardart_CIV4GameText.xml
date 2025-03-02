@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMMANDER_MAZATL</Tag>
+		<English>Canopy Walker</English>
+		<French>Canopy Walker</French>
+		<German>Canopy Walker</German>
+		<Italian>Canopy Walker</Italian>
+		<Spanish>Canopy Walker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMMANDER_MAZATL_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FORT_COMMANDER_MAZATL</Tag>
+		<English>Canopy Guard</English>
+		<French>Canopy Guard</French>
+		<German>Canopy Guard</German>
+		<Italian>Canopy Guard</Italian>
+		<Spanish>Canopy Guard</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FORT_COMMANDER_MAZATL_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMMANDER_CUALLI</Tag>
+		<English>Canopy Stalker</English>
+		<French>Canopy Stalker</French>
+		<German>Canopy Stalker</German>
+		<Italian>Canopy Stalker</Italian>
+		<Spanish>Canopy Stalker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COMMANDER_CUALLI_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FORT_COMMANDER_CUALLI</Tag>
+		<English>Canopy Tyrant</English>
+		<French>Canopy Tyrant</French>
+		<German>Canopy Tyrant</German>
+		<Italian>Canopy Tyrant</Italian>
+		<Spanish>Canopy Tyrant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FORT_COMMANDER_CUALLI_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANOPY_COMMANDER</Tag>
+		<English>Canopy Commander</English>
+		<French>Canopy Commander</French>
+		<German>Canopy Commander</German>
+		<Italian>Canopy Commander</Italian>
+		<Spanish>Canopy Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANOPY_WALKING</Tag>
+		<English>Canopy Walking</English>
+		<French>Canopy Walking</French>
+		<German>Canopy Walking</German>
+		<Italian>Canopy Walking</Italian>
+		<Spanish>Canopy Walking</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANOPY_VISION</Tag>
+		<English>Canopy Vision</English>
+		<French>Canopy Vision</French>
+		<German>Canopy Vision</German>
+		<Italian>Canopy Vision</Italian>
+		<Spanish>Canopy Vision</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANOPY_VISION_EMPYREAN</Tag>
+		<English>Canopy Vision (Omorr)</English>
+		<French>Canopy Vision (Omorr)</French>
+		<German>Canopy Vision (Omorr)</German>
+		<Italian>Canopy Vision (Omorr)</Italian>
+		<Spanish>Canopy Vision (Omorr)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANOPY_VISION_KILMORPH</Tag>
+		<English>Canopy Vision (Kalshekk)</English>
+		<French>Canopy Vision (Kalshekk)</French>
+		<German>Canopy Vision (Kalshekk)</German>
+		<Italian>Canopy Vision (Kalshekk)</Italian>
+		<Spanish>Canopy Vision (Kalshekk)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANOPY_WARLORD</Tag>
+		<English>Canopy Warlord</English>
+		<French>Canopy Warlord</French>
+		<German>Canopy Warlord</German>
+		<Italian>Canopy Warlord</Italian>
+		<Spanish>Canopy Warlord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANOPY_STALKING</Tag>
+		<English>Canopy Stalking</English>
+		<French>Canopy Stalking</French>
+		<German>Canopy Stalking</German>
+		<Italian>Canopy Stalking</Italian>
+		<Spanish>Canopy Stalking</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANOPY_STEALTH</Tag>
+		<English>Canopy Stealth</English>
+		<French>Canopy Stealth</French>
+		<German>Canopy Stealth</German>
+		<Italian>Canopy Stealth</Italian>
+		<Spanish>Canopy Stealth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANOPY_STEALTH_BLOCK</Tag>
+		<English>Canopy Stealth (Exposed)</English>
+		<French>Canopy Stealth (Exposed)</French>
+		<German>Canopy Stealth (Exposed)</German>
+		<Italian>Canopy Stealth (Exposed)</Italian>
+		<Spanish>Canopy Stealth (Exposed)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CANOPY_TYRANNY</Tag>
+		<English>Canopy Tyranny</English>
+		<French>Canopy Tyranny</French>
+		<German>Canopy Tyranny</German>
+		<Italian>Canopy Tyranny</Italian>
+		<Spanish>Canopy Tyranny</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_JUNGLEBOUND</Tag>
+		<English>Junglebound</English>
+		<French>Junglebound</French>
+		<German>Junglebound</German>
+		<Italian>Junglebound</Italian>
+		<Spanish>Junglebound</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_JUNGLEBOUND_PEDIA</Tag>
+		<English>Outside of the jungle this unit will acquire the [LINK=PROMOTION_UNFAMILIAR_TERRAIN]Unfamiliar Terrain[\LINK] promotion.</English>
+		<French>Outside of the jungle this unit will acquire the [LINK=PROMOTION_UNFAMILIAR_TERRAIN]Unfamiliar Terrain[\LINK] promotion.</French>
+		<German>Outside of the jungle this unit will acquire the [LINK=PROMOTION_UNFAMILIAR_TERRAIN]Unfamiliar Terrain[\LINK] promotion.</German>
+		<Italian>Outside of the jungle this unit will acquire the [LINK=PROMOTION_UNFAMILIAR_TERRAIN]Unfamiliar Terrain[\LINK] promotion.</Italian>
+		<Spanish>Outside of the jungle this unit will acquire the [LINK=PROMOTION_UNFAMILIAR_TERRAIN]Unfamiliar Terrain[\LINK] promotion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_UNFAMILIAR_TERRAIN</Tag>
+		<English>Unfamiliar Terrain</English>
+		<French>Unfamiliar Terrain</French>
+		<German>Unfamiliar Terrain</German>
+		<Italian>Unfamiliar Terrain</Italian>
+		<Spanish>Unfamiliar Terrain</Spanish>
+	</TEXT>	
+</Civ4GameText>

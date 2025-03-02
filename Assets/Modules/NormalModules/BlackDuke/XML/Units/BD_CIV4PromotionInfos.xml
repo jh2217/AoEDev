@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<!-- Formatted by Xienwolf -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Promotion Infos -->
+<Civ4PromotionInfos xmlns="x-schema:BD_CIV4UnitSchema.xml">
+	<PromotionInfos>
+		<PromotionInfo>		<!-- The Black Duke's Gentlemen -->
+			<Type>PROMOTION_BLACK_DUKE</Type>
+			<Description>TXT_KEY_PROMOTION_BLACK_DUKE</Description>
+			<Button>Art/Modules/BlackDuke/Units/BlackDuke/tilea_dualist.dds</Button>
+			<PyHelp>getHelpBlackDuke</PyHelp>
+			
+			<PromotionCombatMods>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_HERO</PromotionType>
+					<iCombatMod>20</iCombatMod>
+				</PromotionCombatMod>			
+			</PromotionCombatMods>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Black Duke - Melee 1 -->
+			<Type>PROMOTION_BD_MELEE1</Type>
+			<Description>Black Duke's Gentlemen - Melee 1</Description>
+			<TempUnitCombat>UNITCOMBAT_MELEE</TempUnitCombat>
+			<bEffectProm>1</bEffectProm>
+			<iCityAttack>25</iCityAttack>
+			<iExtraCombatStr>4</iExtraCombatStr>
+			<iExtraCombatDefense>2</iExtraCombatDefense>
+			<Button>Art/Interface/Buttons/Units/UCGreatCommander.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BD_MELEE1</UnitArtStyleType>
+			<iGroupSize>4</iGroupSize>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Black Duke - Melee 2 -->
+			<Type>PROMOTION_BD_MELEE2</Type>
+			<Description>Black Duke's Gentlemen - Melee 2</Description>
+			<TempUnitCombat>UNITCOMBAT_DEFENSIVE_MELEE</TempUnitCombat>
+			<bEffectProm>1</bEffectProm>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>2</iChanceFirstStrikesChange>
+			<iExtraCombatStr>2</iExtraCombatStr>
+			<iExtraCombatDefense>4</iExtraCombatDefense>
+			<Button>Art/Interface/Buttons/Units/UCGreatCommander.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BD_MELEE2</UnitArtStyleType>
+			<iGroupSize>4</iGroupSize>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Black Duke - Melee 3 -->
+			<Type>PROMOTION_BD_MELEE3</Type>
+			<Description>Black Duke's Gentlemen - Melee 3</Description>
+			<TempUnitCombat>UNITCOMBAT_MELEE</TempUnitCombat>
+			<bEffectProm>1</bEffectProm>
+			<iExtraCombatStr>1</iExtraCombatStr>
+			<iExtraCombatDefense>1</iExtraCombatDefense>
+			<SecondaryUnitCombats>
+				<SecondaryUnitCombat>UNITCOMBAT_COMMANDER</SecondaryUnitCombat>
+			</SecondaryUnitCombats>
+			<iCommandLimit>3</iCommandLimit>
+			<iCommandRange>1</iCommandRange>
+			<Button>Art/Interface/Buttons/Units/UCGreatCommander.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BD_MELEE3</UnitArtStyleType>
+			<iGroupSize>4</iGroupSize>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Black Duke - Recon 1 -->
+			<Type>PROMOTION_BD_RECON1</Type>
+			<Description>Black Duke's Gentlemen - Recon 1</Description>
+			<TempUnitCombat>UNITCOMBAT_RECON</TempUnitCombat>
+			<bEffectProm>1</bEffectProm>
+			<iExtraCombatStr>4</iExtraCombatStr>
+			<iExtraCombatDefense>0</iExtraCombatDefense>
+			<iWithdrawalChange>15</iWithdrawalChange>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>2</iChanceFirstStrikesChange>
+			<Button>Art/Interface/Buttons/Units/UCGreatCommander.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BD_RECON1</UnitArtStyleType>
+			<iGroupSize>4</iGroupSize>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Black Duke - Recon 2 -->
+			<Type>PROMOTION_BD_RECON2</Type>
+			<Description>Black Duke's Gentlemen - Recon 2</Description>
+			<TempUnitCombat>UNITCOMBAT_ROGUE</TempUnitCombat>
+			<bEffectProm>1</bEffectProm>
+			<iInvisibleLevel>2</iInvisibleLevel>
+			<iExtraCombatStr>3</iExtraCombatStr>
+			<iExtraCombatDefense>-1</iExtraCombatDefense>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>2</iChanceFirstStrikesChange>
+			<Button>Art/Interface/Buttons/Units/UCGreatCommander.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BD_RECON2</UnitArtStyleType>
+			<iGroupSize>4</iGroupSize>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Black Duke - Recon 3 -->
+			<Type>PROMOTION_BD_RECON3</Type>
+			<Description>Black Duke's Gentlemen - Recon 3</Description>
+			<TempUnitCombat>UNITCOMBAT_RECON</TempUnitCombat>
+			<bEffectProm>1</bEffectProm>
+			<iMovesChange>1</iMovesChange>
+			<iExtraCombatStr>2</iExtraCombatStr>
+			<iExtraCombatDefense>0</iExtraCombatDefense>
+			<iWithdrawalChange>15</iWithdrawalChange>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>2</iChanceFirstStrikesChange>
+			<Button>Art/Interface/Buttons/Units/UCGreatCommander.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BD_RECON3</UnitArtStyleType>
+			<iGroupSize>4</iGroupSize>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Black Duke - Archer 1 -->
+			<Type>PROMOTION_BD_ARCHER1</Type>
+			<Description>Black Duke's Gentlemen - Archer 1</Description>
+			<TempUnitCombat>UNITCOMBAT_ARCHER</TempUnitCombat>
+			<bEffectProm>1</bEffectProm>
+			<iAirCombat>6</iAirCombat>
+			<iAirCombatLimitBoost>40</iAirCombatLimitBoost>
+			<iAirRangeChange>2</iAirRangeChange>
+			<iExtraCombatStr>0</iExtraCombatStr>
+			<iExtraCombatDefense>0</iExtraCombatDefense>
+			<iDefensiveStrikeChance>30</iDefensiveStrikeChance>
+			<iDefensiveStrikeDamage>15</iDefensiveStrikeDamage>
+			<Button>Art/Interface/Buttons/Units/UCGreatCommander.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BD_ARCHER1</UnitArtStyleType>
+			<iGroupSize>4</iGroupSize>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Black Duke - Mounted 1 -->
+			<Type>PROMOTION_BD_MOUNTED1</Type>
+			<Description>Black Duke's Gentlemen - Mounted 1</Description>
+			<TempUnitCombat>UNITCOMBAT_MOUNTED</TempUnitCombat>
+			<SecondaryUnitCombats>
+				<SecondaryUnitCombat>UNITCOMBAT_ARCHER</SecondaryUnitCombat>
+			</SecondaryUnitCombats>
+			<bNoDefenseBonus>1</bNoDefenseBonus>
+			<bEffectProm>1</bEffectProm>
+			<iMovesChange>1</iMovesChange>
+			<iAirRangeChange>1</iAirRangeChange>
+			<iAirCombat>3</iAirCombat>
+			<iAirCombatLimitBoost>20</iAirCombatLimitBoost>
+			<iExtraCombatStr>0</iExtraCombatStr>
+			<iExtraCombatDefense>0</iExtraCombatDefense>
+			<iWithdrawalChange>15</iWithdrawalChange>
+			<Button>Art/Interface/Buttons/Units/UCGreatCommander.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BD_MOUNTED1</UnitArtStyleType>
+			<iGroupSize>4</iGroupSize>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Black Duke - Mounted 2 -->
+			<Type>PROMOTION_BD_MOUNTED2</Type>
+			<Description>Black Duke's Gentlemen - Mounted 2</Description>
+			<TempUnitCombat>UNITCOMBAT_MOUNTED</TempUnitCombat>
+			<bNoDefenseBonus>1</bNoDefenseBonus>
+			<bEffectProm>1</bEffectProm>
+			<iMovesChange>1</iMovesChange>
+			<iExtraCombatStr>3</iExtraCombatStr>
+			<iExtraCombatDefense>3</iExtraCombatDefense>
+			<iWithdrawalChange>15</iWithdrawalChange>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>2</iChanceFirstStrikesChange>
+			<Button>Art/Interface/Buttons/Units/UCGreatCommander.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BD_MOUNTED2</UnitArtStyleType>
+			<iGroupSize>4</iGroupSize>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Black Duke - Adept 1 -->
+			<Type>PROMOTION_BD_ADEPT1</Type>
+			<Description>Black Duke's Gentlemen - Adept 1</Description>
+			<TempUnitCombat>UNITCOMBAT_MELEE</TempUnitCombat>
+			<bEffectProm>1</bEffectProm>
+			<SecondaryUnitCombats>
+				<SecondaryUnitCombat>UNITCOMBAT_ADEPT</SecondaryUnitCombat>
+			</SecondaryUnitCombats>
+			<iExtraCombatStr>1</iExtraCombatStr>
+			<iExtraCombatDefense>1</iExtraCombatDefense>
+			<Button>Art/Interface/Buttons/Units/UCGreatCommander.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_BD_ADEPT1</UnitArtStyleType>
+			<iGroupSize>4</iGroupSize>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+	</PromotionInfos>
+</Civ4PromotionInfos>

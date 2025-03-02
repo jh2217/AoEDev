@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4UnitArtStyleTypeInfos xmlns="x-schema:CIV4CivilizationsSchema.xml">
+	<UnitArtStyleTypeInfos>
+		<UnitArtStyleTypeInfo>
+			<Type>UNIT_ARTSTYLE_LIZARD_MAZATL</Type>
+			<StyleUnits>
+				
+				<StyleUnit>
+					<UnitType>UNIT_MERCHANT</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_MERCHANT_MAZATL</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_MERCHANT_MAZATL</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_MERCHANT_MAZATL</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+				
+				<StyleUnit>
+					<UnitType>UNIT_LIZARD_BLOWPIPE</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_BLOWPIPE_MAZATL_NEW</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_BLOWPIPE_MAZATL_NEW</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_BLOWPIPE_MAZATL_NEW</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_BLOWPIPE_MAZATL_NEW</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_BLOWPIPE_MAZATL_NEW</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_BLOWPIPE_MAZATL_NEW</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+
+				<StyleUnit>
+					<UnitType>UNIT_JAVELIN_THROWER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_MAZATL_NEW</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_MAZATL_NEW</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_MAZATL_NEW</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_MAZATL_NEW</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_MAZATL_NEW</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_MAZATL_NEW</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_MAZATL_NEW</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_MAZATL_NEW</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_JAVELIN_THROWER_MAZATL_NEW</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+
+				<StyleUnit>
+					<UnitType>UNIT_WARRIOR</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_MAZATL_NEW_2</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_WARRIOR_MAZATL_NEW_2</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_WARRIOR_MAZATL_NEW_2</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_MAZATL_NEW</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_WARRIOR_MAZATL_NEW</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_WARRIOR_MAZATL_NEW</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_WARRIOR_MAZATL_NEW_3</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_WARRIOR_MAZATL_NEW_3</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_WARRIOR_MAZATL_NEW_3</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+
+				<StyleUnit>
+					<UnitType>UNIT_CATAPULT</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_CATAPULT_MAZATL</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_CATAPULT_MAZATL</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_CATAPULT_MAZATL</MiddleArtDefineTag>
+					</UnitMeshGroup>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_CATAPULT_MAZATL</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_CATAPULT_MAZATL</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_CATAPULT_MAZATL</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+			</StyleUnits>
+		</UnitArtStyleTypeInfo>
+		</UnitArtStyleTypeInfos>
+</Civ4UnitArtStyleTypeInfos>

@@ -1,0 +1,407 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Soren Johnson (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Project -->
+<Civ4ProjectInfo xmlns="x-schema:CIV4GameInfoSchema.xml">
+	<ProjectInfos>
+		<ProjectInfo>		<!-- Appease Divinity -->
+			<Type>PROJECT_APPEASE_DIVINITY</Type>
+			<Description>TXT_KEY_PROJECT_APPEASE_DIVINITY</Description>
+			<Civilopedia>TXT_KEY_PROJECT_APPEASE_DIVINITY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_APPEASE_DIVINITY_STRATEGY</Strategy>
+			<bPrereqBlockBonuses>1</bPrereqBlockBonuses>
+			<iCost>200</iCost>
+			<iRestoreBonuses>1</iRestoreBonuses>
+			<Button>Art/Interface/Buttons/Projects/Appease Divinity.dds</Button>
+			<iAIWeight>50</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Bane Divine -->
+			<Type>PROJECT_BANE_DIVINE</Type>
+			<Description>TXT_KEY_PROJECT_BANE_DIVINE</Description>
+			<Civilopedia>TXT_KEY_PROJECT_BANE_DIVINE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_BANE_DIVINE_STRATEGY</Strategy>
+			<TechPrereq>TECH_MALEVOLENT_DESIGNS</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iPrereqGlobalCounter>70</iPrereqGlobalCounter>
+			<iCost>10000</iCost>
+			<Button>Art/Interface/Buttons/Projects/Bane Divine.dds</Button>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_DEATH</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_ENTROPY</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
+			<iAIWeight>300</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Birthright Regained -->
+			<Type>PROJECT_BIRTHRIGHT_REGAINED</Type>
+			<Description>TXT_KEY_PROJECT_BIRTHRIGHT_REGAINED</Description>
+			<Civilopedia>TXT_KEY_PROJECT_BIRTHRIGHT_REGAINED_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_BIRTHRIGHT_REGAINED_STRATEGY</Strategy>
+			<TechPrereq>TECH_OMNISCIENCE</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iAIWeight>50</iAIWeight>
+			<iCost>700</iCost>
+			<Button>Art/Interface/Buttons/Projects/Birthright Regained.dds</Button>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Blood of the Phoenix -->
+			<Type>PROJECT_BLOOD_OF_THE_PHOENIX</Type>
+			<Description>TXT_KEY_PROJECT_BLOOD_OF_THE_PHOENIX</Description>
+			<Civilopedia>TXT_KEY_PROJECT_BLOOD_OF_THE_PHOENIX_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_BLOOD_OF_THE_PHOENIX_STRATEGY</Strategy>
+			<TechPrereq>TECH_DIVINE_ESSENCE</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>1000</iCost>
+			<Button>Art/Interface/Buttons/Promotions/Immortal.dds</Button>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_LIFE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
+			<iAIWeight>300</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Chosen of Esus -->
+			<Type>PROJECT_CHOSEN_OF_ESUS</Type>
+			<Description>TXT_KEY_PROJECT_CHOSEN_OF_ESUS</Description>
+			<Civilopedia>TXT_KEY_PROJECT_CHOSEN_OF_ESUS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_CHOSEN_OF_ESUS_STRATEGY</Strategy>
+			<TechPrereq>TECH_DECEPTION</TechPrereq>
+			<iMaxTeamInstances>2</iMaxTeamInstances>
+			<PrereqAlignments>
+				<Alignment>ALIGNMENT_EVIL</Alignment>
+				<Alignment>ALIGNMENT_NEUTRAL</Alignment>
+			</PrereqAlignments>
+			<iCost>500</iCost>
+			<iCooldown>30</iCooldown>
+			<iHideUnits>10</iHideUnits>
+			<Button>Art/Interface/Buttons/Projects/Chosen of Esus.dds</Button>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Curse the Lands -->
+			<Type>PROJECT_BLIGHT_THE_CROPS</Type>
+			<Description>TXT_KEY_PROJECT_BLIGHT_THE_CROPS</Description>
+			<Civilopedia>TXT_KEY_PROJECT_BLIGHT_THE_CROPS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_BLIGHT_THE_CROPS_STRATEGY</Strategy>
+			<TechPrereq>TECH_NEVER</TechPrereq>
+			<bPrereqWar>1</bPrereqWar>
+			<iMaxTeamInstances>1</iMaxTeamInstances>
+			<iCost>1800</iCost>
+			<iBlockBonuses>5</iBlockBonuses>
+			<iCooldown>75</iCooldown>
+			<Button>Art/Interface/Buttons/Projects/Blight the Crops.dds</Button>
+			<iAIWeight>50</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Dowsing -->
+			<Type>PROJECT_DOWSING</Type>
+			<Description>TXT_KEY_PROJECT_DOWSING</Description>
+			<Civilopedia>TXT_KEY_PROJECT_DOWSING_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_DOWSING_STRATEGY</Strategy>
+			<TechPrereq>TECH_MYSTICISM</TechPrereq>
+			<iCost>100</iCost>
+			<iRevealAllBonuses>5</iRevealAllBonuses>
+			<Button>Art/Interface/Buttons/Projects/Divination.dds</Button>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Elegy of the Sheaim -->
+			<Type>PROJECT_ELEGY_OF_THE_SHEAIM</Type>
+			<Description>TXT_KEY_PROJECT_ELEGY_OF_THE_SHEAIM</Description>
+			<Civilopedia>TXT_KEY_PROJECT_ELEGY_OF_THE_SHEAIM_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_ELEGY_OF_THE_SHEAIM_STRATEGY</Strategy>
+			<TechPrereq>TECH_WAY_OF_THE_WICKED</TechPrereq>
+			<iCost>600</iCost>
+			<Button>Art/Interface/Buttons/Projects/Elegy of the Sheaim.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_SHEAIM</PrereqCivilization>
+			</PrereqCivilizations>
+			<iModifyGlobalCounter>5</iModifyGlobalCounter>
+			<iAIWeight>100</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Genesis -->
+			<Type>PROJECT_GENESIS</Type>
+			<Description>TXT_KEY_PROJECT_GENESIS</Description>
+			<Civilopedia>TXT_KEY_PROJECT_GENESIS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_GENESIS_STRATEGY</Strategy>
+			<TechPrereq>TECH_COMMUNE_WITH_NATURE</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>1250</iCost>
+			<Button>Art/Interface/Buttons/Projects/Genesis.dds</Button>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_NATURE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
+			<iAIWeight>200</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Glory Everlasting -->
+			<Type>PROJECT_GLORY_EVERLASTING</Type>
+			<Description>TXT_KEY_PROJECT_GLORY_EVERLASTING</Description>
+			<Civilopedia>TXT_KEY_PROJECT_GLORY_EVERLASTING_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_GLORY_EVERLASTING_STRATEGY</Strategy>
+			<TechPrereq>TECH_RIGHTEOUSNESS</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iPrereqGlobalCounter>70</iPrereqGlobalCounter>
+			<iCost>10000</iCost>
+			<Button>Art/Interface/Buttons/Projects/Glory Everlasting.dds</Button>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_LAW</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_LIFE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
+			<iAIWeight>300</iAIWeight>
+			<iModifyGlobalCounter>-40</iModifyGlobalCounter>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Hallowing of the Elohim -->
+			<Type>PROJECT_HALLOWING_OF_THE_ELOHIM</Type>
+			<Description>TXT_KEY_PROJECT_HALLOWING_OF_THE_ELOHIM</Description>
+			<Civilopedia>TXT_KEY_PROJECT_HALLOWING_OF_THE_ELOHIM_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_HALLOWING_OF_THE_ELOHIM_STRATEGY</Strategy>
+			<TechPrereq>TECH_WAY_OF_THE_WISE</TechPrereq>
+			<iCost>600</iCost>
+			<Button>Art/Interface/Buttons/Projects/Hallowing of the Elohim.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ELOHIM</PrereqCivilization>
+			</PrereqCivilizations>
+			<iPrereqGlobalCounter>1</iPrereqGlobalCounter>
+			<iModifyGlobalCounter>-5</iModifyGlobalCounter>
+			<iAIWeight>200</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Light of Lugus -->
+			<Type>PROJECT_LIGHT_OF_LUGUS</Type>
+			<Description>TXT_KEY_PROJECT_LIGHT_OF_LUGUS</Description>
+			<Civilopedia>TXT_KEY_PROJECT_LIGHT_OF_LUGUS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_LIGHT_OF_LUGUS_STRATEGY</Strategy>
+			<TechPrereq>TECH_HONOR</TechPrereq>
+			<iMaxTeamInstances>4</iMaxTeamInstances>
+			<PrereqAlignments>
+				<Alignment>ALIGNMENT_GOOD</Alignment>
+				<Alignment>ALIGNMENT_NEUTRAL</Alignment>
+			</PrereqAlignments>
+			<iCost>200</iCost>
+			<iCooldown>10</iCooldown>
+			<iSeeInvisible>3</iSeeInvisible>
+			<Button>Art/Interface/Buttons/Projects/Light of Lugus.dds</Button>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Mana Surge -->
+			<Type>PROJECT_MANA_SURGE</Type>
+			<Description>TXT_KEY_PROJECT_MANA_SURGE</Description>
+			<Civilopedia>TXT_KEY_PROJECT_MANA_SURGE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_MANA_SURGE_STRATEGY</Strategy>
+			<TechPrereq>TECH_NEVER</TechPrereq>
+			<bResetProjects>1</bResetProjects>
+			<bResistable>1</bResistable>
+			<iResistBase>50</iResistBase>
+			<iResistMax>95</iResistMax>
+			<iResistMin>15</iResistMin>
+			<iMaxTeamInstances>3</iMaxTeamInstances>
+			<iCost>50</iCost>
+			<iAIWeight>50</iAIWeight>
+			<iCooldown>200</iCooldown>
+			<Button>Art/Interface/Buttons/Projects/Mana Surge.dds</Button>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_METAMAGIC</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Nature's Revolt -->
+			<Type>PROJECT_NATURES_REVOLT</Type>
+			<Description>TXT_KEY_PROJECT_NATURES_REVOLT</Description>
+			<Civilopedia>TXT_KEY_PROJECT_NATURES_REVOLT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_NATURES_REVOLT_STRATEGY</Strategy>
+			<TechPrereq>TECH_ANIMAL_HANDLING</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>1000</iCost>
+			<Button>Art/Interface/Buttons/Projects/Natures Revolt.dds</Button>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_NATURE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
+			<MovieDefineTag>ART_DEF_MOVIE_NATURES_REVOLT</MovieDefineTag>
+			<ForcePeaceWithCivilization>CIVILIZATION_ANIMAL</ForcePeaceWithCivilization>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Purge the Unfaithful -->
+			<Type>PROJECT_PURGE_THE_UNFAITHFUL</Type>
+			<Description>TXT_KEY_PROJECT_PURGE_THE_UNFAITHFUL</Description>
+			<Civilopedia>TXT_KEY_PROJECT_PURGE_THE_UNFAITHFUL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_PURGE_THE_UNFAITHFUL_STRATEGY</Strategy>
+			<TechPrereq>TECH_PRIESTHOOD</TechPrereq>
+			<iMaxTeamInstances>1</iMaxTeamInstances>
+			<iCost>350</iCost>
+			<Button>Art/Interface/Buttons/Projects/Purge the Unfaithful.dds</Button>
+			<MovieDefineTag>ART_DEF_MOVIE_PURGE_THE_UNFAITHFUL</MovieDefineTag>
+			<iAIWeight>100</iAIWeight>
+			<iModifyGlobalCounter>3</iModifyGlobalCounter>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Rites of Oghma - Full Fields for use as a Template -->
+			<Type>PROJECT_RITES_OF_OGHMA</Type>
+			<Description>TXT_KEY_PROJECT_RITES_OF_OGHMA</Description>
+			<Civilopedia>TXT_KEY_PROJECT_RITES_OF_OGHMA_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_RITES_OF_OGHMA_STRATEGY</Strategy>
+			<VictoryPrereq>NONE</VictoryPrereq>
+			<TechPrereq>TECH_STRENGTH_OF_WILL</TechPrereq>
+			<AnyonePrereqProject>NONE</AnyonePrereqProject>
+			<bPrereqBlockBonuses>0</bPrereqBlockBonuses>
+			<bPrereqWar>0</bPrereqWar>
+			<iPrereqBroadAlignment>0</iPrereqBroadAlignment>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<PrereqAlignments/>
+			<iCost>2500</iCost>
+			<iAlignmentModifier>0</iAlignmentModifier>
+			<iBlockBonuses>0</iBlockBonuses>
+			<iCooldown>0</iCooldown>
+			<iHideUnits>0</iHideUnits>
+			<iNukeInterception>0</iNukeInterception>
+			<iRestoreBonuses>0</iRestoreBonuses>
+			<iRevealAllBonuses>0</iRevealAllBonuses>
+			<iSeeInvisible>0</iSeeInvisible>
+			<iTechShare>0</iTechShare>
+			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
+			<EveryoneSpecialBuilding>NONE</EveryoneSpecialBuilding>
+			<bSpaceship>0</bSpaceship>
+			<bAllowsNukes>0</bAllowsNukes>
+			<Button>Art/Interface/Buttons/Projects/Rites of Oghma.dds</Button>
+			<PrereqProjects/>
+			<VictoryThresholds/>
+			<VictoryMinThresholds/>
+			<iVictoryDelayPercent>0</iVictoryDelayPercent>
+			<iSuccessRate>0</iSuccessRate>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_METAMAGIC</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
+			<CreateSound/>
+			<MovieDefineTag>ART_DEF_MOVIE_RITES_OF_OGHMA</MovieDefineTag>
+		</ProjectInfo>
+		<ProjectInfo> <!-- Samhain -->
+			<Type>PROJECT_SAMHAIN</Type>
+			<Description>TXT_KEY_PROJECT_SAMHAIN</Description>
+			<Civilopedia>TXT_KEY_PROJECT_SAMHAIN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_SAMHAIN_STRATEGY</Strategy>
+			<AnyonePrereqProject>NONE</AnyonePrereqProject>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>200</iCost>
+			<Button>Art/Interface/Buttons/Units/Mokka.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+			</PrereqCivilizations>
+			<iAIWeight>300</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>	<!-- The White Hand -->
+			<Type>PROJECT_THE_WHITE_HAND</Type>
+			<Description>TXT_KEY_PROJECT_THE_WHITE_HAND</Description>
+			<Civilopedia>TXT_KEY_PROJECT_THE_WHITE_HAND_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_THE_WHITE_HAND_STRATEGY</Strategy>
+			<TechPrereq>TECH_PHILOSOPHY</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>400</iCost>
+			<Button>Art/Interface/Buttons/Units/Priest of Winter.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+			</PrereqCivilizations>
+			<iAIWeight>300</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>	<!-- The Deepening -->
+			<Type>PROJECT_THE_DEEPENING</Type>
+			<Description>TXT_KEY_PROJECT_THE_DEEPENING</Description>
+			<Civilopedia>TXT_KEY_PROJECT_THE_DEEPENING_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_THE_DEEPENING_STRATEGY</Strategy>
+			<TechPrereq>TECH_PRIESTHOOD</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>600</iCost>
+			<Button>Art/Interface/Buttons/TerrainFeatures/Blizzard.dds</Button>
+			<iAIWeight>300</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>	<!-- Stir From Slumber -->
+			<Type>PROJECT_STIR_FROM_SLUMBER</Type>
+			<Description>TXT_KEY_PROJECT_STIR_FROM_SLUMBER</Description>
+			<Civilopedia>TXT_KEY_PROJECT_STIR_FROM_SLUMBER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_STIR_FROM_SLUMBER_STRATEGY</Strategy>
+			<TechPrereq>TECH_DIVINE_ESSENCE</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>900</iCost>
+			<Button>Art/Interface/Buttons/Units/Drifa.dds</Button>
+			<iAIWeight>300</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>	<!-- The Draw -->
+			<Type>PROJECT_THE_DRAW</Type>
+			<Description>TXT_KEY_PROJECT_THE_DRAW</Description>
+			<Civilopedia>TXT_KEY_PROJECT_THE_DRAW_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_THE_DRAW_STRATEGY</Strategy>
+			<TechPrereq>TECH_STRENGTH_OF_WILL</TechPrereq>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>900</iCost>
+			<Button>Art/Interface/Buttons/Projects/The Draw.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+			</PrereqCivilizations>
+			<iAIWeight>300</iAIWeight>
+			<iModifyGlobalCounter>10</iModifyGlobalCounter>
+		</ProjectInfo>
+		<ProjectInfo>	<!-- Ascension -->
+			<Type>PROJECT_ASCENSION</Type>
+			<Description>TXT_KEY_PROJECT_ASCENSION</Description>
+			<Civilopedia>TXT_KEY_PROJECT_ASCENSION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_ASCENSION_STRATEGY</Strategy>
+			<AnyonePrereqProject>PROJECT_THE_DRAW</AnyonePrereqProject>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iCost>1200</iCost>
+			<Button>Art/Interface/Buttons/Units/Auric Ascended.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ILLIANS</PrereqCivilization>
+			</PrereqCivilizations>
+			<iAIWeight>1000</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Pax Diabolis -->
+			<Type>PROJECT_PAX_DIABOLIS</Type>
+			<Description>TXT_KEY_PROJECT_PAX_DIABOLIS</Description>
+			<Civilopedia>TXT_KEY_PROJECT_PAX_DIABOLIS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_PAX_DIABOLIS_STRATEGY</Strategy>
+			<iMaxTeamInstances>1</iMaxTeamInstances>
+			<iCost>2000</iCost>
+			<Button>Art/Interface/Buttons/TechTree/Infernalpact.dds</Button>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_ENTROPY</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_CHAOS</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MANA_FIRE</BonusType>
+					<iProductonModifier>50</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
+			<iAIWeight>50</iAIWeight>
+		</ProjectInfo>
+		<ProjectInfo>		<!-- Prepare Expedition -->
+			<Type>PROJECT_PREPARE_EXPEDITION</Type>
+			<Description>TXT_KEY_PROJECT_PREPARE_EXPEDITION</Description>
+			<Civilopedia>TXT_KEY_PROJECT_PREPARE_EXPEDITION_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_PREPARE_EXPEDITION_STRATEGY</Strategy>
+			<iCost>120</iCost>
+			<Button>Art/Interface/Buttons/Projects/PrepareExpedition.dds</Button>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_AUSTRIN</PrereqCivilization>
+			</PrereqCivilizations>
+			<iAIWeight>25</iAIWeight>
+		</ProjectInfo>
+	</ProjectInfos>
+</Civ4ProjectInfo>

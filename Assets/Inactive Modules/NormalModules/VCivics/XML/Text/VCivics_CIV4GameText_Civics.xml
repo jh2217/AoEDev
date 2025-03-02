@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ARISTOCRACY_HELP_V_OVR</Tag>
+		<English>[ICON_BULLET]Allows access to [LINK=UNIT_ROYAL_GUARD]Royal Guard[\LINK] units</English>
+		<French>[ICON_BULLET]Donne accès à l'unité [LINK=UNIT_ROYAL_GUARD]Garde Royale[\LINK]</French>
+		<German>[ICON_BULLET]erlaubt [LINK=UNIT_ROYAL_GUARD]Garde des Königs[\LINK]</German>
+		<Italian>[ICON_BULLET]Allows access to [LINK=UNIT_ROYAL_GUARD]Royal Guard[\LINK] units</Italian>
+		<Spanish>[ICON_BULLET]Permite acceder a las unidades de [LINK=UNIT_ROYAL_GUARD]Guardia Real[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CITY_STATES_HELP</Tag>
+		<English>[ICON_BULLET]Every city is governed by a sovereign with a random set of traits</English>
+		<French>Magocracy</French>
+		<German>Magocracy</German>
+		<Italian>Magocracy</Italian>
+		<Spanish>Magocracy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MAGOCRACY</Tag>
+		<English>Magocracy</English>
+		<French>Magocracy</French>
+		<German>Magocracy</German>
+		<Italian>Magocracy</Italian>
+		<Spanish>Magocracy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MAGOCRACY_PEDIA</Tag>
+		<English>A magocracy fundamentally resembles a classical aristocracy, wherein leadership is bestowed upon the most proficient individuals; however, in this instance, proficiency is defined by one's mastery of magic. Unlike many traditional aristocracies, this principle holds true more often than not, owing to the inherent difficulty of the arcane sciences. In morally questionable nations, a weak mage will likely find themselves at the hot end of a fireball if unable to adequately defend their position.[PARAGRAPH:2]Within a magocracy, aspiring individuals must possess some degree of magical aptitude to attain prominence, with those possessing exceptional magical prowess assuming leadership roles in government, academia, and military affairs. Nevertheless, this system harbors a significant flaw, as numerous brilliant scientists and artisans have found themselves relegated to mundane roles due to their lack of magical talent.[PARAGRAPH:2]"Amidst the swirling mists of the arcane, my tale found its bitter conclusion. In the heart of power's grasp, my brilliance wilted beneath the gaze of those who wielded magic as their scepter. Let my fate serve as a warning: in realms where the ethereal holds sway, even the most steadfast souls risk becoming mere shadows, lost in the labyrinth of enchantment's allure."[PARAGRAPH]- Magnus the Unseen</English>
+		<French>A magocracy fundamentally resembles a classical aristocracy, wherein leadership is bestowed upon the most proficient individuals; however, in this instance, proficiency is defined by one's mastery of magic. Unlike many traditional aristocracies, this principle holds true more often than not, owing to the inherent difficulty of the arcane sciences. In morally questionable nations, a weak mage will likely find themselves at the hot end of a fireball if unable to adequately defend their position.[PARAGRAPH:2]Within a magocracy, aspiring individuals must possess some degree of magical aptitude to attain prominence, with those possessing exceptional magical prowess assuming leadership roles in government, academia, and military affairs. Nevertheless, this system harbors a significant flaw, as numerous brilliant scientists and artisans have found themselves relegated to mundane roles due to their lack of magical talent.[PARAGRAPH:2]"Amidst the swirling mists of the arcane, my tale found its bitter conclusion. In the heart of power's grasp, my brilliance wilted beneath the gaze of those who wielded magic as their scepter. Let my fate serve as a warning: in realms where the ethereal holds sway, even the most steadfast souls risk becoming mere shadows, lost in the labyrinth of enchantment's allure."[PARAGRAPH]- Magnus the Unseen</French>
+		<German>A magocracy fundamentally resembles a classical aristocracy, wherein leadership is bestowed upon the most proficient individuals; however, in this instance, proficiency is defined by one's mastery of magic. Unlike many traditional aristocracies, this principle holds true more often than not, owing to the inherent difficulty of the arcane sciences. In morally questionable nations, a weak mage will likely find themselves at the hot end of a fireball if unable to adequately defend their position.[PARAGRAPH:2]Within a magocracy, aspiring individuals must possess some degree of magical aptitude to attain prominence, with those possessing exceptional magical prowess assuming leadership roles in government, academia, and military affairs. Nevertheless, this system harbors a significant flaw, as numerous brilliant scientists and artisans have found themselves relegated to mundane roles due to their lack of magical talent.[PARAGRAPH:2]"Amidst the swirling mists of the arcane, my tale found its bitter conclusion. In the heart of power's grasp, my brilliance wilted beneath the gaze of those who wielded magic as their scepter. Let my fate serve as a warning: in realms where the ethereal holds sway, even the most steadfast souls risk becoming mere shadows, lost in the labyrinth of enchantment's allure."[PARAGRAPH]- Magnus the Unseen</German>
+		<Italian>A magocracy fundamentally resembles a classical aristocracy, wherein leadership is bestowed upon the most proficient individuals; however, in this instance, proficiency is defined by one's mastery of magic. Unlike many traditional aristocracies, this principle holds true more often than not, owing to the inherent difficulty of the arcane sciences. In morally questionable nations, a weak mage will likely find themselves at the hot end of a fireball if unable to adequately defend their position.[PARAGRAPH:2]Within a magocracy, aspiring individuals must possess some degree of magical aptitude to attain prominence, with those possessing exceptional magical prowess assuming leadership roles in government, academia, and military affairs. Nevertheless, this system harbors a significant flaw, as numerous brilliant scientists and artisans have found themselves relegated to mundane roles due to their lack of magical talent.[PARAGRAPH:2]"Amidst the swirling mists of the arcane, my tale found its bitter conclusion. In the heart of power's grasp, my brilliance wilted beneath the gaze of those who wielded magic as their scepter. Let my fate serve as a warning: in realms where the ethereal holds sway, even the most steadfast souls risk becoming mere shadows, lost in the labyrinth of enchantment's allure."[PARAGRAPH]- Magnus the Unseen</Italian>
+		<Spanish>A magocracy fundamentally resembles a classical aristocracy, wherein leadership is bestowed upon the most proficient individuals; however, in this instance, proficiency is defined by one's mastery of magic. Unlike many traditional aristocracies, this principle holds true more often than not, owing to the inherent difficulty of the arcane sciences. In morally questionable nations, a weak mage will likely find themselves at the hot end of a fireball if unable to adequately defend their position.[PARAGRAPH:2]Within a magocracy, aspiring individuals must possess some degree of magical aptitude to attain prominence, with those possessing exceptional magical prowess assuming leadership roles in government, academia, and military affairs. Nevertheless, this system harbors a significant flaw, as numerous brilliant scientists and artisans have found themselves relegated to mundane roles due to their lack of magical talent.[PARAGRAPH:2]"Amidst the swirling mists of the arcane, my tale found its bitter conclusion. In the heart of power's grasp, my brilliance wilted beneath the gaze of those who wielded magic as their scepter. Let my fate serve as a warning: in realms where the ethereal holds sway, even the most steadfast souls risk becoming mere shadows, lost in the labyrinth of enchantment's allure."[PARAGRAPH]- Magnus the Unseen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_MAGOCRACY_HELP</Tag>
+		<English>[ICON_BULLET]Free Promotions [LINK=PROMOTION_ARCANE_PRIVILEGE]Arcane Privilege[\LINK], [LINK=PROMOTION_ARCANE_AUTHORITY]Authority[\LINK] and [LINK=PROMOTION_ARCANE_SUPREMACY]Supremacy[\LINK] for [LINK=UNITCOMBAT_ADEPT]Arcane Units[\LINK]</English>
+		<French>[ICON_BULLET]Free Promotions [LINK=PROMOTION_ARCANE_PRIVILEGE]Arcane Privilege[\LINK], [LINK=PROMOTION_ARCANE_AUTHORITY]Authority[\LINK] and [LINK=PROMOTION_ARCANE_SUPREMACY]Supremacy[\LINK] for [LINK=UNITCOMBAT_ADEPT]Arcane Units[\LINK]</French>
+		<German>[ICON_BULLET]Free Promotions [LINK=PROMOTION_ARCANE_PRIVILEGE]Arcane Privilege[\LINK], [LINK=PROMOTION_ARCANE_AUTHORITY]Authority[\LINK] and [LINK=PROMOTION_ARCANE_SUPREMACY]Supremacy[\LINK] for [LINK=UNITCOMBAT_ADEPT]Arcane Units[\LINK]</German>
+		<Italian>[ICON_BULLET]Free Promotions [LINK=PROMOTION_ARCANE_PRIVILEGE]Arcane Privilege[\LINK], [LINK=PROMOTION_ARCANE_AUTHORITY]Authority[\LINK] and [LINK=PROMOTION_ARCANE_SUPREMACY]Supremacy[\LINK] for [LINK=UNITCOMBAT_ADEPT]Arcane Units[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Free Promotions [LINK=PROMOTION_ARCANE_PRIVILEGE]Arcane Privilege[\LINK], [LINK=PROMOTION_ARCANE_AUTHORITY]Authority[\LINK] and [LINK=PROMOTION_ARCANE_SUPREMACY]Supremacy[\LINK] for [LINK=UNITCOMBAT_ADEPT]Arcane Units[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_IMPERIUM</Tag>
+		<English>Imperium</English>
+		<French>Imperium</French>
+		<German>Imperium</German>
+		<Italian>Imperium</Italian>
+		<Spanish>Imperium</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_IMPERIUM_PEDIA</Tag>
+		<English>The Imperium, also known as the Imperial Monarchy, is an expansive empire governed by an emperor whose primary objectives revolve around expansion and fostering trade. In order to effectively administer its vast territories, the Imperium relies upon a sophisticated bureaucracy and maintains a formidable military presence, ensuring the stability and security of its dominion.[PARAGRAPH]- Aurelius Decimus, philosopher and historian</English>
+		<French>The Imperium, also known as the Imperial Monarchy, is an expansive empire governed by an emperor whose primary objectives revolve around expansion and fostering trade. In order to effectively administer its vast territories, the Imperium relies upon a sophisticated bureaucracy and maintains a formidable military presence, ensuring the stability and security of its dominion.[PARAGRAPH]- Aurelius Decimus, philosopher and historian</French>
+		<German>The Imperium, also known as the Imperial Monarchy, is an expansive empire governed by an emperor whose primary objectives revolve around expansion and fostering trade. In order to effectively administer its vast territories, the Imperium relies upon a sophisticated bureaucracy and maintains a formidable military presence, ensuring the stability and security of its dominion.[PARAGRAPH]- Aurelius Decimus, philosopher and historian</German>
+		<Italian>The Imperium, also known as the Imperial Monarchy, is an expansive empire governed by an emperor whose primary objectives revolve around expansion and fostering trade. In order to effectively administer its vast territories, the Imperium relies upon a sophisticated bureaucracy and maintains a formidable military presence, ensuring the stability and security of its dominion.[PARAGRAPH]- Aurelius Decimus, philosopher and historian</Italian>
+		<Spanish>The Imperium, also known as the Imperial Monarchy, is an expansive empire governed by an emperor whose primary objectives revolve around expansion and fostering trade. In order to effectively administer its vast territories, the Imperium relies upon a sophisticated bureaucracy and maintains a formidable military presence, ensuring the stability and security of its dominion.[PARAGRAPH]- Aurelius Decimus, philosopher and historian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_IMPERIUM_HELP</Tag>
+		<English>[ICON_BULLET]Free Technology [LINK=TECH_IMPERIAL_BUREAUCRACY]Imperial Bureaucracy[\LINK]</English>
+		<French>[ICON_BULLET]Free Technology [LINK=TECH_IMPERIAL_BUREAUCRACY]Imperial Bureaucracy[\LINK]</French>
+		<German>[ICON_BULLET]Free Technology [LINK=TECH_IMPERIAL_BUREAUCRACY]Imperial Bureaucracy[\LINK]</German>
+		<Italian>[ICON_BULLET]Free Technology [LINK=TECH_IMPERIAL_BUREAUCRACY]Imperial Bureaucracy[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Free Technology [LINK=TECH_IMPERIAL_BUREAUCRACY]Imperial Bureaucracy[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_THEOCRACY_PEDIA_V_OVR</Tag>
+		<English>In the sanctified embrace of our nation's unyielding faith, our leaders rise as champions of divine supremacy, their every mandate a thunderous proclamation of the gods' will. In their righteous fury, they purge the heretics and infidels, ensuring our realm remains untainted by the corrupting influence of the unbelievers.[PARAGRAPH]- Unknown</English>
+		<French>In the sanctified embrace of our nation's unyielding faith, our leaders rise as champions of divine supremacy, their every mandate a thunderous proclamation of the gods' will. In their righteous fury, they purge the heretics and infidels, ensuring our realm remains untainted by the corrupting influence of the unbelievers.[PARAGRAPH]- Unknown</French>
+		<German>In the sanctified embrace of our nation's unyielding faith, our leaders rise as champions of divine supremacy, their every mandate a thunderous proclamation of the gods' will. In their righteous fury, they purge the heretics and infidels, ensuring our realm remains untainted by the corrupting influence of the unbelievers.[PARAGRAPH]- Unknown</German>
+		<Italian>In the sanctified embrace of our nation's unyielding faith, our leaders rise as champions of divine supremacy, their every mandate a thunderous proclamation of the gods' will. In their righteous fury, they purge the heretics and infidels, ensuring our realm remains untainted by the corrupting influence of the unbelievers.[PARAGRAPH]- Unknown</Italian>
+		<Spanish>In the sanctified embrace of our nation's unyielding faith, our leaders rise as champions of divine supremacy, their every mandate a thunderous proclamation of the gods' will. In their righteous fury, they purge the heretics and infidels, ensuring our realm remains untainted by the corrupting influence of the unbelievers.[PARAGRAPH]- Unknown</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_THEOCRACY_HELP</Tag>
+		<English>[ICON_BULLET]Free Promotion [LINK=PROMOTION_ZEALOTRY]Zealotry[\LINK] for Disciple Units</English>
+		<French>[ICON_BULLET]Free Promotion [LINK=PROMOTION_ZEALOTRY]Zealotry[\LINK] for Disciple Units</French>
+		<German>[ICON_BULLET]Free Promotion [LINK=PROMOTION_ZEALOTRY]Zealotry[\LINK] for Disciple Units</German>
+		<Italian>[ICON_BULLET]Free Promotion [LINK=PROMOTION_ZEALOTRY]Zealotry[\LINK] for Disciple Units</Italian>
+		<Spanish>[ICON_BULLET]Free Promotion [LINK=PROMOTION_ZEALOTRY]Zealotry[\LINK] for Disciple Units</Spanish>
+	</TEXT>
+</Civ4GameText>

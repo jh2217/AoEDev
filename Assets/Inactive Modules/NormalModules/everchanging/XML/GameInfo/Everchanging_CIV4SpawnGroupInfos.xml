@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<Civ4SpawnGroupInfos xmlns="x-schema:Everchanging_CIV4GameInfoSchema.xml">
+	<SpawnGroupInfos>
+		<SpawnGroupInfo>	<!--  Saila -->
+			<Type>SPAWN_GROUP_SAILA</Type>
+			<Description>TXT_KEY_UNIT_SAILA</Description>
+			<Civilopedia>TXT_KEY_POPUP_SAILA_CREATION</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SAILA_STRATEGY</Strategy>
+			<bUnique>1</bUnique>
+			<bNeverSpawn>1</bNeverSpawn>
+			<bAlwaysSpawn>1</bAlwaysSpawn>
+			<iPrereqMinTurn>1</iPrereqMinTurn>
+			<iWeight>1000</iWeight>
+			<GroupUnits>
+				<GroupUnit>
+					<Unit>UNIT_SAILA</Unit>
+					<iNumUnits>1</iNumUnits>
+				</GroupUnit>
+			</GroupUnits>
+			<Banner>Art/Modules/everchanging/Popups/saila_banner.dds</Banner>
+		</SpawnGroupInfo>
+	</SpawnGroupInfos>
+</Civ4SpawnGroupInfos>

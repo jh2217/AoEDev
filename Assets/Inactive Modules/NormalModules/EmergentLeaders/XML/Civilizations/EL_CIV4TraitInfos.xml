@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<!-- Leader Trait Infos -->
+<Civ4TraitInfos xmlns="x-schema:EL_CIV4CivilizationsSchema.xml">
+	<TraitInfos>
+		<TraitInfo>		<!-- Incorporeal 1 -->
+			<Type>TRAIT_INCORPOREAL</Type>
+			<NextTrait>TRAIT_INCORPOREAL2</NextTrait>
+			<iLevel>1</iLevel>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_INCORPOREAL_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_INCORPOREAL_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_INCORPOREAL</Description>
+			<ShortDescription>TXT_KEY_TRAIT_INCORPOREAL_SHORT</ShortDescription>
+		</TraitInfo>
+		<TraitInfo>		<!-- Incorporeal 2-->
+			<Type>TRAIT_INCORPOREAL2</Type>
+			<ParentTrait>TRAIT_INCORPOREAL</ParentTrait>
+			<NextTrait>TRAIT_INCORPOREAL3</NextTrait>
+			<iLevel>2</iLevel>
+			<iMinRequiredPoints>300</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_INCORPOREAL_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_INCORPOREAL_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_INCORPOREAL</Description>
+			<ShortDescription>TXT_KEY_TRAIT_INCORPOREAL_SHORT</ShortDescription>
+		</TraitInfo>
+		<TraitInfo>		<!-- Incorporeal 3-->
+			<Type>TRAIT_INCORPOREAL3</Type>
+			<ParentTrait>TRAIT_INCORPOREAL</ParentTrait>
+			<iLevel>3</iLevel>
+			<iMinRequiredPoints>1500</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_INCORPOREAL_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_INCORPOREAL_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_INCORPOREAL</Description>
+			<ShortDescription>TXT_KEY_TRAIT_INCORPOREAL_SHORT</ShortDescription>
+		</TraitInfo>
+		<TraitInfo>		<!-- Matriarch 1 -->
+			<Type>TRAIT_PATRIARCH</Type>
+			<NextTrait>TRAIT_PATRIARCH2</NextTrait>
+			<iLevel>1</iLevel>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_PATRIARCH_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_PATRIARCH_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_PATRIARCH</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PATRIARCH_SHORT</ShortDescription>
+			<iGreatPeopleRateModifier>-15</iGreatPeopleRateModifier>
+		</TraitInfo>
+		<TraitInfo>		<!-- Matriarch 2-->
+			<Type>TRAIT_PATRIARCH2</Type>
+			<ParentTrait>TRAIT_PATRIARCH</ParentTrait>
+			<NextTrait>TRAIT_PATRIARCH3</NextTrait>
+			<iLevel>2</iLevel>
+			<iMinRequiredPoints>300</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_PATRIARCH_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_PATRIARCH_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_PATRIARCH</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PATRIARCH_SHORT</ShortDescription>
+		</TraitInfo>
+		<TraitInfo>		<!-- Matriarch 3-->
+			<Type>TRAIT_PATRIARCH3</Type>
+			<ParentTrait>TRAIT_PATRIARCH</ParentTrait>
+			<iLevel>3</iLevel>
+			<iMinRequiredPoints>1000</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_PATRIARCH_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_PATRIARCH_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_PATRIARCH</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PATRIARCH_SHORT</ShortDescription>
+		</TraitInfo>
+		<TraitInfo>		<!-- Pyromancer 1 -->
+			<Type>TRAIT_PYROMANCER</Type>
+			<NextTrait>TRAIT_PYROMANCER2</NextTrait>
+			<iLevel>1</iLevel>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_PYROMANCER_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_PYROMANCER_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_PYROMANCER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PYROMANCER_SHORT</ShortDescription>
+		</TraitInfo>
+		<TraitInfo>		<!-- Pyromancer 2-->
+			<Type>TRAIT_PYROMANCER2</Type>
+			<ParentTrait>TRAIT_PYROMANCER</ParentTrait>
+			<NextTrait>TRAIT_PYROMANCER3</NextTrait>
+			<iLevel>2</iLevel>
+			<iMinRequiredPoints>500</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_PYROMANCER_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_PYROMANCER_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_PYROMANCER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PYROMANCER_SHORT</ShortDescription>
+		</TraitInfo>
+		<TraitInfo>		<!-- Pyromancer 3-->
+			<Type>TRAIT_PYROMANCER3</Type>
+			<ParentTrait>TRAIT_PYROMANCER</ParentTrait>
+			<iLevel>3</iLevel>
+			<iMinRequiredPoints>3000</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_PYROMANCER_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_PYROMANCER_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_PYROMANCER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_PYROMANCER_SHORT</ShortDescription>
+		</TraitInfo>
+		<TraitInfo>		<!-- Warleader 1 -->
+			<Type>TRAIT_WARLEADER</Type>
+			<NextTrait>TRAIT_WARLEADER2</NextTrait>
+			<iLevel>1</iLevel>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_WARLEADER_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_WARLEADER_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_WARLEADER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WARLEADER_SHORT</ShortDescription>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_CORPORAL</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
+		</TraitInfo>
+		<TraitInfo>		<!-- Warleader 2-->
+			<Type>TRAIT_WARLEADER2</Type>
+			<ParentTrait>TRAIT_WARLEADER</ParentTrait>
+			<NextTrait>TRAIT_WARLEADER3</NextTrait>
+			<iLevel>2</iLevel>
+			<iMinRequiredPoints>300</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_WARLEADER_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_WARLEADER_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_WARLEADER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WARLEADER_SHORT</ShortDescription>
+		</TraitInfo>
+		<TraitInfo>		<!-- Warleader 3-->
+			<Type>TRAIT_WARLEADER3</Type>
+			<ParentTrait>TRAIT_WARLEADER</ParentTrait>
+			<iLevel>3</iLevel>
+			<iMinRequiredPoints>3000</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<Help>TXT_KEY_TRAIT_WARLEADER_HELP</Help>
+			<Civilopedia>TXT_KEY_TRAIT_WARLEADER_PEDIA</Civilopedia>
+			<Description>TXT_KEY_TRAIT_WARLEADER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WARLEADER_SHORT</ShortDescription>
+		</TraitInfo>
+	</TraitInfos>
+</Civ4TraitInfos>

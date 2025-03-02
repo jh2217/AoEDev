@@ -1,0 +1,16 @@
+[name]
+ColorBlindText
+[version]
+0.1
+[rifeversion]
+368
+[author]
+black_imp
+[shortdesc]
+changes text color for better accessibility
+[desc]
+changes text color for better accessibility
+Only standard text colors have been added so far, additional ones (or faction colors) can be added on request. To change a specific color, just go into the ColorVal xml file, search for the one you want and adjust the values.
+;[dependency]
+;[compatible]
+

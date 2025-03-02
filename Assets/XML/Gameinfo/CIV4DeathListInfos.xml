@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+
+<Civ4DeathListInfos xmlns="x-schema:CIV4GameInfoSchema.xml">
+	<DeathListInfos>
+		<DeathListInfo>
+			<Type>DEATHLIST_BASIUM</Type>
+			<Description>TXT_KEY_DEATHLIST_BASIUM</Description>
+		</DeathListInfo>
+		<DeathListInfo>
+			<Type>DEATHLIST_NETHERBLADE</Type>
+			<Description>TXT_KEY_DEATHLIST_NETHERBLADE</Description>
+		</DeathListInfo>
+		<DeathListInfo>
+			<Type>DEATHLIST_DEMON_CONVERSION</Type>
+			<Description>TXT_KEY_DEATHLIST_DEMON_CONVERSION</Description>
+		</DeathListInfo>
+		<DeathListInfo>
+			<Type>DEATHLIST_ANGEL_CONVERSION</Type>
+			<Description>TXT_KEY_DEATHLIST_ANGEL_CONVERSION</Description>
+		</DeathListInfo>
+		<DeathListInfo>
+			<Type>DEATHLIST_BASIUM_DEMON</Type>
+			<Description>TXT_KEY_DEATHLIST_BASIUM_DEMON</Description>
+		</DeathListInfo>
+		<DeathListInfo>
+			<Type>DEATHLIST_DEMON_REBIRTH</Type>
+			<Description>TXT_KEY_DEATHLIST_DEMON_REBIRTH</Description>
+		</DeathListInfo>
+	</DeathListInfos>
+</Civ4DeathListInfos>

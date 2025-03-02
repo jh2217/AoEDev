@@ -1,0 +1,36 @@
+;Name - no need to explain
+;note: one line
+[name]
+Flight of Drakes
+;
+;
+;Version - version of module
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[version]
+1.0
+;
+;
+;RifE version - version of RifE for which is this module tested, checked, developed, etc
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[rifeversion]
+14.11
+;
+;
+;Author - you
+;note: one line
+[author]
+Bearmarshal
+;
+;
+;Short description - text showed in contect menu
+;note: one line
+[shortdesc]
+Join captured drakes together to form a flock
+;
+;
+;Description - text showed in message box
+;note: can be multiline
+[desc]
+Wild drakes are fiercely territorial and distrustful of their own kin, but if you could get them to coexist, they would be a force to reckon with, or a powerful source of elemental magic.

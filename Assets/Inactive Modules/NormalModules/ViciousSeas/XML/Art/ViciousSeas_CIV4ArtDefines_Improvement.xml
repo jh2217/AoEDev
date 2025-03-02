@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Unit art path information -->
+<Civ4ArtDefines xmlns="x-schema:ViciousSeas_CIV4ArtDefinesSchema.xml">
+	<ImprovementArtInfos>
+	<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_SEA_SERPENT_NEST</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>0.12</fScale>
+			<fInterfaceScale>0.2</fInterfaceScale>
+			<NIF>Art/Modules/MagisterAshes/Improvements/AbaddonsPit/AbaddonsPit.nif</NIF>
+			<KFM/>
+			<Button>Art/Modules/MagisterAshes/Buttons/AbaddonsPit.dds</Button>
+		</ImprovementArtInfo>	
+		<ImprovementArtInfo> 		<!-- Ocean Tower -->
+			<Type>ART_DEF_IMPROVEMENT_OCEAN_TOWER</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>1</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Modules/NormalModules/ViciousSeas/Art/Structures/Improvements/Lairs/Ocean Tower/OceanTower.NIF</NIF>
+			<KFM/>
+			<Button>Modules/NormalModules/ViciousSeas/Art/Structures/Improvements/Lairs/Ocean Tower/AbandonedLighthouse.dds</Button>
+		</ImprovementArtInfo>
+		<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_TITAN_LAIR</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>12.0</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<NIF>Art/Structures/Improvements/Lairs/Gorilla Den/ScorpionNest.nif</NIF>
+			<KFM/>
+			<Button>Modules/NormalModules/ViciousSeas/Art/Structures/Improvements/Lairs/TitanTurtleLair/JaggedDragon.dds</Button>
+		</ImprovementArtInfo>
+	</ImprovementArtInfos>
+</Civ4ArtDefines>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:Dural_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+		<SpellInfo>			<!-- Great Works -->
+			<Type>SPELL_GREAT_WORKS</Type>
+			<Description>TXT_KEY_SPELL_GREATWORKS</Description>
+			<Civilopedia>TXT_KEY_SPELL_GREATWORKS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_SPELL_GREATWORKS_STRATEGY</Strategy>
+			<Help>TXT_KEY_SPELL_GREATWORKS_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_DURAL</CivilizationPrereq>
+			<bCityAction>1</bCityAction>
+			<bAllowAI>1</bAllowAI>
+			<bGlobal>1</bGlobal>
+			<Quote>TXT_KEY_GLOBALSPELL_GREATWORKS</Quote>
+			<iAIWeight>300</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellGreatWorks(pCaster)</PyResult>
+			<PyRequirement>reqGreatWorks(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS2D_BUILD_FORGE</Sound>
+			<Button>Art/Interface/Buttons/Spells/Mother Lode.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Beacon of Loyalty -->					<!-- DURAL SPELLS -->
+			<Type>SPELL_BEACON_LOYALTY</Type>
+			<Description>TXT_KEY_SPELL_LOYALTY</Description>
+			<Civilopedia>TXT_KEY_SPELL_LOYALTY_PEDIA</Civilopedia>
+			<PromotionPrereq1>PROMOTION_BEACON_LOYALTY</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<AddPromotions>
+			<AddPromotion>PROMOTION_LOYALTY</AddPromotion>
+			</AddPromotions>
+			<bImmuneNeutral>1</bImmuneNeutral>
+			<bImmuneEnemy>1</bImmuneEnemy>
+			<PyResult>spellLoyalty(pCaster)</PyResult>
+			<PyRequirement>reqLoyalty(pCaster)</PyRequirement>
+			<Effect>EFFECT_CREATION</Effect>
+			<Sound>AS3D_SPELL_BLESS</Sound>
+			<Button>Art/Interface/Buttons/Promotions/Loyalty.dds</Button>
+		</SpellInfo>
+	</SpellInfos>
+</Civ4SpellInfos>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- used in Assets\XML\Gameinfo\... -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_AVOID_ANGRY_CITIZENS</Tag>
+		<English>Avoid [ICON_ANGRYPOP] Citizens</English>
+		<French>Éviter les citoyens [ICON_ANGRYPOP]</French>
+		<German>Vermeidet ICON_ANGRYPOP Untertanen</German>
+		<Italian>Avoid [ICON_ANGRYPOP] Citizens</Italian>
+		<Spanish>Avoid [ICON_ANGRYPOP] Citizens</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_AVOID_UNHEALTHY_CITIZENS</Tag>
+		<English>Avoid [ICON_UNHEALTHY] Citizens</English>
+		<French>Éviter les citoyens [ICON_UNHEALTHY]</French>
+		<German>Vermeidet [ICON_UNHEALTHY] Untertanen</German>
+		<Italian>Avoid [ICON_UNHEALTHY] Citizens</Italian>
+		<Spanish>Avoid [ICON_UNHEALTHY] Citizens</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_AVOID_ANGRY_CITIZENS_STRATEGY</Tag>
+		<English>Avoid angry citizens by not growing beyond the capacity for happy citizens.</English>
+		<French>Évite l'apparition de citoyens mécontents en évitant la croissance de la ville au-delà de la capacité en citoyens heureux.</French>
+		<German>Vermeidet unzufriedene Untertanen. Wachst nicht über die Obergrenze für zufriedene Untertanen hinaus.</German>
+		<Italian>Avoid angry citizens by not growing beyond the capacity for happy citizens.</Italian>
+		<Spanish>Avoid angry citizens by not growing beyond the capacity for happy citizens.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_AVOID_UNHEALTHY_CITIZENS_STRATEGY</Tag>
+		<English>Avoid unhealty citizens by not growing beyond the capacity for healthy citizens.</English>
+		<French>Évite l'apparition de citoyens malades en évitant la croissance de la ville au-delà de la capacité en citoyens sains.</French>
+		<German>Vermeidet kranke Untertanen. Wachst nicht über die Obergrenze für gesunde Untertanen hinaus.</German>
+		<Italian>Avoid unhealty citizens by not growing beyond the capacity for healthy citizens.</Italian>
+		<Spanish>Avoid unhealty citizens by not growing beyond the capacity for healthy citizens.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EMPHASIZE_AVOID_GROWTH</Tag><!-- overwrites vanilla tag because of French typos -->
+		<English>Avoid Growth</English>
+		<French>Éviter toute croissance</French>
+		<German>Wachstum vermeiden</German>
+		<Italian>Evita la crescita</Italian>
+		<Spanish>Evitar crecimiento</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>INTERFACE_CITY_STAGNANT_GROWTH_CONTROL</Tag>
+		<English>Stagnant (Growth Control)</English>
+		<French>Stagnation (Contrôle de la Croissance)</French>
+		<German>Stagnation (Wachstumskontrolle)</German>
+		<Italian>Stagnante (Growth Control)</Italian>
+		<Spanish>Estancada (Growth Control)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CANNOT_UPGRADE_CULTURE_LEVEL</Tag>
+		<English>[NEWLINE][ICON_CULTURE] Legendary Culture</English>
+		<French>[NEWLINE][ICON_CULTURE] Culture Légendaire</French>
+		<German>[NEWLINE][ICON_CULTURE] Legendäre Kultur</German>
+		<Italian>[NEWLINE][ICON_CULTURE] Legendary Culture</Italian>
+		<Spanish>[NEWLINE][ICON_CULTURE] Legendary Culture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPECIALBUILDING_TEMPLE</Tag>
+		<English>Temple</English>
+		<French>
+			<Text>Bâtiments religieux</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Tempel</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Tempio:Templi</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Templo:Templos</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TOPCIVS_TEXT1</Tag><!-- overwrites vanilla tag because of French typos -->
+		<English>%s1 has completed his greatest work,</English>
+		<French>%s1 vient d'achever sa plus grande &#156;uvre,</French>
+		<German>%s1 hat sein Lebenswerk vollbracht:</German>
+		<Italian>%s1 ha completato la sua pi&#249; Grande Opera,</Italian>
+		<Spanish>%s1 ha completado su mayor obra,</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Game Text - CIV Name -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!-- INDEX
+1) basic improvements
+	1.1) worker build                      camp (-> doviello yaranga), farm, lumbermill, mine, pasture, plantation, quarry, watermill, windmill, workhop, ...
+	1.2) arcane build                      nodes
+2) upgrading improvements
+	2.1) Housing                           cottage -> hamlet -> village -> town (-> Kuriotate enclave)
+	2.2) Fortifications                    fort -> castle -> citadel (-> Malakim citadel of light)
+	2.2) Malakim bedouins                  sit -> camp -> gathering -> village
+	2.3) Dwarven mines                     mine -> settlement -> hall -> fortress
+	2.4) D'teshi mausoleums                lesser -> standard -> greater
+	-->
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_AIR</Tag>
+		<English>Build Air Node</English>
+		<French>Construire un N&#156;ud d'Air</French>
+		<German>Errichtung eines Brunnens der Luftmagie</German>
+		<Italian>Build Air Node</Italian>
+		<Spanish>Construir Nodo de Aire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_BODY</Tag>
+		<English>Build Body Node</English>
+		<French>Construire un N&#156;ud de Corps</French>
+		<German>Errichtung eines Brunnens der Körpermagie</German>
+		<Italian>Build Body Node</Italian>
+		<Spanish>Construir Nodo de Cuerpo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_CHAOS</Tag>
+		<English>Build Chaos Node</English>
+		<French>Construire un N&#156;ud de Chaos</French>
+		<German>Errichtung eines Brunnens der Chaosmagie</German>
+		<Italian>Build Chaos Node</Italian>
+		<Spanish>Construir Nodo de Caos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_CREATION</Tag>
+		<English>Build Creation Node</English>
+		<French>Construire un N&#156;ud de Création</French>
+		<German>Errichtung eines Brunnens der Schöpfungsmagie</German>
+		<Italian>Build Creation Node</Italian>
+		<Spanish>Construir Nodo de Creación</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_DEATH</Tag>
+		<English>Build Death Node</English>
+		<French>Construire un N&#156;ud de Mort</French>
+		<German>Errichtung eines Brunnens der Todesmagie</German>
+		<Italian>Build Death Node</Italian>
+		<Spanish>Construir Nodo de Muerte</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_DIMENSIONAL</Tag>
+		<English>Build Dimensional Node</English>
+		<French>Construire un N&#156;ud Dimensionnel</French>
+		<German>Errichtung eines Brunnens der Dimensionsmagie</German>
+		<Italian>Build Dimensional Node</Italian>
+		<Spanish>Construir Nodo Dimensional</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_EARTH</Tag>
+		<English>Build Earth Node</English>
+		<French>Construire un N&#156;ud de Terre</French>
+		<German>Errichtung eines Brunnens der Erdmagie</German>
+		<Italian>Build Earth Node</Italian>
+		<Spanish>Construir Nodo de Tierra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_ENCHANTMENT</Tag>
+		<English>Build Enchantment Node</English>
+		<French>Construire un N&#156;ud d'Enchantement</French>
+		<German>Errichtung eines Brunnens der Verzauberungsmagie</German>
+		<Italian>Build Enchantment Node</Italian>
+		<Spanish>Construir Nodo de Encantamiento</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_ENTROPY</Tag>
+		<English>Build Entropy Node</English>
+		<French>Construire un N&#156;ud d'Entropie</French>
+		<German>Errichtung eines Brunnens der Entropiemagie</German>
+		<Italian>Build Entropy Node</Italian>
+		<Spanish>Construir Nodo de Entropía</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_FIRE</Tag>
+		<English>Build Fire Node</English>
+		<French>Construire un N&#156;ud de Feu</French>
+		<German>Errichtung eines Brunnens der Feuermagie</German>
+		<Italian>Build Fire Node</Italian>
+		<Spanish>Construir Nodo de Fuego</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_LAW</Tag>
+		<English>Build Law Node</English>
+		<French>Construire un N&#156;ud de Loi</French>
+		<German>Errichtung eines Brunnens der Ordnungsmagie</German>
+		<Italian>Build Law Node</Italian>
+		<Spanish>Construir Nodo de Ley</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_LIFE</Tag>
+		<English>Build Life Node</English>
+		<French>Construire un N&#156;ud de Vie</French>
+		<German>Errichtung eines Brunnens der Lebensmagie</German>
+		<Italian>Build Life Node</Italian>
+		<Spanish>Construir Nodo de Vida</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_METAMAGIC</Tag>
+		<English>Build Metamagic Node</English>
+		<French>Construire un N&#156;ud de Métamagie</French>
+		<German>Errichtung eines Brunnens der Metamagie</German>
+		<Italian>Build Metamagic Node</Italian>
+		<Spanish>Construir Nodo de Metamagia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_MIND</Tag>
+		<English>Build Mind Node</English>
+		<French>Construire un N&#156;ud de Pensée</French>
+		<German>Errichtung eines Brunnens der Geistesmagie</German>
+		<Italian>Build Mind Node</Italian>
+		<Spanish>Construir Nodo de Mente</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_NATURE</Tag>
+		<English>Build Nature Node</English>
+		<French>Construire un N&#156;ud de Nature</French>
+		<German>Errichtung eines Brunnens der Naturmagie</German>
+		<Italian>Build Nature Node</Italian>
+		<Spanish>Construir Nodo de Naturaleza</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_SHADOW</Tag>
+		<English>Build Shadow Node</English>
+		<French>Construire un N&#156;ud d'Ombre</French>
+		<German>Errichtung eines Brunnens der Schattenmagie</German>
+		<Italian>Build Shadow Node</Italian>
+		<Spanish>Construir Nodo de Sombra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_SPIRIT</Tag>
+		<English>Build Spirit Node</English>
+		<French>Construire un N&#156;ud d'Esprit</French>
+		<German>Errichtung eines Brunnens der Seelenmagie</German>
+		<Italian>Build Spirit Node</Italian>
+		<Spanish>Construir Nodo de Espíritu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_SUN</Tag>
+		<English>Build Sun Node</English>
+		<French>Construire un N&#156;ud de Soleil</French>
+		<German>Errichtung eines Brunnens der Sonnenmagie</German>
+		<Italian>Build Sun Node</Italian>
+		<Spanish>Construir Nodo Solar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MANA_WATER</Tag>
+		<English>Build Water Node</English>
+		<French>Construire un N&#156;ud d'Eau</French>
+		<German>Errichtung eines Brunnens der Wassermagie</German>
+		<Italian>Build Water Node</Italian>
+		<Spanish>Construir Nodo de Agua</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_REFINERY</Tag>
+		<English>Build Refinery</English>
+		<French>Construire une raffinerie</French>
+		<German>Raffinierie errichten</German>
+		<Italian>Build Refinery</Italian>
+		<Spanish>Build Refinery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MINE_PEDIA</Tag>
+		<English>The mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</English>
+		<French>La mine est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_MINING]Minage[\LINK] découverte, les ouvriers construiront les mines 33% plus vite.</French>
+		<German>The mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</German>
+		<Italian>The mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</Italian>
+		<Spanish>The mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WORKSHOP_PEDIA</Tag>
+		<English>The workshop is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CRAFTING]Crafting[\LINK], workers build them 25% faster.</English>
+		<French>L'atelier est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_CRAFTING]Artisanat[\LINK] découverte, les ouvriers construiront les ateliers 33% plus vite.</French>
+		<German>The workshop is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CRAFTING]Crafting[\LINK], workers build them 25% faster.</German>
+		<Italian>The workshop is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CRAFTING]Crafting[\LINK], workers build them 25% faster.</Italian>
+		<Spanish>The workshop is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CRAFTING]Crafting[\LINK], workers build them 25% faster.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_COTTAGE</Tag>
+		<English>Cottage (I)</English>
+		<French>Cottage (I)</French>
+		<German>Cottage (I)</German>
+		<Italian>Cottage (I)</Italian>
+		<Spanish>Cottage (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_COTTAGE_PEDIA</Tag>
+		<English>The cottage is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_EDUCATION]Education[\LINK], workers build them 25% faster.</English>
+		<French>Le cottage est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_EDUCATION]Éducation[\LINK] découverte, les ouvriers construiront les cottages 33% plus vite.</French>
+		<German>The cottage is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_EDUCATION]Education[\LINK], workers build them 25% faster.</German>
+		<Italian>The cottage is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_EDUCATION]Education[\LINK], workers build them 25% faster.</Italian>
+		<Spanish>The cottage is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_EDUCATION]Education[\LINK], workers build them 25% faster.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HAMLET</Tag>
+		<English>Hamlet (II)</English>
+		<French>Hameau (II)</French>
+		<German>Hamlet (II)</German>
+		<Italian>Hamlet (II)</Italian>
+		<Spanish>Hamlet (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_VILLAGE</Tag>
+		<English>Village (III)</English>
+		<French>Village (III)</French>
+		<German>Village (III)</German>
+		<Italian>Village (III)</Italian>
+		<Spanish>Village (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TOWN</Tag>
+		<English>Town (IV)</English>
+		<French>
+			<Text>Ville (IV)</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Town (IV)</German>
+		<Italian>Town (IV)</Italian>
+		<Spanish>Town (IV)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_BEDOUIN_SIT</Tag>
+		<English>Build Bedouin Sit</English>
+		<French>Construire une Halte Bédouine</French>
+		<German>Errichte Beduinensitz</German>
+		<Italian>Build Bedouin Sit</Italian>
+		<Spanish>Build Bedouin Sit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BEDOUIN_SIT</Tag>
+		<English>Bedouin Sit (I)</English>
+		<French>Halte Bédouine (I)</French>
+		<German>Beduinensitz (I)</German>
+		<Italian>Bedouin Sit (I)</Italian>
+		<Spanish>Bedouin Sit (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BEDOUIN_CAMP</Tag>
+		<English>Bedouin Camp (II)</English>
+		<French>Camp Bédouin (II)</French>
+		<German>Beduinenlager (II)</German>
+		<Italian>Bedouin Camp (II)</Italian>
+		<Spanish>Bedouin Camp (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BEDOUIN_GATHERING</Tag>
+		<English>Bedouin Gathering (III)</English>
+		<French>Rassemblement de Bédouins (III)</French>
+		<German>Beduinenversammlung (III)</German>
+		<Italian>Bedouin Gathering (III)</Italian>
+		<Spanish>Bedouin Gathering (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BEDOUIN_VILLAGE</Tag>
+		<English>Bedouin Village (IV)</English>
+		<French>Village Bédouin (IV)</French>
+		<German>Beduinendorf (IV)</German>
+		<Italian>Bedouin Village (IV)</Italian>
+		<Spanish>Bedouin Village (IV)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_DWARVEN_MINE</Tag>
+		<English>Build a [LINK=IMPROVEMENT_DWARVEN_MINE]Dwarven Mine[\LINK]</English>
+		<French>Construire une [LINK=IMPROVEMENT_DWARVEN_MINE]mine naine[\LINK]</French>
+		<German>Baut eine [LINK=IMPROVEMENT_DWARVEN_MINE]Zwergenmine[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_DWARVEN_MINE]Dwarven Mine[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_DWARVEN_MINE]Dwarven Mine[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_MINE</Tag>
+		<English>Dwarven Mine (I)</English>
+		<French>
+			<Text>Mine Naine (I)</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Zwergenmine (I)</German>
+		<Italian>Dwarven Mine (I)</Italian>
+		<Spanish>Dwarven Mine (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_MINE_HELP</Tag>
+		<English>The dwarven mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 25% faster. After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 25% faster.</English>
+		<French>La Mine Naine est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_MINING]Minage[\LINK] découverte, les ouvriers construiront les Mines Naines 33% plus vite.</French>
+		<German>The dwarven mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 25% faster. After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 25% faster.</German>
+		<Italian>The dwarven mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 25% faster. After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 25% faster.</Italian>
+		<Spanish>The dwarven mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 25% faster. After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 25% faster.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_MINE_PEDIA</Tag>
+		<English>For most, a mine is just a hole in the ground to pull shinies out of. For the Khazad, a mine is a home-in-progress. Crude dwellings are carved into side tunnels, rubble is formed into simple fortifications and shops are set up to serve the miners and their families. From this, a trickle of commerce follows the wagons laden with ore. It's not much but give it time...</English>
+		<French>Pour beaucoup, la mine est un trou dans le sol dont on tire des trucs brillants. Pour les Khazad, une mine est un foyer en construction. Des logements rudes sont taillés sur le flanc des tunnels, les décombres sont transformés en fortifications simples et les échoppes sont taillées pour répondre aux besoins des mineurs et de leurs familles. De ces échoppes, un petit réseau commercial suit les vagons chargés de minerai. Ce n'est pas grand chose, mais laissez-lui un peu de temps...</French>
+		<German>For most, a mine is just a hole in the ground to pull shinies out of. For the Khazad, a mine is a home-in-progress. Crude dwellings are carved into side tunnels, rubble is formed into simple fortifications and shops are set up to serve the miners and their families. From this, a trickle of commerce follows the wagons laden with ore. It's not much but give it time...</German>
+		<Italian>For most, a mine is just a hole in the ground to pull shinies out of. For the Khazad, a mine is a home-in-progress. Crude dwellings are carved into side tunnels, rubble is formed into simple fortifications and shops are set up to serve the miners and their families. From this, a trickle of commerce follows the wagons laden with ore. It's not much but give it time...</Italian>
+		<Spanish>For most, a mine is just a hole in the ground to pull shinies out of. For the Khazad, a mine is a home-in-progress. Crude dwellings are carved into side tunnels, rubble is formed into simple fortifications and shops are set up to serve the miners and their families. From this, a trickle of commerce follows the wagons laden with ore. It's not much but give it time...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_SETTLEMENT</Tag>
+		<English>Dwarven Settlement (II)</English>
+		<French>Campement Nain (II)</French>
+		<German>Zwergensiedlung (II)</German>
+		<Italian>Dwarven Settlement (II)</Italian>
+		<Spanish>Dwarven Settlement (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_SETTLEMENT_PEDIA</Tag>
+		<English>Once a mine has become prosperous, immigrants arrive from above and below to carve a space for themselves. Spiraling out from the main shaft, a network of living spaces, markets and workshops is hewn while the excess stone is used to build the walls ever higher. Finally, the fungal farms (that convert waste material and phosphates into edible, if plain-tasting, mushrooms) are expanded and the surplus is shipped back to the city... along with a wealth of trade and minerals.</English>
+		<French>Quand une mine devient prospère, les immigrants arrivent de partout pour se tailler une place. Spiralant depuis le puits principal, un réseau de lieux de vie, marchés et ateliers est taillé, tandis que la pierre en excès est utilisée pour construire des murs toujours plus hauts. Enfin, les fermes fongiques (qui convertissent les gravats et les phosphates en champignons comestibles bien que fades) sont agrandies, et le surplus est renvoyé à la ville, accompagné des richesses du commerce et des minéraux.</French>
+		<German>Once a mine has become prosperous, immigrants arrive from above and below to carve a space for themselves. Spiraling out from the main shaft, a network of living spaces, markets and workshops is hewn while the excess stone is used to build the walls ever higher. Finally, the fungal farms (that convert waste material and phosphates into edible, if plain-tasting, mushrooms) are expanded and the surplus is shipped back to the city... along with a wealth of trade and minerals.</German>
+		<Italian>Once a mine has become prosperous, immigrants arrive from above and below to carve a space for themselves. Spiraling out from the main shaft, a network of living spaces, markets and workshops is hewn while the excess stone is used to build the walls ever higher. Finally, the fungal farms (that convert waste material and phosphates into edible, if plain-tasting, mushrooms) are expanded and the surplus is shipped back to the city... along with a wealth of trade and minerals.</Italian>
+		<Spanish>Once a mine has become prosperous, immigrants arrive from above and below to carve a space for themselves. Spiraling out from the main shaft, a network of living spaces, markets and workshops is hewn while the excess stone is used to build the walls ever higher. Finally, the fungal farms (that convert waste material and phosphates into edible, if plain-tasting, mushrooms) are expanded and the surplus is shipped back to the city... along with a wealth of trade and minerals.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_HALL</Tag>
+		<English>Dwarven Hall (III)</English>
+		<French>Château Nain (III)</French>
+		<German>Zwergenhalle (III)</German>
+		<Italian>Dwarven Hall (III)</Italian>
+		<Spanish>Dwarven Hall (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_HALL_PEDIA</Tag>
+		<English>The Khazad have a complex system of ownership and an even more complex hierarchy; living below the surface demands draconian measures to keep order. After a probationary period, a settlement is taken over by some branch of the Khazad nobility and expanded to fit their needs (bloody nobles). Picky though they are, under their management the mines are deepened, the ramparts are expanded and the markets are packed. It may not be comfortable but "bein' a dwarf is about doin' yer duty, even if it makes ye miserable. ESPECIALLY if it makes ye miserable."</English>
+		<French>Les Khazad ont un système complexe de propriété et une hiérarchie encore plus complexe, car vivre sous la surface demande des mesures draconniennes pour maintenir l'ordre. Après une période de probation, un campement est récupéré par une branche de la noblesse Khazad et étendu pour subvenir à leurs besoins (foutus nobles !). Aussi durs soient-ils, sous leur direction, les mines sont approfondies, les ramparts sont étendus et les marchés sont regroupés. Ce n'est peut être pas confortable, mais "être un nain s'gnifie accomplir son d'voir, m'm si ça v'rend mis'rable. Surtout si ça v'rend mis'rable."</French>
+		<German>The Khazad have a complex system of ownership and an even more complex hierarchy; living below the surface demands draconian measures to keep order. After a probationary period, a settlement is taken over by some branch of the Khazad nobility and expanded to fit their needs (bloody nobles). Picky though they are, under their management the mines are deepened, the ramparts are expanded and the markets are packed. It may not be comfortable but "bein' a dwarf is about doin' yer duty, even if it makes ye miserable. ESPECIALLY if it makes ye miserable."</German>
+		<Italian>The Khazad have a complex system of ownership and an even more complex hierarchy; living below the surface demands draconian measures to keep order. After a probationary period, a settlement is taken over by some branch of the Khazad nobility and expanded to fit their needs (bloody nobles). Picky though they are, under their management the mines are deepened, the ramparts are expanded and the markets are packed. It may not be comfortable but "bein' a dwarf is about doin' yer duty, even if it makes ye miserable. ESPECIALLY if it makes ye miserable."</Italian>
+		<Spanish>The Khazad have a complex system of ownership and an even more complex hierarchy; living below the surface demands draconian measures to keep order. After a probationary period, a settlement is taken over by some branch of the Khazad nobility and expanded to fit their needs (bloody nobles). Picky though they are, under their management the mines are deepened, the ramparts are expanded and the markets are packed. It may not be comfortable but "bein' a dwarf is about doin' yer duty, even if it makes ye miserable. ESPECIALLY if it makes ye miserable."</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_FORTRESS</Tag>
+		<English>Dwarven Fortress (IV)</English>
+		<French>
+			<Text>Forteresse Naine (IV)</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Zwergenfestung (IV)</German>
+		<Italian>Dwarven Fortress (IV)</Italian>
+		<Spanish>Dwarven Fortress (IV)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_FORTRESS_PEDIA</Tag>
+		<English>Extending all the way into the Umber, the dwarven fortress is an implacable bastion of defense, industry and commerce. The tapped out tunnels have been converted into additional farm space and the entire complex has become a mecca of trade. It takes a long time for the humble dwarven mine to become the mighty dwarven fortress but once there it is the equivalent of a farm, town, citadel and mine-on-steroids... all in one. Just be sure to keep it safe from would-be pillagers, lest years of work be undone by the villainous surface dwellers.</English>
+		<French>S'étendant partout dans les ténèbres, la Forteresse Naine est un bastion défensif, industriel et commercial implacable. les ramifications extérieures ont été converties en espace agricole supplémentaire et le complexe entier est devenu une Mecque du commerce. Le processus d'évolution de l'humble mine naine à la puissante forteresse naine prend du temps, mais une fois fait elle représente l'équivalent d'une ferme, d'une ville, d'une citadelle et d'une mine dopée aux stéroïdes, le tout en un. Prenez juste garde à le protéger des éventuels pillards, plusieurs années de travail pouvant être réduites à néant par les vils habitants de la surface.</French>
+		<German>Extending all the way into the Umber, the dwarven fortress is an implacable bastion of defense, industry and commerce. The tapped out tunnels have been converted into additional farm space and the entire complex has become a mecca of trade. It takes a long time for the humble dwarven mine to become the mighty dwarven fortress but once there it is the equivalent of a farm, town, citadel and mine-on-steroids... all in one. Just be sure to keep it safe from would-be pillagers, lest years of work be undone by the villainous surface dwellers.</German>
+		<Italian>Extending all the way into the Umber, the dwarven fortress is an implacable bastion of defense, industry and commerce. The tapped out tunnels have been converted into additional farm space and the entire complex has become a mecca of trade. It takes a long time for the humble dwarven mine to become the mighty dwarven fortress but once there it is the equivalent of a farm, town, citadel and mine-on-steroids... all in one. Just be sure to keep it safe from would-be pillagers, lest years of work be undone by the villainous surface dwellers.</Italian>
+		<Spanish>Extending all the way into the Umber, the dwarven fortress is an implacable bastion of defense, industry and commerce. The tapped out tunnels have been converted into additional farm space and the entire complex has become a mecca of trade. It takes a long time for the humble dwarven mine to become the mighty dwarven fortress but once there it is the equivalent of a farm, town, citadel and mine-on-steroids... all in one. Just be sure to keep it safe from would-be pillagers, lest years of work be undone by the villainous surface dwellers.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FORT_PEDIA</Tag>
+		<English>The fort is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster.</English>
+		<French>Le Fort est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_CONSTRUCTION]Construction[\LINK] découverte, les ouvriers construiront les forts 75% plus vite.</French>
+		<German>The fort is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster.</German>
+		<Italian>The fort is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster.</Italian>
+		<Spanish>The fort is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CITADEL_OF_LIGHT</Tag>
+		<English>Citadel of Light</English>
+		<French>
+			<Text>Citadelle de la Lumière</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Zitadelle des Lichts</German>
+		<Italian>Citadel of Light</Italian>
+		<Spanish>Citadel of Light</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CITADEL_OF_LIGHT_STRATEGY</Tag>
+		<English>The Citadel of Light is able to call a Pillar of Fire down on enemy units in range, but only if units are stationed in the Citadel.</English>
+		<French>La Citadelle de Lumière est capable de générer un pilier de Feu sur les unités ennemies à moins de 2 cases, mais uniquement si des unités sont stationnées dans la Citadelle.</French>
+		<German>Nähert sich eine feindliche Einheit der Zitadelle des Lichts auf weniger als 2 Felder erzeugt sie einen Feuerball.</German>
+		<Italian>The Citadel of Light produces a Fireball if an enemy unit is within 2 tiles of it at the start of your turn.</Italian>
+		<Spanish>La Ciudadela de la Luz produce una Bola de Fuego si una unidad enemiga se encuentra a 2 casillas de ella al comienzo del turno.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_CATACOMBS</Tag>
+		<English>Catacombs</English>
+		<French>
+			<Text>Catacombes</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Katakomben</German>
+		<Italian>Catacombs</Italian>
+		<Spanish>Catacombs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_CATACOMBS_PEDIA</Tag>
+		<English>The catacombs are a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</English>
+		<French>Les Catacombes sont un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_MINING]Minage[\LINK] découverte, les ouvriers construiront les Catacombes 33% plus vite.</French>
+		<German>The catacombs are a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</German>
+		<Italian>The catacombs are a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</Italian>
+		<Spanish>The catacombs are a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_MAUSOLEUM_LESSER</Tag>
+		<English>Lesser Mausoleum (I)</English>
+		<French>Mausolée mineur (I)</French>
+		<German>Unbedeutendes Mausoleum (I)</German>
+		<Italian>Lesser Mausoleum (I)</Italian>
+		<Spanish>Lesser Mausoleum (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_MAUSOLEUM_LESSER_PEDIA</Tag>
+		<English>The lesser mausoleum is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster. A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</English>
+		<French>Le Mausolée Mineur est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_CONSTRUCTION]Construction[\LINK] découverte, les ouvriers construiront les Mausolées Mineurs 75% plus vite. Un ouvrier ayant la promotion [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Spécialiste des mausolées[\LINK] peut construire directement un mausolée (plutôt qu'un mausolée mineur)</French>
+		<German>The lesser mausoleum is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster. A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</German>
+		<Italian>The lesser mausoleum is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster. A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</Italian>
+		<Spanish>The lesser mausoleum is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster. A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_MAUSOLEUM</Tag>
+		<English>Mausoleum (II)</English>
+		<French>Mausolée (II)</French>
+		<German>Mausoleum (II)</German>
+		<Italian>Mausoleum (II)</Italian>
+		<Spanish>Mausoleum (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_MAUSOLEUM_PEDIA</Tag>
+		<English>A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</English>
+		<French>Un ouvrier ayant la promotion [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Spécialiste des mausolées[\LINK] peut construire directement un mausolée (plutôt qu'un mausolée mineur)</French>
+		<German>A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</German>
+		<Italian>A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</Italian>
+		<Spanish>A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_MAUSOLEUM_GREATER</Tag>
+		<English>Greater Mausoleum (III)</English>
+		<French>Mausolée majeur (III)</French>
+		<German>Bedeutendes Mausoleum (III)</German>
+		<Italian>Greater Mausoleum (III)</Italian>
+		<Spanish>Greater Mausoleum (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MAUSOLEUM_SPECIALIST</Tag>
+		<English>Mausoleum Specialist</English>
+		<French>Spécialiste des mausolées</French>
+		<German>Mausoleumspezialist</German>
+		<Italian>Mausoleum Specialist</Italian>
+		<Spanish>Mausoleum Specialist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_CRYPT</Tag>
+		<English>Crypt</English>
+		<French>Crypte</French>
+		<German>Krypta</German>
+		<Italian>Crypt</Italian>
+		<Spanish>Crypt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_CRYPT_DEFILED</Tag>
+		<English>Defiled Crypt</English>
+		<French>
+			<Text>Crypte profanée</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Entweihte Krypta</German>
+		<Italian>Defiled Crypt</Italian>
+		<Spanish>Defiled Crypt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_PASTURE_CORRUPTED</Tag>
+		<English>Build a [LINK=IMPROVEMENT_PASTURE_CORRUPTED]Corrupted Pasture[\LINK]</English>
+		<French>Construire un [LINK=IMPROVEMENT_PASTURE_CORRUPTED]Pâturage Corrompu[\LINK]</French>
+		<German>Errichtet [LINK=IMPROVEMENT_PASTURE_CORRUPTED]Verdorbenes Weideland[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_PASTURE_CORRUPTED]Corrupted Pasture[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_PASTURE_CORRUPTEDT]Corrupted Pasture[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PASTURE_CORRUPTED</Tag>
+		<English>Corrupted Pasture</English>
+		<French>Pâturage Corrompu</French>
+		<German>Verdorbenes Weideland</German>
+		<Italian>Corrupted Pasture</Italian>
+		<Spanish>Corrupted Pasture</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_PYRE</Tag>
+		<English>Pyre</English>
+		<French>Bûcher</French>
+		<German>Scheiterhaufen</German>
+		<Italian>Pyre</Italian>
+		<Spanish>Pyre</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_PYRE_AQUATIC</Tag>
+		<English>Aquatic Pyre</English>
+		<French>Bûcher aquatique</French>
+		<German>Aquatic Pyre</German>
+		<Italian>Aquatic Pyre</Italian>
+		<Spanish>Aquatic Pyre</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DTESH_PYRE_AQUATIC_HELP</Tag>
+		<English>[ICON_BULLET][COLOR_WARNING_TEXT]Removes all Features and Resources from the plot[COLOR_REVERT]</English>
+		<French>[ICON_BULLET][COLOR_WARNING_TEXT]Détruit toutes les améliorations et ressources de la case[COLOR_REVERT]</French>
+		<German>[ICON_BULLET][COLOR_WARNING_TEXT]Removes all Features and Resources from the plot[COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET][COLOR_WARNING_TEXT]Removes all Features and Resources from the plot[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET][COLOR_WARNING_TEXT]Removes all Features and Resources from the plot[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_REFINERY</Tag>
+		<English>Refinery</English>
+		<French>Raffinerie</French>
+		<German>Raffinerie</German>
+		<Italian>Refinery</Italian>
+		<Spanish>Refinery</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_REFINERY_PEDIA</Tag>
+		<English>"I am telling you, it is not natural. This is the fifth case this month alone! How can I keep the energy flowing if all my men keep coming down with bloody flux and consumption? I have said it before, I respect Technopriest Alset but somewhere, somehow in this process he has created, there is something that is making my men sicken and die!"[NEWLINE][PARAGRAPH:1]Foreman Anacleto to visiting dignitaries to the initial prototype refinery[NEWLINE][NEWLINE]HISTORY: Fearing magic to be a tether to the gods, Mechanos technopriests strove long and hard to find a way to harness this energy without resorting to the magics so intertwined with the Gods of Erebus. Finally the great technopriest Alset discovered that certain crystals could be imbued with a mana like power from the nodes if those nodes were properly "excited" by a combination of solar energy and rhythmic tonal pulses. These crystals could later be used as batteries to power many of the most wonderful devices of the Mechanos. However this came at a terrible price of thousands of Mechanos workers who died slow and painful deaths before it was learned of the harmful radiation generated in the process.</English>
+		<French>"Je vous le dit, ce n'est pas naturel. C'est le cinquième cas, rien que ce mois-ci ! Comment puis-je maintenir le flux d'énergie si mes hommes continuent de s'étioler ? Je l'ai déjà dit, je respecte le Technoprêtre Alset mais d'unecertaine manière, quelque part dans le processus qu'il a créé, il y a quelque chose qui rend mes hommes malade et les tue !" - Contremaître Anacleto lors de la visite de dignitaires du prototype initial de raffinerie.[NEWLINE][NEWLINE]HISTOIRE : Craignant que la Magie soit un moyen de contrôle des dieux, les technoprêtres Mechanos chechèrent fort et longtemps un moyen d'utiliser cette énergie sans s'adonner à la magie, étroitement liée aux dieux d'Erebus. Finalement, le grand technoprêtre Alset découvrit qu'il était possible d'insuffler à certains cristaux un équivalent de la mana à partir des N&#156;uds, à condition que ces N&#156;uds soient correctement "excités" par une combianison d'énergie solaire et de pulsations tonales rythmiques. Ces cristaux pouvaient être utilisés par la suite comme batteries pour alimenter la plupart des merveilleux appareils des Mechanos. Cependant le prix à payer fut terrible : la mort lente et douloureuse de milliers d'ouvriers Mechanos avant la découverte des radiations nocives générées lors du processus.</French>
+		<German>"I am telling you, it is not natural. This is the fifth case this month alone! How can I keep the energy flowing if all my men keep coming down with bloody flux and consumption? I have said it before, I respect Technopriest Alset but the somewhere, somehow in this process he has created, there is something that is making my men sicken and die!"[NEWLINE][PARAGRAPH:1]Foreman Anacleto to visiting dignitaries to the initial prototype refinery[NEWLINE][NEWLINE]HISTORY: Fearing magic to be a tether to the gods, Mechanos technopriests stroved long and hard to find a way to harness this energy without resorting to the magics so intertwined with the Gods of Erebus. Finally the great technopriest Alset discovered that if certain crystals could be imbued with a mana like power from the nodes if those nodes were properly "excited" by a combination of solar energy and rhythmic tonal pulses. These crystals could later be used as batteries to power many of the most wonderful devices of theMechanos. However this came at a terrible price of thousands of Mechanos workers who died slow and painful deaths before it was learned of the harmful radiation generated in the process.</German>
+		<Italian>"I am telling you, it is not natural. This is the fifth case this month alone! How can I keep the energy flowing if all my men keep coming down with bloody flux and consumption? I have said it before, I respect Technopriest Alset but the somewhere, somehow in this process he has created, there is something that is making my men sicken and die!"[NEWLINE][PARAGRAPH:1]Foreman Anacleto to visiting dignitaries to the initial prototype refinery[NEWLINE][NEWLINE]HISTORY: Fearing magic to be a tether to the gods, Mechanos technopriests stroved long and hard to find a way to harness this energy without resorting to the magics so intertwined with the Gods of Erebus. Finally the great technopriest Alset discovered that if certain crystals could be imbued with a mana like power from the nodes if those nodes were properly "excited" by a combination of solar energy and rhythmic tonal pulses. These crystals could later be used as batteries to power many of the most wonderful devices of theMechanos. However this came at a terrible price of thousands of Mechanos workers who died slow and painful deaths before it was learned of the harmful radiation generated in the process.</Italian>
+		<Spanish>"I am telling you, it is not natural. This is the fifth case this month alone! How can I keep the energy flowing if all my men keep coming down with bloody flux and consumption? I have said it before, I respect Technopriest Alset but the somewhere, somehow in this process he has created, there is something that is making my men sicken and die!"[NEWLINE][PARAGRAPH:1]Foreman Anacleto to visiting dignitaries to the initial prototype refinery[NEWLINE][NEWLINE]HISTORY: Fearing magic to be a tether to the gods, Mechanos technopriests stroved long and hard to find a way to harness this energy without resorting to the magics so intertwined with the Gods of Erebus. Finally the great technopriest Alset discovered that if certain crystals could be imbued with a mana like power from the nodes if those nodes were properly "excited" by a combination of solar energy and rhythmic tonal pulses. These crystals could later be used as batteries to power many of the most wonderful devices of theMechanos. However this came at a terrible price of thousands of Mechanos workers who died slow and painful deaths before it was learned of the harmful radiation generated in the process.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_YARANGA</Tag>
+		<English>Yaranga</English>
+		<French>
+			<Text>Yaranga:Yarangi</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Yaranga</German>
+		<Italian>Yaranga</Italian>
+		<Spanish>Yaranga</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DEN_WOLF</Tag>
+		<English>Wolf Lair</English>
+		<French>Tanière à Loups</French>
+		<German>Wolfshöhle</German>
+		<Italian>Wolf Lair</Italian>
+		<Spanish>Wolf Lair</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GRIFFIN_WEYR</Tag>
+		<English>Griffon Weyr (II)</English>
+		<French>Nid des Griffons (II)</French>
+		<German>Greifenhorst (II)</German>
+		<Italian>Griffon Weyr (II)</Italian>
+		<Spanish>Griffon Weyr (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HIPPOGRIFF_WEYR</Tag>
+		<English>Hippogriff Weyr (I)</English>
+		<French>Nid des Hippogriffes (I)</French>
+		<German>Hippogreifenhorst (I)</German>
+		<Italian>Hippogriff Weyr (I)</Italian>
+		<Spanish>Hippogriff Weyr (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LION_DEN</Tag>
+		<English>Lion Den</English>
+		<French>Antre des Lions</French>
+		<German>Löwenhöhle</German>
+		<Italian>Lion Den</Italian>
+		<Spanish>Guarida de Leones</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAGE_TOWER</Tag>
+		<English>Lesser Mage Tower (I)</English>
+		<French>Tour de Magie Mineure (I)</French>
+		<German>Lesser Mage Tower (I)</German>
+		<Italian>Lesser Mage Tower (I)</Italian>
+		<Spanish>Lesser Mage Tower (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAGE_TOWER_2</Tag>
+		<English>Mage Tower (II)</English>
+		<French>Tour de Magie (II)</French>
+		<German>Mage Tower (II)</German>
+		<Italian>Mage Tower (II)</Italian>
+		<Spanish>Mage Tower (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAGE_TOWER_3</Tag>
+		<English>Greater Mage Tower (III)</English>
+		<French>Tour de Magie Majeure (III)</French>
+		<German>Greater Mage Tower (III)</German>
+		<Italian>Greater Mage Tower (III)</Italian>
+		<Spanish>Greater Mage Tower (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_ASH_FIELD</Tag>
+		<English>Ash Field</English>
+		<French>Champ de cendres</French>
+		<German>Aschenacker</German>
+		<Italian>Ash Field</Italian>
+		<Spanish>Ash Field</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GOBLIN_FORT_CLEARED</Tag>
+		<English>Goblin Fort (Empty)</English>
+		<French>Fort gobelin (vide)</French>
+		<German>Goblinfestung (Unbewohnt)</German>
+		<Italian>Goblin Fort (Empty)</Italian>
+		<Spanish>Goblin Fort (Empty)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CITY_RUINS_ANCIENT</Tag>
+		<English>Ancient Ruins</English>
+		<French>Ruines anciennes</French>
+		<German>Alte Ruinen</German>
+		<Italian>Ancient Ruins</Italian>
+		<Spanish>Ancient Ruins</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPIDER_DEN</Tag>
+		<English>Spider Den</English>
+		<French>Cocon d'Araignée</French>
+		<German>Spinnenhöhle</German>
+		<Italian>Spider Den</Italian>
+		<Spanish>Spider Den</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BEAR_DEN</Tag>
+		<English>Bear Den</English>
+		<French>Caverne d'Ours</French>
+		<German>Bärenhöhle</German>
+		<Italian>Bear Den</Italian>
+		<Spanish>Guarida de Osos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BEAR_DEN_PEDIA</Tag>
+		<English>Spawns bears if it isn't eliminated.</English>
+		<French>[ICON_BULLET]Engendre des Ours s'il n'est pas détruit.</French>
+		<German>Erzeugt Bären wenn es nicht zerstört wird.</German>
+		<Italian>Spawns bears if it isn't eliminated.</Italian>
+		<Spanish>Genera osos si no es eliminado.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CAGE</Tag>
+		<English>Cage</English>
+		<French>
+			<Text>Cage:Cages</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>
+			<Text>Käfig</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>Cage</Italian>
+		<Spanish>Cage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CAMP_PEDIA</Tag>
+		<English>Camp is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_HUNTING]Hunting[\LINK], workers build them 25% faster.</English>
+		<French>Camp is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_HUNTING]Hunting[\LINK], workers build them 25% faster.</French>
+		<German>Camp is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_HUNTING]Hunting[\LINK], workers build them 25% faster.</German>
+		<Italian>Camp is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_HUNTING]Hunting[\LINK], workers build them 25% faster.</Italian>
+		<Spanish>Camp is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_HUNTING]Hunting[\LINK], workers build them 25% faster.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CASTLE</Tag>
+		<English>Castle</English>
+		<French>Château</French>
+		<German>Schloß</German>
+		<Italian>Castle</Italian>
+		<Spanish>Castillo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FROSTLING_CAMP</Tag>
+		<English>Frostling Camp (II)</English>
+		<French>Camp gelbionte (II)</French>
+		<German>Frostling Camp (II)</German>
+		<Italian>Frostling Camp (II)</Italian>
+		<Spanish>Frostling Camp (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FROSTLING_ENCAMPMENT</Tag>
+		<English>Frostling Encampment (I)</English>
+		<French>Campement Gelbionte (I)</French>
+		<German>Frostling Encampment (I)</German>
+		<Italian>Frostling Encampment (I)</Italian>
+		<Spanish>Frostling Encampment (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FROSTLING_VILLAGE</Tag>
+		<English>Frostling Village (III)</English>
+		<French>Village Gelbionte (III)</French>
+		<German>Frostling Village (III)</German>
+		<Italian>Frostling Village (III)</Italian>
+		<Spanish>Frostling Village (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BLIGHTED_FOREST</Tag>
+		<English>Blighted Forest</English>
+		<French>
+			<Text>Forêt parasitée:Forêts parasitées</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Verdorbener Wald</German>
+		<Italian>Blighted Forest</Italian>
+		<Spanish>Blighted Forest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BLIGHTED_FOREST_PEDIA</Tag>
+		<English>Heir to a malevolence fallen from the Godwar and contained only incompletely by an Elven mage, a Blight spreads through the forest.  Corrosive to anything but vegetation, which it warps and mutates, even the most powerful magics cannot touch it.  Cold iron is the only answer.[NEWLINE][NEWLINE]Units entering a Forest, Jungle, or New Forest adjacent to a Blighted Forest will be driven back.  Once Iron Working is discovered, however, the tough growths may be hacked away quickly enough to root them out before they destroy:  Units become immune to the Blighted Forest's displacement, and destruction of the Blighted area safer.  Though care still must be taken if Malignant Flora is encountered.</English>
+		<French>Heir to a malevolence fallen from the Godwar and contained only incompletely by an Elven mage, a Blight spreads through the forest.  Corrosive to anything but vegetation, which it warps and mutates, even the most powerful magics cannot touch it.  Cold iron is the only answer.[NEWLINE][NEWLINE]Units entering a Forest, Jungle, or New Forest adjacent to a Blighted Forest will be driven back.  Once Iron Working is discovered, however, the tough growths may be hacked away quickly enough to root them out before they destroy:  Units become immune to the Blighted Forest's displacement, and destruction of the Blighted area safer.  Though care still must be taken if Malignant Flora is encountered.</French>
+		<German>Heir to a malevolence fallen from the Godwar and contained only incompletely by an Elven mage, a Blight spreads through the forest.  Corrosive to anything but vegetation, which it warps and mutates, even the most powerful magics cannot touch it.  Cold iron is the only answer.[NEWLINE][NEWLINE]Units entering a Forest, Jungle, or New Forest adjacent to a Blighted Forest will be driven back.  Once Iron Working is discovered, however, the tough growths may be hacked away quickly enough to root them out before they destroy:  Units become immune to the Blighted Forest's displacement, and destruction of the Blighted area safer.  Though care still must be taken if Malignant Flora is encountered.</German>
+		<Italian>Heir to a malevolence fallen from the Godwar and contained only incompletely by an Elven mage, a Blight spreads through the forest.  Corrosive to anything but vegetation, which it warps and mutates, even the most powerful magics cannot touch it.  Cold iron is the only answer.[NEWLINE][NEWLINE]Units entering a Forest, Jungle, or New Forest adjacent to a Blighted Forest will be driven back.  Once Iron Working is discovered, however, the tough growths may be hacked away quickly enough to root them out before they destroy:  Units become immune to the Blighted Forest's displacement, and destruction of the Blighted area safer.  Though care still must be taken if Malignant Flora is encountered.</Italian>
+		<Spanish>Heir to a malevolence fallen from the Godwar and contained only incompletely by an Elven mage, a Blight spreads through the forest.  Corrosive to anything but vegetation, which it warps and mutates, even the most powerful magics cannot touch it.  Cold iron is the only answer.[NEWLINE][NEWLINE]Units entering a Forest, Jungle, or New Forest adjacent to a Blighted Forest will be driven back.  Once Iron Working is discovered, however, the tough growths may be hacked away quickly enough to root them out before they destroy:  Units become immune to the Blighted Forest's displacement, and destruction of the Blighted area safer.  Though care still must be taken if Malignant Flora is encountered.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CITY_RUINS_ANCIENT_PEDIA</Tag>
+		<English>Ancient Ruins are the remains of earlier long-dead civilizations. They are filled with valuable secrets - gold, maps, lost technologies and sometimes even survivors - awaiting discovery by the intrepid explorer. Rich rewards await those who first enter an Ancient Ruin.</English>
+		<French>Ancient Ruins are the remains of earlier long-dead civilizations. They are filled with valuable secrets - gold, maps, lost technologies and sometimes even survivors - awaiting discovery by the intrepid explorer. Rich rewards await those who first enter an Ancient Ruin.</French>
+		<German>Ancient Ruins are the remains of earlier long-dead civilizations. They are filled with valuable secrets - gold, maps, lost technologies and sometimes even survivors - awaiting discovery by the intrepid explorer. Rich rewards await those who first enter an Ancient Ruin.</German>
+		<Italian>Ancient Ruins are the remains of earlier long-dead civilizations. They are filled with valuable secrets - gold, maps, lost technologies and sometimes even survivors - awaiting discovery by the intrepid explorer. Rich rewards await those who first enter an Ancient Ruin.</Italian>
+		<Spanish>Ancient Ruins are the remains of earlier long-dead civilizations. They are filled with valuable secrets - gold, maps, lost technologies and sometimes even survivors - awaiting discovery by the intrepid explorer. Rich rewards await those who first enter an Ancient Ruin.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CENTAUR_CAMP_PEDIA</Tag>
+		<English>Each tribe of centaurs is led by a khan, who is generally a leader of above-average strength and intelligence. They commonly adorn themselves with body paint of henna and thick dried mud, signifying their social role, rank or clan they hail from. Some of the clans, if not all, practice cannibalism and will eat the flesh of other sapient races as well. A great show of respect among centaur is smacking a fist on your own chest.</English>
+		<French>Each tribe of centaurs is led by a khan, who is generally a leader of above-average strength and intelligence. They commonly adorn themselves with body paint of henna and thick dried mud, signifying their social role, rank or clan they hail from. Some of the clans, if not all, practice cannibalism and will eat the flesh of other sapient races as well. A great show of respect among centaur is smacking a fist on your own chest.</French>
+		<German>Each tribe of centaurs is led by a khan, who is generally a leader of above-average strength and intelligence. They commonly adorn themselves with body paint of henna and thick dried mud, signifying their social role, rank or clan they hail from. Some of the clans, if not all, practice cannibalism and will eat the flesh of other sapient races as well. A great show of respect among centaur is smacking a fist on your own chest.</German>
+		<Italian>Each tribe of centaurs is led by a khan, who is generally a leader of above-average strength and intelligence. They commonly adorn themselves with body paint of henna and thick dried mud, signifying their social role, rank or clan they hail from. Some of the clans, if not all, practice cannibalism and will eat the flesh of other sapient races as well. A great show of respect among centaur is smacking a fist on your own chest.</Italian>
+		<Spanish>Each tribe of centaurs is led by a khan, who is generally a leader of above-average strength and intelligence. They commonly adorn themselves with body paint of henna and thick dried mud, signifying their social role, rank or clan they hail from. Some of the clans, if not all, practice cannibalism and will eat the flesh of other sapient races as well. A great show of respect among centaur is smacking a fist on your own chest.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CITY_RUINS_PEDIA</Tag>
+		<English>City Ruins are the remnants of cities destroyed in the game. They are of no particular value in themselves, but they often sit atop valuable locations. A worker may clean up a City Ruin or simply replace it with another improvement.</English>
+		<French>City Ruins are the remnants of cities destroyed in the game. They are of no particular value in themselves, but they often sit atop valuable locations. A worker may clean up a City Ruin or simply replace it with another improvement.</French>
+		<German>City Ruins are the remnants of cities destroyed in the game. They are of no particular value in themselves, but they often sit atop valuable locations. A worker may clean up a City Ruin or simply replace it with another improvement.</German>
+		<Italian>City Ruins are the remnants of cities destroyed in the game. They are of no particular value in themselves, but they often sit atop valuable locations. A worker may clean up a City Ruin or simply replace it with another improvement.</Italian>
+		<Spanish>City Ruins are the remnants of cities destroyed in the game. They are of no particular value in themselves, but they often sit atop valuable locations. A worker may clean up a City Ruin or simply replace it with another improvement.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FISHING_BOATS_PEDIA</Tag>
+		<English>Fishermen build boats to pursue the fish into deeper waters. A number of civilizations - from the Lanun of the ocean to the Doviello along the north sea - depend upon fishing for food, oil, raw materials, and trade goods. Even where agriculture is viable, fishing boats supply essentials unavailable by any other means. From small dinghies to large commercial vessels, fishing boats operate out of any port.</English>
+		<French>Fishermen build boats to pursue the fish into deeper waters. A number of civilizations - from the Lanun of the ocean to the Doviello along the north sea - depend upon fishing for food, oil, raw materials, and trade goods. Even where agriculture is viable, fishing boats supply essentials unavailable by any other means. From small dinghies to large commercial vessels, fishing boats operate out of any port.</French>
+		<German>Fishermen build boats to pursue the fish into deeper waters. A number of civilizations - from the Lanun of the ocean to the Doviello along the north sea - depend upon fishing for food, oil, raw materials, and trade goods. Even where agriculture is viable, fishing boats supply essentials unavailable by any other means. From small dinghies to large commercial vessels, fishing boats operate out of any port.</German>
+		<Italian>Fishermen build boats to pursue the fish into deeper waters. A number of civilizations - from the Lanun of the ocean to the Doviello along the north sea - depend upon fishing for food, oil, raw materials, and trade goods. Even where agriculture is viable, fishing boats supply essentials unavailable by any other means. From small dinghies to large commercial vessels, fishing boats operate out of any port.</Italian>
+		<Spanish>Fishermen build boats to pursue the fish into deeper waters. A number of civilizations - from the Lanun of the ocean to the Doviello along the north sea - depend upon fishing for food, oil, raw materials, and trade goods. Even where agriculture is viable, fishing boats supply essentials unavailable by any other means. From small dinghies to large commercial vessels, fishing boats operate out of any port.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FOXFORD_PEDIA</Tag>
+		<English>There are rumors of a village in crisis. Villagers have been found ripped open and half eaten. Though there is no way of knowing what is going on, it seems unlikely to be the work of a lone killer...</English>
+		<French>There are rumors of a village in crisis. Villagers have been found ripped open and half eaten. Though there is no way of knowing what is going on, it seems unlikely to be the work of a lone killer...</French>
+		<German>There are rumors of a village in crisis. Villagers have been found ripped open and half eaten. Though there is no way of knowing what is going on, it seems unlikely to be the work of a lone killer...</German>
+		<Italian>There are rumors of a village in crisis. Villagers have been found ripped open and half eaten. Though there is no way of knowing what is going on, it seems unlikely to be the work of a lone killer...</Italian>
+		<Spanish>There are rumors of a village in crisis. Villagers have been found ripped open and half eaten. Though there is no way of knowing what is going on, it seems unlikely to be the work of a lone killer...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HAMLET_PEDIA</Tag>
+		<English>A hamlet is a very small settlement with just a group of houses.</English>
+		<French>A hamlet is a very small settlement with just a group of houses.</French>
+		<German>A hamlet is a very small settlement with just a group of houses.</German>
+		<Italian>A hamlet is a very small settlement with just a group of houses.</Italian>
+		<Spanish>A hamlet is a very small settlement with just a group of houses.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HOMESTEAD_PEDIA</Tag>
+		<English>A homestead is a dwelling with its land and buildings given by the government where a family makes its home. It is done with the understanding that the new owners will work the land and build upon the dwelling to make it more valuable.</English>
+		<French>A homestead is a dwelling with its land and buildings given by the government where a family makes its home. It is done with the understanding that the new owners will work the land and build upon the dwelling to make it more valuable.</French>
+		<German>A homestead is a dwelling with its land and buildings given by the government where a family makes its home. It is done with the understanding that the new owners will work the land and build upon the dwelling to make it more valuable.</German>
+		<Italian>A homestead is a dwelling with its land and buildings given by the government where a family makes its home. It is done with the understanding that the new owners will work the land and build upon the dwelling to make it more valuable.</Italian>
+		<Spanish>A homestead is a dwelling with its land and buildings given by the government where a family makes its home. It is done with the understanding that the new owners will work the land and build upon the dwelling to make it more valuable.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_STAEDDING_LEGENDARY_PEDIA</Tag>
+		<English>Even giants need a place to call home. A legendary steadding is one such place where multiple generations of giants have and likely still live in.</English>
+		<French>Even giants need a place to call home. A legendary steadding is one such place where multiple generations of giants have and likely still live in.</French>
+		<German>Even giants need a place to call home. A legendary steadding is one such place where multiple generations of giants have and likely still live in.</German>
+		<Italian>Even giants need a place to call home. A legendary steadding is one such place where multiple generations of giants have and likely still live in.</Italian>
+		<Spanish>Even giants need a place to call home. A legendary steadding is one such place where multiple generations of giants have and likely still live in.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LUMBERMILL_PEDIA</Tag>
+		<English>Logs go in one end, and cut beams, boards, posts, and shingles come out the other. Usually found near the edge of a forest, these mills are mainly powered by muscle and engineering.</English>
+		<French>Logs go in one end, and cut beams, boards, posts, and shingles come out the other. Usually found near the edge of a forest, these mills are mainly powered by muscle and engineering.</French>
+		<German>Logs go in one end, and cut beams, boards, posts, and shingles come out the other. Usually found near the edge of a forest, these mills are mainly powered by muscle and engineering.</German>
+		<Italian>Logs go in one end, and cut beams, boards, posts, and shingles come out the other. Usually found near the edge of a forest, these mills are mainly powered by muscle and engineering.</Italian>
+		<Spanish>Logs go in one end, and cut beams, boards, posts, and shingles come out the other. Usually found near the edge of a forest, these mills are mainly powered by muscle and engineering.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_STAEDDING_OLD_PEDIA</Tag>
+		<English>This steadding has been known to be home to giants. Though it's old now, it's doubtful the giants are all gone.</English>
+		<French>This steadding has been known to be home to giants. Though it's old now, it's doubtful the giants are all gone.</French>
+		<German>This steadding has been known to be home to giants. Though it's old now, it's doubtful the giants are all gone.</German>
+		<Italian>This steadding has been known to be home to giants. Though it's old now, it's doubtful the giants are all gone.</Italian>
+		<Spanish>This steadding has been known to be home to giants. Though it's old now, it's doubtful the giants are all gone.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PASTURE_PEDIA</Tag>
+		<English>Since it is a lot easier to keep track of livestock if they aren't running loose across the countryside, it wasn't long after grazing animals were domesticated that a lazy shepherd devised a fence for keeping them in a pasture.</English>
+		<French>Since it is a lot easier to keep track of livestock if they aren't running loose across the countryside, it wasn't long after grazing animals were domesticated that a lazy shepherd devised a fence for keeping them in a pasture.</French>
+		<German>Since it is a lot easier to keep track of livestock if they aren't running loose across the countryside, it wasn't long after grazing animals were domesticated that a lazy shepherd devised a fence for keeping them in a pasture.</German>
+		<Italian>Since it is a lot easier to keep track of livestock if they aren't running loose across the countryside, it wasn't long after grazing animals were domesticated that a lazy shepherd devised a fence for keeping them in a pasture.</Italian>
+		<Spanish>Since it is a lot easier to keep track of livestock if they aren't running loose across the countryside, it wasn't long after grazing animals were domesticated that a lazy shepherd devised a fence for keeping them in a pasture.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_QUARRY_PEDIA</Tag>
+		<English>Once people started building structures out of stone rather than sticks and mud, the need for stone and rock increased. Those came from quarries, an open pit where picks and hammers and chisels were used to hack out chunks of marble, stone, or whatever else was useful.</English>
+		<French>Once people started building structures out of stone rather than sticks and mud, the need for stone and rock increased. Those came from quarries, an open pit where picks and hammers and chisels were used to hack out chunks of marble, stone, or whatever else was useful.</French>
+		<German>Once people started building structures out of stone rather than sticks and mud, the need for stone and rock increased. Those came from quarries, an open pit where picks and hammers and chisels were used to hack out chunks of marble, stone, or whatever else was useful.</German>
+		<Italian>Once people started building structures out of stone rather than sticks and mud, the need for stone and rock increased. Those came from quarries, an open pit where picks and hammers and chisels were used to hack out chunks of marble, stone, or whatever else was useful.</Italian>
+		<Spanish>Once people started building structures out of stone rather than sticks and mud, the need for stone and rock increased. Those came from quarries, an open pit where picks and hammers and chisels were used to hack out chunks of marble, stone, or whatever else was useful.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_STAEDDING_PEDIA</Tag>
+		<English>Beware making too much noise at night near a steadding, there may still be a slumbering giant within...</English>
+		<French>Beware making too much noise at night near a steadding, there may still be a slumbering giant within...</French>
+		<German>Beware making too much noise at night near a steadding, there may still be a slumbering giant within...</German>
+		<Italian>Beware making too much noise at night near a steadding, there may still be a slumbering giant within...</Italian>
+		<Spanish>Beware making too much noise at night near a steadding, there may still be a slumbering giant within...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WATERMILL_PEDIA</Tag>
+		<English>A water mill uses flowing water to turn a water wheel which is geared to turn other wheels for grinding, spinning, sawing or pounding all manner of useful things: grain, lumber, textiles, ore, metal, paper, and so forth.</English>
+		<French>A water mill uses flowing water to turn a water wheel which is geared to turn other wheels for grinding, spinning, sawing or pounding all manner of useful things: grain, lumber, textiles, ore, metal, paper, and so forth.</French>
+		<German>A water mill uses flowing water to turn a water wheel which is geared to turn other wheels for grinding, spinning, sawing or pounding all manner of useful things: grain, lumber, textiles, ore, metal, paper, and so forth.</German>
+		<Italian>A water mill uses flowing water to turn a water wheel which is geared to turn other wheels for grinding, spinning, sawing or pounding all manner of useful things: grain, lumber, textiles, ore, metal, paper, and so forth.</Italian>
+		<Spanish>A water mill uses flowing water to turn a water wheel which is geared to turn other wheels for grinding, spinning, sawing or pounding all manner of useful things: grain, lumber, textiles, ore, metal, paper, and so forth.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WINDMILL_PEDIA</Tag>
+		<English>Windmills are buildings which use the energy from wind to perform a variety of tasks. The higher a windmill is built, the more power ic can produce. Historically, they've been used to power mills for grinding grain, but they have also been employed to run sawmills and to pump water for wells.</English>
+		<French>Windmills are buildings which use the energy from wind to perform a variety of tasks. The higher a windmill is built, the more power ic can produce. Historically, they've been used to power mills for grinding grain, but they have also been employed to run sawmills and to pump water for wells.</French>
+		<German>Windmills are buildings which use the energy from wind to perform a variety of tasks. The higher a windmill is built, the more power ic can produce. Historically, they've been used to power mills for grinding grain, but they have also been employed to run sawmills and to pump water for wells.</German>
+		<Italian>Windmills are buildings which use the energy from wind to perform a variety of tasks. The higher a windmill is built, the more power ic can produce. Historically, they've been used to power mills for grinding grain, but they have also been employed to run sawmills and to pump water for wells.</Italian>
+		<Spanish>Windmills are buildings which use the energy from wind to perform a variety of tasks. The higher a windmill is built, the more power ic can produce. Historically, they've been used to power mills for grinding grain, but they have also been employed to run sawmills and to pump water for wells.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WINERY_PEDIA</Tag>
+		<English>Wine is an alcoholic beverage made of fermented grapes. In many cultures, wine is believed to have mystical powers and is used in countless religious ceremonies. As such, a winery is commonly associated with health, wealth, and happiness.</English>
+		<French>Wine is an alcoholic beverage made of fermented grapes. In many cultures, wine is believed to have mystical powers and is used in countless religious ceremonies. As such, a winery is commonly associated with health, wealth, and happiness.</French>
+		<German>Wine is an alcoholic beverage made of fermented grapes. In many cultures, wine is believed to have mystical powers and is used in countless religious ceremonies. As such, a winery is commonly associated with health, wealth, and happiness.</German>
+		<Italian>Wine is an alcoholic beverage made of fermented grapes. In many cultures, wine is believed to have mystical powers and is used in countless religious ceremonies. As such, a winery is commonly associated with health, wealth, and happiness.</Italian>
+		<Spanish>Wine is an alcoholic beverage made of fermented grapes. In many cultures, wine is believed to have mystical powers and is used in countless religious ceremonies. As such, a winery is commonly associated with health, wealth, and happiness.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_ENCLAVE_PEDIA</Tag>
+		<English>"Move to the city? Have you had to much mead on this your wedding day? Out here we make our own rules to run our day to day affairs. We make our own friends, whether they be orc or elf; I would like to see you do that in town and get ahead in society no matter what people say about tolerance. No, as long as we pay our taxes, don't deface any of the monuments to His Most Royal Majesty and keep quiet, we are as much lords then any Bannor Baron or Calibim Governor. Cities! Phagh! There the lowest tax collector ends up being your master!"[NEWLINE][NEWLINE]- Miller Foran Jopspur to his son and new wife, somewhere in the Kuriotate hinterlands[NEWLINE][NEWLINE]While many civilizations try to keep an iron grip on their lands, the Kuriotates took a counter-intuitive path. By keeping strict control of growth in the King's hand could easily have brought resentment to the masses. Yet in this total control, the Kuriotates allow almost unlimited freedom to their enclaves. Thus any disgruntled citizens in the Royal cities can easily leave to the enclaves and live as they please. In time the disgruntlement turns to loyalty to a King willing to allow his people so much direction in their own lives. Even when the tides of war turn against the Kuriotates and many an enclave is conquered by a foe, the independent minded folk bide their time, secure in knowing the Dragon Blessed God-King will come for them in the fullness of time, never in their hearts giving in to the oppression set upon them.</English>
+		<French>"Move to the city? Have you had to much mead on this your wedding day? Out here we make our own rules to run our day to day affairs. We make our own friends, whether they be orc or elf; I would like to see you do that in town and get ahead in society no matter what people say about tolerance. No, as long as we pay our taxes, don't deface any of the monuments to His Most Royal Majesty and keep quiet, we are as much lords then any Bannor Baron or Calibim Governor. Cities! Phagh! There the lowest tax collector ends up being your master!"[NEWLINE][NEWLINE]- Miller Foran Jopspur to his son and new wife, somewhere in the Kuriotate hinterlands[NEWLINE][NEWLINE]While many civilizations try to keep an iron grip on their lands, the Kuriotates took a counter-intuitive path. By keeping strict control of growth in the King's hand could easily have brought resentment to the masses. Yet in this total control, the Kuriotates allow almost unlimited freedom to their enclaves. Thus any disgruntled citizens in the Royal cities can easily leave to the enclaves and live as they please. In time the disgruntlement turns to loyalty to a King willing to allow his people so much direction in their own lives. Even when the tides of war turn against the Kuriotates and many an enclave is conquered by a foe, the independent minded folk bide their time, secure in knowing the Dragon Blessed God-King will come for them in the fullness of time, never in their hearts giving in to the oppression set upon them.</French>
+		<German>"Move to the city? Have you had to much mead on this your wedding day? Out here we make our own rules to run our day to day affairs. We make our own friends, whether they be orc or elf; I would like to see you do that in town and get ahead in society no matter what people say about tolerance. No, as long as we pay our taxes, don't deface any of the monuments to His Most Royal Majesty and keep quiet, we are as much lords then any Bannor Baron or Calibim Governor. Cities! Phagh! There the lowest tax collector ends up being your master!"[NEWLINE][NEWLINE]- Miller Foran Jopspur to his son and new wife, somewhere in the Kuriotate hinterlands[NEWLINE][NEWLINE]While many civilizations try to keep an iron grip on their lands, the Kuriotates took a counter-intuitive path. By keeping strict control of growth in the King's hand could easily have brought resentment to the masses. Yet in this total control, the Kuriotates allow almost unlimited freedom to their enclaves. Thus any disgruntled citizens in the Royal cities can easily leave to the enclaves and live as they please. In time the disgruntlement turns to loyalty to a King willing to allow his people so much direction in their own lives. Even when the tides of war turn against the Kuriotates and many an enclave is conquered by a foe, the independent minded folk bide their time, secure in knowing the Dragon Blessed God-King will come for them in the fullness of time, never in their hearts giving in to the oppression set upon them.</German>
+		<Italian>"Move to the city? Have you had to much mead on this your wedding day? Out here we make our own rules to run our day to day affairs. We make our own friends, whether they be orc or elf; I would like to see you do that in town and get ahead in society no matter what people say about tolerance. No, as long as we pay our taxes, don't deface any of the monuments to His Most Royal Majesty and keep quiet, we are as much lords then any Bannor Baron or Calibim Governor. Cities! Phagh! There the lowest tax collector ends up being your master!"[NEWLINE][NEWLINE]- Miller Foran Jopspur to his son and new wife, somewhere in the Kuriotate hinterlands[NEWLINE][NEWLINE]While many civilizations try to keep an iron grip on their lands, the Kuriotates took a counter-intuitive path. By keeping strict control of growth in the King's hand could easily have brought resentment to the masses. Yet in this total control, the Kuriotates allow almost unlimited freedom to their enclaves. Thus any disgruntled citizens in the Royal cities can easily leave to the enclaves and live as they please. In time the disgruntlement turns to loyalty to a King willing to allow his people so much direction in their own lives. Even when the tides of war turn against the Kuriotates and many an enclave is conquered by a foe, the independent minded folk bide their time, secure in knowing the Dragon Blessed God-King will come for them in the fullness of time, never in their hearts giving in to the oppression set upon them.</Italian>
+		<Spanish>"Move to the city? Have you had to much mead on this your wedding day? Out here we make our own rules to run our day to day affairs. We make our own friends, whether they be orc or elf; I would like to see you do that in town and get ahead in society no matter what people say about tolerance. No, as long as we pay our taxes, don't deface any of the monuments to His Most Royal Majesty and keep quiet, we are as much lords then any Bannor Baron or Calibim Governor. Cities! Phagh! There the lowest tax collector ends up being your master!"[NEWLINE][NEWLINE]- Miller Foran Jopspur to his son and new wife, somewhere in the Kuriotate hinterlands[NEWLINE][NEWLINE]While many civilizations try to keep an iron grip on their lands, the Kuriotates took a counter-intuitive path. By keeping strict control of growth in the King's hand could easily have brought resentment to the masses. Yet in this total control, the Kuriotates allow almost unlimited freedom to their enclaves. Thus any disgruntled citizens in the Royal cities can easily leave to the enclaves and live as they please. In time the disgruntlement turns to loyalty to a King willing to allow his people so much direction in their own lives. Even when the tides of war turn against the Kuriotates and many an enclave is conquered by a foe, the independent minded folk bide their time, secure in knowing the Dragon Blessed God-King will come for them in the fullness of time, never in their hearts giving in to the oppression set upon them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CASTLE_PEDIA</Tag>
+		<English>Castle comes from the Bannor word "castilum" meaning "fortress". This is a diminutive of the word "castre", which means "fortified place". Castles were always something more, than just "fortified places" or "fortresses". This word originates back into the dark times of Age of Ice, when all of the Bannor settlements were fortified. People started to use a separate word for a cultural centre, where local administration resided. These places also became an army concentration centres and big training yards, where the most powerful Bannor units - the paladins, were trained. Back in those days people started to use a shortened form of "castilum", a "castil" and in the end, by binding this with a hard ending of a word "castre", a word castle appeared. Some are also trying to find a connection to a word "astlum", which means a strategic location, but these are yet not confirmed. The problem is, that Bannor language has twenty different meanings for a strategic location. I, by myself however do not exlude this possibility, because indeed castles as such were built in strategic locations.</English>
+		<French>Castle comes from the Bannor word "castilum" meaning "fortress". This is a diminutive of the word "castre", which means "fortified place". Castles were always something more, than just "fortified places" or "fortresses". This word originates back into the dark times of Age of Ice, when all of the Bannor settlements were fortified. People started to use a separate word for a cultural centre, where local administration resided. These places also became an army concentration centres and big training yards, where the most powerful Bannor units - the paladins, were trained. Back in those days people started to use a shortened form of "castilum", a "castil" and in the end, by binding this with a hard ending of a word "castre", a word castle appeared. Some are also trying to find a connection to a word "astlum", which means a strategic location, but these are yet not confirmed. The problem is, that Bannor language has twenty different meanings for a strategic location. I, by myself however do not exlude this possibility, because indeed castles as such were built in strategic locations.</French>
+		<German>Castle comes from the Bannor word "castilum" meaning "fortress". This is a diminutive of the word "castre", which means "fortified place". Castles were always something more, than just "fortified places" or "fortresses". This word originates back into the dark times of Age of Ice, when all of the Bannor settlements were fortified. People started to use a separate word for a cultural centre, where local administration resided. These places also became an army concentration centres and big training yards, where the most powerful Bannor units - the paladins, were trained. Back in those days people started to use a shortened form of "castilum", a "castil" and in the end, by binding this with a hard ending of a word "castre", a word castle appeared. Some are also trying to find a connection to a word "astlum", which means a strategic location, but these are yet not confirmed. The problem is, that Bannor language has twenty different meanings for a strategic location. I, by myself however do not exlude this possibility, because indeed castles as such were built in strategic locations.</German>
+		<Italian>Castle comes from the Bannor word "castilum" meaning "fortress". This is a diminutive of the word "castre", which means "fortified place". Castles were always something more, than just "fortified places" or "fortresses". This word originates back into the dark times of Age of Ice, when all of the Bannor settlements were fortified. People started to use a separate word for a cultural centre, where local administration resided. These places also became an army concentration centres and big training yards, where the most powerful Bannor units - the paladins, were trained. Back in those days people started to use a shortened form of "castilum", a "castil" and in the end, by binding this with a hard ending of a word "castre", a word castle appeared. Some are also trying to find a connection to a word "astlum", which means a strategic location, but these are yet not confirmed. The problem is, that Bannor language has twenty different meanings for a strategic location. I, by myself however do not exlude this possibility, because indeed castles as such were built in strategic locations.</Italian>
+		<Spanish>Castle comes from the Bannor word "castilum" meaning "fortress". This is a diminutive of the word "castre", which means "fortified place". Castles were always something more, than just "fortified places" or "fortresses". This word originates back into the dark times of Age of Ice, when all of the Bannor settlements were fortified. People started to use a separate word for a cultural centre, where local administration resided. These places also became an army concentration centres and big training yards, where the most powerful Bannor units - the paladins, were trained. Back in those days people started to use a shortened form of "castilum", a "castil" and in the end, by binding this with a hard ending of a word "castre", a word castle appeared. Some are also trying to find a connection to a word "astlum", which means a strategic location, but these are yet not confirmed. The problem is, that Bannor language has twenty different meanings for a strategic location. I, by myself however do not exlude this possibility, because indeed castles as such were built in strategic locations.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CITADEL_PEDIA</Tag>
+		<English>A citadel is a fortress protecting a town, sometimes incorporating a castle. The term derives from the same root as the word city, "civis", meaning citizen. Citadels are the last line of defense of a city - when the walls are breached and most of the town overrun by enemy, city inhabitants and defenders that survived the fall of the other defenses can make their last stand here. On the other hand, citadels are often used to protect a garrison or political power from the inhabitants of the town it is defending (or occuping). Part of their design is to ensure loyalty from the town which they defended.</English>
+		<French>A citadel is a fortress protecting a town, sometimes incorporating a castle. The term derives from the same root as the word city, "civis", meaning citizen. Citadels are the last line of defense of a city - when the walls are breached and most of the town overrun by enemy, city inhabitants and defenders that survived the fall of the other defenses can make their last stand here. On the other hand, citadels are often used to protect a garrison or political power from the inhabitants of the town it is defending (or occuping). Part of their design is to ensure loyalty from the town which they defended.</French>
+		<German>A citadel is a fortress protecting a town, sometimes incorporating a castle. The term derives from the same root as the word city, "civis", meaning citizen. Citadels are the last line of defense of a city - when the walls are breached and most of the town overrun by enemy, city inhabitants and defenders that survived the fall of the other defenses can make their last stand here. On the other hand, citadels are often used to protect a garrison or political power from the inhabitants of the town it is defending (or occuping). Part of their design is to ensure loyalty from the town which they defended.</German>
+		<Italian>A citadel is a fortress protecting a town, sometimes incorporating a castle. The term derives from the same root as the word city, "civis", meaning citizen. Citadels are the last line of defense of a city - when the walls are breached and most of the town overrun by enemy, city inhabitants and defenders that survived the fall of the other defenses can make their last stand here. On the other hand, citadels are often used to protect a garrison or political power from the inhabitants of the town it is defending (or occuping). Part of their design is to ensure loyalty from the town which they defended.</Italian>
+		<Spanish>A citadel is a fortress protecting a town, sometimes incorporating a castle. The term derives from the same root as the word city, "civis", meaning citizen. Citadels are the last line of defense of a city - when the walls are breached and most of the town overrun by enemy, city inhabitants and defenders that survived the fall of the other defenses can make their last stand here. On the other hand, citadels are often used to protect a garrison or political power from the inhabitants of the town it is defending (or occuping). Part of their design is to ensure loyalty from the town which they defended.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BEDOUIN_SIT_PEDIA</Tag>
+		<English>While most cities in Erebus are surrounded by satellite villages and towns, the Malakim refuse to be tied down to such. While those in the major cities have learned to accept the restrictions brought upon by urban living, most of the Malakim breed refuses to have their freedom so tempered. Thus while an aduar's population may remain relatively constant, the people in them are constantly changing as these semi-nomads move with their herds and merchant convoys. To the Malakim, a aduar is a village owned by all; a veritable tavern of a town.</English>
+		<French>While most cities in Erebus are surrounded by satellite villages and towns, the Malakim refuse to be tied down to such. While those in the major cities have learned to accept the restrictions brought upon by urban living, most of the Malakim breed refuses to have their freedom so tempered. Thus while an aduar's population may remain relatively constant, the people in them are constantly changing as these semi-nomads move with their herds and merchant convoys. To the Malakim, a aduar is a village owned by all; a veritable tavern of a town.</French>
+		<German>While most cities in Erebus are surrounded by satellite villages and towns, the Malakim refuse to be tied down to such. While those in the major cities have learned to accept the restrictions brought upon by urban living, most of the Malakim breed refuses to have their freedom so tempered. Thus while an aduar's population may remain relatively constant, the people in them are constantly changing as these semi-nomads move with their herds and merchant convoys. To the Malakim, a aduar is a village owned by all; a veritable tavern of a town.</German>
+		<Italian>While most cities in Erebus are surrounded by satellite villages and towns, the Malakim refuse to be tied down to such. While those in the major cities have learned to accept the restrictions brought upon by urban living, most of the Malakim breed refuses to have their freedom so tempered. Thus while an aduar's population may remain relatively constant, the people in them are constantly changing as these semi-nomads move with their herds and merchant convoys. To the Malakim, a aduar is a village owned by all; a veritable tavern of a town.</Italian>
+		<Spanish>While most cities in Erebus are surrounded by satellite villages and towns, the Malakim refuse to be tied down to such. While those in the major cities have learned to accept the restrictions brought upon by urban living, most of the Malakim breed refuses to have their freedom so tempered. Thus while an aduar's population may remain relatively constant, the people in them are constantly changing as these semi-nomads move with their herds and merchant convoys. To the Malakim, a aduar is a village owned by all; a veritable tavern of a town.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_SHADOW_PEDIA</Tag>
+		<English>A word of advice about the Illusions and Shadows class. Don't even waste your time studying for the final; it's nearly impossible for even experienced magi. The real final is simply stealing a copy of the answers. Well, maybe not "simply;" getting those answers out of Magus Lyn's office will require you to use nearly every trick she taught you. Or, for a small fee, I could do the footwork for you...[NEWLINE][NEWLINE]- Adept Morin</English>
+		<French>A word of advice about the Illusions and Shadows class. Don't even waste your time studying for the final; it's nearly impossible for even experienced magi. The real final is simply stealing a copy of the answers. Well, maybe not "simply;" getting those answers out of Magus Lyn's office will require you to use nearly every trick she taught you. Or, for a small fee, I could do the footwork for you...[NEWLINE][NEWLINE]- Adept Morin</French>
+		<German>A word of advice about the Illusions and Shadows class. Don't even waste your time studying for the final; it's nearly impossible for even experienced magi. The real final is simply stealing a copy of the answers. Well, maybe not "simply;" getting those answers out of Magus Lyn's office will require you to use nearly every trick she taught you. Or, for a small fee, I could do the footwork for you...[NEWLINE][NEWLINE]- Adept Morin</German>
+		<Italian>A word of advice about the Illusions and Shadows class. Don't even waste your time studying for the final; it's nearly impossible for even experienced magi. The real final is simply stealing a copy of the answers. Well, maybe not "simply;" getting those answers out of Magus Lyn's office will require you to use nearly every trick she taught you. Or, for a small fee, I could do the footwork for you...[NEWLINE][NEWLINE]- Adept Morin</Italian>
+		<Spanish>A word of advice about the Illusions and Shadows class. Don't even waste your time studying for the final; it's nearly impossible for even experienced magi. The real final is simply stealing a copy of the answers. Well, maybe not "simply;" getting those answers out of Magus Lyn's office will require you to use nearly every trick she taught you. Or, for a small fee, I could do the footwork for you...[NEWLINE][NEWLINE]- Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_AIR_PEDIA</Tag>
+		<English>Why do I like studying air magic? Oh sure, you don't get to hurl fireballs or raise the dead. But it's great fun. More an art then a science, really, with plenty of room for creativity. You can completely wing it, not learn a single formal spell, and still do well just by willpower and ingenuity. Besides, controlling the wind has many suprising uses, especially considering the length of most girl's skirts these days.[NEWLINE][NEWLINE]- Adept Morin</English>
+		<French>Why do I like studying air magic? Oh sure, you don't get to hurl fireballs or raise the dead. But it's great fun. More an art then a science, really, with plenty of room for creativity. You can completely wing it, not learn a single formal spell, and still do well just by willpower and ingenuity. Besides, controlling the wind has many suprising uses, especially considering the length of most girl's skirts these days.[NEWLINE][NEWLINE]- Adept Morin</French>
+		<German>Why do I like studying air magic? Oh sure, you don't get to hurl fireballs or raise the dead. But it's great fun. More an art then a science, really, with plenty of room for creativity. You can completely wing it, not learn a single formal spell, and still do well just by willpower and ingenuity. Besides, controlling the wind has many suprising uses, especially considering the length of most girl's skirts these days.[NEWLINE][NEWLINE]- Adept Morin</German>
+		<Italian>Why do I like studying air magic? Oh sure, you don't get to hurl fireballs or raise the dead. But it's great fun. More an art then a science, really, with plenty of room for creativity. You can completely wing it, not learn a single formal spell, and still do well just by willpower and ingenuity. Besides, controlling the wind has many suprising uses, especially considering the length of most girl's skirts these days.[NEWLINE][NEWLINE]- Adept Morin</Italian>
+		<Spanish>Why do I like studying air magic? Oh sure, you don't get to hurl fireballs or raise the dead. But it's great fun. More an art then a science, really, with plenty of room for creativity. You can completely wing it, not learn a single formal spell, and still do well just by willpower and ingenuity. Besides, controlling the wind has many suprising uses, especially considering the length of most girl's skirts these days.[NEWLINE][NEWLINE]- Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_EARTH_PEDIA</Tag>
+		<English>You can tell a lot about a mage by their preferred sphere. Take Korven there. Earth adept. Not too bright, but honest. He's hardworking and a bit stubborn. He might not get the spell right the first time, but he'll try again until he can do it on a whim. It takes him twice as long to learn a spell, but when he gets the hang of it he'll do it twice as well.[NEWLINE][NEWLINE]- Adept Morin</English>
+		<French>You can tell a lot about a mage by their preferred sphere. Take Korven there. Earth adept. Not too bright, but honest. He's hardworking and a bit stubborn. He might not get the spell right the first time, but he'll try again until he can do it on a whim. It takes him twice as long to learn a spell, but when he gets the hang of it he'll do it twice as well.[NEWLINE][NEWLINE]- Adept Morin</French>
+		<German>You can tell a lot about a mage by their preferred sphere. Take Korven there. Earth adept. Not too bright, but honest. He's hardworking and a bit stubborn. He might not get the spell right the first time, but he'll try again until he can do it on a whim. It takes him twice as long to learn a spell, but when he gets the hang of it he'll do it twice as well.[NEWLINE][NEWLINE]- Adept Morin</German>
+		<Italian>You can tell a lot about a mage by their preferred sphere. Take Korven there. Earth adept. Not too bright, but honest. He's hardworking and a bit stubborn. He might not get the spell right the first time, but he'll try again until he can do it on a whim. It takes him twice as long to learn a spell, but when he gets the hang of it he'll do it twice as well.[NEWLINE][NEWLINE]- Adept Morin</Italian>
+		<Spanish>You can tell a lot about a mage by their preferred sphere. Take Korven there. Earth adept. Not too bright, but honest. He's hardworking and a bit stubborn. He might not get the spell right the first time, but he'll try again until he can do it on a whim. It takes him twice as long to learn a spell, but when he gets the hang of it he'll do it twice as well.[NEWLINE][NEWLINE]- Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_DEATH_PEDIA</Tag>
+		<English>They say that a necromancer needs the curiosity to follow the darkest paths, the courage to keep going when he realizes where that path leads, and a bit of insanity to keep from having nightmares about what he finds on the other side. This is true. But I assure you, the most important part of being a necromancer is public relations. For some reason, raising the dead is unpopular amongst the common folk.[NEWLINE][NEWLINE]- Dasan, Necromancer</English>
+		<French>They say that a necromancer needs the curiosity to follow the darkest paths, the courage to keep going when he realizes where that path leads, and a bit of insanity to keep from having nightmares about what he finds on the other side. This is true. But I assure you, the most important part of being a necromancer is public relations. For some reason, raising the dead is unpopular amongst the common folk.[NEWLINE][NEWLINE]- Dasan, Necromancer</French>
+		<German>They say that a necromancer needs the curiosity to follow the darkest paths, the courage to keep going when he realizes where that path leads, and a bit of insanity to keep from having nightmares about what he finds on the other side. This is true. But I assure you, the most important part of being a necromancer is public relations. For some reason, raising the dead is unpopular amongst the common folk.[NEWLINE][NEWLINE]- Dasan, Necromancer</German>
+		<Italian>They say that a necromancer needs the curiosity to follow the darkest paths, the courage to keep going when he realizes where that path leads, and a bit of insanity to keep from having nightmares about what he finds on the other side. This is true. But I assure you, the most important part of being a necromancer is public relations. For some reason, raising the dead is unpopular amongst the common folk.[NEWLINE][NEWLINE]- Dasan, Necromancer</Italian>
+		<Spanish>They say that a necromancer needs the curiosity to follow the darkest paths, the courage to keep going when he realizes where that path leads, and a bit of insanity to keep from having nightmares about what he finds on the other side. This is true. But I assure you, the most important part of being a necromancer is public relations. For some reason, raising the dead is unpopular amongst the common folk.[NEWLINE][NEWLINE]- Dasan, Necromancer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_LAW_PEDIA</Tag>
+		<English>The Law Magic class? By Oghma, I could barely stay awake through it. Those people are crazier than Balseraphs. No, I mean it. Anyone who, when given the almost limitless potentials of magic, chooses to can it up and bind it to a bunch of complicated and seemingly arbitrary laws is simply not right in the head.[NEWLINE][NEWLINE]- Adept Morin</English>
+		<French>The Law Magic class? By Oghma, I could barely stay awake through it. Those people are crazier than Balseraphs. No, I mean it. Anyone who, when given the almost limitless potentials of magic, chooses to can it up and bind it to a bunch of complicated and seemingly arbitrary laws is simply not right in the head.[NEWLINE][NEWLINE]- Adept Morin</French>
+		<German>The Law Magic class? By Oghma, I could barely stay awake through it. Those people are crazier than Balseraphs. No, I mean it. Anyone who, when given the almost limitless potentials of magic, chooses to can it up and bind it to a bunch of complicated and seemingly arbitrary laws is simply not right in the head.[NEWLINE][NEWLINE]- Adept Morin</German>
+		<Italian>The Law Magic class? By Oghma, I could barely stay awake through it. Those people are crazier than Balseraphs. No, I mean it. Anyone who, when given the almost limitless potentials of magic, chooses to can it up and bind it to a bunch of complicated and seemingly arbitrary laws is simply not right in the head.[NEWLINE][NEWLINE]- Adept Morin</Italian>
+		<Spanish>The Law Magic class? By Oghma, I could barely stay awake through it. Those people are crazier than Balseraphs. No, I mean it. Anyone who, when given the almost limitless potentials of magic, chooses to can it up and bind it to a bunch of complicated and seemingly arbitrary laws is simply not right in the head.[NEWLINE][NEWLINE]- Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_NATURE_PEDIA</Tag>
+		<English>I tell ya, all the best looking girls in this school study nature magic. Don't ask me why, but they do. Now, I'd love to ask one out on a date, but the only time they're alone is when they meditate in the woods. Surrounded by woodland animals... including ones that would happily eat me.[NEWLINE][NEWLINE]- Adept Morin</English>
+		<French>I tell ya, all the best looking girls in this school study nature magic. Don't ask me why, but they do. Now, I'd love to ask one out on a date, but the only time they're alone is when they meditate in the woods. Surrounded by woodland animals... including ones that would happily eat me.[NEWLINE][NEWLINE]- Adept Morin</French>
+		<German>I tell ya, all the best looking girls in this school study nature magic. Don't ask me why, but they do. Now, I'd love to ask one out on a date, but the only time they're alone is when they meditate in the woods. Surrounded by woodland animals... including ones that would happily eat me.[NEWLINE][NEWLINE]- Adept Morin</German>
+		<Italian>I tell ya, all the best looking girls in this school study nature magic. Don't ask me why, but they do. Now, I'd love to ask one out on a date, but the only time they're alone is when they meditate in the woods. Surrounded by woodland animals... including ones that would happily eat me.[NEWLINE][NEWLINE]- Adept Morin</Italian>
+		<Spanish>I tell ya, all the best looking girls in this school study nature magic. Don't ask me why, but they do. Now, I'd love to ask one out on a date, but the only time they're alone is when they meditate in the woods. Surrounded by woodland animals... including ones that would happily eat me.[NEWLINE][NEWLINE]- Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_CHAOS_PEDIA</Tag>
+		<English>Don't you see? Chaos is life! Without chaos, we would be nothing but clockwork men! But with chaos, life is interesting. Life is worth living. Some people waste their lives seeking order and stability. These people have no sense of fun.[NEWLINE][NEWLINE]- Archmage Luke</English>
+		<French>Don't you see? Chaos is life! Without chaos, we would be nothing but clockwork men! But with chaos, life is interesting. Life is worth living. Some people waste their lives seeking order and stability. These people have no sense of fun.[NEWLINE][NEWLINE]- Archmage Luke</French>
+		<German>Don't you see? Chaos is life! Without chaos, we would be nothing but clockwork men! But with chaos, life is interesting. Life is worth living. Some people waste their lives seeking order and stability. These people have no sense of fun.[NEWLINE][NEWLINE]- Archmage Luke</German>
+		<Italian>Don't you see? Chaos is life! Without chaos, we would be nothing but clockwork men! But with chaos, life is interesting. Life is worth living. Some people waste their lives seeking order and stability. These people have no sense of fun.[NEWLINE][NEWLINE]- Archmage Luke</Italian>
+		<Spanish>Don't you see? Chaos is life! Without chaos, we would be nothing but clockwork men! But with chaos, life is interesting. Life is worth living. Some people waste their lives seeking order and stability. These people have no sense of fun.[NEWLINE][NEWLINE]- Archmage Luke</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_MIND_PEDIA</Tag>
+		<English>I used to be paranoid, yeah. I thought everyone was out to get me, without any reason. So I decided I'd learn some magic, so nobody could stab me in the back. Now I can look into the deepest thoughts of those around me. And they all thought I was paranoid. Which I was. Now, however, I know they're not out to get me. Because I'm out to get them.[NEWLINE][NEWLINE]- Bjorn, mage and amatuer assassin</English>
+		<French>I used to be paranoid, yeah. I thought everyone was out to get me, without any reason. So I decided I'd learn some magic, so nobody could stab me in the back. Now I can look into the deepest thoughts of those around me. And they all thought I was paranoid. Which I was. Now, however, I know they're not out to get me. Because I'm out to get them.[NEWLINE][NEWLINE]- Bjorn, mage and amatuer assassin</French>
+		<German>I used to be paranoid, yeah. I thought everyone was out to get me, without any reason. So I decided I'd learn some magic, so nobody could stab me in the back. Now I can look into the deepest thoughts of those around me. And they all thought I was paranoid. Which I was. Now, however, I know they're not out to get me. Because I'm out to get them.[NEWLINE][NEWLINE]- Bjorn, mage and amatuer assassin</German>
+		<Italian>I used to be paranoid, yeah. I thought everyone was out to get me, without any reason. So I decided I'd learn some magic, so nobody could stab me in the back. Now I can look into the deepest thoughts of those around me. And they all thought I was paranoid. Which I was. Now, however, I know they're not out to get me. Because I'm out to get them.[NEWLINE][NEWLINE]- Bjorn, mage and amatuer assassin</Italian>
+		<Spanish>I used to be paranoid, yeah. I thought everyone was out to get me, without any reason. So I decided I'd learn some magic, so nobody could stab me in the back. Now I can look into the deepest thoughts of those around me. And they all thought I was paranoid. Which I was. Now, however, I know they're not out to get me. Because I'm out to get them.[NEWLINE][NEWLINE]- Bjorn, mage and amatuer assassin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_LIFE_PEDIA</Tag>
+		<English>Some mages want to play with fire, toy with death, gamble with chaos. They called me a coward for sticking with the powers of life. They're all dead now, some slain by an assassin sent by one of their numerous enemies, some killed in their mad experiments, some corpses upon some gods-forsaken battlefield. I, meanwhile, have a beautiful wife, a fine estate in the country, three children, and an excellent retirment pension.[NEWLINE][NEWLINE]- Mirthan, life mage</English>
+		<French>Some mages want to play with fire, toy with death, gamble with chaos. They called me a coward for sticking with the powers of life. They're all dead now, some slain by an assassin sent by one of their numerous enemies, some killed in their mad experiments, some corpses upon some gods-forsaken battlefield. I, meanwhile, have a beautiful wife, a fine estate in the country, three children, and an excellent retirment pension.[NEWLINE][NEWLINE]- Mirthan, life mage</French>
+		<German>Some mages want to play with fire, toy with death, gamble with chaos. They called me a coward for sticking with the powers of life. They're all dead now, some slain by an assassin sent by one of their numerous enemies, some killed in their mad experiments, some corpses upon some gods-forsaken battlefield. I, meanwhile, have a beautiful wife, a fine estate in the country, three children, and an excellent retirment pension.[NEWLINE][NEWLINE]- Mirthan, life mage</German>
+		<Italian>Some mages want to play with fire, toy with death, gamble with chaos. They called me a coward for sticking with the powers of life. They're all dead now, some slain by an assassin sent by one of their numerous enemies, some killed in their mad experiments, some corpses upon some gods-forsaken battlefield. I, meanwhile, have a beautiful wife, a fine estate in the country, three children, and an excellent retirment pension.[NEWLINE][NEWLINE]- Mirthan, life mage</Italian>
+		<Spanish>Some mages want to play with fire, toy with death, gamble with chaos. They called me a coward for sticking with the powers of life. They're all dead now, some slain by an assassin sent by one of their numerous enemies, some killed in their mad experiments, some corpses upon some gods-forsaken battlefield. I, meanwhile, have a beautiful wife, a fine estate in the country, three children, and an excellent retirment pension.[NEWLINE][NEWLINE]- Mirthan, life mage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_FIRE_PEDIA</Tag>
+		<English>Mages. I used to laugh at them. Scrawny little buggers with words and chants and charms. Weaklings more interested in watching stars and experimenting than feeding their families. Then I saw one make it rain fire. I don't laugh at mages any more.[NEWLINE][NEWLINE]- Thoros, Doviello warrior</English>
+		<French>Mages. I used to laugh at them. Scrawny little buggers with words and chants and charms. Weaklings more interested in watching stars and experimenting than feeding their families. Then I saw one make it rain fire. I don't laugh at mages any more.[NEWLINE][NEWLINE]- Thoros, Doviello warrior</French>
+		<German>Mages. I used to laugh at them. Scrawny little buggers with words and chants and charms. Weaklings more interested in watching stars and experimenting than feeding their families. Then I saw one make it rain fire. I don't laugh at mages any more.[NEWLINE][NEWLINE]- Thoros, Doviello warrior</German>
+		<Italian>Mages. I used to laugh at them. Scrawny little buggers with words and chants and charms. Weaklings more interested in watching stars and experimenting than feeding their families. Then I saw one make it rain fire. I don't laugh at mages any more.[NEWLINE][NEWLINE]- Thoros, Doviello warrior</Italian>
+		<Spanish>Mages. I used to laugh at them. Scrawny little buggers with words and chants and charms. Weaklings more interested in watching stars and experimenting than feeding their families. Then I saw one make it rain fire. I don't laugh at mages any more.[NEWLINE][NEWLINE]- Thoros, Doviello warrior</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_ENTROPY_PEDIA</Tag>
+		<English>For any nonmagical process, you cannot get out more energy then you put in. At first, magic was assumed to be different; you could put in the effort of a few words and get raw energy out, more than you put in. Interestingly, we've been studying the inner workings of magic and have found that with every spell, a little power gets... lost. We even determined where that power ends up, and have recently managed to harness that "lost" power...[NEWLINE][NEWLINE]- 3rd entry in Archmage Fulton's journal</English>
+		<French>For any nonmagical process, you cannot get out more energy then you put in. At first, magic was assumed to be different; you could put in the effort of a few words and get raw energy out, more than you put in. Interestingly, we've been studying the inner workings of magic and have found that with every spell, a little power gets... lost. We even determined where that power ends up, and have recently managed to harness that "lost" power...[NEWLINE][NEWLINE]- 3rd entry in Archmage Fulton's journal</French>
+		<German>For any nonmagical process, you cannot get out more energy then you put in. At first, magic was assumed to be different; you could put in the effort of a few words and get raw energy out, more than you put in. Interestingly, we've been studying the inner workings of magic and have found that with every spell, a little power gets... lost. We even determined where that power ends up, and have recently managed to harness that "lost" power...[NEWLINE][NEWLINE]- 3rd entry in Archmage Fulton's journal</German>
+		<Italian>For any nonmagical process, you cannot get out more energy then you put in. At first, magic was assumed to be different; you could put in the effort of a few words and get raw energy out, more than you put in. Interestingly, we've been studying the inner workings of magic and have found that with every spell, a little power gets... lost. We even determined where that power ends up, and have recently managed to harness that "lost" power...[NEWLINE][NEWLINE]- 3rd entry in Archmage Fulton's journal</Italian>
+		<Spanish>For any nonmagical process, you cannot get out more energy then you put in. At first, magic was assumed to be different; you could put in the effort of a few words and get raw energy out, more than you put in. Interestingly, we've been studying the inner workings of magic and have found that with every spell, a little power gets... lost. We even determined where that power ends up, and have recently managed to harness that "lost" power...[NEWLINE][NEWLINE]- 3rd entry in Archmage Fulton's journal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_BODY_PEDIA</Tag>
+		<English>"Are all mages that... big?" "No, that's Tyr, the school's body magic specialist." "He must get a lot of ladies." "Actually, too much time around raw body mana has some unfortunate side-effects... You see, Tyr's actually a woman. Don't worry, it's a common mistake."[NEWLINE][NEWLINE]- Adept Morin and his younger brother</English>
+		<French>"Are all mages that... big?" "No, that's Tyr, the school's body magic specialist." "He must get a lot of ladies." "Actually, too much time around raw body mana has some unfortunate side-effects... You see, Tyr's actually a woman. Don't worry, it's a common mistake."[NEWLINE][NEWLINE]- Adept Morin and his younger brother</French>
+		<German>"Are all mages that... big?" "No, that's Tyr, the school's body magic specialist." "He must get a lot of ladies." "Actually, too much time around raw body mana has some unfortunate side-effects... You see, Tyr's actually a woman. Don't worry, it's a common mistake."[NEWLINE][NEWLINE]- Adept Morin and his younger brother</German>
+		<Italian>"Are all mages that... big?" "No, that's Tyr, the school's body magic specialist." "He must get a lot of ladies." "Actually, too much time around raw body mana has some unfortunate side-effects... You see, Tyr's actually a woman. Don't worry, it's a common mistake."[NEWLINE][NEWLINE]- Adept Morin and his younger brother</Italian>
+		<Spanish>"Are all mages that... big?" "No, that's Tyr, the school's body magic specialist." "He must get a lot of ladies." "Actually, too much time around raw body mana has some unfortunate side-effects... You see, Tyr's actually a woman. Don't worry, it's a common mistake."[NEWLINE][NEWLINE]- Adept Morin and his younger brother</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_CREATION_PEDIA</Tag>
+		<English>Creation. To form something from the very ether itself is not an easy task, but it is beyond any doubt the greatest of any magical achievements. By channeling the power of Creation, and using it to power our own achievements, we defy the gods themselves, and prove what mortal minds are capable of.[NEWLINE][NEWLINE]- Aerith, Grigori Archmage</English>
+		<French>Creation. To form something from the very ether itself is not an easy task, but it is beyond any doubt the greatest of any magical achievements. By channeling the power of Creation, and using it to power our own achievements, we defy the gods themselves, and prove what mortal minds are capable of.[NEWLINE][NEWLINE]- Aerith, Grigori Archmage</French>
+		<German>Creation. To form something from the very ether itself is not an easy task, but it is beyond any doubt the greatest of any magical achievements. By channeling the power of Creation, and using it to power our own achievements, we defy the gods themselves, and prove what mortal minds are capable of.[NEWLINE][NEWLINE]- Aerith, Grigori Archmage</German>
+		<Italian>Creation. To form something from the very ether itself is not an easy task, but it is beyond any doubt the greatest of any magical achievements. By channeling the power of Creation, and using it to power our own achievements, we defy the gods themselves, and prove what mortal minds are capable of.[NEWLINE][NEWLINE]- Aerith, Grigori Archmage</Italian>
+		<Spanish>Creation. To form something from the very ether itself is not an easy task, but it is beyond any doubt the greatest of any magical achievements. By channeling the power of Creation, and using it to power our own achievements, we defy the gods themselves, and prove what mortal minds are capable of.[NEWLINE][NEWLINE]- Aerith, Grigori Archmage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_DIMENSIONAL_PEDIA</Tag>
+		<English>For Oghma's sake, never fall asleep in Archmage Drahm's class. Ever. Under any circumstances. Sleep before class, collapse after class, but not during his class. You see, Drahm has an evil sense of humor. And he's a master of bending the fabric of reality itself. Last time I fell asleep in his class, I woke up, spent ten minutes wondering how I'd ended up in the girls' bathroom, and then several hours trying to explain myself when Tyr walked in.[NEWLINE][NEWLINE]- Adept Morin</English>
+		<French>For Oghma's sake, never fall asleep in Archmage Drahm's class. Ever. Under any circumstances. Sleep before class, collapse after class, but not during his class. You see, Drahm has an evil sense of humor. And he's a master of bending the fabric of reality itself. Last time I fell asleep in his class, I woke up, spent ten minutes wondering how I'd ended up in the girls' bathroom, and then several hours trying to explain myself when Tyr walked in.[NEWLINE][NEWLINE]- Adept Morin</French>
+		<German>For Oghma's sake, never fall asleep in Archmage Drahm's class. Ever. Under any circumstances. Sleep before class, collapse after class, but not during his class. You see, Drahm has an evil sense of humor. And he's a master of bending the fabric of reality itself. Last time I fell asleep in his class, I woke up, spent ten minutes wondering how I'd ended up in the girls' bathroom, and then several hours trying to explain myself when Tyr walked in.[NEWLINE][NEWLINE]- Adept Morin</German>
+		<Italian>For Oghma's sake, never fall asleep in Archmage Drahm's class. Ever. Under any circumstances. Sleep before class, collapse after class, but not during his class. You see, Drahm has an evil sense of humor. And he's a master of bending the fabric of reality itself. Last time I fell asleep in his class, I woke up, spent ten minutes wondering how I'd ended up in the girls' bathroom, and then several hours trying to explain myself when Tyr walked in.[NEWLINE][NEWLINE]- Adept Morin</Italian>
+		<Spanish>For Oghma's sake, never fall asleep in Archmage Drahm's class. Ever. Under any circumstances. Sleep before class, collapse after class, but not during his class. You see, Drahm has an evil sense of humor. And he's a master of bending the fabric of reality itself. Last time I fell asleep in his class, I woke up, spent ten minutes wondering how I'd ended up in the girls' bathroom, and then several hours trying to explain myself when Tyr walked in.[NEWLINE][NEWLINE]- Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_ENCHANTMENT_PEDIA</Tag>
+		<English>I don't consider myself a mage. You see, mages are arrogant. Half of them are useless fools who turn good food into daydreams, and the other half would blow up a city just to see what patterns the debris would make. I am a craftsman, who just happens to use magic to make swords sharper, hammers strike more true, and armor withstand more abuse then steel alone can.[NEWLINE][NEWLINE]- Flavius, Bannor enchanter</English>
+		<French>I don't consider myself a mage. You see, mages are arrogant. Half of them are useless fools who turn good food into daydreams, and the other half would blow up a city just to see what patterns the debris would make. I am a craftsman, who just happens to use magic to make swords sharper, hammers strike more true, and armor withstand more abuse then steel alone can.[NEWLINE][NEWLINE]- Flavius, Bannor enchanter</French>
+		<German>I don't consider myself a mage. You see, mages are arrogant. Half of them are useless fools who turn good food into daydreams, and the other half would blow up a city just to see what patterns the debris would make. I am a craftsman, who just happens to use magic to make swords sharper, hammers strike more true, and armor withstand more abuse then steel alone can.[NEWLINE][NEWLINE]- Flavius, Bannor enchanter</German>
+		<Italian>I don't consider myself a mage. You see, mages are arrogant. Half of them are useless fools who turn good food into daydreams, and the other half would blow up a city just to see what patterns the debris would make. I am a craftsman, who just happens to use magic to make swords sharper, hammers strike more true, and armor withstand more abuse then steel alone can.[NEWLINE][NEWLINE]- Flavius, Bannor enchanter</Italian>
+		<Spanish>I don't consider myself a mage. You see, mages are arrogant. Half of them are useless fools who turn good food into daydreams, and the other half would blow up a city just to see what patterns the debris would make. I am a craftsman, who just happens to use magic to make swords sharper, hammers strike more true, and armor withstand more abuse then steel alone can.[NEWLINE][NEWLINE]- Flavius, Bannor enchanter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_ICE_PEDIA</Tag>
+		<English>If you're stuck taking an Ice Magic class, bring a coat, no matter how hot it is outside. Make sure it has a really thick hood, so you can use it as a pillow. Oh, sure, every so often that doddering fool does something impressive, but for the most part, you get to hear an old windbag complain about how he'd trudge twenty miles, uphill both ways, just for a chance to polish Kylorin's boots.[NEWLINE][NEWLINE]- Adept Morin</English>
+		<French>If you're stuck taking an Ice Magic class, bring a coat, no matter how hot it is outside. Make sure it has a really thick hood, so you can use it as a pillow. Oh, sure, every so often that doddering fool does something impressive, but for the most part, you get to hear an old windbag complain about how he'd trudge twenty miles, uphill both ways, just for a chance to polish Kylorin's boots.[NEWLINE][NEWLINE]- Adept Morin</French>
+		<German>If you're stuck taking an Ice Magic class, bring a coat, no matter how hot it is outside. Make sure it has a really thick hood, so you can use it as a pillow. Oh, sure, every so often that doddering fool does something impressive, but for the most part, you get to hear an old windbag complain about how he'd trudge twenty miles, uphill both ways, just for a chance to polish Kylorin's boots.[NEWLINE][NEWLINE]- Adept Morin</German>
+		<Italian>If you're stuck taking an Ice Magic class, bring a coat, no matter how hot it is outside. Make sure it has a really thick hood, so you can use it as a pillow. Oh, sure, every so often that doddering fool does something impressive, but for the most part, you get to hear an old windbag complain about how he'd trudge twenty miles, uphill both ways, just for a chance to polish Kylorin's boots.[NEWLINE][NEWLINE]- Adept Morin</Italian>
+		<Spanish>If you're stuck taking an Ice Magic class, bring a coat, no matter how hot it is outside. Make sure it has a really thick hood, so you can use it as a pillow. Oh, sure, every so often that doddering fool does something impressive, but for the most part, you get to hear an old windbag complain about how he'd trudge twenty miles, uphill both ways, just for a chance to polish Kylorin's boots.[NEWLINE][NEWLINE]- Adept Morin</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_WATER_PEDIA</Tag>
+		<English>"What element could be mightier than water? It extinguishes the flames when all others perish before them. It gnaws ceaselessly at the earth, never tiring til in time it has worn even the greatest mountain down to the smallest speck of sand. Even the wind is it's servant, scattering raindrops so that all may know it's manifold blessings. With such power at our call, what threat could ever endanger our glorious republic?"[NEWLINE][NEWLINE]- Excerpt from The Vanity of the Aifons, Bernado Juvenal</English>
+		<French>"What element could be mightier than water? It extinguishes the flames when all others perish before them. It gnaws ceaselessly at the earth, never tiring til in time it has worn even the greatest mountain down to the smallest speck of sand. Even the wind is it's servant, scattering raindrops so that all may know it's manifold blessings. With such power at our call, what threat could ever endanger our glorious republic?"[NEWLINE][NEWLINE]- Excerpt from The Vanity of the Aifons, Bernado Juvenal</French>
+		<German>"What element could be mightier than water? It extinguishes the flames when all others perish before them. It gnaws ceaselessly at the earth, never tiring til in time it has worn even the greatest mountain down to the smallest speck of sand. Even the wind is it's servant, scattering raindrops so that all may know it's manifold blessings. With such power at our call, what threat could ever endanger our glorious republic?"[NEWLINE][NEWLINE]- Excerpt from The Vanity of the Aifons, Bernado Juvenal</German>
+		<Italian>"What element could be mightier than water? It extinguishes the flames when all others perish before them. It gnaws ceaselessly at the earth, never tiring til in time it has worn even the greatest mountain down to the smallest speck of sand. Even the wind is it's servant, scattering raindrops so that all may know it's manifold blessings. With such power at our call, what threat could ever endanger our glorious republic?"[NEWLINE][NEWLINE]- Excerpt from The Vanity of the Aifons, Bernado Juvenal</Italian>
+		<Spanish>"What element could be mightier than water? It extinguishes the flames when all others perish before them. It gnaws ceaselessly at the earth, never tiring til in time it has worn even the greatest mountain down to the smallest speck of sand. Even the wind is it's servant, scattering raindrops so that all may know it's manifold blessings. With such power at our call, what threat could ever endanger our glorious republic?"[NEWLINE][NEWLINE]- Excerpt from The Vanity of the Aifons, Bernado Juvenal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_FORCE_PEDIA</Tag>
+		<English>Ever heard of the battle of Nura Diatel? It was a big city, under siege for three days by the Amurites, who were trying to capture it. They just couldn't get through these huge walls around the city. On the first day they got this fire mage to try and get the soldiers who were on it so they could climb the wall with ladders. He killed about twenty soldiers with fire balls before he was shot in the head with an arrow from one of the enemy archers. Next, they sent out an entropy mage who started decaying the soldiers standing on the wall. Five died, and thirty were crippled before he got shot in the chest with a half dozen arrows. On the third day of the siege they sent out this force mage. He's about to cast a spell, when an archer pops out from the enemy ramparts. He fires an arrow, but the force mage reverses it in mid air and it collides with the wall with the power of a hundred-something battering rams, killing everyone on or near the entire east wall and crushing the houses beneath it. The rubble traveled so far it collided with the keep in the center of the city where the governor was hiding and leveled that, too. The city was so badly damaged that we ended up razing it since it would have taken too long to rebuild everything. But in the mage's defense, we DID win the battle.[NEWLINE][NEWLINE]- Hertal, Mercenary Leader.</English>
+		<French>Ever heard of the battle of Nura Diatel? It was a big city, under siege for three days by the Amurites, who were trying to capture it. They just couldn't get through these huge walls around the city. On the first day they got this fire mage to try and get the soldiers who were on it so they could climb the wall with ladders. He killed about twenty soldiers with fire balls before he was shot in the head with an arrow from one of the enemy archers. Next, they sent out an entropy mage who started decaying the soldiers standing on the wall. Five died, and thirty were crippled before he got shot in the chest with a half dozen arrows. On the third day of the siege they sent out this force mage. He's about to cast a spell, when an archer pops out from the enemy ramparts. He fires an arrow, but the force mage reverses it in mid air and it collides with the wall with the power of a hundred-something battering rams, killing everyone on or near the entire east wall and crushing the houses beneath it. The rubble traveled so far it collided with the keep in the center of the city where the governor was hiding and leveled that, too. The city was so badly damaged that we ended up razing it since it would have taken too long to rebuild everything. But in the mage's defense, we DID win the battle.[NEWLINE][NEWLINE]- Hertal, Mercenary Leader.</French>
+		<German>Ever heard of the battle of Nura Diatel? It was a big city, under siege for three days by the Amurites, who were trying to capture it. They just couldn't get through these huge walls around the city. On the first day they got this fire mage to try and get the soldiers who were on it so they could climb the wall with ladders. He killed about twenty soldiers with fire balls before he was shot in the head with an arrow from one of the enemy archers. Next, they sent out an entropy mage who started decaying the soldiers standing on the wall. Five died, and thirty were crippled before he got shot in the chest with a half dozen arrows. On the third day of the siege they sent out this force mage. He's about to cast a spell, when an archer pops out from the enemy ramparts. He fires an arrow, but the force mage reverses it in mid air and it collides with the wall with the power of a hundred-something battering rams, killing everyone on or near the entire east wall and crushing the houses beneath it. The rubble traveled so far it collided with the keep in the center of the city where the governor was hiding and leveled that, too. The city was so badly damaged that we ended up razing it since it would have taken too long to rebuild everything. But in the mage's defense, we DID win the battle.[NEWLINE][NEWLINE]- Hertal, Mercenary Leader.</German>
+		<Italian>Ever heard of the battle of Nura Diatel? It was a big city, under siege for three days by the Amurites, who were trying to capture it. They just couldn't get through these huge walls around the city. On the first day they got this fire mage to try and get the soldiers who were on it so they could climb the wall with ladders. He killed about twenty soldiers with fire balls before he was shot in the head with an arrow from one of the enemy archers. Next, they sent out an entropy mage who started decaying the soldiers standing on the wall. Five died, and thirty were crippled before he got shot in the chest with a half dozen arrows. On the third day of the siege they sent out this force mage. He's about to cast a spell, when an archer pops out from the enemy ramparts. He fires an arrow, but the force mage reverses it in mid air and it collides with the wall with the power of a hundred-something battering rams, killing everyone on or near the entire east wall and crushing the houses beneath it. The rubble traveled so far it collided with the keep in the center of the city where the governor was hiding and leveled that, too. The city was so badly damaged that we ended up razing it since it would have taken too long to rebuild everything. But in the mage's defense, we DID win the battle.[NEWLINE][NEWLINE]- Hertal, Mercenary Leader.</Italian>
+		<Spanish>Ever heard of the battle of Nura Diatel? It was a big city, under siege for three days by the Amurites, who were trying to capture it. They just couldn't get through these huge walls around the city. On the first day they got this fire mage to try and get the soldiers who were on it so they could climb the wall with ladders. He killed about twenty soldiers with fire balls before he was shot in the head with an arrow from one of the enemy archers. Next, they sent out an entropy mage who started decaying the soldiers standing on the wall. Five died, and thirty were crippled before he got shot in the chest with a half dozen arrows. On the third day of the siege they sent out this force mage. He's about to cast a spell, when an archer pops out from the enemy ramparts. He fires an arrow, but the force mage reverses it in mid air and it collides with the wall with the power of a hundred-something battering rams, killing everyone on or near the entire east wall and crushing the houses beneath it. The rubble traveled so far it collided with the keep in the center of the city where the governor was hiding and leveled that, too. The city was so badly damaged that we ended up razing it since it would have taken too long to rebuild everything. But in the mage's defense, we DID win the battle.[NEWLINE][NEWLINE]- Hertal, Mercenary Leader.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_METAMAGIC_PEDIA</Tag>
+		<English>There are an infinite number of ways to counter another mage's spell, all of which are very effective and will most likely kill both of you unless you have a reasonable grasp of the laws of magic in general; or Metamagic. [NEWLINE][NEWLINE]- Archmage Chuel</English>
+		<French>There are an infinite number of ways to counter another mage's spell, all of which are very effective and will most likely kill both of you unless you have a reasonable grasp of the laws of magic in general; or Metamagic. [NEWLINE][NEWLINE]- Archmage Chuel</French>
+		<German>There are an infinite number of ways to counter another mage's spell, all of which are very effective and will most likely kill both of you unless you have a reasonable grasp of the laws of magic in general; or Metamagic. [NEWLINE][NEWLINE]- Archmage Chuel</German>
+		<Italian>There are an infinite number of ways to counter another mage's spell, all of which are very effective and will most likely kill both of you unless you have a reasonable grasp of the laws of magic in general; or Metamagic. [NEWLINE][NEWLINE]- Archmage Chuel</Italian>
+		<Spanish>There are an infinite number of ways to counter another mage's spell, all of which are very effective and will most likely kill both of you unless you have a reasonable grasp of the laws of magic in general; or Metamagic. [NEWLINE][NEWLINE]- Archmage Chuel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CAGE_PEDIA</Tag>
+		<English>Cage traps are designed to catch live animals in a cage. They are usually baited, sometimes with food bait and sometimes with a live "lure" animal. Common baits include raw meat and fish. Cage traps usually have a trigger located in the back of the cage that causes a door to shut; some traps with two doors have a trigger in the middle of the cage that causes both doors to shut. In either type of cage, the closure of the doors and the falling of a lock mechanism prevents the animal from escaping by locking the door(s) shut.</English>
+		<French>Cage traps are designed to catch live animals in a cage. They are usually baited, sometimes with food bait and sometimes with a live "lure" animal. Common baits include raw meat and fish. Cage traps usually have a trigger located in the back of the cage that causes a door to shut; some traps with two doors have a trigger in the middle of the cage that causes both doors to shut. In either type of cage, the closure of the doors and the falling of a lock mechanism prevents the animal from escaping by locking the door(s) shut.</French>
+		<German>Cage traps are designed to catch live animals in a cage. They are usually baited, sometimes with food bait and sometimes with a live "lure" animal. Common baits include raw meat and fish. Cage traps usually have a trigger located in the back of the cage that causes a door to shut; some traps with two doors have a trigger in the middle of the cage that causes both doors to shut. In either type of cage, the closure of the doors and the falling of a lock mechanism prevents the animal from escaping by locking the door(s) shut.</German>
+		<Italian>Cage traps are designed to catch live animals in a cage. They are usually baited, sometimes with food bait and sometimes with a live "lure" animal. Common baits include raw meat and fish. Cage traps usually have a trigger located in the back of the cage that causes a door to shut; some traps with two doors have a trigger in the middle of the cage that causes both doors to shut. In either type of cage, the closure of the doors and the falling of a lock mechanism prevents the animal from escaping by locking the door(s) shut.</Italian>
+		<Spanish>Cage traps are designed to catch live animals in a cage. They are usually baited, sometimes with food bait and sometimes with a live "lure" animal. Common baits include raw meat and fish. Cage traps usually have a trigger located in the back of the cage that causes a door to shut; some traps with two doors have a trigger in the middle of the cage that causes both doors to shut. In either type of cage, the closure of the doors and the falling of a lock mechanism prevents the animal from escaping by locking the door(s) shut.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_LION_DEN_PEDIA</Tag>
+		<English>How do you fall into a lion's den, that is my first question there, you think you would be extra careful around a den of lions. - Author Dane Cook</English>
+		<French>How do you fall into a lion's den, that is my first question there, you think you would be extra careful around a den of lions. - Author Dane Cook</French>
+		<German>How do you fall into a lion's den, that is my first question there, you think you would be extra careful around a den of lions. - Author Dane Cook</German>
+		<Italian>How do you fall into a lion's den, that is my first question there, you think you would be extra careful around a den of lions. - Author Dane Cook</Italian>
+		<Spanish>How do you fall into a lion's den, that is my first question there, you think you would be extra careful around a den of lions. - Author Dane Cook</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_YARANGA_PEDIA</Tag>
+		<English>For at least a few hundred years, the coneshaped yaranga has been the traditional home of Doviello reindeer herders. It takes about 80 reindeer skins to build a yaranga.</English>
+		<French>For at least a few hundred years, the coneshaped yaranga has been the traditional home of Doviello reindeer herders. It takes about 80 reindeer skins to build a yaranga.</French>
+		<German>For at least a few hundred years, the coneshaped yaranga has been the traditional home of Doviello reindeer herders. It takes about 80 reindeer skins to build a yaranga.</German>
+		<Italian>For at least a few hundred years, the coneshaped yaranga has been the traditional home of Doviello reindeer herders. It takes about 80 reindeer skins to build a yaranga.</Italian>
+		<Spanish>For at least a few hundred years, the coneshaped yaranga has been the traditional home of Doviello reindeer herders. It takes about 80 reindeer skins to build a yaranga.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SWAMP</Tag>
+		<English>Swamp</English>
+		<French>Marais</French>
+		<German>Sumpf</German>
+		<Italian>Swamp</Italian>
+		<Spanish>Swamp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CAMP_NOMAD</Tag>
+		<English>Nomad Camp</English>
+		<French>Camp nomade</French>
+		<German>Nomadenlager</German>
+		<Italian>Nomad Camp</Italian>
+		<Spanish>Nomad Camp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_FORCE</Tag>
+		<English>Force Node</English>
+		<French>N&#156;ud de Force</French>
+		<German>Knoten der Macht</German>
+		<Italian>Force Node</Italian>
+		<Spanish>Force Node</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_ICE</Tag>
+		<English>Ice Node</English>
+		<French>N&#156;ud de Glace</French>
+		<German>Knoten der Eismagie</German>
+		<Italian>Ice Node</Italian>
+		<Spanish>Ice Node</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_DIMENSIONAL</Tag>
+		<English>Dimensional Node</English>
+		<French>N&#156;ud Dimensionnel</French>
+		<German>Knoten der Dimensionsmagie</German>
+		<Italian>Dimensional Node</Italian>
+		<Spanish>Dimensional Node</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CITADEL</Tag>
+		<English>Citadel</English>
+		<French>
+			<Text>Citadelle:Citadelles</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Zitadelle</German>
+		<Italian>Citadel</Italian>
+		<Spanish>Ciudadela</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DUNGEON</Tag>
+		<English>Dungeon</English>
+		<French>Donjon</French>
+		<German>
+			<Text>Burgverlies</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>Dungeon</Italian>
+		<Spanish>Dungeon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DUNGEON_PEDIA</Tag>
+		<English>There are thousands of different kinds of dungeons spread across Erebus, some abandoned with forgotten treasures available for the taking, others are the lairs for dark creatures. The only way to tell the difference between the two is to explore them.</English>
+		<French>There are thousands of different kinds of dungeons spread across Erebus, some abandoned with forgotten treasures available for the taking, others are the lairs for dark creatures. The only way to tell the difference between the two is to explore them.</French>
+		<German>Es gibt Tausende verschiedene Arten von Dungeons überall auf Erebus, einige verlassen, aber gefüllt mit vergessenen Schätzen für denjenigen, der sie sich nehmen möchte, andere sind Heimat für dunkle Kreaturen. Der einzige Weg, um den Unterschied zwischen beiden herauszufinden, ist, sie zu erkunden.</German>
+		<Italian>There are thousands of different kinds of dungeons spread across Erebus, some abandoned with forgotten treasures available for the taking, others are the lairs for dark creatures. The only way to tell the difference between the two is to explore them.</Italian>
+		<Spanish>There are thousands of different kinds of dungeons spread across Erebus, some abandoned with forgotten treasures available for the taking, others are the lairs for dark creatures. The only way to tell the difference between the two is to explore them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_ENCLAVE</Tag>
+		<English>Enclave</English>
+		<French>
+			<Text>Enclave:Enclaves</Text>
+			<Gender>Female</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Enklave</German>
+		<Italian>Enclave</Italian>
+		<Spanish>Enclave</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FARM_PEDIA</Tag>
+		<English>Farm is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_AGRICULTURE]Agriculture[\LINK], workers build them 25% faster.</English>
+		<French>Farm is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_AGRICULTURE]Agriculture[\LINK], workers build them 25% faster.</French>
+		<German>Farm is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_AGRICULTURE]Agriculture[\LINK], workers build them 25% faster.</German>
+		<Italian>Farm is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_AGRICULTURE]Agriculture[\LINK], workers build them 25% faster.</Italian>
+		<Spanish>Farm is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_AGRICULTURE]Agriculture[\LINK], workers build them 25% faster.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GRAVEYARD</Tag>
+		<English>Graveyard</English>
+		<French>
+			<Text>Cimetière:Cimetières</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Friedhof</German>
+		<Italian>Graveyard</Italian>
+		<Spanish>Cementerio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GRAVEYARD_PEDIA</Tag>
+		<English>Casting Raise Skeleton on a graveyard will grant you 3 skeletons. Casting Sanctify on a graveyard grants a free Law Bringer. Robbing a graveyard produces random results. Casting Resurrection in a graveyard produces a free Champion.</English>
+		<French>Casting Raise Skeleton on a graveyard will grant you 3 skeletons. Casting Sanctify on a graveyard grants a free Law Bringer. Robbing a graveyard produces random results. Casting Resurrection in a graveyard produces a free Champion.</French>
+		<German>Wird der Zauber "Skelett erschaffen" auf einem Friedhof gewirkt, erheben sich 3 Skelette aus der Erde. Der Zauber "Heiligen" gewährt einen kostenlosen Rechtsprecher, wenn er auf einem Friedhof gewirkt wird. Der Zauber "Auferstehung" gewährt einen kostenlosen Waffenmeister, wenn er auf einem Friedhof gewirkt wird. Einen Friedhof zu plündern, erbringt zufällige Ergebnisse.</German>
+		<Italian>Casting Raise Skeleton on a graveyard will grant you 3 skeletons. Casting Sanctify on a graveyard grants a free Law Bringer. Robbing a graveyard produces random results. Casting Resurrection in a graveyard produces a free Champion.</Italian>
+		<Spanish>Al lanzar Alzar Esqueleto sobre un cementerio te dará 3 esqueletos.  Al lanzar Santificar sobre un cementerio da gratis un Heraldo de la Ley.  Saquear un cementerio produce resultados aleatorios.  Lanzar Resurrección en un cementerio produce un Campeón gratis.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HELLFIRE</Tag>
+		<English>Hellfire</English>
+		<French>Feu d'Enfer</French>
+		<German>Höllenfeuer</German>
+		<Italian>Hellfire</Italian>
+		<Spanish>Fuego Infernal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_HELLFIRE_PEDIA</Tag>
+		<English>Spawns demons if it isn't eliminated.</English>
+		<French>[ICON_BULLET]Génèrent des démons s'ils ne sont pas éliminés</French>
+		<German>Erzeugt Dämonen bis es Zerstört wird</German>
+		<Italian>Spawns demons if it isn't eliminated.</Italian>
+		<Spanish>Genera demonios si no es eliminado.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_JUNGLE_ALTAR</Tag>
+		<English>Jungle Altar</English>
+		<French>Jungle Altar</French>
+		<German>Dschungelaltar</German>
+		<Italian>Jungle Altar</Italian>
+		<Spanish>Jungle Altar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_AIR</Tag>
+		<English>Air Node</English>
+		<French>N&#156;ud d'Air</French>
+		<German>Manabrunnen Luftmagie</German>
+		<Italian>Air Node</Italian>
+		<Spanish>Nodo de Aire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_BODY</Tag>
+		<English>Body Node</English>
+		<French>N&#156;ud de Corps</French>
+		<German>Manabrunnen Körpermagie</German>
+		<Italian>Body Node</Italian>
+		<Spanish>Nodo de Cuerpo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_CHAOS</Tag>
+		<English>Chaos Node</English>
+		<French>N&#156;ud de Chaos</French>
+		<German>Manabrunnen Chaosmagie</German>
+		<Italian>Chaos Node</Italian>
+		<Spanish>Nodo de Caos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_CREATION</Tag>
+		<English>Creation Node</English>
+		<French>N&#156;ud de Création</French>
+		<German>Manabrunnen Schöpfungsmagie</German>
+		<Italian>Creation Node</Italian>
+		<Spanish>Nodo de Creación</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_DEATH</Tag>
+		<English>Death Node</English>
+		<French>N&#156;ud de Mort</French>
+		<German>Manabrunnen Todesmagie</German>
+		<Italian>Death Node</Italian>
+		<Spanish>Nodo de Muerte</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_EARTH</Tag>
+		<English>Earth Node</English>
+		<French>N&#156;ud de Terre</French>
+		<German>Manabrunnen Erdmagie</German>
+		<Italian>Earth Node</Italian>
+		<Spanish>Nodo de Tierra</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_ENCHANTMENT</Tag>
+		<English>Enchantment Node</English>
+		<French>N&#156;ud d'Enchantement</French>
+		<German>Manabrunnen Verzauberungsmagie</German>
+		<Italian>Enchantment Node</Italian>
+		<Spanish>Nodo de Encantamiento</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_ENTROPY</Tag>
+		<English>Entropy Node</English>
+		<French>N&#156;ud d'Entropie</French>
+		<German>Manabrunnen Entropiemagie</German>
+		<Italian>Entropy Node</Italian>
+		<Spanish>Nodo de Entropía</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_FIRE</Tag>
+		<English>Fire Node</English>
+		<French>N&#156;ud de Feu</French>
+		<German>Manabrunnen Feuermagie</German>
+		<Italian>Fire Node</Italian>
+		<Spanish>Nodo de Fuego</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_LAW</Tag>
+		<English>Law Node</English>
+		<French>N&#156;ud de Loi</French>
+		<German>Manabrunnen Ordnungsmagie</German>
+		<Italian>Law Node</Italian>
+		<Spanish>Nodo de Ley</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_LIFE</Tag>
+		<English>Life Node</English>
+		<French>N&#156;ud de Vie</French>
+		<German>Manabrunnen Lebensmagie</German>
+		<Italian>Life Node</Italian>
+		<Spanish>Nodo de Vida</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_METAMAGIC</Tag>
+		<English>Metamagic Node</English>
+		<French>N&#156;ud de Métamagie</French>
+		<German>Manabrunnen Metamagie</German>
+		<Italian>Metamagic Node</Italian>
+		<Spanish>Nodo de Metamagia</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_MIND</Tag>
+		<English>Mind Node</English>
+		<French>N&#156;ud de Pensée</French>
+		<German>Manabrunnen Geistesmagie</German>
+		<Italian>Mind Node</Italian>
+		<Spanish>Nodo de Mente</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_NATURE</Tag>
+		<English>Nature Node</English>
+		<French>N&#156;ud de Nature</French>
+		<German>Manabrunnen Naturmagie</German>
+		<Italian>Nature Node</Italian>
+		<Spanish>Nodo de Naturaleza</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_SHADOW</Tag>
+		<English>Shadow Node</English>
+		<French>N&#156;ud d'Ombre</French>
+		<German>Manabrunnen Schattenmagie</German>
+		<Italian>Shadow Node</Italian>
+		<Spanish>Nodo Sombrío</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_SPIRIT</Tag>
+		<English>Spirit Node</English>
+		<French>N&#156;ud d'Esprit</French>
+		<German>Manabrunnen Seelenmagie</German>
+		<Italian>Spirit Node</Italian>
+		<Spanish>Nodo de Espíritu</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_SUN</Tag>
+		<English>Sun Node</English>
+		<French>N&#156;ud de Soleil</French>
+		<German>Manabrunnen Sonnenmagie</German>
+		<Italian>Sun Node</Italian>
+		<Spanish>Nodo Solar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MANA_WATER</Tag>
+		<English>Water Node</English>
+		<French>N&#156;ud d'Eau</French>
+		<German>Manabrunnen Wassermagie</German>
+		<Italian>Water Node</Italian>
+		<Spanish>Nodo de Agua</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MONSTER_SKELETON</Tag>
+		<English>Ancient Skeleton</English>
+		<French>Squelette fossilisé</French>
+		<German>Antikes Skelett</German>
+		<Italian>Ancient Skeleton</Italian>
+		<Spanish>Ancient Skeleton</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NECROTOTEM</Tag>
+		<English>Necrototem</English>
+		<French>Necrototem</French>
+		<German>
+			<Text>Todes-Totem</Text>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>Necrototem</Italian>
+		<Spanish>Necrototem</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NECROTOTEM_PEDIA</Tag>
+		<English>The totems are said to be manufactured in hell itself and planted here in Erebus as a sign of hell's growing power. Regardless of their origin their effect is felt by any that come near, an overpowering fear that sends even the bravest running away from the totem</English>
+		<French>The totems are said to be manufactured in hell itself and planted here in Erebus as a sign of hell's growing power. Regardless of their origin their effect is felt by any that come near, an overpowering fear that sends even the bravest running away from the totem</French>
+		<German>Es heißt, die Totems werden in der Hölle selbst hergestellt und hier auf Erebus als Zeichen der wachsenden Macht der Hölle aufgestellt. Ungeachtet ihrer Herkunft ist ihr Effekt bei jedem zu beobachten, der sich ihnen nähert, ein überwältigendes Angstgefühl, das selbst die Mutigsten vor dem Totem davonrennen lässt.</German>
+		<Italian>The totems are said to be manufactured in hell itself and planted here in Erebus as a sign of hell's growing power. Regardless of their origin their effect is felt by any that come near, an overpowering fear that sends even the bravest running away from the totem</Italian>
+		<Spanish>The totems are said to be manufactured in hell itself and planted here in Erebus as a sign of hell's growing power. Regardless of their origin their effect is felt by any that come near, an overpowering fear that sends even the bravest running away from the totem</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PENGUINS</Tag>
+		<English>Penguins</English>
+		<French>Manchots</French>
+		<German>Pinguine</German>
+		<Italian>Pinguini</Italian>
+		<Spanish>Pingüinos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_COVE</Tag>
+		<English>Pirate Cove</English>
+		<French>
+			<Text>Crique pirate</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Piratenbucht</German>
+		<Italian>Pirate Cove</Italian>
+		<Spanish>Cala Pirata</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_COVE_PEDIA</Tag>
+		<English>Pirate Coves are available to civilizations that start with the seafaring tech (the Lanun).[NEWLINE][ICON_BULLET]While in a cove ships gain a defensive bonus, increased healing, and a slightly better sight range.[NEWLINE][ICON_BULLET]A cove can't be built within 3 tiles of another cove.</English>
+		<French>[ICON_BULLET]La Crique Pirate est seulement disponible pour les civilisations qui commencent avec la technologie Navigation (les Lanuns). Cela permet aux ouvriers de créer une crique sur une case de côte (possédée par le joueur ou non possédée) dans laquelle les navires peuvent entrer. Tant qu'ils sont dans la crique, les navires gagnent en défense, augmente le taux de guérison et un champ de vision légèrement meilleur. Si une crique est dans une case possédée par le joueur, elle fournit une petite quantité d'or. Une crique ne peut être construite à moins de trois cases d'une autre crique.</French>
+		<German>Die Piratenbucht steht nur Zivilisationen zur Verfügung, die mit der Bootsbau-Technologie beginnen (die Lanun) [NEWLINE][ICON_BULLET] Während Schiffe in einer Bucht liegen, erhalten sie einen Defensivbonus und eine leicht erhöhte Sichtweite, außerdem sie heilen schneller.[NEWLINE][ICON_BULLET] Eine Bucht muss mindestens 3 Geländefelder Abstand zur nächsten haben.</German>
+		<Italian>Pirate Coves are available to civilizations that start with the seafaring tech (the Lanun).[NEWLINE][ICON_BULLET]While in a cove ships gain a defensive bonus, increased healing, and a slightly better sight range.[NEWLINE][ICON_BULLET]A cove can't be built within 3 tiles of another cove.</Italian>
+		<Spanish>Pirate Coves can only available to civilizations that start with the seafaring tech (the Lanun).[NEWLINE][ICON_BULLET]While in a cove ships gain a defensive bonus, increased healing, and a slightly better sight range.[NEWLINE][ICON_BULLET]A cove can't be built within 3 tiles of another cove.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_HARBOR</Tag>
+		<English>Pirate Harbor</English>
+		<French>Port de Pirates</French>
+		<German>Piratenhafen</German>
+		<Italian>Pirate Harbor</Italian>
+		<Spanish>Puerto Pirata</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_PORT</Tag>
+		<English>Pirate Port</English>
+		<French>Grand port de Pirates</French>
+		<German>Piratendock</German>
+		<Italian>Pirate Port</Italian>
+		<Spanish>Muelle Pirata</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_PORTAL</Tag>
+		<English>Portal</English>
+		<French>Portail</French>
+		<German>Portal</German>
+		<Italian>Portal</Italian>
+		<Spanish>Portal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SHIP_WRECK</Tag>
+		<English>Ship Wreck</English>
+		<French>Épave de navire</French>
+		<German>
+			<Text>Schiffswrack</Text>
+			<Gender>Neuter</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>Ship Wreck</Italian>
+		<Spanish>Ship Wreck</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SHIP_WRECK_PEDIA</Tag>
+		<English>Some occurred decades ago, for some it was centuries. In either case treasures may remain among the wreckage or monsters may lay in wait beneath them.</English>
+		<French>Some occurred decades ago, for some it was centuries. In either case treasures may remain among the wreckage or monsters may lay in wait beneath them.</French>
+		<German>Für manche geschah es vor Jahrzehnten, für andere waren es Jahrhunderte. In jedem Fall können entweder Schätze in den Trümmern verborgen sein oder Monster in ihnen lauern.</German>
+		<Italian>Some occurred decades ago, for some it was centuries. In either case treasures may remain among the wreckage or monsters may lay in wait beneath them.</Italian>
+		<Spanish>Some occurred decades ago, for some it was centuries. In either case treasures may remain among the wreckage or monsters may lay in wait beneath them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SMOKE</Tag>
+		<English>Smoke</English>
+		<French>
+			<Text>Fumée</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Rauch</German>
+		<Italian>Smoke</Italian>
+		<Spanish>Humo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SMOKE_PEDIA</Tag>
+		<English>Smoke is an early indication that a tile could burst into flames.</English>
+		<French>La Fumée est une indication préventive qu'une case peut s'incendier.</French>
+		<German>Rauch ist ein frühes Zeichen dafür das ein Feld bald in Flammen stehen könnte.</German>
+		<Italian>Smoke is an early indication that a tile could burst into flames.</Italian>
+		<Spanish>El humo es una indicación previa de que una casilla podría incendiarse.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SNAKE_PILLAR</Tag>
+		<English>Snake Pillar</English>
+		<French>Pilier Serpent</French>
+		<German>Schlangensäule</German>
+		<Italian>Snake Pillar</Italian>
+		<Spanish>Pilar Serpentino</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TOWER</Tag>
+		<English>Ancient Tower</English>
+		<French>
+			<Text>Tour Ancestrale</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Uralter Turm</German>
+		<Italian>Ancient Tower</Italian>
+		<Spanish>Torre Antigua</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_TOWER_PEDIA</Tag>
+		<English>[TAB]Built to guard the borders of countries that have long since passed away, the towers still offer a remarkable view of the surrounding lands.</English>
+		<French>[TAB]Construites depuis bien longtemps pour surveiller les frontières des pays, les tours offrent toujours une vision remarquable des terres environnantes.</French>
+		<German>[TAB]Gebaut, um die Grenzen von lange verschollenen Ländern zu bewachen, ermöglichen diese Türme immer noch einen außergewöhnlichen Ausblick auf das Land.</German>
+		<Italian>[TAB]Built to guard the borders of countries that have long since passed away, the towers still offer a remarkable view of the surrounding lands.</Italian>
+		<Spanish>[TAB]Construidas para vigilar las fronteras de países desaparecidos hace ya tiempo, las torres aún ofrecen una vista destacable de las tierras de alrededor.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WARNING_POST</Tag>
+		<English>Warning Post</English>
+		<French>Warning Post</French>
+		<German>Warnzeichen</German>
+		<Italian>Warning Post</Italian>
+		<Spanish>Warning Post</Spanish>
+	</TEXT>
+</Civ4GameText>

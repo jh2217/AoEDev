@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Main Menu Infos -->
+<Civ4MainMenus xmlns="x-schema:CIV4ArtDefinesSchema.xml">
+	<MainMenus>
+		<MainMenu>
+			<Type>MAIN_MENU_AOE</Type>
+			<Description>Ashes of Erebus</Description>
+			<Scene>MAINMENU_SCENE_AOE</Scene>
+			<SceneNoShader>MAINMENU_SCENE_AOE</SceneNoShader>
+			<Soundtrack>AS2D_OPENING_MENU_ASHES_OF_EREBUS</Soundtrack>
+			<Loading>MAINMENU_LOAD_BTS</Loading>
+			<LoadingSlideshow>MAINMENU_SLIDESHOW_LOAD_BTS</LoadingSlideshow>
+		</MainMenu>
+		<MainMenu>
+			<Type>MAIN_MENU_RIFE</Type>
+			<Description>Rise from Erebus</Description>
+			<Scene>MAINMENU_SCENE_RIFE</Scene>
+			<SceneNoShader>MAINMENU_SCENE_RIFE</SceneNoShader>
+			<Soundtrack>AS2D_DIPLO_DTESH</Soundtrack>
+			<Loading>MAINMENU_LOAD_BTS</Loading>
+			<LoadingSlideshow>MAINMENU_SLIDESHOW_LOAD_BTS</LoadingSlideshow>
+		</MainMenu>
+		<MainMenu>
+			<Type>MAIN_MENU_STEAMPUNK</Type>
+			<Description>Steampunk</Description>
+			<Scene>MAINMENU_SCENE_STEAMPUNK</Scene>
+			<SceneNoShader>MAINMENU_SCENE_STEAMPUNK</SceneNoShader>
+			<Soundtrack>AS2D_MACHINARUM1_LOOP</Soundtrack>
+			<Loading>MAINMENU_LOAD_BTS</Loading>
+			<LoadingSlideshow>MAINMENU_SLIDESHOW_LOAD_BTS</LoadingSlideshow>
+		</MainMenu>
+		<MainMenu>
+			<Type>MAIN_MENU_FALL_FURTHER</Type>
+			<Description>Fall Further</Description>
+			<Scene>MAINMENU_SCENE_FALL_FURTHER</Scene>
+			<SceneNoShader>MAINMENU_SCENE_FALL_FURTHER</SceneNoShader>
+			<Soundtrack>AS2D_OPENING_MENU_FALL_FURTHER</Soundtrack>
+			<Loading>MAINMENU_LOAD_BTS</Loading>
+			<LoadingSlideshow>MAINMENU_SLIDESHOW_LOAD_BTS</LoadingSlideshow>
+		</MainMenu>
+		<MainMenu>
+			<Type>MAIN_MENU_FALL_FROM_HEAVEN</Type>
+			<Description>Fall from Heaven</Description>
+			<Scene>MAINMENU_SCENE_FALL_FROM_HEAVEN</Scene>
+			<SceneNoShader>MAINMENU_SCENE_FALL_FROM_HEAVEN</SceneNoShader>
+			<Soundtrack>AS2D_OPENING_MENU_FALL_FROM_HEAVEN</Soundtrack>
+			<Loading>MAINMENU_LOAD_BTS</Loading>
+			<LoadingSlideshow>MAINMENU_SLIDESHOW_LOAD_BTS</LoadingSlideshow>
+		</MainMenu>
+		<MainMenu>
+			<Type>MAIN_MENU_SPHENER</Type>
+			<Description>Sphener</Description>
+			<Scene>MAINMENU_SCENE_SPHENER</Scene>
+			<SceneNoShader>MAINMENU_SCENE_SPHENER</SceneNoShader>
+			<Soundtrack>AS2D_INNOCENT_CHILD_LOOP</Soundtrack>
+			<Loading>MAINMENU_LOAD_BTS</Loading>
+			<LoadingSlideshow>MAINMENU_SLIDESHOW_LOAD_BTS</LoadingSlideshow>
+		</MainMenu>
+		<MainMenu>
+			<Type>MAIN_MENU_MOM</Type>
+			<Description>Master of Magic</Description>
+			<Scene>MAINMENU_SCENE_MOM</Scene>
+			<SceneNoShader>MAINMENU_SCENE_MOM</SceneNoShader>
+			<Soundtrack>AS2D_LABYRINTH_OF_DREAMS_LOOP</Soundtrack>
+			<Loading>MAINMENU_LOAD_BTS</Loading>
+			<LoadingSlideshow>MAINMENU_SLIDESHOW_LOAD_BTS</LoadingSlideshow>
+		</MainMenu>
+		<MainMenu>
+			<Type>MAIN_MENU_THANKS</Type>
+			<Description>Thanks</Description>
+			<Scene>MAINMENU_SCENE_THANKS</Scene>
+			<SceneNoShader>MAINMENU_SCENE_THANKS</SceneNoShader>
+			<Soundtrack>AS2D_THE_SIEGE_LOOP</Soundtrack>
+			<Loading>MAINMENU_LOAD_BTS</Loading>
+			<LoadingSlideshow>MAINMENU_SLIDESHOW_LOAD_BTS</LoadingSlideshow>
+		</MainMenu>
+	</MainMenus>
+</Civ4MainMenus>

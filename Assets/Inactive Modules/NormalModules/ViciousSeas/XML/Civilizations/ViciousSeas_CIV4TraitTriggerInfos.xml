@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+
+<Civ4TraitTriggerInfos xmlns="x-schema:ViciousSeas_CIV4CivilizationsSchema.xml">
+	<TraitTriggerInfos>
+		<TraitTriggerInfo> <!-- Kill                Leviathan        kills The Leviathan        Conquerors of the Sea -->
+			<Type>TRAITTRIGGER_KILL_VS_LEVIATHAN</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_CONQUERORSOFTHESEA</TraitType>
+					<iModifier>500</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_VICTORIOUS</TraitClassType>
+			
+			<TraitHookType>TRAITHOOK_KILL_UNIT</TraitHookType>
+			
+			<PrereqKilledUnitClassType>UNITCLASS_LEVIATHAN</PrereqKilledUnitClassType>
+		</TraitTriggerInfo>
+	</TraitTriggerInfos>
+</Civ4TraitTriggerInfos>

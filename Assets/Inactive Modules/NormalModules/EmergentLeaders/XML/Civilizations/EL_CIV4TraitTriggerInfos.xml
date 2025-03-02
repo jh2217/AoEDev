@@ -1,0 +1,785 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<!-- CONFIRMED WORKING INGAME:
+- build improvement
+- cast spell (unit or city)
+- construct building (buildingclass, 
+- gain promo (on levelup, on unit trained, on unit upgraded)
+- kill enemy (unitclass, unitcombat, 
+- train unit
+-->
+
+<Civ4TraitTriggerInfos xmlns="x-schema:EL_CIV4CivilizationsSchema.xml">
+	<TraitTriggerInfos>
+		<TraitTriggerInfo> <!-- Build               Death Mana                                  Incorporeal -->
+			<Type>TRAITTRIGGER_BUILD_MANA_DEATH_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_BUILD_IMPROVEMENT</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_MANA_DEATH</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Build               Fire Mana                                   Pyromancer -->
+			<Type>TRAITTRIGGER_BUILD_MANA_FIRE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_BUILD_IMPROVEMENT</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_MANA_FIRE</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Build               Shadow Mana                                 Incorporeal -->
+			<Type>TRAITTRIGGER_BUILD_MANA_SHADOW_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_BUILD_IMPROVEMENT</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_MANA_SHADOW</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Summon Spectre                              Incorporeal -->
+			<Type>TRAITTRIGGER_CAST_SUMMON_SPECTRE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			
+			<PrereqSpellType>SPELL_SUMMON_SPECTRE</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Resurrect                                   Patriarch -->
+			<Type>TRAITTRIGGER_CAST_RESURRECTION_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			
+			<PrereqSpellType>SPELL_RESURRECTION</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Blaze			                            Pyromancer -->
+			<Type>TRAITTRIGGER_CAST_BLAZE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>3</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			
+			<PrereqSpellType>SPELL_BLAZE</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Fireball		                            Pyromancer -->
+			<Type>TRAITTRIGGER_CAST_FIREBALL_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			
+			<PrereqSpellType>SPELL_FIREBALL</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Summon Fire Elemental                      	Pyromancer -->
+			<Type>TRAITTRIGGER_CAST_SUMMON_FIRE_ELEMENTAL_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>15</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			
+			<PrereqSpellType>SPELL_SUMMON_FIRE_ELEMENTAL</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Ring of Flames                   		   	Pyromancer -->
+			<Type>TRAITTRIGGER_CAST_RING_OF_FLAMES_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			
+			<PrereqSpellType>SPELL_RING_OF_FLAMES2</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Pillar of Fire                   		   	Pyromancer -->
+			<Type>TRAITTRIGGER_CAST_PILLAR_OF_FIRE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			
+			<PrereqSpellType>SPELL_CLAN_PILLAR_OF_FIRE2</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Ignite Pyre		                   		   	Pyromancer -->
+			<Type>TRAITTRIGGER_CAST_IGNITE_PYRE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>3</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			
+			<PrereqSpellType>SPELL_IGNITE_PYRE2</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Connect             Horse                                       Incorporeal -->
+			<Type>TRAITTRIGGER_CONNECT_HORSE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONNECT_RESOURCE</TraitHookType>
+			
+			<PrereqBonusType>BONUS_HORSE</PrereqBonusType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Connect             Nightmare                                   Incorporeal -->
+			<Type>TRAITTRIGGER_CONNECT_NIGHTMARE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONNECT_RESOURCE</TraitHookType>
+			
+			<PrereqBonusType>BONUS_NIGHTMARE</PrereqBonusType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Connect             Sheut stone                                 Incorporeal -->
+			<Type>TRAITTRIGGER_CONNECT_SHEUT_STONE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONNECT_RESOURCE</TraitHookType>
+			
+			<PrereqBonusType>BONUS_SHEUT_STONE</PrereqBonusType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Command Post                                Patriarch -->
+			<Type>TRAITTRIGGER_CONSTRUCT_COMMAND_POST_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_COMMAND_POST</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Ride of the Nine Kings                      Incorporeal -->
+			<Type>TRAITTRIGGER_CONSTRUCT_RIDE_OF_THE_NINE_KINGS_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_RIDE_OF_THE_NINE_KINGS</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Jousting Tilt                               Incorporeal -->
+			<Type>TRAITTRIGGER_CONSTRUCT_JOUSTING_TILT_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_JOUSTING_TILT</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Stable                              		Incorporeal -->
+			<Type>TRAITTRIGGER_CONSTRUCT_STABLE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>4</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_STABLE</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Mage Guild	                           		Pyromancer -->
+			<Type>TRAITTRIGGER_CONSTRUCT_MAGE_GUILD_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_MAGE_GUILD</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Catacomb Libralus	                   		Pyromancer -->
+			<Type>TRAITTRIGGER_CONSTRUCT_CATACOMB_LIBRALUS_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_CATACOMB_LIBRALUS</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Agoge				                        Patriarch -->
+			<Type>TRAITTRIGGER_CONSTRUCT_AGOGE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_AGOGE</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Heroic Epic				                    Patriarch -->
+			<Type>TRAITTRIGGER_CONSTRUCT_HEROIC_EPIC_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>25</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_HEROIC_EPIC</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Shrine of the Champion                      Patriarch -->
+			<Type>TRAITTRIGGER_CONSTRUCT_SHRINE_OF_THE_CHAMPION_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<PrereqBuildingClassType>BUILDINGCLASS_SHRINE_OF_THE_CHAMPION</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Change Religion     To Esus                                 	Incorporeal -->
+			<Type>TRAITTRIGGER_CONVERT_ESUS_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>25</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_CHANGE_RELIGION</TraitHookType>
+			
+			<PrereqReligion>RELIGION_COUNCIL_OF_ESUS</PrereqReligion>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Broken Sepulcher                            Incorporeal -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_BROKEN_SEPULCHER_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_BROKEN_SEPULCHER</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Pyre of the Seraphic						Pyromancer -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_PYRE_OF_THE_SERAPHIC_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_PYRE_OF_THE_SERAPHIC</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Death 1               Incorporeal -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_DEATH1_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_DEATH1</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Death 2               Incorporeal -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_DEATH2_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_DEATH2</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Death 3               Incorporeal -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_DEATH3_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_DEATH3</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Fire 1              	Pyromancer -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_FIRE1_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_FIRE1</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Fire 2              	Pyromancer -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_FIRE2_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>3</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_FIRE2</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Fire 3              	Pyromancer -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_FIRE3_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_FIRE3</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Shadow 1              Incorporeal -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_SHADOW1_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_SHADOW1</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Shadow 2              Incorporeal -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_SHADOW2_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_SHADOW2</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Shadow 3              Incorporeal -->
+			<Type>TRAITTRIGGER_GAIN_ADEPT_SHADOW3_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_SHADOW3</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains Heroic Strength 1     Patriarch  -->
+			<Type>TRAITTRIGGER_GAIN_HEROIC_STRENGTH_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>3</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_HEROIC_STRENGTH</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains Heroic Strength 2     Patriarch  -->
+			<Type>TRAITTRIGGER_GAIN_HEROIC_STRENGTH2_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_HEROIC_STRENGTH2</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains Heroic Defense 1      Patriarch  -->
+			<Type>TRAITTRIGGER_GAIN_HEROIC_DEFENSE_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>3</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_HEROIC_DEFENSE</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains Heroic Defense 2      Patriarch  -->
+			<Type>TRAITTRIGGER_GAIN_HEROIC_DEFENSE2_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_HEROIC_DEFENSE2</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains Sergeant      		Warleader  -->
+			<Type>TRAITTRIGGER_GAIN_SEARGENT_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WARLEADER</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_SEARGENT</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains Master Sergeant  		Warleader  -->
+			<Type>TRAITTRIGGER_GAIN_MASTER_SEARGENT_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WARLEADER</TraitType>
+					<iModifier>4</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_MASTER_SEARGENT</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains Master Sergeant  		Warleader  -->
+			<Type>TRAITTRIGGER_GAIN_MASTER_SEARGENT2_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WARLEADER</TraitType>
+					<iModifier>4</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_MASTER_SEARGENT2</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains Captain		  		Warleader  -->
+			<Type>TRAITTRIGGER_GAIN_CAPTAIN_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WARLEADER</TraitType>
+					<iModifier>8</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_CAPTAIN</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains Captain		  		Warleader  -->
+			<Type>TRAITTRIGGER_GAIN_CAPTAIN2_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WARLEADER</TraitType>
+					<iModifier>8</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_CAPTAIN2</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains General		  		Warleader  -->
+			<Type>TRAITTRIGGER_GAIN_GENERAL_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WARLEADER</TraitType>
+					<iModifier>16</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_GENERAL</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Anything        gains General		  		Warleader  -->
+			<Type>TRAITTRIGGER_GAIN_GENERAL2_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WARLEADER</TraitType>
+					<iModifier>16</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqPromotionType>PROMOTION_GENERAL2</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Kill                Hero      		kills anything              Patriarch  -->
+			<Type>TRAITTRIGGER_KILL_HERO_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>3</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_KILL_UNIT</TraitHookType>
+			
+			<bHero>1</bHero>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Kill                Fire elemental  kills anything              Pyromancer -->
+			<Type>TRAITTRIGGER_KILL_FIRE_ELEMENTAL_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_KILL_UNIT</TraitHookType>
+			
+			<PrereqUnitClassType>UNITCLASS_FIRE_ELEMENTAL</PrereqUnitClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Kill                Fireball  		kills anything              Pyromancer -->
+			<Type>TRAITTRIGGER_KILL_FIREBALL_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_KILL_UNIT</TraitHookType>
+			
+			<PrereqUnitClassType>UNITCLASS_FIREBALL</PrereqUnitClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Kill                Anything        kills Anything              Warleader -->
+			<Type>TRAITTRIGGER_KILL_WARLEADER_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_WARLEADER</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_KILL_UNIT</TraitHookType>
+			
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Levelup             Hero                                    	Patriarch -->
+			<Type>TRAITTRIGGER_LEVELUP_HERO_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>3</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_LEVEL_UP</TraitHookType>
+			
+			<bHero>1</bHero>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Levelup             Mounted                                    	Incorporeal -->
+			<Type>TRAITTRIGGER_LEVELUP_MOUNTED_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_LEVEL_UP</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_MOUNTED</PrereqUnitCombatType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Levelup             Commander                                   Patriarch, Warleader -->
+			<Type>TRAITTRIGGER_LEVELUP_COMMANDER_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PATRIARCH</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+				<CounterChange>
+					<TraitType>TRAIT_WARLEADER</TraitType>
+					<iModifier>4</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_UNIT_LEVEL_UP</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_COMMANDER</PrereqUnitCombatType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose plot           Broken Sepulcher                            Incorporeal -->
+			<Type>TRAITTRIGGER_LOSE_PLOT_BROKEN_SEPULCHER_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>-100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_BROKEN_SEPULCHER</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose plot           Pyre of the Seraphic						Pyromancer -->
+			<Type>TRAITTRIGGER_LOSE_PLOT_PYRE_OF_THE_SERAPHIC_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>-100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
+			
+			<PrereqImprovementType>IMPROVEMENT_PYRE_OF_THE_SERAPHIC</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Train               Mounted                                     Incorporeal -->
+			<Type>TRAITTRIGGER_TRAIN_MOUNTED_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_TRAIN_UNIT</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_MOUNTED</PrereqUnitCombatType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Train               Commander                                   Patriarch -->
+			<Type>TRAITTRIGGER_TRAIN_COMMANDER_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_INCORPOREAL</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_TRAIN_UNIT</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_COMMANDER</PrereqUnitCombatType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Train               Adept                                     	Pyromancer -->
+			<Type>TRAITTRIGGER_TRAIN_ADEPT_EL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_PYROMANCER</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+				<TraitHookType>TRAITHOOK_TRAIN_UNIT</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
+		</TraitTriggerInfo>
+	</TraitTriggerInfos>
+</Civ4TraitTriggerInfos>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4CivilizationInfos xmlns="x-schema:WorkerRework_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+		<CivilizationInfo><!-- Khazad -->
+			<Type>CIVILIZATION_KHAZAD</Type>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_WORKER</UnitClassType>
+					<UnitType>UNIT_KHAZAD_WORKER</UnitType>
+				</Unit>
+			</Units>
+		</CivilizationInfo>
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PATRIARCH</Tag>
+		<English>Matriarch</English>
+		<French>Matriarche</French>
+		<German>Matriarch</German>
+		<Italian>Matriarch</Italian>
+		<Spanish>Matriarch</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PATRIARCH_SHORT</Tag>
+		<English>Matr</English>
+		<French>Matr</French>
+		<German>Matr</German>
+		<Italian>Matr</Italian>
+		<Spanish>Matr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PATRIARCH_PEDIA</Tag>
+		<English>The Matriarch trait focuses on your heroes. To get its full potential, recruit as many heroes as you can and unleash them on your enemies!</English>
+		<French>Le trait Matriarche se concentre sur vos héros. Pour en débloquer tout le potentiel, recrutez autant de héros que possible et lâchez-les sur vos ennemis!</French>
+		<German>Diese Eigenschaft fokussiert auf Ihre Helden. Um ihre Potenzial voll nutzen zu k&#246;nnen, bauen Sie so viele Helden wie m&#246;glich auf und setzen Sie sie auf Ihre Feinde frei!</German>
+		<Italian>The Matriarch trait focuses on your heroes. To get its full potential, build as many heroes as you can and unleash them on your enemies!</Italian>
+		<Spanish>The Matriarch trait focuses on your heroes. To get its full potential, build as many heroes as you can and unleash them on your enemies!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PATRIARCH_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Level 1: When Orthus enters Erebus, it goes to the Clan, but still spawns at a random location on the map.[NEWLINE][ICON_BULLET]Level 2: Orthus gets the Escape ability, and your Heroes get Fire affinity. [NEWLINE][ICON_BULLET]Level 3: Your Heroes get the Commander unit class and a commanding ability.</English>
+		<French>[NEWLINE][ICON_BULLET]Niveau 1: Quand Orthus arrive sur Erebus, il rejoint le Clan, mais apparaît toujours à un endroit aléatoire de la carte.[NEWLINE][ICON_BULLET]Niveau 2: Orthus reçoit la capacité Évasion, et vos héros reçoivent une affinité pour le mana de feu. [NEWLINE][ICON_BULLET]Level 3: Vos héros deviennent de classe Commandant et gagnent une capacité de commandement.</French>
+		<German>[NEWLINE][ICON_BULLET]Niveau 1: Als Orthus kommt auf Erebus, er kommt als ein Held des Klans, aber noch auf einer zuf&#228;lligen Stelle.[NEWLINE][ICON_BULLET]Niveau 2: Orthus bekommt die Entrinnen F&#228;higkeit, und Ihre Helden bekommen Feuerverwandschaft. [NEWLINE][ICON_BULLET]Niveau 3: Ihre Helden bekommen den Kommandantseinheitstyp und eine Kommandantsf&#228;higkeit.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Level 1: When Orthus enters Erebus, it goes to the Clan, but still spawns at a random location on the map.[NEWLINE][ICON_BULLET]Level 2: Orthus gets the Escape ability, your Heroes get Fire affinity. [NEWLINE][ICON_BULLET]Level 3: Your Heroes get the Commander unit class and a commanding ability.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Level 1: When Orthus enters Erebus, it goes to the Clan, but still spawns at a random location on the map.[NEWLINE][ICON_BULLET]Level 2: Orthus gets the Escape ability, your Heroes get Fire affinity. [NEWLINE][ICON_BULLET]Level 3: Your Heroes get the Commander unit class and a commanding ability.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIREBORN</Tag>
+		<English>Fireborn</English>
+		<French>Fireborn</French>
+		<German>Feuergeboren</German>
+		<Italian>Fireborn</Italian>
+		<Spanish>Fireborn</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RIZURUK</Tag>
+		<English>Rizuruk</English>
+		<French>Rizuruk</French>
+		<German>Rizuruk</German>
+		<Italian>Rizuruk</Italian>
+		<Spanish>Rizuruk</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEADER</Tag>
+		<English>Leader</English>
+		<French>Commandant</French>
+		<German>Anf&#252;hrer</German>
+		<Italian>Leader</Italian>
+		<Spanish>Lider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GCF_INSPIRED</Tag>
+		<English>Inspired</English>
+		<French>Inspiré</French>
+		<German>Angefeuert</German>
+		<Italian>Inspired</Italian>
+		<Spanish>Inspired</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INCORPOREAL</Tag>
+		<English>Incorporeal</English>
+		<French>Incorporel</French>
+		<German>Unk&#246;rperlich</German>
+		<Italian>Incorporeal</Italian>
+		<Spanish>Incorporeal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INCORPOREAL_SHORT</Tag>
+		<English>Inc</English>
+		<French>Inc</French>
+		<German>Unk</German>
+		<Italian>Inc</Italian>
+		<Spanish>Inc</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INCORPOREAL_PEDIA</Tag>
+		<English>The spectral horsemen your trait gives you will grow even more powerful if you build a strong cavalry and train your adepts in necromancy.</English>
+		<French>Vos cavaliers fantômes deviendront plus forts si vous créez une puissante cavalerie et formez vos adeptes à la nécromancie.</French>
+		<German>Die spektrale Reiter Ihre Eigenschaft gibt Ihnen werden st&#228;rker, wenn Sie eine m&#228;chtige Kavallrie ausbauen und Ihre Adepten in Nekromantie trainieren.</German>
+		<Italian>The spectral horsemen your trait gives you will grow even more powerful if you build a strong cavalry and train your adepts in necromancy.</Italian>
+		<Spanish>The spectral horsemen your trait gives you will grow even more powerful if you build a strong cavalry and train your adepts in necromancy.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_INCORPOREAL_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Level 1: your Palace provides Nightmare, your Mounted units are Illusions. [NEWLINE][ICON_BULLET]Level 2: your Mounted units can fly and heal while moving. [NEWLINE][ICON_BULLET]Level 3: all your summoned units are considered as mounted units, gaining the same bonuses as your cavalry.</English>
+		<French>[NEWLINE][ICON_BULLET]Niveau 1: vous bénéficiez de la ressource Cauchemar via votre palais, vos unités montées sont des Illusions. [NEWLINE][ICON_BULLET]Niveau 2: vos unités montées volent et se soignent en se déplaçant. [NEWLINE][ICON_BULLET]Niveau 3: toutes vos unités invoquées sont considérées comme des unités montées et reçoivent les mêmes bonus que votre cavalerie.</French>
+		<German>[NEWLINE][ICON_BULLET]Niveau 1: Ihren Palast gibt Ihnen H&#246;llenpferde, Ihre Kavallerieeinheiten sind Illusionen. [NEWLINE][ICON_BULLET]Niveau 2: Ihre Kavallerieeinheiten fliegen und heilen sich wenn sie bewegen. [NEWLINE][ICON_BULLET]Niveau 3: beschworene Einheiten sind ale Kavallerie betrachtet und bekommen daher die dazugeh&#246;rige Bonusse.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Level 1: Your Palace provides Nightmare, your Mounted units are Illusions. [NEWLINE][ICON_BULLET]Level 2: Your Mounted units can fly and heal while moving. [NEWLINE][ICON_BULLET]Level 3: all your summoned units are considered as mounted units, gaining the same bonuses as your cavalry.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Level 1: Your Palace provides Nightmare, your Mounted units are Illusions. [NEWLINE][ICON_BULLET]Level 2: Your Mounted units can fly and heal while moving. [NEWLINE][ICON_BULLET]Level 3: all your summoned units are considered as mounted units, gaining the same bonuses as your cavalry.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_RIGMORA</Tag>
+		<English>Rigmora the Forgotten</English>
+		<French>Rigmora l'Oubliée</French>
+		<German>Rigmora die Vergessene</German>
+		<Italian>Rigmora the Forgotten</Italian>
+		<Spanish>Rigmora the Forgotten</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPECTRAL_RIDER</Tag>
+		<English>Spectral Rider</English>
+		<French>Cavalier spectral</French>
+		<German>Spektralen Reiter</German>
+		<Italian>Spectral Rider</Italian>
+		<Spanish>Spectral Rider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GHOST_RIDER</Tag>
+		<English>Ghost Rider</English>
+		<French>Cavalier fantôme</French>
+		<German>Geistreiter</German>
+		<Italian>Ghost Rider</Italian>
+		<Spanish>Ghost Rider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DREADFUL_SUMMONER</Tag>
+		<English>Dreadful Summoner</English>
+		<French>Invocateur sinistre</French>
+		<German>Furchtbarer Beschw&#246;rer</German>
+		<Italian>Dreadful Summoner</Italian>
+		<Spanish>Dreadful Summoner</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DREADFUL_SUMMON</Tag>
+		<English>Dreadful Summon</English>
+		<French>Invocation sinistre</French>
+		<German>Furchtbare Beschw&#246;rung</German>
+		<Italian>Dreadful Summon</Italian>
+		<Spanish>Dreadful Summon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DETLESIAS</Tag>
+		<English>Detlesias</English>
+		<French>Detlesias</French>
+		<German>Detlesias</German>
+		<Italian>Detlesias</Italian>
+		<Spanish>Detlesias</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_DETLESIAS_PEDIA</Tag>
+		<English>[NEWLINE] Detlesias was one of the best students in the Brookden Academy of magic. Considering this, it is not surprising to see him attain a high rank in the Dural administration. However, like many other powerful mages, his advanced research in magic left the Half-elf pyromancer a bit... disturbed. [NEWLINE] How could the wise Dural let a mad wizard become their leader? Even he may not know the answer to this question. One thing is sure though: whatever happens, he is not going to give up his position now. And he shall burn down everyone who would dare to stand on his way.</English>
+		<French>[NEWLINE] Detlesias was one of the best students in the Brookden Academy of magic. Considering this, it is not surprising to see him attain a high rank in the Dural administration. However, like many other powerful mages, his advanced research in magic left the Half-elf pyromancer a bit... disturbed. [NEWLINE] How could the wise Dural let a mad wizard become their leader? Even he may not know the answer to this question. One thing is sure though: whatever happens, he is not going to give up his position now. And he shall burn down everyone who would dare to stand on his way.</French>
+		<German>[NEWLINE] Detlesias was one of the best students in the Brookden Academy of magic. Considering this, it is not surprising to see him attain a high rank in the Dural administration. However, like many other powerful mages, his advanced research in magic left the Half-elf pyromancer a bit... disturbed. [NEWLINE] How could the wise Dural let a mad wizard become their leader? Even he may not know the answer to this question. One thing is sure though: whatever happens, he is not going to give up his position now. And he shall burn down everyone who would dare to stand on his way.</German>
+		<Italian>[NEWLINE] Detlesias was one of the best students in the Brookden Academy of magic. Considering this, it is not surprising to see him attain a high rank in the Dural administration. However, like many other powerful mages, his advanced research in magic left the Half-elf pyromancer a bit... disturbed. [NEWLINE] How could the wise Dural let a mad wizard become their leader? Even he may not know the answer to this question. One thing is sure though: whatever happens, he is not going to give up his position now. And he shall burn down everyone who would dare to stand on his way.</Italian>
+		<Spanish>[NEWLINE] Detlesias was one of the best students in the Brookden Academy of magic. Considering this, it is not surprising to see him attain a high rank in the Dural administration. However, like many other powerful mages, his advanced research in magic left the Half-elf pyromancer a bit... disturbed. [NEWLINE] How could the wise Dural let a mad wizard become their leader? Even he may not know the answer to this question. One thing is sure though: whatever happens, he is not going to give up his position now. And he shall burn down everyone who would dare to stand on his way.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PYROMANCER</Tag>
+		<English>Pyromancer</English>
+		<French>Pyromancien</French>
+		<German>Pyromant</German>
+		<Italian>Pyromancer</Italian>
+		<Spanish>Pyromancer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PYROMANCER_SHORT</Tag>
+		<English>Pyr</English>
+		<French>Pyr</French>
+		<German>Pyr</German>
+		<Italian>Pyr</Italian>
+		<Spanish>Pyr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PYROMANCER_PEDIA</Tag>
+		<English>Study magic, train your magicians and burn down your enemies. That is all what matters for a powerful pyromancer.</English>
+		<French>Étudiez la magie, entraînez vos magiciens et réduisez vos ennemis en cendres. C'est là tout ce qui compte pour un puissant pyromancien.</French>
+		<German>Studieren Sie Magie, trainieren Sie Ihre Z&#228;uberer und brennen Sie Ihre Feinde nieder. F&#252;r einen m&#228;chtigen Pyromant ist das alles was Wert ist.</German>
+		<Italian>Study magic, train your magicians and burn down your enemies. That is all what matters for a powerful pyromancer.</Italian>
+		<Spanish>Study magic, train your magicians and burn down your enemies. That is all what matters for a powerful pyromancer.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PYROMANCER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Level 1: your Palace provides Fire Mana, your units with Fire 2 can cast Ring of Flames.[NEWLINE][ICON_BULLET]Level 2: You can Ignite Pyres in your cities, your units with Fire 3 can cast Pillar of Fire. [NEWLINE][ICON_BULLET]Level 3: Your Fireballs, Fire Elementals and Pyre Zombies gain extra strength and explode on death.</English>
+		<French>[NEWLINE][ICON_BULLET]Level 1: your Palace provides Fire Mana, your units with Fire 2 can cast Ring of Flames.[NEWLINE][ICON_BULLET]Level 2: You can Ignite Pyres in your cities, your units with Fire 3 can cast Pillar of Fire. [NEWLINE][ICON_BULLET]Level 3: Your Fireballs, Fire Elementals and Pyre Zombies gain extra strength and explode on death.</French>
+		<German>[NEWLINE][ICON_BULLET]Level 1: your Palace provides Fire Mana, your units with Fire 2 can cast Ring of Flames.[NEWLINE][ICON_BULLET]Level 2: You can Ignite Pyres in your cities, your units with Fire 3 can cast Pillar of Fire. [NEWLINE][ICON_BULLET]Level 3: Your Fireballs, Fire Elementals and Pyre Zombies gain extra strength and explode on death.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Level 1: your Palace provides Fire Mana, your units with Fire 2 can cast Ring of Flames.[NEWLINE][ICON_BULLET]Level 2: You can Ignite Pyres in your cities, your units with Fire 3 can cast Pillar of Fire. [NEWLINE][ICON_BULLET]Level 3: Your Fireballs, Fire Elementals and Pyre Zombies gain extra strength and explode on death.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Level 1: your Palace provides Fire Mana, your units with Fire 2 can cast Ring of Flames.[NEWLINE][ICON_BULLET]Level 2: You can Ignite Pyres in your cities, your units with Fire 3 can cast Pillar of Fire. [NEWLINE][ICON_BULLET]Level 3: Your Fireballs, Fire Elementals and Pyre Zombies gain extra strength and explode on death.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BURNING_STRENGTH</Tag>
+		<English>Burning Strength</English>
+		<French>Force Incandescente</French>
+		<German>Brennende St&#228;rke</German>
+		<Italian>Burning Strength</Italian>
+		<Spanish>Burning Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIRE_AFFINITY</Tag>
+		<English>Fire Affinity</English>
+		<French>Affinité pour le Feu</French>
+		<German>Feueraffinit&#228;t</German>
+		<Italian>Fire Affinity</Italian>
+		<Spanish>Fire Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FIRE_AFFINITY2</Tag>
+		<English>Improved Fire Affinity</English>
+		<French>Affinité renforcée pour le Feu</French>
+		<German>Verst&#228;rkte Feueraffinit&#228;t</German>
+		<Italian>Improved Fire Affinity</Italian>
+		<Spanish>Improved Fire Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_FIRE</Tag>
+		<English>Fire Affinity</English>
+		<French>Affinité pour le Feu</French>
+		<German>Feueraffinit&#228;t</German>
+		<Italian>Fire Affinity</Italian>
+		<Spanish>Fire Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_FIRE2</Tag>
+		<English>Improved Fire Affinity</English>
+		<French>Affinité renforcée pour le Feu</French>
+		<German>Verst&#228;rkte Feueraffinit&#228;t</German>
+		<Italian>Improved Fire Affinity</Italian>
+		<Spanish>Improved Fire Affinity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AFFINITY_FIRE_STRATEGY</Tag>
+		<English>Gives your melee and arcane units first strike and defensive strike chances. Once improved, it gives them collateral damage as well.</English>
+		<French>Donne des chances de première attaque et de frappe défensive à vos unités de mêlée et vos adeptes. L'affinité améliorée leur donne aussi des dégâts collatéraux.</French>
+		<German>Gibt eure Nahkampfeinheiten und Adepten Verteidigungsschlag- und Erstschlagchancen. Die verst&#228;rkte Affinit&#228;t gibt ihnen auch Kollateralschaden.</German>
+		<Italian>Gives your melee and arcane units first strike and defensive strike chances. Once improved, it gives them collateral damage as well.</Italian>
+		<Spanish>Gives your melee and arcane units first strike and defensive strike chances. Once improved, it gives them collateral damage as well.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WARLEADER</Tag>
+		<English>Warleader</English>
+		<French>Chef de guerre</French>
+		<German>Kriegsf&#252;hrerin</German>
+		<Italian>Warleader</Italian>
+		<Spanish>Warleader</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WARLEADER_SHORT</Tag>
+		<English>WLr</English>
+		<French>CdG</French>
+		<German>Kfr</German>
+		<Italian>WLr</Italian>
+		<Spanish>WLr</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WARLEADER_PEDIA</Tag>
+		<English>What does a good warleader do? She makes sure her soldiers are well supervised with competent officers and petty officers and experienced commanders, and that they overcome their enemies.</English>
+		<French>Que fait un bon chef de guerre ? Elle s'assure que ses soldats sont encadrées par des sous-officiers et officiers compétents et par des commandants expérimentés, et qu'ils vainquent leurs ennemis.</French>
+		<German>Was macht eine gute Kriegsf&#252;hrerin? Sie sichert sich, dass ihre Soldaten von kompetenten Offiziere und Unteroffiziere und erfahrene Kommandanten betreut werden, und dass sie ihre Feinde besiegen.</German>
+		<Italian>What does a good warleader do? She makes sure her soldiers are well supervised with competent officers and petty officers and experienced commanders, and that they overcome their enemies.</Italian>
+		<Spanish>What does a good warleader do? She makes sure her soldiers are well supervised with competent officers and petty officers and experienced commanders, and that they overcome their enemies.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WARLEADER_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Level 1: free promotion Corporal (disciples, melee units).[NEWLINE][ICON_BULLET]Level 2: commanders receive +1 command limit and give their minions +10% XP gain. Level requirements for chain of command promotions are reduced.[NEWLINE][ICON_BULLET]Level 3: Commanders and their minions receive +25% withdrawal chance.</English>
+		<French>[NEWLINE][ICON_BULLET]Niveau 1 : promotion gratuite Caporal (disciples, unités de mêlée).[NEWLINE][ICON_BULLET]Niveau 2 : vos commandants reçoivent +1 d'extension d'unités et donnent à leurs subordonnés +10% de gain d'expérience. Les conditions de niveau pour les promotions de la chaîne de commandement sont réduites. [NEWLINE][ICON_BULLET]Niveau 3 : Vos commandants et leurs subordonnés reçoivent 25% de chances de retraite.</French>
+		<German>[NEWLINE][ICON_BULLET]Stufe 1: freie Bef&#246;rderung Korporal (Geweihten, Nahkampfeinheiten).[NEWLINE][ICON_BULLET]Stufe 2: Kommandanten bekommen +1 Befehligenzahl und geben ihren Untergeordneten +10% Erfahrungsverdienst. Die Stufenanforderungen f&#252;r die Befehlskette sind reduziert.[NEWLINE][ICON_BULLET]Stufe 3: Kommandanten und ihre Untergeordnete bekommen +25% R&#252;cktrittchancen.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Level 1: free promotion Corporal (disciples, melee units).[NEWLINE][ICON_BULLET]Level 2: commanders receive +1 command limit and give their minions +10% XP gain. Level requirements for chain of command promotions are reduced.[NEWLINE][ICON_BULLET]Level 3: Commanders and their minions receive +25% withdrawal chance.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Level 1: free promotion Corporal (disciples, melee units).[NEWLINE][ICON_BULLET]Level 2: commanders receive +1 command limit and give their minions +10% XP gain. Level requirements for chain of command promotions are reduced.[NEWLINE][ICON_BULLET]Level 3: Commanders and their minions receive +25% withdrawal chance.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WARLEADER1</Tag>
+		<English>Warleader 1</English>
+		<French>Chef de guerre 1</French>
+		<German>Kriegsf&#252;hrer 1</German>
+		<Italian>Warleader 1</Italian>
+		<Spanish>Warleader 1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WARLEADER2</Tag>
+		<English>Warleader 2</English>
+		<French>Chef de guerre 2</French>
+		<German>Kriegsf&#252;hrer 2</German>
+		<Italian>Warleader 2</Italian>
+		<Spanish>Warleader 2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOTIVATION</Tag>
+		<English>Motivation 1</English>
+		<French>Motivation 1</French>
+		<German>Motivation 1</German>
+		<Italian>Motivation 1</Italian>
+		<Spanish>Motivation 1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOTIVATION2</Tag>
+		<English>Motivation 2</English>
+		<French>Motivation 2</French>
+		<German>Motivation 2</German>
+		<Italian>Motivation 2</Italian>
+		<Spanish>Motivation 2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CANONESS</Tag>
+		<English>Canoness</English>
+		<French>Chanoinesse</French>
+		<German>Stiftsdame</German>
+		<Italian>Canoness</Italian>
+		<Spanish>Canoness</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CANONESS_SHORT</Tag>
+		<English>Can</English>
+		<French>Cha</French>
+		<German>Sti</German>
+		<Italian>Can</Italian>
+		<Spanish>Can</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CANONESS_PEDIA</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CANONESS_HELP</Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AERIEL</Tag>
+		<English>Aeriel</English>
+		<French>Aeriel</French>
+		<German>Aeriel</German>
+		<Italian>Aeriel</Italian>
+		<Spanish>Aeriel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_AERIEL_PEDIA</Tag>
+		<English>Coming soon!</English>
+		<French>Bientôt disponible!</French>
+		<German>Kommt bald!</German>
+		<Italian>Aeriel</Italian>
+		<Spanish>Aeriel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HOLY_RAGE</Tag>
+		<English>Holy Rage</English>
+		<French>Rage sacrée</French>
+		<German>Heiliger Zorn</German>
+		<Italian>Holy Rage</Italian>
+		<Spanish>Holy Rage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HOLY_FAVOR</Tag>
+		<English>Holy Favor</English>
+		<French>Faveur sacrée</French>
+		<German>Heiliger Gunst</German>
+		<Italian>Holy Favor</Italian>
+		<Spanish>Holy Favor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMPROVED_MORALE</Tag>
+		<English>Improved Morale</English>
+		<French>Moral Amélioré</French>
+		<German>Verbesserte Moral</German>
+		<Italian>Improved Morale</Italian>
+		<Spanish>Improved Morale</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUPERIOR_MORALE</Tag>
+		<English>Superior Morale</English>
+		<French>Moral Supérieur</French>
+		<German>&#220;berlegene Moral</German>
+		<Italian>Improved Morale</Italian>
+		<Spanish>Improved Morale</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IMPROVED_BLESSED</Tag>
+		<English>Superior Blessing</English>
+		<French>Bénédiction Supérieure</French>
+		<German>&#220;berlegener Segen</German>
+		<Italian>Superior Blessing</Italian>
+		<Spanish>Superior Blessing</Spanish>
+	</TEXT>
+</Civ4GameText>

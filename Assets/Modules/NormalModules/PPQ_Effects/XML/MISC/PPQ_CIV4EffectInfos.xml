@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Firaxis Games (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Effect Infos -->
+<Civ4EffectInfos xmlns="x-schema:CIV4MiscSchema.xml">
+	<EffectInfos>
+		
+		<EffectInfo>
+			<Type>EFFECT_ICEBALL_PPQ</Type>
+			<Description>Ball of ice for use as a catapult rock or ship projectile.</Description>
+			<fScale>1.0</fScale>
+			<fUpdateRate>1.0</fUpdateRate>
+			<Path>Art/Modules/PPQ/effects/iceball/CatapultRock.nif</Path>
+			<bIsProjectile>1</bIsProjectile>
+			<fSpeed>200.0</fSpeed>
+			<fArcValue>4.0</fArcValue>
+		</EffectInfo>
+	
+		<EffectInfo>
+			<Type>EFFECT_FIREBALL_PPQ</Type>
+			<Description>Ball of fire for use as a catapult rock or ship projectile.</Description>
+			<fScale>1.0</fScale>
+			<fUpdateRate>1.0</fUpdateRate>
+			<Path>Art/Units/Fireball/wolf.nif</Path>
+			<bIsProjectile>1</bIsProjectile>
+			<fSpeed>200.0</fSpeed>
+			<fArcValue>4.0</fArcValue>
+		</EffectInfo>
+	
+		<EffectInfo>
+			<Type>EFFECT_FIREBALL_DARK_PPQ</Type>
+			<Description>Ball of fire for use as a catapult rock or ship projectile.</Description>
+			<fScale>1.0</fScale>
+			<fUpdateRate>1.0</fUpdateRate>
+			<Path>Art/Modules/PPQ/effects/FireballDark/wolf.nif</Path>
+			<bIsProjectile>1</bIsProjectile>
+			<fSpeed>200.0</fSpeed>
+			<fArcValue>4.0</fArcValue>
+		</EffectInfo>
+		
+		<EffectInfo>
+			<Type>EFFECT_FLAMING_STONE_PPQ</Type>
+			<Description>Ball of stone set aflame by magic for use as a catapult rock or ship projectile.</Description>
+			<fScale>1.0</fScale>
+			<fUpdateRate>1.0</fUpdateRate>
+			<Path>Art/Modules/PPQ/effects/flaming stone/CatapultRock.nif</Path>
+			<bIsProjectile>1</bIsProjectile>
+			<fSpeed>200.0</fSpeed>
+			<fArcValue>4.0</fArcValue>
+		</EffectInfo>
+		
+		<EffectInfo>
+			<Type>EFFECT_INVASIONSHIP_LASERBEAM</Type>
+			<Description>Solar laser effect</Description>
+			<fScale>1.0</fScale>
+			<fUpdateRate>0.25</fUpdateRate>
+			<Path>Art/Modules/PPQ/effects/beam/fx_laserbeam.nif</Path>
+			<bIsProjectile>0</bIsProjectile>
+		</EffectInfo>
+		
+		<EffectInfo>
+			<Type>EFFECT_CURRENT_BLUE_PPQ</Type>
+			<Description>Beam of electric lightning</Description>
+			<fScale>1.0</fScale>
+			<fUpdateRate>0.45</fUpdateRate>
+			<Path>Art/Modules/PPQ/effects/Current/lightning/fx_laserbeam.nif</Path>
+			<bIsProjectile>0</bIsProjectile>
+		</EffectInfo>
+		
+		<EffectInfo>
+			<Type>EFFECT_CURRENT_DARK_PPQ</Type>
+			<Description>Beam of electric lightning</Description>
+			<fScale>1.0</fScale>
+			<fUpdateRate>0.45</fUpdateRate>
+			<Path>Art/Modules/PPQ/effects/Current/Dark Lightning/fx_laserbeam.nif</Path>
+			<bIsProjectile>0</bIsProjectile>
+		</EffectInfo>
+	</EffectInfos>
+</Civ4EffectInfos>

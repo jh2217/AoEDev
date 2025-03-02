@@ -1,0 +1,93 @@
+;Name - no need to explain
+;note: one line
+[name]
+ElfnDeath
+;
+;
+;Version - version of module
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[version]
+1.2
+;
+;
+;RifE version - version of RifE for which is this module tested, checked, developed, etc
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[rifeversion]
+375
+;
+;
+;Author - you
+;note: one line
+[author]
+Tikumara
+;
+;
+;Short description - text showed in contect menu
+;note: one line
+[shortdesc]
+New School of Death and Elves of the Well of Shadow expanded.
+;
+;
+;Description - text showed in message box
+;note: can be multiline
+[desc]
+- Death Sphere is now split into Death and Undeath. Undeath is the old undead summoning school and
+
+(New) Death is all about restoring the balance by putting the undead to rest (can not be learned by D'tesh).
+
+- New spells are: Fated End T1 spell that counters Combat Withdrawal, Last Rite T2 spell that buffs death damage and damage vs Undead,
+
+Deathward T3 spell protects against all death damage, and Arawn's Embrace locks Undeath users out of their summons for a time.
+
+- Once Elves gain the innate ability for Mist to spread to any forest under their cultural control, giving them a new defensive option and, as always with elves, some reason to care about trees.
+
+- The Once Elf unit Waldrun has the unique ability to harness all of the spells from the sphere of death.
+
+- Once Elves Unique Buildings.
+
+- Added Waldrun as a leader with new emergent trait focused on binding souls for Laroth.
+
+V1.2
+Added soul binder emergent trait to Waldrun, replacing Skiamancer.
+
+Added art for soul binder promotions.
+
+Added art for Sluaghs.
+
+Rebalanced Waldrun, giving him the ability to wield Death and Undeath at the same time.
+
+Rebalanced Sluaghs from (Elemental - 3/5 +2 death) to (Elemental, Free Unit, Perceptive Summon - 1/2 +1 death affinity +1 shadow affinity).
+
+Gavannon can now teach other people how to die effectively.
+
+Fated End no longer functions under the rules of the childhood phrase "I'm rubber, you're glue, whatever you say bounces off of me and sticks to you".
+
+V1.1
+
+Added new art for Death I, II, III, Ghostly Mounts, Fated End, Last Rite, Death Ward, Arawn's Embrace, and Once Elf special units.
+
+Added ability for Death III and Undeath III to both lead into promotion Master of Death and Shadow.(DLL issue)
+
+Added Pedia entry for Death I, II, III, and Once Elves.
+
+Changed Waldrun the Once Elfs spell school from Death I, II, III to... err... Death I, II, III?
+
+Added unique building Library & Mage Guild for Once Elves.
+
+Added Waldrun as a leader.
+
+Buffed Once Elf Cavalry.
+
+Set the relationship status between Waldrun and Varn Gosam to "it's complicated" and Waldrun to Auric Ulvin as "Blinding Hate".
+
+V1.0 
+
+-Added Death I, II, III.
+
+-Changed Old Death to Undeath I, II, III.
+
+-Added Death spells Fated End, Last Rite, Deathward, and Arawn's Embrace.
+
+-Added A new defensive layer for Once Elves through Mist.

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Alignment -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NOGGORMOTHA_KEEPER</Tag>
+		<English>Keeper of N&#244;ggormotha</English>
+		<French>Keeper of N&#244;ggormotha</French>
+		<German>H&#252;ter der N&#244;ggormotha</German>
+		<Italian>Keeper of N&#244;ggormotha</Italian>
+		<Spanish>Keeper of N&#244;ggormotha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KEEPER_DARK_NAME</Tag>
+		<English>Fallen Keeper of N&#244;ggormotha</English>
+		<French>Fallen Keeper of N&#244;ggormotha</French>
+		<German>Gefallener H&#252;ter der N&#244;ggormotha</German>
+		<Italian>Fallen Keeper of N&#244;ggormotha</Italian>
+		<Spanish>Fallen Keeper of N&#244;ggormotha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KEEPER_BLESSED_NAME</Tag>
+		<English>Blessed Keeper of N&#244;ggormotha</English>
+		<French>Blessed Keeper of N&#244;ggormotha</French>
+		<German>Gesegneter H&#252;ter der N&#244;ggormotha</German>
+		<Italian>Blessed Keeper of N&#244;ggormotha</Italian>
+		<Spanish>Blessed Keeper of N&#244;ggormotha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KEEPER_PEDIA</Tag>
+		<English>It had been Ersorn, the abbot of the Order, who had the idea. He had been thought to be wise and so the others had followed his plan to bind N&#244;ggormotha by trapping her insider their bodies. It was his luck that he died during the capture. Oh, Ersorn wasn't the one who had to stand the tempting whispers of the demon of torture after it had been done. He was not the one who wanted to kill his brothers during the nights, listening to the honey sweet voice inside oh them. And he was not the one who gave the advice to leave the monastery and to get as much space and time between themselves as possible. Just to keep the demon quiet and to keep the beloved brothers alive. They were. The keepers of N&#244;ggormotha, damned to live a lonely life, parted from their friends and brothers and always living in fear to face them on the battlefield some day. What a fool Ersorn had been!</English>
+		<French>It had been Ersorn, the abbot of the Order, who had the idea. He had been thought to be wise and so the others had followed his plan to bind N&#244;ggormotha by trapping her insider their bodies. It was his luck that he died during the capture. Oh, Ersorn wasn't the one who had to stand the tempting whispers of the demon of torture after it had been done. He was not the one who wanted to kill his brothers during the nights, listening to the honey sweet voice inside oh them. And he was not the one who gave the advice to leave the monastery and to get as much space and time between themselves as possible. Just to keep the demon quiet and to keep the beloved brothers alive. They were. The keepers of N&#244;ggormotha, damned to live a lonely life, parted from their friends and brothers and always living in fear to face them on the battlefield some day. What a fool Ersorn had been!</French>
+		<German>Es war Ersorn gewesen, der Abt des Ordens, der die Idee gehabt hatte. Er war als weise angesehen worden und so folgten die anderen seinem Plan, N&#244;ggormotha zu binden, indem man sie in den eigenen K&#246;rpern einsperrte. Es war sein Gl&#252;ck, dass er w&#228;hrend der Gefangennahme gestorben war. Oh, Ersorn war nicht derjenige, der die verf&#252;hrerischen Einfl&#252;sterungen der D&#228;monin der Folter ertragen musste, nachdem es vollbracht war. Er war nicht derjenige, der seine Br&#252;der w&#228;hrend der N&#228;chte t&#246;ten wollte, der honigs&#252;&#223;en Stimme in ihnen lauschend. Und er war nicht der gewesen, der den Rat gab, das Kloster zu verlassen und so viel Raum und Zeit zwischen sich zu bringen, wie m&#246;glich. Einfach nur, um die D&#228;monin zu beruhigen und die geliebten Br&#252;der am Leben zu lassen. Sie waren es gewesen. Die H&#252;ter der N&#244;ggormotha, zu einem einsamen Leben verdammt, getrennt von ihren Freunden und Br&#252;dern und st&#228;ndig in Angst lebend, ihnen doch eines Tages auf dem Schlachtfeld gegen&#252;ber zu stehen. Was f&#252;r ein Narr Ersorn gewesen war!</German>
+		<Italian>It had been Ersorn, the abbot of the Order, who had the idea. He had been thought to be wise and so the others had followed his plan to bind N&#244;ggormotha by trapping her insider their bodies. It was his luck that he died during the capture. Oh, Ersorn wasn't the one who had to stand the tempting whispers of the demon of torture after it had been done. He was not the one who wanted to kill his brothers during the nights, listening to the honey sweet voice inside oh them. And he was not the one who gave the advice to leave the monastery and to get as much space and time between themselves as possible. Just to keep the demon quiet and to keep the beloved brothers alive. They were. The keepers of N&#244;ggormotha, damned to live a lonely life, parted from their friends and brothers and always living in fear to face them on the battlefield some day. What a fool Ersorn had been!</Italian>
+		<Spanish>It had been Ersorn, the abbot of the Order, who had the idea. He had been thought to be wise and so the others had followed his plan to bind N&#244;ggormotha by trapping her insider their bodies. It was his luck that he died during the capture. Oh, Ersorn wasn't the one who had to stand the tempting whispers of the demon of torture after it had been done. He was not the one who wanted to kill his brothers during the nights, listening to the honey sweet voice inside oh them. And he was not the one who gave the advice to leave the monastery and to get as much space and time between themselves as possible. Just to keep the demon quiet and to keep the beloved brothers alive. They were. The keepers of N&#244;ggormotha, damned to live a lonely life, parted from their friends and brothers and always living in fear to face them on the battlefield some day. What a fool Ersorn had been!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KEEPER_STRATEGY</Tag>
+		<English>Every time a keeper of N&#244;ggormotha kills one of his brothers, he gains all of the power of the demon that lived within his opponent. When fighting ordinary foes, he is immortal, as the demonic entity forbids the body to die and sends him back to the capital to regain strength and health to continue his endless torture. But beware of more powerful keepers in the hands of your enemies. Do not give them the power of you keeper!</English>
+		<French>Every time a keeper of N&#244;ggormotha kills one of his brothers, he gains all of the power of the demon that lived within his opponent. When fighting ordinary foes, he is immortal, as the demonic entity forbids the body to die and sends him back to the capital to regain strength and health to continue his endless torture. But beware of more powerful keepers in the hands of your enemies. Do not give them the power of you keeper!</French>
+		<German>Jedes Mal, wenn ein H&#252;ter der N&#244;ggormotha einen seiner Br&#252;der t&#246;tet, erh&#228;lt er all dessen Kraft und dessen Bruchst&#252;cke des d&#228;monischen Wesens leben in ihm weiter. Im Kampf gegen gew&#246;hnliche Feinde ist er unsterblich, da der D&#228;mon seinem K&#246;rper den Tod vorenth&#228;lt und und ihn stets in die Hauptstadt zur&#252;ckschickt, um neue Kr&#228;fte und Gesundheit zu erlangen, um seine ewige Folter zu erdulden. Doch sei auf der Hut vor noch m&#228;chtigeren H&#252;tern in den H&#228;nden Eurer Feinde. Gebt ihnen nicht die Kraft EURES H&#252;ters!</German>
+		<Italian>Every time a keeper of N&#244;ggormotha kills one of his brothers, he gains all of the power of the demon that lived within his opponent. When fighting ordinary foes, he is immortal, as the demonic entity forbids the body to die and sends him back to the capital to regain strength and health to continue his endless torture. But beware of more powerful keepers in the hands of your enemies. Do not give them the power of you keeper!</Italian>
+		<Spanish>Every time a keeper of N&#244;ggormotha kills one of his brothers, he gains all of the power of the demon that lived within his opponent. When fighting ordinary foes, he is immortal, as the demonic entity forbids the body to die and sends him back to the capital to regain strength and health to continue his endless torture. But beware of more powerful keepers in the hands of your enemies. Do not give them the power of you keeper!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KEEPER_BLESSED_NAME</Tag>
+		<English>Blessed Keeper of N&#244;ggormotha</English>
+		<French>Blessed Keeper of N&#244;ggormotha</French>
+		<German>Gesegneter H&#252;ter der N&#244;ggormotha</German>
+		<Italian>Blessed Keeper of N&#244;ggormotha</Italian>
+		<Spanish>Blessed Keeper of N&#244;ggormotha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UPGRADE_BLESSED_TOCO</Tag>
+		<English>Upgrade to Blessed Keeper</English>
+		<French>Upgrade to Blessed Keeper</French>
+		<German>Zu Gesegnetem H&#252;ter aufwerten</German>
+		<Italian>Upgrade to Blessed Keeper</Italian>
+		<Spanish>Upgrade to Blessed Keeper</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_UPGRADE_DARK_TOCO</Tag>
+		<English>Upgrade to Fallen Keeper</English>
+		<French>Upgrade to Fallen Keeper</French>
+		<German>Zu Gefallenem H&#252;ter aufwerten</German>
+		<Italian>Upgrade to Fallen Keeper</Italian>
+		<Spanish>Upgrade to Fallen Keeper</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NOGGORMOTHA</Tag>
+		<English>N&#244;ggormotha</English>
+		<French>N&#244;ggormotha</French>
+		<German>N&#244;ggormotha</German>
+		<Italian>N&#244;ggormotha</Italian>
+		<Spanish>N&#244;ggormotha</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NOGGORMOTHA_PEDIA</Tag>
+		<English>Noone knows much about the demon of torture. Ask Saronath, maybe he knows.</English>
+		<French>Noone knows much about the demon of torture. Ask Saronath, maybe he knows.</French>
+		<German>Niemand wei&#223; viel &#252;ber die D&#228;monin der Folter. Frag Saronath, vielleicht wei&#223; er etwas.</German>
+		<Italian>Noone knows much about the demon of torture. Ask Saronath, maybe he knows.</Italian>
+		<Spanish>Noone knows much about the demon of torture. Ask Saronath, maybe he knows.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NOGGORMOTHA_STRATEGY</Tag>
+		<English>Torture your enemies with N&#244;ggormotha's help!</English>
+		<French>Torture your enemies with N&#244;ggormotha's help!</French>
+		<German>Qu&#228;le deine Feinde mit der Hilfe von N&#244;ggormotha!</German>
+		<Italian>Torture your enemies with N&#244;ggormotha's help!</Italian>
+		<Spanish>Torture your enemies with N&#244;ggormotha's help!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NOGGORMOTHA_CREATION</Tag>
+		<English>After the death of the last of his brothers of his order the only left keeper of N&#244;ggormotha was standing still and took a deep breath. The blissful grin on his face grew bigger and bigger. He succeeded. Noone would ever be a threat to him now and ever again. He teetered back and forth and silently enjoyed his triumph. Inspired by N&#244;ggormotha's powers he knew, a greater fate was his now.
+He watched the sky grew darker. How the storm came out of nowhere and how the wind died away all out of a sudden. No sound was to be heard. He became unsteady. Adrenaline ran through his veins. What the hell . was happening? His stomach ached. He was really sick. His forehead burned like all fires of hell together. He tumbled and collapsed. Crawling on the ground and looking for safe grip he vomited and passed out.
+When he regained consciousness, he heard a giggle, that grew into a high and scornful laugh. He looked up and looked into the grimace-like face of a tall women. Except for her evil eyes and her disfigered mouth she was very beautiful. Clad in red gold and sourrounded by a creepy wreath of swords, there was no other way for the spectator to admit that she was as dangerous as she was impressive. She looked at him, amused. Her ridiculing tone of voice was not to be overheard.: 'Thank you so much. Are you alright? Have you got used to me so much that the longing for sickened you right the moment I left your body? But yes, I admit, I would cry, too. You have no idea how to use my powers! How you will be screaming as soon as you realize, how perfect I am at giving pain and doom to hose who dare to stand in my way. Do you want to know?' She smiled at him and with having said what she wanted, N&#244;ggormotha, the Mistress of Torture, turned around and was gone.
+</English>
+		<French>After the death of the last of his brothers of his order the only left keeper of N&#244;ggormotha was standing still and took a deep breath. The blissful grin on his face grew bigger and bigger. He succeeded. Noone would ever be a threat to him now and ever again. He teetered back and forth and silently enjoyed his triumph. Inspired by N&#244;ggormotha's powers he knew, a greater fate was his now.
+He watched the sky grew darker. How the storm came out of nowhere and how the wind died away all out of a sudden. No sound was to be heard. He became unsteady. Adrenaline ran through his veins. What the hell . was happening? His stomach ached. He was really sick. His forehead burned like all fires of hell together. He tumbled and collapsed. Crawling on the ground and looking for safe grip he vomited and passed out.
+When he regained consciousness, he heard a giggle, that grew into a high and scornful laugh. He looked up and looked into the grimace-like face of a tall women. Except for her evil eyes and her disfigered mouth she was very beautiful. Clad in red gold and sourrounded by a creepy wreath of swords, there was no other way for the spectator to admit that she was as dangerous as she was impressive. She looked at him, amused. Her ridiculing tone of voice was not to be overheard.: 'Thank you so much. Are you alright? Have you got used to me so much that the longing for sickened you right the moment I left your body? But yes, I admit, I would cry, too. You have no idea how to use my powers! How you will be screaming as soon as you realize, how perfect I am at giving pain and doom to hose who dare to stand in my way. Do you want to know?' She smiled at him and with having said what she wanted, N&#244;ggormotha, the Mistress of Torture, turned around and was gone.
+</French>
+		<German>Nach der Vernichtung des letzten Bruders aus seinem Orden stand der einzig verbliebene H&#252;ter der N&#244;ggormotha da und atmete tief durch. Das selige Grinsen auf seinem Gesicht wurde breiter und breiter. Er hatte es geschafft. Niemand w&#252;rde ihm jetzt noch gef&#228;hrlich werden k&#246;nnen. Er wippte leicht hin und her und genoss seinen Triumph. Beseelt von den Kr&#228;ften N&#244;ggormothas war ihm ein gr&#246;&#223;eres Schicksal zugedacht. 
+Er beobachtete, wie sich der Himmel verdunkelte, wie es zu st&#252;rmen begann und wie sich der Wind mit einem Mal legte. Kein einziger Laut war zu h&#246;ren. Er wurde unruhig. Adrenalin schoss durch seinen K&#246;rper. Was passierte hier? Sein Bauch schmerzte. Ihm war furchtbar &#252;bel. Seine Stirn gl&#252;hte. Er schwankte und sank in sich zusammen. Am Boden liegend erbrach er sich. Er wurde ohnm&#228;chtig. 
+Als er wieder zu sich kam, h&#246;rte er ein Kichern, das zu einem hohen und h&#246;hnischen Lachen anschwoll. Er blickte auf und erblickte in ein fratzenartiges Gesicht einer hochgewachsenen Frau, abgesehen von ihrem boshaften Augen und dem entstellten Mund war sie wundersch&#246;n. In rotes Gold gekleidet und von einem unheimlichen Schwerterkranz umgeben, blieb dem Betrachter keine Wahl, als anzuerkennen, dass sie sowohl gef&#228;hrlich als auch beeindruckend war. Sie blickte am&#252;siert auf ihn hinab. Ihre Stimme hatte einen nicht zu &#252;berh&#246;renden sp&#246;ttischen Tonfall:  "Vielen Dank. Geht es Euch gut? Habt Ihr Euch so an mich gew&#246;hnt gehabt, dass Ihr vor Sehnsucht in dem Moment erkranktet, da ich Euren K&#246;rper verlie&#223;? Doch ich w&#252;rde auch weinen. Ihr wisst doch gar nichts mit meiner Kraft anzufangen. Was werdet Ihr erst heulen, wenn Ihr erkennt, wie perfekt ich Leid und Verderben denen bringe, die sich mir in den Weg stellen. Wollt Ihr es erfahren?" Sie l&#228;chelte ihn an und damit machte N&#244;ggormotha, die Meisterin der Folter, auf dem Absatz kehrt und verschwand aus seinem Blick.
+</German>
+		<Italian>After the death of the last of his brothers of his order the only left keeper of N&#244;ggormotha was standing still and took a deep breath. The blissful grin on his face grew bigger and bigger. He succeeded. Noone would ever be a threat to him now and ever again. He teetered back and forth and silently enjoyed his triumph. Inspired by N&#244;ggormotha's powers he knew, a greater fate was his now.
+He watched the sky grew darker. How the storm came out of nowhere and how the wind died away all out of a sudden. No sound was to be heard. He became unsteady. Adrenaline ran through his veins. What the hell . was happening? His stomach ached. He was really sick. His forehead burned like all fires of hell together. He tumbled and collapsed. Crawling on the ground and looking for safe grip he vomited and passed out.
+When he regained consciousness, he heard a giggle, that grew into a high and scornful laugh. He looked up and looked into the grimace-like face of a tall women. Except for her evil eyes and her disfigered mouth she was very beautiful. Clad in red gold and sourrounded by a creepy wreath of swords, there was no other way for the spectator to admit that she was as dangerous as she was impressive. She looked at him, amused. Her ridiculing tone of voice was not to be overheard.: 'Thank you so much. Are you alright? Have you got used to me so much that the longing for sickened you right the moment I left your body? But yes, I admit, I would cry, too. You have no idea how to use my powers! How you will be screaming as soon as you realize, how perfect I am at giving pain and doom to hose who dare to stand in my way. Do you want to know?' She smiled at him and with having said what she wanted, N&#244;ggormotha, the Mistress of Torture, turned around and was gone.
+</Italian>
+		<Spanish>After the death of the last of his brothers of his order the only left keeper of N&#244;ggormotha was standing still and took a deep breath. The blissful grin on his face grew bigger and bigger. He succeeded. Noone would ever be a threat to him now and ever again. He teetered back and forth and silently enjoyed his triumph. Inspired by N&#244;ggormotha's powers he knew, a greater fate was his now.
+He watched the sky grew darker. How the storm came out of nowhere and how the wind died away all out of a sudden. No sound was to be heard. He became unsteady. Adrenaline ran through his veins. What the hell . was happening? His stomach ached. He was really sick. His forehead burned like all fires of hell together. He tumbled and collapsed. Crawling on the ground and looking for safe grip he vomited and passed out.
+When he regained consciousness, he heard a giggle, that grew into a high and scornful laugh. He looked up and looked into the grimace-like face of a tall women. Except for her evil eyes and her disfigered mouth she was very beautiful. Clad in red gold and sourrounded by a creepy wreath of swords, there was no other way for the spectator to admit that she was as dangerous as she was impressive. She looked at him, amused. Her ridiculing tone of voice was not to be overheard.: 'Thank you so much. Are you alright? Have you got used to me so much that the longing for sickened you right the moment I left your body? But yes, I admit, I would cry, too. You have no idea how to use my powers! How you will be screaming as soon as you realize, how perfect I am at giving pain and doom to hose who dare to stand in my way. Do you want to know?' She smiled at him and with having said what she wanted, N&#244;ggormotha, the Mistress of Torture, turned around and was gone.
+</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NOGGORMOTHA_STIGAMTA</Tag>
+		<English>Feeds on agony</English>
+		<French>Feeds on agony</French>
+		<German>Ern&#228;hrt sich von Qualen und Leid</German>
+		<Italian>Feeds on agony</Italian>
+		<Spanish>Feeds on agony</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NKEEPERN_ARRIVAL</Tag>
+		<English>A messenger of the so called 'Order of N&#244;ggormotha' reports on a heroic battle of the warrior monks against the Mistress of Torture. The demon N&#244;ggormotha was captured. Though it was not possible to kill her, her power was broken. By a trick her entity was transfered into the bodies of the monks in pieces. Never, never must this entity find back together again. The messenger asks to welcome all 'Keepers of N&#244;ggormotha' in peace and to prevent them from fighting each other. The power and spirit of the demon is so tempting, that this is not easy to do by themselves.</English>
+		<French>A messenger of the so called 'Order of N&#244;ggormotha' reports on a heroic battle of the warrior monks against the Mistress of Torture. The demon N&#244;ggormotha was captured. Though it was not possible to kill her, her power was broken. By a trick her entity was transfered into the bodies of the monks in pieces. Never, never must this entity find back together again. The messenger asks to welcome all 'Keepers of N&#244;ggormotha' in peace and to prevent them from fighting each other. The power and spirit of the demon is so tempting, that this is not easy to do by themselves.</French>
+		<German>Ein Gesandter des sogenannten 'Ordens der N&#244;ggormotha' berichtet von dem heroischen Kampf der Kriegerm&#246;nche gegen die Meisterin der Folter. Die D&#228;monin N&#244;ggormotha wurde gefangen genommen. Es gelang zwar nicht, sie zu besiegen, doch ihre Kraft wurde gebrochen, indem durch eine List ihr Wesen in die K&#246;rper der M&#246;nche transferiert wurde. Niemals d&#252;rfen diese Wesen wieder zu einander finden. Der Bote bittet, alle H&#252;ter der N&#244;ggormotha in Frieden aufzunehmen und davor zu bewahren, gegeneinander zu k&#228;mpfen. Der Geist und die Macht der D&#228;monin sei zu verf&#252;hrerisch, als dass die M&#246;nche sich selbst davor sch&#252;tzen k&#246;nnten.</German>
+		<Italian>A messenger of the so called 'Order of N&#244;ggormotha' reports on a heroic battle of the warrior monks against the Mistress of Torture. The demon N&#244;ggormotha was captured. Though it was not possible to kill her, her power was broken. By a trick her entity was transfered into the bodies of the monks in pieces. Never, never must this entity find back together again. The messenger asks to welcome all 'Keepers of N&#244;ggormotha' in peace and to prevent them from fighting each other. The power and spirit of the demon is so tempting, that this is not easy to do by themselves.</Italian>
+		<Spanish>A messenger of the so called 'Order of N&#244;ggormotha' reports on a heroic battle of the warrior monks against the Mistress of Torture. The demon N&#244;ggormotha was captured. Though it was not possible to kill her, her power was broken. By a trick her entity was transfered into the bodies of the monks in pieces. Never, never must this entity find back together again. The messenger asks to welcome all 'Keepers of N&#244;ggormotha' in peace and to prevent them from fighting each other. The power and spirit of the demon is so tempting, that this is not easy to do by themselves.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_KEEPER_START_MESSAGE</Tag>
+		<English>An exhausted traveler tells you about a secluded warrior order up in the mountains. The story goes, that the monastery's inhabitants have been afflicted by the demonic Mistress of Torture,  N&#244;ggormotha.</English>
+		<French>An exhausted traveler tells you about a secluded warrior order up in the mountains. The story goes, that the monastery's inhabitants have been afflicted by the demonic Mistress of Torture,  N&#244;ggormotha.</French>
+		<German>Ein ersch&#246;pfter Wanderer berichtet Euch von einem einsamen Kriegerorden in den Bergen. Man erz&#228;hlt, dass die Bewohner des Klosters von der d&#228;monischen Meisterin der Folter, N&#244;ggormotha, heimgesucht wurden.</German>
+		<Italian>An exhausted traveler tells you about a secluded warrior order up in the mountains. The story goes, that the monastery's inhabitants have been afflicted by the demonic Mistress of Torture,  N&#244;ggormotha.</Italian>
+		<Spanish>An exhausted traveler tells you about a secluded warrior order up in the mountains. The story goes, that the monastery's inhabitants have been afflicted by the demonic Mistress of Torture,  N&#244;ggormotha.</Spanish>
+	</TEXT>
+	<TEXT>  
+		<Tag>TXT_KEY_KEEPER_SPAWN_MESSAGE</Tag>
+		<English>A mysterious warrior monk arrives in your capital and joins your people. He calls himself 'Keeper of N&#244;ggormotha'.</English>
+		<French>A mysterious warrior monk arrives in your capital and joins your people. He calls himself 'Keeper of N&#244;ggormotha'.</French>
+		<German>Ein geheimnisvoller Kriegerm&#246;nch, der sich selbst als 'H&#252;ter der N&#244;ggormotha' vorstellt, schlie&#223;t sich Eurem Volk an.</German>
+		<Italian>A mysterious warrior monk arrives in your capital and joins your people. He calls himself 'Keeper of N&#244;ggormotha'.</Italian>
+		<Spanish>A mysterious warrior monk arrives in your capital and joins your people. He calls himself 'Keeper of N&#244;ggormotha'.</Spanish>
+	</TEXT>
+<!--
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_NOGGORMOTHA_LEFT_THREE</Tag>
+		<English>"Here I am! One of only three left Keepers of N&#244;ggormotha. Come and get me if you can!"</English>
+		<French>"Here I am! One of only three left Keepers of N&#244;ggormotha. Come and get me if you can!"</French>
+		<German>"Hier bin ich! Einer von nur noch drei verbliebenen H&#252;tern der N&#244;ggormotha. Kommt und holt mich, wenn Ihr k&#246;nnt!"</German>
+		<Italian>"Here I am! One of only three left Keepers of N&#244;ggormotha. Come and get me if you can!"</Italian>
+		<Spanish>"Here I am! One of only three left Keepers of N&#244;ggormotha. Come and get me if you can!"</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_NOGGORMOTHA_LEFT_TWO</Tag>
+		<English>"Here I am! One of only two left Keepers of N&#244;ggormotha. Come and get me if you can!"</English>
+		<French>"Here I am! One of only two left Keepers of N&#244;ggormotha. Come and get me if you can!"</French>
+		<German>"Hier bin ich! Einer von nur noch zwei verbliebenen H&#252;tern der N&#244;ggormotha. Kommt und holt mich, wenn Ihr k&#246;nnt!"</German>
+		<Italian>"Here I am! One of only two left Keepers of N&#244;ggormotha. Come and get me if you can!"</Italian>
+		<Spanish>"Here I am! One of only two left Keepers of N&#244;ggormotha. Come and get me if you can!"</Spanish>
+	</TEXT>
+-->
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_NOGGORMOTHA_LEFT</Tag>
+		<English>N&#244;ggormotha left the body of the only left keeper and will act on her own now ... with all her might!</English>
+		<French>N&#244;ggormotha left the body of the only left keeper and will act on her own now ... with all her might!</French>
+		<German>N&#244;ggormotha hat den K&#246;rper des letzten H&#252;ters verlassen und wird nun eigenst&#228;ndig handeln k&#246;nnen ... mit all ihrer Macht!</German>
+		<Italian>N&#244;ggormotha left the body of the only left keeper and will act on her own now ... with all her might!</Italian>
+		<Spanish>N&#244;ggormotha left the body of the only left keeper and will act on her own now ... with all her might!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_NOGGORMOTHA_LEFT_SAVIOUR</Tag>
+		<English>One of the keepers of N&#244;ggormotha has become so powerful that N&#244;ggormotha gained enough of it to leave his body and will act on her own now ... with all her might!</English>
+		<French>One of the keepers of N&#244;ggormotha has become so powerful that N&#244;ggormotha gained enough of it to leave his body and will act on her own now ... with all her might!</French>
+		<German>Einer der H&#252;ter der N&#244;ggormotha ist so m&#228;chtig geworden, dass N&#244;ggormotha durch seine Kraft seinen K&#246;rper verlassen konnte. Sie kann nun eigenst&#228;ndig handeln ... mit all ihrer Macht!</German>
+		<Italian>One of the keepers of N&#244;ggormotha has become so powerful that N&#244;ggormotha gained enough of it to leave his body and will act on her own now ... with all her might!</Italian>
+		<Spanish>One of the keepers of N&#244;ggormotha has become so powerful that N&#244;ggormotha gained enough of it to leave his body and will act on her own now ... with all her might!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_KEEPER_KILLED_KEEPER_MESSAGE</Tag>
+		<English>One of the Keepers of N&#244;ggormotha was killed in combat by another possessed member of his order. He won't ever return ... as the demonic entities seem to live on in his slayer ... reunited.</English>
+		<French>One of the Keepers of N&#244;ggormotha was killed in combat by another possessed member of his order. He won't ever return ... as the demonic entities seem to live on in his slayer ... reunited.</French>
+		<German>Einer der H&#252;ter der N&#244;ggormotha wurde von einem anderen besessenen Mitglied seines Ordens erschlagen. Er wird niemals wiederauferstehen ... die d&#228;monischen Wesen scheinen im Bezwinger weiterzuleben ... wieder vereint.</German>
+		<Italian>One of the Keepers of N&#244;ggormotha was killed in combat by another possessed member of his order. He won't ever return ... as the demonic entities seem to live on in his slayer ... reunited.</Italian>
+		<Spanish>One of the Keepers of N&#244;ggormotha was killed in combat by another possessed member of his order. He won't ever return ... as the demonic entities seem to live on in his slayer ... reunited.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_KEEPER_RESPAWN</Tag>
+		<English>Keeper of N&#244;ggormotha was killed in combat ... the demonic entity revived the Keeper.</English>
+		<French>Keeper of N&#244;ggormotha was killed in combat ... the demonic entity revived the Keeper.</French>
+		<German>H&#252;ter der N&#244;ggormotha wurde erschlagen. ... das d&#228;monische Wesen hat den H&#252;ter wiederbelebt.</German>
+		<Italian>Keeper of N&#244;ggormotha was killed in combat ... the demonic entity revived the Keeper.</Italian>
+		<Spanish>Keeper of N&#244;ggormotha was killed in combat ... the demonic entity revived the Keeper.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_KEEPER_EFFECT_SPREAD</Tag>
+		<English>One of the Keepers of N&#244;ggormotha was killed in combat ... He was reborn but the demonic entity expanted onto his slayer as well.</English>
+		<French>One of the Keepers of N&#244;ggormotha was killed in combat ... He was reborn but the demonic entity expanted onto his slayer as well.</French>
+		<German>Einer der H&#252;ter der N&#244;ggormotha wurde erschlagen ... er wurde wiedergeboren, doch das d&#228;monische Wesen hat sich dar&#252;ber hinaus auf seinen Bezwinger ausgedehnt.</German>
+		<Italian>One of the Keepers of N&#244;ggormotha was killed in combat ... He was reborn but the demonic entity expanted onto his slayer as well.</Italian>
+		<Spanish>One of the Keepers of N&#244;ggormotha was killed in combat ... He was reborn but the demonic entity expanted onto his slayer as well.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_KEEPER_DIED_NO_SHRINE</Tag>
+		<English>A homeless Keeper of N&#244;ggormotha was killed in combat ... The demonic entity of N&#244;ggormotha left him and took hold of his slayer.</English>
+		<French>A homeless Keeper of N&#244;ggormotha was killed in combat ... The demonic entity N&#244;ggormotha left him and took hold of his slayer.</French>
+		<German>Ein H&#252;ter der N&#244;ggormotha wurde erschlagen ... Das d&#228;monische Wesen von N&#244;ggormotha hat auf seinen Bezwinger &#252;bergewechselt.</German>
+		<Italian>A homeless Keeper of N&#244;ggormotha was killed in combat ... The demonic entity N&#244;ggormotha left him and took hold of his slayer.</Italian>
+		<Spanish>A homeless Keeper of N&#244;ggormotha was killed in combat ... The demonic entity N&#244;ggormotha left him and took hold of his slayer.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SHOW_TOCO_BROTHERS_PEDIA</Tag>
+		<English>The Keepers of N&#244;ggormotha feel the location of their brothers. Not because of the long time together in the monastery not because of deep friendship, but because of the demonic possession, that always looks for íts missing parts of its being. After all, N&#244;ggormotha wants nothing more than the keepers to meet ... and to kill each other.</English>
+		<French>The Keepers of N&#244;ggormotha feel the location of their brothers. Not because of the long time together in the monastery not because of deep friendship, but because of the demonic possession, that always looks for íts missing parts of its being. After all, N&#244;ggormotha wants nothing more than the keepers to meet ... and to kill each other.</French>
+		<German>Die H&#252;ter der N&#244;ggormotha f&#252;hlen den Aufenthaltsort ihrer Br&#252;der. Nicht aufgrund der langen gemeinsamen Zeit im Kloster oder der tiefen Freundschaft und Verbundenheit unter ihnen, sondern wegen der d&#228;monischen Besessenheit, die stets nach den fehlenden Teilen ihres Wesens Ausschau h&#228;lt. Schlie&#223;lich will N&#244;ggormotha nichts mehr, als dass die H&#252;ter sich finden ... und sich dann t&#246;ten.</German>
+		<Italian>The Keepers of N&#244;ggormotha feel the location of their brothers. Not because of the long time together in the monastery not because of deep friendship, but because of the demonic possession, that always looks for íts missing parts of its being. After all, N&#244;ggormotha wants nothing more than the keepers to meet ... and to kill each other.</Italian>
+		<Spanish>The Keepers of N&#244;ggormotha feel the location of their brothers. Not because of the long time together in the monastery not because of deep friendship, but because of the demonic possession, that always looks for íts missing parts of its being. After all, N&#244;ggormotha wants nothing more than the keepers to meet ... and to kill each other.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SHOW_TOCO_BROTHERS</Tag>
+		<English>N&#244;ggormotha's vision</English>
+		<French>N&#244;ggormotha's vision</French>
+		<German>N&#244;ggormotha's Weitblick</German>
+		<Italian>N&#244;ggormotha's vision</Italian>
+		<Spanish>N&#244;ggormotha's vision</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SHOW_TOCO_BROTHERS_HELP</Tag>
+		<English>[ICON_BULLET]Localizes all units with the 'Keeper of N&#244;ggormotha' promotion on the world map.</English>
+		<French>[ICON_BULLET]Localizes all units with the 'Keeper of N&#244;ggormotha' promotion on the world map.</French>
+		<German>[ICON_BULLET]Lokalisiert alle Einheiten mit der 'H&#252;ter der N&#244;ggormotha'-Bef&#246;rderung auf der Karte.</German>
+		<Italian>[ICON_BULLET]Localizes all units with the 'Keeper of N&#244;ggormotha' promotion on the world map.</Italian>
+		<Spanish>[ICON_BULLET]Localizes all units with the 'Keeper of N&#244;ggormotha' promotion on the world map.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_LOCATE_KEEPER_MESSAGE</Tag>
+		<English>A 'Keeper of N&#244;ggormotha' has been located.</English>
+		<French>A 'Keeper of N&#244;ggormotha' has been located.</French>
+		<German>Ein 'H&#252;ter der N&#244;ggormotha' wurde lokalisiert.</German>
+		<Italian>A 'Keeper of N&#244;ggormotha' has been located.</Italian>
+		<Spanish>A 'Keeper of N&#244;ggormotha' has been located.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHRINE_KEEPERS2</Tag>
+		<English>Keeper's Shrine of Destiny</English>
+		<French>Keeper's Shrine of Destiny</French>
+		<German>Schrein des schicksalergebenen H&#252;ters</German>
+		<Italian>Keeper's Shrine of Destiny</Italian>
+		<Spanish>Keeper's Shrine of Destiny</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHRINE_KEEPERS1</Tag>
+		<English>Keeper's Shrine of Hope</English>
+		<French>Keeper's Shrine of Hope</French>
+		<German>Schrein des Hoffnungsvollen H&#252;ters</German>
+		<Italian>Keeper's Shrine of Hope</Italian>
+		<Spanish>Keeper's Shrine of Hope</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_SHRINE_KEEPERS_PEDIA</Tag>
+		<English>Both the Keeper's Shrine of Destiny and the Keeper's Shrine of Hope are buildings that give the keeper a home within his newly found people. Whenever a keeper dies in combat agains a common foe, he will be ressurected here. Additionally these building allow the keepers to teleport back home as well. There is a big difference, though. While the good civilizations can only build the Shrine of Hope, that allows to cast 'Assure the Keeper', the evil and even the neutral civilizations prefer the Shrine of Destiny, that follows the goal to reunite N&#244;ggormotha's scattered pieces by the spell 'N&#244;ggormotha's Wish'.</English>
+		<French>Both the Keeper's Shrine of Destiny and the Keeper's Shrine of Hope are buildings that give the keeper a home within his newly found people. Whenever a keeper dies in combat agains a common foe, he will be ressurected here. Additionally these building allow the keepers to teleport back home as well. There is a big difference, though. While the good civilizations can only build the Shrine of Hope, that allows to cast 'Assure the Keeper', the evil and even the neutral civilizations prefer the Shrine of Destiny, that follows the goal to reunite N&#244;ggormotha's scattered pieces by the spell 'N&#244;ggormotha's Wish'.</French>
+		<German>Sowohl der Schrein des hoffnungsvollen H&#252;ters als auch der Schrein des schicksalsergebenen H&#252;ters sind Geb&#228;ude, die dem H&#252;ter ein Heim in seinem neu gefundenem Volk bieten. Wann immer ein H&#252;ter im Kampf gegen einen gew&#246;hnlichen Gegner stirbt, wird er hier wiederbelebt werden. Au&#223;erdem erlauben diese Geb&#228;ude einen Teleportzauber zur&#252;ck nach Hause. Und doch besteht ein gravierender Unterschied. W&#228;hrend die guten Zivilisationen nur den Schrein des hoffnungsvollen H&#252;ters bauen k&#246;nnen, der es erlaubt, den 'Best&#228;rke den H&#252;ter'-Zauber zu sprechen, bevorzugen die b&#246;sen und neutralen Zivilisationen den Schrein des schicksalsergebenen H&#252;ters, der das Ziel verfolgt, N&#244;ggormothas verstreute Teile durch den Zauber 'N&#244;ggormothas Wunsch' wieder zu vereinen.</German>
+		<Italian>Both the Keeper's Shrine of Destiny and the Keeper's Shrine of Hope are buildings that give the keeper a home within his newly found people. Whenever a keeper dies in combat agains a common foe, he will be ressurected here. Additionally these building allow the keepers to teleport back home as well. There is a big difference, though. While the good civilizations can only build the Shrine of Hope, that allows to cast 'Assure the Keeper', the evil and even the neutral civilizations prefer the Shrine of Destiny, that follows the goal to reunite N&#244;ggormotha's scattered pieces by the spell 'N&#244;ggormotha's Wish'.</Italian>
+		<Spanish>Both the Keeper's Shrine of Destiny and the Keeper's Shrine of Hope are buildings that give the keeper a home within his newly found people. Whenever a keeper dies in combat agains a common foe, he will be ressurected here. Additionally these building allow the keepers to teleport back home as well. There is a big difference, though. While the good civilizations can only build the Shrine of Hope, that allows to cast 'Assure the Keeper', the evil and even the neutral civilizations prefer the Shrine of Destiny, that follows the goal to reunite N&#244;ggormotha's scattered pieces by the spell 'N&#244;ggormotha's Wish'.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_NOGGORMOTHAS_WISH</Tag>
+		<English>N&#244;ggormotha's Wish</English>
+		<French>N&#244;ggormotha's Wish</French>
+		<German>N&#244;ggormothas Wunsch</German>
+		<Italian>N&#244;ggormotha's Wish</Italian>
+		<Spanish>N&#244;ggormotha's Wish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_NOGGORMOTHAS_WISH_PEDIA</Tag>
+		<English>He was thinking about the meeting. All three of them sat in the middle of the shrine within their host's city of Galvenholme. There were candles, and unpleasant scents of surely poisonous plants in the air. The shrine was closed, as it was common with the Keeper being at home. Arlon, the Sheaim keeper these days had invited them and they had talked about old times back at their monastery. . Things were easier with their new people having agreed on open borders or a defense alliance, just like in his and Turno's case who was the third person in the room. And about the fate of their other old friends. Some of them were gone forever. Missing. Killed. What a shame. They should not have fought N&#244;ggormotha for nothing. One thing was a fact.  An unknown traitor of their own order was trying to unite as much of the demon's power on his own person by killing his brothers. However, Arlon never had been the guy who calls people from far away to his place just to have a small chat about dead friends and a glass of old bitter wine. There was more about it. He was sure about this. But Arlon was not looking as if he wanted to talk about it. He had changed a lot since their last meeting. His bloodshot eyes showed no understanding anymore. His skin had turned very pale and was laced with unhealthy looking spots and ulcers. And suddenly, out of nowhere, he opened his mouth and laughed. And the laugh was not friendly. The laugh was a whole conversation: 'You are fools. I am the traitor. I will take your demonic strength. I want to have N&#244;ggormotha's powers. And you had no clue about it at all until now. But don't worry. I will let you leave unharmed. You pets!' And the laugh's message became true. They just had entered a dark ritual.</English>
+		<French>He was thinking about the meeting. All three of them sat in the middle of the shrine within their host's city of Galvenholme. There were candles, and unpleasant scents of surely poisonous plants in the air. The shrine was closed, as it was common with the Keeper being at home. Arlon, the Sheaim keeper these days had invited them and they had talked about old times back at their monastery. . Things were easier with their new people having agreed on open borders or a defense alliance, just like in his and Turno's case who was the third person in the room. And about the fate of their other old friends. Some of them were gone forever. Missing. Killed. What a shame. They should not have fought N&#244;ggormotha for nothing. One thing was a fact.  An unknown traitor of their own order was trying to unite as much of the demon's power on his own person by killing his brothers. However, Arlon never had been the guy who calls people from far away to his place just to have a small chat about dead friends and a glass of old bitter wine. There was more about it. He was sure about this. But Arlon was not looking as if he wanted to talk about it. He had changed a lot since their last meeting. His bloodshot eyes showed no understanding anymore. His skin had turned very pale and was laced with unhealthy looking spots and ulcers. And suddenly, out of nowhere, he opened his mouth and laughed. And the laugh was not friendly. The laugh was a whole conversation: 'You are fools. I am the traitor. I will take your demonic strength. I want to have N&#244;ggormotha's powers. And you had no clue about it at all until now. But don't worry. I will let you leave unharmed. You pets!' And the laugh's message became true. They just had entered a dark ritual.</French>
+		<German>He was thinking about the meeting. All three of them sat in the middle of the shrine within their host's city of Galvenholme. There were candles, and unpleasant scents of surely poisonous plants in the air. The shrine was closed, as it was common with the Keeper being at home. Arlon, the Sheaim keeper these days had invited them and they had talked about old times back at their monastery. . Things were easier with their new people having agreed on open borders or a defense alliance, just like in his and Turno's case who was the third person in the room. And about the fate of their other old friends. Some of them were gone forever. Missing. Killed. What a shame. They should not have fought N&#244;ggormotha for nothing. One thing was a fact.  An unknown traitor of their own order was trying to unite as much of the demon's power on his own person by killing his brothers. However, Arlon never had been the guy who calls people from far away to his place just to have a small chat about dead friends and a glass of old bitter wine. There was more about it. He was sure about this. But Arlon was not looking as if he wanted to talk about it. He had changed a lot since their last meeting. His bloodshot eyes showed no understanding anymore. His skin had turned very pale and was laced with unhealthy looking spots and ulcers. And suddenly, out of nowhere, he opened his mouth and laughed. And the laugh was not friendly. The laugh was a whole conversation: 'You are fools. I am the traitor. I will take your demonic strength. I want to have N&#244;ggormotha's powers. And you had no clue about it at all until now. But don't worry. I will let you leave unharmed. You pets!' And the laugh's message became true. They just had entered a dark ritual.</German>
+		<Italian>He was thinking about the meeting. All three of them sat in the middle of the shrine within their host's city of Galvenholme. There were candles, and unpleasant scents of surely poisonous plants in the air. The shrine was closed, as it was common with the Keeper being at home. Arlon, the Sheaim keeper these days had invited them and they had talked about old times back at their monastery. . Things were easier with their new people having agreed on open borders or a defense alliance, just like in his and Turno's case who was the third person in the room. And about the fate of their other old friends. Some of them were gone forever. Missing. Killed. What a shame. They should not have fought N&#244;ggormotha for nothing. One thing was a fact.  An unknown traitor of their own order was trying to unite as much of the demon's power on his own person by killing his brothers. However, Arlon never had been the guy who calls people from far away to his place just to have a small chat about dead friends and a glass of old bitter wine. There was more about it. He was sure about this. But Arlon was not looking as if he wanted to talk about it. He had changed a lot since their last meeting. His bloodshot eyes showed no understanding anymore. His skin had turned very pale and was laced with unhealthy looking spots and ulcers. And suddenly, out of nowhere, he opened his mouth and laughed. And the laugh was not friendly. The laugh was a whole conversation: 'You are fools. I am the traitor. I will take your demonic strength. I want to have N&#244;ggormotha's powers. And you had no clue about it at all until now. But don't worry. I will let you leave unharmed. You pets!' And the laugh's message became true. They just had entered a dark ritual.</Italian>
+		<Spanish>He was thinking about the meeting. All three of them sat in the middle of the shrine within their host's city of Galvenholme. There were candles, and unpleasant scents of surely poisonous plants in the air. The shrine was closed, as it was common with the Keeper being at home. Arlon, the Sheaim keeper these days had invited them and they had talked about old times back at their monastery. . Things were easier with their new people having agreed on open borders or a defense alliance, just like in his and Turno's case who was the third person in the room. And about the fate of their other old friends. Some of them were gone forever. Missing. Killed. What a shame. They should not have fought N&#244;ggormotha for nothing. One thing was a fact.  An unknown traitor of their own order was trying to unite as much of the demon's power on his own person by killing his brothers. However, Arlon never had been the guy who calls people from far away to his place just to have a small chat about dead friends and a glass of old bitter wine. There was more about it. He was sure about this. But Arlon was not looking as if he wanted to talk about it. He had changed a lot since their last meeting. His bloodshot eyes showed no understanding anymore. His skin had turned very pale and was laced with unhealthy looking spots and ulcers. And suddenly, out of nowhere, he opened his mouth and laughed. And the laugh was not friendly. The laugh was a whole conversation: 'You are fools. I am the traitor. I will take your demonic strength. I want to have N&#244;ggormotha's powers. And you had no clue about it at all until now. But don't worry. I will let you leave unharmed. You pets!' And the laugh's message became true. They just had entered a dark ritual.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_NOGGORMOTHAS_WISH_MESSAGE</Tag>
+		<English>Demonic entities are reunited by N&#244;ggormotha's Wish.</English>
+		<French>Demonic entities are reunited by N&#244;ggormotha's Wish.</French>
+		<German>Demonic entities are reunited by N&#244;ggormotha's Wish.</German>
+		<Italian>Demonic entities are reunited by N&#244;ggormotha's Wish.</Italian>
+		<Spanish>Demonic entities are reunited by N&#244;ggormotha's Wish.</Spanish>
+	</TEXT>		
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_NOGGORMOTHAS_WISH_HELP</Tag>
+		<English>[ICON_BULLET]Needs more than one keeper unit of the same player or team in a city with the 'Keeper's Shrine of Destiny'. Transfers all demonic entities of N&#244;ggormotha onto the caster</English>
+		<French>[ICON_BULLET]Needs more than one keeper unit of the same player or team in a city with the 'Keeper's Shrine of Destiny'. Transfers all demonic entities of N&#244;ggormotha onto the caster</French>
+		<German>[ICON_BULLET]Ben&#246;tigt mehr als einen H&#252;ter desselben Spielers oder Teams in einer Stadt mit dem 'Schrein des schicksalsergebenen H&#252;ters'. Vereint alle d&#228;monischen Wesen N&#244;ggormothas auf den Zaubernden</German>
+		<Italian>[ICON_BULLET]Needs more than one keeper unit of the same player or team in a city with the 'Keeper's Shrine of Destiny'. Transfers all demonic entities of N&#244;ggormotha onto the caster</Italian>
+		<Spanish>[ICON_BULLET]Needs more than one keeper unit of the same player or team in a city with the 'Keeper's Shrine of Destiny'. Transfers all demonic entities of N&#244;ggormotha onto the caster</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ASSURED_KEEPER</Tag>
+		<English>Assure the Keeper</English>
+		<French>Assure the Keeper</French>
+		<German>Best&#228;rke den H&#252;ter</German>
+		<Italian>Assure the Keeper</Italian>
+		<Spanish>Assure the Keeper</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ASSURED_KEEPER</Tag>
+		<English>Assured Keeper</English>
+		<French>Assured Keeper</French>
+		<German>Best&#228;rkter H&#252;ter</German>
+		<Italian>Assured Keeper</Italian>
+		<Spanish>Assured Keeper</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ASSURED_KEEPER_PEDIA</Tag>
+		 <English>The Keeper's task is too important. Keep him alive! He must not fall to the enemy! A great feast, a big celebration, whatever it takes. There is need to make the keeper strong and defying the danger of losing control of himself or of getting defeated by the evil. This is what his people does if called. Of course there is money needed to feed them as well.</English>
+		<French>The Keeper's task is too important. Keep him alive! He must not fall to the enemy! A great feast, a big celebration, whatever it takes. There is need to make the keeper strong and defying the danger of losing control of himself or of getting defeated by the evil. This is what his people does if called. Of course there is money needed to feed them as well.</French>
+		<German>Die Aufgabe des H&#252;ters ist zu wichtig. Halte ihn am Leben! Er darf nicht Euren Feinden in die H&#228;nde fallen! Ein gro&#223;es Fest, eine tolle Feier, was immer es braucht. Es besteht die Notwendigkeit, den H&#252;ter stark und widerstandsf&#228;hig zu machen, damit er nicht die Kontrolle &#252;ber sich verliert oder vom B&#246;sen vernichtet wird. Das ist es, was sein Volk tut, wenn es gerufen wird. Nat&#252;rlich ben&#228;tigt man etwas Geld, um sie bei solchen Gelegenheiten alle satt zu machen.</German>
+		<Italian>The Keeper's task is too important. Keep him alive! He must not fall to the enemy! A great feast, a big celebration, whatever it takes. There is need to make the keeper strong and defying the danger of losing control of himself or of getting defeated by the evil. This is what his people does if called. Of course there is money needed to feed them as well.</Italian>
+		<Spanish>The Keeper's task is too important. Keep him alive! He must not fall to the enemy! A great feast, a big celebration, whatever it takes. There is need to make the keeper strong and defying the danger of losing control of himself or of getting defeated by the evil. This is what his people does if called. Of course there is money needed to feed them as well.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ASSURED_KEEPER_HELP</Tag>
+		<English>[ICON_BULLET]Gives the keeper [COLOR_HIGHLIGHT_TEXT]+25%[COLOR_REVERT] Withdrawal chance</English>
+		<French>[ICON_BULLET]Gives the keeper [COLOR_HIGHLIGHT_TEXT]+25%[COLOR_REVERT] Withdrawal chance</French>
+		<German>[ICON_BULLET]Gibt dem H&#252;ter [COLOR_HIGHLIGHT_TEXT]+25%[COLOR_REVERT] R&#252;ckzugschance</German>
+		<Italian>[ICON_BULLET]Gives the keeper [COLOR_HIGHLIGHT_TEXT]+25%[COLOR_REVERT] Withdrawal chance</Italian>
+		<Spanish>[ICON_BULLET]Gives the keeper [COLOR_HIGHLIGHT_TEXT]+25%[COLOR_REVERT] Withdrawal chance</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TOCO_ESCAPE</Tag>
+		<English>Teleport Keeper</English>
+		<French>Teleport Keeper</French>
+		<German>Teleport Keeper</German>
+		<Italian>Teleport Keeper</Italian>
+		<Spanish>Teleport Keeper</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TOCO_ESCAPE_PEDIA</Tag>
+		<English>Many of the keeper's people believe in his task and can call him back by prayer to his shrine in times of need or danger</English>
+		<French>Many of the keeper's people believe in his task and can call him back by prayer to his shrine in times of need or danger</French>
+		<German>Viele aus dem Volk des H&#252;ters glauben an seine Sache und k&#246;nnen ihn durch ihre Gebete in Zeiten der Gefahr oder Notwendigkeit zu seinem Schrein rufen</German>
+		<Italian>Many of the keeper's people believe in his task and can call him back by prayer to his shrine in times of need or danger</Italian>
+		<Spanish>Many of the keeper's people believe in his task and can call him back by prayer to his shrine in times of need or danger</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PYHELP_KEEPER_ESCAPE</Tag>
+		<English>Teleport to [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</English>
+		<French>Teleport to [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</French>
+		<German>Teleport to [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</German>
+		<Italian>Teleport to [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</Italian>
+		<Spanish>Teleport to [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NOG_PYHELP_PROMOTION_STIGMATA</Tag>
+		<English>Gains [COLOR_HIGHLIGHT_TEXT]4[COLOR_REVERT] Strength per [COLOR_HIGHLIGHT_TEXT]10%[COLOR_REVERT] of Armageddon Counter. [NEWLINE][ICON_BULLET]Current bonus is [COLOR_HIGHLIGHT_TEXT]+%d1[COLOR_REVERT] Strength</English>
+		<French>Gains [COLOR_HIGHLIGHT_TEXT]4[COLOR_REVERT] Strength per [COLOR_HIGHLIGHT_TEXT]10%[COLOR_REVERT] of Armageddon Counter. [NEWLINE][ICON_BULLET]Current bonus is [COLOR_HIGHLIGHT_TEXT]+%d1[COLOR_REVERT] Strength</French>
+		<German>Gains [COLOR_HIGHLIGHT_TEXT]4[COLOR_REVERT] Strength per [COLOR_HIGHLIGHT_TEXT]10%[COLOR_REVERT] of Armageddon Counter. [NEWLINE][ICON_BULLET]Current bonus is [COLOR_HIGHLIGHT_TEXT]+%d1[COLOR_REVERT] Strength</German>
+		<Italian>Gains [COLOR_HIGHLIGHT_TEXT]4[COLOR_REVERT] Strength per [COLOR_HIGHLIGHT_TEXT]10%[COLOR_REVERT] of Armageddon Counter. [NEWLINE][ICON_BULLET]Current bonus is [COLOR_HIGHLIGHT_TEXT]+%d1[COLOR_REVERT] Strength</Italian>
+		<Spanish>Gains [COLOR_HIGHLIGHT_TEXT]4[COLOR_REVERT] Strength per [COLOR_HIGHLIGHT_TEXT]10%[COLOR_REVERT] of Armageddon Counter. [NEWLINE][ICON_BULLET]Current bonus is [COLOR_HIGHLIGHT_TEXT]+%d1[COLOR_REVERT] Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NOG_PYHELP_PROMOTION_KEEPER</Tag>
+		<English>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET]Keeper will be revived in [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] if defeated by a non-Keeper unit and has a [COLOR_HIGHLIGHT_TEXT]%d3%[COLOR_REVERT] chance to spread Noggormotha's influence.</English>
+		<French>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET]Keeper will be revived in [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] if defeated by a non-Keeper unit and has a [COLOR_HIGHLIGHT_TEXT]%d3%[COLOR_REVERT] chance to spread Noggormotha's influence.</French>
+		<German>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET]Keeper will be revived in [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] if defeated by a non-Keeper unit and has a [COLOR_HIGHLIGHT_TEXT]%d3%[COLOR_REVERT] chance to spread Noggormotha's influence.</German>
+		<Italian>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET]Keeper will be revived in [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] if defeated by a non-Keeper unit and has a [COLOR_HIGHLIGHT_TEXT]%d3%[COLOR_REVERT] chance to spread Noggormotha's influence.</Italian>
+		<Spanish>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET]Keeper will be revived in [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] if defeated by a non-Keeper unit and has a [COLOR_HIGHLIGHT_TEXT]%d3%[COLOR_REVERT] chance to spread Noggormotha's influence.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NOG_PYHELP_PROMOTION_KEEPER_NOT_TRUE_KEEPER</Tag>
+		<English>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET]Keeper will be revived in [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] if defeated by a non-Keeper unit and has a [COLOR_HIGHLIGHT_TEXT]%d3%[COLOR_REVERT] chance to spread Noggormotha's influence.[NEWLINE][ICON_BULLET]This unit is not an original Keeper and has a [COLOR_HIGHLIGHT_TEXT]50%[COLOR_REVERT] chance to lose a fraction of its powers after death.</English>
+		<French>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET]Keeper will be revived in [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] if defeated by a non-Keeper unit and has a [COLOR_HIGHLIGHT_TEXT]%d3%[COLOR_REVERT] chance to spread Noggormotha's influence.[NEWLINE][ICON_BULLET]This unit is not an original Keeper and has a [COLOR_HIGHLIGHT_TEXT]50%[COLOR_REVERT] chance to lose a fraction of its powers after death.</French>
+		<German>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET]Keeper will be revived in [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] if defeated by a non-Keeper unit and has a [COLOR_HIGHLIGHT_TEXT]%d3%[COLOR_REVERT] chance to spread Noggormotha's influence.[NEWLINE][ICON_BULLET]This unit is not an original Keeper and has a [COLOR_HIGHLIGHT_TEXT]50%[COLOR_REVERT] chance to lose a fraction of its powers after death.</German>
+		<Italian>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET]Keeper will be revived in [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] if defeated by a non-Keeper unit and has a [COLOR_HIGHLIGHT_TEXT]%d3%[COLOR_REVERT] chance to spread Noggormotha's influence.[NEWLINE][ICON_BULLET]This unit is not an original Keeper and has a [COLOR_HIGHLIGHT_TEXT]50%[COLOR_REVERT] chance to lose a fraction of its powers after death.</Italian>
+		<Spanish>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET]Keeper will be revived in [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] if defeated by a non-Keeper unit and has a [COLOR_HIGHLIGHT_TEXT]%d3%[COLOR_REVERT] chance to spread Noggormotha's influence.[NEWLINE][ICON_BULLET]This unit is not an original Keeper and has a [COLOR_HIGHLIGHT_TEXT]50%[COLOR_REVERT] chance to lose a fraction of its powers after death.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_NOG_PYHELP_PROMOTION_KEEPER_NO_HOME</Tag>
+		<English>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET][COLOR_RED]Keeper will not be revived without a home![COLOR_REVERT]</English>
+		<French>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET][COLOR_RED]Keeper will not be revived without a home![COLOR_REVERT]</French>
+		<German>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET][COLOR_RED]Keeper will not be revived without a home![COLOR_REVERT]</German>
+		<Italian>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET][COLOR_RED]Keeper will not be revived without a home![COLOR_REVERT]</Italian>
+		<Spanish>This unit is a Keeper of Noggormotha.[NEWLINE][ICON_BULLET]Keeper is possessed by [COLOR_HIGHLIGHT_TEXT]%d1[COLOR_REVERT] demonic entities.[NEWLINE][ICON_BULLET]Kill other Keepers to consume their strength.[NEWLINE][COLOR_HIGHLIGHT_TEXT]Eternal Torment[COLOR_REVERT].[NEWLINE][ICON_BULLET]Can only be killed by other Keepers.[NEWLINE][ICON_BULLET][COLOR_RED]Keeper will not be revived without a home![COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_LOCATE_KEEPER_REMAINING_KEEPERS</Tag>
+		<English>%d1 more to go.</English>
+		<French>%d1 more to go.</French>
+		<German>%d1 more to go.</German>
+		<Italian>%d1 more to go.</Italian>
+		<Spanish>%d1 more to go.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_KEEPER_LOST_POWER</Tag>
+		<English>Part of the N&#244;ggormotha's power was lost.</English>
+		<French>Part of the N&#244;ggormotha's power was lost.</French>
+		<German>Part of the N&#244;ggormotha's power was lost.</German>
+		<Italian>Part of the N&#244;ggormotha's power was lost.</Italian>
+		<Spanish>Part of the N&#244;ggormotha's power was lost.</Spanish>
+	</TEXT>
+</Civ4GameText>

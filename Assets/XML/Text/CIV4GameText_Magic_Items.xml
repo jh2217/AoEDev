@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_HEALING_POTION</Tag>
+		<English>Healing Potion</English>
+		<French>Potion de soins</French>
+		<German>Heiltrank</German>
+		<Italian>Healing Potion</Italian>
+		<Spanish>Healing Potion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_NEWTS_DRAUGHT</Tag>
+		<English>Newt's Draught</English>
+		<French>Newt's Draught</French>
+		<German>Trank des Molches</German>
+		<Italian>Newt's Draught</Italian>
+		<Spanish>Newt's Draught</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_HEART_AMULET</Tag>
+		<English>Heart Amulet</English>
+		<French>Amulette de C&#156;ur</French>
+		<German>Amulett des Herzens</German>
+		<Italian>Heart Amulet</Italian>
+		<Spanish>Heart Amulet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_SWIFT_BOOTS</Tag>
+		<English>Swift Boots</English>
+		<French>Bottes de vitesse</French>
+		<German>Siebenmeilenstiefel</German>
+		<Italian>Swift Boots</Italian>
+		<Spanish>Swift Boots</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_TRAVELLERS_CLOAK</Tag>
+		<English>Travellers Cloak</English>
+		<French>Manteau du voyageur</French>
+		<German>Umhang des Reisenden</German>
+		<Italian>Travellers Cloak</Italian>
+		<Spanish>Travellers Cloak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_RING_OF_PERCEPTION</Tag>
+		<English>Ring of Perception</English>
+		<French>Anneau de perception</French>
+		<German>Ring der Wahrnehmung</German>
+		<Italian>Ring of Perception</Italian>
+		<Spanish>Ring of Perception</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_RING_OF_STRIKING</Tag>
+		<English>Ring of Striking</English>
+		<French>Ring of Striking</French>
+		<German>Ring der Wucht</German>
+		<Italian>Ring of Striking</Italian>
+		<Spanish>Ring of Striking</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_COMPELLING_JEWEL</Tag>
+		<English>Compelling Jewel</English>
+		<French>Compelling Jewel</French>
+		<German>Juwel der Vereinnahmung</German>
+		<Italian>Compelling Jewel</Italian>
+		<Spanish>Compelling Jewel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_CURSED_TOKEN_OF_RAGNAROK</Tag>
+		<English>Cursed Token of Ragnarok</English>
+		<French>Cursed Token of Ragnarok</French>
+		<German>Verfluchtes Zeichen Ragnaroks</German>
+		<Italian>Cursed Token of Ragnarok</Italian>
+		<Spanish>Cursed Token of Ragnarok</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_MENACING_HELM</Tag>
+		<English>Menacing Helm</English>
+		<French>Heaume menaçant</French>
+		<German>Helm der Bedrohung</German>
+		<Italian>Menacing Helm</Italian>
+		<Spanish>Menacing Helm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_HAUBERK_OF_ABJURATION</Tag>
+		<English>Hauberk of Abjuration</English>
+		<French>Haubert d'Abjuration</French>
+		<German>Kettenpanzer der Entsagung</German>
+		<Italian>Hauberk of Abjuration</Italian>
+		<Spanish>Hauberk of Abjuration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_HEALING_POTION</Tag>
+		<English>Use Healing Potion</English>
+		<French>Boire une potion de soins</French>
+		<German>Heiltrank schlucken</German>
+		<Italian>Use Healing Potion</Italian>
+		<Spanish>Use Healing Potion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_HEALING_POTION_HELP</Tag>
+		<English>[ICON_BULLET]Completely heals the unit. Can be used till it runs out.</English>
+		<French>[ICON_BULLET]Soigne complètement l'unité. Réutilisable jusqu'à ce que la potion soit vide.</French>
+		<German>[ICON_BULLET]Completely heals the unit. Can be used till it runs out.</German>
+		<Italian>[ICON_BULLET]Completely heals the unit. Can be used till it runs out.</Italian>
+		<Spanish>[ICON_BULLET]Completely heals the unit. Can be used till it runs out.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_NEWTS_DRAUGHT</Tag>
+		<English>Use Newt's Draught</English>
+		<French>Use Newt's Draught</French>
+		<German>Trank des Molches benutzen</German>
+		<Italian>Use Newt's Draught</Italian>
+		<Spanish>Use Newt's Draught</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_ATHAME</Tag>
+		<English>Athame</English>
+		<French>Athame</French>
+		<German>Athame</German>
+		<Italian>Athame</Italian>
+		<Spanish>Athame</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_BLACK_MIRROR</Tag>
+		<English>Black Mirror</English>
+		<French>Black Mirror</French>
+		<German>Schwarzer Spiegel</German>
+		<Italian>Black Mirror</Italian>
+		<Spanish>Black Mirror</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_CROWN_OF_AKHARIEN</Tag>
+		<English>Crown of Akharien</English>
+		<French>Couronne d'Akharien</French>
+		<German>Akhariens Krone</German>
+		<Italian>Crown of Akharien</Italian>
+		<Spanish>Corona de Akharien</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_CROWN_OF_COMMAND</Tag>
+		<English>Crown of Command</English>
+		<French>Couronne de commandement</French>
+		<German>Kommadokrone</German>
+		<Italian>Crown of Command</Italian>
+		<Spanish>Crown of Command</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_DRAGONS_HOARD</Tag>
+		<English>The Dragon's Hoard</English>
+		<French>Amas des Dragons</French>
+		<German>Drachenhort</German>
+		<Italian>The Dragon's Hoard</Italian>
+		<Spanish>El Tesoro del Dragón</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_DRAGONS_HOARD_STRATEGY</Tag>
+		<English>[TAB]This wonder can't be built. It can only be gained by finding the barbarian city where Acheron the Red Dragon lives, killing him, and taking the city.</English>
+		<French>Cette merveille ne peut être construite. Elle ne peut être acquise qu'en trouvant la cité où Acheron le Dragon Rouge vit, en le tuant et en prenant la ville.</French>
+		<German>[TAB]Dieses Wunder kann nicht gebaut werden. Man kann es nur bekommen, wenn man die Barbarenstadt, in der Archeron der rote Drache lebt, findet und einnimmt oder schleift.</German>
+		<Italian>[TAB]This wonder can't be built. It can only be gained by finding the barbarian city where Acheron the Red Dragon lives, killing him, and taking the city.</Italian>
+		<Spanish>[TAB]Esta maravilla no puede ser construida. Sólo se puede conseguir encontrando la ciudad bárbara donde vive Acheron, el Dragón Rojo, matándolo, y capturando la ciudad.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_EMPTY_BIER</Tag>
+		<English>Empty Bier</English>
+		<French>Cercueil Vide</French>
+		<German>Leere Bahre</German>
+		<Italian>Empty Bier</Italian>
+		<Spanish>Ataúd Vacío</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_GELA</Tag>
+		<English>Gela</English>
+		<French>Gela</French>
+		<German>Gela</German>
+		<Italian>Gela</Italian>
+		<Spanish>Gela</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_GODSLAYER</Tag>
+		<English>Godslayer</English>
+		<French>Godslayer</French>
+		<German>Götterschlächter</German>
+		<Italian>Godslayer</Italian>
+		<Spanish>Godslayer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_GOLDEN_HAMMER</Tag>
+		<English>Golden Hammer</English>
+		<French>Marteau doré</French>
+		<German>Goldener Hammer</German>
+		<Italian>Golden Hammer</Italian>
+		<Spanish>Martillo Dorado</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_HEALING_SALVE</Tag>
+		<English>Healing Salve</English>
+		<French>Baume de soins</French>
+		<German>Heilsalbe</German>
+		<Italian>Healing Salve</Italian>
+		<Spanish>Bálsamo de Curación</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PURCHASE_HEALING_SALVE</Tag>
+		<English>Purchase Healing Salve</English>
+		<French>Acheter un baume de soins</French>
+		<German>Kaufe Heilsalbe</German>
+		<Italian>Purchase Healing Salve</Italian>
+		<Spanish>Purchase Healing Salve</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_HEALING_SALVE</Tag>
+		<English>Healing Salve</English>
+		<French>Appliquer un baume de Soins</French>
+		<German>Heilsalbe</German>
+		<Italian>Healing Salve</Italian>
+		<Spanish>Healing Salve</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_HEALING_SALVE_HELP</Tag>
+		<English>[ICON_BULLET]Completely heals the unit</English>
+		<French>[ICON_BULLET]Soigne complètement l'unité</French>
+		<German>[ICON_BULLET]Heilt die Einheit vollständig</German>
+		<Italian>[ICON_BULLET]Completely heals the unit</Italian>
+		<Spanish>[ICON_BULLET]Completely heals the unit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_INFERNAL_GRIMOIRE</Tag>
+		<English>Infernal Grimoire</English>
+		<French>Grimoire Infernal</French>
+		<German>Höllisches Grimoire</German>
+		<Italian>Infernal Grimoire</Italian>
+		<Spanish>Grimorio Infernal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_INFERNAL_GRIMOIRE_PEDIA</Tag>
+		<English>[TAB]Archmage Hairen Carashnel, God-King of the Holy City of Shard, screamed out in pain. What he had given his demonic masters was not enough, not sufficient, and they were taking it out on him. He felt fire coursing through his veins, pain and agony filled his body. Stumbling to the window of his tower, he pulled out the ceremonial dagger in his belt and thrust it into the middle of his palm. He screamed out again, not because of the wound he had made, but because of the pain his masters were causing him. For a moment, he only stared uncomprehending at his hand, not understanding what it meant to see it pierced by the dagger.[PARAGRAPH:1]Then he remembered. Raising his wounded hand, he let the blood drip on the window-sill while he spoke the words the demons had taught him. As the blood began to glow, the pain eased, and Carashnel pulled out the dagger, hurling it towards the city below. The dagger exploded in the air, morphing into a fireball that made the city light up in flames. The mage burst out in laughter as the pain was replaced by a rush of pleasure. Now it was no longer his pain, it was the pain and agony of the people who had worshipped him and trusted him with their lives, and he collapsed to the floor in a helpless fit of laughter as their deaths empowered him.[PARAGRAPH:1]****[PARAGRAPH:1]It had been weeks since Carashnel had last slept or eaten. Ever since the Burning Sacrifice, he had obsessively walked among the corpses of his followers, used his newfound power to make them walk the earth once more. Even his tower was destroyed, so he abandoned the city, taking refuge underground. Now he brought his army of living dead to that cave, one by one taking the remains of their skin and using it to make the pages of a book. The demons granted him power, but soon they would take it from him again, demanding that he slaughter more people in order to keep the infernal gifts. But he would cheat them, he would use the remains of his followers to scribe down the new spells while he still remembered them. Then the magics would always be at his disposal, and could never be taken from him.[PARAGRAPH:1]By the time the adventurers found the cave, the army of living dead had long ago collapsed, now little more than broken skeletons. Archmage Carashnel, on the other hand, was oddly well preserved. The skin on his body had been flayed and woven into a rope that held him suspended from the ceiling, upside down. Had it not been for the untouched face, still bearing a mask of terror and agony, he wouldn't even have been recognizable as a human from all the long spikes thrust into his body. The way he was grasping at the pedestal in front of him suggested there had been something important on it once, but whatever the prized artifact might have been, it was now long gone.</English>
+		<French>L' archimage Hairen Carashnel , Dieu-Roi de la sainte Cité de Shard, hurla de douleur. Ce qu'il avait donné à ses maîtres démoniaques n'était pas assez, pas suffisant et ils étaient en train de l'extraire de lui. Il sentit le feu coulant dans ses veines, la douleur et l'agonie emplissant son corps. Se heurtant à la fenêtre de sa tour, il prit la dague de cérémonie à sa ceinture et sel a planta au milieu de sa paume. Il cria encore, non pas à cause de la blessure qu'il s'était faite mais à cause de la douleur que ses maîtres lui infligeaient. Pendant un moment il regarda sa main, hagard, ne comprenant pas ce que signifiait de la voir percée par la dague.[PARAGRAPH:1]Puis il se souvint. Levant sa main blessée, il laissa le sang tomber goutte à goutte sur le rebord de la fenêtre pendant qu'il récitait les mots que les démons lui avaient appris. Tandis que le sang commença à rougeoyer, la douleur diminua et Carashnel enleva la dague qu'il lança en direction de la cité en dessous. La dague explosa dans les airs, se transformant en une boule de feu qui fit briller la cité maintenant en flammes. Le mage éclata de rire tandis que la douleur était remplacée par une vague de plaisir. Maintenant ce n'était plus sa douleur mais la douleur et l'agonie du peuple qui l'avait adoré, qui avait remis son destin entre ses mains, et il s'évanouit sur le sol dans un accès de rire incontrôlable pendant que leurs morts augmentaient son pouvoir.[PARAGRAPH:1]****[PARAGRAPH:1]Cela faisait des semaines que Carashnel n'avait pas dormi ou mangé. Depuis le Sacrifice Brûlant, il avait marché, obsédé, parmi les corps de ses adeptes, avait utilisé ses nouveaux pouvoirs pour les faire fouler la terre une fois de plus. Même sa tour avait été détruite, il avait donc quitté la ville, cherchant refuge sous terre. Il amena son armée de morts-vivants jusqu'à cette caverne, et un par un il leur prit les restes de leur peau, s'en servant pour en faire les pages d'un livre. Les démons lui avaient offert du pouvoir mais bientôt il le lui reprendrait, exigeant qu'il massacre plus d'hommes pour garder les cadeaux infernaux. Mais il se jouerait d'eux ,il utiliserait les restes de ses serviteurs pour écrire les nouveaux sorts tant qu'il s'en souviendrait encore. Ainsi ces magies seraient toujours à sa disposition et ne pourraient jamais lui être reprises. [PARAGRAPH:1]Lorsque que les aventuriers découvrirent la caverne, l'armée de mort-vivants avait depuis longtemps disparu , n'étant rien de plus désormais que des squelettes brisés. Mais l'Archimage Carashnel était particulièrement bien préservé. Sa peau avait été écorchée et avait été tissée en un vêtement qui le maintenait suspendu au plafond , à l'envers. Sans le visage laissé intact, masque de terreur et d'agonie, on n'aurait pu le reconnaître comme étant humain à cause de longues pointes traversant son corps. La manière dont il s'accrochait au piédestal devant lui suggérait qu'il y avait dû avoir quelque chose d'important dessus , mais quoiqu'ait été le précieux artefact , il avait disparu depuis longtemps.</French>
+		<German>[TAB]Erzmager Hairen Carashnel, Gottkönig der Heiligen Stadt Shard, schrie vor Schmerzen auf. Was er seinen dämonischen Meistern gegeben hatte war nicht genug, nicht zufriedenstellend, und sie ließen das an ihm aus. Er fühlte, wie Feuer durch seine Venen strömte, Schmerz und Qual durchfluteten seinen Körper. Während er zum Fenster seines Turms stolperte, zog er den Zeremoniendolch aus seinem Gürtel und stieß ihn sich direkt in die Mitte seiner Handfläche. Er schrie ein weiteres Mal, nicht wegen der selbst zugefügten Wunde, sondern wegen der Schmerzen, die seine Meister ihn erleiden ließen. Für einen kurzen Moment starrte er verständnislos auf seine Hand, ohne zu begreifen was es bedeutete sie vom Dolch durchbohrt zu sehen.[PARAGRAPH:1]Dann erinnerte er sich. Indem er seine Hand erhob, ließ er das Blut auf den Fenstersims tropfen, während er die Worte sprach, welche die Dämonen ihn gelehrt hatten. Als das Blut anfing zu glühen, ließ der Schmerz nach. Carashnel zog den Dolch aus seiner Hand und warf ihn hinunter in die Stadt. Der Dolch zerbarst in der Luft, verwandelte sich in einen Feuerball, der die Stadt in Brand setzte. Der Magier brach in schallendes Gelächter aus und der Schmerz wurde durch den Rausch der Genugtuung vertrieben. Nun war es nicht länger SEIN Schmerz, es war das qualvolle Leiden jener Menschen, die ihn verehrt und ihm ihre Leben anvertraut hatten; und in einem unkontrollierbaren Lachanfall stürzte er zu Boden während ihre Tode mit neuer Kraft erfüllten.[PARAGRAPH:1]****[PARAGRAPH:1]Es waren Wochen vergangen, Wochen in denen Carashnel nicht gegessen und geschlafen hatte. Seit dem Feueropfer, schritt er wie besessen zwischen den leblosen Körpern seiner Anhänger hin und her, und nutzte seine neuerlangte Kraft um sie einmal mehr auf dieser Erde wandeln zu lasen. Sogar sein Turm war zerstört, deshalb verließ er die Stadt und suchte Zuflucht im Untergrund. Nun brachte er seine Armee der Lebenden Toten zu dieser Höhle, einen nach dem anderen, und er nahm die Überreste ihrer Haut um Seiten für ein Buch zu schaffen. Die Dämonen versorgten ihn mit Macht, bald würden sie ihm ebendiese aber ein weiteres mal entziehen - um ihn dazu zu nötigen, noch mehr Menschen abzuschlachten, damit er seine teuflischen Gaben behalten konnte. Aber er würde sie betrügen, er würde die Überrreste seiner Anhänger dazu verwenden, die neuen Sprüche und Flüche niederzuschreiben, während er sie noch kannte. Dann wäre die ihm Magie für alle Zeit verfügbar und könnte ihm nie wieder genommen werden.[PARAGRAPH:1]Zu der Zeit, als die Abenteurer die Höhle entdeckten, war die Armee der Lebenden Toten schon längst zerfallen, und bestand nun nur aus etwas mehr als zerbrochenen Skeletten. Erzmagier Carashnel aber war auf seltsame Weise gut erhalten. Die Haut die auf seinem Körper sein sollte war abgezogen und in einer Robe verwebt worden, an welcher er kopfüber an der Decke hing. Wenn sein unberührtes Gesicht nicht gewesen wäre - immernoch eine Maske von Terror und Leid tragend - ; er wäre nicht als Mensch zu erkennen gewesen, vor lauter Dornen die in seinen Körper gebohrt worden waren. Die Art und Weise, auf die er nach dem Ständer vor ihm griff, ließ vermuten, dass dort etwas wichtiges gestanden hatte, aber was auch immer das wertvolle Artefakt gewesen sein mag, es war vor langer Zeit verschwunden.</German>
+		<Italian>[TAB]Archmage Hairen Carashnel, God-King of the Holy City of Shard, screamed out in pain. What he had given his demonic masters was not enough, not sufficient, and they were taking it out on him. He felt fire coursing through his veins, pain and agony filled his body. Stumbling to the window of his tower, he pulled out the ceremonial dagger in his belt and thrust it into the middle of his palm. He screamed out again, not because of the wound he had made, but because of the pain his masters were causing him. For a moment, he only stared uncomprehending at his hand, not understanding what it meant to see it pierced by the dagger.[PARAGRAPH:1]Then he remembered. Raising his wounded hand, he let the blood drip on the window-sill while he spoke the words the demons had taught him. As the blood began to glow, the pain eased, and Carashnel pulled out the dagger, hurling it towards the city below. The dagger exploded in the air, morphing into a fireball that made the city light up in flames. The mage burst out in laughter as the pain was replaced by a rush of pleasure. Now it was no longer his pain, it was the pain and agony of the people who had worshipped him and trusted him with their lives, and he collapsed to the floor in a helpless fit of laughter as their deaths empowered him.[PARAGRAPH:1]****[PARAGRAPH:1]It had been weeks since Carashnel had last slept or eaten. Ever since the Burning Sacrifice, he had obsessively walked among the corpses of his followers, used his newfound power to make them walk the earth once more. Even his tower was destroyed, so he abandoned the city, taking refuge underground. Now he brought his army of living dead to that cave, one by one taking the remains of their skin and using it to make the pages of a book. The demons granted him power, but soon they would take it from him again, demanding that he slaughter more people in order to keep the infernal gifts. But he would cheat them, he would use the remains of his followers to scribe down the new spells while he still remembered them. Then the magics would always be at his disposal, and could never be taken from him.[PARAGRAPH:1]By the time the adventurers found the cave, the army of living dead had long ago collapsed, now little more than broken skeletons. Archmage Carashnel, on the other hand, was oddly well preserved. The skin on his body had been flayed and woven into a rope that held him suspended from the ceiling, upside down. Had it not been for the untouched face, still bearing a mask of terror and agony, he wouldn't even have been recognizable as a human from all the long spikes thrust into his body. The way he was grasping at the pedestal in front of him suggested there had been something important on it once, but whatever the prized artifact might have been, it was now long gone.</Italian>
+		<Spanish>[TAB]El Archimago Hairen Carashnel, Rey-Dios de la Ciudad Santa de Shard, lanzó gritos de dolor. Lo que le dio a sus amos demoníacos no fue suficiente, y se estaban encargando de él. Sintió fuego corriendo por sus venas, el dolor y la agonía recorrieron su cuerpo. Dio traspiés hasta la ventana de su torre, sacó la daga ceremonial de su cinturón y sajó en medio de la palma de su mano. Volvió a gritar de dolor, no por la herida que se causó él mismo, sino por el dolor que sus amos le estaban causando. Por un momento, se quedó mirando su mano anonadado, sin entender qué significaba ver su mano herida por la daga.[PARAGRAPH:1]Entonces recordó. Levantando su mano herida, dejó que la sangre goteara sobre el alféizar de su ventana mientras pronunciaba las palabras que los demonios le enseñaron. Tan pronto como la sangré empezó a brillar, el dolor disminuyó, y Carashnel sacó su daga, apuntándola hacia la ciudad de debajo. La daga explotó en el aire, transformándose en una bola de fuego que hizo que la ciudad brillara por las llamas. El magó empezó a reirse a carcajadas cuando el dolor fue reemplazado por una ola de placer. Ahora no era su dolor, era el dolor y la agonía del pueblo que le adoraba y confiaba en él con toda su alma, y él cayó al suelo entre risas mientras sus muertes le fortalecían[PARAGRAPH:1]****[PARAGRAPH:1]Ha pasado semanas desde la última vez que Carashnel durmió o comió. Desde el Sacrificio Ardiente, caminó de forma obsesiva entre los cuerpos de sus seguidores, utilizó su nuevo poder para hacerles caminar por la tierra una vez más. Incluso su torre fue destruida, así que abandonó la ciudad, refugiándose bajo tierra. Ahora que trajo su ejército de muertos vivientes a la cueva, uno por uno cogió los restos de su piel y la utilizó para crear las páginas de un libro. Los demonios le dieron poder, pero pronto volverán de nuevo para quitarselo, demandando que aniquile más gente para mantener sus dones infernales. Pero les engañaría, utilizaría los restos de sus seguidores para inscribir los nuevos conjuros mientras pudiera recordarlos. Entonces esta magia siempre estaría a su disposición, y nunca se le sería arrebatada.[PARAGRAPH:1]Con el tiempo, los aventureros encontraron la cueva, el ejército de muertos vivientes hace tiempo que se colapsó, ahora poco más que esqueletos rotos. El Archimago Carashnel, por otra parte, está sorprendentementewas bien conservado. La piel de su cuerpo había sido desollada y tejida en forma de cuerda que le mantenía suspendido del techo, boca abajo. Su cara no había sido tocada, aún llevando una máscara de terror y agonía, no habría sido reconocible como un humano por las largas púas atravesando su cuerpo. Por la forma en que se aferraba al pedestal de enfrente suyo sugería que había algo importante en él una vez, pero fuera cual fuese el precio que tuviera el artefacto, hace tiempo que se había ido.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_INFERNAL_GRIMOIRE_STRATEGY</Tag>
+		<English>Provides a free tech when built, and can be read by a unit after being picked up for a random spell effect. Some say there is a cost to using the dark tome, but many risk it for the chance at power.</English>
+		<French>Fournit une technologie gratuite. Certains disent qu'il y a un prix à utiliser cet obscur grimoire, mais beaucoup prennent le risque pour le pouvoir.</French>
+		<German>Führt zu einer kostenlosen Technologie und man kann einen zufälligen Zauber daraus Sprechen nachdem man es aufgehoben hat. Manche behaupten, es habe seinen Preis, diesen düsteren Schinken zu studieren, aber für die Aussicht auf Macht gehen viele dieses Risiko ein.</German>
+		<Italian>Provides a free tech when built, and can be read by a unit after being picked up for a random spell effect. Some say there is a cost to using the dark tome, but many risk it for the chance at power.</Italian>
+		<Spanish>Proporciona una tecnología gratis.  Algunos dicen que hay un coste por usar el tomo oscuro, pero muchos se arriesgan por la oportunidad de poder.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_JADE_TORC</Tag>
+		<English>Jade Torc</English>
+		<French>Torque de Jade</French>
+		<German>Jadeamulett</German>
+		<Italian>Jade Torc</Italian>
+		<Spanish>Collar de Jade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_NETHER_BLADE</Tag>
+		<English>Nether Blade</English>
+		<French>Lame des Morts</French>
+		<German>Klinge der Unterwelt</German>
+		<Italian>Nether Blade</Italian>
+		<Spanish>Espada de la Perdición</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_ORTHUSS_AXE</Tag>
+		<English>Orthus's Axe</English>
+		<French>Hache d'Orthus</French>
+		<German>Orthus' Axt</German>
+		<Italian>Orthus's Axe</Italian>
+		<Spanish>Orthus's Axe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_PIECES_OF_BARNAXUS</Tag>
+		<English>Pieces of Barnaxus</English>
+		<French>Morceaux de Barnaxus</French>
+		<German>Teile von Barnaxus</German>
+		<Italian>Pieces of Barnaxus</Italian>
+		<Spanish>Piezas de Barnaxus</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_POTION_OF_INVISIBILITY</Tag>
+		<English>Potion of Invisibility</English>
+		<French>Potion of Invisibility</French>
+		<German>Trank der Unsichtbarkeit</German>
+		<Italian>Potion of Invisibility</Italian>
+		<Spanish>Potion of Invisibility</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_POTION_OF_RESTORATION</Tag>
+		<English>Potion of Restoration</English>
+		<French>Potion of Restoration</French>
+		<German>Trank der Wiederherstellung</German>
+		<Italian>Potion of Restoration</Italian>
+		<Spanish>Potion of Restoration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_ROD_OF_WINDS</Tag>
+		<English>Rod of Winds</English>
+		<French>Baguette des Vents</French>
+		<German>Zepter des Windes</German>
+		<Italian>Rod of Winds</Italian>
+		<Spanish>Varita de los Vietos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_SCORCHED_STAFF</Tag>
+		<English>Scorched Staff</English>
+		<French>Bâton Calciné</French>
+		<German>Versengter Stab</German>
+		<Italian>Scorched Staff</Italian>
+		<Spanish>Scorched Staff</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_STAFF_OF_SOULS</Tag>
+		<English>Staff of Souls</English>
+		<French>Bâton des Âmes</French>
+		<German>Stab der Seelen</German>
+		<Italian>Staff of Souls</Italian>
+		<Spanish>Bastón de las Almas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_SYLIVENS_PERFECT_LYRE</Tag>
+		<English>Syliven's Perfect Lyre</English>
+		<French>Lyre Parfaite de Syliven</French>
+		<German>Sylivens Vollkommene Lyra</German>
+		<Italian>Syliven's Perfect Lyre</Italian>
+		<Spanish>Lira Perfecta de Syliven</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_SYLIVENS_PERFECT_LYRE_PEDIA</Tag>
+		<English>[TAB]The music. It might have lasted for a moment, or perhaps eternity had quietly passed as I stood transfixed at the edge of the forest. When it stopped, I felt my heart ache for the slowly dying beauty. The player, a slight elven lass, surely a princess of an ancient clan, turned to me and smiled. "Milady," I said, "Pray tell me what gift I might give you in return for the song that graced my ears, and what life of service do you ask, that I might chance to hear it again?" She but bid me take her instrument, this bright and perfect lyre, and to bring it here, to play it here that the joy given me might be passed on and peace grow stronger. Or at least that's what I tell people to sell more tickets. -Emmedriys, famed bard of Evermore</English>
+		<French>[TAB]La Musique. Elle ne dura que quelques instants, ou alors une éternité s'était peut-être écoulée discrètement tandis que je restai figé à l'orée des bois. Mais lorsqu'elle s'arrêta, je sentis mon cour pleurer la lente disparition d'une telle beauté. L'interprète, une jeune et frêle elfe, sûrement une princesse d'un clan séculaire, se tourna vers moi et sourit. « Mademoiselle », dis-je, « Je vous prie de me révéler quel présent vous offrir en remerciement de cette chanson qui honora mes oreilles, et quelle vie de service vous requérez pour que je puisse l'ouïr encore ». Elle me pria de prendre possession de son instrument, cette lyre brillante et parfaite, et de l'amener ici, afin de jouer pour propager cette joie et renforcer la paix. Ou du moins est-ce là ce que je dis aux gens pour vendre plus de tickets -- Emmedriys, célèbre barde d'Evermore</French>
+		<German>[TAB]Die Musik, die vielleicht einen Moment oder aber auch ewig spielte, verstummte leise als ich gebannt am Waldrand stand. Als sie aufhörte zu erklingen, fühlte ich angesichts der sterbenden Schönheit einen Stich in meinem Herzen. Die Spielerin, ein zärtliches Elfenmädchen, sicher eine Prinzessin eines alten Stammes, drehte sich lächelnd zu mir. Ich sprach: "Verehrte Dame. Verratet mir, welches Geschenk ich euch im Austausch für das Lied geben darf, welches meine Ohren so verzückte, und welches Versprechen verlangt Ihr dafür, um das Lied erneut zu hören?" Sie forderte mich auf Ihr Instrument zu nehmen, diese prachtvolle und perfekte Leier, um es hier zu tun, um Sie hier zu spielen, auf das die Schönheit ewig anhält und der Frieden stärker wird. Oder wenigstens das ist es, was ich Leuten erzähle um mehr Eintrittskarten zu verkaufen. - Emmedriys, berühmter Barde aus Evermore</German>
+		<Italian>[TAB]The music. It might have lasted for a moment, or perhaps eternity had quietly passed as I stood transfixed at the edge of the forest. When it stopped, I felt my heart ache for the slowly dying beauty. The player, a slight elven lass, surely a princess of an ancient clan, turned to me and smiled. "Milady," I said, "Pray tell me what gift I might give you in return for the song that graced my ears, and what life of service do you ask, that I might chance to hear it again?" She but bid me take her instrument, this bright and perfect lyre, and to bring it here, to play it here that the joy given me might be passed on and peace grow stronger. Or at least that's what I tell people to sell more tickets. -Emmedriys, famed bard of Evermore</Italian>
+		<Spanish>[TAB]La música. Puede durar un momento, o quizás la eternidad ha pasado tranquilamente mientras me quedaba pasmado en las afueras del bosque. Cuando se paró, sentí un dolor en mi corazón por la lenta muerte de la belleza.  El intérprete, una delgada muchacha elfa, seguramente una princesa de un clan ancestral, se giró hacia mí y sonrió. "Mi señora," dije, "Por favor decidme qué regalo podría daros a cambio de la canción con la que honrásteis mis oídos, y qué vida de servicio pedís, por la oportunidad de oirla otra vez?" Ella me ofreció coger su instrumento, esta brillante y perfecta lira, y traerla aquí, para tocarla aquí para que el disfrute entregado a mí pueda ser traspasado y la paz crezca con más fuerza. O al menos eso es lo que le digo a la gente para vender más tickets.  -Emmedriys, célebre bardo de Evermore</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_HEALING_POTION</Tag>
+		<English>Take Healing Potion</English>
+		<French>Prendre une potion de soins</French>
+		<German>Heiltrank aufnehmen</German>
+		<Italian>Take Healing Potion</Italian>
+		<Spanish>Take Healing Potion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_NEWTS_DRAUGHT</Tag>
+		<English>Take Newt's Draught</English>
+		<French>Take Newt's Draught</French>
+		<German>Trank des Molches aufnehmen</German>
+		<Italian>Take Newt's Draught</Italian>
+		<Spanish>Take Newt's Draught</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_HEART_AMULET</Tag>
+		<English>Take Heart Amulet</English>
+		<French>Mettre l'Amulette de C&#156;ur</French>
+		<German>Amulett des Herzens nehmen</German>
+		<Italian>Take Heart Amulet</Italian>
+		<Spanish>Take Heart Amulet</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_SWIFT_BOOTS</Tag>
+		<English>Take Swift Boots</English>
+		<French>Enfiler les bottes de vitesse</French>
+		<German>Siebenmeilenstiefel nehmen</German>
+		<Italian>Take Swift Boots</Italian>
+		<Spanish>Take Swift Boots</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_TRAVELLERS_CLOAK</Tag>
+		<English>Take Travellers Cloak</English>
+		<French>Prendre le manteau du voyageur</French>
+		<German>Umhang des Reisenden nehmen</German>
+		<Italian>Take Travellers Cloak</Italian>
+		<Spanish>Take Travellers Cloak</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_RING_OF_PERCEPTION</Tag>
+		<English>Take Ring of Perception</English>
+		<French>Enfiler l'anneau de perception</French>
+		<German>Ring der Wahrnehmung nehmen</German>
+		<Italian>Take Ring of Perception</Italian>
+		<Spanish>Take Ring of Perception</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_RING_OF_STRIKING</Tag>
+		<English>Take Ring of Striking</English>
+		<French>Take Ring of Striking</French>
+		<German>Ring der Wucht nehmen</German>
+		<Italian>Take Ring of Striking</Italian>
+		<Spanish>Take Ring of Striking</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_COMPELLING_JEWEL</Tag>
+		<English>Take Compelling Jewel</English>
+		<French>Take Compelling Jewel</French>
+		<German>Juwel der Vereinnahmung nehmen</German>
+		<Italian>Take Compelling Jewel</Italian>
+		<Spanish>Take Compelling Jewel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_CURSED_TOKEN_OF_RAGNAROK</Tag>
+		<English>Take Cursed Token of Ragnarok</English>
+		<French>Take Cursed Token of Ragnarok</French>
+		<German>Verfluchtes Zeichen Ragnaroks nehmen</German>
+		<Italian>Take Cursed Token of Ragnarok</Italian>
+		<Spanish>Take Cursed Token of Ragnarok</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_MENACING_HELM</Tag>
+		<English>Take Menacing Helm</English>
+		<French>Take Menacing Helm</French>
+		<German>Helm der Bedrohung nehmen</German>
+		<Italian>Take Menacing Helm</Italian>
+		<Spanish>Take Menacing Helm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_HAUBERK_OF_ABJURATION</Tag>
+		<English>Take Hauberk of Abjuration</English>
+		<French>Enfiler le Haubert d'Abjuration</French>
+		<German>Kettenpanzer der Entsagung</German>
+		<Italian>Take Hauberk of Abjuration</Italian>
+		<Spanish>Take Hauberk of Abjuration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_NEWTS_DRAUGHT_HELP</Tag>
+		<English>[ICON_BULLET]When drunk this potion restores your ability to cast spells.</English>
+		<French>[ICON_BULLET]Boire cette potion vous permet de relancer un sort.</French>
+		<German>[ICON_BULLET]Dieser Trunk stellt die Fähigkeit zu Zaubern wieder her.</German>
+		<Italian>[ICON_BULLET]When drunk this potion restores your ability to cast spells.</Italian>
+		<Spanish>[ICON_BULLET]When drunk this potion restores your ability to cast spells.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_BAIR_GEM_ACTIVE</Tag>
+		<English>Teleportation Stone (Active)</English>
+		<French>Pierre de Téléportation (Chargée)</French>
+		<German>Teleportation Stone (Active)</German>
+		<Italian>Teleportation Stone (Active)</Italian>
+		<Spanish>Teleportation Stone (Active)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EQUIPMENT_BAIR_GEM_RECHARGING</Tag>
+		<English>Teleportation Stone (Recharging)</English>
+		<French>Pierre de Téléportation (En charge)</French>
+		<German>Teleportation Stone (Recharging)</German>
+		<Italian>Teleportation Stone (Recharging)</Italian>
+		<Spanish>Teleportation Stone (Recharging)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_BAIR_GEM</Tag>
+		<English>Touch Teleportation Stone</English>
+		<French>Toucher la Pierre de Téléportation</French>
+		<German>Touch Teleportation Stone</German>
+		<Italian>Touch Teleportation Stone</Italian>
+		<Spanish>Touch Teleportation Stone</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_BAIR_GEM_ACTIVE</Tag>
+		<English>Take Teleportation Stone (Active)</English>
+		<French>Ramasser la Pierre de Téléportation (Chargée)</French>
+		<German>Take Teleportation Stone (Active)</German>
+		<Italian>Take Teleportation Stone (Active)</Italian>
+		<Spanish>Take Teleportation Stone (Active)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TAKE_BAIR_GEM_RECHARGING</Tag>
+		<English>Take Teleportation Stone (Recharging)</English>
+		<French>Ramasser la Pierre de Téléportation (En charge)</French>
+		<German>Take Teleportation Stone (Recharging)</German>
+		<Italian>Take Teleportation Stone (Recharging)</Italian>
+		<Spanish>Take Teleportation Stone (Recharging)</Spanish>
+	</TEXT>
+</Civ4GameText>

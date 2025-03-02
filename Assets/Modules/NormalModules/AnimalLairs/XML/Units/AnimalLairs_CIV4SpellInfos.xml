@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:AnimalLairs_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+		<SpellInfo>			<!-- Convert animal lair -->
+			<Type>SPELL_PACIFIC_COHABITATION</Type>
+			<Description>TXT_KEY_SPELL_PACIFIC_COHABITATION</Description>
+			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
+			<Help>TXT_KEY_SPELL_PACIFIC_COHABITATION_HELP</Help>
+			<UnitCombatPrereq>UNITCOMBAT_RECON</UnitCombatPrereq>
+			<CivilizationPrereq>CIVILIZATION_DOVIELLO</CivilizationPrereq>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>50</iAIWeight>
+			<iCasterMinLevel>5</iCasterMinLevel>
+			<bHasCasted>1</bHasCasted>
+			<iDelay>3</iDelay>
+			<PyResult>spellConvertLairDoviello(pCaster)</PyResult>
+			<PyRequirement>reqConvertLairDovielloAL(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_CHARM_PERSON</Sound>
+			<Button>Art/Interface/Buttons/Spells/Mezmerize Animal.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Consume Blood - Wyrm -->
+			<Type>SPELL_CONSUME_BLOOD_WYRM</Type>
+			<Description>TXT_KEY_SPELL_CONSUME_BLOOD_WYRM</Description>
+			<PromotionPrereq1>PROMOTION_WYRM_BLOOD</PromotionPrereq1>
+			<PromotionPrereq2>PROMOTION_TAME</PromotionPrereq2>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>100</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_WYRM_BLOOD</AddPromotion>
+			</AddPromotions>
+			<bImmuneNeutral>1</bImmuneNeutral>
+			<bImmuneEnemy>1</bImmuneEnemy>
+			<bSacrificeCaster>1</bSacrificeCaster>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_BRAWL</Sound>
+			<Button>Art/Interface/Buttons/Units/wyrm.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Consume Blood - Serpent -->
+			<Type>SPELL_CONSUME_BLOOD_SERPENT</Type>
+			<Description>TXT_KEY_SPELL_CONSUME_BLOOD_SERPENT</Description>
+			<PromotionPrereq1>PROMOTION_SERPENT_BLOOD</PromotionPrereq1>
+			<PromotionPrereq2>PROMOTION_TAME</PromotionPrereq2>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>100</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_SERPENT_BLOOD</AddPromotion>
+			</AddPromotions>
+			<bImmuneNeutral>1</bImmuneNeutral>
+			<bImmuneEnemy>1</bImmuneEnemy>
+			<bSacrificeCaster>1</bSacrificeCaster>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_BRAWL</Sound>
+			<Button>Art/Modules/AnimalLairs/Buttons/SeaSerpent.dds</Button>
+		</SpellInfo>
+	</SpellInfos>
+</Civ4SpellInfos>

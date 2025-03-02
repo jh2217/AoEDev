@@ -1,0 +1,48 @@
+[name]
+NewTraits
+
+[version]
+1.1
+
+[rifeversion]
+364
+
+[author]
+wuxiangjinxing
+
+[desc]
+Some new traits for leaders and civilizations:
+
+Great Leader(Sabathiel): 
+	Creating one melee follower (warrior/axeman/phalanx) after conquering a city.  Follower type dependent on metal-working technique level.
+	
+Diverse(Grigori): 
+	Units have a 40% chance to be borned with a random race.
+	
+Redeeming(Elohim):
+	Defeating units of evil leaders can trigger golden age.
+	
+Destiny(Decius):
+	Decius gets one new trait depending on his alignment.
+	If he is evil, he gets Ursurper: can get traits (aggressive, industrial, etc.) from enemy leaders when conquesting other civilizations.
+	If he is good, he gets Exonerator: can convert all remaining units of the conquered civilization.
+	If he is neutral, he gets Abider: all units get one free promotion after conquering a civilization
+	
+Grand Marshall(Decius):
+	Create one great commander when building your capital.
+	Military units automatically get commanding-chain promotions.
+	Free command post in each city.
+	
+Return of Winter(Braedon the Laconic):
+	Cities become colder when the cultural border expands.
+	
+Thousands Faces(Furia):
+	Military units mutated.
+
+Caretaker(Zaria):
+	Upgradable as an emergent trait.
+	
+Puppeteer(Melisandre):
+	Convert defeated enemy units to puppets.
+
+;[compatible]

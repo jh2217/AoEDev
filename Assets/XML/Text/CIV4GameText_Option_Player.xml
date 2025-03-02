@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_DISABLE_HIGH_RES_HELP</Tag>
+		<English>Disable the high resolution interface</English>
+		<French>Désactiver l'interface haute résolution</French>
+		<German>Hochauflösendes Interface abschalten</German>
+		<Italian>Disable the high resolution interface</Italian>
+		<Spanish>Disable the high resolution interface</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_DISABLE_HIGH_RES_MODDER_2</Tag>
+		<English>Disable the high resolution interface</English>
+		<French>Désactiver l'interface haute résolution</French>
+		<German>Hochauflösendes Interface abschalten</German>
+		<Italian>Disable the high resolution interface</Italian>
+		<Spanish>Disable the high resolution interface</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYEROPTION_EVENTS_SHOW_BLOCKED_ANSWERS</Tag>
+		<English>Events - show blocked answers</English>
+		<French>Événements - montrer les réponses bloquées</French>
+		<German>Events - show blocked answers</German>
+		<Italian>Events - show blocked answers</Italian>
+		<Spanish>Events - show blocked answers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYEROPTION_EVENTS_SHOW_BLOCKED_ANSWERS_HELP</Tag>
+		<English>You'll see options, even if they're not available to you.</English>
+		<French>Vous verrez toutes les réponses possibles lors d'évènements, même lorsqu'elles ne vous sont pas accessibles.</French>
+		<German>You'll see options, even if they're not available to you.</German>
+		<Italian>You'll see options, even if they're not available to you.</Italian>
+		<Spanish>You'll see options, even if they're not available to you.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_NO_FORTS</Tag>
+		<English>Automated Workers Will Not Construct Forts</English>
+		<French>Les ouvriers automatisés ne construiront pas de forts</French>
+		<German>Automatisierte Arbeiter errichten keine Forts</German>
+		<Italian>Automated Workers Will Not Construct Forts</Italian>
+		<Spanish>Automated Workers Will Not Construct Forts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PLAYER_OPTION_NO_FORTS_HELP</Tag>
+		<English>Automated Workers will be unable to construct Forts.</English>
+		<French>Ouvriers automatisés - ne pas construire de forts</French>
+		<German>Automatisierte Arbeiter sind nicht in der Lage, Forts zu errichten.</German>
+		<Italian>Automated Workers will be unable to construct Forts.</Italian>
+		<Spanish>Automated Workers will be unable to construct Forts.</Spanish>
+	</TEXT>
+</Civ4GameText>

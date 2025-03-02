@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_DEVELOP_SECRET_CODES</Tag>
+		<English>Develop Secret Codes: Members can only trade technologies with other members, every member receives a free Great Sage if they can pay 25[ICON_GOLD]</English>
+		<French>Développer des Codes Secrets[NEWLINE][ICON_BULLET]Les membres ne peuvent échanger leurs technologies qu'avec les autres membres.[NEWLINE][ICON_BULLET]Un Sage illustre est fourni à tout membre qui paie 25[ICON_GOLD]</French>
+		<German>Geheimcode entwickeln - Mitglieder können Technologien nur zwischen Mitgliedern tauschen, jedes Mitglied das 25[ICON_GOLD] Zahlt bekommt einen freien großen Forscher</German>
+		<Italian>Develop Secret Codes: Members can only trade technologies with other members, every member receives a free Great Sage if they can pay 25[ICON_GOLD]</Italian>
+		<Spanish>Develop Secret Codes: Members can only trade technologies with other members, every member receives a free Great Sage if they can pay 25[ICON_GOLD]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_ENLIST_THE_NIGHTWATCH</Tag>
+		<English>Enlist the Nightwatch: A Nightwatch unit is provided to every member who pays 25[ICON_GOLD]</English>
+		<French>Enrôler la Garde de Nuit - Un Garde de Nuit est fourni à tout membre qui paie 25[ICON_GOLD]</French>
+		<German>Nachtwache anwerben - Jedes Mitglied das 25[ICON_GOLD] Zahlt bekommt eine Nachtwache</German>
+		<Italian>Enlist the Nightwatch: A Nightwatch unit is provided to every member who pays 25[ICON_GOLD]</Italian>
+		<Spanish>Enlist the Nightwatch: A Nightwatch unit is provided to every member who pays 25[ICON_GOLD]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_FORCE_NO_TRADE</Tag>
+		<English>Trade Embargo</English>
+		<French>Embargo commercial</French>
+		<German>Handelsembargo</German>
+		<Italian>Embargo commerciale</Italian>
+		<Spanish>Embargo comercial</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_FREE_TRADE</Tag>
+		<English>Open Markets: Trade Routes ([ICON_TRADE]) with all foreign cities</English>
+		<French>Marchés Ouverts - Routes Commerciales ([ICON_TRADE]) avec Toutes les Villes Etrangères</French>
+		<German>Offene Märkte - Handelswege ([ICON_TRADE]) zu allen fremden Städten</German>
+		<Italian>Open Markets: Trade Routes ([ICON_TRADE]) with all foreign cities</Italian>
+		<Spanish>Open Markets: Trade Routes ([ICON_TRADE]) with all foreign cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_FUND_DISSIDENTS</Tag>
+		<English>Fund Dissidents: Could cause unhappiness in the cities of non-Undercouncil members</English>
+		<French>Fomenter des Troubles - Peut causer du mécontentement dans les villes des non-Membres du Conseil Souterrain</French>
+		<German>Dissidenten unterstützen - Kann Unzufriedenheit in Städten von nicht-Ratsmitgliedern verursachen</German>
+		<Italian>Fund Dissidents: Could cause unhappiness in the cities of non-Undercouncil members</Italian>
+		<Spanish>Fund Dissidents: Could cause unhappiness in the cities of non-Undercouncil members</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_GAMBLING_RING</Tag>
+		<English>Setup a Gambling Ring: Reduces the production cost of Gambling Houses by 75%, increases global crime by 5%</English>
+		<French>Intaller un Cercle de Jeu - Réduit le coût de production des Maisons de Jeu de 75%, augmente le crime global de 5%</French>
+		<German>Glücksspielerring aufbauen - Reduziert die Produktionskosten von Glücksspielhäusern um 75%, erhöht die weltweite Verbrechenrate um 5%</German>
+		<Italian>Setup a Gambling Ring: Reduces the production cost of Gambling Houses by 75%, increases global crime by 5%</Italian>
+		<Spanish>Setup a Gambling Ring: Reduces the production cost of Gambling Houses by 75%, increases global crime by 5%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_LIBERTY</Tag>
+		<English>Global Civic: Liberty</English>
+		<French>Doctrine Mondiale - Liberté</French>
+		<German>Einheitliche Gesellschaftsform - Hochkultur</German>
+		<Italian>Global Civic: Liberty</Italian>
+		<Spanish>Global Civic: Liberty</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_NO_DEATH_MANA</Tag>
+		<English>Outlaw Death Mana</English>
+		<French>Déclarer la Mana de Mort Hors-la-Loi</French>
+		<German>Todesmana ächten</German>
+		<Italian>Outlaw Death Mana</Italian>
+		<Spanish>Outlaw Death Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_NO_ENTROPY_MANA</Tag>
+		<English>Outlaw Entropy Mana</English>
+		<French>Déclarer la Mana d'Entropie Hors-la-Loi</French>
+		<German>Entropiemana ächten</German>
+		<Italian>Outlaw Entropy Mana</Italian>
+		<Spanish>Outlaw Entropy Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_NO_SHADOW_MANA</Tag>
+		<English>Outlaw Shadow Mana</English>
+		<French>Déclarer la Mana d'Ombre Hors-la-Loi</French>
+		<German>Schattenmana ächten</German>
+		<Italian>Outlaw Shadow Mana</Italian>
+		<Spanish>Outlaw Shadow Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_OPEN_BORDERS</Tag>
+		<English>Force Open Borders between all members</English>
+		<French>Forcer les Libre Passage entre tous les Membres</French>
+		<German>Offene Grenzen erzwingen zwischen allen Ratsmitgliedern</German>
+		<Italian>Force Open Borders between all members</Italian>
+		<Spanish>Force Open Borders between all members</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_SECRETARY_GENERAL</Tag>
+		<English>Elect a Head Councilor-Can propose resolutions</English>
+		<French>Élire un Haut Conseiller - Peut proposer des résolutions</French>
+		<German>Ratsvorsitzenden Wählen - Kann Resolutionen Vorschlagen</German>
+		<Italian>Elect a Head Councilor-Can propose resolutions</Italian>
+		<Spanish>Elect a Head Councilor-Can propose resolutions</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_SINGLE_CURRENCY</Tag>
+		<English>Single Currency: +1 Trade Route ([ICON_TRADE]) in all cities</English>
+		<French>Monnaie Unique - +1 Route Commerciale ([ICON_TRADE]) dans toutes les Villes</French>
+		<German>Einheitwährung - +1 Handelsweg ([ICON_TRADE]) in alle Städte</German>
+		<Italian>Single Currency: +1 Trade Route ([ICON_TRADE]) in all cities</Italian>
+		<Spanish>Single Currency: +1 Trade Route ([ICON_TRADE]) in all cities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_SLAVE_TRADE</Tag>
+		<English>Setup Slave Trade: Members can buy and sell slaves, increase global crime by 5%</English>
+		<French>Installer le marché aux esclaves -les Membres peuvent acheter et vendre des esclaves, augmente le crime global de 5%</French>
+		<German>Sklavenhandel aufbauen - Mitglieder können Sklaven kaufen und verkaufen, erhöht die weltweite Verbrechenrate um 5%</German>
+		<Italian>Setup Slave Trade: Members can buy and sell slaves, increase global crime by 5%</Italian>
+		<Spanish>Setup Slave Trade: Members can buy and sell slaves, increase global crime by 5%</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_VOTE_SMUGGLING_RING</Tag>
+		<English>Setup Smuggling Ring: +1 Trade Route ([ICON_TRADE]) in all cities, enables the Smugglers' Port building, increases global crime by 5%</English>
+		<French>Installer un Cercle de Contrebande - +1 Route Commerciale ([ICON_TRADE]) dans Toutes les Villes, Permet la construction du Port de Contrebandiers, augmente le crime global de 5%</French>
+		<German>Schmugglering aufbauen - +1 Handelsweg ([ICON_TRADE]) in alle Städte, schaltet das Gebäude Schmugglerhafen frei, erhöht die weltweite Verbrechenrate um 5%</German>
+		<Italian>Setup Smuggling Ring: +1 Trade Route ([ICON_TRADE]) in all cities, enables the Smugglers' Port building, increases global crime by 5%</Italian>
+		<Spanish>Setup Smuggling Ring: +1 Trade Route ([ICON_TRADE]) in all cities, enables the Smugglers' Port building, increases global crime by 5%</Spanish>
+	</TEXT>
+</Civ4GameText>

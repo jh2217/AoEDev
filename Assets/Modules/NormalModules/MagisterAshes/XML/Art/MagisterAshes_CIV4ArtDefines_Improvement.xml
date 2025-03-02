@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Unit art path information -->
+<Civ4ArtDefines xmlns="x-schema:MagisterAshes_CIV4ArtDefinesSchema.xml">
+	<ImprovementArtInfos>
+	<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_ABADDONS_PIT</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>0.22</fScale>
+			<fInterfaceScale>0.2</fInterfaceScale>
+			<NIF>Art/Modules/MagisterAshes/Improvements/AbaddonsPit/AbaddonsPit.nif</NIF>
+			<KFM/>
+			<Button>Art/Modules/MagisterAshes/Buttons/AbaddonsPit.dds</Button>
+		</ImprovementArtInfo>
+			<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_BADBS_BLIZZARD</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>.60</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<NIF>Art/Modules/MagisterAshes/Improvements/BadbsBlizzard/BadbsBlizzard.nif</NIF>
+			<KFM/>
+			<Button>Art/Modules/MagisterAshes/Buttons/BadbsBlizzard.dds</Button>
+		</ImprovementArtInfo>
+<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_GRAVE_OF_ASMODAY</Type>
+			<bExtraAnimations>1</bExtraAnimations>
+			<fScale>27</fScale>
+			<fInterfaceScale>0.4</fInterfaceScale>
+			<NIF>Art/Modules/MagisterAshes/Improvements/AsmodayGrave/AsmodayGrave.NIF</NIF>
+			<KFM/>
+			<Button>Art/Modules/MagisterAshes/Buttons/Asmoday.dds</Button>
+		</ImprovementArtInfo>
+			<ImprovementArtInfo>
+			<Type>ART_DEF_WHISPERING_WOOD</Type>
+			<bExtraAnimations>1</bExtraAnimations>
+			<fScale>2.5</fScale>
+			<fInterfaceScale>.37</fInterfaceScale>
+			<NIF>Art/Modules/MagisterAshes/Improvements/WhisperingWoods/hauntedland.nif</NIF>
+			<KFM/>
+			<Button>Art/Interface/Buttons/terrainfeatures/marsh.dds</Button>
+		</ImprovementArtInfo>
+	
+	</ImprovementArtInfos>
+</Civ4ArtDefines>

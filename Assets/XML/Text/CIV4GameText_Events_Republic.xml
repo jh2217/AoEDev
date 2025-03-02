@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<!--Aide sur la doctrine-->
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_REPUBLIC_HELP</Tag>
+		<English>[ICON_BULLET]Elections take place periodically, offering a chance of bonus traits and other benefits</English>
+		<French>[ICON_BULLET]Des élections ont lieu périodiquement, vous conférant une chance d'obtenir des traits de caractère bonus ou d'autres bénéfices.</French>
+		<German>[ICON_BULLET]Wahlen treten periodisch auf und bieten die Aussicht auf Bonusmerkmale und andere Vorteile.</German>
+		<Italian>[ICON_BULLET]Elections take place periodically, offering a chance of bonus traits and other benefits</Italian>
+		<Spanish>[ICON_BULLET]Elections take place periodically, offering a chance of bonus traits and other benefits</Spanish>
+	</TEXT>
+	<!--HAWK vs DOVE -->
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_HAWK_VS_DOVE</Tag>
+		<English>As the election grows near disputes have broken out in the Senate. One group favours an aggressive foreign policy and suggests war against old rivals. The other advocates a more diplomatic approach and concentration of forces for defense only. Whichever side gains the most support will shape the senate for the coming term.</English>
+		<French>À l'approche des élections, des débats font rage au Sénat. Un des groupes prône une politique étrangère agressive and suggère que nous déclarions la guerre à nos vieux rivaux. Les autres sont plus favorables à une approche diplomatique, et à une force militaire uniquement défensive. Le groupe qui sera le plus soutenu aura la majorité au Sénat pour le prochain mandat.</French>
+		<German>In der Zeit, da die Wahlen näherrücken, brechen im Senat Streitereien aus. Eine Gruppierung fordert eine aggressive Außenpolitik und Krieg gegen die alten Rivalen. Die Sprecher der anderen Seite propagieren eine etwas diplomatischere Herangehensweise und verlangen nur die Stärkung der Verteidigungskräfte. Die Seite, die den größten Zuspruch Eurerseits erfährt, wird den Senat für den kommenden Wahlturnus stellen.</German>
+		<Italian>As the election grows near disputes have broken out in the Senate. One group favours an aggressive foreign policy and suggests war against old rivals. The other advocates a more diplomatic approach and concentration of forces for defense only. Whichever side gains the most support will shape the senate for the coming term.</Italian>
+		<Spanish>As the election grows near disputes have broken out in the Senate. One group favours an aggressive foreign policy and suggests war against old rivals. The other advocates a more diplomatic approach and concentration of forces for defense only. Whichever side gains the most support will shape the senate for the coming term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_HAWK_VS_DOVE</Tag>
+		<English>'Let the people decide what is worth fighting for.'</English>
+		<French>'Laissons le peuple décider de ce qui vaut la peine de se battre.'</French>
+		<German>'Lasst das Volk entscheiden, wofür es bereit ist, zu kämpfen!'</German>
+		<Italian>'Let the people decide what is worth fighting for.'</Italian>
+		<Spanish>'Let the people decide what is worth fighting for.'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_DOVE</Tag>
+		<English>[ICON_BULLET]50% chance to gain Defender trait for the following election term.</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir le trait Défenseur pour le prochain mandat.</French>
+		<German>[ICON_BULLET]50% Chance, das Merkmal 'Defensiv' für den nächsten Wahlturnus zu erhalten.</German>
+		<Italian>[ICON_BULLET]50% chance to gain Defender trait for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]50% chance to gain Defender trait for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_DOVE_ALREADY_DEFENSIVE</Tag>
+		<English>[ICON_BULLET]50% chance for +3 Diplomatic Relations with all nations over the coming election term.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir un bonus de +3 aux Relations Diplomatiques avec toutes les nations pour le prochain mandat.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance auf +3 Diplomatische Beziehungen mit allen anderen Völkern während des nächsten Wahlturnus.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance for +3 Diplomatic Relations with all nations over the coming election term.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance for +3 Diplomatic Relations with all nations over the coming election term.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_HAWK</Tag>
+		<English>[ICON_BULLET]50% chance to gain Aggressive trait for the following election term.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir le trait Aggressif pour le prochain mandat.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, das Merkmal 'Aggresiv' für den nächsten Wahlturnus zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to gain Aggressive trait for the following election term.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to gain Aggressive trait for the following election term.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_HAWK_ALREADY_AGGRESSIVE</Tag>
+		<English>[ICON_BULLET]50% chance to gain a Great Commander.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir un Général Illustre.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, einen Genialen Feldherren zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to gain a Great Commander.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to gain a Great Commander.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_DOVE</Tag>
+		<English>'The world is violent enough - surely the solution cannot be more warfare. Give peace a chance.'</English>
+		<French>'Le monde est suffisemment violent. La solution ne peut être encore plus guerrière. Donnons une chance à la paix!'</French>
+		<German>'Die Welt ist voll von Gewalt - die Lösung wird sicherlich nicht durch mehr davon herbeigeführt werden. Gebt dem Frieden eine Chance!'</German>
+		<Italian>'The world is violent enough - surely the solution cannot be more warfare. Give peace a chance.'</Italian>
+		<Spanish>'The world is violent enough - surely the solution cannot be more warfare. Give peace a chance.'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_DOVE</Tag>
+		<English>[ICON_BULLET]80% chance to gain Defender trait for the following election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir le trait Défenseur pour le prochain mandat.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, das Merkmal 'Defensiv' für den nächsten Wahlturnus zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to gain Defender trait for the following election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to gain Defender trait for the following election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_DOVE_ALREADY_DEFENSIVE</Tag>
+		<English>[ICON_BULLET]80% chance for +3 Diplomatic Relations with all nations over the coming election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir un bonus de +3 aux relations Diplomatiques avec toutes les nations jusqu'aux prochaines élections.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance auf +3 Diplomatische Beziehungen mit allen anderen Völkern während des nächsten Wahlturnus.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance for +3 Diplomatic Relations with all nations over the coming election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance for +3 Diplomatic Relations with all nations over the coming election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_HAWK</Tag>
+		<English>'This is hardly the time for soft words, we must respond with action. If war is needed, then war we shall have!'</English>
+		<French>'Il n'est plus temps de se contenter des mots, nous devons agir. Q'il doit y avoir la guerre, alors guerre il y aura!'</French>
+		<German>'Das ist kaum die Zeit für nette Worte, wir müssen mit aller Gewalt dagegen halten. Wenn Krieg notwendig ist, dann soll es Krieg geben!'</German>
+		<Italian>'This is hardly the time for soft words, we must respond with action. If war is needed, then war we shall have!'</Italian>
+		<Spanish>'This is hardly the time for soft words, we must respond with action. If war is needed, then war we shall have!'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_HAWK</Tag>
+		<English>[ICON_BULLET]80% chance to gain Aggressive trait for the following election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir le trait Aggressif pour ce mandat.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, das Merkmal 'Aggresiv' für den nächsten Wahlturnus zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to gain Aggressive trait for the following election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to gain Aggressive trait for the following election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_HAWK_ALREADY_AGGRESSIVE</Tag>
+		<English>[ICON_BULLET]80% chance to gain a Great Commander.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir un Général Illustre.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, einen Genialen Feldherren zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to gain a Great Commander.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to gain a Great Commander.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_DOVE_WINS</Tag>
+		<English>The people do not wish for our forces to be wasted fighting wars abroad. The senate draws up plans to improve our home defense instead. [Gained Defender Trait for this election term]</English>
+		<French>Le peuple ne souhaite pas voir nos forces gâchées dans des guerres à l'étranger. Le Sénat imagine plutôt des plans pour défendre nos foyers. [Obtention du trait Défenseur pour ce mandat]</French>
+		<German>Das Volk ist dagegen, unsere Truppen in weit entfernten Kriegen verschwendet zu sehen. Der Senat hat daher Pläne ins Leben gerufen, statt dessen die Verteidigung der eigenen Heimat in den Vordergrund zu stellen. [Das Merkmal 'Defensiv' für den nächsten Wahlturnus erhalten.]</German>
+		<Italian>The people do not wish for our forces to be wasted fighting wars abroad. The senate draws up plans to improve our home defense instead. [Gained Defender Trait for this election term]</Italian>
+		<Spanish>The people do not wish for our forces to be wasted fighting wars abroad. The senate draws up plans to improve our home defense instead. [Gained Defender Trait for this election term]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_DOVE_WINS_ALREADY_DEFENSIVE</Tag>
+		<English>The people tire of bloodshed and the senate pursues diplomatic means to resolve our national disputes [Temporary bonus of +3 Diplomatic Relations with all nations]</English>
+		<French>Le peuple est fatigué de tout ce sang et le Sénat cherche une voie diplomatique pour régler nos différents avec les autres Nations [Bonus temporaire de +3 aux Relations Diplomatiques avec toutes les nations]</French>
+		<German>Das Volk ist des Blutvergießens müde. Der Senat strebt diplomatische Wege an, unsere nationalen Streitigkeiten beizulegen. [Vorübergehender +3 Bonus auf diplomatische Beziehungen mit allen anderen Völkern]</German>
+		<Italian>The people tire of bloodshed and the senate pursues diplomatic means to resolve our national disputes [Temporary bonus of +3 Diplomatic Relations with all nations]</Italian>
+		<Spanish>The people tire of bloodshed and the senate pursues diplomatic means to resolve our national disputes [Temporary bonus of +3 Diplomatic Relations with all nations]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HAWK_WINS</Tag>
+		<English>The people have chosen to follow those who took an aggressive stance in the debate. Perhaps this would be a good time to capitalize on their desire for war. [Gained Aggressive for this election term]</English>
+		<French>Le peuple a choisi de suivre la voie des aggressifs dans le débat. C'est peut être un bon moment pour exploiter leur désir de guerre. [Vous obtenez le trait Aggressif pour ce mandat]</French>
+		<German>Das Volk hat beschlossen, sich auf die Seite derer zu stellen, die in der Debatte ein aggressives Vorgehen an den Tag legten. Das wäre bestimmt ein guter Zeitpunkt, daraus Kapital zu schlagen und ihr Verlangen nach Konflikt und Krieg zu befriedigen. [Das Merkmal 'Aggressiv' für den nächsten Wahlturnus erhalten.]</German>
+		<Italian>The people have chosen to follow those who took an aggressive stance in the debate. Perhaps this would be a good time to capitalize on their desire for war. [Gained Aggressive for this election term]</Italian>
+		<Spanish>The people have chosen to follow those who took an aggressive stance in the debate. Perhaps this would be a good time to capitalize on their desire for war. [Gained Aggressive for this election term]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HAWK_WINS_ALREADY_AGGRESSIVE</Tag>
+		<English>Your people have long known the value of war, but one senator argued with a passion beyond the norm. You invite him to speak with you privately and find he has great potential as a Commander.</English>
+		<French>Votre peuple connait depuis longtemps la valeur de la guerre, mais un sénateur a fait preuve d'une fougue inhabituelle. Vosu l'invitez à discuter en privé, et découvrez en lui un grand potentiel en tant que Général.</French>
+		<German>Euer Volk kennt seit langem den Wert des Krieges, doch ein Senator hat alle anderen mit einer besonderen Inbrunst mitgerissen. Ihr ladet ihn zu einem persönlichen Gespräch und erkennt in ihm ein großes Potential zum Herrführer.</German>
+		<Italian>Your people have long known the value of war, but one senator argued with a passion beyond the norm. You invite him to speak with you privately and find he has great potential as a Commander.</Italian>
+		<Spanish>Your people have long known the value of war, but one senator argued with a passion beyond the norm. You invite him to speak with you privately and find he has great potential as a Commander.</Spanish>
+	</TEXT>
+	<!--LANDOWNER vs PEASANTS-->
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_LANDOWNER_VS_PEASANTS</Tag>
+		<English>Some areas of the republic are close to revolt due to disputes between wealthy landowners and the poorer populace that live on their lands. The landowners seek more money from the peasants, but they can ill afford to pay. As the election approaches, this is sure to be a topic in the debates.</English>
+		<French>Certaines régions de la République sont proches de la révolte à cause des désaccords entre les riches propriétaires terriens et les plus pauvres gens habitant sur leurs terres. Les propriétaires cherchent à obtenir plus d'argent des paysans, mais ceux-ci peuvent à peine payer. À l'approche des élections, cette problématique fera sûrement partie des débats.</French>
+		<German>In einigen Gebiete der Republik drohen ernstzunehmende Unruhen zwischen wohlhabenden Landbezitzern und den ärmeren Bewohnern ihrer Ländereien. Die Grundbesitzer verlangen mehr Geld von den Bauern, was diese sich kaum leisten können. Jetzt, da die Wahlen näherrücken, wird dies mit Sicherheit ein Thema im Wahlkampf sein.</German>
+		<Italian>Some areas of the republic are close to revolt due to disputes between wealthy landowners and the poorer populace that live on their lands. The landowners seek more money from the peasants, but they can ill afford to pay. As the election approaches, this is sure to be a topic in the debates.</Italian>
+		<Spanish>Some areas of the republic are close to revolt due to disputes between wealthy landowners and the poorer populace that live on their lands. The landowners seek more money from the peasants, but they can ill afford to pay. As the election approaches, this is sure to be a topic in the debates.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_LANDOWNER_VS_PEASANT</Tag>
+		<English>'Let the votes reflect the will of the majority.'</English>
+		<French>'Laissons les votes refléter les choix de la majorité.'</French>
+		<German>'Die Stimmen geben den Willen der Mehrheit wider.'</German>
+		<Italian>'Let the votes reflect the will of the majority.'</Italian>
+		<Spanish>'Let the votes reflect the will of the majority.'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_LANDOWNER</Tag>
+		<English>[ICON_BULLET]50% chance to gain Financial trait for the following election term.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir le trait Financier pour le prochain mandat.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, das Merkmal 'Finanzorientiert' für den nächsten Wahlturnus zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to gain Financial trait for the following election term.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to gain Financial trait for the following election term.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_LANDOWNER_ALREADY_FINANCIAL</Tag>
+		<English>[ICON_BULLET]50% chance to receive Great Merchant.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir un Marchand Illustre.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, einen Großen Händler zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to receive Great Merchant.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to receive Great Merchant.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_PEASANT</Tag>
+		<English>[ICON_BULLET]50% chance to gain Expansive trait for the following election term.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir le trait Accessible pour le prochain mandat.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, das Merkmal 'Expansiv' für den nächsten Wahlturnus zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to gain Expansive trait for the following election term.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to gain Expansive trait for the following election term.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_PEASANT_ALREADY_EXPANSIVE</Tag>
+		<English>[ICON_BULLET]50% chance to gain a substantial [ICON_HAPPY] and [ICON_HEALTHY] bonus in all cities during the following election term.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir un bonus substantiel de [ICON_HAPPY] et de [ICON_HEALTHY] dans toutes vos villes pour le prochain mandat.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, einen erheblichen [ICON_HAPPY]- und [ICON_HEALTHY]-Bonus in allen Städten während des nächsten Wahlturnus zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to gain a substantial [ICON_HAPPY] and [ICON_HEALTHY] bonus in all cities during the following election term.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to gain a substantial [ICON_HAPPY] and [ICON_HEALTHY] bonus in all cities during the following election term.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_LANDOWNER</Tag>
+		<English>'The landowners are the key to our economy and our wealth - why should we care about a few complaining peasants?'</English>
+		<French>'Les propriétaires terriens sont la clé de notre économie et de notre santé, pourquoi devrions nous nous soucier de quelques paysans geignards?'</French>
+		<German>'Die Grundbesitzer sind der Schlüssel zu unserem Wohlstand - was sollte uns eine Handvoll von jammernden Kleinbauern kümmern?'</German>
+		<Italian>'The landowners are the key to our economy and our wealth - why should we care about a few complaining peasants?'</Italian>
+		<Spanish>'The landowners are the key to our economy and our wealth - why should we care about a few complaining peasants?'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_LANDOWNER</Tag>
+		<English>[ICON_BULLET]80% chance to gain Financial trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir le trait Financier pour le prochain mandat.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, das Merkmal 'Finanzorientiert' für den nächsten Wahlturnus zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to gain Financial trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to gain Financial trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_LANDOWNER_ALREADY_FINANCIAL</Tag>
+		<English>[ICON_BULLET]80% chance to receive a Great Merchant.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir un Marchand Illustre.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, einen Großen Händler zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to receive a Great Merchant.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to receive a Great Merchant.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_PEASANT</Tag>
+		<English>'The job of the senate is to serve the people. We must hear their grievances and act upon them.'</English>
+		<French>'Le travail du Sénat est de servir le peuple. Nous devons écouter leurs griefs et agir en fonction.'</French>
+		<German>'Die Aufgabe des Senats ist es, sich um die Belange des Volkes zu kümmern. Wir müssen die Missstände ernst nehmen und dementsprechend handeln.'</German>
+		<Italian>'The job of the senate is to serve the people. We must hear their grievances and act upon them.'</Italian>
+		<Spanish>'The job of the senate is to serve the people. We must hear their grievances and act upon them.'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_PEASANT</Tag>
+		<English>[ICON_BULLET]80% chance to gain Expansive trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir le trait Accessible pour le prochain mandat.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, das Merkmal 'Expansiv' für den nächsten Wahlturnus zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to gain Expansive trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to gain Expansive trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_PEASANT_ALREADY_EXPANSIVE</Tag>
+		<English>[ICON_BULLET]80% chance to gain a substantial [ICON_HAPPY] and [ICON_HEALTHY] bonus in all cities during the following election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir un bonus substantiel de [ICON_HAPPY] et de [ICON_HEALTHY] dans toutes vos villes pour le prochain mandat.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, einen erheblichen [ICON_HAPPY]- und [ICON_HEALTHY]-Bonus in allen Städten während des nächsten Wahlturnus zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to gain a substantial [ICON_HAPPY] and [ICON_HEALTHY] bonus in all cities during the following election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to gain a substantial [ICON_HAPPY] and [ICON_HEALTHY] bonus in all cities during the following election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_LANDOWNER_WINS</Tag>
+		<English>The good of the econmy *is* the good of the people, or so the senate has decided. [Gained the Financial trait for this election term]</English>
+		<French>Les biens du peuple *sont* le bien de l'économie, ou du moins c'est ce qu'a décidé le Sénat. [Obtention du trait Financier pour ce mandat]</French>
+		<German>Das Gute an &#214;konomie ist das Beste für das Volk, oder eher das beste vom Volk. [Das Merkmal 'Finanzorientiert' für den nächsten Wahlturnus erhalten.]</German>
+		<Italian>The good of the econmy *is* the good of the people, or so the senate has decided. [Gained the Financial trait for this election term]</Italian>
+		<Spanish>The good of the econmy *is* the good of the people, or so the senate has decided. [Gained the Financial trait for this election term]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_LANDOWNER_WINS_ALREADY_FINANCIAL</Tag>
+		<English>The senate is won over by a senator with a shrewd sense of the economy. Perhaps he may be of other use to your empire as well.</English>
+		<French>Les élections sénatoriales sont remportées par un sénateur avec un sens affuté de l'économie. Il pourrait être également utile à votre empire.</French>
+		<German>Im Senat hat sich einer der Senatoren mit einer bemerkenswerten Auffassung von &#214;konomie in den Vordergrund gespielt. Sicherlich habt ihr noch andere Verwendung für ihn in Eurem Reich.</German>
+		<Italian>The senate is won over by a senator with a shrewd sense of the economy. Perhaps he may be of other use to your empire as well.</Italian>
+		<Spanish>The senate is won over by a senator with a shrewd sense of the economy. Perhaps he may be of other use to your empire as well.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_PEASANT_WINS</Tag>
+		<English>The people are demanding a better quality of life and the senate has responded [Gained Expansive trait for this election term.]</English>
+		<French>Le peuple est demandeur d'une meilleure qualité de vie et le Sénat a répondu [Obtention du trait Accessible pour ce mandat.]</French>
+		<German>Das Volk fordert eine höhere Lebensqualität und der Senat hat darauf reagiert [Das Merkmal 'Expansiv' für den nächsten Wahlturnus erhalten.]</German>
+		<Italian>The people are demanding a better quality of life and the senate has responded [Gained Expansive trait for this election term.]</Italian>
+		<Spanish>The people are demanding a better quality of life and the senate has responded [Gained Expansive trait for this election term.]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_PEASANT_WINS_ALREADY_EXPANSIVE</Tag>
+		<English>The purpose of the republic is to serve the people and so that is what it must now do. Life will never be perfect, but it is better for your citizens with a government that listens [Gained substantial temporary [ICON_HAPPY] and [ICON_HEALTHY] in all cities]</English>
+		<French>L'objectif de la République est de servir le peuple et c'est ce qu'on doit maintenant faire. La vie n'est pas parfaite, mais elle sera meilleure pour vos citoyens avec un gouvernement à son écoute. [Obtention d'un bonus temporaire substantiel de [ICON_HAPPY] et de [ICON_HEALTHY] dans toutes vos villes]</French>
+		<German>Das Anliegen der Republik ist es, dem Volk zu dienen und das ist es, was nun getan werden muss. Leben wird niemals perfekt sein, aber es kann nur besser sein, mit einer Regierung, die die Forderungen des Volkes erhöhrt. [Erheblicher [ICON_HAPPY]- und [ICON_HEALTHY]-Bonus während des nächsten Wahlturnus in allen Städten erhalten]</German>
+		<Italian>The purpose of the republic is to serve the people and so that is what it must now do. Life will never be perfect, but it is better for your citizens with a government that listens [Gained substantial temporary [ICON_HAPPY] and [ICON_HEALTHY] in all cities]</Italian>
+		<Spanish>The purpose of the republic is to serve the people and so that is what it must now do. Life will never be perfect, but it is better for your citizens with a government that listens [Gained substantial temporary [ICON_HAPPY] and [ICON_HEALTHY] in all cities]</Spanish>
+	</TEXT>
+	<!--CHURCH vs STATE-->
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_CHURCH_VS_STATE</Tag>
+		<English>Some members of the senate are suggesting that old laws stemming from religious tradition are hampering the ability of the government to provide for the people. Others argue that without the laws our nation would be without a moral compass and prone to fall prey to our baser desires. Both sides are lobbying for support in the coming election.</English>
+		<French>Certains membres du Sénat suggèrent que les vieilles lois issues de la tradition religieuse limitent la capacité du gouvernement à aider le peuple. D'autres estiment que sans ces lois notre nation n'aurait plus d'idéal moral et s'abaisserait à nos désirs les plus vils. Les deux parties cherchent un support à l'approche de l'élection.</French>
+		<German>Einige Mitglieder des Senats sind der Meinung, dass die alten, aus den religiösen Traditionen abgeleiteten Gesetze die Gestaltungsmöglichkeiten der Regierung einschränken. Andere behaupten, dass genau diese Richtlinien verhindern, dass das Volk moralisch verfällt und Opfer seiner niederen Triebe wird. Beide Seiten suchen nach Anhängern im Angesicht der anstehenden Wahlen.</German>
+		<Italian>Some members of the senate are suggesting that old laws stemming from religious tradition are hampering the ability of the government to provide for the people. Others argue that without the laws our nation would be without a moral compass and prone to fall prey to our baser desires. Both sides are lobbying for support in the coming election.</Italian>
+		<Spanish>Some members of the senate are suggesting that old laws stemming from religious tradition are hampering the ability of the government to provide for the people. Others argue that without the laws our nation would be without a moral compass and prone to fall prey to our baser desires. Both sides are lobbying for support in the coming election.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_CHURCH_VS_STATE</Tag>
+		<English>'The senate is able to decide for themselves which laws need to be repealed or upheld'</English>
+		<French>'Le Sénat est capable de décider seul quelles lois doivent être conservées et quelles lois doivent être abrogées.'</French>
+		<German>'Der Senat kann selbst entscheiden, welche Gesetze abgelehnt oder auf den Weg gebracht werden sollten.'</German>
+		<Italian>'The senate is able to decide for themselves which laws need to be repealed or upheld'</Italian>
+		<Spanish>'The senate is able to decide for themselves which laws need to be repealed or upheld'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_CHURCH</Tag>
+		<English>[ICON_BULLET]50% chance to gain Spiritual trait for the following election term.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir le trait Spirituel pour le prochain mandat.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, das Merkmal 'Spirituell' für den nächsten Wahlturnus zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to gain Spiritual trait for the following election term.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to gain Spiritual trait for the following election term.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_CHURCH_ALREADY_SPIRITUAL</Tag>
+		<English>[ICON_BULLET]50% chance to receive Great Prophet.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir un Prophète Illustre.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, einen Großen Propheten zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to receive Great Prophet.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to receive Great Prophet.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_STATE</Tag>
+		<English>[ICON_BULLET]50% chance to gain Organized trait for the following election term.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir le trait Organisé pour le prochain mandat.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, das Merkmal 'Organisiert' für den nächsten Wahlturnus zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to gain Organized trait for the following election term.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to gain Organized trait for the following election term.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_STATE_ALREADY_ORGANIZED</Tag>
+		<English>[ICON_BULLET]50% chance to start a Golden Age.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance déclencher un Âge d'Or.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, ein Goldenes Zeitalter zu beginnen.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to start a Golden Age.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to start a Golden Age.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_CHURCH</Tag>
+		<English>'These laws are the foundation of our civilization - how can we now turn our back on tradition?'</English>
+		<French>'Ces lois sont le fondement de notre civilisation. Comment pourrions nous leur tourner le dos?'</French>
+		<German>'Diese Gesetze sind das Fundament unserer Gesellschaft - wie können wir unseren Traditionen den Rücken zukehren?'</German>
+		<Italian>'These laws are the foundation of our civilization - how can we now turn our back on tradition?'</Italian>
+		<Spanish>'These laws are the foundation of our civilization - how can we now turn our back on tradition?'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_CHURCH</Tag>
+		<English>[ICON_BULLET]80% chance to gain Spiritual trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir le trait Spirituel pour le prochain mandat.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, das Merkmal 'Spirituell' für den nächsten Wahlturnus zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to gain Spiritual trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to gain Spiritual trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_CHURCH_ALREADY_SPIRITUAL</Tag>
+		<English>[ICON_BULLET]80% chance to receive a Great Prophet.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir un Prophète Illustre.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, einen Großen Propheten zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to receive a Great Prophet.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to receive a Great Prophet.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_STATE</Tag>
+		<English>'We are a civilized nation - removing these antiquated laws will not change that. Let our government progress with the times.'</English>
+		<French>'Nous sommes une nation civilisée, et abroger ces lois obsolètes n'y changera rien. Laissons le gouvernement évoluer avec son époque.'</French>
+		<German>'Wir sind eine zivilisierte Gesellschaft - auch ohne diese antiquierten Gesetze. Erlaubt der Regierung, zeitgemäß zu handeln!'</German>
+		<Italian>'We are a civilized nation - removing these antiquated laws will not change that. Let our government progress with the times.'</Italian>
+		<Spanish>'We are a civilized nation - removing these antiquated laws will not change that. Let our government progress with the times.'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_STATE</Tag>
+		<English>[ICON_BULLET]80% chance to gain Organized trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obten ir le trait Organisé pour le prochain mandat.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, das Merkmal 'Organisiert' für den nächsten Wahlturnus zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to gain Organized trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to gain Organized trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_STATE_ALREADY_ORGANIZED</Tag>
+		<English>[ICON_BULLET]80% chance to start a Golden Age.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance de déclencher un Âge d'Or.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, ein Goldenes Zeitalter zu beginnen.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to start a Golden Age.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to start a Golden Age.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_CHURCH_WINS</Tag>
+		<English>In the end, the senate was forced to concede that even the most forward thinking of nations must respect their roots. The debate itself has left the senators with a greater sense of spirituality [Gained the Spiritual trait for this election term].</English>
+		<French>Au final, même le Sénat a dû reconnaitre que même les nations les plus avant-gardistes doivent tenir compte de leurs racines. Le débat en soi a conféré aux sénateurs un meilleur sens religieux. [Trait Spirituel obtenu pour ce mandat].</French>
+		<German>Letztendlich mussten die Senatoren einsehen, dass selbst die weitsichtigsten Visionen nicht ohne den Respekt der eigenen Wurzeln exisiteren können. Die Debatte selbst hat dem Senat ein höheres Maß an Spiritualität verschafft. [Das Mermal 'Spirituell' für den nächsten Wahlturnus erhalten].</German>
+		<Italian>In the end, the senate was forced to concede that even the most forward thinking of nations must respect their roots. The debate itself has left the senators with a greater sense of spirituality [Gained the Spiritual trait for this election term].</Italian>
+		<Spanish>In the end, the senate was forced to concede that even the most forward thinking of nations must respect their roots. The debate itself has left the senators with a greater sense of spirituality [Gained the Spiritual trait for this election term].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_CHURCH_WINS_ALREADY_SPIRITUAL</Tag>
+		<English>Your people have always been spiritual, so it is not surprising that they have chosen to respect tradition. It is said however that even deaf ears were turned by the words of a single street preacher...</English>
+		<French>Votre peuple a toujours été religieux, il n'est donc pas étonnant qu'il ait choisi de respecter la tradition. Il est cependant dit que même les sourds peuvent être entraînés par un simple prédicateur de rue...</French>
+		<German>Euer Volk war schon immer spirituell, es ist also nicht überraschend, dass sie beschlossen haben, die Traditionen zu achten. Man sagt, dass selbst der Kopf eines Tauben durch das Wort eines einzigen Straßenpredigers verdreht werden kann...</German>
+		<Italian>Your people have always been spiritual, so it is not surprising that they have chosen to respect tradition. It is said however that even deaf ears were turned by the words of a single street preacher...</Italian>
+		<Spanish>Your people have always been spiritual, so it is not surprising that they have chosen to respect tradition. It is said however that even deaf ears were turned by the words of a single street preacher...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_STATE_WINS</Tag>
+		<English>Without the burden of the old ways, your government is able to reduce costs and improve your cities [Gained the Organized trait for this election term].</English>
+		<French>Sans le poids des traditions, votre gouvernement est maintenant capable de réduire les coût et améliorer vos villes [Trait Organisé obtenu pour ce mandat].</French>
+		<German>Ohne die Last der Alten Tage ist Eure Regierung in der Lage, die Kosten zu senken und die Städte auszubauen. [Das Merkmal 'Organisiert' für den nächsten Wahlturnus erhalten].</German>
+		<Italian>Without the burden of the old ways, your government is able to reduce costs and improve your cities [Gained the Organized trait for this election term].</Italian>
+		<Spanish>Without the burden of the old ways, your government is able to reduce costs and improve your cities [Gained the Organized trait for this election term].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_STATE_WINS_ALREADY_ORGANIZED</Tag>
+		<English>By forming this republic you have shown your people that the future is what they make of it. With the old laws repealed, your nation enters an era of prosperity and productivity.</English>
+		<French>En fondat cette république vous avez montré à votre peuple que le futur est ce qu'ils en feront. Avec l'abrogation des vieilles lois, voter nation entre dans une ère de prospérité et de productivité.</French>
+		<German>Die Bildung einer Republik hat Eurem Volk gezeigt, dass die Zukunft das sit, was man daraus macht. Durch die Abschaffung der alten Gesetze stritt Euer Volk in eine &#196;ra des Reichstums und der Produktivität ein.</German>
+		<Italian>By forming this republic you have shown your people that the future is what they make of it. With the old laws repealed, your nation enters an era of prosperity and productivity.</Italian>
+		<Spanish>By forming this republic you have shown your people that the future is what they make of it. With the old laws repealed, your nation enters an era of prosperity and productivity.</Spanish>
+	</TEXT>
+	<!--LABOR vs ACADEMIA-->
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_LABOR_VS_ACADEMIA</Tag>
+		<English>The senate is divided. Several popular senators have recently criticized the lack of education amongst the working class, leading to some heated rebuttals. Those senators supporting the interests of the workers argue that without the sweat and blood of those workers, the empire would be nothing. The two sides have become deadlocked whenever funds must be divided between the workers or the intellectuals. Hopefully the results of the election will free the senate to act.</English>
+		<French>Le Sénat est divisé. Certains sénateurs populaires ont récemment critiqué le manque d'éducation dans la classe populaire, conduisant à des refus catégoriques et irréfléchis. D'autres sénateurs soutenant les intérêts des ouvriers estiment que sans la sueur et le sang de ces ouvriers l'empire ne serait rien. Les deux parties campent sur leurs positions chaque fois que des fonds doivent être répartis entre les ouvriers et les intellectuels. Avec un peu de chance, les résultats de l'élection permettront au Sénat d'agir.</French>
+		<German>Der Senat ist zerstritten. Einige der beliebtesten Senatoren bemängelten kürzlich das Fehlen von Bildungsmöglichkeiten für die Arbeiterschicht, was zu hitzigen Gegendarstellungen führte. Die Unterstützer der Interessen der Arbeiter argumentieren, dass ohne den Schweiß und das Blut der Arbeiter das gesamte Reich nicht existieren würde. Die beiden Seiten sind in ihrem Streit festgefahren, ob die Ausgaben den Arbeitern oder den Intellektuellen zugute kommen sollten. Die Ergebnisse der anstehenden Wahlen werden dem Senat hoffentlich aufzeigen, was zu tun ist.</German>
+		<Italian>The senate is divided. Several popular senators have recently criticized the lack of education amongst the working class, leading to some heated rebuttals. Those senators supporting the interests of the workers argue that without the sweat and blood of those workers, the empire would be nothing. The two sides have become deadlocked whenever funds must be divided between the workers or the intellectuals. Hopefully the results of the election will free the senate to act.</Italian>
+		<Spanish>The senate is divided. Several popular senators have recently criticized the lack of education amongst the working class, leading to some heated rebuttals. Those senators supporting the interests of the workers argue that without the sweat and blood of those workers, the empire would be nothing. The two sides have become deadlocked whenever funds must be divided between the workers or the intellectuals. Hopefully the results of the election will free the senate to act.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_LABOR_VS_ACADEMIA</Tag>
+		<English>'I hold both parties in equal esteem and we cannot do without either. I suggest you settle the dispute quickly.'</English>
+		<French>'Je tiens les deux parties en égale estime et nous ne pouvons rien faire sans chacun d'eux. Je vous suggère de régler vos différents rapidement.'</French>
+		<German>'Ich schätze beide Seiten gleich wichtig ein und bin der Meinung, sie sollten beide gehört werden. Doch sollte der Streit bald zu einem Ende kommen.'</German>
+		<Italian>'I hold both parties in equal esteem and we cannot do without either. I suggest you settle the dispute quickly.'</Italian>
+		<Spanish>'I hold both parties in equal esteem and we cannot do without either. I suggest you settle the dispute quickly.'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_ACADEMIA</Tag>
+		<English>[ICON_BULLET]50% chance to gain Philosophical trait for the following election term.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir le trait Philosophe pour le prochain mandat.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, das Merkmal 'Philosophisch' für den nächsten Wahlturnus zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to gain Philosophical trait for the following election term.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to gain Philosophical trait for the following election term.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_ACADEMIA_ALREADY_PHILOSOPHICAL</Tag>
+		<English>[ICON_BULLET]50% chance to receive a Great Sage.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir un Sage Illustre.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, einen Großen Weisen zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to receive a Great Sage.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to receive a Great Sage.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_LABOR</Tag>
+		<English>[ICON_BULLET]50% chance to gain Industrious trait for the following election term.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir le trait Travailleur pour le prochain mandat.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, das Merkmal 'Industriell' für den nächsten Wahlturnus zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to gain Industrious trait for the following election term.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to gain Industrious trait for the following election term.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_FAIR_LABOR_ALREADY_INDUSTRIOUS</Tag>
+		<English>[ICON_BULLET]50% chance to receive Great Engineer.[NEWLINE]</English>
+		<French>[ICON_BULLET]50% de chance d'obtenir un Ingénieur Illustre.[NEWLINE]</French>
+		<German>[ICON_BULLET]50% Chance, einen Großen Baumeister zu erhalten.[NEWLINE]</German>
+		<Italian>[ICON_BULLET]50% chance to receive Great Engineer.[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]50% chance to receive Great Engineer.[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_ACADEMIA</Tag>
+		<English>'The working man has not the knowledge to comprehend the nature of government with all of its complexity. The senate should be controlled by the wisest among us.'</English>
+		<French>'L'ouvrier n'a pas le savoir nécessaire pour comprendre la nature d'un gouvernement et toutes ses subtilités. Le Sénat devrait être dirigé par les plus sages d'entre nous.'</French>
+		<German>'Ein Arbeiter hat doch gar keine Ahnung von der Komplexität des Regierens. Der Senat sollte von den Gebildetsten aus unseren Reihen geführt werden.'</German>
+		<Italian>'The working man has not the knowledge to comprehend the nature of government with all of its complexity. The senate should be controlled by the wisest among us.'</Italian>
+		<Spanish>'The working man has not the knowledge to comprehend the nature of government with all of its complexity. The senate should be controlled by the wisest among us.'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_ACADEMIA</Tag>
+		<English>[ICON_BULLET]80% chance to gain Philosophical trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir le trait Philosophe pour le prochain mandat.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, das Merkmal 'Philosophisch' für den nächsten Wahlturnus zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to gain Philosophical trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to gain Philosophical trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_ACADEMIA_ALREADY_PHILOSOPHICAL</Tag>
+		<English>[ICON_BULLET]80% chance to receive a Great Sage.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir un Sage Illustre.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, einen Großen Weisen zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to receive a Great Sage.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to receive a Great Sage.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_LABOR</Tag>
+		<English>'The workers are the bedrock of our civilization. Let no man residing in a high tower scorn them, for they built his high tower with their own hands.'</English>
+		<French>'Les ouvriers sont les fondations de notre civilisation. Ne laissons pas quelqu'un perché dans sa tour d'ivoire les dénigrer, sachant qu'ils lui ont construit sa tour d'ivoire de leurs mains.'</French>
+		<German>'Die Arbeiter sind die Wiege unserer Zivilisation. Kein Mann in seinem hohen Turm darf sie verachten, denn sie waren es, die diesen Turm errichteten.'</German>
+		<Italian>'The workers are the bedrock of our civilization. Let no man residing in a high tower scorn them, for they built his high tower with their own hands.'</Italian>
+		<Spanish>'The workers are the bedrock of our civilization. Let no man residing in a high tower scorn them, for they built his high tower with their own hands.'</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_LABOR</Tag>
+		<English>[ICON_BULLET]80% chance to gain Industrious trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir le trait Travailleur pour le prochain mandat.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, das Merkmal 'Industriell' für den nächsten Wahlturnus zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to gain Industrious trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to gain Industrious trait for the next election term.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_HELP_SUPPORT_LABOR_ALREADY_INDUSTRIOUS</Tag>
+		<English>[ICON_BULLET]80% chance to receive a Great Engineer.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</English>
+		<French>[ICON_BULLET]80% de chance d'obtenir un Ingénieur Illustre.[NEWLINE][ICON_BULLET]20% de chance de ne rien obtenir lors de ce mandat.</French>
+		<German>[ICON_BULLET]80% Chance, einen Großen Baumeister zu erhalten.[NEWLINE][ICON_BULLET]20% Chance, dass sich kein Vorteil für den nächsten Wahlturnus ergibt.</German>
+		<Italian>[ICON_BULLET]80% chance to receive a Great Engineer.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Italian>
+		<Spanish>[ICON_BULLET]80% chance to receive a Great Engineer.[NEWLINE][ICON_BULLET]20% chance to receive no benefit for the following election term.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_ACADEMIA_WINS</Tag>
+		<English>The working class is concerned with things that are, but the senate should be concerned with things that could be. [Gained the Philosophical trait for this election term].</English>
+		<French>La classe ouvrière s'occupe de ce qui est, mais le Sénat devrait s'occuepr de ce qui pourrait être. [Trait Philisophe obtenu pour de mandat]</French>
+		<German>Die Arbeiterklasse sorgt sich um die Situation, wie sie ist. Doch der Senat macht sich Sorgen um die Situationen, die da kommen könnten. [Das Merkmal 'Philosophisch' für den nächsten Wahlturnus erhalten].</German>
+		<Italian>The working class is concerned with things that are, but the senate should be concerned with things that could be. [Gained the Philosophical trait for this election term].</Italian>
+		<Spanish>The working class is concerned with things that are, but the senate should be concerned with things that could be. [Gained the Philosophical trait for this election term].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_ACADEMIA_WINS_ALREADY_PHILOSOPHICAL</Tag>
+		<English>It is only natural that the wisest minds lead the senate to the best decisions, in the interests of the people. Fortunately you have some of the wisest minds amongst your counsellors.</English>
+		<French>C'est dans l'ordre des choses que les esprits les plus avisés guident le Sénat vers les meilleures décisions. Heureusement que certains de vos conseillers font partie de ces eprits avisés.</French>
+		<German>Es ist nur natührlich, dass die klügsten Köpfe den Senat zu den besten Entscheidungen im Interesse des Volkes führen. Zum Glück habt Ihr bereits einige diese klügsten Köpfe unter Euren Beratern.</German>
+		<Italian>It is only natural that the wisest minds lead the senate to the best decisions, in the interests of the people. Fortunately you have some of the wisest minds amongst your counsellors.</Italian>
+		<Spanish>It is only natural that the wisest minds lead the senate to the best decisions, in the interests of the people. Fortunately you have some of the wisest minds amongst your counsellors.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_LABOR_WINS</Tag>
+		<English>The workforce is key to the future of your civilization and thankfully the senate has realized it. [Gained the Industrious trait for this election term].</English>
+		<French>La force ouvrière est la clé du futur de notre civilisation, et le Sénat l'a heureusement reconnu. [Trait Travailleur obtenu pour ce mandat].</French>
+		<German>Die Arbeitskraft ist der Schlüssel zur Zukunft Eures Volkes. Dankenwerterweise hat der Senat das eingesehen. [Das Merkmal 'Industriell' für den nächsten Wahlturnus erhalten].</German>
+		<Italian>The workforce is key to the future of your civilization and thankfully the senate has realized it. [Gained the Industrious trait for this election term].</Italian>
+		<Spanish>The workforce is key to the future of your civilization and thankfully the senate has realized it. [Gained the Industrious trait for this election term].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_LABOR_WINS_ALREADY_INDUSTRIOUS</Tag>
+		<English>As a nation built upon the hard work of its people, the senate recognizes the workers by appointing the most talented to oversee a great project.</English>
+		<French>En tant que nation fondée sur le dur labeur de son peuple, le Sénat reconnaît les travailleurs en confiant aux plus talentueux la gestion d'un grand projet.</French>
+		<German>Als ein Staat, der aus der harten Arbeit seines Volkes entstanden ist, hat der Senat die Arbeiter geehrt, indem er die Talentiertesten für die Aufsicht beim Bau eines großen Projekts ausgewählt hat.</German>
+		<Italian>As a nation built upon the hard work of its people, the senate recognizes the workers by appointing the most talented to oversee a great project.</Italian>
+		<Spanish>As a nation built upon the hard work of its people, the senate recognizes the workers by appointing the most talented to oversee a great project.</Spanish>
+	</TEXT>
+	<!--Event générique pour la victoire de l'opposition (pas de gain)-->
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_REPUBLIC_ELECTION_OPPOSITION_PARTY_WINS</Tag>
+		<English>The election is fiercely contested, but your support was not enough. The opposition have a majority, which will make life more difficult for you this term.</English>
+		<French>Les résultats de l'élection étaient serrés, mais votre support n'a pas été suffisant. L'opposition a remporté la majorité, ce qui vous rendra la vie plus difficile pour ce mandat.</French>
+		<German>Der Wahlkampf wurde mit großer Leidenschaft geführt, doch Eure Unterstötzung war nicht genug. Die Opposition ist in der &#220;berzahl, was Euch das Leben in der kommenden Wahlperiode schwer machen dürfte.</German>
+		<Italian>The election is fiercely contested, but your support was not enough. The opposition have a majority, which will make life more difficult for you this term.</Italian>
+		<Spanish>The election is fiercely contested, but your support was not enough. The opposition have a majority, which will make life more difficult for you this term.</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Relations between leaders -->
+<Civ4LeaderRelationInfos xmlns="x-schema:ElfnDeath_CIV4LeaderRelationsSchema.xml">
+	<LeaderRelationInfos>
+		<LeaderRelationInfo>
+			<Type>LEADERRELATION_WALDRUN</Type>
+			<Leader>LEADER_WALDRUN</Leader>
+			<LeaderAttitudeChanges>
+				<LeaderAttitudeChange>
+					<TargetLeaderType>LEADER_AURIC</TargetLeaderType>
+					<iAttitudeChange>-6</iAttitudeChange>
+				</LeaderAttitudeChange>
+				<LeaderAttitudeChange>
+					<TargetLeaderType>LEADER_VARN</TargetLeaderType>
+					<iAttitudeChange>-2</iAttitudeChange>
+				</LeaderAttitudeChange>
+			</LeaderAttitudeChanges>
+		</LeaderRelationInfo>
+	</LeaderRelationInfos>
+</Civ4LeaderRelationInfos>

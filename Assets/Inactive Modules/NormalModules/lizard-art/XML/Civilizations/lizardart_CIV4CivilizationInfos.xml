@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--
+	Rise from Erebus 1.30
+	Lizard Art Fix 1.3
+	milaga@gmail.com
+-->
+<Civ4CivilizationInfos xmlns="x-schema:lizardart_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+		<CivilizationInfo>		<!-- Cualli -->
+			<Type>CIVILIZATION_CUALLI</Type>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_COMMANDER</UnitClassType>
+					<UnitType>UNIT_COMMANDER_CUALLI</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_FORT_COMMANDER</UnitClassType>
+					<UnitType>UNIT_FORT_COMMANDER_CUALLI</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CHARIOT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_WAR_CHARIOT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+			</Units>
+		</CivilizationInfo>
+		<CivilizationInfo>		<!-- Mazatl -->
+			<Type>CIVILIZATION_MAZATL</Type>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_COMMANDER</UnitClassType>
+					<UnitType>UNIT_COMMANDER_MAZATL</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_FORT_COMMANDER</UnitClassType>
+					<UnitType>UNIT_FORT_COMMANDER_MAZATL</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CHARIOT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_WAR_CHARIOT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_RATHA</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+			</Units>
+		</CivilizationInfo>
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

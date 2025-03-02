@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SCORCHED_EARTH</Tag>
+		<English>Scorched Earth</English>
+		<French>Scorched Earth</French>
+		<German>Scorched Earth</German>
+		<Italian>Scorched Earth</Italian>
+		<Spanish>Scorched Earth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SCORCHED_EARTH_SHORT</Tag>
+		<English>Scor</English>
+		<French>Scor</French>
+		<German>Scor</German>
+		<Italian>Scor</Italian>
+		<Spanish>Scor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TRADE_DEFENDER</Tag>
+		<English>Trade Defender</English>
+		<French>Trade Defender</French>
+		<German>Trade Defender</German>
+		<Italian>Trade Defender</Italian>
+		<Spanish>Trade Defender</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LOOTER</Tag>
+		<English>Looter</English>
+		<French>Looter</French>
+		<German>Looter</German>
+		<Italian>Looter</Italian>
+		<Spanish>Looter</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Misc -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>		<!-- The Black Duke -->
+		<Tag>TXT_KEY_UNIT_BLACK_DUKE</Tag>
+		<English>The Black Duke</English>
+		<French>Le Duc Noir</French>
+		<German>Der Schwarze Herzog</German>
+		<Italian>The Black Duke</Italian>
+		<Spanish>The Black Duke</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke, Pedia -->
+		<Tag>TXT_KEY_UNIT_BLACK_DUKE_PEDIA</Tag>
+		<English>A feared band of assassins, little is known of who the Black Duke or his band is outside the leadership of the Guild of the Nine. For hundreds of years their blades have been available to only the highest of bidders, the blood of kings, emperors, warlords and many more on their hands.[NEWLINE]What few descriptions of the masked Duke have arisen have all varied. Some say he is a tall hulk of a man, others that he is a lithe elf like figure, one even claimed he was a dwarf. Many certainly think him to be a elf or a vampire given how long the group has been operating. Those of a more logical nature consider the Black Duke to be a title bestowed on the chief assassin of the Guild of the Nine, though the guild has done little to confirm or deny this, indeed many of the wilder stories are believed to have originated from guild sources.[NEWLINE]Regardless of their identity one thing is certainly known among the elite of Erebus. If you are rich and there is someone you desperately need dead, then you need to politely ask the Guild of the Nine about the Black Duke's Gentlemen.</English>
+		<French>Bande d'assassins craints, personne ne sait grand chose à propos du Duc Noir ou de ses compagnons à part les responsables de la Guilde des Neuf. Pendant des siècles, leurs lames ont été disponibles uniquement aux plus offrants, couvertes du sang des rois, empereurs, seigneurs de guerre et bien d'autres.[NEWLINE]Les quelques descriptions parvenues jusqu'à nous sont variables. Certains disent qu'il fait la taille d'un homme, certains qu'il est aussi souple qu'un elfe, certains ont même soutenu qu'il était un nain. Beaucoup sont convaincus que c'est un elfe ou un vampire, compte tenu de la durée pendant laquelle a opéré le groupe. Ceux qui sont plus d'une nature logique pensent que le Duc Noir est un titre décerné au chef des assassins de la Guilde des Neuf. Même si la Guilde ne l'a jamais confirmé ou infirmé, beaucoup pensent que la plupart des histoires les plus sanglantes proviennent de la Guilde elle-même.[NEWLINE]Qu'importe leur identité, un fait est bien connu de l'élite d'Erebus. Si vous êtes riche et que vous avez désespérément besoin de vous débarasser de quelqu'un, alors vous demandez poliment à la Guilde des Neuf à faire appel aux Compagnons du Duc Noir.</French>
+		<German>Obwohl sie eine gef&#252;rchtete Bande von Meuchelm&#246;rdern sind, wei&#223; au&#223;erhalb der F&#252;hrungskreise der Gilder der Neun kaum jemand, wer der Schwarze Herzog und seine Schar wirklich sind. Seit hunderten von Jahren standen ihre Klingen nur den h&#246;chsten Bietern zur Verf&#252;gung, sie haben das Blut von K&#246;nigen, Kaisern, Kriegsherren und unz&#228;hligen anderen an ihren H&#228;nden.[NEWLINE]Alle bisherigen Beschreibungen des maskierten Herzog, die aufgetaucht sind, unterscheiden sich stark. Manche sagen, dass er ein H&#252;ne ist, andere, dass er eine winzige Elfenstatur hat, manche sogar, dass er ein Zwerg sei. Viele meinen, dass er ein Elf oder Vampir sein muss, wenn man bedenkt, wie lang die Gruppe bereits operiert. Diejenigen mit logischerer Einsicht sind der Auffassung, dass der Schwarze Herzog nur ein Titel ist, der dem Obersten Meuchelm&#246;rder der Gilde der Neun verliehen wird. Auch wenn die Gilde wenig getan hat, um dies zu verneinen oder zu best&#228;tigen, werden viele Quellen dieser Geschichte in der Tat in den Kreisen der Gilde vermutet.[NEWLINE]Unabh&#228;gig von seiner Identit&#228;t ist eine Sache definitiv im Bewusstsein der Elite von Erebus. Wenn Ihr reich seid und es jemanden gibt, den ihr unbedingt tot sehen wollt, dann fragt h&#246;flich bei der Gilde der Neun nach den Ehrenm&#228;nnern des Schwarzen Herzog.
+</German>
+		<Italian>A feared band of assassins, little is known of who the Black Duke or his band is outside the leadership of the Guild of the Nine. For hundreds of years their blades have been available to only the highest of bidders, the blood of kings, emperors, warlords and many more on their hands.[NEWLINE]What few descriptions of the masked Duke have arisen have all varied. Some say he is a tall hulk of a man, others that he is a lithe elf like figure, one even claimed he was a dwarf. Many certainly think him to be a elf or a vampire given how long the group has been operating. Those of a more logical nature consider the Black Duke to be a title bestowed on the chief assassin of the Guild of the Nine, though the guild has done little to confirm or deny this, indeed many of the wilder stories are believed to have originated from guild sources.[NEWLINE]Regardless of their identity one thing is certainly known among the elite of Erebus. If you are rich and there is someone you desperately need dead, then you need to politely ask the Guild of the Nine about the Black Duke's Gentlemen.</Italian>
+		<Spanish>A feared band of assassins, little is known of who the Black Duke or his band is outside the leadership of the Guild of the Nine. For hundreds of years their blades have been available to only the highest of bidders, the blood of kings, emperors, warlords and many more on their hands.[NEWLINE]What few descriptions of the masked Duke have arisen have all varied. Some say he is a tall hulk of a man, others that he is a lithe elf like figure, one even claimed he was a dwarf. Many certainly think him to be a elf or a vampire given how long the group has been operating. Those of a more logical nature consider the Black Duke to be a title bestowed on the chief assassin of the Guild of the Nine, though the guild has done little to confirm or deny this, indeed many of the wilder stories are believed to have originated from guild sources.[NEWLINE]Regardless of their identity one thing is certainly known among the elite of Erebus. If you are rich and there is someone you desperately need dead, then you need to politely ask the Guild of the Nine about the Black Duke's Gentlemen.</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke, Strategy -->
+		<Tag>TXT_KEY_UNIT_BLACK_DUKE_STRATEGY</Tag>
+		<English>A powerful mercenary unit, the Black Duke is gained through an event, once the Guild of the Nine has been built in the world. Every time the unit is built, it is assigned a randomly chosen class, sometimes they are melee-focused, sometimes they take on a reconnaissance role, sometimes they even have mages among their numbers. What one can be sure of, however, is that they are always a powerful unit, and always well suited for hunting down your enemies' heroes.</English>
+		<French>Une puissante unité mercenaire, le Duc Noir est obtenu grâce à un évènement aléatoire, une fois la Guilde des Neuf fondée quelque part dans le monde. Chaque fois que l'unité est construite, une classe aléatoire lui est assignée: certains étant des pros au corps-à-corps, parfois ils endossent le rôle d'éclaireurs, il arrive même qu'ils comptent des mages dans leurs rangs. Ce qui est cependant sûr, c'est que c'est toujours une unité puissante et toujours adaptée pour éliminer les héros ennemis.</French>
+		<German>Der Schwarze Herzog, eine m&#228;chtige S&#246;ldnereinheit, wird durch ein Ereignis erhalten, sobald das Wunder 'Die Gilde der Neun' in der Welt errichtet wurde. Jedes Mal, wenn die Einheit aufgestellt wird, wird ihr eine zuf&#228;llig ausgew&#228;hlte Kampfklasse zugewiesen, manchmal ist zu Nahkampf-, manchmal Aufkl&#228;rungs-orientiert, manchmal hat sie sogar Magier in ihren Reihen. Wo man sich jedoch immer sicher sein kein, ist, dass sie stets eine m&#228;chtige Einheit ist, un immer au&#223;erordentlich geeignet, um feindliche Helden zur Strecke zu bringen.</German>
+		<Italian>A powerful mercenary unit, the Black Duke is gained through an event, once the Guild of the Nine has been built in the world. Every time the unit is built, it is assigned a randomly chosen class, sometimes they are melee-focused, sometimes they take on a reconnaissance role, sometimes they even have mages among their numbers. What one can be sure of, however, is that they are always a powerful unit, and always well suited for hunting down your enemies' heroes.</Italian>
+		<Spanish>A powerful mercenary unit, the Black Duke is gained through an event, once the Guild of the Nine has been built in the world. Every time the unit is built, it is assigned a randomly chosen class, sometimes they are melee-focused, sometimes they take on a reconnaissance role, sometimes they even have mages among their numbers. What one can be sure of, however, is that they are always a powerful unit, and always well suited for hunting down your enemies' heroes.</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen -->
+		<Tag>TXT_KEY_PROMOTION_BLACK_DUKE</Tag>
+		<English>The Black Duke's Gentlemen</English>
+		<French>Compagnons du Duc Noir</French>
+		<German>Die Ehrenm&#228;nner des Schwarzen Herzog</German>
+		<Italian>The Black Duke's Gentlemen</Italian>
+		<Spanish>The Black Duke's Gentlemen</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen, Melee I-->
+		<Tag>TXT_KEY_PYHELP_BD_MELEE1</Tag>
+		<English>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]+25% City Attack[NEWLINE][ICON_BULLET]+4 Offensive Strength[NEWLINE][ICON_BULLET]+2 Defensive Strength</English>
+		<French>[ICON_BULLET]Classe : Combat rapproché[NEWLINE][ICON_BULLET]+25% à l'attaque de villes[NEWLINE][ICON_BULLET]+4 puissance d'attaque[NEWLINE][ICON_BULLET]+2 puissance défensive</French>
+		<German>[ICON_BULLET]Kampfklasse: Nahkampf[NEWLINE][ICON_BULLET]+25% Stadtangriff[NEWLINE][ICON_BULLET]+4 Angriffsst&#228;rke[NEWLINE][ICON_BULLET]+2 Verteidigungsst&#228;rke</German>
+		<Italian>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]+25% City Attack[NEWLINE][ICON_BULLET]+4 Offensive Strength[NEWLINE][ICON_BULLET]+2 Defensive Strength</Italian>
+		<Spanish>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]+25% City Attack[NEWLINE][ICON_BULLET]+4 Offensive Strength[NEWLINE][ICON_BULLET]+2 Defensive Strength</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen, Melee II -->
+		<Tag>TXT_KEY_PYHELP_BD_MELEE2</Tag>
+		<English>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]+1-3 First Strikes[NEWLINE][ICON_BULLET]+2 Offensive Strength[NEWLINE][ICON_BULLET]+4 Defensive Strength[NEWLINE]</English>
+		<French>[ICON_BULLET]Classe : Combat rapproché[NEWLINE][ICON_BULLET]+1-3 première(s) attaque(s)[NEWLINE][ICON_BULLET]+2 puissance d'attaque[NEWLINE][ICON_BULLET]+4 puissance défensive[NEWLINE]</French>
+		<German>[ICON_BULLET]Kampfklasse: Nahkampf[NEWLINE][ICON_BULLET]+1-3 Erstangriffe[NEWLINE][ICON_BULLET]+2 Angriffsst&#228;rke[NEWLINE][ICON_BULLET]+4 Verteidigungsst&#228;rke[NEWLINE]</German>
+		<Italian>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]+1-3 First Strikes[NEWLINE][ICON_BULLET]+2 Offensive Strength[NEWLINE][ICON_BULLET]+4 Defensive Strength[NEWLINE]</Italian>
+		<Spanish>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]+1-3 First Strikes[NEWLINE][ICON_BULLET]+2 Offensive Strength[NEWLINE][ICON_BULLET]+4 Defensive Strength[NEWLINE]</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen, Melee III -->
+		<Tag>TXT_KEY_PYHELP_BD_MELEE3</Tag>
+		<English>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]Secondary UnitCombat: Commander[NEWLINE][ICON_BULLET]+1 Combat Strength[NEWLINE][ICON_BULLET]+1 Offensive Strength[NEWLINE][ICON_BULLET]+4 Defensive Strength</English>
+		<French>[ICON_BULLET]Classe : Combat rapproché[NEWLINE][ICON_BULLET]Spécialisation secondaire : Commandant[NEWLINE][ICON_BULLET]+1 puissance[NEWLINE][ICON_BULLET]+1 puissance d'attaque[NEWLINE][ICON_BULLET]+4 puissance défensive</French>
+		<German>[ICON_BULLET]Kampfklasse: Nahkampf[NEWLINE][ICON_BULLET]Zweite Kampfklasse: Kommandant[NEWLINE][ICON_BULLET]+1 Kampfst&#228;rke[NEWLINE][ICON_BULLET]+1 Angriffsst&#228;rke[NEWLINE][ICON_BULLET]+4 Verteidigungsst&#228;rke</German>
+		<Italian>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]Secondary UnitCombat: Commander[NEWLINE][ICON_BULLET]+1 Combat Strength[NEWLINE][ICON_BULLET]+1 Offensive Strength[NEWLINE][ICON_BULLET]+4 Defensive Strength</Italian>
+		<Spanish>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]Secondary UnitCombat: Commander[NEWLINE][ICON_BULLET]+1 Combat Strength[NEWLINE][ICON_BULLET]+1 Offensive Strength[NEWLINE][ICON_BULLET]+4 Defensive Strength</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen, Recon I -->
+		<Tag>TXT_KEY_PYHELP_BD_RECON1</Tag>
+		<English>[ICON_BULLET]UnitCombat: Recon[NEWLINE][ICON_BULLET]+15% Withdraw Chance[NEWLINE][ICON_BULLET]+4 Offensive Strength[NEWLINE][ICON_BULLET]+1-3 First Strikes</English>
+		<French>[ICON_BULLET]Classe: Éclaireur[NEWLINE][ICON_BULLET]+15% Chance de repli[NEWLINE][ICON_BULLET]+4 puissance d'attaque[NEWLINE][ICON_BULLET]+1-3 première(s) attaque(s)</French>
+		<German>[ICON_BULLET]Kampfklasse: Aufkl&#228;rung[NEWLINE][ICON_BULLET]+15% R&#252;ckzugschance[NEWLINE][ICON_BULLET]+4 Angriffsst&#228;rke[NEWLINE][ICON_BULLET]+1-3 Erstangriffe</German>
+		<Italian>[ICON_BULLET]UnitCombat: Recon[NEWLINE][ICON_BULLET]+15% Withdraw Chance[NEWLINE][ICON_BULLET]+4 Offensive Strength[NEWLINE][ICON_BULLET]+1-3 First Strikes</Italian>
+		<Spanish>[ICON_BULLET]UnitCombat: Recon[NEWLINE][ICON_BULLET]+15% Withdraw Chance[NEWLINE][ICON_BULLET]+4 Offensive Strength[NEWLINE][ICON_BULLET]+1-3 First Strikes</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen, Recon II -->
+		<Tag>TXT_KEY_PYHELP_BD_RECON2</Tag>
+		<English>[ICON_BULLET]UnitCombat: Recon[NEWLINE][ICON_BULLET]Hidden with Stealth[NEWLINE][ICON_BULLET]+3 Offensive Strength[NEWLINE][ICON_BULLET]-1 Defensive Strength[NEWLINE][ICON_BULLET]+1-3 First Strikes</English>
+		<French>[ICON_BULLET]Classe: Éclaireur[NEWLINE][ICON_BULLET]Caché dans les ombres[NEWLINE][ICON_BULLET]+3 puissance d'attaque[NEWLINE][ICON_BULLET]-1 puissance défensive[NEWLINE][ICON_BULLET]+1-3 première(s) attaque(s)</French>
+		<German>[ICON_BULLET]Kampfklasse: Aufkl&#228;rung[NEWLINE][ICON_BULLET]durch Tarnung versteckt[NEWLINE][ICON_BULLET]+3 Angriffst&#228;rke[NEWLINE][ICON_BULLET]-1 Verteidigungsst&#228;rke[NEWLINE][ICON_BULLET]+1-3 Erstangriffe</German>
+		<Italian>[ICON_BULLET]UnitCombat: Recon[NEWLINE][ICON_BULLET]Hidden with Stealth[NEWLINE][ICON_BULLET]+3 Offensive Strength[NEWLINE][ICON_BULLET]-1 Defensive Strength[NEWLINE][ICON_BULLET]+1-3 First Strikes</Italian>
+		<Spanish>[ICON_BULLET]UnitCombat: Recon[NEWLINE][ICON_BULLET]Hidden with Stealth[NEWLINE][ICON_BULLET]+3 Offensive Strength[NEWLINE][ICON_BULLET]-1 Defensive Strength[NEWLINE][ICON_BULLET]+1-3 First Strikes</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen, Recon III -->
+		<Tag>TXT_KEY_PYHELP_BD_RECON3</Tag>
+		<English>[ICON_BULLET]UnitCombat: Recon[NEWLINE][ICON_BULLET]+15% Withdraw Chance[NEWLINE][ICON_BULLET]+2 Offensive Strength[NEWLINE][ICON_BULLET]+1-3 First Strikes[NEWLINE][ICON_BULLET]+1 Movement Range</English>
+		<French>[ICON_BULLET]Classe: Éclaireur[NEWLINE][ICON_BULLET]+15% Chance de repli[NEWLINE][ICON_BULLET]+2 puissance d'attaque[NEWLINE][ICON_BULLET]+1-3 première(s) attaque(s)[NEWLINE][ICON_BULLET]+1 capacité de mouvement</French>
+		<German>[ICON_BULLET]Kampfklasse: Aufkl&#228;rung[NEWLINE][ICON_BULLET]+15% R&#252;ckzugschance[NEWLINE][ICON_BULLET]+2 Angriffsst&#228;rke[NEWLINE][ICON_BULLET]+1-3 Erstangriffe[NEWLINE][ICON_BULLET]+1 Bewegungsreichweite</German>
+		<Italian>[ICON_BULLET]UnitCombat: Recon[NEWLINE][ICON_BULLET]+15% Withdraw Chance[NEWLINE][ICON_BULLET]+2 Offensive Strength[NEWLINE][ICON_BULLET]+1-3 First Strikes[NEWLINE][ICON_BULLET]+1 Movement Range</Italian>
+		<Spanish>[ICON_BULLET]UnitCombat: Recon[NEWLINE][ICON_BULLET]+15% Withdraw Chance[NEWLINE][ICON_BULLET]+2 Offensive Strength[NEWLINE][ICON_BULLET]+1-3 First Strikes[NEWLINE][ICON_BULLET]+1 Movement Range</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen, Archer I -->
+		<Tag>TXT_KEY_PYHELP_BD_ARCHER1</Tag>
+		<English>[ICON_BULLET]UnitCombat: Archer[NEWLINE][ICON_BULLET]+6 Ranged Strength[NEWLINE][ICON_BULLET]+40% Ranged Damage Limit[NEWLINE][ICON_BULLET]+2 Attack Range[NEWLINE][ICON_BULLET]+30% Chance to deal +15% Damage to attacking Units</English>
+		<French>[ICON_BULLET]Classe: Archer[NEWLINE][ICON_BULLET]+6 Puissance à distance[NEWLINE][ICON_BULLET]+40% Dégâts maximum à distance[NEWLINE][ICON_BULLET]+2 Portée d'attaque[NEWLINE][ICON_BULLET]+30% d'infliger +15% dégâts aux unités attaquantes</French>
+		<German>[ICON_BULLET]Kampfklasse: Bogensch&#252;tze[NEWLINE][ICON_BULLET]+6 Fernkampfst&#228;rke[NEWLINE][ICON_BULLET]+40% Fernkampfschaden Limit[NEWLINE][ICON_BULLET]+2 Angriffsreichweite[NEWLINE][ICON_BULLET]+30% Chance, angreifenden Einheiten +15% Schaden beizubringen</German>
+		<Italian>[ICON_BULLET]UnitCombat: Archer[NEWLINE][ICON_BULLET]+6 Ranged Strength[NEWLINE][ICON_BULLET]+40% Ranged Damage Limit[NEWLINE][ICON_BULLET]+2 Attack Range[NEWLINE][ICON_BULLET]+30% Chance to deal +15% Damage to attacking Units</Italian>
+		<Spanish>[ICON_BULLET]UnitCombat: Archer[NEWLINE][ICON_BULLET]+6 Ranged Strength[NEWLINE][ICON_BULLET]+40% Ranged Damage Limit[NEWLINE][ICON_BULLET]+2 Attack Range[NEWLINE][ICON_BULLET]+30% Chance to deal +15% Damage to attacking Units</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen, Mounted I -->
+		<Tag>TXT_KEY_PYHELP_BD_MOUNTED1</Tag>
+		<English>[ICON_BULLET]UnitCombat: Mounted[NEWLINE][ICON_BULLET]Secondary UnitCombat: Archer[NEWLINE][ICON_BULLET]+3 Ranged Strength[NEWLINE][ICON_BULLET]+20% Ranged Damage Limit[NEWLINE][ICON_BULLET]+1 Attack Range[NEWLINE][ICON_BULLET]No Defensive Bonuses[NEWLINE][ICON_BULLET]+1 Movement Range[NEWLINE][ICON_BULLET]+15% Withdraw Chance</English>
+		<French>[ICON_BULLET]Classe: Cavalier[NEWLINE][ICON_BULLET]Spécialisation secondaire : Archer[NEWLINE][ICON_BULLET]+3 Puissance à distance[NEWLINE][ICON_BULLET]+20% Dégâts maximum à distance[NEWLINE][ICON_BULLET]+1 Portée d'attaque[NEWLINE][ICON_BULLET]Ne peut bénéficier de bonus défensif[NEWLINE][ICON_BULLET]+1 capacité de mouvement[NEWLINE][ICON_BULLET]+15% Chance de repli</French>
+		<German>[ICON_BULLET]Kampfklasse: Beritten[NEWLINE][ICON_BULLET]Zweite Kampfklasse: Bogensch&#252;tze[NEWLINE][ICON_BULLET]+3 Kampfreichweite[NEWLINE][ICON_BULLET]+20% Fernkampfschaden Limit[NEWLINE][ICON_BULLET]+1 Angriffsreichweite[NEWLINE][ICON_BULLET]Keine Verteidigungsboni[NEWLINE][ICON_BULLET]+1 Bewegundsreichweite[NEWLINE][ICON_BULLET]+15% R&#252;ckzugschance</German>
+		<Italian>[ICON_BULLET]UnitCombat: Mounted[NEWLINE][ICON_BULLET]Secondary UnitCombat: Archer[NEWLINE][ICON_BULLET]+3 Ranged Strength[NEWLINE][ICON_BULLET]+20% Ranged Damage Limit[NEWLINE][ICON_BULLET]+1 Attack Range[NEWLINE][ICON_BULLET]No Defensive Bonuses[NEWLINE][ICON_BULLET]+1 Movement Range[NEWLINE][ICON_BULLET]+15% Withdraw Chance</Italian>
+		<Spanish>[ICON_BULLET]UnitCombat: Mounted[NEWLINE][ICON_BULLET]Secondary UnitCombat: Archer[NEWLINE][ICON_BULLET]+3 Ranged Strength[NEWLINE][ICON_BULLET]+20% Ranged Damage Limit[NEWLINE][ICON_BULLET]+1 Attack Range[NEWLINE][ICON_BULLET]No Defensive Bonuses[NEWLINE][ICON_BULLET]+1 Movement Range[NEWLINE][ICON_BULLET]+15% Withdraw Chance</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen, Mounted II -->
+		<Tag>TXT_KEY_PYHELP_BD_MOUNTED2</Tag>
+		<English>[ICON_BULLET]UnitCombat: Mounted[NEWLINE][ICON_BULLET]No Defensive Bonuses[NEWLINE][ICON_BULLET]+3 Combat Strength[NEWLINE][ICON_BULLET]+1 Movement Range[NEWLINE][ICON_BULLET]+1-3 First Strikes[NEWLINE][ICON_BULLET]+15% Withdraw Chance</English>
+		<French>[ICON_BULLET]Classe: Cavalier[NEWLINE][ICON_BULLET]Ne peut bénéficier de bonus défensif[NEWLINE][ICON_BULLET]+3 Puissance[NEWLINE][ICON_BULLET]+1 capacité de mouvement[NEWLINE][ICON_BULLET]première(s) attaque(s)[NEWLINE][ICON_BULLET]+15% Chance de repli</French>
+		<German>[ICON_BULLET]Kampfklasse: Beritten[NEWLINE][ICON_BULLET]Keine Verteidigungsboni[NEWLINE][ICON_BULLET]+3 St&#228;rke[NEWLINE][ICON_BULLET]+1 Bewegungsreichweite[NEWLINE][ICON_BULLET]+1-3 Erstangriffe[NEWLINE][ICON_BULLET]+15% R&#252;ckzugschance</German>
+		<Italian>[ICON_BULLET]UnitCombat: Mounted[NEWLINE][ICON_BULLET]No Defensive Bonuses[NEWLINE][ICON_BULLET]+3 Combat Strength[NEWLINE][ICON_BULLET]+1 Movement Range[NEWLINE][ICON_BULLET]+1-3 First Strikes[NEWLINE][ICON_BULLET]+15% Withdraw Chance</Italian>
+		<Spanish>[ICON_BULLET]UnitCombat: Mounted[NEWLINE][ICON_BULLET]No Defensive Bonuses[NEWLINE][ICON_BULLET]+3 Combat Strength[NEWLINE][ICON_BULLET]+1 Movement Range[NEWLINE][ICON_BULLET]+1-3 First Strikes[NEWLINE][ICON_BULLET]+15% Withdraw Chance</Spanish>
+	</TEXT>
+	<TEXT>		<!-- The Black Duke's Gentlemen, Adept I -->
+		<Tag>TXT_KEY_PYHELP_BD_ADEPT1</Tag>
+		<English>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]Secondary UnitCombat: Adept[NEWLINE][ICON_BULLET]Can cast tier 2 spells[NEWLINE][ICON_BULLET]+1 Combat Strength</English>
+		<French>[ICON_BULLET]Classe : Combat rapproché[NEWLINE][ICON_BULLET]Spécialisation secondaire : Adepte[NEWLINE][ICON_BULLET]Peut lancer des sorts de niveau 2[NEWLINE][ICON_BULLET]+1 Puissance</French>
+		<German>[ICON_BULLET]Kampfklasse: Nahkampf[NEWLINE][ICON_BULLET]Zweite Kampfklasse: Adept[NEWLINE][ICON_BULLET]Kann Level 2 Zauber sprechen[NEWLINE][ICON_BULLET]+1 St&#228;rke</German>
+		<Italian>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]Secondary UnitCombat: Adept[NEWLINE][ICON_BULLET]Can cast tier 2 spells[NEWLINE][ICON_BULLET]+1 Combat Strength</Italian>
+		<Spanish>[ICON_BULLET]UnitCombat: Melee[NEWLINE][ICON_BULLET]Secondary UnitCombat: Adept[NEWLINE][ICON_BULLET]Can cast tier 2 spells[NEWLINE][ICON_BULLET]+1 Combat Strength</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BLACKDUKE_1</Tag>
+		<English>Pay their fee, exorbiant as it is; they will be needed!</English>
+		<French>Payez leur coût, aussi exhorbitant soit-il; vous en aurez besoin!</French>
+		<German>Zahlt Ihren Preis, so hoch er auch ist; ihr werdet sie brauchen!</German>
+		<Italian>Pay their fee, exorbiant as it is; they will be needed!</Italian>
+		<Spanish>Pay their fee, exorbiant as it is; they will be needed!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BLACKDUKE_2</Tag>
+		<English>Use your long-standing partnership with the Guild to negotiate a better deal; the Black Duke might very well be worth the full fee, but why spend more than you have to?</English>
+		<French>Utilisez vos longues relations avec la Guilde pour négocier un meilleur prix. Le Duc Noir vaut très probablement le plein tarif, mais pourquoi payer plus que nécessaire ?</French>
+		<German>Nutzt Eure langj&#228;hrige Partnerschaft mit der Gilde, um einen besseren Handel herauszuschlagen; der Schwarze Herzog mag sehr wohl die gesamte Summe wert sein, doch warum mehr ausgeben als sein muss?</German>
+		<Italian>Use your long-standing partnership with the Guild to negotiate a better deal; the Black Duke might very well be worth the full fee, but why spend more than you have to?</Italian>
+		<Spanish>Use your long-standing partnership with the Guild to negotiate a better deal; the Black Duke might very well be worth the full fee, but why spend more than you have to?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BLACK_DUKE_HELP</Tag>
+		<English>[ICON_BULLET]You hire The Black Duke</English>
+		<French>[ICON_BULLET]Vous recrutez le Duc Noir</French>
+		<German>[ICON_BULLET]Ihr heuert den Schwarzen Herzog an</German>
+		<Italian>[ICON_BULLET]You hire The Black Duke</Italian>
+		<Spanish>[ICON_BULLET]You hire The Black Duke</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BLACKDUKE</Tag>
+		<English>A representative of the Guild of the Nine approaches you with an offer to hire their most elite group of mercenaries - the Black Duke's Gentlemen. How do you respond?</English>
+		<French>Un représentant de la Guilde des Neuf vous contacte pour vous proposer de recruter leur meilleur groupe de mercenaires - Les compagnons du Duc Noir. Que répondez-vous?</French>
+		<German>Ein Vertreter der Gilde der Neun unterbreitet Euch das Angebot, dass Ihr ihre herausragendste Schar von S&#246;ldnern verpflichten d&#252;rft - die Ehrenm&#228;nner des Schwarzen Herzog. Was ist Eure Antwort?</German>
+		<Italian>A representative of the Guild of the Nine approaches you with an offer to hire their most elite group of mercenaries - the Black Duke's Gentlemen. How do you respond?</Italian>
+		<Spanish>A representative of the Guild of the Nine approaches you with an offer to hire their most elite group of mercenaries - the Black Duke's Gentlemen. How do you respond?</Spanish>
+	</TEXT>
+</Civ4GameText>

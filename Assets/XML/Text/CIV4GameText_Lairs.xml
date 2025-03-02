@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BARROW</Tag>
+		<English>Barrow (I)</English>
+		<French>Tumulus (I)</French>
+		<German>Grabhügel (I)</German>
+		<Italian>Barrow (I)</Italian>
+		<Spanish>Túmulo (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BARROW_PEDIA</Tag>
+		<English>Spawns skeletons and more powerful undead if the barrow isn't eliminated.</English>
+		<French>Génèrent des squelettes et des morts-vivants plus puissants s'ils ne sont pas éliminés.</French>
+		<German>Ein Grabhügel sollte zerstört werden eh ihm Skelette und stärkere Untote entsteigen.</German>
+		<Italian>Spawns skeletons and more powerful undead if the barrow isn't eliminated.</Italian>
+		<Spanish>Genera esqueletos y no-muertos más poderosos si el túmulo no es eliminado.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BARROW_GLOOMY</Tag>
+		<English>Gloomy Barrow (II)</English>
+		<French>Tumulus obscur (II)</French>
+		<German>Düsterer Grabhügel (II)</German>
+		<Italian>Gloomy Barrow (II)</Italian>
+		<Spanish>Gloomy Barrow (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BARROW_HOWLING</Tag>
+		<English>Howling Barrow (III)</English>
+		<French>Tumulus hurlant (III)</French>
+		<German>Schreierfüllter Grabhügel (III)</German>
+		<Italian>Howling Barrow (III)</Italian>
+		<Spanish>Howling Barrow (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CENTAUR_CAMP</Tag>
+		<English>Centaur Camp (I)</English>
+		<French>Camp centaure (I)</French>
+		<German>Zentaurenlager (I)</German>
+		<Italian>Centaur Camp (I)</Italian>
+		<Spanish>Centaur Camp (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CENTAUR_WARCAMP</Tag>
+		<English>Centaur Warcamp (II)</English>
+		<French>Camp de guerre centaure (II)</French>
+		<German>Zentaurisches Feldlager (II)</German>
+		<Italian>Centaur Warcamp (II)</Italian>
+		<Spanish>Centaur Warcamp (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_CENTAUR_VILLAGE</Tag>
+		<English>Centaur Village (III)</English>
+		<French>Village centaure (III)</French>
+		<German>Zentaurendorf (III)</German>
+		<Italian>Centaur Village (III)</Italian>
+		<Spanish>Centaur Village (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BANDIT_ENCAMPMENT</Tag>
+		<English>Bandit Encampment (I)</English>
+		<French>Campement bandit (I)</French>
+		<German>Bandit Encampment (I)</German>
+		<Italian>Bandit Encampment (I)</Italian>
+		<Spanish>Bandit Encampment (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BANDIT_HIDEOUT</Tag>
+		<English>Bandit Hideout (II)</English>
+		<French>Planque bandit (II)</French>
+		<German>Banditenversteck (II)</German>
+		<Italian>Bandit Hideout (II)</Italian>
+		<Spanish>Bandit Hideout (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_BANDIT_FORTRESS</Tag>
+		<English>Bandit Fortress (III)</English>
+		<French>Forteresse bandit (III)</French>
+		<German>Banditenfestung (III)</German>
+		<Italian>Bandit Fortress (III)</Italian>
+		<Spanish>Bandit Fortress (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GOBLIN_CAMP</Tag>
+		<English>Goblin Camp (I)</English>
+		<French>Camp gobelin (I)</French>
+		<German>Goblinlager (I)</German>
+		<Italian>Goblin Camp (I)</Italian>
+		<Spanish>Goblin Camp (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GOBLIN_VILLAGE</Tag>
+		<English>Goblin Village (II)</English>
+		<French>Village gobelin (II)</French>
+		<German>Goblindorf (II)</German>
+		<Italian>Goblin Village (II)</Italian>
+		<Spanish>Goblin Village (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_GOBLIN_TOWN</Tag>
+		<English>Goblin Town (III)</English>
+		<French>
+			<Text>Ville gobeline (III)</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>Goblinstadt (III)</German>
+		<Italian>Goblin Town (III)</Italian>
+		<Spanish>Goblin Town (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_STAEDDING</Tag>
+		<English>Staedding (I)</English>
+		<French>Staedding (I)</French>
+		<German>Staedding (I)</German>
+		<Italian>Staedding (I)</Italian>
+		<Spanish>Staedding (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_STAEDDING_OLD</Tag>
+		<English>Old Staedding (II)</English>
+		<French>Staedding ancien (II)</French>
+		<German>Altes Staedding (II)</German>
+		<Italian>Old Staedding (II)</Italian>
+		<Spanish>Old Staedding (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_STAEDDING_LEGENDARY</Tag>
+		<English>Legendary Staedding (III)</English>
+		<French>Staedding légendaire (III)</French>
+		<German>Legendäres Staedding (III)</German>
+		<Italian>Legendary Staedding (III)</Italian>
+		<Spanish>Legendary Staedding (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_RUINS</Tag>
+		<English>Ruins (I)</English>
+		<French>
+			<Text>Ruines (I)</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Ruinen (I)</German>
+		<Italian>Ruins (I)</Italian>
+		<Spanish>Ruins (I)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_RUINS_PEDIA</Tag>
+		<English>Ruins will spawn lizardmen if it isn't eliminated.</English>
+		<French>[ICON_BULLET]Les Ruines génèreront des hommes-lézards s'ils ne sont pas éliminés</French>
+		<German>Ruinen sollten zerstört werden eh ihnen Echsenkrieger entsteigen.</German>
+		<Italian>Ruins will spawn lizardmen if it isn't eliminated.</Italian>
+		<Spanish>Las ruinas generarán hombres-lagarto si no son eliminadas.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_RUINS_SPRAWLING</Tag>
+		<English>Sprawling Ruins (II)</English>
+		<French>
+			<Text>Ruines étendues (II)</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Ausgedehnte Ruinen (II)</German>
+		<Italian>Sprawling Ruins (II)</Italian>
+		<Spanish>Sprawling Ruins (II)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_RUINS_COLOSSAL</Tag>
+		<English>Colossal Ruins (III)</English>
+		<French>
+			<Text>Ruines colossales (III)</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>Riesige Ruinen (III)</German>
+		<Italian>Colossal Ruins (III)</Italian>
+		<Spanish>Colossal Ruins (III)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BANDIT</Tag>
+		<English>Bandit</English>
+		<French>
+			<Text>Bandit:Bandits</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Bandit</German>
+		<Italian>Bandit</Italian>
+		<Spanish>Bandit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BANDIT_CHIEF</Tag>
+		<English>Bandit Chief</English>
+		<French>
+			<Text>Chef bandit:Chefs bandits</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Banditenkönig</German>
+		<Italian>Bandit Chief</Italian>
+		<Spanish>Bandit Chief</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BANDIT_VIGIL</Tag>
+		<English>Bandit Vigil</English>
+		<French>
+			<Text>Vigile bandit:Vigiles bandits</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Banditenwache</German>
+		<Italian>Bandit Vigil</Italian>
+		<Spanish>Bandit Vigil</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HIGHWAYMAN</Tag>
+		<English>Highwayman</English>
+		<French>
+			<Text>Bandit de grand chemin:Bandits de grand chemin</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Wegelagerer</German>
+		<Italian>Highwayman</Italian>
+		<Spanish>Highwayman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WILD_LIZARDMAN</Tag>
+		<English>Wild Lizardman</English>
+		<French>
+			<Text>Homme-lézard sauvage:Hommes-lézards sauvages</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Wilder Echsenmensch</German>
+		<Italian>Wild Lizardman</Italian>
+		<Spanish>Wild Lizardman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_HEAVY_LIZARDMAN</Tag>
+		<English>Heavy Lizardman</English>
+		<French>
+			<Text>Homme-lézard lourd:Hommes-lézards lourds</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Gepanzerter Echsenmensch</German>
+		<Italian>Heavy Lizardman</Italian>
+		<Spanish>Heavy Lizardman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_TEOPIXKI</Tag>
+		<English>Teopixki</English>
+		<French>Teopixki</French>
+		<German>Teopixki</German>
+		<Italian>Teopixki</Italian>
+		<Spanish>Teopixki</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GOBLIN_SAPPER</Tag>
+		<English>Goblin Sapper</English>
+		<French>
+			<Text>Sapeur gobelin:Sapeurs gobelins</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Goblin Sappeur</German>
+		<Italian>Goblin Sapper</Italian>
+		<Spanish>Goblin Sapper</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GOBLIN_WOLF_ARCHER</Tag>
+		<English>Goblin Wolf Archer</English>
+		<French>
+			<Text>Archer monté gobelin:Archers montés gobelins</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Goblin Wolfsbogenschütze</German>
+		<Italian>Goblin Wolf Archer</Italian>
+		<Spanish>Goblin Wolf Archer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GOBLIN_LORD</Tag>
+		<English>Goblin Lord</English>
+		<French>
+			<Text>Chef gobelin:Chefs gobelins</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Goblin Lord</German>
+		<Italian>Goblin Lord</Italian>
+		<Spanish>Goblin Lord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SKELETON_ARCHER</Tag>
+		<English>Skeleton Archer</English>
+		<French>
+			<Text>Archer squelette:Archers squelettes</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Skelettbogenschütze</German>
+		<Italian>Skeleton Archer</Italian>
+		<Spanish>Skeleton Archer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SKELETON_PIKEMAN</Tag>
+		<English>Skeleton Pikeman</English>
+		<French>
+			<Text>Piquier squelette:Piquiers squelettes</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Skeleton Lanzenträger</German>
+		<Italian>Skeleton Pikeman</Italian>
+		<Spanish>Skeleton Pikeman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_LORD_OF_THE_DEAD</Tag>
+		<English>Lord of the Dead</English>
+		<French>
+			<Text>Seigneur des morts:Seigneurs des morts</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Herr der Toten</German>
+		<Italian>Lord of the Dead</Italian>
+		<Spanish>Lord of the Dead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FALLEN_KNIGHT</Tag>
+		<English>Fallen Knight</English>
+		<French>
+			<Text>Chevalier déchu:Chevaliers déchus</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Gefallener Ritter</German>
+		<Italian>Fallen Knight</Italian>
+		<Spanish>Fallen Knight</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CENTAUR_OUTRUNNER</Tag>
+		<English>Centaur Outrunner</English>
+		<French>
+			<Text>Galopeur centaure:Galopeurs centaures</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Zentaurischer Hetzjäger</German>
+		<Italian>Centaur Outrunner</Italian>
+		<Spanish>Centaur Outrunner</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CENTAUR_MARAUDER</Tag>
+		<English>Centaur Marauder</English>
+		<French>
+			<Text>Maraudeur centaure:Maraudeurs centaures</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Zentaurischer Marodeur</German>
+		<Italian>Centaur Marauder</Italian>
+		<Spanish>Centaur Marauder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_CENTAUR_CLANCHIEF</Tag>
+		<English>Centaur Clanchief</English>
+		<French>
+			<Text>Chef de clan centaure:Chefs de clan centaures</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Zentaurischer Stammeshäuptling</German>
+		<Italian>Centaur Clanchief</Italian>
+		<Spanish>Centaur Clanchief</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JARL</Tag>
+		<English>Jarl</English>
+		<French>Jarl</French>
+		<German>Jarl</German>
+		<Italian>Jarl</Italian>
+		<Spanish>Jarl</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FROSTLING_AXEMAN</Tag>
+		<English>Frostling Axeman</English>
+		<French>
+			<Text>Gelbionte avec hache:Gelbiontes avec hache</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Frostling Axtkämpfer</German>
+		<Italian>Frostling Axeman</Italian>
+		<Spanish>Frostling Axeman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FROSTLING_SHAMAN</Tag>
+		<English>Frostling Shaman</English>
+		<French>
+			<Text>Chaman gelbionte:Chamans gelbiontes</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Frostling Schamane</German>
+		<Italian>Frostling Shaman</Italian>
+		<Spanish>Frostling Shaman</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_JOT_TROLL</Tag>
+		<English>Wild Troll</English>
+		<French>
+			<Text>Troll sauvage:Trolls sauvages</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Wilder Troll</German>
+		<Italian>Wild Troll</Italian>
+		<Spanish>Wild Troll</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARSH_WORM</Tag>
+		<English>Marsh Wyrm</English>
+		<French>
+			<Text>Ver des Marais:Vers des Marais</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Marsch Lindwurm</German>
+		<Italian>Sand Wyrm</Italian>
+		<Spanish>Sand Wyrm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SAND_WORM</Tag>
+		<English>Sand Wyrm</English>
+		<French>
+			<Text>Ver des Sables:Vers des Sables</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Sand Lindwurm</German>
+		<Italian>Sand Wyrm</Italian>
+		<Spanish>Sand Wyrm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ICE_WORM</Tag>
+		<English>Ice Wyrm</English>
+		<French>
+			<Text>Ver des Glaces:Vers des Glaces</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>Eis Lindwurm</German>
+		<Italian>Ice Wyrm</Italian>
+		<Spanish>Ice Wyrm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SAND_WORM_PEDIA</Tag>
+		<English>Sandworms live beneath the sand. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</English>
+		<French>Sandworms live beneath the sand. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</French>
+		<German>Sandworms live beneath the sand. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</German>
+		<Italian>Sandworms live beneath the sand. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</Italian>
+		<Spanish>Sandworms live beneath the sand. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MARSH_WORM_PEDIA</Tag>
+		<English>Marshworms live beneath the swamps. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</English>
+		<French>Marshworms live beneath the swamps. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</French>
+		<German>Marshworms live beneath the swamps. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</German>
+		<Italian>Marshworms live beneath the swamps. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</Italian>
+		<Spanish>Marshworms live beneath the swamps. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ICE_WORM_PEDIA</Tag>
+		<English>Iceworms live beneath the ice. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</English>
+		<French>Iceworms live beneath the ice. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</French>
+		<German>Iceworms live beneath the ice. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</German>
+		<Italian>Iceworms live beneath the ice. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</Italian>
+		<Spanish>Iceworms live beneath the ice. Attracted to rhythmic vibrations on the surface, they breach in pursuit of the origin of such vibrations. This is a way to hunt, as well as an effort to defend their territory, of which they were highly protective. Thus to see a worm, and live to tell about it, is extremely rare. Due to the difficulty of studying these creatures, not much is known about the wyrm. The longevity of the wyrm is supposedly extreme, estimated in the thousands of years.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEASH_0</Tag>
+		<English>Leash (0)</English>
+		<French>Leash (0)</French>
+		<German>Leine (0)</German>
+		<Italian>Leash (0)</Italian>
+		<Spanish>Leash (0)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_LEASH_1</Tag>
+		<English>Leash (1)</English>
+		<French>Leash (1)</French>
+		<German>Leine (1)</German>
+		<Italian>Leash (1)</Italian>
+		<Spanish>Leash (1)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MARSH_MARCHERS_LEADER</Tag>
+		<English>Marsh Marchers Commander</English>
+		<French>Marsh Marchers Commander</French>
+		<German>Marschlünder Kommandant</German>
+		<Italian>Marsh Marchers Commander</Italian>
+		<Spanish>Marsh Marchers Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SECONDARY_COMMANDER</Tag>
+		<English>Secondary Commander</English>
+		<French>Commandant en second</French>
+		<German>Unterkommandant</German>
+		<Italian>Secondary Commander</Italian>
+		<Spanish>Secondary Commander</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GOBLIN_LORD_POISON</Tag>
+		<English>Goblin Lord</English>
+		<French>Chef gobelin</French>
+		<German>Goblin Lord</German>
+		<Italian>Goblin Lord</Italian>
+		<Spanish>Goblin Lord</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GOBLIN_LORD_POISON_MINION</Tag>
+		<English>Goblin Lord Poison</English>
+		<French>Poison du Chef gobelin</French>
+		<German>Goblin Lord Gift</German>
+		<Italian>Goblin Lord Poison</Italian>
+		<Spanish>Goblin Lord Poison</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARMY_OF_THE_DEAD_LEADER</Tag>
+		<English>Army of the Dead</English>
+		<French>Armée des morts</French>
+		<German>Armee der Toten</German>
+		<Italian>Army of the Dead</Italian>
+		<Spanish>Army of the Dead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WOLFRIDER_COLD</Tag>
+		<English>Winter Wolf Rider</English>
+		<French>Monteloup hivernal</French>
+		<German>Winterfester Wolfsreiter</German>
+		<Italian>Winter Wolf Rider</Italian>
+		<Spanish>Winter Wolf Rider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FROST_GIANT_ENTOURAGE_LEADER</Tag>
+		<English>Frost Giant Entourage</English>
+		<French>Entourage du Géant du froid</French>
+		<German>Frostriesen Gefolge</German>
+		<Italian>Frost Giant Entourage</Italian>
+		<Spanish>Frost Giant Entourage</Spanish>
+	</TEXT>
+</Civ4GameText>

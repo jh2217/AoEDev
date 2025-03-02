@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Building Class Infos -->
+<Civ4BuildingClassInfos xmlns="x-schema:mom-buildings_CIV4BuildingsSchema.xml">
+	<BuildingClassInfos>
+		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_HELL_STABLE</Type>
+			<Description>TXT_KEY_BUILDING_HELL_STABLE</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<bNoLimit>0</bNoLimit>
+			<bMonument>0</bMonument>
+			<bUnique>1</bUnique>
+			<DefaultBuilding>BUILDING_HELL_STABLE</DefaultBuilding>
+			<VictoryThresholds/>
+		</BuildingClassInfo>		
+	</BuildingClassInfos>
+</Civ4BuildingClassInfos>

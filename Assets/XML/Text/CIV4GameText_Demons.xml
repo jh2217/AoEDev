@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PIT_BEAST</Tag>
+		<English>Pit Beast</English>
+		<French>Bête des Mines</French>
+		<German>Grubenbestie</German>
+		<Italian>Pit Beast</Italian>
+		<Spanish>Pit Beast</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PIT_BEAST_PEDIA</Tag>
+		<English>A foul creature summoned from the depths of some dark place, a soul bound to a writhing, shaking mass of stitched flesh, bound to it's owners commands yet fighting them constantly, wishing only to escape and end its existance..</English>
+		<French>A foul creature summoned from the depths of some dark place, a soul bound to a writhing, shaking mass of stitched flesh, bound to it's owners commands yet fighting them constantly, wishing only to escape and end its existance..</French>
+		<German>Eine aus den Tiefen eines dunklen Ortes beschworene faulriechende Kreatur. Eine an eine sich windende, schüttelnde Masse von zusammengenähtem Fleisch gebundene Seele, die den Befehlen des Herren Folge leisten muss und ihn denoch immer im Wunsch nach Freiheit und dem Ende der eigenen Existenz bekämpft...</German>
+		<Italian>A foul creature summoned from the depths of some dark place, a soul bound to a writhing, shaking mass of stitched flesh, bound to it's owners commands yet fighting them constantly, wishing only to escape and end its existance..</Italian>
+		<Spanish>A foul creature summoned from the depths of some dark place, a soul bound to a writhing, shaking mass of stitched flesh, bound to it's owners commands yet fighting them constantly, wishing only to escape and end its existance..</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PIT_BEAST_STRATEGY</Tag>
+		<English>Pit Beasts are abominations made from the pieces of various slain demons. They ache for a chance to avenge their destruction, and will heed any call to return to the mortal realm. As long as they taste blood, they can continue their assault indefinitely.</English>
+		<French>Pit Beasts are abominations made from the pieces of various slain demons. They ache for a chance to avenge their destruction, and will heed any call to return to the mortal realm. As long as they taste blood, they can continue their assault indefinitely.</French>
+		<German>Grubenbestien werden aus den Leichenteilen getöteter Dämonen erschaffen. Sie lechzen danach, ihre Vernichtung zu rächen, weshalb sie jedem Ruf, der sie in die Welt der Sterblichen führt, folgen werden. Und sie werden dort solange verharren, bis sie kein Blut mehr schmecken.</German>
+		<Italian>Pit Beasts are abominations made from the pieces of various slain demons. They ache for a chance to avenge their destruction, and will heed any call to return to the mortal realm. As long as they taste blood, they can continue their assault indefinitely.</Italian>
+		<Spanish>Pit Beasts are abominations made from the pieces of various slain demons. They ache for a chance to avenge their destruction, and will heed any call to return to the mortal realm. As long as they taste blood, they can continue their assault indefinitely.</Spanish>
+	</TEXT>
+</Civ4GameText>

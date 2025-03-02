@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_MISC_NOW_KNOWN_AS</Tag>
+		<English>The [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] is now known as the [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT].</English>
+		<French>[COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] est maintenant connu en tant que [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT].</French>
+		<German>[COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] heisst nun [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT].</German>
+		<Italian>The [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] is now known as the [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT].</Italian>
+		<Spanish>The [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] is now known as the [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_UNKNOWN</Tag>
+		<English>Unknown Tribe</English>
+		<French>Tribu inconnue</French>
+		<German>Unknown Tribe</German>
+		<Italian>Unknown Tribe</Italian>
+		<Spanish>Unknown Tribe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_TRIBE</Tag>
+		<English>%s2_aciv Tribe</English>
+		<French>Tribu %s2:2_aciv</French>
+		<German>Stamm der %s1_sciv</German>
+		<Italian>%s2_aciv Tribe</Italian>
+		<Spanish>%s2_aciv Tribe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_PROVINCE</Tag>
+		<English>%s2_aciv Province</English>
+		<French>Province %s2:2_aciv</French>
+		<German>%s2_aciv Provinz</German>
+		<Italian>%s2_aciv Province</Italian>
+		<Spanish>%s2_aciv Province</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_COLONY</Tag>
+		<English>%s2_aciv Colony</English>
+		<French>Colonie %s2:2_aciv</French>
+		<German>%s2_aciv Kolonie</German>
+		<Italian>%s2_aciv Colony</Italian>
+		<Spanish>%s2_aciv Colony</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_DICTATORSHIP</Tag>
+		<English>%s2_aciv Dictatorship</English>
+		<French>Dictature %s2:2_aciv</French>
+		<German>%s2_aciv Diktatur</German>
+		<Italian>%s2_aciv Dictatorship</Italian>
+		<Spanish>%s2_aciv Dictatorship</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_TYRANNY</Tag>
+		<English>%s2_aciv Tyranny</English>
+		<French>Tyrannie %s2:2_aciv</French>
+		<German>%s2_aciv Tyrannis</German>
+		<Italian>%s2_aciv Tyranny</Italian>
+		<Spanish>%s2_aciv Tyranny</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_HORDE</Tag>
+		<English>%s2_aciv Horde</English>
+		<French>Horde %s2:2_aciv</French>
+		<German>%s2_aciv Horde</German>
+		<Italian>%s2_aciv Horde</Italian>
+		<Spanish>%s2_aciv Horde</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_AUTOCRACY</Tag>
+		<English>%s2_aciv Autocracy</English>
+		<French>Autocratie %s2:2_aciv</French>
+		<German>%s2_aciv Autokratie</German>
+		<Italian>%s2_aciv Autocracy</Italian>
+		<Spanish>%s2_aciv Autocracy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_CITY_STATE</Tag>
+		<English>City State of %s4_city</English>
+		<French>Cité-État de %s4_city</French>
+		<German>Stadtstaat zu %s4_city</German>
+		<Italian>City State of %s4_city</Italian>
+		<Spanish>City State of %s4_city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_SACRED_CITY</Tag>
+		<English>Sacred City State of %s4_city</English>
+		<French>Cité-État sacrée de %s4_city</French>
+		<German>Sakraler Stadtstaat zu %s4_city</German>
+		<Italian>Sacred City State of %s4_city</Italian>
+		<Spanish>Sacred City State of %s4_city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_CITY_STATES</Tag>
+		<English>%s2_aciv City States</English>
+		<French>Cités-États %s2:4_aciv</French>
+		<German>%s2_aciv Stadtstaaten</German>
+		<Italian>%s2_aciv City States</Italian>
+		<Spanish>%s2_aciv City States</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_SACRED_CITIES</Tag>
+		<English>Sacred %s2_aciv City States</English>
+		<French>Cités-États sacrées %s2:4_aciv</French>
+		<German>Sakrale %s2_aciv Stadtstaaten</German>
+		<Italian>Sacred %s2_aciv City States</Italian>
+		<Spanish>Sacred %s2_aciv City States</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_PEACE_LEAGUE</Tag>
+		<English>%s2_aciv League of Peace</English>
+		<French>Ligue %s2:2_aciv de la paix</French>
+		<German>Friedensbund der %s2_sciv</German>
+		<Italian>%s2_aciv League of Peace</Italian>
+		<Spanish>%s2_aciv League of Peace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_FREE_CITIES</Tag>
+		<English>Free %s2_aciv City States</English>
+		<French>Cités-États %s2:4_aciv libres</French>
+		<German>Freie %s2_aciv Stadtstaaten</German>
+		<Italian>Free %s2_aciv City States</Italian>
+		<Spanish>Free %s2_aciv City States</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_CHIEFDOM</Tag>
+		<English>%s2_aciv Chiefdom</English>
+		<French>Chefferie %s2:2_aciv</French>
+		<German>Stammesfürstentum der %s1_sciv</German>
+		<Italian>%s2_aciv Chiefdom</Italian>
+		<Spanish>%s2_aciv Chiefdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_TRIBAL_CHIEFDOM</Tag>
+		<English>Tribal Chiefdom of the %s1_sciv</English>
+		<French>Chefferie tribale des %s1:3_sciv</French>
+		<German>Vereinte Stämme der %s1_sciv</German>
+		<Italian>Tribal Chiefdom of the %s1_sciv</Italian>
+		<Spanish>Tribal Chiefdom of the %s1_sciv</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_GOD_KINGDOM</Tag>
+		<English>Realm of %s3_leader</English>
+		<French>Royaume de %s3_leader</French>
+		<German>Reich von %s3_leader</German>
+		<Italian>Realm of %s3_leader</Italian>
+		<Spanish>Realm of %s3_leader</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_SEE</Tag>
+		<English>Holy See of %s4_city</English>
+		<French>Ville sainte de %s4_city</French>
+		<German>Heiliger Stuhl von %s4_city</German>
+		<Italian>Holy See of %s4_city</Italian>
+		<Spanish>Holy See of %s4_city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_REALM_OF_PEACE</Tag>
+		<English>%[s3_leader]'s Realm of Peace</English>
+		<French>Royaume pacifique de %s3_leader</French>
+		<German>%[s3_leader]s Reich des Friedens</German>
+		<Italian>%[s3_leader]'s Realm of Peace</Italian>
+		<Spanish>%[s3_leader]'s Realm of Peace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_REALM_OF_NATION</Tag>
+		<English>%[s3_leader]'s Realm of the %s1_sciv</English>
+		<French>Royaume %s2:1_aciv de %s3_leader</French>
+		<German>%[s3_leader]s Reich der %s1_sciv</German>
+		<Italian>%[s3_leader]'s Realm of the %s1_sciv</Italian>
+		<Spanish>%[s3_leader]'s Realm of the %s1_sciv</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_KINGDOM</Tag>
+		<English>%s2_aciv Kingdom</English>
+		<French>Royaume %s2:1_aciv</French>
+		<German>%s2_aciv Königreich</German>
+		<Italian>%s2_aciv Kingdom</Italian>
+		<Spanish>%s2_aciv Kingdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_FREE_IMPERIAL_ESTATES</Tag>
+		<English>Free Imperial %s2_aciv Estates</English>
+		<French>Société d'Ancien Régime %s2:2_aciv</French>
+		<German>Freie %s2_aciv Reichsstände</German>
+		<Italian>Free Imperial %s2_aciv Estates</Italian>
+		<Spanish>Free Imperial %s2_aciv Estates</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_PRINCIPALITY</Tag>
+		<English>%s2_aciv Principalities</English>
+		<French>Principautés %s2:4_aciv</French>
+		<German>Fürstentümer der %s1_sciv</German>
+		<Italian>%s2_aciv Principalities</Italian>
+		<Spanish>%s2_aciv Principalities</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_THEOCRACY</Tag>
+		<English>Holy %s2_aciv Kingdom</English>
+		<French>Saint-Empire %s2:1_aciv</French>
+		<German>Heiliges Reich der %s1_sciv</German>
+		<Italian>Holy %s2_aciv Kingdom</Italian>
+		<Spanish>Holy %s2_aciv Kingdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_THE_ASHEN_VEIL_THEOCRACY</Tag>
+		<English>Ashen %s2_aciv Kingdom</English>
+		<French>Royaume %s2:1_aciv des Cendres</French>
+		<German>&#196;schernes Reich der %s1_sciv</German>
+		<Italian>Ashen %s2_aciv Kingdom</Italian>
+		<Spanish>Ashen %s2_aciv Kingdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_THE_EMPYREAN_THEOCRACY</Tag>
+		<English>Enlightened %s2_aciv Kingdom</English>
+		<French>Royaume %s2:1_aciv Éclairé</French>
+		<German>Erleuchtetes Reich der %s1_sciv</German>
+		<Italian>Enlightened %s2_aciv Kingdom</Italian>
+		<Spanish>Enlightened %s2_aciv Kingdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_THE_ORDER_THEOCRACY</Tag>
+		<English>Righteous %s2_aciv Kingdom</English>
+		<French>Royaume %s2:1_aciv des Justes</French>
+		<German>Gerechtes Reich der %s1_sciv</German>
+		<Italian>Righteous %s2_aciv Kingdom</Italian>
+		<Spanish>Righteous %s2_aciv Kingdom</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_REPUBLIC</Tag>
+		<English>%s2_aciv Republic</English>
+		<French>République %s2:2_aciv</French>
+		<German>%s2_aciv Republik</German>
+		<Italian>%s2_aciv Republic</Italian>
+		<Spanish>%s2_aciv Republic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_WILDMEN</Tag>
+		<English>Brotherhood of the %s2_aciv Wildmen</English>
+		<French>Fraternité des Hommes sauvages de %s2_aciv</French>
+		<German>Bruderschaft der %s2_aciv Wilden Männer</German>
+		<Italian>Brotherhood of the %s2_aciv Wildmen</Italian>
+		<Spanish>Brotherhood of the %s2_aciv Wildmen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_PACK</Tag>
+		<English>%[s3_leader]'s Pack</English>
+		<French>Meute de %s3_leader</French>
+		<German>%[s3_leader]s Rudel</German>
+		<Italian>%[s3_leader]'s Pack</Italian>
+		<Spanish>%[s3_leader]'s Pack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_BLOOD_BROTHERS</Tag>
+		<English>%[s3_leader]'s Blood Brothers</English>
+		<French>Frères de sang de %s3_leader</French>
+		<German>%[s3_leader]s Blutsbrüder</German>
+		<Italian>%[s3_leader]'s Blood Brothers</Italian>
+		<Spanish>%[s3_leader]'s Blood Brothers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_STATE_NAME_HUNTSMEN</Tag>
+		<English>%[s3_leader]'s Huntsmen</English>
+		<French>Chasseurs de %s3_leader</French>
+		<German>%[s3_leader]s Jagdgefolge</German>
+		<Italian>%[s3_leader]'s Huntsmen</Italian>
+		<Spanish>%[s3_leader]'s Huntsmen</Spanish>
+	</TEXT>
+</Civ4GameText>

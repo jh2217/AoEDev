@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MONSTROUS_CREATURE</Tag>
+		<English>Monstrous Creature</English>
+		<French>Créature Monstrueuse</French>
+		<German>Monströse Kreatur</German>
+		<Italian>Monstrous Creature</Italian>
+		<Spanish>Monstrous Creature</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SPAWN_BROOD</Tag>
+		<English>Spawn Brood</English>
+		<French>Pondre Couvée</French>
+		<German>Brut erzeugen</German>
+		<Italian>Spawn Brood</Italian>
+		<Spanish>Spawn Brood</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MOLTEN_CORE</Tag>
+		<English>Molten Core</English>
+		<French>C&#156;ur de Lave</French>
+		<German>Geschmolzener Kern</German>
+		<Italian>Molten Core</Italian>
+		<Spanish>Molten Core</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HEART_OF_FROST</Tag>
+		<English>Heart of Frost</English>
+		<French>C&#156;ur gelé</French>
+		<German>Frostherz</German>
+		<Italian>Heart of Frost</Italian>
+		<Spanish>Heart of Frost</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ACID_TONGUE</Tag>
+		<English>Acid Tongue</English>
+		<French>Langue Acide</French>
+		<German>Giftzunge</German>
+		<Italian>Acid Tongue</Italian>
+		<Spanish>Acid Tongue</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ICY_BREATH</Tag>
+		<English>Icy Breath</English>
+		<French>Souffle Glacé</French>
+		<German>Eisiger Atem</German>
+		<Italian>Icy Breath</Italian>
+		<Spanish>Icy Breath</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPIT_ACID</Tag>
+		<English>Spit Acid</English>
+		<French>Cracher de l'Acide</French>
+		<German>Säure spucken</German>
+		<Italian>Spit Acid</Italian>
+		<Spanish>Spit Acid</Spanish>
+	</TEXT>
+</Civ4GameText>
+	

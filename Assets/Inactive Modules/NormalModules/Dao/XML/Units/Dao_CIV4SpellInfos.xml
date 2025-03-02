@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Spell Infos -->
+<Civ4SpellInfos xmlns="x-schema:Dao_CIV4UnitSpellSchema.xml">
+	<SpellInfos>
+		<!-- Elemental unity & swarm -->
+		<SpellInfo>
+			<Type>SPELL_ELEMENTAL_UNITY</Type>
+			<Description>TXT_KEY_SPELL_ELEMENTAL_UNITY</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_ELEMENTAL_UNITY_HELP</Help>
+			<Effect>EFFECT_CREATION</Effect>
+			<Sound>AS3D_SPELL_HEAL</Sound>
+			<Button>Art/Modules/Dao/Buttons/Elementalunity.dds</Button>
+			<bHasCasted>1</bHasCasted>
+			<RemovePromotions>
+					<RemovePromotion>PROMOTION_WITHERED</RemovePromotion>
+			</RemovePromotions>
+			<UnitsIgnorePromotion>
+					<UnitIgnore>UNIT_CONJURER</UnitIgnore>
+			</UnitsIgnorePromotion>
+			<PromotionsPrereq>
+					<PromotionPrereq>PROMOTION_ANCESTRY_AIR</PromotionPrereq>
+					<PromotionPrereq>PROMOTION_ANCESTRY_EARTH</PromotionPrereq>
+					<PromotionPrereq>PROMOTION_ANCESTRY_FIRE</PromotionPrereq>
+					<PromotionPrereq>PROMOTION_ANCESTRY_WATER</PromotionPrereq>
+			</PromotionsPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<PyRequirement>reqElementalUnity(pCaster)</PyRequirement>
+			<PyResult>spellElementalUnity(pCaster,30)</PyResult>
+		</SpellInfo>
+		<SpellInfo>
+			<Type>SPELL_ELEMENTAL_SWARM</Type>
+			<Description>TXT_KEY_SPELL_ELEMENTAL_SWARM</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_ELEMENTAL_SWARM_HELP</Help>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SPELL_WILD_HUNT</Sound>
+			<Button>, ,Art/Modules/Dao/Dao_Atlas.dds,8,1</Button>
+			<bAbility>1</bAbility>
+			<bGlobal>1</bGlobal>
+			<bHasCasted>1</bHasCasted>
+			<CivilizationPrereq>CIVILIZATION_DAO</CivilizationPrereq>
+			<TechPrereq>TECH_ELEMENTALISM</TechPrereq>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>300</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<PyRequirement>reqElementalSwarm(pCaster)</PyRequirement>
+			<PyResult>spellElementalSwarm(pCaster)</PyResult>
+		</SpellInfo>
+		
+		
+		<!-- summon elemental spells : changes to do ! -->
+		<SpellInfo>
+			<Type>SPELL_SUMMON_AIR_ELEMENTAL_MINOR</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_AIR_ELEMENTAL_MINOR</Description>
+			<Civilopedia>TXT_KEY_SPELL_SUMMON_AIR_ELEMENTAL_PEDIA</Civilopedia>
+			<Effect>EFFECT_AIR_SUMMON</Effect>
+			<Sound>AS3D_SPELL_AIR_ELEMENTAL</Sound>
+			<Button>Art/Modules/Dao/Buttons/Air Elemental.dds</Button>
+			<bHasCasted>1</bHasCasted>
+			<CreateUnitType>UNIT_AIR_ELEMENTAL_MINOR</CreateUnitType>
+			<iCreateUnitNum>1</iCreateUnitNum>
+			<bPermanentUnitCreate>1</bPermanentUnitCreate>
+			<PromotionPrereq1>PROMOTION_ANCESTRY_AIR</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+		</SpellInfo>
+		<SpellInfo>
+			<Type>SPELL_SUMMON_WATER_ELEMENTAL_MINOR</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_WATER_ELEMENTAL_MINOR</Description>
+			<Civilopedia>TXT_KEY_SPELL_PLACEHOLDER_PEDIA</Civilopedia>
+			<Effect>EFFECT_WATER_SUMMON</Effect>
+			<Sound>AS3D_SPELL_WATER</Sound>
+			<Button>Art/Modules/Dao/Buttons/Water Elemental.dds</Button>
+			<bHasCasted>1</bHasCasted>
+			<CreateUnitType>UNIT_WATER_ELEMENTAL_MINOR</CreateUnitType>
+			<iCreateUnitNum>1</iCreateUnitNum>
+			<bPermanentUnitCreate>1</bPermanentUnitCreate>
+			<PromotionPrereq1>PROMOTION_ANCESTRY_WATER</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+		</SpellInfo>
+		<SpellInfo>
+			<Type>SPELL_SUMMON_EARTH_ELEMENTAL_MINOR</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_EARTH_ELEMENTAL_MINOR</Description>
+			<Civilopedia>TXT_KEY_SPELL_SUMMON_EARTH_ELEMENTAL_PEDIA</Civilopedia>
+			<Effect>EFFECT_SPELL2</Effect>
+			<Sound>AS3D_SPELL_EARTHQUAKE</Sound>
+			<Button>Art/Modules/Dao/Buttons/Earth Elemental.dds</Button>
+			<bHasCasted>1</bHasCasted>
+			<CreateUnitType>UNIT_EARTH_ELEMENTAL_MINOR</CreateUnitType>
+			<iCreateUnitNum>1</iCreateUnitNum>
+			<bPermanentUnitCreate>1</bPermanentUnitCreate>
+			<PromotionPrereq1>PROMOTION_ANCESTRY_EARTH</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+		</SpellInfo>
+		<SpellInfo>
+			<Type>SPELL_SUMMON_FIRE_ELEMENTAL_MINOR</Type>
+			<Description>TXT_KEY_SPELL_SUMMON_FIRE_ELEMENTAL_MINOR</Description>
+			<Civilopedia>TXT_KEY_SPELL_SUMMON_FIRE_ELEMENTAL_PEDIA</Civilopedia>
+			<Effect>EFFECT_FIRE_SUMMON</Effect>
+			<Sound>AS3D_SPELL_FIRE_ELEMENTAL_MINOR</Sound>
+			<Button>Art/Modules/Dao/Buttons/Fire Elemental.dds</Button>
+			<bHasCasted>1</bHasCasted>
+			<CreateUnitType>UNIT_FIRE_ELEMENTAL_MINOR</CreateUnitType>
+			<iCreateUnitNum>1</iCreateUnitNum>
+			<bPermanentUnitCreate>1</bPermanentUnitCreate>
+			<PromotionPrereq1>PROMOTION_ANCESTRY_FIRE</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+		</SpellInfo>
+   
+		
+	</SpellInfos>
+</Civ4SpellInfos>

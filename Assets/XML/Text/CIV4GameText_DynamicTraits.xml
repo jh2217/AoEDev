@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Evolving Traits -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+<!-- Trait Names -->
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGRARIANIST</Tag>
+		<English>Agrarianist</English>
+		<French>Agrariste</French>
+		<German>Agrarianist</German>
+		<Italian>Agrarianist</Italian>
+		<Spanish>Agrarianist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AGRICULTURAL</Tag>
+		<English>Agricultural</English>
+		<French>Agriculturel</French>
+		<German>Agricultural</German>
+		<Italian>Agricultural</Italian>
+		<Spanish>Agricultural</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ANALYTICAL</Tag>
+		<English>Analytical</English>
+		<French>Analytique</French>
+		<German>Analytical</German>
+		<Italian>Analytical</Italian>
+		<Spanish>Analytical</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_AUTHORITARIAN</Tag>
+		<English>Authoritarian</English>
+		<French>Autoritaire</French>
+		<German>Authoritarian</German>
+		<Italian>Authoritarian</Italian>
+		<Spanish>Authoritarian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BACKSTABBER</Tag>
+		<English>Backstabber</English>
+		<French>Backstabber</French>
+		<German>Backstabber</German>
+		<Italian>Backstabber</Italian>
+		<Spanish>Backstabber</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BENEVOLENT</Tag>
+		<English>Benevolent</English>
+		<French>Bienveillant</French>
+		<German>Benevolent</German>
+		<Italian>Benevolent</Italian>
+		<Spanish>Benevolent</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CAPITALIST</Tag>
+		<English>Capitalist</English>
+		<French>Capitaliste</French>
+		<German>Capitalist</German>
+		<Italian>Capitalist</Italian>
+		<Spanish>Capitalist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_COMMERCIAL</Tag>
+		<English>Commercial</English>
+		<French>Commercial</French>
+		<German>Commercial</German>
+		<Italian>Commercial</Italian>
+		<Spanish>Commercial</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CRUEL</Tag>
+		<English>Cruel</English>
+		<French>Cruel</French>
+		<German>Cruel</German>
+		<Italian>Cruel</Italian>
+		<Spanish>Cruel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DEMOCRATIC</Tag>
+		<English>Democratic</English>
+		<French>Démocratique</French>
+		<German>Democratic</German>
+		<Italian>Democratic</Italian>
+		<Spanish>Democratic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DIPLOMATIC</Tag>
+		<English>Diplomatic</English>
+		<French>Diplomatique</French>
+		<German>Diplomatic</German>
+		<Italian>Diplomatic</Italian>
+		<Spanish>Diplomatic</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EGALITARIAN_HELP</Tag>
+		<English>[NEWLINE]Affirming, promoting, or characterized by belief in equal political, economic, social, and civil rights for all people.</English>
+		<French>[NEWLINE]Affirming, promoting, or characterized by belief in equal political, economic, social, and civil rights for all people.</French>
+		<German>[NEWLINE]Affirming, promoting, or characterized by belief in equal political, economic, social, and civil rights for all people.</German>
+		<Italian>[NEWLINE]Affirming, promoting, or characterized by belief in equal political, economic, social, and civil rights for all people.</Italian>
+		<Spanish>[NEWLINE]Affirming, promoting, or characterized by belief in equal political, economic, social, and civil rights for all people.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXCEPTIONALISM</Tag>
+		<English>Exceptionalism</English>
+		<French>Exceptionalisme</French>
+		<German>Exceptionalism</German>
+		<Italian>Exceptionalism</Italian>
+		<Spanish>Exceptionalism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRAIT_EXCEPTIONALISM_HELP</Tag>
+		<English>[NEWLINE]Immigrants flock to the land of opportunity.</English>
+		<French>[NEWLINE]Immigrants flock to the land of opportunity.</French>
+		<German>[NEWLINE]Immigrants flock to the land of opportunity.</German>
+		<Italian>[NEWLINE]Immigrants flock to the land of opportunity.</Italian>
+		<Spanish>[NEWLINE]Immigrants flock to the land of opportunity.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXPLORERS</Tag>
+		<English>Explorers</English>
+		<French>Explorateur</French>
+		<German>Explorers</German>
+		<Italian>Explorers</Italian>
+		<Spanish>Explorers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FEDERAL</Tag>
+		<English>Federal</English>
+		<French>Fédéral</French>
+		<German>Federal</German>
+		<Italian>Federal</Italian>
+		<Spanish>Federal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FEUDALIST</Tag>
+		<English>Feudalist</English>
+		<French>Féodaliste</French>
+		<German>Feudalist</German>
+		<Italian>Feudalist</Italian>
+		<Spanish>Feudalist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FISHERMEN</Tag>
+		<English>Fishermen</English>
+		<French>Pêcheur</French>
+		<German>Fishermen</German>
+		<Italian>Fishermen</Italian>
+		<Spanish>Fishermen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HORSELORDS</Tag>
+		<English>Horselords</English>
+		<French>Horselords</French>
+		<German>Horselords</German>
+		<Italian>Horselords</Italian>
+		<Spanish>Horselords</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HUMANITARIAN</Tag>
+		<English>Humanitarian</English>
+		<French>Humanitaire</French>
+		<German>Humanitarian</German>
+		<Italian>Humanitarian</Italian>
+		<Spanish>Humanitarian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ISOLATIONIST</Tag>
+		<English>Isolationist</English>
+		<French>Isolationiste</French>
+		<German>Isolationist</German>
+		<Italian>Isolationist</Italian>
+		<Spanish>Isolationist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LIBERTARIAN</Tag>
+		<English>Libertarian</English>
+		<French>Libertaire</French>
+		<German>Libertarian</German>
+		<Italian>Libertarian</Italian>
+		<Spanish>Libertarian</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LIBERTARIAN_HELP</Tag>
+		<English>[NEWLINE]One who advocates maximizing individual rights and minimizing the role of the state.</English>
+		<French>[NEWLINE]One who advocates maximizing individual rights and minimizing the role of the state.</French>
+		<German>[NEWLINE]One who advocates maximizing individual rights and minimizing the role of the state.</German>
+		<Italian>[NEWLINE]One who advocates maximizing individual rights and minimizing the role of the state.</Italian>
+		<Spanish>[NEWLINE]One who advocates maximizing individual rights and minimizing the role of the state.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NATIONALIST</Tag>
+		<English>Nationalist</English>
+		<French>Nationaliste</French>
+		<German>Nationalist</German>
+		<Italian>Nationalist</Italian>
+		<Spanish>Nationalist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NONVIOLENT</Tag>
+		<English>Nonviolent</English>
+		<French>Non-violent</French>
+		<German>Nonviolent</German>
+		<Italian>Nonviolent</Italian>
+		<Spanish>Nonviolent</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NONVIOLENT_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Cannot declare war.</English>
+		<French>[NEWLINE][ICON_BULLET]Cannot declare war.</French>
+		<German>[NEWLINE][ICON_BULLET]Cannot declare war.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Cannot declare war.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Cannot declare war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PASTORALIST</Tag>
+		<English>Pastoralist</English>
+		<French>Pastoraliste</French>
+		<German>Pastoralist</German>
+		<Italian>Pastoralist</Italian>
+		<Spanish>Pastoralist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PASTORALIST_HELP</Tag>
+		<English>[NEWLINE]A social and economic system based on the raising and herding of livestock.</English>
+		<French>[NEWLINE]A social and economic system based on the raising and herding of livestock.</French>
+		<German>[NEWLINE]A social and economic system based on the raising and herding of livestock.</German>
+		<Italian>[NEWLINE]A social and economic system based on the raising and herding of livestock.</Italian>
+		<Spanish>[NEWLINE]A social and economic system based on the raising and herding of livestock.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PHILOSOPHY</Tag>
+		<English>Patron of Philosophy</English>
+		<French>Patron of Philosophy</French>
+		<German>Patron of Philosophy</German>
+		<Italian>Patron of Philosophy</Italian>
+		<Spanish>Patron of Philosophy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PEACEFUL</Tag>
+		<English>Peaceful</English>
+		<French>Pacifiste</French>
+		<German>Peaceful</German>
+		<Italian>Peaceful</Italian>
+		<Spanish>Peaceful</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PROSPERITY</Tag>
+		<English>Period of Prosperity</English>
+		<French>Period of Prosperity</French>
+		<German>Period of Prosperity</German>
+		<Italian>Period of Prosperity</Italian>
+		<Spanish>Period of Prosperity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PRODUCTIVE</Tag>
+		<English>Productive</English>
+		<French>Productif</French>
+		<German>Productive</German>
+		<Italian>Productive</Italian>
+		<Spanish>Productive</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SCIENTIFIC</Tag>
+		<English>Scientific</English>
+		<French>Scientifique</French>
+		<German>Scientific</German>
+		<Italian>Scientific</Italian>
+		<Spanish>Scientific</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SEAFARING</Tag>
+		<English>Seafaring</English>
+		<French>Maritime</French>
+		<German>Seafaring</German>
+		<Italian>Seafaring</Italian>
+		<Spanish>Seafaring</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SOCIALIST</Tag>
+		<English>Socialist</English>
+		<French>Socialiste</French>
+		<German>Socialist</German>
+		<Italian>Socialist</Italian>
+		<Spanish>Socialist</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GREAT_CALM</Tag>
+		<English>The Great Calm</English>
+		<French>The Great Calm</French>
+		<German>The Great Calm</German>
+		<Italian>The Great Calm</Italian>
+		<Spanish>The Great Calm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GREAT_HUNT</Tag>
+		<English>The Great Hunt</English>
+		<French>The Great Hunt</French>
+		<German>The Great Hunt</German>
+		<Italian>The Great Hunt</Italian>
+		<Spanish>The Great Hunt</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_THEOCRAT</Tag>
+		<English>Theocrat</English>
+		<French>Théocrate</French>
+		<German>Theocrat</German>
+		<Italian>Theocrat</Italian>
+		<Spanish>Theocrat</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADERS</Tag>
+		<English>Traders</English>
+		<French>Commerçant</French>
+		<German>Traders</German>
+		<Italian>Traders</Italian>
+		<Spanish>Traders</Spanish>
+	</TEXT>
+
+<!-- Trait Classes -->
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCLASS_CIVILIZATION</Tag>
+		<English>Civilization Trait</English>
+		<French>Trait de Civilisation</French>
+		<German>Civilization Trait</German>
+		<Italian>Civilization Trait</Italian>
+		<Spanish>Civilization Trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCLASS_PERSONALITY</Tag>
+		<English>Personality Traits</English>
+		<French>Trait de Personnalité:Traits de Personnalité</French>
+		<German>Personality Traits</German>
+		<Italian>Personality Traits</Italian>
+		<Spanish>Personality Traits</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCLASS_POLITICAL</Tag>
+		<English>Political Alignments</English>
+		<French>Alignement Politique</French>
+		<German>Political Alignments</German>
+		<Italian>Political Alignments</Italian>
+		<Spanish>Political Alignments</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCLASS_NEGATIVE</Tag>
+		<English>Negative Traits</English>
+		<French>Trait Négatif</French>
+		<German>Negative Traits</German>
+		<Italian>Negative Traits</Italian>
+		<Spanish>Negative Traits</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCLASS_TECH</Tag>
+		<English>Tech Provided Trait</English>
+		<French>Tech Provided Trait</French>
+		<German>Tech Provided Trait</German>
+		<Italian>Tech Provided Trait</Italian>
+		<Spanish>Tech Provided Trait</Spanish>
+	</TEXT>
+<!-- General UI text -->
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCLASS</Tag>
+		<English>[NEWLINE][COLOR_LIGHT_GREY]=========[COLOR_REVERT][SPACE][COLOR_TRAIT_CLASS]%s1[COLOR_REVERT][SPACE][COLOR_LIGHT_GREY]========[COLOR_REVERT]</English>
+		<French>[NEWLINE][COLOR_LIGHT_GREY]=========[COLOR_REVERT][SPACE][COLOR_TRAIT_CLASS]%s1[COLOR_REVERT][SPACE][COLOR_LIGHT_GREY]========[COLOR_REVERT]</French>
+		<German>[NEWLINE][COLOR_LIGHT_GREY]=========[COLOR_REVERT][SPACE][COLOR_TRAIT_CLASS]%s1[COLOR_REVERT][SPACE][COLOR_LIGHT_GREY]========[COLOR_REVERT]</German>
+		<Italian>[NEWLINE][COLOR_LIGHT_GREY]=========[COLOR_REVERT][SPACE][COLOR_TRAIT_CLASS]%s1[COLOR_REVERT][SPACE][COLOR_LIGHT_GREY]========[COLOR_REVERT]</Italian>
+		<Spanish>[NEWLINE][COLOR_LIGHT_GREY]=========[COLOR_REVERT][SPACE][COLOR_TRAIT_CLASS]%s1[COLOR_REVERT][SPACE][COLOR_LIGHT_GREY]========[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PERMANENT</Tag>
+		<English>[NEWLINE]This trait is [COLOR_PERMANENT_TRAIT]Permanent[COLOR_REVERT].</English>
+		<French>[NEWLINE]Ce trait est [COLOR_PERMANENT_TRAIT]permanent[COLOR_REVERT].</French>
+		<German>[NEWLINE]This trait is [COLOR_PERMANENT_TRAIT]Permanent[COLOR_REVERT].</German>
+		<Italian>[NEWLINE]This trait is [COLOR_PERMANENT_TRAIT]Permanent[COLOR_REVERT].</Italian>
+		<Spanish>[NEWLINE]This trait is [COLOR_PERMANENT_TRAIT]Permanent[COLOR_REVERT].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_UNIQUE</Tag>
+		<English>[SPACE]- [COLOR_UNIQUE_TRAIT]Unique[COLOR_REVERT]</English>
+		<French>[SPACE]- [COLOR_UNIQUE_TRAIT]Unique[COLOR_REVERT]</French>
+		<German>[SPACE]- [COLOR_UNIQUE_TRAIT]Unique[COLOR_REVERT]</German>
+		<Italian>[SPACE]- [COLOR_UNIQUE_TRAIT]Unique[COLOR_REVERT]</Italian>
+		<Spanish>[SPACE]- [COLOR_UNIQUE_TRAIT]Unique[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_LEVEL</Tag>
+		<English>[SPACE]- Lvl %d1_level</English>
+		<French>[SPACE]- Niveau %d1_level</French>
+		<German>[SPACE]- Lvl %d1_level</German>
+		<Italian>[SPACE]- Lvl %d1_level</Italian>
+		<Spanish>[SPACE]- Lvl %d1_level</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADERHEAD_TRAIT</Tag>
+		<English>Leaderhead Trait</English>
+		<French>Leaderhead Trait</French>
+		<German>Leaderhead Trait</German>
+		<Italian>Leaderhead Trait</Italian>
+		<Spanish>Leaderhead Trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TEMPORARY_TRAITS</Tag>
+		<English>[COLOR_TEMPORARY_TRAIT]Temporary Traits[COLOR_REVERT]</English>
+		<French>[COLOR_TEMPORARY_TRAIT]Trait temporaire[COLOR_REVERT]</French>
+		<German>[COLOR_TEMPORARY_TRAIT]Temporary Traits[COLOR_REVERT]</German>
+		<Italian>[COLOR_TEMPORARY_TRAIT]Temporary Traits[COLOR_REVERT]</Italian>
+		<Spanish>[COLOR_TEMPORARY_TRAIT]Temporary Traits[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HOLD_BUTTON</Tag>
+		<English>Hold [%s1] for more details.</English>
+		<French>Maintenez [%s1] pour plus de détails.</French>
+		<German>Hold [%s1] for more details.</German>
+		<Italian>Hold [%s1] for more details.</Italian>
+		<Spanish>Hold [%s1] for more details.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_RELEASE_BUTTON</Tag>
+		<English>Release [%s1] for more details.</English>
+		<French>Relâchez [%s1] pour plus de détails.</French>
+		<German>Release [%s1] for more details.</German>
+		<Italian>Release [%s1] for more details.</Italian>
+		<Spanish>Release [%s1] for more details.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SHIFT</Tag>
+		<English>Shift Key</English>
+		<French>Majuscule + </French>
+		<German>Shift Key</German>
+		<Italian>Shift Key</Italian>
+		<Spanish>Shift Key</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PREREQ_ITEM_AND</Tag>
+		<English>[NEWLINE][ICON_BULLET]Requires:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Nécessite :[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Requires:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Requires:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Requires:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PREREQ_ITEM_OR</Tag>
+		<English>[NEWLINE][ICON_BULLET]Requires one of:[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Requires one of:[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Requires one of:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Requires one of:[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Requires one of:[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MUTUALLY_EXCLUSIVE</Tag>
+		<English>[NEWLINE][ICON_BULLET]Incompatible with: </English>
+		<French>[NEWLINE][ICON_BULLET]Incompatible avec : </French>
+		<German>[NEWLINE][ICON_BULLET]Incompatible with: </German>
+		<Italian>[NEWLINE][ICON_BULLET]Incompatible with: </Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Incompatible with: </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TEMPORARY_TRAIT_GAIN</Tag>
+		<English>[ICON_BULLET]Receive [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] temporarily for [COLOR_HIGHLIGHT_TEXT]%d2_count[COLOR_REVERT] turns</English>
+		<French>[ICON_BULLET]Receive [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] temporarily for [COLOR_HIGHLIGHT_TEXT]%d2_count[COLOR_REVERT] turns</French>
+		<German>[ICON_BULLET]Receive [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] temporarily for [COLOR_HIGHLIGHT_TEXT]%d2_count[COLOR_REVERT] turns</German>
+		<Italian>[ICON_BULLET]Receive [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] temporarily for [COLOR_HIGHLIGHT_TEXT]%d2_count[COLOR_REVERT] turns</Italian>
+		<Spanish>[ICON_BULLET]Receive [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] temporarily for [COLOR_HIGHLIGHT_TEXT]%d2_count[COLOR_REVERT] turns</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TECH_TEMPORARY_TRAIT_GAIN_FIRST</Tag>
+		<English>[ICON_BULLET]First to discover receives [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] temporarily for [COLOR_HIGHLIGHT_TEXT]%d2_count[COLOR_REVERT] turns.</English>
+		<French>[ICON_BULLET]First to discover receives [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] temporarily for [COLOR_HIGHLIGHT_TEXT]%d2_count[COLOR_REVERT] turns.</French>
+		<German>[ICON_BULLET]First to discover receives [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] temporarily for [COLOR_HIGHLIGHT_TEXT]%d2_count[COLOR_REVERT] turns.</German>
+		<Italian>[ICON_BULLET]First to discover receives [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] temporarily for [COLOR_HIGHLIGHT_TEXT]%d2_count[COLOR_REVERT] turns.</Italian>
+		<Spanish>[ICON_BULLET]First to discover receives [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] temporarily for [COLOR_HIGHLIGHT_TEXT]%d2_count[COLOR_REVERT] turns.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_TOWARDS</Tag>
+		<English>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D2_count[COLOR_REVERT] towards [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT]</English>
+		<French>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D2_count[COLOR_REVERT] towards [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT]</French>
+		<German>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D2_count[COLOR_REVERT] towards [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D2_count[COLOR_REVERT] towards [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D2_count[COLOR_REVERT] towards [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_TOWARDS_ONLY_FIRST</Tag>
+		<English>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D2_count[COLOR_REVERT] towards [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] if you are the first to discover this tech.</English>
+		<French>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D2_count[COLOR_REVERT] towards [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] if you are the first to discover this tech.</French>
+		<German>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D2_count[COLOR_REVERT] towards [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] if you are the first to discover this tech.</German>
+		<Italian>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D2_count[COLOR_REVERT] towards [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] if you are the first to discover this tech.</Italian>
+		<Spanish>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D2_count[COLOR_REVERT] towards [COLOR_TRAITS_TEXT]%s1_trait[COLOR_REVERT] if you are the first to discover this tech.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_TOWARDS_AND_FIRST</Tag>
+		<English>[SPACE]and an additional [COLOR_HIGHLIGHT_TEXT]%D1_count[COLOR_REVERT] if you are the first to discover this tech.</English>
+		<French>[SPACE]and an additional [COLOR_HIGHLIGHT_TEXT]%D1_count[COLOR_REVERT] if you are the first to discover this tech.</French>
+		<German>[SPACE]and an additional [COLOR_HIGHLIGHT_TEXT]%D1_count[COLOR_REVERT] if you are the first to discover this tech.</German>
+		<Italian>[SPACE]and an additional [COLOR_HIGHLIGHT_TEXT]%D1_count[COLOR_REVERT] if you are the first to discover this tech.</Italian>
+		<Spanish>[SPACE]and an additional [COLOR_HIGHLIGHT_TEXT]%D1_count[COLOR_REVERT] if you are the first to discover this tech.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_FROM</Tag>
+		<English>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D1_count[COLOR_REVERT] from[SPACE]</English>
+		<French>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D1_count[COLOR_REVERT] from[SPACE]</French>
+		<German>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D1_count[COLOR_REVERT] from[SPACE]</German>
+		<Italian>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D1_count[COLOR_REVERT] from[SPACE]</Italian>
+		<Spanish>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%D1_count[COLOR_REVERT] from[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_CHANGE_ON</Tag>
+		<English>[NEWLINE][ICON_BULLET]Increases on[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Augmente avec[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Increases on[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Increases on[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Increases on[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE</Tag>
+		<English>[NEWLINE][ICON_BULLET]Decreases on[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Diminue avec[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]Decreases on[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Decreases on[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Decreases on[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_RANDOM_POLITICAL_TRAIT</Tag>
+		<English>The villagers influences your political alignment!</English>
+		<French>The villagers influences your political alignment!</French>
+		<German>The villagers influences your political alignment!</German>
+		<Italian>The villagers influences your political alignment!</Italian>
+		<Spanish>The villagers influences your political alignment!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_RANDOM_PERSONALITY_TRAIT</Tag>
+		<English>The village leader influence your personality!</English>
+		<French>The village leader influence your personality!</French>
+		<German>The village leader influence your personality!</German>
+		<Italian>The village leader influence your personality!</Italian>
+		<Spanish>The village leader influence your personality!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_RANDOM_CIVILIZATION_TRAIT</Tag>
+		<English>The village's culture influence your civilization!</English>
+		<French>The village's culture influence your civilization!</French>
+		<German>The village's culture influence your civilization!</German>
+		<Italian>The village's culture influence your civilization!</Italian>
+		<Spanish>The village's culture influence your civilization!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_DISABLE_TRAIT</Tag>
+		<English>Traits disabled: </English>
+		<French>Traits disabled: </French>
+		<German>Traits disabled: </German>
+		<Italian>Traits disabled: </Italian>
+		<Spanish>Traits disabled: </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_WITH_TRAIT</Tag>
+		<English>[ICON_BULLET]%D1_Change%F2_YieldIcon with [COLOR_TRAITS_TEXT]%s3_TraitName[COLOR_REVERT]</English>
+		<French>[ICON_BULLET]%D1_Change%F2_YieldIcon avec : [COLOR_TRAITS_TEXT]%s3_TraitName[COLOR_REVERT]</French>
+		<German>[ICON_BULLET]%D1_Change%F2_YieldIcon mit der Technologie [COLOR_TRAITS_TEXT]%s3_TraitName[COLOR_REVERT]</German>
+		<Italian>[ICON_BULLET]%D1_Change%F2_YieldIcon con [NUM3:il:la:gli:le] [COLOR_TRAITS_TEXT]%s3_TraitName[COLOR_REVERT]</Italian>
+		<Spanish>[ICON_BULLET]%D1_Change %F2_YieldIcon con [NUM3:el:la:los:las] [COLOR_TRAITS_TEXT]%s3_TraitName[COLOR_REVERT]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_COUNTER_GAIN</Tag>
+		<English>Gain %d1_counter trait points: </English>
+		<French>Gain %d1_counter trait points: </French>
+		<German>Gain %d1_counter trait points: </German>
+		<Italian>Gain %d1_counter trait points: </Italian>
+		<Spanish>Gain %d1_counter trait points: </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_UNLIMITED_TRAITS</Tag>
+		<English>Unlimited Traits</English>
+		<French>Unlimited Traits</French>
+		<German>Unlimited Traits</German>
+		<Italian>Unlimited Traits</Italian>
+		<Spanish>Unlimited Traits</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_UNLIMITED_TRAITS_HELP</Tag>
+		<English>You can gain an unlimited amount of traits. Traits may still to be lost if they drop below their threshold, unless you enable Cannot Lose Traits game option.</English>
+		<French>You can gain an unlimited amount of traits. Traits may still to be lost if they drop below their threshold, unless you enable Cannot Lose Traits game option.</French>
+		<German>You can gain an unlimited amount of traits. Traits may still to be lost if they drop below their threshold, unless you enable Cannot Lose Traits game option.</German>
+		<Italian>You can gain an unlimited amount of traits. Traits may still to be lost if they drop below their threshold, unless you enable Cannot Lose Traits game option.</Italian>
+		<Spanish>You can gain an unlimited amount of traits. Traits may still to be lost if they drop below their threshold, unless you enable Cannot Lose Traits game option.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_CANNOT_LOSE_TRAITS</Tag>
+		<English>Cannot Lose Traits</English>
+		<French>Cannot Lose Traits</French>
+		<German>Cannot Lose Traits</German>
+		<Italian>Cannot Lose Traits</Italian>
+		<Spanish>Cannot Lose Traits</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_CANNOT_LOSE_TRAITS_HELP</Tag>
+		<English>All your traits are permanent, and new traits gained can never be lost.</English>
+		<French>All your traits are permanent, and new traits gained can never be lost.</French>
+		<German>All your traits are permanent, and new traits gained can never be lost.</German>
+		<Italian>All your traits are permanent, and new traits gained can never be lost.</Italian>
+		<Spanish>All your traits are permanent, and new traits gained can never be lost.</Spanish>
+	</TEXT>
+<!--Trigger Additional Details-->
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_CIVIC_PREREQ</Tag>
+		<English>[SPACE]while running[SPACE]</English>
+		<French>[SPACE]while running[SPACE]</French>
+		<German>[SPACE]while running[SPACE]</German>
+		<Italian>[SPACE]while running[SPACE]</Italian>
+		<Spanish>[SPACE]while running[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_AND</Tag>
+		<English>[SPACE]and</English>
+		<French>[SPACE]and</French>
+		<German>[SPACE]and</German>
+		<Italian>[SPACE]and</Italian>
+		<Spanish>[SPACE]and</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_OWN_HOLY_CITY_PREREQ</Tag>
+		<English>[SPACE]while owning the State Religion's Holy City</English>
+		<French>[SPACE]while owning the State Religion's Holy City</French>
+		<German>[SPACE]while owning the State Religion's Holy City</German>
+		<Italian>[SPACE]while owning the State Religion's Holy City</Italian>
+		<Spanish>[SPACE]while owning the State Religion's Holy City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_PEACE_PREREQ</Tag>
+		<English>[SPACE]while at Peace</English>
+		<French>[SPACE]while at Peace</French>
+		<German>[SPACE]while at Peace</German>
+		<Italian>[SPACE]while at Peace</Italian>
+		<Spanish>[SPACE]while at Peace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_WAR_PREREQ</Tag>
+		<English>[SPACE]while at War</English>
+		<French>[SPACE]while at War</French>
+		<German>[SPACE]while at War</German>
+		<Italian>[SPACE]while at War</Italian>
+		<Spanish>[SPACE]while at War</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_HILL_PREREQ</Tag>
+		<English>[SPACE]with Hills</English>
+		<French>[SPACE]with Hills</French>
+		<German>[SPACE]with Hills</German>
+		<Italian>[SPACE]with Hills</Italian>
+		<Spanish>[SPACE]with Hills</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_PEAK_PREREQ</Tag>
+		<English>[SPACE]with Peaks</English>
+		<French>[SPACE]with Peaks</French>
+		<German>[SPACE]with Peaks</German>
+		<Italian>[SPACE]with Peaks</Italian>
+		<Spanish>[SPACE]with Peaks</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_NOT_STATE_HOLY_CITY_RAZE</Tag>
+		<English>razing a Holy City of a Different State Religion</English>
+		<French>razing a Holy City of a Different State Religion</French>
+		<German>razing a Holy City of a Different State Religion</German>
+		<Italian>razing a Holy City of a Different State Religion</Italian>
+		<Spanish>razing a Holy City of a Different State Religion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_STATE_HOLY_CITY_RAZE</Tag>
+		<English>razing your Holy City</English>
+		<French>razing your Holy City</French>
+		<German>razing your Holy City</German>
+		<Italian>razing your Holy City</Italian>
+		<Spanish>razing your Holy City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_ANY_HOLY_CITY_RAZE</Tag>
+		<English>razing any Holy City</English>
+		<French>razing any Holy City</French>
+		<German>razing any Holy City</German>
+		<Italian>razing any Holy City</Italian>
+		<Spanish>razing any Holy City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_CITY_POPULATION</Tag>
+		<English>[SPACE]with %s1 Population</English>
+		<French>[SPACE]with %s1 Population</French>
+		<German>[SPACE]with %s1 Population</German>
+		<Italian>[SPACE]with %s1 Population</Italian>
+		<Spanish>[SPACE]with %s1 Population</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_CONQUEST_PREREQ</Tag>
+		<English>[SPACE]by Conquest.</English>
+		<French>[SPACE]by Conquest.</French>
+		<German>[SPACE]by Conquest.</German>
+		<Italian>[SPACE]by Conquest.</Italian>
+		<Spanish>[SPACE]by Conquest.</Spanish>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_TRADE_PREREQ</Tag>
+		<English>[SPACE]by Trade.</English>
+		<French>[SPACE]by Trade.</French>
+		<German>[SPACE]by Trade.</German>
+		<Italian>[SPACE]by Trade.</Italian>
+		<Spanish>[SPACE]by Trade.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_CHANGE_ANY</Tag>
+		<English>Any</English>
+		<French>Any</French>
+		<German>Any</German>
+		<Italian>Any</Italian>
+		<Spanish>Any</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_IMPROVEMENT_PREREQ</Tag>
+		<English>[SPACE]with %s1 on it.</English>
+		<French>[SPACE]with %s1 on it.</French>
+		<German>[SPACE]with %s1 on it.</German>
+		<Italian>[SPACE]with %s1 on it.</Italian>
+		<Spanish>[SPACE]with %s1 on it.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_CHANGE_TO</Tag>
+		<English> To[SPACE]</English>
+		<French> To[SPACE]</French>
+		<German> To[SPACE]</German>
+		<Italian> To[SPACE]</Italian>
+		<Spanish> To[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_CHANGE_FROM</Tag>
+		<English> From[SPACE]</English>
+		<French> From[SPACE]</French>
+		<German> From[SPACE]</German>
+		<Italian> From[SPACE]</Italian>
+		<Spanish> From[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_TRADE_RELIGION</Tag>
+		<English>by converting another Civilization through Diplomacy</English>
+		<French>by converting another Civilization through Diplomacy</French>
+		<German>by converting another Civilization through Diplomacy</German>
+		<Italian>by converting another Civilization through Diplomacy</Italian>
+		<Spanish>by converting another Civilization through Diplomacy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_TRADE_OPEN_BORDERS</Tag>
+		<English>by opening your borders to another Civilization</English>
+		<French>by opening your borders to another Civilization</French>
+		<German>by opening your borders to another Civilization</German>
+		<Italian>by opening your borders to another Civilization</Italian>
+		<Spanish>by opening your borders to another Civilization</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_NATIONAL_WONDER_PREREQ</Tag>
+		<English>National Wonder</English>
+		<French>Merveille Nationale</French>
+		<German>National Wonder</German>
+		<Italian>National Wonder</Italian>
+		<Spanish>National Wonder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_WONDER_PREREQ</Tag>
+		<English>World Wonder</English>
+		<French>Merveille Mondiale</French>
+		<German>World Wonder</German>
+		<Italian>World Wonder</Italian>
+		<Spanish>World Wonder</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_BUILDING_PREREQ</Tag>
+		<English>Building</English>
+		<French>Bâtiment</French>
+		<German>Building</German>
+		<Italian>Building</Italian>
+		<Spanish>Building</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_HEALTH_PREREQ</Tag>
+		<English>[SPACE]that provides Health to the City</English>
+		<French>[SPACE]that provides Health to the City</French>
+		<German>[SPACE]that provides Health to the City</German>
+		<Italian>[SPACE]that provides Health to the City</Italian>
+		<Spanish>[SPACE]that provides Health to the City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_HAPPINESS_PREREQ</Tag>
+		<English>[SPACE]that provides Happiness to the City</English>
+		<French>[SPACE]that provides Happiness to the City</French>
+		<German>[SPACE]that provides Happiness to the City</German>
+		<Italian>[SPACE]that provides Happiness to the City</Italian>
+		<Spanish>[SPACE]that provides Happiness to the City</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_LOCAL_HAPPINESS_PREREQ</Tag>
+		<English>[SPACE]that provides Happiness to cities in the area</English>
+		<French>[SPACE]that provides Happiness to cities in the area</French>
+		<German>[SPACE]that provides Happiness to cities in the area</German>
+		<Italian>[SPACE]that provides Happiness to cities in the area</Italian>
+		<Spanish>[SPACE]that provides Happiness to cities in the area</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_LOCAL_HEALTH_PREREQ</Tag>
+		<English>[SPACE]that provides Health to cities in the area</English>
+		<French>[SPACE]that provides Health to cities in the area</French>
+		<German>[SPACE]that provides Health to cities in the area</German>
+		<Italian>[SPACE]that provides Health to cities in the area</Italian>
+		<Spanish>[SPACE]that provides Health to cities in the area</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_GLOBAL_HAPPINESS_PREREQ</Tag>
+		<English>[SPACE]that provides Happiness to all cities of your civilization</English>
+		<French>[SPACE]that provides Happiness to all cities of your civilization</French>
+		<German>[SPACE]that provides Happiness to all cities of your civilization</German>
+		<Italian>[SPACE]that provides Happiness to all cities of your civilization</Italian>
+		<Spanish>[SPACE]that provides Happiness to all cities of your civilization</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_GLOBAL_HEALTH_PREREQ</Tag>
+		<English>[SPACE]that provides Health to all cities of your civilization</English>
+		<French>[SPACE]that provides Health to all cities of your civilization</French>
+		<German>[SPACE]that provides Health to all cities of your civilization</German>
+		<Italian>[SPACE]that provides Health to all cities of your civilization</Italian>
+		<Spanish>[SPACE]that provides Health to all cities of your civilization</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_RELIGION_PREREQ</Tag>
+		<English>[SPACE]while following %s1</English>
+		<French>[SPACE]while following %s1</French>
+		<German>[SPACE]while following %s1</German>
+		<Italian>[SPACE]while following %s1</Italian>
+		<Spanish>[SPACE]while following %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_PREREQ</Tag>
+		<English>any Unit</English>
+		<French>any Unit</French>
+		<German>any Unit</German>
+		<Italian>any Unit</Italian>
+		<Spanish>any Unit</Spanish>
+	</TEXT>
+<!-- Trigger Hook Descriptions -->
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_PLAYER_TURN</Tag>
+		<English>turn change</English>
+		<French>turn change</French>
+		<German>turn change</German>
+		<Italian>turn change</Italian>
+		<Spanish>turn change</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_START_WAR</Tag>
+		<English>starting a war</English>
+		<French>starting a war</French>
+		<German>starting a war</German>
+		<Italian>starting a war</Italian>
+		<Spanish>starting a war</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_MAKE_PEACE</Tag>
+		<English>making peace</English>
+		<French>making peace</French>
+		<German>making peace</German>
+		<Italian>making peace</Italian>
+		<Spanish>making peace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_MAKE_VASSAL</Tag>
+		<English>gaining a vassal</English>
+		<French>gaining a vassal</French>
+		<German>gaining a vassal</German>
+		<Italian>gaining a vassal</Italian>
+		<Spanish>gaining a vassal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_LOSE_VASSAL</Tag>
+		<English>losing a vassal</English>
+		<French>losing a vassal</French>
+		<German>losing a vassal</German>
+		<Italian>losing a vassal</Italian>
+		<Spanish>losing a vassal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_BECOME_VASSAL</Tag>
+		<English>becoming a vassal</English>
+		<French>becoming a vassal</French>
+		<German>becoming a vassal</German>
+		<Italian>becoming a vassal</Italian>
+		<Spanish>becoming a vassal</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_FREED_VASSAL</Tag>
+		<English>losing vassal status.</English>
+		<French>losing vassal status.</French>
+		<German>losing vassal status.</German>
+		<Italian>losing vassal status.</Italian>
+		<Spanish>losing vassal status.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CITY_FOUND</Tag>
+		<English>founding a city[SPACE]</English>
+		<French>founding a city[SPACE]</French>
+		<German>founding a city[SPACE]</German>
+		<Italian>founding a city[SPACE]</Italian>
+		<Spanish>founding a city[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+	<Tag>TXT_KEY_TRAITCOUNTER_COASTAL</Tag>
+	<English>On the Coast</English>
+	<French>On the Coast</French>
+	<German>On the Coast</German>
+	<Italian>On the Coast</Italian>
+	<Spanish>On the Coast</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CITY_RAZE</Tag>
+		<English>razing a city</English>
+		<French>razing a city</French>
+		<German>razing a city</German>
+		<Italian>razing a city</Italian>
+		<Spanish>razing a city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CITY_ACQUIRE</Tag>
+		<English>acquiring a city</English>
+		<French>acquiring a city</French>
+		<German>acquiring a city</German>
+		<Italian>acquiring a city</Italian>
+		<Spanish>acquiring a city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CITY_HURRY</Tag>
+		<English>hurrying in a city[SPACE]</English>
+		<French>hurrying in a city[SPACE]</French>
+		<German>hurrying in a city[SPACE]</German>
+		<Italian>hurrying in a city[SPACE]</Italian>
+		<Spanish>hurrying in a city[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_PREREQ_HURRY</Tag>
+		<English>using[SPACE]</English>
+		<French>using[SPACE]</French>
+		<German>using[SPACE]</German>
+		<Italian>using[SPACE]</Italian>
+		<Spanish>using[SPACE]</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CITY_POPGROW</Tag>
+		<English>city population grow.</English>
+		<French>city population grow.</French>
+		<German>city population grow.</German>
+		<Italian>city population grow.</Italian>
+		<Spanish>city population grow.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CITY_CULTUREGROW</Tag>
+		<English>city culture growth[SPACE]</English>
+		<French>city culture growth[SPACE]</French>
+		<German>city culture growth[SPACE]</German>
+		<Italian>city culture growth[SPACE]</Italian>
+		<Spanish>city culture growth[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CHANGE_RELIGION</Tag>
+		<English>changing religion[SPACE]</English>
+		<French>changing religion[SPACE]</French>
+		<German>changing religion[SPACE]</German>
+		<Italian>changing religion[SPACE]</Italian>
+		<Spanish>changing religion[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_TRADE</Tag>
+		<English>trading.</English>
+		<French>trading.</French>
+		<German>trading.</German>
+		<Italian>trading.</Italian>
+		<Spanish>trading.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_BUILD_ROUTE</Tag>
+		<English>building a route.</English>
+		<French>building a route.</French>
+		<German>building a route.</German>
+		<Italian>building a route.</Italian>
+		<Spanish>building a route.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_BUILD_IMPROVEMENT</Tag>
+		<English>building a %s1</English>
+		<French>building a %s1</French>
+		<German>building a %s1</German>
+		<Italian>building a %s1</Italian>
+		<Spanish>building a %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNITCLASS_BUILD_ANY_IMPROVEMENT</Tag>
+		<English>a %s1 building anything</English>
+		<French>a %s1 building anything</French>
+		<German>a %s1 building anything</German>
+		<Italian>a %s1 building anything</Italian>
+		<Spanish>a %s1 building anything</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_ANY_BUILD_ANY_IMPROVEMENT</Tag>
+		<English>building anything</English>
+		<French>building anything</French>
+		<German>building anything</German>
+		<Italian>building anything</Italian>
+		<Spanish>building anything</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CREATE_PROJECT_ANY</Tag>
+		<English>creating a project.</English>
+		<French>creating a project.</French>
+		<German>creating a project.</German>
+		<Italian>creating a project.</Italian>
+		<Spanish>creating a project.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CREATE_PROJECT</Tag>
+		<English>creating a[SPACE]</English>
+		<French>creating a[SPACE]</French>
+		<German>creating a[SPACE]</German>
+		<Italian>creating a[SPACE]</Italian>
+		<Spanish>creating a[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CONSTRUCT_BUILDING</Tag>
+		<English>constructing a[SPACE]</English>
+		<French>la construction de[SPACE]</French>
+		<German>constructing a[SPACE]</German>
+		<Italian>constructing a[SPACE]</Italian>
+		<Spanish>constructing a[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_TRAIN_UNIT</Tag>
+		<English>training[SPACE]</English>
+		<French>l'entraînement de[SPACE]</French>
+		<German>training[SPACE]</German>
+		<Italian>training[SPACE]</Italian>
+		<Spanish>training[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UPGRADE_UNIT</Tag>
+		<English>upgrading[SPACE]</English>
+		<French>l'amélioration de[SPACE]</French>
+		<German>upgrading[SPACE]</German>
+		<Italian>upgrading[SPACE]</Italian>
+		<Spanish>upgrading[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_ANY_GP_BORN</Tag>
+		<English>Any Great Person birth.</English>
+		<French> Any Great Person birth.</French>
+		<German>Any Great Person birth.</German>
+		<Italian>Any Great Person birth.</Italian>
+		<Spanish>Any Great Person birth.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_GP_BORN</Tag>
+		<English>birth of a[SPACE]</English>
+		<French>la naissance de[SPACE]</French>
+		<German>birth of a[SPACE]</German>
+		<Italian>birth of a[SPACE]</Italian>
+		<Spanish>birth of a[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_KILL_UNIT</Tag>
+		<English>killing[SPACE]</English>
+		<French>killing[SPACE]</French>
+		<German>killing[SPACE]</German>
+		<Italian>killing[SPACE]</Italian>
+		<Spanish>killing[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_KILLED_UNIT</Tag>
+		<English>being killed by[SPACE]</English>
+		<French>being killed by[SPACE]</French>
+		<German>being killed by[SPACE]</German>
+		<Italian>being killed by[SPACE]</Italian>
+		<Spanish>being killed by[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_UNIT</Tag>
+		<English>Unit[SPACE]</English>
+		<French>Unit[SPACE]</French>
+		<German>Unit[SPACE]</German>
+		<Italian>Unit[SPACE]</Italian>
+		<Spanish>Unit[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_WEREWOLF</Tag>
+		<English>Werewolf[SPACE]</English>
+		<French>Loup-garou[SPACE]</French>
+		<German>Werewolf[SPACE]</German>
+		<Italian>Werewolf[SPACE]</Italian>
+		<Spanish>Werewolf[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_OPPOSITE_ALIGNMENT</Tag>
+		<English>Of Opposite Alignment[SPACE]</English>
+		<French>Of Opposite Alignment[SPACE]</French>
+		<German>Of Opposite Alignment[SPACE]</German>
+		<Italian>Of Opposite Alignment[SPACE]</Italian>
+		<Spanish>Of Opposite Alignment[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_OPPOSITE_ETHICAL_ALIGNMENT</Tag>
+		<English>Of Opposite Ethical Alignment[SPACE]</English>
+		<French>Of Opposite Ethical Alignment[SPACE]</French>
+		<German>Of Opposite Ethical Alignment[SPACE]</German>
+		<Italian>Of Opposite Ethical Alignment[SPACE]</Italian>
+		<Spanish>Of Opposite Ethical Alignment[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_HERO</Tag>
+		<English>Heroic[SPACE]</English>
+		<French>Héroïque[SPACE]</French>
+		<German>Heroic[SPACE]</German>
+		<Italian>Heroic[SPACE]</Italian>
+		<Spanish>Heroic[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_HIDDEN_NAT</Tag>
+		<English>Hidden Nationality[SPACE]</English>
+		<French>Nationalité Cachée[SPACE]</French>
+		<German>Hidden Nationality[SPACE]</German>
+		<Italian>Hidden Nationality[SPACE]</Italian>
+		<Spanish>Hidden Nationality[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_PREREQ_HURRY_POPULATION</Tag>
+		<English>Sacrificing Population[SPACE]</English>
+		<French>Sacrifier de la Population[SPACE]</French>
+		<German>Sacrificing Population[SPACE]</German>
+		<Italian>Sacrificing Population[SPACE]</Italian>
+		<Spanish>Sacrificing Population[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_SPACE</Tag>
+		<English>[SPACE]</English>
+		<French>[SPACE]</French>
+		<German>[SPACE]</German>
+		<Italian>[SPACE]</Italian>
+		<Spanish>[SPACE]</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_SPREAD_RELIGION</Tag>
+		<English>missionary spreading religion.</English>
+		<French>missionary spreading religion.</French>
+		<German>missionary spreading religion.</German>
+		<Italian>missionary spreading religion.</Italian>
+		<Spanish>missionary spreading religion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_SPREAD_STATE_RELIGION</Tag>
+		<English>missionary spreading your state religion.</English>
+		<French>missionary spreading your state religion.</French>
+		<German>missionary spreading your state religion.</German>
+		<Italian>missionary spreading your state religion.</Italian>
+		<Spanish>missionary spreading your state religion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_PILLAGE</Tag>
+		<English>pillaging %s1.</English>
+		<French>le pillage [NUM1:d'un:d'une:de:de] %s1.</French>
+		<German>pillaging %s1.</German>
+		<Italian>pillaging %s1.</Italian>
+		<Spanish>pillaging %s1.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_PILLAGE_ANY</Tag>
+		<English>pillaging anything.</English>
+		<French>pillaging anything.</French>
+		<German>pillaging anything.</German>
+		<Italian>pillaging anything.</Italian>
+		<Spanish>pillaging anything.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_PILLAGED</Tag>
+		<English> %s1 being pillaged[SPACE]</English>
+		<French> %s1 being pillaged[SPACE]</French>
+		<German> %s1 being pillaged[SPACE]</German>
+		<Italian> %s1 being pillaged[SPACE]</Italian>
+		<Spanish> %s1 being pillaged[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_PILLAGED_ANY</Tag>
+		<English>anything being pillaged[SPACE]</English>
+		<French>anything being pillaged[SPACE]</French>
+		<German>anything being pillaged[SPACE]</German>
+		<Italian>anything being pillaged[SPACE]</Italian>
+		<Spanish>anything being pillaged[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_GOODY</Tag>
+		<English>receiving a goody.</English>
+		<French>receiving a goody.</French>
+		<German>receiving a goody.</German>
+		<Italian>receiving a goody.</Italian>
+		<Spanish>receiving a goody.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_EXPLORE_ANY_LAIR</Tag>
+		<English>any lair[SPACE]</English>
+		<French>any lair[SPACE]</French>
+		<German>any lair[SPACE]</German>
+		<Italian>any lair[SPACE]</Italian>
+		<Spanish>any lair[SPACE]</Spanish>
+	</TEXT>	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_EXPLORE_LAIR</Tag>
+		<English>exploring[SPACE]</English>
+		<French>exploring[SPACE]</French>
+		<German>exploring[SPACE]</German>
+		<Italian>exploring[SPACE]</Italian>
+		<Spanish>exploring[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CAST_SPELL</Tag>
+		<English>casting %s1.</English>
+		<French>casting %s1.</French>
+		<German>casting %s1.</German>
+		<Italian>casting %s1.</Italian>
+		<Spanish>casting %s1.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CAST_SPELL_ANYTHING</Tag>
+		<English>casting anything.</English>
+		<French>casting anything.</French>
+		<German>casting anything.</German>
+		<Italian>casting anything.</Italian>
+		<Spanish>casting anything.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_LEVEL_UP</Tag>
+		<English>leveling up[SPACE]</English>
+		<French>leveling up[SPACE]</French>
+		<German>leveling up[SPACE]</German>
+		<Italian>leveling up[SPACE]</Italian>
+		<Spanish>leveling up[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_GAIN_PROMOTION</Tag>
+		<English>[SPACE]gaining %s1</English>
+		<French>[SPACE]gaining %s1</French>
+		<German>[SPACE]gaining %s1</German>
+		<Italian>[SPACE]gaining %s1</Italian>
+		<Spanish>[SPACE]gaining %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_LOSE_PROMOTION</Tag>
+		<English>[SPACE]losing %s1</English>
+		<French>[SPACE]losing %s1</French>
+		<German>[SPACE]losing %s1</German>
+		<Italian>[SPACE]losing %s1</Italian>
+		<Spanish>[SPACE]losing %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CAPTURE_UNIT</Tag>
+		<English>capturing[SPACE]</English>
+		<French>capturing[SPACE]</French>
+		<German>capturing[SPACE]</German>
+		<Italian>capturing[SPACE]</Italian>
+		<Spanish>capturing[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_IMPROVE_IMPROVEMENT</Tag>
+		<English>leveling up[SPACE]</English>
+		<French>leveling up[SPACE]</French>
+		<German>leveling up[SPACE]</German>
+		<Italian>leveling up[SPACE]</Italian>
+		<Spanish>leveling up[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_CONVERT_CITY_RELIGIOUS_LEADER</Tag>
+		<English>converting a city to our state religion.</English>
+		<French>converting a city to our state religion.</French>
+		<German>converting a city to our state religion.</German>
+		<Italian>converting a city to our state religion.</Italian>
+		<Spanish>converting a city to our state religion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_CONVERT_CITY</Tag>
+		<English>converting a city </English>
+		<French>converting a city </French>
+		<German>converting a city </German>
+		<Italian>converting a city </Italian>
+		<Spanish>converting a city </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CONNECT_RESOURCE</Tag>
+		<English>connecting a %s1 to your trade network.</English>
+		<French>connecting a %s1 to your trade network.</French>
+		<German>connecting a %s1 to your trade network.</German>
+		<Italian>connecting a %s1 to your trade network.</Italian>
+		<Spanish>connecting a %s1 to your trade network.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CONNECT_ANY_RESOURCE</Tag>
+		<English>connecting to your trade network any resource[SPACE]</English>
+		<French>connecting to your trade network any resource[SPACE]</French>
+		<German>connecting to your trade network any resource[SPACE]</German>
+		<Italian>connecting to your trade network any resource[SPACE]</Italian>
+		<Spanish>connecting to your trade network any resource[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_GAIN_ALIGNMENT</Tag>
+		<English>Acting Good.</English>
+		<French>Acting Good.</French>
+		<German>Acting Good.</German>
+		<Italian>Acting Good.</Italian>
+		<Spanish>Acting Good.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT</Tag>
+		<English>Turning[SPACE]</English>
+		<French>Turning[SPACE]</French>
+		<German>Turning[SPACE]</German>
+		<Italian>Turning[SPACE]</Italian>
+		<Spanish>Turning[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_GOOD</Tag>
+		<English>Good.</English>
+		<French>Good.</French>
+		<German>Good.</German>
+		<Italian>Good.</Italian>
+		<Spanish>Good.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_NEUTRAL_FROM_EVIL</Tag>
+		<English>Neutral from Evil.</English>
+		<French>Neutral from Evil.</French>
+		<German>Neutral from Evil.</German>
+		<Italian>Neutral from Evil.</Italian>
+		<Spanish>Neutral from Evil.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_EVIL</Tag>
+		<English>Evil.</English>
+		<French>Evil.</French>
+		<German>Evil.</German>
+		<Italian>Evil.</Italian>
+		<Spanish>Evil.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_NEUTRAL_FROM_GOOD</Tag>
+		<English>Neutral from Good.</English>
+		<French>Neutral from Good.</French>
+		<German>Neutral from Good.</German>
+		<Italian>Neutral from Good.</Italian>
+		<Spanish>Neutral from Good.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_LAWFUL</Tag>
+		<English>Lawful.</English>
+		<French>Lawful.</French>
+		<German>Lawful.</German>
+		<Italian>Lawful.</Italian>
+		<Spanish>Lawful.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_NEUTRAL_FROM_CHAOTIC</Tag>
+		<English>Neutral from Chaotic.</English>
+		<French>Neutral from Chaotic.</French>
+		<German>Neutral from Chaotic.</German>
+		<Italian>Neutral from Chaotic.</Italian>
+		<Spanish>Neutral from Chaotic.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_CHAOTIC</Tag>
+		<English>Chaotic.</English>
+		<French>Chaotic.</French>
+		<German>Chaotic.</German>
+		<Italian>Chaotic.</Italian>
+		<Spanish>Chaotic.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_NEUTRAL_FROM_LAWFUL</Tag>
+		<English>Neutral from Lawful.</English>
+		<French>Neutral from Lawful.</French>
+		<German>Neutral from Lawful.</German>
+		<Italian>Neutral from Lawful.</Italian>
+		<Spanish>Neutral from Lawful.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_LOSE_ALIGNMENT</Tag>
+		<English>Acting Evil.</English>
+		<French>Acting Evil.</French>
+		<German>Acting Evil.</German>
+		<Italian>Acting Evil.</Italian>
+		<Spanish>Acting Evil.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_GAIN_ETHICAL_ALIGNMENT</Tag>
+		<English>Acting Lawful.</English>
+		<French>Acting Lawful.</French>
+		<German>Acting Lawful.</German>
+		<Italian>Acting Lawful.</Italian>
+		<Spanish>Acting Lawful.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_UNIT_LOSE_ETHICAL_ALIGNMENT</Tag>
+		<English>Acting Chaotic.</English>
+		<French>Acting Chaotic.</French>
+		<German>Acting Chaotic.</German>
+		<Italian>Acting Chaotic.</Italian>
+		<Spanish>Acting Chaotic.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_GAIN_PLOT_OWNERSHIP</Tag>
+		<English>gaining %s1 plot</English>
+		<French>gaining %s1 plot</French>
+		<German>gaining %s1 plot</German>
+		<Italian>gaining %s1 plot</Italian>
+		<Spanish>gaining %s1 plot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_LOSE_PLOT_OWNERSHIP</Tag>
+		<English>losing %s1 plot</English>
+		<French>losing %s1 plot</French>
+		<German>losing %s1 plot</German>
+		<Italian>losing %s1 plot</Italian>
+		<Spanish>losing %s1 plot</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_EVIL_CIV</Tag>
+		<English>of an Evil Civilization</English>
+		<French>of an Evil Civilization</French>
+		<German>of an Evil Civilization</German>
+		<Italian>of an Evil Civilization</Italian>
+		<Spanish>of an Evil Civilization</Spanish>
+	</TEXT>
+
+<!-- Trait Effects -->
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ON_GAIN_COUNTER_MOD</Tag>
+		<English>[PARAGRAPH:1][ICON_BULLET]Receives %d1_count points when gained</English>
+		<French>[PARAGRAPH:1][ICON_BULLET]Receives %d1_count points when gained</French>
+		<German>[PARAGRAPH:1][ICON_BULLET]Receives %d1_count points when gained</German>
+		<Italian>[PARAGRAPH:1][ICON_BULLET]Receives %d1_count points when gained</Italian>
+		<Spanish>[PARAGRAPH:1][ICON_BULLET]Receives %d1_count points when gained</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MIN_POINTS</Tag>
+		<English>[PARAGRAPH:1][ICON_BULLET]Requires at least %d1_count points to gain</English>
+		<French>[PARAGRAPH:1][ICON_BULLET]Requires at least %d1_count points to gain</French>
+		<German>[PARAGRAPH:1][ICON_BULLET]Requires at least %d1_count points to gain</German>
+		<Italian>[PARAGRAPH:1][ICON_BULLET]Requires at least %d1_count points to gain</Italian>
+		<Spanish>[PARAGRAPH:1][ICON_BULLET]Requires at least %d1_count points to gain</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_REMOVES</Tag>
+		<English>[PARAGRAPH:1][ICON_BULLET]Removes %s1_trait</English>
+		<French>[PARAGRAPH:1][ICON_BULLET]Removes %s1_trait</French>
+		<German>[PARAGRAPH:1][ICON_BULLET]Removes %s1_trait</German>
+		<Italian>[PARAGRAPH:1][ICON_BULLET]Removes %s1_trait</Italian>
+		<Spanish>[PARAGRAPH:1][ICON_BULLET]Removes %s1_trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ATTITUDE_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1 Relations with every leader</English>
+		<French>[NEWLINE][ICON_BULLET]%D1 Relations with every leader</French>
+		<German>[NEWLINE][ICON_BULLET]%D1 Relations with every leader</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1 Relations with every leader</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1 Relations with every leader</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_MAX_ANARCHY</Tag>
+		<English>[NEWLINE][ICON_BULLET]Max %d1 [NUM1:Turn:Turns] of Anarchy</English>
+		<French>[NEWLINE][ICON_BULLET]%d1 [NUM1:tour:tours] d'anarchie maximum</French>
+		<German>[NEWLINE][ICON_BULLET]Max. %d1 [NUM1:Runde:Runden] Anarchie</German>
+		<Italian>[NEWLINE][ICON_BULLET]%d1 [NUM1:turno massimo:turni massimi] di Anarchia</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]M&#225;x. %d1 [NUM1:turno:turnos] de anarqu&#237;a</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NO_ANARCHY</Tag>
+		<English>[NEWLINE][ICON_BULLET]No Anarchy</English>
+		<French>[NEWLINE][ICON_BULLET]Pas d'anarchie</French>
+		<German>[NEWLINE][ICON_BULLET]Keine Anarchie</German>
+		<Italian>[NEWLINE][ICON_BULLET]Nessuna Anarchia</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Sin anarqu&#237;a</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NO_DECLARE_WAR</Tag>
+		<English>[NEWLINE][ICON_BULLET]Prevents War Declaration</English>
+		<French>[NEWLINE][ICON_BULLET]Prevents War Declaration</French>
+		<German>[NEWLINE][ICON_BULLET]Prevents War Declaration</German>
+		<Italian>[NEWLINE][ICON_BULLET]Prevents War Declaration</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Prevents War Declaration</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CIVIC_UPKEEP_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% Civic Upkeep</English>
+		<French>[NEWLINE][ICON_BULLET]%D1%% d'entretien doctrinal</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% Unterhalt f&#252;r Staatsform</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% costo di mantenimento della civilt&#224;</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% al mantenimiento de principios</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GREAT_PEOPLE_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% [ICON_GREATPEOPLE] Birth Rate</English>
+		<French>[NEWLINE][ICON_BULLET]Taux de natalit&#233; [ICON_GREATPEOPLE] %D1%%</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% Geburtenrate [ICON_GREATPEOPLE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% ritmo di nascita [ICON_GREATPEOPLE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% a la tasa de natalidad de [ICON_GREATPEOPLE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_GREAT_GENERAL_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% Great General Emergence</English>
+		<French>[NEWLINE][ICON_BULLET]Émergence d'un G&#233;n&#233;ral illustre %D1%%</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% Produktion Gro&#223;er Gener&#228;le</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% comparsa di un Grande Generale</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% de aparici&#243;n de Gran general</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DOMESTIC_GREAT_GENERAL_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% Great General Emergence inside Cultural Borders</English>
+		<French>[NEWLINE][ICON_BULLET]Émergence d'un grand G&#233;n&#233;ral &#224; l'int&#233;rieur des fronti&#232;res culturelles %D1%%</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% Produktion Gro&#223;er Gener&#228;le innerhalb der kulturellen Grenzen</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% comparsa di un Grande Generale all'interno dei confini culturali</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% de aparici&#243;n de un Gran general dentro de las fronteras culturales</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DISTANCE_MAINT_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance from Distance to Palace</English>
+		<French>[ICON_BULLET]Co&#251;t d'entretien %D1_Mod%% d&#251; &#224; l'&#233;loignement du palais</French>
+		<German>[ICON_BULLET]%D1_Mod%% Unterhaltskosten wegen Entfernung zum Palast</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% costi di mantenimento per la distanza dal palazzo</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% a los costes de mantenimiento por lejan&#237;a con palacio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_DISTANCE_MAINT</Tag>
+		<English>[ICON_BULLET]No Maintenance from Distance to Palace</English>
+		<French>[ICON_BULLET]Aucun co&#251;t d'entretien d&#251; &#224; l'&#233;loignement du palais</French>
+		<German>[ICON_BULLET]Keine Unterhaltskosten wegen Entfernung zum Palast</German>
+		<Italian>[ICON_BULLET]Nessun costo di mantenimento per la distanza dal palazzo</Italian>
+		<Spanish>[ICON_BULLET]Sin costes de mantenimiento por lejan&#237;a con palacio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WONDER_PRODUCTION_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% Wonder Production</English>
+		<French>[NEWLINE][ICON_BULLET]Construction de merveilles %D1%%</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% Wunderproduktion</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% produzione Meraviglie</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% a la producci&#243;n de maravillas</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_WORLD_WONDER_PRODUCTION_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% World Wonder Production</English>
+		<French>[NEWLINE][ICON_BULLET]Construction de merveilles mondiales %D1%%</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% Weltwunderproduktion</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% produzione Grandi Meraviglie</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% a la producci&#243;n de maravillas del mundo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TEAM_WONDER_PRODUCTION_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% Team Wonder Production</English>
+		<French>[NEWLINE][ICON_BULLET]Construction de merveilles d'&#233;quipe %D1%%</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% Teamwunderproduktion</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% produzione Meraviglie di Squadra</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% a la producci&#243;n de maravillas de equipo</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NATIONAL_WONDER_PRODUCTION_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% National Wonder Production</English>
+		<French>[NEWLINE][ICON_BULLET]Construction de merveilles nationales %D1%%</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% Produktion Nationaler Wunder</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% produzione Meraviglie Nazionali</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% a la producci&#243;n de maravillas nacionales</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NO_MAINT_NUM_CITIES</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs from Number of Cities</English>
+		<French>[ICON_BULLET]Aucun co&#251;t d'entretien d&#251; au nombre de villes</French>
+		<German>[ICON_BULLET]Keine Unterhaltskosten f&#252;r Anzahl der St&#228;dte</German>
+		<Italian>[ICON_BULLET]Nessun costo di mantenimento per il numero di citt&#224;</Italian>
+		<Spanish>[ICON_BULLET]Sin costes de mantenimiento por cantidad de ciudades</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NO_MAINT_NUM_CITIES_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance from Number of Cities</English>
+		<French>[ICON_BULLET]Co&#251;t d'entretien %D1_Mod%% d&#251; au nombre de villes</French>
+		<German>[ICON_BULLET]%D1_Mod%% Unterhaltskosten von Anzahl der St&#228;dte</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% costo di mantenimento per il numero di citt&#224;</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% a los costes de mantenimiento por cantidad de ciudades</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_CITY_DEFENCE_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%[ICON_DEFENSE]/City</English>
+		<French>[NEWLINE][ICON_BULLET]%D1%[ICON_DEFENSE]/Ville</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%[ICON_DEFENSE]/Stadt</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%[ICON_DEFENSE]/Citt&#224;</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%[ICON_DEFENSE]/ciudad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXTRA_YIELD_THRESHOLDS</Tag>
+		<English>[NEWLINE][ICON_BULLET]+1%F1_yield on Plots with %d2%F3_yield</English>
+		<French>[NEWLINE][ICON_BULLET]+1%F1_yield sur les cases avec : %d2%F3_yield</French>
+		<German>[NEWLINE][ICON_BULLET]+1%F1_yield auf Gel&#228;ndefeldern mit %d2%F3_yield</German>
+		<Italian>[NEWLINE][ICON_BULLET]+1%F1_yield su caselle con %d2%F3_yield</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]+1 %F1_yield en las casillas con %d2 %F3_yield</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HAPPINESS</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1[ICON_HAPPY]/City</English>
+		<French>[NEWLINE][ICON_BULLET]%D1[ICON_HAPPY]/Ville</French>
+		<German>[NEWLINE][ICON_BULLET]%D1[ICON_HAPPY]/Stadt</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1[ICON_HAPPY]/Citt&#224;</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1 [ICON_HAPPY]/ciudad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_HEALTH</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1[ICON_HEALTHY]/City</English>
+		<French>[NEWLINE][ICON_BULLET]%D1[ICON_HEALTHY]/Ville</French>
+		<German>[NEWLINE][ICON_BULLET]%D1[ICON_HEALTHY]/Stadt</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1[ICON_HEALTHY]/Citt&#224;</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1 [ICON_HEALTHY]/ciudad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_TRADE_YIELD_MODIFIERS</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%F2_yield from [ICON_TRADE]</English>
+		<French>[NEWLINE][ICON_BULLET]%D1%F2_yield avec : [ICON_TRADE]</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%F2_yield durch [ICON_TRADE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%F2_yield da [ICON_TRADE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1 %F2_yield por [ICON_TRADE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_YIELD_MODIFIERS</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%F2_yield</English>
+		<French>[NEWLINE][ICON_BULLET]%D1%F2_yield</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%F2_yield</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%F2_yield</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%F2_yield</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_OBJECT_YIELD_MODIFIERS</Tag>
+		<English>[ICON_BULLET]%D1%F2_yield from </English>
+		<French>[ICON_BULLET]%D1%F2_yield avec : </French>
+		<German>[ICON_BULLET]%D1%F2_yield durch </German>
+		<Italian>[ICON_BULLET]%D1%F2_yield da </Italian>
+		<Spanish>[ICON_BULLET]%D1 %F2_yield por </Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_COMMERCE_CHANGES</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%F2_commerce/City</English>
+		<French>[NEWLINE][ICON_BULLET]%D1%F2_commerce/ville</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%F2_commerce/Stadt</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%F2_commerce/Citt&#224;</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1 %F2_commerce/ciudad</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_COMMERCE_MODIFIERS</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce</English>
+		<French>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% [NUM2:al:a la:a los:a las] %F2_commerce</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXTRA</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce /[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce /[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce /[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce /[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%% %F2_commerce /[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPECIALIST_COMMERCE_MODIFIERS</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1%F2_commerce/City from specialists</English>
+		<French>[NEWLINE][ICON_BULLET]%D1%F2_commerce/City from specialists</French>
+		<German>[NEWLINE][ICON_BULLET]%D1%F2_commerce/City from specialists</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1%F2_commerce/City from specialists</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1%F2_commerce/City from specialists</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_FREE_PROMOTIONS</Tag>
+		<English>[NEWLINE][ICON_BULLET]Free Promotion (%s1)</English>
+		<French>[NEWLINE][ICON_BULLET]Promotion gratuite (%s1)</French>
+		<German>[NEWLINE][ICON_BULLET]Freie Bef&#246;rderung (%s1)</German>
+		<Italian>[NEWLINE][ICON_BULLET]Promozione gratuita (%s1)</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Ascenso gratis (%s1)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_PRODUCTION_MODIFIER</Tag>
+		<English>[NEWLINE][ICON_BULLET]%d1%% Faster Production of[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]Production %d1%% plus rapide de :[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]%d1%% schnellere Produktion f&#252;r:[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Produzione pi&#249; veloce del %d1%% per[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Acelera un %d1%% la producci&#243;n de[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NO_UPKEEP</Tag>
+		<English>[NEWLINE][ICON_BULLET]No Upkeep Costs for %s1</English>
+		<French>[NEWLINE][ICON_BULLET]Aucun co&#251;t d'entretien pour : %s1</French>
+		<German>[NEWLINE][ICON_BULLET]Keine Unterhaltskosten f&#252;r: %s1</German>
+		<Italian>[NEWLINE][ICON_BULLET]Nessun costo di mantenimento per %s1</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Sin costes de mantenimiento por %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BUILDING_HAPPINESS</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1_Change%F2_HappOrUnhapp from[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]%D1_Change%F2_HappOrUnhapp de[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]%D1_Change%F2_HappOrUnhapp durch Gel&#228;ndeart[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1_Change%F2_HappOrUnhapp per[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1_Change de %F2_HappOrUnhapp por[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HEALTH_TRAIT</Tag>
+		<English>[ICON_BULLET]%D1_change[ICON_HEALTHY] for %s2_trait leaders</English>
+		<French>[ICON_BULLET]%D1_change[ICON_HEALTHY] pour les dirigeants avec le trait %s2_trait</French>
+		<German>[ICON_BULLET]%D1_change[ICON_HEALTHY] f&#252;r %s2:2_trait Staatsoberhaupt</German>
+		<Italian>[ICON_BULLET]%D1_change[ICON_HEALTHY] con un leader %s2_trait</Italian>
+		<Spanish>[ICON_BULLET]%D1_change [ICON_HEALTHY] con l&#237;der %s2:1_trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_BUILDING_FREE_SPECIALIST</Tag>
+		<English>[NEWLINE][ICON_BULLET]%D1_Change free %s2_spec from[SPACE]</English>
+		<French>[NEWLINE][ICON_BULLET]%D1_Change free %s2_spec from[SPACE]</French>
+		<German>[NEWLINE][ICON_BULLET]%D1_Change free %s2_spec from[SPACE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]%D1_Change free %s2_spec from[SPACE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]%D1_Change free %s2_spec from[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NO_MAINT_CORPORATION_MOD</Tag>
+		<English>[ICON_BULLET]%D1_Mod%% Maintenance from Corporations</English>
+		<French>[ICON_BULLET]%D1_Mod%% Co&#251;ts d'entretien des Soci&#233;t&#233;s commerciales</French>
+		<German>[ICON_BULLET]%D1_Mod%% Unterhaltskosten von Kapitalgesellschaften</German>
+		<Italian>[ICON_BULLET]%D1_Mod%% costi di manutenzione da Corporazioni</Italian>
+		<Spanish>[ICON_BULLET]%D1_Mod%% a los costes de mantenimiento de las corporaciones</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_NO_MAINT_CORPORATION</Tag>
+		<English>[ICON_BULLET]No Maintenance Costs from Corporations</English>
+		<French>[ICON_BULLET]Pas de co&#251;t d'entretien des Soci&#233;t&#233;s commerciales</French>
+		<German>[ICON_BULLET]Keine Unterhaltskosten von Kapitalgesellschaften</German>
+		<Italian>[ICON_BULLET]Nessun costo di manutenzione da Corporazioni</Italian>
+		<Spanish>[ICON_BULLET]Sin costes de mantenimiento de las corporaciones</Spanish>
+	</TEXT>
+</Civ4GameText>

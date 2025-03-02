@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+
+<Civ4TraitClassInfos xmlns="x-schema:CIV4CivilizationsSchema.xml">
+	<TraitClassInfos>
+		<TraitClassInfo>
+			<Type>TRAITCLASS_CIVILIZATION</Type>
+			<Description>TXT_KEY_TRAITCLASS_CIVILIZATION</Description>
+		</TraitClassInfo>
+		<TraitClassInfo>
+			<Type>TRAITCLASS_PERSONALITY</Type>
+			<Description>TXT_KEY_TRAITCLASS_PERSONALITY</Description>
+		</TraitClassInfo>
+		<TraitClassInfo>
+			<Type>TRAITCLASS_EMERGENT</Type>
+			<Description>TXT_KEY_TRAITCLASS_EMERGENT</Description>
+		</TraitClassInfo>
+		<TraitClassInfo>
+			<Type>TRAITCLASS_KEEPERS</Type>
+			<Description>TXT_KEY_TRAITCLASS_KEEPERS</Description>
+		</TraitClassInfo>
+		<TraitClassInfo>
+			<Type>TRAITCLASS_SAVAGE</Type>
+			<Description>TXT_KEY_TRAITCLASS_SAVAGE</Description>
+		</TraitClassInfo>
+		<TraitClassInfo>
+			<Type>TRAITCLASS_REPUBLIC</Type>
+			<Description>TXT_KEY_TRAITCLASS_REPUBLIC</Description>
+		</TraitClassInfo>
+		<TraitClassInfo>
+			<Type>TRAITCLASS_KAHD</Type>
+			<Description>TXT_KEY_TRAITCLASS_KAHD</Description>
+		</TraitClassInfo>
+		<TraitClassInfo>
+			<Type>TRAITCLASS_DEMON_PACT</Type>
+			<Description>TXT_KEY_TRAITCLASS_DEMON_PACT</Description>
+		</TraitClassInfo>
+	</TraitClassInfos>
+</Civ4TraitClassInfos>

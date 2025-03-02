@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UPT</Tag>
+		<English>Enable xUPT</English>
+		<French>Activer xUPT</French>
+		<German>Aktivieren xUPT</German>
+		<Italian>Enable xUPT</Italian>
+		<Spanish>Enable xUPT</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UPT_VALUE</Tag>
+		<English>What UPT value would you like?</English>
+		<French>Quelle valeur UPT vouez-vous ?</French>
+		<German>Welche UPT Werte hätten Sie gerne?</German>
+		<Italian>What UPT value would you like?</Italian>
+		<Spanish>What UPT value would you like?</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARCANE_FORGE</Tag>
+		<English>Arcane Forge</English>
+		<French>Arcane Forge</French>
+		<German>Arcane Forge</German>
+		<Italian>Arcane Forge</Italian>
+		<Spanish>Arcane Forge</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELL_STABLE</Tag>
+		<English>Hell Stable</English>
+		<French>Hell Stable</French>
+		<German>Hell Stable</German>
+		<Italian>Hell Stable</Italian>
+		<Spanish>Hell Stable</Spanish>
+	</TEXT>
+</Civ4GameText>

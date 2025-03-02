@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4CivilizationInfos xmlns="x-schema:Dwarves_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+		<CivilizationInfo>		<!-- Khazad -->
+			<Type>CIVILIZATION_KHAZAD</Type>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_MAGE</UnitClassType>
+					<UnitType>UNIT_DWARVEN_ENGINEER</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARCHMAGE</UnitClassType>
+					<UnitType>UNIT_DWARVEN_MASTER_ENGINEER</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ROYAL_GUARD</UnitClassType>
+					<UnitType>UNIT_FORGEGUARDS</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_COMMANDER</UnitClassType>
+					<UnitType>UNIT_COMMANDER_DWARVEN_THANE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ADEPT</UnitClassType>
+					<UnitType>UNIT_DWARVEN_ENGINEERS_APRENTICE</UnitType>
+				</Unit>
+			</Units>
+		</CivilizationInfo>
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

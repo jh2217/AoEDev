@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PRISMATIC_DRAKE_FLIGHT</Tag>
+		<English>Prismatic Drake flock</English>
+		<French>Prismatic Drake flock</French>
+		<German>Prismatic Drake flock</German>
+		<Italian>Prismatic Drake flock</Italian>
+		<Spanish>Prismatic Drake flock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PRISMATIC_DRAKE_FLIGHT_PEDIA</Tag>
+		<English>Wild drakes are fiercely territorial, particularly towards drakes of other colours, but if you could get them to coexist, they would be a terrfying sight to behold.</English>
+		<French>Wild drakes are fiercely territorial, particularly towards drakes of other colours, but if you could get them to coexist, they would be a terrfying sight to behold.</French>
+		<German>Wild drakes are fiercely territorial, particularly towards drakes of other colours, but if you could get them to coexist, they would be a terrfying sight to behold.</German>
+		<Italian>Wild drakes are fiercely territorial, particularly towards drakes of other colours, but if you could get them to coexist, they would be a terrfying sight to behold.</Italian>
+		<Spanish>Wild drakes are fiercely territorial, particularly towards drakes of other colours, but if you could get them to coexist, they would be a terrfying sight to behold.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ELEMENTAL_FUSION</Tag>
+		<English>Elemental Fusion</English>
+		<French>Elemental Fusion</French>
+		<German>Elemental Fusion</German>
+		<Italian>Elemental Fusion</Italian>
+		<Spanish>Elemental Fusion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FORM_FLIGHT</Tag>
+		<English>Form Flock</English>
+		<French>Form Flock</French>
+		<German>Form Flock</German>
+		<Italian>Form Flock</Italian>
+		<Spanish>Form Flock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FORM_FLIGHT_PEDIA</Tag>
+		<English>Wild drakes are fiercely territorial and distrustful of their own kin, but if you could get them to coexist, they would be a force to reckon with, or a powerful source of elemental magic.</English>
+		<French>Wild drakes are fiercely territorial and distrustful of their own kin, but if you could get them to coexist, they would be a force to reckon with, or a powerful source of elemental magic.</French>
+		<German>Wild drakes are fiercely territorial and distrustful of their own kin, but if you could get them to coexist, they would be a force to reckon with, or a powerful source of elemental magic.</German>
+		<Italian>Wild drakes are fiercely territorial and distrustful of their own kin, but if you could get them to coexist, they would be a force to reckon with, or a powerful source of elemental magic.</Italian>
+		<Spanish>Wild drakes are fiercely territorial and distrustful of their own kin, but if you could get them to coexist, they would be a force to reckon with, or a powerful source of elemental magic.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FORM_FLIGHT_STRATEGY</Tag>
+		<English>If you're lucky enough to capture three drakes of the same type, use this spell to combine them into a single drake flock unit. Drake flocks are stronger and start with the powerful beast type, but they can also be sacrificed to create an elemental mana source in your city. This spell will not transfer experience or promotions from the other drakes, so make sure you cast it with your strongest drake.</English>
+		<French>If you're lucky enough to capture three drakes of the same type, use this spell to combine them into a single drake flock unit. Drake flocks are stronger and start with the powerful beast type, but they can also be sacrificed to create an elemental mana source in your city. This spell will not transfer experience or promotions from the other drakes, so make sure you cast it with your strongest drake.</French>
+		<German>If you're lucky enough to capture three drakes of the same type, use this spell to combine them into a single drake flock unit. Drake flocks are stronger and start with the powerful beast type, but they can also be sacrificed to create an elemental mana source in your city. This spell will not transfer experience or promotions from the other drakes, so make sure you cast it with your strongest drake.</German>
+		<Italian>If you're lucky enough to capture three drakes of the same type, use this spell to combine them into a single drake flock unit. Drake flocks are stronger and start with the powerful beast type, but they can also be sacrificed to create an elemental mana source in your city. This spell will not transfer experience or promotions from the other drakes, so make sure you cast it with your strongest drake.</Italian>
+		<Spanish>If you're lucky enough to capture three drakes of the same type, use this spell to combine them into a single drake flock unit. Drake flocks are stronger and start with the powerful beast type, but they can also be sacrificed to create an elemental mana source in your city. This spell will not transfer experience or promotions from the other drakes, so make sure you cast it with your strongest drake.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FORM_FLIGHT_HELP</Tag>
+		<English>[ICON_BULLET]Requires 3 drakes of the same color</English>
+		<French>[ICON_BULLET]Requires 3 drakes of the same color</French>
+		<German>[ICON_BULLET]Requires 3 drakes of the same color</German>
+		<Italian>[ICON_BULLET]Requires 3 drakes of the same color</Italian>
+		<Spanish>[ICON_BULLET]Requires 3 drakes of the same color</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FORM_PRISMATIC_FLIGHT</Tag>
+		<English>Form Prismatic Flock</English>
+		<French>Form Prismatic Flock</French>
+		<German>Form Prismatic Flock</German>
+		<Italian>Form Prismatic Flock</Italian>
+		<Spanish>Form Prismatic Flock</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FORM_PRISMATIC_FLIGHT_PEDIA</Tag>
+		<English>Wild drakes are fiercely territorial, particularly towards drakes of other colours, but if you could get them to coexist, they would be a terrfying sight to behold.</English>
+		<French>Wild drakes are fiercely territorial, particularly towards drakes of other colours, but if you could get them to coexist, they would be a terrfying sight to behold</French>
+		<German>Wild drakes are fiercely territorial, particularly towards drakes of other colours, but if you could get them to coexist, they would be a terrfying sight to behold</German>
+		<Italian>Wild drakes are fiercely territorial, particularly towards drakes of other colours, but if you could get them to coexist, they would be a terrfying sight to behold</Italian>
+		<Spanish>Wild drakes are fiercely territorial, particularly towards drakes of other colours, but if you could get them to coexist, they would be a terrfying sight to behold</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FORM_PRISMATIC_FLIGHT_STRATEGY</Tag>
+		<English>If you're lucky enough to capture one drake of every type, use this spell to combine them into the prismatic drake flock unit. Prismatic drake flocks are much stronger with powerful breath attacks and start with the powerful beast type. This spell will not transfer experience or promotions from the other drakes, so make sure you cast it with your strongest drake.</English>
+		<French>If you're lucky enough to capture one drake of every type, use this spell to combine them into the prismatic drake flock unit. Prismatic drake flocks are much stronger with powerful breath attacks and start with the powerful beast type. This spell will not transfer experience or promotions from the other drakes, so make sure you cast it with your strongest drake.</French>
+		<German>If you're lucky enough to capture one drake of every type, use this spell to combine them into the prismatic drake flock unit. Prismatic drake flocks are much stronger with powerful breath attacks and start with the powerful beast type. This spell will not transfer experience or promotions from the other drakes, so make sure you cast it with your strongest drake.</German>
+		<Italian>If you're lucky enough to capture one drake of every type, use this spell to combine them into the prismatic drake flock unit. Prismatic drake flocks are much stronger with powerful breath attacks and start with the powerful beast type. This spell will not transfer experience or promotions from the other drakes, so make sure you cast it with your strongest drake.</Italian>
+		<Spanish>If you're lucky enough to capture one drake of every type, use this spell to combine them into the prismatic drake flock unit. Prismatic drake flocks are much stronger with powerful breath attacks and start with the powerful beast type. This spell will not transfer experience or promotions from the other drakes, so make sure you cast it with your strongest drake.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FORM_PRISMATIC_FLIGHT_HELP</Tag>
+		<English>[ICON_BULLET]Requires 1 drake of each color</English>
+		<French>[ICON_BULLET]Requires 1 drake of each color</French>
+		<German>[ICON_BULLET]Requires 1 drake of each color</German>
+		<Italian>[ICON_BULLET]Requires 1 drake of each color</Italian>
+		<Spanish>[ICON_BULLET]Requires 1 drake of each color</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PRISMATIC_BREATH</Tag>
+		<English>Prismatic Breath</English>
+		<French>Prismatic Breath</French>
+		<German>Prismatic Breath</German>
+		<Italian>Prismatic Breath</Italian>
+		<Spanish>Prismatic Breath</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PRISMATIC_BREATH_PEDIA</Tag>
+		<English>"I've never before seen such primal beauty, a concert of elemental destruction"</English>
+		<French>"I've never before seen such primal beauty, a concert of elemental destruction"</French>
+		<German>"I've never before seen such primal beauty, a concert of elemental destruction"</German>
+		<Italian>"I've never before seen such primal beauty, a concert of elemental destruction"</Italian>
+		<Spanish>"I've never before seen such primal beauty, a concert of elemental destruction"</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PRISMATIC_BREATH_HELP</Tag>
+		<English>Breathe fire, cold, lightning and acid at once</English>
+		<French>Breathe fire, cold, lightning and acid at once</French>
+		<German>Breathe fire, cold, lightning and acid at once</German>
+		<Italian>Breathe fire, cold, lightning and acid at once</Italian>
+		<Spanish>Breathe fire, cold, lightning and acid at once</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FUSION_BREATH</Tag>
+		<English>Fusion Breath</English>
+		<French>Fusion Breath</French>
+		<German>Fusion Breath</German>
+		<Italian>Fusion Breath</Italian>
+		<Spanish>Fusion Breath</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_FUSION_BREATH_PEDIA</Tag>
+		<English>"The beasts turned their heads toward one another and exhaled their breath as one. A flash of light flooded the field, and soldiers stood transfixed by brilliance even as primal energy seared off their skin. From the center of their breath a single sphere of crackling force shot out, and I dove for cover as it hit the walls below me, shattering them with a thunderous bang."</English>
+		<French>"The beasts turned their heads toward one another and exhaled their breath as one. A flash of light flooded the field, and soldiers stood transfixed by brilliance even as primal energy seared off their skin. From the center of their breath a single sphere of crackling force shot out, and I dove for cover as it hit the walls below me, shattering them with a thunderous bang."</French>
+		<German>"The beasts turned their heads toward one another and exhaled their breath as one. A flash of light flooded the field, and soldiers stood transfixed by brilliance even as primal energy seared off their skin. From the center of their breath a single sphere of crackling force shot out, and I dove for cover as it hit the walls below me, shattering them with a thunderous bang."</German>
+		<Italian>"The beasts turned their heads toward one another and exhaled their breath as one. A flash of light flooded the field, and soldiers stood transfixed by brilliance even as primal energy seared off their skin. From the center of their breath a single sphere of crackling force shot out, and I dove for cover as it hit the walls below me, shattering them with a thunderous bang."</Italian>
+		<Spanish>"The beasts turned their heads toward one another and exhaled their breath as one. A flash of light flooded the field, and soldiers stood transfixed by brilliance even as primal energy seared off their skin. From the center of their breath a single sphere of crackling force shot out, and I dove for cover as it hit the walls below me, shattering them with a thunderous bang."</Spanish>
+	</TEXT>
+	<!--
+	<TEXT>
+		<Tag></Tag>
+		<English></English>
+		<French></French>
+		<German></German>
+		<Italian></Italian>
+		<Spanish></Spanish>
+	</TEXT>
+	-->
+</Civ4GameText>

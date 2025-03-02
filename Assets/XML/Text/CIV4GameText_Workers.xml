@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SKILLED1</Tag>
+		<English>Skilled I</English>
+		<French>Zélé I</French>
+		<German>Fleiß I</German>
+		<Italian>Skilled I</Italian>
+		<Spanish>Skilled I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SKILLED2</Tag>
+		<English>Skilled II</English>
+		<French>Zélé II</French>
+		<German>Fleiß II</German>
+		<Italian>Skilled II</Italian>
+		<Spanish>Skilled II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SKILLED3</Tag>
+		<English>Skilled III</English>
+		<French>Zélé III</French>
+		<German>Fleiß III</German>
+		<Italian>Skilled III</Italian>
+		<Spanish>Skilled III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SKILLED4</Tag>
+		<English>Skilled IV</English>
+		<French>Zélé IV</French>
+		<German>Fleiß IV</German>
+		<Italian>Skilled IV</Italian>
+		<Spanish>Skilled IV</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SKILLED5</Tag>
+		<English>Skilled V</English>
+		<French>Zélé V</French>
+		<German>Fleiß V</German>
+		<Italian>Skilled V</Italian>
+		<Spanish>Skilled V</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HARDY1</Tag>
+		<English>Hardy I</English>
+		<French>Tenace I</French>
+		<German>Zähigkeit I</German>
+		<Italian>Hardy I</Italian>
+		<Spanish>Hardy I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HARDY2</Tag>
+		<English>Hardy II</English>
+		<French>Tenace II</French>
+		<German>Zähigkeit II</German>
+		<Italian>Hardy II</Italian>
+		<Spanish>Hardy II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HARDY3</Tag>
+		<English>Hardy III</English>
+		<French>Tenace III</French>
+		<German>Zähigkeit III</German>
+		<Italian>Hardy III</Italian>
+		<Spanish>Hardy III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_APTITUDE1</Tag>
+		<English>Aptitude I</English>
+		<French>Prometteur I</French>
+		<German>Eignung I</German>
+		<Italian>Aptitude I</Italian>
+		<Spanish>Aptitude I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_APTITUDE2</Tag>
+		<English>Aptitude II</English>
+		<French>Prometteur II</French>
+		<German>Eignung II</German>
+		<Italian>Aptitude II</Italian>
+		<Spanish>Aptitude II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_APTITUDE3</Tag>
+		<English>Aptitude III</English>
+		<French>Prometteur III</French>
+		<German>Eignung III</German>
+		<Italian>Aptitude III</Italian>
+		<Spanish>Aptitude III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FORESTWORKRATE</Tag>
+		<English>Keeblerism</English>
+		<French>Keeblerisme</French>
+		<German>Keeblerism</German>
+		<Italian>Keeblerism</Italian>
+		<Spanish>Keeblerism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GLACIERWORKRATE</Tag>
+		<English>Ice worker</English>
+		<French>Sculpteur sur glace</French>
+		<German>Ice worker</German>
+		<Italian>Ice worker</Italian>
+		<Spanish>Ice worker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TAIGAWORKRATE</Tag>
+		<English>Taiga worker</English>
+		<French>Travailleur de la taiga</French>
+		<German>Taiga worker</German>
+		<Italian>Taiga worker</Italian>
+		<Spanish>Taiga worker</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_TUNDRAWORKRATE</Tag>
+		<English>Tundra worker</English>
+		<French>Travailleur de la toundra</French>
+		<German>Tundra worker</German>
+		<Italian>Tundra worker</Italian>
+		<Spanish>Tundra worker</Spanish>
+	</TEXT>
+</Civ4GameText>

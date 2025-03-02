@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<!-- CONFIRMED WORKING INGAME:
+- build improvement
+- cast spell (unit or city)
+- construct building (buildingclass, 
+- gain promo (on levelup, on unit trained, on unit upgraded)
+- kill enemy (unitclass, unitcombat, 
+- train unit
+-->
+
+<Civ4TraitTriggerInfos xmlns="x-schema:MagisterAshes_CIV4CivilizationsSchema.xml">
+	<TraitTriggerInfos>
+	<TraitTriggerInfo> <!-- Gain plot           Abaddon's pit    			                Keepers -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_ABADDON</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_ABADDON</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_ABADDONS_PIT</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Babd's Wandering Castle    			                Keepers -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_BADB</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_BADB</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_BADBS_BLIZZARD</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain plot           Grave of Asmoday    			                Keepers -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_ASMODAY</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_ASMODAY</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_GRAVE_OF_ASMODAY</PrereqImprovementType>
+		</TraitTriggerInfo>
+	<TraitTriggerInfo> <!-- Gain plot           Whispering Wood    			                Keepers -->
+			<Type>TRAITTRIGGER_GAIN_PLOT_WHISPERING</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_WHISPERING</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_WHISPERING_WOOD</PrereqImprovementType>
+		</TraitTriggerInfo>
+	
+		<TraitTriggerInfo> <!-- Lose plot           Abaddon's pit                      		Keepers -->
+			<Type>TRAITTRIGGER_LOSE_PLOT_ABADDON</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_ABADDON</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_ABADDONS_PIT</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose plot           Babd's Wandering Castle                      		Keepers -->
+			<Type>TRAITTRIGGER_LOSE_PLOT_BADB</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_BADB</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_BADBS_BLIZZARD</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose plot           Grave of Asmoday                      		Keepers -->
+			<Type>TRAITTRIGGER_LOSE_PLOT_ASMODAY</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_ASMODAY</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_GRAVE_OF_ASMODAY</PrereqImprovementType>
+		</TraitTriggerInfo>	
+	<TraitTriggerInfo> <!-- Lose plot           Whispering Wood    			                Keepers -->
+			<Type>TRAITTRIGGER_LOSE_PLOT_WHISPERING</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_WHISPERING</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_WHISPERING_WOOD</PrereqImprovementType>
+		</TraitTriggerInfo>
+	</TraitTriggerInfos>
+</Civ4TraitTriggerInfos>

@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_MARNOK_DUNGEONEER</Tag>
+		<English>Explore the Dungeon.</English>
+		<French>Explore the Dungeon.</French>
+		<German>Dungeon erforschen</German>
+		<Italian>Explore the Dungeon.</Italian>
+		<Spanish>Explore the Dungeon.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_MARNOK_BARB_DUNGEONEER</Tag>
+		<English>Pay 50 gold and attempt to assist the lair, or see what they can do for you.</English>
+		<French>Pay 50 gold and attempt to assist the lair, or see what they can do for you.</French>
+		<German>Unterstützt die Bewohner des Unterschlupfes mit 50 Gold - oder seht Euch an, was sie für Euch bereit halten.</German>
+		<Italian>Pay 50 gold and attempt to assist the lair, or see what they can do for you.</Italian>
+		<Spanish>Pay 50 gold and attempt to assist the lair, or see what they can do for you.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_BONUS_GEMS</Tag>
+		<English>You find a rich source of gems beneath the lair.</English>
+		<French>You find a rich source of gems beneath the lair.</French>
+		<German>Ihr findet ein Edelsteinvorkommen innerhalb des Unterschlupfes.</German>
+		<Italian>You find a rich source of gems beneath the lair.</Italian>
+		<Spanish>You find a rich source of gems beneath the lair.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_BEAR</Tag>
+		<English>A Bear charges out at you!</English>
+		<French>A Bear charges out at you!</French>
+		<German>Ein Bär attackiert Euch!</German>
+		<Italian>A Bear charges out at you!</Italian>
+		<Spanish>A Bear charges out at you!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_SKELETONS</Tag>
+		<English>You encounter skeletons!</English>
+		<French>You encounter skeletons!</French>
+		<German>Ihr stoßt auf Skelette!</German>
+		<Italian>You encounter skeletons!</Italian>
+		<Spanish>You encounter skeletons!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_SPECTRE</Tag>
+		<English>You awaken a resting spirit!</English>
+		<French>You awaken a resting spirit!</French>
+		<German>Ihr habt einen Geist aufgescheucht!</German>
+		<Italian>You awaken a resting spirit!</Italian>
+		<Spanish>You awaken a resting spirit!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_CRAZED</Tag>
+		<English>Such horrors lie within the lair, your unit may never be the same again...</English>
+		<French>Such horrors lie within the lair, your unit may never be the same again...</French>
+		<German>Derartige Schrecken lauern in der Höhle, dass Eure Einheit für immer verloren gehen mag...</German>
+		<Italian>Such horrors lie within the lair, your unit may never be the same again...</Italian>
+		<Spanish>Such horrors lie within the lair, your unit may never be the same again...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_ENRAGED</Tag>
+		<English>Nobody is sure where your unit is running to, but everyone is sure they don't want to get in his way</English>
+		<French>Nobody is sure where your unit is running to, but everyone is sure they don't want to get in his way</French>
+		<German>Niemand weiß, wohin Eure Einheit rennt, aber es ist klar, dass sie IHM nicht in die Quere kommen will.</German>
+		<Italian>Nobody is sure where your unit is running to, but everyone is sure they don't want to get in his way</Italian>
+		<Spanish>Nobody is sure where your unit is running to, but everyone is sure they don't want to get in his way</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_SPIDER</Tag>
+		<English>A gargantuan spider crawls from its lair...</English>
+		<French>Une araignée gargantuesque émerge de sa tanière...</French>
+		<German>Eine gigantische Spinne krabbelt aus ihrem Unterschlupf...</German>
+		<Italian>A gargantuan spider crawls from its lair...</Italian>
+		<Spanish>A gargantuan spider crawls from its lair...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_HILLGIANT</Tag>
+		<English>Fee, Fi, Foe, Fum!</English>
+		<French>Fee, Fi, Foe, Fum!</French>
+		<German>Fi, Fa, Feind, Fumm!</German>
+		<Italian>Fee, Fi, Foe, Fum!</Italian>
+		<Spanish>Fee, Fi, Foe, Fum!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_LIZARDMEN</Tag>
+		<English>You disturb a group of Lizardmen.</English>
+		<French>Vous importunez un groupe d'hommes-lézards.</French>
+		<German>Eine Gruppe Echsenmenschen fühlt sich von Euch belästigt.</German>
+		<Italian>You disturb a group of Lizardmen.</Italian>
+		<Spanish>You disturb a group of Lizardmen.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_MAP</Tag>
+		<English>You discover a treasure map!</English>
+		<French>Vous découvez une carte au trésor !</French>
+		<German>Ihr entdeckt eine Schatzkarte! Dort sollte das Ziel liegen.</German>
+		<Italian>You discover a treasure map!</Italian>
+		<Spanish>You discover a treasure map!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_GOLD</Tag>
+		<English>The treasure hoard is plundered!</English>
+		<French>The treasure hoard is plundered!</French>
+		<German>Der Schatzhort wurde geplündert!</German>
+		<Italian>The treasure hoard is plundered!</Italian>
+		<Spanish>The treasure hoard is plundered!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_BARBARIANS</Tag>
+		<English>Orcs burst forth from the lair, intent on pillage!</English>
+		<French>Orcs burst forth from the lair, intent on pillage!</French>
+		<German>Orks brechen aus dem Unterschlupf hervor, gierig auf Plünderung!</German>
+		<Italian>Orcs burst forth from the lair, intent on pillage!</Italian>
+		<Spanish>Orcs burst forth from the lair, intent on pillage!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_TECH</Tag>
+		<English>Ancient tablets reveal mysterious secrets.</English>
+		<French>D'antiques tablettes nous ont révélé de mystérieux secrets.</French>
+		<German>Uralte Gesetzestafeln offenbaren mysteriöse Geheimnisse.</German>
+		<Italian>Ancient tablets reveal mysterious secrets.</Italian>
+		<Spanish>Ancient tablets reveal mysterious secrets.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_NOTHING</Tag>
+		<English>Your efforts are fruitless.</English>
+		<French>Your efforts are fruitless.</French>
+		<German>Eure Bemühungen bleiben vom Misserfolg gekrönt.</German>
+		<Italian>Your efforts are fruitless.</Italian>
+		<Spanish>Your efforts are fruitless.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_EXPERIENCE</Tag>
+		<English>Your unit emerges victorious after many fearsome battles.</English>
+		<French>Your unit emerges victorious after many fearsome battles.</French>
+		<German>Nach zahlreichen schrecklichen Kämpfen erringt Eure Einheit den Sieg.</German>
+		<Italian>Your unit emerges victorious after many fearsome battles.</Italian>
+		<Spanish>Your unit emerges victorious after many fearsome battles.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_MARNOK_DUNGEONEER_HELP</Tag>
+		<English>Assault the lair to destroy it and see what treasures can be found!</English>
+		<French>Assault the lair to destroy it and see what treasures can be found!</French>
+		<German>Greift den Unterschlupf an, um herauszufinden, welch Schatz sich darin befindet!</German>
+		<Italian>Assault the lair to destroy it and see what treasures can be found!</Italian>
+		<Spanish>Assault the lair to destroy it and see what treasures can be found!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_MARNOK_BARB_DUNGEONEER_HELP</Tag>
+		<English>Explore the dungeon.</English>
+		<French>Explore the dungeon.</French>
+		<German>Erforscht den Dungeon.</German>
+		<Italian>Explore the dungeon.</Italian>
+		<Spanish>Explore the dungeon.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ADVENTURER</Tag>
+		<English>Adventurer</English>
+		<French>Aventurier</French>
+		<German>Abenteurer</German>
+		<Italian>Adventurer</Italian>
+		<Spanish>Adventurer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_GARGOYLE</Tag>
+		<English>Your unit has disturbed an area protected by a gargoyle.</English>
+		<French>Your unit has disturbed an area protected by a gargoyle.</French>
+		<German>Eure Einheit ist in ein Gebiet eingedrungen, das von einer Gargoyle bewacht wird.</German>
+		<Italian>Your unit has disturbed an area protected by a gargoyle.</Italian>
+		<Spanish>Your unit has disturbed an area protected by a gargoyle.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_OGRE</Tag>
+		<English>Your unit disturbs a sleeping ogre. It's not asleep anymore.</English>
+		<French>Your unit disturbs a sleeping ogre. It's not asleep anymore.</French>
+		<German>Eure Einheit stolpert über einen schlafenden Troll. Und nun ist er wach.</German>
+		<Italian>Your unit disturbs a sleeping ogre. It's not asleep anymore.</Italian>
+		<Spanish>Your unit disturbs a sleeping ogre. It's not asleep anymore.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_TREANT</Tag>
+		<English>A treant - angered by the actions of creatures in the lair - mistakes your unit for one of the monsters and attacks.</English>
+		<French>A treant - angered by the actions of creatures in the lair - mistakes your unit for one of the monsters and attacks.</French>
+		<German>Ein Baumhirte - verärgert durch Tumulte anderer Kreaturen im Unterschlupf - hält Eure Einheit irrtümlich für eins der Monster und greift an.</German>
+		<Italian>A treant - angered by the actions of creatures in the lair - mistakes your unit for one of the monsters and attacks.</Italian>
+		<Spanish>A treant - angered by the actions of creatures in the lair - mistakes your unit for one of the monsters and attacks.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_LICH</Tag>
+		<English>Deep in the Barrow, your unit discovers the Lich that is responsible for the restless dead!</English>
+		<French>Deep in the Barrow, your unit discovers the Lich that is responsible for the restless dead!</French>
+		<German>In den Tiefen des Grabhügels stöbert Eure Einheit den wandelnden Leichnam auf, der für die ruhelosen Toten verantworlich ist!</German>
+		<Italian>Deep in the Barrow, your unit discovers the Lich that is responsible for the restless dead!</Italian>
+		<Spanish>Deep in the Barrow, your unit discovers the Lich that is responsible for the restless dead!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_FAWN</Tag>
+		<English>Often considered docile, your misadventures in the lair and attempt to carve on an ancient Red Oak have awoken in this humble beast a rage for which few Fawns are known</English>
+		<French>Often considered docile, your misadventures in the lair and attempt to carve on an ancient Red Oak have awoken in this humble beast a rage for which few Fawns are known</French>
+		<German>Oftmals für zahm gehalten, versetzen Euer Missgeschick im Unterschlupf und der Versuch, auf der uralten roten Eiche Eure Initialen einzuritzen, diese jämmerliche Bestie in eine Raserei, wie sie noch nicht bei vielen Rehkitzen beobachtet werden konnte.</German>
+		<Italian>Often considered docile, your misadventures in the lair and attempt to carve on an ancient Red Oak have awoken in this humble beast a rage for which few Fawns are known</Italian>
+		<Spanish>Often considered docile, your misadventures in the lair and attempt to carve on an ancient Red Oak have awoken in this humble beast a rage for which few Fawns are known</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_DEATH_KNIGHT</Tag>
+		<English>Dedicated to his task beyond even the call of the grave, the Death Knight is a relentless adversary who doesn't take kindly to being disturbed</English>
+		<French>Dedicated to his task beyond even the call of the grave, the Death Knight is a relentless adversary who doesn't take kindly to being disturbed</French>
+		<German>Der Todesritter - seiner Aufgabe sogar über den Ruf des Grabes hinaus verpflichtet - erweist sich als unerbittlicher Gegner, der Störenfrieden nicht eben freundlich entgegentritt.</German>
+		<Italian>Dedicated to his task beyond even the call of the grave, the Death Knight is a relentless adversary who doesn't take kindly to being disturbed</Italian>
+		<Spanish>Dedicated to his task beyond even the call of the grave, the Death Knight is a relentless adversary who doesn't take kindly to being disturbed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_PITBEAST</Tag>
+		<English>As your unit rounds a corner, it is confronted by the jaws of a great beast.</English>
+		<French>As your unit rounds a corner, it is confronted by the jaws of a great beast.</French>
+		<German>Als Eure Einheit um eine Ecke tritt, wird sie mit den Klauen einer riesigen Bestie konfrontiert.</German>
+		<Italian>As your unit rounds a corner, it is confronted by the jaws of a great beast.</Italian>
+		<Spanish>As your unit rounds a corner, it is confronted by the jaws of a great beast.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_POSSESSED</Tag>
+		<English>Your unit emerges from the dungeon, mumbling strange phrases and lurching uncontrollably. Your sages suggest that it is a Demonic influence.</English>
+		<French>Your unit emerges from the dungeon, mumbling strange phrases and lurching uncontrollably. Your sages suggest that it is a Demonic influence.</French>
+		<German>Eure Einheit entsteigt dem Dungeon, murmelt seltsame Phrasen vor sich hin und taumelt unkontrolliert umher. Eure Weisen vermuten einen dämonischen Einfluss.</German>
+		<Italian>Your unit emerges from the dungeon, mumbling strange phrases and lurching uncontrollably. Your sages suggest that it is a Demonic influence.</Italian>
+		<Spanish>Your unit emerges from the dungeon, mumbling strange phrases and lurching uncontrollably. Your sages suggest that it is a Demonic influence.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_WITHERED</Tag>
+		<English>Your unit faces a sorceror in his chamber. Though your forces are victorious, the dark magic cast against your unit has taken it's toll.</English>
+		<French>Your unit faces a sorceror in his chamber. Though your forces are victorious, the dark magic cast against your unit has taken it's toll.</French>
+		<German>Eure Einheit sieht sich einem Hexenmeister gegenüber. Obwohl Eure Truppen siegreich sind, fordert die beschworene Schwarze Magie ihren Tribut.</German>
+		<Italian>Your unit faces a sorceror in his chamber. Though your forces are victorious, the dark magic cast against your unit has taken it's toll.</Italian>
+		<Spanish>Your unit faces a sorceror in his chamber. Though your forces are victorious, the dark magic cast against your unit has taken it's toll.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_ENERVATED</Tag>
+		<English>A close encounter with a vengeful spirit has left your unit Enervated.</English>
+		<French>A close encounter with a vengeful spirit has left your unit Enervated.</French>
+		<German>Ein unerquickliches Zusammentreffen mit einem rachsüchtigen Geist hat Eure Einheit entkräftet.</German>
+		<Italian>A close encounter with a vengeful spirit has left your unit Enervated.</Italian>
+		<Spanish>A close encounter with a vengeful spirit has left your unit Enervated.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_DISEASED</Tag>
+		<English>All your unit finds in the lair are the dead bodies of an orc tribe. Shortly after leaving however, it begins to feel deathly ill.</English>
+		<French>Votre unité ne trouve dans le donjon que les cadavres d'une tribu orque. Mais peu après son départ, elle commence à se sentir gravement malade.</French>
+		<German>Das Einzige, was Eure Einheit in dem Unterschlupf entdeckt, sind die toten Körper eines Orkstammes. Kurz nach dem Verlassen des Unterschlupfes beginnt sie jedoch auch, sich todkrank zu fühlen.</German>
+		<Italian>All your unit finds in the lair are the dead bodies of an orc tribe. Shortly after leaving however, it begins to feel deathly ill.</Italian>
+		<Spanish>All your unit finds in the lair are the dead bodies of an orc tribe. Shortly after leaving however, it begins to feel deathly ill.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_PLAGUED</Tag>
+		<English>The exploration is uneventful, but before night falls your unit notices a rash of blackened skin, spreading rapidly.</English>
+		<French>The exploration is uneventful, but before night falls your unit notices a rash of blackened skin, spreading rapidly.</French>
+		<German>Die Erkundung verläuft ereignislos, aber noch vor dem Einbruch der Nacht bemerkt Eure Einheit einen rasch wachsenden, schwärzlichen Hautausschlag.</German>
+		<Italian>The exploration is uneventful, but before night falls your unit notices a rash of blackened skin, spreading rapidly.</Italian>
+		<Spanish>The exploration is uneventful, but before night falls your unit notices a rash of blackened skin, spreading rapidly.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_POISONED</Tag>
+		<English>A particularly vicious tribe of goblins made a home here. Though they were easily defeated, their barbed weapons were tipped with poison and the wounds will take time to heal.</English>
+		<French>A particularly vicious tribe of goblins made a home here. Though they were easily defeated, their barbed weapons were tipped with poison and the wounds will take time to heal.</French>
+		<German>Ein ausgesprochen bösartiger Goblinstamm hat sich hier niedergelassen. Obwohl sie schnell niedergemacht werden konnten, haben ihre stacheligen, vergifteten Waffen Wunden verursacht, die nur langsam heilen werden.</German>
+		<Italian>A particularly vicious tribe of goblins made a home here. Though they were easily defeated, their barbed weapons were tipped with poison and the wounds will take time to heal.</Italian>
+		<Spanish>A particularly vicious tribe of goblins made a home here. Though they were easily defeated, their barbed weapons were tipped with poison and the wounds will take time to heal.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_MYSTERYDEATH</Tag>
+		<English>We may never find out what perils were faced, for none emerged alive...</English>
+		<French>Nous ne saurons probablement jamais ce que notre unité a affronté, puisqu'elle n'est jamais ressortie.</French>
+		<German>Wir werden wohl nie erfahren, welche furchtbaren Gefahren dort lauern ...</German>
+		<Italian>We may never find out what perils were faced, for none emerged alive...</Italian>
+		<Spanish>We may never find out what perils were faced, for none emerged alive...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_DUNGEONCOLLAPSE</Tag>
+		<English>The lair collapses, destroyed. Falling masonry threatens to kill the explorers...</English>
+		<French>The lair collapses, destroyed. Falling masonry threatens to kill the explorers...</French>
+		<German>Der Unterschlupf bricht zusammen, zerstört. Der Tod winkt den Erkundern in Form von herabstürzendem Mauerwerk...</German>
+		<Italian>The lair collapses, destroyed. Falling masonry threatens to kill the explorers...</Italian>
+		<Spanish>The lair collapses, destroyed. Falling masonry threatens to kill the explorers...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_FROSTLINGS</Tag>
+		<English>Frostlings made a home here and they intend to fight to keep it.</English>
+		<French>Des Gelbiontes se sont établis ici, et ils sont prêts à se battre pour conserver ce territoire.</French>
+		<German>Frostlinge haben sich hier ein Heim gebaut, und sie beabsichtigen, für den Erhalt desselben zu kämpfen.</German>
+		<Italian>Frostlings made a home here and they intend to fight to keep it.</Italian>
+		<Spanish>Frostlings made a home here and they intend to fight to keep it.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_MUTATED</Tag>
+		<English>A strange, magical material in the dungeon has caused your unit to mutate.</English>
+		<French>Votre unité est entrée en contact avec des matériaux magiques mutagènes.</French>
+		<German>Leuchtende Flüssigkeiten in uralten Flaschen mit fremden Runen sollte man nicht einfach so trinken. Aber was solls. Eine seltsame, magische Substanz im Dungeon hat Eure Einheit mutieren lassen.</German>
+		<Italian>A strange, magical material in the dungeon has caused your unit to mutate.</Italian>
+		<Spanish>A strange, magical material in the dungeon has caused your unit to mutate.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_SPIRIT_GUIDE</Tag>
+		<English>The lonely spirits of long-lost adventurers join your explorers.</English>
+		<French>The lonely spirits of long-lost adventurers join your explorers.</French>
+		<German>Die einsamen Geister lang verschollener Abenteurer schließen sich Euren Erkundern an.</German>
+		<Italian>The lonely spirits of long-lost adventurers join your explorers.</Italian>
+		<Spanish>The lonely spirits of long-lost adventurers join your explorers.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_ENCHANTED_BLADE</Tag>
+		<English>Your unit encounters several monsters. Upon defeating the last of them, the unit discovers an enchanted blade.</English>
+		<French>Your unit encounters several monsters. Upon defeating the last of them, the unit discovers an enchanted blade.</French>
+		<German>Eure Einheit stößt auf mehrere Monster. Nach dem Bezwingen des letzten Ungeheuers entdeckt sie eine magische Klinge.</German>
+		<Italian>Your unit encounters several monsters. Upon defeating the last of them, the unit discovers an enchanted blade.</Italian>
+		<Spanish>Your unit encounters several monsters. Upon defeating the last of them, the unit discovers an enchanted blade.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_RELEASE_PRISONER</Tag>
+		<English>After defeating a party of barbaric humans, your unit discovers a prison cell. The occupant is greatful to be released and joins you.</English>
+		<French>After defeating a party of barbaric humans, your unit discovers a prison cell. The occupant is greatful to be released and joins you.</French>
+		<German>Nach dem Bezwingen einer Barbarenhorde stößt Eure Einheit auf eine Gefängniszelle. Der Insasse ist äußerst dankbar für seine Befreiung und schließt sich Euch an.</German>
+		<Italian>After defeating a party of barbaric humans, your unit discovers a prison cell. The occupant is greatful to be released and joins you.</Italian>
+		<Spanish>After defeating a party of barbaric humans, your unit discovers a prison cell. The occupant is greatful to be released and joins you.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_IMMORTAL</Tag>
+		<English>A strange twist of fate or the work of a higher power? Either way, your unit has been blessed with Immortality and need no-longer fear death - for a while at least.</English>
+		<French>A strange twist of fate or the work of a higher power? Either way, your unit has been blessed with Immortality and need no-longer fear death - for a while at least.</French>
+		<German>Eine seltsame Wendung des Schicksals, oder doch das Werk einer höheren Macht? Wie auch immer, Eure Einheit wurde mit Unsterblichkeit gesegnet und muss nun den Tod nicht länger fürchten - für eine Weile zumindest.</German>
+		<Italian>A strange twist of fate or the work of a higher power? Either way, your unit has been blessed with Immortality and need no-longer fear death - for a while at least.</Italian>
+		<Spanish>A strange twist of fate or the work of a higher power? Either way, your unit has been blessed with Immortality and need no-longer fear death - for a while at least.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_FAMOUS_ADVENTURE</Tag>
+		<English>Adventure! Explosions! Fiendish villians, brave heroes, and romance! This adventure ensures the fame of the explorers and bards will sing of their deeds for years to come.</English>
+		<French>Adventure! Explosions! Fiendish villians, brave heroes, and romance! This adventure ensures the fame of the explorers and bards will sing of their deeds for years to come.</French>
+		<German>Abenteuer! Explosionen! Unmenschliche Bösewichte, tapfere Helden! Und Romantik! Dieses Abenteuer garantiert den Erkundern Ruhm, und die Barden werden noch jahrelang von ihren Taten singen.</German>
+		<Italian>Adventure! Explosions! Fiendish villians, brave heroes, and romance! This adventure ensures the fame of the explorers and bards will sing of their deeds for years to come.</Italian>
+		<Spanish>Adventure! Explosions! Fiendish villians, brave heroes, and romance! This adventure ensures the fame of the explorers and bards will sing of their deeds for years to come.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_ADVENTURE</Tag>
+		<English>This adventure ensures the fame of the explorers and bards will sing of their deeds.</English>
+		<French>This adventure ensures the fame of the explorers and bards will sing of their deeds.</French>
+		<German>Dieses Abenteuer garantiert den Ruhm der Erkunder, und Barden werden noch jahrelang von ihren Taten singen.</German>
+		<Italian>This adventure ensures the fame of the explorers and bards will sing of their deeds.</Italian>
+		<Spanish>This adventure ensures the fame of the explorers and bards will sing of their deeds.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_TREASURE_VAULT</Tag>
+		<English>Your unit discovers a treasure vault!</English>
+		<French>Your unit discovers a treasure vault!</French>
+		<German>Eure Einheit entdeckt eine Schatzhöhle!</German>
+		<Italian>Your unit discovers a treasure vault!</Italian>
+		<Spanish>Your unit discovers a treasure vault!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_MAGIC_ITEM</Tag>
+		<English>The explorers discover an item of power.</English>
+		<French>The explorers discover an item of power.</French>
+		<German>Eure Einheit entdeckt einen magischen Gegenstand und nimmt ihn an sich.</German>
+		<Italian>The explorers discover an item of power.</Italian>
+		<Spanish>The explorers discover an item of power.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_RESOURCE</Tag>
+		<English>You happen upon abundant resources in the dungeon, ready to be exploited.</English>
+		<French>You happen upon abundant resources in the dungeon, ready to be exploited.</French>
+		<German>Im Dungeon stößt Ihr auf reichhaltige Ressourcen, bereit zur Ausbeutung.</German>
+		<Italian>You happen upon abundant resources in the dungeon, ready to be exploited.</Italian>
+		<Spanish>You happen upon abundant resources in the dungeon, ready to be exploited.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_MANA</Tag>
+		<English>Beneath the surface, hidden from view, lies a powerful mana deposit.</English>
+		<French>Beneath the surface, hidden from view, lies a powerful mana deposit.</French>
+		<German>Unter der Oberfläche, verborgen vor neugierigen Blicken, liegt ein Manaknoten.</German>
+		<Italian>Beneath the surface, hidden from view, lies a powerful mana deposit.</Italian>
+		<Spanish>Beneath the surface, hidden from view, lies a powerful mana deposit.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_BONUS_COPPER</Tag>
+		<English>The creatures here had established a crude mine, attempting to exploit the rich copper deposits.</English>
+		<French>The creatures here had established a crude mine, attempting to exploit the rich copper deposits.</French>
+		<German>Die Kreaturen betreiben hier - um das reiche Kupfervorkommen auszubeuten - eine unmenschlich grausame Mine.</German>
+		<Italian>The creatures here had established a crude mine, attempting to exploit the rich copper deposits.</Italian>
+		<Spanish>The creatures here had established a crude mine, attempting to exploit the rich copper deposits.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_BONUS_IRON</Tag>
+		<English>The walls of the dungeon are roughly hewn, but contain deep veins of iron.</English>
+		<French>Les murs du donjon sont grossièrement taillés, mais contiennent un gisement de fer.</French>
+		<German>Die Wände des Dungeons sind roh behauen, enthalten jedoch dicke Eisenadern.</German>
+		<Italian>The walls of the dungeon are roughly hewn, but contain deep veins of iron.</Italian>
+		<Spanish>The walls of the dungeon are roughly hewn, but contain deep veins of iron.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_BONUS_GOLD</Tag>
+		<English>The lair conceals an old gold mine, dating back before the Age of Ice. With a little work, it can be reopened.</English>
+		<French>Le repaire recèle une mine d'or désaffectée, dont l'origine précède l'Âge de Glace. Avec un peu d'efforts, elle pourrait être rouverte.</French>
+		<German>Im Unterschlupf verborgen liegt eine alte Goldmine, noch aus einer Zeit vor dem Eis. Mit etwas Arbeit kann sie wiedereröffnet werden.</German>
+		<Italian>The lair conceals an old gold mine, dating back before the Age of Ice. With a little work, it can be reopened.</Italian>
+		<Spanish>The lair conceals an old gold mine, dating back before the Age of Ice. With a little work, it can be reopened.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_BONUS_MITHRIL</Tag>
+		<English>At the deepest point of the complex, you discover a vein of glowing metal.</English>
+		<French>Au tréfonds du complexe, vous découvrez un gisement de métal brillant.</French>
+		<German>Am tiefsten Punkt des Komplexes entdeckt Ihr eine Ader aus schimmernden Metall.</German>
+		<Italian>At the deepest point of the complex, you discover a vein of glowing metal.</Italian>
+		<Spanish>At the deepest point of the complex, you discover a vein of glowing metal.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_BONUS_REAGENTS</Tag>
+		<English>The caves contain strange plants. These may be useful in spellcasting.</English>
+		<French>Les caves renferment de curieuses plantes. Elles pourraient se révéler utiles aux incantations.</French>
+		<German>Die Höhlen beherbergen seltsame Pflanzen. Sie könnten beim Zaubern von Nutzen sein.</German>
+		<Italian>The caves contain strange plants. These may be useful in spellcasting.</Italian>
+		<Spanish>The caves contain strange plants. These may be useful in spellcasting.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_VEHEM_PROPER_BURIAL_ELOHIM</Tag>
+		<English>Your unit happens upon the scattered remains of an old adventuring party, long lost in the dungeon. As soon as the last of the lair's inhabitants are defeated, your men perform a proper burial for those who came before you. </English>
+		<French>Your unit happens upon the scattered remains of an old adventuring party, long lost in the dungeon. As soon as the last of the lair's inhabitants are defeated, your men perform a proper burial for those who came before you.</French>
+		<German>Eure Einheit stößt auf die verstreuten &#220;berreste einer früheren Abenteurergruppe, lange schon verschollen in dem Dungeon. Sobald der Letzte der Bewohner des Unterschlupfes niedergemacht ist, bestatten Eure Männer diejenigen, die vor Euch kamen, in Würde.</German>
+		<Italian>Your unit happens upon the scattered remains of an old adventuring party, long lost in the dungeon. As soon as the last of the lair's inhabitants are defeated, your men perform a proper burial for those who came before you.</Italian>
+		<Spanish>Your unit happens upon the scattered remains of an old adventuring party, long lost in the dungeon. As soon as the last of the lair's inhabitants are defeated, your men perform a proper burial for those who came before you.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_VEHEM_RIVAL_PARTY_EVIL</Tag>
+		<English>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. They appear to have already raided and looted the dungeon, though in their weakened state, they're no match for your unit. Leaving their corpses for the crows, you help yourself to the loot that they earned.</English>
+		<French>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. They appear to have already raided and looted the dungeon, though in their weakened state, they're no match for your unit. Leaving their corpses for the crows, you help yourself to the loot that they earned.</French>
+		<German>Vor dem Eingang des Dungeons trifft Eure Einheit auf eine Gruppe von abgekämpften Abenteurern, die ihre Wunden versorgen. Wie es scheint, haben sie den Dungeon bereits geplündert, obwohl - in ihrem geschwächten Zustand sind sie kein Gegner für Eure Einheit. Ihre Körper den Krähen überlassend, macht Ihr Euch über die Beute her, die sie bei ihrem Tod nachlässig zurückgelassen haben.</German>
+		<Italian>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. They appear to have already raided and looted the dungeon, though in their weakened state, they're no match for your unit. Leaving their corpses for the crows, you help yourself to the loot that they earned.</Italian>
+		<Spanish>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. They appear to have already raided and looted the dungeon, though in their weakened state, they're no match for your unit. Leaving their corpses for the crows, you help yourself to the loot that they earned.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_VEHEM_RIVAL_PARTY_GOOD</Tag>
+		<English>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. The party has already assaulted the dungeon successfully, though have sustained some injuries. Your men offer them supplies and aid - in exchange they offer a place at their campfire and tales of daring and adventure. By the time the camp is struck, your unit has learnt much.</English>
+		<French>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. The party has already assaulted the dungeon successfully, though have sustained some injuries.Your men offer them supplies and aid - in exchange they offer a place at their campfire and tales of daring and adventure. By the time the camp is struck, your unit has learnt much.</French>
+		<German>Vor dem Eingang des Dungeons trifft Eure Einheit auf eine Gruppe von abgekämpften Abenteurern, die gerade ihre Wunden versorgen. Sie haben den Dungeon bereits erfolgreich erstürmt, obwohl auch sie einige Verletzungen davon getragen haben. Eure Männer offerieren ihnen Vorräte und Hilfe - im Gegenzug bieten sie einen Platz an ihrem Lagerfeuer und Geschichten über Wagemut und Abenteuer an. Als das Lager abgebrochen wird, hat Eure Einheit viel gelernt.</German>
+		<Italian>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. The party has already assaulted the dungeon successfully, though have sustained some injuries. Your men offer them supplies and aid - in exchange they offer a place at their campfire and tales of daring and adventure. By the time the camp is struck, your unit has learnt much.</Italian>
+		<Spanish>Your unit arrives at the dungeon entrance to find a weary party of adventurers nursing their wounds. The party has already assaulted the dungeon successfully, though have sustained some injuries. Your men offer them supplies and aid - in exchange they offer a place at their campfire and tales of daring and adventure. By the time the camp is struck, your unit has learnt much.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_LAIR_NOT_DESTROYED</Tag>
+		<English>Despite your efforts, the lair remains.</English>
+		<French>En dépit de vos efforts, le repaire perdure.</French>
+		<German>Euren Bemühungen zum Trotz bleibt der Unterschlupf bestehen.</German>
+		<Italian>Despite your efforts, the lair remains.</Italian>
+		<Spanish>Despite your efforts, the lair remains.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MARNOK_HILLGIANT_STEADING</Tag>
+		<English>Giant Steading</English>
+		<French>Giant Steading</French>
+		<German>Riesenfestung</German>
+		<Italian>Giant Steading</Italian>
+		<Spanish>Giant Steading</Spanish>
+	</TEXT>
+	<TEXT> <!--Combining similar goodies r363-->
+		<Tag>TXT_KEY_MESSAGE_EXPLORE_LAIR_GEAR_STASH</Tag>
+		<English>Your unit finds a hidden stash full of items.</English>
+		<French>Votre unité découvre une cache remplie d'objets.</French>
+		<German>Your unit finds a hidden stash full of items.</German>
+		<Italian>Your unit finds a hidden stash full of items.</Italian>
+		<Spanish>Your unit finds a hidden stash full of items.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_NO_NEW_EQUIPMENT</Tag>
+		<English>Jewelry and purses of gold will go to the treasury</English>
+		<French>Jewelry and purses of gold will go to the treasury</French>
+		<German>Jewelry and purses of gold will go to the treasury</German>
+		<Italian>Jewelry and purses of gold will go to the treasury</Italian>
+		<Spanish>Jewelry and purses of gold will go to the treasury</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_MARNOK_BONUS</Tag>
+		<English>The lair conceals an old mine, dating back before the Age of Ice. With a little work, it can be reopened.</English>
+		<French>Le repaire recèle une mine désaffectée, dont l'origine précède l'Âge de Glace. Avec un peu d'efforts, elle pourrait être rouverte.</French>
+		<German>The lair conceals an old mine, dating back before the Age of Ice. With a little work, it can be reopened.</German>
+		<Italian>The lair conceals an old mine, dating back before the Age of Ice. With a little work, it can be reopened.</Italian>
+		<Spanish>The lair conceals an old mine, dating back before the Age of Ice. With a little work, it can be reopened.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ANIMAL_BLOOD</Tag>
+		<English>Your scouts find a large animal within the lair. After a difficult fight, they emerge victorious, coated in its blood.</English>
+		<French>Your scouts find a large animal within the lair. After a difficult fight, they emerge victorious, coated in its blood.</French>
+		<German>Your scouts find a large animal within the lair. After a difficult fight, they emerge victorious, coated in its blood.</German>
+		<Italian>Your scouts find a large animal within the lair. After a difficult fight, they emerge victorious, coated in its blood.</Italian>
+		<Spanish>Your scouts find a large animal within the lair. After a difficult fight, they emerge victorious, coated in its blood.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_NO_NEW_BLOOD</Tag>
+		<English>Within the den your unit finds some gnawed bones and a purse.</English>
+		<French>Within the den your unit finds some gnawed bones and a purse.</French>
+		<German>Within the den your unit finds some gnawed bones and a purse.</German>
+		<Italian>Within the den your unit finds some gnawed bones and a purse.</Italian>
+		<Spanish>Within the den your unit finds some gnawed bones and a purse.</Spanish>
+	</TEXT>
+</Civ4GameText>

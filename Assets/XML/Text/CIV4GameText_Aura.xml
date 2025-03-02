@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_AURA_BONUS_PREFIX</Tag>
+		<English>Gives the promotion  %s1_promotion[SPACE]</English>
+		<French>Gives the promotion  %s1_promotion[SPACE]</French>
+		<German>Gibt die Beförderung   %s1_promotion[SPACE]</German>
+		<Italian>Fornisce la promozione  %s1_promotion[SPACE]</Italian>
+		<Spanish>Gives the promotion  %s1_promotion[SPACE]</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_AURA_CITY_BONUS_TILE</Tag>
+		<English>[SPACE] on the unit's tile.</English>
+		<French>[SPACE] on the unit's tile.</French>
+		<German>[SPACE] auf dem Feld der Einheit.</German>
+		<Italian>[SPACE] sulla casella dell'unità.</Italian>
+		<Spanish>[SPACE] on the unit's tile.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AURA_BONUS_APPLY_MISC_POSTFIX</Tag>
+		<English>[SPACE]units</English>
+		<French>[SPACE]units</French>
+		<German>[SPACE]Einheiten</German>
+		<Italian>[SPACE]unità</Italian>
+		<Spanish>[SPACE]units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AURA_BONUS_APPLY_MISC_PREFIX</Tag>
+		<English>[SPACE]to[SPACE]</English>
+		<French>[SPACE]to [SPACE]</French>
+		<German>[SPACE]an[SPACE]</German>
+		<Italian>[SPACE]a[SPACE]</Italian>
+		<Spanish>[SPACE]to[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AURA_BONUS_APPLY_UNFRIENDLY</Tag>
+		<English>[SPACE]to all non-team units</English>
+		<French>[SPACE]to all non-team units</French>
+		<German>[SPACE]allen nicht Team- Einheiten</German>
+		<Italian>[SPACE]a tutte le unità esterne alla squadra</Italian>
+		<Spanish>[SPACE]to all non-team units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AURA_BONUS_APPLY_FRIENDLY</Tag>
+		<English>[SPACE]to all team units</English>
+		<French>[SPACE]to all team units</French>
+		<German>[SPACE]allen Team-Einheiten</German>
+		<Italian>[SPACE]a tutte le unità della squadra</Italian>
+		<Spanish>[SPACE]to all team units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AURA_BONUS_APPLY_NOT_YOU</Tag>
+		<English>[SPACE]to all other player's units</English>
+		<French>[SPACE]to all other player's units</French>
+		<German>[SPACE]allen Einheiten anderer Spieler</German>
+		<Italian>[SPACE]a tutte le unità degli altri giocatori</Italian>
+		<Spanish>[SPACE]to all other player's units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AURA_BONUS_APPLY_NOT_WAR</Tag>
+		<English>[SPACE]to all non-enemy units</English>
+		<French>[SPACE]to all non-enemy units</French>
+		<German>[SPACE]allen nicht feindlichen Einheiten</German>
+		<Italian>[SPACE]a tutte le unità tranne quelle nemiche</Italian>
+		<Spanish>[SPACE]to all non-enemy units</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_AURA_BONUS_APPLY_ALL</Tag>
+		<English>[SPACE]to all units</English>
+		<French>[SPACE]to all units</French>
+		<German>[SPACE]allen Einheiten</German>
+		<Italian>[SPACE]a tutte le unità</Italian>
+		<Spanish>[SPACE]to all units</Spanish>
+	</TEXT>
+</Civ4GameText>

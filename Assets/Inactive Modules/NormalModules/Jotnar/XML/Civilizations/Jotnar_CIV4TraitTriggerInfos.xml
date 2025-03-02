@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+<!-- CONFIRMED WORKING INGAME:
+- build improvement
+- cast spell (unit or city)
+- construct building (buildingclass, 
+- gain promo (on levelup, on unit trained, on unit upgraded)
+- kill enemy (unitclass, unitcombat, 
+- train unit
+-->
+
+<Civ4TraitTriggerInfos xmlns="x-schema:Jotnar_CIV4CivilizationsSchema.xml">
+	<TraitTriggerInfos>
+		<TraitTriggerInfo> <!-- Construct           Forbidden palace	                      Blacksmith -->
+			<Type>TRAITTRIGGER_CONSTRUCT_FORBIDDEN_PALACE_BLACKSMITH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_BLACKSMITH</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>			
+			<PrereqBuildingClassType>BUILDINGCLASS_FORBIDDEN_PALACE</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Fall palace			                      Blacksmith -->
+			<Type>TRAITTRIGGER_CONSTRUCT_FALL_PALACE_BLACKSMITH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_BLACKSMITH</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>			
+			<PrereqBuildingClassType>BUILDINGCLASS_FALL_PALACE</PrereqBuildingClassType>
+		</TraitTriggerInfo>		
+		<TraitTriggerInfo> <!-- Connect             Copper                                      Blacksmith -->
+			<Type>TRAITTRIGGER_CONNECT_COPPER_BLACKSMITH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_BLACKSMITH</TraitType>
+					<iModifier>4</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CONNECT_RESOURCE</TraitHookType>			
+			<PrereqBonusType>BONUS_COPPER</PrereqBonusType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Connect             Iron                                        Blacksmith -->
+			<Type>TRAITTRIGGER_CONNECT_IRON_BLACKSMITH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_BLACKSMITH</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CONNECT_RESOURCE</TraitHookType>			
+			<PrereqBonusType>BONUS_IRON</PrereqBonusType>
+		</TraitTriggerInfo>		
+		<TraitTriggerInfo> <!-- Connect             Mithril                                     Blacksmith -->
+			<Type>TRAITTRIGGER_CONNECT_MITHRIL_BLACKSMITH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_BLACKSMITH</TraitType>
+					<iModifier>100</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CONNECT_RESOURCE</TraitHookType>			
+			<PrereqBonusType>BONUS_MITHRIL</PrereqBonusType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          	           gains Bronze weapon          Blacksmith -->
+			<Type>TRAITTRIGGER_GAIN_BRONZE_WEAPONS_BLACKSMITH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_BLACKSMITH</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>			
+			<PrereqPromotionType>PROMOTION_BRONZE_WEAPONS</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          	           gains Iron weapon          	Blacksmith -->
+			<Type>TRAITTRIGGER_GAIN_IRON_WEAPONS_BLACKSMITH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_BLACKSMITH</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>			
+			<PrereqPromotionType>PROMOTION_IRON_WEAPONS</PrereqPromotionType>
+		</TraitTriggerInfo>		
+		<TraitTriggerInfo> <!-- Gain promo          	           gains Mithril weapon         Blacksmith -->
+			<Type>TRAITTRIGGER_GAIN_MITHRIL_WEAPONS_BLACKSMITH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_BLACKSMITH</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>			
+			<PrereqPromotionType>PROMOTION_MITHRIL_WEAPONS</PrereqPromotionType>
+		</TraitTriggerInfo>
+	</TraitTriggerInfos>
+</Civ4TraitTriggerInfos>

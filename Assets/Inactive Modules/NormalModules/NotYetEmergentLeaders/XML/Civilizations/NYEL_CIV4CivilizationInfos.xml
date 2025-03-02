@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4CivilizationInfos xmlns="x-schema:NYEL_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+		<CivilizationInfo><!-- Austerin -->
+			<Type>CIVILIZATION_AUSTRIN</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_AEROMANCER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Cualli -->
+			<Type>CIVILIZATION_CUALLI</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_AHUILIZTLI</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Elohim -->
+			<Type>CIVILIZATION_ELOHIM</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_EZAWYN</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Hippus -->
+			<Type>CIVILIZATION_HIPPUS</Type>
+			<Leaders>
+				<Leader>
+                    <LeaderName>LEADER_ONUKSIT</LeaderName>
+                    <bLeaderAvailability>1</bLeaderAvailability>
+                </Leader>
+				<Leader>
+                    <LeaderName>LEADER_IRIDIUS</LeaderName>
+                    <bLeaderAvailability>1</bLeaderAvailability>
+                </Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Lanun -->
+			<Type>CIVILIZATION_LANUN</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_ANNIKA</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Ljosalfar -->
+			<Type>CIVILIZATION_LJOSALFAR</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_ALDERHAND</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+				<Leader>
+					<LeaderName>LEADER_FELDSPAR</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Mechanos -->
+			<Type>CIVILIZATION_MECHANOS</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_KAS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Sheaim -->
+			<Type>CIVILIZATION_SHEAIM</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_IRIDIUS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Sidar -->
+			<Type>CIVILIZATION_SIDAR</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_METHNER</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+		<CivilizationInfo><!-- Svartalfar -->
+			<Type>CIVILIZATION_SVARTALFAR</Type>
+			<Leaders>
+				<Leader>
+					<LeaderName>LEADER_SHEALNIS</LeaderName>
+					<bLeaderAvailability>1</bLeaderAvailability>
+				</Leader>
+			</Leaders>
+		</CivilizationInfo>
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

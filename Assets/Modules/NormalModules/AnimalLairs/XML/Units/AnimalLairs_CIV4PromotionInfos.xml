@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!-- Formatted by Xienwolf -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Promotion Infos -->
+<Civ4PromotionInfos xmlns="x-schema:AnimalLairs_CIV4UnitSchema.xml">
+	<PromotionInfos>
+		<PromotionInfo>		<!--Wyrm Blood-->
+			<Type>PROMOTION_WYRM_BLOOD</Type>
+			<Description>TXT_KEY_PROMOTION_WYRM_BLOOD</Description>
+			<iMoveDiscountChange>1</iMoveDiscountChange>
+			<bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Interface/Buttons/Units/wyrm.dds</Button>
+			<iAIWeight>100</iAIWeight>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!--Serpent Blood-->
+			<Type>PROMOTION_SERPENT_BLOOD</Type>
+			<Description>TXT_KEY_PROMOTION_SERPENT_BLOOD</Description>
+			<bAmphib>1</bAmphib>
+			<bRiver>1</bRiver>
+			<iCombatHealPercent>10</iCombatHealPercent>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Modules/AnimalLairs/Buttons/SeaSerpent.dds</Button>
+			<iAIWeight>100</iAIWeight>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!--Wild (Doviello)-->
+			<Type>PROMOTION_BEAST_KIN</Type>
+			<PromotionAllows>
+				<Promotion>PROMOTION_WYRM_BLOOD</Promotion>
+				<Promotion>PROMOTION_SERPENT_BLOOD</Promotion>
+			</PromotionAllows>
+		</PromotionInfo>
+	</PromotionInfos>
+</Civ4PromotionInfos>

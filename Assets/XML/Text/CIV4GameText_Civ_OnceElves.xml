@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ONCE_ELVES_DESC</Tag>
+		<English>The Elves of the Well of Shadow</English>
+		<French>The Elves of the Well of Shadow</French>
+		<German>The Elves of the Well of Shadow</German>
+		<Italian>The Elves of the Well of Shadow</Italian>
+		<Spanish>The Elves of the Well of Shadow</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ONCE_ELVES_SHORT_DESC</Tag>
+		<English>Once Elves</English>
+		<French>Once Elves</French>
+		<German>Once Elves</German>
+		<Italian>Once Elves</Italian>
+		<Spanish>Once Elves</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_ONCE_ELVES_ADJECTIVE</Tag>
+		<English>Once-Elvish</English>
+		<French>Once-Elvish</French>
+		<German>Once-Elvish</German>
+		<Italian>Once-Elvish</Italian>
+		<Spanish>Once-Elvish</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ONCE_ELF</Tag>
+		<English>Once Elf</English>
+		<French>Once Elf</French>
+		<German>Once Elf</German>
+		<Italian>Once Elf</Italian>
+		<Spanish>Once Elf</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PALACE_MALACHITE</Tag>
+		<English>Malachite Palace</English>
+		<French>Malachite Palace</French>
+		<German>Malachite Palace</German>
+		<Italian>Malachite Palace</Italian>
+		<Spanish>Malachite Palace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_OSTAURII_OFFICER</Tag>
+		<English>Perditioner</English>
+		<French>Perditioner</French>
+		<German>Perditioner</German>
+		<Italian>Perditioner</Italian>
+		<Spanish>Perditioner</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_OSTAURII</Tag>
+		<English>Ostaurii</English>
+		<French>Ostaurii</French>
+		<German>Ostaurii</German>
+		<Italian>Ostaurii</Italian>
+		<Spanish>Ostaurii</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SLUAGH</Tag>
+		<English>Sluagh</English>
+		<French>Sluagh</French>
+		<German>Sluagh</German>
+		<Italian>Sluagh</Italian>
+		<Spanish>Sluagh</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SLUAGH_PEDIA</Tag>
+		<English>Sluagh are mortal souls. They will attempt to pass to Arawn's realm if they aren't claimed by any of the gods or trapped by a necromancer. Occasionally a strong sense of duty will cause a Slaugh to remain after its death; this is the only time a person can be resurrected by normal means (most resurrection spells cannot reclaim souls from the afterworld, hell or the god's vaults). The Sluagh's will to regain life will determine how long they remain in creation and are available to be resurrected. The Elohim use a trick to bypass this restriction and assign a soul catcher to their royalty. The soul catcher is a mage specializing in spirit magic who can trap the soul after death and hold it until a resurrection is available. Some Necromancers are known to bind Sluagh to their services.</English>
+		<French>Sluagh are mortal souls. They will attempt to pass to Arawn's realm if they aren't claimed by any of the gods or trapped by a necromancer. Occasionally a strong sense of duty will cause a Slaugh to remain after its death; this is the only time a person can be resurrected by normal means (most resurrection spells cannot reclaim souls from the afterworld, hell or the god's vaults). The Sluagh's will to regain life will determine how long they remain in creation and are available to be resurrected. The Elohim use a trick to bypass this restriction and assign a soul catcher to their royalty. The soul catcher is a mage specializing in spirit magic who can trap the soul after death and hold it until a resurrection is available. Some Necromancers are known to bind Sluagh to their services.</French>
+		<German>Sluagh are mortal souls. They will attempt to pass to Arawn's realm if they aren't claimed by any of the gods or trapped by a necromancer. Occasionally a strong sense of duty will cause a Slaugh to remain after its death; this is the only time a person can be resurrected by normal means (most resurrection spells cannot reclaim souls from the afterworld, hell or the god's vaults). The Sluagh's will to regain life will determine how long they remain in creation and are available to be resurrected. The Elohim use a trick to bypass this restriction and assign a soul catcher to their royalty. The soul catcher is a mage specializing in spirit magic who can trap the soul after death and hold it until a resurrection is available. Some Necromancers are known to bind Sluagh to their services.</German>
+		<Italian>Sluagh are mortal souls. They will attempt to pass to Arawn's realm if they aren't claimed by any of the gods or trapped by a necromancer. Occasionally a strong sense of duty will cause a Slaugh to remain after its death; this is the only time a person can be resurrected by normal means (most resurrection spells cannot reclaim souls from the afterworld, hell or the god's vaults). The Sluagh's will to regain life will determine how long they remain in creation and are available to be resurrected. The Elohim use a trick to bypass this restriction and assign a soul catcher to their royalty. The soul catcher is a mage specializing in spirit magic who can trap the soul after death and hold it until a resurrection is available. Some Necromancers are known to bind Sluagh to their services.</Italian>
+		<Spanish>Sluagh are mortal souls. They will attempt to pass to Arawn's realm if they aren't claimed by any of the gods or trapped by a necromancer. Occasionally a strong sense of duty will cause a Slaugh to remain after its death; this is the only time a person can be resurrected by normal means (most resurrection spells cannot reclaim souls from the afterworld, hell or the god's vaults). The Sluagh's will to regain life will determine how long they remain in creation and are available to be resurrected. The Elohim use a trick to bypass this restriction and assign a soul catcher to their royalty. The soul catcher is a mage specializing in spirit magic who can trap the soul after death and hold it until a resurrection is available. Some Necromancers are known to bind Sluagh to their services.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WALDRUN</Tag>
+		<English>Waldrun</English>
+		<French>Waldrun</French>
+		<German>Waldrun</German>
+		<Italian>Waldrun</Italian>
+		<Spanish>Waldrun</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WALDRUN_PEDIA</Tag>
+		<English>Waldrun is the court necromancer of the Once Elves, and the leader of the Ostaurii. Very suspicious of outsiders, he's vicious and vindictive towards any that enter Barathrum. He was blinded by the breaking of the Veil of Shadows by Auric during his fleeing from the city.</English>
+		<French>Waldrun is the court necromancer of the Once Elves, and the leader of the Ostaurii. Very suspicious of outsiders, he's vicious and vindictive towards any that enter Barathrum. He was blinded by the breaking of the Veil of Shadows by Auric during his fleeing from the city.</French>
+		<German>Waldrun is the court necromancer of the Once Elves, and the leader of the Ostaurii. Very suspicious of outsiders, he's vicious and vindictive towards any that enter Barathrum. He was blinded by the breaking of the Veil of Shadows by Auric during his fleeing from the city.</German>
+		<Italian>Waldrun is the court necromancer of the Once Elves, and the leader of the Ostaurii. Very suspicious of outsiders, he's vicious and vindictive towards any that enter Barathrum. He was blinded by the breaking of the Veil of Shadows by Auric during his fleeing from the city.</Italian>
+		<Spanish>Waldrun is the court necromancer of the Once Elves, and the leader of the Ostaurii. Very suspicious of outsiders, he's vicious and vindictive towards any that enter Barathrum. He was blinded by the breaking of the Veil of Shadows by Auric during his fleeing from the city.</Spanish>
+	</TEXT>
+</Civ4GameText>

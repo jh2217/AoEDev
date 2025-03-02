@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4CivilizationInfos xmlns="x-schema:mom-buildings_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+		<CivilizationInfo>		<!-- Amurites -->
+			<Type>CIVILIZATION_AMURITES</Type>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
+					<BuildingType>BUILDING_ARCANE_FORGE</BuildingType>
+				</Building>
+			</Buildings>
+		</CivilizationInfo>
+		<CivilizationInfo>		<!-- Hippus -->
+			<Type>CIVILIZATION_HIPPUS</Type>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HELL_STABLE</BuildingClassType>
+					<BuildingType>BUILDING_HELL_STABLE</BuildingType>
+				</Building>
+			</Buildings>
+		</CivilizationInfo>
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

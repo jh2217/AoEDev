@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Bart Muzzin (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Leaderhead art path information -->
+<Civ4ArtDefines xmlns="x-schema:IL_CIV4ArtDefinesSchema.xml">
+	<LeaderheadArtInfos>
+			<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_LETIGO</Type>
+			<Button>Art/Civs/MinorLeaders/LetigoButton.dds</Button>
+			<NIF>Art/Civs/MinorLeaders/Letigo.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+	<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_CHERON</Type>
+			<Button>Art/Civs/MinorLeaders/CheronButton.dds</Button>
+			<NIF>Art/Civs/MinorLeaders/Cheron.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+			<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_ELDARWEN</Type>
+			<Button>Art/Civs/MinorLeaders/EldarwenButton.dds</Button>
+			<NIF>Art/Civs/MinorLeaders/Eldarwen.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MIRROUGH</Type>
+			<Button>Art/Civs/MinorLeaders/MirroughButton.dds</Button>
+			<NIF>Art/Civs/MinorLeaders/Mirrough.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_OSTANES</Type>
+			<Button>,Art/interface/LeaderHeads/Ostanes button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Ostanes.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_ULDANOR</Type>
+			<Button>,Art/interface/LeaderHeads/Uldanor button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Uldanor.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_XIVAN</Type>
+			<Button>Art/Civs/MinorLeaders/Icebutton.dds</Button>
+			<NIF>Art/Civs/MinorLeaders/IceciroLH.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MELISANDRE</Type>
+			<Button>,Art/interface/LeaderHeads/Melisandre button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Melisandre.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_UTIRUSO</Type>
+			<Button>Art/Civs/MinorLeaders/UtirusoButton.dds</Button>
+			<NIF>Art/Civs/MinorLeaders/Utiruso.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+			<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_JIVORN</Type>
+			<Button>Art/Civs/MinorLeaders/spartanbutton.dds</Button>
+			<NIF>Art/Civs/MinorLeaders/spartanLH.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+	<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MAHON</Type>
+			<Button>,Art/interface/LeaderHeads/Mahon button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Mahon.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+			<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_AVERAX</Type>
+			<Button>,Art/interface/LeaderHeads/Averax button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Averax.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_GOSEA</Type>
+			<Button>,Art/interface/LeaderHeads/Gosea button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Gosea.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MALCHAVIC</Type>
+			<Button>,Art/interface/LeaderHeads/Malchavic button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Malchavic.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_JUDECCA</Type>
+			<Button>,Art/interface/LeaderHeads/Judecca button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Judecca.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_SALLOS</Type>
+			<Button>,Art/interface/LeaderHeads/Sallos button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Sallos.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_OUZZA</Type>
+			<Button>,Art/interface/LeaderHeads/Ouzza button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Ouzza.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_MERESIN</Type>
+			<Button>,Art/interface/LeaderHeads/Meresin button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Meresin.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_STATIUS</Type>
+			<Button>,Art/interface/LeaderHeads/Statius button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Statius.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_LETHE</Type>
+			<Button>,Art/interface/LeaderHeads/Lethe button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Lethe.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>		
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_BRAEDEN</Type>
+			<Button>,Art/interface/LeaderHeads/Braeden button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Braeden.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_DUMANNIOS</Type>
+			<Button>,Art/interface/LeaderHeads/Dumannios button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Dumannios.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_RIUROS</Type>
+			<Button>,Art/interface/LeaderHeads/Riuros button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Riuros.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_ANAGANTIOS</Type>
+			<Button>,Art/interface/LeaderHeads/Anagantios button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Anagantios.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+	
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_EMMA</Type>
+			<Button>,Art/interface/LeaderHeads/emma-button.dds</Button>
+			<NIF>art/interface/LeaderHeads/emma.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_BERTUS</Type>
+			<Button>,Art/interface/LeaderHeads/mercu03_button.dds</Button>
+			<NIF>art/interface/LeaderHeads/mercu03.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_DAUVUM</Type>
+			<Button>,Art/interface/LeaderHeads/mercu02_button.dds</Button>
+			<NIF>art/interface/LeaderHeads/mercu02.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_FERTHEGIS</Type>
+			<Button>,Art/interface/LeaderHeads/mercu01_button.dds</Button>
+			<NIF>art/interface/LeaderHeads/mercu01.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_SAUROS</Type>
+			<Button>,Art/interface/LeaderHeads/Sauros2-button.dds</Button>
+			<NIF>art/interface/LeaderHeads/Sauros2.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>
+		<LeaderheadArtInfo>
+			<Type>ART_DEF_LEADER_AURGELMIR</Type>
+			<Button>,Art/civs/minorleaders/aurgelmirbutton.dds</Button>
+			<NIF>art/civs/minorleaders/aurgelmir.dds</NIF>
+			<KFM/>
+			<NoShaderNIF/>
+			<BackgroundKFM/>
+		</LeaderheadArtInfo>		
+	</LeaderheadArtInfos>
+</Civ4ArtDefines>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KAHDI_DESC</Tag>
+		<English>Kahdi</English>
+		<French>Kahdi</French>
+		<German>Reich der Kahdi</German>
+		<Italian>Kahdi</Italian>
+		<Spanish>Kahdi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KAHDI_SHORT_DESC</Tag>
+		<English>Kahdi</English>
+		<French>Kahdi</French>
+		<German>Kahdi</German>
+		<Italian>Kahdi</Italian>
+		<Spanish>Kahdi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KAHDI_ADJECTIVE</Tag>
+		<English>Kahdi</English>
+		<French>kahdi</French>
+		<German>Kahdisch:Kahdischen:Kahdische</German>
+		<Italian>Kahdi</Italian>
+		<Spanish>Kahdi</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KAHDI_PEDIA</Tag>
+		<English>The Kahdi as a people are self-named - literally "The Followers of Kahd". They are not a familial tribe or ancient line of people, but a product of the Age of Rebirth. They have come together under the leadership of Kahd, a seemingly popular wizard dedicated to Oghma and the pursuit of greater knowledge.[NEWLINE][PARAGRAPH]Of course, nothing is ever quite as it seems. Kahd's popularity is not due to his "winning personality" (in fact, he's quite arrogant) but his talents at subtle thought manipulation. He isn't just a dedicated follower of Oghma - he considers himself to be the "Chosen Servant" of the god in Creation. His ambitions are great and he seeks to empower himself and his followers to stand above all others in Creation.[NEWLINE][PARAGRAPH]In fact - he's actually partially correct. He *is* the chosen agent of a higher power, but that power is not Oghma.</English>
+		<French>The Kahdi as a people are self-named - literally "The Followers of Kahd". They are not a familial tribe or ancient line of people, but a product of the Age of Rebirth. They have come together under the leadership of Kahd, a seemingly popular wizard dedicated to Oghma and the pursuit of greater knowledge.[NEWLINE][PARAGRAPH]Of course, nothing is ever quite as it seems. Kahd's popularity is not due to his "winning personality" (in fact, he's quite arrogant) but his talents at subtle thought manipulation. He isn't just a dedicated follower of Oghma - he considers himself to be the "Chosen Servant" of the god in Creation. His ambitions are great and he seeks to empower himself and his followers to stand above all others in Creation.[NEWLINE][PARAGRAPH]In fact - he's actually partially correct. He *is* the chosen agent of a higher power, but that power is not Oghma.</French>
+		<German>The Kahdi as a people are self-named - literally "The Followers of Kahd". They are not a familial tribe or ancient line of people, but a product of the Age of Rebirth. They have come together under the leadership of Kahd, a seemingly popular wizard dedicated to Oghma and the pursuit of greater knowledge.[NEWLINE][PARAGRAPH]Of course, nothing is ever quite as it seems. Kahd's popularity is not due to his "winning personality" (in fact, he's quite arrogant) but his talents at subtle thought manipulation. He isn't just a dedicated follower of Oghma - he considers himself to be the "Chosen Servant" of the god in Creation. His ambitions are great and he seeks to empower himself and his followers to stand above all others in Creation.[NEWLINE][PARAGRAPH]In fact - he's actually partially correct. He *is* the chosen agent of a higher power, but that power is not Oghma.</German>
+		<Italian>The Kahdi as a people are self-named - literally "The Followers of Kahd". They are not a familial tribe or ancient line of people, but a product of the Age of Rebirth. They have come together under the leadership of Kahd, a seemingly popular wizard dedicated to Oghma and the pursuit of greater knowledge.[NEWLINE][PARAGRAPH]Of course, nothing is ever quite as it seems. Kahd's popularity is not due to his "winning personality" (in fact, he's quite arrogant) but his talents at subtle thought manipulation. He isn't just a dedicated follower of Oghma - he considers himself to be the "Chosen Servant" of the god in Creation. His ambitions are great and he seeks to empower himself and his followers to stand above all others in Creation.[NEWLINE][PARAGRAPH]In fact - he's actually partially correct. He *is* the chosen agent of a higher power, but that power is not Oghma.</Italian>
+		<Spanish>The Kahdi as a people are self-named - literally "The Followers of Kahd". They are not a familial tribe or ancient line of people, but a product of the Age of Rebirth. They have come together under the leadership of Kahd, a seemingly popular wizard dedicated to Oghma and the pursuit of greater knowledge.[NEWLINE][PARAGRAPH]Of course, nothing is ever quite as it seems. Kahd's popularity is not due to his "winning personality" (in fact, he's quite arrogant) but his talents at subtle thought manipulation. He isn't just a dedicated follower of Oghma - he considers himself to be the "Chosen Servant" of the god in Creation. His ambitions are great and he seeks to empower himself and his followers to stand above all others in Creation.[NEWLINE][PARAGRAPH]In fact - he's actually partially correct. He *is* the chosen agent of a higher power, but that power is not Oghma.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KAHD</Tag>
+		<English>Kahd</English>
+		<French>Kahd</French>
+		<German>Kahd</German>
+		<Italian>Kahd</Italian>
+		<Spanish>Kahd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KAHD</Tag>
+		<English>Kahd</English>
+		<French>Kahd</French>
+		<German>Kahd</German>
+		<Italian>Kahd</Italian>
+		<Spanish>Kahd</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KAHD_PEDIA</Tag>
+		<English>He was unperturbed. In fact, the thing that concerned him most was that he had been utterly unconcerned about the sacking of Nimarail. The town he had grown up in, home to hundreds of the Amurite people, one of the most progressive centres of magical knowledge in creation - had fallen by his order. In fact, it had not been as simple as giving the order. He had planned the coup for months - ensuring that his followers were well placed and his allies within the city were trustworthy. Throughout that period of planning, he had suffered a nagging doubt - fully aware that this action would put him permanently at odds with his old people. He had expected to feel guilt, remorse, even sorrow - but now as he stood before the library of Nimarail for the first time in decades, he felt none of these things. [NEWLINE][NEWLINE]True, he was now considered a traitor and several of those whom would have once considered themselves his teachers had been slain - so many had been slain, more than he had hoped would be necessary - but surely the ends justified these means. Afterall, very soon the Kahdi would know all that the Amurites had learnt since he left them as a young man. Combined with the knowledge he had earned himself, he alone would be the greatest of wizards - and worthy of his god's recognition. More than that - this specific library held knowledge of what he had long sought. Knowledge that the Amurites would have denied him.[NEWLINE][NEWLINE]Stepping over the body of the curator he strode between the library's lofty stacks and began his search.</English>
+		<French>He was unperturbed. In fact, the thing that concerned him most was that he had been utterly unconcerned about the sacking of Nimarail. The town he had grown up in, home to hundreds of the Amurite people, one of the most progressive centres of magical knowledge in creation - had fallen by his order. In fact, it had not been as simple as giving the order. He had planned the coup for months - ensuring that his followers were well placed and his allies within the city were trustworthy. Throughout that period of planning, he had suffered a nagging doubt - fully aware that this action would put him permanently at odds with his old people. He had expected to feel guilt, remorse, even sorrow - but now as he stood before the library of Nimarail for the first time in decades, he felt none of these things. [NEWLINE][NEWLINE]True, he was now considered a traitor and several of those whom would have once considered themselves his teachers had been slain - so many had been slain, more than he had hoped would be necessary - but surely the ends justified these means. Afterall, very soon the Kahdi would know all that the Amurites had learnt since he left them as a young man. Combined with the knowledge he had earned himself, he alone would be the greatest of wizards - and worthy of his god's recognition. More than that - this specific library held knowledge of what he had long sought. Knowledge that the Amurites would have denied him.[NEWLINE][NEWLINE]Stepping over the body of the curator he strode between the library's lofty stacks and began his search.</French>
+		<German>He was unperturbed. In fact, the thing that concerned him most was that he had been utterly unconcerned about the sacking of Nimarail. The town he had grown up in, home to hundreds of the Amurite people, one of the most progressive centres of magical knowledge in creation - had fallen by his order. In fact, it had not been as simple as giving the order. He had planned the coup for months - ensuring that his followers were well placed and his allies within the city were trustworthy. Throughout that period of planning, he had suffered a nagging doubt - fully aware that this action would put him permanently at odds with his old people. He had expected to feel guilt, remorse, even sorrow - but now as he stood before the library of Nimarail for the first time in decades, he felt none of these things. [NEWLINE][NEWLINE]True, he was now considered a traitor and several of those whom would have once considered themselves his teachers had been slain - so many had been slain, more than he had hoped would be necessary - but surely the ends justified these means. Afterall, very soon the Kahdi would know all that the Amurites had learnt since he left them as a young man. Combined with the knowledge he had earned himself, he alone would be the greatest of wizards - and worthy of his god's recognition. More than that - this specific library held knowledge of what he had long sought. Knowledge that the Amurites would have denied him.[NEWLINE][NEWLINE]Stepping over the body of the curator he strode between the library's lofty stacks and began his search.</German>
+		<Italian>He was unperturbed. In fact, the thing that concerned him most was that he had been utterly unconcerned about the sacking of Nimarail. The town he had grown up in, home to hundreds of the Amurite people, one of the most progressive centres of magical knowledge in creation - had fallen by his order. In fact, it had not been as simple as giving the order. He had planned the coup for months - ensuring that his followers were well placed and his allies within the city were trustworthy. Throughout that period of planning, he had suffered a nagging doubt - fully aware that this action would put him permanently at odds with his old people. He had expected to feel guilt, remorse, even sorrow - but now as he stood before the library of Nimarail for the first time in decades, he felt none of these things. [NEWLINE][NEWLINE]True, he was now considered a traitor and several of those whom would have once considered themselves his teachers had been slain - so many had been slain, more than he had hoped would be necessary - but surely the ends justified these means. Afterall, very soon the Kahdi would know all that the Amurites had learnt since he left them as a young man. Combined with the knowledge he had earned himself, he alone would be the greatest of wizards - and worthy of his god's recognition. More than that - this specific library held knowledge of what he had long sought. Knowledge that the Amurites would have denied him.[NEWLINE][NEWLINE]Stepping over the body of the curator he strode between the library's lofty stacks and began his search.</Italian>
+		<Spanish>He was unperturbed. In fact, the thing that concerned him most was that he had been utterly unconcerned about the sacking of Nimarail. The town he had grown up in, home to hundreds of the Amurite people, one of the most progressive centres of magical knowledge in creation - had fallen by his order. In fact, it had not been as simple as giving the order. He had planned the coup for months - ensuring that his followers were well placed and his allies within the city were trustworthy. Throughout that period of planning, he had suffered a nagging doubt - fully aware that this action would put him permanently at odds with his old people. He had expected to feel guilt, remorse, even sorrow - but now as he stood before the library of Nimarail for the first time in decades, he felt none of these things. [NEWLINE][NEWLINE]True, he was now considered a traitor and several of those whom would have once considered themselves his teachers had been slain - so many had been slain, more than he had hoped would be necessary - but surely the ends justified these means. Afterall, very soon the Kahdi would know all that the Amurites had learnt since he left them as a young man. Combined with the knowledge he had earned himself, he alone would be the greatest of wizards - and worthy of his god's recognition. More than that - this specific library held knowledge of what he had long sought. Knowledge that the Amurites would have denied him. [NEWLINE][NEWLINE]Stepping over the body of the curator he strode between the library's lofty stacks and began his search.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GNOSLING</Tag>
+		<English>Gnosling</English>
+		<French>Gnosling</French>
+		<German>Gnosling</German>
+		<Italian>Gnosling</Italian>
+		<Spanish>Gnosling</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GNOSLING_PEDIA</Tag>
+		<English>Gnoslings are small creatures which inhabit Oghma's vault. A great many were caught in the initial assault by Mammon and slaughtered, while still more remain lost in the mists. Even though their concious memories are destroyed by the mist's effect - the Gnoslings retain their affinity for knowledge and passively seek for it, drifting toward centres of information. Sometimes, they will slip into Creation through portals created by mortals in search of the knowledge of men. The Kahdi have created permanent portals to encourage them to do so.</English>
+		<French>Gnoslings are small creatures which inhabit Oghma's vault. A great many were caught in the initial assault by Mammon and slaughtered, while still more remain lost in the mists. Even though their concious memories are destroyed by the mist's effect - the Gnoslings retain their affinity for knowledge and passively seek for it, drifting toward centres of information. Sometimes, they will slip into Creation through portals created by mortals in search of the knowledge of men. The Kahdi have created permanent portals to encourage them to do so.</French>
+		<German>Gnoslings are small creatures which inhabit Oghma's vault. A great many were caught in the initial assault by Mammon and slaughtered, while still more remain lost in the mists. Even though their concious memories are destroyed by the mist's effect - the Gnoslings retain their affinity for knowledge and passively seek for it, drifting toward centres of information. Sometimes, they will slip into Creation through portals created by mortals in search of the knowledge of men. The Kahdi have created permanent portals to encourage them to do so.</German>
+		<Italian>Gnoslings are small creatures which inhabit Oghma's vault. A great many were caught in the initial assault by Mammon and slaughtered, while still more remain lost in the mists. Even though their concious memories are destroyed by the mist's effect - the Gnoslings retain their affinity for knowledge and passively seek for it, drifting toward centres of information. Sometimes, they will slip into Creation through portals created by mortals in search of the knowledge of men. The Kahdi have created permanent portals to encourage them to do so.</Italian>
+		<Spanish>Gnoslings are small creatures which inhabit Oghma's vault. A great many were caught in the initial assault by Mammon and slaughtered, while still more remain lost in the mists. Even though their concious memories are destroyed by the mist's effect - the Gnoslings retain their affinity for knowledge and passively seek for it, drifting toward centres of information. Sometimes, they will slip into Creation through portals created by mortals in search of the knowledge of men. The Kahdi have created permanent portals to encourage them to do so.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GNOSLING_STRATEGY</Tag>
+		<English>Gnoslings are initially weak units, though numerous. They can also gain in strength through their Metamagic affinity. Additionally, a Gnosling who is victorious in combat may gain additional experience if it fought an opponent of an equal or higher level. All Gnoslings are able to cast Floating Eye and Dispel Magic.</English>
+		<French>Gnoslings are initially weak units, though numerous. They can also gain in strength through their Metamagic affinity. Additionally, a Gnosling who is victorious in combat may gain additional experience if it fought an opponent of an equal or higher level. All Gnoslings are able to cast Floating Eye and Dispel Magic.</French>
+		<German>Gnoslings are initially weak units, though numerous. They can also gain in strength through their Metamagic affinity. Additionally, a Gnosling who is victorious in combat may gain additional experience if it fought an opponent of an equal or higher level. All Gnoslings are able to cast Floating Eye and Dispel Magic.</German>
+		<Italian>Gnoslings are initially weak units, though numerous. They can also gain in strength through their Metamagic affinity. Additionally, a Gnosling who is victorious in combat may gain additional experience if it fought an opponent of an equal or higher level. All Gnoslings are able to cast Floating Eye and Dispel Magic.</Italian>
+		<Spanish>Gnoslings are initially weak units, though numerous. They can also gain in strength through their Metamagic affinity. Additionally, a Gnosling who is victorious in combat may gain additional experience if it fought an opponent of an equal or higher level. All Gnoslings are able to cast Floating Eye and Dispel Magic.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_THADE</Tag>
+		<English>Thade</English>
+		<French>Thade</French>
+		<German>Thade</German>
+		<Italian>Thade</Italian>
+		<Spanish>Thade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_THADE_PEDIA</Tag>
+		<English>Thades are knowledge made manifest - similar to elementals, they are formed from the prime material of their plane. Appearing to mortal eyes as a glowing ball of ever changing light, they are able to flit unhindered across creation as well as project some minor magic like abilities.</English>
+		<French>Thades are knowledge made manifest - similar to elementals, they are formed from the prime material of their plane. Appearing to mortal eyes as a glowing ball of ever changing light, they are able to flit unhindered across creation as well as project some minor magic like abilities.</French>
+		<German>Thades are knowledge made manifest - similar to elementals, they are formed from the prime material of their plane. Appearing to mortal eyes as a glowing ball of ever changing light, they are able to flit unhindered across creation as well as project some minor magic like abilities.</German>
+		<Italian>Thades are knowledge made manifest - similar to elementals, they are formed from the prime material of their plane. Appearing to mortal eyes as a glowing ball of ever changing light, they are able to flit unhindered across creation as well as project some minor magic like abilities.</Italian>
+		<Spanish>Thades are knowledge made manifest - similar to elementals, they are formed from the prime material of their plane. Appearing to mortal eyes as a glowing ball of ever changing light, they are able to flit unhindered across creation as well as project some minor magic like abilities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_THADE_STRATEGY</Tag>
+		<English>Thades are stronger in combat that Gnoslings and most are able to cast a few Level 1 spells. They also have the more unusual ability to teleport moderate distances, ignoring intervening units and terrain.</English>
+		<French>Thades are stronger in combat that Gnoslings and most are able to cast a few Level 1 spells. They also have the more unusual ability to teleport moderate distances, ignoring intervening units and terrain.</French>
+		<German>Thades are stronger in combat that Gnoslings and most are able to cast a few Level 1 spells. They also have the more unusual ability to teleport moderate distances, ignoring intervening units and terrain.</German>
+		<Italian>Thades are stronger in combat that Gnoslings and most are able to cast a few Level 1 spells. They also have the more unusual ability to teleport moderate distances, ignoring intervening units and terrain.</Italian>
+		<Spanish>Thades are stronger in combat that Gnoslings and most are able to cast a few Level 1 spells. They also have the more unusual ability to teleport moderate distances, ignoring intervening units and terrain.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PSION</Tag>
+		<English>Psion</English>
+		<French>Psion</French>
+		<German>Psion</German>
+		<Italian>Psion</Italian>
+		<Spanish>Psion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PSION_PEDIA</Tag>
+		<English>Psions are creatures of Mammon's will made manifest. Powerful beings which dominate their foes and feed on their ambitions to maintain themselves in Creation - even a single Psion can be a formidable foe.</English>
+		<French>Psions are creatures of Mammon's will made manifest. Powerful beings which dominate their foes and feed on their ambitions to maintain themselves in Creation - even a single Psion can be a formidable foe.</French>
+		<German>Psions are creatures of Mammon's will made manifest. Powerful beings which dominate their foes and feed on their ambitions to maintain themselves in Creation - even a single Psion can be a formidable foe.</German>
+		<Italian>Psions are creatures of Mammon's will made manifest. Powerful beings which dominate their foes and feed on their ambitions to maintain themselves in Creation - even a single Psion can be a formidable foe.</Italian>
+		<Spanish>Psions are creatures of Mammon's will made manifest. Powerful beings which dominate their foes and feed on their ambitions to maintain themselves in Creation - even a single Psion can be a formidable foe.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PSION_STRATEGY</Tag>
+		<English>Psions grow more powerful with each source of Mind Mana you acquire and can cast all Mind spells from the start - including Domination. Any units they defeat in combat have a chance of being enslaved.</English>
+		<French>Psions grow more powerful with each source of Mind Mana you acquire and can cast all Mind spells from the start - including Domination. Any units they defeat in combat have a chance of being enslaved.</French>
+		<German>Psions grow more powerful with each source of Mind Mana you acquire and can cast all Mind spells from the start - including Domination. Any units they defeat in combat have a chance of being enslaved.</German>
+		<Italian>Psions grow more powerful with each source of Mind Mana you acquire and can cast all Mind spells from the start - including Domination. Any units they defeat in combat have a chance of being enslaved.</Italian>
+		<Spanish>Psions grow more powerful with each source of Mind Mana you acquire and can cast all Mind spells from the start - including Domination. Any units they defeat in combat have a chance of being enslaved.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ADVISOR</Tag>
+		<English>Advisor</English>
+		<French>Advisor</French>
+		<German>Ratgeber</German>
+		<Italian>Advisor</Italian>
+		<Spanish>Advisor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ADVISOR_PEDIA</Tag>
+		<English>Even Kahd's closest advisors do not know the extent of his ambition, but they are in a position to help direct his orders. The position is tenuous however - when one of Kahd's advisors strongly opposed the attack on the Amurites, a younger and more ambitious follower took the opportunity to usurp his position at Kahd's ear, even going so far as to have the old advisor exiled. Since then, few have directly challenged Kahd's commands for fear of weakening themselves.</English>
+		<French>Even Kahd's closest advisors do not know the extent of his ambition, but they are in a position to help direct his orders. The position is tenuous however - when one of Kahd's advisors strongly opposed the attack on the Amurites, a younger and more ambitious follower took the opportunity to usurp his position at Kahd's ear, even going so far as to have the old advisor exiled. Since then, few have directly challenged Kahd's commands for fear of weakening themselves.</French>
+		<German>Even Kahd's closest advisors do not know the extent of his ambition, but they are in a position to help direct his orders. The position is tenuous however - when one of Kahd's advisors strongly opposed the attack on the Amurites, a younger and more ambitious follower took the opportunity to usurp his position at Kahd's ear, even going so far as to have the old advisor exiled. Since then, few have directly challenged Kahd's commands for fear of weakening themselves.</German>
+		<Italian>Even Kahd's closest advisors do not know the extent of his ambition, but they are in a position to help direct his orders. The position is tenuous however - when one of Kahd's advisors strongly opposed the attack on the Amurites, a younger and more ambitious follower took the opportunity to usurp his position at Kahd's ear, even going so far as to have the old advisor exiled. Since then, few have directly challenged Kahd's commands for fear of weakening themselves.</Italian>
+		<Spanish>Even Kahd's closest advisors do not know the extent of his ambition, but they are in a position to help direct his orders. The position is tenuous however - when one of Kahd's advisors strongly opposed the attack on the Amurites, a younger and more ambitious follower took the opportunity to usurp his position at Kahd's ear, even going so far as to have the old advisor exiled. Since then, few have directly challenged Kahd's commands for fear of weakening themselves.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ADVISOR_STRATEGY</Tag>
+		<English>Advisors are as powerful as Arch-magi, but a little easier to obtain thanks to their reduced level requirement. The upgrade cost to create an Advisor is still significant however, so be sure to have enough gold to pay for them.</English>
+		<French>Advisors are as powerful as Arch-magi, but a little easier to obtain thanks to their reduced level requirement. The upgrade cost to create an Advisor is still significant however, so be sure to have enough gold to pay for them.</French>
+		<German>Advisors are as powerful as Arch-magi, but a little easier to obtain thanks to their reduced level requirement. The upgrade cost to create an Advisor is still significant however, so be sure to have enough gold to pay for them.</German>
+		<Italian>Advisors are as powerful as Arch-magi, but a little easier to obtain thanks to their reduced level requirement. The upgrade cost to create an Advisor is still significant however, so be sure to have enough gold to pay for them.</Italian>
+		<Spanish>Advisors are as powerful as Arch-magi, but a little easier to obtain thanks to their reduced level requirement. The upgrade cost to create an Advisor is still significant however, so be sure to have enough gold to pay for them.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FOLLOWER</Tag>
+		<English>Follower</English>
+		<French>Follower</French>
+		<German>Gefolgsmann</German>
+		<Italian>Follower</Italian>
+		<Spanish>Follower</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FOLLOWER_PEDIA</Tag>
+		<English>The followers of Kahd are quick students and ambitious learners. Carrying out magical experiments at a much younger age than more cautious magi and studying without oversight from more experienced wizards. They are also prone to travelling the wilds and engaging directly in combat. The result is that they develop a grasp of practical magic very quickly, though often neglect studies that would lead to a deeper understanding of the power they wield.</English>
+		<French>The followers of Kahd are quick students and ambitious learners. Carrying out magical experiments at a much younger age than more cautious magi and studying without oversight from more experienced wizards. They are also prone to travelling the wilds and engaging directly in combat. The result is that they develop a grasp of practical magic very quickly, though often neglect studies that would lead to a deeper understanding of the power they wield.</French>
+		<German>The followers of Kahd are quick students and ambitious learners. Carrying out magical experiments at a much younger age than more cautious magi and studying without oversight from more experienced wizards. They are also prone to travelling the wilds and engaging directly in combat. The result is that they develop a grasp of practical magic very quickly, though often neglect studies that would lead to a deeper understanding of the power they wield.</German>
+		<Italian>The followers of Kahd are quick students and ambitious learners. Carrying out magical experiments at a much younger age than more cautious magi and studying without oversight from more experienced wizards. They are also prone to travelling the wilds and engaging directly in combat. The result is that they develop a grasp of practical magic very quickly, though often neglect studies that would lead to a deeper understanding of the power they wield.</Italian>
+		<Spanish>The followers of Kahd are quick students and ambitious learners. Carrying out magical experiments at a much younger age than more cautious magi and studying without oversight from more experienced wizards. They are also prone to travelling the wilds and engaging directly in combat. The result is that they develop a grasp of practical magic very quickly, though often neglect studies that would lead to a deeper understanding of the power they wield.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_FOLLOWER_STRATEGY</Tag>
+		<English>Followers have a lower level requirement than typical mages, allowing them access to the more powerful second tier spells earlier than other units (assuming the appropriate techs and manatypes are available). They also benefit from Kahd's traits - allowing them to gain experience quickly, especially in combat.</English>
+		<French>Followers have a lower level requirement than typical mages, allowing them access to the more powerful second tier spells earlier than other units (assuming the appropriate techs and manatypes are available). They also benefit from Kahd's traits - allowing them to gain experience quickly, especially in combat.</French>
+		<German>Followers have a lower level requirement than typical mages, allowing them access to the more powerful second tier spells earlier than other units (assuming the appropriate techs and manatypes are available). They also benefit from Kahd's traits - allowing them to gain experience quickly, especially in combat.</German>
+		<Italian>Followers have a lower level requirement than typical mages, allowing them access to the more powerful second tier spells earlier than other units (assuming the appropriate techs and manatypes are available). They also benefit from Kahd's traits - allowing them to gain experience quickly, especially in combat.</Italian>
+		<Spanish>Followers have a lower level requirement than typical mages, allowing them access to the more powerful second tier spells earlier than other units (assuming the appropriate techs and manatypes are available). They also benefit from Kahd's traits - allowing them to gain experience quickly, especially in combat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KAHDI_RIDER</Tag>
+		<English>Rider</English>
+		<French>Rider</French>
+		<German>Reiter</German>
+		<Italian>Rider</Italian>
+		<Spanish>Rider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KAHDI_RIDER_PEDIA</Tag>
+		<English>The Kahdi do not maintain horsemen in their military, but they do accept converts from other nations. If a convert shows a particular aptitude in the saddle, they may serve the Kahdi as a "Rider" - acting as a scout and protecting the borders of the Kahdi.</English>
+		<French>The Kahdi do not maintain horsemen in their military, but they do accept converts from other nations. If a convert shows a particular aptitude in the saddle, they may serve the Kahdi as a "Rider" - acting as a scout and protecting the borders of the Kahdi.</French>
+		<German>The Kahdi do not maintain horsemen in their military, but they do accept converts from other nations. If a convert shows a particular aptitude in the saddle, they may serve the Kahdi as a "Rider" - acting as a scout and protecting the borders of the Kahdi.</German>
+		<Italian>The Kahdi do not maintain horsemen in their military, but they do accept converts from other nations. If a convert shows a particular aptitude in the saddle, they may serve the Kahdi as a "Rider" - acting as a scout and protecting the borders of the Kahdi.</Italian>
+		<Spanish>The Kahdi do not maintain horsemen in their military, but they do accept converts from other nations. If a convert shows a particular aptitude in the saddle, they may serve the Kahdi as a "Rider" - acting as a scout and protecting the borders of the Kahdi.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KAHDI_RIDER_STRATEGY</Tag>
+		<English>A few Riders can be useful to intercept enemy units - especially barbarians - prowling around your border settlements, or for scouting out possible paths for expansion. They have improved sight range and ignore terrain movement costs, but are weaker than other horse units of their level.</English>
+		<French>A few Riders can be useful to intercept enemy units - especially barbarians - prowling around your border settlements, or for scouting out possible paths for expansion. They have improved sight range and ignore terrain movement costs, but are weaker than other horse units of their level.</French>
+		<German>A few Riders can be useful to intercept enemy units - especially barbarians - prowling around your border settlements, or for scouting out possible paths for expansion. They have improved sight range and ignore terrain movement costs, but are weaker than other horse units of their level.</German>
+		<Italian>A few Riders can be useful to intercept enemy units - especially barbarians - prowling around your border settlements, or for scouting out possible paths for expansion. They have improved sight range and ignore terrain movement costs, but are weaker than other horse units of their level.</Italian>
+		<Spanish>A few Riders can be useful to intercept enemy units - especially barbarians - prowling around your border settlements, or for scouting out possible paths for expansion. They have improved sight range and ignore terrain movement costs, but are weaker than other horse units of their level.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_KAHDI_CORRUPTION</Tag>
+		<English>The angel had lied before - Kahd knew that well. His empire had been built upon a lie - he was a false follower of a deceiving god. But there was one truth in the angel's words. He did have the power to rule this world. He might never fathom the ways of the gods, but he did undertand the ways of man and how easily he could dominate their will. If he could control all the beings of creation, surely even the gods would marvel at his power - for they themselves have never succeeeded in such a feat. And if the gods marvelled at his power, would that not make him... [NEWLINE][NEWLINE]...greater than a god?</English>
+		<French>The angel had lied before - Kahd knew that well. His empire had been built upon a lie - he was a false follower of a deceiving god. But there was one truth in the angel's words. He did have the power to rule this world. He might never fathom the ways of the gods, but he did undertand the ways of man and how easily he could dominate their will. If he could control all the beings of creation, surely even the gods would marvel at his power - for they themselves have never succeeeded in such a feat. And if the gods marvelled at his power, would that not make him... [NEWLINE][NEWLINE]...greater than a god?</French>
+		<German>The angel had lied before - Kahd knew that well. His empire had been built upon a lie - he was a false follower of a deceiving god. But there was one truth in the angel's words. He did have the power to rule this world. He might never fathom the ways of the gods, but he did undertand the ways of man and how easily he could dominate their will. If he could control all the beings of creation, surely even the gods would marvel at his power - for they themselves have never succeeeded in such a feat. And if the gods marvelled at his power, would that not make him... [NEWLINE][NEWLINE]...greater than a god?</German>
+		<Italian>The angel had lied before - Kahd knew that well. His empire had been built upon a lie - he was a false follower of a deceiving god. But there was one truth in the angel's words. He did have the power to rule this world. He might never fathom the ways of the gods, but he did undertand the ways of man and how easily he could dominate their will. If he could control all the beings of creation, surely even the gods would marvel at his power - for they themselves have never succeeeded in such a feat. And if the gods marvelled at his power, would that not make him... [NEWLINE][NEWLINE]...greater than a god?</Italian>
+		<Spanish>The angel had lied before - Kahd knew that well. His empire had been built upon a lie - he was a false follower of a deceiving god. But there was one truth in the angel's words. He did have the power to rule this world. He might never fathom the ways of the gods, but he did undertand the ways of man and how easily he could dominate their will. If he could control all the beings of creation, surely even the gods would marvel at his power - for they themselves have never succeeeded in such a feat. And if the gods marvelled at his power, would that not make him...[NEWLINE][NEWLINE]...greater than a god?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KAHDI_VAULT_GATE</Tag>
+		<English>Vault Gate</English>
+		<French>Portail du Caveau</French>
+		<German>Tor zur Gruft</German>
+		<Italian>Vault Gate</Italian>
+		<Spanish>Vault Gate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KAHDI_VAULT_GATE_PEDIA</Tag>
+		<English>The Kahdi have the knowledge to build gates that directly link into Oghma's vault, allowing various types of creatures to come through.  With access to certain types of mana, and Schools of Govannon, they can link the gates to other elemental planes, beckoning forth creatures from those planes to serve them in this world - not as temporary summons but permanent guardians.</English>
+		<French>The Kahdi have the knowledge to build gates that directly link into Oghma's vault, allowing various types of creatures to come through.  With access to certain types of mana, and Schools of Govannon, they can link the gates to other elemental planes, beckoning forth creatures from those planes to serve them in this world - not as temporary summons but permanent guardians.</French>
+		<German>The Kahdi have the knowledge to build gates that directly link into Oghma's vault, allowing various types of creatures to come through.  With access to certain types of mana, and Schools of Govannon, they can link the gates to other elemental planes, beckoning forth creatures from those planes to serve them in this world - not as temporary summons but permanent guardians.</German>
+		<Italian>The Kahdi have the knowledge to build gates that directly link into Oghma's vault, allowing various types of creatures to come through.  With access to certain types of mana, and Schools of Govannon, they can link the gates to other elemental planes, beckoning forth creatures from those planes to serve them in this world - not as temporary summons but permanent guardians.</Italian>
+		<Spanish>The Kahdi have the knowledge to build gates that directly link into Oghma's vault, allowing various types of creatures to come through.  With access to certain types of mana, and Schools of Govannon, they can link the gates to other elemental planes, beckoning forth creatures from those planes to serve them in this world - not as temporary summons but permanent guardians.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KAHDI_VAULT_GATE_STRATEGY</Tag>
+		<English>Allows Gnoslings to spawn.  With Mage's Guilds, allows Thades.  With Schools of Govannon and mana, allows permanent summons to come through the gate.  The more of these buildings in your empire, the more gate creatures it will sustain.</English>
+		<French>Allows Gnoslings to spawn.  With Mage's Guilds, allows Thades.  With Schools of Govannon and mana, allows permanent summons to come through the gate.  The more of these buildings in your empire, the more gate creatures it will sustain.</French>
+		<German>Allows Gnoslings to spawn.  With Mage's Guilds, allows Thades.  With Schools of Govannon and mana, allows permanent summons to come through the gate.  The more of these buildings in your empire, the more gate creatures it will sustain.</German>
+		<Italian>Allows Gnoslings to spawn.  With Mage's Guilds, allows Thades.  With Schools of Govannon and mana, allows permanent summons to come through the gate.  The more of these buildings in your empire, the more gate creatures it will sustain.</Italian>
+		<Spanish>Allows Gnoslings to spawn.  With Mage's Guilds, allows Thades.  With Schools of Govannon and mana, allows permanent summons to come through the gate.  The more of these buildings in your empire, the more gate creatures it will sustain.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_KAHDI_ENLIGHTENMENT</Tag>
+		<English>The words whispered by the servant of Mammon sorely tempted Kahd, but his true desire had always been knowledge. Mammon had offered nothing but false knowledge - only by turning away from that falsehood could he ever hope to repair the damage his reckless ambition had wrought.</English>
+		<French>The words whispered by the servant of Mammon sorely tempted Kahd, but his true desire had always been knowledge. Mammon had offered nothing but false knowledge - only by turning away from that falsehood could he ever hope to repair the damage his reckless ambition had wrought.</French>
+		<German>The words whispered by the servant of Mammon sorely tempted Kahd, but his true desire had always been knowledge. Mammon had offered nothing but false knowledge - only by turning away from that falsehood could he ever hope to repair the damage his reckless ambition had wrought.</German>
+		<Italian>The words whispered by the servant of Mammon sorely tempted Kahd, but his true desire had always been knowledge. Mammon had offered nothing but false knowledge - only by turning away from that falsehood could he ever hope to repair the damage his reckless ambition had wrought.</Italian>
+		<Spanish>The words whispered by the servant of Mammon sorely tempted Kahd, but his true desire had always been knowledge. Mammon had offered nothing but false knowledge - only by turning away from that falsehood could he ever hope to repair the damage his reckless ambition had wrought.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_KAHDI_STRENGTH_OF_WILL</Tag>
+		<English>"Such a fool I've been" he lamented quietly to himself as the images in the scrying pool faded to nothing. "I would have myself be the Chosen of the Gods, but I am naught but their pawn".[NEWLINE][NEWLINE]"True" - the voice startled him, he turned to see the pool had clouded and the voice had come from within. The voice was that of the angel who had instructed him so many years ago. "You may be used as a tool by the gods, but by their design you could rule on creation as if you *were* a god"[NEWLINE][NEWLINE]"Your words mean naught, deceiver! Who do you serve? Agares? Esus?"[NEWLINE][NEWLINE]"My master is Mammon, as is your's. You have always been ruled by your ambition and now you stand on the verge of realising every ambition you have ever held - the power offered by Mammon is nothing but the power to take that which you want. Think now on this - forget the dogma of your religion - what do you really want?"</English>
+		<French>"Such a fool I've been" he lamented quietly to himself as the images in the scrying pool faded to nothing. "I would have myself be the Chosen of the Gods, but I am naught but their pawn".[NEWLINE][NEWLINE]"True" - the voice startled him, he turned to see the pool had clouded and the voice had come from within. The voice was that of the angel who had instructed him so many years ago. "You may be used as a tool by the gods, but by their design you could rule on creation as if you *were* a god"[NEWLINE][NEWLINE]"Your words mean naught, deceiver! Who do you serve? Agares? Esus?"[NEWLINE][NEWLINE]"My master is Mammon, as is your's. You have always been ruled by your ambition and now you stand on the verge of realising every ambition you have ever held - the power offered by Mammon is nothing but the power to take that which you want. Think now on this - forget the dogma of your religion - what do you really want?"</French>
+		<German>"Such a fool I've been" he lamented quietly to himself as the images in the scrying pool faded to nothing. "I would have myself be the Chosen of the Gods, but I am naught but their pawn".[NEWLINE][NEWLINE]"True" - the voice startled him, he turned to see the pool had clouded and the voice had come from within. The voice was that of the angel who had instructed him so many years ago. "You may be used as a tool by the gods, but by their design you could rule on creation as if you *were* a god"[NEWLINE][NEWLINE]"Your words mean naught, deceiver! Who do you serve? Agares? Esus?"[NEWLINE][NEWLINE]"My master is Mammon, as is your's. You have always been ruled by your ambition and now you stand on the verge of realising every ambition you have ever held - the power offered by Mammon is nothing but the power to take that which you want. Think now on this - forget the dogma of your religion - what do you really want?"</German>
+		<Italian>"Such a fool I've been" he lamented quietly to himself as the images in the scrying pool faded to nothing. "I would have myself be the Chosen of the Gods, but I am naught but their pawn".[NEWLINE][NEWLINE]"True" - the voice startled him, he turned to see the pool had clouded and the voice had come from within. The voice was that of the angel who had instructed him so many years ago. "You may be used as a tool by the gods, but by their design you could rule on creation as if you *were* a god"[NEWLINE][NEWLINE]"Your words mean naught, deceiver! Who do you serve? Agares? Esus?"[NEWLINE][NEWLINE]"My master is Mammon, as is your's. You have always been ruled by your ambition and now you stand on the verge of realising every ambition you have ever held - the power offered by Mammon is nothing but the power to take that which you want. Think now on this - forget the dogma of your religion - what do you really want?"</Italian>
+		<Spanish>"Such a fool I've been" he lamented quietly to himself as the images in the scrying pool faded to nothing. "I would have myself be the Chosen of the Gods, but I am naught but their pawn".[NEWLINE][NEWLINE]"True" - the voice startled him, he turned to see the pool had clouded and the voice had come from within. The voice was that of the angel who had instructed him so many years ago. "You may be used as a tool by the gods, but by their design you could rule on creation as if you *were* a god"[NEWLINE][NEWLINE]"Your words mean naught, deceiver! Who do you serve? Agares? Esus?"[NEWLINE][NEWLINE]"My master is Mammon, as is your's. You have always been ruled by your ambition and now you stand on the verge of realising every ambition you have ever held - the power offered by Mammon is nothing but the power to take that which you want. Think now on this - forget the dogma of your religion - what do you really want?"</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_KAHDI_STRATEGY</Tag>
+		<English>Kahd was once a member of the Amurite people, but left them when given instructions by an angel which named itself Embarr, in the sevice of Oghma. He was instructed to found his own people, in the service of Oghma and to grow strong and knowledgable in the arcane ways. The angel also granted him certain knowledge that allowed him to access Oghma's vault directly - after a fashion. He was told that he had been chosen for his ambition and hunger for knowledge and that he was worthy of Oghma's service. It is true that Kahd is ambitious and the angel's words were eagerly received by his ears - but not everything spoken that day was the truth.[NEWLINE][NEWLINE]Strategy: The Kahdi lack a number of unit-types - Horsemen, Chariots, Knights, War-chariots and Champions. They do however possess a number of unique units, accessible through the Vault-Gate and should use these to make up for weaknesses elsewhere, whilst pursuing Arcane research. The gate provides units based on the number of gates, libraries, meditation halls and mage guilds your empire possesses. [NEWLINE][NEWLINE]The Kahdi "worldspell" is enabled at "Strength of Will" and offers a choice to the player. The choice made will dramatically impact the way the Kahdi perform for the rest of the game. </English>
+		<French>Kahd was once a member of the Amurite people, but left them when given instructions by an angel which named itself Embarr, in the sevice of Oghma. He was instructed to found his own people, in the service of Oghma and to grow strong and knowledgable in the arcane ways. The angel also granted him certain knowledge that allowed him to access Oghma's vault directly - after a fashion. He was told that he had been chosen for his ambition and hunger for knowledge and that he was worthy of Oghma's service. It is true that Kahd is ambitious and the angel's words were eagerly received by his ears - but not everything spoken that day was the truth.[NEWLINE][NEWLINE]Strategy: The Kahdi lack a number of unit-types - Horsemen, Chariots, Knights, War-chariots and Champions. They do however possess a number of unique units, accessible through the Vault-Gate and should use these to make up for weaknesses elsewhere, whilst pursuing Arcane research. The gate provides units based on the number of gates, libraries, meditation halls and mage guilds your empire possesses. [NEWLINE][NEWLINE]The Kahdi "worldspell" is enabled at "Strength of Will" and offers a choice to the player. The choice made will dramatically impact the way the Kahdi perform for the rest of the game.</French>
+		<German>Kahd was once a member of the Amurite people, but left them when given instructions by an angel which named itself Embarr, in the sevice of Oghma. He was instructed to found his own people, in the service of Oghma and to grow strong and knowledgable in the arcane ways. The angel also granted him certain knowledge that allowed him to access Oghma's vault directly - after a fashion. He was told that he had been chosen for his ambition and hunger for knowledge and that he was worthy of Oghma's service. It is true that Kahd is ambitious and the angel's words were eagerly received by his ears - but not everything spoken that day was the truth.[NEWLINE][NEWLINE]Strategy: The Kahdi lack a number of unit-types - Horsemen, Chariots, Knights, War-chariots and Champions. They do however possess a number of unique units, accessible through the Vault-Gate and should use these to make up for weaknesses elsewhere, whilst pursuing Arcane research. The gate provides units based on the number of gates, libraries, meditation halls and mage guilds your empire possesses. [NEWLINE][NEWLINE]The Kahdi "worldspell" is enabled at "Strength of Will" and offers a choice to the player. The choice made will dramatically impact the way the Kahdi perform for the rest of the game.</German>
+		<Italian>Kahd was once a member of the Amurite people, but left them when given instructions by an angel which named itself Embarr, in the sevice of Oghma. He was instructed to found his own people, in the service of Oghma and to grow strong and knowledgable in the arcane ways. The angel also granted him certain knowledge that allowed him to access Oghma's vault directly - after a fashion. He was told that he had been chosen for his ambition and hunger for knowledge and that he was worthy of Oghma's service. It is true that Kahd is ambitious and the angel's words were eagerly received by his ears - but not everything spoken that day was the truth.[NEWLINE][NEWLINE]Strategy: The Kahdi lack a number of unit-types - Horsemen, Chariots, Knights, War-chariots and Champions. They do however possess a number of unique units, accessible through the Vault-Gate and should use these to make up for weaknesses elsewhere, whilst pursuing Arcane research. The gate provides units based on the number of gates, libraries, meditation halls and mage guilds your empire possesses. [NEWLINE][NEWLINE]The Kahdi "worldspell" is enabled at "Strength of Will" and offers a choice to the player. The choice made will dramatically impact the way the Kahdi perform for the rest of the game.</Italian>
+		<Spanish>Kahd was once a member of the Amurite people, but left them when given instructions by an angel which named itself Embarr, in the sevice of Oghma. He was instructed to found his own people, in the service of Oghma and to grow strong and knowledgable in the arcane ways. The angel also granted him certain knowledge that allowed him to access Oghma's vault directly - after a fashion. He was told that he had been chosen for his ambition and hunger for knowledge and that he was worthy of Oghma's service. It is true that Kahd is ambitious and the angel's words were eagerly received by his ears - but not everything spoken that day was the truth.[NEWLINE][NEWLINE]Strategy: The Kahdi lack a number of unit-types - Horsemen, Chariots, Knights, War-chariots and Champions. They do however possess a number of unique units, accessible through the Vault-Gate and should use these to make up for weaknesses elsewhere, whilst pursuing Arcane research. The gate provides units based on the number of gates, libraries, meditation halls and mage guilds your empire possesses. [NEWLINE][NEWLINE]The Kahdi "worldspell" is enabled at "Strength of Will" and offers a choice to the player. The choice made will dramatically impact the way the Kahdi perform for the rest of the game.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PALACE_KAHDI</Tag>
+		<English>Kahdi Palace</English>
+		<French>Palais Kahdi</French>
+		<German>Palast der Kahdi</German>
+		<Italian>Kahdi Palace</Italian>
+		<Spanish>Kahdi Palace</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_KAHDI_CHOICE_PEDIA</Tag>
+		<English>A difficult choice before him - will Kahd choose the path of Enlightenment, or fall to the temptation of Mammon's corruption?</English>
+		<French>A difficult choice before him - will Kahd choose the path of Enlightenment, or fall to the temptation of Mammon's corruption?</French>
+		<German>A difficult choice before him - will Kahd choose the path of Enlightenment, or fall to the temptation of Mammon's corruption?</German>
+		<Italian>A difficult choice before him - will Kahd choose the path of Enlightenment, or fall to the temptation of Mammon's corruption?</Italian>
+		<Spanish>A difficult choice before him - will Kahd choose the path of Enlightenment, or fall to the temptation of Mammon's corruption?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_KAHDI_ENLIGHTENMENT</Tag>
+		<English>Enlightenment</English>
+		<French>Enlightenment</French>
+		<German>Erleuchtung</German>
+		<Italian>Enlightenment</Italian>
+		<Spanish>Enlightenment</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_KAHDI_ENLIGHTENMENT_HELP</Tag>
+		<English>[ICON_BULLET]Chooses to reject Mammon and return to the path of Oghma[NEWLINE][ICON_BULLET]Changes [LINK=TRAIT_INTOLERANT]Intolerant[\LINK] Trait to [LINK=TRAIT_SPIRITUAL]Spiritual[\LINK][NEWLINE][ICON_BULLET]Enables [LINK=UNIT_KAHD]Kahd[\LINK] unit[NEWLINE][ICON_BULLET]Increases max gate creatures by 50%[NEWLINE][ICON_BULLET]Greatly increases gate creature spawn rate (+300%)[NEWLINE][ICON_BULLET]Makes gate creatures [LINK=PROMOTION_STRONG]"Strong"[\LINK]</English>
+		<French>[ICON_BULLET]Chooses to reject Mammon and return to the path of Oghma[NEWLINE][ICON_BULLET]Changes [LINK=TRAIT_INTOLERANT]Intolerant[\LINK] Trait to [LINK=TRAIT_SPIRITUAL]Spiritual[\LINK][NEWLINE][ICON_BULLET]Enables [LINK=UNIT_KAHD]Kahd[\LINK] unit[NEWLINE][ICON_BULLET]Increases max gate creatures by 50%[NEWLINE][ICON_BULLET]Greatly increases gate creature spawn rate (+300%)[NEWLINE][ICON_BULLET]Makes gate creatures [LINK=PROMOTION_STRONG]"Strong"[\LINK]</French>
+		<German>[ICON_BULLET]Chooses to reject Mammon and return to the path of Oghma[NEWLINE][ICON_BULLET]Changes [LINK=TRAIT_INTOLERANT]Intolerant[\LINK] Trait to [LINK=TRAIT_SPIRITUAL]Spiritual[\LINK][NEWLINE][ICON_BULLET]Enables [LINK=UNIT_KAHD]Kahd[\LINK] unit[NEWLINE][ICON_BULLET]Increases max gate creatures by 50%[NEWLINE][ICON_BULLET]Greatly increases gate creature spawn rate (+300%)[NEWLINE][ICON_BULLET]Makes gate creatures [LINK=PROMOTION_STRONG]"Strong"[\LINK]</German>
+		<Italian>[ICON_BULLET]Chooses to reject Mammon and return to the path of Oghma[NEWLINE][ICON_BULLET]Changes [LINK=TRAIT_INTOLERANT]Intolerant[\LINK] Trait to [LINK=TRAIT_SPIRITUAL]Spiritual[\LINK][NEWLINE][ICON_BULLET]Enables [LINK=UNIT_KAHD]Kahd[\LINK] unit[NEWLINE][ICON_BULLET]Increases max gate creatures by 50%[NEWLINE][ICON_BULLET]Greatly increases gate creature spawn rate (+300%)[NEWLINE][ICON_BULLET]Makes gate creatures [LINK=PROMOTION_STRONG]"Strong"[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Chooses to reject Mammon and return to the path of Oghma[NEWLINE][ICON_BULLET]Changes [LINK=TRAIT_INTOLERANT]Intolerant[\LINK] Trait to [LINK=TRAIT_SPIRITUAL]Spiritual[\LINK][NEWLINE][ICON_BULLET]Enables [LINK=UNIT_KAHD]Kahd[\LINK] unit[NEWLINE][ICON_BULLET]Increases max gate creatures by 50%[NEWLINE][ICON_BULLET]Greatly increases gate creature spawn rate (+300%)[NEWLINE][ICON_BULLET]Makes gate creatures [LINK=PROMOTION_STRONG]"Strong"[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_KAHDI_CORRUPTION</Tag>
+		<English>Corruption</English>
+		<French>Corruption</French>
+		<German>Korruption</German>
+		<Italian>Corruption</Italian>
+		<Spanish>Corruption</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_KAHDI_CORRUPTION_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Chooses to turn away from Oghma and serve Mammon[NEWLINE][ICON_BULLET]Enables [LINK=UNIT_KAHD]Kahd Unit[\LINK][NEWLINE][ICON_BULLET]Enables the [LINK=UNIT_PSION]Psion[\LINK] gate creature[NEWLINE][ICON_BULLET]Enables [LINK=BUILDING_MONUMENT_TO_AVARICE]Monument to Avarice[\LINK]</English>
+		<French>[NEWLINE][ICON_BULLET]Chooses to turn away from Oghma and serve Mammon[NEWLINE][ICON_BULLET]Enables [LINK=UNIT_KAHD]Kahd Unit[\LINK][NEWLINE][ICON_BULLET]Enables the [LINK=UNIT_PSION]Psion[\LINK] gate creature[NEWLINE][ICON_BULLET]Enables [LINK=BUILDING_MONUMENT_TO_AVARICE]Monument to Avarice[\LINK]</French>
+		<German>[NEWLINE][ICON_BULLET]Chooses to turn away from Oghma and serve Mammon[NEWLINE][ICON_BULLET]Enables [LINK=UNIT_KAHD]Kahd Unit[\LINK][NEWLINE][ICON_BULLET]Enables the [LINK=UNIT_PSION]Psion[\LINK] gate creature[NEWLINE][ICON_BULLET]Enables [LINK=BUILDING_MONUMENT_TO_AVARICE]Monument to Avarice[\LINK]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Chooses to turn away from Oghma and serve Mammon[NEWLINE][ICON_BULLET]Enables [LINK=UNIT_KAHD]Kahd Unit[\LINK][NEWLINE][ICON_BULLET]Enables the [LINK=UNIT_PSION]Psion[\LINK] gate creature[NEWLINE][ICON_BULLET]Enables [LINK=BUILDING_MONUMENT_TO_AVARICE]Monument to Avarice[\LINK]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Chooses to turn away from Oghma and serve Mammon[NEWLINE][ICON_BULLET]Enables [LINK=UNIT_KAHD]Kahd Unit[\LINK][NEWLINE][ICON_BULLET]Enables the [LINK=UNIT_PSION]Psion[\LINK] gate creature[NEWLINE][ICON_BULLET]Enables [LINK=BUILDING_MONUMENT_TO_AVARICE]Monument to Avarice[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_KAHDI_GATE</Tag>
+		<English>A creature has emerged from your vault gate.</English>
+		<French>Une créature émerge de votre Portail du Caveau.</French>
+		<German>Eine Kreatur ist aus Eurem Tor zur Gruft herausgetreten.</German>
+		<Italian>A creature has emerged from your vault gate.</Italian>
+		<Spanish>A creature has emerged from your vault gate.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MEDITATION_HALL</Tag>
+		<English>Meditation Hall</English>
+		<French>Hall de la Méditation</French>
+		<German>Halle der Meditation</German>
+		<Italian>Meditation Hall</Italian>
+		<Spanish>Meditation Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KAHDI_LIBRARY</Tag>
+		<English>Repository</English>
+		<French>Cabinet</French>
+		<German>Fundgrube</German>
+		<Italian>Repository</Italian>
+		<Spanish>Repository</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONUMENT_TO_AVARICE</Tag>
+		<English>Monument to Avarice</English>
+		<French>Monument à l'Avarice</French>
+		<German>Monument für Avarice</German>
+		<Italian>Monument to Avarice</Italian>
+		<Spanish>Monument to Avarice</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MONUMENT_TO_AVARICE_PEDIA</Tag>
+		<English>The statue stood high above the city. Kahd himself, rendered in gold and bronze, welcoming all to the heart of his empire - a symbol to remind all Kahdi who wields the power and what can be achieved doing so.</English>
+		<French>The statue stood high above the city. Kahd himself, rendered in gold and bronze, welcoming all to the heart of his empire - a symbol to remind all Kahdi who wields the power and what can be achieved doing so.</French>
+		<German>The statue stood high above the city. Kahd himself, rendered in gold and bronze, welcoming all to the heart of his empire - a symbol to remind all Kahdi who wields the power and what can be achieved doing so.</German>
+		<Italian>The statue stood high above the city. Kahd himself, rendered in gold and bronze, welcoming all to the heart of his empire - a symbol to remind all Kahdi who wields the power and what can be achieved doing so.</Italian>
+		<Spanish>The statue stood high above the city. Kahd himself, rendered in gold and bronze, welcoming all to the heart of his empire - a symbol to remind all Kahdi who wields the power and what can be achieved doing so.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KAHD_REDEEMED</Tag>
+		<English>Redeemed</English>
+		<French>Redeemed</French>
+		<German>Seelenwanderer</German>
+		<Italian>Redeemed</Italian>
+		<Spanish>Redeemed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MEDITATION_HALL_HELP</Tag>
+		<English>[ICON_BULLET]Allows elemental creatures to enter through vault gates based on your mana[NEWLINE][ICON_BULLET]Increases the number of gate creatures your empire attracts</English>
+		<French>[ICON_BULLET]Allows elemental creatures to enter through vault gates based on your mana[NEWLINE][ICON_BULLET]Increases the number of gate creatures your empire attracts</French>
+		<German>[ICON_BULLET]Erlaubt es Elementarwesen, durch Tore zur Gruft zutreten, abhängig vom Mana[NEWLINE][ICON_BULLET]Erhöht die Anzahl der Torwesen, die vom Reich angezogen werden</German>
+		<Italian>[ICON_BULLET]Allows elemental creatures to enter through vault gates based on your mana[NEWLINE][ICON_BULLET]Increases the number of gate creatures your empire attracts</Italian>
+		<Spanish>[ICON_BULLET]Allows elemental creatures to enter through vault gates based on your mana[NEWLINE][ICON_BULLET]Increases the number of gate creatures your empire attracts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KAHDI_LIBRARY_HELP</Tag>
+		<English>[ICON_BULLET]Increases the number of gate creatures your empire attracts[NEWLINE][ICON_BULLET]+50% chance of vault creature arriving in this city</English>
+		<French>[ICON_BULLET]Increases the number of gate creatures your empire attracts[NEWLINE][ICON_BULLET]+50% chance of vault creature arriving in this city</French>
+		<German>[ICON_BULLET]Erhöht die Anzahl der Torwesen, die das Reich anzieht[NEWLINE][ICON_BULLET]+50% Chance der Ankunft eines Torwesens in der Stadt</German>
+		<Italian>[ICON_BULLET]Increasess the number of gate creatures your empire attracts[NEWLINE][ICON_BULLET]+50% chance of vault creature arriving in this city</Italian>
+		<Spanish>[ICON_BULLET]Increasess the number of gate creatures your empire attracts[NEWLINE][ICON_BULLET]+50% chance of vault creature arriving in this city</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_KAHD_HELP</Tag>
+		<English>[ICON_BULLET]Unit has additional promotions based on path choice (Oghma/Mammon)[NEWLINE][TAB][ICON_BULLET]Oghma - [LINK=PROMOTION_KAHD_REDEEMED]Redeemed[\LINK], Random Spells (level 1-3)[NEWLINE][TAB][ICON_BULLET]Mammon - Mind 1-3, [LINK=PROMOTION_COMPELLING_JEWEL]Compelling Jewel[\LINK]</English>
+		<French>[ICON_BULLET]Unit has additional promotions based on path choice (Oghma/Mammon)[NEWLINE][TAB][ICON_BULLET]Oghma - [LINK=PROMOTION_KAHD_REDEEMED]Redeemed[\LINK], Random Spells (level 1-3)[NEWLINE][TAB][ICON_BULLET]Mammon - Mind 1-3, [LINK=PROMOTION_COMPELLING_JEWEL]Compelling Jewel[\LINK]</French>
+		<German>[ICON_BULLET]Einheit hat zusätzliche Beförderungen basierend auf der Wahl des Pfades (Oghma/Mammon)[NEWLINE][TAB][ICON_BULLET]Oghma - [LINK=PROMOTION_KAHD_REDEEMED]Seelenwanderer[\LINK],  Zufällige Zauber (Level 1-3)[NEWLINE][TAB][ICON_BULLET]Mammon - Mind 1-3, [LINK=PROMOTION_COMPELLING_JEWEL]Juwel der Vereinnahmung[\LINK]</German>
+		<Italian>[ICON_BULLET]Unit has additional promotions based on path choice (Oghma/Mammon)[NEWLINE][TAB][ICON_BULLET]Oghma - [LINK=PROMOTION_KAHD_REDEEMED]Redeemed[\LINK], Random Spells (level 1-3)[NEWLINE][TAB][ICON_BULLET]Mammon - Mind 1-3, [LINK=PROMOTION_COMPELLING_JEWEL]Compelling Jewel[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Unit has additional promotions based on path choice (Oghma/Mammon)[NEWLINE][TAB][ICON_BULLET]Oghma - [LINK=PROMOTION_KAHD_REDEEMED]Redeemed[\LINK], Random Spells (level 1-3)[NEWLINE][TAB][ICON_BULLET]Mammon - Mind 1-3, [LINK=PROMOTION_COMPELLING_JEWEL]Compelling Jewel[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_LEADER_KAHD_STRATEGY</Tag>
+		<English>Kahd cannot enter the game in person until after his choice is made. When he does, he puts himself at risk and you should protect his unit accordingly - if it is lost, you will also lose the benefits of his leadership (the abilities granted by his Traits are lost upon his death).</English>
+		<French>Kahd cannot enter the game in person until after his choice is made. When he does, he puts himself at risk and you should protect his unit accordingly - if it is lost, you will also lose the benefits of his leadership (the abilities granted by his Traits are lost upon his death).</French>
+		<German>Kahd cannot enter the game in person until after his choice is made. When he does, he puts himself at risk and you should protect his unit accordingly - if it is lost, you will also lose the benefits of his leadership (the abilities granted by his Traits are lost upon his death).</German>
+		<Italian>Kahd cannot enter the game in person until after his choice is made. When he does, he puts himself at risk and you should protect his unit accordingly - if it is lost, you will also lose the benefits of his leadership (the abilities granted by his Traits are lost upon his death).</Italian>
+		<Spanish>Kahd cannot enter the game in person until after his choice is made. When he does, he puts himself at risk and you should protect his unit accordingly - if it is lost, you will also lose the benefits of his leadership (the abilities granted by his Traits are lost upon his death).</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_GAIN_KNOWLEDGE</Tag>
+		<English>Your unit has acquired knowledge from the combat.</English>
+		<French>Votre unité a acquis des connaissances grâce à ce combat.</French>
+		<German>Eure Einheit hat durch den Kampf an Erfahrung gewonnen.</German>
+		<Italian>Your unit has acquired knowledge from the combat.</Italian>
+		<Spanish>Your unit has acquired knowledge from the combat.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_KAHD_GLOBAL_1</Tag>
+		<English>A charismatic leader known as Kahd has risen in an Amurite city.</English>
+		<French>A charismatic leader known as Kahd has risen in an Amurite city.</French>
+		<German>Ein charmismatischer Anführer, der als Kahd bekannt ist, hat sich in einer Amuritischen Stadt erhoben.</German>
+		<Italian>A charismatic leader known as Kahd has risen in an Amurite city.</Italian>
+		<Spanish>A charismatic leader known as Kahd has risen in an Amurite city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENTTRIGGER_KAHD_1</Tag>
+		<English>A charismatic leader known as Kahd has risen in %s2_city! He demands the freedom to pursue his research, and the populace is backing him.</English>
+		<French>A charismatic leader known as Kahd has risen in %s2_city! He demands the freedom to pursue his research, and the populace is backing him.</French>
+		<German>Der charismatische Held Kahd hat sich in %s2_city erhoben! Er verlangt nach Freiheiten, um seine Forschungen nachgehen zu können, und die Bevölkerung steht hinter ihm.</German>
+		<Italian>A charismatic leader known as Kahd has risen in %s2_city! He demands the freedom to pursue his research, and the populace is backing him.</Italian>
+		<Spanish>A charismatic leader known as Kahd has risen in %s2_city! He demands the freedom to pursue his research, and the populace is backing him.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_KAHD_1_1</Tag>
+		<English>Take care of him. Now.</English>
+		<French>Take care of him. Now.</French>
+		<German>"Kümmert" euch um ihn. Jetzt.</German>
+		<Italian>Take care of him. Now.</Italian>
+		<Spanish>Take care of him. Now.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_KAHD_1_2</Tag>
+		<English>Allow him the freedom that he requires.</English>
+		<French>Allow him the freedom that he requires.</French>
+		<German>Gebt ihm die Freiheit die er möchte.</German>
+		<Italian>Allow him the freedom that he requires.</Italian>
+		<Spanish>Allow him the freedom that he requires.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_KAHD_1_3</Tag>
+		<English>Allow him the freedom he requires, but maintain control of the situation.</English>
+		<French>Allow him the freedom he requires, but maintain control of the situation.</French>
+		<German>Gebt ihm die gewünschte Freiheit, aber haltet die Situation unter Kontrolle.</German>
+		<Italian>Allow him the freedom he requires, but maintain control of the situation.</Italian>
+		<Spanish>Allow him the freedom he requires, but maintain control of the situation.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_KAHD_CAPTURED</Tag>
+		<English>Sire, we have captured Kahd! He shall languish in our dungeons.</English>
+		<French>Sire, we have captured Kahd! He shall languish in our dungeons.</French>
+		<German>Gebieter, wir haben Kahd festgesetzt. Es kann in unseren Verliesen versauern.</German>
+		<Italian>Sire, we have captured Kahd! He shall languish in our dungeons.</Italian>
+		<Spanish>Sire, we have captured Kahd! He shall languish in our dungeons.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_KAHD_CAPTURED_UNREST</Tag>
+		<English>It was a difficult fight, but we have captured Kahd, sire. Unfortunately, the populace chose to back him, so they are... displeased with this outcome.</English>
+		<French>It was a difficult fight, but we have captured Kahd, sire. Unfortunately, the populace chose to back him, so they are... displeased with this outcome.</French>
+		<German>Es war ein harter Kampf, aber wir haben Kahd gefangen., Gebieter. Leider steht die Bevölkerung auf seiner Seite, sie ist daher etwas unzufireden mit dem Ausgang.</German>
+		<Italian>It was a difficult fight, but we have captured Kahd, sire. Unfortunately, the populace chose to back him, so they are... displeased with this outcome.</Italian>
+		<Spanish>It was a difficult fight, but we have captured Kahd, sire. Unfortunately, the populace chose to back him, so they are... displeased with this outcome.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_KAHD_VICTORY</Tag>
+		<English>Sire, we have lost control of the situation! Kahd has gained control of the city, and is attacking our armies!</English>
+		<French>Sire, we have lost control of the situation! Kahd has gained control of the city, and is attacking our armies!</French>
+		<German>Gebieter, wir haben die Kontrolle über die Situation verloren. Kahd hat Kontrolle über die Stadt erlangt und greift unsere Truppen an!</German>
+		<Italian>Sire, we have lost control of the situation! Kahd has gained control of the city, and is attacking our armies!</Italian>
+		<Spanish>Sire, we have lost control of the situation! Kahd has gained control of the city, and is attacking our armies!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_KAHD_VICTORY_REGION</Tag>
+		<English>Sire, we have lost control of the situation! Kahd has gained control of %s1, and has managed to push us out of the entire region!</English>
+		<French>Sire, we have lost control of the situation! Kahd has gained control of %s1, and has managed to push us out of the entire region!</French>
+		<German>Gebieter, wir haben komplett die Kontrolle über die Situation verloren. Kahd hat die Kontrolle über %s1 übernommen und hat es geschafft uns aus der gesamten Region zu vertreiben!</German>
+		<Italian>Sire, we have lost control of the situation! Kahd has gained control of %s1, and has managed to push us out of the entire region!</Italian>
+		<Spanish>Sire, we have lost control of the situation! Kahd has gained control of %s1, and has managed to push us out of the entire region!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_KAHD_VASSAL</Tag>
+		<English>Sire, Kahd has assumed governorship of %s1.</English>
+		<French>Sire, Kahd has assumed governorship of %s1.</French>
+		<German>Gebieter, Kahd hat die Verwaltung von %s1 übernommen.</German>
+		<Italian>Sire, Kahd has assumed governorship of %s1.</Italian>
+		<Spanish>Sire, Kahd has assumed governorship of %s1.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_KAHD_TEAM</Tag>
+		<English>Sire, Kahd has assumed governorship of %s1, and proven himself to be a capable leader.</English>
+		<French>Sire, Kahd has assumed governorship of %s1, and proven himself to be a capable leader.</French>
+		<German>Gebieter, Kahd aht die Verwaltung von %s1 übernommen und sich als fähiger Anführer erwiesen.</German>
+		<Italian>Sire, Kahd has assumed governorship of %s1, and proven himself to be a capable leader.</Italian>
+		<Spanish>Sire, Kahd has assumed governorship of %s1, and proven himself to be a capable leader.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_KAHD_PROJECT</Tag>
+		<English>Sire, Kahd has funneled all of %s1's resources into his project.</English>
+		<French>Sire, Kahd has funneled all of %s1's resources into his project.</French>
+		<German>Gebieter, Kahd hat alle Ressourcen von %s1 in sein Projekt geleitet.</German>
+		<Italian>Sire, Kahd has funneled all of %s1's resources into his project.</Italian>
+		<Spanish>Sire, Kahd has funneled all of %s1's resources into his project.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_KAHD_1_HELP</Tag>
+		<English>[ICON_BULLET]20% chance for no effect.[NEWLINE][ICON_BULLET]30% chance for unrest.[NEWLINE][ICON_BULLET]40% chance for Kahd to take over the city, and declare war.[NEWLINE][ICON_BULLET]10% chance for Kahd to take over the city, all other cities within 4 tiles, and declare war.</English>
+		<French>[ICON_BULLET]20% chance for no effect.[NEWLINE][ICON_BULLET]20% chance for unrest.[NEWLINE][ICON_BULLET]40% chance for Kahd to take over the city, and declare war.[NEWLINE][ICON_BULLET]20% chance for Kahd to take over the city, all other cities within 4 tiles, and declare war.</French>
+		<German>[ICON_BULLET]20% chance for no effect.[NEWLINE][ICON_BULLET]20% Chance von Aufruhr.[NEWLINE][ICON_BULLET]40% Chance, dass Kahd die Stadt übernimmt und Krieg erklärt.[NEWLINE][ICON_BULLET]20% Chance, dass Kahd die Stadt und alle Städte innerhalb von 4 Feldern übernimmt und Krieg erklärt.</German>
+		<Italian>[ICON_BULLET]20% chance for no effect.[NEWLINE][ICON_BULLET]20% chance for unrest.[NEWLINE][ICON_BULLET]40% chance for Kahd to take over the city, and declare war.[NEWLINE][ICON_BULLET]20% chance for Kahd to take over the city, all other cities within 4 tiles, and declare war.</Italian>
+		<Spanish>[ICON_BULLET]20% chance for no effect.[NEWLINE][ICON_BULLET]20% chance for unrest.[NEWLINE][ICON_BULLET]40% chance for Kahd to take over the city, and declare war.[NEWLINE][ICON_BULLET]20% chance for Kahd to take over the city, all other cities within 4 tiles, and declare war.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_KAHD_2_HELP</Tag>
+		<English>[ICON_BULLET]70% chance for Kahd to take over the city as a Vassal.[NEWLINE][ICON_BULLET]30% chance for Kahd to take over the city as a Team Member.[NEWLINE][ICON_BULLET]You can choose to abandon your civilization and play as Kahd.</English>
+		<French>[ICON_BULLET]70% chance for Kahd to take over the city as a Vassal.[NEWLINE][ICON_BULLET]30% chance for Kahd to take over the city as a Team Member.[NEWLINE][ICON_BULLET]You can choose to abandon your civilization and play as Kahd.</French>
+		<German>[ICON_BULLET]70%, dass Kahd die Stadt als Vasall übernimmt.[NEWLINE][ICON_BULLET]30%, dass Kahd die Stadt als Verbündeter übernimmt.[NEWLINE][ICON_BULLET]You can choose to abandon your civilization and play as Kahd.</German>
+		<Italian>[ICON_BULLET]70% chance for Kahd to take over the city as a Vassal.[NEWLINE][ICON_BULLET]30% chance for Kahd to take over the city as a Team Member.[NEWLINE][ICON_BULLET]You can choose to abandon your civilization and play as Kahd.</Italian>
+		<Spanish>[ICON_BULLET]70% chance for Kahd to take over the city as a Vassal.[NEWLINE][ICON_BULLET]30% chance for Kahd to take over the city as a Team Member.[NEWLINE][ICON_BULLET]You can choose to abandon your civilization and play as Kahd.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_KAHD_3_HELP</Tag>
+		<English>[ICON_BULLET]City gains a Vault Gate, but loses the majority of it's hammers and commerce.</English>
+		<French>[ICON_BULLET]City gains a Vault Gate, but loses the majority of it's hammers and commerce.</French>
+		<German>[ICON_BULLET]Stadt erhält Tor zur Gruft, verliert jedoch die meisten ihrer Hämmer und ihres Handels.</German>
+		<Italian>[ICON_BULLET]City gains a Vault Gate, but loses the majority of it's hammers and commerce.</Italian>
+		<Spanish>[ICON_BULLET]City gains a Vault Gate, but loses the majority of it's hammers and commerce.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_KAHD_PROJECT</Tag>
+		<English>Kahd's Project</English>
+		<French>Projet de Kahd</French>
+		<German>Kahds Projekt</German>
+		<Italian>Kahd's Project</Italian>
+		<Spanish>Kahd's Project</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_CONTROL_KAHD_VASSAL</Tag>
+		<English>Kahd has become Amurite's vassal. Would you like to abandon your civilization and play as Kahd instead?</English>
+		<French>Kahd has become Amurite's vassal. Voulez-vous abandonner votre civilisation et jouer Kahd à la place.</French>
+		<German>Kahd has become Amurite's vassal. Wollt Ihr Euch von Eurer Zivilisation abwenden und als Kahd weiterspielen?</German>
+		<Italian>Kahd has become Amurite's vassal. Would you like to abandon your civilization and play as Kahd instead?</Italian>
+		<Spanish>Kahd has become Amurite's vassal. Would you like to abandon your civilization and play as Kahd instead?</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_CONTROL_KAHD_TEAM</Tag>
+		<English>Kahd has become Amurite's ally. Would you like to abandon your civilization and play as Kahd instead?</English>
+		<French>Kahd has become Amurite's ally. Voulez-vous abandonner votre civilisation et jouer Kahd à la place.</French>
+		<German>Kahd has become Amurite's ally. Wollt Ihr Euch von Eurer Zivilisation abwenden und als Kahd weiterspielen?</German>
+		<Italian>Kahd has become Amurite's ally. Would you like to abandon your civilization and play as Kahd instead?</Italian>
+		<Spanish>Kahd has become Amurite's ally. Would you like to abandon your civilization and play as Kahd instead?</Spanish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Civic Infos -->
+<Civ4CivicInfos xmlns="x-schema:CG_CIV4GameInfoSchema.xml">
+	<CivicInfos>
+		<CivicInfo>		<!-- Despotism -->
+				<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
+				<Type>CIVIC_DESPOTISM</Type>
+				<Description>TXT_KEY_CIVIC_DESPOTISM</Description>
+				<Help>TXT_KEY_CIVIC_DESPOTISM_HELP</Help>
+				<Button>,Art/Interface/Buttons/Civics/Despotism.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,5,1</Button>
+				<iAnarchyLength>1</iAnarchyLength>
+				<iCrimePerTurn>-10</iCrimePerTurn>
+				<Upkeep>UPKEEP_LOW</Upkeep>
+				<iNumCitiesMaintenanceModifier>50</iNumCitiesMaintenanceModifier>
+				<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_DESPOT</WeLoveTheKing>
+				<iWorkerSpeedModifier>25</iWorkerSpeedModifier>
+			</CivicInfo>
+	</CivicInfos>
+</Civ4CivicInfos>

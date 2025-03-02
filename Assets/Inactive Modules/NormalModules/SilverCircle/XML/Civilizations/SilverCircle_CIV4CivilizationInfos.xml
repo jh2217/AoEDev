@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4CivilizationInfos xmlns="x-schema:SilverCircle_CIV4CivilizationsSchema.xml">
+	<CivilizationInfos>
+			<CivilizationInfo><!-- Legion of D'Tesh -->
+			<Type>CIVILIZATION_DTESH</Type>
+			<Buildings>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_SILVER_CIRCLE_HQ</BuildingClassType>
+					<BuildingType>NONE</BuildingType>
+				</Building>
+			</Buildings>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_WANDERING_SAGE</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+			</Units>
+			</CivilizationInfo>
+	</CivilizationInfos>
+</Civ4CivilizationInfos>

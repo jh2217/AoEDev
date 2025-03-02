@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BARBED_WEAPONS_MELEE</Tag>
+		<English>Barbed Weapons</English>
+		<French>Armes Barbelées</French>
+		<German>Stachelwaffen</German>
+		<Italian>Barbed Weapons</Italian>
+		<Spanish>Barbed Weapons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BATTLE_MOUNTS_MOUNTED</Tag>
+		<English>Battle Mounts</English>
+		<French>Montures de Guerre</French>
+		<German>Schlachtrösser</German>
+		<Italian>Battle Mounts</Italian>
+		<Spanish>Battle Mounts</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BLESSED_ARMOR_MELEE</Tag>
+		<English>Blessed Armor (Melee)</English>
+		<French>Armure Bénie (combat rapproché)</French>
+		<German>Geweihte Rüstung (Nahkampf)</German>
+		<Italian>Blessed Armor (Melee)</Italian>
+		<Spanish>Blessed Armor (Melee)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PURITY_SEAL_MELEE</Tag>
+		<English>Seals of Purity</English>
+		<French>Sceaux de Pureté</French>
+		<German>Siegel der Reinheit</German>
+		<Italian>Seals of Purity</Italian>
+		<Spanish>Seals of Purity</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWORD_OF_AGARES_MELEE</Tag>
+		<English>Sword of Klarkash</English>
+		<French>Épée de Klarkash</French>
+		<German>Schwert des Klarkash</German>
+		<Italian>Sword of Klarkash</Italian>
+		<Spanish>Sword of Klarkash</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FUMES_OF_THE_PIT</Tag>
+		<English>Fumes of the Pit</English>
+		<French>Fumées de la Fosse</French>
+		<German>Grubendünste</German>
+		<Italian>Fumes of the Pit</Italian>
+		<Spanish>Fumes of the Pit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BLESSED_ARMOR_MOUNTED</Tag>
+		<English>Blessed Armor (Mounted)</English>
+		<French>Armure Bénie (cavalerie)</French>
+		<German>Geweihte Rüstung (beritten)</German>
+		<Italian>Blessed Armor (Mounted)</Italian>
+		<Spanish>Blessed Armor (Mounted)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CALTROPS_RECON</Tag>
+		<English>Caltrops</English>
+		<French>Chausse-trapes</French>
+		<German>Krähenfüße</German>
+		<Italian>Caltrops</Italian>
+		<Spanish>Caltrops</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CATAPHRACT_ARMOR_MOUNTED</Tag>
+		<English>Cataphract Armor</English>
+		<French>Armure de cataphracte</French>
+		<German>Kataphrakt Rüstung</German>
+		<Italian>Cataphract Armor</Italian>
+		<Spanish>Cataphract Armor</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CLIMBING_KIT_RECON</Tag>
+		<English>Climbing Kit</English>
+		<French>Kit d'escalade</French>
+		<German>Kletterausrüstung</German>
+		<Italian>Climbing Kit</Italian>
+		<Spanish>Climbing Kit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMPOSITE_BOWS_ARCHER</Tag>
+		<English>Composite Bows</English>
+		<French>Arc composite</French>
+		<German>Kompositbogen</German>
+		<Italian>Composite Bows</Italian>
+		<Spanish>Composite Bows</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_COMPOUND_BOWS_ARCHER</Tag>
+		<English>Compound Bows</English>
+		<French>Arc à poulies</French>
+		<German>Verbundbogen</German>
+		<Italian>Compound Bows</Italian>
+		<Spanish>Compound Bows</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CURSED_LANCES_MOUNTED</Tag>
+		<English>Cursed Lances</English>
+		<French>Lances maudites</French>
+		<German>Verfluchte Lanzen</German>
+		<Italian>Cursed Lances</Italian>
+		<Spanish>Cursed Lances</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CURSED_WEAPONS_MELEE</Tag>
+		<English>Cursed Weapons</English>
+		<French>Armes maudites</French>
+		<German>Verfluchte Waffen</German>
+		<Italian>Cursed Weapons</Italian>
+		<Spanish>Cursed Weapons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DEADLY_TRAPS_RECON</Tag>
+		<English>Deadly Traps</English>
+		<French>Pièges mortels</French>
+		<German>Tödliche Fallen</German>
+		<Italian>Deadly Traps</Italian>
+		<Spanish>Deadly Traps</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_DESERT_GEAR_RECON</Tag>
+		<English>Desert Gear</English>
+		<French>Équipement désertique</French>
+		<German>Wüstenausrüstung</German>
+		<Italian>Desert Gear</Italian>
+		<Spanish>Desert Gear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXCELLENT_KIT_RECON</Tag>
+		<English>Excellent Kit</English>
+		<French>Kit excellent</French>
+		<German>Exzellente Ausrüstung</German>
+		<Italian>Excellent Kit</Italian>
+		<Spanish>Excellent Kit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_EXCELLENT_TACK_MOUNTED</Tag>
+		<English>Excellent Tack</English>
+		<French>Harnachement excellent</French>
+		<German>Exzellentes Zaumzeug</German>
+		<Italian>Excellent Tack</Italian>
+		<Spanish>Excellent Tack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FAST_HORSES_MOUNTED</Tag>
+		<English>Fast Horses</English>
+		<French>Chevaux rapides</French>
+		<German>Schnelle Pferde</German>
+		<Italian>Fast Horses</Italian>
+		<Spanish>Fast Horses</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FINE_BOWS_ARCHER</Tag>
+		<English>Fine Bows</English>
+		<French>Arcs de qualité supérieure</French>
+		<German>Ausgezeichnete Bögen</German>
+		<Italian>Fine Bows</Italian>
+		<Spanish>Fine Bows</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FINE_EQUIPMENT_MELEE</Tag>
+		<English>High Quality Weapons</English>
+		<French>Armes de qualité supérieure</French>
+		<German>Hochwertige Waffen</German>
+		<Italian>High Quality Weapons</Italian>
+		<Spanish>High Quality Weapons</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_FINE_KIT_RECON</Tag>
+		<English>Fine Kit</English>
+		<French>Fine Kit</French>
+		<German>Ausgezeichnete Ausrüstung</German>
+		<Italian>Fine Kit</Italian>
+		<Spanish>Fine Kit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HIGH_QUALITY_BRONZE_ARCHER</Tag>
+		<English>High Quality Bronze (Archer)</English>
+		<French>Bronze de qualité supérieure (Archer)</French>
+		<German>Hochwertige Bronze (Bogenschützen)</German>
+		<Italian>High Quality Bronze (Archer)</Italian>
+		<Spanish>High Quality Bronze (Archer)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HIGH_QUALITY_BRONZE_MELEE</Tag>
+		<English>High Quality Bronze (Melee)</English>
+		<French>Bronze de qualité supérieure (Combat rapproché)</French>
+		<German>Hochwertige Bronze (Nahkampf)</German>
+		<Italian>High Quality Bronze (Melee)</Italian>
+		<Spanish>High Quality Bronze (Melee)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HIGH_QUALITY_MITHRIL_MELEE</Tag>
+		<English>Masterwork Weaponry</English>
+		<French>Armes de maître</French>
+		<German>Meisterhafte Waffen</German>
+		<Italian>Masterwork Weaponry</Italian>
+		<Spanish>Masterwork Weaponry</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HIGH_QUALITY_STEEL_ARCHER</Tag>
+		<English>High Quality Steel (Archer)</English>
+		<French>Acier de qualité supérieure (Archer)</French>
+		<German>Hochwertiger Stahl (Bogenschützen)</German>
+		<Italian>High Quality Steel (Archer)</Italian>
+		<Spanish>High Quality Steel (Archer)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HIGH_QUALITY_STEEL_MELEE</Tag>
+		<English>High Quality Steel (Melee)</English>
+		<French>Acier de qualité supérieure (Combat rapproché)</French>
+		<German>Hochwertiger Stahl (Nahkampf)</German>
+		<Italian>High Quality Steel (Melee)</Italian>
+		<Spanish>High Quality Steel (Melee)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HORSELORDS_TACK_MOUNTED</Tag>
+		<English>Horselord's Tack</English>
+		<French>Harnachement de seigneur des chevaux</French>
+		<German>Zaumzeug eines Pferdefürsten</German>
+		<Italian>Horselord's Tack</Italian>
+		<Spanish>Horselord's Tack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ICE_GEAR_RECON</Tag>
+		<English>Ice Gear</English>
+		<French>Équipement arctique</French>
+		<German>Eisausrüstung</German>
+		<Italian>Ice Gear</Italian>
+		<Spanish>Ice Gear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_CLAN_WARPAINT_RECON</Tag>
+		<English>Clan Warpaint</English>
+		<French>Peinture de guerre du Clan</French>
+		<German>Kriegsbemalung</German>
+		<Italian>Clan Warpaint</Italian>
+		<Spanish>Clan Warpaint</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MANTRAPS_RECON</Tag>
+		<English>Mantraps</English>
+		<French>Mantraps</French>
+		<German>Fußangeln</German>
+		<Italian>Mantraps</Italian>
+		<Spanish>Mantraps</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MARCH_WINE_RECON</Tag>
+		<English>March Wine</English>
+		<French>Vin des Marcheurs</French>
+		<German>Wein des Marschierens (Märzen)</German>
+		<Italian>March Wine</Italian>
+		<Spanish>March Wine</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MAZLI_OILED_GEAR_RECON</Tag>
+		<English>Mazli Oiled Gear</English>
+		<French>Mazli Oiled Gear</French>
+		<German>Mazlis geölte Ausrüstung</German>
+		<Italian>Mazli Oiled Gear</Italian>
+		<Spanish>Mazli Oiled Gear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MITHRIL_STRING_ARCHER</Tag>
+		<English>Bloodglass</English>
+		<French>Bloodlass</French>
+		<German>Blutglass</German>
+		<Italian>Bloodglass</Italian>
+		<Spanish>Bloodglass</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MITHRIL_STRING_ARCHER_HELP</Tag>
+		<English>Terrible substance that makes venomous anything it contacts.</English>
+		<French>Terrible substance that makes venomous anything it contacts.</French>
+		<German>Schreckliche Substanz, die alles vergiftet, was sie berührt.</German>
+		<Italian>Terrible substance that makes venomous anything it contacts.</Italian>
+		<Spanish>Terrible substance that makes venomous anything it contacts.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NIGHT_GEAR_RECON</Tag>
+		<English>Night Gear</English>
+		<French>Équipement nocturne</French>
+		<German>Nachtausrüstung</German>
+		<Italian>Night Gear</Italian>
+		<Spanish>Night Gear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_PLATE_MELEE</Tag>
+		<English>Plate</English>
+		<French>Armure de plaque</French>
+		<German>Plattenpanzer</German>
+		<Italian>Plate</Italian>
+		<Spanish>Plate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ELITE_FORMATION_MELEE</Tag>
+		<English>Elite Formation</English>
+		<French>Formation d'élite</French>
+		<German>Elite Formation</German>
+		<Italian>Elite Formation</Italian>
+		<Spanish>Elite Formation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POISON_TRAPS_RECON</Tag>
+		<English>Poisonous Traps</English>
+		<French>Pièges empoisonnés</French>
+		<German>Vergiftete Fallen</German>
+		<Italian>Poisonous Traps</Italian>
+		<Spanish>Poisonous Traps</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SACRED_HORSES_MOUNTED</Tag>
+		<English>Sacred Horses</English>
+		<French>Montures Sacrées</French>
+		<German>Heilige Pferde</German>
+		<Italian>Sacred Horses</Italian>
+		<Spanish>Sacred Horses</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SHADOW_GEAR_RECON</Tag>
+		<English>Shadow Gear</English>
+		<French>Shadow Gear</French>
+		<German>Schattenausrüstung</German>
+		<Italian>Shadow Gear</Italian>
+		<Spanish>Shadow Gear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SLAB_PLATE_MELEE</Tag>
+		<English>Heavy Plate</English>
+		<French>Armure Lourde</French>
+		<German>Schwerer Plattenplanzer</German>
+		<Italian>Heavy Plate</Italian>
+		<Spanish>Heavy Plate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SNOW_GEAR_RECON</Tag>
+		<English>Snow Gear</English>
+		<French>Snow Gear</French>
+		<German>Schneeausrüstung</German>
+		<Italian>Snow Gear</Italian>
+		<Spanish>Snow Gear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUPERIOR_HORSES_MOUNTED</Tag>
+		<English>Superior Horses</English>
+		<French>Chevaux agiles</French>
+		<German>&#220;berlegene Pferde</German>
+		<Italian>Superior Horses</Italian>
+		<Spanish>Superior Horses</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUPERIOR_KIT_RECON</Tag>
+		<English>Superior Kit</English>
+		<French>Kit supérieur</French>
+		<German>&#220;berlegene Ausrüstung</German>
+		<Italian>Superior Kit</Italian>
+		<Spanish>Superior Kit</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SUPERIOR_TACK_MOUNTED</Tag>
+		<English>Superior Tack</English>
+		<French>Harnachement supérieur</French>
+		<German>&#220;berlegenes Zaumzeug</German>
+		<Italian>Superior Tack</Italian>
+		<Spanish>Superior Tack</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NIGHTSHADE_RECON</Tag>
+		<English>Nightshade</English>
+		<French>Nightshade</French>
+		<German>Nachtschatten</German>
+		<Italian>Nightshade</Italian>
+		<Spanish>Nightshade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WINDSTONES_RECON</Tag>
+		<English>Windstones</English>
+		<French>Pierres de vent</French>
+		<German>Steine des Windes</German>
+		<Italian>Windstones</Italian>
+		<Spanish>Windstones</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WOODS_GEAR_RECON</Tag>
+		<English>Woods Gear</English>
+		<French>Woods Gear</French>
+		<German>Waldausrüstung</German>
+		<Italian>Woods Gear</Italian>
+		<Spanish>Woods Gear</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_EXPLORE_LAIR_CLIMBING_KIT_RECON</Tag>
+		<English>Your unit finds some mountaineering gear among skeletons under a pile of rocks.</English>
+		<French>Your unit finds some mountaineering gear among skeletons under a pile of rocks.</French>
+		<German>Eure Einheit findet eine Bergausrüstung bei einem Haufen Skeletten unter einem Felsen.</German>
+		<Italian>Your unit finds some mountaineering gear among skeletons under a pile of rocks.</Italian>
+		<Spanish>Your unit finds some mountaineering gear among skeletons under a pile of rocks.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_EXPLORE_LAIR_DESERT_GEAR_RECON</Tag>
+		<English>Your unit finds a supply of well-made gear among some dessicated corpses.</English>
+		<French>Your unit finds a supply of well-made gear among some dessicated corpses.</French>
+		<German>Eure Einheit findet einen Vorrat gut gemachter Ausrüstung zwischen ausgetrockneten Körpern.</German>
+		<Italian>Your unit finds a supply of well-made gear among some dessicated corpses.</Italian>
+		<Spanish>Your unit finds a supply of well-made gear among some dessicated corpses.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_EXPLORE_LAIR_FINE_KIT_RECON</Tag>
+		<English>Your unit finds treasure!  It's an assortment of practical clothing and tools such as oiled cloaks and camp cooking gear!</English>
+		<French>Your unit finds treasure!  It's an assortment of practical clothing and tools such as oiled cloaks and camp cooking gear!</French>
+		<German>Eure Einheit entdeckt einen Schatz!  Es handelt sich um eine Ansammlung von praktischen Kleidern wie z.B. geölten Umhängen und einer Kochausrüstung!</German>
+		<Italian>Your unit finds treasure!  It's an assortment of practical clothing and tools such as oiled cloaks and camp cooking gear!</Italian>
+		<Spanish>Your unit finds treasure!  It's an assortment of practical clothing and tools such as oiled cloaks and camp cooking gear!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_EXPLORE_LAIR_MANTRAPS_RECON</Tag>
+		<English>Your unit stumbles into a varity of traps, but eventually frees itself.  The traps are in good enough condition to take with you.  Except for the pit traps.</English>
+		<French>Your unit stumbles into a varity of traps, but eventually frees itself.  The traps are in good enough condition to take with you.  Except for the pit traps.</French>
+		<German>Eure Einheit stolpert in eine Vielzahl von Fallen, kann sich aber stets selbst befreien.  Die Fallen sind in ausreichend gutem Zustand, um sie mitzunehmen.  Bis auf die Fallgruben.</German>
+		<Italian>Your unit stumbles into a varity of traps, but eventually frees itself.  The traps are in good enough condition to take with you.  Except for the pit traps.</Italian>
+		<Spanish>Your unit stumbles into a varity of traps, but eventually frees itself.  The traps are in good enough condition to take with you.  Except for the pit traps.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_EXPLORE_LAIR_SNOW_GEAR_RECON</Tag>
+		<English>Your unit doesn't know what it was that they killed, but it had excellent fur.  Thick and warm.</English>
+		<French>Votre unité ne sait pas ce qu'elle a tué, mais sa fourrure est excellente : épaisse et chaude.</French>
+		<German>Eure Einheit hat keine Ahnung, wen oder was sie getötet hat - es verfügt jedenfalls über ein hervorragendes Fell.  Schön dick und warm.</German>
+		<Italian>Your unit doesn't know what it was that they killed, but it had excellent fur.  Thick and warm.</Italian>
+		<Spanish>Your unit doesn't know what it was that they killed, but it had excellent fur.  Thick and warm.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_EXPLORE_LAIR_WOODS_GEAR_RECON</Tag>
+		<English>An poorly-hidden cache yields, among other useful things, clothing designed to enhance it's wearer's ability to conceal himself in trees or bush.</English>
+		<French>An poorly-hidden cache yields, among other useful things, clothing designed to enhance it's wearer's ability to conceal himself in trees or bush.</French>
+		<German>Ein schlecht getarntes Geheimversteck. Neben andern nützlichen Dingen finden sich Kleider, die die Fähigkeit ihres Trägers verbessert, sich zwischen Bäumen oder im Dickicht zu verbergen.</German>
+		<Italian>An poorly-hidden cache yields, among other useful things, clothing designed to enhance it's wearer's ability to conceal himself in trees or bush.</Italian>
+		<Spanish>An poorly-hidden cache yields, among other useful things, clothing designed to enhance it's wearer's ability to conceal himself in trees or bush.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_HEALING_SALVE</Tag>
+		<English>Your unit discovers a Healing Salve.</English>
+		<French>Votre unité découvre un baume de soins.</French>
+		<German>Eure Einheit entdeckt eine Heilsalbe.</German>
+		<Italian>Your unit discovers a Healing Salve.</Italian>
+		<Spanish>Your unit discovers a Healing Salve.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_JADE_TORC</Tag>
+		<English>Your unit discovers an ancient artifact, the Jade Torc.</English>
+		<French>Votre unité découvre un ancien artefact, la Torque de Jade.</French>
+		<German>Eure Einheit entdeckt ein uraltes Artefakt, das Jadeamulett.</German>
+		<Italian>Your unit discovers an ancient artifact, the Jade Torc.</Italian>
+		<Spanish>Your unit discovers an ancient artifact, the Jade Torc.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_POTION_OF_INVISIBILITY</Tag>
+		<English>Your unit discovers a Potion of Invisibility.</English>
+		<French>Votre unité découvre une potion d'invisibilité.</French>
+		<German>Eure Einheit entdeckt einen Unsichtbarkeitstrank.</German>
+		<Italian>Your unit discovers a Potion of Invisibility.</Italian>
+		<Spanish>Your unit discovers a Potion of Invisibility.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_POTION_OF_RESTORATION</Tag>
+		<English>Your unit discovers a Potion of Restoration.</English>
+		<French>Votre unité découvre une potion de restauration.</French>
+		<German>Eure Einheit entdeckt einen Wiederherstellungstrank.</German>
+		<Italian>Your unit discovers a Potion of Restoration.</Italian>
+		<Spanish>Your unit discovers a Potion of Restoration.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_ROD_OF_WINDS</Tag>
+		<English>Your unit discovers an ancient artifact, the Rod of Winds.</English>
+		<French>Votre unité découvre un ancien artefact, the Rod of Winds.</French>
+		<German>Eure Einheit entdeckt ein uraltes Artefakt, das Zepter des Windes.</German>
+		<Italian>Your unit discovers an ancient artifact, the Rod of Winds.</Italian>
+		<Spanish>Your unit discovers an ancient artifact, the Rod of Winds.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_TIMOR_MASK</Tag>
+		<English>Your unit discovers an ancient artifact, the Timor Mask.</English>
+		<French>Votre unité découvre un ancien artefact, le Masque de Timor</French>
+		<German>Eure Einheit entdeckt ein uraltes Artefakt, die Timormaske.</German>
+		<Italian>Your unit discovers an ancient artifact, the Timor Mask.</Italian>
+		<Spanish>Your unit discovers an ancient artifact, the Timor Mask.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_HEALING_POTION</Tag>
+		<English>Your unit discovers a healing potion.</English>
+		<French>Your unit discovers a healing potion.</French>
+		<German>Your unit discovers a healing potion.</German>
+		<Italian>Your unit discovers a healing potion.</Italian>
+		<Spanish>Your unit discovers a healing potion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_NEWTS_DRAUGHT</Tag>
+		<English>Your unit discovers a mana potion, the Newt's Draught.</English>
+		<French>Your unit discovers a mana potion, the Newt's Draught.</French>
+		<German>Your unit discovers a mana potion, the Newt's Draught.</German>
+		<Italian>Your unit discovers a mana potion, the Newt's Draught.</Italian>
+		<Spanish>Your unit discovers a mana potion, the Newt's Draught.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_HEART_AMULET</Tag>
+		<English>Your unit discovers an ancient artifact, the Heart Amulet.</English>
+		<French>Votre unité découvre un ancien artefact, l'Amulette de C&#156;ur</French>
+		<German>Your unit discovers an ancient artifact, the Heart Amulet.</German>
+		<Italian>Your unit discovers an ancient artifact, the Heart Amulet.</Italian>
+		<Spanish>Your unit discovers an ancient artifact, the Heart Amulet.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_SWIFT_BOOTS</Tag>
+		<English>Your unit discovers Swift Boots.</English>
+		<French>Votre unité découvre des bottes de vitesse.</French>
+		<German>Your unit discovers Swift Boots.</German>
+		<Italian>Your unit discovers Swift Boots.</Italian>
+		<Spanish>Your unit discovers Swift Boots.</Spanish>
+	</TEXT>
+	<TEXT>
+	<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_TRAVELLERS_CLOAK</Tag>
+		<English>You find an abandoned camp. Clearly someone has been here before. Searching it all you find is a cloak.</English>
+		<French>You find an abandoned camp. Clearly someone has been here before. Searching it all you find is a cloak.</French>
+		<German>You find an abandoned camp. Clearly someone has been here before. Searching it all you find is a cloak.</German>
+		<Italian>You find an abandoned camp. Clearly someone has been here before. Searching it all you find is a cloak.</Italian>
+		<Spanish>You find an abandoned camp. Clearly someone has been here before. Searching it all you find is a cloak.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_RING_OF_PERCEPTION</Tag>
+		<English>Your unit discovers an ancient artifact, the Ring of Perception.</English>
+		<French>Votre unité découvre un artefact ancien, l'anneau de perception.</French>
+		<German>Your unit discovers an ancient artifact, the Ring of Perception.</German>
+		<Italian>Your unit discovers an ancient artifact, the Ring of Perception.</Italian>
+		<Spanish>Your unit discovers an ancient artifact, the Ring of Perception.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_RING_OF_STRIKING</Tag>
+		<English>Your unit discovers an ancient artifact, the Ring of Striking.</English>
+		<French>Votre unité découvre un ancien artefact, the Ring of Striking.</French>
+		<German>Your unit discovers an ancient artifact, the Ring of Striking.</German>
+		<Italian>Your unit discovers an ancient artifact, the Ring of Striking.</Italian>
+		<Spanish>Your unit discovers an ancient artifact, the Ring of Striking.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_COMPELLING_JEWEL</Tag>
+		<English>Your unit discovers an ancient artifact, the Compelling Jewel.</English>
+		<French>Votre unité découvre un ancien artefact, the Compelling Jewel.</French>
+		<German>Your unit discovers an ancient artifact, the Compelling Jewel.</German>
+		<Italian>Your unit discovers an ancient artifact, the Compelling Jewel.</Italian>
+		<Spanish>Your unit discovers an ancient artifact, the Compelling Jewel.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_CURSED_TOKEN_OF_RAGNAROK</Tag>
+		<English>Your unit discovers an ancient artifact, the Cursed Token of Ragnarok</English>
+		<French>Votre unité découvre un ancien artefact, the Cursed Token of Ragnarok.</French>
+		<German>Your unit discovers an ancient artifact, the Cursed Token of Ragnarok.</German>
+		<Italian>Your unit discovers an ancient artifact, the Cursed Token of Ragnarok.</Italian>
+		<Spanish>Your unit discovers an ancient artifact, the Cursed Token of Ragnarok.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_MENACING_HELM</Tag>
+		<English>Your unit discovers an ancient artifact, the Menacing Helm.</English>
+		<French>Votre unité découvre un ancien artefact, the Menacing Helm.</French>
+		<German>Your unit discovers an ancient artifact, the Menacing Helm.</German>
+		<Italian>Your unit discovers an ancient artifact, the Menacing Helm.</Italian>
+		<Spanish>Your unit discovers an ancient artifact, the Menacing Helm.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_HAUBERK_OF_ABJURATION</Tag>
+		<English>Your unit discovers an ancient artifact, the Hauberk of Abjuration.</English>
+		<French>Votre unité découvre un ancien artefact, le Haubert d'Abjuration.</French>
+		<German>Your unit discovers an ancient artifact, the Hauberk of Abjuration.</German>
+		<Italian>Your unit discovers an ancient artifact, the Hauberk of Abjuration.</Italian>
+		<Spanish>Your unit discovers an ancient artifact, the Hauberk of Abjuration.</Spanish>
+	</TEXT>
+</Civ4GameText>

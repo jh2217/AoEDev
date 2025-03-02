@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Civilization Infos -->
+<Civ4UnitArtStyleTypeInfos xmlns="x-schema:CIV4CivilizationsSchema.xml">
+	<UnitArtStyleTypeInfos>
+		<UnitArtStyleTypeInfo>
+			<Type>UNIT_ARTSTYLE_GRIGORI</Type>
+				<StyleUnits>
+					<StyleUnit>
+						<UnitType>UNIT_CROSSBOWMAN</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_GRIGORI</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_GRIGORI</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_CROSSBOWMAN_GRIGORI</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+					<StyleUnit>
+						<UnitType>UNIT_WAR_CHARIOT</UnitType>
+						<UnitMeshGroup>
+							<EarlyArtDefineTag>ART_DEF_UNIT_WAR_CHARIOT_GRIGORI</EarlyArtDefineTag>
+							<LateArtDefineTag>ART_DEF_UNIT_WAR_CHARIOT_GRIGORI</LateArtDefineTag>
+							<MiddleArtDefineTag>ART_DEF_UNIT_WAR_CHARIOT_GRIGORI</MiddleArtDefineTag>
+						</UnitMeshGroup>
+					</StyleUnit>
+				</StyleUnits>
+		</UnitArtStyleTypeInfo>
+	</UnitArtStyleTypeInfos>
+</Civ4UnitArtStyleTypeInfos>

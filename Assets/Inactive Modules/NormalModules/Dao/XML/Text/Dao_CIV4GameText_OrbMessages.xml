@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Created with the Orbis editor by Ahwaric -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Game Text - Units -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+        <TEXT>
+        <Tag>TXT_KEY_MESSAGE_ELEMENTAL_SUMMONED</Tag>
+        <English>An elemental was summoned in your city!</English>
+        <French>An elemental was summoned in your city!</French>
+        <German>An elemental was summoned in your city!</German>
+        <Italian>An elemental was summoned in your city!</Italian>
+        <Spanish>An elemental was summoned in your city!</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_POPUP_JESEMIR_CREATION</Tag>
+        <English>Jesemir has been created</English>
+        <French>Jesemir has been created</French>
+        <German>Jesemir has been created</German>
+        <Italian>Jesemir has been created</Italian>
+        <Spanish>Jesemir has been created</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_POPUP_SANARI_CREATION</Tag>
+        <English>Sanari has been created</English>
+        <French>Sanari has been created</French>
+        <German>Sanari has been created</German>
+        <Italian>Sanari has been created</Italian>
+        <Spanish>Sanari has been created</Spanish>
+    </TEXT>
+    <TEXT>
+        <Tag>TXT_KEY_POPUP_DEFEATED_RUOLAN</Tag>
+        <English>You can fight the elements. But you can't really win, you know.</English>
+        <French>You can fight the elements. But you can't really win, you know.</French>
+        <German>You can fight the elements. But you can't really win, you know.</German>
+        <Italian>You can fight the elements. But you can't really win, you know.</Italian>
+        <Spanish>You can fight the elements. But you can't really win, you know.</Spanish>
+    </TEXT>
+	    <TEXT>
+        <Tag>TXT_KEY_POPUP_DEFEATED_YINXI</Tag>
+        <English>This world is loosing balance. You are responsible, be it with action, or lack of it whan it was a natural thing to act.</English>
+        <French>This world is loosing balance. You are responsible, be it with action, or lack of it whan it was a natural thing to act.</French>
+        <German>This world is loosing balance. You are responsible, be it with action, or lack of it whan it was a natural thing to act.</German>
+        <Italian>This world is loosing balance. You are responsible, be it with action, or lack of it whan it was a natural thing to act.</Italian>
+        <Spanish>This world is loosing balance. You are responsible, be it with action, or lack of it whan it was a natural thing to act.</Spanish>
+    </TEXT>
+</Civ4GameText>
