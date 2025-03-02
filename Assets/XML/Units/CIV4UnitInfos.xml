@@ -5413,7 +5413,7 @@
 			<iWeaponTierMax>3</iWeaponTierMax>
 			<PromotionFromCombat>PROMOTION_IMMORTAL</PromotionFromCombat>
 			<Image>Art/Interface/Popups/Losha Valas.dds</Image>
-			<Quote>TXT_KEY_UNIT_LOSHA_STRATEGY</Quote>
+			<Quote>TXT_KEY_UNIT_LOSHA_QUOTE</Quote>
 		</UnitInfo>
 		<UnitInfo>        <!-- Lucian -->
 			<Class>UNITCLASS_LUCIAN</Class>

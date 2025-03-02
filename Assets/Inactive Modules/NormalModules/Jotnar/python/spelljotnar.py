@@ -56,6 +56,11 @@ def spellSteading(caster):
 
 def ReqSteading(pCaster):
 	pPlot = pCaster.plot()
+	iImprovement = pPlot.getImprovementType()
+	if iImprovement != -1:
+		pImprovement = gc.getImprovementInfo(iImprovement)
+		if pImprovement.isUnique():
+			return False
 	return not pPlot.isWater() and not pPlot.isCity()
 
 def reqJotBloom(caster):

@@ -15,5 +15,16 @@
 				</Unit>
 			</Units>
 		</CivilizationInfo>
+		
+		
+		<CivilizationInfo><!-- Amurites -->
+			<Type>CIVILIZATION_AMURITES</Type>
+			<Units>
+				<Unit>
+					<UnitClassType>UNITCLASS_WORKER</UnitClassType>
+					<UnitType>UNIT_GEOMANCER</UnitType>
+				</Unit>
+			</Units>
+		</CivilizationInfo>
 	</CivilizationInfos>
 </Civ4CivilizationInfos>

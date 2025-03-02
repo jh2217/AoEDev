@@ -27400,7 +27400,10 @@ void CvUnit::updateInvisibleLevel()
 			iNewValue = GC.getPromotionInfo((PromotionTypes)iI).getInvisibleLevel();
 		}
 	}
-	m_aiInvisibleTypes.push_back(iNewValue);
+	if (iNewValue != 0)
+	{
+		m_aiInvisibleTypes.push_back(iNewValue);
+	}
 }
 
 void CvUnit::setSeeInvisibleType(int iInvisibleType, bool bAdd)

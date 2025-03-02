@@ -7,8 +7,8 @@
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<!---->
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_STONE_TOOLS</Tag>
-		<English>Stone Tools</English>
+		<Tag>TXT_KEY_PROMOTION_STONE_TOOLS_1</Tag>
+		<English>Tools (Stone)</English>
 		<French>Text Here</French>
 		<German>Text Here</German>
 		<Italian>Text Here</Italian>
@@ -16,7 +16,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_COPPER_TOOLS</Tag>
-		<English>Copper Tools</English>
+		<English>Tools (Copper)</English>
 		<French>Text Here</French>
 		<German>Text Here</German>
 		<Italian>Text Here</Italian>
@@ -24,7 +24,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_BRONZE_TOOLS</Tag>
-		<English>Bronze Tools</English>
+		<English>Tools (Bronze)</English>
 		<French>Text Here</French>
 		<German>Text Here</German>
 		<Italian>Text Here</Italian>
@@ -32,7 +32,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_IRON_TOOLS</Tag>
-		<English>Iron Tools</English>
+		<English>Tools (Iron)</English>
 		<French>Text Here</French>
 		<German>Text Here</German>
 		<Italian>Text Here</Italian>
@@ -40,7 +40,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_STEEL_TOOLS</Tag>
-		<English>Steel Tools</English>
+		<English>Tools (Steel)</English>
 		<French>Text Here</French>
 		<German>Text Here</German>
 		<Italian>Text Here</Italian>
@@ -48,7 +48,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_MITHRIL_TOOLS</Tag>
-		<English>Mithril Tools</English>
+		<English>Tools (Mithril)</English>
 		<French>Text Here</French>
 		<German>Text Here</German>
 		<Italian>Text Here</Italian>
@@ -56,7 +56,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_POWER_TOOLS</Tag>
-		<English>Power Tools</English>
+		<English>Tools (Powered)</English>
 		<French>Text Here</French>
 		<German>Text Here</German>
 		<Italian>Text Here</Italian>
@@ -64,7 +64,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ENCHANTED_TOOLS</Tag>
-		<English>Enchanted Tools</English>
+		<English>Tools (Enchanted)</English>
 		<French>Text Here</French>
 		<German>Text Here</German>
 		<Italian>Text Here</Italian>
@@ -198,6 +198,14 @@
 		<Spanish>Khazad Worker</Spanish>
 	</TEXT>
 	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_GEOMANCER</Tag>
+		<English>Geomancer</English>
+		<French>Géomancien</French>
+		<German>Geomancer</German>
+		<Italian>Geomancer</Italian>
+		<Spanish>Geomancer</Spanish>
+	</TEXT>
 	
 	
 </Civ4GameText>

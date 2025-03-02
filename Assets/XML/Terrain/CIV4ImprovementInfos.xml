@@ -7180,13 +7180,6 @@
 					<iDiscoverRand>3000</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 				</BonusTypeStruct>
-				<BonusTypeStruct>
-					<BonusType>BONUS_TOAD</BonusType>
-					<bBonusMakesValid>0</bBonusMakesValid>
-					<bBonusTrade>0</bBonusTrade>
-					<iDiscoverRand>3000</iDiscoverRand>
-					<iSpreadRand>0</iSpreadRand>
-				</BonusTypeStruct>
 			</BonusTypeStructs>
 			<TechYieldChanges>
 				<TechYieldChange>

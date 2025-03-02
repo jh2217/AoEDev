@@ -10835,11 +10835,11 @@ Exposure to others minds often causes befuddlement or confusion in the practitio
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROCESS_CONVERTS_CRIME</Tag>
-		<English>[ICON_BULLET]Converts %d1 % of |ICON_PRODUCTION] to -[ICON_CRIME] and blocks all other [ICON_CRIME] change.</English>
-		<French>[ICON_BULLET]Converts %d1 % of |ICON_PRODUCTION] to -[ICON_CRIME] and blocks all other [ICON_CRIME] change.</French>
-		<German>[ICON_BULLET]Converts %d1 % of |ICON_PRODUCTION] to -[ICON_CRIME] and blocks all other [ICON_CRIME] change.</German>
-		<Italian>[ICON_BULLET]Converts %d1 % of |ICON_PRODUCTION] to -[ICON_CRIME] and blocks all other [ICON_CRIME] change.</Italian>
-		<Spanish>[ICON_BULLET]Converts %d1 % of |ICON_PRODUCTION] to -[ICON_CRIME] and blocks all other [ICON_CRIME] change.</Spanish>
+		<English>[ICON_BULLET]Converts %d1 % of [ICON_PRODUCTION] to -[ICON_CRIME] and blocks all other [ICON_CRIME] change.</English>
+		<French>[ICON_BULLET]Converts %d1 % of [ICON_PRODUCTION] to -[ICON_CRIME] and blocks all other [ICON_CRIME] change.</French>
+		<German>[ICON_BULLET]Converts %d1 % of [ICON_PRODUCTION] to -[ICON_CRIME] and blocks all other [ICON_CRIME] change.</German>
+		<Italian>[ICON_BULLET]Converts %d1 % of [ICON_PRODUCTION] to -[ICON_CRIME] and blocks all other [ICON_CRIME] change.</Italian>
+		<Spanish>[ICON_BULLET]Converts %d1 % of [ICON_PRODUCTION] to -[ICON_CRIME] and blocks all other [ICON_CRIME] change.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_ATTITUDE_SAME_RELIGION_NEG</Tag>
@@ -10858,12 +10858,12 @@ Exposure to others minds often causes befuddlement or confusion in the practitio
 		<Spanish>You have broken the Veil that was protecting the Once Elves from Erebus. Would you like to abandon your civilization and play as Haerlond Gosam instead?</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_</Tag>
-		<English></English>
-		<French></French>
-		<German></German>
-		<Italian></Italian>
-		<Spanish></Spanish>
+		<Tag>TXT_KEY_GOODY_EXPLORE_LAIR_ITEM_URN_ROTTING_FLESH</Tag>
+		<English>Your unit finds a vault hidden deep within the lair. Inside it, a simple pot, emitting an impossibly repulsive smell. Your unit takes it anyway.</English>
+		<French>Your unit finds a vault hidden deep within the lair. Inside it, a simple pot, emitting an impossibly repulsive smell. Your unit takes it anyway.</French>
+		<German>Your unit finds a vault hidden deep within the lair. Inside it, a simple pot, emitting an impossibly repulsive smell. Your unit takes it anyway.</German>
+		<Italian>Your unit finds a vault hidden deep within the lair. Inside it, a simple pot, emitting an impossibly repulsive smell. Your unit takes it anyway.</Italian>
+		<Spanish>Your unit finds a vault hidden deep within the lair. Inside it, a simple pot, emitting an impossibly repulsive smell. Your unit takes it anyway.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_</Tag>

@@ -14,6 +14,7 @@
 			<UnitArtStyleType></UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>0</bAIPlayable>
+			<DefaultRace>PROMOTION_GIANTKIN</DefaultRace>
 			<Cities>
 			<City>Jotunheim</City>
 			<City>Vindrastaed</City>
