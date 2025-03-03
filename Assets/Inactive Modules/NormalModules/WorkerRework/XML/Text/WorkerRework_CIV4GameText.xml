@@ -9,182 +9,85 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_STONE_TOOLS_1</Tag>
 		<English>Tools (Stone)</English>
-		<French>Text Here</French>
-		<German>Text Here</German>
-		<Italian>Text Here</Italian>
-		<Spanish>Text Here</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_COPPER_TOOLS</Tag>
-		<English>Tools (Copper)</English>
-		<French>Text Here</French>
-		<German>Text Here</German>
-		<Italian>Text Here</Italian>
-		<Spanish>Text Here</Spanish>
+		<French>Tools (Stone</French>
+		<German>Tools (Stone</German>
+		<Italian>Tools (Stone</Italian>
+		<Spanish>Tools (Stone</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_BRONZE_TOOLS</Tag>
 		<English>Tools (Bronze)</English>
-		<French>Text Here</French>
-		<German>Text Here</German>
-		<Italian>Text Here</Italian>
-		<Spanish>Text Here</Spanish>
+		<French>Tools (Bronze)</French>
+		<German>Tools (Bronze)e</German>
+		<Italian>Tools (Bronze)</Italian>
+		<Spanish>Tools (Bronze)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_IRON_TOOLS</Tag>
 		<English>Tools (Iron)</English>
-		<French>Text Here</French>
-		<German>Text Here</German>
-		<Italian>Text Here</Italian>
-		<Spanish>Text Here</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_STEEL_TOOLS</Tag>
-		<English>Tools (Steel)</English>
-		<French>Text Here</French>
-		<German>Text Here</German>
-		<Italian>Text Here</Italian>
-		<Spanish>Text Here</Spanish>
+		<French>Tools (Iron)</French>
+		<German>Tools (Iron)</German>
+		<Italian>Tools (Iron)</Italian>
+		<Spanish>Tools (Iron)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_MITHRIL_TOOLS</Tag>
 		<English>Tools (Mithril)</English>
-		<French>Text Here</French>
-		<German>Text Here</German>
-		<Italian>Text Here</Italian>
-		<Spanish>Text Here</Spanish>
+		<French>Tools (Mithril)</French>
+		<German>Tools (Mithril)</German>
+		<Italian>Tools (Mithril)</Italian>
+		<Spanish>Tools (Mithril)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_POWER_TOOLS</Tag>
 		<English>Tools (Powered)</English>
-		<French>Text Here</French>
-		<German>Text Here</German>
-		<Italian>Text Here</Italian>
-		<Spanish>Text Here</Spanish>
+		<French>Tools (Powered)</French>
+		<German>Tools (Powered)</German>
+		<Italian>Tools (Powered)</Italian>
+		<Spanish>Tools (Powered)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ENCHANTED_TOOLS</Tag>
 		<English>Tools (Enchanted)</English>
-		<French>Text Here</French>
-		<German>Text Here</German>
-		<Italian>Text Here</Italian>
-		<Spanish>Text Here</Spanish>
+		<French>Tools (Enchanted)e</French>
+		<German>Tools (Enchanted)</German>
+		<Italian>Tools (Enchanted)</Italian>
+		<Spanish>Tools (Enchanted)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GOBLIN_TOOLS</Tag>
+		<English>Tools (Goblin)</English>
+		<French>Tools (Goblin)</French>
+		<German>Tools (Goblin)</German>
+		<Italian>Tools (Goblin)</Italian>
+		<Spanish>Tools (Goblin)</Spanish>
 	</TEXT>
 	
+	
+	
+	
+	
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_WEAPON_TIER_7_7</Tag>
-		<English>[ICON_BULLET]Unit can only use Stone tools</English>
-		<French>[ICON_BULLET]L'unité peut utiliser des outils de pierre et d'obsidienne</French>
-		<German>[ICON_BULLET]Einheit kann Stein- und Obsidianwerkzeuge nutzen</German>
-		<Italian>[ICON_BULLET]Unit can use Stone and Obsidian tools</Italian>
-		<Spanish>[ICON_BULLET]Unit can use Stone and Obsidian tools</Spanish>
+		<Tag>TXT_KEY_PROMOTION_WATERLOGGED_TOOLS</Tag>
+		<English>Waterlogged Tools</English>
+		<French>Waterlogged Tools</French>
+		<German>Waterlogged Tools</German>
+		<Italian>Waterlogged Tools</Italian>
+		<Spanish>Waterlogged Tools</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_WEAPON_TIER_7_8</Tag>
-		<English>[ICON_BULLET]Unit can use Stone and Copper tools</English>
-		<French>[ICON_BULLET]L'unité peut utiliser des outils de pierre et d'obsidienne</French>
-		<German>[ICON_BULLET]Einheit kann Stein- und Obsidianwerkzeuge nutzen</German>
-		<Italian>[ICON_BULLET]Unit can use Stone and Obsidian tools</Italian>
-		<Spanish>[ICON_BULLET]Unit can use Stone and Obsidian tools</Spanish>
+		<Tag>TXT_KEY_PROMOTION_WATERPROOF_IRON_TOOLS</Tag>
+		<English>Tools (Waterproofed Iron)</English>
+		<French>Tools (Waterproofed Iron)</French>
+		<German>Tools (Waterproofed Iron)</German>
+		<Italian>Tools (Waterproofed Iron)</Italian>
+		<Spanish>Tools (Waterproofed Iron)</Spanish>
 	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_WEAPON_TIER_7_9</Tag>
-		<English>[ICON_BULLET]Unit can use Stone, Copper and Bronze tools</English>
-		<French>[ICON_BULLET]L'unité peut utiliser des outils de pierre, d'obsidienne voire de maître</French>
-		<German>[ICON_BULLET]Einheit kann Stein-, Obsidian- und Meisterwerkzeuge nutzen</German>
-		<Italian>[ICON_BULLET]Unit can use Stone, Obsidian, and Masterwork tools</Italian>
-		<Spanish>[ICON_BULLET]Unit can use Stone, Obsidian, and Masterwork tools</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_WEAPON_TIER_7_10</Tag>
-		<English>[ICON_BULLET]Unit can use Stone, Copper, Bronze and Iron tools</English>
-		<French>[ICON_BULLET]L'unité peut utiliser des outils de pierre, d'obsidienne voire de maître</French>
-		<German>[ICON_BULLET]Einheit kann Stein-, Obsidian- und Meisterwerkzeuge nutzen</German>
-		<Italian>[ICON_BULLET]Unit can use Stone, Obsidian, and Masterwork tools</Italian>
-		<Spanish>[ICON_BULLET]Unit can use Stone, Obsidian, and Masterwork tools</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_WEAPON_TIER_7_11</Tag>
-		<English>[ICON_BULLET]Unit can use Stone, Copper, Bronze, Iron and Steel tools</English>
-		<French>[ICON_BULLET]L'unité peut utiliser des outils de pierre, d'obsidienne voire de maître</French>
-		<German>[ICON_BULLET]Einheit kann Stein-, Obsidian- und Meisterwerkzeuge nutzen</German>
-		<Italian>[ICON_BULLET]Unit can use Stone, Obsidian, and Masterwork tools</Italian>
-		<Spanish>[ICON_BULLET]Unit can use Stone, Obsidian, and Masterwork tools</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_WEAPON_TIER_7_12</Tag>
-		<English>[ICON_BULLET]Unit can use Stone, Copper, Bronze, Iron, Steel and Mithril tools</English>
-		<French>[ICON_BULLET]L'unité peut utiliser des outils de pierre, d'obsidienne voire de maître</French>
-		<German>[ICON_BULLET]Einheit kann Stein-, Obsidian- und Meisterwerkzeuge nutzen</German>
-		<Italian>[ICON_BULLET]Unit can use Stone, Obsidian, and Masterwork tools</Italian>
-		<Spanish>[ICON_BULLET]Unit can use Stone, Obsidian, and Masterwork tools</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_WEAPON_TIER_7_13</Tag>
-		<English>[ICON_BULLET]Unit can use Stone, Copper, Bronze, Iron, Steel and Power tools</English>
-		<French>[ICON_BULLET]L'unité peut utiliser des outils de pierre, d'obsidienne voire de maître</French>
-		<German>[ICON_BULLET]Einheit kann Stein-, Obsidian- und Meisterwerkzeuge nutzen</German>
-		<Italian>[ICON_BULLET]Unit can use Stone, Obsidian, and Masterwork tools</Italian>
-		<Spanish>[ICON_BULLET]Unit can use Stone, Obsidian, and Masterwork tools</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_PREREQ_WEAPON_TIER_7</Tag>
-		<English>[ICON_BULLET]Basic Tier Tools</English>
-		<French>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</French>
-		<German>[ICON_BULLET]Erfordert Zugang zu Verzauberungsmana[NEWLINE][ICON_BULLET]Benötigt eine Einheit, die Meisterwerkzeuge nutzen kann.</German>
-		<Italian>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Italian>
-		<Spanish>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Spanish>
-		<bForceOverwrite>1</bForceOverwrite>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_PREREQ_WEAPON_TIER_8</Tag>
-		<English>[ICON_BULLET]Tier 2 Tools</English>
-		<French>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</French>
-		<German>[ICON_BULLET]Erfordert Zugang zu Verzauberungsmana[NEWLINE][ICON_BULLET]Benötigt eine Einheit, die Meisterwerkzeuge nutzen kann.</German>
-		<Italian>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Italian>
-		<Spanish>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Spanish>
-		<bForceOverwrite>1</bForceOverwrite>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_PREREQ_WEAPON_TIER_9</Tag>
-		<English>[ICON_BULLET]Tier 3 Tools</English>
-		<French>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</French>
-		<German>[ICON_BULLET]Erfordert Zugang zu Verzauberungsmana[NEWLINE][ICON_BULLET]Benötigt eine Einheit, die Meisterwerkzeuge nutzen kann.</German>
-		<Italian>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Italian>
-		<Spanish>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_PREREQ_WEAPON_TIER_10</Tag>
-		<English>[ICON_BULLET]Tier 4 Tools</English>
-		<French>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</French>
-		<German>[ICON_BULLET]Erfordert Zugang zu Verzauberungsmana[NEWLINE][ICON_BULLET]Benötigt eine Einheit, die Meisterwerkzeuge nutzen kann.</German>
-		<Italian>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Italian>
-		<Spanish>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_PREREQ_WEAPON_TIER_11</Tag>
-		<English>[ICON_BULLET]Tier 5 Tools</English>
-		<French>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</French>
-		<German>[ICON_BULLET]Erfordert Zugang zu Verzauberungsmana[NEWLINE][ICON_BULLET]Benötigt eine Einheit, die Meisterwerkzeuge nutzen kann.</German>
-		<Italian>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Italian>
-		<Spanish>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_PREREQ_WEAPON_TIER_12</Tag>
-		<English>[ICON_BULLET]Specialty Dwarwen Tools</English>
-		<French>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</French>
-		<German>[ICON_BULLET]Erfordert Zugang zu Verzauberungsmana[NEWLINE][ICON_BULLET]Benötigt eine Einheit, die Meisterwerkzeuge nutzen kann.</German>
-		<Italian>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Italian>
-		<Spanish>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_PREREQ_WEAPON_TIER_13</Tag>
-		<English>[ICON_BULLET]Specialty Mechanos Tools</English>
-		<French>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</French>
-		<German>[ICON_BULLET]Erfordert Zugang zu Verzauberungsmana[NEWLINE][ICON_BULLET]Benötigt eine Einheit, die Meisterwerkzeuge nutzen kann.</German>
-		<Italian>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Italian>
-		<Spanish>[ICON_BULLET]Requires access to Enchantment Mana[NEWLINE][ICON_BULLET]Requires unit is allowed to use Masterwork Tools</Spanish>
-	</TEXT>
+	
+	
+	
+	
+	
 	
 	
 	
@@ -207,5 +110,120 @@
 		<Spanish>Geomancer</Spanish>
 	</TEXT>
 	
+	
+	
+	
+	
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Tag>
+		<English>Unit can use Stone, Bronze, Iron and Mithril tools</English>
+		<French>Unit can use Stone, Bronze, Iron and Mithril tools</French>
+		<German>Unit can use Stone, Bronze, Iron and Mithril tools</German>
+		<Italian>Unit can use Stone, Bronze, Iron and Mithril tools</Italian>
+		<Spanish>Unit can use Stone, Bronze, Iron and Mithril tools</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WORKERTOOLSMECHANOS_HELP</Tag>
+		<English>Unit can use Stone, Bronze, Iron and Power tools, but can't use enchanted tools</English>
+		<French>Unit can use Stone, Bronze, Iron and Power tools, but can't use enchanted tools</French>
+		<German>Unit can use Stone, Bronze, Iron and Power tools, but can't use enchanted toolss</German>
+		<Italian>Unit can use Stone, Bronze, Iron and Power tools, but can't use enchanted tools</Italian>
+		<Spanish>Unit can use Stone, Bronze, Iron and Power tools, but can't use enchanted tools</Spanish>
+	</TEXT>
+	
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WORKERTOOLSGOBLIN_HELP</Tag>
+		<English>Unit can't use upgraded tools</English>
+		<French>Unit can't use upgraded tools</French>
+		<German>Unit can't use upgraded tools</German>
+		<Italian>Unit can't use upgraded tools</Italian>
+		<Spanish>Unit can't use upgraded tools</Spanish>
+	</TEXT>
+	
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_WORKERTOOLSBEZERI_HELP</Tag>
+		<English>Unit can use Stone, Bronze, and Mithril tools, but can only use iron tools if they are enchanted</English>
+		<French>Unit can use Stone, Bronze, and Mithril tools, but can only use iron tools if they are enchanted</French>
+		<German>Unit can use Stone, Bronze, and Mithril tools, but can only use iron tools if they are enchanted</German>
+		<Italian>Unit can use Stone, Bronze, and Mithril tools, but can only use iron tools if they are enchanted</Italian>
+		<Spanish>Unit can use Stone, Bronze, and Mithril tools, but can only use iron tools if they are enchanted</Spanish>
+	</TEXT>
+	
+	
+	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_STONE_TOOLS_HELP</Tag>
+		<English>Basic Tools</English>
+		<French>Basic Tools</French>
+		<German>Basic Tools</German>
+		<Italian>Basic Tools</Italian>
+		<Spanish>Basic Tools</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_BRONZE_TOOLS_HELP</Tag>
+		<English>Upgraded Tools</English>
+		<French>Upgraded Tools</French>
+		<German>Upgraded Tools</German>
+		<Italian>Upgraded Tools</Italian>
+		<Spanish>Upgraded Tools</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_IRON_TOOLS_HELP</Tag>
+		<English>Advanced Tools</English>
+		<French>Advanced Tools</French>
+		<German>Advanced Tools</German>
+		<Italian>Advanced Tools</Italian>
+		<Spanish>Advanced Tools</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MITHRIL_TOOLS_HELP</Tag>
+		<English>Masterwork Tools</English>
+		<French>Masterwork Tools</French>
+		<German>Masterwork Tools</German>
+		<Italian>Masterwork Tools</Italian>
+		<Spanish>Masterwork Tools</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_POWER_TOOLS_HELP</Tag>
+		<English>Exclusive to the Mechanos</English>
+		<French>Exclusive to the Mechanos</French>
+		<German>Exclusive to the Mechanos</German>
+		<Italian>Exclusive to the Mechanos</Italian>
+		<Spanish>Exclusive to the Mechanos</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ENCHANTED_TOOLS_HELP</Tag>
+		<English>Enchanted Tools</English>
+		<French>Enchanted Tools</French>
+		<German>Enchanted Tools</German>
+		<Italian>Enchanted Tools</Italian>
+		<Spanish>Enchanted Tools</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_GOBLIN_TOOLS_HELP</Tag>
+		<English>Goblins don't use advanced tools</English>
+		<French>Goblins don't use advanced tools</French>
+		<German>Goblins don't use advanced tools</German>
+		<Italian>Goblins don't use advanced tools</Italian>
+		<Spanish>Goblins don't use advanced tools</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_WATERPROOF_IRON_TOOLS_HELP</Tag>
+		<English>Enchanted Iron tools that can survive the depths</English>
+		<French>Enchanted Iron tools that can survive the depths</French>
+		<German>Enchanted Iron tools that can survive the depths</German>
+		<Italian>Enchanted Iron tools that can survive the depths</Italian>
+		<Spanish>Enchanted Iron tools that can survive the depths</Spanish>
+	</TEXT>
 	
 </Civ4GameText>

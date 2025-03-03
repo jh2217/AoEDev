@@ -25442,7 +25442,10 @@ void CvUnit::cast(int spell,CvPlot* pTargetPlot)
 				for (int j = -iRange; j <= iRange; ++j)
 				{
 					CvPlot* pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
-					pLoopPlot->setPlotEffectType(NO_PLOT_EFFECT);
+					if (pLoopPlot != NULL)
+					{
+						pLoopPlot->setPlotEffectType(NO_PLOT_EFFECT);
+					}
 				}
 			}
 		}

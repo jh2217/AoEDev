@@ -9,48 +9,54 @@
 		<UnitInfo>        <!-- Worker -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_WORKER</Type>
+			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
 			<iWorkRate>100</iWorkRate>
-			<iWeaponTierMin>7</iWeaponTierMin>
-			<iWeaponTierMax>11</iWeaponTierMax>
 		</UnitInfo>
 		<UnitInfo>        <!-- Operator -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_OPERATOR</Type>
+			<Help>TXT_KEY_UNIT_WORKERTOOLSMECHANOS_HELP</Help>
 			<iWorkRate>100</iWorkRate>
-			<iWeaponTierMin>7</iWeaponTierMin>
-			<iWeaponTierMax>13</iWeaponTierMax>
 		</UnitInfo>
 		<UnitInfo>        <!-- Malakim Worker -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_WORKER_MALAKIM</Type>
+			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
 			<iWorkRate>100</iWorkRate>
-			<iWeaponTierMin>7</iWeaponTierMin>
-			<iWeaponTierMax>11</iWeaponTierMax>
 		</UnitInfo>
 		<UnitInfo>        <!-- Lizard Worker  Mazatl/Cualli-->   <!--MAZATL-->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_WORKER_LIZARD</Type>
+			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
 			<iWorkRate>100</iWorkRate>
-			<iWeaponTierMin>7</iWeaponTierMin>
-			<iWeaponTierMax>11</iWeaponTierMax>
 		</UnitInfo>
 		<UnitInfo>        <!-- Familiar -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_FAMILIAR</Type>
+			<Help>TXT_KEY_UNIT_WORKERTOOLSGOBLIN_HELP</Help>
 			<iCost>10</iCost>
 			<iAdvancedStartCost>10</iAdvancedStartCost>
-			<iWorkRate>70</iWorkRate>
-			<iWeaponTierMin>7</iWeaponTierMin>
-			<iWeaponTierMax>7</iWeaponTierMax>
+			<iWorkRate>60</iWorkRate>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_GOBLIN_TOOLS</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
 		</UnitInfo>
 		<UnitInfo>        <!-- Gretchin -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_GRETCHIN</Type>
+			<Help>TXT_KEY_UNIT_WORKERTOOLSGOBLIN_HELP</Help>
 			<iCost>10</iCost>
 			<iAdvancedStartCost>10</iAdvancedStartCost>
-			<iWorkRate>70</iWorkRate>
-			<iWeaponTierMin>7</iWeaponTierMin>
-			<iWeaponTierMax>7</iWeaponTierMax>
+			<iWorkRate>90</iWorkRate>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_GOBLIN_TOOLS</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
 		</UnitInfo>
 		<UnitInfo>        <!-- Jotnar Citizen -->
 			<bTypeDependency>1</bTypeDependency>
@@ -59,9 +65,8 @@
 			</AndDependencyTypes>
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_JOT_ADULT</Type>
+			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
 			<iWorkRate>125</iWorkRate>
-			<iWeaponTierMin>7</iWeaponTierMin>
-			<iWeaponTierMax>11</iWeaponTierMax>
 		</UnitInfo>
 		
 		
@@ -75,6 +80,7 @@
 			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_KHAZAD_WORKER</Description>
 			<Civilopedia>TXT_KEY_UNIT_WORKER_PEDIA</Civilopedia>
+			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<bFood>1</bFood>
 			<bOnlyDefensive>1</bOnlyDefensive>
@@ -152,7 +158,7 @@
 			</Builds>
 			<iCost>75</iCost>
 			<iMoves>2</iMoves>
-			<iWorkRate>100</iWorkRate>
+			<iWorkRate>125</iWorkRate>
 			<iAsset>0</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -179,8 +185,6 @@
 			</FreePromotions>
 			<bFreeXP>1</bFreeXP>
 			<iTier>1</iTier>
-			<iWeaponTierMin>7</iWeaponTierMin>
-			<iWeaponTierMax>12</iWeaponTierMax>
 		</UnitInfo>
 		
 		
@@ -193,6 +197,7 @@
 			<Description>TXT_KEY_UNIT_MUD_GOLEM</Description>
 			<Civilopedia>TXT_KEY_UNIT_MUD_GOLEM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MUD_GOLEM_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<UnitAIs>
@@ -296,8 +301,6 @@
 			<bDisableUpgradeTo>1</bDisableUpgradeTo>
 			<iCombatDefense>2</iCombatDefense>
 			<iTier>1</iTier>
-			<iWeaponTierMin>7</iWeaponTierMin>
-			<iWeaponTierMax>12</iWeaponTierMax>
 		</UnitInfo>
 		
 		
@@ -323,6 +326,7 @@
 			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_GEOMANCER</Description>
 			<Civilopedia>TXT_KEY_UNIT_GEOMANCER</Civilopedia>
+			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<bFood>1</bFood>
 			<bOnlyDefensive>1</bOnlyDefensive>
@@ -503,13 +507,152 @@
 			</FreePromotions>
 			<bFreeXP>1</bFreeXP>
 			<iTier>1</iTier>
-			<iWeaponTierMin>7</iWeaponTierMin>
-			<iWeaponTierMax>11</iWeaponTierMax>
 		</UnitInfo>
 		
 		
 		
 		
+		
+		
+		<!-- Bezeri Worker-->
+
+		
+		<UnitInfo>        
+			<bTypeDependency>1</bTypeDependency>
+			<AndDependencyTypes>
+				<DependencyType>MODULE_VICIOUSSEAS</DependencyType>
+			</AndDependencyTypes>
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_WORKER_LIZARD_BEZERI</Type>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<Combat>UNITCOMBAT_WORKER</Combat>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_LIZARD_WORKER_SHORESHAPER</Description>
+			<Civilopedia>TXT_KEY_UNIT_WORKER_SHORESHAPER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_LIZARD_WORKER_SHORESHAPER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_WORKERTOOLSBEZERI_HELP</Help>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<bForceOverwrite>1</bForceOverwrite>
+			<bFood>1</bFood>
+			<bOnlyDefensive>1</bOnlyDefensive>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER_SEA</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_CORAL_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_HUNTING_REEF</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FISHING_BOATS_BEZERI</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_TRAIL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<iCost>75</iCost>
+			<iMoves>2</iMoves>
+			<iWorkRate>100</iWorkRate>
+			<iAsset>1</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>2</iGroupSize>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>2</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_WORKER_BEZERI</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_APTITUDE1</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_WATERLOGGED_TOOLS</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<bFreeXP>1</bFreeXP>
+			<iTier>1</iTier>
+		</UnitInfo>
+		
+	
+		
+		 
 		
 		
 	</UnitInfos>

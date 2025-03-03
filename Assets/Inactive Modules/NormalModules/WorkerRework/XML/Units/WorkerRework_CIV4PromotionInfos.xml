@@ -12,11 +12,11 @@
 		<PromotionInfo>		<!-- Stone Tools -->
 			<Type>PROMOTION_STONE_TOOLS</Type>
 			<Description>TXT_KEY_PROMOTION_STONE_TOOLS_1</Description>
+			<Help>TXT_KEY_PROMOTION_STONE_TOOLS_HELP</Help>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
 			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
-			<PrereqWeaponTier>7</PrereqWeaponTier>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
@@ -29,54 +29,22 @@
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
 		
-		
-		<PromotionInfo>		<!-- Copper Tools -->
-			<Type>PROMOTION_COPPER_TOOLS</Type>
-			<Description>TXT_KEY_PROMOTION_COPPER_TOOLS</Description>
-			<TechPrereq>TECH_MINING</TechPrereq>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-			</PromotionExcludes>
-			<PromotionOverwrites>
-				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-			</PromotionOverwrites>
-			<bAutoAcquire>1</bAutoAcquire>
-			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
-			<PrereqInCity>1</PrereqInCity>
-			<PrereqWeaponTier>8</PrereqWeaponTier>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<Button>Art/Interface/Buttons/Promotions/ObsidianTools.dds</Button>
-			<iWorkRateModify>15</iWorkRateModify>
-			<bValidate>1</bValidate>
-			<PrereqBonusANDs>
-				<PrereqBonus>BONUS_COPPER</PrereqBonus>
-			</PrereqBonusANDs>
-		</PromotionInfo>
-		
+
 		
 		<PromotionInfo>		<!-- Bronze Tools -->
 			<Type>PROMOTION_BRONZE_TOOLS</Type>
 			<Description>TXT_KEY_PROMOTION_BRONZE_TOOLS</Description>
-			<TechPrereq>TECH_BRONZE_WORKING</TechPrereq>
+			<Help>TXT_KEY_PROMOTION_BRONZE_TOOLS_HELP</Help>
 			<PromotionExcludes>
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-				<Promotion>PROMOTION_COPPER_TOOLS</Promotion>
 			</PromotionExcludes>
 			<PromotionOverwrites>
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-				<Promotion>PROMOTION_COPPER_TOOLS</Promotion>
 			</PromotionOverwrites>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
 			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
-			<PrereqWeaponTier>9</PrereqWeaponTier>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
@@ -84,7 +52,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/ObsidianTools.dds</Button>
-			<iWorkRateModify>30</iWorkRateModify>
+			<iWorkRateModify>25</iWorkRateModify>
 			<bValidate>1</bValidate>
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_COPPER</PrereqBonus>
@@ -95,22 +63,19 @@
 		<PromotionInfo>		<!-- Iron Tools -->
 			<Type>PROMOTION_IRON_TOOLS</Type>
 			<Description>TXT_KEY_PROMOTION_IRON_TOOLS</Description>
-			<TechPrereq>TECH_SMELTING</TechPrereq>
+			<Help>TXT_KEY_PROMOTION_IRON_TOOLS_HELP</Help>
 			<PromotionExcludes>
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-				<Promotion>PROMOTION_COPPER_TOOLS</Promotion>
 				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
 			</PromotionExcludes>
 			<PromotionOverwrites>
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-				<Promotion>PROMOTION_COPPER_TOOLS</Promotion>
 				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
 			</PromotionOverwrites>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
 			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
-			<PrereqWeaponTier>10</PrereqWeaponTier>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
@@ -118,86 +83,32 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/ObsidianTools.dds</Button>
-			<iWorkRateModify>45</iWorkRateModify>
+			<iWorkRateModify>50</iWorkRateModify>
 			<bValidate>1</bValidate>
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_IRON</PrereqBonus>
 			</PrereqBonusANDs>
 		</PromotionInfo>
 		
-		
-		<PromotionInfo>		<!-- Steel Tools -->
-			<Type>PROMOTION_STEEL_TOOLS</Type>
-			<Description>TXT_KEY_PROMOTION_STEEL_TOOLS</Description>
-			<TechPrereq>TECH_IRON_WORKING</TechPrereq>
-			<PrereqBuildingORs>
-				<PrereqBuilding>BUILDING_FORGE</PrereqBuilding>
-				<PrereqBuilding>BUILDING_ARCANE_FORGE</PrereqBuilding>
-				<PrereqBuilding>BUILDING_DWARVEN_SMITHY</PrereqBuilding>
-				<PrereqBuilding>BUILDING_FACTORY</PrereqBuilding>
-			</PrereqBuildingORs>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-				<Promotion>PROMOTION_COPPER_TOOLS</Promotion>
-				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
-				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
-			</PromotionExcludes>
-			<PromotionOverwrites>
-				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-				<Promotion>PROMOTION_COPPER_TOOLS</Promotion>
-				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
-				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
-			</PromotionOverwrites>
-			<bAutoAcquire>1</bAutoAcquire>
-			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
-			<PrereqInCity>1</PrereqInCity>
-			<PrereqWeaponTier>11</PrereqWeaponTier>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<Button>Art/Interface/Buttons/Promotions/MasterworkTools.dds</Button>
-			<iWorkRateModify>60</iWorkRateModify>
-			<bValidate>1</bValidate>
-			<PrereqBonusANDs>
-				<PrereqBonus>BONUS_IRON</PrereqBonus>
-			</PrereqBonusANDs>
-		</PromotionInfo>
-		
+
 		<PromotionInfo>		<!-- Mithril Tools -->
 			<Type>PROMOTION_MITHRIL_TOOLS</Type>
 			<Description>TXT_KEY_PROMOTION_MITHRIL_TOOLS</Description>
-			<TechPrereq>TECH_MITHRIL_WORKING</TechPrereq>
-			<PrereqCivilizations>
-				<PrereqCivilization>CIVILIZATION_KHAZAD</PrereqCivilization>
-				<PrereqCivilization>CIVILIZATION_LUCHUIRP</PrereqCivilization>
-			</PrereqCivilizations>
-			<PrereqBuildingORs>
-				<PrereqBuilding>BUILDING_DWARVEN_SMITHY</PrereqBuilding>
-				<PrereqBuilding>BUILDING_TINKERERS_WORKSHOP</PrereqBuilding>
-			</PrereqBuildingORs>
+			<Help>TXT_KEY_PROMOTION_MITHRIL_TOOLS_HELP</Help>
 			<PromotionExcludes>
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-				<Promotion>PROMOTION_COPPER_TOOLS</Promotion>
 				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
 				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
-				<Promotion>PROMOTION_STEEL_TOOLS</Promotion>
 			</PromotionExcludes>
 			<PromotionOverwrites>
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-				<Promotion>PROMOTION_COPPER_TOOLS</Promotion>
 				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
 				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
-				<Promotion>PROMOTION_STEEL_TOOLS</Promotion>
 			</PromotionOverwrites>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
 			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
-			<PrereqWeaponTier>12</PrereqWeaponTier>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
@@ -205,7 +116,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/MasterworkTools.dds</Button>
-			<iWorkRateModify>80</iWorkRateModify>
+			<iWorkRateModify>100</iWorkRateModify>
 			<bValidate>1</bValidate>
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MITHRIL</PrereqBonus>
@@ -215,29 +126,25 @@
 		<PromotionInfo>		<!-- Power Tools -->
 			<Type>PROMOTION_POWER_TOOLS</Type>
 			<Description>TXT_KEY_PROMOTION_POWER_TOOLS</Description>
+			<Help>TXT_KEY_PROMOTION_POWER_TOOLS_HELP</Help>
 			<TechPrereq>TECH_MACHINERY</TechPrereq>
 			<PrereqBuildingORs>
 				<PrereqBuilding>BUILDING_FACTORY</PrereqBuilding>
 			</PrereqBuildingORs>
 			<PromotionExcludes>
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-				<Promotion>PROMOTION_COPPER_TOOLS</Promotion>
 				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
 				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
-				<Promotion>PROMOTION_STEEL_TOOLS</Promotion>
 			</PromotionExcludes>
 			<PromotionOverwrites>
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
-				<Promotion>PROMOTION_COPPER_TOOLS</Promotion>
 				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
 				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
-				<Promotion>PROMOTION_STEEL_TOOLS</Promotion>
 			</PromotionOverwrites>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
 			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
-			<PrereqWeaponTier>13</PrereqWeaponTier>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
@@ -245,7 +152,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/MasterworkTools.dds</Button>
-			<iWorkRateModify>160</iWorkRateModify>
+			<iWorkRateModify>200</iWorkRateModify>
 			<bValidate>1</bValidate>
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_REFINED_MANA</PrereqBonus>
@@ -256,10 +163,7 @@
 		<PromotionInfo>		<!-- Enchanted Tools -->
 			<Type>PROMOTION_ENCHANTED_TOOLS</Type>
 			<Description>TXT_KEY_PROMOTION_ENCHANTED_TOOLS</Description>
-			<TechPrereq>TECH_ALTERATION</TechPrereq>
-			<PrereqBuildingORs>
-				<PrereqBuilding>BUILDING_MAGE_GUILD</PrereqBuilding>
-			</PrereqBuildingORs>
+			<Help>TXT_KEY_PROMOTION_ENCHANTED_TOOLS_HELP</Help>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
 			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
@@ -271,7 +175,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/Enchantedblade.dds</Button>
-			<iWorkRateModify>40</iWorkRateModify>
+			<iWorkRateModify>50</iWorkRateModify>
 			<bValidate>1</bValidate>
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_ENCHANTMENT</PrereqBonus>
@@ -315,6 +219,85 @@
 				<PrereqCivilization>CIVILIZATION_LUCHUIRP</PrereqCivilization>
 			</PrereqCivilizations>
         </PromotionInfo>
+		
+		
+		
+		
+	
+		<PromotionInfo>		<!-- Goblins don't use metal tools -->
+			<Type>PROMOTION_GOBLIN_TOOLS</Type>
+			<Description>TXT_KEY_PROMOTION_GOBLIN_TOOLS</Description>
+			<Help>TXT_KEY_PROMOTION_GOBLIN_TOOLS_HELP</Help>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
+				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
+				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
+				<Promotion>PROMOTION_MITHRIL_TOOLS</Promotion>
+				<Promotion>PROMOTION_ENCHANTED_TOOLS</Promotion>
+			</PromotionExcludes>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
+			<Button>Art/Interface/Buttons/Promotions/StoneTools.dds</Button>
+			<bValidate>1</bValidate>
+		</PromotionInfo>
+		
+	
+		<PromotionInfo>		<!-- Iron Doesn't work in water -->
+			<Type>PROMOTION_WATERLOGGED_TOOLS</Type>
+			<Description>TXT_KEY_PROMOTION_WATERLOGGED_TOOLS</Description>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
+			</PromotionExcludes>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
+			<Button>Art/Interface/Buttons/Units/WaterElemental.dds</Button>
+			<bValidate>1</bValidate>
+		</PromotionInfo>
+		
+		
+		
+		
+		<PromotionInfo>		<!-- Enchanted Iron Tools work in water-->
+			<Type>PROMOTION_WATERPROOF_IRON_TOOLS</Type>
+			<Description>TXT_KEY_PROMOTION_WATERPROOF_IRON_TOOLS</Description>
+			<Help>TXT_KEY_PROMOTION_WATERPROOF_IRON_TOOLS_HELP</Help>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_WATERLOGGED_TOOLS</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
+			<PrereqInCity>1</PrereqInCity>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Interface/Buttons/Promotions/ObsidianTools.dds</Button>
+			<iWorkRateModify>50</iWorkRateModify>
+			<bValidate>1</bValidate>
+			<PrereqBonusANDs>
+				<PrereqBonus>BONUS_IRON</PrereqBonus>
+				<PrereqBonus>BONUS_MANA_ENCHANTMENT</PrereqBonus>
+			</PrereqBonusANDs>
+		</PromotionInfo>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		

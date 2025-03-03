@@ -11665,5 +11665,22 @@
 			<Sound>AS3D_SPELL_REPAIR</Sound>
 			<Button>Art/Interface/Buttons/WorldBuilder/Cow.dds</Button>
 		</SpellInfo>
+				<SpellInfo>			<!-- Sacrifice  -->					
+			<Type>SPELL_SACRIFICE</Type>
+			<Description>TXT_KEY_SPELL_SACRIFICE</Description>
+			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
+			<Help>TXT_KEY_SPELL_SACRIFICE_HELP</Help>
+			<bAllowAI>1</bAllowAI>
+			<bInCityOnly>1</bInCityOnly>
+			<bHasCasted>1</bHasCasted>
+			<bSacrificeCaster>1</bSacrificeCaster>
+			<bAbility>1</bAbility>
+			<PyRequirement>reqSacrifice(pCaster)</PyRequirement>
+			<PyResult>spellSacrifice(pCaster)</PyResult>
+			<Effect>EFFECT_SACRIFICE</Effect>
+			<Sound>AS3D_SPELL_SACRIFICE</Sound>
+			<Button>Art/Interface/Buttons/Spells/Sacrifice.dds</Button>
+		</SpellInfo>
+
 		</SpellInfos>
 </Civ4SpellInfos>
