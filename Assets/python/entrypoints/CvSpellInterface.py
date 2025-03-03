@@ -3613,6 +3613,26 @@ def spellSacrificeSlaveCualli(caster):
 			return
 			
 
+def reqSacrifice(caster):
+	if caster.getFoodSacrifice()==0 and caster.getBeakerSacrifice()==0 and	caster.getCultureSacrifice()==0 and	caster.getGoldSacrifice()==0:
+		return False
+	return True	
+
+def spellSacrifice(caster):
+	pPlot=caster.plot()
+	pCity=pPlot.getPlotCity()
+	pPlayer = gc.getPlayer(caster.getOwner())
+	pTeam = gc.getTeam(pPlayer.getTeam())
+	
+	if(caster.getFoodSacrifice()!=0):
+		pCity.changeFood(caster.getFoodSacrifice())
+	if(caster.getBeakerSacrifice()!=0):
+		iTech = pPlayer.getCurrentResearch()
+		pTeam.changeResearchProgress(iTech, caster.getBeakerSacrifice(), caster.getOwner())
+	if(caster.getCultureSacrifice()!=0):
+		pCity.changeCulture(caster.getOwner(),caster.getCultureSacrifice(),True)
+	if(caster.getGoldSacrifice()!=0):
+		pPlayer.changeGold(caster.getGoldSacrifice())
 
 def reqPurify(caster):
 	pPlot = caster.plot()
@@ -10675,6 +10695,7 @@ def reqGustOfWind(pCaster):
 
 	for x, y in plotsInRange( pCaster.getX(), pCaster.getY(), iRange ):
 		pPlot = getPlot(x, y)
+		if pPlot==-1 : continue
 		if pPlot.isPeak(): continue
 		if pPlot.getPerceptionCost() > 0: return True
 	return False

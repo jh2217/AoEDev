@@ -36976,7 +36976,7 @@
 			<Description>TXT_KEY_PROMOTION_RELENTLESS_BOMBARDMENT</Description>
 			<Sound>NONE</Sound>
 			<PrereqTraits>
-				<PrereqTrait>TRAIT_DEMON_OF_THE_DEEP</PrereqTrait>
+				<PrereqTrait>TRAIT_DEMON_OF_THE_DEEP2</PrereqTrait>
 			</PrereqTraits>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
