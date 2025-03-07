@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Bart Muzzin (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Build Infos -->
+<Civ4BuildInfos xmlns="x-schema:WorkerRework_CIV4UnitSchema.xml">
+	<BuildInfos>
+	
+	
+		<BuildInfo> <!-- Fishing Boats Bezeri -->
+			<Type>BUILD_FISHING_BOATS_BEZERI</Type>
+			<Description>TXT_KEY_BUILD_FISHING_BOATS</Description>
+			<Help/>
+			<PrereqTech>NONE</PrereqTech>
+			<iTime>2000</iTime>
+			<iCost>0</iCost>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<RouteType>NONE</RouteType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs/>
+			<HotKey>KB_F</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>1</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Builds/BuildFishingBoats.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,7,7</Button>
+		</BuildInfo>
+	
+	
+	
+    </BuildInfos>
+</Civ4BuildInfos>

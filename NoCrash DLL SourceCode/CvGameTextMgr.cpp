@@ -548,7 +548,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		{
 			if (pUnit->baseCombatStr() == pUnit->baseCombatStrDefense())
 			{
-				szTempBuffer.Format(L"%.1f/%d", (((float)((pUnit->baseCombatStr() - iDif) * pUnit->currHitPoints())) / ((float)(pUnit->maxHitPoints()))), pUnit->baseCombatStr());
+				szTempBuffer.Format(L"%.1f/%d", (((float)((pUnit->baseCombatStr() - iDif) * pUnit->currHitPoints())) / ((float)(pUnit->maxHitPoints()))), pUnit->baseCombatStr()-iDif);
 			}
 			else
 			{
