@@ -7532,11 +7532,20 @@ def reqAustrinRemoteFound(caster):
 	if pPlot.isOwned() and pPlot.getOwner() != caster.getOwner():
 		return False
 
-	if pPlot.isCityRadius():
-		return False
-
 	if pPlot.isWater():
 		return False
+
+	iImprovement = pPlot.getImprovementType()
+	if iImprovement!=-1 and gc.getImprovementInfo(iImprovement).isUnique():
+			return False
+
+	iRange = gc.getMIN_CITY_RANGE()
+	getPlot	= CyMap().plot
+	for x, y in plotsInRange(pPlot.getX(), pPlot.getY(), iRange):
+		pLoopPlot = getPlot(x, y)
+		if not pLoopPlot.isNone():
+			if pLoopPlot.isCity():
+				return False
 
 	if not pPlayer.isHuman():
 		if pPlot.getFoundValue(pPlayer.getID()) < (pPlot.area().getBestFoundValue(pPlayer.getID()) * 2) / 3:
