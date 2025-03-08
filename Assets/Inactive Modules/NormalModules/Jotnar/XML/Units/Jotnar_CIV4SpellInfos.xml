@@ -1103,14 +1103,15 @@
 			<bBuffCasterOnly>1</bBuffCasterOnly>
 			<Button>Art/Interface/Buttons/Promotions/Spiritguide.dds</Button>
 		</SpellInfo>
-		<SpellInfo>			<!-- Soak -->
-			<Type>SPELL_SOAK</Type>
-			<Description>Soak</Description>
+		<SpellInfo>			<!-- Spring (Jotnar) -->
+			<Type>SPELL_JOT_SPRING</Type>
+			<Description>TXT_KEY_SPELL_SPRING</Description>
+			<Help>TXT_KEY_SPELL_SPRING_HELP</Help>
 			<Civilopedia>TXT_KEY_SPELL_SPRING_PEDIA</Civilopedia>
 			<PromotionPrereq1>PROMOTION_GIANTKIN</PromotionPrereq1>
 			<PromotionPrereq2>PROMOTION_SEAKIN</PromotionPrereq2>
-			<bAllowAI>0</bAllowAI>
-			<bIsAutoCastable>1</bIsAutoCastable>
+			<bAllowAI>1</bAllowAI>
+			<bIsAutoCastable>0</bIsAutoCastable>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>1</bHasCasted>
 			<iDelay>2</iDelay>
