@@ -41,11 +41,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>INTERFACE_GREAT_PERSON_CITY_TURNS</Tag>
-		<English>%s1: %s2 (%d3)</English>
-		<French>%s1: %s2 (%d3)</French>
-		<German>%s1: %s2 (%d3)</German>
-		<Italian>%s1: %s2 (%d3)</Italian>
-		<Spanish>%s1: %s2 (%d3)</Spanish>
+		<English>%s1: %s2 (%d3) %s4</English>
+		<French>%s1: %s2 (%d3) %s4</French>
+		<German>%s1: %s2 (%d3) %s4</German>
+		<Italian>%s1: %s2 (%d3) %s4</Italian>
+		<Spanish>%s1: %s2 (%d3) %s4</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>INTERFACE_GREAT_PERSON_TYPE_NOTIFICATION</Tag>
+		<English>(Needs GP type!)</English>
+		<French>(Needs GP type!)</French>
+		<German>(Needs GP type!)</German>
+		<Italian>(Needs GP type!)</Italian>
+		<Spanish>(Needs GP type!)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>INTERFACE_NEXT_GREAT_GENERAL_XP</Tag>

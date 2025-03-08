@@ -183,12 +183,15 @@ def createHoverText(pCity, iTurns):
 
 def getGreatPeopleText(pCity, iGPTurns, iGPBarWidth, bGPBarTypesNone, bGPBarTypesOne, bIncludeCityName):
 	sGreatPeopleChar = u"%c" % CyGame().getSymbolID(FontSymbols.GREAT_PEOPLE_CHAR)
+	sGPTypeReminder = ""
+	if iGPTurns < 1:
+		sGPTypeReminder = localText.getText("INTERFACE_GREAT_PERSON_TYPE_NOTIFICATION", ())
 	if (not pCity):
 		szText = localText.getText("INTERFACE_GREAT_PERSON_NONE", (sGreatPeopleChar, ))
 	elif (bGPBarTypesNone):
-		if (iGPTurns):
+		if (iGPTurns is not None):
 			if (bIncludeCityName):
-				szText = localText.getText("INTERFACE_GREAT_PERSON_CITY_TURNS", (sGreatPeopleChar, pCity.getName(), iGPTurns))
+				szText = localText.getText("INTERFACE_GREAT_PERSON_CITY_TURNS", (sGreatPeopleChar, pCity.getName(), iGPTurns, sGPTypeReminder))
 			else:
 				szText = localText.getText("INTERFACE_GREAT_PERSON_TURNS", (sGreatPeopleChar, iGPTurns))
 		else:
@@ -201,9 +204,9 @@ def getGreatPeopleText(pCity, iGPTurns, iGPBarWidth, bGPBarTypesNone, bGPBarType
 		pPlayer = gc.getPlayer(pCity.getOwner())
 		infoCiv = gc.getCivilizationInfo(pPlayer.getCivilizationType())
 		if (len(lPercents) == 0):
-			if (iGPTurns):
+			if (iGPTurns is not None):
 				if (bIncludeCityName):
-					szText = localText.getText("INTERFACE_GREAT_PERSON_CITY_TURNS", (sGreatPeopleChar, pCity.getName(), iGPTurns))
+					szText = localText.getText("INTERFACE_GREAT_PERSON_CITY_TURNS", (sGreatPeopleChar, pCity.getName(), iGPTurns, sGPTypeReminder))
 				else:
 					szText = localText.getText("INTERFACE_GREAT_PERSON_TURNS", (sGreatPeopleChar, iGPTurns))
 			else:
@@ -214,9 +217,9 @@ def getGreatPeopleText(pCity, iGPTurns, iGPBarWidth, bGPBarTypesNone, bGPBarType
 				iPercent, iUnitClass = lPercents[0]
 				iUnit = infoCiv.getCivilizationUnits(iUnitClass)
 				pInfo = gc.getUnitInfo(iUnit)
-				if (iGPTurns):
+				if (iGPTurns is not None):
 					if (bIncludeCityName):
-						szText = localText.getText("INTERFACE_GREAT_PERSON_CITY_TURNS", (pInfo.getDescription(), pCity.getName(), iGPTurns))
+						szText = localText.getText("INTERFACE_GREAT_PERSON_CITY_TURNS", (pInfo.getDescription(), pCity.getName(), iGPTurns, sGPTypeReminder))
 					else:
 						szText = localText.getText("INTERFACE_GREAT_PERSON_TURNS", (pInfo.getDescription(), iGPTurns))
 				else:
@@ -225,9 +228,9 @@ def getGreatPeopleText(pCity, iGPTurns, iGPBarWidth, bGPBarTypesNone, bGPBarType
 					else:
 						szText = unicode(pInfo.getDescription())
 			else:
-				if (iGPTurns):
+				if (iGPTurns is not None):
 					if (bIncludeCityName):
-						szText = localText.getText("INTERFACE_GREAT_PERSON_CITY_TURNS", (sGreatPeopleChar, pCity.getName(), iGPTurns))
+						szText = localText.getText("INTERFACE_GREAT_PERSON_CITY_TURNS", (sGreatPeopleChar, pCity.getName(), iGPTurns, sGPTypeReminder))
 					else:
 						szText = localText.getText("INTERFACE_GREAT_PERSON_TURNS", (sGreatPeopleChar, iGPTurns))
 				else:
