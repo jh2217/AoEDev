@@ -107,7 +107,7 @@
 			<fInterfaceScale>0.8</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Civs/Bezeri/Tidecaller/adept.nif</NIF>
+			<NIF>art/units/civs/bezeri/arcanetoad/adept.nif</NIF>
 			<KFM>Art/animations/warrior/warchief.kfm</KFM>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
@@ -132,7 +132,7 @@
 			<fInterfaceScale>0.8</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Civs/Bezeri/Tidecaller/mage.nif</NIF>
+			<NIF>art/units/civs/bezeri/arcanetoad/mage.nif</NIF>
 			<KFM>Art/animations/warrior/warchief.kfm</KFM>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
@@ -157,7 +157,7 @@
 			<fInterfaceScale>0.8</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Civs/Bezeri/Tidecaller/archmage.nif</NIF>
+			<NIF>art/units/civs/bezeri/arcanetoad/archmage.nif</NIF>
 			<KFM>Art/animations/warrior/warchief.kfm</KFM>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>

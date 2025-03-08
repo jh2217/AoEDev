@@ -21606,7 +21606,7 @@ bool CvUnit::canAcquirePromotion(PromotionTypes ePromotion,bool bMustMaintainChe
 			bValid = true;
 			for (int iI = 0; iI < iNumPrereqs; iI++)
 			{
-				if (plot()->getNumPromotion((PromotionTypes)GC.getPromotionInfo(ePromotion).getPrereqPromotionOnTile(iI), getOwner()) == 0)
+				if (plot()->getNumPromotion((PromotionTypes)GC.getPromotionInfo(ePromotion).getPrereqPromotionOnTile(iI),true, getOwner()) == 0)
 				{
 					bValid = false;
 					break;

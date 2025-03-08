@@ -498,8 +498,8 @@ class CvMainInterface:
 		global CurrentHUD
 		for Religion in RelInterfaces:
 
-			screen.addDDSGFC( str(Religion)+"InterfaceTopLeftBackgroundWidget", 'Art/Interface/Screens/'+str(Religion)+'/City_Center.tga', 258, 34, xResolution - (258 * 2), Fudge, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-			screen.addDDSGFC( str(Religion)+"InterfaceCenterLeftBackgroundWidget", 'Art/Interface/Screens/'+str(Religion)+'/City_Left.tga', 0, 34, 258, yResolution-180, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+			screen.addDDSGFC( str(Religion)+"InterfaceTopLeftBackgroundWidget", 'Art/Interface/Screens/'+str(Religion)+'/City_Center.tga', HUD_City_Left_Panel_Width, 34, xResolution - HUD_City_Left_Panel_Width - HUD_City_Right_Panel_Width, Fudge, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+			screen.addDDSGFC( str(Religion)+"InterfaceCenterLeftBackgroundWidget", 'Art/Interface/Screens/'+str(Religion)+'/City_Left.tga', 0, HUD_City_Top_Panel_Height, HUD_City_Left_Panel_Width, yResolution - HUD_City_Bottom_Center_Height - HUD_City_Top_Panel_Height, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 			screen.addDDSGFC( str(Religion)+"InterfaceCenterRightBackgroundWidget", 'Art/Interface/Screens/'+str(Religion)+'/City_Right.tga', xResolution - 258, 34, 258, yResolution-180, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 			screen.addDDSGFC( str(Religion)+"CityScreenTopWidget", 'Art/Interface/Screens/'+str(Religion)+'/City_TopBar.tga', 0, 0, xResolution, 34, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 			screen.addDDSGFC( str(Religion)+"CityNameBackground", 'Art/Interface/Screens/'+str(Religion)+'/City_Title.tga', 262, 34, xResolution - (262 * 2), 32, WidgetTypes.WIDGET_GENERAL, -1, -1 )
