@@ -2736,11 +2736,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SPRING_HELP</Tag>
-		<English>[ICON_BULLET]Turns a Desert tile into a Plains tile[NEWLINE][ICON_BULLET]Turns a Plains tile into a Grass tile[NEWLINE][ICON_BULLET]Turns a Grass tile into a Marsh tile[NEWLINE][ICON_BULLET]Turns a Taiga tile into a Marsh tile[NEWLINE][ICON_BULLET]For Cualli and Mazatl, adds a swamp on a marsh</English>
+		<English>[ICON_BULLET]Spring terraforms most terrain.[NEWLINE][ICON_BULLET]Desert->Plains->Grassland->Marsh[NEWLINE][ICON_BULLET]Taiga->Marsh[NEWLINE][ICON_BULLET]If Cuali or Mazatl: Adds swamp to marsh</English>
 		<French>[ICON_BULLET]Transforme un désert en plaine[NEWLINE][ICON_BULLET]Transforme une plaine en prairie[NEWLINE][ICON_BULLET]Transforme une prairie en marécage[NEWLINE][ICON_BULLET]Transforme une taïga en marécage[NEWLINE][ICON_BULLET]Pour les Cualli et les Mazatl, lancé sur un marécage, ajoute l'aménagement marais</French>
-		<German>[ICON_BULLET]Turns a Desert tile into a Plains tile[NEWLINE][ICON_BULLET]Turns a Plains tile into a Grass tile[NEWLINE][ICON_BULLET]Turns a Grass tile into a Marsh tile[NEWLINE][ICON_BULLET]Turns a Taiga tile into a Marsh tile[NEWLINE][ICON_BULLET]For Cualli and Mazatl, adds a swamp on a marsh</German>
-		<Italian>[ICON_BULLET]Turns a Desert tile into a Plains tile[NEWLINE][ICON_BULLET]Turns a Plains tile into a Grass tile[NEWLINE][ICON_BULLET]Turns a Grass tile into a Marsh tile[NEWLINE][ICON_BULLET]Turns a Taiga tile into a Marsh tile[NEWLINE][ICON_BULLET]For Cualli and Mazatl, adds a swamp on a marsh</Italian>
-		<Spanish>[ICON_BULLET]Turns a Desert tile into a Plains tile[NEWLINE][ICON_BULLET]Turns a Plains tile into a Grass tile[NEWLINE][ICON_BULLET]Turns a Grass tile into a Marsh tile[NEWLINE][ICON_BULLET]Turns a Taiga tile into a Marsh tile[NEWLINE][ICON_BULLET]For Cualli and Mazatl, adds a swamp on a marsh</Spanish>
+		<German>[ICON_BULLET]Spring terraforms most terrain.[NEWLINE][ICON_BULLET]Desert->Plains->Grassland->Marsh[NEWLINE][ICON_BULLET]Taiga->Marsh[NEWLINE][ICON_BULLET]If Cuali or Mazatl: Adds swamp to marsh</German>
+		<Italian>[ICON_BULLET]Spring terraforms most terrain.[NEWLINE][ICON_BULLET]Desert->Plains->Grassland->Marsh[NEWLINE][ICON_BULLET]Taiga->Marsh[NEWLINE][ICON_BULLET]If Cuali or Mazatl: Adds swamp to marsh</Italian>
+		<Spanish>[ICON_BULLET]Spring terraforms most terrain.[NEWLINE][ICON_BULLET]Desert->Plains->Grassland->Marsh[NEWLINE][ICON_BULLET]Taiga->Marsh[NEWLINE][ICON_BULLET]If Cuali or Mazatl: Adds swamp to marsh</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SPRING_M_HELP</Tag>
