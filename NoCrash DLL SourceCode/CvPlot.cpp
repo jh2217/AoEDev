@@ -7851,7 +7851,7 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 		{
 			GC.getMapINLINE().getArea(getArea())->changeNumEvilTiles(bEvilPre ? -1 : 1);
 		}
-		if (!GC.getGameINLINE().isOption(GAMEOPTION_NO_PLOT_COUNTER))
+		if (!GC.getGameINLINE().isOption(GAMEOPTION_NO_PLOT_COUNTER) && getTempTerrainTimer() < 0)
 		{
 			TerrainTypes terrainType = (TerrainTypes)getTerrainType();
 			FAssert(terrainType != NO_TERRAIN);
