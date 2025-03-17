@@ -1987,7 +1987,7 @@ void CvUnitAI::AI_settleMove()
 {
 	PROFILE_FUNC();
 
-	if (GET_PLAYER(getOwnerINLINE()).getNumCities() == 0)
+	if (GET_PLAYER(getOwnerINLINE()).getNumCities() == 0 && (GC.getGame().getGameTurn() > 4))
 	{
 		if (canFound(plot()))
 		{
