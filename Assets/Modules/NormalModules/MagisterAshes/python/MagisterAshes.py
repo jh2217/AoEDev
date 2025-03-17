@@ -22,7 +22,7 @@ def onBeginGameTurn(self, argsList):
 		'Called at the beginning of the end of each turn'
 		iGameTurn = argsList[0]
 		bPlayer = gc.getPlayer(gc.getDEMON_PLAYER())
-		if iGameTurn % (40- 5*CyGame().getGameSpeedType()) == 0 and not bPlayer.isHasFlag(gc.getInfoTypeForString('FLAG_DEAD_BADB')):
+		if (iGameTurn + 1) % (40- 5*CyGame().getGameSpeedType()) == 0 and not bPlayer.isHasFlag(gc.getInfoTypeForString('FLAG_DEAD_BADB')):
 			iRnd = 4 - CyGame().getGameSpeedType()
 			iBB = gc.getInfoTypeForString('IMPROVEMENT_BADBS_BLIZZARD')
 			lBB = cf.findImprovements(iBB)

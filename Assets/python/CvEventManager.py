@@ -2176,7 +2176,7 @@ class CvEventManager:
 							pUnit.addMinion(newUnit4)
 		
 		bPlayer = gc.getPlayer(gc.getDEMON_PLAYER())
-		if iGameTurn % (40- 5*CyGame().getGameSpeedType()) == 0 and not bPlayer.isHasFlag(gc.getInfoTypeForString('FLAG_CONTROLED_LACUNA')):
+		if (iGameTurn + 1) % (40- 5*CyGame().getGameSpeedType()) == 0 and not bPlayer.isHasFlag(gc.getInfoTypeForString('FLAG_CONTROLED_LACUNA')):
 			iRnd = 4 - CyGame().getGameSpeedType()
 			iBB = gc.getInfoTypeForString('IMPROVEMENT_BAIR_OF_LACUNA')
 			lBB = cf.findImprovements(iBB)
