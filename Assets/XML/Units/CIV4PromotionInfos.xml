@@ -34886,7 +34886,7 @@
 				<PrereqTrait>TRAIT_KEEPERS_SEPULCHER</PrereqTrait>
 			</PrereqTraits>
 			<Button>Art/Interface/Buttons/Promotions/Undeadslaying.dds</Button>
-									<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -34949,7 +34949,7 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_ODIO</PrereqTrait>
 			</PrereqTraits>
-									<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -35003,7 +35003,7 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_BRADELINE</PrereqTrait>
 			</PrereqTraits>
-						<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -35421,7 +35421,7 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_SIRONA</PrereqTrait>
 			</PrereqTraits>
-									<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -35442,7 +35442,7 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_CARCER</PrereqTrait>
 			</PrereqTraits>
-									<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -35572,7 +35572,7 @@
 				<Promotion>PROMOTION_COMMAND1</Promotion>
 				<Promotion>PROMOTION_COMMAND2</Promotion>
 			</PromotionAllows>
-		<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -35663,7 +35663,7 @@
 				<Promotion>PROMOTION_COMMAND3</Promotion>
 				<Promotion>PROMOTION_COMMAND4</Promotion>
 			</PromotionAllows>
-		<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -35684,7 +35684,7 @@
 			<CapturePromotions>
 				<PromotionType>PROMOTION_CHAINED_MIND</PromotionType>
 			</CapturePromotions>
-	<Affinities>
+			<Affinities>
 				<Affinity>AFFINITY_DOMINANT</Affinity>
 			</Affinities>
 		</PromotionInfo>

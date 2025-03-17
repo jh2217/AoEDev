@@ -2717,7 +2717,7 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_EYES</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_EYES_SHORT</ShortDescription>
-												<FreePromotions>
+			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_EYES</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -2765,7 +2765,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of Nature's Grave(Tomb of Sucellus) -->
 			<Type>TRAIT_KEEPERS_SUCELLUS</Type>
@@ -2775,7 +2774,7 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_SUCELLUS</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_SUCELLUS_SHORT</ShortDescription>
-									<FreePromotions>
+			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_SUCELLUS</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -2823,7 +2822,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of Earth's Memento (Standing Stones) -->
 			<Type>TRAIT_KEEPERS_STONES</Type>
@@ -2854,14 +2852,11 @@
 				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
-				
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
-				
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of the Lost Peace (Seven Pines) -->
 			<Type>TRAIT_KEEPERS_PINES</Type>
@@ -2933,7 +2928,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of the Frozen Passion (Ring of Carcer) -->
 			<Type>TRAIT_KEEPERS_CARCER</Type>
@@ -2950,12 +2944,10 @@
 				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
-				
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
-				
 			</FreePromotionUnitCombats>
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of Mankind's Ruins (Remnant of Patria) -->
@@ -3024,7 +3016,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of the Waters of Birth (Pool of Tears) -->
 			<Type>TRAIT_KEEPERS_POOL</Type>
@@ -3034,7 +3025,7 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_POOL</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_POOL_SHORT</ShortDescription>
-						<FreePromotions>
+			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_TEARS</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -3091,7 +3082,7 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_ODIO</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_ODIO_SHORT</ShortDescription>
-						<FreePromotions>
+			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_ODIO</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -3183,7 +3174,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of the Maelstrom (Maelstrom) -->
 			<Type>TRAIT_KEEPERS_MAELSTROM</Type>
@@ -3200,12 +3190,10 @@
 				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
-				
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
-				
 			</FreePromotionUnitCombats>
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of Winter's End (Letum frigus) -->
@@ -3247,7 +3235,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of the Stone Guardians (Pristin pass) -->
 			<Type>TRAIT_KEEPERS_PRISTIN</Type>
@@ -3276,14 +3263,14 @@
 			<bCanBeLost>1</bCanBeLost>
 			<Description>TXT_KEY_TRAIT_KEEPERS_BONES</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
-			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_BONES_SHORT</ShortDescription>								<FreePromotions>
+			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_BONES_SHORT</ShortDescription>
+			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_BONES</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
-				
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
@@ -3292,9 +3279,7 @@
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
-				
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of Storm's Crag(Cliff of Kelle) -->
 			<Type>TRAIT_KEEPERS_KELLE</Type>
@@ -3304,7 +3289,7 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_KELLE</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_KELLE_SHORT</ShortDescription>
-												<FreePromotions>
+			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_TALI</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -3352,14 +3337,13 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of Death's Shattered Jail (Broken Sepulcher) -->
 			<Type>TRAIT_KEEPERS_SEPULCHER</Type>
 			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
 			<iMinRequiredPoints>500</iMinRequiredPoints>
 			<bCanBeLost>1</bCanBeLost>
-						<FreePromotions>
+			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_SEPULCHER</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -3407,7 +3391,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 			<Description>TXT_KEY_TRAIT_KEEPERS_SEPULCHER</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_SEPULCHER_SHORT</ShortDescription>
@@ -3420,7 +3403,7 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_BRADELINE</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_BRADELINE_SHORT</ShortDescription>
-						<FreePromotions>
+			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_WELL</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -3468,7 +3451,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of the Undying's Lair (Bair of Lacuna) -->
 			<Type>TRAIT_KEEPERS_LACUNA</Type>
