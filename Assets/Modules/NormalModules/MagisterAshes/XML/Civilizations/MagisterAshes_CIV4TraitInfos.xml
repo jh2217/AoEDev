@@ -58,7 +58,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 			
 		<TraitInfo>		<!-- Keepers of the Eternal Blizzard (Badb's Wandering Castle ) -->
 			<Type>TRAIT_KEEPERS_BADB</Type>
@@ -116,7 +115,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo>
 		<TraitInfo>		<!-- Keepers of the Lord of Dust's Tomb (Grave of Asmoday) -->
 			<Type>TRAIT_KEEPERS_ASMODAY</Type>

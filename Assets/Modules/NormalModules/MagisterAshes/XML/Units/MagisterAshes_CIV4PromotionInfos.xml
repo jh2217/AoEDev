@@ -28,7 +28,7 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_ASMODAY</PrereqTrait>
 			</PrereqTraits>
-									<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -62,7 +62,6 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
-
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Keepers of the Locusts' Jail-->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_ABADDON</Type>
