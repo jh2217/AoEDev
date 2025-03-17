@@ -1948,10 +1948,10 @@ class CvEventManager:
 				if not Option["No Barbarians"]:
 					initUnit( ScorpClan["Archer"], pPlot.getX(), pPlot.getY(), iNoAI, iSouth)
 			if iImprovement == gc.getInfoTypeForString("IMPROVEMENT_WELL_OF_SOULS"):
-				for iX in range(pPlot.getX()-2, pPlot.getX()+3, 1):
-						for iY in range(pPlot.getY()-2, pPlot.getY()+3, 1):
-							pDangerousPlot = map.plot(iX, iY)
-							pDangerousPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_WASTELAND"),True,True)
+				for iX, iY in BFC:
+					pDangerousPlot = map.plot(pPlot.getX() + iX, pPlot.getY() + iY)
+					if not pDangerousPlot.isWater():
+						pDangerousPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_WASTELAND"),True,True)
 
 		for iPlayer in xrange(iMaxPlayers):
 			player = getPlayer(iPlayer)
