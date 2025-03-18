@@ -4955,26 +4955,27 @@ def spellBreakRottingFlesh(pCaster,id):
 def atRangeGuardian(pCaster, pPlot):
 	iX = pPlot.getX()
 	iY = pPlot.getY()
-	if pPlot.getNumUnits() == 0:
-		if CyGame().getGameTurn() > 20: #fixes a problem if units spawn next to the gargoyle
-			iPlayer = pCaster.getOwner()
-			if not gc.getPlayer(pCaster.getOwner()).isBarbarian():
-				bPlayer = gc.getPlayer(gc.getDEMON_PLAYER())
-				iUnit = getInfoType('UNIT_GARGOYLE')
-				newUnit1 = bPlayer.initUnit(iUnit, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-				newUnit1.changeStrBoost(3-CyGame().getSorenRandNum(10, "Gargoyle Weakening"))
-				newUnit1.setHasPromotion(getInfoType('PROMOTION_SHARD_COURAGE'), True)
-				newUnit1.setHasPromotion(getInfoType('PROMOTION_PRISTIN_LEASH'), True)
-				newUnit2 = bPlayer.initUnit(iUnit, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-				newUnit2.changeStrBoost(3-CyGame().getSorenRandNum(10, "Gargoyle Weakening"))
-				newUnit2.setHasPromotion(getInfoType('PROMOTION_SHARD_STRENGTH'), True)
-				newUnit2.setHasPromotion(getInfoType('PROMOTION_PRISTIN_LEASH'), True)
-				newUnit3 = bPlayer.initUnit(iUnit, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-				newUnit3.changeStrBoost(3-CyGame().getSorenRandNum(10, "Gargoyle Weakening"))
-				newUnit3.setHasPromotion(getInfoType('PROMOTION_SHARD_WISDOM'), True)
-				newUnit3.setHasPromotion(getInfoType('PROMOTION_PRISTIN_LEASH'), True)
-				CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_GUARDIAN", ()),'',1,gc.getUnitInfo(iUnit).getButton(),ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
-				pPlot.setPythonActive(False)
+	# if pPlot.getNumUnits() == 0: # Allow for gargoyles to spawn and push off units on the tile. Autokills fort commanders on it, but makes the event actually able to fire sensically...
+	# Delays trigger in case of spawning too near it
+	if CyGame().getGameTurn() > (10 * (1 + gc.getGame().isOption(GameOptionTypes.GAMEOPTION_THAW))) * gc.getGameSpeedInfo(gc.getGame().getGameSpeedType()).getGrowthPercent()/100:
+		iPlayer = pCaster.getOwner()
+		if not gc.getPlayer(iPlayer).isBarbarian():
+			pPlot.setPythonActive(False) # Turn off trigger first so that gargoyles don't multispawn when units are shunted off of the pass
+			bPlayer = gc.getPlayer(gc.getDEMON_PLAYER())
+			iUnit = getInfoType('UNIT_GARGOYLE')
+			newUnit1 = bPlayer.initUnit(iUnit, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+			newUnit1.changeStrBoost(3-CyGame().getSorenRandNum(10, "Gargoyle Weakening"))
+			newUnit1.setHasPromotion(getInfoType('PROMOTION_SHARD_COURAGE'), True)
+			newUnit1.setHasPromotion(getInfoType('PROMOTION_PRISTIN_LEASH'), True)
+			newUnit2 = bPlayer.initUnit(iUnit, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+			newUnit2.changeStrBoost(3-CyGame().getSorenRandNum(10, "Gargoyle Weakening"))
+			newUnit2.setHasPromotion(getInfoType('PROMOTION_SHARD_STRENGTH'), True)
+			newUnit2.setHasPromotion(getInfoType('PROMOTION_PRISTIN_LEASH'), True)
+			newUnit3 = bPlayer.initUnit(iUnit, iX, iY, UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+			newUnit3.changeStrBoost(3-CyGame().getSorenRandNum(10, "Gargoyle Weakening"))
+			newUnit3.setHasPromotion(getInfoType('PROMOTION_SHARD_WISDOM'), True)
+			newUnit3.setHasPromotion(getInfoType('PROMOTION_PRISTIN_LEASH'), True)
+			CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_GUARDIAN", ()),'',1,gc.getUnitInfo(iUnit).getButton(),ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
 
 def atRangeCitadel(pCaster, pPlot):
 	iPlayer = pPlot.getOwner()
