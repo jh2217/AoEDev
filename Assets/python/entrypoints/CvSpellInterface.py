@@ -14301,42 +14301,7 @@ def helpCommanderPicker(argsList):
 		elif len(listCommander) < 1:
 			szHelp = localText.getText("You shouldn't see this, ping T_W in AoE discord", ())
 		return szHelp
-		
-# SPELL_REBUILD_FORT
-def reqRebuildFort(pCaster):
-	pPlot			= pCaster.plot()
-	iPlayer			= pCaster.getOwner()
-	pPlayer			= gc.getPlayer(pCaster.getOwner())
-	pTeam			= gc.getTeam(pPlayer.getTeam())
-	pCiv			= gc.getCivilizationInfo(pPlayer.getCivilizationType())
-	iFortCommander	= pCiv.getCivilizationUnits(getInfoType('UNITCLASS_FORT_COMMANDER'))
-	iRange			= 2
-	if iFortCommander == -1: # Can't cast if civ has no access to Fort Commanders
-		return False
-	for x, y in plotsInRange(pCaster.getX(),pCaster.getY(),iRange): # Can't cast if enemies nearby
-		pLoopPlot		= CyMap().plot(x,y)
-		for i in xrange(pLoopPlot.getNumUnits()):
-			pUnit		= pLoopPlot.getUnit(i)
-			p2Player	= gc.getPlayer(pUnit.getOwner())
-			i2Team		= p2Player.getTeam()
-			if pTeam.isAtWar(i2Team) == True:
-				return False
-	for i in range(pPlot.getNumUnits()): # Can't cast if fort commander alive
-		pUnit	= pPlot.getUnit(i)
-		if pUnit.getUnitClassType() == getInfoType("UNITCLASS_FORT_COMMANDER"):
-			return False
-	if pPlot.getImprovementType() != -1:
-		if gc.getImprovementInfo(pPlot.getImprovementType()).isFort(): # Can't appoint fort commander without fort
-			if pPlot.getImprovementOwner() == iPlayer: # Can't cast if improvement not owned by caster
-				return True
-	return False
 
-def spellRebuildFort(pCaster):
-	pPlot			= pCaster.plot()
-	pPlayer			= gc.getPlayer(pCaster.getOwner())
-	pCiv			= gc.getCivilizationInfo(pPlayer.getCivilizationType())
-	iFortCommander	= pCiv.getCivilizationUnits(getInfoType('UNITCLASS_FORT_COMMANDER'))
-	newUnit			= pPlayer.initUnit(iFortCommander, pCaster.getX(), pCaster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
 def ReqLairImmortal(argsList):
 	pUnit, pPlot		= argsList
 	if pUnit.isAlive():
