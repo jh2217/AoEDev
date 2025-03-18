@@ -32897,6 +32897,7 @@ bool CvUnit::claimFort()
 		eUnit = (UnitTypes)GC.getUnitClassInfo((UnitClassTypes)iUnitClass).getDefaultUnitIndex();
 	}
 	pUnit = GET_PLAYER(getOwnerINLINE()).initUnit(eUnit, getX_INLINE(), getY_INLINE(), NO_UNITAI, DIRECTION_NORTH);
+	pUnit->finishMoves();
 
 	//if (GC.getCivilizationInfo(getCivilizationType()).getDefaultRace() != NO_PROMOTION)
 	//{
