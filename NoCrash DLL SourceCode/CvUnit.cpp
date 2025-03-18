@@ -29123,7 +29123,7 @@ void CvUnit::changeDamageTypeResist(DamageTypes eIndex, int iChange)
 	}
 }
 
-int CvUnit::countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool bTeam)
+int CvUnit::countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool bTeam, bool bAny)
 {
 	CLLNode<IDInfo>* pUnitNode;
 	CvUnit* pLoopUnit;
@@ -29144,14 +29144,17 @@ int CvUnit::countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool b
 					if (bTeam && pLoopUnit->getTeam() == getTeam())
 					{
 						iCount += 1;
+						if (bAny) return 1;
 					}
 					if (bEnemy && atWar(pLoopUnit->getTeam(), getTeam()))
 					{
 						iCount += 1;
+						if (bAny) return 1;
 					}
 					if (bNeutral && pLoopUnit->getTeam() != getTeam() && !atWar(pLoopUnit->getTeam(), getTeam()))
 					{
 						iCount += 1;
+						if (bAny) return 1;
 					}
 				}
 			}
@@ -32865,15 +32868,16 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 					return false;
 				}
 			}
-			else if (pPlot->getImprovementOwner() == getOwnerINLINE()) //It's already ours
-			{
-				return false;
-			}
 		}
+		// Can't set up commander if adjacent foes
+		if (countUnitsWithinRange(1, true, false, false, true) > 0)
+		{
+			return false;
+		}
+
 		return true;
 	}
 	return false;
-
 }
 
 bool CvUnit::claimFort()

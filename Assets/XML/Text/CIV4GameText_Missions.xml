@@ -51,11 +51,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISSION_CLAIM_FORT_HELP</Tag>
-		<English>Appoints Fort Commander</English>
-		<French>Crée un commandant sur le fort</French>
-		<German>Ernennt Fort Kommandanten</German>
-		<Italian>Appoints Fort Commander</Italian>
-		<Spanish>Appoints Fort Commander</Spanish>
+		<English>Appoints Fort Commander. Requires no adjacent foes.</English>
+		<French>Crée un commandant sur le fort. Requires no adjacent foes.</French>
+		<German>Ernennt Fort Kommandanten. Requires no adjacent foes.</German>
+		<Italian>Appoints Fort Commander. Requires no adjacent foes.</Italian>
+		<Spanish>Appoints Fort Commander. Requires no adjacent foes.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_GOODY_ZOMBIE</Tag>

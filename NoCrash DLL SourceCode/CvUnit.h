@@ -1636,7 +1636,7 @@ public:
 	int getTotalDamageTypeCombat() const;
 	int getDamageTypeResist(DamageTypes eIndex) const;
 	void changeDamageTypeResist(DamageTypes eIndex, int iChange);
-	int countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool bTeam);
+	int countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool bTeam, bool bAny = false);
 	int getWorkRateModify() const;
 	void changeWorkRateModify(int iChange);
 	CvPlot* getOpenPlot() const;
