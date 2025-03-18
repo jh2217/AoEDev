@@ -11217,7 +11217,7 @@ bool CvUnit::build(BuildTypes eBuild)
 			{
 				if (GC.getImprovementInfo((ImprovementTypes) GC.getBuildInfo(eBuild).getImprovement()).isFort())
 				{
-					claimFort();
+					claimFort(true);
 				}
 				else
 				{
@@ -32838,6 +32838,11 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 		pPlot = plot();
 	}
 
+	if (GET_PLAYER(getOwnerINLINE()).getGold() < GC.getMissionInfo(MISSION_CLAIM_FORT).getGoldCost() * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent() / 100)
+	{
+		return false;
+	}
+
 	if (NO_IMPROVEMENT != pPlot->getImprovementType() && GC.getImprovementInfo(pPlot->getImprovementType()).isFort())
 	{
 		if (bTestVisible)
@@ -32880,11 +32885,16 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 	return false;
 }
 
-bool CvUnit::claimFort()
+bool CvUnit::claimFort(bool bBuilt)
 {
 	if (!canClaimFort(plot()))
 	{
 		return false;
+	}
+
+	if (!bBuilt)
+	{
+		GET_PLAYER(getOwnerINLINE()).changeGold(-GC.getMissionInfo(MISSION_CLAIM_FORT).getGoldCost() * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent() / 100);
 	}
 
 	CvUnit* pUnit;

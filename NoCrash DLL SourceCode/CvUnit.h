@@ -1693,7 +1693,7 @@ public:
 /**							and one for the explore_lair action									**/
 /*************************************************************************************************/
 	bool canClaimFort(CvPlot* pPlot = NULL, bool bTestVisible = false);
-	bool claimFort();
+	bool claimFort(bool bBuilt = false);
 	bool canExploreLair(CvPlot* pPlot = NULL, bool bTestVisible = false);
 	bool exploreLair(CvPlot* pPlot = NULL);
 /*************************************************************************************************/
