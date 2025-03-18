@@ -911,12 +911,12 @@ def HauntedLandsEffects(pCaster):
 			if pCaster.getDamage() >= 20:
 				setHasPromo(Race["Undead"], True)
 				setHasPromo(iEstranged, True)
-				CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_HAUNTED_LANDS_TURN_UNDEAD", ()),'',3,'Art/Interface/Buttons/Promotions/races/Undead.dds',ColorTypes(8),pCaster.getX(),pCaster.getY(),True,True)
+				CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_HAUNTED_LANDS_TURN_UNDEAD", ()),'',3,'Art/Interface/Buttons/Promotions/races/Undead.dds',ColorTypes(7),pCaster.getX(),pCaster.getY(),True,True)
 				return
 
 			iRnd = randNum(100, "Haunted Lands Effects 2")
 			if iRnd < 30:
-				CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_HAUNTED_LANDS_TAKEN_TOLL", ()),'',3,'Art/Interface/Buttons/TerrainFeatures/haunted.dds',ColorTypes(8),pCaster.getX(),pCaster.getY(),True,True)
+				CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_HAUNTED_LANDS_TAKEN_TOLL", ()),'',3,'Art/Interface/Buttons/TerrainFeatures/haunted.dds',ColorTypes(7),pCaster.getX(),pCaster.getY(),True,True)
 				iRnd2 = randNum(17, "Haunted Lands Effects 3")
 				if iRnd2 <= 2:
 					setHasPromo(iUnwholesomeAddiction, True)
