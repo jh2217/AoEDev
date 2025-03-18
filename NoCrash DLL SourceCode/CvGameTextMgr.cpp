@@ -4086,19 +4086,19 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 	case DOMAIN_LAND:
 		bValid = !(pPlot->isWater());
 
-//FfH: Added by Kael 12/23/2008
 		if (pAttacker != NULL)
 		{
-			if (pAttacker->canMoveAllTerrain())
+			// FfH Kael
+			if (pAttacker->canMoveAllTerrain() || pAttacker->isBoarding())
 			{
 				bValid = true;
 			}
-			if (pAttacker->isBoarding())
+			// For Pirate Harbor and the like. Bezeri cities...?
+			else if (pPlot->isCity() || (pPlot->getImprovementType() != NO_IMPROVEMENT && GC.getImprovementInfo(pPlot->getImprovementType()).isActsAsCity()))
 			{
 				bValid = true;
 			}
 		}
-//FfH: End Add
 
 		break;
 
