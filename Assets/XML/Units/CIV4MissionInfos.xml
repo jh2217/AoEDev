@@ -842,6 +842,7 @@
 			<Help>TXT_KEY_MISSION_CLAIM_FORT_HELP</Help>
 			<Waypoint>NONE</Waypoint>
 			<EntityEventType>ENTITY_EVENT_BUILD</EntityEventType>
+			<iTime>10</iTime>
 			<iGoldCost>20</iGoldCost>
 			<bTarget>0</bTarget>
 			<bBuild>0</bBuild>
