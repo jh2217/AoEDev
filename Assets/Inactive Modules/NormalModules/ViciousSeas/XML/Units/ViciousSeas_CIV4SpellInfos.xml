@@ -11,7 +11,8 @@
 			<Description>TXT_KEY_SUNKEN_CITY</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
 			<Help>TXT_KEY_SPELL_SUNKEN_CITY_HELP</Help>
-			<PromotionPrereq1>PROMOTION_SINKING</PromotionPrereq1>
+			<PromotionPrereq1>PROMOTION_SINKING_BEZERI</PromotionPrereq1>
+			<bSacrificeCaster>1</bSacrificeCaster>
 			<bAllowAI>1</bAllowAI>
 			<iAIWeight>300</iAIWeight>
 			<bIsAutoCastable>1</bIsAutoCastable>

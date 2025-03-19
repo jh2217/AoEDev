@@ -8,14 +8,14 @@ ElfnDeath
 ;Note: it have to be number, so only numberic characters and none or one period
 ;note: one line
 [version]
-1.2
+1.3
 ;
 ;
 ;RifE version - version of RifE for which is this module tested, checked, developed, etc
 ;Note: it have to be number, so only numberic characters and none or one period
 ;note: one line
 [rifeversion]
-375
+376
 ;
 ;
 ;Author - you
@@ -48,6 +48,11 @@ Deathward T3 spell protects against all death damage, and Arawn's Embrace locks 
 - Once Elves Unique Buildings.
 
 - Added Waldrun as a leader with new emergent trait focused on binding souls for Laroth.
+
+V1.3 
+Dullahan from Waldruns T3 gain the Adept subclass. I'm sure it will be very balanced.
+Clean up some of Waldruns Emergent trait triggers.
+Added support for Disciples in Soulbinder.
 
 V1.2
 Added soul binder emergent trait to Waldrun, replacing Skiamancer.

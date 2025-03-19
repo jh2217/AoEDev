@@ -77,29 +77,24 @@ def onBeginGameTurn(self, argsList):
 							if iFeature == Feature["Forest"] or iFeature == Feature["Ancient Forest"]:
 								iChance = iMistChance * 5
 								if randNum(1000, "Mist") < iChance :
-									pPlot.setMistChangeTemp(4)
-									pPlot.setMistChangeTimer(scale(3))
+									pPlot.setPlotEffectType(gc.getInfoTypeForString("PLOT_EFFECT_MIST"))
 						        ###The Mist can not spread outside the forests(I dont know if this makes more work or less for the game)
 							if not iFeature == Feature["Forest"] and not iFeature == Feature["Ancient Forest"]:
 								iChance = iMistChance * 0.0
 								if randNum(1000, "Mist") < iChance:
-									pPlot.setMistChangeTemp(4)
-									pPlot.setMistChangeTimer(scale(3))
+									pPlot.setPlotEffectType(gc.getInfoTypeForString("PLOT_EFFECT_MIST"))
 						        ###The Mist will not spread through...Other Mists?(does this do anything?)
 							if iFeature == gc.getInfoTypeForString("FEATURE_MIST"):
 								iChance = iMistChance * 0.0
 								if randNum(1000, "Mist") < iChance:
-									pPlot.setMistChangeTemp(4)
-									pPlot.setMistChangeTimer(scale(3))
+									pPlot.setPlotEffectType(gc.getInfoTypeForString("PLOT_EFFECT_MIST"))
 						        ###The Woods are destroyed, the Mist Vanishes.
 							if not iFeature == Feature["Forest"] and not iFeature == Feature["Ancient Forest"]:
 								iChance = iMistChance * 10
 								if randNum(1000, "Mist") < iChance:
-									pPlot.setMistChangeTemp(0)
-									pPlot.setMistChangeTimer(scale(0))
+									pPlot.setPlotEffectType(gc.getInfoTypeForString("NO_PLOT_EFFECT"))
 						        ###Set fire to the woods also banishes the Mist
 							if iImprovement == gc.getInfoTypeForString("IMPROVEMENT_SMOKE"):
 								iChance = iMistChance * 10
 								if randNum(1000, "Mist") < iChance:
-									pPlot.setMistChangeTemp(0)
-									pPlot.setMistChangeTimer(scale(0))
+									pPlot.setPlotEffectType(gc.getInfoTypeForString("NO_PLOT_EFFECT"))

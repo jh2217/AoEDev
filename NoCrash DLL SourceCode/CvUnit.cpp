@@ -24381,7 +24381,7 @@ bool CvUnit::canCreateUnit(int spell, CvPlot* pTargetPlot) const
 	{
 		return false;
 	}
-	if (pTargetPlot->isPeak() && !GC.getUnitInfo((UnitTypes)GC.getSpellInfo((SpellTypes)spell).getCreateUnitType()).isCanClimbPeaks())
+	if (pTargetPlot->isPeak() && !GC.getUnitInfo((UnitTypes)GC.getSpellInfo((SpellTypes)spell).getCreateUnitType()).isCanClimbPeaks() && !GC.getUnitInfo((UnitTypes)GC.getSpellInfo((SpellTypes)spell).getCreateUnitType()).isCanMoveAllTerrain())
 	{
 		return false;
 	}

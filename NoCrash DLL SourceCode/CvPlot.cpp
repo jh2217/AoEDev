@@ -4202,7 +4202,7 @@ int CvPlot::defenseModifier(TeamTypes eDefender, bool bIgnoreBuilding, bool bHel
 
 	if (eImprovement != NO_IMPROVEMENT)
 	{
-		if (eDefender != NO_TEAM && (getTeam() == NO_TEAM || GET_TEAM(eDefender).isFriendlyTerritory(getTeam())))
+		if ( getTeam() == NO_TEAM|| eDefender == NO_TEAM || (eDefender != NO_TEAM && GET_TEAM(eDefender).isFriendlyTerritory(getTeam())))
 		{
 			iModifier += GC.getImprovementInfo(eImprovement).getDefenseModifier();
 		}

@@ -19932,6 +19932,7 @@
 			<Class>UNITCLASS_MARKSMAN</Class>
 			<Type>UNIT_FLURRY</Type>
 			<Combat>UNITCOMBAT_ARCHER</Combat>
+			<iExtraPerception>3</iExtraPerception>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FLURRY</Description>
 			<Civilopedia>TXT_KEY_UNIT_FLURRY_PEDIA</Civilopedia>

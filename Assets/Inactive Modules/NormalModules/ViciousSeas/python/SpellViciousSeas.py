@@ -136,6 +136,8 @@ def reqSurging(caster):
 	pPlot = caster.plot()
 	if pPlot.isWater():
 		return False
+	if not pPlot.isAdjacentToWater():
+                return False
 	if pPlot.isCity():
 		return False
 	if pPlot.isPeak():

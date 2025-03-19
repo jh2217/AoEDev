@@ -8,14 +8,14 @@ ViciousSeas
 ;Note: it have to be number, so only numberic characters and none or one period
 ;note: one line
 [version]
-1.2
+1.5
 ;
 ;
 ;RifE version - version of RifE for which is this module tested, checked, developed, etc
 ;Note: it have to be number, so only numberic characters and none or one period
 ;note: one line
 [rifeversion]
-375
+376
 ;
 ;
 ;Author - you
@@ -48,9 +48,9 @@ Added special unit promotions available to those who have claimed these sea fort
 
 Added Coral Reef resource (more to come).
 
-Allowed Jeteye, Whale,Bleeding God Wine and Fish resources in Deep Sea.
+Allowed resources in Deep Sea.
 
-Also lowered some special sea resources spawn rates to compinsate for how big the sea is now.
+Also lowered some special sea resources spawn rates to compensate for how big the sea is now.
 =============================================
 Intended Balance - If you feel that any changes do no fit the intended balance, or feel that the intended balance is wrong and the dev should feel bad, feel free to yell at me on the Ashes of Erebus Discord:
 
@@ -68,8 +68,30 @@ Trade routes become available at optics, the final tier of research (astronomy),
 
 Bezeri are not supposed to be overpowered, if they are pulling an "illians" and stomping every game, let me know what you think is imbalanced about them so I can tackle it!
 
+V1.5
+Fixed the promotion Sinking sharing names with Scionhealthcare promotions 
+Added 5% bonus culture to Coral.
+Bezeri animals are offended by the idea of being cargo transport; dragon turtles can now get in the Pokéball.
+Bezeri Fort Commanders now drown when using Create Aquatic City.
+Added missing ModuleInfo (thank you, The360MlgNoscoper).
+Erosion is a part of nature; however, the spell still needs to respect the Amurite world spell.
+Kelp is awesome. Growing kelp is for all leaf worshipers, not just Bezeri sushi chefs.
+Drowned get water wings.
+Drowns in lairs were inviting fellow demons to hang out with them; other demons now realize that drowns are losers and their home smells like fish.
+Hunting Reefs redoubles efforts to find resources. 1/3000 per turn > 1/2500 per turn.
+Tidecallers found their missing pants, clothing 0 > 1 (this is a buff).
+Kraken Spawn are less skilled at water balloon fights; Water Mana Affinity +2 > +1.
+Sinking land with surging tides now requires water, who knew.
+Demons are real pals and still showed up for the drowns crappy parties, so we called their parents and now they are forbidden from hanging around such bad influences.
+Skaa'raj Strength 4 > 5 so the other recon stop laughing at him.
+Bezeri Palace +1 > +3 Hammers, it is now hammer time.
+Shark Hunters updated their strategic info resume to help them achieve gainful imployment.
+Bunyip Swarms, Schools, Serpent Broods and Kin-Bonded Sea Drakes all stopped listening to Rage Against the Machine and now accept their roles as expendable fodder to be absorded by a soulless Body III corperation.
+Added a few new lair results to be found in water lairs and sunken ships.
+
+
 V1.4
-Skaa'Raj taken out back and beaten to within an inch of his life:
+Skaa'Raj taken out back and beaten to within an inch of his life again:
 -Rech req hunting > Tracking
 -Removed Subdue Beast and Animal promotions
 Skaa'Raj's Coral Curio Beast and animal capture chance 25% > 33%
@@ -92,7 +114,7 @@ Changed bezeri weakness from -25 cold to -25 lightning to avoid the Lanun worlds
 Fixed dependency with DynRel module.
 
 V1.2 
-Got carried away, added a civilization
+Got carried away, added a civilization.
 Nerfed abandoned lighthouse guardian kraken summons by adding a leash of 3.
 Divers realize that the shiny balls in the clams are valuable, Pearl revealed to everyone.
 

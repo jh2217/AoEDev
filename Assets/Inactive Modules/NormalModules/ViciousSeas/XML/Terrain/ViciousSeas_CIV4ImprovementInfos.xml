@@ -177,7 +177,7 @@
 					<BonusType>BONUS_FISH</BonusType>
 					<bBonusMakesValid>0</bBonusMakesValid>
 					<bBonusTrade>0</bBonusTrade>
-					<iDiscoverRand>3000</iDiscoverRand>
+					<iDiscoverRand>2500</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
@@ -189,7 +189,7 @@
 					<BonusType>BONUS_CRAB</BonusType>
 					<bBonusMakesValid>0</bBonusMakesValid>
 					<bBonusTrade>0</bBonusTrade>
-					<iDiscoverRand>3000</iDiscoverRand>
+					<iDiscoverRand>2500</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
@@ -201,7 +201,7 @@
 					<BonusType>BONUS_SHRIMP</BonusType>
 					<bBonusMakesValid>0</bBonusMakesValid>
 					<bBonusTrade>0</bBonusTrade>
-					<iDiscoverRand>3000</iDiscoverRand>
+					<iDiscoverRand>2500</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
@@ -213,7 +213,7 @@
 					<BonusType>BONUS_WHALE</BonusType>
 					<bBonusMakesValid>0</bBonusMakesValid>
 					<bBonusTrade>0</bBonusTrade>
-					<iDiscoverRand>3000</iDiscoverRand>
+					<iDiscoverRand>2500</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
@@ -225,7 +225,7 @@
 					<BonusType>BONUS_JETEYE</BonusType>
 					<bBonusMakesValid>0</bBonusMakesValid>
 					<bBonusTrade>0</bBonusTrade>
-					<iDiscoverRand>3000</iDiscoverRand>
+					<iDiscoverRand>2500</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
@@ -237,7 +237,7 @@
 					<BonusType>BONUS_PEARL</BonusType>
 					<bBonusMakesValid>0</bBonusMakesValid>
 					<bBonusTrade>0</bBonusTrade>
-					<iDiscoverRand>3000</iDiscoverRand>
+					<iDiscoverRand>2500</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
@@ -249,7 +249,7 @@
 					<BonusType>BONUS_CORAL_REEF</BonusType>
 					<bBonusMakesValid>0</bBonusMakesValid>
 					<bBonusTrade>0</bBonusTrade>
-					<iDiscoverRand>3000</iDiscoverRand>
+					<iDiscoverRand>2500</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
@@ -675,14 +675,6 @@
 			<bWater>1</bWater>
 			<GoodyClasses>
 				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_GENERIC_MINOR</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_DEMONIC_MINOR</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
 					<GoodyClassType>GOODYCLASS_WATER_MINOR</GoodyClassType>
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
@@ -733,27 +725,11 @@
 			<bWater>1</bWater>
 			<GoodyClasses>
 				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_GENERIC_MINOR</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_GENERIC_MODERATE</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
 					<GoodyClassType>GOODYCLASS_WATER_MINOR</GoodyClassType>
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
 				<GoodyClass>
 					<GoodyClassType>GOODYCLASS_WATER_MODERATE</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_DEMONIC_MINOR</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_DEMONIC_MODERATE</GoodyClassType>
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
 			</GoodyClasses>
@@ -806,18 +782,6 @@
 			<bWater>1</bWater>
 			<GoodyClasses>
 				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_GENERIC_MINOR</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_GENERIC_MODERATE</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_GENERIC_MAJOR</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
 					<GoodyClassType>GOODYCLASS_WATER_MINOR</GoodyClassType>
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
@@ -827,18 +791,6 @@
 				</GoodyClass>
 				<GoodyClass>
 					<GoodyClassType>GOODYCLASS_WATER_MAJOR</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_DEMONIC_MINOR</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_DEMONIC_MODERATE</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_DEMONIC_MAJOR</GoodyClassType>
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
 			</GoodyClasses>

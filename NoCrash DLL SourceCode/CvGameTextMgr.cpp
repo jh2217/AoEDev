@@ -16851,12 +16851,12 @@ void CvGameTextMgr::setBasicUnitHelp(CvWStringBuffer &szBuffer, UnitTypes eUnit,
 	if (GC.getUnitInfo(eUnit).getEnemyWithdrawalProbability() > 0)
 	{
 		szBuffer.append(NEWLINE);
-		szBuffer.append(gDLL->getText("TXT_KEY_UNIT_ENNEMY_WITHDRAWAL_PROB", GC.getUnitInfo(eUnit).getEnemyWithdrawalProbability()));
+		szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_ENNEMY_WITHDRAWAL_TEXT", GC.getUnitInfo(eUnit).getEnemyWithdrawalProbability()));
 	}
 	if (GC.getUnitInfo(eUnit).getEnemyWithdrawalProbability() < 0)
 	{
 		szBuffer.append(NEWLINE);
-		szBuffer.append(gDLL->getText("TXT_KEY_UNIT_DECREASE_ENNEMY_WITHDRAWAL_PROB", (-1*GC.getUnitInfo(eUnit).getEnemyWithdrawalProbability())));
+		szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_DECREASE_ENNEMY_WITHDRAWAL_TEXT", (-1*GC.getUnitInfo(eUnit).getEnemyWithdrawalProbability())));
 	}
 
 /*************************************************************************************************/

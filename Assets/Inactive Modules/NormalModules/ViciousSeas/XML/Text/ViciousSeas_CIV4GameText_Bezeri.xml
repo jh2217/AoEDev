@@ -394,6 +394,74 @@ When they are not currently needed elsewhere, the Temachtiani like to gather in 
 		<Spanish>Shark Hunters</Spanish>
 	</TEXT>
 	<TEXT>
+	<Tag>TXT_KEY_UNIT_SHARK_HUNTER_STRATEGY</Tag>
+		<English>Shark Hunters are an all-in aggressive unit, very out of place for the usual archer defensive playstyle-if you sit a Shark Hunter on a hill and try to hold it like a regular archer, they will die almost instantly.
+
+With their base 2 movement and poison weapons, they are much better suited to hit-and-run tactics, dodging between the land and sea to evade counterattacks. Because of this, they benefit a lot from Mobility 1 and 2 when you unlock horseback riding.
+
+On top of that, they also are able to use the rare interaction of Blitz and ranged attacks, allowing you to fire multiple times per turn and then attack in!
+
+Another tactic is to use them as the artillery line for a traditional army, guardsmen promoted spearmen keeping thieves and assassins at bay as they whittle down defenders with high ranged damage.
+
+You may also use your Body 1 mages to boost their movement even further.
+
+Shark hunters have a high 35% damage cap on ranged damage, and Serpent hunters cap at 60%! This can bring even the chunkiest kraken into strike range if you bring enough firepower.
+		
+		</English>
+		<French>Shark Hunters are an all-in aggressive unit, very out of place for the usual archer defensive playstyle-if you sit a Shark Hunter on a hill and try to hold it like a regular archer, they will die almost instantly.
+
+With their base 2 movement and poison weapons, they are much better suited to hit-and-run tactics, dodging between the land and sea to evade counterattacks. Because of this, they benefit a lot from Mobility 1 and 2 when you unlock horseback riding.
+
+On top of that, they also are able to use the rare interaction of Blitz and ranged attacks, allowing you to fire multiple times per turn and then attack in!
+
+Another tactic is to use them as the artillery line for a traditional army, guardsmen promoted spearmen keeping thieves and assassins at bay as they whittle down defenders with high ranged damage.
+
+You may also use your Body 1 mages to boost their movement even further.
+
+Shark hunters have a high 35% damage cap on ranged damage, and Serpent hunters cap at 60%! This can bring even the chunkiest kraken into strike range if you bring enough firepower.
+		
+		</French>
+		<German>Shark Hunters are an all-in aggressive unit, very out of place for the usual archer defensive playstyle-if you sit a Shark Hunter on a hill and try to hold it like a regular archer, they will die almost instantly.
+
+With their base 2 movement and poison weapons, they are much better suited to hit-and-run tactics, dodging between the land and sea to evade counterattacks. Because of this, they benefit a lot from Mobility 1 and 2 when you unlock horseback riding.
+
+On top of that, they also are able to use the rare interaction of Blitz and ranged attacks, allowing you to fire multiple times per turn and then attack in!
+
+Another tactic is to use them as the artillery line for a traditional army, guardsmen promoted spearmen keeping thieves and assassins at bay as they whittle down defenders with high ranged damage.
+
+You may also use your Body 1 mages to boost their movement even further.
+
+Shark hunters have a high 35% damage cap on ranged damage, and Serpent hunters cap at 60%! This can bring even the chunkiest kraken into strike range if you bring enough firepower.
+		
+		</German>
+		<Italian>Shark Hunters are an all-in aggressive unit, very out of place for the usual archer defensive playstyle-if you sit a Shark Hunter on a hill and try to hold it like a regular archer, they will die almost instantly.
+
+With their base 2 movement and poison weapons, they are much better suited to hit-and-run tactics, dodging between the land and sea to evade counterattacks. Because of this, they benefit a lot from Mobility 1 and 2 when you unlock horseback riding.
+
+On top of that, they also are able to use the rare interaction of Blitz and ranged attacks, allowing you to fire multiple times per turn and then attack in!
+
+Another tactic is to use them as the artillery line for a traditional army, guardsmen promoted spearmen keeping thieves and assassins at bay as they whittle down defenders with high ranged damage.
+
+You may also use your Body 1 mages to boost their movement even further.
+
+Shark hunters have a high 35% damage cap on ranged damage, and Serpent hunters cap at 60%! This can bring even the chunkiest kraken into strike range if you bring enough firepower.
+		
+		</Italian>
+		<Spanish>Shark Hunters are an all-in aggressive unit, very out of place for the usual archer defensive playstyle-if you sit a Shark Hunter on a hill and try to hold it like a regular archer, they will die almost instantly.
+
+With their base 2 movement and poison weapons, they are much better suited to hit-and-run tactics, dodging between the land and sea to evade counterattacks. Because of this, they benefit a lot from Mobility 1 and 2 when you unlock horseback riding.
+
+On top of that, they also are able to use the rare interaction of Blitz and ranged attacks, allowing you to fire multiple times per turn and then attack in!
+
+Another tactic is to use them as the artillery line for a traditional army, guardsmen promoted spearmen keeping thieves and assassins at bay as they whittle down defenders with high ranged damage.
+
+You may also use your Body 1 mages to boost their movement even further.
+
+Shark hunters have a high 35% damage cap on ranged damage, and Serpent hunters cap at 60%! This can bring even the chunkiest kraken into strike range if you bring enough firepower.
+		
+		</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_SHARK_HUNTER_PEDIA</Tag>
 		<English>The Tlacamichini, or 'Shark Hunters,' are the archery line for the Bezeri; they are unusual as they start with Blitz and can use ranged attacks repeatedly before attacking (if they have sufficient movement); these are your all-rounders and attack dogs.</English>
 		<French>The Tlacamichini, or 'Shark Hunters,' are the archery line for the Bezeri; they are unusual as they start with Blitz and can use ranged attacks repeatedly before attacking (if they have sufficient movement); these are your all-rounders and attack dogs.</French>
@@ -726,6 +794,14 @@ The Bezeri found a loophole to contain the serpents self-destruction, even defyi
 		<German>Coral Curio</German>
 		<Italian>Coral Curio</Italian>
 		<Spanish>Coral Curio</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NO_FREE_RIDES</Tag>
+		<English>No Free Rides</English>
+		<French>No Free Rides</French>
+		<German>No Free Rides</German>
+		<Italian>No Free Rides</Italian>
+		<Spanish>No Free Rides</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_EQUIPMENT_CORAL_CURIO_PEDIA</Tag>

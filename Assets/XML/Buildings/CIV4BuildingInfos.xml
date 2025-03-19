@@ -19265,6 +19265,12 @@
 					<fTrainXPRate>1.00</fTrainXPRate>
 				</TrainXPRate>
 			</TrainXPRates>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>10</iFlavor>
+				</Flavor>
+			</Flavors>
 		</BuildingInfo>
 		<BuildingInfo>		<!-- Military School2 											Bannor Instructor UB -->
 			<BuildingClass>BUILDINGCLASS_MILITARY_SCHOOL_EXT</BuildingClass>
@@ -19339,7 +19345,12 @@
 					<fTrainXPCap>20</fTrainXPCap>
 				</TrainXPCap>
 			</TrainXPCaps>
-			
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_MILITARY</FlavorType>
+					<iFlavor>10</iFlavor>
+				</Flavor>
+			</Flavors>
 		</BuildingInfo>
 		<BuildingInfo>		<!-- Pixie Garden                                                     Spell -->
 			<BuildingClass>BUILDINGCLASS_PIXIE_GARDEN</BuildingClass>

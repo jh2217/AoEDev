@@ -11113,11 +11113,12 @@ def spellReturnCattle(pCaster):
 	
 def reqDriveCattle(pCaster):
 	pPlot = pCaster.plot()
+	pOwner=gc.getPlayer(pCaster.getOwner())
 	if(pPlot.isOwned() and not pPlot.getOwner()==pCaster.getOwner()):
 		return False
 	if pCaster.isHasPromotion(getInfoType('PROMOTION_LEADING_CATTLE')):
 		return False
-	if pPlot.getBonusType(-1) == Bonus["Cow"] or pPlot.getBonusType(-1)==getInfoType("BONUS_SHEEP")or pPlot.getBonusType(-1)==getInfoType("BONUS_PIG")or pPlot.getBonusType(-1)==getInfoType("BONUS_HORSE")or pPlot.getBonusType(-1)==getInfoType("BONUS_HYAPON")or pPlot.getBonusType(-1)==getInfoType("BONUS_NIGHTMARE")or pPlot.getBonusType(-1)==getInfoType("BONUS_CAMEL"):
+	if pPlot.getBonusType(pOwner.getTeam()) == Bonus["Cow"] or pPlot.getBonusType(pOwner.getTeam())==getInfoType("BONUS_SHEEP")or pPlot.getBonusType(pOwner.getTeam())==getInfoType("BONUS_PIG")or pPlot.getBonusType(pOwner.getTeam())==getInfoType("BONUS_HORSE")or pPlot.getBonusType(pOwner.getTeam())==getInfoType("BONUS_HYAPON")or pPlot.getBonusType(pOwner.getTeam())==getInfoType("BONUS_NIGHTMARE")or pPlot.getBonusType(pOwner.getTeam())==getInfoType("BONUS_CAMEL"):
 		return True
 
 def spellDriveCattle(pCaster):
@@ -11150,7 +11151,6 @@ def spellDriveCattle(pCaster):
 def spellSettleCattle(pCaster):
 	pPlot = pCaster.plot()
 	iCattle = getInfoType('PROMOTION_STOLEN_CATTLE')
-	pPlot.setBonusType(Bonus["Cow"])
 	pCaster.setHasPromotion(getInfoType('PROMOTION_LEADING_CATTLE'), False)
 	if pCaster.isHasPromotion(getInfoType('PROMOTION_LEADING_COW')):
 		pPlot.setBonusType(getInfoType("BONUS_COW"))

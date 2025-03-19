@@ -97,7 +97,7 @@
 		</SpellInfo>
 		<SpellInfo>			<!-- Death 3  - Arawns Embrace -->
 			<Type>SPELL_ARAWNS_EMBRACE</Type>
-			<Description>TXT_KEY_ARAWNS_EMBRACE</Description>
+			<Description>TXT_KEY_SPELL_ARAWNS_EMBRACE</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
 			<Help>TXT_KEY_SPELL_ARAWNS_EMBRACE_HELP</Help>
 			<SpellClasses>
@@ -170,11 +170,12 @@
 			<PrereqTraits>
 			   <PrereqTrait>TRAIT_SOULBINDER3</PrereqTrait>
 			</PrereqTraits>
-			<UnitPrereq>UNIT_ARCHMAGE</UnitPrereq>
+			<UnitClassPrereq>UNITCLASS_ARCHMAGE</UnitClassPrereq>
             <iCasterMinLevel>10</iCasterMinLevel>
             <bHasCasted>1</bHasCasted>
 			<AddPromotions>
 				<AddPromotion>PROMOTION_GREATER_SOULBINDER</AddPromotion>
+				<AddPromotion>PROMOTION_SECONDARY_ARCANE</AddPromotion>
 			</AddPromotions>
 			<RemovePromotions>
 				<RemovePromotion>PROMOTION_SOULBINDER</RemovePromotion>

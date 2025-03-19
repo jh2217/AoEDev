@@ -8,7 +8,7 @@
 <Civ4TraitTriggerInfos xmlns="x-schema:ElfnDeath_CIV4CivilizationsSchema.xml">
 	<TraitTriggerInfos>
 		<TraitTriggerInfo> <!-- Build               Death Mana                                  Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_BUILD_MANA_DEATH</Type>
+			<Type>TRAITTRIGGER_BUILD_MANA_DEATH_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -21,11 +21,11 @@
 			<PrereqImprovementType>IMPROVEMENT_MANA_DEATH</PrereqImprovementType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Build               Shadow Mana                                 Soul Binder, Necromancer,Skiamancer -->
-			<Type>TRAITTRIGGER_BUILD_MANA_SHADOW</Type>
+			<Type>TRAITTRIGGER_BUILD_MANA_SHADOW_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
-					<iModifier>10</iModifier>
+					<iModifier>25</iModifier>
 				</CounterChange>
 			</CounterChanges>
 			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
@@ -34,7 +34,7 @@
 			<PrereqImprovementType>IMPROVEMENT_MANA_SHADOW</PrereqImprovementType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Cast                Raise Skeleton                              Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_CAST_RAISE_SKELETON</Type>
+			<Type>TRAITTRIGGER_CAST_RAISE_SKELETON_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -46,34 +46,8 @@
 			
 			<PrereqSpellType>SPELL_RAISE_SKELETON</PrereqSpellType>
 		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Cast                Summon Spectre                              Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_CAST_SUMMON_SPECTRE</Type>
-			<CounterChanges>
-				<CounterChange>
-					<TraitType>TRAIT_SOULBINDER</TraitType>
-					<iModifier>5</iModifier>
-				</CounterChange>
-			</CounterChanges>
-			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
-			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
-			
-			<PrereqSpellType>SPELL_SUMMON_SPECTRE</PrereqSpellType>
-		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Cast                Summon Wraith                               Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_CAST_SUMMON_WRAITH</Type>
-			<CounterChanges>
-				<CounterChange>
-					<TraitType>TRAIT_SOULBINDER</TraitType>
-					<iModifier>12</iModifier>
-				</CounterChange>
-			</CounterChanges>
-			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
-			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
-			
-			<PrereqSpellType>SPELL_SUMMON_WRAITH</PrereqSpellType>
-		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Cast                Lichdom                                     Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_CAST_LICHDOM</Type>
+			<Type>TRAITTRIGGER_CAST_LICHDOM_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -85,60 +59,8 @@
 			
 			<PrereqSpellType>SPELL_LICHDOM</PrereqSpellType>
 		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Cast                Summon Sceadugengan	                        Soul Binder, Skiamancer -->
-			<Type>TRAITTRIGGER_CAST_SUMMON_SCEADUGENGAN</Type>
-			<CounterChanges>
-				<CounterChange>
-					<TraitType>TRAIT_SKIAMANCER</TraitType>
-					<iModifier>2</iModifier>
-				</CounterChange>
-			</CounterChanges>
-			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
-			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
-			
-			<PrereqSpellType>SPELL_SUMMON_SCEADUGENGAN</PrereqSpellType>
-		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Cast                Blur	                            		Soul Binder, Skiamancer -->
-			<Type>TRAITTRIGGER_CAST_BLUR</Type>
-			<CounterChanges>
-				<CounterChange>
-					<TraitType>TRAIT_SOULBINDER</TraitType>
-					<iModifier>2</iModifier>
-				</CounterChange>
-			</CounterChanges>
-			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
-			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
-			
-			<PrereqSpellType>SPELL_BLUR</PrereqSpellType>
-		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Cast                Shadowwalk	                            	Soul  binder, Skiamancer -->
-			<Type>TRAITTRIGGER_CAST_SHADOWWALK</Type>
-			<CounterChanges>
-				<CounterChange>
-					<TraitType>TRAIT_SOULBINDER</TraitType>
-					<iModifier>5</iModifier>
-				</CounterChange>
-			</CounterChanges>
-			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
-			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
-			
-			<PrereqSpellType>SPELL_SHADOWWALK</PrereqSpellType>
-		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Cast                Summon Mistform	                            Soul Binder, Skiamancer -->
-			<Type>TRAITTRIGGER_CAST_SUMMON_MISTFORM</Type>
-			<CounterChanges>
-				<CounterChange>
-					<TraitType>TRAIT_SOULBINDER</TraitType>
-					<iModifier>12</iModifier>
-				</CounterChange>
-			</CounterChanges>
-			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
-			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
-			
-			<PrereqSpellType>SPELL_SUMMON_MISTFORM</PrereqSpellType>
-		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Construct           Tower of Necromancy                         Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_CONSTRUCT_TOWER_OF_NECROMANCY</Type>
+			<Type>TRAITTRIGGER_CONSTRUCT_TOWER_OF_NECROMANCY_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -151,7 +73,7 @@
 			<PrereqBuildingClassType>BUILDINGCLASS_TOWER_OF_NECROMANCY</PrereqBuildingClassType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Change Religion     To Esus                                 	Soul Binder, Skiamancer -->
-			<Type>TRAITTRIGGER_CONVERT_ESUS</Type>
+			<Type>TRAITTRIGGER_CONVERT_ESUS_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -164,7 +86,7 @@
 			<PrereqReligion>RELIGION_COUNCIL_OF_ESUS</PrereqReligion>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Death 1               Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_GAIN_ADEPT_DEATH1</Type>
+			<Type>TRAITTRIGGER_GAIN_ADEPT_DEATH1_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -178,7 +100,7 @@
 			<PrereqPromotionType>PROMOTION_DEATH1</PrereqPromotionType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Death 2              Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_GAIN_ADEPT_DEATH2</Type>
+			<Type>TRAITTRIGGER_GAIN_ADEPT_DEATH2_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -192,7 +114,7 @@
 			<PrereqPromotionType>PROMOTION_DEATH2</PrereqPromotionType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Death 3              Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_GAIN_ADEPT_DEATH3</Type>
+			<Type>TRAITTRIGGER_GAIN_ADEPT_DEATH3_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -206,7 +128,7 @@
 			<PrereqPromotionType>PROMOTION_DEATH3</PrereqPromotionType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Shadow 1             Soul Binder, Necromancer,Skiamancer -->
-			<Type>TRAITTRIGGER_GAIN_ADEPT_SHADOW1</Type>
+			<Type>TRAITTRIGGER_GAIN_ADEPT_SHADOW1_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -221,7 +143,7 @@
 			<PrereqPromotionType>PROMOTION_SHADOW1</PrereqPromotionType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Shadow 2              Soul Binder, Necromancer,Skiamancer -->
-			<Type>TRAITTRIGGER_GAIN_ADEPT_SHADOW2</Type>
+			<Type>TRAITTRIGGER_GAIN_ADEPT_SHADOW2_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -236,7 +158,7 @@
 			<PrereqPromotionType>PROMOTION_SHADOW2</PrereqPromotionType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Gain promo          Adept           gains Shadow 3             Soul Binder, Necromancer,Skiamancer -->
-			<Type>TRAITTRIGGER_GAIN_ADEPT_SHADOW3</Type>
+			<Type>TRAITTRIGGER_GAIN_ADEPT_SHADOW3_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -250,8 +172,83 @@
 			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
 			<PrereqPromotionType>PROMOTION_SHADOW3</PrereqPromotionType>
 		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Disciple          gains Command 1           Soul Binder, Necromancer,Skiamancer -->
+			<Type>TRAITTRIGGER_GAIN_DISCIPLE_COMMAND1_ELFNDEATH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SOULBINDER</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_DISCIPLE</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_COMMAND1</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Disciple          gains Command 2           Soul Binder, Necromancer,Skiamancer -->
+			<Type>TRAITTRIGGER_GAIN_DISCIPLE_COMMAND2_ELFNDEATH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SOULBINDER</TraitType>
+					<iModifier>3</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_DISCIPLE</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_COMMAND2</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Disciple          gains Command  3          Soul Binder, Necromancer,Skiamancer -->
+			<Type>TRAITTRIGGER_GAIN_DISCIPLE_COMMAND3_ELFNDEATH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SOULBINDER</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_DISCIPLE</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_COMMAND3</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain promo          Disciple          gains Command 4           Soul Binder, Necromancer,Skiamancer -->
+			<Type>TRAITTRIGGER_GAIN_DISCIPLE_COMMAND4_ELFNDEATH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SOULBINDER</TraitType>
+					<iModifier>30</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_DISCIPLE</PrereqUnitCombatType>
+			<PrereqPromotionType>PROMOTION_COMMAND4</PrereqPromotionType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain sluagh         Adept           gains sluagh            Soul Binder, Necromancer,Skiamancer -->
+			<Type>TRAITTRIGGER_GAIN_A_SLUAGH_ELFNDEATH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SOULBINDER</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_UNIT_GAIN_PROMOTION</TraitHookType>
+			
+			<PrereqUnitClassType>UNITCLASS_SLUAGH</PrereqUnitClassType>
+			<PrereqPromotionType>PROMOTION_ELEMENTAL</PrereqPromotionType>
+		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Kill                ELEMENTAL kills anything              			Soul Binder -->
-			<Type>TRAITTRIGGER_KILL_ELEMENTAL</Type>
+			<Type>TRAITTRIGGER_KILL_ELEMENTAL_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -264,22 +261,22 @@
 			
 			<PrereqPromotionType>PROMOTION_ELEMENTAL</PrereqPromotionType>
 		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Player turn         Number of Death Mana                       Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_PLAYER_TURN_MANA_DEATH</Type>
-			<BonusMultiplierType>BONUS_MANA_DEATH</BonusMultiplierType>
+		<TraitTriggerInfo> <!-- Construct           spirit vigil -->
+			<Type>TRAITTRIGGER_CONSTRUCT_SPIRIT_VIGIL_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
-					<iModifier>2</iModifier>
+					<iModifier>30</iModifier>
 				</CounterChange>
+			
 			</CounterChanges>
-			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>						
+			<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
 			
-				<TraitHookType>TRAITHOOK_PLAYER_TURN</TraitHookType>
-			
+			<PrereqBuildingClassType>BUILDINGCLASS_MAGE_GUILD</PrereqBuildingClassType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Tech                Necromancy                                	Soul Binder, Necromancer -->
-			<Type>TRAITTRIGGER_TECH_NECROMANCY</Type>
+			<Type>TRAITTRIGGER_TECH_NECROMANCY_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -290,8 +287,32 @@
 			<PrereqTech>TECH_NECROMANCY</PrereqTech>
 			<TraitHookType>TRAITHOOK_TECH</TraitHookType>	
 		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Tech                Way of the wicked                                	Soul Binder, Necromancer -->
+			<Type>TRAITTRIGGER_TECH_WAY_OF_THE_WICKED_ELFNDEATH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SOULBINDER</TraitType>
+					<iModifier>50</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<PrereqTech>TECH_WAY_OF_THE_WICKED</PrereqTech>
+			<TraitHookType>TRAITHOOK_TECH</TraitHookType>	
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Tech                Strength of will                                	Soul Binder, Necromancer -->
+			<Type>TRAITTRIGGER_TECH_STRENGTH_OF_WILL_ELFNDEATH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SOULBINDER</TraitType>
+					<iModifier>400</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<PrereqTech>TECH_STRENGTH_OF_WILL</PrereqTech>
+			<TraitHookType>TRAITHOOK_TECH</TraitHookType>	
+		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Train               Adept                                        Soul Binder, Hydromancer, Necromancer, Reckless, Illusionist,Skiamancer -->
-			<Type>TRAITTRIGGER_TRAIN_ADEPT</Type>
+			<Type>TRAITTRIGGER_TRAIN_ADEPT_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -304,8 +325,22 @@
 			
 			<PrereqUnitCombatType>UNITCOMBAT_ADEPT</PrereqUnitCombatType>
 		</TraitTriggerInfo>
-				<TraitTriggerInfo> <!-- Cast                Summon Sluagh                             Soul Binder -->
-			<Type>TRAITTRIGGER_CAST_SUMMON_SLUAGH</Type>
+				<TraitTriggerInfo> <!-- Train              Diciple                                        Soul Binder, Hydromancer, Necromancer, Reckless, Illusionist,Skiamancer -->
+			<Type>TRAITTRIGGER_TRAIN_DISCIPLE_ELFNDEATH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SOULBINDER</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_TRAIN_UNIT</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_DISCIPLE</PrereqUnitCombatType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Summon Sluagh                             Soul Binder -->
+			<Type>TRAITTRIGGER_CAST_SUMMON_SLUAGH_ELFNDEATH</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_SOULBINDER</TraitType>
@@ -316,6 +351,21 @@
 			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
 			
 			<PrereqSpellType>SPELL_SUMMON_SLUAGH</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Capture             Anything captures Anything   		        Dominant -->
+			<Type>TRAITTRIGGER_CAPTURE_SOULS_ELFNDEATH</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SOULBINDER</TraitType>
+					<iModifier>1</iModifier>
+				</CounterChange>
+				
+				
+				
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CAPTURE_UNIT</TraitHookType>
+			
 		</TraitTriggerInfo>
 	</TraitTriggerInfos>
 </Civ4TraitTriggerInfos>
