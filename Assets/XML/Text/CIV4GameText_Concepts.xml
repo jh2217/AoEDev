@@ -906,135 +906,160 @@
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_ELOHIM_KEEPERS_OF_SACRED_PLACES_PEDIA</Tag>
 		<English>[H1]Keepers of Sacred Places[\H1][PARAGRAPH:2]The Elohim are the Keepers of Sacred Places. As such, for each of the unique features they have within their borders, they get a different blessing. To assist them with this endeavor, they will start the game by knowing the location of all unique features on the map. The following is a list of what each unique feature provides:[NEWLINE]
-		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE]
-		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities
-		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells
-		[ICON_BULLET][LINK=IMPROVEMENT_BROKEN_SEPULCHER]Broken Sepulcher[\LINK] - [LINK=PROMOTION_KEEPERS_SEPULCHER]Keepers of Death's Shattered Jail[\LINK]: All combat units gain +20% vs. Undead
-		[ICON_BULLET][LINK=IMPROVEMENT_CLIFFS_OF_TALI]Cliffs of Kelle[\LINK] - [LINK=PROMOTION_KEEPERS_TALI]Keepers of Storm's Crag[\LINK]: All combat units have a 25% chance to avoid bad lair results
-		[ICON_BULLET][LINK=IMPROVEMENT_CLOCKWORK_TOWER]Clockwork City[\LINK] - [LINK=PROMOTION_KEEPERS_CLOCKWORK]Keepers of the Mechanical Marvel[\LINK]: Siege units recieve +1 range, +3 ranged strength, +15% damage cap, and magic immunity
-		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Melee and Disciple Units capture defeated Beast Units
-		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat
-		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free Pristin Guardian Building in Every City (+25% Defense, -25% Damage From Bombardment)
-		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra
-		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength
-		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception
-		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle
-		[ICON_BULLET][LINK=IMPROVEMENT_ODIOS_PRISON]Odio's Prison[\LINK] - [LINK=PROMOTION_KEEPERS_ODIO]Keepers of Contained Wrath[\LINK]: All combat units gain +20% vs. Demon
-		[ICON_BULLET][LINK=IMPROVEMENT_POOL_OF_TEARS]Pool of Tears[\LINK] - [LINK=PROMOTION_KEEPERS_TEARS]Keepers of the Waters of Birth[\LINK]: All combat units gain immunity to poison damage
-		[ICON_BULLET][LINK=IMPROVEMENT_PYRE_OF_THE_SERAPHIC]Pyre of the Seraphic[\LINK] - [LINK=PROMOTION_KEEPERS_SERAPHIC]Keepers of the Eternal Fire[\LINK]: All combat units gain +25% Resistance to Fire Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_REMNANTS_OF_PATRIA]Remnants of Patria[\LINK] - Keepers of Mankind's Ruins: -20% Maintenance Costs from Distance to Palace
-		[ICON_BULLET][LINK=IMPROVEMENT_RING_OF_CARCER]Ring of Carcer[\LINK] - [LINK=PROMOTION_KEEPERS_CARCER]Keepers of the Frozen Passion[\LINK]: Each Fire Mana gives Disciple Units +0.50 Movement, First Strikes, Fire Damage, and Holy Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_RINWELL]Rinwell Isle[\LINK] - [LINK=PROMOTION_KEEPERS_RINWELL]Keepers of the Dead Island[\LINK]: All combat units gain +25% Resistance to Death Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK] - Keepers of the Lost Peace: +10% [ICON_CULTURE] and [ICON_RESEARCH] when at peace
-		[ICON_BULLET][LINK=IMPROVEMENT_SIRONAS_BEACON]Sirona's Beacon[\LINK] - [LINK=PROMOTION_KEEPERS_SIRONA]Keepers of Mercy's Light[\LINK]: Each Spirit Mana gives Disciple Units +5% Heal Rate, +0.5% XP Rate, +0.5 Holy Damage, and +10% Resistance to Unholy Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_STANDING_STONES]Standing Stones[\LINK] - Keepers of Earth's Memento: +1 [ICON_PRODUCTION] on Plots with 3 [ICON_PRODUCTION]
-		[ICON_BULLET][LINK=IMPROVEMENT_TOMB_OF_SUCELLUS]Tomb of Sucellus[\LINK] - [LINK=PROMOTION_KEEPERS_SUCELLUS]Keepers of Nature's Grave[\LINK]: All combat units will heal while moving
-		[ICON_BULLET][LINK=IMPROVEMENT_TOWER_OF_EYES]Tower of Eyes[\LINK] - [LINK=PROMOTION_KEEPERS_EYES]Keepers of the Madman's Cell[\LINK]: All combat units are immune to capture and have a -25% chance to become a barbarian unit each turn
-		[ICON_BULLET][LINK=IMPROVEMENT_YGGDRASIL]Yggdrasil[\LINK] - Keepers of the Sacred Tree: +1 [ICON_FOOD] on Plots with 3 [ICON_FOOD]</English>
+		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE].
+		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities.
+		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells.
+		[ICON_BULLET][LINK=IMPROVEMENT_BROKEN_SEPULCHER]Broken Sepulcher[\LINK] - [LINK=PROMOTION_KEEPERS_SEPULCHER]Keepers of Death's Shattered Jail[\LINK]: All combat units gain +20% vs. Undead.
+		[ICON_BULLET][LINK=IMPROVEMENT_CLIFFS_OF_TALI]Cliffs of Kelle[\LINK] - [LINK=PROMOTION_KEEPERS_TALI]Keepers of Storm's Crag[\LINK]: All combat units have a 25% chance to avoid bad lair results.
+		[ICON_BULLET][LINK=IMPROVEMENT_CLOCKWORK_TOWER]Clockwork City[\LINK] - [LINK=PROMOTION_KEEPERS_CLOCKWORK]Keepers of the Mechanical Marvel[\LINK]: Siege units recieve +1 range, +3 ranged strength, +15% damage cap, and magic immunity.
+		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Melee and Disciple Units capture defeated Beast Units.
+		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat.
+		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free [LINK=BUILDING_PRISTIN_GUARDIAN]Pristin Guardian Building[\Link] in Every City (+25% Defense, -25% Damage From Bombardment).
+		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra.
+		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength.
+		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception.
+		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle.
+		[ICON_BULLET][LINK=IMPROVEMENT_ODIOS_PRISON]Odio's Prison[\LINK] - [LINK=PROMOTION_KEEPERS_ODIO]Keepers of Contained Wrath[\LINK]: All combat units gain +20% vs. Demon.
+		[ICON_BULLET][LINK=IMPROVEMENT_POOL_OF_TEARS]Pool of Tears[\LINK] - [LINK=PROMOTION_KEEPERS_TEARS]Keepers of the Waters of Birth[\LINK]: All combat units gain immunity to poison damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_PYRE_OF_THE_SERAPHIC]Pyre of the Seraphic[\LINK] - [LINK=PROMOTION_KEEPERS_SERAPHIC]Keepers of the Eternal Fire[\LINK]: All combat units gain +25% Resistance to Fire Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_REMNANTS_OF_PATRIA]Remnants of Patria[\LINK] - Keepers of Mankind's Ruins: -20% Maintenance Costs from Distance to Palace.
+		[ICON_BULLET][LINK=IMPROVEMENT_RING_OF_CARCER]Ring of Carcer[\LINK] - [LINK=PROMOTION_KEEPERS_CARCER]Keepers of the Frozen Passion[\LINK]: Each Fire Mana gives Disciple Units +0.50 Movement, First Strikes, Fire Damage, and Holy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_RINWELL]Rinwell Isle[\LINK] - [LINK=PROMOTION_KEEPERS_RINWELL]Keepers of the Dead Island[\LINK]: All combat units gain +25% Resistance to Death Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK] - Keepers of the Lost Peace: +10% [ICON_CULTURE] and [ICON_RESEARCH] when at peace.
+		[ICON_BULLET][LINK=IMPROVEMENT_SIRONAS_BEACON]Sirona's Beacon[\LINK] - [LINK=PROMOTION_KEEPERS_SIRONA]Keepers of Mercy's Light[\LINK]: Each Spirit Mana gives Disciple Units +5% Heal Rate, +0.5% XP Rate, +0.5 Holy Damage, and +10% Resistance to Unholy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_STANDING_STONES]Standing Stones[\LINK] - Keepers of Earth's Memento: +1 [ICON_PRODUCTION] on Plots with 3 [ICON_PRODUCTION].
+		[ICON_BULLET][LINK=IMPROVEMENT_TOMB_OF_SUCELLUS]Tomb of Sucellus[\LINK] - [LINK=PROMOTION_KEEPERS_SUCELLUS]Keepers of Nature's Grave[\LINK]: All combat units will heal while moving.
+		[ICON_BULLET][LINK=IMPROVEMENT_TOWER_OF_EYES]Tower of Eyes[\LINK] - [LINK=PROMOTION_KEEPERS_EYES]Keepers of the Madman's Cell[\LINK]: All combat units are immune to capture and have a -25% chance to become a barbarian unit each turn.
+		[ICON_BULLET][LINK=IMPROVEMENT_WELL_OF_SOULS]Well of Souls[\LINK] - Keepers of Emptiness: All units gain +0 Resistance to Black Imperator.
+		[ICON_BULLET][LINK=IMPROVEMENT_YGGDRASIL]Yggdrasil[\LINK] - Keepers of the Sacred Tree: +1 [ICON_FOOD] on Plots with 3 [ICON_FOOD].[PARAGRAPH:2]With the Magister Ashes module enabled, the following Sacred Places and blessings are possible:
+		[ICON_BULLET][LINK=IMPROVEMENT_ABADDONS_PIT]Abbadon's Pit[\LINK] - [LINK=PROMOTION_KEEPERS_ABADDON]Keepers of the Locust's Jail[\LINK]: All combat units gain +1 Holy Damage, 25% Resistance to Unholy Damage, and 20% vs. Demon.
+		[ICON_BULLET][LINK=IMPROVEMENT_BADBS_BLIZZARD]Wandering Castle of the Eternal Blizzard[\LINK] - Keepers of the Eternal Blizzard: All combat units gain [LINK=PROMOTION_IMMUNE_COLD]immunity to cold damage[\LINK].
+		[ICON_BULLET][LINK=IMPROVEMENT_GRAVE_OF_ASMODAY]Grave of Asmoday[\LINK] - [LINK=PROMOTION_KEEPERS_ASMODAY]Keepers of the Lord of Dust's Tomb[\LINK]: All combat units gain +1 Unholy Damage and 25% Resistance to Unholy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_WHISPERING_WOOD]Whispering Woods[\LINK] - [LINK=PROMOTION_KEEPERS_WHISPERING]Keepers of the Veil of Shadows[\LINK]: All combat units gain +3 perception and +75% Resistance to Death Damage.</English>
 		<French>[H1]Keepers of Sacred Places[\H1][PARAGRAPH:2]The Elohim are the Keepers of Sacred Places. As such, for each of the unique features they have within their borders, they get a different blessing. To assist them with this endeavor, they will start the game by knowing the location of all unique features on the map. The following is a list of what each unique feature provides:[NEWLINE]
-		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE]
-		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities
-		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells
-		[ICON_BULLET][LINK=IMPROVEMENT_BROKEN_SEPULCHER]Broken Sepulcher[\LINK] - [LINK=PROMOTION_KEEPERS_SEPULCHER]Keepers of Death's Shattered Jail[\LINK]: All combat units gain +20% vs. Undead
-		[ICON_BULLET][LINK=IMPROVEMENT_CLIFFS_OF_TALI]Cliffs of Kelle[\LINK] - [LINK=PROMOTION_KEEPERS_TALI]Keepers of Storm's Crag[\LINK]: All combat units have a 25% chance to avoid bad lair results
-		[ICON_BULLET][LINK=IMPROVEMENT_CLOCKWORK_TOWER]Clockwork City[\LINK] - [LINK=PROMOTION_KEEPERS_CLOCKWORK]Keepers of the Mechanical Marvel[\LINK]: Siege units recieve +1 range, +3 ranged strength, +15% damage cap, and magic immunity
-		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Melee and Disciple Units capture defeated Beast Units
-		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat
-		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free Pristin Guardian Building in Every City (+25% Defense, -25% Damage From Bombardment)
-		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra
-		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength
-		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception
-		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle
-		[ICON_BULLET][LINK=IMPROVEMENT_ODIOS_PRISON]Odio's Prison[\LINK] - [LINK=PROMOTION_KEEPERS_ODIO]Keepers of Contained Wrath[\LINK]: All combat units gain +20% vs. Demon
-		[ICON_BULLET][LINK=IMPROVEMENT_POOL_OF_TEARS]Pool of Tears[\LINK] - [LINK=PROMOTION_KEEPERS_TEARS]Keepers of the Waters of Birth[\LINK]: All combat units gain immunity to poison damage
-		[ICON_BULLET][LINK=IMPROVEMENT_PYRE_OF_THE_SERAPHIC]Pyre of the Seraphic[\LINK] - [LINK=PROMOTION_KEEPERS_SERAPHIC]Keepers of the Eternal Fire[\LINK]: All combat units gain +25% Resistance to Fire Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_REMNANTS_OF_PATRIA]Remnants of Patria[\LINK] - Keepers of Mankind's Ruins: -20% Maintenance Costs from Distance to Palace
-		[ICON_BULLET][LINK=IMPROVEMENT_RING_OF_CARCER]Ring of Carcer[\LINK] - [LINK=PROMOTION_KEEPERS_CARCER]Keepers of the Frozen Passion[\LINK]: Each Fire Mana gives Disciple Units +0.50 Movement, First Strikes, Fire Damage, and Holy Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_RINWELL]Rinwell Isle[\LINK] - [LINK=PROMOTION_KEEPERS_RINWELL]Keepers of the Dead Island[\LINK]: All combat units gain +25% Resistance to Death Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK] - Keepers of the Lost Peace: +10% [ICON_CULTURE] and [ICON_RESEARCH] when at peace
-		[ICON_BULLET][LINK=IMPROVEMENT_SIRONAS_BEACON]Sirona's Beacon[\LINK] - [LINK=PROMOTION_KEEPERS_SIRONA]Keepers of Mercy's Light[\LINK]: Each Spirit Mana gives Disciple Units +5% Heal Rate, +0.5% XP Rate, +0.5 Holy Damage, and +10% Resistance to Unholy Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_STANDING_STONES]Standing Stones[\LINK] - Keepers of Earth's Memento: +1 [ICON_PRODUCTION] on Plots with 3 [ICON_PRODUCTION]
-		[ICON_BULLET][LINK=IMPROVEMENT_TOMB_OF_SUCELLUS]Tomb of Sucellus[\LINK] - [LINK=PROMOTION_KEEPERS_SUCELLUS]Keepers of Nature's Grave[/LINK]: All combat units will heal while moving
-		[ICON_BULLET][LINK=IMPROVEMENT_TOWER_OF_EYES]Tower of Eyes[\LINK] - [LINK=PROMOTION_KEEPERS_EYES]Keepers of the Madman's Cell[\LINK]: All combat units are immune to capture and have a -25% chance to become a barbarian unit each turn
-		[ICON_BULLET][LINK=IMPROVEMENT_YGGDRASIL]Yggdrasil[\LINK] - Keepers of the Sacred Tree: +1 [ICON_FOOD] on Plots with 3 [ICON_FOOD]</French>
+		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE].
+		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities.
+		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells.
+		[ICON_BULLET][LINK=IMPROVEMENT_BROKEN_SEPULCHER]Broken Sepulcher[\LINK] - [LINK=PROMOTION_KEEPERS_SEPULCHER]Keepers of Death's Shattered Jail[\LINK]: All combat units gain +20% vs. Undead.
+		[ICON_BULLET][LINK=IMPROVEMENT_CLIFFS_OF_TALI]Cliffs of Kelle[\LINK] - [LINK=PROMOTION_KEEPERS_TALI]Keepers of Storm's Crag[\LINK]: All combat units have a 25% chance to avoid bad lair results.
+		[ICON_BULLET][LINK=IMPROVEMENT_CLOCKWORK_TOWER]Clockwork City[\LINK] - [LINK=PROMOTION_KEEPERS_CLOCKWORK]Keepers of the Mechanical Marvel[\LINK]: Siege units recieve +1 range, +3 ranged strength, +15% damage cap, and magic immunity.
+		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Melee and Disciple Units capture defeated Beast Units.
+		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat.
+		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free [LINK=BUILDING_PRISTIN_GUARDIAN]Pristin Guardian Building[\Link] in Every City (+25% Defense, -25% Damage From Bombardment).
+		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra.
+		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength.
+		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception.
+		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle.
+		[ICON_BULLET][LINK=IMPROVEMENT_ODIOS_PRISON]Odio's Prison[\LINK] - [LINK=PROMOTION_KEEPERS_ODIO]Keepers of Contained Wrath[\LINK]: All combat units gain +20% vs. Demon.
+		[ICON_BULLET][LINK=IMPROVEMENT_POOL_OF_TEARS]Pool of Tears[\LINK] - [LINK=PROMOTION_KEEPERS_TEARS]Keepers of the Waters of Birth[\LINK]: All combat units gain immunity to poison damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_PYRE_OF_THE_SERAPHIC]Pyre of the Seraphic[\LINK] - [LINK=PROMOTION_KEEPERS_SERAPHIC]Keepers of the Eternal Fire[\LINK]: All combat units gain +25% Resistance to Fire Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_REMNANTS_OF_PATRIA]Remnants of Patria[\LINK] - Keepers of Mankind's Ruins: -20% Maintenance Costs from Distance to Palace.
+		[ICON_BULLET][LINK=IMPROVEMENT_RING_OF_CARCER]Ring of Carcer[\LINK] - [LINK=PROMOTION_KEEPERS_CARCER]Keepers of the Frozen Passion[\LINK]: Each Fire Mana gives Disciple Units +0.50 Movement, First Strikes, Fire Damage, and Holy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_RINWELL]Rinwell Isle[\LINK] - [LINK=PROMOTION_KEEPERS_RINWELL]Keepers of the Dead Island[\LINK]: All combat units gain +25% Resistance to Death Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK] - Keepers of the Lost Peace: +10% [ICON_CULTURE] and [ICON_RESEARCH] when at peace.
+		[ICON_BULLET][LINK=IMPROVEMENT_SIRONAS_BEACON]Sirona's Beacon[\LINK] - [LINK=PROMOTION_KEEPERS_SIRONA]Keepers of Mercy's Light[\LINK]: Each Spirit Mana gives Disciple Units +5% Heal Rate, +0.5% XP Rate, +0.5 Holy Damage, and +10% Resistance to Unholy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_STANDING_STONES]Standing Stones[\LINK] - Keepers of Earth's Memento: +1 [ICON_PRODUCTION] on Plots with 3 [ICON_PRODUCTION].
+		[ICON_BULLET][LINK=IMPROVEMENT_TOMB_OF_SUCELLUS]Tomb of Sucellus[\LINK] - [LINK=PROMOTION_KEEPERS_SUCELLUS]Keepers of Nature's Grave[\LINK]: All combat units will heal while moving.
+		[ICON_BULLET][LINK=IMPROVEMENT_TOWER_OF_EYES]Tower of Eyes[\LINK] - [LINK=PROMOTION_KEEPERS_EYES]Keepers of the Madman's Cell[\LINK]: All combat units are immune to capture and have a -25% chance to become a barbarian unit each turn.
+		[ICON_BULLET][LINK=IMPROVEMENT_WELL_OF_SOULS]Well of Souls[\LINK] - Keepers of Emptiness: All units gain +0 Resistance to Black Imperator.
+		[ICON_BULLET][LINK=IMPROVEMENT_YGGDRASIL]Yggdrasil[\LINK] - Keepers of the Sacred Tree: +1 [ICON_FOOD] on Plots with 3 [ICON_FOOD].[PARAGRAPH:2]With the Magister Ashes module enabled, the following Sacred Places and blessings are possible:
+		[ICON_BULLET][LINK=IMPROVEMENT_ABADDONS_PIT]Abbadon's Pit[\LINK] - [LINK=PROMOTION_KEEPERS_ABADDON]Keepers of the Locust's Jail[\LINK]: All combat units gain +1 Holy Damage, 25% Resistance to Unholy Damage, and 20% vs. Demon.
+		[ICON_BULLET][LINK=IMPROVEMENT_BADBS_BLIZZARD]Wandering Castle of the Eternal Blizzard[\LINK] - Keepers of the Eternal Blizzard: All combat units gain [LINK=PROMOTION_IMMUNE_COLD]immunity to cold damage[\LINK].
+		[ICON_BULLET][LINK=IMPROVEMENT_GRAVE_OF_ASMODAY]Grave of Asmoday[\LINK] - [LINK=PROMOTION_KEEPERS_ASMODAY]Keepers of the Lord of Dust's Tomb[\LINK]: All combat units gain +1 Unholy Damage and 25% Resistance to Unholy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_WHISPERING_WOOD]Whispering Woods[\LINK] - [LINK=PROMOTION_KEEPERS_WHISPERING]Keepers of the Veil of Shadows[\LINK]: All combat units gain +3 perception and +75% Resistance to Death Damage.</French>
 		<German>[H1]Keepers of Sacred Places[\H1][PARAGRAPH:2]The Elohim are the Keepers of Sacred Places. As such, for each of the unique features they have within their borders, they get a different blessing. To assist them with this endeavor, they will start the game by knowing the location of all unique features on the map. The following is a list of what each unique feature provides:[NEWLINE]
-		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE]
-		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities
-		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells
-		[ICON_BULLET][LINK=IMPROVEMENT_BROKEN_SEPULCHER]Broken Sepulcher[\LINK] - [LINK=PROMOTION_KEEPERS_SEPULCHER]Keepers of Death's Shattered Jail[\LINK]: All combat units gain +20% vs. Undead
-		[ICON_BULLET][LINK=IMPROVEMENT_CLIFFS_OF_TALI]Cliffs of Kelle[\LINK] - [LINK=PROMOTION_KEEPERS_TALI]Keepers of Storm's Crag[\LINK]: All combat units have a 25% chance to avoid bad lair results
-		[ICON_BULLET][LINK=IMPROVEMENT_CLOCKWORK_TOWER]Clockwork City[\LINK] - [LINK=PROMOTION_KEEPERS_CLOCKWORK]Keepers of the Mechanical Marvel[\LINK]: Siege units recieve +1 range, +3 ranged strength, +15% damage cap, and magic immunity
-		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Melee and Disciple Units capture defeated Beast Units
-		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat
-		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free Pristin Guardian Building in Every City (+25% Defense, -25% Damage From Bombardment)
-		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra
-		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength
-		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception
-		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle
-		[ICON_BULLET][LINK=IMPROVEMENT_ODIOS_PRISON]Odio's Prison[\LINK] - [LINK=PROMOTION_KEEPERS_ODIO]Keepers of Contained Wrath[\LINK]: All combat units gain +20% vs. Demon
-		[ICON_BULLET][LINK=IMPROVEMENT_POOL_OF_TEARS]Pool of Tears[\LINK] - [LINK=PROMOTION_KEEPERS_TEARS]Keepers of the Waters of Birth[\LINK]: All combat units gain immunity to poison damage
-		[ICON_BULLET][LINK=IMPROVEMENT_PYRE_OF_THE_SERAPHIC]Pyre of the Seraphic[\LINK] - [LINK=PROMOTION_KEEPERS_SERAPHIC]Keepers of the Eternal Fire[\LINK]: All combat units gain +25% Resistance to Fire Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_REMNANTS_OF_PATRIA]Remnants of Patria[\LINK] - Keepers of Mankind's Ruins: -20% Maintenance Costs from Distance to Palace
-		[ICON_BULLET][LINK=IMPROVEMENT_RING_OF_CARCER]Ring of Carcer[\LINK] - [LINK=PROMOTION_KEEPERS_CARCER]Keepers of the Frozen Passion[\LINK]: Each Fire Mana gives Disciple Units +0.50 Movement, First Strikes, Fire Damage, and Holy Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_RINWELL]Rinwell Isle[\LINK] - [LINK=PROMOTION_KEEPERS_RINWELL]Keepers of the Dead Island[\LINK]: All combat units gain +25% Resistance to Death Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK] - Keepers of the Lost Peace: +10% [ICON_CULTURE] and [ICON_RESEARCH] when at peace
-		[ICON_BULLET][LINK=IMPROVEMENT_SIRONAS_BEACON]Sirona's Beacon[\LINK] - [LINK=PROMOTION_KEEPERS_SIRONA]Keepers of Mercy's Light[\LINK]: Each Spirit Mana gives Disciple Units +5% Heal Rate, +0.5% XP Rate, +0.5 Holy Damage, and +10% Resistance to Unholy Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_STANDING_STONES]Standing Stones[\LINK] - Keepers of Earth's Memento: +1 [ICON_PRODUCTION] on Plots with 3 [ICON_PRODUCTION]
-		[ICON_BULLET][LINK=IMPROVEMENT_TOMB_OF_SUCELLUS]Tomb of Sucellus[\LINK] - [LINK=PROMOTION_KEEPERS_SUCELLUS]Keepers of Nature's Grave[/LINK]: All combat units will heal while moving
-		[ICON_BULLET][LINK=IMPROVEMENT_TOWER_OF_EYES]Tower of Eyes[\LINK] - [LINK=PROMOTION_KEEPERS_EYES]Keepers of the Madman's Cell[\LINK]: All combat units are immune to capture and have a -25% chance to become a barbarian unit each turn
-		[ICON_BULLET][LINK=IMPROVEMENT_YGGDRASIL]Yggdrasil[\LINK] - Keepers of the Sacred Tree: +1 [ICON_FOOD] on Plots with 3 [ICON_FOOD]</German>
+		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE].
+		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities.
+		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells.
+		[ICON_BULLET][LINK=IMPROVEMENT_BROKEN_SEPULCHER]Broken Sepulcher[\LINK] - [LINK=PROMOTION_KEEPERS_SEPULCHER]Keepers of Death's Shattered Jail[\LINK]: All combat units gain +20% vs. Undead.
+		[ICON_BULLET][LINK=IMPROVEMENT_CLIFFS_OF_TALI]Cliffs of Kelle[\LINK] - [LINK=PROMOTION_KEEPERS_TALI]Keepers of Storm's Crag[\LINK]: All combat units have a 25% chance to avoid bad lair results.
+		[ICON_BULLET][LINK=IMPROVEMENT_CLOCKWORK_TOWER]Clockwork City[\LINK] - [LINK=PROMOTION_KEEPERS_CLOCKWORK]Keepers of the Mechanical Marvel[\LINK]: Siege units recieve +1 range, +3 ranged strength, +15% damage cap, and magic immunity.
+		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Melee and Disciple Units capture defeated Beast Units.
+		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat.
+		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free [LINK=BUILDING_PRISTIN_GUARDIAN]Pristin Guardian Building[\Link] in Every City (+25% Defense, -25% Damage From Bombardment).
+		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra.
+		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength.
+		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception.
+		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle.
+		[ICON_BULLET][LINK=IMPROVEMENT_ODIOS_PRISON]Odio's Prison[\LINK] - [LINK=PROMOTION_KEEPERS_ODIO]Keepers of Contained Wrath[\LINK]: All combat units gain +20% vs. Demon.
+		[ICON_BULLET][LINK=IMPROVEMENT_POOL_OF_TEARS]Pool of Tears[\LINK] - [LINK=PROMOTION_KEEPERS_TEARS]Keepers of the Waters of Birth[\LINK]: All combat units gain immunity to poison damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_PYRE_OF_THE_SERAPHIC]Pyre of the Seraphic[\LINK] - [LINK=PROMOTION_KEEPERS_SERAPHIC]Keepers of the Eternal Fire[\LINK]: All combat units gain +25% Resistance to Fire Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_REMNANTS_OF_PATRIA]Remnants of Patria[\LINK] - Keepers of Mankind's Ruins: -20% Maintenance Costs from Distance to Palace.
+		[ICON_BULLET][LINK=IMPROVEMENT_RING_OF_CARCER]Ring of Carcer[\LINK] - [LINK=PROMOTION_KEEPERS_CARCER]Keepers of the Frozen Passion[\LINK]: Each Fire Mana gives Disciple Units +0.50 Movement, First Strikes, Fire Damage, and Holy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_RINWELL]Rinwell Isle[\LINK] - [LINK=PROMOTION_KEEPERS_RINWELL]Keepers of the Dead Island[\LINK]: All combat units gain +25% Resistance to Death Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK] - Keepers of the Lost Peace: +10% [ICON_CULTURE] and [ICON_RESEARCH] when at peace.
+		[ICON_BULLET][LINK=IMPROVEMENT_SIRONAS_BEACON]Sirona's Beacon[\LINK] - [LINK=PROMOTION_KEEPERS_SIRONA]Keepers of Mercy's Light[\LINK]: Each Spirit Mana gives Disciple Units +5% Heal Rate, +0.5% XP Rate, +0.5 Holy Damage, and +10% Resistance to Unholy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_STANDING_STONES]Standing Stones[\LINK] - Keepers of Earth's Memento: +1 [ICON_PRODUCTION] on Plots with 3 [ICON_PRODUCTION].
+		[ICON_BULLET][LINK=IMPROVEMENT_TOMB_OF_SUCELLUS]Tomb of Sucellus[\LINK] - [LINK=PROMOTION_KEEPERS_SUCELLUS]Keepers of Nature's Grave[\LINK]: All combat units will heal while moving.
+		[ICON_BULLET][LINK=IMPROVEMENT_TOWER_OF_EYES]Tower of Eyes[\LINK] - [LINK=PROMOTION_KEEPERS_EYES]Keepers of the Madman's Cell[\LINK]: All combat units are immune to capture and have a -25% chance to become a barbarian unit each turn.
+		[ICON_BULLET][LINK=IMPROVEMENT_WELL_OF_SOULS]Well of Souls[\LINK] - Keepers of Emptiness: All units gain +0 Resistance to Black Imperator.
+		[ICON_BULLET][LINK=IMPROVEMENT_YGGDRASIL]Yggdrasil[\LINK] - Keepers of the Sacred Tree: +1 [ICON_FOOD] on Plots with 3 [ICON_FOOD].[PARAGRAPH:2]With the Magister Ashes module enabled, the following Sacred Places and blessings are possible:
+		[ICON_BULLET][LINK=IMPROVEMENT_ABADDONS_PIT]Abbadon's Pit[\LINK] - [LINK=PROMOTION_KEEPERS_ABADDON]Keepers of the Locust's Jail[\LINK]: All combat units gain +1 Holy Damage, 25% Resistance to Unholy Damage, and 20% vs. Demon.
+		[ICON_BULLET][LINK=IMPROVEMENT_BADBS_BLIZZARD]Wandering Castle of the Eternal Blizzard[\LINK] - Keepers of the Eternal Blizzard: All combat units gain [LINK=PROMOTION_IMMUNE_COLD]immunity to cold damage[\LINK].
+		[ICON_BULLET][LINK=IMPROVEMENT_GRAVE_OF_ASMODAY]Grave of Asmoday[\LINK] - [LINK=PROMOTION_KEEPERS_ASMODAY]Keepers of the Lord of Dust's Tomb[\LINK]: All combat units gain +1 Unholy Damage and 25% Resistance to Unholy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_WHISPERING_WOOD]Whispering Woods[\LINK] - [LINK=PROMOTION_KEEPERS_WHISPERING]Keepers of the Veil of Shadows[\LINK]: All combat units gain +3 perception and +75% Resistance to Death Damage.</German>
 		<Italian>[H1]Keepers of Sacred Places[\H1][PARAGRAPH:2]The Elohim are the Keepers of Sacred Places. As such, for each of the unique features they have within their borders, they get a different blessing. To assist them with this endeavor, they will start the game by knowing the location of all unique features on the map. The following is a list of what each unique feature provides:[NEWLINE]
-		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE]
-		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities
-		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells
-		[ICON_BULLET][LINK=IMPROVEMENT_BROKEN_SEPULCHER]Broken Sepulcher[\LINK] - [LINK=PROMOTION_KEEPERS_SEPULCHER]Keepers of Death's Shattered Jail[\LINK]: All combat units gain +20% vs. Undead
-		[ICON_BULLET][LINK=IMPROVEMENT_CLIFFS_OF_TALI]Cliffs of Kelle[\LINK] - [LINK=PROMOTION_KEEPERS_TALI]Keepers of Storm's Crag[\LINK]: All combat units have a 25% chance to avoid bad lair results
-		[ICON_BULLET][LINK=IMPROVEMENT_CLOCKWORK_TOWER]Clockwork City[\LINK] - [LINK=PROMOTION_KEEPERS_CLOCKWORK]Keepers of the Mechanical Marvel[\LINK]: Siege units recieve +1 range, +3 ranged strength, +15% damage cap, and magic immunity
-		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Melee and Disciple Units capture defeated Beast Units
-		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat
-		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free Pristin Guardian Building in Every City (+25% Defense, -25% Damage From Bombardment)
-		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra
-		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength
-		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception
-		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle
-		[ICON_BULLET][LINK=IMPROVEMENT_ODIOS_PRISON]Odio's Prison[\LINK] - [LINK=PROMOTION_KEEPERS_ODIO]Keepers of Contained Wrath[\LINK]: All combat units gain +20% vs. Demon
-		[ICON_BULLET][LINK=IMPROVEMENT_POOL_OF_TEARS]Pool of Tears[\LINK] - [LINK=PROMOTION_KEEPERS_TEARS]Keepers of the Waters of Birth[\LINK]: All combat units gain immunity to poison damage
-		[ICON_BULLET][LINK=IMPROVEMENT_PYRE_OF_THE_SERAPHIC]Pyre of the Seraphic[\LINK] - [LINK=PROMOTION_KEEPERS_SERAPHIC]Keepers of the Eternal Fire[\LINK]: All combat units gain +25% Resistance to Fire Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_REMNANTS_OF_PATRIA]Remnants of Patria[\LINK] - Keepers of Mankind's Ruins: -20% Maintenance Costs from Distance to Palace
-		[ICON_BULLET][LINK=IMPROVEMENT_RING_OF_CARCER]Ring of Carcer[\LINK] - [LINK=PROMOTION_KEEPERS_CARCER]Keepers of the Frozen Passion[\LINK]: Each Fire Mana gives Disciple Units +0.50 Movement, First Strikes, Fire Damage, and Holy Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_RINWELL]Rinwell Isle[\LINK] - [LINK=PROMOTION_KEEPERS_RINWELL]Keepers of the Dead Island[\LINK]: All combat units gain +25% Resistance to Death Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK] - Keepers of the Lost Peace: +10% [ICON_CULTURE] and [ICON_RESEARCH] when at peace
-		[ICON_BULLET][LINK=IMPROVEMENT_SIRONAS_BEACON]Sirona's Beacon[\LINK] - [LINK=PROMOTION_KEEPERS_SIRONA]Keepers of Mercy's Light[\LINK]: Each Spirit Mana gives Disciple Units +5% Heal Rate, +0.5% XP Rate, +0.5 Holy Damage, and +10% Resistance to Unholy Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_STANDING_STONES]Standing Stones[\LINK] - Keepers of Earth's Memento: +1 [ICON_PRODUCTION] on Plots with 3 [ICON_PRODUCTION]
-		[ICON_BULLET][LINK=IMPROVEMENT_TOMB_OF_SUCELLUS]Tomb of Sucellus[\LINK] - [LINK=PROMOTION_KEEPERS_SUCELLUS]Keepers of Nature's Grave[/LINK]: All combat units will heal while moving
-		[ICON_BULLET][LINK=IMPROVEMENT_TOWER_OF_EYES]Tower of Eyes[\LINK] - [LINK=PROMOTION_KEEPERS_EYES]Keepers of the Madman's Cell[\LINK]: All combat units are immune to capture and have a -25% chance to become a barbarian unit each turn
-		[ICON_BULLET][LINK=IMPROVEMENT_YGGDRASIL]Yggdrasil[\LINK] - Keepers of the Sacred Tree: +1 [ICON_FOOD] on Plots with 3 [ICON_FOOD]</Italian>
+		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE].
+		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities.
+		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells.
+		[ICON_BULLET][LINK=IMPROVEMENT_BROKEN_SEPULCHER]Broken Sepulcher[\LINK] - [LINK=PROMOTION_KEEPERS_SEPULCHER]Keepers of Death's Shattered Jail[\LINK]: All combat units gain +20% vs. Undead.
+		[ICON_BULLET][LINK=IMPROVEMENT_CLIFFS_OF_TALI]Cliffs of Kelle[\LINK] - [LINK=PROMOTION_KEEPERS_TALI]Keepers of Storm's Crag[\LINK]: All combat units have a 25% chance to avoid bad lair results.
+		[ICON_BULLET][LINK=IMPROVEMENT_CLOCKWORK_TOWER]Clockwork City[\LINK] - [LINK=PROMOTION_KEEPERS_CLOCKWORK]Keepers of the Mechanical Marvel[\LINK]: Siege units recieve +1 range, +3 ranged strength, +15% damage cap, and magic immunity.
+		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Melee and Disciple Units capture defeated Beast Units.
+		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat.
+		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free [LINK=BUILDING_PRISTIN_GUARDIAN]Pristin Guardian Building[\Link] in Every City (+25% Defense, -25% Damage From Bombardment).
+		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra.
+		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength.
+		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception.
+		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle.
+		[ICON_BULLET][LINK=IMPROVEMENT_ODIOS_PRISON]Odio's Prison[\LINK] - [LINK=PROMOTION_KEEPERS_ODIO]Keepers of Contained Wrath[\LINK]: All combat units gain +20% vs. Demon.
+		[ICON_BULLET][LINK=IMPROVEMENT_POOL_OF_TEARS]Pool of Tears[\LINK] - [LINK=PROMOTION_KEEPERS_TEARS]Keepers of the Waters of Birth[\LINK]: All combat units gain immunity to poison damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_PYRE_OF_THE_SERAPHIC]Pyre of the Seraphic[\LINK] - [LINK=PROMOTION_KEEPERS_SERAPHIC]Keepers of the Eternal Fire[\LINK]: All combat units gain +25% Resistance to Fire Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_REMNANTS_OF_PATRIA]Remnants of Patria[\LINK] - Keepers of Mankind's Ruins: -20% Maintenance Costs from Distance to Palace.
+		[ICON_BULLET][LINK=IMPROVEMENT_RING_OF_CARCER]Ring of Carcer[\LINK] - [LINK=PROMOTION_KEEPERS_CARCER]Keepers of the Frozen Passion[\LINK]: Each Fire Mana gives Disciple Units +0.50 Movement, First Strikes, Fire Damage, and Holy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_RINWELL]Rinwell Isle[\LINK] - [LINK=PROMOTION_KEEPERS_RINWELL]Keepers of the Dead Island[\LINK]: All combat units gain +25% Resistance to Death Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK] - Keepers of the Lost Peace: +10% [ICON_CULTURE] and [ICON_RESEARCH] when at peace.
+		[ICON_BULLET][LINK=IMPROVEMENT_SIRONAS_BEACON]Sirona's Beacon[\LINK] - [LINK=PROMOTION_KEEPERS_SIRONA]Keepers of Mercy's Light[\LINK]: Each Spirit Mana gives Disciple Units +5% Heal Rate, +0.5% XP Rate, +0.5 Holy Damage, and +10% Resistance to Unholy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_STANDING_STONES]Standing Stones[\LINK] - Keepers of Earth's Memento: +1 [ICON_PRODUCTION] on Plots with 3 [ICON_PRODUCTION].
+		[ICON_BULLET][LINK=IMPROVEMENT_TOMB_OF_SUCELLUS]Tomb of Sucellus[\LINK] - [LINK=PROMOTION_KEEPERS_SUCELLUS]Keepers of Nature's Grave[\LINK]: All combat units will heal while moving.
+		[ICON_BULLET][LINK=IMPROVEMENT_TOWER_OF_EYES]Tower of Eyes[\LINK] - [LINK=PROMOTION_KEEPERS_EYES]Keepers of the Madman's Cell[\LINK]: All combat units are immune to capture and have a -25% chance to become a barbarian unit each turn.
+		[ICON_BULLET][LINK=IMPROVEMENT_WELL_OF_SOULS]Well of Souls[\LINK] - Keepers of Emptiness: All units gain +0 Resistance to Black Imperator.
+		[ICON_BULLET][LINK=IMPROVEMENT_YGGDRASIL]Yggdrasil[\LINK] - Keepers of the Sacred Tree: +1 [ICON_FOOD] on Plots with 3 [ICON_FOOD].[PARAGRAPH:2]With the Magister Ashes module enabled, the following Sacred Places and blessings are possible:
+		[ICON_BULLET][LINK=IMPROVEMENT_ABADDONS_PIT]Abbadon's Pit[\LINK] - [LINK=PROMOTION_KEEPERS_ABADDON]Keepers of the Locust's Jail[\LINK]: All combat units gain +1 Holy Damage, 25% Resistance to Unholy Damage, and 20% vs. Demon.
+		[ICON_BULLET][LINK=IMPROVEMENT_BADBS_BLIZZARD]Wandering Castle of the Eternal Blizzard[\LINK] - Keepers of the Eternal Blizzard: All combat units gain [LINK=PROMOTION_IMMUNE_COLD]immunity to cold damage[\LINK].
+		[ICON_BULLET][LINK=IMPROVEMENT_GRAVE_OF_ASMODAY]Grave of Asmoday[\LINK] - [LINK=PROMOTION_KEEPERS_ASMODAY]Keepers of the Lord of Dust's Tomb[\LINK]: All combat units gain +1 Unholy Damage and 25% Resistance to Unholy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_WHISPERING_WOOD]Whispering Woods[\LINK] - [LINK=PROMOTION_KEEPERS_WHISPERING]Keepers of the Veil of Shadows[\LINK]: All combat units gain +3 perception and +75% Resistance to Death Damage.</Italian>
 		<Spanish>[H1]Keepers of Sacred Places[\H1][PARAGRAPH:2]The Elohim are the Keepers of Sacred Places. As such, for each of the unique features they have within their borders, they get a different blessing. To assist them with this endeavor, they will start the game by knowing the location of all unique features on the map. The following is a list of what each unique feature provides:[NEWLINE]
-		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE]
-		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities
-		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells
-		[ICON_BULLET][LINK=IMPROVEMENT_BROKEN_SEPULCHER]Broken Sepulcher[\LINK] - [LINK=PROMOTION_KEEPERS_SEPULCHER]Keepers of Death's Shattered Jail[\LINK]: All combat units gain +20% vs. Undead
-		[ICON_BULLET][LINK=IMPROVEMENT_CLIFFS_OF_TALI]Cliffs of Kelle[\LINK] - [LINK=PROMOTION_KEEPERS_TALI]Keepers of Storm's Crag[\LINK]: All combat units have a 25% chance to avoid bad lair results
-		[ICON_BULLET][LINK=IMPROVEMENT_CLOCKWORK_TOWER]Clockwork City[\LINK] - [LINK=PROMOTION_KEEPERS_CLOCKWORK]Keepers of the Mechanical Marvel[\LINK]: Siege units recieve +1 range, +3 ranged strength, +15% damage cap, and magic immunity
-		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Melee and Disciple Units capture defeated Beast Units
-		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat
-		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free Pristin Guardian Building in Every City (+25% Defense, -25% Damage From Bombardment)
-		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra
-		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength
-		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception
-		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle
-		[ICON_BULLET][LINK=IMPROVEMENT_ODIOS_PRISON]Odio's Prison[\LINK] - [LINK=PROMOTION_KEEPERS_ODIO]Keepers of Contained Wrath[\LINK]: All combat units gain +20% vs. Demon
-		[ICON_BULLET][LINK=IMPROVEMENT_POOL_OF_TEARS]Pool of Tears[\LINK] - [LINK=PROMOTION_KEEPERS_TEARS]Keepers of the Waters of Birth[\LINK]: All combat units gain immunity to poison damage
-		[ICON_BULLET][LINK=IMPROVEMENT_PYRE_OF_THE_SERAPHIC]Pyre of the Seraphic[\LINK] - [LINK=PROMOTION_KEEPERS_SERAPHIC]Keepers of the Eternal Fire[\LINK]: All combat units gain +25% Resistance to Fire Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_REMNANTS_OF_PATRIA]Remnants of Patria[\LINK] - Keepers of Mankind's Ruins: -20% Maintenance Costs from Distance to Palace
-		[ICON_BULLET][LINK=IMPROVEMENT_RING_OF_CARCER]Ring of Carcer[\LINK] - [LINK=PROMOTION_KEEPERS_CARCER]Keepers of the Frozen Passion[\LINK]: Each Fire Mana gives Disciple Units +0.50 Movement, First Strikes, Fire Damage, and Holy Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_RINWELL]Rinwell Isle[\LINK] - [LINK=PROMOTION_KEEPERS_RINWELL]Keepers of the Dead Island[\LINK]: All combat units gain +25% Resistance to Death Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK] - Keepers of the Lost Peace: +10% [ICON_CULTURE] and [ICON_RESEARCH] when at peace
-		[ICON_BULLET][LINK=IMPROVEMENT_SIRONAS_BEACON]Sirona's Beacon[\LINK] - [LINK=PROMOTION_KEEPERS_SIRONA]Keepers of Mercy's Light[\LINK]: Each Spirit Mana gives Disciple Units +5% Heal Rate, +0.5% XP Rate, +0.5 Holy Damage, and +10% Resistance to Unholy Damage
-		[ICON_BULLET][LINK=IMPROVEMENT_STANDING_STONES]Standing Stones[\LINK] - Keepers of Earth's Memento: +1 [ICON_PRODUCTION] on Plots with 3 [ICON_PRODUCTION]
-		[ICON_BULLET][LINK=IMPROVEMENT_TOMB_OF_SUCELLUS]Tomb of Sucellus[\LINK] - [LINK=PROMOTION_KEEPERS_SUCELLUS]Keepers of Nature's Grave[/LINK]: All combat units will heal while moving
-		[ICON_BULLET][LINK=IMPROVEMENT_TOWER_OF_EYES]Tower of Eyes[\LINK] - [LINK=PROMOTION_KEEPERS_EYES]Keepers of the Madman's Cell[\LINK]: All combat units are immune to capture and have a -25% chance to become a barbarian unit each turn
-		[ICON_BULLET][LINK=IMPROVEMENT_YGGDRASIL]Yggdrasil[\LINK] - Keepers of the Sacred Tree: +1 [ICON_FOOD] on Plots with 3 [ICON_FOOD]</Spanish>
+		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE].
+		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities.
+		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells.
+		[ICON_BULLET][LINK=IMPROVEMENT_BROKEN_SEPULCHER]Broken Sepulcher[\LINK] - [LINK=PROMOTION_KEEPERS_SEPULCHER]Keepers of Death's Shattered Jail[\LINK]: All combat units gain +20% vs. Undead.
+		[ICON_BULLET][LINK=IMPROVEMENT_CLIFFS_OF_TALI]Cliffs of Kelle[\LINK] - [LINK=PROMOTION_KEEPERS_TALI]Keepers of Storm's Crag[\LINK]: All combat units have a 25% chance to avoid bad lair results.
+		[ICON_BULLET][LINK=IMPROVEMENT_CLOCKWORK_TOWER]Clockwork City[\LINK] - [LINK=PROMOTION_KEEPERS_CLOCKWORK]Keepers of the Mechanical Marvel[\LINK]: Siege units recieve +1 range, +3 ranged strength, +15% damage cap, and magic immunity.
+		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Melee and Disciple Units capture defeated Beast Units.
+		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat.
+		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free [LINK=BUILDING_PRISTIN_GUARDIAN]Pristin Guardian Building[\Link] in Every City (+25% Defense, -25% Damage From Bombardment).
+		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra.
+		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength.
+		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception.
+		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle.
+		[ICON_BULLET][LINK=IMPROVEMENT_ODIOS_PRISON]Odio's Prison[\LINK] - [LINK=PROMOTION_KEEPERS_ODIO]Keepers of Contained Wrath[\LINK]: All combat units gain +20% vs. Demon.
+		[ICON_BULLET][LINK=IMPROVEMENT_POOL_OF_TEARS]Pool of Tears[\LINK] - [LINK=PROMOTION_KEEPERS_TEARS]Keepers of the Waters of Birth[\LINK]: All combat units gain immunity to poison damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_PYRE_OF_THE_SERAPHIC]Pyre of the Seraphic[\LINK] - [LINK=PROMOTION_KEEPERS_SERAPHIC]Keepers of the Eternal Fire[\LINK]: All combat units gain +25% Resistance to Fire Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_REMNANTS_OF_PATRIA]Remnants of Patria[\LINK] - Keepers of Mankind's Ruins: -20% Maintenance Costs from Distance to Palace.
+		[ICON_BULLET][LINK=IMPROVEMENT_RING_OF_CARCER]Ring of Carcer[\LINK] - [LINK=PROMOTION_KEEPERS_CARCER]Keepers of the Frozen Passion[\LINK]: Each Fire Mana gives Disciple Units +0.50 Movement, First Strikes, Fire Damage, and Holy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_RINWELL]Rinwell Isle[\LINK] - [LINK=PROMOTION_KEEPERS_RINWELL]Keepers of the Dead Island[\LINK]: All combat units gain +25% Resistance to Death Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_SEVEN_PINES]Seven Pines[\LINK] - Keepers of the Lost Peace: +10% [ICON_CULTURE] and [ICON_RESEARCH] when at peace.
+		[ICON_BULLET][LINK=IMPROVEMENT_SIRONAS_BEACON]Sirona's Beacon[\LINK] - [LINK=PROMOTION_KEEPERS_SIRONA]Keepers of Mercy's Light[\LINK]: Each Spirit Mana gives Disciple Units +5% Heal Rate, +0.5% XP Rate, +0.5 Holy Damage, and +10% Resistance to Unholy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_STANDING_STONES]Standing Stones[\LINK] - Keepers of Earth's Memento: +1 [ICON_PRODUCTION] on Plots with 3 [ICON_PRODUCTION].
+		[ICON_BULLET][LINK=IMPROVEMENT_TOMB_OF_SUCELLUS]Tomb of Sucellus[\LINK] - [LINK=PROMOTION_KEEPERS_SUCELLUS]Keepers of Nature's Grave[\LINK]: All combat units will heal while moving.
+		[ICON_BULLET][LINK=IMPROVEMENT_TOWER_OF_EYES]Tower of Eyes[\LINK] - [LINK=PROMOTION_KEEPERS_EYES]Keepers of the Madman's Cell[\LINK]: All combat units are immune to capture and have a -25% chance to become a barbarian unit each turn.
+		[ICON_BULLET][LINK=IMPROVEMENT_WELL_OF_SOULS]Well of Souls[\LINK] - Keepers of Emptiness: All units gain +0 Resistance to Black Imperator.
+		[ICON_BULLET][LINK=IMPROVEMENT_YGGDRASIL]Yggdrasil[\LINK] - Keepers of the Sacred Tree: +1 [ICON_FOOD] on Plots with 3 [ICON_FOOD].[PARAGRAPH:2]With the Magister Ashes module enabled, the following Sacred Places and blessings are possible:
+		[ICON_BULLET][LINK=IMPROVEMENT_ABADDONS_PIT]Abbadon's Pit[\LINK] - [LINK=PROMOTION_KEEPERS_ABADDON]Keepers of the Locust's Jail[\LINK]: All combat units gain +1 Holy Damage, 25% Resistance to Unholy Damage, and 20% vs. Demon.
+		[ICON_BULLET][LINK=IMPROVEMENT_BADBS_BLIZZARD]Wandering Castle of the Eternal Blizzard[\LINK] - Keepers of the Eternal Blizzard: All combat units gain [LINK=PROMOTION_IMMUNE_COLD]immunity to cold damage[\LINK].
+		[ICON_BULLET][LINK=IMPROVEMENT_GRAVE_OF_ASMODAY]Grave of Asmoday[\LINK] - [LINK=PROMOTION_KEEPERS_ASMODAY]Keepers of the Lord of Dust's Tomb[\LINK]: All combat units gain +1 Unholy Damage and 25% Resistance to Unholy Damage.
+		[ICON_BULLET][LINK=IMPROVEMENT_WHISPERING_WOOD]Whispering Woods[\LINK] - [LINK=PROMOTION_KEEPERS_WHISPERING]Keepers of the Veil of Shadows[\LINK]: All combat units gain +3 perception and +75% Resistance to Death Damage.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_DICTIONARY</Tag>
