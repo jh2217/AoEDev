@@ -1217,7 +1217,7 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-<ImprovementYieldChanges>
+			<ImprovementYieldChanges>
 			<ImprovementYieldChange>
 			<ImprovementType>IMPROVEMENT_WATERMILL</ImprovementType>
 			<ImprovementYields>
@@ -1514,7 +1514,7 @@
 			<Description>TXT_KEY_TRAIT_RECKLESS</Description>
 			<ShortDescription>TXT_KEY_TRAIT_RECKLESS_SHORT</ShortDescription>
 					<Civilopedia>TXT_KEY_TRAIT_RECKLESS_PEDIA</Civilopedia>
-	<FreePromotions>
+			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_UNREADY</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -2317,7 +2317,7 @@
 			<iGreatGeneralRateModifier>50</iGreatGeneralRateModifier>
 				<iUpgradeCostModifier>-25</iUpgradeCostModifier>
 			<iMilitaryProductionModifier>25</iMilitaryProductionModifier>
-		<iLevel>2</iLevel>
+			<iLevel>2</iLevel>
 		</TraitInfo>
 		<TraitInfo>		<!-- Haunted Strategist 3-->
 			<Type>TRAIT_HAUNTED_STRATEGIST3</Type>
@@ -3683,7 +3683,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_KAHD_MAMMON_SHORT</ShortDescription>
 			<Help>TXT_KEY_SPELL_KAHDI_CORRUPTION_HELP</Help>
 		</TraitInfo>
-				<TraitInfo>		<!-- Pact with Hyborem -->
+		<TraitInfo>		<!-- Pact with Hyborem -->
 			<Type>TRAIT_PACT_HYBOREM</Type>
 			<Description>TXT_KEY_TRAIT_PACT_HYBOREM</Description>
 			<Civilopedia>TXT_KEY_TRAIT_PACT_HYBOREM_PEDIA</Civilopedia>
