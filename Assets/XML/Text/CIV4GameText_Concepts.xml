@@ -905,7 +905,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_ELOHIM_KEEPERS_OF_SACRED_PLACES_PEDIA</Tag>
-		<English>[H1]Keepers of Sacred Places[\H1][PARAGRAPH:2]The Elohim are the Keepers of Sacred Places. As such, for each of the unique features they have within their borders, they get a different blessing. To assist them with this endeavor, they will start the game by knowing the location of all unique features on the map. The following is a list of what each unique feature provides:[NEWLINE]
+		<English>[H1]Keepers of Sacred Places[\H1][PARAGRAPH:2]The Elohim are the Keepers of Sacred Places. As such, for each of the unique features they have within their borders, they get a different blessing. To assist them with this endeavor, they will start the game by knowing the location of all unique features on the map. The following is a list of what each unique feature provides. Note that "All combat units" includes Naval and excludes Siege, unless otherwise specified:[NEWLINE]
 		[ICON_BULLET][LINK=IMPROVEMENT_AIFON_ISLE]Aifon Isle[\LINK] - Keepers of Danalin's Sorrow: +10% [ICON_FOOD] and [ICON_COMMERCE] from [ICON_TRADE].
 		[ICON_BULLET][LINK=IMPROVEMENT_BAIR_OF_LACUNA]Bair of Lacuna[\LINK] - Keepers of the Undying's Lair: +20% Ritual Production in All Cities.
 		[ICON_BULLET][LINK=IMPROVEMENT_BRADELINES_WELL]Bradeline's Well[\LINK] - [LINK=PROMOTION_KEEPERS_WELL]Keepers of the Underworld's Gate[\LINK]: All combat units gain +50% Resistance to Spells.
@@ -915,7 +915,7 @@
 		[ICON_BULLET][LINK=IMPROVEMENT_DRAGON_BONES]Dragon Bones[\LINK] - [LINK=PROMOTION_KEEPERS_BONES]Keepers of the Giant Skull[\LINK]: Disciple, Melee, and Defensive Melee Units capture defeated Beast Units.
 		[ICON_BULLET][LINK=IMPROVEMENT_FOXFORD]Foxford[\LINK] - Keepers of the Howling Hamlet: +1 XP from combat.
 		[ICON_BULLET][LINK=IMPROVEMENT_GUARDIAN]Guardian of the Pristin Pass[\LINK] - Keepers of Stone Guardians: Free [LINK=BUILDING_PRISTIN_GUARDIAN]Pristin Guardian Building[\Link] in Every City (+25% Defense, -25% Damage From Bombardment).
-		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Tundra.
+		[ICON_BULLET][LINK=IMPROVEMENT_LETUM_FRIGUS]Letum Frigus[\LINK] - Keepers of Winter's End: +1 [ICON_PRODUCTION] from Taiga, +1 [ICON_FOOD] from Tundra, and all combat units gain [LINK=PROMOTION_COLD_RESISTANCE]Cold Resistance[\LINK].
 		[ICON_BULLET][LINK=IMPROVEMENT_MAELSTROM]Maelstrom[\LINK] - [LINK=PROMOTION_KEEPERS_MAELSTROM]Keepers of the Maelstrom[\LINK]: All Naval Units gain +20% Defensive Strength.
 		[ICON_BULLET][LINK=IMPROVEMENT_MIRROR_OF_HEAVEN]Mirror of Heaven[\LINK] - [LINK=PROMOTION_KEEPERS_MIRROR]Keepers of the Heavenly Mirror[\LINK]: Recon and Disciple Units gain +1 Visibility Range and Perception.
 		[ICON_BULLET][LINK=IMPROVEMENT_MOUNT_KALSHEKK]Mount Kalshekk[\LINK] - Keepers of Earth's Fiery Heart: +1 [ICON_COMMERCE] from Jungle.
