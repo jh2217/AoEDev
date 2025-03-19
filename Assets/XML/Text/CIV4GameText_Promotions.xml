@@ -2830,62 +2830,6 @@
 		<Spanish>[ICON_BULLET]%D1% to resist spells</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_RESIST_COLD_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Bonus%% vs Cold Damage</English>
-		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts de Froid</French>
-		<German>[ICON_BULLET]%D1_Bonus%% gegen Erfrierung</German>
-		<Italian>[ICON_BULLET]%D1_Bonus%% vs Cold Damage</Italian>
-		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Cold Damage</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_RESIST_DEATH_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Bonus%% vs Death Damage</English>
-		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts de Mort</French>
-		<German>[ICON_BULLET]%D1_Bonus%% gegen Todeshauch</German>
-		<Italian>[ICON_BULLET]%D1_Bonus%% vs Death Damage</Italian>
-		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Death Damage</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_RESIST_FIRE_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Bonus%% vs Fire Damage</English>
-		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts de Feu</French>
-		<German>[ICON_BULLET]%D1_Bonus%% gegen Verbrennung</German>
-		<Italian>[ICON_BULLET]%D1_Bonus%% vs Fire Damage</Italian>
-		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Fire Damage</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_RESIST_HOLY_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Bonus%% vs Holy Damage</English>
-		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts Sacrés</French>
-		<German>[ICON_BULLET]%D1_Bonus%% gegen Weihung</German>
-		<Italian>[ICON_BULLET]%D1_Bonus%% vs Holy Damage</Italian>
-		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Holy Damage</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_RESIST_LIGHTNING_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Bonus%% vs Lightning Damage</English>
-		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts de Foudre</French>
-		<German>[ICON_BULLET]%D1_Bonus%% gegen Blitzschlag</German>
-		<Italian>[ICON_BULLET]%D1_Bonus%% vs Lightning Damage</Italian>
-		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Lightning Damage</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_RESIST_POISON_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Bonus%% vs Poison Damage</English>
-		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts de Poison</French>
-		<German>[ICON_BULLET]%D1_Bonus%% gegen Vergiftung</German>
-		<Italian>[ICON_BULLET]%D1_Bonus%% vs Poison Damage</Italian>
-		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Poison Damage</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_RESIST_UNHOLY_TEXT</Tag>
-		<English>[ICON_BULLET]%D1_Bonus%% vs Unholy Damage</English>
-		<French>[ICON_BULLET]%D1_Bonus%% contre les Dégâts Damnés</French>
-		<German>[ICON_BULLET]%D1_Bonus%% gegen Verderbtheit</German>
-		<Italian>[ICON_BULLET]%D1_Bonus%% vs Unholy Damage</Italian>
-		<Spanish>[ICON_BULLET]%D1_Bonus%% vs Unholy Damage</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_RUSTED</Tag>
 		<English>Rusted</English>
 		<French>Rouillé</French>
