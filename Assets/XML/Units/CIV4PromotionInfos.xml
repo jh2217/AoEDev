@@ -35137,21 +35137,10 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_KELLE</PrereqTrait>
 			</PrereqTraits>
+			<iWithdrawalChange>25</iWithdrawalChange>
 			<UnitCombats>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
@@ -35159,19 +35148,7 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
