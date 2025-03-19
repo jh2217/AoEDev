@@ -311,7 +311,7 @@ def onUnitKilled(self, argsList):
 	pAttacker = gc.getPlayer(iAttacker)
 	if pAttacker.hasTrait(gc.getInfoTypeForString('TRAIT_REDEEMING')):
 		iTier = gc.getUnitInfo(pUnit.getUnitType()).getTier()
-		if iTier > 0 and (pPlayer.isBarbarian() or pPlayer.getAlignment() == gc.getInfoTypeForString('ALIGNMENT_EVIL')):
+		if iTier > 0 and (pPlayer in (gc.getDEMON_TEAM(), gc.getORC_TEAM) or pPlayer.getAlignment() == gc.getInfoTypeForString('ALIGNMENT_EVIL')):
 			if CyGame().getSorenRandNum(25, "trigger Golden Age") <= (0 + pUnit.getLevel()):
 				pAttacker.changeGoldenAgeTurns(2 + iTier)
 					
