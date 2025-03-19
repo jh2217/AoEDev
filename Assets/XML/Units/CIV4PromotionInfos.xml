@@ -35355,6 +35355,12 @@
 					<iResist>100</iResist>
 				</DamageTypeResist>
 			</DamageTypeResists>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_POISONED</Promotion>
+			</PromotionExcludes>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_POISONED</Promotion>
+			</PromotionOverwrites>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_POOL</PrereqTrait>
 			</PrereqTraits>
