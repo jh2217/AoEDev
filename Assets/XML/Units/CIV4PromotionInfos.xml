@@ -34880,10 +34880,11 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
+			<iEnemyWithdrawalChange>-25</iEnemyWithdrawalChange>
 			<PromotionCombatMods>
 				<PromotionCombatMod>
 					<PromotionType>PROMOTION_UNDEAD</PromotionType>
-					<iCombatMod>20</iCombatMod>
+					<iCombatMod>25</iCombatMod>
 				</PromotionCombatMod>
 			</PromotionCombatMods>
 			<PrereqTraits>
@@ -34905,6 +34906,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
