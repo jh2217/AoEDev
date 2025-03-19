@@ -174,7 +174,7 @@
 			<ShortDescription>TXT_KEY_TRAIT_EXPLORER_SHORT</ShortDescription>
 			<bSelectable>1</bSelectable>
 			<iMinRequiredPoints>500</iMinRequiredPoints>
-		<FreePromotions>
+			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_ADVENTURER</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -630,7 +630,7 @@
 			<iMaxAnarchy>1</iMaxAnarchy>
 			<bAgnostic>1</bAgnostic>
 		</TraitInfo>
-				<TraitInfo>		<!-- Fallow - Infernal, Scions, Frozen -->
+		<TraitInfo>		<!-- Fallow - Infernal, Scions, Frozen -->
 			<Type>TRAIT_FALLOW</Type>
 			<TraitClass>TRAITCLASS_CIVILIZATION</TraitClass>
 			<Description>TXT_KEY_TRAIT_FALLOW</Description>
@@ -672,7 +672,7 @@
 			<bBarbarianAlly>1</bBarbarianAlly>
 			<NextTrait>TRAIT_CIVILIZED</NextTrait>
 			<iLevel>1</iLevel>
-		<CommerceModifiers>
+			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>-10</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -689,7 +689,7 @@
 			<Help></Help>
 			<bOverflowProduction>1</bOverflowProduction>
 			<iMinRequiredPoints>500</iMinRequiredPoints>
-		<CommerceModifiers>
+			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>20</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -1180,7 +1180,7 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-		<ImprovementYieldChanges>
+			<ImprovementYieldChanges>
 			<ImprovementYieldChange>
 			<ImprovementType>IMPROVEMENT_WATERMILL</ImprovementType>
 			<ImprovementYields>
@@ -1190,7 +1190,7 @@
 					</ImprovementYields>
 			</ImprovementYieldChange>
 			</ImprovementYieldChanges>
-	</TraitInfo>
+		</TraitInfo>
 		<TraitInfo>		<!-- Hydromancer 3 -->
 			<Type>TRAIT_HYDROMANCER3</Type>
 			<ParentTrait>TRAIT_HYDROMANCER</ParentTrait>
