@@ -1636,7 +1636,7 @@ public:
 	int getTotalDamageTypeCombat() const;
 	int getDamageTypeResist(DamageTypes eIndex) const;
 	void changeDamageTypeResist(DamageTypes eIndex, int iChange);
-	int countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool bTeam);
+	int countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool bTeam, bool bAny = false);
 	int getWorkRateModify() const;
 	void changeWorkRateModify(int iChange);
 	CvPlot* getOpenPlot() const;
@@ -1693,7 +1693,7 @@ public:
 /**							and one for the explore_lair action									**/
 /*************************************************************************************************/
 	bool canClaimFort(CvPlot* pPlot = NULL, bool bTestVisible = false);
-	bool claimFort();
+	bool claimFort(bool bBuilt = false);
 	bool canExploreLair(CvPlot* pPlot = NULL, bool bTestVisible = false);
 	bool exploreLair(CvPlot* pPlot = NULL);
 /*************************************************************************************************/

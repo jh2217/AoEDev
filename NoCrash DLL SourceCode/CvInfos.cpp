@@ -11718,6 +11718,7 @@ void CvSpellInfo::copyNonDefaults(CvSpellInfo* pClassInfo, CvXMLLoadUtility* pXM
 //------------------------------------------------------------------------------------------------------
 CvMissionInfo::CvMissionInfo() :
 m_iTime(0),
+m_iGoldCost(0),
 m_bSound(false),
 m_bTarget(false),
 m_bBuild(false),
@@ -11740,6 +11741,11 @@ CvMissionInfo::~CvMissionInfo()
 int CvMissionInfo::getTime() const
 {
 	return m_iTime;
+}
+
+int CvMissionInfo::getGoldCost() const
+{
+	return m_iGoldCost;
 }
 
 bool CvMissionInfo::isSound() const
@@ -11781,6 +11787,7 @@ bool CvMissionInfo::read(CvXMLLoadUtility* pXML)
 	}
 
 	pXML->GetChildXmlValByName(m_szWaypoint, "Waypoint");
+	pXML->GetChildXmlValByName(&m_iGoldCost, "iGoldCost");
 	pXML->GetChildXmlValByName(&m_iTime, "iTime");
 	pXML->GetChildXmlValByName(&m_bSound, "bSound");
 	pXML->GetChildXmlValByName(&m_bTarget, "bTarget");
@@ -11811,6 +11818,7 @@ void CvMissionInfo::copyNonDefaults(CvMissionInfo* pClassInfo, CvXMLLoadUtility*
 	CvHotkeyInfo::copyNonDefaults(pClassInfo, pXML);
 
 	if (getTime()				== 0)						m_iTime			= pClassInfo->getTime();
+	if (getGoldCost()			== 0)						m_iGoldCost		= pClassInfo->getGoldCost();
 	if (isSound()				== false)					m_bSound		= pClassInfo->isSound();
 	if (isTarget()				== false)					m_bTarget		= pClassInfo->isTarget();
 	if (isBuild()				== false)					m_bBuild		= pClassInfo->isBuild();

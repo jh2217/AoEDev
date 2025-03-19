@@ -11270,57 +11270,6 @@
 			<Sound>AS3D_SPELL_HASTE</Sound>
 			<Button>Art/Interface/Buttons/Units/Pegasus.dds</Button>
 		</SpellInfo>
-			<SpellInfo>			<!-- Appoint new Fort Commander -->
-			<Type>SPELL_REBUILD_FORT</Type>
-			<Description>TXT_KEY_SPELL_REBUILD_FORT</Description>
-			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
-			<Help>TXT_KEY_SPELL_REBUILD_FORT_HELP</Help>
-			<UnitClassPrereq>UNITCLASS_WORKER</UnitClassPrereq>
-			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
-			<bHasCasted>1</bHasCasted>
-			<PyResult>spellRebuildFort(pCaster)</PyResult>
-			<PyRequirement>reqRebuildFort(pCaster)</PyRequirement>
-			<iCost>50</iCost>
-			<bAbility>1</bAbility>
-			<Effect>EFFECT_CREATION</Effect>
-			<Sound>AS3D_WALL_OF_STONE</Sound>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Civs/Other/FortCommander/Influence.dds</Button>
-		</SpellInfo>
-			<SpellInfo>			<!-- Appoint new Fort Commander -->
-			<Type>SPELL_REBUILD_FORT_FAMILIAR</Type>
-			<Description>TXT_KEY_SPELL_REBUILD_FORT</Description>
-			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
-			<Help>TXT_KEY_SPELL_REBUILD_FORT_HELP</Help>
-			<UnitClassPrereq>UNITCLASS_FAMILIAR</UnitClassPrereq>
-			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
-			<bHasCasted>1</bHasCasted>
-			<PyResult>spellRebuildFort(pCaster)</PyResult>
-			<PyRequirement>reqRebuildFort(pCaster)</PyRequirement>
-			<iCost>50</iCost>
-			<bAbility>1</bAbility>
-			<Effect>EFFECT_CREATION</Effect>
-			<Sound>AS3D_WALL_OF_STONE</Sound>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Civs/Other/FortCommander/Influence.dds</Button>
-		</SpellInfo>		
-			<SpellInfo>			<!-- Appoint new Fort Commander -->
-			<Type>SPELL_REBUILD_FORT_SLAVE</Type>
-			<Description>TXT_KEY_SPELL_REBUILD_FORT</Description>
-			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
-			<Help>TXT_KEY_SPELL_REBUILD_FORT_HELP</Help>
-			<UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
-			<bDisplayWhenDisabled>0</bDisplayWhenDisabled>
-			<bHasCasted>1</bHasCasted>
-			<PyResult>spellRebuildFort(pCaster)</PyResult>
-			<PyRequirement>reqRebuildFort(pCaster)</PyRequirement>
-			<iCost>50</iCost>
-			<bAbility>1</bAbility>
-			<Effect>EFFECT_CREATION</Effect>
-			<Sound>AS3D_WALL_OF_STONE</Sound>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Civs/Other/FortCommander/Influence.dds</Button>
-		</SpellInfo>		
 		<SpellInfo>			<!-- Teleportation Stone (Teleport) -->
 			<Type>SPELL_BAIR_GEM</Type>
 			<Description>TXT_KEY_SPELL_BAIR_GEM</Description>

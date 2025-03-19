@@ -3830,22 +3830,6 @@
 		<Italian>Increases AC by 10</Italian>
 		<Spanish>Increases AC by 10</Spanish>
 	</TEXT>
-	<TEXT> <!-- SPELL_REBUILD_FORT -->
-		<Tag>TXT_KEY_SPELL_REBUILD_FORT</Tag>
-		<English>Appoint new Fort Commander</English>
-		<French>Désigner un nouveau Commandant de Fort</French>
-		<German>Appoint new Fort Commander</German>
-		<Italian>Appoint new Fort Commander</Italian>
-		<Spanish>Appoint new Fort Commander</Spanish>
-	</TEXT>
-	<TEXT> <!-- SPELL_REBUILD_FORT -->
-		<Tag>TXT_KEY_SPELL_REBUILD_FORT_HELP</Tag>
-		<English>Creates a Fort Commander.[NEWLINE][ICON_BULLET]Only Available to Worker units on an existing fort, if no enemies are within two tiles.</English>
-		<French>Crée un Commandant de Fort[NEWLINE][ICON_BULLET]Utilisable seulement par des Unités de Travailleurs sur la case d'un fort préexistant, si aucun ennemi n'est présent à une distance de 2 cases.</French>
-		<German>Creates a Fort Commander[NEWLINE][ICON_BULLET]Only Available to Worker units on an existing fort, if no enemies are within two tiles.</German>
-		<Italian>Creates a Fort Commander[NEWLINE][ICON_BULLET]Only Available to Worker units on an existing fort, if no enemies are within two tiles.</Italian>
-		<Spanish>Creates a Fort Commander[NEWLINE][ICON_BULLET]Only Available to Worker units on an existing fort, if no enemies are within two tiles.</Spanish>
-	</TEXT>
 	<TEXT> <!-- Haunted Lands makes unit Undead -->
 		<Tag>TXT_KEY_HAUNTED_LANDS_TURN_UNDEAD</Tag>
 		<English>A unit has succumbed to the Haunted Lands.</English>

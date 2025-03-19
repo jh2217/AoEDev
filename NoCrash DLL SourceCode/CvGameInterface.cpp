@@ -1353,7 +1353,7 @@ void CvGame::handleAction(int iAction)
 					CvPlot* pPlot = pHeadSelectedUnit->plot();
 					int iRange = GC.getSpellInfo((SpellTypes)GC.getActionInfo(iAction).getOriginalIndex()).getRange();
 					if ((iRange == 0 && pPlot->isOwned() && pPlot->getTeam() != pHeadSelectedUnit->getTeam() && !atWar(pPlot->getTeam(), pHeadSelectedUnit->getTeam())) ||
-					  pHeadSelectedUnit->countUnitsWithinRange(iRange, false, true, false) > 0)
+					  pHeadSelectedUnit->countUnitsWithinRange(iRange, false, true, false, true) > 0)
 					{
 						CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CONFIRMCASTWAR);
 						if (NULL != pInfo)

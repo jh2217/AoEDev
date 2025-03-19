@@ -2366,6 +2366,7 @@ public:
 	DllExport virtual ~CvMissionInfo();
 
 	DllExport int getTime() const;								// Exposed to Python
+	DllExport int getGoldCost() const;							// Exposed to Python
 
 	DllExport bool isSound() const;								// Exposed to Python
 	DllExport bool isTarget() const;							// Exposed to Python
@@ -2391,6 +2392,7 @@ public:
 protected:
 
 	int m_iTime;
+	int m_iGoldCost;
 
 	bool m_bSound;
 	bool m_bTarget;
