@@ -35116,10 +35116,10 @@
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
 			<Button>Art/Interface/Buttons/Promotions/Defensive.dds</Button>
-			<iCombatPercentDefense>20</iCombatPercentDefense>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_MAELSTROM</PrereqTrait>
 			</PrereqTraits>
+			<iMovesChange>1</iMovesChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
