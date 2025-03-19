@@ -8546,9 +8546,10 @@ bool CvUnit::bombard()
 					{
 						if (isEnemy(pLoopUnit->getTeam()))
 						{
-							//	if (pLoopUnit->canAcquirePromotion(ePromotion))
+							if (GC.getGameINLINE().getSorenRandNum(100, "Combat Apply") <= GC.getDefineINT("COMBAT_APPLY_CHANCE") / 3)
 							{
-								if (GC.getGameINLINE().getSorenRandNum(100, "Combat Apply") <= GC.getDefineINT("COMBAT_APPLY_CHANCE")/3)
+								// reimplemented; was commented out because...?
+								if (pLoopUnit->canAcquirePromotion(ePromotion))
 								{
 									pLoopUnit->setHasPromotion(ePromotion, true);
 									gDLL->getInterfaceIFace()->addMessage((PlayerTypes)pLoopUnit->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), GC.getPromotionInfo(ePromotion).getDescription(), "", MESSAGE_TYPE_INFO, GC.getPromotionInfo(ePromotion).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
@@ -28410,9 +28411,10 @@ void CvUnit::combatWon(CvUnit* pLoser, bool bAttacking)
 						{
 							if (isEnemy(pLoopUnit->getTeam()))
 							{
-							//	if (pLoopUnit->canAcquirePromotion(ePromotion))
+								if (GC.getGameINLINE().getSorenRandNum(100, "Combat Apply") <= GC.getDefineINT("COMBAT_APPLY_CHANCE"))
 								{
-									if (GC.getGameINLINE().getSorenRandNum(100, "Combat Apply") <= GC.getDefineINT("COMBAT_APPLY_CHANCE"))
+									// reimplemented; was commented out because...?
+									if (pLoopUnit->canAcquirePromotion(ePromotion))
 									{
 										pLoopUnit->setHasPromotion(ePromotion, true);
 										gDLL->getInterfaceIFace()->addMessage((PlayerTypes)pLoopUnit->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), GC.getPromotionInfo(ePromotion).getDescription(), "", MESSAGE_TYPE_INFO, GC.getPromotionInfo(ePromotion).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
@@ -28458,9 +28460,13 @@ void CvUnit::combatWon(CvUnit* pLoser, bool bAttacking)
 						{
 							if (GC.getGameINLINE().getSorenRandNum(100, "Combat Apply") <= GC.getDefineINT("COMBAT_APPLY_CHANCE"))
 							{
-								setHasPromotion(ePromotion, true);
-								gDLL->getInterfaceIFace()->addMessage((PlayerTypes)getOwner(), true, GC.getEVENT_MESSAGE_TIME(), GC.getPromotionInfo(ePromotion).getDescription(), "", MESSAGE_TYPE_INFO, GC.getPromotionInfo(ePromotion).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
-								gDLL->getInterfaceIFace()->addMessage((PlayerTypes)pLoser->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), GC.getPromotionInfo(ePromotion).getDescription(), "", MESSAGE_TYPE_INFO, GC.getPromotionInfo(ePromotion).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
+								// Check was missing here, and commented out for apply to defenders and bombard/range because...?
+								if (canAcquirePromotion(ePromotion))
+								{
+									setHasPromotion(ePromotion, true);
+									gDLL->getInterfaceIFace()->addMessage((PlayerTypes)getOwner(), true, GC.getEVENT_MESSAGE_TIME(), GC.getPromotionInfo(ePromotion).getDescription(), "", MESSAGE_TYPE_INFO, GC.getPromotionInfo(ePromotion).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
+									gDLL->getInterfaceIFace()->addMessage((PlayerTypes)pLoser->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), GC.getPromotionInfo(ePromotion).getDescription(), "", MESSAGE_TYPE_INFO, GC.getPromotionInfo(ePromotion).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
+								}
 							}
 						}
 					}
@@ -31099,9 +31105,10 @@ bool CvUnit::rangeStrike(int iX, int iY)
 					{
 						if (isEnemy(pLoopUnit->getTeam()))
 						{
-							//	if (pLoopUnit->canAcquirePromotion(ePromotion))
+							if (GC.getGameINLINE().getSorenRandNum(100, "Combat Apply") <= GC.getDefineINT("COMBAT_APPLY_CHANCE") / 3)
 							{
-								if (GC.getGameINLINE().getSorenRandNum(100, "Combat Apply") <= GC.getDefineINT("COMBAT_APPLY_CHANCE") / 3)
+								// reimplemented; was commented out because...?
+								if (pLoopUnit->canAcquirePromotion(ePromotion))
 								{
 									pLoopUnit->setHasPromotion(ePromotion, true);
 									gDLL->getInterfaceIFace()->addMessage((PlayerTypes)pLoopUnit->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), GC.getPromotionInfo(ePromotion).getDescription(), "", MESSAGE_TYPE_INFO, GC.getPromotionInfo(ePromotion).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
