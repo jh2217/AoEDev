@@ -2224,7 +2224,7 @@
 			<Description>TXT_KEY_EQUIPMENT_NETHER_BLADE</Description>
 			<Button>Art/Interface/Buttons/Equipment/NetherBlade.dds</Button>
 				<Civilopedia>TXT_KEY_EQUIPMENT_NETHER_BLADE_PEDIA</Civilopedia>
-		<Help>TXT_KEY_EQUIPMENT_NETHER_BLADE_HELP</Help>
+			<Help>TXT_KEY_EQUIPMENT_NETHER_BLADE_HELP</Help>
 			<bEquipment>1</bEquipment>
 			<PromotionCombatMods>
 				<PromotionCombatMod>
@@ -2315,7 +2315,7 @@
 			<Type>PROMOTION_ORTHUSS_AXE</Type>
 			<Description>TXT_KEY_EQUIPMENT_ORTHUSS_AXE</Description>
 					<Civilopedia>TXT_KEY_EQUIPMENT_ORTHUSS_AXE_PEDIA</Civilopedia>
-		<bBlitz>1</bBlitz>
+			<bBlitz>1</bBlitz>
 			<Button>Art/Interface/Buttons/Equipment/Orthussaxe.dds</Button>
 			<bEquipment>1</bEquipment>
 			<iWorkRateModify>100</iWorkRateModify>
@@ -2712,7 +2712,7 @@
 			<Type>PROMOTION_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE_ASMODAY</Type>
 			<Description>TXT_KEY_EQUIPMENT_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE</Description>
 				<Civilopedia>TXT_KEY_EQUIPMENT_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE_ASMODAY_PEDIA</Civilopedia>
-		<Sound>AS2D_IF_LEVELUP</Sound>
+			<Sound>AS2D_IF_LEVELUP</Sound>
 			<TechPrereq>TECH_NEVER</TechPrereq>
 			<Button>Art/Interface/Buttons/Equipment/mask-asmoday.dds</Button>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -2735,7 +2735,7 @@
 			<Type>PROMOTION_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE_ESUS</Type>
 			<Description>TXT_KEY_EQUIPMENT_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE</Description>
 					<Civilopedia>TXT_KEY_EQUIPMENT_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE_ESUS_PEDIA</Civilopedia>
-		<Sound>AS2D_IF_LEVELUP</Sound>
+			<Sound>AS2D_IF_LEVELUP</Sound>
 			<TechPrereq>TECH_NEVER</TechPrereq>
 			<Button>Art/Interface/Buttons/Equipment/mask-esus.dds</Button>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -2758,7 +2758,7 @@
 			<Type>PROMOTION_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE_FAERYL</Type>
 			<Description>TXT_KEY_EQUIPMENT_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE</Description>
 						<Civilopedia>TXT_KEY_EQUIPMENT_MASK_OF_THE_COVEN_OF_THE_BLACK_CANDLE_FAERYL_PEDIA</Civilopedia>
-		<Sound>AS2D_IF_LEVELUP</Sound>
+			<Sound>AS2D_IF_LEVELUP</Sound>
 			<TechPrereq>TECH_NEVER</TechPrereq>
 			<Button>Art/Interface/Buttons/Equipment/mask-faeryl.dds</Button>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -2834,7 +2834,7 @@
 			<Type>PROMOTION_TAPESTRY_HOUSE_TRINKET</Type>
 			<Description>TXT_KEY_EQUIPMENT_TAPESTRY_HOUSE_TRINKET</Description>
 			<Civilopedia>TXT_KEY_EQUIPMENT_TAPESTRY_HOUSE_TRINKET_PEDIA</Civilopedia>
-		<CommercesFromWin>
+			<CommercesFromWin>
 				<iCommerce>0</iCommerce>		<!-- Gold -->
 				<iCommerce>0</iCommerce>		<!-- Science -->
 				<iCommerce>2</iCommerce>		<!-- Culture -->
@@ -7409,7 +7409,7 @@
 			<iDefensiveStrikeChance>10</iDefensiveStrikeChance>
 			<iDefensiveStrikeDamage>5</iDefensiveStrikeDamage>
 			<iMinLevel>-1</iMinLevel>
-		<!--	<UnitArtStyleType>UNIT_ARTSTYLE_CREEPER_BLOOMING</UnitArtStyleType> -->
+			<!--	<UnitArtStyleType>UNIT_ARTSTYLE_CREEPER_BLOOMING</UnitArtStyleType> -->
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Creeper Burrs -->
 			<Type>PROMOTION_CREEPER_BURRS</Type>
@@ -7480,7 +7480,7 @@
 			<Button>Art/Interface/Buttons/Spells/rww.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PyPerTurn>effectDyingCreeper(pCaster)</PyPerTurn>
-		<!--	<UnitArtStyleType>UNIT_ARTSTYLE_CREEPER_ROOTED</UnitArtStyleType>-->
+			<!--	<UnitArtStyleType>UNIT_ARTSTYLE_CREEPER_ROOTED</UnitArtStyleType>-->
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Creeper Mature -->
 			<Type>PROMOTION_CREEPER_MATURE</Type>
@@ -7499,7 +7499,7 @@
 			</PromotionOverwrites>
 			<Button>Art/Interface/Buttons/Spells/rww.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		<!--	<UnitArtStyleType>UNIT_ARTSTYLE_CREEPER_MATURE</UnitArtStyleType>-->
+			<!--	<UnitArtStyleType>UNIT_ARTSTYLE_CREEPER_MATURE</UnitArtStyleType>-->
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Creeper Dust -->
 			<Type>PROMOTION_CREEPER_DUST</Type>
@@ -7524,7 +7524,7 @@
 			<bHiddenNationality>1</bHiddenNationality>
 			<iExpireChance>50</iExpireChance>
 			<iMinLevel>-1</iMinLevel>
-		<!--	<UnitArtStyleType>UNIT_ARTSTYLE_CREEPER_ROOTED</UnitArtStyleType>-->
+			<!--	<UnitArtStyleType>UNIT_ARTSTYLE_CREEPER_ROOTED</UnitArtStyleType>-->
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Creeper Rooted -->
 			<Type>PROMOTION_CREEPER_ROOTED</Type>
@@ -7554,7 +7554,7 @@
 			<iExpireChance>25</iExpireChance>
 			<iExtraCombatDefense>5</iExtraCombatDefense>
 			<iMinLevel>-1</iMinLevel>
-		<!--	<UnitArtStyleType>UNIT_ARTSTYLE_CREEPER_ROOTED</UnitArtStyleType>-->
+			<!--	<UnitArtStyleType>UNIT_ARTSTYLE_CREEPER_ROOTED</UnitArtStyleType>-->
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Creeper Young -->
 			<Type>PROMOTION_CREEPER_YOUNG</Type>
@@ -9358,8 +9358,8 @@
 			<Button>Art/Interface/Buttons/Promotions/ForTheHorde.dds</Button>
 			<iBetrayalChance>10</iBetrayalChance>
 		</PromotionInfo>
-<!--		<PromotionInfo>	-->	<!-- Forest Creeper Forest Move Only -->
-<!--			<Type>PROMOTION_FOREST_MOVE_ONLY</Type>
+		<!--		<PromotionInfo>	-->	<!-- Forest Creeper Forest Move Only -->
+		<!--			<Type>PROMOTION_FOREST_MOVE_ONLY</Type>
 			<Description>ForestMoveOnly</Description>
 			<Help></Help>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
@@ -9408,8 +9408,8 @@
 			<iExpireChance>10</iExpireChance>
 			<PyPerTurn></PyPerTurn>
 		</PromotionInfo>  -->
-<!--		<PromotionInfo>	-->	<!-- Forest Creeper Timer -->
-<!--			<Type>PROMOTION_FOREST_CREEPER_TIMER</Type>
+		<!--		<PromotionInfo>	-->	<!-- Forest Creeper Timer -->
+		<!--			<Type>PROMOTION_FOREST_CREEPER_TIMER</Type>
 			<Description>ForestCreeperTimer</Description>
 			<Help></Help>
 			<LayerAnimationPath>NONE</LayerAnimationPath>
@@ -15468,7 +15468,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>,Art/Interface/Buttons/Civics/Slavery.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,8,2</Button>
-		<bNoXP>1</bNoXP>
+			<bNoXP>1</bNoXP>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Slaver -->
 			<Type>PROMOTION_SLAVER_CIVIC</Type>
@@ -15545,7 +15545,7 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>,Art/Interface/Buttons/Civics/Slavery.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,8,2</Button>
-		<bNoXP>1</bNoXP>
+			<bNoXP>1</bNoXP>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Slow -->
 			<Type>PROMOTION_SLOW</Type>
@@ -17196,7 +17196,8 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Dtesh/WastelandDefender.dds</Button>
-		</PromotionInfo>		<PromotionInfo>		<!-- Water Affinity, given by trait hydromancer at level 3 -->
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Water Affinity, given by trait hydromancer at level 3 -->
 			<Type>PROMOTION_WATER_AFFINITY</Type>
 			<Description>TXT_KEY_PROMOTION_WATER_AFFINITY</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
@@ -17440,7 +17441,7 @@
 			<CapturePromotions>
 				<PromotionType>PROMOTION_WEREWOLF</PromotionType>
 			</CapturePromotions>
-<PromotionExcludes>
+			<PromotionExcludes>
 				<Promotion>PROMOTION_TAME</Promotion>
 			</PromotionExcludes>
 			<PromotionOverwrites>
@@ -17449,7 +17450,7 @@
 			<PythonPostCombatLost>postCombatLossWerewolf(pCaster, pOpponent)</PythonPostCombatLost>
 			<PythonPostCombatWon>postCombatWinWerewolf(pCaster, pOpponent)</PythonPostCombatWon>
 			<Button>Art/Interface/Buttons/Promotions/Werewolf.dds</Button>
-		<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -17944,7 +17945,7 @@
 					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
-		</UnitCombats>
+			</UnitCombats>
 			<iSlaveGenerationChance>15</iSlaveGenerationChance>
 			<iCombatPercent>-10</iCombatPercent>
 			<Button>Art/Civs/Dtesh/Promotions/Grasp.dds</Button>
@@ -23531,7 +23532,7 @@
 			<iAIWeight>100</iAIWeight>
 			<PromotionNextLevel>PROMOTION_FIRE3</PromotionNextLevel>
 		</PromotionInfo>
-		-->
+			-->
 		<PromotionInfo>		<!-- Fire III -->
 			<Type>PROMOTION_FIRE3</Type>
 			<Description>TXT_KEY_PROMOTION_FIRE3</Description>
@@ -24531,7 +24532,7 @@
 					<iBonusRange>0</iBonusRange>
 				</CityBonus>
 			</CityBonuses>
-<Button>Art/Interface/Buttons/Promotions/Heroicdefense.dds</Button>
+			<Button>Art/Interface/Buttons/Promotions/Heroicdefense.dds</Button>
 			<iAIWeight>20</iAIWeight>
 			<iExtraCombatDefense>1</iExtraCombatDefense>
 			<PromotionNextLevel>PROMOTION_HEROIC_DEFENSE2</PromotionNextLevel>
@@ -24611,7 +24612,7 @@
 					<iBonusRange>0</iBonusRange>
 				</CityBonus>
 			</CityBonuses>
-<Button>Art/Interface/Buttons/Promotions/Heroicdefense2.dds</Button>
+			<Button>Art/Interface/Buttons/Promotions/Heroicdefense2.dds</Button>
 			<iAIWeight>40</iAIWeight>
 			<iExtraCombatDefense>1</iExtraCombatDefense>
 		</PromotionInfo>
@@ -31167,7 +31168,8 @@
 			</SecondaryUnitCombats>
 			<Button>Art/Interface/Buttons/Unitcombats/SecondaryUC_Disciple.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo><PromotionInfo>		<!-- Secondary Mounted -->
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Secondary Mounted -->
 			<Type>PROMOTION_SECONDARY_MOUNTED</Type>
 			<Description>TXT_KEY_PROMOTION_SECONDARY_MOUNTED</Description>
 			<SecondaryUnitCombats>
@@ -31175,7 +31177,8 @@
 			</SecondaryUnitCombats>
 			<Button>Art/Interface/Buttons/Unitcombats/SecondaryUC_Mounted.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo><PromotionInfo>		<!-- Secondary Recon -->
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Secondary Recon -->
 			<Type>PROMOTION_SECONDARY_RECON</Type>
 			<Description>TXT_KEY_PROMOTION_SECONDARY_RECON</Description>
 			<SecondaryUnitCombats>
@@ -31183,7 +31186,8 @@
 			</SecondaryUnitCombats>
 			<Button>Art/Interface/Buttons/Unitcombats/SecondaryUC_Recon.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo><PromotionInfo>		<!-- Secondary Rogue -->
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Secondary Rogue -->
 			<Type>PROMOTION_SECONDARY_ROGUE</Type>
 			<Description>TXT_KEY_PROMOTION_SECONDARY_ROGUE</Description>
 			<SecondaryUnitCombats>
@@ -36832,7 +36836,7 @@
 			<Button>Art\Interface\Buttons\handcuff.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Spider - Patrol -->
-		<Type>PROMOTION_SPIDER_PATROL</Type>
+			<Type>PROMOTION_SPIDER_PATROL</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_PATROL</Description>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
@@ -36857,7 +36861,7 @@
 			<Button>Art/Interface/Buttons/Promotions/SpiderGrey.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Golem - Patrol -->
-		<Type>PROMOTION_GOLEM_PATROL</Type>
+			<Type>PROMOTION_GOLEM_PATROL</Type>
 			<Description>TXT_KEY_PROMOTION_GOLEM_PATROL</Description>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
@@ -37378,8 +37382,8 @@
 			</BonusAffinities>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Graveleech -->
-		<Type>PROMOTION_GRAVELEECH</Type>
-		<bAutoAcquire>1</bAutoAcquire>
+			<Type>PROMOTION_GRAVELEECH</Type>
+			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
@@ -37510,7 +37514,7 @@
 			<Button>Art/Interface/Buttons/Promotions/throatslitters.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SACRIFICIAL_BLOOD_2</PromotionNextLevel>
-		<iSlaveGenerationChance>20</iSlaveGenerationChance>
+			<iSlaveGenerationChance>20</iSlaveGenerationChance>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Sacrificial Blood 2 -->
 			<Type>PROMOTION_SACRIFICIAL_BLOOD_2</Type>
@@ -37526,7 +37530,7 @@
 			<Button>Art/Interface/Buttons/Promotions/throatslitters.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SACRIFICIAL_BLOOD_4</PromotionNextLevel>
-		<iResistMagic>25</iResistMagic>
+			<iResistMagic>25</iResistMagic>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Sacrificial Blood 4 -->
 			<Type>PROMOTION_SACRIFICIAL_BLOOD_4</Type>
@@ -37534,8 +37538,8 @@
 			<Button>Art/Interface/Buttons/Promotions/throatslitters.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SACRIFICIAL_BLOOD_5</PromotionNextLevel>
-		<iSlaveGenerationChance>20</iSlaveGenerationChance>
-		<iCombatPercent>10</iCombatPercent>
+			<iSlaveGenerationChance>20</iSlaveGenerationChance>
+			<iCombatPercent>10</iCombatPercent>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Sacrificial Blood 5 -->
 			<Type>PROMOTION_SACRIFICIAL_BLOOD_5</Type>
@@ -37543,7 +37547,7 @@
 			<Button>Art/Interface/Buttons/Promotions/throatslitters.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SACRIFICIAL_BLOOD_6</PromotionNextLevel>
-		<iResistMagic>25</iResistMagic>
+			<iResistMagic>25</iResistMagic>
 			<iCombatHealPercent>10</iCombatHealPercent>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Sacrificial Blood 6 -->
@@ -37552,8 +37556,8 @@
 			<Button>Art/Interface/Buttons/Promotions/throatslitters.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SACRIFICIAL_BLOOD_7</PromotionNextLevel>
-		<iSlaveGenerationChance>30</iSlaveGenerationChance>
-		<iCombatPercent>10</iCombatPercent>
+			<iSlaveGenerationChance>30</iSlaveGenerationChance>
+			<iCombatPercent>10</iCombatPercent>
 			<DamageTypeResists>
 				<DamageTypeResist>
 					<DamageType>DAMAGE_HOLY</DamageType>
@@ -37567,7 +37571,7 @@
 			<Button>Art/Interface/Buttons/Promotions/throatslitters.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SACRIFICIAL_BLOOD_8</PromotionNextLevel>
-		<iCombatPercent>10</iCombatPercent>
+			<iCombatPercent>10</iCombatPercent>
 			<bImmuneToMagic>1</bImmuneToMagic>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Sacrificial Blood 8 -->
@@ -37575,8 +37579,8 @@
 			<Description>TXT_KEY_PROMOTION_SACRIFICIAL_BLOOD_8</Description>
 			<Button>Art/Interface/Buttons/Promotions/throatslitters.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		<iSlaveGenerationChance>30</iSlaveGenerationChance>
-		<iCombatPercent>10</iCombatPercent>
+			<iSlaveGenerationChance>30</iSlaveGenerationChance>
+			<iCombatPercent>10</iCombatPercent>
 			<BonusAffinities>
 				<BonusAffinity>
 					<BonusType>BONUS_MANA_BODY</BonusType>
@@ -37589,7 +37593,7 @@
 			<Description>TXT_KEY_PROMOTION_SACRIFICIAL_BLOOD_PRIEST</Description>
 			<Button>Art/Interface/Buttons/Promotions/throatslitters.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		<DamageTypeCombats>
+			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_UNHOLY</DamageType>
 					<iCombat>1</iCombat>
@@ -37810,7 +37814,7 @@
 			<Button>Art/Interface/Buttons/Promotions/ColdResistance.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<bNoXP>1</bNoXP>
-		<DamageTypeCombats>
+			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_COLD</DamageType>
 					<iCombat>1</iCombat>
@@ -38031,7 +38035,7 @@
 					<iTerrainDefense>25</iTerrainDefense>
 				</TerrainDefense>
 			</TerrainDefenses>
-		<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -38376,7 +38380,7 @@
 					<fDecayRate>0</fDecayRate>
 				</CityBonus>
 			</CityBonuses>
-		<iChangeDuration>5</iChangeDuration>
+			<iChangeDuration>5</iChangeDuration>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Phoenix Egg -->
 			<Type>PROMOTION_PHOENIX_EGG</Type>
@@ -38395,7 +38399,7 @@
 			<PromotionReplacedBy>PROMOTION_PHOENIX_SMALL</PromotionReplacedBy>
 			<Button>Art/Interface/Buttons/units/hawk.dds</Button>
 		</PromotionInfo>
-<PromotionInfo>		<!-- Phoenix Small -->
+		<PromotionInfo>		<!-- Phoenix Small -->
 			<Type>PROMOTION_PHOENIX_SMALL</Type>
 			<Description>TXT_KEY_PROMOTION_PHOENIX_SMALL</Description>
 			<PrereqPromotionANDs>
@@ -38439,7 +38443,7 @@
 			<ReplaceArtType>ART_DEF_UNIT_PHOENIX_SMALL</ReplaceArtType>
 			<PromotionNextLevel>PROMOTION_PHOENIX</PromotionNextLevel>
 		</PromotionInfo>
-<PromotionInfo>		<!-- Phoenix -->
+		<PromotionInfo>		<!-- Phoenix -->
 			<Type>PROMOTION_PHOENIX</Type>
 			<Description>TXT_KEY_PROMOTION_PHOENIX</Description>
 			<bAutoAcquire>1</bAutoAcquire>
@@ -38481,7 +38485,7 @@
 				</DamageTypeCombat>
 			</DamageTypeCombats>
 		</PromotionInfo>
-<PromotionInfo>		<!-- Phoenix Big -->
+		<PromotionInfo>		<!-- Phoenix Big -->
 			<Type>PROMOTION_PHOENIX_BIG</Type>
 			<Description>TXT_KEY_PROMOTION_PHOENIX_BIG</Description>
 			<PrereqPromotionANDs>
@@ -38524,7 +38528,7 @@
 				</DamageTypeCombat>
 			</DamageTypeCombats>
 		</PromotionInfo>
-<PromotionInfo>		<!-- Phoenix Very Big -->
+		<PromotionInfo>		<!-- Phoenix Very Big -->
 			<Type>PROMOTION_PHOENIX_VERY_BIG</Type>
 			<Description>TXT_KEY_PROMOTION_PHOENIX_VERY_BIG</Description>
 			<PrereqPromotionANDs>
@@ -38569,7 +38573,7 @@
 				</DamageTypeCombat>
 			</DamageTypeCombats>
 		</PromotionInfo>
-<PromotionInfo>		<!-- Phoenix Giant -->
+		<PromotionInfo>		<!-- Phoenix Giant -->
 			<Type>PROMOTION_PHOENIX_GIANT</Type>
 			<Description>TXT_KEY_PROMOTION_PHOENIX_GIANT</Description>
 			<PrereqPromotionANDs>
@@ -38622,7 +38626,7 @@
 			<TechPrereq>TECH_HUNTING</TechPrereq>
 			<bNoXP>1</bNoXP>
 			<iGoldCost>50</iGoldCost>
-		<PrereqCivilizations>
+			<PrereqCivilizations>
 				<PrereqCivilization>CIVILIZATION_LANUN</PrereqCivilization>
 			</PrereqCivilizations>
 			<PrereqInCity>1</PrereqInCity>
@@ -38892,7 +38896,7 @@
 					<iBonusRange>1</iBonusRange>
 				</CityBonus>
 			</CityBonuses>
-		<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -39366,7 +39370,7 @@
 				<iEnemyHealChange>-10</iEnemyHealChange>
 			<iNeutralHealChange>-10</iNeutralHealChange>
 			<iFriendlyHealChange>-10</iFriendlyHealChange>
-		<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -39552,7 +39556,7 @@
 				<iEnemyHealChange>-20</iEnemyHealChange>
 			<iNeutralHealChange>-20</iNeutralHealChange>
 			<iFriendlyHealChange>-20</iFriendlyHealChange>
-		<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -39665,8 +39669,8 @@
 			<PrereqTerrains>
 				<PrereqTerrain>TERRAIN_WASTELAND</PrereqTerrain>
 			</PrereqTerrains>
-		<PythonPostCombatLost>postCombatDeadLands(pCaster, pOpponent)</PythonPostCombatLost>
-		<iEnemyHealChange>-100</iEnemyHealChange>
+			<PythonPostCombatLost>postCombatDeadLands(pCaster, pOpponent)</PythonPostCombatLost>
+			<iEnemyHealChange>-100</iEnemyHealChange>
 			<iNeutralHealChange>-100</iNeutralHealChange>
 			<iFriendlyHealChange>-100</iFriendlyHealChange>
 			<UnitCombats>
@@ -39998,6 +40002,5 @@
 			<Description>TXT_KEY_PROMOTION_LEADING_CAMEL</Description>
 			<Button>Art/Interface/Buttons/WorldBuilder/Camel.dds</Button>
 		</PromotionInfo>
-		
 	</PromotionInfos>
 </Civ4PromotionInfos>
