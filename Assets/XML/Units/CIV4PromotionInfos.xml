@@ -35034,7 +35034,11 @@
 			<PromotionCombatMods>
 				<PromotionCombatMod>
 					<PromotionType>PROMOTION_DEMON</PromotionType>
-					<iCombatMod>30</iCombatMod>
+					<iCombatMod>20</iCombatMod>
+				</PromotionCombatMod>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_ICE_DEMON</PromotionType>
+					<iCombatMod>20</iCombatMod>
 				</PromotionCombatMod>
 			</PromotionCombatMods>
 			<UnitCombats>
@@ -35132,7 +35136,7 @@
 			<bNoXP>1</bNoXP>
 			<Button>Art/Interface/Buttons/Improvements/Bradelines Well.dds</Button>
 			<PrereqTraits>
-				<PrereqTrait>TRAIT_KEEPERS_BRADELINE</PrereqTrait>
+				<PrereqTrait>TRAIT_KEEPERS_BRADELINE_PURE</PrereqTrait>
 			</PrereqTraits>
 			<fFreeXPCap>25</fFreeXPCap>
 			<iFreeXPPerTurn>0.25</iFreeXPPerTurn>
@@ -35309,7 +35313,7 @@
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Blasphemers of the Eternal Pyre (EVIL)-->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_SERAPHIC_FALLEN</Type>
-			<Description>TXT_KEY_PROMOTION_KEEPERS_SERAPHIC</Description>
+			<Description>TXT_KEY_PROMOTION_KEEPERS_SERAPHIC_FALLEN</Description>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
@@ -35630,7 +35634,7 @@
 		<PromotionInfo>		<!-- Keepers of the Barred Procession -->				<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_SOULS</Type>
 			<Description>TXT_KEY_PROMOTION_KEEPERS_SOULS</Description>
-			<Button>,Art/Interface/Buttons/Builds/BuildWell.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,4,8</Button>
+			<Button>Art/Interface/Buttons/Improvements/Ruins.dds</Button>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
@@ -35705,7 +35709,7 @@
 		<PromotionInfo>		<!-- Blasphemers of the Taunted Dead (EVIL) -->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_SOULS_FALLEN</Type>
 			<Description>TXT_KEY_PROMOTION_KEEPERS_SOULS_FALLEN</Description>
-			<Button>,Art/Interface/Buttons/Builds/BuildWell.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,4,8</Button>
+			<Button>Art/Interface/Buttons/Improvements/Ruins.dds</Button>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
@@ -35780,7 +35784,7 @@
 		<PromotionInfo>		<!-- Redeemers of the Hallowed Path (OPEN) -->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_SOULS_OPEN</Type>
 			<Description>TXT_KEY_PROMOTION_KEEPERS_SOULS_OPEN</Description>
-			<Button>,Art/Interface/Buttons/Builds/BuildWell.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,4,8</Button>
+			<Button>Art/Interface/Buttons/Improvements/Ruins.dds</Button>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>

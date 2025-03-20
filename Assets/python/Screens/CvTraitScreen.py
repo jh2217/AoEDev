@@ -368,6 +368,8 @@ class CvTraitScreen:
 			if player.getNumTraitPerClass(kTrait.getTraitClass())>=player.getNumMaxTraitPerClass(kTrait.getTraitClass()) and not player.hasTrait(i):continue
 			if (player.getMinRequiredPoints(i)==0 and not player.hasTrait(i)): continue
 			if kTrait.getTraitClass()==gc.getInfoTypeForString("TRAITCLASS_EMERGENT") and not player.hasTrait(i) : continue
+			# TODO: Load hidden trait into display if it is actually acquired. Currentlty, it's always hidden:
+			if kTrait.isGraphicalOnly(): continue
 			if self.SelectedTrait==-1 : 
 				self.SelectedTrait=0
 				bupdate=True
@@ -385,6 +387,8 @@ class CvTraitScreen:
 			if player.getNumTraitPerClass(kTrait.getTraitClass())>=player.getNumMaxTraitPerClass(kTrait.getTraitClass()) and not player.hasTrait(i):continue
 			if (player.getMinRequiredPoints(i)==0 and not player.hasTrait(i)): continue
 			if kTrait.getTraitClass()==gc.getInfoTypeForString("TRAITCLASS_EMERGENT") and not player.hasTrait(i) : continue
+			# TODO: Load hidden trait into display if it is actually acquired. Currentlty, it's always hidden:
+			if kTrait.isGraphicalOnly(): continue
 			
 			iLv = self.getKnownLevel(i)
 			iLvM = self.calculateMaxLevel(kTrait)

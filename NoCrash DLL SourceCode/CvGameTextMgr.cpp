@@ -7896,7 +7896,8 @@ void CvGameTextMgr::parseTraits(CvWStringBuffer &szHelpString, TraitTypes eTrait
 		szTempBuffer.clear();
 		for (iI = 0; iI < GC.getNumPromotionInfos(); ++iI)
 		{
-			if (GC.getTraitInfo(eTrait).isFreePromotion(iI))
+			// Should list promotions once trait is acquired; how?
+			if (GC.getTraitInfo(eTrait).isFreePromotion(iI) && !GC.getPromotionInfo((PromotionTypes)iI).isGraphicalOnly())
 			{
 				if (bFoundPromotion)
 				{
@@ -7914,7 +7915,8 @@ void CvGameTextMgr::parseTraits(CvWStringBuffer &szHelpString, TraitTypes eTrait
 
 			for (iJ = 0; iJ < GC.getNumUnitCombatInfos(); iJ++)
 			{
-				if (GC.getTraitInfo(eTrait).isFreePromotionUnitCombat(iJ))
+				// Should list promotions once trait is acquired; how?
+				if (GC.getTraitInfo(eTrait).isFreePromotionUnitCombat(iJ) && !GC.getPromotionInfo((PromotionTypes)iJ).isGraphicalOnly())
 				{
 					szTempBuffer.Format(L"\n        %c<link=literal>%s</link>", gDLL->getSymbolID(BULLET_CHAR), GC.getUnitCombatInfo((UnitCombatTypes)iJ).getDescription());
 					szHelpString.append(szTempBuffer);
