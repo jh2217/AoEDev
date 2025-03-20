@@ -2479,11 +2479,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_MAGIC_RESISTANCE</Tag>
-		<English>Magic Resistance</English>
+		<English>Resist Magic</English>
 		<French>Résistance à la Magie</French>
 		<German>Widerstand gegen Magie</German>
-		<Italian>Magic Resistance</Italian>
-		<Spanish>Magic Resistance</Spanish>
+		<Italian>Resist Magic</Italian>
+		<Spanish>Resist Magic</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_MAGIC_RESISTANCE_PEDIA</Tag>
@@ -3542,12 +3542,12 @@
 		<Spanish>Keeper of Death's Jail</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_KEEPERS_SERAPHIC</Tag>
-		<English>Keeper of the Eternal Fire</English>
-		<French>Keeper of the Eternal Fire</French>
-		<German>Keeper of the Eternal Fire</German>
-		<Italian>Keeper of the Eternal Fire</Italian>
-		<Spanish>Keeper of the Eternal Fire</Spanish>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_SERAPHIC_FALLEN</Tag>
+		<English>Blasphemers of the Eternal Pyre</English>
+		<French>Blasphemers of the Eternal Pyre</French>
+		<German>Blasphemers of the Eternal Pyre</German>
+		<Italian>Blasphemers of the Eternal Pyre</Italian>
+		<Spanish>Blasphemers of the Eternal Pyre</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_KEEPERS_RINWELL</Tag>
@@ -3591,11 +3591,51 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_KEEPERS_WELL</Tag>
-		<English>Keeper of The Underworld's Gate</English>
-		<French>Keeper of The Underworld's Gate</French>
-		<German>Keeper of The Underworld's Gate</German>
-		<Italian>Keeper of The Underworld's Gate</Italian>
-		<Spanish>Keeper of The Underworld's Gate</Spanish>
+		<English>Keepers of The Underworld's Gate</English>
+		<French>Keepers of The Underworld's Gate</French>
+		<German>Keepers of The Underworld's Gate</German>
+		<Italian>Keepers of The Underworld's Gate</Italian>
+		<Spanish>Keepers of The Underworld's Gate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_WELL_FALLEN</Tag>
+		<English>Blasphemers of the Corrupted Depths</English>
+		<French>Blasphemers of the Corrupted Depths</French>
+		<German>Blasphemers of the Corrupted Depths</German>
+		<Italian>Blasphemers of the Corrupted Depths</Italian>
+		<Spanish>Blasphemers of the Corrupted Depths</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_WELL_PURE</Tag>
+		<English>Redeemers of the Sanctified Study</English>
+		<French>Redeemers of the Sanctified Study</French>
+		<German>Redeemers of the Sanctified Study</German>
+		<Italian>Redeemers of the Sanctified Study</Italian>
+		<Spanish>Redeemers of the Sanctified Study</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_SOULS</Tag>
+		<English>Keepers of the Barred Procession</English>
+		<French>Keepers of the Barred Procession</French>
+		<German>Keepers of the Barred Procession</German>
+		<Italian>Keepers of the Barred Procession</Italian>
+		<Spanish>Keepers of the Barred Procession</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_SOULS_FALLEN</Tag>
+		<English>Blasphemers of the Taunted Dead</English>
+		<French>Blasphemers of the Taunted Dead</French>
+		<German>Blasphemers of the Taunted Dead</German>
+		<Italian>Blasphemers of the Taunted Dead</Italian>
+		<Spanish>Blasphemers of the Taunted Dead</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_SOULS_OPEN</Tag>
+		<English>Redeemers of the Hallowed Path</English>
+		<French>Redeemers of the Hallowed Path</French>
+		<German>Redeemers of the Hallowed Path</German>
+		<Italian>Redeemers of the Hallowed Path</Italian>
+		<Spanish>Redeemers of the Hallowed Path</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_KEEPERS_MAELSTROM</Tag>
@@ -3606,15 +3646,7 @@
 		<Spanish>Keeper of The Maelstrom</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_KEEPERS_TEARS</Tag>
-		<English>Keeper of the Waters of Birth</English>
-		<French>Keeper of the Waters of Birth</French>
-		<German>Keeper of the Waters of Birth</German>
-		<Italian>Keeper of the Waters of Birth</Italian>
-		<Spanish>Keeper of the Waters of Birth</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_KEEPERS_ODIO</Tag>
+		<Tag>TXT_KEY_PROMOTION_KEEPERS_FOXFORD</Tag>
 		<English>Keeper of the Contained Wrath</English>
 		<French>Keeper of the Contained Wrath</French>
 		<German>Keeper of the Contained Wrath</German>

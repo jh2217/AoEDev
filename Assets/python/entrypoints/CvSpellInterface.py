@@ -12266,6 +12266,13 @@ def reqRemoveUtopia(pCity):
 	if pCity.getNumRealBuilding(getInfoType('BUILDING_UTOPIA')) > 0:
 		return True
 
+def spellOpenWellSouls(pCaster):
+	pPlot=pCaster.plot()
+	pPlot.setImprovementType(getInfoType("IMPROVEMENT_WELL_OF_SOULS_OPEN"))
+	# Renaming isn't working for some reason?
+	# CyEngine().removeLandmark(pPlot)
+	# CyEngine().addLandmark(pPlot, CvUtil.convertToStr(gc.getImprovementInfo(getInfoType("IMPROVEMENT_WELL_OF_SOULS_OPEN")).getDescription()))
+
 def reqPurifyWell(pCaster):
 	pPlayer = gc.getPlayer(pCaster.getOwner())
 	if pPlayer.getStateReligion()==getInfoType('RELIGION_THE_ASHEN_VEIL'):
@@ -12273,11 +12280,8 @@ def reqPurifyWell(pCaster):
 	hasPromo	= pCaster.isHasPromotion
 	if hasPromo(getInfoType('PROMOTION_LIFE3')) or hasPromo(getInfoType('PROMOTION_METAMAGIC3')) or hasPromo(getInfoType('PROMOTION_SPIRIT3')) :
 		return True
-	return False	
-def spellPurifyWellSouls(pCaster):
-	pPlot=pCaster.plot()
-	pPlot.setImprovementType(getInfoType("IMPROVEMENT_WELL_OF_SOULS_PURIFIED"))
-	
+	return False
+
 def spellPurifyWell(pCaster):
 	pPlayer = gc.getPlayer(pCaster.getOwner())
 	hasPromo	= pCaster.isHasPromotion

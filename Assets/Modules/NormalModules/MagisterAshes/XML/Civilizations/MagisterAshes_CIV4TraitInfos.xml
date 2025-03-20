@@ -15,61 +15,8 @@
 					<PromotionType>PROMOTION_KEEPERS_ABADDON</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
-			</FreePromotions>
-			<FreePromotionUnitCombats>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-			</FreePromotionUnitCombats>
-		</TraitInfo> 			
-		<TraitInfo>		<!-- Keepers of the Eternal Blizzard (Badb's Wandering Castle ) -->
-			<Type>TRAIT_KEEPERS_BADB</Type>
-			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
-			<iMinRequiredPoints>500</iMinRequiredPoints>
-			<bCanBeLost>1</bCanBeLost>
-			<Description>TXT_KEY_TRAIT_KEEPERS_BADB</Description>
-			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
-			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_BADB_SHORT</ShortDescription>
-			<FreePromotions>
 				<FreePromotion>
-					<PromotionType>PROMOTION_IMMUNE_COLD</PromotionType>
+					<PromotionType>PROMOTION_KEEPERS_ABADDON_FALLEN</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
@@ -91,60 +38,11 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-			</FreePromotionUnitCombats>
-		</TraitInfo>
-		<TraitInfo>		<!-- Keepers of the Lord of Dust's Tomb (Grave of Asmoday) -->
-			<Type>TRAIT_KEEPERS_ASMODAY</Type>
-			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
-			<iMinRequiredPoints>500</iMinRequiredPoints>
-			<bCanBeLost>1</bCanBeLost>
-			<Description>TXT_KEY_TRAIT_KEEPERS_ASMODAY</Description>
-			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
-			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_ASMODAY_SHORT</ShortDescription>
-			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_KEEPERS_ASMODAY</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
-			</FreePromotions>
-			<FreePromotionUnitCombats>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
@@ -160,6 +58,10 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -168,19 +70,15 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-				<TerrainYieldChanges>
-				<TerrainYieldChange>
-					<TerrainType>TERRAIN_WASTELAND</TerrainType>
-					<TerrainYields>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
-					</TerrainYields>
-				</TerrainYieldChange>
+			<TerrainYieldChanges>
 				<TerrainYieldChange>
 					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
 					<TerrainYields>
@@ -198,8 +96,106 @@
 					</TerrainYields>
 				</TerrainYieldChange>
 			</TerrainYieldChanges>
-		</TraitInfo> 	
-	<TraitInfo>		<!-- Keepers of the Veil of Shadows (Whispering Woods) -->
+		</TraitInfo>
+		<TraitInfo>		<!-- Keepers of the Eternal Blizzard (Badb's Wandering Castle ) -->
+			<Type>TRAIT_KEEPERS_BADB</Type>
+			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
+			<iMinRequiredPoints>500</iMinRequiredPoints>
+			<bCanBeLost>1</bCanBeLost>
+			<Description>TXT_KEY_TRAIT_KEEPERS_BADB</Description>
+			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
+			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_BADB_SHORT</ShortDescription>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_COLD_STRENGTH</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
+		</TraitInfo>
+		<TraitInfo>		<!-- Keepers of the Lord of Dust's Tomb (Grave of Asmoday) -->
+			<Type>TRAIT_KEEPERS_ASMODAY</Type>
+			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
+			<iMinRequiredPoints>500</iMinRequiredPoints>
+			<bCanBeLost>1</bCanBeLost>
+			<Description>TXT_KEY_TRAIT_KEEPERS_ASMODAY</Description>
+			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
+			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_ASMODAY_SHORT</ShortDescription>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_KEEPERS_ASMODAY</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_KEEPERS_ASMODAY_FALLEN</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
+		</TraitInfo>
+		<TraitInfo>		<!-- Keepers of the Veil of Shadows (Whispering Woods) -->
 			<Type>TRAIT_KEEPERS_WHISPERING</Type>
 			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
 			<iMinRequiredPoints>500</iMinRequiredPoints>
@@ -219,31 +215,7 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
@@ -251,11 +223,10 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-
 		</TraitInfo> 			
-		</TraitInfos>
+	</TraitInfos>
 </Civ4TraitInfos>

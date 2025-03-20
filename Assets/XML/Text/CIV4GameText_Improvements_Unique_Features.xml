@@ -38,20 +38,12 @@
 		<Spanish>Bradeline's Well</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_BRADELINES_WELL_EXPLORED</Tag>
-		<English>Bradeline's Well (explored)</English>
-		<French>Puits de Bradeline (exploré)</French>
-		<German><Text>Bradelines Brunnen (explored)</Text><Gender>Male</Gender><Plural>0</Plural></German>
-		<Italian>Bradeline's Well (explored)</Italian>
-		<Spanish>Bradeline's Well (explored)</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_BRADELINES_WELL_PURIFIED</Tag>
-		<English>Bradeline's Well (purified)</English>
-		<French>Puits de Bradeline (purifié)</French>
-		<German><Text>Bradelines Brunnen (purified)</Text><Gender>Male</Gender><Plural>0</Plural></German>
-		<Italian>Bradeline's Well (purified)</Italian>
-		<Spanish>Bradeline's Well (purified)</Spanish>
+		<English>Bradeline's Well (Purified)</English>
+		<French>Puits de Bradeline (Purifié)</French>
+		<German><Text>Bradelines Brunnen (Purified)</Text><Gender>Male</Gender><Plural>0</Plural></German>
+		<Italian>Bradeline's Well (Purified)</Italian>
+		<Spanish>Bradeline's Well (Purified)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_BRADELINES_WELL_PEDIA</Tag>
@@ -76,14 +68,6 @@
 		<German><Text>Geschändetes Grab</Text><Gender>Neuter</Gender><Plural>0</Plural></German>
 		<Italian>Broken Sepulcher</Italian>
 		<Spanish>Sepulcro profanado</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_BROKEN_SEPULCHER_EXPLORED</Tag>
-		<English>Broken Sepulcher (explored)</English>
-		<French>Sépulture profanée (explorée)</French>
-		<German><Text>Geschändetes Grab (explored)</Text><Gender>Neuter</Gender><Plural>0</Plural></German>
-		<Italian>Broken Sepulcher (explored)</Italian>
-		<Spanish>Sepulcro profanado (explored)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_BROKEN_SEPULCHER_PEDIA</Tag>
@@ -228,14 +212,6 @@
 		<German>Scheiterhaufen der Engel</German>
 		<Italian>Pyre of the Seraphic</Italian>
 		<Spanish>Pira de los Serafines</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_PYRE_OF_THE_SERAPHIC_EXPLORED</Tag>
-		<English>Pyre of the Seraphic (explored)</English>
-		<French>Bûcher des Séraphins (exploré)</French>
-		<German>Scheiterhaufen der Engel (explored)</German>
-		<Italian>Pyre of the Seraphic (explored)</Italian>
-		<Spanish>Pira de los Serafines (explored)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_PYRE_OF_THE_SERAPHIC_PEDIA</Tag>
@@ -383,11 +359,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_WELL_OF_SOULS</Tag>
-		<English>The Well of Souls</English>
+		<English>Blocked Well of Souls</English>
 		<French>Puits des Âmes</French>
-		<German>The Well of Souls</German>
-		<Italian>The Well of Souls</Italian>
-		<Spanish>The Well of Souls</Spanish>
+		<German>Blocked Well of Souls</German>
+		<Italian>Blocked Well of Souls</Italian>
+		<Spanish>Blocked Well of Souls</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_WELL_OF_SOULS_PEDIA</Tag>
@@ -398,12 +374,12 @@
 		<Spanish>The Well of Souls is one of the paths between Erebus and the Underworld. Closed by Tebryn Arbandi, the area near has since become infested by undead, as none of the dead's souls can pass through.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_WELL_OF_SOULS_PURIFIED</Tag>
-		<English>Purified Well of Souls</English>
+		<Tag>TXT_KEY_IMPROVEMENT_WELL_OF_SOULS_OPEN</Tag>
+		<English>Open Well of Souls</English>
 		<French>Puits des Âmes Purifié</French>
-		<German>Purified Well of Souls</German>
-		<Italian>Purified Well of Souls</Italian>
-		<Spanish>Purified Well of Souls</Spanish>
+		<German>Open Well of Souls</German>
+		<Italian>Open Well of Souls</Italian>
+		<Spanish>Open Well of Souls</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_FOXFORD</Tag>

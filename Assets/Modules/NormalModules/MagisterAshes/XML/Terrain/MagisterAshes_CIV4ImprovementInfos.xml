@@ -70,17 +70,14 @@
 				
 			</GoodyClasses>
 		</ImprovementInfo>
-		<ImprovementInfo>  <!--Wandering Castle of the Eternal Blizzard-->
+		<ImprovementInfo>  <!--Blizzard's Castle-->
 			<Type>IMPROVEMENT_BADBS_BLIZZARD</Type>
 			<Description>TXT_KEY_BADBS_BLIZZARD</Description>
 			<Civilopedia>TXT_KEY_IMPROVEMENT_BADBS_BLIZZARD_PEDIA</Civilopedia>
 			<Help>TXT_KEY_IMPROVEMENT_BADBS_BLIZZARD_HELP</Help>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_BADBS_BLIZZARD</ArtDefineTag>
-
 			<bPermanent>1</bPermanent>
-
 			<iAirBombDefense>20</iAirBombDefense>
-
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_TUNDRA</TerrainType>
@@ -118,7 +115,6 @@
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
-
 			<TechYieldChanges>
 				<TechYieldChange>
 					<PrereqTech>TECH_ELEMENTALISM</PrereqTech>
@@ -158,7 +154,7 @@
 				</GoodyClass>				
 			</GoodyClasses>
 		</ImprovementInfo>
-			<ImprovementInfo> <!-- Grave of Asmoday -->
+		<ImprovementInfo> <!-- Grave of Asmoday -->
 			<Type>IMPROVEMENT_GRAVE_OF_ASMODAY</Type>
 			<Description>TXT_KEY_IMPROVEMENT_GRAVE_OF_ASMODAY</Description>
 			<Civilopedia>TXT_KEY_IMPROVEMENT_GRAVE_OF_ASMODAY_PEDIA</Civilopedia>
@@ -407,6 +403,5 @@
 			<PythonAtRange>atRangeWiddershinsCurse(pCaster, pPlot)</PythonAtRange>
 			<SpawnUnitType/>
 		</ImprovementInfo>
-	
 	</ImprovementInfos>
 </Civ4ImprovementInfos>

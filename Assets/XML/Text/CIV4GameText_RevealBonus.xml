@@ -731,6 +731,30 @@
 		<Spanish>Keepers of the Underworld's Gate</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KEEPERS_BRADELINE_PURE</Tag>
+		<English>Redeemers of the Sanctified Passage</English>
+		<French>Redeemers of the Sanctified Passage</French>
+		<German>Redeemers of the Sanctified Passage</German>
+		<Italian>Redeemers of the Sanctified Passage</Italian>
+		<Spanish>Redeemers of the Sanctified Passage</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KEEPERS_SOULS</Tag>
+		<English>Keepers of the Barred Procession</English>
+		<French>Keepers of the Barred Procession</French>
+		<German>Keepers of the Barred Procession</German>
+		<Italian>Keepers of the Barred Procession</Italian>
+		<Spanish>Keepers of the Barred Procession</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_KEEPERS_SOULS_OPEN</Tag>
+		<English>Redeemers of the Hallowed Path</English>
+		<French>Redeemers of the Hallowed Path</French>
+		<German>Redeemers of the Hallowed Path</German>
+		<Italian>Redeemers of the Hallowed Path</Italian>
+		<Spanish>Redeemers of the Hallowed Path</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TRAIT_KEEPERS_SEPULCHER</Tag>
 		<English>Keepers of Death's Shattered Jail</English>
 		<French>Keepers of Death's Shattered Jail</French>
@@ -923,7 +947,7 @@
 		<Spanish>Keeper of Mercy's Light Affinity</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_AFFINITY_KEEPERS_CARCER</Tag>
+		<Tag>TXT_KEY_AFFINITY_KEEPERS_SERAPHIC_FALLEN</Tag>
 		<English>Keeper of The Frozen Passion Affinity</English>
 		<French>Keeper of The Frozen Passion Affinity</French>
 		<German>Keeper of The Frozen Passion Affinity</German>

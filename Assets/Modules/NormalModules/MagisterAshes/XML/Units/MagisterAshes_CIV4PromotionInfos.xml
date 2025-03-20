@@ -12,22 +12,70 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Magicresistance.dds</Button>
-			<DamageTypeResists>
-				<DamageTypeResist>
-					<DamageType>DAMAGE_UNHOLY</DamageType>
-					<iResist>25</iResist>
-				</DamageTypeResist>
-			</DamageTypeResists>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_GOOD</PrereqAlignment>
+				<PrereqAlignment>ALIGNMENT_NEUTRAL</PrereqAlignment>
+			</PrereqAlignments>
+			<Button>Art/Modules/MagisterAshes/Buttons/Asmoday.dds</Button>
+			<iCollateralExtraTargets>2</iCollateralExtraTargets>
+			<iCollateralLimitBoost>20</iCollateralLimitBoost>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_KEEPERS_ASMODAY</PrereqTrait>
+			</PrereqTraits>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Keepers of the Lord of Dust's Tomb (Evil)-->					<!-- For Elohim -->
+			<Type>PROMOTION_KEEPERS_ASMODAY_FALLEN</Type>
+			<Description>TXT_KEY_TRAIT_KEEPERS_ASMODAY_FALLEN</Description>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_EVIL</PrereqAlignment>
+			</PrereqAlignments>
+			<Button>Art/Modules/MagisterAshes/Buttons/Asmoday.dds</Button>
+			<iCollateralExtraTargets>2</iCollateralExtraTargets>
+			<iCollateralLimitBoost>40</iCollateralLimitBoost>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_KEEPERS_ASMODAY</PrereqTrait>
+			</PrereqTraits>
 			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_UNHOLY</DamageType>
 					<iCombat>1</iCombat>
 				</DamageTypeCombat>
 			</DamageTypeCombats>
-			<PrereqTraits>
-				<PrereqTrait>TRAIT_KEEPERS_ASMODAY</PrereqTrait>
-			</PrereqTraits>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -46,6 +94,14 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
@@ -58,10 +114,23 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Keepers of the Locusts' Jail-->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_ABADDON</Type>
@@ -69,33 +138,58 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Magicresistance.dds</Button>
-			<DamageTypeResists>
-				<DamageTypeResist>
-					<DamageType>DAMAGE_UNHOLY</DamageType>
-					<iResist>25</iResist>
-				</DamageTypeResist>
-			</DamageTypeResists>
+			<Button>Art/Modules/MagisterAshes/Buttons/AbaddonsPit.dds</Button>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_KEEPERS_ABADDON</PrereqTrait>
+			</PrereqTraits>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_GOOD</PrereqAlignment>
+				<PrereqAlignment>ALIGNMENT_NEUTRAL</PrereqAlignment>
+			</PrereqAlignments>
+			<bDoubleFortifyBonus>1</bDoubleFortifyBonus>
+			<iVisibilityChange>1</iVisibilityChange>
+			<iExtraPerception>1</iExtraPerception>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Keepers of the Locusts' Jail (Evil)-->
+			<Type>PROMOTION_KEEPERS_ABADDON_FALLEN</Type>
+			<Description>TXT_KEY_TRAIT_KEEPERS_ABADDON_FALLEN</Description>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<Button>Art/Modules/MagisterAshes/Buttons/AbaddonsPit.dds</Button>
 			<DamageTypeCombats>
 				<DamageTypeCombat>
-					<DamageType>DAMAGE_HOLY</DamageType>
+					<DamageType>DAMAGE_UNHOLY</DamageType>
 					<iCombat>1</iCombat>
 				</DamageTypeCombat>
 			</DamageTypeCombats>
 			<PromotionCombatMods>
 				<PromotionCombatMod>
-					<PromotionType>PROMOTION_DEMON</PromotionType>
-					<iCombatMod>20</iCombatMod>
-				</PromotionCombatMod>
-				<PromotionCombatMod>
-					<PromotionType>PROMOTION_ICE_DEMON</PromotionType>
-					<iCombatMod>20</iCombatMod>
+					<PromotionType>PROMOTION_ANGEL</PromotionType>
+					<iCombatMod>15</iCombatMod>
 				</PromotionCombatMod>
 			</PromotionCombatMods>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_ABADDON</PrereqTrait>
 			</PrereqTraits>
-									<UnitCombats>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_EVIL</PrereqAlignment>
+			</PrereqAlignments>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -113,6 +207,14 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
@@ -125,65 +227,54 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
-
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</PromotionInfo>
-	<PromotionInfo>		<!-- Keepers of the Veil of Shadows-->					<!-- For Elohim -->
+		<PromotionInfo>		<!-- Keepers of the Veil of Shadows-->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_WHISPERING</Type>
 			<Description>TXT_KEY_TRAIT_KEEPERS_WHISPERING</Description>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Magicresistance.dds</Button>
-			<DamageTypeResists>
-				<DamageTypeResist>
-					<DamageType>DAMAGE_DEATH</DamageType>
-					<iResist>75</iResist>
-				</DamageTypeResist>
-			</DamageTypeResists>
+			<Button>Art/Modules/MagisterAshes/Buttons/AbaddonsPit.dds</Button>
 			<iExtraPerception>3</iExtraPerception>
-			
+			<bIgnoreTerrainCosts>0</bIgnoreTerrainCosts>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_WHISPERING</PrereqTrait>
 			</PrereqTraits>
-									<UnitCombats>
+			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
-
 		</PromotionInfo>
 		<PromotionInfo>
 			<Type>PROMOTION_BONE_CIRCLET</Type>
@@ -201,9 +292,8 @@
 					<iAffinity>1</iAffinity>
 				</BonusAffinity>
 			</BonusAffinities>
-		
 		</PromotionInfo>
-	<PromotionInfo>
+		<PromotionInfo>
 			<Type>PROMOTION_MATRON_ESSENDI</Type>
 			<Description>TXT_KEY_EQUIPMENT_MATRON_ESSENDI</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
@@ -233,7 +323,6 @@
 					<iAffinity>1</iAffinity>
 				</BonusAffinity>
 			</BonusAffinities>
-		
 		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>

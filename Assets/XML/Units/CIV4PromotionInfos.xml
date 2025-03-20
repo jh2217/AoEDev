@@ -371,6 +371,7 @@
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Test Promotion -->
 			<Type>PROMOTION_TESTBLOCKEDSPELL</Type>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Description>zzzzzzTestPromo</Description>
 			<BlockedSpellClass>SPELLCLASS_DEATH</BlockedSpellClass>
 		</PromotionInfo>
@@ -13075,6 +13076,9 @@
 					<iResist>25</iResist>
 				</DamageTypeResist>
 			</DamageTypeResists>
+			<SecondaryUnitCombats>
+				<SecondaryUnitCombat>UNITCOMBAT_ROGUE</SecondaryUnitCombat>
+			</SecondaryUnitCombats>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Monk Purity -->
 			<Type>PROMOTION_MONK_PURITY</Type>
@@ -13109,6 +13113,9 @@
 					<iResist>100</iResist>
 				</DamageTypeResist>
 			</DamageTypeResists>
+			<SecondaryUnitCombats>
+				<SecondaryUnitCombat>UNITCOMBAT_MELEE</SecondaryUnitCombat>
+			</SecondaryUnitCombats>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Monstrous Creature -->
 			<Type>PROMOTION_MONSTROUS_CREATURE</Type>
@@ -19512,6 +19519,10 @@
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/ColdResistance.dds</Button>
 			<DamageTypeResists>
@@ -23346,6 +23357,10 @@
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/FireResistance.dds</Button>
@@ -25497,6 +25512,10 @@
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/LightningResistance.dds</Button>
 			<DamageTypeResists>
@@ -25559,6 +25578,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
@@ -26523,6 +26546,10 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
@@ -34881,12 +34908,12 @@
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
 			<iEnemyWithdrawalChange>-25</iEnemyWithdrawalChange>
-			<PromotionCombatMods>
-				<PromotionCombatMod>
-					<PromotionType>PROMOTION_UNDEAD</PromotionType>
-					<iCombatMod>25</iCombatMod>
-				</PromotionCombatMod>
-			</PromotionCombatMods>
+			<DamageTypeResists>
+				<DamageTypeResist>
+					<DamageType>DAMAGE_DEATH</DamageType>
+					<iResist>25</iResist>
+				</DamageTypeResist>
+			</DamageTypeResists>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_SEPULCHER</PrereqTrait>
 			</PrereqTraits>
@@ -34913,6 +34940,10 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
@@ -34925,50 +34956,37 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Keepers of the Contained Wrath-->					<!-- For Elohim -->
-			<Type>PROMOTION_KEEPERS_ODIO</Type>
-			<Description>TXT_KEY_PROMOTION_KEEPERS_ODIO</Description>
+		<PromotionInfo>		<!-- Keepers of the Howling Hamlet-->					<!-- For Elohim -->
+			<Type>PROMOTION_KEEPERS_FOXFORD</Type>
+			<Description>TXT_KEY_PROMOTION_KEEPERS_FOXFORD</Description>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<PromotionCombatMods>
-				<PromotionCombatMod>
-					<PromotionType>PROMOTION_DEMON</PromotionType>
-					<iCombatMod>20</iCombatMod>
-				</PromotionCombatMod>
-				<PromotionCombatMod>
-					<PromotionType>PROMOTION_ICE_DEMON</PromotionType>
-					<iCombatMod>20</iCombatMod>
-				</PromotionCombatMod>
-			</PromotionCombatMods>
 			<Button>Art/Interface/Buttons/Promotions/Demonslaying.dds</Button>
 			<PrereqTraits>
-				<PrereqTrait>TRAIT_KEEPERS_ODIO</PrereqTrait>
+				<PrereqTrait>TRAIT_KEEPERS_FOXFORD</PrereqTrait>
 			</PrereqTraits>
+			<iChanceFirstStrikesChange>2</iChanceFirstStrikesChange>
 			<UnitCombats>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
@@ -34976,30 +34994,28 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
 			</UnitCombats>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Keepers of the Underworld's Gate-->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_WELL</Type>
@@ -35008,10 +35024,49 @@
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
 			<Button>Art/Interface/Buttons/Promotions/Demonslaying.dds</Button>
-			<iResistMagic>50</iResistMagic>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_BRADELINE</PrereqTrait>
 			</PrereqTraits>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_GOOD</PrereqAlignment>
+				<PrereqAlignment>ALIGNMENT_NEUTRAL</PrereqAlignment>
+			</PrereqAlignments>
+			<PromotionCombatMods>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_DEMON</PromotionType>
+					<iCombatMod>30</iCombatMod>
+				</PromotionCombatMod>
+			</PromotionCombatMods>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Blasphemers of the Corrupted Depths (EVIL)-->					<!-- For Elohim -->
+			<Type>PROMOTION_KEEPERS_WELL_FALLEN</Type>
+			<Description>TXT_KEY_PROMOTION_KEEPERS_WELL_FALLEN</Description>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<Button>Art/Interface/Buttons/Promotions/Demonslaying.dds</Button>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_EVIL</PrereqAlignment>
+			</PrereqAlignments>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_KEEPERS_BRADELINE</PrereqTrait>
+			</PrereqTraits>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_UNHOLY</DamageType>
+					<iCombat>1</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -35030,6 +35085,14 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
@@ -35042,18 +35105,47 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Redeemers of the Sanctified Study (PURIFIED)-->					<!-- For Elohim -->
+			<Type>PROMOTION_KEEPERS_WELL_PURE</Type>
+			<Description>TXT_KEY_PROMOTION_KEEPERS_WELL_PURE</Description>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<Button>Art/Interface/Buttons/Promotions/Demonslaying.dds</Button>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_KEEPERS_BRADELINE</PrereqTrait>
+			</PrereqTraits>
+			<fFreeXPCap>25</fFreeXPCap>
+			<iFreeXPPerTurn>0.25</iFreeXPPerTurn>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Keepers of Life's Tomb-->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_SUCELLUS</Type>
@@ -35061,7 +35153,10 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<bAlwaysHeal>1</bAlwaysHeal>
+			<iCombatHealPercent>5</iCombatHealPercent>
+			<iEnemyHealChange>10</iEnemyHealChange>
+			<iNeutralHealChange>10</iNeutralHealChange>
+			<iFriendlyHealChange>10</iFriendlyHealChange>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_SUCELLUS</PrereqTrait>
 			</PrereqTraits>
@@ -35084,6 +35179,14 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
@@ -35096,15 +35199,23 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
@@ -35125,6 +35236,10 @@
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Keepers of Storm's Crag-->					<!-- For Elohim -->
@@ -35141,10 +35256,6 @@
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
@@ -35174,76 +35285,53 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_BONES</PrereqTrait>
 			</PrereqTraits>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
 			<UnitCombats>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
 			</UnitCombats>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Keepers of The Eternal Fire-->					<!-- For Elohim -->
-			<Type>PROMOTION_KEEPERS_SERAPHIC</Type>
+		<PromotionInfo>		<!-- Keepers of The Eternal Fire (EVIL)-->					<!-- For Elohim -->
+			<Type>PROMOTION_KEEPERS_SERAPHIC_FALLEN</Type>
 			<Description>TXT_KEY_PROMOTION_KEEPERS_SERAPHIC</Description>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
 			<Button>Art/Interface/Buttons/Promotions/FireResistance.dds</Button>
-			<DamageTypeResists>
-				<DamageTypeResist>
-					<DamageType>DAMAGE_FIRE</DamageType>
-					<iResist>25</iResist>
-				</DamageTypeResist>
-			</DamageTypeResists>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_EVIL</PrereqAlignment>
+			</PrereqAlignments>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_PYRE</PrereqTrait>
 			</PrereqTraits>
+			<Affinities>
+				<Affinity>AFFINITY_KEEPERS_SERAPHIC_FALLEN</Affinity>
+			</Affinities>
+			<PromotionCombatMods>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_ANGEL</PromotionType>
+					<iCombatMod>15</iCombatMod>
+				</PromotionCombatMod>
+			</PromotionCombatMods>
 			<UnitCombats>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
@@ -35255,15 +35343,20 @@
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
 			<Button>Art/Interface/Buttons/Promotions/Magicresistance.dds</Button>
+			<bAmphib>1</bAmphib>
+			<bRiver>1</bRiver>
 			<DamageTypeResists>
 				<DamageTypeResist>
-					<DamageType>DAMAGE_DEATH</DamageType>
+					<DamageType>DAMAGE_UNHOLY</DamageType>
 					<iResist>25</iResist>
 				</DamageTypeResist>
 			</DamageTypeResists>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_RINWELL</PrereqTrait>
 			</PrereqTraits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_AMPHIBIOUS</Promotion>
+			</PromotionExcludes>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -35282,6 +35375,14 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
@@ -35294,15 +35395,19 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
@@ -35401,6 +35506,9 @@
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
 			<Button>Art/Interface/Buttons/Promotions/Courage.dds</Button>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_GOOD</PrereqAlignment>
+			</PrereqAlignments>
 			<Affinities>
 				<Affinity>AFFINITY_KEEPERS_SIRONA</Affinity>
 			</Affinities>
@@ -35422,15 +35530,65 @@
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
 			<Button>Art/Interface/Buttons/Promotions/Courage.dds</Button>
-			<Affinities>
-				<Affinity>AFFINITY_KEEPERS_CARCER</Affinity>
-			</Affinities>
+			<iExperiencePercent>15</iExperiencePercent>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_CARCER</PrereqTrait>
 			</PrereqTraits>
 			<UnitCombats>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
@@ -35449,15 +35607,15 @@
 			</PrereqTraits>
 			<UnitCombats>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
@@ -35467,7 +35625,6 @@
 			<Description>TXT_KEY_PROMOTION_KEEPERS_EYES</Description>
 			<Button>Art/Interface/Buttons/Promotions/Loyalty1.dds</Button>
 			<bImmuneToCapture>1</bImmuneToCapture>
-			<iBetrayalChance>-25</iBetrayalChance>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
@@ -35492,6 +35649,14 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
@@ -35504,7 +35669,66 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Keepers of the Barred Procession -->				<!-- For Elohim -->
+			<Type>PROMOTION_KEEPERS_SOULS</Type>
+			<Description>TXT_KEY_PROMOTION_KEEPERS_SOULS</Description>
+			<Button>Art/Interface/Buttons/Promotions/Loyalty1.dds</Button>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PromotionCombatMods>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_UNDEAD</PromotionType>
+					<iCombatMod>15</iCombatMod>
+				</PromotionCombatMod>
+			</PromotionCombatMods>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_GOOD</PrereqAlignment>
+				<PrereqAlignment>ALIGNMENT_NEUTRAL</PrereqAlignment>
+			</PrereqAlignments>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_KEEPERS_SOULS</PrereqTrait>
+			</PrereqTraits>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
@@ -35512,10 +35736,191 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Blasphemers of the Taunted Dead (EVIL) -->					<!-- For Elohim -->
+			<Type>PROMOTION_KEEPERS_SOULS_FALLEN</Type>
+			<Description>TXT_KEY_PROMOTION_KEEPERS_SOULS_FALLEN</Description>
+			<Button>Art/Interface/Buttons/Promotions/Loyalty1.dds</Button>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_EVIL</PrereqAlignment>
+			</PrereqAlignments>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_DEATH</DamageType>
+					<iCombat>1</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_KEEPERS_SOULS</PrereqTrait>
+			</PrereqTraits>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Redeemers of the Hallowed Path (OPEN) -->					<!-- For Elohim -->
+			<Type>PROMOTION_KEEPERS_SOULS_OPEN</Type>
+			<Description>TXT_KEY_PROMOTION_KEEPERS_SOULS_OPEN</Description>
+			<Button>Art/Interface/Buttons/Promotions/Loyalty1.dds</Button>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqAlignments>
+				<PrereqAlignment>ALIGNMENT_GOOD</PrereqAlignment>
+				<PrereqAlignment>ALIGNMENT_NEUTRAL</PrereqAlignment>
+			</PrereqAlignments>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_KEEPERS_SOULS_OPEN</PrereqTrait>
+			</PrereqTraits>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_HOLY</DamageType>
+					<iCombat>1</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
+			<PromotionCombatMods>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_UNDEAD</PromotionType>
+					<iCombatMod>30</iCombatMod>
+				</PromotionCombatMod>
+			</PromotionCombatMods>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Blood Hounds -->					<!--  -->
 			<Type>PROMOTION_BLOOD_HOUND</Type>

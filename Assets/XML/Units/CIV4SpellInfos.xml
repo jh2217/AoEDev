@@ -11578,7 +11578,7 @@
 			<ImprovementPrereq>IMPROVEMENT_WELL_OF_SOULS</ImprovementPrereq>
 			<PromotionPrereq1>PROMOTION_HEARTSTONE</PromotionPrereq1>
 			<bHasCasted>1</bHasCasted>
-			<PyResult>spellPurifyWellSouls(pCaster)</PyResult>
+			<PyResult>spellOpenWellSouls(pCaster)</PyResult>
 			<Effect>EFFECT_SACRIFICE</Effect>
 			<Sound>AS3D_SPELL_SACRIFICE</Sound>
 			<Button>Art/Interface/Buttons/Spells/Sacrifice.dds</Button>

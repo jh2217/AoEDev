@@ -92,23 +92,23 @@
 			</AffinityDamageResist>
 			</AffinityDamageResists>
 		</AffinityInfo>
-				<AffinityInfo><!-- Keepers of the Frozen Passion Affinity -->
-			<Type>AFFINITY_KEEPERS_CARCER</Type>
-			<Description>TXT_KEY_AFFINITY_KEEPERS_CARCER</Description>
-			<Civilopedia>TXT_KEY_AFFINITY_KEEPERS_CARCER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_AFFINITY_KEEPERS_CARCER_STRATEGY</Strategy>
+		<AffinityInfo><!-- Keepers of the Frozen Passion Affinity -->
+			<Type>AFFINITY_KEEPERS_SERAPHIC_FALLEN</Type>
+			<Description>TXT_KEY_AFFINITY_KEEPERS_SERAPHIC_FALLEN</Description>
+			<Civilopedia>TXT_KEY_AFFINITY_KEEPERS_SERAPHIC_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_AFFINITY_KEEPERS_SERAPHIC_STRATEGY</Strategy>
 			<BonusTypes>
 				<BonusType>BONUS_MANA_FIRE</BonusType>
 			</BonusTypes>
 			<AffinityDamageTypes>
-			<AffinityDamageType>
-			<DamageType>DAMAGE_HOLY</DamageType>
-			<fCombat>0.5</fCombat>
-			</AffinityDamageType>
-			<AffinityDamageType>
-			<DamageType>DAMAGE_FIRE</DamageType>
-			<fCombat>0.5</fCombat>
-			</AffinityDamageType>
+				<AffinityDamageType>
+					<DamageType>DAMAGE_HOLY</DamageType>
+					<fCombat>0.5</fCombat>
+				</AffinityDamageType>
+				<AffinityDamageType>
+					<DamageType>DAMAGE_FIRE</DamageType>
+					<fCombat>0.5</fCombat>
+				</AffinityDamageType>
 			</AffinityDamageTypes>
 			<fMovement>0.5</fMovement>
 			<fFirstStrikes>0.5</fFirstStrikes>

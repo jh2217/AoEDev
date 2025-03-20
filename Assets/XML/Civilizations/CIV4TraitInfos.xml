@@ -2722,6 +2722,10 @@
 					<PromotionType>PROMOTION_KEEPERS_EYES</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_MAGIC_RESISTANCE</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
@@ -2741,6 +2745,14 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -2753,6 +2765,10 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -2761,7 +2777,11 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
@@ -2798,6 +2818,14 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -2810,6 +2838,10 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -2818,7 +2850,11 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
@@ -2880,6 +2916,22 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_RINWELL</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_RINWELL_SHORT</ShortDescription>
+			<TerrainYieldChanges>
+				<TerrainYieldChange>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
+					<TerrainYields>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</TerrainYields>
+					<TerrainType>TERRAIN_SHALLOWS</TerrainType>
+					<TerrainYields>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</TerrainYields>
+				</TerrainYieldChange>
+			</TerrainYieldChanges>
 			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_RINWELL</PromotionType>
@@ -2904,6 +2956,14 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -2916,6 +2976,10 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -2924,7 +2988,7 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
@@ -2945,7 +3009,59 @@
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
@@ -2970,17 +3086,27 @@
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_PYRE_SHORT</ShortDescription>
 			<FreePromotions>
 				<FreePromotion>
-					<PromotionType>PROMOTION_KEEPERS_SERAPHIC</PromotionType>
+					<PromotionType>PROMOTION_FIRE_RESISTANCE</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_KEEPERS_SERAPHIC_FALLEN</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
+			<TerrainYieldChanges>
+				<TerrainYieldChange>
+					<TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
+					<TerrainYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</TerrainYields>
+				</TerrainYieldChange>
+			</TerrainYieldChanges>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
@@ -2989,6 +3115,14 @@
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
@@ -3004,6 +3138,10 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -3012,7 +3150,7 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
@@ -3025,6 +3163,7 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_POOL</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_POOL_SHORT</ShortDescription>
+			<iHealth>4</iHealth>
 			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_TEARS</PromotionType>
@@ -3037,15 +3176,19 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
@@ -3061,6 +3204,10 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -3069,7 +3216,7 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
@@ -3082,54 +3229,7 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_ODIO</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_ODIO_SHORT</ShortDescription>
-			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_KEEPERS_ODIO</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
-			</FreePromotions>
-			<FreePromotionUnitCombats>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-			</FreePromotionUnitCombats>
+			<iFreeXPFromCombat>1</iFreeXPFromCombat>
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of Earth's Fiery Heart  (Mount Kalshekk) -->
 			<Type>TRAIT_KEEPERS_KALSHEKK</Type>
@@ -3143,8 +3243,8 @@
 				<FeatureYieldChange>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<FeatureYields>
-						<iYield>0</iYield>
-						<iYield>0</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
 						<iYield>1</iYield>
 					</FeatureYields>
 				</FeatureYieldChange>
@@ -3158,6 +3258,16 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_MIRROR</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_MIRROR_SHORT</ShortDescription>
+			<FeatureYieldChanges>
+				<FeatureYieldChange>
+					<FeatureType>FEATURE_OASIS</FeatureType>
+					<FeatureYields>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</FeatureYields>
+				</FeatureYieldChange>
+			</FeatureYieldChanges>
 			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_MIRROR</PromotionType>
@@ -3165,6 +3275,10 @@
 				</FreePromotion>
 			</FreePromotions>
 			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
@@ -3192,6 +3306,10 @@
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
@@ -3232,10 +3350,6 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -3245,6 +3359,10 @@
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
@@ -3272,11 +3390,11 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-		</TraitInfo>  	
+		</TraitInfo>
 		<TraitInfo>		<!-- Keepers of the Mechanical Marvel (clockwork city) -->
 			<Type>TRAIT_KEEPERS_CLOCKWORK</Type>
 			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
@@ -3307,6 +3425,62 @@
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_PRISTIN_SHORT</ShortDescription>
 			<FreeBuilding>BUILDINGCLASS_PRISTIN_GUARDIAN</FreeBuilding>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_LIGHTNING_RESISTANCE</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of the Howling Hamlet (Foxford) -->
 			<Type>TRAIT_KEEPERS_FOXFORD</Type>
@@ -3316,7 +3490,26 @@
 			<Description>TXT_KEY_TRAIT_KEEPERS_FOXFORD</Description>
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_FOXFORD_SHORT</ShortDescription>
-			<iFreeXPFromCombat>1</iFreeXPFromCombat>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_KEEPERS_FOXFORD</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
 		</TraitInfo> 	
 		<TraitInfo>		<!-- Keepers of the Giant Skull (Dragon Bones) -->
 			<Type>TRAIT_KEEPERS_BONES</Type>
@@ -3334,7 +3527,7 @@
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
@@ -3359,31 +3552,7 @@
 			</FreePromotions>
 			<FreePromotionUnitCombats>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
@@ -3392,10 +3561,6 @@
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
-					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
-				</FreePromotionUnitCombat>
-				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
@@ -3433,6 +3598,10 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -3457,7 +3626,7 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
@@ -3476,6 +3645,10 @@
 			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_KEEPERS_WELL</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_KEEPERS_WELL_FALLEN</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
@@ -3497,6 +3670,14 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -3509,6 +3690,10 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
@@ -3517,11 +3702,87 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 				<FreePromotionUnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-		</TraitInfo> 	
+		</TraitInfo>
+		<TraitInfo>		<!-- Keepers of the Sanctified Study (Bradeline's Well Purified) -->
+			<Type>TRAIT_KEEPERS_BRADELINE_PURE</Type>
+			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
+			<iMinRequiredPoints>500</iMinRequiredPoints>
+			<bCanBeLost>1</bCanBeLost>
+			<Description>TXT_KEY_TRAIT_KEEPERS_BRADELINE_PURE</Description>
+			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
+			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_BRADELINE_SHORT</ShortDescription>
+			<!-- If the well is purified, evil elohim can still benefit from study, but doesn't get the _FALLEN promotion. Good still benefits from base promo -->
+			<!-- It makes evil elohim both redeemers and blasphemers here, but.... oh well -->
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_KEEPERS_WELL</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_KEEPERS_WELL_PURE</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitInfo>
 		<TraitInfo>		<!-- Keepers of the Undying's Lair (Bair of Lacuna) -->
 			<Type>TRAIT_KEEPERS_LACUNA</Type>
 			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
@@ -3541,11 +3802,164 @@
 			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_AIFON_SHORT</ShortDescription>
 			<TradeYieldModifiers>
-				<iYield>10</iYield>
+				<iYield>15</iYield>
 				<iYield>0</iYield>
-				<iYield>10</iYield>
+				<iYield>15</iYield>
 			</TradeYieldModifiers>
-		</TraitInfo> 		
+		</TraitInfo>
+		<TraitInfo>		<!-- Keepers of the Barred Procession (Well of Souls) -->
+			<Type>TRAIT_KEEPERS_SOULS</Type>
+			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
+			<iMinRequiredPoints>500</iMinRequiredPoints>
+			<bCanBeLost>1</bCanBeLost>
+			<Description>TXT_KEY_TRAIT_KEEPERS_SOULS</Description>
+			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
+			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_SOULS_SHORT</ShortDescription>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_KEEPERS_SOULS</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_KEEPERS_SOULS_FALLEN</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
+			<TerrainYieldChanges>
+				<TerrainYieldChange>
+					<TerrainType>TERRAIN_WASTELAND</TerrainType>
+					<TerrainYields>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</TerrainYields>
+				</TerrainYieldChange>
+			</TerrainYieldChanges>
+		</TraitInfo>
+		<TraitInfo>		<!-- Keepers of the Hallowed Path (Well of Souls, Open) -->
+			<Type>TRAIT_KEEPERS_SOULS_OPEN</Type>
+			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
+			<iMinRequiredPoints>500</iMinRequiredPoints>
+			<bCanBeLost>1</bCanBeLost>
+			<Description>TXT_KEY_TRAIT_KEEPERS_SOULS_OPEN</Description>
+			<Civilopedia>TXT_KEY_TRAIT_KEEPERS_PEDIA</Civilopedia>
+			<ShortDescription>TXT_KEY_TRAIT_KEEPERS_SOULS_SHORT</ShortDescription>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_KEEPERS_WELL_PURE</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitInfo>	
 		<TraitInfo>		<!-- Aggressive -->									<!-- Republic traits -->
 			<Type>TRAIT_AGGRESSIVE_REPUBLIC</Type>
 			<TraitClass>TRAITCLASS_REPUBLIC</TraitClass>

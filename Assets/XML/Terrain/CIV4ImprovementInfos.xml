@@ -8624,8 +8624,8 @@
 			<iSpawnAtOnceLimit>4</iSpawnAtOnceLimit>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Well of Souls (Open) -->
-			<Type>IMPROVEMENT_WELL_OF_SOULS_PURIFIED</Type>
-			<Description>TXT_KEY_IMPROVEMENT_WELL_OF_SOULS_PURIFIED</Description>
+			<Type>IMPROVEMENT_WELL_OF_SOULS_OPEN</Type>
+			<Description>TXT_KEY_IMPROVEMENT_WELL_OF_SOULS_OPEN</Description>
 			<Civilopedia>TXT_KEY_IMPROVEMENT_WELL_OF_SOULS_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_BRADELINES_WELL</ArtDefineTag>
 			<YieldChanges>
@@ -8637,7 +8637,7 @@
 			<bPermanent>1</bPermanent>
 			<BonusTypeStructs>
 				<BonusTypeStruct>
-					<BonusType>BONUS_MANA_DEATH</BonusType>
+					<BonusType>BONUS_MANA_LAW</BonusType>
 					<bBonusMakesValid>1</bBonusMakesValid>
 					<bBonusTrade>1</bBonusTrade>
 					<iDiscoverRand>0</iDiscoverRand>
@@ -8661,7 +8661,7 @@
 			</TechYieldChanges>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<bUnique>1</bUnique>
-			<BonusConvert>BONUS_MANA_DEATH</BonusConvert>
+			<BonusConvert>BONUS_MANA_LAW</BonusConvert>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Air Mana Node -->                 <!-- Mana Nodes -->
 			<Type>IMPROVEMENT_MANA_AIR</Type>
