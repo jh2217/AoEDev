@@ -112,6 +112,7 @@
 			</AffinityDamageTypes>
 			<fMovement>0.5</fMovement>
 			<fFirstStrikes>0.5</fFirstStrikes>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</AffinityInfo>
 		<AffinityInfo><!-- Dominant Affinity --> <!-- Elijah Dominant Affinity-->
 			<Type>AFFINITY_DOMINANT</Type>

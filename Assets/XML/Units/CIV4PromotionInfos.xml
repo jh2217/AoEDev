@@ -34917,7 +34917,7 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_SEPULCHER</PrereqTrait>
 			</PrereqTraits>
-			<Button>Art/Interface/Buttons/Promotions/Undeadslaying.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/Broken Sepulcher.dds</Button>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -34979,7 +34979,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Demonslaying.dds</Button>
+			<Button>,Art/Interface/Buttons/Builds/BuildTribalVillage.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,4,10</Button>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_FOXFORD</PrereqTrait>
 			</PrereqTraits>
@@ -35023,7 +35023,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Demonslaying.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/Bradelines Well.dds</Button>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_BRADELINE</PrereqTrait>
 			</PrereqTraits>
@@ -35054,7 +35054,8 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Demonslaying.dds</Button>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<Button>Art/Interface/Buttons/Improvements/Bradelines Well.dds</Button>
 			<PrereqAlignments>
 				<PrereqAlignment>ALIGNMENT_EVIL</PrereqAlignment>
 			</PrereqAlignments>
@@ -35129,7 +35130,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Demonslaying.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/Bradelines Well.dds</Button>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_BRADELINE</PrereqTrait>
 			</PrereqTraits>
@@ -35160,7 +35161,7 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_SUCELLUS</PrereqTrait>
 			</PrereqTraits>
-			<Button>Art/Interface/Buttons/Promotions/HeartAmulet.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/Tomb of Sucellus.dds</Button>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -35226,7 +35227,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Defensive.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/Maelstrom.dds</Button>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_MAELSTROM</PrereqTrait>
 			</PrereqTraits>
@@ -35267,7 +35268,7 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
-			<Button>Art/Interface/Buttons/Promotions/Adventurer.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/Button_Stormclouds.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Keepers of the Giant Skull-->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_BONES</Type>
@@ -35275,7 +35276,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/SubdueBeasts.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/Dragon Bones.dds</Button>
 			<UnitCombatCaptureRates>
 				<UnitCombatCaptureRate>
 					<UnitCombatCaptureRateType>UNITCOMBAT_BEAST</UnitCombatCaptureRateType>
@@ -35306,13 +35307,13 @@
 				</UnitCombat>
 			</UnitCombats>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Keepers of The Eternal Fire (EVIL)-->					<!-- For Elohim -->
+		<PromotionInfo>		<!-- Blasphemers of the Eternal Pyre (EVIL)-->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_SERAPHIC_FALLEN</Type>
 			<Description>TXT_KEY_PROMOTION_KEEPERS_SERAPHIC</Description>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/FireResistance.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/Pyre of the Seraphic.dds</Button>
 			<PrereqAlignments>
 				<PrereqAlignment>ALIGNMENT_EVIL</PrereqAlignment>
 			</PrereqAlignments>
@@ -35335,6 +35336,7 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Keepers of The Dead Island-->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_RINWELL</Type>
@@ -35342,7 +35344,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Magicresistance.dds</Button>
+			<Button>Art\Civs\UFs\island.dds</Button>
 			<bAmphib>1</bAmphib>
 			<bRiver>1</bRiver>
 			<DamageTypeResists>
@@ -35418,7 +35420,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Magicresistance.dds</Button>
+			<Button>,Art/Interface/Buttons/Traits/Trait.dds,Art/Spell_Atlas.dds,8,10</Button>
 				<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_CLOCKWORK</PrereqTrait>
 			</PrereqTraits>
@@ -35433,71 +35435,6 @@
 				</UnitCombat>
 			</UnitCombats>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Keepers of The Waters of Birth-->					<!-- For Elohim -->
-			<Type>PROMOTION_KEEPERS_TEARS</Type>
-			<Description>TXT_KEY_PROMOTION_KEEPERS_TEARS</Description>
-			<bAutoAcquire>1</bAutoAcquire>
-			<bMustMaintain>1</bMustMaintain>
-			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/PoisonResistance.dds</Button>
-			<DamageTypeResists>
-				<DamageTypeResist>
-					<DamageType>DAMAGE_POISON</DamageType>
-					<iResist>100</iResist>
-				</DamageTypeResist>
-			</DamageTypeResists>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_POISONED</Promotion>
-			</PromotionExcludes>
-			<PromotionOverwrites>
-				<Promotion>PROMOTION_POISONED</Promotion>
-			</PromotionOverwrites>
-			<PrereqTraits>
-				<PrereqTrait>TRAIT_KEEPERS_POOL</PrereqTrait>
-			</PrereqTraits>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-		</PromotionInfo>
 		<PromotionInfo>		<!-- Keepers of Mercy's Light -->
 			<Type>PROMOTION_KEEPERS_SIRONA</Type>
 			<Description>TXT_KEY_PROMOTION_KEEPERS_SIRONA</Description>
@@ -35505,7 +35442,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Courage.dds</Button>
+			<Button>Art/Interface/Buttons/improvements/SironasBeacon.dds</Button>
 			<PrereqAlignments>
 				<PrereqAlignment>ALIGNMENT_GOOD</PrereqAlignment>
 			</PrereqAlignments>
@@ -35529,7 +35466,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Promotions/Courage.dds</Button>
+			<Button>Art/Interface/Buttons/Spells/WallOfForce.dds</Button>
 			<iExperiencePercent>15</iExperiencePercent>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_CARCER</PrereqTrait>
@@ -35599,7 +35536,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Spells/SunPerception.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/Mirror of Heaven.dds</Button>
 			<iVisibilityChange>1</iVisibilityChange>
 			<iExtraPerception>1</iExtraPerception>
 			<PrereqTraits>
@@ -35623,7 +35560,7 @@
 		<PromotionInfo>		<!-- Keepers of the Madman's Cell-->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_EYES</Type>
 			<Description>TXT_KEY_PROMOTION_KEEPERS_EYES</Description>
-			<Button>Art/Interface/Buttons/Promotions/Loyalty1.dds</Button>
+			<Button>Art/Interface/Buttons/Buildings/Towerofeyes.dds</Button>
 			<bImmuneToCapture>1</bImmuneToCapture>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
@@ -35693,7 +35630,7 @@
 		<PromotionInfo>		<!-- Keepers of the Barred Procession -->				<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_SOULS</Type>
 			<Description>TXT_KEY_PROMOTION_KEEPERS_SOULS</Description>
-			<Button>Art/Interface/Buttons/Promotions/Loyalty1.dds</Button>
+			<Button>,Art/Interface/Buttons/Builds/BuildWell.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,4,8</Button>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
@@ -35768,7 +35705,7 @@
 		<PromotionInfo>		<!-- Blasphemers of the Taunted Dead (EVIL) -->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_SOULS_FALLEN</Type>
 			<Description>TXT_KEY_PROMOTION_KEEPERS_SOULS_FALLEN</Description>
-			<Button>Art/Interface/Buttons/Promotions/Loyalty1.dds</Button>
+			<Button>,Art/Interface/Buttons/Builds/BuildWell.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,4,8</Button>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
@@ -35843,7 +35780,7 @@
 		<PromotionInfo>		<!-- Redeemers of the Hallowed Path (OPEN) -->					<!-- For Elohim -->
 			<Type>PROMOTION_KEEPERS_SOULS_OPEN</Type>
 			<Description>TXT_KEY_PROMOTION_KEEPERS_SOULS_OPEN</Description>
-			<Button>Art/Interface/Buttons/Promotions/Loyalty1.dds</Button>
+			<Button>,Art/Interface/Buttons/Builds/BuildWell.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,4,8</Button>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>

@@ -11552,13 +11552,12 @@
 			<Sound>AS3D_SPELL_TRAIN</Sound>
 			<Button>Art/Interface/Buttons/Equipment/UrnRottingFlesh.dds</Button>
 		</SpellInfo>
-				<SpellInfo>			<!-- Disguise -->
+		<SpellInfo>			<!-- Disguise -->
 			<Type>SPELL_DISGUISE</Type>
 			<Description>TXT_KEY_SPELL_DISGUISE</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
 			<CivilizationPrereq>CIVILIZATION_SVARTALFAR</CivilizationPrereq>
 			<UnitCombatPrereq>UNITCOMBAT_ROGUE</UnitCombatPrereq>
-			
 			<iPromotionDuration>3</iPromotionDuration>
 			<bInBordersOnly>1</bInBordersOnly>
 			<bInCityOnly>1</bInCityOnly>
@@ -11571,7 +11570,7 @@
 			<Sound>AS3D_HIDE</Sound>
 			<Button>Art/Interface/Buttons/Spells/Mask.dds</Button>
 		</SpellInfo>
-<SpellInfo>			<!-- Purify  Well of Souls -->
+		<SpellInfo>			<!-- Purify  Well of Souls -->
 			<Type>SPELL_PURIFY_WELL_SOULS</Type>
 			<Description>TXT_KEY_SPELL_PURIFY_WELL_SOULS</Description>
 			<Civilopedia>TXT_KEY_SPELL_PURIFY_WELL_SOULS_PEDIA</Civilopedia>
@@ -11583,7 +11582,6 @@
 			<Sound>AS3D_SPELL_SACRIFICE</Sound>
 			<Button>Art/Interface/Buttons/Spells/Sacrifice.dds</Button>
 		</SpellInfo>
-
 		<SpellInfo>			<!-- Drive Cattle -->
 			<Type>SPELL_DRIVE_CATTLE</Type>
 			<Description>TXT_KEY_SPELL_DRIVE_CATTLE</Description>
@@ -11614,7 +11612,7 @@
 			<Sound>AS3D_SPELL_REPAIR</Sound>
 			<Button>Art/Interface/Buttons/WorldBuilder/Cow.dds</Button>
 		</SpellInfo>
-				<SpellInfo>			<!-- Sacrifice  -->					
+		<SpellInfo>			<!-- Sacrifice  -->					
 			<Type>SPELL_SACRIFICE</Type>
 			<Description>TXT_KEY_SPELL_SACRIFICE</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
@@ -11630,6 +11628,5 @@
 			<Sound>AS3D_SPELL_SACRIFICE</Sound>
 			<Button>Art/Interface/Buttons/Spells/Sacrifice.dds</Button>
 		</SpellInfo>
-
-		</SpellInfos>
+	</SpellInfos>
 </Civ4SpellInfos>

@@ -251,7 +251,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Modules/MagisterAshes/Buttons/AbaddonsPit.dds</Button>
+			<Button>Art/Interface/Buttons/TerrainFeatures/Shallows.dds</Button>
 			<iExtraPerception>3</iExtraPerception>
 			<bIgnoreTerrainCosts>0</bIgnoreTerrainCosts>
 			<PrereqTraits>
