@@ -13,7 +13,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Monster Skeleton/whaleskel.NIF</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Monster Skeleton.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/monsterskeleton.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BRADELINES_WELL</Type>
@@ -22,7 +22,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Bradelines Well/BradelinesWell.NIF</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Bradelines Well.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/bradelineswell.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SEVEN_PINES</Type>
@@ -40,7 +40,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Aifon Isle/ReptilePool.NIF</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Aifon Isle.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/aifonisle.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_CAGE</Type>
@@ -67,7 +67,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Ship Wreck/ship_in_ice.NIF</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Ship Wreck.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/shipwreck.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_JUNGLE_ALTAR</Type>
@@ -76,7 +76,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Jungle Altar/CampCoalt_B.NIF</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Jungle Altar.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/junglealtar.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_WARNING_POST</Type>
@@ -85,7 +85,7 @@
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Warning Post/Donjon_Aztec_Empale.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Warning Post.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/warningpost.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_NECROTOTEM</Type>
@@ -175,7 +175,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Dragon Bones/animal_skeleton.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Dragon Bones.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/dragonbones.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_POOL_OF_TEARS</Type>
@@ -184,7 +184,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Pool of Tears/rock_pool.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Pool of Tears.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/pooloftears.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PYRE_OF_THE_SERAPHIC</Type>
@@ -193,7 +193,7 @@
 			<fInterfaceScale>0.6</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Pyre of the Seraphic/temple.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Pyre of the Seraphic.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/pyreoftheseraphic.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_REMNANTS_OF_PATRIA</Type>
@@ -202,7 +202,7 @@
 			<fInterfaceScale>0.7</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Moai_Statues/Moai_Statutes.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Remnants of Patria.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/remnantsofpatria.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_LAND_WORKED</Type>
@@ -643,7 +643,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Piratecove/Viking_Post.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Pirate Cove.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/piratecove.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_HELLFIRE</Type>
@@ -679,7 +679,7 @@
 			<fInterfaceScale>0.8</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/HangingGardens/HangingGardens.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Tomb of Sucellus.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/tombofsucellus.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_BROKEN_SEPULCHER</Type>
@@ -688,7 +688,7 @@
 			<fInterfaceScale>0.6</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Broken Sepulcher/oldtemple.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Broken Sepulcher.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/brokensepulcher.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_SNAKE_PILLAR</Type>
@@ -697,7 +697,7 @@
 			<fInterfaceScale>0.4</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Snake Pillar/brazier_serpent.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Snake Pillar.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/snakepillar.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_MAELSTROM</Type>
@@ -715,7 +715,7 @@
 			<fInterfaceScale>0.8</fInterfaceScale>
 			<NIF>Art/Terrain/Features/FinalFrontier/SuperNova/SuperNova.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Mirror of Heaven.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/mirrorofheaven.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_YGGDRASIL</Type>
@@ -733,7 +733,7 @@
 			<fInterfaceScale>0.6</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Stonehenge/Stonehenge.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Letum Frigus.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/letumfrigus.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_ODIOS_PRISON</Type>
@@ -742,7 +742,7 @@
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Odios Prison/Giant.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Odios Prison.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/odiosprison.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
 			<Type>ART_DEF_IMPROVEMENT_PORTAL</Type>
@@ -1066,7 +1066,7 @@
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lairs/Fallen Forest/Scout.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Blighted Forest.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/blightedforest.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>		<!-- Bandit Encampment -->
 			<Type>ART_DEF_IMPROVEMENT_BANDIT_ENCAMPMENT</Type>
@@ -1129,7 +1129,7 @@
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lairs/Centaurs/Bazaar, Market and Workshop/draugamarket.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Centaur Camp.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/centaurcamp.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>		<!-- Centaur Warcamp -->
 			<Type>ART_DEF_IMPROVEMENT_CENTAUR_WARCAMP</Type>
@@ -1138,7 +1138,7 @@
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lairs/Centaurs/Bazaar, Market and Workshop/DraugaBazaar.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Centaur Camp.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/centaurcamp.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>		<!-- Centaur Village -->
 			<Type>ART_DEF_IMPROVEMENT_CENTAUR_VILLAGE</Type>
@@ -1147,7 +1147,7 @@
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lairs/Centaurs/Barracks/draugabarracks.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Centaur Camp.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/centaurcamp.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo> 		<!-- Goblin Camp -->
 			<Type>ART_DEF_IMPROVEMENT_GOBLIN_CAMP</Type>
@@ -1156,7 +1156,7 @@
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lairs/Goblins/Wood Resource/gauriwoodmill.NIF</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Goblin Fort.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/goblinfort.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo> 		<!-- Goblin Village -->
 			<Type>ART_DEF_IMPROVEMENT_GOBLIN_VILLAGE</Type>
@@ -1165,7 +1165,7 @@
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lairs/Goblins/Wood Resource/gauriwoodexport.NIF</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Goblin Fort.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/goblinfort.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo> 		<!-- Goblin Town -->
 			<Type>ART_DEF_IMPROVEMENT_GOBLIN_TOWN</Type>
@@ -1174,7 +1174,7 @@
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lairs/Goblins/Wood Resource/gaurisawmill.NIF</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Goblin Fort.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/goblinfort.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo> 		<!-- Ruins -->
 			<Type>ART_DEF_IMPROVEMENT_RUINS</Type>
@@ -1273,7 +1273,7 @@
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lairs/Frostlings/Barracks/draugabarracks.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Centaur Camp.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/centaurcamp.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>		<!-- Frostling Encampment -->
 			<Type>ART_DEF_IMPROVEMENT_FROSTLING_ENCAMPMENT</Type>
@@ -1291,7 +1291,7 @@
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Structures/Improvements/Lairs/Frostlings/Bazaar, Market and Workshop/DraugaBazaar.nif</NIF>
 			<KFM/>
-			<Button>Art/Interface/Buttons/Improvements/Centaur Camp.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/centaurcamp.dds</Button>
 		</ImprovementArtInfo>
 	</ImprovementArtInfos>
 </Civ4ArtDefines>

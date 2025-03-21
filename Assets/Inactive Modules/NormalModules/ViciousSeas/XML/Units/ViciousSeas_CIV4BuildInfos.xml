@@ -22,7 +22,7 @@
 			<bShiftDown>0</bShiftDown>
 			<bCtrlDown>0</bCtrlDown>
 			<iHotKeyPriority>1</iHotKeyPriority>
-			<Button>Art/Interface/Buttons/Improvements/Pirate Cove.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/piratecove.dds</Button>
 		</BuildInfo>
 		<BuildInfo> <!-- Coral Fort -->
 			<Type>BUILD_CORAL_FORT</Type>

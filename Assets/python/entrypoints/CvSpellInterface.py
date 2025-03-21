@@ -5069,16 +5069,16 @@ def onMoveLetumFrigus(pCaster, pPlot):
 	git		= gc.getInfoTypeForString
 	if not pPlayer.isHasFlag(git("FLAG_LETUM_FRIGUS_FIRST_TIME")):
 		pPlayer.setHasFlag(git("FLAG_LETUM_FRIGUS_FIRST_TIME"), True)
-		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_EVENT_LETUM_FRIGUS", ()),'',3,'Art/Interface/Buttons/Improvements/Letum Frigus.dds',ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
+		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_EVENT_LETUM_FRIGUS", ()),'',3,'Art/Interface/Buttons/Improvements/letumfrigus.dds',ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
 		if pPlayer.getCivilizationType() == git("CIVILIZATION_ILLIANS"):
-			CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_EVENT_LETUM_FRIGUS_3_HELP", ()),'',3,'Art/Interface/Buttons/Improvements/Letum Frigus.dds',ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
-			CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_EVENT_LETUM_FRIGUS_3", ()),'',3,'Art/Interface/Buttons/Improvements/Letum Frigus.dds',ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
+			CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_EVENT_LETUM_FRIGUS_3_HELP", ()),'',3,'Art/Interface/Buttons/Improvements/letumfrigus.dds',ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
+			CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_EVENT_LETUM_FRIGUS_3", ()),'',3,'Art/Interface/Buttons/Improvements/letumfrigus.dds',ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
 			if not gc.isNoCrash():
 				pPlayer.setHasTrait(git('TRAIT_AGGRESSIVE'),True,-1,True,True)
 			else:
 				pPlayer.setHasTrait(git('TRAIT_AGGRESSIVE'),True)
 		elif pPlayer.getCivilizationType() == git("CIVILIZATION_AMURITES"):
-			CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_EVENT_LETUM_FRIGUS_2", ()),'',3,'Art/Interface/Buttons/Improvements/Letum Frigus.dds',ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
+			CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_EVENT_LETUM_FRIGUS_2", ()),'',3,'Art/Interface/Buttons/Improvements/letumfrigus.dds',ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
 			pPlayer.changeGoldenAgeTurns(CyGame().goldenAgeLength())
 
 def onMoveMaelstrom(pCaster, pPlot):
@@ -5109,16 +5109,16 @@ def onMoveMaelstrom(pCaster, pPlot):
 def onMovePoolOfTears(pCaster, pPlot):
 	if pCaster.isHasPromotion(getInfoType('PROMOTION_DISEASED')):
 		pCaster.setHasPromotion(getInfoType('PROMOTION_DISEASED'), False)
-		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_POOL_OF_TEARS_DISEASED",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/Pool of Tears.dds',ColorTypes(8),pCaster.getX(),pCaster.getY(),True,True)
+		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_POOL_OF_TEARS_DISEASED",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/pooloftears.dds',ColorTypes(8),pCaster.getX(),pCaster.getY(),True,True)
 	if pCaster.isHasPromotion(getInfoType('PROMOTION_PLAGUED')):
 		pCaster.setHasPromotion(getInfoType('PROMOTION_PLAGUED'), False)
-		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_POOL_OF_TEARS_PLAGUED",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/Pool of Tears.dds',ColorTypes(8),pCaster.getX(),pCaster.getY(),True,True)
+		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_POOL_OF_TEARS_PLAGUED",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/pooloftears.dds',ColorTypes(8),pCaster.getX(),pCaster.getY(),True,True)
 	if pCaster.isHasPromotion(getInfoType('PROMOTION_POISONED')):
 		pCaster.setHasPromotion(getInfoType('PROMOTION_POISONED'), False)
-		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_POOL_OF_TEARS_POISONED",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/Pool of Tears.dds',ColorTypes(8),pCaster.getX(),pCaster.getY(),True,True)
+		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_POOL_OF_TEARS_POISONED",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/pooloftears.dds',ColorTypes(8),pCaster.getX(),pCaster.getY(),True,True)
 	if pCaster.isHasPromotion(getInfoType('PROMOTION_WITHERED')):
 		pCaster.setHasPromotion(getInfoType('PROMOTION_WITHERED'), False)
-		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_POOL_OF_TEARS_WITHERED",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/Pool of Tears.dds',ColorTypes(8),pCaster.getX(),pCaster.getY(),True,True)
+		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_POOL_OF_TEARS_WITHERED",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/pooloftears.dds',ColorTypes(8),pCaster.getX(),pCaster.getY(),True,True)
 
 	pPlayer = gc.getPlayer(pCaster.getOwner())
 
@@ -5218,7 +5218,7 @@ def onMoveRemnantsOfPatria(pCaster, pPlot):
 			pPlayer.setFeatAccomplished(FeatTypes.FEAT_VISIT_REMNANTS_OF_PATRIA, True)
 			newUnit1 = pPlayer.initUnit(git('UNIT_SUPPLIES'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 			newUnit2 = pPlayer.initUnit(git('UNIT_SUPPLIES'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-			CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_EVENT_REMNANTS_OF_PATRIA_SCIONS", ()),'',3,"Art/Interface/Buttons/Improvements/Remnants of Patria.dds",git("COLOR_GREEN"),pPlot.getX(),pPlot.getY(),True,True)
+			CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_EVENT_REMNANTS_OF_PATRIA_SCIONS", ()),'',3,"Art/Interface/Buttons/Improvements/remnantsofpatria.dds",git("COLOR_GREEN"),pPlot.getX(),pPlot.getY(),True,True)
 
 	
 def onMoveOdiosPrison(pCaster, pPlot):
@@ -7644,7 +7644,7 @@ def atRangeWiddershinsCurse(pCaster,pPlot):
 		
 def atRangeBlightedForest(pCaster, pPlot):
 	if CvEventInterface.getEventManager().cf.doForestPush(pCaster, pPlot, -1, False):
-		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_BLIGHTED_FOREST", (gc.getUnitInfo(pCaster.getUnitType()).getDescription(), )),'',1,'Art/Interface/Buttons/Improvements/Blighted Forest.dds',ColorTypes(7),pCaster.getX(),pCaster.getY(),True,True)
+		CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_BLIGHTED_FOREST", (gc.getUnitInfo(pCaster.getUnitType()).getDescription(), )),'',1,'Art/Interface/Buttons/Improvements/blightedforest.dds',ColorTypes(7),pCaster.getX(),pCaster.getY(),True,True)
 
 def effectWanderingCurse(caster):
     if caster.isHasPromotion(gc.getInfoTypeForString("PROMOTION_MANA_GUARDIAN")):

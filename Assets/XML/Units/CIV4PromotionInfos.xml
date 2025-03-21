@@ -34917,7 +34917,7 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_SEPULCHER</PrereqTrait>
 			</PrereqTraits>
-			<Button>Art/Interface/Buttons/Improvements/Broken Sepulcher.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/brokensepulcher.dds</Button>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -35023,7 +35023,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Improvements/Bradelines Well.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/bradelineswell.dds</Button>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_BRADELINE</PrereqTrait>
 			</PrereqTraits>
@@ -35059,7 +35059,7 @@
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
 			<iFirstStrikesChange>1</iFirstStrikesChange>
-			<Button>Art/Interface/Buttons/Improvements/Bradelines Well.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/bradelineswell.dds</Button>
 			<PrereqAlignments>
 				<PrereqAlignment>ALIGNMENT_EVIL</PrereqAlignment>
 			</PrereqAlignments>
@@ -35134,7 +35134,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Improvements/Bradelines Well.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/bradelineswell.dds</Button>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_BRADELINE_PURE</PrereqTrait>
 			</PrereqTraits>
@@ -35165,7 +35165,7 @@
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_KEEPERS_SUCELLUS</PrereqTrait>
 			</PrereqTraits>
-			<Button>Art/Interface/Buttons/Improvements/Tomb of Sucellus.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/tombofsucellus.dds</Button>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -35280,7 +35280,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Improvements/Dragon Bones.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/dragonbones.dds</Button>
 			<UnitCombatCaptureRates>
 				<UnitCombatCaptureRate>
 					<UnitCombatCaptureRateType>UNITCOMBAT_BEAST</UnitCombatCaptureRateType>
@@ -35317,7 +35317,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Improvements/Pyre of the Seraphic.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/pyreoftheseraphic.dds</Button>
 			<PrereqAlignments>
 				<PrereqAlignment>ALIGNMENT_EVIL</PrereqAlignment>
 			</PrereqAlignments>
@@ -35540,7 +35540,7 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<Button>Art/Interface/Buttons/Improvements/Mirror of Heaven.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/mirrorofheaven.dds</Button>
 			<iVisibilityChange>1</iVisibilityChange>
 			<iExtraPerception>1</iExtraPerception>
 			<PrereqTraits>

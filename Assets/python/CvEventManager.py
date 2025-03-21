@@ -1185,12 +1185,12 @@ class CvEventManager:
 						newUnit = pPlayer.initUnit(git('UNIT_MANES'), pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 					if pCity.getPopulation() > 2:
 						pCity.changePopulation(-2)
-				CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_GELA_BROKEN",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/Broken Sepulcher.dds',ColorTypes(7),pUnit.getX(),pUnit.getY(),True,True)
+				CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_GELA_BROKEN",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/brokensepulcher.dds',ColorTypes(7),pUnit.getX(),pUnit.getY(),True,True)
 			elif iImprovement == git("IMPROVEMENT_MIRROR_OF_HEAVEN"):
 				pUnit.setHasPromotion(git('PROMOTION_GELA'), False)
 				pUnit.setHasPromotion(git('PROMOTION_TEMP_HELD'), True)
 				pUnit.setHasPromotion(git('PROMOTION_SOL'), True)
-				CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_GELA_MIRROR",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/Mirror Of Heaven.dds',ColorTypes(7),pUnit.getX(),pUnit.getY(),True,True)
+				CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_GELA_MIRROR",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/mirrorofheaven.dds',ColorTypes(7),pUnit.getX(),pUnit.getY(),True,True)
 				pDemonPlayer = gc.getPlayer(gc.getDEMON_PLAYER())
 				for iPlayer2 in range(gc.getMAX_PLAYERS()):
 					pPlayer2 = gc.getPlayer(iPlayer2)
@@ -1217,10 +1217,10 @@ class CvEventManager:
 			elif iImprovement == git("IMPROVEMENT_POOL_OF_TEARS"):
 				pUnit.setHasPromotion(git('PROMOTION_GELA'), False)
 				pUnit.setHasPromotion(git('PROMOTION_PIKE_OF_TEARS'), True)
-				CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/Pool of Tears.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
+				CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/pooloftears.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 				iRnd = CyGame().getSorenRandNum(100, "effect Gela, Pool of Tears, Plague") <= 20
 				if iRnd <= 20 or (pPlayer.getStateReligion() != git('RELIGION_FELLOWSHIP_OF_LEAVES') and iRnd <= 50):
-					CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PLAGUE",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/Pool of Tears.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
+					CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PLAGUE",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/pooloftears.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 					for iPlayer2 in range(gc.getMAX_PLAYERS()):
 						pPlayer2 = gc.getPlayer(iPlayer2)
 						if pPlayer2.getCivilizationType() != git('CIVILIZATION_INFERNAL'):
@@ -1239,7 +1239,7 @@ class CvEventManager:
 				pPlot.setImprovementType(-1)
 				if CyGame().getSorenRandNum(100,"effect Gela, Pyre") <= 40:
 					pUnit.setHasPromotion(git('PROMOTION_FROZEN_FLAME'), True)
-					CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_1",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/Pyre of the Seraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
+					CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_1",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/pyreoftheseraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 				else:
 					i = 4
 					if CyMap().getWorldSize() == git('WORLDSIZE_DUEL'):
@@ -1253,7 +1253,7 @@ class CvEventManager:
 					if CyMap().getWorldSize() == git('WORLDSIZE_HUGE'):
 						i = i + 3
 					addBonus('BONUS_MANA',i,'Art/Interface/Buttons/WorldBuilder/mana_button.dds')
-					CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_2",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/Pyre of the Seraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
+					CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_2",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/pyreoftheseraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 			elif iImprovement == git("IMPROVEMENT_MAELSTROM"):
 				pUnit.setHasPromotion(git('PROMOTION_GELA'), False)
 				pUnit.kill(True, PlayerTypes.NO_PLAYER)

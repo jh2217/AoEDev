@@ -56,7 +56,7 @@
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ODIO</Type>
-			<Button>Art/Interface/Buttons/Improvements/Odios Prison.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/odiosprison.dds</Button>
 			<fScale>1.7</fScale>
 			<fInterfaceScale>0.3</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>

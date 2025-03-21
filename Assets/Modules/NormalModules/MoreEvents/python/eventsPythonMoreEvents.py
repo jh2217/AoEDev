@@ -2196,7 +2196,7 @@ def doTreasureHunterStart(iPlayer):
 	# if CyGame().getSorenRandNum(100, "Pyre") <= 40:
 		# pPlot.setImprovementType(-1)
 		# pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_FROZEN_FLAME'), True)
-		# CyInterface().addMessage(pUnit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_1",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/Pyre of the Seraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
+		# CyInterface().addMessage(pUnit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_1",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/pyreoftheseraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 	# else:
 		# pPlot.setImprovementType(-1)
 		# i = 4
@@ -2211,7 +2211,7 @@ def doTreasureHunterStart(iPlayer):
 		# if CyMap().getWorldSize() == gc.getInfoTypeForString('WORLDSIZE_HUGE'):
 			# i = i + 3
 		# addBonus('BONUS_MANA',i,'Art/Interface/Buttons/WorldBuilder/mana_button.dds')
-		# CyInterface().addMessage(pUnit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_2",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/Pyre of the Seraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
+		# CyInterface().addMessage(pUnit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_2",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/pyreoftheseraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 
 # def doGelaPoolOfTears(argsList):
 	# iEvent = argsList[0]
@@ -2220,10 +2220,10 @@ def doTreasureHunterStart(iPlayer):
 	# pUnit = pPlayer.getUnit(kTriggeredData.iUnitId)
 	# pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_GELA'), False)
 	# pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_PIKE_OF_TEARS'), True)
-	# CyInterface().addMessage(pUnit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/Pool of Tears.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
+	# CyInterface().addMessage(pUnit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/pooloftears.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 	# if pPlayer.getStateReligion() == gc.getInfoTypeForString('RELIGION_FELLOWSHIP_OF_LEAVES'):
 		# if CyGame().getSorenRandNum(100, "Plague") <= 20:
-			# CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PLAGUE",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/Pool of Tears.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
+			# CyInterface().addMessage(pCaster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PLAGUE",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/pooloftears.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 			# for iPlayer2 in range(gc.getMAX_PLAYERS()):
 				# pPlayer2 = gc.getPlayer(iPlayer2)
 				# if pPlayer2.getCivilizationType() != gc.getInfoTypeForString('CIVILIZATION_INFERNAL'):
@@ -2239,7 +2239,7 @@ def doTreasureHunterStart(iPlayer):
 								# pUnit2.doDamageNoCaster(10, 100, gc.getInfoTypeForString('DAMAGE_DEATH'), false)
 	# else:
 		# if CyGame().getSorenRandNum(100, "Plague") <= 50:
-			# CyInterface().addMessage(pUnit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PLAGUE",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/Pool of Tears.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
+			# CyInterface().addMessage(pUnit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PLAGUE",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/pooloftears.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 			# for iPlayer2 in range(gc.getMAX_PLAYERS()):
 				# pPlayer2 = gc.getPlayer(iPlayer2)
 				# if pPlayer2.getCivilizationType() != gc.getInfoTypeForString('CIVILIZATION_INFERNAL'):
@@ -2261,7 +2261,7 @@ def doTreasureHunterStart(iPlayer):
 	# pUnit = pPlayer.getUnit(kTriggeredData.iUnitId)
 	# pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_GELA'), False)
 	# pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_TEMP_HELD'), True)
-	# CyInterface().addMessage(pUnit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_GELA_MIRROR",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/Mirror Of Heaven.dds',ColorTypes(7),pUnit.getX(),pUnit.getY(),True,True)
+	# CyInterface().addMessage(pUnit.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_GELA_MIRROR",()),'AS2D_FEATUREGROWTH',1,'Art/Interface/Buttons/Improvements/mirrorofheaven.dds',ColorTypes(7),pUnit.getX(),pUnit.getY(),True,True)
 	# pUnit.setHasPromotion(gc.getInfoTypeForString('PROMOTION_SOL'), True)
 	# iX = pUnit.getX()
 	# iY = pUnit.getY()

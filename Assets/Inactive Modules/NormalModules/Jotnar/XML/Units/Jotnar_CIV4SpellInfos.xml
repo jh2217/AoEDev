@@ -572,7 +572,7 @@
 			<bBuffCasterOnly>1</bBuffCasterOnly>
 			<Effect>EFFECT_STONESKIN</Effect>
 			<Sound>AS3D_SPELL_STONESKIN</Sound>
-			<Button>Art/Interface/Buttons/Improvements/Ship Wreck.dds</Button>
+			<Button>Art/Interface/Buttons/Improvements/shipwreck.dds</Button>
 		</SpellInfo>
 		<SpellInfo>			<!-- Clever Troll -->
 			<Type>SPELL_CLEVER_TROLL</Type>
