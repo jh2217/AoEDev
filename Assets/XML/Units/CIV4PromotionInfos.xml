@@ -13025,9 +13025,22 @@
 			<PrereqBuildingANDs>
 				<PrereqBuilding>BUILDING_MINSTER</PrereqBuilding>
 			</PrereqBuildingANDs>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_MONK_FOCUS</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_MONK_PURITY</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_MONK</PrereqUnit>
 			</PrereqUnits>
+			<PromotionAllows>
+				<Promotion>PROMOTION_MITHRIL_WEAPONS</Promotion>
+			</PromotionAllows>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
@@ -13062,6 +13075,9 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
+			<PromotionAllows>
+				<Promotion>PROMOTION_IRON_WEAPONS</Promotion>
+			</PromotionAllows>
 			<Button>Art/Interface/Buttons/Promotions/Focus.dds</Button>
 			<iMinLevel>6</iMinLevel>
 			<BonusAffinities>
@@ -13099,6 +13115,9 @@
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/Purity.dds</Button>
 			<iMinLevel>4</iMinLevel>
+			<PromotionAllows>
+				<Promotion>PROMOTION_BRONZE_WEAPONS</Promotion>
+			</PromotionAllows>
 			<PromotionExcludes>
 				<Promotion>PROMOTION_DISEASED</Promotion>
 				<Promotion>PROMOTION_PLAGUED</Promotion>
