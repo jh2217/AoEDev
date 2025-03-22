@@ -2712,7 +2712,6 @@ class CvEventManager:
 		Leader = self.Leaders
 		ImprovementDtesh = self.CivImprovements["D'Tesh"]
 		ImprovementDwarven = self.CivImprovements["Dwarven"]
-		RANGE1      = ((-1,-1),(-1,0),(-1,1),(0,-1),(0,0),(0,1),(1,-1),(1,0),(1,1)) # 3x3 square = 9 tiles
 		getPlot	= CyMap().plot
 		if gc.getImprovementInfo(iImprovement).isUnique():
 			CyEngine().addLandmark(pPlot, CvUtil.convertToStrLatin(gc.getImprovementInfo(iImprovement).getDescription()))
@@ -2761,6 +2760,7 @@ class CvEventManager:
 		iImprovement, iOwner, iX, iY = argsList
 		Improvement = self.Improvements
 		gc = CyGlobalContext()
+		getPlot	= CyMap().plot
 		game = CyGame()
 		map = CyMap()
 
@@ -2775,9 +2775,20 @@ class CvEventManager:
 
 				elif iImprovement == Unique["Bair of Lacuna"]:
 					pPlot.setMinLevel(-1)
+					pPlot.setRouteType(-1)
 
 		if iImprovement == Improvement["Necrototem"]:
 			game.changeGlobalCounter(-2)
+
+		elif iImprovement == gc.getInfoTypeForString("IMPROVEMENT_SEVEN_PINES"):
+			for iiX,iiY in RANGE1:
+				pLoopPlot = getPlot(pPlot.getX()+iiX,pPlot.getY()+iiY)
+				pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("NO_PLOT_EFFECT"))
+
+		elif gc.getInfoTypeForString("MODULE_MAGISTER_ASHES")!=-1 and iImprovement==gc.getInfoTypeForString("IMPROVEMENT_WHISPERING_WOOD"):
+			for iiX,iiY in RANGE1:
+				pLoopPlot = getPlot(pPlot.getX()+iiX,pPlot.getY()+iiY)
+				pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("NO_PLOT_EFFECT"))
 
 		if game.getWBMapScript():
 			sf.onImprovementDestroyed(iImprovement, iOwner, iX, iY)
