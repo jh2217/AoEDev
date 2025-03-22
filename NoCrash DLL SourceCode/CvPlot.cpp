@@ -7818,16 +7818,7 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			}
 		}
 
-/*************************************************************************************************/
-/**	Xienwolf Tweak							02/01/09											**/
-/**					Ensures that Plot Visibility is properly maintained							**/
-/**		Modifies Apparent PlotCounter based on Improvement Shift (required redundancy)			**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		updatePlotGroupBonus(false);
-		m_eImprovementType = eNewValue;
-		updatePlotGroupBonus(true);
-/**								----  End Original Code  ----									**/
+		// Ensures that Plot Visibility is properly maintained : Xienwolf 02/01/09
 		CLLNode<IDInfo>* pUnitNode = headUnitNode();
 		while (pUnitNode != NULL)
 		{
@@ -7835,22 +7826,29 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			pUnitNode = nextUnitNode(pUnitNode);
 			changeAdjacentSight(pLoopUnit->getTeam(), pLoopUnit->visibilityRange(), false, pLoopUnit, true);
 		}
+		// Modifies Apparent PlotCounter based on Improvement Shift (required redundancy) : Xienwolf 02/01/09
 		bool bEvilPre = (getPlotCounter() > GC.getDefineINT("EVIL_TILE_THRESHOLD"));
+
+		// Original code
 		updatePlotGroupBonus(false);
 		m_eImprovementType = eNewValue;
 		updatePlotGroupBonus(true);
+
+		// Update plot visibility after improvement change
 		pUnitNode = headUnitNode();
-		bool bEvilPost = (getPlotCounter() > GC.getDefineINT("EVIL_TILE_THRESHOLD"));
 		while (pUnitNode != NULL)
 		{
 			CvUnit* pLoopUnit = ::getUnit(pUnitNode->m_data);
 			pUnitNode = nextUnitNode(pUnitNode);
 			changeAdjacentSight(pLoopUnit->getTeam(), pLoopUnit->visibilityRange(), true, pLoopUnit, true);
 		}
+		// Update plotcounter based on improvement shift (required redundancy)
+		bool bEvilPost = (getPlotCounter() > GC.getDefineINT("EVIL_TILE_THRESHOLD"));
 		if (bEvilPre != bEvilPost)
 		{
 			GC.getMapINLINE().getArea(getArea())->changeNumEvilTiles(bEvilPre ? -1 : 1);
 		}
+		// Building an improvement shouldn't lock temp terrain in place
 		if (!GC.getGameINLINE().isOption(GAMEOPTION_NO_PLOT_COUNTER) && getTempTerrainTimer() < 0)
 		{
 			TerrainTypes terrainType = (TerrainTypes)getTerrainType();
@@ -7867,22 +7865,13 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 				setTerrainType((TerrainTypes)terrainClass.getNaturalTerrain(), true, true);
 			}
 		}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	LairLimit								12/30/08								Xienwolf	**/
-/**																								**/
-/**			Tracks Units Spawned from each Improvement to limit the potential spawns			**/
-/*************************************************************************************************/
+		// END Xienwolf
+
+		// Tracks Units Spawned from each Improvement to limit the potential spawns: Xienwolf 12/30/08 LairLimit
 		changeNumSpawnsEver(-getNumSpawnsEver());
 		changeNumSpawnsAlive(-getNumSpawnsAlive());
-/*************************************************************************************************/
-/**	LairLimit								END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Improvements Mods by Jeckel		imported by Ahwaric	20.09.09 | Valkrionn	09.24.09		**/
-/*************************************************************************************************/
+
+		/**	Improvements Mods by Jeckel		imported by Ahwaric	20.09.09 | Valkrionn	09.24.09		**/
 		if (eOldImprovement != NO_IMPROVEMENT && getImprovementOwner() != NO_PLAYER)
 		{
 			clearCultureControl(getImprovementOwner(), eOldImprovement, true);
@@ -7896,18 +7885,7 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			eBuild = (BuildTypes)iI;
 			if (getBuildProgress(eBuild) > 0)
 			{
-/*************************************************************************************************/
-/**	Tweak									09/06/10									Snarko	**/
-/**																								**/
-/**						The improvement can be NO_IMPROVEMENT (example roads)					**/
-/*************************************************************************************************/
-/**			---- Start Original Code ----						**
-				eLoopImprovement = (ImprovementTypes) GC.getBuildInfo(eBuild).getImprovement();
-				if (eLoopImprovement != getImprovementType() && GC.getImprovementInfo(eLoopImprovement).getMinimumDistance() != 0)
-				{
-					m_paiBuildProgress[eBuild] = 0;
-				}
-/**			----  End Original Code  ----						**/
+				// The improvement can be NO_IMPROVEMENT (example roads) : Snarko 09/06/10
 				if (GC.getBuildInfo(eBuild).getImprovement() != NO_IMPROVEMENT)
 				{
 					eLoopImprovement = (ImprovementTypes) GC.getBuildInfo(eBuild).getImprovement();
@@ -7916,26 +7894,18 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 						m_paiBuildProgress[eBuild] = 0;
 					}
 				}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 			}
 		}
 		if (getImprovementType() != NO_IMPROVEMENT)
 		{
 			int iCiv = GC.getImprovementInfo(getImprovementType()).getSpawnUnitCiv();
 			int iUnit = GC.getImprovementInfo(getImprovementType()).getSpawnUnitType();
-/*************************************************************************************************/
-/**	LairGuardians							7/17/10									Valkrionn	**/
-/**																								**/
-/**				Allows for lairs to spawn a unit on creation, but spawn others normally			**/
-/*************************************************************************************************/
+
+			// Allows for lairs to spawn a unit on creation, but spawn others normally : Valkrionn 7/17/10 LairGuardians 
 			int iImmediateUnit = GC.getImprovementInfo(getImprovementType()).getImmediateSpawnUnitType();
 			int iSpawnGroup = GC.getImprovementInfo(getImprovementType()).getSpawnGroupType();
 			int iImmediateSpawnGroup = GC.getImprovementInfo(getImprovementType()).getImmediateSpawnGroupType();
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
+
 			PlayerTypes eSpawnPlayer=NO_PLAYER;
 			if (iCiv != -1 && (iUnit != -1||iSpawnGroup!=-1||iImmediateUnit!=-1||iImmediateSpawnGroup!=-1) && !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
@@ -7953,11 +7923,8 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 						setImprovementOwner(eSpawnPlayer);
 						addCultureControl(eSpawnPlayer, getImprovementType(), 1);
 					}
-/*************************************************************************************************/
-/**	LairGuardians							7/17/10									Valkrionn	**/
-/**																								**/
-/**				Allows for lairs to spawn a unit on creation, but spawn others normally			**/
-/*************************************************************************************************/
+
+					// Allows for lairs to spawn a unit on creation, but spawn others normally : Valkrionn 7/17/10 LairGuardians 
 					if (iImmediateUnit != -1)
 					{
 						CvUnit* pGuardianUnit = GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes) iImmediateUnit, getX_INLINE(), getY_INLINE(), NO_UNITAI, DIRECTION_NORTH);
@@ -7974,29 +7941,20 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 					{
 						GC.getGameINLINE().createSpawnGroup((SpawnGroupTypes)iImmediateSpawnGroup, this, eSpawnPlayer);
 					}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
 				}
 			}
 		}
-/*************************************************************************************************/
-/**	Improvements Mods	END								**/
-/*************************************************************************************************/
 
 		if (getImprovementType() == NO_IMPROVEMENT)
 		{
 			setImprovementDuration(0);
-/*************************************************************************************************/
-/**	Improvements Mods by Jeckel		imported by Ahwaric	20.09.09 | Valkrionn	09.24.09		**/
-/*************************************************************************************************/
+
+			/**	Improvements Mods by Jeckel		imported by Ahwaric	20.09.09 | Valkrionn	09.24.09		**/
 			if (getImprovementOwner() != NO_PLAYER)
 			{
 				setImprovementOwner(NO_PLAYER);
 			}
-/*************************************************************************************************/
-/**	Improvements Mods	END								**/
-/*************************************************************************************************/
+			// Improvement Mods END
 
 		}
 
@@ -8063,12 +8021,12 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 		if (getImprovementType() != NO_IMPROVEMENT)
 		{
 
-//FfH Improvements: Added by Kael 08/07/2007
+			//FfH Improvements: Added by Kael 08/07/2007
 			if (GC.getImprovementInfo(getImprovementType()).getBonusConvert() != NO_BONUS)
 			{
 				setBonusType((BonusTypes)GC.getImprovementInfo(getImprovementType()).getBonusConvert());
 			}
-//FfH: End Add
+			//FfH: End Add
 
 			CvEventReporter::getInstance().improvementBuilt(getImprovementType(), getX_INLINE(), getY_INLINE());
 		}
@@ -8088,11 +8046,8 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 				pWorkingCity->AI_setAssignWorkDirty(true);
 
 			}
-/*************************************************************************************************/
-/**	Statesmen								02/05/10											**/
-/**																								**/
-/**						Allows improvements to grant specific specialists						**/
-/*************************************************************************************************/
+
+			// Allows improvements to grant specific specialists : Statesmen 02/05/10
 			if (getImprovementType() != NO_IMPROVEMENT)
 			{
 				if (GC.getImprovementInfo(getImprovementType()).getFreeSpecialist() != NO_SPECIALIST)
@@ -8115,9 +8070,7 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 					}
 				}
 			}
-/*************************************************************************************************/
-/**	Statesmen								END													**/
-/*************************************************************************************************/
+			// End Statesmen
 		}
 
 		gDLL->getInterfaceIFace()->setDirty(CitizenButtons_DIRTY_BIT, true);
