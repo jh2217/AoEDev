@@ -3220,7 +3220,7 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 						if (pMissionPlot->isImprovementInRange(eImprovement, GC.getImprovementInfo(eImprovement).getMinimumDistance(), true))
 						{
 							szBuffer.append(NEWLINE);
-							szBuffer.append(gDLL->getText("TXT_KEY_ACTION_IMPROVEMENT_TO_CLOSE", GC.getImprovementInfo(eImprovement).getDescription(), GC.getImprovementInfo(eImprovement).getMinimumDistance()));
+							szBuffer.append(gDLL->getText("TXT_KEY_ACTION_IMPROVEMENT_TOO_CLOSE", GC.getImprovementInfo(eImprovement).getDescription(), GC.getImprovementInfo(eImprovement).getMinimumDistance()));
 						}
 					}
 /*************************************************************************************************/

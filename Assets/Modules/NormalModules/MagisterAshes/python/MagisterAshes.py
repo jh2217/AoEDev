@@ -76,7 +76,6 @@ def onBeginGameTurn(self, argsList):
 				#	if iReal == iBB:
 					pPlotBB.setImprovementType(-1)
 					pPlotBB.setFeatureType(-1, 0)
-					CyEngine().removeLandmark(pPlotBB)
 				#	else:
 				#		pPlotBB.setImprovementType(iReal)
 
@@ -85,7 +84,6 @@ def onBeginGameTurn(self, argsList):
 					pPlotBB.setExploreNextTurn(0)
 
 					pBestPlot.setImprovementType(iBB)
-					CyEngine().addLandmark(pBestPlot, CvUtil.convertToStr(gc.getImprovementInfo(iBB).getDescription()))
 
 					pBestPlot.setBonusType(iIce)
 					pBestPlot.setFeatureType(iBl, 0)

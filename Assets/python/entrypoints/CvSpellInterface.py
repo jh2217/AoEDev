@@ -5373,37 +5373,6 @@ def spellExploreLair(caster):
 	caster.finishMoves()
 	caster.changeExperience(1, -1, False, False, False)
 
-### Still used by Epic Lairs
-def spellExploreLairEpic(caster):
-	pPlot = caster.plot()
-	iRnd = CyGame().getSorenRandNum(100, "Explore Lair") + caster.getLevel()
-	iRnd += caster.getNoBadExplore()/2
-	iDestroyLair = 0
-	if iRnd < 50:
-		iDestroyLair = CvEventInterface.getEventManager().cf.exploreLairBigBad(caster)
-	if iRnd >= 50:
-		iDestroyLair = CvEventInterface.getEventManager().cf.exploreLairBigGood(caster)
-	if iDestroyLair > CyGame().getSorenRandNum(100, "Explore Lair"):
-		CyInterface().addMessage(caster.getOwner(),True,25,CyTranslator().getText("TXT_KEY_MESSAGE_LAIR_DESTROYED", ()),'AS2D_POSITIVE_DINK',1,'Art/Interface/Buttons/Spells/Explore Lair.dds',ColorTypes(8),pPlot.getX(),pPlot.getY(),True,True)
-		removeEpicLair(pPlot)
-	caster.finishMoves()
-	caster.changeExperience(3, -1, False, False, False)
-
-def removeEpicLair(pPlot):
-	iLair 		= pPlot.getImprovementType()
-	iReplace 	= -1
-	Manager		= CvEventInterface.getEventManager()
-	Improv		= Manager.UniqueImprovements
-
-	if   iLair == Improv["Aifon Isle"]:				iReplace = Improv["Aifon Isle (Explored)"]
-	elif iLair == Improv["Bradeline's Well"]:		iReplace = Improv["Bradeline's Well (Explored)"]
-	elif iLair == Improv["Broken Sepulcher"]:		iReplace = Improv["Broken Sepulcher (Explored)"]
-	elif iLair == Improv["Pyre of the Seraphic"]:	iReplace = Improv["Pyre of the Seraphic (Explored)"]
-	elif iLair == Improv["Dragon Bones"]:			iReplace = Improv["Dragon Bones Explored"]
-
-	if iReplace != -1:
-		pPlot.setImprovementType(iReplace)
-
 def spellMarnokDungeoneer(caster): #TODO Ronkhar : understand if this function is somehow still in use or if it is obsolete
 	iPlayer = caster.getOwner()
 	pPlot 	= caster.plot()
@@ -12269,9 +12238,6 @@ def reqRemoveUtopia(pCity):
 def spellOpenWellSouls(pCaster):
 	pPlot=pCaster.plot()
 	pPlot.setImprovementType(getInfoType("IMPROVEMENT_WELL_OF_SOULS_OPEN"))
-	# Renaming isn't working for some reason?
-	# CyEngine().removeLandmark(pPlot)
-	# CyEngine().addLandmark(pPlot, CvUtil.convertToStr(gc.getImprovementInfo(getInfoType("IMPROVEMENT_WELL_OF_SOULS_OPEN")).getDescription()))
 
 def reqPurifyWell(pCaster):
 	pPlayer = gc.getPlayer(pCaster.getOwner())

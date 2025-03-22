@@ -2226,7 +2226,6 @@ class CvEventManager:
 				#	iReal = pPlotBB.getRealImprovementType()
 				#	if iReal == iBB:
 					pPlotBB.setImprovementType(-1)
-					CyEngine().removeLandmark(pPlotBB)
 				#	else:
 				#		pPlotBB.setImprovementType(iReal)
 
@@ -2235,7 +2234,6 @@ class CvEventManager:
 					pPlotBB.setExploreNextTurn(0)
 
 					pBestPlot.setImprovementType(iBB)
-					CyEngine().addLandmark(pBestPlot, CvUtil.convertToStr(gc.getImprovementInfo(iBB).getDescription()))
 					pBestPlot.setBonusType(iIce)
 				#	pBestPlot.setFeatureType(iBl, 0)
 

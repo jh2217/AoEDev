@@ -7880,6 +7880,7 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 		ImprovementTypes eLoopImprovement;
 		BuildTypes eBuild = NO_BUILD;
 
+		// Remove build progress on incomplete builds for this tile, IF that build has a minimum range. Why?
 		for (iI = 0; iI < GC.getNumBuildInfos(); iI++)
 		{
 			eBuild = (BuildTypes)iI;
@@ -8018,6 +8019,11 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			setLayoutDirty(true);
 		}
 
+		// Trigger destroy improvement reports on direct replacement as well as set-to-none
+		if (eOldImprovement != NO_IMPROVEMENT)
+		{
+			CvEventReporter::getInstance().improvementDestroyed(eOldImprovement, getOwnerINLINE(), getX_INLINE(), getY_INLINE());
+		}
 		if (getImprovementType() != NO_IMPROVEMENT)
 		{
 
@@ -8029,11 +8035,6 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			//FfH: End Add
 
 			CvEventReporter::getInstance().improvementBuilt(getImprovementType(), getX_INLINE(), getY_INLINE());
-		}
-
-		if (getImprovementType() == NO_IMPROVEMENT)
-		{
-			CvEventReporter::getInstance().improvementDestroyed(eOldImprovement, getOwnerINLINE(), getX_INLINE(), getY_INLINE());
 		}
 
 		CvCity* pWorkingCity = getWorkingCity();

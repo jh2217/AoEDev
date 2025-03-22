@@ -2554,15 +2554,11 @@ class FoxTools:
 		git = gc.getInfoTypeForString
 		UniqueImprovement = {}
 		UniqueImprovement["Aifon Isle"] 					= git('IMPROVEMENT_AIFON_ISLE')
-		UniqueImprovement["Aifon Isle (Explored)"] 			= git('IMPROVEMENT_AIFON_ISLE_EXPLORED')
 		UniqueImprovement["Bair of Lacuna"]			    	= git('IMPROVEMENT_BAIR_OF_LACUNA')
 		UniqueImprovement["Bradeline's Well"] 				= git('IMPROVEMENT_BRADELINES_WELL')
-		UniqueImprovement["Bradeline's Well (Explored)"] 	= git('IMPROVEMENT_BRADELINES_WELL_EXPLORED')
 		UniqueImprovement["Bradeline's Well (Purified)"] 	= git('IMPROVEMENT_BRADELINES_WELL_PURIFIED')
 		UniqueImprovement["Broken Sepulcher"] 				= git('IMPROVEMENT_BROKEN_SEPULCHER')
-		UniqueImprovement["Broken Sepulcher (Explored)"] 	= git('IMPROVEMENT_BROKEN_SEPULCHER_EXPLORED')
 		UniqueImprovement["Dragon Bones"] 					= git('IMPROVEMENT_DRAGON_BONES')
-		UniqueImprovement["Dragon Bones Explored"] 			= git('IMPROVEMENT_DRAGON_BONES_EXPLORED')
 		UniqueImprovement["Foxford"] 						= git('IMPROVEMENT_FOXFORD')
 		UniqueImprovement["Guardian"] 						= git('IMPROVEMENT_GUARDIAN')
 		UniqueImprovement["Letum Frigus"] 					= git('IMPROVEMENT_LETUM_FRIGUS')
@@ -2573,7 +2569,6 @@ class FoxTools:
 		UniqueImprovement["Odio's Prison"] 					= git('IMPROVEMENT_ODIOS_PRISON')
 		UniqueImprovement["Pool of Tears"] 					= git('IMPROVEMENT_POOL_OF_TEARS')
 		UniqueImprovement["Pyre of the Seraphic"] 			= git('IMPROVEMENT_PYRE_OF_THE_SERAPHIC')
-		UniqueImprovement["Pyre of the Seraphic (Explored)"]= git('IMPROVEMENT_PYRE_OF_THE_SERAPHIC_EXPLORED')
 		UniqueImprovement["Remnants of Patria"]				= git('IMPROVEMENT_REMNANTS_OF_PATRIA')
 		UniqueImprovement["Ring of Carcer"] 				= git('IMPROVEMENT_RING_OF_CARCER')
 		UniqueImprovement["Rinwell"] 						= git('IMPROVEMENT_RINWELL')
@@ -2584,6 +2579,8 @@ class FoxTools:
 		UniqueImprovement["Standing Stones"] 				= git('IMPROVEMENT_STANDING_STONES')
 		UniqueImprovement["Tower of Eyes"] 					= git('IMPROVEMENT_TOWER_OF_EYES')
 		UniqueImprovement["Tomb of Sucellus"] 				= git('IMPROVEMENT_TOMB_OF_SUCELLUS')
+		UniqueImprovement["Well of Souls"]					= git('IMPROVEMENT_WELL_OF_SOULS')
+		UniqueImprovement["Well of Souls (Open)"]			= git('IMPROVEMENT_WELL_OF_SOULS_OPEN')
 		UniqueImprovement["Yggdrasil"] 						= git('IMPROVEMENT_YGGDRASIL')
 		self.UniqueImprovements 				= UniqueImprovement
 
