@@ -31314,1136 +31314,1109 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 				bool first = true;
 				switch (eTraitHook)
 				{
-				case TRAITHOOK_PLAYER_TURN:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_PLAYER_TURN").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_PLAYER_TURN").c_str());
-					first = true;
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqAtPeace())
+					case TRAITHOOK_PLAYER_TURN:
 					{
-						if (first)
-							first = false;
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_PLAYER_TURN").c_str());
 						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PEACE_PREREQ").c_str());
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqAtWar())
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WAR_PREREQ").c_str());
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isOwnHolyCity())
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_OWN_HOLY_CITY_PREREQ").c_str());
-					}
-
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getNumPrereqCivics() > 0)
-					{
-						for (int iJ = 0; iJ < GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getNumPrereqCivics(); iJ++)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_PLAYER_TURN").c_str());
+						first = true;
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqAtPeace())
 						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PEACE_PREREQ").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqAtWar())
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WAR_PREREQ").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isOwnHolyCity())
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_OWN_HOLY_CITY_PREREQ").c_str());
+						}
 
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getNumPrereqCivics() > 0)
+						{
+							for (int iJ = 0; iJ < GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getNumPrereqCivics(); iJ++)
+							{
+
+								CvWString szTempBuffer2;
+								szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CIVIC_PREREQ").c_str(), GC.getCivicInfo((CivicTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqCivic(iJ)).getDescription());
+								if (first)
+									first = false;
+								else
+									szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+								szTempBuffer.append(szTempBuffer2);
+
+							}
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqReligionType() != NO_RELIGION)
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_RELIGION").c_str());
+							szTempBuffer.append(GC.getReligionInfo((ReligionTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqReligionType()).getDescription());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
+						{
 							CvWString szTempBuffer2;
-							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CIVIC_PREREQ").c_str(), GC.getCivicInfo((CivicTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqCivic(iJ)).getDescription());
+							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
 							if (first)
 								first = false;
 							else
 								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
 							szTempBuffer.append(szTempBuffer2);
-
 						}
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqReligionType() != NO_RELIGION)
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_RELIGION").c_str());
-						szTempBuffer.append(GC.getReligionInfo((ReligionTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqReligionType()).getDescription());
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
-					{
-						CvWString szTempBuffer2;
-						szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
 
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-
-				case TRAITHOOK_TECH:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_TECH_RESEARCH").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_TECH_RESEARCH").c_str());
-					first = true;
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTechType() != NO_TECH)
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_TECH").c_str());
-						szTempBuffer.append(GC.getTechInfo((TechTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTechType()).getDescription());
-					}
-					else
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_ANY_TECH").c_str());
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isFirst())
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_FIRST").c_str());
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
-					{
-						CvWString szTempBuffer2;
-						szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-
-				case TRAITHOOK_IMPROVE_IMPROVEMENT:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_IMPROVE_IMPROVEMENT").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_IMPROVE_IMPROVEMENT").c_str());
-					first = true;
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
-						szTempBuffer.append(GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
-					}
-					else
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_ANY_IMPROVEMENT").c_str());
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
-					{
-						CvWString szTempBuffer2;
-						szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-				case TRAITHOOK_EXPLORE_LAIR:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_EXPLORE_LAIR").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_EXPLORE_LAIR").c_str());
-					first = true;
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
-						szTempBuffer.append(GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
-					}
-					else
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_EXPLORE_ANY_LAIR").c_str());
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
-					{
-						CvWString szTempBuffer2;
-						szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-
-
-				case TRAITHOOK_PILLAGE:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-					else
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
-
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
-					{
-						//	if (kTraitTrigger.isApplyToOther(eTrait))
-						//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED").c_str(), GC.getImprovementInfo((ImprovementTypes)kTraitTrigger.getPrereqImprovement()));
-						//	else
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGE").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
-					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRouteType() != NO_ROUTE)
-					{
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGE").c_str(), GC.getRouteInfo((RouteTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRouteType()).getDescription());
-					}
-					else
-					{
-						//	if (kTraitTrigger.isApplyToOther(eTrait))
-						//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED_ANY").c_str());
-						//	else
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGE_ANY").c_str());
-					}
-					szTempBuffer.append(szTempBuffer2);
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
-					{
-						CvWString szTempBuffer2;
-						szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-
-				case TRAITHOOK_IMPROVEMENT_PILLAGED:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-					else
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
-					{
-						//	if (kTraitTrigger.isApplyToOther(eTrait))
-						//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED").c_str(), GC.getImprovementInfo((ImprovementTypes)kTraitTrigger.getPrereqImprovement()));
-						//	else
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
-					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRouteType() != NO_ROUTE)
-					{
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED").c_str(), GC.getRouteInfo((RouteTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRouteType()).getDescription());
-					}
-					else
-					{
-						//	if (kTraitTrigger.isApplyToOther(eTrait))
-						//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED_ANY").c_str());
-						//	else
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED_ANY").c_str());
-					}
-					szTempBuffer.append(szTempBuffer2);
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
-					{
-						CvWString szTempBuffer2;
-						szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-				case TRAITHOOK_GAIN_PLOT_OWNERSHIP:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTerrainType() != NO_TERRAIN)
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_GAIN_PLOT_OWNERSHIP").c_str(), GC.getTerrainInfo((TerrainTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTerrainType()).getDescription());
-					else
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_GAIN_PLOT_OWNERSHIP").c_str(), gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ANY").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					{
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					else
-					{
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
-					{
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITCOUNTER_IMPROVEMENT_PREREQ").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqFeatureType() != NO_FEATURE)
-					{
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITCOUNTER_FEATURE_PREREQ").c_str(), GC.getFeatureInfo((FeatureTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqFeatureType()).getDescription());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHill())
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HILL_PREREQ").c_str());
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqPeak())
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PEAK_PREREQ").c_str());
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
-					{
-						szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-			case TRAITHOOK_LOSE_PLOT_OWNERSHIP:
-			{
-				szTempBuffer2;
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTerrainType() != NO_TERRAIN)
-					szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_LOSE_PLOT_OWNERSHIP").c_str(), GC.getTerrainInfo((TerrainTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTerrainType()).getDescription());
-				else
-					szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_LOSE_PLOT_OWNERSHIP").c_str(), gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ANY").c_str());
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-				{
-					szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-					szTempBuffer.append(szTempBuffer2);
-				}
-				else
-				{
-					szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
-					szTempBuffer.append(szTempBuffer2);
-				}
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
-				{
-					szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITCOUNTER_IMPROVEMENT_PREREQ").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
-					szTempBuffer.append(szTempBuffer2);
-				}
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqFeatureType() != NO_FEATURE)
-				{
-					szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITCOUNTER_FEATURE_PREREQ").c_str(), GC.getFeatureInfo((FeatureTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqFeatureType()).getDescription());
-					szTempBuffer.append(szTempBuffer2);
-				}
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHill())
-				{
-					if (first)
-						first = false;
-					else
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HILL_PREREQ").c_str());
-				}
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqPeak())
-				{
-					if (first)
-						first = false;
-					else
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PEAK_PREREQ").c_str());
-				}
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
-				{
-					szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
-					if (first)
-						first = false;
-					else
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-					szTempBuffer.append(szTempBuffer2);
-				}
-				szHelpString.append(szTempBuffer);
-
-				break;
-			}
-			case TRAITHOOK_GAIN_ALIGNMENT:
-			{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqAlignment() == ALIGNMENT_GOOD)
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_GOOD").c_str());
-				}
-				else
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_NEUTRAL_FROM_EVIL").c_str());
-				}
-				//	if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isCoastal())
-				//	{
-				//		if (first)
-				//			first = false;
-				//		else
-				//			szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-				//		szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_COASTAL").c_str());
-				//	}
-				szHelpString.append(szTempBuffer);
-				//	pbHookDisplayed[eTraitHook] = true;
-				break;
-			}
-			case TRAITHOOK_LOSE_ALIGNMENT:
-			{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqAlignment() == ALIGNMENT_EVIL)
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_EVIL").c_str());
-				}
-				else
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_NEUTRAL_FROM_GOOD").c_str());
-				}
-				szHelpString.append(szTempBuffer);
-
-				break;
-			}
-			case TRAITHOOK_GAIN_ETHICAL_ALIGNMENT:
-			{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqEthicalAlignment() == ETHICAL_ALIGNMENT_LAWFUL)
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_LAWFUL").c_str());
-				}
-				else
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_NEUTRAL_FROM_CHAOTIC").c_str());
-				}
-				szHelpString.append(szTempBuffer);
-
-				break;
-			}
-			case TRAITHOOK_LOSE_ETHICAL_ALIGNMENT:
-			{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ETHICAL_ALIGNMENT").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ETHICAL_ALIGNMENT").c_str());
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqEthicalAlignment() == ETHICAL_ALIGNMENT_CHAOTIC)
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CHAOTIC").c_str());
-				}
-				else
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_NEUTRAL_FROM_LAWFUL").c_str());
-				}
-				szHelpString.append(szTempBuffer);
-				break;
-			}
-			case TRAITHOOK_GAIN_ALIGNMENT_POINTS:
-			{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_GAIN_ALIGNMENT").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_GAIN_ALIGNMENT").c_str());
-				//	if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isCoastal())
-				//	{
-				//		if (first)
-				//			first = false;
-				//		else
-				//			szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-				//		szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_COASTAL").c_str());
-				//	}
-				szHelpString.append(szTempBuffer);
-				//	pbHookDisplayed[eTraitHook] = true;
-				break;
-			}
-			case TRAITHOOK_LOSE_ALIGNMENT_POINTS:
-			{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ALIGNMENT").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ALIGNMENT").c_str());
-				szHelpString.append(szTempBuffer);
-
-				break;
-			}
-			case TRAITHOOK_GAIN_ETHICAL_ALIGNMENT_POINTS:
-			{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_GAIN_ETHICAL_ALIGNMENT").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_GAIN_ETHICAL_ALIGNMENT").c_str());
-				szHelpString.append(szTempBuffer);
-
-				break;
-			}
-			case TRAITHOOK_LOSE_ETHICAL_ALIGNMENT_POINTS:
-			{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ETHICAL_ALIGNMENT").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ETHICAL_ALIGNMENT").c_str());
-				szHelpString.append(szTempBuffer);
-				break;
-			}
-			case TRAITHOOK_GOODY:
-				{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_GOODY").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_GOODY").c_str());
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-			case TRAITHOOK_START_WAR:
-				{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_START_WAR").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_START_WAR").c_str());
-					szHelpString.append(szTempBuffer);
-					break;
-			}
-			case TRAITHOOK_MAKE_PEACE:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_MAKE_PEACE").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_MAKE_PEACE").c_str());
-
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-			case TRAITHOOK_MAKE_VASSAL:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_MAKE_VASSAL").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_MAKE_VASSAL").c_str());
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-
-			case TRAITHOOK_LOSE_VASSAL:
-				{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_LOSE_VASSAL").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_LOSE_VASSAL").c_str());
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-
-			case TRAITHOOK_BECOME_VASSAL:
-				{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_BECOME_VASSAL").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_BECOME_VASSAL").c_str());
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-
-			case TRAITHOOK_FREED_VASSAL:
-				{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_FREED_VASSAL").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_FREED_VASSAL").c_str());
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-
-
-			case TRAITHOOK_CONNECT_RESOURCE:
-				{
-					CvWString szTempBuffer2;
-					if(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqBonusType()!=NO_BONUS)
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_CONNECT_RESOURCE").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqBonusType()).getDescription());
-					else
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_CONNECT_ANY_RESOURCE").c_str());
-
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-					else
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
-					szTempBuffer.append(szTempBuffer2);
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHappy())
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HAPPY_PREREQ").c_str());
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHealth())
-					{
-						if (first)
-							first = false;
-						else
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HEALTH_PREREQ").c_str());
-					}
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-			case TRAITHOOK_BUILD_ROUTE:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_BUILD_ROUTE").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_BUILD_ROUTE").c_str());
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-
-			case TRAITHOOK_BUILD_IMPROVEMENT:
-				{
-					CvWString szTempBuffer2;
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
-					{
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_BUILD_IMPROVEMENT").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
-					}
-					else
-					{
-						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS) {
-							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_UNITCLASS_BUILD_ANY_IMPROVEMENT").c_str(), GC.getUnitClassInfo((UnitClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()).getDescription());
-						}
-						else
-						{
-							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_ANY_BUILD_ANY_IMPROVEMENT").c_str() );
-
-						}
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-					else
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
-					szTempBuffer.append(szTempBuffer2);
-					szHelpString.append(szTempBuffer);
-
-				break;
-				}
-			case TRAITHOOK_CITY_FOUND:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_FOUND").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_FOUND").c_str());
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-
-			case TRAITHOOK_CITY_RAZE:
-				{
-					CvWString szTempBuffer2;
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).isCityNotOwnHolyCity())
-						szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_NOT_STATE_HOLY_CITY_RAZE").c_str());
-					else if((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).isCityOwnHolyCity())
-						szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_STATE_HOLY_CITY_RAZE").c_str());
-					else if((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).isCityAnyHolyCity())
-						szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_ANY_HOLY_CITY_RAZE").c_str());
-					else
-						szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITHOOK_CITY_RAZE").c_str());
-
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-					{
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					else
-					{
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace() != NO_PROMOTION)
-					{
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITCOUNTER_CITY_POPULATION").c_str(), GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-			case TRAITHOOK_CITY_ACQUIRE:
-				{
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_ACQUIRE").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_ACQUIRE").c_str());
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).isPrereqConquest())
-					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CONQUEST_PREREQ").c_str());
-					}
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).isPrereqTrade())
-					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_TRADE_PREREQ").c_str());
-					}
-					szHelpString.append(szTempBuffer);
-				break;
-				}
-
-			case TRAITHOOK_CITY_HURRY:
-				{
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_HURRY").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_HURRY").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqHurryType() != NO_HURRY)
-					{
-					//	szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_HURRY").c_str());
-						if(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqHurryType()==GC.getInfoTypeForString("HURRY_POPULATION"))
-							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_HURRY_POPULATION"));
-
-					}
-						
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-			
-			case TRAITHOOK_CITY_POPGROW:
-				{
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_POPGROW").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_POPGROW").c_str());
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-
-
-			case TRAITHOOK_CITY_CULTUREGROW:
-				{
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_CULTUREGROW").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_CULTUREGROW").c_str());
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqCultureLevel() != NO_CULTURELEVEL)
-					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_TO").c_str());
-						szTempBuffer.append(GC.getCultureLevelInfo((CultureLevelTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqCultureLevel()).getDescription());
-					}
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-
-			case TRAITHOOK_CHANGE_RELIGION:
-				{
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_RELIGION").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_RELIGION").c_str());
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqOldReligionType() != NO_RELIGION)
-					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_FROM").c_str());
-						szTempBuffer.append(GC.getReligionInfo((ReligionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqOldReligionType()).getDescription());
-					}
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqReligionType() != NO_RELIGION)
-					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_TO").c_str());
-						szTempBuffer.append(GC.getReligionInfo((ReligionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqReligionType()).getDescription());
-					}
-					szHelpString.append(szTempBuffer);
-
-				break;
-
-				}
-
-			case TRAITHOOK_CONVERT_CITY:
-				{
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_CONVERT_CITY").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_CONVERT_CITY").c_str());
-					
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqReligionType() != NO_RELIGION)
-					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_TO").c_str());
-						szTempBuffer.append(GC.getReligionInfo((ReligionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqReligionType()).getDescription());
-					}
-				
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-
-			case TRAITHOOK_CONVERT_CITY_RELIGIOUS_LEADER:
-			{
-				if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_CONVERT_CITY_RELIGIOUS_LEADER").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_CONVERT_CITY").c_str());
-
-				
-				szHelpString.append(szTempBuffer);
-				break;
-				}
-
-			case TRAITHOOK_GP_BORN:
-				{
-					if((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()!=NO_UNITCLASS)
-					{
-						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-
-							szTempBuffer.Format(L"%s%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_GP_BORN").c_str(), GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
-						else
-							szTempBuffer.Format(L"%s%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_GP_BORN").c_str(), GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
-					}
-					else
-					{
-						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-
-							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_ANY_GP_BORN").c_str());
-						else
-							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_ANY_GP_BORN").c_str());
-					}
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-
-
-
-			case TRAITHOOK_TRADE:
-				{
-					CvWString szTempBuffer2;
-					switch ((TradeableItems)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqTrade())
-					{
-					case TRADE_RELIGION:
-						szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITHOOK_TRADE_RELIGION").c_str());
-						break;
-					case TRADE_OPEN_BORDERS:
-						szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITHOOK_TRADE_OPEN_BORDERS").c_str());
-						break;
-					default:
-						szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITHOOK_TRADE").c_str());
-						break;
-					}
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-					else
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_TRADE").c_str());
-					szTempBuffer.append(szTempBuffer2);
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-			case TRAITHOOK_CREATE_PROJECT:
-				{
-					if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqProjectType() != NO_PROJECT)
-					{
-						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-
-							szTempBuffer.Format(L"%s%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CREATE_PROJECT").c_str(), GC.getProjectInfo((ProjectTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqProjectType()).getDescription());
-						else
-							szTempBuffer.Format(L"%s%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CREATE_PROJECT").c_str(), GC.getProjectInfo((ProjectTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqProjectType()).getDescription());
-						
-					}
-					else
-					{
-						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
-							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CREATE_PROJECT_ANY").c_str());
-						else
-							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CREATE_PROJECT_ANY").c_str());
 						szHelpString.append(szTempBuffer);
 						break;
 					}
-				}
-				case TRAITHOOK_CAPTURE_UNIT:
-				{
-					CvWString szKillerUnit;
-					CvWString szKilledUnit;
-					szKillerUnit.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRace() != NO_PROMOTION)
+					case TRAITHOOK_TECH:
 					{
-						szKillerUnit.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_TECH_RESEARCH").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_TECH_RESEARCH").c_str());
+						first = true;
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTechType() != NO_TECH)
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_TECH").c_str());
+							szTempBuffer.append(GC.getTechInfo((TechTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTechType()).getDescription());
+						}
+						else
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_ANY_TECH").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isFirst())
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_FIRST").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
+						{
+							CvWString szTempBuffer2;
+							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHiddenNationality())
+					case TRAITHOOK_IMPROVE_IMPROVEMENT:
 					{
-						szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
-
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_IMPROVE_IMPROVEMENT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_IMPROVE_IMPROVEMENT").c_str());
+						first = true;
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
+							szTempBuffer.append(GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
+						}
+						else
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_ANY_IMPROVEMENT").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
+						{
+							CvWString szTempBuffer2;
+							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHero())
+					case TRAITHOOK_EXPLORE_LAIR:
 					{
-						szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
-
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_EXPLORE_LAIR").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_EXPLORE_LAIR").c_str());
+						first = true;
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
+							szTempBuffer.append(GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
+						}
+						else
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_EXPLORE_ANY_LAIR").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
+						{
+							CvWString szTempBuffer2;
+							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
+					case TRAITHOOK_PILLAGE:
 					{
-						szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
 
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
+						{
+							//	if (kTraitTrigger.isApplyToOther(eTrait))
+							//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED").c_str(), GC.getImprovementInfo((ImprovementTypes)kTraitTrigger.getPrereqImprovement()));
+							//	else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGE").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRouteType() != NO_ROUTE)
+						{
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGE").c_str(), GC.getRouteInfo((RouteTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRouteType()).getDescription());
+						}
+						else
+						{
+							//	if (kTraitTrigger.isApplyToOther(eTrait))
+							//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED_ANY").c_str());
+							//	else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGE_ANY").c_str());
+						}
+						szTempBuffer.append(szTempBuffer2);
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
+						{
+							CvWString szTempBuffer2;
+							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()!=NO_UNITCLASS)
+					case TRAITHOOK_IMPROVEMENT_PILLAGED:
 					{
-						szKillerUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
+						{
+							//	if (kTraitTrigger.isApplyToOther(eTrait))
+							//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED").c_str(), GC.getImprovementInfo((ImprovementTypes)kTraitTrigger.getPrereqImprovement()));
+							//	else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRouteType() != NO_ROUTE)
+						{
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED").c_str(), GC.getRouteInfo((RouteTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRouteType()).getDescription());
+						}
+						else
+						{
+							//	if (kTraitTrigger.isApplyToOther(eTrait))
+							//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED_ANY").c_str());
+							//	else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED_ANY").c_str());
+						}
+						szTempBuffer.append(szTempBuffer2);
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
+						{
+							CvWString szTempBuffer2;
+							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
+					case TRAITHOOK_GAIN_PLOT_OWNERSHIP:
 					{
-						szKillerUnit.append(GC.getUnitCombatInfo((UnitCombatTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitCombatType()).getDescription());
-
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTerrainType() != NO_TERRAIN)
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_GAIN_PLOT_OWNERSHIP").c_str(), GC.getTerrainInfo((TerrainTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTerrainType()).getDescription());
+						else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_GAIN_PLOT_OWNERSHIP").c_str(), gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ANY").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+						{
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						else
+						{
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
+						{
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITCOUNTER_IMPROVEMENT_PREREQ").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqFeatureType() != NO_FEATURE)
+						{
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITCOUNTER_FEATURE_PREREQ").c_str(), GC.getFeatureInfo((FeatureTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqFeatureType()).getDescription());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHill())
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HILL_PREREQ").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqPeak())
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PEAK_PREREQ").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
+						{
+							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					else
+					case TRAITHOOK_LOSE_PLOT_OWNERSHIP:
 					{
-						szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNIT").c_str());
+						szTempBuffer2;
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTerrainType() != NO_TERRAIN)
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_LOSE_PLOT_OWNERSHIP").c_str(), GC.getTerrainInfo((TerrainTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTerrainType()).getDescription());
+						else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_LOSE_PLOT_OWNERSHIP").c_str(), gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ANY").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+						{
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						else
+						{
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
+						{
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITCOUNTER_IMPROVEMENT_PREREQ").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqFeatureType() != NO_FEATURE)
+						{
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITCOUNTER_FEATURE_PREREQ").c_str(), GC.getFeatureInfo((FeatureTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqFeatureType()).getDescription());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHill())
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HILL_PREREQ").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqPeak())
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PEAK_PREREQ").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
+						{
+							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
 
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinAlignment() != 0)
+					case TRAITHOOK_GAIN_ALIGNMENT:
 					{
-
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqAlignment() == ALIGNMENT_GOOD)
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_GOOD").c_str());
+						}
+						else
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_NEUTRAL_FROM_EVIL").c_str());
+						}
+						//	if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isCoastal())
+						//	{
+						//		if (first)
+						//			first = false;
+						//		else
+						//			szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+						//		szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_COASTAL").c_str());
+						//	}
+						szHelpString.append(szTempBuffer);
+						//	pbHookDisplayed[eTraitHook] = true;
+						break;
 					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxAlignment() != 0)
+					case TRAITHOOK_LOSE_ALIGNMENT:
 					{
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqAlignment() == ALIGNMENT_EVIL)
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_EVIL").c_str());
+						}
+						else
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_NEUTRAL_FROM_GOOD").c_str());
+						}
+						szHelpString.append(szTempBuffer);
 
+						break;
 					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinEthicalAlignment() != 0)
+					case TRAITHOOK_GAIN_ETHICAL_ALIGNMENT:
 					{
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_ALIGNMENT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqEthicalAlignment() == ETHICAL_ALIGNMENT_LAWFUL)
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_LAWFUL").c_str());
+						}
+						else
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_NEUTRAL_FROM_CHAOTIC").c_str());
+						}
+						szHelpString.append(szTempBuffer);
 
+						break;
 					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxEthicalAlignment() != 0)
+					case TRAITHOOK_LOSE_ETHICAL_ALIGNMENT:
 					{
-
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ETHICAL_ALIGNMENT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ETHICAL_ALIGNMENT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqEthicalAlignment() == ETHICAL_ALIGNMENT_CHAOTIC)
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CHAOTIC").c_str());
+						}
+						else
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_NEUTRAL_FROM_LAWFUL").c_str());
+						}
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-
-					szKilledUnit.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledRace() != NO_PROMOTION)
+					case TRAITHOOK_GAIN_ALIGNMENT_POINTS:
 					{
-						szKilledUnit.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledRace()).getDescription());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_GAIN_ALIGNMENT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_GAIN_ALIGNMENT").c_str());
+						//	if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isCoastal())
+						//	{
+						//		if (first)
+						//			first = false;
+						//		else
+						//			szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+						//		szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_COASTAL").c_str());
+						//	}
+						szHelpString.append(szTempBuffer);
+						//	pbHookDisplayed[eTraitHook] = true;
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledHiddenNationality())
+					case TRAITHOOK_LOSE_ALIGNMENT_POINTS:
 					{
-						szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ALIGNMENT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ALIGNMENT").c_str());
+						szHelpString.append(szTempBuffer);
 
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledHero())
+					case TRAITHOOK_GAIN_ETHICAL_ALIGNMENT_POINTS:
 					{
-						szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_GAIN_ETHICAL_ALIGNMENT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_GAIN_ETHICAL_ALIGNMENT").c_str());
+						szHelpString.append(szTempBuffer);
 
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledWerewolf())
+					case TRAITHOOK_LOSE_ETHICAL_ALIGNMENT_POINTS:
 					{
-						szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
-
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ETHICAL_ALIGNMENT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_ETHICAL_ALIGNMENT").c_str());
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitClassType() != NO_UNITCLASS)
+					case TRAITHOOK_GOODY:
 					{
-						szKilledUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledUnitClassType()).getDescription());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_GOODY").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_GOODY").c_str());
+							szHelpString.append(szTempBuffer);
+						break;
 					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitCombatType() != NO_UNITCOMBAT)
+					case TRAITHOOK_START_WAR:
 					{
-						szKilledUnit.append(GC.getUnitCombatInfo((UnitCombatTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledUnitCombatType()).getDescription());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_START_WAR").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_START_WAR").c_str());
 
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					else
+					case TRAITHOOK_MAKE_PEACE:
 					{
-						szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNIT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_MAKE_PEACE").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_MAKE_PEACE").c_str());
 
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinKilledAlignment() != 0)
+					case TRAITHOOK_MAKE_VASSAL:
 					{
-
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_MAKE_VASSAL").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_MAKE_VASSAL").c_str());
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxKilledAlignment() != 0)
+					case TRAITHOOK_LOSE_VASSAL:
 					{
-
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_LOSE_VASSAL").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_LOSE_VASSAL").c_str());
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinKilledEthicalAlignment() != 0)
+					case TRAITHOOK_BECOME_VASSAL:
 					{
-
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_BECOME_VASSAL").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_BECOME_VASSAL").c_str());
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxKilledEthicalAlignment() != 0)
+					case TRAITHOOK_FREED_VASSAL:
 					{
-
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_FREED_VASSAL").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_FREED_VASSAL").c_str());
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqOpposite())
+					case TRAITHOOK_CONNECT_RESOURCE:
 					{
-						szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_OPPOSITE_ALIGNMENT").c_str());
+						CvWString szTempBuffer2;
+						if(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqBonusType()!=NO_BONUS)
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_CONNECT_RESOURCE").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqBonusType()).getDescription());
+						else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_CONNECT_ANY_RESOURCE").c_str());
+
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+						szTempBuffer.append(szTempBuffer2);
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHappy())
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HAPPY_PREREQ").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHealth())
+						{
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HEALTH_PREREQ").c_str());
+						}
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqOppositeEthical())
+					case TRAITHOOK_BUILD_ROUTE:
 					{
-						szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_OPPOSITE_ETHICAL_ALIGNMENT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_BUILD_ROUTE").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_BUILD_ROUTE").c_str());
+						szHelpString.append(szTempBuffer);
+						break;
 					}
+					case TRAITHOOK_BUILD_IMPROVEMENT:
+					{
+						CvWString szTempBuffer2;
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
+						{
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_BUILD_IMPROVEMENT").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
+						}
+						else
+						{
+							if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS) {
+								szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_UNITCLASS_BUILD_ANY_IMPROVEMENT").c_str(), GC.getUnitClassInfo((UnitClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()).getDescription());
+							}
+							else
+							{
+								szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_ANY_BUILD_ANY_IMPROVEMENT").c_str() );
+
+							}
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+						szTempBuffer.append(szTempBuffer2);
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_CITY_FOUND:
+					{
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_FOUND").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_FOUND").c_str());
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_CITY_RAZE:
+					{
+						CvWString szTempBuffer2;
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).isCityNotOwnHolyCity())
+							szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_NOT_STATE_HOLY_CITY_RAZE").c_str());
+						else if((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).isCityOwnHolyCity())
+							szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_STATE_HOLY_CITY_RAZE").c_str());
+						else if((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).isCityAnyHolyCity())
+							szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_ANY_HOLY_CITY_RAZE").c_str());
+						else
+							szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITHOOK_CITY_RAZE").c_str());
+
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+						{
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						else
+						{
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace() != NO_PROMOTION)
+						{
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITCOUNTER_CITY_POPULATION").c_str(), GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_CITY_ACQUIRE:
+					{
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_ACQUIRE").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_ACQUIRE").c_str());
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).isPrereqConquest())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CONQUEST_PREREQ").c_str());
+						}
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).isPrereqTrade())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_TRADE_PREREQ").c_str());
+						}
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_CITY_HURRY:
+					{
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_HURRY").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_HURRY").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqHurryType() != NO_HURRY)
+						{
+						//	szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_HURRY").c_str());
+							if(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqHurryType()==GC.getInfoTypeForString("HURRY_POPULATION"))
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_HURRY_POPULATION"));
+
+						}
+							
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_CITY_POPGROW:
+					{
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_POPGROW").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_POPGROW").c_str());
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_CITY_CULTUREGROW:
+					{
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_CULTUREGROW").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CITY_CULTUREGROW").c_str());
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqCultureLevel() != NO_CULTURELEVEL)
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_TO").c_str());
+							szTempBuffer.append(GC.getCultureLevelInfo((CultureLevelTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqCultureLevel()).getDescription());
+						}
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_CHANGE_RELIGION:
+					{
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_RELIGION").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CHANGE_RELIGION").c_str());
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqOldReligionType() != NO_RELIGION)
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_FROM").c_str());
+							szTempBuffer.append(GC.getReligionInfo((ReligionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqOldReligionType()).getDescription());
+						}
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqReligionType() != NO_RELIGION)
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_TO").c_str());
+							szTempBuffer.append(GC.getReligionInfo((ReligionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqReligionType()).getDescription());
+						}
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_CONVERT_CITY:
+					{
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_CONVERT_CITY").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_CONVERT_CITY").c_str());
+						
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqReligionType() != NO_RELIGION)
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_TO").c_str());
+							szTempBuffer.append(GC.getReligionInfo((ReligionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqReligionType()).getDescription());
+						}
+					
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_CONVERT_CITY_RELIGIOUS_LEADER:
+					{
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_CONVERT_CITY_RELIGIOUS_LEADER").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_CONVERT_CITY").c_str());
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_GP_BORN:
+					{
+						if((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()!=NO_UNITCLASS)
+						{
+							if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+
+								szTempBuffer.Format(L"%s%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_GP_BORN").c_str(), GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
+							else
+								szTempBuffer.Format(L"%s%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_GP_BORN").c_str(), GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
+						}
+						else
+						{
+							if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+
+								szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_ANY_GP_BORN").c_str());
+							else
+								szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_ANY_GP_BORN").c_str());
+						}
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_TRADE:
+					{
+						CvWString szTempBuffer2;
+						switch ((TradeableItems)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqTrade())
+						{
+						case TRADE_RELIGION:
+							szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITHOOK_TRADE_RELIGION").c_str());
+							break;
+						case TRADE_OPEN_BORDERS:
+							szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITHOOK_TRADE_OPEN_BORDERS").c_str());
+							break;
+						default:
+							szTempBuffer2.Format(L"%s", gDLL->getText("TXT_KEY_TRAITHOOK_TRADE").c_str());
+							break;
+						}
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_TRADE").c_str());
+						szTempBuffer.append(szTempBuffer2);
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_CREATE_PROJECT:
+					{
+						if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqProjectType() != NO_PROJECT)
+						{
+							if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+
+								szTempBuffer.Format(L"%s%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CREATE_PROJECT").c_str(), GC.getProjectInfo((ProjectTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqProjectType()).getDescription());
+							else
+								szTempBuffer.Format(L"%s%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CREATE_PROJECT").c_str(), GC.getProjectInfo((ProjectTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqProjectType()).getDescription());
+							
+						}
+						else
+						{
+							if ((GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getTraitCounterChange(eTrait) > 0)
+								szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CREATE_PROJECT_ANY").c_str());
+							else
+								szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CREATE_PROJECT_ANY").c_str());
+							szHelpString.append(szTempBuffer);
+							break;
+						}
+					}
+					case TRAITHOOK_CAPTURE_UNIT:
+					{
+						CvWString szKillerUnit;
+						CvWString szKilledUnit;
+						szKillerUnit.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRace() != NO_PROMOTION)
+						{
+							szKillerUnit.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHiddenNationality())
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHero())
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()!=NO_UNITCLASS)
+						{
+							szKillerUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
+						{
+							szKillerUnit.append(GC.getUnitCombatInfo((UnitCombatTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitCombatType()).getDescription());
+
+						}
+						else
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNIT").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinAlignment() != 0)
+						{
+
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxAlignment() != 0)
+						{
+
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinEthicalAlignment() != 0)
+						{
+
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxEthicalAlignment() != 0)
+						{
+
+						}
+
+						szKilledUnit.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledRace() != NO_PROMOTION)
+						{
+							szKilledUnit.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledRace()).getDescription());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledHiddenNationality())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledHero())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledWerewolf())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitClassType() != NO_UNITCLASS)
+						{
+							szKilledUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledUnitClassType()).getDescription());
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitCombatType() != NO_UNITCOMBAT)
+						{
+							szKilledUnit.append(GC.getUnitCombatInfo((UnitCombatTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledUnitCombatType()).getDescription());
+
+						}
+						else
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNIT").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinKilledAlignment() != 0)
+						{
+
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxKilledAlignment() != 0)
+						{
+
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinKilledEthicalAlignment() != 0)
+						{
+
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxKilledEthicalAlignment() != 0)
+						{
+
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqOpposite())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_OPPOSITE_ALIGNMENT").c_str());
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqOppositeEthical())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_OPPOSITE_ETHICAL_ALIGNMENT").c_str());
+						}
 
 
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());//, szKillerUnit, gDLL->getText("TXT_KEY_TRAITHOOK_KILL_UNIT").c_str(), szKilledUnit);
-					else
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());// , szKillerUnit, , szKilledUnit);
-					szTempBuffer.append(szKillerUnit);
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_CAPTURE_UNIT").c_str());
-					szTempBuffer.append(szKilledUnit);
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-				case TRAITHOOK_KILL_UNIT:
-		{
-			CvWString szKillerUnit;
-			CvWString szKilledUnit;
-			szKillerUnit.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRace() != NO_PROMOTION)
-			{
-				szKillerUnit.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
-				szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
-			}
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHiddenNationality())
-			{
-				szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());//, szKillerUnit, gDLL->getText("TXT_KEY_TRAITHOOK_KILL_UNIT").c_str(), szKilledUnit);
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());// , szKillerUnit, , szKilledUnit);
+						szTempBuffer.append(szKillerUnit);
+						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_CAPTURE_UNIT").c_str());
+						szTempBuffer.append(szKilledUnit);
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_KILL_UNIT:
+					{
+						CvWString szKillerUnit;
+						CvWString szKilledUnit;
+						szKillerUnit.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRace() != NO_PROMOTION)
+						{
+							szKillerUnit.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHiddenNationality())
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
 
-			}
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHero())
-			{
-				szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHero())
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
 
-			}
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
-			{
-				szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
 
-			}
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
-			{
-				szKillerUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
-				szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
-			}
-			else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
-			{
-				szKillerUnit.append(GC.getUnitCombatInfo((UnitCombatTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitCombatType()).getDescription());
-				szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
+						{
+							szKillerUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
+						{
+							szKillerUnit.append(GC.getUnitCombatInfo((UnitCombatTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitCombatType()).getDescription());
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
 
-			}
-			else
-			{
-				szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNIT").c_str());
+						}
+						else
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNIT").c_str());
 
-			}
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinAlignment() != 0)
-			{
-				
-			}
-			else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxAlignment() != 0)
-			{
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinAlignment() != 0)
+						{
+							
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxAlignment() != 0)
+						{
 
-			}
-			else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinEthicalAlignment() != 0)
-			{
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinEthicalAlignment() != 0)
+						{
 
-			}
-			else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxEthicalAlignment() != 0)
-			{
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxEthicalAlignment() != 0)
+						{
 
-			}
+						}
 
-			szKilledUnit.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledRace() != NO_PROMOTION)
-			{
-				szKilledUnit.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledRace()).getDescription());
-				szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
-			}
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledHiddenNationality())
-			{
-				szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
+						szKilledUnit.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_PREREQ_A").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledRace() != NO_PROMOTION)
+						{
+							szKilledUnit.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledRace()).getDescription());
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledHiddenNationality())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
 
-			}
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledHero())
-			{
-				szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledHero())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
 
-			}
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledWerewolf())
-			{
-				szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledWerewolf())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
 
-			}
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitClassType() != NO_UNITCLASS)
-			{
-				szKilledUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledUnitClassType()).getDescription());
-				szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
-			}
-			else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitCombatType() != NO_UNITCOMBAT)
-			{
-				szKilledUnit.append(GC.getUnitCombatInfo((UnitCombatTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledUnitCombatType()).getDescription());
-				szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitClassType() != NO_UNITCLASS)
+						{
+							szKilledUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledUnitClassType()).getDescription());
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitCombatType() != NO_UNITCOMBAT)
+						{
+							szKilledUnit.append(GC.getUnitCombatInfo((UnitCombatTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqKilledUnitCombatType()).getDescription());
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
 
-			}
-			else
-			{
-				szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNIT").c_str());
+						}
+						else
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNIT").c_str());
 
-			}
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinKilledAlignment() != 0)
-			{
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinKilledAlignment() != 0)
+						{
 
-			}
-			else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxKilledAlignment() != 0)
-			{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxKilledAlignment() <= -250)
-				{
-					szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_EVIL_CIV").c_str());
-				}
-			}
-			else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinKilledEthicalAlignment() != 0)
-			{
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxKilledAlignment() != 0)
+						{
+							if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxKilledAlignment() <= -250)
+							{
+								szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_EVIL_CIV").c_str());
+							}
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMinKilledEthicalAlignment() != 0)
+						{
 
-			}
-			else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxKilledEthicalAlignment() != 0)
-			{
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqMaxKilledEthicalAlignment() != 0)
+						{
 
-			}
-			else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqOpposite())
-			{
-				szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_OPPOSITE_ALIGNMENT").c_str());
-			}
-			else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqOppositeEthical())
-			{
-				szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_OPPOSITE_ETHICAL_ALIGNMENT").c_str());
-			}
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqOpposite())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_OPPOSITE_ALIGNMENT").c_str());
+						}
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqOppositeEthical())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_OPPOSITE_ETHICAL_ALIGNMENT").c_str());
+						}
 
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-				szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());//, szKillerUnit, gDLL->getText("TXT_KEY_TRAITHOOK_KILL_UNIT").c_str(), szKilledUnit);
-			else
-				szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());// , szKillerUnit, , szKilledUnit);
-			szTempBuffer.append(szKillerUnit);
-			szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_KILL_UNIT").c_str());
-			szTempBuffer.append(szKilledUnit);
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqInBorders())
-			{
-				szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WITHIN_BORDERS").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());//, szKillerUnit, gDLL->getText("TXT_KEY_TRAITHOOK_KILL_UNIT").c_str(), szKilledUnit);
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());// , szKillerUnit, , szKilledUnit);
+						szTempBuffer.append(szKillerUnit);
+						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_KILL_UNIT").c_str());
+						szTempBuffer.append(szKilledUnit);
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqInBorders())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WITHIN_BORDERS").c_str());
 
-			}
+						}
 
-			szHelpString.append(szTempBuffer);
-			break;
-		}
+						szHelpString.append(szTempBuffer);
+						break;
+					}
 					case TRAITHOOK_UNIT_KILLED:
 					{
 						CvWString szKillerUnit;
@@ -32575,220 +32548,213 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 						szHelpString.append(szTempBuffer);
 						break;
 					}
-
-
-			case TRAITHOOK_TRAIN_UNIT:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_TRAIN_UNIT").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_TRAIN_UNIT").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRace() != NO_PROMOTION)
+					case TRAITHOOK_TRAIN_UNIT:
 					{
-						szTempBuffer.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_TRAIN_UNIT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_TRAIN_UNIT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRace() != NO_PROMOTION)
+						{
+							szTempBuffer.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
 
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHiddenNationality())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHero())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+
+						}
+
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
+							szTempBuffer.append(GC.getUnitClassInfo((UnitClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()).getDescription());
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
+							szTempBuffer.append(GC.getUnitCombatInfo((UnitCombatTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType()).getDescription());
+						else
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_PREREQ").c_str());
+
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHiddenNationality())
+					case TRAITHOOK_UPGRADE_UNIT:
 					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UPGRADE_UNIT").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UPGRADE_UNIT").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRace() != NO_PROMOTION)
+						{
+							szTempBuffer.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
 
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHiddenNationality())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHero())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+
+						}
+
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
+							szTempBuffer.append(GC.getUnitClassInfo((UnitClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()).getDescription());
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
+							szTempBuffer.append(GC.getUnitCombatInfo((UnitCombatTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType()).getDescription());
+						else
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_PREREQ").c_str());
+
+						szHelpString.append(szTempBuffer);
+						break;
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHero())
+					case TRAITHOOK_UNIT_LEVEL_UP:
 					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LEVEL_UP").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LEVEL_UP").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRace() != NO_PROMOTION)
+						{
+							szTempBuffer.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
 
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHiddenNationality())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHero())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
+							szTempBuffer.append(GC.getUnitClassInfo((UnitClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()).getDescription());
+						else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
+							szTempBuffer.append(GC.getUnitCombatInfo((UnitCombatTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType()).getDescription());
+						else
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_PREREQ").c_str());
+
+						szHelpString.append(szTempBuffer);
+
+						break; 
 					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
-					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
-
-					}
-
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
-						szTempBuffer.append(GC.getUnitClassInfo((UnitClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()).getDescription());
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
-						szTempBuffer.append(GC.getUnitCombatInfo((UnitCombatTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType()).getDescription());
-					else
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_PREREQ").c_str());
-
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-			case TRAITHOOK_UPGRADE_UNIT:
-			{
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UPGRADE_UNIT").c_str());
-				else
-					szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UPGRADE_UNIT").c_str());
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRace() != NO_PROMOTION)
-				{
-					szTempBuffer.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
-
-				}
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHiddenNationality())
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
-
-				}
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHero())
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
-
-				}
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
-				{
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
-
-				}
-
-				if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
-					szTempBuffer.append(GC.getUnitClassInfo((UnitClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()).getDescription());
-				else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
-					szTempBuffer.append(GC.getUnitCombatInfo((UnitCombatTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType()).getDescription());
-				else
-					szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_PREREQ").c_str());
-
-				szHelpString.append(szTempBuffer);
-				break;
-			}
-
-			case TRAITHOOK_UNIT_LEVEL_UP:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LEVEL_UP").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LEVEL_UP").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqRace() != NO_PROMOTION)
-					{
-						szTempBuffer.append(GC.getPromotionInfo((PromotionTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqRace()).getDescription());
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
-
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHiddenNationality())
-					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HIDDEN_NAT").c_str());
-
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHero())
-					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_HERO").c_str());
-
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
-					{
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
-
-					}
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
-						szTempBuffer.append(GC.getUnitClassInfo((UnitClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()).getDescription());
-					else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
-						szTempBuffer.append(GC.getUnitCombatInfo((UnitCombatTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType()).getDescription());
-					else
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_PREREQ").c_str());
-
-					szHelpString.append(szTempBuffer);
-
-					break; 
-				}
-			case TRAITHOOK_CAST_SPELL:
-				{
-					CvWString szTempBuffer2;
-					if(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqSpellType()!=NO_SPELL)
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_CAST_SPELL").c_str(), GC.getSpellInfo((SpellTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqSpellType()).getDescription());
-					else
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_CAST_SPELL_ANYTHING").c_str());
-
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-					else
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
-					szTempBuffer.append(szTempBuffer2);
-					szHelpString.append(szTempBuffer);
-				}
-				break;
-
-			case TRAITHOOK_UNIT_GAIN_PROMOTION:
-				{
-
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-					else
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
-						szTempBuffer.append(GC.getUnitCombatInfo((UnitCombatTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType()).getDescription());
-					else
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_PREREQ").c_str());
-
-					CvWString szTempBuffer2;
-					szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_GAIN_PROMOTION").c_str(), GC.getPromotionInfo((PromotionTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqPromotionType()).getDescription());
-					szTempBuffer.append(szTempBuffer2);
-					szHelpString.append(szTempBuffer);
-					break;
-				}
-			case TRAITHOOK_UNIT_LOSE_PROMOTION:
-				{
-
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
-					else
-						szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
-						szTempBuffer.append(GC.getUnitCombatInfo((UnitCombatTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType()).getDescription());
-					else
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_PREREQ").c_str());
-
-					CvWString szTempBuffer2;
-					szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_PROMOTION").c_str(), GC.getPromotionInfo((PromotionTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqPromotionType()).getDescription());
-					szTempBuffer.append(szTempBuffer2);
-					szHelpString.append(szTempBuffer);
-					//	pbHookDisplayed[eTraitHook] = true;
-				}
-				break;
-
-
-			case TRAITHOOK_CONSTRUCT_BUILDING:
-				{
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CONSTRUCT_BUILDING").c_str());
-					else
-						szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CONSTRUCT_BUILDING").c_str());
-
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqBuildingClassType() != NO_BUILDINGCLASS)
-						szTempBuffer.append(GC.getBuildingClassInfo((BuildingClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqBuildingClassType()).getDescription());
-				//	else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqNationalWonder())
-				//		szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_NATIONAL_WONDER_PREREQ").c_str());
-				//	else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWonder())
-				//		szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_WONDER_PREREQ").c_str());
-					else
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_BUILDING_PREREQ").c_str());
-
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHealth())
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_HEALTH_PREREQ").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHappy())
-						szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_HAPPINESS_PREREQ").c_str());
-				//	if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isAreaHappiness())
-				//		szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_LOCAL_HAPPINESS_PREREQ").c_str());
-				//	if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isAreaHealth())
-				//		szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_LOCAL_HEALTH_PREREQ").c_str());
-				//	if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isGlobalHappiness())
-				//		szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_GLOBAL_HAPPINESS_PREREQ").c_str());
-				//	if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isGlobalHealth())
-				//		szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_GLOBAL_HEALTH_PREREQ").c_str());
-					if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqReligionType() != NO_RELIGION)
+					case TRAITHOOK_CAST_SPELL:
 					{
 						CvWString szTempBuffer2;
-						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_RELIGION_PREREQ").c_str(), GC.getReligionInfo((ReligionTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqReligionType()).getDescription());
-						szTempBuffer.append(szTempBuffer2);
-					}
-					szHelpString.append(szTempBuffer);
-					//	pbHookDisplayed[eTraitHook] = true;
-				}
-				break;
-			default:
-				break;
+						if(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqSpellType()!=NO_SPELL)
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_CAST_SPELL").c_str(), GC.getSpellInfo((SpellTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqSpellType()).getDescription());
+						else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_CAST_SPELL_ANYTHING").c_str());
 
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+						szTempBuffer.append(szTempBuffer2);
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_UNIT_GAIN_PROMOTION:
+					{
+
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
+							szTempBuffer.append(GC.getUnitCombatInfo((UnitCombatTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType()).getDescription());
+						else
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_PREREQ").c_str());
+
+						CvWString szTempBuffer2;
+						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_GAIN_PROMOTION").c_str(), GC.getPromotionInfo((PromotionTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqPromotionType()).getDescription());
+						szTempBuffer.append(szTempBuffer2);
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_UNIT_LOSE_PROMOTION:
+					{
+
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType() != NO_UNITCOMBAT)
+							szTempBuffer.append(GC.getUnitCombatInfo((UnitCombatTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitCombatType()).getDescription());
+						else
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_PREREQ").c_str());
+
+						CvWString szTempBuffer2;
+						szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_UNIT_LOSE_PROMOTION").c_str(), GC.getPromotionInfo((PromotionTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqPromotionType()).getDescription());
+						szTempBuffer.append(szTempBuffer2);
+						szHelpString.append(szTempBuffer);
+						//	pbHookDisplayed[eTraitHook] = true;
+						break;
+					}
+					case TRAITHOOK_CONSTRUCT_BUILDING:
+					{
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CONSTRUCT_BUILDING").c_str());
+						else
+							szTempBuffer.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str(), gDLL->getText("TXT_KEY_TRAITHOOK_CONSTRUCT_BUILDING").c_str());
+
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqBuildingClassType() != NO_BUILDINGCLASS)
+							szTempBuffer.append(GC.getBuildingClassInfo((BuildingClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqBuildingClassType()).getDescription());
+						// else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqNationalWonder())
+						// 	szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_NATIONAL_WONDER_PREREQ").c_str());
+						// else if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWonder())
+						// 	szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_WONDER_PREREQ").c_str());
+						else
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_BUILDING_PREREQ").c_str());
+
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHealth())
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_HEALTH_PREREQ").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqHappy())
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_HAPPINESS_PREREQ").c_str());
+						// if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isAreaHappiness())
+						// 	szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_LOCAL_HAPPINESS_PREREQ").c_str());
+						// if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isAreaHealth())
+						// 	szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_LOCAL_HEALTH_PREREQ").c_str());
+						// if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isGlobalHappiness())
+						// 	szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_GLOBAL_HAPPINESS_PREREQ").c_str());
+						// if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isGlobalHealth())
+						// 	szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITHOOK_GLOBAL_HEALTH_PREREQ").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqReligionType() != NO_RELIGION)
+						{
+							CvWString szTempBuffer2;
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_RELIGION_PREREQ").c_str(), GC.getReligionInfo((ReligionTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqReligionType()).getDescription());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
+						//	pbHookDisplayed[eTraitHook] = true;
+						break;
+					}
+					default:
+						break;
 				}
 			
 				szHelpString.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_SPACE").c_str());
