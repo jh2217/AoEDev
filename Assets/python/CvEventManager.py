@@ -2750,6 +2750,7 @@ class CvEventManager:
 		self.verifyLoaded()
 		gc = CyGlobalContext()
 		map = CyMap()
+		game = CyGame()
 		pPlot = map.plot(iX, iY)
 		Improvement = self.Improvements
 		Leader = self.Leaders
@@ -2760,11 +2761,11 @@ class CvEventManager:
 			# This CyEngine call, for whatever godsdangnabit reason, fails to trigger when
 			# a landmark has been removed from the same tile before the player has a chance to input anything.
 			# So, delay a fraction of a second. Hell if I know why.
-			# Defer also doesn't update until WB is exited which can cause confusion, so check for that
-			if not CyGame().GetWorldBuilderMode():
-				deferCall(lambda: CyEngine().addLandmark(pPlot, CvUtil.convertToStrLatin(gc.getImprovementInfo(iImprovement).getDescription())), delay=0.05)
-			else:
+			# Defer also doesn't update until WB is exited which can cause confusion, so check for that and game init
+			if (game.GetWorldBuilderMode() or game.getGameTurn() < 1):
 				CyEngine().addLandmark(pPlot, CvUtil.convertToStrLatin(gc.getImprovementInfo(iImprovement).getDescription()))
+			else:
+				deferCall(lambda: CyEngine().addLandmark(pPlot, CvUtil.convertToStrLatin(gc.getImprovementInfo(iImprovement).getDescription())), delay=0.05)
 
 			Unique = self.UniqueImprovements
 
