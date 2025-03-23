@@ -5001,7 +5001,6 @@ def atRangeNecrototem(pCaster, pPlot):
 
 def atRangeWellOfSouls(pCaster, pPlot):
 	if (pCaster.isAlive()):
-		CvUtil.pyPrint("well of souls")
 		pCaster.setHasPromotion(gc.getInfoTypeForString("PROMOTION_DEAD_LANDS"),True)
 
 

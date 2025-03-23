@@ -2626,18 +2626,12 @@ void CvGame::update()
 	{
 		sendPlayerOptions();
 
-//FfH: Modified by Kael 10/15/2008
-//		// sample generic event
-//		CyArgsList pyArgs;
-//		pyArgs.add(getTurnSlice());
-//		CvEventReporter::getInstance().genericEvent("gameUpdate", pyArgs.makeFunctionArgs());
-		if (isNetworkMultiPlayer())
-		{
-			CyArgsList pyArgs;
-			pyArgs.add(getTurnSlice());
-			CvEventReporter::getInstance().genericEvent("gameUpdate", pyArgs.makeFunctionArgs());
-		}
-//FfH: End Modify
+		// FfH Kael 10/15/2008 : Added below check for CvEventReporter
+		// if (isNetworkMultiPlayer())
+		// Blaze reverted 2025, to get deferCall func working in singleplayer to make updateLandmark function.....
+		CyArgsList pyArgs;
+		pyArgs.add(getTurnSlice());
+		CvEventReporter::getInstance().genericEvent("gameUpdate", pyArgs.makeFunctionArgs());
 
 		if (getTurnSlice() == 0)
 		{

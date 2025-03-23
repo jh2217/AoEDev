@@ -105,6 +105,51 @@ SoundSettings = {
 	"SOUND_MASTER_NO_SOUND" : False,
 }
 
+
+	# Import from BugUtil.py
+
+# Import/hack from BugUtil.py. Maybe should be moved to a dedicated util file, but eh
+deferredCallQueue = []
+def deferCall(function, delay=0.0):
+	"""
+	Calls the given function during a future gameUpdate event after at least <delay> seconds.
+	"""
+	CvUtil.pyPrint('defer call start')
+	global deferredCallQueue
+	if delay < 0.0:
+		delay = 0.0
+	when = time.clock() + delay
+	entry = (when, function)
+	if deferredCallQueue:
+		for i in range(len(deferredCallQueue)):
+			if when < deferredCallQueue[i][0]:
+				deferredCallQueue.insert(i, entry)
+				return
+	deferredCallQueue.append(entry)
+
+def doDeferredCalls(argsList=None):
+	"""
+	Calls deferred calls whose timers have expired.
+	"""
+	global deferredCallQueue
+	if deferredCallQueue:
+		# insert a marker so that items added during this round of calls will be processed on the next round
+		deferCall(None)
+		while deferredCallQueue:
+			when, func = deferredCallQueue[0]
+			if func is None:
+				del deferredCallQueue[0]
+				break
+			if when > time.clock():
+				for i, (when, func) in enumerate(deferredCallQueue):
+					if func is None:
+						del deferredCallQueue[i]
+						break
+				break
+			del deferredCallQueue[0]
+			func()
+			CvUtil.pyPrint('defer call EXECUTE')
+
 # globals
 ###################################################
 class CvEventManager:
@@ -2712,7 +2757,14 @@ class CvEventManager:
 		ImprovementDwarven = self.CivImprovements["Dwarven"]
 		getPlot	= CyMap().plot
 		if gc.getImprovementInfo(iImprovement).isUnique():
-			CyEngine().addLandmark(pPlot, CvUtil.convertToStrLatin(gc.getImprovementInfo(iImprovement).getDescription()))
+			# This CyEngine call, for whatever godsdangnabit reason, fails to trigger when
+			# a landmark has been removed from the same tile before the player has a chance to input anything.
+			# So, delay a fraction of a second. Hell if I know why.
+			# Defer also doesn't update until WB is exited which can cause confusion, so check for that
+			if not CyGame().GetWorldBuilderMode():
+				deferCall(lambda: CyEngine().addLandmark(pPlot, CvUtil.convertToStrLatin(gc.getImprovementInfo(iImprovement).getDescription())), delay=0.05)
+			else:
+				CyEngine().addLandmark(pPlot, CvUtil.convertToStrLatin(gc.getImprovementInfo(iImprovement).getDescription()))
 
 			Unique = self.UniqueImprovements
 
@@ -2767,6 +2819,7 @@ class CvEventManager:
 				Unique = self.UniqueImprovements
 				pPlot = map.plot(iX, iY)
 				CyEngine().removeLandmark(pPlot)
+				rebuildPlots([pPlot])
 
 				if   iImprovement == Unique["Ring of Carcer"]:
 					pPlot.setMinLevel(-1)
@@ -6313,6 +6366,8 @@ class CvEventManager:
 		'sample generic event, called on each game turn slice'
 		genericArgs = argsList[0][0]	# tuple of tuple of my args
 		turnSlice = genericArgs[0]
+
+		doDeferredCalls()
 
 		## *******************
 		## Modular Python: ANW 29-may-2010

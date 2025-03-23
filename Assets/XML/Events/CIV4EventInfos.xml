@@ -7145,7 +7145,7 @@
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
 		</EventInfo>
-				<EventInfo> <!-- Abandoned Ritual -->
+		<EventInfo> <!-- Abandoned Ritual -->
 			<Type>EVENT_ABANDONED_RITUAL_1</Type>
 			<Description>TXT_KEY_EVENT_ABANDONED_RITUAL_1</Description>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
@@ -7295,7 +7295,7 @@
 			<iAIValue>1000</iAIValue>
 			<PrereqBonus>BONUS_ALE</PrereqBonus>
 		</EventInfo>
-	<EventInfo>
+		<EventInfo>
 			<Type>EVENT_CLURICHAUN_2</Type>
 			<Description>TXT_KEY_EVENT_CLURICHAUN_2</Description>
 			<bPickCity>1</bPickCity>

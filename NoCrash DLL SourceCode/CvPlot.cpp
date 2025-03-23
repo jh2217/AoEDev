@@ -8020,6 +8020,8 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 		}
 
 		// Trigger destroy improvement reports on direct replacement as well as set-to-none
+		// This should suffice to use the event reporter to remove a landmark and then
+		// immediately place a new one, but nooo.... smh. See onImprovementBuilt /Blazenclaw
 		if (eOldImprovement != NO_IMPROVEMENT)
 		{
 			CvEventReporter::getInstance().improvementDestroyed(eOldImprovement, getOwnerINLINE(), getX_INLINE(), getY_INLINE());
