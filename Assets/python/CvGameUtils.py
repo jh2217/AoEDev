@@ -1652,6 +1652,9 @@ class CvGameUtils:
 		#		return False #attempt to stop ai python adhoc rules
 		#		if eCiv == Civ["Infernal"]: return True
 
+		elif eBuilding == gc.getInfoTypeForString("BUILDING_RIDE_OF_THE_NINE_KINGS"):
+			if not (pCity.hasBonus(gc.getInfoTypeForString("BONUS_HYAPON")) or pCity.hasBonus(gc.getInfoTypeForString("BONUS_HORSE")) or pCity.hasBonus(gc.getInfoTypeForString("BONUS_NIGHTMARE"))): return True
+
 		iAltar1 = Building["Altar of Luonnotar"]
 		iAltar2 = Building["Altar - Anointed"]
 		iAltar3 = Building["Altar - Blessed"]
