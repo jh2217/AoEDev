@@ -60,7 +60,7 @@ def reqFeedUndead(caster):
 	for i in range(pPlot.getNumUnits()):
 		pUnit = pPlot.getUnit(i)
 		if pUnit.getOwner() == caster.getOwner():
-			if pUnit!=caster:
+			if pUnit.getID() != caster.getID():
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_UNDEAD')):
 					return True
 	return False
@@ -74,7 +74,7 @@ def spellFeedUndead(caster):
 	for i in range(pPlot.getNumUnits()):
 		pUnit = pPlot.getUnit(i)
 		if pUnit.getOwner() == caster.getOwner():
-			if pUnit != caster:
+			if pUnit.getID() != caster.getID():
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_UNDEAD')):
 					if (pVictim == -1 or pVictim.getLevel() > pUnit.getLevel()):
 						pVictim = pUnit

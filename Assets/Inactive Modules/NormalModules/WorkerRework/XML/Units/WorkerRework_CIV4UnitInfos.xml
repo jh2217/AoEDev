@@ -1,74 +1,1123 @@
 <?xml version="1.0"?>
 <!-- Created with the FfH editor by Kael -->
-<!-- Sid Meier's Civilization 4 -->
+<!-- Sid Meier's Civilization 4 --> 
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Unit Infos -->
 <Civ4UnitInfos xmlns="x-schema:WorkerRework_CIV4UnitSchema.xml">
 	<UnitInfos>
-		<UnitInfo>        <!-- Worker -->
+		<UnitInfo>        <!-- Worker -->            <!-- CIVILIAN UNITS -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_WORKER</Type>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<Combat>UNITCOMBAT_WORKER</Combat>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_WORKER</Description>
+			<Civilopedia>TXT_KEY_UNIT_WORKER_PEDIA</Civilopedia>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
+			<bForceOverwrite>1</bForceOverwrite>
+			<bFood>1</bFood>
+			<bOnlyDefensive>1</bOnlyDefensive>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<iCost>75</iCost>
+			<iMoves>2</iMoves>
 			<iWorkRate>100</iWorkRate>
+			<iAsset>0</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>2</iGroupSize>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>2</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_WORKER</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_APTITUDE1</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<bFreeXP>1</bFreeXP>
+			<iTier>1</iTier>
 		</UnitInfo>
+		
+		
 		<UnitInfo>        <!-- Operator -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_OPERATOR</Type>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<Combat>UNITCOMBAT_WORKER</Combat>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_OPERATOR</Description>
+			<Civilopedia>TXT_KEY_UNIT_WORKER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_OPERATOR_STRATEGY</Strategy>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<Help>TXT_KEY_UNIT_WORKERTOOLSMECHANOS_HELP</Help>
+			<bForceOverwrite>1</bForceOverwrite>
+			<bFood>1</bFood>
+			<bOnlyDefensive>1</bOnlyDefensive>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_RAILROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<iCost>75</iCost>
+			<iMoves>2</iMoves>
 			<iWorkRate>100</iWorkRate>
+			<iAsset>0</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>2</iGroupSize>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>2</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_WORKER_MECHANOS</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_APTITUDE1</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<bFreeXP>1</bFreeXP>
+			<iTier>1</iTier>
 		</UnitInfo>
+		
+		
 		<UnitInfo>        <!-- Malakim Worker -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_WORKER_MALAKIM</Type>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<Combat>UNITCOMBAT_WORKER</Combat>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_WORKER_MALAKIM</Description>
+			<Civilopedia>TXT_KEY_UNIT_WORKER_PEDIA</Civilopedia>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
+			<bForceOverwrite>1</bForceOverwrite>
+			<bFood>1</bFood>
+			<bOnlyDefensive>1</bOnlyDefensive>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_BEDOUIN_SIT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<iCost>75</iCost>
+			<iAdvancedStartCost>100</iAdvancedStartCost>
+			<iMoves>1</iMoves>
 			<iWorkRate>100</iWorkRate>
+			<iAsset>0</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>2</iGroupSize>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>2</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BEDOUIN</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_APTITUDE1</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SUN1</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<bFreeXP>1</bFreeXP>
+			<iTier>1</iTier>
 		</UnitInfo>
+		
+		
 		<UnitInfo>        <!-- Lizard Worker  Mazatl/Cualli-->   <!--MAZATL-->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_WORKER_LIZARD</Type>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<Combat>UNITCOMBAT_WORKER</Combat>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_LIZARD_WORKER_MAZATL</Description>
+			<Civilopedia>TXT_KEY_UNIT_WORKER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_LIZARD_WORKER_MAZATL_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<bForceOverwrite>1</bForceOverwrite>
+			<bFood>1</bFood>
+			<bOnlyDefensive>1</bOnlyDefensive>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_TRAIL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_SWAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<iCost>75</iCost>
+			<iMoves>2</iMoves>
 			<iWorkRate>100</iWorkRate>
+			<iAsset>1</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>2</iGroupSize>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>2</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_WORKER_MAZATL</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_APTITUDE1</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<bFreeXP>1</bFreeXP>
+			<iTier>1</iTier>
 		</UnitInfo>
-		<UnitInfo>        <!-- Familiar -->
+		
+
+		
+		
+		
+		
+		
+		<UnitInfo>        <!-- Familiar  -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_FAMILIAR</Type>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<Combat>UNITCOMBAT_WORKER</Combat>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_FAMILIAR</Description>
+			<Civilopedia>TXT_KEY_UNIT_FAMILIAR_PEDIA</Civilopedia>
 			<Help>TXT_KEY_UNIT_WORKERTOOLSGOBLIN_HELP</Help>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<bForceOverwrite>1</bForceOverwrite>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
 			<iCost>10</iCost>
 			<iAdvancedStartCost>10</iAdvancedStartCost>
-			<iWorkRate>60</iWorkRate>
+			<iMoves>2</iMoves>
+			<iWorkRate>30</iWorkRate>
+			<iCombat>1</iCombat>
+			<iAsset>1</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>3</iGroupSize>
+				<iMeleeWaveSize>3</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>3</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_FAMILIAR</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
 			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_FAMILIAR</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_FREE_UNIT</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
 				<FreePromotion>
 					<PromotionType>PROMOTION_GOBLIN_TOOLS</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
+			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+			<iTier>1</iTier>
+			<DenyPromotions>
+				<Promotion>PROMOTION_SKILLED1</Promotion>
+				<Promotion>PROMOTION_MOBILITY1</Promotion>
+				<Promotion>PROMOTION_HARDY1</Promotion>
+				<Promotion>PROMOTION_APTITUDE1</Promotion>
+				<Promotion>PROMOTION_SENTRY</Promotion>
+			</DenyPromotions>
+			<iCombatDefense>1</iCombatDefense>
 		</UnitInfo>
+		
 		<UnitInfo>        <!-- Gretchin -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_GRETCHIN</Type>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<Combat>UNITCOMBAT_WORKER</Combat>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_GRETCHIN</Description>
+			<Civilopedia>TXT_KEY_UNIT_GRETCHIN_PEDIA</Civilopedia>
 			<Help>TXT_KEY_UNIT_WORKERTOOLSGOBLIN_HELP</Help>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<bForceOverwrite>1</bForceOverwrite>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
 			<iCost>10</iCost>
 			<iAdvancedStartCost>10</iAdvancedStartCost>
-			<iWorkRate>90</iWorkRate>
+			<iMoves>2</iMoves>
+			<iWorkRate>40</iWorkRate>
+			<iCombat>1</iCombat>
+			<iAsset>1</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>5</iGroupSize>
+				<iMeleeWaveSize>5</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>5</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_GRETCHIN</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
 			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_GOBLIN</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_FREE_UNIT</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
 				<FreePromotion>
 					<PromotionType>PROMOTION_GOBLIN_TOOLS</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
+			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+			<iTier>1</iTier>
 		</UnitInfo>
-		<UnitInfo>        <!-- Jotnar Citizen -->
+		
+		
+		<UnitInfo>        <!-- Overseer -->
+			<Class>UNITCLASS_OVERSEER</Class>
+			<Type>UNIT_OVERSEER</Type>
+			<Combat>UNITCOMBAT_WORKER</Combat>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_OVERSEER</Description>
+			<Civilopedia>TXT_KEY_UNIT_OVERSEER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_OVERSEER_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<bForceOverwrite>1</bForceOverwrite>
+			<bOnlyDefensive>1</bOnlyDefensive>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<PrereqBuilding>BUILDING_PAGAN_TEMPLE_MEKARA</PrereqBuilding>
+			<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
+			<iCost>120</iCost>
+			<iMoves>2</iMoves>
+			<iWorkRate>100</iWorkRate>
+			<iAsset>0</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<fMaxSpeed>1.25</fMaxSpeed>
+				<iMeleeWaveSize>1</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_OVERSEER</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_APTITUDE1</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_OVERSEER</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<iCombatDefense>3</iCombatDefense>
+			<iCommandLimit>2</iCommandLimit>
+			<bFreeXP>1</bFreeXP>
+			<iTier>2</iTier>
+			<AllowPromotions>
+				<Promotion>PROMOTION_GC_RANGE1</Promotion>
+				<Promotion>PROMOTION_GC_LIMIT1</Promotion>
+				<Promotion>PROMOTION_GC_LIMIT2</Promotion>
+				<Promotion>PROMOTION_GC_LIMIT3</Promotion>
+			</AllowPromotions>
+			<DenyPromotions>
+				<Promotion>PROMOTION_SKILLED1</Promotion>
+				<Promotion>PROMOTION_SKILLED2</Promotion>
+				<Promotion>PROMOTION_SKILLED3</Promotion>
+				<Promotion>PROMOTION_SKILLED4</Promotion>
+				<Promotion>PROMOTION_SKILLED5</Promotion>
+				<Promotion>PROMOTION_HARDY1</Promotion>
+				<Promotion>PROMOTION_HARDY2</Promotion>
+				<Promotion>PROMOTION_HARDY3</Promotion>
+				<Promotion>PROMOTION_FORTIFICATION_SPECIALIST</Promotion>
+			</DenyPromotions>
+		</UnitInfo>
+		
+		
+		
+		<UnitInfo>		<!-- Jotnar Citizens -->
 			<bTypeDependency>1</bTypeDependency>
 			<AndDependencyTypes>
 				<DependencyType>MODULE_JOTNAR</DependencyType>
 			</AndDependencyTypes>
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_JOT_ADULT</Type>
+			<Combat>UNITCOMBAT_WORKER</Combat>
+			<Capture>UNITCLASS_SLAVE</Capture>
+			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_JOT_ADULT</Description>
+			<Civilopedia>TXT_KEY_UNIT_JOT_ADULT_PEDIA</Civilopedia>
 			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<bForceOverwrite>1</bForceOverwrite>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bPillage>1</bPillage>
+			<bNoDefensiveBonus>0</bNoDefensiveBonus>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_RAILROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<iCost>100</iCost>
+			<iPopCost>1</iPopCost>
+			<iAdvancedStartCost>110</iAdvancedStartCost>
+			<iMoves>2</iMoves>
 			<iWorkRate>125</iWorkRate>
+			<TerrainImpassables>
+				<TerrainImpassable>
+					<TerrainType>TERRAIN_OCEAN_DEEP</TerrainType>
+					<bTerrainImpassable>1</bTerrainImpassable>
+				</TerrainImpassable>
+				<TerrainImpassable>
+					<TerrainType>TERRAIN_OCEAN</TerrainType>
+					<bTerrainImpassable>1</bTerrainImpassable>
+				</TerrainImpassable>
+			</TerrainImpassables>
+			<iCombat>2</iCombat>
+			<iXPValueAttack>4</iXPValueAttack>
+			<iXPValueDefense>2</iXPValueDefense>
+			<iCityDefense>10</iCityDefense>
+			<iAsset>1</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<fMaxSpeed>1.75</fMaxSpeed>
+				<fPadTime>1</fPadTime>
+				<iMeleeWaveSize>2</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>2</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_JOT_ADULT</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_APTITUDE1</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_GIANTKIN</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_JOT_POTENTIAL</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_JOT_ALLEGIANCE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<bFreeXP>1</bFreeXP>
+			<iCombatDefense>4</iCombatDefense>
+			<iTier>1</iTier>
 		</UnitInfo>
 		
+		
+		
+		
+		<UnitInfo>		<!-- Thrall Militia -->
+			<bTypeDependency>1</bTypeDependency>
+			<AndDependencyTypes>
+				<DependencyType>MODULE_JOTNAR</DependencyType>
+			</AndDependencyTypes>
+			<Class>UNITCLASS_WARRIOR</Class>
+			<Type>UNIT_THRALL_MILITIA</Type>
+			<Capture>UNITCLASS_WORKER</Capture>
+			<Combat>UNITCOMBAT_WORKER</Combat>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_CITY_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_JOT_WARRIOR</Description>
+			<Civilopedia>TXT_KEY_UNIT_GRETCHIN_PEDIA</Civilopedia>
+			<Help>TXT_KEY_UNIT_WORKERTOOLSGOBLIN_HELP</Help>
+			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<bForceOverwrite>1</bForceOverwrite>
+			<bOnlyDefensive>1</bOnlyDefensive>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_RAILROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<iCost>20</iCost>
+			<iAdvancedStartCost>20</iAdvancedStartCost>
+			<iMoves>2</iMoves>
+			<iWorkRate>50</iWorkRate>
+			<iBaseHurry>10</iBaseHurry>
+			<iCombat>1</iCombat>
+			<iAsset>2</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>5</iGroupSize>
+				<iMeleeWaveSize>5</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>5</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_GRETCHIN</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_GOBLIN</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_FREE_UNIT</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SKIRMISHER</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_GOBLIN_TOOLS</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
+			<iCombatDefense>2</iCombatDefense>
+			<iTier>1</iTier>
+		</UnitInfo>
 		
 		
 		
@@ -193,12 +1242,14 @@
 		<UnitInfo>		<!-- Mud Golem -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_MUD_GOLEM</Type>
+			<Combat>UNITCOMBAT_WORKER</Combat>
 			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_MUD_GOLEM</Description>
 			<Civilopedia>TXT_KEY_UNIT_MUD_GOLEM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MUD_GOLEM_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_WORKERTOOLS1_HELP</Help>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
+			<bForceOverwrite>1</bForceOverwrite>
 			<bOnlyDefensive>1</bOnlyDefensive>
 			<UnitAIs>
 				<UnitAI>
@@ -276,7 +1327,7 @@
 					<bBuild>1</bBuild>
 				</Build>
 			</Builds>
-			<iCost>100</iCost>
+			<iCost>125</iCost>
 			<iMoves>2</iMoves>
 			<iWorkRate>200</iWorkRate>
 			<UnitMeshGroups>

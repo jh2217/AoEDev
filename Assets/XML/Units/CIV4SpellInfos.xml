@@ -6692,6 +6692,8 @@
 			<bIsAutoCastable>1</bIsAutoCastable>
 			<bHasCasted>1</bHasCasted>
 			<bBuffCasterOnly>1</bBuffCasterOnly>
+			<bTargeted>1</bTargeted>
+			<iRange>1</iRange>
 			<RemovePromotions>
 				<RemovePromotion>PROMOTION_BUCCANEERS</RemovePromotion>
 			</RemovePromotions>

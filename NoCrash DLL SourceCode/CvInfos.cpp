@@ -52937,11 +52937,13 @@ CvTraitTriggerInfo::CvTraitTriggerInfo() :
 	m_bNotOwnHolyCity(false),
 	m_bAnyHolyCity(false),
 	m_bWerewolf(false),
+	m_bUndead(false),
 	m_bHero(false),
 	m_bHiddenNationality(false),
 	m_bInBorders(false),
 	m_bOutsideBorders(false),
 	m_bKilledWerewolf(false),
+	m_bKilledUndead(false),
 	m_bKilledHero(false),
 	m_bKilledHiddenNationality(false),
 	m_bKilledInBorders(false),
@@ -53033,11 +53035,13 @@ bool CvTraitTriggerInfo::isCityOwnHolyCity() const { return m_bOwnHolyCity; }
 bool CvTraitTriggerInfo::isCityNotOwnHolyCity() const { return m_bNotOwnHolyCity; }
 bool CvTraitTriggerInfo::isCityAnyHolyCity() const { return m_bAnyHolyCity; }
 bool CvTraitTriggerInfo::isPrereqWerewolf() const { return m_bWerewolf; }
+bool CvTraitTriggerInfo::isPrereqUndead() const { return m_bUndead; }
 bool CvTraitTriggerInfo::isPrereqHero() const { return m_bHero; }
 bool CvTraitTriggerInfo::isPrereqHiddenNationality() const { return m_bHiddenNationality; }
 bool CvTraitTriggerInfo::isPrereqInBorders() const { return m_bInBorders; }
 bool CvTraitTriggerInfo::isPrereqOutsideBorders() const { return m_bOutsideBorders; }
 bool CvTraitTriggerInfo::isPrereqKilledWerewolf() const { return m_bKilledWerewolf; }
+bool CvTraitTriggerInfo::isPrereqKilledUndead() const { return m_bKilledUndead; }
 bool CvTraitTriggerInfo::isPrereqKilledHero() const { return m_bKilledHero; }
 bool CvTraitTriggerInfo::isPrereqKilledHiddenNationality() const { return m_bKilledHiddenNationality; }
 bool CvTraitTriggerInfo::isPrereqKilledInBorders() const { return m_bKilledInBorders; }
@@ -53154,11 +53158,13 @@ bool CvTraitTriggerInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bOwnHolyCity, "bCityOwnHolyCity");
 	pXML->GetChildXmlValByName(&m_bAnyHolyCity, "bCityAnyHolyCity");
 	pXML->GetChildXmlValByName(&m_bWerewolf, "bWerewolf");
+	pXML->GetChildXmlValByName(&m_bUndead, "bUndead");
 	pXML->GetChildXmlValByName(&m_bHero, "bHero");
 	pXML->GetChildXmlValByName(&m_bHiddenNationality, "bHiddenNationality");
 	pXML->GetChildXmlValByName(&m_bInBorders, "bInBorders");
 	pXML->GetChildXmlValByName(&m_bOutsideBorders, "bOutsideBorders");
 	pXML->GetChildXmlValByName(&m_bKilledWerewolf, "bKilledWerewolf");
+	pXML->GetChildXmlValByName(&m_bKilledUndead, "bKilledUndead");
 	pXML->GetChildXmlValByName(&m_bKilledHero, "bKilledHero");
 	pXML->GetChildXmlValByName(&m_bKilledHiddenNationality, "bKilledHiddenNationality");
 	pXML->GetChildXmlValByName(&m_bKilledInBorders, "bKilledInBorders");
@@ -53248,11 +53254,13 @@ void CvTraitTriggerInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_bNotOwnHolyCity);
 	stream->Read(&m_bAnyHolyCity);
 	stream->Read(&m_bWerewolf);
+	stream->Read(&m_bUndead);
 	stream->Read(&m_bHero);
 	stream->Read(&m_bHiddenNationality);
 	stream->Read(&m_bInBorders);
 	stream->Read(&m_bOutsideBorders);
 	stream->Read(&m_bKilledWerewolf);
+	stream->Read(&m_bKilledUndead);
 	stream->Read(&m_bKilledHero);
 	stream->Read(&m_bKilledHiddenNationality);
 	stream->Read(&m_bKilledInBorders);
@@ -53340,11 +53348,13 @@ void CvTraitTriggerInfo::write(FDataStreamBase* stream)
 	stream->Write(m_bNotOwnHolyCity);
 	stream->Write(m_bAnyHolyCity);
 	stream->Write(m_bWerewolf);
+	stream->Write(m_bUndead);
 	stream->Write(m_bHero);
 	stream->Write(m_bHiddenNationality);
 	stream->Write(m_bInBorders);
 	stream->Write(m_bOutsideBorders);
 	stream->Write(m_bKilledWerewolf);
+	stream->Write(m_bKilledUndead);
 	stream->Write(m_bKilledHero);
 	stream->Write(m_bKilledHiddenNationality);
 	stream->Write(m_bKilledInBorders);
@@ -53424,11 +53434,13 @@ void CvTraitTriggerInfo::copyNonDefaults(CvTraitTriggerInfo* pClassInfo, CvXMLLo
 	if (isCityNotOwnHolyCity() == false)			m_bNotOwnHolyCity = (pClassInfo->isCityNotOwnHolyCity());
 	if (isCityAnyHolyCity() == false)			m_bAnyHolyCity = (pClassInfo->isCityAnyHolyCity());
 	if (isPrereqWerewolf() == false)			m_bWerewolf = (pClassInfo->isPrereqWerewolf());
+	if (isPrereqUndead() == false)			m_bUndead = (pClassInfo->isPrereqUndead());
 	if (isPrereqHero() == false)			m_bHero = (pClassInfo->isPrereqHero());
 	if (isPrereqHiddenNationality() == false)			m_bHiddenNationality = (pClassInfo->isPrereqHiddenNationality());
 	if (isPrereqInBorders() == false)			m_bInBorders = (pClassInfo->isPrereqInBorders());
 	if (isPrereqOutsideBorders() == false)			m_bOutsideBorders = (pClassInfo->isPrereqOutsideBorders());
 	if (isPrereqKilledWerewolf() == false)			m_bKilledWerewolf = (pClassInfo->isPrereqKilledWerewolf());
+	if (isPrereqKilledUndead() == false)			m_bKilledUndead = (pClassInfo->isPrereqKilledUndead());
 	if (isPrereqKilledHero() == false)			m_bKilledHero = (pClassInfo->isPrereqKilledHero());
 	if (isPrereqKilledHiddenNationality() == false)			m_bKilledHiddenNationality = (pClassInfo->isPrereqKilledHiddenNationality());
 	if (isPrereqKilledInBorders() == false)			m_bKilledInBorders = (pClassInfo->isPrereqKilledInBorders());

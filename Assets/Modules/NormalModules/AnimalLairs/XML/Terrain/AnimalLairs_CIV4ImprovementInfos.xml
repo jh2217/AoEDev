@@ -22,13 +22,17 @@
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 				<TerrainMakesValid>
-					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 			</TerrainMakesValids>
 			<FeatureMakesValids>
 				<FeatureMakesValid>
 					<FeatureType>FEATURE_FOREST</FeatureType>
+					<bMakesValid>1</bMakesValid>
+				</FeatureMakesValid>
+				<FeatureMakesValid>
+					<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
 					<bMakesValid>1</bMakesValid>
 				</FeatureMakesValid>
 			</FeatureMakesValids>
@@ -90,13 +94,17 @@
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 				<TerrainMakesValid>
-					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 			</TerrainMakesValids>
 			<FeatureMakesValids>
 				<FeatureMakesValid>
 					<FeatureType>FEATURE_FOREST</FeatureType>
+					<bMakesValid>1</bMakesValid>
+				</FeatureMakesValid>
+				<FeatureMakesValid>
+					<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
 					<bMakesValid>1</bMakesValid>
 				</FeatureMakesValid>
 			</FeatureMakesValids>
@@ -156,13 +164,17 @@
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 				<TerrainMakesValid>
-					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 			</TerrainMakesValids>
 			<FeatureMakesValids>
 				<FeatureMakesValid>
 					<FeatureType>FEATURE_FOREST</FeatureType>
+					<bMakesValid>1</bMakesValid>
+				</FeatureMakesValid>
+				<FeatureMakesValid>
+					<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
 					<bMakesValid>1</bMakesValid>
 				</FeatureMakesValid>
 			</FeatureMakesValids>
@@ -412,11 +424,19 @@
 			<bRequiresFlatlands>1</bRequiresFlatlands>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
 					<TerrainType>TERRAIN_PLAINS</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 			</TerrainMakesValids>
@@ -475,11 +495,19 @@
 			<bRequiresFlatlands>1</bRequiresFlatlands>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
 					<TerrainType>TERRAIN_PLAINS</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 			</TerrainMakesValids>
@@ -536,6 +564,10 @@
 			<bRequiresFlatlands>1</bRequiresFlatlands>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
 					<TerrainType>TERRAIN_PLAINS</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
@@ -544,16 +576,10 @@
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 				<TerrainMakesValid>
-					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 			</TerrainMakesValids>
-			<FeatureMakesValids>
-				<FeatureMakesValid>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</FeatureMakesValid>
-			</FeatureMakesValids>
 			<ImmediateSpawnUnitType>UNIT_SABRETOOTH</ImmediateSpawnUnitType>
 			<GuardianPromotions>
 				<Promotion>PROMOTION_LEASH_1</Promotion>
@@ -611,10 +637,6 @@
 			<bOutsideBorders>1</bOutsideBorders>
 			<bRequiresFeature>1</bRequiresFeature>
 			<TerrainMakesValids>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_PLAINS</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_GRASS</TerrainType>
 					<bMakesValid>1</bMakesValid>
@@ -694,10 +716,6 @@
 			<bRequiresFeature>1</bRequiresFeature>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
-					<TerrainType>TERRAIN_PLAINS</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
-				<TerrainMakesValid>
 					<TerrainType>TERRAIN_GRASS</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
@@ -774,10 +792,6 @@
 			<bOutsideBorders>1</bOutsideBorders>
 			<bRequiresFeature>1</bRequiresFeature>
 			<TerrainMakesValids>
-				<TerrainMakesValid>
-					<TerrainType>TERRAIN_PLAINS</TerrainType>
-					<bMakesValid>1</bMakesValid>
-				</TerrainMakesValid>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_GRASS</TerrainType>
 					<bMakesValid>1</bMakesValid>
@@ -872,6 +886,10 @@
 					<TerrainType>TERRAIN_TAIGA</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
 			</TerrainMakesValids>
 			<FeatureMakesValids>
 				<FeatureMakesValid>
@@ -948,6 +966,10 @@
 				</TerrainMakesValid>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_TAIGA</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 			</TerrainMakesValids>

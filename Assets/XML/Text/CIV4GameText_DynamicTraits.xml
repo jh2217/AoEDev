@@ -1100,6 +1100,14 @@
 		<Spanish>Werewolf[SPACE]</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_TRAITCOUNTER_UNDEAD</Tag>
+		<English>Undead[SPACE]</English>
+		<French>Mort-vivant[SPACE]</French>
+		<German>Undead[SPACE]</German>
+		<Italian>Undead[SPACE]</Italian>
+		<Spanish>Undead[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TRAITCOUNTER_OPPOSITE_ALIGNMENT</Tag>
 		<English>Of Opposite Alignment[SPACE]</English>
 		<French>Of Opposite Alignment[SPACE]</French>
@@ -1195,6 +1203,38 @@
 		<German>anything being pillaged[SPACE]</German>
 		<Italian>anything being pillaged[SPACE]</Italian>
 		<Spanish>anything being pillaged[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_GAIN_IMPROVEMENT</Tag>
+		<English>gaining a %s1</English>
+		<French>gaining a %s1</French>
+		<German>gaining a %s1</German>
+		<Italian>gaining a %s1</Italian>
+		<Spanish>gaining a %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_GAIN_IMPROVEMENT_ANY</Tag>
+		<English>gaining any improvement</English>
+		<French>gaining any improvement</French>
+		<German>gaining any improvement</German>
+		<Italian>gaining any improvement</Italian>
+		<Spanish>gaining any improvement</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_LOSE_IMPROVEMENT</Tag>
+		<English>losing a %s1</English>
+		<French>losing a %s1</French>
+		<German>losing a %s1</German>
+		<Italian>losing a %s1</Italian>
+		<Spanish>losing a %s1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAITHOOK_LOSE_IMPROVEMENT_ANY</Tag>
+		<English>losing any improvement</English>
+		<French>losing any improvement</French>
+		<German>losing any improvement</German>
+		<Italian>losing any improvement</Italian>
+		<Spanish>losing any improvement</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAITHOOK_GOODY</Tag>

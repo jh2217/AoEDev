@@ -924,6 +924,14 @@
 		<Spanish>A spirit has entered your empire and been reborn as a Mane</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_NETHERBLADE</Tag>
+		<English>Your unit has been hurt by the Netherblade, and its soul has gone to the underworld.</English>
+		<French>Your unit has been hurt by the Netherblade, and its soul has gone to the underworld.</French>
+		<German>Your unit has been hurt by the Netherblade, and its soul has gone to the underworld.</German>
+		<Italian>Your unit has been hurt by the Netherblade, and its soul has gone to the underworld.</Italian>
+		<Spanish>Your unit has been hurt by the Netherblade, and its soul has gone to the underworld.</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_MESSAGE_ALTAR_OF_THE_LUONNOTAR</Tag>
 		<English>An enemy nears completion of the Altar of the Luonnotar</English>
 		<French>Un ennemi a presque terminé la construction de l'Autel des Luonnotar.</French>

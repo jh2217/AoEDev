@@ -1,0 +1,26 @@
+[name]
+CorporationAdditions
+[version]
+1.0
+[rifeversion]
+375
+[author]
+Kantolin
+[dependency]
+;
+[shortdesc]
+Adds more resources to existing Corporations
+;
+[desc]
+Several new resources have been added into the game since corporations were created, but the existing corporations were not updated to include them.  This small module addresses this.
+
+
+Kingfisher's Guild: Crab, Fish, Clam, Shrimp, Whale, Jeteye, Coral, Giant Kraken eye
+Masquerade: Dye, Cotton, Sheep, Silk, Bleeding God Wine, Fine Clothes
+Farmer's Guild: Corn, Rice, Wheat, Pig, Cow, Gulgarm, Toad
+Fabricaforma: Gold, Pearl, Iron, Mithril, Gems, Ivory, Jewels, Giant Kelp Lumber, Titan Turtle Scales
+Stonefire Guild: Marble, Iron, Copper, Mithril, Stone, Giant Kelp Lumber, Titan Turtle Scales
+
+Coral, Giant Kraken Eye, Titan Turtle Scales, and Giant Kelp Lumber all require the Vicious Seas module.  Unlisted resources are not part of any of the corporations.  Only Fabricaforma and Stonefire Guild compete with each other, as is the norm.
+
+This modules does not adjust corporations nor resources in any other way.

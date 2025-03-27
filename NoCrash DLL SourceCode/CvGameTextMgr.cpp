@@ -31580,6 +31580,74 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 						szHelpString.append(szTempBuffer);
 						break;
 					}
+					case TRAITHOOK_GAIN_IMPROVEMENT:
+					{
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
+						{
+							//	if (kTraitTrigger.isApplyToOther(eTrait))
+							//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED").c_str(), GC.getImprovementInfo((ImprovementTypes)kTraitTrigger.getPrereqImprovement()));
+							//	else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_GAIN_IMPROVEMENT").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
+						}
+						else
+						{
+							//	if (kTraitTrigger.isApplyToOther(eTrait))
+							//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED_ANY").c_str());
+							//	else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_GAIN_IMPROVEMENT_ANY").c_str());
+						}
+						szTempBuffer.append(szTempBuffer2);
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
+						{
+							CvWString szTempBuffer2;
+							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
+						break;
+					}
+					case TRAITHOOK_LOSE_IMPROVEMENT:
+					{
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) > 0)
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON").c_str());
+						else
+							szTempBuffer.Format(L"%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_CHANGE_ON_NEGATIVE").c_str());
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType() != NO_IMPROVEMENT)
+						{
+							//	if (kTraitTrigger.isApplyToOther(eTrait))
+							//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED").c_str(), GC.getImprovementInfo((ImprovementTypes)kTraitTrigger.getPrereqImprovement()));
+							//	else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_LOSE_IMPROVEMENT").c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqImprovementType()).getDescription());
+						}
+						else
+						{
+							//	if (kTraitTrigger.isApplyToOther(eTrait))
+							//		szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_PILLAGED_ANY").c_str());
+							//	else
+							szTempBuffer2.Format(gDLL->getText("TXT_KEY_TRAITHOOK_LOSE_IMPROVEMENT_ANY").c_str());
+						}
+						szTempBuffer.append(szTempBuffer2);
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType() != NO_BONUS)
+						{
+							CvWString szTempBuffer2;
+							szTempBuffer2.Format(L"%s%s", gDLL->getText("TXT_KEY_TRAITCOUNTER_BONUS_MULTIPLIER_PREREQ").c_str(), GC.getBonusInfo((BonusTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getBonusMultiplierType()).getDescription());
+							if (first)
+								first = false;
+							else
+								szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_AND").c_str());
+							szTempBuffer.append(szTempBuffer2);
+						}
+						szHelpString.append(szTempBuffer);
+						break;
+					}
 					case TRAITHOOK_GAIN_PLOT_OWNERSHIP:
 					{
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqTerrainType() != NO_TERRAIN)
@@ -32177,6 +32245,11 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
 
 						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqUndead())
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNDEAD").c_str());
+
+						}
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()!=NO_UNITCLASS)
 						{
 							szKillerUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
@@ -32226,6 +32299,11 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledWerewolf())
 						{
 							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledUndead())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNDEAD").c_str());
 
 						}
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitClassType() != NO_UNITCLASS)
@@ -32303,6 +32381,11 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
 
 						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqUndead())
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNDEAD").c_str());
+
+						}
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
 						{
 							szKillerUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
@@ -32355,6 +32438,11 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledWerewolf())
 						{
 							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledUndead())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNDEAD").c_str());
 
 						}
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitClassType() != NO_UNITCLASS)
@@ -32443,6 +32531,10 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
 
 						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqUndead())
+						{
+							szKillerUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNDEAD").c_str());
+						}
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
 						{
 							szKillerUnit.append(GC.getUnitClassInfo((UnitClassTypes)(GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger)).getPrereqUnitClassType()).getDescription());
@@ -32496,6 +32588,11 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledWerewolf())
 						{
 							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqKilledUndead())
+						{
+							szKilledUnit.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNDEAD").c_str());
 
 						}
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqKilledUnitClassType() != NO_UNITCLASS)
@@ -32575,6 +32672,11 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
 
 						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqUndead())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNDEAD").c_str());
+
+						}
 
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
 							szTempBuffer.append(GC.getUnitClassInfo((UnitClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()).getDescription());
@@ -32613,6 +32715,11 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
 
 						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqUndead())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNDEAD").c_str());
+
+						}
 
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)
 							szTempBuffer.append(GC.getUnitClassInfo((UnitClassTypes)GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType()).getDescription());
@@ -32649,6 +32756,11 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqWerewolf())
 						{
 							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_WEREWOLF").c_str());
+
+						}
+						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isPrereqUndead())
+						{
+							szTempBuffer.append(gDLL->getText("TXT_KEY_TRAITCOUNTER_UNDEAD").c_str());
 
 						}
 						if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getPrereqUnitClassType() != NO_UNITCLASS)

@@ -714,11 +714,13 @@ void TraitTriggeredData::read(FDataStreamBase* pStream)
 	pStream->Read(&m_bNotOwnHolyCity);
 	pStream->Read(&m_bAnyHolyCity);
 	pStream->Read(&m_bWerewolf);
+	pStream->Read(&m_bUndead);
 	pStream->Read(&m_bHero);
 	pStream->Read(&m_bHiddenNationality);
 	pStream->Read(&m_bInBorders);
 	pStream->Read(&m_bOutsideBorders);
 	pStream->Read(&m_bKilledWerewolf);
+	pStream->Read(&m_bKilledUndead);
 	pStream->Read(&m_bKilledHero);
 	pStream->Read(&m_bKilledHiddenNationality);
 	pStream->Read(&m_bKilledInBorders);
@@ -768,11 +770,13 @@ void TraitTriggeredData::write(FDataStreamBase* pStream)
 	pStream->Write(m_bNotOwnHolyCity);
 	pStream->Write(m_bAnyHolyCity);
 	pStream->Write(m_bWerewolf);
+	pStream->Write(m_bUndead);
 	pStream->Write(m_bHero);
 	pStream->Write(m_bHiddenNationality);
 	pStream->Write(m_bInBorders);
 	pStream->Write(m_bOutsideBorders);
 	pStream->Write(m_bKilledWerewolf);
+	pStream->Write(m_bKilledUndead);
 	pStream->Write(m_bKilledHero);
 	pStream->Write(m_bKilledHiddenNationality);
 	pStream->Write(m_bKilledInBorders);

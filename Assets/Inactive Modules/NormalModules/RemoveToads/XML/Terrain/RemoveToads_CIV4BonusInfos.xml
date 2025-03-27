@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Bonus Infos -->
+<Civ4BonusInfos xmlns="x-schema:RemoveToads_CIV4TerrainSchema.xml">
+	<BonusInfos>
+		<BonusInfo>		<!-- Toad -->
+			<Type>BONUS_TOAD</Type>
+			<Description>TXT_KEY_BONUS_TOAD</Description>
+			<Civilopedia>TXT_KEY_BONUS_TOAD_PEDIA</Civilopedia>
+			<BonusClassType>BONUSCLASS_LIVESTOCK</BonusClassType>
+			<ArtDefineTag>ART_DEF_BONUS_TOAD</ArtDefineTag>
+			<TechReveal>NONE</TechReveal>
+			<TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
+			<YieldChanges>
+				<iYieldChange>0</iYieldChange>
+				<iYieldChange>0</iYieldChange>
+				<iYieldChange>1</iYieldChange>
+			</YieldChanges>
+			<iHealth>-1</iHealth>
+			<iPlacementOrder>2</iPlacementOrder>
+			<iConstAppearance>100</iConstAppearance>
+			<iMinAreaSize>3</iMinAreaSize>
+			<Rands>
+				<iRandApp1>40</iRandApp1>
+				<iRandApp2>25</iRandApp2>
+				<iRandApp3>0</iRandApp3>
+				<iRandApp4>0</iRandApp4>
+			</Rands>
+			<iPlayer>100</iPlayer>
+			<iUnique>1</iUnique>
+			<iGroupRange>1</iGroupRange>
+			<iGroupRand>25</iGroupRand>
+			<bArea>1</bArea>
+			<bHills>1</bHills>
+			<bFlatlands>1</bFlatlands>
+			<TerrainBooleans>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+			</TerrainBooleans>
+			<bForceOverwrite>1</bForceOverwrite>
+		</BonusInfo>
+	</BonusInfos>
+</Civ4BonusInfos>

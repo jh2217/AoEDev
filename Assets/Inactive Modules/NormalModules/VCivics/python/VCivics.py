@@ -420,12 +420,10 @@ def onBeginPlayerTurn(self, argsList):
 			pPlayer.removeBuildingClass(vc.getArsenalBuildingClass())
 			pPlayer.removeBuildingClass(vc.getCitadelBuildingClass())
 			
-			setHasTech(vc.getImperialBureaucracyTech(), False, iPlayer, False, False)
 			setHasFlag(imperiumFlag, False)
 			
 	elif isCivic(imperiumCivic):
 		# adopt Imperium
-		setHasTech(vc.getImperialBureaucracyTech(), True, iPlayer, False, False)
 		setHasFlag(imperiumFlag, True)
 
 def handleNewCityState(pyPlayer, pyCity):

@@ -58,27 +58,27 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_GRAVELEECH_HELP</Tag>
-		<English>[NEWLINE][ICON_BULLET]All Units gain the Undead Promotion.[NEWLINE][ICON_BULLET]Vampires gain the Graveleech Promotion, blocking them from feeding and feasting on living units</English>
-		<French>[NEWLINE][ICON_BULLET]All Units gain the Undead Promotion.[NEWLINE][ICON_BULLET]Vampires gain the Graveleech Promotion, blocking them from feeding and feasting on living units</French>
-		<German>[NEWLINE][ICON_BULLET]All Units gain the Undead Promotion.[NEWLINE][ICON_BULLET]Vampires gain the Graveleech Promotion, blocking them from feeding and feasting on living units</German>
-		<Italian>[NEWLINE][ICON_BULLET]All Units gain the Undead Promotion.[NEWLINE][ICON_BULLET]Vampires gain the Graveleech Promotion, blocking them from feeding and feasting on living units</Italian>
-		<Spanish>[NEWLINE][ICON_BULLET]All Units gain the Undead Promotion.[NEWLINE][ICON_BULLET]Vampires gain the Graveleech Promotion, blocking them from feeding and feasting on living units</Spanish>
+		<English>[NEWLINE][ICON_BULLET]All Units gain the Undead Promotion.[NEWLINE][ICON_BULLET]Vampires gain the [LINK=PROMOTION_GRAVELEECH]Graveleech Promotion[\LINK], blocking them from feeding and feasting on living units.</English>
+		<French>[NEWLINE][ICON_BULLET]All Units gain the Undead Promotion.[NEWLINE][ICON_BULLET]Vampires gain the [LINK=PROMOTION_GRAVELEECH]Graveleech Promotion[\LINK], blocking them from feeding and feasting on living units.</French>
+		<German>[NEWLINE][ICON_BULLET]All Units gain the Undead Promotion.[NEWLINE][ICON_BULLET]Vampires gain the [LINK=PROMOTION_GRAVELEECH]Graveleech Promotion[\LINK], blocking them from feeding and feasting on living units.</German>
+		<Italian>[NEWLINE][ICON_BULLET]All Units gain the Undead Promotion.[NEWLINE][ICON_BULLET]Vampires gain the [LINK=PROMOTION_GRAVELEECH]Graveleech Promotion[\LINK], blocking them from feeding and feasting on living units.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]All Units gain the Undead Promotion.[NEWLINE][ICON_BULLET]Vampires gain the [LINK=PROMOTION_GRAVELEECH]Graveleech Promotion[\LINK], blocking them from feeding and feasting on living units.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_GRAVELEECH2_HELP</Tag>
-		<English>[NEWLINE][ICON_BULLET]Feeding off an Undead unit grants the Undead Soul Promotion, allowing you to turn enemy units into undead.</English>
-		<French>[NEWLINE][ICON_BULLET]Feeding off an Undead unit grants the Undead Soul Promotion, allowing you to turn enemy units into undead.</French>
-		<German>[NEWLINE][ICON_BULLET]Feeding off an Undead unit grants the Undead Soul Promotion, allowing you to turn enemy units into undead.</German>
-		<Italian>[NEWLINE][ICON_BULLET]Feeding off an Undead unit grants the Undead Soul Promotion, allowing you to turn enemy units into undead.</Italian>
-		<Spanish>[NEWLINE][ICON_BULLET]Feeding off an Undead unit grants the Undead Soul Promotion, allowing you to turn enemy units into undead.</Spanish>
+		<English>[NEWLINE][ICON_BULLET]Feeding off an Undead unit grants the [LINK=PROMOTION_UNDEAD_SOUL]Undead Soul Promotion[\LINK], allowing you to turn enemy units into undead.</English>
+		<French>[NEWLINE][ICON_BULLET]Feeding off an Undead unit grants the [LINK=PROMOTION_UNDEAD_SOUL]Undead Soul Promotion[\LINK], allowing you to turn enemy units into undead.</French>
+		<German>[NEWLINE][ICON_BULLET]Feeding off an Undead unit grants the [LINK=PROMOTION_UNDEAD_SOUL]Undead Soul Promotion[\LINK], allowing you to turn enemy units into undead.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Feeding off an Undead unit grants the [LINK=PROMOTION_UNDEAD_SOUL]Undead Soul Promotion[\LINK], allowing you to turn enemy units into undead.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Feeding off an Undead unit grants the [LINK=PROMOTION_UNDEAD_SOUL]Undead Soul Promotion[\LINK], allowing you to turn enemy units into undead.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_GRAVELEECH3_HELP</Tag>
-		<English>[NEWLINE][ICON_BULLET]Unlocks the Ritual House of the Undying, turning all population in the city into undead, allowing your graveleeches to feast off them.</English>
-		<French>[NEWLINE][ICON_BULLET]Unlocks the Ritual House of the Undying, turning all population in the city into undead, allowing your graveleeches to feast off them.</French>
-		<German>[NEWLINE][ICON_BULLET]Unlocks the Ritual House of the Undying, turning all population in the city into undead, allowing your graveleeches to feast off them.</German>
-		<Italian>[NEWLINE][ICON_BULLET]Unlocks the Ritual House of the Undying, turning all population in the city into undead, allowing your graveleeches to feast off them.</Italian>
-		<Spanish>[NEWLINE][ICON_BULLET]Unlocks the Ritual House of the Undying, turning all population in the city into undead, allowing your graveleeches to feast off them.</Spanish>
+		<English>[NEWLINE][ICON_BULLET]Unlocks the Ritual House of the Undying, turning all population in the city into undead, allowing your graveleeches to feast off them. Unlocks [LINK=PROMOTION_GREATER_GRAVELEECH]Greater Graveleech.[\LINK]</English>
+		<French>[NEWLINE][ICON_BULLET]Unlocks the Ritual House of the Undying, turning all population in the city into undead, allowing your graveleeches to feast off them. Unlocks [LINK=PROMOTION_GREATER_GRAVELEECH]Greater Graveleech.</French>
+		<German>[NEWLINE][ICON_BULLET]Unlocks the Ritual House of the Undying, turning all population in the city into undead, allowing your graveleeches to feast off them. Unlocks [LINK=PROMOTION_GREATER_GRAVELEECH]Greater Graveleech.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Unlocks the Ritual House of the Undying, turning all population in the city into undead, allowing your graveleeches to feast off them. Unlocks [LINK=PROMOTION_GREATER_GRAVELEECH]Greater Graveleech.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Unlocks the Ritual House of the Undying, turning all population in the city into undead, allowing your graveleeches to feast off them. Unlocks [LINK=PROMOTION_GREATER_GRAVELEECH]Greater Graveleech.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_GRAVELEECH_PEDIA</Tag>

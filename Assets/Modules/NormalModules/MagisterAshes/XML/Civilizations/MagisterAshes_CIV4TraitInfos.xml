@@ -78,25 +78,8 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-			<TerrainYieldChanges>
-				<TerrainYieldChange>
-					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
-					<TerrainYields>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
-					</TerrainYields>
-				</TerrainYieldChange>
-				<TerrainYieldChange>
-					<TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
-					<TerrainYields>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
-						<iYield>1</iYield>
-					</TerrainYields>
-				</TerrainYieldChange>
-			</TerrainYieldChanges>
-		</TraitInfo>
+
+		</TraitInfo> 			
 		<TraitInfo>		<!-- Keepers of the Eternal Blizzard (Badb's Wandering Castle ) -->
 			<Type>TRAIT_KEEPERS_BADB</Type>
 			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
@@ -194,8 +177,34 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
-		</TraitInfo>
-		<TraitInfo>		<!-- Keepers of the Veil of Shadows (Whispering Woods) -->
+				<TerrainYieldChanges>
+				<TerrainYieldChange>
+					<TerrainType>TERRAIN_WASTELAND</TerrainType>
+					<TerrainYields>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</TerrainYields>
+				</TerrainYieldChange>
+				<TerrainYieldChange>
+					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
+					<TerrainYields>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</TerrainYields>
+				</TerrainYieldChange>
+				<TerrainYieldChange>
+					<TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
+					<TerrainYields>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
+					</TerrainYields>
+				</TerrainYieldChange>
+			</TerrainYieldChanges>
+		</TraitInfo> 	
+	<TraitInfo>		<!-- Keepers of the Veil of Shadows (Whispering Woods) -->
 			<Type>TRAIT_KEEPERS_WHISPERING</Type>
 			<TraitClass>TRAITCLASS_KEEPERS</TraitClass>
 			<iMinRequiredPoints>500</iMinRequiredPoints>

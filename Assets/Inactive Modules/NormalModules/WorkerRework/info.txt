@@ -12,13 +12,13 @@ The360MlgNoscoper
 ;Derf
 
 [shortdesc]
-Makes tool progression make sense, now merged with advanced workers.
+Makes tool progression make sense, now merged with advanced workers. Also removes the haste exploit.
 
 [desc]
-Reworks tool promotions so they follow a natural progression with materials technology.
+Reworks tool promotions so they follow a natural progression with materials technology. Removes the ability for workers to be hasted.
 
 [version]
-1.0
+1.4
 
 
 ;[dependency]

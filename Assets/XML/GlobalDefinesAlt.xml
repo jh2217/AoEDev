@@ -734,4 +734,9 @@
 		<!-- how much magical power is lost per Extra Dominion chosen -->
 		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
+	<Define>
+		<DefineName>NUM_CORPORATION_PREREQ_BONUSES</DefineName>
+		<!-- how much magical power is lost per Extra Dominion chosen -->
+		<iDefineIntVal>10</iDefineIntVal>
+	</Define>
 </Civ4Defines>

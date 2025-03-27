@@ -157,9 +157,8 @@
 				</CounterChange>
 			</CounterChanges>
 			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
-				<TraitHookType>TRAITHOOK_KILL_UNIT</TraitHookType>
-			
-			<PrereqPromotionType>PROMOTION_UNDEAD</PrereqPromotionType>
+			<TraitHookType>TRAITHOOK_KILL_UNIT</TraitHookType>
+			<bUndead>1</bUndead>
 		</TraitTriggerInfo>
 	
 	</TraitTriggerInfos>

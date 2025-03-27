@@ -9,10 +9,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_STONE_TOOLS_1</Tag>
 		<English>Tools (Stone)</English>
-		<French>Tools (Stone</French>
-		<German>Tools (Stone</German>
-		<Italian>Tools (Stone</Italian>
-		<Spanish>Tools (Stone</Spanish>
+		<French>Tools (Stone)</French>
+		<German>Tools (Stone)</German>
+		<Italian>Tools (Stone)</Italian>
+		<Spanish>Tools (Stone)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_BRONZE_TOOLS</Tag>
@@ -126,11 +126,11 @@
 	
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_WORKERTOOLSMECHANOS_HELP</Tag>
-		<English>Unit can use Stone, Bronze, Iron and Power tools, but can't use enchanted tools</English>
-		<French>Unit can use Stone, Bronze, Iron and Power tools, but can't use enchanted tools</French>
-		<German>Unit can use Stone, Bronze, Iron and Power tools, but can't use enchanted toolss</German>
-		<Italian>Unit can use Stone, Bronze, Iron and Power tools, but can't use enchanted tools</Italian>
-		<Spanish>Unit can use Stone, Bronze, Iron and Power tools, but can't use enchanted tools</Spanish>
+		<English>Unit can use Stone, Bronze, Iron, Mithril and Power tools, but can't use enchanted tools</English>
+		<French>Unit can use Stone, Bronze, Iron, Mithril and Power tools, but can't use enchanted tools</French>
+		<German>Unit can use Stone, Bronze, Iron, Mithril and Power tools, but can't use enchanted toolss</German>
+		<Italian>Unit can use Stone, Bronze, Iron, Mithril and Power tools, but can't use enchanted tools</Italian>
+		<Spanish>Unit can use Stone, Bronze, Iron, Mithril and Power tools, but can't use enchanted tools</Spanish>
 	</TEXT>
 	
 	
@@ -225,5 +225,4 @@
 		<Italian>Enchanted Iron tools that can survive the depths</Italian>
 		<Spanish>Enchanted Iron tools that can survive the depths</Spanish>
 	</TEXT>
-	
 </Civ4GameText>

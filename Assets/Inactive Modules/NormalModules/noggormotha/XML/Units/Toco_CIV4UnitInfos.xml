@@ -25,6 +25,7 @@
 			<bMilitaryProduction>0</bMilitaryProduction>
 			<bPillage>1</bPillage>
 			<bNoSupport>1</bNoSupport>
+			<bImmuneToCapture>1</bImmuneToCapture>
 			<UnitClassUpgrades>
 				<UnitClassUpgradeType>UNITCLASS_DARK_TOCO</UnitClassUpgradeType>
 				<UnitClassUpgradeType>UNITCLASS_BLESSED_TOCO</UnitClassUpgradeType>
@@ -114,6 +115,7 @@
 			<bMilitaryProduction>0</bMilitaryProduction>
 			<bPillage>1</bPillage>
 			<bNoSupport>1</bNoSupport>
+			<bImmuneToCapture>1</bImmuneToCapture>
 			<!-- Start LPlate Edit -->
 			<UnitClassTargets>
 				<UnitClassTarget>
@@ -195,6 +197,7 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bPillage>1</bPillage>
 			<bNoSupport>1</bNoSupport>
+			<bImmuneToCapture>1</bImmuneToCapture>
 			<!-- Start LPlate Edit -->
 			<UnitClassDefenders>
 				<UnitClassDefender>

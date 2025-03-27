@@ -1124,6 +1124,8 @@
 	<ElementType name="bPrereqTrade" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bWerewolf" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bKilledWerewolf" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bUndead" content="textOnly" dt:type="boolean"/>
+	<ElementType name="bKilledUndead" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bHero" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bKilledHero" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bHiddenNationality" content="textOnly" dt:type="boolean"/>
@@ -1218,6 +1220,8 @@
 		<element type="bPrereqTrade" minOccurs="0"/>
 		<element type="bWerewolf" minOccurs="0"/>
 		<element type="bKilledWerewolf" minOccurs="0"/>
+		<element type="bUndead" minOccurs="0"/>
+		<element type="bKilledUndead" minOccurs="0"/>
 		<element type="bHero" minOccurs="0"/>
 		<element type="bKilledHero" minOccurs="0"/>
 		<element type="bHiddenNationality" minOccurs="0"/>

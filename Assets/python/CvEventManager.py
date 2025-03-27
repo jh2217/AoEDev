@@ -1993,7 +1993,14 @@ class CvEventManager:
 				if not Option["No Barbarians"]:
 					initUnit( ScorpClan["Archer"], pPlot.getX(), pPlot.getY(), iNoAI, iSouth)
 			if iImprovement == gc.getInfoTypeForString("IMPROVEMENT_WELL_OF_SOULS"):
-				for iX, iY in BFC:
+				listplot=((0,0))
+				if CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_SMALL"):
+					listplot=RANGE1
+				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_STANDARD") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_LARGE"):
+					listplot=BFC
+				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGE") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGER"):
+					listplot=BBFC
+				for iX, iY in listplot:
 					pDangerousPlot = map.plot(pPlot.getX() + iX, pPlot.getY() + iY)
 					if not pDangerousPlot.isWater():
 						pDangerousPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_WASTELAND"),True,True)
@@ -2511,49 +2518,54 @@ class CvEventManager:
 	#					eTeam.declareWar(iTeam, False, WarPlanTypes.WARPLAN_LIMITED)
 	#					if (iPlayer == game.getActivePlayer() and not bAI):
 	#						addPopup(CyTranslator().getText("TXT_KEY_POPUP_BARBARIAN_DECLARE_WAR",()), 'art/interface/popups/Barbarian.dds')
-				
+
+		# Republic Start
+
 		if pPlayer.getCivics(gc.getInfoTypeForString("CIVICOPTION_GOVERNMENT")) == gc.getInfoTypeForString("CIVIC_REPUBLIC"):
-			ElectionSkip = CyGame().getSorenRandNum(3, "Republic Election Skip")
-			if ElectionSkip > 0:
-				iCycle = gc.getGameSpeedInfo(gc.getGame().getGameSpeedType()).getGrowthPercent() / 10 * 4
-				if iGameTurn % iCycle == 0:
-					for iTrait in xrange(gc.getNumTraitInfos()):
-						if gc.getTraitInfo(iTrait).getTraitClass() == gc.getInfoTypeForString("TRAITCLASS_REPUBLIC"):
-							if not gc.isNoCrash():
-								pPlayer.setHasTrait((iTrait),False,-1,True,True)
-							else:
-								pPlayer.setHasTrait((iTrait),False)
-					iElection = CyGame().getSorenRandNum(4, "Republic Election Type")
-					if pPlayer.isHuman():
-						lText = []
-						if iElection == 0:
-							lText = ["TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_HAWK_VS_DOVE","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_HAWK","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_DOVE","TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_HAWK_VS_DOVE"]
-							lWidget = ['EVENT_REPUBLIC_ELECTION_SUPPORT_HAWK','EVENT_REPUBLIC_ELECTION_SUPPORT_DOVE','EVENT_REPUBLIC_ELECTION_FAIR_HAWK_VS_DOVE']
-						if iElection == 1:
-							lText = ["TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_LANDOWNER_VS_PEASANTS","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_LANDOWNER","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_PEASANT","TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_LANDOWNER_VS_PEASANT"]
-							lWidget = ['EVENT_REPUBLIC_ELECTION_SUPPORT_LANDOWNER','EVENT_REPUBLIC_ELECTION_SUPPORT_PEASANT','EVENT_REPUBLIC_ELECTION_FAIR_LANDOWNER_VS_PEASANT']
-						if iElection == 2:
-							lText = ["TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_CHURCH_VS_STATE","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_CHURCH","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_STATE","TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_CHURCH_VS_STATE"]
-							lWidget = ['EVENT_REPUBLIC_ELECTION_SUPPORT_CHURCH','EVENT_REPUBLIC_ELECTION_SUPPORT_STATE','EVENT_REPUBLIC_ELECTION_FAIR_CHURCH_VS_STATE']
-						if iElection == 3:
-							lText = ["TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_LABOR_VS_ACADEMIA","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_LABOR","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_ACADEMIA","TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_LABOR_VS_ACADEMIA"]
-							lWidget = ['EVENT_REPUBLIC_ELECTION_SUPPORT_LABOR','EVENT_REPUBLIC_ELECTION_SUPPORT_ACADEMIA','EVENT_REPUBLIC_ELECTION_FAIR_LABOR_VS_ACADEMIA']
-						popupInfo = CyPopupInfo()
-						popupInfo.setOption2(True)
-						popupInfo.setFlags(126) # Event widget on mouseover
-						popupInfo.setButtonPopupType(ButtonPopupTypes.BUTTONPOPUP_PYTHON)
-						popupInfo.setOnClickedPythonCallback("passToModNetMessage")
-						popupInfo.setData1(iPlayer)
-						popupInfo.setData2(iElection)
-						popupInfo.setData3(101) # onModNetMessage id
-						popupInfo.setText(CyTranslator().getText(lText[0], ()))
-						popupInfo.addPythonButton(CyTranslator().getText(lText[1], ()),lWidget[0])
-						popupInfo.addPythonButton(CyTranslator().getText(lText[2], ()),lWidget[1])
-						popupInfo.addPythonButton(CyTranslator().getText(lText[3], ()),lWidget[2])
-						popupInfo.addPopup(iPlayer)
-					else:
-						argsList = [2,iPlayer,iElection]
-						CvScreensInterface.effectRepublic(argsList) # based on iAIValue of events (always fair)
+			pPlayer.changeFlagValue(gc.getInfoTypeForString("FLAG_REPUBLIC_TIMER"), 1)
+			iCycle = gc.getGameSpeedInfo(gc.getGame().getGameSpeedType()).getGrowthPercent() / 10 * 4
+			if pPlayer.getFlagValue(gc.getInfoTypeForString("FLAG_REPUBLIC_TIMER")) == iCycle:
+				pPlayer.setFlagValue(gc.getInfoTypeForString("FLAG_REPUBLIC_TIMER"), 0)
+			if pPlayer.getFlagValue(gc.getInfoTypeForString("FLAG_REPUBLIC_TIMER")) == 1:
+				for iTrait in xrange(gc.getNumTraitInfos()):
+					if gc.getTraitInfo(iTrait).getTraitClass() == gc.getInfoTypeForString("TRAITCLASS_REPUBLIC"):
+						if not gc.isNoCrash():
+							pPlayer.setHasTrait((iTrait),False,-1,True,True)
+						else:
+							pPlayer.setHasTrait((iTrait),False)
+				iElection = CyGame().getSorenRandNum(4, "Republic Election Type")
+				if pPlayer.isHuman():
+					lText = []
+					if iElection == 0:
+						lText = ["TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_HAWK_VS_DOVE","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_HAWK","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_DOVE","TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_HAWK_VS_DOVE"]
+						lWidget = ['EVENT_REPUBLIC_ELECTION_SUPPORT_HAWK','EVENT_REPUBLIC_ELECTION_SUPPORT_DOVE','EVENT_REPUBLIC_ELECTION_FAIR_HAWK_VS_DOVE']
+					if iElection == 1:
+						lText = ["TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_LANDOWNER_VS_PEASANTS","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_LANDOWNER","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_PEASANT","TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_LANDOWNER_VS_PEASANT"]
+						lWidget = ['EVENT_REPUBLIC_ELECTION_SUPPORT_LANDOWNER','EVENT_REPUBLIC_ELECTION_SUPPORT_PEASANT','EVENT_REPUBLIC_ELECTION_FAIR_LANDOWNER_VS_PEASANT']
+					if iElection == 2:
+						lText = ["TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_CHURCH_VS_STATE","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_CHURCH","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_STATE","TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_CHURCH_VS_STATE"]
+						lWidget = ['EVENT_REPUBLIC_ELECTION_SUPPORT_CHURCH','EVENT_REPUBLIC_ELECTION_SUPPORT_STATE','EVENT_REPUBLIC_ELECTION_FAIR_CHURCH_VS_STATE']
+					if iElection == 3:
+						lText = ["TXT_KEY_EVENTTRIGGER_REPUBLIC_ELECTION_LABOR_VS_ACADEMIA","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_LABOR","TXT_KEY_EVENT_REPUBLIC_ELECTION_SUPPORT_ACADEMIA","TXT_KEY_EVENT_REPUBLIC_ELECTION_FAIR_LABOR_VS_ACADEMIA"]
+						lWidget = ['EVENT_REPUBLIC_ELECTION_SUPPORT_LABOR','EVENT_REPUBLIC_ELECTION_SUPPORT_ACADEMIA','EVENT_REPUBLIC_ELECTION_FAIR_LABOR_VS_ACADEMIA']
+					popupInfo = CyPopupInfo()
+					popupInfo.setOption2(True)
+					popupInfo.setFlags(126) # Event widget on mouseover
+					popupInfo.setButtonPopupType(ButtonPopupTypes.BUTTONPOPUP_PYTHON)
+					popupInfo.setOnClickedPythonCallback("passToModNetMessage")
+					popupInfo.setData1(iPlayer)
+					popupInfo.setData2(iElection)
+					popupInfo.setData3(101) # onModNetMessage id
+					popupInfo.setText(CyTranslator().getText(lText[0], ()))
+					popupInfo.addPythonButton(CyTranslator().getText(lText[1], ()),lWidget[0])
+					popupInfo.addPythonButton(CyTranslator().getText(lText[2], ()),lWidget[1])
+					popupInfo.addPythonButton(CyTranslator().getText(lText[3], ()),lWidget[2])
+					popupInfo.addPopup(iPlayer)
+				else:
+					argsList = [2,iPlayer,iElection]
+					CvScreensInterface.effectRepublic(argsList) # based on iAIValue of events (always fair)
+
+		# Republic End
 
 		## *******************
 		## Modular Python: ANW 29-may-2010
@@ -2777,12 +2789,26 @@ class CvEventManager:
 				pPlot.setRouteType(Improvement["Road"])
 			
 			elif iImprovement == gc.getInfoTypeForString("IMPROVEMENT_SEVEN_PINES"):
-				for iiX,iiY in RANGE1:
+				listplot=((0,0))
+				if CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_SMALL"):
+					listplot=RANGE1
+				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_STANDARD") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_LARGE"):
+					listplot=BFC
+				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGE") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGER"):
+					listplot=BBFC
+				for iiX,iiY in listplot:
 					pLoopPlot = getPlot(pPlot.getX()+iiX,pPlot.getY()+iiY)
 					pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("PLOT_EFFECT_BLESSED_LANDS"))
 
 			elif gc.getInfoTypeForString("MODULE_MAGISTER_ASHES")!=-1 and iImprovement==gc.getInfoTypeForString("IMPROVEMENT_WHISPERING_WOOD"):
-				for iiX,iiY in RANGE1:
+				listplot=((0,0))
+				if CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_SMALL"):
+					listplot=RANGE1
+				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_STANDARD") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_LARGE"):
+					listplot=BFC
+				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGE") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGER"):
+					listplot=BBFC
+				for iiX,iiY in listplot:
 					pLoopPlot = getPlot(pPlot.getX()+iiX,pPlot.getY()+iiY)
 					pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("PLOT_EFFECT_MIST"))
 

@@ -3320,9 +3320,12 @@ class CvMainInterface:
 			g_szTimeText = getClockText() + u" - " + g_szTimeText
 		if (pPlayer!=None):
 			if pPlayer.getCivics(gc.getInfoTypeForString("CIVICOPTION_GOVERNMENT")) == gc.getInfoTypeForString("CIVIC_REPUBLIC"):
-				iCycle		= gc.getGameSpeedInfo(gc.getGame().getGameSpeedType()).getGrowthPercent() / 10 * 4
-				iGameTurn	= gc.getGame().getGameTurn() - 1
-				iElection	= iGameTurn + (iCycle - (iGameTurn % iCycle)) + 2
+				# onBeginPlayerTurn iCycle counterpart
+				iCycle				= gc.getGameSpeedInfo(gc.getGame().getGameSpeedType()).getGrowthPercent() / 10 * 4
+				iRepublicCounter	= pPlayer.getFlagValue(gc.getInfoTypeForString("FLAG_REPUBLIC_TIMER"))
+				iElection			= ( ( iCycle - iRepublicCounter + 1 ) % iCycle ) + gc.getGame().getGameTurn() + 1
+				if iElection == gc.getGame().getGameTurn() + 1:
+					iElection += iCycle
 				szElection	= localText.getText("TXT_KEY_NEXT_ELECTION", (iElection, ))
 				g_szTimeText = g_szTimeText + u" - " + szElection
 			

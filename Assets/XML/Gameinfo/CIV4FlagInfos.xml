@@ -311,5 +311,9 @@
 			<Type>FLAG_URN_ROTTING_OPEN</Type>
 			<Description>TXT_KEY_FLAG_URN_ROTTING_OPEN_1</Description>
 		</FlagInfo>
+		<FlagInfo>
+			<Type>FLAG_REPUBLIC_TIMER</Type>
+			<Description>TXT_KEY_FLAG_REPUBLIC_TIMER</Description>
+		</FlagInfo>
 	</FlagInfos>
 </Civ4FlagInfos>

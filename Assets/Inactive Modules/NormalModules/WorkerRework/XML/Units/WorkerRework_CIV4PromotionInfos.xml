@@ -15,7 +15,6 @@
 			<Help>TXT_KEY_PROMOTION_STONE_TOOLS_HELP</Help>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
 			<UnitCombats>
 				<UnitCombat>
@@ -43,7 +42,6 @@
 			</PromotionOverwrites>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
 			<UnitCombats>
 				<UnitCombat>
@@ -74,7 +72,6 @@
 			</PromotionOverwrites>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
 			<UnitCombats>
 				<UnitCombat>
@@ -99,15 +96,16 @@
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
 				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
 				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
+				<Promotion>PROMOTION_WATERPROOF_IRON_TOOLS</Promotion>
 			</PromotionExcludes>
 			<PromotionOverwrites>
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
 				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
 				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
+				<Promotion>PROMOTION_WATERPROOF_IRON_TOOLS</Promotion>
 			</PromotionOverwrites>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
 			<UnitCombats>
 				<UnitCombat>
@@ -135,15 +133,16 @@
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
 				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
 				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
+				<Promotion>PROMOTION_MITHRIL_TOOLS</Promotion>
 			</PromotionExcludes>
 			<PromotionOverwrites>
 				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
 				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
 				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
+				<Promotion>PROMOTION_MITHRIL_TOOLS</Promotion>
 			</PromotionOverwrites>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
 			<UnitCombats>
 				<UnitCombat>
@@ -166,8 +165,8 @@
 			<Help>TXT_KEY_PROMOTION_ENCHANTED_TOOLS_HELP</Help>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
+			<TechPrereq>TECH_ALTERATION</TechPrereq>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
@@ -235,9 +234,19 @@
 				<Promotion>PROMOTION_MITHRIL_TOOLS</Promotion>
 				<Promotion>PROMOTION_ENCHANTED_TOOLS</Promotion>
 			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_GRETCHIN</PrereqUnit>
+				<PrereqUnit>UNIT_FAMILIAR</PrereqUnit>
+				<PrereqUnit>UNIT_THRALL_MILITIA</PrereqUnit>
+			</PrereqUnits>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<Button>Art/Interface/Buttons/Promotions/StoneTools.dds</Button>
 			<bValidate>1</bValidate>
 		</PromotionInfo>
@@ -249,9 +258,17 @@
 			<PromotionExcludes>
 				<Promotion>PROMOTION_IRON_TOOLS</Promotion>
 			</PromotionExcludes>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_WORKER_LIZARD_BEZERI</PrereqUnit>
+			</PrereqUnits>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<Button>Art/Interface/Buttons/Units/WaterElemental.dds</Button>
 			<bValidate>1</bValidate>
 		</PromotionInfo>
@@ -263,15 +280,25 @@
 			<Type>PROMOTION_WATERPROOF_IRON_TOOLS</Type>
 			<Description>TXT_KEY_PROMOTION_WATERPROOF_IRON_TOOLS</Description>
 			<Help>TXT_KEY_PROMOTION_WATERPROOF_IRON_TOOLS_HELP</Help>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
+				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
+			</PromotionExcludes>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_STONE_TOOLS</Promotion>
+				<Promotion>PROMOTION_BRONZE_TOOLS</Promotion>
+			</PromotionOverwrites>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_WATERLOGGED_TOOLS</PromotionType>
 					<iPrereqApplications>1</iPrereqApplications>
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_WORKER_LIZARD_BEZERI</PrereqUnit>
+			</PrereqUnits>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bNoXP>1</bNoXP>
-			<PrereqbAllowNULLUnitCombat>1</PrereqbAllowNULLUnitCombat>
 			<PrereqInCity>1</PrereqInCity>
 			<UnitCombats>
 				<UnitCombat>
@@ -289,29 +316,79 @@
 		</PromotionInfo>
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		<PromotionInfo>		<!-- Goblinoid -->
+			<Type>PROMOTION_GOBLIN</Type>
+			<Description>TXT_KEY_PROMOTION_GOBLIN</Description>
+			<FeatureAttacks>
+				<FeatureAttack>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<iFeatureAttack>10</iFeatureAttack>
+				</FeatureAttack>
+				<FeatureAttack>
+					<FeatureType>FEATURE_FOREST</FeatureType>
+					<iFeatureAttack>10</iFeatureAttack>
+				</FeatureAttack>
+			</FeatureAttacks>
+			<iWithdrawalChange>10</iWithdrawalChange>
+			<Button>Art/Interface/Buttons/Races/Race_Goblin.dds</Button>
+			<bRace>1</bRace>
+			<UnitArtStyleType>UNIT_ARTSTYLE_GOBLIN</UnitArtStyleType>
+			<NoBadExploreImprovements>
+				<NoBadExploreImprovement>
+				<ImprovementType>IMPROVEMENT_GOBLIN_CAMP</ImprovementType>
+				<iNoBadExploreImprovement>30</iNoBadExploreImprovement>
+				</NoBadExploreImprovement>
+				<NoBadExploreImprovement>
+				<ImprovementType>IMPROVEMENT_GOBLIN_VILLAGE</ImprovementType>
+				<iNoBadExploreImprovement>20</iNoBadExploreImprovement>
+				</NoBadExploreImprovement>
+				<NoBadExploreImprovement>
+				<ImprovementType>IMPROVEMENT_GOBLIN_TOWN</ImprovementType>
+				<iNoBadExploreImprovement>10</iNoBadExploreImprovement>
+				</NoBadExploreImprovement>
+			</NoBadExploreImprovements>
+			<DamageTypeResists>
+				<DamageTypeResist>
+					<DamageType>DAMAGE_POISON</DamageType>
+					<iResist>50</iResist>
+				</DamageTypeResist>
+			</DamageTypeResists>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
 		
 		<PromotionInfo>		<!-- Obsidian Tools Are Removed -->
 			<Type>PROMOTION_OBSIDIAN_TOOLS</Type>
 			<Description>zzzzzzDeletedPromoObsidian</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
+			<bEffectProm>1</bEffectProm>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Masterwork Tools Are Removed -->
 			<Type>PROMOTION_MASTERWORK_TOOLS</Type>
 			<Description>zzzzzzDeletedPromoMasterwork</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
+			<bEffectProm>1</bEffectProm>
 			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		
+		
+		
+		
+		<PromotionInfo>		<!-- Disables hasted Promotion for workers -->
+			<Type>PROMOTION_WORKER_HASTED_BLOCK</Type>
+			<Description>TXT_KEY_PROMOTION_WORKER_HASTED_BLOCK</Description>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_HASTED</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bEffectProm>1</bEffectProm>
+			<bNoXP>1</bNoXP>
 		</PromotionInfo>
 		
 			</PromotionInfos>

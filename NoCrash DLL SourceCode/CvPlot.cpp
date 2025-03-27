@@ -7829,9 +7829,23 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 		// Modifies Apparent PlotCounter based on Improvement Shift (required redundancy) : Xienwolf 02/01/09
 		bool bEvilPre = (getPlotCounter() > GC.getDefineINT("EVIL_TILE_THRESHOLD"));
 
-		// Original code
+		if (eOldImprovement != NO_IMPROVEMENT && isOwned())
+		{
+			TraitTriggeredData kData;
+			kData.m_iImprovement = eOldImprovement;
+			GET_PLAYER(getOwner()).doTraitTriggers(TRAITHOOK_LOSE_IMPROVEMENT, &kData);		
+		}
+
+
 		updatePlotGroupBonus(false);
 		m_eImprovementType = eNewValue;
+		if (eNewValue != NO_IMPROVEMENT && isOwned())
+		{
+			TraitTriggeredData kData;
+			kData.m_iImprovement = eOldImprovement;
+			GET_PLAYER(getOwner()).doTraitTriggers(TRAITHOOK_GAIN_IMPROVEMENT, &kData);
+		}
+		
 		updatePlotGroupBonus(true);
 
 		// Update plot visibility after improvement change

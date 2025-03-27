@@ -13026,11 +13026,13 @@ public:
 	bool isCityNotOwnHolyCity() const;
 	bool isCityAnyHolyCity() const;
 	bool isPrereqWerewolf() const;
+	bool isPrereqUndead() const;
 	bool isPrereqHero() const;
 	bool isPrereqHiddenNationality() const;
 	bool isPrereqInBorders() const;
 	bool isPrereqOutsideBorders() const;
 	bool isPrereqKilledWerewolf() const;
+	bool isPrereqKilledUndead() const;
 	bool isPrereqKilledHero() const;
 	bool isPrereqKilledHiddenNationality() const;
 	bool isPrereqKilledInBorders() const;
@@ -13104,11 +13106,13 @@ protected:
 	bool m_bNotOwnHolyCity;
 	bool m_bAnyHolyCity;
 	bool m_bWerewolf;
+	bool m_bUndead;
 	bool m_bHero;
 	bool m_bHiddenNationality;
 	bool m_bInBorders;
 	bool m_bOutsideBorders;
 	bool m_bKilledWerewolf;
+	bool m_bKilledUndead;
 	bool m_bKilledHero;
 	bool m_bKilledHiddenNationality;
 	bool m_bKilledInBorders;

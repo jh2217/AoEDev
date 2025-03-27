@@ -259,7 +259,7 @@
 			
 				<TraitHookType>TRAITHOOK_KILL_UNIT</TraitHookType>
 			
-			<PrereqPromotionType>PROMOTION_ELEMENTAL</PrereqPromotionType>
+			<PrereqRaceType>PROMOTION_ELEMENTAL</PrereqRaceType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Construct           spirit vigil -->
 			<Type>TRAITTRIGGER_CONSTRUCT_SPIRIT_VIGIL_ELFNDEATH</Type>

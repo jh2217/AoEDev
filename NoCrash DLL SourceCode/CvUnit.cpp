@@ -1760,6 +1760,7 @@ void CvUnit::kill(bool bDelay, PlayerTypes ePlayer)
 				kTriggerData.m_iAlignmentStatus = GET_PLAYER(pKiller->getOwner()).getAlignment();
 				kTriggerData.m_iEthicalAlignmentStatus = GET_PLAYER(pKiller->getOwner()).getEthicalAlignment();
 				kTriggerData.m_bWerewolf = pKiller->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_WEREWOLF"));
+				kTriggerData.m_bUndead = pKiller->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_UNDEAD"));
 				kTriggerData.m_bHero = pKiller->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_HERO"));
 				kTriggerData.m_bHiddenNationality = pKiller->isHiddenNationality();
 				kTriggerData.m_bInBorders = pKiller->getOwner() == pKiller->plot()->getOwner();
@@ -1776,6 +1777,7 @@ void CvUnit::kill(bool bDelay, PlayerTypes ePlayer)
 			kTriggerData.m_iKilledAlignmentStatus = GET_PLAYER(getOwner()).getAlignment();
 			kTriggerData.m_iKilledEthicalAlignmentStatus = GET_PLAYER(getOwner()).getEthicalAlignment();
 			kTriggerData.m_bKilledWerewolf = isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_WEREWOLF"));
+			kTriggerData.m_bKilledUndead = isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_UNDEAD"));
 			kTriggerData.m_bKilledHero = isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_HERO"));
 			kTriggerData.m_bKilledHiddenNationality = isHiddenNationality();
 			kTriggerData.m_bKilledInBorders = getOwner() == plot()->getOwner();
@@ -11429,6 +11431,7 @@ void CvUnit::promote(PromotionTypes ePromotion, int iLeaderUnitId)
 		kTrigger.m_iUnitCombat = getUnitCombatType();
 		kTrigger.m_bHero = isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_HERO"));
 		kTrigger.m_bWerewolf = isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_WEREWOLF"));
+		kTrigger.m_bUndead = isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_UNDEAD"));
 		kTrigger.m_iRace = (PromotionTypes)getRace();
 		//kTrigger.eReligion = GET_PLAYER(getOwner()).getStateReligion();
 		//kTrigger.eAlignment = GET_PLAYER(getOwner()).getAlignment();
@@ -33651,6 +33654,7 @@ void CvUnit::doCombatCapture(CvUnit* pLoser)
 			kTriggerData.m_iEthicalAlignmentStatus = GET_PLAYER(getOwner()).getEthicalAlignment();
 
 			kTriggerData.m_bWerewolf = isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_WEREWOLF"));
+			kTriggerData.m_bUndead = isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_UNDEAD"));
 			kTriggerData.m_bHiddenNationality = isHiddenNationality();
 			kTriggerData.m_bHero = isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_HERO"));
 			kTriggerData.m_bInBorders = getOwner() == plot()->getOwner();
@@ -33665,6 +33669,7 @@ void CvUnit::doCombatCapture(CvUnit* pLoser)
 			//	kTriggerData.eKilledLevel = pUnit->getLevel();
 			kTriggerData.m_iKilledRace = (PromotionTypes)pUnit->getRace();
 			kTriggerData.m_bKilledWerewolf = pUnit->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_WEREWOLF"));
+			kTriggerData.m_bKilledUndead = pUnit->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_UNDEAD"));
 			kTriggerData.m_bKilledHero = pUnit->isHasPromotion((PromotionTypes)GC.getInfoTypeForString("PROMOTION_HERO"));
 			kTriggerData.m_bKilledHiddenNationality = pUnit->isHiddenNationality();
 			kTriggerData.m_bKilledInBorders = pLoser->getOwner() == pLoser->plot()->getOwner();

@@ -8,11 +8,11 @@
 <Civ4TraitTriggerInfos xmlns="x-schema:ViciousSeas_CIV4CivilizationsSchema.xml">
 	<TraitTriggerInfos>
 		<TraitTriggerInfo> <!-- Kill                Leviathan        kills The Leviathan        Conquerors of the Sea -->
-			<Type>TRAITTRIGGER_KILL_VS_LEVIATHAN</Type>
+			<Type>TRAITTRIGGER_KILL_VS_LEVIATHAN_VICIOUS</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_CONQUERORSOFTHESEA</TraitType>
-					<iModifier>500</iModifier>
+					<iModifier>1500</iModifier>
 				</CounterChange>
 			</CounterChanges>
 			<TraitClassType>TRAITCLASS_VICTORIOUS</TraitClassType>

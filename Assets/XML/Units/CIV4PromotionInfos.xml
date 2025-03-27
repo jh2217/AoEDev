@@ -6294,36 +6294,6 @@
 			<Button>Art/Interface/Buttons/Promotions/Blank_promo.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Awakened -->
-			<Type>PROMOTION_AWAKENED</Type>
-			<Description>TXT_KEY_PROMOTION_AWAKANED</Description>
-			<Help></Help>
-			<bAllowAttacks>1</bAllowAttacks>
-			<bAutoAcquire>1</bAutoAcquire>
-			<bEffectProm>1</bEffectProm>
-			<bNoXP>1</bNoXP>
-			<bRivalTerritoryExplore>1</bRivalTerritoryExplore>
-			<PrereqCivilizations>
-				<PrereqCivilization>CIVILIZATION_ANIMAL</PrereqCivilization>
-			</PrereqCivilizations>
-			<TempUnitCombat>UNITCOMBAT_BEAST</TempUnitCombat>
-			<bBlitz>1</bBlitz>
-			<bAlwaysHeal>1</bAlwaysHeal>
-			<iMovesChange>1</iMovesChange>
-			<iCombatPercent>60</iCombatPercent>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<Button>Art/Interface/Buttons/Promotions/AnimalAge/Stage5.dds</Button>
-			<iPrereqStrBoostSize>5</iPrereqStrBoostSize>
-		</PromotionInfo>
 		<PromotionInfo>		<!-- Berserk -->
 			<Type>PROMOTION_BERSERK</Type>
 			<Description>TXT_KEY_PROMOTION_BERSERKER</Description>
@@ -10983,7 +10953,11 @@
 			<iResistMagic>20</iResistMagic>
 			<PromotionExcludes>
 				<Promotion>PROMOTION_DEADLY_MISHAP</Promotion>
+				<Promotion>PROMOTION_HEROIC</Promotion>
 			</PromotionExcludes>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_HEROIC</Promotion>
+			</PromotionOverwrites>
 			<iGroupSize>1</iGroupSize>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Heroic -->
@@ -10995,6 +10969,9 @@
 				<Promotion>PROMOTION_HEROIC_DEFENSE2</Promotion>
 				<Promotion>PROMOTION_HEROIC_STRENGTH2</Promotion>
 			</PromotionExcludes>
+			<PromotionReplacedBy>
+				<Promotion>PROMOTION_HERO</Promotion>
+			</PromotionReplacedBy>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Doviello/Heroic.dds</Button>
 			<iFreeXPPerTurn>0.5</iFreeXPPerTurn>
 			<iMinLevel>-1</iMinLevel>
@@ -15497,7 +15474,7 @@
 			<bNoXP>1</bNoXP>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Slaver -->
-			<Type>PROMOTION_SLAVER_CIVIC</Type>
+			<Type>PROMOTION_SLAVER_CIVIC_CUALLI</Type>
 			<Description>TXT_KEY_PROMOTION_SLAVER</Description>
 			<PrereqCivics>
 				<PrereqCivic>CIVIC_BLOOD_AND_SACRIFICE</PrereqCivic>
@@ -39681,6 +39658,35 @@
 			<Button>Art/Interface/Buttons/Promotions/AnimalAge/Stage4.dds</Button>
 			<iPrereqStrBoostSize>4</iPrereqStrBoostSize>
 			<PromotionNextLevel>PROMOTION_AWAKENED</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Awakened -->
+			<Type>PROMOTION_AWAKENED</Type>
+			<Description>TXT_KEY_PROMOTION_AWAKANED</Description>
+			<Help></Help>
+			<bAllowAttacks>1</bAllowAttacks>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<bRivalTerritoryExplore>1</bRivalTerritoryExplore>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ANIMAL</PrereqCivilization>
+			</PrereqCivilizations>
+			<TempUnitCombat>UNITCOMBAT_BEAST</TempUnitCombat>
+			<bBlitz>1</bBlitz>
+			<bAlwaysHeal>1</bAlwaysHeal>
+			<iMovesChange>1</iMovesChange>
+			<iCombatPercent>60</iCombatPercent>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Interface/Buttons/Promotions/AnimalAge/Stage5.dds</Button>
+			<iPrereqStrBoostSize>5</iPrereqStrBoostSize>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Desert Rose Blade-->
 			<Type>PROMOTION_DESERT_ROSE_BLADE</Type>

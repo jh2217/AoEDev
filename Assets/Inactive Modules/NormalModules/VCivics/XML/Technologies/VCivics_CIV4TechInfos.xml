@@ -2,22 +2,6 @@
 <!-- Tech Infos -->
 <Civ4TechInfos xmlns="x-schema:VCivics_CIV4TechnologiesSchema.xml">
 	<TechInfos>
-		<TechInfo>		<!-- Imperial Bureaucracy -->
-			<Type>TECH_IMPERIAL_BUREAUCRACY</Type>
-			<Description>TXT_KEY_TECH_IMPERIAL_BUREAUCRACY</Description>
-			<Strategy>TXT_KEY_TECH_IMPERIAL_BUREAUCRACY_STRATEGY</Strategy>
-			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>-1</iCost>
-			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<Era>ERA_ANCIENT</Era>
-			<bDisable>1</bDisable>
-			<iGridX>7</iGridX>
-			<iGridY>15</iGridY>
-			<Quote>TXT_KEY_TECH_IMPERIAL_BUREAUCRACY_QUOTE</Quote>
-			<Sound>AS2D_TECH_DING</Sound>
-			<SoundMP>AS2D_TECH_DING</SoundMP>
-			<Button>Modules/NormalModules/VCivics/Art/Interface/Buttons/Civics/VCivics_imperium.dds</Button>
-		</TechInfo>
 		<TechInfo>		<!-- Machinery -->
 			<Type>TECH_MACHINERY</Type>
 			<iGridX>7</iGridX>

@@ -302,23 +302,8 @@
 <!--Nature Minor Blood promotions alternative-->
 		<GoodyInfo> <!--Random Blood-->
 			<Type>GOODY_EXPLORE_LAIR_ANIMAL_BLOOD</Type>
-			<bForceOverwrite>1</bForceOverwrite>
-			<GoodyClasses>
-				<GoodyClass>
-					<GoodyClassType>GOODYCLASS_NATURE_MINOR</GoodyClassType>
-					<bGoodyClass>1</bGoodyClass>
-				</GoodyClass>
-			</GoodyClasses>
-			<iWeight>800</iWeight>
-			<Description>TXT_KEY_GOODY_EXPLORE_LAIR_ANIMAL_BLOOD</Description>
-			<Sound>AS2D_GOODY_GOLD</Sound>
-			<iDestroyLairChance>80</iDestroyLairChance>
 			<PythonCallback>ExploreLairAnimalBlood</PythonCallback>
 			<PythonPrereq>ReqLairAnimalBlood</PythonPrereq>
-			<bBad>0</bBad>
-			<iHealing>-10</iHealing>
-			<DamageType>DAMAGE_PHYSICAL</DamageType>
-			<iDamageLimit>50</iDamageLimit>
 		</GoodyInfo>
 
 	</GoodyInfos>

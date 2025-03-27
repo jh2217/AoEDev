@@ -13,7 +13,7 @@
 			<Strategy>TXT_KEY_BUILDING_IMPERIAL_MAGISTRATES_CITADEL_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_IMPERIAL_MAGISTRATES_CITADEL</ArtDefineTag>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<PrereqTech>TECH_IMPERIAL_BUREAUCRACY</PrereqTech>
+			<PrereqCivic>CIVIC_IMPERIUM</PrereqCivic>
 			<bCenterInCity>1</bCenterInCity>
 			<iAIWeight>50</iAIWeight>
 			<iCost>180</iCost>
@@ -48,7 +48,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_IMPERIAL_ARSENAL_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_IMPERIAL_ARSENAL</ArtDefineTag>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<PrereqTech>TECH_IMPERIAL_BUREAUCRACY</PrereqTech>
+			<PrereqCivic>CIVIC_IMPERIUM</PrereqCivic>
 			<bCenterInCity>1</bCenterInCity>
 			<iAIWeight>50</iAIWeight>
 			<iCost>200</iCost>
@@ -104,7 +104,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_IMPERIAL_REGIONAL_ADMINISTRATION_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_BUILDING_IMPERIAL_REGIONAL_ADMINISTRATION</ArtDefineTag>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<PrereqTech>TECH_IMPERIAL_BUREAUCRACY</PrereqTech>
+			<PrereqCivic>CIVIC_IMPERIUM</PrereqCivic>
 			<bCenterInCity>1</bCenterInCity>
 			<iAIWeight>50</iAIWeight>
 			<iCost>500</iCost>
@@ -145,7 +145,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_IMPERIAL_TRADE_HUB_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_BUILDING_IMPERIAL_TRADE_HUB</ArtDefineTag>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<PrereqTech>TECH_IMPERIAL_BUREAUCRACY</PrereqTech>
+			<PrereqCivic>CIVIC_IMPERIUM</PrereqCivic>
 			<bCenterInCity>1</bCenterInCity>
 			<iAIWeight>50</iAIWeight>
 			<iCost>700</iCost>
@@ -217,7 +217,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_IMPERIAL_GRAND_PALACE_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_BUILDING_IMPERIAL_GRAND_PALACE</ArtDefineTag>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<PrereqTech>TECH_IMPERIAL_BUREAUCRACY</PrereqTech>
+			<PrereqCivic>CIVIC_IMPERIUM</PrereqCivic>
 			<Parent>BUILDINGCLASS_PALACE</Parent>
 			<bCenterInCity>1</bCenterInCity>
 			<iAIWeight>80</iAIWeight>

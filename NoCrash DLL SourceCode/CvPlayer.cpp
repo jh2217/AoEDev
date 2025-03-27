@@ -29882,7 +29882,7 @@ void CvPlayer::setHasFlag(FlagTypes eFlag, bool eChange)
 
 void CvPlayer::changeFlagValue(FlagTypes eFlag, int eChange)
 {
-	m_pabPlayerFlags[eFlag] = m_pabPlayerFlags[eFlag] = + eChange ;
+	m_pabPlayerFlags[eFlag] = m_pabPlayerFlags[eFlag]  + eChange ;
 }
 void CvPlayer::setFlagValue(FlagTypes eFlag, int eChange)
 {
@@ -30440,6 +30440,10 @@ void CvPlayer::doTraitTriggers(TraitHookTypes eTraitHook, const TraitTriggeredDa
 		{
 			continue;
 		}
+		if (GC.getTraitTriggerInfo((TraitTriggerTypes)iI).isPrereqUndead() && !kData->m_bUndead)
+		{
+			continue;
+		}
 		if (GC.getTraitTriggerInfo((TraitTriggerTypes)iI).isPrereqHero() && !kData->m_bHero)
 		{
 			continue;
@@ -30457,6 +30461,10 @@ void CvPlayer::doTraitTriggers(TraitHookTypes eTraitHook, const TraitTriggeredDa
 			continue;
 		}
 		if (GC.getTraitTriggerInfo((TraitTriggerTypes)iI).isPrereqKilledWerewolf() && !kData->m_bKilledWerewolf)
+		{
+			continue;
+		}
+		if (GC.getTraitTriggerInfo((TraitTriggerTypes)iI).isPrereqKilledUndead() && !kData->m_bKilledUndead)
 		{
 			continue;
 		}

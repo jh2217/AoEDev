@@ -596,15 +596,6 @@
 			<iCost>4500</iCost>
 			<iGridX>9</iGridX>
 		</TechInfo>
-		<TechInfo>		<!-- Imperial Bureaucracy -->
-			<Type>TECH_IMPERIAL_BUREAUCRACY</Type>
-			<bTypeDependency>1</bTypeDependency>
-			<AndDependencyTypes>
-				<DependencyType>MODULE_VCIVICS</DependencyType>
-			</AndDependencyTypes>
-			<iGridX>13</iGridX>
-			<iGridY>13</iGridY>
-		</TechInfo>
 		<TechInfo>		<!-- Industry -->
 			<Type>TECH_INDUSTRY</Type>
 			<bTypeDependency>1</bTypeDependency>
