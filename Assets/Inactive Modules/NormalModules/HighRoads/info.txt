@@ -1,0 +1,43 @@
+;Name - no need to explain
+;note: one line
+[name]
+High Roads, formerly GIR03 Imperial Roads
+;
+;
+;Version - version of module
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[version]
+1.1
+;
+;
+;RifE version - version of RifE for which is this module tested, checked, developed, etc
+;Note: it have to be number, so only numberic characters and none or one period
+;note: one line
+[rifeversion]
+377
+;
+;
+;Author - you
+;note: one line
+[author]
+GIR, blimp
+;
+;
+;Short description - text showed in contect menu
+;note: one line
+[shortdesc]
+Adds High Roads to the game.
+;
+;
+;Description - text showed in message box
+;note: can be multiline
+[desc]
+;
+;
+;Compatibility - modules, between which is disabled conflict checking
+;note: BOTH modules has to have the each other in the list !!
+;note: version can't be specified
+;note: can be multiline
+[compatible]
+;Syntax <folder_of_module>

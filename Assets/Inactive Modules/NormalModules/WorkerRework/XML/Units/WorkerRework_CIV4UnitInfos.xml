@@ -113,6 +113,20 @@
 			<bFreeXP>1</bFreeXP>
 			<iTier>1</iTier>
 		</UnitInfo>
+		<UnitInfo>        <!-- Worker  High Road Dependency-->          
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_WORKER</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<AndDependencyTypes>
+				<DependencyType>MODULE_IMPERIAL_ROADS</DependencyType>
+			</AndDependencyTypes>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
 		
 		
 		<UnitInfo>        <!-- Operator -->
@@ -226,6 +240,20 @@
 			</FreePromotions>
 			<bFreeXP>1</bFreeXP>
 			<iTier>1</iTier>
+		</UnitInfo>
+		<UnitInfo>        <!-- Operator  High Road Dependency-->          
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_OPERATOR</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<AndDependencyTypes>
+				<DependencyType>MODULE_IMPERIAL_ROADS</DependencyType>
+			</AndDependencyTypes>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
 		</UnitInfo>
 		
 		
@@ -346,7 +374,21 @@
 			<bFreeXP>1</bFreeXP>
 			<iTier>1</iTier>
 		</UnitInfo>
-		
+		<UnitInfo>        <!-- Worker Malakim  High Road Dependency-->          
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_WORKER_MALAKIM</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<AndDependencyTypes>
+				<DependencyType>MODULE_IMPERIAL_ROADS</DependencyType>
+			</AndDependencyTypes>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+	
 		
 		<UnitInfo>        <!-- Lizard Worker  Mazatl/Cualli-->   <!--MAZATL-->
 			<Class>UNITCLASS_WORKER</Class>
@@ -575,7 +617,21 @@
 			</DenyPromotions>
 			<iCombatDefense>1</iCombatDefense>
 		</UnitInfo>
-		
+		<UnitInfo>        <!-- Familiar  High Road Dependency-->          
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_FAMILIAR</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<AndDependencyTypes>
+				<DependencyType>MODULE_IMPERIAL_ROADS</DependencyType>
+			</AndDependencyTypes>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+	
 		<UnitInfo>        <!-- Gretchin -->
 			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_GRETCHIN</Type>
@@ -977,7 +1033,22 @@
 			<iCombatDefense>4</iCombatDefense>
 			<iTier>1</iTier>
 		</UnitInfo>
-		
+		<UnitInfo>        <!-- Jotnar Citizen  High Road Dependency-->          
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_JOT_ADULT</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<AndDependencyTypes>
+				<DependencyType>MODULE_IMPERIAL_ROADS</DependencyType>
+				<DependencyType>MODULE_JOTNAR</DependencyType>
+			</AndDependencyTypes>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+	
 		
 		
 		
@@ -1235,7 +1306,21 @@
 			<bFreeXP>1</bFreeXP>
 			<iTier>1</iTier>
 		</UnitInfo>
-		
+		<UnitInfo>        <!-- Khazad worker  High Road Dependency-->          
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_KHAZAD_WORKER</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<AndDependencyTypes>
+				<DependencyType>MODULE_IMPERIAL_ROADS</DependencyType>
+			</AndDependencyTypes>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+	
 		
 
 		
@@ -1353,7 +1438,21 @@
 			<iCombatDefense>2</iCombatDefense>
 			<iTier>1</iTier>
 		</UnitInfo>
-		
+		<UnitInfo>        <!-- Mud Golem  High Road Dependency-->          
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_MUD_GOLEM</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<AndDependencyTypes>
+				<DependencyType>MODULE_IMPERIAL_ROADS</DependencyType>
+			</AndDependencyTypes>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+	
 		
 		
 		<UnitInfo>		<!-- Refugee -->
@@ -1559,7 +1658,21 @@
 			<bFreeXP>1</bFreeXP>
 			<iTier>1</iTier>
 		</UnitInfo>
-		
+		<UnitInfo>        <!-- Geomancer -->
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_GEOMANCER</Type>
+			<bTypeDependency>1</bTypeDependency>
+			<AndDependencyTypes>
+				<DependencyType>MODULE_IMPERIAL_ROADS</DependencyType>
+			</AndDependencyTypes>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+	
 		
 		
 		

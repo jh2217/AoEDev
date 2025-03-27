@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- GameText GIR03ImperialRoads_CIV4GameText.xml -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_S1</Tag>
+		<English>%s1</English>
+		<French>%s1</French>
+		<German>%s1</German>
+		<Italian>%s1</Italian>
+		<Spanish>%s1</Spanish>
+		<Russian>%s1</Russian>
+		<Japanese>%s1</Japanese>
+		<Chinese>%s1</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_ROUTE_ROMAN_ROAD</Tag>
+		<English>High Road</English>
+		<French>High Road</French>
+		<German>Reichsstra&#223;e</German>
+		<Italian>High Road</Italian>
+		<Spanish>High Road</Spanish>
+		<Russian>High Road</Russian>
+		<Japanese>High Road</Japanese>
+		<Chinese>High Road</Chinese>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_IMPERIAL_ROAD</Tag>
+		<English>Build High Roads</English>
+		<French>Build High Roads</French>
+		<German>Errichte [COLOR_HIGHLIGHT_TEXT]Reichsstra&#223;en[COLOR_REVERT]</German>
+		<Italian>Build High Roads</Italian>
+		<Spanish>Build High Roads</Spanish>
+		<Russian>Build [COLOR_HIGHLIGHT_TEXT]High Roads[COLOR_REVERT]</Russian>
+		<Japanese>Build [COLOR_HIGHLIGHT_TEXT]High Roads[COLOR_REVERT]</Japanese>
+		<Chinese>Build [COLOR_HIGHLIGHT_TEXT]High Roads[COLOR_REVERT]</Chinese>
+	</TEXT>
+</Civ4GameText>

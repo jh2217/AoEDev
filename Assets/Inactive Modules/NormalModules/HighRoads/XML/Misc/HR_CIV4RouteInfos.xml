@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- Route Infos -->
+<Civ4RouteInfos xmlns="x-schema:HR_CIV4MiscSchema.xml">
+	<RouteInfos>
+		<RouteInfo>
+			<Type>ROUTE_ROMANROAD</Type>
+			<Description>TXT_KEY_ROUTE_ROMAN_ROAD</Description>
+			<iValue>4</iValue>
+			<iAdvancedStartCost>-1</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<iMovement>10</iMovement>
+			<iFlatMovement>10</iFlatMovement>
+			<BonusType/>
+			<PrereqOrBonuses>
+				<PrereqOrBonus>
+					<BonusType>BONUS_STONE</BonusType>
+				</PrereqOrBonus>
+			</PrereqOrBonuses>
+			<Yields>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>1</iYield>
+			</Yields>
+			<TechMovementChanges/>
+			<Button>Art/Modules/ImperialRoads/Buttons/BuildRomanroad.dds</Button>
+		</RouteInfo>
+	</RouteInfos>
+</Civ4RouteInfos>

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!-- Created with the FfH editor by Kael -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Unit Infos -->
+<Civ4UnitInfos xmlns="x-schema:HR_CIV4UnitSchema.xml">
+	<UnitInfos>
+		<UnitInfo>        <!-- Mud Golem -->
+			<Type>UNIT_MUD_GOLEM</Type>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+		<UnitInfo>        <!-- Worker -->
+			<Type>UNIT_WORKER_MALAKIM</Type>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+		<UnitInfo>        <!-- Operator -->
+			<Type>UNIT_OPERATOR</Type>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+		<UnitInfo>        <!-- Familiar -->
+			<Type>UNIT_FAMILIAR</Type>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+		<UnitInfo>        <!-- Sluga -->
+			<Type>UNIT_SLUGA</Type>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+		<UnitInfo>        <!-- Soldier of Kilmorph -->
+			<Type>UNIT_DWARVEN_SOLDIER_RUNES</Type>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+		<UnitInfo>        <!-- Worker -->
+			<Type>UNIT_WORKER</Type>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+		<UnitInfo>        <!-- Slave -->
+			<Type>UNIT_SLAVE</Type>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+		<UnitInfo>        <!-- Undead Slave -->
+			<Type>UNIT_SLAVE_UNDEAD</Type>
+			<Builds>
+				<Build>
+					<BuildType>BUILD_IMPERIAL_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+		</UnitInfo>
+	
+		</UnitInfos>
+</Civ4UnitInfos>

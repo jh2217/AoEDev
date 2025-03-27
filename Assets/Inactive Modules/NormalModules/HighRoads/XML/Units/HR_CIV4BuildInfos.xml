@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Build Infos -->
+<Civ4BuildInfos xmlns="x-schema:HR_CIV4UnitSchema.xml">
+	<BuildInfos>
+		<BuildInfo> 
+			<Type>BUILD_IMPERIAL_ROAD</Type>
+			<Description>TXT_KEY_BUILD_IMPERIAL_ROAD</Description>
+			<Help/>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<iTime>1500</iTime>
+			<iCost>0</iCost>
+			<bKill>0</bKill>
+			<ImprovementType>NONE</ImprovementType>
+			<RouteType>ROUTE_ROMANROAD</RouteType>
+			<EntityEvent>ENTITY_EVENT_SHOVEL</EntityEvent>
+			<HotKey>KB_R</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>2</iHotKeyPriority>
+			<Button>Art/Modules/ImperialRoads/BuildRomanroad.dds</Button>
+		</BuildInfo>
+	</BuildInfos>
+</Civ4BuildInfos>
