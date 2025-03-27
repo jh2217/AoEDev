@@ -8690,7 +8690,7 @@
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
@@ -8721,8 +8721,8 @@
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>1</iYieldChange>
+						<iYieldChange>1</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
@@ -8755,8 +8755,8 @@
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>1</iYieldChange>
+						<iYieldChange>1</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
@@ -8787,7 +8787,7 @@
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>
@@ -8827,7 +8827,7 @@
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
@@ -8861,7 +8861,7 @@
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
@@ -8892,8 +8892,8 @@
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>1</iYieldChange>
+						<iYieldChange>1</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
@@ -8926,7 +8926,7 @@
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
@@ -8959,8 +8959,8 @@
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>1</iYieldChange>
+						<iYieldChange>1</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
@@ -8992,8 +8992,8 @@
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>1</iYieldChange>
+						<iYieldChange>1</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
@@ -9026,7 +9026,7 @@
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
@@ -9058,7 +9058,7 @@
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
@@ -9090,8 +9090,8 @@
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>1</iYieldChange>
+						<iYieldChange>1</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
@@ -9123,7 +9123,7 @@
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>
@@ -9158,7 +9158,7 @@
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
@@ -9189,9 +9189,9 @@
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
+						<iYieldChange>1</iYieldChange>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>1</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
@@ -9222,9 +9222,9 @@
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
+						<iYieldChange>1</iYieldChange>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>1</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
@@ -9306,7 +9306,7 @@
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
@@ -9338,9 +9338,9 @@
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
+						<iYieldChange>1</iYieldChange>
 						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>1</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
@@ -9371,8 +9371,8 @@
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>1</iYieldChange>
+						<iYieldChange>1</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
@@ -9404,7 +9404,7 @@
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
 					<YieldChanges>
-						<iYieldChange>0</iYieldChange>
+						<iYieldChange>2</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 						<iYieldChange>0</iYieldChange>
 					</YieldChanges>

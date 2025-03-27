@@ -10898,6 +10898,14 @@ Exposure to others minds often causes befuddlement or confusion in the practitio
 		<Spanish>Your unit finds a vault hidden deep within the lair. Inside it, a simple pot, emitting an impossibly repulsive smell. Your unit takes it anyway.</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_PROMOTIONCLASS_POTION</Tag>
+		<English>Potion</English>
+		<French>Potion</French>
+		<German>Potion</German>
+		<Italian>Potion</Italian>
+		<Spanish>Potion</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_</Tag>
 		<English></English>
 		<French></French>

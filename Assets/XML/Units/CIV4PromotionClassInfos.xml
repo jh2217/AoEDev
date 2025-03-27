@@ -20,5 +20,9 @@
 			<Type>PROMOTIONCLASS_GOLEM_PLATING</Type>
 			<Description>TXT_KEY_PROMOTIONCLASS_GOLEM_PLATING</Description>
 		</PromotionClassInfo>
+		<PromotionClassInfo>
+			<Type>PROMOTIONCLASS_POTION</Type>
+			<Description>TXT_KEY_PROMOTIONCLASS_POTION</Description>
+		</PromotionClassInfo>
 	</PromotionClassInfos>
 </Civ4PromotionClassInfos>

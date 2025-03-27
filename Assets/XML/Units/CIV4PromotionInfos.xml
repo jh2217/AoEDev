@@ -2000,6 +2000,7 @@
 		<PromotionInfo>		<!-- Healing Potion -->
 			<Type>PROMOTION_HEALING_POTION</Type>
 			<Description>TXT_KEY_EQUIPMENT_HEALING_POTION</Description>
+				<PromotionClass>PROMOTIONCLASS_POTION</PromotionClass>
 			<Button>Art/Interface/Buttons/Promotions/HealingPotion.dds</Button>
 			<bEquipment>1</bEquipment>
 			<PrereqBuildingANDs>
@@ -2069,6 +2070,7 @@
 		<PromotionInfo>		<!-- Healing Salve -->
 			<Type>PROMOTION_HEALING_SALVE</Type>
 			<Description>TXT_KEY_EQUIPMENT_HEALING_SALVE</Description>
+				<PromotionClass>PROMOTIONCLASS_POTION</PromotionClass>
 			<Button>Art/Interface/Buttons/Equipment/HealingSalve.dds</Button>
 			<bEquipment>1</bEquipment>
 			<PrereqBuildingANDs>
@@ -2245,6 +2247,7 @@
 		<PromotionInfo>		<!-- Newt's Draught -->
 			<Type>PROMOTION_NEWTS_DRAUGHT</Type>
 			<Description>TXT_KEY_EQUIPMENT_NEWTS_DRAUGHT</Description>
+				<PromotionClass>PROMOTIONCLASS_POTION</PromotionClass>
 			<Button>Art/Interface/Buttons/Promotions/Newtsdraught.dds</Button>
 			<bEquipment>1</bEquipment>
 			<PrereqBuildingANDs>
@@ -2391,6 +2394,7 @@
 		<PromotionInfo>		<!-- Potion of Invisibility -->
 			<Type>PROMOTION_POTION_OF_INVISIBILITY</Type>
 			<Description>TXT_KEY_EQUIPMENT_POTION_OF_INVISIBILITY</Description>
+				<PromotionClass>PROMOTIONCLASS_POTION</PromotionClass>
 			<Button>Art/Interface/Buttons/Equipment/PotionOfInvisibility.dds</Button>
 			<bEquipment>1</bEquipment>
 			<PrereqBuildingANDs>
@@ -2461,6 +2465,7 @@
 		<PromotionInfo>		<!-- Potion of Restoration -->
 			<Type>PROMOTION_POTION_OF_RESTORATION</Type>
 			<Description>TXT_KEY_EQUIPMENT_POTION_OF_RESTORATION</Description>
+				<PromotionClass>PROMOTIONCLASS_POTION</PromotionClass>
 			<Button>Art/Interface/Buttons/Equipment/PotionOfRestoration.dds</Button>
 			<bEquipment>1</bEquipment>
 			<PrereqBuildingANDs>
@@ -36329,6 +36334,9 @@
 			<PrereqCivilizations>
 				<PrereqCivilization>CIVILIZATION_BANNOR</PrereqCivilization>
 			</PrereqCivilizations>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<iMinLevel>3</iMinLevel>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -36418,7 +36426,9 @@
 			</UnitCombats>
 			<Button>Art\Interface\Buttons\Seargent.dds</Button>
 			<iAIWeight>300</iAIWeight>
-			<iMinLevel>3</iMinLevel>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<iMinLevel>5</iMinLevel>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- MasterSeargent -->
 			<Type>PROMOTION_MASTER_SEARGENT</Type>
@@ -36472,7 +36482,9 @@
 			</UnitCombats>
 			<Button>Art\Interface\Buttons\MasterSeargent.dds</Button>
 			<iAIWeight>300</iAIWeight>
-			<iMinLevel>5</iMinLevel>
+			<iMinLevel>8</iMinLevel>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Captain -->
 			<Type>PROMOTION_CAPTAIN</Type>
@@ -36530,7 +36542,9 @@
 			</UnitCombats>
 			<Button>Art\Interface\Buttons\Captain.dds</Button>
 			<iAIWeight>3000</iAIWeight>
-			<iMinLevel>10</iMinLevel>
+			<iMinLevel>12</iMinLevel>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
 			<iGroupSize>1</iGroupSize>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- General -->
@@ -36557,7 +36571,9 @@
 			</UnitCombats>
 			<Button>Art\Interface\Buttons\General.dds</Button>
 			<iAIWeight>3000</iAIWeight>
-			<iMinLevel>20</iMinLevel>
+			<iMinLevel>18</iMinLevel>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Regimental Discipline -->
 			<Type>PROMOTION_REGIMENTAL_DISCIPLINE</Type>
@@ -36566,7 +36582,7 @@
 			<CommanderPromotions>
 				<PromotionType>PROMOTION_REGIMENTAL_DISCIPLINE</PromotionType>
 			</CommanderPromotions>
-			<iCommandXPShareRate>10</iCommandXPShareRate>
+			<iCommandXPShareRate>5</iCommandXPShareRate>
 			<Button>Art\Interface\Buttons\RegimentalDiscipline.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 		</PromotionInfo>
@@ -36576,7 +36592,7 @@
 			<MinionPromotions>
 				<PromotionType>PROMOTION_MOTIVATED</PromotionType>
 			</MinionPromotions>
-			<iExperiencePercent>20</iExperiencePercent>
+			<iExperiencePercent>10</iExperiencePercent>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -36672,7 +36688,7 @@
 			<MinionPromotions>
 				<PromotionType>PROMOTION_HARDENED_TROOPS</PromotionType>
 			</MinionPromotions>
-			<iCombatPercent>25</iCombatPercent>
+			<iCombatPercent>20</iCombatPercent>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
