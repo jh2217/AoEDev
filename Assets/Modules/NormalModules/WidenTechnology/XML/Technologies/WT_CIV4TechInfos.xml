@@ -450,7 +450,7 @@
 			<Type>TECH_SORCERY</Type>
 			<iCost>5000</iCost>
 			<iGridX>9</iGridX>
-			<iGridY>34</iGridY>
+			<iGridY>31</iGridY>
 		</TechInfo>
 		<TechInfo>		<!-- Alchemy -->
 			<Type>TECH_ALCHEMY</Type>
@@ -463,7 +463,7 @@
 			<Type>TECH_ARCANE_LORE</Type>
 			<iCost>7500</iCost> <!-- Increased tier to 6 -->
 			<iGridX>10</iGridX>
-			<iGridY>34</iGridY>
+			<iGridY>32</iGridY>
 		</TechInfo>
 		<TechInfo>		<!-- Blasting Powder -->
 			<Type>TECH_BLASTING_POWDER</Type>
@@ -529,51 +529,51 @@
 		<TechInfo>		<!-- Armored Cavalry -->
 			<Type>TECH_ARMORED_CAVALRY</Type>
 			<iCost>22500</iCost>
-			<iGridX>12</iGridX>
+			<iGridX>11</iGridX>
 			<iGridY>11</iGridY>
 		</TechInfo>
 		<TechInfo>		<!-- Precision -->
 			<Type>TECH_PRECISION</Type>
 			<iCost>22500</iCost>
-			<iGridX>12</iGridX>
+			<iGridX>11</iGridX>
 			<iGridY>5</iGridY>
 		</TechInfo>
 		<TechInfo>		<!-- Strength of Will -->
 			<Type>TECH_STRENGTH_OF_WILL</Type>
 			<iCost>22500</iCost>
-			<iGridX>12</iGridX>
+			<iGridX>11</iGridX>
 			<iGridY>32</iGridY>
 		</TechInfo>
 		<!-- Tier 7.5s (6400-12800 => 22500-90000) -->
 		<TechInfo>		<!-- Divine Essence -->
 			<Type>TECH_DIVINE_ESSENCE</Type>
 			<iCost>30000</iCost>
-			<iGridX>13</iGridX>
+			<iGridX>12</iGridX>
 			<iGridY>22</iGridY>
 		</TechInfo>
 		<TechInfo>		<!-- Mithril Working -->
 			<Type>TECH_MITHRIL_WORKING</Type>
 			<iCost>25000</iCost>
-			<iGridX>13</iGridX>
+			<iGridX>12</iGridX>
 			<iGridY>4</iGridY>
 		</TechInfo>
 		<TechInfo>		<!-- Omniscience -->
 			<Type>TECH_OMNISCIENCE</Type>
 			<iCost>35000</iCost>
-			<iGridX>13</iGridX>
+			<iGridX>12</iGridX>
 			<iGridY>32</iGridY>
 		</TechInfo>
 		<TechInfo>		<!-- Pass Through the Ether -->
 			<Type>TECH_PASS_THROUGH_THE_ETHER</Type>
 			<iCost>30000</iCost>
-			<iGridX>13</iGridX>
+			<iGridX>12</iGridX>
 			<iGridY>34</iGridY>
 		</TechInfo>
 		<!-- Tier 8s (12800 -> 90000) -->
 		<TechInfo>		<!-- Future Tech -->
 			<Type>TECH_FUTURE_TECH</Type>
 			<iCost>90000</iCost> <!-- Increased tier to 8 -->
-			<iGridX>14</iGridX>
+			<iGridX>13</iGridX>
 			<iGridY>32</iGridY>
 		</TechInfo>
 		<!-- Patching other modules: -->
@@ -612,7 +612,7 @@
 				<DependencyType>MODULE_VCIVICS</DependencyType>
 			</AndDependencyTypes>
 			<iCost>20000</iCost>
-			<iGridX>13</iGridX>
+			<iGridX>12</iGridX>
 			<iGridY>15</iGridY>
 		</TechInfo>
 		<TechInfo>		<!-- Machinery -->
