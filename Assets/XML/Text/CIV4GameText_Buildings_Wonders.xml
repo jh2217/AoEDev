@@ -581,6 +581,14 @@
 		<Spanish>Cabalgata de los Nueve Reyes</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_RIDE_OF_THE_NINE_KINGS_HELP</Tag>
+		<English>[ICON_BULLET] [COLOR_RED]Requires[COLOR_REVERT] [LINK=BONUS_HORSE]Horse[\LINK] or [LINK=BONUS_NIGHTMARE]Nightmare[\LINK] or [LINK=BONUS_HYAPON]Hyapon[\LINK] in the city</English>
+		<French>[ICON_BULLET] [COLOR_RED]Requires[COLOR_REVERT] [LINK=BONUS_HORSE]Horse[\LINK] or [LINK=BONUS_NIGHTMARE]Nightmare[\LINK] or [LINK=BONUS_HYAPON]Hyapon[\LINK] in the city</French>
+		<German>[ICON_BULLET] [COLOR_RED]Requires[COLOR_REVERT] [LINK=BONUS_HORSE]Horse[\LINK] or [LINK=BONUS_NIGHTMARE]Nightmare[\LINK] or [LINK=BONUS_HYAPON]Hyapon[\LINK] in the city</German>
+		<Italian>[ICON_BULLET] [COLOR_RED]Requires[COLOR_REVERT] [LINK=BONUS_HORSE]Horse[\LINK] or [LINK=BONUS_NIGHTMARE]Nightmare[\LINK] or [LINK=BONUS_HYAPON]Hyapon[\LINK] in the city</Italian>
+		<Spanish>[ICON_BULLET] [COLOR_RED]Requires[COLOR_REVERT] [LINK=BONUS_HORSE]Horse[\LINK] or [LINK=BONUS_NIGHTMARE]Nightmare[\LINK] or [LINK=BONUS_HYAPON]Hyapon[\LINK] in the city</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SHRINE_OF_SIRONA</Tag>
 		<English>Shrine of Sirona</English>
 		<French>Sanctuaire de Sirona</French>

@@ -75,7 +75,7 @@
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
 			</SpecialistCounts>
-			<ConstructSound>AS2D_BUILD_LABRATORY</ConstructSound>
+			<ConstructSound>AS2D_BUILD_LABORATORY</ConstructSound>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -6260,12 +6260,10 @@
 			<Type>BUILDING_RIDE_OF_THE_NINE_KINGS</Type>
 			<Description>TXT_KEY_BUILDING_RIDE_OF_THE_NINE_KINGS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_RIDE_OF_THE_NINE_KINGS_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_RIDE_OF_THE_NINE_KINGS_HELP</Help>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_RIDE_OF_THE_NINE_KINGS</ArtDefineTag>
 			<PrereqTech>TECH_WARHORSES</PrereqTech>
-			<PrereqBonuses>
-				<BonusType>BONUS_HORSE</BonusType>
-			</PrereqBonuses>
 			<FreePromotion>PROMOTION_MORALE</FreePromotion>
 			<iAIWeight>50</iAIWeight>
 			<iCost>600</iCost>
@@ -8732,7 +8730,7 @@
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
 			</SpecialistCounts>
-			<ConstructSound>AS2D_BUILD_LABRATORY</ConstructSound>
+			<ConstructSound>AS2D_BUILD_LABORATORY</ConstructSound>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -13667,7 +13665,7 @@
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
 			</SpecialistCounts>
-			<ConstructSound>AS2D_BUILD_LABRATORY</ConstructSound>
+			<ConstructSound>AS2D_BUILD_LABORATORY</ConstructSound>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
@@ -14784,7 +14782,7 @@
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
 			</SpecialistCounts>
-			<ConstructSound>AS2D_BUILD_LABRATORY</ConstructSound>
+			<ConstructSound>AS2D_BUILD_LABORATORY</ConstructSound>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_SCIENCE</FlavorType>
