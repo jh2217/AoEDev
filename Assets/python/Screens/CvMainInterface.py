@@ -388,9 +388,33 @@ class CvMainInterface:
 
 		screen.setImageButton("RawManaButton1", "Art/Interface/Screens/RawManaButton.dds", 80, 118, 20, 20, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 		screen.hide( "RawManaButton1" )
+		for szBonus in strategicTypes1:
+			szName = "StrategicText" + szBonus
+			screen.hide( szName )
+		for szBonus in strategicTypes2:
+			szName = "StrategicText" + szBonus
+			screen.hide( szName )
+		for szBonus in manaTypes1:
+			szName = "ManaText" + szBonus
+			screen.hide( szName )
+		for szBonus in manaTypes2:
+			szName = "ManaText" + szBonus
+			screen.hide( szName )
+		for szBonus in luxuryTypes1:
+			szName = "LuxuryText" + szBonus
+			screen.hide( szName )
+		for szBonus in luxuryTypes2:
+			szName = "LuxuryText" + szBonus
+			screen.hide( szName )
+		for szBonus in healthTypes1:
+			szName = "HealthText" + szBonus
+			screen.hide( szName )
+		for szBonus in healthTypes2:
+			szName = "HealthText" + szBonus
+			screen.hide( szName )
 		screen.addPanel( "ManaToggleHelpTextPanel", u"", u"", True, True, 100, 118, 170, 30, PanelStyles.PANEL_STYLE_HUD_HELP )
 		screen.hide( "ManaToggleHelpTextPanel" )
-		szText = "<font=2>" + localText.getText("[COLOR_HIGHLIGHT_TEXT]Toggle Manabar Display[COLOR_REVERT]", ()) + "</font=2>"
+		szText = "<font=2>" + localText.getText("TXT_KEY_MANA_TOGGLE_HELP", ()) + "</font=2>"
 		screen.addMultilineText( "ManaToggleHelpText", szText, 102, 123, 167, 27, WidgetTypes.WIDGET_GENERAL, -1, -1, CvUtil.FONT_LEFT_JUSTIFY)
 		screen.hide( "ManaToggleHelpText" )
 
@@ -1748,6 +1772,30 @@ class CvMainInterface:
 		screen.hide( "EmergentLeaderXPBar" )
 		screen.hide( "EmergentLeaderXPLbl" )
 		screen.hide( "RawManaButton1" )
+		for szBonus in strategicTypes1:
+			szName = "StrategicText" + szBonus
+			screen.hide( szName )
+		for szBonus in strategicTypes2:
+			szName = "StrategicText" + szBonus
+			screen.hide( szName )
+		for szBonus in manaTypes1:
+			szName = "ManaText" + szBonus
+			screen.hide( szName )
+		for szBonus in manaTypes2:
+			szName = "ManaText" + szBonus
+			screen.hide( szName )
+		for szBonus in luxuryTypes1:
+			szName = "LuxuryText" + szBonus
+			screen.hide( szName )
+		for szBonus in luxuryTypes2:
+			szName = "LuxuryText" + szBonus
+			screen.hide( szName )
+		for szBonus in healthTypes1:
+			szName = "HealthText" + szBonus
+			screen.hide( szName )
+		for szBonus in healthTypes2:
+			szName = "HealthText" + szBonus
+			screen.hide( szName )
 		screen.hide( "xUPTButton" )
 		screen.hide( "GuildButton" )
 		screen.hide( "UnitStatsButton1" )
@@ -5086,7 +5134,7 @@ class CvMainInterface:
 				screen.hide( szName )
 
 		if (ishowManaBar == 1):
-			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_HIDE_ALL and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_MINIMAP_ONLY and CyEngine().isGlobeviewUp() == false and ishowManaBar == 1):
+			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_HIDE_ALL and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_MINIMAP_ONLY and CyEngine().isGlobeviewUp() == false and ishowManaBar == 1) and not CyGame().GetWorldBuilderMode():
 				for szBonus in manaTypes1:
 					iBonus = gc.getInfoTypeForString(szBonus)
 					szBuffer = u"<font=2>"
@@ -5122,7 +5170,7 @@ class CvMainInterface:
 				szName = "ManaText" + szBonus
 				screen.hide( szName )
 
-			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_HIDE_ALL and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_MINIMAP_ONLY and CyEngine().isGlobeviewUp() == false and ishowManaBar == 2):
+			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_HIDE_ALL and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_MINIMAP_ONLY and CyEngine().isGlobeviewUp() == false and ishowManaBar == 2) and not CyGame().GetWorldBuilderMode():
 				for szBonus in luxuryTypes1:
 					iBonus = gc.getInfoTypeForString(szBonus)
 					szBuffer = u"<font=2>"
@@ -5158,7 +5206,7 @@ class CvMainInterface:
 				szName = "LuxuryText" + szBonus
 				screen.hide( szName )
 
-			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_HIDE_ALL and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_MINIMAP_ONLY and CyEngine().isGlobeviewUp() == false and ishowManaBar == 3):
+			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_HIDE_ALL and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_MINIMAP_ONLY and CyEngine().isGlobeviewUp() == false and ishowManaBar == 3) and not CyGame().GetWorldBuilderMode():
 				for szBonus in healthTypes1:
 					iBonus = gc.getInfoTypeForString(szBonus)
 					szBuffer = u"<font=2>"
@@ -5194,7 +5242,7 @@ class CvMainInterface:
 				szName = "HealthText" + szBonus
 				screen.hide( szName )
 
-			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_HIDE_ALL and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_MINIMAP_ONLY and CyEngine().isGlobeviewUp() == false and ishowManaBar == 4):
+			if (CyInterface().isScoresVisible() and not CyInterface().isCityScreenUp() and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_HIDE_ALL and CyInterface().getShowInterface() != InterfaceVisibility.INTERFACE_MINIMAP_ONLY and CyEngine().isGlobeviewUp() == false and ishowManaBar == 4) and not CyGame().GetWorldBuilderMode():
 				for szBonus in strategicTypes1:
 					iBonus = gc.getInfoTypeForString(szBonus)
 					szBuffer = u"<font=2>"

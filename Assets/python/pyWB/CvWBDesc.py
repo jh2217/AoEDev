@@ -257,6 +257,25 @@ class CvTeamDesc:
 		self.iMasterPower = 0
 		self.iVassalPower = 0
 		self.iEspionageEver = 0
+	## Platy Builder ##
+		self.bMapCentering = 0
+		self.bMapTrading = 0
+		self.bTechTrading = 0
+		self.bGoldTrading = 0
+		self.bOpenBordersTrading = 0
+		self.bDefensivePactTrading = 0
+		self.bPermanentAllianceTrading = 0
+		self.bVassalStateTrading = 0
+		self.bBridgeBuilding = 0
+		self.bIrrigation = 0
+		self.bIgnoreIrrigation = 0
+		self.bWaterWork = 0
+		self.bExtraWaterSeeFrom = 0
+		self.iNukeInterception = 0
+		self.iEnemyWarWeariness = 0
+		self.lDomainMoves = []
+		self.lRouteMoves = []
+		self.lImprovementYield = []
 
 	def write(self, f, idx):
 		"write out team data"
@@ -282,10 +301,13 @@ class CvTeamDesc:
 		if (gc.getTeam(idx).getEspionagePointsEver() > 0):
 			f.write("\tEspionageEverAmount=%d\n" %(gc.getTeam(idx).getEspionagePointsEver()))
 
-		# write met other teams
-		for i in range(gc.getMAX_CIV_TEAMS()):
-			if (gc.getTeam(idx).isHasMet(i)):
-				f.write("\tContactWithTeam=%d\n" %(i))
+	## Platy Builder ##
+		for i in xrange(gc.getMAX_TEAMS()):
+			if i == idx: continue
+			if gc.getTeam(i).isBarbarian(): continue
+			if gc.getTeam(idx).isHasMet(i):
+				f.write("\tContactWithTeam=%d, (%s)\n" %(i, gc.getTeam(i).getName().encode(fileencoding)))
+	## Platy Builder ##
 
 		# write warring teams
 		for i in range(gc.getMAX_CIV_TEAMS()):
@@ -322,6 +344,47 @@ class CvTeamDesc:
 			f.write("\tVassalPower=%d\n" %(gc.getTeam(idx).getVassalPower()))
 		if gc.getTeam(idx).getMasterPower() != 0:
 			f.write("\tMasterPower=%d\n" %(gc.getTeam(idx).getMasterPower()))
+	## Platy Builder ##
+		if gc.getTeam(idx).isMapCentering():
+			f.write("\tMapCentering=1\n")
+		if gc.getTeam(idx).isMapTrading():
+			f.write("\tMapTrading=1\n")
+		if gc.getTeam(idx).isTechTrading():
+			f.write("\tTechTrading=1\n")
+		if gc.getTeam(idx).isGoldTrading():
+			f.write("\tGoldTrading=1\n")
+		if gc.getTeam(idx).isOpenBordersTrading():
+			f.write("\tOpenBordersTrading=1\n")
+		if gc.getTeam(idx).isDefensivePactTrading():
+			f.write("\tDefensivePactTrading=1\n")
+		if gc.getTeam(idx).isPermanentAllianceTrading():
+			f.write("\tPermanentAllianceTrading=1\n")
+		if gc.getTeam(idx).isVassalStateTrading():
+			f.write("\tVassalStateTrading=1\n")
+		if gc.getTeam(idx).isBridgeBuilding():
+			f.write("\tBridgeBuilding=1\n")
+		if gc.getTeam(idx).isIrrigation():
+			f.write("\tIrrigation=1\n")
+		if gc.getTeam(idx).isIgnoreIrrigation():
+			f.write("\tIgnoreIrrigation=1\n")
+		if gc.getTeam(idx).isWaterWork():
+			f.write("\tWaterWork=1\n")
+		if gc.getTeam(idx).isExtraWaterSeeFrom():
+			f.write("\tExtraWaterSeeFrom=1\n")
+		if gc.getTeam(idx).getNukeInterception() != 0:
+			f.write("\tNukeInterception=%d\n" %(gc.getTeam(idx).getNukeInterception()))
+		if gc.getTeam(idx).getEnemyWarWearinessModifier() != 0:
+			f.write("\tEnemyWarWeariness=%d\n" %(gc.getTeam(idx).getEnemyWarWearinessModifier()))
+		for item in xrange(DomainTypes.NUM_DOMAIN_TYPES):
+			if gc.getTeam(idx).getExtraMoves(item) != 0:
+				f.write("\tDomainType=%s, ExtraMoves=%d\n" %(gc.getDomainInfo(item).getType(), gc.getTeam(idx).getExtraMoves(item)))
+		for item in xrange(gc.getNumRouteInfos()):
+			if gc.getTeam(idx).getRouteChange(item) != 0:
+				f.write("\tRouteType=%s, ExtraMoves=%d\n" %(gc.getRouteInfo(item).getType(), gc.getTeam(idx).getRouteChange(item)))
+		for item in xrange(gc.getNumImprovementInfos()):
+			for k in xrange(YieldTypes.NUM_YIELD_TYPES):
+				if gc.getTeam(idx).getImprovementYieldChange(item, k) != 0:
+					f.write("\tImprovementType=%s, YieldType=%s, ExtraYield=%d\n" %(gc.getImprovementInfo(item).getType(), gc.getYieldInfo(k).getType(), gc.getTeam(idx).getImprovementYieldChange(item, k)))
 
 		f.write("EndTeam\n")
 
@@ -404,6 +467,86 @@ class CvTeamDesc:
 				if v!=-1:
 					self.iMasterPower = int(v)
 					continue
+			## Platy Builder
+				v = parser.findTokenValue(toks, "MapCentering")
+				if v!=-1:
+					self.bMapCentering = int(v)
+					continue
+				v = parser.findTokenValue(toks, "MapTrading")
+				if v!=-1:
+					self.bMapTrading = int(v)
+					continue
+				v = parser.findTokenValue(toks, "TechTrading")
+				if v!=-1:
+					self.bTechTrading = int(v)
+					continue
+				v = parser.findTokenValue(toks, "GoldTrading")
+				if v!=-1:
+					self.bGoldTrading = int(v)
+					continue
+				v = parser.findTokenValue(toks, "OpenBordersTrading")
+				if v!=-1:
+					self.bOpenBordersTrading = int(v)
+					continue
+				v = parser.findTokenValue(toks, "DefensivePactTrading")
+				if v!=-1:
+					self.bDefensivePactTrading = int(v)
+					continue
+				v = parser.findTokenValue(toks, "PermanentAllianceTrading")
+				if v!=-1:
+					self.bPermanentAllianceTrading = int(v)
+					continue
+				v = parser.findTokenValue(toks, "VassalStateTrading")
+				if v!=-1:
+					self.bVassalStateTrading = int(v)
+					continue
+				v = parser.findTokenValue(toks, "BridgeBuilding")
+				if v!=-1:
+					self.bBridgeBuilding = int(v)
+					continue
+				v = parser.findTokenValue(toks, "Irrigation")
+				if v!=-1:
+					self.bIrrigation = int(v)
+					continue
+				v = parser.findTokenValue(toks, "IgnoreIrrigation")
+				if v!=-1:
+					self.bIgnoreIrrigation = int(v)
+					continue
+				v = parser.findTokenValue(toks, "WaterWork")
+				if v!=-1:
+					self.bWaterWork = int(v)
+					continue
+				v = parser.findTokenValue(toks, "ExtraWaterSeeFrom")
+				if v!=-1:
+					self.bExtraWaterSeeFrom = int(v)
+					continue
+				v = parser.findTokenValue(toks, "NukeInterception")
+				if v!=-1:
+					self.iNukeInterception = int(v)
+					continue
+				v = parser.findTokenValue(toks, "EnemyWarWeariness")
+				if v!=-1:
+					self.iEnemyWarWeariness = int(v)
+					continue
+				v = parser.findTokenValue(toks, "DomainType")
+				if v!=-1:
+					item = gc.getInfoTypeForString(v)
+					iExtra = int(parser.findTokenValue(toks, "ExtraMoves"))
+					self.lDomainMoves.append([item,iExtra])
+					continue
+				v = parser.findTokenValue(toks, "RouteType")
+				if v!=-1:
+					item = gc.getInfoTypeForString(v)
+					iExtra = int(parser.findTokenValue(toks, "ExtraMoves"))
+					self.lRouteMoves.append([item,iExtra])
+					continue
+				v = parser.findTokenValue(toks, "ImprovementType")
+				if v!=-1:
+					item = gc.getInfoTypeForString(v)
+					iYield = gc.getInfoTypeForString(parser.findTokenValue(toks, "YieldType"))
+					iExtra = int(parser.findTokenValue(toks, "ExtraYield"))
+					self.lImprovementYield.append([item,iYield,iExtra])
+					continue
 
 				if parser.findTokenValue(toks, "EndTeam") != -1:
 					return true		# completed successfully
@@ -438,6 +581,15 @@ class CvPlayerDesc:
 		self.aaiCivics = []
 		self.aaiAttitudeExtras = []
 		self.aszCityList = []
+
+	## Platy Builder ##
+		self.iGoldenAge = 0
+		self.iAnarchy = 0
+		self.iCombatXP = 0
+		self.iCoastalTradeRoute = 0
+		self.iStateReligionUnit = 0
+		self.iStateReligionBuilding = 0
+		self.sScriptData = ""
 
 	def write(self, f, idx):
 		"write out player data"
@@ -507,6 +659,21 @@ class CvPlayerDesc:
 			f.write("\tHandicap=%s\n" %(gc.getHandicapInfo(gc.getDefineINT("STANDARD_HANDICAP")).getType()))
 		else:
 			f.write("\tHandicap=%s\n" %(gc.getHandicapInfo(gc.getPlayer(idx).getHandicapType()).getType()))
+		## Platy Builder ##
+			if gc.getPlayer(idx).getGoldenAgeTurns() > 0:
+				f.write("\tGoldenAge=%d\n" %(gc.getPlayer(idx).getGoldenAgeTurns()))
+			if gc.getPlayer(idx).getAnarchyTurns() > 0:
+				f.write("\tAnarchy=%d\n" %(gc.getPlayer(idx).getAnarchyTurns()))
+			if gc.getPlayer(idx).getCombatExperience() > 0:
+				f.write("\tCombatXP=%d\n" %(gc.getPlayer(idx).getCombatExperience()))
+			if gc.getPlayer(idx).getCoastalTradeRoutes() != 0:
+				f.write("\tCoastalTradeRoute=%d\n" %(gc.getPlayer(idx).getCoastalTradeRoutes()))
+			if gc.getPlayer(idx).getStateReligionUnitProductionModifier() != 0:
+				f.write("\tStateReligionUnit=%d\n" %(gc.getPlayer(idx).getStateReligionUnitProductionModifier()))
+			if gc.getPlayer(idx).getStateReligionBuildingProductionModifier() != 0:
+				f.write("\tStateReligionBuilding=%d\n" %(gc.getPlayer(idx).getStateReligionBuildingProductionModifier()))
+			if gc.getPlayer(idx).getScriptData() != "":
+				f.write("\tScriptData=%s\n" %(gc.getPlayer(idx).getScriptData()))	
 
 		f.write("EndPlayer\n")
 
@@ -641,6 +808,36 @@ class CvPlayerDesc:
 					self.aszCityList.append(v)
 					continue
 
+			## Platy Builder ##
+				v = parser.findTokenValue(toks, "GoldenAge")
+				if v!=-1:
+					self.iGoldenAge = max(0, int(v))
+					continue
+				v = parser.findTokenValue(toks, "Anarchy")
+				if v!=-1:
+					self.iAnarchy = max(0, int(v))
+					continue
+				v = parser.findTokenValue(toks, "CombatXP")
+				if v!=-1:
+					self.iCombatXP = max(0, int(v))
+					continue
+				v = parser.findTokenValue(toks, "CoastalTradeRoute")
+				if v!=-1:
+					self.iCoastalTradeRoute = int(v)
+					continue
+				v = parser.findTokenValue(toks, "StateReligionUnit")
+				if v!=-1:
+					self.iStateReligionUnit = int(v)
+					continue
+				v = parser.findTokenValue(toks, "StateReligionBuilding")
+				if v!=-1:
+					self.iStateReligionBuilding = int(v)
+					continue
+				v = parser.findTokenValue(toks, "ScriptData")
+				if v!=-1:
+					self.sScriptData = v
+					continue
+
 				if parser.findTokenValue(toks, "EndPlayer") != -1:
 					#print("Civics:")
 					#print self.aaiCivics
@@ -669,6 +866,12 @@ class CvUnitDesc:
 		self.isPlunder = False
 		self.szUnitAIType = "NO_UNITAI"
 		self.szScriptData = "NONE"
+
+	## Platy Builder ##
+		self.szScriptData = ""
+		self.iImmobile = 0
+		self.iBaseCombatStr = -1
+		self.iExtraCargo = 0
 
 	def apply(self):
 		"after reading, this will actually apply the data"
@@ -715,6 +918,15 @@ class CvUnitDesc:
 					unit.getGroup().setActivityType(ActivityTypes.ACTIVITY_PLUNDER)
 				if self.szScriptData != "NONE":
 					unit.setScriptData(self.szScriptData)
+
+			## Platy Builder ##
+				if self.szScriptData != "":
+					unit.setScriptData(self.szScriptData)
+				unit.setImmobileTimer(self.iImmobile)
+				if self.iBaseCombatStr > -1:
+					unit.setBaseCombatStr(self.iBaseCombatStr)
+				if self.iExtraCargo != 0:
+					unit.changeCargoSpace(self.iExtraCargo)
 
 	def read(self, f, pX, pY):
 		"read in unit data - at this point the first line 'BeginUnit' has already been read"
@@ -796,6 +1008,20 @@ class CvUnitDesc:
 				self.szScriptData = v
 				continue
 
+		## Platy Builder ##
+			v = parser.findTokenValue(toks, "Immobile")
+			if v != -1:
+				self.iImmobile = int(v)
+				continue
+			v = parser.findTokenValue(toks, "CombatStr")
+			if v != -1:
+				self.iBaseCombatStr = int(v)
+				continue
+			v = parser.findTokenValue(toks, "ExtraCargo")
+			if v != -1:
+				self.iExtraCargo = int(v)
+				continue
+
 			if parser.findTokenValue(toks, "EndUnit") != -1:
 				break
 
@@ -829,6 +1055,14 @@ class CvUnitDesc:
 			f.write("\t\tScriptData=%s\n" %unit.getScriptData() )
 		f.write("\tEndUnit\n")
 
+	## Platy Builder ##
+		if unit.getImmobileTimer() > 0:
+			f.write("\t\tImmobile=%d\n" %(unit.getImmobileTimer()))
+		if unit.baseCombatStr() != gc.getUnitInfo(unit.getUnitType()).getCombat():
+			f.write("\t\tCombatStr=%d\n" %(unit.baseCombatStr()))
+		if unit.cargoSpace() != gc.getUnitInfo(unit.getUnitType()).getCargoSpace():
+			f.write("\t\tExtraCargo=%d\n" %(unit.cargoSpace() - gc.getUnitInfo(unit.getUnitType()).getCargoSpace()))
+
 ############
 class CvCityDesc:
 	"serializes city data"
@@ -852,6 +1086,21 @@ class CvCityDesc:
 		self.plotY=-1
 		self.szScriptData = "NONE"
 		self.aiPlayerCulture = []
+
+	## Platy Builder ##
+		self.lCulture = []
+		self.iDamage = 0
+		self.iOccupation = 0
+		self.iExtraHappiness = 0
+		self.iExtraHealth = 0
+		self.iExtraTrade = 0
+		self.lBuildingYield = []
+		self.lBuildingCommerce = []
+		self.lBuildingHappy = []
+		self.lBuildingHealth = []
+		self.lFreeBonus = []
+		self.lNoBonus = []
+
 		for iPlayerLoop in range(gc.getMAX_CIV_PLAYERS()):
 			self.aiPlayerCulture.append(0)
 
@@ -930,6 +1179,29 @@ class CvCityDesc:
 
 		if (self.szScriptData != "NONE"):
 			self.city.setScriptData(self.szScriptData)
+
+	## Platy Builder ##
+		if self.iDamage > 0:
+			self.city.changeDefenseDamage(self.iDamage)
+		if self.iOccupation > 0:
+			self.city.setOccupationTimer(self.iOccupation)
+		if bSpecial:
+			self.city.changeExtraHappiness(self.iExtraHappiness - self.city.getExtraHappiness())
+			self.city.changeExtraHealth(self.iExtraHealth - self.city.getExtraHealth())
+			self.city.changeExtraTradeRoutes(self.iExtraTrade - self.city.getExtraTradeRoutes())
+			for item in self.lBuildingYield:
+				self.city.setBuildingYieldChange(item[0], item[1], item[2] - self.city.getBuildingYieldChange(item[0], item[1]))
+			for item in self.lBuildingCommerce:
+				self.city.setBuildingCommerceChange(item[0], item[1], item[2] - self.city.getBuildingCommerceChange(item[0], item[1]))
+			for item in self.lBuildingHappy:
+				self.city.setBuildingHappyChange(item[0], item[1] - self.city.getBuildingHappyChange(item[0]))
+			for item in self.lBuildingHealth:
+				self.city.setBuildingHealthChange(item[0], item[1] - self.city.getBuildingHealthChange(item[0]))
+			for item in self.lFreeBonus:
+				self.city.changeFreeBonus(item[0], item[1] - self.city.getFreeBonus(item[0]))
+			for item in self.lNoBonus:
+				if self.city.isNoBonus(item): continue
+				self.city.changeNoBonusCount(item, 1)
 
 	def write(self, f, plot):
 		"write out city data"
@@ -1090,6 +1362,61 @@ class CvCityDesc:
 					self.aiPlayerCulture[iPlayerLoop] = int(v)
 					continue
 
+		## Platy Builder ##
+			v=parser.findTokenValue(toks, "Damage")
+			if v!=-1:
+				self.iDamage = int(v)
+				continue
+			v=parser.findTokenValue(toks, "Occupation")
+			if v!=-1:
+				self.iOccupation = int(v)
+				continue
+			v=parser.findTokenValue(toks, "ExtraHappiness")
+			if v!=-1:
+				self.iExtraHappiness = int(v)
+				continue
+			v=parser.findTokenValue(toks, "ExtraHealth")
+			if v!=-1:
+				self.iExtraHealth = int(v)
+				continue
+			v=parser.findTokenValue(toks, "ExtraTrade")
+			if v!=-1:
+				self.iExtraTrade = int(v)
+				continue
+			v = parser.findTokenValue(toks, "ModifiedBuilding")
+			if v != -1:
+				iBuildingClass = gc.getInfoTypeForString(v)
+				v = parser.findTokenValue(toks, "Yield")
+				if v != -1:
+					iYield = gc.getInfoTypeForString(v)
+					iAmount = int(parser.findTokenValue(toks, "Amount"))
+					self.lBuildingYield.append([iBuildingClass, iYield, iAmount])
+					continue
+				v = parser.findTokenValue(toks, "Commerce")
+				if v != -1:
+					iCommerce = gc.getInfoTypeForString(v)
+					iAmount = int(parser.findTokenValue(toks, "Amount"))
+					self.lBuildingCommerce.append([iBuildingClass, iCommerce, iAmount])
+					continue
+				v = parser.findTokenValue(toks, "Happy")
+				if v != -1:
+					self.lBuildingHappy.append([iBuildingClass, int(v)])
+					continue
+				v = parser.findTokenValue(toks, "Health")
+				if v != -1:
+					self.lBuildingHealth.append([iBuildingClass, int(v)])
+					continue
+			v = parser.findTokenValue(toks, "FreeBonus")
+			if v != -1:
+				item = gc.getInfoTypeForString(v)
+				iAmount = int(parser.findTokenValue(toks, "Amount"))
+				self.lFreeBonus.append([item, iAmount])
+				continue
+			v = parser.findTokenValue(toks, "NoBonus")
+			if v != -1:
+				self.lNoBonus.append(gc.getInfoTypeForString(v))
+				continue
+
 			if parser.findTokenValue(toks, "EndCity")!=-1:
 				break
 
@@ -1116,6 +1443,9 @@ class CvPlotDesc:
 		self.szLandmark = ""
 		self.szScriptData = "NONE"
 		self.abTeamPlotRevealed = [0]*gc.getMAX_CIV_TEAMS()
+
+	## Platy Builder ##
+		self.lCulture = []
 
 	def needToWritePlot(self, plot):
 		"returns true if this plot needs to be written out."
@@ -1199,6 +1529,12 @@ class CvPlotDesc:
 			f.write("\tTerrainType=%s\n" %(gc.getTerrainInfo(plot.getTerrainType()).getType()) )
 		if (plot.getPlotType()!=PlotTypes.NO_PLOT):
 			f.write("\tPlotType=%d\n" %(int(plot.getPlotType()),) )
+
+	## Platy Builder ##
+		for iPlayerLoop in xrange(gc.getMAX_PLAYERS()):
+			iPlayerCulture = plot.getCulture(iPlayerLoop)
+			if iPlayerCulture > 0:
+				f.write("\tPlayer%dCulture=%d, (%s)\n" %(iPlayerLoop, iPlayerCulture, gc.getPlayer(iPlayerLoop).getName().encode(fileencoding)))
 
 		# units
 		for i in range(plot.getNumUnits()):
@@ -1334,6 +1670,15 @@ class CvPlotDesc:
 					if len(iTeamLoop):
 						self.abTeamPlotRevealed[int(iTeamLoop)] = true
 				continue
+
+		## Platy Builder ##
+			for iPlayerLoop in xrange(gc.getMAX_PLAYERS()):
+				szCityTag = ("Player%dCulture" %(iPlayerLoop))
+				v = parser.findTokenValue(toks, szCityTag)
+				if v!=-1:
+					if int(v) > 0:
+						self.lCulture.append([iPlayerLoop, int(v)])
+					continue
 
 			if parser.findTokenValue(toks, "EndPlot")!=-1:
 				break
@@ -1568,6 +1913,10 @@ class CvWBDesc:
 		CvUtil.pyPrint( 'saveDesc:%s, curDir:%s' %(fileName,os.getcwd()) )
 
 		f = file(self.getDescFileName(fileName), "w")		# open text file
+	## Platy Builder ##
+		f.write("%s\n" %("Platy Builder"))
+		f.write("bLoadSpecial=1\n")
+	## Platy Builder ##
 		f.write("Version=%d\n" %(self.getVersion(),))
 		self.gameDesc.write(f)	# write game info
 
@@ -1652,17 +2001,36 @@ class CvWBDesc:
 		print ("WB apply done\n")
 		return 0	# ok
 
-	def getAssignedStartingPlots(self):
-		"add player starting plots if using random civs"
+	# def getAssignedStartingPlots(self):
+		# "add player starting plots if using random civs"
 
-		# Player stuff
-		for iPlayerLoop in range(gc.getMAX_CIV_PLAYERS()):
+		# # Player stuff
+		# for iPlayerLoop in range(gc.getMAX_CIV_PLAYERS()):
+
+			# pPlayer = gc.getPlayer(iPlayerLoop)
+			# pWBPlayer = self.playersDesc[iPlayerLoop]
+
+			# # Random Start Location
+			# if (pPlayer.getLeaderType() != -1 and pWBPlayer.bRandomStartLocation != "false"):
+				# pPlayer.setStartingPlot(pPlayer.findStartingPlot(true), True)
+
+			# else:
+
+				# # Player's starting plot
+				# if ((pWBPlayer.iStartingX != -1) and (pWBPlayer.iStartingY != -1)):
+					# pPlayer.setStartingPlot(CyMap().plot(pWBPlayer.iStartingX, pWBPlayer.iStartingY), True)
+
+		# return 0	# ok
+
+## Platy Builder ##
+	def getAssignedStartingPlots(self):
+		for iPlayerLoop in xrange(len(self.playersDesc)):
 
 			pPlayer = gc.getPlayer(iPlayerLoop)
 			pWBPlayer = self.playersDesc[iPlayerLoop]
 
 			# Random Start Location
-			if (pPlayer.getLeaderType() != -1 and pWBPlayer.bRandomStartLocation != "false"):
+			if (pPlayer.getLeaderType() != -1 and str(pWBPlayer.bRandomStartLocation).lower() != "false"):
 				pPlayer.setStartingPlot(pPlayer.findStartingPlot(true), True)
 
 			else:
@@ -1837,6 +2205,30 @@ class CvWBDesc:
 			return -1	# failed
 
 		f=file(fileName+ext, "r")		# open text file
+
+	## Platy Builder ##
+		self.bSpecial = 1
+		parser = CvWBParser()
+		filePos = f.tell()
+		iNumPlayers = gc.getMAX_CIV_PLAYERS()
+		iNumTeams = gc.getMAX_CIV_TEAMS()
+		line = parser.getNextLine(f)
+		if line.find("Platy") > -1:
+			iNumPlayers = gc.getMAX_PLAYERS()
+			iNumTeams = gc.getMAX_TEAMS()
+		else:
+			f.seek(filePos)
+		filePos = f.tell()
+		line = parser.getNextLine(f)
+		if line.find("bLoadSpecial") > -1:
+			f.seek(filePos)
+			self.bSpecial = int(parser.findNextTokenValue(f, "bLoadSpecial"))
+		else:
+			f.seek(filePos)
+		version = int(parser.findNextTokenValue(f, "Version"))
+		if (version != self.getVersion()):
+			CvUtil.pyPrint("Error: wrong WorldBuilder save version.  Expected %d, got %d" %(self.getVersion(), version))
+			return -1	# failed
 
 		parser = CvWBParser()
 		version = int(parser.findNextTokenValue(f, "Version"))
