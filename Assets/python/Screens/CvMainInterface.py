@@ -2491,19 +2491,26 @@ class CvMainInterface:
 
 				iCount = 0
 				# City Actions (Spells) available
-				for i in xrange ( gc.getNumSpellInfos() ):
+				iSelectedCount = 0
+				pPlayer = gc.getPlayer(pHeadSelectedCity.getOwner())
+				for iCity in xrange (pPlayer.getNumCities()):
+					pCity = pPlayer.getCity(iCity)
+					if CyInterface().isCitySelected(pCity):
+						iSelectedCount += 1
+				if iSelectedCount == 1:
+					for i in xrange ( gc.getNumSpellInfos() ):
 
-					if pHeadSelectedCity.canCast(i, True):
-						szButton = gc.getSpellInfo(i).getButton()
+						if pHeadSelectedCity.canCast(i, True):
+							szButton = gc.getSpellInfo(i).getButton()
 
-						screen.appendMultiListButton( "CityActionsButtonContainer", szButton, 0, WidgetTypes.WIDGET_CITY_ACTION, i, -1, False )
-						screen.show( "CityActionsButtonContainer" )
-						screen.show( "CityActionsLabel" )
+							screen.appendMultiListButton( "CityActionsButtonContainer", szButton, 0, WidgetTypes.WIDGET_CITY_ACTION, i, -1, False )
+							screen.show( "CityActionsButtonContainer" )
+							screen.show( "CityActionsLabel" )
 
-						if not pHeadSelectedCity.canCast(i, False):
-							screen.disableMultiListButton( "CityActionsButtonContainer", 0, iCount, szButton)
+							if not pHeadSelectedCity.canCast(i, False):
+								screen.disableMultiListButton( "CityActionsButtonContainer", 0, iCount, szButton)
 
-						iCount = iCount + 1
+							iCount = iCount + 1
 
 # City Actions - END
 
