@@ -7554,6 +7554,16 @@
 			<iMinLevel>-1</iMinLevel>
 			<PyPerTurn>effectCrownOfBrillance(pCaster)</PyPerTurn>
 		</PromotionInfo>
+		<PromotionInfo>		<!-- Revelation -->
+			<Type>PROMOTION_REVELATION</Type>
+			<Description>TXT_KEY_SPELL_REVELATION</Description>
+			<iExtraPerception>3</iExtraPerception>
+			<iVisibilityChange>2</iVisibilityChange>
+			<Button>Art/Interface/Buttons/Promotions/CrownofBrillance.dds</Button>
+			<bDispellable>1</bDispellable>
+			<iExpireChance>25</iExpireChance>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
 		<PromotionInfo>		<!-- Dark Empowerment -->
 			<Type>PROMOTION_DARK_EMPOWERMENT</Type>
 			<Description>TXT_KEY_SPELL_DARK_EMPOWERMENT</Description>

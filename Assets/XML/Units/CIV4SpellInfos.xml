@@ -3095,6 +3095,10 @@
 			<PromotionPrereq1>PROMOTION_DIVINE</PromotionPrereq1>
 			<PromotionPrereq2>PROMOTION_CHANNELING2</PromotionPrereq2>
 			<ReligionPrereq>RELIGION_THE_EMPYREAN</ReligionPrereq>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_REVELATION</AddPromotion>
+			</AddPromotions>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
 			<bAllowAI>1</bAllowAI>
 			<bIsAutoCastable>1</bIsAutoCastable>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -7126,6 +7130,10 @@
 			<bHasCasted>1</bHasCasted>
 			<iRange>2</iRange>
 			<bDispel>1</bDispel>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_REVELATION</AddPromotion>
+			</AddPromotions>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
 			<PyResult>spellRevelation(pCaster)</PyResult>
 			<PyRequirement>reqRevelation(pCaster)</PyRequirement>
 			<Effect>EFFECT_SPELL1</Effect>
