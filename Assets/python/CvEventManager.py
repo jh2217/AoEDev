@@ -2012,7 +2012,7 @@ class CvEventManager:
 				if not Option["No Barbarians"]:
 					initUnit( ScorpClan["Archer"], pPlot.getX(), pPlot.getY(), iNoAI, iSouth)
 			if iImprovement == gc.getInfoTypeForString("IMPROVEMENT_WELL_OF_SOULS"):
-				listplot=((0,0))
+				listplot=[(0,0)]
 				if CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_SMALL"):
 					listplot=RANGE1
 				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_STANDARD") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_LARGE"):
@@ -2814,7 +2814,7 @@ class CvEventManager:
 				pPlot.setRouteType(Improvement["Road"])
 			
 			elif iImprovement == gc.getInfoTypeForString("IMPROVEMENT_SEVEN_PINES"):
-				listplot=((0,0))
+				listplot=[(0,0)]
 				if CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_SMALL"):
 					listplot=RANGE1
 				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_STANDARD") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_LARGE"):
@@ -2826,7 +2826,7 @@ class CvEventManager:
 					pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("PLOT_EFFECT_BLESSED_LANDS"))
 
 			elif gc.getInfoTypeForString("MODULE_MAGISTER_ASHES")!=-1 and iImprovement==gc.getInfoTypeForString("IMPROVEMENT_WHISPERING_WOOD"):
-				listplot=((0,0))
+				listplot=[(0,0)]
 				if CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_SMALL"):
 					listplot=RANGE1
 				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_STANDARD") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_LARGE"):
