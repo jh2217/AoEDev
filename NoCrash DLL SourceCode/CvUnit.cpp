@@ -32848,7 +32848,8 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 		pPlot = plot();
 	}
 
-	if (GET_PLAYER(getOwnerINLINE()).getGold() < GC.getMissionInfo(MISSION_CLAIM_FORT).getGoldCost() * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent() / 100)
+	// Gold relevant if not barb. Show option even if can't pay gold.
+	if (!bTestVisible && !isBarbarian() && GET_PLAYER(getOwnerINLINE()).getGold() < GET_PLAYER(getOwnerINLINE()).getClaimFortCost())
 	{
 		return false;
 	}
@@ -32902,9 +32903,9 @@ bool CvUnit::claimFort(bool bBuilt)
 		return false;
 	}
 
-	if (!bBuilt)
+	if (!bBuilt && !isBarbarian())
 	{
-		GET_PLAYER(getOwnerINLINE()).changeGold(-GC.getMissionInfo(MISSION_CLAIM_FORT).getGoldCost() * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent() / 100);
+		GET_PLAYER(getOwnerINLINE()).changeGold(-GET_PLAYER(getOwnerINLINE()).getClaimFortCost());
 	}
 
 	CvUnit* pUnit;

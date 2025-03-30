@@ -28894,6 +28894,11 @@ bool CvUnitAI::AI_canClaimFort(CvPlot* pPlot)
 		pPlot = plot();
 	}
 
+	if (!isBarbarian() && (GET_PLAYER(getOwnerINLINE())).getGold() < GET_PLAYER(getOwnerINLINE()).getClaimFortCost())
+	{
+		return false;
+	}
+
 	if (NO_IMPROVEMENT != pPlot->getRevealedImprovementType(getTeam(), false) && GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isFort())
 	{
 		if (pPlot->isOwned())

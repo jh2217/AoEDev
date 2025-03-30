@@ -30697,3 +30697,14 @@ void CvPlayer::changeSpecialistTypeExtraCrime(SpecialistTypes eIndex1, int iChan
 		AI_makeAssignWorkDirty();
 	}
 }
+
+int CvPlayer::getClaimFortCost() const
+{
+	int iCost = GC.getMissionInfo(MISSION_CLAIM_FORT).getGoldCost() * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
+	// 0 (settler), 1, 1, 2, 2, 3, 3, 4, 4 (deity)
+	int iHandicap = (getHandicapType() + 1)/2;
+	iCost *= iHandicap;
+	// 100 from gamespeed, and 4x from handicap
+	iCost /= 400;
+	return iCost;
+}

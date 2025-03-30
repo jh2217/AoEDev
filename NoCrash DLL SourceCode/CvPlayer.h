@@ -1439,6 +1439,8 @@ public:
 	int getResistModify() const;
 	void changeResistModify(int iChange);
 
+	int getClaimFortCost() const;
+
 	int getStartingGold() const;
 	void changeStartingGold(int iChange);
 	int getSummonDuration() const;

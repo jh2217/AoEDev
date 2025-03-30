@@ -3559,10 +3559,9 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 				}
 			}
 
-			iPrice = GC.getMissionInfo((MissionTypes)(GC.getActionInfo(widgetDataStruct.m_iData1).getMissionType())).getGoldCost();
+			iPrice = GET_PLAYER(pHeadSelectedUnit->getOwnerINLINE()).getClaimFortCost();
 			if (iPrice != 0)
 			{
-				iPrice = iPrice * GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent() / 100;
 				szBuffer.append(NEWLINE);
 				szBuffer.append(gDLL->getText("TXT_KEY_SPELL_COST", iPrice));
 			}
