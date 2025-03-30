@@ -151,6 +151,10 @@ def plotsInCircularRange( centerX, centerY, maxRange, minRange=None ):
 			if minRange <= distance <= maxRange:
 				yield ( plotX, plotY )
 
+def aoeByMapSize(plot):
+	# radius 0, 0, 1, 1, 2, 2, 3
+	return plotsInCircularRange(plot.getX(), plot.getY(), CyMap().getWorldSize()/2)
+
 def findClearPlot(pUnit, plot,iPlayer=-1):
 	BestPlot = -1
 	iBestPlot = 0
