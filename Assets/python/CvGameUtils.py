@@ -3782,6 +3782,9 @@ class CvGameUtils:
 ## Effect Text ##
 			elif iData1 == 7883:
 				return gc.getPlotEffectInfo(iData2).getDescription()
+## Trait Text ##
+			elif iData1 == 7884:
+				return CyGameTextMgr().parseTraits(iData2, -1, false)
 ## Corporation Screen ##
 			elif iData1 == 8201:
 				return CyGameTextMgr().parseCorporationInfo(iData2, False)
