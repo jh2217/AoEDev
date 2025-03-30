@@ -19,6 +19,7 @@ iPlotType = 0
 iChangeType = 2
 iOwnerType = 0
 iSelectedClass = -2
+iSelectedType = 0
 
 class WBPromotionScreen:
 
@@ -74,6 +75,19 @@ class WBPromotionScreen:
 		for iCombatClass in xrange(gc.getNumUnitCombatInfos()):
 			screen.addPullDownString("CombatClass", gc.getUnitCombatInfo(iCombatClass).getDescription(), iCombatClass, iCombatClass, iCombatClass == iSelectedClass)
 
+		screen.addDropDownBoxGFC("FilterType", iWidth * 2 + 40, self.iTable_Y - 30, iWidth, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_UNFILTERED",()), 0, 0, 0 == iSelectedType)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_PROMOTION_DEFAULT",()), 1, 1, 1 == iSelectedType)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_PROMOTION_EFFECTS",()), 2, 2, 2 == iSelectedType)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_PROMOTION_RACES",()), 3, 3, 3 == iSelectedType)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_PROMOTION_EQUIPMENT",()), 4, 4, 4 == iSelectedType)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_PROMOTION_MOUNTS",()), 5, 5, 5 == iSelectedType)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_PROMOTION_NAVAL_CREW",()), 6, 6, 6 == iSelectedType)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_PROMOTION_COMMAND_SYSTEM",()), 7, 7, 7 == iSelectedType)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_PROMOTION_CITY_AUGMENTATION",()), 8, 8, 8 == iSelectedType)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_PROMOTION_AUTOMATIC",()), 9, 9, 9 == iSelectedType)
+		screen.addPullDownString("FilterType", CyTranslator().getText("TXT_KEY_PEDIA_FILTER_PROMOTION_MAGIC_SPHERES",()), 10, 10, 10 == iSelectedType)
+
 		sText = u"<font=3b>" + CyTranslator().getText("TXT_KEY_WB_COPY_ALL", (CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_UNIT", ()),)) + "</font>"
 		sColor = CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
 		if bApplyAll:
@@ -85,7 +99,8 @@ class WBPromotionScreen:
 		screen.addPullDownString("ChangeType", CyTranslator().getText("TXT_KEY_WB_CITY_ADD", ()), 1, 1, 1 == iChangeType)
 		screen.addPullDownString("ChangeType", CyTranslator().getText("TXT_KEY_WB_CITY_REMOVE", ()), 0, 0, 0 == iChangeType)
 		sText = CyTranslator().getText("[COLOR_SELECTED_TEXT]", ()) + "<font=4b>" + CyTranslator().getText("TXT_KEY_WB_CITY_ALL", ()) + " (+/-)</color></font>"
-		screen.setText("PromotionAll", "Background", sText, CvUtil.FONT_RIGHT_JUSTIFY, screen.getXResolution() - 120, self.iTable_Y - 30, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+		# AoE has too much promos with for game to handle
+#		screen.setText("PromotionAll", "Background", sText, CvUtil.FONT_RIGHT_JUSTIFY, screen.getXResolution() - 120, self.iTable_Y - 30, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 		
 		self.sortUnits()
 		self.sortPromotions()
@@ -165,9 +180,54 @@ class WBPromotionScreen:
 			ItemInfo = gc.getPromotionInfo(i)
 			if CvPlatyBuilderScreen.bHideInactive and not isPromotionValid(i, pUnit.getUnitType(), True): continue
 			if iSelectedClass == -2 or ItemInfo.getUnitCombat(iSelectedClass):
-				lList.append([ItemInfo.getDescription(), i])
+				if iSelectedType == 0:
+					lList.append([ItemInfo.getDescription(), i])
+				elif iSelectedType == 1 and not (ItemInfo.getMinLevel() < 0 or ItemInfo.isNoXP()):
+					lList.append([ItemInfo.getDescription(), i])
+				elif iSelectedType == 2 and (ItemInfo.getMinLevel() < 0 or ItemInfo.isNoXP()):
+					lList.append([ItemInfo.getDescription(), i])
+				elif iSelectedType == 3 and ItemInfo.isRace():
+					lList.append([ItemInfo.getDescription(), i])
+				elif iSelectedType == 4 and ItemInfo.isEquipment():
+					lList.append([ItemInfo.getDescription(), i])
+				elif iSelectedType == 5 and ItemInfo.getPromotionClass()==gc.getInfoTypeForString("PROMOTIONCLASS_MOUNT"):
+					lList.append([ItemInfo.getDescription(), i])
+				elif iSelectedType == 6 and ItemInfo.getPromotionClass()==gc.getInfoTypeForString("PROMOTIONCLASS_NAVAL_CREW"):
+					lList.append([ItemInfo.getDescription(), i])
+				elif iSelectedType == 7 and (ItemInfo.getNumMinionPromotions() > 0 or ItemInfo.getNumCommanderPromotions() or ItemInfo.getNumSlavePromotions() > 0 or ItemInfo.getNumMasterPromotions()):
+					lList.append([ItemInfo.getDescription(), i])
+				elif iSelectedType == 8 and ItemInfo.getNumCityBonuses() > 0:
+					lList.append([ItemInfo.getDescription(), i])
+				elif iSelectedType == 9 and ItemInfo.isAutoAcquire():
+					lList.append([ItemInfo.getDescription(), i])
+				elif iSelectedType == 10 and self.isMagicSpherePromotion(ItemInfo):
+					lList.append([ItemInfo.getDescription(), i])
 		lList.sort()
 		self.placePromotions()
+
+	def isMagicSpherePromotion(self, ePromotion):
+		# Include channeling because it is relevant
+		lChannelingPromotions = [gc.getInfoTypeForString('PROMOTION_CHANNELING1'), gc.getInfoTypeForString('PROMOTION_CHANNELING2'), gc.getInfoTypeForString('PROMOTION_CHANNELING3')]
+		if gc.getInfoTypeForString(ePromotion.getType()) in lChannelingPromotions:
+			return True
+		
+		# Firstly the promotion has to require channeling
+		lPrereqPromotions = [ePromotion.getPrereqPromotionANDs(i, False) for i in range(ePromotion.getNumPrereqPromotionANDs())]
+
+		if bool(set(lPrereqPromotions) & set(lChannelingPromotions)):
+
+			# If the promotion requires mana, it is a level 1 magic sphere promotion.
+			for i in range(ePromotion.getNumPrereqBonusANDs()):
+				if gc.getBonusInfo(ePromotion.getPrereqBonusAND(i)).getBonusClassType() == gc.getInfoTypeForString('BONUSCLASS_MANA'):
+					return True
+
+			# if the promotion requires a magic sphere promotion, it is a 2 or 3 magic sphere promotion.
+			for pp in lPrereqPromotions:
+				isMagic = self.isMagicSpherePromotion(gc.getPromotionInfo(pp)) and gc.getInfoTypeForString(gc.getPromotionInfo(pp).getType()) not in lChannelingPromotions
+				if isMagic:
+					return isMagic
+
+		return False
 
 	def placePromotions(self):
 		screen = CyGInterfaceScreen( "WBPromotionScreen", CvScreenEnums.WB_PROMOTION)
@@ -193,6 +253,21 @@ class WBPromotionScreen:
 				sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
 			screen.setTableText("WBPromotion", iColumn, iRow, "<font=3>" + sColor + item[0] + "</font></color>", ItemInfo.getButton(), WidgetTypes.WIDGET_PYTHON, 7873, item[1], CvUtil.FONT_LEFT_JUSTIFY )
 
+	def recolorPromotion(self, iPromotion):
+		screen = CyGInterfaceScreen( "WBPromotionScreen", CvScreenEnums.WB_PROMOTION)
+		item = [gc.getPromotionInfo(iPromotion).getDescription(), iPromotion]
+		iIndex = lList.index(item)
+		iMaxRows = (screen.getYResolution() - self.iTable_Y - 42) /24
+		nColumns = max(1, min(4, (len(lList) + iMaxRows - 1)/iMaxRows))
+		nRows = (len(lList) + nColumns - 1) / nColumns
+		iRow = iIndex % nRows
+		iColumn = iIndex / nRows
+		sColor = CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
+		ItemInfo = gc.getPromotionInfo(item[1])
+		if pUnit.isHasPromotion(item[1]):
+			sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
+		screen.setTableText("WBPromotion", iColumn, iRow, "<font=3>" + sColor + item[0] + "</font></color>", ItemInfo.getButton(), WidgetTypes.WIDGET_PYTHON, 7873, item[1], CvUtil.FONT_LEFT_JUSTIFY )
+
 	def handleInput (self, inputClass):
 		screen = CyGInterfaceScreen( "WBPromotionScreen", CvScreenEnums.WB_PROMOTION)
 		global bApplyAll
@@ -201,6 +276,7 @@ class WBPromotionScreen:
 		global iCopyType
 		global iOwnerType
 		global iSelectedClass
+		global iSelectedType
 
 		if inputClass.getFunctionName() == "CurrentPage":
 			iIndex = screen.getPullDownData("CurrentPage", screen.getSelectedPullDownID("CurrentPage"))
@@ -242,9 +318,14 @@ class WBPromotionScreen:
 			iSelectedClass = screen.getPullDownData("CombatClass", screen.getSelectedPullDownID("CombatClass"))
 			self.sortPromotions()
 
+		elif inputClass.getFunctionName() == "FilterType":
+			iSelectedType = screen.getPullDownData("FilterType", screen.getSelectedPullDownID("FilterType"))
+			self.sortPromotions()
+
 		elif inputClass.getFunctionName() == "WBPromotion":
 			self.editPromotion(inputClass.getData2())
-			self.placePromotions()
+			#self.placePromotions()
+			self.recolorPromotion(inputClass.getData2())
 
 		elif inputClass.getFunctionName() == "PromotionAll":
 			for item in lList:

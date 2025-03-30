@@ -363,10 +363,6 @@ class WBCityEditScreen:
 		global iOwnerType
 		global iPlotType
 
-		print "handleInput WB_City_Edit called"
-		print "inputClass"
-		print inputClass
-
 		if inputClass.getFunctionName() == "ChangeBy":
 			iChange = screen.getPullDownData("ChangeBy", screen.getSelectedPullDownID("ChangeBy"))
 
@@ -430,10 +426,6 @@ class WBCityEditScreen:
 			self.placeStats()
 
 		elif inputClass.getFunctionName().find("CityPopulation") > -1:
-			print "inside CityPopulation"
-			print "pCity.getPopulation() = %d" %(pCity.getPopulation())
-			print "inputClass.getData1 = %d" %(inputClass.getData1())
-			print "iChange = %d" %(iChange)
 			if inputClass.getData1() == 1030:
 				pCity.changePopulation(iChange)
 			elif inputClass.getData1() == 1031:

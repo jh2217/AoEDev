@@ -3621,6 +3621,10 @@ class CvGameUtils:
 				if iData2 == -1:
 					return CyTranslator().getText("TXT_KEY_CULTURELEVEL_NONE", ())
 				return gc.getRouteInfo(iData2).getDescription()
+			elif iData1 == 6789:
+				if iData2 == -1:
+					return CyTranslator().getText("TXT_KEY_CULTURELEVEL_NONE", ())
+				return gc.getPlotEffectInfo(iData2).getDescription()
 ## City Hover Text ##
 			elif iData1 > 7199 and iData1 < 7300:
 				iPlayer = iData1 - 7200
