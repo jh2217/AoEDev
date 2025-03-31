@@ -85,6 +85,7 @@ class WBPlayerScreen:
 		self.placeReligions()
 		self.placeResearch()
 		self.placeScript()
+		self.placeTraits()
 
 	def placeStats(self):
 		screen = CyGInterfaceScreen( "WBPlayerScreen", CvScreenEnums.WB_PLAYER)
@@ -174,7 +175,7 @@ class WBPlayerScreen:
 		screen = CyGInterfaceScreen("WBPlayerScreen", CvScreenEnums.WB_PLAYER)
 		iX = screen.getXResolution()/4
 		iY = 110 + self.iIconSize
-		iWidth = screen.getXResolution()/2
+		iWidth = screen.getXResolution()/4 - 20
 		iHeight = (screen.getYResolution()/2 - 55 - iY)/24 * 24 + 2
 		nColumns = iWidth/240
 		screen.addTableControlGFC("WBPlayerResearch", nColumns, iX, iY, iWidth, iHeight, False, False, 24, 24, TableStyles.TABLE_STYLE_STANDARD)
@@ -211,6 +212,46 @@ class WBPlayerScreen:
 			screen.setButtonGFC("CurrentResearchPlus", "", "", iX + iWidth - 50, iY - 30, 24, 24, WidgetTypes.WIDGET_PYTHON, 1030, -1, ButtonStyles.BUTTON_STYLE_CITY_PLUS)
 			screen.setButtonGFC("CurrentResearchMinus", "", "", iX + iWidth - 25, iY - 30, 24, 24, WidgetTypes.WIDGET_PYTHON, 1031, -1, ButtonStyles.BUTTON_STYLE_CITY_MINUS)
 		screen.setLabel("CurrentProgressText", "Background", "<font=3b>" + sCurrentTech + "</font>", CvUtil.FONT_CENTER_JUSTIFY, iX + iWidth/2, iY - 30, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+
+	def placeTraits(self):
+		screen = CyGInterfaceScreen("WBPlayerScreen", CvScreenEnums.WB_PLAYER)
+		iX = screen.getXResolution()/2 + 20
+		iY = 110 + self.iIconSize
+		iWidth = screen.getXResolution()/4 - 20
+		iHeight = (screen.getYResolution()/2 - 55 - iY)/24 * 24 + 2
+		iWidthText = iWidth * 3 / 4
+		iWidthScore = iWidth / 4
+		iRow = 0
+		screen.addTableControlGFC("WBPlayerTraits", 2, iX, iY, iWidth, iHeight, False, False, 24, 24, TableStyles.TABLE_STYLE_STANDARD)
+		screen.setTableColumnHeader("WBPlayerTraits", 0, "", iWidthText)
+		screen.setTableColumnHeader("WBPlayerTraits", 1, "", iWidthScore)
+		lTrait = []
+		for iTrait in xrange(gc.getNumTraitInfos()):
+			ItemInfo	= gc.getTraitInfo(iTrait)
+			sName		= ItemInfo.getDescription()
+			lTrait.append([sName, iTrait])
+			lTrait.sort()
+		for item in lTrait:
+			screen.appendTableRow("WBPlayerTraits")
+			iTrait	= item[1]
+			sName	= item[0]
+			sColor	= CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
+			if pPlayer.hasTrait(iTrait):
+				sColor	= CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
+			ItemInfo	= gc.getTraitInfo(iTrait)
+			sShortName	= CyTranslator().getText(ItemInfo.getShortDescription(),())
+			sLevel		= ""
+			sPoints		= ""
+			sGoal		= ""
+			if ItemInfo.getLevel() > 0:
+				sLevel = str(ItemInfo.getLevel())
+			sText		= sName + " " + sLevel + " " + sShortName
+			screen.setTableText("WBPlayerTraits", 0, iRow, "<font=3>" + sColor + sText + "</color></font>", ItemInfo.getButton(), WidgetTypes.WIDGET_PYTHON, 7884, iTrait, CvUtil.FONT_LEFT_JUSTIFY)
+			if pPlayer.getMinRequiredPointsNextTrait(iTrait) > 0:
+				sPoints = str(pPlayer.getTraitPoints(iTrait))
+				sGoal = str(pPlayer.getMinRequiredPointsNextTrait(iTrait))
+				screen.setTableText("WBPlayerTraits", 1, iRow, "<font=3>" + sPoints + " / " + sGoal + "</font>", ItemInfo.getButton(), WidgetTypes.WIDGET_PYTHON, 7884, iTrait, CvUtil.FONT_LEFT_JUSTIFY)
+			iRow += 1
 
 	def placeReligions(self):
 		screen = CyGInterfaceScreen("WBPlayerScreen", CvScreenEnums.WB_PLAYER)
@@ -401,6 +442,16 @@ class WBPlayerScreen:
 				elif inputClass.getData1() == 1031:
 					pTeam.changeResearchProgress(pPlayer.getCurrentResearch(), - min(iChange, pTeam.getResearchProgress(iTech)), iPlayer)
 				self.placeResearch()
+
+		elif inputClass.getFunctionName() == "WBPlayerTraits":
+			iTrait = inputClass.getData2()
+			bChange = not pPlayer.hasTrait(iTrait)
+			if not gc.isNoCrash():
+				pPlayer.setHasTrait((iTrait),bChange,-1,True,True)
+			else:
+				pPlayer.setHasTrait((iTrait),bChange)
+			self.placeTraits()
+			self.placeStats()
 
 		elif inputClass.getFunctionName() == "WBPlayerReligions":
 			iReligion = inputClass.getData1()

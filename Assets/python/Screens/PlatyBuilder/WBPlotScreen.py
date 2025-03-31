@@ -139,9 +139,9 @@ class WBPlotScreen:
 		lFeatures.sort()
 
 		lEffects = []
-		for i in xrange(gc.getPlotNumEffectInfos()):
-			ItemInfo = gc.getEffectInfo(i)
-			lFeatures.append([ItemInfo.getDescription(), i])
+		for i in xrange(gc.getNumPlotEffectInfos()):
+			ItemInfo = gc.getPlotEffectInfo(i)
+			lEffects.append([ItemInfo.getDescription(), i])
 		lEffects.sort()
 
 		lRoutes = []
@@ -300,7 +300,7 @@ class WBPlotScreen:
 		screen = CyGInterfaceScreen( "WBPlotScreen", CvScreenEnums.WB_PLOT)
 		iX = screen.getXResolution() *4/5 + 10
 		iY = screen.getYResolution()/2
-		iHeight = (screen.getYResolution() - 42 - iY) /24 * 24 + 2
+		iHeight = ( (screen.getYResolution() - 42 - iY) /24 * 24 + 2 ) / 4
 		iRoute = pPlot.getRouteType()
 		sText = CyTranslator().getText("TXT_KEY_CULTURELEVEL_NONE", ())
 		sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
@@ -382,8 +382,8 @@ class WBPlotScreen:
 
 	def placeEffects(self):
 		screen = CyGInterfaceScreen( "WBPlotScreen", CvScreenEnums.WB_PLOT)
-		iX = screen.getXResolution() *3/5 + 10
-		iY = screen.getYResolution()/2
+		iX = screen.getXResolution() * 4 / 5 + 10
+		iY = screen.getYResolution() * 5 / 8 + 20
 		iUpgrade_Y = screen.getYResolution() - 70
 		iHeight = (iUpgrade_Y - iY) /24 * 24 + 2
 		iEffect = pPlot.getPlotEffectType()
@@ -395,6 +395,15 @@ class WBPlotScreen:
 		screen.setLabel("EffectHeader", "Background", "<font=3b>" + sText + "</font>", CvUtil.FONT_CENTER_JUSTIFY, iX + screen.getXResolution()/10 - 10, iY - 30, -0.1, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 		screen.addTableControlGFC("WBPlotEffect", 1, iX, iY, iWidth, iHeight, False, False, 24, 24, TableStyles.TABLE_STYLE_STANDARD)
 		screen.setTableColumnHeader("WBPlotEffect", 0, "", iWidth)
+		screen.appendTableRow("WBPlotEffect")
+		screen.setTableText("WBPlotEffect", 0, 0, "<font=3>" + sColor + CyTranslator().getText("TXT_KEY_CULTURELEVEL_NONE", ()) + "</font></color>", CyArtFileMgr().getInterfaceArtInfo("INTERFACE_BUTTONS_CANCEL").getPath(), WidgetTypes.WIDGET_PYTHON, 6789, -1, CvUtil.FONT_LEFT_JUSTIFY )
+		for item in lEffects:
+			iRow = screen.appendTableRow("WBPlotEffect")
+			sColor = CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
+			if iEffect == item[1]:
+				sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
+			screen.setTableText("WBPlotEffect", 0, iRow, "<font=3>" + sColor + item[0] + "</font></color>", gc.getPlotEffectInfo(item[1]).getButton(), WidgetTypes.WIDGET_PYTHON, 6789, item[1], CvUtil.FONT_LEFT_JUSTIFY )
+
 
 	def createBonusList(self):
 		global lBonus
@@ -731,7 +740,7 @@ class WBPlotScreen:
 					if pLoopPlot.isNone(): continue
 					if iEditType == 1 and pLoopPlot.getArea() != pPlot.getArea(): continue
 					if bAdd:
-						if iEffect > -1 and bSensibility and not pLoopPlot.canHaveEffect(iEffect, -1, True): continue
+						if iEffect > -1 and bSensibility and not pLoopPlot.canHavePlotEffect(iEffect, -1, True): continue
 						pLoopPlot.setPlotEffectType(iEffect)
 					else:
 						pLoopPlot.setPlotEffectType(-1)
