@@ -730,17 +730,9 @@ def effectGelaImprovement(argsList):
 			pUnit.setHasPromotion(git('PROMOTION_FROZEN_FLAME'), True)
 			CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_1",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/pyreoftheseraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 		else:
-			i = 4
-			if CyMap().getWorldSize() == git('WORLDSIZE_DUEL'):
-				i = i - 3
-			if CyMap().getWorldSize() == git('WORLDSIZE_TINY'):
-				i = i - 2
-			if CyMap().getWorldSize() == git('WORLDSIZE_SMALL'):
-				i = i - 1
-			if CyMap().getWorldSize() == git('WORLDSIZE_LARGE'):
-				i = i + 1
-			if CyMap().getWorldSize() == git('WORLDSIZE_HUGE'):
-				i = i + 3
+			mapSize = CyMap().getWorldSize()
+			# i from 1 (duel) to 9 (huger)
+			i = 1 + mapSize + int(mapSize/5) + int(mapSize/6)
 			addBonus('BONUS_MANA',i,'Art/Interface/Buttons/WorldBuilder/mana_button.dds')
 			CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_2",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/pyreoftheseraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 	elif iImprovement == git("IMPROVEMENT_MAELSTROM"):
