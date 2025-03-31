@@ -86,6 +86,7 @@ class WBPlayerScreen:
 		self.placeResearch()
 		self.placeScript()
 		self.placeTraits()
+		self.placeFlags()
 
 	def placeStats(self):
 		screen = CyGInterfaceScreen( "WBPlayerScreen", CvScreenEnums.WB_PLAYER)
@@ -230,7 +231,7 @@ class WBPlayerScreen:
 			ItemInfo	= gc.getTraitInfo(iTrait)
 			sName		= ItemInfo.getDescription()
 			lTrait.append([sName, iTrait])
-			lTrait.sort()
+		lTrait.sort()
 		for item in lTrait:
 			screen.appendTableRow("WBPlayerTraits")
 			iTrait	= item[1]
@@ -246,11 +247,11 @@ class WBPlayerScreen:
 			if ItemInfo.getLevel() > 0:
 				sLevel = str(ItemInfo.getLevel())
 			sText		= sName + " " + sLevel + " " + sShortName
-			screen.setTableText("WBPlayerTraits", 0, iRow, "<font=3>" + sColor + sText + "</color></font>", ItemInfo.getButton(), WidgetTypes.WIDGET_PYTHON, 7884, iTrait, CvUtil.FONT_LEFT_JUSTIFY)
+			screen.setTableText("WBPlayerTraits", 0, iRow, "<font=3>" + sColor + sText + "</color></font>", "", WidgetTypes.WIDGET_PYTHON, 7884, iTrait, CvUtil.FONT_LEFT_JUSTIFY)
 			if pPlayer.getMinRequiredPointsNextTrait(iTrait) > 0:
 				sPoints = str(pPlayer.getTraitPoints(iTrait))
 				sGoal = str(pPlayer.getMinRequiredPointsNextTrait(iTrait))
-				screen.setTableText("WBPlayerTraits", 1, iRow, "<font=3>" + sPoints + " / " + sGoal + "</font>", ItemInfo.getButton(), WidgetTypes.WIDGET_PYTHON, 7884, iTrait, CvUtil.FONT_LEFT_JUSTIFY)
+				screen.setTableText("WBPlayerTraits", 1, iRow, "<font=3>" + sPoints + " / " + sGoal + "</font>", "", WidgetTypes.WIDGET_PYTHON, 7884, iTrait, CvUtil.FONT_LEFT_JUSTIFY)
 			iRow += 1
 
 	def placeReligions(self):
@@ -299,7 +300,7 @@ class WBPlayerScreen:
 		screen = CyGInterfaceScreen("WBPlayerScreen", CvScreenEnums.WB_PLAYER)
 		iX = 20
 		iY = screen.getYResolution()/2 + 30
-		iWidth = screen.getXResolution() - 40
+		iWidth = screen.getXResolution() * 3 / 4 - 40 
 		screen.setLabel("CivicsHeader", "Background", "<font=3b>" + CyTranslator().getText("TXT_KEY_PEDIA_CATEGORY_CIVIC",()) + "</font>", CvUtil.FONT_CENTER_JUSTIFY, iX + iWidth/2, iY, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 
 		iY += 30
@@ -337,6 +338,45 @@ class WBPlayerScreen:
 			if iCivicOption % iColumns == iColumns -1 and iCivicOption < gc.getNumCivicOptionInfos() -1:
 				screen.appendTableRow("WBPlayerCivics")
 				iCurrentMaxRow = iMaxRow + 2
+
+	def placeFlags (self):
+		screen = CyGInterfaceScreen("WBPlayerScreen", CvScreenEnums.WB_PLAYER)
+		iX = screen.getXResolution() * 3/4 + 20
+		iY = screen.getYResolution() / 2 + 30
+		iWidth = screen.getXResolution()/4 - 50
+		iHeight = (screen.getYResolution() - iY - 10) /24 * 24 - 24
+		iWidthText = iWidth * 2 / 3
+		iWidthScore = iWidth / 3
+#		iXButton = iX + iWidth - 50
+		lFlag = []
+		for iFlag in xrange(gc.getNumFlagInfos()):
+			sName = gc.getFlagInfo(iFlag).getType()
+			if sName.startswith("FLAG_"):
+				sName = sName[5:]
+			sName = sName.replace("_"," ")
+			sName = sName.title()
+			iCounter = pPlayer.getFlagValue(iFlag)
+			lFlag.append([sName, iFlag, iCounter])
+		lFlag.sort()
+		screen.addTableControlGFC("WBPlayerFlags", 4, iX, iY, iWidth, iHeight, False, False, 24, 24, TableStyles.TABLE_STYLE_STANDARD)
+		screen.setTableColumnHeader("WBPlayerFlags", 0, "", iWidthText)
+		screen.setTableColumnHeader("WBPlayerFlags", 1, "", iWidthScore - 72)
+		screen.setTableColumnHeader("WBPlayerFlags", 2, "", 24)
+		screen.setTableColumnHeader("WBPlayerFlags", 3, "", 24)
+		iRow = 0
+		for item in lFlag:
+			screen.appendTableRow("WBPlayerFlags")
+			iFlag = item[1]
+			sName = item[0]
+			iCounter = item[2]
+			sColor	= CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
+			if iCounter > 0:
+				sColor	= CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
+			screen.setTableText("WBPlayerFlags", 0, iRow, "<font=3>" + sColor + sName + "</color></font>", "", WidgetTypes.WIDGET_PYTHON, 7885, iFlag, CvUtil.FONT_LEFT_JUSTIFY)
+			screen.setTableText("WBPlayerFlags", 1, iRow, "<font=3>" + str(iCounter) + "</font>", "", WidgetTypes.WIDGET_PYTHON, 7885, iFlag, CvUtil.FONT_LEFT_JUSTIFY)
+			screen.setTableText("WBPlayerFlags", 2, iRow, "<font=4>" + "+" + "</font>", "", WidgetTypes.WIDGET_PYTHON, 1030, iFlag, CvUtil.FONT_LEFT_JUSTIFY)
+			screen.setTableText("WBPlayerFlags", 3, iRow, "<font=4>" + "-" + "</font>", "", WidgetTypes.WIDGET_PYTHON, 1031, iFlag, CvUtil.FONT_LEFT_JUSTIFY)
+			iRow += 1
 
 	def handleInput (self, inputClass):
 		screen = CyGInterfaceScreen( "WBPlayerScreen", CvScreenEnums.WB_PLAYER)
@@ -452,6 +492,17 @@ class WBPlayerScreen:
 				pPlayer.setHasTrait((iTrait),bChange)
 			self.placeTraits()
 			self.placeStats()
+
+		elif inputClass.getFunctionName() == "WBPlayerFlags":
+			iFlag = inputClass.getData2()
+			if inputClass.getData1() == 7885:
+				bChange = not pPlayer.isHasFlag(iFlag)
+				pPlayer.setHasFlag(iFlag, bChange)
+			elif inputClass.getData1() == 1030:
+				pPlayer.changeFlagValue(iFlag, iChange)
+			elif inputClass.getData1() == 1031:
+				pPlayer.changeFlagValue(iFlag, -iChange)
+			self.placeFlags()
 
 		elif inputClass.getFunctionName() == "WBPlayerReligions":
 			iReligion = inputClass.getData1()
