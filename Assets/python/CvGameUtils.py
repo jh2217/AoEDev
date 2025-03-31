@@ -3785,6 +3785,9 @@ class CvGameUtils:
 ## Trait Text ##
 			elif iData1 == 7884:
 				return CyGameTextMgr().parseTraits(iData2, -1, false)
+## Flag Text ##
+			elif iData1 == 7885:
+				return gc.getFlagInfo(iData2).getDescription()
 ## Corporation Screen ##
 			elif iData1 == 8201:
 				return CyGameTextMgr().parseCorporationInfo(iData2, False)
