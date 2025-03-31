@@ -6,6 +6,14 @@
 <!-- Game Text - Units -->
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<TEXT>
+		<Tag>TXT_KEY_CIV_GOBLIN_STRATEGY</Tag>
+		<English>Strategy:</English>
+		<French>Strategy</French>
+		<German>Strategy</German>
+		<Italian>Strategy</Italian>
+		<Spanish>Strategy</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_MAGE_NEITH_CLAN</Tag>
 		<English>Neith Clan Mage</English>
 		<French>Mage du Clan Neith Clan</French>
