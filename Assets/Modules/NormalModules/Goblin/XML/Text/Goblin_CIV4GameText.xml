@@ -7,11 +7,111 @@
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<TEXT>
 		<Tag>TXT_KEY_CIV_GOBLIN_STRATEGY</Tag>
-		<English>Strategy:</English>
-		<French>Strategy</French>
-		<German>Strategy</German>
-		<Italian>Strategy</Italian>
-		<Spanish>Strategy</Spanish>
+		<English>Strategy: 
+
+The Chimar must decide what they want to build in their cities from the moment new cities are built.  Be mindful of your selections!
+
+[ICON_BULLET]1: Your capital should be Muris (recon) or Scorpion (archery) for the easiest start.  Neith (magic) at least gets you 3 power units.  Lukos (mounted) is the most challenging start.
+
+[ICON_BULLET]2: Early defense can be difficult for the Chimar - don't be afraid to build more goblins than the norm.  Remember that you can build defensive melee in any city if needed.
+
+[ICON_BULLET]3: Your unique worker, [LINK=UNIT_GRETCHIN]Gretchin[\LINK], costs no food to produce but is less effective than other workers and gets no experience.  They do have attack power, so if an enemy attacks a stack of gretchin only one will die.  You will want a lot of gretchin.
+
+[ICON_BULLET]4: Flat worker-boosters are expecially valuable to the Chimar.  These include the spell [LINK=SPELL_ENCHANTED_BLADE]enchanted blade[\LINK] (Enchantment), or the resources [LINK=BONUS_STONE]stone[\LINK] ([LINK=TECH_MASONRY]masonry[\LINK]) or [LINK=BONUS_OBSIDIAN]obsidian[\LINK] ([LINK=TECH_CONSTRUCTION]construction[\LINK]).
+
+[ICON_BULLET]5: It's a good idea to have multiple clan cities around for flexibility, but you don't always need all of them.  Try to focus on one or two clans - if you're relying on defensive melee, you might not need a Scorpion city; whereas if you lack [LINK=TECH_STIRRUPS]stirrups[\LINK], a Lukos city may not help as much as another city that can produce [LINK=UNIT_RANGER]rangers[\LINK].
+
+[ICON_BULLET]6: Neith cities are good at science (Only they can build [LINK=BUILDING_ALCHEMY_LAB]alchemy labs[\LINK]), and thus are good choices for island cities or other high-commerce-low-production areas.
+
+[ICON_BULLET]7: Remember that religious units can help cover you.  Most religious units can replace defensive melee for purposes of defense, enabling you to continue focusing down the tech line that you're trying to specialize in.
+
+[ICON_BULLET]8: With [LINK=TRAIT_WARLORD]Warlord[\LINK]/[LINK=TRAIT_CHARISMATIC]Charismatic[\LINK], [LINK=LEADER_GOBLIN]Gurlug[\LINK] is good at helping goblins grow from battles - take advantage of this even if it's a touch risky.  Success will get bolstered by [LINK=PROMOTION_AMBITION]ambition[\LINK] and being charismatic.
+
+Author - Kantolin</English>
+		<French>Strategy: 
+
+The Chimar must decide what they want to build in their cities from the moment new cities are built.  Be mindful of your selections!
+
+[ICON_BULLET]1: Your capital should be Muris (recon) or Scorpion (archery) for the easiest start.  Neith (magic) at least gets you 3 power units.  Lukos (mounted) is the most challenging start.
+
+[ICON_BULLET]2: Early defense can be difficult for the Chimar - don't be afraid to build more goblins than the norm.  Remember that you can build defensive melee in any city if needed.
+
+[ICON_BULLET]3: Your unique worker, [LINK=UNIT_GRETCHIN]Gretchin[\LINK], costs no food to produce but is less effective than other workers and gets no experience.  They do have attack power, so if an enemy attacks a stack of gretchin only one will die.  You will want a lot of gretchin.
+
+[ICON_BULLET]4: Flat worker-boosters are expecially valuable to the Chimar.  These include the spell [LINK=SPELL_ENCHANTED_BLADE]enchanted blade[\LINK] (Enchantment), or the resources [LINK=BONUS_STONE]stone[\LINK] ([LINK=TECH_MASONRY]masonry[\LINK]) or [LINK=BONUS_OBSIDIAN]obsidian[\LINK] ([LINK=TECH_CONSTRUCTION]construction[\LINK]).
+
+[ICON_BULLET]5: It's a good idea to have multiple clan cities around for flexibility, but you don't always need all of them.  Try to focus on one or two clans - if you're relying on defensive melee, you might not need a Scorpion city; whereas if you lack [LINK=TECH_STIRRUPS]stirrups[\LINK], a Lukos city may not help as much as another city that can produce [LINK=UNIT_RANGER]rangers[\LINK].
+
+[ICON_BULLET]6: Neith cities are good at science (Only they can build [LINK=BUILDING_ALCHEMY_LAB]alchemy labs[\LINK]), and thus are good choices for island cities or other high-commerce-low-production areas.
+
+[ICON_BULLET]7: Remember that religious units can help cover you.  Most religious units can replace defensive melee for purposes of defense, enabling you to continue focusing down the tech line that you're trying to specialize in.
+
+[ICON_BULLET]8: With [LINK=TRAIT_WARLORD]Warlord[\LINK]/[LINK=TRAIT_CHARISMATIC]Charismatic[\LINK], [LINK=LEADER_GOBLIN]Gurlug[\LINK] is good at helping goblins grow from battles - take advantage of this even if it's a touch risky.  Success will get bolstered by [LINK=PROMOTION_AMBITION]ambition[\LINK] and being charismatic.
+
+Author - Kantolin</French>
+		<German>Strategy: 
+
+The Chimar must decide what they want to build in their cities from the moment new cities are built.  Be mindful of your selections!
+
+[ICON_BULLET]1: Your capital should be Muris (recon) or Scorpion (archery) for the easiest start.  Neith (magic) at least gets you 3 power units.  Lukos (mounted) is the most challenging start.
+
+[ICON_BULLET]2: Early defense can be difficult for the Chimar - don't be afraid to build more goblins than the norm.  Remember that you can build defensive melee in any city if needed.
+
+[ICON_BULLET]3: Your unique worker, [LINK=UNIT_GRETCHIN]Gretchin[\LINK], costs no food to produce but is less effective than other workers and gets no experience.  They do have attack power, so if an enemy attacks a stack of gretchin only one will die.  You will want a lot of gretchin.
+
+[ICON_BULLET]4: Flat worker-boosters are expecially valuable to the Chimar.  These include the spell [LINK=SPELL_ENCHANTED_BLADE]enchanted blade[\LINK] (Enchantment), or the resources [LINK=BONUS_STONE]stone[\LINK] ([LINK=TECH_MASONRY]masonry[\LINK]) or [LINK=BONUS_OBSIDIAN]obsidian[\LINK] ([LINK=TECH_CONSTRUCTION]construction[\LINK]).
+
+[ICON_BULLET]5: It's a good idea to have multiple clan cities around for flexibility, but you don't always need all of them.  Try to focus on one or two clans - if you're relying on defensive melee, you might not need a Scorpion city; whereas if you lack [LINK=TECH_STIRRUPS]stirrups[\LINK], a Lukos city may not help as much as another city that can produce [LINK=UNIT_RANGER]rangers[\LINK].
+
+[ICON_BULLET]6: Neith cities are good at science (Only they can build [LINK=BUILDING_ALCHEMY_LAB]alchemy labs[\LINK]), and thus are good choices for island cities or other high-commerce-low-production areas.
+
+[ICON_BULLET]7: Remember that religious units can help cover you.  Most religious units can replace defensive melee for purposes of defense, enabling you to continue focusing down the tech line that you're trying to specialize in.
+
+[ICON_BULLET]8: With [LINK=TRAIT_WARLORD]Warlord[\LINK]/[LINK=TRAIT_CHARISMATIC]Charismatic[\LINK], [LINK=LEADER_GOBLIN]Gurlug[\LINK] is good at helping goblins grow from battles - take advantage of this even if it's a touch risky.  Success will get bolstered by [LINK=PROMOTION_AMBITION]ambition[\LINK] and being charismatic.
+
+Author - Kantolin</German>
+		<Italian>Strategy: 
+
+The Chimar must decide what they want to build in their cities from the moment new cities are built.  Be mindful of your selections!
+
+[ICON_BULLET]1: Your capital should be Muris (recon) or Scorpion (archery) for the easiest start.  Neith (magic) at least gets you 3 power units.  Lukos (mounted) is the most challenging start.
+
+[ICON_BULLET]2: Early defense can be difficult for the Chimar - don't be afraid to build more goblins than the norm.  Remember that you can build defensive melee in any city if needed.
+
+[ICON_BULLET]3: Your unique worker, [LINK=UNIT_GRETCHIN]Gretchin[\LINK], costs no food to produce but is less effective than other workers and gets no experience.  They do have attack power, so if an enemy attacks a stack of gretchin only one will die.  You will want a lot of gretchin.
+
+[ICON_BULLET]4: Flat worker-boosters are expecially valuable to the Chimar.  These include the spell [LINK=SPELL_ENCHANTED_BLADE]enchanted blade[\LINK] (Enchantment), or the resources [LINK=BONUS_STONE]stone[\LINK] ([LINK=TECH_MASONRY]masonry[\LINK]) or [LINK=BONUS_OBSIDIAN]obsidian[\LINK] ([LINK=TECH_CONSTRUCTION]construction[\LINK]).
+
+[ICON_BULLET]5: It's a good idea to have multiple clan cities around for flexibility, but you don't always need all of them.  Try to focus on one or two clans - if you're relying on defensive melee, you might not need a Scorpion city; whereas if you lack [LINK=TECH_STIRRUPS]stirrups[\LINK], a Lukos city may not help as much as another city that can produce [LINK=UNIT_RANGER]rangers[\LINK].
+
+[ICON_BULLET]6: Neith cities are good at science (Only they can build [LINK=BUILDING_ALCHEMY_LAB]alchemy labs[\LINK]), and thus are good choices for island cities or other high-commerce-low-production areas.
+
+[ICON_BULLET]7: Remember that religious units can help cover you.  Most religious units can replace defensive melee for purposes of defense, enabling you to continue focusing down the tech line that you're trying to specialize in.
+
+[ICON_BULLET]8: With [LINK=TRAIT_WARLORD]Warlord[\LINK]/[LINK=TRAIT_CHARISMATIC]Charismatic[\LINK], [LINK=LEADER_GOBLIN]Gurlug[\LINK] is good at helping goblins grow from battles - take advantage of this even if it's a touch risky.  Success will get bolstered by [LINK=PROMOTION_AMBITION]ambition[\LINK] and being charismatic.
+
+Author - Kantolin</Italian>
+		<Spanish>Strategy: 
+
+The Chimar must decide what they want to build in their cities from the moment new cities are built.  Be mindful of your selections!
+
+[ICON_BULLET]1: Your capital should be Muris (recon) or Scorpion (archery) for the easiest start.  Neith (magic) at least gets you 3 power units.  Lukos (mounted) is the most challenging start.
+
+[ICON_BULLET]2: Early defense can be difficult for the Chimar - don't be afraid to build more goblins than the norm.  Remember that you can build defensive melee in any city if needed.
+
+[ICON_BULLET]3: Your unique worker, [LINK=UNIT_GRETCHIN]Gretchin[\LINK], costs no food to produce but is less effective than other workers and gets no experience.  They do have attack power, so if an enemy attacks a stack of gretchin only one will die.  You will want a lot of gretchin.
+
+[ICON_BULLET]4: Flat worker-boosters are expecially valuable to the Chimar.  These include the spell [LINK=SPELL_ENCHANTED_BLADE]enchanted blade[\LINK] (Enchantment), or the resources [LINK=BONUS_STONE]stone[\LINK] ([LINK=TECH_MASONRY]masonry[\LINK]) or [LINK=BONUS_OBSIDIAN]obsidian[\LINK] ([LINK=TECH_CONSTRUCTION]construction[\LINK]).
+
+[ICON_BULLET]5: It's a good idea to have multiple clan cities around for flexibility, but you don't always need all of them.  Try to focus on one or two clans - if you're relying on defensive melee, you might not need a Scorpion city; whereas if you lack [LINK=TECH_STIRRUPS]stirrups[\LINK], a Lukos city may not help as much as another city that can produce [LINK=UNIT_RANGER]rangers[\LINK].
+
+[ICON_BULLET]6: Neith cities are good at science (Only they can build [LINK=BUILDING_ALCHEMY_LAB]alchemy labs[\LINK]), and thus are good choices for island cities or other high-commerce-low-production areas.
+
+[ICON_BULLET]7: Remember that religious units can help cover you.  Most religious units can replace defensive melee for purposes of defense, enabling you to continue focusing down the tech line that you're trying to specialize in.
+
+[ICON_BULLET]8: With [LINK=TRAIT_WARLORD]Warlord[\LINK]/[LINK=TRAIT_CHARISMATIC]Charismatic[\LINK], [LINK=LEADER_GOBLIN]Gurlug[\LINK] is good at helping goblins grow from battles - take advantage of this even if it's a touch risky.  Success will get bolstered by [LINK=PROMOTION_AMBITION]ambition[\LINK] and being charismatic.
+
+Author - Kantolin</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MAGE_NEITH_CLAN</Tag>
