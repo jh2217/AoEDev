@@ -426,12 +426,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 	bool bAlt = gDLL->altKey();
 	float fValue;
 
-/*************************************************************************************************/
-/**	MinAge									07/13/08								Xienwolf	**/
-/**																								**/
-/**				Displays the Unit Combat Type, Ranged Damage and Age of the Unit				**/
-/*************************************************************************************************/
-
+	// CombatType, religion, chest
 	if (pUnit->getUnitCombatType() != NO_UNITCOMBAT)
 	{
 		szTempBuffer.Format(L"<img=%S size=16></img> ", GC.getUnitCombatInfo(pUnit->getUnitCombatType()).getButton());
@@ -471,9 +466,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 	}
 	// Unit Level and Age
 	szString.append(gDLL->getText("TXT_KEY_UNIT_LVL" , pUnit->getLevel() , (GC.getGameINLINE().getGameTurn() - pUnit->getGameTurnCreated()) * 100 / GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getGrowthPercent()));
-/*************************************************************************************************/
-/** MobileCage					Opera															**/
-/*************************************************************************************************/
+
+	// Leash : Opera
 	if (pUnit->isLeashed())
 	{
 		if (pUnit->getOwnerINLINE() != GC.getGameINLINE().getActivePlayer())
@@ -481,9 +475,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			szString.append(gDLL->getText("TXT_KEY_LEASHED"));
 		}
 	}
-/*************************************************************************************************/
-/** MobileCage					END																**/
-/*************************************************************************************************/
 	szString.append(NEWLINE);
 
 	bool bCtrl = gDLL->ctrlKey();
@@ -575,10 +566,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(szTempBuffer);
 			}
 		}
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
+
+		// Hitpoints > 100 : Snarko 28/01/11
 		if(pUnit->combatLimit() == GC.getMAX_HIT_POINTS())
 		{
 			szTempBuffer.Format(L"%c, ", gDLL->getSymbolID(STRENGTH_CHAR));
@@ -587,13 +576,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		{
 			szTempBuffer.Format(L"%c" SETCOLR L"%d%%" ENDCOLR L", ", gDLL->getSymbolID(STRENGTH_CHAR), TEXT_COLOR("COLOR_UNIT_TEXT"), pUnit->combatLimit() / GC.getDefineINT("HIT_POINT_FACTOR"));
 		}
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 		szString.append(szTempBuffer);
-/*************************************************************************************************/
-/**	MinAge										END												**/
-/*************************************************************************************************/
 
 	}
 	//Magic Rework
@@ -620,14 +603,9 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 	}
 
 	eBuild = pUnit->getBuildType();
-
+	//  Creates a list of Builds, which are executed before the main build if reqs are met : Valkrionn 7/18/10
 	if (eBuild != NO_BUILD)
 	{
-/*************************************************************************************************/
-/**	LinkedBuilds							7/18/10									Valkrionn	**/
-/**																								**/
-/**		Creates a list of Builds, which are executed before the main build if reqs are met		**/
-/*************************************************************************************************/
 		if (GC.getBuildInfo(eBuild).getNumLinkedBuilds() > 0)
 		{
 			int iNumLinkedBuilds = GC.getBuildInfo(eBuild).getNumLinkedBuilds();
@@ -656,45 +634,31 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				}
 			}
 		}
-/*Always list this		else
-		{ */
-			szString.append(L", ");
-			szTempBuffer.Format(L"%s (%d)", GC.getBuildInfo(eBuild).getDescription(), pUnit->plot()->getBuildTurnsLeft(eBuild, 0, 0));
-			szString.append(szTempBuffer);
-/*		}*/
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
+		// Always show in-progress builds
+		szString.append(L", ");
+		szTempBuffer.Format(L"%s (%d)", GC.getBuildInfo(eBuild).getDescription(), pUnit->plot()->getBuildTurnsLeft(eBuild, 0, 0));
+		szString.append(szTempBuffer);
 	}
 
 	if (pUnit->getImmobileTimer() > 0)
 	{
 		szString.append(L", ");
 
-//FfH: Modified by Kael 09/15/2008
-//		szString.append(gDLL->getText("TXT_KEY_UNIT_HELP_IMMOBILE", pUnit->getImmobileTimer()));
+		//FfH: Modified by Kael 09/15/2008
+		// szString.append(gDLL->getText("TXT_KEY_UNIT_HELP_IMMOBILE", pUnit->getImmobileTimer()));
 		if (pUnit->isHeld())
 		{
 			szString.append(gDLL->getText("TXT_KEY_UNIT_HELP_HELD"));
 		}
-/*************************************************************************************************/
-/**	Xienwolf Tweak							02/01/09											**/
-/**																								**/
-/**						Reminds you what spell the unit is trying to cast						**/
-/*************************************************************************************************/
+		// Reminder for units with slow casting : Xienwolf 02/01/09
 		else if (pUnit->getDelayedSpell() != NO_SPELL)
 		{
 			szString.append(gDLL->getText("TXT_KEY_UNIT_HELP_DELAYED_CASTING", GC.getSpellInfo((SpellTypes)pUnit->getDelayedSpell()).getDescription(), pUnit->getImmobileTimer()));
 		}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 		else
 		{
 			szString.append(gDLL->getText("TXT_KEY_UNIT_HELP_IMMOBILE", pUnit->getImmobileTimer()));
 		}
-//FfH: End Modify
-
 	}
 
 
@@ -709,11 +673,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 	{
 		if ((pUnit->getExperience() > 0) && !(pUnit->isFighting()))
 		{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							11/06/08											**/
-/**																								**/
-/**					Allows XP to be gained in 1/100 units instead of INTs						**/
-/*************************************************************************************************/
+			// fractional xp tweak : Xienwolf 11/06/08
 			float fValue = (float)pUnit->getExperience();
 			float fValue2 = (float)pUnit->experienceNeeded();
 			if (fmod(fValue,100) == 0)
@@ -741,24 +701,14 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szTempBuffer2.Format(L"%.2f", fValue2/100);
 			}
 			szString.append(gDLL->getText("TXT_KEY_UNIT_HELP_LEVEL", szTempBuffer.GetCString(), szTempBuffer2.GetCString()));
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 		}
 	}
 
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/22/08											**/
-/**																								**/
-/**				Maintains Display of Civilization Leader for Barbarian Tribes & HN				**/
-/*************************************************************************************************/
+	// Maintains Display of Civilization Leader for Barbarian Tribes & HN : Xienwolf 12/22/08
 	if (pUnit->getOwnerINLINE() != GC.getGameINLINE().getActivePlayer())
 	{
 		szString.append(L", ");
 		szTempBuffer.Format(SETCOLR L"%s" ENDCOLR, GET_PLAYER(pUnit->getVisualOwner(NO_TEAM)).getPlayerTextColorR(), GET_PLAYER(pUnit->getVisualOwner(NO_TEAM)).getPlayerTextColorG(), GET_PLAYER(pUnit->getVisualOwner(NO_TEAM)).getPlayerTextColorB(), GET_PLAYER(pUnit->getVisualOwner(NO_TEAM)).getPlayerTextColorA(), GET_PLAYER(pUnit->getVisualOwner(NO_TEAM)).getName());
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 		szString.append(szTempBuffer);
 	}
 
@@ -766,11 +716,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 	{
 		if (pUnit->isHasPromotion((PromotionTypes)iI))
 		{
-/*************************************************************************************************/
-/**	GM Action								05/20/08								Xienwolf	**/
-/**																								**/
-/**					Hides the small icon from showing in Unit Mouseover							**/
-/*************************************************************************************************/
+			// Show non-effect promotions from mouseover : Xienwolf GM Action 05/20/08
 			if (!GC.getPromotionInfo((PromotionTypes)iI).isEffectProm())
 			{
 				if(pUnit->countHasPromotion((PromotionTypes)iI) == 1)
@@ -784,9 +730,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					szString.append(szTempBuffer);
 				}
 			}
-/*************************************************************************************************/
-/**	GM Action									END												**/
-/*************************************************************************************************/
 		}
 	}
 	if (bAlt && (gDLL->getChtLvl() > 0))
@@ -804,11 +747,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		}
 	}
 
-/*************************************************************************************************/
-/**	Whiplash								07/23/08								Xienwolf	**/
-/**																								**/
-/**					Displays the name of Summoner for Conjured Units							**/
-/*************************************************************************************************/
+	// Show summoner name for conjured units : Whiplash Xienwolf 07/23/08
 	if (pUnit->getMasterUnit() != NULL)
 	{
 		szString.append(NEWLINE);
@@ -853,28 +792,10 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		}
 		szString.append(gDLL->getText("TXT_KEY_UNIT_COMMANDING", pUnit->getNumMinions(), pUnit->getCommandLimit(), szTempBuffer.GetCString(), pUnit->getCommandRange()));
 	}
-/*************************************************************************************************/
-/**	Whiplash								END													**/
-/*************************************************************************************************/
+	// End Whiplash
+
 	if (!bOneLine)
 	{
-
-//FfH: Added by Kael 07/23/2007
-/*************************************************************************************************/
-/**	Xienwolf Tweak							01/19/09											**/
-/**																								**/
-/**								Replaced with Icon before Name									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		if (pUnit->getReligion() != NO_RELIGION)
-		{
-			szString.append(NEWLINE);
-			szString.append(gDLL->getText("TXT_KEY_UNIT_RELIGION", GC.getReligionInfo((ReligionTypes)pUnit->getReligion()).getDescription()));
-		}
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 		if (!pUnit->isAlive())
 		{
 			szString.append(NEWLINE);
@@ -887,11 +808,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			szString.append(gDLL->getText("TXT_KEY_UNIT_HAS_CASTED"));
 			szString.append(CvWString::format(ENDCOLR));
 		}
-/*************************************************************************************************/
-/**	Xienwolf Tweak							10/03/08											**/
-/**																								**/
-/**							Allows Twincast to cast a seperate spell, and stack					**/
-/*************************************************************************************************/
+
+		// Multicasting for e.g. twincast : Xienwolf 10/03/08
 		else
 		{
 			if (pUnit->getCastingLimit() > 0)
@@ -900,21 +818,13 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_UNIT_CAN_CAST", pUnit->getCastingLimit()+1));
 			}
 		}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Renewing								05/19/08								Xienwolf	**/
-/**																								**/
-/**					Modification to display actual turns till Expiration						**/
-/*************************************************************************************************/
-
 	}
 	if (pUnit->isBlind())
 	{
 		szString.append(NEWLINE);
 		szString.append(gDLL->getText("TXT_KEY_UNIT_BLIND"));
 	}
+	// Showing actual turns until expiration : Renewing Xienwolf 05/19/08
 	if (pUnit->getDuration() != 0 && pUnit->getDurationPerTurn() < 1)
 	{
 		szString.append(NEWLINE);
@@ -940,11 +850,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		}
 	}
 
-/*************************************************************************************************/
-/**	AutoCast								24/05/10									Snarko	**/
-/**																								**/
-/**						Making the human able to set units to autocast spells					**/
-/*************************************************************************************************/
+	// Autocast for humans : Autocast Snarko 24/05/10
 	if (pUnit->isAutoCast(true))
 	{
 		szString.append(NEWLINE);
@@ -955,15 +861,9 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		szString.append(NEWLINE);
 		szString.append(gDLL->getText("TXT_KEY_UNIT_AUTOCAST", GC.getSpellInfo(pUnit->getAutoCast()).getDescription()));
 	}
-/*************************************************************************************************/
-/**	Autocast								END													**/
-/*************************************************************************************************/
 
 	if (!bOneLine)
 	{
-/*************************************************************************************************/
-/**	Renewing									END												**/
-/*************************************************************************************************/
 		for (int iJ=0;iJ<GC.getNumPromotionInfos();iJ++)
 		{
 			if (pUnit->isHasPromotion((PromotionTypes)iJ) && GC.getPromotionInfo((PromotionTypes)iJ).getNumPromotionCombatMods() > 0)
@@ -974,11 +874,11 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 							szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_MOD_VS_TYPE", GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMods(iK,true), GC.getPromotionInfo((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMods(iK, false)).getTextKeyWide()));
 				}
 			}
-		//	if (pUnit->isHasPromotion((PromotionTypes)iJ) && GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod()!=0)
-		//	{
-		//		szString.append(NEWLINE);
-		//		szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_MOD_VS_TYPE", GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod(), GC.getPromotionInfo((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatType()).getTextKeyWide()));
-		//	}
+			// if (pUnit->isHasPromotion((PromotionTypes)iJ) && GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod()!=0)
+			// {
+			// 	szString.append(NEWLINE);
+			// 	szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_MOD_VS_TYPE", GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatMod(), GC.getPromotionInfo((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iJ).getPromotionCombatType()).getTextKeyWide()));
+			// }
 			//ReligionCombatBonus by BI 07/25/11
 			if (pUnit->isHasPromotion((PromotionTypes)iJ) && GC.getPromotionInfo((PromotionTypes)iJ).getReligionCombatMod()>0)
 			{
@@ -987,7 +887,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			}
 
 		}
-//FfH: End Add
 
 		setEspionageMissionHelp(szString, pUnit);
 
@@ -1030,12 +929,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(NEWLINE);
 				szString.append(gDLL->getText("TXT_KEY_UNIT_INVISIBLE_ALL"));
 			}
-/*************************************************************************************************/
-/**	Xienwolf Tweak							09/27/08											**/
-/**																								**/
-/**							Allows Multiple Invisible types on a Unit							**/
-/*************************************************************************************************/
 
+			// Allow multiple types of invis : Xienwolf 09/27/08
 			else if (pUnit->getNumInvisibleTypes() > 0)
 			{
 				bool bFirst = true;
@@ -1111,14 +1006,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			//	}
 			//	szString.append(gDLL->getText("TXT_KEY_UNIT_SEE_INVISIBLE", szTempBuffer.GetCString()));
 			//}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 
-/*************************************************************************************************/
-/** Free XP cap                                                                                 **/
-/*************************************************************************************************/
-			
+			// Cap on free XP
 			szTempBuffer.clear();
 			szTempBuffer2.clear();
 			float fXPRate = (float)pUnit->getRealSpellCasterXPRate() / 100;
@@ -1178,12 +1067,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
 
-/*************************************************************************************************/
-/** Free XP cap                                                                             END **/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/** Move impassable                                                                             **/
-/*************************************************************************************************/
 			if (pUnit->canMoveImpassable())
 			{
 				szString.append(NEWLINE);
@@ -1191,12 +1074,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_UNIT_CAN_MOVE_IMPASSABLE"));
 				szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
-/*************************************************************************************************/
-/** Move impassable                                                                         END **/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/** Mountain Climbing                                                                           **/
-/*************************************************************************************************/
 			if (pUnit->canClimbPeaks())
 			{
 				szString.append(NEWLINE);
@@ -1204,28 +1081,14 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_UNIT_CAN_CLIMB_PEAKS"));
 				szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
-/*************************************************************************************************/
-/** Mountain Climbing                                                                       END **/
-/*************************************************************************************************/
 		}
-		/*************************************************************************************************/
-/**	Sidar Mist 								25/06/10								Grey Fox	**/
-/*************************************************************************************************/
+
 		if (pUnit->getPerception() != 0)
 		{
 			szString.append(NEWLINE);
 			szString.append(gDLL->getText("TXT_KEY_UNIT_PERCEPTION", pUnit->getPerception(), (pUnit->getPerception() - 1)));
 		}
-		/*************************************************************************************************/
-		/**	END                                                                   						**/
-		/*************************************************************************************************/
-
-/*************************************************************************************************/
-/** not bShort ???                                                                          END **/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/** Leash                                                                                       **/
-/*************************************************************************************************/
+		// Leash
 		if (pUnit->isLeashed())
 		{
 			if (pUnit->getOwnerINLINE() == GC.getGameINLINE().getActivePlayer())
@@ -1236,51 +1099,39 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
 		}
-/*************************************************************************************************/
-/** Leash                                         END                                           **/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/** Affinities                                                                                  **/
-/*************************************************************************************************/
-	bFirst = true;
-	szTempBuffer.clear();
-	szString.append(NEWLINE);
-	for (iI = 0; iI < GC.getNumAffinityInfos(); iI++)
-	{
-		if (pUnit->isAffinity((AffinityTypes)iI))
+
+		// Affinities
+		bFirst = true;
+		szTempBuffer.clear();
+		szString.append(NEWLINE);
+		for (iI = 0; iI < GC.getNumAffinityInfos(); iI++)
 		{
-			if (bFirst)
+			if (pUnit->isAffinity((AffinityTypes)iI))
 			{
-				szTempBuffer.append(gDLL->getText("TXT_KEY_UNIT_AFFINITIES"));
-				bFirst = false;
+				if (bFirst)
+				{
+					szTempBuffer.append(gDLL->getText("TXT_KEY_UNIT_AFFINITIES"));
+					bFirst = false;
+				}
+				else
+				{
+					szTempBuffer.append(gDLL->getText("TXT_KEY_AND"));
+				}
+				szTempBuffer.append(gDLL->getText("TXT_KEY_COLOR_POSITIVE"));
+				szTempBuffer.append(GC.getAffinityInfo((AffinityTypes)iI).getDescription());
+				szTempBuffer.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
-			else
-			{
-				szTempBuffer.append(gDLL->getText("TXT_KEY_AND"));
-			}
-			szTempBuffer.append(gDLL->getText("TXT_KEY_COLOR_POSITIVE"));
-			szTempBuffer.append(GC.getAffinityInfo((AffinityTypes)iI).getDescription());
-			szTempBuffer.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 		}
-	}
-	szString.append(szTempBuffer);
-/*************************************************************************************************/
-/** Affinities                                    END                                           **/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/** Shades					  				07/30/10								Valkrionn	**/
-/*************************************************************************************************/
+		szString.append(szTempBuffer);
+
+		// Shades : Valkrionn 07/30/10
 		if (pUnit->isLeveledImmortality())
 		{
 			szString.append(NEWLINE);
 			szString.append(gDLL->getText("TXT_KEY_PROMOTION_LEVELED_IMMORTALITY"));
 		}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/** First Strikes                                                                               **/
-/*************************************************************************************************/
+
+		// First strikes
 		if (pUnit->maxFirstStrikes() > 0)
 		{
 			szString.append(NEWLINE);
@@ -1299,9 +1150,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			szString.append(NEWLINE);
 			szString.append(gDLL->getText("TXT_KEY_UNIT_IMMUNE_FIRST_STRIKES"));
 		}
-/*************************************************************************************************/
-/** First Strikes                                                                           END **/
-/*************************************************************************************************/
 		if (!bShort)
 		{
 			if (pUnit->noDefensiveBonus())
@@ -1328,9 +1176,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
 
-/*************************************************************************************************/
-/**	JRouteNative by Jeckel		imported by Valkrionn	09.28.09                                **/
-/*************************************************************************************************/
+			// JRouteNative : Jeckel, Valkrionn 09.28.09
 			for (iI = 0; iI < GC.getNumRouteInfos(); iI++)
 			{
 				if (GC.getUnitInfo(pUnit->getUnitType()).getRouteNative((RouteTypes) iI))
@@ -1339,9 +1185,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					szString.append(gDLL->getText("TXT_KEY_UNIT_ROUTE_NATIVE", GC.getRouteInfo((RouteTypes) iI).getDescription()));
 				}
 			}
-/*************************************************************************************************/
-/**	JRouteNative                                                                            END **/
-/*************************************************************************************************/
 
 			if (pUnit->isBlitz())
 			{
@@ -1373,19 +1216,9 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_PROMOTION_RIVER_ATTACK_TEXT"));
 				szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
+		}
 
-/*************************************************************************************************/
-/**	New Tag Defs	(UnitInfos)				05/15/08								Xienwolf	**/
-/**	New Tag Defs	(PromotionInfos)		05/15/08											**/
-/**	New Tag Defs	(CityBonuses)			05/15/08											**/
-/**								Displays Information on Tooltips								**/
-/*************************************************************************************************/
-		}	//if (!bShort)
-/************************************************************************************************/
-/* Influence Driven War                   06/08/10                                 Valkrionn    */
-/*                                                                                              */
-/*						Prevents IDW effects within specific borders                            */
-/************************************************************************************************/
+		// IDW effects in specific borders : Influence Driven War Valkrionn 06/08/10
 		if (pUnit->isNonInfluence())
 		{
 			szString.append(NEWLINE);
@@ -1415,9 +1248,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			szString.append(NEWLINE);
 			szString.append(gDLL->getText("TXT_KEY_UNIT_PILLAGE_INFLUENCE", pUnit->getPillageInfluenceModifier()));
 		}
-/*************************************************************************************************/
-/**	END																							**/
-/*************************************************************************************************/
+
 		if (pUnit->getCommandLimit() > 0)
 		{
 			szString.append(NEWLINE);
@@ -2527,9 +2358,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_PROMOTION_NO_BAD_EXPLORE", pUnit->getNoBadExplore()));
 				szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
+
 			if (pUnit->isEnemyRoute())
 			{
 				szString.append(NEWLINE);
@@ -2553,11 +2382,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_PROMOTION_HILLS_MOVE_TEXT"));
 				szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
-/*************************************************************************************************/
-/**	GWS										2010-08-23									Milaga	**/
-/**																								**/
-/**					Units can have movement modifiers for different terrain						**/
-/*************************************************************************************************/
+
+			// Terrain move modifiers : GWS Milaga 2010-08-23
 			if (pUnit->getHillCost() != 0)
 			{
 				szString.append(NEWLINE);
@@ -2572,9 +2398,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_PEAK_TEXT", pUnit->getHillCost()));
 				szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
-/*************************************************************************************************/
-/**	GWS										END													**/
-/*************************************************************************************************/
 			for (iI = 0; iI < GC.getNumTerrainInfos(); ++iI)
 			{
 				if (pUnit->isTerrainDoubleMove((TerrainTypes)iI))
@@ -2584,11 +2407,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					szString.append(gDLL->getText("TXT_KEY_PROMOTION_DOUBLE_MOVE_TEXT", GC.getTerrainInfo((TerrainTypes) iI).getTextKeyWide()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 				}
-/*************************************************************************************************/
-/**	GWS										2010-08-23									Milaga	**/
-/**																								**/
-/**					Units can have movement modifiers for different terrain						**/
-/*************************************************************************************************/
+				// Terrain move modifiers : GWS Milaga 2010-08-23
 				if (pUnit->getTerrainCost((TerrainTypes)iI) != 0)
 				{
 					szString.append(NEWLINE);
@@ -2596,9 +2415,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_TEXT", pUnit->getTerrainCost((TerrainTypes)iI), GC.getTerrainInfo((TerrainTypes) iI).getTextKeyWide()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 				}
-/*************************************************************************************************/
-/**	GWS										END													**/
-/*************************************************************************************************/
 			}
 
 			for (iI = 0; iI < GC.getNumFeatureInfos(); ++iI)
@@ -2610,11 +2426,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					szString.append(gDLL->getText("TXT_KEY_PROMOTION_DOUBLE_MOVE_TEXT", GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 				}
-/*************************************************************************************************/
-/**	GWS										2010-08-23									Milaga	**/
-/**																								**/
-/**					Units can have movement modifiers for different terrain						**/
-/*************************************************************************************************/
+				// Terrain move modifiers : GWS Milaga 2010-08-23
 				if (pUnit->getFeatureCost((FeatureTypes)iI) != 0)
 				{
 					szString.append(NEWLINE);
@@ -2622,9 +2434,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_TEXT", pUnit->getFeatureCost((FeatureTypes)iI), GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 				}
-/*************************************************************************************************/
-/**	GWS										END													**/
-/*************************************************************************************************/
 			}
 
 			if (pUnit->getExtraVisibilityRange() != 0)
@@ -2633,10 +2442,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szString.append(gDLL->getText("TXT_KEY_PROMOTION_VISIBILITY_TEXT", pUnit->getExtraVisibilityRange()));
 			}
 
-/*************************************************************************************************/
-/**	Second Job							08/28/10									Valkrionn	**/
-/**				Allows units to qualify for the promotions of other UnitCombats					**/
-/*************************************************************************************************/
+			// Secondary unitcombats : Second Job Valkrionn 08/28/10
 			bFirst = true;
 			for (int iK = 0; iK < GC.getNumUnitCombatInfos(); iK++)
 			{
@@ -2655,9 +2461,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					bFirst = false;
 				}
 			}
-/*************************************************************************************************/
-/**	TempCombat									END												**/
-/*************************************************************************************************/
 
 			if (pUnit->getExtraMoveDiscount() != 0)
 			{
@@ -2744,16 +2547,10 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			szString.append(NEWLINE);
 			if (pUnit->getExtraCollateralDamage() == 0)
 			{
-/*************************************************************************************************/
-/**	Higher hitpoints				01/02/11											Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
+				// Edit for >100 hp : higher hitpoints Snarko 01/02/11
 				szString.append(gDLL->getText("TXT_KEY_COLOR_POSITIVE"));
 				szString.append(gDLL->getText("TXT_KEY_UNIT_COLLATERAL_DAMAGE", (pUnit->collateralDamageLimit())));
 				szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 			}
 			else
 			{
@@ -2795,11 +2592,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 		}
 
-/*************************************************************************************************/
-/**	1.4										03/28/11								Valkrionn	**/
-/**																								**/
-/**									New tags required for 1.4									**/
-/*************************************************************************************************/
 		if (pUnit->getExtraRangedCombatPercent() != 0)
 		{
 			szString.append(NEWLINE);
@@ -2815,9 +2607,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 			szString.append(NEWLINE);
 			szString.append(gDLL->getText("TXT_KEY_PROMOTION_RANGED_COMBAT_PERCENT_GLOBAL_COUNTER", pUnit->getRangedCombatPercentGlobalCounter()));
 		}
-/*************************************************************************************************/
-/**												END												**/
-/*************************************************************************************************/
 
 		if (pUnit->cityAttackModifier() == pUnit->cityDefenseModifier())
 		{
@@ -3107,12 +2896,9 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 
 		szTempBuffer.clear();
 		bFirst = true;
-/*************************************************************************************************/
-/**	Updated Flanking						2011-10-30									Jheral	**/
-/**																								**/
-/**					Flanking applies to UnitCombats, rather than UnitClasses					**/
-/*************************************************************************************************/
-	/* Old Code:
+
+		// Flanking applies to UnitCombats, rather than UnitClasses : Updated Flanking Jheral 2011-10-30
+		/* Old Code:
 		for (iI = 0; iI < GC.getNumUnitClassInfos(); ++iI)
 		{
 			if (pUnit->getUnitInfo().getFlankingStrikeUnitClass(iI) > 0)
@@ -3120,9 +2906,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		for (iI = 0; iI < GC.getNumUnitCombatInfos(); ++iI)
 		{
 			if (pUnit->getUnitInfo().getFlankingStrikeUnitCombat(iI) > 0)
-/*************************************************************************************************/
-/**	Updated Flanking						END													**/
-/*************************************************************************************************/
 			{
 				if (bFirst)
 				{
@@ -3132,19 +2915,10 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				{
 					szTempBuffer += L", ";
 				}
-
-/*************************************************************************************************/
-/**	Updated Flanking						2011-10-30									Jheral	**/
-/**																								**/
-/**					Flanking applies to UnitCombats, rather than UnitClasses					**/
-/*************************************************************************************************/
-
-// Old:			szTempBuffer += CvWString::format(L"<link=literal>%s</link>", GC.getUnitClassInfo((UnitClassTypes)iI).getDescription());
+				// Updated Flanking
+				// szTempBuffer += CvWString::format(L"<link=literal>%s</link>", GC.getUnitClassInfo((UnitClassTypes)iI).getDescription());
 				szTempBuffer += CvWString::format(L"<link=literal>%s</link>", GC.getUnitCombatInfo((UnitCombatTypes)iI).getDescription());
 			}
-/*************************************************************************************************/
-/**	Updated Flanking						END													**/
-/*************************************************************************************************/
 		}
 
 		if (!bFirst)
@@ -3189,11 +2963,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		{
 			szTempBuffer.Format(L"\nUnitAI Type = %s.", GC.getUnitAIInfo(pUnit->AI_getUnitAIType()).getDescription());
 			szString.append(szTempBuffer);
-/*************************************************************************************************/
-/**	Xienwolf Tweak							01/14/09											**/
-/**																								**/
-/**							Upgraded functionality from chipotle output							**/
-/*************************************************************************************************/
+
+			// Upgraded functionality from chipotle output : Xienwolf 01/14/09
 			szTempBuffer.Format(L"\nArtStyle Type = %d(unit) %d(Civ)", pUnit->getUnitArtStyleType(), GC.getCivilizationInfo(pUnit->getCivilizationType()).getUnitArtStyleType());
 			szString.append(szTempBuffer);
 			szTempBuffer.Format(L"\nArt Define Tags: ");
@@ -3203,11 +2974,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szTempBuffer.Format(L"\n%S, ", pUnit->getUnitInfo().getEarlyArtDefineTag(iI, NO_UNIT_ARTSTYLE));
 				szString.append(szTempBuffer);
 			}
-/*************************************************************************************************/
-/**	MobileCage								01/28/2010								Valkrionn	**/
-/**																								**/
-/**										Leashes	a unit to a plot								**/
-/*************************************************************************************************/
+
+			// Leash : MobileCage Valkrionn 01/28/2010
 			if (pUnit->isLeashed())
 			{
 				szTempBuffer.Format(L"\nLeash Plot = %d, %d", pUnit->getLeashX(), pUnit->getLeashY());
@@ -3218,14 +2986,8 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					szString.append(szTempBuffer);
 				}
 			}
-/*************************************************************************************************/
-/**	MobileCage									END												**/
-/*************************************************************************************************/
-/************************************************************************************************/
-/* Influence Driven War                   06/08/10                                 Valkrionn    */
-/*                                                                                              */
-/*						Prevents IDW effects within specific borders                            */
-/************************************************************************************************/
+
+			// Prevents IDW effects within specific borders : Influence Driven War Valkrionn 06/08/10
 			if (pUnit->isNonInfluence())
 			{
 				szTempBuffer.Format(L"\nNonInfluence");
@@ -3268,12 +3030,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 
 			szTempBuffer.Format(L"\nPillage Influence = %.2f", fPillageInfluenceModifier);
 			szString.append(szTempBuffer);
-/*************************************************************************************************/
-/**	END																							**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
+
 			szTempBuffer.Format(L"\nSacrifice Value = %d.", pUnit->AI_sacrificeValue(NULL));
 			szString.append(szTempBuffer);
 		}
