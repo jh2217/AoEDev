@@ -30,6 +30,59 @@
 		<Spanish>[TAB]Sombras, hombres que han comerciado partes de su alma por la inmortalidad, los Grises están apartados de los sucesos del mundo. Sólo interviniendo para protegerse o para atacar y destruir a los no-muertos (ven a los no-muertos como aberraciones a pesar de usar ellos mismos la magia para alargar sus vidas), están contentos manteniendo sus ciudades ocultas fuera de los ojos y de las guerras de las razas jóvenes.</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CIV_SIDAR_STRATEGY</Tag>
+		<English>Strategy:
+
+[ICON_BULLET]Any living Sidar unit that reaches level 6 can become a [LINK=UNIT_SHADE]Shade[\LINK], which lets them retire in a city as any Great Person specialist (except Great Prophet and Healer). Sidar strategy thus typically aims to produce plenty of units, keep them alive, and gain levels on them in any way possible.
+[ICON_BULLET]Sidar units that continue being used past level 6 may instead take the [LINK=PROMOTION_GREATER_SHADE]Greater Shade[\LINK] promotion, which gives them a chance to avoid death. The chance is 5% times the unit's level, capped at 95%.
+[ICON_BULLET]Sidar Scouts are replaced with [LINK=UNIT_TRACKLESS]Trackless[\LINK], which cannot be spotted by most units and can ignore borders. These make it straightforward to map the whole world, monitor other civs, and to explore distant lairs.
+[ICON_BULLET]Sidar Hunters are replaced with [LINK=UNIT_DIVIDED_SOUL]Divided Souls[\LINK]. These require both Hunting and Mysticism to produce. They have the ability to teleport around explored parts of the map using their summons, and are very useful for safely attacking vulnerable targets outside of their stack. Be aware that they cannot carry hawks, and that their souls cannot move to tiles which would potentially reveal an unexplored tile.
+[ICON_BULLET]The Sidar hero, [LINK=UNIT_RATHUS]Rathus Denmora[\LINK], in addition to being relatively strong, has a powerful item in the [LINK=PROMOTION_NETHER_BLADE]Netherblade[\LINK]. This blade is fatal to any living unit, win or lose.
+[ICON_BULLET]Sidar territory gradually fills with Mist, which blocks entry to units with less than 3 perception, which is most of them.
+
+Author - 'Doesnt'</English>
+		<French>Strategy:
+
+[ICON_BULLET]Any living Sidar unit that reaches level 6 can become a [LINK=UNIT_SHADE]Shade[\LINK], which lets them retire in a city as any Great Person specialist (except Great Prophet and Healer). Sidar strategy thus typically aims to produce plenty of units, keep them alive, and gain levels on them in any way possible.
+[ICON_BULLET]Sidar units that continue being used past level 6 may instead take the [LINK=PROMOTION_GREATER_SHADE]Greater Shade[\LINK] promotion, which gives them a chance to avoid death. The chance is 5% times the unit's level, capped at 95%.
+[ICON_BULLET]Sidar Scouts are replaced with [LINK=UNIT_TRACKLESS]Trackless[\LINK], which cannot be spotted by most units and can ignore borders. These make it straightforward to map the whole world, monitor other civs, and to explore distant lairs.
+[ICON_BULLET]Sidar Hunters are replaced with [LINK=UNIT_DIVIDED_SOUL]Divided Souls[\LINK]. These require both Hunting and Mysticism to produce. They have the ability to teleport around explored parts of the map using their summons, and are very useful for safely attacking vulnerable targets outside of their stack. Be aware that they cannot carry hawks, and that their souls cannot move to tiles which would potentially reveal an unexplored tile.
+[ICON_BULLET]The Sidar hero, [LINK=UNIT_RATHUS]Rathus Denmora[\LINK], in addition to being relatively strong, has a powerful item in the [LINK=PROMOTION_NETHER_BLADE]Netherblade[\LINK]. This blade is fatal to any living unit, win or lose.
+[ICON_BULLET]Sidar territory gradually fills with Mist, which blocks entry to units with less than 3 perception, which is most of them.
+
+Author - 'Doesnt'</French>
+		<German>Strategy:
+
+[ICON_BULLET]Any living Sidar unit that reaches level 6 can become a [LINK=UNIT_SHADE]Shade[\LINK], which lets them retire in a city as any Great Person specialist (except Great Prophet and Healer). Sidar strategy thus typically aims to produce plenty of units, keep them alive, and gain levels on them in any way possible.
+[ICON_BULLET]Sidar units that continue being used past level 6 may instead take the [LINK=PROMOTION_GREATER_SHADE]Greater Shade[\LINK] promotion, which gives them a chance to avoid death. The chance is 5% times the unit's level, capped at 95%.
+[ICON_BULLET]Sidar Scouts are replaced with [LINK=UNIT_TRACKLESS]Trackless[\LINK], which cannot be spotted by most units and can ignore borders. These make it straightforward to map the whole world, monitor other civs, and to explore distant lairs.
+[ICON_BULLET]Sidar Hunters are replaced with [LINK=UNIT_DIVIDED_SOUL]Divided Souls[\LINK]. These require both Hunting and Mysticism to produce. They have the ability to teleport around explored parts of the map using their summons, and are very useful for safely attacking vulnerable targets outside of their stack. Be aware that they cannot carry hawks, and that their souls cannot move to tiles which would potentially reveal an unexplored tile.
+[ICON_BULLET]The Sidar hero, [LINK=UNIT_RATHUS]Rathus Denmora[\LINK], in addition to being relatively strong, has a powerful item in the [LINK=PROMOTION_NETHER_BLADE]Netherblade[\LINK]. This blade is fatal to any living unit, win or lose.
+[ICON_BULLET]Sidar territory gradually fills with Mist, which blocks entry to units with less than 3 perception, which is most of them.
+
+Author - 'Doesnt'</German>
+		<Italian>Strategy:
+
+[ICON_BULLET]Any living Sidar unit that reaches level 6 can become a [LINK=UNIT_SHADE]Shade[\LINK], which lets them retire in a city as any Great Person specialist (except Great Prophet and Healer). Sidar strategy thus typically aims to produce plenty of units, keep them alive, and gain levels on them in any way possible.
+[ICON_BULLET]Sidar units that continue being used past level 6 may instead take the [LINK=PROMOTION_GREATER_SHADE]Greater Shade[\LINK] promotion, which gives them a chance to avoid death. The chance is 5% times the unit's level, capped at 95%.
+[ICON_BULLET]Sidar Scouts are replaced with [LINK=UNIT_TRACKLESS]Trackless[\LINK], which cannot be spotted by most units and can ignore borders. These make it straightforward to map the whole world, monitor other civs, and to explore distant lairs.
+[ICON_BULLET]Sidar Hunters are replaced with [LINK=UNIT_DIVIDED_SOUL]Divided Souls[\LINK]. These require both Hunting and Mysticism to produce. They have the ability to teleport around explored parts of the map using their summons, and are very useful for safely attacking vulnerable targets outside of their stack. Be aware that they cannot carry hawks, and that their souls cannot move to tiles which would potentially reveal an unexplored tile.
+[ICON_BULLET]The Sidar hero, [LINK=UNIT_RATHUS]Rathus Denmora[\LINK], in addition to being relatively strong, has a powerful item in the [LINK=PROMOTION_NETHER_BLADE]Netherblade[\LINK]. This blade is fatal to any living unit, win or lose.
+[ICON_BULLET]Sidar territory gradually fills with Mist, which blocks entry to units with less than 3 perception, which is most of them.
+
+Author - 'Doesnt'</Italian>
+		<Spanish>Strategy:
+
+[ICON_BULLET]Any living Sidar unit that reaches level 6 can become a [LINK=UNIT_SHADE]Shade[\LINK], which lets them retire in a city as any Great Person specialist (except Great Prophet and Healer). Sidar strategy thus typically aims to produce plenty of units, keep them alive, and gain levels on them in any way possible.
+[ICON_BULLET]Sidar units that continue being used past level 6 may instead take the [LINK=PROMOTION_GREATER_SHADE]Greater Shade[\LINK] promotion, which gives them a chance to avoid death. The chance is 5% times the unit's level, capped at 95%.
+[ICON_BULLET]Sidar Scouts are replaced with [LINK=UNIT_TRACKLESS]Trackless[\LINK], which cannot be spotted by most units and can ignore borders. These make it straightforward to map the whole world, monitor other civs, and to explore distant lairs.
+[ICON_BULLET]Sidar Hunters are replaced with [LINK=UNIT_DIVIDED_SOUL]Divided Souls[\LINK]. These require both Hunting and Mysticism to produce. They have the ability to teleport around explored parts of the map using their summons, and are very useful for safely attacking vulnerable targets outside of their stack. Be aware that they cannot carry hawks, and that their souls cannot move to tiles which would potentially reveal an unexplored tile.
+[ICON_BULLET]The Sidar hero, [LINK=UNIT_RATHUS]Rathus Denmora[\LINK], in addition to being relatively strong, has a powerful item in the [LINK=PROMOTION_NETHER_BLADE]Netherblade[\LINK]. This blade is fatal to any living unit, win or lose.
+[ICON_BULLET]Sidar territory gradually fills with Mist, which blocks entry to units with less than 3 perception, which is most of them.
+
+Author - 'Doesnt'</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIV_SIDAR_SHORT_DESC</Tag>
 		<English>Sidar</English>
 		<French>Sidarae</French>
