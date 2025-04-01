@@ -1305,17 +1305,9 @@ class CvEventManager:
 					pUnit.setHasPromotion(git('PROMOTION_FROZEN_FLAME'), True)
 					CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_1",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/pyreoftheseraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 				else:
-					i = 4
-					if CyMap().getWorldSize() == git('WORLDSIZE_DUEL'):
-						i = i - 3
-					if CyMap().getWorldSize() == git('WORLDSIZE_TINY'):
-						i = i - 2
-					if CyMap().getWorldSize() == git('WORLDSIZE_SMALL'):
-						i = i - 1
-					if CyMap().getWorldSize() == git('WORLDSIZE_LARGE'):
-						i = i + 1
-					if CyMap().getWorldSize() == git('WORLDSIZE_HUGE'):
-						i = i + 3
+					mapSize = CyMap().getWorldSize()
+					# i from 1 (duel) to 9 (huger)
+					i = 1 + mapSize + int(mapSize/5) + int(mapSize/6)
 					addBonus('BONUS_MANA',i,'Art/Interface/Buttons/WorldBuilder/mana_button.dds')
 					CyInterface().addMessage(iPlayer,True,25,CyTranslator().getText("TXT_KEY_MESSAGE_TEARS_GELA_PYRE_2",()),'AS2D_FEATUREGROWTH',3,'Art/Interface/Buttons/Improvements/pyreoftheseraphic.dds',ColorTypes(8),pUnit.getX(),pUnit.getY(),True,True)
 			elif iImprovement == git("IMPROVEMENT_MAELSTROM"):
@@ -1827,14 +1819,14 @@ class CvEventManager:
 									elif iBonus == Mana["Nature"]:
 										newUnit = animalInit( Summon["Guardian Vines"], iX, iY, iNoAI, iSouth)
 										newUnit.setHasPromotion( Promo["Mana Guardian"], True)
-# END WILD MANA
+			# END WILD MANA
 
 		if Option["Thaw"]:
 
 			Terrain			= self.Terrain
 			Feature			= self.Feature
 
-# FlavourMod: Changed by Jean Elcard 11/06/2008 (Extended End of Winter Option)
+			# FlavourMod: Changed by Jean Elcard 11/06/2008 (Extended End of Winter Option)
 			FLAT_WORLDS = ["ErebusWrap", "Erebus"]			# map scripts with wrapping but no equator
 			MAX_EOW_PERCENTAGE = 0.35 						# percentage of EoW on total game turns
 			THAW_DELAY_PERCENTAGE = 0.05 					# don't start thawing for x percent of EoW
@@ -1936,7 +1928,7 @@ class CvEventManager:
 							setTempB(BonusTypes.NO_BONUS, iTurns)
 					else:
 						setBonusType(eBonus)
-# FlavourMod: End Add
+			# FlavourMod: End Add
 
 		#Begin clearing starting locations of dangerous spots, like Mana Guardians and Lairs
 		iDungeonRange = 5
@@ -2012,15 +2004,8 @@ class CvEventManager:
 				if not Option["No Barbarians"]:
 					initUnit( ScorpClan["Archer"], pPlot.getX(), pPlot.getY(), iNoAI, iSouth)
 			if iImprovement == gc.getInfoTypeForString("IMPROVEMENT_WELL_OF_SOULS"):
-				listplot=((0,0))
-				if CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_SMALL"):
-					listplot=RANGE1
-				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_STANDARD") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_LARGE"):
-					listplot=BFC
-				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGE") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGER"):
-					listplot=BBFC
-				for iX, iY in listplot:
-					pDangerousPlot = map.plot(pPlot.getX() + iX, pPlot.getY() + iY)
+				for iX, iY in aoeByMapSize(pPlot):
+					pDangerousPlot = map.plot(iX, iY)
 					if not pDangerousPlot.isWater():
 						pDangerousPlot.setTerrainType(gc.getInfoTypeForString("TERRAIN_WASTELAND"),True,True)
 
@@ -2812,29 +2797,15 @@ class CvEventManager:
 			elif iImprovement == Unique["Bair of Lacuna"]:
 				pPlot.setMinLevel(6)
 				pPlot.setRouteType(Improvement["Road"])
-			
+
 			elif iImprovement == gc.getInfoTypeForString("IMPROVEMENT_SEVEN_PINES"):
-				listplot=((0,0))
-				if CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_SMALL"):
-					listplot=RANGE1
-				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_STANDARD") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_LARGE"):
-					listplot=BFC
-				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGE") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGER"):
-					listplot=BBFC
-				for iiX,iiY in listplot:
-					pLoopPlot = getPlot(pPlot.getX()+iiX,pPlot.getY()+iiY)
+				for iiX, iiY in aoeByMapSize(pPlot):
+					pLoopPlot = getPlot(iiX, iiY)
 					pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("PLOT_EFFECT_BLESSED_LANDS"))
 
 			elif gc.getInfoTypeForString("MODULE_MAGISTER_ASHES")!=-1 and iImprovement==gc.getInfoTypeForString("IMPROVEMENT_WHISPERING_WOOD"):
-				listplot=((0,0))
-				if CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_SMALL"):
-					listplot=RANGE1
-				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_STANDARD") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_LARGE"):
-					listplot=BFC
-				elif CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGE") or CyMap().getWorldSize()==gc.getInfoTypeForString("WORLDSIZE_HUGER"):
-					listplot=BBFC
-				for iiX,iiY in listplot:
-					pLoopPlot = getPlot(pPlot.getX()+iiX,pPlot.getY()+iiY)
+				for iiX, iiY in aoeByMapSize(pPlot):
+					pLoopPlot = getPlot(iiX, iiY)
 					pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("PLOT_EFFECT_MIST"))
 
 		elif iImprovement == ImprovementDtesh["Aquatic Pyre"]:
@@ -2883,18 +2854,18 @@ class CvEventManager:
 					pPlot.setMinLevel(-1)
 					pPlot.setRouteType(-1)
 
-		if iImprovement == Improvement["Necrototem"]:
-			game.changeGlobalCounter(-2)
+				elif iImprovement == gc.getInfoTypeForString("IMPROVEMENT_SEVEN_PINES"):
+					for iiX, iiY in aoeByMapSize(pPlot):
+						pLoopPlot = getPlot(iiX, iiY)
+						pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("NO_PLOT_EFFECT"))
 
-		elif iImprovement == gc.getInfoTypeForString("IMPROVEMENT_SEVEN_PINES"):
-			for iiX,iiY in RANGE1:
-				pLoopPlot = getPlot(pPlot.getX()+iiX,pPlot.getY()+iiY)
-				pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("NO_PLOT_EFFECT"))
+				elif gc.getInfoTypeForString("MODULE_MAGISTER_ASHES")!=-1 and iImprovement==gc.getInfoTypeForString("IMPROVEMENT_WHISPERING_WOOD"):
+					for iiX, iiY in aoeByMapSize(pPlot):
+						pLoopPlot = getPlot(iiX, iiY)
+						pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("NO_PLOT_EFFECT"))
 
-		elif gc.getInfoTypeForString("MODULE_MAGISTER_ASHES")!=-1 and iImprovement==gc.getInfoTypeForString("IMPROVEMENT_WHISPERING_WOOD"):
-			for iiX,iiY in RANGE1:
-				pLoopPlot = getPlot(pPlot.getX()+iiX,pPlot.getY()+iiY)
-				pLoopPlot.setPlotEffectType(gc.getInfoTypeForString("NO_PLOT_EFFECT"))
+			elif iImprovement == Improvement["Necrototem"]:
+				game.changeGlobalCounter(-2)
 
 		if game.getWBMapScript():
 			sf.onImprovementDestroyed(iImprovement, iOwner, iX, iY)

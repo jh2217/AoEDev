@@ -395,15 +395,15 @@ During the attempted escape, Auric used his latent magical power to break the ve
     </TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ONCEELF_STRATEGY</Tag>
-		<English>The Once Elves are a band of former elven mercenaries who forfeit access to archers, recon, and siege in exchange for necromancers, strong defensive units, and spirit-riding cavalry.
+		<English>The Once Elves are a band of former elven mercenaries who forfeit access to archers, recon, and siege in exchange for [LINK=UNIT_NECROMANCER]necromancers[\LINK], [LINK=UNIT_OSTAURII]strong defensive units[\LINK], and [LINK=UNIT_OSTAURII_RIDER]spirit-riding cavalry[\LINK].
 
-The time they have spent in the underworld has left them able to see more than most and be highly resistant to the forces of Arawn.
+The time they have spent in the underworld has left them able to [LINK=PROMOTION_ONCE_ELF]see more than most[\LINK] and be highly resistant to the forces of Arawn.
 
-Within their borders, the shrouding mists cloak the forests in darkness, hiding your cities and forces from common savages and raiders. However, be aware that flame, terraforming, and air magic can all clear the way and leave your cities exposed!
+Within their borders, the [LINK=PLOT_EFFECT_MIST]shrouding mists[\LINK] cloak the forests in darkness, hiding your cities and forces from common savages and raiders. However, be aware that flame, terraforming, and air magic can all clear the way and leave your cities exposed!
 
-They have access to Spiritguide through Knowledge of the Ether and powerful research from beyond the realm of life in the Archives of the Honored Dead unique building.
+They have access to Spiritguide through [LINK=TECH_KNOWLEDGE_OF_THE_ETHER]Knowledge of the Ether[\LINK] and powerful research from beyond the realm of life in the [LINK=BUILDING_ARCHIVES_OF_THE_HONORED_DEAD]Archives of the Honored Dead[\LINK] unique building.
 
-Being so closely linked to death, they find the act of raising corpses obscene and will instead prefer to hone their necromantic arts in returning the dead to peaceful rest.</English>
+Being so closely linked to death, they find the act of raising corpses obscene and will instead prefer to hone their necromantic arts in [LINK=PROMOTION_FINALITY1]returning the dead to peaceful rest.[\LINK]</English>
 		<French>The Once Elves are a band of former elven mercenaries who forfeit access to archers, recon, and siege in exchange for necromancers, strong defensive units, and spirit-riding cavalry.
 
 The time they have spent in the underworld has left them able to see more than most and be highly resistant to the forces of Arawn.
