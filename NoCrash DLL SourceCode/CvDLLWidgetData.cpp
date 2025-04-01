@@ -3559,9 +3559,13 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 				}
 			}
 
-			iPrice = GET_PLAYER(pHeadSelectedUnit->getOwnerINLINE()).getClaimFortCost();
+			iPrice = GC.getMissionInfo((MissionTypes)(GC.getActionInfo(widgetDataStruct.m_iData1).getMissionType())).getGoldCost();
 			if (iPrice != 0)
 			{
+				if ((GC.getActionInfo(widgetDataStruct.m_iData1).getMissionType() == MISSION_CLAIM_FORT))
+				{
+					iPrice = GET_PLAYER(pHeadSelectedUnit->getOwnerINLINE()).getClaimFortCost();
+				}
 				szBuffer.append(NEWLINE);
 				szBuffer.append(gDLL->getText("TXT_KEY_SPELL_COST", iPrice));
 			}
