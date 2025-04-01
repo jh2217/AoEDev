@@ -30,8 +30,6 @@ CIV_TECH_AVAILABLE = 3
 CIV_UNIQUE_TECH = 4
 CIV_HAS_UNIQUE_TECH = 5
 
-NUM_TIERS = 13
-
 # globals
 gc = CyGlobalContext()
 ArtFileMgr = CyArtFileMgr()
@@ -856,7 +854,7 @@ class CvTechChooser:
 		screen.attachPanelAt("TechList", "TiersTopPanel", u"", u"", True, True, PanelStyles.PANEL_STYLE_TOPBAR, 0, 0, iMaxX, 55, WidgetTypes.WIDGET_GENERAL, -1, -1 )
 		lTiers = [1, 2, 2.5, 3, 3.5, 4, 4.5, 5, 5.5, 6, 7, 7.5, 8]
 
-		for i in xrange(NUM_TIERS):
+		for i in xrange(len(lTiers)):
 			szTierName = "TableHeaderTop" + str(i)
 			szText = "Tier " + str(lTiers[i])
 			screen.setLabelAt( szTierName, "TiersTopPanel", u"<font=4>" + szText + u"</font>", CvUtil.FONT_CENTER_JUSTIFY, ( i + 1 ) * ( BOX_INCREMENT_WIDTH + BOX_INCREMENT_X_SPACING ) * PIXEL_INCREMENT - ( ( BOX_INCREMENT_WIDTH + BOX_INCREMENT_X_SPACING ) * PIXEL_INCREMENT ) / 2 + 8, 8, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
@@ -1029,25 +1027,25 @@ class CvTechChooser:
 						screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_HEAD, 			iX + self.getXStart() + self.getWidth(xDiff), 				iY + self.getYStart(3), 								8, 								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 					elif (yDiff < 0):
 						if (xDiff == 0):
-							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_Y, 			iX + self.getXStart()/2 - 4, 								iY + dY * yDiff + bY + 12,								8, 								-dY * yDiff - bY - 12 , 		WidgetTypes.WIDGET_GENERAL, -1, -1, False )
-							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_HEAD_UP,	iX + self.getXStart()/2-4, 									iY + dY * yDiff + bY + 4,								8, 								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
+							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_Y, 			iX + self.getXStart()/2 - 4, 								iY + dY * yDiff + bY + 16,								8, 								-dY * yDiff - bY - 14,	 		WidgetTypes.WIDGET_GENERAL, -1, -1, False )
+							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_HEAD_UP,	iX + self.getXStart()/2 - 4,								iY + dY * yDiff + bY + 8,								8, 								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 						else:
 							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_X, 			iX + self.getXStart(), 										iY + self.getYStart(1), 								self.getWidth(xDiff) / 2, 		8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_XY, 		iX + self.getXStart() + ( self.getWidth(xDiff) / 2 ), 		iY + self.getYStart(1), 								8, 								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_Y, 			iX + self.getXStart() + ( self.getWidth(xDiff) / 2 ), 		iY + self.getYStart(1) + 8 - self.getHeight(yDiff, 3), 	8, 								self.getHeight(yDiff, 3) - 8, 	WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_XMY, 		iX + self.getXStart() + ( self.getWidth(xDiff) / 2 ), 		iY + self.getYStart(1) - self.getHeight(yDiff, 3), 		8, 								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
-							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_X, 			iX + 8 + self.getXStart() + ( self.getWidth(xDiff) / 2 ), 	iY + self.getYStart(1) - self.getHeight(yDiff, 3), 		( self.getWidth(xDiff) / 2 )-8, 8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
+							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_X, 			iX + 8 + self.getXStart() + ( self.getWidth(xDiff) / 2 ), 	iY + self.getYStart(1) - self.getHeight(yDiff, 3), 		( self.getWidth(xDiff) / 2 )-4,	8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_HEAD, 		iX + self.getXStart() + self.getWidth(xDiff), 				iY + self.getYStart(1) - self.getHeight(yDiff, 3), 		8, 								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 					elif (yDiff > 0):
 						if (xDiff == 0):
-							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_Y, 			iX + self.getXStart()/2 - 4, 								iY + bY + 4,		 									8, 								dY * yDiff - bY - 12, 			WidgetTypes.WIDGET_GENERAL, -1, -1, False )
-							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_HEAD_DN, 	iX + self.getXStart()/2-4,									iY + dY * yDiff - 8,									8, 								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
+							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_Y, 			iX + self.getXStart()/2 - 4, 								iY + bY + 8,		 									8, 								dY * yDiff - bY - 12, 			WidgetTypes.WIDGET_GENERAL, -1, -1, False )
+							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_HEAD_DN, 	iX + self.getXStart()/2 - 4,								iY + dY * yDiff - 4,									8, 								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 						else:
 							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_X,			iX + self.getXStart(),										iY + self.getYStart(5),									self.getWidth(xDiff) / 2,		8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_MXMY,		iX + self.getXStart() + ( self.getWidth(xDiff) / 2 ),		iY + self.getYStart(5),									8,								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_Y,			iX + self.getXStart() + ( self.getWidth(xDiff) / 2 ),		iY + self.getYStart(5) + 8,								8,								self.getHeight(yDiff, 3) - 8, 	WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_MXY,		iX + self.getXStart() + ( self.getWidth(xDiff) / 2 ),		iY + self.getYStart(5) + self.getHeight(yDiff, 3),		8,								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
-							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_X,			iX + 8 + self.getXStart() + ( self.getWidth(xDiff) / 2 ),	iY + self.getYStart(5) + self.getHeight(yDiff, 3),		( self.getWidth(xDiff) / 2 )-8, 8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
+							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_X,			iX + 8 + self.getXStart() + ( self.getWidth(xDiff) / 2 ),	iY + self.getYStart(5) + self.getHeight(yDiff, 3),		( self.getWidth(xDiff) / 2 )-4,	8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 							screen.addDDSGFCAt( self.getNextWidgetName(), "TechList", ARROW_HEAD,		iX + self.getXStart() + self.getWidth(xDiff),				iY + self.getYStart(5) + self.getHeight(yDiff, 3),		8,								8, 								WidgetTypes.WIDGET_GENERAL, -1, -1, False )
 
 		return
