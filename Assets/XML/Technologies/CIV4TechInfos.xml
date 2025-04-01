@@ -60,7 +60,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
+				<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_ALTERATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -130,10 +130,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_TRACKING</PrereqTech>
+				<PrereqTech>TECH_TRACKING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+				<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ANIMAL_HANDLING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -169,7 +169,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+				<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_ANIMAL_HUSBANDRY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -206,10 +206,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_FERAL_BOND</PrereqTech>
+				<PrereqTech>TECH_FERAL_BOND</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+				<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ANIMAL_MASTERY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -242,7 +242,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_SORCERY</PrereqTech>
+				<PrereqTech>TECH_SORCERY</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_ARCANE_LORE_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -280,7 +280,7 @@
 				</Flavor>
 			</Flavors>
 			<AndPreReqs>
-					<PrereqTech>TECH_CRAFTING</PrereqTech>
+				<PrereqTech>TECH_CRAFTING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ARCHERY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -315,7 +315,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_WAY_OF_THE_EARTHMOTHER</PrereqTech>
+				<PrereqTech>TECH_WAY_OF_THE_EARTHMOTHER</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_ARETE_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -349,10 +349,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_WARHORSES</PrereqTech>
+				<PrereqTech>TECH_WARHORSES</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+				<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ARMORED_CAVALRY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -398,10 +398,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_OPTICS</PrereqTech>
+				<PrereqTech>TECH_OPTICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+				<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ASTRONOMY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -435,10 +435,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ENGINEERING</PrereqTech>
+				<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+				<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_BLASTING_POWDER_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -475,10 +475,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ARCHERY</PrereqTech>
+				<PrereqTech>TECH_ARCHERY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+				<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_BOWYERS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -512,7 +512,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_MINING</PrereqTech>
+				<PrereqTech>TECH_MINING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_BRONZE_WORKING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -524,7 +524,6 @@
 			<Description>TXT_KEY_TECH_CALENDAR</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			
 			<iAIWeight>65</iAIWeight>
 			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -553,7 +552,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+				<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_CALENDAR_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -565,7 +564,6 @@
 			<Description>TXT_KEY_TECH_CARTOGRAPHY</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			
 			<iAIWeight>80</iAIWeight>
 			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -596,7 +594,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_EXPLORATION</PrereqTech>
+				<PrereqTech>TECH_EXPLORATION</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_CARTOGRAPHY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -609,7 +607,6 @@
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAIWeight>50</iAIWeight>
-			
 			<iCost>400</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_ANCIENT</Era>
@@ -637,7 +634,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_EDUCATION</PrereqTech>
+				<PrereqTech>TECH_EDUCATION</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_CODE_OF_LAWS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -678,10 +675,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
+				<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_FERAL_BOND</PrereqTech>
+				<PrereqTech>TECH_FERAL_BOND</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_COMMUNE_WITH_NATURE_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -692,7 +689,6 @@
 			<Type>TECH_CONSTRUCTION</Type>
 			<Description>TXT_KEY_TECH_CONSTRUCTION</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
-			
 			<Help>TXT_KEY_TECH_CONSTRUCTION_HELP</Help>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAIWeight>50</iAIWeight>
@@ -713,7 +709,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_MASONRY</PrereqTech>
+				<PrereqTech>TECH_MASONRY</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_CONSTRUCTION_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -748,8 +744,8 @@
 				</Flavor>
 			</Flavors>
 			<AndPreReqs>
-					<PrereqTech>TECH_WAY_OF_THE_WICKED</PrereqTech>
-					<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
+				<PrereqTech>TECH_WAY_OF_THE_WICKED</PrereqTech>
+				<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_CORRUPTION_OF_SPIRIT_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -791,7 +787,6 @@
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAIWeight>75</iAIWeight>
-			
 			<iCost>900</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_CLASSICAL</Era>
@@ -817,7 +812,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
+				<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_CURRENCY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -853,10 +848,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_TRADE</PrereqTech>
+				<PrereqTech>TECH_TRADE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_WAY_OF_THE_WICKED</PrereqTech>
+				<PrereqTech>TECH_WAY_OF_THE_WICKED</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_DECEPTION_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -912,7 +907,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
+				<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_DIVINATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -949,10 +944,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_MITHRIL_WORKING</PrereqTech>
+				<PrereqTech>TECH_MITHRIL_WORKING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_THEOLOGY</PrereqTech>
+				<PrereqTech>TECH_THEOLOGY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_DIVINE_ESSENCE_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -964,7 +959,6 @@
 			<Description>TXT_KEY_TECH_DRAMA</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
-			
 			<iAIWeight>30</iAIWeight>
 			<iCost>800</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -995,10 +989,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_FESTIVALS</PrereqTech>
+				<PrereqTech>TECH_FESTIVALS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_EDUCATION</PrereqTech>
+				<PrereqTech>TECH_EDUCATION</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_DRAMA_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1010,7 +1004,6 @@
 			<Description>TXT_KEY_TECH_EDUCATION</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			
 			<iAIWeight>60</iAIWeight>
 			<iCost>250</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -1043,10 +1036,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ANCIENT_CHANTS</PrereqTech>
+				<PrereqTech>TECH_ANCIENT_CHANTS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_AGRICULTURE</PrereqTech>
+				<PrereqTech>TECH_AGRICULTURE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_EDUCATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1078,7 +1071,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
+				<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_ELEMENTALISM_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1115,12 +1108,11 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+				<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+				<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			</AndPreReqs>
-			
 			<Quote>TXT_KEY_TECH_ENGINEERING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
 			<SoundMP>AS2D_TECH_DING</SoundMP>
@@ -1197,10 +1189,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
+				<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
+				<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_FANATICISM_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1236,7 +1228,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ANIMAL_HANDLING</PrereqTech>
+				<PrereqTech>TECH_ANIMAL_HANDLING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_FERAL_BOND_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1272,7 +1264,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_CALENDAR</PrereqTech>
+				<PrereqTech>TECH_CALENDAR</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_FESTIVALS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1284,7 +1276,6 @@
 			<Description>TXT_KEY_TECH_FEUDALISM</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			
 			<iAIWeight>75</iAIWeight>
 			<iCost>1400</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -1316,10 +1307,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
+				<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_TRADE</PrereqTech>
+				<PrereqTech>TECH_TRADE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_FEUDALISM_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1364,8 +1355,8 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_EXPLORATION</PrereqTech>
-					<PrereqTech>TECH_SEAFARING</PrereqTech>
+				<PrereqTech>TECH_EXPLORATION</PrereqTech>
+				<PrereqTech>TECH_SEAFARING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_FISHING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1423,7 +1414,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_OMNISCIENCE</PrereqTech>
+				<PrereqTech>TECH_OMNISCIENCE</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_FUTURE_TECH_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1435,7 +1426,6 @@
 			<Description>TXT_KEY_TECH_GUILDS</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			
 			<iAIWeight>65</iAIWeight>
 			<iCost>3200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -1465,7 +1455,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_TAXATION</PrereqTech>
+				<PrereqTech>TECH_TAXATION</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_GUILDS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1499,7 +1489,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_WAY_OF_THE_FORESTS</PrereqTech>
+				<PrereqTech>TECH_WAY_OF_THE_FORESTS</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_HIDDEN_PATHS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1537,10 +1527,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_TRADE</PrereqTech>
+				<PrereqTech>TECH_TRADE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_WAY_OF_THE_WISE</PrereqTech>
+				<PrereqTech>TECH_WAY_OF_THE_WISE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_HONOR_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1578,7 +1568,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+				<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_HORSEBACK_RIDING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1615,7 +1605,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_EXPLORATION</PrereqTech>
+				<PrereqTech>TECH_EXPLORATION</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_HUNTING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1649,7 +1639,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_CORRUPTION_OF_SPIRIT</PrereqTech>
+				<PrereqTech>TECH_CORRUPTION_OF_SPIRIT</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_INFERNAL_PACT_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1694,7 +1684,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_SMELTING</PrereqTech>
+				<PrereqTech>TECH_SMELTING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_IRON_WORKING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1735,7 +1725,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_MYSTICISM</PrereqTech>
+				<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_KNOWLEDGE_OF_THE_ETHER_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1746,7 +1736,6 @@
 			<Type>TECH_MACHINERY</Type>
 			<Description>TXT_KEY_TECH_MACHINERY</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
-			
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAIWeight>30</iAIWeight>
 			<iAITradeModifier>10</iAITradeModifier>
@@ -1775,7 +1764,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ENGINEERING</PrereqTech>
+				<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_MACHINERY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1816,10 +1805,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_FANATICISM</PrereqTech>
+				<PrereqTech>TECH_FANATICISM</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_WAY_OF_THE_WICKED</PrereqTech>
+				<PrereqTech>TECH_WAY_OF_THE_WICKED</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MALEVOLENT_DESIGNS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1830,7 +1819,6 @@
 			<Type>TECH_MASONRY</Type>
 			<Description>TXT_KEY_TECH_MASONRY</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
-			
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAIWeight>60</iAIWeight>
 			<iCost>175</iCost>
@@ -1860,7 +1848,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_CRAFTING</PrereqTech>
+				<PrereqTech>TECH_CRAFTING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_MASONRY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1896,7 +1884,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_WRITING</PrereqTech>
+				<PrereqTech>TECH_WRITING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_MATHEMATICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1908,7 +1896,6 @@
 			<Description>TXT_KEY_TECH_MEDICINE</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			
 			<iAIWeight>25</iAIWeight>
 			<iCost>1600</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -1938,10 +1925,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_SANITATION</PrereqTech>
+				<PrereqTech>TECH_SANITATION</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_EDUCATION</PrereqTech>
+				<PrereqTech>TECH_EDUCATION</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MEDICINE_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -1953,7 +1940,6 @@
 			<Description>TXT_KEY_TECH_MERCANTILISM</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			
 			<iAIWeight>37</iAIWeight>
 			<iCost>3200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -1979,7 +1965,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_TAXATION</PrereqTech>
+				<PrereqTech>TECH_TAXATION</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_MERCANTILISM_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2018,8 +2004,8 @@
 				</Flavor>
 			</Flavors>
 			<AndPreReqs>
-					<PrereqTech>TECH_FISHING</PrereqTech>
-					<PrereqTech>TECH_MYSTICISM</PrereqTech>
+				<PrereqTech>TECH_FISHING</PrereqTech>
+				<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MESSAGE_FROM_THE_DEEP_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2058,10 +2044,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_WARFARE</PrereqTech>
+				<PrereqTech>TECH_WARFARE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+				<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MILITARY_STRATEGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2103,7 +2089,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_MESSAGE_FROM_THE_DEEP</PrereqTech>
+				<PrereqTech>TECH_MESSAGE_FROM_THE_DEEP</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_MIND_STAPLING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2140,13 +2126,12 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_CRAFTING</PrereqTech>
+				<PrereqTech>TECH_CRAFTING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_MINING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
 			<SoundMP>AS2D_TECH_DING</SoundMP>
 			<Button>,Art/Interface/Buttons/TechTree/Mining.dds,Art/Interface/Buttons/TechTree_Atlas.dds,8,5</Button>
-			
 		</TechInfo>
 		<TechInfo>		<!-- Mithril Working -->
 			<Type>TECH_MITHRIL_WORKING</Type>
@@ -2182,10 +2167,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+				<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_ENGINEERING</PrereqTech>
+				<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MITHRIL_WORKING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2229,7 +2214,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ANCIENT_CHANTS</PrereqTech>
+				<PrereqTech>TECH_ANCIENT_CHANTS</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_MYSTICISM_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2261,7 +2246,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
+				<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_NECROMANCY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2373,11 +2358,11 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_STRENGTH_OF_WILL</PrereqTech>
-					<PrereqTech>TECH_PASS_THROUGH_THE_ETHER</PrereqTech>
+				<PrereqTech>TECH_STRENGTH_OF_WILL</PrereqTech>
+				<PrereqTech>TECH_PASS_THROUGH_THE_ETHER</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_COMMUNE_WITH_NATURE</PrereqTech>
+				<PrereqTech>TECH_COMMUNE_WITH_NATURE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_OMNISCIENCE_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2388,7 +2373,6 @@
 			<Type>TECH_OPTICS</Type>
 			<Description>TXT_KEY_TECH_OPTICS</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
-			
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAIWeight>40</iAIWeight>
 			<iCost>800</iCost>
@@ -2419,9 +2403,8 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_SAILING</PrereqTech>
+				<PrereqTech>TECH_SAILING</PrereqTech>
 			</OrPreReqs>
-			
 			<Quote>TXT_KEY_TECH_OPTICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
 			<SoundMP>AS2D_TECH_DING</SoundMP>
@@ -2460,8 +2443,8 @@
 				</Flavor>
 			</Flavors>
 			<AndPreReqs>
-					<PrereqTech>TECH_WAY_OF_THE_WISE</PrereqTech>
-					<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
+				<PrereqTech>TECH_WAY_OF_THE_WISE</PrereqTech>
+				<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ORDERS_FROM_HEAVEN_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2497,7 +2480,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ARCANE_LORE</PrereqTech>
+				<PrereqTech>TECH_ARCANE_LORE</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_PASS_THROUGH_THE_ETHER_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2509,7 +2492,6 @@
 			<Description>TXT_KEY_TECH_PHILOSOPHY</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			
 			<iAIWeight>65</iAIWeight>
 			<iCost>400</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -2534,7 +2516,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_MYSTICISM</PrereqTech>
+				<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_PHILOSOPHY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2575,7 +2557,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_TRACKING</PrereqTech>
+				<PrereqTech>TECH_TRACKING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_POISONS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2616,10 +2598,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_BOWYERS</PrereqTech>
+				<PrereqTech>TECH_BOWYERS</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_MILITARY_STRATEGY</PrereqTech>
+				<PrereqTech>TECH_MILITARY_STRATEGY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_PRECISION_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2652,10 +2634,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+				<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_EDUCATION</PrereqTech>
+				<PrereqTech>TECH_EDUCATION</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_PRIESTHOOD_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2684,10 +2666,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_FANATICISM</PrereqTech>
+				<PrereqTech>TECH_FANATICISM</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+				<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_RAGE_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2719,10 +2701,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
+				<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
+				<PrereqTech>TECH_CODE_OF_LAWS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_RELIGIOUS_LAW_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2763,10 +2745,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_FANATICISM</PrereqTech>
+				<PrereqTech>TECH_FANATICISM</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_WAY_OF_THE_WISE</PrereqTech>
+				<PrereqTech>TECH_WAY_OF_THE_WISE</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_RIGHTEOUSNESS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2813,9 +2795,8 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_FISHING</PrereqTech>
+				<PrereqTech>TECH_FISHING</PrereqTech>
 			</OrPreReqs>
-			
 			<Quote>TXT_KEY_TECH_SAILING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
 			<SoundMP>AS2D_TECH_DING</SoundMP>
@@ -2827,7 +2808,6 @@
 			<Description>TXT_KEY_TECH_SANITATION</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			
 			<iAIWeight>30</iAIWeight>
 			<iCost>800</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -2856,8 +2836,8 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
-					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+				<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+				<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_SANITATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2916,7 +2896,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+				<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_SMELTING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -2957,13 +2937,13 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ALTERATION</PrereqTech>
-					<PrereqTech>TECH_DIVINATION</PrereqTech>
-					<PrereqTech>TECH_ELEMENTALISM</PrereqTech>
-					<PrereqTech>TECH_NECROMANCY</PrereqTech>
+				<PrereqTech>TECH_ALTERATION</PrereqTech>
+				<PrereqTech>TECH_DIVINATION</PrereqTech>
+				<PrereqTech>TECH_ELEMENTALISM</PrereqTech>
+				<PrereqTech>TECH_NECROMANCY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_WRITING</PrereqTech>
+				<PrereqTech>TECH_WRITING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_SORCERY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3004,10 +2984,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_TRADE</PrereqTech>
+				<PrereqTech>TECH_TRADE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+				<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_STIRRUPS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3044,7 +3024,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ARCANE_LORE</PrereqTech>
+				<PrereqTech>TECH_ARCANE_LORE</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_STRENGTH_OF_WILL_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3055,7 +3035,6 @@
 			<Type>TECH_TAXATION</Type>
 			<Description>TXT_KEY_TECH_TAXATION</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
-			
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAIWeight>60</iAIWeight>
 			<iCost>1600</iCost>
@@ -3081,10 +3060,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_CURRENCY</PrereqTech>
+				<PrereqTech>TECH_CURRENCY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+				<PrereqTech>TECH_MATHEMATICS</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_TAXATION_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3121,7 +3100,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_RELIGIOUS_LAW</PrereqTech>
+				<PrereqTech>TECH_RELIGIOUS_LAW</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_THEOLOGY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3166,7 +3145,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_HUNTING</PrereqTech>
+				<PrereqTech>TECH_HUNTING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_TRACKING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3179,7 +3158,6 @@
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<Quote>TXT_KEY_TECH_TRADE_QUOTE</Quote>
-			
 			<iAIWeight>65</iAIWeight>
 			<iCost>400</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -3206,11 +3184,11 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
-					<PrereqTech>TECH_SAILING</PrereqTech>
+				<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+				<PrereqTech>TECH_SAILING</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_WRITING</PrereqTech>
+				<PrereqTech>TECH_WRITING</PrereqTech>
 			</AndPreReqs>
 			<Sound>AS2D_TECH_DING</Sound>
 			<SoundMP>AS2D_TECH_DING</SoundMP>
@@ -3241,10 +3219,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_EDUCATION</PrereqTech>
+				<PrereqTech>TECH_EDUCATION</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+				<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_WARFARE_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3284,7 +3262,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_STIRRUPS</PrereqTech>
+				<PrereqTech>TECH_STIRRUPS</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_WARHORSES_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3319,14 +3297,13 @@
 				</Flavor>
 			</Flavors>
 			<AndPreReqs>
-					<PrereqTech>TECH_MINING</PrereqTech>
-					<PrereqTech>TECH_MYSTICISM</PrereqTech>
+				<PrereqTech>TECH_MINING</PrereqTech>
+				<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_WAY_OF_THE_EARTHMOTHER_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
 			<SoundMP>AS2D_TECH_DING</SoundMP>
 			<Button>Art/Interface/Buttons/TechTree/Runes.dds</Button>
-
 		</TechInfo>
 		<TechInfo>		<!-- Way of the Forests -->
 			<Type>TECH_WAY_OF_THE_FORESTS</Type>
@@ -3352,8 +3329,8 @@
 				</Flavor>
 			</Flavors>
 			<AndPreReqs>
-					<PrereqTech>TECH_HUNTING</PrereqTech>
-					<PrereqTech>TECH_MYSTICISM</PrereqTech>
+				<PrereqTech>TECH_HUNTING</PrereqTech>
+				<PrereqTech>TECH_MYSTICISM</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_WAY_OF_THE_FORESTS_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3393,7 +3370,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+				<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_WAY_OF_THE_WICKED_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3434,7 +3411,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+				<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_WAY_OF_THE_WISE_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3446,7 +3423,6 @@
 			<Description>TXT_KEY_TECH_WRITING</Description>
 			<Strategy>TEXT_MUST_BE_WRITTEN</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			
 			<iAIWeight>70</iAIWeight>
 			<iCost>300</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -3479,7 +3455,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_EDUCATION</PrereqTech>
+				<PrereqTech>TECH_EDUCATION</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_WRITING_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3537,7 +3513,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-					<PrereqTech>TECH_ENGINEERING</PrereqTech>
+				<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_ALCHEMY_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
@@ -3560,9 +3536,9 @@
 					<iFlavor>20</iFlavor>
 				</Flavor>
 			</Flavors>
-			<AndPreReqs>
-					<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
-			</AndPreReqs>
+			<OrPreReqs>
+				<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
+			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_STEAM_POWER_QUOTE</Quote>
 			<Sound>AS2D_TECH_DING</Sound>
 			<SoundMP>AS2D_TECH_DING</SoundMP>
@@ -3595,7 +3571,7 @@
 				</Flavor>
 			</Flavors>
 			<AndPreReqs>
-					<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
+				<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_WHITE_HAND_QUOTE</Quote>
 			<bTrade>1</bTrade>
