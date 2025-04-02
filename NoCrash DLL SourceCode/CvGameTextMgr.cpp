@@ -2412,7 +2412,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				{
 					szString.append(NEWLINE);
 					szString.append(gDLL->getText((pUnit->getTerrainCost((TerrainTypes)iI) < 0) ? "TXT_KEY_COLOR_POSITIVE" : "TXT_KEY_COLOR_NEGATIVE"));
-					szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_TEXT", pUnit->getTerrainCost((TerrainTypes)iI), GC.getTerrainInfo((TerrainTypes) iI).getTextKeyWide()));
+					szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_TEXT", pUnit->getTerrainCost((TerrainTypes)iI), GC.getTerrainInfo((TerrainTypes) iI).getTextKeyWide(), GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 				}
 			}
@@ -2431,7 +2431,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				{
 					szString.append(NEWLINE);
 					szString.append(gDLL->getText((pUnit->getFeatureCost((FeatureTypes)iI) < 0) ? "TXT_KEY_COLOR_POSITIVE" : "TXT_KEY_COLOR_NEGATIVE"));
-					szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_TEXT", pUnit->getFeatureCost((FeatureTypes)iI), GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide()));
+					szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_TEXT", pUnit->getFeatureCost((FeatureTypes)iI), GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide(), GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 				}
 			}
@@ -3669,7 +3669,7 @@ void CvGameTextMgr::setPlotListHelp(CvWStringBuffer &szString, CvPlot* pPlot, bo
 	{
 		if (pPlot->getCenterUnit())
 		{
-			setUnitHelp(szString, pPlot->getCenterUnit(), iNumVisibleUnits > iMaxNumUnits, true);
+			setUnitHelp(szString, pPlot->getCenterUnit(), iNumVisibleUnits > iMaxNumUnits);
 		}
 
 		uint iNumShown = std::min<uint>(iMaxNumUnits, iNumVisibleUnits);
