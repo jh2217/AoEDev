@@ -1385,11 +1385,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEASHED</Tag>
-		<English> [Leashed]</English>
-		<French> [Enchaîné]</French>
-		<German> [Angeleint]</German>
-		<Italian> [Leashed]</Italian>
-		<Spanish> [Leashed]</Spanish>
+		<English> [Leashed: %d1]</English>
+		<French> [Enchaîné: %d1]</French>
+		<German> [Angeleint: %d1]</German>
+		<Italian> [Leashed: %d1]</Italian>
+		<Spanish> [Leashed: %d1]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_DAWN_OF_MAN_SCREEN_TITLE</Tag>

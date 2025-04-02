@@ -472,7 +472,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 	{
 		if (pUnit->getOwnerINLINE() != GC.getGameINLINE().getActivePlayer())
 		{
-			szString.append(gDLL->getText("TXT_KEY_LEASHED"));
+			szString.append(gDLL->getText("TXT_KEY_LEASHED", pUnit->getLeashRange()));
 		}
 	}
 	szString.append(NEWLINE);
@@ -1103,7 +1103,6 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 		// Affinities
 		bFirst = true;
 		szTempBuffer.clear();
-		szString.append(NEWLINE);
 		for (iI = 0; iI < GC.getNumAffinityInfos(); iI++)
 		{
 			if (pUnit->isAffinity((AffinityTypes)iI))
@@ -1121,6 +1120,10 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				szTempBuffer.append(GC.getAffinityInfo((AffinityTypes)iI).getDescription());
 				szTempBuffer.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 			}
+		}
+		if (!bFirst)
+		{
+			szString.append(NEWLINE);
 		}
 		szString.append(szTempBuffer);
 
@@ -2412,7 +2415,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				{
 					szString.append(NEWLINE);
 					szString.append(gDLL->getText((pUnit->getTerrainCost((TerrainTypes)iI) < 0) ? "TXT_KEY_COLOR_POSITIVE" : "TXT_KEY_COLOR_NEGATIVE"));
-					szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_TEXT", pUnit->getTerrainCost((TerrainTypes)iI), GC.getTerrainInfo((TerrainTypes) iI).getTextKeyWide(), GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide()));
+					szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_TEXT", pUnit->getTerrainCost((TerrainTypes)iI), GC.getTerrainInfo((TerrainTypes)iI).getTextKeyWide(), GC.getTerrainInfo((TerrainTypes)iI).getTextKeyWide()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 				}
 			}
@@ -2431,7 +2434,7 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 				{
 					szString.append(NEWLINE);
 					szString.append(gDLL->getText((pUnit->getFeatureCost((FeatureTypes)iI) < 0) ? "TXT_KEY_COLOR_POSITIVE" : "TXT_KEY_COLOR_NEGATIVE"));
-					szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_TEXT", pUnit->getFeatureCost((FeatureTypes)iI), GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide(), GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide()));
+					szString.append(gDLL->getText("TXT_KEY_PROMOTION_MOVE_COST_TEXT", pUnit->getFeatureCost((FeatureTypes)iI), GC.getFeatureInfo((FeatureTypes)iI).getTextKeyWide(), GC.getFeatureInfo((FeatureTypes)iI).getTextKeyWide()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 				}
 			}
