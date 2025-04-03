@@ -145,8 +145,8 @@ class CvTraitScreen:
 		self.X_TRAIT_COL_OFFSET = 16 # offset of column labels
 		self.Y_TRAIT_COL_TITLE  = 16 # offset of column labels
 		self.X_TRAIT_NAME_COL   = 10
-		self.X_TRAIT_LEVEL_COL  = self.X_TRAIT_NAME_COL  + 160 # 175
-		self.X_TRAIT_PROGR_COL  = self.X_TRAIT_LEVEL_COL + 130 # 320
+		self.X_TRAIT_LEVEL_COL  = self.X_TRAIT_NAME_COL  + 220
+		self.X_TRAIT_PROGR_COL  = self.X_TRAIT_LEVEL_COL + 110
 		
 		## Information box about the current trait
 		self.X_PANEL_TRAIT_INFO = self.X_PANEL_LIST + self.W_PANEL_LIST + 16;
