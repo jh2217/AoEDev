@@ -1477,6 +1477,7 @@ public:
 /**							Declaration of CivPlotMods specifice methods.						**/
 /*************************************************************************************************/
 	int getHealthPercent(FeatureTypes eFeature) const;
+	int getHealthPercentPlotEffect(PlotEffectTypes eFeature) const;
 
 	int getFeatureYieldChange(FeatureTypes eIndex1, YieldTypes eIndex2) const;
 	void changeFeatureYieldChange(FeatureTypes eIndex1, YieldTypes eIndex2, int iChange);

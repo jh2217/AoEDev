@@ -24018,10 +24018,6 @@
 					<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
 					<bFeatureNative>1</bFeatureNative>
 				</FeatureNative>
-				<FeatureNative>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeatureNative>1</bFeatureNative>
-				</FeatureNative>
 			</FeatureNatives>
 			<iAsset>16</iAsset>
 			<UnitMeshGroups>
@@ -25603,12 +25599,6 @@
 			<iCombat>0</iCombat>
 			<iChanceFirstStrikes>2</iChanceFirstStrikes>
 			<iWithdrawalProb>15</iWithdrawalProb>
-			<FeatureNatives>
-				<FeatureNative>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeatureNative>1</bFeatureNative>
-				</FeatureNative>
-			</FeatureNatives>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>1</iGroupSize>
@@ -39842,10 +39832,6 @@
 				</FeatureNative>
 				<FeatureNative>
 					<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
-					<bFeatureNative>1</bFeatureNative>
-				</FeatureNative>
-				<FeatureNative>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
 					<bFeatureNative>1</bFeatureNative>
 				</FeatureNative>
 			</FeatureNatives>

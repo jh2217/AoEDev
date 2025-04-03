@@ -828,6 +828,9 @@ void CyInfoPythonInterface3()
 		.def("getLeaderStatus", &CvLeaderClassInfo::getLeaderStatus, "int ()")
 		.def("getMaxTraitsPerClass", CvLeaderClassInfo::getMaxTraitsPerClass, "int (int i)")
 	;
+	python::class_<CvFlagInfo, python::bases<CvInfoBase> >("CvFlagInfo")
+
+	;
 //FfH: End Add
 }
 

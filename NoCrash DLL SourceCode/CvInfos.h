@@ -782,7 +782,9 @@ public:
 	int getTerrainDefensePercent(int i) const;				// Exposed to Python
 	int getFeatureAttackPercent(int i) const;				// Exposed to Python
 	int getFeatureDefensePercent(int i) const;				// Exposed to Python
-/*************************************************************************************************/
+	int getPlotEffectAttackPercent(int i) const;				// Exposed to Python
+	int getPlotEffectDefensePercent(int i) const;				// Exposed to Python
+	/*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
 /**					Units can have movement modifiers for different terrain						**/
@@ -805,6 +807,7 @@ public:
 
 	bool getTerrainDoubleMove(int i) const;				// Exposed to Python
 	bool getFeatureDoubleMove(int i) const;				// Exposed to Python
+	bool getPlotEffectDoubleMove(int i) const;				// Exposed to Python
 	bool getUnitCombat(int i) const;				// Exposed to Python
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
@@ -1072,6 +1075,8 @@ public:
 /*************************************************************************************************/
 	int getNumPrereqFeatures() const;
 	int getPrereqFeature(int iI) const;
+	int getNumPrereqPlotEffects() const;
+	int getPrereqPlotEffect(int iI) const;
 	int getNumPrereqTerrains() const;
 	int getPrereqTerrain(int iI) const;
 	int getNumPrereqBonusANDs() const;
@@ -1645,6 +1650,7 @@ protected:
 /**	Lawful-Chaotic Alignments					END												**/
 /*************************************************************************************************/
 	int m_iNumPrereqFeatures;
+	int m_iNumPrereqPlotEffects;
 	int m_iNumPrereqTerrains;
 	int m_iNumPrereqBonusANDs;
 	int m_iNumPrereqBonusORs;
@@ -1704,6 +1710,7 @@ protected:
 /**	Lawful-Chaotic Alignments					END												**/
 /*************************************************************************************************/
 	int* m_piPrereqFeatures;
+	int* m_piPrereqPlotEffects;
 	int* m_piPrereqTerrains;
 	int* m_piPrereqBonusANDs;
 	int* m_piPrereqBonusORs;
@@ -1982,6 +1989,8 @@ protected:
 	int* m_piTerrainDefensePercent;
 	int* m_piFeatureAttackPercent;
 	int* m_piFeatureDefensePercent;
+	int* m_piPlotEffectAttackPercent;
+	int* m_piPlotEffectDefensePercent;
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -2004,6 +2013,7 @@ protected:
 
 	bool* m_pbTerrainDoubleMove;
 	bool* m_pbFeatureDoubleMove;
+	bool* m_pbPlotEffectDoubleMove;
 	//PromotionClass
 	PromotionClassTypes m_iPromotionClass;
 	SpecialUnitTypes m_iSpecialCargo;
@@ -2053,6 +2063,8 @@ public:
 	int getFeatureOrTargetPrereq2() const;
 	int getImprovementPrereq() const;
 	int getImprovementTargetPrereq() const;
+	int getPlotEffectPrereq() const;
+	int getPlotEffectTargetPrereq() const;
 	int getPromotionInStackPrereq() const;
 	int getPromotionInStackTargetPrereq() const;
 	int getReligionPrereq() const;
@@ -2221,6 +2233,8 @@ protected:
 	int m_iFeatureOrPrereq2;
 	int m_iFeatureOrTargetPrereq1;
 	int m_iFeatureOrTargetPrereq2;
+	int m_iPlotEffectPrereq;
+	int m_iPlotEffectTargetPrereq;
 	int m_iImprovementPrereq;
 	int m_iImprovementTargetPrereq;
 	int m_iPromotionInStackPrereq;
@@ -12790,6 +12804,7 @@ public:
 	const int getDefaultFeatureGraphics() const;
 	const int getTurnDamage()const;
 	const bool isDispellable()const;
+	const int getHealthPercent()const;
 	const int getMaxPlotCounter()const;
 	const int getSpawnChance()const;
 	const int getSpreadChance()const;
@@ -12812,6 +12827,7 @@ protected:
 	CvString m_szPythonPerTurn;
 	int m_iDefaultFeatureGraphics;
 	int m_iTurnDamage;
+	int m_iHealthPercent;
 	bool m_bDispellable;
 	int m_iMaxPlotCounter;
 	int m_iSpawnChance;

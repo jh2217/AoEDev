@@ -247,7 +247,9 @@ public:
 
 //FfH Spell System: Added by Kael 07/23/2007
 	int getNumSpellInfos() const { return GC.getNumSpellInfos(); }
-//FfH: End Add
+	int getNumFlagInfos() const { return GC.getNumFlagInfos(); }
+	CvFlagInfo* getFlagInfo(int i) const;
+	//FfH: End Add
 
 	int getNumTechInfos() const { return GC.getNumTechInfos(); }
 	int getNumReligionInfos() const { return GC.getNumReligionInfos(); }

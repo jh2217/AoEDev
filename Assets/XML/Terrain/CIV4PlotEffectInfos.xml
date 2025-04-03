@@ -28,9 +28,58 @@
 		</PlotEffectInfo>
 		<PlotEffectInfo>		<!-- Haunted Lands -->
 			<Type>PLOT_EFFECT_HAUNTED_LANDS</Type>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<Description>TXT_KEY_FEATURE_HAUNTED_LANDS</Description>
+			<Help>TXT_KEY_FEATURE_HAUNTED_LANDS_HELP</Help>
+			<Civilopedia>TXT_KEY_FEATURE_HAUNTED_LANDS_PEDIA</Civilopedia>
 			<DefaultFeatureGraphics>FEATURE_HAUNTED_LANDS</DefaultFeatureGraphics>
+			<YieldChanges>
+				<iYieldChange>0</iYieldChange>
+				<iYieldChange>0</iYieldChange>
+				<iYieldChange>2</iYieldChange>
+			</YieldChanges>
+			<bDispellable>1</bDispellable>
+			<iSpawnChance>5</iSpawnChance>
+			<iSpreadChance>5</iSpreadChance>
+			<iDisappearChance>5</iDisappearChance>
+			<iHealthPercent>-50</iHealthPercent>
+			<TerrainBooleans>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_WASTELAND</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_PLAINS</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_TAIGA</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_HILL</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+				<TerrainBoolean>
+					<TerrainType>TERRAIN_COAST</TerrainType>
+					<bTerrain>1</bTerrain>
+				</TerrainBoolean>
+			</TerrainBooleans>
 			<Button>Art/Interface/Buttons/TerrainFeatures/haunted.dds</Button>
 		</PlotEffectInfo>
 		<PlotEffectInfo>		<!-- Mist -->

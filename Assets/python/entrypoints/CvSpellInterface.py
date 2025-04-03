@@ -887,7 +887,7 @@ def HauntedLandsEffects(pCaster):
 	setHasPromo		= pCaster.setHasPromotion
 
 	pPlot = pCaster.plot()
-	if pPlot.getFeatureType() != Feature["Haunted Lands"]:
+	if pPlot.getPlotEffectType() != Feature["Haunted Lands"]:
 		setHasPromo(iHaunted, False)
 		setHasPromo(iUnwholesomeAddiction, False)
 		setHasPromo(iSpooked, False)
@@ -1441,7 +1441,7 @@ def reqDispelMagic(caster):
 	for x, y in plotsInRange( caster.getX(), caster.getY(), iRange ):
 		pPlot = getPlot(x, y)
 		if not pPlot.isNone():
-			if pPlot.getFeatureType() == Feature["Haunted Lands"]:
+			if pPlot.getPlotEffectType() == Feature["Haunted Lands"]:
 				if pPlot.isOwned():
 					if(caster.getOwner()==pPlot.getOwner() or gc.getPlayer(caster.getOwner()).isHuman() or gc.getTeam(caster.getTeam()).isAtWar(gc.getPlayer(pPlot.getOwner()).getTeam())):
 						if gc.getPlayer(pPlot.getOwner()).getCivilizationType() != Civ["Scions"]:
@@ -1467,7 +1467,7 @@ def spellDispelMagic(caster):
 	for x, y in plotsInRange( caster.getX(), caster.getY(), iRange ):
 		pPlot = getPlot(x, y)
 		if not pPlot.isNone():
-			if pPlot.getFeatureType() == Feature["Haunted Lands"]:
+			if pPlot.getPlotEffectType() == Feature["Haunted Lands"]:
 				if pPlot.isOwned():
 					if gc.getPlayer(pPlot.getOwner()).getCivilizationType() != Civ["Scions"]:
 						pPlot.setFeatureType(-1, -1)
@@ -3885,7 +3885,7 @@ def spellScorch(caster):
 		else: #if dtesh, plain becomes wasteland directly
 			pPlot.setTerrainType(Terrain["Wasteland"], True, True)
 			if iFeature in [Feature["Forest"],Feature["Forest New"],Feature["Ancient Forest"],Feature["Burnt Forest"],Feature["Jungle"],Feature["Scrub"]]:
-				pPlot.setFeatureType(Feature["Haunted Lands"], -1)
+				pPlot.setPlotEffectType(Feature["Haunted Lands"])
 	elif iTerrain == Terrain["Fields of perdition"]: # hell plains
 		if iCiv != Civ["D'Tesh"]: # only infernal because of reqscorch
 			pPlot.setTerrainType(Terrain["Burning sands"], True, True) # hell desert
@@ -6482,17 +6482,17 @@ def spellHL(caster):
 							if (pPlot.getFeatureType() == getInfoType('FEATURE_FOREST_ANCIENT') and (CyGame().getSorenRandNum(3, "HL destroy A_Forest Chance") > 0)) == False:
 								if (pPlot.getFeatureType() == getInfoType('FEATURE_FOREST') and (CyGame().getSorenRandNum(3, "HL destroy Forest Chance") == 0)) == False:
 									if (pPlot.getFeatureType() == getInfoType('FEATURE_JUNGLE') and (CyGame().getSorenRandNum(3, "HL destroy jungle Chance") == 0)) == False:
-										pPlot.setFeatureType(getInfoType('FEATURE_HAUNTED_LANDS'),0)
+										pPlot.setPlotEffectType(getInfoType('PLOT_EFFECT_HAUNTED_LANDS'))
 # Creeper's HL spell.
 def spellHL3(caster):
 	pPlot = caster.plot()
-	pPlot.setFeatureType(getInfoType('FEATURE_HAUNTED_LANDS'),0)
+	pPlot.setPlotEffectType(getInfoType('PLOT_EFFECT_HAUNTED_LANDS'))
 
 # Ghostwalker's HL spell.  Also creates Creepers.
 def spellHL2(caster):
 #	iCreeper = getInfoType('UNIT_CREEPER')
 	pPlot = caster.plot()
-	pPlot.setFeatureType(getInfoType('FEATURE_HAUNTED_LANDS'),0)
+	pPlot.setPlotEffectType(getInfoType('PLOT_EFFECT_HAUNTED_LANDS'))
 	pPlayer = gc.getPlayer(caster.getOwner())
 #	iChance = CyGame().getSorenRandNum(3, "Create Creeper from HL spell Chance")
 #	if iChance == 0:
@@ -6512,10 +6512,10 @@ def spelldeadG(caster):
 
 # Keeps HL spell from being cast on water or in a HL tile.
 def reqHL(caster):
-	iHaunted= getInfoType('FEATURE_HAUNTED_LANDS')
+	iHaunted= getInfoType('PLOT_EFFECT_HAUNTED_LANDS')
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pPlot = caster.plot()
-	if (pPlot.getFeatureType() == iHaunted):
+	if (pPlot.getPlotEffectType() == iHaunted):
 		return False
 	if pPlot.isWater():
 		return False
@@ -6585,7 +6585,7 @@ def reqnotScions(caster):
 # Ghostwalkers can only become Haunts on a HL tile.
 def reqHaunt(caster):
 	pPlot = caster.plot()
-	if pPlot.getFeatureType() != getInfoType('FEATURE_HAUNTED_LANDS'):
+	if pPlot.getPlotEffectType() != getInfoType('PLOT_EFFECT_HAUNTED_LANDS'):
 		return False
 	return True
 
@@ -7068,7 +7068,7 @@ def spellSpiralGate(argslist):
 			# but just to be sure.
 			pBestPlot = pCapital.plot()
 
-		pBestPlot.setFeatureType(getInfoType('FEATURE_HAUNTED_LANDS'),0)
+		pBestPlot.setPlotEffectType(getInfoType('PLOT_EFFECT_HAUNTED_LANDS'))
 
 		commonInitUnitArgs = ( pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH )
 		for unitString, bonusCategoryName, promotionList, name in giveUnits:
@@ -9544,7 +9544,7 @@ def exploreLairHauntedSpawn(argsList):
 	for x, y in plotsInRange( pUnit.getX(), pUnit.getY(), 1 ):
 		getPlot	= CyMap().plot
 		pLoopPlot = getPlot(x, y)
-		pLoopPlot.setFeatureType(getInfoType("FEATURE_HAUNTED_LANDS"),1)
+		pLoopPlot.setPlotEffectType(getInfoType("PLOT_EFFECT_HAUNTED_LANDS"))
 	
 def exploreLairMimicEnemy(argsList):
 	pUnit, pPlot = argsList
@@ -10605,9 +10605,9 @@ def spellHauntedBreath(pCaster):
 	
 	for x, y in plotsInRange( pCaster.getX(), pCaster.getY(), 1 ):
 		pPlot = getPlot(x, y)
-		iFeature = pPlot.getFeatureType()
-		if iFeature==getInfoType("FEATURE_HAUNTED_LANDS"):
-			pPlot.setFeatureType(-1, -1)
+		iFeature = pPlot.getPlotEffectType()
+		if iFeature==getInfoType("PLOT_EFFECT_HAUNTED_LANDS"):
+			pPlot.setPlotEffectType(-1)
 				
 def spellGustOfWind(pCaster):
 	gc 			= CyGlobalContext()

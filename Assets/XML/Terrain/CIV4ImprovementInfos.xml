@@ -3787,12 +3787,6 @@
 			<Civilopedia>TXT_KEY_IMPROVEMENT_GRAVEYARD_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_GRAVEYARD</ArtDefineTag>
 			<bPermanent>1</bPermanent>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
@@ -4941,12 +4935,6 @@
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_DTESHI_CRYPT</ArtDefineTag>
 			<bRequiresFlatlands>1</bRequiresFlatlands>
 			<iPillageGold>10</iPillageGold>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<PrereqCivilization>CIVILIZATION_DTESH</PrereqCivilization>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
@@ -5066,12 +5054,6 @@
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_DTESHI_CRYPT</ArtDefineTag>
 			<bRequiresFlatlands>1</bRequiresFlatlands>
 			<bPermanent>1</bPermanent>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<PrereqCivilization>CIVILIZATION_DTESH</PrereqCivilization>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
@@ -5185,12 +5167,6 @@
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iAirBombDefense>5</iAirBombDefense>
 			<iPillageGold>5</iPillageGold>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<PrereqCivilization>CIVILIZATION_DTESH</PrereqCivilization>
 			<BonusTypeStructs>
 				<BonusTypeStruct>
@@ -5263,12 +5239,6 @@
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_PYRE</ArtDefineTag>
 			<bWater>0</bWater>
 			<iPillageGold>15</iPillageGold>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<PrereqCivilization>CIVILIZATION_DTESH</PrereqCivilization>
 			<BonusTypeStructs>
 				<BonusTypeStruct>
@@ -5647,12 +5617,6 @@
 			<Help>TXT_KEY_IMPROVEMENT_DTESH_PYRE_AQUATIC_HELP</Help>
 			<bWater>1</bWater>
 			<iPillageGold>15</iPillageGold>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<PrereqCivilization>CIVILIZATION_DTESH</PrereqCivilization>
 			<YieldChanges>
 				<iYieldChange>0</iYieldChange>
@@ -5780,12 +5744,6 @@
 			<Civilopedia>TXT_KEY_IMPROVEMENT_DTESH_CATACOMBS_PEDIA</Civilopedia>
 			<Help/>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_HAUNTED_MINE</ArtDefineTag>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<PrereqCivilization>CIVILIZATION_DTESH</PrereqCivilization>
 			<YieldChanges>
 				<iYieldChange>0</iYieldChange>
@@ -5891,12 +5849,6 @@
 			<bOutsideBorders>1</bOutsideBorders>
 			<iMinimumDistance>1</iMinimumDistance>
 			<bFort>1</bFort>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<PrereqCivilization>CIVILIZATION_DTESH</PrereqCivilization>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
@@ -5958,12 +5910,6 @@
 			<iPillageGold>25</iPillageGold>
 			<bOutsideBorders>1</bOutsideBorders>
 			<bFort>1</bFort>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<PrereqCivilization>CIVILIZATION_DTESH</PrereqCivilization>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
@@ -6030,12 +5976,6 @@
 			<iPillageGold>50</iPillageGold>
 			<bOutsideBorders>1</bOutsideBorders>
 			<bFort>1</bFort>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<PrereqCivilization>CIVILIZATION_DTESH</PrereqCivilization>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
@@ -8800,12 +8740,6 @@
 			<Description>TXT_KEY_IMPROVEMENT_MANA_DEATH</Description>
 			<Civilopedia>TXT_KEY_IMPROVEMENT_MANA_DEATH_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_MANA_DEATH</ArtDefineTag>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
 			<BonusTypeStructs>
 				<BonusTypeStruct>
 					<BonusType>BONUS_MANA</BonusType>

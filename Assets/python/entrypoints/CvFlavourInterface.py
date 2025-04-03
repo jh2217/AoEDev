@@ -392,7 +392,7 @@ def generateFlavour():
 			pFlavourGenerator.addMarshTerrain()
 
 	if ADD_HL and not limitFlavor:
-		if not IsMapHasFeatureType("FEATURE_HAUNTED_LANDS"):
+		if not IsMapHasPlotEffectType("PLOT_EFFECT_HAUNTED_LANDS"):
 			pFlavourGenerator.addHL()
 
 	if ADD_KELP and not limitFlavor:
@@ -431,7 +431,7 @@ def onClimateChange(argsList):
 	iScrub = GetInfoType("FEATURE_SCRUB")
 	iFloodPlains = GetInfoType("FEATURE_FLOOD_PLAINS")
 	iCrystalPlains = GetInfoType("FEATURE_CRYSTAL_PLAINS")
-	iHauntedLands = GetInfoType("FEATURE_HAUNTED_LANDS")
+	iHauntedLands = GetInfoType("PLOT_EFFECT_HAUNTED_LANDS")
 	iForest = GetInfoType("FEATURE_FOREST")
 	iAncientForest = GetInfoType("FEATURE_FOREST_ANCIENT")
 	iBurntForest = GetInfoType("FEATURE_FOREST_BURNT")
@@ -455,8 +455,6 @@ def onClimateChange(argsList):
 
 	# Was Wasteland: Remove HL, Blighted Forest
 	elif eClimateOld == GetInfoType("CLIMATEZONE_WASTELAND"):
-		if eFeature == iHauntedLands:
-			pPlot.setFeatureType(iNewForest, VarietyTypes.NO_VARIETY)
 		if eImprovement == iBlightedForest:
 			pPlot.setImprovementType(ImprovementTypes.NO_IMPROVEMENT)
 
@@ -504,9 +502,11 @@ def onClimateChange(argsList):
 	# Becomes Wasteland -> Add Haunted lands on forests, remove oasis and rivers
 	elif eClimateNew == GetInfoType("CLIMATEZONE_WASTELAND"):
 		if eFeature in iTrees:
-			pPlot.setFeatureType(iHauntedLands, VarietyTypes.NO_VARIETY)
+			pPlot.setFeatureType(FeatureTypes.NO_FEATURE, VarietyTypes.NO_VARIETY)
+			pPlot.setPlotEffectType(iHauntedLands)
 		if eFeature == iBurntForest:
-			pPlot.setFeatureType(iHauntedLands, VarietyTypes.NO_VARIETY)
+			pPlot.setFeatureType(FeatureTypes.NO_FEATURE, VarietyTypes.NO_VARIETY)
+			pPlot.setPlotEffectType(iHauntedLands)
 		if eFeature == iAncientForest:
 			pPlot.setImprovementType(iBlightedForest)
 		if eFeature == iOasis:
@@ -779,7 +779,7 @@ class FlavourGenerator:
 			pPlot = cymap.plotByIndex(iPlotIndex)
 			if isValidHL(pPlot):
 				if dice.get(100, "FlavourMod: Add HL") <= HL_ODDS:
-					pPlot.setFeatureType(GetInfoType("FEATURE_HAUNTED_LANDS"),0)
+					pPlot.setPlotEffectType(GetInfoType("PLOT_EFFECT_HAUNTED_LANDS"))
 		cymap.rebuildGraphics()
 
 	def assignFlavourfulUniqueImprovementLocations(self):
@@ -1801,6 +1801,14 @@ def IsMapHasFeatureType(sFeatureType):
 	for iPlotIndex in range(cymap.numPlots()):
 		pPlot = cymap.plotByIndex(iPlotIndex)
 		if pPlot.getFeatureType() == eFeatureType:
+			return True
+	return False
+	
+def IsMapHasPlotEffectType(sFeatureType):
+	eFeatureType = GetInfoType(sFeatureType)
+	for iPlotIndex in range(cymap.numPlots()):
+		pPlot = cymap.plotByIndex(iPlotIndex)
+		if pPlot.getPlotEffectType() == eFeatureType:
 			return True
 	return False
 

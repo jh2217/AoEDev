@@ -418,6 +418,11 @@ bool CyPlot::canHaveFeature(int /*FeatureTypes*/ eFeature)
 	return m_pPlot ? m_pPlot->canHaveFeature((FeatureTypes)eFeature) : false;
 }
 
+bool CyPlot::canHavePlotEffect(int /*PlotEffectTypes*/ eFeature)
+{
+	return m_pPlot ? m_pPlot->canHavePlotEffect((PlotEffectTypes)eFeature) : false;
+}
+
 bool CyPlot::isRoute()
 {
 	return m_pPlot ? m_pPlot->isRoute() : false;

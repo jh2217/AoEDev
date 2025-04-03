@@ -2252,11 +2252,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_TAKE_ROOT_HELP</Tag>
-		<English>[ICON_BULLET]Creates a [LINK=FEATURE_HAUNTED_LANDS]Haunted Lands[\LINK] square.</English>
-		<French>[ICON_BULLET]Crée une case de [LINK=FEATURE_HAUNTED_LANDS]Terre Hantée[\LINK].</French>
-		<German>[ICON_BULLET]Erschafft ein Feld [LINK=FEATURE_HAUNTED_LANDS]Heimgesuchte Lande[\LINK].</German>
-		<Italian>[ICON_BULLET]Creates a [LINK=FEATURE_HAUNTED_LANDS]Haunted Lands[\LINK] square.</Italian>
-		<Spanish>[ICON_BULLET]Creates a [LINK=FEATURE_HAUNTED_LANDS]Haunted Lands[\LINK] square.</Spanish>
+		<English>[ICON_BULLET]Creates a [LINK=PLOT_EFFECT_HAUNTED_LANDS]Haunted Lands[\LINK] square.</English>
+		<French>[ICON_BULLET]Crée une case de [LINK=PLOT_EFFECT_HAUNTED_LANDS]Terre Hantée[\LINK].</French>
+		<German>[ICON_BULLET]Erschafft ein Feld [LINK=PLOT_EFFECT_HAUNTED_LANDS]Heimgesuchte Lande[\LINK].</German>
+		<Italian>[ICON_BULLET]Creates a [LINK=PLOT_EFFECT_HAUNTED_LANDS]Haunted Lands[\LINK] square.</Italian>
+		<Spanish>[ICON_BULLET]Creates a [LINK=PLOT_EFFECT_HAUNTED_LANDS]Haunted Lands[\LINK] square.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CREATE_CREEPER</Tag>

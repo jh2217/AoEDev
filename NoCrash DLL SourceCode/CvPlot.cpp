@@ -4328,7 +4328,7 @@ int CvPlot::movementCost(const CvUnit* pUnit, const CvPlot* pFromPlot) const
 	if (bHasTerrainCost)
 	{
 		if (((getFeatureType() == NO_FEATURE) ? pUnit->isTerrainDoubleMove(getTerrainType()) : pUnit->isFeatureDoubleMove(getFeatureType())) ||
-			(isHills() && pUnit->isHillsDoubleMove()))
+			(isHills() && pUnit->isHillsDoubleMove())||(getPlotEffectType()!=NO_PLOT_EFFECT && pUnit->isPlotEffectDoubleMove(getPlotEffectType())))
 		{
 			iRegularCost /= 2;
 		}

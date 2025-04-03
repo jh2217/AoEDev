@@ -8217,7 +8217,7 @@ void CvCity::updateFeatureHealth()
 		if (pLoopPlot != NULL)
 		{
 			eFeature = pLoopPlot->getFeatureType();
-
+			PlotEffectTypes ePlotEffect = pLoopPlot->getPlotEffectType();
 			if (eFeature != NO_FEATURE)
 			{
 /*************************************************************************************************/
@@ -8246,6 +8246,20 @@ void CvCity::updateFeatureHealth()
 /*************************************************************************************************/
 /**	CivPlotMods								END													**/
 /*************************************************************************************************/
+			}
+			if (ePlotEffect != NO_PLOT_EFFECT)
+			{
+				if (GET_PLAYER(getOwner()).getHealthPercentPlotEffect(ePlotEffect) > 0)
+				{
+					iNewGoodHealth += GET_PLAYER(getOwner()).getHealthPercentPlotEffect(ePlotEffect);
+				}
+				else
+				{
+					iNewBadHealth += GET_PLAYER(getOwner()).getHealthPercentPlotEffect(ePlotEffect);
+				}
+				/*************************************************************************************************/
+				/**	CivPlotMods								END													**/
+				/*************************************************************************************************/
 			}
 		}
 	}
@@ -20114,6 +20128,13 @@ bool CvCity::canCast(int spell, bool bTestVisible)
 	if (kSpell.getImprovementPrereq() != NO_IMPROVEMENT)
 	{
 		if (pPlot->getImprovementType() != kSpell.getImprovementPrereq())
+		{
+			return false;
+		}
+	}
+	if (kSpell.getPlotEffectPrereq() != NO_PLOT_EFFECT)
+	{
+		if (pPlot->getPlotEffectType() != kSpell.getPlotEffectPrereq())
 		{
 			return false;
 		}

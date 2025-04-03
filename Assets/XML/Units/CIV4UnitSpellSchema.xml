@@ -54,6 +54,8 @@
 	<ElementType name="FeatureOrPrereq1" content="textOnly"/>
 	<ElementType name="FeatureOrPrereq2" content="textOnly"/>
 	<ElementType name="ImprovementPrereq" content="textOnly"/>
+	<ElementType name="PlotEffectPrereq" content="textOnly"/>
+	<ElementType name="PlotEffectTargetPrereq" content="textOnly"/>
 	<ElementType name="PromotionInStackPrereq" content="textOnly"/>
 	<ElementType name="ReligionPrereq" content="textOnly"/>
 	<ElementType name="StateReligionPrereq" content="textOnly"/>
@@ -180,6 +182,8 @@
 		<element type="FeatureOrPrereq1"/>
 		<element type="FeatureOrPrereq2"/>
 		<element type="ImprovementPrereq"/>
+		<element type="PlotEffectPrereq"/>
+		<element type="PlotEffectTargetPrereq"/>
 		<element type="PromotionInStackPrereq"/>
 		<element type="UnitsIgnorePromotion"/>
 		<element type="PromotionsPrereq"/>

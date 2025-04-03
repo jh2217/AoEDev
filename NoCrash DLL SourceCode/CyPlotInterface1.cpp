@@ -124,6 +124,7 @@ void CyPlotPythonInterface1(python::class_<CyPlot>& x)
 		.def("isFighting", &CyPlot::isFighting, "bool ()")
 
 		.def("canHaveFeature", &CyPlot::canHaveFeature, "bool (int /*FeatureTypes*/ eFeature)")
+		.def("canHavePlotEffect", &CyPlot::canHavePlotEffect, "bool (int /*PlotEffectTypes*/ eFeature)")
 		.def("isRoute", &CyPlot::isRoute, "bool ()")
 		.def("isNetworkTerrain", &CyPlot::isNetworkTerrain, "bool (int (TeamTypes) eTeam)")
 		.def("isBonusNetwork", &CyPlot::isBonusNetwork, "bool (int (TeamTypes) eTeam)")

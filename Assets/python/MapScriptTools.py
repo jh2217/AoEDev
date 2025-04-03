@@ -386,7 +386,7 @@ def getModInfo( mapVersion=None, defLatitude=None, sMapInfo=None ):
 	bBlizzard        = ( efBlizzard >= 0 )
 	efCrystalPlains  = gc.getInfoTypeForString('FEATURE_CRYSTAL_PLAINS')		# terrain_snow, riverside & flat
 	bCrystalPlains   = ( efCrystalPlains >= 0 )
-	efHauntedLands   = gc.getInfoTypeForString('FEATURE_HAUNTED_LANDS')			# plot_land, plot_hill
+	efHauntedLands   = gc.getInfoTypeForString('PLOT_EFFECT_HAUNTED_LANDS')			# plot_land, plot_hill
 	bHauntedLands    = ( efHauntedLands >= 0 )
 	efObsidianPlains = gc.getInfoTypeForString('FEATURE_OBSIDIAN_PLAINS')		# terrain_burning_sands / terrain_marsh
 	bObsidianPlains  = ( efObsidianPlains >= 0 )
@@ -4897,7 +4897,7 @@ class FeaturePlacer:
 		# choose 'Haunted Lands' from plotlist
 		for p in hauntedPlots:
 			if choose( chHaunted, True, False ):
-				p.setFeatureType( efHauntedLands, 0 )
+				p.setPlotEffectType( efHauntedLands)
 				cnt += 1
 		if cnt>0: print "[MST] %i Haunted Lands placed" % ( cnt )
 

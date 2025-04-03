@@ -7560,7 +7560,7 @@
 			<Civilopedia>TXT_KEY_SPELL_HAUNT_PEDIA</Civilopedia>
 			<Help>TXT_KEY_SPELL_HAUNT_HELP</Help>
 			<UnitPrereq>UNIT_GHOSTWALKER</UnitPrereq>
-			<FeatureOrPrereq1>FEATURE_HAUNTED_LANDS</FeatureOrPrereq1>
+			<PlotEffectPrereq>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectPrereq>
 			<bAllowAI>1</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>1</bHasCasted>
@@ -10984,11 +10984,12 @@
 			<Civilopedia>TXT_KEY_SPELL_HAUNTED_BREATH_PEDIA</Civilopedia>
 			<Help>TXT_KEY_SPELL_HAUNTED_BREATH_HELP</Help>
 			<PromotionPrereq1>PROMOTION_HAUNTED_BREATH</PromotionPrereq1>
-			<FeatureOrPrereq1>FEATURE_HAUNTED_LANDS</FeatureOrPrereq1>
+			<PlotEffectPrereq>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectPrereq>
 			<bAllowAI>1</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>1</bHasCasted>
 			<PyResult>spellHauntedBreath(pCaster)</PyResult>
+			<RemovePlotEffectType>PLOT_EFFECT_HAUNTED_LANDS</RemovePlotEffectType>
 			<Effect>EFFECT_SPELL1</Effect>
 			<Sound>AS3D_SPELL_SANCTIFY</Sound>
 			<Button>Art/Interface/Buttons/Promotions/Haunt.dds</Button>

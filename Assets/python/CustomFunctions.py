@@ -939,6 +939,7 @@ class CustomFunctions:
 			if pPlot == None: continue
 			iBonus 				= pPlot.getBonusType(-1)
 			iFeature 			= pPlot.getFeatureType()
+			iPlotEffect = pPlot.getPlotEffectType()
 			iImprovement 		= pPlot.getImprovementType()
 			iTerrain 			= pPlot.getTerrainType()
 			bIsOwned 			= pPlot.isOwned()
@@ -994,7 +995,7 @@ class CustomFunctions:
 					if iGameTurn % iGameSpeedMod == 0:	iCreeperSpawn = 1
 					else:	iCreeperSpawn = 0
 					getUnitClassCount = pPlayer.getUnitClassCount
-					if iFeature == Feature["Haunted Lands"]:
+					if iPlotEffect == Feature["Haunted Lands"]:
 						if iCreeperSpawn == 1:
 							if eCiv == Civ["Scions"]:
 								iNatureMana = pPlayer.getNumAvailableBonuses(Mana["Nature"])
@@ -1012,7 +1013,7 @@ class CustomFunctions:
 								#		interface.addMessage(iOwner,True,25,CyTranslator().getText("A Reaching Creeper has grown in the Haunted Lands.", ()),'',1,'Art/Interface/Buttons/Units/Scions/creeper.dds',ColorTypes(8),iX, iY,True,True)
 
 					if eCiv == Civ["Scions"]:
-						if iFeature != Feature["Haunted Lands"]:
+						if iPlotEffect != Feature["Haunted Lands"]:
 							iNatureMana = pPlayer.getNumAvailableBonuses(Mana["Nature"])
 							iManaMod = 1 + (iNatureMana * 0.1)
 							iGhostwalkerFactor 	= getUnitClassCount(UnitClass["Ranger"])
@@ -1025,15 +1026,15 @@ class CustomFunctions:
 								if iFeature == Feature["Forest"] or iFeature == Feature["Ancient Forest"] or iFeature == Feature["Jungle"]:
 									iChance = iHLSeed * 1.5
 									if randNum(1100, "Chance for HL in wooded tile") < iChance :
-										setFeature(Feature["Haunted Lands"], 0)
+										pPlot.setPlotEffectType(Feature["Haunted Lands"])
 								if iFeature == Feature["Flood Plains"] or iTerrain == Terrain["Grass"] or iTerrain == Terrain["Plains"] or iTerrain == Terrain["Marsh"] and not bPeak and not bCity:
 									iChance = iHLSeed
 									if randNum(1100, "Chance for HL in unwooded tile") < iChance :
-										setFeature(Feature["Haunted Lands"], 0)
+										pPlot.setPlotEffectType(Feature["Haunted Lands"])
 								if iTerrain == Terrain["Desert"] and not bPeak and not bCity:
 									iChance = iHLSeed * 0.5
 									if randNum(1100, "Chance for HL in desert tile") < iChance :
-										setFeature(Feature["Haunted Lands"], 0)
+										pPlot.setPlotEffectType(Feature["Haunted Lands"])
 
 		#### Hell Terrain Section
 			if not Option["No Plot Counter"]:

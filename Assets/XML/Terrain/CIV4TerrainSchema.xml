@@ -766,6 +766,7 @@
 		<element type="DamageType"/>
 		<element type="bDispellable"/>
 		<element type="YieldChanges"/>
+		<element type="iHealthPercent"/>
 	</ElementType>
 	<ElementType name="PlotEffectInfos" content="eltOnly">
 		<element type="PlotEffectInfo" maxOccurs="*"/>

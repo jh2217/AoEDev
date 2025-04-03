@@ -37,7 +37,9 @@ void CyGlobalContextPythonInterface4(python::class_<CyGlobalContext>& x)
 //FfH Spell System: Added by Kael 07/23/2007
 		.def("getNumSpellInfos", &CyGlobalContext::getNumSpellInfos, "() - Total Spell Infos XML\\Units\\CIV4SpellInfos.xml")
 		.def("getSpellInfo", &CyGlobalContext::getSpellInfo, python::return_value_policy<python::reference_existing_object>(), "(SpellID) - CvInfo for SpellID")
-//FfH: End Add
+		.def("getNumFlagInfos", &CyGlobalContext::getNumFlagInfos, "() - Total Flag Infos XML\\Gameinfo\\CIV4FlagInfos.xml")
+		.def("getFlagInfo", &CyGlobalContext::getFlagInfo, python::return_value_policy<python::reference_existing_object>(), "(FlagID) - CvInfo for FlagID")
+		//FfH: End Add
 
 		.def("getNumTechInfos", &CyGlobalContext::getNumTechInfos, "() - Total Technology Infos XML\\Technologies\\CIV4TechInfos.xml")
 		.def("getTechInfo", &CyGlobalContext::getTechInfo, python::return_value_policy<python::reference_existing_object>(), "(TechID) - CvInfo for TechID")

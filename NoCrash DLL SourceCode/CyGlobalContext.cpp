@@ -296,6 +296,11 @@ CvSpellInfo* CyGlobalContext::getSpellInfo(int i) const
 {
 	return (i>=0 && i<GC.getNumSpellInfos()) ? &GC.getSpellInfo((SpellTypes) i) : NULL;
 }
+
+CvFlagInfo* CyGlobalContext::getFlagInfo(int i) const
+{
+	return (i >= 0 && i < GC.getNumFlagInfos()) ? &GC.getFlagInfo((FlagTypes)i) : NULL;
+}
 //FfH: End Add
 
 CvTechInfo* CyGlobalContext::getTechInfo(int i) const

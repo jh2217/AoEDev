@@ -3055,6 +3055,8 @@ m_piTerrainAttackPercent(NULL),
 m_piTerrainDefensePercent(NULL),
 m_piFeatureAttackPercent(NULL),
 m_piFeatureDefensePercent(NULL),
+m_piPlotEffectAttackPercent(NULL),
+m_piPlotEffectDefensePercent(NULL),
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -3074,6 +3076,7 @@ m_pbUnitCombatNonCapture(NULL),
 m_piDomainModifierPercent(NULL),
 m_pbTerrainDoubleMove(NULL),
 m_pbFeatureDoubleMove(NULL),
+m_pbPlotEffectDoubleMove(NULL),
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
@@ -3273,6 +3276,7 @@ m_iNumPrereqEthicalAlignments(0),
 /**	Lawful-Chaotic Alignments					END												**/
 /*************************************************************************************************/
 m_iNumPrereqFeatures(0),
+m_iNumPrereqPlotEffects(0),
 m_iNumPrereqTerrains(0),
 m_iNumPrereqBonusANDs(0),
 m_iNumPrereqBonusORs(0),
@@ -3321,6 +3325,7 @@ m_piPrereqEthicalAlignments(NULL),
 /**	Lawful-Chaotic Alignments					END												**/
 /*************************************************************************************************/
 m_piPrereqFeatures(NULL),
+m_piPrereqPlotEffects(NULL),
 m_piPrereqTerrains(NULL),
 m_piPrereqBonusANDs(NULL),
 m_piPrereqBonusORs(NULL),
@@ -3626,6 +3631,7 @@ CvPromotionInfo::~CvPromotionInfo()
 /**	Lawful-Chaotic Alignments					END												**/
 /*************************************************************************************************/
 	SAFE_DELETE_ARRAY(m_piPrereqFeatures);
+	SAFE_DELETE_ARRAY(m_piPrereqPlotEffects);
 	SAFE_DELETE_ARRAY(m_piPrereqTerrains);
 	SAFE_DELETE_ARRAY(m_piPrereqBonusANDs);
 	SAFE_DELETE_ARRAY(m_piPrereqBonusORs);
@@ -3728,6 +3734,8 @@ CvPromotionInfo::~CvPromotionInfo()
 	SAFE_DELETE_ARRAY(m_piTerrainDefensePercent);
 	SAFE_DELETE_ARRAY(m_piFeatureAttackPercent);
 	SAFE_DELETE_ARRAY(m_piFeatureDefensePercent);
+	SAFE_DELETE_ARRAY(m_piPlotEffectAttackPercent);
+	SAFE_DELETE_ARRAY(m_piPlotEffectDefensePercent);
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -3745,6 +3753,7 @@ CvPromotionInfo::~CvPromotionInfo()
 	SAFE_DELETE_ARRAY(m_piDomainModifierPercent);
 	SAFE_DELETE_ARRAY(m_pbTerrainDoubleMove);
 	SAFE_DELETE_ARRAY(m_pbFeatureDoubleMove);
+	SAFE_DELETE_ARRAY(m_pbPlotEffectDoubleMove);
 	//Magic Rework
 	//SAFE_DELETE_ARRAY(m_piSpellClassExtraPower);
 
@@ -4304,6 +4313,8 @@ int CvPromotionInfo::getNumPrereqEthicalAlignments() const				{return m_iNumPrer
 /*************************************************************************************************/
 int CvPromotionInfo::getPrereqFeature(int iI) const						{return (getNumPrereqFeatures() > iI)		? m_piPrereqFeatures[iI]						: -1;}
 int CvPromotionInfo::getNumPrereqFeatures() const						{return m_iNumPrereqFeatures;}
+int CvPromotionInfo::getPrereqPlotEffect(int iI) const { return (getNumPrereqPlotEffects() > iI) ? m_piPrereqPlotEffects[iI] : -1; }
+int CvPromotionInfo::getNumPrereqPlotEffects() const { return m_iNumPrereqPlotEffects; }
 int CvPromotionInfo::getPrereqTerrain(int iI) const						{return (getNumPrereqTerrains() > iI)		? m_piPrereqTerrains[iI]						: -1;}
 int CvPromotionInfo::getNumPrereqTerrains() const						{return m_iNumPrereqTerrains;}
 int CvPromotionInfo::getPrereqBonusAND(int iI) const					{return (getNumPrereqBonusANDs() > iI)		? m_piPrereqBonusANDs[iI]						: -1;}
@@ -5058,6 +5069,20 @@ int CvPromotionInfo::getFeatureDefensePercent(int i) const
 	return m_piFeatureDefensePercent ? m_piFeatureDefensePercent[i] : -1;
 }
 
+int CvPromotionInfo::getPlotEffectAttackPercent(int i) const
+{
+	FAssertMsg(i < GC.getNumPlotEffectInfos(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_piPlotEffectAttackPercent ? m_piPlotEffectAttackPercent[i] : -1;
+}
+
+int CvPromotionInfo::getPlotEffectDefensePercent(int i) const
+{
+	FAssertMsg(i < GC.getNumPlotEffectInfos(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_piPlotEffectDefensePercent ? m_piPlotEffectDefensePercent[i] : -1;
+}
+
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -5157,6 +5182,12 @@ bool CvPromotionInfo::getFeatureDoubleMove(int i) const
 	FAssertMsg(i < GC.getNumFeatureInfos(), "Index out of bounds");
 	FAssertMsg(i > -1, "Index out of bounds");
 	return m_pbFeatureDoubleMove ? m_pbFeatureDoubleMove[i] : false;
+}
+bool CvPromotionInfo::getPlotEffectDoubleMove(int i) const
+{
+	FAssertMsg(i < GC.getNumPlotEffectInfos(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_pbPlotEffectDoubleMove ? m_pbPlotEffectDoubleMove[i] : false;
 }
 /*************************************************************************************************/
 /**	MISSION_INQUISITION						13/01/12									Snarko	**/
@@ -5585,6 +5616,13 @@ void CvPromotionInfo::read(FDataStreamBase* stream)
 		SAFE_DELETE_ARRAY(m_piPrereqFeatures);
 		m_piPrereqFeatures = new int[m_iNumPrereqFeatures];
 		stream->Read(m_iNumPrereqFeatures, m_piPrereqFeatures);
+	}
+	stream->Read(&m_iNumPrereqPlotEffects);
+	if (m_iNumPrereqPlotEffects > 0)
+	{
+		SAFE_DELETE_ARRAY(m_piPrereqPlotEffects);
+		m_piPrereqPlotEffects = new int[m_iNumPrereqPlotEffects];
+		stream->Read(m_iNumPrereqPlotEffects, m_piPrereqPlotEffects);
 	}
 	stream->Read(&m_iNumPrereqTerrains);
 	if (m_iNumPrereqTerrains > 0)
@@ -6056,6 +6094,15 @@ void CvPromotionInfo::read(FDataStreamBase* stream)
 	m_piFeatureDefensePercent = new int[GC.getNumFeatureInfos()];
 	stream->Read(GC.getNumFeatureInfos(), m_piFeatureDefensePercent);
 
+	SAFE_DELETE_ARRAY(m_piPlotEffectAttackPercent);
+	m_piPlotEffectAttackPercent = new int[GC.getNumPlotEffectInfos()];
+	stream->Read(GC.getNumPlotEffectInfos(), m_piPlotEffectAttackPercent);
+
+	SAFE_DELETE_ARRAY(m_piPlotEffectDefensePercent);
+	m_piPlotEffectDefensePercent = new int[GC.getNumPlotEffectInfos()];
+	stream->Read(GC.getNumPlotEffectInfos(), m_piPlotEffectDefensePercent);
+
+
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -6101,6 +6148,10 @@ void CvPromotionInfo::read(FDataStreamBase* stream)
 	SAFE_DELETE_ARRAY(m_pbFeatureDoubleMove);
 	m_pbFeatureDoubleMove = new bool[GC.getNumFeatureInfos()];
 	stream->Read(GC.getNumFeatureInfos(), m_pbFeatureDoubleMove);
+	
+	SAFE_DELETE_ARRAY(m_pbPlotEffectDoubleMove);
+	m_pbPlotEffectDoubleMove = new bool[GC.getNumPlotEffectInfos()];
+	stream->Read(GC.getNumPlotEffectInfos(), m_pbPlotEffectDoubleMove);
 	//Magic Rework
 
 	stream->Read(&m_iMagicalPower);
@@ -6433,6 +6484,9 @@ void CvPromotionInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iNumPrereqFeatures);
 	if (m_iNumPrereqFeatures > 0)
 		stream->Write(m_iNumPrereqFeatures, m_piPrereqFeatures);
+	stream->Write(m_iNumPrereqPlotEffects);
+	if (m_iNumPrereqPlotEffects > 0)
+		stream->Write(m_iNumPrereqPlotEffects, m_piPrereqPlotEffects);
 	stream->Write(m_iNumPrereqTerrains);
 	if (m_iNumPrereqTerrains > 0)
 		stream->Write(m_iNumPrereqTerrains, m_piPrereqTerrains);
@@ -6729,6 +6783,8 @@ void CvPromotionInfo::write(FDataStreamBase* stream)
 	stream->Write(GC.getNumTerrainInfos(), m_piTerrainDefensePercent);
 	stream->Write(GC.getNumFeatureInfos(), m_piFeatureAttackPercent);
 	stream->Write(GC.getNumFeatureInfos(), m_piFeatureDefensePercent);
+	stream->Write(GC.getNumPlotEffectInfos(), m_piPlotEffectAttackPercent);
+	stream->Write(GC.getNumPlotEffectInfos(), m_piPlotEffectDefensePercent); 
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -6739,7 +6795,7 @@ void CvPromotionInfo::write(FDataStreamBase* stream)
 	stream->Write(&m_iPromotionPeakCost);
 	stream->Write(GC.getNumTerrainInfos(), m_piPromotionTerrainCost);
 	stream->Write(GC.getNumFeatureInfos(), m_piPromotionFeatureCost);
-/*************************************************************************************************/
+	/*************************************************************************************************/
 /**	GWS										END													**/
 /*************************************************************************************************/
 	stream->Write(GC.getNumUnitCombatInfos(), m_piUnitCombatModifierPercent);
@@ -6748,6 +6804,7 @@ void CvPromotionInfo::write(FDataStreamBase* stream)
 	stream->Write(NUM_DOMAIN_TYPES, m_piDomainModifierPercent);
 	stream->Write(GC.getNumTerrainInfos(), m_pbTerrainDoubleMove);
 	stream->Write(GC.getNumFeatureInfos(), m_pbFeatureDoubleMove);
+	stream->Write(GC.getNumPlotEffectInfos(), m_pbPlotEffectDoubleMove);
 	//Magic Rework
 	stream->Write(m_iMagicalPower);
 	//stream->Write(m_iDominionCapacity);
@@ -6866,6 +6923,8 @@ bool CvPromotionInfo::read(CvXMLLoadUtility* pXML)
 	pXML->SetVariableListTagPair(&m_piTerrainDefensePercent, "TerrainDefenses", sizeof(GC.getTerrainInfo((TerrainTypes)0)), GC.getNumTerrainInfos());
 	pXML->SetVariableListTagPair(&m_piFeatureAttackPercent, "FeatureAttacks", sizeof(GC.getFeatureInfo((FeatureTypes)0)), GC.getNumFeatureInfos());
 	pXML->SetVariableListTagPair(&m_piFeatureDefensePercent, "FeatureDefenses", sizeof(GC.getFeatureInfo((FeatureTypes)0)), GC.getNumFeatureInfos());
+	pXML->SetVariableListTagPair(&m_piPlotEffectAttackPercent, "PlotEffectAttacks", sizeof(GC.getPlotEffectInfo((PlotEffectTypes)0)), GC.getNumPlotEffectInfos());
+	pXML->SetVariableListTagPair(&m_piPlotEffectDefensePercent, "PlotEffectDefenses", sizeof(GC.getPlotEffectInfo((PlotEffectTypes)0)), GC.getNumPlotEffectInfos());
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -6890,7 +6949,8 @@ bool CvPromotionInfo::read(CvXMLLoadUtility* pXML)
 
 	pXML->SetVariableListTagPair(&m_pbTerrainDoubleMove, "TerrainDoubleMoves", sizeof(GC.getTerrainInfo((TerrainTypes)0)), GC.getNumTerrainInfos());
 	pXML->SetVariableListTagPair(&m_pbFeatureDoubleMove, "FeatureDoubleMoves", sizeof(GC.getFeatureInfo((FeatureTypes)0)), GC.getNumFeatureInfos());
-/*************************************************************************************************/
+	pXML->SetVariableListTagPair(&m_pbPlotEffectDoubleMove, "PlotEffectDoubleMoves", sizeof(GC.getPlotEffectInfo((PlotEffectTypes)0)), GC.getNumPlotEffectInfos());
+	/*************************************************************************************************/
 /**	Promotion PyHelp		 				07/09/10								Valkrionn	**/
 /**																								**/
 /**							Allows promotions to have dynamic help								**/
@@ -7126,6 +7186,7 @@ bool CvPromotionInfo::read(CvXMLLoadUtility* pXML)
 /**	Lawful-Chaotic Alignments					END												**/
 /*************************************************************************************************/
 	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(),"PrereqFeatures"))		pXML->SetIntWithChildList(&m_iNumPrereqFeatures, &m_piPrereqFeatures);
+	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "PrereqPlotEffects"))		pXML->SetIntWithChildList(&m_iNumPrereqPlotEffects, &m_piPrereqPlotEffects);
 	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(),"PrereqTerrains"))		pXML->SetIntWithChildList(&m_iNumPrereqTerrains, &m_piPrereqTerrains);
 	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(),"PrereqBonusANDs"))		pXML->SetIntWithChildList(&m_iNumPrereqBonusANDs, &m_piPrereqBonusANDs);
 	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(),"PrereqBonusORs"))		pXML->SetIntWithChildList(&m_iNumPrereqBonusORs, &m_piPrereqBonusORs);
@@ -8174,7 +8235,13 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 		if (m_pbFeatureDoubleMove[j]			== false)				m_pbFeatureDoubleMove[j]			= pClassInfo->getFeatureDoubleMove(j);
 		if (m_piPromotionFeatureCost[j]					== 0)					m_piPromotionFeatureCost[j]					= pClassInfo->getPromotionFeatureCost(j);	// GWS
 	}
-/*************************************************************************************************/
+	for (int j = 0; j < GC.getNumPlotEffectInfos(); j++)
+	{
+		if (m_piPlotEffectAttackPercent[j] == 0)					m_piPlotEffectAttackPercent[j] = pClassInfo->getPlotEffectAttackPercent(j);
+		if (m_piPlotEffectDefensePercent[j] == 0)					m_piPlotEffectDefensePercent[j] = pClassInfo->getPlotEffectDefensePercent(j);
+		if (m_pbPlotEffectDoubleMove[j] == false)				m_pbPlotEffectDoubleMove[j] = pClassInfo->getPlotEffectDoubleMove(j);
+	}
+	/*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
 /**					Units can have movement modifiers for different terrain						**/
@@ -8446,7 +8513,44 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 		m_iNumPrereqFeatures = iGoalSize;
 		SAFE_DELETE_ARRAY(tempArray);
 	}
-/*************************************************************************************************/
+	if (pClassInfo->getNumPrereqPlotEffects() > 0)
+	{
+		int* tempArray = new int[getNumPrereqPlotEffects() + pClassInfo->getNumPrereqPlotEffects()];
+		for (int i = 0; i < getNumPrereqPlotEffects(); ++i)
+		{
+			tempArray[i] = getPrereqPlotEffect(i);
+		}
+		int iNewItems = 0;
+		for (int i = 0; i < pClassInfo->getNumPrereqPlotEffects(); ++i)
+		{
+			bool bLoad = true;
+			for (int j = 0; j < getNumPrereqPlotEffects(); ++j)
+			{
+				if (pClassInfo->getPrereqPlotEffect(i) == getPrereqPlotEffect(j))
+				{
+					bLoad = false;
+					break;
+				}
+			}
+			if (bLoad)
+			{
+				tempArray[iNewItems + getNumPrereqPlotEffects()] = pClassInfo->getPrereqPlotEffect(i);
+				iNewItems++;
+			}
+		}
+		SAFE_DELETE_ARRAY(m_piPrereqPlotEffects);
+		int iGoalSize = getNumPrereqPlotEffects() + iNewItems;
+		m_piPrereqPlotEffects = new int[iGoalSize];
+		for (int i = 0; i < iGoalSize; ++i)
+		{
+			m_piPrereqPlotEffects[i] = tempArray[i];
+			FAssertMsg(m_piPrereqPlotEffects[i] < GC.getNumPlotEffectInfos(), "Out of Bounds Array Melding");
+			FAssertMsg(m_piPrereqPlotEffects[i] > -1, "Out of Bounds Array Melding");
+		}
+		m_iNumPrereqPlotEffects = iGoalSize;
+		SAFE_DELETE_ARRAY(tempArray);
+	}
+	/*************************************************************************************************/
 /**	Second Job							08/28/10									Valkrionn	**/
 /**				Allows units to qualify for the promotions of other UnitCombats					**/
 /*************************************************************************************************/
@@ -10249,6 +10353,8 @@ m_iFeatureOrPrereq1(NO_FEATURE),
 m_iFeatureOrPrereq2(NO_FEATURE),
 m_iFeatureOrTargetPrereq1(NO_FEATURE),
 m_iFeatureOrTargetPrereq2(NO_FEATURE),
+m_iPlotEffectPrereq(NO_PLOT_EFFECT),
+m_iPlotEffectTargetPrereq(NO_PLOT_EFFECT),
 m_iImprovementPrereq(NO_IMPROVEMENT),
 m_iImprovementTargetPrereq(NO_IMPROVEMENT),
 m_iPromotionInStackPrereq(NO_PROMOTION),
@@ -10483,6 +10589,15 @@ int CvSpellInfo::getFeatureOrTargetPrereq1() const
 int CvSpellInfo::getFeatureOrTargetPrereq2() const
 {
 	return m_iFeatureOrTargetPrereq2;
+}
+int CvSpellInfo::getPlotEffectPrereq() const
+{
+	return m_iPlotEffectPrereq;
+}
+
+int CvSpellInfo::getPlotEffectTargetPrereq() const
+{
+	return m_iPlotEffectTargetPrereq;
 }
 
 int CvSpellInfo::getImprovementPrereq() const
@@ -10946,6 +11061,8 @@ void CvSpellInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_iFeatureOrPrereq2);
 	stream->Read(&m_iFeatureOrTargetPrereq1);
 	stream->Read(&m_iFeatureOrTargetPrereq2);
+	stream->Read(&m_iPlotEffectPrereq);
+	stream->Read(&m_iPlotEffectTargetPrereq);
 	stream->Read(&m_iImprovementPrereq);
 	stream->Read(&m_iImprovementTargetPrereq);
 	stream->Read(&m_iPromotionInStackPrereq);
@@ -11124,6 +11241,8 @@ void CvSpellInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iFeatureOrPrereq2);
 	stream->Write(m_iFeatureOrTargetPrereq1);
 	stream->Write(m_iFeatureOrTargetPrereq2);
+	stream->Write(m_iPlotEffectPrereq);
+	stream->Write(m_iPlotEffectTargetPrereq);
 	stream->Write(m_iImprovementPrereq);
 	stream->Write(m_iImprovementTargetPrereq);
 	stream->Write(m_iPromotionInStackPrereq);
@@ -11306,6 +11425,10 @@ bool CvSpellInfo::read(CvXMLLoadUtility* pXML)
 	if (szTextVal != "") m_iFeatureOrTargetPrereq1 = pXML->FindInInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(szTextVal, "FeatureOrTargetPrereq2");
 	if (szTextVal != "") m_iFeatureOrTargetPrereq2 = pXML->FindInInfoClass(szTextVal);
+	pXML->GetChildXmlValByName(szTextVal, "PlotEffectPrereq");
+	if (szTextVal != "") m_iPlotEffectPrereq = pXML->FindInInfoClass(szTextVal);
+	pXML->GetChildXmlValByName(szTextVal, "¨PlotEffectTargetPrereq");
+	if (szTextVal != "") m_iPlotEffectTargetPrereq = pXML->FindInInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(szTextVal, "ImprovementPrereq");
 	if (szTextVal != "") m_iImprovementPrereq = pXML->FindInInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(szTextVal, "ImprovementTargetPrereq");
@@ -11636,6 +11759,8 @@ void CvSpellInfo::copyNonDefaults(CvSpellInfo* pClassInfo, CvXMLLoadUtility* pXM
 	if (getCorporationPrereq()			== NO_CORPORATION)		m_iCorporationPrereq			= pClassInfo->getCorporationPrereq();
 	if (getCorporationTargetPrereq() == NO_CORPORATION)		m_iCorporationTargetPrereq = pClassInfo->getCorporationTargetPrereq();
 	if (getCreateImprovementType()		== NO_IMPROVEMENT)		m_iCreateImprovementType		= pClassInfo->getCreateImprovementType();
+	if (getPlotEffectPrereq() == NO_PLOT_EFFECT)		m_iPlotEffectPrereq = pClassInfo->getPlotEffectPrereq();
+	if (getPlotEffectTargetPrereq() == NO_PLOT_EFFECT)		m_iPlotEffectTargetPrereq = pClassInfo->getPlotEffectTargetPrereq();
 	if (getImprovementPrereq()			== NO_IMPROVEMENT)		m_iImprovementPrereq			= pClassInfo->getImprovementPrereq();
 	if (getImprovementTargetPrereq() == NO_IMPROVEMENT)		m_iImprovementTargetPrereq = pClassInfo->getImprovementTargetPrereq();
 	if (getCivilizationPrereq()		== NO_CIVILIZATION)		m_iCivilizationPrereq			= pClassInfo->getCivilizationPrereq();
@@ -52094,6 +52219,7 @@ CvPlotEffectInfo::CvPlotEffectInfo() :
 	m_iDefaultFeatureGraphics(NO_FEATURE),
 	m_iTurnDamage(0),
 	m_iDamageLimit(0),
+	m_iHealthPercent(0),
 	m_bDispellable(false),
 	m_iPerceptionCost(0),
 	m_iSeeThroughChange(0),
@@ -52130,6 +52256,10 @@ const int CvPlotEffectInfo::getDefaultFeatureGraphics() const
 const int CvPlotEffectInfo::getTurnDamage() const
 {
 	return m_iTurnDamage;
+}
+const int CvPlotEffectInfo::getHealthPercent() const
+{
+	return m_iHealthPercent;
 }
 const bool CvPlotEffectInfo::isDispellable() const
 {
@@ -52218,6 +52348,7 @@ bool CvPlotEffectInfo::read(CvXMLLoadUtility* pXML)
 	m_iDefaultFeatureGraphics = pXML->FindInInfoClass(szTextVal);
 	
 	pXML->GetChildXmlValByName(&m_iTurnDamage, "iTurnDamage");
+	pXML->GetChildXmlValByName(&m_iHealthPercent, "iHealthPercent");
 	pXML->GetChildXmlValByName(&m_iMaxPlotCounter, "iMaxPlotCounter",-1);
 	pXML->GetChildXmlValByName(&m_iSpawnChance, "iSpawnChance");
 	pXML->GetChildXmlValByName(&m_bDispellable, "bDispellable");
@@ -52231,7 +52362,7 @@ bool CvPlotEffectInfo::read(CvXMLLoadUtility* pXML)
 	// call the find in list function to return either -1 if no value is found
 	// or the index in the list the match is found at
 	m_iDamageType = pXML->FindInInfoClass(szTextVal);
-	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "Yields"))
+	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "YieldChanges"))
 	{
 		pXML->SetYields(&m_piYieldChange);
 		gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
@@ -52260,6 +52391,7 @@ void CvPlotEffectInfo::copyNonDefaults(CvPlotEffectInfo* pClassInfo, CvXMLLoadUt
 	if (getMoveChance() == 0)				m_iMoveChance = (pClassInfo->getMoveChance());
 	if (getTurnDamage() == 0)				m_iTurnDamage = (pClassInfo->getTurnDamage());
 	if (getDamageLimit() == 0)				m_iDamageLimit = (pClassInfo->getDamageLimit());
+	if (getHealthPercent() == 0)				m_iHealthPercent = (pClassInfo->getHealthPercent());
 	if (getPerceptionCost() == 0)				m_iPerceptionCost = (pClassInfo->getPerceptionCost());
 	if (getSeeThroughChange() == 0)				m_iSeeThroughChange = (pClassInfo->getSeeThroughChange());
 	if (getDamageType() == NO_DAMAGE)				m_iDamageType = (pClassInfo->getDamageType());

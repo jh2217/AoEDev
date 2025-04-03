@@ -12407,6 +12407,68 @@ int CvUnitAI::AI_promotionValue(PromotionTypes ePromotion, bool bSkipRandom, boo
 			}
 		}
 	}
+	for (iI = 0; iI < GC.getNumPlotEffectInfos(); iI++)
+	{
+		iTemp = kPromotion.getPlotEffectAttackPercent(iI);
+		if (iTemp != 0)
+		{
+			iExtra = getExtraPlotEffectAttackPercent((PlotEffectTypes)iI);
+			iTemp *= (100 + iExtra * 2);
+			iTemp /= 100;
+			if ((AI_getUnitAIType() == UNITAI_ATTACK) ||
+				(AI_getUnitAIType() == UNITAI_COUNTER))
+			{
+				iValue += (iTemp / 4);
+			}
+			else
+			{
+				iValue += (iTemp / 16);
+			}
+		}
+
+		iTemp = kPromotion.getPlotEffectDefensePercent(iI);;
+		if (iTemp != 0)
+		{
+			iExtra = getExtraPlotEffectDefensePercent((PlotEffectTypes)iI);
+			iTemp *= (100 + iExtra * 2);
+			iTemp /= 100;
+
+			if (!noDefensiveBonus())
+			{
+				if (AI_getUnitAIType() == UNITAI_COUNTER)
+				{
+					if (plot()->getPlotEffectType() == (PlotEffectTypes)iI)
+					{
+						iValue += (iTemp / 4);
+					}
+					else
+					{
+						iValue++;
+					}
+				}
+				else
+				{
+					iValue += (iTemp / 16);
+				}
+			}
+		}
+
+		if (kPromotion.getPlotEffectDoubleMove(iI))
+		{
+			if (AI_getUnitAIType() == UNITAI_EXPLORE)
+			{
+				iValue += 20;
+			}
+			else if ((AI_getUnitAIType() == UNITAI_ATTACK) || (AI_getUnitAIType() == UNITAI_PILLAGE))
+			{
+				iValue += 10;
+			}
+			else
+			{
+				iValue += 1;
+			}
+		}
+	}
 
 	int iOtherCombat = 0;
 	int iSameCombat = 0;

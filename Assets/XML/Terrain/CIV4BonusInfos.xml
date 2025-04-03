@@ -69,12 +69,6 @@
 			<bNormalize>0</bNormalize>
 			<TerrainBooleans>
 			</TerrainBooleans>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 			<FeatureTerrainBooleans>
 			</FeatureTerrainBooleans>
 			<bModifierPerBonus>1</bModifierPerBonus>
@@ -365,10 +359,6 @@
 				</FeatureBoolean>
 				<FeatureBoolean>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
 					<bFeature>1</bFeature>
 				</FeatureBoolean>
 			</FeatureBooleans>
@@ -892,10 +882,6 @@
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<bFeature>1</bFeature>
 				</FeatureBoolean>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
 			</FeatureBooleans>
 			<FeatureTerrainBooleans>
 				<FeatureTerrainBoolean>
@@ -950,12 +936,6 @@
 					<bTerrain>1</bTerrain>
 				</TerrainBoolean>
 			</TerrainBooleans>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Gulagarm -->
 			<Type>BONUS_GULAGARM</Type>
@@ -1059,12 +1039,6 @@
 					<bTerrain>1</bTerrain>
 				</TerrainBoolean>
 			</TerrainBooleans>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Fur -->
 			<Type>BONUS_HARE</Type>
@@ -1317,10 +1291,6 @@
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
 					<bFeature>1</bFeature>
 				</FeatureBoolean>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
 			</FeatureBooleans>
 			<FeatureTerrainBooleans>
 				<FeatureTerrainBoolean>
@@ -1511,12 +1481,6 @@
 					<bTerrain>1</bTerrain>
 				</TerrainBoolean>
 			</TerrainBooleans>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mithril -->
 			<Type>BONUS_MITHRIL</Type>
@@ -1580,10 +1544,6 @@
 				</FeatureBoolean>
 				<FeatureBoolean>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
 					<bFeature>1</bFeature>
 				</FeatureBoolean>
 			</FeatureBooleans>
@@ -1719,12 +1679,6 @@
 					<bTerrain>1</bTerrain>
 				</TerrainBoolean>
 			</TerrainBooleans>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Obsidian	-->
 			<Type>BONUS_OBSIDIAN</Type>
@@ -1748,12 +1702,6 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Patrian Artifacts -->
 			<Type>BONUS_PATRIAN_ARTIFACTS</Type>
@@ -1803,12 +1751,6 @@
 					<bTerrain>1</bTerrain>
 				</TerrainBoolean>
 			</TerrainBooleans>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Pearl -->
 			<Type>BONUS_PEARL</Type>
@@ -2083,12 +2025,6 @@
 					<bTerrain>1</bTerrain>
 				</TerrainBoolean>
 			</TerrainBooleans>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Sheep -->
 			<Type>BONUS_SHEEP</Type>
@@ -2173,12 +2109,6 @@
 					<bTerrain>1</bTerrain>
 				</TerrainBoolean>
 			</TerrainBooleans>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 			<FreePromotion>PROMOTION_SHEUT_STONE</FreePromotion>
 		</BonusInfo>
 		<BonusInfo>		<!-- Silk -->
@@ -2338,12 +2268,6 @@
 					<bTerrain>1</bTerrain>
 				</TerrainBoolean>
 			</TerrainBooleans>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Sugar -->
 			<Type>BONUS_SUGAR</Type>
@@ -2601,12 +2525,6 @@
 					<bTerrain>1</bTerrain>
 				</TerrainBoolean>
 			</TerrainBooleans>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Air -->
 			<Type>BONUS_MANA_AIR</Type>
@@ -2632,12 +2550,6 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<DamageType>DAMAGE_LIGHTNING</DamageType>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Body -->
 			<Type>BONUS_MANA_BODY</Type>
@@ -2664,12 +2576,6 @@
 			</Rands>
 			<bModifierPerBonus>1</bModifierPerBonus>
 			<iHealChange>5</iHealChange>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Chaos -->
 			<Type>BONUS_MANA_CHAOS</Type>
@@ -2696,12 +2602,6 @@
 			</Rands>
 			<bModifierPerBonus>1</bModifierPerBonus>
 			<iMutateChance>2</iMutateChance>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Creation -->
 			<Type>BONUS_MANA_CREATION</Type>
@@ -2726,12 +2626,6 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Death -->
 			<Type>BONUS_MANA_DEATH</Type>
@@ -2758,12 +2652,6 @@
 			</Rands>
 			<iBadAttitude>-1</iBadAttitude>
 			<DamageType>DAMAGE_DEATH</DamageType>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Dimensional -->
 			<Type>BONUS_MANA_DIMENSIONAL</Type>
@@ -2788,12 +2676,6 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Earth -->
 			<Type>BONUS_MANA_EARTH</Type>
@@ -2820,12 +2702,6 @@
 			</Rands>
 			<bModifierPerBonus>1</bModifierPerBonus>
 			<iDiscoverRandModifier>20</iDiscoverRandModifier>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Enchantment 59-->
 			<Type>BONUS_MANA_ENCHANTMENT</Type>
@@ -2852,12 +2728,6 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<bModifierPerBonus>1</bModifierPerBonus>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Entropy -->
 			<Type>BONUS_MANA_ENTROPY</Type>
@@ -2886,12 +2756,6 @@
 			<iBadAttitude>-2</iBadAttitude>
 			<iHealChangeEnemy>-2</iHealChangeEnemy>
 			<DamageType>DAMAGE_UNHOLY</DamageType>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Fire -->
 			<Type>BONUS_MANA_FIRE</Type>
@@ -2917,12 +2781,6 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<DamageType>DAMAGE_FIRE</DamageType>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Force -->
 			<Type>BONUS_MANA_FORCE</Type>
@@ -2947,12 +2805,6 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Ice 63-->
 			<Type>BONUS_MANA_ICE</Type>
@@ -2978,12 +2830,6 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<DamageType>DAMAGE_COLD</DamageType>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Law 64-->
 			<Type>BONUS_MANA_LAW</Type>
@@ -3010,12 +2856,6 @@
 			</Rands>
 			<bModifierPerBonus>1</bModifierPerBonus>
 			<iMaintenanceModifier>-5</iMaintenanceModifier>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Life -->
 			<Type>BONUS_MANA_LIFE</Type>
@@ -3042,12 +2882,6 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<bModifierPerBonus>1</bModifierPerBonus>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Metamagic -->
 			<Type>BONUS_MANA_METAMAGIC</Type>
@@ -3072,12 +2906,6 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Mind -->
 			<Type>BONUS_MANA_MIND</Type>
@@ -3108,12 +2936,6 @@
 				<iCommerce>3</iCommerce>
 				<iCommerce>0</iCommerce>
 			</CommerceModifiers>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Nature -->
 			<Type>BONUS_MANA_NATURE</Type>
@@ -3138,12 +2960,6 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Refined -->
 			<Type>BONUS_REFINED_MANA</Type>
@@ -3205,12 +3021,6 @@
 			</CommerceModifiers>
 			<DamageType>NONE</DamageType>
 			<FreePromotion>NONE</FreePromotion>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Shadow -->
 			<Type>BONUS_MANA_SHADOW</Type>
@@ -3235,12 +3045,6 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Spirit -->
 			<Type>BONUS_MANA_SPIRIT</Type>
@@ -3267,12 +3071,6 @@
 			</Rands>
 			<bModifierPerBonus>1</bModifierPerBonus>
 			<iGreatPeopleRateModifier>5</iGreatPeopleRateModifier>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Sun -->
 			<Type>BONUS_MANA_SUN</Type>
@@ -3298,12 +3096,6 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<DamageType>DAMAGE_FIRE</DamageType>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Mana Water -->
 			<Type>BONUS_MANA_WATER</Type>
@@ -3329,12 +3121,6 @@
 				<iRandApp4>0</iRandApp4>
 			</Rands>
 			<DamageType>DAMAGE_COLD</DamageType>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 		</BonusInfo>
 		<BonusInfo>		<!-- Whale -->
 			<Type>BONUS_WHALE</Type>

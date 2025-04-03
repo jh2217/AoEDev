@@ -128,6 +128,7 @@ public:
 	bool isFighting();
 
 	bool canHaveFeature(int /*FeatureTypes*/ eFeature);
+	bool canHavePlotEffect(int /*PlotEffectTypes*/ eFeature);
 	bool isRoute();
 	bool isNetworkTerrain(int /*TeamTypes*/ eTeam);
 	bool isBonusNetwork(int /*TeamTypes*/ eTeam);

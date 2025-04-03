@@ -6907,14 +6907,6 @@
 						<iYield>0</iYield>
 					</FeatureYields>
 				</FeatureYieldChange>
-				<FeatureYieldChange>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<FeatureYields>
-						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>-2</iYield>
-					</FeatureYields>
-				</FeatureYieldChange>
 			</FeatureYieldChanges>
 			<TerrainYieldChanges>
 				<TerrainYieldChange>

@@ -137,12 +137,6 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 			<FreePromotion>PROMOTION_SHIP_MARCH</FreePromotion>
 		</BonusInfo>
 		<BonusInfo>		<!-- Kraken Eye -->
@@ -174,12 +168,6 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 			<iResearchModifier>20</iResearchModifier>
 			<FreePromotion>PROMOTION_DEEPENED_VISION</FreePromotion>
 		</BonusInfo>
@@ -212,12 +200,6 @@
 				<iRandApp3>0</iRandApp3>
 				<iRandApp4>0</iRandApp4>
 			</Rands>
-			<FeatureBooleans>
-				<FeatureBoolean>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeature>1</bFeature>
-				</FeatureBoolean>
-			</FeatureBooleans>
 			<FreePromotion>PROMOTION_TITAN_SCALE_PLATING</FreePromotion>
 		</BonusInfo>
 		<BonusInfo>		<!-- Jeteye -->

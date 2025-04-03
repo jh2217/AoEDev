@@ -10598,18 +10598,18 @@
 			<Description>TXT_KEY_PROMOTION_HAUNT</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<bAlwaysHeal>1</bAlwaysHeal>
-			<FeatureAttacks>
-				<FeatureAttack>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<iFeatureAttack>30</iFeatureAttack>
-				</FeatureAttack>
-			</FeatureAttacks>
-			<FeatureDefenses>
-				<FeatureDefense>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<iFeatureDefense>30</iFeatureDefense>
-				</FeatureDefense>
-			</FeatureDefenses>
+			<PlotEffectAttacks>
+				<PlotEffectAttack>
+					<PlotEffectType>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectType>
+					<iPlotEffectAttack>30</iPlotEffectAttack>
+				</PlotEffectAttack>
+			</PlotEffectAttacks>
+			<PlotEffectDefenses>
+				<PlotEffectDefense>
+					<PlotEffectType>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectType>
+					<iPlotEffectDefense>30</iPlotEffectDefense>
+				</PlotEffectDefense>
+			</PlotEffectDefenses>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
@@ -10632,18 +10632,18 @@
 			<Description>TXT_KEY_PROMOTION_HAUNT</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<bAlwaysHeal>1</bAlwaysHeal>
-			<FeatureAttacks>
-				<FeatureAttack>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<iFeatureAttack>30</iFeatureAttack>
-				</FeatureAttack>
-			</FeatureAttacks>
-			<FeatureDefenses>
-				<FeatureDefense>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<iFeatureDefense>30</iFeatureDefense>
-				</FeatureDefense>
-			</FeatureDefenses>
+			<PlotEffectAttacks>
+				<PlotEffectAttack>
+					<PlotEffectType>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectType>
+					<iPlotEffectAttack>30</iPlotEffectAttack>
+				</PlotEffectAttack>
+			</PlotEffectAttacks>
+			<PlotEffectDefenses>
+				<PlotEffectDefense>
+					<PlotEffectType>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectType>
+					<iPlotEffectDefense>30</iPlotEffectDefense>
+				</PlotEffectDefense>
+			</PlotEffectDefenses>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
@@ -10678,9 +10678,9 @@
 			<bEffectProm>1</bEffectProm>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<PrereqFeatures>
-				<PrereqFeature>FEATURE_HAUNTED_LANDS</PrereqFeature>
-			</PrereqFeatures>
+			<PrereqPlotEffects>
+				<PrereqPlotEffect>PLOT_EFFECT_HAUNTED_LANDS</PrereqPlotEffect>
+			</PrereqPlotEffects>
 			<PrereqUnitTypesNOTOnTile>
 				<UnitType>UNIT_HAUNT_KORRINA</UnitType>
 				<UnitType>UNIT_HAUNT</UnitType>
@@ -10763,23 +10763,23 @@
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<PrereqFeatures>
-				<PrereqFeature>FEATURE_HAUNTED_LANDS</PrereqFeature>
-			</PrereqFeatures>
+			<PrereqPlotEffects>
+				<PrereqPlotEffect>PLOT_EFFECT_HAUNTED_LANDS</PrereqPlotEffect>
+			</PrereqPlotEffects>
 			<iMovesChange>1</iMovesChange>
 			<iWithdrawalChange>15</iWithdrawalChange>
-			<FeatureAttacks>
-				<FeatureAttack>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<iFeatureAttack>15</iFeatureAttack>
-				</FeatureAttack>
-			</FeatureAttacks>
-			<FeatureDefenses>
-				<FeatureDefense>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<iFeatureDefense>15</iFeatureDefense>
-				</FeatureDefense>
-			</FeatureDefenses>
+			<PlotEffectAttacks>
+				<PlotEffectAttack>
+					<PlotEffectType>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectType>
+					<iPlotEffectAttack>15</iPlotEffectAttack>
+				</PlotEffectAttack>
+			</PlotEffectAttacks>
+			<PlotEffectDefenses>
+				<PlotEffectDefense>
+					<PlotEffectType>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectType>
+					<iPlotEffectDefense>15</iPlotEffectDefense>
+				</PlotEffectDefense>
+			</PlotEffectDefenses>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -10840,9 +10840,9 @@
 			<bEffectProm>1</bEffectProm>
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
-			<PrereqFeatures>
-				<PrereqFeature>FEATURE_HAUNTED_LANDS</PrereqFeature>
-			</PrereqFeatures>
+			<PrereqPlotEffects>
+				<PrereqPlotEffect>PLOT_EFFECT_HAUNTED_LANDS</PrereqPlotEffect>
+			</PrereqPlotEffects>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_GHOSTWALKER</PrereqUnit>
 			</PrereqUnits>
@@ -17131,30 +17131,30 @@
 					<iTerrainDefense>10</iTerrainDefense>
 				</TerrainDefense>
 			</TerrainDefenses>
-			<FeatureAttacks>
-				<FeatureAttack>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-			</FeatureAttacks>
-			<FeatureDefenses>
-				<FeatureDefense>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-			</FeatureDefenses>
+			<PlotEffectAttacks>
+				<PlotEffectAttack>
+					<PlotEffectType>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectType>
+					<iPlotEffectAttack>25</iPlotEffectAttack>
+				</PlotEffectAttack>
+			</PlotEffectAttacks>
+			<PlotEffectDefenses>
+				<PlotEffectDefense>
+					<PlotEffectType>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectType>
+					<iPlotEffectDefense>25</iPlotEffectDefense>
+				</PlotEffectDefense>
+			</PlotEffectDefenses>
 			<TerrainDoubleMoves>
 				<TerrainDoubleMove>
 					<TerrainType>TERRAIN_WASTELAND</TerrainType>
 					<bTerrainDoubleMove>1</bTerrainDoubleMove>
 				</TerrainDoubleMove>
 			</TerrainDoubleMoves>
-			<FeatureDoubleMoves>
-				<FeatureDoubleMove>
-					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
-					<bFeatureDoubleMove>1</bFeatureDoubleMove>
-				</FeatureDoubleMove>
-			</FeatureDoubleMoves>
+			<PlotEffectDoubleMoves>
+				<PlotEffectDoubleMove>
+					<PlotEffectType>PLOT_EFFECT_HAUNTED_LANDS</PlotEffectType>
+					<bPlotEffectDoubleMove>1</bPlotEffectDoubleMove>
+				</PlotEffectDoubleMove>
+			</PlotEffectDoubleMoves>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>

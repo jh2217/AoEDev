@@ -61,6 +61,9 @@ CvUnit::CvUnit()
 	m_paiExtraTerrainDefensePercent = NULL;
 	m_paiExtraFeatureAttackPercent = NULL;
 	m_paiExtraFeatureDefensePercent = NULL;
+	m_paiPlotEffectDoubleMoveCount = NULL;
+	m_paiExtraPlotEffectAttackPercent = NULL;
+	m_paiExtraPlotEffectDefensePercent = NULL;
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -557,6 +560,9 @@ void CvUnit::uninit()
 	SAFE_DELETE_ARRAY(m_paiExtraTerrainDefensePercent);
 	SAFE_DELETE_ARRAY(m_paiExtraFeatureAttackPercent);
 	SAFE_DELETE_ARRAY(m_paiExtraFeatureDefensePercent);
+	SAFE_DELETE_ARRAY(m_paiPlotEffectDoubleMoveCount);
+	SAFE_DELETE_ARRAY(m_paiExtraPlotEffectAttackPercent);
+	SAFE_DELETE_ARRAY(m_paiExtraPlotEffectDefensePercent);
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -1178,6 +1184,16 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
 			m_paiExtraFeatureAttackPercent[iI] = 0;
 			m_paiExtraFeatureDefensePercent[iI] = 0;
 			m_paiFeatureCost[iI] = 0;										// GWS
+		}
+		FAssertMsg((0 < GC.getNumPlotEffectInfos()), "GC.getNumPlotEffectInfos() is not greater than zero but a float array is being allocated in CvUnit::reset");
+		m_paiPlotEffectDoubleMoveCount = new int[GC.getNumPlotEffectInfos()];
+		m_paiExtraPlotEffectDefensePercent = new int[GC.getNumPlotEffectInfos()];
+		m_paiExtraPlotEffectAttackPercent = new int[GC.getNumPlotEffectInfos()];
+		for (iI = 0; iI < GC.getNumPlotEffectInfos(); iI++)
+		{
+			m_paiPlotEffectDoubleMoveCount[iI] = 0;
+			m_paiExtraPlotEffectAttackPercent[iI] = 0;
+			m_paiExtraPlotEffectDefensePercent[iI] = 0;
 		}
 
 		FAssertMsg((0 < GC.getNumUnitCombatInfos()), "GC.getNumUnitCombatInfos() is not greater than zero but an array is being allocated in CvUnit::reset");
@@ -13310,6 +13326,8 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 		pCombatDetails->iHillsDefenseModifier = 0;
 		pCombatDetails->iFeatureAttackModifier = 0;
 		pCombatDetails->iFeatureDefenseModifier = 0;
+		pCombatDetails->iPlotEffectAttackModifier = 0;
+		pCombatDetails->iPlotEffectDefenseModifier = 0;
 		pCombatDetails->iTerrainAttackModifier = 0;
 		pCombatDetails->iTerrainDefenseModifier = 0;
 		pCombatDetails->iCityAttackModifier = 0;
@@ -13658,7 +13676,16 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 				pCombatDetails->iFeatureDefenseModifier = iExtraModifier;
 			}
 		}
-	//	else
+		if (pPlot->getPlotEffectType() != NO_PLOT_EFFECT)
+		{
+			iExtraModifier = getExtraPlotEffectDefensePercent(pPlot->getPlotEffectType());
+			iModifier += iExtraModifier;
+			if (pCombatDetails != NULL)
+			{
+				pCombatDetails->iPlotEffectDefenseModifier = iExtraModifier;
+			}
+		}
+		//	else
 		{
 			iExtraModifier = terrainDefenseModifier(pPlot->getTerrainType());
 			iModifier += iExtraModifier;
@@ -13746,6 +13773,15 @@ int CvUnit::maxCombatStr(const CvPlot* pPlot, const CvUnit* pAttacker, CombatDet
 			if (pCombatDetails != NULL)
 			{
 				pCombatDetails->iFeatureAttackModifier = iExtraModifier;
+			}
+		}
+		if (pAttackedPlot->getPlotEffectType() != NO_PLOT_EFFECT)
+		{
+			iExtraModifier = -pAttacker->getExtraPlotEffectAttackPercent(pAttackedPlot->getPlotEffectType());
+			iTempModifier += iExtraModifier;
+			if (pCombatDetails != NULL)
+			{
+				pCombatDetails->iPlotEffectAttackModifier = iExtraModifier;
 			}
 		}
 		//else
@@ -20856,6 +20892,72 @@ void CvUnit::changeExtraFeatureDefensePercent(FeatureTypes eIndex, int iChange)
 		setInfoBarDirty(true);
 	}
 }
+int CvUnit::getPlotEffectDoubleMoveCount(PlotEffectTypes eIndex) const
+{
+	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
+	FAssertMsg(eIndex < GC.getNumPlotEffectInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+	return m_paiPlotEffectDoubleMoveCount[eIndex];
+}
+
+
+bool CvUnit::isPlotEffectDoubleMove(PlotEffectTypes eIndex) const
+{
+	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
+	FAssertMsg(eIndex < GC.getNumPlotEffectInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+	return (getPlotEffectDoubleMoveCount(eIndex) > 0);
+}
+
+
+void CvUnit::changePlotEffectDoubleMoveCount(PlotEffectTypes eIndex, int iChange)
+{
+	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
+	FAssertMsg(eIndex < GC.getNumPlotEffectInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+	m_paiPlotEffectDoubleMoveCount[eIndex] = (m_paiPlotEffectDoubleMoveCount[eIndex] + iChange);
+	FAssert(getPlotEffectDoubleMoveCount(eIndex) >= 0);
+}
+
+
+int CvUnit::getExtraPlotEffectAttackPercent(PlotEffectTypes eIndex) const
+{
+	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
+	FAssertMsg(eIndex < GC.getNumPlotEffectInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+	return m_paiExtraPlotEffectAttackPercent[eIndex];
+}
+
+
+void CvUnit::changeExtraPlotEffectAttackPercent(PlotEffectTypes eIndex, int iChange)
+{
+	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
+	FAssertMsg(eIndex < GC.getNumPlotEffectInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+
+	if (iChange != 0)
+	{
+		m_paiExtraPlotEffectAttackPercent[eIndex] += iChange;
+
+		setInfoBarDirty(true);
+	}
+}
+
+int CvUnit::getExtraPlotEffectDefensePercent(PlotEffectTypes eIndex) const
+{
+	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
+	FAssertMsg(eIndex < GC.getNumPlotEffectInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+	return m_paiExtraPlotEffectDefensePercent[eIndex];
+}
+
+
+void CvUnit::changeExtraPlotEffectDefensePercent(PlotEffectTypes eIndex, int iChange)
+{
+	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
+	FAssertMsg(eIndex < GC.getNumPlotEffectInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+
+	if (iChange != 0)
+	{
+		m_paiExtraPlotEffectDefensePercent[eIndex] += iChange;
+
+		setInfoBarDirty(true);
+	}
+}
 
 /*************************************************************************************************/
 /**	GWS							2010-08-23												Milaga	**/
@@ -21472,6 +21574,10 @@ bool CvUnit::canAcquirePromotion(PromotionTypes ePromotion,bool bMustMaintainChe
 		{
 			return false;
 		}
+		if (GC.getPromotionInfo(ePromotion).getNumPrereqPlotEffects() > 0)
+		{
+			return false;
+		}
 		if (GC.getPromotionInfo(ePromotion).getNumPrereqImprovements() > 0)
 		{
 			return false;
@@ -21683,6 +21789,24 @@ bool CvUnit::canAcquirePromotion(PromotionTypes ePromotion,bool bMustMaintainChe
 			for (int iI = 0; iI < iNumPrereqs; iI++)
 			{
 				if (plot()->getFeatureType() == (FeatureTypes)GC.getPromotionInfo(ePromotion).getPrereqFeature(iI))
+				{
+					bValid = true;
+					break;
+				}
+			}
+			if (!bValid)
+			{
+				return false;
+			}
+		}
+
+		iNumPrereqs = GC.getPromotionInfo(ePromotion).getNumPrereqPlotEffects();
+		if (iNumPrereqs > 0)
+		{
+			bValid = false;
+			for (int iI = 0; iI < iNumPrereqs; iI++)
+			{
+				if (plot()->getPlotEffectType() == (PlotEffectTypes)GC.getPromotionInfo(ePromotion).getPrereqPlotEffect(iI))
 				{
 					bValid = true;
 					break;
@@ -23201,7 +23325,13 @@ void CvUnit::setHasPromotion(PromotionTypes eIndex, bool bNewValue, bool bSupres
 			changeFeatureDoubleMoveCount(((FeatureTypes)iI), ((kPromotion.getFeatureDoubleMove(iI)) ? iChange : 0));
 			changeFeatureCostModifier(((FeatureTypes)iI), (kPromotion.getPromotionFeatureCost(iI) * iChange));			// GWS
 		}
-/*************************************************************************************************/
+		for (iI = 0; iI < GC.getNumPlotEffectInfos(); iI++)
+		{
+			changeExtraPlotEffectAttackPercent(((PlotEffectTypes)iI), (kPromotion.getPlotEffectAttackPercent(iI) * iChange));
+			changeExtraPlotEffectDefensePercent(((PlotEffectTypes)iI), (kPromotion.getPlotEffectDefensePercent(iI) * iChange));
+			changePlotEffectDoubleMoveCount(((PlotEffectTypes)iI), ((kPromotion.getPlotEffectDoubleMove(iI)) ? iChange : 0));
+		}
+		/*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
 /**					Units can have movement modifiers for different terrain						**/
@@ -23686,6 +23816,20 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 	if (GC.getSpellInfo(eSpell).getImprovementTargetPrereq() != NO_IMPROVEMENT)
 	{
 		if (pTargetPlot->getImprovementType() != GC.getSpellInfo(eSpell).getImprovementTargetPrereq())
+		{
+			return false;
+		}
+	}
+	if (GC.getSpellInfo(eSpell).getPlotEffectPrereq() != NO_PLOT_EFFECT)
+	{
+		if (pPlot->getPlotEffectType() != GC.getSpellInfo(eSpell).getPlotEffectPrereq())
+		{
+			return false;
+		}
+	}
+	if (GC.getSpellInfo(eSpell).getPlotEffectTargetPrereq() != NO_PLOT_EFFECT)
+	{
+		if (pTargetPlot->getPlotEffectType() != GC.getSpellInfo(eSpell).getPlotEffectTargetPrereq())
 		{
 			return false;
 		}
@@ -29734,6 +29878,9 @@ void CvUnit::read(FDataStreamBase* pStream)
 	pStream->Read(GC.getNumTerrainInfos(), m_paiExtraTerrainDefensePercent);
 	pStream->Read(GC.getNumFeatureInfos(), m_paiExtraFeatureAttackPercent);
 	pStream->Read(GC.getNumFeatureInfos(), m_paiExtraFeatureDefensePercent);
+	pStream->Read(GC.getNumPlotEffectInfos(), m_paiPlotEffectDoubleMoveCount);
+	pStream->Read(GC.getNumPlotEffectInfos(), m_paiExtraPlotEffectAttackPercent);
+	pStream->Read(GC.getNumPlotEffectInfos(), m_paiExtraPlotEffectDefensePercent);
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -30236,6 +30383,9 @@ void CvUnit::write(FDataStreamBase* pStream)
 	pStream->Write(GC.getNumTerrainInfos(), m_paiExtraTerrainDefensePercent);
 	pStream->Write(GC.getNumFeatureInfos(), m_paiExtraFeatureAttackPercent);
 	pStream->Write(GC.getNumFeatureInfos(), m_paiExtraFeatureDefensePercent);
+	pStream->Write(GC.getNumPlotEffectInfos(), m_paiPlotEffectDoubleMoveCount);
+	pStream->Write(GC.getNumPlotEffectInfos(), m_paiExtraPlotEffectAttackPercent);
+	pStream->Write(GC.getNumPlotEffectInfos(), m_paiExtraPlotEffectDefensePercent);
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/

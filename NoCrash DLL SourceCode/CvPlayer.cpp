@@ -29657,6 +29657,18 @@ int CvPlayer::getHealthPercent(FeatureTypes eFeature) const
 	FAssert(eFeature != NO_FEATURE);
 	return iHealthPercent;
 }
+int CvPlayer::getHealthPercentPlotEffect(PlotEffectTypes eFeature) const
+{
+	int iHealthPercent = 0;
+	if (eFeature != NO_PLOT_EFFECT)
+	{
+		iHealthPercent += GC.getPlotEffectInfo(eFeature).getHealthPercent();
+//		iHealthPercent += GC.getCivilizationInfo(getCivilizationType()).getFeatureHealthPercentChange(eFeature);
+	}
+
+	FAssert(eFeature != NO_PLOT_EFFECT);
+	return iHealthPercent;
+}
 
 int CvPlayer::getFeatureYieldChange(FeatureTypes eIndex1, YieldTypes eIndex2) const
 {

@@ -2438,6 +2438,16 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 				}
 			}
+			for (iI = 0; iI < GC.getNumPlotEffectInfos(); ++iI)
+			{
+				if (pUnit->isPlotEffectDoubleMove((PlotEffectTypes)iI))
+				{
+					szString.append(NEWLINE);
+					szString.append(gDLL->getText("TXT_KEY_COLOR_POSITIVE"));
+					szString.append(gDLL->getText("TXT_KEY_PROMOTION_DOUBLE_MOVE_TEXT", GC.getPlotEffectInfo((PlotEffectTypes)iI).getTextKeyWide()));
+					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
+				}
+			}
 
 			if (pUnit->getExtraVisibilityRange() != 0)
 			{
@@ -2740,6 +2750,37 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szString, const CvUnit* pUnit, 
 					szString.append(NEWLINE);
 					szString.append(gDLL->getText((pUnit->featureDefenseModifier((FeatureTypes)iI) > 0) ? "TXT_KEY_COLOR_POSITIVE" : "TXT_KEY_COLOR_NEGATIVE"));
 					szString.append(gDLL->getText("TXT_KEY_UNIT_DEFENSE_TERRAIN", pUnit->featureDefenseModifier((FeatureTypes)iI), GC.getFeatureInfo((FeatureTypes)iI).getTextKeyWide(), GC.getFeatureInfo((FeatureTypes) iI).getTextKeyWide()));
+					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
+				}
+			}
+		}
+		for (iI = 0; iI < GC.getNumPlotEffectInfos(); ++iI)
+		{
+			if (pUnit->getExtraPlotEffectAttackPercent((PlotEffectTypes)iI) == pUnit->getExtraPlotEffectDefensePercent((PlotEffectTypes)iI))
+			{
+				if (pUnit->getExtraPlotEffectAttackPercent((PlotEffectTypes)iI) != 0)
+				{
+					szString.append(NEWLINE);
+					szString.append(gDLL->getText((pUnit->getExtraPlotEffectAttackPercent((PlotEffectTypes)iI) > 0) ? "TXT_KEY_COLOR_POSITIVE" : "TXT_KEY_COLOR_NEGATIVE"));
+					szString.append(gDLL->getText("TXT_KEY_UNIT_STRENGTH", pUnit->getExtraPlotEffectAttackPercent((PlotEffectTypes)iI), GC.getPlotEffectInfo((PlotEffectTypes)iI).getTextKeyWide()));
+					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
+				}
+			}
+			else
+			{
+				if (pUnit->getExtraPlotEffectAttackPercent((PlotEffectTypes)iI) != 0)
+				{
+					szString.append(NEWLINE);
+					szString.append(gDLL->getText((pUnit->getExtraPlotEffectAttackPercent((PlotEffectTypes)iI) > 0) ? "TXT_KEY_COLOR_POSITIVE" : "TXT_KEY_COLOR_NEGATIVE"));
+					szString.append(gDLL->getText("TXT_KEY_UNIT_ATTACK_TERRAIN", pUnit->getExtraPlotEffectAttackPercent((PlotEffectTypes)iI), GC.getPlotEffectInfo((PlotEffectTypes)iI).getTextKeyWide(), GC.getPlotEffectInfo((PlotEffectTypes)iI).getTextKeyWide()));
+					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
+				}
+
+				if (pUnit->getExtraPlotEffectDefensePercent((PlotEffectTypes)iI) != 0)
+				{
+					szString.append(NEWLINE);
+					szString.append(gDLL->getText((pUnit->getExtraPlotEffectDefensePercent((PlotEffectTypes)iI) > 0) ? "TXT_KEY_COLOR_POSITIVE" : "TXT_KEY_COLOR_NEGATIVE"));
+					szString.append(gDLL->getText("TXT_KEY_UNIT_DEFENSE_TERRAIN", pUnit->getExtraPlotEffectDefensePercent((PlotEffectTypes)iI), GC.getPlotEffectInfo((PlotEffectTypes)iI).getTextKeyWide(), GC.getPlotEffectInfo((PlotEffectTypes)iI).getTextKeyWide()));
 					szString.append(gDLL->getText("TXT_KEY_COLOR_REVERT"));
 				}
 			}
@@ -4052,7 +4093,17 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 					szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_UNIT_MOD", iModifier, GC.getFeatureInfo(pPlot->getFeatureType()).getTextKeyWide()));
 				}
 			}
-		//	else
+			if (pPlot->getPlotEffectType() != NO_PLOT_EFFECT)
+			{
+				iModifier = pAttacker->getExtraPlotEffectAttackPercent(pPlot->getPlotEffectType());
+
+				if (iModifier != 0)
+				{
+					szString.append(NEWLINE);
+					szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_UNIT_MOD", iModifier, GC.getPlotEffectInfo(pPlot->getPlotEffectType()).getTextKeyWide()));
+				}
+			}
+			//	else
 			{
 				iModifier = pAttacker->terrainAttackModifier(pPlot->getTerrainType());
 
@@ -4308,7 +4359,17 @@ bool CvGameTextMgr::setCombatPlotHelp(CvWStringBuffer &szString, CvPlot* pPlot)
 					szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_UNIT_MOD", iModifier, GC.getFeatureInfo(pPlot->getFeatureType()).getTextKeyWide()));
 				}
 			}
-		//	else
+			if (pPlot->getPlotEffectType() != NO_PLOT_EFFECT)
+			{
+				iModifier = pDefender->getExtraPlotEffectDefensePercent(pPlot->getPlotEffectType());
+
+				if (iModifier != 0)
+				{
+					szString.append(NEWLINE);
+					szString.append(gDLL->getText("TXT_KEY_COMBAT_PLOT_UNIT_MOD", iModifier, GC.getPlotEffectInfo(pPlot->getPlotEffectType()).getTextKeyWide()));
+				}
+			}
+			//	else
 			{
 				iModifier = pDefender->terrainDefenseModifier(pPlot->getTerrainType());
 
@@ -10791,6 +10852,23 @@ void CvGameTextMgr::parsePromotionHelp(CvWStringBuffer &szBuffer, PromotionTypes
 			bFirst = false;
 		}
 	}
+	
+	iNumPrereqs = GC.getPromotionInfo(ePromotion).getNumPrereqPlotEffects();
+	bFirst = true;
+	if (iNumPrereqs > 0)
+	{
+		szBuffer.append(pcNewline);
+		szBuffer.append(gDLL->getText("TXT_KEY_PROMOTION_MISC_PREREQ_ITEM"));
+		for (iI = 0; iI < iNumPrereqs; iI++)
+		{
+			if (!bFirst)
+			{
+				szBuffer.append(gDLL->getText("TXT_KEY_OR"));
+			}
+			szBuffer.append(gDLL->getText("TXT_KEY_LINK", GC.getPlotEffectInfo((PlotEffectTypes)GC.getPromotionInfo(ePromotion).getPrereqPlotEffect(iI)).getTextKeyWide(), GC.getPlotEffectInfo((PlotEffectTypes)GC.getPromotionInfo(ePromotion).getPrereqPlotEffect(iI)).getTextKeyWide()));
+			bFirst = false;
+		}
+	}
 
 	iNumPrereqs = GC.getPromotionInfo(ePromotion).getNumPrereqTerrains();
 	bFirst = true;
@@ -13115,7 +13193,21 @@ void CvGameTextMgr::parsePromotionHelp(CvWStringBuffer &szBuffer, PromotionTypes
 /**	GWS										END													**/
 /*************************************************************************************************/
 	}
-/*************************************************************************************************/
+	for (iI = 0; iI < GC.getNumPlotEffectInfos(); ++iI)
+	{
+		if (GC.getPromotionInfo(ePromotion).getPlotEffectAttackPercent(iI) != 0)
+		{
+			szBuffer.append(pcNewline);
+			szBuffer.append(gDLL->getText("TXT_KEY_UNIT_ATTACK_TERRAIN", GC.getPromotionInfo(ePromotion).getPlotEffectAttackPercent(iI), GC.getPlotEffectInfo((PlotEffectTypes)iI).getTextKeyWide(), GC.getPlotEffectInfo((PlotEffectTypes)iI).getTextKeyWide()));
+		}
+
+		if (GC.getPromotionInfo(ePromotion).getPlotEffectDefensePercent(iI) != 0)
+		{
+			szBuffer.append(pcNewline);
+			szBuffer.append(gDLL->getText("TXT_KEY_UNIT_DEFENSE_TERRAIN", GC.getPromotionInfo(ePromotion).getPlotEffectDefensePercent(iI), GC.getPlotEffectInfo((PlotEffectTypes)iI).getTextKeyWide(), GC.getPlotEffectInfo((PlotEffectTypes)iI).getTextKeyWide()));
+		}
+	}
+	/*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
 /**					Units can have movement modifiers for different terrain						**/
@@ -13806,6 +13898,16 @@ void CvGameTextMgr::parseSpellHelp(CvWStringBuffer &szBuffer, SpellTypes eSpell,
 	{
 		szBuffer.append(pcNewline);
 		szBuffer.append(gDLL->getText("TXT_KEY_SPELL_IMPROVEMENT_TARGET_PREREQ", ((CvWString)(GC.getImprovementInfo((ImprovementTypes)GC.getSpellInfo(eSpell).getImprovementTargetPrereq()).getType())).c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getSpellInfo(eSpell).getImprovementTargetPrereq()).getTextKeyWide()));
+	}
+	if (GC.getSpellInfo(eSpell).getPlotEffectPrereq() != NO_PLOT_EFFECT)
+	{
+		szBuffer.append(pcNewline);
+		szBuffer.append(gDLL->getText("TXT_KEY_SPELL_IMPROVEMENT_PREREQ", ((CvWString)(GC.getImprovementInfo((ImprovementTypes)GC.getSpellInfo(eSpell).getPlotEffectPrereq()).getType())).c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getSpellInfo(eSpell).getPlotEffectPrereq()).getTextKeyWide()));
+	}
+	if (GC.getSpellInfo(eSpell).getPlotEffectTargetPrereq() != NO_PLOT_EFFECT)
+	{
+		szBuffer.append(pcNewline);
+		szBuffer.append(gDLL->getText("TXT_KEY_SPELL_IMPROVEMENT_TARGET_PREREQ", ((CvWString)(GC.getImprovementInfo((ImprovementTypes)GC.getSpellInfo(eSpell).getPlotEffectTargetPrereq()).getType())).c_str(), GC.getImprovementInfo((ImprovementTypes)GC.getSpellInfo(eSpell).getPlotEffectTargetPrereq()).getTextKeyWide()));
 	}
 	if (GC.getSpellInfo(eSpell).getPromotionInStackPrereq() != NO_PROMOTION)
 	{
@@ -22202,6 +22304,7 @@ void CvGameTextMgr::setBadHealthHelp(CvWStringBuffer &szBuffer, CvCity& city)
 {
 	CvPlot* pLoopPlot;
 	FeatureTypes eFeature;
+	PlotEffectTypes ePlotEffect;
 	int iHealth;
 	int iI;
 
@@ -22218,6 +22321,7 @@ void CvGameTextMgr::setBadHealthHelp(CvWStringBuffer &szBuffer, CvCity& city)
 		if (iHealth > 0)
 		{
 			eFeature = NO_FEATURE;
+			ePlotEffect = NO_PLOT_EFFECT;
 
 			for (iI = 0; iI < NUM_CITY_PLOTS; ++iI)
 			{
@@ -22251,9 +22355,35 @@ void CvGameTextMgr::setBadHealthHelp(CvWStringBuffer &szBuffer, CvCity& city)
 							}
 						}
 					}
+					if (pLoopPlot->getPlotEffectType() != NO_PLOT_EFFECT)
+					{
+						/*************************************************************************************************/
+						/**	CivPlotMods								03/23/09								Jean Elcard	**/
+						/**																								**/
+						/**				Consider Civilization-specific Feature Health Percent Modifications.			**/
+						/*************************************************************************************************/
+						/**								---- Start Original Code ----									**
+												if (GC.getFeatureInfo(pLoopPlot->getFeatureType()).getHealthPercent() < 0)
+						/**								----  End Original Code  ----									**/
+						if (GET_PLAYER(city.getOwner()).getHealthPercentPlotEffect(pLoopPlot->getPlotEffectType()) < 0)
+							/*************************************************************************************************/
+							/**	CivPlotMods								END													**/
+							/*************************************************************************************************/
+						{
+							if (ePlotEffect == NO_PLOT_EFFECT)
+							{
+								ePlotEffect = pLoopPlot->getPlotEffectType();
+							}
+							else if (ePlotEffect != pLoopPlot->getPlotEffectType())
+							{
+								ePlotEffect = NO_PLOT_EFFECT;
+								break;
+							}
+						}
+					}
 				}
 			}
-
+			
 			szBuffer.append(gDLL->getText("TXT_KEY_MISC_FEAT_HEALTH", iHealth, ((eFeature == NO_FEATURE) ? L"TXT_KEY_MISC_FEATURES" : GC.getFeatureInfo(eFeature).getTextKeyWide())));
 			szBuffer.append(NEWLINE);
 		}
@@ -22367,6 +22497,7 @@ void CvGameTextMgr::setGoodHealthHelp(CvWStringBuffer &szBuffer, CvCity& city)
 {
 	CvPlot* pLoopPlot;
 	FeatureTypes eFeature;
+	PlotEffectTypes ePlotEffect;
 	int iHealth;
 	int iI;
 
@@ -22383,6 +22514,7 @@ void CvGameTextMgr::setGoodHealthHelp(CvWStringBuffer &szBuffer, CvCity& city)
 		if (iHealth > 0)
 		{
 			eFeature = NO_FEATURE;
+			ePlotEffect = NO_PLOT_EFFECT;
 
 			for (iI = 0; iI < NUM_CITY_PLOTS; ++iI)
 			{
@@ -22412,6 +22544,32 @@ void CvGameTextMgr::setGoodHealthHelp(CvWStringBuffer &szBuffer, CvCity& city)
 							else if (eFeature != pLoopPlot->getFeatureType())
 							{
 								eFeature = NO_FEATURE;
+								break;
+							}
+						}
+					}
+					if (pLoopPlot->getPlotEffectType() != NO_PLOT_EFFECT)
+					{
+						/*************************************************************************************************/
+						/**	CivPlotMods								03/23/09								Jean Elcard	**/
+						/**																								**/
+						/**				Consider Civilization-specific Feature Health Percent Modifications.			**/
+						/*************************************************************************************************/
+						/**								---- Start Original Code ----									**
+												if (GC.getFeatureInfo(pLoopPlot->getFeatureType()).getHealthPercent() < 0)
+						/**								----  End Original Code  ----									**/
+						if (GET_PLAYER(city.getOwner()).getHealthPercentPlotEffect(pLoopPlot->getPlotEffectType()) < 0)
+							/*************************************************************************************************/
+							/**	CivPlotMods								END													**/
+							/*************************************************************************************************/
+						{
+							if (ePlotEffect == NO_PLOT_EFFECT)
+							{
+								ePlotEffect = pLoopPlot->getPlotEffectType();
+							}
+							else if (ePlotEffect != pLoopPlot->getPlotEffectType())
+							{
+								ePlotEffect = NO_PLOT_EFFECT;
 								break;
 							}
 						}
@@ -26254,6 +26412,17 @@ void CvGameTextMgr::setPlotEffectHelp(CvWStringBuffer& szBuffer, PlotEffectTypes
 		szBuffer.append(gDLL->getText("TXT_KEY_PLOT_EFFECT_DISPELLABLE"));
 
 	}
+	CvWString szHealth;
+	szHealth.Format(L"%.2f", 0.01f * abs(feature.getHealthPercent()));
+	if (feature.getHealthPercent() > 0)
+	{
+		szBuffer.append(gDLL->getText("TXT_KEY_FEATURE_GOOD_HEALTH", szHealth.GetCString()));
+	}
+	else if (feature.getHealthPercent() < 0)
+	{
+		szBuffer.append(gDLL->getText("TXT_KEY_FEATURE_BAD_HEALTH", szHealth.GetCString()));
+	}
+
 }
 
 

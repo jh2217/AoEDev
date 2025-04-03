@@ -816,7 +816,7 @@ class FoxTools:
 
 		# Features
 		Feature["Volcano"]          = git('FEATURE_VOLCANO')
-		Feature["Haunted Lands"]    = git('FEATURE_HAUNTED_LANDS')
+		Feature["Haunted Lands"]    = git('PLOT_EFFECT_HAUNTED_LANDS')
 		Feature["Flood Plains"]     = git('FEATURE_FLOOD_PLAINS')
 		Feature["Oasis"]            = git('FEATURE_OASIS')
 		Feature["Ice"]              = git('FEATURE_ICE')

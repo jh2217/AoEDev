@@ -36,6 +36,8 @@ struct DllExport CombatDetails					// Exposed to Python
 	int iHillsDefenseModifier;
 	int iFeatureAttackModifier;
 	int iFeatureDefenseModifier;
+	int iPlotEffectAttackModifier;
+	int iPlotEffectDefenseModifier;
 	int iTerrainAttackModifier;
 	int iTerrainDefenseModifier;
 	int iCityAttackModifier;
@@ -868,6 +870,13 @@ public:
 	void changeExtraFeatureAttackPercent(FeatureTypes eIndex, int iChange);
 	int getExtraFeatureDefensePercent(FeatureTypes eIndex) const;														// Exposed to Python
 	void changeExtraFeatureDefensePercent(FeatureTypes eIndex, int iChange);
+	int getPlotEffectDoubleMoveCount(PlotEffectTypes eIndex) const;
+	bool isPlotEffectDoubleMove(PlotEffectTypes eIndex) const;													// Exposed to Python
+	void changePlotEffectDoubleMoveCount(PlotEffectTypes eIndex, int iChange);
+	int getExtraPlotEffectAttackPercent(PlotEffectTypes eIndex) const;														// Exposed to Python
+	void changeExtraPlotEffectAttackPercent(PlotEffectTypes eIndex, int iChange);
+	int getExtraPlotEffectDefensePercent(PlotEffectTypes eIndex) const;														// Exposed to Python
+	void changeExtraPlotEffectDefensePercent(PlotEffectTypes eIndex, int iChange);
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
@@ -2186,6 +2195,9 @@ protected:
 	int* m_paiExtraTerrainDefensePercent;
 	int* m_paiExtraFeatureAttackPercent;
 	int* m_paiExtraFeatureDefensePercent;
+	int* m_paiPlotEffectDoubleMoveCount;
+	int* m_paiExtraPlotEffectAttackPercent;
+	int* m_paiExtraPlotEffectDefensePercent;
 /*************************************************************************************************/
 /**	GWS										2010-08-23									Milaga	**/
 /**																								**/
