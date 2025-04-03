@@ -29132,7 +29132,7 @@ void CvUnit::changeDamageTypeResist(DamageTypes eIndex, int iChange)
 	}
 }
 
-int CvUnit::countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool bTeam, bool bAny)
+int CvUnit::countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool bTeam, bool bAny, bool bCombatantOnly)
 {
 	CLLNode<IDInfo>* pUnitNode;
 	CvUnit* pLoopUnit;
@@ -29150,6 +29150,7 @@ int CvUnit::countUnitsWithinRange(int iRange, bool bEnemy, bool bNeutral, bool b
 				{
 					pLoopUnit = ::getUnit(pUnitNode->m_data);
 					pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
+					if (bCombatantOnly && !pLoopUnit->canFight()) continue;
 					if (bTeam && pLoopUnit->getTeam() == getTeam())
 					{
 						iCount += 1;
@@ -32886,7 +32887,7 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 			}
 		}
 		// Can't set up commander if adjacent foes
-		if (countUnitsWithinRange(1, true, false, false, true) > 0)
+		if (countUnitsWithinRange(1, true, false, false, true, true) > 0)
 		{
 			return false;
 		}
