@@ -2855,7 +2855,6 @@
 			<iHotKeyPriority>1</iHotKeyPriority>
 			<Button>Art/Interface/Buttons/Improvements/piratecove.dds</Button>
 		</BuildInfo>
-	
 		<BuildInfo> <!-- Swamp -->
 			<Type>BUILD_SWAMP</Type>
 			<Description>TXT_KEY_SPELL_CREATE_SWAMP</Description>
