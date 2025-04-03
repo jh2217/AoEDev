@@ -32886,12 +32886,16 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 				}
 			}
 		}
+		// Barbs can't claim unowned naval forts
+		else if (isBarbarian() && pPlot->isWater())
+		{
+			return false;
+		}
 		// Can't set up commander if adjacent enemy combatants
 		if (countUnitsWithinRange(1, true, false, false, true, true) > 0)
 		{
 			return false;
 		}
-
 		return true;
 	}
 	return false;

@@ -8191,9 +8191,9 @@ def checkFort(pCaster):
 
 def reqPioneer(caster):
 	pPlot = caster.plot()
-	if pPlot.isOwned():
-		return False
-	if pPlot.getImprovementType() != -1:
+	if (pPlot.isOwned()
+		or pPlot.getImprovementType() != -1
+		or pPlot.isWater()):
 		return False
 	iMinDistance = 1
 	getPlot	= CyMap().plot
@@ -8740,15 +8740,14 @@ def spellClanBlaze(caster):
 def spellAnimosity(caster):
 	pPlot = caster.plot()
 	pPlayer = gc.getPlayer(gc.getORC_PLAYER())
-
-	if not pPlot.isCity():
-		if not (pPlot.isOwned() and pPlot.getOwner() != caster.getOwner()):
-			if not pPlot.isCityRadius():
-				if not (pPlot.getImprovementType() ==UniqueImprovement["Guardian"] or pPlot.getImprovementType()==getInfoType("IMPROVEMENT_TOWER_OF_EYES") or (getInfoType("MODULE_FORTIFICATIONS")!=-1 and pPlot.getImprovementType()==getInfoType("IMPROVEMENT_TOWER_OF_EYES_UPGRADED"))): 
-					pCity = pPlayer.initCity(pPlot.getX(),pPlot.getY())
-					CvEventInterface.getEventManager().onCityBuilt([pCity])
-					caster.kill(True,0)
-
+	if (not pPlot.isCity()
+		and not (pPlot.isOwned() and pPlot.getOwner() != caster.getOwner())
+		and not pPlot.isCityRadius()
+		and not (pPlot.getImprovementType() != -1 and gc.getImprovementInfo(pPlot.getImprovementType()).isUnique())
+		and not pPlot.isWater()):
+		pCity = pPlayer.initCity(pPlot.getX(),pPlot.getY())
+		CvEventInterface.getEventManager().onCityBuilt([pCity])
+		caster.kill(True,0)
 
 def reqRantineDomination(caster):
 	iOrc	= gc.getORC_PLAYER()
