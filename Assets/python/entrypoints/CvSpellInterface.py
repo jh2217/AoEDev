@@ -8178,43 +8178,6 @@ def spellDeathsDominion(caster):
 		if pUnit.getUnitCombatType() != -1:
 			pUnit.setHasPromotion(iDominion, True)
 
-def reqClaimFort(caster):
-	iUnitFortCommander = CvUtil.findInfoTypeNum(gc.getUnitClassInfo,gc.getNumUnitClassInfos(),'UNITCLASS_FORT_COMMANDER')
-	pPlot = caster.plot()
-	for iUnitLoop in range(pPlot.getNumUnits()):
-		pUnit = pPlot.getUnit(iUnitLoop)
-			# Can't cast if another commander is there
-		if pUnit.getUnitClassType() == iUnitFortCommander:
-			return False
-	if pPlot.isOwned():
-		if pPlot.getOwner() != caster.getOwner():
-			pPlayer = gc.getPlayer(caster.getOwner())
-			pTeam = gc.getTeam(pPlayer.getTeam())
-			p2Player = gc.getPlayer(pPlot.getOwner())
-			e2Team = p2Player.getTeam()
-			if pTeam.isAtWar(e2Team) == False:
-				return False
-	return True
-
-def spellClaimFort(pCaster):
-	pPlot = pCaster.plot()
-	iPlayer = pCaster.getOwner()
-	iPlayer2 = pPlot.getOwner()
-	iImprovement = pPlot.getImprovementType()
-	pPlayer = gc.getPlayer(pCaster.getOwner())
-	iUnit = getInfoType('UNITCLASS_FORT_COMMANDER')
-	infoCiv = gc.getCivilizationInfo(pPlayer.getCivilizationType())
-	iUnit = infoCiv.getCivilizationUnits(iUnit)
-	if iUnit == -1:
-		iUnit = getInfoType('UNIT_FORT_COMMANDER')
-	iRace = infoCiv.getDefaultRace()
-	newUnit = pPlayer.initUnit(iUnit, pCaster.getX(), pCaster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_NORTH)
-	if iRace != -1:
-		newUnit.setHasPromotion(iRace, True)
-	pPlot.clearCultureControl(iPlayer2, iImprovement, 1)
-	pPlot.setImprovementOwner(iPlayer)
-	pPlot.addCultureControl(iPlayer, iImprovement, 1)
-
 def checkFort(pCaster):
 	pPlot = pCaster.plot()
 	iPlayer = pPlot.getOwner()
@@ -8267,7 +8230,6 @@ def reqFieldFortification(caster):
 		iCounter += 1
 	if iCounter >= caster.getLevel():
 		return False
-
 	return True
 
 def spellPioneer(caster):
@@ -8280,9 +8242,7 @@ def spellPioneer(caster):
 	if iFeature in ( getInfoType(jungle) for jungle in ('FEATURE_JUNGLE', ) ):
 		if iCivType not in ( getInfoType(lizard) for lizard in ('CIVILIZATION_CUALLI', 'CIVILIZATION_MAZATL', 'CIVILIZATION_CLAN_OF_EMBERS', ) ):
 			pPlot.setFeatureType(FeatureTypes.NO_FEATURE, -1)
-	if reqClaimFort(caster):
-		spellClaimFort(caster)
-
+	caster.claimFort(True)
 	if caster.isHasPromotion(getInfoType("PROMOTION_RECRUITER")):
 		caster.setHasPromotion(getInfoType("PROMOTION_FIELD_FORTIFICATION_COUNTER"), True)
 

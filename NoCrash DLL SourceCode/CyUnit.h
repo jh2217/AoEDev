@@ -759,6 +759,8 @@ public:
 	void safeRemovePromotion(int ePromotion);
 	void SelectUnit();
 	void DeselectUnit();
+	bool canClaimFort() const;
+	bool claimFort(bool bBuilt = false) const;
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
 /*************************************************************************************************/

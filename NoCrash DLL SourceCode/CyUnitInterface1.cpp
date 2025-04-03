@@ -712,6 +712,7 @@ void CyUnitPythonInterface1(python::class_<CyUnit>& x)
 /*************************************************************************************************/
 .def("SelectUnit",&CyUnit::SelectUnit,"void ()")
 .def("DeselectUnit", &CyUnit::DeselectUnit, "void ()")
-
+.def("canClaimFort", &CyUnit::canClaimFort, "bool canClaimFort()")
+.def("claimFort", &CyUnit::claimFort, "bool claimFort(bool bBuilt = false)")
 		;
 }

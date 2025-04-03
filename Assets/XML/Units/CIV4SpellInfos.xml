@@ -6638,6 +6638,7 @@
 		<SpellInfo>			<!-- Found Settlement -->					<!-- KURIOTATES ABILITIES -->
 			<Type>SPELL_PIONEER</Type>
 			<Description>TXT_KEY_SPELL_PIONEER</Description>
+			<Help>TXT_KEY_SPELL_PIONEER_HELP</Help>
 			<Civilopedia></Civilopedia>
 			<Strategy></Strategy>
 			<UnitClassPrereq>UNITCLASS_PIONEER</UnitClassPrereq>

@@ -2453,3 +2453,5 @@ void CyUnit::safeRemovePromotion(int ePromotion)	{if (m_pUnit) m_pUnit->setHasPr
 void CyUnit::SelectUnit() { if (m_pUnit != NULL) m_pUnit->SelectUnit(); }
 void CyUnit::DeselectUnit() { if (m_pUnit != NULL) m_pUnit->SelectUnit(); }
 int CyUnit::getMagicalPower() const { return m_pUnit ? m_pUnit->getMagicalPower() : 0; }
+bool CyUnit::canClaimFort() const 					{return m_pUnit ? m_pUnit->canClaimFort() : false;}
+bool CyUnit::claimFort(bool bBuilt)	const			{return m_pUnit ? m_pUnit->claimFort(bBuilt) : false;}

@@ -503,11 +503,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_PIONEER</Tag>
-		<English>Found Settlement</English>
-		<French>Fonder un Campement</French>
-		<German>Gründe Siedlung</German>
-		<Italian>Found Settlement</Italian>
-		<Spanish>Found Settlement</Spanish>
+		<English>Create Citadel</English>
+		<French>Create Citadel</French>
+		<German>Create Citadel</German>
+		<Italian>Create Citadel</Italian>
+		<Spanish>Create Citadel</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PIONEER_HELP</Tag>
+		<English>[ICON_BULLET]Requires no forts within 1 tile</English>
+		<French>[ICON_BULLET]Requires no forts within 1 tile</French>
+		<German>[ICON_BULLET]Requires no forts within 1 tile</German>
+		<Italian>[ICON_BULLET]Requires no forts within 1 tile</Italian>
+		<Spanish>[ICON_BULLET]Requires no forts within 1 tile</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_REPAIR_GOLEM</Tag>

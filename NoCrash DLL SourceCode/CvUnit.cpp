@@ -32886,7 +32886,7 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 				}
 			}
 		}
-		// Can't set up commander if adjacent foes
+		// Can't set up commander if adjacent enemy combatants
 		if (countUnitsWithinRange(1, true, false, false, true, true) > 0)
 		{
 			return false;
@@ -32899,6 +32899,7 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 
 bool CvUnit::claimFort(bool bBuilt)
 {
+	// Relying on fort building rules to avoid e.g. building a fort on a tile that already has one to get 2 commanders/fort
 	if (!canClaimFort(plot()) && !bBuilt)
 	{
 		return false;
