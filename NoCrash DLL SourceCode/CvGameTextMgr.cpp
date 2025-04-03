@@ -31238,7 +31238,9 @@ void CvGameTextMgr::parseTraitReqs(CvWStringBuffer& szHelpString, TraitTypes eTr
 		bool bFirst = true;
 		for (int eTrigger = 0; eTrigger < GC.getNumTraitTriggerInfos(); eTrigger++)
 		{
-			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitHookType() == eTraitHook && GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) != 0)
+			if (GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitHookType() == eTraitHook
+				&& GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).getTraitCounterChange(eTrait) != 0
+				&& !GC.getTraitTriggerInfo((TraitTriggerTypes)eTrigger).isGraphicalOnly())
 			{
 				bool first = true;
 				switch (eTraitHook)

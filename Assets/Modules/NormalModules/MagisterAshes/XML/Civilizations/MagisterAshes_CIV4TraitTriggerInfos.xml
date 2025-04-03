@@ -15,7 +15,7 @@
 
 <Civ4TraitTriggerInfos xmlns="x-schema:MagisterAshes_CIV4CivilizationsSchema.xml">
 	<TraitTriggerInfos>
-	<TraitTriggerInfo> <!-- Gain plot           Abaddon's pit    			                Keepers -->
+		<TraitTriggerInfo> <!-- Gain plot           Abaddon's pit    			                Keepers -->
 			<Type>TRAITTRIGGER_GAIN_PLOT_ABADDON</Type>
 			<CounterChanges>
 				<CounterChange>
@@ -51,7 +51,7 @@
 				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_GRAVE_OF_ASMODAY</PrereqImprovementType>
 		</TraitTriggerInfo>
-	<TraitTriggerInfo> <!-- Gain plot           Whispering Wood    			                Keepers -->
+		<TraitTriggerInfo> <!-- Gain plot           Whispering Wood    			                Keepers -->
 			<Type>TRAITTRIGGER_GAIN_PLOT_WHISPERING</Type>
 			<CounterChanges>
 				<CounterChange>
@@ -62,6 +62,18 @@
 			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
 				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_WHISPERING_WOOD</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain improvement	Babd's Wandering Castle 				Keepers -->
+			<Type>TRAITTRIGGER_GAIN_IMPROVEMENT_BADB</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_BADB</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_GAIN_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_BADBS_BLIZZARD</PrereqImprovementType>
 		</TraitTriggerInfo>
 	
 		<TraitTriggerInfo> <!-- Lose plot           Abaddon's pit                      		Keepers -->
@@ -100,7 +112,7 @@
 				<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_GRAVE_OF_ASMODAY</PrereqImprovementType>
 		</TraitTriggerInfo>	
-	<TraitTriggerInfo> <!-- Lose plot           Whispering Wood    			                Keepers -->
+		<TraitTriggerInfo> <!-- Lose plot           Whispering Wood    			                Keepers -->
 			<Type>TRAITTRIGGER_LOSE_PLOT_WHISPERING</Type>
 			<CounterChanges>
 				<CounterChange>
@@ -111,6 +123,44 @@
 			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
 				<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_WHISPERING_WOOD</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose improvement	Babd's Wandering Castle					Keepers -->
+			<Type>TRAITTRIGGER_LOSE_IMPROVEMENT_BADB</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_BADB</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_BADBS_BLIZZARD</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose improvement	Odio's Prison								Keepers -->
+			<Type>TRAITTRIGGER_LOSE_IMPROVEMENT_ODIOS_PRISON</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_ODIO</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_ODIOS_PRISON</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose improvement	Whispering Wood							Keepers -->
+			<Type>TRAITTRIGGER_LOSE_IMPROVEMENT_WHISPERING</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_WHISPERING</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_WHISPERING_WOOD</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</TraitTriggerInfo>
 	</TraitTriggerInfos>
 </Civ4TraitTriggerInfos>

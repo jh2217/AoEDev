@@ -2235,6 +2235,7 @@
 			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
 			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_RINWELL</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Gain plot           Rinwell2									Keepers -->
 			<Type>TRAITTRIGGER_GAIN_PLOT_RINWELL2</Type>
@@ -2247,6 +2248,7 @@
 			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
 			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_RINWELL2</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Gain plot           Rinwell3									Keepers -->
 			<Type>TRAITTRIGGER_GAIN_PLOT_RINWELL3</Type>
@@ -2362,7 +2364,7 @@
 			<PrereqImprovementType>IMPROVEMENT_WELL_OF_SOULS</PrereqImprovementType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Gain plot           Well of Souls Opened						Keepers -->
-			<Type>TRAITTRIGGER_GAIN_PLOT_SOULS</Type>
+			<Type>TRAITTRIGGER_GAIN_PLOT_SOULS_OPEN</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_KEEPERS_SOULS_OPEN</TraitType>
@@ -2395,6 +2397,69 @@
 			</CounterChanges>
 			<TraitClassType>TRAITCLASS_PERSONALITY</TraitClassType>
 			<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain improvement	Bair of Lacuna    			                Keepers -->
+			<Type>TRAITTRIGGER_GAIN_IMPROVEMENT_BAIR_OF_LACUNA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_LACUNA</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_GAIN_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_BAIR_OF_LACUNA</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain improvement	Bradeline's Well Purified     		        Keepers -->
+			<Type>TRAITTRIGGER_GAIN_IMPROVEMENT_BRADELINES_WELL_PURIFIED</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_BRADELINE_PURE</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_GAIN_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_BRADELINES_WELL_PURIFIED</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain improvement	Rinwell2									Keepers -->
+			<Type>TRAITTRIGGER_GAIN_IMPROVEMENT_RINWELL2</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_RINWELL</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_GAIN_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_RINWELL2</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain improvement	Rinwell3									Keepers -->
+			<Type>TRAITTRIGGER_GAIN_IMPROVEMENT_RINWELL3</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_RINWELL</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_GAIN_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_RINWELL3</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain improvement	Well of Souls Opened						Keepers -->
+			<Type>TRAITTRIGGER_GAIN_IMPROVEMENT_SOULS_OPEN</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_SOULS_OPEN</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_GAIN_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_WELL_OF_SOULS_OPEN</PrereqImprovementType>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Gain promo          Adept           gains water 1               Hydromancer -->
 			<Type>TRAITTRIGGER_GAIN_ADEPT_WATER1</Type>
@@ -3857,6 +3922,7 @@
 			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
 			<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_RINWELL</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Lose plot           Rinwell2									Keepers -->
 			<Type>TRAITTRIGGER_LOSE_PLOT_RINWELL2</Type>
@@ -3869,6 +3935,7 @@
 			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
 			<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_RINWELL2</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Lose plot           Rinwell3									Keepers -->
 			<Type>TRAITTRIGGER_LOSE_PLOT_RINWELL3</Type>
@@ -3970,8 +4037,8 @@
 			<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_WELL_OF_SOULS</PrereqImprovementType>
 		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Lose plot           Well of Souls (Open							Keepers -->
-			<Type>TRAITTRIGGER_LOSE_PLOT_SOULS</Type>
+		<TraitTriggerInfo> <!-- Lose plot           Well of Souls (Open)						Keepers -->
+			<Type>TRAITTRIGGER_LOSE_PLOT_SOULS_OPEN</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_KEEPERS_SOULS_OPEN</TraitType>
@@ -3993,6 +4060,82 @@
 			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
 			<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_YGGDRASIL</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose improvement	Bair of Lacuna                      		Keepers -->
+			<Type>TRAITTRIGGER_LOSE_IMPROVEMENT_BAIR_OF_LACUNA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_LACUNA</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_BAIR_OF_LACUNA</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose improvement	Bradeline's Well                            Keepers -->
+			<Type>TRAITTRIGGER_LOSE_IMPROVEMENT_BRADELINES_WELL_KEEPERS</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_BRADELINE</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_BRADELINES_WELL</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose improvement	Ring of Carcer								Keepers -->
+			<Type>TRAITTRIGGER_LOSE_IMPROVEMENT_RING_OF_CARCER</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_CARCER</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_RING_OF_CARCER</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose improvement	Rinwell										Keepers -->
+			<Type>TRAITTRIGGER_LOSE_IMPROVEMENT_RINWELL</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_RINWELL</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_RINWELL</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose improvement	Rinwell2									Keepers -->
+			<Type>TRAITTRIGGER_LOSE_IMPROVEMENT_RINWELL2</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_RINWELL</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_RINWELL2</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose improvement	Well of Souls								Keepers -->
+			<Type>TRAITTRIGGER_LOSE_IMPROVEMENT_SOULS</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_SOULS</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+			<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_WELL_OF_SOULS</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</TraitTriggerInfo>
 		<TraitTriggerInfo> <!-- Lose promo          Anything        lose Crown of Command      	Dominant  -->
 			<Type>TRAITTRIGGER_LOSE_CROWN_OF_COMMAND</Type>
