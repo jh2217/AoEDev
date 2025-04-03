@@ -15,7 +15,7 @@
 
 <Civ4TraitTriggerInfos xmlns="x-schema:Fortification_CIV4CivilizationsSchema.xml">
 	<TraitTriggerInfos>
-	<TraitTriggerInfo> <!-- Gain plot           Tower of Eyes upgrade    			                Keepers -->
+		<TraitTriggerInfo> <!-- Gain plot           Tower of Eyes upgrade			Keepers -->
 			<Type>TRAITTRIGGER_GAIN_PLOT_TOWER_UPGRADE</Type>
 			<CounterChanges>
 				<CounterChange>
@@ -26,9 +26,22 @@
 			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
 				<TraitHookType>TRAITHOOK_GAIN_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_TOWER_OF_EYES_UPGRADED</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</TraitTriggerInfo>
-	
-		<TraitTriggerInfo> <!-- Lose plot           Tower of Eyes Upgrade                      		Keepers -->
+		<TraitTriggerInfo> <!-- Gain improvement	Tower of Eyes upgrade			Keepers -->
+			<Type>TRAITTRIGGER_GAIN_IMPROVEMENT_TOWER_UPGRADE</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_EYES</TraitType>
+					<iModifier>2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_GAIN_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_TOWER_OF_EYES_UPGRADED</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose plot           Tower of Eyes Upgrade			Keepers -->
 			<Type>TRAITTRIGGER_LOSE_PLOT_TOWER_UPGRADE</Type>
 			<CounterChanges>
 				<CounterChange>
@@ -39,6 +52,20 @@
 			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
 				<TraitHookType>TRAITHOOK_LOSE_PLOT_OWNERSHIP</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_TOWER_OF_EYES_UPGRADED</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Lose improvement	Tower of Eyes					Keepers -->
+			<Type>TRAITTRIGGER_LOSE_IMPROVEMENT_TOWER_UPGRADE</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_KEEPERS_EYES</TraitType>
+					<iModifier>-2000</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_KEEPERS</TraitClassType>
+				<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
+			<PrereqImprovementType>IMPROVEMENT_TOWER_OF_EYES</PrereqImprovementType>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</TraitTriggerInfo>
 	</TraitTriggerInfos>
 </Civ4TraitTriggerInfos>
