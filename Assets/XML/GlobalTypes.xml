@@ -460,5 +460,7 @@
 		<TraitHookType>TRAITHOOK_UNIT_KILLED</TraitHookType>
 		<TraitHookType>TRAITHOOK_TECH</TraitHookType>
 		<TraitHookType>TRAITHOOK_IMPROVEMENT_PILLAGED</TraitHookType>
+		<TraitHookType>TRAITHOOK_GAIN_IMPROVEMENT</TraitHookType>
+		<TraitHookType>TRAITHOOK_LOSE_IMPROVEMENT</TraitHookType>
 	</TraitHookTypes>
 </Civ4Types>
