@@ -689,7 +689,7 @@
 		<Italian>[SPACE]with %s1 Population</Italian>
 		<Spanish>[SPACE]with %s1 Population</Spanish>
 	</TEXT>
-		<TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TRAITCOUNTER_CONQUEST_PREREQ</Tag>
 		<English>[SPACE]by Conquest.</English>
 		<French>[SPACE]by Conquest.</French>
@@ -697,7 +697,7 @@
 		<Italian>[SPACE]by Conquest.</Italian>
 		<Spanish>[SPACE]by Conquest.</Spanish>
 	</TEXT>
-		<TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TRAITCOUNTER_TRADE_PREREQ</Tag>
 		<English>[SPACE]by Trade.</English>
 		<French>[SPACE]by Trade.</French>
@@ -707,11 +707,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAITCOUNTER_CHANGE_ANY</Tag>
-		<English>Any</English>
-		<French>Any</French>
-		<German>Any</German>
-		<Italian>Any</Italian>
-		<Spanish>Any</Spanish>
+		<English>any</English>
+		<French>any</French>
+		<German>any</German>
+		<Italian>any</Italian>
+		<Spanish>any</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAITCOUNTER_IMPROVEMENT_PREREQ</Tag>
@@ -907,12 +907,12 @@
 		<Spanish>founding a city[SPACE]</Spanish>
 	</TEXT>
 	<TEXT>
-	<Tag>TXT_KEY_TRAITCOUNTER_COASTAL</Tag>
-	<English>On the Coast</English>
-	<French>On the Coast</French>
-	<German>On the Coast</German>
-	<Italian>On the Coast</Italian>
-	<Spanish>On the Coast</Spanish>
+		<Tag>TXT_KEY_TRAITCOUNTER_COASTAL</Tag>
+		<English>On the Coast</English>
+		<French>On the Coast</French>
+		<German>On the Coast</German>
+		<Italian>On the Coast</Italian>
+		<Spanish>On the Coast</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAITHOOK_CITY_RAZE</Tag>
@@ -946,7 +946,6 @@
 		<Italian>using[SPACE]</Italian>
 		<Spanish>using[SPACE]</Spanish>
 	</TEXT>
-	
 	<TEXT>
 		<Tag>TXT_KEY_TRAITHOOK_CITY_POPGROW</Tag>
 		<English>city population grow.</English>
@@ -1053,11 +1052,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAITHOOK_ANY_GP_BORN</Tag>
-		<English>Any Great Person birth.</English>
-		<French> Any Great Person birth.</French>
-		<German>Any Great Person birth.</German>
-		<Italian>Any Great Person birth.</Italian>
-		<Spanish>Any Great Person birth.</Spanish>
+		<English>any Great Person birth.</English>
+		<French> any Great Person birth.</French>
+		<German>any Great Person birth.</German>
+		<Italian>any Great Person birth.</Italian>
+		<Spanish>any Great Person birth.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAITHOOK_GP_BORN</Tag>
@@ -1155,7 +1154,6 @@
 		<Italian>[SPACE]</Italian>
 		<Spanish>[SPACE]</Spanish>
 	</TEXT>
-	
 	<TEXT>
 		<Tag>TXT_KEY_TRAITHOOK_UNIT_SPREAD_RELIGION</Tag>
 		<English>missionary spreading religion.</English>
@@ -1251,7 +1249,8 @@
 		<German>any lair[SPACE]</German>
 		<Italian>any lair[SPACE]</Italian>
 		<Spanish>any lair[SPACE]</Spanish>
-	</TEXT>	<TEXT>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TRAITHOOK_UNIT_EXPLORE_LAIR</Tag>
 		<English>exploring[SPACE]</English>
 		<French>exploring[SPACE]</French>
