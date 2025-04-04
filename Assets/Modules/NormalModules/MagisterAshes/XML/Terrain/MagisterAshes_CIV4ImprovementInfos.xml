@@ -275,8 +275,7 @@
 			<PythonAtRange/>
 			<SpawnUnitType>UNIT_SCORPION</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
-			<iSpawnPerGameLimit>15</iSpawnPerGameLimit>
-			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
 		</ImprovementInfo>
 		<ImprovementInfo> 	<!--Whispering Woods-->
 			<Type>IMPROVEMENT_WHISPERING_WOOD</Type>

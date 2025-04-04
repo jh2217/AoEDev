@@ -118,6 +118,7 @@ bool CvUnitAI::AI_update()
 /**																								**/
 /**					Clearing Asserts and helping the AI stop looping so much					**/
 /*************************************************************************************************/
+			claimFort(); // Barbs always try to claim forts
 			finishMoves();
 /*************************************************************************************************/
 /**	Tweak									END													**/
@@ -198,10 +199,7 @@ bool CvUnitAI::AI_update()
 /**						Adding a mission for the claim_fort action...							**/
 /**	If we can do it on this plot, let's. Skipping the mission part so we don't disrupt something**/
 /*************************************************************************************************/
-	if (canClaimFort())
-	{
-		claimFort();
-	}
+	claimFort();
 /*************************************************************************************************/
 /**	MISSION_CLAIM_FORT									END										**/
 /*************************************************************************************************/

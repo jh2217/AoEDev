@@ -563,7 +563,7 @@ void CvPlot::doTurn()
 	{
 		changeImprovementDuration(1);
 
-//FfH Improvements: Added by Kael 08/07/2007
+		//FfH Improvements: Added by Kael 08/07/2007
 		ImprovementTypes eImprovementUpgrade = (ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementUpgrade();
 		if (eImprovementUpgrade != NO_IMPROVEMENT)
 		{
@@ -575,93 +575,43 @@ void CvPlot::doTurn()
 				}
 			}
 		}
-/*************************************************************************************************/
-/**	MultiBarb								12/23/08								Xienwolf	**/
-/**	New Tag Defs	(ImprovementInfos)		12/27/08											**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		int iUnit = GC.getImprovementInfo(getImprovementType()).getSpawnUnitType();
-		if (iUnit != NO_UNIT)
-		{
-			if (!GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS))
-			{
-				CvArea* pArea = GC.getMapINLINE().getArea(getArea());
-				if (pArea->getNumUnownedTiles() > 0)
-				{
-					int iTiles = GC.getDefineINT("TILES_PER_SPAWN");
-					if (GC.getUnitInfo((UnitTypes)iUnit).isAnimal())
-					{
-						iTiles *= 2;
-					}
-					if (pArea->getUnitsPerPlayer((PlayerTypes)BARBARIAN_PLAYER) == 0 || (pArea->getNumUnownedTiles() / pArea->getUnitsPerPlayer((PlayerTypes)BARBARIAN_PLAYER)) > iTiles)
-					{
-						int iChance = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnRate();
-						iChance *= 10000;
-						iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
-						if (GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
-						{
-							if (!isVisibleOtherUnit(BARBARIAN_PLAYER))
-							{
-								CvUnit* pUnit;
-								pUnit = GET_PLAYER(BARBARIAN_PLAYER).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), UNITAI_ATTACK);
-								if (pUnit->isAnimal())
-								{
-									pUnit->setHasPromotion((PromotionTypes)GC.getDefineINT("HIDDEN_NATIONALITY_PROMOTION"), true);
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Bugfix								15/01/12									Snarko		**/
-/**																								**/
-/**		doImprovementUpgrade can remove the improvement if it's for another civilization		**/
-/*************************************************************************************************/
+
 		if (getImprovementType() != NO_IMPROVEMENT)
 		{
-/*************************************************************************************************/
-/**	Bugfix									END													**/
-/*************************************************************************************************/
+			// Spawn barb units from improvement so long as not owner-only, nor owned by someone at war with that barb
 			int iUnit = GC.getImprovementInfo(getImprovementType()).getSpawnUnitType();
 			if (iUnit != NO_UNIT)
 			{
-				bool bValid = true;
+				bool bValid = false;
 				int iCiv = GC.getImprovementInfo(getImprovementType()).getSpawnUnitCiv();
 				PlayerTypes eSpawnPlayer=NO_PLAYER;
-				if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION"))
+				if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && !GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
 				{
 					eSpawnPlayer = DEMON_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
+					if (!GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() || !isOwned() || !atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam()))
 					{
-						bValid = false;
+						bValid = true;
 					}
 				}
-				else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION"))
+				else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && !GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
 				{
 					eSpawnPlayer = ANIMAL_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
+					if (!GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() || !isOwned() || !atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam()))
 					{
-						bValid = false;
+						bValid = true;
 					}
 				}
-				else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION"))
+				else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION") && !GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS))
 				{
 					eSpawnPlayer = ORC_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
+					if (!GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() || !isOwned() || !atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam()))
 					{
-						bValid = false;
+						bValid = true;
 					}
 				}
+				// Otherwise just check if owned by appropriate player
 				else if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner())
 				{
-					bValid = false;
 					if (isOwned() && GET_PLAYER(getOwner()).getCivilizationType() == (CivilizationTypes)iCiv)
 					{
 						eSpawnPlayer = getOwner();
@@ -670,7 +620,6 @@ void CvPlot::doTurn()
 				}
 				else
 				{
-					bValid = false;
 					for (int iI = 0; iI < MAX_PLAYERS; iI++)
 					{
 						if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getCivilizationType() == (CivilizationTypes)iCiv)

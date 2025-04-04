@@ -1302,7 +1302,7 @@
 						<iYieldChange>2</iYieldChange>
 					</YieldChanges>
 				</BonusTypeStruct>
-<BonusTypeStruct>
+				<BonusTypeStruct>
 					<BonusType>BONUS_SUGAR</BonusType>
 					<bBonusMakesValid>1</bBonusMakesValid>
 					<bBonusTrade>1</bBonusTrade>
@@ -8094,8 +8094,7 @@
 			<bUnique>1</bUnique>
 			<SpawnUnitType>UNIT_DROWN</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
-			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
-			<iSpawnAtOnceLimit>6</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>3</iSpawnAtOnceLimit>
 			<iCultureRange>2</iCultureRange>
 			<iCultureControlStrength>4</iCultureControlStrength>
 			<iCultureCenterBonus>5</iCultureCenterBonus>
@@ -8114,8 +8113,7 @@
 			<bUnique>1</bUnique>
 			<SpawnUnitType>UNIT_STYGIAN_GUARD</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
-			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
-			<iSpawnAtOnceLimit>6</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>3</iSpawnAtOnceLimit>
 			<iCultureRange>3</iCultureRange>
 			<iCultureControlStrength>4</iCultureControlStrength>
 			<iCultureCenterBonus>5</iCultureCenterBonus>
@@ -8559,7 +8557,6 @@
 			</GoodyClasses>
 			<SpawnUnitType>UNIT_SKELETON</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
-			<iSpawnPerGameLimit>40</iSpawnPerGameLimit>
 			<iSpawnAtOnceLimit>4</iSpawnAtOnceLimit>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Well of Souls (Open) -->

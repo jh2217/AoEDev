@@ -32907,30 +32907,19 @@ bool CvUnit::canExploreLair(CvPlot* pPlot, bool bTestVisible)
 	if (pPlot == NULL)
 		pPlot = plot();
 
-	if (pPlot->getImprovementType() == NO_IMPROVEMENT)
-		return false;
-
-	if (isOnlyDefensive())
-		return false;
-
-	if (isBarbarian())
-		return false;
-
-	//Used to be a rule that UNITCOMBAT_SIEGE can't explore lairs. Removed because of hardcoding.
-	//If you want the rule make it.
-
-	if (getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_SPELL"))
-		return false;
-
-	if (getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_BIRD"))
+	if (pPlot->getImprovementType() == NO_IMPROVEMENT
+ 		|| isBarbarian()
+		|| !canFight()
+		|| getUnitCombatType() == GC.getInfoTypeForString("UNITCOMBAT_SIEGE")
+		|| getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_SPELL")
+		|| getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_BIRD")
+		|| isOnlyDefensive())
 		return false;
 
 	CvImprovementInfo& kImprovementInfo = GC.getImprovementInfo(pPlot->getImprovementType());
 
-	if (!kImprovementInfo.isExplorable())
-		return false;
-
-	if (pPlot->getExploreNextTurn() > GC.getGame().getGameTurn())
+	if (!kImprovementInfo.isExplorable()
+		|| pPlot->getExploreNextTurn() > GC.getGame().getGameTurn())
 		return false;
 
 	if (bTestVisible)
