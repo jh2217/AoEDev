@@ -8,8 +8,8 @@
 <Civ4ModuleIdInfos xmlns="x-schema:M_CIV4GameInfoSchema.xml">
 	<ModuleIdInfos>
 		<ModuleIdInfo>
-			<Type>MODULE_FORTIFICATIONS</Type>
-			<Description>TXT_KEY_MODULE_FORTIFICATIONS</Description>
+			<Type>MODULE_MOREFORTIFICATIONS</Type>
+			<Description>TXT_KEY_MODULE_MOREFORTIFICATIONS</Description>
 		</ModuleIdInfo>
 	</ModuleIdInfos>
 </Civ4ModuleIdInfos>

@@ -4,7 +4,7 @@
 <!-- Copyright Firaxis Games 2005 -->
 <!-- -->
 <!-- Improvement Infos -->
-<Civ4ImprovementInfos xmlns="x-schema:fortifications_CIV4TerrainSchema.xml">
+<Civ4ImprovementInfos xmlns="x-schema:morefortifications_CIV4TerrainSchema.xml">
 	<ImprovementInfos>
 		<ImprovementInfo>		<!-- Tower of Eyes -->
 			<Type>IMPROVEMENT_TOWER_OF_EYES</Type>
