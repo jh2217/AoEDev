@@ -105,6 +105,7 @@ bool CvUnitAI::AI_update()
 //	}
 	if (isBarbarian())
 	{
+		claimFort(); // Barbs always try to claim forts before running off
 		CyUnit* pyUnit = new CyUnit(this);
 		CyArgsList argsList;
 		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
@@ -117,8 +118,7 @@ bool CvUnitAI::AI_update()
 /**	Xienwolf Tweak							01/04/09											**/
 /**																								**/
 /**					Clearing Asserts and helping the AI stop looping so much					**/
-/*************************************************************************************************/
-			claimFort(); // Barbs always try to claim forts
+/*************************************************************************************************/		
 			finishMoves();
 /*************************************************************************************************/
 /**	Tweak									END													**/
