@@ -78,34 +78,17 @@ bool CvUnitAI::AI_update()
 	FAssertMsg(canMove(), "canMove is expected to be true");
 	FAssertMsg(isGroupHead(), "isGroupHead is expected to be true"); // XXX is this a good idea???
 
-/*************************************************************************************************/
-/**	Xienwolf Tweak							05/12/09											**/
-/**																								**/
-/**			Places same restrictions on the AI as are placed on the Player for Blindness		**/
-/*************************************************************************************************/
+	// Places same restrictions on the AI as are placed on the Player for Blindness : Xienwolf 05/12/09
 	if (isBlind() && (!plot()->isVisible(getTeam(), false) || !plot()->isRevealed(getTeam(), false)))
 	{
 		finishMoves();
 		return false;
 	}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 	// allow python to handle it
-//FfH: Modified by Kael 10/02/2008
-//	CyUnit* pyUnit = new CyUnit(this);
-//	CyArgsList argsList;
-//	argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
-//	long lResult=0;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "AI_unitUpdate", argsList.makeFunctionArgs(), &lResult);
-//	delete pyUnit;	// python fxn must not hold on to this pointer
-//	if (lResult == 1)
-//	{
-//		return false;
-//	}
+	// FfH: Modified by Kael 10/02/2008
 	if (isBarbarian())
 	{
-		claimFort(); // Barbs always try to claim forts before running off
+		claimFort(); // Barbs always try to claim forts before running off : Blazenclaw
 		CyUnit* pyUnit = new CyUnit(this);
 		CyArgsList argsList;
 		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
@@ -113,32 +96,25 @@ bool CvUnitAI::AI_update()
 		gDLL->getPythonIFace()->callFunction(PYGameModule, "AI_unitUpdate", argsList.makeFunctionArgs(), &lResult);
 		delete pyUnit;	// python fxn must not hold on to this pointer
 		if (lResult == 1)
-		{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							01/04/09											**/
-/**																								**/
-/**					Clearing Asserts and helping the AI stop looping so much					**/
-/*************************************************************************************************/		
+		{	
+			// Clearing Asserts and helping the AI stop looping so much : Xienwolf
 			finishMoves();
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 			return false;
 		}
 	}
-//FfH: End Modify
+	//FfH: End Modify
 
-/*************************************************************************************************/
-/**	Xienwolf Tweak							01/04/09											**/
-/**					Clearing Asserts and helping the AI stop looping so much					**/
-/**Near as I can tell, this is refusing to allow the unit to do ANYTHING if it winds up isolated**/
-/**	I personally don't care for that, but it makes sense to keep the AI from trying to move the	**/
-/**	Unit, so need to re-apply this once I figure out how to check for possible missions/spells	**/
-/**				before canceling the unit's ability to make any movements						**/
-/*************************************************************************************************/
+	/*************************************************************************************************/
+	/**	Xienwolf Tweak							01/04/09											**/
+	/**					Clearing Asserts and helping the AI stop looping so much					**/
+	/**Near as I can tell, this is refusing to allow the unit to do ANYTHING if it winds up isolated**/
+	/**	I personally don't care for that, but it makes sense to keep the AI from trying to move the	**/
+	/**	Unit, so need to re-apply this once I figure out how to check for possible missions/spells	**/
+	/**				before canceling the unit's ability to make any movements						**/
+	/*************************************************************************************************/
 
-/**								---- Start Original Code ----									**
-//FfH: Added by Kael 12/22/2007
+	/**								---- Start Original Code ----									**
+	//FfH: Added by Kael 12/22/2007
 	CvPlot* pPlot = plot();
 	CvPlot* pLoopPlot;
 	bool bValid = false;
@@ -161,11 +137,11 @@ bool CvUnitAI::AI_update()
 		getGroup()->pushMission(MISSION_SKIP);
 		return false;
 	}
-//FfH: End Add
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
+	//FfH: End Add
+	/**								----  End Original Code  ----									**/
+	/*************************************************************************************************/
+	/**	Tweak									END													**/
+	/*************************************************************************************************/
 
 	if (getDomainType() == DOMAIN_LAND)
 	{
@@ -193,20 +169,13 @@ bool CvUnitAI::AI_update()
 	{
 		return false;
 	}
-/*************************************************************************************************/
-/**	MISSION_CLAIM_FORT						15/06/10									Snarko	**/
-/**																								**/
-/**						Adding a mission for the claim_fort action...							**/
-/**	If we can do it on this plot, let's. Skipping the mission part so we don't disrupt something**/
-/*************************************************************************************************/
-	claimFort();
-/*************************************************************************************************/
-/**	MISSION_CLAIM_FORT									END										**/
-/*************************************************************************************************/
 
-//FfH: Added by Kael 10/26/2008
+	//FfH: Added by Kael 10/26/2008
 	if (!isBarbarian())
 	{
+		// Claim fort without mission if we can : MISSION_CLAIM_FORT Snarko 15/06/10
+		claimFort();
+
 		if (getLevel() < 2)
 		{
 			bool bDoesBuild = false;
@@ -230,12 +199,12 @@ bool CvUnitAI::AI_update()
 			}
 		}
 	}
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/30/08											**/
-/**																								**/
-/**							Makes Enraged considerably more aggressive							**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
+	/*************************************************************************************************/
+	/**	Xienwolf Tweak							12/30/08											**/
+	/**																								**/
+	/**							Makes Enraged considerably more aggressive							**/
+	/*************************************************************************************************/
+	/**								---- Start Original Code ----									**
 	if (isHuman())
 	{
 		if (getGroup()->getHeadUnit()->isAIControl())
@@ -247,7 +216,7 @@ bool CvUnitAI::AI_update()
 			AI_barbAttackMove();
 		}
 	}
-/**								----  End Original Code  ----									**/
+	/**								----  End Original Code  ----									**/
 	if (getGroup()->getHeadUnit()->isAIControl())
 	{
 		if (AI_anyAttack(1, 90))
@@ -267,21 +236,13 @@ bool CvUnitAI::AI_update()
 			return true;
 		}
 		AI_summonAttackMove();
-/*************************************************************************************************/
-/**	AITweak								30/05/10							Snarko				**/
-/**																								**/
-/**		Moving on here makes little sense (unit is automated but no automation type set)		**/
-/**							AI_summonAttackMove should be enough								**/
-/*************************************************************************************************/
+		// Moving on here makes little sense (unit is automated but no automation type set) AI_summonAttackMove should be enough : AITweak Snarko 30/05/10
 		return true;
-/*************************************************************************************************/
-/**	AITweak									END													**/
-/*************************************************************************************************/
 	}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-//FfH: End Add
+	/*************************************************************************************************/
+	/**	Tweak									END													**/
+	/*************************************************************************************************/
+	//FfH: End Add
 
 	if (getGroup()->isAutomated())
 	{
@@ -398,13 +359,13 @@ bool CvUnitAI::AI_update()
 
 		case UNITAI_ATTACK:
 
-//Added by Kael 09/19/2007
+			//Added by Kael 09/19/2007
 			if (getDuration() > 0)
 			{
 				AI_summonAttackMove();
 				break;
 			}
-//FfH: End Add
+			//FfH: End Add
 
 			if (isBarbarian())
 			{
@@ -451,14 +412,7 @@ bool CvUnitAI::AI_update()
 			break;
 
 		case UNITAI_EXPLORE:
-/*************************************************************************************************/
-/**	AITweak								07/10/12							Snarko				**/
-/**																								**/
-/**		Making barbarian units set to explore AI more aggressive		**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-			AI_exploreMove();
-/**								----  End Original Code  ----									**/
+			// Making barbarian units set to explore AI more aggressive : AITweak Snarko 07/10/12
 			if (isBarbarian())
 			{
 				AI_barbExploreMove();
@@ -467,9 +421,6 @@ bool CvUnitAI::AI_update()
 			{
 				AI_exploreMove();
 			}
-/*************************************************************************************************/
-/**	AITweak									END													**/
-/*************************************************************************************************/
 			break;
 
 		case UNITAI_MISSIONARY:
