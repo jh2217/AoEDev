@@ -1312,5 +1312,27 @@
 			<bPickCity>1</bPickCity>
 			<bShowPlot>1</bShowPlot>
 		</EventTriggerInfo>
+		<EventTriggerInfo>
+			<Type>EVENTTRIGGER_GENEROUS_BUSINESS1</Type>
+			<TriggerTexts>
+				<TriggerText>
+					<Text>TXT_KEY_EVENT_GENEROUS_BUSINESS</Text>
+					<Era>NONE</Era>
+				</TriggerText>
+			</TriggerTexts>
+			<iMinPopulation>1</iMinPopulation>
+			<iPercentGamesActive>100</iPercentGamesActive>
+			<iWeight>-1</iWeight>
+			<iMaxOurLandmass>-1</iMaxOurLandmass>
+			<bRecurring>1</bRecurring>
+			<iPlotType>-1</iPlotType>
+			<Events>
+				<Event>EVENT_GENEROUS_BUSINESS_1</Event>
+				<Event>EVENT_GENEROUS_BUSINESS_2</Event>
+				<Event>EVENT_GENEROUS_BUSINESS_3</Event>
+			</Events>
+			<bPickCity>1</bPickCity>
+			<bShowPlot>1</bShowPlot>
+		</EventTriggerInfo>
 	</EventTriggerInfos>
 </Civ4EventTriggerInfos>

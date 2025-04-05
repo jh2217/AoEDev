@@ -2024,5 +2024,32 @@
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>1000</iAIValue>
 		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_GENEROUS_BUSINESS_1</Type>
+			<Description>TXT_KEY_EVENT_GENEROUS_BUSINESS_1</Description>
+			<bPickCity>1</bPickCity>
+			<iProduction>20</iProduction>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_GENEROUS_BUSINESS_2</Type>
+			<Description>TXT_KEY_EVENT_GENEROUS_BUSINESS_2</Description>
+			
+			<bPickCity>1</bPickCity>
+			<iCrime>-20</iCrime>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_GENEROUS_BUSINESS_3</Type>
+			<Description>TXT_KEY_EVENT_GENEROUS_BUSINESS_3</Description>
+			<PrereqAlignment>ETHICAL_ALIGNMENT_CHAOTIC</PrereqAlignment>
+			<bPickCity>1</bPickCity>
+			<iHurryAnger>1</iHurryAnger>
+			<iGold>20</iGold>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>700</iAIValue>
+		</EventInfo>
 	</EventInfos>
 </Civ4EventInfos>
