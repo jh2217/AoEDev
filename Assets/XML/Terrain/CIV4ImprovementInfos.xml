@@ -1461,7 +1461,6 @@
 			<bRequiresFeature>1</bRequiresFeature>
 			<bPermanent>1</bPermanent>
 			<iDefenseModifier>-50</iDefenseModifier>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
@@ -1523,7 +1522,6 @@
 			<Civilopedia/>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_SNAKE_PILLAR</ArtDefineTag>
 			<bPermanent>1</bPermanent>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
@@ -2962,7 +2960,6 @@
 			<Civilopedia>TXT_KEY_IMPROVEMENT_DUNGEON_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_DUNGEON</ArtDefineTag>
 			<bPermanent>1</bPermanent>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_GRASS</TerrainType>
@@ -7143,7 +7140,6 @@
 			<bWater>1</bWater>
 			<bPermanent>1</bPermanent>
 			<iExploreDelay>50</iExploreDelay>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -7260,7 +7256,6 @@
 			<bRequiresFlatlands>1</bRequiresFlatlands>
 			<bPermanent>1</bPermanent>
 			<iExploreDelay>50</iExploreDelay>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_GRASS</TerrainType>
@@ -7380,7 +7375,6 @@
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_BROKEN_SEPULCHER</ArtDefineTag>
 			<bPermanent>1</bPermanent>
 			<iExploreDelay>50</iExploreDelay>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_GRASS</TerrainType>
@@ -7474,7 +7468,6 @@
 			<bPermanent>1</bPermanent>
 			<bUnique>1</bUnique>
 			<iExploreDelay>50</iExploreDelay>
-			<bOutsideBorders>1</bOutsideBorders>
 			<YieldChanges>
 				<iYieldChange>0</iYieldChange>
 				<iYieldChange>2</iYieldChange>
@@ -7879,7 +7872,6 @@
 			<bRequiresFlatlands>1</bRequiresFlatlands>
 			<bPermanent>1</bPermanent>
 			<iExploreDelay>50</iExploreDelay>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
@@ -8232,7 +8224,6 @@
 			<bRequiresFlatlands>1</bRequiresFlatlands>
 			<bPermanent>1</bPermanent>
 			<iHappiness>100</iHappiness>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
@@ -9352,7 +9343,6 @@
 			<bHillsMakesValid>1</bHillsMakesValid>
 			<bPermanent>1</bPermanent>
 			<iHappiness>100</iHappiness>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
