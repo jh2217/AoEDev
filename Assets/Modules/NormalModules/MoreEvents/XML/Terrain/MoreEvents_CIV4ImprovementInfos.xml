@@ -36,9 +36,7 @@
 		</ImprovementInfo>
 		<ImprovementInfo>		<!-- Letum Frigus -->
 			<Type>IMPROVEMENT_LETUM_FRIGUS</Type>
-			<PythonOnMove>onMoveLetumFrigus2(pCaster, pPlot)</PythonOnMove> 
-			<iSpawnPerGameLimit>15</iSpawnPerGameLimit>
-			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<PythonOnMove>onMoveLetumFrigus2(pCaster, pPlot)</PythonOnMove>
 		</ImprovementInfo> 
 		<ImprovementInfo>		<!-- Maelstrom -->
 			<Type>IMPROVEMENT_MAELSTROM</Type>
