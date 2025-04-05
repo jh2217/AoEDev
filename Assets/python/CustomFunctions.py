@@ -1096,7 +1096,7 @@ class CustomFunctions:
 					#		else: setBonus(Bonus["Sugar"])
 					#	if (iBonus == Bonus["Sheut"]): setBonus(Bonus["Marble"])
 						if iImprovement == Improvement["Snake Pillar"]:
-							setImprov(Improvement["Farm"])
+							setImprov(-1)
 							iCount = randNum(100, "Hell Convert")
 							if  iCount < 33: setBonus(Bonus["Corn"])
 							else:
