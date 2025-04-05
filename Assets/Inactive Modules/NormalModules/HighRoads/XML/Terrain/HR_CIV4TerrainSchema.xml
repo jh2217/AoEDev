@@ -525,7 +525,6 @@
 	</ElementType>
 	<ElementType name="bExplorable" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bFort" content="textOnly" dt:type="boolean"/>
-	<ElementType name="iSpawnPerGameLimit" content="textOnly" dt:type="int"/>
 	<ElementType name="iSpawnAtOnceLimit" content="textOnly" dt:type="int"/>
 	<ElementType name="iLairCreationWeight" content="textOnly" dt:type="int"/>	<ElementType name="AppearanceTechType" content="textOnly"/>
 	<ElementType name="LairCreationWeightTechType" content="textOnly"/>
@@ -634,7 +633,6 @@
 		<element type="ImmediateSpawnGroupType"/>
 		<element type="SpawnUnitCiv"/>
 		<element type="bSpawnOnlyForOwner"/>
-		<element type="iSpawnPerGameLimit"/>
 		<element type="iSpawnAtOnceLimit"/>
 		<element type="SpawnPromotions"/>
 		<element type="GuardianPromotions"/>

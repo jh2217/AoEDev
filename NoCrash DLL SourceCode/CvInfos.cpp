@@ -30451,7 +30451,6 @@ m_paImprovementBonus(NULL),
 /**										Initial Values											**/
 /*************************************************************************************************/
 m_iSpawnUnitCiv(0),
-m_iSpawnPerGameLimit(-1),
 m_iSpawnAtOnceLimit(-1),
 m_iLairCreationWeight(0),
 /*************************************************************************************************/
@@ -30951,7 +30950,6 @@ bool CvImprovementInfo::isUnique() const
 /**									Called for Logic Checks										**/
 /*************************************************************************************************/
 int CvImprovementInfo::getSpawnUnitCiv() const							{return m_iSpawnUnitCiv;}
-int CvImprovementInfo::getSpawnPerGameLimit() const						{return m_iSpawnPerGameLimit < 0 ? MAX_INT : m_iSpawnPerGameLimit;}
 int CvImprovementInfo::getSpawnAtOnceLimit() const						{return m_iSpawnAtOnceLimit < 0 ? MAX_INT : m_iSpawnAtOnceLimit;}
 int CvImprovementInfo::getLairCreationWeight() const					{return m_iLairCreationWeight;}
 /*************************************************************************************************/
@@ -31335,7 +31333,6 @@ void CvImprovementInfo::read(FDataStreamBase* stream)
 /**									Read Data from Save Files									**/
 /*************************************************************************************************/
 	stream->Read(&m_iSpawnUnitCiv);
-	stream->Read(&m_iSpawnPerGameLimit);
 	stream->Read(&m_iSpawnAtOnceLimit);
 	stream->Read(&m_iLairCreationWeight);
 	stream->Read(&m_bExplorable);
@@ -31572,7 +31569,6 @@ void CvImprovementInfo::write(FDataStreamBase* stream)
 /**									Write Data to Save Files									**/
 /*************************************************************************************************/
 	stream->Write(m_iSpawnUnitCiv);
-	stream->Write(m_iSpawnPerGameLimit);
 	stream->Write(m_iSpawnAtOnceLimit);
 	stream->Write(m_iLairCreationWeight);
 /*************************************************************************************************/
@@ -31963,8 +31959,7 @@ bool CvImprovementInfo::read(CvXMLLoadUtility* pXML)
 /*************************************************************************************************/
 	pXML->GetChildXmlValByName(szTextVal, "SpawnUnitCiv");
 	m_aszExtraXML3forPass3.push_back(szTextVal);
-	pXML->GetChildXmlValByName(&m_iSpawnPerGameLimit, "iSpawnPerGameLimit", -1);
-	pXML->GetChildXmlValByName(&m_iSpawnAtOnceLimit, "iSpawnAtOnceLimit", -1);
+	pXML->GetChildXmlValByName(&m_iSpawnAtOnceLimit, "iSpawnAtOnceLimit");
 	pXML->GetChildXmlValByName(&m_iLairCreationWeight, "iLairCreationWeight");
 /*************************************************************************************************/
 /** Hinterlands				  				07/11/09								Valkrionn	**/
@@ -32187,7 +32182,6 @@ void CvImprovementInfo::copyNonDefaults(CvImprovementInfo* pClassInfo, CvXMLLoad
 	if (getHappiness()										== 0)				m_iHappiness								= pClassInfo->getHappiness();
 	if (getPillageGold()									== 0)				m_iPillageGold								= pClassInfo->getPillageGold();
 	if (getAdvancedStartCost()								== -1)				m_iAdvancedStartCost						= pClassInfo->getAdvancedStartCost();
-	if (getSpawnPerGameLimit()								== -1)				m_iSpawnPerGameLimit						= pClassInfo->getSpawnPerGameLimit();
 	if (getSpawnAtOnceLimit()								== -1)				m_iSpawnAtOnceLimit							= pClassInfo->getSpawnAtOnceLimit();
 	if (m_iWorldSoundscapeScriptId							== -1)				m_iWorldSoundscapeScriptId					= pClassInfo->getWorldSoundscapeScriptId();
 	if (getCultureControlStrength() == 0)	m_iCultureControlStrength = pClassInfo->getCultureControlStrength();

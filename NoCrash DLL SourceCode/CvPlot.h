@@ -715,8 +715,6 @@ public:
 	bool isHasTempFeature();
 	bool isHasTempBonus();
 
-	int getNumSpawnsEver();
-	void changeNumSpawnsEver(int iChange);
 	int getNumSpawnsAlive();
 	void changeNumSpawnsAlive(int iChange);
 
@@ -978,7 +976,6 @@ protected:
 	int m_iRealFeatureVariety;
 	short m_eRealBonusType;
 
-	int m_iNumSpawnsEver;
 	int m_iNumSpawnsAlive;
 
 	bool m_bNeedsRebuilding;

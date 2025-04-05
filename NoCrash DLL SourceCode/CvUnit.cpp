@@ -1477,7 +1477,6 @@ void CvUnit::convert(CvUnit* pUnit)
 			setMustDie(true);
 		}
 	}
-	getSpawnPlot()->changeNumSpawnsEver(-1);
 	setSpawnPlot(pUnit->getSpawnPlot());
 	setSpawnImprovementType(pUnit->getSpawnImprovementType());
 	changeStrBoost(pUnit->getStrBoost());
@@ -19074,7 +19073,6 @@ void CvUnit::setSpawnPlot(CvPlot* pPlot)
 	if (pPlot->getImprovementType() != NO_IMPROVEMENT && getUnitType() == (UnitTypes)GC.getImprovementInfo(pPlot->getImprovementType()).getSpawnUnitType())
 	{
 		pPlot->changeNumSpawnsAlive(1);
-		pPlot->changeNumSpawnsEver(1);
 		setSpawnImprovementType(pPlot->getImprovementType());
 	}
 	m_iSpawnPlotX = pPlot->getX();

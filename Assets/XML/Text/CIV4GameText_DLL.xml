@@ -620,28 +620,12 @@
 		<Spanish>%s1_civ_adj %s2_imp_name</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_UNIT_LIMIT_CAP</Tag>
-		<English>[ICON_BULLET]Spawns up to %d1_Limit %s4_adj %s3_unit units at any time (limit %d2_cap per game)</English>
-		<French>[ICON_BULLET]Peut faire apparaître jusqu'à %d1_Limit %s4_adj %s3_unit unités à tout moment (avec une limite de %d2_cap par partie)</French>
-		<German>[ICON_BULLET]Erschafft bis zu %d1_Limit %[s4_adj]e %s3_unit (Limit %d2_cap pro Spiel)</German>
-		<Italian>[ICON_BULLET]Spawns up to %d1_Limit %s4_adj %s3_unit units at any time (limit %d2_cap per game)</Italian>
-		<Spanish>[ICON_BULLET]Spawns up to %d1_Limit %s4_adj %s3_unit units at any time (limit %d2_cap per game)</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_LIMIT</Tag>
 		<English>[ICON_BULLET]Spawns up to %d1_Limit %s4_adj [LINK=%s2]%s3_unit[\LINK] units at any time</English>
 		<French>[ICON_BULLET]Peut faire apparaître jusqu'à %d1_Limit [LINK=%s2]%s3:2_unit[\LINK] %s4_adj à tout moment</French>
 		<German>[ICON_BULLET]Erschafft bis zu %d1_Limit %[s4_adj]e [LINK=%s2]%s3_unit[\LINK]</German>
 		<Italian>[ICON_BULLET]Spawns up to %d1_Limit %s4_adj [LINK=%s2]%s3_unit[\LINK] units at any time</Italian>
 		<Spanish>[ICON_BULLET]Spawns up to %d1_Limit %s4_adj [LINK=%s2]%s3_unit[\LINK] units at any time</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_UNIT_CAP</Tag>
-		<English>[ICON_BULLET]Spawns %s3_adj %s2_unit units (limit %d1_cap per game)</English>
-		<French>[ICON_BULLET]Fait apparaître des unités %s3_adj %s2_unit  (limite de  %d1_cap par partie)</French>
-		<German>[ICON_BULLET]Erschafft %[s3_adj]e %s2_unit (Limit %d1_cap pro Spiel)</German>
-		<Italian>[ICON_BULLET]Spawns %s3_adj %s2_unit units (limit %d1_cap per game)</Italian>
-		<Spanish>[ICON_BULLET]Spawns %s3_adj %s2_unit units (limit %d1_cap per game)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE</Tag>
@@ -2654,14 +2638,6 @@
 		<Spanish>Provides a free [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] to the nearest [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] city</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_UNIT_LIMIT_CAP_NO_CIV</Tag>
-		<English>[ICON_BULLET]Spawns up to %d1_Limit friendly %s3_unit units at any time (limit %d2_cap per game)</English>
-		<French>[ICON_BULLET]Peut faire apparaître jusqu'à %d1_Limit friendly %s3_unit unités à tout moment (avec une limite de %d2_cap par partie)</French>
-		<German>[ICON_BULLET]Erschafft bis zu %d1_Limit friendly %s3_unit (Limit %d2_cap pro Spiel)</German>
-		<Italian>[ICON_BULLET]Spawns up to %d1_Limit friendly %s3_unit units at any time (limit %d2_cap per game)</Italian>
-		<Spanish>[ICON_BULLET]Spawns up to %d1_Limit friendly %s3_unit units at any time (limit %d2_cap per game)</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_LIMIT_NO_CIV</Tag>
 		<English>[ICON_BULLET]Spawns up to %d1_Limit Friendly [LINK=%s2]%s3_unit[\LINK] units at any time</English>
 		<French>[ICON_BULLET]Peut faire apparaître jusqu'à %d1_Limit [LINK=%s2]%s3:2_unit[\LINK] Friendly à tout moment</French>
@@ -2670,28 +2646,12 @@
 		<Spanish>[ICON_BULLET]Spawns up to %d1_Limit Friendly [LINK=%s2]%s3_unit[\LINK] units at any time</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_UNIT_CAP_NO_CIV</Tag>
-		<English>[ICON_BULLET]Spawns Friendly %s2_unit units (limit %d1_cap per game)</English>
-		<French>[ICON_BULLET]Spawns Friendly %s2_unit units (limit %d1_cap per game)</French>
-		<German>[ICON_BULLET]Erschafft Friendly %s2_unit (Limit %d1_cap pro Spiel)</German>
-		<Italian>[ICON_BULLET]Spawns Friendly %s2_unit units (limit %d1_cap per game)</Italian>
-		<Spanish>[ICON_BULLET]Spawns Friendly %s2_unit units (limit %d1_cap per game)</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE_NO_CIV</Tag>
 		<English>[ICON_BULLET]Spawns Friendly %s1_unit units</English>
 		<French>[ICON_BULLET]Spawns Friendly %s1_unit units</French>
 		<German>[ICON_BULLET]Erschafft Friendly %[s1_unit]-Einheiten</German>
 		<Italian>[ICON_BULLET]Spawns Friendly %s1_unit units</Italian>
 		<Spanish>[ICON_BULLET]Spawns Friendly %s1_unit units</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_FOR_OWNER_SUFFIX</Tag>
-		<English>[SPACE]if they own the tile</English>
-		<French>[SPACE]si la case est contrôlée</French>
-		<German>[SPACE]wenn sie das Feld kontrollieren</German>
-		<Italian>[SPACE]if they own the tile</Italian>
-		<Spanish>[SPACE]if they own the tile</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_IS_EXPLORABLE</Tag>

@@ -6644,7 +6644,6 @@ public:
 /**								Defines Function for Use in .cpp								**/
 /*************************************************************************************************/
 	int getSpawnUnitCiv() const;
-	int getSpawnPerGameLimit() const;
 	int getSpawnAtOnceLimit() const;
 	int getLairCreationWeight() const;
 /*************************************************************************************************/
@@ -6913,7 +6912,6 @@ protected:
 /*************************************************************************************************/
 	std::vector<CvString> m_aszExtraXML3forPass3;
 	int m_iSpawnUnitCiv;
-	int m_iSpawnPerGameLimit;
 	int m_iSpawnAtOnceLimit;
 	int m_iLairCreationWeight;
 /*************************************************************************************************/

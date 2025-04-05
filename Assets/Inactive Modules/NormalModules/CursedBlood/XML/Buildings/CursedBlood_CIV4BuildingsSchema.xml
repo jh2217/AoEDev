@@ -197,7 +197,6 @@
 	<ElementType name="SpawnUnitPromotion" content="textOnly"/>
 	<ElementType name="bSpawnOnlyForOwner" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bSpawnOnCivCapital" content="textOnly" dt:type="boolean"/>
-	<ElementType name="iSpawnPerGameLimit" content="textOnly" dt:type="int"/>
 	<ElementType name="iSpawnAtOnceLimit" content="textOnly" dt:type="int"/>
 	<ElementType name="iSpawnChance" content="textOnly" dt:type="int"/>
 	<ElementType name="iGreatPeopleRateModifier" content="textOnly" dt:type="int"/>
@@ -810,7 +809,6 @@
 		<element type="SpawnUnitPromotion"/>
 		<element type="iSpawnAtOnceLimit"/>
 		<element type="iSpawnChance"/>
-		<element type="iSpawnPerGameLimit"/>
 		<element type="bSpawnOnCivCapital"/>
 		<element type="bSpawnOnlyForOwner"/>
 		<element type="GreatPeopleUnitClass"/>

@@ -1288,15 +1288,7 @@ void CyPlot::setTempBonusType(int eBonus, int iTimer)
 	if (m_pPlot)
 		m_pPlot->setTempBonusType((BonusTypes)eBonus, iTimer);
 }
-int CyPlot::getNumSpawnsEver()
-{
-	return m_pPlot ? m_pPlot->getNumSpawnsEver() : 0;
-}
-void CyPlot::changeNumSpawnsEver(int iChange)
-{
-	if (m_pPlot != NULL)
-		m_pPlot->changeNumSpawnsEver(iChange);
-}
+
 int CyPlot::getNumSpawnsAlive()
 {
 	return m_pPlot ? m_pPlot->getNumSpawnsAlive() : 0;

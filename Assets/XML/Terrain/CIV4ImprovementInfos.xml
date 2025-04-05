@@ -2640,11 +2640,11 @@
 				</FeatureMakesValid>
 			</FeatureMakesValids>
 			<PythonAtRange>atRangeBlightedForest(pCaster, pPlot)</PythonAtRange>
+			<ImmediateSpawnUnitType>UNIT_DIAKONOS</ImmediateSpawnUnitType>
 			<SpawnUnitType>UNIT_DIAKONOS</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ANIMAL</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
-			<iSpawnPerGameLimit>6</iSpawnPerGameLimit>
-			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
 			<bExplorable>1</bExplorable>
 			<iLairTier>3</iLairTier>
 			<GoodyClasses>
@@ -2661,6 +2661,9 @@
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
 			</GoodyClasses>
+			<GuardianPromotions>
+				<Promotion>PROMOTION_LEASH_1</Promotion>
+			</GuardianPromotions>
 			<iLairCreationWeight>0</iLairCreationWeight>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Centaur Camp -->
@@ -7660,7 +7663,6 @@
 			<PythonOnMove>onMoveLetumFrigus(pCaster, pPlot)</PythonOnMove>
 			<SpawnUnitType>UNIT_BEASTMAN</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
-			<iSpawnPerGameLimit>15</iSpawnPerGameLimit>
 			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Maelstrom -->

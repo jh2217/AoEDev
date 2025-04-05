@@ -285,7 +285,6 @@ void CvPlot::reset(int iX, int iY, bool bConstructorCall)
 	m_iTempFeatureTimer = 0;
 	m_eRealBonusType = NO_BONUS;
 	m_iTempBonusTimer = 0;
-	m_iNumSpawnsEver = 0;
 	m_iNumSpawnsAlive = 0;
 	m_bNeedsRebuilding = false;
 	//ClimateSystem:
@@ -634,7 +633,7 @@ void CvPlot::doTurn()
 				{
 					if (!isVisibleEnemyUnit(eSpawnPlayer))
 					{
-						if (getNumSpawnsEver() < GC.getImprovementInfo(getImprovementType()).getSpawnPerGameLimit() && getNumSpawnsAlive() < GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit())
+						if (getNumSpawnsAlive() < GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit())
 						{
 							//Consider making the spawn rate be based on improvement itself, just as limit is now
 							//
@@ -743,7 +742,7 @@ void CvPlot::doTurn()
 				{
 					if (!isVisibleEnemyUnit(eSpawnPlayer))
 					{
-						if (getNumSpawnsEver() < GC.getImprovementInfo(getImprovementType()).getSpawnPerGameLimit() && getNumSpawnsAlive() < GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit())
+						if (getNumSpawnsAlive() < GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit())
 						{
 							//Consider making the spawn rate be based on improvement itself, just as limit is now
 							//
@@ -7816,10 +7815,6 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 		}
 		// END Xienwolf
 
-		// Tracks Units Spawned from each Improvement to limit the potential spawns: Xienwolf 12/30/08 LairLimit
-		changeNumSpawnsEver(-getNumSpawnsEver());
-		changeNumSpawnsAlive(-getNumSpawnsAlive());
-
 		/**	Improvements Mods by Jeckel		imported by Ahwaric	20.09.09 | Valkrionn	09.24.09		**/
 		if (eOldImprovement != NO_IMPROVEMENT && getImprovementOwner() != NO_PLAYER)
 		{
@@ -12032,7 +12027,6 @@ void CvPlot::read(FDataStreamBase* pStream)
 	pStream->Read(&m_iTempFeatureTimer);
 	pStream->Read(&m_eRealBonusType);
 	pStream->Read(&m_iTempBonusTimer);
-	pStream->Read(&m_iNumSpawnsEver);
 	pStream->Read(&m_iNumSpawnsAlive);
 	pStream->Read(&m_bNeedsRebuilding);
 	//ClimateSystem:
@@ -12355,7 +12349,6 @@ void CvPlot::write(FDataStreamBase* pStream)
 	pStream->Write(m_iTempFeatureTimer);
 	pStream->Write(m_eRealBonusType);
 	pStream->Write(m_iTempBonusTimer);
-	pStream->Write(m_iNumSpawnsEver);
 	pStream->Write(m_iNumSpawnsAlive);
 	pStream->Write(m_bNeedsRebuilding);
 	//ClimateSystem:
@@ -14182,15 +14175,6 @@ void CvPlot::changeTempBonusTimer(int iChange)
 	{
 		m_iTempBonusTimer += iChange;
 	}
-}
-
-int CvPlot::getNumSpawnsEver()
-{
-	return m_iNumSpawnsEver;
-}
-void CvPlot::changeNumSpawnsEver(int iChange)
-{
-	m_iNumSpawnsEver += iChange;
 }
 
 int CvPlot::getNumSpawnsAlive()
