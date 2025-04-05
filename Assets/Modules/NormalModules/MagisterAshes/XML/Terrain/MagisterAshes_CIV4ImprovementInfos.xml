@@ -273,6 +273,7 @@
 			<FeatureUpgrade></FeatureUpgrade>
 			<PrereqCivilization>NONE</PrereqCivilization>
 			<PythonAtRange/>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<SpawnUnitType>UNIT_SCORPION</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
 			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
@@ -326,7 +327,6 @@
 			<iDefenseModifier>0</iDefenseModifier>
 			<iHappiness>0</iHappiness>
 			<iPillageGold>0</iPillageGold>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_PLAINS</TerrainType>

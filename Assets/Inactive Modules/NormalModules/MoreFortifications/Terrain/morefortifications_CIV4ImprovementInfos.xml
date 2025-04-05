@@ -6,11 +6,28 @@
 <!-- Improvement Infos -->
 <Civ4ImprovementInfos xmlns="x-schema:morefortifications_CIV4TerrainSchema.xml">
 	<ImprovementInfos>
+		<ImprovementInfo><!-- Bradeline's Well -->
+			<Type>IMPROVEMENT_BRADELINES_WELL</Type>
+			<bOutsideBorders>1</bOutsideBorders>
+			<bFort>1</bFort>
+			<iDefenseModifier>-50</iDefenseModifier>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
+			<SpawnUnitType>UNIT_MANES</SpawnUnitType>
+			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
+			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
+		</ImprovementInfo>
+		<ImprovementInfo><!-- Well of Souls -->
+			<Type>IMPROVEMENT_BRADELINES_WELL_PURIFIED</Type>
+			<bOutsideBorders>1</bOutsideBorders>
+			<bFort>1</bFort>
+			<iDefenseModifier>75</iDefenseModifier>
+		</ImprovementInfo>
 		<ImprovementInfo>		<!-- Tower of Eyes -->
 			<Type>IMPROVEMENT_TOWER_OF_EYES</Type>
 			<bOutsideBorders>1</bOutsideBorders>
 			<bFort>1</bFort>
 			<iDefenseModifier>-50</iDefenseModifier>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<SpawnUnitType>UNIT_LUNATIC</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
 			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
@@ -45,6 +62,7 @@
 			</AndDependencyTypes>
 			<bOutsideBorders>1</bOutsideBorders>
 			<bFort>1</bFort>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<SpawnUnitType>UNIT_MONK</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
 			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>

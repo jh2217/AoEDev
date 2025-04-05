@@ -7653,10 +7653,11 @@
 			</BonusTypeStructs>
 			<bUnique>1</bUnique>
 			<BonusConvert>BONUS_MANA_ICE</BonusConvert>
-			<PythonOnMove>onMoveLetumFrigus(pCaster, pPlot)</PythonOnMove>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<SpawnUnitType>UNIT_BEASTMAN</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
 			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<PythonOnMove>onMoveLetumFrigus(pCaster, pPlot)</PythonOnMove>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Maelstrom -->
 			<Type>IMPROVEMENT_MAELSTROM</Type>
@@ -8548,6 +8549,7 @@
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
 			</GoodyClasses>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<SpawnUnitType>UNIT_SKELETON</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
 			<iSpawnAtOnceLimit>4</iSpawnAtOnceLimit>

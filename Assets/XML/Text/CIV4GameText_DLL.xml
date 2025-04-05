@@ -637,11 +637,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_FOR_OWNER_SUFFIX</Tag>
-		<English>[SPACE]if they own the tile</English>
-		<French>[SPACE]si la case est contrôlée</French>
-		<German>[SPACE]wenn sie das Feld kontrollieren</German>
-		<Italian>[SPACE]if they own the tile</Italian>
-		<Spanish>[SPACE]if they own the tile</Spanish>
+		<English>[SPACE]if the tile owner isn't at war with them</English>
+		<French>[SPACE]if the tile owner isn't at war with them</French>
+		<German>[SPACE]if the tile owner isn't at war with them</German>
+		<Italian>[SPACE]if the tile owner isn't at war with them</Italian>
+		<Spanish>[SPACE]if the tile owner isn't at war with them</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADERSTATUS</Tag>
@@ -2636,22 +2636,6 @@
 		<German>Erzeugt einen freien [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] für die nächste[COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] Stadt</German>
 		<Italian>Provides a free [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] to the nearest [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] city</Italian>
 		<Spanish>Provides a free [COLOR_HIGHLIGHT_TEXT]%s1[COLOR_REVERT] to the nearest [COLOR_HIGHLIGHT_TEXT]%s2[COLOR_REVERT] city</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_LIMIT_NO_CIV</Tag>
-		<English>[ICON_BULLET]Spawns up to %d1_Limit Friendly [LINK=%s2]%s3_unit[\LINK] units at any time</English>
-		<French>[ICON_BULLET]Peut faire apparaître jusqu'à %d1_Limit [LINK=%s2]%s3:2_unit[\LINK] Friendly à tout moment</French>
-		<German>[ICON_BULLET]Erschafft bis zu %d1_Limit Friendly [LINK=%s2]%s3_unit[\LINK]</German>
-		<Italian>[ICON_BULLET]Spawns up to %d1_Limit Friendly [LINK=%s2]%s3_unit[\LINK] units at any time</Italian>
-		<Spanish>[ICON_BULLET]Spawns up to %d1_Limit Friendly [LINK=%s2]%s3_unit[\LINK] units at any time</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE_NO_CIV</Tag>
-		<English>[ICON_BULLET]Spawns Friendly %s1_unit units</English>
-		<French>[ICON_BULLET]Spawns Friendly %s1_unit units</French>
-		<German>[ICON_BULLET]Erschafft Friendly %[s1_unit]-Einheiten</German>
-		<Italian>[ICON_BULLET]Spawns Friendly %s1_unit units</Italian>
-		<Spanish>[ICON_BULLET]Spawns Friendly %s1_unit units</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_IS_EXPLORABLE</Tag>

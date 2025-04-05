@@ -73,14 +73,10 @@
 		<ImprovementInfo>		<!-- Rinwell 2 -->
 			<Type>IMPROVEMENT_RINWELL2</Type>
 			<PythonOnMove>onMoveRinwell(pCaster, pPlot)</PythonOnMove>
-			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
-			<iSpawnAtOnceLimit>6</iSpawnAtOnceLimit>
 		</ImprovementInfo>
 		<ImprovementInfo>		<!-- Rinwell 3 -->
 			<Type>IMPROVEMENT_RINWELL3</Type>
 			<PythonOnMove>onMoveRinwell(pCaster, pPlot)</PythonOnMove>
-			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
-			<iSpawnAtOnceLimit>6</iSpawnAtOnceLimit>
 		</ImprovementInfo>
 		<ImprovementInfo>		<!-- Seven Pines -->
 			<Type>IMPROVEMENT_SEVEN_PINES</Type>

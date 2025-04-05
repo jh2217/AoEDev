@@ -31959,7 +31959,7 @@ bool CvImprovementInfo::read(CvXMLLoadUtility* pXML)
 /*************************************************************************************************/
 	pXML->GetChildXmlValByName(szTextVal, "SpawnUnitCiv");
 	m_aszExtraXML3forPass3.push_back(szTextVal);
-	pXML->GetChildXmlValByName(&m_iSpawnAtOnceLimit, "iSpawnAtOnceLimit");
+	pXML->GetChildXmlValByName(&m_iSpawnAtOnceLimit, "iSpawnAtOnceLimit", -1);
 	pXML->GetChildXmlValByName(&m_iLairCreationWeight, "iLairCreationWeight");
 /*************************************************************************************************/
 /** Hinterlands				  				07/11/09								Valkrionn	**/
