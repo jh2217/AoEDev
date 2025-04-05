@@ -657,11 +657,8 @@ void CvPlot::doTurn()
 					}
 				}
 			}
-/*************************************************************************************************/
-/**	LairGuardians							7/17/10									Valkrionn	**/
-/**																								**/
-/**				Allows for lairs to spawn a unit on creation, but spawn others normally			**/
-/*************************************************************************************************/
+
+			// Allows for lairs to spawn a unit on creation, and spawn others normally : Valkrionn LairGuardians 7/17/10
 			int iSpawnGroup = GC.getImprovementInfo(getImprovementType()).getSpawnGroupType();
 			if (iSpawnGroup != NO_SPAWNGROUP)
 			{
@@ -716,11 +713,8 @@ void CvPlot::doTurn()
 						}
 					}
 				}
-/*************************************************************************************************/
-/**	Tweak							20/10/12								Snarko				**/
-/**																								**/
-/**					Don't spawn infinite barbs, there should be a limit							**/
-/*************************************************************************************************/
+
+				// Don't spawn infinite barbs, there should be a limit : Snarko 20/10/12
 				if (bValid && (eSpawnPlayer == DEMON_PLAYER || eSpawnPlayer == ANIMAL_PLAYER || eSpawnPlayer == ORC_PLAYER))
 				{
 					int iDivisor;
@@ -744,9 +738,6 @@ void CvPlot::doTurn()
 						bValid = false;
 					}
 				}
-/*************************************************************************************************/
-/**	Tweak								END														**/
-/*************************************************************************************************/
 
 				if (bValid)
 				{
@@ -767,12 +758,7 @@ void CvPlot::doTurn()
 					}
 				}
 			}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
+
 			if (GC.getImprovementInfo(getImprovementType()).getFeatureUpgrade() != NO_FEATURE)
 			{
 				if (GC.getGameINLINE().getSorenRandNum(100, "Feature Upgrade") < GC.getDefineINT("FEATURE_UPGRADE_CHANCE"))
