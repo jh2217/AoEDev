@@ -5286,4 +5286,20 @@
 		<Italian>%s1 is cured of %s2</Italian>
 		<Spanish>%s1 is cured of %s2</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PRODUCTION_CITY</Tag>
+		<English>[ICON_BULLET]Production in %s2_city: %d1[ICON_PRODUCTION]</English>
+		<French>[ICON_BULLET]Production in %s2_city: %d1[ICON_PRODUCTION]</French>
+		<German>[ICON_BULLET]Production in %s2_city: %d1[ICON_PRODUCTION]</German>
+		<Italian>[ICON_BULLET]Production in %s2_city: %d1[ICON_PRODUCTION]</Italian>
+		<Spanish>[ICON_BULLET]Production in %s2_city: %d1[ICON_PRODUCTION]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_PRODUCTION</Tag>
+		<English>[ICON_BULLET]Production in all cities: %D1[ICON_PRODUCTION]</English>
+		<French>[ICON_BULLET]Production in all cities: %D1[ICON_PRODUCTION]</French>
+		<German>[ICON_BULLET]Production in all cities: %D1[ICON_PRODUCTION]</German>
+		<Italian>[ICON_BULLET]Production in all cities: %D1[ICON_PRODUCTION]</Italian>
+		<Spanish>[ICON_BULLET]Production in all cities: %D1[ICON_PRODUCTION]</Spanish>
+	</TEXT>
 </Civ4GameText>

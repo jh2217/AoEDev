@@ -18092,6 +18092,11 @@ void CvCity::applyEvent(EventTypes eEvent, const EventTriggeredData& kTriggeredD
 			changeFood(kEvent.getFood() + (kEvent.getFoodPercent() * getFood()) / 100);
 		}
 
+		if (kEvent.getProduction() != 0)
+		{
+			changeProduction(kEvent.getProduction());
+		}
+
 		if (kEvent.getPopulationChange() != 0)
 		{
 			changePopulation(kEvent.getPopulationChange());
