@@ -13084,8 +13084,8 @@ void CvCity::setBuildingProduction(BuildingTypes eIndex, int iNewValue)
 
 	if (getBuildingProduction(eIndex) != iNewValue)
 	{
-		m_paiBuildingProduction[eIndex] = iNewValue;
-		FAssert(getBuildingProduction(eIndex) >= 0);
+		// Support for loss of production via events
+		m_paiBuildingProduction[eIndex] = std::max(0, iNewValue);
 
 		if (getTeam() == GC.getGameINLINE().getActiveTeam())
 		{
@@ -13144,8 +13144,8 @@ void CvCity::setProjectProduction(ProjectTypes eIndex, int iNewValue)
 
 	if (getProjectProduction(eIndex) != iNewValue)
 	{
-		m_paiProjectProduction[eIndex] = iNewValue;
-		FAssert(getProjectProduction(eIndex) >= 0);
+		// Support for loss of production via events
+		m_paiProjectProduction[eIndex] = std::max(0, iNewValue);
 
 		if (getTeam() == GC.getGameINLINE().getActiveTeam())
 		{
@@ -13199,8 +13199,8 @@ void CvCity::setUnitProduction(UnitTypes eIndex, int iNewValue)
 
 	if (getUnitProduction(eIndex) != iNewValue)
 	{
-		m_paiUnitProduction[eIndex] = iNewValue;
-		FAssert(getUnitProduction(eIndex) >= 0);
+		// Support for loss of production via events
+		m_paiUnitProduction[eIndex] = std::max(0, iNewValue);
 
 		if (getTeam() == GC.getGameINLINE().getActiveTeam())
 		{
@@ -18090,6 +18090,11 @@ void CvCity::applyEvent(EventTypes eEvent, const EventTriggeredData& kTriggeredD
 		if (kEvent.getFood() != 0 || kEvent.getFoodPercent() != 0)
 		{
 			changeFood(kEvent.getFood() + (kEvent.getFoodPercent() * getFood()) / 100);
+		}
+
+		if (kEvent.getProduction() != 0)
+		{
+			changeProduction(kEvent.getProduction());
 		}
 
 		if (kEvent.getPopulationChange() != 0)

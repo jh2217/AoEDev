@@ -28489,6 +28489,20 @@ void CvGameTextMgr::setEventHelp(CvWStringBuffer& szBuffer, EventTypes eEvent, i
 		}
 	}
 
+	if (kEvent.getProduction() != 0)
+	{
+		if (kEvent.isCityEffect() || kEvent.isOtherPlayerCityEffect())
+		{
+			szBuffer.append(NEWLINE);
+			szBuffer.append(gDLL->getText("TXT_KEY_EVENT_PRODUCTION_CITY", kEvent.getProduction(), szCity.GetCString()));
+		}
+		else
+		{
+			szBuffer.append(NEWLINE);
+			szBuffer.append(gDLL->getText("TXT_KEY_EVENT_PRODUCTION", kEvent.getProduction()));
+		}
+	}
+
 	if (kEvent.getRevoltTurns() > 0)
 	{
 		if (kEvent.isCityEffect() || kEvent.isOtherPlayerCityEffect())

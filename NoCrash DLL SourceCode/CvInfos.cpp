@@ -47987,6 +47987,7 @@ CvEventInfo::CvEventInfo() :
 	m_iHappyTurns(0),
 	m_iFood(0),
 	m_iFoodPercent(0),
+	m_iProduction(0),
 	m_iFeature(NO_FEATURE),
 	m_iFeatureChange(0),
 	m_iImprovement(NO_IMPROVEMENT),
@@ -48235,6 +48236,11 @@ int CvEventInfo::getFood() const
 int CvEventInfo::getFoodPercent() const
 {
 	return m_iFoodPercent;
+}
+
+int CvEventInfo::getProduction() const
+{
+	return m_iProduction;
 }
 
 int CvEventInfo::getFeature() const
@@ -48650,6 +48656,7 @@ void CvEventInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_iHappyTurns);
 	stream->Read(&m_iFood);
 	stream->Read(&m_iFoodPercent);
+	stream->Read(&m_iProduction);
 	stream->Read(&m_iFeature);
 	stream->Read(&m_iFeatureChange);
 	stream->Read(&m_iImprovement);
@@ -48845,6 +48852,7 @@ void CvEventInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iHappyTurns);
 	stream->Write(m_iFood);
 	stream->Write(m_iFoodPercent);
+	stream->Write(m_iProduction);
 	stream->Write(m_iFeature);
 	stream->Write(m_iFeatureChange);
 	stream->Write(m_iImprovement);
@@ -49006,6 +49014,7 @@ bool CvEventInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_iHappyTurns, "iHappyTurns");
 	pXML->GetChildXmlValByName(&m_iFood, "iFood");
 	pXML->GetChildXmlValByName(&m_iFoodPercent, "iFoodPercent");
+	pXML->GetChildXmlValByName(&m_iProduction, "iProduction");
 
 	pXML->GetChildXmlValByName(szTextVal, "FeatureType");
 	m_iFeature = pXML->FindInInfoClass(szTextVal);
@@ -49375,6 +49384,7 @@ void CvEventInfo::copyNonDefaults(CvEventInfo* pClassInfo, CvXMLLoadUtility* pXM
 	if (getHappyTurns()						== 0)					m_iHappyTurns					= pClassInfo->getHappyTurns();
 	if (getFood()							== 0)					m_iFood							= pClassInfo->getFood();
 	if (getFoodPercent()					== 0)					m_iFoodPercent					= pClassInfo->getFoodPercent();
+	if (getProduction()						== 0)					m_iProduction					= pClassInfo->getProduction();
 	if (getConvertOwnCities()				== 0)					m_iConvertOwnCities				= pClassInfo->getConvertOwnCities();
 	if (getConvertOtherCities()				== 0)					m_iConvertOtherCities			= pClassInfo->getConvertOtherCities();
 	if (getMaxNumReligions()				== -1)					m_iMaxNumReligions				= pClassInfo->getMaxNumReligions();

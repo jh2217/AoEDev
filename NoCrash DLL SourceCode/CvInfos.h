@@ -11812,6 +11812,7 @@ public:
 	int getHappyTurns() const;				// Exposed to Python
 	int getFood() const;						// Exposed to Python
 	int getFoodPercent() const;				// Exposed to Python
+	int getProduction() const;				// Exposed to Python
 	int getFeature() const;					// Exposed to Python
 	int getFeatureChange() const;				// Exposed to Python
 	int getImprovement() const;				// Exposed to Python
@@ -11947,6 +11948,7 @@ private:
 	int m_iHappyTurns;
 	int m_iFood;
 	int m_iFoodPercent;
+	int m_iProduction;
 	int m_iFeature;
 	int m_iFeatureChange;
 	int m_iImprovement;

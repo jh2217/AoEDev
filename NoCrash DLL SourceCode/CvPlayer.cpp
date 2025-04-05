@@ -23543,6 +23543,16 @@ void CvPlayer::applyEvent(EventTypes eEvent, int iEventTriggeredId, bool bUpdate
 			}
 		}
 
+		if (kEvent.getProduction() != 0)
+		{
+			int iLoop;
+
+			for (CvCity* pLoopCity = firstCity(&iLoop); NULL != pLoopCity; pLoopCity = nextCity(&iLoop))
+			{
+				pLoopCity->changeProduction((kEvent.getProduction()));
+			}
+		}
+
 		if (kEvent.getPopulationChange() != 0)
 		{
 			int iLoop;

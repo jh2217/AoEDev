@@ -86,6 +86,8 @@
 	<ElementType name="iMaxPillage" content="textOnly" dt:type="int"/>
 	<ElementType name="iFood" content="textOnly" dt:type="int"/>
 	<ElementType name="iFoodPercent" content="textOnly" dt:type="int"/>
+	<ElementType name="iProduction" content="textOnly" dt:type="int"/>
+	<ElementType name="iProduction" content="textOnly" dt:type="int"/>
 	<ElementType name="SpecialistType" content="textOnly"/>
 	<ElementType name="iFreeSpecialistCount" content="textOnly" dt:type="int"/>
 	<ElementType name="FreeSpecialistCount" content="eltOnly">
@@ -457,6 +459,7 @@
 		<element type="iMaxPillage"/>
 		<element type="iFood"/>
 		<element type="iFoodPercent"/>
+		<element type="iProduction"/>
 		<element type="FreeSpecialistCounts"/>
 		<element type="FeatureType"/>
 		<element type="iFeatureChange"/>

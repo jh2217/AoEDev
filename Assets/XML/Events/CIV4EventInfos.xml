@@ -5447,6 +5447,7 @@
 			<iMaxPillage>0</iMaxPillage>
 			<iFood>0</iFood>
 			<iFoodPercent>0</iFoodPercent>
+			<iProduction>0</iProduction>
 			<FreeSpecialistCounts>
 			</FreeSpecialistCounts>
 			<FeatureType>NONE</FeatureType>
@@ -7372,7 +7373,7 @@
 			<PrereqTech>TECH_ANIMAL_HANDLING</PrereqTech>
 			<PythonCallback>doGorillaBanana2</PythonCallback>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<iAIValue>10</iAIValue>
+			<iAIValue>1000</iAIValue>
 		</EventInfo>
 	</EventInfos>
 </Civ4EventInfos>
