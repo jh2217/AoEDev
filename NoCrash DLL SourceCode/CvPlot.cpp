@@ -577,13 +577,16 @@ void CvPlot::doTurn()
 
 		if (getImprovementType() != NO_IMPROVEMENT)
 		{
-			// Spawn barb units from improvement so long as not owner-only, nor owned by someone at war with that barb
 			int iUnit = GC.getImprovementInfo(getImprovementType()).getSpawnUnitType();
-			if (iUnit != NO_UNIT)
+			// Spawn units from improvement:
+			// 1st check: Are we at limit for how many units can be spawned at a time?
+			if (iUnit != NO_UNIT && getNumSpawnsAlive() < GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit())
 			{
 				bool bValid = false;
 				int iCiv = GC.getImprovementInfo(getImprovementType()).getSpawnUnitCiv();
 				PlayerTypes eSpawnPlayer=NO_PLAYER;
+
+				// 2nd check: Barb OK if A) not set bSpawnOnlyForOwner, B) tile is unowned, or C) tile is owned by someone not at war with the spawner civ
 				if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && !GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
 				{
 					eSpawnPlayer = DEMON_PLAYER;
@@ -608,7 +611,7 @@ void CvPlot::doTurn()
 						bValid = true;
 					}
 				}
-				// Otherwise just check if owned by appropriate player
+				// For nonbarb, bSpawnOnlyForOwner requires specifically that owner
 				else if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner())
 				{
 					if (isOwned() && GET_PLAYER(getOwner()).getCivilizationType() == (CivilizationTypes)iCiv)
@@ -631,25 +634,23 @@ void CvPlot::doTurn()
 
 				if (bValid)
 				{
+					// 3rd check: Can the spawned unit coexist on this tile with all already existing units on said tile
 					if (!isVisibleEnemyUnit(eSpawnPlayer))
 					{
-						if (getNumSpawnsAlive() < GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit())
+						//Consider making the spawn rate be based on improvement itself, just as limit is now
+						//
+						int iChance = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnRate();
+						iChance *= 10000;
+						iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
+						if (GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
 						{
-							//Consider making the spawn rate be based on improvement itself, just as limit is now
-							//
-							int iChance = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnRate();
-							iChance *= 10000;
-							iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
-							if (GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
+							CvUnit* pUnit=GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), UNITAI_ATTACK);
+							if (GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions() > 0)
 							{
-								CvUnit* pUnit=GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), UNITAI_ATTACK);
-								if (GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions() > 0)
+								int iNumSpawnPromotions = GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions();
+								for (int iL = 0; iL < iNumSpawnPromotions; iL++)
 								{
-									int iNumSpawnPromotions = GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions();
-									for (int iL = 0; iL < iNumSpawnPromotions; iL++)
-									{
-										pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(getImprovementType()).getSpawnPromotions(iL), true);
-									}
+									pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(getImprovementType()).getSpawnPromotions(iL), true);
 								}
 							}
 						}
@@ -762,33 +763,13 @@ void CvPlot::doTurn()
 			{
 				if (GC.getGameINLINE().getSorenRandNum(100, "Feature Upgrade") < GC.getDefineINT("FEATURE_UPGRADE_CHANCE"))
 				{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**		Order swapped so improvement is cleared first due to new format for RequireFeature		**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-					setFeatureType((FeatureTypes)GC.getImprovementInfo(getImprovementType()).getFeatureUpgrade());
-					setImprovementType(NO_IMPROVEMENT);
-/**								----  End Original Code  ----									**/
+					// Improvement is cleared first due to new format for RequireFeature : Xienwolf 12/13/08
 					FeatureTypes eFeature = (FeatureTypes)GC.getImprovementInfo(getImprovementType()).getFeatureUpgrade();
 					setImprovementType(NO_IMPROVEMENT);
 					setFeatureType(eFeature);
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 				}
 			}
-//FfH: End Add
-/*************************************************************************************************/
-/**	Bugfix								15/01/12									Snarko		**/
-/**																								**/
-/**		doImprovementUpgrade can remove the improvement if it's for another civilization		**/
-/*************************************************************************************************/
 		}
-/*************************************************************************************************/
-/**	Bugfix									END													**/
-/*************************************************************************************************/
 	}
 
 	doFeature();
