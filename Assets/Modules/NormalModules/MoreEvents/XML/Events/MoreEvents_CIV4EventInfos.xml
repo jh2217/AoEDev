@@ -1971,7 +1971,7 @@
 			<Description>TXT_KEY_EVENT_WANDERING_BARD_1</Description>
 			<iGold>20</iGold>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<iAIValue>1000</iAIValue>
+			<iAIValue>250</iAIValue>
 		</EventInfo>
 		<EventInfo>
 			<Type>EVENT_WANDERING_BARD_2</Type>
@@ -1985,7 +1985,7 @@
 				</FreeSpecialistCount>
 			</FreeSpecialistCounts>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<iAIValue>1000</iAIValue>
+			<iAIValue>500</iAIValue>
 		</EventInfo>
 		<EventInfo>
 			<Type>EVENT_WANDERING_BARD_3</Type>
@@ -2002,7 +2002,7 @@
 			<iGold>-15</iGold> <!-- Ya got robbed, bitch! -->
 			<iCrime>5</iCrime> <!-- that was easy! let's do it again! -->
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
-			<iAIValue>1000</iAIValue>
+			<iAIValue>100</iAIValue>
 		</EventInfo>
 		<EventInfo>
 			<Type>EVENT_TAX_COLLECTOR_THEFT_2</Type>
