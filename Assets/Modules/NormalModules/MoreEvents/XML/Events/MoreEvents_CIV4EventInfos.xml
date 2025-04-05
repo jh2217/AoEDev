@@ -2035,7 +2035,7 @@
 		<EventInfo>
 			<Type>EVENT_GENEROUS_BUSINESS_2</Type>
 			<Description>TXT_KEY_EVENT_GENEROUS_BUSINESS_2</Description>
-			
+			<PrereqAlignment>ALIGNMENT_GOOD</PrereqAlignment>
 			<bPickCity>1</bPickCity>
 			<iCrime>-20</iCrime>
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
@@ -2044,7 +2044,7 @@
 		<EventInfo>
 			<Type>EVENT_GENEROUS_BUSINESS_3</Type>
 			<Description>TXT_KEY_EVENT_GENEROUS_BUSINESS_3</Description>
-			<PrereqAlignment>ETHICAL_ALIGNMENT_CHAOTIC</PrereqAlignment>
+			<PrereqAlignment>ALIGNMENT_EVIL</PrereqAlignment>
 			<bPickCity>1</bPickCity>
 			<iHurryAnger>1</iHurryAnger>
 			<iGold>20</iGold>

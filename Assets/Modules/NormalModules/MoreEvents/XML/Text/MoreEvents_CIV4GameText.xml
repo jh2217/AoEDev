@@ -3456,4 +3456,37 @@
 		<Italian>They offer their dues to the Council.</Italian>
 		<Spanish>They offer their dues to the Council.</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GENEROUS_BUSINESS1</Tag>
+		<English>A patriotic business owner is interested in donating some of their resources to assist with the current project in the city.</English>
+		<French>A patriotic business owner is interested in donating some of their resources to assist with the current project in the city.</French>
+		<German>A patriotic business owner is interested in donating some of their resources to assist with the current project in the city.</German>
+		<Italian>A patriotic business owner is interested in donating some of their resources to assist with the current project in the city.</Italian>
+		<Spanish>A patriotic business owner is interested in donating some of their resources to assist with the current project in the city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GENEROUS_BUSINESS_1</Tag>
+		<English>Excellent!</English>
+		<French>Excellent!</French>
+		<German>Excellent!</German>
+		<Italian>Excellent!</Italian>
+		<Spanish>Excellent!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GENEROUS_BUSINESS_2</Tag>
+		<English>Better to use this donation to help build homes for the poorest in the city.</English>
+		<French>Better to use this donation to help build homes for the poorest in the city.</French>
+		<German>Better to use this donation to help build homes for the poorest in the city.</German>
+		<Italian>Better to use this donation to help build homes for the poorest in the city.</Italian>
+		<Spanish>Better to use this donation to help build homes for the poorest in the city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_GENEROUS_BUSINESS_3</Tag>
+		<English>Giving gold would be even more patriotic, don't you think?</English>
+		<French>Giving gold would be even more patriotic, don't you think?</French>
+		<German>Giving gold would be even more patriotic, don't you think?</German>
+		<Italian>Giving gold would be even more patriotic, don't you think?</Italian>
+		<Spanish>Giving gold would be even more patriotic, don't you think?</Spanish>
+	</TEXT>
+	
 </Civ4GameText>
