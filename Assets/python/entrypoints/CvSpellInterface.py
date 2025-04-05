@@ -3687,6 +3687,32 @@ def reqSanctify(caster):
 			return False
 	return True
 
+def sanctifyResource(pPlot):
+	iBonus = pPlot.getBonusType(-1)
+	setBonus = pPlot.setBonusType
+	randNum = CyGame().getSorenRandNum
+	iImprovement = pPlot.getImprovementType()
+	if iBonus == Bonus["Toad"]:
+		if randNum(100, "Hell Convert") < 50: setBonus(Bonus["Sheep"])
+		else: setBonus(Bonus["Pig"])
+	if iBonus == Bonus["Nightmare"]:
+		if randNum(100, "Hell Convert") < 50: setBonus(Bonus["Horse"])
+		else: setBonus(Bonus["Cow"])
+	if iBonus == Bonus["Razorweed"]:
+		if randNum(100, "Hell Convert") < 50: setBonus(Bonus["Cotton"])
+		else: setBonus(Bonus["Silk"])
+	if iBonus == Bonus["Gulagarm"]:
+		if randNum(100, "Hell Convert") < 50: setBonus(Bonus["Banana"])
+		else: setBonus(Bonus["Sugar"])
+	if (iBonus == Bonus["Sheut"]): setBonus(Bonus["Marble"])
+	if iImprovement == Improvement["Snake Pillar"]:
+		pPlot.setImprovementType(-1)
+		iCount = randNum(100, "Hell Convert")
+		if iCount < 33: setBonus(Bonus["Corn"])
+		else:
+			if iCount < 66: setBonus(Bonus["Rice"])
+			else: setBonus(Bonus["Wheat"])
+
 def spellSanctify(caster):
 	pPlot = caster.plot()
 	pPlayer = gc.getPlayer(caster.getOwner())
@@ -3700,31 +3726,37 @@ def spellSanctify(caster):
 		pPlayer.changeGlobalCounterContrib(-1)
 		newUnit = pPlayer.initUnit(getInfoType('UNIT_TOMB_WARDEN'), pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 	if gc.getGame().isOption(GameOptionTypes.GAMEOPTION_NO_PLOT_COUNTER):
-		iBrokenLands = Terrain["Broken lands"]
-		iBurningSands = Terrain["Burning sands"]
-		iDesert = Terrain["Desert"]
-		iFieldsOfPerdition = Terrain["Fields of perdition"]
-		iGrass = Terrain["Grass"]
-		iMarsh = Terrain["Marsh"]
-		iPlains = Terrain["Plains"]
-		iShallows = Terrain["Shallows"]
 		for x,y in plotsInCircularRange( caster.getX(), caster.getY(), iRange ):
+			bSwapped = False
 			pPlot = getPlot(x,y)
 			if not pPlot.isNone():
 				iTerrain = pPlot.getTerrainType()
-				if iTerrain == iBrokenLands:
-					pPlot.setTerrainType(iGrass, False, False)
-				if iTerrain == iBurningSands:
-					pPlot.setTerrainType(iDesert, False, False)
-				if iTerrain == iFieldsOfPerdition:
-					pPlot.setTerrainType(iPlains, False, False)
-				if iTerrain == iShallows:
-					pPlot.setTerrainType(iMarsh, False, False)
+				if iTerrain == Terrain["Blackwater"]:
+					pPlot.setTerrainType(Terrain["Ocean"], False, False)
+				if iTerrain == Terrain["Blighted coast"]:
+					pPlot.setTerrainType(Terrain["Coast"], False, False)
+				if iTerrain == Terrain["Broken lands"]:
+					pPlot.setTerrainType(Terrain["Grass"], False, False)
+					bSwapped = True
+				if iTerrain == Terrain["Burning sands"]:
+					pPlot.setTerrainType(Terrain["Desert"], False, False)
+					bSwapped = True
+				if iTerrain == Terrain["Fields of perdition"]:
+					pPlot.setTerrainType(Terrain["Plains"], False, False)
+					bSwapped = True
+				if iTerrain == Terrain["Shallows"]:
+					pPlot.setTerrainType(Terrain["Marsh"], False, False)
+					bSwapped = True
+			if bSwapped:
+				sanctifyResource(pPlot)
 	else:
 		for x,y in plotsInCircularRange( caster.getX(), caster.getY(), iRange ):
 			pPlot = getPlot(x,y)
 			if not pPlot.isNone():
-				if pPlot.getPlotCounter() !=0:
+				if gc.getTerrainInfo(pPlot.getTerrainType()).isHell():
+					sanctifyResource(pPlot)
+				iPlotCounter = pPlot.getPlotCounter()
+				if iPlotCounter > 0:
 					pPlot.changePlotCounter(pPlot.getPlotCounter() * -1)
 # FF: Added by Jean Elcard 14/01/2009 (speed tweak)
 		rebuildGraphics()
