@@ -28820,12 +28820,8 @@ void CvUnitAI::AI_summonAttackMove()
 }
 //FfH: End Add
 
-/*************************************************************************************************/
-/**	MISSION_CLAIM_FORT						15/06/10									Snarko	**/
-/**																								**/
-/**						Adding a mission for the claim_fort action...							**/
-/**							And teaching the AI how/when to do it								**/
-/*************************************************************************************************/
+
+// Teaching AI how/when to claim forts : Snarko MISSION_CLAIM_FORT 15/06/10
 bool CvUnitAI::AI_claimFort(int iRange, int iOddsThreshold)
 {
 	PROFILE_FUNC();
@@ -28905,35 +28901,45 @@ bool CvUnitAI::AI_canClaimFort(CvPlot* pPlot)
 		pPlot = plot();
 	}
 
-	if (!isBarbarian() && (GET_PLAYER(getOwnerINLINE())).getGold() < GET_PLAYER(getOwnerINLINE()).getClaimFortCost())
+	// Factor of 3 safety; ai shouldn't be out of gold when trekking out to claim a fort (unitai: will always claim if on tile, though)
+	if (!isBarbarian() && (GET_PLAYER(getOwnerINLINE())).getGold() < 3 * GET_PLAYER(getOwnerINLINE()).getClaimFortCost())
 	{
 		return false;
 	}
 
 	if (NO_IMPROVEMENT != pPlot->getRevealedImprovementType(getTeam(), false) && GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isFort())
 	{
-		if (pPlot->isOwned())
+		// If we don't think there's an owner, go for it
+		PlayerTypes eRevealedOwner = pPlot->getRevealedOwner(getTeam(), false);
+		if (eRevealedOwner == NO_PLAYER)
 		{
-			if (pPlot->getRevealedOwner(getTeam(), false) != getOwnerINLINE())
+			return true;
+		}
+		// If we're not at war with owner, can't claim
+		if (eRevealedOwner != getOwnerINLINE() && !GET_TEAM(getTeam()).isAtWar(pPlot->getRevealedTeam(getTeam(), false)))
+		{
+			return false;
+		}
+		// Check if we need to reappoint a commander to our fort. Can be expensive, but don't see how else to avoid.
+		if (pPlot->getImprovementOwner() == getOwnerINLINE())
+		{
+			CvUnit* pLoopUnit;
+			CLLNode<IDInfo>* pUnitNode;
+			pUnitNode = pPlot->headUnitNode();
+			while (pUnitNode != NULL)
 			{
-				if (!GET_TEAM(getTeam()).isAtWar(pPlot->getRevealedTeam(getTeam(), false)))
+				pLoopUnit = ::getUnit(pUnitNode->m_data);
+				pUnitNode = pPlot->nextUnitNode(pUnitNode);
+				if (pLoopUnit->getUnitClassType() == GC.getDefineINT("FORT_COMMANDER_UNITCLASS"))
 				{
 					return false;
 				}
 			}
-			else if (pPlot->getImprovementOwner() == getOwnerINLINE()) //It's already ours
-			{
-				return false;
-			}
 		}
-		return true; //XXX if there can be such a thing as an unowned fort, gotta check if we're at war with the fort commanders civ (if any).
 	}
 	return false;
-
 }
-/*************************************************************************************************/
-/**	MISSION_CLAIM_FORT									END										**/
-/*************************************************************************************************/
+
 
 /*************************************************************************************************/
 /**	Improved AI							16/06/10										Snarko	**/
