@@ -3488,5 +3488,36 @@
 		<Italian>Giving gold would be even more patriotic, don't you think?</Italian>
 		<Spanish>Giving gold would be even more patriotic, don't you think?</Spanish>
 	</TEXT>
-	
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BURNING_WAREHOUSE1</Tag>
+		<English>The central warehouse of this city has caught on fire! If we don't act quickly, then valuable supplies will be lost!</English>
+		<French>The central warehouse of this city has caught on fire! If we don't act quickly, then valuable supplies will be lost!</French>
+		<German>The central warehouse of this city has caught on fire! If we don't act quickly, then valuable supplies will be lost!</German>
+		<Italian>The central warehouse of this city has caught on fire! If we don't act quickly, then valuable supplies will be lost!</Italian>
+		<Spanish>The central warehouse of this city has caught on fire! If we don't act quickly, then valuable supplies will be lost!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BURNING_WAREHOUSE_1</Tag>
+		<English>Scramble to put out the flames, maybe we can save some of the supplies!</English>
+		<French>Scramble to put out the flames, maybe we can save some of the supplies!</French>
+		<German>Scramble to put out the flames, maybe we can save some of the supplies!</German>
+		<Italian>Scramble to put out the flames, maybe we can save some of the supplies!</Italian>
+		<Spanish>Scramble to put out the flames, maybe we can save some of the supplies!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BURNING_WAREHOUSE_2</Tag>
+		<English>Come on everyone, line up! Pass your water bucket to your left, no slouching! Go, go, go!</English>
+		<French>Come on everyone, line up! Pass your water bucket to your left, no slouching! Go, go, go!</French>
+		<German>Come on everyone, line up! Pass your water bucket to your left, no slouching! Go, go, go!</German>
+		<Italian>Come on everyone, line up! Pass your water bucket to your left, no slouching! Go, go, go!</Italian>
+		<Spanish>Come on everyone, line up! Pass your water bucket to your left, no slouching! Go, go, go!</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_EVENT_BURNING_WAREHOUSE_3</Tag>
+		<English>Order the water adepts to douse the flames!</English>
+		<French>Order the water adepts to douse the flames!</French>
+		<German>Order the water adepts to douse the flames!</German>
+		<Italian>Order the water adepts to douse the flames!</Italian>
+		<Spanish>Order the water adepts to douse the flames!</Spanish>
+	</TEXT>
 </Civ4GameText>

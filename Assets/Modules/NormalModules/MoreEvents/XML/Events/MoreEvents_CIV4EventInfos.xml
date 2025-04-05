@@ -2051,5 +2051,29 @@
 			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
 			<iAIValue>700</iAIValue>
 		</EventInfo>
+				<EventInfo>
+			<Type>EVENT_BURNING_WAREHOUSE_1</Type>
+			<Description>TXT_KEY_EVENT_BURNING_WAREHOUSE_1</Description>
+			<bPickCity>1</bPickCity>
+			<iProduction>-20</iProduction>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>100</iAIValue>
+		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_BURNING_WAREHOUSE_2</Type>
+			<Description>TXT_KEY_EVENT_BURNING_WAREHOUSE_2</Description>
+			<PrereqBonus>BONUS_MANA_LAW</PrereqBonus>
+			<bPickCity>1</bPickCity>
+			<iHappyTurns>10</iHappyTurns>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+		</EventInfo>
+		<EventInfo>
+			<Type>EVENT_BURNING_WAREHOUSE_3</Type>
+			<Description>TXT_KEY_EVENT_BURNING_WAREHOUSE_3</Description>
+			<PrereqBonus>BONUS_MANA_WATER</PrereqBonus>
+			<Button>,Art/Interface/Buttons/Process/Blank.dds,Art/Interface/Buttons/Beyond_the_Sword_Atlas.dds,8,5</Button>
+			<iAIValue>1000</iAIValue>
+		</EventInfo>
 	</EventInfos>
 </Civ4EventInfos>

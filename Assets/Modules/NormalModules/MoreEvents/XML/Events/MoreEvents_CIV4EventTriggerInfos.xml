@@ -1334,5 +1334,27 @@
 			<bPickCity>1</bPickCity>
 			<bShowPlot>1</bShowPlot>
 		</EventTriggerInfo>
+		<EventTriggerInfo>
+			<Type>EVENTTRIGGER_BURNING_WAREHOUSE1</Type>
+			<TriggerTexts>
+				<TriggerText>
+					<Text>TXT_KEY_EVENT_BURNING_WAREHOUSE1</Text>
+					<Era>NONE</Era>
+				</TriggerText>
+			</TriggerTexts>
+			<iMinPopulation>1</iMinPopulation>
+			<iPercentGamesActive>100</iPercentGamesActive>
+			<iWeight>40</iWeight>
+			<iMaxOurLandmass>-1</iMaxOurLandmass>
+			<bRecurring>1</bRecurring>
+			<iPlotType>-1</iPlotType>
+			<Events>
+				<Event>EVENT_BURNING_WAREHOUSE_1</Event>
+				<Event>EVENT_BURNING_WAREHOUSE_2</Event>
+				<Event>EVENT_BURNING_WAREHOUSE_3</Event>
+			</Events>
+			<bPickCity>1</bPickCity>
+			<bShowPlot>1</bShowPlot>
+		</EventTriggerInfo>
 	</EventTriggerInfos>
 </Civ4EventTriggerInfos>
