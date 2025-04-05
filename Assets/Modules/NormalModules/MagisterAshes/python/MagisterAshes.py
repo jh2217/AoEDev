@@ -46,14 +46,14 @@ def onBeginGameTurn(self, argsList):
 					iValue = 0
 					iImp = pTargetPlot.getImprovementType()
 					if iImp == -1:
-						iValue += 100
+						iValue += 1000
 					elif gc.getImprovementInfo(iImp).isPermanent():
 						continue
 					if pTargetPlot.getTerrainType() in lCold:
-						iValue += 1000
+						iValue += 400
 					iValue += CyGame().getSorenRandNum(1000, "Badb move ")
 					if not pTargetPlot.isOwned():
-						iValue += 1000
+						iValue += 400
 					if iValue > iBestValue:
 						iBestValue = iValue
 						pBestPlot = pTargetPlot
