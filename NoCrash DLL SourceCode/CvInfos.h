@@ -2084,6 +2084,9 @@ public:
 	int getRemovePromotion(int iI) const;
 	CvString getRemovePromotionsVectorElement(int i);
 
+	int getNumSpellBonuses() const;
+	SpellBonuses getSpellBonus(int iI) const;
+	std::list<SpellBonuses> listSpellBonuses();
 
 /*************************************************************************************************/
 /**	New Tag Defs	(SpellInfos)			05/15/08								Xienwolf	**/
@@ -2253,6 +2256,8 @@ protected:
 	int* m_piRemovePromotions;
 	int m_iNumRemovePromotions;
 	std::vector<CvString> m_aszRemovePromotionsforPass3;
+	int m_iNumSpellBonuses;
+	std::list <SpellBonuses> m_cbSpellBonuses;
 
 /*************************************************************************************************/
 /**	New Tag Defs	(SpellInfos)			05/15/08								Xienwolf	**/

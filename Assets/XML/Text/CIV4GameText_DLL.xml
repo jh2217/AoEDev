@@ -323,6 +323,14 @@
 		<Spanish>Grants[SPACE]</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_SPELL_BONUS_PREFIX</Tag>
+		<English>With %d1 Extra Magical Power and up to %d2 times, Grants[SPACE]</English>
+		<French>With %d1 Extra Magical Power and up to %d2 times, Grants[SPACE]</French>
+		<German>With %d1 Extra Magical Power and up to %d2 times, Grants[SPACE]</German>
+		<Italian>With %d1 Extra Magical Power and up to %d2 times, Grants[SPACE]</Italian>
+		<Spanish>With %d1 Extra Magical Power and up to %d2 times, Grants[SPACE]</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CHEATERS_NEVER_PROSPER</Tag>
 		<English>[COLOR_NEGATIVE_TEXT]You have already chosen your free tech(s)[COLOR_REVERT]</English>
 		<French>[COLOR_NEGATIVE_TEXT]You have already chosen your free tech(s)[COLOR_REVERT]</French>

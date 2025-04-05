@@ -10370,7 +10370,7 @@ m_iNumAddPromotions(0),
 m_piAddPromotions(NULL),
 m_iNumRemovePromotions(0),
 m_piRemovePromotions(NULL),
-
+m_cbSpellBonuses(NULL),
 /*************************************************************************************************/
 /**	New Tag Defs	(SpellInfos)			05/15/08								Xienwolf	**/
 /**																								**/
@@ -10492,6 +10492,7 @@ CvSpellInfo::~CvSpellInfo()
 	SAFE_DELETE_ARRAY(m_piPromotionsPrereq);
 	SAFE_DELETE_ARRAY(m_piAddPromotions);
 	SAFE_DELETE_ARRAY(m_piRemovePromotions);
+	m_cbSpellBonuses.clear();
 
 
 }
@@ -10645,6 +10646,24 @@ CvString CvSpellInfo::getAddPromotionsVectorElement(int i) { return m_aszAddProm
 int CvSpellInfo::getRemovePromotion(int iI) const { return (getNumRemovePromotions() > iI) ? m_piRemovePromotions[iI] : -1; }
 int CvSpellInfo::getNumRemovePromotions() const { return m_iNumRemovePromotions; }
 CvString CvSpellInfo::getRemovePromotionsVectorElement(int i) { return m_aszRemovePromotionsforPass3[i]; }
+
+int CvSpellInfo::getNumSpellBonuses() const { return m_iNumSpellBonuses; }
+SpellBonuses CvSpellInfo::getSpellBonus(int iI) const
+{
+	int iCount = 0;
+	SpellBonuses cbTemp;
+	for (std::list<SpellBonuses>::const_iterator iter = m_cbSpellBonuses.begin(); iter != m_cbSpellBonuses.end(); ++iter)
+	{
+		if (iCount == iI)
+		{
+			cbTemp = *iter;
+			break;
+		}
+		iCount++;
+	}
+	return cbTemp;
+}
+std::list<SpellBonuses> CvSpellInfo::listSpellBonuses() { return m_cbSpellBonuses; }
 
 
 /*************************************************************************************************/
@@ -11098,6 +11117,19 @@ void CvSpellInfo::read(FDataStreamBase* stream)
 		m_piRemovePromotions = new int[m_iNumRemovePromotions];
 		stream->Read(m_iNumRemovePromotions, m_piRemovePromotions);
 	}
+
+	stream->Read(&m_iNumSpellBonuses);
+	m_cbSpellBonuses.clear();
+	if (m_iNumSpellBonuses != 0)
+	{
+		SpellBonuses cbTemp;
+		for (int iI = 0; iI < m_iNumSpellBonuses; iI++)
+		{
+			cbTemp.read(stream);
+			m_cbSpellBonuses.push_back(cbTemp);
+		}
+	}
+
 /*************************************************************************************************/
 /**	New Tag Defs	(SpellInfos)			05/15/08								Xienwolf	**/
 /**																								**/
@@ -11266,6 +11298,18 @@ void CvSpellInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iNumRemovePromotions);
 	if (m_iNumRemovePromotions > 0)
 		stream->Write(m_iNumRemovePromotions, m_piRemovePromotions);
+
+	stream->Write(m_iNumSpellBonuses);
+	if (m_iNumSpellBonuses != 0)
+	{
+		std::list<SpellBonuses> cbDupe = m_cbSpellBonuses;
+		while (!cbDupe.empty())
+		{
+			SpellBonuses cbTemp = cbDupe.front();
+			cbDupe.pop_front();
+			cbTemp.write(stream);
+		}
+	}
 
 /*************************************************************************************************/
 /**	New Tag Defs	(SpellInfos)			05/15/08								Xienwolf	**/
@@ -11450,6 +11494,29 @@ bool CvSpellInfo::read(CvXMLLoadUtility* pXML)
 		pXML->SetIntWithChildList(&m_iNumPromotionsPrereq, &m_piPromotionsPrereq);
 	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "AddPromotions"))		pXML->SetStringWithChildList(&m_iNumAddPromotions, &m_aszAddPromotionsforPass3);
 	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "RemovePromotions"))		pXML->SetStringWithChildList(&m_iNumRemovePromotions, &m_aszRemovePromotionsforPass3);
+
+
+	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "SpellBonuses"))
+	{
+		int iNumSibs = gDLL->getXMLIFace()->GetNumChildren(pXML->GetXML());
+		if (iNumSibs > 0)
+		{
+			m_iNumSpellBonuses = iNumSibs;
+			if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "SpellBonus"))
+			{
+				for (int iI = 0; iI < iNumSibs; iI++)
+				{
+					SpellBonuses cbTemp;
+					pXML->GetChildXmlValByName(&(cbTemp.iPrereqExtraPower), "iPrereqExtraPower", 0);
+					pXML->GetChildXmlValByName(&(cbTemp.iMaxApplications), "iMaxApplications", 0);
+					m_cbSpellBonuses.push_back(cbTemp);
+					if (!gDLL->getXMLIFace()->NextSibling(pXML->GetXML()))						break;
+				}
+				gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+			}
+		}
+		gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+	}
 
 /*************************************************************************************************/
 /**	New Tag Defs	(SpellInfos)			05/15/08								Xienwolf	**/
@@ -11824,6 +11891,14 @@ void CvSpellInfo::copyNonDefaults(CvSpellInfo* pClassInfo, CvXMLLoadUtility* pXM
 			m_iNumRemovePromotions++;
 		}
 	}
+	for (int i = 0; i < pClassInfo->getNumSpellBonuses(); ++i)
+	{
+		SpellBonuses cbTemp;
+		cbTemp = pClassInfo->getSpellBonus(i);
+		m_cbSpellBonuses.push_back(cbTemp);
+		m_iNumSpellBonuses++;
+	}
+
 }
 /*************************************************************************************************/
 /**	TrueModular								END													**/

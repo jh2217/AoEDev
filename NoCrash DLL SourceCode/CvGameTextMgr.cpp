@@ -14483,6 +14483,23 @@ void CvGameTextMgr::parseSpellHelp(CvWStringBuffer &szBuffer, SpellTypes eSpell,
 /*************************************************************************************************/
 /**	AutoCast								END													**/
 /*************************************************************************************************/
+
+
+	//Spell Bonuses
+	CvWString szBonusString;
+	CvWString szTempBuffer;
+	int iI;
+	for (iI = 0; iI < GC.getSpellInfo(eSpell).getNumSpellBonuses(); iI++)
+	{
+		szTempBuffer.clear();
+		szBonusString.clear();
+		bFirst = true;
+		SpellBonuses cbTemp = GC.getSpellInfo(eSpell).getSpellBonus(iI);
+		szBuffer.append(NEWLINE);
+		szBuffer.append(gDLL->getSymbolID(BULLET_CHAR));
+		szBuffer.append(gDLL->getText("TXT_KEY_SPELL_BONUS_PREFIX",cbTemp.iPrereqExtraPower,cbTemp.iMaxApplications));
+	}
+
 }
 //FfH: End Add
 

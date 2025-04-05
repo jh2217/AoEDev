@@ -782,3 +782,24 @@ void TraitTriggeredData::write(FDataStreamBase* pStream)
 	pStream->Write(m_bKilledInBorders);
 	pStream->Write(m_bKilledOutsideBorders);
 }
+
+
+void SpellBonuses::read(FDataStreamBase* pStream)
+{
+	pStream->Read(&iPrereqExtraPower);
+	pStream->Read(&iMaxApplications);
+}
+
+void SpellBonuses::write(FDataStreamBase* pStream)
+{
+	pStream->Write(iPrereqExtraPower);
+	pStream->Write(iMaxApplications);
+}
+
+bool SpellBonuses::compare(SpellBonuses cbTemp)
+{
+	bool bSame = true;
+	if (iPrereqExtraPower != cbTemp.iPrereqExtraPower) bSame = false;
+	else if (iMaxApplications != cbTemp.iMaxApplications) bSame = false;
+	return bSame;
+}

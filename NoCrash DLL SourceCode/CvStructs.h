@@ -596,4 +596,15 @@ struct TraitTriggeredData
 	void write(FDataStreamBase* pStream);
 };
 
+
+struct SpellBonuses
+{
+	int iPrereqExtraPower;
+	int iMaxApplications;
+
+
+	void read(FDataStreamBase* pStream);
+	void write(FDataStreamBase* pStream);
+	bool compare(SpellBonuses cbTemp);
+};
 #endif	// CVSTRUCTS_H

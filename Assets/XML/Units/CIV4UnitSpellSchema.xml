@@ -32,7 +32,17 @@
 	
 	
 	<ElementType name="iMagicalPowerPrereq" content="textOnly" dt:type="int"/>
-	<ElementType name="UnitIgnore" content="textOnly"/>
+	<ElementType name="iPrereqExtraPower" content="textOnly" dt:type="int"/>
+	<ElementType name="iMaxApplications" content="textOnly" dt:type="int"/>
+	
+	<ElementType name="SpellBonus" content="eltOnly" order="many">
+		<element type="iPrereqExtraPower"/>
+		<element type="iMaxApplications"/>
+	</ElementType>
+	<ElementType name="SpellBonuses" content="eltOnly">
+		<element type="SpellBonus" minOccurs="0"/>
+	</ElementType>
+<ElementType name="UnitIgnore" content="textOnly"/>
 	<ElementType name="UnitsIgnorePromotion" content="eltOnly">
 		<element type="UnitIgnore" minOccurs="0"/>
 	</ElementType>
@@ -270,7 +280,8 @@
 		<element type="iHotKeyPriority"/>
 		<element type="Button"/>
 		<element type="iOrderPriority"/>
-	</ElementType>
+		<element type="SpellBonuses"/>
+		</ElementType>
 	<ElementType name="SpellInfos" content="eltOnly">
 		<element type="SpellInfo" maxOccurs="*"/>
 	</ElementType>
