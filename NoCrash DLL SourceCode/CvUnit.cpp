@@ -6888,19 +6888,11 @@ bool CvUnit::canLoadUnit(const CvUnit* pUnit, const CvPlot* pPlot) const
 		return false;
 	}
 
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                       06/23/10                     Mongoose & jdog5000      */
-/*                                                                                              */
-/* Bugfix                                                                                       */
-/************************************************************************************************/
-	// From Mongoose SDK
+	// From Mongoose SDK Bugfix : UNOFFICIAL_PATCH Mongoose & jdog5000 06/23/10
 	if (isCargo() && getTransportUnit() == pUnit)
 	{
 		return false;
 	}
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                        END                                                  */
-/************************************************************************************************/
 
 	if (getCargo() > 0)
 	{
@@ -6911,10 +6903,8 @@ bool CvUnit::canLoadUnit(const CvUnit* pUnit, const CvPlot* pPlot) const
 	{
 		return false;
 	}
-/*************************************************************************************************/
-/**	Flying Ships Fix no loading one to another	Held Fix	Ahwaric 13.06.09	**/
-/*************************************************************************************************/
 
+	// Flying ships can't load one another : Ahwaric 13.06.09
 	if ((cargoSpace() > 0) && (specialCargo() == NO_SPECIALUNIT))
 	{
 		return false;
@@ -6923,9 +6913,6 @@ bool CvUnit::canLoadUnit(const CvUnit* pUnit, const CvPlot* pPlot) const
 	{
 		return false;
 	}
-/*************************************************************************************************/
-/**	Flying Ships Fix						END			**/
-/*************************************************************************************************/
 
 	if (!(pUnit->cargoSpaceAvailable(getSpecialUnitType(), getDomainType())))
 	{
@@ -6937,20 +6924,14 @@ bool CvUnit::canLoadUnit(const CvUnit* pUnit, const CvPlot* pPlot) const
 		return false;
 	}
 
-//FfH Hidden Nationality: Modified by Kael 08/27/2007
-//	if (!m_pUnitInfo->isHiddenNationality() && pUnit->getUnitInfo().isHiddenNationality())
+	//FfH Hidden Nationality: Modified by Kael 08/27/2007
+	// if (!m_pUnitInfo->isHiddenNationality() && pUnit->getUnitInfo().isHiddenNationality())
 	if (isHiddenNationality() != pUnit->isHiddenNationality())
-//FfH: End Modify
-
 	{
 		return false;
 	}
 
-/*************************************************************************************************/
-/**	PeaceAndFlowers							03/27/09								Xienwolf	**/
-/**																								**/
-/**					Prevents Grouping Combat Capables with non-Combat Capables					**/
-/*************************************************************************************************/
+	// Prevents Grouping Combat Capables with non-Combat Capables : PeaceAndFlowers Xienwolf 03/27/09
 	if (isNeverHostile() != pUnit->isNeverHostile())
 	{
 		return false;
@@ -6959,9 +6940,7 @@ bool CvUnit::canLoadUnit(const CvUnit* pUnit, const CvPlot* pPlot) const
 	{
 		return false;
 	}
-/*************************************************************************************************/
-/**	PeaceAndFlowers							END													**/
-/*************************************************************************************************/
+
 	if (NO_SPECIALUNIT != getSpecialUnitType())
 	{
 		if (GC.getSpecialUnitInfo(getSpecialUnitType()).isCityLoad())
@@ -6993,54 +6972,37 @@ bool CvUnit::shouldLoadOnMove(const CvPlot* pPlot) const
 	{
 		return false;
 	}
-/*************************************************************************************************/
-/**	Xienwolf Tweak							06/30/09											**/
-/**																								**/
-/**	Prevent Airships from loading into Airships.  But might be slightly annoying for Hunters...	**/
-/*************************************************************************************************/
+	// Prevent Airships from loading into Airships.  But might be slightly annoying for Hunters : Xienwolf 06/30/09
 	if (cargoSpace() > 0)
 	{
 		return false;
 	}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 
 	switch (getDomainType())
 	{
-	case DOMAIN_LAND:
-/*************************************************************************************************/
-/**	Tweak					 	   10/04/10									Snarko				**/
-/**																								**/
-/**					Units that can move on water should not auto load on ships					**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		if (pPlot->isWater())
-/**								----  End Original Code  ----									**/
-		if (pPlot->isWater() && !canMoveAllTerrain())
-/*************************************************************************************************/
-/**	Tweak								END														**/
-/*************************************************************************************************/
-		{
-			return true;
-		}
-		break;
-	case DOMAIN_AIR:
-		if (!pPlot->isFriendlyCity(*this, true))
-		{
-			return true;
-		}
-
-		if (m_pUnitInfo->getAirUnitCap() > 0)
-		{
-			if (pPlot->airUnitSpaceAvailable(getTeam()) <= 0)
+		case DOMAIN_LAND:
+			// Units that can move on water shouldn't autoload on ships : Snarko 10/04/10
+			if (pPlot->isWater() && !canMoveAllTerrain())
 			{
 				return true;
 			}
-		}
-		break;
-	default:
-		break;
+			break;
+		case DOMAIN_AIR:
+			if (!pPlot->isFriendlyCity(*this, true))
+			{
+				return true;
+			}
+
+			if (m_pUnitInfo->getAirUnitCap() > 0)
+			{
+				if (pPlot->airUnitSpaceAvailable(getTeam()) <= 0)
+				{
+					return true;
+				}
+			}
+			break;
+		default:
+			break;
 	}
 
 	if (m_pUnitInfo->getTerrainImpassable(pPlot->getTerrainType()))
