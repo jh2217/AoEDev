@@ -9116,6 +9116,7 @@ int CvPlayerAI::AI_getPeaceAttitude(PlayerTypes ePlayer) const
 }
 
 
+// Lots of mixed attributations to bUniqueCult (Opera for LE/Orbis 2009), removed for gorram readability : Blazenclaw 2025
 int CvPlayerAI::AI_getSameReligionAttitude(PlayerTypes ePlayer) const
 {
 	int iAttitudeChange;
@@ -9123,52 +9124,23 @@ int CvPlayerAI::AI_getSameReligionAttitude(PlayerTypes ePlayer) const
 
 	iAttitude = 0;
 
-/*************************************************************************************************/
-/** bUniqueCult         Opera for Orbis/LE              08/07/09                                **/
-/*************************************************************************************************/
-/** -- Start Original Code --                                                                   **
-	if ((getStateReligion() != NO_RELIGION) && (getStateReligion() == GET_PLAYER(ePlayer).getStateReligion()))
-/** -- End Original Code --                                                                     **/
-/*************************************************************************************************/
 	if ((isIntolerant() && GET_PLAYER(ePlayer).isIntolerant()) || ((getStateReligion() != NO_RELIGION) && (getStateReligion() == GET_PLAYER(ePlayer).getStateReligion())))
-/*************************************************************************************************/
-/** End                                                                                         **/
-/*************************************************************************************************/
 	{
 		iAttitude += GC.getLeaderHeadInfo(getPersonalityType()).getSameReligionAttitudeChange();
 
-/*************************************************************************************************/
-/** bUniqueCult         Opera for Orbis/LE              08/07/09                                **/
-/*************************************************************************************************/
 		if ((getStateReligion() != NO_RELIGION) && (GET_PLAYER(ePlayer).getStateReligion() != NO_RELIGION))
 		{
-/*************************************************************************************************/
-/** Snip                                                                                        **/
-/*************************************************************************************************/
 			if (hasHolyCity(getStateReligion()) && (GET_PLAYER(ePlayer).getStateReligion() == getStateReligion()))
 			{
 				iAttitude++;
 			}
 
-/*************************************************************************************************/
-/** FavReligionBonus            Opera                   30/07/09                                **/
-/** Not used for now
-/*************************************************************************************************
-			if ((GC.getLeaderHeadInfo(getPersonalityType()).getFavoriteReligion() == getStateReligion()) && (GET_PLAYER(ePlayer).getStateReligion() == GC.getLeaderHeadInfo(getPersonalityType()).getFavoriteReligion()))
-			{
-				iAttitude++;
-			}
-/*************************************************************************************************/
-/** End                                                                                         **/
-/*************************************************************************************************/
-
-/*************************************************************************************************/
-/** bUniqueCult (resume) Opera for Orbis/LE             08/07/09                                **/
-/*************************************************************************************************/
+			// Fav religion removed for speed; redundant with religious weights(?)
+			// if ((GC.getLeaderHeadInfo(getPersonalityType()).getFavoriteReligion() == getStateReligion()) && (GET_PLAYER(ePlayer).getStateReligion() == GC.getLeaderHeadInfo(getPersonalityType()).getFavoriteReligion()))
+			// {
+			// 	iAttitude++;
+			// }
 		}
-/*************************************************************************************************/
-/** End                                                                                         **/
-/*************************************************************************************************/
 
 		if (GC.getLeaderHeadInfo(getPersonalityType()).getSameReligionAttitudeDivisor() != 0)
 		{
@@ -9176,7 +9148,6 @@ int CvPlayerAI::AI_getSameReligionAttitude(PlayerTypes ePlayer) const
 			iAttitude += range(iAttitudeChange, -(abs(GC.getLeaderHeadInfo(getPersonalityType()).getSameReligionAttitudeChangeLimit())), abs(GC.getLeaderHeadInfo(getPersonalityType()).getSameReligionAttitudeChangeLimit()));
 		}
 	}
-
 	return iAttitude;
 }
 
@@ -9185,45 +9156,28 @@ int CvPlayerAI::AI_getSameReligionAttitude(PlayerTypes ePlayer) const
 /**	Xienwolf Notes							NOTES												**/
 /**		Fun functions these.  We might want to create some tags to link how we want them...		**/
 /*************************************************************************************************/
+// Lots of mixed attributations to bUniqueCult (Opera for LE/Orbis 2009), removed for gorram readability : Blazenclaw 2025
 int CvPlayerAI::AI_getDifferentReligionAttitude(PlayerTypes ePlayer) const
 {
 	int iAttitudeChange;
 	int iAttitude;
 
 	iAttitude = 0;
-/*************************************************************************************************/
-/** bUniqueCult         Opera for LE/Orbis      07/07/09                                        **/
-/*************************************************************************************************/
-/** -- Start original code --
-	if ((getStateReligion() != NO_RELIGION) && (GET_PLAYER(ePlayer).getStateReligion() != NO_RELIGION) && (getStateReligion() != GET_PLAYER(ePlayer).getStateReligion()))
-/** -- End original code --                                                                     **/
-/*************************************************************************************************/
-	if (((isUniqueCult() || isIntolerant()) &&  GET_PLAYER(ePlayer).getStateReligion() != NO_RELIGION) || ((getStateReligion() != NO_RELIGION) && ((GET_PLAYER(ePlayer).isUniqueCult()) || ((GET_PLAYER(ePlayer).getStateReligion() != NO_RELIGION) && (getStateReligion() != GET_PLAYER(ePlayer).getStateReligion())))))
-/*************************************************************************************************/
-/** End                                                                                         **/
-/*************************************************************************************************/
+
+	if (((isUniqueCult() || isIntolerant()) &&  GET_PLAYER(ePlayer).getStateReligion() != NO_RELIGION)
+	||  (  (getStateReligion() != NO_RELIGION)
+		&& ((GET_PLAYER(ePlayer).isUniqueCult()) || ((GET_PLAYER(ePlayer).getStateReligion() != NO_RELIGION)
+		&& (getStateReligion() != GET_PLAYER(ePlayer).getStateReligion())))))
 	{
 		iAttitude += GC.getLeaderHeadInfo(getPersonalityType()).getDifferentReligionAttitudeChange();
 
-/*************************************************************************************************/
-/** bUniqueCult         Opera for Orbis/LE              08/07/09                                **/
-/*************************************************************************************************/
 		if ((getStateReligion() != NO_RELIGION) && (GET_PLAYER(ePlayer).getStateReligion() != NO_RELIGION))
 		{
-/*************************************************************************************************/
-/** Snip                                                                                        **/
-/*************************************************************************************************/
 			if (hasHolyCity(getStateReligion()) && (GET_PLAYER(ePlayer).getStateReligion() != getStateReligion()))
 			{
 				iAttitude--;
 			}
-/*************************************************************************************************/
-/** bUniqueCult (resume) Opera for Orbis/LE             08/07/09                                **/
-/*************************************************************************************************/
 		}
-/*************************************************************************************************/
-/** End                                                                                         **/
-/*************************************************************************************************/
 
 		if (GC.getLeaderHeadInfo(getPersonalityType()).getDifferentReligionAttitudeDivisor() != 0)
 		{
@@ -9231,50 +9185,22 @@ int CvPlayerAI::AI_getDifferentReligionAttitude(PlayerTypes ePlayer) const
 			iAttitude += range(iAttitudeChange, -(abs(GC.getLeaderHeadInfo(getPersonalityType()).getDifferentReligionAttitudeChangeLimit())), abs(GC.getLeaderHeadInfo(getPersonalityType()).getDifferentReligionAttitudeChangeLimit()));
 		}
 
-/*************************************************************************************************/
-/** bUniqueCult         Opera for Orbis/LE              08/07/09                                **/
-/*************************************************************************************************/
-/** -- Start Original Code --                                                                   **
-//FfH: Added by Kael 11/05/2007
-	if (!canSeeReligion(GET_PLAYER(ePlayer).getStateReligion(), NULL) || !GET_PLAYER(ePlayer).canSeeReligion(getStateReligion(), NULL))
-	{
-		iAttitude = 0;
-	}
-//FfH: End Add
-/** -- End Original Code --                                                                     **/
-/*************************************************************************************************/
-	if (getStateReligion() != NO_RELIGION)
-	{
-		if (!GET_PLAYER(ePlayer).canSeeReligion(getStateReligion(), NULL))
+		if (getStateReligion() != NO_RELIGION)
 		{
-			iAttitude = 0;
+			if (!GET_PLAYER(ePlayer).canSeeReligion(getStateReligion(), NULL))
+			{
+				iAttitude = 0;
+			}
+		}
+
+		if (GET_PLAYER(ePlayer).getStateReligion() != NO_RELIGION)
+		{
+			if (!canSeeReligion(GET_PLAYER(ePlayer).getStateReligion(), NULL))
+			{
+				iAttitude = 0;
+			}
 		}
 	}
-
-	if (GET_PLAYER(ePlayer).getStateReligion() != NO_RELIGION)
-	{
-		if (!canSeeReligion(GET_PLAYER(ePlayer).getStateReligion(), NULL))
-		{
-			iAttitude = 0;
-		}
-	}
-/*************************************************************************************************/
-/** End                                                                                         **/
-/*************************************************************************************************/
-
-	}
-
-/*************************************************************************************************/
-/** bUniqueCult        Opera for LE/Orbis         06/07/09                                      **/
-/*************************************************************************************************
-	if ((getStateReligion() != NO_RELIGION) && (GET_PLAYER(ePlayer).isUniqueCult()))
-	{
-		iAttitude += GC.getLeaderHeadInfo(getPersonalityType()).getDifferentReligionAttitudeChange();
-	}
-/*************************************************************************************************/
-/** End                                                                                         **/
-/*************************************************************************************************/
-
 	return iAttitude;
 }
 
