@@ -6953,7 +6953,7 @@ bool CvUnit::canLoadUnit(const CvUnit* pUnit, const CvPlot* pPlot) const
 	}
 
 	// No shipping fort commanders around! : Blazenclaw 2025
-	if (getUnitClassType() == GC.getInfoTypeForString("FORT_COMMANDER_UNITCLASS"))
+	if (getUnitClassType() == GC.getInfoTypeForString("UNITCLASS_FORT_COMMANDER"))
 	{
 		return false;
 	}
@@ -32891,7 +32891,7 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 			pLoopUnit = ::getUnit(pUnitNode->m_data);
 			pUnitNode = pPlot->nextUnitNode(pUnitNode);
 
-			if (pLoopUnit->getUnitClassType() == GC.getInfoTypeForString("FORT_COMMANDER_UNITCLASS"))
+			if (pLoopUnit->getUnitClassType() == GC.getInfoTypeForString("UNITCLASS_FORT_COMMANDER"))
 			{
 				return false;
 			}
