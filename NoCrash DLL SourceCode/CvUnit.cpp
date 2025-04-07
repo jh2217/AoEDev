@@ -6952,6 +6952,12 @@ bool CvUnit::canLoadUnit(const CvUnit* pUnit, const CvPlot* pPlot) const
 		}
 	}
 
+	// No shipping fort commanders around! : Blazenclaw 2025
+	if (getUnitClassType() == GC.getDefineINT("FORT_COMMANDER_UNITCLASS"))
+	{
+		return false;
+	}
+
 	return true;
 }
 
