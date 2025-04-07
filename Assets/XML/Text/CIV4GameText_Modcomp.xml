@@ -197,7 +197,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MISC_YOU_ATTACK_BY_AIR</Tag>
-		<English>Your %s1_UnitName has fired upon a %s2_EnUName! (%d3_Damage%% Damage)</English>
+		<English>Your %s1_UnitName has fired upon a %s4_CivAdj %s2_EnUName! (%d3_Damage%% Damage)</English>
 		<French>Votre %s1_UnitName a attaqué [NUM2:un:une:des:des] %s2_EnUName ! (%d3_Damage%% de dégâts)</French>
 		<German>Eure Einheit %s1_UnitName hat eine feindliche Einheit %s2_EnUName angegriffen!</German>
 		<Italian>La tua unità di %s1_UnitName ha attaccato un'unità nemica di %s2_EnUName!</Italian>

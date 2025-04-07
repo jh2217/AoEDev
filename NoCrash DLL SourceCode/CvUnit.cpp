@@ -30929,40 +30929,28 @@ bool CvUnit::airStrike(CvPlot* pPlot)
 
 	int iUnitDamage = std::max(pDefender->getDamage(), std::min((pDefender->getDamage() + iDamage), airCombatLimit()));
 
-/*************************************************************************************************/
-/**	Higher hitpoints				01/02/11											Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	CvWString szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+	// Makes higher values than 100 HP possible : Higher hitpoints Snarko 01/02/11
+	CvWString szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR",
+		pDefender->getNameKey(),
+		getNameKey(),
+		-(((iUnitDamage - pDefender->getDamage()) * 100 * GC.getDefineINT("HIT_POINT_FACTOR") ) / pDefender->maxHitPoints()),
+		GET_PLAYER(getVisualOwner(pDefender->getTeam())).getCivilizationAdjectiveKey());
 	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_AIR_ATTACK", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), pPlot->getX_INLINE(), pPlot->getY_INLINE(), true, true);
 
-	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR",
+		getNameKey(),
+		pDefender->getNameKey(),
+		-(((iUnitDamage - pDefender->getDamage()) * 100 * GC.getDefineINT("HIT_POINT_FACTOR")) / pDefender->maxHitPoints()),
+		GET_PLAYER(getVisualOwner(pDefender->getTeam())).getCivilizationAdjectiveKey());
 	gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_AIR_ATTACKED", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-/**								----  End Original Code  ----									**/
-	CvWString szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100 * GC.getDefineINT("HIT_POINT_FACTOR") ) / pDefender->maxHitPoints()));
-	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_AIR_ATTACK", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), pPlot->getX_INLINE(), pPlot->getY_INLINE(), true, true);
-
-	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100 * GC.getDefineINT("HIT_POINT_FACTOR")) / pDefender->maxHitPoints()));
-	gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_AIR_ATTACKED", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 
 	collateralCombat(pPlot, pDefender);
 
-/*************************************************************************************************/
-/**	UnitStatistics							07/18/08	Written: Teg Navanis Imported: Xienwolf	**/
-/**																								**/
-/**							Sends Combat Result Information to Python							**/
-/*************************************************************************************************/
+	// Sends Combat Result Information to Python : UnitStatistics Written: Teg Navanis Imported: Xienwolf 07/18/08
 	if (GC.getUSE_UNIT_STATISTICS_CALLBACK())
 	{
 		ReportEventToPython(pDefender, 5, (std::min(iDamage, (airCombatLimit() - pDefender->getDamage()))), "combatHit");  // Unit Statistics by Teg_Navanis
 	}
-/*************************************************************************************************/
-/**	UnitStatistics								END												**/
-/*************************************************************************************************/
 	pDefender->setDamage(iUnitDamage, getOwnerINLINE());
 
 	return true;
@@ -31114,25 +31102,11 @@ bool CvUnit::rangeStrike(int iX, int iY)
 		return false;
 	}
 
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                       05/10/10                             jdog5000         */
-/*                                                                                              */
-/* Bugfix                                                                                       */
-/************************************************************************************************/
-/* original bts code
-	if (!canRangeStrikeAt(pPlot, iX, iY))
-	{
-		return false;
-	}
-*/
+	// Was "!canRangeStrikeAt(pPlot, iX, iY)" : UNOFFICIAL_PATCH jdog5000 05/10/10
 	if (!canRangeStrikeAt(plot(), iX, iY))
 	{
 		return false;
 	}
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                        END                                                  */
-/************************************************************************************************/
-
 	pDefender = airStrikeTarget(pPlot);
 
 	FAssert(pDefender != NULL);
@@ -31143,100 +31117,39 @@ bool CvUnit::rangeStrike(int iX, int iY)
 		setMadeAttack(true);
 	}
 
-/*************************************************************************************************/
-/**	Vehem Tweak							02/07/09	 											**/
-/**																								**/
-/**		Removed line that causes ranged strikes to take 1 movement/resets fortification			**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
+	// Note: Removing this makes ranged attacks free, not use fortification : Snarko, Vehem
 	changeMoves(GC.getMOVE_DENOMINATOR());
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Tweak							05/05/11								Snarko				**/
-/**			Making ranged attacks cost a movement point and adjusting the AI.					**/
-/*************************************************************************************************/
-	changeMoves(GC.getMOVE_DENOMINATOR());
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-
 
 	iDamage = rangeCombatDamage(pDefender);
 
-/*************************************************************************************************/
-/**	Vehem Tweak							03/11/09	 											**/
-/**																								**/
-/**		Allows ranged strikes to grant experience, controlled by global define					**/
-/**		06/20/09 - Softcapped via reduction of XP gain based on current XP.
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	iUnitDamage = std::max(pDefender->getDamage(), std::min((pDefender->getDamage() + iDamage), airCombatLimit()));
-/**								----  End Original Code  ----									**/
+	// Allow ranged attacks to grant xp, softcapped by xml : Vehem, 3/11/09
 	int iInitialUnitDamage = pDefender->getDamage();
 	iUnitDamage = std::max(iInitialUnitDamage, std::min((iInitialUnitDamage + iDamage), airCombatLimit()));
 	int iXPPercent = GC.getDefineINT("RANGE_COMBAT_XP_PERCENTAGE");
 	if (iXPPercent > 0)
 	{
-/*************************************************************************************************/
-/**	CommandingPresence						05/31/09								Xienwolf	**/
-/**																								**/
-/**				Allows Commanders to gain XP when their Minions take part in battle				**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		changeExperience((iUnitDamage * iXPPercent) / ((getExperience() / 500)+1) , -1, false, false, false);
-/**								----  End Original Code  ----									**/
+		// Allows Commanders to gain XP when their Minions take part in battle : CommandingPresence Xienwolf 05/31/09
 		changeExperience((iUnitDamage * iXPPercent) / ((getExperience() / 500)+1) , -1, false, false, false, true);
-/*************************************************************************************************/
-/**	CommandingPresence						END													**/
-/*************************************************************************************************/
 	}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 
-/*************************************************************************************************/
-/**	Xienwolf Tweak							04/09/09											**/
-/**																								**/
-/**						Displays affiliation of opponent in ranged damage attacks				**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+	// Display affiliation of opponent, increase hitpoints over 100 : Higher hitpoints Snarko Xienwolf 01/02/11 04/09/09
+	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR",
+		pDefender->getNameKey(),
+		getNameKey(),
+		-(((iUnitDamage - pDefender->getDamage()) * 100 * GC.getDefineINT("HIT_POINT_FACTOR") ) / pDefender->maxHitPoints()),
+		GET_PLAYER(getVisualOwner(pDefender->getTeam())).getCivilizationAdjectiveKey());
 	//red icon over attacking unit
 	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), this->getX_INLINE(), this->getY_INLINE(), true, true);
 	//white icon over defending unit
 	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, 0, L"", "AS2D_COMBAT", MESSAGE_TYPE_DISPLAY_ONLY, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), pDefender->getX_INLINE(), pDefender->getY_INLINE(), true, true);
 
-	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Higher hitpoints				01/02/11											Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()), GET_PLAYER(getVisualOwner(pDefender->getTeam())).getCivilizationAdjectiveKey());
-	//red icon over attacking unit
-	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), this->getX_INLINE(), this->getY_INLINE(), true, true);
-	//white icon over defending unit
-	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, 0, L"", "AS2D_COMBAT", MESSAGE_TYPE_DISPLAY_ONLY, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), pDefender->getX_INLINE(), pDefender->getY_INLINE(), true, true);
-
-	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()), GET_PLAYER(pDefender->getVisualOwner(getTeam())).getCivilizationAdjectiveKey());
-/**								----  End Original Code  ----									**/
-	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100 * GC.getDefineINT("HIT_POINT_FACTOR") ) / pDefender->maxHitPoints()), GET_PLAYER(getVisualOwner(pDefender->getTeam())).getCivilizationAdjectiveKey());
-	//red icon over attacking unit
-	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), this->getX_INLINE(), this->getY_INLINE(), true, true);
-	//white icon over defending unit
-	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, 0, L"", "AS2D_COMBAT", MESSAGE_TYPE_DISPLAY_ONLY, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), pDefender->getX_INLINE(), pDefender->getY_INLINE(), true, true);
-
-	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100 * GC.getDefineINT("HIT_POINT_FACTOR")) / pDefender->maxHitPoints()), GET_PLAYER(pDefender->getVisualOwner(getTeam())).getCivilizationAdjectiveKey());
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
+	// Display affiliation of target (because why not) : Blazenclaw
+	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR",
+		getNameKey(),
+		pDefender->getNameKey(),
+		-(((iUnitDamage - pDefender->getDamage()) * 100 * GC.getDefineINT("HIT_POINT_FACTOR")) / pDefender->maxHitPoints()),
+		GET_PLAYER(pDefender->getVisualOwner(getTeam())).getCivilizationAdjectiveKey());
+	//green icon over attacking unit
 	gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
 
 	collateralCombat(pPlot, pDefender);
@@ -31290,22 +31203,14 @@ bool CvUnit::rangeStrike(int iX, int iY)
 		gDLL->getEntityIFace()->AddMission(&kDefiniton);
 
 		//delay death
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                       05/10/10                             jdog5000         */
-/*                                                                                              */
-/* Bugfix                                                                                       */
-/************************************************************************************************/
-/* original bts code
+		// Bugfix : UNOFFICIAL_PATCH jdog5000 05/10/10
+		/* original bts code
 		pDefender->getGroup()->setMissionTimer(GC.getMissionInfo(MISSION_RANGE_ATTACK).getTime());
-*/
+		*/
 		// mission timer is not used like this in any other part of code, so it might cause OOS
 		// issues ... at worst I think unit dies before animation is complete, so no real
 		// harm in commenting it out.
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                        END                                                  */
-/************************************************************************************************/
 	}
-
 	return true;
 }
 
