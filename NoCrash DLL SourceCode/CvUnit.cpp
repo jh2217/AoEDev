@@ -6978,11 +6978,6 @@ bool CvUnit::shouldLoadOnMove(const CvPlot* pPlot) const
 	{
 		return false;
 	}
-	// Prevent Airships from loading into Airships.  But might be slightly annoying for Hunters : Xienwolf 06/30/09
-	if (cargoSpace() > 0)
-	{
-		return false;
-	}
 
 	switch (getDomainType())
 	{
