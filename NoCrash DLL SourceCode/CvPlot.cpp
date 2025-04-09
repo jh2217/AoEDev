@@ -619,9 +619,9 @@ void CvPlot::doTurn()
 				// For nonbarb, bSpawnOnlyForOwner requires specifically that owner. Enable king-of-the-hill control over a spawner if no spawnciv is set...
 				else if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner())
 				{
-					if (isOwned() &&
-					   ( GET_PLAYER(getOwner()).getCivilizationType() == (CivilizationTypes)iCiv
-					   ||GET_PLAYER(getOwner()).getCivilizationType() == NO_CIVILIZATION))
+					if (isOwned()
+					&& (   (GET_PLAYER(getOwner()).getCivilizationType() == (CivilizationTypes)iCiv)
+						|| (iCiv == NO_CIVILIZATION)))
 					{
 						eSpawnPlayer = getOwner();
 						bValid = true;
