@@ -11219,59 +11219,41 @@ void CvGame::createLairs()
 		iNetWeight = 0;
 		for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
 		{
-		//	if (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight() > 0)
+			iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
+			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
-				iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
-				if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+				// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
+				iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
+				for (iK = 0; iK < GC.getNumTechInfos(); iK++)
 				{
-/*************************************************************************************************/
-/** Hinterlands				  				07/11/09								Valkrionn	**/
-/**																								**/
-/*************************************************************************************************/
-					iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
-					for (iK = 0; iK < GC.getNumTechInfos(); iK++)
-					{
-						iWeight += (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeightTechs(iK)) * countKnownTechNumTeams((TechTypes)iK);
-					}
-					if (iWeight > 0)
-					{
-						iNetWeight += iWeight;
-					}
-/*************************************************************************************************/
-/**											END													**/
-/*************************************************************************************************/
+					iWeight += (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeightTechs(iK)) * countKnownTechNumTeams((TechTypes)iK);
+				}
+				if (iWeight > 0)
+				{
+					iNetWeight += iWeight;
 				}
 			}
 		}
 		iTargetWeight = GC.getGameINLINE().getMapRandNum(iNetWeight, "Select Lair Spawn");
 		for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
 		{
-		//	if (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight() > 0)
+			iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
+			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
-				iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
-				if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+				// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
+				iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
+				for (iK = 0; iK < GC.getNumTechInfos(); iK++)
 				{
-/*************************************************************************************************/
-/** Hinterlands				  				07/11/09								Valkrionn	**/
-/**																								**/
-/*************************************************************************************************/
-					iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
-					for (iK = 0; iK < GC.getNumTechInfos(); iK++)
-					{
-						iWeight += (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeightTechs(iK)) * countKnownTechNumTeams((TechTypes)iK);
-					}
-					if (iWeight > 0)
-					{
-						iTargetWeight -= iWeight;
-					}
-/*************************************************************************************************/
-/**											END													**/
-/*************************************************************************************************/
-					if (iTargetWeight <= 0)
-					{
-						eLair = (ImprovementTypes)iJ;
-						break;
-					}
+					iWeight += (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeightTechs(iK)) * countKnownTechNumTeams((TechTypes)iK);
+				}
+				if (iWeight > 0)
+				{
+					iTargetWeight -= iWeight;
+				}
+				if (iTargetWeight <= 0)
+				{
+					eLair = (ImprovementTypes)iJ;
+					break;
 				}
 			}
 		}
@@ -11350,7 +11332,10 @@ void CvGame::createLairs()
 
 			iCiv = GC.getImprovementInfo(eLair).getSpawnUnitCiv();
 			iUnit = GC.getImprovementInfo(eLair).getSpawnUnitType();
-			if (iCiv != -1 && iUnit != -1 && !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+			if (iCiv != -1 && iUnit != -1
+				&& !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
+				&& !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
+				&& !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
 				for (int iI = MAX_PLAYERS-1; iI > -1 ; iI--)
 				{
@@ -11366,11 +11351,8 @@ void CvGame::createLairs()
 					{
 						pUnit->setImmobileTimer(2);
 					}
-/*************************************************************************************************/
-/**	LairGuardians							7/17/10									Valkrionn	**/
-/**																								**/
-/**				Allows for lairs to spawn a unit on creation, but spawn others normally			**/
-/*************************************************************************************************/
+
+					// Allows for lairs to spawn a unit on creation, but spawn others normally : LairGuardians Valkrionn 7/17/10
 					if (GC.getImprovementInfo(eLair).getNumSpawnPromotions() > 0)
 					{
 						int iNumSpawnPromotions = GC.getImprovementInfo(eLair).getNumSpawnPromotions();
@@ -11379,9 +11361,6 @@ void CvGame::createLairs()
 							pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(eLair).getSpawnPromotions(iL), true);
 						}
 					}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
 				}
 			}
 		}
