@@ -11282,6 +11282,11 @@ void CvGame::createLairs()
 		iFlags |= RANDPLOT_NOT_IMPROVED;
 		iFlags |= RANDPLOT_UNOCCUPIED;
 
+		if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+		{
+			iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
+		}
+
 		if (GC.getImprovementInfo(eLair).isWater())
 		{
 			iFlags |= RANDPLOT_WATER;
