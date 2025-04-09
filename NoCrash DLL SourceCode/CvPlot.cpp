@@ -575,15 +575,17 @@ void CvPlot::doTurn()
 			}
 		}
 
+		// Spawn units and/or groups from improvement:
 		if (getImprovementType() != NO_IMPROVEMENT)
 		{
 			int iUnit = GC.getImprovementInfo(getImprovementType()).getSpawnUnitType();
+			int iSpawnGroup = GC.getImprovementInfo(getImprovementType()).getSpawnGroupType();
 			int iSpawnLimit = GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit();
 			if (iSpawnLimit < 0) iSpawnLimit = MAX_INT;
 
-			// Spawn units from improvement:
+			// LairGuardians code: Valkrion
 			// 1st check: Are we at limit for how many units can be spawned at a time?
-			if (iUnit != NO_UNIT && getNumSpawnsAlive() < iSpawnLimit)
+			if ((iUnit != NO_UNIT || iSpawnGroup != NO_SPAWNGROUP) && getNumSpawnsAlive() < iSpawnLimit)
 			{
 				bool bValid = false;
 				int iCiv = GC.getImprovementInfo(getImprovementType()).getSpawnUnitCiv();
@@ -614,10 +616,12 @@ void CvPlot::doTurn()
 						bValid = true;
 					}
 				}
-				// For nonbarb, bSpawnOnlyForOwner requires specifically that owner
+				// For nonbarb, bSpawnOnlyForOwner requires specifically that owner. Enable king-of-the-hill control over a spawner if no spawnciv is set...
 				else if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner())
 				{
-					if (isOwned() && GET_PLAYER(getOwner()).getCivilizationType() == (CivilizationTypes)iCiv)
+					if (isOwned() &&
+					   ( GET_PLAYER(getOwner()).getCivilizationType() == (CivilizationTypes)iCiv
+					   ||GET_PLAYER(getOwner()).getCivilizationType() == NO_CIVILIZATION))
 					{
 						eSpawnPlayer = getOwner();
 						bValid = true;
@@ -635,89 +639,10 @@ void CvPlot::doTurn()
 					}
 				}
 
-				if (bValid)
-				{
-					// 3rd check: Can the spawned unit coexist on this tile with all already existing units on said tile
-					if (!isVisibleEnemyUnit(eSpawnPlayer))
-					{
-						//Consider making the spawn rate be based on improvement itself, just as limit is now
-						//
-						int iChance = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnRate();
-						iChance *= 10000;
-						iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
-						if (GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
-						{
-							CvUnit* pUnit=GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), UNITAI_ATTACK);
-							if (GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions() > 0)
-							{
-								int iNumSpawnPromotions = GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions();
-								for (int iL = 0; iL < iNumSpawnPromotions; iL++)
-								{
-									pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(getImprovementType()).getSpawnPromotions(iL), true);
-								}
-							}
-						}
-					}
-				}
-			}
+				// 3rd check: Can the spawned unit coexist on this tile with all already existing units on said tile
+				if (isVisibleEnemyUnit(eSpawnPlayer)) bValid = false;
 
-			// Allows for lairs to spawn a unit on creation, and spawn others normally : Valkrionn LairGuardians 7/17/10
-			int iSpawnGroup = GC.getImprovementInfo(getImprovementType()).getSpawnGroupType();
-			if (iSpawnGroup != NO_SPAWNGROUP)
-			{
-				bool bValid = true;
-				int iCiv = GC.getImprovementInfo(getImprovementType()).getSpawnUnitCiv();
-				PlayerTypes eSpawnPlayer=NO_PLAYER;
-				if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION"))
-				{
-					eSpawnPlayer = DEMON_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
-					{
-						bValid = false;
-					}
-				}
-				else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION"))
-				{
-					eSpawnPlayer = ANIMAL_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
-					{
-						bValid = false;
-					}
-				}
-				else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION"))
-				{
-					eSpawnPlayer = ORC_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
-					{
-						bValid = false;
-					}
-				}
-				else if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner())
-				{
-					bValid = false;
-					if (isOwned() && GET_PLAYER(getOwner()).getCivilizationType() == (CivilizationTypes)iCiv)
-					{
-						eSpawnPlayer = getOwner();
-						bValid = true;
-					}
-				}
-				else
-				{
-					bValid = false;
-					for (int iI = 0; iI < MAX_PLAYERS; iI++)
-					{
-						if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getCivilizationType() == (CivilizationTypes)iCiv)
-						{
-							eSpawnPlayer = (PlayerTypes)iI;
-							bValid = true;
-						}
-					}
-				}
-
-				// Don't spawn infinite barbs, there should be a limit : Snarko 20/10/12
+				// 4th check: Don't spawn infinite barbs, there should be a limit : Snarko 20/10/12
 				if (bValid && (eSpawnPlayer == DEMON_PLAYER || eSpawnPlayer == ANIMAL_PLAYER || eSpawnPlayer == ORC_PLAYER))
 				{
 					int iDivisor;
@@ -730,13 +655,18 @@ void CvPlot::doTurn()
 						iDivisor = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getUnownedTilesPerBarbarianUnit();
 					}
 
-					if (GC.getGameINLINE().isOption(GAMEOPTION_RAGING_BARBARIANS) && iDivisor>0)
+					if (GC.getGameINLINE().isOption(GAMEOPTION_RAGING_BARBARIANS))
 					{
 						iDivisor = std::max(1, (iDivisor / 2));
 					}
+					else
+					{
+						iDivisor = std::max(1, iDivisor);
+					}
 					//Sets a limit based on barbs in the area. We check *total* number of tiles in the area instead of unowned, like the other limits check.
 					//This means lairs will keep spawning even when most of the world is within borders but lairs will not spawn when there are many barbs in a small area.
-					if (!((area()->getNumTiles() / iDivisor) - (area()->getUnitsPerPlayer(ORC_PLAYER) + area()->getUnitsPerPlayer(ANIMAL_PLAYER) + area()->getUnitsPerPlayer(DEMON_PLAYER)) > 0))
+					//Also set a higher limit (min 1) than default barb spawn limit check does, to emulate old behavior in earlygame. May cause minor issue if lair has no iSpawnAtOnce set: Blazenclaw 2025
+					if ((area()->getUnitsPerPlayer(ORC_PLAYER) + area()->getUnitsPerPlayer(ANIMAL_PLAYER) + area()->getUnitsPerPlayer(DEMON_PLAYER)) >= (std::max(1, (area()->getNumTiles() * 2 / iDivisor))))
 					{
 						bValid = false;
 					}
@@ -744,24 +674,31 @@ void CvPlot::doTurn()
 
 				if (bValid)
 				{
-					if (!isVisibleEnemyUnit(eSpawnPlayer))
+					//Consider making the spawn rate be based on improvement itself, just as limit is now
+					int iChance = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnRate();
+					iChance *= 10000;
+					iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
+					if (iUnit != NO_UNIT && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
 					{
-						if (getNumSpawnsAlive() < iSpawnLimit)
+						CvUnit* pUnit=GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), UNITAI_ATTACK);
+						if (GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions() > 0)
 						{
-							//Consider making the spawn rate be based on improvement itself, just as limit is now
-							//
-							int iChance = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnRate();
-							iChance *= 10000;
-							iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
-							if (GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
+							int iNumSpawnPromotions = GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions();
+							for (int iL = 0; iL < iNumSpawnPromotions; iL++)
 							{
-								GC.getGameINLINE().createSpawnGroup((SpawnGroupTypes)iSpawnGroup, this, eSpawnPlayer);
+								pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(getImprovementType()).getSpawnPromotions(iL), true);
 							}
 						}
+					}
+					if (iSpawnGroup != NO_SPAWNGROUP && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
+					{
+						GC.getGameINLINE().createSpawnGroup((SpawnGroupTypes)iSpawnGroup, this, eSpawnPlayer);
 					}
 				}
 			}
 
+			// BI TODO remove this & improvementinfo schema for feature upgrade when smoke and flame both are ploteffects.
+			// Or keep it if you want to do something weird like nature preserves that grow forests, idk.
 			if (GC.getImprovementInfo(getImprovementType()).getFeatureUpgrade() != NO_FEATURE)
 			{
 				if (GC.getGameINLINE().getSorenRandNum(100, "Feature Upgrade") < GC.getDefineINT("FEATURE_UPGRADE_CHANCE"))
