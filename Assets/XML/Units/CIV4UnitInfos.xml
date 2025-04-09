@@ -5074,6 +5074,10 @@
 					<PromotionType>PROMOTION_SHACKLED</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_AASIMAR</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
 			</FreePromotions>
 			<bFreeXP>1</bFreeXP>
 			<iCombatDefense>3</iCombatDefense>
