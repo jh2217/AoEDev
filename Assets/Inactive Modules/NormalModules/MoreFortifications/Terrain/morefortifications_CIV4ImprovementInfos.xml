@@ -14,7 +14,7 @@
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<SpawnUnitType>UNIT_MANES</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
-			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>4</iSpawnAtOnceLimit>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Bradeline's Well (Purified) -->
 			<Type>IMPROVEMENT_BRADELINES_WELL_PURIFIED</Type>
@@ -29,7 +29,7 @@
 			<iDefenseModifier>50</iDefenseModifier>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<SpawnUnitType>UNIT_SIEGE_GOLEM</SpawnUnitType>
-			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>3</iSpawnAtOnceLimit>
 		</ImprovementInfo>
 		<ImprovementInfo>		<!-- Tower of Eyes -->
 			<Type>IMPROVEMENT_TOWER_OF_EYES</Type>
@@ -74,7 +74,7 @@
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<SpawnUnitType>UNIT_MONK</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
-			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
 		</ImprovementInfo>
 	</ImprovementInfos>
 </Civ4ImprovementInfos>

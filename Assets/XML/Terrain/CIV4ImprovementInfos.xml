@@ -7656,7 +7656,7 @@
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<SpawnUnitType>UNIT_BEASTMAN</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
-			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>3</iSpawnAtOnceLimit>
 			<PythonOnMove>onMoveLetumFrigus(pCaster, pPlot)</PythonOnMove>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Maelstrom -->
