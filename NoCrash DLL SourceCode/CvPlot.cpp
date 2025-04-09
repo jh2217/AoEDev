@@ -578,9 +578,12 @@ void CvPlot::doTurn()
 		if (getImprovementType() != NO_IMPROVEMENT)
 		{
 			int iUnit = GC.getImprovementInfo(getImprovementType()).getSpawnUnitType();
+			int iSpawnLimit = GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit();
+			if (iSpawnLimit < 0) iSpawnLimit = MAX_INT;
+
 			// Spawn units from improvement:
 			// 1st check: Are we at limit for how many units can be spawned at a time?
-			if (iUnit != NO_UNIT && getNumSpawnsAlive() < GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit())
+			if (iUnit != NO_UNIT && getNumSpawnsAlive() < iSpawnLimit)
 			{
 				bool bValid = false;
 				int iCiv = GC.getImprovementInfo(getImprovementType()).getSpawnUnitCiv();
@@ -743,7 +746,7 @@ void CvPlot::doTurn()
 				{
 					if (!isVisibleEnemyUnit(eSpawnPlayer))
 					{
-						if (getNumSpawnsAlive() < GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit())
+						if (getNumSpawnsAlive() < iSpawnLimit)
 						{
 							//Consider making the spawn rate be based on improvement itself, just as limit is now
 							//

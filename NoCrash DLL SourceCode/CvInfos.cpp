@@ -30950,7 +30950,7 @@ bool CvImprovementInfo::isUnique() const
 /**									Called for Logic Checks										**/
 /*************************************************************************************************/
 int CvImprovementInfo::getSpawnUnitCiv() const							{return m_iSpawnUnitCiv;}
-int CvImprovementInfo::getSpawnAtOnceLimit() const						{return m_iSpawnAtOnceLimit < 0 ? MAX_INT : m_iSpawnAtOnceLimit;}
+int CvImprovementInfo::getSpawnAtOnceLimit() const						{return m_iSpawnAtOnceLimit;}
 int CvImprovementInfo::getLairCreationWeight() const					{return m_iLairCreationWeight;}
 /*************************************************************************************************/
 /** Hinterlands				  				07/11/09								Valkrionn	**/
