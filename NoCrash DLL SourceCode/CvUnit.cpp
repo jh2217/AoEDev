@@ -28099,10 +28099,8 @@ int CvUnit::getExtraSpellMove() const
 void CvUnit::doDamage(int iDmg, int iDmgLimit, CvUnit* pAttacker, int iDmgType, bool bStartWar)
 {
 	// Treasure chests immune to damage. Could be thematic, but... more often annoying : Blazenclaw 2025
-	if (isCommunalProperty())
-	{
-		return;
-	}
+	if (isCommunalProperty()) return;
+
 	CvWString szMessage;
 	int iResist;
 
@@ -28131,17 +28129,9 @@ void CvUnit::doDamage(int iDmg, int iDmgLimit, CvUnit* pAttacker, int iDmgType, 
 		}
 		if (iDmg > 0)
 		{
-/*************************************************************************************************/
-/**	Higher hitpoints				31/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-			if (iDmg + getDamage() >= GC.getMAX_HIT_POINTS())
-/**								----  End Original Code  ----									**/
+			// Makes higher values than 100 HP possible : Higher hitpoints Imported from wiser orcs by Snarko 31/01/11
+			// if (iDmg + getDamage() >= GC.getMAX_HIT_POINTS())
 			if (iDmg + getDamage() >= (GC.getMAX_HIT_POINTS() / GC.getDefineINT("HIT_POINT_FACTOR")))
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 			{
 				szMessage = gDLL->getText("TXT_KEY_MESSAGE_KILLED_BY", m_pUnitInfo->getDescription(), GC.getDamageTypeInfo((DamageTypes)iDmgType).getDescription());
 			}
@@ -28154,34 +28144,18 @@ void CvUnit::doDamage(int iDmg, int iDmgLimit, CvUnit* pAttacker, int iDmgType, 
 			{
 				gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)pAttacker->getOwner()), true, GC.getDefineINT("EVENT_MESSAGE_TIME"), szMessage, "", MESSAGE_TYPE_MAJOR_EVENT, GC.getDamageTypeInfo((DamageTypes)iDmgType).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
 				changeDamage(iDmg, pAttacker->getOwner());
-/*************************************************************************************************/
-/**	Higher hitpoints				31/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (getDamage() >= GC.getMAX_HIT_POINTS())
-/**								----  End Original Code  ----									**/
+
+				// Makes higher values than 100 HP possible : Higher hitpoints Imported from wiser orcs by Snarko 31/01/11
+				// if (getDamage() >= GC.getMAX_HIT_POINTS())
 				if (isDead())
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 				{
 					kill(true,pAttacker->getOwner());
 				}
 				if (bStartWar)
 				{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							02/06/09											**/
-/**																								**/
-/**							Prevents forcing war against Barbarians								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-					if (!(pAttacker->isHiddenNationality()) && !(isHiddenNationality()))
-/**								----  End Original Code  ----									**/
+					// Prevents forcing war against Barbarians : Xienwolf 02/06/09
+					// if (!(pAttacker->isHiddenNationality()) && !(isHiddenNationality()))
 					if (!(pAttacker->isHiddenNationality()) && !(isHiddenNationality()) && !(pAttacker->isBarbarian() || isBarbarian()))
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 					{
 						if (getTeam() != pAttacker->getTeam())
 						{
@@ -28196,17 +28170,9 @@ void CvUnit::doDamage(int iDmg, int iDmgLimit, CvUnit* pAttacker, int iDmgType, 
 			else
 			{
 				changeDamage(iDmg, NO_PLAYER);
-/*************************************************************************************************/
-/**	Higher hitpoints				31/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (getDamage() >= GC.getMAX_HIT_POINTS())
-/**								----  End Original Code  ----									**/
+				// Makes higher values than 100 HP possible : Higher hitpoints Imported from wiser orcs by Snarko 31/01/11
+				// if (getDamage() >= GC.getMAX_HIT_POINTS())
 				if (isDead())
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 				{
 					kill(true,NO_PLAYER);
 				}
@@ -28218,6 +28184,9 @@ void CvUnit::doDamage(int iDmg, int iDmgLimit, CvUnit* pAttacker, int iDmgType, 
 
 void CvUnit::doDamageCity(int iDmg, int iDmgLimit, CvCity* pAttacker, int iDmgType, bool bStartWar)
 {
+	// Treasure chests immune to damage. Could be thematic, but... more often annoying : Blazenclaw 2025
+	if (isCommunalProperty()) return;
+
 	CvWString szMessage;
 	int iResist;
 
@@ -28246,17 +28215,9 @@ void CvUnit::doDamageCity(int iDmg, int iDmgLimit, CvCity* pAttacker, int iDmgTy
 		}
 		if (iDmg > 0)
 		{
-/*************************************************************************************************/
-/**	Higher hitpoints				31/01/11											Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-			if (iDmg + getDamage() >= GC.getMAX_HIT_POINTS())
-/**								----  End Original Code  ----									**/
+			// Makes higher values than 100 HP possible : Higher hitpoints Imported from wiser orcs by Snarko 31/01/11
+			// if (iDmg + getDamage() >= GC.getMAX_HIT_POINTS())
 			if (iDmg + getDamage() >= (GC.getMAX_HIT_POINTS() / GC.getDefineINT("HIT_POINT_FACTOR")))
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 			{
 				szMessage = gDLL->getText("TXT_KEY_MESSAGE_KILLED_BY", m_pUnitInfo->getDescription(), GC.getDamageTypeInfo((DamageTypes)iDmgType).getDescription());
 			}
@@ -28269,34 +28230,19 @@ void CvUnit::doDamageCity(int iDmg, int iDmgLimit, CvCity* pAttacker, int iDmgTy
 			{
 				gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)pAttacker->getOwner()), true, GC.getDefineINT("EVENT_MESSAGE_TIME"), szMessage, "", MESSAGE_TYPE_MAJOR_EVENT, GC.getDamageTypeInfo((DamageTypes)iDmgType).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
 				changeDamage(iDmg, pAttacker->getOwner());
-/*************************************************************************************************/
-/**	Higher hitpoints				31/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (getDamage() >= GC.getMAX_HIT_POINTS())
-/**								----  End Original Code  ----									**/
+
+				// Makes higher values than 100 HP possible : Higher hitpoints Imported from wiser orcs by Snarko 31/01/11
+				// if (getDamage() >= GC.getMAX_HIT_POINTS())
 				if (isDead())
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 				{
 					kill(true,pAttacker->getOwner());
 				}
 				if (bStartWar)
 				{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							02/06/09											**/
-/**																								**/
-/**							Prevents forcing war against Barbarians								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-					if (!(pAttacker->isHiddenNationality()) && !(isHiddenNationality()))
-/**								----  End Original Code  ----									**/
+					// Prevents forcing war against Barbarians : Xienwolf 02/06/09
+					// if (!(pAttacker->isHiddenNationality()) && !(isHiddenNationality()))
+					// TODO: This comment, the following line, and pAttacker pointer type are the only differences between CvUnit::doDamage() and CvUnit::doDamageCity(). Should be merged...
 					if (!(isHiddenNationality()) && !(pAttacker->isBarbarian() || isBarbarian()))
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 					{
 						if (getTeam() != pAttacker->getTeam())
 						{
@@ -28311,17 +28257,9 @@ void CvUnit::doDamageCity(int iDmg, int iDmgLimit, CvCity* pAttacker, int iDmgTy
 			else
 			{
 				changeDamage(iDmg, NO_PLAYER);
-/*************************************************************************************************/
-/**	Higher hitpoints				31/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (getDamage() >= GC.getMAX_HIT_POINTS())
-/**								----  End Original Code  ----									**/
+				// Makes higher values than 100 HP possible : Higher hitpoints Imported from wiser orcs by Snarko 31/01/11
+				// if (getDamage() >= GC.getMAX_HIT_POINTS())
 				if (isDead())
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 				{
 					kill(true,NO_PLAYER);
 				}
