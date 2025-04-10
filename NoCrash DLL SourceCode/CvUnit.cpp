@@ -6953,7 +6953,7 @@ bool CvUnit::canLoadUnit(const CvUnit* pUnit, const CvPlot* pPlot) const
 	}
 
 	// No shipping fort commanders around! : Blazenclaw 2025
-	if (getUnitClassType() == GC.getInfoTypeForString("UNITCLASS_FORT_COMMANDER"))
+	if (getUnitClassType() == GC.getDefineINT("FORT_COMMANDER_UNITCLASS"))
 	{
 		return false;
 	}
@@ -28099,7 +28099,10 @@ int CvUnit::getExtraSpellMove() const
 void CvUnit::doDamage(int iDmg, int iDmgLimit, CvUnit* pAttacker, int iDmgType, bool bStartWar)
 {
 	// Treasure chests immune to damage. Could be thematic, but... more often annoying : Blazenclaw 2025
-	if (getUnitClassType() == GC.getInfoTypeForString("EQUIPMENTCLASS_TREASURE")) return;
+	if (isCommunalProperty())
+	{
+		return;
+	}
 	CvWString szMessage;
 	int iResist;
 
@@ -32891,7 +32894,7 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 			pLoopUnit = ::getUnit(pUnitNode->m_data);
 			pUnitNode = pPlot->nextUnitNode(pUnitNode);
 
-			if (pLoopUnit->getUnitClassType() == GC.getInfoTypeForString("UNITCLASS_FORT_COMMANDER"))
+			if (pLoopUnit->getUnitClassType() == GC.getDefineINT("FORT_COMMANDER_UNITCLASS"))
 			{
 				return false;
 			}
