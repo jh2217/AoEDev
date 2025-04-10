@@ -266,6 +266,7 @@
 			<bCommunalProperty>1</bCommunalProperty>
 			<bFreeUnit>1</bFreeUnit>
 			<bNeverHostile>1</bNeverHostile>
+			<bNoWarWeariness>1</bNoWarWeariness>
 		</UnitInfo>
 		<UnitInfo>        <!-- Golden Hammer -->
 			<Class>EQUIPMENTCLASS_GOLDEN_HAMMER</Class>
@@ -302,6 +303,7 @@
 			<bCommunalProperty>1</bCommunalProperty>
 			<bFreeUnit>1</bFreeUnit>
 			<bNeverHostile>1</bNeverHostile>
+			<bNoWarWeariness>1</bNoWarWeariness>
 		</UnitInfo>
 		<UnitInfo>        <!-- Pieces of Barnaxus -->
 			<Class>EQUIPMENTCLASS_PIECES_OF_BARNAXUS</Class>
@@ -338,6 +340,7 @@
 			<bCommunalProperty>1</bCommunalProperty>
 			<bFreeUnit>1</bFreeUnit>
 			<bNeverHostile>1</bNeverHostile>
+			<bNoWarWeariness>1</bNoWarWeariness>
 		</UnitInfo>
 		<UnitInfo>        <!-- Treasure -->                                                              <!-- END EQUIPMENT LIST -->
 			<Class>EQUIPMENTCLASS_TREASURE</Class>
@@ -379,6 +382,7 @@
 			<bCommunalProperty>1</bCommunalProperty>
 			<bFreeUnit>1</bFreeUnit>
 			<bNeverHostile>1</bNeverHostile>
+			<bNoWarWeariness>1</bNoWarWeariness>
 		</UnitInfo>
 		<UnitInfo>        <!-- Abashi -->                                                                <!-- BEGIN HERO LIST -->
 			<Class>UNITCLASS_ABASHI</Class>

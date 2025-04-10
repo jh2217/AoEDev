@@ -36,7 +36,7 @@ def onCityBuilt(self, argsList):
 		pPlot.setTerrainType(gc.getInfoTypeForString('TERRAIN_WASTELAND'),True,True)
 		pPlot.setPlotType(PlotTypes.PLOT_LAND, True, True)
 		
-		iUnit = gc.getCivilizationInfo(eCiv).getCivilizationUnits(gc.getInfoTypeForString("UNITCLASS_FORT_COMMANDER"))
+		iUnit = gc.getCivilizationInfo(eCiv).getCivilizationUnits(gc.getDefineINT("FORT_COMMANDER_UNITCLASS"))
 		pPlayer.initUnit(iUnit, iX, iY, iNoAI, iSouth)
 		pCity.setNumRealBuilding(gc.getInfoTypeForString("BUILDING_LURKER_LAIR_ANSCARCA"), 1)
 		
