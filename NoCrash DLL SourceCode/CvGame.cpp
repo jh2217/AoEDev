@@ -249,7 +249,7 @@ void CvGame::init(HandicapTypes eHandicap)
 								{
 									if (iAlignment == -1 || GC.getLeaderHeadInfo((LeaderHeadTypes)iLeader).getAlignment() == iAlignment)
 									{
-										iValue = 40000 + GC.getGameINLINE().getSorenRandNum(1000, "Random Leader");
+										iValue = 40000 + getSorenRandNum(1000, "Random Leader");
 										for (int iI = 0; iI < MAX_CIV_PLAYERS; iI++)
 										{
 											if (GC.getInitCore().getLeader((PlayerTypes)iI) == iLeader)
@@ -6236,7 +6236,7 @@ void CvGame::setHolyCity(ReligionTypes eIndex, CvCity* pNewValue, bool bAnnounce
 /************************************************************************************************/
 		// From Sanguo Mod Performance, ie the CAR Mod
 		// Attitude cache
-		if (GC.getGameINLINE().isFinalInitialized())
+		if (isFinalInitialized())
 		{
 			for (int iJ = 0; iJ < MAX_CIV_PLAYERS; iJ++)
 			{
@@ -6624,7 +6624,7 @@ void CvGame::doTurn()
 	}
 	if (isOption(GAMEOPTION_CHALLENGE_HIGH_TO_LOW))
 	{
-		if (!GC.getGameINLINE().isGameMultiPlayer())
+		if (!isGameMultiPlayer())
 		{
 			// Modifies Challenge escalation based on Gamespeed : Xienwolf 12/13/08
 			if (getGameTurn() >= 50 * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100)
@@ -6674,7 +6674,7 @@ void CvGame::doTurn()
 	}
 	if (isOption(GAMEOPTION_FLEXIBLE_DIFFICULTY))
 	{
-		if (!GC.getGameINLINE().isGameMultiPlayer())
+		if (!isGameMultiPlayer())
 		{
 			changeFlexibleDifficultyCounter(1);
 			// Modifies Challenge escalation based on Gamespeed : Xienwolf 12/13/08
@@ -7325,7 +7325,7 @@ void CvGame::createBarbarianUnits()
 	}
 
 //FfH: Added by Kael 11/27/2007
-	if (GC.getGameINLINE().isOption(GAMEOPTION_DOUBLE_ANIMALS) && getNumCivCities() < countCivPlayersAlive() * 3)
+	if (isOption(GAMEOPTION_DOUBLE_ANIMALS) && getNumCivCities() < countCivPlayersAlive() * 3)
 	{
 		bAnimals = true;
 	}
@@ -7596,7 +7596,7 @@ void CvGame::createAnimals()
 		if (iNeededAnimals > 0)
 		{
 			iNeededAnimals = ((iNeededAnimals / 5) + 1);
-			if (GC.getGameINLINE().isOption(GAMEOPTION_DOUBLE_ANIMALS))
+			if (isOption(GAMEOPTION_DOUBLE_ANIMALS))
 			{
 				iNeededAnimals *= 2;
 			}
@@ -8560,12 +8560,12 @@ int CvGame::getSorenRandNum(int iNum, const char* pszLog)
 	return m_sorenRand.get(iNum, pszLog);
 /**								----  End Original Code  ----									**/
 	int Result = m_sorenRand.get(iNum, pszLog);
-	if (GC.getGameINLINE().isMPOption(MPOPTION_RANDOM_LOGGER) || gDLL->getChtLvl() > 0)
+	if (isMPOption(MPOPTION_RANDOM_LOGGER) || gDLL->getChtLvl() > 0)
 	{
 		if (isFinalInitialized())
 		{
 			TCHAR szFile[1024];
-			sprintf(szFile, "RandomLogger - Player %d - Set %d.log", GC.getGameINLINE().getActivePlayer(), getGameTurn()/50);
+			sprintf(szFile, "RandomLogger - Player %d - Set %d.log", getActivePlayer(), getGameTurn()/50);
 			TCHAR szOut[1024];
 			sprintf(szOut, "[%04d] %5d of %-5d -- %s\n", getGameTurn()+1, Result, iNum, pszLog);
 			gDLL->logMsg(szFile,szOut, false, false);
@@ -10756,9 +10756,9 @@ void CvGame::changeGlobalCounter(int iChange)
 {
 	if (iChange != 0)
 	{
-		if (!GC.getGameINLINE().isOption(GAMEOPTION_NO_GLOBAL_COUNTER))
+		if (!isOption(GAMEOPTION_NO_GLOBAL_COUNTER))
 		{
-			if (GC.getGameINLINE().isOption(GAMEOPTION_DOUBLE_GLOBAL_COUNTER))
+			if (isOption(GAMEOPTION_DOUBLE_GLOBAL_COUNTER))
 			{
 				iChange *= 2;
 			}
@@ -11112,7 +11112,7 @@ void CvGame::setProjectTimer(ProjectTypes eProject)
 	{
 		if (m_ppaaiProjectTimers[eProject][i] == -1)
 		{
-			m_ppaaiProjectTimers[eProject][i] = GC.getGameINLINE().getGameTurn();
+			m_ppaaiProjectTimers[eProject][i] = getGameTurn();
 			break;
 		}
 	}
@@ -11146,9 +11146,9 @@ void CvGame::createLairs()
 		for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
 		{
 			iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
-			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
-			 && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
-			 && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && isOption(GAMEOPTION_NO_DEMONS))
+			 && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && isOption(GAMEOPTION_NO_ANIMALS))
+			 && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
 				// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
 				iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
@@ -11162,13 +11162,13 @@ void CvGame::createLairs()
 				}
 			}
 		}
-		iTargetWeight = GC.getGameINLINE().getMapRandNum(iNetWeight, "Select Lair Spawn");
+		iTargetWeight = getMapRandNum(iNetWeight, "Select Lair Spawn");
 		for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
 		{
 			iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
-			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
-			 && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
-			 && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && isOption(GAMEOPTION_NO_DEMONS))
+			 && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && isOption(GAMEOPTION_NO_ANIMALS))
+			 && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
 				// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
 				iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
@@ -11264,9 +11264,9 @@ void CvGame::createLairs()
 			iCiv = GC.getImprovementInfo(eLair).getSpawnUnitCiv();
 			iUnit = GC.getImprovementInfo(eLair).getSpawnUnitType();
 			if (iCiv != -1 && iUnit != -1
-				&& !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
-				&& !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
-				&& !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+				&& !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && isOption(GAMEOPTION_NO_DEMONS))
+				&& !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && isOption(GAMEOPTION_NO_ANIMALS))
+				&& !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
 				for (int iI = MAX_PLAYERS-1; iI > -1 ; iI--)
 				{
@@ -11500,7 +11500,7 @@ void CvGame::createAnimals()
 		{
 			iNeededAnimals = ((iNeededAnimals / 7) + 1);
 
-			if (GC.getGameINLINE().isOption(GAMEOPTION_DOUBLE_ANIMALS))
+			if (isOption(GAMEOPTION_DOUBLE_ANIMALS))
 			{
 				iNeededAnimals *= 2;
 			}
@@ -11533,7 +11533,7 @@ void CvGame::createAnimals()
 /** Feral Animals			  				10/19/09								Valkrionn	**/
 /**																								**/
 /*************************************************************************************************/
-							if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GC.getGameINLINE().isUnitClassMaxedOut((UnitClassTypes)iJ)))
+							if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(isUnitClassMaxedOut((UnitClassTypes)iJ)))
 							{
 								if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
 								{
@@ -11550,14 +11550,14 @@ void CvGame::createAnimals()
 							}
 						}
 					}
-					iTargetValue = GC.getGameINLINE().getMapRandNum(iNetValue, "Select Animal Spawn");
+					iTargetValue = getMapRandNum(iNetValue, "Select Animal Spawn");
 					for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
 					{
 						eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
 
 						if (eLoopUnit != NO_UNIT)
 						{
-							if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GC.getGameINLINE().isUnitClassMaxedOut((UnitClassTypes)iJ)))
+							if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(isUnitClassMaxedOut((UnitClassTypes)iJ)))
 							{
 								if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
 								{
@@ -11856,7 +11856,7 @@ bool CvGame::isSpawnGroupValid(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, TeamT
 	{
 		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject() != NO_PROJECT)
 		{
-			if (GC.getGameINLINE().getProjectCreatedCount((ProjectTypes)(GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject())) == 0)
+			if (getProjectCreatedCount((ProjectTypes)(GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject())) == 0)
 			{
 				bValid = false;
 			}
