@@ -8209,6 +8209,10 @@
 					<PromotionType>PROMOTION_DEMON_SLAYING</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SECONDARY_DISCIPLE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
 			</FreePromotions>
 			<bAbandon>1</bAbandon>
 			<iModifyGlobalCounter>-2</iModifyGlobalCounter>
@@ -32808,6 +32812,10 @@
 					<PromotionType>PROMOTION_SUN2</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SECONDARY_DISCIPLE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
 			</FreePromotions>
 				<AllowPromotions>
 				<Promotion>PROMOTION_CITY_GARRISON1</Promotion>
@@ -32883,6 +32891,10 @@
 			<FreePromotions>
 				<FreePromotion>
 					<PromotionType>PROMOTION_SUN2</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SECONDARY_DISCIPLE</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
