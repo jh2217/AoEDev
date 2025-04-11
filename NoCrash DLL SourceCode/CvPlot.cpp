@@ -7773,7 +7773,11 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			int iImmediateSpawnGroup = GC.getImprovementInfo(getImprovementType()).getImmediateSpawnGroupType();
 
 			PlayerTypes eSpawnPlayer=NO_PLAYER;
-			if (iCiv != -1 && (iUnit != -1||iSpawnGroup!=-1||iImmediateUnit!=-1||iImmediateSpawnGroup!=-1) && !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+			if (iCiv != NO_CIVILIZATION
+				&& (iUnit != -1 || iSpawnGroup != -1 || iImmediateUnit != -1 || iImmediateSpawnGroup != -1)
+				&& !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
+				&& !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
+				&& !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
 				for (int iI = MAX_PLAYERS-1; iI > -1 ; iI--)
 				{

@@ -11260,40 +11260,6 @@ void CvGame::createLairs()
 		if (pPlot != NULL && GC.getImprovementInfo(eLair).getTerrainMakesValid(pPlot->getTerrainType()))
 		{
 			pPlot->setImprovementType(eLair);
-
-			iCiv = GC.getImprovementInfo(eLair).getSpawnUnitCiv();
-			iUnit = GC.getImprovementInfo(eLair).getSpawnUnitType();
-			if (iCiv != -1 && iUnit != -1
-				&& !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && isOption(GAMEOPTION_NO_DEMONS))
-				&& !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && isOption(GAMEOPTION_NO_ANIMALS))
-				&& !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && isOption(GAMEOPTION_NO_BARBARIANS)))
-			{
-				for (int iI = MAX_PLAYERS-1; iI > -1 ; iI--)
-				{
-					if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getCivilizationType() == (CivilizationTypes)iCiv)
-					{
-						eSpawnPlayer = (PlayerTypes)iI;
-					}
-				}
-				if (eSpawnPlayer != NO_PLAYER)
-				{
-					CvUnit* pUnit = GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, pPlot->getX(), pPlot->getY(), UNITAI_ATTACK);
-					if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
-					{
-						pUnit->setImmobileTimer(2);
-					}
-
-					// Allows for lairs to spawn a unit on creation, but spawn others normally : LairGuardians Valkrionn 7/17/10
-					if (GC.getImprovementInfo(eLair).getNumSpawnPromotions() > 0)
-					{
-						int iNumSpawnPromotions = GC.getImprovementInfo(eLair).getNumSpawnPromotions();
-						for (int iL = 0; iL < iNumSpawnPromotions; iL++)
-						{
-							pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(eLair).getSpawnPromotions(iL), true);
-						}
-					}
-				}
-			}
 		}
 		else
 		{
