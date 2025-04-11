@@ -954,9 +954,8 @@ void CvPlot::doImprovement()
 	CvWString szBuffer;
 	int iI;
 
-//FfH Mana Effects: Added by Kael 08/21/2007
+	//FfH Mana Effects: Added by Kael 08/21/2007
 	int iChance;
-//FfH: End Add
 
 	FAssert(isBeingWorked() && isOwned());
 
@@ -969,9 +968,7 @@ void CvPlot::doImprovement()
 			{
 				if (GET_TEAM(getTeam()).isHasTech((TechTypes)(GC.getBonusInfo((BonusTypes) iI).getTechReveal())))
 				{
-/*************************************************************************************************/
-/** SpreadBonus                 Opera                   28/08/09                                **/
-/*************************************************************************************************/
+					// SpreadBonus : Opera 28/08/09
 					if (GC.getImprovementInfo(getImprovementType()).getImprovementBonusSpreadRand(iI) > 0)
 					{
 						iChance = GC.getImprovementInfo(getImprovementType()).getImprovementBonusSpreadRand(iI);
@@ -999,15 +996,11 @@ void CvPlot::doImprovement()
 							}
 						}
 					}
-/*************************************************************************************************/
-/** SpreadBonus                 END                                                             **/
-/*************************************************************************************************/
 
 					if (GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI) > 0)
 					{
-
-//FfH Mana Effects: Modified by Kael 08/21/2007
-//						if (GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI), "Bonus Discovery") == 0)
+						//FfH Mana Effects: Modified by Kael 08/21/2007
+						// if (GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI), "Bonus Discovery") == 0)
 						iChance = GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI);
 						if (isOwned() && (100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier()) != 0)
 						{
@@ -1015,8 +1008,6 @@ void CvPlot::doImprovement()
 							iChance /= 100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier();
 						}
 						if (GC.getGameINLINE().getSorenRandNum(iChance, "Bonus Discovery") == 0)
-//FfH: End Add
-
 						{
 							setBonusType((BonusTypes)iI);
 
@@ -1048,51 +1039,25 @@ void CvPlot::doImprovementUpgrade()
 		{
 			if (isBeingWorked() || GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders())
 			{
-/*************************************************************************************************/
-/** Hinterlands				  				07/11/09								Valkrionn	**/
-/**																								**/
-/*************************************************************************************************/
+				// ? : Hinterlands Valkrionn 07/11/09
 				int iUpgradeTurns = GC.getGameINLINE().getImprovementUpgradeTime(getImprovementType());
 				if (iUpgradeTurns == 0)
 				{
 					int iUpgradeChance = 0, iUpgradeOdds = 0;
 					for (int iK = 0; iK < GC.getNumTechInfos(); iK++)
 					{
-/*************************************************************************************************/
-/**	Tweak							04/02/12								Snarko				**/
-/**																								**/
-/**		As soon as ONE civ has the tech we upgrade lairs really really fast? No way				**/
-/**		This is why I'm seeing highwaymen (str 8, move 3, group of 3) by turn 100				**/
-/**		Because ONE civ rushed iron working and every improvement that could upgraded			**/
-/**		With 25% chance, every turn, it didn't take long before highwaymen are everywhere		**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-						iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) * GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK);
-/**								----  End Original Code  ----									**/
+						// Slow down upgrade rate of lairs from 25%/turn once primary condition is met : Snarko Tweak 04/02/12
+						// iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) * GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK);
 						iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) *std::min(1, 3*GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK) / GC.getGameINLINE().countCivTeamsAlive());
-/*************************************************************************************************/
-/**	Tweak								END														**/
-/*************************************************************************************************/
 					}
 					if (iUpgradeOdds > 0)
 					{
-/*************************************************************************************************/
-/**	Tweak							04/02/12								Snarko				**/
-/**								Scaling by gamespeed.											**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-						iUpgradeChance = GC.getGameINLINE().getMapRandNum(100, "Chance for upgrade");
-/**								----  End Original Code  ----									**/
+						// Scaling by gamespeed : Snarko 04/02/12
 						iUpgradeChance = GC.getGameINLINE().getMapRandNum(GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getImprovementPercent(), "Chance for upgrade");
-/*************************************************************************************************/
-/**	Tweak								END														**/
-/*************************************************************************************************/
 						if (iUpgradeOdds > iUpgradeChance)
 						{
 							setImprovementType(eImprovementUpgrade);
-/*************************************************************************************************/
-/**	Improvements Mods by Jeckel		expanded by Ahwaric	20.09.09		**/
-/*************************************************************************************************/
+							// Improvements Mods by Jeckel, expanded by Ahwaric	20.09.09
 							if (getImprovementOwner() != NO_PLAYER)
 							{
 								if (GC.getImprovementInfo(eImprovementUpgrade).getCultureControlStrength() > 0)
@@ -1101,20 +1066,13 @@ void CvPlot::doImprovementUpgrade()
 									addCultureControl(getImprovementOwner(), eImprovementUpgrade, true);
 								}
 							}
-/*************************************************************************************************/
-/**	Improvements Mods	END								**/
-/*************************************************************************************************/
 						}
 					}
 				}
 				else
 				{
-/*************************************************************************************************/
-/**											END													**/
-/*************************************************************************************************/
-
-//FfH: Modified by Kael 05/12/2008
-//				changeUpgradeProgress(GET_PLAYER(getOwnerINLINE()).getImprovementUpgradeRate());
+					//FfH: Modified by Kael 05/12/2008
+					// changeUpgradeProgress(GET_PLAYER(getOwnerINLINE()).getImprovementUpgradeRate());
 					if (isOwned())
 					{
 						if (GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == NO_CIVILIZATION ||
@@ -1135,7 +1093,6 @@ void CvPlot::doImprovementUpgrade()
 							changeUpgradeProgress(1);
 						}
 					}
-//FfH: End Modify
 
 					if (getUpgradeProgress() >= iUpgradeTurns)
 					{
@@ -1146,9 +1103,7 @@ void CvPlot::doImprovementUpgrade()
 							kData.m_iImprovement = eImprovementUpgrade;
 							GET_PLAYER(getImprovementOwner()).doTraitTriggers(TRAITHOOK_IMPROVE_IMPROVEMENT, &kData);
 						}
-/*************************************************************************************************/
-/**	Improvements Mods by Jeckel		expanded by Ahwaric	20.09.09		**/
-/*************************************************************************************************/
+						// Improvements Mods by Jeckel, expanded by Ahwaric	20.09.09
 						if (getImprovementOwner() != NO_PLAYER)
 						{
 							if (GC.getImprovementInfo(eImprovementUpgrade).getCultureControlStrength() > 0)
@@ -1157,9 +1112,6 @@ void CvPlot::doImprovementUpgrade()
 								addCultureControl(getImprovementOwner(), eImprovementUpgrade, true);
 							}
 						}
-/*************************************************************************************************/
-/**	Improvements Mods	END								**/
-/*************************************************************************************************/
 					}
 				}
 			}

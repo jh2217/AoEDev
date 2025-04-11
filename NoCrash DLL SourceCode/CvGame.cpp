@@ -11594,7 +11594,8 @@ void CvGame::createBarbarianUnits()
 	}
 
 
-	if ((getElapsedGameTurns() > ((GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent()) / 10000)) && (getNumCivCities() > ((countCivPlayersAlive() * 3) / 2) || isOption(GAMEOPTION_NO_SETTLERS)))
+	if ((getElapsedGameTurns() > ((GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent()) / 10000))
+	 && (getNumCivCities() > ((countCivPlayersAlive() * 3) / 2) || isOption(GAMEOPTION_NO_SETTLERS)))
 	{
 		for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 		{
@@ -11731,7 +11732,7 @@ void CvGame::createBarbarianUnits()
 						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED| RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
 					else
 						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
-				CyPlot* pyPlot = new CyPlot(pPlot);
+					CyPlot* pyPlot = new CyPlot(pPlot);
 					CyArgsList argsList;
 					argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));	// pass in plot class
 					gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianBosses", argsList.makeFunctionArgs());
