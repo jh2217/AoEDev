@@ -7102,6 +7102,8 @@ void CvGame::doDiploVote()
 
 void CvGame::createBarbarianCities()
 {
+	// MultiBarb edits; BARBARIAN_PLAYER -> ORC_PLAYER : Xienwolf 12/23/08
+
 	PROFILE("CvGame::createBarbarianCities");
 	CvPlot* pLoopPlot;
 	CvPlot* pBestPlot;
@@ -7159,18 +7161,7 @@ void CvGame::createBarbarianCities()
 	int iTargetCitiesMultiplier = 100;
 	{
 		int iTargetBarbCities = (getNumCivCities() * 5 * GC.getHandicapInfo(getHandicapType()).getBarbarianCityCreationProb()) / 100;
-/*************************************************************************************************/
-/**	MultiBarb							12/23/08									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		int iBarbCities = GET_PLAYER(BARBARIAN_PLAYER).getNumCities();
-/**								----  End Original Code  ----									**/
 		int iBarbCities = GET_PLAYER(ORC_PLAYER).getNumCities();
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 		if (iBarbCities < iTargetBarbCities)
 		{
 			iTargetCitiesMultiplier += (300 * (iTargetBarbCities - iBarbCities)) / iTargetBarbCities;
@@ -7194,18 +7185,7 @@ void CvGame::createBarbarianCities()
 			{
 				iTargetCities = pLoopPlot->area()->getNumUnownedTiles();
 
-/*************************************************************************************************/
-/**	MultiBarb							12/23/08									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (pLoopPlot->area()->getNumCities() == pLoopPlot->area()->getCitiesPerPlayer(BARBARIAN_PLAYER))
-/**								----  End Original Code  ----									**/
 				if (pLoopPlot->area()->getNumCities() == pLoopPlot->area()->getCitiesPerPlayer(ORC_PLAYER))
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 				{
 					iTargetCities *= 3;
 				}
@@ -7220,30 +7200,16 @@ void CvGame::createBarbarianCities()
 
 				iTargetCities /= std::max(1, iUnownedTilesThreshold);
 
-/*************************************************************************************************/
-/**	MultiBarb							12/23/08									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (pLoopPlot->area()->getCitiesPerPlayer(BARBARIAN_PLAYER) < iTargetCities)
-				{
-					iValue = GET_PLAYER(BARBARIAN_PLAYER).AI_foundValue(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), GC.getDefineINT("MIN_BARBARIAN_CITY_STARTING_DISTANCE"));
-/**								----  End Original Code  ----									**/
 				if (pLoopPlot->area()->getCitiesPerPlayer(ORC_PLAYER) < iTargetCities)
 				{
 					iValue = GET_PLAYER(ORC_PLAYER).AI_foundValue(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), GC.getDefineINT("MIN_BARBARIAN_CITY_STARTING_DISTANCE"));
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 
 					if (iTargetCitiesMultiplier > 100)
 					{
 						iValue *= pLoopPlot->area()->getNumOwnedTiles();
 					}
 
-					iValue += (100 + getSorenRandNum(50, "Barb City Found"));
-					iValue /= 100;
+					iValue += (getSorenRandNum(5, "Barb City Found"));
 
 					if (iValue > iBestValue)
 					{
@@ -7257,18 +7223,7 @@ void CvGame::createBarbarianCities()
 
 	if (pBestPlot != NULL)
 	{
-/*************************************************************************************************/
-/**	MultiBarb							12/23/08									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		GET_PLAYER(BARBARIAN_PLAYER).found(pBestPlot->getX_INLINE(), pBestPlot->getY_INLINE());
-/**								----  End Original Code  ----									**/
 		GET_PLAYER(ORC_PLAYER).found(pBestPlot->getX_INLINE(), pBestPlot->getY_INLINE());
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 	}
 }
 
