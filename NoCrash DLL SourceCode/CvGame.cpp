@@ -11146,7 +11146,9 @@ void CvGame::createLairs()
 		for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
 		{
 			iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
-			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
+			 && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
+			 && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
 				// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
 				iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
@@ -11164,7 +11166,9 @@ void CvGame::createLairs()
 		for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
 		{
 			iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
-			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
+			 && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
+			 && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
 				// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
 				iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
@@ -11230,6 +11234,7 @@ void CvGame::createLairs()
 			iFlags |= RANDPLOT_UNOWNED;
 		}
 
+		// Checking to see if *only* valid on hell terrain
 		bEvilValid = false;
 		bNormalValid = false;
 		for (iJ = 0; iJ < GC.getNumTerrainInfos(); iJ++)

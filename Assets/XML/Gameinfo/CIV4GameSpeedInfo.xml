@@ -39,7 +39,7 @@
 					<iTurnsPerIncrement>1800</iTurnsPerIncrement>
 				</GameTurnInfo>
 			</GameTurnInfos>
-			<iTurnsPerLairCycle>50</iTurnsPerLairCycle>
+			<iTurnsPerLairCycle>30</iTurnsPerLairCycle>
 		</GameSpeedInfo>
 		<GameSpeedInfo>
 			<Type>GAMESPEED_EPIC</Type>
@@ -73,7 +73,7 @@
 					<iTurnsPerIncrement>990</iTurnsPerIncrement>
 				</GameTurnInfo>
 			</GameTurnInfos>
-			<iTurnsPerLairCycle>25</iTurnsPerLairCycle>
+			<iTurnsPerLairCycle>15</iTurnsPerLairCycle>
 		</GameSpeedInfo>
 		<GameSpeedInfo>
 			<Type>GAMESPEED_NORMAL</Type>
@@ -141,7 +141,7 @@
 					<iTurnsPerIncrement>480</iTurnsPerIncrement>
 				</GameTurnInfo>
 			</GameTurnInfos>
-			<iTurnsPerLairCycle>5</iTurnsPerLairCycle>
+			<iTurnsPerLairCycle>7</iTurnsPerLairCycle>
 		</GameSpeedInfo>
 	</GameSpeedInfos>
 </Civ4GameSpeedInfo>
