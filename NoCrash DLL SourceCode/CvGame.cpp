@@ -6486,15 +6486,9 @@ void CvGame::doTurn()
 
 	doUpdateCacheOnTurn();
 	setTurnSliceSinceBeginning(0);
-/*************************************************************************************************/
-/**	K-mod merger								16/02/12								Snarko	**/
-/**																								**/
-/**					Merging in features of K-mod, most notably the pathfinder					**/
-/*************************************************************************************************/
+
+	// Merging in features of K-mod, most notably the pathfinder : K-mod merger Snarko 16/02/12
 	CvSelectionGroup::path_finder.Reset(); // K-Mod. (this is the only manual reset we need. - I hope.)
-/*************************************************************************************************/
-/**	K-mod merger								END												**/
-/*************************************************************************************************/
 
 	updateScore();
 
@@ -6510,24 +6504,12 @@ void CvGame::doTurn()
 
 	GC.getMapINLINE().doTurn();
 
-/*************************************************************************************************/
-/**	MultiBarb							01/01/09									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	createBarbarianCities();
-
-	createBarbarianUnits();
-/**								----  End Original Code  ----									**/
+	// Multibarb : Xienwolf 01/01/09
 	createLairs();
 	createBarbarianCities();
 	createBarbarianUnits();
 	createAnimals();
 	createDemons();
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 
 	doGlobalWarming();
 
@@ -6555,11 +6537,7 @@ void CvGame::doTurn()
 	incrementGameTurn();
 	incrementElapsedGameTurns();
 
-/*************************************************************************************************/
-/**	New Tag Defs	(ProjectInfos)			10/01/08								Xienwolf	**/
-/**	New Tag Defs	(GameInfos)				10/01/08								Xienwolf	**/
-/**									Per Turn Decay Function										**/
-/*************************************************************************************************/
+	// Per Turn Decay Function : New Tag Defs (ProjectInfos, GameInfos) Xienwolf 10/01/08
 	for (iI=0;iI<GC.getNumProjectInfos();iI++)
 	{
 		if (getProjectTimer((ProjectTypes)iI, 0) != -1 && (getProjectTimer((ProjectTypes)iI, 0) + (GC.getProjectInfo((ProjectTypes)iI).getCooldown() * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100)) < getGameTurn())
@@ -6567,9 +6545,7 @@ void CvGame::doTurn()
 			clearProjectTimer((ProjectTypes)iI);
 		}
 	}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
+
 	if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
 	{
 		shuffleArray(aiShuffle, MAX_PLAYERS, getSorenRand());
@@ -6593,21 +6569,14 @@ void CvGame::doTurn()
 			{
 				kTeam.setTurnActive(true);
 				FAssert(getNumGameTurnActive() == kTeam.getAliveCount());
-/*************************************************************************************************/
-/**	Tweak									08/06/10									Snarko	**/
-/**																								**/
-/**							Fixing BtS bug. Caused WoC if first team was dead.					**/
-/*************************************************************************************************/
-/**			---- Start Original Code ----						**
-			}
 
-			break;
-/**			----  End Original Code  ----						**/
+				// Fixing BtS bug. Caused WoC if first team was dead : Snarko 08/06/10
+				// Vanilla:
+				// }
+				// break;
+
 				break;
 			}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 		}
 	}
 	else
@@ -6640,7 +6609,7 @@ void CvGame::doTurn()
 		}
 	}
 
-//FfH: Added by Kael 09/26/2008
+	//FfH: Added by Kael 09/26/2008
 	if (isOption(GAMEOPTION_CHALLENGE_CUT_LOSERS))
 	{
 		if (countCivPlayersAlive() > 5)
@@ -6649,18 +6618,7 @@ void CvGame::doTurn()
 			if (getCutLosersCounter() == 0)
 			{
 				GET_PLAYER(getRankPlayer(countCivPlayersAlive() -1)).setAlive(false);
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**						Modifies Challenge escalation based on Gamespeed						**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				changeCutLosersCounter(50);
-/**								----  End Original Code  ----									**/
 				changeCutLosersCounter(50 * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100);
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 			}
 		}
 	}
@@ -6668,18 +6626,8 @@ void CvGame::doTurn()
 	{
 		if (!GC.getGameINLINE().isGameMultiPlayer())
 		{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**						Modifies Challenge escalation based on Gamespeed						**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-			if (getGameTurn() >= 50)
-/**								----  End Original Code  ----									**/
+			// Modifies Challenge escalation based on Gamespeed : Xienwolf 12/13/08
 			if (getGameTurn() >= 50 * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100)
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 			{
 				if (getHighToLowCounter() < 2)
 				{
@@ -6704,18 +6652,8 @@ void CvGame::doTurn()
 	if (isOption(GAMEOPTION_CHALLENGE_INCREASING_DIFFICULTY))
 	{
 		changeIncreasingDifficultyCounter(1);
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**						Modifies Challenge escalation based on Gamespeed						**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		if (getIncreasingDifficultyCounter() >= 50)
-/**								----  End Original Code  ----									**/
+		// Modifies Challenge escalation based on Gamespeed : Xienwolf 12/13/08
 		if (getIncreasingDifficultyCounter() >= 50 * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100)
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 		{
 			if (getHandicapType() < (GC.getNumHandicapInfos() - 1))
 			{
@@ -6739,18 +6677,8 @@ void CvGame::doTurn()
 		if (!GC.getGameINLINE().isGameMultiPlayer())
 		{
 			changeFlexibleDifficultyCounter(1);
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**						Modifies Challenge escalation based on Gamespeed						**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-			if (getFlexibleDifficultyCounter() >= 20)
-/**								----  End Original Code  ----									**/
+			// Modifies Challenge escalation based on Gamespeed : Xienwolf 12/13/08
 			if (getFlexibleDifficultyCounter() >= 20 * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100)
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 			{
 				for (iI = 0; iI < MAX_PLAYERS; iI++)
 				{
@@ -6776,7 +6704,6 @@ void CvGame::doTurn()
 			}
 		}
 	}
-//FfH: End Add
 
 	testVictory();
 
@@ -6784,9 +6711,8 @@ void CvGame::doTurn()
 	gDLL->getEngineIFace()->DoTurn();
 
 	//Snarko temp
-//	PROFILE_END();
-
-//	stopProfilingDLL();
+	//	PROFILE_END();
+	//	stopProfilingDLL();
 
 	gDLL->getEngineIFace()->AutoSave();
 }
