@@ -6,6 +6,27 @@
 <!-- Spell Infos -->
 <Civ4SpellInfos xmlns="x-schema:XX_CIV4UnitSpellSchema.xml">
 	<SpellInfos>
+			<SpellInfo>			<!-- Shaper's Army -->		<!-- World Spell -->
+			<Type>SPELL_MEKARA_WORLDSPELL</Type>
+			<Description>TXT_KEY_SPELL_MEKARA_WORLDSPELL</Description>
+			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
+			<Help>TXT_KEY_SPELL_MEKARA_WORLDSPELL_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_MEKARA_V2</CivilizationPrereq>
+			<TechPrereq>TECH_ALTERATION</TechPrereq>
+			<bForceOverwrite>1</bForceOverwrite>
+			<bAllowAI>1</bAllowAI>
+			<bGlobal>1</bGlobal>
+			<Quote>TXT_KEY_GLOBALSPELL_MEKARA_WORLDSPELL</Quote>
+			<iAIWeight>300</iAIWeight>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bCityAction>1</bCityAction>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellMekaraWorldspell(pCaster)</PyResult>
+			<PyRequirement>reqMekaraWorldspell(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_WORLDSPELL</Sound>
+			<Button>Art/Interface/Buttons/Spells/Civs/Mekara/ShapersArmy.dds</Button>
+		</SpellInfo>
 		<SpellInfo>			<!-- MEKARA_V2 - Bloom -->
 			<Type>SPELL_BLOOM_MEKARA_V2</Type>
 			<Description>TXT_KEY_SPELL_BLOOM_MEKARA_V2</Description>
@@ -446,7 +467,8 @@
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
 			<Help>TXT_KEY_SPELL_ENTER_ARENA_HELP</Help>
 			<BuildingPrereq>BUILDING_COLOSSEUM</BuildingPrereq>
-			<PromotionPrereq1>PROMOTION_MEKARA_GLADIATOR_TAG</PromotionPrereq1>
+			<PromotionPrereq1>PROMOTION_MEKARA_GLADIATOR_TAG</PromotionPrereq1>	
+			<iCost>5</iCost>
 			<bInBordersOnly>1</bInBordersOnly>
 			<bInCityOnly>1</bInCityOnly>
 			<bHasCasted>1</bHasCasted>
