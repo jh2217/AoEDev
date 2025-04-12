@@ -331,6 +331,7 @@
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
+			<CivTrait>TRAIT_ENSLAVERS</CivTrait>
 			<DerivativeCiv>NONE</DerivativeCiv>
 			<CivilizationSelectionSound>AS3D_ARABIA_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_ARABIA_ORDER</CivilizationActionSound>

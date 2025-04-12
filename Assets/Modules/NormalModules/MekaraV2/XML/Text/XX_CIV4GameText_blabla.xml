@@ -53,4 +53,28 @@
 		<Italian>[ICON_BULLET]Kills the Slave and gives the Shaper some experience</Italian>
 		<Spanish>[ICON_BULLET]Kills the Slave and gives the Shaper some experience</Spanish>
 	</TEXT>
+	<TEXT>	<!-- Enslaver Trait -->
+		<Tag>TXT_KEY_TRAIT_ENSLAVERS_SHORT</Tag>
+		<English>Slv</English>
+		<French>Slv</French>
+		<German>Slv</German>
+		<Italian>Slv</Italian>
+		<Spanish>Slv</Spanish>
+	</TEXT>
+	<TEXT>	<!-- Enslaver Trait -->
+		<Tag>TXT_KEY_TRAIT_ENSLAVERS</Tag>
+		<English>Enslavers</English>
+		<French>Enslavers</French>
+		<German>Enslavers</German>
+		<Italian>Enslavers</Italian>
+		<Spanish>Enslavers</Spanish>
+	</TEXT>
+	<TEXT>	<!-- Enslaver Trait -->
+		<Tag>TXT_KEY_TRAIT_ENSLAVERS_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</English>
+		<French>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</French>
+		<German>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</Spanish>
+	</TEXT>
 </Civ4GameText>
