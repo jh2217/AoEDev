@@ -76,5 +76,22 @@
 		<German>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</German>
 		<Italian>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</Italian>
 		<Spanish>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</Spanish>
+	</TEXT>	
+	<TEXT>	<!-- UNIT CLEANUP - DISABLED UNIT -->
+		<Tag>TXT_KEY_UNIT_DISABLED_UNIT</Tag>
+		<English>Zzz Disabled Unit</English>
+		<French>Zzz Disabled Unit</French>
+		<German>Zzz Disabled Unit</German>
+		<Italian>Zzz Disabled Unit</Italian>
+		<Spanish>Zzz Disabled Unit</Spanish>
+	</TEXT>	
+	<TEXT>	
+		<Tag>TXT_KEY_UNIT_DISABLED_UNIT_PEDIA</Tag>
+		<English>Zzz Disabled Unit</English>
+		<French>Zzz Disabled Unit</French>
+		<German>Zzz Disabled Unit</German>
+		<Italian>Zzz Disabled Unit</Italian>
+		<Spanish>Zzz Disabled Unit</Spanish>
 	</TEXT>
+	
 </Civ4GameText>

@@ -380,31 +380,31 @@
 			<Buildings>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
-					<BuildingType>BUILDING_PALACE_MEKARA</BuildingType>
+					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_SLAVE_MARKET</BuildingClassType>
-					<BuildingType>BUILDING_SLAVE_MARKET</BuildingType>
+					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
-					<BuildingType>BUILDING_COLOSSEUM</BuildingType>
+					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
-					<BuildingType>BUILDING_MAGISTRATES_OFFICE</BuildingType>
+					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClassType>
-					<BuildingType>BUILDING_PAGAN_TEMPLE_MEKARA</BuildingType>
+					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_MAGE_GUILD</BuildingClassType>
-					<BuildingType>BUILDING_SHAPER_CABAL</BuildingType>
+					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_ALCHEMY_LAB</BuildingClassType>
-					<BuildingType>BUILDING_SHAPER_LAB</BuildingType>
+					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_SHRINE_OF_THE_CHAMPION</BuildingClassType>
@@ -460,162 +460,6 @@
 				</Building>
 			</Buildings>
 			<Units>
-				<Unit>
-					<UnitClassType>UNITCLASS_CORGAYLE</UnitClassType>
-					<UnitType>UNIT_CORGAYLE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_KARAS</UnitClassType>
-					<UnitType>UNIT_KARAS</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
-					<UnitType>UNIT_ASPIRANT</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_WORKER</UnitClassType>
-					<UnitType>UNIT_FAMILIAR</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_SLUGA</UnitClassType>
-					<UnitType>UNIT_SLUGA</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_BATTLE_SLUGA</UnitClassType>
-					<UnitType>UNIT_BATTLE_SLUGA</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_WAR_SLUGA</UnitClassType>
-					<UnitType>UNIT_WAR_SLUGA</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_BEHEMOTH_SLUGA</UnitClassType>
-					<UnitType>UNIT_BEHEMOTH_SLUGA</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_OVERSEER</UnitClassType>
-					<UnitType>UNIT_OVERSEER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_COMBAT_OVERSEER</UnitClassType>
-					<UnitType>UNIT_COMBAT_OVERSEER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_SLUGA_COMMANDER</UnitClassType>
-					<UnitType>UNIT_SLUGA_COMMANDER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_FORT_COMMANDER</UnitClassType>
-					<UnitType>UNIT_TOWER_MAGE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
-					<UnitType>UNIT_CONSCRIPT</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
-					<UnitType>UNIT_MILITIA</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
-					<UnitType>UNIT_MILITIA_CROSSBOWMAN</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_CHAMPION</UnitClassType>
-					<UnitType>UNIT_CUSTODIAN</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_LONGBOWMAN</UnitClassType>
-					<UnitType>UNIT_SHARPSHOOTER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-					<UnitType>UNIT_MOUNTED_MILITIA</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
-					<UnitType>UNIT_SKIRMISHER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_CHARIOT</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_IMMORTAL</UnitClassType>
-					<UnitType>UNIT_ASCENDANT</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_HUNTER</UnitClassType>
-					<UnitType>UNIT_BOUNTY_HUNTER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_RANGER</UnitClassType>
-					<UnitType>UNIT_SLAVE_HUNTER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_GRIGORI_MEDIC</UnitClassType>
-					<UnitType>UNIT_CARETAKER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ADJUNCT</UnitClassType>
-					<UnitType>UNIT_ADJUNCT</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_AGENT</UnitClassType>
-					<UnitType>UNIT_AGENT</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_CARETAKER_MATRON</UnitClassType>
-					<UnitType>UNIT_CARETAKER_MATRON</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_BERSERKER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_DRUID</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MAGE</UnitClassType>
-					<UnitType>UNIT_SHAPER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ARCHMAGE</UnitClassType>
-					<UnitType>UNIT_HIGHMAGE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_BEASTMASTER</UnitClassType>
-					<UnitType>UNIT_RAIDER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_WAR_CHARIOT</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_PHALANX</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ARQUEBUS</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_EIDOLON</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_PALADIN</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
 			</Units>
 			<FreeUnitClasses>
 				<FreeUnitClass>
