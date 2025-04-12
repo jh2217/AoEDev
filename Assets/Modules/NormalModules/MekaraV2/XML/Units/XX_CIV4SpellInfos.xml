@@ -146,6 +146,39 @@
 				<RemovePromotion>PROMOTION_HARDY3</RemovePromotion>
 				<RemovePromotion>PROMOTION_MOBILITY1</RemovePromotion>
 				<RemovePromotion>PROMOTION_MOBILITY2</RemovePromotion>
+				<RemovePromotion>PROMOTION_ANGEL</RemovePromotion>
+				<RemovePromotion>PROMOTION_VAHUA</RemovePromotion>
+				<RemovePromotion>PROMOTION_CENTAUR</RemovePromotion>
+				<RemovePromotion>PROMOTION_DEMON</RemovePromotion>
+				<RemovePromotion>PROMOTION_DRAGON</RemovePromotion>
+				<RemovePromotion>PROMOTION_DWARF</RemovePromotion>
+				<RemovePromotion>PROMOTION_ELEMENTAL</RemovePromotion>
+				<RemovePromotion>PROMOTION_DARK_ELF</RemovePromotion>
+				<RemovePromotion>PROMOTION_ELF</RemovePromotion>
+				<RemovePromotion>PROMOTION_ONCE_ELF</RemovePromotion>
+				<RemovePromotion>PROMOTION_SATYR</RemovePromotion>
+				<RemovePromotion>PROMOTION_FALLEN_ANGEL</RemovePromotion>
+				<RemovePromotion>PROMOTION_FROSTLING</RemovePromotion>
+				<RemovePromotion>PROMOTION_GIANTKIN</RemovePromotion>
+				<RemovePromotion>PROMOTION_GOBLIN</RemovePromotion>
+				<RemovePromotion>PROMOTION_GOLEM</RemovePromotion>
+				<RemovePromotion>PROMOTION_ICE_DEMON</RemovePromotion>
+				<RemovePromotion>PROMOTION_ILLUSION</RemovePromotion>
+				<RemovePromotion>PROMOTION_LIZARDMAN</RemovePromotion>
+				<RemovePromotion>PROMOTION_LIZARDMAN_MAZATL</RemovePromotion>
+				<RemovePromotion>PROMOTION_LIZARDMAN_CUALLI</RemovePromotion>
+				<RemovePromotion>PROMOTION_MINOTAUR</RemovePromotion>
+				<RemovePromotion>PROMOTION_MUSTEVAL</RemovePromotion>
+				<RemovePromotion>PROMOTION_ORC</RemovePromotion>
+				<RemovePromotion>PROMOTION_PUPPET</RemovePromotion>
+				<RemovePromotion>PROMOTION_SHADE</RemovePromotion>
+				<RemovePromotion>PROMOTION_TROLLKIN</RemovePromotion>
+				<RemovePromotion>PROMOTION_UNDEAD</RemovePromotion>
+				<RemovePromotion>PROMOTION_ALIVE</RemovePromotion>
+				<RemovePromotion>PROMOTION_AASIMAR</RemovePromotion>
+				<RemovePromotion>PROMOTION_AVATAR</RemovePromotion>
+				<RemovePromotion>PROMOTION_CAMBION</RemovePromotion>
+				<RemovePromotion>PROMOTION_GREATER_SHADE</RemovePromotion>
 			</RemovePromotions>
 			<AddPromotions>
 				<AddPromotion>PROMOTION_SLUGA_ABILITIES_V2</AddPromotion>
@@ -169,6 +202,39 @@
 			<bSacrificeCaster>1</bSacrificeCaster>
 			<ConvertUnitType>UNIT_BATTLE_SLUGA_V2</ConvertUnitType>
 			<RemovePromotions>
+				<RemovePromotion>PROMOTION_ANGEL</RemovePromotion>
+				<RemovePromotion>PROMOTION_VAHUA</RemovePromotion>
+				<RemovePromotion>PROMOTION_CENTAUR</RemovePromotion>
+				<RemovePromotion>PROMOTION_DEMON</RemovePromotion>
+				<RemovePromotion>PROMOTION_DRAGON</RemovePromotion>
+				<RemovePromotion>PROMOTION_DWARF</RemovePromotion>
+				<RemovePromotion>PROMOTION_ELEMENTAL</RemovePromotion>
+				<RemovePromotion>PROMOTION_DARK_ELF</RemovePromotion>
+				<RemovePromotion>PROMOTION_ELF</RemovePromotion>
+				<RemovePromotion>PROMOTION_ONCE_ELF</RemovePromotion>
+				<RemovePromotion>PROMOTION_SATYR</RemovePromotion>
+				<RemovePromotion>PROMOTION_FALLEN_ANGEL</RemovePromotion>
+				<RemovePromotion>PROMOTION_FROSTLING</RemovePromotion>
+				<RemovePromotion>PROMOTION_GIANTKIN</RemovePromotion>
+				<RemovePromotion>PROMOTION_GOBLIN</RemovePromotion>
+				<RemovePromotion>PROMOTION_GOLEM</RemovePromotion>
+				<RemovePromotion>PROMOTION_ICE_DEMON</RemovePromotion>
+				<RemovePromotion>PROMOTION_ILLUSION</RemovePromotion>
+				<RemovePromotion>PROMOTION_LIZARDMAN</RemovePromotion>
+				<RemovePromotion>PROMOTION_LIZARDMAN_MAZATL</RemovePromotion>
+				<RemovePromotion>PROMOTION_LIZARDMAN_CUALLI</RemovePromotion>
+				<RemovePromotion>PROMOTION_MINOTAUR</RemovePromotion>
+				<RemovePromotion>PROMOTION_MUSTEVAL</RemovePromotion>
+				<RemovePromotion>PROMOTION_ORC</RemovePromotion>
+				<RemovePromotion>PROMOTION_PUPPET</RemovePromotion>
+				<RemovePromotion>PROMOTION_SHADE</RemovePromotion>
+				<RemovePromotion>PROMOTION_TROLLKIN</RemovePromotion>
+				<RemovePromotion>PROMOTION_UNDEAD</RemovePromotion>
+				<RemovePromotion>PROMOTION_ALIVE</RemovePromotion>
+				<RemovePromotion>PROMOTION_AASIMAR</RemovePromotion>
+				<RemovePromotion>PROMOTION_AVATAR</RemovePromotion>
+				<RemovePromotion>PROMOTION_CAMBION</RemovePromotion>
+				<RemovePromotion>PROMOTION_GREATER_SHADE</RemovePromotion>
 				<RemovePromotion>PROMOTION_SKILLED1</RemovePromotion>
 				<RemovePromotion>PROMOTION_SKILLED2</RemovePromotion>
 				<RemovePromotion>PROMOTION_SKILLED3</RemovePromotion>
@@ -210,6 +276,39 @@
 			<bSacrificeCaster>1</bSacrificeCaster>
 			<ConvertUnitType>UNIT_BEHEMOTH_SLUGA_V2</ConvertUnitType>
 			<RemovePromotions>
+				<RemovePromotion>PROMOTION_ANGEL</RemovePromotion>
+				<RemovePromotion>PROMOTION_VAHUA</RemovePromotion>
+				<RemovePromotion>PROMOTION_CENTAUR</RemovePromotion>
+				<RemovePromotion>PROMOTION_DEMON</RemovePromotion>
+				<RemovePromotion>PROMOTION_DRAGON</RemovePromotion>
+				<RemovePromotion>PROMOTION_DWARF</RemovePromotion>
+				<RemovePromotion>PROMOTION_ELEMENTAL</RemovePromotion>
+				<RemovePromotion>PROMOTION_DARK_ELF</RemovePromotion>
+				<RemovePromotion>PROMOTION_ELF</RemovePromotion>
+				<RemovePromotion>PROMOTION_ONCE_ELF</RemovePromotion>
+				<RemovePromotion>PROMOTION_SATYR</RemovePromotion>
+				<RemovePromotion>PROMOTION_FALLEN_ANGEL</RemovePromotion>
+				<RemovePromotion>PROMOTION_FROSTLING</RemovePromotion>
+				<RemovePromotion>PROMOTION_GIANTKIN</RemovePromotion>
+				<RemovePromotion>PROMOTION_GOBLIN</RemovePromotion>
+				<RemovePromotion>PROMOTION_GOLEM</RemovePromotion>
+				<RemovePromotion>PROMOTION_ICE_DEMON</RemovePromotion>
+				<RemovePromotion>PROMOTION_ILLUSION</RemovePromotion>
+				<RemovePromotion>PROMOTION_LIZARDMAN</RemovePromotion>
+				<RemovePromotion>PROMOTION_LIZARDMAN_MAZATL</RemovePromotion>
+				<RemovePromotion>PROMOTION_LIZARDMAN_CUALLI</RemovePromotion>
+				<RemovePromotion>PROMOTION_MINOTAUR</RemovePromotion>
+				<RemovePromotion>PROMOTION_MUSTEVAL</RemovePromotion>
+				<RemovePromotion>PROMOTION_ORC</RemovePromotion>
+				<RemovePromotion>PROMOTION_PUPPET</RemovePromotion>
+				<RemovePromotion>PROMOTION_SHADE</RemovePromotion>
+				<RemovePromotion>PROMOTION_TROLLKIN</RemovePromotion>
+				<RemovePromotion>PROMOTION_UNDEAD</RemovePromotion>
+				<RemovePromotion>PROMOTION_ALIVE</RemovePromotion>
+				<RemovePromotion>PROMOTION_AASIMAR</RemovePromotion>
+				<RemovePromotion>PROMOTION_AVATAR</RemovePromotion>
+				<RemovePromotion>PROMOTION_CAMBION</RemovePromotion>
+				<RemovePromotion>PROMOTION_GREATER_SHADE</RemovePromotion>
 				<RemovePromotion>PROMOTION_SKILLED1</RemovePromotion>
 				<RemovePromotion>PROMOTION_SKILLED2</RemovePromotion>
 				<RemovePromotion>PROMOTION_SKILLED3</RemovePromotion>

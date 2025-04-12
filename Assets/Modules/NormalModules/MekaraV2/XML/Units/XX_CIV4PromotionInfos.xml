@@ -100,6 +100,7 @@
 			<Description>TXT_KEY_PROMOTION_SLUGA_ABILITIES</Description>
 			<bEffectProm>1</bEffectProm>
 			<bFreeUnit>1</bFreeUnit>
+			<CaptureUnitClass>UNITCLASS_SLAVE</CaptureUnitClass>
 			<SecondaryUnitCombats>
 				<SecondaryUnitCombat>UNITCOMBAT_MELEE</SecondaryUnitCombat>
 			</SecondaryUnitCombats>
@@ -128,7 +129,7 @@
 				<Promotion>PROMOTION_COM_OVERSEER_RANGED_MASTER_UNIT_V2</Promotion>
 				<Promotion>PROMOTION_CELERITY1_OVERSEER_V2</Promotion>
 				<Promotion>PROMOTION_CELERITY2_OVERSEER_V2</Promotion>
-				<Promotion>PROMOTION_MARCH</Promotion>
+				<Promotion>PROMOTION_MINION_MARCH_V2</Promotion>
 				<Promotion>PROMOTION_REGENERATION</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION_UNIT_V2</Promotion>
 				<Promotion>PROMOTION_STONESKIN</Promotion>

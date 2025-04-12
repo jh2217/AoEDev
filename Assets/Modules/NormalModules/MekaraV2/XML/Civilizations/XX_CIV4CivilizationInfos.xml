@@ -136,7 +136,7 @@
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_WORKER</UnitClassType>
-					<UnitType>UNIT_FAMILIAR</UnitType>
+					<UnitType>UNIT_OVERSEER_V2</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_SLUGA_V2</UnitClassType>
@@ -153,10 +153,6 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_BEHEMOTH_SLUGA_V2</UnitClassType>
 					<UnitType>UNIT_BEHEMOTH_SLUGA_V2</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_OVERSEER_V2</UnitClassType>
-					<UnitType>UNIT_OVERSEER_V2</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_COMBAT_OVERSEER_V2</UnitClassType>

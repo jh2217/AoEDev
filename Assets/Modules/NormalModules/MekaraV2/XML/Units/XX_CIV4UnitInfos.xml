@@ -89,9 +89,6 @@
 					<bBuild>1</bBuild>
 				</Build>
 			</Builds>
-			<PrereqBuilding>BUILDING_PAGAN_TEMPLE_MEKARA</PrereqBuilding>
-			<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
-			<iCost>90</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMoves>2</iMoves>
 			<iWorkRate>0</iWorkRate>
@@ -159,7 +156,7 @@
 			<PrereqTech>TECH_ALTERATION</PrereqTech>
 			<iCost>90</iCost>
 			<iMoves>1</iMoves>
-			<iCombat>4</iCombat>
+			<iCombat>5</iCombat>
 			<iAsset>4</iAsset>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
@@ -219,7 +216,7 @@
 			<PrereqTech>TECH_SORCERY</PrereqTech>
 			<iCost>150</iCost>
 			<iMoves>1</iMoves>
-			<iCombat>6</iCombat>
+			<iCombat>7</iCombat>
 			<iAirCombat>2</iAirCombat>
 			<iAirCombatLimit>20</iAirCombatLimit>
 			<iAsset>6</iAsset>
@@ -320,7 +317,7 @@
 			<iWeaponTierMax>3</iWeaponTierMax>
 		</UnitInfo>
 		<UnitInfo>        <!-- Overseer -->
-			<Class>UNITCLASS_OVERSEER_V2</Class>
+			<Class>UNITCLASS_WORKER</Class>
 			<Type>UNIT_OVERSEER_V2</Type>
 			<Combat>UNITCOMBAT_WORKER</Combat>
 			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
@@ -401,9 +398,7 @@
 					<bBuild>1</bBuild>
 				</Build>
 			</Builds>
-			<PrereqBuilding>BUILDING_PAGAN_TEMPLE_MEKARA</PrereqBuilding>
-			<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
-			<iCost>120</iCost>
+			<iCost>100</iCost>
 			<iMoves>2</iMoves>
 			<iWorkRate>100</iWorkRate>
 			<iAsset>0</iAsset>
@@ -477,7 +472,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_ALTERATION</PrereqTech>
-			<iCost>210</iCost>
+			<iCost>180</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>5</iCombat>
 			<iAsset>8</iAsset>
