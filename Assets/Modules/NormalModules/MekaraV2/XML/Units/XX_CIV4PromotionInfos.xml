@@ -14,7 +14,6 @@
 			<PrereqCivilizations>
 				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
 			</PrereqCivilizations>
-			<bForceOverwrite>1</bForceOverwrite>
 			<bValidate>1</bValidate>
 			<iSlaveGenerationChance>30</iSlaveGenerationChance>
 			<bPrereqAliveCapture>1</bPrereqAliveCapture>
@@ -35,15 +34,7 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
@@ -59,19 +50,11 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 					<UnitCombat>
@@ -182,6 +165,16 @@
 			<bFreeUnit>1</bFreeUnit>
 			<iSlaveGenerationChance>30</iSlaveGenerationChance>
 			<CaptureUnitClass>UNITCLASS_SLAVE</CaptureUnitClass>
+			<NotCapturedUnitCombats>
+				<NotCapturedUnitCombat>
+					<NotCapturedUnitCombatType>UNITCOMBAT_ANIMAL</NotCapturedUnitCombatType>
+					<bNotCapturedUnitCombat>1</bNotCapturedUnitCombat>
+				</NotCapturedUnitCombat>
+				<NotCapturedUnitCombat>
+					<NotCapturedUnitCombatType>UNITCOMBAT_BEAST</NotCapturedUnitCombatType>
+					<bNotCapturedUnitCombat>1</bNotCapturedUnitCombat>
+				</NotCapturedUnitCombat>
+			</NotCapturedUnitCombats>
 			<SecondaryUnitCombats>
 				<SecondaryUnitCombat>UNITCOMBAT_MELEE</SecondaryUnitCombat>
 			</SecondaryUnitCombats>
