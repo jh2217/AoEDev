@@ -161,7 +161,6 @@
 		<PromotionInfo>		<!-- Combat Sluga Innate Abilities-->
 			<Type>PROMOTION_COM_SLUGA_ABILITIES_V2</Type>
 			<Description>TXT_KEY_PROMOTION_SLUGA_ABILITIES</Description>
-			<bEffectProm>1</bEffectProm>
 			<bFreeUnit>1</bFreeUnit>
 			<bPrereqAliveCapture>1</bPrereqAliveCapture>
 			<iSlaveGenerationChance>30</iSlaveGenerationChance>
@@ -282,7 +281,6 @@
 		<PromotionInfo>		<!-- Sluga Innate Abilities-->
 			<Type>PROMOTION_SLUGA_ABILITIES_V2</Type>
 			<Description>TXT_KEY_PROMOTION_SLUGA_ABILITIES</Description>
-			<bEffectProm>1</bEffectProm>
 			<bFreeUnit>1</bFreeUnit>
 			<PromotionExcludes>
 				<Promotion>PROMOTION_DISEASED</Promotion>
