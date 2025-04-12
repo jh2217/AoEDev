@@ -1039,15 +1039,15 @@ void CvTeam::doTurn()
 
 				if (iCount > 0)
 				{
-					// Orcs gain FREE_TECH_PERCENT (50) of total cost per turn, multiplied by % of civs that know the tech, modulated by gamespeed.
-					// E.g. 3 of 9 civs know a tech, so orcs get 0.5 * 0.33 * (gamespeed modifier) of the tech each turn. [100 / FREE_TECH * # of civs] is the max turns of tech lag.
+					// Orcs gain FREE_TECH_PERCENT (35) of total cost per turn, multiplied by % of civs that know the tech, modulated by gamespeed.
+					// E.g. 2 of 10 teams know a tech, so orcs get 0.35 * 0.2 * (gamespeed modifier) of the tech each turn. [100 / FREE_TECH * # of civ teams] is the max turns of tech lag on standard.
 					if (getID() == ORC_TEAM)
 					{
 						changeResearchProgress((TechTypes)iI,
 							getResearchCost((TechTypes)iI) * GC.getDefineINT("BARBARIAN_FREE_TECH_PERCENT") * iCount / (iPossibleCount * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getResearchPercent()),
 							getLeaderID());
 					}
-					// Demons get a flat percent (per difficulty) for each team that knows; from 1% settler to 15% deity
+					// Demons get a flat percent (per difficulty) for each team that knows; from 1% settler to 15% deity. [33] is the max turns of tech lag on standard noble.
 					else if (getID() == DEMON_TEAM)
 					{
 						changeResearchProgress(((TechTypes)iI),

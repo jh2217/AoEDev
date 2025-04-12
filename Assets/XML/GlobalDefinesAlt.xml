@@ -381,7 +381,7 @@
 	</Define>
 	<Define>
 		<DefineName>BARBARIAN_FREE_TECH_PERCENT</DefineName>
-		<iDefineIntVal>25</iDefineIntVal>
+		<iDefineIntVal>35</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>EVIL_TILE_THRESHOLD</DefineName>
