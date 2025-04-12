@@ -11336,220 +11336,168 @@ void CvGame::createBarbarianUnits()
 /*************************************************************************************************/
 bool CvGame::isSpawnGroupValid(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, TeamTypes eTeam)
 {
-	bool bValid = true;
-
 	if (GC.getSpawnGroupInfo(eSpawnGroup).isNeverSpawn())
 	{
-		bValid = false;
+		return false;
 	}
 
-	if (bValid)
+	if (pPlot->isWater() && !GC.getSpawnGroupInfo(eSpawnGroup).isNaval())
 	{
-		if (pPlot->isWater() && !GC.getSpawnGroupInfo(eSpawnGroup).isNaval())
-		{
-			bValid = false;
-		}
-		else if (!pPlot->isWater() && GC.getSpawnGroupInfo(eSpawnGroup).isNaval())
-		{
-			bValid = false;
-		}
+		return false;
 	}
-
-	if (bValid)
+	else if (!pPlot->isWater() && GC.getSpawnGroupInfo(eSpawnGroup).isNaval())
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).isUnique())
-		{
-			if (getSpawnGroupCreatedCount(eSpawnGroup) != 0)
-			{
-				bValid = false;
-			}
-		}
+		return false;
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).isUnique())
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinTurn() != 0)
+		if (getSpawnGroupCreatedCount(eSpawnGroup) != 0)
 		{
-			if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinTurn() >= getGameTurn())
-			{
-				bValid = false;
-			}
-		}
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxTurn() != 0)
-		{
-			if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxTurn() <= getGameTurn())
-			{
-				bValid = false;
-			}
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinTurn() != 0)
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinAC() != 0)
+		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinTurn() >= getGameTurn())
 		{
-			if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinAC() >= getGlobalCounter())
-			{
-				bValid = false;
-			}
-		}
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxAC() != 0)
-		{
-			if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxAC() <= getGlobalCounter())
-			{
-				bValid = false;
-			}
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxTurn() != 0)
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject() != NO_PROJECT)
+		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxTurn() <= getGameTurn())
 		{
-			if (getProjectCreatedCount((ProjectTypes)(GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject())) == 0)
-			{
-				bValid = false;
-			}
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinAC() != 0)
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechANDs() > 0)
+		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinAC() >= getGlobalCounter())
 		{
-			if (eTeam != ORC_TEAM) {
-				int iNumPrereqTechANDs = GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechANDs();
-				for (int iK = 0; iK < iNumPrereqTechANDs; iK++)
-				{
-					if (!GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getPrereqTechANDs(iK)))
-					{
-						bValid = false;
-						break;
-					}
-				}
-			}
-			else
-			{
-				int iNumPrereqTechANDs = GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechANDs();
-				for (int iK = 0; iK < iNumPrereqTechANDs; iK++)
-				{
-					if (4*countKnownTechNumTeams((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getPrereqTechANDs(iK))<=countCivTeamsAlive())
-					{
-						bValid = false;
-						break;
-					}
-				}
-			}
-		}	
+			return false;
+		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxAC() != 0)
 	{
-		bool bFound = false, bPass = false;
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechORs() > 0)
+		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxAC() <= getGlobalCounter())
 		{
-			int iNumPrereqTechORs = GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechORs();
-			for (int iK = 0; iK < iNumPrereqTechORs; iK++)
-			{
-				bFound = true;
-				if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getPrereqTechORs(iK)))
-				{
-					bPass = true;
-					break;
-				}
-			}
-		}
-		if (bFound && !bPass)
-		{
-			bValid = false;
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject() != NO_PROJECT)
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechANDs() > 0)
+		if (getProjectCreatedCount((ProjectTypes)(GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject())) == 0)
 		{
-			int iNumBlockTechANDs = GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechANDs();
-			for (int iK = 0; iK < iNumBlockTechANDs; iK++)
-			{
-				if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getBlockTechANDs(iK)))
-				{
-					bValid = false;
-					break;
-				}
-			}
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechANDs() > 0)
 	{
-		bool bFound = false, bPass = false;
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechORs() > 0)
+		// Barb and demon teams gain tech in CvTeam::doTurn at a delay from civs that know it
+		int iNumPrereqTechANDs = GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechANDs();
+		for (int iK = 0; iK < iNumPrereqTechANDs; iK++)
 		{
-			int iNumBlockTechORs = GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechORs();
-			for (int iK = 0; iK < iNumBlockTechORs; iK++)
+			if (!GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getPrereqTechANDs(iK)))
 			{
-				bFound = true;
-				if (!GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getBlockTechORs(iK)))
-				{
-					bPass = true;
-					break;
-				}
+				return false;
 			}
-		}
-		if (bFound && !bPass)
-		{
-			bValid = false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechORs() > 0)
 	{
-		bool bFound = false, bPass = false;
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnTerrains() > 0)
+		bool bPass = false;
+		int iNumPrereqTechORs = GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechORs();
+		for (int iK = 0; iK < iNumPrereqTechORs; iK++)
 		{
-			int iNumSpawnTerrains = GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnTerrains();
-			for (int iK = 0; iK < iNumSpawnTerrains; iK++)
+			if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getPrereqTechORs(iK)))
 			{
-				TerrainTypes eSpawnTerrain = (TerrainTypes)GC.getSpawnGroupInfo(eSpawnGroup).getSpawnTerrains(iK);
-				bFound = true;
-				if (pPlot->getTerrainType() == eSpawnTerrain)
-				{
-					bPass = true;
-					break;
-				}
+				bPass = true;
+				break;
 			}
 		}
-		if (bFound && !bPass)
+		if (!bPass)
 		{
-			bValid = false;
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechANDs() > 0)
 	{
-		bool bFound = false, bPass = false;
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnFeatures() > 0)
+		int iNumBlockTechANDs = GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechANDs();
+		for (int iK = 0; iK < iNumBlockTechANDs; iK++)
 		{
-			int iNumSpawnFeatures = GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnFeatures();
-			for (int iK = 0; iK < iNumSpawnFeatures; iK++)
+			if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getBlockTechANDs(iK)))
 			{
-				FeatureTypes eSpawnFeature = (FeatureTypes)GC.getSpawnGroupInfo(eSpawnGroup).getSpawnFeatures(iK);
-				bFound = true;
-				if (pPlot->getFeatureType() == eSpawnFeature)
-				{
-					bPass = true;
-					break;
-				}
+				return false;
 			}
-		}
-		if (bFound && !bPass)
-		{
-			bValid = false;
 		}
 	}
 
-	if (bValid && !CvString(GC.getSpawnGroupInfo(eSpawnGroup).getPyRequirement()).empty()) /* testing lfgr proposition - 2013-11-21 */
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechORs() > 0)
+	{
+		bool bPass = true;
+		int iNumBlockTechORs = GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechORs();
+		for (int iK = 0; iK < iNumBlockTechORs; iK++)
+		{
+			if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getBlockTechORs(iK)))
+			{
+				bPass = false;
+				break;
+			}
+		}
+		if (!bPass)
+		{
+			return false;
+		}
+	}
+
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnTerrains() > 0)
+	{
+		bool bPass = false;
+		int iNumSpawnTerrains = GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnTerrains();
+		for (int iK = 0; iK < iNumSpawnTerrains; iK++)
+		{
+			TerrainTypes eSpawnTerrain = (TerrainTypes)GC.getSpawnGroupInfo(eSpawnGroup).getSpawnTerrains(iK);
+			if (pPlot->getTerrainType() == eSpawnTerrain)
+			{
+				bPass = true;
+				break;
+			}
+		}
+		if (!bPass)
+		{
+			return false;
+		}
+	}
+
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnFeatures() > 0)
+	{
+		bool bPass = false;
+		int iNumSpawnFeatures = GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnFeatures();
+		for (int iK = 0; iK < iNumSpawnFeatures; iK++)
+		{
+			FeatureTypes eSpawnFeature = (FeatureTypes)GC.getSpawnGroupInfo(eSpawnGroup).getSpawnFeatures(iK);
+			if (pPlot->getFeatureType() == eSpawnFeature)
+			{
+				bPass = true;
+				break;
+			}
+		}
+		if (!bPass)
+		{
+			return false;
+		}
+	}
+
+	if (!CvString(GC.getSpawnGroupInfo(eSpawnGroup).getPyRequirement()).empty()) /* testing lfgr proposition - 2013-11-21 */
 	{
 		CyPlot* pyPlot = new CyPlot(pPlot);
 		CyArgsList argsList;
@@ -11559,11 +11507,11 @@ bool CvGame::isSpawnGroupValid(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, TeamT
 		delete pyPlot;
 		if (lResult == 0)
 		{
-			bValid = false;
+			return false;
 		}
 	}
 
-	return bValid;
+	return true;
 }
 
 void CvGame::createSpawnGroup(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, PlayerTypes ePlayer, UnitAITypes eUnitAI)
