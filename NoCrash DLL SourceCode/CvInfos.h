@@ -809,7 +809,8 @@ public:
 	bool getFeatureDoubleMove(int i) const;				// Exposed to Python
 	bool getPlotEffectDoubleMove(int i) const;				// Exposed to Python
 	bool getUnitCombat(int i) const;				// Exposed to Python
-/*************************************************************************************************/
+	int getMaxExpReward() const;
+	/*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
 /**										Leashes	a unit to a plot								**/
@@ -1435,6 +1436,7 @@ protected:
 	bool m_bTradeDefender;
 
 	CvString m_szSound;
+	int m_iMaxExpReward;
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/

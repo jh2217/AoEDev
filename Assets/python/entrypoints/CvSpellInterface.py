@@ -12173,6 +12173,7 @@ def postCombatGodslayer(pCaster, pOpponent):
 def postCombatNetherBlade(pCaster, pOpponent):
 	gc 		= CyGlobalContext()
 	iWinner	= pCaster.getOwner()
+	pPlot = pCaster.plot()
 	if (pOpponent.isAlive()):
 		if not gc.isNoCrash():
 			gc.getGame().addtoDeathList(gc.getInfoTypeForString('DEATHLIST_NETHERBLADE'),pOpponent)

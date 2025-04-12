@@ -3077,6 +3077,7 @@ m_piDomainModifierPercent(NULL),
 m_pbTerrainDoubleMove(NULL),
 m_pbFeatureDoubleMove(NULL),
 m_pbPlotEffectDoubleMove(NULL),
+m_iMaxExpReward(-1),
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
@@ -4017,6 +4018,7 @@ void CvPromotionInfo::setSound(const TCHAR* szVal)
 {
 	m_szSound = szVal;
 }
+int CvPromotionInfo::getMaxExpReward() const { return m_iMaxExpReward; }
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
@@ -5303,6 +5305,7 @@ void CvPromotionInfo::read(FDataStreamBase* stream)
 /*************************************************************************************************/
 /**												END												**/
 /*************************************************************************************************/
+	stream->Read(&m_iMaxExpReward);
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
@@ -6229,7 +6232,8 @@ void CvPromotionInfo::write(FDataStreamBase* stream)
 /*************************************************************************************************/
 /**												END												**/
 /*************************************************************************************************/
-/*************************************************************************************************/
+	stream->Write(m_iMaxExpReward);
+	/*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
 /**										Leashes	a unit to a plot								**/
@@ -6959,7 +6963,8 @@ bool CvPromotionInfo::read(CvXMLLoadUtility* pXML)
 /*************************************************************************************************/
 /**												END												**/
 /*************************************************************************************************/
-/*************************************************************************************************/
+	pXML->GetChildXmlValByName(&m_iMaxExpReward, "iMaxExpReward", -1);
+	/*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
 /**										Leashes	a unit to a plot								**/
@@ -7981,7 +7986,8 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 	if (isPrereqInBorderSelf()					== false)				m_bPrereqInBorderSelf				= pClassInfo->isPrereqInBorderSelf();
 	if (isPrereqInBorderNone()					== false)				m_bPrereqInBorderNone				= pClassInfo->isPrereqInBorderNone();
 	if (isAllowNULLUnitCombat()					== false)				m_bAllowNULLUnitCombat				= pClassInfo->isAllowNULLUnitCombat();
-/*************************************************************************************************/
+	if (getMaxExpReward() == -1)					m_iMaxExpReward = pClassInfo->getMaxExpReward();
+	/*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
 /**										Leashes	a unit to a plot								**/

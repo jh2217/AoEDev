@@ -748,6 +748,7 @@ void CvUnit::reset(int iID, UnitTypes eUnit, PlayerTypes eOwner, bool bConstruct
 	m_pUnitInfo = (NO_UNIT != m_eUnitType) ? &GC.getUnitInfo(m_eUnitType) : NULL;
 	m_iBaseCombat = (NO_UNIT != m_eUnitType) ? m_pUnitInfo->getCombat() : 0;
 	m_eLeaderUnitType = NO_UNIT;
+	m_iMaxExpReward = -1;
 	m_iCargoCapacity = (NO_UNIT != m_eUnitType) ? m_pUnitInfo->getCargoSpace() : 0;
 
 /************************************************************************************************/
@@ -14688,7 +14689,10 @@ int CvUnit::maxXPValue() const
 	int iMaxValue;
 
 	iMaxValue = MAX_INT;
-
+	if (getMaxExpReward() != -1)
+	{
+		iMaxValue = std::min(iMaxValue, getMaxExpReward());
+	}
 /*************************************************************************************************/
 /**	Xienwolf Tweak							11/21/08											**/
 /**																								**/
@@ -15423,7 +15427,18 @@ void CvUnit::changeCargoSpace(int iChange)
 		setInfoBarDirty(true);
 	}
 }
+int CvUnit::getMaxExpReward() const
+{
+	return m_iMaxExpReward;
+}
 
+void CvUnit::changeMaxExpReward(int iChange)
+{
+	if (iChange != 0)
+	{
+		m_iMaxExpReward += iChange;
+	}
+}
 bool CvUnit::isFull() const
 {
 	return (getCargo() >= cargoSpace());
@@ -22766,6 +22781,11 @@ void CvUnit::setHasPromotion(PromotionTypes eIndex, bool bNewValue, bool bSupres
 		changeExperiencePercent(kPromotion.getExperiencePercent() * iChange);
 		changeKamikazePercent((kPromotion.getKamikazePercent()) * iChange);
 		changeCargoSpace(kPromotion.getCargoChange() * iChange);
+		if (kPromotion.getMaxExpReward() > -1)
+		{
+			changeMaxExpReward(kPromotion.getMaxExpReward() * iChange);
+		}
+
 /*************************************************************************************************/
 /**	MobileCage								 6/17/2009								Cyther		**/
 /**	Expanded by Valkrionn					01/28/2010											**/
@@ -29315,6 +29335,7 @@ void CvUnit::read(FDataStreamBase* pStream)
 	pStream->Read(&m_iSpecialCargo);
 	pStream->Read(&m_iDomainCargo);
 	pStream->Read(&m_iCargoCapacity);
+	pStream->Read(&m_iMaxExpReward);
 	pStream->Read(&m_iAttackPlotX);
 	pStream->Read(&m_iAttackPlotY);
 	pStream->Read(&m_iCombatTimer);
@@ -29848,6 +29869,7 @@ void CvUnit::write(FDataStreamBase* pStream)
 	pStream->Write(m_iSpecialCargo);
 	pStream->Write(m_iDomainCargo);
 	pStream->Write(m_iCargoCapacity);
+	pStream->Write(m_iMaxExpReward);
 	pStream->Write(m_iAttackPlotX);
 	pStream->Write(m_iAttackPlotY);
 	pStream->Write(m_iCombatTimer);
