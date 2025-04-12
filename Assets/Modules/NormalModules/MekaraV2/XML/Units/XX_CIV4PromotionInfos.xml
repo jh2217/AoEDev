@@ -163,6 +163,7 @@
 			<Description>TXT_KEY_PROMOTION_SLUGA_ABILITIES</Description>
 			<bEffectProm>1</bEffectProm>
 			<bFreeUnit>1</bFreeUnit>
+			<bPrereqAliveCapture>1</bPrereqAliveCapture>
 			<iSlaveGenerationChance>30</iSlaveGenerationChance>
 			<CaptureUnitClass>UNITCLASS_SLAVE</CaptureUnitClass>
 			<NotCapturedUnitCombats>
