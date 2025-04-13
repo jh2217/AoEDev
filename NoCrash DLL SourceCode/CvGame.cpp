@@ -11196,7 +11196,7 @@ void CvGame::createBarbarianUnits()
 	}
 }
 
-// Each barb type has slightly different density limit calculation. All here for easy comparison
+// Each barb type has slightly different density limit calculation. All here for easy comparison.
 // Note that barbs can spawn as groups and so go over the limit on the turn spawned, but should not
 // be substantially over aside from happenstance of small limit and multiple large groups spawning.
 int CvGame::calcTargetBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes ePlayer) const

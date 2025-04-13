@@ -1020,7 +1020,7 @@ void CvPlot::doImprovementUpgrade()
 		ImprovementTypes eImprovementUpgrade = (ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementUpgrade();
 		if (eImprovementUpgrade != NO_IMPROVEMENT)
 		{
-			if (isBeingWorked() || GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders())
+			if (isBeingWorked() || (GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders() && isOwned()))
 			{
 				// ? : Hinterlands Valkrionn 07/11/09
 				int iUpgradeTurns = GC.getGameINLINE().getImprovementUpgradeTime(getImprovementType());
