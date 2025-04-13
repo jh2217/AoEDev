@@ -144,7 +144,9 @@
 			<Type>SPELL_SLUGA_CREATION_V2</Type>
 			<Description>TXT_KEY_SPELL_SLUGA_CREATION</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
-			<CivilizationPrereq>CIVILIZATION_MEKARA_V2</CivilizationPrereq>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait> <!-- Jamal is the only leader of the Mekara keen on biosludge soldiers or workers -->
+			</PrereqTraits>
 			<BuildingPrereq>BUILDING_SHAPER_CABAL</BuildingPrereq>
 			<UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -212,8 +214,10 @@
 			<Type>SPELL_BATTLE_SLUGA_CREATION_V2</Type>
 			<Description>TXT_KEY_SPELL_BATTLE_SLUGA_CREATION</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
-			<CivilizationPrereq>CIVILIZATION_MEKARA_V2</CivilizationPrereq>
 			<TechPrereq>TECH_ALTERATION</TechPrereq>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
+			</PrereqTraits>
 			<BuildingPrereq>BUILDING_SHAPER_CABAL</BuildingPrereq>
 			<UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -281,7 +285,6 @@
 			<Type>SPELL_BEHEMOTH_CREATION_V2</Type>
 			<Description>TXT_KEY_SPELL_BEHEMOTH_CREATION</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
-			<CivilizationPrereq>CIVILIZATION_MEKARA_V2</CivilizationPrereq>
 			<PrereqTraits>
 			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
 			</PrereqTraits>
@@ -466,9 +469,13 @@
 			<Description>TXT_KEY_SPELL_ENTER_ARENA</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
 			<Help>TXT_KEY_SPELL_ENTER_ARENA_HELP</Help>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_ZARIA_INFO</PrereqTrait> <!-- Zaria wants happy buildings and also a use for slaves -->
+			</PrereqTraits>
 			<BuildingPrereq>BUILDING_COLOSSEUM</BuildingPrereq>
 			<PromotionPrereq1>PROMOTION_MEKARA_GLADIATOR_TAG</PromotionPrereq1>	
 			<iCost>5</iCost>
+			<bForceOverwrite>1</bForceOverwrite>
 			<bInBordersOnly>1</bInBordersOnly>
 			<bInCityOnly>1</bInCityOnly>
 			<bHasCasted>1</bHasCasted>

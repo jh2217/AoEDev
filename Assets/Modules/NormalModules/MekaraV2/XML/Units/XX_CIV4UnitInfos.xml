@@ -512,6 +512,9 @@
 			<Description>TXT_KEY_UNIT_COM_OVERSEER</Description>
 			<Civilopedia>TXT_KEY_UNIT_COM_OVERSEER_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_MILITARY</Advisor>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
+			</PrereqTraits>
 			<UnitClassUpgrades>
 				<UnitClassUpgradeType>UNITCLASS_SLUGA_COMMANDER_V2</UnitClassUpgradeType>
 			</UnitClassUpgrades>
@@ -569,6 +572,9 @@
 			<Description>TXT_KEY_UNIT_SLUGA_COMMANDER</Description>
 			<Civilopedia>TXT_KEY_UNIT_SLUGA_COMMANDER_PEDIA</Civilopedia>
 			<Advisor>ADVISOR_MILITARY</Advisor>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
+			</PrereqTraits>
 			<UnitAIs>
 				<UnitAI>
 					<UnitAIType>UNITAI_ATTACK</UnitAIType>
@@ -655,6 +661,7 @@
 			</UnitAIs>
 			<Flavors/>
 			<PrereqTech>TECH_ALTERATION</PrereqTech>
+			<PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
 			<iCost>180</iCost>
 			<iMoves>2</iMoves>
 			<iCombat>5</iCombat>
