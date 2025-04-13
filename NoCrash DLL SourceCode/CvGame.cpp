@@ -10775,6 +10775,7 @@ void CvGame::createLairs()
 		iFlags |= RANDPLOT_NOT_CITY;
 		iFlags |= RANDPLOT_NOT_IMPROVED;
 		iFlags |= RANDPLOT_UNOCCUPIED;
+		iFlags |= RANDPLOT_ADJACENT_UNOWNED;
 
 		if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
 		{
