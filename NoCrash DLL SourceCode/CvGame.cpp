@@ -11014,124 +11014,99 @@ void CvGame::createAnimals()
 		return;
 	}
 
-	if (GC.getHandicapInfo(getHandicapType()).getTilesPerAnimal() <= 0)
-	{
-		return;
-	}
-
 	if (getNumCivCities() < countCivPlayersAlive())
 	{
 		return;
 	}
 
-	if (getElapsedGameTurns() < (5 * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 10000)) // TODO Ronkhar. Change this code to (X=getbarb%, Y=X*X/2000). Do not use pow(X,2) because X*X is quicker
+	// Random animals spawn 5x sooner than barbs
+	if (getElapsedGameTurns() > (GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 500))
 	{
 		return;
 	}
 
 	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
-		if (pLoopArea->isWater())
+		iNeededAnimals = calcTargetBarbs(pLoopArea, false, ANIMAL_PLAYER) - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER);
+
+		for (iI = 0; iI < iNeededAnimals; iI++)
 		{
-			iNeededAnimals = std::max(1, (pLoopArea->getNumUnownedTiles() / GC.getHandicapInfo(getHandicapType()).getWaterTilesPerAnimal())) - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER);
-			if (pLoopArea->getNumUnownedTiles() < 10)
+			pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ANIMAL_ALLY | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
+
+			if (pPlot != NULL)
 			{
-				iNeededAnimals = 0;
-			}
-		}
-		else
-		{
-			iNeededAnimals = (pLoopArea->getNumUnownedTiles() / GC.getHandicapInfo(getHandicapType()).getTilesPerAnimal()) - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER);
-		}
-
-		if (iNeededAnimals > 0)
-		{
-			iNeededAnimals = ((iNeededAnimals / 7) + 1);
-
-			if (isOption(GAMEOPTION_DOUBLE_ANIMALS))
-			{
-				iNeededAnimals *= 2;
-			}
-
-			for (iI = 0; iI < iNeededAnimals; iI++)
-			{
-				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ANIMAL_ALLY | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
-
-				if (pPlot != NULL)
+				eBestUnit = NO_UNIT;
+				iNetValue = 0;
+				for (int iL = 0; iL < MAX_CIV_PLAYERS; iL++)
 				{
-					eBestUnit = NO_UNIT;
-					iNetValue = 0;
-					for (int iL = 0; iL < MAX_CIV_PLAYERS; iL++)
+					CvWString wDefault = CvWString::format(L"TiberiusW").GetCString();
+					CvWString wDefault2 = CvWString::format(L"Tiberius_W").GetCString();
+					if (GET_PLAYER((PlayerTypes)iL).isAlive() &&(GET_PLAYER((PlayerTypes)iL).getNameKey()==wDefault || GET_PLAYER((PlayerTypes)iL).getNameKey() == wDefault2) && ((ModuleIds)GC.getInfoTypeForString("MODULE_NOGGORMOTHA") != NO_MODULE) && !isUnitClassMaxedOut((UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_MURDERHOOF")))
 					{
-						CvWString wDefault = CvWString::format(L"TiberiusW").GetCString();
-						CvWString wDefault2 = CvWString::format(L"Tiberius_W").GetCString();
-						if (GET_PLAYER((PlayerTypes)iL).isAlive() &&(GET_PLAYER((PlayerTypes)iL).getNameKey()==wDefault || GET_PLAYER((PlayerTypes)iL).getNameKey() == wDefault2) && ((ModuleIds)GC.getInfoTypeForString("MODULE_NOGGORMOTHA") != NO_MODULE) && !isUnitClassMaxedOut((UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_MURDERHOOF")))
-						{
-							eBestUnit = (UnitTypes)GC.getInfoTypeForString("UNIT_MURDERHOOF");
-							iNetValue = 1000;
-						}
+						eBestUnit = (UnitTypes)GC.getInfoTypeForString("UNIT_MURDERHOOF");
+						iNetValue = 1000;
 					}
-					for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
-					{
-						eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+				}
+				for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+				{
+					eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
 
-						if (eLoopUnit != NO_UNIT)
+					if (eLoopUnit != NO_UNIT)
+					{
+						// Feral Animals Valkrionn 10/19/09
+						if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(isUnitClassMaxedOut((UnitClassTypes)iJ)))
 						{
-							// Feral Animals Valkrionn 10/19/09
-							if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(isUnitClassMaxedOut((UnitClassTypes)iJ)))
+							if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
 							{
-								if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
+								iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
+								for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
 								{
-									iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
-									for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
-									{
-										iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
-									}
-									if (iValue > 0)
-									{
-										iNetValue += iValue;
-									}
+									iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
+								}
+								if (iValue > 0)
+								{
+									iNetValue += iValue;
 								}
 							}
 						}
 					}
-					iTargetValue = getMapRandNum(iNetValue, "Select Animal Spawn");
-					for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
-					{
-						eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+				}
+				iTargetValue = getMapRandNum(iNetValue, "Select Animal Spawn");
+				for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+				{
+					eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
 
-						if (eLoopUnit != NO_UNIT)
+					if (eLoopUnit != NO_UNIT)
+					{
+						if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(isUnitClassMaxedOut((UnitClassTypes)iJ)))
 						{
-							if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(isUnitClassMaxedOut((UnitClassTypes)iJ)))
+							if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
 							{
-								if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
+								iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
+								for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
 								{
-									iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
-									for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
-									{
-										iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
-									}
-									if (iValue > 0)
-									{
-										iTargetValue -= iValue;
-									}
-									if (iTargetValue <= 0)
-									{
-										eBestUnit = eLoopUnit;
-										break;
-									}
+									iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
+								}
+								if (iValue > 0)
+								{
+									iTargetValue -= iValue;
+								}
+								if (iTargetValue <= 0)
+								{
+									eBestUnit = eLoopUnit;
+									break;
 								}
 							}
 						}
 					}
+				}
 
-					if (eBestUnit != NO_UNIT)
+				if (eBestUnit != NO_UNIT)
+				{
+					CvUnit* pUnit = GET_PLAYER(ANIMAL_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ANIMAL);
+					if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
 					{
-						CvUnit* pUnit = GET_PLAYER(ANIMAL_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ANIMAL);
-						if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
-						{
-							pUnit->setImmobileTimer(2);
-						}
+						pUnit->setImmobileTimer(2);
 					}
 				}
 			}
@@ -11169,11 +11144,13 @@ void CvGame::createBarbarianUnits()
 		return;
 	}
 
-	if ((getElapsedGameTurns() > (GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed()))
+	// Random barbs, inc. bosses, only spawn past speedmodified spawndate and if there are enough civ cities in the world
+	if ((getElapsedGameTurns() > (GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 100))
 		&& (getNumCivCities() > ((countCivPlayersAlive() * 3) / 2) || isOption(GAMEOPTION_NO_SETTLERS)))
 	{
 		for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 		{
+			// Don't count owned tiles, even if allied to orc player, to spawn random orcs
 			iNeededBarbs = calcTargetBarbs(pLoopArea, false, ORC_PLAYER) - pLoopArea->getUnitsPerPlayer(ORC_PLAYER);
 			pLoopArea->isWater() ? eBarbUnitAI = UNITAI_ATTACK_SEA : eBarbUnitAI = UNITAI_ATTACK;
 
