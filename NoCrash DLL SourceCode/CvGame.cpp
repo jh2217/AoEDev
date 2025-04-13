@@ -10865,7 +10865,6 @@ void CvGame::createDemons()
 	int iBestValue;
 	int iLoop;
 	int iI, iJ;
-	int iNullFinds = 0;
 
 	if (isOption(GAMEOPTION_NO_DEMONS))
 	{
@@ -10874,7 +10873,6 @@ void CvGame::createDemons()
 
 	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
-		// Count owned tiles too even if can only spawn in unowned territory.
 		iNeededDemons = calcTargetBarbs(pLoopArea, true, DEMON_PLAYER) - (pLoopArea->getUnitsPerPlayer(DEMON_PLAYER));
 		if (iNeededDemons <= 0) continue;
 
@@ -10987,12 +10985,6 @@ void CvGame::createDemons()
 						pUnit->setImmobileTimer(2);
 					}
 				}
-			}
-			else
-			{
-				iNullFinds += 1;
-				// Perf: A large evil civ with no hell terrain outside of borders can run syncrand a LOT
-				if (iNullFinds > 5) break;
 			}
 		}
 	}
