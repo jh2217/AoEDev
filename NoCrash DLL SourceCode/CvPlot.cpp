@@ -645,28 +645,11 @@ void CvPlot::doTurn()
 				// 4th check: Don't spawn infinite barbs, there should be a limit : Snarko 20/10/12
 				if (bValid && (eSpawnPlayer == DEMON_PLAYER || eSpawnPlayer == ANIMAL_PLAYER || eSpawnPlayer == ORC_PLAYER))
 				{
-					int iDivisor;
-					if (area()->isWater())
-					{
-						iDivisor = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getWaterTilesPerOrc();
-					}
-					else
-					{
-						iDivisor = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getTilesPerOrc();
-					}
-
-					if (GC.getGameINLINE().isOption(GAMEOPTION_RAGING_BARBARIANS))
-					{
-						iDivisor = std::max(1, (iDivisor / 2));
-					}
-					else
-					{
-						iDivisor = std::max(1, iDivisor);
-					}
-					//Sets a limit based on barbs in the area. We check *total* number of tiles in the area instead of unowned, like the other limits check.
-					//This means lairs will keep spawning even when most of the world is within borders but lairs will not spawn when there are many barbs in a small area.
-					//Also set a higher limit (min 1) than default barb spawn limit check does, to emulate old behavior in earlygame. May cause minor issue if lair has no iSpawnAtOnce set: Blazenclaw 2025
-					if ((area()->getUnitsPerPlayer(ORC_PLAYER) + area()->getUnitsPerPlayer(ANIMAL_PLAYER) + area()->getUnitsPerPlayer(DEMON_PLAYER)) >= (std::max(1, (area()->getNumTiles() * 2 / iDivisor))))
+					// Sets a limit based on barbs in the area. We check *total* number of tiles in the area instead of unowned, like the other limits check.
+					// This means lairs will keep spawning even when most of the world is within borders but lairs will not spawn when there are many barbs in a small area. (Snarko)
+					// No matter how small the area, lairs can always spawn up to 3 barb units. Continues tradition of dense offshore barb islands (Blazenclaw)
+					int iTargetBarbs = std::max(3, GC.getGameINLINE().calcTargetBarbs(area(), true, eSpawnPlayer));
+					if (area()->getUnitsPerPlayer(eSpawnPlayer) >= iTargetBarbs)
 					{
 						bValid = false;
 					}

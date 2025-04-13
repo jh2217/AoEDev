@@ -11078,10 +11078,7 @@ void CvGame::createAnimals()
 
 						if (eLoopUnit != NO_UNIT)
 						{
-/*************************************************************************************************/
-/** Feral Animals			  				10/19/09								Valkrionn	**/
-/**																								**/
-/*************************************************************************************************/
+							// Feral Animals Valkrionn 10/19/09
 							if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(isUnitClassMaxedOut((UnitClassTypes)iJ)))
 							{
 								if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
@@ -11128,9 +11125,6 @@ void CvGame::createAnimals()
 							}
 						}
 					}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
 
 					if (eBestUnit != NO_UNIT)
 					{
@@ -11327,7 +11321,7 @@ void CvGame::createBarbarianUnits()
 }
 
 // Each barb type has slightly different density limit calculation. All here for easy comparison
-int CvGame::calcNeededBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes ePlayer) const
+int CvGame::calcTargetBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes ePlayer) const
 {
 	FAssertMsg(pArea != NULL, "Need passing valid area to calculated barb density");
 	FAssertMsg(ePlayer == ANIMAL_PLAYER || ePlayer == ORC_PLAYER || ePlayer == DEMON_PLAYER, "Need to calculate spawn for a barb team")
@@ -11369,10 +11363,8 @@ int CvGame::calcNeededBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes eP
 
 	if (isOption(GAMEOPTION_RAGING_BARBARIANS)) iTargetBarbs *= 2;
 
-	int iBarbs = pArea->getUnitsPerPlayer(ePlayer);
-
 	// Min limit for spawning is handled per spawning type (random/group, lair)
-	return std::max(0, iTargetBarbs - iBarbs);
+	return std::max(0, iTargetBarbs);
 }
 
 /*************************************************************************************************/
