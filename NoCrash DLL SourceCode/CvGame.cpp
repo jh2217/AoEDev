@@ -11113,8 +11113,9 @@ void CvGame::createBarbarianUnits()
 			{
 				for (iI = 0; iI < iNeededBarbs; iI++)
 				{
+					// Random spawn can't be on 1-tile island I guess
 					if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
-						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID());
+						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED | RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID());
 					else
 						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
 
@@ -11132,66 +11133,42 @@ void CvGame::createBarbarianUnits()
 							{
 								if (isSpawnGroupValid(eLoopGroup, pPlot, ORC_TEAM))
 								{
+									// We assume prereqs are met due to above. If group has prereqs (that are met), may adjust weight
 									iPreference = 0;
 
-									if (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs() > 0)
-									{
-										int iNumPrereqTechANDs = GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs();
-										for (int iK = 0; iK < iNumPrereqTechANDs; iK++)
-										{
-											if (!GET_TEAM(ORC_TEAM).isHasTech((TechTypes)GC.getSpawnGroupInfo(eLoopGroup).getPrereqTechANDs(iK)))
-											{
-												iPreference += 200;
-											}
-										}
-									}
+									// Possible: Increase weight if has tech reqs? Or decrease, if lategame barbs are too strong? Simply diluting the pool may suffice.
+									// More prereqs from isSpawnGroupValid can be added to weights as well if needed.
+									// // 200 per TechAND?
+									// iPreference += (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs() * 200);
+									// // 200 per TechOR?
+									// iPreference += (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs() * 200);
 
-									if (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs() > 0)
-									{
-										int iNumPrereqTechORs = GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs();
-										for (int iK = 0; iK < iNumPrereqTechORs; iK++)
-										{
-											if (!GET_TEAM(ORC_TEAM).isHasTech((TechTypes)GC.getSpawnGroupInfo(eLoopGroup).getPrereqTechORs(iK)))
-											{
-												iPreference += 200;
-											}
-										}
-									}
-
+									// Any met terrain limit increases weight. The more possible limits, reduce the (still positive) weight
 									if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() > 0)
 									{
-										int iNumSpawnTerrains = GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains();
-										for (int iK = 0; iK < iNumSpawnTerrains; iK++)
-										{
-											TerrainTypes eSpawnTerrain = (TerrainTypes)GC.getSpawnGroupInfo(eLoopGroup).getSpawnTerrains(iK);
-											if (pPlot->getTerrainType() == eSpawnTerrain)
-											{
-												iPreference += 400;
-											}
-										}
+										iPreference += 300;
+										iPreference -= std::min(GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() * 50, 200);
 									}
-
+									// Any met feature limit increases weight. The more possible limits, reduce the (still positive) weight
 									if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() > 0)
 									{
-										int iNumSpawnFeatures = GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures();
-										for (int iK = 0; iK < iNumSpawnFeatures; iK++)
-										{
-											FeatureTypes eSpawnFeature = (FeatureTypes)GC.getSpawnGroupInfo(eLoopGroup).getSpawnFeatures(iK);
-											if (pPlot->getFeatureType() == eSpawnFeature)
-											{
-												iPreference += 400;
-											}
-										}
+										iPreference += 300;
+										iPreference -= std::min(GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() * 50, 200);
 									}
 
+									// Weights by default are ~1000
 									iValue = iPreference + (1 + getSorenRandNum(GC.getSpawnGroupInfo(eLoopGroup).getWeight(), "Barb Unit Selection"));
+
+									// AlwaysSpawns should still look for best among possible AlwaysSpawns
 									if (GC.getSpawnGroupInfo(eLoopGroup).isAlwaysSpawn())
 									{
+										if (bAlwaysSpawn && iBestValue > iValue) continue;
+
 										eBestGroup = eLoopGroup;
 										iBestValue = iValue;
 										bAlwaysSpawn = true;
 									}
-									if (iValue > iBestValue && !bAlwaysSpawn)
+									else if (iValue > iBestValue && !bAlwaysSpawn)
 									{
 										eBestGroup = eLoopGroup;
 										iBestValue = iValue;
