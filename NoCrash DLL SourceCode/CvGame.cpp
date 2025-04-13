@@ -10893,86 +10893,51 @@ void CvGame::createDemons()
 					{
 						CvUnitInfo& kUnit = GC.getUnitInfo(eLoopUnit);
 
-						bool bValid = true;
+						// Hero demon units must be built/spawned in a dedicated manner
+						if (GC.getUnitClassInfo((UnitClassTypes)iJ).getMaxGlobalInstances() == 1) continue;
 
-						if (GC.getUnitClassInfo((UnitClassTypes)iJ).getMaxGlobalInstances() == 1)
+						if (pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_SEA) continue;
+						else if (!pLoopArea->isWater() && !(kUnit.getDomainType() == DOMAIN_LAND || kUnit.getDomainType() == DOMAIN_IMMOBILE)) continue;
+
+						if (!GET_PLAYER(DEMON_PLAYER).canTrain(eLoopUnit, false, false, true)) continue;
+
+						if (NO_BONUS != kUnit.getPrereqAndBonus())
 						{
-							bValid = false;
+							if (!GET_TEAM(DEMON_TEAM).isHasTech((TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqAndBonus()).getTechCityTrade())) continue;
 						}
 
-						if (bValid && !kUnit.isCanMoveAllTerrain())
+						bool bFound = false;
+						bool bRequires = false;
+						for (int i = 0; i < GC.getNUM_UNIT_PREREQ_OR_BONUSES(); ++i)
 						{
-							if (pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_SEA)
+							if (NO_BONUS != kUnit.getPrereqOrBonuses(i))
 							{
-								bValid = false;
-							}
-							else if (!pLoopArea->isWater() && !(kUnit.getDomainType() == DOMAIN_LAND || kUnit.getDomainType() == DOMAIN_IMMOBILE))
-							{
-								bValid = false;
-							}
-						}
-
-						if (bValid)
-						{
-							if (!GET_PLAYER(DEMON_PLAYER).canTrain(eLoopUnit, false, false, true))
-							{
-								bValid = false;
-							}
-						}
-
-						if (bValid)
-						{
-							if (NO_BONUS != kUnit.getPrereqAndBonus())
-							{
-								if (!GET_TEAM(DEMON_TEAM).isHasTech((TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqAndBonus()).getTechCityTrade()))
+								TechTypes eTech = (TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqOrBonuses(i)).getTechCityTrade();
+								if (NO_TECH != eTech)
 								{
-									bValid = false;
-								}
-							}
-						}
+									bRequires = true;
 
-						if (bValid)
-						{
-							bool bFound = false;
-							bool bRequires = false;
-							for (int i = 0; i < GC.getNUM_UNIT_PREREQ_OR_BONUSES(); ++i)
-							{
-								if (NO_BONUS != kUnit.getPrereqOrBonuses(i))
-								{
-									TechTypes eTech = (TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqOrBonuses(i)).getTechCityTrade();
-									if (NO_TECH != eTech)
+									if (GET_TEAM(DEMON_TEAM).isHasTech(eTech))
 									{
-										bRequires = true;
-
-										if (GET_TEAM(DEMON_TEAM).isHasTech(eTech))
-										{
-											bFound = true;
-											break;
-										}
+										bFound = true;
+										break;
 									}
 								}
 							}
+						}
+						if (bRequires && !bFound) continue;
 
-							if (bRequires && !bFound)
-							{
-								bValid = false;
-							}
+						iValue = (1 + getSorenRandNum(1500, "Demon Unit Selection")) + GET_PLAYER(DEMON_PLAYER).AI_unitValue(eLoopUnit, UNITAI_ATTACK, pLoopArea);
+
+						if (kUnit.getUnitAIType(UNITAI_ATTACK))
+						{
+							iValue += 200;
 						}
 
-						if (bValid)
+						if (iValue > iBestValue)
 						{
-							iValue = (1 + getSorenRandNum(1500, "Demon Unit Selection")) + GET_PLAYER(DEMON_PLAYER).AI_unitValue(eLoopUnit, UNITAI_ATTACK, pLoopArea);
-
-							if (kUnit.getUnitAIType(UNITAI_ATTACK))
-							{
-								iValue += 200;
-							}
-
-							if (iValue > iBestValue)
-							{
-								eBestUnit = eLoopUnit;
-								iBestValue = iValue;
-							}
+							eBestUnit = eLoopUnit;
+							iBestValue = iValue;
 						}
 					}
 				}
