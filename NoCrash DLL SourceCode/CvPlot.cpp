@@ -657,9 +657,8 @@ void CvPlot::doTurn()
 
 				if (bValid)
 				{
-					//Consider making the spawn rate be based on improvement itself, just as limit is now
-					int iChance = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnRate();
-					iChance *= 10000;
+					// Consider making the spawn rate be modulated by the improvement itself
+					int iChance = 10000 * GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnChance();
 					iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
 					if (iUnit != NO_UNIT && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
 					{
