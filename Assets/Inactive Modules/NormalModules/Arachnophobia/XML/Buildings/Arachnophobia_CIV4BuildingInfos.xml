@@ -85,7 +85,7 @@
 			<BuildingClass>BUILDINGCLASS_DIET_OF_WORMS</BuildingClass>
 			<Type>BUILDING_DIET_OF_WORMS</Type>
 			<Description>TXT_KEY_BUILDING_DIET_OF_WORMS</Description>
-			<Civilopedia>TXT_KEY_BUILDING_DIET_OF_WORMS_PEDIA</Civilopedia>
+			<Help>TXT_KEY_BUILDING_DIET_OF_WORMS_PEDIA</Help>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_DIET_OF_WORMS</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>

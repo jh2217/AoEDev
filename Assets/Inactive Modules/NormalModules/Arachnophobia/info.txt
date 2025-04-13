@@ -1,7 +1,7 @@
 [name]
 Arachnophobia
 [version]
-1.5
+1.0
 [rifeversion]
 363
 [author]
@@ -19,6 +19,7 @@ By: @LeastCraft
 QoL:
 	Fixed help text for Rhagodessa spider promotion.
 	Versions of spider variant promotions from Spiderkin trait are now hidden from civilopedia for clarity.
+	Updated strategy information for the Archos civilization and the spiders in civilopedia.
 
 New mechanics:
 	Archos now accumulate Brood Activity (BA) each turn which you can spend on spider related spells.
@@ -88,8 +89,8 @@ Graphics:
 	Updated buttons for Growth Spurts, Fort Spider I and Fort Spider II
 
 Promotions:
-	Changed Marked Prey to no longer grant marksman counter
-	Restored Spiderkin to original(+1 poison combat; pass poisoned to enemies)
+	Changed Marked Prey to no longer grant Marksman Counter
+	Restored Spiderkin to original(+1 poison combat; pass Poisoned to enemies)
 	Fixed Mucro so that it cannot Burrow and Reveal in the same turn to get free buff
 	Swapped Venenum and Greater Venenum effects:
 	- Changed Venenum from (+1 poison combat and pass "Poison Fume" in combat) to (ranged attack)
@@ -99,10 +100,10 @@ Promotions:
 	Added Symbiotic Communion End promotion which removes Symbiotic Communion promotion and excludes it for 1 turn
 
 	Added 5 spider mutations for the Symbiotic Communion:
-	- Venom Secretion: +1 poison combat, immune to getting poisoned
+	- Venom Secretion: +1 poison combat, immune to getting Poisoned
 	- Jointed Limbs: +1-2 first strikes
 	- Chitin Carapace: immune to first strikes
-	- Trail Pheromone: +30% vs poisoned
+	- Trail Pheromone: +30% vs Poisoned
 	- Spitter Gland: ranged attack
 
 Spells:
@@ -159,8 +160,8 @@ Promotions:
 	Added PROMOTION_SPIDER_MUCRO_BURROWED which grants invisibility
 	Added PROMOTION_SPIDER_MUCRO_REVEALED1 which buffs attack (+50%) and debuffs defense (-80%), and grants immunity to first strikes for 1 turn
 	Added PROMOTION_SPIDER_MUCRO_REVEALED2 which further grants 1 first strike, immunity to defensive strike and ignore terrain defense for 1 turn
-	Added PROMOTION_MARKED_PREY which grants -50% against spider blood and marksman counter until healed
-	Added PROMOTION_CONSUME_THE_WEAK which grants marksman for 1 turn
+	Added PROMOTION_MARKED_PREY which grants -50% against "Spider Blood" and Marksman Counter until healed
+	Added PROMOTION_CONSUME_THE_WEAK which grants "Marksman" for 1 turn
 	Added PROMOTION_POISON_FUME which "heals" units in the same tile by -10
 
 	Changed Rhagodessa to grant access to spell "Poison Explosion 1"

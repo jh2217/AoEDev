@@ -234,7 +234,7 @@
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_BABY_SPIDER</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_SPIDER_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_BABY_SPIDER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>1</bAnimal>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -317,7 +317,7 @@
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_SPIDER</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_SPIDER_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_SPIDER_STRATEGY_NEW</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>1</bAnimal>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -398,7 +398,7 @@
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_GIANT_SPIDER</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_GIANT_SPIDER_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_GIANT_SPIDER_STRATEGY_NEW</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>1</bAnimal>
 			<bHiddenNationality>1</bHiddenNationality>
