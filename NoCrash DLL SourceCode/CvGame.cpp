@@ -10704,11 +10704,10 @@ void CvGame::setProjectTimer(ProjectTypes eProject)
 void CvGame::createLairs()
 {
 	PROFILE("CvGame::createLairs");
-	int iNetWeight, iWeight, iTargetWeight, iI, iJ, iK, iCiv, iFlags, iGoal, iUnit;
+	int iNetWeight, iWeight, iTargetWeight, iI, iJ, iK, iCiv, iFlags, iGoal;
 	bool bEvilValid, bNormalValid;
 	CvPlot* pPlot=NULL;
 	ImprovementTypes eLair=NO_IMPROVEMENT;
-	PlayerTypes eSpawnPlayer=NO_PLAYER;
 
 	if (isOption(GAMEOPTION_NO_LAIRS))
 	{
@@ -11155,7 +11154,7 @@ void CvGame::createBarbarianUnits()
 	SpawnGroupTypes eBestGroup;
 	SpawnGroupTypes eLoopGroup;
 	long lResult;
-	int iNeededBarbs, iDivisor, iValue, iBestValue, iLoop, iI, iJ, iPreference;
+	int iNeededBarbs, iValue, iBestValue, iLoop, iI, iJ, iPreference;
 	bool bAlwaysSpawn;
 
 	if (isOption(GAMEOPTION_NO_BARBARIANS))
@@ -11170,151 +11169,124 @@ void CvGame::createBarbarianUnits()
 		return;
 	}
 
-
-	if ((getElapsedGameTurns() > ((GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent()) / 10000))
-	 && (getNumCivCities() > ((countCivPlayersAlive() * 3) / 2) || isOption(GAMEOPTION_NO_SETTLERS)))
+	if ((getElapsedGameTurns() > (GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed()))
+		&& (getNumCivCities() > ((countCivPlayersAlive() * 3) / 2) || isOption(GAMEOPTION_NO_SETTLERS)))
 	{
 		for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 		{
-			if (pLoopArea->isWater())
-			{
-				eBarbUnitAI = UNITAI_ATTACK_SEA;
-				iDivisor = GC.getHandicapInfo(getHandicapType()).getWaterTilesPerOrc();
-			}
-			else
-			{
-				eBarbUnitAI = UNITAI_ATTACK;
-				iDivisor = GC.getHandicapInfo(getHandicapType()).getTilesPerOrc();
-			}
+			iNeededBarbs = calcTargetBarbs(pLoopArea, false, ORC_PLAYER) - pLoopArea->getUnitsPerPlayer(ORC_PLAYER);
+			pLoopArea->isWater() ? eBarbUnitAI = UNITAI_ATTACK_SEA : eBarbUnitAI = UNITAI_ATTACK;
 
-			if (isOption(GAMEOPTION_RAGING_BARBARIANS) && iDivisor>0)
+			if (iNeededBarbs > 0)
 			{
-				iDivisor = std::max(1, (iDivisor / 2));
-			}
+				for (iI = 0; iI < iNeededBarbs; iI++)
+				{
+					if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID());
+					else
+						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
 
-			if (iDivisor > 0)
-			{
-				iNeededBarbs = (std::max(1, (pLoopArea->getNumUnownedTiles() / iDivisor)) - (pLoopArea->getUnitsPerPlayer(ORC_PLAYER)));
-				if (pLoopArea->isWater() && pLoopArea->getNumUnownedTiles() > 100)
-				{
-					iNeededBarbs = std::max(5 - pLoopArea->getUnitsPerPlayer(ORC_PLAYER), iNeededBarbs);
-				}
-				if (pLoopArea->isWater() && pLoopArea->getNumUnownedTiles() < 10)
-				{
-					iNeededBarbs = 0;
-				}
-				if (iNeededBarbs > 0)
-				{
-					iNeededBarbs = ((iNeededBarbs / (6 * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 10000)) + 1);
-
-					for (iI = 0; iI < iNeededBarbs; iI++)
+					if (pPlot != NULL)
 					{
-						if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
-							pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID());
-						else
-							pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
+						eBestGroup = NO_SPAWNGROUP;
+						iBestValue = 0;
+						bAlwaysSpawn = false;
 
-						if (pPlot != NULL)
+						for (iJ = 0; iJ < GC.getNumSpawnGroupInfos(); iJ++)
 						{
-							eBestGroup = NO_SPAWNGROUP;
-							iBestValue = 0;
-							bAlwaysSpawn = false;
+							eLoopGroup = ((SpawnGroupTypes)iJ);
 
-							for (iJ = 0; iJ < GC.getNumSpawnGroupInfos(); iJ++)
+							if (eLoopGroup != NO_SPAWNGROUP)
 							{
-								eLoopGroup = ((SpawnGroupTypes)iJ);
-
-								if (eLoopGroup != NO_SPAWNGROUP)
+								if (isSpawnGroupValid(eLoopGroup, pPlot, ORC_TEAM))
 								{
-									if (isSpawnGroupValid(eLoopGroup, pPlot, ORC_TEAM))
+									iPreference = 0;
+
+									if (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs() > 0)
 									{
-										iPreference = 0;
-
-										if (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs() > 0)
+										int iNumPrereqTechANDs = GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs();
+										for (int iK = 0; iK < iNumPrereqTechANDs; iK++)
 										{
-											int iNumPrereqTechANDs = GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs();
-											for (int iK = 0; iK < iNumPrereqTechANDs; iK++)
+											if (!GET_TEAM(ORC_TEAM).isHasTech((TechTypes)GC.getSpawnGroupInfo(eLoopGroup).getPrereqTechANDs(iK)))
 											{
-												if (!GET_TEAM(ORC_TEAM).isHasTech((TechTypes)GC.getSpawnGroupInfo(eLoopGroup).getPrereqTechANDs(iK)))
-												{
-													iPreference += 200;
-												}
+												iPreference += 200;
 											}
 										}
+									}
 
-										if (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs() > 0)
+									if (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs() > 0)
+									{
+										int iNumPrereqTechORs = GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs();
+										for (int iK = 0; iK < iNumPrereqTechORs; iK++)
 										{
-											int iNumPrereqTechORs = GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs();
-											for (int iK = 0; iK < iNumPrereqTechORs; iK++)
+											if (!GET_TEAM(ORC_TEAM).isHasTech((TechTypes)GC.getSpawnGroupInfo(eLoopGroup).getPrereqTechORs(iK)))
 											{
-												if (!GET_TEAM(ORC_TEAM).isHasTech((TechTypes)GC.getSpawnGroupInfo(eLoopGroup).getPrereqTechORs(iK)))
-												{
-													iPreference += 200;
-												}
+												iPreference += 200;
 											}
 										}
+									}
 
-										if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() > 0)
+									if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() > 0)
+									{
+										int iNumSpawnTerrains = GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains();
+										for (int iK = 0; iK < iNumSpawnTerrains; iK++)
 										{
-											int iNumSpawnTerrains = GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains();
-											for (int iK = 0; iK < iNumSpawnTerrains; iK++)
+											TerrainTypes eSpawnTerrain = (TerrainTypes)GC.getSpawnGroupInfo(eLoopGroup).getSpawnTerrains(iK);
+											if (pPlot->getTerrainType() == eSpawnTerrain)
 											{
-												TerrainTypes eSpawnTerrain = (TerrainTypes)GC.getSpawnGroupInfo(eLoopGroup).getSpawnTerrains(iK);
-												if (pPlot->getTerrainType() == eSpawnTerrain)
-												{
-													iPreference += 400;
-												}
+												iPreference += 400;
 											}
 										}
+									}
 
-										if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() > 0)
+									if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() > 0)
+									{
+										int iNumSpawnFeatures = GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures();
+										for (int iK = 0; iK < iNumSpawnFeatures; iK++)
 										{
-											int iNumSpawnFeatures = GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures();
-											for (int iK = 0; iK < iNumSpawnFeatures; iK++)
+											FeatureTypes eSpawnFeature = (FeatureTypes)GC.getSpawnGroupInfo(eLoopGroup).getSpawnFeatures(iK);
+											if (pPlot->getFeatureType() == eSpawnFeature)
 											{
-												FeatureTypes eSpawnFeature = (FeatureTypes)GC.getSpawnGroupInfo(eLoopGroup).getSpawnFeatures(iK);
-												if (pPlot->getFeatureType() == eSpawnFeature)
-												{
-													iPreference += 400;
-												}
+												iPreference += 400;
 											}
 										}
+									}
 
-										iValue = iPreference + (1 + getSorenRandNum(GC.getSpawnGroupInfo(eLoopGroup).getWeight(), "Barb Unit Selection"));
-										if (GC.getSpawnGroupInfo(eLoopGroup).isAlwaysSpawn())
-										{
-											eBestGroup = eLoopGroup;
-											iBestValue = iValue;
-											bAlwaysSpawn = true;
-										}
-										if (iValue > iBestValue && !bAlwaysSpawn)
-										{
-											eBestGroup = eLoopGroup;
-											iBestValue = iValue;
-										}
+									iValue = iPreference + (1 + getSorenRandNum(GC.getSpawnGroupInfo(eLoopGroup).getWeight(), "Barb Unit Selection"));
+									if (GC.getSpawnGroupInfo(eLoopGroup).isAlwaysSpawn())
+									{
+										eBestGroup = eLoopGroup;
+										iBestValue = iValue;
+										bAlwaysSpawn = true;
+									}
+									if (iValue > iBestValue && !bAlwaysSpawn)
+									{
+										eBestGroup = eLoopGroup;
+										iBestValue = iValue;
 									}
 								}
 							}
+						}
 
-							if (eBestGroup != NO_SPAWNGROUP)
-							{
-								createSpawnGroup(eBestGroup, pPlot, ORC_PLAYER, eBarbUnitAI);
-							}
+						if (eBestGroup != NO_SPAWNGROUP)
+						{
+							createSpawnGroup(eBestGroup, pPlot, ORC_PLAYER, eBarbUnitAI);
 						}
 					}
 				}
-				else if (pLoopArea->getNumUnownedTiles() > 0)
-				{
-					if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
-						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED| RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
-					else
-						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
-					CyPlot* pyPlot = new CyPlot(pPlot);
-					CyArgsList argsList;
-					argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));	// pass in plot class
-					gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianBosses", argsList.makeFunctionArgs());
-					delete pyPlot;	// python fxn must not hold on to this pointer
-				}
+			}
+			// Python exposure for modular barb bosses. They can spawn regardless of density limit (if exist...)
+			if (pLoopArea->getNumUnownedTiles() > 0)
+			{
+				if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+					pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED| RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
+				else
+					pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
+				CyPlot* pyPlot = new CyPlot(pPlot);
+				CyArgsList argsList;
+				argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));	// pass in plot class
+				gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianBosses", argsList.makeFunctionArgs());
+				delete pyPlot;	// python fxn must not hold on to this pointer
 			}
 		}
 	}
@@ -11331,10 +11303,10 @@ int CvGame::calcTargetBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes eP
 
 	if (ePlayer == ANIMAL_PLAYER)
 	{
-		iAreaSize = bCountOwnedPlots ? pArea->getNumTiles() : pArea->getNumUnownedTiles();
-		int iDivisor = pArea->isWater ?
+		iAreaSize = (bCountOwnedPlots ? pArea->getNumTiles() : pArea->getNumUnownedTiles());
+		int iDivisor = (pArea->isWater() ?
 			GC.getHandicapInfo(getHandicapType()).getWaterTilesPerAnimal() :
-			GC.getHandicapInfo(getHandicapType()).getTilesPerAnimal();
+			GC.getHandicapInfo(getHandicapType()).getTilesPerAnimal());
 
 		iTargetBarbs = iAreaSize / std::max(1, iDivisor);
 
@@ -11342,11 +11314,12 @@ int CvGame::calcTargetBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes eP
 	}
 	else if (ePlayer == ORC_PLAYER)
 	{
-		iAreaSize = bCountOwnedPlots ? pArea->getNumTiles() : pArea->getNumUnownedTiles();
-		int iDivisor = pArea->isWater ?
+		iAreaSize = (bCountOwnedPlots ? pArea->getNumTiles() : pArea->getNumUnownedTiles());
+		int iDivisor = (pArea->isWater() ?
 			GC.getHandicapInfo(getHandicapType()).getWaterTilesPerOrc() :
-			GC.getHandicapInfo(getHandicapType()).getTilesPerOrc();
+			GC.getHandicapInfo(getHandicapType()).getTilesPerOrc());
 
+		// Originally had a max of 5 per body of water; will see if need to reduce
 		iTargetBarbs = iAreaSize / std::max(1, iDivisor);
 	}
 	else
