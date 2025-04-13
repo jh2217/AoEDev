@@ -249,6 +249,7 @@
 			</UnitAIs>
 			<iMoves>1</iMoves>
 			<iCombat>1</iCombat>
+			<iWithdrawalProb>20</iWithdrawalProb>
 			<iCityAttack>-25</iCityAttack>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -337,6 +338,7 @@
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
 			<iCityAttack>-25</iCityAttack>
+			<iWorkRate>100</iWorkRate>
 			<TerrainNatives>
 				<TerrainNative>
 					<TerrainType>TERRAIN_MARSH</TerrainType>
@@ -418,6 +420,7 @@
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iCityAttack>-25</iCityAttack>
+			<iWorkRate>100</iWorkRate>
 			<TerrainNatives>
 				<TerrainNative>
 					<TerrainType>TERRAIN_MARSH</TerrainType>

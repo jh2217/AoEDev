@@ -7,17 +7,17 @@
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SPIDER_UPGRADE_HELP</Tag>
-		<English>[ICON_BULLET]All spiders can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 12 population.</English>
-		<French>[ICON_BULLET]All spiders can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 12 population.</French>
-		<German>[ICON_BULLET]All spiders can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 12 population.</German>
-		<Italian>[ICON_BULLET]All spiders can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 12 population.</Italian>
-		<Spanish>[ICON_BULLET]All spiders can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 12 population.</Spanish>
+		<English>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 11 population.</English>
+		<French>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 11 population.</French>
+		<German>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 11 population.</German>
+		<Italian>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 11 population.</Italian>
+		<Spanish>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting Silksong Cradle reaches 11 population.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPIDERKIN_PEDIA</Tag>
 		<English>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</English>
-		<French>Les Veneurs Archosiens passent des semaines dans les contrées sauvages d'Erebus, pistant ses proies avec son compagnon Araignée. Lorsqu'il faut frapper, l'Araignée attaque et paralyse sa cible avec son venin avant que le Veneur fasse le tir mortel. Le clan a vécu avec les Araignées depuis si longtemps que le venin présent dans la carcasse n'est plus mortel pour eux (même s'il continue de prendre son dû). [NEWLINE][NEWLINE]Quand un binôme de chasse survit suffisamment longtemps pour être remarqué, ils peuvent être envoyés encore plus loin pour chasser des proies encore plus dangereuses. L'Araignée devient plus dangereuse à mesure qu'elle grandit et le Reclus compte encore plus sur elle. [NEWLINE][NEWLINE]Les chasseurs les plus efficaces peuvent découvrir qu'ils développent des mutations tandis qu'ils continuent de manger la viande empoisonnée de leurs victimes. Elles sont vues comme des "présents" de la Mère et un signe que le chasseur est favorisé. N'importe comment, la plupart de ces mutations se révèlent bénéfiques en combat et l'Arachnomorphe est pratiquement immunisé à tout empoisonnement ultérieur.</French>
-		<German>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]Die erfolgreichsten Jäger mögen Mutationen an sich bemerken, wenn sie nur kontinuierlich das vergiftete Fleisch ihrer Beute verzehren. Dies wird als ein "Geschenk" von Mutter und als Zeichen ihrer Gunst angesehen. In jedem Fall entpuppen sich viele dieser Mutationen als nützlich im Kampf, so sind die Sipplinge der Spinnentiere z.B. praktisch immun gegen weitere Vergiftungen.</German>
+		<French>Les Veneurs Archosiens passent des semaines dans les contrï¿½es sauvages d'Erebus, pistant ses proies avec son compagnon Araignï¿½e. Lorsqu'il faut frapper, l'Araignï¿½e attaque et paralyse sa cible avec son venin avant que le Veneur fasse le tir mortel. Le clan a vï¿½cu avec les Araignï¿½es depuis si longtemps que le venin prï¿½sent dans la carcasse n'est plus mortel pour eux (mï¿½me s'il continue de prendre son dï¿½). [NEWLINE][NEWLINE]Quand un binï¿½me de chasse survit suffisamment longtemps pour ï¿½tre remarquï¿½, ils peuvent ï¿½tre envoyï¿½s encore plus loin pour chasser des proies encore plus dangereuses. L'Araignï¿½e devient plus dangereuse ï¿½ mesure qu'elle grandit et le Reclus compte encore plus sur elle. [NEWLINE][NEWLINE]Les chasseurs les plus efficaces peuvent dï¿½couvrir qu'ils dï¿½veloppent des mutations tandis qu'ils continuent de manger la viande empoisonnï¿½e de leurs victimes. Elles sont vues comme des "prï¿½sents" de la Mï¿½re et un signe que le chasseur est favorisï¿½. N'importe comment, la plupart de ces mutations se rï¿½vï¿½lent bï¿½nï¿½fiques en combat et l'Arachnomorphe est pratiquement immunisï¿½ ï¿½ tout empoisonnement ultï¿½rieur.</French>
+		<German>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]Die erfolgreichsten Jï¿½ger mï¿½gen Mutationen an sich bemerken, wenn sie nur kontinuierlich das vergiftete Fleisch ihrer Beute verzehren. Dies wird als ein "Geschenk" von Mutter und als Zeichen ihrer Gunst angesehen. In jedem Fall entpuppen sich viele dieser Mutationen als nï¿½tzlich im Kampf, so sind die Sipplinge der Spinnentiere z.B. praktisch immun gegen weitere Vergiftungen.</German>
 		<Italian>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</Italian>
 		<Spanish>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</Spanish>
 	</TEXT>
@@ -28,22 +28,6 @@
 		<German>Ia! Black queen of the depths with a thousand young!</German>
 		<Italian>Ia! Black queen of the depths with a thousand young!</Italian>
 		<Spanish>Ia! Black queen of the depths with a thousand young!</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_PREDATORY_SCREAM</Tag>
-		<English>Predatory Scream</English>
-		<French>Predatory Scream</French>
-		<German>Predatory Scream</German>
-		<Italian>Predatory Scream</Italian>
-		<Spanish>Predatory Scream</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_PREDATORY_SCREAM_HELP</Tag>
-		<English>[ICON_BULLET]Apply "Marked Prey" to all enemy units in range.</English>
-		<French>[ICON_BULLET]Apply "Marked Prey" to all enemy units in range.</French>
-		<German>[ICON_BULLET]Apply "Marked Prey" to all enemy units in range.</German>
-		<Italian>[ICON_BULLET]Apply "Marked Prey" to all enemy units in range.</Italian>
-		<Spanish>[ICON_BULLET]Apply "Marked Prey" to all enemy units in range.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PALACE_ARCHOS_ARACHNOPHOBIA</Tag>
@@ -60,6 +44,22 @@
 		<German>Mother of Mothers</German>
 		<Italian>Mother of Mothers</Italian>
 		<Spanish>Mother of Mothers</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MARKED_PREY</Tag>
+		<English>Marked Prey</English>
+		<French>Marked Prey</French>
+		<German>Marked Prey</German>
+		<Italian>Marked Prey</Italian>
+		<Spanish>Marked Prey</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PREDATORY_SCREAM</Tag>
+		<English>Predatory Scream</English>
+		<French>Predatory Scream</French>
+		<German>Predatory Scream</German>
+		<Italian>Predatory Scream</Italian>
+		<Spanish>Predatory Scream</Spanish>
 	</TEXT>
 	
 	<TEXT>
@@ -114,7 +114,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_BURROWED_NO_REVEAL</Tag>
 		<English>Mucro Burrowed (Can't reveal yet)</English>
-		<French>Mucro Enterré (Can't reveal yet)</French>
+		<French>Mucro Enterrï¿½ (Can't reveal yet)</French>
 		<German>Mucro Verborgen (Can't reveal yet)</German>
 		<Italian>Mucro Burrowed (Can't reveal yet)</Italian>
 		<Spanish>Mucro Burrowed (Can't reveal yet)</Spanish>
@@ -122,7 +122,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_BURROWED</Tag>
 		<English>Mucro Burrowed</English>
-		<French>Mucro Enterré</French>
+		<French>Mucro Enterrï¿½</French>
 		<German>Mucro Verborgen</German>
 		<Italian>Mucro Burrowed</Italian>
 		<Spanish>Mucro Burrowed</Spanish>
@@ -130,26 +130,18 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_REVEALED1</Tag>
 		<English>Mucro Revealed I</English>
-		<French>Mucro À découvert I</French>
-		<German>Mucro Entblößt I</German>
+		<French>Mucro ï¿½ dï¿½couvert I</French>
+		<German>Mucro Entblï¿½ï¿½t I</German>
 		<Italian>Mucro Revealed I</Italian>
 		<Spanish>Mucro Revealed I</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_REVEALED2</Tag>
 		<English>Mucro Revealed II</English>
-		<French>Mucro À découvert II</French>
-		<German>Mucro Entblößt II</German>
+		<French>Mucro ï¿½ dï¿½couvert II</French>
+		<German>Mucro Entblï¿½ï¿½t II</German>
 		<Italian>Mucro Revealed II</Italian>
 		<Spanish>Mucro Revealed II</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_MARKED_PREY</Tag>
-		<English>Marked Prey</English>
-		<French>Marked Prey</French>
-		<German>Marked Prey</German>
-		<Italian>Marked Prey</Italian>
-		<Spanish>Marked Prey</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_CONSUME_THE_WEAK</Tag>
@@ -158,14 +150,6 @@
 		<German>Consume the Weak</German>
 		<Italian>Consume the Weak</Italian>
 		<Spanish>Consume the Weak</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_CONSUME_THE_WEAK_HELP</Tag>
-		<English>[ICON_BULLET]Give "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.</English>
-		<French>[ICON_BULLET]Give "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.</French>
-		<German>[ICON_BULLET]Give "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.</German>
-		<Italian>[ICON_BULLET]Give "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.</Italian>
-		<Spanish>[ICON_BULLET]Give "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CONSUME_THE_WEAK</Tag>
@@ -177,6 +161,14 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_POISON_FUME</Tag>
+		<English>Poison Fume</English>
+		<French>Poison Fume</French>
+		<German>Poison Fume</German>
+		<Italian>Poison Fume</Italian>
+		<Spanish>Poison Fume</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_POISON_FUME</Tag>
 		<English>Poison Fume</English>
 		<French>Poison Fume</French>
 		<German>Poison Fume</German>
@@ -452,5 +444,272 @@
 		<German>Symbiotic Communion End</German>
 		<Italian>Symbiotic Communion End</Italian>
 		<Spanish>Symbiotic Communion End</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BROOD_ACTIVITY_1</Tag>
+		<English>Dormant</English>
+		<French>Dormant</French>
+		<German>Dormant</German>
+		<Italian>Dormant</Italian>
+		<Spanish>Dormant</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BROOD_ACTIVITY_2</Tag>
+		<English>Astir</English>
+		<French>Astir</French>
+		<German>Astir</German>
+		<Italian>Astir</Italian>
+		<Spanish>Astir</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BROOD_ACTIVITY_3</Tag>
+		<English>Restless</English>
+		<French>Restless</French>
+		<German>Restless</German>
+		<Italian>Restless</Italian>
+		<Spanish>Restless</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_BROOD_ACTIVITY_4</Tag>
+		<English>Thronging</English>
+		<French>Thronging</French>
+		<German>Thronging</German>
+		<Italian>Thronging</Italian>
+		<Spanish>Thronging</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CALL_BABY_SPIDER</Tag>
+		<English>Call Baby Spider</English>
+		<French>Call Baby Spider</French>
+		<German>Call Baby Spider</German>
+		<Italian>Call Baby Spider</Italian>
+		<Spanish>Call Baby Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CALL_SPIDER</Tag>
+		<English>Call Spider</English>
+		<French>Call Spider</French>
+		<German>Call Spider</German>
+		<Italian>Call Spider</Italian>
+		<Spanish>Call Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CALL_GIANT_SPIDER</Tag>
+		<English>Call Giant Spider</English>
+		<French>Call Giant Spider</French>
+		<German>Call Giant Spider</German>
+		<Italian>Call Giant Spider</Italian>
+		<Spanish>Call Giant Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CALL_BABY_SPIDER_HELP</Tag>
+		<English>[ICON_BULLET]Spend 25 Brood Activity to summon a baby spider in a city you own.</English>
+		<French>[ICON_BULLET]Spend 25 Brood Activity to summon a baby spider in a city you own.</French>
+		<German>[ICON_BULLET]Spend 25 Brood Activity to summon a baby spider in a city you own.</German>
+		<Italian>[ICON_BULLET]Spend 25 Brood Activity to summon a baby spider in a city you own.</Italian>
+		<Spanish>[ICON_BULLET]Spend 25 Brood Activity to summon a baby spider in a city you own.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CALL_SPIDER_HELP</Tag>
+		<English>[ICON_BULLET]Spend 75 Brood Activity to summon a giant spider in a city you own of size 6 or greater.</English>
+		<French>[ICON_BULLET]Spend 75 Brood Activity to summon a giant spider in a city you own of size 6 or greater.</French>
+		<German>[ICON_BULLET]Spend 75 Brood Activity to summon a giant spider in a city you own of size 6 or greater.</German>
+		<Italian>[ICON_BULLET]Spend 75 Brood Activity to summon a giant spider in a city you own of size 6 or greater.</Italian>
+		<Spanish>[ICON_BULLET]Spend 75 Brood Activity to summon a giant spider in a city you own of size 6 or greater.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CALL_GIANT_SPIDER_HELP</Tag>
+		<English>[ICON_BULLET]Spend 150 Brood Activity to summon a giant spider in a city you own of size 11 or greater.</English>
+		<French>[ICON_BULLET]Spend 150 Brood Activity to summon a giant spider in a city you own of size 11 or greater.</French>
+		<German>[ICON_BULLET]Spend 150 Brood Activity to summon a giant spider in a city you own of size 11 or greater.</German>
+		<Italian>[ICON_BULLET]Spend 150 Brood Activity to summon a giant spider in a city you own of size 11 or greater.</Italian>
+		<Spanish>[ICON_BULLET]Spend 150 Brood Activity to summon a giant spider in a city you own of size 11 or greater.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DIET_OF_WORMS</Tag>
+		<English>Diet of Worms</English>
+		<French>Diet of Worms</French>
+		<German>Diet of Worms</German>
+		<Italian>Diet of Worms</Italian>
+		<Spanish>Diet of Worms</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_DIET_OF_WORMS_PEDIA</Tag>
+		<English>[TAB]Created by the Diet of Worms spell. Adds 4 food and 8 unhealthiness in the city. Lasts until the caster leaves the city.</English>
+		<French>[TAB]Created by the Diet of Worms spell. Adds 4 food and 8 unhealthiness in the city. Lasts until the caster leaves the city.</French>
+		<German>[TAB]Created by the Diet of Worms spell. Adds 4 food and 8 unhealthiness in the city. Lasts until the caster leaves the city.</German>
+		<Italian>[TAB]Created by the Diet of Worms spell. Adds 4 food and 8 unhealthiness in the city. Lasts until the caster leaves the city.</Italian>
+		<Spanish>[TAB]Created by the Diet of Worms spell. Adds 4 food and 8 unhealthiness in the city. Lasts until the caster leaves the city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DIET_OF_WORMS</Tag>
+		<English>Diet of Worms</English>
+		<French>Diet of Worms</French>
+		<German>Diet of Worms</German>
+		<Italian>Diet of Worms</Italian>
+		<Spanish>Diet of Worms</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DIET_OF_WORMS_PEDIA</Tag>
+		<English>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</English>
+		<French>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</French>
+		<German>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</German>
+		<Italian>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</Italian>
+		<Spanish>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DIET_OF_WORMS_HELP</Tag>
+		<English>[ICON_BULLET]Spend 100 Brood Activity to find an extra source of food for the people of the city, at the cost of their health (+4 Food, +8 Unhealthiness)</English>
+		<French>[ICON_BULLET]Spend 100 Brood Activity to find an extra source of food for the people of the city, at the cost of their health (+4 Food, +8 Unhealthiness)</French>
+		<German>[ICON_BULLET]Spend 100 Brood Activity to find an extra source of food for the people of the city, at the cost of their health (+4 Food, +8 Unhealthiness)</German>
+		<Italian>[ICON_BULLET]Spend 100 Brood Activity to find an extra source of food for the people of the city, at the cost of their health (+4 Food, +8 Unhealthiness)</Italian>
+		<Spanish>[ICON_BULLET]Spend 100 Brood Activity to find an extra source of food for the people of the city, at the cost of their health (+4 Food, +8 Unhealthiness)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PSALM_FOR_THE_SWARM</Tag>
+		<English>Psalm for the Swarm</English>
+		<French>Psalm for the Swarm</French>
+		<German>Psalm for the Swarm</German>
+		<Italian>Psalm for the Swarm</Italian>
+		<Spanish>Psalm for the Swarm</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PSALM_FOR_THE_SWARM_PEDIA</Tag>
+		<English>The haunting chants of the Haruspex draws forth even the most reclusive children of Mother.</English>
+		<French>The haunting chants of the Haruspex draws forth even the most reclusive children of Mother.</French>
+		<German>The haunting chants of the Haruspex draws forth even the most reclusive children of Mother.</German>
+		<Italian>The haunting chants of the Haruspex draws forth even the most reclusive children of Mother.</Italian>
+		<Spanish>The haunting chants of the Haruspex draws forth even the most reclusive children of Mother.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_PSALM_FOR_THE_SWARM_HELP</Tag>
+		<English>[ICON_BULLET]Gains 50 Brood Activity.</English>
+		<French>[ICON_BULLET]Gains 50 Brood Activity.</French>
+		<German>[ICON_BULLET]Gains 50 Brood Activity.</German>
+		<Italian>[ICON_BULLET]Gains 50 Brood Activity.</Italian>
+		<Spanish>[ICON_BULLET]Gains 50 Brood Activity.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SMEAR_POISON</Tag>
+		<English>Smear Poison</English>
+		<French>Smear Poison</French>
+		<German>Smear Poison</German>
+		<Italian>Smear Poison</Italian>
+		<Spanish>Smear Poison</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SMEAR_POISON_PEDIA</Tag>
+		<English>Vangards of the Archosian army are known to bless their weapons with the venom of Mother's young before charging headlong into battle.</English>
+		<French>Vangards of the Archosian army are known to bless their weapons with the venom of Mother's young before charging headlong into battle.</French>
+		<German>Vangards of the Archosian army are known to bless their weapons with the venom of Mother's young before charging headlong into battle.</German>
+		<Italian>Vangards of the Archosian army are known to bless their weapons with the venom of Mother's young before charging headlong into battle.</Italian>
+		<Spanish>Vangards of the Archosian army are known to bless their weapons with the venom of Mother's young before charging headlong into battle.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SMEAR_POISON_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice a Baby Spider without Growth Spurts to gain the Poisoned Blade promotion.</English>
+		<French>[ICON_BULLET]Sacrifice a Baby Spider without Growth Spurts to gain the Poisoned Blade promotion.</French>
+		<German>[ICON_BULLET]Sacrifice a Baby Spider without Growth Spurts to gain the Poisoned Blade promotion.</German>
+		<Italian>[ICON_BULLET]Sacrifice a Baby Spider without Growth Spurts to gain the Poisoned Blade promotion.</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice a Baby Spider without Growth Spurts to gain the Poisoned Blade promotion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CANNIBALIZE</Tag>
+		<English>Cannibalize</English>
+		<French>Cannibalize</French>
+		<German>Cannibalize</German>
+		<Italian>Cannibalize</Italian>
+		<Spanish>Cannibalize</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CANNIBALIZE_PEDIA</Tag>
+		<English>When food is scarce, spiders will not hesitate to feed upon their weaker siblings.</English>
+		<French>When food is scarce, spiders will not hesitate to feed upon their weaker siblings.</French>
+		<German>When food is scarce, spiders will not hesitate to feed upon their weaker siblings.</German>
+		<Italian>When food is scarce, spiders will not hesitate to feed upon their weaker siblings.</Italian>
+		<Spanish>When food is scarce, spiders will not hesitate to feed upon their weaker siblings.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_CANNIBALIZE_HELP</Tag>
+		<English>[ICON_BULLET]Consumes the weakest Baby Spider in stack to recover 15% health.</English>
+		<French>[ICON_BULLET]Consumes the weakest Baby Spider in stack to recover 15% health.</French>
+		<German>[ICON_BULLET]Consumes the weakest Baby Spider in stack to recover 15% health.</German>
+		<Italian>[ICON_BULLET]Consumes the weakest Baby Spider in stack to recover 15% health.</Italian>
+		<Spanish>[ICON_BULLET]Consumes the weakest Baby Spider in stack to recover 15% health.</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS</Tag>
+		<English>Maze of Webs</English>
+		<French>Maze of Webs</French>
+		<German>Maze of Webs</German>
+		<Italian>Maze of Webs</Italian>
+		<Spanish>Maze of Webs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_PEDIA</Tag>
+		<English>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</English>
+		<French>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</French>
+		<German>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</German>
+		<Italian>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</Italian>
+		<Spanish>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_HELP</Tag>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MAZE_OF_WEBS</Tag>
+		<English>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</English>
+		<French>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</French>
+		<German>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FEEDING_PEN</Tag>
+		<English>Feeding Pen</English>
+		<French>Feeding Pen</French>
+		<German>Feeding Pen</German>
+		<Italian>Feeding Pen</Italian>
+		<Spanish>Feeding Pen</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FEEDING_PEN_PEDIA</Tag>
+		<English>An Archosian feast is also a sacrifice to Mother. A choice portion is prepared, the meat of the thighbones: it is wrapped in a double fold of fat and the outside covered with small pieces of meat from different parts of the animal. Wine is poured over it, a libation, and the eight-legged critters carry it to the goddess below before the sacrificers at last begin their meal.</English>
+		<French>An Archosian feast is also a sacrifice to Mother. A choice portion is prepared, the meat of the thighbones: it is wrapped in a double fold of fat and the outside covered with small pieces of meat from different parts of the animal. Wine is poured over it, a libation, and the eight-legged critters carry it to the goddess below before the sacrificers at last begin their meal.</French>
+		<German>An Archosian feast is also a sacrifice to Mother. A choice portion is prepared, the meat of the thighbones: it is wrapped in a double fold of fat and the outside covered with small pieces of meat from different parts of the animal. Wine is poured over it, a libation, and the eight-legged critters carry it to the goddess below before the sacrificers at last begin their meal.</German>
+		<Italian>An Archosian feast is also a sacrifice to Mother. A choice portion is prepared, the meat of the thighbones: it is wrapped in a double fold of fat and the outside covered with small pieces of meat from different parts of the animal. Wine is poured over it, a libation, and the eight-legged critters carry it to the goddess below before the sacrificers at last begin their meal.</Italian>
+		<Spanish>An Archosian feast is also a sacrifice to Mother. A choice portion is prepared, the meat of the thighbones: it is wrapped in a double fold of fat and the outside covered with small pieces of meat from different parts of the animal. Wine is poured over it, a libation, and the eight-legged critters carry it to the goddess below before the sacrificers at last begin their meal.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_FEEDING_PEN_HELP</Tag>
+		<English>[ICON_BULLET]Provides 2 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</English>
+		<French>[ICON_BULLET]Provides 2 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</French>
+		<German>[ICON_BULLET]Provides 2 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</German>
+		<Italian>[ICON_BULLET]Provides 2 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</Italian>
+		<Spanish>[ICON_BULLET]Provides 2 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_FEEDING_PEN</Tag>
+		<English>Build a [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pen[\LINK]</English>
+		<French>Build a [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pen[\LINK]</French>
+		<German>Build a [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pen[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pen[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pen[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARCHOSIAN_WORKER</Tag>
+		<English>Archosian Worker</English>
+		<French>Archosian Worker</French>
+		<German>Archosian Worker</German>
+		<Italian>Archosian Worker</Italian>
+		<Spanish>Archosian Worker</Spanish>
 	</TEXT>
 </Civ4GameText>
