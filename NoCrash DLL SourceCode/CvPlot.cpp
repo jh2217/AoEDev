@@ -648,11 +648,11 @@ void CvPlot::doTurn()
 					int iDivisor;
 					if (area()->isWater())
 					{
-						iDivisor = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getUnownedWaterTilesPerBarbarianUnit();
+						iDivisor = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getWaterTilesPerOrc();
 					}
 					else
 					{
-						iDivisor = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getUnownedTilesPerBarbarianUnit();
+						iDivisor = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getTilesPerOrc();
 					}
 
 					if (GC.getGameINLINE().isOption(GAMEOPTION_RAGING_BARBARIANS))

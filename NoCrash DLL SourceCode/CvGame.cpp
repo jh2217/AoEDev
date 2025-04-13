@@ -10873,7 +10873,7 @@ void CvGame::createDemons()
 		return;
 	}
 
-	iMultiplier = GC.getHandicapInfo(getHandicapType()).getPercentDemonsPerUnownedEvilPlot() + (getGlobalCounter()/std::max(1, GC.getHandicapInfo(getHandicapType()).getDemonGlobalCountSpawnBoostInterval()))*GC.getHandicapInfo(getHandicapType()).getDemonGlobalCountSpawnBoostRate();
+	iMultiplier = GC.getHandicapInfo(getHandicapType()).getPercentDemonsPerEvilPlot() + (getGlobalCounter()/std::max(1, GC.getHandicapInfo(getHandicapType()).getDemonGlobalCountSpawnBoostInterval()))*GC.getHandicapInfo(getHandicapType()).getDemonGlobalCountSpawnBoostRate();
 
 	if (iMultiplier > 0)
 	{
@@ -10883,7 +10883,7 @@ void CvGame::createDemons()
 			iNeededDemons = (((int)sqrt((float)pLoopArea->getNumEvilTiles()*8) * iMultiplier) / 100 - (pLoopArea->getUnitsPerPlayer(DEMON_PLAYER)));
 			if (iNeededDemons > 0)
 			{
-				iNeededDemons = (iNeededDemons * (100 + (getGlobalCounter() * GC.getHandicapInfo(getHandicapType()).getDemonSpawnRateGlobalCounterEnhancementPercent()) / 100) / 100) / 8;
+				iNeededDemons = (iNeededDemons * (100 + (getGlobalCounter() * GC.getHandicapInfo(getHandicapType()).getPercentDemonsPerEvilPlotPerGlobalCounter()) / 100) / 100) / 8;
 
 				for (iI = 0; iI < iNeededDemons; iI++)
 				{
@@ -11015,7 +11015,7 @@ void CvGame::createAnimals()
 		return;
 	}
 
-	if (GC.getHandicapInfo(getHandicapType()).getUnownedTilesPerGameAnimal() <= 0)
+	if (GC.getHandicapInfo(getHandicapType()).getTilesPerAnimal() <= 0)
 	{
 		return;
 	}
@@ -11034,7 +11034,7 @@ void CvGame::createAnimals()
 	{
 		if (pLoopArea->isWater())
 		{
-			iNeededAnimals = std::max(1, (pLoopArea->getNumUnownedTiles() / GC.getHandicapInfo(getHandicapType()).getUnownedWaterTilesPerGameAnimal())) - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER);
+			iNeededAnimals = std::max(1, (pLoopArea->getNumUnownedTiles() / GC.getHandicapInfo(getHandicapType()).getWaterTilesPerAnimal())) - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER);
 			if (pLoopArea->getNumUnownedTiles() < 10)
 			{
 				iNeededAnimals = 0;
@@ -11042,7 +11042,7 @@ void CvGame::createAnimals()
 		}
 		else
 		{
-			iNeededAnimals = (pLoopArea->getNumUnownedTiles() / GC.getHandicapInfo(getHandicapType()).getUnownedTilesPerGameAnimal()) - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER);
+			iNeededAnimals = (pLoopArea->getNumUnownedTiles() / GC.getHandicapInfo(getHandicapType()).getTilesPerAnimal()) - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER);
 		}
 
 		if (iNeededAnimals > 0)
@@ -11185,12 +11185,12 @@ void CvGame::createBarbarianUnits()
 			if (pLoopArea->isWater())
 			{
 				eBarbUnitAI = UNITAI_ATTACK_SEA;
-				iDivisor = GC.getHandicapInfo(getHandicapType()).getUnownedWaterTilesPerBarbarianUnit();
+				iDivisor = GC.getHandicapInfo(getHandicapType()).getWaterTilesPerOrc();
 			}
 			else
 			{
 				eBarbUnitAI = UNITAI_ATTACK;
-				iDivisor = GC.getHandicapInfo(getHandicapType()).getUnownedTilesPerBarbarianUnit();
+				iDivisor = GC.getHandicapInfo(getHandicapType()).getTilesPerOrc();
 			}
 
 			if (isOption(GAMEOPTION_RAGING_BARBARIANS) && iDivisor>0)
@@ -11325,9 +11325,55 @@ void CvGame::createBarbarianUnits()
 		}
 	}
 }
-/*************************************************************************************************/
-/**	Spawn Groups							END													**/
-/*************************************************************************************************/
+
+// Each barb type has slightly different density limit calculation. All here for easy comparison
+int CvGame::calcNeededBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes ePlayer) const
+{
+	FAssertMsg(pArea != NULL, "Need passing valid area to calculated barb density");
+	FAssertMsg(ePlayer == ANIMAL_PLAYER || ePlayer == ORC_PLAYER || ePlayer == DEMON_PLAYER, "Need to calculate spawn for a barb team")
+
+	int iTargetBarbs = 0;
+	int iAreaSize = 0;
+
+	if (ePlayer == ANIMAL_PLAYER)
+	{
+		iAreaSize = bCountOwnedPlots ? pArea->getNumTiles() : pArea->getNumUnownedTiles();
+		int iDivisor = pArea->isWater ?
+			GC.getHandicapInfo(getHandicapType()).getWaterTilesPerAnimal() :
+			GC.getHandicapInfo(getHandicapType()).getTilesPerAnimal();
+
+		iTargetBarbs = iAreaSize / std::max(1, iDivisor);
+
+		if (isOption(GAMEOPTION_DOUBLE_ANIMALS)) iTargetBarbs *= 2;
+	}
+	else if (ePlayer == ORC_PLAYER)
+	{
+		iAreaSize = bCountOwnedPlots ? pArea->getNumTiles() : pArea->getNumUnownedTiles();
+		int iDivisor = pArea->isWater ?
+			GC.getHandicapInfo(getHandicapType()).getWaterTilesPerOrc() :
+			GC.getHandicapInfo(getHandicapType()).getTilesPerOrc();
+
+		iTargetBarbs = iAreaSize / std::max(1, iDivisor);
+	}
+	else
+	{
+		// Demons don't have an "unowned evil" tile calculation; need to add one in CvArea if desired
+		iAreaSize = pArea->getNumEvilTiles();
+		// Reduce density on water, otherwise big oceans can get loooots of demons
+		if (pArea->isWater()) iAreaSize /= 20;
+
+		// AC effect is additive to demons/evil plot calcuation. Ex: 10AC*0.4/AC adds +4% to the X%demon/evil tile target density
+		int iCounterAdjust = getGlobalCounter() * GC.getHandicapInfo(getHandicapType()).getPercentDemonsPerEvilPlotPerGlobalCounter() / 100;
+		iTargetBarbs = (GC.getHandicapInfo(getHandicapType()).getPercentDemonsPerEvilPlot() + iCounterAdjust) * iAreaSize / 100;
+	}
+
+	if (isOption(GAMEOPTION_RAGING_BARBARIANS)) iTargetBarbs *= 2;
+
+	int iBarbs = pArea->getUnitsPerPlayer(ePlayer);
+
+	// Min limit for spawning is handled per spawning type (random/group, lair)
+	return std::max(0, iTargetBarbs - iBarbs);
+}
 
 /*************************************************************************************************/
 /**	Spawn Groups						08/12/10									Valkrionn	**/

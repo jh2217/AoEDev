@@ -27733,9 +27733,9 @@ m_iHappyBonus(0),
 m_iAttitudeChange(0),
 m_iNoTechTradeModifier(0),
 m_iTechTradeKnownModifier(0),
-m_iUnownedTilesPerGameAnimal(0),
-m_iUnownedTilesPerBarbarianUnit(0),
-m_iUnownedWaterTilesPerBarbarianUnit(0),
+m_iTilesPerAnimal(0),
+m_iTilesPerOrc(0),
+m_iWaterTilesPerOrc(0),
 m_iUnownedTilesPerBarbarianCity(0),
 m_iBarbarianCreationTurnsElapsed(0),
 m_iBarbarianCityCreationTurnsElapsed(0),
@@ -27792,16 +27792,16 @@ m_iAIFreeXP(0.0f),
 /**																								**/
 /**										Initial Values											**/
 /*************************************************************************************************/
-m_iUnownedWaterTilesPerGameAnimal(0),
+m_iWaterTilesPerAnimal(0),
 m_iAnimalEscalationTurnsElapsed(0),
 m_iLairSpawnChance(0),
 m_iLairsPerCycle(0),
-m_iPercentDemonsPerUnownedEvilPlot(0),
+m_iPercentDemonsPerEvilPlot(0),
 m_iDemonGlobalCountSpawnBoostInterval(0),
 m_iDemonGlobalCountSpawnBoostRate(0),
 m_iDemonPerTurnKnownTechsPercent(0),
 m_iDemonGlobalCounterFreeXPPercent(0),
-m_iDemonSpawnRateGlobalCounterEnhancementPercent(0),
+m_iPercentDemonsPerEvilPlotPerGlobalCounter(0),
 m_iDemonBonus(0),
 m_iAIDemonBonus(0),
 /*************************************************************************************************/
@@ -27932,19 +27932,19 @@ int CvHandicapInfo::getTechTradeKnownModifier() const
 	return m_iTechTradeKnownModifier;
 }
 
-int CvHandicapInfo::getUnownedTilesPerGameAnimal() const
+int CvHandicapInfo::getTilesPerAnimal() const
 {
-	return m_iUnownedTilesPerGameAnimal;
+	return m_iTilesPerAnimal;
 }
 
-int CvHandicapInfo::getUnownedTilesPerBarbarianUnit() const
+int CvHandicapInfo::getTilesPerOrc() const
 {
-	return m_iUnownedTilesPerBarbarianUnit;
+	return m_iTilesPerOrc;
 }
 
-int CvHandicapInfo::getUnownedWaterTilesPerBarbarianUnit() const
+int CvHandicapInfo::getWaterTilesPerOrc() const
 {
-	return m_iUnownedWaterTilesPerBarbarianUnit;
+	return m_iWaterTilesPerOrc;
 }
 
 int CvHandicapInfo::getUnownedTilesPerBarbarianCity() const
@@ -28144,16 +28144,16 @@ int CvHandicapInfo::getLairSpawnRate() const
 /**																								**/
 /**									Called for Logic Checks										**/
 /*************************************************************************************************/
-int CvHandicapInfo::getUnownedWaterTilesPerGameAnimal() const					{return m_iUnownedWaterTilesPerGameAnimal;}
+int CvHandicapInfo::getWaterTilesPerAnimal() const					{return m_iWaterTilesPerAnimal;}
 int CvHandicapInfo::getAnimalEscalationTurnsElapsed() const						{return m_iAnimalEscalationTurnsElapsed;}
 int CvHandicapInfo::getLairSpawnChance() const									{return m_iLairSpawnChance;}
 int CvHandicapInfo::getLairsPerCycle() const									{return m_iLairsPerCycle;}
-int CvHandicapInfo::getPercentDemonsPerUnownedEvilPlot() const					{return m_iPercentDemonsPerUnownedEvilPlot;}
+int CvHandicapInfo::getPercentDemonsPerEvilPlot() const					{return m_iPercentDemonsPerEvilPlot;}
 int CvHandicapInfo::getDemonGlobalCountSpawnBoostInterval() const				{return m_iDemonGlobalCountSpawnBoostInterval;}
 int CvHandicapInfo::getDemonGlobalCountSpawnBoostRate() const					{return m_iDemonGlobalCountSpawnBoostRate;}
 int CvHandicapInfo::getDemonPerTurnKnownTechsPercent() const					{return m_iDemonPerTurnKnownTechsPercent;}
 int CvHandicapInfo::getDemonGlobalCounterFreeXPPercent() const					{return m_iDemonGlobalCounterFreeXPPercent;}
-int CvHandicapInfo::getDemonSpawnRateGlobalCounterEnhancementPercent() const    {return m_iDemonSpawnRateGlobalCounterEnhancementPercent;}
+int CvHandicapInfo::getPercentDemonsPerEvilPlotPerGlobalCounter() const    {return m_iPercentDemonsPerEvilPlotPerGlobalCounter;}
 int CvHandicapInfo::getDemonBonus() const										{return m_iDemonBonus;}
 int CvHandicapInfo::getAIDemonBonus() const										{return m_iAIDemonBonus;}
 /*************************************************************************************************/
@@ -28211,9 +28211,9 @@ void CvHandicapInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_iAttitudeChange);
 	stream->Read(&m_iNoTechTradeModifier);
 	stream->Read(&m_iTechTradeKnownModifier);
-	stream->Read(&m_iUnownedTilesPerGameAnimal);
-	stream->Read(&m_iUnownedTilesPerBarbarianUnit);
-	stream->Read(&m_iUnownedWaterTilesPerBarbarianUnit);
+	stream->Read(&m_iTilesPerAnimal);
+	stream->Read(&m_iTilesPerOrc);
+	stream->Read(&m_iWaterTilesPerOrc);
 	stream->Read(&m_iUnownedTilesPerBarbarianCity);
 	stream->Read(&m_iBarbarianCreationTurnsElapsed);
 	stream->Read(&m_iBarbarianCityCreationTurnsElapsed);
@@ -28261,16 +28261,16 @@ void CvHandicapInfo::read(FDataStreamBase* stream)
 /**																								**/
 /**									Read Data from Save Files									**/
 /*************************************************************************************************/
-	stream->Read(&m_iUnownedWaterTilesPerGameAnimal);
+	stream->Read(&m_iWaterTilesPerAnimal);
 	stream->Read(&m_iAnimalEscalationTurnsElapsed);
 	stream->Read(&m_iLairSpawnChance);
 	stream->Read(&m_iLairsPerCycle);
-	stream->Read(&m_iPercentDemonsPerUnownedEvilPlot);
+	stream->Read(&m_iPercentDemonsPerEvilPlot);
 	stream->Read(&m_iDemonGlobalCountSpawnBoostInterval);
 	stream->Read(&m_iDemonGlobalCountSpawnBoostRate);
 	stream->Read(&m_iDemonPerTurnKnownTechsPercent);
 	stream->Read(&m_iDemonGlobalCounterFreeXPPercent);
-	stream->Read(&m_iDemonSpawnRateGlobalCounterEnhancementPercent);
+	stream->Read(&m_iPercentDemonsPerEvilPlotPerGlobalCounter);
 	stream->Read(&m_iDemonBonus);
 	stream->Read(&m_iAIDemonBonus);
 /*************************************************************************************************/
@@ -28320,9 +28320,9 @@ void CvHandicapInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iAttitudeChange);
 	stream->Write(m_iNoTechTradeModifier);
 	stream->Write(m_iTechTradeKnownModifier);
-	stream->Write(m_iUnownedTilesPerGameAnimal);
-	stream->Write(m_iUnownedTilesPerBarbarianUnit);
-	stream->Write(m_iUnownedWaterTilesPerBarbarianUnit);
+	stream->Write(m_iTilesPerAnimal);
+	stream->Write(m_iTilesPerOrc);
+	stream->Write(m_iWaterTilesPerOrc);
 	stream->Write(m_iUnownedTilesPerBarbarianCity);
 	stream->Write(m_iBarbarianCreationTurnsElapsed);
 	stream->Write(m_iBarbarianCityCreationTurnsElapsed);
@@ -28370,16 +28370,16 @@ void CvHandicapInfo::write(FDataStreamBase* stream)
 /**																								**/
 /**									Write Data to Save Files									**/
 /*************************************************************************************************/
-	stream->Write(m_iUnownedWaterTilesPerGameAnimal);
+	stream->Write(m_iWaterTilesPerAnimal);
 	stream->Write(m_iAnimalEscalationTurnsElapsed);
 	stream->Write(m_iLairSpawnChance);
 	stream->Write(m_iLairsPerCycle);
-	stream->Write(m_iPercentDemonsPerUnownedEvilPlot);
+	stream->Write(m_iPercentDemonsPerEvilPlot);
 	stream->Write(m_iDemonGlobalCountSpawnBoostInterval);
 	stream->Write(m_iDemonGlobalCountSpawnBoostRate);
 	stream->Write(m_iDemonPerTurnKnownTechsPercent);
 	stream->Write(m_iDemonGlobalCounterFreeXPPercent);
-	stream->Write(m_iDemonSpawnRateGlobalCounterEnhancementPercent);
+	stream->Write(m_iPercentDemonsPerEvilPlotPerGlobalCounter);
 	stream->Write(m_iDemonBonus);
 	stream->Write(m_iAIDemonBonus);
 /*************************************************************************************************/
@@ -28423,9 +28423,9 @@ bool CvHandicapInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_iAttitudeChange, "iAttitudeChange");
 	pXML->GetChildXmlValByName(&m_iNoTechTradeModifier, "iNoTechTradeModifier");
 	pXML->GetChildXmlValByName(&m_iTechTradeKnownModifier, "iTechTradeKnownModifier");
-	pXML->GetChildXmlValByName(&m_iUnownedTilesPerGameAnimal, "iUnownedTilesPerGameAnimal");
-	pXML->GetChildXmlValByName(&m_iUnownedTilesPerBarbarianUnit, "iUnownedTilesPerBarbarianUnit");
-	pXML->GetChildXmlValByName(&m_iUnownedWaterTilesPerBarbarianUnit, "iUnownedWaterTilesPerBarbarianUnit");
+	pXML->GetChildXmlValByName(&m_iTilesPerAnimal, "iTilesPerAnimal");
+	pXML->GetChildXmlValByName(&m_iTilesPerOrc, "iTilesPerOrc");
+	pXML->GetChildXmlValByName(&m_iWaterTilesPerOrc, "iWaterTilesPerOrc");
 	pXML->GetChildXmlValByName(&m_iUnownedTilesPerBarbarianCity, "iUnownedTilesPerBarbarianCity");
 	pXML->GetChildXmlValByName(&m_iBarbarianCreationTurnsElapsed, "iBarbarianCreationTurnsElapsed");
 	pXML->GetChildXmlValByName(&m_iBarbarianCityCreationTurnsElapsed, "iBarbarianCityCreationTurnsElapsed");
@@ -28464,16 +28464,16 @@ bool CvHandicapInfo::read(CvXMLLoadUtility* pXML)
 /**																								**/
 /**									Loads Information from XML									**/
 /*************************************************************************************************/
-	pXML->GetChildXmlValByName(&m_iUnownedWaterTilesPerGameAnimal, "iUnownedWaterTilesPerGameAnimal");
+	pXML->GetChildXmlValByName(&m_iWaterTilesPerAnimal, "iWaterTilesPerAnimal");
 	pXML->GetChildXmlValByName(&m_iAnimalEscalationTurnsElapsed, "iAnimalEscalationTurnsElapsed");
 	pXML->GetChildXmlValByName(&m_iLairSpawnChance, "iLairSpawnChance");
 	pXML->GetChildXmlValByName(&m_iLairsPerCycle, "iLairsPerCycle");
-	pXML->GetChildXmlValByName(&m_iPercentDemonsPerUnownedEvilPlot, "iPercentDemonsPerUnownedEvilPlot");
+	pXML->GetChildXmlValByName(&m_iPercentDemonsPerEvilPlot, "iPercentDemonsPerEvilPlot");
 	pXML->GetChildXmlValByName(&m_iDemonGlobalCountSpawnBoostInterval, "iDemonGlobalCountSpawnBoostInterval");
 	pXML->GetChildXmlValByName(&m_iDemonGlobalCountSpawnBoostRate, "iDemonGlobalCountSpawnBoostRate");
 	pXML->GetChildXmlValByName(&m_iDemonPerTurnKnownTechsPercent, "iDemonPerTurnKnownTechsPercent");
 	pXML->GetChildXmlValByName(&m_iDemonGlobalCounterFreeXPPercent, "iDemonGlobalCounterFreeXPPercent");
-	pXML->GetChildXmlValByName(&m_iDemonSpawnRateGlobalCounterEnhancementPercent, "iDemonSpawnRateGlobalCounterEnhancementPercent");
+	pXML->GetChildXmlValByName(&m_iPercentDemonsPerEvilPlotPerGlobalCounter, "iPercentDemonsPerEvilPlotPerGlobalCounter");
 	pXML->GetChildXmlValByName(&m_iDemonBonus, "iDemonBonus");
 	pXML->GetChildXmlValByName(&m_iAIDemonBonus, "iAIDemonBonus");
 /*************************************************************************************************/
@@ -28548,9 +28548,9 @@ void CvHandicapInfo::copyNonDefaults(CvHandicapInfo* pClassInfo, CvXMLLoadUtilit
 	if (getAttitudeChange()						== 0)		m_iAttitudeChange						= pClassInfo->getAttitudeChange();
 	if (getNoTechTradeModifier()				== 0)		m_iNoTechTradeModifier					= pClassInfo->getNoTechTradeModifier();
 	if (getTechTradeKnownModifier()				== 0)		m_iTechTradeKnownModifier				= pClassInfo->getTechTradeKnownModifier();
-	if (getUnownedTilesPerGameAnimal()			== 0)		m_iUnownedTilesPerGameAnimal			= pClassInfo->getUnownedTilesPerGameAnimal();
-	if (getUnownedTilesPerBarbarianUnit()		== 0)		m_iUnownedTilesPerBarbarianUnit			= pClassInfo->getUnownedTilesPerBarbarianUnit();
-	if (getUnownedWaterTilesPerBarbarianUnit()	== 0)		m_iUnownedWaterTilesPerBarbarianUnit	= pClassInfo->getUnownedWaterTilesPerBarbarianUnit();
+	if (getTilesPerAnimal()			== 0)		m_iTilesPerAnimal			= pClassInfo->getTilesPerAnimal();
+	if (getTilesPerOrc()		== 0)		m_iTilesPerOrc			= pClassInfo->getTilesPerOrc();
+	if (getWaterTilesPerOrc()	== 0)		m_iWaterTilesPerOrc	= pClassInfo->getWaterTilesPerOrc();
 	if (getUnownedTilesPerBarbarianCity()		== 0)		m_iUnownedTilesPerBarbarianCity			= pClassInfo->getUnownedTilesPerBarbarianCity();
 	if (getBarbarianCreationTurnsElapsed()		== 0)		m_iBarbarianCreationTurnsElapsed		= pClassInfo->getBarbarianCreationTurnsElapsed();
 	if (getBarbarianCityCreationTurnsElapsed()	== 0)		m_iBarbarianCityCreationTurnsElapsed	= pClassInfo->getBarbarianCityCreationTurnsElapsed();
@@ -28584,16 +28584,16 @@ void CvHandicapInfo::copyNonDefaults(CvHandicapInfo* pClassInfo, CvXMLLoadUtilit
 	if (getAIWarWearinessPercent()				== 0)		m_iAIWarWearinessPercent				= pClassInfo->getAIWarWearinessPercent();
 	if (getAIPerEraModifier()					== 0)		m_iAIPerEraModifier						= pClassInfo->getAIPerEraModifier();
 	if (getAIAdvancedStartPercent()				== 0)		m_iAIAdvancedStartPercent				= pClassInfo->getAIAdvancedStartPercent();
-	if (getUnownedWaterTilesPerGameAnimal()		== 0)		m_iUnownedWaterTilesPerGameAnimal		= pClassInfo->getUnownedWaterTilesPerGameAnimal();
+	if (getWaterTilesPerAnimal()		== 0)		m_iWaterTilesPerAnimal		= pClassInfo->getWaterTilesPerAnimal();
 	if (getAnimalEscalationTurnsElapsed()		== 0)		m_iAnimalEscalationTurnsElapsed			= pClassInfo->getAnimalEscalationTurnsElapsed();
 	if (getLairSpawnChance()					== 0)		m_iLairSpawnChance						= pClassInfo->getLairSpawnChance();
 	if (getLairsPerCycle()						== 0)		m_iLairsPerCycle						= pClassInfo->getLairsPerCycle();
-	if (getPercentDemonsPerUnownedEvilPlot()	== 0)		m_iPercentDemonsPerUnownedEvilPlot		= pClassInfo->getPercentDemonsPerUnownedEvilPlot();
+	if (getPercentDemonsPerEvilPlot()	== 0)		m_iPercentDemonsPerEvilPlot		= pClassInfo->getPercentDemonsPerEvilPlot();
 	if (getDemonGlobalCountSpawnBoostInterval()	== 0)		m_iDemonGlobalCountSpawnBoostInterval	= pClassInfo->getDemonGlobalCountSpawnBoostInterval();
 	if (getDemonGlobalCountSpawnBoostRate()		== 0)		m_iDemonGlobalCountSpawnBoostRate		= pClassInfo->getDemonGlobalCountSpawnBoostRate();
 	if (getDemonPerTurnKnownTechsPercent()		== 0)		m_iDemonPerTurnKnownTechsPercent		= pClassInfo->getDemonPerTurnKnownTechsPercent();
 	if (getDemonGlobalCounterFreeXPPercent()	== 0)		m_iDemonGlobalCounterFreeXPPercent		= pClassInfo->getDemonGlobalCounterFreeXPPercent();
-	if (getDemonSpawnRateGlobalCounterEnhancementPercent()	== 0)	m_iDemonSpawnRateGlobalCounterEnhancementPercent	= pClassInfo->getDemonSpawnRateGlobalCounterEnhancementPercent();
+	if (getPercentDemonsPerEvilPlotPerGlobalCounter()	== 0)	m_iPercentDemonsPerEvilPlotPerGlobalCounter	= pClassInfo->getPercentDemonsPerEvilPlotPerGlobalCounter();
 	if (getDemonBonus()							== 0)		m_iDemonBonus							= pClassInfo->getDemonBonus();
 	if (getAIDemonBonus()						== 0)		m_iAIDemonBonus							= pClassInfo->getAIDemonBonus();
 	if (getAIFreeXP()							== 0)		m_iAIFreeXP								= (float)pClassInfo->getAIFreeXP()/100.0f;

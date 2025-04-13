@@ -5777,9 +5777,9 @@ public:
 	int getAttitudeChange() const;				// Exposed to Python
 	int getNoTechTradeModifier() const;				// Exposed to Python
 	int getTechTradeKnownModifier() const;				// Exposed to Python
-	int getUnownedTilesPerGameAnimal() const;				// Exposed to Python
-	int getUnownedTilesPerBarbarianUnit() const;				// Exposed to Python
-	int getUnownedWaterTilesPerBarbarianUnit() const;				// Exposed to Python
+	int getTilesPerAnimal() const;				// Exposed to Python
+	int getTilesPerOrc() const;				// Exposed to Python
+	int getWaterTilesPerOrc() const;				// Exposed to Python
 	int getUnownedTilesPerBarbarianCity() const;				// Exposed to Python
 	int getBarbarianCreationTurnsElapsed() const;				// Exposed to Python
 	int getBarbarianCityCreationTurnsElapsed() const;				// Exposed to Python
@@ -5825,16 +5825,16 @@ public:
 /**																								**/
 /**								Defines Function for Use in .cpp								**/
 /*************************************************************************************************/
-	int getUnownedWaterTilesPerGameAnimal() const;
+	int getWaterTilesPerAnimal() const;
 	int getAnimalEscalationTurnsElapsed() const;
 	int getLairSpawnChance() const;
 	int getLairsPerCycle() const;
-	int getPercentDemonsPerUnownedEvilPlot() const;
+	int getPercentDemonsPerEvilPlot() const;
 	int getDemonGlobalCountSpawnBoostInterval() const;
 	int getDemonGlobalCountSpawnBoostRate() const;
 	int getDemonPerTurnKnownTechsPercent() const;
 	int getDemonGlobalCounterFreeXPPercent() const;
-	int getDemonSpawnRateGlobalCounterEnhancementPercent() const;
+	int getPercentDemonsPerEvilPlotPerGlobalCounter() const;
 	int getDemonBonus() const;
 	int getAIDemonBonus() const;
 /*************************************************************************************************/
@@ -5885,9 +5885,9 @@ protected:
 	int m_iAttitudeChange;
 	int m_iNoTechTradeModifier;
 	int m_iTechTradeKnownModifier;
-	int m_iUnownedTilesPerGameAnimal;
-	int m_iUnownedTilesPerBarbarianUnit;
-	int m_iUnownedWaterTilesPerBarbarianUnit;
+	int m_iTilesPerAnimal;
+	int m_iTilesPerOrc;
+	int m_iWaterTilesPerOrc;
 	int m_iUnownedTilesPerBarbarianCity;
 	int m_iBarbarianCreationTurnsElapsed;
 	int m_iBarbarianCityCreationTurnsElapsed;
@@ -5944,16 +5944,16 @@ protected:
 /**																								**/
 /**								Defines Variable for Use in .cpp								**/
 /*************************************************************************************************/
-	int m_iUnownedWaterTilesPerGameAnimal;
+	int m_iWaterTilesPerAnimal;
 	int m_iAnimalEscalationTurnsElapsed;
 	int m_iLairSpawnChance;
 	int m_iLairsPerCycle;
-	int m_iPercentDemonsPerUnownedEvilPlot;
+	int m_iPercentDemonsPerEvilPlot;
 	int m_iDemonGlobalCountSpawnBoostInterval;
 	int m_iDemonGlobalCountSpawnBoostRate;
 	int m_iDemonPerTurnKnownTechsPercent;
 	int m_iDemonGlobalCounterFreeXPPercent;
-	int m_iDemonSpawnRateGlobalCounterEnhancementPercent;
+	int m_iPercentDemonsPerEvilPlotPerGlobalCounter;
 	int m_iDemonBonus;
 	int m_iAIDemonBonus;
 /*************************************************************************************************/

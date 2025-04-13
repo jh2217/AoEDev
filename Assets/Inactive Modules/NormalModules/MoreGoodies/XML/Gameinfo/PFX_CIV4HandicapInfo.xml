@@ -32,9 +32,9 @@
 			<iAttitudeChange>-1</iAttitudeChange>
 			<iNoTechTradeModifier>20</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
-			<iUnownedTilesPerGameAnimal>15</iUnownedTilesPerGameAnimal>
-			<iUnownedTilesPerBarbarianUnit>15</iUnownedTilesPerBarbarianUnit>
-			<iUnownedWaterTilesPerBarbarianUnit>150</iUnownedWaterTilesPerBarbarianUnit>
+			<iTilesPerAnimal>15</iTilesPerAnimal>
+			<iTilesPerOrc>15</iTilesPerOrc>
+			<iWaterTilesPerOrc>150</iWaterTilesPerOrc>
 			<iUnownedTilesPerBarbarianCity>21</iUnownedTilesPerBarbarianCity>
 			<iBarbarianCreationTurnsElapsed>10</iBarbarianCreationTurnsElapsed>
 			<iBarbarianCityCreationTurnsElapsed>15</iBarbarianCityCreationTurnsElapsed>
@@ -112,14 +112,14 @@
 			</AIFreeTechs>
 			<iAIFreeXP>8</iAIFreeXP>
 			<iLairSpawnRate>6</iLairSpawnRate>
-			<iUnownedWaterTilesPerGameAnimal>75</iUnownedWaterTilesPerGameAnimal>
+			<iWaterTilesPerAnimal>75</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>35</iAnimalEscalationTurnsElapsed>
 			<iLairSpawnChance>95</iLairSpawnChance>
 			<iLairsPerCycle>9</iLairsPerCycle>
-			<iPercentDemonsPerUnownedEvilPlot>90</iPercentDemonsPerUnownedEvilPlot>
+			<iPercentDemonsPerEvilPlot>90</iPercentDemonsPerEvilPlot>
 			<iDemonGlobalCountSpawnBoostInterval>0</iDemonGlobalCountSpawnBoostInterval>
 			<iDemonGlobalCountSpawnBoostRate>0</iDemonGlobalCountSpawnBoostRate>
-			<iDemonSpawnRateGlobalCounterEnhancementPercent>700</iDemonSpawnRateGlobalCounterEnhancementPercent>
+			<iPercentDemonsPerEvilPlotPerGlobalCounter>700</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>130</iDemonGlobalCounterFreeXPPercent>
 			<iDemonPerTurnKnownTechsPercent>15</iDemonPerTurnKnownTechsPercent>
 			<iDemonBonus>0</iDemonBonus>
