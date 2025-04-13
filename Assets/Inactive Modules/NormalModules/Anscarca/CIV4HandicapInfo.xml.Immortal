@@ -113,8 +113,6 @@
 			<iLairSpawnChance>90</iLairSpawnChance>
 			<iLairsPerCycle>8</iLairsPerCycle>
 			<iPercentDemonsPerEvilPlot>80</iPercentDemonsPerEvilPlot>
-			<iDemonGlobalCountSpawnBoostInterval>0</iDemonGlobalCountSpawnBoostInterval>
-			<iDemonGlobalCountSpawnBoostRate>0</iDemonGlobalCountSpawnBoostRate>
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>550</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>90</iDemonGlobalCounterFreeXPPercent>
 			<iDemonPerTurnKnownTechsPercent>10</iDemonPerTurnKnownTechsPercent>

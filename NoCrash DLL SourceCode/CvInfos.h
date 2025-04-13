@@ -5830,8 +5830,6 @@ public:
 	int getLairSpawnChance() const;
 	int getLairsPerCycle() const;
 	int getPercentDemonsPerEvilPlot() const;
-	int getDemonGlobalCountSpawnBoostInterval() const;
-	int getDemonGlobalCountSpawnBoostRate() const;
 	int getDemonPerTurnKnownTechsPercent() const;
 	int getDemonGlobalCounterFreeXPPercent() const;
 	int getPercentDemonsPerEvilPlotPerGlobalCounter() const;
@@ -5949,8 +5947,6 @@ protected:
 	int m_iLairSpawnChance;
 	int m_iLairsPerCycle;
 	int m_iPercentDemonsPerEvilPlot;
-	int m_iDemonGlobalCountSpawnBoostInterval;
-	int m_iDemonGlobalCountSpawnBoostRate;
 	int m_iDemonPerTurnKnownTechsPercent;
 	int m_iDemonGlobalCounterFreeXPPercent;
 	int m_iPercentDemonsPerEvilPlotPerGlobalCounter;

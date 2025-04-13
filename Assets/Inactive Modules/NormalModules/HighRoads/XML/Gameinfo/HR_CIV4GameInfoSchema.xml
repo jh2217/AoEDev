@@ -633,8 +633,6 @@
 		<element type="iLairSpawnChance"/>
 		<element type="iLairsPerCycle"/>
 		<element type="iPercentDemonsPerEvilPlot"/>
-		<element type="iDemonGlobalCountSpawnBoostInterval"/>
-		<element type="iDemonGlobalCountSpawnBoostRate"/>
 		<element type="iPercentDemonsPerEvilPlotPerGlobalCounter"/>
 		<element type="iDemonGlobalCounterFreeXPPercent"/>
 		<element type="iDemonPerTurnKnownTechsPercent"/>
@@ -649,8 +647,6 @@
 	<ElementType name="iLairSpawnChance" content="textOnly" dt:type="int"/>
 	<ElementType name="iLairsPerCycle" content="textOnly" dt:type="int"/>
 	<ElementType name="iPercentDemonsPerEvilPlot" content="textOnly" dt:type="int"/>
-	<ElementType name="iDemonGlobalCountSpawnBoostInterval" content="textOnly" dt:type="int"/>
-	<ElementType name="iDemonGlobalCountSpawnBoostRate" content="textOnly" dt:type="int"/>
 	<ElementType name="iPercentDemonsPerEvilPlotPerGlobalCounter" content="textOnly" dt:type="int"/>
 	<ElementType name="iDemonGlobalCounterFreeXPPercent" content="textOnly" dt:type="int"/>
 	<ElementType name="iDemonPerTurnKnownTechsPercent" content="textOnly" dt:type="int"/>

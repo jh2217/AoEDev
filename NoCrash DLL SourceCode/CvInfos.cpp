@@ -27797,8 +27797,6 @@ m_iAnimalEscalationTurnsElapsed(0),
 m_iLairSpawnChance(0),
 m_iLairsPerCycle(0),
 m_iPercentDemonsPerEvilPlot(0),
-m_iDemonGlobalCountSpawnBoostInterval(0),
-m_iDemonGlobalCountSpawnBoostRate(0),
 m_iDemonPerTurnKnownTechsPercent(0),
 m_iDemonGlobalCounterFreeXPPercent(0),
 m_iPercentDemonsPerEvilPlotPerGlobalCounter(0),
@@ -27810,8 +27808,6 @@ m_iAIDemonBonus(0),
 m_iLairSpawnRate(0)
 //FfH: End Add
 
-{
-}
 
 //------------------------------------------------------------------------------------------------------
 //
@@ -28144,16 +28140,14 @@ int CvHandicapInfo::getLairSpawnRate() const
 /**																								**/
 /**									Called for Logic Checks										**/
 /*************************************************************************************************/
-int CvHandicapInfo::getWaterTilesPerAnimal() const					{return m_iWaterTilesPerAnimal;}
+int CvHandicapInfo::getWaterTilesPerAnimal() const								{return m_iWaterTilesPerAnimal;}
 int CvHandicapInfo::getAnimalEscalationTurnsElapsed() const						{return m_iAnimalEscalationTurnsElapsed;}
 int CvHandicapInfo::getLairSpawnChance() const									{return m_iLairSpawnChance;}
 int CvHandicapInfo::getLairsPerCycle() const									{return m_iLairsPerCycle;}
-int CvHandicapInfo::getPercentDemonsPerEvilPlot() const					{return m_iPercentDemonsPerEvilPlot;}
-int CvHandicapInfo::getDemonGlobalCountSpawnBoostInterval() const				{return m_iDemonGlobalCountSpawnBoostInterval;}
-int CvHandicapInfo::getDemonGlobalCountSpawnBoostRate() const					{return m_iDemonGlobalCountSpawnBoostRate;}
+int CvHandicapInfo::getPercentDemonsPerEvilPlot() const							{return m_iPercentDemonsPerEvilPlot;}
 int CvHandicapInfo::getDemonPerTurnKnownTechsPercent() const					{return m_iDemonPerTurnKnownTechsPercent;}
 int CvHandicapInfo::getDemonGlobalCounterFreeXPPercent() const					{return m_iDemonGlobalCounterFreeXPPercent;}
-int CvHandicapInfo::getPercentDemonsPerEvilPlotPerGlobalCounter() const    {return m_iPercentDemonsPerEvilPlotPerGlobalCounter;}
+int CvHandicapInfo::getPercentDemonsPerEvilPlotPerGlobalCounter() const			{return m_iPercentDemonsPerEvilPlotPerGlobalCounter;}
 int CvHandicapInfo::getDemonBonus() const										{return m_iDemonBonus;}
 int CvHandicapInfo::getAIDemonBonus() const										{return m_iAIDemonBonus;}
 /*************************************************************************************************/
@@ -28266,8 +28260,6 @@ void CvHandicapInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_iLairSpawnChance);
 	stream->Read(&m_iLairsPerCycle);
 	stream->Read(&m_iPercentDemonsPerEvilPlot);
-	stream->Read(&m_iDemonGlobalCountSpawnBoostInterval);
-	stream->Read(&m_iDemonGlobalCountSpawnBoostRate);
 	stream->Read(&m_iDemonPerTurnKnownTechsPercent);
 	stream->Read(&m_iDemonGlobalCounterFreeXPPercent);
 	stream->Read(&m_iPercentDemonsPerEvilPlotPerGlobalCounter);
@@ -28375,8 +28367,6 @@ void CvHandicapInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iLairSpawnChance);
 	stream->Write(m_iLairsPerCycle);
 	stream->Write(m_iPercentDemonsPerEvilPlot);
-	stream->Write(m_iDemonGlobalCountSpawnBoostInterval);
-	stream->Write(m_iDemonGlobalCountSpawnBoostRate);
 	stream->Write(m_iDemonPerTurnKnownTechsPercent);
 	stream->Write(m_iDemonGlobalCounterFreeXPPercent);
 	stream->Write(m_iPercentDemonsPerEvilPlotPerGlobalCounter);
@@ -28469,8 +28459,6 @@ bool CvHandicapInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_iLairSpawnChance, "iLairSpawnChance");
 	pXML->GetChildXmlValByName(&m_iLairsPerCycle, "iLairsPerCycle");
 	pXML->GetChildXmlValByName(&m_iPercentDemonsPerEvilPlot, "iPercentDemonsPerEvilPlot");
-	pXML->GetChildXmlValByName(&m_iDemonGlobalCountSpawnBoostInterval, "iDemonGlobalCountSpawnBoostInterval");
-	pXML->GetChildXmlValByName(&m_iDemonGlobalCountSpawnBoostRate, "iDemonGlobalCountSpawnBoostRate");
 	pXML->GetChildXmlValByName(&m_iDemonPerTurnKnownTechsPercent, "iDemonPerTurnKnownTechsPercent");
 	pXML->GetChildXmlValByName(&m_iDemonGlobalCounterFreeXPPercent, "iDemonGlobalCounterFreeXPPercent");
 	pXML->GetChildXmlValByName(&m_iPercentDemonsPerEvilPlotPerGlobalCounter, "iPercentDemonsPerEvilPlotPerGlobalCounter");
@@ -28584,16 +28572,14 @@ void CvHandicapInfo::copyNonDefaults(CvHandicapInfo* pClassInfo, CvXMLLoadUtilit
 	if (getAIWarWearinessPercent()				== 0)		m_iAIWarWearinessPercent				= pClassInfo->getAIWarWearinessPercent();
 	if (getAIPerEraModifier()					== 0)		m_iAIPerEraModifier						= pClassInfo->getAIPerEraModifier();
 	if (getAIAdvancedStartPercent()				== 0)		m_iAIAdvancedStartPercent				= pClassInfo->getAIAdvancedStartPercent();
-	if (getWaterTilesPerAnimal()		== 0)		m_iWaterTilesPerAnimal		= pClassInfo->getWaterTilesPerAnimal();
+	if (getWaterTilesPerAnimal()				== 0)		m_iWaterTilesPerAnimal					= pClassInfo->getWaterTilesPerAnimal();
 	if (getAnimalEscalationTurnsElapsed()		== 0)		m_iAnimalEscalationTurnsElapsed			= pClassInfo->getAnimalEscalationTurnsElapsed();
 	if (getLairSpawnChance()					== 0)		m_iLairSpawnChance						= pClassInfo->getLairSpawnChance();
 	if (getLairsPerCycle()						== 0)		m_iLairsPerCycle						= pClassInfo->getLairsPerCycle();
-	if (getPercentDemonsPerEvilPlot()	== 0)		m_iPercentDemonsPerEvilPlot		= pClassInfo->getPercentDemonsPerEvilPlot();
-	if (getDemonGlobalCountSpawnBoostInterval()	== 0)		m_iDemonGlobalCountSpawnBoostInterval	= pClassInfo->getDemonGlobalCountSpawnBoostInterval();
-	if (getDemonGlobalCountSpawnBoostRate()		== 0)		m_iDemonGlobalCountSpawnBoostRate		= pClassInfo->getDemonGlobalCountSpawnBoostRate();
+	if (getPercentDemonsPerEvilPlot()			== 0)		m_iPercentDemonsPerEvilPlot				= pClassInfo->getPercentDemonsPerEvilPlot();
 	if (getDemonPerTurnKnownTechsPercent()		== 0)		m_iDemonPerTurnKnownTechsPercent		= pClassInfo->getDemonPerTurnKnownTechsPercent();
 	if (getDemonGlobalCounterFreeXPPercent()	== 0)		m_iDemonGlobalCounterFreeXPPercent		= pClassInfo->getDemonGlobalCounterFreeXPPercent();
-	if (getPercentDemonsPerEvilPlotPerGlobalCounter()	== 0)	m_iPercentDemonsPerEvilPlotPerGlobalCounter	= pClassInfo->getPercentDemonsPerEvilPlotPerGlobalCounter();
+	if (getPercentDemonsPerEvilPlotPerGlobalCounter()== 0)	m_iPercentDemonsPerEvilPlotPerGlobalCounter	= pClassInfo->getPercentDemonsPerEvilPlotPerGlobalCounter();
 	if (getDemonBonus()							== 0)		m_iDemonBonus							= pClassInfo->getDemonBonus();
 	if (getAIDemonBonus()						== 0)		m_iAIDemonBonus							= pClassInfo->getAIDemonBonus();
 	if (getAIFreeXP()							== 0)		m_iAIFreeXP								= (float)pClassInfo->getAIFreeXP()/100.0f;
