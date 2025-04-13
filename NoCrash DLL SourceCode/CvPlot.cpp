@@ -1015,87 +1015,85 @@ void CvPlot::doImprovement()
 
 void CvPlot::doImprovementUpgrade()
 {
-	if (getImprovementType() != NO_IMPROVEMENT)
+	if (getImprovementType() == NO_IMPROVEMENT) return;
+
+	ImprovementTypes eImprovementUpgrade = (ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementUpgrade();
+	if (eImprovementUpgrade == NO_IMPROVEMENT) return;
+
+	// To upgrade, improvements must be A) worked or B) bOutsideBorders and not an unclaimed fort
+	if (!(isBeingWorked() || (GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders() && !(!isOwned() && GC.getImprovementInfo(getImprovementType()).isFort())))) return;
+
+	// ? : Hinterlands Valkrionn 07/11/09
+	int iUpgradeTurns = GC.getGameINLINE().getImprovementUpgradeTime(getImprovementType());
+	if (iUpgradeTurns == 0)
 	{
-		ImprovementTypes eImprovementUpgrade = (ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementUpgrade();
-		if (eImprovementUpgrade != NO_IMPROVEMENT)
+		int iUpgradeChance = 0, iUpgradeOdds = 0;
+		for (int iK = 0; iK < GC.getNumTechInfos(); iK++)
 		{
-			if (isBeingWorked() || (GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders() && isOwned()))
+			// Slow down upgrade rate of lairs from 25%/turn once primary condition is met : Snarko Tweak 04/02/12
+			// iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) * GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK);
+			iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) * std::min(1, 3*GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK) / GC.getGameINLINE().countCivTeamsAlive());
+		}
+		if (iUpgradeOdds > 0)
+		{
+			// Scaling by gamespeed : Snarko 04/02/12
+			iUpgradeChance = GC.getGameINLINE().getMapRandNum(GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getImprovementPercent(), "Chance for upgrade");
+			if (iUpgradeOdds > iUpgradeChance)
 			{
-				// ? : Hinterlands Valkrionn 07/11/09
-				int iUpgradeTurns = GC.getGameINLINE().getImprovementUpgradeTime(getImprovementType());
-				if (iUpgradeTurns == 0)
+				setImprovementType(eImprovementUpgrade);
+				// Improvements Mods by Jeckel, expanded by Ahwaric	20.09.09
+				if (getImprovementOwner() != NO_PLAYER)
 				{
-					int iUpgradeChance = 0, iUpgradeOdds = 0;
-					for (int iK = 0; iK < GC.getNumTechInfos(); iK++)
+					if (GC.getImprovementInfo(eImprovementUpgrade).getCultureControlStrength() > 0)
 					{
-						// Slow down upgrade rate of lairs from 25%/turn once primary condition is met : Snarko Tweak 04/02/12
-						// iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) * GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK);
-						iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) *std::min(1, 3*GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK) / GC.getGameINLINE().countCivTeamsAlive());
-					}
-					if (iUpgradeOdds > 0)
-					{
-						// Scaling by gamespeed : Snarko 04/02/12
-						iUpgradeChance = GC.getGameINLINE().getMapRandNum(GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getImprovementPercent(), "Chance for upgrade");
-						if (iUpgradeOdds > iUpgradeChance)
-						{
-							setImprovementType(eImprovementUpgrade);
-							// Improvements Mods by Jeckel, expanded by Ahwaric	20.09.09
-							if (getImprovementOwner() != NO_PLAYER)
-							{
-								if (GC.getImprovementInfo(eImprovementUpgrade).getCultureControlStrength() > 0)
-								{
-									setImprovementOwner(getOwner());
-									addCultureControl(getImprovementOwner(), eImprovementUpgrade, true);
-								}
-							}
-						}
+						setImprovementOwner(getOwner());
+						addCultureControl(getImprovementOwner(), eImprovementUpgrade, true);
 					}
 				}
-				else
-				{
-					//FfH: Modified by Kael 05/12/2008
-					// changeUpgradeProgress(GET_PLAYER(getOwnerINLINE()).getImprovementUpgradeRate());
-					if (isOwned())
-					{
-						if (GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == NO_CIVILIZATION ||
-						  GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == GET_PLAYER(getOwnerINLINE()).getCivilizationType())
-						{
-							changeUpgradeProgress(GET_PLAYER(getOwnerINLINE()).getImprovementUpgradeRate());
-						}
-						if (GC.getImprovementInfo(getImprovementType()).getPrereqCivilization() != NO_CIVILIZATION &&
-						  GC.getImprovementInfo(getImprovementType()).getPrereqCivilization() != GET_PLAYER(getOwnerINLINE()).getCivilizationType())
-						{
-							setImprovementType((ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementPillage());
-						}
-					}
-					else
-					{
-						if (GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == NO_CIVILIZATION)
-						{
-							changeUpgradeProgress(1);
-						}
-					}
+			}
+		}
+	}
+	else
+	{
+		//FfH: Modified by Kael 05/12/2008
+		// changeUpgradeProgress(GET_PLAYER(getOwnerINLINE()).getImprovementUpgradeRate());
+		if (isOwned())
+		{
+			if (GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == NO_CIVILIZATION ||
+				GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == GET_PLAYER(getOwnerINLINE()).getCivilizationType())
+			{
+				changeUpgradeProgress(GET_PLAYER(getOwnerINLINE()).getImprovementUpgradeRate());
+			}
+			if (GC.getImprovementInfo(getImprovementType()).getPrereqCivilization() != NO_CIVILIZATION &&
+				GC.getImprovementInfo(getImprovementType()).getPrereqCivilization() != GET_PLAYER(getOwnerINLINE()).getCivilizationType())
+			{
+				setImprovementType((ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementPillage());
+			}
+		}
+		else
+		{
+			if (GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == NO_CIVILIZATION)
+			{
+				changeUpgradeProgress(1);
+			}
+		}
 
-					if (getUpgradeProgress() >= iUpgradeTurns)
-					{
-						setImprovementType(eImprovementUpgrade);
-						if (getImprovementOwner() != NO_PLAYER)
-						{
-							TraitTriggeredData kData;
-							kData.m_iImprovement = eImprovementUpgrade;
-							GET_PLAYER(getImprovementOwner()).doTraitTriggers(TRAITHOOK_IMPROVE_IMPROVEMENT, &kData);
-						}
-						// Improvements Mods by Jeckel, expanded by Ahwaric	20.09.09
-						if (getImprovementOwner() != NO_PLAYER)
-						{
-							if (GC.getImprovementInfo(eImprovementUpgrade).getCultureControlStrength() > 0)
-							{
-								setImprovementOwner(getOwner());
-								addCultureControl(getImprovementOwner(), eImprovementUpgrade, true);
-							}
-						}
-					}
+		if (getUpgradeProgress() >= iUpgradeTurns)
+		{
+			setImprovementType(eImprovementUpgrade);
+			if (getImprovementOwner() != NO_PLAYER)
+			{
+				TraitTriggeredData kData;
+				kData.m_iImprovement = eImprovementUpgrade;
+				GET_PLAYER(getImprovementOwner()).doTraitTriggers(TRAITHOOK_IMPROVE_IMPROVEMENT, &kData);
+			}
+			// Improvements Mods by Jeckel, expanded by Ahwaric	20.09.09
+			if (getImprovementOwner() != NO_PLAYER)
+			{
+				if (GC.getImprovementInfo(eImprovementUpgrade).getCultureControlStrength() > 0)
+				{
+					setImprovementOwner(getOwner());
+					addCultureControl(getImprovementOwner(), eImprovementUpgrade, true);
 				}
 			}
 		}
