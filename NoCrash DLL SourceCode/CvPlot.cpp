@@ -646,8 +646,8 @@ void CvPlot::doTurn()
 				if (bValid && (eSpawnPlayer == DEMON_PLAYER || eSpawnPlayer == ANIMAL_PLAYER || eSpawnPlayer == ORC_PLAYER))
 				{
 					// Sets a limit based on barbs in the area. We check *total* number of tiles in the area instead of unowned, like the other limits check.
-					// This means lairs will keep spawning even when most of the world is within borders but lairs will not spawn when there are many barbs in a small area. (Snarko)
-					// No matter how small the area, lairs can always spawn up to 3 barb units. Continues tradition of dense offshore barb islands (Blazenclaw)
+					// This means lairs will keep spawning even when most of the world is within borders (Snarko)
+					// No matter how small the area (or how low the AC), lairs can always spawn up to 3 barb units. Continues tradition of dense offshore barb islands (Blazenclaw)
 					int iTargetBarbs = std::max(3, GC.getGameINLINE().calcTargetBarbs(area(), true, eSpawnPlayer));
 					if (area()->getUnitsPerPlayer(eSpawnPlayer) >= iTargetBarbs)
 					{

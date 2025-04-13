@@ -10861,140 +10861,138 @@ void CvGame::createDemons()
 	UnitTypes eBestUnit;
 	UnitTypes eLoopUnit;
 	int iNeededDemons;
-	int iMultiplier;
 	int iValue;
 	int iBestValue;
 	int iLoop;
 	int iI, iJ;
+	int iNullFinds = 0;
 
 	if (isOption(GAMEOPTION_NO_DEMONS))
 	{
 		return;
 	}
 
-	iMultiplier = GC.getHandicapInfo(getHandicapType()).getPercentDemonsPerEvilPlot() + (getGlobalCounter()/std::max(1, GC.getHandicapInfo(getHandicapType()).getDemonGlobalCountSpawnBoostInterval()))*GC.getHandicapInfo(getHandicapType()).getDemonGlobalCountSpawnBoostRate();
-
-	if (iMultiplier > 0)
+	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
-		for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
+		// Count owned tiles too even if can only spawn in unowned territory.
+		iNeededDemons = calcTargetBarbs(pLoopArea, true, DEMON_PLAYER) - (pLoopArea->getUnitsPerPlayer(DEMON_PLAYER));
+		if (iNeededDemons <= 0) continue;
+
+		for (iI = 0; iI < iNeededDemons; iI++)
 		{
+			pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_EVIL | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
 
-			iNeededDemons = (((int)sqrt((float)pLoopArea->getNumEvilTiles()*8) * iMultiplier) / 100 - (pLoopArea->getUnitsPerPlayer(DEMON_PLAYER)));
-			if (iNeededDemons > 0)
+			if (pPlot != NULL)
 			{
-				iNeededDemons = (iNeededDemons * (100 + (getGlobalCounter() * GC.getHandicapInfo(getHandicapType()).getPercentDemonsPerEvilPlotPerGlobalCounter()) / 100) / 100) / 8;
+				eBestUnit = NO_UNIT;
+				iBestValue = 0;
 
-				for (iI = 0; iI < iNeededDemons; iI++)
+				for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
 				{
-					pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_EVIL | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
-
-					if (pPlot != NULL)
+					eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(DEMON_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+				
+					if (eLoopUnit != NO_UNIT)
 					{
-						eBestUnit = NO_UNIT;
-						iBestValue = 0;
+						CvUnitInfo& kUnit = GC.getUnitInfo(eLoopUnit);
 
-						for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+						bool bValid = true;
+
+						if (GC.getUnitClassInfo((UnitClassTypes)iJ).getMaxGlobalInstances() == 1)
 						{
-							eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(DEMON_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
-						
-							if (eLoopUnit != NO_UNIT)
+							bValid = false;
+						}
+
+						if (bValid && !kUnit.isCanMoveAllTerrain())
+						{
+							if (pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_SEA)
 							{
-								CvUnitInfo& kUnit = GC.getUnitInfo(eLoopUnit);
+								bValid = false;
+							}
+							else if (!pLoopArea->isWater() && !(kUnit.getDomainType() == DOMAIN_LAND || kUnit.getDomainType() == DOMAIN_IMMOBILE))
+							{
+								bValid = false;
+							}
+						}
 
-								bool bValid = true;
+						if (bValid)
+						{
+							if (!GET_PLAYER(DEMON_PLAYER).canTrain(eLoopUnit, false, false, true))
+							{
+								bValid = false;
+							}
+						}
 
-								if (GC.getUnitClassInfo((UnitClassTypes)iJ).getMaxGlobalInstances() == 1)
+						if (bValid)
+						{
+							if (NO_BONUS != kUnit.getPrereqAndBonus())
+							{
+								if (!GET_TEAM(DEMON_TEAM).isHasTech((TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqAndBonus()).getTechCityTrade()))
 								{
 									bValid = false;
-								}
-
-								if (bValid && !kUnit.isCanMoveAllTerrain())
-								{
-									if (pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_SEA)
-									{
-										bValid = false;
-									}
-									else if (!pLoopArea->isWater() && !(kUnit.getDomainType() == DOMAIN_LAND || kUnit.getDomainType() == DOMAIN_IMMOBILE))
-									{
-										bValid = false;
-									}
-								}
-
-								if (bValid)
-								{
-									if (!GET_PLAYER(DEMON_PLAYER).canTrain(eLoopUnit, false, false, true))
-									{
-										bValid = false;
-									}
-								}
-
-								if (bValid)
-								{
-									if (NO_BONUS != kUnit.getPrereqAndBonus())
-									{
-										if (!GET_TEAM(DEMON_TEAM).isHasTech((TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqAndBonus()).getTechCityTrade()))
-										{
-											bValid = false;
-										}
-									}
-								}
-
-								if (bValid)
-								{
-									bool bFound = false;
-									bool bRequires = false;
-									for (int i = 0; i < GC.getNUM_UNIT_PREREQ_OR_BONUSES(); ++i)
-									{
-										if (NO_BONUS != kUnit.getPrereqOrBonuses(i))
-										{
-											TechTypes eTech = (TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqOrBonuses(i)).getTechCityTrade();
-											if (NO_TECH != eTech)
-											{
-												bRequires = true;
-
-												if (GET_TEAM(DEMON_TEAM).isHasTech(eTech))
-												{
-													bFound = true;
-													break;
-												}
-											}
-										}
-									}
-
-									if (bRequires && !bFound)
-									{
-										bValid = false;
-									}
-								}
-
-								if (bValid)
-								{
-									iValue = (1 + getSorenRandNum(1500, "Demon Unit Selection")) + GET_PLAYER(DEMON_PLAYER).AI_unitValue(eLoopUnit, UNITAI_ATTACK, pLoopArea);
-
-									if (kUnit.getUnitAIType(UNITAI_ATTACK))
-									{
-										iValue += 200;
-									}
-
-									if (iValue > iBestValue)
-									{
-										eBestUnit = eLoopUnit;
-										iBestValue = iValue;
-									}
 								}
 							}
 						}
 
-						if (eBestUnit != NO_UNIT)
+						if (bValid)
 						{
-							CvUnit* pUnit = GET_PLAYER(DEMON_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ATTACK);
-							if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
+							bool bFound = false;
+							bool bRequires = false;
+							for (int i = 0; i < GC.getNUM_UNIT_PREREQ_OR_BONUSES(); ++i)
 							{
-								pUnit->setImmobileTimer(2);
+								if (NO_BONUS != kUnit.getPrereqOrBonuses(i))
+								{
+									TechTypes eTech = (TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqOrBonuses(i)).getTechCityTrade();
+									if (NO_TECH != eTech)
+									{
+										bRequires = true;
+
+										if (GET_TEAM(DEMON_TEAM).isHasTech(eTech))
+										{
+											bFound = true;
+											break;
+										}
+									}
+								}
+							}
+
+							if (bRequires && !bFound)
+							{
+								bValid = false;
+							}
+						}
+
+						if (bValid)
+						{
+							iValue = (1 + getSorenRandNum(1500, "Demon Unit Selection")) + GET_PLAYER(DEMON_PLAYER).AI_unitValue(eLoopUnit, UNITAI_ATTACK, pLoopArea);
+
+							if (kUnit.getUnitAIType(UNITAI_ATTACK))
+							{
+								iValue += 200;
+							}
+
+							if (iValue > iBestValue)
+							{
+								eBestUnit = eLoopUnit;
+								iBestValue = iValue;
 							}
 						}
 					}
 				}
+
+				if (eBestUnit != NO_UNIT)
+				{
+					CvUnit* pUnit = GET_PLAYER(DEMON_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ATTACK);
+					if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
+					{
+						pUnit->setImmobileTimer(2);
+					}
+				}
+			}
+			else
+			{
+				iNullFinds += 1;
+				// Perf: A large evil civ with no hell terrain outside of borders can run syncrand a LOT
+				if (iNullFinds > 5) break;
 			}
 		}
 	}
