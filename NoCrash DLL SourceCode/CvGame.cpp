@@ -10975,7 +10975,7 @@ void CvGame::createAnimals()
 	}
 
 	// Random animals spawn 5x sooner than barbs
-	if (getElapsedGameTurns() > (GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 500))
+	if (getElapsedGameTurns() < (GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 500))
 	{
 		return;
 	}
@@ -11100,108 +11100,105 @@ void CvGame::createBarbarianUnits()
 	}
 
 	// Random barbs, inc. bosses, only spawn past speedmodified spawndate and if there are enough civ cities in the world
-	if ((getElapsedGameTurns() > (GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 100))
-		&& (getNumCivCities() > ((countCivPlayersAlive() * 3) / 2) || isOption(GAMEOPTION_NO_SETTLERS)))
+	if ((getElapsedGameTurns() < (GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 100))
+		|| (getNumCivCities() < ((countCivPlayersAlive() * 3) / 2) || isOption(GAMEOPTION_NO_SETTLERS)))
 	{
-		for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
+		return;
+	}
+
+	for (pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
+	{
+		// Don't count owned tiles, even if allied to orc player, to spawn random orcs
+		iNeededBarbs = calcTargetBarbs(pLoopArea, false, ORC_PLAYER) - pLoopArea->getUnitsPerPlayer(ORC_PLAYER);
+		pLoopArea->isWater() ? eBarbUnitAI = UNITAI_ATTACK_SEA : eBarbUnitAI = UNITAI_ATTACK;
+
+		for (iI = 0; iI < iNeededBarbs; iI++)
 		{
-			// Don't count owned tiles, even if allied to orc player, to spawn random orcs
-			iNeededBarbs = calcTargetBarbs(pLoopArea, false, ORC_PLAYER) - pLoopArea->getUnitsPerPlayer(ORC_PLAYER);
-			pLoopArea->isWater() ? eBarbUnitAI = UNITAI_ATTACK_SEA : eBarbUnitAI = UNITAI_ATTACK;
+			// Random spawn can't be on 1-tile island I guess
+			if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED | RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID());
+			else
+				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
 
-			if (iNeededBarbs > 0)
+			if (pPlot == NULL) continue;
+
+			eBestGroup = NO_SPAWNGROUP;
+			iBestValue = 0;
+			bAlwaysSpawn = false;
+
+			for (iJ = 0; iJ < GC.getNumSpawnGroupInfos(); iJ++)
 			{
-				for (iI = 0; iI < iNeededBarbs; iI++)
+				eLoopGroup = ((SpawnGroupTypes)iJ);
+
+				if (eLoopGroup == NO_SPAWNGROUP) continue;
+				if (!isSpawnGroupValid(eLoopGroup, pPlot, ORC_TEAM)) continue;
+
+				// We assume prereqs are met due to above. If group has prereqs (that are met), may adjust weight
+				iPreference = 0;
+
+				// Possible: Increase weight if has tech reqs? Or decrease, if lategame barbs are too strong? Simply diluting the pool may suffice.
+				// More prereqs from isSpawnGroupValid can be added to weights as well if needed.
+				// // 200 per TechAND?
+				// iPreference += (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs() * 200);
+				// // 200 per TechOR?
+				// iPreference += (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs() * 200);
+
+				// Any met terrain limit increases weight. The more possible limits, reduce the (still positive) weight
+				if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() > 0)
 				{
-					// Random spawn can't be on 1-tile island I guess
-					if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
-						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED | RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID());
-					else
-						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
+					iPreference += 300;
+					iPreference -= std::min(GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() * 50, 200);
+				}
+				// Any met feature limit increases weight. The more possible limits, reduce the (still positive) weight
+				if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() > 0)
+				{
+					iPreference += 300;
+					iPreference -= std::min(GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() * 50, 200);
+				}
 
-					if (pPlot != NULL)
-					{
-						eBestGroup = NO_SPAWNGROUP;
-						iBestValue = 0;
-						bAlwaysSpawn = false;
+				// Weights by default are ~1000
+				iValue = iPreference + (1 + getSorenRandNum(GC.getSpawnGroupInfo(eLoopGroup).getWeight(), "Barb Unit Selection"));
 
-						for (iJ = 0; iJ < GC.getNumSpawnGroupInfos(); iJ++)
-						{
-							eLoopGroup = ((SpawnGroupTypes)iJ);
+				// AlwaysSpawns should still look for best among possible AlwaysSpawns
+				if (GC.getSpawnGroupInfo(eLoopGroup).isAlwaysSpawn())
+				{
+					if (bAlwaysSpawn && iBestValue > iValue) continue;
 
-							if (eLoopGroup != NO_SPAWNGROUP)
-							{
-								if (isSpawnGroupValid(eLoopGroup, pPlot, ORC_TEAM))
-								{
-									// We assume prereqs are met due to above. If group has prereqs (that are met), may adjust weight
-									iPreference = 0;
-
-									// Possible: Increase weight if has tech reqs? Or decrease, if lategame barbs are too strong? Simply diluting the pool may suffice.
-									// More prereqs from isSpawnGroupValid can be added to weights as well if needed.
-									// // 200 per TechAND?
-									// iPreference += (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs() * 200);
-									// // 200 per TechOR?
-									// iPreference += (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs() * 200);
-
-									// Any met terrain limit increases weight. The more possible limits, reduce the (still positive) weight
-									if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() > 0)
-									{
-										iPreference += 300;
-										iPreference -= std::min(GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() * 50, 200);
-									}
-									// Any met feature limit increases weight. The more possible limits, reduce the (still positive) weight
-									if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() > 0)
-									{
-										iPreference += 300;
-										iPreference -= std::min(GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() * 50, 200);
-									}
-
-									// Weights by default are ~1000
-									iValue = iPreference + (1 + getSorenRandNum(GC.getSpawnGroupInfo(eLoopGroup).getWeight(), "Barb Unit Selection"));
-
-									// AlwaysSpawns should still look for best among possible AlwaysSpawns
-									if (GC.getSpawnGroupInfo(eLoopGroup).isAlwaysSpawn())
-									{
-										if (bAlwaysSpawn && iBestValue > iValue) continue;
-
-										eBestGroup = eLoopGroup;
-										iBestValue = iValue;
-										bAlwaysSpawn = true;
-									}
-									else if (iValue > iBestValue && !bAlwaysSpawn)
-									{
-										eBestGroup = eLoopGroup;
-										iBestValue = iValue;
-									}
-								}
-							}
-						}
-
-						if (eBestGroup != NO_SPAWNGROUP)
-						{
-							createSpawnGroup(eBestGroup, pPlot, ORC_PLAYER, eBarbUnitAI);
-						}
-					}
+					eBestGroup = eLoopGroup;
+					iBestValue = iValue;
+					bAlwaysSpawn = true;
+				}
+				else if (iValue > iBestValue && !bAlwaysSpawn)
+				{
+					eBestGroup = eLoopGroup;
+					iBestValue = iValue;
 				}
 			}
-			// Python exposure for modular barb bosses. They can spawn regardless of density limit (if exist...)
-			if (pLoopArea->getNumUnownedTiles() > 0)
+
+			if (eBestGroup != NO_SPAWNGROUP)
 			{
-				if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
-					pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED| RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
-				else
-					pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
-				CyPlot* pyPlot = new CyPlot(pPlot);
-				CyArgsList argsList;
-				argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));	// pass in plot class
-				gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianBosses", argsList.makeFunctionArgs());
-				delete pyPlot;	// python fxn must not hold on to this pointer
+				createSpawnGroup(eBestGroup, pPlot, ORC_PLAYER, eBarbUnitAI);
 			}
+		}
+		// Python exposure for modular barb bosses. They can spawn regardless of density limit (if exist...)
+		if (pLoopArea->getNumUnownedTiles() > 0)
+		{
+			if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED| RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
+			else
+				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
+			CyPlot* pyPlot = new CyPlot(pPlot);
+			CyArgsList argsList;
+			argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));	// pass in plot class
+			gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianBosses", argsList.makeFunctionArgs());
+			delete pyPlot;	// python fxn must not hold on to this pointer
 		}
 	}
 }
 
 // Each barb type has slightly different density limit calculation. All here for easy comparison
+// Note that barbs can spawn as groups and so go over the limit on the turn spawned, but should not
+// be substantially over aside from happenstance of small limit and multiple large groups spawning.
 int CvGame::calcTargetBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes ePlayer) const
 {
 	FAssertMsg(pArea != NULL, "Need passing valid area to calculated barb density");
