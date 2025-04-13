@@ -7579,6 +7579,7 @@ ImprovementTypes CvPlot::getImprovementType() const
 
 void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 {
+	// TODO: Ensure owner improvement # tracking is consistent for improvements that add or remove cultural control or are bOutsideBorders
 	int iI;
 	ImprovementTypes eOldImprovement = getImprovementType();
 	if (eNewValue!=NO_IMPROVEMENT && GC.getGameINLINE().isOption(GAMEOPTION_DELAYED_LAIRS) && GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay() > 0 && GC.getGame().getGameTurn()<1)
@@ -7717,14 +7718,20 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 					if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getCivilizationType() == (CivilizationTypes)iCiv)
 					{
 						eSpawnPlayer = (PlayerTypes)iI;
+						break;
 					}
 				}
 				if (eSpawnPlayer != NO_PLAYER)
 				{
-					if (GC.getImprovementInfo(getImprovementType()).getCultureRange() >= 0)
+					// Immediately update owner if can spawn only for that owner
+					setImprovementOwner(eSpawnPlayer);
+					if (GC.getImprovementInfo(getImprovementType()).getCultureControlStrength() > 0)
 					{
-						setImprovementOwner(eSpawnPlayer);
 						addCultureControl(eSpawnPlayer, getImprovementType(), 1);
+					}
+					else if (GC.getImprovementInfo(getImprovementType()).isOutsideBorders())
+					{
+						updateCulture(true, true);
 					}
 
 					// Allows for lairs to spawn a unit on creation, but spawn others normally : Valkrionn 7/17/10 LairGuardians 
@@ -7757,8 +7764,6 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			{
 				setImprovementOwner(NO_PLAYER);
 			}
-			// Improvement Mods END
-
 		}
 
 		setUpgradeProgress(0);
