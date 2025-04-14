@@ -12,10 +12,90 @@ import CvCameraControls
 import CvEventInterface
 import random
 
-PyPlayer = PyHelpers.PyPlayer
+# Globals
+PyPlayer			= PyHelpers.PyPlayer
+gc					= CyGlobalContext()
+localText			= CyTranslator()
+getInfoType			= gc.getInfoTypeForString
+
+def setSpiderPromo(cf, spawnUnit, pPlayer, pCity):
+	Effect      = cf.Promotions["Effects"]
+	Buildings   = cf.Buildings
+	Trait       = cf.Traits
+	if spawnUnit:
+		setPromo = spawnUnit.setHasPromotion
+		pNest       = pPlayer.getCapitalCity()
+		iNestPop    = pNest.getPopulation()
+		getNum      = pNest.getNumBuilding
+		if pPlayer.hasTrait(Trait["Spiderkin"]):
+			if iNestPop >= 9:
+				setPromo( Effect["Spiderkin"], True)
+
+		if iNestPop >= 16:
+			setPromo( Effect["Strong"], True)
+
+		if pCity:
+			pCity.applyBuildEffects(spawnUnit)
+
+		if   getNum( Buildings["Nest Addon1"]) > 0:
+			iBroodStrength = 1
+		elif getNum( Buildings["Nest Addon2"]) > 0:
+			iBroodStrength = 2
+		elif getNum( Buildings["Nest Addon3"]) > 0:
+			iBroodStrength = 3
+		elif getNum( Buildings["Nest Addon4"]) > 0:
+			iBroodStrength = 4
+		else:
+			iBroodStrength = 0
+		spawnUnit.changeFreePromotionPick(iBroodStrength)
+
+def doTurnArchosReplacement(self, iPlayer):
+	pPlayer         = gc.getPlayer(iPlayer)
+	if pPlayer.getNumCities() <= 0:
+		pPlayer.setCivCounter(0)
+	else:
+		pNest       = pPlayer.getCapitalCity()
+		iNestPop    = pNest.getPopulation()
+		Unit        = self.Units["Archos"]
+		iNoAI       = UnitAITypes.NO_UNITAI
+		iSouth      = DirectionTypes.DIRECTION_SOUTH
+		iX = pNest.getX(); iY = pNest.getY()
+		initUnit 	= pPlayer.initUnit
+
+		map 		= CyMap()
+		plotByIndex = map.plotByIndex
+		randNum 	= CyGame().getSorenRandNum
+
+		# Set CivCounterMod as both the spider spawn chance and the Brood Activity increase per turn
+		iSpawnChance = self.doChanceArchos(iPlayer)
+		pPlayer.setCivCounterMod(iSpawnChance)
+
+		iBroodActivity = pPlayer.getCivCounter() + iSpawnChance
+		# Set CivCounter as the cumulative Brood Activity
+		pPlayer.setCivCounter(iBroodActivity)
+
+		# Spawn spiders from capital
+		if randNum(10000, "Spawn Roll") < iSpawnChance:
+			if iNestPop >= 11 and iBroodActivity >= 80000:
+				spawnUnit = initUnit( Unit["Giant Spider"], iX, iY, iNoAI, iSouth)
+			elif iNestPop >= 6 and iBroodActivity >= 40000:
+				spawnUnit = initUnit( Unit["Spider"], iX, iY, iNoAI, iSouth)
+			elif iNestPop >= 1 and iBroodActivity >= 20000:
+				spawnUnit = initUnit( Unit["Baby Spider"], iX, iY, iNoAI, iSouth)
+			else:
+				spawnUnit = None
+			setSpiderPromo(self, spawnUnit, pPlayer, pNest)
+		
+		# Spawn spiders from feeding pens
+		for i in xrange(map.numPlots()):
+			pPlot = plotByIndex(i)
+			if pPlot.getImprovementType() == getInfoType('IMPROVEMENT_FEEDING_PEN'):
+				if pPlot.getOwner() == iPlayer:
+					if randNum(10000, "Spawn Roll") < iSpawnChance:
+						spawnUnit = initUnit(Unit["Baby Spider"], pPlot.getX(), pPlot.getY(), iNoAI, iSouth)
+						setSpiderPromo(self, spawnUnit, pPlayer, None)
 
 def doChanceArchosReplacement(self, iPlayer):
-	gc = CyGlobalContext()
 	if iPlayer == -1:
 		pPlayer = gc.getPlayer(gc.getGame().getActivePlayer())
 	else:
@@ -23,43 +103,48 @@ def doChanceArchosReplacement(self, iPlayer):
 
 	iNumCities = pPlayer.getNumCities()
 	if iNumCities > 0:
-		UnitClass		= self.UnitClasses
 		Building		= self.Buildings
 		Trait			= self.Traits
 		pNest 			= pPlayer.getCapitalCity()
 		iNestPop 		= pNest.getPopulation()
 		iNumGroves 		= pPlayer.countNumBuildings(Building["Dark Weald"])
-		getUCC			= pPlayer.getUnitClassCount
-		iNumSpiders		= ((getUCC(UnitClass["Baby Spider"]) * 0.5) + getUCC(UnitClass["Spider"]) + (getUCC(UnitClass["Giant Spider"]) * 2))
 		
 		iNumSpiderCities = len(PyPlayer(iPlayer).getCityList())
+
+		map 		= CyMap()
+		plotByIndex = map.plotByIndex
+
+		iNumFeedingPen = 0
+		for i in xrange(map.numPlots()):
+			pPlot = plotByIndex(i)
+			if pPlot.getImprovementType() == getInfoType('IMPROVEMENT_FEEDING_PEN'):
+				if pPlot.getOwner() == iPlayer:
+					iNumFeedingPen += 1
 
 		fSpiderkin = 1
 		if pPlayer.hasTrait(Trait["Spiderkin"]):
 			fSpiderkin = 1.30
 
-		iSpiderSpawnChance = ((iNestPop + (iNumSpiderCities*2) + (iNumGroves*4)) * fSpiderkin) - iNumSpiders
+		iSpiderSpawnChance = ((iNestPop + (iNumSpiderCities*2) + (iNumGroves*4) + (iNumFeedingPen*2)) * fSpiderkin)
 		iSpiderSpawnChance = (iSpiderSpawnChance * 100)
 		iSpiderSpawnChance = scaleInverse(iSpiderSpawnChance)
 
-		pPlayer.setCivCounter(iSpiderSpawnChance)
-		#No scorpions
-		pPlayer.setCivCounterMod(0)
+		return iSpiderSpawnChance
 
 def onLoadGame(self, argsList):
 	self.cf.doChanceArchos = types.MethodType(doChanceArchosReplacement, self.cf)
+	self.cf.doTurnArchos = types.MethodType(doTurnArchosReplacement, self.cf)
 
 
 def onGameStart(self, argsList):
 	self.cf.doChanceArchos = types.MethodType(doChanceArchosReplacement, self.cf)
+	self.cf.doTurnArchos = types.MethodType(doTurnArchosReplacement, self.cf)
 
 
 def onUnitCreated(self, argsList):
 	'Unit Completed'
 	pUnit = argsList[0]
 	self.verifyLoaded()
-	gc 					= CyGlobalContext()
-	getInfoType			= gc.getInfoTypeForString
 	cf					= self.cf
 	game 				= CyGame()
 	player 				= PyPlayer(pUnit.getOwner())
@@ -91,6 +176,7 @@ def onUnitCreated(self, argsList):
 	iMelee = getInfoType('UNITCOMBAT_MELEE')
 	iRecon = getInfoType('UNITCOMBAT_RECON')
 
+	# When a spider with variant promotion is stationed in a city, +10% chance to grant the respective mutation to newly created melee and recon units in the city.
 	if pUnit.getUnitCombatType() == iMelee or pUnit.getUnitCombatType() == iRecon:
 		iSpiderRed = getInfoType('PROMOTION_SPIDER_RHAGODESSA')
 		iMutationRed = getInfoType('PROMOTION_SPIDERMUTATION_VENOM_SECRETION')

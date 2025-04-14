@@ -234,7 +234,7 @@
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_BABY_SPIDER</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_SPIDER_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_BABY_SPIDER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>1</bAnimal>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -249,6 +249,7 @@
 			</UnitAIs>
 			<iMoves>1</iMoves>
 			<iCombat>1</iCombat>
+			<iWithdrawalProb>20</iWithdrawalProb>
 			<iCityAttack>-25</iCityAttack>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -316,7 +317,7 @@
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_SPIDER</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_SPIDER_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_SPIDER_STRATEGY_NEW</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>1</bAnimal>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -337,6 +338,7 @@
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
 			<iCityAttack>-25</iCityAttack>
+			<iWorkRate>100</iWorkRate>
 			<TerrainNatives>
 				<TerrainNative>
 					<TerrainType>TERRAIN_MARSH</TerrainType>
@@ -396,7 +398,7 @@
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_GIANT_SPIDER</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_GIANT_SPIDER_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_GIANT_SPIDER_STRATEGY_NEW</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>1</bAnimal>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -418,6 +420,7 @@
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iCityAttack>-25</iCityAttack>
+			<iWorkRate>100</iWorkRate>
 			<TerrainNatives>
 				<TerrainNative>
 					<TerrainType>TERRAIN_MARSH</TerrainType>
