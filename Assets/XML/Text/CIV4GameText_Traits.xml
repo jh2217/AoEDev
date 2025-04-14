@@ -697,11 +697,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_HUMANIST1_HELP</Tag>
-		<English>[NEWLINE][ICON_BULLET]Allows training of [LINK=UNIT_CUSTODIAN]Custodians[\LINK], [LINK=UNIT_SHARPSHOOTER]Sharpshooters[\LINK] and [LINK=UNIT_SKIRMISHER]Skirmishers[\LINK][NEWLINE][ICON_BULLET]Allows [LINK=UNIT_ASPIRANT]Aspirants[\LINK] to be born in your empire</English>
-		<French>[NEWLINE][ICON_BULLET]Permet la création de Dépositaires, de Tireurs d'Élite et des Tirailleurs[NEWLINE][ICON_BULLET]Permet aux Aspirants de naître dans votre empire</French>
-		<German>[NEWLINE][ICON_BULLET]Allows training of Custodians, Sharpshooters and Skirmishers[NEWLINE][ICON_BULLET]Allows Aspirants to be born in your empire</German>
-		<Italian>[NEWLINE][ICON_BULLET]Allows training of Custodians, Sharpshooters and Skirmishers[NEWLINE][ICON_BULLET]Allows Aspirants to be born in your empire</Italian>
-		<Spanish>[NEWLINE][ICON_BULLET]Allows training of Custodians, Sharpshooters and Skirmishers[NEWLINE][ICON_BULLET]Allows Aspirants to be born in your empire</Spanish>
+		<English>[NEWLINE][ICON_BULLET]Allows [LINK=UNIT_ASPIRANT]Aspirants[\LINK] to be born in your empire[NEWLINE]</English>
+		<French>[NEWLINE][ICON_BULLET]Allows [LINK=UNIT_ASPIRANT]Aspirants[\LINK] to be born in your empire[NEWLINE]</French>
+		<German>[NEWLINE][ICON_BULLET]Allows [LINK=UNIT_ASPIRANT]Aspirants[\LINK] to be born in your empire[NEWLINE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Allows [LINK=UNIT_ASPIRANT]Aspirants[\LINK] to be born in your empire[NEWLINE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Allows [LINK=UNIT_ASPIRANT]Aspirants[\LINK] to be born in your empire[NEWLINE]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_HUMANIST1_PEDIA</Tag>
@@ -1025,7 +1025,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_JAMAL_INFO_HELP</Tag>
-		<English>[NEWLINE][ICON_BULLET]Allows training of Karas[NEWLINE][ICON_BULLET]Allows casting of Create Behemoth spell</English>
+		<English>[NEWLINE][ICON_BULLET]Allows casting of [LINK=SPELL_SLUGA_CREATION_V2]Create Sluga[\LINK], [LINK=SPELL_BATTLE_SLUGA_CREATION_V2]Create Battle Sluga[\LINK], [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK][NEWLINE]</English>
 		<French>[NEWLINE][ICON_BULLET]Permet l'entraînement de Karas[NEWLINE][ICON_BULLET]Permet de lancer le sort [LINK=SPELL_BEHEMOTH_CREATION]Créer Béhémoth[\LINK]</French>
 		<German>[NEWLINE][ICON_BULLET]Allows training of Karas[NEWLINE][ICON_BULLET]Allows casting of Create Behemoth spell</German>
 		<Italian>[NEWLINE][ICON_BULLET]Allows training of Karas[NEWLINE][ICON_BULLET]Allows casting of Create Behemoth spell</Italian>
@@ -1945,19 +1945,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_ZARIA_INFO_PEDIA</Tag>
-		<English>Zaria has at her disposal an extensive network of spies and assassins, as well as a propaganda machine, in the form of the [LINK=UNIT_CARETAKER]Caretakers[\LINK]. This allows her to recruit talented [LINK=UNIT_AGENT]Agents[\LINK] for her cause, as well as the [LINK=UNIT_CARETAKER_MATRON]Caretaker Matrons[\LINK] and the powerful [LINK=UNIT_ADJUNCT]Adjuncts[\LINK].</English>
-		<French>Zaria dispose d'un énorme réseau d'espions et d'assassins, de même qu'une machine de propagande, sous la forme des [LINK=UNIT_CARETAKER]Infirmières[\LINK]. Ça lui permet de recruter des [LINK=UNIT_AGENT]Agents[\LINK] talentueux à sa cause, de même que les [LINK=UNIT_CARETAKER_MATRON]Infirmières en Chef[\LINK] et les puissants [LINK=UNIT_ADJUNCT]Adjointes[\LINK].</French>
+		<English>Zaria has at her disposal an extensive network of spies and assassins, as well as a propaganda machine, in the form of the [LINK=UNIT_CARETAKER]Caretakers[\LINK]. This allows her to recruit talented [LINK=UNIT_AGENT]Agents[\LINK] for her cause, as well as the [LINK=UNIT_CARETAKER_MATRON]Caretaker Matrons[\LINK] and the powerful [LINK=UNIT_ADJUNCT]Adjuncts[\LINK]. She also hosts lavish Colosseum events where Slaves can [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK]</English>
+		<French>Zaria has at her disposal an extensive network of spies and assassins, as well as a propaganda machine, in the form of the [LINK=UNIT_CARETAKER]Caretakers[\LINK]. This allows her to recruit talented [LINK=UNIT_AGENT]Agents[\LINK] for her cause, as well as the [LINK=UNIT_CARETAKER_MATRON]Caretaker Matrons[\LINK] and the powerful [LINK=UNIT_ADJUNCT]Adjuncts[\LINK]. She also hosts lavish Colosseum events where Slaves can [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK]</French>
 		<German>Zaria has at her disposal an extensive network of spies and assassins, as well as a propaganda machine, in the form of the Caretakers. This allows her to recruit talented Agents for her cause, as well as the Caretaker Matrons and the powerful Adjuncts.</German>
 		<Italian>Zaria has at her disposal an extensive network of spies and assassins, as well as a propaganda machine, in the form of the Caretakers. This allows her to recruit talented Agents for her cause, as well as the Caretaker Matrons and the powerful Adjuncts.</Italian>
 		<Spanish>Zaria has at her disposal an extensive network of spies and assassins, as well as a propaganda machine, in the form of the Caretakers. This allows her to recruit talented Agents for her cause, as well as the Caretaker Matrons and the powerful Adjuncts.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_ZARIA_INFO_HELP</Tag>
-		<English>[NEWLINE][ICON_BULLET]Allows training of [LINK=UNIT_AGENT]Agents[\LINK], [LINK=UNIT_ADJUNCT]Adjuncts[\LINK], [LINK=UNIT_CARETAKER]Caretakers[\LINK] and [LINK=UNIT_CARETAKER_MATRON]Caretaker Matrons[\LINK]</English>
-		<French>[NEWLINE][ICON_BULLET]Permet la construction des [LINK=UNIT_AGENT]Agents[\LINK], [LINK=UNIT_ADJUNCT]Adjointes[\LINK], [LINK=UNIT_CARETAKER]Infirmières[\LINK] et des [LINK=UNIT_CARETAKER_MATRON]Infirmières en Chef[\LINK]</French>
-		<German>[NEWLINE][ICON_BULLET]Erlaubt die Ausbildung von Agenten, Ergebenen und Oberbetreuerinnen</German>
-		<Italian>[NEWLINE][ICON_BULLET]Allows training of Agents, Adjuncts and Caretaker Matrons</Italian>
-		<Spanish>[NEWLINE][ICON_BULLET]Allows training of Agents, Adjuncts and Caretaker Matrons</Spanish>
+		<English>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell[NEWLINE]</English>
+		<French>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell[NEWLINE]</French>
+		<German>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell[NEWLINE]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell[NEWLINE]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell[NEWLINE]</Spanish>
 	</TEXT>
 	
 		<TEXT>

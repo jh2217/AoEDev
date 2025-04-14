@@ -2646,6 +2646,36 @@
 			<Civilopedia>TXT_KEY_TRAIT_HUMANIST1_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_HUMANIST1_SHORT</ShortDescription>
 			<Help>TXT_KEY_TRAIT_HUMANIST1_HELP</Help>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitType>UNIT_CUSTODIAN</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_LONGBOWMAN</UnitClassType>
+					<UnitType>UNIT_SHARPSHOOTER</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
+					<UnitType>UNIT_SKIRMISHER</UnitType>
+				</ExtraUnitClass>
+			    <ExtraUnitClass>
+					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+					<UnitType>UNIT_CONSCRIPT</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
+					<UnitType>UNIT_MILITIA</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+					<UnitType>UNIT_MILITIA_CROSSBOWMAN</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
+					<UnitType>UNIT_MOUNTED_MILITIA</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
 		</TraitInfo>
 		<TraitInfo>		<!-- Caretaker -->
 			<Type>TRAIT_ZARIA_INFO</Type>
@@ -2675,6 +2705,20 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_AGENT</UnitClassType>
+					<UnitType>UNIT_AGENT</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_ADJUNCT</UnitClassType>
+					<UnitType>UNIT_ADJUNCT</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_CARETAKER_MATRON</UnitClassType>
+					<UnitType>UNIT_CARETAKER_MATRON</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
 		</TraitInfo>
 		<TraitInfo>		<!-- Master of the Mekara -->
 			<Type>TRAIT_JAMAL_INFO</Type>
@@ -2683,6 +2727,24 @@
 			<Civilopedia>TXT_KEY_TRAIT_JAMAL_INFO_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_JAMAL_INFO_SHORT</ShortDescription>
 			<Help>TXT_KEY_TRAIT_JAMAL_INFO_HELP</Help>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_KARAS_V2</UnitClassType>
+					<UnitType>UNIT_KARAS_V2</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_SLUGA_COMMANDER_V2</UnitClassType>
+					<UnitType>UNIT_SLUGA_COMMANDER_V2</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_COMBAT_OVERSEER_V2</UnitClassType>
+					<UnitType>UNIT_COMBAT_OVERSEER_V2</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_WAR_SLUGA_V2</UnitClassType>
+					<UnitType>UNIT_WAR_SLUGA_V2</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
 		</TraitInfo>
 		<TraitInfo>		<!-- Magical -->
 			<Type>TRAIT_MAGICAL</Type>
