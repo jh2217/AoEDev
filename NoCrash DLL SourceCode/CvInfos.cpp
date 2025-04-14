@@ -10335,47 +10335,48 @@ void CvPromotionInfo::copyNonDefaultsReadPass2(CvPromotionInfo* pClassInfo, CvXM
 //
 //------------------------------------------------------------------------------------------------------
 CvSpellInfo::CvSpellInfo() :
-/*************************************************************************************************/
-/**	City Actions	(SpellInfos)			03/28/10								Grey Fox	**/
-/*************************************************************************************************/
-m_bCityAction(false),
-/*************************************************************************************************/
-/**	END																							**/
-/*************************************************************************************************/
-m_iPromotionPrereq1(NO_PROMOTION),
-m_iPromotionPrereq2(NO_PROMOTION),
-m_iUnitPrereq(NO_UNIT),
-m_iUnitCombatPrereq(NO_UNITCOMBAT),
-m_iUnitClassPrereq(NO_UNITCLASS),
-m_iUnitInStackPrereq(NO_UNIT),
-m_iUnitInStackTargetPrereq(NO_UNIT),
-m_iBuildingPrereq(NO_BUILDING),
-m_iBuildingTargetPrereq(NO_BUILDING),
-m_iBuildingClassOwnedPrereq(NO_BUILDINGCLASS),
-m_iCivilizationPrereq(NO_CIVILIZATION),
-m_iCorporationPrereq(NO_CORPORATION),
-m_iCorporationTargetPrereq(NO_CORPORATION),
-m_iFeatureOrPrereq1(NO_FEATURE),
-m_iFeatureOrPrereq2(NO_FEATURE),
-m_iFeatureOrTargetPrereq1(NO_FEATURE),
-m_iFeatureOrTargetPrereq2(NO_FEATURE),
-m_iPlotEffectPrereq(NO_PLOT_EFFECT),
-m_iPlotEffectTargetPrereq(NO_PLOT_EFFECT),
-m_iImprovementPrereq(NO_IMPROVEMENT),
-m_iImprovementTargetPrereq(NO_IMPROVEMENT),
-m_iPromotionInStackPrereq(NO_PROMOTION),
-m_iPromotionInStackTargetPrereq(NO_PROMOTION),
-m_iReligionPrereq(NO_RELIGION),
-m_iStateReligionPrereq(NO_RELIGION),
-m_iTechPrereq(NO_TECH),
-m_iNumPrereqTraits(0),
-m_piPrereqTraits(NULL),
-m_iNumPromotionsPrereq(0),
-m_piPromotionsPrereq(NULL),
-m_iNumAddPromotions(0),
-m_piAddPromotions(NULL),
-m_iNumRemovePromotions(0),
-m_piRemovePromotions(NULL),
+	/*************************************************************************************************/
+	/**	City Actions	(SpellInfos)			03/28/10								Grey Fox	**/
+	/*************************************************************************************************/
+	m_bCityAction(false),
+	/*************************************************************************************************/
+	/**	END																							**/
+	/*************************************************************************************************/
+	m_iPromotionPrereq1(NO_PROMOTION),
+	m_iPromotionPrereq2(NO_PROMOTION),
+	m_iUnitPrereq(NO_UNIT),
+	m_iUnitCombatPrereq(NO_UNITCOMBAT),
+	m_iUnitClassPrereq(NO_UNITCLASS),
+	m_iUnitInStackPrereq(NO_UNIT),
+	m_iUnitInStackTargetPrereq(NO_UNIT),
+	m_iBuildingPrereq(NO_BUILDING),
+	m_iBuildingTargetPrereq(NO_BUILDING),
+	m_iBuildingClassOwnedPrereq(NO_BUILDINGCLASS),
+	m_iCivilizationPrereq(NO_CIVILIZATION),
+	m_iCorporationPrereq(NO_CORPORATION),
+	m_iCorporationTargetPrereq(NO_CORPORATION),
+	m_iFeatureOrPrereq1(NO_FEATURE),
+	m_iFeatureOrPrereq2(NO_FEATURE),
+	m_iFeatureOrTargetPrereq1(NO_FEATURE),
+	m_iFeatureOrTargetPrereq2(NO_FEATURE),
+	m_iPlotEffectPrereq(NO_PLOT_EFFECT),
+	m_iPlotEffectTargetPrereq(NO_PLOT_EFFECT),
+	m_iImprovementPrereq(NO_IMPROVEMENT),
+	m_iImprovementTargetPrereq(NO_IMPROVEMENT),
+	m_iPromotionInStackPrereq(NO_PROMOTION),
+	m_iPromotionInStackTargetPrereq(NO_PROMOTION),
+	m_iReligionPrereq(NO_RELIGION),
+	m_iStateReligionPrereq(NO_RELIGION),
+	m_iTechPrereq(NO_TECH),
+	m_iNumPrereqTraits(0),
+	m_piPrereqTraits(NULL),
+	m_iNumPromotionsPrereq(0),
+	m_piPromotionsPrereq(NULL),
+	m_iNumAddPromotions(0),
+	m_piAddPromotions(NULL),
+	m_iNumRemovePromotions(0),
+	m_piRemovePromotions(NULL),
+	m_iNumSpellBonuses(0),
 m_cbSpellBonuses(NULL),
 /*************************************************************************************************/
 /**	New Tag Defs	(SpellInfos)			05/15/08								Xienwolf	**/

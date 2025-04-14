@@ -12023,23 +12023,23 @@ CvCity* CvUnit::getUpgradeCity(UnitTypes eUnit, bool bSearch, int* iSearchValue)
 //	{
 //		return false;
 //	}
-	if (m_pUnitInfo->getUpgradeCiv() == NO_CIVILIZATION)
-	{
-		if (!kPlayer.isAssimilation())
-		{
-			if (GC.getCivilizationInfo(kPlayer.getCivilizationType()).getCivilizationUnits(kUnitInfo.getUnitClassType()) != eUnit)
-			{
-				return false;
-			}
-		}
-	}
-	else
-	{
-		if (GC.getCivilizationInfo((CivilizationTypes)m_pUnitInfo->getUpgradeCiv()).getCivilizationUnits(kUnitInfo.getUnitClassType()) != eUnit)
-		{
-			return false;
-		}
-	}
+//	if (m_pUnitInfo->getUpgradeCiv() == NO_CIVILIZATION)
+//	{
+//		if (!kPlayer.isAssimilation())
+//		{
+//			if (GC.getCivilizationInfo(kPlayer.getCivilizationType()).getCivilizationUnits(kUnitInfo.getUnitClassType()) != eUnit)
+//			{
+//				return false;
+//			}
+//		}
+//	}
+//	else
+//	{
+//		if (GC.getCivilizationInfo((CivilizationTypes)m_pUnitInfo->getUpgradeCiv()).getCivilizationUnits(kUnitInfo.getUnitClassType()) != eUnit)
+//		{
+//			return false;
+//		}
+//	}
 //FfH: End Modify
 
 	if (!upgradeAvailable(getUnitType(), ((UnitClassTypes)(kUnitInfo.getUnitClassType()))))
@@ -12174,7 +12174,7 @@ CvCity* CvUnit::getUpgradeCity(UnitTypes eUnit, bool bSearch, int* iSearchValue)
 
 //FfH Units: Modified by Kael 05/24/2008
 //				if (pLoopCity->canTrain(eUnit, false, false, true))
-				if (pLoopCity->canUpgrade(eUnit, false, false, true))
+				if (pLoopCity->getCityUnits(kUnitInfo.getUnitClassType())==eUnit && pLoopCity->canUpgrade(eUnit, false, false, true))
 //FfH: End Modify
 
 				{
@@ -12237,12 +12237,16 @@ CvCity* CvUnit::getUpgradeCity(UnitTypes eUnit, bool bSearch, int* iSearchValue)
 
 //FfH Units: Modified by Kael 08/07/2007
 //			if (pClosestCity->canTrain(eUnit, false, false, true))
-			if (kPlayer.isAssimilation() && (m_pUnitInfo->getUpgradeCiv() == NO_CIVILIZATION))
+		//	if (kPlayer.isAssimilation() && (m_pUnitInfo->getUpgradeCiv() == NO_CIVILIZATION))
+		//	{
+		//		if (GC.getCivilizationInfo(pClosestCity->getCivilizationType()).getCivilizationUnits(kUnitInfo.getUnitClassType()) != eUnit && GC.getCivilizationInfo(kPlayer.getCivilizationType()).getCivilizationUnits(kUnitInfo.getUnitClassType()) != eUnit)
+		//		{
+		//			return false;
+		//		}
+		//	}
+			if (pClosestCity->getCityUnits(kUnitInfo.getUnitClassType()) != eUnit)
 			{
-				if (GC.getCivilizationInfo(pClosestCity->getCivilizationType()).getCivilizationUnits(kUnitInfo.getUnitClassType()) != eUnit && GC.getCivilizationInfo(kPlayer.getCivilizationType()).getCivilizationUnits(kUnitInfo.getUnitClassType()) != eUnit)
-				{
-					return false;
-				}
+				return false;
 			}
 			if (pClosestCity->canUpgrade(eUnit, false, false, true))
 //FfH: End Add

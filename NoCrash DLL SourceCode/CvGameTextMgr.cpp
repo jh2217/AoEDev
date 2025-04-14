@@ -7306,7 +7306,14 @@ void CvGameTextMgr::parseTraits(CvWStringBuffer &szHelpString, TraitTypes eTrait
 		{
 			if (GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ) != NO_UNIT)
 			{
-				szHelpString.append(gDLL->getText("TXT_KEY_TRAIT_EXTRA_UNIT_UNITCLASS", GC.getUnitClassInfo((UnitClassTypes)iJ).getDescription(), GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide()));
+				if (GC.getUnitClassInfo((UnitClassTypes)iJ).getDefaultUnitIndex() != GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ))
+				{
+					szHelpString.append(gDLL->getText("TXT_KEY_TRAIT_EXTRA_UNIT_UNITCLASS", GC.getUnitClassInfo((UnitClassTypes)iJ).getDescription(), GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide(), GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide()));
+				}
+				else
+				{
+					szHelpString.append(gDLL->getText("TXT_KEY_TRAIT_EXTRA_UNIT_UNITCLASS_DEFAULT", GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide(), GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide()));
+				}
 			}
 		}
 		// Wonder Production Effects

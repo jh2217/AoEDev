@@ -2271,11 +2271,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_EXTRA_UNIT_UNITCLASS</Tag>
-		<English>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s2[\LINK], replacing any unit of %s1 class</English>
-		<French>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s2[\LINK], replacing any unit of %s1 class</French>
-		<German>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s2[\LINK], replacing any unit of %s1 class</German>
-		<Italian>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s2[\LINK], replacing any unit of %s1 class</Italian>
-		<Spanish>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s2[\LINK], replacing any unit of %s1 class</Spanish>
+		<English>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s3[\LINK], replacing any unit of the %s1 class</English>
+		<French>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s3[\LINK], replacing any unit of the %s1 class</French>
+		<German>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s3[\LINK], replacing any unit of the %s1 class</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s3[\LINK], replacing any unit of the %s1 class</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s3[\LINK], replacing any unit of the %s1 class</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXTRA_UNIT_UNITCLASS_DEFAULT</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s1]%s2[\LINK]</English>
+		<French>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s1]%s2[\LINK]</French>
+		<German>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s1]%s2[\LINK]</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s1]%s2[\LINK]</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s1]%s2[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PITBOSS_TEAM</Tag>
