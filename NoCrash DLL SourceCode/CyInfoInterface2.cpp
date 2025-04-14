@@ -208,9 +208,6 @@ void CyInfoPythonInterface2()
 		.def("getAIAdvancedStartPercent", &CvHandicapInfo::getAIAdvancedStartPercent, "int ()")
 		.def("getNumGoodies", &CvHandicapInfo::getNumGoodies, "int ()")
 
-//FfH: Added by Kael 11/28/2008
-		.def("getLairSpawnRate", &CvHandicapInfo::getLairSpawnRate, "int ()")
-//FfH: End Add
 /*************************************************************************************************/
 /**	New Tag Defs	(HandicapInfos)			12/27/08								Xienwolf	**/
 /**																								**/

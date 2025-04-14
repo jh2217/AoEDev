@@ -557,7 +557,6 @@
 		<element type="FreeTech" minOccurs="0" maxOccurs="*"/>
 	</ElementType>
 	<ElementType name="iAIFreeXP" content="textOnly" dt:type="float"/>
-	<ElementType name="iLairSpawnRate" content="textOnly" dt:type="int"/>
 	<ElementType name="HandicapInfo" content="eltOnly" order="many">
 		<element type="Type"/>
 		<element type="bForceOverwrite"/>
@@ -627,7 +626,6 @@
 		<element type="FreeTechs"/>
 		<element type="AIFreeTechs"/>
 		<element type="iAIFreeXP"/>
-		<element type="iLairSpawnRate"/>
 		<element type="iWaterTilesPerAnimal"/>
 		<element type="iAnimalEscalationTurnsElapsed"/>
 		<element type="iLairSpawnChance"/>

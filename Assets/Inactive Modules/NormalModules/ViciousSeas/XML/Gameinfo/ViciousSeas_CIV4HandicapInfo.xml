@@ -106,7 +106,6 @@
 			</FreeTechs>
 			<AIFreeTechs>
 			</AIFreeTechs>
-			<iLairSpawnRate>2</iLairSpawnRate>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>150</iAnimalEscalationTurnsElapsed>
 			<iLairSpawnChance>25</iLairSpawnChance>
@@ -214,7 +213,6 @@
 			</FreeTechs>
 			<AIFreeTechs>
 			</AIFreeTechs>
-			<iLairSpawnRate>2</iLairSpawnRate>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>135</iAnimalEscalationTurnsElapsed>
 			<iLairSpawnChance>25</iLairSpawnChance>
@@ -318,7 +316,6 @@
 			</FreeTechs>
 			<AIFreeTechs>
 			</AIFreeTechs>
-			<iLairSpawnRate>3</iLairSpawnRate>
 			<iWaterTilesPerAnimal>225</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>120</iAnimalEscalationTurnsElapsed>
 			<iLairSpawnChance>25</iLairSpawnChance>
@@ -419,7 +416,6 @@
 			</FreeTechs>
 			<AIFreeTechs>
 			</AIFreeTechs>
-			<iLairSpawnRate>3</iLairSpawnRate>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>90</iAnimalEscalationTurnsElapsed>
 			<iLairSpawnChance>25</iLairSpawnChance>
@@ -520,7 +516,6 @@
 			<AIFreeTechs>
 			</AIFreeTechs>
 			<iAIFreeXP>1</iAIFreeXP>
-			<iLairSpawnRate>4</iLairSpawnRate>
 			<iWaterTilesPerAnimal>175</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>75</iAnimalEscalationTurnsElapsed>
 			<iLairSpawnChance>25</iLairSpawnChance>
@@ -626,7 +621,6 @@
 				</FreeTech>
 			</AIFreeTechs>
 			<iAIFreeXP>2</iAIFreeXP>
-			<iLairSpawnRate>4</iLairSpawnRate>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>67</iAnimalEscalationTurnsElapsed>
 			<iLairSpawnChance>25</iLairSpawnChance>
@@ -737,7 +731,6 @@
 				</FreeTech>
 			</AIFreeTechs>
 			<iAIFreeXP>4</iAIFreeXP>
-			<iLairSpawnRate>5</iLairSpawnRate>
 			<iWaterTilesPerAnimal>125</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>50</iAnimalEscalationTurnsElapsed>
 			<iLairSpawnChance>25</iLairSpawnChance>
@@ -851,7 +844,6 @@
 				</FreeTech>
 			</AIFreeTechs>
 			<iAIFreeXP>6</iAIFreeXP>
-			<iLairSpawnRate>5</iLairSpawnRate>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>45</iAnimalEscalationTurnsElapsed>
 			<iLairSpawnChance>25</iLairSpawnChance>
@@ -968,7 +960,6 @@
 				</FreeTech>
 			</AIFreeTechs>
 			<iAIFreeXP>8</iAIFreeXP>
-			<iLairSpawnRate>6</iLairSpawnRate>
 			<iWaterTilesPerAnimal>75</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>35</iAnimalEscalationTurnsElapsed>
 			<iLairSpawnChance>25</iLairSpawnChance>

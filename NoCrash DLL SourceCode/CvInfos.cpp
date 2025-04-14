@@ -27805,7 +27805,6 @@ m_iAIDemonBonus(0),
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
 /*************************************************************************************************/
-m_iLairSpawnRate(0)
 //FfH: End Add
 
 {
@@ -28131,11 +28130,6 @@ int CvHandicapInfo::getAIFreeXP() const
 /**	DecimalXP									END												**/
 /*************************************************************************************************/
 }
-
-int CvHandicapInfo::getLairSpawnRate() const
-{
-	return m_iLairSpawnRate;
-}
 //FfH: End Add
 /*************************************************************************************************/
 /**	New Tag Defs	(HandicapInfos)			12/27/08								Xienwolf	**/
@@ -28248,7 +28242,6 @@ void CvHandicapInfo::read(FDataStreamBase* stream)
 
 //FfH Improvements: Added by Kael 08/07/2007
 	stream->Read(&m_iAIFreeXP);
-	stream->Read(&m_iLairSpawnRate);
 //FfH: End Add
 
 	stream->ReadString(m_szHandicapName);
@@ -28355,7 +28348,6 @@ void CvHandicapInfo::write(FDataStreamBase* stream)
 
 //FfH Improvements: Added by Kael 08/07/2007
 	stream->Write(m_iAIFreeXP);
-	stream->Write(m_iLairSpawnRate);
 //FfH: End Add
 
 	stream->WriteString(m_szHandicapName);
@@ -28499,7 +28491,6 @@ bool CvHandicapInfo::read(CvXMLLoadUtility* pXML)
 
 //FfH Improvements: Added by Kael 08/07/2007
 	pXML->GetChildXmlValByName(&m_iAIFreeXP, "iAIFreeXP");
-	pXML->GetChildXmlValByName(&m_iLairSpawnRate, "iLairSpawnRate");
 //FfH: End Add
 
 	return true;
@@ -28585,7 +28576,6 @@ void CvHandicapInfo::copyNonDefaults(CvHandicapInfo* pClassInfo, CvXMLLoadUtilit
 	if (getDemonBonus()							== 0)		m_iDemonBonus							= pClassInfo->getDemonBonus();
 	if (getAIDemonBonus()						== 0)		m_iAIDemonBonus							= pClassInfo->getAIDemonBonus();
 	if (getAIFreeXP()							== 0)		m_iAIFreeXP								= (float)pClassInfo->getAIFreeXP()/100.0f;
-	if (getLairSpawnRate()						== 0)		m_iLairSpawnRate						= pClassInfo->getLairSpawnRate();
 	for (int i = 0; i < GC.getNumTechInfos(); i++)
 	{
 		if (m_pbFreeTechs[i]					== false)	m_pbFreeTechs[i]						= pClassInfo->isFreeTechs(i);
