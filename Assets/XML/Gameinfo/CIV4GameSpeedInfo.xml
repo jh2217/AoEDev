@@ -39,7 +39,7 @@
 					<iTurnsPerIncrement>1800</iTurnsPerIncrement>
 				</GameTurnInfo>
 			</GameTurnInfos>
-			<iTurnsPerLairCycle>30</iTurnsPerLairCycle>
+			<iTurnsPerLairCycle>30</iTurnsPerLairCycle> <!-- Turns until barbs can spawn, and turns between lairs spawning -->
 		</GameSpeedInfo>
 		<GameSpeedInfo>
 			<Type>GAMESPEED_EPIC</Type>

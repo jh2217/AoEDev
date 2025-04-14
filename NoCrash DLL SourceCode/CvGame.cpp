@@ -6502,11 +6502,17 @@ void CvGame::doTurn()
 		}
 	}
 
+	// BARB SPAWNING:
+	// Lairs only spawn if under barb limit for that area and type.
+	// 1 animal lair can always spawn in valid plot per area, even if target limit is 0
+	createLairs();
+
+	// Lairs will roll to spawn barbs up to their limit or area limit (among all other plot::doTurn things...)
 	GC.getMapINLINE().doTurn();
 
-	// Multibarb : Xienwolf 01/01/09
-	createLairs();
+	// May spawn some barbs as defenders, ignoring limit. Barb cities build regardless of area limits
 	createBarbarianCities();
+	// Random barbs of all types will attempt to spawn, rate-limited, up to their area limit.
 	createBarbarianUnits();
 	createAnimals();
 	createDemons();
@@ -10866,7 +10872,8 @@ void CvGame::createLairs()
 				pPlot->setImprovementType(eLair);
 			}
 			// Lairs can only spawn if there's space for barbs to spawn; prevents wildly dense barb areas
-			else if (pArea != NULL && (calcTargetBarbs(pArea, true, ePlayer) > pArea->getUnitsPerPlayer(ePlayer)))
+			// 1 animal lair can always spawn even if there's no space for a normal animal to spawn
+			else if (pArea != NULL && ((calcTargetBarbs(pArea, true, ePlayer) + (ePlayer == ANIMAL_PLAYER)) > pArea->getUnitsPerPlayer(ePlayer)))
 			{
 				pPlot->setImprovementType(eLair);
 			}
@@ -10896,6 +10903,7 @@ void CvGame::createDemons()
 
 	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
+		// Demons have no spawn rate limit, instead depending on hell tiles
 		iNeededDemons = calcTargetBarbs(pLoopArea, true, DEMON_PLAYER) - (pLoopArea->getUnitsPerPlayer(DEMON_PLAYER));
 		if (iNeededDemons <= 0) continue;
 
@@ -10985,7 +10993,7 @@ void CvGame::createAnimals()
 	CvPlot* pPlot;
 	UnitTypes eBestUnit;
 	UnitTypes eLoopUnit;
-	int iNeededAnimals, iValue, iNetValue, iTargetValue, iLoop, iI, iJ;
+	int iNeededAnimals, iTargetAnimals, iValue, iNetValue, iTargetValue, iLoop, iI, iJ;
 
 	if (isOption(GAMEOPTION_NO_ANIMALS))
 	{
@@ -10997,15 +11005,18 @@ void CvGame::createAnimals()
 		return;
 	}
 
-	// Random animals spawn 5x sooner than barbs
-	if (getElapsedGameTurns() < (GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 500))
+	// Random animals spawn 5x sooner than barbs, or once all civs settled
+	if ((5 * getElapsedGameTurns() < (GC.getGameSpeedInfo(getGameSpeedType()).getTurnsPerLairCycle()))
+	 || (getNumCivCities() >= countCivPlayersAlive()))
 	{
 		return;
 	}
 
 	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
-		iNeededAnimals = calcTargetBarbs(pLoopArea, false, ANIMAL_PLAYER) - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER);
+		// Spawn at most 20% of limit (round up)
+		iTargetAnimals = calcTargetBarbs(pLoopArea, false, ANIMAL_PLAYER);
+		iNeededAnimals =  std::min(std::max(1, 2 * iTargetAnimals/10), iTargetAnimals - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER));
 
 		for (iI = 0; iI < iNeededAnimals; iI++)
 		{
@@ -11107,7 +11118,7 @@ void CvGame::createBarbarianUnits()
 	SpawnGroupTypes eBestGroup;
 	SpawnGroupTypes eLoopGroup;
 	long lResult;
-	int iNeededBarbs, iValue, iBestValue, iLoop, iI, iJ, iPreference;
+	int iNeededBarbs, iTargetBarbs, iCurrentBarbs, iValue, iBestValue, iLoop, iI, iJ, iPreference;
 	bool bAlwaysSpawn;
 
 	if (isOption(GAMEOPTION_NO_BARBARIANS))
@@ -11122,8 +11133,8 @@ void CvGame::createBarbarianUnits()
 		return;
 	}
 
-	// Random barbs, inc. bosses, only spawn past speedmodified spawndate and if there are enough civ cities in the world
-	if ((getElapsedGameTurns() < (GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 100))
+	// Random barbs only spawn past lair start, and if there are enough civ cities in the world
+	if ((getElapsedGameTurns() < GC.getGameSpeedInfo(getGameSpeedType()).getTurnsPerLairCycle())
 		|| (getNumCivCities() < ((countCivPlayersAlive() * 3) / 2) || isOption(GAMEOPTION_NO_SETTLERS)))
 	{
 		return;
@@ -11132,7 +11143,10 @@ void CvGame::createBarbarianUnits()
 	for (pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
 		// Don't count owned tiles, even if allied to orc player, to spawn random orcs
-		iNeededBarbs = calcTargetBarbs(pLoopArea, false, ORC_PLAYER) - pLoopArea->getUnitsPerPlayer(ORC_PLAYER);
+		iTargetBarbs = calcTargetBarbs(pLoopArea, false, ORC_PLAYER);
+		// Spawn at most 20% of limit (round up)
+		iNeededBarbs = std::min(std::max(1, 2 * iTargetBarbs/10), iTargetBarbs - pLoopArea->getUnitsPerPlayer(ORC_PLAYER));
+
 		pLoopArea->isWater() ? eBarbUnitAI = UNITAI_ATTACK_SEA : eBarbUnitAI = UNITAI_ATTACK;
 
 		for (iI = 0; iI < iNeededBarbs; iI++)

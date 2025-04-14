@@ -575,8 +575,8 @@ void CvPlot::doTurn()
 			}
 		}
 
-		// Spawn units and/or groups from improvement:
-		if (getImprovementType() != NO_IMPROVEMENT)
+		// Spawn units and/or groups from improvements that haven't spawned this turn:
+		if (getImprovementType() != NO_IMPROVEMENT && getImprovementDuration() > 0)
 		{
 			int iUnit = GC.getImprovementInfo(getImprovementType()).getSpawnUnitType();
 			int iSpawnGroup = GC.getImprovementInfo(getImprovementType()).getSpawnGroupType();
