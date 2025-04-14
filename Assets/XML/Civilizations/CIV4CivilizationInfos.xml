@@ -118,14 +118,6 @@
 					<UnitClassType>UNITCLASS_ADEPT</UnitClassType>
 					<UnitType>UNIT_APPRENTICE</UnitType>
 				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_WATER_ELEMENTAL</UnitClassType>
-					<UnitType>UNIT_WATER_ELEMENTAL</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_KAHD</UnitClassType>
-					<UnitType>UNIT_KAHD</UnitType>
-				</Unit>
 			</Units>
 			<FreeUnitClasses>
 				<FreeUnitClass>

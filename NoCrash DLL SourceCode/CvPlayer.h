@@ -854,6 +854,8 @@ public:
 	int getFeatureHappiness(FeatureTypes eIndex) const;																								// Exposed to Python
 	void changeFeatureHappiness(FeatureTypes eIndex, int iChange);
 
+	int getExtraUnitClasses(UnitClassTypes eIndex) const;																								// Exposed to Python
+	void setExtraUnitClasses(UnitClassTypes eIndex, int iChange);
 	int getUnitClassCount(UnitClassTypes eIndex) const;																								// Exposed to Python
 	bool isUnitClassMaxedOut(UnitClassTypes eIndex, int iExtra = 0) const;														// Exposed to Python
 	void changeUnitClassCount(UnitClassTypes eIndex, int iChange);
@@ -1997,6 +1999,7 @@ protected:
 	int* m_paiFeatureHappiness;
 	int* m_paiUnitClassCount;
 	int* m_paiUnitClassPlayerInstancesChanges;
+	int* m_paiExtraUnitClasses;
 	int* m_paiUnitClassMaking;
 	int* m_paiBuildingClassCount;
 	int* m_paiBuildingClassMaking;

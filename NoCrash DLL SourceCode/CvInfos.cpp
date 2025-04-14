@@ -13179,6 +13179,7 @@ m_iPrereqEthicalAlignment(NO_ETHICAL_ALIGNMENT),
 /*************************************************************************************************/
 m_iPrereqBuildingClass(NO_BUILDINGCLASS),
 m_iPrereqCivic(NO_CIVIC),
+m_iPrereqTrait(NO_TRAIT),
 m_iPrereqGlobalCounter(0),
 m_iPromotionFromCombat(NO_PROMOTION),
 m_iTier(0),
@@ -14343,6 +14344,10 @@ int CvUnitInfo::getPrereqCivic() const
 {
 	return m_iPrereqCivic;
 }
+int CvUnitInfo::getPrereqTrait() const
+{
+	return m_iPrereqTrait;
+}
 
 int CvUnitInfo::getPromotionFromCombat() const
 {
@@ -15320,6 +15325,7 @@ void CvUnitInfo::read(FDataStreamBase* stream)
 /*************************************************************************************************/
 	stream->Read(&m_iPrereqBuildingClass);
 	stream->Read(&m_iPrereqCivic);
+	stream->Read(&m_iPrereqTrait);
 	stream->Read(&m_iPrereqGlobalCounter);
 	stream->Read(&m_iPromotionFromCombat);
 	stream->Read(&m_iTier);
@@ -15948,6 +15954,7 @@ void CvUnitInfo::write(FDataStreamBase* stream)
 /*************************************************************************************************/
 	stream->Write(m_iPrereqBuildingClass);
 	stream->Write(m_iPrereqCivic);
+	stream->Write(m_iPrereqTrait);
 	stream->Write(m_iPrereqGlobalCounter);
 	stream->Write(m_iPromotionFromCombat);
 	stream->Write(m_iTier);
@@ -16784,6 +16791,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 	m_iPrereqBuildingClass = pXML->FindInInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(szTextVal, "PrereqCivic");
 	m_iPrereqCivic = pXML->FindInInfoClass(szTextVal);
+	pXML->GetChildXmlValByName(szTextVal, "PrereqTrait");
+	m_iPrereqTrait = pXML->FindInInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(szTextVal, "PromotionFromCombat");
 	m_iPromotionFromCombat = pXML->FindInInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(&m_iPrereqGlobalCounter,"iPrereqGlobalCounter");
@@ -17122,6 +17131,7 @@ void CvUnitInfo::copyNonDefaults(CvUnitInfo* pClassInfo, CvXMLLoadUtility* pXML)
 	if(getPrereqAndTech()					== NO_TECH)			m_iPrereqAndTech					= pClassInfo->getPrereqAndTech();
 	if(getPrereqAndBonus()					== NO_BONUS)		m_iPrereqAndBonus					= pClassInfo->getPrereqAndBonus();
 	if(getPrereqCivic()						== NO_CIVIC)		m_iPrereqCivic						= pClassInfo->getPrereqCivic();
+	if (getPrereqTrait() == NO_TRAIT)		m_iPrereqTrait = pClassInfo->getPrereqTrait();
 	if(getDomainCargo()						== NO_DOMAIN)		m_iDomainCargo						= pClassInfo->getDomainCargo();
 	if(getAdvisorType()						== NO_ADVISOR)		m_iAdvisorType						= pClassInfo->getAdvisorType();
 	if(getDomainType()						== DOMAIN_LAND)		m_iDomainType						= pClassInfo->getDomainType();
@@ -39965,6 +39975,7 @@ m_paiSpecialistHealthChange(NULL),
 m_paiSpecialistHappinessChange(NULL),
 m_paiSpecialistCrimeChange(NULL),
 m_paiUnitClassPlayerInstancesChange(NULL),
+m_piExtraUnitClass(NULL),
 /*************************************************************************************************/
 /**	Miner Trait 	 	Orbis from Sanguo Mod		18/02/09	Ahwaric		**/
 /*************************************************************************************************/
@@ -40593,6 +40604,18 @@ int CvTraitInfo::getImprovementYieldChangesVectorSize() { return m_aszImprovemen
 CvString CvTraitInfo::getImprovementYieldChangesNamesVectorElement(int i) { return m_aszImprovementYieldChanges[i]; }
 int* CvTraitInfo::getImprovementYieldChangesValuesVectorElement(int i) { return m_yiImprovementYieldChanges[i]; }
 
+int CvTraitInfo::getUnitClassesVectorSize() { return m_aszUnitClassesforPass3.size(); }
+int CvTraitInfo::getUnitClassesUnitVectorSize() { return m_aszUnitClassesUnitforPass3.size(); }
+CvString CvTraitInfo::getUnitClassesVectorElement(int i) { return m_aszUnitClassesforPass3[i]; }
+CvString CvTraitInfo::getUnitClassesUnitVectorElement(int i) { return m_aszUnitClassesUnitforPass3[i]; }
+
+int CvTraitInfo::getExtraUnitClasses(int i) const
+{
+	FAssertMsg(i < GC.getNumUnitClassInfos(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_piExtraUnitClass[i];
+}
+
 int CvTraitInfo::getHurryPopulationModifier() const
 {
 	return m_iHurryPopulationModifier;
@@ -41078,9 +41101,45 @@ bool CvTraitInfo::read(CvXMLLoadUtility* pXML)
 
 		gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
 	}
+	CvString szClassVal;
 	/*************************************************************************************************/
 /**	Miner Trait							END			**/
 /*************************************************************************************************/
+	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "ExtraUnitClasses"))
+	{
+		if (pXML->SkipToNextVal())
+		{
+			iNumSibs = gDLL->getXMLIFace()->GetNumChildren(pXML->GetXML());
+			if (gDLL->getXMLIFace()->SetToChild(pXML->GetXML()))
+			{
+				if (0 < iNumSibs)
+				{
+					int iIndex;
+
+					for (j = 0; j < iNumSibs; j++)
+					{
+						if (pXML->GetChildXmlVal(szClassVal))
+						{
+							m_aszUnitClassesforPass3.push_back(szClassVal);
+							pXML->GetNextXmlVal(szTextVal);
+							m_aszUnitClassesUnitforPass3.push_back(szTextVal);
+
+							gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+						}
+						if (!gDLL->getXMLIFace()->NextSibling(pXML->GetXML()))
+						{
+							break;
+						}
+					}
+
+					gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+				}
+
+			}
+		}
+
+		gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+	}
 
 /*************************************************************************************************/
 /** bUniqueCult             Opera for LE/Orbis  06/07/09        imported by Valkrionn	09.26.09**/
@@ -41122,124 +41181,127 @@ void CvTraitInfo::copyNonDefaults(CvTraitInfo* pClassInfo, CvXMLLoadUtility* pXM
 	if (getNextTrait() == NO_TRAIT)		m_iNextTrait = pClassInfo->getNextTrait();
 	if (getParentTrait() == NO_TRAIT)		m_iParentTrait = pClassInfo->getParentTrait();
 
-	if (isAdaptive()								== false)		m_bAdaptive								= pClassInfo->isAdaptive();
-	if (isAgnostic()								== false)		m_bAgnostic								= pClassInfo->isAgnostic();
+	if (isAdaptive() == false)		m_bAdaptive = pClassInfo->isAdaptive();
+	if (isAgnostic() == false)		m_bAgnostic = pClassInfo->isAgnostic();
 	if (isAmphibian() == false)		m_bAmphibian = pClassInfo->isAmphibian();
-	if (isAssimilation()							== false)		m_bAssimilation							= pClassInfo->isAssimilation();
-	if (isBarbarianAlly()							== false)		m_bBarbarianAlly						= pClassInfo->isBarbarianAlly();
-	if (isIgnoreFood()								== false)		m_bIgnoreFood							= pClassInfo->isIgnoreFood();
+	if (isAssimilation() == false)		m_bAssimilation = pClassInfo->isAssimilation();
+	if (isBarbarianAlly() == false)		m_bBarbarianAlly = pClassInfo->isBarbarianAlly();
+	if (isIgnoreFood() == false)		m_bIgnoreFood = pClassInfo->isIgnoreFood();
 	if (isIgnoreHealth() == false)		m_bIgnoreHealth = pClassInfo->isIgnoreHealth();
-	if (isInsane()									== false)		m_bInsane								= pClassInfo->isInsane();
-	if (isSelectable()								== false)		m_bSelectable							= pClassInfo->isSelectable();
-	if (isSprawling()								== false)		m_bSprawling							= pClassInfo->isSprawling();
-/************************************************************************************************/
-/* Influence Driven War                   06/07/10                                 Valkrionn    */
-/*                                                                                              */
-/*						Prevents IDW effects within specific borders                            */
-/************************************************************************************************/
-	if (isFixedBorders()							== false)		m_bFixedBorders							= pClassInfo->isFixedBorders();
-	if (isInfluenceAllowed()						== false)		m_bInfluenceAllowed						= pClassInfo->isInfluenceAllowed();
-	if (getVictoryInfluenceModifier()				== 100)			m_iVictoryInfluenceModifier				= pClassInfo->getVictoryInfluenceModifier();
-	if (getDefeatInfluenceModifier()				== 100)			m_iDefeatInfluenceModifier				= pClassInfo->getDefeatInfluenceModifier();
-	if (getPillageInfluenceModifier()				== 100)			m_iPillageInfluenceModifier				= pClassInfo->getPillageInfluenceModifier();
-/*************************************************************************************************/
-/**	END																							**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Multiple Production 					07/10/09									Denev	**/
-/**							Merged by Valkrionn		13/01/2010									**/
-/**					Allows overflow production to produce multiple units each turn				**/
-/*************************************************************************************************/
-	if (isOverflowProduction()						== false)		m_bOverflowProduction					= pClassInfo->isOverflowProduction();
-/*************************************************************************************************/
-/**	Multiple Production							END												**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Nomadic								01/15/10									Valkrionn	**/
-/**							Addition requested by Sylvain5477									**/
-/**						   Allows you to bypass the city check									**/
-/*************************************************************************************************/
-	if (isNomadic()									== false)		m_bNomadic								= pClassInfo->isNomadic();
-/*************************************************************************************************/
-/**	Nomadic									END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/** bUniqueCult             Opera for LE/Orbis  06/07/09        imported by Valkrionn	09.26.09**/
-/*************************************************************************************************/
-	if (isUniqueCult()								== false)		m_bUniqueCult							= pClassInfo->isUniqueCult();
-	if (isIntolerant()								== false)		m_bIntolerant							= pClassInfo->isIntolerant();
-/*************************************************************************************************/
-/** End                                                                                         **/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/** CityPopCap     Opera  9.8.09            imported by Valkrionn	09.26.09                    **/
-/*************************************************************************************************/
-	if (getInitialCityCap()							== 0)			m_iInitialCityCap						= pClassInfo->getInitialCityCap();
-	if (getMaxCityCap()								== 0)			m_iMaxCityCap							= pClassInfo->getMaxCityCap();
-/*************************************************************************************************/
-/** CityPopCap                  END                                                             **/
-/*************************************************************************************************/
-	if (getFreeXPFromCombat()						== 0)			m_iFreeXPFromCombat						= (float)pClassInfo->getFreeXPFromCombat()/100.0f;
-	if (getPillagingGold()							== 0)			m_iPillagingGold						= pClassInfo->getPillagingGold();
-	if (getHurryPopulationModifier()                == 0)           m_iHurryPopulationModifier              = pClassInfo->getHurryPopulationModifier();
-	if (getStartingGold()							== 0)			m_iStartingGold							= pClassInfo->getStartingGold();
-	if (getSummonDuration()							== 0)			m_iSummonDuration						= pClassInfo->getSummonDuration();
-	if (getUpgradeCostModifier()					== 0)			m_iUpgradeCostModifier					= pClassInfo->getUpgradeCostModifier();
-	if (getModReligionSpreadChance()				== 0)			m_iModReligionSpreadChance				= pClassInfo->getModReligionSpreadChance();
-	if (getHealth()									== 0)			m_iHealth								= pClassInfo->getHealth();
-	if (getHappiness()								== 0)			m_iHappiness							= pClassInfo->getHappiness();
-	if (getUpkeepModifier()							== 0)			m_iUpkeepModifier						= pClassInfo->getUpkeepModifier();
+	if (isInsane() == false)		m_bInsane = pClassInfo->isInsane();
+	if (isSelectable() == false)		m_bSelectable = pClassInfo->isSelectable();
+	if (isSprawling() == false)		m_bSprawling = pClassInfo->isSprawling();
+	/************************************************************************************************/
+	/* Influence Driven War                   06/07/10                                 Valkrionn    */
+	/*                                                                                              */
+	/*						Prevents IDW effects within specific borders                            */
+	/************************************************************************************************/
+	if (isFixedBorders() == false)		m_bFixedBorders = pClassInfo->isFixedBorders();
+	if (isInfluenceAllowed() == false)		m_bInfluenceAllowed = pClassInfo->isInfluenceAllowed();
+	if (getVictoryInfluenceModifier() == 100)			m_iVictoryInfluenceModifier = pClassInfo->getVictoryInfluenceModifier();
+	if (getDefeatInfluenceModifier() == 100)			m_iDefeatInfluenceModifier = pClassInfo->getDefeatInfluenceModifier();
+	if (getPillageInfluenceModifier() == 100)			m_iPillageInfluenceModifier = pClassInfo->getPillageInfluenceModifier();
+	/*************************************************************************************************/
+	/**	END																							**/
+	/*************************************************************************************************/
+	/*************************************************************************************************/
+	/**	Multiple Production 					07/10/09									Denev	**/
+	/**							Merged by Valkrionn		13/01/2010									**/
+	/**					Allows overflow production to produce multiple units each turn				**/
+	/*************************************************************************************************/
+	if (isOverflowProduction() == false)		m_bOverflowProduction = pClassInfo->isOverflowProduction();
+	/*************************************************************************************************/
+	/**	Multiple Production							END												**/
+	/*************************************************************************************************/
+	/*************************************************************************************************/
+	/**	Nomadic								01/15/10									Valkrionn	**/
+	/**							Addition requested by Sylvain5477									**/
+	/**						   Allows you to bypass the city check									**/
+	/*************************************************************************************************/
+	if (isNomadic() == false)		m_bNomadic = pClassInfo->isNomadic();
+	/*************************************************************************************************/
+	/**	Nomadic									END													**/
+	/*************************************************************************************************/
+	/*************************************************************************************************/
+	/** bUniqueCult             Opera for LE/Orbis  06/07/09        imported by Valkrionn	09.26.09**/
+	/*************************************************************************************************/
+	if (isUniqueCult() == false)		m_bUniqueCult = pClassInfo->isUniqueCult();
+	if (isIntolerant() == false)		m_bIntolerant = pClassInfo->isIntolerant();
+	/*************************************************************************************************/
+	/** End                                                                                         **/
+	/*************************************************************************************************/
+	/*************************************************************************************************/
+	/** CityPopCap     Opera  9.8.09            imported by Valkrionn	09.26.09                    **/
+	/*************************************************************************************************/
+	if (getInitialCityCap() == 0)			m_iInitialCityCap = pClassInfo->getInitialCityCap();
+	if (getMaxCityCap() == 0)			m_iMaxCityCap = pClassInfo->getMaxCityCap();
+	/*************************************************************************************************/
+	/** CityPopCap                  END                                                             **/
+	/*************************************************************************************************/
+	if (getFreeXPFromCombat() == 0)			m_iFreeXPFromCombat = (float)pClassInfo->getFreeXPFromCombat() / 100.0f;
+	if (getPillagingGold() == 0)			m_iPillagingGold = pClassInfo->getPillagingGold();
+	if (getHurryPopulationModifier() == 0)           m_iHurryPopulationModifier = pClassInfo->getHurryPopulationModifier();
+	if (getStartingGold() == 0)			m_iStartingGold = pClassInfo->getStartingGold();
+	if (getSummonDuration() == 0)			m_iSummonDuration = pClassInfo->getSummonDuration();
+	if (getUpgradeCostModifier() == 0)			m_iUpgradeCostModifier = pClassInfo->getUpgradeCostModifier();
+	if (getModReligionSpreadChance() == 0)			m_iModReligionSpreadChance = pClassInfo->getModReligionSpreadChance();
+	if (getHealth() == 0)			m_iHealth = pClassInfo->getHealth();
+	if (getHappiness() == 0)			m_iHappiness = pClassInfo->getHappiness();
+	if (getUpkeepModifier() == 0)			m_iUpkeepModifier = pClassInfo->getUpkeepModifier();
 	if (getDistanceMaintenanceModifier() == 0)			m_iDistanceMaintenanceModifier = pClassInfo->getDistanceMaintenanceModifier();
 	if (getRitualProductionModifier() == 0)			m_iRitualProductionModifier = pClassInfo->getRitualProductionModifier();
 	if (getMilitaryProductionModifier() == 0)			m_iMilitaryProductionModifier = pClassInfo->getMilitaryProductionModifier();
-	if (getLevelExperienceModifier()				== 0)			m_iLevelExperienceModifier				= pClassInfo->getLevelExperienceModifier();
-	if (getGreatPeopleRateModifier()				== 0)			m_iGreatPeopleRateModifier				= pClassInfo->getGreatPeopleRateModifier();
-	if (getGreatGeneralRateModifier()				== 0)			m_iGreatGeneralRateModifier				= pClassInfo->getGreatGeneralRateModifier();
+	if (getLevelExperienceModifier() == 0)			m_iLevelExperienceModifier = pClassInfo->getLevelExperienceModifier();
+	if (getGreatPeopleRateModifier() == 0)			m_iGreatPeopleRateModifier = pClassInfo->getGreatPeopleRateModifier();
+	if (getGreatGeneralRateModifier() == 0)			m_iGreatGeneralRateModifier = pClassInfo->getGreatGeneralRateModifier();
 	if (getExtraGrowthThreshold() == 0)			m_iExtraGrowthThreshold = pClassInfo->getExtraGrowthThreshold();
 	if (getACGrowthThreshold() == 0)			m_iACGrowthThreshold = pClassInfo->getACGrowthThreshold();
-	if (getDomesticGreatGeneralRateModifier()		== 0)			m_iDomesticGreatGeneralRateModifier		= pClassInfo->getDomesticGreatGeneralRateModifier();
-	if (getMaxGlobalBuildingProductionModifier()	== 0)			m_iMaxGlobalBuildingProductionModifier	= pClassInfo->getMaxGlobalBuildingProductionModifier();
-	if (getMaxTeamBuildingProductionModifier()		== 0)			m_iMaxTeamBuildingProductionModifier	= pClassInfo->getMaxTeamBuildingProductionModifier();
-	if (getMaxPlayerBuildingProductionModifier()	== 0)			m_iMaxPlayerBuildingProductionModifier	= pClassInfo->getMaxPlayerBuildingProductionModifier();
-	if (getMaxCities()								== -1)			m_iMaxCities							= pClassInfo->getMaxCities();
-	if (getMaxAnarchy()								== -1)			m_iMaxAnarchy							= pClassInfo->getMaxAnarchy();
+	if (getDomesticGreatGeneralRateModifier() == 0)			m_iDomesticGreatGeneralRateModifier = pClassInfo->getDomesticGreatGeneralRateModifier();
+	if (getMaxGlobalBuildingProductionModifier() == 0)			m_iMaxGlobalBuildingProductionModifier = pClassInfo->getMaxGlobalBuildingProductionModifier();
+	if (getMaxTeamBuildingProductionModifier() == 0)			m_iMaxTeamBuildingProductionModifier = pClassInfo->getMaxTeamBuildingProductionModifier();
+	if (getMaxPlayerBuildingProductionModifier() == 0)			m_iMaxPlayerBuildingProductionModifier = pClassInfo->getMaxPlayerBuildingProductionModifier();
+	if (getMaxCities() == -1)			m_iMaxCities = pClassInfo->getMaxCities();
+	if (getMaxAnarchy() == -1)			m_iMaxAnarchy = pClassInfo->getMaxAnarchy();
 	if (getFreeBuildingClass() == NO_BUILDINGCLASS)			m_iFreeBuildingClass = pClassInfo->getFreeBuildingClass();
-	if (getShortDescription()						== cDefault)	setShortDescription(					pClassInfo->getShortDescription());
-	for (int j = 0; j < NUM_YIELD_TYPES; j++ )
+	if (getShortDescription() == cDefault)	setShortDescription(pClassInfo->getShortDescription());
+	for (int j = 0; j < NUM_YIELD_TYPES; j++)
 	{
-		if (getExtraYieldThreshold(j)				== 0)			m_paiExtraYieldThreshold[j]				= pClassInfo->getExtraYieldThreshold(j);
-		if (getTradeYieldModifier(j)				== 0)			m_paiTradeYieldModifier[j]				= pClassInfo->getTradeYieldModifier(j);
-		if (getBaseYieldFromUnit(j)					== 0)			m_paiBaseYieldFromUnit[j]				= pClassInfo->getBaseYieldFromUnit(j);
-		if (getYieldFromUnitModifier(j)				== 0)			m_paiYieldFromUnitModifier[j]			= pClassInfo->getYieldFromUnitModifier(j);
+		if (getExtraYieldThreshold(j) == 0)			m_paiExtraYieldThreshold[j] = pClassInfo->getExtraYieldThreshold(j);
+		if (getTradeYieldModifier(j) == 0)			m_paiTradeYieldModifier[j] = pClassInfo->getTradeYieldModifier(j);
+		if (getBaseYieldFromUnit(j) == 0)			m_paiBaseYieldFromUnit[j] = pClassInfo->getBaseYieldFromUnit(j);
+		if (getYieldFromUnitModifier(j) == 0)			m_paiYieldFromUnitModifier[j] = pClassInfo->getYieldFromUnitModifier(j);
 	}
-	for ( int j = 0; j < NUM_COMMERCE_TYPES; j++ )
+	for (int j = 0; j < NUM_COMMERCE_TYPES; j++)
 	{
-/*************************************************************************************************/
-/**	TradeCommerceModifiers	 				09/05/10								Valkrionn	**/
-/**																								**/
-/**									Allows trade to grant culture								**/
-/*************************************************************************************************/
-		if (getTradeCommerceModifier(j)				== 0)			m_paiTradeCommerceModifier[j]			= pClassInfo->getTradeCommerceModifier(j);
-/*************************************************************************************************/
-/**	END																							**/
-/*************************************************************************************************/
-		if (getCommerceChange(j)					== 0)			m_paiCommerceChange[j]					= pClassInfo->getCommerceChange(j);
-		if (getCommerceModifier(j)					== 0)			m_paiCommerceModifier[j]				= pClassInfo->getCommerceModifier(j);
-		if (getBaseCommerceFromUnit(j)				== 0)			m_paiBaseCommerceFromUnit[j]			= pClassInfo->getBaseCommerceFromUnit(j);
-		if (getCommerceFromUnitModifier(j)			== 0)			m_paiCommerceFromUnitModifier[j]		= pClassInfo->getCommerceFromUnitModifier(j);
-		if (m_paiPeaceCommerceModifier[j]			== 0)			m_paiPeaceCommerceModifier[j]			= pClassInfo->getPeaceCommerceModifier(j);
+		/*************************************************************************************************/
+		/**	TradeCommerceModifiers	 				09/05/10								Valkrionn	**/
+		/**																								**/
+		/**									Allows trade to grant culture								**/
+		/*************************************************************************************************/
+		if (getTradeCommerceModifier(j) == 0)			m_paiTradeCommerceModifier[j] = pClassInfo->getTradeCommerceModifier(j);
+		/*************************************************************************************************/
+		/**	END																							**/
+		/*************************************************************************************************/
+		if (getCommerceChange(j) == 0)			m_paiCommerceChange[j] = pClassInfo->getCommerceChange(j);
+		if (getCommerceModifier(j) == 0)			m_paiCommerceModifier[j] = pClassInfo->getCommerceModifier(j);
+		if (getBaseCommerceFromUnit(j) == 0)			m_paiBaseCommerceFromUnit[j] = pClassInfo->getBaseCommerceFromUnit(j);
+		if (getCommerceFromUnitModifier(j) == 0)			m_paiCommerceFromUnitModifier[j] = pClassInfo->getCommerceFromUnitModifier(j);
+		if (m_paiPeaceCommerceModifier[j] == 0)			m_paiPeaceCommerceModifier[j] = pClassInfo->getPeaceCommerceModifier(j);
 	}
-	for ( int j = 0; j < GC.getNumPromotionInfos(); j++ )
+	for (int j = 0; j < GC.getNumPromotionInfos(); j++)
 	{
-		if (isFreePromotion(j)						== false)		m_pabFreePromotion[j]					= pClassInfo->isFreePromotion(j);
+		if (isFreePromotion(j) == false)		m_pabFreePromotion[j] = pClassInfo->isFreePromotion(j);
 	}
 	for (int j = 0; j < GC.getNumSpecialistInfos(); j++)
 	{
 		if (isFreeSpecialistNonStateReligion(j) == false)		m_pabFreeSpecialistNonStateReligion[j] = pClassInfo->isFreeSpecialistNonStateReligion(j);
 		if (isFreeSpecialistStateReligion(j) == false)		m_pabFreeSpecialistStateReligion[j] = pClassInfo->isFreeSpecialistStateReligion(j);
-		if (getSpecialistHappinessChange(j) == 0) m_paiSpecialistHappinessChange[j]= pClassInfo->getSpecialistHappinessChange(j);
-		if (getSpecialistHealthChange(j) == 0) m_paiSpecialistHealthChange[j]= pClassInfo->getSpecialistHealthChange(j);
+		if (getSpecialistHappinessChange(j) == 0) m_paiSpecialistHappinessChange[j] = pClassInfo->getSpecialistHappinessChange(j);
+		if (getSpecialistHealthChange(j) == 0) m_paiSpecialistHealthChange[j] = pClassInfo->getSpecialistHealthChange(j);
 		if (getSpecialistCrimeChange(j) == 0) m_paiSpecialistCrimeChange[j] = pClassInfo->getSpecialistCrimeChange(j);
+	}
+	for (int j = 0; j < GC.getNumUnitClassInfos(); j++)
+	{
 		if (getUnitClassPlayerInstancesChange(j) == 0) m_paiUnitClassPlayerInstancesChange[j] = pClassInfo->getUnitClassPlayerInstancesChange(j);
 	}
 
@@ -41248,25 +41310,25 @@ void CvTraitInfo::copyNonDefaults(CvTraitInfo* pClassInfo, CvXMLLoadUtility* pXM
 		if (isRevealBonus(j) == false)		m_pabRevealBonus[j] = pClassInfo->isRevealBonus(j);
 		if (isNoBonus(j) == false)		m_pabNoBonus[j] = pClassInfo->isNoBonus(j);
 	}
-	for ( int j = 0; j < GC.getNumUnitCombatInfos(); j++ )
+	for (int j = 0; j < GC.getNumUnitCombatInfos(); j++)
 	{
-		if (isFreePromotionUnitCombat(j)			== false)		m_pabFreePromotionUnitCombat[j]			= pClassInfo->isFreePromotionUnitCombat(j);
+		if (isFreePromotionUnitCombat(j) == false)		m_pabFreePromotionUnitCombat[j] = pClassInfo->isFreePromotionUnitCombat(j);
 	}
-	for ( int j = 0; j < GC.getNumSpecialistInfos(); j++)
+	for (int j = 0; j < GC.getNumSpecialistInfos(); j++)
 	{
-		for ( int i = 0; i < NUM_YIELD_TYPES; i++)
+		for (int i = 0; i < NUM_YIELD_TYPES; i++)
 		{
-			if (getSpecialistYieldChange(j, i)		== 0)			m_ppaiSpecialistYieldChange[j][i]		= pClassInfo->getSpecialistYieldChange(j, i);
+			if (getSpecialistYieldChange(j, i) == 0)			m_ppaiSpecialistYieldChange[j][i] = pClassInfo->getSpecialistYieldChange(j, i);
 		}
-		for ( int i = 0; i < NUM_COMMERCE_TYPES; i++)
+		for (int i = 0; i < NUM_COMMERCE_TYPES; i++)
 		{
-			if (getSpecialistCommerceChange(j, i)   == 0)			m_ppaiSpecialistCommerceChange[j][i]    = pClassInfo->getSpecialistCommerceChange(j, i);
+			if (getSpecialistCommerceChange(j, i) == 0)			m_ppaiSpecialistCommerceChange[j][i] = pClassInfo->getSpecialistCommerceChange(j, i);
 		}
 	}
-	for ( int j = 0; j < GC.getNumFeatureInfos(); j++ )
+	for (int j = 0; j < GC.getNumFeatureInfos(); j++)
 	{
-		if (m_paiFeatureGrowthChange[j]				== 0)			m_paiFeatureGrowthChange[j]				= pClassInfo->getFeatureGrowthChange(j);
-		if (m_paiFeatureProductionChange[j]         == 0)           m_paiFeatureProductionChange[j]         = pClassInfo->getFeatureProductionChange(j);
+		if (m_paiFeatureGrowthChange[j] == 0)			m_paiFeatureGrowthChange[j] = pClassInfo->getFeatureGrowthChange(j);
+		if (m_paiFeatureProductionChange[j] == 0)           m_paiFeatureProductionChange[j] = pClassInfo->getFeatureProductionChange(j);
 		for (int k = 0; k < NUM_YIELD_TYPES; k++)
 		{
 			if (m_ppiFeatureYieldChanges[j][k] == 0)				m_ppiFeatureYieldChanges[j][k] = pClassInfo->getFeatureYieldChanges(j, k);
@@ -41294,6 +41356,11 @@ void CvTraitInfo::copyNonDefaults(CvTraitInfo* pClassInfo, CvXMLLoadUtility* pXM
 	{
 		m_aszImprovementYieldChanges.push_back(pClassInfo->getImprovementYieldChangesNamesVectorElement(i));
 		m_yiImprovementYieldChanges.push_back(pClassInfo->getImprovementYieldChangesValuesVectorElement(i));
+	}
+	for (int i = 0; i < pClassInfo->getUnitClassesVectorSize(); i++)
+	{
+		m_aszUnitClassesforPass3.push_back(pClassInfo->getUnitClassesVectorElement(i));
+		m_aszUnitClassesUnitforPass3.push_back(pClassInfo->getUnitClassesUnitVectorElement(i));
 	}
 }
 /*************************************************************************************************/
@@ -41347,7 +41414,7 @@ bool CvTraitInfo::readPass3()
 		}
 	}
 	int iNumLoad = m_aszImprovementYieldChanges.size();
-	for (iI = 0; iI < iNumLoad; iI++)
+	for (int iI = 0; iI < iNumLoad; iI++)
 	{
 		FAssertMsg(GC.getInfoTypeForString(m_aszImprovementYieldChanges[iI]) >= 0, "Warning, about to leak memory in CvTraitInfo::readPass3");
 		for (int iJ = 0; iJ < NUM_YIELD_TYPES; iJ++)
@@ -41357,6 +41424,24 @@ bool CvTraitInfo::readPass3()
 	}
 	m_aszImprovementYieldChanges.clear();
 	m_yiImprovementYieldChanges.clear();
+
+	m_piExtraUnitClass = new int[GC.getNumUnitClassInfos()];
+	for (int iI = 0; iI < GC.getNumUnitClassInfos();iI++)
+	{
+		m_piExtraUnitClass[iI] = NO_UNIT;
+	}
+
+	iNumLoad = m_aszUnitClassesforPass3.size();
+
+	for (int iI = 0; iI < iNumLoad; iI++)
+	{
+		FAssertMsg(GC.getInfoTypeForString(m_aszUnitClassesforPass3[iI]) >= 0, "Warning, about to leak memory in CvTraitInfo::readPass3");
+		m_piExtraUnitClass[GC.getInfoTypeForString(m_aszUnitClassesforPass3[iI])] = GC.getInfoTypeForString(m_aszUnitClassesUnitforPass3[iI]);
+		
+	}
+	m_aszUnitClassesforPass3.clear();
+	m_aszUnitClassesUnitforPass3.clear();
+
 	return true;
 }
 //======================================================================================================

@@ -2261,13 +2261,21 @@
 		<Italian>%D1: "Your troops have protected our common trade routes."</Italian>
 		<Spanish>%D1: "Your troops have protected our common trade routes."</Spanish>
 	</TEXT>
-		<TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TRAIT_UNITCLASS_PLAYER_INSTANCES_CHANGE</Tag>
 		<English>[NEWLINE][ICON_BULLET]Changes %s1 Maximal Limit by %D2</English>
 		<French>[NEWLINE][ICON_BULLET]Change la limite d'unité pour vos %s1:2 : %D2</French>
 		<German>[NEWLINE][ICON_BULLET]Changes %s1 Maximal Limit by %D2</German>
 		<Italian>[NEWLINE][ICON_BULLET]Changes %s1 Maximal Limit by %D2</Italian>
 		<Spanish>[NEWLINE][ICON_BULLET]Changes %s1 Maximal Limit by %D2</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_EXTRA_UNIT_UNITCLASS</Tag>
+		<English>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s2[\LINK], replacing any unit of %s1 class</English>
+		<French>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s2[\LINK], replacing any unit of %s1 class</French>
+		<German>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s2[\LINK], replacing any unit of %s1 class</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s2[\LINK], replacing any unit of %s1 class</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants access to [LINK=%s2]%s2[\LINK], replacing any unit of %s1 class</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PITBOSS_TEAM</Tag>

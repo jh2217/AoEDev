@@ -849,6 +849,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_WATER_ELEMENTAL</DefaultUnit>
+			<bUnique>1</bUnique>
 			<iMercenaryWeight>0</iMercenaryWeight>
 		</UnitClassInfo>
 		<UnitClassInfo>		<!-- HYBOREM -->

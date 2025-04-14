@@ -1139,6 +1139,16 @@
 			<Description>TXT_KEY_TRAIT_HEMAPYROSYNCRETISTIC</Description>
 			<Civilopedia>TXT_KEY_TRAIT_HEMAPYROSYNCRETISTIC_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_HEMAPYROSYNCRETISTIC_SHORT</ShortDescription>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_PRIESTESS_OF_BHALL</UnitClassType>
+					<UnitType>UNIT_PRIESTESS_OF_BHALL</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_PRIEST_OF_AGRUONN</UnitClassType>
+					<UnitType>UNIT_LIZARD_PRIEST_OF_AGRUONN</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
 		</TraitInfo>
 		<TraitInfo>		<!-- HemaPyroSyncretistic 3 -->
 			<Type>TRAIT_HEMAPYROSYNCRETISTIC3</Type>
@@ -1150,6 +1160,16 @@
 			<Civilopedia>TXT_KEY_TRAIT_HEMAPYROSYNCRETISTIC_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_HEMAPYROSYNCRETISTIC_SHORT</ShortDescription>
 			<Help>TXT_KEY_TRAIT_HEMAPYROSYNCRETISTIC3_HELP</Help>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_SHADOW</UnitClassType>
+					<UnitType>UNIT_SHADOW_PRIEST_OF_AGRUONN</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_HIGH_PRIESTESS_OF_BHALL</UnitClassType>
+					<UnitType>UNIT_HIGH_PRIESTESS_OF_BHALL</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
 		</TraitInfo>
 		<TraitInfo>		<!-- Hydromancer -->
 			<Type>TRAIT_HYDROMANCER</Type>
@@ -1187,15 +1207,21 @@
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
 			<ImprovementYieldChanges>
-			<ImprovementYieldChange>
-			<ImprovementType>IMPROVEMENT_WATERMILL</ImprovementType>
-			<ImprovementYields>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_WATERMILL</ImprovementType>
+					<ImprovementYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
 						<iYield>0</iYield>
 					</ImprovementYields>
-			</ImprovementYieldChange>
+				</ImprovementYieldChange>
 			</ImprovementYieldChanges>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_WATER_ELEMENTAL</UnitClassType>
+					<UnitType>UNIT_WATER_ELEMENTAL</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
 		</TraitInfo>
 		<TraitInfo>		<!-- Hydromancer 3 -->
 			<Type>TRAIT_HYDROMANCER3</Type>
@@ -4163,6 +4189,12 @@
 			<Civilopedia>TXT_KEY_TRAIT_KAHD_OGHMA_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KAHD_OGHMA_SHORT</ShortDescription>
 			<Help>TXT_KEY_SPELL_KAHDI_ENLIGHTENMENT_HELP</Help>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_KAHD</UnitClassType>
+					<UnitType>UNIT_KAHD</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
 		</TraitInfo>
 		<TraitInfo>		<!-- Mammon - Kahd's traits -->
 			<Type>TRAIT_KAHD_MAMMON</Type>
@@ -4172,6 +4204,12 @@
 			<Civilopedia>TXT_KEY_TRAIT_KAHD_MAMMON_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_KAHD_MAMMON_SHORT</ShortDescription>
 			<Help>TXT_KEY_SPELL_KAHDI_CORRUPTION_HELP</Help>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_KAHD</UnitClassType>
+					<UnitType>UNIT_KAHD</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
 		</TraitInfo>
 		<TraitInfo>		<!-- Pact with Hyborem -->
 			<Type>TRAIT_PACT_HYBOREM</Type>
