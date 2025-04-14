@@ -2659,21 +2659,9 @@
 					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
 					<UnitType>UNIT_SKIRMISHER</UnitType>
 				</ExtraUnitClass>
-			    <ExtraUnitClass>
-					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
-					<UnitType>UNIT_CONSCRIPT</UnitType>
-				</ExtraUnitClass>
-				<ExtraUnitClass>
-					<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
-					<UnitType>UNIT_MILITIA</UnitType>
-				</ExtraUnitClass>
-				<ExtraUnitClass>
+                <ExtraUnitClass>
 					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 					<UnitType>UNIT_MILITIA_CROSSBOWMAN</UnitType>
-				</ExtraUnitClass>
-				<ExtraUnitClass>
-					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-					<UnitType>UNIT_MOUNTED_MILITIA</UnitType>
 				</ExtraUnitClass>
 			</ExtraUnitClasses>	
 		</TraitInfo>
@@ -2735,18 +2723,6 @@
 				<ExtraUnitClass>
 					<UnitClassType>UNITCLASS_SLUGA_COMMANDER_V2</UnitClassType>
 					<UnitType>UNIT_SLUGA_COMMANDER_V2</UnitType>
-				</ExtraUnitClass>
-				<ExtraUnitClass>
-					<UnitClassType>UNITCLASS_COMBAT_OVERSEER_V2</UnitClassType>
-					<UnitType>UNIT_COMBAT_OVERSEER_V2</UnitType>
-				</ExtraUnitClass>
-				<ExtraUnitClass>
-					<UnitClassType>UNITCLASS_WAR_SLUGA_V2</UnitClassType>
-					<UnitType>UNIT_WAR_SLUGA_V2</UnitType>
-				</ExtraUnitClass>
-				<ExtraUnitClass>
-					<UnitClassType>UNITCLASS_BATTLE_SLUGA_V2</UnitClassType>
-					<UnitType>UNIT_BATTLE_SLUGA_V2</UnitType>
 				</ExtraUnitClass>
 			</ExtraUnitClasses>	
 		</TraitInfo>

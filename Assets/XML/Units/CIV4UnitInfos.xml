@@ -30702,7 +30702,7 @@
 				</FreePromotion>
 			</FreePromotions>
 			<iMinLevel>1</iMinLevel>
-			<iCombatDefense>4</iCombatDefense>
+			<iCombatDefense>5</iCombatDefense>
 			<iTier>2</iTier>
 			<iWeaponTierMax>3</iWeaponTierMax>
 		</UnitInfo>
@@ -30764,7 +30764,7 @@
 				</FreePromotion>
 			</FreePromotions>
 			<iMinLevel>1</iMinLevel>
-			<iCombatDefense>6</iCombatDefense>
+			<iCombatDefense>7</iCombatDefense>
 			<iTier>3</iTier>
 			<iWeaponTierMax>3</iWeaponTierMax>
 		</UnitInfo>

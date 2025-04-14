@@ -10583,9 +10583,6 @@
 			<Type>SPELL_SLUGA_CREATION_V2</Type>
 			<Description>TXT_KEY_SPELL_SLUGA_CREATION</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
-			<PrereqTraits>
-			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait> <!-- Jamal is the only leader of the Mekara keen on biosludge soldiers or workers -->
-			</PrereqTraits>
 			<BuildingPrereq>BUILDING_SHAPER_CABAL</BuildingPrereq>
 			<UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
@@ -10654,9 +10651,6 @@
 			<Description>TXT_KEY_SPELL_BATTLE_SLUGA_CREATION</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
 			<TechPrereq>TECH_ALTERATION</TechPrereq>
-			<PrereqTraits>
-			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
-			</PrereqTraits>
 			<BuildingPrereq>BUILDING_SHAPER_CABAL</BuildingPrereq>
 			<UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
