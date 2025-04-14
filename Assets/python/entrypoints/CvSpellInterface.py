@@ -11279,7 +11279,7 @@ def spellCorgayleAscension(caster):
 				for i in xrange(iVampCount):
 					newUnit.setHasPromotion(iVampiricStrength, True)
 	caster.kill(True,0)
-
+#Disabled
 def spellSlugaCreation(caster, slugaType):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pPlot = caster.plot()
@@ -11291,7 +11291,7 @@ def spellSlugaCreation(caster, slugaType):
 		iUnit = getInfoType("UNIT_SLAVE")
 	newUnit = pPlayer.initUnit(iUnit, pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 	caster.kill(True,0)
-
+#Disabled
 def reqBehemothCreation(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	iMaterialCount = 0
@@ -11310,7 +11310,7 @@ def reqBehemothCreation(caster):
 			if iMaterialCount >= 4:
 				return True
 	return False
-
+#Disabled
 def spellBehemothCreation(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pPlot = caster.plot()
@@ -11782,6 +11782,43 @@ def spellBloom(caster):
 		pPlot.setFeatureType(getInfoType('FEATURE_FOREST_NEW'), -1)
 	elif iTerrain == getInfoType('TERRAIN_MARSH'):
 		pPlot.setFeatureType(getInfoType('FEATURE_FOREST_NEW'), -1)
+# *******************
+# Mekara V2 Python: 2025-04-13
+#
+# Python belonging to the Mekara V2 Civilization
+#
+Slaves = [
+	getInfoType("UNIT_SLAVE"),
+	getInfoType("UNIT_SLAVE_UNDEAD")
+]
+#New V2 Behemoth spell, converted from Flight of Drakes
+def reqFormSlugaBehemoth(caster):
+	pPlot = caster.plot()
+	iUnitType = caster.getUnitType()
+	numSameTypeSlaves = 0 # Will add self
+	for i in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(i)
+		if (pUnit.isAlive() and pUnit.getOwner() == caster.getOwner() and pUnit.getUnitType() == iUnitType):
+			numSameTypeSlaves += 1
+	return numSameTypeSlaves >= 4
+#New V2 Behemoth spell, converted from Flight of Drakes
+def spellFormSlugaBehemoth(caster):
+	# The actual upgrading of the original unit is done in the XML,
+	# so this code just kills the two lowest experienced drakes of the same type
+	pPlot = caster.plot()
+	iUnitType = caster.getUnitType()
+	iID = caster.getID()
+	sameTypeSlaves = [] # Will not include self
+	for i in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(i)
+		if (pUnit.isAlive() and pUnit.getOwner() == caster.getOwner() and pUnit.getUnitType() == iUnitType and pUnit.getID() != iID):
+			sameTypeSlaves.append(pUnit)
+	sameTypeSlaves.sort(cmp = lambda a, b: a.getExperienceTimes100() - b.getExperienceTimes100())
+	for i in range(2):
+		if sameTypeSlaves[i].isImmortal():
+			sameTypeSlaves[i].changeImmortal(-10)
+		sameTypeSlaves[i].kill(True, 0)
+
 
 def reqAddT1Wolf(pCaster):
 	# check units on tile. If at least one wolf T2 or t3 is present and has not combat V, return true
