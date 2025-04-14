@@ -10705,8 +10705,10 @@ void CvGame::createLairs()
 {
 	PROFILE("CvGame::createLairs");
 	int iNetWeight, iWeight, iTargetWeight, iI, iJ, iK, iCiv, iFlags, iGoal;
-	bool bEvilValid, bNormalValid;
-	CvPlot* pPlot=NULL;
+	bool bEvilValid, bNormalValid, bNoSpawns;
+	PlayerTypes ePlayer;
+	CvPlot* pPlot = NULL;
+	CvArea* pArea = NULL;
 	ImprovementTypes eLair=NO_IMPROVEMENT;
 
 	if (isOption(GAMEOPTION_NO_LAIRS))
@@ -10721,29 +10723,34 @@ void CvGame::createLairs()
 	setLastLairCycle(getGameTurn());
 
 	iGoal = GC.getHandicapInfo(getHandicapType()).getLairsPerCycle();
+	if (iGoal <= 0) return;
 
-	for (iI = 0; iI < iGoal; iI++)
+	// Calculate the net of all possible positive weights on all lairs
+	iNetWeight = 0;
+	for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
 	{
-		iNetWeight = 0;
-		for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
+		iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
+		if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && isOption(GAMEOPTION_NO_DEMONS))
+		 && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && isOption(GAMEOPTION_NO_ANIMALS))
+		 && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && isOption(GAMEOPTION_NO_BARBARIANS)))
 		{
-			iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
-			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && isOption(GAMEOPTION_NO_DEMONS))
-			 && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && isOption(GAMEOPTION_NO_ANIMALS))
-			 && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && isOption(GAMEOPTION_NO_BARBARIANS)))
+			// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
+			iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
+			for (iK = 0; iK < GC.getNumTechInfos(); iK++)
 			{
-				// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
-				iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
-				for (iK = 0; iK < GC.getNumTechInfos(); iK++)
-				{
-					iWeight += (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeightTechs(iK)) * countKnownTechNumTeams((TechTypes)iK);
-				}
-				if (iWeight > 0)
-				{
-					iNetWeight += iWeight;
-				}
+				iWeight += (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeightTechs(iK)) * countKnownTechNumTeams((TechTypes)iK);
+			}
+			// Total weight for this lair might be negative; don't include if so
+			if (iWeight > 0)
+			{
+				iNetWeight += iWeight;
 			}
 		}
+	}
+
+	for (iI = 0; iI < 50; iI++)
+	{
+		// Pick a random value from the static total sum. If we recalculate weights until this value, then our stopping point will be random & weight-modulated.
 		iTargetWeight = getMapRandNum(iNetWeight, "Select Lair Spawn");
 		for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
 		{
@@ -10758,6 +10765,7 @@ void CvGame::createLairs()
 				{
 					iWeight += (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeightTechs(iK)) * countKnownTechNumTeams((TechTypes)iK);
 				}
+				// Total weight for this lair might be negative; don't include if so
 				if (iWeight > 0)
 				{
 					iTargetWeight -= iWeight;
@@ -10776,7 +10784,6 @@ void CvGame::createLairs()
 		iFlags |= RANDPLOT_NOT_IMPROVED;
 		iFlags |= RANDPLOT_UNOCCUPIED;
 		iFlags |= RANDPLOT_ADJACENT_UNOWNED;
-
 		if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
 		{
 			iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
@@ -10800,15 +10807,15 @@ void CvGame::createLairs()
 			iFlags |= RANDPLOT_NOT_PEAK;
 		}
 
-		if (GC.getImprovementInfo(eLair).getSpawnUnitCiv() == GC.getDefineINT("DEMON_CIVILIZATION"))
+		if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION"))
 		{
 			iFlags |= RANDPLOT_DEMON_ALLY;
 		}
-		else if (GC.getImprovementInfo(eLair).getSpawnUnitCiv() == GC.getDefineINT("ORC_CIVILIZATION"))
+		else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION"))
 		{
 			iFlags |= RANDPLOT_ORC_ALLY;
 		}
-		else if (GC.getImprovementInfo(eLair).getSpawnUnitCiv() == GC.getDefineINT("ANIMAL_CIVILIZATION"))
+		else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION"))
 		{
 			iFlags |= RANDPLOT_ANIMAL_ALLY;
 		}
@@ -10842,14 +10849,29 @@ void CvGame::createLairs()
 		pPlot = GC.getMapINLINE().syncRandPlot(iFlags);
 		if (pPlot != NULL && GC.getImprovementInfo(eLair).getTerrainMakesValid(pPlot->getTerrainType()))
 		{
-			pPlot->setImprovementType(eLair);
-		}
-		else
-		{
-			if (iGoal < (GC.getHandicapInfo(getHandicapType()).getLairsPerCycle() + 50))
+			// If we're struggling to place lairs because of barb limits, that's OK
+			iGoal -= 1;
+
+			// Check spawning criteria vs density requirements. Lairs that don't spawn might fill up tiles...
+			bNoSpawns = false;
+			if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION")) ePlayer = DEMON_PLAYER;
+			else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION")) ePlayer = ORC_PLAYER;
+			else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION")) ePlayer = ANIMAL_PLAYER;
+			else bNoSpawns = true;
+
+			pArea = pPlot->area();
+
+			if (bNoSpawns)
 			{
-				iGoal++;
+				pPlot->setImprovementType(eLair);
 			}
+			// Lairs can only spawn if there's space for barbs to spawn; prevents wildly dense barb areas
+			else if (pArea != NULL && (calcTargetBarbs(pArea, true, ePlayer) > pArea->getUnitsPerPlayer(ePlayer)))
+			{
+				pPlot->setImprovementType(eLair);
+			}
+
+			if (iGoal <= 0) return;
 		}
 	}
 }
