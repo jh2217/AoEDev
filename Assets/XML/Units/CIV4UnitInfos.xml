@@ -28285,8 +28285,8 @@
 			<Quote>TXT_KEY_UNIT_CORGAYLE_ASCENDED_PEDIA</Quote>
 			<iWeaponTierMax>3</iWeaponTierMax>
 		</UnitInfo>
-		<UnitInfo>        <!-- Karas 320-->
-			<Class>UNITCLASS_KARAS</Class>
+	<!--	<UnitInfo>  -->      <!-- Karas 320-->
+		<!--	<Class>UNITCLASS_KARAS</Class>
 			<Type>UNIT_KARAS</Type>
 			<Combat>UNITCOMBAT_COMMANDER</Combat>
 			<DefaultUnitAI>UNITAI_RESERVE</DefaultUnitAI>
@@ -28348,7 +28348,7 @@
 				<Promotion>PROMOTION_COM_OVERSEER_MELEE_MASTER</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_RANGED_MASTER</Promotion>
 			</AllowPromotions>
-		</UnitInfo>
+		</UnitInfo> -->
 		<UnitInfo>        <!-- Conscript -->
 			<Class>UNITCLASS_WARRIOR</Class>
 			<Type>UNIT_CONSCRIPT</Type>

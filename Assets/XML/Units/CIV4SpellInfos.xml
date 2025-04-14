@@ -10453,7 +10453,6 @@
 			<Help>TXT_KEY_SPELL_MEKARA_WORLDSPELL_HELP</Help>
 			<CivilizationPrereq>CIVILIZATION_MEKARA_V2</CivilizationPrereq>
 			<TechPrereq>TECH_ALTERATION</TechPrereq>
-			<bForceOverwrite>1</bForceOverwrite>
 			<bAllowAI>1</bAllowAI>
 			<bGlobal>1</bGlobal>
 			<Quote>TXT_KEY_GLOBALSPELL_MEKARA_WORLDSPELL</Quote>
