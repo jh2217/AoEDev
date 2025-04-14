@@ -11181,7 +11181,7 @@ def reqMekaraWorldspell(caster):
 	if pPlayer.isHuman() == False:
 		iUnitCounter = 0
 		for pUnit in py.getUnitList():
-			if (pUnit.getUnitType() == getInfoType('UNIT_SLUGA')
+			if (pUnit.getUnitType() == getInfoType('UNIT_SLUGA_V2')
 				or pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')):
 					iUnitCounter += 1
 		if iUnitCounter < 12:
@@ -11194,12 +11194,12 @@ def reqMekaraWorldspell(caster):
 
 def spellMekaraWorldspell(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
-	iBattleSluga = getInfoType('UNIT_WAR_SLUGA')
+	iBattleSluga = getInfoType('UNIT_WAR_SLUGA_V2')
 	py = PyPlayer(caster.getOwner())
 	for pUnit in py.getUnitList():
-		if (pUnit.getUnitType() == getInfoType('UNIT_SLUGA') or pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')):
+		if (pUnit.getUnitType() == getInfoType('UNIT_SLUGA_V2') or pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')):
 				newUnit = pPlayer.initUnit(iBattleSluga, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-				newUnit.setHasPromotion(getInfoType('PROMOTION_INDEPENDENT'), True)
+				newUnit.setHasPromotion(getInfoType('PROMOTION_INDEPENDENT_V2'), True)
 				pUnit.kill(True,0)
 
 def reqAscension(caster):
@@ -11280,56 +11280,55 @@ def spellCorgayleAscension(caster):
 					newUnit.setHasPromotion(iVampiricStrength, True)
 	caster.kill(True,0)
 #Disabled
-def spellSlugaCreation(caster, slugaType):
-	pPlayer = gc.getPlayer(caster.getOwner())
-	pPlot = caster.plot()
-	if slugaType == 0:
-		iUnit = getInfoType("UNIT_SLUGA")
-	if slugaType == 1:
-		iUnit = getInfoType("UNIT_BATTLE_SLUGA")
-	if slugaType == 2:
-		iUnit = getInfoType("UNIT_SLAVE")
-	newUnit = pPlayer.initUnit(iUnit, pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-	caster.kill(True,0)
+#def spellSlugaCreation(caster, slugaType):
+#	pPlayer = gc.getPlayer(caster.getOwner())
+#	pPlot = caster.plot()
+#	if slugaType == 0:
+#		iUnit = getInfoType("UNIT_SLUGA")
+#	if slugaType == 1:
+#		iUnit = getInfoType("UNIT_BATTLE_SLUGA")
+#	if slugaType == 2:
+#		iUnit = getInfoType("UNIT_SLAVE")
+#	newUnit = pPlayer.initUnit(iUnit, pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+#	caster.kill(True,0)
 #Disabled
-def reqBehemothCreation(caster):
-	pPlayer = gc.getPlayer(caster.getOwner())
-	iMaterialCount = 0
-	pPlot = caster.plot()
-	if pPlayer.getLeaderType() != getInfoType('LEADER_JAMAL'): return False
-	if pPlayer.getUnitClassCount(getInfoType('UNITCLASS_BEHEMOTH_SLUGA')) >= 4: return False
-	for i in range(pPlot.getNumUnits()):
-		pUnit = pPlot.getUnit(i)
-		if (pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')
-			or pUnit.getUnitType() == getInfoType('UNIT_SLUGA')
-			or pUnit.getUnitType() == getInfoType('UNIT_BATTLE_SLUGA')
-			or pUnit.getUnitType() == getInfoType('UNIT_WAR_SLUGA')):
-			iMaterialCount += 1
-			if pUnit.isHasPromotion(getInfoType('PROMOTION_GIANTKIN')):
-				iMaterialCount += 1
-			if iMaterialCount >= 4:
-				return True
-	return False
+#def reqBehemothCreation(caster):
+#	pPlayer = gc.getPlayer(caster.getOwner())
+#	pPlot = caster.plot()
+#	if pPlayer.getLeaderType() != getInfoType('LEADER_JAMAL'): return False
+#	if pPlayer.getUnitClassCount(getInfoType('UNITCLASS_BEHEMOTH_SLUGA')) >= 4: return False
+#	for i in range(pPlot.getNumUnits()):
+#		pUnit = pPlot.getUnit(i)
+#		if (pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')
+#			or pUnit.getUnitType() == getInfoType('UNIT_SLUGA')
+#			or pUnit.getUnitType() == getInfoType('UNIT_BATTLE_SLUGA')
+#			or pUnit.getUnitType() == getInfoType('UNIT_WAR_SLUGA')):
+#			iMaterialCount += 1
+#			if pUnit.isHasPromotion(getInfoType('PROMOTION_GIANTKIN')):
+#				iMaterialCount += 1
+#			if iMaterialCount >= 4:
+#				return True
+#	return False
 #Disabled
-def spellBehemothCreation(caster):
-	pPlayer = gc.getPlayer(caster.getOwner())
-	pPlot = caster.plot()
-	iCounter = 0
-	iUnit = getInfoType('UNIT_BEHEMOTH_SLUGA')
-	while iCounter < 4:
-		for i in range(pPlot.getNumUnits()):
-			pUnit = pPlot.getUnit(i)
-			if (pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')
-				or pUnit.getUnitType() == getInfoType('UNIT_SLUGA')
-				or pUnit.getUnitType() == getInfoType('UNIT_BATTLE_SLUGA')
-				or pUnit.getUnitType() == getInfoType('UNIT_WAR_SLUGA')):
-				if iCounter < 4:
-					if pUnit.isHasPromotion(getInfoType('PROMOTION_GIANTKIN')):
-						iCounter += 1
-					iCounter += 1
-					pUnit.kill(True, 0)
-	if iCounter == 4:
-		pPlayer.initUnit(iUnit, caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+#def spellBehemothCreation(caster):
+#	pPlayer = gc.getPlayer(caster.getOwner())
+#	pPlot = caster.plot()
+#	iCounter = 0
+#	iUnit = getInfoType('UNIT_BEHEMOTH_SLUGA')
+#	while iCounter < 4:
+#		for i in range(pPlot.getNumUnits()):
+#			pUnit = pPlot.getUnit(i)
+#			if (pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')
+#				or pUnit.getUnitType() == getInfoType('UNIT_SLUGA')
+#				or pUnit.getUnitType() == getInfoType('UNIT_BATTLE_SLUGA')
+#				or pUnit.getUnitType() == getInfoType('UNIT_WAR_SLUGA')):
+#				if iCounter < 4:
+#					if pUnit.isHasPromotion(getInfoType('PROMOTION_GIANTKIN')):
+#						iCounter += 1
+#					iCounter += 1
+#					pUnit.kill(True, 0)
+#	if iCounter == 4:
+#		pPlayer.initUnit(iUnit, caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 
 def reqEnslaveWorker(caster):
 	if caster.getUnitType()==getInfoType('UNIT_FAMILIAR'):
@@ -11371,7 +11370,7 @@ def spellGladiatorPerTurn(caster):
 	iDestruction = 1
 	if iRnd < 45:
 		caster.setHasPromotion(iGames, False)
-		if iRnd < 15:
+		if iRnd < 20:
 			caster.kill(True,0)
 		elif caster.getUnitType() != iUnit:
 			newUnit = pPlayer.initUnit(iUnit, pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
