@@ -1253,22 +1253,22 @@ class CvGameUtils:
 				if pLoopPlayer.getLeaderType() == Leader["Duin"] and pLoopPlayer.isAlive(): return True
 		elif eUnit == Hero["Varulv"]:
 			if pPlayer.getLeaderType() != Leader["Duin"]: return True
-		elif eUnit == Unit["Summons"]["Water Elemental"]:
-			if not pPlayer.hasTrait(Trait["Hydromancer 2"]): return True
-		elif eUnit == gc.getInfoTypeForString("UNIT_PRIESTESS_OF_BHALL") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CUALLI"):
-			if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC2")):
-				return True
-		elif eUnit == gc.getInfoTypeForString("UNIT_LIZARD_PRIEST_OF_AGRUONN") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CLAN_OF_EMBERS"):
-			if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC2")):
-				return True
-		elif eUnit == gc.getInfoTypeForString("UNIT_HIGH_PRIESTESS_OF_BHALL") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CUALLI"):
-			if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC3")):
-				return True
-		elif eUnit == gc.getInfoTypeForString("UNIT_SHADOW_PRIEST_OF_AGRUONN") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CLAN_OF_EMBERS"):
-			if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC3")):
-				return True
-		elif eUnit == Hero["Kahd"]:
-			if not (pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_KAHD_OGHMA")) or pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_KAHD_MAMMON"))):	return True
+		#elif eUnit == Unit["Summons"]["Water Elemental"]:
+		#	if not pPlayer.hasTrait(Trait["Hydromancer 2"]): return True
+	#	elif eUnit == gc.getInfoTypeForString("UNIT_PRIESTESS_OF_BHALL") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CUALLI"):
+	#		if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC2")):
+	#			return True
+	#	elif eUnit == gc.getInfoTypeForString("UNIT_LIZARD_PRIEST_OF_AGRUONN") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CLAN_OF_EMBERS"):
+	#		if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC2")):
+	#			return True
+	#	elif eUnit == gc.getInfoTypeForString("UNIT_HIGH_PRIESTESS_OF_BHALL") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CUALLI"):
+	#		if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC3")):
+	#			return True
+	#	elif eUnit == gc.getInfoTypeForString("UNIT_SHADOW_PRIEST_OF_AGRUONN") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CLAN_OF_EMBERS"):
+	#		if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC3")):
+	#			return True
+	#	elif eUnit == Hero["Kahd"]:
+	#		if not (pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_KAHD_OGHMA")) or pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_KAHD_MAMMON"))):	return True
 
 		# emergency warrior production. # Note from Ronkhar : this would be bad when we enable Dtesh AI
 		#if bAI:

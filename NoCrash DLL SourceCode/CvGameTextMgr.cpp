@@ -7302,6 +7302,20 @@ void CvGameTextMgr::parseTraits(CvWStringBuffer &szHelpString, TraitTypes eTrait
 				szHelpString.append(gDLL->getText("TXT_KEY_TRAIT_UNITCLASS_PLAYER_INSTANCES_CHANGE", GC.getUnitClassInfo((UnitClassTypes)iJ).getDescription(), GC.getTraitInfo(eTrait).getUnitClassPlayerInstancesChange(iJ)));
 			}
 		}
+		for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+		{
+			if (GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ) != NO_UNIT)
+			{
+				if (GC.getUnitClassInfo((UnitClassTypes)iJ).getDefaultUnitIndex() != GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ))
+				{
+					szHelpString.append(gDLL->getText("TXT_KEY_TRAIT_EXTRA_UNIT_UNITCLASS", GC.getUnitClassInfo((UnitClassTypes)iJ).getDescription(), GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide(), GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide()));
+				}
+				else
+				{
+					szHelpString.append(gDLL->getText("TXT_KEY_TRAIT_EXTRA_UNIT_UNITCLASS_DEFAULT", GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide(), GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide()));
+				}
+			}
+		}
 		// Wonder Production Effects
 		if ((GC.getTraitInfo(eTrait).getMaxGlobalBuildingProductionModifier() != 0)
 			|| (GC.getTraitInfo(eTrait).getMaxTeamBuildingProductionModifier() != 0)
@@ -17996,6 +18010,22 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szBuffer, UnitTypes eUnit, bool
 				{
 					szBuffer.append(NEWLINE);
 					szBuffer.append(gDLL->getText("TXT_KEY_UNIT_REQUIRES_STRING", GC.getCivicInfo((CivicTypes)(GC.getUnitInfo(eUnit).getPrereqCivic())).getTextKeyWide()));
+				}
+			}
+			if (GC.getUnitInfo(eUnit).getPrereqTrait() != NO_TRAIT)
+			{
+				bool bValid = false;
+				if (GC.getGameINLINE().getActivePlayer() != NO_PLAYER)
+				{
+					if (GET_PLAYER(ePlayer).hasTrait((TraitTypes)GC.getUnitInfo(eUnit).getPrereqTrait()))
+					{
+						bValid = true;
+					}	
+				}
+				if (bValid == false)
+				{
+					szBuffer.append(NEWLINE);
+					szBuffer.append(gDLL->getText("TXT_KEY_UNIT_REQUIRES_STRING", GC.getTraitInfo((TraitTypes)(GC.getUnitInfo(eUnit).getPrereqTrait())).getTextKeyWide()));
 				}
 			}
 			if (GC.getUnitInfo(eUnit).getPrereqGlobalCounter() != 0)

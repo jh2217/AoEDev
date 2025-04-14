@@ -809,7 +809,8 @@ public:
 	bool getFeatureDoubleMove(int i) const;				// Exposed to Python
 	bool getPlotEffectDoubleMove(int i) const;				// Exposed to Python
 	bool getUnitCombat(int i) const;				// Exposed to Python
-/*************************************************************************************************/
+	int getMaxExpReward() const;
+	/*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
 /**										Leashes	a unit to a plot								**/
@@ -1435,6 +1436,7 @@ protected:
 	bool m_bTradeDefender;
 
 	CvString m_szSound;
+	int m_iMaxExpReward;
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
@@ -2918,6 +2920,7 @@ public:
 /*************************************************************************************************/
 	int getPrereqBuildingClass() const;
 	int getPrereqCivic() const;
+	int getPrereqTrait() const;
 	int getPrereqGlobalCounter() const;
 	int getPromotionFromCombat() const;
 	const TCHAR* getPyPreCombat() const;//PyPreCombat by BI 07/24/11
@@ -3415,6 +3418,7 @@ protected:
 /*************************************************************************************************/
 	int m_iPrereqBuildingClass;
 	int m_iPrereqCivic;
+	int m_iPrereqTrait;
 	int m_iPrereqGlobalCounter;
 	int m_iPromotionFromCombat;
 	int m_iTier;
@@ -9314,7 +9318,12 @@ public:
 	int getImprovementYieldChangesVectorSize();
 	CvString getImprovementYieldChangesNamesVectorElement(int i);
 	int* getImprovementYieldChangesValuesVectorElement(int i);
-/*************************************************************************************************/
+	int getUnitClassesVectorSize();
+	int getUnitClassesUnitVectorSize();
+	CvString getUnitClassesVectorElement(int i);
+	CvString getUnitClassesUnitVectorElement(int i);
+	int getExtraUnitClasses(int i) const;
+	/*************************************************************************************************/
 /**	Miner Trait							END			**/
 /*************************************************************************************************/
 
@@ -9503,7 +9512,9 @@ protected:
 	int** m_ppiImprovementYieldChanges;
 	std::vector<CvString> m_aszImprovementYieldChanges;
 	std::vector<int*> m_yiImprovementYieldChanges;
-
+	std::vector<CvString> m_aszUnitClassesforPass3;
+	std::vector<CvString> m_aszUnitClassesUnitforPass3;
+	int* m_piExtraUnitClass;
 /*************************************************************************************************/
 /**	Miner Trait							END			**/
 /*************************************************************************************************/

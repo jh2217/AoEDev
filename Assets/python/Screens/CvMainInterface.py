@@ -1088,6 +1088,11 @@ class CvMainInterface:
 		screen.hide( "ManaBackground" )
 #FfH: End Add
 
+#AoE: Added by LeastCraft 09/04/2025
+		screen.addPanel( "ArchosBroodActivityBackground", u"", u"", True, False, 0, 0, 0, 0, PanelStyles.PANEL_STYLE_HUD_HELP )
+		screen.hide( "ArchosBroodActivityBackground" )
+#AoE: End Add
+
 		for i in xrange( gc.getMAX_PLAYERS() ):
 			szName = "ScoreText" + str(i)
 			screen.setText( szName, "Background", u"", CvUtil.FONT_RIGHT_JUSTIFY, 996, 622, -0.3, FontTypes.SMALL_FONT, WidgetTypes.WIDGET_CONTACT_CIV, i, -1 )
@@ -1312,7 +1317,7 @@ class CvMainInterface:
 			#*************************************************************************************************#
 			#** Spawn Probability - Archos - Spiders                                                        **#
 			#*************************************************************************************************#
-				elif pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_ARCHOS') and pPlayer.getNumCities() > 0:
+				elif gc.getInfoTypeForString('MODULE_ARACHNOPHOBIA')==-1 and pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_ARCHOS') and pPlayer.getNumCities() > 0:
 					iSpawnOdds  = pPlayer.getCivCounter() # spawn chance, rounded to 2 digits from the decimal point
 					iInteger    = iSpawnOdds / 100
 					iDecimal    = iSpawnOdds % 100
@@ -1343,6 +1348,35 @@ class CvMainInterface:
 						screen.hide( "ScorpText" )
 			#*************************************************************************************************#
 			#** Spawn Probability - Archos - Scorpions                                                  END **#
+			#*************************************************************************************************#
+			#*************************************************************************************************#
+			#** Spawn Probability - Archos - Brood Activity                                                 **#
+			#*************************************************************************************************#
+				elif gc.getInfoTypeForString('MODULE_ARACHNOPHOBIA')!=-1 and pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_ARCHOS') and pPlayer.getNumCities() > 0:
+					iBroodActivity = pPlayer.getCivCounter() # brood activity, rounded to 2 digits from the decimal point
+					iBAInteger     = iBroodActivity / 100
+					iBADecimal     = iBroodActivity % 100
+					iSpawnOdds     = pPlayer.getCivCounterMod() # spawn chance, rounded to 2 digits from the decimal point
+					iSpawnInteger  = iSpawnOdds / 100
+					iSpawnDecimal  = iSpawnOdds % 100
+
+					if iBAInteger >= 800:
+						BAstr = u"<font=2i>%s</font>" %(str(" ") + str(localText.getText("TXT_KEY_MISC_BROOD_ACTIVITY_4", ())) + str(" "))
+					elif iBAInteger >= 400:
+						BAstr = u"<font=2i>%s</font>" %(str(" ") + str(localText.getText("TXT_KEY_MISC_BROOD_ACTIVITY_3", ())) + str(" "))
+					elif iBAInteger >= 200:
+						BAstr = u"<font=2i>%s</font>" %(str(" ") + str(localText.getText("TXT_KEY_MISC_BROOD_ACTIVITY_2", ())) + str(" "))
+					else:
+						BAstr = u"<font=2i>%s</font>" %(str(" ") + str(localText.getText("TXT_KEY_MISC_BROOD_ACTIVITY_1", ())) + str(" "))
+					screen.setImageButton("Awakenedchance", "Art/Interface/Buttons/Units/Spider.dds", 6, 331, 16, 16, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+					screen.setText( "SRText", "Background", BAstr, CvUtil.FONT_LEFT_JUSTIFY, 18, 329, 0.5, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+					screen.setHitTest( "SRText", HitTestTypes.HITTEST_NOHIT )
+
+					SRstr = u"<font=2i>%s</font>" %(str(" ") + str(iBAInteger) + str(".") + str(iBADecimal) + str(" + ") + str(iSpawnInteger) + str(".") + str(iSpawnDecimal) + str(" "))
+					screen.setText( "ScorpText", "Background", SRstr, CvUtil.FONT_LEFT_JUSTIFY, 18, 349, 0.5, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
+					screen.setHitTest( "ScorpText", HitTestTypes.HITTEST_NOHIT )
+			#*************************************************************************************************#
+			#** Spawn Probability - Archos - Brood Activity                                             END **#
 			#*************************************************************************************************#
 			#*************************************************************************************************#
 			#** Spawn Probability - Jotnar - MOVE TO MODULE                                                 **#
@@ -1882,6 +1916,7 @@ class CvMainInterface:
 		screen.show( "MiniMapPanel" )
 		screen.show( "ACIcon" )
 	##	screen.show( "ManaBackground" )
+	##  self.showArchosBroodActivityBackground()
 		global ishowManaBar
 		global isformershowManaBar
 		ishowManaBar = isformershowManaBar
@@ -2541,15 +2576,10 @@ class CvMainInterface:
 				# City Actions (Spells) available
 				iSelectedCount = 0
 				pPlayer = gc.getPlayer(pHeadSelectedCity.getOwner())
-				(loopCity,iter)= pPlayer.firstCity(False)
-				while(loopCity):
-					if CyInterface().isCitySelected(loopCity):
-						iSelectedCount+=1
-					(loopCity,iter)=pPlayer.nextCity(iter,False)
-		#		for iCity in xrange (pPlayer.getNumCities()):
-		#			pCity = pPlayer.getCity(iCity)
-		#			if CyInterface().isCitySelected(pCity):
-		#				iSelectedCount += 1
+				for iCity in xrange (pPlayer.getNumCities()):
+					pCity = pPlayer.getCity(iCity)
+					if CyInterface().isCitySelected(pCity):
+						iSelectedCount += 1
 				if iSelectedCount == 1:
 					for i in xrange ( gc.getNumSpellInfos() ):
 
@@ -5105,6 +5135,7 @@ class CvMainInterface:
 		global ishowManaBar
 
 		screen.hide( "ManaBackground" )
+		screen.hide( "ArchosBroodActivityBackground" )
 
 		iWidth = 0
 		iCount = 0
@@ -5167,6 +5198,7 @@ class CvMainInterface:
 					iCount = iCount + 1
 				screen.setPanelSize( "ManaBackground", 6, yCoord + 18, (iWidth * 2) + 12, (iBtnHeight * 11) + 12 )
 				screen.show( "ManaBackground" )
+				self.showArchosBroodActivityBackground()
 		if (ishowManaBar == 2):
 			for szBonus in manaTypes1:
 				szName = "ManaText" + szBonus
@@ -5203,6 +5235,7 @@ class CvMainInterface:
 					iCount = iCount + 1
 				screen.setPanelSize( "ManaBackground", 6, yCoord + 18, (iWidth * 2) + 12, (iBtnHeight * 11) + 12 )
 				screen.show( "ManaBackground" )
+				self.showArchosBroodActivityBackground()
 		if (ishowManaBar == 3):
 			for szBonus in luxuryTypes1:
 				szName = "LuxuryText" + szBonus
@@ -5239,6 +5272,7 @@ class CvMainInterface:
 					iCount = iCount + 1
 				screen.setPanelSize( "ManaBackground", 6, yCoord + 18, (iWidth * 2) + 12, (iBtnHeight * 11) + 12 )
 				screen.show( "ManaBackground" )
+				self.showArchosBroodActivityBackground()
 		if (ishowManaBar == 4):
 			for szBonus in healthTypes1:
 				szName = "HealthText" + szBonus
@@ -5275,6 +5309,14 @@ class CvMainInterface:
 					iCount = iCount + 1
 				screen.setPanelSize( "ManaBackground", 6, yCoord + 18, (iWidth * 2) + 12, (iBtnHeight * 11) + 12 )
 				screen.show( "ManaBackground" )
+				self.showArchosBroodActivityBackground()
+	
+	def showArchosBroodActivityBackground( self ):
+		screen = CyGInterfaceScreen( "MainInterface", CvScreenEnums.MAIN_INTERFACE )
+		pPlayer = gc.getPlayer(gc.getGame().getActivePlayer())
+		if gc.getInfoTypeForString('MODULE_ARACHNOPHOBIA')!=-1 and pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_ARCHOS') and pPlayer.getNumCities() > 0:
+			screen.setPanelSize( "ArchosBroodActivityBackground", 6, 321, 100, 52 )
+			screen.show( "ArchosBroodActivityBackground" )
 
 	def updatexUPT( self ):
 		screen = CyGInterfaceScreen( "MainInterface", CvScreenEnums.MAIN_INTERFACE )
@@ -5405,6 +5447,10 @@ class CvMainInterface:
 				screen.hide( "ManaBackground" )
 #FfH: End Add
 
+#AoE: Added by LeastCraft 09/04/2025
+				screen.hide( "ArchosBroodActivityBackground" )
+#AoE: End Add
+
 			# set up toggle button
 			screen.setState("GlobeToggle", True)
 
@@ -5452,6 +5498,10 @@ class CvMainInterface:
 				screen.setPanelSize( "ManaBackground", iPanelX, iPanelY, iPanelWidth, iPanelHeight )
 				screen.show( "ManaBackground" )
 #FfH: End Add
+
+#AoE: Added by LeastCraft 09/04/2025
+				self.showArchosBroodActivityBackground()
+#AoE: End Add
 
 		else:
 			if iCurrentLayerID != -1:

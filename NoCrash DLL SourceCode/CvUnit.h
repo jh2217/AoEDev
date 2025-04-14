@@ -513,6 +513,8 @@ public:
 	int bombardRate() const;																								// Exposed to Python
 	int airBombBaseRate() const;																											// Exposed to Python
 	int airBombCurrRate() const;																											// Exposed to Python
+	int getMaxExpReward() const;																									// Exposed to Python
+	void changeMaxExpReward(int iChange);																									// Exposed to Python
 
 	SpecialUnitTypes specialCargo() const;																	// Exposed to Python
 	DomainTypes domainCargo() const;																									// Exposed to Python
@@ -1759,6 +1761,7 @@ protected:
 	int m_iLevel;
 	int m_iCargo;
 	int m_iCargoCapacity;
+	int m_iMaxExpReward;
 	int m_iAttackPlotX;
 	int m_iAttackPlotY;
 	int m_iCombatTimer;

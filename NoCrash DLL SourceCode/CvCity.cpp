@@ -21747,6 +21747,10 @@ bool CvCity::canSwitchToCultureLevel(CultureLevelTypes eCultureLevel, bool bIgno
 
 int CvCity::getCityUnits(int eUnitClass) const
 {
+	if (GET_PLAYER(getOwner()).getExtraUnitClasses((UnitClassTypes)eUnitClass) != NO_UNIT)
+	{
+		return GET_PLAYER(getOwner()).getExtraUnitClasses((UnitClassTypes)eUnitClass);
+	}
 	if (getCityClass() != NO_CITYCLASS)
 	{
 	//	if (GC.getCityClassInfo(getCityClass()).getCityClassUnits(eUnitClass) != NO_UNIT)

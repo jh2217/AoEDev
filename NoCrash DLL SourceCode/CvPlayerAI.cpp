@@ -26266,6 +26266,8 @@ bool CvPlayerAI::AI_canTrainWithTech(UnitTypes eUnit)
 		return false;
 	if ((kUnitInfo.getPrereqAlignment() != NO_ALIGNMENT) && (kUnitInfo.getPrereqAlignment() != getAlignment()))
 		return false;
+	if ((kUnitInfo.getPrereqTrait() != NO_TRAIT) && (!hasTrait((TraitTypes)kUnitInfo.getPrereqTrait())))
+		return false;
 	if (GC.getGameINLINE().isUnitClassMaxedOut((UnitClassTypes)kUnitInfo.getUnitClassType()))
 		return false;
 	if (kUnitInfo.getPrereqCivic() != NO_CIVIC)
