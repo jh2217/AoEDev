@@ -292,6 +292,7 @@
 			</TerrainMakesValids>
 			<ImprovementUpgrade>IMPROVEMENT_PIRATE_STRONGHOLD</ImprovementUpgrade>
 			<iAppearanceProbability>60</iAppearanceProbability>
+			<SpawnGroupType>SPAWN_GROUP_CARAVEL</SpawnGroupType> <!-- This group is unlikely to spawn, since it requires a tech which upgrades this lair -->
 			<SpawnUnitType>UNIT_GALLEY</SpawnUnitType>
 			<ImmediateSpawnUnitType>UNIT_BOARDING_PARTY</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
@@ -355,6 +356,7 @@
 			</TerrainMakesValids>
 			<ImprovementUpgrade>IMPROVEMENT_PIRATE_FREE_CITY</ImprovementUpgrade>
 			<SpawnUnitType>UNIT_TRIREME</SpawnUnitType>
+			<SpawnGroupType>SPAWN_GROUP_CARRACK</SpawnGroupType>
 			<ImmediateSpawnUnitType>UNIT_BOARDING_PARTY</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
@@ -433,6 +435,7 @@
 				</TerrainMakesValid>
 			</TerrainMakesValids>
 			<SpawnUnitType>UNIT_PIRATE</SpawnUnitType>
+			<SpawnGroupType>SPAWN_GROUP_QUEEN_OF_THE_LINE</SpawnGroupType>
 			<ImmediateSpawnUnitType>UNIT_BOARDING_PARTY</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
@@ -624,6 +627,7 @@
 			<BonusConvert>BONUS_GIANT_KRAKEN_EYE</BonusConvert>
 			<iAppearanceProbability>20</iAppearanceProbability>
 			<SpawnUnitType>UNIT_KRAKEN_SPAWN</SpawnUnitType>
+			<SpawnGroupType>SPAWN_GROUP_ARCANE_BARGE</SpawnGroupType>
 			<ImmediateSpawnUnitType>UNIT_HIGH_PRIEST_OF_THE_OVERLORDS</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
@@ -773,6 +777,7 @@
 				</TerrainMakesValid>
 			</TerrainMakesValids>
 			<SpawnUnitType>UNIT_STYGIAN_GUARD</SpawnUnitType>
+			<SpawnGroupType>SPAWN_GROUP_PRIVATEER</SpawnGroupType> <!-- Cap'n Blackheart visits here -->
 			<ImmediateSpawnUnitType>UNIT_STYGIAN_GUARD</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>

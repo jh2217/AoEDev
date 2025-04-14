@@ -6503,6 +6503,7 @@ void CvGame::doTurn()
 	}
 
 	// BARB SPAWNING:
+	// Spawning from python heroes and events ignores any limits (done elsewhere). Then:
 	// Lairs only spawn if under barb limit for that area and type.
 	// 1 animal lair can always spawn in valid plot per area, even if target limit is 0
 	createLairs();
@@ -10754,6 +10755,7 @@ void CvGame::createLairs()
 		}
 	}
 
+	// 50 attempts to place the lairs...... stops early if places 2 though
 	for (iI = 0; iI < 50; iI++)
 	{
 		// Pick a random value from the static total sum. If we recalculate weights until this value, then our stopping point will be random & weight-modulated.
@@ -10855,9 +10857,6 @@ void CvGame::createLairs()
 		pPlot = GC.getMapINLINE().syncRandPlot(iFlags);
 		if (pPlot != NULL && GC.getImprovementInfo(eLair).getTerrainMakesValid(pPlot->getTerrainType()))
 		{
-			// If we're struggling to place lairs because of barb limits, that's OK
-			iGoal -= 1;
-
 			// Check spawning criteria vs density requirements. Lairs that don't spawn might fill up tiles...
 			bNoSpawns = false;
 			if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION")) ePlayer = DEMON_PLAYER;
@@ -10870,6 +10869,7 @@ void CvGame::createLairs()
 			if (bNoSpawns)
 			{
 				pPlot->setImprovementType(eLair);
+				iGoal--;
 			}
 			// Lairs can only spawn if there's space for barbs to spawn; prevents wildly dense barb areas
 			// 1 animal lair can always spawn even if there's no space for a normal animal to spawn
