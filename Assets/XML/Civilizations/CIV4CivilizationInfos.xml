@@ -8197,10 +8197,6 @@
 					<UnitType>UNIT_SLAVE_HUNTER</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_WAR_SLUGA_V2</UnitClassType>
-					<UnitType>UNIT_WAR_SLUGA_V2</UnitType>
-				</Unit>
-				<Unit>
 					<UnitClassType>UNITCLASS_GRIGORI_MEDIC</UnitClassType>
 					<UnitType>UNIT_CARETAKER</UnitType>
 				</Unit>
