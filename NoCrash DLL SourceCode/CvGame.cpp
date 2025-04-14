@@ -10728,7 +10728,7 @@ void CvGame::createLairs()
 
 	setLastLairCycle(getGameTurn());
 
-	iGoal = GC.getHandicapInfo(getHandicapType()).getLairsPerCycle();
+	iGoal = GC.getWorldInfo(GC.getMapINLINE().getWorldSize()).getDefaultPlayers();
 	if (iGoal <= 0) return;
 
 	// Calculate the net of all possible positive weights on all lairs

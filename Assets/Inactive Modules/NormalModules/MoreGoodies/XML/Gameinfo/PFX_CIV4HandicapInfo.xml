@@ -6,7 +6,7 @@
 <!-- Handicap Infos -->
 <Civ4HandicapInfo xmlns="x-schema:PFX_CIV4GameInfoSchema.xml">
 	<HandicapInfos>
-		<HandicapInfo>	
+		<HandicapInfo>
 			<Type>HANDICAP_DEITY</Type>
 			<bForceOverwrite>1</bForceOverwrite>
 			<Description>TXT_KEY_HANDICAP_DEITY</Description>
@@ -32,9 +32,9 @@
 			<iAttitudeChange>-1</iAttitudeChange>
 			<iNoTechTradeModifier>20</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
-			<iTilesPerAnimal>15</iTilesPerAnimal>
+			<iTilesPerAnimal>10</iTilesPerAnimal>
 			<iTilesPerOrc>15</iTilesPerOrc>
-			<iWaterTilesPerOrc>150</iWaterTilesPerOrc>
+			<iWaterTilesPerOrc>100</iWaterTilesPerOrc>
 			<iUnownedTilesPerBarbarianCity>21</iUnownedTilesPerBarbarianCity>
 			<iBarbarianCreationTurnsElapsed>10</iBarbarianCreationTurnsElapsed>
 			<iBarbarianCityCreationTurnsElapsed>15</iBarbarianCityCreationTurnsElapsed>
@@ -114,9 +114,9 @@
 			<iLairSpawnRate>6</iLairSpawnRate>
 			<iWaterTilesPerAnimal>75</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>35</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>95</iLairSpawnChance>
+			<iLairSpawnChance>25</iLairSpawnChance>
 			<iLairsPerCycle>9</iLairsPerCycle>
-			<iPercentDemonsPerEvilPlot>90</iPercentDemonsPerEvilPlot>
+			<iPercentDemonsPerEvilPlot>100</iPercentDemonsPerEvilPlot>
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>700</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>130</iDemonGlobalCounterFreeXPPercent>
 			<iDemonPerTurnKnownTechsPercent>15</iDemonPerTurnKnownTechsPercent>
