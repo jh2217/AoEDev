@@ -32615,7 +32615,7 @@
 			<bMustMaintain>1</bMustMaintain>
 			<bNoXP>1</bNoXP>
 			<PrereqCivilizations>
-				<PrereqCivilization>CIVILIZATION_MEKARA</PrereqCivilization>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
 			</PrereqCivilizations>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_MILITIA</PrereqUnit>
@@ -32711,7 +32711,7 @@
 				<Promotion>PROMOTION_SUBDUE_BEASTS</Promotion>
 			</PromotionExcludes>
 			<PrereqCivilizations>
-				<PrereqCivilization>CIVILIZATION_MEKARA</PrereqCivilization>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
 			</PrereqCivilizations>
 			<UnitCombats>
 				<UnitCombat>
