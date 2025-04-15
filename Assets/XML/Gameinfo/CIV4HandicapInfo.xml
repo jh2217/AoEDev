@@ -107,7 +107,7 @@
 			</AIFreeTechs>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal> <!-- DIFF CONSTANT: Applies to animals on water only -->
 			<iAnimalEscalationTurnsElapsed>150</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>25</iLairSpawnChance> <!-- DIFF CONSTANT: Chance per turn for a lair to spit something out (gamespeed modulated) -->
+			<iLairSpawnChance>25</iLairSpawnChance> <!-- DIFF CONSTANT: Chance per turn for a lair to spit something out (gamespeed modulated) --> <!-- This should move to gamespeedinfo... -->
 			<iLairsPerCycle>1</iLairsPerCycle> <!-- Unused; lairs spawned on map per cycle is calculated by map default players instead -->
 			<iPercentDemonsPerEvilPlot>75</iPercentDemonsPerEvilPlot> <!-- DIFF MODULATED: Applies to land and water both -->
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>225</iPercentDemonsPerEvilPlotPerGlobalCounter> <!-- DIFF MODULATED: Additive with iPercentDemonsPerEvilPlot. 40 means if AC is 10, +4% demons/evil plot -->

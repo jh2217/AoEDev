@@ -30479,6 +30479,8 @@ m_iBasePlotCounterModify(0),
 m_bRequiresPeak(false),
 m_bUnique(false),
 m_iAppearanceProbability(0),
+m_iSpawnUnitChancePercentMod(100),
+m_iSpawnGroupChancePercentMod(100),
 m_iHealRateChange(0),
 m_iRange(0),
 m_iRangeDefenseModifier(0),
@@ -30821,6 +30823,15 @@ int CvImprovementInfo::getWorldSoundscapeScriptId() const
 int CvImprovementInfo::getAppearanceProbability() const
 {
 	return m_iAppearanceProbability;
+}
+
+int CvImprovementInfo::getSpawnUnitChancePercentMod() const
+{
+	return m_iSpawnUnitChancePercentMod;
+}
+int CvImprovementInfo::getSpawnGroupChancePercentMod() const
+{
+	return m_iSpawnGroupChancePercentMod;
 }
 
 int CvImprovementInfo::getHealRateChange() const
@@ -31276,6 +31287,8 @@ void CvImprovementInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_bRequiresPeak);
 	stream->Read(&m_bUnique);
 	stream->Read(&m_iAppearanceProbability);
+	stream->Read(&m_iSpawnUnitChancePercentMod);
+	stream->Read(&m_iSpawnGroupChancePercentMod);
 	stream->Read(&m_iHealRateChange);
 	stream->Read(&m_iRange);
 	stream->Read(&m_iRangeDefenseModifier);
@@ -31520,6 +31533,8 @@ void CvImprovementInfo::write(FDataStreamBase* stream)
 	stream->Write(m_bRequiresPeak);
 	stream->Write(m_bUnique);
 	stream->Write(m_iAppearanceProbability);
+	stream->Write(m_iSpawnUnitChancePercentMod);
+	stream->Write(m_iSpawnGroupChancePercentMod);
 	stream->Write(m_iHealRateChange);
 	stream->Write(m_iRange);
 	stream->Write(m_iRangeDefenseModifier);
@@ -31882,6 +31897,8 @@ bool CvImprovementInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bRequiresPeak, "bRequiresPeak");
 	pXML->GetChildXmlValByName(&m_bUnique, "bUnique");
 	pXML->GetChildXmlValByName(&m_iAppearanceProbability, "iAppearanceProbability");
+	pXML->GetChildXmlValByName(&m_iSpawnUnitChancePercentMod, "iSpawnUnitChancePercentMod");
+	pXML->GetChildXmlValByName(&m_iSpawnGroupChancePercentMod, "iSpawnGroupChancePercentMod");
 	pXML->GetChildXmlValByName(&m_iHealRateChange, "iHealRateChange");
 	pXML->GetChildXmlValByName(&m_iRange, "iRange");
 	pXML->GetChildXmlValByName(&m_iRangeDefenseModifier, "iRangeDefenseModifier");
@@ -32159,6 +32176,8 @@ void CvImprovementInfo::copyNonDefaults(CvImprovementInfo* pClassInfo, CvXMLLoad
 	if (isSpawnOnlyForOwner()								== false)			m_bSpawnOnlyForOwner						= pClassInfo->isSpawnOnlyForOwner();
 	if (isPeakMakesValid()									== false)			m_bPeakMakesValid							= pClassInfo->isPeakMakesValid();
 	if (getAppearanceProbability()							== 0)				m_iAppearanceProbability					= pClassInfo->getAppearanceProbability();
+	if (getSpawnUnitChancePercentMod()						== 0)				m_iSpawnUnitChancePercentMod				= pClassInfo->getSpawnUnitChancePercentMod();
+	if (getSpawnGroupChancePercentMod()						== 0)				m_iSpawnGroupChancePercentMod				= pClassInfo->getSpawnGroupChancePercentMod();
 	if (getHealRateChange()									== 0)				m_iHealRateChange							= pClassInfo->getHealRateChange();
 	if (getRange()											== 0)				m_iRange									= pClassInfo->getRange();
 	if (getRangeDefenseModifier()							== 0)				m_iRangeDefenseModifier						= pClassInfo->getRangeDefenseModifier();

@@ -6742,6 +6742,8 @@ public:
 	bool isRequiresPeak() const;
 	bool isUnique() const;
 	int getAppearanceProbability() const;
+	int getSpawnUnitChancePercentMod() const;
+	int getSpawnGroupChancePercentMod() const;
 	int getHealRateChange() const;
 	int getRange() const;
 	int getRangeDefenseModifier() const;
@@ -6861,6 +6863,8 @@ protected:
 	bool m_bRequiresPeak;
 	bool m_bUnique;
 	int m_iAppearanceProbability;
+	int m_iSpawnUnitChancePercentMod;
+	int m_iSpawnGroupChancePercentMod;
 	int m_iHealRateChange;
 	int m_iRange;
 	int m_iRangeDefenseModifier;

@@ -903,8 +903,8 @@ void CvPlot::doLairSpawn()
 			return;
 	}
 
-	// Consider making the spawn rate be modulated by the improvement itself
-	int iChance = 10000 * GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnChance();
+	// 100x base spawn chance * specific lair chance modifier
+	int iChance = 100 * GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnChance() * GC.getImprovementInfo(getImprovementType()).getSpawnUnitChancePercentMod();
 	iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
 	if (iUnit != NO_UNIT && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
 	{
