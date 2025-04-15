@@ -833,7 +833,7 @@ void CvPlot::doLairSpawn()
 
 	// 2nd check: Mapgen lairs should wait a smidge before spitting out units
 	if ((3 * GC.getGameINLINE().getElapsedGameTurns() < (GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTurnsPerLairCycle()))
-	 || (GC.getGameINLINE().getNumCivCities() >= GC.getGameINLINE().countCivPlayersAlive()))
+	 || (GC.getGameINLINE().getNumCivCities() < GC.getGameINLINE().countCivPlayersAlive()))
 		return;
 
 	bool bValid = false;
@@ -900,9 +900,7 @@ void CvPlot::doLairSpawn()
 		// No matter how small the area (or how low the AC), lairs can always spawn up to 3 barb units. Continues tradition of dense offshore barb islands (Blazenclaw)
 		int iTargetBarbs = std::max(3, GC.getGameINLINE().calcTargetBarbs(area(), true, eSpawnPlayer));
 		if (area()->getUnitsPerPlayer(eSpawnPlayer) >= iTargetBarbs)
-		{
 			return;
-		}
 	}
 
 	// Consider making the spawn rate be modulated by the improvement itself

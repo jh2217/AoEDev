@@ -10997,21 +10997,15 @@ void CvGame::createAnimals()
 	int iNeededAnimals, iTargetAnimals, iValue, iNetValue, iTargetValue, iLoop, iI, iJ, iFlags;
 
 	if (isOption(GAMEOPTION_NO_ANIMALS) || isOption(GAMEOPTION_NO_RANDOM_BARBARIANS))
-	{
 		return;
-	}
 
 	if (getNumCivCities() < countCivPlayersAlive())
-	{
 		return;
-	}
 
 	// Random animals spawn 5x sooner than barbs, or once all civs settled
 	if ((5 * getElapsedGameTurns() < (GC.getGameSpeedInfo(getGameSpeedType()).getTurnsPerLairCycle()))
-	 || (getNumCivCities() >= countCivPlayersAlive()))
-	{
+	 || (getNumCivCities() < countCivPlayersAlive()))
 		return;
-	}
 
 	// Animals weighting gets weird if a mountain is picked; best to simply not choose mountains
 	iFlags = 0 | RANDPLOT_ANIMAL_ALLY | RANDPLOT_PASSIBLE | RANDPLOT_NOT_PEAK | RANDPLOT_UNOCCUPIED;
