@@ -359,10 +359,13 @@ void CvMap::doTurn()
 	PROFILE("CvMap::doTurn()")
 
 	int iI;
+	int iNumPlots = numPlotsINLINE();
+	// Start at a random plot, otherwise barbs will be always denser closer to index 0.
+	int iOffset = GC.getGameINLINE().getMapRandNum(iNumPlots, "Rand Starting Plot");
 
-	for (iI = 0; iI < numPlotsINLINE(); iI++)
+	for (iI = 0; iI < iNumPlots; iI++)
 	{
-		plotByIndexINLINE(iI)->doTurn();
+		plotByIndexINLINE((iI + iOffset)%iNumPlots)->doTurn();
 	}
 }
 
