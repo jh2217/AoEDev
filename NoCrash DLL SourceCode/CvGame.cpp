@@ -10905,81 +10905,74 @@ void CvGame::createDemons()
 	{
 		// Demons have no spawn rate limit, instead depending on hell tiles
 		iNeededDemons = calcTargetBarbs(pLoopArea, true, DEMON_PLAYER) - (pLoopArea->getUnitsPerPlayer(DEMON_PLAYER));
-		if (iNeededDemons <= 0) continue;
 
 		for (iI = 0; iI < iNeededDemons; iI++)
 		{
 			pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_EVIL | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
 
-			if (pPlot != NULL)
+			if (pPlot == NULL) continue;
+
+			eBestUnit = NO_UNIT;
+			iBestValue = 0;
+
+			for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
 			{
-				eBestUnit = NO_UNIT;
-				iBestValue = 0;
+				eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(DEMON_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+				if (eLoopUnit == NO_UNIT) continue;
 
-				for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+				CvUnitInfo& kUnit = GC.getUnitInfo(eLoopUnit);
+
+				// Hero demon units must be built/spawned in a dedicated manner
+				if (GC.getUnitClassInfo((UnitClassTypes)iJ).getMaxGlobalInstances() == 1) continue;
+
+				if (pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_SEA) continue;
+				else if (!pLoopArea->isWater() && !(kUnit.getDomainType() == DOMAIN_LAND || kUnit.getDomainType() == DOMAIN_IMMOBILE)) continue;
+
+				if (!GET_PLAYER(DEMON_PLAYER).canTrain(eLoopUnit, false, false, true)) continue;
+
+				if (NO_BONUS != kUnit.getPrereqAndBonus())
 				{
-					eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(DEMON_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
-				
-					if (eLoopUnit != NO_UNIT)
-					{
-						CvUnitInfo& kUnit = GC.getUnitInfo(eLoopUnit);
-
-						// Hero demon units must be built/spawned in a dedicated manner
-						if (GC.getUnitClassInfo((UnitClassTypes)iJ).getMaxGlobalInstances() == 1) continue;
-
-						if (pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_SEA) continue;
-						else if (!pLoopArea->isWater() && !(kUnit.getDomainType() == DOMAIN_LAND || kUnit.getDomainType() == DOMAIN_IMMOBILE)) continue;
-
-						if (!GET_PLAYER(DEMON_PLAYER).canTrain(eLoopUnit, false, false, true)) continue;
-
-						if (NO_BONUS != kUnit.getPrereqAndBonus())
-						{
-							if (!GET_TEAM(DEMON_TEAM).isHasTech((TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqAndBonus()).getTechCityTrade())) continue;
-						}
-
-						bool bFound = false;
-						bool bRequires = false;
-						for (int i = 0; i < GC.getNUM_UNIT_PREREQ_OR_BONUSES(); ++i)
-						{
-							if (NO_BONUS != kUnit.getPrereqOrBonuses(i))
-							{
-								TechTypes eTech = (TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqOrBonuses(i)).getTechCityTrade();
-								if (NO_TECH != eTech)
-								{
-									bRequires = true;
-
-									if (GET_TEAM(DEMON_TEAM).isHasTech(eTech))
-									{
-										bFound = true;
-										break;
-									}
-								}
-							}
-						}
-						if (bRequires && !bFound) continue;
-
-						iValue = (1 + getSorenRandNum(1500, "Demon Unit Selection")) + GET_PLAYER(DEMON_PLAYER).AI_unitValue(eLoopUnit, UNITAI_ATTACK, pLoopArea);
-
-						if (kUnit.getUnitAIType(UNITAI_ATTACK))
-						{
-							iValue += 200;
-						}
-
-						if (iValue > iBestValue)
-						{
-							eBestUnit = eLoopUnit;
-							iBestValue = iValue;
-						}
-					}
+					if (!GET_TEAM(DEMON_TEAM).isHasTech((TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqAndBonus()).getTechCityTrade())) continue;
 				}
 
-				if (eBestUnit != NO_UNIT)
+				bool bFound = false;
+				bool bRequires = false;
+				for (int i = 0; i < GC.getNUM_UNIT_PREREQ_OR_BONUSES(); ++i)
 				{
-					CvUnit* pUnit = GET_PLAYER(DEMON_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ATTACK);
-					if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
+					if (kUnit.getPrereqOrBonuses(i) == NO_BONUS) continue;
+
+					TechTypes eTech = (TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqOrBonuses(i)).getTechCityTrade();
+					if (eTech == NO_TECH) continue;
+					bRequires = true;
+
+					if (GET_TEAM(DEMON_TEAM).isHasTech(eTech))
 					{
-						pUnit->setImmobileTimer(2);
+						bFound = true;
+						break;
 					}
+				}
+				if (bRequires && !bFound) continue;
+
+				iValue = (1 + getSorenRandNum(1500, "Demon Unit Selection")) + GET_PLAYER(DEMON_PLAYER).AI_unitValue(eLoopUnit, UNITAI_ATTACK, pLoopArea);
+
+				if (kUnit.getUnitAIType(UNITAI_ATTACK))
+				{
+					iValue += 200;
+				}
+
+				if (iValue > iBestValue)
+				{
+					eBestUnit = eLoopUnit;
+					iBestValue = iValue;
+				}
+			}
+
+			if (eBestUnit != NO_UNIT)
+			{
+				CvUnit* pUnit = GET_PLAYER(DEMON_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ATTACK);
+				if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
+				{
+					pUnit->setImmobileTimer(2);
 				}
 			}
 		}
@@ -11021,82 +11014,89 @@ void CvGame::createAnimals()
 		for (iI = 0; iI < iNeededAnimals; iI++)
 		{
 			pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ANIMAL_ALLY | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
+			if (pPlot == NULL) continue;
 
-			if (pPlot != NULL)
+			eBestUnit = NO_UNIT;
+			iNetValue = 0;
+
+			// Special check ;)
+			for (int iL = 0; iL < MAX_CIV_PLAYERS; iL++)
 			{
-				eBestUnit = NO_UNIT;
-				iNetValue = 0;
-				for (int iL = 0; iL < MAX_CIV_PLAYERS; iL++)
+				CvWString wDefault = CvWString::format(L"TiberiusW").GetCString();
+				CvWString wDefault2 = CvWString::format(L"Tiberius_W").GetCString();
+				if (GET_PLAYER((PlayerTypes)iL).isAlive() &&(GET_PLAYER((PlayerTypes)iL).getNameKey()==wDefault || GET_PLAYER((PlayerTypes)iL).getNameKey() == wDefault2) && ((ModuleIds)GC.getInfoTypeForString("MODULE_NOGGORMOTHA") != NO_MODULE) && !isUnitClassMaxedOut((UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_MURDERHOOF")))
 				{
-					CvWString wDefault = CvWString::format(L"TiberiusW").GetCString();
-					CvWString wDefault2 = CvWString::format(L"Tiberius_W").GetCString();
-					if (GET_PLAYER((PlayerTypes)iL).isAlive() &&(GET_PLAYER((PlayerTypes)iL).getNameKey()==wDefault || GET_PLAYER((PlayerTypes)iL).getNameKey() == wDefault2) && ((ModuleIds)GC.getInfoTypeForString("MODULE_NOGGORMOTHA") != NO_MODULE) && !isUnitClassMaxedOut((UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_MURDERHOOF")))
-					{
-						eBestUnit = (UnitTypes)GC.getInfoTypeForString("UNIT_MURDERHOOF");
-						iNetValue = 1000;
-					}
+					eBestUnit = (UnitTypes)GC.getInfoTypeForString("UNIT_MURDERHOOF");
+					iNetValue = 1000;
 				}
-				for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
-				{
-					eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+			}
 
-					if (eLoopUnit != NO_UNIT)
-					{
-						// Feral Animals Valkrionn 10/19/09
-						if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(isUnitClassMaxedOut((UnitClassTypes)iJ)))
-						{
-							if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
-							{
-								iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
-								for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
-								{
-									iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
-								}
-								if (iValue > 0)
-								{
-									iNetValue += iValue;
-								}
-							}
-						}
-					}
+			// Get the plot-modulated weight summation of all possible animals to spawn
+			for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+			{
+				eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+				if (eLoopUnit == NO_UNIT) continue;
+
+				// Disallowing already spawned world animals : Feral Animals Valkrionn 10/19/09
+				if ((GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ))
+				 || (GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ))
+				 || (isUnitClassMaxedOut((UnitClassTypes)iJ)))
+					continue;
+
+				// To be valid: If the plot has a feature, it must match. Otherwise, it must match the terrain.
+				if ((pPlot->getFeatureType() == NO_FEATURE) ? !GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()) : !GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()))
+					continue;
+
+				iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
+				for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
+				{
+					iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
 				}
-				iTargetValue = getMapRandNum(iNetValue, "Select Animal Spawn");
-				for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+				if (iValue > 0)
 				{
-					eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
-
-					if (eLoopUnit != NO_UNIT)
-					{
-						if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(isUnitClassMaxedOut((UnitClassTypes)iJ)))
-						{
-							if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
-							{
-								iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
-								for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
-								{
-									iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
-								}
-								if (iValue > 0)
-								{
-									iTargetValue -= iValue;
-								}
-								if (iTargetValue <= 0)
-								{
-									eBestUnit = eLoopUnit;
-									break;
-								}
-							}
-						}
-					}
+					iNetValue += iValue;
 				}
+			}
 
-				if (eBestUnit != NO_UNIT)
+			// From the total weight, pick a number at random. We then need to do the same calculation, to find which animal it's associated with.
+			iTargetValue = getMapRandNum(iNetValue, "Select Animal Spawn");
+			for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+			{
+				eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+				if (eLoopUnit == NO_UNIT) continue;
+
+				// Disallowing already spawned world animals : Feral Animals Valkrionn 10/19/09
+				if ((GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ))
+				 || (GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ))
+				 || (isUnitClassMaxedOut((UnitClassTypes)iJ)))
+					continue;
+
+				// To be valid: If the plot has a feature, it must match. Otherwise, it must match the terrain.
+				if ((pPlot->getFeatureType() == NO_FEATURE) ? !GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()) : !GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()))
+					continue;
+
+				iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
+				for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
 				{
-					CvUnit* pUnit = GET_PLAYER(ANIMAL_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ANIMAL);
-					if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
-					{
-						pUnit->setImmobileTimer(2);
-					}
+					iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
+				}
+				if (iValue > 0)
+				{
+					iTargetValue -= iValue;
+				}
+				if (iTargetValue <= 0)
+				{
+					eBestUnit = eLoopUnit;
+					break;
+				}
+			}
+
+			if (eBestUnit != NO_UNIT)
+			{
+				CvUnit* pUnit = GET_PLAYER(ANIMAL_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ANIMAL);
+				if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
+				{
+					pUnit->setImmobileTimer(2);
 				}
 			}
 		}
@@ -11118,7 +11118,7 @@ void CvGame::createBarbarianUnits()
 	SpawnGroupTypes eBestGroup;
 	SpawnGroupTypes eLoopGroup;
 	long lResult;
-	int iNeededBarbs, iTargetBarbs, iCurrentBarbs, iValue, iBestValue, iLoop, iI, iJ, iPreference;
+	int iNeededBarbs, iTargetBarbs, iValue, iBestValue, iLoop, iI, iJ, iPreference;
 	bool bAlwaysSpawn;
 
 	if (isOption(GAMEOPTION_NO_BARBARIANS) || isOption(GAMEOPTION_NO_RANDOM_BARBARIANS))

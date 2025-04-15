@@ -127,8 +127,8 @@
 			<iAnimalCombat>0</iAnimalCombat>
 			<iHillsAttack>0</iHillsAttack>
 			<iHillsDefense>0</iHillsDefense>
-			<TerrainNatives/>
-			<FeatureNatives/>
+			<TerrainNatives/> <!-- See below: Only checked if a plot has no feature at all. This and FeatureNatives modify iAppearanceProb -->
+			<FeatureNatives/> <!-- When looking to random-spawn a unit, if the plot has a feature, only the feature native will be considered for weighting. TerrainNatives is a fallback, checked only if the plot has no feature. -->
 			<TerrainAttacks/>
 			<TerrainDefenses/>
 			<FeatureAttacks/>
