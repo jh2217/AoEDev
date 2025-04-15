@@ -894,7 +894,8 @@ void CvGame::reset(HandicapTypes eHandicap, bool bConstructorCall)
 /**	New Tag Defs	(GameInfos)				10/01/08								Xienwolf	**/
 /**										Initial Values											**/
 /*************************************************************************************************/
-	m_iLastLairCycle = 0;
+	// First lair cycle is at a speed-fixed turn
+	m_iNextLairCycle = 0;
 	if (!bConstructorCall)
 	{
 		m_ppaaiProjectTimers = new int*[GC.getNumProjectInfos()];
@@ -10711,7 +10712,7 @@ void CvGame::setProjectTimer(ProjectTypes eProject)
 void CvGame::createLairs()
 {
 	PROFILE("CvGame::createLairs");
-	int iNetWeight, iWeight, iTargetWeight, iI, iJ, iK, iCiv, iFlags, iGoal;
+	int iNetWeight, iWeight, iTargetWeight, iI, iJ, iK, iCiv, iFlags, iLairFlags, iGoal;
 	bool bEvilValid, bNormalValid, bNoSpawns;
 	PlayerTypes ePlayer;
 	CvPlot* pPlot = NULL;
@@ -10719,15 +10720,19 @@ void CvGame::createLairs()
 	ImprovementTypes eLair=NO_IMPROVEMENT;
 
 	if (isOption(GAMEOPTION_NO_LAIRS))
-	{
 		return;
-	}
-	if ((getGameTurn() - getLastLairCycle()) != GC.getGameSpeedInfo(getGameSpeedType()).getTurnsPerLairCycle())
-	{
-		return;
-	}
 
-	setLastLairCycle(getGameTurn());
+	if (getGameTurn() < getNextLairCycle())
+		return;
+
+	int iLairCycleLength = GC.getGameSpeedInfo(getGameSpeedType()).getTurnsPerLairCycle();
+	if (getGameTurn() == 0)
+	{
+		setNextLairCycle(iLairCycleLength);
+		return;
+	}
+	// Some randomization in lair cycle length
+	setNextLairCycle(getGameTurn() + iLairCycleLength/10 - getSorenRandNum(iLairCycleLength/5, "~10% Randomization in cycle length"));
 
 	iGoal = GC.getWorldInfo(GC.getMapINLINE().getWorldSize()).getDefaultPlayers();
 	if (iGoal <= 0) return;
@@ -10753,6 +10758,30 @@ void CvGame::createLairs()
 				iNetWeight += iWeight;
 			}
 		}
+	}
+
+	// Setting up the static flags
+	iFlags = RANDPLOT_PASSIBLE | RANDPLOT_NOT_CITY | RANDPLOT_NOT_IMPROVED | RANDPLOT_UNOCCUPIED | RANDPLOT_ADJACENT_UNOWNED;
+	if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+	{
+		iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
+	}
+
+	if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION"))
+	{
+		iFlags |= RANDPLOT_DEMON_ALLY;
+	}
+	else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION"))
+	{
+		iFlags |= RANDPLOT_ORC_ALLY;
+	}
+	else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION"))
+	{
+		iFlags |= RANDPLOT_ANIMAL_ALLY;
+	}
+	else
+	{
+		iFlags |= RANDPLOT_UNOWNED;
 	}
 
 	// 50 attempts to place the lairs...... stops early if places 2 though
@@ -10786,50 +10815,23 @@ void CvGame::createLairs()
 			}
 		}
 
-		iFlags = 0;
-		iFlags |= RANDPLOT_PASSIBLE;
-		iFlags |= RANDPLOT_NOT_CITY;
-		iFlags |= RANDPLOT_NOT_IMPROVED;
-		iFlags |= RANDPLOT_UNOCCUPIED;
-		iFlags |= RANDPLOT_ADJACENT_UNOWNED;
-		if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
-		{
-			iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
-		}
-
+		iLairFlags = iFlags;
 		if (GC.getImprovementInfo(eLair).isWater())
 		{
-			iFlags |= RANDPLOT_WATER;
+			iLairFlags |= RANDPLOT_WATER;
 		}
 		else
 		{
-			iFlags |= RANDPLOT_LAND;
+			iLairFlags |= RANDPLOT_LAND;
 		}
 
 		if (GC.getImprovementInfo(eLair).isPeakMakesValid())
 		{
-			iFlags |= RANDPLOT_PEAK;
+			iLairFlags |= RANDPLOT_PEAK;
 		}
 		else
 		{
-			iFlags |= RANDPLOT_NOT_PEAK;
-		}
-
-		if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION"))
-		{
-			iFlags |= RANDPLOT_DEMON_ALLY;
-		}
-		else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION"))
-		{
-			iFlags |= RANDPLOT_ORC_ALLY;
-		}
-		else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION"))
-		{
-			iFlags |= RANDPLOT_ANIMAL_ALLY;
-		}
-		else
-		{
-			iFlags |= RANDPLOT_UNOWNED;
+			iLairFlags |= RANDPLOT_NOT_PEAK;
 		}
 
 		// Checking to see if *only* valid on hell terrain
@@ -10851,35 +10853,35 @@ void CvGame::createLairs()
 		}
 		if (bEvilValid && !bNormalValid)
 		{
-			iFlags |= RANDPLOT_EVIL;
+			iLairFlags |= RANDPLOT_EVIL;
 		}
 
-		pPlot = GC.getMapINLINE().syncRandPlot(iFlags);
-		if (pPlot != NULL && GC.getImprovementInfo(eLair).getTerrainMakesValid(pPlot->getTerrainType()))
+		pPlot = GC.getMapINLINE().syncRandPlot(iLairFlags);
+		if (pPlot == NULL || !GC.getImprovementInfo(eLair).getTerrainMakesValid(pPlot->getTerrainType()))
+			continue;
+
+		// Check spawning criteria vs density requirements. Lairs that don't spawn might fill up tiles...
+		bNoSpawns = false;
+		if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION")) ePlayer = DEMON_PLAYER;
+		else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION")) ePlayer = ORC_PLAYER;
+		else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION")) ePlayer = ANIMAL_PLAYER;
+		else bNoSpawns = true;
+
+		pArea = pPlot->area();
+
+		if (bNoSpawns)
 		{
-			// Check spawning criteria vs density requirements. Lairs that don't spawn might fill up tiles...
-			bNoSpawns = false;
-			if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION")) ePlayer = DEMON_PLAYER;
-			else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION")) ePlayer = ORC_PLAYER;
-			else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION")) ePlayer = ANIMAL_PLAYER;
-			else bNoSpawns = true;
-
-			pArea = pPlot->area();
-
-			if (bNoSpawns)
-			{
-				pPlot->setImprovementType(eLair);
-				iGoal--;
-			}
-			// Lairs can only spawn if there's space for barbs to spawn; prevents wildly dense barb areas
-			// 1 animal lair can always spawn even if there's no space for a normal animal to spawn
-			else if (pArea != NULL && ((calcTargetBarbs(pArea, true, ePlayer) + (ePlayer == ANIMAL_PLAYER)) > pArea->getUnitsPerPlayer(ePlayer)))
-			{
-				pPlot->setImprovementType(eLair);
-			}
-
-			if (iGoal <= 0) return;
+			pPlot->setImprovementType(eLair);
+			iGoal--;
 		}
+		// Lairs can only spawn if there's space for barbs to spawn; prevents wildly dense barb areas
+		// 1 animal lair can always spawn even if there's no space for a normal animal to spawn
+		else if (pArea != NULL && ((calcTargetBarbs(pArea, true, ePlayer) + (ePlayer == ANIMAL_PLAYER)) > pArea->getUnitsPerPlayer(ePlayer)))
+		{
+			pPlot->setImprovementType(eLair);
+		}
+
+		if (iGoal <= 0) return;
 	}
 }
 
@@ -10901,7 +10903,7 @@ void CvGame::createDemons()
 		return;
 	}
 
-	iFlags = 0 | RANDPLOT_EVIL | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED;
+	iFlags = RANDPLOT_EVIL | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED;
 	// This makes demons much, much less dangerous if set
 	// if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
 	// {
@@ -11008,7 +11010,7 @@ void CvGame::createAnimals()
 		return;
 
 	// Animals weighting gets weird if a mountain is picked; best to simply not choose mountains
-	iFlags = 0 | RANDPLOT_ANIMAL_ALLY | RANDPLOT_PASSIBLE | RANDPLOT_NOT_PEAK | RANDPLOT_UNOCCUPIED;
+	iFlags = RANDPLOT_ANIMAL_ALLY | RANDPLOT_PASSIBLE | RANDPLOT_NOT_PEAK | RANDPLOT_UNOCCUPIED;
 	if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
 	{
 		iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
@@ -11150,7 +11152,7 @@ void CvGame::createBarbarianUnits()
 	}
 
 	// Random spawn can't be on 1-tile island I guess, nor in deep ocean. Weighting is also weird for peaks, so don't spawn on those
-	iFlags = 0 | RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_NOT_PEAK | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED;
+	iFlags = RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_NOT_PEAK | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED;
 	if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
 	{
 		iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
@@ -11627,14 +11629,14 @@ void CvGame::createSpawnGroup(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, Player
 /**	Spawn Groups							END													**/
 /*************************************************************************************************/
 
-int CvGame::getLastLairCycle() const
+int CvGame::getNextLairCycle() const
 {
-	return m_iLastLairCycle;
+	return m_iNextLairCycle;
 }
 
-void CvGame::setLastLairCycle(int iNewValue)
+void CvGame::setNextLairCycle(int iNewValue)
 {
-	m_iLastLairCycle = iNewValue;
+	m_iNextLairCycle = iNewValue;
 }
 
 int CvGame::getNumCivActive(CivilizationTypes eCivilization) const
