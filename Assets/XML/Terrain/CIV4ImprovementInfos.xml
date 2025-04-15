@@ -5231,7 +5231,6 @@
 				</BonusTypeStruct>
 			</BonusTypeStructs>
 			<BonusConvert>BONUS_NIGHTMARE</BonusConvert>
-			<iBasePlotCounterModify>51</iBasePlotCounterModify>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- D'Teshi Pyre -->
 			<Type>IMPROVEMENT_DTESH_PYRE</Type>
