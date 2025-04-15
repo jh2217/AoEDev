@@ -3702,42 +3702,6 @@
 					</UnitMeshGroup>
 				</StyleUnit>
 				<StyleUnit>
-					<UnitType>UNIT_SPEARMAN_DOVIELLO</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SPEARMAN_ARCHOS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SPEARMAN_ARCHOS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SPEARMAN_ARCHOS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SPEARMAN_ARCHOS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SPEARMAN_ARCHOS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SPEARMAN_ARCHOS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_SPEARMAN_ARCHOS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_SPEARMAN_ARCHOS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_SPEARMAN_ARCHOS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
-					<UnitType>UNIT_PIKEMAN_DOVIELLO</UnitType>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PIKEMAN_ARCHOS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PIKEMAN_ARCHOS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PIKEMAN_ARCHOS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PIKEMAN_ARCHOS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PIKEMAN_ARCHOS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PIKEMAN_ARCHOS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-					<UnitMeshGroup>
-						<EarlyArtDefineTag>ART_DEF_UNIT_PIKEMAN_ARCHOS</EarlyArtDefineTag>
-						<LateArtDefineTag>ART_DEF_UNIT_PIKEMAN_ARCHOS</LateArtDefineTag>
-						<MiddleArtDefineTag>ART_DEF_UNIT_PIKEMAN_ARCHOS</MiddleArtDefineTag>
-					</UnitMeshGroup>
-				</StyleUnit>
-				<StyleUnit>
 					<UnitType>UNIT_PHALANX</UnitType>
 					<UnitMeshGroup>
 						<EarlyArtDefineTag>ART_DEF_UNIT_PHALANX_ARCHOS</EarlyArtDefineTag>
