@@ -945,6 +945,7 @@ protected:
 	void doFeature();
 	void doPlotEffect();
 	void doCulture();
+	void doLairSpawn();
 
 	void processArea(CvArea* pArea, int iChange);
 	void doImprovementUpgrade();
