@@ -2452,6 +2452,14 @@
 		<Spanish>[SPACE](City must Work to Become %s1_ImpName, %s2_CivName only)</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_PLOT_OWN_TO_UPGRADE</Tag>
+		<English>[SPACE](Tile must be owned to Become %s1_ImpName)</English>
+		<French>[SPACE](Tile must be owned to Become %s1_ImpName)</French>
+		<German>[SPACE](Tile must be owned to Become %s1_ImpName)</German>
+		<Italian>[SPACE](Tile must be owned to Become %s1_ImpName)</Italian>
+		<Spanish>[SPACE](Tile must be owned to Become %s1_ImpName)</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_POPUP_BARBARIAN_DECLARE_WAR</Tag>
 		<English>The Barbarians have decided that you have grown too civilized. The truce is ended.</English>
 		<French>Les Barbares ont décidé que vous êtes devenu civilisé. La trêve est finie.</French>

@@ -28908,6 +28908,10 @@ bool CvUnitAI::AI_canClaimFort(CvPlot* pPlot)
 	if (NO_IMPROVEMENT == pPlot->getRevealedImprovementType(getTeam(), false) || !GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isFort())
 		return false;
 
+	// Barbs can't claim unowned naval forts.
+	else if (isBarbarian() && pPlot->isWater())
+		return false;
+
 	// If we don't think there's an owner, go for it
 	PlayerTypes eRevealedOwner = pPlot->getRevealedOwner(getTeam(), false);
 	if (eRevealedOwner == NO_PLAYER)

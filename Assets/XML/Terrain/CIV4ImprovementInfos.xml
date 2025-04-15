@@ -8065,10 +8065,9 @@
 			</TerrainMakesValids>
 			<ImprovementUpgrade>IMPROVEMENT_RINWELL2</ImprovementUpgrade>
 			<bUnique>1</bUnique>
-			<iCultureRange>2</iCultureRange>
+			<iCultureRange>1</iCultureRange>
 			<iCultureControlStrength>4</iCultureControlStrength>
 			<iCultureCenterBonus>5</iCultureCenterBonus>
-			<bGraphicalOnly>1</bGraphicalOnly>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Rinwell 2 -->
 			<Type>IMPROVEMENT_RINWELL2</Type>
@@ -8108,6 +8107,7 @@
 			<iCultureRange>3</iCultureRange>
 			<iCultureControlStrength>4</iCultureControlStrength>
 			<iCultureCenterBonus>5</iCultureCenterBonus>
+			<bGraphicalOnly>1</bGraphicalOnly>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Seven Pines -->
 			<Type>IMPROVEMENT_SEVEN_PINES</Type>

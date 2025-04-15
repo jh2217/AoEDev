@@ -1018,8 +1018,8 @@ void CvPlot::doImprovementUpgrade()
 	ImprovementTypes eImprovementUpgrade = (ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementUpgrade();
 	if (eImprovementUpgrade == NO_IMPROVEMENT) return;
 
-	// To upgrade, improvements must be A) worked or B) bOutsideBorders and not an unclaimed fort
-	if (!(isBeingWorked() || (GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders() && !(!isOwned() && GC.getImprovementInfo(getImprovementType()).isFort())))) return;
+	// To upgrade, improvements must be A) worked or B) bOutsideBorders and not an unclaimed fort (on land due to Rinwell)
+	if (!(isBeingWorked() || (GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders() && !(!isOwned() && !isWater() && GC.getImprovementInfo(getImprovementType()).isFort())))) return;
 
 	// ? : Hinterlands Valkrionn 07/11/09
 	int iUpgradeTurns = GC.getGameINLINE().getImprovementUpgradeTime(getImprovementType());
