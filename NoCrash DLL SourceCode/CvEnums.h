@@ -938,6 +938,7 @@ enum GameOptionTypes				// Exposed to Python
 	GAMEOPTION_ENABLE_COMBAT_LOG,
 	GAMEOPTION_NO_ANIMALS,
 	GAMEOPTION_NO_DEMONS,
+	GAMEOPTION_NO_RANDOM_BARBARIANS,
 /*************************************************************************************************/
 /**	LeaderStatus Infos      				10/02/09								Valkrionn	**/
 /**                                         Originally                                          **/

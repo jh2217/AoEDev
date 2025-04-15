@@ -10995,7 +10995,7 @@ void CvGame::createAnimals()
 	UnitTypes eLoopUnit;
 	int iNeededAnimals, iTargetAnimals, iValue, iNetValue, iTargetValue, iLoop, iI, iJ;
 
-	if (isOption(GAMEOPTION_NO_ANIMALS))
+	if (isOption(GAMEOPTION_NO_ANIMALS) || isOption(GAMEOPTION_NO_RANDOM_BARBARIANS))
 	{
 		return;
 	}
@@ -11121,7 +11121,7 @@ void CvGame::createBarbarianUnits()
 	int iNeededBarbs, iTargetBarbs, iCurrentBarbs, iValue, iBestValue, iLoop, iI, iJ, iPreference;
 	bool bAlwaysSpawn;
 
-	if (isOption(GAMEOPTION_NO_BARBARIANS))
+	if (isOption(GAMEOPTION_NO_BARBARIANS) || isOption(GAMEOPTION_NO_RANDOM_BARBARIANS))
 	{
 		return;
 	}

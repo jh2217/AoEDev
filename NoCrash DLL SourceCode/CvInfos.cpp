@@ -27818,12 +27818,11 @@ m_iDemonPerTurnKnownTechsPercent(0),
 m_iDemonGlobalCounterFreeXPPercent(0),
 m_iPercentDemonsPerEvilPlotPerGlobalCounter(0),
 m_iDemonBonus(0),
-m_iAIDemonBonus(0),
+m_iAIDemonBonus(0)
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
 /*************************************************************************************************/
 //FfH: End Add
-
 {
 }
 
