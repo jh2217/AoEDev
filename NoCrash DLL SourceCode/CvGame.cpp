@@ -10894,12 +10894,19 @@ void CvGame::createDemons()
 	int iValue;
 	int iBestValue;
 	int iLoop;
-	int iI, iJ;
+	int iI, iJ, iFlags;
 
 	if (isOption(GAMEOPTION_NO_DEMONS))
 	{
 		return;
 	}
+
+	iFlags = 0 | RANDPLOT_EVIL | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED;
+	// This makes demons much, much less dangerous if set
+	// if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+	// {
+	// 	iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
+	// }
 
 	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
@@ -10908,7 +10915,7 @@ void CvGame::createDemons()
 
 		for (iI = 0; iI < iNeededDemons; iI++)
 		{
-			pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_EVIL | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
+			pPlot = GC.getMapINLINE().syncRandPlot(iFlags, pLoopArea->getID());
 
 			if (pPlot == NULL) continue;
 
@@ -10927,6 +10934,7 @@ void CvGame::createDemons()
 
 				if (pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_SEA) continue;
 				else if (!pLoopArea->isWater() && !(kUnit.getDomainType() == DOMAIN_LAND || kUnit.getDomainType() == DOMAIN_IMMOBILE)) continue;
+				else if (pPlot->isPeak() && !(kUnit.isCanClimbPeaks() || kUnit.isCanMoveAllTerrain())) continue;
 
 				if (!GET_PLAYER(DEMON_PLAYER).canTrain(eLoopUnit, false, false, true)) continue;
 
@@ -10986,7 +10994,7 @@ void CvGame::createAnimals()
 	CvPlot* pPlot;
 	UnitTypes eBestUnit;
 	UnitTypes eLoopUnit;
-	int iNeededAnimals, iTargetAnimals, iValue, iNetValue, iTargetValue, iLoop, iI, iJ;
+	int iNeededAnimals, iTargetAnimals, iValue, iNetValue, iTargetValue, iLoop, iI, iJ, iFlags;
 
 	if (isOption(GAMEOPTION_NO_ANIMALS) || isOption(GAMEOPTION_NO_RANDOM_BARBARIANS))
 	{
@@ -11005,6 +11013,13 @@ void CvGame::createAnimals()
 		return;
 	}
 
+	// Animals weighting gets weird if a mountain is picked; best to simply not choose mountains
+	iFlags = 0 | RANDPLOT_ANIMAL_ALLY | RANDPLOT_PASSIBLE | RANDPLOT_NOT_PEAK | RANDPLOT_UNOCCUPIED;
+	if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+	{
+		iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
+	}
+
 	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
 		// Spawn at most 20% of limit (round up)
@@ -11013,7 +11028,7 @@ void CvGame::createAnimals()
 
 		for (iI = 0; iI < iNeededAnimals; iI++)
 		{
-			pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ANIMAL_ALLY | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
+			pPlot = GC.getMapINLINE().syncRandPlot(iFlags, pLoopArea->getID());
 			if (pPlot == NULL) continue;
 
 			eBestUnit = NO_UNIT;
@@ -11118,7 +11133,7 @@ void CvGame::createBarbarianUnits()
 	SpawnGroupTypes eBestGroup;
 	SpawnGroupTypes eLoopGroup;
 	long lResult;
-	int iNeededBarbs, iTargetBarbs, iValue, iBestValue, iLoop, iI, iJ, iPreference;
+	int iNeededBarbs, iTargetBarbs, iValue, iBestValue, iLoop, iI, iJ, iPreference, iFlags;
 	bool bAlwaysSpawn;
 
 	if (isOption(GAMEOPTION_NO_BARBARIANS) || isOption(GAMEOPTION_NO_RANDOM_BARBARIANS))
@@ -11140,6 +11155,13 @@ void CvGame::createBarbarianUnits()
 		return;
 	}
 
+	// Random spawn can't be on 1-tile island I guess, nor in deep ocean. Weighting is also weird for peaks, so don't spawn on those
+	iFlags = 0 | RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_NOT_PEAK | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED;
+	if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+	{
+		iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
+	}
+
 	for (pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
 		// Don't count owned tiles, even if allied to orc player, to spawn random orcs
@@ -11151,11 +11173,7 @@ void CvGame::createBarbarianUnits()
 
 		for (iI = 0; iI < iNeededBarbs; iI++)
 		{
-			// Random spawn can't be on 1-tile island I guess
-			if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
-				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED | RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID());
-			else
-				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
+			pPlot = GC.getMapINLINE().syncRandPlot(iFlags, pLoopArea->getID());
 
 			if (pPlot == NULL) continue;
 
