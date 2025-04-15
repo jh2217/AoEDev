@@ -7669,9 +7669,10 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 		// END Xienwolf
 
 		/**	Improvements Mods by Jeckel		imported by Ahwaric	20.09.09 | Valkrionn	09.24.09		**/
-		if (eOldImprovement != NO_IMPROVEMENT && getImprovementOwner() != NO_PLAYER)
+		if (eOldImprovement != NO_IMPROVEMENT && (getImprovementType() == NO_IMPROVEMENT || getImprovementOwner() != NO_PLAYER))
 		{
 			clearCultureControl(getImprovementOwner(), eOldImprovement, true);
+			updateCulture(false, true);
 		}
 
 		ImprovementTypes eLoopImprovement;
