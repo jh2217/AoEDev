@@ -29154,52 +29154,58 @@ bool CvUnitAI::AI_exploreLair(int iRange, int iOddsThreshold)
 
 bool CvUnitAI::AI_canExploreLair(CvPlot* pPlot)
 {
-	if (isOnlyDefensive())
-	{
-		return false;
-	}
-
-	if (isBarbarian())
-	{
-		return false;
-	}
-	if (!canExploreLair(pPlot))
-	{
-		return false;
-	}
-	if (getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_SPELL"))
-		return false;
-
-	if (getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_BIRD"))
-		return false;
+	// This does true check, not 'visible' check
+	// if (!canExploreLair(pPlot))
+	// {
+	// 	return false;
+	// }
 
 	if (pPlot == NULL)
+		return false;
+
+	if (pPlot->getRevealedImprovementType(getTeam(), false) == NO_IMPROVEMENT
+		|| isBarbarian()
+		|| !canFight()
+		|| getUnitCombatType() == GC.getInfoTypeForString("UNITCOMBAT_SIEGE")
+		|| getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_SPELL")
+		|| getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_BIRD")
+		|| isOnlyDefensive())
+		return false;
+
+	if (!GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isExplorable()
+	|| !(pPlot->getExploreNextTurn() <= GC.getGame().getGameTurn()))
+		return false;
+
+	bool bGoodyClass = false;
+	for (int i = 0; i < GC.getNumGoodyClassTypes(); i++)
 	{
-		pPlot = plot();
+		if (GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isGoodyClassType(i))
+		{
+			bGoodyClass = true;
+			break;
+		}
 	}
+	if (!bGoodyClass)
+		return false;
 
-	if (NO_IMPROVEMENT != pPlot->getRevealedImprovementType(getTeam(), false) && GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isExplorable() && pPlot->getExploreNextTurn() <= GC.getGame().getGameTurn())
-	{
-		if (GET_PLAYER(getOwnerINLINE()).getNumCities() == 0)
-			return false;
+	if (GET_PLAYER(getOwnerINLINE()).getNumCities() == 0)
+		return false;
 
-		// The higher tier of lair, the higher tier of unit required. Modulate effective unit tier with noBadExplore; accounts for hypothetical negative luck, if added.
-		if (!(getUnitInfo().getTier() * 25 + getNoBadExplore() + getNoBadExploreImprovement(pPlot->getRevealedImprovementType(getTeam(), false))
-			  >= 20 * GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).getLairTier()))
-			return false;
+	// The higher tier of lair, the higher tier of unit required. Modulate effective unit tier with noBadExplore; accounts for hypothetical negative luck, if added.
+	if (!(getUnitInfo().getTier() * 25 + getNoBadExplore() + getNoBadExploreImprovement(pPlot->getRevealedImprovementType(getTeam(), false))
+			>= 20 * GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).getLairTier()))
+		return false;
 
-		// Need minimum 2, maximum 5 defenders on nearest city to explore a lair
-		CvCity* pNearestCity = GC.getMap().findCity(getX_INLINE(), getY_INLINE(), NO_PLAYER, getTeam());
-		if (pNearestCity == NULL)
-			return true; //No city on this area
-		int iCityDist = plotDistance(getX_INLINE(), getY_INLINE(), pNearestCity->getX(), pNearestCity->getY());
-		int iNumDefenders = pNearestCity->plot()->getNumDefenders(pNearestCity->getOwner()); //XXX take into account other players units? Blaze: Shouldn't be necessary given the #s involved
-		if (range(18/std::max(1,iCityDist), 2, 5) > iNumDefenders)
-			return false;
+	// Need minimum 2, maximum 5 defenders on nearest city to explore a lair
+	CvCity* pNearestCity = GC.getMap().findCity(getX_INLINE(), getY_INLINE(), NO_PLAYER, getTeam());
+	if (pNearestCity == NULL)
+		return true; //No city on this area
+	int iCityDist = plotDistance(getX_INLINE(), getY_INLINE(), pNearestCity->getX(), pNearestCity->getY());
+	int iNumDefenders = pNearestCity->plot()->getNumDefenders(pNearestCity->getOwner()); //XXX take into account other players units? Blaze: Shouldn't be necessary given the #s involved
+	if (range(18/std::max(1,iCityDist), 2, 5) > iNumDefenders)
+		return false;
 
-		return true;
-	}
-	return false;
+	return true;
 
 }
 /*************************************************************************************************/

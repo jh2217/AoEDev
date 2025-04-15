@@ -32836,54 +32836,40 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 
 	// Gold relevant if not barb. Show option even if can't pay gold.
 	if (!bTestVisible && !isBarbarian() && GET_PLAYER(getOwnerINLINE()).getGold() < GET_PLAYER(getOwnerINLINE()).getClaimFortCost())
-	{
 		return false;
-	}
 
-	if (NO_IMPROVEMENT != pPlot->getImprovementType() && GC.getImprovementInfo(pPlot->getImprovementType()).isFort())
-	{
-		if (bTestVisible)
-		{
-			return true;
-		}
+	if (NO_IMPROVEMENT == pPlot->getImprovementType() || !GC.getImprovementInfo(pPlot->getImprovementType()).isFort())
+		return false;
 
-		CvUnit* pLoopUnit;
-		CLLNode<IDInfo>* pUnitNode;
-		pUnitNode = pPlot->headUnitNode();
-
-		while (pUnitNode != NULL)
-		{
-			pLoopUnit = ::getUnit(pUnitNode->m_data);
-			pUnitNode = pPlot->nextUnitNode(pUnitNode);
-
-			if (pLoopUnit->getUnitClassType() == GC.getDefineINT("FORT_COMMANDER_UNITCLASS"))
-			{
-				return false;
-			}
-		}
-		if (pPlot->isOwned())
-		{
-			if (pPlot->getOwner() != getOwnerINLINE())
-			{
-				if (!GET_TEAM(getTeam()).isAtWar(pPlot->getTeam()))
-				{
-					return false;
-				}
-			}
-		}
-		// Barbs can't claim unowned naval forts
-		else if (isBarbarian() && pPlot->isWater())
-		{
-			return false;
-		}
-		// Can't set up commander if adjacent enemy combatants
-		if (countUnitsWithinRange(1, true, false, false, true, true) > 0)
-		{
-			return false;
-		}
+	if (bTestVisible)
 		return true;
+
+	CvUnit* pLoopUnit;
+	CLLNode<IDInfo>* pUnitNode;
+	pUnitNode = pPlot->headUnitNode();
+
+	while (pUnitNode != NULL)
+	{
+		pLoopUnit = ::getUnit(pUnitNode->m_data);
+		pUnitNode = pPlot->nextUnitNode(pUnitNode);
+		if (pLoopUnit->getUnitClassType() == GC.getDefineINT("FORT_COMMANDER_UNITCLASS"))
+			return false;
 	}
-	return false;
+
+	if (pPlot->isOwned()
+	 && pPlot->getOwner() != getOwnerINLINE()
+	 && !GET_TEAM(getTeam()).isAtWar(pPlot->getTeam()))
+		return false;
+
+	// Barbs can't claim unowned naval forts.
+	else if (isBarbarian() && pPlot->isWater())
+		return false;
+
+	// Can't set up commander if adjacent enemy combatants
+	if (countUnitsWithinRange(1, true, false, false, true, true) > 0)
+		return false;
+
+	return true;
 }
 
 bool CvUnit::claimFort(bool bBuilt)
@@ -32928,6 +32914,8 @@ bool CvUnit::claimFort(bool bBuilt)
 
 bool CvUnit::canExploreLair(CvPlot* pPlot, bool bTestVisible)
 {
+	// Changes may need to be mirrored in CvUnitAI::AI_canExploreLair
+
 	if (pPlot == NULL)
 		pPlot = plot();
 
@@ -32940,9 +32928,7 @@ bool CvUnit::canExploreLair(CvPlot* pPlot, bool bTestVisible)
 		|| isOnlyDefensive())
 		return false;
 
-	CvImprovementInfo& kImprovementInfo = GC.getImprovementInfo(pPlot->getImprovementType());
-
-	if (!kImprovementInfo.isExplorable()
+	if (!GC.getImprovementInfo(pPlot->getImprovementType()).isExplorable()
 		|| pPlot->getExploreNextTurn() > GC.getGame().getGameTurn())
 		return false;
 
@@ -32952,13 +32938,12 @@ bool CvUnit::canExploreLair(CvPlot* pPlot, bool bTestVisible)
 	bool bGoodyClass = false;
 	for (int i = 0; i < GC.getNumGoodyClassTypes(); i++)
 	{
-		if (kImprovementInfo.isGoodyClassType(i))
+		if (GC.getImprovementInfo(pPlot->getImprovementType()).isGoodyClassType(i))
 		{
 			bGoodyClass = true;
 			break;
 		}
 	}
-
 	if (!bGoodyClass)
 		return false;
 
