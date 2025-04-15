@@ -15,8 +15,8 @@
 
 <Civ4TraitTriggerInfos xmlns="x-schema:PFX_CIV4CivilizationsSchema.xml">
 	<TraitTriggerInfos>
-		<TraitTriggerInfo> <!-- Cast                Inspiration                               Caretaker -->
-			<Type>TRAITTRIGGER_CAST_INSPIRATION_ZARIA</Type>
+<!--	<TraitTriggerInfo> --> <!-- Cast                Inspiration                               Caretaker -->
+	<!--	<Type>TRAITTRIGGER_CAST_INSPIRATION_ZARIA</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_ZARIA_INFO</TraitType>
@@ -26,9 +26,9 @@
 			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
 			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>			
 			<PrereqSpellType>SPELL_INSPIRATION</PrereqSpellType>
-		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Cast                Charm Person                               Caretaker -->
-			<Type>TRAITTRIGGER_CAST_INSPIRATION_ZARIA</Type>
+		</TraitTriggerInfo> -->
+<!--	<TraitTriggerInfo> --> <!-- Cast                Charm Person                               Caretaker -->
+	<!--	<Type>TRAITTRIGGER_CAST_INSPIRATION_ZARIA</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_ZARIA_INFO</TraitType>
@@ -38,9 +38,9 @@
 			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
 			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>			
 			<PrereqSpellType>SPELL_CHARM_PERSON</PrereqSpellType>
-		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Construct           Building gives happiness                       Caretaker -->
-			<Type>TRAITTRIGGER_CONSTRUCT_BUILDING_HAPPINESS_ZARIA</Type>
+		</TraitTriggerInfo> -->
+<!--	<TraitTriggerInfo> --> <!-- Construct           Building gives happiness                       Caretaker -->
+	<!--	<Type>TRAITTRIGGER_CONSTRUCT_BUILDING_HAPPINESS_ZARIA</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_ZARIA_INFO</TraitType>
@@ -51,9 +51,9 @@
 			<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
 			
 			<bPrereqHappiness>1</bPrereqHappiness>
-	</TraitTriggerInfo>		
-		<TraitTriggerInfo> <!-- Construct           Building gives health                       Caretaker -->
-			<Type>TRAITTRIGGER_CONSTRUCT_BUILDING_HEALTH_ZARIA</Type>
+	    </TraitTriggerInfo>		-->
+<!--	<TraitTriggerInfo> --> <!-- Construct           Building gives health                       Caretaker -->
+	<!--	<Type>TRAITTRIGGER_CONSTRUCT_BUILDING_HEALTH_ZARIA</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_ZARIA_INFO</TraitType>
@@ -64,9 +64,9 @@
 			<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
 			
 			<bPrereqHealth>1</bPrereqHealth>
-			</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Construct           Infirmary                       			Caretaker -->
-			<Type>TRAITTRIGGER_CONSTRUCT_BUILDING_INFIRMARY_ZARIA</Type>
+		</TraitTriggerInfo> -->
+<!--	<TraitTriggerInfo> --> <!-- Construct           Infirmary                       			Caretaker -->
+	<!--	<Type>TRAITTRIGGER_CONSTRUCT_BUILDING_INFIRMARY_ZARIA</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_ZARIA_INFO</TraitType>
@@ -76,9 +76,9 @@
 			<TraitClassType>TRAITCLASS_PERSONALITY</TraitClassType>			
 			<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
 			<PrereqBuildingClassType>BUILDINGCLASS_INFIRMARY</PrereqBuildingClassType>
-		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Train               Recon                                    	Caretaker -->
-			<Type>TRAITTRIGGER_TRAIN_RECON_IMPORTANT_ZARIA</Type>
+		</TraitTriggerInfo> -->
+<!--	<TraitTriggerInfo> --> <!-- Train               Recon                                    	Caretaker -->
+	<!--    <Type>TRAITTRIGGER_TRAIN_RECON_IMPORTANT_ZARIA</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_ZARIA_INFO</TraitType>
@@ -90,9 +90,9 @@
 				<TraitHookType>TRAITHOOK_TRAIN_UNIT</TraitHookType>
 			
 			<PrereqUnitCombatType>UNITCOMBAT_RECON</PrereqUnitCombatType>
-		</TraitTriggerInfo>		
-		<TraitTriggerInfo> <!-- Train               Disciple                                    Caretaker -->
-			<Type>TRAITTRIGGER_TRAIN_DISCIPLE_ZARIA</Type>
+		</TraitTriggerInfo>	-->	
+<!--	<TraitTriggerInfo> --> <!-- Train               Disciple                                    Caretaker -->
+	<!--	<Type>TRAITTRIGGER_TRAIN_DISCIPLE_ZARIA</Type>
 			<CounterChanges>
 				<CounterChange>
 					<TraitType>TRAIT_ZARIA_INFO</TraitType>
@@ -104,6 +104,6 @@
 				<TraitHookType>TRAITHOOK_TRAIN_UNIT</TraitHookType>
 			
 			<PrereqUnitCombatType>UNITCOMBAT_DISCIPLE</PrereqUnitCombatType>
-		</TraitTriggerInfo>		
+		</TraitTriggerInfo>	-->	
 	</TraitTriggerInfos>
 </Civ4TraitTriggerInfos>

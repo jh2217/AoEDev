@@ -181,7 +181,7 @@
 		<Italian>[NEWLINE][ICON_BULLET]Winter sweeps your cities as they expand</Italian>
 		<Spanish>[NEWLINE][ICON_BULLET]Winter sweeps your cities as they expand</Spanish>
 	</TEXT>
-	<TEXT>
+	<!-- <TEXT>
 		<Tag>TXT_KEY_TRAIT_ZARIA_INFO2_HELP</Tag>
 		<English>[NEWLINE][ICON_BULLET]+1 Mind Mana</English>
 		<French>[NEWLINE][ICON_BULLET]+1 Mind Mana</French>
@@ -196,7 +196,7 @@
 		<German>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</German>
 		<Italian>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</Italian>
 		<Spanish>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</Spanish>
-	</TEXT>
+	</TEXT> -->
     <TEXT>
         <Tag>TXT_KEY_TRAIT_THOUSAND_FACES</Tag>
         <English>Thousand Faces</English>

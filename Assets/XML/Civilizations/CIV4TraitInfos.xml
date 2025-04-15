@@ -2665,13 +2665,16 @@
 				</ExtraUnitClass>
 			</ExtraUnitClasses>	
 		</TraitInfo>
-		<TraitInfo>		<!-- Caretaker -->
+		<TraitInfo>		<!-- Caretaker I --> <!-- Author: wuxiangjinxing, NewTraits -->
 			<Type>TRAIT_ZARIA_INFO</Type>
-			<TraitClass>TRAITCLASS_PERSONALITY</TraitClass>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
 			<Description>TXT_KEY_TRAIT_ZARIA_INFO</Description>
 			<Civilopedia>TXT_KEY_TRAIT_ZARIA_INFO_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_ZARIA_INFO_SHORT</ShortDescription>
 			<Help>TXT_KEY_TRAIT_ZARIA_INFO_HELP</Help>
+			<NextTrait>TRAIT_ZARIA_INFO2</NextTrait>
+			<iLevel>1</iLevel>
+			<iUpkeepModifier>10</iUpkeepModifier>
 			<iHealth>6</iHealth>
 			<FreePromotions>
 				<FreePromotion>
@@ -2707,6 +2710,74 @@
 					<UnitType>UNIT_CARETAKER_MATRON</UnitType>
 				</ExtraUnitClass>
 			</ExtraUnitClasses>	
+		</TraitInfo>
+		<TraitInfo>		<!-- Caretaker II -->
+			<Type>TRAIT_ZARIA_INFO2</Type>
+			<Description>TXT_KEY_TRAIT_ZARIA_INFO</Description>
+			<Civilopedia>TXT_KEY_TRAIT_ZARIA_INFO_PEDIA</Civilopedia>
+			<ShortDescription>TXT_KEY_TRAIT_ZARIA_INFO_SHORT</ShortDescription>
+			<Help>TXT_KEY_TRAIT_ZARIA_INFO2_HELP</Help>
+			<NextTrait>TRAIT_ZARIA_INFO3</NextTrait>
+			<iLevel>2</iLevel>
+			<iMinRequiredPoints>300</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<iHappiness>2</iHappiness>
+			<FreeBonuses>
+				<FreeBonus>
+					<BonusType>BONUS_MANA_MIND</BonusType>
+					<bFreeBonus>1</bFreeBonus>
+				</FreeBonus>			
+			</FreeBonuses>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_MIND1</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_MIND2</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>			
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>			
+		</TraitInfo>
+		<TraitInfo>		<!-- Caretaker III-->
+			<Type>TRAIT_ZARIA_INFO3</Type>
+			<Description>TXT_KEY_TRAIT_ZARIA_INFO</Description>
+			<Civilopedia>TXT_KEY_TRAIT_ZARIA_INFO_PEDIA</Civilopedia>
+			<ShortDescription>TXT_KEY_TRAIT_ZARIA_INFO_SHORT</ShortDescription>
+			<Help>TXT_KEY_TRAIT_ZARIA_INFO3_HELP</Help>
+			<iLevel>3</iLevel>
+			<iMinRequiredPoints>3000</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<FreeSpecialistsStateReligion>
+				<FreeSpecialistStateReligion>
+					<SpecialistType>SPECIALIST_HEALER</SpecialistType>
+					<bFreeSpecialistStateReligion>1</bFreeSpecialistStateReligion>
+				</FreeSpecialistStateReligion>
+			</FreeSpecialistsStateReligion>			
+			<SpecialistHappinessChanges>
+				<SpecialistHappinessChange>
+					<SpecialistType>SPECIALIST_HEALER</SpecialistType>
+					<iHappiness>1</iHappiness>
+				</SpecialistHappinessChange>
+			</SpecialistHappinessChanges>			
+			<UnitClassPlayerInstancesChanges>
+				<UnitClassPlayerInstancesChange>
+					<UnitClassType>UNITCLASS_ADJUNCT</UnitClassType>
+					<iPlayerInstancesChange>4</iPlayerInstancesChange>
+				</UnitClassPlayerInstancesChange>
+			</UnitClassPlayerInstancesChanges>
+			<UnitClassPlayerInstancesChanges>
+				<UnitClassPlayerInstancesChange>
+					<UnitClassType>UNITCLASS_CARETAKER_MATRON</UnitClassType>
+					<iPlayerInstancesChange>4</iPlayerInstancesChange>
+				</UnitClassPlayerInstancesChange>
+			</UnitClassPlayerInstancesChanges>			
 		</TraitInfo>
 		<TraitInfo>		<!-- Master of the Mekara -->
 			<Type>TRAIT_JAMAL_INFO</Type>

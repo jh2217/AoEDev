@@ -1953,14 +1953,29 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_TRAIT_ZARIA_INFO_HELP</Tag>
-		<English>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell[NEWLINE]</English>
-		<French>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell[NEWLINE]</French>
-		<German>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell[NEWLINE]</German>
-		<Italian>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell[NEWLINE]</Italian>
-		<Spanish>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell[NEWLINE]</Spanish>
+		<English>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell</English>
+		<French>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell</French>
+		<German>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell</German>
+		<Italian>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Can use the [LINK=SPELL_ENTER_ARENA]Enter the Arena[\LINK] spell</Spanish>
 	</TEXT>
-	
 		<TEXT>
+		<Tag>TXT_KEY_TRAIT_ZARIA_INFO2_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]+1 Mind Mana</English>
+		<French>[NEWLINE][ICON_BULLET]+1 Mind Mana</French>
+		<German>[NEWLINE][ICON_BULLET]+1 Mind Mana</German>
+		<Italian>[NEWLINE][ICON_BULLET]+1 Mind Mana</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]+1 Mind Mana</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_ZARIA_INFO3_HELP</Tag>
+		<English>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</English>
+		<French>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</French>
+		<German>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</German>
+		<Italian>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Double the national limit of Adjuncts and Caretaker Matrons</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TRAIT_NECROMANCER_PEDIA</Tag>
 		<English>Necromancer is an emergent trait focusing on the corrupted Death art of Necromancy. To unlock its full potential, be sure to cast spells, build and use units, control lands and wonders affiliated to the Death sphere.</English>
 		<French>Necromancer is an emergent trait focusing on the corrupted Death art of Necromancy. To unlock its full potential, be sure to cast spells, build and use units, control lands and wonders affiliated to the Death sphere.</French>
