@@ -29184,16 +29184,18 @@ bool CvUnitAI::AI_canExploreLair(CvPlot* pPlot)
 	{
 		if (GET_PLAYER(getOwnerINLINE()).getNumCities() == 0)
 			return false;
-		if ((GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).getLairTier() - 1) * 50 > GC.getGame().getGameTurn())
+
+		// The higher tier of lair, the higher tier of unit required. Modulate effective unit tier with noBadExplore; accounts for hypothetical negative luck, if added.
+		if (!(getUnitInfo().getTier() * 25 + getNoBadExplore() + getNoBadExploreImprovement(pPlot->getRevealedImprovementType(getTeam(), false))
+			  >= 20 * GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).getLairTier()))
 			return false;
-		if (GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).getLairTier() > getUnitInfo().getTier())
-			return false;
+
+		// Need minimum 2, maximum 5 defenders on nearest city to explore a lair
 		CvCity* pNearestCity = GC.getMap().findCity(getX_INLINE(), getY_INLINE(), NO_PLAYER, getTeam());
 		if (pNearestCity == NULL)
 			return true; //No city on this area
-		
 		int iCityDist = plotDistance(getX_INLINE(), getY_INLINE(), pNearestCity->getX(), pNearestCity->getY());
-		int iNumDefenders = pNearestCity->plot()->getNumDefenders(pNearestCity->getOwner()); //XXX take into account other players units?
+		int iNumDefenders = pNearestCity->plot()->getNumDefenders(pNearestCity->getOwner()); //XXX take into account other players units? Blaze: Shouldn't be necessary given the #s involved
 		if (range(18/std::max(1,iCityDist), 2, 5) > iNumDefenders)
 			return false;
 
