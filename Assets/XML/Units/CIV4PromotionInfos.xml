@@ -34547,18 +34547,6 @@
 				<Promotion>PROMOTION_COM_OVERSEER_STONESKIN_V2</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_V2</Promotion>
 			</PromotionAllows>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS</Promotion>
-				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS2</Promotion>
-				<Promotion>PROMOTION_GC_LEADERSHIP</Promotion>
-				<Promotion>PROMOTION_GC_FIELD_MEDIC1</Promotion>
-				<Promotion>PROMOTION_GC_SUBTERFUGE</Promotion>
-				<Promotion>PROMOTION_GC_BATTLE_COMMAND1</Promotion>
-				<Promotion>PROMOTION_GC_SIEGE_WARFARE1</Promotion>
-				<Promotion>PROMOTION_GC_SCOUTING1</Promotion>
-				<Promotion>PROMOTION_GC_BATTLE_COMMAND1</Promotion>
-				<Promotion>PROMOTION_GC_SIEGE_WARFARE1</Promotion>
-			</PromotionExcludes>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombatOverseer.dds</Button>
 			<iMinLevel>-1</iMinLevel>

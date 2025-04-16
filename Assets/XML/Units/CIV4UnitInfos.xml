@@ -30955,6 +30955,7 @@
 				<Promotion>PROMOTION_HARDY2</Promotion>
 				<Promotion>PROMOTION_HARDY3</Promotion>
 				<Promotion>PROMOTION_FORTIFICATION_SPECIALIST</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_V2</Promotion>
 			</DenyPromotions>
 		</UnitInfo>
 		<UnitInfo>        <!-- Combat Overseer V2 -->
@@ -31009,6 +31010,16 @@
 			<iTier>2</iTier>
 			<iWeaponTierMax>3</iWeaponTierMax>
 			<DenyPromotions>
+				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS</Promotion>
+				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS2</Promotion>
+				<Promotion>PROMOTION_GC_LEADERSHIP</Promotion>
+				<Promotion>PROMOTION_GC_FIELD_MEDIC1</Promotion>
+				<Promotion>PROMOTION_GC_SUBTERFUGE</Promotion>
+				<Promotion>PROMOTION_GC_BATTLE_COMMAND1</Promotion>
+				<Promotion>PROMOTION_GC_SIEGE_WARFARE1</Promotion>
+				<Promotion>PROMOTION_GC_SCOUTING1</Promotion>
+				<Promotion>PROMOTION_GC_BATTLE_COMMAND1</Promotion>
+				<Promotion>PROMOTION_GC_SIEGE_WARFARE1</Promotion>
 				<Promotion>PROMOTION_GC_RANGE2</Promotion>
 				<Promotion>PROMOTION_GC_RANGE3</Promotion>
 				<Promotion>PROMOTION_GC_LIMIT3</Promotion>
@@ -31083,6 +31094,18 @@
 				<Promotion>PROMOTION_COM_OVERSEER_MELEE_MASTER_V2</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_RANGED_MASTER_V2</Promotion>
 			</AllowPromotions>
+			<DenyPromotions>
+				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS</Promotion>
+				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS2</Promotion>
+				<Promotion>PROMOTION_GC_LEADERSHIP</Promotion>
+				<Promotion>PROMOTION_GC_FIELD_MEDIC1</Promotion>
+				<Promotion>PROMOTION_GC_SUBTERFUGE</Promotion>
+				<Promotion>PROMOTION_GC_BATTLE_COMMAND1</Promotion>
+				<Promotion>PROMOTION_GC_SIEGE_WARFARE1</Promotion>
+				<Promotion>PROMOTION_GC_SCOUTING1</Promotion>
+				<Promotion>PROMOTION_GC_BATTLE_COMMAND1</Promotion>
+				<Promotion>PROMOTION_GC_SIEGE_WARFARE1</Promotion>
+			</DenyPromotions>
 		</UnitInfo>
 		<UnitInfo>        <!-- Karas 320 V2 -->                      <!-- End of Mekara V2 Units -->
 			<Class>UNITCLASS_KARAS_V2</Class>

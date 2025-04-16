@@ -2833,6 +2833,18 @@
 					<UnitType>UNIT_COMBAT_OVERSEER_V2</UnitType>
 				</ExtraUnitClass>
 			</ExtraUnitClasses>	
+						<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_COM_OVERSEER_V2</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
 		</TraitInfo>
 		<TraitInfo>		<!-- Magical -->
 			<Type>TRAIT_MAGICAL</Type>
