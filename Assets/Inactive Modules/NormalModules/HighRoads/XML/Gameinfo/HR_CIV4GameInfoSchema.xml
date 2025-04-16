@@ -628,8 +628,6 @@
 		<element type="iAIFreeXP"/>
 		<element type="iWaterTilesPerAnimal"/>
 		<element type="iAnimalEscalationTurnsElapsed"/>
-		<element type="iLairSpawnChance"/>
-		<element type="iLairsPerCycle"/>
 		<element type="iPercentDemonsPerEvilPlot"/>
 		<element type="iPercentDemonsPerEvilPlotPerGlobalCounter"/>
 		<element type="iDemonGlobalCounterFreeXPPercent"/>
@@ -642,8 +640,6 @@
 	</ElementType>
 	<ElementType name="iWaterTilesPerAnimal" content="textOnly" dt:type="int"/>
 	<ElementType name="iAnimalEscalationTurnsElapsed" content="textOnly" dt:type="int"/>
-	<ElementType name="iLairSpawnChance" content="textOnly" dt:type="int"/>
-	<ElementType name="iLairsPerCycle" content="textOnly" dt:type="int"/>
 	<ElementType name="iPercentDemonsPerEvilPlot" content="textOnly" dt:type="int"/>
 	<ElementType name="iPercentDemonsPerEvilPlotPerGlobalCounter" content="textOnly" dt:type="int"/>
 	<ElementType name="iDemonGlobalCounterFreeXPPercent" content="textOnly" dt:type="int"/>

@@ -903,13 +903,30 @@ void CvPlot::doLairSpawn()
 			return;
 	}
 
-	// 100x base spawn chance * specific lair chance modifier
-	int iChance = 100 * GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnChance() * GC.getImprovementInfo(getImprovementType()).getSpawnUnitChancePercentMod();
-	iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
-	if (iUnit != NO_UNIT && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
+	// Starting chance
+	int iBaseChance = GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getLairSpawnChance();
+	bool bMissingGuard = getNumSpawnsAlive() == 0;
+	// Check for spawn unit
+	if (iUnit != NO_UNIT
+	 && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iBaseChance * GC.getImprovementInfo(getImprovementType()).getSpawnUnitChancePercentMod() * (1 + bMissingGuard))
 	{
+		// If we're entirely out of units spawned from here, respawn the guardian if exists. Guard won't respawn if there is a spawned unit wandered off somewhere; oh well.
+		if (bMissingGuard && GC.getImprovementInfo(getImprovementType()).getImmediateSpawnUnitType() != NO_UNIT)
+		{
+			iUnit = GC.getImprovementInfo(getImprovementType()).getImmediateSpawnUnitType();
+		}
+
 		CvUnit* pUnit=GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), UNITAI_ATTACK);
-		if (GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions() > 0)
+
+		if (bMissingGuard && GC.getImprovementInfo(getImprovementType()).getNumGuardianPromotions() > 0)
+		{
+			int iNumGuardianPromotions = GC.getImprovementInfo(getImprovementType()).getNumGuardianPromotions();
+			for (int iL = 0; iL < iNumGuardianPromotions; iL++)
+			{
+				pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(getImprovementType()).getGuardianPromotions(iL), true);
+			}
+		}
+		else if (!bMissingGuard && GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions() > 0)
 		{
 			int iNumSpawnPromotions = GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions();
 			for (int iL = 0; iL < iNumSpawnPromotions; iL++)
@@ -918,7 +935,9 @@ void CvPlot::doLairSpawn()
 			}
 		}
 	}
-	if (iSpawnGroup != NO_SPAWNGROUP && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
+	// Check for spawn group. 1/3 chance to spawn a group as to spawn a unit. V low chance to spawn both unit and group, but why not.
+	if (iSpawnGroup != NO_SPAWNGROUP
+	 && GC.getGameINLINE().getSorenRandNum(30000, "Spawn Unit") < iBaseChance * GC.getImprovementInfo(getImprovementType()).getSpawnGroupChancePercentMod())
 	{
 		GC.getGameINLINE().createSpawnGroup((SpawnGroupTypes)iSpawnGroup, this, eSpawnPlayer);
 	}

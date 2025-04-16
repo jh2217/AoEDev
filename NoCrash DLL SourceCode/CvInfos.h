@@ -5830,8 +5830,6 @@ public:
 /*************************************************************************************************/
 	int getWaterTilesPerAnimal() const;
 	int getAnimalEscalationTurnsElapsed() const;
-	int getLairSpawnChance() const;
-	int getLairsPerCycle() const;
 	int getPercentDemonsPerEvilPlot() const;
 	int getDemonPerTurnKnownTechsPercent() const;
 	int getDemonGlobalCounterFreeXPPercent() const;
@@ -5946,8 +5944,6 @@ protected:
 /*************************************************************************************************/
 	int m_iWaterTilesPerAnimal;
 	int m_iAnimalEscalationTurnsElapsed;
-	int m_iLairSpawnChance;
-	int m_iLairsPerCycle;
 	int m_iPercentDemonsPerEvilPlot;
 	int m_iDemonPerTurnKnownTechsPercent;
 	int m_iDemonGlobalCounterFreeXPPercent;
@@ -6012,6 +6008,7 @@ public:
 /**																								**/
 /**								Defines Function for Use in .cpp								**/
 /*************************************************************************************************/
+	int getLairSpawnChance() const;
 	int getTurnsPerLairCycle() const;
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
@@ -6061,6 +6058,7 @@ protected:
 /**																								**/
 /**								Defines Variable for Use in .cpp								**/
 /*************************************************************************************************/
+	int m_iLairSpawnChance;
 	int m_iTurnsPerLairCycle;
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/

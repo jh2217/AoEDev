@@ -27811,8 +27811,6 @@ m_iAIFreeXP(0.0f),
 /*************************************************************************************************/
 m_iWaterTilesPerAnimal(0),
 m_iAnimalEscalationTurnsElapsed(0),
-m_iLairSpawnChance(0),
-m_iLairsPerCycle(0),
 m_iPercentDemonsPerEvilPlot(0),
 m_iDemonPerTurnKnownTechsPercent(0),
 m_iDemonGlobalCounterFreeXPPercent(0),
@@ -28154,8 +28152,6 @@ int CvHandicapInfo::getAIFreeXP() const
 /*************************************************************************************************/
 int CvHandicapInfo::getWaterTilesPerAnimal() const								{return m_iWaterTilesPerAnimal;}
 int CvHandicapInfo::getAnimalEscalationTurnsElapsed() const						{return m_iAnimalEscalationTurnsElapsed;}
-int CvHandicapInfo::getLairSpawnChance() const									{return m_iLairSpawnChance;}
-int CvHandicapInfo::getLairsPerCycle() const									{return m_iLairsPerCycle;}
 int CvHandicapInfo::getPercentDemonsPerEvilPlot() const							{return m_iPercentDemonsPerEvilPlot;}
 int CvHandicapInfo::getDemonPerTurnKnownTechsPercent() const					{return m_iDemonPerTurnKnownTechsPercent;}
 int CvHandicapInfo::getDemonGlobalCounterFreeXPPercent() const					{return m_iDemonGlobalCounterFreeXPPercent;}
@@ -28268,8 +28264,6 @@ void CvHandicapInfo::read(FDataStreamBase* stream)
 /*************************************************************************************************/
 	stream->Read(&m_iWaterTilesPerAnimal);
 	stream->Read(&m_iAnimalEscalationTurnsElapsed);
-	stream->Read(&m_iLairSpawnChance);
-	stream->Read(&m_iLairsPerCycle);
 	stream->Read(&m_iPercentDemonsPerEvilPlot);
 	stream->Read(&m_iDemonPerTurnKnownTechsPercent);
 	stream->Read(&m_iDemonGlobalCounterFreeXPPercent);
@@ -28374,8 +28368,6 @@ void CvHandicapInfo::write(FDataStreamBase* stream)
 /*************************************************************************************************/
 	stream->Write(m_iWaterTilesPerAnimal);
 	stream->Write(m_iAnimalEscalationTurnsElapsed);
-	stream->Write(m_iLairSpawnChance);
-	stream->Write(m_iLairsPerCycle);
 	stream->Write(m_iPercentDemonsPerEvilPlot);
 	stream->Write(m_iDemonPerTurnKnownTechsPercent);
 	stream->Write(m_iDemonGlobalCounterFreeXPPercent);
@@ -28466,8 +28458,6 @@ bool CvHandicapInfo::read(CvXMLLoadUtility* pXML)
 /*************************************************************************************************/
 	pXML->GetChildXmlValByName(&m_iWaterTilesPerAnimal, "iWaterTilesPerAnimal");
 	pXML->GetChildXmlValByName(&m_iAnimalEscalationTurnsElapsed, "iAnimalEscalationTurnsElapsed");
-	pXML->GetChildXmlValByName(&m_iLairSpawnChance, "iLairSpawnChance");
-	pXML->GetChildXmlValByName(&m_iLairsPerCycle, "iLairsPerCycle");
 	pXML->GetChildXmlValByName(&m_iPercentDemonsPerEvilPlot, "iPercentDemonsPerEvilPlot");
 	pXML->GetChildXmlValByName(&m_iDemonPerTurnKnownTechsPercent, "iDemonPerTurnKnownTechsPercent");
 	pXML->GetChildXmlValByName(&m_iDemonGlobalCounterFreeXPPercent, "iDemonGlobalCounterFreeXPPercent");
@@ -28583,8 +28573,6 @@ void CvHandicapInfo::copyNonDefaults(CvHandicapInfo* pClassInfo, CvXMLLoadUtilit
 	if (getAIAdvancedStartPercent()				== 0)		m_iAIAdvancedStartPercent				= pClassInfo->getAIAdvancedStartPercent();
 	if (getWaterTilesPerAnimal()				== 0)		m_iWaterTilesPerAnimal					= pClassInfo->getWaterTilesPerAnimal();
 	if (getAnimalEscalationTurnsElapsed()		== 0)		m_iAnimalEscalationTurnsElapsed			= pClassInfo->getAnimalEscalationTurnsElapsed();
-	if (getLairSpawnChance()					== 0)		m_iLairSpawnChance						= pClassInfo->getLairSpawnChance();
-	if (getLairsPerCycle()						== 0)		m_iLairsPerCycle						= pClassInfo->getLairsPerCycle();
 	if (getPercentDemonsPerEvilPlot()			== 0)		m_iPercentDemonsPerEvilPlot				= pClassInfo->getPercentDemonsPerEvilPlot();
 	if (getDemonPerTurnKnownTechsPercent()		== 0)		m_iDemonPerTurnKnownTechsPercent		= pClassInfo->getDemonPerTurnKnownTechsPercent();
 	if (getDemonGlobalCounterFreeXPPercent()	== 0)		m_iDemonGlobalCounterFreeXPPercent		= pClassInfo->getDemonGlobalCounterFreeXPPercent();
@@ -28667,6 +28655,7 @@ m_iNumTurnIncrements(0),
 /**																								**/
 /**										Initial Values											**/
 /*************************************************************************************************/
+m_iLairSpawnChance(0),
 m_iTurnsPerLairCycle(0),
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
@@ -28801,7 +28790,8 @@ int CvGameSpeedInfo::getNumTurnIncrements() const
 /**																								**/
 /**									Called for Logic Checks										**/
 /*************************************************************************************************/
-int CvGameSpeedInfo::getTurnsPerLairCycle() const    {return m_iTurnsPerLairCycle;}
+int CvGameSpeedInfo::getLairSpawnChance() const		{return m_iLairSpawnChance;}
+int CvGameSpeedInfo::getTurnsPerLairCycle() const	{return m_iTurnsPerLairCycle;}
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
 /*************************************************************************************************/
@@ -28851,6 +28841,7 @@ bool CvGameSpeedInfo::read(CvXMLLoadUtility* pXML)
 /**																								**/
 /**									Loads Information from XML									**/
 /*************************************************************************************************/
+	pXML->GetChildXmlValByName(&m_iLairSpawnChance, "iLairSpawnChance");
 	pXML->GetChildXmlValByName(&m_iTurnsPerLairCycle, "iTurnsPerLairCycle");
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
@@ -28921,6 +28912,7 @@ void CvGameSpeedInfo::copyNonDefaults(CvGameSpeedInfo* pClassInfo, CvXMLLoadUtil
 	if (getInflationOffset()			== 0)		m_iInflationOffset				= pClassInfo->getInflationOffset();
 	if (getInflationPercent()			== 0)		m_iInflationPercent				= pClassInfo->getInflationPercent();
 	if (getVictoryDelayPercent()		== 0)		m_iVictoryDelayPercent			= pClassInfo->getVictoryDelayPercent();
+	if (getLairSpawnChance()			== 0)		m_iLairSpawnChance				= pClassInfo->getLairSpawnChance();
 	if (getTurnsPerLairCycle()			== 0)		m_iTurnsPerLairCycle			= pClassInfo->getTurnsPerLairCycle();
 	if (getNumTurnIncrements()			== 0)
 	{

@@ -215,8 +215,6 @@ void CyInfoPythonInterface2()
 /*************************************************************************************************/
 		.def("getWaterTilesPerAnimal", &CvHandicapInfo::getWaterTilesPerAnimal, "int ()")
 		.def("getAnimalEscalationTurnsElapsed", &CvHandicapInfo::getAnimalEscalationTurnsElapsed, "int ()")
-		.def("getLairsPerCycle", &CvHandicapInfo::getLairsPerCycle, "int ()")
-		.def("getLairSpawnChance", &CvHandicapInfo::getLairSpawnChance, "int ()")
 		.def("getPercentDemonsPerEvilPlot", &CvHandicapInfo::getPercentDemonsPerEvilPlot, "int ()")
 		.def("getDemonPerTurnKnownTechsPercent", &CvHandicapInfo::getDemonPerTurnKnownTechsPercent, "int ()")
 		.def("getDemonGlobalCounterFreeXPPercent", &CvHandicapInfo::getDemonGlobalCounterFreeXPPercent, "int ()")
@@ -262,6 +260,7 @@ void CyInfoPythonInterface2()
 /**																								**/
 /**								Exposes the Functions to Python									**/
 /*************************************************************************************************/
+		.def("getLairSpawnChance", &CvGameSpeedInfo::getLairSpawnChance, "int ()")
 		.def("getTurnsPerLairCycle", &CvGameSpeedInfo::getTurnsPerLairCycle, "int ()")
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/

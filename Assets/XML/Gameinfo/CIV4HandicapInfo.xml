@@ -106,9 +106,7 @@
 			<AIFreeTechs>
 			</AIFreeTechs>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal> <!-- DIFF CONSTANT: Applies to animals on water only -->
-			<iAnimalEscalationTurnsElapsed>150</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>25</iLairSpawnChance> <!-- DIFF CONSTANT: Chance per turn for a lair to spit something out (gamespeed modulated) --> <!-- This should move to gamespeedinfo... -->
-			<iLairsPerCycle>1</iLairsPerCycle> <!-- Unused; lairs spawned on map per cycle is calculated by map default players instead -->
+			<iAnimalEscalationTurnsElapsed>150</iAnimalEscalationTurnsElapsed> <!-- DIFF MODULATED: Ehh... leaving for now. -->
 			<iPercentDemonsPerEvilPlot>75</iPercentDemonsPerEvilPlot> <!-- DIFF MODULATED: Applies to land and water both -->
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>225</iPercentDemonsPerEvilPlotPerGlobalCounter> <!-- DIFF MODULATED: Additive with iPercentDemonsPerEvilPlot. 40 means if AC is 10, +4% demons/evil plot -->
 			<iDemonGlobalCounterFreeXPPercent>0</iDemonGlobalCounterFreeXPPercent>
@@ -213,8 +211,6 @@
 			</AIFreeTechs>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>135</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>25</iLairSpawnChance>
-			<iLairsPerCycle>2</iLairsPerCycle>
 			<iPercentDemonsPerEvilPlot>75</iPercentDemonsPerEvilPlot>
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>225</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>10</iDemonGlobalCounterFreeXPPercent>
@@ -315,8 +311,6 @@
 			</AIFreeTechs>
 			<iWaterTilesPerAnimal>225</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>120</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>25</iLairSpawnChance>
-			<iLairsPerCycle>3</iLairsPerCycle>
 			<iPercentDemonsPerEvilPlot>75</iPercentDemonsPerEvilPlot>
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>225</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>10</iDemonGlobalCounterFreeXPPercent>
@@ -414,8 +408,6 @@
 			</AIFreeTechs>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>90</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>25</iLairSpawnChance>
-			<iLairsPerCycle>4</iLairsPerCycle>
 			<iPercentDemonsPerEvilPlot>75</iPercentDemonsPerEvilPlot>
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>225</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>20</iDemonGlobalCounterFreeXPPercent>
@@ -513,8 +505,6 @@
 			<iAIFreeXP>1</iAIFreeXP>
 			<iWaterTilesPerAnimal>175</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>75</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>25</iLairSpawnChance>
-			<iLairsPerCycle>5</iLairsPerCycle>
 			<iPercentDemonsPerEvilPlot>75</iPercentDemonsPerEvilPlot>
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>225</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>30</iDemonGlobalCounterFreeXPPercent>
@@ -617,8 +607,6 @@
 			<iAIFreeXP>2</iAIFreeXP>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>67</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>25</iLairSpawnChance>
-			<iLairsPerCycle>6</iLairsPerCycle>
 			<iPercentDemonsPerEvilPlot>75</iPercentDemonsPerEvilPlot>
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>225</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>50</iDemonGlobalCounterFreeXPPercent>
@@ -726,8 +714,6 @@
 			<iAIFreeXP>4</iAIFreeXP>
 			<iWaterTilesPerAnimal>125</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>50</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>25</iLairSpawnChance>
-			<iLairsPerCycle>7</iLairsPerCycle>
 			<iPercentDemonsPerEvilPlot>80</iPercentDemonsPerEvilPlot>
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>400</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>70</iDemonGlobalCounterFreeXPPercent>
@@ -838,8 +824,6 @@
 			<iAIFreeXP>6</iAIFreeXP>
 			<iWaterTilesPerAnimal>50</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>45</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>25</iLairSpawnChance>
-			<iLairsPerCycle>8</iLairsPerCycle>
 			<iPercentDemonsPerEvilPlot>90</iPercentDemonsPerEvilPlot>
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>550</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>90</iDemonGlobalCounterFreeXPPercent>
@@ -953,8 +937,6 @@
 			<iAIFreeXP>8</iAIFreeXP>
 			<iWaterTilesPerAnimal>75</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>35</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>25</iLairSpawnChance>
-			<iLairsPerCycle>9</iLairsPerCycle>
 			<iPercentDemonsPerEvilPlot>100</iPercentDemonsPerEvilPlot>
 			<iPercentDemonsPerEvilPlotPerGlobalCounter>700</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>130</iDemonGlobalCounterFreeXPPercent>
