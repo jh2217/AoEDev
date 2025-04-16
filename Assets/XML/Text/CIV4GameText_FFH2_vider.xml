@@ -2445,19 +2445,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PLOT_WORK_TO_UPGRADE_PREREQ_CIV</Tag>
-		<English>[SPACE](City must Work to Become %s1_ImpName, %s2_CivName only)</English>
+		<English>[SPACE](City must Work to become %s1_ImpName, %s2_CivName only)</English>
 		<French>[SPACE](Un citoyen doit y travailler pour l'améliorer en %s1_ImpName, %s2_CivName seulement)</French>
 		<German>[SPACE](Stadt muss das Geländefeld bearbeiten um zur Stufe %s1_ImpName zu gelangen, nur %s2_CivName)</German>
-		<Italian>[SPACE](City must Work to Become %s1_ImpName, %s2_CivName only)</Italian>
-		<Spanish>[SPACE](City must Work to Become %s1_ImpName, %s2_CivName only)</Spanish>
+		<Italian>[SPACE](City must Work to become %s1_ImpName, %s2_CivName only)</Italian>
+		<Spanish>[SPACE](City must Work to become %s1_ImpName, %s2_CivName only)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PLOT_OWN_TO_UPGRADE</Tag>
-		<English>[SPACE](Tile must be owned to Become %s1_ImpName)</English>
-		<French>[SPACE](Tile must be owned to Become %s1_ImpName)</French>
-		<German>[SPACE](Tile must be owned to Become %s1_ImpName)</German>
-		<Italian>[SPACE](Tile must be owned to Become %s1_ImpName)</Italian>
-		<Spanish>[SPACE](Tile must be owned to Become %s1_ImpName)</Spanish>
+		<English>[SPACE](Tile must be owned to become %s1_ImpName)</English>
+		<French>[SPACE](Tile must be owned to become %s1_ImpName)</French>
+		<German>[SPACE](Tile must be owned to become %s1_ImpName)</German>
+		<Italian>[SPACE](Tile must be owned to become %s1_ImpName)</Italian>
+		<Spanish>[SPACE](Tile must be owned to become %s1_ImpName)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_POPUP_BARBARIAN_DECLARE_WAR</Tag>

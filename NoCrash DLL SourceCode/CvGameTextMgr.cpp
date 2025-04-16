@@ -6392,7 +6392,8 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 				 GC.getGameINLINE().getActivePlayer() == NO_PLAYER ||
 				 GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getCivilizationType() == GC.getImprovementInfo((ImprovementTypes) GC.getImprovementInfo(eImprovement).getImprovementUpgrade()).getPrereqCivilization())
 				{
-					if ((pPlot->getUpgradeProgress() > 0) || pPlot->isBeingWorked())
+					// Always show turns to upgrade if there is progress, it is being worked, or it is improving by itself
+					if ((pPlot->getUpgradeProgress() > 0) || pPlot->isBeingWorked() || (GC.getImprovementInfo(eImprovement).isOutsideBorders() && (pPlot->isWater() || eRevealOwner != NO_PLAYER)))
 					{
 						iTurns = pPlot->getUpgradeTimeLeft(eImprovement, eRevealOwner);
 						szString.append(gDLL->getText("TXT_KEY_PLOT_IMP_UPGRADE", iTurns, GC.getImprovementInfo((ImprovementTypes) GC.getImprovementInfo(eImprovement).getImprovementUpgrade()).getTextKeyWide()));

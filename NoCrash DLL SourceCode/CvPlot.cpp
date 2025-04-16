@@ -1032,13 +1032,16 @@ void CvPlot::doImprovement()
 //FfH Improvements: Added by Kael 08/07/2007
 void CvPlot::doImprovementUpgrade()
 {
-	if (getImprovementType() == NO_IMPROVEMENT) return;
+	if (getImprovementType() == NO_IMPROVEMENT)
+		return;
 
 	ImprovementTypes eImprovementUpgrade = (ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementUpgrade();
-	if (eImprovementUpgrade == NO_IMPROVEMENT) return;
+	if (eImprovementUpgrade == NO_IMPROVEMENT)
+		return;
 
 	// To upgrade, improvements must be A) worked or B) bOutsideBorders and not an unclaimed fort (on land due to Rinwell)
-	if (!(isBeingWorked() || (GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders() && !(!isOwned() && !isWater() && GC.getImprovementInfo(getImprovementType()).isFort())))) return;
+	if (!(isBeingWorked() || (GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders() && !(!isOwned() && !isWater() && GC.getImprovementInfo(getImprovementType()).isFort()))))
+		return;
 
 	// ? : Hinterlands Valkrionn 07/11/09
 	int iUpgradeTurns = GC.getGameINLINE().getImprovementUpgradeTime(getImprovementType());
@@ -7597,7 +7600,9 @@ ImprovementTypes CvPlot::getImprovementType() const
 void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 {
 	// TODO: Ensure owner improvement # tracking is consistent for improvements that add or remove cultural control or are bOutsideBorders
+	// Currently is triggering some asserts... maybe split up into two func, remove improvement and add improvement
 	int iI;
+	PlayerTypes eOldImprovementOwner = NO_PLAYER;
 	ImprovementTypes eOldImprovement = getImprovementType();
 	if (eNewValue!=NO_IMPROVEMENT && GC.getGameINLINE().isOption(GAMEOPTION_DELAYED_LAIRS) && GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay() > 0 && GC.getGame().getGameTurn()<1)
 	{
@@ -7620,6 +7625,7 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			}
 			if (isOwned())
 			{
+				eOldImprovementOwner = getImprovementOwner();
 				GET_PLAYER(getOwnerINLINE()).changeImprovementCount(getImprovementType(), -1);
 			}
 		}
@@ -7641,7 +7647,6 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			kData.m_iImprovement = eOldImprovement;
 			GET_PLAYER(getOwner()).doTraitTriggers(TRAITHOOK_LOSE_IMPROVEMENT, &kData);		
 		}
-
 
 		updatePlotGroupBonus(false);
 		m_eImprovementType = eNewValue;
@@ -7691,7 +7696,7 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 		if (eOldImprovement != NO_IMPROVEMENT && (getImprovementType() == NO_IMPROVEMENT || getImprovementOwner() != NO_PLAYER))
 		{
 			clearCultureControl(getImprovementOwner(), eOldImprovement, true);
-			updateCulture(false, true);
+			updateCulture(true, true);
 		}
 
 		ImprovementTypes eLoopImprovement;
@@ -7724,7 +7729,7 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			int iSpawnGroup = GC.getImprovementInfo(getImprovementType()).getSpawnGroupType();
 			int iImmediateSpawnGroup = GC.getImprovementInfo(getImprovementType()).getImmediateSpawnGroupType();
 
-			PlayerTypes eSpawnPlayer=NO_PLAYER;
+			PlayerTypes eSpawnPlayer = NO_PLAYER;
 			if (iCiv != NO_CIVILIZATION
 				&& (iUnit != -1 || iSpawnGroup != -1 || iImmediateUnit != -1 || iImmediateSpawnGroup != -1)
 				&& !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
@@ -7742,7 +7747,10 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 				if (eSpawnPlayer != NO_PLAYER)
 				{
 					// Immediately update owner if can spawn only for that owner
-					setImprovementOwner(eSpawnPlayer);
+					// When an improvement is directly swapped for a spawner, weird things can happen, but... oh well.
+					// Fixes Rinwell losing control to demons if owned while upgrading
+					eOldImprovementOwner == NO_PLAYER ? setImprovementOwner(eSpawnPlayer) : setImprovementOwner(eOldImprovementOwner);
+
 					if (GC.getImprovementInfo(getImprovementType()).getCultureControlStrength() > 0)
 					{
 						addCultureControl(eSpawnPlayer, getImprovementType(), 1);
