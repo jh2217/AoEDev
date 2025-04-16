@@ -19089,7 +19089,10 @@ CvPlot* CvUnit::getSpawnPlot() const
 }
 void CvUnit::setSpawnPlot(CvPlot* pPlot)
 {
-	if (pPlot->getImprovementType() != NO_IMPROVEMENT && getUnitType() == (UnitTypes)GC.getImprovementInfo(pPlot->getImprovementType()).getSpawnUnitType())
+	// Count guardians toward spawn; allows for a kinda-way to track if guardian is alive without more dedicated tracking
+	if (pPlot->getImprovementType() != NO_IMPROVEMENT 
+	 && (getUnitType() == (UnitTypes)GC.getImprovementInfo(pPlot->getImprovementType()).getSpawnUnitType()
+	  || getUnitType() == (UnitTypes)GC.getImprovementInfo(pPlot->getImprovementType()).getImmediateSpawnUnitType()))
 	{
 		pPlot->changeNumSpawnsAlive(1);
 		setSpawnImprovementType(pPlot->getImprovementType());

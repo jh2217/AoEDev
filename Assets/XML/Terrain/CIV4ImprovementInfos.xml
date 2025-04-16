@@ -1979,7 +1979,7 @@
 			<iAppearanceProbability>60</iAppearanceProbability>
 			<ImprovementUpgrade>IMPROVEMENT_BANDIT_HIDEOUT</ImprovementUpgrade>
 			<SpawnUnitType>UNIT_BANDIT</SpawnUnitType>
-			<ImmediateSpawnUnitType>UNIT_BANDIT_CHIEF</ImmediateSpawnUnitType>
+			<ImmediateSpawnUnitType>UNIT_BANDIT_CHIEF</ImmediateSpawnUnitType> <!-- Counts toward the spawnAtOnceLimit -->
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<iSpawnAtOnceLimit>3</iSpawnAtOnceLimit>
@@ -2642,7 +2642,7 @@
 			<SpawnUnitType>UNIT_DIAKONOS</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ANIMAL</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
-			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
 			<bExplorable>1</bExplorable>
 			<iLairTier>3</iLairTier>
 			<GoodyClasses>

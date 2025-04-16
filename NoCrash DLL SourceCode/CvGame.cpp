@@ -10732,7 +10732,7 @@ void CvGame::createLairs()
 		return;
 	}
 	// Some randomization in lair cycle length
-	setNextLairCycle(getGameTurn() + 11 * iLairCycleLength / 10 - getSorenRandNum(iLairCycleLength/5, "~10% Randomization in cycle length"));
+	setNextLairCycle(getGameTurn() + 11 * iLairCycleLength / 10 - getSorenRandNum(iLairCycleLength/5, "~ +-10% Randomization in cycle length"));
 
 	iGoal = GC.getWorldInfo(GC.getMapINLINE().getWorldSize()).getDefaultPlayers();
 	if (iGoal <= 0) return;

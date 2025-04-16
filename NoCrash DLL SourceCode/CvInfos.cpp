@@ -31889,8 +31889,8 @@ bool CvImprovementInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bRequiresPeak, "bRequiresPeak");
 	pXML->GetChildXmlValByName(&m_bUnique, "bUnique");
 	pXML->GetChildXmlValByName(&m_iAppearanceProbability, "iAppearanceProbability");
-	pXML->GetChildXmlValByName(&m_iSpawnUnitChancePercentMod, "iSpawnUnitChancePercentMod");
-	pXML->GetChildXmlValByName(&m_iSpawnGroupChancePercentMod, "iSpawnGroupChancePercentMod");
+	pXML->GetChildXmlValByName(&m_iSpawnUnitChancePercentMod, "iSpawnUnitChancePercentMod", 100);
+	pXML->GetChildXmlValByName(&m_iSpawnGroupChancePercentMod, "iSpawnGroupChancePercentMod", 100);
 	pXML->GetChildXmlValByName(&m_iHealRateChange, "iHealRateChange");
 	pXML->GetChildXmlValByName(&m_iRange, "iRange");
 	pXML->GetChildXmlValByName(&m_iRangeDefenseModifier, "iRangeDefenseModifier");

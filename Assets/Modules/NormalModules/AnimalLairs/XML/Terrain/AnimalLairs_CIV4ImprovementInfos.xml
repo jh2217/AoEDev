@@ -240,7 +240,7 @@
 			<SpawnUnitType>UNIT_HIPPOGRIFF</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ANIMAL</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
-			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
 			<iLairCreationWeight>20</iLairCreationWeight>
 			<bExplorable>1</bExplorable>
 			<iLairTier>1</iLairTier>
@@ -286,7 +286,7 @@
 			<SpawnUnitType>UNIT_GRIFFON</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ANIMAL</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
-			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
 			<bExplorable>1</bExplorable>
 			<iLairTier>2</iLairTier>
 			<GoodyClasses>
@@ -377,7 +377,7 @@
 			<SpawnUnitType>UNIT_ROC</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ANIMAL</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
-			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
 			<bExplorable>1</bExplorable>
 			<iLairTier>3</iLairTier>
 			<GoodyClasses>

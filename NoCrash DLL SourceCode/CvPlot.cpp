@@ -838,7 +838,7 @@ void CvPlot::doLairSpawn()
 
 	bool bValid = false;
 	int iCiv = GC.getImprovementInfo(getImprovementType()).getSpawnUnitCiv();
-	PlayerTypes eSpawnPlayer=NO_PLAYER;
+	PlayerTypes eSpawnPlayer = NO_PLAYER;
 
 	// 3rd check: Barb OK if A) not set bSpawnOnlyForOwner, B) tile is unowned, or C) tile is owned by someone not at war with the spawner civ
 	if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && !GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
@@ -905,7 +905,7 @@ void CvPlot::doLairSpawn()
 
 	// Starting chance
 	int iBaseChance = GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getLairSpawnChance();
-	bool bMissingGuard = getNumSpawnsAlive() == 0;
+	bool bMissingGuard = (getNumSpawnsAlive() == 0);
 	// Check for spawn unit
 	if (iUnit != NO_UNIT
 	 && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iBaseChance * GC.getImprovementInfo(getImprovementType()).getSpawnUnitChancePercentMod() * (1 + bMissingGuard))

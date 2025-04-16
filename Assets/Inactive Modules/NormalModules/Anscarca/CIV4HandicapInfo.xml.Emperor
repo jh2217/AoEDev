@@ -31,8 +31,8 @@
 			<iAttitudeChange>-1</iAttitudeChange>
 			<iNoTechTradeModifier>40</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
-			<iTilesPerAnimal>10</iTilesPerAnimal>
-			<iTilesPerOrc>15</iTilesPerOrc>
+			<iTilesPerAnimal>20</iTilesPerAnimal>
+			<iTilesPerOrc>30</iTilesPerOrc>
 			<iWaterTilesPerOrc>100</iWaterTilesPerOrc>
 			<iUnownedTilesPerBarbarianCity>42</iUnownedTilesPerBarbarianCity>
 			<iBarbarianCreationTurnsElapsed>20</iBarbarianCreationTurnsElapsed>

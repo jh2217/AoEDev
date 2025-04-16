@@ -75,7 +75,7 @@
 				</GameTurnInfo>
 			</GameTurnInfos>
 			<iLairSpawnChance>7</iLairSpawnChance>
-			<iTurnsPerLairCycle>15</iTurnsPerLairCycle>
+			<iTurnsPerLairCycle>22</iTurnsPerLairCycle>
 		</GameSpeedInfo>
 		<GameSpeedInfo>
 			<Type>GAMESPEED_NORMAL</Type>
@@ -110,7 +110,7 @@
 				</GameTurnInfo>
 			</GameTurnInfos>
 			<iLairSpawnChance>10</iLairSpawnChance>
-			<iTurnsPerLairCycle>10</iTurnsPerLairCycle>
+			<iTurnsPerLairCycle>15</iTurnsPerLairCycle>
 		</GameSpeedInfo>
 		<GameSpeedInfo>
 			<Type>GAMESPEED_QUICK</Type>
@@ -145,7 +145,7 @@
 				</GameTurnInfo>
 			</GameTurnInfos>
 			<iLairSpawnChance>15</iLairSpawnChance>
-			<iTurnsPerLairCycle>7</iTurnsPerLairCycle>
+			<iTurnsPerLairCycle>10</iTurnsPerLairCycle>
 		</GameSpeedInfo>
 	</GameSpeedInfos>
 </Civ4GameSpeedInfo>
