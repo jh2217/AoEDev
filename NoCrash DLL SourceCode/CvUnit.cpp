@@ -32865,7 +32865,7 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 		return false;
 
 	// Barbs can't claim unowned naval forts.
-	else if (isBarbarian() && pPlot->isWater())
+	else if (isBarbarian() && pPlot->isWater() && !pPlot->isOwned())
 		return false;
 
 	// Can't set up commander if adjacent enemy combatants

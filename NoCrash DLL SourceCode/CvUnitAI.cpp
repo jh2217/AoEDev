@@ -28909,7 +28909,7 @@ bool CvUnitAI::AI_canClaimFort(CvPlot* pPlot)
 		return false;
 
 	// Barbs can't claim unowned naval forts.
-	else if (isBarbarian() && pPlot->isWater())
+	else if (isBarbarian() && pPlot->isWater() && !pPlot->isOwned())
 		return false;
 
 	// If we don't think there's an owner, go for it
