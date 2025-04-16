@@ -10574,7 +10574,7 @@
 			<bAllowAI>1</bAllowAI>
 			<bHasCasted>1</bHasCasted>
 			<PyRequirement>reqEnslaveWorker(pCaster)</PyRequirement>
-			<PyResult>spellSlugaCreation(pCaster, 2)</PyResult>
+            <ConvertUnitType>UNIT_SLAVE</ConvertUnitType>
 			<Effect>EFFECT_SPELL1</Effect>
 			<Sound>AS3D_SPELL_SPRING</Sound>
 			<Button>Art/Interface/Buttons/Promotions/Held.dds</Button>
@@ -10586,6 +10586,9 @@
 			<BuildingPrereq>BUILDING_SHAPER_CABAL</BuildingPrereq>
 			<UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
+			</PrereqTraits>
 			<bInCityOnly>1</bInCityOnly>
 			<bAllowAI>1</bAllowAI>
 			<bHasCasted>1</bHasCasted>
@@ -10654,6 +10657,9 @@
 			<BuildingPrereq>BUILDING_SHAPER_CABAL</BuildingPrereq>
 			<UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
+			</PrereqTraits>
 			<bInCityOnly>1</bInCityOnly>
 			<bAllowAI>1</bAllowAI>
 			<bHasCasted>1</bHasCasted>
@@ -11055,6 +11061,9 @@
 			<Description>TXT_KEY_SPELL_SHAPER_EXPERIMENTS</Description>
 			<Strategy>TXT_KEY_SPELL_SHAPER_EXPERIMENTS_STRATEGY</Strategy>
 			<PromotionPrereq1>PROMOTION_MEKARA_RITUALIST</PromotionPrereq1>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
+			</PrereqTraits>
 			<Help>TXT_KEY_SPELL_SHAPER_EXPERIMENTS_HELP</Help>
 			<UnitInStackPrereq>UNIT_SLAVE</UnitInStackPrereq>
 			<bInCityOnly>1</bInCityOnly>

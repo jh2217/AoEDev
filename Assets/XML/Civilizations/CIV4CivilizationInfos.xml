@@ -8177,14 +8177,6 @@
 					<UnitType>UNIT_OVERSEER_V2</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_COMBAT_OVERSEER_V2</UnitClassType>
-					<UnitType>UNIT_COMBAT_OVERSEER_V2</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_WAR_SLUGA_V2</UnitClassType>
-					<UnitType>UNIT_WAR_SLUGA_V2</UnitType>
-				</Unit>
-				<Unit>
 					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
 					<UnitType>UNIT_MOUNTED_MILITIA</UnitType>
 				</Unit>
@@ -8195,6 +8187,10 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
 					<UnitType>UNIT_CONSCRIPT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+					<UnitType>UNIT_MILITIA_CROSSBOWMAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_FORT_COMMANDER</UnitClassType>
