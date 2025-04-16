@@ -28445,12 +28445,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MILITIA_SWORDSMAN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_MILITIA</PromotionType>
-					<iNumApplied>1</iNumApplied>
-				</FreePromotion>
-			</FreePromotions>
 			<iCombatDefense>3</iCombatDefense>
 			<iTier>2</iTier>
 			<iWeaponTierMax>2</iWeaponTierMax>
@@ -28556,12 +28550,6 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_MILITIA_CROSSBOWMAN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_MILITIA</PromotionType>
-					<iNumApplied>1</iNumApplied>
-				</FreePromotion>
-			</FreePromotions>
 			<FormationType>FORMATION_TYPE_RANGED</FormationType>
 			<iCombatDefense>5</iCombatDefense>
 			<iDefensiveStrikeChance>20</iDefensiveStrikeChance>

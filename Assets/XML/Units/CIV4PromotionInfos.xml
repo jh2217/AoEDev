@@ -32611,16 +32611,12 @@
 		<PromotionInfo>		<!-- Militia -->
 			<Type>PROMOTION_MILITIA</Type>
 			<Description>TXT_KEY_UNIT_MILITIA</Description>
-			<bAutoAcquire>1</bAutoAcquire>
-			<bMustMaintain>1</bMustMaintain>
-			<bNoXP>1</bNoXP>
 			<PrereqCivilizations>
 				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
 			</PrereqCivilizations>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_MILITIA</PrereqUnit>
-				<PrereqUnit>UNIT_MILITIA_CROSSBOWMAN</PrereqUnit>
-			</PrereqUnits>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_HUMANIST1</PrereqTrait>
+			</PrereqTraits>
 			<bFreeUnit>1</bFreeUnit>
 			<iCombatPercent>-10</iCombatPercent>
 			<UnitCombats/>
@@ -34431,6 +34427,7 @@
 			<Button>Art/Civs/Mekara/spells/Ascension.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionExcludes>
+			    <Promotion>PROMOTION_MILITIA</Promotion>
 				<Promotion>PROMOTION_MUTATED</Promotion>
 				<Promotion>PROMOTION_WITHERED</Promotion>
 				<Promotion>PROMOTION_POISONED</Promotion>
@@ -34450,6 +34447,7 @@
 			<bNoXP>1</bNoXP>
 			<iCollateralDamageProtection>20</iCollateralDamageProtection>
 			<PromotionExcludes>
+			    <Promotion>PROMOTION_MILITIA</Promotion>
 				<Promotion>PROMOTION_DISEASED</Promotion>
 				<Promotion>PROMOTION_PLAGUED</Promotion>
 				<Promotion>PROMOTION_BLACKBLOOD</Promotion>
