@@ -3952,14 +3952,14 @@ class CvEventManager:
 					if randNum(100, "Aspect") < 5:
 						setPromo(gc.getInfoTypeForString('PROMOTION_ASPECT_OF_WAR_MAHON'),True)
 						game.setGlobalFlag(gc.getInfoTypeForString('FLAG_ASPECT_OF_WAR_MAHON'),True)
-		# mekara start - Handles wipes of XP from units converted to sluga
-		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MEKARA'):
-			if iUnitType == gc.getInfoTypeForString('UNIT_SLUGA') or iUnitType == gc.getInfoTypeForString('UNIT_BATTLE_SLUGA'):
-				for iPromotion in xrange(gc.getNumPromotionInfos()):
-					if pUnit.isHasPromotion(iPromotion) and not pUnit.canAcquirePromotion(iPromotion):
-						CvUtil.pyPrint('Mekara promotion event: %s - %s' %(gc.getPromotionInfo(iPromotion).getDescription(), pUnit.getName(),))
-						pUnit.setHasPromotion(iPromotion,False)
-				pUnit.setExperience(0.,0)	
+#		# mekara start - Handles wipes of XP from units converted to sluga
+#		if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MEKARA'):
+#			if iUnitType == gc.getInfoTypeForString('UNIT_SLUGA') or iUnitType == gc.getInfoTypeForString('UNIT_BATTLE_SLUGA'):
+#				for iPromotion in xrange(gc.getNumPromotionInfos()):
+#off					if pUnit.isHasPromotion(iPromotion) and not pUnit.canAcquirePromotion(iPromotion):
+#for						CvUtil.pyPrint('Mekara promotion event: %s - %s' %(gc.getPromotionInfo(iPromotion).getDescription(), pUnit.getName(),))
+#now						pUnit.setHasPromotion(iPromotion,False)
+#				pUnit.setExperience(0.,0)	
 			#	newUnit = pPlayer.initUnit(iUnitType, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 			#	pUnit.kill(True, 0)
 
@@ -4301,11 +4301,11 @@ class CvEventManager:
 				setPromo( Generic["Eastwinds"], True)
 
 # Mekara Start - Makes sure sluga start without XP or promotions
-		if pPlayer.getCivilizationType() == Civ["Mekara Order"]:
-			if iUnitType == gc.getInfoTypeForString('UNIT_SLUGA') or iUnitType == gc.getInfoTypeForString('UNIT_BATTLE_SLUGA'):
-				newUnit = pPlayer.initUnit(iUnitType, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-				pUnit.kill(True, 0)
-
+#		if pPlayer.getCivilizationType() == Civ["Mekara Order"]:
+#			if iUnitType == gc.getInfoTypeForString('UNIT_SLUGA') or iUnitType == gc.getInfoTypeForString('UNIT_BATTLE_SLUGA'):
+#				newUnit = pPlayer.initUnit(iUnitType, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+#				pUnit.kill(True, 0)
+#Disabled for now
 
 		if iUnitType == gc.getInfoTypeForString("UNIT_KAHD"):
 			if(hasTrait(gc.getInfoTypeForString("TRAIT_KAHD_MAMMON"))):
