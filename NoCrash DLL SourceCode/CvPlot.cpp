@@ -916,7 +916,7 @@ void CvPlot::doLairSpawn()
 			iUnit = GC.getImprovementInfo(getImprovementType()).getImmediateSpawnUnitType();
 		}
 
-		CvUnit* pUnit=GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), UNITAI_ATTACK);
+		CvUnit* pUnit=GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), (bMissingGuard ? NO_UNITAI: UNITAI_ATTACK));
 
 		if (bMissingGuard && GC.getImprovementInfo(getImprovementType()).getNumGuardianPromotions() > 0)
 		{
