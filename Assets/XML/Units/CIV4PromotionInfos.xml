@@ -34663,6 +34663,9 @@
 				<Promotion>PROMOTION_COM_OVERSEER_STONESKIN_UNIT_V2</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT_V2</Promotion>
 				<Promotion>PROMOTION_KARAS_SLUGA_MASTER_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_SCORCH_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_SPRING_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_BLOOM_UNIT_V2</Promotion>
 			</PromotionAllows>
 			<CommanderPromotions>
 				<PromotionType>PROMOTION_SLUGA_PSIONIC_LINK_V2</PromotionType>
