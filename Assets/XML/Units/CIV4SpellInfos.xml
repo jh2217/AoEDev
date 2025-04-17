@@ -10546,9 +10546,9 @@
 		</SpellInfo>
 		<SpellInfo>			<!-- Regeneration MEKARA --> 		<!-- MEKARA BATTLE SPELLS -->
 			<Type>SPELL_REGENERATION_MEKARA_V2</Type>
-			<Description>TXT_KEY_SPELL_REGENERATION_MEKARA_V2</Description>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Description>
 			<Civilopedia>TXT_KEY_SPELL_REGENERATION_PEDIA</Civilopedia>
-			<Help>TXT_KEY_SPELL_REGENERATION_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_HELP</Help>
 			<SpellClasses>
 				<SpellClass>
 					<SpellClassType>SPELLCLASS_BODY</SpellClassType>
@@ -10574,8 +10574,9 @@
 		</SpellInfo>
 		<SpellInfo>			<!-- Stoneskin MEKARA -->
 			<Type>SPELL_STONESKIN_MEKARA</Type>
-			<Description>TXT_KEY_SPELL_STONESKIN_MEKARA</Description>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Description>
 			<Civilopedia>TXT_KEY_SPELL_STONESKIN_PEDIA</Civilopedia>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_HELP</Help>
 			<SpellClasses>
 				<SpellClass>
 					<SpellClassType>SPELLCLASS_EARTH</SpellClassType>
@@ -10601,8 +10602,9 @@
 		</SpellInfo>
 		<SpellInfo>			<!--  Maelstrom MEKARA -->
 			<Type>SPELL_MAELSTROM_MEKARA1</Type>
-			<Description>TXT_KEY_SPELL_MAELSTROM_MEKARA1</Description>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM</Description>
 			<Civilopedia>TXT_KEY_SPELL_MAELSTROM_PEDIA</Civilopedia>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Help>
 			<SpellClasses>
 				<SpellClass>
 					<SpellClassType>SPELLCLASS_AIR</SpellClassType>

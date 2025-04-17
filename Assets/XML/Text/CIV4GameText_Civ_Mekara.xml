@@ -2041,13 +2041,29 @@
 		<Italian>Overseer Spell Spring</Italian>
 		<Spanish>Overseer Spell Spring</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Help --> <!-- New Overseer Promotions Start -->
+	<TEXT>	<!-- Overseer Combat/Command -->                 <!-- New Overseer Promotions Start -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER</Tag>
+		<English>Overseer Command</English>
+		<French>Overseer Command</French>
+		<German>Overseer Command</German>
+		<Italian>Overseer Command</Italian>
+		<Spanish>Overseer Command</Spanish>
+	</TEXT>
+	<TEXT>	<!-- Overseer Combat/Commanded --> 
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_UNIT</Tag>
+		<English>Overseer Commanded</English>
+		<French>Overseer Commanded</French>
+		<German>Overseer Commanded</German>
+		<Italian>Overseer Commanded</Italian>
+		<Spanish>Overseer Commanded</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Help --> 
 		<Tag>TXT_KEY_UNIT_COM_OVERSEER_HELP</Tag>
-		<English>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength and cast some Overseer spells[ICON_BULLET] Improves commanded Slaves Workrate[ICON_BULLET] Also unlocks further Overseer Promotions for Commanders</English>
-		<French>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength and cast some Overseer spells[ICON_BULLET] Improves commanded Slaves Workrate[ICON_BULLET] Also unlocks further Overseer Promotions for Commanders</French>
-		<German>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength and cast some Overseer spells[ICON_BULLET] Improves commanded Slaves Workrate[ICON_BULLET] Also unlocks further Overseer Promotions for Commanders</German>
-		<Italian>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength and cast some Overseer spells[ICON_BULLET] Improves commanded Slaves Workrate[ICON_BULLET] Also unlocks further Overseer Promotions for Commanders</Italian>
-		<Spanish>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength and cast some Overseer spells[ICON_BULLET] Improves commanded Slaves Workrate[ICON_BULLET] Also unlocks further Overseer Promotions for Commanders</Spanish>
+		<English>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength, and cast some Overseer spells[NEWLINE][ICON_BULLET] Improves commanded Slaves Workrate[NEWLINE][ICON_BULLET]Unlocks further Overseer Promotions for Commanders</English>
+		<French>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength, and cast some Overseer spells[NEWLINE][ICON_BULLET] Improves commanded Slaves Workrate[NEWLINE][ICON_BULLET]Unlocks further Overseer Promotions for Commanders</French>
+		<German>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength, and cast some Overseer spells[NEWLINE][ICON_BULLET] Improves commanded Slaves Workrate[NEWLINE][ICON_BULLET]Unlocks further Overseer Promotions for Commanders</German>
+		<Italian>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength, and cast some Overseer spells[NEWLINE][ICON_BULLET] Improves commanded Slaves Workrate[NEWLINE][ICON_BULLET]Unlocks further Overseer Promotions for Commanders</Italian>
+		<Spanish>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength, and cast some Overseer spells[NEWLINE][ICON_BULLET] Improves commanded Slaves Workrate[NEWLINE][ICON_BULLET]Unlocks further Overseer Promotions for Commanders</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Close Combat Training -->                    
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC</Tag>
@@ -2057,7 +2073,15 @@
 		<Italian>Overseer Control Training</Italian>
 		<Spanish>Overseer Control Training</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Close Combat Training, Help -->
+	<TEXT>  <!-- Sluga, Control Training -->                    
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC_UNIT</Tag>
+		<English>Sluga Control Training</English>
+		<French>Sluga Control Training</French>
+		<German>Sluga Control Training</German>
+		<Italian>Sluga Control Training</Italian>
+		<Spanish>Sluga Control Training</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training, Help -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate </English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate </French>
@@ -2065,15 +2089,23 @@
 		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate </Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate </Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill I -->
+	<TEXT>  <!-- Overseer, Control Training I -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1</Tag>
-		<English>Control I</English>
-		<French>Control I</French>
-		<German>Control I</German>
-		<Italian>Control I</Italian>
-		<Spanish>Control I</Spanish>
+		<English>Overseer Control I</English>
+		<French>Overseer Control I</French>
+		<German>Overseer Control I</German>
+		<Italian>Overseer Control I</Italian>
+		<Spanish>Overseer Control I</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill I, Help -->
+	<TEXT>  <!-- Sluga, Control Training I -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1_UNIT</Tag>
+		<English>Sluga Control I</English>
+		<French>Sluga Control I</French>
+		<German>Sluga Control I</German>
+		<Italian>Sluga Control I</Italian>
+		<Spanish>Sluga Control I</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training I, Help -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Extra First Strike[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Extra First Strike[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</French>
@@ -2081,15 +2113,23 @@
 		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Extra First Strike[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Extra First Strike[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill II -->
+	<TEXT>  <!-- Overseer, Control Training II -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2</Tag>
-		<English>Control II</English>
-		<French>Control II</French>
-		<German>Control II</German>
-		<Italian>Control II</Italian>
-		<Spanish>Control II</Spanish>
+		<English>Overseer Control II</English>
+		<French>Overseer Control II</French>
+		<German>Overseer Control II</German>
+		<Italian>Overseer Control II</Italian>
+		<Spanish>Overseer Control II</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill II, Help -->
+	<TEXT>  <!-- Sluga, Control Training II -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_UNIT</Tag>
+		<English>Sluga Control II</English>
+		<French>Sluga Control II</French>
+		<German>Sluga Control II</German>
+		<Italian>Sluga Control II</Italian>
+		<Spanish>Sluga Control II</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training II, Help -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</French>
@@ -2097,15 +2137,23 @@
 		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill III -->
+	<TEXT>  <!-- Overseer, Control Training Drill III -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_3</Tag>
-		<English>Control III</English>
-		<French>Control III</French>
-		<German>Control III</German>
-		<Italian>Control III</Italian>
-		<Spanish>Control III</Spanish>
+		<English>Overseer Control III</English>
+		<French>Overseer Control III</French>
+		<German>Overseer Control III</German>
+		<Italian>Overseer Control III</Italian>
+		<Spanish>Overseer Control III</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill III, Help -->
+	<TEXT>  <!-- Sluga, Control Training Drill III -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_3_UNIT</Tag>
+		<English>Sluga Control III</English>
+		<French>Sluga Control III</French>
+		<German>Sluga Control III</German>
+		<Italian>Sluga Control III</Italian>
+		<Spanish>Sluga Control III</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training III, Help -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][ICON_BULLET]+20% vs Mounted units[NEWLINE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][ICON_BULLET]+20% vs Mounted units[NEWLINE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</French>
@@ -2113,13 +2161,21 @@
 		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][ICON_BULLET]+20% vs Mounted units[NEWLINE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][ICON_BULLET]+20% vs Mounted units[NEWLINE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Close Combat Mastery -->
+	<TEXT>  <!-- Overseer, Control Training Mastery -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER</Tag>
-		<English>Control Mastery</English>
-		<French>Control Mastery</French>
-		<German>Control Mastery</German>
-		<Italian>Control Mastery</Italian>
-		<Spanish>Control Mastery</Spanish>
+		<English>Overseer Control Mastery</English>
+		<French>Overseer Control Mastery</French>
+		<German>Overseer Control Mastery</German>
+		<Italian>Overseer Control Mastery</Italian>
+		<Spanish>Overseer Control Mastery</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Control Training Mastery -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER_UNIT</Tag>
+		<English>Sluga Control Mastery</English>
+		<French>Sluga Control Mastery</French>
+		<German>Sluga Control Mastery</German>
+		<Italian>Sluga Control Mastery</Italian>
+		<Spanish>Sluga Control Mastery</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Close Combat Mastery, Help -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER_HELP</Tag>
@@ -2129,85 +2185,125 @@
 		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Attack Strength[NEWLINE][ICON_BULLET]+2 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Attack Strength[NEWLINE][ICON_BULLET]+2 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Training -->
+	<TEXT>  <!-- Overseer, Precision Training -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC</Tag>
-		<English>Precision Training</English>
-		<French>Precision Training</French>
-		<German>Precision Training</German>
-		<Italian>Precision Training</Italian>
-		<Spanish>Precision Training</Spanish>
+		<English>Overseer Precision Training</English>
+		<French>Overseer Precision Training</French>
+		<German>Overseer Precision Training</German>
+		<Italian>Overseer Precision Training</Italian>
+		<Spanish>Overseer Precision Training</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Precision Training -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</Tag>
+		<English>Sluga Precision Training</English>
+		<French>Sluga Precision Training</French>
+		<German>Sluga Precision Training</German>
+		<Italian>Sluga Precision Training</Italian>
+		<Spanish>Sluga Precision Training</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Ranged Training, Help -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC_HELP</Tag>
-		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</English>
-		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</French>
-		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</German>
-		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</Italian>
-		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</Spanish>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise I -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_1</Tag>
-		<English>Precision I</English>
-		<French>Precision I</French>
-		<German>Precision I</German>
-		<Italian>Precision I</Italian>
-		<Spanish>Precision I</Spanish>
+	<TEXT>  <!-- Overseer, Precision  I -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1</Tag>
+		<English>Overseer Precision I</English>
+		<French>Overseer Precision I</French>
+		<German>Overseer Precision I</German>
+		<Italian>Overseer Precision I</Italian>
+		<Spanish>Overseer Precision I</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise I, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_1_HELP</Tag>
-		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</English>
-		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</French>
-		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</German>
-		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</Italian>
-		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</Spanish>
+	<TEXT>  <!-- Sluga, Precision  I -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1_UNIT</Tag>
+		<English>Sluga Precision I</English>
+		<French>Sluga Precision I</French>
+		<German>Sluga Precision I</German>
+		<Italian>Sluga Precision I</Italian>
+		<Spanish>Sluga Precision I</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise II -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_2</Tag>
-		<English>Precision II</English>
-		<French>Precision II</French>
-		<German>Precision II</German>
-		<Italian>Precision II</Italian>
-		<Spanish>Precision II</Spanish>
+	<TEXT>  <!-- Overseer, Precision I, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise II, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_2_HELP</Tag>
-		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</English>
-		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</French>
-		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</German>
-		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</Italian>
-		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</Spanish>
+	<TEXT>  <!-- Overseer, Precision  II -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2</Tag>
+		<English>Overseer Precision II</English>
+		<French>Overseer Precision II</French>
+		<German>Overseer Precision II</German>
+		<Italian>Overseer Precision II</Italian>
+		<Spanish>Overseer Precision II</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise III -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_3</Tag>
-		<English>Precision III</English>
-		<French>Precision III</French>
-		<German>Precision III</German>
-		<Italian>Precision III</Italian>
-		<Spanish>Precision III</Spanish>
+	<TEXT>  <!-- Sluga, Precision  II -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2_UNIT</Tag>
+		<English>Sluga Precision II</English>
+		<French>Sluga Precision II</French>
+		<German>Sluga Precision II</German>
+		<Italian>Sluga Precision II</Italian>
+		<Spanish>Sluga Precision II</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision  II, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision  III -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3</Tag>
+		<English>Overseer Precision III</English>
+		<French>Overseer Precision III</French>
+		<German>Overseer Precision III</German>
+		<Italian>Overseer Precision III</Italian>
+		<Spanish>Overseer Precision III</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Precision  III -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3_UNIT</Tag>
+		<English>Sluga Precision III</English>
+		<French>Sluga Precision III</French>
+		<German>Sluga Precision III</German>
+		<Italian>Sluga Precision III</Italian>
+		<Spanish>Sluga Precision III</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Ranged Expertise III, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_3_HELP</Tag>
-		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</English>
-		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</French>
-		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</German>
-		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</Italian>
-		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</Spanish>
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Mastery -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_MASTER</Tag>
-		<English>Precision Mastery</English>
-		<French>Precision Mastery</French>
-		<German>Precision Mastery</German>
-		<Italian>Precision Mastery</Italian>
-		<Spanish>Precision Mastery</Spanish>
+	<TEXT>  <!-- Overseer, Precision Mastery -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER</Tag>
+		<English>Overseer Precision Mastery</English>
+		<French>Overseer Precision Mastery</French>
+		<German>Overseer Precision Mastery</German>
+		<Italian>Overseer Precision Mastery</Italian>
+		<Spanish>Overseer Precision Mastery</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision Mastery Unit -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</Tag>
+		<English>Sluga Precision Mastery</English>
+		<French>Sluga Precision Mastery</French>
+		<German>Sluga Precision Mastery</German>
+		<Italian>Sluga Precision Mastery</Italian>
+		<Spanish>Sluga Precision Mastery</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Ranged Mastery, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_MASTER_HELP</Tag>
-		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</English>
-		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</French>
-		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</German>
-		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</Italian>
-		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10%</Spanish>
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Spanish>
 	</TEXT>
 	<TEXT> <!-- Combat Overseer, Celerity -->
 		<Tag>TXT_KEY_PROMOTION_CELERITY1_OVERSEER</Tag>
@@ -2265,6 +2361,14 @@
 		<Italian>Overseer March</Italian>
 		<Spanish>Overseer March</Spanish>
 	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Sustained Regeneration -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2_HELP</Tag>
+		<English>Grants Slugas 10% recovery in hostile lands per turn, and the ability to heal while moving</English>
+		<French>Grants Slugas 10% recovery in hostile lands per turn, and the ability to heal while moving</French>
+		<German>Grants Slugas 10% recovery in hostile lands per turn, and the ability to heal while moving</German>
+		<Italian>Grants Slugas 10% recovery in hostile lands per turn, and the ability to heal while moving</Italian>
+		<Spanish>Grants Slugas 10% recovery in hostile lands per turn, and the ability to heal while moving</Spanish>
+	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Stoneskin -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Tag>
 		<English>Overseer Spell Stoneskin</English>
@@ -2307,11 +2411,11 @@
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Maelstrom, Help -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Tag>
-		<English>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% damage total damage, and targets all units; allies included</English>
-		<French>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% damage total damage, and targets all units; allies included</French>
-		<German>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% damage total damage, and targets all units; allies included</German>
-		<Italian>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% damage total damage, and targets all units; allies included</Italian>
-		<Spanish>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% damage total damage, and targets all units; allies included</Spanish>
+		<English>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% total damage, and targets all units; allies included</English>
+		<French>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% total damage, and targets all units; allies included</French>
+		<German>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% total damage, and targets all units; allies included</German>
+		<Italian>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% total damage, and targets all units; allies included</Italian>
+		<Spanish>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% total damage, and targets all units; allies included</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Maelstrom, Casting -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Tag>

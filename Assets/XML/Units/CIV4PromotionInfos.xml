@@ -34528,7 +34528,7 @@
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Combat Overseer -->            <!-- Mekara OVERSEER V2 PROMOTION MERGE -->
 			<Type>PROMOTION_COM_OVERSEER_V2</Type>
-			<Description>TXT_KEY_UNIT_COM_OVERSEER</Description>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER</Description>
 			<Help>TXT_KEY_UNIT_COM_OVERSEER_HELP</Help>
 			<MinionPromotions>
 				<PromotionType>PROMOTION_COM_OVERSEER_SLUGA_V2</PromotionType>
@@ -34560,6 +34560,7 @@
 			<Type>PROMOTION_OVERSEER_UNIT_V2</Type>
 			<Description>TXT_KEY_UNIT_OVERSEER</Description>
 			<PrereqPermission>1</PrereqPermission>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SLAVE</PrereqUnit>
 				<PrereqUnit>UNIT_SLAVE_UNDEAD</PrereqUnit>
@@ -34570,7 +34571,7 @@
 		</PromotionInfo> 
 		<PromotionInfo>		<!-- Combat Overseer, Unit -->
 			<Type>PROMOTION_COM_OVERSEER_SLUGA_V2</Type>
-			<Description>TXT_KEY_UNIT_COM_OVERSEER</Description>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_UNIT</Description>
 			<PrereqPermission>1</PrereqPermission>
 			<iWorkRateModify>30</iWorkRateModify>
 			<PrereqUnits>
@@ -34891,7 +34892,7 @@
 		<PromotionInfo>		<!-- Overseer Control I -->
 			<Type>PROMOTION_OVERSEER_CONTROL_1</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_1_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1_HELP</Help>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_OVERSEER_CONTROL_BASIC</PromotionType>
@@ -34933,7 +34934,7 @@
 		<PromotionInfo>		<!-- Overseer Control II -->
 			<Type>PROMOTION_OVERSEER_CONTROL_2</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_2_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_HELP</Help>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_OVERSEER_CONTROL_1</PromotionType>
@@ -34975,7 +34976,7 @@
 		<PromotionInfo>		<!-- Overseer Control III -->
 			<Type>PROMOTION_OVERSEER_CONTROL_3</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_3</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_3_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_CONTROL_3_HELP</Help>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_OVERSEER_CONTROL_2</PromotionType>
@@ -35018,7 +35019,7 @@
 		<PromotionInfo>		<!-- Overseer Control Mastery -->
 			<Type>PROMOTION_OVERSEER_CONTROL_MASTER</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_MASTER_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER_HELP</Help>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_OVERSEER_CONTROL_3</PromotionType>
@@ -35054,7 +35055,7 @@
 		<PromotionInfo>		<!-- Overseer Precision Training -->
 			<Type>PROMOTION_OVERSEER_PRECISION_BASIC</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_BASIC_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC_HELP</Help>
 			<MinionPromotions>
 				<PromotionType>PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</PromotionType>
 				<PromotionType>PROMOTION_SKILLED_OVERSEER1_UNIT_V2</PromotionType>
@@ -35064,7 +35065,7 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedTraining.dds</Button>
 			<PromotionNextLevel>PROMOTION_OVERSEER_PRECISION_1</PromotionNextLevel>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Overseer Precision, Unit -->
+		<PromotionInfo>		<!-- Overseer Precision Training, Unit -->
 			<Type>PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</Description>
 			<PrereqPermission>1</PrereqPermission>
@@ -35086,7 +35087,7 @@
 		<PromotionInfo>		<!-- Overseer Precision I -->
 			<Type>PROMOTION_OVERSEER_PRECISION_1</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_1_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1_HELP</Help>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_OVERSEER_PRECISION_BASIC</PromotionType>
@@ -35124,7 +35125,7 @@
 		<PromotionInfo>		<!-- Overseer Precision II -->
 			<Type>PROMOTION_OVERSEER_PRECISION_2</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_2_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2_HELP</Help>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_OVERSEER_PRECISION_1</PromotionType>
@@ -35142,7 +35143,7 @@
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Overseer Precision II, Unit -->
 			<Type>PROMOTION_OVERSEER_PRECISION_2_UNIT</Type>
-			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2</Description>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2_UNIT</Description>
 			<PrereqPermission>1</PrereqPermission>
 			<iAirCombat>1</iAirCombat>
 			<iAirCombatLimitBoost>10</iAirCombatLimitBoost>
@@ -35161,7 +35162,7 @@
 		<PromotionInfo>		<!-- Overseer Precision III -->
 			<Type>PROMOTION_OVERSEER_PRECISION_3</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_3_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3_HELP</Help>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_OVERSEER_PRECISION_2</PromotionType>
@@ -35198,7 +35199,7 @@
 		<PromotionInfo>		<!-- Overseer Precision Mastery -->
 			<Type>PROMOTION_OVERSEER_PRECISION_MASTER</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_MASTER_HELP</Help>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER_HELP</Help>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_OVERSEER_PRECISION_3</PromotionType>
@@ -35303,8 +35304,8 @@
 		<PromotionInfo>		<!-- Regeneration, Unit -->
 			<Type>PROMOTION_COM_OVERSEER_REGENERATION_UNIT_V2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_HELP</Help>
 			<PrereqPermission>1</PrereqPermission>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
 				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
@@ -35316,6 +35317,7 @@
 		<PromotionInfo>		<!-- Sustained Regeneration -->
 			<Type>PROMOTION_COM_OVERSEER_REGENERATION2_V2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2</Description>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2_HELP</Help>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_COM_OVERSEER_REGENERATION_V2</PromotionType>
