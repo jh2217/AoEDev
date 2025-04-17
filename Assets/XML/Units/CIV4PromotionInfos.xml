@@ -34886,6 +34886,7 @@
 			<iExtraCombatStr>1</iExtraCombatStr>
 			<iExtraCombatDefense>1</iExtraCombatDefense>
 			<iWorkRateModify>40</iWorkRateModify>
+			<iCombatPercent>20</iCombatPercent>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Overseer Control I -->
 			<Type>PROMOTION_OVERSEER_CONTROL_1</Type>
@@ -34948,7 +34949,7 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat3.dds</Button>
 			<PromotionNextLevel>PROMOTION_OVERSEER_CONTROL_3</PromotionNextLevel>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Overseer Control, Unit -->
+		<PromotionInfo>		<!-- Overseer Control II, Unit -->
 			<Type>PROMOTION_OVERSEER_CONTROL_2_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_UNIT</Description>
 			<PrereqPermission>1</PrereqPermission>
@@ -35038,6 +35039,7 @@
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER_UNIT</Description>
 			<PrereqPermission>1</PrereqPermission>
 		    <iWorkRateModify>40</iWorkRateModify>
+			<iCombatPercent>20</iCombatPercent>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
 				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
@@ -35193,7 +35195,7 @@
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</PromotionNextLevel>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Overseer Precision -->
+		<PromotionInfo>		<!-- Overseer Precision Mastery -->
 			<Type>PROMOTION_OVERSEER_PRECISION_MASTER</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_MASTER_HELP</Help>
@@ -35212,7 +35214,7 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedMastery.dds</Button>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Overseer Precision, Unit -->
+		<PromotionInfo>		<!-- Overseer Precision Mastery, Unit -->
 			<Type>PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</Description>
 			<PrereqPermission>1</PrereqPermission>
