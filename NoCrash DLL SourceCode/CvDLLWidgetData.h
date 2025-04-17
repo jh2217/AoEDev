@@ -93,6 +93,7 @@ public:
 	void doPediaTerrainJump(CvWidgetDataStruct &widgetDataStruct);
 	void doPediaFeatureJump(CvWidgetDataStruct &widgetDataStruct);
 	void doPediaPlotEffectJump(CvWidgetDataStruct& widgetDataStruct);
+	void doPediaCityClassJump(CvWidgetDataStruct& widgetDataStruct);
 	void doPediaMain(CvWidgetDataStruct &widgetDataStruct);
 	void doPediaPromotionJump(CvWidgetDataStruct &widgetDataStruct);
 
