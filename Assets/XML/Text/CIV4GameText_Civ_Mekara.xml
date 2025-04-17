@@ -1421,14 +1421,6 @@
 		<Italian>Senza guida</Italian>
 		<Spanish>Leaderless</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Help -->
-		<Tag>TXT_KEY_UNIT_COM_OVERSEER_HELP</Tag>
-		<English>[ICON_BULLET]Allows commanded Battle Sluga to have combat strength</English>
-		<French>[ICON_BULLET]Allows commanded Battle Sluga to have combat strength</French>
-		<German>[ICON_BULLET]Erlaubt den befehligten Schlachtsluga die Bef&#246;rderung Kampfst&#228;rke</German>
-		<Italian>[ICON_BULLET]Permette agli Sluga da combattimento comandati di avere forza da combattimento</Italian>
-		<Spanish>[ICON_BULLET]Allows commanded Battle Sluga to have combat strength</Spanish>
-	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Close Combat Training -->                        <!-- Not Used -->                
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_BASIC</Tag>
 		<English>Close Combat Training</English>
@@ -1589,135 +1581,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]Aumenta l'Attacco a Distanza di +2[NEWLINE][SPACE][ICON_BULLET]Aumenta il limite di danno massimo a distanza del 15%</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 15%</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Celerity -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_CELERITY1</Tag>
-		<English>Celerity</English>
-		<French>Célérité</French>
-		<German>Celerity</German>
-		<Italian>Celerità</Italian>
-		<Spanish>Celerity</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_CELERITY1_OVERSEER</Tag>
-		<English>Celerity</English>
-		<French>Célérité</French>
-		<German>Celerity</German>
-		<Italian>Celerità</Italian>
-		<Spanish>Celerity</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Enhanced Celerity -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_CELERITY2</Tag>
-		<English>Enhanced Celerity</English>
-		<French>Célérité accrue</French>
-		<German>Enhanced Celerity</German>
-		<Italian>Celerità Migliorata</Italian>
-		<Spanish>Enhanced Celerity</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_CELERITY2_OVERSEER</Tag>
-		<English>Enhanced Celerity</English>
-		<French>Célérité accrue</French>
-		<German>Enhanced Celerity</German>
-		<Italian>Celerità Migliorata</Italian>
-		<Spanish>Enhanced Celerity</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Regeneration -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Tag>
-		<English>Regeneration</English>
-		<French>Regeneration</French>
-		<German>Regeneration</German>
-		<Italian>Rigenerazione</Italian>
-		<Spanish>Regeneration</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Regeneration, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_HELP</Tag>
-		<English>[ICON_BULLET]Allows you to cast a spell which applies the Regenerating promotion to all commanded Battle Sluga</English>
-		<French>[ICON_BULLET]Allows you to cast a spell which applies the Regenerating promotion to all commanded Battle Sluga</French>
-		<German>[ICON_BULLET]Erlaubt die magische &#252;bertragung der Regeneration Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
-		<Italian>[ICON_BULLET]Ti permette di lanciare una magia che applica la promozione Rigenerazione a tutti gli Sluga da Battaglia comandati</Italian>
-		<Spanish>[ICON_BULLET]Allows you to cast a spell which applies the Regenerating promotion to all commanded Battle Sluga</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Regeneration, Casting -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING</Tag>
-		<English>Cast 'Regeneration'</English>
-		<French>Cast 'Regeneration'</French>
-		<German>Zaubere 'Regeneration'</German>
-		<Italian>Lancia 'Rigenerazione'</Italian>
-		<Spanish>Cast 'Regeneration'</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Regeneration, Casting, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING_HELP</Tag>
-		<English>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</English>
-		<French>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</French>
-		<German>[ICON_BULLET]&#252;bertr&#228;gt die Regeneration Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
-		<Italian>[ICON_BULLET]Applica la promozione Rigenerazione a tutti gli Sluga da Battaglia comandati</Italian>
-		<Spanish>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Sustained Regeneration -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2</Tag>
-		<English>Sustained Regeneration</English>
-		<French>Sustained Regeneration</French>
-		<German>Anhaltende Regeneration</German>
-		<Italian>Rigenerazione Costante</Italian>
-		<Spanish>Sustained Regeneration</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Stoneskin -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Tag>
-		<English>Stoneskin</English>
-		<French>Stoneskin</French>
-		<German>Steinhaut</German>
-		<Italian>Pelle di Pietra</Italian>
-		<Spanish>Stoneskin</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Stoneskin, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_HELP</Tag>
-		<English>[ICON_BULLET]Allows you to cast a spell which applies the Stoneskin promotion to all commanded Battle Sluga</English>
-		<French>[ICON_BULLET]Allows you to cast a spell which applies the Stoneskin promotion to all commanded Battle Sluga</French>
-		<German>[ICON_BULLET]Erlaubt die magische &#252;bertragung der Steinhaut Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
-		<Italian>[ICON_BULLET]Ti permette di lanciare una magia che applica la promozione Pelle di Pietra a tutti gli Sluga da Battaglia comandati</Italian>
-		<Spanish>[ICON_BULLET]Allows you to cast a spell which applies the Stoneskin promotion to all commanded Battle Sluga</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Stoneskin, Casting -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING</Tag>
-		<English>Cast 'Stoneskin'</English>
-		<French>Cast 'Stoneskin'</French>
-		<German>Zaubere 'Steinhaut'</German>
-		<Italian>Lancia 'Pelle di Pietra'</Italian>
-		<Spanish>Cast 'Stoneskin'</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Stoneskin, Casting, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING_HELP</Tag>
-		<English>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</English>
-		<French>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</French>
-		<German>[ICON_BULLET]&#252;bertr&#228;gt die Steinhaut Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
-		<Italian>[ICON_BULLET]Applica la promozione Pelle di Pietra a tutti gli Sluga da Battaglia comandati</Italian>
-		<Spanish>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Maelstrom -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM</Tag>
-		<English>Maelstrom</English>
-		<French>Maelstrom</French>
-		<German>Mahlstrom</German>
-		<Italian>Maelstrom</Italian>
-		<Spanish>Maelstrom</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Maelstrom, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Tag>
-		<English>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 20% to 40% damage, and targets all units; allies included</English>
-		<French>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 20% to 40% damage, and targets all units; allies included</French>
-		<German>[ICON_BULLET]Erlaubt das Zaubern eine 1-Feld Version des 'Mahlstrom' Zaubers durch die befehligte Schlachtsluga[NEWLINE][ICON_BULLET]Macht 20% to 40% Schaden, trifft neben feindlichen auch verb&#252;ndete Einheiten</German>
-		<Italian>[ICON_BULLET]Ti permette di lanciare una versione che colpisce a 1 quadrato di distanza della magia 'Maelstrom' attraverso gli Sluga da Battaglia comandati[NEWLINE][ICON_BULLET]Fa tra il 20% e il 40% di danno e colpisce tutte le unità, alleati inclusi</Italian>
-		<Spanish>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 20% to 40% damage, and targets all units; allies included</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Maelstrom, Casting -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Tag>
-		<English>Cast 'Maelstrom'</English>
-		<French>Cast 'Maelstrom'</French>
-		<German>Zaubere 'Mahlstrom'</German>
-		<Italian>Lancia 'Maelstrom'</Italian>
-		<Spanish>Cast 'Maelstrom'</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom -->
+	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2</Tag>
 		<English>Controlled Maelstrom</English>
 		<French>Controlled Maelstrom</French>
@@ -1725,7 +1589,7 @@
 		<Italian>Maelstrom Controllato</Italian>
 		<Spanish>Controlled Maelstrom</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Help -->
+	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Help -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_HELP</Tag>
 		<English>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</English>
 		<French>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</French>
@@ -1733,7 +1597,7 @@
 		<Italian>[ICON_BULLET]Ti permette di lanciare una versione che colpisce a 1 quadrato di distanza della magia 'Maelstrom' attraverso gli Sluga da Battaglia comandati[NEWLINE][ICON_BULLET]Fa tra il 30% e il 60% di danno e colpisce solo i nemici</Italian>
 		<Spanish>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Casting -->
+	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Casting -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING</Tag>
 		<English>Cast 'Controlled Maelstrom'</English>
 		<French>Cast 'Controlled Maelstrom'</French>
@@ -1741,7 +1605,7 @@
 		<Italian>Lancia 'Maelstrom Controllato'</Italian>
 		<Spanish>Cast 'Controlled Maelstrom'</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Casting, Help -->
+	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Casting, Help -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING_HELP</Tag>
 		<English>[ICON_BULLET]Casts a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</English>
 		<French>[ICON_BULLET]Casts a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</French>
@@ -2179,39 +2043,39 @@
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Help --> <!-- New Overseer Promotions Start -->
 		<Tag>TXT_KEY_UNIT_COM_OVERSEER_HELP</Tag>
-		<English>[ICON_BULLET]Allows commanded Battle Sluga to have combat strength</English>
-		<French>[ICON_BULLET]Allows commanded Battle Sluga to have combat strength</French>
-		<German>[ICON_BULLET]Erlaubt den befehligten Schlachtsluga die Bef&#246;rderung Kampfst&#228;rke</German>
-		<Italian>[ICON_BULLET]Permette agli Sluga da combattimento comandati di avere forza da combattimento</Italian>
-		<Spanish>[ICON_BULLET]Allows commanded Battle Sluga to have combat strength</Spanish>
+		<English>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength and cast some Overseer spells[ICON_BULLET] Improves commanded Slaves Workrate[ICON_BULLET] Also unlocks further Overseer Promotions for Commanders</English>
+		<French>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength and cast some Overseer spells[ICON_BULLET] Improves commanded Slaves Workrate[ICON_BULLET] Also unlocks further Overseer Promotions for Commanders</French>
+		<German>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength and cast some Overseer spells[ICON_BULLET] Improves commanded Slaves Workrate[ICON_BULLET] Also unlocks further Overseer Promotions for Commanders</German>
+		<Italian>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength and cast some Overseer spells[ICON_BULLET] Improves commanded Slaves Workrate[ICON_BULLET] Also unlocks further Overseer Promotions for Commanders</Italian>
+		<Spanish>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength and cast some Overseer spells[ICON_BULLET] Improves commanded Slaves Workrate[ICON_BULLET] Also unlocks further Overseer Promotions for Commanders</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Close Combat Training -->                    
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_BASIC</Tag>
-		<English>Close Combat Training</English>
-		<French>Close Combat Training</French>
-		<German>Nahkampfausbildung</German>
-		<Italian>Addestramento al Combattimento Ravvicinato</Italian>
-		<Spanish>Close Combat Training</Spanish>
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC</Tag>
+		<English>Overseer Control Training</English>
+		<French>Overseer Control Training</French>
+		<German>Overseer Control Training</German>
+		<Italian>Overseer Control Training</Italian>
+		<Spanish>Overseer Control Training</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Close Combat Training, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_BASIC_HELP</Tag>
-		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 Attack Strength[NEWLINE][SPACE][ICON_BULLET]+1 Defence Strength</English>
-		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 Attack Strength[NEWLINE][SPACE][ICON_BULLET]+1 Defence Strength</French>
-		<German>[ICON_BULLET]&#252;bertr&#228;gt die folgenden Boni auf alle befehligten Schlachtsluga:[NEWLINE][SPACE][ICON_BULLET]+1 Angriffst&#228;rke[NEWLINE][SPACE][ICON_BULLET]+1 Verteidigungsst&#228;rke</German>
-		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+1 Forza d'Attacco[NEWLINE][SPACE][ICON_BULLET]+1 Forza di Difesa</Italian>
-		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 Attack Strength[NEWLINE][SPACE][ICON_BULLET]+1 Defence Strength</Spanish>
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][SPACE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate </English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][SPACE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][SPACE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][SPACE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][SPACE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Combat Drill I -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_1</Tag>
-		<English>Combat Drill I</English>
-		<French>Combat Drill I</French>
-		<German>Kampferfahrung I</German>
-		<Italian>Esercitazione di Combattimento I</Italian>
-		<Spanish>Combat Drill I</Spanish>
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1</Tag>
+		<English>Control I</English>
+		<French>Control I</French>
+		<German>Control I</German>
+		<Italian>Control I</Italian>
+		<Spanish>Control I</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Combat Drill I, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_1_HELP</Tag>
-		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 Extra First Strike[NEWLINE][SPACE][ICON_BULLET]+10% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]+20% Combat Strength</English>
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Extra First Strike[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% workrate[NEWLINE][ICON_BULLET]Gives the following bonuses to all commanded Slaves: +10% work rate</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 First Strike[NEWLINE][SPACE][ICON_BULLET]+10% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]+20% Combat Strength</French>
 		<German>[ICON_BULLET]&#252;bertr&#228;gt die folgenden Boni auf alle befehligten Schlachtsluga:[NEWLINE][SPACE][ICON_BULLET]+1 Erstangriff[NEWLINE][SPACE][ICON_BULLET]+10% gegen Berittene Einheiten[NEWLINE][SPACE][ICON_BULLET]+20% Kampfst&#228;rke</German>
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]1 'Attacco Improvviso' supplementare[NEWLINE][SPACE][ICON_BULLET]+10% vs Unità Montata[NEWLINE][SPACE][ICON_BULLET]+20% di Forza</Italian>
@@ -2345,15 +2209,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]Aumenta l'Attacco a Distanza di +2[NEWLINE][SPACE][ICON_BULLET]Aumenta il limite di danno massimo a distanza del 15%</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 15%</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Celerity -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_CELERITY1</Tag>
-		<English>Celerity</English>
-		<French>Célérité</French>
-		<German>Celerity</German>
-		<Italian>Celerità</Italian>
-		<Spanish>Celerity</Spanish>
-	</TEXT>
-	<TEXT>
+	<TEXT> <!-- Combat Overseer, Celerity -->
 		<Tag>TXT_KEY_PROMOTION_CELERITY1_OVERSEER</Tag>
 		<English>Celerity</English>
 		<French>Célérité</French>
@@ -2361,15 +2217,7 @@
 		<Italian>Celerità</Italian>
 		<Spanish>Celerity</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Enhanced Celerity -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_CELERITY2</Tag>
-		<English>Enhanced Celerity</English>
-		<French>Célérité accrue</French>
-		<German>Enhanced Celerity</German>
-		<Italian>Celerità Migliorata</Italian>
-		<Spanish>Enhanced Celerity</Spanish>
-	</TEXT>
-	<TEXT>
+	<TEXT> <!-- Combat Overseer, Enhanced Celerity -->
 		<Tag>TXT_KEY_PROMOTION_CELERITY2_OVERSEER</Tag>
 		<English>Enhanced Celerity</English>
 		<French>Célérité accrue</French>
@@ -2379,21 +2227,21 @@
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Regeneration -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Tag>
-		<English>Regeneration</English>
-		<French>Regeneration</French>
-		<German>Regeneration</German>
-		<Italian>Rigenerazione</Italian>
-		<Spanish>Regeneration</Spanish>
+		<English>Overseer Spell Regeneration</English>
+		<French>Overseer Spell Regeneration</French>
+		<German>Overseer Spell Regeneration</German>
+		<Italian>Overseer Spell Regeneration</Italian>
+		<Spanish>Overseer Spell Regeneration</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Regeneration, Help -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_HELP</Tag>
-		<English>[ICON_BULLET]Allows you to cast a spell which applies the Regenerating promotion to all commanded Battle Sluga</English>
-		<French>[ICON_BULLET]Allows you to cast a spell which applies the Regenerating promotion to all commanded Battle Sluga</French>
-		<German>[ICON_BULLET]Erlaubt die magische &#252;bertragung der Regeneration Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
-		<Italian>[ICON_BULLET]Ti permette di lanciare una magia che applica la promozione Rigenerazione a tutti gli Sluga da Battaglia comandati</Italian>
-		<Spanish>[ICON_BULLET]Allows you to cast a spell which applies the Regenerating promotion to all commanded Battle Sluga</Spanish>
+		<English>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Regenerating promotion</English>
+		<French>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Regenerating promotion</French>
+		<German>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Regenerating promotion</German>
+		<Italian>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Regenerating promotion</Italian>
+		<Spanish>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Regenerating promotion</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Regeneration, Casting -->
+	<TEXT>  <!-- Combat Overseer, Regeneration, Casting -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING</Tag>
 		<English>Cast 'Regeneration'</English>
 		<French>Cast 'Regeneration'</French>
@@ -2401,7 +2249,7 @@
 		<Italian>Lancia 'Rigenerazione'</Italian>
 		<Spanish>Cast 'Regeneration'</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Regeneration, Casting, Help -->
+	<TEXT>  <!-- Combat Overseer, Regeneration, Casting, Help -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING_HELP</Tag>
 		<English>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</English>
 		<French>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</French>
@@ -2411,29 +2259,29 @@
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Sustained Regeneration -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2</Tag>
-		<English>Sustained Regeneration</English>
-		<French>Sustained Regeneration</French>
-		<German>Anhaltende Regeneration</German>
-		<Italian>Rigenerazione Costante</Italian>
-		<Spanish>Sustained Regeneration</Spanish>
+		<English>Overseer March</English>
+		<French>Overseer March</French>
+		<German>Overseer March</German>
+		<Italian>Overseer March</Italian>
+		<Spanish>Overseer March</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Stoneskin -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Tag>
-		<English>Stoneskin</English>
-		<French>Stoneskin</French>
-		<German>Steinhaut</German>
-		<Italian>Pelle di Pietra</Italian>
-		<Spanish>Stoneskin</Spanish>
+		<English>Overseer Spell Stoneskin</English>
+		<French>Overseer Spell Stoneskin</French>
+		<German>Overseer Spell Stoneskin</German>
+		<Italian>Overseer Spell Stoneskin</Italian>
+		<Spanish>Overseer Spell Stoneskin</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Stoneskin, Help -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_HELP</Tag>
-		<English>[ICON_BULLET]Allows you to cast a spell which applies the Stoneskin promotion to all commanded Battle Sluga</English>
-		<French>[ICON_BULLET]Allows you to cast a spell which applies the Stoneskin promotion to all commanded Battle Sluga</French>
-		<German>[ICON_BULLET]Erlaubt die magische &#252;bertragung der Steinhaut Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
-		<Italian>[ICON_BULLET]Ti permette di lanciare una magia che applica la promozione Pelle di Pietra a tutti gli Sluga da Battaglia comandati</Italian>
-		<Spanish>[ICON_BULLET]Allows you to cast a spell which applies the Stoneskin promotion to all commanded Battle Sluga</Spanish>
+		<English>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Stoneskin promotion</English>
+		<French>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Stoneskin promotion</French>
+		<German>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Stoneskin promotion</German>
+		<Italian>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Stoneskin promotion</Italian>
+		<Spanish>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Stoneskin promotion</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Stoneskin, Casting -->
+	<TEXT>  <!-- Combat Overseer, Stoneskin, Casting -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING</Tag>
 		<English>Cast 'Stoneskin'</English>
 		<French>Cast 'Stoneskin'</French>
@@ -2441,7 +2289,7 @@
 		<Italian>Lancia 'Pelle di Pietra'</Italian>
 		<Spanish>Cast 'Stoneskin'</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Stoneskin, Casting, Help -->
+	<TEXT>  <!-- Combat Overseer, Stoneskin, Casting, Help -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING_HELP</Tag>
 		<English>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</English>
 		<French>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</French>
@@ -2451,21 +2299,21 @@
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Maelstrom -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM</Tag>
-		<English>Maelstrom</English>
-		<French>Maelstrom</French>
-		<German>Mahlstrom</German>
-		<Italian>Maelstrom</Italian>
-		<Spanish>Maelstrom</Spanish>
+		<English>Overseer Spell Maelstrom</English>
+		<French>Overseer Spell Maelstrom</French>
+		<German>Overseer Spell Maelstrom</German>
+		<Italian>Overseer Spell Maelstrom</Italian>
+		<Spanish>Overseer Spell Maelstrom</Spanish>
 	</TEXT>
 	<TEXT>  <!-- Combat Overseer, Maelstrom, Help -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Tag>
-		<English>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 20% to 40% damage, and targets all units; allies included</English>
-		<French>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 20% to 40% damage, and targets all units; allies included</French>
-		<German>[ICON_BULLET]Erlaubt das Zaubern eine 1-Feld Version des 'Mahlstrom' Zaubers durch die befehligte Schlachtsluga[NEWLINE][ICON_BULLET]Macht 20% to 40% Schaden, trifft neben feindlichen auch verb&#252;ndete Einheiten</German>
-		<Italian>[ICON_BULLET]Ti permette di lanciare una versione che colpisce a 1 quadrato di distanza della magia 'Maelstrom' attraverso gli Sluga da Battaglia comandati[NEWLINE][ICON_BULLET]Fa tra il 20% e il 40% di danno e colpisce tutte le unità, alleati inclusi</Italian>
-		<Spanish>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 20% to 40% damage, and targets all units; allies included</Spanish>
+		<English>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% damage total damage, and targets all units; allies included</English>
+		<French>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% damage total damage, and targets all units; allies included</French>
+		<German>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% damage total damage, and targets all units; allies included</German>
+		<Italian>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% damage total damage, and targets all units; allies included</Italian>
+		<Spanish>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% damage total damage, and targets all units; allies included</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Maelstrom, Casting -->
+	<TEXT>  <!-- Combat Overseer, Maelstrom, Casting -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Tag>
 		<English>Cast 'Maelstrom'</English>
 		<French>Cast 'Maelstrom'</French>
@@ -2473,29 +2321,4 @@
 		<Italian>Lancia 'Maelstrom'</Italian>
 		<Spanish>Cast 'Maelstrom'</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2</Tag>
-		<English>Controlled Maelstrom</English>
-		<French>Controlled Maelstrom</French>
-		<German>Kontrollierter Mahlstrom</German>
-		<Italian>Maelstrom Controllato</Italian>
-		<Spanish>Controlled Maelstrom</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_HELP</Tag>
-		<English>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</English>
-		<French>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</French>
-		<German>[ICON_BULLET]Erlaubt das Zaubern einer 1-Feld Version des 'Mahlstrom' Zaubers durch die befehligte Schlachtsluga[NEWLINE][ICON_BULLET]Macht 30% to 60% Schaden, jedoch nur auf feindliche Einheiten</German>
-		<Italian>[ICON_BULLET]Ti permette di lanciare una versione che colpisce a 1 quadrato di distanza della magia 'Maelstrom' attraverso gli Sluga da Battaglia comandati[NEWLINE][ICON_BULLET]Fa tra il 30% e il 60% di danno e colpisce solo i nemici</Italian>
-		<Spanish>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Casting -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING</Tag>
-		<English>Cast 'Controlled Maelstrom'</English>
-		<French>Cast 'Controlled Maelstrom'</French>
-		<German>Zaubere 'Kontrollierter Mahlstrom'</German>
-		<Italian>Lancia 'Maelstrom Controllato'</Italian>
-		<Spanish>Cast 'Controlled Maelstrom'</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Casting, Help -->
 </Civ4GameText>
