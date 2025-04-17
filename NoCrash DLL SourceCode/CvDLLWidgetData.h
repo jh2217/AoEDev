@@ -94,6 +94,7 @@ public:
 	void doPediaFeatureJump(CvWidgetDataStruct &widgetDataStruct);
 	void doPediaPlotEffectJump(CvWidgetDataStruct& widgetDataStruct);
 	void doPediaCityClassJump(CvWidgetDataStruct& widgetDataStruct);
+	void doPediaRouteJump(CvWidgetDataStruct& widgetDataStruct);
 	void doPediaMain(CvWidgetDataStruct &widgetDataStruct);
 	void doPediaPromotionJump(CvWidgetDataStruct &widgetDataStruct);
 

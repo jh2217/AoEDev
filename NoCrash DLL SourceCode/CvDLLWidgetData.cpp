@@ -633,6 +633,9 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 	case WIDGET_PEDIA_JUMP_TO_CITYCLASS:
 	//	parsePlotEffectHelp(widgetDataStruct, szBuffer);
 		break;
+	case WIDGET_PEDIA_JUMP_TO_ROUTE:
+		//	parsePlotEffectHelp(widgetDataStruct, szBuffer);
+		break;
 
 	case WIDGET_PEDIA_DESCRIPTION:
 		parseDescriptionHelp(widgetDataStruct, szBuffer, false);
@@ -1003,6 +1006,9 @@ bool CvDLLWidgetData::executeAction( CvWidgetDataStruct &widgetDataStruct )
 	case WIDGET_PEDIA_JUMP_TO_CITYCLASS:
 		doPediaCityClassJump(widgetDataStruct);
 		break;
+	case WIDGET_PEDIA_JUMP_TO_ROUTE:
+		doPediaRouteJump(widgetDataStruct);
+		break;
 
 	case WIDGET_PEDIA_DESCRIPTION:
 	case WIDGET_PEDIA_DESCRIPTION_NO_HELP:
@@ -1214,6 +1220,7 @@ bool CvDLLWidgetData::isLink(const CvWidgetDataStruct &widgetDataStruct) const
 	case WIDGET_PEDIA_JUMP_TO_FEATURE:
 	case WIDGET_PEDIA_JUMP_TO_PLOT_EFFECT:
 	case WIDGET_PEDIA_JUMP_TO_CITYCLASS:
+	case WIDGET_PEDIA_JUMP_TO_ROUTE:
 	case WIDGET_PEDIA_FORWARD:
 	case WIDGET_PEDIA_BACK:
 	case WIDGET_PEDIA_MAIN:
@@ -1914,6 +1921,14 @@ void CvDLLWidgetData::doPediaCityClassJump(CvWidgetDataStruct& widgetDataStruct)
 	argsList.add(widgetDataStruct.m_iData1);
 	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToCityClass", argsList.makeFunctionArgs());
 }
+
+void CvDLLWidgetData::doPediaRouteJump(CvWidgetDataStruct& widgetDataStruct)
+{
+	CyArgsList argsList;
+	argsList.add(widgetDataStruct.m_iData1);
+	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToRoute", argsList.makeFunctionArgs());
+}
+
 void CvDLLWidgetData::doPediaTrainJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
@@ -6346,7 +6361,16 @@ void CvDLLWidgetData::parseDescriptionHelp(CvWidgetDataStruct &widgetDataStruct,
 		}
 	}
 	break;
-/*************************************************************************************************/
+	case CIVILOPEDIA_PAGE_ROUTE:
+	{
+		RouteTypes eLeader = (RouteTypes)widgetDataStruct.m_iData2;
+		if (NO_ROUTE != eLeader)
+		{
+			szBuffer.assign(bMinimal ? GC.getRouteInfo(eLeader).getDescription() : gDLL->getText("TXT_KEY_MISC_HISTORICAL_INFO", GC.getRouteInfo(eLeader).getTextKeyWide()));
+		}
+	}
+	break;
+	/*************************************************************************************************/
 /**	NewPedia								09/27/09								Xienwolf	**/
 /**																								**/
 /**			Some minor cleanup is in order so that we can show more and be userfriendly			**/
