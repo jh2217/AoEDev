@@ -35293,50 +35293,23 @@
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_HELP</Help>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRegeneration.dds</Button>
-			<PromotionAllows>
-				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION_CASTING_V2</Promotion>
-			</PromotionAllows>
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
 			</PrereqBonusANDs>
-			<PromotionNextLevel>PROMOTION_COM_OVERSEER_REGENERATION2_V2</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Regeneration, Casting -->
-			<Type>PROMOTION_COM_OVERSEER_REGENERATION_CASTING_V2</Type>
-			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING_HELP</Help>
-			<PrereqPromotionANDs>
-				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_COM_OVERSEER_REGENERATION_V2</PromotionType>
-					<iPrereqApplications>1</iPrereqApplications>
-				</PrereqPromotionAND>
-			</PrereqPromotionANDs>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<bHeld>1</bHeld>
-			<bNoXP>1</bNoXP>
-			<iPromotionDuration>2</iPromotionDuration>
-			<PrereqPermission>1</PrereqPermission>
 			<MinionPromotions>
 				<PromotionType>PROMOTION_COM_OVERSEER_REGENERATION_UNIT_V2</PromotionType>
 			</MinionPromotions>
-			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRegeneration.dds</Button>
-			<PrereqBonusANDs>
-				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
-			</PrereqBonusANDs>
+			<PromotionNextLevel>PROMOTION_COM_OVERSEER_REGENERATION2_V2</PromotionNextLevel>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Regeneration, Unit -->
 			<Type>PROMOTION_COM_OVERSEER_REGENERATION_UNIT_V2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING</Description>
 			<PrereqPermission>1</PrereqPermission>
-			<bHeld>1</bHeld>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
 				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
 				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
 			</PrereqUnits>
-			<PromotionDegradesTo>
-				<Promotion>PROMOTION_REGENERATION</Promotion>
-			</PromotionDegradesTo>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRegeneration.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 		</PromotionInfo>
@@ -35353,12 +35326,6 @@
 			<MinionPromotions>
 				<PromotionType>PROMOTION_MINION_MARCH_V2</PromotionType>
 			</MinionPromotions>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION_V2</Promotion>
-			</PromotionExcludes>
-			<PromotionOverwrites>
-				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION_V2</Promotion>
-			</PromotionOverwrites>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSustainedRegeneration.dds</Button>
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
@@ -35382,33 +35349,16 @@
 			<Type>PROMOTION_COM_OVERSEER_STONESKIN_V2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_HELP</Help>
-			<PromotionAllows>
-				<Promotion>PROMOTION_COM_OVERSEER_STONESKIN_CASTING_V2</Promotion>
-			</PromotionAllows>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerStoneskin.dds</Button>
-			<PrereqBonusANDs>
-				<PrereqBonus>BONUS_MANA_EARTH</PrereqBonus>
-			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Stoneskin, Casting -->
-			<Type>PROMOTION_COM_OVERSEER_STONESKIN_CASTING_V2</Type>
-			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING_HELP</Help>
-			<PrereqPromotionANDs>
-				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_COM_OVERSEER_STONESKIN_V2</PromotionType>
+			<PrereqPromotionORs>
+				<PrereqPromotionOR>
+					<PromotionType>PROMOTION_OVERSEER_PRECISION_2</PromotionType>
 					<iPrereqApplications>1</iPrereqApplications>
-				</PrereqPromotionAND>
-			</PrereqPromotionANDs>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<bHeld>1</bHeld>
-			<bNoXP>1</bNoXP>
-			<iPromotionDuration>2</iPromotionDuration>
-			<PrereqPermission>1</PrereqPermission>
+				</PrereqPromotionOR>
+			</PrereqPromotionORs>
 			<MinionPromotions>
 				<PromotionType>PROMOTION_COM_OVERSEER_STONESKIN_UNIT_V2</PromotionType>
 			</MinionPromotions>
-			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerStoneskin.dds</Button>
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_EARTH</PrereqBonus>
 			</PrereqBonusANDs>
@@ -35416,17 +35366,13 @@
 		<PromotionInfo>		<!-- Stoneskin, Unit -->
 			<Type>PROMOTION_COM_OVERSEER_STONESKIN_UNIT_V2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING</Description>
-			<bGraphicalOnly>0</bGraphicalOnly>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
-			<bHeld>1</bHeld>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
 				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
 				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
 			</PrereqUnits>
-			<PromotionDegradesTo>
-				<Promotion>PROMOTION_STONESKIN</Promotion>
-			</PromotionDegradesTo>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionStoneskin.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 		</PromotionInfo>
@@ -35434,119 +35380,36 @@
 			<Type>PROMOTION_COM_OVERSEER_MAELSTROM_V2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Help>
-			<PromotionAllows>
-				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_CASTING_V2</Promotion>
-			</PromotionAllows>
+			<PrereqPromotionORs>
+				<PrereqPromotionOR>
+					<PromotionType>PROMOTION_OVERSEER_CONTROL_3</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionOR>
+				<PrereqPromotionOR>
+					<PromotionType>PROMOTION_OVERSEER_PRECISION_3</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionOR>
+			</PrereqPromotionORs>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerMaelstrom1.dds</Button>
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_AIR</PrereqBonus>
 			</PrereqBonusANDs>
-			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MAELSTROM2_V2</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Maelstrom, Casting -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM_CASTING_V2</Type>
-			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING_HELP</Help>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<bHeld>1</bHeld>
-			<bNoXP>1</bNoXP>
-			<iPromotionDuration>1</iPromotionDuration>
-			<PrereqPermission>1</PrereqPermission>
 			<MinionPromotions>
 				<PromotionType>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT_V2</PromotionType>
 			</MinionPromotions>
-			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerMaelstrom1.dds</Button>
+			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MAELSTROM2_V2</PromotionNextLevel>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Maelstrom, Unit -->
 			<Type>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT_V2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Description>
-			<bGraphicalOnly>0</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
-			<bHeld>1</bHeld>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
-				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
-				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
-			</PrereqUnits>
-			<PythonOnRemove>spellSlugaMaelstrom1(pCaster)</PythonOnRemove>
-			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionMaelstrom1.dds</Button>
-			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Controlled Maelstrom -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM2_V2</Type>
-			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_HELP</Help>
-			<PrereqPromotionANDs>
-				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_COM_OVERSEER_MAELSTROM_V2</PromotionType>
-					<iPrereqApplications>1</iPrereqApplications>
-				</PrereqPromotionAND>
-			</PrereqPromotionANDs>
-			<PromotionAllows>
-				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING_V2</Promotion>
-			</PromotionAllows>
-			<MinionPromotions>
-				<PromotionType>PROMOTION_COM_OVERSEER_MAELSTROM2_UNIT_V2</PromotionType>
-			</MinionPromotions>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_V2</Promotion>
-			</PromotionExcludes>
-			<PromotionOverwrites>
-				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_V2</Promotion>
-			</PromotionOverwrites>
-			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerMaelstrom2.dds</Button>
-			<PrereqBonusANDs>
-				<PrereqBonus>BONUS_MANA_AIR</PrereqBonus>
-			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Controlled Maelstrom, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM2_UNIT_V2</Type>
-			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2</Description>
-			<bEffectProm>0</bEffectProm>
-			<bGraphicalOnly>0</bGraphicalOnly>
-			<PrereqPermission>1</PrereqPermission>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
-				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
-				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
-			</PrereqUnits>
-			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionMaelstrom2.dds</Button>
-			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Controlled Maelstrom, Casting -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING_V2</Type>
-			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING</Description>
-			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING_HELP</Help>
 			<bGraphicalOnly>1</bGraphicalOnly>
-			<bNoXP>1</bNoXP>
-			<iPromotionDuration>1</iPromotionDuration>
-			<PrereqPermission>1</PrereqPermission>
-			<MinionPromotions>
-				<PromotionType>PROMOTION_COM_OVERSEER_MAELSTROM2_TRIGGER_V2</PromotionType>
-			</MinionPromotions>
-			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerMaelstrom2.dds</Button>
-			<PrereqBonusANDs>
-				<PrereqBonus>BONUS_MANA_AIR</PrereqBonus>
-			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Controlled Maelstrom, Trigger -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM2_TRIGGER_V2</Type>
-			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING</Description>
-			<bEffectProm>1</bEffectProm>
-			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
 				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
 				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
 			</PrereqUnits>
-			<PythonOnRemove>spellSlugaMaelstrom2(pCaster)</PythonOnRemove>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM2_UNIT_V2</Promotion>
-			</PromotionExcludes>
-			<PromotionOverwrites>
-				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM2_UNIT_V2</Promotion>
-			</PromotionOverwrites>
-			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionMaelstrom2.dds</Button>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionMaelstrom1.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Karas, Sluga Master -->
