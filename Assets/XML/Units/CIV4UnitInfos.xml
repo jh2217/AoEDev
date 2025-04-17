@@ -31240,6 +31240,7 @@
 			<DefaultUnitAI>UNITAI_RESERVE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_COM_OVERSEER</Description>
 			<Civilopedia>TXT_KEY_UNIT_COM_OVERSEER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_COM_OVERSEER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<UnitClassUpgrades>
 				<UnitClassUpgradeType>UNITCLASS_SLUGA_COMMANDER_V2</UnitClassUpgradeType>
@@ -31308,6 +31309,7 @@
 			<DefaultUnitAI>UNITAI_RESERVE</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_SLUGA_COMMANDER</Description>
 			<Civilopedia>TXT_KEY_UNIT_SLUGA_COMMANDER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_COM_OVERSEER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<UnitAIs>
 				<UnitAI>
