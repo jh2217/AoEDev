@@ -6593,19 +6593,19 @@ class CvEventManager:
 		#popup.launch()
 		return
 
-	def __eventWBLandmarkPopupApply(self, playerID, userData, popupReturn):
-		if (popupReturn.getEditBoxString(0)):
-			szLandmark = popupReturn.getEditBoxString(0)
-			if (len(szLandmark)):
-				CvScreensInterface.getWorldBuilderScreen().setLandmarkCB(szLandmark)
-		return
+#	def __eventWBLandmarkPopupApply(self, playerID, userData, popupReturn):
+#		if (popupReturn.getEditBoxString(0)):
+#			szLandmark = popupReturn.getEditBoxString(0)
+#			if (len(szLandmark)):
+#				CvScreensInterface.getWorldBuilderScreen().setLandmarkCB(szLandmark)
+#		return
 
-	def __eventWBScriptPopupBegin(self, argsList):
-		popup = PyPopup.PyPopup(CvUtil.EventWBScriptPopup, EventContextTypes.EVENTCONTEXT_ALL)
-		popup.setHeaderString(localText.getText("TXT_KEY_WB_SCRIPT", ()))
-		popup.createEditBox(CvScreensInterface.getWorldBuilderScreen().getCurrentScript())
-		popup.launch()
-		return
+#	def __eventWBScriptPopupBegin(self, argsList):
+#		popup = PyPopup.PyPopup(CvUtil.EventWBScriptPopup, EventContextTypes.EVENTCONTEXT_ALL)
+#		popup.setHeaderString(localText.getText("TXT_KEY_WB_SCRIPT", ()))
+#		popup.createEditBox(CvScreensInterface.getWorldBuilderScreen().getCurrentScript())
+#		popup.launch()
+#		return
 
 	def __eventWBScriptPopupApply(self, playerID, userData, popupReturn):
 		if (popupReturn.getEditBoxString(0)):
@@ -6861,39 +6861,6 @@ class CvEventManager:
 			CvDebugTools.CvDebugTools().applyCheatEvent( (popupReturn) )
 
 ## Platy Builder ##
-	
-	def __eventEditUnitNameBegin(self, argsList):
-		pUnit = argsList
-		popup = PyPopup.PyPopup(CvUtil.EventEditUnitName, EventContextTypes.EVENTCONTEXT_ALL)
-		popup.setUserData((pUnit.getID(), CyGame().getActivePlayer()))
-		popup.setBodyString(localText.getText("TXT_KEY_RENAME_UNIT", ()))
-		popup.createEditBox(pUnit.getNameNoDesc())
-		popup.setEditBoxMaxCharCount(25)
-		popup.launch()
-
-	def __eventEditUnitNameApply(self, playerID, userData, popupReturn):
-		unit = gc.getPlayer(userData[1]).getUnit(userData[0])
-		newName = popupReturn.getEditBoxString(0)		
-		unit.setName(newName)
-		if CyGame().GetWorldBuilderMode():
-			WBUnitScreen.WBUnitScreen(CvPlatyBuilderScreen.CvWorldBuilderScreen()).placeStats()
-			WBUnitScreen.WBUnitScreen(CvPlatyBuilderScreen.CvWorldBuilderScreen()).placeCurrentUnit()	
-				
-	def __eventEditCityNameBegin(self, city, bRename):
-		popup = PyPopup.PyPopup(CvUtil.EventEditCityName, EventContextTypes.EVENTCONTEXT_ALL)
-		popup.setUserData((city.getID(), bRename, CyGame().getActivePlayer()))
-		popup.setHeaderString(localText.getText("TXT_KEY_NAME_CITY", ()))
-		popup.setBodyString(localText.getText("TXT_KEY_SETTLE_NEW_CITY_NAME", ()))
-		popup.createEditBox(city.getName())
-		popup.setEditBoxMaxCharCount(15)
-		popup.launch()
-	
-	def __eventEditCityNameApply(self, playerID, userData, popupReturn):
-		city = gc.getPlayer(userData[2]).getCity(userData[0])
-		cityName = popupReturn.getEditBoxString(0)
-		city.setName(cityName, not userData[1])
-		if CyGame().GetWorldBuilderMode() and not CyGame().isInAdvancedStart():
-			WBCityEditScreen.WBCityEditScreen().placeStats()
 
 	def __eventWBPlayerScriptPopupApply(self, playerID, userData, popupReturn):
 		sScript = popupReturn.getEditBoxString(0)
@@ -6905,7 +6872,7 @@ class CvEventManager:
 		sScript = popupReturn.getEditBoxString(0)
 		pCity = gc.getPlayer(userData[0]).getCity(userData[1])
 		pCity.setScriptData(CvUtil.convertToStr(sScript))
-		WBCityEditScreen.WBCityEditScreen().placeScript()
+		WBCityEditScreen.WBCityEditScreen(CvPlatyBuilderScreen.CvWorldBuilderScreen()).placeScript()
 		return
 
 	def __eventWBUnitScriptPopupApply(self, playerID, userData, popupReturn):
