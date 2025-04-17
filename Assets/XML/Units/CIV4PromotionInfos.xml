@@ -34539,25 +34539,38 @@
 				<Promotion>PROMOTION_OVERSEER_CONTROL_1</Promotion>
 				<Promotion>PROMOTION_OVERSEER_CONTROL_2</Promotion>
 				<Promotion>PROMOTION_OVERSEER_CONTROL_3</Promotion>
-				<Promotion>PROMOTION_OVERSEER_CONTROL_MASTER</Promotion>
 				<Promotion>PROMOTION_OVERSEER_PRECISION_BASIC</Promotion>
 				<Promotion>PROMOTION_OVERSEER_PRECISION_1</Promotion>
 				<Promotion>PROMOTION_OVERSEER_PRECISION_2</Promotion>
 				<Promotion>PROMOTION_OVERSEER_PRECISION_3</Promotion>
-				<Promotion>PROMOTION_OVERSEER_PRECISION_MASTER</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_CELERITY1_V2</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION_V2</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_STONESKIN_V2</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION2_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_CELERITY2_V2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_MASTER</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_MASTER</Promotion>
 			</PromotionAllows>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombatOverseer.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 		</PromotionInfo>
+		<PromotionInfo>	 	<!-- Overseer, Unit -->
+			<Type>PROMOTION_OVERSEER_UNIT_V2</Type>
+			<Description>TXT_KEY_UNIT_OVERSEER</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SLAVE</PrereqUnit>
+				<PrereqUnit>UNIT_SLAVE_UNDEAD</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionOverseer.dds</Button>
+			<iWorkRateModify>10</iWorkRateModify>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo> 
 		<PromotionInfo>		<!-- Combat Overseer, Unit -->
 			<Type>PROMOTION_COM_OVERSEER_SLUGA_V2</Type>
 			<Description>TXT_KEY_UNIT_COM_OVERSEER</Description>
-			<bGraphicalOnly>0</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<iWorkRateModify>30</iWorkRateModify>
 			<PrereqUnits>
@@ -34570,19 +34583,16 @@
 				<Promotion>PROMOTION_LEADERLESS_BATTLE_SLUGA_V2</Promotion>
 				<Promotion>PROMOTION_LEADERLESS_WAR_SLUGA_V2</Promotion>
 				<Promotion>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA_V2</Promotion>
-				<Promotion>PROMOTION_LEADERLESS_SLUGA_V2</Promotion>
 			</PromotionExcludes>
 			<PromotionOverwrites>
 				<Promotion>PROMOTION_LEADERLESS_BATTLE_SLUGA_V2</Promotion>
 				<Promotion>PROMOTION_LEADERLESS_WAR_SLUGA_V2</Promotion>
 				<Promotion>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA_V2</Promotion>
-				<Promotion>PROMOTION_LEADERLESS_SLUGA_V2</Promotion>
 			</PromotionOverwrites>
 			<PromotionDegradesTo>
 				<Promotion>PROMOTION_LEADERLESS_BATTLE_SLUGA_V2</Promotion>
 				<Promotion>PROMOTION_LEADERLESS_WAR_SLUGA_V2</Promotion>
 				<Promotion>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA_V2</Promotion>
-				<Promotion>PROMOTION_LEADERLESS_SLUGA_V2</Promotion>
 			</PromotionDegradesTo>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombatOverseer.dds</Button>
 			<iMinLevel>-1</iMinLevel>
@@ -34643,16 +34653,14 @@
 				<Promotion>PROMOTION_OVERSEER_PRECISION_2_UNIT</Promotion>
 				<Promotion>PROMOTION_OVERSEER_PRECISION_3_UNIT</Promotion>
 				<Promotion>PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</Promotion>
-				<Promotion>PROMOTION_CELERITY1_OVERSEER</Promotion>
-				<Promotion>PROMOTION_CELERITY2_OVERSEER</Promotion>
+				<Promotion>PROMOTION_CELERITY1_OVERSEER_V2</Promotion>
+				<Promotion>PROMOTION_CELERITY2_OVERSEER_V2</Promotion>
 				<Promotion>PROMOTION_MINION_MARCH_V2</Promotion>
 				<Promotion>PROMOTION_REGENERATION</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION_UNIT_V2</Promotion>
 				<Promotion>PROMOTION_STONESKIN</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_STONESKIN_UNIT_V2</Promotion>
 				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT_V2</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM2_UNIT_V2</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM2_TRIGGER_V2</Promotion>
 				<Promotion>PROMOTION_KARAS_SLUGA_MASTER_UNIT_V2</Promotion>
 			</PromotionAllows>
 			<CommanderPromotions>
@@ -34762,7 +34770,6 @@
 		<PromotionInfo>		<!-- Skilled Overseer I, Unit -->             <!-- Overseer Slave Promotions Start -->
 			<Type>PROMOTION_SKILLED_OVERSEER1_UNIT_V2</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER1</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SLAVE</PrereqUnit>
@@ -34776,7 +34783,6 @@
 		<PromotionInfo>		<!-- Skilled Overseer II, Unit -->
 			<Type>PROMOTION_SKILLED_OVERSEER2_UNIT_V2</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER2</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SLAVE</PrereqUnit>
@@ -34790,7 +34796,6 @@
 		<PromotionInfo>		<!-- Skilled Overseer III, Unit -->
 			<Type>PROMOTION_SKILLED_OVERSEER3_UNIT_V2</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER3</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SLAVE</PrereqUnit>
@@ -34804,7 +34809,6 @@
 		<PromotionInfo>		<!-- Skilled Overseer IV, Unit -->
 			<Type>PROMOTION_SKILLED_OVERSEER4_UNIT_V2</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER4</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SLAVE</PrereqUnit>
@@ -34818,7 +34822,6 @@
 		<PromotionInfo>		<!-- Skilled Overseer V, Unit -->
 			<Type>PROMOTION_SKILLED_OVERSEER5_UNIT_V2</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER5</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SLAVE</PrereqUnit>
@@ -34870,7 +34873,6 @@
 		<PromotionInfo>		<!-- Close Combat Training, Unit -->
 			<Type>PROMOTION_OVERSEER_CONTROL_BASIC_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC_UNIT</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
@@ -34907,7 +34909,6 @@
 		<PromotionInfo>		<!-- Combat Drill I, Unit -->
 			<Type>PROMOTION_OVERSEER_CONTROL_1_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1_UNIT</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<iFirstStrikesChange>1</iFirstStrikesChange>
 			<iCombatPercent>20</iCombatPercent>
@@ -34950,7 +34951,6 @@
 		<PromotionInfo>		<!-- Combat Drill II, Unit -->
 			<Type>PROMOTION_OVERSEER_CONTROL_2_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_UNIT</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<iChanceFirstStrikesChange>2</iChanceFirstStrikesChange>
 			<iCombatPercent>20</iCombatPercent>
@@ -34993,7 +34993,6 @@
 		<PromotionInfo>		<!-- Combat Drill III, Unit -->
 			<Type>PROMOTION_OVERSEER_CONTROL_3_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_3_UNIT</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<iFirstStrikesChange>2</iFirstStrikesChange>
 			<iCollateralDamageProtection>20</iCollateralDamageProtection>
@@ -35037,7 +35036,6 @@
 		<PromotionInfo>		<!-- Close Combat Mastery, Unit -->
 			<Type>PROMOTION_OVERSEER_CONTROL_MASTER_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER_UNIT</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 		    <iWorkRateModify>40</iWorkRateModify>
 			<PrereqUnits>
@@ -35067,7 +35065,6 @@
 		<PromotionInfo>		<!-- Ranged Training, Unit -->
 			<Type>PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<iAirCombat>3</iAirCombat>
 			<iAirCombatLimitBoost>30</iAirCombatLimitBoost>
@@ -35106,7 +35103,6 @@
 		<PromotionInfo>		<!-- Ranged Expertise I, Unit -->
 			<Type>PROMOTION_OVERSEER_PRECISION_1_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1_UNIT</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<iAirCombat>1</iAirCombat>
 			<iAirCombatLimitBoost>10</iAirCombatLimitBoost>
@@ -35145,7 +35141,6 @@
 		<PromotionInfo>		<!-- Ranged Expertise II, Unit -->
 			<Type>PROMOTION_OVERSEER_PRECISION_2_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<iAirCombat>1</iAirCombat>
 			<iAirCombatLimitBoost>10</iAirCombatLimitBoost>
@@ -35183,7 +35178,6 @@
 		<PromotionInfo>		<!-- Ranged Expertise III, Unit -->
 			<Type>PROMOTION_OVERSEER_PRECISION_3_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3_UNIT</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<iAirCombat>1</iAirCombat>
 			<iAirCombatLimitBoost>10</iAirCombatLimitBoost>
@@ -35221,7 +35215,6 @@
 		<PromotionInfo>		<!-- Ranged Mastery, Unit -->
 			<Type>PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<iAirCombat>2</iAirCombat>
 			<iAirCombatLimitBoost>15</iAirCombatLimitBoost>
@@ -35253,7 +35246,6 @@
 			<Type>PROMOTION_CELERITY1_OVERSEER_V2</Type>
 			<Description>TXT_KEY_PROMOTION_CELERITY1_OVERSEER</Description>
 			<TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<iMovesChange>1</iMovesChange>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCelerity.dds</Button>
@@ -35282,7 +35274,6 @@
 		<PromotionInfo>		<!-- Enhanced Celerity, Unit -->
 			<Type>PROMOTION_CELERITY2_OVERSEER_V2</Type>
 			<Description>TXT_KEY_PROMOTION_CELERITY2_OVERSEER</Description>
-			<bGraphicalOnly>1</bGraphicalOnly>
 			<iMovesChange>1</iMovesChange>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionEnhancedCelerity.dds</Button>
@@ -35397,7 +35388,6 @@
 			<MinionPromotions>
 				<PromotionType>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT_V2</PromotionType>
 			</MinionPromotions>
-			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MAELSTROM2_V2</PromotionNextLevel>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Maelstrom, Unit -->
 			<Type>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT_V2</Type>

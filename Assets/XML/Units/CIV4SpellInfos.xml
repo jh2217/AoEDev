@@ -10567,6 +10567,7 @@
 			<AddPromotions>
 				<AddPromotion>PROMOTION_REGENERATION</AddPromotion>
 			</AddPromotions>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
 			<Effect>EFFECT_CREATION</Effect>
 			<Sound>AS3D_SPELL_SPARKLE</Sound>
 			<Button>Art/Interface/Buttons/Promotions/Regeneration.dds</Button>

@@ -30619,7 +30619,7 @@
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
-					<PromotionType>PROMOTION_SLUGA_ABILITIES_V2</PromotionType>
+					<PromotionType>PROMOTION_COM_SLUGA_ABILITIES_V2</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
@@ -30662,7 +30662,78 @@
 					<UnitAIType>UNITAI_CITY_COUNTER</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
+						<Builds>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<iWorkRate>0</iWorkRate>
 			<PrereqBuilding/>
 			<PrereqTech>TECH_ALTERATION</PrereqTech>
 			<iCost>90</iCost>
@@ -30723,7 +30794,100 @@
 					<UnitAIType>UNITAI_CITY_COUNTER</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK_CITY</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COUNTER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_CITY_COUNTER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+						<Builds>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<iWorkRate>0</iWorkRate>
 			<PrereqTech>TECH_SORCERY</PrereqTech>
 			<iCost>150</iCost>
 			<iMoves>1</iMoves>
@@ -30785,7 +30949,100 @@
 					<UnitAIType>UNITAI_CITY_COUNTER</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK_CITY</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COUNTER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_CITY_COUNTER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+						<Builds>
+				<Build>
+					<BuildType>BUILD_ROAD</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FARM</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_MINE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WORKSHOP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_LUMBERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINDMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WATERMILL</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PLANTATION</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_QUARRY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_PASTURE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_CAMP</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_WINERY</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_COTTAGE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_FORT</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_JUNGLE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_REMOVE_FOREST</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+			</Builds>
+			<iWorkRate>0</iWorkRate>
 			<PrereqTech>TECH_ARCANE_LORE</PrereqTech>
 			<iCost>0</iCost>
 			<iMoves>1</iMoves>
@@ -30813,10 +31070,6 @@
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 				<FreePromotion>
-					<PromotionType>PROMOTION_DOUBLE_GC_REQUIREMENT_V2</PromotionType>
-					<iNumApplied>1</iNumApplied>
-				</FreePromotion>
-				<FreePromotion>
 					<PromotionType>PROMOTION_FEAR</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
@@ -30840,6 +31093,14 @@
 			<UnitAIs>
 				<UnitAI>
 					<UnitAIType>UNITAI_WORKER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_RESERVE</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
@@ -30929,7 +31190,7 @@
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 				<FreePromotion>
-					<PromotionType>PROMOTION_OVERSEER_V2</PromotionType>
+					<PromotionType>PROMOTION_COM_OVERSEER_V2</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
@@ -30946,6 +31207,13 @@
 				<Promotion>PROMOTION_GC_LIMIT3</Promotion>
 			</AllowPromotions>
 			<DenyPromotions>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_3</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_MASTER</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_3</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_MASTER</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_STONESKIN_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_V2</Promotion>
 				<Promotion>PROMOTION_SKILLED1</Promotion>
 				<Promotion>PROMOTION_SKILLED2</Promotion>
 				<Promotion>PROMOTION_SKILLED3</Promotion>
@@ -30955,7 +31223,6 @@
 				<Promotion>PROMOTION_HARDY2</Promotion>
 				<Promotion>PROMOTION_HARDY3</Promotion>
 				<Promotion>PROMOTION_FORTIFICATION_SPECIALIST</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_V2</Promotion>
 			</DenyPromotions>
 		</UnitInfo>
 		<UnitInfo>        <!-- Combat Overseer V2 -->
@@ -31010,6 +31277,10 @@
 			<iTier>2</iTier>
 			<iWeaponTierMax>3</iWeaponTierMax>
 			<DenyPromotions>
+			    <Promotion>PROMOTION_COM_OVERSEER_REGENERATION2_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_CELERITY2_V2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_MASTER</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_MASTER</Promotion>
 				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS</Promotion>
 				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS2</Promotion>
 				<Promotion>PROMOTION_GC_LEADERSHIP</Promotion>
@@ -31020,9 +31291,6 @@
 				<Promotion>PROMOTION_GC_SCOUTING1</Promotion>
 				<Promotion>PROMOTION_GC_BATTLE_COMMAND1</Promotion>
 				<Promotion>PROMOTION_GC_SIEGE_WARFARE1</Promotion>
-				<Promotion>PROMOTION_GC_RANGE2</Promotion>
-				<Promotion>PROMOTION_GC_RANGE3</Promotion>
-				<Promotion>PROMOTION_GC_LIMIT3</Promotion>
 			</DenyPromotions>
 		</UnitInfo>
 		<UnitInfo>        <!-- Sluga Commander V2 -->
@@ -31087,13 +31355,6 @@
 			<iCommandLimit>3</iCommandLimit>
 			<iCommandRange>1</iCommandRange>
 			<iWeaponTierMax>3</iWeaponTierMax>
-			<AllowPromotions>
-				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM2_V2</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION2_V2</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_CELERITY2_V2</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_MELEE_MASTER_V2</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_RANGED_MASTER_V2</Promotion>
-			</AllowPromotions>
 			<DenyPromotions>
 				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS</Promotion>
 				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS2</Promotion>
@@ -31163,13 +31424,18 @@
 			<iCommandLimit>3</iCommandLimit>
 			<iCommandRange>2</iCommandRange>
 			<iWeaponTierMax>3</iWeaponTierMax>
-			<AllowPromotions>
-				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM2_V2</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION2_V2</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_CELERITY2_V2</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_MELEE_MASTER_V2</Promotion>
-				<Promotion>PROMOTION_COM_OVERSEER_RANGED_MASTER_V2</Promotion>
-			</AllowPromotions>
+			<DenyPromotions>
+				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS</Promotion>
+				<Promotion>PROMOTION_GC_BATTLEFIELD_TACTICS2</Promotion>
+				<Promotion>PROMOTION_GC_LEADERSHIP</Promotion>
+				<Promotion>PROMOTION_GC_FIELD_MEDIC1</Promotion>
+				<Promotion>PROMOTION_GC_SUBTERFUGE</Promotion>
+				<Promotion>PROMOTION_GC_BATTLE_COMMAND1</Promotion>
+				<Promotion>PROMOTION_GC_SIEGE_WARFARE1</Promotion>
+				<Promotion>PROMOTION_GC_SCOUTING1</Promotion>
+				<Promotion>PROMOTION_GC_BATTLE_COMMAND1</Promotion>
+				<Promotion>PROMOTION_GC_SIEGE_WARFARE1</Promotion>
+			</DenyPromotions>
 		</UnitInfo> <!-- MEKARA V2 END -->
 		<UnitInfo>        <!-- Binder -->                        <!-- D'TESH-->
 			<Class>UNITCLASS_ADEPT</Class>
