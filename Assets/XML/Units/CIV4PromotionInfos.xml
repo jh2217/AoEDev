@@ -35287,6 +35287,12 @@
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
 			</PrereqBonusANDs>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_OVERSEER_CONTROL_2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
 			<MinionPromotions>
 				<PromotionType>PROMOTION_COM_OVERSEER_REGENERATION_UNIT_V2</PromotionType>
 			</MinionPromotions>
@@ -35313,7 +35319,6 @@
 					<iPrereqApplications>1</iPrereqApplications>
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
-			<PrereqPermission>1</PrereqPermission>
 			<MinionPromotions>
 				<PromotionType>PROMOTION_MINION_MARCH_V2</PromotionType>
 			</MinionPromotions>
