@@ -31046,8 +31046,12 @@
 			<PrereqTech>TECH_ARCANE_LORE</PrereqTech>
 			<iCost>0</iCost>
 			<iMoves>1</iMoves>
-			<iCombat>9</iCombat>
+			<iCombat>10</iCombat>
 			<iCityAttack>25</iCityAttack>
+			<iBombardRate>20</iBombardRate>
+			<iCollateralDamage>80</iCollateralDamage>
+			<iCollateralDamageLimit>40</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>4</iCollateralDamageMaxUnits>
 			<iAirCombat>3</iAirCombat>
 			<iAirCombatLimit>30</iAirCombatLimit>
 			<iAsset>8</iAsset>
@@ -31070,12 +31074,16 @@
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 				<FreePromotion>
+					<PromotionType>PROMOTION_WATER_WALKING</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
 					<PromotionType>PROMOTION_FEAR</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
 			<iMinLevel>1</iMinLevel>
-			<iCombatDefense>9</iCombatDefense>
+			<iCombatDefense>10</iCombatDefense>
 			<bDisableUpgradeTo>1</bDisableUpgradeTo>
 			<iTier>4</iTier>
 			<iWeaponTierMax>3</iWeaponTierMax>
