@@ -26422,6 +26422,32 @@ void CvGameTextMgr::setFeatureHelp(CvWStringBuffer &szBuffer, FeatureTypes eFeat
 
 }
 
+void CvGameTextMgr::setCityClassHelp(CvWStringBuffer& szBuffer, CityClassTypes eFeature, bool bCivilopediaText)
+{
+	if (NO_CITYCLASS == eFeature)
+	{
+		return;
+	}
+	CvCityClassInfo& feature = GC.getCityClassInfo(eFeature);
+
+	if (!bCivilopediaText)
+	{
+		szBuffer.append(feature.getDescription());
+	}
+}
+void CvGameTextMgr::setRouteHelp(CvWStringBuffer& szBuffer, RouteTypes eFeature, bool bCivilopediaText)
+{
+	if (NO_ROUTE == eFeature)
+	{
+		return;
+	}
+	CvRouteInfo& feature = GC.getRouteInfo(eFeature);
+
+	if (!bCivilopediaText)
+	{
+		szBuffer.append(feature.getDescription());
+	}
+}
 
 void CvGameTextMgr::setPlotEffectHelp(CvWStringBuffer& szBuffer, PlotEffectTypes eFeature, bool bCivilopediaText)
 {

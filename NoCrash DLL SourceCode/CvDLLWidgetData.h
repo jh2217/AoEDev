@@ -193,6 +193,8 @@ public:
 	void parseTerrainHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
 	void parseFeatureHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
 	void parsePlotEffectHelp(CvWidgetDataStruct& widgetDataStruct, CvWStringBuffer& szBuffer);
+	void parseCityClassHelp(CvWidgetDataStruct& widgetDataStruct, CvWStringBuffer& szBuffer);
+	void parseRouteHelp(CvWidgetDataStruct& widgetDataStruct, CvWStringBuffer& szBuffer);
 	void parseTechEntryHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
 	void parseTechPrereqHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
 	void parseTechTreePrereq(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer, bool bTechTreeInfo);

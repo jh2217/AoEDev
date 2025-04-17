@@ -631,10 +631,10 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 		parsePlotEffectHelp(widgetDataStruct, szBuffer);
 		break;
 	case WIDGET_PEDIA_JUMP_TO_CITYCLASS:
-	//	parsePlotEffectHelp(widgetDataStruct, szBuffer);
+		parseCityClassHelp(widgetDataStruct, szBuffer);
 		break;
 	case WIDGET_PEDIA_JUMP_TO_ROUTE:
-		//	parsePlotEffectHelp(widgetDataStruct, szBuffer);
+			parseRouteHelp(widgetDataStruct, szBuffer);
 		break;
 
 	case WIDGET_PEDIA_DESCRIPTION:
@@ -5694,6 +5694,21 @@ void CvDLLWidgetData::parsePlotEffectHelp(CvWidgetDataStruct& widgetDataStruct, 
 	if (widgetDataStruct.m_iData2 != 0)
 	{
 		GAMETEXT.setPlotEffectHelp(szBuffer, (PlotEffectTypes)widgetDataStruct.m_iData1);
+	}
+}
+void CvDLLWidgetData::parseCityClassHelp(CvWidgetDataStruct& widgetDataStruct, CvWStringBuffer& szBuffer)
+{
+	if (widgetDataStruct.m_iData2 != 0)
+	{
+		GAMETEXT.setCityClassHelp(szBuffer, (CityClassTypes)widgetDataStruct.m_iData1);
+	}
+}
+
+void CvDLLWidgetData::parseRouteHelp(CvWidgetDataStruct& widgetDataStruct, CvWStringBuffer& szBuffer)
+{
+	if (widgetDataStruct.m_iData2 != 0)
+	{
+		GAMETEXT.setRouteHelp(szBuffer, (RouteTypes)widgetDataStruct.m_iData1);
 	}
 }
 
