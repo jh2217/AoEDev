@@ -11486,6 +11486,7 @@ void CvGame::createSpawnGroup(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, Player
 {
 	CvUnit* pCommanderUnit=NULL;
 	bool bCommanded = false;
+	CvWString szBuffer;
 
 	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumCommanderUnits() > 0)
 	{
@@ -11494,6 +11495,13 @@ void CvGame::createSpawnGroup(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, Player
 		{
 			pCommanderUnit = GET_PLAYER(ePlayer).initUnit((UnitTypes)GC.getSpawnGroupInfo(eSpawnGroup).getCommanderUnits(iK), pPlot->getX_INLINE(), pPlot->getY_INLINE(), eUnitAI);
 			bCommanded = true;
+
+			// Tell players something spawned for them
+			if (ePlayer != DEMON_PLAYER && ePlayer != ANIMAL_PLAYER && ePlayer != ORC_PLAYER)
+			{
+				szBuffer = gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_GROUP", GC.getImprovementInfo(pPlot->getImprovementType()).getTextKeyWide(), pCommanderUnit->getName().GetCString());
+				gDLL->getInterfaceIFace()->addMessage(ePlayer, false, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_UNITGIFTED", MESSAGE_TYPE_INFO, pCommanderUnit->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_YELLOW"), pPlot->getX_INLINE(), pPlot->getY_INLINE(), true, true);
+			}
 
 			if (GC.getSpawnGroupInfo(eSpawnGroup).getNumCommanderPromotions() > 0)
 			{
@@ -11548,6 +11556,11 @@ void CvGame::createSpawnGroup(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, Player
 					{
 						pCommanderUnit->addMinionUnit(pUnit->getID());
 					}
+				}
+				else
+				{
+					szBuffer = gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT", GC.getImprovementInfo(pPlot->getImprovementType()).getTextKeyWide(), pUnit->getName().GetCString());
+					gDLL->getInterfaceIFace()->addMessage(ePlayer, false, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_UNITGIFTED", MESSAGE_TYPE_INFO, pUnit->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_YELLOW"), pPlot->getX_INLINE(), pPlot->getY_INLINE(), iK==0, iK==0);
 				}
 			}
 		}

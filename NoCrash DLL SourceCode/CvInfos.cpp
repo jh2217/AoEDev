@@ -30436,7 +30436,7 @@ m_paImprovementBonus(NULL),
 /**								Added to by Valkrionn, 1/15/10									**/
 /**										Initial Values											**/
 /*************************************************************************************************/
-m_iSpawnUnitCiv(0),
+m_iSpawnUnitCiv(NO_CIVILIZATION),
 m_iSpawnAtOnceLimit(-1),
 m_iLairCreationWeight(0),
 /*************************************************************************************************/

@@ -2717,6 +2717,22 @@
 		<Italian>[ICON_BULLET]%D1 to unit visibility range</Italian>
 		<Spanish>[ICON_BULLET]%D1 al alcance de visibilidad de la unidad</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_UNIT</Tag>
+		<English>Our control of the %s1 has produced a %s2.</English>
+		<French>Our control of the %s1 has produced a %s2.</French>
+		<German>Our control of the %s1 has produced a %s2.</German>
+		<Italian>Our control of the %s1 has produced a %s2.</Italian>
+		<Spanish>Our control of the %s1 has produced a %s2.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_GROUP</Tag>
+		<English>Our control of the %s1 has produced a squad under the command of a %s2.</English>
+		<French>Our control of the %s1 has produced a squad under the command of a %s2.</French>
+		<German>Our control of the %s1 has produced a squad under the command of a %s2.</German>
+		<Italian>Our control of the %s1 has produced a squad under the command of a %s2.</Italian>
+		<Spanish>Our control of the %s1 has produced a squad under the command of a %s2.</Spanish>
+	</TEXT>
 	<TEXT><!-- overwrites vanilla. Cause = improving French translation -->
 		<Tag>TXT_KEY_TECH_NUM_TURNS</Tag>
 		<English>[ICON_BULLET][COLOR_HIGHLIGHT_TEXT]%d1_Num Turns[COLOR_REVERT]</English>

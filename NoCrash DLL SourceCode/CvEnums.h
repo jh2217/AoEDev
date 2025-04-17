@@ -258,7 +258,7 @@ enum InterfaceModeTypes			// Exposed to Python
 #endif
 };
 
-enum InterfaceMessageTypes	// Exposed to Python
+enum InterfaceMessageTypes	// Exposed to Python // See CvTalkingHeadMessage::getExpireTurn() for viewable duration
 {
 	NO_MESSAGE_TYPE = -1,
 

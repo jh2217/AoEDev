@@ -906,6 +906,8 @@ void CvPlot::doLairSpawn()
 	// Starting chance
 	int iBaseChance = GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getLairSpawnChance();
 	bool bMissingGuard = (getNumSpawnsAlive() == 0);
+	CvWString szBuffer;
+
 	// Check for spawn unit
 	if (iUnit != NO_UNIT
 	 && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iBaseChance * GC.getImprovementInfo(getImprovementType()).getSpawnUnitChancePercentMod() * (1 + bMissingGuard))
@@ -916,7 +918,15 @@ void CvPlot::doLairSpawn()
 			iUnit = GC.getImprovementInfo(getImprovementType()).getImmediateSpawnUnitType();
 		}
 
+		// Spawn the thang
 		CvUnit* pUnit=GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), (bMissingGuard ? NO_UNITAI: UNITAI_ATTACK));
+
+		// Tell players something spawned for them
+		if (eSpawnPlayer != DEMON_PLAYER && eSpawnPlayer != ANIMAL_PLAYER && eSpawnPlayer != ORC_PLAYER)
+		{
+			szBuffer = gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT", GC.getImprovementInfo(getImprovementType()).getTextKeyWide(), pUnit->getName().GetCString());
+			gDLL->getInterfaceIFace()->addMessage(eSpawnPlayer, false, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_UNITGIFTED", MESSAGE_TYPE_INFO, GC.getUnitInfo((UnitTypes)iUnit).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_YELLOW"), getX_INLINE(), getY_INLINE(), true, true);
+		}
 
 		if (bMissingGuard && GC.getImprovementInfo(getImprovementType()).getNumGuardianPromotions() > 0)
 		{
@@ -939,6 +949,7 @@ void CvPlot::doLairSpawn()
 	if (iSpawnGroup != NO_SPAWNGROUP
 	 && GC.getGameINLINE().getSorenRandNum(30000, "Spawn Unit") < iBaseChance * GC.getImprovementInfo(getImprovementType()).getSpawnGroupChancePercentMod())
 	{
+		// Player notifications included in this func as well, in case
 		GC.getGameINLINE().createSpawnGroup((SpawnGroupTypes)iSpawnGroup, this, eSpawnPlayer);
 	}
 }
