@@ -35582,9 +35582,16 @@
 			<Type>PROMOTION_OVERSEER_SCORCH_V2</Type>
 			<Description>TXT_KEY_SPELL_SCORCH</Description>
 			<TechPrereq>TECH_DIVINATION</TechPrereq>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
+			</PrereqCivilizations>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_OVERSEER_V2</PromotionType>
+					<PromotionType>PROMOTION_COM_OVERSEER_V2</PromotionType>
 					<iPrereqApplications>1</iPrereqApplications>
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
@@ -35606,6 +35613,9 @@
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
 			</PrereqUnits>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionBloom.dds</Button>
 			<iMinLevel>-1</iMinLevel>
@@ -35614,9 +35624,16 @@
 			<Type>PROMOTION_OVERSEER_SPRING_V2</Type>
 			<Description>TXT_KEY_SPELL_SPRING</Description>
 			<TechPrereq>TECH_ELEMENTALISM</TechPrereq>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
+			</PrereqCivilizations>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_OVERSEER_V2</PromotionType>
+					<PromotionType>PROMOTION_COM_OVERSEER_V2</PromotionType>
 					<iPrereqApplications>1</iPrereqApplications>
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
@@ -35638,6 +35655,9 @@
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
 			</PrereqUnits>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionBloom.dds</Button>
 			<iMinLevel>-1</iMinLevel>
@@ -35646,9 +35666,16 @@
 			<Type>PROMOTION_OVERSEER_BLOOM_V2</Type>
 			<Description>TXT_KEY_SPELL_BLOOM</Description>
 			<TechPrereq>TECH_ALTERATION</TechPrereq>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
+			</PrereqCivilizations>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_OVERSEER_V2</PromotionType>
+					<PromotionType>PROMOTION_COM_OVERSEER_V2</PromotionType>
 					<iPrereqApplications>1</iPrereqApplications>
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
@@ -35667,9 +35694,19 @@
 			<Type>PROMOTION_OVERSEER_BLOOM_UNIT_V2</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_BLOOM_CASTING</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
+			</PrereqCivilizations>
+			<TechPrereq>TECH_ALTERATION</TechPrereq>
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
 			</PrereqUnits>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionBloom.dds</Button>
 			<iMinLevel>-1</iMinLevel>
