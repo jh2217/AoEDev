@@ -1296,19 +1296,19 @@ class CvGameUtils:
 		#	if eUnitClass == gc.getInfoTypeForString('UNIT_OVERSEER'): return True
 		#	if eUnitClass == gc.getInfoTypeForString('UNIT_COMBAT_OVERSEER'): return True
 		# TODO Ronkhar: redo all this limitation code
-		if pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_ZARIA'):
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_ASSASSIN'): return True
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_SHADOW'): return True
-		else:
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_AGENT'): return True
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_ADJUNCT'): return True
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_CARETAKER_MATRON'): return True
-		if pPlayer.getLeaderType() != gc.getInfoTypeForString('LEADER_JAMAL'):
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_KARAS'): return True
-		if pPlayer.getLeaderType() != gc.getInfoTypeForString('LEADER_IRAM'):
-			if eUnit == gc.getInfoTypeForString('UNIT_CUSTODIAN'): return True
-			if eUnit == gc.getInfoTypeForString('UNIT_SHARPSHOOTER'): return True
-			if eUnit == gc.getInfoTypeForString('UNIT_SKIRMISHER'): return True
+		#if pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_ZARIA'):
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_ASSASSIN'): return True
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_SHADOW'): return True
+		#else:
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_AGENT'): return True
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_ADJUNCT'): return True
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_CARETAKER_MATRON'): return True
+		#if pPlayer.getLeaderType() != gc.getInfoTypeForString('LEADER_JAMAL'):
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_KARAS'): return True
+		#if pPlayer.getLeaderType() != gc.getInfoTypeForString('LEADER_IRAM'):
+		#	if eUnit == gc.getInfoTypeForString('UNIT_CUSTODIAN'): return True
+		#	if eUnit == gc.getInfoTypeForString('UNIT_SHARPSHOOTER'): return True
+		#	if eUnit == gc.getInfoTypeForString('UNIT_SKIRMISHER'): return True
 
 		## *******************
 		## Modular Python: ANW 29-may-2010

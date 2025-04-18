@@ -73,6 +73,19 @@
 		<Italian>All'inizio l'Ordine Mekara era una cabala di maghi Amurite, uniti da un sogno comune: l'Ascensione.[NEWLINE][PARAGRAPH]Fondata dal necromante D'tesh, agirono per anni in segreto, facendo esperimenti su schiavi presi al mercato nero, ed eventuali persone non gradite prese dalle strade o dalle prigioni. Col tempo si svilupparono dei conflitti interni alla cabala, con D'tesh che non intendeva condividere il potere con gli altri e voleva tenere per se ciò che poteva essere la chiave per i loro obiettivi: la Gemma della Morte. [NEWLINE][PARAGRAPH]Col crescere delle tensioni interne alla fine l'Ordine Mekara si frammentò, con D'tesh andandosene per continuare le sue ricerche per conto suo, ritenendo non aver più bisogno dell'Ordine Mekara in quanto possedeva la Gemma della Morte, e lasciando uno dei suoi rivali, Jamal Dahkar, al comando. [NEWLINE][PARAGRAPH]A causa di questo conflitto interno, l'Ordine Mekara fù scoperto dalle autorità, che arrestò, processò ed esiliò i membri della cabala. Questi ultimi viaggiarono da un paese all'altro, guadagnando qualche occasionale seguace, ma più spesso attirando su di loro le ire della popolazione locale.[NEWLINE][PARAGRAPH]Dopo anni di girovagare si stabilirono in una regione vicino al confine Calabim, dove conclusero un'accordo con il governatore locale. In cambio di protezione ed asilo gli avrebbero insegnato le vie della magia e dato un ruolo di prestigio e potere all'interno dell'Ordine Mekara. Successivamente l'Ordine Mekara assunse il controllo della provincia, staccandosi dalla nazione Calabim e creandone una loro.[NEWLINE][PARAGRAPH]Sebbene la gente che governano sia quasi esclusivamente Calabim, coloro che prendono le decisioni sono quasi tutti Amurite, e tutti membri dell'Ordine Mekara, per i quali i cittadini comuni hanno poca importanza. Forniscono inoltre una rudimentale protezione ed educazione, e le sole volte in cui si interessano in maniera maggiore è quando qualcuno si dimostra estremamente competente, o li sfida. In entrambi i casi, queste persone vengono fatte sparire dalla circolazione, che sia perché vengono introdotti nell'Ordine Mekara, o buttati nelle baracche degli schiavi, per poi venir usati come cavie o manodopera a basso costo. Coloro che non rientrano in nessuna di queste categorie vengono, per la maggior parte, lasciati stare in pace, purché obbediscano alle leggi.</Italian>
 		<Spanish>The Mekara Order began as a cabal of Amurite mages, united by an common dream: Ascension.[NEWLINE][PARAGRAPH]Founded by the necromancer D'tesh, they worked for years in secrecy, experimenting on slaves smuggled in through the black market, as well as occasional undesirables snatched from the streets or prisons. Eventually, internal conflicts started causing tensions within the cabal, with D'tesh unwilling to share the power they sought with the rest, and keeping for himself what might have been the key to their dream: the Gem of Death. [NEWLINE][PARAGRAPH]As the tensions continued to build the Mekara Order eventually tore itself apart from within, with D'tesh leaving to continue his research on his own, reasoning that he had no further use for the Mekara Order with the Gem of Death in his possession, and leaving one of his rivals, Jamal Dahkar, in charge. [NEWLINE][PARAGRAPH]Due to this internal conflict, the Mekara Order was exposed to the authorities, who subsequently had them arrested, put on trial and exiled. The remaining members travelled from country to country after that, gaining occasional followers, but more often than not earning the ire of the local peoples.[NEWLINE][PARAGRAPH]After years of wandering, they settled in a region near the Calabim border, where they entered into an arrangements with the local governor. In return for sanctuary, they would teach her the ways of magic, and give her a position of prestige and power within the Mekara Order. Subsequently, the Mekara Order took over the day-to-day affairs of her province, breaking free from the Calabim nation and starting out on their own.[NEWLINE][PARAGRAPH] Though the people they rule are almost exclusively Calabim, the ones who make the decisions are nearly all Amurites, and all members of the Mekara Order, to whom the commoners are of little consequence. They provide rudimentary security and education, but the only times they take an interest beyond that, is when someone either shows themselves to be extremely competent, or defies them. In either case, they are removed from society, either to be inducted into the Mekara Order, or thrown into the slave pens, to be used as guinea pigs or cheap labor. Those who fit neither category are, for the most part, left to their own devices, as long as they obey the laws.</Spanish>
 	</TEXT>
+	<TEXT>	<!-- Strategy -->
+		<Tag>TXT_KEY_CIV_MEKARA_STRATEGY</Tag>
+		<English>Strategy:
+[NEWLINE]The Mekara are three Civs in one, and which one you choose decides how they will play: [LINK=LEADER_JAMAL]Jamal, the Master[\LINK], [LINK=LEADER_IRAM]Iram, the Aspiring[\LINK], or [LINK=LEADER_ZARIA]Zaria, the Beloved Duchess[\LINK]. [NEWLINE][ICON_BULLET]Jamal performs horrific experiments on living people to produce [LINK=UNIT_BATTLE_SLUGA_V2]Slugas[\LINK], controlled by [LINK=UNIT_OVERSEER_V2]Overseers[\LINK], these mindless humanoid golems serve as workers and soldiers as the [LINK=UNIT_SHAPER]Shapers[\LINK] study how to surpass humanities limitations. [NEWLINE][ICON_BULLET]Iram believes that the next stage in evolution can be achieved through [LINK=UNIT_ASPIRANT]Aspirants[\LINK], guided by destiny and guarded by legions of voluntary [LINK=PROMOTION_MILITIA]Militia[\LINK] who have faith in Irams vision. [NEWLINE][ICON_BULLET]Zaria cloaks her realm in a false sense of security through a healing church run by a secret coven of her [LINK=UNIT_CARETAKER_MATRON]Vampires[\LINK], feeding on the dying. Her secret [LINK=UNIT_AGENT]Agents[\LINK] watching from every shadow.[NEWLINE][NEWLINE]All of them share a few key goals:[NEWLINE][ICON_BULLET]They all wish to create [LINK=UNIT_ASCENDANT]Ascended[\LINK], demigods in the flesh.[NEWLINE][ICON_BULLET]They have different methods to reach ascension but all of them need [LINK=UNIT_SLAVE]Slaves.[\LINK] Slaves for [LINK=SPELL_SHAPER_EXPERIMENTS]Experiments[\LINK], [LINK=BUILDING_PAGAN_TEMPLE_MEKARA]Slaves for their Cities[\LINK] or just slaves for [LINK=BUILDING_COLOSSEUM]Entertainment[\LINK]. Getting the [LINK=CIVIC_SLAVERY]Slavery Civic[\LINK] is a natural choice. [LINK=SPELL_ENSLAVE_DISSIDENTS_V2]Rounding up the Rebellious[\LINK] in your civilization is another way to go. Or just [LINK=SPELL_SLAVE_TRADE_BUY_MEKARA]Buy Them[\LINK], if you can afford the "Creepy Mekara Fee" the slavers charge.</English>
+		<French>Strategy:
+[NEWLINE]The Mekara are three Civs in one, and which one you choose decides how they will play: [LINK=LEADER_JAMAL]Jamal, the Master[\LINK], [LINK=LEADER_IRAM]Iram, the Aspiring[\LINK], or [LINK=LEADER_ZARIA]Zaria, the Beloved Duchess[\LINK]. [NEWLINE][ICON_BULLET]Jamal performs horrific experiments on living people to produce [LINK=UNIT_BATTLE_SLUGA_V2]Slugas[\LINK], controlled by [LINK=UNIT_OVERSEER_V2]Overseers[\LINK], these mindless humanoid golems serve as workers and soldiers as the [LINK=UNIT_SHAPER]Shapers[\LINK] study how to surpass humanities limitations. [NEWLINE][ICON_BULLET]Iram believes that the next stage in evolution can be achieved through [LINK=UNIT_ASPIRANT]Aspirants[\LINK], guided by destiny and guarded by legions of voluntary [LINK=PROMOTION_MILITIA]Militia[\LINK] who have faith in Irams vision. [NEWLINE][ICON_BULLET]Zaria cloaks her realm in a false sense of security through a healing church run by a secret coven of her [LINK=UNIT_CARETAKER_MATRON]Vampires[\LINK], feeding on the dying. Her secret [LINK=UNIT_AGENT]Agents[\LINK] watching from every shadow.[NEWLINE][NEWLINE]All of them share a few key goals:[NEWLINE][ICON_BULLET]They all wish to create [LINK=UNIT_ASCENDANT]Ascended[\LINK], demigods in the flesh.[NEWLINE][ICON_BULLET]They have different methods to reach ascension but all of them need [LINK=UNIT_SLAVE]Slaves.[\LINK] Slaves for [LINK=SPELL_SHAPER_EXPERIMENTS]Experiments[\LINK], [LINK=BUILDING_PAGAN_TEMPLE_MEKARA]Slaves for their Cities[\LINK] or just slaves for [LINK=BUILDING_COLOSSEUM]Entertainment[\LINK]. Getting the [LINK=CIVIC_SLAVERY]Slavery Civic[\LINK] is a natural choice. [LINK=SPELL_ENSLAVE_DISSIDENTS_V2]Rounding up the Rebellious[\LINK] in your civilization is another way to go. Or just [LINK=SPELL_SLAVE_TRADE_BUY_MEKARA]Buy Them[\LINK], if you can afford the "Creepy Mekara Fee" the slavers charge.</French>
+		<German>Strategy:
+[NEWLINE]The Mekara are three Civs in one, and which one you choose decides how they will play: [LINK=LEADER_JAMAL]Jamal, the Master[\LINK], [LINK=LEADER_IRAM]Iram, the Aspiring[\LINK], or [LINK=LEADER_ZARIA]Zaria, the Beloved Duchess[\LINK]. [NEWLINE][ICON_BULLET]Jamal performs horrific experiments on living people to produce [LINK=UNIT_BATTLE_SLUGA_V2]Slugas[\LINK], controlled by [LINK=UNIT_OVERSEER_V2]Overseers[\LINK], these mindless humanoid golems serve as workers and soldiers as the [LINK=UNIT_SHAPER]Shapers[\LINK] study how to surpass humanities limitations. [NEWLINE][ICON_BULLET]Iram believes that the next stage in evolution can be achieved through [LINK=UNIT_ASPIRANT]Aspirants[\LINK], guided by destiny and guarded by legions of voluntary [LINK=PROMOTION_MILITIA]Militia[\LINK] who have faith in Irams vision. [NEWLINE][ICON_BULLET]Zaria cloaks her realm in a false sense of security through a healing church run by a secret coven of her [LINK=UNIT_CARETAKER_MATRON]Vampires[\LINK], feeding on the dying. Her secret [LINK=UNIT_AGENT]Agents[\LINK] watching from every shadow.[NEWLINE][NEWLINE]All of them share a few key goals:[NEWLINE][ICON_BULLET]They all wish to create [LINK=UNIT_ASCENDANT]Ascended[\LINK], demigods in the flesh.[NEWLINE][ICON_BULLET]They have different methods to reach ascension but all of them need [LINK=UNIT_SLAVE]Slaves.[\LINK] Slaves for [LINK=SPELL_SHAPER_EXPERIMENTS]Experiments[\LINK], [LINK=BUILDING_PAGAN_TEMPLE_MEKARA]Slaves for their Cities[\LINK] or just slaves for [LINK=BUILDING_COLOSSEUM]Entertainment[\LINK]. Getting the [LINK=CIVIC_SLAVERY]Slavery Civic[\LINK] is a natural choice. [LINK=SPELL_ENSLAVE_DISSIDENTS_V2]Rounding up the Rebellious[\LINK] in your civilization is another way to go. Or just [LINK=SPELL_SLAVE_TRADE_BUY_MEKARA]Buy Them[\LINK], if you can afford the "Creepy Mekara Fee" the slavers charge.</German>
+		<Italian>Strategy:
+[NEWLINE]The Mekara are three Civs in one, and which one you choose decides how they will play: [LINK=LEADER_JAMAL]Jamal, the Master[\LINK], [LINK=LEADER_IRAM]Iram, the Aspiring[\LINK], or [LINK=LEADER_ZARIA]Zaria, the Beloved Duchess[\LINK]. [NEWLINE][ICON_BULLET]Jamal performs horrific experiments on living people to produce [LINK=UNIT_BATTLE_SLUGA_V2]Slugas[\LINK], controlled by [LINK=UNIT_OVERSEER_V2]Overseers[\LINK], these mindless humanoid golems serve as workers and soldiers as the [LINK=UNIT_SHAPER]Shapers[\LINK] study how to surpass humanities limitations. [NEWLINE][ICON_BULLET]Iram believes that the next stage in evolution can be achieved through [LINK=UNIT_ASPIRANT]Aspirants[\LINK], guided by destiny and guarded by legions of voluntary [LINK=PROMOTION_MILITIA]Militia[\LINK] who have faith in Irams vision. [NEWLINE][ICON_BULLET]Zaria cloaks her realm in a false sense of security through a healing church run by a secret coven of her [LINK=UNIT_CARETAKER_MATRON]Vampires[\LINK], feeding on the dying. Her secret [LINK=UNIT_AGENT]Agents[\LINK] watching from every shadow.[NEWLINE][NEWLINE]All of them share a few key goals:[NEWLINE][ICON_BULLET]They all wish to create [LINK=UNIT_ASCENDANT]Ascended[\LINK], demigods in the flesh.[NEWLINE][ICON_BULLET]They have different methods to reach ascension but all of them need [LINK=UNIT_SLAVE]Slaves.[\LINK] Slaves for [LINK=SPELL_SHAPER_EXPERIMENTS]Experiments[\LINK], [LINK=BUILDING_PAGAN_TEMPLE_MEKARA]Slaves for their Cities[\LINK] or just slaves for [LINK=BUILDING_COLOSSEUM]Entertainment[\LINK]. Getting the [LINK=CIVIC_SLAVERY]Slavery Civic[\LINK] is a natural choice. [LINK=SPELL_ENSLAVE_DISSIDENTS_V2]Rounding up the Rebellious[\LINK] in your civilization is another way to go. Or just [LINK=SPELL_SLAVE_TRADE_BUY_MEKARA]Buy Them[\LINK], if you can afford the "Creepy Mekara Fee" the slavers charge.</Italian>
+		<Spanish>Strategy:
+[NEWLINE]The Mekara are three Civs in one, and which one you choose decides how they will play: [LINK=LEADER_JAMAL]Jamal, the Master[\LINK], [LINK=LEADER_IRAM]Iram, the Aspiring[\LINK], or [LINK=LEADER_ZARIA]Zaria, the Beloved Duchess[\LINK]. [NEWLINE][ICON_BULLET]Jamal performs horrific experiments on living people to produce [LINK=UNIT_BATTLE_SLUGA_V2]Slugas[\LINK], controlled by [LINK=UNIT_OVERSEER_V2]Overseers[\LINK], these mindless humanoid golems serve as workers and soldiers as the [LINK=UNIT_SHAPER]Shapers[\LINK] study how to surpass humanities limitations. [NEWLINE][ICON_BULLET]Iram believes that the next stage in evolution can be achieved through [LINK=UNIT_ASPIRANT]Aspirants[\LINK], guided by destiny and guarded by legions of voluntary [LINK=PROMOTION_MILITIA]Militia[\LINK] who have faith in Irams vision. [NEWLINE][ICON_BULLET]Zaria cloaks her realm in a false sense of security through a healing church run by a secret coven of her [LINK=UNIT_CARETAKER_MATRON]Vampires[\LINK], feeding on the dying. Her secret [LINK=UNIT_AGENT]Agents[\LINK] watching from every shadow.[NEWLINE][NEWLINE]All of them share a few key goals:[NEWLINE][ICON_BULLET]They all wish to create [LINK=UNIT_ASCENDANT]Ascended[\LINK], demigods in the flesh.[NEWLINE][ICON_BULLET]They have different methods to reach ascension but all of them need [LINK=UNIT_SLAVE]Slaves.[\LINK] Slaves for [LINK=SPELL_SHAPER_EXPERIMENTS]Experiments[\LINK], [LINK=BUILDING_PAGAN_TEMPLE_MEKARA]Slaves for their Cities[\LINK] or just slaves for [LINK=BUILDING_COLOSSEUM]Entertainment[\LINK]. Getting the [LINK=CIVIC_SLAVERY]Slavery Civic[\LINK] is a natural choice. [LINK=SPELL_ENSLAVE_DISSIDENTS_V2]Rounding up the Rebellious[\LINK] in your civilization is another way to go. Or just [LINK=SPELL_SLAVE_TRADE_BUY_MEKARA]Buy Them[\LINK], if you can afford the "Creepy Mekara Fee" the slavers charge.</Spanish>
+	</TEXT>
 	<TEXT>	<!-- Leader: Jamal, Name -->
 		<Tag>TXT_KEY_LEADER_JAMAL</Tag>
 		<English>Jamal Dahkar</English>
@@ -177,7 +190,7 @@
 		<Italian>Nonostante non sia un mago di grande talento, Karas è uno dei membri più importanti dell'Ordine Mekara. La ragione di ciò è che lui è la persona che ha progettato la parte più importante degli Sluga; la mente alveare, collegando gruppi di Sluga tra di loro facendogli condividere tra loro le loro conoscenze. Questo è ciò che i Supervisori usano per controllarli e per imprimere in loro abilità e conoscenze utili. Karas stesso è uno dei Supervisori più capaci che l'Ordine Mekara ha, e come tale svolge un ruolo importante nell'esercito Mekara.</Italian>
 		<Spanish>Despite not being a very talented mage, Karas is one of the more prominent members of the Mekara Order. The reason for this is that he is the man who engineered the most vital part of the Sluga; a hive mind, linking groups of Sluga together, sharing their knowledge and skills with each other. This is what the Overseers tap into in order to control them, and to imprint them with useful knowledge and skills. Karas himself is one of the most talented Overseers the Mekara Order has, and as such plays a big role in the Mekaran military.</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Familiar -->
+	<TEXT>	<!-- Familiar -->          <!-- Not Used -->
 		<Tag>TXT_KEY_UNIT_FAMILIAR</Tag>
 		<English>Familiar</English>
 		<French>Familier</French>
@@ -185,7 +198,7 @@
 		<Italian>Famiglio</Italian>
 		<Spanish>Familiar</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Familiar, Pedia -->
+	<TEXT>	<!-- Familiar, Pedia -->          <!-- Not Used -->
 		<Tag>TXT_KEY_UNIT_FAMILIAR_PEDIA</Tag>
 		<English>Created by Mekaran mages to function as laboratory assistants and servants, the Familiars are small, fragile creatures with little in the way of intelligence. They tend to be very loyal to their masters, and will work hard to fulfil their requests, whatever they might be.</English>
 		<French>Created by Mekaran mages to function as laboratory assistants and servants, the Familiars are small, fragile creatures with little in the way of intelligence. They tend to be very loyal to their masters, and will work hard to fulfil their requests, whatever they might be.</French>
@@ -211,11 +224,21 @@
 	</TEXT>
 	<TEXT>	<!-- Sluga, Strategy -->
 		<Tag>TXT_KEY_UNIT_SLUGA_STRATEGY</Tag>
-		<English>The Sluga have neither build orders nor work rates without an Overseer unit. The Overseer's command productions give them both, as well as providing them with terraforming capabilities once the appropriate techs have been researched (note that the Sluga MUST be commanded by an Overseer to get these Build Orders).[NEWLINE][ICON_BULLET]Agriculture and Calendar together unlock Farms, Plantations, Cottages and Wineries[NEWLINE][ICON_BULLET]Mining and Masonry together unlock Mines, Quarries and Forts[NEWLINE][ICON_BULLET]Animal Husbandry and Hunting together unlock Camps, Yarangas and Pastures[NEWLINE][ICON_BULLET]Construction unlocks Windmills, Watermills and Lumbermills</English>
-		<French>The Sluga have neither build orders nor work rates without an Overseer unit. The Overseer's command productions give them both, as well as providing them with terraforming capabilities once the appropriate techs have been researched (note that the Sluga MUST be commanded by an Overseer to get these Build Orders).[NEWLINE][ICON_BULLET]Agriculture and Calendar together unlock Farms, Plantations, Cottages and Wineries[NEWLINE][ICON_BULLET]Mining and Masonry together unlock Mines, Quarries and Forts[NEWLINE][ICON_BULLET]Animal Husbandry and Hunting together unlock Camps, Yarangas and Pastures[NEWLINE][ICON_BULLET]Construction unlocks Windmills, Watermills and Lumbermills</French>
-		<German>The Sluga have neither build orders nor work rates without an Overseer unit. The Overseer's command productions give them both, as well as providing them with terraforming capabilities once the appropriate techs have been researched (note that the Sluga MUST be commanded by an Overseer to get these Build Orders).[NEWLINE][ICON_BULLET]Agriculture and Calendar together unlock Farms, Plantations, Cottages and Wineries[NEWLINE][ICON_BULLET]Mining and Masonry together unlock Mines, Quarries and Forts[NEWLINE][ICON_BULLET]Animal Husbandry and Hunting together unlock Camps, Yarangas and Pastures[NEWLINE][ICON_BULLET]Construction unlocks Windmills, Watermills and Lumbermills</German>
-		<Italian>Gli Sluga non hanno ne ritmo di lavoro ne possono costruire senza un'unità Supervisore. Il comando del Supervisore gli da entrambi, oltre a fornirgli capacità di terraformazione una volta scoperte certe tecnologie (ricorda che gli Sluga DEVONO essere comandati da un Supervisore per poter costruire).[NEWLINE][ICON_BULLET]Agricoltura e Calendario insieme sbloccano le Fattorie, le Piantagioni, le Villette e le Aziende Vinicole[NEWLINE][ICON_BULLET]Estrazione mineraria e Muratura insieme sbloccano le Miniere, le Cave e le Fortezze[NEWLINE][ICON_BULLET]Allevamento di animali e Caccia insieme sbloccano i Campi, le Yaranga e i Pascoli[NEWLINE][ICON_BULLET]Costruzione sblocca i Mulini a Vento, i Mulini ad Acqua e le Segherie</Italian>
-		<Spanish>The Sluga have neither build orders nor work rates without an Overseer unit. The Overseer's command productions give them both, as well as providing them with terraforming capabilities once the appropriate techs have been researched (note that the Sluga MUST be commanded by an Overseer to get these Build Orders).[NEWLINE][ICON_BULLET]Agriculture and Calendar together unlock Farms, Plantations, Cottages and Wineries[NEWLINE][ICON_BULLET]Mining and Masonry together unlock Mines, Quarries and Forts[NEWLINE][ICON_BULLET]Animal Husbandry and Hunting together unlock Camps, Yarangas and Pastures[NEWLINE][ICON_BULLET]Construction unlocks Windmills, Watermills and Lumbermills</Spanish>
+		<English>The Sluga have no work rate without an Overseer or Commander unit. The Overseer promotions give them workrate, as well as providing them with terraforming capabilities once the appropriate techs have been researched (Bloom at Alteration, Scorch at Divination, Spring at Elementalism).
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</English>
+		<French>The Sluga have no work rate without an Overseer or Commander unit. The Overseer promotions give them workrate, as well as providing them with terraforming capabilities once the appropriate techs have been researched(Bloom at Alteration, Scorch at Divination, Spring at Elementalism). 
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</French>
+		<German>The Sluga have no work rate without an Overseer or Commander unit. The Overseer promotions give them workrate, as well as providing them with terraforming capabilities once the appropriate techs have been researched(Bloom at Alteration, Scorch at Divination, Spring at Elementalism). 
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</German>
+		<Italian>The Sluga have no work rate without an Overseer or Commander unit. The Overseer promotions give them workrate, as well as providing them with terraforming capabilities once the appropriate techs have been researched(Bloom at Alteration, Scorch at Divination, Spring at Elementalism).
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</Italian>
+		<Spanish>The Sluga have no work rate without an Overseer or Commander unit. The Overseer promotions give them workrate, as well as providing them with terraforming capabilities once the appropriate techs have been researched(Bloom at Alteration, Scorch at Divination, Spring at Elementalism). 
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</Spanish>
 	</TEXT>
 	<TEXT>	<!-- Battle Sluga -->
 		<Tag>TXT_KEY_UNIT_BATTLE_SLUGA</Tag>
@@ -235,19 +258,29 @@
 	</TEXT>
 	<TEXT>	<!-- Battle Sluga, Pedia -->
 		<Tag>TXT_KEY_UNIT_BATTLE_SLUGA_PEDIA</Tag>
-		<English>In general, Sluga are not well suited for battle; they are slow, unintelligent, and with very poor reflexes. Therefore, they were initially dismissed as a potential military force. This changed when an Overseer by the name of Karas appeared in the Mekaran ranks. He was the first to succeed in rebuilding a Sluga to compensate for their inherent weaknesses, and so created the Battle Sluga. While additional training is required to handle the strain of controlling them, they serve well as rank-and-file soldiers for the Mekara Order.</English>
-		<French>In general, Sluga are not well suited for battle; they are slow, unintelligent, and with very poor reflexes. Therefore, they were initially dismissed as a potential military force. This changed when an Overseer by the name of Karas appeared in the Mekaran ranks. He was the first to succeed in rebuilding a Sluga to compensate for their inherent weaknesses, and so created the Battle Sluga. While additional training is required to handle the strain of controlling them, they serve well as rank-and-file soldiers for the Mekara Order.</French>
-		<German>In general, Sluga are not well suited for battle; they are slow, unintelligent, and with very poor reflexes. Therefore, they were initially dismissed as a potential military force. This changed when an Overseer by the name of Karas appeared in the Mekaran ranks. He was the first to succeed in rebuilding a Sluga to compensate for their inherent weaknesses, and so created the Battle Sluga. While additional training is required to handle the strain of controlling them, they serve well as rank-and-file soldiers for the Mekara Order.</German>
-		<Italian>In generale gli Sluga non sono portati al combattimento; sono lenti, privi di intelligenza e con riflessi molto scarsi. Pertanto inizialmente furono scartati come potenziale forza militare. Tutto questo cambiò quando un Sorvegliante di nome Karas comparve tra i ranghi Mekara. Lui riuscì per primo nel ricostruire uno Sluga in modo da compensare le sue innate debolezze, creando cosi gli Sluga da Battaglia. Sebbene sia richesto un addestramento supplementare per gestirli si sono rivelati utili come soldati per l'Ordine Mekara.</Italian>
-		<Spanish>In general, Sluga are not well suited for battle; they are slow, unintelligent, and with very poor reflexes. Therefore, they were initially dismissed as a potential military force. This changed when an Overseer by the name of Karas appeared in the Mekaran ranks. He was the first to succeed in rebuilding a Sluga to compensate for their inherent weaknesses, and so created the Battle Sluga. While additional training is required to handle the strain of controlling them, they serve well as rank-and-file soldiers for the Mekara Order.</Spanish>
+		<English>In general, Sluga are not well suited for battle; they are slow, unintelligent, and with very poor reflexes. Therefore, they were initially dismissed as a potential military force. This changed when an Overseer by the name of Karas appeared in the Mekaran ranks. He was the first to succeed in rebuilding a Sluga to compensate for their inherent weaknesses, and so created the Battle Sluga. While they lack any free will outside of a Commander, they serve well as rank-and-file soldiers for the Mekara Order.</English>
+		<French>In general, Sluga are not well suited for battle; they are slow, unintelligent, and with very poor reflexes. Therefore, they were initially dismissed as a potential military force. This changed when an Overseer by the name of Karas appeared in the Mekaran ranks. He was the first to succeed in rebuilding a Sluga to compensate for their inherent weaknesses, and so created the Battle Sluga. While they lack any free will outside of a Commander, they serve well as rank-and-file soldiers for the Mekara Order.</French>
+		<German>In general, Sluga are not well suited for battle; they are slow, unintelligent, and with very poor reflexes. Therefore, they were initially dismissed as a potential military force. This changed when an Overseer by the name of Karas appeared in the Mekaran ranks. He was the first to succeed in rebuilding a Sluga to compensate for their inherent weaknesses, and so created the Battle Sluga. While they lack any free will outside of a Commander, they serve well as rank-and-file soldiers for the Mekara Order.</German>
+		<Italian>In general, Sluga are not well suited for battle; they are slow, unintelligent, and with very poor reflexes. Therefore, they were initially dismissed as a potential military force. This changed when an Overseer by the name of Karas appeared in the Mekaran ranks. He was the first to succeed in rebuilding a Sluga to compensate for their inherent weaknesses, and so created the Battle Sluga. While they lack any free will outside of a Commander, they serve well as rank-and-file soldiers for the Mekara Order.</Italian>
+		<Spanish>In general, Sluga are not well suited for battle; they are slow, unintelligent, and with very poor reflexes. Therefore, they were initially dismissed as a potential military force. This changed when an Overseer by the name of Karas appeared in the Mekaran ranks. He was the first to succeed in rebuilding a Sluga to compensate for their inherent weaknesses, and so created the Battle Sluga. While they lack any free will outside of a Commander, they serve well as rank-and-file soldiers for the Mekara Order.</Spanish>
 	</TEXT>
 	<TEXT>	<!-- Battle Sluga, Strategy -->
 		<Tag>TXT_KEY_UNIT_BATTLE_SLUGA_STRATEGY</Tag>
-		<English>The Battle Sluga line of units function like the regular Sluga in many respects; they are both useless without a commanding Overseer, and they don't get XP on their own. However, while the regular Sluga are made for construction, these are made for war. There are three tiers of Battle Sluga; the Battle Sluga, the War Sluga and the Behemoth. The Battle Sluga is made the same way Sluga are, by sacrificing a Slave in a city that has a Mage Guild, and are available at Alteration. The War Sluga are available as their upgrade at Sorcery, and the Behemoth can be created through a city spell at Arcane Lore.</English>
-		<French>The Battle Sluga line of units function like the regular Sluga in many respects; they are both useless without a commanding Overseer, and they don't get XP on their own. However, while the regular Sluga are made for construction, these are made for war. There are three tiers of Battle Sluga; the Battle Sluga, the War Sluga and the Behemoth. The Battle Sluga is made the same way Sluga are, by sacrificing a Slave in a city that has a Mage Guild, and are available at Alteration. The War Sluga are available as their upgrade at Sorcery, and the Behemoth can be created through a city spell at Arcane Lore.</French>
-		<German>The Battle Sluga line of units function like the regular Sluga in many respects; they are both useless without a commanding Overseer, and they don't get XP on their own. However, while the regular Sluga are made for construction, these are made for war. There are three tiers of Battle Sluga; the Battle Sluga, the War Sluga and the Behemoth. The Battle Sluga is made the same way Sluga are, by sacrificing a Slave in a city that has a Mage Guild, and are available at Alteration. The War Sluga are available as their upgrade at Sorcery, and the Behemoth can be created through a city spell at Arcane Lore.</German>
-		<Italian>Gli Sluga da combattimento funzionano come i normali Sluga sotto molti aspetti; sono entrambi inutili senza un Supervisore che li comanda, e non ottengono PE per conto loro. Tuttavia, mentre gli Sluga normali sono fatti per costruire questi sono fatti per combattere. Ci sono tre livelli di Sluga da combattimento; gli Sluga da Battaglia, gli Sluga da Guerra e i Behemoth. Gli Sluga da Battaglia si creano come i normali Sluga, ovvero sacrficando uno Schiavo in una città con il Laboratorio del Modellatore, e si sbloccano con la tecnologia Alterazione. Gli Sluga da Guerra sono il loro miglioramento e si sbloccano con la tecnologia Stregoneria, e i Behemoth possono essere creati usando una magia nelle città una volta scoperta la tecnologia Conoscenza Arcana.</Italian>
-		<Spanish>The Battle Sluga line of units function like the regular Sluga in many respects; they are both useless without a commanding Overseer, and they don't get XP on their own. However, while the regular Sluga are made for construction, these are made for war. There are three tiers of Battle Sluga; the Battle Sluga, the War Sluga and the Behemoth. The Battle Sluga is made the same way Sluga are, by sacrificing a Slave in a city that has a Mage Guild, and are available at Alteration. The War Sluga are available as their upgrade at Sorcery, and the Behemoth can be created through a city spell at Arcane Lore.</Spanish>
+		<English>The Battle Sluga line of units function like the regular Sluga in many respects; they are both useless without a Commander, and they don't get XP on their own. However, while the regular Sluga are made for cheap labor, these are adapted for warfare. There are three tiers of Battle Sluga; the Battle Sluga, the War Sluga and the Behemoth. The Battle Sluga is made the same way Sluga are, by sacrificing a Slave in a city that has a Mage Guild, and are available at Alteration. The War Sluga are available as their upgrade at Sorcery, and the Behemoth can be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2] Create Behemoth spell[\LINK] at Arcane Lore.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</English>
+		<French>The Battle Sluga line of units function like the regular Sluga in many respects; they are both useless without a Commander, and they don't get XP on their own. However, while the regular Sluga are made for cheap labor, these are adapted for warfare. There are three tiers of Battle Sluga; the Battle Sluga, the War Sluga and the Behemoth. The Battle Sluga is made the same way Sluga are, by sacrificing a Slave in a city that has a Mage Guild, and are available at Alteration. The War Sluga are available as their upgrade at Sorcery, and the Behemoth can be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2] Create Behemoth spell[\LINK] at Arcane Lore. 
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</French>
+		<German>The Battle Sluga line of units function like the regular Sluga in many respects; they are both useless without a Commander, and they don't get XP on their own. However, while the regular Sluga are made for cheap labor, these are adapted for warfare. There are three tiers of Battle Sluga; the Battle Sluga, the War Sluga and the Behemoth. The Battle Sluga is made the same way Sluga are, by sacrificing a Slave in a city that has a Mage Guild, and are available at Alteration. The War Sluga are available as their upgrade at Sorcery, and the Behemoth can be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2] Create Behemoth spell[\LINK] at Arcane Lore. 
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</German>
+		<Italian>The Battle Sluga line of units function like the regular Sluga in many respects; they are both useless without a Commander, and they don't get XP on their own. However, while the regular Sluga are made for cheap labor, these are adapted for warfare. There are three tiers of Battle Sluga; the Battle Sluga, the War Sluga and the Behemoth. The Battle Sluga is made the same way Sluga are, by sacrificing a Slave in a city that has a Mage Guild, and are available at Alteration. The War Sluga are available as their upgrade at Sorcery, and the Behemoth can be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2] Create Behemoth spell[\LINK] at Arcane Lore.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</Italian>
+		<Spanish>The Battle Sluga line of units function like the regular Sluga in many respects; they are both useless without a Commander, and they don't get XP on their own. However, while the regular Sluga are made for cheap labor, these are adapted for warfare. There are three tiers of Battle Sluga; the Battle Sluga, the War Sluga and the Behemoth. The Battle Sluga is made the same way Sluga are, by sacrificing a Slave in a city that has a Mage Guild, and are available at Alteration. The War Sluga are available as their upgrade at Sorcery, and the Behemoth can be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2] Create Behemoth spell[\LINK] at Arcane Lore.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</Spanish>
 	</TEXT>
 	<TEXT>	<!-- Behemoth Sluga -->
 		<Tag>TXT_KEY_UNIT_BEHEMOTH_SLUGA</Tag>
@@ -267,11 +300,21 @@
 	</TEXT>
 	<TEXT>	<!-- Behemoth Sluga, Strategy -->
 		<Tag>TXT_KEY_UNIT_BEHEMOTH_SLUGA_STRATEGY</Tag>
-		<English>While the Battle Sluga can be either built or created by sacrificing a slave, the Behemoth can only be created through the Create Behemoth city spell, castable at Arcane Lore, which requires 4 units to be sacrificed. They must all be placed in the city for the spell to be castable, and they must all be of the Slave, Sluga, Battle Sluga or War Sluga unitclasses. The spell will give preference to slaves and regular sluga, and will only use Battle or War Sluga when nothing else is available.</English>
-		<French>While the Battle Sluga can be either built or created by sacrificing a slave, the Behemoth can only be created through the Create Behemoth city spell, castable at Arcane Lore, which requires 4 units to be sacrificed. They must all be placed in the city for the spell to be castable, and they must all be of the Slave, Sluga, Battle Sluga or War Sluga unitclasses. The spell will give preference to slaves and regular sluga, and will only use Battle or War Sluga when nothing else is available.</French>
-		<German>While the Battle Sluga can be either built or created by sacrificing a slave, the Behemoth can only be created through the Create Behemoth city spell, castable at Arcane Lore, which requires 4 units to be sacrificed. They must all be placed in the city for the spell to be castable, and they must all be of the Slave, Sluga, Battle Sluga or War Sluga unitclasses. The spell will give preference to slaves and regular sluga, and will only use Battle or War Sluga when nothing else is available.</German>
-		<Italian>Mentre gli Sluga da combattimento possono essere costruiti o creati sacrificando uno Schiavo i Behemoth possono essere creati solo attraverso la magia da città 'Crea Behemoth', lanciabile dopo aver scoperto la tecnologia 'Conoscenza Arcana', che richiede di sacrificare 4 unità. Queste devono essere tutte presenti nella città per rendere lanciabile la magia, e devono essere Schiavi o Sluga (non importa il tipo). La magia consuma in maniera preferenziale gli Schiavi e gli Sluga normali, consumando Sluga da Battaglia o da Guerra quando non vi è altro a disposizione.</Italian>
-		<Spanish>While the Battle Sluga can be either built or created by sacrificing a slave, the Behemoth can only be created through the Create Behemoth city spell, castable at Arcane Lore, which requires 4 units to be sacrificed. They must all be placed in the city for the spell to be castable, and they must all be of the Slave, Sluga, Battle Sluga or War Sluga unitclasses. The spell will give preference to slaves and regular sluga, and will only use Battle or War Sluga when nothing else is available.</Spanish>
+		<English>While the Battle Sluga can be either built or created by sacrificing a slave, the Behemoth can only be created through the Create Behemoth spell, castable at Arcane Lore, which requires 4 units to be sacrificed. They must all be placed in the city for the spell to be castable, and they must all be of the Slave unitclass.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</English>
+		<French>While the Battle Sluga can be either built or created by sacrificing a slave, the Behemoth can only be created through the Create Behemoth  spell, castable at Arcane Lore, which requires 4 units to be sacrificed. They must all be placed in the city for the spell to be castable, and they must all be of the Slave unitclass.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</French>
+		<German>While the Battle Sluga can be either built or created by sacrificing a slave, the Behemoth can only be created through the Create Behemoth  spell, castable at Arcane Lore, which requires 4 units to be sacrificed. They must all be placed in the city for the spell to be castable, and they must all be of the Slave unitclass.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</German>
+		<Italian>While the Battle Sluga can be either built or created by sacrificing a slave, the Behemoth can only be created through the Create Behemoth  spell, castable at Arcane Lore, which requires 4 units to be sacrificed. They must all be placed in the city for the spell to be castable, and they must all be of the Slave unitclass.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</Italian>
+		<Spanish>While the Battle Sluga can be either built or created by sacrificing a slave, the Behemoth can only be created through the Create Behemoth  spell, castable at Arcane Lore, which requires 4 units to be sacrificed. They must all be placed in the city for the spell to be castable, and they must all be of the Slave unitclass.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</Spanish>
 	</TEXT>
 	<TEXT>	<!-- Overseer -->
 		<Tag>TXT_KEY_UNIT_OVERSEER</Tag>
@@ -291,11 +334,21 @@
 	</TEXT>
 	<TEXT>	<!-- Overseer, Strategy -->
 		<Tag>TXT_KEY_UNIT_OVERSEER_STRATEGY</Tag>
-		<English>The Overseer funtions both as a worker, and as a commander for Slave and Sluga units. The command skills he can aquire improves their workrate (to a greater degree with the Sluga), as well as providing new Build Orders for the Sluga.</English>
-		<French>The Overseer funtions both as a worker, and as a commander for Slave and Sluga units. The command skills he can aquire improves their workrate (to a greater degree with the Sluga), as well as providing new Build Orders for the Sluga.</French>
-		<German>The Overseer funtions both as a worker, and as a commander for Slave and Sluga units. The command skills he can aquire improves their workrate (to a greater degree with the Sluga), as well as providing new Build Orders for the Sluga.</German>
-		<Italian>Il Supervisore funziona sia come lavoratore che come comandante per Schiavi e Sluga. Le abilità di comando che può acquisire migliorano il loro ritmo di lavoro (in misura maggiore con gli Sluga) oltre a permettere agli Sluga di contruire.</Italian>
-		<Spanish>The Overseer funtions both as a worker, and as a commander for Slave and Sluga units. The command skills he can aquire improves their workrate (to a greater degree with the Sluga), as well as providing new Build Orders for the Sluga.</Spanish>
+		<English>The Overseer funtions both as a worker, and as a commander for Slave and Sluga units. The command skills he can aquire improves their workrate (to a greater degree with the Sluga), unit strength, and providing new spells for the Sluga.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</English>
+		<French>The Overseer funtions both as a worker, and as a commander for Slave and Sluga units. The command skills he can aquire improves their workrate (to a greater degree with the Sluga), unit strength, and providing new spells for the Sluga.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</French>
+		<German>The Overseer funtions both as a worker, and as a commander for Slave and Sluga units. The command skills he can aquire improves their workrate (to a greater degree with the Sluga), unit strength, and providing new spells for the Sluga.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</German>
+		<Italian>The Overseer funtions both as a worker, and as a commander for Slave and Sluga units. The command skills he can aquire improves their workrate (to a greater degree with the Sluga), unit strength, and providing new spells for the Sluga.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</Italian>
+		<Spanish>The Overseer funtions both as a worker, and as a commander for Slave and Sluga units. The command skills he can aquire improves their workrate (to a greater degree with the Sluga), unit strength, and providing new spells for the Sluga.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</Spanish>
 	</TEXT>
 	<TEXT>	<!-- Combat Overseer -->
 		<Tag>TXT_KEY_UNIT_COM_OVERSEER</Tag>
@@ -312,6 +365,24 @@
 		<German>With the creation of the Battle Sluga, a need for new Overseers to command them appeared. This need was met by the Combat Overseers. These mages were not only given training in how to dominate the psychic link between individual Sluga, but also given extensive combat training, which they can imprint on to any Battle Sluga they are linked to.</German>
 		<Italian>In seguito alla creazione degli Sluga da Battaglia fù necessario un nuovo tipo di Supervisore per comandarli. Questa necessità fù soddisfatta dai Supervisori da Combattimento. Questi maghi non solo furono addestrati a gestire il legame psichico tra gli Sluga, ma vennero anche addestrati a combattere, in modo da imprimere negli Sluga a loro collegati queste conoscenze.</Italian>
 		<Spanish>With the creation of the Battle Sluga, a need for new Overseers to command them appeared. This need was met by the Combat Overseers. These mages were not only given training in how to dominate the psychic link between individual Sluga, but also given extensive combat training, which they can imprint on to any Battle Sluga they are linked to.</Spanish>
+	</TEXT>
+	<TEXT>	<!-- Overseer, Strategy -->
+		<Tag>TXT_KEY_UNIT_COM_OVERSEER_STRATEGY</Tag>
+		<English>The Combat Overseer funtions as a commander for Sluga units. The command skills he can aquire improves their workrate, unit strength, and providing new spells for the Sluga.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</English>
+		<French>The Combat Overseer funtions as a commander for Sluga units. The command skills he can aquire improves their workrate, unit strength, and providing new spells for the Sluga.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</French>
+		<German>The Combat Overseer funtions as a commander for Sluga units. The command skills he can aquire improves their workrate, unit strength, and providing new spells for the Sluga.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</German>
+		<Italian>The Combat Overseer funtions as a commander for Sluga units. The command skills he can aquire improves their workrate, unit strength, and providing new spells for the Sluga.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</Italian>
+		<Spanish>The Combat Overseer funtions as a commander for Sluga units. The command skills he can aquire improves their workrate, unit strength, and providing new spells for the Sluga.
+		
+		[H1]Sluga Units:[\H1][PARAGRAPH:2] The Sluga units are much like Golem units, in that they do not gain any experience on their own (due to not having a unitclass). Unlike the Golems, however, they have no real utility on their own, being mostly useless without a Commander with the [LINK=PROMOTION_COM_OVERSEER_V2]Overseer Command[\LINK] Promotion.[PARAGRAPH:2] Commanders with Overseer Command improve the workrate of all Sluga unit types dramatically. With the proper Technology, the [LINK=UNIT_OVERSEER_V2]Overseer[\LINK] can also provide Slugas unit types with terraforming capabilities. Terraforming spells are: [LINK=SPELL_SCORCH_MEKARA_V2]Scorch[\LINK] at Divination. [LINK=SPELL_SPRING_MEKARA_V2]Spring[\LINK] at Elementalism. [LINK=SPELL_BLOOM_MEKARA_V2]Bloom[\LINK] at Alteration. [PARAGRAPH:2] The [LINK=UNIT_COMBAT_OVERSEER_V2]Combat Overseer[\LINK], on the other hand, can grant Sluga unit types with combat support spells such as [LINK=SPELL_REGENERATION_MEKARA_V2]Regeneration[\LINK], [LINK=SPELL_MAELSTROM_MEKARA1]Maelstrom[\LINK], and [LINK=SPELL_STONESKIN_MEKARA]Stoneskin[\LINK]. The promotions that better Overseers or commanders can give are, among other things, increased Combat Strength, First Strikes, resistance to Collateral Damage, And Ranged Attacks.[PARAGRAPH:2]Sluga units can also be controlled by [LINK=UNIT_COMMANDER]Great Generals.[\LINK][PARAGRAPH:2] The Sluga and Battle Sluga are created through a spell castable by Slave units, in cities that have the [LINK=BUILDING_SHAPER_CABAL]Shaper Cabal[\LINK] building, Sluga at Knowledge of the Ether, and Battle Sluga at Alteration. War Sluga, meanwhile, are upgraded from Battle Sluga, while the Behemoth unit can only be created through a [LINK=SPELL_BEHEMOTH_CREATION_V2]Create Behemoth spell[\LINK] available at Arcane Lore. [PARAGRAPH:2]Slugas and Combat Overseers are only available to the Mekara leader Jamal Dahkar.</Spanish>
 	</TEXT>
 	<TEXT>	<!-- Sluga Commander -->
 		<Tag>TXT_KEY_UNIT_SLUGA_COMMANDER</Tag>
@@ -435,11 +506,11 @@
 	</TEXT>
 	<TEXT>	<!-- Gladiator, Strategy -->
 		<Tag>TXT_KEY_UNIT_GLADIATOR_STRATEGY</Tag>
-		<English>The Gladiator is a fast melee unit, specializing in attacking and defending cities. Every fight it wins will also generate culture for the nearest city. Recruiting the Gladiator unit requires that you have a Slave unit available. Once you do, placing it in a city with the Colosseum building lets it enter into the arena, granting it a promotion that holds it for a number of turns with a chance of it dying every turn. If it survives the games, it will change into a Gladiator.</English>
-		<French>The Gladiator is a fast melee unit, specializing in attacking and defending cities. Every fight it wins will also generate culture for the nearest city. Recruiting the Gladiator unit requires that you have a Slave unit available. Once you do, placing it in a city with the Colosseum building lets it enter into the arena, granting it a promotion that holds it for a number of turns with a chance of it dying every turn. If it survives the games, it will change into a Gladiator.</French>
-		<German>The Gladiator is a fast melee unit, specializing in attacking and defending cities. Every fight it wins will also generate culture for the nearest city. Recruiting the Gladiator unit requires that you have a Slave unit available. Once you do, placing it in a city with the Colosseum building lets it enter into the arena, granting it a promotion that holds it for a number of turns with a chance of it dying every turn. If it survives the games, it will change into a Gladiator.</German>
+		<English>The Gladiator is a fast melee unit, specializing in attacking and defending cities. Every fight it wins will also generate culture for the nearest city. Recruiting the Gladiator unit requires that you have Zaria leading the Mekara and a Slave unit available. Once you do, placing it in a city with the Colosseum building lets it enter into the arena, granting it a promotion that holds it for a number of turns with a chance of it dying every turn. If it survives the games, it will change into a Gladiator. however as a former slave they will start with the Estranged promotion.</English>
+		<French>The Gladiator is a fast melee unit, specializing in attacking and defending cities. Every fight it wins will also generate culture for the nearest city. Recruiting the Gladiator unit requires that you have Zaria leading the Mekara and a Slave unit available. Once you do, placing it in a city with the Colosseum building lets it enter into the arena, granting it a promotion that holds it for a number of turns with a chance of it dying every turn. If it survives the games, it will change into a Gladiator. however as a former slave they will start with the Estranged promotion.</French>
+		<German>The Gladiator is a fast melee unit, specializing in attacking and defending cities. Every fight it wins will also generate culture for the nearest city. Recruiting the Gladiator unit requires that you have Zaria leading the Mekara and a Slave unit available. Once you do, placing it in a city with the Colosseum building lets it enter into the arena, granting it a promotion that holds it for a number of turns with a chance of it dying every turn. If it survives the games, it will change into a Gladiator. however as a former slave they will start with the Estranged promotion.</German>
 		<Italian>Il Gladiatore è una rapida unità da mischia, specializzata nell'attaccare e difendere città. Inoltre ogni combattimento che vince genera cultura per la città più vicina. Per reclutare un Gladiatore è necessario avere uno Schiavo, stanziarlo in una città con il Colosseo e farlo partecipare ai giochi. Ciò gli farà guadagnare una promozione che lo blocca per un certo numero di turni, ogni turno c'è una probabilità che venga ucciso. Se sopravvive ai giochi verrà trasformato in un Gladiatore.</Italian>
-		<Spanish>The Gladiator is a fast melee unit, specializing in attacking and defending cities. Every fight it wins will also generate culture for the nearest city. Recruiting the Gladiator unit requires that you have a Slave unit available. Once you do, placing it in a city with the Colosseum building lets it enter into the arena, granting it a promotion that holds it for a number of turns with a chance of it dying every turn. If it survives the games, it will change into a Gladiator.</Spanish>
+		<Spanish>The Gladiator is a fast melee unit, specializing in attacking and defending cities. Every fight it wins will also generate culture for the nearest city. Recruiting the Gladiator unit requires that you have Zaria leading the Mekara and a Slave unit available. Once you do, placing it in a city with the Colosseum building lets it enter into the arena, granting it a promotion that holds it for a number of turns with a chance of it dying every turn. If it survives the games, it will change into a Gladiator. however as a former slave they will start with the Estranged promotion.</Spanish>
 	</TEXT>
 	<TEXT>	<!-- Ascendant -->
 		<Tag>TXT_KEY_UNIT_ASCENDANT</Tag>
@@ -673,7 +744,7 @@
 		<Italian>Urbano</Italian>
 		<Spanish>Urban</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Help -->
+	<TEXT>  <!-- Overseer, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+1 Movement Range[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate</English>
 		<French>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+1 Movement Range[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate</French>
@@ -689,7 +760,7 @@
 		<Italian>Supervisore Abile I</Italian>
 		<Spanish>Skilled Overseer I</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Skilled Overseer I, Help -->
+	<TEXT>  <!-- Overseer, Skilled Overseer I, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_SKILLED_OVERSEER1_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate</English>
 		<French>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate</French>
@@ -705,7 +776,7 @@
 		<Italian>Supervisore Abile II</Italian>
 		<Spanish>Skilled Overseer II</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Skilled Overseer II, Help -->
+	<TEXT>  <!-- Overseer, Skilled Overseer II, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_SKILLED_OVERSEER2_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate</English>
 		<French>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate</French>
@@ -721,7 +792,7 @@
 		<Italian>Supervisore Abile III</Italian>
 		<Spanish>Skilled Overseer III</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Skilled Overseer III, Help -->
+	<TEXT>  <!-- Overseer, Skilled Overseer III, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_SKILLED_OVERSEER3_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate[NEWLINE][SPACE][ICON_BULLET]+1[ICON_PRODUCTION] to the city they are stationed in</English>
 		<French>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate[NEWLINE][SPACE][ICON_BULLET]+1[ICON_PRODUCTION] to the city they are stationed in</French>
@@ -737,7 +808,7 @@
 		<Italian>Supervisore Abile IV</Italian>
 		<Spanish>Skilled Overseer IV</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Skilled Overseer IV, Help -->
+	<TEXT>  <!-- Overseer, Skilled Overseer IV, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_SKILLED_OVERSEER4_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate</English>
 		<French>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate</French>
@@ -753,7 +824,7 @@
 		<Italian>Supervisore Abile V</Italian>
 		<Spanish>Skilled Overseer V</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Skilled Overseer V, Help -->
+	<TEXT>  <!-- Overseer, Skilled Overseer V, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_SKILLED_OVERSEER5_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate[NEWLINE][SPACE][ICON_BULLET]+1[ICON_PRODUCTION] to the city they are stationed in</English>
 		<French>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate[NEWLINE][SPACE][ICON_BULLET]+1[ICON_PRODUCTION] to the city they are stationed in</French>
@@ -761,7 +832,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutte le unità Schiavo comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Ritmo di Lavoro[NEWLINE][ICON_BULLET]Fornisce a tutte le unità Sluga comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Ritmo di Lavoro[NEWLINE][SPACE][ICON_BULLET]+1[ICON_PRODUCTION] alla città in cui sono stanziati</Italian>
 		<Spanish>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+40% Work Rate[NEWLINE][SPACE][ICON_BULLET]+1[ICON_PRODUCTION] to the city they are stationed in</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Farming -->
+	<TEXT>	<!-- Overseer, Farming -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_FARMING</Tag>
 		<English>Farming</English>
 		<French>Farming</French>
@@ -769,7 +840,7 @@
 		<Italian>Coltivazione</Italian>
 		<Spanish>Farming</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Farming, Help -->
+	<TEXT>  <!-- Overseer, Farming, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_FARMING_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Farm, Winery, Plantation, Cottage</English>
 		<French>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Farm, Winery, Plantation, Cottage</French>
@@ -777,7 +848,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutte le unità Schiavo comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Ritmo di Lavoro[NEWLINE][ICON_BULLET]Fornisce a tutte le unità Sluga comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Ritmo di Lavoro[NEWLINE][SPACE][ICON_BULLET]Può costruire Fattorie, Azienda Vinicola, Piantagione e Villetta</Italian>
 		<Spanish>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Farm, Winery, Plantation, Cottage</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Stoneworking -->
+	<TEXT>	<!-- Overseer, Stoneworking -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_MINING</Tag>
 		<English>Stoneworking</English>
 		<French>Stoneworking</French>
@@ -785,7 +856,7 @@
 		<Italian>Lavorazione della Pietra</Italian>
 		<Spanish>Stoneworking</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Stoneworking, Help -->
+	<TEXT>  <!-- Overseer, Stoneworking, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_MINING_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Mine, Quarry, Fort</English>
 		<French>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Mine, Quarry, Fort</French>
@@ -793,7 +864,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutte le unità Schiavo comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Ritmo di Lavoro[NEWLINE][ICON_BULLET]Fornisce a tutte le unità Sluga comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Ritmo di Lavoro[NEWLINE][SPACE][ICON_BULLET]Può costruire Miniera, Cava e Fortezza</Italian>
 		<Spanish>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Mine, Quarry, Fort</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Animal Husbandry -->
+	<TEXT>	<!-- Overseer, Animal Husbandry -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_ANIMALS</Tag>
 		<English>Animal Husbandry</English>
 		<French>Animal Husbandry</French>
@@ -801,7 +872,7 @@
 		<Italian>Allevamento di Animali</Italian>
 		<Spanish>Animal Husbandry</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Animal Husbandry, Help -->
+	<TEXT>  <!-- Overseer, Animal Husbandry, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_ANIMALS_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Camp, Yaranga, Pasture</English>
 		<French>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Camp, Yaranga, Pasture</French>
@@ -809,7 +880,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutte le unità Schiavo comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Ritmo di Lavoro[NEWLINE][ICON_BULLET]Fornisce a tutte le unità Sluga comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Ritmo di Lavoro[NEWLINE][SPACE][ICON_BULLET]Può costruire Campo, Yaranga e Pascolo</Italian>
 		<Spanish>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Camp, Yaranga, Pasture</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Construction -->
+	<TEXT>	<!-- Overseer, Construction -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONSTRUCTION</Tag>
 		<English>Construction</English>
 		<French>Construction</French>
@@ -817,7 +888,7 @@
 		<Italian>Costruzione</Italian>
 		<Spanish>Construction</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Construction, Help -->
+	<TEXT>  <!-- Overseer, Construction, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONSTRUCTION_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Windmill, Watermill, Lumbermill</English>
 		<French>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Windmill, Watermill, Lumbermill</French>
@@ -825,7 +896,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutte le unità Schiavo comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Ritmo di Lavoro[NEWLINE][ICON_BULLET]Fornisce a tutte le unità Sluga comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Ritmo di Lavoro[NEWLINE][SPACE][ICON_BULLET]Può costruire Mulino a Vento, Mulino ad Acqua e Segheria</Italian>
 		<Spanish>[ICON_BULLET]Gives all commanded Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+10% Work Rate[NEWLINE][ICON_BULLET]Gives all commanded Sluga units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+30% Work Rate[NEWLINE][SPACE][ICON_BULLET]Can build Windmill, Watermill, Lumbermill</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Endurance -->
+	<TEXT>	<!-- Overseer, Endurance -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_ENDURANCE</Tag>
 		<English>Endurance</English>
 		<French>Endurance</French>
@@ -833,7 +904,7 @@
 		<Italian>Resistenza</Italian>
 		<Spanish>Endurance</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Endurance, Help -->
+	<TEXT>  <!-- Overseer, Endurance, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_ENDURANCE_HELP</Tag>
 		<English>[ICON_BULLET]Gives all commanded Sluga and Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+1 Movement Range[NEWLINE][SPACE][ICON_BULLET]+20% Work Rate</English>
 		<French>[ICON_BULLET]Gives all commanded Sluga and Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+1 Movement Range[NEWLINE][SPACE][ICON_BULLET]+20% Work Rate</French>
@@ -841,7 +912,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutte le unità Sluga e Schiavo comandate i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+1 Raggio di Movimento[NEWLINE][SPACE][ICON_BULLET]+20% Ritmo di Lavoro</Italian>
 		<Spanish>[ICON_BULLET]Gives all commanded Sluga and Slave units the following bonus:[NEWLINE][SPACE][ICON_BULLET]+1 Movement Range[NEWLINE][SPACE][ICON_BULLET]+20% Work Rate</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Artisan I -->
+	<TEXT>	<!-- Overseer, Artisan I -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_ARTISAN1</Tag>
 		<English>Artisan I</English>
 		<French>Artisan I</French>
@@ -849,7 +920,7 @@
 		<Italian>Artigiano I</Italian>
 		<Spanish>Artisan I</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Artisan I, Help -->
+	<TEXT>  <!-- Overseer, Artisan I, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_ARTISAN1_HELP</Tag>
 		<English>[ICON_BULLET]Makes all commanded Slave and Sluga units give +1[ICON_PRODUCTION] to the city they are stationed in</English>
 		<French>[ICON_BULLET]Makes all commanded Slave and Sluga units give +1[ICON_PRODUCTION] to the city they are stationed in</French>
@@ -857,7 +928,7 @@
 		<Italian>[ICON_BULLET]Tutte le unità Schiavo e Sluga comandate forniscono +1[ICON_PRODUCTION] alla città in cui sono stanziate</Italian>
 		<Spanish>[ICON_BULLET]Makes all commanded Slave and Sluga units give +1[ICON_PRODUCTION] to the city they are stationed in</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Artisan II -->
+	<TEXT>	<!-- Overseer, Artisan II -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_ARTISAN2</Tag>
 		<English>Artisan II</English>
 		<French>Artisan II</French>
@@ -865,7 +936,7 @@
 		<Italian>Artigiano II</Italian>
 		<Spanish>Artisan II</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Overseer, Artisan II, Help -->
+	<TEXT>  <!-- Overseer, Artisan II, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_ARTISAN2_HELP</Tag>
 		<English>[ICON_BULLET]Makes all commanded Slave and Sluga units give +1[ICON_PRODUCTION] to the city they are stationed in</English>
 		<French>[ICON_BULLET]Makes all commanded Slave and Sluga units give +1[ICON_PRODUCTION] to the city they are stationed in</French>
@@ -873,7 +944,7 @@
 		<Italian>[ICON_BULLET]Tutte le unità Schiavo e Sluga comandate forniscono +1[ICON_PRODUCTION] alla città in cui sono stanziate</Italian>
 		<Spanish>[ICON_BULLET]Makes all commanded Slave and Sluga units give +1[ICON_PRODUCTION] to the city they are stationed in</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Casting 'Spring' -->
+	<TEXT>	<!-- Overseer, Casting 'Spring' -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_SPRING_CASTING</Tag>
 		<English>Channeling 'Spring'</English>
 		<French>Channeling 'Spring'</French>
@@ -881,7 +952,7 @@
 		<Italian>Incanalare 'Sorgente'</Italian>
 		<Spanish>Channeling 'Spring'</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Casting 'Scorch' -->
+	<TEXT>	<!-- Overseer, Casting 'Scorch' -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_SCORCH_CASTING</Tag>
 		<English>Channeling 'Scorch'</English>
 		<French>Channeling 'Scorch'</French>
@@ -889,7 +960,7 @@
 		<Italian>Incanalare 'Bruciatura'</Italian>
 		<Spanish>Channeling 'Scorch'</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Casting 'Bloom' -->
+	<TEXT>	<!-- Overseer, Casting 'Bloom' -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_OVERSEER_BLOOM_CASTING</Tag>
 		<English>Channeling 'Bloom'</English>
 		<French>Channeling 'Bloom'</French>
@@ -977,7 +1048,7 @@
 		<Italian>Morente</Italian>
 		<Spanish>Dying</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Dying -->
+	<TEXT>	<!-- Winning -->
 		<Tag>TXT_KEY_PROMOTION_WARGAMES_WINNER</Tag>
 		<English>Winning</English>
 		<French>Winning</French>
@@ -985,7 +1056,7 @@
 		<Italian>Vittorioso</Italian>
 		<Spanish>Winning</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Spring -->
+	<TEXT>	<!-- Overseer, Spring -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_SPELL_OVERSEER_SPRING</Tag>
 		<English>Casting 'Spring' through minions.</English>
 		<French>Casting 'Spring' through minions.</French>
@@ -993,7 +1064,7 @@
 		<Italian>Lanciando 'Sorgente' attraverso servitori.</Italian>
 		<Spanish>Casting 'Spring' through minions.</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Scorch -->
+	<TEXT>	<!-- Overseer, Scorch -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_SPELL_OVERSEER_SCORCH</Tag>
 		<English>Casting 'Scorch' through minions.</English>
 		<French>Casting 'Scorch' through minions.</French>
@@ -1001,7 +1072,7 @@
 		<Italian>Lanciando 'Bruciatura' attraverso servitori.</Italian>
 		<Spanish>Casting 'Scorch' through minions.</Spanish>
 	</TEXT>
-	<TEXT>	<!-- Overseer, Bloom -->
+	<TEXT>	<!-- Overseer, Bloom -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_SPELL_OVERSEER_BLOOM</Tag>
 		<English>Casting 'Bloom' through minions.</English>
 		<French>Casting 'Bloom' through minions.</French>
@@ -1059,11 +1130,11 @@
 	</TEXT>
 	<TEXT>	<!-- Enter Arena, Help -->
 		<Tag>TXT_KEY_SPELL_ENTER_ARENA_HELP</Tag>
-		<English>[ICON_BULLET]Turns the unit into a Gladiator, and enters it into the Arena.[NEWLINE][SPACE][SPACE][ICON_BULLET]A Gladitorial Games building will be creted for the duration of the games, giving happiness and culture.[NEWLINE][SPACE][SPACE][ICON_BULLET]The games have a 45% chance to end each turn: 20% through the unit dying, and 25% by the unit winning, in which case it becomes free to move again.</English>
-		<French>[ICON_BULLET]Turns the unit into a Gladiator, and enters it into the Arena.[NEWLINE][SPACE][SPACE][ICON_BULLET]A Gladitorial Games building will be creted for the duration of the games, giving happiness and culture.[NEWLINE][SPACE][SPACE][ICON_BULLET]The games have a 45% chance to end each turn: 20% through the unit dying, and 25% by the unit winning, in which case it becomes free to move again.</French>
-		<German>[ICON_BULLET]Turns the unit into a Gladiator, and enters it into the Arena.[NEWLINE][SPACE][SPACE][ICON_BULLET]A Gladitorial Games building will be creted for the duration of the games, giving happiness and culture.[NEWLINE][SPACE][SPACE][ICON_BULLET]The games have a 45% chance to end each turn: 20% through the unit dying, and 25% by the unit winning, in which case it becomes free to move again.</German>
+		<English>[ICON_BULLET]Turns the unit into a Gladiator, and enters it into the Arena.[NEWLINE][SPACE][SPACE][ICON_BULLET]A Gladitorial Games building will be creted for the duration of the games, giving happiness and culture.[NEWLINE][SPACE][SPACE][ICON_BULLET]The games have a 45% chance to end each turn: 20% through the unit dying, and 25% by the unit winning, in which case it becomes free to move again.[SPACE][ICON_BULLET] This Spell is only available to the leader Zaria.</English>
+		<French>[ICON_BULLET]Turns the unit into a Gladiator, and enters it into the Arena.[NEWLINE][SPACE][SPACE][ICON_BULLET]A Gladitorial Games building will be creted for the duration of the games, giving happiness and culture.[NEWLINE][SPACE][SPACE][ICON_BULLET]The games have a 45% chance to end each turn: 20% through the unit dying, and 25% by the unit winning, in which case it becomes free to move again.[SPACE][ICON_BULLET] This Spell is only available to the leader Zaria.</French>
+		<German>[ICON_BULLET]Turns the unit into a Gladiator, and enters it into the Arena.[NEWLINE][SPACE][SPACE][ICON_BULLET]A Gladitorial Games building will be creted for the duration of the games, giving happiness and culture.[NEWLINE][SPACE][SPACE][ICON_BULLET]The games have a 45% chance to end each turn: 20% through the unit dying, and 25% by the unit winning, in which case it becomes free to move again.[SPACE][ICON_BULLET] This Spell is only available to the leader Zaria.</German>
 		<Italian>[ICON_BULLET]Trasforma l'unità in un Gladiatore, e la fa entrare nell'Arena.[NEWLINE][SPACE][SPACE][ICON_BULLET]Un edificio chiamato Giochi Gladiatori verrà creato per la durata dei giochi, che fornisce felicità e cultura.[NEWLINE][SPACE][SPACE][ICON_BULLET]Ogni turno i giochi hanno una probabilità del 45% di concludersi: 20% con la morte dell'unità, e 25% con la vittoria dell'unità, nel cui caso diventa di nuovo libera di muoversi.</Italian>
-		<Spanish>[ICON_BULLET]Turns the unit into a Gladiator, and enters it into the Arena.[NEWLINE][SPACE][SPACE][ICON_BULLET]A Gladitorial Games building will be creted for the duration of the games, giving happiness and culture.[NEWLINE][SPACE][SPACE][ICON_BULLET]The games have a 45% chance to end each turn: 20% through the unit dying, and 25% by the unit winning, in which case it becomes free to move again.</Spanish>
+		<Spanish>[ICON_BULLET]Turns the unit into a Gladiator, and enters it into the Arena.[NEWLINE][SPACE][SPACE][ICON_BULLET]A Gladitorial Games building will be creted for the duration of the games, giving happiness and culture.[NEWLINE][SPACE][SPACE][ICON_BULLET]The games have a 45% chance to end each turn: 20% through the unit dying, and 25% by the unit winning, in which case it becomes free to move again.[SPACE][ICON_BULLET] This Spell is only available to the leader Zaria.</Spanish>
 	</TEXT>
 	<TEXT>	<!-- Mekaran Palace -->
 		<Tag>TXT_KEY_BUILDING_PALACE_MEKARA</Tag>
@@ -1151,8 +1222,8 @@
 	</TEXT>
 	<TEXT>	<!-- Colosseum, Strategy -->
 		<Tag>TXT_KEY_BUILDING_COLOSSEUM_STRATEGY</Tag>
-		<English>The Colosseum replaces the Theatre building, providing reduced culture and losing some happiness bonuses. In exchange, it gives additional XP to all land units created in the city. Slaves can also be entered into gladitorial games, which provides a temporary happiness and culture boost, as well as having a chance of creating the Gladiator unit.</English>
-		<French>The Colosseum replaces the Theatre building, providing reduced culture and losing some happiness bonuses. In exchange, it gives additional XP to all land units created in the city. Slaves can also be entered into gladitorial games, which provides a temporary happiness and culture boost, as well as having a chance of creating the Gladiator unit.</French>
+		<English>The Colosseum replaces the Theatre building, providing reduced culture and losing some happiness bonuses. In exchange, it gives additional XP to all land units created in the city. If Zaria is the leader then Slaves can also be entered into gladitorial games, which provides a temporary happiness and culture boost, as well as having a chance of creating the Gladiator unit.</English>
+		<French>The Colosseum replaces the Theatre building, providing reduced culture and losing some happiness bonuses. In exchange, it gives additional XP to all land units created in the city. If Zaria is the leader then Slaves can also be entered into gladitorial games, which provides a temporary happiness and culture boost, as well as having a chance of creating the Gladiator unit.</French>
 		<German>Das Colosseum ersetzt das Geb&#228;ude Theater, es bringt etwas weniger Kultur und hat weniger Zufriedenheitsboni. Daf&#252;r gibt es jedoch allen, in dieser Stadt ausgebildeten, Landeinheiten zus&#228;tzliche Erfahrungspunkte. Dar&#252;berhinaus k&#246;nnen Sklaven in die Gladiatorenspiele "integriert" werden, was zu vr&#252;bergehender Zufriedenheit und Kulturzunahme f&#252;hrt. AuÃŸerdem besteht die Chance, daÃŸ dabei aus einem Sklaven eine Einheit Gladiator hervorgeht.</German>
 		<Italian>Il Colosseo sostituisce il teatro, ma fornisce meno cultura e felicità. In compenso fornisce PE aggiuntivi a tutte le unità terrestri create in città. Gli Schiavi possono essere fatti entrare in giochi gladiatori, che forniscono felicità e cultura aggiuntivi temporanei, oltre ad avere la possibilità di creare l'unità Gladiatore.</Italian>
 		<Spanish>The Colosseum replaces the Theatre building, providing reduced culture and losing some happiness bonuses. In exchange, it gives additional XP to all land units created in the city. Slaves can also be entered into gladitorial games, which provides a temporary happiness and culture boost, as well as having a chance of creating the Gladiator unit.</Spanish>
@@ -1373,6 +1444,14 @@
 		<Italian>[ICON_BULLET]Trasforma un cittadino arrabiato in uno Schiavo[NEWLINE][ICON_BULLET]Crea dello scontento temporaneo nella città</Italian>
 		<Spanish>[ICON_BULLET]Converts an angry citizen into a Slave[NEWLINE][ICON_BULLET]Causes temporary unhappiness in the city</Spanish>
 	</TEXT>
+	<TEXT>  <!-- Buy Slave Mekara -->
+		<Tag>TXT_KEY_SPELL_SLAVE_TRADE_BUY_MEKARA</Tag>
+		<English>Mekara Slave Trade (Buy)</English>
+		<French>Mekara Slave Trade (Buy)</French>
+		<German>Mekara Slave Trade (Buy)</German>
+		<Italian>Mekara Slave Trade (Buy)</Italian>
+		<Spanish>Mekara Slave Trade (Buy)</Spanish>
+	</TEXT>
 	<TEXT>  <!-- Create Sluga -->
 		<Tag>TXT_KEY_SPELL_SLUGA_CREATION</Tag>
 		<English>Create Sluga</English>
@@ -1421,15 +1500,7 @@
 		<Italian>Senza guida</Italian>
 		<Spanish>Leaderless</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Help -->
-		<Tag>TXT_KEY_UNIT_COM_OVERSEER_HELP</Tag>
-		<English>[ICON_BULLET]Allows commanded Battle Sluga to have combat strength</English>
-		<French>[ICON_BULLET]Allows commanded Battle Sluga to have combat strength</French>
-		<German>[ICON_BULLET]Erlaubt den befehligten Schlachtsluga die Bef&#246;rderung Kampfst&#228;rke</German>
-		<Italian>[ICON_BULLET]Permette agli Sluga da combattimento comandati di avere forza da combattimento</Italian>
-		<Spanish>[ICON_BULLET]Allows commanded Battle Sluga to have combat strength</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Close Combat Training -->
+	<TEXT>  <!-- Combat Overseer, Close Combat Training -->                        <!-- Not Used -->                
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_BASIC</Tag>
 		<English>Close Combat Training</English>
 		<French>Close Combat Training</French>
@@ -1437,7 +1508,7 @@
 		<Italian>Addestramento al Combattimento Ravvicinato</Italian>
 		<Spanish>Close Combat Training</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Close Combat Training, Help -->
+	<TEXT>  <!-- Combat Overseer, Close Combat Training, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_BASIC_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 Attack Strength[NEWLINE][SPACE][ICON_BULLET]+1 Defence Strength</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 Attack Strength[NEWLINE][SPACE][ICON_BULLET]+1 Defence Strength</French>
@@ -1445,7 +1516,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+1 Forza d'Attacco[NEWLINE][SPACE][ICON_BULLET]+1 Forza di Difesa</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 Attack Strength[NEWLINE][SPACE][ICON_BULLET]+1 Defence Strength</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill I -->
+	<TEXT>  <!-- Combat Overseer, Combat Drill I -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_1</Tag>
 		<English>Combat Drill I</English>
 		<French>Combat Drill I</French>
@@ -1453,7 +1524,7 @@
 		<Italian>Esercitazione di Combattimento I</Italian>
 		<Spanish>Combat Drill I</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill I, Help -->
+	<TEXT>  <!-- Combat Overseer, Combat Drill I, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_1_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 Extra First Strike[NEWLINE][SPACE][ICON_BULLET]+10% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]+20% Combat Strength</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 First Strike[NEWLINE][SPACE][ICON_BULLET]+10% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]+20% Combat Strength</French>
@@ -1461,7 +1532,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]1 'Attacco Improvviso' supplementare[NEWLINE][SPACE][ICON_BULLET]+10% vs Unità Montata[NEWLINE][SPACE][ICON_BULLET]+20% di Forza</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+1 First Strike[NEWLINE][SPACE][ICON_BULLET]+10% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]+20% Combat Strength</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill II -->
+	<TEXT>  <!-- Combat Overseer, Combat Drill II -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_2</Tag>
 		<English>Combat Drill II</English>
 		<French>Combat Drill II</French>
@@ -1469,7 +1540,7 @@
 		<Italian>Esercitazione di Combattimento II</Italian>
 		<Spanish>Combat Drill II</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill II, Help -->
+	<TEXT>  <!-- Combat Overseer, Combat Drill II, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_2_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][SPACE][ICON_BULLET]+10% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]+20% Combat Strength</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][SPACE][ICON_BULLET]+10% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]+20% Combat Strength</French>
@@ -1477,7 +1548,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+2 possibilità di 'Attacco Improvviso' supplementare[NEWLINE][SPACE][ICON_BULLET]+10% vs Unità Montate[NEWLINE][SPACE][ICON_BULLET]+20% di forza</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][SPACE][ICON_BULLET]+10% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]+20% Combat Strength</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill III -->
+	<TEXT>  <!-- Combat Overseer, Combat Drill III -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_3</Tag>
 		<English>Combat Drill III</English>
 		<French>Combat Drill III</French>
@@ -1485,7 +1556,7 @@
 		<Italian>Esercitazione di Combattimento III</Italian>
 		<Spanish>Combat Drill III</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Combat Drill III, Help -->
+	<TEXT>  <!-- Combat Overseer, Combat Drill III, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_3_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][SPACE][ICON_BULLET]+20% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][SPACE][ICON_BULLET]+10% Combat Strength</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][SPACE][ICON_BULLET]+20% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][SPACE][ICON_BULLET]+10% Combat Strength</French>
@@ -1493,7 +1564,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+2 'Attacchi Improvvisi' supplementari[NEWLINE][SPACE][ICON_BULLET]+20% vs Unità Montate[NEWLINE][SPACE][ICON_BULLET]20% in meno di Danni Collaterali subiti[NEWLINE][SPACE][ICON_BULLET]+10% di forza</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][SPACE][ICON_BULLET]+20% vs Mounted units[NEWLINE][SPACE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][SPACE][ICON_BULLET]+10% Combat Strength</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Close Combat Mastery -->
+	<TEXT>  <!-- Combat Overseer, Close Combat Mastery -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_MASTER</Tag>
 		<English>Close Combat Mastery</English>
 		<French>Close Combat Mastery</French>
@@ -1501,7 +1572,7 @@
 		<Italian>Padronanza del Combattimento Ravvicinato</Italian>
 		<Spanish>Close Combat Mastery</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Close Combat Mastery, Help -->
+	<TEXT>  <!-- Combat Overseer, Close Combat Mastery, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_MASTER_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+2 Attack Strength[NEWLINE][SPACE][ICON_BULLET]+2 Defence Strength</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+2 Attack Strength[NEWLINE][SPACE][ICON_BULLET]+2 Defence Strength</French>
@@ -1509,7 +1580,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]+2 Forza d'Attacco[NEWLINE][SPACE][ICON_BULLET]+2 Forza di Difesa</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]+2 Attack Strength[NEWLINE][SPACE][ICON_BULLET]+2 Defence Strength</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Training -->
+	<TEXT>  <!-- Combat Overseer, Ranged Training -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_BASIC</Tag>
 		<English>Ranged Training</English>
 		<French>Ranged Training</French>
@@ -1517,7 +1588,7 @@
 		<Italian>Addestramento al Combattimento a Distanza</Italian>
 		<Spanish>Ranged Training</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Training, Help -->
+	<TEXT>  <!-- Combat Overseer, Ranged Training, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_BASIC_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][SPACE][ICON_BULLET]+1 Operational Range</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][SPACE][ICON_BULLET]+1 Operational Range</French>
@@ -1525,7 +1596,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]Aumenta l'Attacco a Distanza di +3[NEWLINE][SPACE][ICON_BULLET]Aumenta il limite di danno massimo a distanza del 30%[NEWLINE][SPACE][ICON_BULLET]+1 Raggio d'Azione</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][SPACE][ICON_BULLET]+1 Operational Range</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise I -->
+	<TEXT>  <!-- Combat Overseer, Ranged Expertise I -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_1</Tag>
 		<English>Ranged Expertise I</English>
 		<French>Ranged Expertise I</French>
@@ -1533,7 +1604,7 @@
 		<Italian>Abile nel Combattimento a Distanza I</Italian>
 		<Spanish>Ranged Expertise I</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise I, Help -->
+	<TEXT>  <!-- Combat Overseer, Ranged Expertise I, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_1_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 10%</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 10%</French>
@@ -1541,7 +1612,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]Aumenta l'Attacco a Distanza di +1[NEWLINE][SPACE][ICON_BULLET]Aumenta il limite di danno massimo a distanza del 10%</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 10%</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise II -->
+	<TEXT>  <!-- Combat Overseer, Ranged Expertise II -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_2</Tag>
 		<English>Ranged Expertise II</English>
 		<French>Ranged Expertise II</French>
@@ -1549,7 +1620,7 @@
 		<Italian>Abile nel Combattimento a Distanza II</Italian>
 		<Spanish>Ranged Expertise II</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise II, Help -->
+	<TEXT>  <!-- Combat Overseer, Ranged Expertise II, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_2_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 10%</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 10%</French>
@@ -1557,7 +1628,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]Aumenta l'Attacco a Distanza di +1[NEWLINE][SPACE][ICON_BULLET]Aumenta il limite di danno massimo a distanza del 10%</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 10%</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise III -->
+	<TEXT>  <!-- Combat Overseer, Ranged Expertise III -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_3</Tag>
 		<English>Ranged Expertise III</English>
 		<French>Ranged Expertise III</French>
@@ -1565,7 +1636,7 @@
 		<Italian>Abile nel Combattimento a Distanza III</Italian>
 		<Spanish>Ranged Expertise III</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Expertise III, Help -->
+	<TEXT>  <!-- Combat Overseer, Ranged Expertise III, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_3_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 10%</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 10%</French>
@@ -1573,7 +1644,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]Aumenta l'Attacco a Distanza di +1[NEWLINE][SPACE][ICON_BULLET]Aumenta il limite di danno massimo a distanza del 10%</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 10%</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Mastery -->
+	<TEXT>  <!-- Combat Overseer, Ranged Mastery -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_MASTER</Tag>
 		<English>Ranged Mastery</English>
 		<French>Ranged Mastery</French>
@@ -1581,7 +1652,7 @@
 		<Italian>Padronanza del Combattimento a Distanza</Italian>
 		<Spanish>Ranged Mastery</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Ranged Mastery, Help -->
+	<TEXT>  <!-- Combat Overseer, Ranged Mastery, Help -->                    <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_MASTER_HELP</Tag>
 		<English>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 15%</English>
 		<French>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 15%</French>
@@ -1589,135 +1660,7 @@
 		<Italian>[ICON_BULLET]Fornisce a tutti gli Sluga da combattimento comandati i seguenti bonus:[NEWLINE][SPACE][ICON_BULLET]Aumenta l'Attacco a Distanza di +2[NEWLINE][SPACE][ICON_BULLET]Aumenta il limite di danno massimo a distanza del 15%</Italian>
 		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Battle Sluga:[NEWLINE][SPACE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][SPACE][ICON_BULLET]Enhances damage limit for ranged combat by 15%</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Celerity -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_CELERITY1</Tag>
-		<English>Celerity</English>
-		<French>Célérité</French>
-		<German>Celerity</German>
-		<Italian>Celerità</Italian>
-		<Spanish>Celerity</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_CELERITY1_OVERSEER</Tag>
-		<English>Celerity</English>
-		<French>Célérité</French>
-		<German>Celerity</German>
-		<Italian>Celerità</Italian>
-		<Spanish>Celerity</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Enhanced Celerity -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_CELERITY2</Tag>
-		<English>Enhanced Celerity</English>
-		<French>Célérité accrue</French>
-		<German>Enhanced Celerity</German>
-		<Italian>Celerità Migliorata</Italian>
-		<Spanish>Enhanced Celerity</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_CELERITY2_OVERSEER</Tag>
-		<English>Enhanced Celerity</English>
-		<French>Célérité accrue</French>
-		<German>Enhanced Celerity</German>
-		<Italian>Celerità Migliorata</Italian>
-		<Spanish>Enhanced Celerity</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Regeneration -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Tag>
-		<English>Regeneration</English>
-		<French>Regeneration</French>
-		<German>Regeneration</German>
-		<Italian>Rigenerazione</Italian>
-		<Spanish>Regeneration</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Regeneration, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_HELP</Tag>
-		<English>[ICON_BULLET]Allows you to cast a spell which applies the Regenerating promotion to all commanded Battle Sluga</English>
-		<French>[ICON_BULLET]Allows you to cast a spell which applies the Regenerating promotion to all commanded Battle Sluga</French>
-		<German>[ICON_BULLET]Erlaubt die magische &#252;bertragung der Regeneration Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
-		<Italian>[ICON_BULLET]Ti permette di lanciare una magia che applica la promozione Rigenerazione a tutti gli Sluga da Battaglia comandati</Italian>
-		<Spanish>[ICON_BULLET]Allows you to cast a spell which applies the Regenerating promotion to all commanded Battle Sluga</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Regeneration, Casting -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING</Tag>
-		<English>Cast 'Regeneration'</English>
-		<French>Cast 'Regeneration'</French>
-		<German>Zaubere 'Regeneration'</German>
-		<Italian>Lancia 'Rigenerazione'</Italian>
-		<Spanish>Cast 'Regeneration'</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Regeneration, Casting, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING_HELP</Tag>
-		<English>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</English>
-		<French>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</French>
-		<German>[ICON_BULLET]&#252;bertr&#228;gt die Regeneration Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
-		<Italian>[ICON_BULLET]Applica la promozione Rigenerazione a tutti gli Sluga da Battaglia comandati</Italian>
-		<Spanish>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Sustained Regeneration -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2</Tag>
-		<English>Sustained Regeneration</English>
-		<French>Sustained Regeneration</French>
-		<German>Anhaltende Regeneration</German>
-		<Italian>Rigenerazione Costante</Italian>
-		<Spanish>Sustained Regeneration</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Stoneskin -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Tag>
-		<English>Stoneskin</English>
-		<French>Stoneskin</French>
-		<German>Steinhaut</German>
-		<Italian>Pelle di Pietra</Italian>
-		<Spanish>Stoneskin</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Stoneskin, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_HELP</Tag>
-		<English>[ICON_BULLET]Allows you to cast a spell which applies the Stoneskin promotion to all commanded Battle Sluga</English>
-		<French>[ICON_BULLET]Allows you to cast a spell which applies the Stoneskin promotion to all commanded Battle Sluga</French>
-		<German>[ICON_BULLET]Erlaubt die magische &#252;bertragung der Steinhaut Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
-		<Italian>[ICON_BULLET]Ti permette di lanciare una magia che applica la promozione Pelle di Pietra a tutti gli Sluga da Battaglia comandati</Italian>
-		<Spanish>[ICON_BULLET]Allows you to cast a spell which applies the Stoneskin promotion to all commanded Battle Sluga</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Stoneskin, Casting -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING</Tag>
-		<English>Cast 'Stoneskin'</English>
-		<French>Cast 'Stoneskin'</French>
-		<German>Zaubere 'Steinhaut'</German>
-		<Italian>Lancia 'Pelle di Pietra'</Italian>
-		<Spanish>Cast 'Stoneskin'</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Stoneskin, Casting, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING_HELP</Tag>
-		<English>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</English>
-		<French>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</French>
-		<German>[ICON_BULLET]&#252;bertr&#228;gt die Steinhaut Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
-		<Italian>[ICON_BULLET]Applica la promozione Pelle di Pietra a tutti gli Sluga da Battaglia comandati</Italian>
-		<Spanish>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Maelstrom -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM</Tag>
-		<English>Maelstrom</English>
-		<French>Maelstrom</French>
-		<German>Mahlstrom</German>
-		<Italian>Maelstrom</Italian>
-		<Spanish>Maelstrom</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Maelstrom, Help -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Tag>
-		<English>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 20% to 40% damage, and targets all units; allies included</English>
-		<French>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 20% to 40% damage, and targets all units; allies included</French>
-		<German>[ICON_BULLET]Erlaubt das Zaubern eine 1-Feld Version des 'Mahlstrom' Zaubers durch die befehligte Schlachtsluga[NEWLINE][ICON_BULLET]Macht 20% to 40% Schaden, trifft neben feindlichen auch verb&#252;ndete Einheiten</German>
-		<Italian>[ICON_BULLET]Ti permette di lanciare una versione che colpisce a 1 quadrato di distanza della magia 'Maelstrom' attraverso gli Sluga da Battaglia comandati[NEWLINE][ICON_BULLET]Fa tra il 20% e il 40% di danno e colpisce tutte le unità, alleati inclusi</Italian>
-		<Spanish>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 20% to 40% damage, and targets all units; allies included</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Maelstrom, Casting -->
-		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Tag>
-		<English>Cast 'Maelstrom'</English>
-		<French>Cast 'Maelstrom'</French>
-		<German>Zaubere 'Mahlstrom'</German>
-		<Italian>Lancia 'Maelstrom'</Italian>
-		<Spanish>Cast 'Maelstrom'</Spanish>
-	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom -->
+	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2</Tag>
 		<English>Controlled Maelstrom</English>
 		<French>Controlled Maelstrom</French>
@@ -1725,7 +1668,7 @@
 		<Italian>Maelstrom Controllato</Italian>
 		<Spanish>Controlled Maelstrom</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Help -->
+	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Help -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_HELP</Tag>
 		<English>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</English>
 		<French>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</French>
@@ -1733,7 +1676,7 @@
 		<Italian>[ICON_BULLET]Ti permette di lanciare una versione che colpisce a 1 quadrato di distanza della magia 'Maelstrom' attraverso gli Sluga da Battaglia comandati[NEWLINE][ICON_BULLET]Fa tra il 30% e il 60% di danno e colpisce solo i nemici</Italian>
 		<Spanish>[ICON_BULLET]Allows you to cast a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Casting -->
+	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Casting -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING</Tag>
 		<English>Cast 'Controlled Maelstrom'</English>
 		<French>Cast 'Controlled Maelstrom'</French>
@@ -1741,7 +1684,7 @@
 		<Italian>Lancia 'Maelstrom Controllato'</Italian>
 		<Spanish>Cast 'Controlled Maelstrom'</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Casting, Help -->
+	<TEXT>  <!-- Combat Overseer, Controlled Maelstrom, Casting, Help -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING_HELP</Tag>
 		<English>[ICON_BULLET]Casts a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</English>
 		<French>[ICON_BULLET]Casts a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</French>
@@ -1749,7 +1692,7 @@
 		<Italian>[ICON_BULLET]Lancia una versione che colpisce a 1 quadrato di distanza della magia 'Maelstrom' attraverso gli Sluga da Battaglia comandati[NEWLINE][ICON_BULLET]Fa tra il 30% e il 60% di danno e colpisce solo i nemici</Italian>
 		<Spanish>[ICON_BULLET]Casts a 1-tile version of the 'Maelstrom' spell through commanded Battle Sluga[NEWLINE][ICON_BULLET]Does 30% to 60% damage, and only targets enemies</Spanish>
 	</TEXT>
-	<TEXT>  <!-- Massive Unit -->
+	<TEXT>  <!-- Massive Unit -->                     <!-- Not Used -->
 		<Tag>TXT_KEY_PROMOTION_DOUBLE_GC_REQUIREMENT</Tag>
 		<English>Massive Unit</English>
 		<French>Massive Unit</French>
@@ -2081,7 +2024,7 @@
 		<Italian>UnitCombat Secondaria: Mischia</Italian>
 		<Spanish>Secondary UnitCombat: Melee</Spanish>
 	</TEXT>
-		<TEXT>  <!-- Create Behemoth, Help -->  <!-- Mekara V2 text Start -->
+	<TEXT>  <!-- Create Behemoth, Help -->  <!-- Mekara V2 text Start -->
 		<Tag>TXT_KEY_SPELL_BEHEMOTH_CREATION_V2_HELP</Tag>
 		<English>[ICON_BULLET]Sacrifices 4 Slave units to create a Behemoth unit[NEWLINE][ICON_BULLET]Can only by cast by a civ lead by Jamal Dahkar</English>
 		<French>[ICON_BULLET]Sacrifices 4 Slave units to create a Behemoth unit[NEWLINE][ICON_BULLET]Can only by cast by a civ lead by Jamal Dahkar</French>
@@ -2147,10 +2090,418 @@
 	</TEXT>
 	<TEXT>	<!-- Enslaver Trait -->
 		<Tag>TXT_KEY_TRAIT_ENSLAVERS_HELP</Tag>
-		<English>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</English>
-		<French>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</French>
-		<German>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</German>
-		<Italian>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</Italian>
-		<Spanish>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER_MEKARA]Slaver[\LINK] to all units</Spanish>
+		<English>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER]Slaver[\LINK] to all units</English>
+		<French>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER]Slaver[\LINK] to all units</French>
+		<German>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER]Slaver[\LINK] to all units</German>
+		<Italian>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER]Slaver[\LINK] to all units</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Grants [LINK=PROMOTION_SLAVER]Slaver[\LINK] to all units</Spanish>
 	</TEXT>	
+	<TEXT>	<!-- Sluga Bloom V2 -->
+		<Tag>TXT_KEY_SPELL_BLOOM_MEKARA_V2</Tag>
+		<English>Overseer Spell Bloom</English>
+		<French>Overseer Spell Bloom</French>
+		<German>Overseer Spell Bloom</German>
+		<Italian>Overseer Spell Bloom</Italian>
+		<Spanish>Overseer Spell Bloom</Spanish>
+	</TEXT>	
+	<TEXT>	<!-- Sluga Scorch V2 -->
+		<Tag>TXT_KEY_SPELL_SCORCH_MEKARA_V2</Tag>
+		<English>Overseer Spell Scorch</English>
+		<French>Overseer Spell Scorch</French>
+		<German>Overseer Spell Scorch</German>
+		<Italian>Overseer Spell Scorch</Italian>
+		<Spanish>Overseer Spell Scorch</Spanish>
+	</TEXT>	
+	<TEXT>	<!-- Sluga Spring V2 -->
+		<Tag>TXT_KEY_SPELL_SPRING_MEKARA_V2</Tag>
+		<English>Overseer Spell Spring</English>
+		<French>Overseer Spell Spring</French>
+		<German>Overseer Spell Spring</German>
+		<Italian>Overseer Spell Spring</Italian>
+		<Spanish>Overseer Spell Spring</Spanish>
+	</TEXT>
+	<TEXT>	<!-- Overseer Combat/Command -->                 <!-- New Overseer Promotions Start -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER</Tag>
+		<English>Overseer Command</English>
+		<French>Overseer Command</French>
+		<German>Overseer Command</German>
+		<Italian>Overseer Command</Italian>
+		<Spanish>Overseer Command</Spanish>
+	</TEXT>
+	<TEXT>	<!-- Overseer Combat/Commanded --> 
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_UNIT</Tag>
+		<English>Overseer Commanded</English>
+		<French>Overseer Commanded</French>
+		<German>Overseer Commanded</German>
+		<Italian>Overseer Commanded</Italian>
+		<Spanish>Overseer Commanded</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Help --> 
+		<Tag>TXT_KEY_UNIT_COM_OVERSEER_HELP</Tag>
+		<English>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength, and cast some Overseer spells[NEWLINE][ICON_BULLET] Improves regular units work rate and Combat strength by a lesser amount[NEWLINE][ICON_BULLET]Unlocks further Overseer Promotions for Commanders</English>
+		<French>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength, and cast some Overseer spells[NEWLINE][ICON_BULLET] Improves regular units work rate and Combat strength by a lesser amount[NEWLINE][ICON_BULLET]Unlocks further Overseer Promotions for Commanders</French>
+		<German>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength, and cast some Overseer spells[NEWLINE][ICON_BULLET] Improves regular units work rate and Combat strength by a lesser amount[NEWLINE][ICON_BULLET]Unlocks further Overseer Promotions for Commanders</German>
+		<Italian>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength, and cast some Overseer spells[NEWLINE][ICON_BULLET] Improves regular units work rate and Combat strength by a lesser amount[NEWLINE][ICON_BULLET]Unlocks further Overseer Promotions for Commanders</Italian>
+		<Spanish>[ICON_BULLET]Allows commanded Sluga to build improvements, have combat strength, and cast some Overseer spells[NEWLINE][ICON_BULLET] Improves regular units work rate and Combat strength by a lesser amount[NEWLINE][ICON_BULLET]Unlocks further Overseer Promotions for Commanders</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Close Combat Training -->                    
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC</Tag>
+		<English>Overseer Control Training</English>
+		<French>Overseer Control Training</French>
+		<German>Overseer Control Training</German>
+		<Italian>Overseer Control Training</Italian>
+		<Spanish>Overseer Control Training</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Control Training -->                    
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC_UNIT</Tag>
+		<English>Sluga Control Training</English>
+		<French>Sluga Control Training</French>
+		<German>Sluga Control Training</German>
+		<Italian>Sluga Control Training</Italian>
+		<Spanish>Sluga Control Training</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength </French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Attack Strength[NEWLINE][ICON_BULLET]+1 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength </Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training I -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1</Tag>
+		<English>Overseer Control I</English>
+		<French>Overseer Control I</French>
+		<German>Overseer Control I</German>
+		<Italian>Overseer Control I</Italian>
+		<Spanish>Overseer Control I</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Control Training I -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1_UNIT</Tag>
+		<English>Sluga Control I</English>
+		<French>Sluga Control I</French>
+		<German>Sluga Control I</German>
+		<Italian>Sluga Control I</Italian>
+		<Spanish>Sluga Control I</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training I, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Extra First Strike[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Extra First Strike[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Extra First Strike[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Extra First Strike[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+1 Extra First Strike[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training II -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2</Tag>
+		<English>Overseer Control II</English>
+		<French>Overseer Control II</French>
+		<German>Overseer Control II</German>
+		<Italian>Overseer Control II</Italian>
+		<Spanish>Overseer Control II</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Control Training II -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_UNIT</Tag>
+		<English>Sluga Control II</English>
+		<French>Sluga Control II</French>
+		<German>Sluga Control II</German>
+		<Italian>Sluga Control II</Italian>
+		<Spanish>Sluga Control II</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training II, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 First Strikes Chances[NEWLINE][ICON_BULLET]+10% vs Mounted units[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% Work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training Drill III -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_3</Tag>
+		<English>Overseer Control III</English>
+		<French>Overseer Control III</French>
+		<German>Overseer Control III</German>
+		<Italian>Overseer Control III</Italian>
+		<Spanish>Overseer Control III</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Control Training Drill III -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_3_UNIT</Tag>
+		<English>Sluga Control III</English>
+		<French>Sluga Control III</French>
+		<German>Sluga Control III</German>
+		<Italian>Sluga Control III</Italian>
+		<Spanish>Sluga Control III</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training III, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][ICON_BULLET]+20% vs Mounted units[NEWLINE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][ICON_BULLET]+20% vs Mounted units[NEWLINE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][ICON_BULLET]+20% vs Mounted units[NEWLINE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][ICON_BULLET]+20% vs Mounted units[NEWLINE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Extra First Strikes[NEWLINE][ICON_BULLET]+20% vs Mounted units[NEWLINE][ICON_BULLET]Suffers 20% less Collateral Damage[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Control Training Mastery -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER</Tag>
+		<English>Overseer Control Mastery</English>
+		<French>Overseer Control Mastery</French>
+		<German>Overseer Control Mastery</German>
+		<Italian>Overseer Control Mastery</Italian>
+		<Spanish>Overseer Control Mastery</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Control Training Mastery -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER_UNIT</Tag>
+		<English>Sluga Control Mastery</English>
+		<French>Sluga Control Mastery</French>
+		<German>Sluga Control Mastery</German>
+		<Italian>Sluga Control Mastery</Italian>
+		<Spanish>Sluga Control Mastery</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Close Combat Mastery, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Attack Strength[NEWLINE][ICON_BULLET]+2 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Attack Strength[NEWLINE][ICON_BULLET]+2 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Attack Strength[NEWLINE][ICON_BULLET]+2 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Attack Strength[NEWLINE][ICON_BULLET]+2 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]+2 Attack Strength[NEWLINE][ICON_BULLET]+2 Defence Strength[NEWLINE][ICON_BULLET]+20% Combat Strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision Training -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC</Tag>
+		<English>Overseer Precision Training</English>
+		<French>Overseer Precision Training</French>
+		<German>Overseer Precision Training</German>
+		<Italian>Overseer Precision Training</Italian>
+		<Spanish>Overseer Precision Training</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Precision Training -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</Tag>
+		<English>Sluga Precision Training</English>
+		<French>Sluga Precision Training</French>
+		<German>Sluga Precision Training</German>
+		<Italian>Sluga Precision Training</Italian>
+		<Spanish>Sluga Precision Training</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Ranged Training, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +3[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 30%[NEWLINE][ICON_BULLET]+1 Operational Range[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision  I -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1</Tag>
+		<English>Overseer Precision I</English>
+		<French>Overseer Precision I</French>
+		<German>Overseer Precision I</German>
+		<Italian>Overseer Precision I</Italian>
+		<Spanish>Overseer Precision I</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Precision  I -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1_UNIT</Tag>
+		<English>Sluga Precision I</English>
+		<French>Sluga Precision I</French>
+		<German>Sluga Precision I</German>
+		<Italian>Sluga Precision I</Italian>
+		<Spanish>Sluga Precision I</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision I, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision  II -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2</Tag>
+		<English>Overseer Precision II</English>
+		<French>Overseer Precision II</French>
+		<German>Overseer Precision II</German>
+		<Italian>Overseer Precision II</Italian>
+		<Spanish>Overseer Precision II</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Precision  II -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2_UNIT</Tag>
+		<English>Sluga Precision II</English>
+		<French>Sluga Precision II</French>
+		<German>Sluga Precision II</German>
+		<Italian>Sluga Precision II</Italian>
+		<Spanish>Sluga Precision II</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision  II, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision  III -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3</Tag>
+		<English>Overseer Precision III</English>
+		<French>Overseer Precision III</French>
+		<German>Overseer Precision III</German>
+		<Italian>Overseer Precision III</Italian>
+		<Spanish>Overseer Precision III</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Sluga, Precision  III -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3_UNIT</Tag>
+		<English>Sluga Precision III</English>
+		<French>Sluga Precision III</French>
+		<German>Sluga Precision III</German>
+		<Italian>Sluga Precision III</Italian>
+		<Spanish>Sluga Precision III</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Ranged Expertise III, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +1[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 10%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision Mastery -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER</Tag>
+		<English>Overseer Precision Mastery</English>
+		<French>Overseer Precision Mastery</French>
+		<German>Overseer Precision Mastery</German>
+		<Italian>Overseer Precision Mastery</Italian>
+		<Spanish>Overseer Precision Mastery</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Overseer, Precision Mastery Unit -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</Tag>
+		<English>Sluga Precision Mastery</English>
+		<French>Sluga Precision Mastery</French>
+		<German>Sluga Precision Mastery</German>
+		<Italian>Sluga Precision Mastery</Italian>
+		<Spanish>Sluga Precision Mastery</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Ranged Mastery, Help -->
+		<Tag>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER_HELP</Tag>
+		<English>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</English>
+		<French>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</French>
+		<German>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</German>
+		<Italian>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Italian>
+		<Spanish>[ICON_BULLET]Gives the following bonuses to all commanded Sluga:[NEWLINE][ICON_BULLET]Enhances Ranged Combat Attack by +2[NEWLINE][ICON_BULLET]Enhances damage limit for ranged combat by 15%[NEWLINE][ICON_BULLET]+10% combat strength[NEWLINE][ICON_BULLET]+40% work rate[NEWLINE][ICON_BULLET]Gives the following bonuses to all other commanded units: +10% work rate, +10% Combat strength</Spanish>
+	</TEXT>
+	<TEXT> <!-- Combat Overseer, Celerity -->
+		<Tag>TXT_KEY_PROMOTION_CELERITY1_OVERSEER</Tag>
+		<English>Celerity</English>
+		<French>Célérité</French>
+		<German>Celerity</German>
+		<Italian>Celerità</Italian>
+		<Spanish>Celerity</Spanish>
+	</TEXT>
+	<TEXT> <!-- Combat Overseer, Enhanced Celerity -->
+		<Tag>TXT_KEY_PROMOTION_CELERITY2_OVERSEER</Tag>
+		<English>Enhanced Celerity</English>
+		<French>Célérité accrue</French>
+		<German>Enhanced Celerity</German>
+		<Italian>Celerità Migliorata</Italian>
+		<Spanish>Enhanced Celerity</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Regeneration -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Tag>
+		<English>Overseer Spell Regeneration</English>
+		<French>Overseer Spell Regeneration</French>
+		<German>Overseer Spell Regeneration</German>
+		<Italian>Overseer Spell Regeneration</Italian>
+		<Spanish>Overseer Spell Regeneration</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Regeneration, Help -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_HELP</Tag>
+		<English>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Regenerating promotion</English>
+		<French>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Regenerating promotion</French>
+		<German>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Regenerating promotion</German>
+		<Italian>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Regenerating promotion</Italian>
+		<Spanish>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Regenerating promotion</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Regeneration, Casting -->                     <!-- Not Used -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING</Tag>
+		<English>Cast 'Regeneration'</English>
+		<French>Cast 'Regeneration'</French>
+		<German>Zaubere 'Regeneration'</German>
+		<Italian>Lancia 'Rigenerazione'</Italian>
+		<Spanish>Cast 'Regeneration'</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Regeneration, Casting, Help -->                     <!-- Not Used -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING_HELP</Tag>
+		<English>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</English>
+		<French>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</French>
+		<German>[ICON_BULLET]&#252;bertr&#228;gt die Regeneration Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
+		<Italian>[ICON_BULLET]Applica la promozione Rigenerazione a tutti gli Sluga da Battaglia comandati</Italian>
+		<Spanish>[ICON_BULLET]Applies the Regenerating promotion to all commanded Battle Sluga</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Sustained Regeneration -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2</Tag>
+		<English>Overseer March</English>
+		<French>Overseer March</French>
+		<German>Overseer March</German>
+		<Italian>Overseer March</Italian>
+		<Spanish>Overseer March</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Sustained Regeneration -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2_HELP</Tag>
+		<English>Grants Slugas 10% recovery in hostile lands per turn, and the ability to heal while moving</English>
+		<French>Grants Slugas 10% recovery in hostile lands per turn, and the ability to heal while moving</French>
+		<German>Grants Slugas 10% recovery in hostile lands per turn, and the ability to heal while moving</German>
+		<Italian>Grants Slugas 10% recovery in hostile lands per turn, and the ability to heal while moving</Italian>
+		<Spanish>Grants Slugas 10% recovery in hostile lands per turn, and the ability to heal while moving</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Stoneskin -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Tag>
+		<English>Overseer Spell Stoneskin</English>
+		<French>Overseer Spell Stoneskin</French>
+		<German>Overseer Spell Stoneskin</German>
+		<Italian>Overseer Spell Stoneskin</Italian>
+		<Spanish>Overseer Spell Stoneskin</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Stoneskin, Help -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_HELP</Tag>
+		<English>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Stoneskin promotion</English>
+		<French>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Stoneskin promotion</French>
+		<German>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Stoneskin promotion</German>
+		<Italian>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Stoneskin promotion</Italian>
+		<Spanish>[ICON_BULLET]Allows your combat Slugas to cast a spell which applies the Stoneskin promotion</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Stoneskin, Casting -->                     <!-- Not Used -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING</Tag>
+		<English>Cast 'Stoneskin'</English>
+		<French>Cast 'Stoneskin'</French>
+		<German>Zaubere 'Steinhaut'</German>
+		<Italian>Lancia 'Pelle di Pietra'</Italian>
+		<Spanish>Cast 'Stoneskin'</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Stoneskin, Casting, Help -->                     <!-- Not Used -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING_HELP</Tag>
+		<English>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</English>
+		<French>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</French>
+		<German>[ICON_BULLET]&#252;bertr&#228;gt die Steinhaut Bef&#246;rderung auf alle befehligten Schlachtsluga</German>
+		<Italian>[ICON_BULLET]Applica la promozione Pelle di Pietra a tutti gli Sluga da Battaglia comandati</Italian>
+		<Spanish>[ICON_BULLET]Applies the Stoneskin promotion to all commanded Battle Sluga</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Maelstrom -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM</Tag>
+		<English>Overseer Spell Maelstrom</English>
+		<French>Overseer Spell Maelstrom</French>
+		<German>Overseer Spell Maelstrom</German>
+		<Italian>Overseer Spell Maelstrom</Italian>
+		<Spanish>Overseer Spell Maelstrom</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Maelstrom, Help -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Tag>
+		<English>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% total damage, and targets all units; allies included</English>
+		<French>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% total damage, and targets all units; allies included</French>
+		<German>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% total damage, and targets all units; allies included</German>
+		<Italian>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% total damage, and targets all units; allies included</Italian>
+		<Spanish>[ICON_BULLET]Allows your combat Slugas to cast a 1-tile, weaker damage version of the 'Maelstrom' spell [NEWLINE][ICON_BULLET]Does 5% damage up to 35% total damage, and targets all units; allies included</Spanish>
+	</TEXT>
+	<TEXT>  <!-- Combat Overseer, Maelstrom, Casting -->                     <!-- Not Used -->
+		<Tag>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Tag>
+		<English>Cast 'Maelstrom'</English>
+		<French>Cast 'Maelstrom'</French>
+		<German>Zaubere 'Mahlstrom'</German>
+		<Italian>Lancia 'Maelstrom'</Italian>
+		<Spanish>Cast 'Maelstrom'</Spanish>
+	</TEXT>
 </Civ4GameText>

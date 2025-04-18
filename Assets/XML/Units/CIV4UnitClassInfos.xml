@@ -4019,7 +4019,7 @@
 		</UnitClassInfo>
 		<UnitClassInfo>		<!-- Combat Overseer -->
 			<Type>UNITCLASS_COMBAT_OVERSEER_V2</Type>
-			<Description>TXT_KEY_UNIT_COMBAT_OVERSEER</Description>
+			<Description>TXT_KEY_UNIT_COM_OVERSEER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>

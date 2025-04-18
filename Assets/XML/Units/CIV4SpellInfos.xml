@@ -9708,12 +9708,28 @@
 			<Help>TXT_KEY_SPELL_SLAVE_TRADE_BUY_HELP</Help>
 			<bInBordersOnly>1</bInBordersOnly>
 			<bInCityOnly>1</bInCityOnly>
-			<bPrereqSlaveTrade>1</bPrereqSlaveTrade>
 			<bHasCasted>1</bHasCasted>
 			<bAbility>1</bAbility>
 			<iCost>30</iCost>
 			<PyResult>spellSlaveTradeBuy(pCaster)</PyResult>
 			<PyRequirement>reqSlaveTradeBuy(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_ILL_BELL</Sound>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Units/Slave.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Mekara Slave Trade (Buy) -->  <!-- even slavers are squeemish about selling to Mekara -->
+			<Type>SPELL_SLAVE_TRADE_BUY_MEKARA</Type>
+			<Description>TXT_KEY_SPELL_SLAVE_TRADE_BUY_MEKARA</Description>
+			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
+			<Help>TXT_KEY_SPELL_SLAVE_TRADE_BUY_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_MEKARA_V2</CivilizationPrereq>
+			<bInBordersOnly>1</bInBordersOnly>
+			<bInCityOnly>1</bInCityOnly>
+			<bHasCasted>1</bHasCasted>
+			<bAbility>1</bAbility>
+			<iCost>100</iCost>
+			<PyResult>spellSlaveTradeBuy(pCaster)</PyResult>
 			<Effect>EFFECT_SPELL1</Effect>
 			<Sound>AS3D_ILL_BELL</Sound>
 			<bGraphicalOnly>1</bGraphicalOnly>
@@ -10545,6 +10561,91 @@
 			<Sound>AS3D_SPELL_DEFILE</Sound>
 			<Button>Art/Interface/Buttons/Spells/Scorch.dds</Button>
 		</SpellInfo>
+		<SpellInfo>			<!-- Regeneration MEKARA --> 		<!-- MEKARA BATTLE SPELLS -->
+			<Type>SPELL_REGENERATION_MEKARA_V2</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Description>
+			<Civilopedia>TXT_KEY_SPELL_REGENERATION_PEDIA</Civilopedia>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_HELP</Help>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BODY</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
+			<PromotionPrereq1>PROMOTION_COM_OVERSEER_REGENERATION_UNIT_V2</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bIsAutoCastable>1</bIsAutoCastable>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_REGENERATION</AddPromotion>
+			</AddPromotions>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
+			<Effect>EFFECT_CREATION</Effect>
+			<Sound>AS3D_SPELL_SPARKLE</Sound>
+			<Button>Art/Interface/Buttons/Promotions/Regeneration.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Stoneskin MEKARA -->
+			<Type>SPELL_STONESKIN_MEKARA</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Description>
+			<Civilopedia>TXT_KEY_SPELL_STONESKIN_PEDIA</Civilopedia>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_HELP</Help>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_EARTH</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
+			<PromotionPrereq1>PROMOTION_COM_OVERSEER_STONESKIN_UNIT_V2</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bIsAutoCastable>1</bIsAutoCastable>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_STONESKIN</AddPromotion>
+			</AddPromotions>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
+			<Effect>EFFECT_STONESKIN</Effect>
+			<Sound>AS3D_SPELL_STONESKIN</Sound>
+			<Button>Art/Interface/Buttons/Spells/Stoneskin.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!--  Maelstrom MEKARA -->
+			<Type>SPELL_MAELSTROM_MEKARA1</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM</Description>
+			<Civilopedia>TXT_KEY_SPELL_MAELSTROM_PEDIA</Civilopedia>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Help>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_AIR</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_OFFENSIVE</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
+			<PromotionPrereq1>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT_V2</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bIsAutoCastable>1</bIsAutoCastable>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<bCausesWar>1</bCausesWar>
+			<iRange>1</iRange>
+			<iDamage>5</iDamage>
+			<iDamageLimit>35</iDamageLimit>
+			<DamageType>DAMAGE_LIGHTNING</DamageType>
+			<Effect>EFFECT_MAELSTROM</Effect>
+			<Sound>AS3D_SPELL_LIGHTNING_ELEMENTAL</Sound>
+			<Button>Art/Interface/Buttons/Spells/Maelstrom.dds</Button>
+		</SpellInfo>
 		<SpellInfo>			<!-- Enslave Dissidents V2 -->
 			<Type>SPELL_ENSLAVE_DISSIDENTS_V2</Type>
 			<Description>TXT_KEY_SPELL_ENSLAVE_DISSIDENTS</Description>
@@ -10575,7 +10676,7 @@
 			<bAllowAI>1</bAllowAI>
 			<bHasCasted>1</bHasCasted>
 			<PyRequirement>reqEnslaveWorker(pCaster)</PyRequirement>
-			<PyResult>spellSlugaCreation(pCaster, 2)</PyResult>
+            <ConvertUnitType>UNIT_SLAVE</ConvertUnitType>
 			<Effect>EFFECT_SPELL1</Effect>
 			<Sound>AS3D_SPELL_SPRING</Sound>
 			<Button>Art/Interface/Buttons/Promotions/Held.dds</Button>
@@ -10584,12 +10685,12 @@
 			<Type>SPELL_SLUGA_CREATION_V2</Type>
 			<Description>TXT_KEY_SPELL_SLUGA_CREATION</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
-			<PrereqTraits>
-			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait> <!-- Jamal is the only leader of the Mekara keen on biosludge soldiers or workers -->
-			</PrereqTraits>
 			<BuildingPrereq>BUILDING_SHAPER_CABAL</BuildingPrereq>
 			<UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
+			</PrereqTraits>
 			<bInCityOnly>1</bInCityOnly>
 			<bAllowAI>1</bAllowAI>
 			<bHasCasted>1</bHasCasted>
@@ -10655,12 +10756,12 @@
 			<Description>TXT_KEY_SPELL_BATTLE_SLUGA_CREATION</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
 			<TechPrereq>TECH_ALTERATION</TechPrereq>
-			<PrereqTraits>
-			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
-			</PrereqTraits>
 			<BuildingPrereq>BUILDING_SHAPER_CABAL</BuildingPrereq>
 			<UnitClassPrereq>UNITCLASS_SLAVE</UnitClassPrereq>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
+			</PrereqTraits>
 			<bInCityOnly>1</bInCityOnly>
 			<bAllowAI>1</bAllowAI>
 			<bHasCasted>1</bHasCasted>
@@ -11062,6 +11163,9 @@
 			<Description>TXT_KEY_SPELL_SHAPER_EXPERIMENTS</Description>
 			<Strategy>TXT_KEY_SPELL_SHAPER_EXPERIMENTS_STRATEGY</Strategy>
 			<PromotionPrereq1>PROMOTION_MEKARA_RITUALIST</PromotionPrereq1>
+			<PrereqTraits>
+			   <PrereqTrait>TRAIT_JAMAL_INFO</PrereqTrait>
+			</PrereqTraits>
 			<Help>TXT_KEY_SPELL_SHAPER_EXPERIMENTS_HELP</Help>
 			<UnitInStackPrereq>UNIT_SLAVE</UnitInStackPrereq>
 			<bInCityOnly>1</bInCityOnly>
