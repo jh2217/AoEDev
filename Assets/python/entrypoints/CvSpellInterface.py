@@ -11334,7 +11334,7 @@ def spellCorgayleAscension(caster):
 #		pPlayer.initUnit(iUnit, caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 #Seems fine
 def reqEnslaveWorker(caster):
-	if caster.getUnitType()==getInfoType('UNIT_OVERSEER'):
+	if caster.getUnitType()==getInfoType('UNIT_OVERSEER_V2'):
 		return False
 	return True
 #Seems fine
