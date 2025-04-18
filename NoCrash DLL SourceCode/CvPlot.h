@@ -53,6 +53,8 @@ public:
 
 	void doTurn();
 
+	void doUniqueLairTimecheck();
+
 	void doImprovement();
 
 	void updateCulture(bool bBumpUnits, bool bUpdatePlotGroups);

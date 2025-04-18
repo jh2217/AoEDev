@@ -117,18 +117,18 @@ def addUnit(iUnit, iPlayer):
 		newUnit = bPlayer.initUnit(iUnit, pBestPlot.getX(), pBestPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 		newUnit.finishMoves()
 		return newUnit
-		
-def addUnitFixed(caster, iUnit, iPlayer):
+
+def addUnitFixed(pPlot, iUnit, iPlayer):
 	gc = CyGlobalContext() #Cause local variables are faster
 	if iPlayer < 0 or iPlayer > gc.getDEMON_PLAYER():
 		iPlayer = gc.getORC_PLAYER()
-	pPlot = caster.plot()
 	pNewPlot = findClearPlot(-1, pPlot)
 	if pNewPlot != -1:
 		pPlayer = gc.getPlayer(iPlayer)
 		newUnit = pPlayer.initUnit(iUnit, pNewPlot.getX(), pNewPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 		return newUnit
 	return -1
+
 def plotsInRange( centerX, centerY, maxRange, minRange=None ):
 	if minRange is None:
 		minRange = 0

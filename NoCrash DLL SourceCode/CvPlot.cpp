@@ -25,6 +25,7 @@
 #include "CyArgsList.h"
 #include "CvDLLPythonIFaceBase.h"
 #include "CvEventReporter.h"
+#include "CyUnit.h"
 #include "CyPlot.h"
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      11/30/08                                jdog5000      */
@@ -564,6 +565,8 @@ void CvPlot::doTurn()
 
 		doImprovementUpgrade();
 
+		doUniqueLairTimecheck();
+
 		// Spawn units and/or groups from improvements that haven't spawned this turn:
 		doLairSpawn();
 
@@ -814,6 +817,59 @@ void CvPlot::doTurn()
 	// XXX
 }
 
+void CvPlot::doUniqueLairTimecheck()
+{
+	if (getImprovementType() == NO_IMPROVEMENT
+	 || !isOwned()
+	 || GET_PLAYER(getOwner()).isBarbarian()
+	 || !GC.getImprovementInfo(getImprovementType()).isUnique()
+	 || !GC.getImprovementInfo(getImprovementType()).isExplorable())
+		return;
+
+	int iTurnsLeftUnexplored = GC.getGame().getGameTurn() - getExploreNextTurn();
+
+	if (iTurnsLeftUnexplored < 0)
+		return;
+
+	CvWString szBuffer;
+	int iCycleLength = GC.getImprovementInfo(getImprovementType()).getExploreDelay() * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent() / 100;
+
+	// Notify the turn a lair becomes available
+	if (iTurnsLeftUnexplored == 0 || getOwnershipDuration() == 1)
+	{
+		szBuffer = gDLL->getText("TXT_KEY_UF_NOTIFY_EXPLORE", GC.getImprovementInfo(getImprovementType()).getTextKeyWide());
+		gDLL->getInterfaceIFace()->addMessage(getOwner(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_ENEMY_TROOPS", MESSAGE_TYPE_MINOR_EVENT, GC.getImprovementInfo(getImprovementType()).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_YELLOW"), getX_INLINE(), getY_INLINE(), true, true);
+	}
+	// Evil plots to summon beasties can't progress if the thing is outside owned territory... I guess? For balance. Otherwise it can trigger if the tile is acquired after being unowned for a long time
+	else if ((iTurnsLeftUnexplored == iCycleLength && getOwnershipDuration() >= iCycleLength)
+		  || (iTurnsLeftUnexplored >= iCycleLength && getOwnershipDuration() == iCycleLength))
+	{
+		szBuffer = gDLL->getText("TXT_KEY_UF_NOTIFY_EXPLORE_BUILDUP", GC.getImprovementInfo(getImprovementType()).getTextKeyWide());
+		gDLL->getInterfaceIFace()->addMessage(getOwner(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_ENEMY_TROOPS", MESSAGE_TYPE_MINOR_EVENT, GC.getImprovementInfo(getImprovementType()).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), getX_INLINE(), getY_INLINE(), true, true);
+	}
+	// You done fucked up now son!
+	else if (iTurnsLeftUnexplored >= 2 * iCycleLength && getOwnershipDuration() >= 2 * iCycleLength)
+	{
+		szBuffer = gDLL->getText("TXT_KEY_UF_NOTIFY_BUILDUP_COMPLETE", GC.getImprovementInfo(getImprovementType()).getTextKeyWide());
+		gDLL->getInterfaceIFace()->addMessage(getOwner(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_PILLAGED", MESSAGE_TYPE_MAJOR_EVENT, GC.getImprovementInfo(getImprovementType()).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), getX_INLINE(), getY_INLINE(), true, true);
+
+		CyUnit* pyCaster;
+		pyCaster = new CyUnit(NULL);
+
+		CyPlot* pyPlot = new CyPlot(this);
+
+		CyArgsList argsList;
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyCaster));
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));
+		gDLL->getPythonIFace()->callFunction(PYSpellModule, "exploreLairBigBad", argsList.makeFunctionArgs());
+		delete pyPlot; // python fxn must not hold on to this pointer (?)
+		delete pyCaster;
+
+		// reset exploration timer
+		setExploreNextTurn(GC.getGame().getGameTurn() + (GC.getImprovementInfo(getImprovementType()).getExploreDelay() * 11 / 10 - GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo(getImprovementType()).getExploreDelay() / 5, "randomization to lair cycle length"))
+						 * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent() / 100);
+	}
+}
 
 void CvPlot::doLairSpawn()
 {
@@ -7615,9 +7671,11 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 	int iI;
 	PlayerTypes eOldImprovementOwner = NO_PLAYER;
 	ImprovementTypes eOldImprovement = getImprovementType();
-	if (eNewValue!=NO_IMPROVEMENT && GC.getGameINLINE().isOption(GAMEOPTION_DELAYED_LAIRS) && GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay() > 0 && GC.getGame().getGameTurn()<1)
+	if (GC.getGame().getGameTurn()<1 && eNewValue!=NO_IMPROVEMENT && GC.getGameINLINE().isOption(GAMEOPTION_DELAYED_LAIRS) && GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay() > 0)
 	{
-		setExploreNextTurn(GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay()*GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent()/100);
+		// +-10% on cycle length
+		setExploreNextTurn((GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay() * 11 / 10 - GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay() / 5, "lair explore cycle randomization"))
+						  * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent()/100);
 	}
 	if (eNewValue == NO_IMPROVEMENT)
 	{

@@ -364,7 +364,7 @@ class CustomFunctions:
 		sHenchman 	= lHenchmanList[randNum(len(lHenchmanList), "Pick Henchman")-1]
 		iUnit 		= getInfoType(sMonster)
 		iHenchman 	= getInfoType(sHenchman)
-		newUnit 	= addUnitFixed(caster, iUnit, iSpawnPlayer)
+		newUnit 	= addUnitFixed(pPlot, iUnit, iSpawnPlayer)
 		if newUnit != -1:
 			setPromo 	= newUnit.setHasPromotion
 			for i in xrange(randNum(len(lPromoList)/4 + 1, "Pick Promotion Quantity")):
@@ -381,7 +381,7 @@ class CustomFunctions:
 			if iHenchtotal > int(getHandicap):
 				iHenchtotal = int(getHandicap)
 			initUnit = bPlayer.initUnit
-			iX = newUnit.getX(); iY = newUnit.getY();
+			iX = newUnit.getX(); iY = newUnit.getY()
 			for i in xrange(iHenchtotal):
 				initUnit(iHenchman, iX, iY, iNoAI, iSouth)
 		return 0

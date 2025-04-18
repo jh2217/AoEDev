@@ -32984,7 +32984,9 @@ bool CvUnit::exploreLair(CvPlot* pPlot)
 				if ((ImprovementTypes)GC.getImprovementInfo(pPlot->getImprovementType()).isUnique())
 				{
 					gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_LAIR_DESTROYED").GetCString(), "AS2D_POSITIVE_DINK", MESSAGE_TYPE_DISPLAY_ONLY, "Art/Interface/Buttons/Spells/Rob Grave.dds", (ColorTypes)8, pPlot->getX(), pPlot->getY(), true, true);
-					pPlot->setExploreNextTurn(GC.getGame().getGameTurn() + GC.getImprovementInfo(pPlot->getImprovementType()).getExploreDelay() * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent() / 100);
+					// +-10% on cycle length
+					pPlot->setExploreNextTurn(GC.getGame().getGameTurn() + (GC.getImprovementInfo(pPlot->getImprovementType()).getExploreDelay() * 11 / 10 - GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo(pPlot->getImprovementType()).getExploreDelay() / 5, "randomization to lair cycle length"))
+																		  * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent() / 100);
 				}
 				else
 				{
