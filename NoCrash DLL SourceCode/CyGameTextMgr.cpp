@@ -168,6 +168,19 @@ std::wstring CyGameTextMgr::getPlotEffectHelp(int iFeature, bool bCivilopediaTex
 	return szBuffer.getCString();
 }
 
+std::wstring CyGameTextMgr::getCityClassHelp(int iFeature, bool bCivilopediaText)
+{
+	CvWStringBuffer szBuffer;
+	GAMETEXT.setCityClassHelp(szBuffer, (CityClassTypes)iFeature, bCivilopediaText);
+	return szBuffer.getCString();
+}
+std::wstring CyGameTextMgr::getRouteHelp(int iFeature, bool bCivilopediaText)
+{
+	CvWStringBuffer szBuffer;
+	GAMETEXT.setRouteHelp(szBuffer, (RouteTypes)iFeature, bCivilopediaText);
+	return szBuffer.getCString();
+}
+
 std::wstring CyGameTextMgr::getTerrainHelp(int iTerrain, bool bCivilopediaText)
 {
 	CvWStringBuffer szBuffer;

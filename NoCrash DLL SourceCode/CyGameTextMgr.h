@@ -46,6 +46,8 @@ public:
 	std::wstring getTerrainHelp(int iTerrain, bool bCivilopediaText);
 	std::wstring getFeatureHelp(int iFeature, bool bCivilopediaText);
 	std::wstring getPlotEffectHelp(int iFeature, bool bCivilopediaText);
+	std::wstring getCityClassHelp(int iFeature, bool bCivilopediaText);
+	std::wstring getRouteHelp(int iFeature, bool bCivilopediaText);
 	std::wstring parseCivicInfo(int /*CivicTypes*/ iCivicType, bool bCivilopediaText, bool bPlayerContext, bool bSkipName);
 /*************************************************************************************************/
 /**	Xienwolf Tweak							07/12/09											**/
