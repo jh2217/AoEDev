@@ -3974,8 +3974,11 @@ def spellSironasTouch(caster):
 
 def reqSlaveTradeBuy(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
+	eCiv 			= pPlayer.getCivilizationType()
 	iCiv = pPlayer.getCivilizationType()
 	if iCiv in [Civ["D'Tesh"],Civ["Mekara Order"]]:
+		return False
+	if eCiv == gc.getInfoTypeForString("CIVILIZATION_MEKARA_V2"):
 		return False
 	return True
 
