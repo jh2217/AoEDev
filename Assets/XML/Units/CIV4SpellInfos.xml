@@ -1094,6 +1094,7 @@
 			<PromotionPrereq1>PROMOTION_DEATH1</PromotionPrereq1>
 			<bAllowAI>1</bAllowAI>
 			<iRange>0</iRange>
+			<iTargetRange>0</iTargetRange>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>1</bHasCasted>
 			<CreateUnitType>UNIT_SKELETON</CreateUnitType>
@@ -4672,7 +4673,7 @@
 			<bAllowAI>1</bAllowAI>
 			<bHasCasted>1</bHasCasted>
 			<bTargeted>1</bTargeted>
-			<iRange>1</iRange>
+			<iTargetRange>1</iTargetRange>
 			<bBuffCasterOnly>1</bBuffCasterOnly>
 			<CreateUnitType>UNIT_SHOREPARTY</CreateUnitType>
 			<iCreateUnitNum>1</iCreateUnitNum>
@@ -6698,7 +6699,7 @@
 			<bHasCasted>1</bHasCasted>
 			<bBuffCasterOnly>1</bBuffCasterOnly>
 			<bTargeted>1</bTargeted>
-			<iRange>1</iRange>
+			<iTargetRange>1</iTargetRange>
 			<RemovePromotions>
 				<RemovePromotion>PROMOTION_BUCCANEERS</RemovePromotion>
 			</RemovePromotions>

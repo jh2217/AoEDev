@@ -2122,6 +2122,7 @@ public:
 /**	New Tag Defs							END													**/
 /*************************************************************************************************/
 	int getRange() const;
+	int getTargetRange() const;
 	int getEffect() const;
 	int getAIWeight() const;
 	int getCasterMinLevel() const;
@@ -2312,6 +2313,7 @@ protected:
 	int m_iDamageType;
 	int m_iDelay;
 	int m_iRange;
+	int m_iTargetRange;
 	int m_iResistModify;
 	int m_iAddPromotionType1;
 	int m_iAddPromotionType2;

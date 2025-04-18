@@ -1424,14 +1424,17 @@ public:
 /*************************************************************************************************/
 //FfH Spell System: Added by Kael 07/23/2007
 	bool canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot = NULL);
+	bool canCastTargetPlot(int spell, bool bTestVisible, CvPlot* pTargetPlot = NULL) const;
 	bool canCastAnyPlot(int spell, bool bTestVisible);
 	bool canCreateUnit(int spell, CvPlot* pTargetPlot = NULL) const;
 	bool canAddPromotion(int spell, CvPlot* pTargetPlot = NULL);
 	bool canCreateBuilding(int spell, CvPlot* pTargetPlot = NULL) const;
-	bool canCreateFeature(int spell, CvPlot* pTargetPlot = NULL) const;
+	bool canCreateFeature(int spell, CvPlot* pTargetPlot = NULL);
+	bool canCreateFeaturePlot(int spell, CvPlot* pTargetPlot = NULL) const;
 	bool canCreatePlotEffect(int spell, CvPlot* pTargetPlot = NULL) const;
 	bool canRemovePlotEffect(int spell, CvPlot* pTargetPlot = NULL) const;
 	bool canCreateImprovement(int spell, CvPlot* pTargetPlot = NULL) const;
+	bool canCreateImprovementPlot(int spell, CvPlot* pTargetPlot = NULL) const;
 	bool canSpreadReligion(int spell, CvPlot* pTargetPlot = NULL) const;
 	bool canDispel(int spell, CvPlot* pTargetPlot = NULL);
 	bool canImmobile(int spell, CvPlot* pTargetPlot = NULL);
@@ -1636,6 +1639,7 @@ public:
 	void SelectUnit();
 	void DeselectUnit();
 	bool canSpellTargetPlot(CvPlot* pPlot, int iI);
+	bool canSpellTargetSecondaryPlot(CvPlot* pMainPlot, CvPlot* pSecondaryPlot, int iI);
 	int getMissionSpell() const;
 	void setMissionSpell(int i);
 	DllExport void setWeapons();

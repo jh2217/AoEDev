@@ -14285,6 +14285,11 @@ void CvGameTextMgr::parseSpellHelp(CvWStringBuffer &szBuffer, SpellTypes eSpell,
 		szBuffer.append(pcNewline);
 		szBuffer.append(gDLL->getText("TXT_KEY_SPELL_RANGE", GC.getSpellInfo(eSpell).getRange()));
 	}
+	if (GC.getSpellInfo(eSpell).getTargetRange() != 0 )
+	{
+		szBuffer.append(pcNewline);
+		szBuffer.append(gDLL->getText("TXT_KEY_SPELL_TARGET_RANGE", GC.getSpellInfo(eSpell).getTargetRange()));
+	}
 	if (GC.getSpellInfo(eSpell).getConvertUnitType() != NO_UNIT)
 	{
 		szBuffer.append(pcNewline);
