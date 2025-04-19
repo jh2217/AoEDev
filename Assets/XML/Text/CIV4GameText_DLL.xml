@@ -628,6 +628,14 @@
 		<Spanish>[ICON_BULLET]Spawns up to %d1_Limit %s4_adj [LINK=%s2]%s3_unit[\LINK] units at any time</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_LIMIT_NOCIV</Tag>
+		<English>[ICON_BULLET]Spawns up to %d1_Limit [LINK=%s2]%s3_unit[\LINK] units at any time</English>
+		<French>[ICON_BULLET]Spawns up to %d1_Limit [LINK=%s2]%s3_unit[\LINK] units at any time</French>
+		<German>[ICON_BULLET]Spawns up to %d1_Limit [LINK=%s2]%s3_unit[\LINK] units at any time</German>
+		<Italian>[ICON_BULLET]Spawns up to %d1_Limit [LINK=%s2]%s3_unit[\LINK] units at any time</Italian>
+		<Spanish>[ICON_BULLET]Spawns up to %d1_Limit [LINK=%s2]%s3_unit[\LINK] units at any time</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE</Tag>
 		<English>[ICON_BULLET]Spawns %s2_Adjective %s1_unit units</English>
 		<French>[ICON_BULLET]Spawns %s2_Adjective %s1_unit units</French>
@@ -636,12 +644,28 @@
 		<Spanish>[ICON_BULLET]Spawns %s2_Adjective %s1_unit units</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE_NOCIV</Tag>
+		<English>[ICON_BULLET]Spawns %s1_unit units</English>
+		<French>[ICON_BULLET]Spawns %s1_unit units</French>
+		<German>[ICON_BULLET]Erschafft %[s1_unit]-Einheiten</German>
+		<Italian>[ICON_BULLET]Spawns %s1_unit units</Italian>
+		<Spanish>[ICON_BULLET]Spawns %s1_unit units</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_FOR_OWNER_SUFFIX</Tag>
 		<English>[SPACE]if the tile owner isn't at war with them</English>
 		<French>[SPACE]if the tile owner isn't at war with them</French>
 		<German>[SPACE]if the tile owner isn't at war with them</German>
 		<Italian>[SPACE]if the tile owner isn't at war with them</Italian>
 		<Spanish>[SPACE]if the tile owner isn't at war with them</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_SPAWN_FOR_OWNER_NOCIV_SUFFIX</Tag>
+		<English>[SPACE]under control of the tile's owner</English>
+		<French>[SPACE]under control of the tile's owner</French>
+		<German>[SPACE]under control of the tile's owner</German>
+		<Italian>[SPACE]under control of the tile's owner</Italian>
+		<Spanish>[SPACE]under control of the tile's owner</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_LEADERSTATUS</Tag>

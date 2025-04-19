@@ -162,7 +162,7 @@
 				<Tech>TECH_ENGINEERING</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Arcane Barge -->
+		<SpawnGroupInfo>	<!-- Arcane Barge --> <!-- Begin random land groups -->
 			<Type>SPAWN_GROUP_ARCANE_BARGE</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_ARCANE_BARGES</Description>
 			<bNaval>1</bNaval>

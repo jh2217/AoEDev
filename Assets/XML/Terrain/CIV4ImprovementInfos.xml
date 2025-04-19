@@ -6,6 +6,62 @@
 <!-- Improvement Infos -->
 <Civ4ImprovementInfos xmlns="x-schema:CIV4TerrainSchema.xml">
 	<ImprovementInfos>
+		<ImprovementInfo>
+			<Type>IMPROVEMENT_DUMMY</Type> <!-- Add more description here if anyone wants... If a value is entered, it's probably the default -->
+			<Description></Description>
+			<Civilopedia></Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_CAMP</ArtDefineTag>
+			<iAdvancedStartCost>0</iAdvancedStartCost>
+			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
+			<iTilesPerGoody>0</iTilesPerGoody>
+			<iFeatureGrowth>0</iFeatureGrowth> <!-- A probability for features to... grow on the tile? Not sure. -->
+			<iAppearanceProbability>0</iAppearanceProbability> <!-- X/100 of a percent to spawn on a valid tile in mapgen. Aka 10 means 1 in 1000 tiles will have this improvement, 50 means 1 in 200, etc -->
+			<ImprovementPillage></ImprovementPillage> <!-- When pillaged or explored, what it turns into -->
+			<iUpgradeTime>0</iUpgradeTime> <!-- How many turns it takes to upgrade the improvement. If 0, will only upgrade if the upgrade has weights > 0 (I think?) -->
+			<ImprovementUpgrade></ImprovementUpgrade> <!-- When upgraded, what it turns into. Tracked alive units are set to 0, ImmediateSpawnUnitType will spawn -->
+			<bPermanent>0</bPermanent> <!-- 1 means the improvement can't be destroyed in almost all circumstances -->
+			<bUnique>0</bUnique> <!-- 1 means won't spawn multiple, and represents a UF. Additional work elsewhere needed to implement name tag and such -->
+			<iLairCreationWeight>0</iLairCreationWeight> <!-- If above 0, allows lair to spawn as a lair during the game provided terrain and feature prereqs are met. Use LairCreationWeightTechs to allow spawn after gamestart -->
+			<bExplorable>1</bExplorable> <!-- Means units can explore to destroy/pillage it. If ImprovementPillage is set, will change to that. Recommend setting with GoodyClasses... -->
+			<iLairTier>1</iLairTier> <!-- For AI. 1 is minor stuff, 2 is moderate, 3 is UFs. Roughly matches to the tier of a unit the AI will consider using to explore with -->
+			<GoodyClasses> <!-- Look at goody classes for options -->
+				<GoodyClass>
+					<GoodyClassType>GOODYCLASS_GENERIC_MINOR</GoodyClassType>
+					<bGoodyClass>1</bGoodyClass>
+				</GoodyClass>
+			</GoodyClasses>
+			<LairCreationWeightTechs>
+				<LairCreationWeightTech>
+					<LairCreationWeightTechType>TECH_BRONZE_WORKING</LairCreationWeightTechType> <!-- Multiply civs that have this tech by the weight to adjust iLairCreationWeight. -->
+					<iLairCreationWeightTech>-20</iLairCreationWeightTech>
+				</LairCreationWeightTech>
+			</LairCreationWeightTechs>
+			<LairUpgradeTechs>
+				<LairUpgradeTech>
+					<LairUpgradeTechType>TECH_BRONZE_WORKING</LairUpgradeTechType> <!-- Multiply civs that have this tech by the weight. If sum weight is positive, allows upgrade to ImprovementUpgrade -->
+					<iLairUpgradeTech>30</iLairUpgradeTech>
+				</LairUpgradeTech>
+			</LairUpgradeTechs>
+			<bFort>0</bFort> <!-- 1 means this is can be claimed with a fort commander -->
+			<bActsAsCity>0</bActsAsCity> <!-- 1 means ships can sail through, possibly airlife to/from? Treated as city in many ways. -->
+			<bOutsideBorders>0</bOutsideBorders> <!-- 1 means the improvement gets automatically owned by whichever is set in SpawnUnitCiv, and upgrades by itself if unowned -->
+			<bSpawnOnlyForOwner>0</bSpawnOnlyForOwner> <!-- 1 means: Units and groups spawned from here will only go to SpawnUnitCiv, IF the current owner is not at war with SpawnUnitCiv. And: -->
+			<SpawnUnitCiv></SpawnUnitCiv> <!-- If SpawnUnitCiv is not set, spawns will go to whoever owns the tile. See bSpawnOnlyForOwner and bOutsideBorders -->
+			<SpawnUnitType></SpawnUnitType> <!-- What singular unit will spawn if conditions are met -->
+			<iSpawnAtOnceLimit>0</iSpawnAtOnceLimit> <!-- Special: A limit of 0 means it will never stop spawning. A limit of 1 means only 1 unit (immediate or regular spawn, not counting groups) can be spawned at a time, etc -->
+			<iSpawnUnitChancePercentMod>0</iSpawnUnitChancePercentMod> <!-- Percentage multiplier (0 means no change, -99 will spawn at 1% of base rate, 200 will spawn 2x as often, etc). Baseline is iLairSpawnChance in GameSpeedInfo -->
+			<SpawnPromotions> <!-- List of promotions to give SpawnUnitType -->
+				<Promotion></Promotion>
+			</SpawnPromotions>
+			<ImmediateSpawnUnitType></ImmediateSpawnUnitType> <!-- Counts toward the spawnAtOnceLimit. Created whenever the improvement is placed. If the lair currently has no living spawns, will spawn this instead of SpawnUnitType and is 2x as likely to spawn -->
+			<GuardianPromotions> <!-- List of promotions to give ImmediateSpawnUnitType whenever it spawns; PROMOTION_LEASH_1 is common -->
+				<Promotion></Promotion>
+			</GuardianPromotions>
+			<SpawnGroupType></SpawnGroupType> <!-- Baseline chance to spawn is 1/3 of iLairSpawnChance. See SpawnGroupInfos for what's in each group. Each unit in it counts toward iSpawnAtOnceLimit; note this can push over the limit -->
+			<iSpawnGroupChancePercentMod>0</iSpawnGroupChancePercentMod> <!-- As iSpawnUnitChancePercentMod, but for the listed group -->
+			<iBasePlotCounterModify>0</iBasePlotCounterModify> <!-- Changes baseline plot hell counter. >10 sets to hell terrain from base, if no other effects considered -->
+			<bGraphicalOnly>1</bGraphicalOnly> <!-- 0 is default, and means it shows up as selectable in the pedia and WB -->
+		</ImprovementInfo>
 		<ImprovementInfo><!-- Ash Field -->
 			<Type>IMPROVEMENT_ASH_FIELD</Type>
 			<Description>TXT_KEY_IMPROVEMENT_ASH_FIELD</Description>
@@ -401,6 +457,10 @@
 			<Civilopedia>TXT_KEY_IMPROVEMENT_CITY_RUINS_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_CITY_RUINS</ArtDefineTag>
 			<iAirBombDefense>-1</iAirBombDefense>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
+			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<SpawnUnitType>UNIT_SUPPLIES</SpawnUnitType>
+			<iSpawnUnitChancePercentMod>-98</iSpawnUnitChancePercentMod>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Ancient Ruins -->
 			<Type>IMPROVEMENT_CITY_RUINS_ANCIENT</Type>
@@ -461,6 +521,10 @@
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
 			</GoodyClasses>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
+			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<SpawnUnitType>UNIT_SUPPLIES</SpawnUnitType>
+			<iSpawnUnitChancePercentMod>-98</iSpawnUnitChancePercentMod>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Cottage -->
 			<Type>IMPROVEMENT_COTTAGE</Type>
@@ -1979,7 +2043,7 @@
 			<iAppearanceProbability>60</iAppearanceProbability>
 			<ImprovementUpgrade>IMPROVEMENT_BANDIT_HIDEOUT</ImprovementUpgrade>
 			<SpawnUnitType>UNIT_BANDIT</SpawnUnitType>
-			<ImmediateSpawnUnitType>UNIT_BANDIT_CHIEF</ImmediateSpawnUnitType> <!-- Counts toward the spawnAtOnceLimit -->
+			<ImmediateSpawnUnitType>UNIT_BANDIT_CHIEF</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
 			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<iSpawnAtOnceLimit>3</iSpawnAtOnceLimit>

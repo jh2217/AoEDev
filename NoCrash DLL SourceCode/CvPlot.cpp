@@ -966,7 +966,7 @@ void CvPlot::doLairSpawn()
 
 	// Check for spawn unit
 	if (iUnit != NO_UNIT
-	 && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iBaseChance * GC.getImprovementInfo(getImprovementType()).getSpawnUnitChancePercentMod() * (1 + bMissingGuard))
+	 && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iBaseChance * (100 + GC.getImprovementInfo(getImprovementType()).getSpawnUnitChancePercentMod()) * (1 + bMissingGuard))
 	{
 		// If we're entirely out of units spawned from here, respawn the guardian if exists. Guard won't respawn if there is a spawned unit wandered off somewhere; oh well.
 		if (bMissingGuard && GC.getImprovementInfo(getImprovementType()).getImmediateSpawnUnitType() != NO_UNIT)
@@ -1003,7 +1003,7 @@ void CvPlot::doLairSpawn()
 	}
 	// Check for spawn group. 1/3 chance to spawn a group as to spawn a unit. V low chance to spawn both unit and group, but why not.
 	if (iSpawnGroup != NO_SPAWNGROUP
-	 && GC.getGameINLINE().getSorenRandNum(30000, "Spawn Unit") < iBaseChance * GC.getImprovementInfo(getImprovementType()).getSpawnGroupChancePercentMod())
+	 && GC.getGameINLINE().getSorenRandNum(30000, "Spawn Unit") < iBaseChance * (100 + GC.getImprovementInfo(getImprovementType()).getSpawnGroupChancePercentMod()))
 	{
 		// Player notifications included in this func as well, in case
 		GC.getGameINLINE().createSpawnGroup((SpawnGroupTypes)iSpawnGroup, this, eSpawnPlayer);

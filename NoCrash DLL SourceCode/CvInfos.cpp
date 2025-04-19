@@ -30480,8 +30480,8 @@ m_iBasePlotCounterModify(0),
 m_bRequiresPeak(false),
 m_bUnique(false),
 m_iAppearanceProbability(0),
-m_iSpawnUnitChancePercentMod(100),
-m_iSpawnGroupChancePercentMod(100),
+m_iSpawnUnitChancePercentMod(0),
+m_iSpawnGroupChancePercentMod(0),
 m_iHealRateChange(0),
 m_iRange(0),
 m_iRangeDefenseModifier(0),
@@ -31898,8 +31898,8 @@ bool CvImprovementInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bRequiresPeak, "bRequiresPeak");
 	pXML->GetChildXmlValByName(&m_bUnique, "bUnique");
 	pXML->GetChildXmlValByName(&m_iAppearanceProbability, "iAppearanceProbability");
-	pXML->GetChildXmlValByName(&m_iSpawnUnitChancePercentMod, "iSpawnUnitChancePercentMod", 100);
-	pXML->GetChildXmlValByName(&m_iSpawnGroupChancePercentMod, "iSpawnGroupChancePercentMod", 100);
+	pXML->GetChildXmlValByName(&m_iSpawnUnitChancePercentMod, "iSpawnUnitChancePercentMod");
+	pXML->GetChildXmlValByName(&m_iSpawnGroupChancePercentMod, "iSpawnGroupChancePercentMod");
 	pXML->GetChildXmlValByName(&m_iHealRateChange, "iHealRateChange");
 	pXML->GetChildXmlValByName(&m_iRange, "iRange");
 	pXML->GetChildXmlValByName(&m_iRangeDefenseModifier, "iRangeDefenseModifier");
