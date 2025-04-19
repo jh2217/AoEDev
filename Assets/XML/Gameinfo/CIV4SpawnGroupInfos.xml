@@ -6,25 +6,25 @@
 <!-- Basic Infos -->
 <Civ4SpawnGroupInfos xmlns="x-schema:CIV4GameInfoSchema.xml">
 	<SpawnGroupInfos>
-		<SpawnGroupInfo>	<!-- Dummy -->
+		<SpawnGroupInfo>	<!--  Dummy -->
 			<Type>SPAWN_GROUP_TEST</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_TEST</Description>
 			<Civilopedia>TXT_KEY_SPAWN_GROUP_TEST_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_SPAWN_GROUP_TEST_STRATEGY</Strategy>
 			<bGraphicalOnly>1</bGraphicalOnly>
-			<bUnique>0</bUnique>
-			<bAlwaysSpawn>0</bAlwaysSpawn>
-			<bNeverSpawn>0</bNeverSpawn>
+			<bUnique>0</bUnique> <!-- Only spawns once -->
+			<bAlwaysSpawn>0</bAlwaysSpawn> <!-- Spawns as soon as is available (ideally use alongside bUnique) -->
+			<bNeverSpawn>0</bNeverSpawn> <!-- Never spawns using random spawn method -->
 			<bNaval>0</bNaval>
 			<iPrereqMinTurn>0</iPrereqMinTurn>
 			<iPrereqMaxTurn>0</iPrereqMaxTurn>
 			<iPrereqMinAC>0</iPrereqMinAC>
 			<iPrereqMaxAC>0</iPrereqMaxAC>
 			<PrereqRitual/>
-			<iWeight>0</iWeight>
+			<iWeight>0</iWeight> <!-- Applies if spawned via random spawning, not if via improvement -->
 			<CommanderUnits/>
-			<GroupUnits/>
-			<GroupUnitClasses/>
+			<GroupUnits/> <!-- For specific units(?) -->
+			<GroupUnitClasses/> <!-- For civ-replaceable units(?) -->
 			<GroupPromotions/>
 			<CommanderPromotions/>
 			<SpawnTerrains/>
@@ -36,7 +36,7 @@
 			<PyOnSpawn/>
 			<PyRequirement/>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Galley -->
+		<SpawnGroupInfo>	<!--  Galley -->
 			<Type>SPAWN_GROUP_GALLEY</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_GALLEY</Description>
 			<bNaval>1</bNaval>
@@ -51,7 +51,7 @@
 				<Tech>TECH_SAILING</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- !Galleon -->
+		<SpawnGroupInfo>	<!--  Galleon -->
 			<Type>SPAWN_GROUP_GALLEON</Type>
 			<Description>TXT_KEY_SPAWN_SPAWN_GROUP_GALLEON</Description>
 			<bNaval>1</bNaval>
@@ -70,7 +70,7 @@
 				<Tech>TECH_OPTICS</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Caravel -->
+		<SpawnGroupInfo>	<!--  Caravel -->
 			<Type>SPAWN_GROUP_CARAVEL</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_CARAVEL</Description>
 			<bNaval>1</bNaval>
@@ -85,7 +85,7 @@
 				<Tech>TECH_OPTICS</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Carrack -->
+		<SpawnGroupInfo>	<!--  Carrack -->
 			<Type>SPAWN_GROUP_CARRACK</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_CARRACK</Description>
 			<bNaval>1</bNaval>
@@ -104,7 +104,7 @@
 				<Tech>TECH_OPTICS</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Privateer -->
+		<SpawnGroupInfo>	<!--  Privateer -->
 			<Type>SPAWN_GROUP_PRIVATEER</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_PRIVATEER</Description>
 			<bNaval>1</bNaval>
@@ -119,7 +119,7 @@
 				<Tech>TECH_OPTICS</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Frigate -->
+		<SpawnGroupInfo>	<!--  Frigate -->
 			<Type>SPAWN_GROUP_FRIGATE</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_FRIGATE</Description>
 			<bNaval>1</bNaval>
@@ -138,7 +138,7 @@
 				<Tech>TECH_ASTRONOMY</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Queen of the Line -->
+		<SpawnGroupInfo>	<!--  Queen of the Line -->
 			<Type>SPAWN_GROUP_QUEEN_OF_THE_LINE</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_QUEEN_OF_THE_LINE</Description>
 			<bNaval>1</bNaval>
@@ -162,7 +162,7 @@
 				<Tech>TECH_ENGINEERING</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Arcane Barge --> <!-- Begin random land groups -->
+		<SpawnGroupInfo>	<!--  Arcane Barge --> <!-- Begin random land groups -->
 			<Type>SPAWN_GROUP_ARCANE_BARGE</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_ARCANE_BARGES</Description>
 			<bNaval>1</bNaval>
@@ -178,7 +178,7 @@
 				<Tech>TECH_SORCERY</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Assassins -->
+		<SpawnGroupInfo>	<!--  Assassins -->
 			<Type>SPAWN_GROUP_ASSASSIN</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_ASSASSIN</Description>
 			<iWeight>1000</iWeight>
@@ -198,7 +198,7 @@
 				<Tech>TECH_POISONS</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Beastmasters -->
+		<SpawnGroupInfo>	<!--  Beastmasters -->
 			<Type>SPAWN_GROUP_BEASTMASTER</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_BEASTMASTER</Description>
 			<iWeight>1000</iWeight>
@@ -218,7 +218,7 @@
 				<Tech>TECH_ANIMAL_MASTERY</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Druid -->
+		<SpawnGroupInfo>	<!--  Druid -->
 			<Type>SPAWN_GROUP_DRUID</Type>
 			<Description>TXT_KEY_UNIT_DRUID</Description>
 			<iWeight>1000</iWeight>
@@ -232,7 +232,7 @@
 				<Tech>TECH_COMMUNE_WITH_NATURE</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Frostling -->
+		<SpawnGroupInfo>	<!--  Frostling -->
 			<Type>SPAWN_GROUP_FROSTLING</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_FROSTLING</Description>
 			<iWeight>1000</iWeight>
@@ -248,7 +248,7 @@
 			</SpawnTerrains>
 			<PrereqRitual>PROJECT_SAMHAIN</PrereqRitual>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Frostling Archer -->
+		<SpawnGroupInfo>	<!--  Frostling Archer -->
 			<Type>SPAWN_GROUP_FROSTLING_ARCHER</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_FROSTLING_ARCHER</Description>
 			<iWeight>1000</iWeight>
@@ -265,7 +265,7 @@
 			</SpawnTerrains>
 			<PrereqRitual>PROJECT_SAMHAIN</PrereqRitual>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Frostling Wolfrider -->
+		<SpawnGroupInfo>	<!--  Frostling Wolfrider -->
 			<Type>SPAWN_GROUP_FROSTLING_WOLF_RIDER</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_FROSTLING_WOLF_RIDER</Description>
 			<iWeight>1000</iWeight>
@@ -281,7 +281,7 @@
 			</SpawnTerrains>
 			<PrereqRitual>PROJECT_SAMHAIN</PrereqRitual>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Lizardmen -->
+		<SpawnGroupInfo>	<!--  Lizardmen -->
 			<Type>SPAWN_GROUP_LIZARDMAN</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_LIZARDMAN</Description>
 			<iWeight>1000</iWeight>
@@ -295,7 +295,7 @@
 				<Tech>TECH_HUNTING</Tech>
 			</PrereqTechANDs>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Centaur Herd-->
+		<SpawnGroupInfo>	<!--  Centaur Herd-->
 			<Type>SPAWN_GROUP_CENTAUR</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_CENTAUR</Description>
 			<iWeight>500</iWeight>
@@ -322,7 +322,7 @@
 			<PyOnSpawn/>
 			<PyRequirement/>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Ranger -->
+		<SpawnGroupInfo>	<!--  Ranger -->
 			<Type>SPAWN_GROUP_RANGER</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_RANGER</Description>
 			<iWeight>1000</iWeight>
@@ -432,7 +432,7 @@
 				</GroupUnitClass>
 			</GroupUnitClasses>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!-- Axemen -->
+		<SpawnGroupInfo>	<!--  Axemen -->
 			<Type>SPAWN_GROUP_AXEMAN</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_AXEMAN</Description>
 			<iWeight>1000</iWeight>
@@ -566,7 +566,7 @@
 			</SpawnTerrains>
 			<PrereqRitual>PROJECT_SAMHAIN</PrereqRitual>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>	<!--  Mon's Goblin Raiders --><!-- cool groups start here -->
+		<SpawnGroupInfo>	<!--  Mon's Goblin Raiders --> <!-- !!! cool groups start here !!!-->
 			<Type>SPAWN_GROUP_MONS_GOBLIN_RAIDERS</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_MONS_GOBLIN_RAIDERS</Description>
 			<Civilopedia>TXT_KEY_SPAWN_GROUP_MONS_GOBLIN_RAIDERS_PEDIA</Civilopedia>
@@ -1131,7 +1131,7 @@
 				<Promotion>PROMOTION_MUSTEVAL</Promotion>
 			</GroupPromotions>
 		</SpawnGroupInfo>
-		<SpawnGroupInfo>      <!--Slave Caravan--> 
+		<SpawnGroupInfo>    <!--  Slave Caravan--> 
 			<Type>SPAWN_GROUP_SLAVE_CARAVAN</Type>
 			<Description>TXT_KEY_SPAWN_GROUP_SLAVE_CARAVAN</Description>
 			<iWeight>1000</iWeight>
