@@ -37,7 +37,7 @@ class CvPediaCityClass:
 			{
 				"name" : 'localText.getText("TXT_KEY_PEDIA_FILTER_ALPHABETICAL", ())',
 				"Purpose" : "Default Sorting Method",
-				"Value to Sort" : 'eClass.getShortDescription()',
+				"Value to Sort" : 'eClass.getDescription()',
 			},
 			{
 				"name" : 'localText.getText("TXT_KEY_PEDIA_FILTER_XML_ORDER", ())',
@@ -75,7 +75,7 @@ class CvPediaCityClass:
 			screen.addPullDownString(self.top.SORT_DROPDOWN_ID, eval(sort["name"]), 1, 1, sort == self.CURRENT_SORT )
 
 		# Header...
-		szHeader = u"<font=4b>" + gc.getCityClassInfo(self.iCityClass).getShortDescription().upper() + u"</font>"
+		szHeader = u"<font=4b>" + gc.getCityClassInfo(self.iCityClass).getDescription().upper() + u"</font>"
 		szHeaderId = self.top.getNextWidgetName()
 		screen.setLabel(szHeaderId, "Background", szHeader, CvUtil.FONT_CENTER_JUSTIFY, self.top.X_SCREEN, self.top.Y_TITLE, 0, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 
@@ -336,7 +336,7 @@ class CvPediaCityClass:
 				sort1 = eval(self.CURRENT_SORT["Value to Sort"])
 				if not self.SUB_SORT["Value to Sort"] == None:
 					sort2 = eval(self.SUB_SORT["Value to Sort"])
-			listSorted[iI] = (sort1, sort2, iClass, eClass.getShortDescription(), eClass.getButton(), 1)
+			listSorted[iI] = (sort1, sort2, iClass, eClass.getDescription(), eClass.getButton(), 1)
 			iI += 1
 		listSorted.sort()
 		return listSorted

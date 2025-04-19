@@ -338,6 +338,9 @@ def pediaJumpToCiv(argsList):
 def pediaJumpToCityClass(argsList):
 	pediaMainScreen.pediaJump(PEDIA_CITYCLASS, argsList[0], True)
 
+def pediaJumpToRoute(argsList):
+	pediaMainScreen.pediaJump(PEDIA_ROUTE, argsList[0], True)
+
 def pediaJumpToLeader(argsList):
 	pediaMainScreen.pediaJump(PEDIA_LEADER, argsList[0], True)
 
@@ -878,6 +881,7 @@ HandleInputMap = {  MAIN_INTERFACE : mainInterface,
 					PEDIA_CIVIC : pediaMainScreen,
 					PEDIA_CIVILIZATION : pediaMainScreen,
 					PEDIA_CITYCLASS : pediaMainScreen,
+					PEDIA_ROUTE : pediaMainScreen,
 					PEDIA_LEADER : pediaMainScreen,
 					PEDIA_TRAIT : pediaMainScreen,
 					PEDIA_SPAWNGROUP : pediaMainScreen,
@@ -956,6 +960,7 @@ HandleNavigationMap = {
 					PEDIA_CIVIC : pediaMainScreen,
 					PEDIA_CIVILIZATION : pediaMainScreen,
 					PEDIA_CITYCLASS : pediaMainScreen,
+					PEDIA_ROUTE : pediaMainScreen,
 					PEDIA_LEADER : pediaMainScreen,
 					PEDIA_TRAIT : pediaMainScreen,
 					PEDIA_SPAWNGROUP : pediaMainScreen,
