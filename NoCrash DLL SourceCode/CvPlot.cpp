@@ -25,6 +25,7 @@
 #include "CyArgsList.h"
 #include "CvDLLPythonIFaceBase.h"
 #include "CvEventReporter.h"
+#include "CyUnit.h"
 #include "CyPlot.h"
 /************************************************************************************************/
 /* BETTER_BTS_AI_MOD                      11/30/08                                jdog5000      */
@@ -285,7 +286,6 @@ void CvPlot::reset(int iX, int iY, bool bConstructorCall)
 	m_iTempFeatureTimer = 0;
 	m_eRealBonusType = NO_BONUS;
 	m_iTempBonusTimer = 0;
-	m_iNumSpawnsEver = 0;
 	m_iNumSpawnsAlive = 0;
 	m_bNeedsRebuilding = false;
 	//ClimateSystem:
@@ -563,298 +563,25 @@ void CvPlot::doTurn()
 	{
 		changeImprovementDuration(1);
 
-//FfH Improvements: Added by Kael 08/07/2007
-		ImprovementTypes eImprovementUpgrade = (ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementUpgrade();
-		if (eImprovementUpgrade != NO_IMPROVEMENT)
+		doImprovementUpgrade();
+
+		doUniqueLairTimecheck();
+
+		// Spawn units and/or groups from improvements that haven't spawned this turn:
+		doLairSpawn();
+
+		// BI TODO remove this & improvementinfo schema for feature upgrade when smoke and flame both are ploteffects.
+		// Or keep it if you want to do something weird like nature preserves that grow forests, idk.
+		if (getImprovementType() != NO_IMPROVEMENT && GC.getImprovementInfo(getImprovementType()).getFeatureUpgrade() != NO_FEATURE)
 		{
-			if (!isBeingWorked())
+			if (GC.getGameINLINE().getSorenRandNum(100, "Feature Upgrade") < GC.getDefineINT("FEATURE_UPGRADE_CHANCE"))
 			{
-				if (GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders())
-				{
-					doImprovementUpgrade();
-				}
+				// Improvement is cleared first due to new format for RequireFeature : Xienwolf 12/13/08
+				FeatureTypes eFeature = (FeatureTypes)GC.getImprovementInfo(getImprovementType()).getFeatureUpgrade();
+				setImprovementType(NO_IMPROVEMENT);
+				setFeatureType(eFeature);
 			}
 		}
-/*************************************************************************************************/
-/**	MultiBarb								12/23/08								Xienwolf	**/
-/**	New Tag Defs	(ImprovementInfos)		12/27/08											**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		int iUnit = GC.getImprovementInfo(getImprovementType()).getSpawnUnitType();
-		if (iUnit != NO_UNIT)
-		{
-			if (!GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS))
-			{
-				CvArea* pArea = GC.getMapINLINE().getArea(getArea());
-				if (pArea->getNumUnownedTiles() > 0)
-				{
-					int iTiles = GC.getDefineINT("TILES_PER_SPAWN");
-					if (GC.getUnitInfo((UnitTypes)iUnit).isAnimal())
-					{
-						iTiles *= 2;
-					}
-					if (pArea->getUnitsPerPlayer((PlayerTypes)BARBARIAN_PLAYER) == 0 || (pArea->getNumUnownedTiles() / pArea->getUnitsPerPlayer((PlayerTypes)BARBARIAN_PLAYER)) > iTiles)
-					{
-						int iChance = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnRate();
-						iChance *= 10000;
-						iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
-						if (GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
-						{
-							if (!isVisibleOtherUnit(BARBARIAN_PLAYER))
-							{
-								CvUnit* pUnit;
-								pUnit = GET_PLAYER(BARBARIAN_PLAYER).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), UNITAI_ATTACK);
-								if (pUnit->isAnimal())
-								{
-									pUnit->setHasPromotion((PromotionTypes)GC.getDefineINT("HIDDEN_NATIONALITY_PROMOTION"), true);
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Bugfix								15/01/12									Snarko		**/
-/**																								**/
-/**		doImprovementUpgrade can remove the improvement if it's for another civilization		**/
-/*************************************************************************************************/
-		if (getImprovementType() != NO_IMPROVEMENT)
-		{
-/*************************************************************************************************/
-/**	Bugfix									END													**/
-/*************************************************************************************************/
-			int iUnit = GC.getImprovementInfo(getImprovementType()).getSpawnUnitType();
-			if (iUnit != NO_UNIT)
-			{
-				bool bValid = true;
-				int iCiv = GC.getImprovementInfo(getImprovementType()).getSpawnUnitCiv();
-				PlayerTypes eSpawnPlayer=NO_PLAYER;
-				if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION"))
-				{
-					eSpawnPlayer = DEMON_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
-					{
-						bValid = false;
-					}
-				}
-				else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION"))
-				{
-					eSpawnPlayer = ANIMAL_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
-					{
-						bValid = false;
-					}
-				}
-				else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION"))
-				{
-					eSpawnPlayer = ORC_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
-					{
-						bValid = false;
-					}
-				}
-				else if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner())
-				{
-					bValid = false;
-					if (isOwned() && GET_PLAYER(getOwner()).getCivilizationType() == (CivilizationTypes)iCiv)
-					{
-						eSpawnPlayer = getOwner();
-						bValid = true;
-					}
-				}
-				else
-				{
-					bValid = false;
-					for (int iI = 0; iI < MAX_PLAYERS; iI++)
-					{
-						if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getCivilizationType() == (CivilizationTypes)iCiv)
-						{
-							eSpawnPlayer = (PlayerTypes)iI;
-							bValid = true;
-						}
-					}
-				}
-
-				if (bValid)
-				{
-					if (!isVisibleEnemyUnit(eSpawnPlayer))
-					{
-						if (getNumSpawnsEver() < GC.getImprovementInfo(getImprovementType()).getSpawnPerGameLimit() && getNumSpawnsAlive() < GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit())
-						{
-							//Consider making the spawn rate be based on improvement itself, just as limit is now
-							//
-							int iChance = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnRate();
-							iChance *= 10000;
-							iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
-							if (GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
-							{
-								CvUnit* pUnit=GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), UNITAI_ATTACK);
-								if (GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions() > 0)
-								{
-									int iNumSpawnPromotions = GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions();
-									for (int iL = 0; iL < iNumSpawnPromotions; iL++)
-									{
-										pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(getImprovementType()).getSpawnPromotions(iL), true);
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-/*************************************************************************************************/
-/**	LairGuardians							7/17/10									Valkrionn	**/
-/**																								**/
-/**				Allows for lairs to spawn a unit on creation, but spawn others normally			**/
-/*************************************************************************************************/
-			int iSpawnGroup = GC.getImprovementInfo(getImprovementType()).getSpawnGroupType();
-			if (iSpawnGroup != NO_SPAWNGROUP)
-			{
-				bool bValid = true;
-				int iCiv = GC.getImprovementInfo(getImprovementType()).getSpawnUnitCiv();
-				PlayerTypes eSpawnPlayer=NO_PLAYER;
-				if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION"))
-				{
-					eSpawnPlayer = DEMON_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
-					{
-						bValid = false;
-					}
-				}
-				else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION"))
-				{
-					eSpawnPlayer = ANIMAL_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
-					{
-						bValid = false;
-					}
-				}
-				else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION"))
-				{
-					eSpawnPlayer = ORC_PLAYER;
-					bValid = (!GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS));
-					if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() && isOwned() && (atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam())))
-					{
-						bValid = false;
-					}
-				}
-				else if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner())
-				{
-					bValid = false;
-					if (isOwned() && GET_PLAYER(getOwner()).getCivilizationType() == (CivilizationTypes)iCiv)
-					{
-						eSpawnPlayer = getOwner();
-						bValid = true;
-					}
-				}
-				else
-				{
-					bValid = false;
-					for (int iI = 0; iI < MAX_PLAYERS; iI++)
-					{
-						if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getCivilizationType() == (CivilizationTypes)iCiv)
-						{
-							eSpawnPlayer = (PlayerTypes)iI;
-							bValid = true;
-						}
-					}
-				}
-/*************************************************************************************************/
-/**	Tweak							20/10/12								Snarko				**/
-/**																								**/
-/**					Don't spawn infinite barbs, there should be a limit							**/
-/*************************************************************************************************/
-				if (bValid && (eSpawnPlayer == DEMON_PLAYER || eSpawnPlayer == ANIMAL_PLAYER || eSpawnPlayer == ORC_PLAYER))
-				{
-					int iDivisor;
-					if (area()->isWater())
-					{
-						iDivisor = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getUnownedWaterTilesPerBarbarianUnit();
-					}
-					else
-					{
-						iDivisor = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getUnownedTilesPerBarbarianUnit();
-					}
-
-					if (GC.getGameINLINE().isOption(GAMEOPTION_RAGING_BARBARIANS) && iDivisor>0)
-					{
-						iDivisor = std::max(1, (iDivisor / 2));
-					}
-					//Sets a limit based on barbs in the area. We check *total* number of tiles in the area instead of unowned, like the other limits check.
-					//This means lairs will keep spawning even when most of the world is within borders but lairs will not spawn when there are many barbs in a small area.
-					if (!((area()->getNumTiles() / iDivisor) - (area()->getUnitsPerPlayer(ORC_PLAYER) + area()->getUnitsPerPlayer(ANIMAL_PLAYER) + area()->getUnitsPerPlayer(DEMON_PLAYER)) > 0))
-					{
-						bValid = false;
-					}
-				}
-/*************************************************************************************************/
-/**	Tweak								END														**/
-/*************************************************************************************************/
-
-				if (bValid)
-				{
-					if (!isVisibleEnemyUnit(eSpawnPlayer))
-					{
-						if (getNumSpawnsEver() < GC.getImprovementInfo(getImprovementType()).getSpawnPerGameLimit() && getNumSpawnsAlive() < GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit())
-						{
-							//Consider making the spawn rate be based on improvement itself, just as limit is now
-							//
-							int iChance = GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getLairSpawnRate();
-							iChance *= 10000;
-							iChance /= GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTrainPercent();
-							if (GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iChance)
-							{
-								GC.getGameINLINE().createSpawnGroup((SpawnGroupTypes)iSpawnGroup, this, eSpawnPlayer);
-							}
-						}
-					}
-				}
-			}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
-			if (GC.getImprovementInfo(getImprovementType()).getFeatureUpgrade() != NO_FEATURE)
-			{
-				if (GC.getGameINLINE().getSorenRandNum(100, "Feature Upgrade") < GC.getDefineINT("FEATURE_UPGRADE_CHANCE"))
-				{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**		Order swapped so improvement is cleared first due to new format for RequireFeature		**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-					setFeatureType((FeatureTypes)GC.getImprovementInfo(getImprovementType()).getFeatureUpgrade());
-					setImprovementType(NO_IMPROVEMENT);
-/**								----  End Original Code  ----									**/
-					FeatureTypes eFeature = (FeatureTypes)GC.getImprovementInfo(getImprovementType()).getFeatureUpgrade();
-					setImprovementType(NO_IMPROVEMENT);
-					setFeatureType(eFeature);
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-				}
-			}
-//FfH: End Add
-/*************************************************************************************************/
-/**	Bugfix								15/01/12									Snarko		**/
-/**																								**/
-/**		doImprovementUpgrade can remove the improvement if it's for another civilization		**/
-/*************************************************************************************************/
-		}
-/*************************************************************************************************/
-/**	Bugfix									END													**/
-/*************************************************************************************************/
 	}
 
 	doFeature();
@@ -1090,6 +817,199 @@ void CvPlot::doTurn()
 	// XXX
 }
 
+void CvPlot::doUniqueLairTimecheck()
+{
+	if (getImprovementType() == NO_IMPROVEMENT
+	 || !isOwned()
+	 || GET_PLAYER(getOwner()).isBarbarian()
+	 || !GC.getImprovementInfo(getImprovementType()).isUnique()
+	 || !GC.getImprovementInfo(getImprovementType()).isExplorable())
+		return;
+
+	int iTurnsLeftUnexplored = GC.getGame().getGameTurn() - getExploreNextTurn();
+
+	if (iTurnsLeftUnexplored < 0)
+		return;
+
+	CvWString szBuffer;
+	int iCycleLength = GC.getImprovementInfo(getImprovementType()).getExploreDelay() * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent() / 100;
+
+	// Notify the turn a lair becomes available
+	if (iTurnsLeftUnexplored == 0 || getOwnershipDuration() == 1)
+	{
+		szBuffer = gDLL->getText("TXT_KEY_UF_NOTIFY_EXPLORE", GC.getImprovementInfo(getImprovementType()).getTextKeyWide());
+		gDLL->getInterfaceIFace()->addMessage(getOwner(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_ENEMY_TROOPS", MESSAGE_TYPE_MINOR_EVENT, GC.getImprovementInfo(getImprovementType()).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_YELLOW"), getX_INLINE(), getY_INLINE(), true, true);
+	}
+	// Evil plots to summon beasties can't progress if the thing is outside owned territory... I guess? For balance. Otherwise it can trigger if the tile is acquired after being unowned for a long time
+	else if ((iTurnsLeftUnexplored == iCycleLength && getOwnershipDuration() >= iCycleLength)
+		  || (iTurnsLeftUnexplored >= iCycleLength && getOwnershipDuration() == iCycleLength))
+	{
+		szBuffer = gDLL->getText("TXT_KEY_UF_NOTIFY_EXPLORE_BUILDUP", GC.getImprovementInfo(getImprovementType()).getTextKeyWide());
+		gDLL->getInterfaceIFace()->addMessage(getOwner(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_ENEMY_TROOPS", MESSAGE_TYPE_MINOR_EVENT, GC.getImprovementInfo(getImprovementType()).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), getX_INLINE(), getY_INLINE(), true, true);
+	}
+	// You done fucked up now son!
+	else if (iTurnsLeftUnexplored >= 2 * iCycleLength && getOwnershipDuration() >= 2 * iCycleLength)
+	{
+		szBuffer = gDLL->getText("TXT_KEY_UF_NOTIFY_BUILDUP_COMPLETE", GC.getImprovementInfo(getImprovementType()).getTextKeyWide());
+		gDLL->getInterfaceIFace()->addMessage(getOwner(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_PILLAGED", MESSAGE_TYPE_MAJOR_EVENT, GC.getImprovementInfo(getImprovementType()).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), getX_INLINE(), getY_INLINE(), true, true);
+
+		CyUnit* pyCaster;
+		pyCaster = new CyUnit(NULL);
+
+		CyPlot* pyPlot = new CyPlot(this);
+
+		CyArgsList argsList;
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyCaster));
+		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));
+		gDLL->getPythonIFace()->callFunction(PYSpellModule, "exploreLairBigBad", argsList.makeFunctionArgs());
+		delete pyPlot; // python fxn must not hold on to this pointer (?)
+		delete pyCaster;
+
+		// reset exploration timer
+		setExploreNextTurn(GC.getGame().getGameTurn() + (GC.getImprovementInfo(getImprovementType()).getExploreDelay() * 11 / 10 - GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo(getImprovementType()).getExploreDelay() / 5, "randomization to lair cycle length"))
+						 * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent() / 100);
+	}
+}
+
+void CvPlot::doLairSpawn()
+{
+	// Lairs spawn differently the turn they appear (immediateunit/group)
+	if (getImprovementType() == NO_IMPROVEMENT || getImprovementDuration() <= 0)
+		return;
+
+	int iUnit = GC.getImprovementInfo(getImprovementType()).getSpawnUnitType();
+	int iSpawnGroup = GC.getImprovementInfo(getImprovementType()).getSpawnGroupType();
+	int iSpawnLimit = GC.getImprovementInfo(getImprovementType()).getSpawnAtOnceLimit();
+	if (iSpawnLimit < 0) iSpawnLimit = MAX_INT;
+
+	// LairGuardians code: Valkrion
+	// 1st check: Are we spawning at all, and if so are at limit for how many units can be spawned at a time?
+	if ((iUnit == NO_UNIT && iSpawnGroup == NO_SPAWNGROUP) || getNumSpawnsAlive() >= iSpawnLimit)
+		return;
+
+	// 2nd check: Mapgen lairs should wait a smidge before spitting out units
+	if ((3 * GC.getGameINLINE().getElapsedGameTurns() < (GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getTurnsPerLairCycle()))
+	 || (GC.getGameINLINE().getNumCivCities() < GC.getGameINLINE().countCivPlayersAlive()))
+		return;
+
+	bool bValid = false;
+	int iCiv = GC.getImprovementInfo(getImprovementType()).getSpawnUnitCiv();
+	PlayerTypes eSpawnPlayer = NO_PLAYER;
+
+	// 3rd check: Barb OK if A) not set bSpawnOnlyForOwner, B) tile is unowned, or C) tile is owned by someone not at war with the spawner civ
+	if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && !GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
+	{
+		eSpawnPlayer = DEMON_PLAYER;
+		if (!GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() || !isOwned() || !atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam()))
+		{
+			bValid = true;
+		}
+	}
+	else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && !GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
+	{
+		eSpawnPlayer = ANIMAL_PLAYER;
+		if (!GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() || !isOwned() || !atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam()))
+		{
+			bValid = true;
+		}
+	}
+	else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION") && !GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS))
+	{
+		eSpawnPlayer = ORC_PLAYER;
+		if (!GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner() || !isOwned() || !atWar(GET_PLAYER(getOwner()).getTeam(), GET_PLAYER(eSpawnPlayer).getTeam()))
+		{
+			bValid = true;
+		}
+	}
+	// For nonbarb, bSpawnOnlyForOwner requires specifically that owner. Enable king-of-the-hill control over a spawner if no spawnciv is set...
+	else if (GC.getImprovementInfo(getImprovementType()).isSpawnOnlyForOwner())
+	{
+		if (isOwned()
+		&&  ((GET_PLAYER(getOwner()).getCivilizationType() == (CivilizationTypes)iCiv)
+			 || (iCiv == NO_CIVILIZATION)))
+		{
+			eSpawnPlayer = getOwner();
+			bValid = true;
+		}
+	}
+	else
+	{
+		for (int iI = 0; iI < MAX_PLAYERS; iI++)
+		{
+			if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getCivilizationType() == (CivilizationTypes)iCiv)
+			{
+				eSpawnPlayer = (PlayerTypes)iI;
+				bValid = true;
+			}
+		}
+	}
+
+	// 4th check: Can a spawned unit coexist on this tile with all already existing units on said tile
+	if (isVisibleEnemyUnit(eSpawnPlayer) || !bValid)
+		return;
+
+	// 5th check: Don't spawn infinite barbs, there should be a limit : Snarko 20/10/12
+	if (eSpawnPlayer == DEMON_PLAYER || eSpawnPlayer == ANIMAL_PLAYER || eSpawnPlayer == ORC_PLAYER)
+	{
+		// Sets a limit based on barbs in the area. We check *total* number of tiles in the area instead of unowned, like the other limits check.
+		// This means lairs will keep spawning even when most of the world is within borders (Snarko)
+		// No matter how small the area (or how low the AC), lairs can always spawn up to 3 barb units. Continues tradition of dense offshore barb islands (Blazenclaw)
+		int iTargetBarbs = std::max(3, GC.getGameINLINE().calcTargetBarbs(area(), true, eSpawnPlayer));
+		if (area()->getUnitsPerPlayer(eSpawnPlayer) >= iTargetBarbs)
+			return;
+	}
+
+	// Starting chance
+	int iBaseChance = GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getLairSpawnChance();
+	bool bMissingGuard = (getNumSpawnsAlive() == 0);
+	CvWString szBuffer;
+
+	// Check for spawn unit
+	if (iUnit != NO_UNIT
+	 && GC.getGameINLINE().getSorenRandNum(10000, "Spawn Unit") < iBaseChance * (100 + GC.getImprovementInfo(getImprovementType()).getSpawnUnitChancePercentMod()) * (1 + bMissingGuard))
+	{
+		// If we're entirely out of units spawned from here, respawn the guardian if exists. Guard won't respawn if there is a spawned unit wandered off somewhere; oh well.
+		if (bMissingGuard && GC.getImprovementInfo(getImprovementType()).getImmediateSpawnUnitType() != NO_UNIT)
+		{
+			iUnit = GC.getImprovementInfo(getImprovementType()).getImmediateSpawnUnitType();
+		}
+
+		// Spawn the thang
+		CvUnit* pUnit=GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, getX_INLINE(), getY_INLINE(), (bMissingGuard ? NO_UNITAI: UNITAI_ATTACK));
+
+		// Tell players something spawned for them
+		if (eSpawnPlayer != DEMON_PLAYER && eSpawnPlayer != ANIMAL_PLAYER && eSpawnPlayer != ORC_PLAYER)
+		{
+			szBuffer = gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT", GC.getImprovementInfo(getImprovementType()).getTextKeyWide(), pUnit->getName().GetCString());
+			gDLL->getInterfaceIFace()->addMessage(eSpawnPlayer, false, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_UNITGIFTED", MESSAGE_TYPE_INFO, GC.getUnitInfo((UnitTypes)iUnit).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_YELLOW"), getX_INLINE(), getY_INLINE(), true, true);
+		}
+
+		if (bMissingGuard && GC.getImprovementInfo(getImprovementType()).getNumGuardianPromotions() > 0)
+		{
+			int iNumGuardianPromotions = GC.getImprovementInfo(getImprovementType()).getNumGuardianPromotions();
+			for (int iL = 0; iL < iNumGuardianPromotions; iL++)
+			{
+				pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(getImprovementType()).getGuardianPromotions(iL), true);
+			}
+		}
+		else if (!bMissingGuard && GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions() > 0)
+		{
+			int iNumSpawnPromotions = GC.getImprovementInfo(getImprovementType()).getNumSpawnPromotions();
+			for (int iL = 0; iL < iNumSpawnPromotions; iL++)
+			{
+				pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(getImprovementType()).getSpawnPromotions(iL), true);
+			}
+		}
+	}
+	// Check for spawn group. 1/3 chance to spawn a group as to spawn a unit. V low chance to spawn both unit and group, but why not.
+	if (iSpawnGroup != NO_SPAWNGROUP
+	 && GC.getGameINLINE().getSorenRandNum(30000, "Spawn Unit") < iBaseChance * (100 + GC.getImprovementInfo(getImprovementType()).getSpawnGroupChancePercentMod()))
+	{
+		// Player notifications included in this func as well, in case
+		GC.getGameINLINE().createSpawnGroup((SpawnGroupTypes)iSpawnGroup, this, eSpawnPlayer);
+	}
+}
+
 
 void CvPlot::doImprovement()
 {
@@ -1099,9 +1019,8 @@ void CvPlot::doImprovement()
 	CvWString szBuffer;
 	int iI;
 
-//FfH Mana Effects: Added by Kael 08/21/2007
+	//FfH Mana Effects: Added by Kael 08/21/2007
 	int iChance;
-//FfH: End Add
 
 	FAssert(isBeingWorked() && isOwned());
 
@@ -1114,9 +1033,7 @@ void CvPlot::doImprovement()
 			{
 				if (GET_TEAM(getTeam()).isHasTech((TechTypes)(GC.getBonusInfo((BonusTypes) iI).getTechReveal())))
 				{
-/*************************************************************************************************/
-/** SpreadBonus                 Opera                   28/08/09                                **/
-/*************************************************************************************************/
+					// SpreadBonus : Opera 28/08/09
 					if (GC.getImprovementInfo(getImprovementType()).getImprovementBonusSpreadRand(iI) > 0)
 					{
 						iChance = GC.getImprovementInfo(getImprovementType()).getImprovementBonusSpreadRand(iI);
@@ -1144,15 +1061,11 @@ void CvPlot::doImprovement()
 							}
 						}
 					}
-/*************************************************************************************************/
-/** SpreadBonus                 END                                                             **/
-/*************************************************************************************************/
 
 					if (GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI) > 0)
 					{
-
-//FfH Mana Effects: Modified by Kael 08/21/2007
-//						if (GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI), "Bonus Discovery") == 0)
+						//FfH Mana Effects: Modified by Kael 08/21/2007
+						// if (GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI), "Bonus Discovery") == 0)
 						iChance = GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI);
 						if (isOwned() && (100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier()) != 0)
 						{
@@ -1160,8 +1073,6 @@ void CvPlot::doImprovement()
 							iChance /= 100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier();
 						}
 						if (GC.getGameINLINE().getSorenRandNum(iChance, "Bonus Discovery") == 0)
-//FfH: End Add
-
 						{
 							setBonusType((BonusTypes)iI);
 
@@ -1184,128 +1095,92 @@ void CvPlot::doImprovement()
 	doImprovementUpgrade();
 }
 
+
+//FfH Improvements: Added by Kael 08/07/2007
 void CvPlot::doImprovementUpgrade()
 {
-	if (getImprovementType() != NO_IMPROVEMENT)
+	if (getImprovementType() == NO_IMPROVEMENT)
+		return;
+
+	ImprovementTypes eImprovementUpgrade = (ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementUpgrade();
+	if (eImprovementUpgrade == NO_IMPROVEMENT)
+		return;
+
+	// To upgrade, improvements must be A) worked or B) bOutsideBorders and not an unclaimed fort (on land due to Rinwell)
+	if (!(isBeingWorked() || (GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders() && !(!isOwned() && !isWater() && GC.getImprovementInfo(getImprovementType()).isFort()))))
+		return;
+
+	// ? : Hinterlands Valkrionn 07/11/09
+	int iUpgradeTurns = GC.getGameINLINE().getImprovementUpgradeTime(getImprovementType());
+	if (iUpgradeTurns == 0)
 	{
-		ImprovementTypes eImprovementUpgrade = (ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementUpgrade();
-		if (eImprovementUpgrade != NO_IMPROVEMENT)
+		int iUpgradeChance = 0, iUpgradeOdds = 0;
+		for (int iK = 0; iK < GC.getNumTechInfos(); iK++)
 		{
-			if (isBeingWorked() || GC.getImprovementInfo(eImprovementUpgrade).isOutsideBorders())
+			// Slow down upgrade rate of lairs from 25%/turn once primary condition is met : Snarko Tweak 04/02/12
+			// iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) * GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK);
+			iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) * std::min(1, 3*GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK) / GC.getGameINLINE().countCivTeamsAlive());
+		}
+		if (iUpgradeOdds > 0)
+		{
+			// Scaling by gamespeed : Snarko 04/02/12
+			iUpgradeChance = GC.getGameINLINE().getMapRandNum(GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getImprovementPercent(), "Chance for upgrade");
+			if (iUpgradeOdds > iUpgradeChance)
 			{
-/*************************************************************************************************/
-/** Hinterlands				  				07/11/09								Valkrionn	**/
-/**																								**/
-/*************************************************************************************************/
-				int iUpgradeTurns = GC.getGameINLINE().getImprovementUpgradeTime(getImprovementType());
-				if (iUpgradeTurns == 0)
+				setImprovementType(eImprovementUpgrade);
+				// Improvements Mods by Jeckel, expanded by Ahwaric	20.09.09
+				if (getImprovementOwner() != NO_PLAYER)
 				{
-					int iUpgradeChance = 0, iUpgradeOdds = 0;
-					for (int iK = 0; iK < GC.getNumTechInfos(); iK++)
+					if (GC.getImprovementInfo(eImprovementUpgrade).getCultureControlStrength() > 0)
 					{
-/*************************************************************************************************/
-/**	Tweak							04/02/12								Snarko				**/
-/**																								**/
-/**		As soon as ONE civ has the tech we upgrade lairs really really fast? No way				**/
-/**		This is why I'm seeing highwaymen (str 8, move 3, group of 3) by turn 100				**/
-/**		Because ONE civ rushed iron working and every improvement that could upgraded			**/
-/**		With 25% chance, every turn, it didn't take long before highwaymen are everywhere		**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-						iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) * GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK);
-/**								----  End Original Code  ----									**/
-						iUpgradeOdds +=	(GC.getImprovementInfo(getImprovementType()).getLairUpgradeTechs(iK)) *std::min(1, 3*GC.getGameINLINE().countKnownTechNumTeams((TechTypes)iK) / GC.getGameINLINE().countCivTeamsAlive());
-/*************************************************************************************************/
-/**	Tweak								END														**/
-/*************************************************************************************************/
-					}
-					if (iUpgradeOdds > 0)
-					{
-/*************************************************************************************************/
-/**	Tweak							04/02/12								Snarko				**/
-/**								Scaling by gamespeed.											**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-						iUpgradeChance = GC.getGameINLINE().getMapRandNum(100, "Chance for upgrade");
-/**								----  End Original Code  ----									**/
-						iUpgradeChance = GC.getGameINLINE().getMapRandNum(GC.getGameSpeedInfo(GC.getGameINLINE().getGameSpeedType()).getImprovementPercent(), "Chance for upgrade");
-/*************************************************************************************************/
-/**	Tweak								END														**/
-/*************************************************************************************************/
-						if (iUpgradeOdds > iUpgradeChance)
-						{
-							setImprovementType(eImprovementUpgrade);
-/*************************************************************************************************/
-/**	Improvements Mods by Jeckel		expanded by Ahwaric	20.09.09		**/
-/*************************************************************************************************/
-							if (getImprovementOwner() != NO_PLAYER)
-							{
-								if (GC.getImprovementInfo(eImprovementUpgrade).getCultureControlStrength() > 0)
-								{
-									setImprovementOwner(getOwner());
-									addCultureControl(getImprovementOwner(), eImprovementUpgrade, true);
-								}
-							}
-/*************************************************************************************************/
-/**	Improvements Mods	END								**/
-/*************************************************************************************************/
-						}
+						setImprovementOwner(getOwner());
+						addCultureControl(getImprovementOwner(), eImprovementUpgrade, true);
 					}
 				}
-				else
+			}
+		}
+	}
+	else
+	{
+		//FfH: Modified by Kael 05/12/2008
+		// changeUpgradeProgress(GET_PLAYER(getOwnerINLINE()).getImprovementUpgradeRate());
+		if (isOwned())
+		{
+			if (GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == NO_CIVILIZATION ||
+				GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == GET_PLAYER(getOwnerINLINE()).getCivilizationType())
+			{
+				changeUpgradeProgress(GET_PLAYER(getOwnerINLINE()).getImprovementUpgradeRate());
+			}
+			if (GC.getImprovementInfo(getImprovementType()).getPrereqCivilization() != NO_CIVILIZATION &&
+				GC.getImprovementInfo(getImprovementType()).getPrereqCivilization() != GET_PLAYER(getOwnerINLINE()).getCivilizationType())
+			{
+				setImprovementType((ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementPillage());
+			}
+		}
+		else
+		{
+			if (GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == NO_CIVILIZATION)
+			{
+				changeUpgradeProgress(1);
+			}
+		}
+
+		if (getUpgradeProgress() >= iUpgradeTurns)
+		{
+			setImprovementType(eImprovementUpgrade);
+			if (getImprovementOwner() != NO_PLAYER)
+			{
+				TraitTriggeredData kData;
+				kData.m_iImprovement = eImprovementUpgrade;
+				GET_PLAYER(getImprovementOwner()).doTraitTriggers(TRAITHOOK_IMPROVE_IMPROVEMENT, &kData);
+			}
+			// Improvements Mods by Jeckel, expanded by Ahwaric	20.09.09
+			if (getImprovementOwner() != NO_PLAYER)
+			{
+				if (GC.getImprovementInfo(eImprovementUpgrade).getCultureControlStrength() > 0)
 				{
-/*************************************************************************************************/
-/**											END													**/
-/*************************************************************************************************/
-
-//FfH: Modified by Kael 05/12/2008
-//				changeUpgradeProgress(GET_PLAYER(getOwnerINLINE()).getImprovementUpgradeRate());
-					if (isOwned())
-					{
-						if (GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == NO_CIVILIZATION ||
-						  GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == GET_PLAYER(getOwnerINLINE()).getCivilizationType())
-						{
-							changeUpgradeProgress(GET_PLAYER(getOwnerINLINE()).getImprovementUpgradeRate());
-						}
-						if (GC.getImprovementInfo(getImprovementType()).getPrereqCivilization() != NO_CIVILIZATION &&
-						  GC.getImprovementInfo(getImprovementType()).getPrereqCivilization() != GET_PLAYER(getOwnerINLINE()).getCivilizationType())
-						{
-							setImprovementType((ImprovementTypes)GC.getImprovementInfo(getImprovementType()).getImprovementPillage());
-						}
-					}
-					else
-					{
-						if (GC.getImprovementInfo(eImprovementUpgrade).getPrereqCivilization() == NO_CIVILIZATION)
-						{
-							changeUpgradeProgress(1);
-						}
-					}
-//FfH: End Modify
-
-					if (getUpgradeProgress() >= iUpgradeTurns)
-					{
-						setImprovementType(eImprovementUpgrade);
-						if (getImprovementOwner() != NO_PLAYER)
-						{
-							TraitTriggeredData kData;
-							kData.m_iImprovement = eImprovementUpgrade;
-							GET_PLAYER(getImprovementOwner()).doTraitTriggers(TRAITHOOK_IMPROVE_IMPROVEMENT, &kData);
-						}
-/*************************************************************************************************/
-/**	Improvements Mods by Jeckel		expanded by Ahwaric	20.09.09		**/
-/*************************************************************************************************/
-						if (getImprovementOwner() != NO_PLAYER)
-						{
-							if (GC.getImprovementInfo(eImprovementUpgrade).getCultureControlStrength() > 0)
-							{
-								setImprovementOwner(getOwner());
-								addCultureControl(getImprovementOwner(), eImprovementUpgrade, true);
-							}
-						}
-/*************************************************************************************************/
-/**	Improvements Mods	END								**/
-/*************************************************************************************************/
-					}
+					setImprovementOwner(getOwner());
+					addCultureControl(getImprovementOwner(), eImprovementUpgrade, true);
 				}
 			}
 		}
@@ -1314,32 +1189,20 @@ void CvPlot::doImprovementUpgrade()
 
 void CvPlot::updateCulture(bool bBumpUnits, bool bUpdatePlotGroups)
 {
-	if (!isCity())
+	if (isCity())
+		return;
+
+	// Improvements will sometimes overwrite cultural border : Improvements Mods expanded by Ahwaric	21.09.09
+	// Original: setOwner(calculateCulturalOwner(), bBumpUnits, bUpdatePlotGroups);
+	if (getImprovementType() != NO_IMPROVEMENT
+	 && getImprovementOwner() != NO_PLAYER
+	 && GC.getImprovementInfo(getImprovementType()).isOutsideBorders())
 	{
-/*************************************************************************************************/
-/**	Improvements Mods	Improvements will sometimes overwrite cultural border	expanded by Ahwaric	21.09.09	**/
-/*************************************************************************************************/
-/**				---- Start Original Code ----					**
+		setOwner(getImprovementOwner(), bBumpUnits, bUpdatePlotGroups);
+	}
+	else
+	{
 		setOwner(calculateCulturalOwner(), bBumpUnits, bUpdatePlotGroups);
-/**				----  End Original Code  ----					**/
-		if (getImprovementOwner() != NO_PLAYER && getImprovementType() != NO_IMPROVEMENT)
-		{
-			if (GC.getImprovementInfo(getImprovementType()).isOutsideBorders())
-			{
-				setOwner(getImprovementOwner(), bBumpUnits, bUpdatePlotGroups);
-			}
-			else
-			{
-				setOwner(calculateCulturalOwner(), bBumpUnits, bUpdatePlotGroups);
-			}
-		}
-		else
-		{
-			setOwner(calculateCulturalOwner(), bBumpUnits, bUpdatePlotGroups);
-		}
-/*************************************************************************************************/
-/**	Improvements Mods	END								**/
-/*************************************************************************************************/
 	}
 }
 
@@ -7791,11 +7654,16 @@ ImprovementTypes CvPlot::getImprovementType() const
 
 void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 {
+	// TODO: Ensure owner improvement # tracking is consistent for improvements that add or remove cultural control or are bOutsideBorders
+	// Currently is triggering some asserts... maybe split up into two func, remove improvement and add improvement
 	int iI;
+	PlayerTypes eOldImprovementOwner = NO_PLAYER;
 	ImprovementTypes eOldImprovement = getImprovementType();
-	if (eNewValue!=NO_IMPROVEMENT && GC.getGameINLINE().isOption(GAMEOPTION_DELAYED_LAIRS) && GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay() > 0 && GC.getGame().getGameTurn()<1)
+	if (GC.getGame().getGameTurn()<1 && eNewValue!=NO_IMPROVEMENT && GC.getGameINLINE().isOption(GAMEOPTION_DELAYED_LAIRS) && GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay() > 0)
 	{
-		setExploreNextTurn(GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay()*GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent()/100);
+		// +-10% on cycle length
+		setExploreNextTurn((GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay() * 11 / 10 - GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo((ImprovementTypes)eNewValue).getExploreDelay() / 5, "lair explore cycle randomization"))
+						  * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent()/100);
 	}
 	if (eNewValue == NO_IMPROVEMENT)
 	{
@@ -7814,6 +7682,7 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			}
 			if (isOwned())
 			{
+				eOldImprovementOwner = getImprovementOwner();
 				GET_PLAYER(getOwnerINLINE()).changeImprovementCount(getImprovementType(), -1);
 			}
 		}
@@ -7835,7 +7704,6 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			kData.m_iImprovement = eOldImprovement;
 			GET_PLAYER(getOwner()).doTraitTriggers(TRAITHOOK_LOSE_IMPROVEMENT, &kData);		
 		}
-
 
 		updatePlotGroupBonus(false);
 		m_eImprovementType = eNewValue;
@@ -7881,14 +7749,11 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 		}
 		// END Xienwolf
 
-		// Tracks Units Spawned from each Improvement to limit the potential spawns: Xienwolf 12/30/08 LairLimit
-		changeNumSpawnsEver(-getNumSpawnsEver());
-		changeNumSpawnsAlive(-getNumSpawnsAlive());
-
 		/**	Improvements Mods by Jeckel		imported by Ahwaric	20.09.09 | Valkrionn	09.24.09		**/
-		if (eOldImprovement != NO_IMPROVEMENT && getImprovementOwner() != NO_PLAYER)
+		if (eOldImprovement != NO_IMPROVEMENT && (getImprovementType() == NO_IMPROVEMENT || getImprovementOwner() != NO_PLAYER))
 		{
 			clearCultureControl(getImprovementOwner(), eOldImprovement, true);
+			updateCulture(true, true);
 		}
 
 		ImprovementTypes eLoopImprovement;
@@ -7921,22 +7786,35 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			int iSpawnGroup = GC.getImprovementInfo(getImprovementType()).getSpawnGroupType();
 			int iImmediateSpawnGroup = GC.getImprovementInfo(getImprovementType()).getImmediateSpawnGroupType();
 
-			PlayerTypes eSpawnPlayer=NO_PLAYER;
-			if (iCiv != -1 && (iUnit != -1||iSpawnGroup!=-1||iImmediateUnit!=-1||iImmediateSpawnGroup!=-1) && !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+			PlayerTypes eSpawnPlayer = NO_PLAYER;
+			if (iCiv != NO_CIVILIZATION
+				&& (iUnit != -1 || iSpawnGroup != -1 || iImmediateUnit != -1 || iImmediateSpawnGroup != -1)
+				&& !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
+				&& !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
+				&& !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
 				for (int iI = MAX_PLAYERS-1; iI > -1 ; iI--)
 				{
 					if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getCivilizationType() == (CivilizationTypes)iCiv)
 					{
 						eSpawnPlayer = (PlayerTypes)iI;
+						break;
 					}
 				}
 				if (eSpawnPlayer != NO_PLAYER)
 				{
-					if (GC.getImprovementInfo(getImprovementType()).getCultureRange() >= 0)
+					// Immediately update owner if can spawn only for that owner
+					// When an improvement is directly swapped for a spawner, weird things can happen, but... oh well.
+					// Fixes Rinwell losing control to demons if owned while upgrading
+					eOldImprovementOwner == NO_PLAYER ? setImprovementOwner(eSpawnPlayer) : setImprovementOwner(eOldImprovementOwner);
+
+					if (GC.getImprovementInfo(getImprovementType()).getCultureControlStrength() > 0)
 					{
-						setImprovementOwner(eSpawnPlayer);
 						addCultureControl(eSpawnPlayer, getImprovementType(), 1);
+					}
+					else if (GC.getImprovementInfo(getImprovementType()).isOutsideBorders())
+					{
+						updateCulture(true, true);
 					}
 
 					// Allows for lairs to spawn a unit on creation, but spawn others normally : Valkrionn 7/17/10 LairGuardians 
@@ -7969,8 +7847,6 @@ void CvPlot::setImprovementType(ImprovementTypes eNewValue)
 			{
 				setImprovementOwner(NO_PLAYER);
 			}
-			// Improvement Mods END
-
 		}
 
 		setUpgradeProgress(0);
@@ -9125,6 +9001,7 @@ PlayerTypes CvPlot::getImprovementOwner() const
 
 
 void CvPlot::setImprovementOwner(PlayerTypes eNewValue)
+// Todo: Make culture control applied as a result of this call
 {
 	if (getImprovementOwner() != eNewValue)
 	{
@@ -12097,7 +11974,6 @@ void CvPlot::read(FDataStreamBase* pStream)
 	pStream->Read(&m_iTempFeatureTimer);
 	pStream->Read(&m_eRealBonusType);
 	pStream->Read(&m_iTempBonusTimer);
-	pStream->Read(&m_iNumSpawnsEver);
 	pStream->Read(&m_iNumSpawnsAlive);
 	pStream->Read(&m_bNeedsRebuilding);
 	//ClimateSystem:
@@ -12420,7 +12296,6 @@ void CvPlot::write(FDataStreamBase* pStream)
 	pStream->Write(m_iTempFeatureTimer);
 	pStream->Write(m_eRealBonusType);
 	pStream->Write(m_iTempBonusTimer);
-	pStream->Write(m_iNumSpawnsEver);
 	pStream->Write(m_iNumSpawnsAlive);
 	pStream->Write(m_bNeedsRebuilding);
 	//ClimateSystem:
@@ -14247,15 +14122,6 @@ void CvPlot::changeTempBonusTimer(int iChange)
 	{
 		m_iTempBonusTimer += iChange;
 	}
-}
-
-int CvPlot::getNumSpawnsEver()
-{
-	return m_iNumSpawnsEver;
-}
-void CvPlot::changeNumSpawnsEver(int iChange)
-{
-	m_iNumSpawnsEver += iChange;
 }
 
 int CvPlot::getNumSpawnsAlive()

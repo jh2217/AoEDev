@@ -53,6 +53,8 @@ public:
 
 	void doTurn();
 
+	void doUniqueLairTimecheck();
+
 	void doImprovement();
 
 	void updateCulture(bool bBumpUnits, bool bUpdatePlotGroups);
@@ -715,8 +717,6 @@ public:
 	bool isHasTempFeature();
 	bool isHasTempBonus();
 
-	int getNumSpawnsEver();
-	void changeNumSpawnsEver(int iChange);
 	int getNumSpawnsAlive();
 	void changeNumSpawnsAlive(int iChange);
 
@@ -947,6 +947,7 @@ protected:
 	void doFeature();
 	void doPlotEffect();
 	void doCulture();
+	void doLairSpawn();
 
 	void processArea(CvArea* pArea, int iChange);
 	void doImprovementUpgrade();
@@ -978,7 +979,6 @@ protected:
 	int m_iRealFeatureVariety;
 	short m_eRealBonusType;
 
-	int m_iNumSpawnsEver;
 	int m_iNumSpawnsAlive;
 
 	bool m_bNeedsRebuilding;

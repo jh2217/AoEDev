@@ -503,6 +503,13 @@
 			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>
+		<GameOptionInfo>		<!-- No Random Barbarians -->
+			<Type>GAMEOPTION_NO_RANDOM_BARBARIANS</Type>
+			<Description>TXT_KEY_GAME_OPTION_NO_RANDOM_BARBARIANS</Description>
+			<Help>TXT_KEY_GAME_OPTION_NO_RANDOM_BARBARIANS_HELP</Help>
+			<bDefault>0</bDefault>
+			<bVisible>1</bVisible>
+		</GameOptionInfo>
 		<GameOptionInfo>		<!-- All Important/Emergent Leaders -->
 			<Type>GAMEOPTION_THE_ACKNOWLEDGEMENT</Type>
 			<Description>TXT_KEY_GAME_OPTION_THE_ACKNOWLEDGEMENT</Description>
@@ -531,14 +538,13 @@
 			<bDefault>0</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>
-				<GameOptionInfo>		<!-- Delayed Lairs -->
+		<GameOptionInfo>		<!-- Delayed Lairs -->
 			<Type>GAMEOPTION_DELAYED_LAIRS</Type>
 			<Description>TXT_KEY_GAME_OPTION_DELAYED_LAIRS</Description>
 			<Help>TXT_KEY_GAME_OPTION_DELAYED_LAIRS_HELP</Help>
-			<bDefault>0</bDefault>
+			<bDefault>1</bDefault>
 			<bVisible>1</bVisible>
 		</GameOptionInfo>
-
 		<GameOptionInfo>		<!-- No Autocast -->
 			<Type>GAMEOPTION_NO_AUTOCAST</Type>
 			<Description>TXT_KEY_GAME_OPTION_NO_AUTOCAST</Description>

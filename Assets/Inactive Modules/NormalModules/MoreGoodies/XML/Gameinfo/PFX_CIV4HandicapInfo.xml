@@ -6,7 +6,7 @@
 <!-- Handicap Infos -->
 <Civ4HandicapInfo xmlns="x-schema:PFX_CIV4GameInfoSchema.xml">
 	<HandicapInfos>
-		<HandicapInfo>	
+		<HandicapInfo>
 			<Type>HANDICAP_DEITY</Type>
 			<bForceOverwrite>1</bForceOverwrite>
 			<Description>TXT_KEY_HANDICAP_DEITY</Description>
@@ -32,9 +32,9 @@
 			<iAttitudeChange>-1</iAttitudeChange>
 			<iNoTechTradeModifier>20</iNoTechTradeModifier>
 			<iTechTradeKnownModifier>0</iTechTradeKnownModifier>
-			<iUnownedTilesPerGameAnimal>15</iUnownedTilesPerGameAnimal>
-			<iUnownedTilesPerBarbarianUnit>15</iUnownedTilesPerBarbarianUnit>
-			<iUnownedWaterTilesPerBarbarianUnit>150</iUnownedWaterTilesPerBarbarianUnit>
+			<iTilesPerAnimal>20</iTilesPerAnimal>
+			<iTilesPerOrc>30</iTilesPerOrc>
+			<iWaterTilesPerOrc>100</iWaterTilesPerOrc>
 			<iUnownedTilesPerBarbarianCity>21</iUnownedTilesPerBarbarianCity>
 			<iBarbarianCreationTurnsElapsed>10</iBarbarianCreationTurnsElapsed>
 			<iBarbarianCityCreationTurnsElapsed>15</iBarbarianCityCreationTurnsElapsed>
@@ -111,15 +111,10 @@
 				</FreeTech>
 			</AIFreeTechs>
 			<iAIFreeXP>8</iAIFreeXP>
-			<iLairSpawnRate>6</iLairSpawnRate>
-			<iUnownedWaterTilesPerGameAnimal>75</iUnownedWaterTilesPerGameAnimal>
+			<iWaterTilesPerAnimal>75</iWaterTilesPerAnimal>
 			<iAnimalEscalationTurnsElapsed>35</iAnimalEscalationTurnsElapsed>
-			<iLairSpawnChance>95</iLairSpawnChance>
-			<iLairsPerCycle>9</iLairsPerCycle>
-			<iPercentDemonsPerUnownedEvilPlot>90</iPercentDemonsPerUnownedEvilPlot>
-			<iDemonGlobalCountSpawnBoostInterval>0</iDemonGlobalCountSpawnBoostInterval>
-			<iDemonGlobalCountSpawnBoostRate>0</iDemonGlobalCountSpawnBoostRate>
-			<iDemonSpawnRateGlobalCounterEnhancementPercent>700</iDemonSpawnRateGlobalCounterEnhancementPercent>
+			<iPercentDemonsPerEvilPlot>100</iPercentDemonsPerEvilPlot>
+			<iPercentDemonsPerEvilPlotPerGlobalCounter>700</iPercentDemonsPerEvilPlotPerGlobalCounter>
 			<iDemonGlobalCounterFreeXPPercent>130</iDemonGlobalCounterFreeXPPercent>
 			<iDemonPerTurnKnownTechsPercent>15</iDemonPerTurnKnownTechsPercent>
 			<iDemonBonus>0</iDemonBonus>

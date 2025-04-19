@@ -511,11 +511,12 @@ def onClimateChange(argsList):
 			pPlot.setImprovementType(iBlightedForest)
 		if eFeature == iOasis:
 			pPlot.setFeatureType(FeatureTypes.NO_FEATURE, VarietyTypes.NO_VARIETY)
-		if pPlot.isRiver():
-			pPlot.setWOfRiver(False,CardinalDirectionTypes.CARDINALDIRECTION_SOUTH)
-			pPlot.setNOfRiver(False,CardinalDirectionTypes.CARDINALDIRECTION_EAST)
-			pPlot.setWOfRiver(False,CardinalDirectionTypes.CARDINALDIRECTION_NORTH)
-			pPlot.setNOfRiver(False,CardinalDirectionTypes.CARDINALDIRECTION_WEST)
+		# Rather than remove rivers, wasteland gains no benefit from river adjacency.
+		# if pPlot.isRiver():
+		# 	pPlot.setWOfRiver(False,CardinalDirectionTypes.CARDINALDIRECTION_SOUTH)
+		# 	pPlot.setNOfRiver(False,CardinalDirectionTypes.CARDINALDIRECTION_EAST)
+		# 	pPlot.setWOfRiver(False,CardinalDirectionTypes.CARDINALDIRECTION_NORTH)
+		# 	pPlot.setNOfRiver(False,CardinalDirectionTypes.CARDINALDIRECTION_WEST)
 
 ## FLAVOUR CLASSES:
 

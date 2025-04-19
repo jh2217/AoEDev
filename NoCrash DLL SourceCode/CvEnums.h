@@ -258,7 +258,7 @@ enum InterfaceModeTypes			// Exposed to Python
 #endif
 };
 
-enum InterfaceMessageTypes	// Exposed to Python
+enum InterfaceMessageTypes	// Exposed to Python // See CvTalkingHeadMessage::getExpireTurn() for viewable duration
 {
 	NO_MESSAGE_TYPE = -1,
 
@@ -939,6 +939,7 @@ enum GameOptionTypes				// Exposed to Python
 	GAMEOPTION_ENABLE_COMBAT_LOG,
 	GAMEOPTION_NO_ANIMALS,
 	GAMEOPTION_NO_DEMONS,
+	GAMEOPTION_NO_RANDOM_BARBARIANS,
 /*************************************************************************************************/
 /**	LeaderStatus Infos      				10/02/09								Valkrionn	**/
 /**                                         Originally                                          **/

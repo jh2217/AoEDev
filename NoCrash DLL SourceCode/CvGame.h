@@ -631,6 +631,7 @@ public:
 	void changeTrophyValue(const TCHAR* szName, int iChange);
 	bool isReligionDisabled(int iReligion) const;
 	void testVictory();
+	int calcTargetBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes ePlayer) const;
 /*************************************************************************************************/
 /**	Spawn Groups						08/12/10									Valkrionn	**/
 /**																								**/
@@ -652,8 +653,8 @@ public:
 	void setProjectTimer(ProjectTypes eProject);
 	void createDemons();
 	void createLairs();
-	int getLastLairCycle() const;
-	void setLastLairCycle(int iNewValue);
+	int getNextLairCycle() const;
+	void setNextLairCycle(int iNewValue);
 	int getNumCivActive(CivilizationTypes eCivilization) const;
 	int getCivActivePlayer(CivilizationTypes eCivilization, int iCount) const;
 /*************************************************************************************************/
@@ -872,7 +873,7 @@ protected:
 /**								Defines Variable for Use in .cpp								**/
 /*************************************************************************************************/
 	int** m_ppaaiProjectTimers;
-	int m_iLastLairCycle;
+	int m_iNextLairCycle;
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
 /*************************************************************************************************/

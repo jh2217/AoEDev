@@ -1014,44 +1014,7 @@ void CvTeam::doTurn()
 
 	AI_doTurnPre();
 
-/*************************************************************************************************/
-/**	MultiBarb							12/23/08									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	if (isBarbarian())
-	{
-		for (iI = 0; iI < GC.getNumTechInfos(); iI++)
-		{
-			if (!isHasTech((TechTypes)iI))
-			{
-				iCount = 0;
-				iPossibleCount = 0;
-
-				for (iJ = 0; iJ < MAX_CIV_TEAMS; iJ++)
-				{
-					if (GET_TEAM((TeamTypes)iJ).isAlive())
-					{
-						if (GET_TEAM((TeamTypes)iJ).isHasTech((TechTypes)iI))
-						{
-							iCount++;
-						}
-
-						iPossibleCount++;
-					}
-				}
-
-				if (iCount > 0)
-				{
-					FAssertMsg(iPossibleCount > 0, "iPossibleCount is expected to be greater than 0");
-
-					changeResearchProgress(((TechTypes)iI), ((getResearchCost((TechTypes)iI) * ((GC.getDefineINT("BARBARIAN_FREE_TECH_PERCENT") * iCount) / iPossibleCount)) / 100), getLeaderID());
-				}
-			}
-		}
-	}
-/**								----  End Original Code  ----									**/
+	// Non-animal barb tech progression
 	if (getID() == ORC_TEAM || getID() == DEMON_TEAM)
 	{
 		for (iI = 0; iI < GC.getNumTechInfos(); iI++)
@@ -1076,21 +1039,25 @@ void CvTeam::doTurn()
 
 				if (iCount > 0)
 				{
+					// Orcs gain FREE_TECH_PERCENT (35) of total cost per turn, multiplied by % of civs that know the tech, modulated by gamespeed.
+					// E.g. 2 of 10 teams know a tech, so orcs get 0.35 * 0.2 * (gamespeed modifier) of the tech each turn. [100 / FREE_TECH * # of civ teams] is the max turns of tech lag on standard.
 					if (getID() == ORC_TEAM)
 					{
-						changeResearchProgress(((TechTypes)iI), ((getResearchCost((TechTypes)iI) * ((GC.getDefineINT("BARBARIAN_FREE_TECH_PERCENT") * iCount) / iPossibleCount)) / 100), getLeaderID());
+						changeResearchProgress((TechTypes)iI,
+							getResearchCost((TechTypes)iI) * GC.getDefineINT("BARBARIAN_FREE_TECH_PERCENT") * iCount / (iPossibleCount * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getResearchPercent()),
+							getLeaderID());
 					}
-					if (getID() == DEMON_TEAM)
+					// Demons get a flat percent (per difficulty) for each team that knows; from 1% settler to 15% deity. [33] is the max turns of tech lag on standard noble.
+					else if (getID() == DEMON_TEAM)
 					{
-						changeResearchProgress(((TechTypes)iI), ((getResearchCost((TechTypes)iI) * (GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getDemonPerTurnKnownTechsPercent() * iCount)) / 100), getLeaderID());
+						changeResearchProgress(((TechTypes)iI),
+							getResearchCost((TechTypes)iI) * GC.getHandicapInfo(GC.getGameINLINE().getHandicapType()).getDemonPerTurnKnownTechsPercent() * iCount / GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getResearchPercent(),
+							getLeaderID());
 					}
 				}
 			}
 		}
 	}
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 
 	for (iI = 0; iI < MAX_TEAMS; iI++)
 	{
@@ -1121,11 +1088,8 @@ void CvTeam::doTurn()
 		}
 
 	}
-/*************************************************************************************************/
-/**	New Tag Defs	(ProjectInfos)			09/12/08								Xienwolf	**/
-/**	New Tag Defs	(TeamInfos)				09/12/08								Xienwolf	**/
-/**									Per Turn Decay Functions									**/
-/*************************************************************************************************/
+
+	// Per Turn Decay Functions : New Tag Defs ProjectInfos TeamInfos Xienwolf 09/12/08
 	if (getRevealAllBonuses() > 0)
 	{
 		changeRevealAllBonuses(-1);
@@ -1149,9 +1113,6 @@ void CvTeam::doTurn()
 			clearProjectTimer((ProjectTypes)iI);
 		}
 	}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
 
 	doWarWeariness();
 

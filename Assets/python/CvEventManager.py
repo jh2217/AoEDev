@@ -2254,12 +2254,12 @@ class CvEventManager:
 					iValue = 0
 					iImp = pTargetPlot.getImprovementType()
 					if iImp == -1:
-						iValue += 100
+						iValue += 1000
 					elif gc.getImprovementInfo(iImp).isPermanent():
 						continue
 					iValue += CyGame().getSorenRandNum(1000, "Bair move ")
 					if not pTargetPlot.isOwned():
-						iValue += 1000
+						iValue += 500
 					if iValue > iBestValue:
 						iBestValue = iValue
 						pBestPlot = pTargetPlot

@@ -39,7 +39,8 @@
 					<iTurnsPerIncrement>1800</iTurnsPerIncrement>
 				</GameTurnInfo>
 			</GameTurnInfos>
-			<iTurnsPerLairCycle>50</iTurnsPerLairCycle>
+			<iLairSpawnChance>5</iLairSpawnChance> <!-- Chance a lair will spit something out a unit. Also 3x the chance to spit out a group. Individual results can be modulated in improvementInfos -->
+			<iTurnsPerLairCycle>30</iTurnsPerLairCycle> <!-- Turns until barbs can spawn, and turns between lairs spawning. +/- 10% randomness after the first -->
 		</GameSpeedInfo>
 		<GameSpeedInfo>
 			<Type>GAMESPEED_EPIC</Type>
@@ -73,7 +74,8 @@
 					<iTurnsPerIncrement>990</iTurnsPerIncrement>
 				</GameTurnInfo>
 			</GameTurnInfos>
-			<iTurnsPerLairCycle>25</iTurnsPerLairCycle>
+			<iLairSpawnChance>7</iLairSpawnChance>
+			<iTurnsPerLairCycle>22</iTurnsPerLairCycle>
 		</GameSpeedInfo>
 		<GameSpeedInfo>
 			<Type>GAMESPEED_NORMAL</Type>
@@ -107,7 +109,8 @@
 					<iTurnsPerIncrement>690</iTurnsPerIncrement>
 				</GameTurnInfo>
 			</GameTurnInfos>
-			<iTurnsPerLairCycle>10</iTurnsPerLairCycle>
+			<iLairSpawnChance>10</iLairSpawnChance>
+			<iTurnsPerLairCycle>15</iTurnsPerLairCycle>
 		</GameSpeedInfo>
 		<GameSpeedInfo>
 			<Type>GAMESPEED_QUICK</Type>
@@ -141,7 +144,8 @@
 					<iTurnsPerIncrement>480</iTurnsPerIncrement>
 				</GameTurnInfo>
 			</GameTurnInfos>
-			<iTurnsPerLairCycle>5</iTurnsPerLairCycle>
+			<iLairSpawnChance>15</iLairSpawnChance>
+			<iTurnsPerLairCycle>10</iTurnsPerLairCycle>
 		</GameSpeedInfo>
 	</GameSpeedInfos>
 </Civ4GameSpeedInfo>

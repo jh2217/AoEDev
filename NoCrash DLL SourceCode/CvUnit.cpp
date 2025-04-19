@@ -1478,7 +1478,6 @@ void CvUnit::convert(CvUnit* pUnit)
 			setMustDie(true);
 		}
 	}
-	getSpawnPlot()->changeNumSpawnsEver(-1);
 	setSpawnPlot(pUnit->getSpawnPlot());
 	setSpawnImprovementType(pUnit->getSpawnImprovementType());
 	changeStrBoost(pUnit->getStrBoost());
@@ -19090,10 +19089,12 @@ CvPlot* CvUnit::getSpawnPlot() const
 }
 void CvUnit::setSpawnPlot(CvPlot* pPlot)
 {
-	if (pPlot->getImprovementType() != NO_IMPROVEMENT && getUnitType() == (UnitTypes)GC.getImprovementInfo(pPlot->getImprovementType()).getSpawnUnitType())
+	// Count guardians toward spawn; allows for a kinda-way to track if guardian is alive without more dedicated tracking
+	if (pPlot->getImprovementType() != NO_IMPROVEMENT 
+	 && (getUnitType() == (UnitTypes)GC.getImprovementInfo(pPlot->getImprovementType()).getSpawnUnitType()
+	  || getUnitType() == (UnitTypes)GC.getImprovementInfo(pPlot->getImprovementType()).getImmediateSpawnUnitType()))
 	{
 		pPlot->changeNumSpawnsAlive(1);
-		pPlot->changeNumSpawnsEver(1);
 		setSpawnImprovementType(pPlot->getImprovementType());
 	}
 	m_iSpawnPlotX = pPlot->getX();
@@ -32661,54 +32662,40 @@ bool CvUnit::canClaimFort(CvPlot* pPlot, bool bTestVisible)
 
 	// Gold relevant if not barb. Show option even if can't pay gold.
 	if (!bTestVisible && !isBarbarian() && GET_PLAYER(getOwnerINLINE()).getGold() < GET_PLAYER(getOwnerINLINE()).getClaimFortCost())
-	{
 		return false;
-	}
 
-	if (NO_IMPROVEMENT != pPlot->getImprovementType() && GC.getImprovementInfo(pPlot->getImprovementType()).isFort())
-	{
-		if (bTestVisible)
-		{
-			return true;
-		}
+	if (NO_IMPROVEMENT == pPlot->getImprovementType() || !GC.getImprovementInfo(pPlot->getImprovementType()).isFort())
+		return false;
 
-		CvUnit* pLoopUnit;
-		CLLNode<IDInfo>* pUnitNode;
-		pUnitNode = pPlot->headUnitNode();
-
-		while (pUnitNode != NULL)
-		{
-			pLoopUnit = ::getUnit(pUnitNode->m_data);
-			pUnitNode = pPlot->nextUnitNode(pUnitNode);
-
-			if (pLoopUnit->getUnitClassType() == GC.getDefineINT("FORT_COMMANDER_UNITCLASS"))
-			{
-				return false;
-			}
-		}
-		if (pPlot->isOwned())
-		{
-			if (pPlot->getOwner() != getOwnerINLINE())
-			{
-				if (!GET_TEAM(getTeam()).isAtWar(pPlot->getTeam()))
-				{
-					return false;
-				}
-			}
-		}
-		// Barbs can't claim unowned naval forts
-		else if (isBarbarian() && pPlot->isWater())
-		{
-			return false;
-		}
-		// Can't set up commander if adjacent enemy combatants
-		if (countUnitsWithinRange(1, true, false, false, true, true) > 0)
-		{
-			return false;
-		}
+	if (bTestVisible)
 		return true;
+
+	CvUnit* pLoopUnit;
+	CLLNode<IDInfo>* pUnitNode;
+	pUnitNode = pPlot->headUnitNode();
+
+	while (pUnitNode != NULL)
+	{
+		pLoopUnit = ::getUnit(pUnitNode->m_data);
+		pUnitNode = pPlot->nextUnitNode(pUnitNode);
+		if (pLoopUnit->getUnitClassType() == GC.getDefineINT("FORT_COMMANDER_UNITCLASS"))
+			return false;
 	}
-	return false;
+
+	if (pPlot->isOwned()
+	 && pPlot->getOwner() != getOwnerINLINE()
+	 && !GET_TEAM(getTeam()).isAtWar(pPlot->getTeam()))
+		return false;
+
+	// Barbs can't claim unowned naval forts.
+	else if (isBarbarian() && pPlot->isWater() && !pPlot->isOwned())
+		return false;
+
+	// Can't set up commander if adjacent enemy combatants
+	if (countUnitsWithinRange(1, true, false, false, true, true) > 0)
+		return false;
+
+	return true;
 }
 
 bool CvUnit::claimFort(bool bBuilt)
@@ -32753,33 +32740,22 @@ bool CvUnit::claimFort(bool bBuilt)
 
 bool CvUnit::canExploreLair(CvPlot* pPlot, bool bTestVisible)
 {
+	// Changes may need to be mirrored in CvUnitAI::AI_canExploreLair
+
 	if (pPlot == NULL)
 		pPlot = plot();
 
-	if (pPlot->getImprovementType() == NO_IMPROVEMENT)
+	if (pPlot->getImprovementType() == NO_IMPROVEMENT
+ 		|| isBarbarian()
+		|| !canFight()
+		|| getUnitCombatType() == GC.getInfoTypeForString("UNITCOMBAT_SIEGE")
+		|| getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_SPELL")
+		|| getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_BIRD")
+		|| isOnlyDefensive())
 		return false;
 
-	if (isOnlyDefensive())
-		return false;
-
-	if (isBarbarian())
-		return false;
-
-	//Used to be a rule that UNITCOMBAT_SIEGE can't explore lairs. Removed because of hardcoding.
-	//If you want the rule make it.
-
-	if (getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_SPELL"))
-		return false;
-
-	if (getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_BIRD"))
-		return false;
-
-	CvImprovementInfo& kImprovementInfo = GC.getImprovementInfo(pPlot->getImprovementType());
-
-	if (!kImprovementInfo.isExplorable())
-		return false;
-
-	if (pPlot->getExploreNextTurn() > GC.getGame().getGameTurn())
+	if (!GC.getImprovementInfo(pPlot->getImprovementType()).isExplorable()
+		|| pPlot->getExploreNextTurn() > GC.getGame().getGameTurn())
 		return false;
 
 	if (bTestVisible)
@@ -32788,13 +32764,12 @@ bool CvUnit::canExploreLair(CvPlot* pPlot, bool bTestVisible)
 	bool bGoodyClass = false;
 	for (int i = 0; i < GC.getNumGoodyClassTypes(); i++)
 	{
-		if (kImprovementInfo.isGoodyClassType(i))
+		if (GC.getImprovementInfo(pPlot->getImprovementType()).isGoodyClassType(i))
 		{
 			bGoodyClass = true;
 			break;
 		}
 	}
-
 	if (!bGoodyClass)
 		return false;
 
@@ -32832,7 +32807,9 @@ bool CvUnit::exploreLair(CvPlot* pPlot)
 				if ((ImprovementTypes)GC.getImprovementInfo(pPlot->getImprovementType()).isUnique())
 				{
 					gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_LAIR_DESTROYED").GetCString(), "AS2D_POSITIVE_DINK", MESSAGE_TYPE_DISPLAY_ONLY, "Art/Interface/Buttons/Spells/Rob Grave.dds", (ColorTypes)8, pPlot->getX(), pPlot->getY(), true, true);
-					pPlot->setExploreNextTurn(GC.getGame().getGameTurn() + GC.getImprovementInfo(pPlot->getImprovementType()).getExploreDelay() * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent() / 100);
+					// +-10% on cycle length
+					pPlot->setExploreNextTurn(GC.getGame().getGameTurn() + (GC.getImprovementInfo(pPlot->getImprovementType()).getExploreDelay() * 11 / 10 - GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo(pPlot->getImprovementType()).getExploreDelay() / 5, "randomization to lair cycle length"))
+																		  * GC.getGameSpeedInfo(GC.getGame().getGameSpeedType()).getGrowthPercent() / 100);
 				}
 				else
 				{

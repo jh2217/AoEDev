@@ -17273,6 +17273,8 @@
 			<bNoXP>1</bNoXP>
 			<PrereqImprovements>
 				<PrereqImprovement>IMPROVEMENT_RINWELL</PrereqImprovement>
+				<PrereqImprovement>IMPROVEMENT_RINWELL2</PrereqImprovement>
+				<PrereqImprovement>IMPROVEMENT_RINWELL3</PrereqImprovement>
 			</PrereqImprovements>
 			<UnitCombats>
 				<UnitCombat>

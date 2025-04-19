@@ -9030,6 +9030,7 @@ def spellDefileCrypt(pCaster):
 
 #Snarko 26-06-2010
 #Making lairs use the SDK/XML system. But not all of them...
+# Note: This one is mostly depreciated; custom function one used more often. Should probably be merged... later...
 def exploreLairBigBad(argsList):
 	pUnit, pPlot = argsList
 	Manager		= CvEventInterface.getEventManager()
@@ -9040,7 +9041,10 @@ def exploreLairBigBad(argsList):
 	orcTeam				= gc.getORC_TEAM()
 	animalTeam			= gc.getANIMAL_TEAM()
 	demonTeam			= gc.getDEMON_TEAM()
-	iPlayer 			= pUnit.getOwner()
+	if not pUnit.isNone():
+		iPlayer 		= pUnit.getOwner()
+	else:
+		iPlayer			= pPlot.getOwner()
 	getPlayer 			= gc.getPlayer
 	pPlayer				= getPlayer(iPlayer)
 	iTeam 				= pPlayer.getTeam()
@@ -9170,7 +9174,7 @@ def exploreLairBigBad(argsList):
 	sHenchman 	= lHenchmanList[randNum(len(lHenchmanList), "Pick Henchman")]
 	iUnit 		= getInfoType(sMonster)
 	iHenchman 	= getInfoType(sHenchman)
-	newUnit 	= addUnitFixed(pUnit, iUnit, iSpawnPlayer)
+	newUnit 	= addUnitFixed(pPlot, iUnit, iSpawnPlayer)
 	if newUnit != -1:
 		setPromo 	= newUnit.setHasPromotion
 		for i in xrange(randNum(len(lPromoList)/4 + 1, "Pick Promotion Quantity")):
@@ -9181,7 +9185,10 @@ def exploreLairBigBad(argsList):
 		bPlayer = getPlayer(iSpawnPlayer)
 		iHench1 = randNum(4, "BigBad Lair Henchmen number 1")
 		iHench2 = randNum(4, "BigBad Lair Henchmen number 2")
-		iNoBadMod = pUnit.getNoBadExplore()/10
+		if pUnit != -1:
+			iNoBadMod = pUnit.getNoBadExplore()/10
+		else:
+			iNoBadMod = -1
 		iHenchtotal = iHench1 + iHench2 - iNoBadMod
 		getHandicap = getGame().getHandicapType()
 		if iHenchtotal > int(getHandicap):

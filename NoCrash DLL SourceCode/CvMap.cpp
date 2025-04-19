@@ -359,10 +359,13 @@ void CvMap::doTurn()
 	PROFILE("CvMap::doTurn()")
 
 	int iI;
+	int iNumPlots = numPlotsINLINE();
+	// Start at a random plot, otherwise barbs will be always denser closer to index 0.
+	int iOffset = GC.getGameINLINE().getMapRandNum(iNumPlots, "Rand Starting Plot");
 
-	for (iI = 0; iI < numPlotsINLINE(); iI++)
+	for (iI = 0; iI < iNumPlots; iI++)
 	{
-		plotByIndexINLINE(iI)->doTurn();
+		plotByIndexINLINE((iI + iOffset)%iNumPlots)->doTurn();
 	}
 }
 
@@ -605,7 +608,6 @@ CvPlot* CvMap::syncRandPlot(int iFlags, int iArea, int iMinUnitDistance, int iTi
 	CvPlot* pPlot;
 	CvPlot* pTestPlot;
 	CvPlot* pLoopPlot;
-	bool bValid;
 	int iCount;
 	int iDX, iDY;
 
@@ -615,232 +617,101 @@ CvPlot* CvMap::syncRandPlot(int iFlags, int iArea, int iMinUnitDistance, int iTi
 
 	while (iCount < iTimeout)
 	{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**					Reduction in massive Random Spam in Logger files by using Map				**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		pTestPlot = plotSorenINLINE(GC.getGameINLINE().getSorenRandNum(getGridWidthINLINE(), "Rand Plot Width"), GC.getGameINLINE().getSorenRandNum(getGridHeightINLINE(), "Rand Plot Height"));
-/**								----  End Original Code  ----									**/
+		iCount++;
+
+		// Reduction in massive Random Spam in Logger files by using Map instead of getSorenRandNum : Xienwolf Tweak 12/13/08
 		pTestPlot = plotSorenINLINE(GC.getGameINLINE().getMapRandNum(getGridWidthINLINE(), "Rand Plot Width"), GC.getGameINLINE().getMapRandNum(getGridHeightINLINE(), "Rand Plot Height"));
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 
 		FAssertMsg(pTestPlot != NULL, "TestPlot is not assigned a valid value");
 
-		if ((iArea == -1) || (pTestPlot->getArea() == iArea))
+		// This is an atrocious way to loop through plots in a specific area.
+		// TODO add a list to each area of plots in it.
+		if ((iArea != -1) && (pTestPlot->getArea() != iArea)) continue;
+
+		if (iMinUnitDistance != -1)
 		{
-			bValid = true;
+			for (iDX = -(iMinUnitDistance); iDX <= iMinUnitDistance; iDX++)
+			{
+				for (iDY = -(iMinUnitDistance); iDY <= iMinUnitDistance; iDY++)
+				{
+					pLoopPlot = plotXY(pTestPlot->getX_INLINE(), pTestPlot->getY_INLINE(), iDX, iDY);
 
-			if (bValid)
-			{
-				if (iMinUnitDistance != -1)
-				{
-					for (iDX = -(iMinUnitDistance); iDX <= iMinUnitDistance; iDX++)
+					if (pLoopPlot != NULL)
 					{
-						for (iDY = -(iMinUnitDistance); iDY <= iMinUnitDistance; iDY++)
-						{
-							pLoopPlot	= plotXY(pTestPlot->getX_INLINE(), pTestPlot->getY_INLINE(), iDX, iDY);
-
-							if (pLoopPlot != NULL)
-							{
-								if (pLoopPlot->isUnit())
-								{
-									bValid = false;
-								}
-							}
-						}
+						if (pLoopPlot->isUnit()) continue;
 					}
 				}
-			}
-/*************************************************************************************************/
-/**	MultiBarb							01/07/09									Xienwolf	**/
-/**																								**/
-/**								Adds extra Barbarian Civilizations								**/
-/*************************************************************************************************/
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_UNOCCUPIED)
-				{
-					if (pTestPlot->isUnit())
-					{
-						bValid = false;
-					}
-				}
-			}
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_EVIL)
-				{
-					if (pTestPlot->getPlotCounter() <= GC.getDefineINT("EVIL_TILE_THRESHOLD"))
-					{
-						bValid = false;
-					}
-				}
-			}
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_ORC_ALLY)
-				{
-					if (pTestPlot->isOwned() && GET_TEAM(pTestPlot->getTeam()).isAtWar(ORC_TEAM))
-					{
-						bValid = false;
-					}
-				}
-			}
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_ANIMAL_ALLY)
-				{
-					if (pTestPlot->isOwned() && GET_TEAM(pTestPlot->getTeam()).isAtWar(ANIMAL_TEAM))
-					{
-						bValid = false;
-					}
-				}
-			}
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_DEMON_ALLY)
-				{
-					if (pTestPlot->isOwned() && GET_TEAM(pTestPlot->getTeam()).isAtWar(DEMON_TEAM))
-					{
-						bValid = false;
-					}
-				}
-			}
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_NOT_IMPROVED)
-				{
-					if (pTestPlot->getImprovementType() != NO_IMPROVEMENT)
-					{
-						bValid = false;
-					}
-				}
-			}
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_WATER)
-				{
-					if (!pTestPlot->isWater())
-					{
-						bValid = false;
-					}
-				}
-			}
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
-
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_LAND)
-				{
-					if (pTestPlot->isWater())
-					{
-						bValid = false;
-					}
-				}
-			}
-
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_PEAK)
-				{
-					if (!pTestPlot->isPeak())
-					{
-						bValid = false;
-					}
-				}
-			}
-
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_NOT_PEAK)
-				{
-					if (pTestPlot->isPeak())
-					{
-						bValid = false;
-					}
-				}
-			}
-
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_UNOWNED)
-				{
-					if (pTestPlot->isOwned())
-					{
-						bValid = false;
-					}
-				}
-			}
-
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_ADJACENT_UNOWNED)
-				{
-					if (pTestPlot->isAdjacentOwned())
-					{
-						bValid = false;
-					}
-				}
-			}
-
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_ADJACENT_LAND)
-				{
-					if (!(pTestPlot->isAdjacentToLand()))
-					{
-						bValid = false;
-					}
-				}
-			}
-
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_PASSIBLE)
-				{
-					if (pTestPlot->isImpassable())
-					{
-						bValid = false;
-					}
-				}
-			}
-
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_NOT_VISIBLE_TO_CIV)
-				{
-					if (pTestPlot->isVisibleToCivTeam())
-					{
-						bValid = false;
-					}
-				}
-			}
-
-			if (bValid)
-			{
-				if (iFlags & RANDPLOT_NOT_CITY)
-				{
-					if (pTestPlot->isCity())
-					{
-						bValid = false;
-					}
-				}
-			}
-
-			if (bValid)
-			{
-				pPlot = pTestPlot;
-				break;
 			}
 		}
 
-		iCount++;
+		if (iFlags & RANDPLOT_UNOCCUPIED)
+		{
+			if (pTestPlot->isUnit()) continue;
+		}
+		if (iFlags & RANDPLOT_EVIL)
+		{
+			if (pTestPlot->getPlotCounter() <= GC.getDefineINT("EVIL_TILE_THRESHOLD")) continue;
+		}
+		if (iFlags & RANDPLOT_ORC_ALLY)
+		{
+			if (pTestPlot->isOwned() && GET_TEAM(pTestPlot->getTeam()).isAtWar(ORC_TEAM)) continue;
+		}
+		if (iFlags & RANDPLOT_ANIMAL_ALLY)
+		{
+			if (pTestPlot->isOwned() && GET_TEAM(pTestPlot->getTeam()).isAtWar(ANIMAL_TEAM)) continue;
+		}
+		if (iFlags & RANDPLOT_DEMON_ALLY)
+		{
+			if (pTestPlot->isOwned() && GET_TEAM(pTestPlot->getTeam()).isAtWar(DEMON_TEAM)) continue;
+		}
+		if (iFlags & RANDPLOT_NOT_IMPROVED)
+		{
+			if (pTestPlot->getImprovementType() != NO_IMPROVEMENT) continue;
+		}
+		if (iFlags & RANDPLOT_WATER)
+		{
+			if (!pTestPlot->isWater()) continue;
+		}
+		if (iFlags & RANDPLOT_LAND)
+		{
+			if (pTestPlot->isWater()) continue;
+		}
+		if (iFlags & RANDPLOT_PEAK)
+		{
+			if (!pTestPlot->isPeak()) continue;
+		}
+		if (iFlags & RANDPLOT_NOT_PEAK)
+		{
+			if (pTestPlot->isPeak()) continue;
+		}
+		if (iFlags & RANDPLOT_UNOWNED)
+		{
+			if (pTestPlot->isOwned()) continue;
+		}
+		if (iFlags & RANDPLOT_ADJACENT_UNOWNED)
+		{
+			if (pTestPlot->isAdjacentOwned()) continue;
+		}
+		if (iFlags & RANDPLOT_ADJACENT_LAND)
+		{
+			if (!(pTestPlot->isAdjacentToLand())) continue;
+		}
+		if (iFlags & RANDPLOT_PASSIBLE)
+		{
+			if (pTestPlot->isImpassable()) continue;
+		}
+		if (iFlags & RANDPLOT_NOT_VISIBLE_TO_CIV)
+		{
+			// TODO: Visible barbarian on the tile bypasses this check
+			if (pTestPlot->isVisibleToCivTeam()) continue;
+		}
+		if (iFlags & RANDPLOT_NOT_CITY)
+		{
+			if (pTestPlot->isCity()) continue;
+		}
+
+		pPlot = pTestPlot;
+		break;
 	}
 
 	return pPlot;

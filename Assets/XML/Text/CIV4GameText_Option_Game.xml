@@ -470,6 +470,22 @@
 		<Spanish>Removes the Demon faction of the Barbarians from the game</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RANDOM_BARBARIANS</Tag>
+		<English>No Random Barbarians</English>
+		<French>No Random Barbarians</French>
+		<German>No Random Barbarians</German>
+		<Italian>No Random Barbarians</Italian>
+		<Spanish>No Random Barbarians</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_GAME_OPTION_NO_RANDOM_BARBARIANS_HELP</Tag>
+		<English>Non-hero Animals and Savages only spawn from lairs, events, and barbarian cities as applicable. This may reduce the variety of observed barbarians and animals.</English>
+		<French>Non-hero Animals and Savages only spawn from lairs, events, and barbarian cities as applicable. This may reduce the variety of observed barbarians and animals.</French>
+		<German>Non-hero Animals and Savages only spawn from lairs, events, and barbarian cities as applicable. This may reduce the variety of observed barbarians and animals.</German>
+		<Italian>Non-hero Animals and Savages only spawn from lairs, events, and barbarian cities as applicable. This may reduce the variety of observed barbarians and animals.</Italian>
+		<Spanish>Non-hero Animals and Savages only spawn from lairs, events, and barbarian cities as applicable. This may reduce the variety of observed barbarians and animals.</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_GAME_OPTION_NO_DUIN</Tag>
 		<English>No Duin</English>
 		<French>Sans Duin</French>
