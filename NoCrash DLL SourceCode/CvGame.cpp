@@ -11135,7 +11135,7 @@ void CvGame::createBarbarianUnits()
 	int iNeededBarbs, iTargetBarbs, iValue, iBestValue, iLoop, iI, iJ, iPreference, iFlags;
 	bool bAlwaysSpawn;
 
-	if (isOption(GAMEOPTION_NO_BARBARIANS) || isOption(GAMEOPTION_NO_RANDOM_BARBARIANS))
+	if (isOption(GAMEOPTION_NO_BARBARIANS))
 	{
 		return;
 	}
@@ -11308,9 +11308,10 @@ int CvGame::calcTargetBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes eP
 bool CvGame::isSpawnGroupValid(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, TeamTypes eTeam)
 {
 	if (GC.getSpawnGroupInfo(eSpawnGroup).isNeverSpawn())
-	{
 		return false;
-	}
+
+	if (isOption(GAMEOPTION_NO_RANDOM_BARBARIANS) && !GC.getSpawnGroupInfo(eSpawnGroup).isAlwaysSpawn())
+		return false;
 
 	if (pPlot->isWater() && !GC.getSpawnGroupInfo(eSpawnGroup).isNaval())
 	{

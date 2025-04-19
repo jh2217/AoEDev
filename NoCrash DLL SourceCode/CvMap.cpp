@@ -702,6 +702,7 @@ CvPlot* CvMap::syncRandPlot(int iFlags, int iArea, int iMinUnitDistance, int iTi
 		}
 		if (iFlags & RANDPLOT_NOT_VISIBLE_TO_CIV)
 		{
+			// TODO: Visible barbarian on the tile bypasses this check
 			if (pTestPlot->isVisibleToCivTeam()) continue;
 		}
 		if (iFlags & RANDPLOT_NOT_CITY)
