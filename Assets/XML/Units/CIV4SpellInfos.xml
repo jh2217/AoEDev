@@ -9707,6 +9707,7 @@
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
 			<Help>TXT_KEY_SPELL_SLAVE_TRADE_BUY_HELP</Help>
 			<bInBordersOnly>1</bInBordersOnly>
+			<bPrereqSlaveTrade>1</bPrereqSlaveTrade>
 			<bInCityOnly>1</bInCityOnly>
 			<bHasCasted>1</bHasCasted>
 			<bAbility>1</bAbility>
@@ -9725,6 +9726,7 @@
 			<Help>TXT_KEY_SPELL_SLAVE_TRADE_BUY_HELP</Help>
 			<CivilizationPrereq>CIVILIZATION_MEKARA_V2</CivilizationPrereq>
 			<bInBordersOnly>1</bInBordersOnly>
+			<bPrereqSlaveTrade>1</bPrereqSlaveTrade>
 			<bInCityOnly>1</bInCityOnly>
 			<bHasCasted>1</bHasCasted>
 			<bAbility>1</bAbility>

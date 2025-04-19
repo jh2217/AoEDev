@@ -34801,8 +34801,8 @@
 		<PromotionInfo>		<!-- Overseer, Psionic Link -->
 			<Type>PROMOTION_SLUGA_PSIONIC_LINK_V2</Type>
 			<Description>TXT_KEY_PROMOTION_SLUGA_PSIONIC_LINK</Description>
-			<fCasterXPRate>1.0</fCasterXPRate>
-			<bStackEffect>1</bStackEffect>
+			<iFreeXPPerTurn>0.2</iFreeXPPerTurn>
+            <fFreeXPCap>100</fFreeXPCap>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_OVERSEER_V2</PrereqUnit>
 				<PrereqUnit>UNIT_COMBAT_OVERSEER_V2</PrereqUnit>
@@ -35700,7 +35700,7 @@
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Scorch MEKARA -->                                      <!-- SLUGA TERRAFORM SPELLS -->
 			<Type>PROMOTION_OVERSEER_SCORCH_V2</Type>
-			<Description>TXT_KEY_SPELL_SCORCH</Description>
+			<Description>TXT_KEY_SPELL_SCORCH_MEKARA_V2</Description>
 			<TechPrereq>TECH_DIVINATION</TechPrereq>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<bAutoAcquire>1</bAutoAcquire>
@@ -35728,7 +35728,7 @@
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Scorch, Unit MEKARA -->										
 			<Type>PROMOTION_OVERSEER_SCORCH_UNIT_V2</Type>
-			<Description>TXT_KEY_PROMOTION_OVERSEER_BLOOM_CASTING</Description>
+			<Description>TXT_KEY_SPELL_SCORCH_MEKARA_V2</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
@@ -35742,7 +35742,7 @@
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Spring -->
 			<Type>PROMOTION_OVERSEER_SPRING_V2</Type>
-			<Description>TXT_KEY_SPELL_SPRING</Description>
+			<Description>TXT_KEY_SPELL_SPRING_MEKARA_V2</Description>
 			<TechPrereq>TECH_ELEMENTALISM</TechPrereq>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<bAutoAcquire>1</bAutoAcquire>
@@ -35770,7 +35770,7 @@
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Spring, Unit -->										
 			<Type>PROMOTION_OVERSEER_SPRING_UNIT_V2</Type>
-			<Description>TXT_KEY_PROMOTION_OVERSEER_BLOOM_CASTING</Description>
+			<Description>TXT_KEY_SPELL_SPRING_MEKARA_V2</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
@@ -35784,7 +35784,7 @@
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Bloom -->
 			<Type>PROMOTION_OVERSEER_BLOOM_V2</Type>
-			<Description>TXT_KEY_SPELL_BLOOM</Description>
+			<Description>TXT_KEY_SPELL_BLOOM_MEKARA_V2</Description>
 			<TechPrereq>TECH_ALTERATION</TechPrereq>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<bAutoAcquire>1</bAutoAcquire>
@@ -35812,7 +35812,7 @@
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Bloom, Unit -->										
 			<Type>PROMOTION_OVERSEER_BLOOM_UNIT_V2</Type>
-			<Description>TXT_KEY_PROMOTION_OVERSEER_BLOOM_CASTING</Description>
+			<Description>TXT_KEY_SPELL_BLOOM_MEKARA_V2</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<bAutoAcquire>1</bAutoAcquire>
 			<bMustMaintain>1</bMustMaintain>
