@@ -1189,32 +1189,20 @@ void CvPlot::doImprovementUpgrade()
 
 void CvPlot::updateCulture(bool bBumpUnits, bool bUpdatePlotGroups)
 {
-	if (!isCity())
+	if (isCity())
+		return;
+
+	// Improvements will sometimes overwrite cultural border : Improvements Mods expanded by Ahwaric	21.09.09
+	// Original: setOwner(calculateCulturalOwner(), bBumpUnits, bUpdatePlotGroups);
+	if (getImprovementType() != NO_IMPROVEMENT
+	 && getImprovementOwner() != NO_PLAYER
+	 && GC.getImprovementInfo(getImprovementType()).isOutsideBorders())
 	{
-/*************************************************************************************************/
-/**	Improvements Mods	Improvements will sometimes overwrite cultural border	expanded by Ahwaric	21.09.09	**/
-/*************************************************************************************************/
-/**				---- Start Original Code ----					**
+		setOwner(getImprovementOwner(), bBumpUnits, bUpdatePlotGroups);
+	}
+	else
+	{
 		setOwner(calculateCulturalOwner(), bBumpUnits, bUpdatePlotGroups);
-/**				----  End Original Code  ----					**/
-		if (getImprovementOwner() != NO_PLAYER && getImprovementType() != NO_IMPROVEMENT)
-		{
-			if (GC.getImprovementInfo(getImprovementType()).isOutsideBorders())
-			{
-				setOwner(getImprovementOwner(), bBumpUnits, bUpdatePlotGroups);
-			}
-			else
-			{
-				setOwner(calculateCulturalOwner(), bBumpUnits, bUpdatePlotGroups);
-			}
-		}
-		else
-		{
-			setOwner(calculateCulturalOwner(), bBumpUnits, bUpdatePlotGroups);
-		}
-/*************************************************************************************************/
-/**	Improvements Mods	END								**/
-/*************************************************************************************************/
 	}
 }
 
@@ -9013,6 +9001,7 @@ PlayerTypes CvPlot::getImprovementOwner() const
 
 
 void CvPlot::setImprovementOwner(PlayerTypes eNewValue)
+// Todo: Make culture control applied as a result of this call
 {
 	if (getImprovementOwner() != eNewValue)
 	{

@@ -44,9 +44,9 @@
 			</LairUpgradeTechs>
 			<bFort>0</bFort> <!-- 1 means this is can be claimed with a fort commander -->
 			<bActsAsCity>0</bActsAsCity> <!-- 1 means ships can sail through, possibly airlife to/from? Treated as city in many ways. -->
-			<bOutsideBorders>0</bOutsideBorders> <!-- 1 means the improvement gets automatically owned by whichever is set in SpawnUnitCiv, and upgrades by itself if unowned -->
+			<bOutsideBorders>0</bOutsideBorders> <!-- 1 means the improvement gets automatically owned by whichever is set in SpawnUnitCiv, and upgrades by itself if unowned. Claiming via bFort overrides this IF the fort is claimed -->
 			<bSpawnOnlyForOwner>0</bSpawnOnlyForOwner> <!-- 1 means: Units and groups spawned from here will only go to SpawnUnitCiv, IF the current owner is not at war with SpawnUnitCiv. And: -->
-			<SpawnUnitCiv></SpawnUnitCiv> <!-- If SpawnUnitCiv is not set, spawns will go to whoever owns the tile. See bSpawnOnlyForOwner and bOutsideBorders -->
+			<SpawnUnitCiv></SpawnUnitCiv> <!-- If SpawnUnitCiv is not set, spawns will go to whoever owns the tile. See bSpawnOnlyForOwner and bOutsideBorders. If multiple players of same civ, goes to who is first in list -->
 			<SpawnUnitType></SpawnUnitType> <!-- What singular unit will spawn if conditions are met -->
 			<iSpawnAtOnceLimit>0</iSpawnAtOnceLimit> <!-- Special: A limit of 0 means it will never stop spawning. A limit of 1 means only 1 unit (immediate or regular spawn, not counting groups) can be spawned at a time, etc -->
 			<iSpawnUnitChancePercentMod>0</iSpawnUnitChancePercentMod> <!-- Percentage multiplier (0 means no change, -99 will spawn at 1% of base rate, 200 will spawn 2x as often, etc). Baseline is iLairSpawnChance in GameSpeedInfo -->
