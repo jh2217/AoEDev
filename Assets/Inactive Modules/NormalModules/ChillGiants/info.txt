@@ -10,10 +10,10 @@ The360MlgNoscoper
 Significantly reduces Staedding spawn rate
 
 [desc]
-Yes
+0.4 : 0.01% spawnrate of staedding at gamestart instead of 0%; removed bForceOverwrite
 
 [version]
-0.3
+0.4
 
 
 ;[dependency]

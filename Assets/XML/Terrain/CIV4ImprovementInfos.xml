@@ -4007,6 +4007,7 @@
 			<ImprovementUpgrade>IMPROVEMENT_STAEDDING_OLD</ImprovementUpgrade>
 			<iAppearanceProbability>50</iAppearanceProbability>
 			<SpawnUnitType>UNIT_HUSCARL</SpawnUnitType>
+			<iSpawnUnitChancePercentMod>25</iSpawnUnitChancePercentMod>
 			<ImmediateSpawnUnitType>UNIT_HILL_GIANT</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
 			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
@@ -4099,6 +4100,7 @@
 			<SpawnUnitType>UNIT_HILL_GIANT</SpawnUnitType>
 			<ImmediateSpawnUnitType>UNIT_JARL</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
+			<iSpawnUnitChancePercentMod>25</iSpawnUnitChancePercentMod>
 			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
 			<bExplorable>1</bExplorable>
 			<iLairTier>2</iLairTier>
@@ -4205,6 +4207,7 @@
 				</TerrainMakesValid>
 			</TerrainMakesValids>
 			<SpawnGroupType>SPAWN_GROUP_SKALD</SpawnGroupType>
+			<iSpawnGroupChancePercentMod>25</iSpawnGroupChancePercentMod>
 			<ImmediateSpawnUnitType>UNIT_VANIR</ImmediateSpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_ORC</SpawnUnitCiv>
 			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
