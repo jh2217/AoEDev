@@ -2646,14 +2646,64 @@
 			<Civilopedia>TXT_KEY_TRAIT_HUMANIST1_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_HUMANIST1_SHORT</ShortDescription>
 			<Help>TXT_KEY_TRAIT_HUMANIST1_HELP</Help>
+			<CommerceModifiers>
+				<iCommerce>-15</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitType>UNIT_CUSTODIAN</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_LONGBOWMAN</UnitClassType>
+					<UnitType>UNIT_SHARPSHOOTER</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
+					<UnitType>UNIT_SKIRMISHER</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_MILITIA</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
 		</TraitInfo>
-		<TraitInfo>		<!-- Caretaker -->
+		<TraitInfo>		<!-- Caretaker I --> <!-- Author: wuxiangjinxing, NewTraits -->
 			<Type>TRAIT_ZARIA_INFO</Type>
-			<TraitClass>TRAITCLASS_PERSONALITY</TraitClass>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
 			<Description>TXT_KEY_TRAIT_ZARIA_INFO</Description>
 			<Civilopedia>TXT_KEY_TRAIT_ZARIA_INFO_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_ZARIA_INFO_SHORT</ShortDescription>
 			<Help>TXT_KEY_TRAIT_ZARIA_INFO_HELP</Help>
+			<NextTrait>TRAIT_ZARIA_INFO2</NextTrait>
+			<iLevel>1</iLevel>
+			<iUpkeepModifier>10</iUpkeepModifier>
 			<iHealth>6</iHealth>
 			<FreePromotions>
 				<FreePromotion>
@@ -2675,6 +2725,88 @@
 					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
 				</FreePromotionUnitCombat>
 			</FreePromotionUnitCombats>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_AGENT</UnitClassType>
+					<UnitType>UNIT_AGENT</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_ADJUNCT</UnitClassType>
+					<UnitType>UNIT_ADJUNCT</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_CARETAKER_MATRON</UnitClassType>
+					<UnitType>UNIT_CARETAKER_MATRON</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
+		</TraitInfo>
+		<TraitInfo>		<!-- Caretaker II -->
+			<Type>TRAIT_ZARIA_INFO2</Type>
+			<Description>TXT_KEY_TRAIT_ZARIA_INFO</Description>
+			<Civilopedia>TXT_KEY_TRAIT_ZARIA_INFO_PEDIA</Civilopedia>
+			<ShortDescription>TXT_KEY_TRAIT_ZARIA_INFO_SHORT</ShortDescription>
+			<Help>TXT_KEY_TRAIT_ZARIA_INFO2_HELP</Help>
+			<NextTrait>TRAIT_ZARIA_INFO3</NextTrait>
+			<iLevel>2</iLevel>
+			<iMinRequiredPoints>300</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<iHappiness>2</iHappiness>
+			<FreeBonuses>
+				<FreeBonus>
+					<BonusType>BONUS_MANA_MIND</BonusType>
+					<bFreeBonus>1</bFreeBonus>
+				</FreeBonus>			
+			</FreeBonuses>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_MIND1</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_MIND2</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>			
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>			
+		</TraitInfo>
+		<TraitInfo>		<!-- Caretaker III-->
+			<Type>TRAIT_ZARIA_INFO3</Type>
+			<Description>TXT_KEY_TRAIT_ZARIA_INFO</Description>
+			<Civilopedia>TXT_KEY_TRAIT_ZARIA_INFO_PEDIA</Civilopedia>
+			<ShortDescription>TXT_KEY_TRAIT_ZARIA_INFO_SHORT</ShortDescription>
+			<Help>TXT_KEY_TRAIT_ZARIA_INFO3_HELP</Help>
+			<iLevel>3</iLevel>
+			<iMinRequiredPoints>3000</iMinRequiredPoints>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<FreeSpecialistsStateReligion>
+				<FreeSpecialistStateReligion>
+					<SpecialistType>SPECIALIST_HEALER</SpecialistType>
+					<bFreeSpecialistStateReligion>1</bFreeSpecialistStateReligion>
+				</FreeSpecialistStateReligion>
+			</FreeSpecialistsStateReligion>			
+			<SpecialistHappinessChanges>
+				<SpecialistHappinessChange>
+					<SpecialistType>SPECIALIST_HEALER</SpecialistType>
+					<iHappiness>1</iHappiness>
+				</SpecialistHappinessChange>
+			</SpecialistHappinessChanges>			
+			<UnitClassPlayerInstancesChanges>
+				<UnitClassPlayerInstancesChange>
+					<UnitClassType>UNITCLASS_ADJUNCT</UnitClassType>
+					<iPlayerInstancesChange>4</iPlayerInstancesChange>
+				</UnitClassPlayerInstancesChange>
+			</UnitClassPlayerInstancesChanges>
+			<UnitClassPlayerInstancesChanges>
+				<UnitClassPlayerInstancesChange>
+					<UnitClassType>UNITCLASS_CARETAKER_MATRON</UnitClassType>
+					<iPlayerInstancesChange>4</iPlayerInstancesChange>
+				</UnitClassPlayerInstancesChange>
+			</UnitClassPlayerInstancesChanges>			
 		</TraitInfo>
 		<TraitInfo>		<!-- Master of the Mekara -->
 			<Type>TRAIT_JAMAL_INFO</Type>
@@ -2683,6 +2815,36 @@
 			<Civilopedia>TXT_KEY_TRAIT_JAMAL_INFO_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_JAMAL_INFO_SHORT</ShortDescription>
 			<Help>TXT_KEY_TRAIT_JAMAL_INFO_HELP</Help>
+			<ExtraUnitClasses>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_KARAS_V2</UnitClassType>
+					<UnitType>UNIT_KARAS_V2</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_SLUGA_COMMANDER_V2</UnitClassType>
+					<UnitType>UNIT_SLUGA_COMMANDER_V2</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_WAR_SLUGA_V2</UnitClassType>
+					<UnitType>UNIT_WAR_SLUGA_V2</UnitType>
+				</ExtraUnitClass>
+				<ExtraUnitClass>
+					<UnitClassType>UNITCLASS_COMBAT_OVERSEER_V2</UnitClassType>
+					<UnitType>UNIT_COMBAT_OVERSEER_V2</UnitType>
+				</ExtraUnitClass>
+			</ExtraUnitClasses>	
+						<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_COM_OVERSEER_V2</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
 		</TraitInfo>
 		<TraitInfo>		<!-- Magical -->
 			<Type>TRAIT_MAGICAL</Type>

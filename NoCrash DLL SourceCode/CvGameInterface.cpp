@@ -288,7 +288,7 @@ void CvGame::updateColoredPlots()
 		}
 		for (int iI = 0; iI < GC.getNumSpellInfos(); iI++)
 		{	
-			int iSpellRange = pHeadSelectedUnit->getSpellExtraRange() + GC.getSpellInfo((SpellTypes)iI).getRange();
+			int iSpellRange = GC.getSpellInfo((SpellTypes)iI).getTargetRange();//pHeadSelectedUnit->getSpellExtraRange() + GC.getSpellInfo((SpellTypes)iI).getRange();
 			iSpellRange = std::max(iSpellRange, 1);
 			if (GC.getSpellInfo((SpellTypes)iI).isTargeted())// && pHeadSelectedUnit->canCast(iI, false))
 			{

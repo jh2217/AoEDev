@@ -229,6 +229,7 @@ public:
 	int getNumFeatureInfos() const { return GC.getNumFeatureInfos(); }
 	int getNumImprovementInfos() const { return GC.getNumImprovementInfos(); }
 	int getNumPlotEffectInfos() const { return GC.getNumPlotEffectInfos(); }
+	int getNumCityClassInfos() const { return GC.getNumCityClassInfos(); }
 	int getNumGoodyInfos() const { return GC.getNumGoodyInfos(); }
 	int getNumBuildInfos() const { return GC.getNumBuildInfos(); }
 	int getNumHandicapInfos() const { return GC.getNumHandicapInfos(); }

@@ -596,7 +596,8 @@ enum WidgetTypes					// Exposed to Python
 	//Crime
 	WIDGET_HELP_CRIME,
 	WIDGET_PEDIA_JUMP_TO_PLOT_EFFECT,
-
+	WIDGET_PEDIA_JUMP_TO_CITYCLASS,
+	WIDGET_PEDIA_JUMP_TO_ROUTE,
 #ifdef _USRDLL
 	NUM_WIDGET_TYPES
 #endif
@@ -3031,6 +3032,7 @@ enum CivilopediaPageTypes		// Exposed to Python
 	CIVILOPEDIA_PAGE_TERRAIN,
 	CIVILOPEDIA_PAGE_FEATURE,
 	CIVILOPEDIA_PAGE_PLOT_EFFECT,
+	CIVILOPEDIA_PAGE_ROUTE,
 
 /*************************************************************************************************/
 /**	NewPedia								09/27/09								Xienwolf	**/
@@ -3075,6 +3077,7 @@ enum CivilopediaPageTypes		// Exposed to Python
 	CIVILOPEDIA_PAGE_UNIT_GROUP,
 	CIVILOPEDIA_PAGE_CIV,
 	CIVILOPEDIA_PAGE_LEADER,
+	CIVILOPEDIA_PAGE_CITYCLASS,
 /*************************************************************************************************/
 /**	NewPedia								09/27/09								Xienwolf	**/
 /**																								**/

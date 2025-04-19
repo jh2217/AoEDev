@@ -8169,10 +8169,6 @@
 					<UnitType>UNIT_CORGAYLE</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_KARAS_V2</UnitClassType>
-					<UnitType>UNIT_KARAS_V2</UnitType>
-				</Unit>
-				<Unit>
 					<UnitClassType>UNITCLASS_ADVENTURER</UnitClassType>
 					<UnitType>UNIT_ASPIRANT</UnitType>
 				</Unit>
@@ -8181,60 +8177,24 @@
 					<UnitType>UNIT_OVERSEER_V2</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_SLUGA_V2</UnitClassType>
-					<UnitType>UNIT_SLUGA_V2</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_BATTLE_SLUGA_V2</UnitClassType>
-					<UnitType>UNIT_BATTLE_SLUGA_V2</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_WAR_SLUGA_V2</UnitClassType>
-					<UnitType>UNIT_WAR_SLUGA_V2</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_BEHEMOTH_SLUGA_V2</UnitClassType>
-					<UnitType>UNIT_BEHEMOTH_SLUGA_V2</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_COMBAT_OVERSEER_V2</UnitClassType>
-					<UnitType>UNIT_COMBAT_OVERSEER_V2</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_SLUGA_COMMANDER_V2</UnitClassType>
-					<UnitType>UNIT_SLUGA_COMMANDER_V2</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_FORT_COMMANDER</UnitClassType>
-					<UnitType>UNIT_TOWER_MAGE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
-					<UnitType>UNIT_CONSCRIPT</UnitType>
+					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
+					<UnitType>UNIT_MOUNTED_MILITIA</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
 					<UnitType>UNIT_MILITIA</UnitType>
 				</Unit>
 				<Unit>
+					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+					<UnitType>UNIT_CONSCRIPT</UnitType>
+				</Unit>
+				<Unit>
 					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 					<UnitType>UNIT_MILITIA_CROSSBOWMAN</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_CHAMPION</UnitClassType>
-					<UnitType>UNIT_CUSTODIAN</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_LONGBOWMAN</UnitClassType>
-					<UnitType>UNIT_SHARPSHOOTER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-					<UnitType>UNIT_MOUNTED_MILITIA</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
-					<UnitType>UNIT_SKIRMISHER</UnitType>
+					<UnitClassType>UNITCLASS_FORT_COMMANDER</UnitClassType>
+					<UnitType>UNIT_TOWER_MAGE</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_CHARIOT</UnitClassType>
@@ -8255,18 +8215,6 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_GRIGORI_MEDIC</UnitClassType>
 					<UnitType>UNIT_CARETAKER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ADJUNCT</UnitClassType>
-					<UnitType>UNIT_ADJUNCT</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_AGENT</UnitClassType>
-					<UnitType>UNIT_AGENT</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_CARETAKER_MATRON</UnitClassType>
-					<UnitType>UNIT_CARETAKER_MATRON</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_BERSERKER</UnitClassType>

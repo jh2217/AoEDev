@@ -93,6 +93,8 @@ public:
 	void doPediaTerrainJump(CvWidgetDataStruct &widgetDataStruct);
 	void doPediaFeatureJump(CvWidgetDataStruct &widgetDataStruct);
 	void doPediaPlotEffectJump(CvWidgetDataStruct& widgetDataStruct);
+	void doPediaCityClassJump(CvWidgetDataStruct& widgetDataStruct);
+	void doPediaRouteJump(CvWidgetDataStruct& widgetDataStruct);
 	void doPediaMain(CvWidgetDataStruct &widgetDataStruct);
 	void doPediaPromotionJump(CvWidgetDataStruct &widgetDataStruct);
 
@@ -191,6 +193,8 @@ public:
 	void parseTerrainHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
 	void parseFeatureHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
 	void parsePlotEffectHelp(CvWidgetDataStruct& widgetDataStruct, CvWStringBuffer& szBuffer);
+	void parseCityClassHelp(CvWidgetDataStruct& widgetDataStruct, CvWStringBuffer& szBuffer);
+	void parseRouteHelp(CvWidgetDataStruct& widgetDataStruct, CvWStringBuffer& szBuffer);
 	void parseTechEntryHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
 	void parseTechPrereqHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer);
 	void parseTechTreePrereq(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer, bool bTechTreeInfo);

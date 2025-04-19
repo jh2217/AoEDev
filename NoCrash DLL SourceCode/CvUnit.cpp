@@ -23527,7 +23527,7 @@ bool CvUnit::canCastAnyPlot(int spell, bool bTestVisible)
 	if (GC.getSpellInfo((SpellTypes)spell).isTargeted())
 	{
 		bool bValid = false;
-		int iRange = GC.getSpellInfo((SpellTypes)spell).getRange() + getSpellExtraRange();
+		int iRange = GC.getSpellInfo((SpellTypes)spell).getTargetRange();// +getSpellExtraRange();
 		int iDX, iDY;
 		for (iDX = -(iRange); iDX <= iRange; iDX++)
 		{
@@ -23559,11 +23559,23 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 	CLLNode<IDInfo>* pUnitNode;
 	bool bValid = false;
 
+	/*************************************************************************************************/
+	/**	City Actions							03/28/10								Grey Fox	**/
+	/*************************************************************************************************/
+	if (GC.getSpellInfo(eSpell).isCityAction())
+	{
+		return false;
+	}
+	/*************************************************************************************************/
+	/**	END																							**/
+	/*************************************************************************************************/
+
+
 	//TargetedSpell 0924 blackimp
 	if (GC.getSpellInfo(eSpell).isTargeted() && pTargetPlot==NULL)
 	{
 		bValid = false;
-		int iRange = GC.getSpellInfo(eSpell).getRange() + getSpellExtraRange();
+		int iRange = GC.getSpellInfo(eSpell).getTargetRange();// + getSpellExtraRange();
 		int iDX, iDY;
 		for (iDX = -(iRange); iDX <= iRange; iDX++)
 		{
@@ -23588,7 +23600,7 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 	{
 		pTargetPlot = plot();
 	}
-	if (plotDistance(plot()->getX_INLINE(), plot()->getY_INLINE(), pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE()) > GC.getSpellInfo((SpellTypes)spell).getRange()+getSpellExtraRange())
+	if (plotDistance(plot()->getX_INLINE(), plot()->getY_INLINE(), pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE()) > GC.getSpellInfo((SpellTypes)spell).getTargetRange())
 	{
 		return false;
 	}
@@ -23604,16 +23616,10 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 	{
 		return false;
 	}
-/*************************************************************************************************/
-/**	City Actions							03/28/10								Grey Fox	**/
-/*************************************************************************************************/
-	if (GC.getSpellInfo(eSpell).isCityAction())
+	if (!canCastTargetPlot(eSpell, bTestVisible, pTargetPlot))
 	{
 		return false;
 	}
-/*************************************************************************************************/
-/**	END																							**/
-/*************************************************************************************************/
 
 /*************************************************************************************************/
 /**	Orbis Held units can cast (Acheron's meteors and roar!)		Ahwaric 20.05.2009	**/
@@ -23783,17 +23789,6 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 			return false;
 		}
 	}
-	if (GC.getSpellInfo(eSpell).getCorporationTargetPrereq() != NO_CORPORATION)
-	{
-		if (!pTargetPlot->isCity())
-		{
-			return false;
-		}
-		if (!pTargetPlot->getPlotCity()->isHasCorporation((CorporationTypes)GC.getSpellInfo(eSpell).getCorporationTargetPrereq()))
-		{
-			return false;
-		}
-	}
 	if (GC.getSpellInfo(eSpell).getImprovementPrereq() != NO_IMPROVEMENT)
 	{
 		if (pPlot->getImprovementType() != GC.getSpellInfo(eSpell).getImprovementPrereq())
@@ -23801,23 +23796,9 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 			return false;
 		}
 	}
-	if (GC.getSpellInfo(eSpell).getImprovementTargetPrereq() != NO_IMPROVEMENT)
-	{
-		if (pTargetPlot->getImprovementType() != GC.getSpellInfo(eSpell).getImprovementTargetPrereq())
-		{
-			return false;
-		}
-	}
 	if (GC.getSpellInfo(eSpell).getPlotEffectPrereq() != NO_PLOT_EFFECT)
 	{
 		if (pPlot->getPlotEffectType() != GC.getSpellInfo(eSpell).getPlotEffectPrereq())
-		{
-			return false;
-		}
-	}
-	if (GC.getSpellInfo(eSpell).getPlotEffectTargetPrereq() != NO_PLOT_EFFECT)
-	{
-		if (pTargetPlot->getPlotEffectType() != GC.getSpellInfo(eSpell).getPlotEffectTargetPrereq())
 		{
 			return false;
 		}
@@ -24106,25 +24087,6 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 			return false;
 		}
 	}
-	if (GC.getSpellInfo(eSpell).getPromotionInStackTargetPrereq() != NO_PROMOTION)
-	{
-		bValid = false;
-		pUnitNode = pTargetPlot->headUnitNode();
-		while (pUnitNode != NULL)
-		{
-			pLoopUnit = ::getUnit(pUnitNode->m_data);
-			pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-			if (pLoopUnit->isHasPromotion((PromotionTypes)GC.getSpellInfo(eSpell).getPromotionInStackTargetPrereq()))
-			{
-				bValid = true;
-				break;
-			}
-		}
-		if (bValid == false)
-		{
-			return false;
-		}
-	}
 	if (GC.getSpellInfo(eSpell).getUnitInStackPrereq() != NO_UNIT)
 	{
 		if (getUnitType() == GC.getSpellInfo(eSpell).getUnitInStackPrereq())
@@ -24142,25 +24104,6 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 					bValid = true;
 					break;
 				}
-			}
-		}
-		if (bValid == false)
-		{
-			return false;
-		}
-	}
-	if (GC.getSpellInfo(eSpell).getUnitInStackTargetPrereq() != NO_UNIT)
-	{
-		bValid = false;
-		pUnitNode = pTargetPlot->headUnitNode();
-		while (pUnitNode != NULL)
-		{
-			pLoopUnit = ::getUnit(pUnitNode->m_data);
-			pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-			if (pLoopUnit->getUnitType() == (UnitTypes)GC.getSpellInfo(eSpell).getUnitInStackTargetPrereq())
-			{
-				bValid = true;
-				break;
 			}
 		}
 		if (bValid == false)
@@ -24204,16 +24147,6 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 			}
 		}
 	}
-	if (GC.getSpellInfo(eSpell).getFeatureOrTargetPrereq1() != NO_FEATURE)
-	{
-		if (pTargetPlot->getFeatureType() != GC.getSpellInfo(eSpell).getFeatureOrTargetPrereq1())
-		{
-			if (GC.getSpellInfo(eSpell).getFeatureOrTargetPrereq2() == NO_FEATURE || pTargetPlot->getFeatureType() != GC.getSpellInfo(eSpell).getFeatureOrTargetPrereq2())
-			{
-				return false;
-			}
-		}
-	}
 	if (!GC.getSpellInfo(eSpell).isIgnoreHasCasted())
 	{
 		if (isHasCasted())
@@ -24228,13 +24161,6 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 			return false;
 		}
 	}
-	if (GC.getSpellInfo(eSpell).isTargetAdjacentToWaterOnly())
-	{
-		if (!pTargetPlot->isAdjacentToWater())
-		{
-			return false;
-		}
-	}
 	if (GC.getSpellInfo(eSpell).isInBordersOnly())
 	{
 		if (pPlot->getOwner() != getOwner())
@@ -24242,23 +24168,9 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 			return false;
 		}
 	}
-	if (GC.getSpellInfo(eSpell).isTargetInBordersOnly())
-	{
-		if (pTargetPlot->getOwner() != getOwner())
-		{
-			return false;
-		}
-	}
 	if (GC.getSpellInfo(eSpell).isInCityOnly())
 	{
 		if (!pPlot->isCity())
-		{
-			return false;
-		}
-	}
-	if (GC.getSpellInfo(eSpell).isTargetInCityOnly())
-	{
-		if (!pTargetPlot->isCity())
 		{
 			return false;
 		}
@@ -24499,6 +24411,111 @@ bool CvUnit::canCast(int spell, bool bTestVisible, CvPlot* pTargetPlot)
 	return false;
 }
 
+bool CvUnit::canCastTargetPlot(int spell, bool bTestVisible, CvPlot* pTargetPlot) const
+{
+	SpellTypes eSpell = (SpellTypes)spell;
+	CvUnit* pLoopUnit;
+	CLLNode<IDInfo>* pUnitNode;
+	bool bValid = false;
+
+	if (GC.getSpellInfo(eSpell).getCorporationTargetPrereq() != NO_CORPORATION)
+	{
+		if (!pTargetPlot->isCity())
+		{
+			return false;
+		}
+		if (!pTargetPlot->getPlotCity()->isHasCorporation((CorporationTypes)GC.getSpellInfo(eSpell).getCorporationTargetPrereq()))
+		{
+			return false;
+		}
+	}
+	if (GC.getSpellInfo(eSpell).getImprovementTargetPrereq() != NO_IMPROVEMENT)
+	{
+		if (pTargetPlot->getImprovementType() != GC.getSpellInfo(eSpell).getImprovementTargetPrereq())
+		{
+			return false;
+		}
+	}
+	if (GC.getSpellInfo(eSpell).getPlotEffectTargetPrereq() != NO_PLOT_EFFECT)
+	{
+		if (pTargetPlot->getPlotEffectType() != GC.getSpellInfo(eSpell).getPlotEffectTargetPrereq())
+		{
+			return false;
+		}
+	}
+
+	if (GC.getSpellInfo(eSpell).getPromotionInStackTargetPrereq() != NO_PROMOTION)
+	{
+		bValid = false;
+		pUnitNode = pTargetPlot->headUnitNode();
+		while (pUnitNode != NULL)
+		{
+			pLoopUnit = ::getUnit(pUnitNode->m_data);
+			pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
+			if (pLoopUnit->isHasPromotion((PromotionTypes)GC.getSpellInfo(eSpell).getPromotionInStackTargetPrereq()))
+			{
+				bValid = true;
+				break;
+			}
+		}
+		if (bValid == false)
+		{
+			return false;
+		}
+	}
+	if (GC.getSpellInfo(eSpell).getUnitInStackTargetPrereq() != NO_UNIT)
+	{
+		bValid = false;
+		pUnitNode = pTargetPlot->headUnitNode();
+		while (pUnitNode != NULL)
+		{
+			pLoopUnit = ::getUnit(pUnitNode->m_data);
+			pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
+			if (pLoopUnit->getUnitType() == (UnitTypes)GC.getSpellInfo(eSpell).getUnitInStackTargetPrereq())
+			{
+				bValid = true;
+				break;
+			}
+		}
+		if (bValid == false)
+		{
+			return false;
+		}
+	}
+	if (GC.getSpellInfo(eSpell).getFeatureOrTargetPrereq1() != NO_FEATURE)
+	{
+		if (pTargetPlot->getFeatureType() != GC.getSpellInfo(eSpell).getFeatureOrTargetPrereq1())
+		{
+			if (GC.getSpellInfo(eSpell).getFeatureOrTargetPrereq2() == NO_FEATURE || pTargetPlot->getFeatureType() != GC.getSpellInfo(eSpell).getFeatureOrTargetPrereq2())
+			{
+				return false;
+			}
+		}
+	}
+	if (GC.getSpellInfo(eSpell).isTargetAdjacentToWaterOnly())
+	{
+		if (!pTargetPlot->isAdjacentToWater())
+		{
+			return false;
+		}
+	}
+	if (GC.getSpellInfo(eSpell).isTargetInBordersOnly())
+	{
+		if (pTargetPlot->getOwner() != getOwner())
+		{
+			return false;
+		}
+	}
+	if (GC.getSpellInfo(eSpell).isTargetInCityOnly())
+	{
+		if (!pTargetPlot->isCity())
+		{
+			return false;
+		}
+	}
+
+	return true;
+}
 bool CvUnit::canCreateUnit(int spell, CvPlot* pTargetPlot) const
 {
 	if (getDuration() > 0) // to prevent summons summoning spinlocks
@@ -24581,6 +24598,10 @@ bool CvUnit::canSummonMaster(int spell)
 /*************************************************************************************************/
 bool CvUnit::canAddPromotion(int spell, CvPlot* pTargetPlot)
 {
+	if (pTargetPlot == NULL)
+	{
+		pTargetPlot = plot();
+	}
 	for (int promidx = 0; promidx < GC.getSpellInfo((SpellTypes)spell).getNumAddPromotions(); promidx++)
 	{
 		PromotionTypes ePromotion1 = (PromotionTypes)GC.getSpellInfo((SpellTypes)spell).getAddPromotion(promidx);
@@ -24625,92 +24646,6 @@ bool CvUnit::canAddPromotion(int spell, CvPlot* pTargetPlot)
 
 			return false;
 		}
-		else if (GC.getSpellInfo((SpellTypes)spell).isTargeted())
-		{
-			CvUnit* pLoopUnit;
-			CLLNode<IDInfo>* pUnitNode = pTargetPlot->headUnitNode();
-			while (pUnitNode != NULL)
-			{
-				pLoopUnit = ::getUnit(pUnitNode->m_data);
-				pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-				if (!pLoopUnit->isImmuneToSpell(this, spell))
-				{
-					if (ePromotion1 != NO_PROMOTION)
-					{
-						if (pLoopUnit->getUnitCombatType() != NO_UNITCOMBAT)
-						{
-							if (GC.getPromotionInfo(ePromotion1).getUnitCombat(pLoopUnit->getUnitCombatType()))
-							{
-								/*************************************************************************************************/
-								/**	Xienwolf Tweak							03/18/09											**/
-								/**																								**/
-								/**				Accounts for Blocked Promotions on a unit to prevent useless casting			**/
-								/*************************************************************************************************/
-								/**								---- Start Original Code ----									**
-																	if (!pLoopUnit->isHasPromotion(ePromotion1))
-																	{
-																		return true;
-																	}
-																}
-															}
-														}
-														if (ePromotion2 != NO_PROMOTION)
-														{
-															if (pLoopUnit->getUnitCombatType() != NO_UNITCOMBAT)
-															{
-																if (GC.getPromotionInfo(ePromotion2).getUnitCombat(pLoopUnit->getUnitCombatType()))
-																{
-																	if (!pLoopUnit->isHasPromotion(ePromotion2))
-																	{
-																		return true;
-																	}
-																}
-															}
-														}
-														if (ePromotion3 != NO_PROMOTION)
-														{
-															if (pLoopUnit->getUnitCombatType() != NO_UNITCOMBAT)
-															{
-																if (GC.getPromotionInfo(ePromotion3).getUnitCombat(pLoopUnit->getUnitCombatType()))
-																{
-																	if (!pLoopUnit->isHasPromotion(ePromotion3))
-																	{
-																		return true;
-																	}
-								/**								----  End Original Code  ----									**/
-								if (!pLoopUnit->isHasPromotion(ePromotion1) || GC.getPromotionInfo(ePromotion1).isStackEffect())
-								{
-									if (!pLoopUnit->isDenyPromotion(ePromotion1))
-									{
-										return true;
-									}
-								}
-							}
-							/*************************************************************************************************/
-							/**	Second Job							08/28/10									Valkrionn	**/
-							/**				Allows units to qualify for the promotions of other UnitCombats					**/
-							/*************************************************************************************************/
-							for (int iK = 0; iK < GC.getNumUnitCombatInfos(); iK++)
-							{
-								if (pLoopUnit->isSecondaryUnitCombat((UnitCombatTypes)iK) && GC.getPromotionInfo(ePromotion1).getUnitCombat(iK))
-								{
-									if (!pLoopUnit->isHasPromotion(ePromotion1) || GC.getPromotionInfo(ePromotion1).isStackEffect())
-									{
-										if (!pLoopUnit->isDenyPromotion(ePromotion1))
-										{
-											return true;
-										}
-									}
-								}
-							}
-							/*************************************************************************************************/
-							/**	TempCombat									END												**/
-							/*************************************************************************************************/
-						}
-					}
-				}
-			}
-		}
 		CvUnit* pLoopUnit;
 		CvPlot* pLoopPlot;
 		int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
@@ -24727,8 +24662,8 @@ bool CvUnit::canAddPromotion(int spell, CvPlot* pTargetPlot)
 		{
 			for (int j = -iRange; j <= iRange; ++j)
 			{
-				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
-				if (NULL != pLoopPlot)
+				pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+				if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pLoopPlot))
 				{
 					CLLNode<IDInfo>* pUnitNode = pLoopPlot->headUnitNode();
 					while (pUnitNode != NULL)
@@ -24835,14 +24770,46 @@ bool CvUnit::canCreateBuilding(int spell, CvPlot* pTargetPlot) const
 	}
 	return true;
 }
-
-bool CvUnit::canCreateFeature(int spell, CvPlot* pTargetPlot) const
+bool CvUnit::canCreateFeature(int spell, CvPlot* pTargetPlot)
 {
 	if (pTargetPlot == NULL)
 	{
 		pTargetPlot = plot();
 	}
+	CvPlot* pLoopPlot;
+	int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
+	/*************************************************************************************************/
+	/**	Spellcasting Range						04/08/08	Written: Grey Fox	Imported: Xienwolf	**/
+	/**																								**/
+	/**						Allows SpellRange to be extended by Promotions							**/
+	/*************************************************************************************************/
+	iRange += getSpellExtraRange();
+	/*************************************************************************************************/
+	/**	Spellcasting Range						END													**/
+	/*************************************************************************************************/
+	for (int i = -iRange; i <= iRange; ++i)
+	{
+		for (int j = -iRange; j <= iRange; ++j)
+		{
+			pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+			if (NULL != pLoopPlot && canCastTargetPlot(spell, false, pLoopPlot))
+			{
+				if (canCreateFeaturePlot(spell, pLoopPlot))
+				{
+					return true;
+				}
+			}
+		}
+	}
+	return false;
+}
 
+bool CvUnit::canCreateFeaturePlot(int spell, CvPlot* pTargetPlot) const
+{
+	if (pTargetPlot == NULL)
+	{
+		pTargetPlot = plot();
+	}
 	if (pTargetPlot->isCity())
 	{
 		return false;
@@ -24905,7 +24872,7 @@ bool CvUnit::canCreatePlotEffect(int spell, CvPlot* pTargetPlot) const
 		for (int j = -iRange; j <= iRange; ++j)
 		{
 			pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
-			if (NULL != pLoopPlot)
+			if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pLoopPlot))
 			{
 				if (pLoopPlot->canHavePlotEffect((PlotEffectTypes)GC.getSpellInfo((SpellTypes)spell).getCreatePlotEffectType()) && !pLoopPlot->getPlotEffectType() != NO_PLOT_EFFECT)
 				{
@@ -24951,7 +24918,7 @@ bool CvUnit::canRemovePlotEffect(int spell, CvPlot* pTargetPlot) const
 		for (int j = -iRange; j <= iRange; ++j)
 		{
 			pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
-			if (NULL != pLoopPlot)
+			if (NULL != pLoopPlot && canCastTargetPlot(spell, false, pLoopPlot))
 			{
 				if (pLoopPlot->getPlotEffectType()==GC.getSpellInfo((SpellTypes)spell).getRemovePlotEffectType())
 				{
@@ -24968,6 +24935,52 @@ bool CvUnit::canRemovePlotEffect(int spell, CvPlot* pTargetPlot) const
 }
 
 bool CvUnit::canCreateImprovement(int spell, CvPlot* pTargetPlot) const
+{
+	if (pTargetPlot == NULL)
+	{
+		pTargetPlot = plot();
+	}
+
+	//	if (pTargetPlot->isCity())
+	//	{
+	//		return false;
+	//	}
+	int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
+	/*************************************************************************************************/
+	/**	Spellcasting Range						04/08/08	Written: Grey Fox	Imported: Xienwolf	**/
+	/**																								**/
+	/**						Allows SpellRange to be extended by Promotions							**/
+	/*************************************************************************************************/
+	iRange += getSpellExtraRange();
+	/*************************************************************************************************/
+	/**	Spellcasting Range						END													**/
+	/*************************************************************************************************/
+	CLLNode<IDInfo>* pUnitNode;
+	CvUnit* pLoopUnit;
+	CvPlot* pLoopPlot;
+	bool bValid = false;
+	for (int i = -iRange; i <= iRange; ++i)
+	{
+		for (int j = -iRange; j <= iRange; ++j)
+		{
+			pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+			if (NULL != pLoopPlot && canCastTargetPlot(spell, false, pLoopPlot))
+			{
+				if (canCreateImprovementPlot(spell,pLoopPlot))
+				{
+					bValid = true;
+				}
+			}
+		}
+	}
+	if (!bValid)
+	{
+		return false;
+	}
+	return true;
+}
+
+bool CvUnit::canCreateImprovementPlot(int spell, CvPlot* pTargetPlot) const
 {
 	if (pTargetPlot == NULL)
 	{
@@ -24990,35 +25003,9 @@ bool CvUnit::canCreateImprovement(int spell, CvPlot* pTargetPlot) const
 
 bool CvUnit::canDispel(int spell, CvPlot* pTargetPlot)
 {
-
-	if (GC.getSpellInfo((SpellTypes)spell).isTargeted())
+	if (pTargetPlot == NULL)
 	{
-		CLLNode<IDInfo>* pUnitNode;
-		CvUnit* pLoopUnit;
-
-		pUnitNode = pTargetPlot->headUnitNode();
-		while (pUnitNode != NULL)
-		{
-			pLoopUnit = ::getUnit(pUnitNode->m_data);
-			pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-			if (!pLoopUnit->isImmuneToSpell(this, spell))
-			{
-				for (int iI = 0; iI < GC.getNumPromotionInfos(); iI++)
-				{
-					if (pLoopUnit->isHasPromotion((PromotionTypes)iI))
-					{
-						if (GC.getPromotionInfo((PromotionTypes)iI).isDispellable())
-						{
-							if ((GC.getPromotionInfo((PromotionTypes)iI).getAIWeight() < 0 && pLoopUnit->getTeam() == getTeam())
-								|| (GC.getPromotionInfo((PromotionTypes)iI).getAIWeight() > 0 && pLoopUnit->isEnemy(getTeam())))
-							{
-								return true;
-							}
-						}
-					}
-				}
-			}
-		}
+		pTargetPlot = plot();
 	}
 	int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
 /*************************************************************************************************/
@@ -25037,8 +25024,8 @@ bool CvUnit::canDispel(int spell, CvPlot* pTargetPlot)
 	{
 		for (int j = -iRange; j <= iRange; ++j)
 		{
-			pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
-			if (NULL != pLoopPlot)
+			pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+			if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pLoopPlot))
 			{
 				if (pLoopPlot->getPlotEffectType()!=NO_PLOT_EFFECT && GC.getPlotEffectInfo((PlotEffectTypes)pLoopPlot->getPlotEffectType()).isDispellable())
 				{
@@ -25075,20 +25062,9 @@ bool CvUnit::canDispel(int spell, CvPlot* pTargetPlot)
 
 bool CvUnit::canImmobile(int spell, CvPlot* pTargetPlot)
 {
-	if (GC.getSpellInfo((SpellTypes)spell).isTargeted())
+	if (pTargetPlot == NULL)
 	{
-		CLLNode<IDInfo>* pUnitNode;
-		CvUnit* pLoopUnit;
-		pUnitNode = pTargetPlot->headUnitNode();
-		while (pUnitNode != NULL)
-		{
-			pLoopUnit = ::getUnit(pUnitNode->m_data);
-			pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-			if (!pLoopUnit->isImmuneToSpell(this, spell))
-			{
-				return true;
-			}
-		}
+		pTargetPlot = plot();
 	}
 	int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
 /*************************************************************************************************/
@@ -25107,8 +25083,8 @@ bool CvUnit::canImmobile(int spell, CvPlot* pTargetPlot)
 	{
 		for (int j = -iRange; j <= iRange; ++j)
 		{
-			pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
-			if (NULL != pLoopPlot)
+			pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+			if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pLoopPlot))
 			{
 				pUnitNode = pLoopPlot->headUnitNode();
 				while (pUnitNode != NULL)
@@ -25146,7 +25122,7 @@ bool CvUnit::canPush(int spell)
 		for (int j = -iRange; j <= iRange; ++j)
 		{
 			pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
-			if (NULL != pLoopPlot)
+			if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pLoopPlot))
 			{
 				if (!pLoopPlot->isCity())
 				{
@@ -25169,6 +25145,10 @@ bool CvUnit::canPush(int spell)
 
 bool CvUnit::canRemovePromotion(int spell, CvPlot* pTargetPlot)
 {
+	if (pTargetPlot == NULL)
+	{
+		pTargetPlot = plot();
+	}
 	CvSpellInfo& kSpell = GC.getSpellInfo((SpellTypes)spell);
 	for (int promidx = 0; promidx < kSpell.getNumRemovePromotions(); promidx++)
 	{
@@ -25193,27 +25173,6 @@ bool CvUnit::canRemovePromotion(int spell, CvPlot* pTargetPlot)
 
 			return false;
 		}
-		else if (GC.getSpellInfo((SpellTypes)spell).isTargeted())
-		{
-			CvUnit* pLoopUnit;
-			CLLNode<IDInfo>* pUnitNode = pTargetPlot->headUnitNode();
-			while (pUnitNode != NULL)
-			{
-				pLoopUnit = ::getUnit(pUnitNode->m_data);
-				pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-				if (!pLoopUnit->isImmuneToSpell(this, spell))
-				{
-					if (ePromotion1 != NO_PROMOTION)
-					{
-						if (pLoopUnit->isHasPromotion(ePromotion1))
-						{
-							return true;
-						}
-					}
-
-				}
-			}
-		}
 		CvUnit* pLoopUnit;
 		CvPlot* pLoopPlot;
 		int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
@@ -25230,8 +25189,8 @@ bool CvUnit::canRemovePromotion(int spell, CvPlot* pTargetPlot)
 		{
 			for (int j = -iRange; j <= iRange; ++j)
 			{
-				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
-				if (NULL != pLoopPlot)
+				pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+				if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pLoopPlot))
 				{
 					CLLNode<IDInfo>* pUnitNode = pLoopPlot->headUnitNode();
 					while (pUnitNode != NULL)
@@ -25724,6 +25683,10 @@ void CvUnit::castSummonMaster()
 /*************************************************************************************************/
 void CvUnit::castAddPromotion(int spell, CvPlot* pTargetPlot)
 {
+	if (pTargetPlot == NULL)
+	{
+		pTargetPlot = plot();
+	}
 	for (int promidx = 0; promidx < GC.getSpellInfo((SpellTypes)spell).getNumAddPromotions(); promidx++)
 	{
 		PromotionTypes ePromotion1 = (PromotionTypes)GC.getSpellInfo((SpellTypes)spell).getAddPromotion(promidx);
@@ -25749,47 +25712,6 @@ void CvUnit::castAddPromotion(int spell, CvPlot* pTargetPlot)
 
 		}
 		//TargetedSpell 0924 blackimp
-		else if (GC.getSpellInfo((SpellTypes)spell).isTargeted() && pTargetPlot != NULL)
-		{
-			bool bResistable = GC.getSpellInfo((SpellTypes)spell).isResistable();
-			CvUnit* pLoopUnit;
-			CLLNode<IDInfo>* pUnitNode;
-			pUnitNode = pTargetPlot->headUnitNode();
-			while (pUnitNode != NULL)
-			{
-				pLoopUnit = ::getUnit(pUnitNode->m_data);
-				pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-				if (!pLoopUnit->isImmuneToSpell(this, spell))
-				{
-					if (pLoopUnit->getTeam() == getTeam() || !bResistable || !pLoopUnit->isResisted(this, spell))
-					{
-						if (pLoopUnit->getUnitCombatType() != NO_UNITCOMBAT)
-						{
-							if (GC.getPromotionInfo(ePromotion1).getUnitCombat(pLoopUnit->getUnitCombatType()))
-							{
-								pLoopUnit->setHasPromotion(ePromotion1, true);
-								if (GC.getSpellInfo((SpellTypes)spell).getPromotionDuration() != -1)
-								{
-									pLoopUnit->setPromotionDuration(ePromotion1, GC.getSpellInfo((SpellTypes)spell).getPromotionDuration());
-								}
-								
-							}
-							for (int iK = 0; iK < GC.getNumUnitCombatInfos(); iK++)
-							{
-								if (pLoopUnit->isSecondaryUnitCombat((UnitCombatTypes)iK) && GC.getPromotionInfo(ePromotion1).getUnitCombat(iK))
-								{
-									pLoopUnit->setHasPromotion(ePromotion1, true);
-									if (GC.getSpellInfo((SpellTypes)spell).getPromotionDuration() != -1)
-									{
-										pLoopUnit->setPromotionDuration(ePromotion1, GC.getSpellInfo((SpellTypes)spell).getPromotionDuration());
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}	
 		else
 		{
 			int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
@@ -25811,8 +25733,8 @@ void CvUnit::castAddPromotion(int spell, CvPlot* pTargetPlot)
 			{
 				for (int j = -iRange; j <= iRange; ++j)
 				{
-					pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
-					if (NULL != pLoopPlot)
+					pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+					if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pLoopPlot))
 					{
 						pUnitNode = pLoopPlot->headUnitNode();
 						while (pUnitNode != NULL)
@@ -25923,6 +25845,10 @@ void CvUnit::castAddPromotion(int spell, CvPlot* pTargetPlot)
 
 void CvUnit::castDamage(int spell, CvPlot* pTargetPlot)
 {
+	if (pTargetPlot == NULL)
+	{
+		pTargetPlot = plot();
+	}
 	bool bResistable = GC.getSpellInfo((SpellTypes)spell).isResistable();
 	int iDmg = GC.getSpellInfo((SpellTypes)spell).getDamage();
 	int iDmgLimit = GC.getSpellInfo((SpellTypes)spell).getDamageLimit();
@@ -25937,68 +25863,39 @@ void CvUnit::castDamage(int spell, CvPlot* pTargetPlot)
 /*************************************************************************************************/
 /**	Spellcasting Range						END													**/
 /*************************************************************************************************/
-	if (GC.getSpellInfo((SpellTypes)spell).isTargeted())
+	
+	
+	CLLNode<IDInfo>* pUnitNode;
+	CvUnit* pLoopUnit;
+	CvPlot* pLoopPlot;
+	for (int i = -iRange; i <= iRange; ++i)
 	{
-		CLLNode<IDInfo>* pUnitNode;
-		CvUnit* pLoopUnit;
-		pUnitNode = pTargetPlot->headUnitNode();
-		while (pUnitNode != NULL)
+		for (int j = -iRange; j <= iRange; ++j)
 		{
-			pLoopUnit = ::getUnit(pUnitNode->m_data);
-			pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-			if (pLoopUnit != NULL)
+			pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+			if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pLoopPlot))
 			{
-				if (!pLoopUnit->isImmuneToSpell(this, spell))
+				if (pLoopPlot->getX() != plot()->getX() || pLoopPlot->getY() != plot()->getY())
 				{
-					if (bResistable)
+					pUnitNode = pLoopPlot->headUnitNode();
+					while (pUnitNode != NULL)
 					{
-						if (!pLoopUnit->isResisted(this, spell))
+						pLoopUnit = ::getUnit(pUnitNode->m_data);
+						pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
+						if (pLoopUnit != NULL)
 						{
-							pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
-						}
-					}
-					else
-					{
-						pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
-					}
-				}
-			}
-		}
-	}
-	else
-	{
-		CLLNode<IDInfo>* pUnitNode;
-		CvUnit* pLoopUnit;
-		CvPlot* pLoopPlot;
-		for (int i = -iRange; i <= iRange; ++i)
-		{
-			for (int j = -iRange; j <= iRange; ++j)
-			{
-				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
-				if (NULL != pLoopPlot)
-				{
-					if (pLoopPlot->getX() != plot()->getX() || pLoopPlot->getY() != plot()->getY())
-					{
-						pUnitNode = pLoopPlot->headUnitNode();
-						while (pUnitNode != NULL)
-						{
-							pLoopUnit = ::getUnit(pUnitNode->m_data);
-							pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
-							if (pLoopUnit != NULL)
+							if (!pLoopUnit->isImmuneToSpell(this, spell))
 							{
-								if (!pLoopUnit->isImmuneToSpell(this, spell))
+								if (bResistable)
 								{
-									if (bResistable)
-									{
-										if (!pLoopUnit->isResisted(this, spell))
-										{
-											pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
-										}
-									}
-									else
+									if (!pLoopUnit->isResisted(this, spell))
 									{
 										pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
 									}
+								}
+								else
+								{
+									pLoopUnit->doDamage((iDmg / 2) + GC.getGameINLINE().getSorenRandNum(iDmg, "doDamage"), iDmgLimit, this, iDmgType, true);
 								}
 							}
 						}
@@ -26011,6 +25908,10 @@ void CvUnit::castDamage(int spell, CvPlot* pTargetPlot)
 
 void CvUnit::castDispel(int spell, CvPlot* pTargetPlot)
 {
+	if (pTargetPlot == NULL)
+	{
+		pTargetPlot = plot();
+	}
 	bool bResistable = GC.getSpellInfo((SpellTypes)spell).isResistable();
 	int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
 /*************************************************************************************************/
@@ -26024,91 +25925,50 @@ void CvUnit::castDispel(int spell, CvPlot* pTargetPlot)
 /*************************************************************************************************/
 	CLLNode<IDInfo>* pUnitNode;
 	CvUnit* pLoopUnit;
-	if (GC.getSpellInfo((SpellTypes)spell).isTargeted())
+	
+	CvPlot* pLoopPlot;
+	for (int i = -iRange; i <= iRange; ++i)
 	{
-		pUnitNode = pTargetPlot->headUnitNode();
-		while (pUnitNode != NULL)
+		for (int j = -iRange; j <= iRange; ++j)
 		{
-			pLoopUnit = ::getUnit(pUnitNode->m_data);
-			pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-			if (!pLoopUnit->isImmuneToSpell(this, spell))
+			pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+			if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pTargetPlot))
 			{
-				if (pLoopUnit->isEnemy(getTeam()))
+				if (pLoopPlot->getPlotEffectType()!=NO_PLOT_EFFECT && GC.getPlotEffectInfo((PlotEffectTypes)pLoopPlot->getPlotEffectType()).isDispellable())
 				{
-					if (bResistable)
-					{
-						if (pLoopUnit->isResisted(this, spell))
-						{
-							continue;
-						}
-					}
-					for (int iI = 0; iI < GC.getNumPromotionInfos(); iI++)
-					{
-						if (GC.getPromotionInfo((PromotionTypes)iI).isDispellable() && GC.getPromotionInfo((PromotionTypes)iI).getAIWeight() > 0)
-						{
-							pLoopUnit->setHasPromotion((PromotionTypes)iI, false);
-						}
-					}
+					pLoopPlot->setPlotEffectType(NO_PLOT_EFFECT);
 				}
-				else
+				pUnitNode = pLoopPlot->headUnitNode();
+				while (pUnitNode != NULL)
 				{
-					for (int iI = 0; iI < GC.getNumPromotionInfos(); iI++)
+					pLoopUnit = ::getUnit(pUnitNode->m_data);
+					pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
+					if (!pLoopUnit->isImmuneToSpell(this, spell))
 					{
-						if (GC.getPromotionInfo((PromotionTypes)iI).isDispellable() && GC.getPromotionInfo((PromotionTypes)iI).getAIWeight() < 0)
+						if (pLoopUnit->isEnemy(getTeam()))
 						{
-							pLoopUnit->setHasPromotion((PromotionTypes)iI, false);
-						}
-					}
-				}
-			}
-		}
-	}
-	else
-	{
-		CvPlot* pLoopPlot;
-		for (int i = -iRange; i <= iRange; ++i)
-		{
-			for (int j = -iRange; j <= iRange; ++j)
-			{
-				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
-				if (NULL != pLoopPlot)
-				{
-					if (pLoopPlot->getPlotEffectType()!=NO_PLOT_EFFECT && GC.getPlotEffectInfo((PlotEffectTypes)pLoopPlot->getPlotEffectType()).isDispellable())
-					{
-						pLoopPlot->setPlotEffectType(NO_PLOT_EFFECT);
-					}
-					pUnitNode = pLoopPlot->headUnitNode();
-					while (pUnitNode != NULL)
-					{
-						pLoopUnit = ::getUnit(pUnitNode->m_data);
-						pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
-						if (!pLoopUnit->isImmuneToSpell(this, spell))
-						{
-							if (pLoopUnit->isEnemy(getTeam()))
+							if (bResistable)
 							{
-								if (bResistable)
+								if (pLoopUnit->isResisted(this, spell))
 								{
-									if (pLoopUnit->isResisted(this, spell))
-									{
-										continue;
-									}
-								}
-								for (int iI = 0; iI < GC.getNumPromotionInfos(); iI++)
-								{
-									if (GC.getPromotionInfo((PromotionTypes)iI).isDispellable() && GC.getPromotionInfo((PromotionTypes)iI).getAIWeight() > 0)
-									{
-										pLoopUnit->setHasPromotion((PromotionTypes)iI, false);
-									}
+									continue;
 								}
 							}
-							else
+							for (int iI = 0; iI < GC.getNumPromotionInfos(); iI++)
 							{
-								for (int iI = 0; iI < GC.getNumPromotionInfos(); iI++)
+								if (GC.getPromotionInfo((PromotionTypes)iI).isDispellable() && GC.getPromotionInfo((PromotionTypes)iI).getAIWeight() > 0)
 								{
-									if (GC.getPromotionInfo((PromotionTypes)iI).isDispellable() && GC.getPromotionInfo((PromotionTypes)iI).getAIWeight() < 0)
-									{
-										pLoopUnit->setHasPromotion((PromotionTypes)iI, false);
-									}
+									pLoopUnit->setHasPromotion((PromotionTypes)iI, false);
+								}
+							}
+						}
+						else
+						{
+							for (int iI = 0; iI < GC.getNumPromotionInfos(); iI++)
+							{
+								if (GC.getPromotionInfo((PromotionTypes)iI).isDispellable() && GC.getPromotionInfo((PromotionTypes)iI).getAIWeight() < 0)
+								{
+									pLoopUnit->setHasPromotion((PromotionTypes)iI, false);
 								}
 							}
 						}
@@ -26121,6 +25981,10 @@ void CvUnit::castDispel(int spell, CvPlot* pTargetPlot)
 
 void CvUnit::castImmobile(int spell, CvPlot* pTargetPlot)
 {
+	if (pTargetPlot == NULL)
+	{
+		pTargetPlot = plot();
+	}
 	bool bResistable = GC.getSpellInfo((SpellTypes)spell).isResistable();
 	int iImmobileTurns = GC.getSpellInfo((SpellTypes)spell).getImmobileTurns();
 	int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
@@ -26133,93 +25997,28 @@ void CvUnit::castImmobile(int spell, CvPlot* pTargetPlot)
 /*************************************************************************************************/
 /**	Spellcasting Range						END													**/
 /*************************************************************************************************/
-	if (GC.getSpellInfo((SpellTypes)spell).isTargeted())
+	CLLNode<IDInfo>* pUnitNode;
+	CvUnit* pLoopUnit;
+	CvPlot* pLoopPlot;
+	for (int i = -iRange; i <= iRange; ++i)
 	{
-		CLLNode<IDInfo>* pUnitNode;
-		CvUnit* pLoopUnit;
-		pUnitNode = pTargetPlot->headUnitNode();
-		while (pUnitNode != NULL)
+		for (int j = -iRange; j <= iRange; ++j)
 		{
-			pLoopUnit = ::getUnit(pUnitNode->m_data);
-			pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-			if (!pLoopUnit->isImmuneToSpell(this, spell) && pLoopUnit->getImmobileTimer() == 0)
+			pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
+			if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pLoopPlot))
 			{
-				if (bResistable)
+				if (pLoopPlot->getX() != pTargetPlot->getX() || pTargetPlot->getY() != plot()->getY())
 				{
-					if (!pLoopUnit->isResisted(this, spell))
+					pUnitNode = pLoopPlot->headUnitNode();
+					while (pUnitNode != NULL)
 					{
-						pLoopUnit->changeImmobileTimer(iImmobileTurns);
-						/*************************************************************************************************/
-						/**	Xienwolf Tweak							09/06/08											**/
-						/**																								**/
-						/**									Prevents AI Group Lock-ups									**/
-						/*************************************************************************************************/
-						pLoopUnit->joinGroup(NULL, true, true);
-						/*************************************************************************************************/
-						/**	Tweak									END													**/
-						/*************************************************************************************************/
-						gDLL->getInterfaceIFace()->addMessage((PlayerTypes)pLoopUnit->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_SPELL_IMMOBILE"), "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
-						gDLL->getInterfaceIFace()->addMessage((PlayerTypes)getOwner(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_SPELL_IMMOBILE"), "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
-					}
-				}
-				else
-				{
-					pLoopUnit->changeImmobileTimer(iImmobileTurns);
-					/*************************************************************************************************/
-					/**	Xienwolf Tweak							09/06/08											**/
-					/**																								**/
-					/**									Prevents AI Group Lock-ups									**/
-					/*************************************************************************************************/
-					pLoopUnit->joinGroup(NULL, true, true);
-					/*************************************************************************************************/
-					/**	Tweak									END													**/
-					/*************************************************************************************************/
-					gDLL->getInterfaceIFace()->addMessage((PlayerTypes)pLoopUnit->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_SPELL_IMMOBILE"), "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
-					gDLL->getInterfaceIFace()->addMessage((PlayerTypes)getOwner(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_SPELL_IMMOBILE"), "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
-				}
-			}
-		}
-	}
-	else
-	{
-		CLLNode<IDInfo>* pUnitNode;
-		CvUnit* pLoopUnit;
-		CvPlot* pLoopPlot;
-		for (int i = -iRange; i <= iRange; ++i)
-		{
-			for (int j = -iRange; j <= iRange; ++j)
-			{
-				pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
-				if (NULL != pLoopPlot)
-				{
-					if (pLoopPlot->getX() != plot()->getX() || pLoopPlot->getY() != plot()->getY())
-					{
-						pUnitNode = pLoopPlot->headUnitNode();
-						while (pUnitNode != NULL)
+						pLoopUnit = ::getUnit(pUnitNode->m_data);
+						pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
+						if (!pLoopUnit->isImmuneToSpell(this, spell) && pLoopUnit->getImmobileTimer() == 0)
 						{
-							pLoopUnit = ::getUnit(pUnitNode->m_data);
-							pUnitNode = pLoopPlot->nextUnitNode(pUnitNode);
-							if (!pLoopUnit->isImmuneToSpell(this, spell) && pLoopUnit->getImmobileTimer() == 0)
+							if (bResistable)
 							{
-								if (bResistable)
-								{
-									if (!pLoopUnit->isResisted(this, spell))
-									{
-										pLoopUnit->changeImmobileTimer(iImmobileTurns);
-										/*************************************************************************************************/
-										/**	Xienwolf Tweak							09/06/08											**/
-										/**																								**/
-										/**									Prevents AI Group Lock-ups									**/
-										/*************************************************************************************************/
-										pLoopUnit->joinGroup(NULL, true, true);
-										/*************************************************************************************************/
-										/**	Tweak									END													**/
-										/*************************************************************************************************/
-										gDLL->getInterfaceIFace()->addMessage((PlayerTypes)pLoopUnit->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_SPELL_IMMOBILE"), "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
-										gDLL->getInterfaceIFace()->addMessage((PlayerTypes)getOwner(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_SPELL_IMMOBILE"), "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
-									}
-								}
-								else
+								if (!pLoopUnit->isResisted(this, spell))
 								{
 									pLoopUnit->changeImmobileTimer(iImmobileTurns);
 									/*************************************************************************************************/
@@ -26234,6 +26033,21 @@ void CvUnit::castImmobile(int spell, CvPlot* pTargetPlot)
 									gDLL->getInterfaceIFace()->addMessage((PlayerTypes)pLoopUnit->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_SPELL_IMMOBILE"), "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
 									gDLL->getInterfaceIFace()->addMessage((PlayerTypes)getOwner(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_SPELL_IMMOBILE"), "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
 								}
+							}
+							else
+							{
+								pLoopUnit->changeImmobileTimer(iImmobileTurns);
+								/*************************************************************************************************/
+								/**	Xienwolf Tweak							09/06/08											**/
+								/**																								**/
+								/**									Prevents AI Group Lock-ups									**/
+								/*************************************************************************************************/
+								pLoopUnit->joinGroup(NULL, true, true);
+								/*************************************************************************************************/
+								/**	Tweak									END													**/
+								/*************************************************************************************************/
+								gDLL->getInterfaceIFace()->addMessage((PlayerTypes)pLoopUnit->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_SPELL_IMMOBILE"), "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_NEGATIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
+								gDLL->getInterfaceIFace()->addMessage((PlayerTypes)getOwner(), true, GC.getEVENT_MESSAGE_TIME(), gDLL->getText("TXT_KEY_MESSAGE_SPELL_IMMOBILE"), "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MAJOR_EVENT, GC.getSpellInfo((SpellTypes)spell).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), getX_INLINE(), getY_INLINE(), true, true);
 							}
 						}
 					}
@@ -26312,6 +26126,10 @@ void CvUnit::castPush(int spell)
 
 void CvUnit::castRemovePromotion(int spell, CvPlot* pTargetPlot)
 {
+	if (pTargetPlot == NULL)
+	{
+		pTargetPlot = plot();
+	}
 	CvSpellInfo& kSpell = GC.getSpellInfo((SpellTypes)spell);
 	for (int promidx = 0; promidx < kSpell.getNumRemovePromotions(); promidx++)
 	{
@@ -26323,25 +26141,6 @@ void CvUnit::castRemovePromotion(int spell, CvPlot* pTargetPlot)
 				setHasPromotion(ePromotion1, false);
 			}
 
-		}
-		else if (GC.getSpellInfo((SpellTypes)spell).isTargeted() && pTargetPlot != NULL)
-		{
-			bool bResistable = GC.getSpellInfo((SpellTypes)spell).isResistable();
-			CvUnit* pLoopUnit;
-			CLLNode<IDInfo>* pUnitNode;
-			pUnitNode = pTargetPlot->headUnitNode();
-			while (pUnitNode != NULL)
-			{
-				pLoopUnit = ::getUnit(pUnitNode->m_data);
-				pUnitNode = pTargetPlot->nextUnitNode(pUnitNode);
-				if (!pLoopUnit->isImmuneToSpell(this, spell))
-				{
-					if (pLoopUnit->getTeam() == getTeam() || !bResistable || !pLoopUnit->isResisted(this, spell))
-					{
-						pLoopUnit->setHasPromotion(ePromotion1, false);
-					}
-				}
-			}
 		}
 		else
 		{
@@ -26363,8 +26162,8 @@ void CvUnit::castRemovePromotion(int spell, CvPlot* pTargetPlot)
 			{
 				for (int j = -iRange; j <= iRange; ++j)
 				{
-					pLoopPlot = ::plotXY(plot()->getX_INLINE(), plot()->getY_INLINE(), i, j);
-					if (NULL != pLoopPlot)
+					pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+					if (NULL != pLoopPlot && canCastTargetPlot(spell,false,pLoopPlot))
 					{
 						pUnitNode = pLoopPlot->headUnitNode();
 						while (pUnitNode != NULL)
@@ -26414,120 +26213,144 @@ void CvUnit::castCreateUnit(int spell, CvPlot* pTargetPlot)
 {
 	int iI;
 	CvUnit* pUnit;
-	pUnit = GET_PLAYER(getOwnerINLINE()).initUnit((UnitTypes)GC.getSpellInfo((SpellTypes)spell).getCreateUnitType(), pTargetPlot->getX(), pTargetPlot->getY(), UNITAI_ATTACK);
-	pUnit->setSummoner(getID());
-/*************************************************************************************************/
-/**	Whiplash								07/23/08								Xienwolf	**/
-/**						Prevents Unit Upkeep costs from Summons									**/
-/**			Tracks Unit's Summoned by Caster and Caster who Summoned Conjured Units				**/
-/*************************************************************************************************/
-	pUnit->changeFreeUnit(1);
-	pUnit->changeNoSupply(1);
-	pUnit->setMasterUnit(getIDInfo());
-	pUnit->setLeashUnit(getIDInfo());
+	int iRange = GC.getSpellInfo((SpellTypes)spell).getRange();
+	/*************************************************************************************************/
+	/**	Spellcasting Range						04/08/08	Written: Grey Fox	Imported: Xienwolf	**/
+	/**																								**/
+	/**						Allows SpellRange to be extended by Promotions							**/
+	/*************************************************************************************************/
+	iRange += getSpellExtraRange();
+	/*************************************************************************************************/
+	/**	Spellcasting Range							END												**/
+	/*************************************************************************************************/
+	bool bResistable = GC.getSpellInfo((SpellTypes)spell).isResistable();
+	CLLNode<IDInfo>* pUnitNode;
+	CvUnit* pLoopUnit;
+	CvPlot* pLoopPlot;
+	for (int i = -iRange; i <= iRange; ++i)
+	{
+		for (int j = -iRange; j <= iRange; ++j)
+		{
+			pLoopPlot = ::plotXY(pTargetPlot->getX_INLINE(), pTargetPlot->getY_INLINE(), i, j);
+			if (NULL != pLoopPlot && canCastTargetPlot(spell, false, pLoopPlot) && canCreateUnit(spell,pLoopPlot))
+			{
+				pUnit = GET_PLAYER(getOwnerINLINE()).initUnit((UnitTypes)GC.getSpellInfo((SpellTypes)spell).getCreateUnitType(), pLoopPlot->getX(), pLoopPlot->getY(), UNITAI_ATTACK);
+				pUnit->setSummoner(getID());
+				/*************************************************************************************************/
+				/**	Whiplash								07/23/08								Xienwolf	**/
+				/**						Prevents Unit Upkeep costs from Summons									**/
+				/**			Tracks Unit's Summoned by Caster and Caster who Summoned Conjured Units				**/
+				/*************************************************************************************************/
+				pUnit->changeFreeUnit(1);
+				pUnit->changeNoSupply(1);
+				pUnit->setMasterUnit(getIDInfo());
+				pUnit->setLeashUnit(getIDInfo());
 
-	addSlaveUnit(pUnit->getID());
-/*************************************************************************************************/
-/**	Whiplash								END													**/
-/*************************************************************************************************/
-	if (GC.getSpellInfo((SpellTypes)spell).isPermanentUnitCreate())
-	{
-		pUnit->changeImmobileTimer(2);
-	}
-	else
-	{
-		pUnit->changeDuration(2);
-		if (pUnit->getSpecialUnitType() != GC.getDefineINT("SPECIALUNIT_SPELL"))
-		{
-			pUnit->changeDuration(GET_PLAYER(getOwnerINLINE()).getSummonDuration());
-		}
-/*************************************************************************************************/
-/**	Xienwolf Tweak							06/18/09											**/
-/**																								**/
-/**						This is already handled by setFreeUnit(1) above							**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		if (plot()->getTeam() != getTeam())
-		{
-			GET_PLAYER(getOwnerINLINE()).changeNumOutsideUnits(-1);
-		}
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-	}
-	for (iI = 0; iI < GC.getNumPromotionInfos(); iI++)
-	{
-		if (isHasPromotion((PromotionTypes)iI))
-		{
-			if (GC.getSpellInfo((SpellTypes)spell).isCopyCastersPromotions())
-			{
-				if (!GC.getPromotionInfo((PromotionTypes)iI).isEquipment() && !GC.getPromotionInfo((PromotionTypes)iI).isRace() && !GC.getPromotionInfo((PromotionTypes)iI).isEffectProm() && iI != GC.getDefineINT("GREAT_COMMANDER_PROMOTION") && !GC.getPromotionInfo((PromotionTypes)iI).isGraphicalAddOnPromotion())
+				addSlaveUnit(pUnit->getID());
+				/*************************************************************************************************/
+				/**	Whiplash								END													**/
+				/*************************************************************************************************/
+				if (GC.getSpellInfo((SpellTypes)spell).isPermanentUnitCreate())
 				{
-					pUnit->setHasPromotion((PromotionTypes)iI, true);
+					pUnit->changeImmobileTimer(2);
 				}
-			}
-			else
-			{
-				if (GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk() != NO_PROMOTION)
+				else
 				{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							10/01/08											**/
-/**																								**/
-/**						Prevents Duration Enhancements on Fireballs								**/
-/*************************************************************************************************/
-					CvPromotionInfo & kPerkInfo = GC.getPromotionInfo((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk());
-					bool bDurationAlter = (kPerkInfo.getDurationAlter() > 0 || kPerkInfo.getDurationPerTurn() > 0 || kPerkInfo.getChangeDuration() > 0);
-					if (pUnit->getSpecialUnitType() != GC.getDefineINT("SPECIALUNIT_SPELL") || !bDurationAlter)
+					pUnit->changeDuration(2);
+					if (pUnit->getSpecialUnitType() != GC.getDefineINT("SPECIALUNIT_SPELL"))
 					{
-/*************************************************************************************************/
-/**	1.4										03/28/11								Valkrionn	**/
-/**																								**/
-/**									New tags required for 1.4									**/
-/*************************************************************************************************/
-						if (GC.getPromotionInfo((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk()).isStackEffect())
-						{
-							int iApplications = pUnit->countHasPromotion((PromotionTypes) iI);
-							iApplications = std::min(iApplications, GC.getPromotionInfo((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk()).getMaxApplications());
-							for (int iJ = 0; iJ < iApplications; iJ++)
+						pUnit->changeDuration(GET_PLAYER(getOwnerINLINE()).getSummonDuration());
+					}
+					/*************************************************************************************************/
+					/**	Xienwolf Tweak							06/18/09											**/
+					/**																								**/
+					/**						This is already handled by setFreeUnit(1) above							**/
+					/*************************************************************************************************/
+					/**								---- Start Original Code ----									**
+							if (plot()->getTeam() != getTeam())
 							{
-								pUnit->setHasPromotion((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk(), true);
+								GET_PLAYER(getOwnerINLINE()).changeNumOutsideUnits(-1);
+							}
+					/**								----  End Original Code  ----									**/
+					/*************************************************************************************************/
+					/**	Tweak									END													**/
+					/*************************************************************************************************/
+				}
+				for (iI = 0; iI < GC.getNumPromotionInfos(); iI++)
+				{
+					if (isHasPromotion((PromotionTypes)iI))
+					{
+						if (GC.getSpellInfo((SpellTypes)spell).isCopyCastersPromotions())
+						{
+							if (!GC.getPromotionInfo((PromotionTypes)iI).isEquipment() && !GC.getPromotionInfo((PromotionTypes)iI).isRace() && !GC.getPromotionInfo((PromotionTypes)iI).isEffectProm() && iI != GC.getDefineINT("GREAT_COMMANDER_PROMOTION") && !GC.getPromotionInfo((PromotionTypes)iI).isGraphicalAddOnPromotion())
+							{
+								pUnit->setHasPromotion((PromotionTypes)iI, true);
 							}
 						}
 						else
 						{
-							pUnit->setHasPromotion((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk(), true);
+							if (GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk() != NO_PROMOTION)
+							{
+								/*************************************************************************************************/
+								/**	Xienwolf Tweak							10/01/08											**/
+								/**																								**/
+								/**						Prevents Duration Enhancements on Fireballs								**/
+								/*************************************************************************************************/
+								CvPromotionInfo& kPerkInfo = GC.getPromotionInfo((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk());
+								bool bDurationAlter = (kPerkInfo.getDurationAlter() > 0 || kPerkInfo.getDurationPerTurn() > 0 || kPerkInfo.getChangeDuration() > 0);
+								if (pUnit->getSpecialUnitType() != GC.getDefineINT("SPECIALUNIT_SPELL") || !bDurationAlter)
+								{
+									/*************************************************************************************************/
+									/**	1.4										03/28/11								Valkrionn	**/
+									/**																								**/
+									/**									New tags required for 1.4									**/
+									/*************************************************************************************************/
+									if (GC.getPromotionInfo((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk()).isStackEffect())
+									{
+										int iApplications = pUnit->countHasPromotion((PromotionTypes)iI);
+										iApplications = std::min(iApplications, GC.getPromotionInfo((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk()).getMaxApplications());
+										for (int iJ = 0; iJ < iApplications; iJ++)
+										{
+											pUnit->setHasPromotion((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk(), true);
+										}
+									}
+									else
+									{
+										pUnit->setHasPromotion((PromotionTypes)GC.getPromotionInfo((PromotionTypes)iI).getPromotionSummonPerk(), true);
+									}
+									/*************************************************************************************************/
+									/**												END												**/
+									/*************************************************************************************************/
+								}
+								/*************************************************************************************************/
+								/**	Tweak									END													**/
+								/*************************************************************************************************/
+							}
 						}
-/*************************************************************************************************/
-/**												END												**/
-/*************************************************************************************************/
 					}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
+				}
+				if (GC.getSpellInfo((SpellTypes)spell).getCreateUnitPromotion() != NO_PROMOTION)
+				{
+					pUnit->setHasPromotion((PromotionTypes)GC.getSpellInfo((SpellTypes)spell).getCreateUnitPromotion(), true);
+				}
+				pUnit->doTurn();
+				/*************************************************************************************************/
+				/**	Tweak									09/06/10									Snarko	**/
+				/**																								**/
+				/**					No need to try to move the unit if it can't (skeletons etc)					**/
+				/*************************************************************************************************/
+				/**			---- Start Original Code ----						**
+					if (!isHuman())
+				/**			----  End Original Code  ----						**/
+				if (!isHuman() && pUnit->canMove())
+					/*************************************************************************************************/
+					/**	Tweak									END													**/
+					/*************************************************************************************************/
+				{
+					pUnit->AI_update();
 				}
 			}
 		}
-	}
-	if (GC.getSpellInfo((SpellTypes)spell).getCreateUnitPromotion() != NO_PROMOTION)
-	{
-		pUnit->setHasPromotion((PromotionTypes)GC.getSpellInfo((SpellTypes)spell).getCreateUnitPromotion(), true);
-	}
-	pUnit->doTurn();
-/*************************************************************************************************/
-/**	Tweak									09/06/10									Snarko	**/
-/**																								**/
-/**					No need to try to move the unit if it can't (skeletons etc)					**/
-/*************************************************************************************************/
-/**			---- Start Original Code ----						**
-	if (!isHuman())
-/**			----  End Original Code  ----						**/
-	if (!isHuman() && pUnit->canMove())
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-	{
-		pUnit->AI_update();
 	}
 }
 
@@ -33719,7 +33542,7 @@ bool CvUnit::canSpellTargetPlot(CvPlot* pTarget, int iI)
 		return false;
 	}
 
-	int iRange = getSpellExtraRange()+GC.getSpellInfo((SpellTypes)iI).getRange();
+	int iRange = GC.getSpellInfo((SpellTypes)iI).getTargetRange();
 
 	if (!plot()->canSeePlot(pTarget, getTeam(), iRange, getFacingDirection(true)))
 	{
@@ -33733,6 +33556,32 @@ bool CvUnit::canSpellTargetPlot(CvPlot* pTarget, int iI)
 
 	return true;
 }
+
+bool CvUnit::canSpellTargetSecondaryPlot(CvPlot* pMainTarget, CvPlot* pTarget, int iI)
+{
+	if (pTarget == NULL)
+		return false;
+
+	if (!pTarget->isVisible(getTeam(), false))
+	{
+		return false;
+	}
+
+	int iRange = GC.getSpellInfo((SpellTypes)iI).getRange();
+
+	if (!pMainTarget->canSeePlot(pTarget, getTeam(), iRange, getFacingDirection(true)))
+	{
+		return false;
+	}
+
+	if (plotDistance(pMainTarget->getX_INLINE(), pMainTarget->getY_INLINE(), pTarget->getX_INLINE(), pTarget->getY_INLINE()) > iRange)
+	{
+		return false;
+	}
+
+	return true;
+}
+
 
 int CvUnit::getMissionSpell() const
 {

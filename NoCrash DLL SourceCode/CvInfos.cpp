@@ -10429,6 +10429,7 @@ m_iDamage(0),
 m_iDamageLimit(0),
 m_iDamageType(NO_DAMAGE),
 m_iRange(0),
+m_iTargetRange(0),
 m_iResistModify(0),
 m_iAddPromotionType1(NO_PROMOTION),
 m_iAddPromotionType2(NO_PROMOTION),
@@ -10707,6 +10708,10 @@ const TCHAR *CvSpellInfo::getQuote() const				{return m_szQuote;}
 int CvSpellInfo::getRange() const
 {
 	return m_iRange;
+}
+int CvSpellInfo::getTargetRange() const
+{
+	return m_iTargetRange;
 }
 
 int CvSpellInfo::getEffect() const
@@ -11186,6 +11191,7 @@ void CvSpellInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_bHasCasted);
 	stream->Read(&m_bIgnoreHasCasted);
 	stream->Read(&m_iRange);
+	stream->Read(&m_iTargetRange);
 	stream->Read(&m_iResistModify);
 	stream->Read(&m_iDamage);
 	stream->Read(&m_iDamageLimit);
@@ -11367,6 +11373,7 @@ void CvSpellInfo::write(FDataStreamBase* stream)
 	stream->Write(m_bHasCasted);
 	stream->Write(m_bIgnoreHasCasted);
 	stream->Write(m_iRange);
+	stream->Write(m_iTargetRange);
 	stream->Write(m_iResistModify);
 	stream->Write(m_iDamage);
 	stream->Write(m_iDamageLimit);
@@ -11574,6 +11581,7 @@ bool CvSpellInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bHasCasted, "bHasCasted");
 	pXML->GetChildXmlValByName(&m_bIgnoreHasCasted, "bIgnoreHasCasted");
 	pXML->GetChildXmlValByName(&m_iRange, "iRange");
+	pXML->GetChildXmlValByName(&m_iTargetRange, "iTargetRange");
 	pXML->GetChildXmlValByName(&m_iResistModify, "iResistModify");
 
 	pXML->GetChildXmlValByName(&m_iDamage, "iDamage");
@@ -11779,6 +11787,7 @@ void CvSpellInfo::copyNonDefaults(CvSpellInfo* pClassInfo, CvXMLLoadUtility* pXM
 	if (getAIWeight()					== 0)					m_iAIWeight						= pClassInfo->getAIWeight();
 	if (getCasterMinLevel()				== 0)					m_iCasterMinLevel				= pClassInfo->getCasterMinLevel();
 	if (getRange()						== 0)					m_iRange						= pClassInfo->getRange();
+	if (getTargetRange() == 0)					m_iTargetRange = pClassInfo->getTargetRange();
 	if (getResistModify()				== 0)					m_iResistModify					= pClassInfo->getResistModify();
 	if (getDamage()						== 0)					m_iDamage						= pClassInfo->getDamage();
 	if (getDamageLimit()				== 0)					m_iDamageLimit					= pClassInfo->getDamageLimit();

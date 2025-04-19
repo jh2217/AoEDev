@@ -121,7 +121,7 @@ def canTriggerPseudoDragon(argsList):
 	#if pUnit.getLevel() < 5:
 	#	return False
 	#return True
-	return pUnit.isAlive() and not pUnit.isHasPromotion(getInfoType('PROMOTION_PSEUDODRAGON_COMPANION')) and (pPlayer.getAlignment()== iGood or pUnit.getRace()==getInfoType('PROMOTION_ELF')) and pUnit.getUnitCombatType()==getInfoType('UNITCOMBAT_ARCANE')
+	return pUnit.isAlive() and not pUnit.isHasPromotion(getInfoType('PROMOTION_PSEUDODRAGON_COMPANION')) and (pPlayer.getAlignment()== iGood or pUnit.getRace()==getInfoType('PROMOTION_ELF')) and pUnit.getUnitCombatType()==getInfoType('UNITCOMBAT_ADEPT')
 
 def canTriggerAmicus(argsList):
 	kTriggeredData = argsList[0]

@@ -2699,7 +2699,7 @@ bool CvSelectionGroup::canDoInterfaceModeAt(InterfaceModeTypes eInterfaceMode, C
 			{
 				if (pLoopUnit->getMissionSpell() != NO_SPELL && GC.getSpellInfo((SpellTypes)pLoopUnit->getMissionSpell()).isTargeted() && pLoopUnit->canCast((SpellTypes)pLoopUnit->getMissionSpell(),false, pPlot))
 				{
-					GC.getGame().addSpellColoredPlot(pPlot, (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"),0);
+					GC.getGame().addSpellColoredPlot(pPlot, (ColorTypes)GC.getInfoTypeForString("COLOR_POSITIVE_TEXT"), GC.getSpellInfo((SpellTypes)pLoopUnit->getMissionSpell()).getRange());
 
 					return true;
 				}

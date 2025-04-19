@@ -14291,6 +14291,11 @@ void CvGameTextMgr::parseSpellHelp(CvWStringBuffer &szBuffer, SpellTypes eSpell,
 		szBuffer.append(pcNewline);
 		szBuffer.append(gDLL->getText("TXT_KEY_SPELL_RANGE", GC.getSpellInfo(eSpell).getRange()));
 	}
+	if (GC.getSpellInfo(eSpell).getTargetRange() != 0 )
+	{
+		szBuffer.append(pcNewline);
+		szBuffer.append(gDLL->getText("TXT_KEY_SPELL_TARGET_RANGE", GC.getSpellInfo(eSpell).getTargetRange()));
+	}
 	if (GC.getSpellInfo(eSpell).getConvertUnitType() != NO_UNIT)
 	{
 		szBuffer.append(pcNewline);
@@ -26406,6 +26411,32 @@ void CvGameTextMgr::setFeatureHelp(CvWStringBuffer &szBuffer, FeatureTypes eFeat
 
 }
 
+void CvGameTextMgr::setCityClassHelp(CvWStringBuffer& szBuffer, CityClassTypes eFeature, bool bCivilopediaText)
+{
+	if (NO_CITYCLASS == eFeature)
+	{
+		return;
+	}
+	CvCityClassInfo& feature = GC.getCityClassInfo(eFeature);
+
+	if (!bCivilopediaText)
+	{
+		szBuffer.append(feature.getDescription());
+	}
+}
+void CvGameTextMgr::setRouteHelp(CvWStringBuffer& szBuffer, RouteTypes eFeature, bool bCivilopediaText)
+{
+	if (NO_ROUTE == eFeature)
+	{
+		return;
+	}
+	CvRouteInfo& feature = GC.getRouteInfo(eFeature);
+
+	if (!bCivilopediaText)
+	{
+		szBuffer.append(feature.getDescription());
+	}
+}
 
 void CvGameTextMgr::setPlotEffectHelp(CvWStringBuffer& szBuffer, PlotEffectTypes eFeature, bool bCivilopediaText)
 {

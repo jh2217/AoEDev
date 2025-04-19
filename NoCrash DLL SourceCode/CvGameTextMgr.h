@@ -193,6 +193,8 @@ public:
 	DllExport void setTerrainHelp(CvWStringBuffer &szBuffer, TerrainTypes eTerrain, bool bCivilopediaText = false);
 	DllExport void setFeatureHelp(CvWStringBuffer &szBuffer, FeatureTypes eFeature, bool bCivilopediaText = false);
 	DllExport void setPlotEffectHelp(CvWStringBuffer& szBuffer, PlotEffectTypes eFeature, bool bCivilopediaText = false);
+	DllExport void setCityClassHelp(CvWStringBuffer& szBuffer, CityClassTypes eFeature, bool bCivilopediaText = false);
+	DllExport void setRouteHelp(CvWStringBuffer& szBuffer, RouteTypes eFeature, bool bCivilopediaText = false);
 	DllExport void setProductionHelp(CvWStringBuffer &szBuffer, CvCity& city);
 	DllExport void setCommerceHelp(CvWStringBuffer &szBuffer, CvCity& city, CommerceTypes eCommerceType);
 	DllExport void setYieldHelp(CvWStringBuffer &szBuffer, CvCity& city, YieldTypes eYieldType);
