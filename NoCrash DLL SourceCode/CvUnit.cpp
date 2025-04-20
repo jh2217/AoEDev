@@ -15178,7 +15178,7 @@ int CvUnit::evasionProbability() const
 
 int CvUnit::withdrawalProbability() const
 {
-	if (getDomainType() == DOMAIN_LAND && plot()->isWater())
+	if (getDomainType() == DOMAIN_LAND && plot()->isWater() && !canMoveAllTerrain())
 	{
 		return 0;
 	}
