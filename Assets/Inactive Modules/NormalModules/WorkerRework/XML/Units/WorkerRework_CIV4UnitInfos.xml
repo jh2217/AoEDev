@@ -767,6 +767,14 @@
 					<UnitAIType>UNITAI_WORKER</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_RESERVE</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
 			<Builds>
 				<Build>
@@ -834,9 +842,7 @@
 					<bBuild>1</bBuild>
 				</Build>
 			</Builds>
-			<PrereqBuilding>BUILDING_PAGAN_TEMPLE_MEKARA</PrereqBuilding>
-			<PrereqTech>TECH_KNOWLEDGE_OF_THE_ETHER</PrereqTech>
-			<iCost>120</iCost>
+			<iCost>100</iCost>
 			<iMoves>2</iMoves>
 			<iWorkRate>100</iWorkRate>
 			<iAsset>0</iAsset>
@@ -856,7 +862,7 @@
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 				<FreePromotion>
-					<PromotionType>PROMOTION_OVERSEER</PromotionType>
+					<PromotionType>PROMOTION_COM_OVERSEER_V2</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
@@ -871,6 +877,13 @@
 				<Promotion>PROMOTION_GC_LIMIT3</Promotion>
 			</AllowPromotions>
 			<DenyPromotions>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_3</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_MASTER</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_3</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_MASTER</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_STONESKIN_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_V2</Promotion>
 				<Promotion>PROMOTION_SKILLED1</Promotion>
 				<Promotion>PROMOTION_SKILLED2</Promotion>
 				<Promotion>PROMOTION_SKILLED3</Promotion>
