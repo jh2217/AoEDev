@@ -145,7 +145,11 @@ bool CvUnitAI::AI_update()
 
 	if (getDomainType() == DOMAIN_LAND)
 	{
-		if (plot()->isWater() && !canMoveAllTerrain())
+		// Only ignore land units if they aren't allowed on the water tile
+		if (plot()->isWater()
+		 && !canMoveAllTerrain()
+		 && !plot()->getImprovementType() != NO_IMPROVEMENT
+		 && !GC.getImprovementInfo(plot()->getImprovementType()).isActsAsCity())
 		{
 			getGroup()->pushMission(MISSION_SKIP);
 			return false;
@@ -588,11 +592,11 @@ bool CvUnitAI::AI_follow()
 	{
 		return true;
 	}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      03/31/10                              jdog5000        */
-/*                                                                                              */
-/* War tactics AI                                                                               */
-/************************************************************************************************/
+	/************************************************************************************************/
+	/* BETTER_BTS_AI_MOD                      03/31/10                              jdog5000        */
+	/*                                                                                              */
+	/* War tactics AI                                                                               */
+	/************************************************************************************************/
 	// Pushing MISSION_MOVE_TO missions when not all units could move resulted in stack being
 	// broken up on the next turn.  Also, if we can't attack now we don't want to queue up an
 	// attack for next turn, better to re-evaluate.
@@ -622,9 +626,9 @@ bool CvUnitAI::AI_follow()
 			return true;
 		}
 	}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
+	/************************************************************************************************/
+	/* BETTER_BTS_AI_MOD                       END                                                  */
+	/************************************************************************************************/
 
 	if (isFound())
 	{
