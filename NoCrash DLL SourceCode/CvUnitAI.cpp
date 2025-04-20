@@ -20030,35 +20030,36 @@ bool CvUnitAI::AI_found()
 		CvPlot* pCitySitePlot = GET_PLAYER(getOwnerINLINE()).AI_getCitySite(iI);
 
 		// Settler AI : BETTER_BTS_AI_MOD jdog5000 10/23/09
-		/* orginal BTS code
-		if (pCitySitePlot->getArea() == getArea())
-		*/
-		if (pCitySitePlot->getArea() == getArea() || canMoveAllTerrain())
+
+		if (pCitySitePlot->getArea() != getArea() && !canMoveAllTerrain())
+			continue;
+
+		if (!canFound(pCitySitePlot))
+			continue;
+
+		if (pCitySitePlot->isVisibleEnemyUnit(this))
+			continue;
+
+		// Disallow if we have another AI doing the same mission to the same plot
+		if (GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_FOUND, getGroup()) > 0)
+			continue;
+
+		// Disallow if current group can't defend and there aren't any other city guard missions enroute to that plot
+		if (!(getGroup()->canDefend() || isHasPromotion((PromotionTypes)GC.getDefineINT("PROMOTION_STARTING_SETTLER"))) && GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_GUARD_CITY) == 0)
+			continue;
+
+		// Must be able to actually generate a path
+		if (!generatePath(pCitySitePlot, MOVE_SAFE_TERRITORY, true, &iPathTurns))
+			continue;
+
+		iValue = pCitySitePlot->getFoundValue(getOwnerINLINE());
+		iValue *= 1000;
+		iValue /= (iPathTurns + 1);
+		if (iValue > iBestFoundValue)
 		{
-			if (canFound(pCitySitePlot))
-			{
-				if (!(pCitySitePlot->isVisibleEnemyUnit(this)))
-				{
-					if (GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_FOUND, getGroup()) == 0)
-					{
-						if (getGroup()->canDefend() || GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_GUARD_CITY) > 0)
-						{
-							if (generatePath(pCitySitePlot, MOVE_SAFE_TERRITORY, true, &iPathTurns))
-							{
-								iValue = pCitySitePlot->getFoundValue(getOwnerINLINE());
-								iValue *= 1000;
-								iValue /= (iPathTurns + 1);
-								if (iValue > iBestFoundValue)
-								{
-									iBestFoundValue = iValue;
-									pBestPlot = getPathEndTurnPlot();
-									pBestFoundPlot = pCitySitePlot;
-								}
-							}
-						}
-					}
-				}
-			}
+			iBestFoundValue = iValue;
+			pBestPlot = getPathEndTurnPlot();
+			pBestFoundPlot = pCitySitePlot;
 		}
 	}
 
