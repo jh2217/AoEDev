@@ -1788,14 +1788,12 @@ void CvPlayer::addFreeUnit(UnitTypes eUnit, UnitAITypes eUnitAI)
 			{
 				if (!(GC.getUnitInfo(eUnit).isFound()))
 				{
-
-//FfH: Modified by Kael 09/16/2008
-//					iRandOffset = GC.getGameINLINE().getSorenRandNum(NUM_CITY_PLOTS, "Place Units (Player)");
-//					for (iI = 0; iI < NUM_CITY_PLOTS; iI++)
+					//FfH: Modified by Kael 09/16/2008
+					// iRandOffset = GC.getGameINLINE().getSorenRandNum(NUM_CITY_PLOTS, "Place Units (Player)");
+					// for (iI = 0; iI < NUM_CITY_PLOTS; iI++)
 					iRandOffset = GC.getGameINLINE().getSorenRandNum(21, "Place Units (Player)");
 					for (iI = 0; iI < 21; iI++)
-//FfH: End Modify
-
+					//FfH: End Modify
 					{
 						pLoopPlot = plotCity(pStartingPlot->getX_INLINE(), pStartingPlot->getY_INLINE(), ((iI + iRandOffset) % NUM_CITY_PLOTS));
 
@@ -1803,22 +1801,15 @@ void CvPlayer::addFreeUnit(UnitTypes eUnit, UnitAITypes eUnitAI)
 						{
 							if (pLoopPlot->getArea() == pStartingPlot->getArea())
 							{
-/*************************************************************************************************/
-/**	Mountain Mod 		 		expanded by Ahwaric	22.09.09		**/
-/*************************************************************************************************/
+								// Mountain Mod : Ahwaric 22.09.09
 								if ((!(pLoopPlot->isImpassable())) && (!(pLoopPlot->isPeak())))
-/*************************************************************************************************/
-/**	Mountain Mod END									**/
-/*************************************************************************************************/
 								{
 									if (!(pLoopPlot->isUnit()))
 									{
-
-//FfH: Modified by Kael 09/16/2008
-//										if (!(pLoopPlot->isGoody()))
+										//FfH: Modified by Kael 09/16/2008
+										// if (!(pLoopPlot->isGoody()))
 										if (pLoopPlot->getImprovementType() == NO_IMPROVEMENT)
-//FfH: End Modify
-
+										//FfH: End Modify
 										{
 											pBestPlot = pLoopPlot;
 											break;
@@ -1837,8 +1828,8 @@ void CvPlayer::addFreeUnit(UnitTypes eUnit, UnitAITypes eUnitAI)
 			pBestPlot = pStartingPlot;
 		}
 
-//FfH: Modified by Kael 08/13/2007
-//		initUnit(eUnit, pBestPlot->getX_INLINE(), pBestPlot->getY_INLINE(), eUnitAI);
+		//FfH: Modified by Kael 08/13/2007
+		// initUnit(eUnit, pBestPlot->getX_INLINE(), pBestPlot->getY_INLINE(), eUnitAI);
 		CvUnit* pUnit = initUnit(eUnit, pBestPlot->getX_INLINE(), pBestPlot->getY_INLINE(), eUnitAI);
 		if (GC.getUnitInfo(eUnit).getDefaultUnitAIType() == UNITAI_SETTLE)
 		{
@@ -1847,8 +1838,7 @@ void CvPlayer::addFreeUnit(UnitTypes eUnit, UnitAITypes eUnitAI)
 				pUnit->setHasPromotion((PromotionTypes)GC.getDefineINT("STARTING_SETTLER_PROMOTION"), true);
 			}
 		}
-//FfH: End Add
-
+		//FfH: End Add
 	}
 }
 
