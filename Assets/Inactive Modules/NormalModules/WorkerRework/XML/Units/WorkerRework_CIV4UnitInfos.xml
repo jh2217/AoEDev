@@ -751,8 +751,8 @@
 		
 		
 		<UnitInfo>        <!-- Overseer -->
-			<Class>UNITCLASS_OVERSEER</Class>
-			<Type>UNIT_OVERSEER</Type>
+			<Class>UNITCLASS_WORKER</Class>
+			<Type>UNIT_OVERSEER_V2</Type>
 			<Combat>UNITCOMBAT_WORKER</Combat>
 			<DefaultUnitAI>UNITAI_WORKER</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_OVERSEER</Description>

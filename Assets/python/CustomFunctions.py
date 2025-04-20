@@ -1717,7 +1717,7 @@ class CustomFunctions:
 
 		Civ			= self.Civilizations
 
-		if pPlayer.getNumCities() > 0 and pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MEKARA') and pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_IRAM'):
+		if pPlayer.getNumCities() > 0 and pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MEKARA_V2') and pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_IRAM'):
 			Civic			= self.Civics
 			Building		= self.Buildings
 			Specialist		= self.Specialists

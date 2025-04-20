@@ -1095,7 +1095,7 @@
 		<SpawnGroupInfo>	<!--  Militia Patrol -->
 			<Type>SPAWN_GROUP_MILITIA</Type>
 			<AndDependencyTypes>
-				<DependencyType>CIVILIZATION_MEKARA</DependencyType>
+				<DependencyType>CIVILIZATION_MEKARA_V2</DependencyType>
 			</AndDependencyTypes>
 			<Description>TXT_KEY_SPAWN_GROUP_MILITIA</Description>
 			<iWeight>1000</iWeight>
