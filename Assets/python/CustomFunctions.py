@@ -1702,7 +1702,7 @@ class CustomFunctions:
 			iMekaraMod = 10000
 
 		if iMekaraSpawn >= iMekaraMod:
-			spawnUnit = pPlayer.initUnit(self.Units[gc.getInfoTypeForString('CIVILIZATION_MEKARA_V2')]["Aspirant"], pCapital.getX(), pCapital.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+			spawnUnit = pPlayer.initUnit(self.Units["Mekara Order"]["Aspirant"], pCapital.getX(), pCapital.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 			pPlayer.changeCivCounter(0 - iMekaraMod)
 			pPlayer.changeCivCounterMod(2000)
 

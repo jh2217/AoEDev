@@ -1260,7 +1260,7 @@ class CvMainInterface:
 			#*************************************************************************************************#
 			#** Spawn Probability - Mekara - Aspirant                                                       **#
 			#*************************************************************************************************#
-				if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MEKARA') and pPlayer.getNumCities() > 0 and pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_IRAM'):
+				if pPlayer.getCivilizationType() == gc.getInfoTypeForString('CIVILIZATION_MEKARA_V2') and pPlayer.getNumCities() > 0 and pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_IRAM'):
 					iSpawnOdds  = pPlayer.getCivCounter() # spawn chance, rounded to 2 digits from the decimal point
 					iInteger    = iSpawnOdds / 100
 					iDecimal    = iSpawnOdds % 100
