@@ -7532,31 +7532,16 @@ void CvPlot::resetFeatureModel()
 
 BonusTypes CvPlot::getBonusType(TeamTypes eTeam) const
 {
-	if (eTeam != NO_TEAM)
-	{
-		if (m_eBonusType != NO_BONUS)
-		{
-			if(GET_TEAM(eTeam).isRevealBonus((BonusTypes)m_eBonusType))
-				return (BonusTypes)m_eBonusType;
-/*************************************************************************************************/
-/**	DousingRod							09/12/08									Xienwolf	**/
-/**																								**/
-/**						Simulates Ability to See Resources if Team is Flagged					**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-			if (!GET_TEAM(eTeam).isHasTech((TechTypes)(GC.getBonusInfo((BonusTypes)m_eBonusType).getTechReveal())) && !GET_TEAM(eTeam).isForceRevealedBonus((BonusTypes)m_eBonusType))
-/**								----  End Original Code  ----									**/
-			if (!GET_TEAM(eTeam).isHasTech((TechTypes)(GC.getBonusInfo((BonusTypes)m_eBonusType).getTechReveal())) && !GET_TEAM(eTeam).isForceRevealedBonus((BonusTypes)m_eBonusType) && !(GET_TEAM(eTeam).getRevealAllBonuses() > 0) )
-/*************************************************************************************************/
-/**	DousingRod									END												**/
-/*************************************************************************************************/
-			{
-				return NO_BONUS;
-			}
-		}
-	}
+	if (eTeam == NO_TEAM
+	 || m_eBonusType == NO_BONUS
+	 || GET_TEAM(eTeam).isRevealBonus((BonusTypes)m_eBonusType)
+	 // Simulates Ability to See Resources if Team is Flagged : DousingRod Xienwolf 09/12/08
+	 || GET_TEAM(eTeam).isHasTech((TechTypes)(GC.getBonusInfo((BonusTypes)m_eBonusType).getTechReveal()))
+	 || GET_TEAM(eTeam).isForceRevealedBonus((BonusTypes)m_eBonusType)
+	 || (GET_TEAM(eTeam).getRevealAllBonuses() > 0))
+		return (BonusTypes)m_eBonusType;
 
-	return (BonusTypes)m_eBonusType;
+	return NO_BONUS;
 }
 
 
@@ -12877,6 +12862,10 @@ bool CvPlot::canTrigger(EventTriggerTypes eTrigger, PlayerTypes ePlayer) const
 
 		for (int i = 0; i < kTrigger.getNumBonusesRequired(); ++i)
 		{
+			// Requesting no bonus requries no bonus, even if can't see it
+			if (kTrigger.getBonusRequired(i) == NO_BONUS && getBonusType(NO_TEAM) != NO_BONUS)
+				return false;
+
 			if (kTrigger.getBonusRequired(i) == getBonusType(kTrigger.isOwnPlot() ? GET_PLAYER(ePlayer).getTeam() : NO_TEAM))
 			{
 				bFoundValid = true;
