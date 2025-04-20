@@ -20044,8 +20044,8 @@ bool CvUnitAI::AI_found()
 		if (GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_FOUND, getGroup()) > 0)
 			continue;
 
-		// Disallow if current group can't defend and there aren't any other city guard missions enroute to that plot
-		if (!(getGroup()->canDefend() || isHasPromotion((PromotionTypes)GC.getDefineINT("PROMOTION_STARTING_SETTLER"))) && GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_GUARD_CITY) == 0)
+		// Disallow if current group can't defend and there aren't any other city guard missions enroute to that plot. Also allow faster AI settling : Blazenclaw AI_SpeedySettle
+		if (!(getGroup()->canDefend() || isHasPromotion((PromotionTypes)GC.getDefineINT("STARTING_SETTLER_PROMOTION"))) && GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_GUARD_CITY) == 0)
 			continue;
 
 		// Must be able to actually generate a path

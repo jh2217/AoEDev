@@ -15627,6 +15627,15 @@ bool CvUnit::canJoinGroup(const CvPlot* pPlot, CvSelectionGroup* pSelectionGroup
 		}
 	}
 
+	// Horrible, terrible hack to prevent AI from only moving starting settler one tile at a time : Blazenclaw AI_SpeedySettle
+	if (!isHuman())
+	{
+		if (isHasPromotion((PromotionTypes)GC.getDefineINT("STARTING_SETTLER_PROMOTION")))
+			return false;
+		if (pSelectionGroup->getHeadUnit() != NULL && pSelectionGroup->getHeadUnit()->isHasPromotion((PromotionTypes)GC.getDefineINT("STARTING_SETTLER_PROMOTION")))
+			return false;
+	}
+
 	if (pSelectionGroup->getNumUnits() > 0)
 	{
 		if (!(pSelectionGroup->atPlot(pPlot)))
@@ -15639,13 +15648,13 @@ bool CvUnit::canJoinGroup(const CvPlot* pPlot, CvSelectionGroup* pSelectionGroup
 			return false;
 		}
 
-/*************************************************************************************************/
-/**	Xienwolf Tweak							01/04/09											**/
-/**																								**/
-/**							Allows HN units to group with each other							**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-//FfH: Added by Kael 11/14/2007
+		/*************************************************************************************************/
+		/**	Xienwolf Tweak							01/04/09											**/
+		/**																								**/
+		/**							Allows HN units to group with each other							**/
+		/*************************************************************************************************/
+		/**								---- Start Original Code ----									**
+		//FfH: Added by Kael 11/14/2007
 		if (isAIControl())
 		{
 			return false;
@@ -15666,8 +15675,8 @@ bool CvUnit::canJoinGroup(const CvPlot* pPlot, CvSelectionGroup* pSelectionGroup
 				return false;
 			}
 		}
-//FfH: End Add
-/**								----  End Original Code  ----									**/
+		//FfH: End Add
+		/**								----  End Original Code  ----									**/
 		pHeadUnit = pSelectionGroup->getHeadUnit();
 		if (pHeadUnit != NULL)
 		{
@@ -15684,9 +15693,9 @@ bool CvUnit::canJoinGroup(const CvPlot* pPlot, CvSelectionGroup* pSelectionGroup
 				return false;
 			}
 		}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
+		/*************************************************************************************************/
+		/**	Tweak									END													**/
+		/*************************************************************************************************/
 	}
 
 	return true;
