@@ -346,7 +346,7 @@ class FoxTools:
 		Civ["Malakim"]              = git('CIVILIZATION_MALAKIM')
 		Civ["Mazatl"]               = git('CIVILIZATION_MAZATL')
 		Civ["Mechanos"]             = git('CIVILIZATION_MECHANOS')
-		Civ["Mekara Order"]         = git('CIVILIZATION_MEKARA')
+		Civ["Mekara Order"]         = git('CIVILIZATION_MEKARA_V2')
 		Civ["Mercurians"]           = git('CIVILIZATION_MERCURIANS')
 		Civ["Scions"]               = git('CIVILIZATION_SCIONS')
 		Civ["Sheaim"]               = git('CIVILIZATION_SHEAIM')
