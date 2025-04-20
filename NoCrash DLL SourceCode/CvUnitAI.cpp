@@ -20014,54 +20014,6 @@ bool CvUnitAI::AI_pillageRange(int iRange, int iBonusValueThreshold)
 bool CvUnitAI::AI_found()
 {
 	PROFILE_FUNC();
-//
-//	CvPlot* pLoopPlot;
-//	CvPlot* pBestPlot;
-//	CvPlot* pBestFoundPlot;
-//	int iPathTurns;
-//	int iValue;
-//	int iBestValue;
-//	int iI;
-//
-//	iBestValue = 0;
-//	pBestPlot = NULL;
-//	pBestFoundPlot = NULL;
-//
-//	for (iI = 0; iI < GC.getMapINLINE().numPlotsINLINE(); iI++)
-//	{
-//		pLoopPlot = GC.getMapINLINE().plotByIndexINLINE(iI);
-//
-//		if (AI_plotValid(pLoopPlot) && (pLoopPlot != plot() || GET_PLAYER(getOwnerINLINE()).AI_getPlotDanger(pLoopPlot, 1) <= pLoopPlot->plotCount(PUF_canDefend, -1, -1, getOwnerINLINE())))
-//		{
-//			if (canFound(pLoopPlot))
-//			{
-//				iValue = pLoopPlot->getFoundValue(getOwnerINLINE());
-//
-//				if (iValue > 0)
-//				{
-//					if (!(pLoopPlot->isVisibleEnemyUnit(this)))
-//					{
-//						if (GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pLoopPlot, MISSIONAI_FOUND, getGroup(), 3) == 0)
-//						{
-//							if (generatePath(pLoopPlot, MOVE_SAFE_TERRITORY, true, &iPathTurns))
-//							{
-//								iValue *= 1000;
-//
-//								iValue /= (iPathTurns + 1);
-//
-//								if (iValue > iBestValue)
-//								{
-//									iBestValue = iValue;
-//									pBestPlot = getPathEndTurnPlot();
-//									pBestFoundPlot = pLoopPlot;
-//								}
-//							}
-//						}
-//					}
-//				}
-//			}
-//		}
-//	}
 
 	int iPathTurns;
 	int iValue;
@@ -20072,18 +20024,12 @@ bool CvUnitAI::AI_found()
 	for (int iI = 0; iI < GET_PLAYER(getOwnerINLINE()).AI_getNumCitySites(); iI++)
 	{
 		CvPlot* pCitySitePlot = GET_PLAYER(getOwnerINLINE()).AI_getCitySite(iI);
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      10/23/09                                jdog5000      */
-/*                                                                                              */
-/* Settler AI                                                                                   */
-/************************************************************************************************/
-/* orginal BTS code
+
+		// Settler AI : BETTER_BTS_AI_MOD jdog5000 10/23/09
+		/* orginal BTS code
 		if (pCitySitePlot->getArea() == getArea())
-*/
+		*/
 		if (pCitySitePlot->getArea() == getArea() || canMoveAllTerrain())
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
 		{
 			if (canFound(pCitySitePlot))
 			{
