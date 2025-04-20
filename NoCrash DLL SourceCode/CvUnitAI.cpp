@@ -1947,43 +1947,7 @@ void CvUnitAI::AI_settleMove()
 	if (AI_AddPopToCity())
 		return;
 
-/*************************************************************************************************/
-/**	Speedup								11/02/12										Snarko	**/
-/**																								**/
-/**		For the few cases where getPlotDanger is still used, use a threshold where possible		**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	int iDanger = GET_PLAYER(getOwnerINLINE()).AI_getPlotDanger(plot(), 3);
-
-	if (iDanger > 0)
-	{
-/*************************************************************************************************/
-/**	Tweak								15/07/10										Snarko	**/
-/**																								**/
-/**							Making settlers not as scared when protected						**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		if ((plot()->getOwnerINLINE() == getOwnerINLINE()) || (iDanger > 2))
-/**								----  End Original Code  ----									**/
-/**								---- Start Original Code ----									**
-		if (iDanger > getGroup()->canFight(true, true))
-		{
-			joinGroup(NULL);
-			if (AI_retreatToCity())
-			{
-				return;
-			}
-			if (AI_safety())
-			{
-				return;
-			}
-			getGroup()->pushMission(MISSION_SKIP);
-		}
-	}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-/**								----  End Original Code  ----									**/
+	// For the few cases where getPlotDanger is still used, use a threshold where possible : Speedup Snarko 11/02/12
 	if (GET_PLAYER(getOwnerINLINE()).AI_getPlotDanger(plot(), 3, true, getGroup()->canFight(true, true)))
 	{
 		joinGroup(NULL);
@@ -1997,9 +1961,6 @@ void CvUnitAI::AI_settleMove()
 		}
 		getGroup()->pushMission(MISSION_SKIP);
 	}
-/*************************************************************************************************/
-/**	Speedup									END													**/
-/*************************************************************************************************/
 
 
 	int iAreaBestFoundValue = 0;
@@ -2008,19 +1969,13 @@ void CvUnitAI::AI_settleMove()
 	for (int iI = 0; iI < GET_PLAYER(getOwnerINLINE()).AI_getNumCitySites(); iI++)
 	{
 		CvPlot* pCitySitePlot = GET_PLAYER(getOwnerINLINE()).AI_getCitySite(iI);
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                       01/10/09                                jdog5000      */
-/*                                                                                              */
-/* Bugfix, settler AI                                                                           */
-/************************************************************************************************/
-/* original bts code
+
+		// Bugfix, settler AI : UNOFFICIAL_PATCH jdog5000 01/10/09
+		/* original bts code
 		if (pCitySitePlot->getArea() == getArea())
-*/
+		*/
 		// Only count city sites we can get to
 		if ((pCitySitePlot->getArea() == getArea() || canMoveAllTerrain()) && generatePath(pCitySitePlot, MOVE_NO_ENEMY_TERRITORY, true))
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                        END                                                  */
-/************************************************************************************************/
 		{
 			if (plot() == pCitySitePlot)
 			{
@@ -2039,12 +1994,7 @@ void CvUnitAI::AI_settleMove()
 		}
 	}
 
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      01/16/09                                jdog5000      */
-/*                                                                                              */
-/* Gold AI                                                                                      */
-/************************************************************************************************/
-	// No new settling of colonies when AI is in financial trouble
+	// No new settling of colonies when AI is in financial trouble (Gold AI) : BETTER_BTS_AI_MOD jdog5000 01/16/09
 	if( plot()->isCity() && (plot()->getOwnerINLINE() == getOwnerINLINE()) )
 	{
 		if( GET_PLAYER(getOwnerINLINE()).AI_isFinancialTrouble() )
@@ -2052,10 +2002,6 @@ void CvUnitAI::AI_settleMove()
 			iOtherBestFoundValue = 0;
 		}
 	}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
-
 
 	if ((iAreaBestFoundValue == 0) && (iOtherBestFoundValue == 0))
 	{
@@ -2068,25 +2014,17 @@ void CvUnitAI::AI_settleMove()
 
 			if (NULL == getTransportUnit())
 			{
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      11/30/08                                jdog5000      */
-/*                                                                                              */
-/* Unit AI                                                                                      */
-/************************************************************************************************/
-/* original bts code
-				//may seem wasteful, but settlers confuse the AI.
+				//may seem wasteful, but settlers confuse the AI (Unit AI) : BETTER_BTS_AI_MOD jdog5000 11/30/08
+				/* original bts code
 				scrap();
 				return;
-*/
+				*/
 				if( GET_PLAYER(getOwnerINLINE()).AI_unitTargetMissionAIs(getGroup()->getHeadUnit(), MISSIONAI_PICKUP) == 0 )
 				{
 					//may seem wasteful, but settlers confuse the AI.
 					scrap();
 					return;
 				}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
 			}
 		}
 	}
@@ -2102,13 +2040,13 @@ void CvUnitAI::AI_settleMove()
 		}
 	}
 
-/*************************************************************************************************/
-/**	K-mod merger								16/02/12								Snarko	**/
-/**																								**/
-/**					Merging in features of K-mod, most notably the pathfinder					**/
-/*************************************************************************************************/
-// disabled by K-Mod. We go to a lot of trouble to pick good city sites. Don't let this mess it up for us!
-/**								---- Start Original Code ----									**
+	/*************************************************************************************************/
+	/**	K-mod merger								16/02/12								Snarko	**/
+	/**																								**/
+	/**					Merging in features of K-mod, most notably the pathfinder					**/
+	/*************************************************************************************************/
+	// disabled by K-Mod. We go to a lot of trouble to pick good city sites. Don't let this mess it up for us!
+	/**								---- Start Original Code ----									**
 	if ((iAreaBestFoundValue > 0) && plot()->isBestAdjacentFound(getOwnerINLINE()))
 	{
 		if (canFound(plot()))
@@ -2117,22 +2055,13 @@ void CvUnitAI::AI_settleMove()
 			return;
 		}
 	}
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	K-mod merger								END												**/
-/*************************************************************************************************/
+	/**								----  End Original Code  ----									**/
 
-/*************************************************************************************************/
-/**	Improved AI							01/05/11										Snarko	**/
-/**									Adapting AI to RifE											**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
+	// Adapting AI to RifE : Improved AI Snarko 01/05/11
+	/**								---- Start Original Code ----									**
 	if (!GC.getGameINLINE().isOption(GAMEOPTION_ALWAYS_PEACE) && !GC.getGameINLINE().isOption(GAMEOPTION_AGGRESSIVE_AI) && !getGroup()->canDefend())
-/**								----  End Original Code  ----									**/
+	/**								----  End Original Code  ----									**/
 	if (!GC.getGameINLINE().isOption(GAMEOPTION_ALWAYS_PEACE) && (getGroup()->canFight(true, true) < 2))
-/*************************************************************************************************/
-/**	Improved AI								END													**/
-/*************************************************************************************************/
 	{
 		if (AI_retreatToCity())
 		{
@@ -2142,29 +2071,16 @@ void CvUnitAI::AI_settleMove()
 
 	if (plot()->isCity() && (plot()->getOwnerINLINE() == getOwnerINLINE()))
 	{
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      08/20/09                                jdog5000      */
-/*                                                                                              */
-/* Unit AI, Efficiency                                                                          */
-/************************************************************************************************/
+		// Unit AI, Efficiency : BETTER_BTS_AI_MOD jdog5000 08/20/09
 		//if ((GET_PLAYER(getOwnerINLINE()).AI_getPlotDanger(plot()) > 0)
 		if ((GET_PLAYER(getOwnerINLINE()).AI_getAnyPlotDanger(plot()))
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
 			&& (GC.getGameINLINE().getMaxCityElimination() > 0))
 		{
-/*************************************************************************************************/
-/**	Improved AI							01/05/11										Snarko	**/
-/**									Adapting AI to RifE											**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
+			// Adapting AI to RifE : Improved AI Snarko 01/05/11
+			/**								---- Start Original Code ----									**
 			if (getGroup()->getNumUnits() < 3)
-/**								----  End Original Code  ----									**/
+			/**								----  End Original Code  ----									**/
 			if (getGroup()->canFight(true, true) < 2)
-/*************************************************************************************************/
-/**	Improved AI								END													**/
-/*************************************************************************************************/
 			{
 				getGroup()->pushMission(MISSION_SKIP);
 				return;
@@ -2195,11 +2111,7 @@ void CvUnitAI::AI_settleMove()
 		return;
 	}
 
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      09/18/09                                jdog5000      */
-/*                                                                                              */
-/* Settler AI                                                                                   */
-/************************************************************************************************/
+	// BETTER_BTS_AI_MOD : Settler AI jdog5000 09/18/09
 	if( getGroup()->isStranded() )
 	{
 		if (AI_load(UNITAI_SETTLER_SEA, MISSIONAI_LOAD_SETTLER, NO_UNITAI, -1, -1, -1, -1, MOVE_NO_ENEMY_TERRITORY, 1))
@@ -2207,9 +2119,6 @@ void CvUnitAI::AI_settleMove()
 			return;
 		}
 	}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
 
 	if (AI_safety())
 	{
