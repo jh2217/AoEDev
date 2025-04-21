@@ -3988,6 +3988,7 @@ int CvCityAI::AI_buildingValue(BuildingTypes eBuilding, int iFocusFlags)
 
 // XXX should some of these count cities, buildings, etc. based on teams (because wonders are shared...)
 // XXX in general, this function needs to be more sensitive to what makes this city unique (more likely to build airports if there already is a harbor...)
+// TODO: Add awareness for unhappyProduction, OverflowProduction, probably others
 int CvCityAI::AI_buildingValueThreshold(BuildingTypes eBuilding, int iFocusFlags, int iThreshold)
 {
 	PROFILE_FUNC();

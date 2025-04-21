@@ -4577,6 +4577,7 @@ public:
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 	bool isSeeInvisible() const;
+	bool isOverflowProduction() const;
 	bool isUnhappyProduction() const;
 	int getCrime() const;
 	int getFreePromotionPick() const;
@@ -5001,6 +5002,7 @@ protected:
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 	bool m_bSeeInvisible;
+	bool m_bOverflowProduction;
 	bool m_bUnhappyProduction;
 	int m_iCrime;
 	int m_iCrimePerTurn;

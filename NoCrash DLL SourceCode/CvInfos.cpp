@@ -20940,6 +20940,7 @@ m_bPrereqNoFreshWater(false),
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 m_bSeeInvisible(false),
+m_bOverflowProduction(false),
 m_bUnhappyProduction(false),
 m_iCrime(0),
 m_iFreePromotionPick(0),
@@ -21979,6 +21980,11 @@ bool CvBuildingInfo::isSeeInvisible() const
 	return m_bSeeInvisible;
 }
 
+bool CvBuildingInfo::isOverflowProduction() const
+{
+	return m_bOverflowProduction;
+}
+
 bool CvBuildingInfo::isUnhappyProduction() const
 {
 	return m_bUnhappyProduction;
@@ -22965,6 +22971,7 @@ void CvBuildingInfo::read(FDataStreamBase* stream)
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 	stream->Read(&m_bSeeInvisible);
+	stream->Read(&m_bOverflowProduction);
 	stream->Read(&m_bUnhappyProduction);
 	stream->Read(&m_iCrime);
 	stream->Read(&m_iFreePromotionPick);
@@ -23584,6 +23591,7 @@ void CvBuildingInfo::write(FDataStreamBase* stream)
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 	stream->Write(m_bSeeInvisible);
+	stream->Write(m_bOverflowProduction);
 	stream->Write(m_bUnhappyProduction);
 	stream->Write(m_iCrime);
 	stream->Write(m_iFreePromotionPick);
@@ -24161,6 +24169,7 @@ bool CvBuildingInfo::read(CvXMLLoadUtility* pXML)
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 	pXML->GetChildXmlValByName(&m_bSeeInvisible, "bSeeInvisible");
+	pXML->GetChildXmlValByName(&m_bOverflowProduction, "bOverflowProduction");
 	pXML->GetChildXmlValByName(&m_bUnhappyProduction, "bUnhappyProduction");
 	pXML->GetChildXmlValByName(&m_iCrime, "iCrime");
 	pXML->GetChildXmlValByName(&m_iFreePromotionPick, "iFreePromotionPick");
@@ -24823,6 +24832,7 @@ void CvBuildingInfo::copyNonDefaults(CvBuildingInfo* pClassInfo, CvXMLLoadUtilit
 	if (isNoCivicAnger()						== false)				m_bNoCivicAnger						= pClassInfo->isNoCivicAnger();
 	if (isRequiresCaster()						== false)				m_bRequiresCaster					= pClassInfo->isRequiresCaster();
 	if (isSeeInvisible()						== false)				m_bSeeInvisible						= pClassInfo->isSeeInvisible();
+	if (isOverflowProduction()					== false)				m_bOverflowProduction				= pClassInfo->isOverflowProduction();
 	if (isUnhappyProduction()					== false)				m_bUnhappyProduction				= pClassInfo->isUnhappyProduction();
 	if (isCarriesFreshWater()					== false)				m_bCarriesFreshWater				= pClassInfo->isCarriesFreshWater();
 	if (isPrereqNoFreshWater() == false)				m_bPrereqNoFreshWater = pClassInfo->isPrereqNoFreshWater();

@@ -3623,6 +3623,7 @@
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAsset>12</iAsset>
 			<fVisibilityPriority>100</fVisibilityPriority>
+			<bOverflowProduction>1</bOverflowProduction> <!-- Enables the city it's in to build multiple things per turn if production suffices -->
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -12055,6 +12056,7 @@
 					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
+			<bOverflowProduction>1</bOverflowProduction>
 			<GreatPeopleUnitClass>UNITCLASS_ENGINEER</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
 			<iCost>200</iCost>
