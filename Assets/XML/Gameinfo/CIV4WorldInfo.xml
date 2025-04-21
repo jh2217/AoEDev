@@ -30,7 +30,7 @@
 			<iCorporationMaintenancePercent>200</iCorporationMaintenancePercent>
 			<iNumCitiesAnarchyPercent>11</iNumCitiesAnarchyPercent>
 			<iAdvancedStartPointsMod>80</iAdvancedStartPointsMod>
-			<iMaxCitiesMod>-1</iMaxCitiesMod>
+			<iMaxCitiesMod>-2</iMaxCitiesMod>
 			<iUniqueFeatureChance>-45</iUniqueFeatureChance>
 		</WorldInfo>
 		<WorldInfo>
@@ -82,7 +82,7 @@
 			<iCorporationMaintenancePercent>150</iCorporationMaintenancePercent>
 			<iNumCitiesAnarchyPercent>9</iNumCitiesAnarchyPercent>
 			<iAdvancedStartPointsMod>90</iAdvancedStartPointsMod>
-			<iMaxCitiesMod>0</iMaxCitiesMod>
+			<iMaxCitiesMod>-1</iMaxCitiesMod>
 			<iUniqueFeatureChance>-15</iUniqueFeatureChance>
 		</WorldInfo>
 		<WorldInfo>
@@ -160,7 +160,7 @@
 			<iCorporationMaintenancePercent>100</iCorporationMaintenancePercent>
 			<iNumCitiesAnarchyPercent>6</iNumCitiesAnarchyPercent>
 			<iAdvancedStartPointsMod>120</iAdvancedStartPointsMod>
-			<iMaxCitiesMod>2</iMaxCitiesMod>
+			<iMaxCitiesMod>3</iMaxCitiesMod>
 			<iUniqueFeatureChance>20</iUniqueFeatureChance>
 		</WorldInfo>
 		<WorldInfo>
@@ -186,7 +186,7 @@
 			<iCorporationMaintenancePercent>100</iCorporationMaintenancePercent>
 			<iNumCitiesAnarchyPercent>6</iNumCitiesAnarchyPercent>
 			<iAdvancedStartPointsMod>120</iAdvancedStartPointsMod>
-			<iMaxCitiesMod>4</iMaxCitiesMod>
+			<iMaxCitiesMod>9</iMaxCitiesMod>
 			<iUniqueFeatureChance>40</iUniqueFeatureChance>
 		</WorldInfo>
 	</WorldInfos>
