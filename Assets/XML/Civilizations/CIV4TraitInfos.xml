@@ -853,6 +853,7 @@
 			<Description>TXT_KEY_TRAIT_SPRAWLING</Description>
 			<Civilopedia>TXT_KEY_TRAIT_SPRAWLING_PEDIA</Civilopedia>
 			<ShortDescription>TXT_KEY_TRAIT_SPRAWLING_SHORT</ShortDescription>
+			<bOverflowProduction>1</bOverflowProduction>
 			<iHappiness>3</iHappiness>
 			<bSprawling>1</bSprawling>
 			<iMaxCities>3</iMaxCities>

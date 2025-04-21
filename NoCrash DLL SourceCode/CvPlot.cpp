@@ -765,12 +765,7 @@ void CvPlot::doTurn()
 /*************************************************************************************************/
 /**	Flavour Mod								END													**/
 /*************************************************************************************************/
-	/*
-	if (!isOwned())
-	{
-		doImprovementUpgrade();
-	}
-	*/
+
 	if (getPlotEffectType() != NO_PLOT_EFFECT)
 	{
 		if (GC.getPlotEffectInfo((PlotEffectTypes)getPlotEffectType()).getTurnDamage() != 0)
@@ -1112,6 +1107,7 @@ void CvPlot::doImprovementUpgrade()
 
 	// ? : Hinterlands Valkrionn 07/11/09
 	int iUpgradeTurns = GC.getGameINLINE().getImprovementUpgradeTime(getImprovementType());
+	// For things that can upgrade as soon as requirements are met
 	if (iUpgradeTurns == 0)
 	{
 		int iUpgradeChance = 0, iUpgradeOdds = 0;
@@ -1140,6 +1136,7 @@ void CvPlot::doImprovementUpgrade()
 			}
 		}
 	}
+	// Check and evaluate upgrade timer improvements
 	else
 	{
 		//FfH: Modified by Kael 05/12/2008
