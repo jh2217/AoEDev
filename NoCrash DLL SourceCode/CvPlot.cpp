@@ -1015,6 +1015,14 @@ void CvPlot::doImprovement()
 {
 	PROFILE_FUNC();
 
+	if (getImprovementType() == NO_IMPROVEMENT)
+		return;
+
+	doImprovementUpgrade();
+
+	if (getBonusType() != NO_BONUS)
+		return;
+
 	CvCity* pCity;
 	CvWString szBuffer;
 	int iI;
@@ -1024,75 +1032,67 @@ void CvPlot::doImprovement()
 
 	FAssert(isBeingWorked() && isOwned());
 
-	if (getImprovementType() != NO_IMPROVEMENT)
+	FAssertMsg((0 < GC.getNumBonusInfos()), "GC.getNumBonusInfos() is not greater than zero but an array is being allocated in CvPlot::doImprovement");
+	for (iI = 0; iI < GC.getNumBonusInfos(); ++iI)
 	{
-		if (getBonusType() == NO_BONUS)
+		if (!GET_TEAM(getTeam()).isHasTech((TechTypes)(GC.getBonusInfo((BonusTypes) iI).getTechReveal())))
+			continue;
+
+		// SpreadBonus : Opera 28/08/09
+		if (GC.getImprovementInfo(getImprovementType()).getImprovementBonusSpreadRand(iI) > 0)
 		{
-			FAssertMsg((0 < GC.getNumBonusInfos()), "GC.getNumBonusInfos() is not greater than zero but an array is being allocated in CvPlot::doImprovement");
-			for (iI = 0; iI < GC.getNumBonusInfos(); ++iI)
+			iChance = GC.getImprovementInfo(getImprovementType()).getImprovementBonusSpreadRand(iI);
+			if (isOwned() && (100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier()) != 0)
 			{
-				if (GET_TEAM(getTeam()).isHasTech((TechTypes)(GC.getBonusInfo((BonusTypes) iI).getTechReveal())))
+				iChance *= 100;
+				iChance /= 100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier();
+			}
+
+			if (GET_PLAYER(getOwnerINLINE()).hasBonus((BonusTypes)iI))
+			{
+				if (GC.getGameINLINE().getSorenRandNum(iChance, "Bonus Spreading") == 0)
 				{
-					// SpreadBonus : Opera 28/08/09
-					if (GC.getImprovementInfo(getImprovementType()).getImprovementBonusSpreadRand(iI) > 0)
+					setBonusType((BonusTypes)iI);
+
+					pCity = GC.getMapINLINE().findCity(getX_INLINE(), getY_INLINE(), getOwnerINLINE(), NO_TEAM, false);
+
+					if (pCity != NULL)
 					{
-						iChance = GC.getImprovementInfo(getImprovementType()).getImprovementBonusSpreadRand(iI);
-						if (isOwned() && (100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier()) != 0)
-						{
-							iChance *= 100;
-							iChance /= 100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier();
-						}
-
-						if (GET_PLAYER(getOwnerINLINE()).hasBonus((BonusTypes)iI))
-						{
-							if (GC.getGameINLINE().getSorenRandNum(iChance, "Bonus Spreading") == 0)
-							{
-								setBonusType((BonusTypes)iI);
-
-								pCity = GC.getMapINLINE().findCity(getX_INLINE(), getY_INLINE(), getOwnerINLINE(), NO_TEAM, false);
-
-								if (pCity != NULL)
-								{
-									szBuffer = gDLL->getText("TXT_KEY_MISC_DISCOVERED_NEW_RESOURCE", GC.getBonusInfo((BonusTypes) iI).getTextKeyWide(), pCity->getNameKey());
-									gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MINOR_EVENT, GC.getBonusInfo((BonusTypes) iI).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), getX_INLINE(), getY_INLINE(), true, true);
-								}
-
-								break;
-							}
-						}
+						szBuffer = gDLL->getText("TXT_KEY_MISC_DISCOVERED_NEW_RESOURCE", GC.getBonusInfo((BonusTypes) iI).getTextKeyWide(), pCity->getNameKey());
+						gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MINOR_EVENT, GC.getBonusInfo((BonusTypes) iI).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), getX_INLINE(), getY_INLINE(), true, true);
 					}
 
-					if (GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI) > 0)
-					{
-						//FfH Mana Effects: Modified by Kael 08/21/2007
-						// if (GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI), "Bonus Discovery") == 0)
-						iChance = GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI);
-						if (isOwned() && (100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier()) != 0)
-						{
-							iChance *= 100;
-							iChance /= 100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier();
-						}
-						if (GC.getGameINLINE().getSorenRandNum(iChance, "Bonus Discovery") == 0)
-						{
-							setBonusType((BonusTypes)iI);
-
-							pCity = GC.getMapINLINE().findCity(getX_INLINE(), getY_INLINE(), getOwnerINLINE(), NO_TEAM, false);
-
-							if (pCity != NULL)
-							{
-								szBuffer = gDLL->getText("TXT_KEY_MISC_DISCOVERED_NEW_RESOURCE", GC.getBonusInfo((BonusTypes) iI).getTextKeyWide(), pCity->getNameKey());
-								gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MINOR_EVENT, GC.getBonusInfo((BonusTypes) iI).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), getX_INLINE(), getY_INLINE(), true, true);
-							}
-
-							break;
-						}
-					}
+					break;
 				}
 			}
 		}
-	}
 
-	doImprovementUpgrade();
+		if (GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI) > 0)
+		{
+			//FfH Mana Effects: Modified by Kael 08/21/2007
+			// if (GC.getGameINLINE().getSorenRandNum(GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI), "Bonus Discovery") == 0)
+			iChance = GC.getImprovementInfo(getImprovementType()).getImprovementBonusDiscoverRand(iI);
+			if (isOwned() && (100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier()) != 0)
+			{
+				iChance *= 100;
+				iChance /= 100 + GET_PLAYER(getOwnerINLINE()).getDiscoverRandModifier();
+			}
+			if (GC.getGameINLINE().getSorenRandNum(iChance, "Bonus Discovery") == 0)
+			{
+				setBonusType((BonusTypes)iI);
+
+				pCity = GC.getMapINLINE().findCity(getX_INLINE(), getY_INLINE(), getOwnerINLINE(), NO_TEAM, false);
+
+				if (pCity != NULL)
+				{
+					szBuffer = gDLL->getText("TXT_KEY_MISC_DISCOVERED_NEW_RESOURCE", GC.getBonusInfo((BonusTypes) iI).getTextKeyWide(), pCity->getNameKey());
+					gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_DISCOVERBONUS", MESSAGE_TYPE_MINOR_EVENT, GC.getBonusInfo((BonusTypes) iI).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), getX_INLINE(), getY_INLINE(), true, true);
+				}
+
+				break;
+			}
+		}
+	}
 }
 
 
