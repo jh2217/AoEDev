@@ -14,6 +14,8 @@
 			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
 			<iCasterMinLevel>4</iCasterMinLevel>
 			<bAllowAI>1</bAllowAI>
+			<bHasCasted>0</bHasCasted>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
 			<iAIWeight>300</iAIWeight>
 			<bBuffCasterOnly>1</bBuffCasterOnly>
 			<ConvertUnitType>UNIT_GIANT_SPIDER</ConvertUnitType>
@@ -22,6 +24,7 @@
 			<Effect>EFFECT_IMPROVEMENT_GOODYHUT_POP</Effect>
 			<Sound>AS3D_SPELL_COMMANDER_JOIN</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/GrowthSpurts.dds</Button>
+			<bForceOverwrite>1</bForceOverwrite>
 		</SpellInfo>
 		<SpellInfo>			<!-- Wake Mother -->
 			<Type>SPELL_WAKE_MOTHER</Type>
@@ -383,7 +386,7 @@
 			<Help>TXT_KEY_SPELL_PSALM_FOR_THE_SWARM_HELP</Help>
 			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
 			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
-			<bAllowAI>0</bAllowAI>
+			<bAllowAI>1</bAllowAI>
 			<bHasCasted>1</bHasCasted>
 			<bInBordersOnly>1</bInBordersOnly>
 			<bInCityOnly>1</bInCityOnly>
@@ -437,5 +440,65 @@
 			<Button>Art/Modules/Arachnophobia/Buttons/Cannibalize.dds</Button>
 		</SpellInfo>
 
+		<SpellInfo>			<!-- Mount Spider (Huntress) -->
+			<Type>SPELL_MOUNT_SPIDER_HUNTRESS</Type>
+			<Description>TXT_KEY_SPELL_MOUNT_SPIDER_HUNTRESS</Description>
+			<Help>TXT_KEY_SPELL_MOUNT_SPIDER_HUNTRESS_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<UnitPrereq>UNIT_SPEARMAN</UnitPrereq>
+			<UnitInStackPrereq>UNIT_SPIDER</UnitInStackPrereq>
+			<TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<ConvertUnitType>UNIT_SPIDER_HUNTRESS</ConvertUnitType>
+			<PyResult>spellMountSpider(pCaster)</PyResult>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Mount_Spider.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Mount Spider (Knightess) -->
+			<Type>SPELL_MOUNT_SPIDER_KNIGHTESS</Type>
+			<Description>TXT_KEY_SPELL_MOUNT_SPIDER_KNIGHTESS</Description>
+			<Help>TXT_KEY_SPELL_MOUNT_SPIDER_KNIGHTESS_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<UnitPrereq>UNIT_PIKEMAN</UnitPrereq>
+			<UnitInStackPrereq>UNIT_SPIDER</UnitInStackPrereq>
+			<TechPrereq>TECH_STIRRUPS</TechPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<ConvertUnitType>UNIT_SPIDER_KNIGHTESS</ConvertUnitType>
+			<PyResult>spellMountSpider(pCaster)</PyResult>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Mount_Spider.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Dismount Spider (Huntress) -->
+			<Type>SPELL_DISMOUNT_SPIDER_HUNTRESS</Type>
+			<Description>TXT_KEY_SPELL_DISMOUNT_SPIDER_HUNTRESS</Description>
+			<Help>TXT_KEY_SPELL_DISMOUNT_SPIDER_HUNTRESS_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<UnitPrereq>UNIT_SPIDER_HUNTRESS</UnitPrereq>
+			<TechPrereq>TECH_BRONZE_WORKING</TechPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<ConvertUnitType>UNIT_SPEARMAN</ConvertUnitType>
+			<PyResult>spellDismountSpider(pCaster)</PyResult>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Dismount_Spider.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Dismount Spider (Knightess) -->
+			<Type>SPELL_DISMOUNT_SPIDER_KNIGHTESS</Type>
+			<Description>TXT_KEY_SPELL_DISMOUNT_SPIDER_KNIGHTESS</Description>
+			<Help>TXT_KEY_SPELL_DISMOUNT_SPIDER_KNIGHTESS_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<UnitPrereq>UNIT_SPIDER_KNIGHTESS</UnitPrereq>
+			<TechPrereq>TECH_IRON_WORKING</TechPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<ConvertUnitType>UNIT_PIKEMAN</ConvertUnitType>
+			<PyResult>spellDismountSpider(pCaster)</PyResult>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Dismount_Spider.dds</Button>
+		</SpellInfo>
 	</SpellInfos>
 </Civ4SpellInfos>

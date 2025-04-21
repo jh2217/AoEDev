@@ -1351,7 +1351,19 @@
 			<PromotionBuilds>
 				<PromotionBuild>BUILD_FEEDING_PEN</PromotionBuild>
 			</PromotionBuilds>
+			<PromotionCannotBuilds>
+				<PromotionBuild>BUILD_PASTURE</PromotionBuild>
+			</PromotionCannotBuilds>
 			<Button>,Art/Interface/Teamcolor/archosbutton.dds</Button>
+		</PromotionInfo>
+		
+		<PromotionInfo>		<!-- No Exp (for dismounted spider) -->
+			<Type>PROMOTION_NO_EXP</Type>
+			<Description>TXT_KEY_PROMOTION_NO_EXP</Description>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<iExperiencePercent>-100</iExperiencePercent>
+			<Button>Art/Modules/Arachnophobia/Buttons/No_Exp.dds</Button>
 		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>
