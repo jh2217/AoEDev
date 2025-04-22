@@ -265,7 +265,7 @@
 				<BonusTypeStruct>
 					<BonusType>BONUS_CORAL_REEF</BonusType>
 					<bBonusMakesValid>1</bBonusMakesValid>
-					<bBonusTrade>0</bBonusTrade>
+					<bBonusTrade>1</bBonusTrade>
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>1750</iSpreadRand>
 					<YieldChanges>
