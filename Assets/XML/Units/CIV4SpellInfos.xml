@@ -10746,9 +10746,9 @@
 				<RemovePromotion>PROMOTION_CAMBION</RemovePromotion>
 				<RemovePromotion>PROMOTION_GREATER_SHADE</RemovePromotion>
 			</RemovePromotions>
-			<AddPromotions>
+		<!--	<AddPromotions>
 				<AddPromotion>PROMOTION_SLUGA_ABILITIES_V2</AddPromotion>
-			</AddPromotions>
+			</AddPromotions>-->
 			<Effect>EFFECT_SPELL1</Effect>
 			<Sound>AS3D_SPELL_SPRING</Sound>
 			<Button>Art/Interface/Buttons/Units/Scions/worker.dds</Button>
@@ -10890,8 +10890,8 @@
 				<RemovePromotion>PROMOTION_MOBILITY1</RemovePromotion>
 				<RemovePromotion>PROMOTION_MOBILITY2</RemovePromotion>
 			</RemovePromotions>
+<!--			<AddPromotion>PROMOTION_DOUBLE_GC_REQUIREMENT_V2</AddPromotion>-->
 			<AddPromotions>
-				<AddPromotion>PROMOTION_DOUBLE_GC_REQUIREMENT_V2</AddPromotion>
 				<AddPromotion>PROMOTION_COM_SLUGA_ABILITIES_V2</AddPromotion>
 			</AddPromotions>
 			<PyResult>spellFormSlugaBehemoth(pCaster)</PyResult>
@@ -11012,8 +11012,9 @@
 			<Description>TXT_KEY_SPELL_ENTER_ARENA</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
 			<Help>TXT_KEY_SPELL_ENTER_ARENA_HELP</Help>
+			<!-- Zaria wants happy buildings and also a use for slaves -->
 			<PrereqTraits>
-			   <PrereqTrait>TRAIT_ZARIA_INFO</PrereqTrait> <!-- Zaria wants happy buildings and also a use for slaves -->
+			   <PrereqTrait>TRAIT_ZARIA_INFO</PrereqTrait> 
 			</PrereqTraits>
 			<BuildingPrereq>BUILDING_COLOSSEUM</BuildingPrereq>
 			<PromotionPrereq1>PROMOTION_MEKARA_GLADIATOR_TAG</PromotionPrereq1>	

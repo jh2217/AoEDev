@@ -634,7 +634,7 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 		parseCityClassHelp(widgetDataStruct, szBuffer);
 		break;
 	case WIDGET_PEDIA_JUMP_TO_ROUTE:
-			parseRouteHelp(widgetDataStruct, szBuffer);
+		parseRouteHelp(widgetDataStruct, szBuffer);
 		break;
 
 	case WIDGET_PEDIA_DESCRIPTION:

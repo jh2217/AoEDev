@@ -24,21 +24,24 @@
 			<iLairCreationWeight>0</iLairCreationWeight> <!-- If above 0, allows lair to spawn as a lair during the game provided terrain and feature prereqs are met. Use LairCreationWeightTechs to allow spawn after gamestart -->
 			<bExplorable>1</bExplorable> <!-- Means units can explore to destroy/pillage it. If ImprovementPillage is set, will change to that. Recommend setting with GoodyClasses... -->
 			<iLairTier>1</iLairTier> <!-- For AI. 1 is minor stuff, 2 is moderate, 3 is UFs. Roughly matches to the tier of a unit the AI will consider using to explore with -->
-			<GoodyClasses> <!-- Look at goody classes for options -->
+			<!-- Look at goody classes for options -->
+			<GoodyClasses> 
 				<GoodyClass>
 					<GoodyClassType>GOODYCLASS_GENERIC_MINOR</GoodyClassType>
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
 			</GoodyClasses>
+			<!-- Multiply civs that have this tech by the weight to adjust iLairCreationWeight. -->
 			<LairCreationWeightTechs>
 				<LairCreationWeightTech>
-					<LairCreationWeightTechType>TECH_BRONZE_WORKING</LairCreationWeightTechType> <!-- Multiply civs that have this tech by the weight to adjust iLairCreationWeight. -->
+					<LairCreationWeightTechType>TECH_BRONZE_WORKING</LairCreationWeightTechType> 
 					<iLairCreationWeightTech>-20</iLairCreationWeightTech>
 				</LairCreationWeightTech>
 			</LairCreationWeightTechs>
+			<!-- Multiply civs that have this tech by the weight. If sum weight is positive, allows upgrade to ImprovementUpgrade -->
 			<LairUpgradeTechs>
 				<LairUpgradeTech>
-					<LairUpgradeTechType>TECH_BRONZE_WORKING</LairUpgradeTechType> <!-- Multiply civs that have this tech by the weight. If sum weight is positive, allows upgrade to ImprovementUpgrade -->
+					<LairUpgradeTechType>TECH_BRONZE_WORKING</LairUpgradeTechType> 
 					<iLairUpgradeTech>30</iLairUpgradeTech>
 				</LairUpgradeTech>
 			</LairUpgradeTechs>
