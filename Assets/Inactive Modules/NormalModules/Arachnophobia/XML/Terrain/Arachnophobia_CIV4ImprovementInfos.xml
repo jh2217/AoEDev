@@ -12,11 +12,6 @@
 			<Civilopedia>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_PEDIA</Civilopedia>
 			<Help>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_HELP</Help>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_MAZE_OF_WEBS</ArtDefineTag>
-			<YieldChanges>
-				<iYieldChange>0</iYieldChange>
-				<iYieldChange>0</iYieldChange>
-				<iYieldChange>1</iYieldChange>
-			</YieldChanges>
 			<bRequiresFeature>1</bRequiresFeature>
 			<iAdvancedStartCost>24</iAdvancedStartCost>
 			<iAirBombDefense>5</iAirBombDefense>
@@ -42,24 +37,6 @@
 					<bMakesValid>1</bMakesValid>
 				</FeatureMakesValid>
 			</FeatureMakesValids>
-			<TechYieldChanges>
-				<TechYieldChange>
-					<PrereqTech>TECH_POISONS</PrereqTech>
-					<TechYields>
-						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>1</iYield>
-					</TechYields>
-				</TechYieldChange>
-				<TechYieldChange>
-					<PrereqTech>TECH_COMMUNE_WITH_NATURE</PrereqTech>
-					<TechYields>
-						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>1</iYield>
-					</TechYields>
-				</TechYieldChange>
-			</TechYieldChanges>
 			<PythonOnMove>onMoveMazeOfWebs(pCaster, pPlot)</PythonOnMove>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Feeding Pen -->

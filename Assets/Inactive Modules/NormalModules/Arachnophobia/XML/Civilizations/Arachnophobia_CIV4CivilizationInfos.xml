@@ -46,6 +46,18 @@
 			</Cities>
 			<Buildings>
 				<Building>
+					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+					<BuildingType>BUILDING_PALACE_ARCHOS</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GROVE</BuildingClassType>
+					<BuildingType>BUILDING_DARK_WEALD</BuildingType>
+				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_DUNGEON</BuildingClassType>
+					<BuildingType>BUILDING_FEEDING_PIT</BuildingType>
+				</Building>
+				<Building>
 					<BuildingClassType>BUILDINGCLASS_ALCHEMY_LAB</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
@@ -70,39 +82,11 @@
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
-					<BuildingType>BUILDING_PALACE_ARCHOS</BuildingType>
-				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_GROVE</BuildingClassType>
-					<BuildingType>BUILDING_DARK_WEALD</BuildingType>
-				</Building>
-				<Building>
 					<BuildingClassType>BUILDINGCLASS_CRIME_BREAKOUT</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
-				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_CRIME_BREAKOUT</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
-				<Building>
-					<BuildingClassType>BUILDINGCLASS_DUNGEON</BuildingClassType>
-					<BuildingType>BUILDING_FEEDING_PIT</BuildingType>
 				</Building>
 			</Buildings>
 			<Units>
-				<Unit>
-					<UnitClassType>UNITCLASS_FORT_COMMANDER</UnitClassType>
-					<UnitType>UNIT_NESTING_SPIDER</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ADEPT</UnitClassType>
-					<UnitType>UNIT_SHAMAN</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MOTHER_SPIDER</UnitClassType>
-					<UnitType>UNIT_MOTHER_SPIDER</UnitType>
-				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_BABY_SPIDER</UnitClassType>
 					<UnitType>UNIT_BABY_SPIDER</UnitType>
@@ -116,24 +100,12 @@
 					<UnitType>UNIT_GIANT_SPIDER</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
-					<UnitType>UNIT_TRIBESMAN</UnitType>
+					<UnitClassType>UNITCLASS_FORT_COMMANDER</UnitClassType>
+					<UnitType>UNIT_NESTING_SPIDER</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
-					<UnitType>UNIT_BRUTE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_CHAMPION</UnitClassType>
-					<UnitType>UNIT_CHOSEN</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_HUNTER</UnitClassType>
-					<UnitType>UNIT_HUNTSMAN</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_RANGER</UnitClassType>
-					<UnitType>UNIT_RECLUSE</UnitType>
+					<UnitClassType>UNITCLASS_MOTHER_SPIDER</UnitClassType>
+					<UnitType>UNIT_MOTHER_SPIDER</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_BEASTMASTER</UnitClassType>
@@ -144,24 +116,12 @@
 					<UnitType>UNIT_HARUSPEX</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_PHALANX</UnitClassType>
-					<UnitType>NONE</UnitType>
+					<UnitClassType>UNITCLASS_BERSERKER</UnitClassType>
+					<UnitType>UNIT_DEEP_ENWEBBED</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_IMMORTAL</UnitClassType>
-					<UnitType>UNIT_ETERNAL</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ARQUEBUS</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MARKSMAN</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_CANNON</UnitClassType>
-					<UnitType>NONE</UnitType>
+					<UnitType>UNIT_MOTHERS_MOST_FAITHFUL</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
@@ -176,11 +136,31 @@
 					<UnitType>UNIT_WAR_SPIDER</UnitType>
 				</Unit>
 				<Unit>
+					<UnitClassType>UNITCLASS_ADEPT</UnitClassType>
+					<UnitType>UNIT_SHAMAN</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PHALANX</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
 					<UnitClassType>UNITCLASS_CHARIOT</UnitClassType>
 					<UnitType>NONE</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_WAR_CHARIOT</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MARKSMAN</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARQUEBUS</UnitClassType>
+					<UnitType>NONE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CANNON</UnitClassType>
 					<UnitType>NONE</UnitType>
 				</Unit>
 			</Units>
@@ -250,6 +230,17 @@
 			<MaintainFeatures>
 			</MaintainFeatures>
 			<Image>Art/Interface/Popups/Civ/ArchosBanner.dds</Image>
+			
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_MAZE_OF_WEBS</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
 			<bForceOverwrite>1</bForceOverwrite>
 		</CivilizationInfo>
 	</CivilizationInfos>

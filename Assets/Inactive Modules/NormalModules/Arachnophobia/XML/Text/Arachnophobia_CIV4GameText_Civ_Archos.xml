@@ -46,7 +46,7 @@
 		<Spanish>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting [LINK=BUILDING_PALACE_ARCHOS]Silksong Cradle[\LINK] reaches 11 population.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_SPIDERKIN_PEDIA</Tag>
+		<Tag>TXT_KEY_UNIT_SPIDERKIN_PEDIA_NEW</Tag>
 		<English>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</English>
 		<French>Les Veneurs Archosiens passent des semaines dans les contr�es sauvages d'Erebus, pistant ses proies avec son compagnon Araign�e. Lorsqu'il faut frapper, l'Araign�e attaque et paralyse sa cible avec son venin avant que le Veneur fasse le tir mortel. Le clan a v�cu avec les Araign�es depuis si longtemps que le venin pr�sent dans la carcasse n'est plus mortel pour eux (m�me s'il continue de prendre son d�). [NEWLINE][NEWLINE]Quand un bin�me de chasse survit suffisamment longtemps pour �tre remarqu�, ils peuvent �tre envoy�s encore plus loin pour chasser des proies encore plus dangereuses. L'Araign�e devient plus dangereuse � mesure qu'elle grandit et le Reclus compte encore plus sur elle. [NEWLINE][NEWLINE]Les chasseurs les plus efficaces peuvent d�couvrir qu'ils d�veloppent des mutations tandis qu'ils continuent de manger la viande empoisonn�e de leurs victimes. Elles sont vues comme des "pr�sents" de la M�re et un signe que le chasseur est favoris�. N'importe comment, la plupart de ces mutations se r�v�lent b�n�fiques en combat et l'Arachnomorphe est pratiquement immunis� � tout empoisonnement ult�rieur.</French>
 		<German>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]Die erfolgreichsten J�ger m�gen Mutationen an sich bemerken, wenn sie nur kontinuierlich das vergiftete Fleisch ihrer Beute verzehren. Dies wird als ein "Geschenk" von Mutter und als Zeichen ihrer Gunst angesehen. In jedem Fall entpuppen sich viele dieser Mutationen als n�tzlich im Kampf, so sind die Sipplinge der Spinnentiere z.B. praktisch immun gegen weitere Vergiftungen.</German>
@@ -743,5 +743,110 @@
 		<German>Archosian Worker</German>
 		<Italian>Archosian Worker</Italian>
 		<Spanish>Archosian Worker</Spanish>
+	</TEXT>
+
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_MOUNT_SPIDER_HUNTRESS</Tag>
+		<English>Mount Spider</English>
+		<French>Mount Spider</French>
+		<German>Mount Spider</German>
+		<Italian>Mount Spider</Italian>
+		<Spanish>Mount Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_MOUNT_SPIDER_HUNTRESS_HELP</Tag>
+		<English>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</English>
+		<French>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</French>
+		<German>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</German>
+		<Italian>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_MOUNT_SPIDER_KNIGHTESS</Tag>
+		<English>Mount Spider</English>
+		<French>Mount Spider</French>
+		<German>Mount Spider</German>
+		<Italian>Mount Spider</Italian>
+		<Spanish>Mount Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_MOUNT_SPIDER_KNIGHTESS_HELP</Tag>
+		<English>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</English>
+		<French>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</French>
+		<German>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</German>
+		<Italian>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DISMOUNT_SPIDER_HUNTRESS</Tag>
+		<English>Dismount Spider</English>
+		<French>Dismount Spider</French>
+		<German>Dismount Spider</German>
+		<Italian>Dismount Spider</Italian>
+		<Spanish>Dismount Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DISMOUNT_SPIDER_HUNTRESS_HELP</Tag>
+		<English>[ICON_BULLET]Dismount to become a [LINK=UNIT_SPEARMAN]Spearman[\LINK]</English>
+		<French>[ICON_BULLET]Dismount to become a [LINK=UNIT_SPEARMAN]Spearman[\LINK]</French>
+		<German>[ICON_BULLET]Dismount to become a [LINK=UNIT_SPEARMAN]Spearman[\LINK]</German>
+		<Italian>[ICON_BULLET]Dismount to become a [LINK=UNIT_SPEARMAN]Spearman[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Dismount to become a [LINK=UNIT_SPEARMAN]Spearman[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DISMOUNT_SPIDER_KNIGHTESS</Tag>
+		<English>Dismount Spider</English>
+		<French>Dismount Spider</French>
+		<German>Dismount Spider</German>
+		<Italian>Dismount Spider</Italian>
+		<Spanish>Dismount Spider</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_DISMOUNT_SPIDER_KNIGHTESS_HELP</Tag>
+		<English>[ICON_BULLET]Dismount to become a [LINK=UNIT_PIKEMAN]Pikeman[\LINK]</English>
+		<French>[ICON_BULLET]Dismount to become a [LINK=UNIT_PIKEMAN]Pikeman[\LINK]</French>
+		<German>[ICON_BULLET]Dismount to become a [LINK=UNIT_PIKEMAN]Pikeman[\LINK]</German>
+		<Italian>[ICON_BULLET]Dismount to become a [LINK=UNIT_PIKEMAN]Pikeman[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Dismount to become a [LINK=UNIT_PIKEMAN]Pikeman[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NO_EXP</Tag>
+		<English>No Exp</English>
+		<French>No Exp</French>
+		<German>No Exp</German>
+		<Italian>No Exp</Italian>
+		<Spanish>No Exp</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DEEP_ENWEBBED</Tag>
+		<English>Deep Enwebbed</English>
+		<French>Deep Enwebbed</French>
+		<German>Deep Enwebbed</German>
+		<Italian>Deep Enwebbed</Italian>
+		<Spanish>Deep Enwebbed</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_DEEP_ENWEBBED_PEDIA</Tag>
+		<English>In the darkest recesses of the caverns crawled things that are neither spider nor man - and infinitely more terrible than both.</English>
+		<French>In the darkest recesses of the caverns crawled things that are neither spider nor man - and infinitely more terrible than both.</French>
+		<German>In the darkest recesses of the caverns crawled things that are neither spider nor man - and infinitely more terrible than both.</German>
+		<Italian>In the darkest recesses of the caverns crawled things that are neither spider nor man - and infinitely more terrible than both.</Italian>
+		<Spanish>In the darkest recesses of the caverns crawled things that are neither spider nor man - and infinitely more terrible than both.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOTHERS_MOST_FAITHFUL</Tag>
+		<English>Mother's Most Faithful</English>
+		<French>Mother's Most Faithful</French>
+		<German>Mother's Most Faithful</German>
+		<Italian>Mother's Most Faithful</Italian>
+		<Spanish>Mother's Most Faithful</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_MOTHERS_MOST_FAITHFUL_PEDIA</Tag>
+		<English>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</English>
+		<French>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</French>
+		<German>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</German>
+		<Italian>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</Italian>
+		<Spanish>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</Spanish>
 	</TEXT>
 </Civ4GameText>
