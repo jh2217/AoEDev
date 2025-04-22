@@ -3733,18 +3733,9 @@ int CvGame::getImprovementUpgradeTime(ImprovementTypes eImprovement) const
 	iTime *= GC.getGameSpeedInfo(getGameSpeedType()).getImprovementPercent();
 	iTime /= 100;
 
-/*************************************************************************************************/
-/**	Xienwolf Tweak							06/18/09											**/
-/**																								**/
-/**							They use Era in the WIERDEST places...								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	iTime *= GC.getEraInfo(getStartEra()).getImprovementPercent();
-	iTime /= 100;
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
+	// They use Era in the WIERDEST places... original code below for posterity : Xienwolf 06/18/09
+	// iTime *= GC.getEraInfo(getStartEra()).getImprovementPercent();
+	// iTime /= 100;
 
 	return iTime;
 }

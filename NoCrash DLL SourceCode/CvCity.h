@@ -1143,6 +1143,8 @@ public:
 	int getNumCityPlots() const;
 	int getPlotRadius() const;
 	void setPlotRadius(int iNewValue);
+	bool isOverflowProduction() const;
+	void changeOverflowProductionSources(int iChange);
 	bool isUnhappyProduction() const;
 	void changeUnhappyProduction(int iChange);
 	void changeCrime(int iChange);
@@ -1656,6 +1658,7 @@ protected:
 	int m_iMutateChance;
 	int m_iPlotRadius;
 	int m_iResistMagic;
+	int m_iOverflowProductionSources;
 	int m_iUnhappyProduction;
 //FfH: End Add
 /*************************************************************************************************/

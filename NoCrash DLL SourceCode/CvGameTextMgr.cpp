@@ -19286,6 +19286,11 @@ void CvGameTextMgr::setBuildingHelp(CvWStringBuffer &szBuffer, BuildingTypes eBu
 		szBuffer.append(NEWLINE);
 		szBuffer.append(gDLL->getText("TXT_KEY_BUILDING_HIDE_UNITS"));
 	}
+	if (kBuilding.isOverflowProduction())
+	{
+		szBuffer.append(NEWLINE);
+		szBuffer.append(gDLL->getText("TXT_KEY_CIVIC_OVERFLOW_PRODUCTION"));
+	}
 	if (kBuilding.isUnhappyProduction())
 	{
 		szBuffer.append(NEWLINE);
