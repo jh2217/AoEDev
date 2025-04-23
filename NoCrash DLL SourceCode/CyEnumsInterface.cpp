@@ -686,9 +686,9 @@ void CyEnumsPythonInterface()
 /**								Adds new Game Options											**/
 /*************************************************************************************************/
 		.value("GAMEOPTION_LIMITED_CIVILIZATION_SELECTION", GAMEOPTION_LIMITED_CIVILIZATION_SELECTION)
+		.value("GAMEOPTION_NO_ANIMALS", GAMEOPTION_NO_ANIMALS)
 		.value("GAMEOPTION_NO_DEMONS", GAMEOPTION_NO_DEMONS)
 		.value("GAMEOPTION_NO_RANDOM_BARBARIANS", GAMEOPTION_NO_RANDOM_BARBARIANS)
-		.value("GAMEOPTION_NO_ANIMALS", GAMEOPTION_NO_ANIMALS)
 		.value("GAMEOPTION_RELIGIOUS_HUD", GAMEOPTION_RELIGIOUS_HUD)
 		.value("GAMEOPTION_BROADER_ALIGNMENTS", GAMEOPTION_BROADER_ALIGNMENTS)
 /*************************************************************************************************/
