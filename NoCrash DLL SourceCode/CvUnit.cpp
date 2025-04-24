@@ -3320,12 +3320,11 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 	CombatDetails cdAttackerDetails;
 	CombatDetails cdDefenderDetails;
 
-//FfH: Modified by Kael 01/14/2009
-//	int iAttackerStrength = currCombatStr(NULL, NULL, &cdAttackerDetails);
-//	int iAttackerFirepower = currFirepower(NULL, NULL);
+	//FfH: Modified by Kael 01/14/2009
+	// Strength is vs defender strength, modified by health
+	// Firepower is (average of strength and max strength) + (0.5 ???)
 	int iAttackerStrength = currCombatStr(NULL, pDefender, &cdAttackerDetails);
 	int iAttackerFirepower = currFirepower(NULL, pDefender);
-//FfH: End Modify
 
 	int iDefenderStrength;
 	int iAttackerDamage;
@@ -3333,30 +3332,16 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 	int iDefenderOdds;
 
 	getDefenderCombatValues(*pDefender, pPlot, iAttackerStrength, iAttackerFirepower, iDefenderOdds, iDefenderStrength, iAttackerDamage, iDefenderDamage, &cdDefenderDetails);
-/*************************************************************************************************/
-/**	UnitStatistics							07/18/08	Written: Teg Navanis Imported: Xienwolf	**/
-/**																								**/
-/**							Sends Combat Initiation Information to Python						**/
-/*************************************************************************************************/
+
+	// Sends Combat Initiation Information to Python : UnitStatistics Written: Teg Navanis Imported: Xienwolf 07/18/08
 	if (GC.getUSE_UNIT_STATISTICS_CALLBACK())
 	{
 		ReportEventToPython(pDefender, getCombatOdds(this, pDefender), "combatBegin");
 	}
-/*************************************************************************************************/
-/**	UnitStatistics								END												**/
-/*************************************************************************************************/
+
 	int iAttackerKillOdds = iDefenderOdds * (100 - combatWithdrawalProbability(pDefender)) / 100;
 
-//FfH: Modified by Kael 08/02/2008
-//	if (isHuman() || pDefender->isHuman())
-//	{
-//		//Added ST
-//		CyArgsList pyArgsCD;
-//		pyArgsCD.add(gDLL->getPythonIFace()->makePythonObject(&cdAttackerDetails));
-//		pyArgsCD.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
-//		pyArgsCD.add(getCombatOdds(this, pDefender));
-//		CvEventReporter::getInstance().genericEvent("combatLogCalc", pyArgsCD.makeFunctionArgs());
-//	}
+	//FfH: Modified by Kael 08/02/2008 (added check for getUSE_COMBAT_RESULT_CALLBACK)
 	if(GC.getUSE_COMBAT_RESULT_CALLBACK())
 	{
 		if (isHuman() || pDefender->isHuman())
@@ -3368,125 +3353,51 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 			CvEventReporter::getInstance().genericEvent("combatLogCalc", pyArgsCD.makeFunctionArgs());
 		}
 	}
-//FfH: End Modify
 
 	collateralCombat(pPlot, pDefender);
 
-/*************************************************************************************************/
-/**	Immortal Respawn fix						3/5/2010								Cyth	**/
-/*************************************************************************************************/
+	// Immortal Respawn fix : Cyth 3/5/2010
 	setImmortDeath(false);pDefender->setImmortDeath(false);
-/*************************************************************************************************/
-/**	TEST											END											**/
-/*************************************************************************************************/
 
-
+	// Combat!
 	while (true)
 	{
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      02/21/10                                jdog5000      */
-/*                                                                                              */
-/* Lead From Behind                                                                             */
-/************************************************************************************************/
-		// From Lead From Behind by UncutDragon
-		// original
-		//if (GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("COMBAT_DIE_SIDES"), "Combat") < iDefenderOdds)
-		// modified
+		// Defender wins this round
 		if (GC.getGameINLINE().getSorenRandNum(GC.getCOMBAT_DIE_SIDES(), "Combat") < iDefenderOdds)
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
 		{
+			// Only apply if attacker is out of first strikes
 			if (getCombatFirstStrikes() == 0)
 			{
-/*************************************************************************************************/
-/**	Defensive Withdrawal   			Ahwaric  24.09.09				**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (getDamage() + iAttackerDamage >= maxHitPoints() && GC.getGameINLINE().getSorenRandNum(100, "Withdrawal") < withdrawalProbability())
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Higher hitpoints				01/02/11											Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (getDamage() + iAttackerDamage >= maxHitPoints() && (GC.getGameINLINE().getSorenRandNum(100, "Withdrawal") < withdrawalProbability() + (pDefender->getWithdrawlProbDefensive() * -1)))
-/**								----  End Original Code  ----									**/
-				if (getDamageReal() + iAttackerDamage >= maxHitPoints() && (GC.getGameINLINE().getSorenRandNum(100, "Withdrawal") < combatWithdrawalProbability(pDefender)))
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Defensive Withdrawal 		END							**/
-/*************************************************************************************************/
+				// Defensive Withdrawal Ahwaric  24.09.09 && Higher hitpoints Snarko 01/02/11
+				if (getDamageReal() + iAttackerDamage >= maxHitPoints()
+				&& (GC.getGameINLINE().getSorenRandNum(100, "Withdrawal") < combatWithdrawalProbability(pDefender)))
 				{
 					flankingStrikeCombat(pPlot, iAttackerStrength, iAttackerFirepower, iAttackerKillOdds, iDefenderDamage, pDefender);
 
-/*************************************************************************************************/
-/**	DecimalXP							11/21/08									Xienwolf	**/
-/**	CommandingPresence						05/31/09								Xienwolf	**/
-/**							Grants both units involved in a Withdrawal some XP					**/
-/**					XP Values carried as Floats now in XML, 100x value in DLL					**/
-/**	Added by Ahwaric		28.05.09	Promotion from withdrawal	**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-					changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL"), pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian());
-/**								----  End Original Code  ----									**/
+					// Grants both units involved in a Withdrawal some fractional XP, Promotion from withdrawal : DecimalXP && CommandingPresence Xienwolf 11/21/08, Ahwaric 28.05.09
 					changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL")*100, pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian(), true);
 					pDefender->changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL")*100, maxXPValue(), true, pPlot->getOwnerINLINE() == pDefender->getOwnerINLINE(), !isBarbarian(), true);
 					setHasPromotion((PromotionTypes)GC.getDefineINT("WITHDRAW_PROMOTION"), true);
-/*************************************************************************************************/
-/**	DecimalXP									END												**/
-/*************************************************************************************************/
 
-//FfH Promotions: Added by Kael 08/12/2007
+					//FfH Promotions: Added by Kael 08/12/2007
 					setFleeWithdrawl(true);
-//FfH: End Add
 
-/*************************************************************************************************/
-/**	UnitStatistics							07/18/08	Written: Teg Navanis Imported: Xienwolf	**/
-/**																								**/
-/**							Sends Combat Withdrawal Information to Python						**/
-/*************************************************************************************************/
+					// Sends Combat Withdrawal Information to Python : UnitStatistics Written: Teg Navanis Imported: Xienwolf 07/18/08
 					if (GC.getUSE_UNIT_STATISTICS_CALLBACK())
 					{
 						ReportEventToPython(pDefender, "combatWithdrawal");
 					}
-/*************************************************************************************************/
-/**	UnitStatistics								END												**/
-/*************************************************************************************************/
 					break;
 				}
 
-/*************************************************************************************************/
-/**	UnitStatistics							07/18/08	Written: Teg Navanis Imported: Xienwolf	**/
-/**																								**/
-/**							Sends Combat Damage Information to Python							**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Higher hitpoints				07/04/11											Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-			   if (GC.getUSE_UNIT_STATISTICS_CALLBACK())
-			   {
-					ReportEventToPython(pDefender, 1, std::min((maxHitPoints() - getDamage()), iAttackerDamage), "combatHit");
-			   }
-/*************************************************************************************************/
-/**	UnitStatistics								END												**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				changeDamage(iAttackerDamage, pDefender->getOwnerINLINE());
-/**								----  End Original Code  ----									**/
-			   if (GC.getUSE_UNIT_STATISTICS_CALLBACK())
-			   {
+				// UnitStatistics, Higher hitpoints
+				if (GC.getUSE_UNIT_STATISTICS_CALLBACK())
+				{
 					ReportEventToPython(pDefender, 1, std::min((maxHitPoints() - getDamageReal()), iAttackerDamage), "combatHit");
-			   }
-			   changeDamageReal(iAttackerDamage, pDefender->getOwnerINLINE());
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
+				}
+				changeDamageReal(iAttackerDamage, pDefender->getOwnerINLINE());
 
+				// Defender won, attacker has no FS, *ranged* defender still has some: show that defender is dealing first strikes
 				if (pDefender->getCombatFirstStrikes() > 0 && pDefender->isRanged())
 				{
 					kBattle.addFirstStrikes(BATTLE_UNIT_DEFENDER, 1);
@@ -3495,16 +3406,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 				cdAttackerDetails.iCurrHitPoints = currHitPoints();
 
-//FfH: Modified by Kael 08/02/2008
-//				if (isHuman() || pDefender->isHuman())
-//				{
-//					CyArgsList pyArgs;
-//					pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdAttackerDetails));
-//					pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
-//					pyArgs.add(1);
-//					pyArgs.add(iAttackerDamage);
-//					CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
-//				}
+				//FfH: Modified by Kael 08/02/2008 (added check for callback)
 				if(GC.getUSE_COMBAT_RESULT_CALLBACK())
 				{
 					if (isHuman() || pDefender->isHuman())
@@ -3517,43 +3419,17 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 						CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
 					}
 				}
-//FfH: End Modify
-
 			}
 		}
-		else
+		else // Attacker wins the round
 		{
+			// Only apply if defender is out of first strikes
 			if (pDefender->getCombatFirstStrikes() == 0)
 			{
-/*************************************************************************************************/
-/**	Higher hitpoints				31/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (pDefender->getDamage() + iDefenderDamage >= pDefender->maxHitPoints())
-/**								----  End Original Code  ----									**/
+				// Defender withdraws or dies, combat ends
 				if (pDefender->getDamageReal() + iDefenderDamage >= pDefender->maxHitPoints())
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 				{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							02/06/09											**/
-/**	UnitStatistics							07/18/08	Written: Teg Navanis Imported: Xienwolf	**/
-/**						Sends Combat Offensive Retreat Information to Python					**/
-/**								Allows Units to retreat while in cities							**/
-/**	Added by Ahwaric		28.05.09	XP on defensive withdrawal, promotion from withdrawal	**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-					if (!pPlot->isCity())
-					{
-						if (GC.getGameINLINE().getSorenRandNum(100, "Withdrawal") < pDefender->getWithdrawlProbDefensive())
-						{
-							pDefender->setFleeWithdrawl(true);
-							break;
-						}
-					}
-/**								----  End Original Code  ----									**/
+					// Allows Units to retreat while in cities, XP on defensive withdrawal, promotion from withdrawal, Python : UnitStatistics, Xienwolf Ahwaric Written: Teg Navanis 
 					if (GC.getGameINLINE().getSorenRandNum(100, "Withdrawal") < (pDefender->getWithdrawlProbDefensive(this) + getExtraEnemyWithdrawal() + enemyWithdrawalProbability()))
 					{
 						changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL")*100, pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian(), true);
@@ -3566,124 +3442,49 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 						}
 						break;
 					}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 				}
-//FfH: End Add
-/*************************************************************************************************/
-/**	Higher hitpoints				01/02/11											Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (std::min(GC.getMAX_HIT_POINTS(), pDefender->getDamage() + iDefenderDamage) > combatLimit())
-/**								----  End Original Code  ----									**/
+				// Defender "withdraws" due to attacker combat limit, combat ends
 				if (std::min(GC.getMAX_HIT_POINTS(), pDefender->getDamageReal() + iDefenderDamage) > combatLimit())
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 				{
-/*************************************************************************************************/
-/**	UnitStatistics							07/18/08	Written: Teg Navanis Imported: Xienwolf	**/
-/**																								**/
-/**							Sends Combat Damage Information to Python							**/
-/*************************************************************************************************/
 					if (GC.getUSE_UNIT_STATISTICS_CALLBACK())
 						{
-/*************************************************************************************************/
-/**	Higher hitpoints				01/02/11											Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-							ReportEventToPython(pDefender, 2, std::min((combatLimit() - pDefender->getDamage()), iDefenderDamage), "combatHit");
-/**								----  End Original Code  ----									**/
 							ReportEventToPython(pDefender, 2, std::min((combatLimit() - pDefender->getDamageReal()), iDefenderDamage), "combatHit");
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 							ReportEventToPython(pDefender, "combatWithdrawal");
 						}
-/*************************************************************************************************/
-/**	UnitStatistics								END												**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	DecimalXP							11/21/08									Xienwolf	**/
-/**	CommandingPresence						05/31/09								Xienwolf	**/
-/**					XP Values carried as Floats now in XML, 100x value in DLL					**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-					changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL"), pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian());
-/**								----  End Original Code  ----									**/
+					// CommandingPresence, DecimalXP, UnitStatistics : Xienwolf
 					changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL")*100, pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian(), true);
 					pDefender->changeExperience(GC.getDefineINT("EXPERIENCE_FROM_WITHDRAWL")*100, maxXPValue(), true, pPlot->getOwnerINLINE() == pDefender->getOwnerINLINE(), !isBarbarian(), true);
-/*************************************************************************************************/
-/**	DecimalXP									END												**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Higher hitpoints				31/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-					pDefender->setDamage(combatLimit(), getOwnerINLINE());
-/**								----  End Original Code  ----									**/
 					pDefender->setDamageReal(combatLimit(), getOwnerINLINE());
 					if (getCombatHealPercent() != 0)
 					{
-						//if (pDefender->isAlive())
-						{
-							int i = getCombatHealPercent();
+						int i = getCombatHealPercent();
 
-							if (i > getDamage())
-							{
-								i = getDamage();
-							}
-							if (i != 0)
-							{
-								changeDamage(-1 * i, NO_PLAYER);
-							}
+						if (i > getDamage())
+						{
+							i = getDamage();
+						}
+						if (i != 0)
+						{
+							changeDamage(-1 * i, NO_PLAYER);
 						}
 					}
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 
-//FfH: Added by Kael 05/27/2008
+					//FfH: Added by Kael 05/27/2008
 					setMadeAttack(true);
 					changeMoves(std::max(GC.getMOVE_DENOMINATOR(), pPlot->movementCost(this, plot())));
-//FfH: End Add
 
 					break;
 				}
 
-/*************************************************************************************************/
-/**	UnitStatistics							07/18/08	Written: Teg Navanis Imported: Xienwolf	**/
-/**																								**/
-/**							Sends Combat Damage Information to Python							**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Higher hitpoints				31/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (GC.getUSE_UNIT_STATISTICS_CALLBACK())
-				{
-					ReportEventToPython(pDefender, 2, std::min((pDefender->maxHitPoints() - pDefender->getDamage()), iDefenderDamage), "combatHit");
-				}
-/*************************************************************************************************/
-/**	UnitStatistics								END												**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				pDefender->changeDamage(iDefenderDamage, getOwnerINLINE());
-/**								----  End Original Code  ----									**/
 				if (GC.getUSE_UNIT_STATISTICS_CALLBACK())
 				{
 					ReportEventToPython(pDefender, 2, std::min((pDefender->maxHitPoints() - pDefender->getDamageReal()), iDefenderDamage), "combatHit");
 				}
-				pDefender->changeDamageReal(iDefenderDamage, getOwnerINLINE());
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 
+				// Apply damage to defender
+				pDefender->changeDamageReal(iDefenderDamage, getOwnerINLINE());
+
+				// Attacker won, defender has no first strikes, attacker is ranged: show that attacker is dealing first strikes
 				if (getCombatFirstStrikes() > 0 && isRanged())
 				{
 					kBattle.addFirstStrikes(BATTLE_UNIT_ATTACKER, 1);
@@ -3692,16 +3493,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 				cdDefenderDetails.iCurrHitPoints=pDefender->currHitPoints();
 
-//FfH: Modified by Kael 08/02/2008
-//				if (isHuman() || pDefender->isHuman())
-//				{
-//					CyArgsList pyArgs;
-//					pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdAttackerDetails));
-//					pyArgs.add(gDLL->getPythonIFace()->makePythonObject(&cdDefenderDetails));
-//					pyArgs.add(0);
-//					pyArgs.add(iDefenderDamage);
-//					CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
-//				}
+				//FfH: Modified by Kael 08/02/2008 (added check for callback)
 				if(GC.getUSE_COMBAT_RESULT_CALLBACK())
 				{
 					if (isHuman() || pDefender->isHuman())
@@ -3714,16 +3506,15 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 						CvEventReporter::getInstance().genericEvent("combatLogHit", pyArgs.makeFunctionArgs());
 					}
 				}
-//FfH: End Modify
-
 			}
 		}
 
+		// Decrement first strikes by 1 on both attacker and defender
+		// Blaze: This should probably be done before the while loop; decrease both by the min of # FS on attacker, defender
 		if (getCombatFirstStrikes() > 0)
 		{
 			changeCombatFirstStrikes(-1);
 		}
-
 		if (pDefender->getCombatFirstStrikes() > 0)
 		{
 			pDefender->changeCombatFirstStrikes(-1);
@@ -3735,20 +3526,10 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 			{
 				int iExperience = defenseXPValue();
 				iExperience = ((iExperience * iAttackerStrength) / iDefenderStrength);
-/*************************************************************************************************/
-/**	DecimalXP							11/21/08									Xienwolf	**/
-/**	CommandingPresence						05/31/09								Xienwolf	**/
-/**					XP Values carried as Floats now in XML, 100x value in DLL					**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				iExperience = range(iExperience, GC.getDefineINT("MIN_EXPERIENCE_PER_COMBAT"), GC.getDefineINT("MAX_EXPERIENCE_PER_COMBAT"));
-				pDefender->changeExperience(iExperience, maxXPValue(), true, pPlot->getOwnerINLINE() == pDefender->getOwnerINLINE(), !isBarbarian());
-/**								----  End Original Code  ----									**/
+
+				// DecimalXP, CommandinGpresence : Xienwolf
 				iExperience = range(iExperience, GC.getDefineINT("MIN_EXPERIENCE_PER_COMBAT"), GC.getDefineINT("MAX_EXPERIENCE_PER_COMBAT")*100);
 				pDefender->changeExperience(iExperience, maxXPValue(), true, pPlot->getOwnerINLINE() == pDefender->getOwnerINLINE(), !isBarbarian(), true);
-/*************************************************************************************************/
-/**	DecimalXP									END												**/
-/*************************************************************************************************/
 			}
 			else
 			{
@@ -3756,35 +3537,20 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 
 				int iExperience = pDefender->attackXPValue();
 				iExperience = ((iExperience * iDefenderStrength) / iAttackerStrength);
-/*************************************************************************************************/
-/**	DecimalXP							11/21/08									Xienwolf	**/
-/**	CommandingPresence						05/31/09								Xienwolf	**/
-/**					XP Values carried as Floats now in XML, 100x value in DLL					**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				iExperience = range(iExperience, GC.getDefineINT("MIN_EXPERIENCE_PER_COMBAT"), GC.getDefineINT("MAX_EXPERIENCE_PER_COMBAT"));
-				changeExperience(iExperience, pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian());
-/**								----  End Original Code  ----									**/
+
+				// DecimalXP, CommandinGpresence : Xienwolf
 				iExperience = range(iExperience, GC.getDefineINT("MIN_EXPERIENCE_PER_COMBAT"), GC.getDefineINT("MAX_EXPERIENCE_PER_COMBAT")*100);
 				changeExperience(iExperience, pDefender->maxXPValue(), true, pPlot->getOwnerINLINE() == getOwnerINLINE(), !pDefender->isBarbarian(), true);
-/*************************************************************************************************/
-/**	DecimalXP									END												**/
-/*************************************************************************************************/
 			}
 
 			break;
 		}
 
-/*************************************************************************************************/
-/**	Immortal Respawn fix						3/5/2010								Cyth	**/
-/*************************************************************************************************/
+		// Immortal Respawn fix : Cyth 3/5/2010
 		if(isImmortDeath() || pDefender->isImmortDeath())
 		{
 			break;
 		}
-/*************************************************************************************************/
-/**	TEST											END											**/
-/*************************************************************************************************/
 
 	}
 }
