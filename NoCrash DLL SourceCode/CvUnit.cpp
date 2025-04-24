@@ -3359,6 +3359,13 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 	// Immortal Respawn fix : Cyth 3/5/2010
 	setImmortDeath(false);pDefender->setImmortDeath(false);
 
+	// Blaze: Minor efficiency gain to do this before entering combat, for large FS numbers on attacker and defender both
+	if (getCombatFirstStrikes() > 0 && pDefender->getCombatFirstStrikes() > 0)
+	{
+		changeCombatFirstStrikes(-std::min(getCombatFirstStrikes(), pDefender->getCombatFirstStrikes()));
+		pDefender->changeCombatFirstStrikes(-std::min(getCombatFirstStrikes(), pDefender->getCombatFirstStrikes()));
+	}
+
 	// Combat!
 	while (true)
 	{
@@ -3366,7 +3373,11 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 		if (GC.getGameINLINE().getSorenRandNum(GC.getCOMBAT_DIE_SIDES(), "Combat") < iDefenderOdds)
 		{
 			// Only apply if attacker is out of first strikes
-			if (getCombatFirstStrikes() == 0)
+			if (getCombatFirstStrikes() > 0)
+			{
+				changeCombatFirstStrikes(-1);
+			}
+			else
 			{
 				// Defensive Withdrawal Ahwaric  24.09.09 && Higher hitpoints Snarko 01/02/11
 				if (getDamageReal() + iAttackerDamage >= maxHitPoints()
@@ -3423,8 +3434,12 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 		}
 		else // Attacker wins the round
 		{
-			// Only apply if defender is out of first strikes
-			if (pDefender->getCombatFirstStrikes() == 0)
+			// Only do damage if defender is out of first strikes
+			if (pDefender->getCombatFirstStrikes() > 0)
+			{
+				pDefender->changeCombatFirstStrikes(-1);
+			}
+			else
 			{
 				// Defender withdraws or dies, combat ends
 				if (pDefender->getDamageReal() + iDefenderDamage >= pDefender->maxHitPoints())
@@ -3509,17 +3524,6 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 			}
 		}
 
-		// Decrement first strikes by 1 on both attacker and defender
-		// Blaze: This should probably be done before the while loop; decrease both by the min of # FS on attacker, defender
-		if (getCombatFirstStrikes() > 0)
-		{
-			changeCombatFirstStrikes(-1);
-		}
-		if (pDefender->getCombatFirstStrikes() > 0)
-		{
-			pDefender->changeCombatFirstStrikes(-1);
-		}
-
 		if (isDead() || pDefender->isDead())
 		{
 			if (isDead())
@@ -3546,6 +3550,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 			break;
 		}
 
+		// Maybe one tier too high? Should be outside the combat while loop?? Blaze
 		// Immortal Respawn fix : Cyth 3/5/2010
 		if(isImmortDeath() || pDefender->isImmortDeath())
 		{
