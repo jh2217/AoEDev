@@ -34435,6 +34435,9 @@
 				<Promotion>PROMOTION_POISONED</Promotion>
 				<Promotion>PROMOTION_MEKARA_RITUAL_TARGET</Promotion>
 			</PromotionExcludes>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_MILITIA</Promotion>
+			</PromotionOverwrites>
 			<PromotionAllows>
 				<Promotion>PROMOTION_ASPIRANT_1</Promotion>
 				<Promotion>PROMOTION_ASPIRANT_2</Promotion>
