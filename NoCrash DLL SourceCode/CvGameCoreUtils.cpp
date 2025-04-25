@@ -1025,6 +1025,7 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 	int iMaxRounds;
 
 	// Smarter Orcs start - variable first strikes
+	int iDuplicateFS = 0;
 	int iAttackerLowFS = 0;
 	int iAttackerChanceFS = 0;
 	int iAttackerHighFS = 0;
@@ -1106,6 +1107,16 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 		iDefenderLowFS = pDefender->firstStrikes() * iFirstStrikeFactor;
 		iDefenderChanceFS = pDefender->chanceFirstStrikes() * iFirstStrikeFactor;
 		iDefenderHighFS = (iDefenderLowFS + iDefenderChanceFS);
+	}
+
+	// First strikes on both sides cancel out. Might not be necessary due to binomial math below, but oh well.
+	iDuplicateFS = std::min(iAttackerLowFS, iDefenderLowFS);
+	if (iDuplicateFS > 0)
+	{
+		iAttackerLowFS  -= iDuplicateFS;
+		iAttackerHighFS -= iDuplicateFS;
+		iDefenderLowFS  -= iDuplicateFS;
+		iDefenderHighFS -= iDuplicateFS;
 	}
 
 	// For every possible first strike event, calculate the odds of combat.
