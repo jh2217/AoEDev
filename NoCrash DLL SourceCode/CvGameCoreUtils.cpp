@@ -1004,20 +1004,13 @@ double getBinomialCoefficient(int iN, int iK) // Wiser Orcs - Combat accuracy
 // Written by DeepO
 int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 {
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	float fOddsEvent;
-	float fOddsAfterEvent;
-/**								----  End Original Code  ----									**/
+	/*************************************************************************************************/
+	/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
+	/**						Makes higher values than 100 HP possible.								**/
+	/*************************************************************************************************/
 	double fOddsEvent; // Wiser Orcs Combat accuracy
 	double fOddsAfterEvent; // Wiser Orcs Combat accuracy
 	double dOdds = 0; // Wiser Orcs Combat accuracy
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 	int iAttackerStrength;
 	int iAttackerFirepower;
 	int iDefenderStrength;
@@ -1030,54 +1023,30 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 	int iNeededRoundsAttacker;
 	int iNeededRoundsDefender;
 	int iMaxRounds;
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	int iAttackerLowFS;
-	int iAttackerHighFS;
-	int iDefenderLowFS;
-	int iDefenderHighFS;
-/**								----  End Original Code  ----									**/
+
 	// Smarter Orcs start - variable first strikes
+	int iDuplicateFS = 0;
 	int iAttackerLowFS = 0;
 	int iAttackerChanceFS = 0;
 	int iAttackerHighFS = 0;
 	int iDefenderLowFS = 0;
 	int iDefenderChanceFS = 0;
 	int iDefenderHighFS = 0;
-	// Smarter Orcs end
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
+
 	int iFirstStrikes;
 	int iDefenderHitLimit;
 	int iI;
 	int iJ;
 	int iI3;
 	int iI4;
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	int iOdds = 0;
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
+
 	// setup battle, calculate strengths and odds
-	//////
 
-	//Added ST
-
-//FfH: Modified by Kael 09/02/2007
-//	iAttackerStrength = pAttacker->currCombatStr(NULL, NULL);
-//	iAttackerFirepower = pAttacker->currFirepower(NULL, NULL);
+	// Strength is vs defender strength, modified by health
+	// Firepower is (average of strength and max strength) + (0.5 ???)
+	//FfH: Modified by Kael 09/02/2007
 	iAttackerStrength = pAttacker->currCombatStr(NULL, pDefender);
 	iAttackerFirepower = pAttacker->currFirepower(NULL, pDefender);
-//FfH: End Modify
 
 	iDefenderStrength = pDefender->currCombatStr(pDefender->plot(), pAttacker);
 	iDefenderFirepower = pDefender->currFirepower(pDefender->plot(), pAttacker);
@@ -1085,53 +1054,35 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 	FAssert((iAttackerStrength + iDefenderStrength) > 0);
 	FAssert((iAttackerFirepower + iDefenderFirepower) > 0);
 
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      02/21/10                                jdog5000      */
-/*                                                                                              */
-/* Efficiency, Lead From Behind                                                                 */
-/************************************************************************************************/
 	// From Lead From Behind by UncutDragon
-	// original
-	//iDefenderOdds = ((GC.getDefineINT("COMBAT_DIE_SIDES") * iDefenderStrength) / (iAttackerStrength + iDefenderStrength));
-	// modified
+	// Chance of hitting in combat is based purely on relative strengths.
 	iDefenderOdds = ((GC.getCOMBAT_DIE_SIDES() * iDefenderStrength) / (iAttackerStrength + iDefenderStrength));
-	// /UncutDragon
 
 	if (iDefenderOdds == 0)
 	{
 		return 1000;
 	}
 
-	// UncutDragon
-	// original
-	//iAttackerOdds = GC.getDefineINT("COMBAT_DIE_SIDES") - iDefenderOdds;
-	// modified
 	iAttackerOdds = GC.getCOMBAT_DIE_SIDES() - iDefenderOdds;
-	// /UncutDragon
 
 	if (iAttackerOdds == 0)
 	{
 		return 0;
 	}
 
+	// (average of attacker and defender firepower) + (0.5 ???)
 	iStrengthFactor = ((iAttackerFirepower + iDefenderFirepower + 1) / 2);
 
-	// calculate damage done in one round
+	// calculate damage done in one round. GlobalDefine "COMBAT_DAMAGE" is currently 20 (Blaze 2025)
+	// Strength factor used as moderating influence; instead of e.g. 1 / 3 damage, it's (1+2)/(3+2) or 3/5 damage.
 	//////
-
-	// UncutDragon
-	// original
-	//iDamageToAttacker = std::max(1,((GC.getDefineINT("COMBAT_DAMAGE") * (iDefenderFirepower + iStrengthFactor)) / (iAttackerFirepower + iStrengthFactor)));
-	//iDamageToDefender = std::max(1,((GC.getDefineINT("COMBAT_DAMAGE") * (iAttackerFirepower + iStrengthFactor)) / (iDefenderFirepower + iStrengthFactor)));
-	// modified
 	iDamageToAttacker = std::max(1,((GC.getCOMBAT_DAMAGE() * (iDefenderFirepower + iStrengthFactor)) / (iAttackerFirepower + iStrengthFactor)));
 	iDamageToDefender = std::max(1,((GC.getCOMBAT_DAMAGE() * (iAttackerFirepower + iStrengthFactor)) / (iDefenderFirepower + iStrengthFactor)));
-	// /UncutDragon
 
 	// calculate needed rounds.
 	// Needed rounds = round_up(health/damage)
+	// Account for "can only damage up to 50%" style units/promos here
 	//////
-
 	iDefenderHitLimit = pDefender->maxHitPoints() - pAttacker->combatLimit();
 
 	iNeededRoundsAttacker = (std::max(0, pDefender->currHitPoints() - iDefenderHitLimit) + iDamageToDefender - 1 ) / iDamageToDefender;
@@ -1143,18 +1094,7 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 	// no distribution), so we need to mimic it.
 	//////
 
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	iAttackerLowFS = (pDefender->immuneToFirstStrikes()) ? 0 : pAttacker->firstStrikes();
-	iAttackerHighFS = (pDefender->immuneToFirstStrikes()) ? 0 : (pAttacker->firstStrikes() + pAttacker->chanceFirstStrikes());
-
-	iDefenderLowFS = (pAttacker->immuneToFirstStrikes()) ? 0 : pDefender->firstStrikes();
-	iDefenderHighFS = (pAttacker->immuneToFirstStrikes()) ? 0 : (pDefender->firstStrikes() + pDefender->chanceFirstStrikes());
-/**								----  End Original Code  ----									**/
-	// Smarter Orcs - First Strike Multiplier start
+	// Smarter Orcs - First Strike Multiplier (hit point factor currently 10; 1000 hp instead of vanilla 100)
 	static int iFirstStrikeFactor = GC.getDefineINT("HIT_POINT_FACTOR");
 	if (!pDefender->immuneToFirstStrikes())
 	{
@@ -1168,26 +1108,28 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 		iDefenderChanceFS = pDefender->chanceFirstStrikes() * iFirstStrikeFactor;
 		iDefenderHighFS = (iDefenderLowFS + iDefenderChanceFS);
 	}
-	// Smarter Orcs - First Strike Multiplier end
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
+
+	// First strikes on both sides cancel out. Might not be necessary due to binomial math below, but oh well.
+	iDuplicateFS = std::min(iAttackerLowFS, iDefenderLowFS);
+	if (iDuplicateFS > 0)
+	{
+		iAttackerLowFS  -= iDuplicateFS;
+		iAttackerHighFS -= iDuplicateFS;
+		iDefenderLowFS  -= iDuplicateFS;
+		iDefenderHighFS -= iDuplicateFS;
+	}
 
 	// For every possible first strike event, calculate the odds of combat.
 	// Then, add these to the total, weighted to the chance of that first
 	// strike event occurring
 	//////
-
 	for (iI = iAttackerLowFS; iI < iAttackerHighFS + 1; iI++)
 	{
 		for (iJ = iDefenderLowFS; iJ < iDefenderHighFS + 1; iJ++)
 		{
 			// for every possible combination of fs results, calculate the chance
-
-			if (iI >= iJ)
+			if (iI >= iJ) // Attacker gets more or equal first strikes than defender
 			{
-				// Attacker gets more or equal first strikes than defender
-
 				iFirstStrikes = iI - iJ;
 
 				// For every possible first strike getting hit, calculate both
@@ -1196,7 +1138,6 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 				// together to get the total chance (Bayes rule).
 				// iI3 counts the number of successful first strikes
 				//////
-
 				for (iI3 = 0; iI3 < (iFirstStrikes + 1); iI3++)
 				{
 					// event: iI3 first strikes hit the defender
@@ -1205,22 +1146,12 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 					// f(k;n,p)=C(n,k)*(p^k)*((1-p)^(n-k))
 					// this needs to be in floating point math
 					//////
-
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-					fOddsEvent = ((float)getBinomialCoefficient(iFirstStrikes, iI3)) * pow((((float)iAttackerOdds) / GC.getDefineINT("COMBAT_DIE_SIDES")), iI3) * pow((1.0f - (((float)iAttackerOdds) / GC.getDefineINT("COMBAT_DIE_SIDES"))), (iFirstStrikes - iI3));
-/**								----  End Original Code  ----									**/
-					fOddsEvent = (getBinomialCoefficient(iFirstStrikes, iI3)) * pow((((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES()), iI3) * pow((1.0f - (((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES())), (iFirstStrikes - iI3)); // Wiser Orcs Combat Accuracy
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
+					fOddsEvent = (getBinomialCoefficient(iFirstStrikes, iI3))
+						* pow((((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES()), iI3)
+						* pow((1.0f - (((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES())), (iFirstStrikes - iI3)); // Wiser Orcs Combat Accuracy
 
 					// calculate chance assuming iI3 first strike hits: fOddsAfterEvent
 					//////
-
 					if (iI3 >= iNeededRoundsAttacker)
 					{
 						fOddsAfterEvent = 1;
@@ -1233,49 +1164,26 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 						// the attacker needs to make) out of (iMaxRounds - iI3) (the left over
 						// rounds) is the sum of each _exact_ draw
 						//////
-
 						for (iI4 = (iNeededRoundsAttacker - iI3); iI4 < (iMaxRounds - iI3 + 1); iI4++)
 						{
 							// odds of exactly iI4 out of (iMaxRounds - iI3) draws.
 							// f(k;n,p)=C(n,k)*(p^k)*((1-p)^(n-k))
 							// this needs to be in floating point math
 							//////
-
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-							fOddsAfterEvent += ((float)getBinomialCoefficient((iMaxRounds - iI3), iI4)) * pow((((float)iAttackerOdds) / GC.getDefineINT("COMBAT_DIE_SIDES")), iI4) * pow((1.0f - (((float)iAttackerOdds) / GC.getDefineINT("COMBAT_DIE_SIDES"))), ((iMaxRounds - iI3) - iI4));
-/**								----  End Original Code  ----									**/
-							fOddsAfterEvent += (getBinomialCoefficient((iMaxRounds - iI3), iI4)) * pow((((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES()), iI4) * pow((1.0f - (((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES())), ((iMaxRounds - iI3) - iI4)); // Wiser Orcs Combat Accuracy
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
+							fOddsAfterEvent += (getBinomialCoefficient((iMaxRounds - iI3), iI4))
+								* pow((((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES()), iI4)
+								* pow((1.0f - (((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES())), ((iMaxRounds - iI3) - iI4)); // Wiser Orcs Combat Accuracy
 						}
 					}
 
 					// Multiply these together, round them properly, and add
 					// the result to the total iOdds
 					//////
-
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-					iOdds += ((int)(1000.0 * (fOddsEvent*fOddsAfterEvent + 0.0005)));
-/**								----  End Original Code  ----									**/
 					dOdds += fOddsEvent*fOddsAfterEvent; // Wiser Orcs Combat Accuracy
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
 				}
 			}
-			else // (iI < iJ)
+			else // (iI < iJ); Attacker gets less first strikes than defender
 			{
-				// Attacker gets less first strikes than defender
-
 				iFirstStrikes = iJ - iI;
 
 				// For every possible first strike getting hit, calculate both
@@ -1284,7 +1192,6 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 				// together to get the total chance (Bayes rule).
 				// iI3 counts the number of successful first strikes
 				//////
-
 				for (iI3 = 0; iI3 < (iFirstStrikes + 1); iI3++)
 				{
 					// event: iI3 first strikes hit the defender
@@ -1292,36 +1199,24 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 					// First of all, check if the attacker is still alive.
 					// Otherwise, no further calculations need to occur
 					/////
-
 					if (iI3 < iNeededRoundsDefender)
 					{
 						// calculate chance of iI3 first strikes hitting: fOddsEvent
 						// f(k;n,p)=C(n,k)*(p^k)*((1-p)^(n-k))
 						// this needs to be in floating point math
 						//////
-
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-						fOddsEvent = ((float)getBinomialCoefficient(iFirstStrikes, iI3)) * pow((((float)iDefenderOdds) / GC.getDefineINT("COMBAT_DIE_SIDES")), iI3) * pow((1.0f - (((float)iDefenderOdds) / GC.getDefineINT("COMBAT_DIE_SIDES"))), (iFirstStrikes - iI3));
-/**								----  End Original Code  ----									**/
-						fOddsEvent = (getBinomialCoefficient(iFirstStrikes, iI3)) * pow((((double)iDefenderOdds) / GC.getCOMBAT_DIE_SIDES()), iI3) * pow((1.0f - (((double)iDefenderOdds) / GC.getCOMBAT_DIE_SIDES())), (iFirstStrikes - iI3)); // Wiser Orcs Combat Accuracy
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
+						fOddsEvent = (getBinomialCoefficient(iFirstStrikes, iI3))
+							* pow((((double)iDefenderOdds) / GC.getCOMBAT_DIE_SIDES()), iI3)
+							* pow((1.0f - (((double)iDefenderOdds) / GC.getCOMBAT_DIE_SIDES())), (iFirstStrikes - iI3)); // Wiser Orcs Combat Accuracy
 
 						// calculate chance assuming iI3 first strike hits: fOddsAfterEvent
 						//////
-
 						fOddsAfterEvent = 0;
 
 						// odds for _at_least_ iNeededRoundsAttacker (the remaining hits
 						// the attacker needs to make) out of (iMaxRounds - iI3) (the left over
 						// rounds) is the sum of each _exact_ draw
 						//////
-
 						for (iI4 = iNeededRoundsAttacker; iI4 < (iMaxRounds - iI3 + 1); iI4++)
 						{
 
@@ -1329,71 +1224,38 @@ int getCombatOdds(CvUnit* pAttacker, CvUnit* pDefender)
 							// f(k;n,p)=C(n,k)*(p^k)*((1-p)^(n-k))
 							// this needs to be in floating point math
 							//////
-
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-							fOddsAfterEvent += ((float)getBinomialCoefficient((iMaxRounds - iI3), iI4)) * pow((((float)iAttackerOdds) / GC.getDefineINT("COMBAT_DIE_SIDES")), iI4) * pow((1.0f - (((float)iAttackerOdds) / GC.getDefineINT("COMBAT_DIE_SIDES"))), ((iMaxRounds - iI3) - iI4));
-/**								----  End Original Code  ----									**/
-							fOddsAfterEvent += (getBinomialCoefficient((iMaxRounds - iI3), iI4)) * pow((((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES()), iI4) * pow((1.0f - (((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES())), ((iMaxRounds - iI3) - iI4)); // Wiser Orcs Combat Accuracy
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
+							fOddsAfterEvent += (getBinomialCoefficient((iMaxRounds - iI3), iI4))
+								* pow((((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES()), iI4)
+								* pow((1.0f - (((double)iAttackerOdds) / GC.getCOMBAT_DIE_SIDES())), ((iMaxRounds - iI3) - iI4)); // Wiser Orcs Combat Accuracy
 						}
 
 						// Multiply these together, round them properly, and add
 						// the result to the total iOdds
 						//////
-
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-						iOdds += ((int)(1000.0 * (fOddsEvent*fOddsAfterEvent + 0.0005)));
-/**								----  End Original Code  ----									**/
 						dOdds += fOddsEvent*fOddsAfterEvent; // Wiser Orcs Combat Accuracy
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
-
 					}
 				}
 			}
 		}
 	}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
 
 	// Weigh the total to the number of possible combinations of first strikes events
 	// note: the integer math breaks down when #FS > 656 (with a die size of 1000)
 	//////
-
-/*************************************************************************************************/
-/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
-/**						Makes higher values than 100 HP possible.								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
+	/*************************************************************************************************/
+	/**	Higher hitpoints				28/01/11				Imported from wiser orcs by Snarko	**/
+	/**						Makes higher values than 100 HP possible.								**/
+	/*************************************************************************************************/
+	/**								---- Start Original Code ----									**
 	iOdds /= (((pDefender->immuneToFirstStrikes()) ? 0 : pAttacker->chanceFirstStrikes()) + 1) * (((pAttacker->immuneToFirstStrikes()) ? 0 : pDefender->chanceFirstStrikes()) + 1);
-
-	// finished!
-	//////
-
 	return iOdds;
-/**								----  End Original Code  ----									**/
+	/**								----  End Original Code  ----									**/
+
 	dOdds /= (iAttackerChanceFS + 1) * (iDefenderChanceFS + 1); // Smarter Orcs - variable first strikes
 
 	// finished!
 	//////
-
 	return (int)((dOdds + 0.0005) * 1000.0);
-/*************************************************************************************************/
-/**	Higher hitpoints						END													**/
-/*************************************************************************************************/
-
 }
 
 int getEspionageModifier(TeamTypes eOurTeam, TeamTypes eTargetTeam)
