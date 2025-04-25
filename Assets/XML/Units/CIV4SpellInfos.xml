@@ -11011,6 +11011,7 @@
 			<Type>SPELL_ENTER_ARENA</Type>
 			<Description>TXT_KEY_SPELL_ENTER_ARENA</Description>
 			<Civilopedia>TEXT_MUST_BE_WRITTEN</Civilopedia>
+			<Strategy>TXT_KEY_SPELL_ENTER_ARENA_STRATEGY</Strategy>
 			<Help>TXT_KEY_SPELL_ENTER_ARENA_HELP</Help>
 			<!-- Zaria wants happy buildings and also a use for slaves -->
 			<PrereqTraits>
