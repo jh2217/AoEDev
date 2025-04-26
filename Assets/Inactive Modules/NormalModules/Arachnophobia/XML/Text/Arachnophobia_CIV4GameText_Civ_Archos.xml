@@ -15,27 +15,27 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BABY_SPIDER_STRATEGY</Tag>
-		<English>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing.</English>
-		<French>Cannibalize</French>
-		<German>Cannibalize</German>
-		<Italian>Cannibalize</Italian>
-		<Spanish>Cannibalize</Spanish>
+		<English>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak individually, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing. [NEWLINE][NEWLINE]Additionally, baby spiders grow stronger when large numbers of them are grouped together, gaining one stack of the [LINK=PROMOTION_SWARMING1]Swarming[\LINK] promotion for every 10 baby spiders in the same tile, up to 4 stacks.</English>
+		<French>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak individually, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing. [NEWLINE][NEWLINE]Additionally, baby spiders grow stronger when large numbers of them are grouped together, gaining one stack of the [LINK=PROMOTION_SWARMING1]Swarming[\LINK] promotion for every 10 baby spiders in the same tile, up to 4 stacks.</French>
+		<German>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak individually, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing. [NEWLINE][NEWLINE]Additionally, baby spiders grow stronger when large numbers of them are grouped together, gaining one stack of the [LINK=PROMOTION_SWARMING1]Swarming[\LINK] promotion for every 10 baby spiders in the same tile, up to 4 stacks.</German>
+		<Italian>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak individually, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing. [NEWLINE][NEWLINE]Additionally, baby spiders grow stronger when large numbers of them are grouped together, gaining one stack of the [LINK=PROMOTION_SWARMING1]Swarming[\LINK] promotion for every 10 baby spiders in the same tile, up to 4 stacks.</Italian>
+		<Spanish>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak individually, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing. [NEWLINE][NEWLINE]Additionally, baby spiders grow stronger when large numbers of them are grouped together, gaining one stack of the [LINK=PROMOTION_SWARMING1]Swarming[\LINK] promotion for every 10 baby spiders in the same tile, up to 4 stacks.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPIDER_STRATEGY_NEW</Tag>
-		<English>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Wetnurse; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 11+ population.</English>
-		<French>Cannibalize</French>
-		<German>Cannibalize</German>
-		<Italian>Cannibalize</Italian>
-		<Spanish>Cannibalize</Spanish>
+		<English>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 11+ population.</English>
+		<French>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 11+ population.</French>
+		<German>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 11+ population.</German>
+		<Italian>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 11+ population.</Italian>
+		<Spanish>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 11+ population.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GIANT_SPIDER_STRATEGY_NEW</Tag>
-		<English>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Greater Wetnurse; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders.</English>
-		<French>Cannibalize</French>
-		<German>Cannibalize</German>
-		<Italian>Cannibalize</Italian>
-		<Spanish>Cannibalize</Spanish>
+		<English>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders.</English>
+		<French>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders.</French>
+		<German>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders.</German>
+		<Italian>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders.</Italian>
+		<Spanish>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SPIDER_UPGRADE_HELP</Tag>
@@ -78,20 +78,20 @@
 		<Spanish>Mother of Mothers</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_MARKED_PREY</Tag>
-		<English>Marked Prey</English>
-		<French>Marked Prey</French>
-		<German>Marked Prey</German>
-		<Italian>Marked Prey</Italian>
-		<Spanish>Marked Prey</Spanish>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOPHOBIA</Tag>
+		<English>Arachnophobia</English>
+		<French>Arachnophobia</French>
+		<German>Arachnophobia</German>
+		<Italian>Arachnophobia</Italian>
+		<Spanish>Arachnophobia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_SPELL_PREDATORY_SCREAM</Tag>
-		<English>Predatory Scream</English>
-		<French>Predatory Scream</French>
-		<German>Predatory Scream</German>
-		<Italian>Predatory Scream</Italian>
-		<Spanish>Predatory Scream</Spanish>
+		<Tag>TXT_KEY_SPELL_ARACHNOPHOBIA</Tag>
+		<English>Arachnophobia</English>
+		<French>Arachnophobia</French>
+		<German>Arachnophobia</German>
+		<Italian>Arachnophobia</Italian>
+		<Spanish>Arachnophobia</Spanish>
 	</TEXT>
 	
 	<TEXT>
@@ -265,20 +265,20 @@
 		<Spanish>[ICON_BULLET]Gain even bigger buff on reveal.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNITNAME_WETNURSE</Tag>
-		<English>Wetnurse</English>
-		<French>Wetnurse</French>
-		<German>Wetnurse</German>
-		<Italian>Wetnurse</Italian>
-		<Spanish>Wetnurse</Spanish>
+		<Tag>TXT_KEY_UNITNAME_DIVER</Tag>
+		<English>Diver</English>
+		<French>Diver</French>
+		<German>Diver</German>
+		<Italian>Diver</Italian>
+		<Spanish>Diver</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNITNAME_WETNURSE_GREATER</Tag>
-		<English>Greater Wetnurse</English>
-		<French>Greater Wetnurse</French>
-		<German>Greater Wetnurse</German>
-		<Italian>Greater Wetnurse</Italian>
-		<Spanish>Greater Wetnurse</Spanish>
+		<Tag>TXT_KEY_UNITNAME_DIVER_GREATER</Tag>
+		<English>Greater Diver</English>
+		<French>Greater Diver</French>
+		<German>Greater Diver</German>
+		<Italian>Greater Diver</Italian>
+		<Spanish>Greater Diver</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITNAME_SPITTER</Tag>
@@ -672,39 +672,6 @@
 	</TEXT>
 
 	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS</Tag>
-		<English>Maze of Webs</English>
-		<French>Maze of Webs</French>
-		<German>Maze of Webs</German>
-		<Italian>Maze of Webs</Italian>
-		<Spanish>Maze of Webs</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_PEDIA</Tag>
-		<English>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</English>
-		<French>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</French>
-		<German>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</German>
-		<Italian>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</Italian>
-		<Spanish>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_HELP</Tag>
-		<English>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</English>
-		<French>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</French>
-		<German>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</German>
-		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</Italian>
-		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILD_MAZE_OF_WEBS</Tag>
-		<English>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</English>
-		<French>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</French>
-		<German>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</German>
-		<Italian>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</Italian>
-		<Spanish>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</Spanish>
-	</TEXT>
-	
-	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_FEEDING_PEN</Tag>
 		<English>Feeding Pen</English>
 		<French>Feeding Pen</French>
@@ -736,6 +703,40 @@
 		<Italian>Build a [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pen[\LINK]</Italian>
 		<Spanish>Build a [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pen[\LINK]</Spanish>
 	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS</Tag>
+		<English>Maze of Webs</English>
+		<French>Maze of Webs</French>
+		<German>Maze of Webs</German>
+		<Italian>Maze of Webs</Italian>
+		<Spanish>Maze of Webs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_PEDIA</Tag>
+		<English>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</English>
+		<French>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</French>
+		<German>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</German>
+		<Italian>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</Italian>
+		<Spanish>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_HELP</Tag>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe.</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe.</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe.</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe.</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MAZE_OF_WEBS</Tag>
+		<English>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</English>
+		<French>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</French>
+		<German>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</Spanish>
+	</TEXT>
+	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ARCHOSIAN_WORKER</Tag>
 		<English>Archosian Worker</English>
@@ -848,5 +849,77 @@
 		<German>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</German>
 		<Italian>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</Italian>
 		<Spanish>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARMING1</Tag>
+		<English>Swarming I</English>
+		<French>Swarming I</French>
+		<German>Swarming I</German>
+		<Italian>Swarming I</Italian>
+		<Spanish>Swarming I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARMING2</Tag>
+		<English>Swarming II</English>
+		<French>Swarming II</French>
+		<German>Swarming II</German>
+		<Italian>Swarming II</Italian>
+		<Spanish>Swarming II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARMING3</Tag>
+		<English>Swarming III</English>
+		<French>Swarming III</French>
+		<German>Swarming III</German>
+		<Italian>Swarming III</Italian>
+		<Spanish>Swarming III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARMING4</Tag>
+		<English>Swarming IV</English>
+		<French>Swarming IV</French>
+		<German>Swarming IV</German>
+		<Italian>Swarming IV</Italian>
+		<Spanish>Swarming IV</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NESTING_GROUND</Tag>
+		<English>Nesting Ground</English>
+		<French>Nesting Ground</French>
+		<German>Nesting Ground</German>
+		<Italian>Nesting Ground</Italian>
+		<Spanish>Nesting Ground</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NESTING_GROUND_PEDIA</Tag>
+		<English>Any prey that are not finished on the spot will be dragged off to these dusky barrows to be enjoyed at a later date.</English>
+		<French>Any prey that are not finished on the spot will be dragged off to these dusky barrows to be enjoyed at a later date.</French>
+		<German>Any prey that are not finished on the spot will be dragged off to these dusky barrows to be enjoyed at a later date.</German>
+		<Italian>Any prey that are not finished on the spot will be dragged off to these dusky barrows to be enjoyed at a later date.</Italian>
+		<Spanish>Any prey that are not finished on the spot will be dragged off to these dusky barrows to be enjoyed at a later date.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NESTING_GROUND_HELP</Tag>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_NESTING_GROUND</Tag>
+		<English>Build a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK]</English>
+		<French>Build a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK]</French>
+		<German>Build a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NESTING</Tag>
+		<English>Nesting</English>
+		<French>Nesting</French>
+		<German>Nesting</German>
+		<Italian>Nesting</Italian>
+		<Spanish>Nesting</Spanish>
 	</TEXT>
 </Civ4GameText>

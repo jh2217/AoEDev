@@ -18,6 +18,7 @@ gc					= CyGlobalContext()
 localText			= CyTranslator()
 getInfoType			= gc.getInfoTypeForString
 
+
 def setSpiderPromo(cf, spawnUnit, pPlayer, pCity):
 	Effect      = cf.Promotions["Effects"]
 	Buildings   = cf.Buildings
@@ -48,6 +49,7 @@ def setSpiderPromo(cf, spawnUnit, pPlayer, pCity):
 		else:
 			iBroodStrength = 0
 		spawnUnit.changeFreePromotionPick(iBroodStrength)
+
 
 def doTurnArchosReplacement(self, iPlayer):
 	pPlayer         = gc.getPlayer(iPlayer)
@@ -95,6 +97,7 @@ def doTurnArchosReplacement(self, iPlayer):
 						spawnUnit = initUnit(Unit["Baby Spider"], pPlot.getX(), pPlot.getY(), iNoAI, iSouth)
 						setSpiderPromo(self, spawnUnit, pPlayer, None)
 
+
 def doChanceArchosReplacement(self, iPlayer):
 	if iPlayer == -1:
 		pPlayer = gc.getPlayer(gc.getGame().getActivePlayer())
@@ -103,11 +106,14 @@ def doChanceArchosReplacement(self, iPlayer):
 
 	iNumCities = pPlayer.getNumCities()
 	if iNumCities > 0:
+		UnitClass		= self.UnitClasses
 		Building		= self.Buildings
 		Trait			= self.Traits
 		pNest 			= pPlayer.getCapitalCity()
 		iNestPop 		= pNest.getPopulation()
 		iNumGroves 		= pPlayer.countNumBuildings(Building["Dark Weald"])
+		getUCC			= pPlayer.getUnitClassCount
+		iNumSpiders		= (getUCC(UnitClass["Spider"]) + (getUCC(UnitClass["Giant Spider"]) * 2))
 		
 		iNumSpiderCities = len(PyPlayer(iPlayer).getCityList())
 
@@ -125,11 +131,12 @@ def doChanceArchosReplacement(self, iPlayer):
 		if pPlayer.hasTrait(Trait["Spiderkin"]):
 			fSpiderkin = 1.30
 
-		iSpiderSpawnChance = ((iNestPop + (iNumSpiderCities*2) + (iNumGroves*4) + (iNumFeedingPen*2)) * fSpiderkin)
+		iSpiderSpawnChance = ((iNestPop + (iNumSpiderCities*2) + (iNumGroves*4) + (iNumFeedingPen*2)) * fSpiderkin) - iNumSpiders
 		iSpiderSpawnChance = (iSpiderSpawnChance * 100)
 		iSpiderSpawnChance = scaleInverse(iSpiderSpawnChance)
 
 		return iSpiderSpawnChance
+
 
 def onLoadGame(self, argsList):
 	self.cf.doChanceArchos = types.MethodType(doChanceArchosReplacement, self.cf)

@@ -6,39 +6,6 @@
 <!-- Improvement Infos -->
 <Civ4ImprovementInfos xmlns="x-schema:Arachnophobia_CIV4TerrainSchema.xml">
 	<ImprovementInfos>
-		<ImprovementInfo><!-- Maze of Webs -->
-			<Type>IMPROVEMENT_MAZE_OF_WEBS</Type>
-			<Description>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS</Description>
-			<Civilopedia>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_PEDIA</Civilopedia>
-			<Help>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_HELP</Help>
-			<ArtDefineTag>ART_DEF_IMPROVEMENT_MAZE_OF_WEBS</ArtDefineTag>
-			<bRequiresFeature>1</bRequiresFeature>
-			<iAdvancedStartCost>24</iAdvancedStartCost>
-			<iAirBombDefense>5</iAirBombDefense>
-			<iPillageGold>1</iPillageGold>
-			<bOutsideBorders>1</bOutsideBorders>
-			<AllowsFeatures>
-				<AllowsFeature>
-					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</AllowsFeature>
-			</AllowsFeatures>
-			<FeatureMakesValids>
-				<FeatureMakesValid>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</FeatureMakesValid>
-				<FeatureMakesValid>
-					<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</FeatureMakesValid>
-				<FeatureMakesValid>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<bMakesValid>1</bMakesValid>
-				</FeatureMakesValid>
-			</FeatureMakesValids>
-			<PythonOnMove>onMoveMazeOfWebs(pCaster, pPlot)</PythonOnMove>
-		</ImprovementInfo>
 		<ImprovementInfo><!-- Feeding Pen -->
 			<Type>IMPROVEMENT_FEEDING_PEN</Type>
 			<Description>TXT_KEY_IMPROVEMENT_FEEDING_PEN</Description>
@@ -161,6 +128,113 @@
 					</TechYields>
 				</TechYieldChange>
 			</TechYieldChanges>
+		</ImprovementInfo>
+		<ImprovementInfo><!-- Maze of Webs -->
+			<Type>IMPROVEMENT_MAZE_OF_WEBS</Type>
+			<Description>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_PEDIA</Civilopedia>
+			<Help>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MAZE_OF_WEBS</ArtDefineTag>
+			<bRequiresFeature>1</bRequiresFeature>
+			<iAdvancedStartCost>24</iAdvancedStartCost>
+			<iAirBombDefense>5</iAirBombDefense>
+			<iPillageGold>1</iPillageGold>
+			<bOutsideBorders>1</bOutsideBorders>
+			<AllowsFeatures>
+				<AllowsFeature>
+					<FeatureType>FEATURE_FOREST_NEW</FeatureType>
+					<bMakesValid>1</bMakesValid>
+				</AllowsFeature>
+			</AllowsFeatures>
+			<FeatureMakesValids>
+				<FeatureMakesValid>
+					<FeatureType>FEATURE_FOREST</FeatureType>
+					<bMakesValid>1</bMakesValid>
+				</FeatureMakesValid>
+				<FeatureMakesValid>
+					<FeatureType>FEATURE_FOREST_ANCIENT</FeatureType>
+					<bMakesValid>1</bMakesValid>
+				</FeatureMakesValid>
+				<FeatureMakesValid>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<bMakesValid>1</bMakesValid>
+				</FeatureMakesValid>
+				<FeatureMakesValid>
+					<FeatureType>FEATURE_HAUNTED_LANDS</FeatureType>
+					<bMakesValid>1</bMakesValid>
+				</FeatureMakesValid>
+			</FeatureMakesValids>
+			<PythonOnMove>onMoveMazeOfWebs(pCaster, pPlot)</PythonOnMove>
+		</ImprovementInfo>
+		<ImprovementInfo><!-- Nesting Ground -->
+			<Type>IMPROVEMENT_NESTING_GROUND</Type>
+			<Description>TXT_KEY_IMPROVEMENT_NESTING_GROUND</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_NESTING_GROUND_PEDIA</Civilopedia>
+			<Help>TXT_KEY_IMPROVEMENT_NESTING_GROUND_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_NESTING_GROUND</ArtDefineTag>
+			<YieldChanges>
+				<iYieldChange>-1</iYieldChange>
+				<iYieldChange>0</iYieldChange>
+				<iYieldChange>0</iYieldChange>
+			</YieldChanges>
+			<iPillageGold>1</iPillageGold>
+			<bOutsideBorders>1</bOutsideBorders>
+			<iMinimumDistance>1</iMinimumDistance>
+			<bFort>1</bFort>
+			<TerrainMakesValids>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_BURNING_SANDS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_FIELDS_OF_PERDITION</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_SHALLOWS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_PLAINS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_TAIGA</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_WASTELAND</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_GLACIER</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+			</TerrainMakesValids>
+			<iCultureControlStrength>1</iCultureControlStrength>
+			<iCultureCenterBonus>1</iCultureCenterBonus>
+			<iMaxAirlift>1</iMaxAirlift>
+			<PythonOnMove>onMoveMazeOfWebs(pCaster, pPlot)</PythonOnMove>
 		</ImprovementInfo>
 	</ImprovementInfos>
 </Civ4ImprovementInfos>

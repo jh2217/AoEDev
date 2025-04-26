@@ -49,6 +49,7 @@
 				</FreePromotion>
 			</FreePromotions>
 			<PromotionFromCombat>PROMOTION_GROWTH_SPURTS</PromotionFromCombat>
+			<PyPerTurn>babySpiderSwarm(pCaster)</PyPerTurn>
 			<TerrainNatives>
 				<TerrainNative>
 					<TerrainType>TERRAIN_MARSH</TerrainType>
@@ -201,7 +202,7 @@
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iCityAttack>-25</iCityAttack>
-			<iWorkRate>100</iWorkRate>
+			<iWorkRate>150</iWorkRate>
 			<TerrainNatives>
 				<TerrainNative>
 					<TerrainType>TERRAIN_MARSH</TerrainType>
@@ -345,7 +346,7 @@
 			</UnitAIs>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMoves>3</iMoves>
-			<iCombat>12</iCombat>
+			<iCombat>14</iCombat>
 			<iXPValueAttack>32</iXPValueAttack>
 			<iXPValueDefense>16</iXPValueDefense>
 			<iFirstStrikes>2</iFirstStrikes>
@@ -371,11 +372,15 @@
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 				<FreePromotion>
-					<PromotionType>PROMOTION_CANNIBALIZE</PromotionType>
+					<PromotionType>PROMOTION_MONSTROUS_CREATURE</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 				<FreePromotion>
-					<PromotionType>PROMOTION_MONSTROUS_CREATURE</PromotionType>
+					<PromotionType>PROMOTION_FEAR</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_CANNIBALIZE</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 				<FreePromotion>
@@ -394,7 +399,7 @@
 			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_POISON</DamageType>
-					<iCombat>6</iCombat>
+					<iCombat>4</iCombat>
 				</DamageTypeCombat>
 			</DamageTypeCombats>
 			<iPowerMult>10</iPowerMult>

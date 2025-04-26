@@ -293,9 +293,9 @@
 			<iMinLevel>-1</iMinLevel>
 			<Button>Art/Modules/Arachnophobia/Buttons/PoisonFume.dds</Button>
 		</PromotionInfo>
-		<PromotionInfo>			<!-- Marked Prey -->
-			<Type>PROMOTION_MARKED_PREY</Type>
-			<Description>TXT_KEY_PROMOTION_MARKED_PREY</Description>
+		<PromotionInfo>			<!-- Arachnophobia -->
+			<Type>PROMOTION_ARACHNOPHOBIA</Type>
+			<Description>TXT_KEY_PROMOTION_ARACHNOPHOBIA</Description>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
@@ -352,7 +352,7 @@
 			<iPromotionDuration>1</iPromotionDuration>
 			<iAIWeight>-100</iAIWeight>
 			<iMinLevel>-1</iMinLevel>
-			<Button>Art/Modules/Arachnophobia/Buttons/MarkedPrey.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/Arachnophobia.dds</Button>
 		</PromotionInfo>
 		
 		<!-- Spider Variations Start -->
@@ -668,6 +668,9 @@
 			<NewName>TXT_KEY_UNITNAME_WEAVER_GREATER</NewName>
 			<Help>TXT_KEY_PROMOTION_SPIDER_GREATER_TEXTUS_PEDIA</Help>
 			
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_NESTING_GROUND</PromotionBuild>
+			</PromotionBuilds>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
 			</PrereqUnits>
@@ -857,14 +860,20 @@
 		
 		<!-- Argyroneta Start -->
 		
-		<PromotionInfo>		<!-- Spider - Argyroneta  (Wetnurse Spider) -->
+		<PromotionInfo>		<!-- Spider - Argyroneta  (Diving Bell Spider) -->
 			<Type>PROMOTION_SPIDER_ARGYRONETA</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA</Description>
-			<NewName>TXT_KEY_UNITNAME_WETNURSE</NewName>
+			<NewName>TXT_KEY_UNITNAME_DIVER</NewName>
 			<Help>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA_HELP</Help>
 			
-			<bTargetWeakestUnit>1</bTargetWeakestUnit>
-			<PromotionCombatApply>PROMOTION_MARKED_PREY</PromotionCombatApply>
+			<bAmphib>1</bAmphib>
+			<bRiver>1</bRiver>
+			<TerrainDoubleMoves>
+				<TerrainDoubleMove>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
+					<bTerrainDoubleMove>1</bTerrainDoubleMove>
+				</TerrainDoubleMove>
+			</TerrainDoubleMoves>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
 				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
@@ -895,14 +904,20 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_BLUE</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Spider - Argyroneta  (Wetnurse Spider) for trait Spiderkin -->
+		<PromotionInfo>		<!-- Spider - Argyroneta  (Diving Bell Spider) for trait Spiderkin -->
 			<Type>PROMOTION_ARGYRONETA</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA</Description>
-			<NewName>TXT_KEY_UNITNAME_WETNURSE</NewName>
+			<NewName>TXT_KEY_UNITNAME_DIVER</NewName>
 			<Help>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA_HELP</Help>
 			
-			<bTargetWeakestUnit>1</bTargetWeakestUnit>
-			<PromotionCombatApply>PROMOTION_MARKED_PREY</PromotionCombatApply>
+			<bAmphib>1</bAmphib>
+			<bRiver>1</bRiver>
+			<TerrainDoubleMoves>
+				<TerrainDoubleMove>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
+					<bTerrainDoubleMove>1</bTerrainDoubleMove>
+				</TerrainDoubleMove>
+			</TerrainDoubleMoves>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_SPIDERKIN3</PrereqTrait>
 			</PrereqTraits>
@@ -948,14 +963,20 @@
 			<Button>Art/Interface/Buttons/Promotions/SpiderBlue.dds</Button>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Spider - Argyroneta  (Wetnurse Spider) Decay for Spiderkin Trait -->
+		<PromotionInfo>		<!-- Spider - Argyroneta  (Diving Bell Spider) Decay for Spiderkin Trait -->
 			<Type>PROMOTION_SPIDER_ARGYRONETA_DECAY</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA</Description>
-			<NewName>TXT_KEY_UNITNAME_WETNURSE</NewName>
+			<NewName>TXT_KEY_UNITNAME_DIVER</NewName>
 			<Help>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA_HELP</Help>
 			
-			<bTargetWeakestUnit>1</bTargetWeakestUnit>
-			<PromotionCombatApply>PROMOTION_MARKED_PREY</PromotionCombatApply>
+			<bAmphib>1</bAmphib>
+			<bRiver>1</bRiver>
+			<TerrainDoubleMoves>
+				<TerrainDoubleMove>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
+					<bTerrainDoubleMove>1</bTerrainDoubleMove>
+				</TerrainDoubleMove>
+			</TerrainDoubleMoves>
 			<PromotionDegradesTo>
 				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
 			</PromotionDegradesTo>
@@ -995,11 +1016,18 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_BLUE</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Spider - Argyroneta  Greater (Wetnurse Spider) -->
+		<PromotionInfo>		<!-- Spider - Argyroneta  Greater (Diving Bell Spider) -->
 			<Type>PROMOTION_SPIDER_ARGYRONETA_GREATER</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA_GREATER</Description>
-			<NewName>TXT_KEY_UNITNAME_WETNURSE_GREATER</NewName>
+			<NewName>TXT_KEY_UNITNAME_DIVER_GREATER</NewName>
 			
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iUnitCombatMod>50</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
+			<bWaterWalking>1</bWaterWalking>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
 			</PrereqUnits>
@@ -1353,6 +1381,7 @@
 			</PromotionBuilds>
 			<PromotionCannotBuilds>
 				<PromotionBuild>BUILD_PASTURE</PromotionBuild>
+				<PromotionBuild>BUILD_FORT</PromotionBuild>
 			</PromotionCannotBuilds>
 			<Button>,Art/Interface/Teamcolor/archosbutton.dds</Button>
 		</PromotionInfo>
@@ -1364,6 +1393,101 @@
 			<bNoXP>1</bNoXP>
 			<iExperiencePercent>-100</iExperiencePercent>
 			<Button>Art/Modules/Arachnophobia/Buttons/No_Exp.dds</Button>
+		</PromotionInfo>
+
+		<PromotionInfo>		<!-- Swarming I -->
+			<Type>PROMOTION_SWARMING1</Type>
+			<Description>TXT_KEY_PROMOTION_SWARMING1</Description>
+			<iCombatPercent>25</iCombatPercent>
+			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+			<PromotionNextLevel>PROMOTION_SWARMING2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Swarming II -->
+			<Type>PROMOTION_SWARMING2</Type>
+			<Description>TXT_KEY_PROMOTION_SWARMING2</Description>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SWARMING1</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<iCombatPercent>25</iCombatPercent>
+			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+			<PromotionNextLevel>PROMOTION_SWARMING3</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Swarming III -->
+			<Type>PROMOTION_SWARMING3</Type>
+			<Description>TXT_KEY_PROMOTION_SWARMING3</Description>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SWARMING2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<iCombatPercent>25</iCombatPercent>
+			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+			<PromotionNextLevel>PROMOTION_SWARMING4</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Swarming IV -->
+			<Type>PROMOTION_SWARMING4</Type>
+			<Description>TXT_KEY_PROMOTION_SWARMING4</Description>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SWARMING3</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<iCombatPercent>25</iCombatPercent>
+			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Nesting  -->
+			<Type>PROMOTION_NESTING</Type>
+			<Description>TXT_KEY_PROMOTION_NESTING</Description>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<bFreeUnit>1</bFreeUnit>
+			<bNoSupply>1</bNoSupply>
+			<bNoSupport>1</bNoSupport>
+			<iInvisibleLevel>2</iInvisibleLevel>
+			<iCombatPercentDefense>15</iCombatPercentDefense>
+			<Button>Art/Modules/Arachnophobia/Buttons/Nesting_Ground.dds</Button>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PrereqImprovements>
+				<PrereqImprovement>IMPROVEMENT_NESTING_GROUND</PrereqImprovement>
+			</PrereqImprovements>
 		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>

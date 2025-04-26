@@ -13,6 +13,37 @@ LeastCraft
 [desc]
 tweaks to archos civ
 
+v1.7
+By: @LeastCraft
+
+Mechanics:
+	BA gain and spider spawn are again reduced by the number of existing spiders and giant spiders (but not baby spiders).
+
+Spells:
+	Renamed Predatory Scream to Arachnophobia and changed button sprite.
+
+Units:
+	Baby spiders gain the swarming ability, giving them +25% strength but suffers +25% more collateral damage for every 10 baby spiders in the same stack, up to +100%.
+	Increased Giant Spider work rate from 100 to 150.
+	Spiderkin now has access to spell "Consume the Weak".
+	Mother of Mothers now has free promotion Fear.
+	Mother of Mothers strength adjusted from 12+6 poison to 14+4 poison.
+
+Promotions:
+	Added promotion Nesting, removes maintenance and supply cost, and gives additional stealth and +15% defensive strength for spiders.
+	Restored Argyroneta and Greater Argyroneta to grant aquatic abilities.
+	Greater Textus now additionally allows spiders to build Nesting Ground.
+	Renamed Marked Prey to Arachnophobia and changed button sprite.
+
+Buildings:
+	Archos can now build Barracks.
+
+Improvements:
+	Archosian Workers can no longer build forts.
+	Added Nesting Ground, an improvement that grants the Nesting promotion to spiders on the same tile, and provides -1 food on its tile.
+	Maze of Webs can now be additionally built in Haunted Lands.
+	Maze of Webs now removes Slow from spiders.
+
 v1.6
 By: @LeastCraft
 
@@ -42,7 +73,7 @@ QoL:
 	Versions of spider variant promotions from Spiderkin trait are now hidden from civilopedia for clarity.
 	Updated strategy information for the Archos civilization and the spiders in civilopedia.
 
-New mechanics:
+Mechanics:
 	Archos now accumulate Brood Activity (BA) each turn which you can spend on spider related spells.
 	The capital will still spawn spider by chance each turn, and the chance to spawn a spider is proportional to the BA gained on that turn.
 	The rate of BA gain and the chance of spider spawn are no longer reduced by the number of spiders owned.
@@ -72,7 +103,6 @@ Spells:
 
 	Added new spell "Poison Fume": Adds the "Poison Fume" promotion to units within 1 range.
 	
-Abilities:
 	Added new spells which utilize Baby Spiders:
 		- Smear Poison: Can be used by any unit except animals and beasts. Sacrifices the weakest Baby Spider to gain Poisoned Blade promotion.
 			- Can be used unlimited number of times per turn.
@@ -94,8 +124,8 @@ Promotions:
 	Added Archosian Worker, a promotion for Archosian Workers that allows them to build Feeding Pen.
 
 Improvements:
-	Added Maze of Webs, an improvement that provides commerce and slows down non-Spider units who are not part of the Archosian tribe.
 	Added Feeding Pen, a unique improvement similar to pasture that provides food, Brood Activity and has a chance to spawn Baby Spiders.
+	Added Maze of Webs, an improvement that provides commerce and slows down non-Spider units who are not part of the Archosian tribe. Can be built in forests, ancient forests and jungles.
 
 Fixes:
 	"Poisoned", "Poison Fume" and "Marked Prey" promotion now correctly applies to defensive melee and rogue units.

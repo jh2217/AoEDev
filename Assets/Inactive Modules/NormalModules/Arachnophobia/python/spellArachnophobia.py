@@ -53,21 +53,21 @@ def GetWorstOwnUnitInCasterTile(caster, type='', withPromo='', withoutPromo=''):
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_HEROIC')):
 					fModifier += 9999 # Nor should battle-hardened units
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_STRONG')):
-					fModifier += 2.0
+					fModifier += 2
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_WEAK')):
-					fModifier -= 1.0
+					fModifier -= 1
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_CRAZED')):
-					fModifier -= 1.0
+					fModifier -= 1
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_DISEASED')):
-					fModifier -= 1.0
+					fModifier -= 1
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_ENRAGED')):
-					fModifier -= 1.0
+					fModifier -= 1
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_UNDISCIPLINED')):
-					fModifier -= 1.0
+					fModifier -= 1
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_PLAGUED')):
-					fModifier -= 1.0
+					fModifier -= 1
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_NO_EXP')):
-					fModifier -= 99.0
+					fModifier -= 99
 
 				fValue = fStrength * fModifier
 				if fValue < fWorstValue:
@@ -291,21 +291,43 @@ def reqCannibalize(caster):
 
 
 def onMoveMazeOfWebs(caster, pPlot):
-	immuneUnits = [getInfoType('UNIT_BABY_SPIDER'), getInfoType('UNIT_SPIDER'), getInfoType('UNIT_GIANT_SPIDER'), getInfoType('UNIT_NESTING_SPIDER'), getInfoType('UNIT_MOTHER_SPIDER')]
-	if caster.getUnitType() not in immuneUnits:
-		if gc.getPlayer(caster.getOwner()).getCivilizationType() != Civ["Archos"]:
-			iHasted = getInfoType('PROMOTION_HASTED')
-			caster.safeRemovePromotion(iHasted)
-			iSlow = getInfoType('PROMOTION_SLOW')
-			caster.setHasPromotion(iSlow, True)
+	spiderUnits = [getInfoType('UNIT_BABY_SPIDER'), getInfoType('UNIT_SPIDER'), getInfoType('UNIT_GIANT_SPIDER'), getInfoType('UNIT_NESTING_SPIDER'), getInfoType('UNIT_MOTHER_SPIDER')]
+	iHasted = getInfoType('PROMOTION_HASTED')
+	iSlow = getInfoType('PROMOTION_SLOW')
+	if caster.getUnitType() in spiderUnits:
+		caster.safeRemovePromotion(iSlow)
+	elif gc.getPlayer(caster.getOwner()).getCivilizationType() != Civ["Archos"]:
+		caster.safeRemovePromotion(iHasted)
+		caster.setHasPromotion(iSlow, True)
+
 
 def spellMountSpider(caster):
 	pVictim = GetWorstOwnUnitInCasterTile(caster, type='UNIT_SPIDER')
 	if pVictim != -1:
 		pVictim.kill(True, 0)
 
+
 def spellDismountSpider(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	iSpider = getInfoType('UNIT_SPIDER')
 	spawnUnit = pPlayer.initUnit(iSpider, caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 	spawnUnit.setHasPromotion( getInfoType("PROMOTION_NO_EXP"), True)
+
+
+def babySpiderSwarm(caster):
+	pPlot = caster.plot()
+	iSpider = getInfoType('UNIT_BABY_SPIDER')
+
+	iBabySpiderCount = 0
+	for i in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(i)
+		if pUnit.getUnitType() == iSpider:
+			iBabySpiderCount += 1
+	
+	iPromos = min(4, iBabySpiderCount / 10)
+	for i in range(1,5):
+		iSwarmPromo = getInfoType('PROMOTION_SWARMING' + str(i))
+		if i <= iPromos:
+			caster.setHasPromotion(iSwarmPromo, True)
+		else:
+			caster.safeRemovePromotion(iSwarmPromo)

@@ -116,7 +116,7 @@
 		<SpellInfo>			<!-- Consume the Weak -->
 			<Type>SPELL_CONSUME_THE_WEAK</Type>
 			<Description>TXT_KEY_SPELL_CONSUME_THE_WEAK</Description>
-			<PromotionPrereq1>PROMOTION_SPIDER_ARGYRONETA_GREATER</PromotionPrereq1>
+			<UnitPrereq>UNIT_SPIDERKIN</UnitPrereq>
 			<SpellClasses>
 				<SpellClass>
 					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
@@ -161,9 +161,9 @@
 			<Sound>AS3D_UN_SPIDER_SILK</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/PoisonFume.dds</Button>
 		</SpellInfo>
-		<SpellInfo>			<!-- Predatory Scream -->
-			<Type>SPELL_PREDATORY_SCREAM</Type>
-			<Description>TXT_KEY_SPELL_PREDATORY_SCREAM</Description>
+		<SpellInfo>			<!-- Arachnophobia -->
+			<Type>SPELL_ARACHNOPHOBIA</Type>
+			<Description>TXT_KEY_SPELL_ARACHNOPHOBIA</Description>
 			<UnitPrereq>UNIT_MOTHER_SPIDER</UnitPrereq>
 			<SpellClasses>
 				<SpellClass>
@@ -177,13 +177,13 @@
 			<bResistable>1</bResistable>
 			<iRange>1</iRange>
 			<AddPromotions>
-				<AddPromotion>PROMOTION_MARKED_PREY</AddPromotion>
+				<AddPromotion>PROMOTION_ARACHNOPHOBIA</AddPromotion>
 			</AddPromotions>
 			<bImmuneTeam>1</bImmuneTeam>
 			<bImmuneNeutral>1</bImmuneNeutral>
 			<Effect>EFFECT_BIRDSCATTER</Effect>
 			<Sound>AS3D_UN_SPIDER_SILK</Sound>
-			<Button>Art/Modules/Arachnophobia/Buttons/PredatoryScream.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/Arachnophobia.dds</Button>
 		</SpellInfo>
 
 		<!-- Symbiotic Communion Start -->

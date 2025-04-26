@@ -24,5 +24,14 @@
 			<KFM></KFM>
 			<Button>Art/Modules/Arachnophobia/Buttons/Maze_Of_Webs.dds</Button>
 		</ImprovementArtInfo>
+		<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_NESTING_GROUND</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>1.0</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<NIF>Art/Modules/Arachnophobia/Improvements/Nesting_Ground/Pasture.nif</NIF>
+			<KFM></KFM>
+			<Button>Art/Modules/Arachnophobia/Buttons/Nesting_Ground.dds</Button>
+		</ImprovementArtInfo>
 	</ImprovementArtInfos>
 </Civ4ArtDefines>
