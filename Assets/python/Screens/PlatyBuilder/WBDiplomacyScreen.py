@@ -5,6 +5,7 @@ import CvScreenEnums
 import WBPlayerScreen
 import CvPlatyBuilderScreen
 import CvEventManager
+import CvEventInterface
 import WBTradeScreen
 gc = CyGlobalContext()
 
@@ -417,13 +418,13 @@ class WBDiplomacyScreen:
 		if CvPlatyBuilderScreen.bPython:
 			if iNewStatus == 2:
 				if iOldStatus == 3:
-					CvEventManager.CvEventManager().onVassalState([iTeam1, iTeam2, False])
+					CvEventInterface.getEventManager().onVassalState([iTeam1, iTeam2, False])
 				else:
-					CvEventManager.CvEventManager().onVassalState([iTeam2, iTeam1, False])
+					CvEventInterface.getEventManager().onVassalState([iTeam2, iTeam1, False])
 			elif iNewStatus == 3:
-				CvEventManager.CvEventManager().onVassalState([iTeam1, iTeam2, True])
+				CvEventInterface.getEventManager().onVassalState([iTeam1, iTeam2, True])
 			else:
-				CvEventManager.CvEventManager().onVassalState([iTeam2, iTeam1, True])
+				CvEventInterface.getEventManager().onVassalState([iTeam2, iTeam1, True])
 
 	def editContact(self, iTeam):
 		if not bRemove:
