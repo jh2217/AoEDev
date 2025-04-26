@@ -3372,12 +3372,8 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 		// Defender wins this round
 		if (GC.getGameINLINE().getSorenRandNum(GC.getCOMBAT_DIE_SIDES(), "Combat") < iDefenderOdds)
 		{
-			// Only apply if attacker is out of first strikes
-			if (getCombatFirstStrikes() > 0)
-			{
-				changeCombatFirstStrikes(-1);
-			}
-			else
+			// Only do damage if attacker is out of first strikes
+			if (getCombatFirstStrikes() <= 0)
 			{
 				// Defensive Withdrawal Ahwaric  24.09.09 && Higher hitpoints Snarko 01/02/11
 				if (getDamageReal() + iAttackerDamage >= maxHitPoints()
@@ -3435,11 +3431,7 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 		else // Attacker wins the round
 		{
 			// Only do damage if defender is out of first strikes
-			if (pDefender->getCombatFirstStrikes() > 0)
-			{
-				pDefender->changeCombatFirstStrikes(-1);
-			}
-			else
+			if (pDefender->getCombatFirstStrikes() <= 0)
 			{
 				// Defender withdraws or dies, combat ends
 				if (pDefender->getDamageReal() + iDefenderDamage >= pDefender->maxHitPoints())
@@ -3548,6 +3540,16 @@ void CvUnit::resolveCombat(CvUnit* pDefender, CvPlot* pPlot, CvBattleDefinition&
 			}
 
 			break;
+		}
+
+		// Round of combat complete; remove 1 FS if either combatant has any
+		if (getCombatFirstStrikes() > 0)
+		{
+			changeCombatFirstStrikes(-1);
+		}
+		if (pDefender->getCombatFirstStrikes() > 0)
+		{
+			pDefender->changeCombatFirstStrikes(-1);
 		}
 
 		// Maybe one tier too high? Should be outside the combat while loop?? Blaze
