@@ -10,7 +10,7 @@
 			<!-- Palace Archos -->
 			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
 			<Type>BUILDING_PALACE_ARCHOS</Type>
-			<Description>TXT_KEY_BUILDING_PALACE_ARCHOS_ARACHNOPHOBIA</Description>
+			<Description>TXT_KEY_BUILDING_PALACE_ARCHOS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_PALACE_ARCHOS_PEDIA</Civilopedia>
 			<Help>TXT_KEY_BUILDING_PALACE_ARCHOS_HELP</Help>
 			<Advisor>ADVISOR_ECONOMY</Advisor>

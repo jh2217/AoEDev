@@ -8,9 +8,9 @@
 	<BuildingArtInfos>
 		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_PALACE_ARCHOS</Type>
-			<LSystem>LSYSTEM_3x3</LSystem>
+			<LSystem>LSYSTEM_4x4</LSystem>
 			<bAnimated>0</bAnimated>
-			<fScale>2.2</fScale>
+			<fScale>4.4</fScale>
 			<fInterfaceScale>0.5</fInterfaceScale>
 			<NIF>Art/Modules/Arachnophobia/Buildings/PalaceArchos/archos.nif</NIF>
 			<KFM/>
