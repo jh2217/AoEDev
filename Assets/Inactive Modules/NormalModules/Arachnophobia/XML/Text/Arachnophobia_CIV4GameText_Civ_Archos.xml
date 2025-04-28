@@ -914,4 +914,60 @@
 		<Italian>Nesting</Italian>
 		<Spanish>Nesting</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_INFESTED_FORTRESS</Tag>
+		<English>Infested Fortress</English>
+		<French>Infested Fortress</French>
+		<German>Infested Fortress</German>
+		<Italian>Infested Fortress</Italian>
+		<Spanish>Infested Fortress</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_INFESTED_FORTRESS_PEDIA</Tag>
+		<English>The dark, damp interior of an abandoned castle makes for the perfect home of spiders.</English>
+		<French>The dark, damp interior of an abandoned castle makes for the perfect home of spiders.</French>
+		<German>The dark, damp interior of an abandoned castle makes for the perfect home of spiders.</German>
+		<Italian>The dark, damp interior of an abandoned castle makes for the perfect home of spiders.</Italian>
+		<Spanish>The dark, damp interior of an abandoned castle makes for the perfect home of spiders.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_INFESTED_FORTRESS_HELP</Tag>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_INFESTED_FORTRESS</Tag>
+		<English>[LINK=IMPROVEMENT_INFESTED_FORTRESS]Infest Fortress[\LINK]</English>
+		<French>[LINK=IMPROVEMENT_INFESTED_FORTRESS]Infest Fortress[\LINK]</French>
+		<German>[LINK=IMPROVEMENT_INFESTED_FORTRESS]Infest Fortress[\LINK]</German>
+		<Italian>[LINK=IMPROVEMENT_INFESTED_FORTRESS]Infest Fortress[\LINK]</Italian>
+		<Spanish>[LINK=IMPROVEMENT_INFESTED_FORTRESS]Infest Fortress[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DEEP_NEST</Tag>
+		<English>Deep Nest</English>
+		<French>Deep Nest</French>
+		<German>Deep Nest</German>
+		<Italian>Deep Nest</Italian>
+		<Spanish>Deep Nest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DEEP_NEST_PEDIA</Tag>
+		<English>The portion above ground is but tip of the iceberg of the vast network of tunnels underneath.</English>
+		<French>The portion above ground is but tip of the iceberg of the vast network of tunnels underneath.</French>
+		<German>The portion above ground is but tip of the iceberg of the vast network of tunnels underneath.</German>
+		<Italian>The portion above ground is but tip of the iceberg of the vast network of tunnels underneath.</Italian>
+		<Spanish>The portion above ground is but tip of the iceberg of the vast network of tunnels underneath.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DEEP_NEST_HELP</Tag>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Allows spiders resting on the same tile to gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Spanish>
+	</TEXT>
 </Civ4GameText>

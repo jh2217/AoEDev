@@ -16,6 +16,9 @@ tweaks to archos civ
 v1.7
 By: @LeastCraft
 
+Graphics:
+Scaled down size of the Nesting Spider.
+
 Mechanics:
 	BA gain and spider spawn are again reduced by the number of existing spiders and giant spiders (but not baby spiders).
 
@@ -28,11 +31,14 @@ Units:
 	Spiderkin now has access to spell "Consume the Weak".
 	Mother of Mothers now has free promotion Fear.
 	Mother of Mothers strength adjusted from 12+6 poison to 14+4 poison.
+	Nesting Spider strength adjusted from 3+2 poison to 4+1 poison.
 
 Promotions:
 	Added promotion Nesting, removes maintenance and supply cost, and gives additional stealth and +15% defensive strength for spiders.
 	Restored Argyroneta and Greater Argyroneta to grant aquatic abilities.
 	Greater Textus now additionally allows spiders to build Nesting Ground.
+	Fort Spider I now allows nesting spider to build Infested Fortress.
+	Fort Spider II now allows nesting spider to build Deep Nest.
 	Renamed Marked Prey to Arachnophobia and changed button sprite.
 
 Buildings:
@@ -42,6 +48,8 @@ Buildings:
 Improvements:
 	Archosian Workers can no longer build forts.
 	Added Nesting Ground, an improvement that grants the Nesting promotion to spiders on the same tile, and provides -1 food on its tile.
+	Added Infested Fortress, which can be built by Nesting Spider over occupied forts and acts as a Nesting Ground with extra defensive bonuses.
+	Added Deep Nest, an upgrade over Nesting Ground and Infested Fortress
 	Maze of Webs can now be additionally built in Haunted Lands.
 	Maze of Webs now removes Slow from spiders.
 

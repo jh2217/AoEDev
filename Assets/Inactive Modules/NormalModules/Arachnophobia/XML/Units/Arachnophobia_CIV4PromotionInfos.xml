@@ -6,6 +6,14 @@
 <!-- Promotion Infos -->
 <Civ4PromotionInfos xmlns="x-schema:Arachnophobia_CIV4UnitSchema.xml">
 	<PromotionInfos>
+		<PromotionInfo>			<!-- Poisoned -->
+			<Type>PROMOTION_POISONED</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Poisoned.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>			<!-- Spiderkin -->
+			<Type>PROMOTION_SPIDERKIN</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Spiderkin.dds</Button>
+		</PromotionInfo>
 		<PromotionInfo>			<!-- Growth Spurts -->
 			<Type>PROMOTION_GROWTH_SPURTS</Type>
 			<Description>TXT_KEY_PROMOTION_GROWTH_SPURTS</Description>
@@ -15,86 +23,22 @@
 			<iMinLevel>-1</iMinLevel>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
-		<PromotionInfo>
-			<!-- Fort Spider I -->
+		<PromotionInfo>			<!-- Fort Spider I -->
 			<Type>PROMOTION_FORTSPIDER1</Type>
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_INFESTED_FORTRESS</PromotionBuild>
+			</PromotionBuilds>
 			<Button>Art/Modules/Arachnophobia/Buttons/FortSpider1.dds</Button>
 		</PromotionInfo>
-		<PromotionInfo>
-			<!-- Fort Spider II -->
+		<PromotionInfo>			<!-- Fort Spider II -->
 			<Type>PROMOTION_FORTSPIDER2</Type>
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_DEEP_NEST</PromotionBuild>
+			</PromotionBuilds>
 			<Button>Art/Modules/Arachnophobia/Buttons/FortSpider2.dds</Button>
 		</PromotionInfo>
-		<PromotionInfo>
-			<!-- Spiderkin -->
-			<Type>PROMOTION_SPIDERKIN</Type>
-			<Button>Art/Modules/Arachnophobia/Buttons/Spiderkin.dds</Button>
-		</PromotionInfo>
 		
-		<PromotionInfo>			<!-- Poisoned -->
-			<Type>PROMOTION_POISONED</Type>
-			<Description>TXT_KEY_PROMOTION_POISONED</Description>
-			<Help>TXT_KEY_PROMOTION_POISONED_PEDIA</Help>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<iEnemyHealChange>-3</iEnemyHealChange>
-			<iNeutralHealChange>-5</iNeutralHealChange>
-			<iFriendlyHealChange>-8</iFriendlyHealChange>
-			<iCombatPercent>-10</iCombatPercent>
-			<bPrereqAlive>1</bPrereqAlive>
-			<bRemovedWhenHealed>1</bRemovedWhenHealed>
-			<iAIWeight>-100</iAIWeight>
-			<iMinLevel>-1</iMinLevel>
-			<PromotionNextLevel>PROMOTION_SCORPION_MORTALITAS_POISON</PromotionNextLevel>
-			<Button>Art/Modules/Arachnophobia/Buttons/Poisoned.dds</Button>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		<PromotionInfo>
-			<!-- Spider Mucro Burrowed (No Reveal) -->
+		<PromotionInfo>			<!-- Spider Mucro Burrowed (No Reveal) -->
 			<Type>PROMOTION_SPIDER_MUCRO_BURROWED_NO_REVEAL</Type>
 			<Description>TXT_KEY_PROMOTION_BURROWED_NO_REVEAL</Description>
 
@@ -1484,10 +1428,16 @@
 				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
 				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
 				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_NESTING_SPIDER</PrereqUnit>
 			</PrereqUnits>
 			<PrereqImprovements>
 				<PrereqImprovement>IMPROVEMENT_NESTING_GROUND</PrereqImprovement>
+				<PrereqImprovement>IMPROVEMENT_INFESTED_FORTRESS</PrereqImprovement>
+				<PrereqImprovement>IMPROVEMENT_DEEP_NEST</PrereqImprovement>
 			</PrereqImprovements>
+			<PromotionCannotBuilds>
+				<PromotionBuild>BUILD_INFESTED_FORTRESS</PromotionBuild>
+			</PromotionCannotBuilds>
 		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>

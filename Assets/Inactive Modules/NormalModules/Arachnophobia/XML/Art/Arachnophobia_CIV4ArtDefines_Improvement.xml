@@ -33,5 +33,23 @@
 			<KFM></KFM>
 			<Button>Art/Modules/Arachnophobia/Buttons/Nesting_Ground.dds</Button>
 		</ImprovementArtInfo>
+		<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_INFESTED_FORTRESS</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>1.2</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<NIF>Art/Modules/Arachnophobia/Improvements/Infested_Fortress/Castle.nif</NIF>
+			<KFM/>
+			<Button>Art/Modules/Arachnophobia/Buttons/Infested_Fortress.dds</Button>
+		</ImprovementArtInfo>
+		<ImprovementArtInfo>
+			<Type>ART_DEF_IMPROVEMENT_DEEP_NEST</Type>
+			<bExtraAnimations>0</bExtraAnimations>
+			<fScale>0.6</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<NIF>Art/Modules/Arachnophobia/Improvements/Deep_Nest/Castle.nif</NIF>
+			<KFM/>
+			<Button>Art/Modules/Arachnophobia/Buttons/Deep_Nest.dds</Button>
+		</ImprovementArtInfo>
 	</ImprovementArtInfos>
 </Civ4ArtDefines>

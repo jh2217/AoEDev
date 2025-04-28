@@ -270,7 +270,7 @@
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMoves>1</iMoves>
-			<iCombat>3</iCombat>
+			<iCombat>4</iCombat>
 			<iFirstStrikes>2</iFirstStrikes>
 			<iChanceFirstStrikes>2</iChanceFirstStrikes>
 			<UnitCombatMods>
@@ -287,6 +287,7 @@
 					<iUnitCombatMod>-40</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
+			<iWorkRate>100</iWorkRate>
 			<UnitMeshGroups>
 				<iGroupSize>1</iGroupSize>
 				<fMaxSpeed>1.25</fMaxSpeed>
@@ -316,7 +317,7 @@
 			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_POISON</DamageType>
-					<iCombat>2</iCombat>
+					<iCombat>1</iCombat>
 				</DamageTypeCombat>
 			</DamageTypeCombats>
 			<bFreeXP>1</bFreeXP>
