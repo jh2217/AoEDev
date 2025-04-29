@@ -23,6 +23,7 @@ Mechanics:
 	BA gain and spider spawn are again reduced by the number of existing spiders and giant spiders (but not baby spiders).
 
 Spells:
+	Smear Poison now unlocks at Hunting technology.
 	Renamed Predatory Scream to Arachnophobia and changed button sprite.
 
 Units:
@@ -247,7 +248,7 @@ By: @Honourable596
 Units:
 	Commented out scorpions as unique units
 	Spider Rider to replace Horseman (tier 1 mounted) instead of the Horse Archer (tier 2 mounted) and adjusted stats accordingly
-	War Spider to replace Knight and only requiring the construction technology and siege workshop building - adjusted stats to match vanilla knight
+	War Spider to replace Knight and only requiring the Construction technology and siege workshop building - adjusted stats to match vanilla knight
 	Brought back Huntsman and Recluse, Archos UU replacing the Hunter and Ranger Tier 2+3 recon units.
 
 v1.1
