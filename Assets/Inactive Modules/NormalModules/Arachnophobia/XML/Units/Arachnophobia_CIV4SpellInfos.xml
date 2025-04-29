@@ -403,7 +403,7 @@
 			<Civilopedia>TXT_KEY_SPELL_SMEAR_POISON_PEDIA</Civilopedia>
 			<Help>TXT_KEY_SPELL_SMEAR_POISON_HELP</Help>
 			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
-			<TechPrereq>TECH_HUNTING</TechPrereq>
+			<TechPrereq>TECH_EXPLORATION</TechPrereq>
 			<SpellClasses>
 				<SpellClass>
 					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
