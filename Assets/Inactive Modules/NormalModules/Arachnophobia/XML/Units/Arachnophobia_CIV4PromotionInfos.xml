@@ -33,7 +33,6 @@
 		<PromotionInfo>			<!-- Fort Spider II -->
 			<Type>PROMOTION_FORTSPIDER2</Type>
 			<PromotionBuilds>
-				<PromotionBuild>BUILD_DEEP_NEST</PromotionBuild>
 			</PromotionBuilds>
 			<Button>Art/Modules/Arachnophobia/Buttons/FortSpider2.dds</Button>
 		</PromotionInfo>

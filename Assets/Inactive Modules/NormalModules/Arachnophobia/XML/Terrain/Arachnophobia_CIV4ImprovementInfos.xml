@@ -172,12 +172,13 @@
 			<Civilopedia>TXT_KEY_IMPROVEMENT_NESTING_GROUND_PEDIA</Civilopedia>
 			<Help>TXT_KEY_IMPROVEMENT_NESTING_GROUND_HELP</Help>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_NESTING_GROUND</ArtDefineTag>
+			<iUpgradeTime>50</iUpgradeTime>
 			<YieldChanges>
 				<iYieldChange>-1</iYieldChange>
 				<iYieldChange>0</iYieldChange>
 				<iYieldChange>0</iYieldChange>
 			</YieldChanges>
-			<iPillageGold>1</iPillageGold>
+			<iPillageGold>10</iPillageGold>
 			<bOutsideBorders>1</bOutsideBorders>
 			<iMinimumDistance>1</iMinimumDistance>
 			<bFort>1</bFort>
@@ -231,6 +232,7 @@
 					<bMakesValid>1</bMakesValid>
 				</TerrainMakesValid>
 			</TerrainMakesValids>
+			<ImprovementUpgrade>IMPROVEMENT_DEEP_NEST</ImprovementUpgrade>
 			<iCultureControlStrength>1</iCultureControlStrength>
 			<iCultureCenterBonus>1</iCultureCenterBonus>
 			<iMaxAirlift>1</iMaxAirlift>
@@ -242,6 +244,7 @@
 			<Civilopedia>TXT_KEY_IMPROVEMENT_INFESTED_FORTRESS_PEDIA</Civilopedia>
 			<Help>TXT_KEY_IMPROVEMENT_INFESTED_FORTRESS_HELP</Help>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_INFESTED_FORTRESS</ArtDefineTag>
+			<iUpgradeTime>40</iUpgradeTime>
 			<iDefenseModifier>25</iDefenseModifier>
 			<iHealRateChange>10</iHealRateChange>
 			<iRange>1</iRange>
@@ -252,7 +255,7 @@
 				<iYieldChange>0</iYieldChange>
 				<iYieldChange>0</iYieldChange>
 			</YieldChanges>
-			<iPillageGold>1</iPillageGold>
+			<iPillageGold>10</iPillageGold>
 			<bOutsideBorders>1</bOutsideBorders>
 			<iMinimumDistance>1</iMinimumDistance>
 			<bFort>1</bFort>
@@ -307,6 +310,7 @@
 				</TerrainMakesValid>
 			</TerrainMakesValids>
 			<ImprovementPillage>IMPROVEMENT_NESTING_GROUND</ImprovementPillage>
+			<ImprovementUpgrade>IMPROVEMENT_DEEP_NEST</ImprovementUpgrade>
 			<iCultureRange>1</iCultureRange>
 			<iCultureControlStrength>1</iCultureControlStrength>
 			<iCultureCenterBonus>1</iCultureCenterBonus>
@@ -329,7 +333,7 @@
 				<iYieldChange>0</iYieldChange>
 				<iYieldChange>0</iYieldChange>
 			</YieldChanges>
-			<iPillageGold>1</iPillageGold>
+			<iPillageGold>15</iPillageGold>
 			<bOutsideBorders>1</bOutsideBorders>
 			<iMinimumDistance>1</iMinimumDistance>
 			<bFort>1</bFort>
