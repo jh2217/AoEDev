@@ -13,6 +13,18 @@ LeastCraft
 [desc]
 tweaks to archos civ
 
+
+v1.8
+By: @LeastCraft
+
+Spells:
+	Smear Poison now unlocks at Hunting technology.
+
+Units:
+	Spiders no longer inherit the free unit promotion from Baby Spiders.
+	Giant spiders no longer have stealth.
+
+
 v1.7
 By: @LeastCraft
 
@@ -23,13 +35,10 @@ Mechanics:
 	BA gain and spider spawn are again reduced by the number of existing spiders and giant spiders (but not baby spiders).
 
 Spells:
-	Smear Poison now unlocks at Hunting technology.
 	Renamed Predatory Scream to Arachnophobia and changed button sprite.
 
 Units:
 	Baby spiders gain the swarming ability, giving them +25% strength but suffers +25% more collateral damage for every 10 baby spiders in the same stack, up to +100%.
-	Spiders no longer inherit the free unit promotion from Baby Spiders.
-	Giant spiders no longer have stealth.
 	Increased Giant Spider work rate from 100 to 150.
 	Spiderkin now has access to spell "Consume the Weak".
 	Mother of Mothers now has free promotion Fear.
@@ -55,6 +64,7 @@ Improvements:
 	Maze of Webs can now be additionally built in Haunted Lands.
 	Maze of Webs now removes Slow from spiders.
 
+
 v1.6
 By: @LeastCraft
 
@@ -75,6 +85,7 @@ Units:
 Improvements:
 	Archosian Workers can no longer build pastures.
 	Changed Maze of Webs to now only yield +2 Commerce to the Archosian tribe and yield nothing to other civs.
+
 
 v1.5
 By: @LeastCraft
@@ -141,6 +152,7 @@ Improvements:
 Fixes:
 	"Poisoned", "Poison Fume" and "Marked Prey" promotion now correctly applies to defensive melee and rogue units.
 
+
 v1.4
 By: @LeastCraft (idea from @black_imperator)
 
@@ -176,6 +188,7 @@ Spells:
 	- Rite of Sapphire: Sacrifices the weakest BLUE spider and grants Trail Pheromone on melee and recon units in the same stack
 	- Rite of Emerald: Sacrifices the weakest GREEN spider and grants Spitter Gland on melee and recon units in the same stack
 
+
 v1.3.1
 By: @FoxXavier
 
@@ -183,6 +196,7 @@ Units:
 	Removed scorpion spawning
 	Rebalanced Spider Rider stats. Now replaces the horseman line. Loses a movement for extra poison damage. War Spider (Knight replacement) has gained a ranged attack.
 	Baby Spider gains +50% against animal units
+
 
 v1.3
 By: @LeastCraft
@@ -242,6 +256,7 @@ Spells:
 	Added SPELL_CONSUME_THE_WEAK which grants "Consume the Weak" Promotion to Baby Spiders and Spiders (but not Giant Spiders) in stack.
 	Added SPELL_PREDATORY_SCREAM which applies "Marked Prey" Promotion to enemy units in a 3x3 range
 
+
 v1.2
 By: @Honourable596
 
@@ -251,6 +266,7 @@ Units:
 	War Spider to replace Knight and only requiring the Construction technology and siege workshop building - adjusted stats to match vanilla knight
 	Brought back Huntsman and Recluse, Archos UU replacing the Hunter and Ranger Tier 2+3 recon units.
 
+
 v1.1
 By: @LeastCraft
 
@@ -259,6 +275,7 @@ Graphics:
 
 Units:
 	Added Free Unit promotion to Baby Spider
+
 
 v1.0
 By: @LeastCraft
