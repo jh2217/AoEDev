@@ -27,6 +27,8 @@ Spells:
 
 Units:
 	Baby spiders gain the swarming ability, giving them +25% strength but suffers +25% more collateral damage for every 10 baby spiders in the same stack, up to +100%.
+	Spiders no longer inherit the free unit promotion from Baby Spiders.
+	Giant spiders no longer have stealth.
 	Increased Giant Spider work rate from 100 to 150.
 	Spiderkin now has access to spell "Consume the Weak".
 	Mother of Mothers now has free promotion Fear.

@@ -44,7 +44,7 @@
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 				<FreePromotion>
-					<PromotionType>PROMOTION_FREE_UNIT</PromotionType>
+					<PromotionType>PROMOTION_FREE_BABY_SPIDER</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
@@ -176,7 +176,6 @@
 			<Type>UNIT_GIANT_SPIDER</Type>
 			<Combat>UNITCOMBAT_BEAST</Combat>
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
-			<iInvisibleLevel>1</iInvisibleLevel>
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_GIANT_SPIDER</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>

@@ -37,6 +37,21 @@
 			<Button>Art/Modules/Arachnophobia/Buttons/FortSpider2.dds</Button>
 		</PromotionInfo>
 		
+		<PromotionInfo>		<!-- Free Baby Spider  -->
+			<Type>PROMOTION_FREE_BABY_SPIDER</Type>
+			<Description>TXT_KEY_PROMOTION_FREEUNIT</Description>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<bMustMaintain>1</bMustMaintain>
+			<bFreeUnit>1</bFreeUnit>
+			<bNoSupply>1</bNoSupply>
+			<bNoSupport>1</bNoSupport>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Promotions/FreeUnit.dds</Button>
+		</PromotionInfo>
+
 		<PromotionInfo>			<!-- Spider Mucro Burrowed (No Reveal) -->
 			<Type>PROMOTION_SPIDER_MUCRO_BURROWED_NO_REVEAL</Type>
 			<Description>TXT_KEY_PROMOTION_BURROWED_NO_REVEAL</Description>
