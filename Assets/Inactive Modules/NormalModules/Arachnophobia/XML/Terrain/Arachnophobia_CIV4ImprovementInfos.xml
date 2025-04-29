@@ -172,7 +172,7 @@
 			<Civilopedia>TXT_KEY_IMPROVEMENT_NESTING_GROUND_PEDIA</Civilopedia>
 			<Help>TXT_KEY_IMPROVEMENT_NESTING_GROUND_HELP</Help>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_NESTING_GROUND</ArtDefineTag>
-			<iUpgradeTime>50</iUpgradeTime>
+			<iUpgradeTime>60</iUpgradeTime>
 			<YieldChanges>
 				<iYieldChange>-1</iYieldChange>
 				<iYieldChange>0</iYieldChange>
