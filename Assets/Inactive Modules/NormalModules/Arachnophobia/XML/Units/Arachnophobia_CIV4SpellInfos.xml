@@ -49,6 +49,23 @@
 			<bForceOverwrite>1</bForceOverwrite>
 		</SpellInfo>
 		
+		<SpellInfo>			<!-- Hatch -->
+			<Type>SPELL_HATCH</Type>
+			<Description>TXT_KEY_SPELL_HATCH</Description>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<UnitPrereq>UNIT_COCOON</UnitPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<RemovePromotions>
+				<RemovePromotion>PROMOTION_HATCHING</RemovePromotion>
+			</RemovePromotions>
+			<bSacrificeCaster>1</bSacrificeCaster>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Effect>EFFECT_IMPROVEMENT_GOODYHUT_POP</Effect>
+			<Sound>AS3D_SPELL_HASTE</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Hatch.dds</Button>
+		</SpellInfo>
+		
 		<SpellInfo>			<!-- Poison Explosion I-->
 			<Type>SPELL_POISON_EXPLOSION1</Type>
 			<Description>TXT_KEY_SPELL_POISON_EXPLOSION1</Description>

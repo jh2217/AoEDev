@@ -14,6 +14,24 @@ LeastCraft
 tweaks to archos civ
 
 
+v1.9
+By: @LeastCraft
+
+Mechanics:
+	BA is no longer gained from the number of cities, and gain from Dark Weald and Feeding Pen is decreased.
+	BA penalty from existing Spiders and Giant Spiders is doubled.
+	Automatically spawned spiders now spawn hatching in a cocoon, which means they will no longer require micromanagement upon being spawned.
+
+Units:
+	Added unit Cocoon, which is spawned whenever a spider is automatically spawned in a location with no existing Cocoon.
+
+Spells:
+	Added spell Hatch, available to the Cocoon, which destroys the Cocoon and removes Hatching promotion on all spiders.
+
+Promotion:
+	Added promotion Hatching, which is placed on all automatically spawned spiders. A hatching spider cannot move but costs no maintenance.
+
+
 v1.8
 By: @LeastCraft
 
@@ -24,13 +42,14 @@ Spells:
 
 Units:
 	Spiders no longer inherit the free unit promotion from Baby Spiders.
-	Giant spiders no longer have stealth.
+	Giant Spiders no longer have stealth.
 
 Improvements:
 	Maze of Webs now produces +1 commerce upon researching Medicine technology.
 	Maze of Webs now improves Silk with no additional yields, and can only be built on forested Silk.
 	Maze of Webs now has a 1/5000 chance per turn to discover a Silk resource on its plot.
 	Maze of Webs can no longer be built on Haunted Lands due to DLL change.
+
 
 v1.7
 By: @LeastCraft
@@ -39,13 +58,13 @@ Graphics:
 Scaled down size of the Nesting Spider.
 
 Mechanics:
-	BA gain and spider spawn are again reduced by the number of existing spiders and giant spiders (but not baby spiders).
+	BA gain and spider spawn are again reduced by the number of existing Spiders and Giant Spiders (but not Baby Spiders).
 
 Spells:
 	Renamed Predatory Scream to Arachnophobia and changed button sprite.
 
 Units:
-	Baby spiders gain the swarming ability, giving them +25% strength but suffers +25% more collateral damage for every 10 baby spiders in the same stack, up to +100%.
+	Baby Spiders gain the swarming ability, giving them +25% strength but suffers +25% more collateral damage for every 10 Baby Spiders in the same stack, up to +100%.
 	Increased Giant Spider work rate from 100 to 150.
 	Spiderkin now has access to spell "Consume the Weak".
 	Mother of Mothers now has free promotion Fear.
@@ -56,7 +75,7 @@ Promotions:
 	Added promotion Nesting, removes maintenance and supply cost, and gives additional stealth and +15% defensive strength for spiders.
 	Restored Argyroneta and Greater Argyroneta to grant aquatic abilities.
 	Greater Textus now additionally allows spiders to build Nesting Ground.
-	Fort Spider I now allows nesting spider to build Infested Fortress.
+	Fort Spider I now allows Nesting Spider to build Infested Fortress.
 	Renamed Marked Prey to Arachnophobia and changed button sprite.
 
 Buildings:

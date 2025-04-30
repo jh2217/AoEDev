@@ -51,6 +51,22 @@ def setSpiderPromo(cf, spawnUnit, pPlayer, pCity):
 		spawnUnit.changeFreePromotionPick(iBroodStrength)
 
 
+def spawnCocoon(pPlayer, pPlot):
+	# Spawn cocoon if one does not exist
+	initUnit 	= pPlayer.initUnit
+	iCocoon     = getInfoType('UNIT_COCOON')
+	iNoAI       = UnitAITypes.NO_UNITAI
+	iWest       = DirectionTypes.DIRECTION_WEST
+	
+	bHasCocoon = False
+	for i in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(i)
+		if pUnit.getUnitType() == iCocoon:
+			bHasCocoon = True
+	if not bHasCocoon:
+		initUnit(iCocoon, pPlot.getX(), pPlot.getY(), iNoAI, iWest)
+
+
 def doTurnArchosReplacement(self, iPlayer):
 	pPlayer         = gc.getPlayer(iPlayer)
 	if pPlayer.getNumCities() <= 0:
@@ -87,6 +103,9 @@ def doTurnArchosReplacement(self, iPlayer):
 			else:
 				spawnUnit = None
 			setSpiderPromo(self, spawnUnit, pPlayer, pNest)
+			if spawnUnit:
+				spawnUnit.setHasPromotion(getInfoType('PROMOTION_HATCHING'), True)
+				spawnCocoon(pPlayer, pNest.plot())
 		
 		# Spawn spiders from feeding pens
 		for i in xrange(map.numPlots()):
@@ -94,8 +113,11 @@ def doTurnArchosReplacement(self, iPlayer):
 			if pPlot.getImprovementType() == getInfoType('IMPROVEMENT_FEEDING_PEN'):
 				if pPlot.getOwner() == iPlayer:
 					if randNum(10000, "Spawn Roll") < iSpawnChance:
+						# Spawn baby spider
 						spawnUnit = initUnit(Unit["Baby Spider"], pPlot.getX(), pPlot.getY(), iNoAI, iSouth)
 						setSpiderPromo(self, spawnUnit, pPlayer, None)
+						spawnUnit.setHasPromotion(getInfoType('PROMOTION_HATCHING'), True)
+						spawnCocoon(pPlayer, pPlot)
 
 
 def doChanceArchosReplacement(self, iPlayer):
@@ -113,9 +135,7 @@ def doChanceArchosReplacement(self, iPlayer):
 		iNestPop 		= pNest.getPopulation()
 		iNumGroves 		= pPlayer.countNumBuildings(Building["Dark Weald"])
 		getUCC			= pPlayer.getUnitClassCount
-		iNumSpiders		= (getUCC(UnitClass["Spider"]) + (getUCC(UnitClass["Giant Spider"]) * 2))
-		
-		iNumSpiderCities = len(PyPlayer(iPlayer).getCityList())
+		iNumSpiders		= (getUCC(UnitClass["Spider"]) * 2 + (getUCC(UnitClass["Giant Spider"]) * 4))
 
 		map 		= CyMap()
 		plotByIndex = map.plotByIndex
@@ -131,7 +151,7 @@ def doChanceArchosReplacement(self, iPlayer):
 		if pPlayer.hasTrait(Trait["Spiderkin"]):
 			fSpiderkin = 1.30
 
-		iSpiderSpawnChance = ((iNestPop + (iNumSpiderCities*2) + (iNumGroves*4) + (iNumFeedingPen*2)) * fSpiderkin) - iNumSpiders
+		iSpiderSpawnChance = ((iNestPop + (iNumGroves*2) + iNumFeedingPen) * fSpiderkin) - iNumSpiders
 		iSpiderSpawnChance = (iSpiderSpawnChance * 100)
 		iSpiderSpawnChance = scaleInverse(iSpiderSpawnChance)
 

@@ -37,7 +37,7 @@
 			<Button>Art/Modules/Arachnophobia/Buttons/FortSpider2.dds</Button>
 		</PromotionInfo>
 		
-		<PromotionInfo>		<!-- Free Baby Spider  -->
+		<PromotionInfo>		<!-- Free Baby Spider -->
 			<Type>PROMOTION_FREE_BABY_SPIDER</Type>
 			<Description>TXT_KEY_PROMOTION_FREEUNIT</Description>
 			<PrereqUnits>
@@ -50,6 +50,123 @@
 			<iMinLevel>-1</iMinLevel>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/FreeUnit.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Hatching -->
+			<Type>PROMOTION_HATCHING</Type>
+			<Description>TXT_KEY_PROMOTION_HATCHING</Description>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<bMustMaintain>1</bMustMaintain>
+			<bFreeUnit>1</bFreeUnit>
+			<bNoSupply>1</bNoSupply>
+			<bNoSupport>1</bNoSupport>
+			<bHeld>1</bHeld>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Arachnophobia/Buttons/Hatching.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Nesting  -->
+			<Type>PROMOTION_NESTING</Type>
+			<Description>TXT_KEY_PROMOTION_NESTING</Description>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<bFreeUnit>1</bFreeUnit>
+			<bNoSupply>1</bNoSupply>
+			<bNoSupport>1</bNoSupport>
+			<iInvisibleLevel>2</iInvisibleLevel>
+			<iCombatPercentDefense>15</iCombatPercentDefense>
+			<Button>Art/Modules/Arachnophobia/Buttons/Nesting_Ground.dds</Button>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_NESTING_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PrereqImprovements>
+				<PrereqImprovement>IMPROVEMENT_NESTING_GROUND</PrereqImprovement>
+				<PrereqImprovement>IMPROVEMENT_INFESTED_FORTRESS</PrereqImprovement>
+				<PrereqImprovement>IMPROVEMENT_DEEP_NEST</PrereqImprovement>
+			</PrereqImprovements>
+			<PromotionCannotBuilds>
+				<PromotionBuild>BUILD_INFESTED_FORTRESS</PromotionBuild>
+			</PromotionCannotBuilds>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Swarming I -->
+			<Type>PROMOTION_SWARMING1</Type>
+			<Description>TXT_KEY_PROMOTION_SWARMING1</Description>
+			<iCombatPercent>25</iCombatPercent>
+			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+			<PromotionNextLevel>PROMOTION_SWARMING2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Swarming II -->
+			<Type>PROMOTION_SWARMING2</Type>
+			<Description>TXT_KEY_PROMOTION_SWARMING2</Description>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SWARMING1</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<iCombatPercent>25</iCombatPercent>
+			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+			<PromotionNextLevel>PROMOTION_SWARMING3</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Swarming III -->
+			<Type>PROMOTION_SWARMING3</Type>
+			<Description>TXT_KEY_PROMOTION_SWARMING3</Description>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SWARMING2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<iCombatPercent>25</iCombatPercent>
+			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+			<PromotionNextLevel>PROMOTION_SWARMING4</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Swarming IV -->
+			<Type>PROMOTION_SWARMING4</Type>
+			<Description>TXT_KEY_PROMOTION_SWARMING4</Description>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SWARMING3</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<iCombatPercent>25</iCombatPercent>
+			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<iMinLevel>-1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
 		</PromotionInfo>
 
 		<PromotionInfo>			<!-- Spider Mucro Burrowed (No Reveal) -->
@@ -1351,107 +1468,6 @@
 			<bNoXP>1</bNoXP>
 			<iExperiencePercent>-100</iExperiencePercent>
 			<Button>Art/Modules/Arachnophobia/Buttons/No_Exp.dds</Button>
-		</PromotionInfo>
-
-		<PromotionInfo>		<!-- Swarming I -->
-			<Type>PROMOTION_SWARMING1</Type>
-			<Description>TXT_KEY_PROMOTION_SWARMING1</Description>
-			<iCombatPercent>25</iCombatPercent>
-			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
-			<bMustMaintain>1</bMustMaintain>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<iMinLevel>-1</iMinLevel>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
-			<PromotionNextLevel>PROMOTION_SWARMING2</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Swarming II -->
-			<Type>PROMOTION_SWARMING2</Type>
-			<Description>TXT_KEY_PROMOTION_SWARMING2</Description>
-			<PrereqPromotionANDs>
-				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_SWARMING1</PromotionType>
-					<iPrereqApplications>1</iPrereqApplications>
-				</PrereqPromotionAND>
-			</PrereqPromotionANDs>
-			<iCombatPercent>25</iCombatPercent>
-			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
-			<bMustMaintain>1</bMustMaintain>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<iMinLevel>-1</iMinLevel>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
-			<PromotionNextLevel>PROMOTION_SWARMING3</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Swarming III -->
-			<Type>PROMOTION_SWARMING3</Type>
-			<Description>TXT_KEY_PROMOTION_SWARMING3</Description>
-			<PrereqPromotionANDs>
-				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_SWARMING2</PromotionType>
-					<iPrereqApplications>1</iPrereqApplications>
-				</PrereqPromotionAND>
-			</PrereqPromotionANDs>
-			<iCombatPercent>25</iCombatPercent>
-			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
-			<bMustMaintain>1</bMustMaintain>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<iMinLevel>-1</iMinLevel>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
-			<PromotionNextLevel>PROMOTION_SWARMING4</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Swarming IV -->
-			<Type>PROMOTION_SWARMING4</Type>
-			<Description>TXT_KEY_PROMOTION_SWARMING4</Description>
-			<PrereqPromotionANDs>
-				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_SWARMING3</PromotionType>
-					<iPrereqApplications>1</iPrereqApplications>
-				</PrereqPromotionAND>
-			</PrereqPromotionANDs>
-			<iCombatPercent>25</iCombatPercent>
-			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
-			<bMustMaintain>1</bMustMaintain>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<iMinLevel>-1</iMinLevel>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Nesting  -->
-			<Type>PROMOTION_NESTING</Type>
-			<Description>TXT_KEY_PROMOTION_NESTING</Description>
-			<bAutoAcquire>1</bAutoAcquire>
-			<bMustMaintain>1</bMustMaintain>
-			<bNoXP>1</bNoXP>
-			<bFreeUnit>1</bFreeUnit>
-			<bNoSupply>1</bNoSupply>
-			<bNoSupport>1</bNoSupport>
-			<iInvisibleLevel>2</iInvisibleLevel>
-			<iCombatPercentDefense>15</iCombatPercentDefense>
-			<Button>Art/Modules/Arachnophobia/Buttons/Nesting_Ground.dds</Button>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
-				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
-				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
-				<PrereqUnit>UNIT_NESTING_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<PrereqImprovements>
-				<PrereqImprovement>IMPROVEMENT_NESTING_GROUND</PrereqImprovement>
-				<PrereqImprovement>IMPROVEMENT_INFESTED_FORTRESS</PrereqImprovement>
-				<PrereqImprovement>IMPROVEMENT_DEEP_NEST</PrereqImprovement>
-			</PrereqImprovements>
-			<PromotionCannotBuilds>
-				<PromotionBuild>BUILD_INFESTED_FORTRESS</PromotionBuild>
-			</PromotionCannotBuilds>
 		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>

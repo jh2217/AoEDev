@@ -405,6 +405,41 @@
 			<iPowerMult>10</iPowerMult>
 			<bForceOverwrite>1</bForceOverwrite>
 		</UnitInfo>
+		<UnitInfo>        <!-- Cocoon -->
+			<Class>UNITCLASS_COCOON</Class>
+			<Type>UNIT_COCOON</Type>
+			<Combat>NONE</Combat>
+			<Domain>DOMAIN_IMMOBILE</Domain>
+			<DefaultUnitAI>UNITAI_UNKNOWN</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_COCOON</Description>
+			<Civilopedia>TXT_KEY_UNIT_COCOON_PEDIA</Civilopedia>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bQuickCombat>1</bQuickCombat>
+			<bMechanized>1</bMechanized>
+			<bNoTerraforming>1</bNoTerraforming>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_UNKNOWN</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<iXPValueAttack>0</iXPValueAttack>
+			<iXPValueDefense>0</iXPValueDefense>
+			<UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<iMeleeWaveSize>1</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_COCOON</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bBlind>1</bBlind>
+			<bFreeUnit>1</bFreeUnit>
+			<bNoWarWeariness>1</bNoWarWeariness>
+		</UnitInfo>
+		
 		<UnitInfo>        <!-- Deep Enwebbed -->
 			<Class>UNITCLASS_BERSERKER</Class>
 			<Type>UNIT_DEEP_ENWEBBED</Type>
