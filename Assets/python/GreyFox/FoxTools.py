@@ -991,7 +991,7 @@ class FoxTools:
 		Hero["Class-Korrina (Black Lady)"]	= git('UNITCLASS_KORRINA_BLACK_LADY')
 		Hero["Class-Korrina (Haunt)"] 		= git('UNITCLASS_HAUNT_KORRINA')
 		Hero["Class-Korrina (Red Lady)"] 	= git('UNITCLASS_KORRINA_RED_LADY')
-		Hero["Class-Korrina (Unshackled)"]	= git('UNITCLASS_KORRINA_PROTECTOR')
+		Hero["Class-Korrina"]				= git('UNITCLASS_KORRINA')
 		Hero["Class-Lenora"] 				= git('UNITCLASS_LENORA')
 		Hero["Class-Leviathan"] 			= git('UNITCLASS_LEVIATHAN')
 		Hero["Class-Loki"] 					= git('UNITCLASS_LOKI')
