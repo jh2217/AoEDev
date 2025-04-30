@@ -179,6 +179,7 @@ def spellCallBabySpider(caster):
 
 	spawnUnit = pPlayer.initUnit(iSpider, caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 	setSpiderPromo(spawnUnit, pPlayer, pCity)
+	spawnUnit.finishMoves()
 
 	iBroodActivity = pPlayer.getCivCounter()
 	iCost = 2500
@@ -201,6 +202,7 @@ def spellCallSpider(caster):
 
 	spawnUnit = pPlayer.initUnit(iSpider, caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 	setSpiderPromo(spawnUnit, pPlayer, pCity)
+	spawnUnit.finishMoves()
 	
 	iBroodActivity = pPlayer.getCivCounter()
 	iCost = 7500
@@ -223,6 +225,7 @@ def spellCallGiantSpider(caster):
 
 	spawnUnit = pPlayer.initUnit(iSpider, caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 	setSpiderPromo(spawnUnit, pPlayer, pCity)
+	spawnUnit.finishMoves()
 	
 	iBroodActivity = pPlayer.getCivCounter()
 	iCost = 15000

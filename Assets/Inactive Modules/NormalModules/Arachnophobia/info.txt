@@ -19,12 +19,18 @@ By: @LeastCraft
 
 Spells:
 	Smear Poison now unlocks at Exploration technology.
-	Fixed Bug where civilian units can use Smear Poison
+	Fixed Bug where civilian units can use Smear Poison.
+	Spiders summoned using BA now start with no movement.
 
 Units:
 	Spiders no longer inherit the free unit promotion from Baby Spiders.
 	Giant spiders no longer have stealth.
 
+Improvements:
+	Maze of Webs now produces +1 commerce upon researching Medicine technology.
+	Maze of Webs now improves Silk with no additional yields, and can only be built on forested Silk.
+	Maze of Webs now has a 1/5000 chance per turn to discover a Silk resource on its plot.
+	Maze of Webs can no longer be built on Haunted Lands due to DLL change.
 
 v1.7
 By: @LeastCraft
