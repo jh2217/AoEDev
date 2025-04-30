@@ -14,6 +14,7 @@ import WBCorporationScreen
 import WBInfoScreen
 import CvPlatyBuilderScreen
 import CvEventManager
+import CvEventInterface
 gc = CyGlobalContext()
 
 iChangeType = 2
@@ -383,7 +384,7 @@ class WBBuildingScreen:
 			bEffects = True
 		pCity.setNumRealBuilding(item, bAdd)
 		if bEffects:
-			CvEventManager.CvEventManager().onBuildingBuilt([pCity, item])
+			CvEventInterface.getEventManager().onBuildingBuilt([pCity, item])
 
 	def update(self, fDelta):
 		return 1

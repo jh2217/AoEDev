@@ -24,6 +24,7 @@ import WBPlayerUnits
 import WBInfoScreen
 import WBTradeScreen
 import CvEventManager
+import CvEventInterface
 import Popup
 
 gc = CyGlobalContext()
@@ -426,7 +427,7 @@ class CvWorldBuilderScreen:
 					bEffects = True
 				pCity.setNumRealBuilding(self.iSelection, 1)
 				if bEffects:
-					CvEventManager.CvEventManager().onBuildingBuilt([pCity, self.iSelection])
+					CvEventInterface.getEventManager().onBuildingBuilt([pCity, self.iSelection])
 		elif self.iPlayerAddMode == "City":
 			if self.m_pCurrentPlot.isCity(): return
 			pCity = gc.getPlayer(self.m_iCurrentPlayer).initCity(self.m_pCurrentPlot.getX(), self.m_pCurrentPlot.getY())
