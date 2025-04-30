@@ -55,6 +55,7 @@
 			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
 			<UnitPrereq>UNIT_COCOON</UnitPrereq>
 			<bAllowAI>1</bAllowAI>
+			<iAIWeight>300</iAIWeight>
 			<bHasCasted>1</bHasCasted>
 			<RemovePromotions>
 				<RemovePromotion>PROMOTION_HATCHING</RemovePromotion>
