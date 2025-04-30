@@ -432,507 +432,6 @@
 		
 		<!-- Spider Variations Start -->
 		
-		<!-- Rhagodessa Start -->
-		
-		<PromotionInfo>		<!-- Spider - Rhagodessa (Explode Spider) -->
-			<Type>PROMOTION_SPIDER_RHAGODESSA</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA</Description>
-			<NewName>TXT_KEY_UNITNAME_EXPLODER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Help>
-			
-			<iMovesChange>1</iMovesChange>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
-				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
-				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_TEXTUS_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_MUCRO_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
-			</PromotionExcludes>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<iMinLevel>3</iMinLevel>
-			<Button>Art/Interface/Buttons/Promotions/SpiderRed.dds</Button>
-			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_RED</UnitArtStyleType>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Rhagodessa (Explode Spider) for Trait Spiderkin -->
-			<Type>PROMOTION_RHAGODESSA</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA</Description>
-			<NewName>TXT_KEY_UNITNAME_EXPLODER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Help>
-
-			<iMovesChange>1</iMovesChange>
-			<PrereqTraits>
-				<PrereqTrait>TRAIT_SPIDERKIN3</PrereqTrait>
-			</PrereqTraits>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_TEXTUS</Promotion>
-				<Promotion>PROMOTION_MUCRO</Promotion>
-				<Promotion>PROMOTION_ARGYRONETA</Promotion>
-				<Promotion>PROMOTION_VENENUM</Promotion>
-			</PromotionExcludes>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<bNoXP>1</bNoXP>
-			<iMinLevel>1</iMinLevel>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Interface/Buttons/Promotions/SpiderRed.dds</Button>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Spider - Rhagodessa (Explode Spider) - Decay for Trait Spiderkin -->
-			<Type>PROMOTION_SPIDER_RHAGODESSA_DECAY</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA</Description>
-			<NewName>TXT_KEY_UNITNAME_EXPLODER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Help>
-
-			<iMovesChange>1</iMovesChange>
-			<PromotionDegradesTo>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
-			</PromotionDegradesTo>
-			<iPromotionDuration>1</iPromotionDuration>
-			<PrereqTraits>
-				<PrereqTrait>TRAIT_SPIDERKIN2</PrereqTrait>
-			</PrereqTraits>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
-				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
-				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
-				<Promotion>PROMOTION_SPIDER_TEXTUS_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_MUCRO_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
-			</PromotionExcludes>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<bNoXP>1</bNoXP>
-			<iMinLevel>1</iMinLevel>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Interface/Buttons/Promotions/SpiderRed.dds</Button>
-			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_RED</UnitArtStyleType>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Spider - Rhagodessa Greater (Explode Spider) -->
-			<Type>PROMOTION_SPIDER_RHAGODESSA_GREATER</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_GREATER</Description>
-			<NewName>TXT_KEY_UNITNAME_EXPLODER_GREATER</NewName>
-			
-			<iKamikazePercent>25</iKamikazePercent>
-			<iCollateralDamageChange>100</iCollateralDamageChange>
-			<iCollateralLimitBoost>60</iCollateralLimitBoost>
-			<iCollateralExtraTargets>7</iCollateralExtraTargets>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<PrereqPromotionANDs>
-				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_SPIDER_RHAGODESSA</PromotionType>
-					<iPrereqApplications>1</iPrereqApplications>
-				</PrereqPromotionAND>
-			</PrereqPromotionANDs>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<Button>Art/Interface/Buttons/Promotions/SpiderRedGreater.dds</Button>
-			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_RED</UnitArtStyleType>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		
-		<!-- Rhagodessa End -->
-		
-		<!-- Textus Start -->
-		
-		<PromotionInfo>		<!-- Spider - Textus  (Web Spider) -->
-			<Type>PROMOTION_SPIDER_TEXTUS</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS</Description>
-			<NewName>TXT_KEY_UNITNAME_WEAVER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Help>
-
-			<PromotionBuilds>
-				<PromotionBuild>BUILD_MAZE_OF_WEBS</PromotionBuild>
-			</PromotionBuilds>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
-				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_TEXTUS_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_MUCRO_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
-			</PromotionExcludes>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<iMinLevel>3</iMinLevel>
-			<Button>Art/Interface/Buttons/Promotions/SpiderYellow.dds</Button>
-			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_YELLOW</UnitArtStyleType>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Textus  (Web Spider) for trait Spiderkin -->
-			<Type>PROMOTION_TEXTUS</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS</Description>
-			<NewName>TXT_KEY_UNITNAME_WEAVER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Help>
-
-			<PromotionBuilds>
-				<PromotionBuild>BUILD_MAZE_OF_WEBS</PromotionBuild>
-			</PromotionBuilds>
-			<PrereqTraits>
-				<PrereqTrait>TRAIT_SPIDERKIN3</PrereqTrait>
-			</PrereqTraits>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_MUCRO</Promotion>
-				<Promotion>PROMOTION_RHAGODESSA</Promotion>
-				<Promotion>PROMOTION_ARGYRONETA</Promotion>
-				<Promotion>PROMOTION_VENENUM</Promotion>
-			</PromotionExcludes>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<bNoXP>1</bNoXP>
-			<iMinLevel>1</iMinLevel>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Interface/Buttons/Promotions/SpiderYellow.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Spider - Textus  (Web Spider) Decay for Trait Spiderkin -->
-			<Type>PROMOTION_SPIDER_TEXTUS_DECAY</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS</Description>
-			<NewName>TXT_KEY_UNITNAME_WEAVER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Help>
-
-			<PromotionBuilds>
-				<PromotionBuild>BUILD_MAZE_OF_WEBS</PromotionBuild>
-			</PromotionBuilds>
-			<PromotionDegradesTo>
-				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
-			</PromotionDegradesTo>
-			<iPromotionDuration>1</iPromotionDuration>
-			<PrereqTraits>
-				<PrereqTrait>TRAIT_SPIDERKIN2</PrereqTrait>
-			</PrereqTraits>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
-				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
-				<Promotion>PROMOTION_SPIDER_MUCRO_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
-			</PromotionExcludes>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<bNoXP>1</bNoXP>
-			<iMinLevel>1</iMinLevel>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Interface/Buttons/Promotions/SpiderYellow.dds</Button>
-			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_YELLOW</UnitArtStyleType>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Spider - Textus  Greater (Web Spider) -->
-			<Type>PROMOTION_SPIDER_TEXTUS_GREATER</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS_GREATER</Description>
-			<NewName>TXT_KEY_UNITNAME_WEAVER_GREATER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_GREATER_TEXTUS_PEDIA</Help>
-			
-			<PromotionBuilds>
-				<PromotionBuild>BUILD_NESTING_GROUND</PromotionBuild>
-			</PromotionBuilds>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<PrereqPromotionANDs>
-				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_SPIDER_TEXTUS</PromotionType>
-					<iPrereqApplications>1</iPrereqApplications>
-				</PrereqPromotionAND>
-			</PrereqPromotionANDs>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<Button>Art/Interface/Buttons/Promotions/SpiderYellowGreater.dds</Button>
-			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_YELLOW</UnitArtStyleType>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		
-		<!-- Textus Start -->
-		
-		<!-- Mucro Start -->
-		
-		<PromotionInfo>		<!-- Spider - Mucro  (Burrower Spider) -->
-			<Type>PROMOTION_SPIDER_MUCRO</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_MUCRO</Description>
-			<NewName>TXT_KEY_UNITNAME_BURROWER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Help>
-			
-			<PrereqUnits>
-				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
-				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_TEXTUS_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_MUCRO_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
-			</PromotionExcludes>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<iMinLevel>3</iMinLevel>
-			<Button>Art/Interface/Buttons/Promotions/SpiderGrey.dds</Button>
-			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREY</UnitArtStyleType>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Spider - Mucro  (Burrower Spider) for Trait Spiderkin -->
-			<Type>PROMOTION_MUCRO</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_MUCRO</Description>
-			<NewName>TXT_KEY_UNITNAME_BURROWER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Help>
-
-			<PrereqTraits>
-				<PrereqTrait>TRAIT_SPIDERKIN3</PrereqTrait>
-			</PrereqTraits>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_TEXTUS</Promotion>
-				<Promotion>PROMOTION_RHAGODESSA</Promotion>
-				<Promotion>PROMOTION_ARGYRONETA</Promotion>
-				<Promotion>PROMOTION_VENENUM</Promotion>
-			</PromotionExcludes>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-					<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<bNoXP>1</bNoXP>
-			<iMinLevel>1</iMinLevel>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Interface/Buttons/Promotions/SpiderGrey.dds</Button>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Spider - Mucro  (Burrower Spider) Decay for trait Spiderkin -->
-			<Type>PROMOTION_SPIDER_MUCRO_DECAY</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_MUCRO</Description>
-			<NewName>TXT_KEY_UNITNAME_BURROWER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Help>
-
-			<PromotionDegradesTo>
-				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
-			</PromotionDegradesTo>
-			<iPromotionDuration>1</iPromotionDuration>
-			<PrereqTraits>
-				<PrereqTrait>TRAIT_SPIDERKIN2</PrereqTrait>
-			</PrereqTraits>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
-				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<PromotionExcludes>
-				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
-				<Promotion>PROMOTION_SPIDER_RHAGODESSA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_TEXTUS_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
-				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
-				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
-			</PromotionExcludes>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<bNoXP>1</bNoXP>
-			<iMinLevel>1</iMinLevel>
-			<bGraphicalOnly>1</bGraphicalOnly>
-			<Button>Art/Interface/Buttons/Promotions/SpiderGrey.dds</Button>
-			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREY</UnitArtStyleType>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Spider - Mucro  Greater (Burrower Spider) -->
-			<Type>PROMOTION_SPIDER_MUCRO_GREATER</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDER_MUCRO_GREATER</Description>
-			<NewName>TXT_KEY_UNITNAME_BURROWER_GREATER</NewName>
-			<Help>TXT_KEY_PROMOTION_SPIDER_MUCRO_GREATER_HELP</Help>
-			
-			<PromotionExcludes>
-				<Promotion>PROMOTION_SPIDER_MUCRO_REVEALED1</Promotion>
-			</PromotionExcludes>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
-			</PrereqUnits>
-			<PrereqPromotionANDs>
-				<PrereqPromotionAND>
-					<PromotionType>PROMOTION_SPIDER_MUCRO</PromotionType>
-					<iPrereqApplications>1</iPrereqApplications>
-				</PrereqPromotionAND>
-			</PrereqPromotionANDs>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<Button>Art/Interface/Buttons/Promotions/SpiderGreyGreater.dds</Button>
-			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREY</UnitArtStyleType>
-			<bForceOverwrite>1</bForceOverwrite>
-		</PromotionInfo>
-		
-		<!-- Mucro End -->
-		
 		<!-- Argyroneta Start -->
 		
 		<PromotionInfo>		<!-- Spider - Argyroneta  (Diving Bell Spider) -->
@@ -1118,7 +617,7 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
-			<Button>Art/Interface/Buttons/Promotions/SpiderBlueGreater.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderBlueGreater.dds</Button>
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_BLUE</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
@@ -1288,12 +787,513 @@
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
-			<Button>Art/Interface/Buttons/Promotions/SpiderGreenGreater.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreenGreater.dds</Button>
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREEN</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
 
 		<!-- Venenum End -->
+		
+		<!-- Mucro Start -->
+		
+		<PromotionInfo>		<!-- Spider - Mucro  (Burrower Spider) -->
+			<Type>PROMOTION_SPIDER_MUCRO</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_MUCRO</Description>
+			<NewName>TXT_KEY_UNITNAME_BURROWER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Help>
+			
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_TEXTUS_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_MUCRO_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<iMinLevel>3</iMinLevel>
+			<Button>Art/Interface/Buttons/Promotions/SpiderGrey.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREY</UnitArtStyleType>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spider - Mucro  (Burrower Spider) for Trait Spiderkin -->
+			<Type>PROMOTION_MUCRO</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_MUCRO</Description>
+			<NewName>TXT_KEY_UNITNAME_BURROWER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Help>
+
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_SPIDERKIN3</PrereqTrait>
+			</PrereqTraits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_TEXTUS</Promotion>
+				<Promotion>PROMOTION_RHAGODESSA</Promotion>
+				<Promotion>PROMOTION_ARGYRONETA</Promotion>
+				<Promotion>PROMOTION_VENENUM</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+					<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bNoXP>1</bNoXP>
+			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Promotions/SpiderGrey.dds</Button>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spider - Mucro  (Burrower Spider) Decay for trait Spiderkin -->
+			<Type>PROMOTION_SPIDER_MUCRO_DECAY</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_MUCRO</Description>
+			<NewName>TXT_KEY_UNITNAME_BURROWER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Help>
+
+			<PromotionDegradesTo>
+				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
+			</PromotionDegradesTo>
+			<iPromotionDuration>1</iPromotionDuration>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_SPIDERKIN2</PrereqTrait>
+			</PrereqTraits>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_TEXTUS_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bNoXP>1</bNoXP>
+			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Promotions/SpiderGrey.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREY</UnitArtStyleType>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spider - Mucro  Greater (Burrower Spider) -->
+			<Type>PROMOTION_SPIDER_MUCRO_GREATER</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_MUCRO_GREATER</Description>
+			<NewName>TXT_KEY_UNITNAME_BURROWER_GREATER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_MUCRO_GREATER_HELP</Help>
+			
+			<PromotionExcludes>
+				<Promotion>PROMOTION_SPIDER_MUCRO_REVEALED1</Promotion>
+			</PromotionExcludes>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SPIDER_MUCRO</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreyGreater.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREY</UnitArtStyleType>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		
+		<!-- Mucro End -->
+		
+		<!-- Rhagodessa Start -->
+		
+		<PromotionInfo>		<!-- Spider - Rhagodessa (Explode Spider) -->
+			<Type>PROMOTION_SPIDER_RHAGODESSA</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA</Description>
+			<NewName>TXT_KEY_UNITNAME_EXPLODER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Help>
+			
+			<iMovesChange>1</iMovesChange>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
+				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_TEXTUS_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_MUCRO_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<iMinLevel>3</iMinLevel>
+			<Button>Art/Interface/Buttons/Promotions/SpiderRed.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_RED</UnitArtStyleType>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Rhagodessa (Explode Spider) for Trait Spiderkin -->
+			<Type>PROMOTION_RHAGODESSA</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA</Description>
+			<NewName>TXT_KEY_UNITNAME_EXPLODER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Help>
+
+			<iMovesChange>1</iMovesChange>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_SPIDERKIN3</PrereqTrait>
+			</PrereqTraits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_TEXTUS</Promotion>
+				<Promotion>PROMOTION_MUCRO</Promotion>
+				<Promotion>PROMOTION_ARGYRONETA</Promotion>
+				<Promotion>PROMOTION_VENENUM</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bNoXP>1</bNoXP>
+			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Promotions/SpiderRed.dds</Button>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spider - Rhagodessa (Explode Spider) - Decay for Trait Spiderkin -->
+			<Type>PROMOTION_SPIDER_RHAGODESSA_DECAY</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA</Description>
+			<NewName>TXT_KEY_UNITNAME_EXPLODER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Help>
+
+			<iMovesChange>1</iMovesChange>
+			<PromotionDegradesTo>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
+			</PromotionDegradesTo>
+			<iPromotionDuration>1</iPromotionDuration>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_SPIDERKIN2</PrereqTrait>
+			</PrereqTraits>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
+				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
+				<Promotion>PROMOTION_SPIDER_TEXTUS_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_MUCRO_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bNoXP>1</bNoXP>
+			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Promotions/SpiderRed.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_RED</UnitArtStyleType>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spider - Rhagodessa Greater (Explode Spider) -->
+			<Type>PROMOTION_SPIDER_RHAGODESSA_GREATER</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_GREATER</Description>
+			<NewName>TXT_KEY_UNITNAME_EXPLODER_GREATER</NewName>
+			
+			<iKamikazePercent>25</iKamikazePercent>
+			<iCollateralDamageChange>100</iCollateralDamageChange>
+			<iCollateralLimitBoost>60</iCollateralLimitBoost>
+			<iCollateralExtraTargets>7</iCollateralExtraTargets>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SPIDER_RHAGODESSA</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderRedGreater.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_RED</UnitArtStyleType>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		
+		<!-- Rhagodessa End -->
+		
+		<!-- Textus Start -->
+		
+		<PromotionInfo>		<!-- Spider - Textus  (Web Spider) -->
+			<Type>PROMOTION_SPIDER_TEXTUS</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS</Description>
+			<NewName>TXT_KEY_UNITNAME_WEAVER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Help>
+
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_MAZE_OF_WEBS</PromotionBuild>
+			</PromotionBuilds>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_TEXTUS_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_MUCRO_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<iMinLevel>3</iMinLevel>
+			<Button>Art/Interface/Buttons/Promotions/SpiderYellow.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_YELLOW</UnitArtStyleType>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Textus  (Web Spider) for trait Spiderkin -->
+			<Type>PROMOTION_TEXTUS</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS</Description>
+			<NewName>TXT_KEY_UNITNAME_WEAVER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Help>
+
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_MAZE_OF_WEBS</PromotionBuild>
+			</PromotionBuilds>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_SPIDERKIN3</PrereqTrait>
+			</PrereqTraits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_MUCRO</Promotion>
+				<Promotion>PROMOTION_RHAGODESSA</Promotion>
+				<Promotion>PROMOTION_ARGYRONETA</Promotion>
+				<Promotion>PROMOTION_VENENUM</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bNoXP>1</bNoXP>
+			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Promotions/SpiderYellow.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spider - Textus  (Web Spider) Decay for Trait Spiderkin -->
+			<Type>PROMOTION_SPIDER_TEXTUS_DECAY</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS</Description>
+			<NewName>TXT_KEY_UNITNAME_WEAVER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Help>
+
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_MAZE_OF_WEBS</PromotionBuild>
+			</PromotionBuilds>
+			<PromotionDegradesTo>
+				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
+			</PromotionDegradesTo>
+			<iPromotionDuration>1</iPromotionDuration>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_SPIDERKIN2</PrereqTrait>
+			</PrereqTraits>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_SPIDER_MUCRO</Promotion>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM</Promotion>
+				<Promotion>PROMOTION_SPIDER_RHAGODESSA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
+				<Promotion>PROMOTION_SPIDER_MUCRO_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_ARGYRONETA_DECAY</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM_DECAY</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bNoXP>1</bNoXP>
+			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Promotions/SpiderYellow.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_YELLOW</UnitArtStyleType>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spider - Textus  Greater (Web Spider) -->
+			<Type>PROMOTION_SPIDER_TEXTUS_GREATER</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS_GREATER</Description>
+			<NewName>TXT_KEY_UNITNAME_WEAVER_GREATER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_GREATER_TEXTUS_PEDIA</Help>
+			
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_NESTING_GROUND</PromotionBuild>
+			</PromotionBuilds>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SPIDER_TEXTUS</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderYellowGreater.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_YELLOW</UnitArtStyleType>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		
+		<!-- Textus Start -->
 		
 		<!-- Spider Variations End -->
 
