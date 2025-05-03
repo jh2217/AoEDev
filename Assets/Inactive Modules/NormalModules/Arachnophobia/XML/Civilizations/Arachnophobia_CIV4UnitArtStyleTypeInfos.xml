@@ -156,5 +156,31 @@
 				</StyleUnit>
 			</StyleUnits>
 		</UnitArtStyleTypeInfo>
+		<UnitArtStyleTypeInfo>	<!--spider behemoth green-->
+			<Type>UNIT_ARTSTYLE_SPIDER_BEHEMOTH_GREEN</Type>
+			<StyleUnits>
+				<StyleUnit>
+					<UnitType>UNIT_GIANT_SPIDER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_SPIDER_BEHEMOTH_GREEN</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_SPIDER_BEHEMOTH_GREEN</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_SPIDER_BEHEMOTH_GREEN</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+			</StyleUnits>
+		</UnitArtStyleTypeInfo>
+		<UnitArtStyleTypeInfo>	<!--spider behemoth grey-->
+			<Type>UNIT_ARTSTYLE_SPIDER_BEHEMOTH_GREY</Type>
+			<StyleUnits>
+				<StyleUnit>
+					<UnitType>UNIT_GIANT_SPIDER</UnitType>
+					<UnitMeshGroup>
+						<EarlyArtDefineTag>ART_DEF_UNIT_SPIDER_BEHEMOTH_GREY</EarlyArtDefineTag>
+						<LateArtDefineTag>ART_DEF_UNIT_SPIDER_BEHEMOTH_GREY</LateArtDefineTag>
+						<MiddleArtDefineTag>ART_DEF_UNIT_SPIDER_BEHEMOTH_GREY</MiddleArtDefineTag>
+					</UnitMeshGroup>
+				</StyleUnit>
+			</StyleUnits>
+		</UnitArtStyleTypeInfo>
 	</UnitArtStyleTypeInfos>
 </Civ4UnitArtStyleTypeInfos>

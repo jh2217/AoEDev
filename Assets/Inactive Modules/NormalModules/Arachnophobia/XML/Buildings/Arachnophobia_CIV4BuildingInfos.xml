@@ -80,13 +80,13 @@
 			<bForceOverwrite>1</bForceOverwrite>
 		</BuildingInfo>
 		<BuildingInfo>
-			<!-- Diet of Worms Spell -->
-			<BuildingClass>BUILDINGCLASS_DIET_OF_WORMS</BuildingClass>
-			<Type>BUILDING_DIET_OF_WORMS</Type>
-			<Description>TXT_KEY_BUILDING_DIET_OF_WORMS</Description>
-			<Help>TXT_KEY_BUILDING_DIET_OF_WORMS_PEDIA</Help>
+			<!-- Arachnophagy Spell -->
+			<BuildingClass>BUILDINGCLASS_ARACHNOPHAGY</BuildingClass>
+			<Type>BUILDING_ARACHNOPHAGY</Type>
+			<Description>TXT_KEY_BUILDING_ARACHNOPHAGY</Description>
+			<Help>TXT_KEY_BUILDING_ARACHNOPHAGY_PEDIA</Help>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_DIET_OF_WORMS</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_ARACHNOPHAGY</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iAIWeight>10</iAIWeight>
 			<iConquestProb>0</iConquestProb>

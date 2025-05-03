@@ -7,15 +7,15 @@
 <Civ4BuildingClassInfos xmlns="x-schema:Arachnophobia_CIV4BuildingsSchema.xml">
 	<BuildingClassInfos>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_DIET_OF_WORMS</Type>
-			<Description>TXT_KEY_BUILDING_DIET_OF_WORMS</Description>
+			<Type>BUILDINGCLASS_ARACHNOPHAGY</Type>
+			<Description>TXT_KEY_BUILDING_ARACHNOPHAGY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_DIET_OF_WORMS</DefaultBuilding>
+			<DefaultBuilding>BUILDING_ARACHNOPHAGY</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 	</BuildingClassInfos>

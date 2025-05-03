@@ -14,6 +14,61 @@ LeastCraft
 tweaks to archos civ
 
 
+v1.10
+By: @LeastCraft
+
+Graphics:
+	Further improved readability of spider icons by adding stripes to their abdomen (in the icon) according to their tiers.
+
+Mechanics:
+	Condition for natural Spider spawn changed to: capital >= size 8 and BA >= 500
+	Condition for natural Giant Spider spawn changed to: capital >= size 16 and BA >= 1000
+	Strong promotion is granted to spiders at capital >= size 20 instead of size 16.
+	Leaders with Spiderkin trait gives the Spiderkin promotion to spawned spiders at capital >= size 12 instead of size 9.
+
+	Spiders can now be upgraded to Giant Spiders at capital size 8, but consumes another Spider in the process.
+	Giant Spiders of variant GREEN and GREY can now be upgraded to Spider Behemoths at level 8 and capital size 16, but consumes another Giant Spider in the process.
+
+	All spiders now gain 5 BA after combat, win or lose.
+	Each type of controlled pasture meat resource (cow, horse, hyapon, camel, pig, sheep, nightmare) gives 5% more BA gain per turn, up to 35%.
+	BA penalty from existing Spiders and Giant Spiders is reduced. Each Spider/Giant Spider now only cost 1 BA per turn.
+
+Spells:
+	Renamed Diet of Worms to Arachnophagy.
+
+	Call Spider can now only be cast in a player owned city of size >= 8.
+	Call Giant Spider can now only be cast in a player owned city of size >= 16. Cost increased to 200 BA.
+
+	Arachnophagy now requires Arachnomancy I and sacrifices 10 Baby Spiders in the stack instead of 100 BA.
+	Symbiotic Communion now requires Arachnomancy II and sacrifices 20 Baby Spiders in the stack (in addition to the variant spider).
+	Added Summon Arachnid Avatar, which requires Arachnomancy III and sacrifices 40 Baby Spiders in the stack to summon an Arachnid Avatar.
+
+	Removed Consume the Weak.
+	Removed Poison Fume.
+	Removed Psalm for the Swarm.
+
+Promotions:
+	Renamed "No Exp" to "Mount" and updated button.
+
+	Greater Venenum changed to grant +1 ranged combat and +25% ranged damage limit.
+	Added Venenum Behemoth, which grants +2 strength, +2 ranged combat and Blitz.
+	Added Mucro Behemoth, which grants +2 strength and +50% vs Recon units.
+
+	Swarming III now grants 10% Defensive Strike chance and 5% Defensive Strike damage.
+	Swarming IV now grants Target Weakest Unit.
+
+	Added Arachnomancy I, auto-acquired by Archosian units with Channeling I. Grants +20% withdrawal chance and +20% collateral damage protection when starting turn with >= 10 Baby Spiders in the same tile.
+	Added Arachnomancy II, auto-acquired by Archosian units with Channeling II. Grants +20% withdrawal chance and +20% collateral damage protection when starting turn with >= 20 Baby Spiders in the same tile.
+	Added Arachnomancy III, auto-acquired by Archosian units with Channeling III. Grants +20% withdrawal chance and +20% collateral damage protection when starting turn with >= 40 Baby Spiders in the same tile.
+
+	Spider mutations can now be applied to defensive melee and rogue units.
+
+	Removed Consume the Weak.
+	Removed Poison Fume.
+
+Units:
+	Added Arachnid Avatar, a permanent summon which can "Amalgamate" with 10 Baby Spiders to heal for 10% and gain one stack of "Amalgamation" for +10% strength.
+
 v1.9
 By: @LeastCraft
 
@@ -26,13 +81,13 @@ Mechanics:
 	Automatically spawned spiders now spawn hatching in a cocoon, which means they will no longer require micromanagement upon being spawned.
 
 Units:
-	Added unit Cocoon, which is spawned whenever a spider is automatically spawned in a location with no existing Cocoon.
+	Added Cocoon, which is spawned whenever a spider is automatically spawned in a location with no existing Cocoon.
 
 Spells:
-	Added spell Hatch, available to the Cocoon, which destroys the Cocoon and removes Hatching promotion on all spiders.
+	Added Hatch, available to the Cocoon, which destroys the Cocoon and removes Hatching promotion on all spiders.
 
 Promotion:
-	Added promotion Hatching, which is placed on all automatically spawned spiders. A hatching spider cannot move but costs no maintenance.
+	Added Hatching, which is placed on all automatically spawned spiders. A hatching spider cannot move but costs no maintenance.
 
 
 v1.8
@@ -169,7 +224,7 @@ Promotions:
 	Symbiotic Communion no longer costs all movement for Haruspex.
 	Rhagodessa now additionally grants +1 movement.
 	Greater Rhagodessa now additionally grants 100% collateral damage with max damage cap at 60% against up to 7 units and +25% strength, but self-destructs after battle.
-	Mucro Revealed 1 and Revealed 2 now additionally grants +25% city attack each.
+	Mucro Revealed 1 and Revealed 2 now additionally grants +25% city attack.
 	Textus now additionally allows spiders to build Maze of Webs.
 	Greater Venenum changed to to grant access to spell "Poison Fume"
 	Added Archosian Worker, a promotion for Archosian Workers that allows them to build Feeding Pen.

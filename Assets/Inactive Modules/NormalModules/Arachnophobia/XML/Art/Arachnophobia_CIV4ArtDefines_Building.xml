@@ -17,14 +17,14 @@
 			<Button>Art/Modules/Arachnophobia/Buttons/SpiderNest.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_DIET_OF_WORMS</Type>
+			<Type>ART_DEF_BUILDING_ARACHNOPHAGY</Type>
 			<LSystem>LSYSTEM_3x3</LSystem>
 			<bAnimated>1</bAnimated>
 			<fScale>20.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<NIF>Art/Structures/Buildings/Demonic Citizens/Anubis_room.nif</NIF>
 			<KFM/>
-			<Button>Art/Modules/Arachnophobia/Buttons/Diet_Of_Worms.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/Arachnophagy.dds</Button>
 		</BuildingArtInfo>
 	</BuildingArtInfos>
 </Civ4ArtDefines>

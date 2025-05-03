@@ -25,34 +25,30 @@ GenericPromo        = Manager.Promotions["Generic"]
 Effect              = Manager.Promotions["Effects"]
 
 
-def reqGiantSpiderUpgradeAlt(pCaster):
-	pPlayer = gc.getPlayer(pCaster.getOwner())
-	if (pPlayer.getNumCities() > 0):
-		pNest = pPlayer.getCapitalCity()
-		iNestPop = pNest.getPopulation()
-		if iNestPop >= 11:
-			return True
-	return False
-
-
-def GetWorstOwnUnitInCasterTile(caster, type='', withPromo='', withoutPromo=''):
+def GetWorstOwnUnitsInCasterTile(caster, amount=1, unitType='', withPromo='', withoutPromo=''):
 	pPlot = caster.plot()
-	pWorstUnit = -1
-	fWorstValue = 99999999 # Nothing returned could be higher than this value, so the first unit will always be the worst to begin with.
+	validUnits = []
+
 	for i in range(pPlot.getNumUnits()):
-		fValue = 999999
 		pUnit = pPlot.getUnit(i)
-		if (type == '' or pUnit.getUnitType() == getInfoType(type)) and (withPromo == '' or pUnit.isHasPromotion(getInfoType(withPromo))) and (withoutPromo == '' or not pUnit.isHasPromotion(getInfoType(withoutPromo))):
-			if pUnit.getOwner() == caster.getOwner():
+		if pUnit.getOwner() == caster.getOwner() and pUnit.getID() != caster.getID():
+			if (unitType == '' or pUnit.getUnitType() == getInfoType(unitType)) and \
+			   (withPromo == '' or pUnit.isHasPromotion(getInfoType(withPromo))) and \
+			   (withoutPromo == '' or not pUnit.isHasPromotion(getInfoType(withoutPromo))):
+				
 				iLevel = pUnit.getLevel()
 				iStrength = pUnit.baseCombatStr()
-				fStrength = iStrength * (1.0 - (pUnit.getDamage() / 100)) # Find the unit's actual strength by factoring in its damage
+				fStrength = iStrength * (1.0 - (pUnit.getDamage() / 100))  # Actual strength factoring in damage
 				fModifier = iLevel / 2.0 + 1.0
+
+				# Adjust modifier based on promotions
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_HERO')) or pUnit.isHasPromotion(getInfoType('PROMOTION_ADVENTURER')):
-					fModifier += 9999 # Heroes should never be chosen
+					fModifier += 9999  # Heroes should never be chosen
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_HEROIC')):
-					fModifier += 9999 # Nor should battle-hardened units
+					fModifier += 9999
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_STRONG')):
+					fModifier += 2
+				if pUnit.isHasPromotion(getInfoType('PROMOTION_GROWTH_SPURTS')):
 					fModifier += 2
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_WEAK')):
 					fModifier -= 1
@@ -66,79 +62,78 @@ def GetWorstOwnUnitInCasterTile(caster, type='', withPromo='', withoutPromo=''):
 					fModifier -= 1
 				if pUnit.isHasPromotion(getInfoType('PROMOTION_PLAGUED')):
 					fModifier -= 1
-				if pUnit.isHasPromotion(getInfoType('PROMOTION_NO_EXP')):
+				if pUnit.isHasPromotion(getInfoType('PROMOTION_MOUNT')):
 					fModifier -= 99
 
 				fValue = fStrength * fModifier
-				if fValue < fWorstValue:
-					fWorstValue = fValue
-					pWorstUnit = pUnit
+				validUnits.append((pUnit, fValue))
 
-	return pWorstUnit
+	# Sort valid units by their calculated value (ascending order)
+	validUnits.sort(key=lambda x: x[1])
+
+	# Return the worst unit or the requested number of worst units
+	if amount == 1:
+		if validUnits:
+			return validUnits[0][0]
+		else:
+			return -1
+	else:
+		return [unit[0] for unit in validUnits[:amount]]
 
 
-def checkOwnUnitExistInCasterTile(caster, type='', withPromo='', withoutPromo=''):
+def CheckOwnUnitsExistInCasterTile(caster, amount=1, unitType='', withPromo='', withoutPromo=''):
 	pPlot = caster.plot()
+	count = 0
+
 	for i in range(pPlot.getNumUnits()):
 		pUnit = pPlot.getUnit(i)
-		if pUnit.getOwner() == caster.getOwner():
-			if (type == '' or pUnit.getUnitType() == getInfoType(type)) and (withPromo == '' or pUnit.isHasPromotion(getInfoType(withPromo))) and (withoutPromo == '' or not pUnit.isHasPromotion(getInfoType(withoutPromo))):
-				return True
+		if pUnit.getOwner() == caster.getOwner() and pUnit.getID() != caster.getID():
+			if (unitType == '' or pUnit.getUnitType() == getInfoType(unitType)) and \
+			   (withPromo == '' or pUnit.isHasPromotion(getInfoType(withPromo))) and \
+			   (withoutPromo == '' or not pUnit.isHasPromotion(getInfoType(withoutPromo))):
+				count += 1
+				if count >= amount:
+					return True
+
 	return False
 
 
-# Symbiotic Communion Spells Start
-def reqCommunion(caster, spider_type):
-	iSpiderVariant = ''
-	
-	if spider_type == 1:
-		iSpiderVariant = 'PROMOTION_SPIDER_RHAGODESSA'
-	if spider_type == 2:
-		iSpiderVariant = 'PROMOTION_SPIDER_TEXTUS'
-	if spider_type == 3:
-		iSpiderVariant = 'PROMOTION_SPIDER_MUCRO'
-	if spider_type == 4:
-		iSpiderVariant = 'PROMOTION_SPIDER_ARGYRONETA'
-	if spider_type == 5:
-		iSpiderVariant = 'PROMOTION_SPIDER_VENENUM'
-	
-	return checkOwnUnitExistInCasterTile(caster, type='UNIT_SPIDER', withPromo=iSpiderVariant)
-
-
-def spellCommunion(caster, spider_type):
-	iSpiderVariant = ''
-	iMutation = ''
-
-	if spider_type == 1:
-		iSpiderVariant = 'PROMOTION_SPIDER_RHAGODESSA'
-		iMutation = 'PROMOTION_SPIDERMUTATION_VENOM_SECRETION'
-	if spider_type == 2:
-		iSpiderVariant = 'PROMOTION_SPIDER_TEXTUS'
-		iMutation = 'PROMOTION_SPIDERMUTATION_JOINTED_LIMBS'
-	if spider_type == 3:
-		iSpiderVariant = 'PROMOTION_SPIDER_MUCRO'
-		iMutation = 'PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE'
-	if spider_type == 4:
-		iSpiderVariant = 'PROMOTION_SPIDER_ARGYRONETA'
-		iMutation = 'PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE'
-	if spider_type == 5:
-		iSpiderVariant = 'PROMOTION_SPIDER_VENENUM'
-		iMutation = 'PROMOTION_SPIDERMUTATION_SPITTER_GLAND'
-		
-	pVictim = GetWorstOwnUnitInCasterTile(caster, type='UNIT_SPIDER', withPromo=iSpiderVariant)
+# Spider Upgrading Spells Start
+def spellSpiderUpgradeToGiant(caster):
+	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_SPIDER')
 	if pVictim != -1:
 		pVictim.kill(True, 0)
-		
-		#Grant Mutation
-		iMelee = getInfoType('UNITCOMBAT_MELEE')
-		iRecon = getInfoType('UNITCOMBAT_RECON')
 
-		pPlot = caster.plot()
-		for i in range(pPlot.getNumUnits()):
-			pUnit = pPlot.getUnit(i)
-			if pUnit.getUnitCombatType() == iMelee or pUnit.getUnitCombatType() == iRecon:
-				pUnit.setHasPromotion(getInfoType(iMutation), True)
-# Symbiotic Communion Spells End
+
+def reqSpiderUpgradeToGiant(caster):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	if (pPlayer.getNumCities() > 0):
+		pNest = pPlayer.getCapitalCity()
+		iNestPop = pNest.getPopulation()
+		if iNestPop >= 8:
+			return CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_SPIDER')
+	return False
+
+
+def spellGiantSpiderUpgradeToBehemoth(caster):
+	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_GIANT_SPIDER')
+	if pVictim != -1:
+		pVictim.kill(True, 0)
+
+
+def reqGiantSpiderUpgradeToBehemoth(caster):
+	iBehemothGreen = getInfoType('PROMOTION_SPIDER_VENENUM_BEHEMOTH')
+	iBehemothGrey = getInfoType('PROMOTION_SPIDER_MUCRO_BEHEMOTH')
+	if caster.isHasPromotion(iBehemothGreen) or caster.isHasPromotion(iBehemothGrey): return False
+
+	pPlayer = gc.getPlayer(caster.getOwner())
+	if (pPlayer.getNumCities() > 0):
+		pNest = pPlayer.getCapitalCity()
+		iNestPop = pNest.getPopulation()
+		if iNestPop >= 16:
+			return CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_GIANT_SPIDER')
+	return False
+# Spider Upgrading Spells End
 
 
 # Spider Summoning Spells Start
@@ -149,10 +144,10 @@ def setSpiderPromo(spawnUnit, pPlayer, pCity):
 		iNestPop    = pNest.getPopulation()
 		getNum      = pNest.getNumBuilding
 		if pPlayer.hasTrait(Trait["Spiderkin"]):
-			if iNestPop >= 9:
+			if iNestPop >= 12:
 				setPromo( Effect["Spiderkin"], True)
 
-		if iNestPop >= 16:
+		if iNestPop >= 20:
 			setPromo( Effect["Strong"], True)
 
 		if pCity:
@@ -214,7 +209,7 @@ def reqCallSpider(caster):
 	pCity = pPlot.getPlotCity()
 	pPlayer = gc.getPlayer(caster.getOwner())
 
-	return pCity.getPopulation() >= 6 and pPlayer.getCivCounter() >= 7500
+	return pCity.getPopulation() >= 8 and pPlayer.getCivCounter() >= 7500
 
 
 def spellCallGiantSpider(caster):
@@ -228,7 +223,7 @@ def spellCallGiantSpider(caster):
 	spawnUnit.finishMoves()
 	
 	iBroodActivity = pPlayer.getCivCounter()
-	iCost = 15000
+	iCost = 20000
 	pPlayer.setCivCounter(iBroodActivity - iCost)
 
 
@@ -237,34 +232,12 @@ def reqCallGiantSpider(caster):
 	pCity = pPlot.getPlotCity()
 	pPlayer = gc.getPlayer(caster.getOwner())
 
-	return pCity.getPopulation() >= 11 and pPlayer.getCivCounter() >= 17500
+	return pCity.getPopulation() >= 16 and pPlayer.getCivCounter() >= 20000
 # Spider Summoning Spells End
 
 
-def spellDietOfWorms(caster):
-	pPlayer = gc.getPlayer(caster.getOwner())
-
-	iBroodActivity = pPlayer.getCivCounter()
-	iCost = 10000
-	pPlayer.setCivCounter(iBroodActivity - iCost)
-
-
-def reqDietOfWorms(caster):
-	pPlayer = gc.getPlayer(caster.getOwner())
-
-	return pPlayer.getCivCounter() >= 10000
-
-
-def spellPsalmForTheSwarm(caster):
-	pPlayer = gc.getPlayer(caster.getOwner())
-
-	iBroodActivity = pPlayer.getCivCounter()
-	iValue = 5000
-	pPlayer.setCivCounter(iBroodActivity + iValue)
-
-
 def spellSmearPoison(caster):
-	pVictim = GetWorstOwnUnitInCasterTile(caster, type='UNIT_BABY_SPIDER', withoutPromo='PROMOTION_GROWTH_SPURTS')
+	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_BABY_SPIDER')
 	if pVictim != -1:
 		pVictim.kill(True, 0)
 
@@ -276,12 +249,12 @@ def reqSmearPoison(caster):
 	if caster.getUnitCombatType()==-1: return False
 	if not pPoisonedBlade.getUnitCombat(caster.getUnitCombatType()): return False
 	
-	return checkOwnUnitExistInCasterTile(caster, type='UNIT_BABY_SPIDER', withoutPromo='PROMOTION_GROWTH_SPURTS')
+	return CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_BABY_SPIDER')
 	
 
 def spellCannibalize(caster):
 	caster.setDamage(caster.getDamage() - 15, caster.getOwner())
-	pVictim = GetWorstOwnUnitInCasterTile(caster, type='UNIT_BABY_SPIDER', withoutPromo='PROMOTION_GROWTH_SPURTS')
+	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_BABY_SPIDER')
 	if pVictim != -1:
 		pVictim.kill(True, 0)
 
@@ -291,7 +264,7 @@ def reqCannibalize(caster):
 	if caster.getUnitType() not in eligibleUnits: return False
 	if caster.getDamage() == 0: return False
 	
-	return checkOwnUnitExistInCasterTile(caster, type='UNIT_BABY_SPIDER', withoutPromo='PROMOTION_GROWTH_SPURTS')
+	return CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_BABY_SPIDER')
 
 
 def onMoveMazeOfWebs(caster, pPlot):
@@ -306,7 +279,7 @@ def onMoveMazeOfWebs(caster, pPlot):
 
 
 def spellMountSpider(caster):
-	pVictim = GetWorstOwnUnitInCasterTile(caster, type='UNIT_SPIDER')
+	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_SPIDER')
 	if pVictim != -1:
 		pVictim.kill(True, 0)
 
@@ -315,7 +288,7 @@ def spellDismountSpider(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	iSpider = getInfoType('UNIT_SPIDER')
 	spawnUnit = pPlayer.initUnit(iSpider, caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-	spawnUnit.setHasPromotion( getInfoType("PROMOTION_NO_EXP"), True)
+	spawnUnit.setHasPromotion( getInfoType("PROMOTION_MOUNT"), True)
 
 
 def babySpiderSwarm(caster):
@@ -335,3 +308,169 @@ def babySpiderSwarm(caster):
 			caster.setHasPromotion(iSwarmPromo, True)
 		else:
 			caster.safeRemovePromotion(iSwarmPromo)
+
+
+def spiderCombatBAGain(caster,opponent):
+	pPlayer = gc.getPlayer(caster.getOwner())
+	if gc.getPlayer(caster.getOwner()).getCivilizationType() == Civ["Archos"]:
+		iBroodActivity = pPlayer.getCivCounter()
+		iGain = 500
+		pPlayer.setCivCounter(iBroodActivity + iGain)
+
+
+def arachnomancy1(caster):
+	pPlot = caster.plot()
+	iSpider = getInfoType('UNIT_BABY_SPIDER')
+	iSwarmPromo = getInfoType('PROMOTION_SWARM_CONCEALED1')
+
+	iBabySpiderCount = 0
+	for i in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(i)
+		if pUnit.getUnitType() == iSpider:
+			iBabySpiderCount += 1
+	
+	if iBabySpiderCount >= 10:
+		caster.setHasPromotion(iSwarmPromo, True)
+
+
+def arachnomancy2(caster):
+	pPlot = caster.plot()
+	iSpider = getInfoType('UNIT_BABY_SPIDER')
+	iSwarmPromo = getInfoType('PROMOTION_SWARM_CONCEALED2')
+
+	iBabySpiderCount = 0
+	for i in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(i)
+		if pUnit.getUnitType() == iSpider:
+			iBabySpiderCount += 1
+	
+	if iBabySpiderCount >= 20:
+		caster.setHasPromotion(iSwarmPromo, True)
+
+
+def arachnomancy3(caster):
+	pPlot = caster.plot()
+	iSpider = getInfoType('UNIT_BABY_SPIDER')
+	iSwarmPromo = getInfoType('PROMOTION_SWARM_CONCEALED3')
+
+	iBabySpiderCount = 0
+	for i in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(i)
+		if pUnit.getUnitType() == iSpider:
+			iBabySpiderCount += 1
+	
+	if iBabySpiderCount >= 40:
+		caster.setHasPromotion(iSwarmPromo, True)
+
+
+def CountBabySpidersAndLog(caster, amount, icon):
+	babyVictims = GetWorstOwnUnitsInCasterTile(caster, amount=amount, unitType='UNIT_BABY_SPIDER')
+	if len(babyVictims) < amount:
+		pPlot = caster.plot()
+		iPlayer = caster.getOwner()
+		CyInterface().addMessage(iPlayer, True, 25, CyTranslator().getText("TXT_KEY_MESSAGE_NOT_ENOUGH_BABY_SPIDERS",()) + ' (' + str(len(babyVictims)) + '/' + str(amount) + ')','',1,icon,gc.getInfoTypeForString("COLOR_YELLOW"),pPlot.getX(),pPlot.getY(),True,True)
+		return None
+	return babyVictims
+
+
+def spellArachnophagy(caster):
+	babyVictims = CountBabySpidersAndLog(caster, 10, 'Art/Modules/Arachnophobia/Buttons/Arachnophagy.dds')
+	if not babyVictims:
+		caster.setHasCasted(False)
+		return
+
+	for pVictim in babyVictims:
+		pVictim.kill(True, 0)
+
+
+def reqArachnophagy(caster):
+	return CheckOwnUnitsExistInCasterTile(caster, amount=10, unitType='UNIT_BABY_SPIDER')
+
+
+def spellCommunion(caster, spider_type):
+	babyVictims = CountBabySpidersAndLog(caster, 20, 'Art/Modules/Arachnophobia/Buttons/SymbioticCommunion.dds')
+	if not babyVictims:
+		return
+	
+	iSpiderVariant = ''
+	iMutation = ''
+
+	if spider_type == 1:
+		iSpiderVariant = 'PROMOTION_SPIDER_ARGYRONETA'
+		iMutation = 'PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE'
+	if spider_type == 2:
+		iSpiderVariant = 'PROMOTION_SPIDER_VENENUM'
+		iMutation = 'PROMOTION_SPIDERMUTATION_SPITTER_GLAND'
+	if spider_type == 3:
+		iSpiderVariant = 'PROMOTION_SPIDER_MUCRO'
+		iMutation = 'PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE'
+	if spider_type == 4:
+		iSpiderVariant = 'PROMOTION_SPIDER_RHAGODESSA'
+		iMutation = 'PROMOTION_SPIDERMUTATION_VENOM_SECRETION'
+	if spider_type == 5:
+		iSpiderVariant = 'PROMOTION_SPIDER_TEXTUS'
+		iMutation = 'PROMOTION_SPIDERMUTATION_JOINTED_LIMBS'
+	
+	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_SPIDER', withPromo=iSpiderVariant)
+	if pVictim != -1:
+		pVictim.kill(True, 0)
+		
+		for pVictim in babyVictims:
+			pVictim.kill(True, 0)
+
+		#Grant Mutation
+		iMelee = getInfoType('UNITCOMBAT_MELEE')
+		iRecon = getInfoType('UNITCOMBAT_RECON')
+
+		pPlot = caster.plot()
+		for i in range(pPlot.getNumUnits()):
+			pUnit = pPlot.getUnit(i)
+			if pUnit.getUnitCombatType() == iMelee or pUnit.getUnitCombatType() == iRecon:
+				pUnit.setHasPromotion(getInfoType(iMutation), True)
+
+
+def reqCommunion(caster, spider_type):
+	iSpiderVariant = ''
+	
+	if spider_type == 1:
+		iSpiderVariant = 'PROMOTION_SPIDER_ARGYRONETA'
+	if spider_type == 2:
+		iSpiderVariant = 'PROMOTION_SPIDER_VENENUM'
+	if spider_type == 3:
+		iSpiderVariant = 'PROMOTION_SPIDER_MUCRO'
+	if spider_type == 4:
+		iSpiderVariant = 'PROMOTION_SPIDER_RHAGODESSA'
+	if spider_type == 5:
+		iSpiderVariant = 'PROMOTION_SPIDER_TEXTUS'
+	
+	bBabySpidersInTile = CheckOwnUnitsExistInCasterTile(caster, amount=10, unitType='UNIT_BABY_SPIDER')
+	bVariantSpiderInTile = CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_SPIDER', withPromo=iSpiderVariant)
+	return bBabySpidersInTile and bVariantSpiderInTile
+
+
+def spellSummonArachnidAvatar(caster):
+	babyVictims = CountBabySpidersAndLog(caster, 40, 'Art/Modules/Arachnophobia/Buttons/Arachnomancy3.dds')
+	if not babyVictims:
+		caster.setHasCasted(False)
+		return
+	
+	for pVictim in babyVictims:
+		pVictim.kill(True, 0)
+
+
+def reqSummonArachnidAvatar(caster):
+	return CheckOwnUnitsExistInCasterTile(caster, amount=40, unitType='UNIT_BABY_SPIDER')
+
+
+def spellAmalgamate(caster):
+	babyVictims = CountBabySpidersAndLog(caster, 10, 'Art/Modules/Arachnophobia/Buttons/Swarming.dds')
+	if not babyVictims:
+		return
+	
+	for pVictim in babyVictims:
+		caster.setHasCasted(False)
+		pVictim.kill(True, 0)
+
+
+def reqAmalgamate(caster):
+	return CheckOwnUnitsExistInCasterTile(caster, amount=10, unitType='UNIT_BABY_SPIDER')

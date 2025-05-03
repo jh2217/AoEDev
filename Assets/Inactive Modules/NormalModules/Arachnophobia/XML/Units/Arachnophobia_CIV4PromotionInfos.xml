@@ -32,8 +32,6 @@
 		</PromotionInfo>
 		<PromotionInfo>			<!-- Fort Spider II -->
 			<Type>PROMOTION_FORTSPIDER2</Type>
-			<PromotionBuilds>
-			</PromotionBuilds>
 			<Button>Art/Modules/Arachnophobia/Buttons/FortSpider2.dds</Button>
 		</PromotionInfo>
 		
@@ -140,6 +138,8 @@
 			</PrereqPromotionANDs>
 			<iCombatPercent>25</iCombatPercent>
 			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<iDefensiveStrikeChance>10</iDefensiveStrikeChance>
+			<iDefensiveStrikeDamage>5</iDefensiveStrikeDamage>
 			<bMustMaintain>1</bMustMaintain>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
@@ -160,6 +160,7 @@
 			</PrereqPromotionANDs>
 			<iCombatPercent>25</iCombatPercent>
 			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<bTargetWeakestUnit>1</bTargetWeakestUnit>
 			<bMustMaintain>1</bMustMaintain>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
@@ -167,6 +168,68 @@
 			<iMinLevel>-1</iMinLevel>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+		</PromotionInfo>
+		
+		<PromotionInfo>			<!-- Arachnophobia -->
+			<Type>PROMOTION_ARACHNOPHOBIA</Type>
+			<Description>TXT_KEY_PROMOTION_ARACHNOPHOBIA</Description>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<PromotionCombatMods>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
+					<iCombatMod>-50</iCombatMod>
+				</PromotionCombatMod>			
+			</PromotionCombatMods>
+			<bPrereqAlive>1</bPrereqAlive>
+			<iPromotionDuration>1</iPromotionDuration>
+			<iAIWeight>-100</iAIWeight>
+			<iMinLevel>-1</iMinLevel>
+			<Button>Art/Modules/Arachnophobia/Buttons/Arachnophobia.dds</Button>
 		</PromotionInfo>
 
 		<PromotionInfo>			<!-- Spider Mucro Burrowed (No Reveal) -->
@@ -177,7 +240,6 @@
 				<Promotion>PROMOTION_SPIDER_MUCRO_BURROWED</Promotion>
 			</PromotionDegradesTo>
 			<iPromotionDuration>1</iPromotionDuration>
-
 			<bHeld>1</bHeld>
 			<bNoXP>1</bNoXP>
 			<bRemovedByCombat>1</bRemovedByCombat>
@@ -299,137 +361,7 @@
 			</UnitCombats>
 			<Button>Art/Modules/Arachnophobia/Buttons/spiderrevealed.dds</Button>
 		</PromotionInfo>
-		<PromotionInfo>			<!-- Consume the Weak -->
-			<Type>PROMOTION_CONSUME_THE_WEAK</Type>
-			<Description>TXT_KEY_PROMOTION_CONSUME_THE_WEAK</Description>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<bTargetWeakestUnit>1</bTargetWeakestUnit>
-			<iPromotionDuration>1</iPromotionDuration>
-			<iMinLevel>-1</iMinLevel>
-			<Button>Art/Modules/Arachnophobia/Buttons/ConsumeTheWeak.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>			<!-- Poison Fume -->
-			<Type>PROMOTION_POISON_FUME</Type>
-			<Description>TXT_KEY_PROMOTION_POISON_FUME</Description>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<iSameTileHealChange>-10</iSameTileHealChange>
-			<bPrereqAlive>1</bPrereqAlive>
-			<bRemovedWhenHealed>1</bRemovedWhenHealed>
-			<iMinLevel>-1</iMinLevel>
-			<Button>Art/Modules/Arachnophobia/Buttons/PoisonFume.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>			<!-- Arachnophobia -->
-			<Type>PROMOTION_ARACHNOPHOBIA</Type>
-			<Description>TXT_KEY_PROMOTION_ARACHNOPHOBIA</Description>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<PromotionCombatMods>
-				<PromotionCombatMod>
-					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
-					<iCombatMod>-50</iCombatMod>
-				</PromotionCombatMod>			
-			</PromotionCombatMods>
-			<bPrereqAlive>1</bPrereqAlive>
-			<iPromotionDuration>1</iPromotionDuration>
-			<iAIWeight>-100</iAIWeight>
-			<iMinLevel>-1</iMinLevel>
-			<Button>Art/Modules/Arachnophobia/Buttons/Arachnophobia.dds</Button>
-		</PromotionInfo>
-		
+
 		<!-- Spider Variations Start -->
 		
 		<!-- Argyroneta Start -->
@@ -772,6 +704,11 @@
 			<Description>TXT_KEY_PROMOTION_SPIDER_VENENUM_GREATER</Description>
 			<NewName>TXT_KEY_UNITNAME_SPITTER_GREATER</NewName>
 
+			<iAirCombat>1</iAirCombat>
+			<iAirCombatLimitBoost>25</iAirCombatLimitBoost>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_SPIDER_MUCRO_BEHEMOTH</Promotion>
+			</PromotionExcludes>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
 			</PrereqUnits>
@@ -789,6 +726,34 @@
 			</UnitCombats>
 			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreenGreater.dds</Button>
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREEN</UnitArtStyleType>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spider - Venenum Behemoth (Poison/Spitting Spider) -->
+			<Type>PROMOTION_SPIDER_VENENUM_BEHEMOTH</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_VENENUM_BEHEMOTH</Description>
+			<NewName>TXT_KEY_UNITNAME_SPITTER_BEHEMOTH</NewName>
+
+			<iExtraCombatStr>2</iExtraCombatStr>
+			<iAirCombat>2</iAirCombat>
+			<bBlitz>1</bBlitz>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SPIDER_VENENUM_GREATER</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<iMinLevel>-1</iMinLevel>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreenBehemoth.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_BEHEMOTH_GREEN</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
 
@@ -936,6 +901,7 @@
 			
 			<PromotionExcludes>
 				<Promotion>PROMOTION_SPIDER_MUCRO_REVEALED1</Promotion>
+				<Promotion>PROMOTION_SPIDER_VENENUM_BEHEMOTH</Promotion>
 			</PromotionExcludes>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
@@ -954,6 +920,38 @@
 			</UnitCombats>
 			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreyGreater.dds</Button>
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREY</UnitArtStyleType>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spider - Mucro  Behemoth (Burrower Spider) -->
+			<Type>PROMOTION_SPIDER_MUCRO_BEHEMOTH</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDER_MUCRO_BEHEMOTH</Description>
+			<NewName>TXT_KEY_UNITNAME_BURROWER_BEHEMOTH</NewName>
+			
+			<iExtraCombatStr>2</iExtraCombatStr>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iUnitCombatMod>50</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
+			</PrereqUnits>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_SPIDER_MUCRO_GREATER</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<iMinLevel>-1</iMinLevel>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreyBehemoth.dds</Button>
+			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_BEHEMOTH_GREY</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
 		
@@ -1302,9 +1300,66 @@
 		<PromotionInfo>			<!-- Symbiotic Communion -->
 			<Type>PROMOTION_SYMBIOTIC_COMMUNION</Type>
 			<Description>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION</Description>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_HARUSPEX</PrereqUnit>
-			</PrereqUnits>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_ARACHNOMANCY2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Modules/Arachnophobia/Buttons/SymbioticCommunion.dds</Button>
@@ -1312,15 +1367,66 @@
 		<PromotionInfo>			<!-- Symbiotic Communion End -->
 			<Type>PROMOTION_SYMBIOTIC_COMMUNION_END</Type>
 			<Description>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION_END</Description>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_HARUSPEX</PrereqUnit>
-			</PrereqUnits>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
 					<PromotionType>PROMOTION_SYMBIOTIC_COMMUNION</PromotionType>
 					<iPrereqApplications>1</iPrereqApplications>
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iPromotionDuration>1</iPromotionDuration>
 			<PromotionOverwrites>
@@ -1333,6 +1439,88 @@
 			<Button>Art/Modules/Arachnophobia/Buttons/SymbioticCommunionEnd.dds</Button>
 		</PromotionInfo>
 		
+		<PromotionInfo>			<!-- Spider Mutation: Trail Pheromone -->
+			<Type>PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE</Description>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderMutation_TrailPheromone.dds</Button>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<PromotionCombatMods>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_POISONED</PromotionType>
+					<iCombatMod>30</iCombatMod>
+				</PromotionCombatMod>			
+			</PromotionCombatMods>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>			<!-- Spider Mutation: Spitter Gland -->
+			<Type>PROMOTION_SPIDERMUTATION_SPITTER_GLAND</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDERMUTATION_SPITTER_GLAND</Description>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderMutation_SpitterGland.dds</Button>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<iAirCombat>3</iAirCombat>
+			<iAirCombatLimitBoost>15</iAirCombatLimitBoost>
+			<iAirRangeChange>1</iAirRangeChange>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>			<!-- Spider Mutation: Chitin Carapace -->
+			<Type>PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE</Description>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderMutation_ChitinCarapace.dds</Button>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
 		<PromotionInfo>			<!-- Spider Mutation: Venom Secretion -->
 			<Type>PROMOTION_SPIDERMUTATION_VENOM_SECRETION</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDERMUTATION_VENOM_SECRETION</Description>
@@ -1344,6 +1532,14 @@
 				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
 			</UnitCombats>
@@ -1371,70 +1567,314 @@
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
 			<iFirstStrikesChange>1</iFirstStrikesChange>
 			<iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
 			<iMinLevel>-1</iMinLevel>
 		</PromotionInfo>
-		<PromotionInfo>			<!-- Spider Mutation: Chitin Carapace -->
-			<Type>PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE</Description>
-			<Button>Art/Modules/Arachnophobia/Buttons/SpiderMutation_ChitinCarapace.dds</Button>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
-			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>			<!-- Spider Mutation: Trail Pheromone -->
-			<Type>PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE</Description>
-			<Button>Art/Modules/Arachnophobia/Buttons/SpiderMutation_TrailPheromone.dds</Button>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<PromotionCombatMods>
-				<PromotionCombatMod>
-					<PromotionType>PROMOTION_POISONED</PromotionType>
-					<iCombatMod>30</iCombatMod>
-				</PromotionCombatMod>			
-			</PromotionCombatMods>
-			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>			<!-- Spider Mutation: Spitter Gland -->
-			<Type>PROMOTION_SPIDERMUTATION_SPITTER_GLAND</Type>
-			<Description>TXT_KEY_PROMOTION_SPIDERMUTATION_SPITTER_GLAND</Description>
-			<Button>Art/Modules/Arachnophobia/Buttons/SpiderMutation_SpitterGland.dds</Button>
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-			<iAirCombat>3</iAirCombat>
-			<iAirCombatLimitBoost>15</iAirCombatLimitBoost>
-			<iAirRangeChange>1</iAirRangeChange>
-			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
+
+		<!-- Spider Mutations End -->
 		
+		<!-- Arachnomancy Start -->
+
+		<PromotionInfo>		<!-- Arachnomancy I -->
+			<Type>PROMOTION_ARACHNOMANCY1</Type>
+			<Description>TXT_KEY_PROMOTION_ARACHNOMANCY1</Description>
+			<Help>TXT_KEY_PROMOTION_ARACHNOMANCY1_HELP</Help>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ARCHOS</PrereqCivilization>
+			</PrereqCivilizations>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_CHANNELING1</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<PyPerTurn>arachnomancy1(pCaster)</PyPerTurn>
+			<Button>Art/Modules/Arachnophobia/Buttons/Arachnomancy1.dds</Button>
+			<PromotionNextLevel>PROMOTION_ARACHNOMANCY2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Arachnomancy II -->
+			<Type>PROMOTION_ARACHNOMANCY2</Type>
+			<Description>TXT_KEY_PROMOTION_ARACHNOMANCY2</Description>
+			<Help>TXT_KEY_PROMOTION_ARACHNOMANCY2_HELP</Help>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ARCHOS</PrereqCivilization>
+			</PrereqCivilizations>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_ARACHNOMANCY1</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_CHANNELING2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<PyPerTurn>arachnomancy2(pCaster)</PyPerTurn>
+			<Button>Art/Modules/Arachnophobia/Buttons/Arachnomancy2.dds</Button>
+			<PromotionNextLevel>PROMOTION_ARACHNOMANCY3</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Arachnomancy III -->
+			<Type>PROMOTION_ARACHNOMANCY3</Type>
+			<Description>TXT_KEY_PROMOTION_ARACHNOMANCY3</Description>
+			<Help>TXT_KEY_PROMOTION_ARACHNOMANCY3_HELP</Help>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ARCHOS</PrereqCivilization>
+			</PrereqCivilizations>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_ARACHNOMANCY2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_CHANNELING3</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bNoXP>1</bNoXP>
+			<PyPerTurn>arachnomancy3(pCaster)</PyPerTurn>
+			<Button>Art/Modules/Arachnophobia/Buttons/Arachnomancy3.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Swarm Concealed I -->
+			<Type>PROMOTION_SWARM_CONCEALED1</Type>
+			<Description>TXT_KEY_PROMOTION_SWARM_CONCEALED1</Description>
+			<iWithdrawalChange>20</iWithdrawalChange>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_ARACHNOMANCY1</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<iMinLevel>-1</iMinLevel>
+			<bEffectProm>1</bEffectProm>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+			<PromotionNextLevel>PROMOTION_SWARM_CONCEALED2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Swarm Concealed II -->
+			<Type>PROMOTION_SWARM_CONCEALED2</Type>
+			<Description>TXT_KEY_PROMOTION_SWARM_CONCEALED2</Description>
+			<iWithdrawalChange>20</iWithdrawalChange>
+			<iCollateralDamageProtection>20</iCollateralDamageProtection>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_ARACHNOMANCY2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<iMinLevel>-1</iMinLevel>
+			<bEffectProm>1</bEffectProm>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+			<PromotionNextLevel>PROMOTION_SWARM_CONCEALED3</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Swarm Concealed III -->
+			<Type>PROMOTION_SWARM_CONCEALED3</Type>
+			<Description>TXT_KEY_PROMOTION_SWARM_CONCEALED3</Description>
+			<iWithdrawalChange>20</iWithdrawalChange>
+			<iCollateralDamageProtection>20</iCollateralDamageProtection>
+			<iInvisibleLevel>1</iInvisibleLevel>
+			<bMustMaintain>1</bMustMaintain>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_ARACHNOMANCY3</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<iMinLevel>-1</iMinLevel>
+			<bEffectProm>1</bEffectProm>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+		</PromotionInfo>
+
+		<PromotionInfo>		<!-- Amalgamation -->
+			<Type>PROMOTION_AMALGAMATION</Type>
+			<Description>TXT_KEY_PROMOTION_AMALGAMATION</Description>
+			<bStackEffect>1</bStackEffect>
+			<iCombatPercent>10</iCombatPercent>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Modules/Arachnophobia/Buttons/Swarming.dds</Button>
+			<UnitCombats/>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+
+		<!-- Arachnomancy End -->
+
 		<PromotionInfo>		<!-- Archosian Worker -->
 			<Type>PROMOTION_ARCHOSIAN_WORKER</Type>
 			<Description>TXT_KEY_PROMOTION_ARCHOSIAN_WORKER</Description>
@@ -1461,13 +1901,11 @@
 			<Button>,Art/Interface/Teamcolor/archosbutton.dds</Button>
 		</PromotionInfo>
 		
-		<PromotionInfo>		<!-- No Exp (for dismounted spider) -->
-			<Type>PROMOTION_NO_EXP</Type>
-			<Description>TXT_KEY_PROMOTION_NO_EXP</Description>
-			<bMustMaintain>1</bMustMaintain>
-			<bNoXP>1</bNoXP>
+		<PromotionInfo>		<!-- Mount -->
+			<Type>PROMOTION_MOUNT</Type>
+			<Description>TXT_KEY_PROMOTION_MOUNT</Description>
 			<iExperiencePercent>-100</iExperiencePercent>
-			<Button>Art/Modules/Arachnophobia/Buttons/No_Exp.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/Mount.dds</Button>
 		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>

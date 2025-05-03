@@ -29,10 +29,10 @@ def setSpiderPromo(cf, spawnUnit, pPlayer, pCity):
 		iNestPop    = pNest.getPopulation()
 		getNum      = pNest.getNumBuilding
 		if pPlayer.hasTrait(Trait["Spiderkin"]):
-			if iNestPop >= 9:
+			if iNestPop >= 12:
 				setPromo( Effect["Spiderkin"], True)
 
-		if iNestPop >= 16:
+		if iNestPop >= 20:
 			setPromo( Effect["Strong"], True)
 
 		if pCity:
@@ -94,9 +94,9 @@ def doTurnArchosReplacement(self, iPlayer):
 
 		# Spawn spiders from capital
 		if randNum(10000, "Spawn Roll") < iSpawnChance:
-			if iNestPop >= 11 and iBroodActivity >= 80000:
+			if iNestPop >= 16 and iBroodActivity >= 100000:
 				spawnUnit = initUnit( Unit["Giant Spider"], iX, iY, iNoAI, iSouth)
-			elif iNestPop >= 6 and iBroodActivity >= 40000:
+			elif iNestPop >= 8 and iBroodActivity >= 50000:
 				spawnUnit = initUnit( Unit["Spider"], iX, iY, iNoAI, iSouth)
 			elif iNestPop >= 1 and iBroodActivity >= 20000:
 				spawnUnit = initUnit( Unit["Baby Spider"], iX, iY, iNoAI, iSouth)
@@ -135,7 +135,7 @@ def doChanceArchosReplacement(self, iPlayer):
 		iNestPop 		= pNest.getPopulation()
 		iNumGroves 		= pPlayer.countNumBuildings(Building["Dark Weald"])
 		getUCC			= pPlayer.getUnitClassCount
-		iNumSpiders		= (getUCC(UnitClass["Spider"]) * 2 + (getUCC(UnitClass["Giant Spider"]) * 4))
+		iNumSpiders		= (getUCC(UnitClass["Spider"]) * 1 + (getUCC(UnitClass["Giant Spider"]) * 1))
 
 		map 		= CyMap()
 		plotByIndex = map.plotByIndex
@@ -147,11 +147,17 @@ def doChanceArchosReplacement(self, iPlayer):
 				if pPlot.getOwner() == iPlayer:
 					iNumFeedingPen += 1
 
+		fpastureMult = 1
+		pastureBonuses = ["BONUS_COW", "BONUS_HORSE", "BONUS_HYAPON", "BONUS_CAMEL", "BONUS_PIG", "BONUS_SHEEP", "BONUS_NIGHTMARE"]
+		for bonus in pastureBonuses:
+			if pPlayer.getNumAvailableBonuses(getInfoType(bonus)) > 0:
+				fpastureMult += 0.05
+
 		fSpiderkin = 1
 		if pPlayer.hasTrait(Trait["Spiderkin"]):
 			fSpiderkin = 1.30
 
-		iSpiderSpawnChance = ((iNestPop + (iNumGroves*2) + iNumFeedingPen) * fSpiderkin) - iNumSpiders
+		iSpiderSpawnChance = ((iNestPop + (iNumGroves*2) + iNumFeedingPen) * fpastureMult * fSpiderkin) - iNumSpiders
 		iSpiderSpawnChance = (iSpiderSpawnChance * 100)
 		iSpiderSpawnChance = scaleInverse(iSpiderSpawnChance)
 

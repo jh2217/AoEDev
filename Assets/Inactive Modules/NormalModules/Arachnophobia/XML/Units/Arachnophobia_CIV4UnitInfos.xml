@@ -14,6 +14,7 @@
 			<iInvisibleLevel>1</iInvisibleLevel>
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_BABY_SPIDER</Description>
+			<Help>TXT_KEY_UNIT_SPIDER_HELP</Help>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_BABY_SPIDER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -49,6 +50,8 @@
 				</FreePromotion>
 			</FreePromotions>
 			<PromotionFromCombat>PROMOTION_GROWTH_SPURTS</PromotionFromCombat>
+			<PythonPostCombatLost>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatLost>
+			<PythonPostCombatWon>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatWon>
 			<PyPerTurn>babySpiderSwarm(pCaster)</PyPerTurn>
 			<TerrainNatives>
 				<TerrainNative>
@@ -98,6 +101,7 @@
 			<iInvisibleLevel>1</iInvisibleLevel>
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_SPIDER</Description>
+			<Help>TXT_KEY_UNIT_SPIDER_HELP</Help>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SPIDER_STRATEGY_NEW</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -157,6 +161,8 @@
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
+			<PythonPostCombatLost>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatLost>
+			<PythonPostCombatWon>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatWon>
 			<iTier>2</iTier>
 			<iAppearanceProb>-1</iAppearanceProb>
 			<AppearanceTechs>
@@ -178,6 +184,7 @@
 			<DefaultUnitAI>UNITAI_ANIMAL</DefaultUnitAI>
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_GIANT_SPIDER</Description>
+			<Help>TXT_KEY_UNIT_SPIDER_HELP</Help>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GIANT_SPIDER_STRATEGY_NEW</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
@@ -238,6 +245,8 @@
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
+			<PythonPostCombatLost>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatLost>
+			<PythonPostCombatWon>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatWon>
 			<iTier>3</iTier>
 			<iAppearanceProb>-1</iAppearanceProb>
 			<AppearanceTechs>
@@ -256,7 +265,7 @@
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_NESTING_SPIDER</Description>
 			<Civilopedia>TXT_KEY_UNIT_FORT_COMMANDER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_NESTING_SPIDER_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_NESTING_SPIDER_STRATEGY_NEW</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bNukeImmune>1</bNukeImmune>
@@ -313,6 +322,8 @@
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
+			<PythonPostCombatLost>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatLost>
+			<PythonPostCombatWon>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatWon>
 			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_POISON</DamageType>
@@ -392,6 +403,8 @@
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 			</FreePromotions>
+			<PythonPostCombatLost>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatLost>
+			<PythonPostCombatWon>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatWon>
 			<Image>Art/Interface/Popups/Mother.dds</Image>
 			<Quote>TXT_KEY_UNIT_MOTHER_SPIDER_STRATEGY</Quote>
 			<UnitCreateFromCombat>UNIT_BABY_SPIDER</UnitCreateFromCombat>
@@ -805,6 +818,65 @@
 				</DamageTypeCombat>
 			</DamageTypeCombats>
 			<iPowerMult>5</iPowerMult>
+		</UnitInfo>
+		<UnitInfo>        <!-- Arachnid Avatar -->
+			<Class>UNITCLASS_ARACHNID_AVATAR</Class>
+			<Type>UNIT_ARACHNID_AVATAR</Type>
+			<Combat>UNITCOMBAT_MELEE</Combat>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ARACHNID_AVATAR</Description>
+			<Civilopedia>TXT_KEY_UNIT_ARACHNID_AVATAR_PEDIA</Civilopedia>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK_CITY</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<iMoves>2</iMoves>
+			<iCombat>7</iCombat>
+			<iCultureGarrison>6</iCultureGarrison>
+			<iAsset>12</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<iMeleeWaveSize>1</iMeleeWaveSize>
+				<iRangedWaveSize>1</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_ARACHNID_AVATAR</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_CANNIBALIZE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_POISON_RESISTANCE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_AMALGAMATION</PromotionType>
+					<iNumApplied>4</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<bNoWarWeariness>1</bNoWarWeariness>
+			<iTier>4</iTier>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_POISON</DamageType>
+					<iCombat>1</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
 		</UnitInfo>
 	</UnitInfos>
 </Civ4UnitInfos>
