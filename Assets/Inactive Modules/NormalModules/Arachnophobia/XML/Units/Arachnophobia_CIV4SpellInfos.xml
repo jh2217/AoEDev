@@ -385,6 +385,7 @@
 			<bHasCasted>1</bHasCasted>
 			<CreateUnitType>UNIT_ARACHNID_AVATAR</CreateUnitType>
 			<iCreateUnitNum>1</iCreateUnitNum>
+			<bPermanentUnitCreate>1</bPermanentUnitCreate>
 			<CreateUnitPromotion>PROMOTION_FREE_UNIT</CreateUnitPromotion>
 			<PyResult>spellSummonArachnidAvatar(pCaster)</PyResult>
 			<PyRequirement>reqSummonArachnidAvatar(pCaster)</PyRequirement>
