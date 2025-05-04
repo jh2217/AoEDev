@@ -39,19 +39,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPIDER_HELP</Tag>
-		<English>[ICON_BULLET]Produces 5 Brood Activity from each combat.</English>
-		<French>[ICON_BULLET]Produces 5 Brood Activity from each combat.</French>
-		<German>[ICON_BULLET]Produces 5 Brood Activity from each combat.</German>
-		<Italian>[ICON_BULLET]Produces 5 Brood Activity from each combat.</Italian>
-		<Spanish>[ICON_BULLET]Produces 5 Brood Activity from each combat.</Spanish>
+		<English>[ICON_BULLET]Produces 5 Brood Activity from each combat</English>
+		<French>[ICON_BULLET]Produces 5 Brood Activity from each combat</French>
+		<German>[ICON_BULLET]Produces 5 Brood Activity from each combat</German>
+		<Italian>[ICON_BULLET]Produces 5 Brood Activity from each combat</Italian>
+		<Spanish>[ICON_BULLET]Produces 5 Brood Activity from each combat</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SPIDER_UPGRADE_HELP</Tag>
-		<English>[ICON_BULLET]Consumes another [LINK=UNIT_SPIDER]Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 8.</English>
-		<French>[ICON_BULLET]Consumes another [LINK=UNIT_SPIDER]Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 8.</French>
-		<German>[ICON_BULLET]Consumes another [LINK=UNIT_SPIDER]Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 8.</German>
-		<Italian>[ICON_BULLET]Consumes another [LINK=UNIT_SPIDER]Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 8.</Italian>
-		<Spanish>[ICON_BULLET]Consumes another [LINK=UNIT_SPIDER]Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 8.</Spanish>
+		<English>[ICON_BULLET]Consumes another [LINK=UNIT_SPIDER]Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 8</English>
+		<French>[ICON_BULLET]Consumes another [LINK=UNIT_SPIDER]Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 8</French>
+		<German>[ICON_BULLET]Consumes another [LINK=UNIT_SPIDER]Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 8</German>
+		<Italian>[ICON_BULLET]Consumes another [LINK=UNIT_SPIDER]Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 8</Italian>
+		<Spanish>[ICON_BULLET]Consumes another [LINK=UNIT_SPIDER]Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 8</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_GIANT_SPIDER_UPGRADE</Tag>
@@ -63,11 +63,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_GIANT_SPIDER_UPGRADE_HELP</Tag>
-		<English>[ICON_BULLET]Consumes another [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 16.</English>
-		<French>[ICON_BULLET]Consumes another [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 16.</French>
-		<German>[ICON_BULLET]Consumes another [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 16.</German>
-		<Italian>[ICON_BULLET]Consumes another [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 16.</Italian>
-		<Spanish>[ICON_BULLET]Consumes another [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 16.</Spanish>
+		<English>[ICON_BULLET]Consumes another [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 16</English>
+		<French>[ICON_BULLET]Consumes another [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 16</French>
+		<German>[ICON_BULLET]Consumes another [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 16</German>
+		<Italian>[ICON_BULLET]Consumes another [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 16</Italian>
+		<Spanish>[ICON_BULLET]Consumes another [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK]. [NEWLINE][ICON_BULLET]Requires minimum capital size 16</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_NESTING_SPIDER_STRATEGY_NEW</Tag>
@@ -193,11 +193,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_POISON_EXPLOSION_HELP</Tag>
-		<English>[ICON_BULLET]Explode and poison all units in range.</English>
-		<French>[ICON_BULLET]Explode and poison all units in range.</French>
-		<German>[ICON_BULLET]Explode and poison all units in range.</German>
-		<Italian>[ICON_BULLET]Explode and poison all units in range.</Italian>
-		<Spanish>[ICON_BULLET]Explode and poison all units in range.</Spanish>
+		<English>[ICON_BULLET]Explode and poison all units in range</English>
+		<French>[ICON_BULLET]Explode and poison all units in range</French>
+		<German>[ICON_BULLET]Explode and poison all units in range</German>
+		<Italian>[ICON_BULLET]Explode and poison all units in range</Italian>
+		<Spanish>[ICON_BULLET]Explode and poison all units in range</Spanish>
 	</TEXT>
 	
 	<TEXT>
@@ -316,51 +316,51 @@
 
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA_HELP</Tag>
-		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city.</English>
-		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city.</French>
-		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city.</German>
-		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city.</Italian>
-		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city.</Spanish>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_VENENUM_HELP</Tag>
-		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city.</English>
-		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city.</French>
-		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city.</German>
-		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city.</Italian>
-		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city.</Spanish>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Tag>
-		<English>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city.</English>
-		<French>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city.</French>
-		<German>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city.</German>
-		<Italian>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city.</Italian>
-		<Spanish>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city.</Spanish>
+		<English>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city</English>
+		<French>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city</French>
+		<German>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city</German>
+		<Italian>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city</Italian>
+		<Spanish>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_GREATER_HELP</Tag>
-		<English>[ICON_BULLET]Gain even bigger buff on reveal.</English>
-		<French>[ICON_BULLET]Gain even bigger buff on reveal.</French>
-		<German>[ICON_BULLET]Gain even bigger buff on reveal.</German>
-		<Italian>[ICON_BULLET]Gain even bigger buff on reveal.</Italian>
-		<Spanish>[ICON_BULLET]Gain even bigger buff on reveal.</Spanish>
+		<English>[ICON_BULLET]Gain even bigger buff on reveal</English>
+		<French>[ICON_BULLET]Gain even bigger buff on reveal</French>
+		<German>[ICON_BULLET]Gain even bigger buff on reveal</German>
+		<Italian>[ICON_BULLET]Gain even bigger buff on reveal</Italian>
+		<Spanish>[ICON_BULLET]Gain even bigger buff on reveal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Tag>
-		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city.</English>
-		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city.</French>
-		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city.</German>
-		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city.</Italian>
-		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city.</Spanish>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Tag>
-		<English>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city.</English>
-		<French>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city.</French>
-		<German>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city.</German>
-		<Italian>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city.</Italian>
-		<Spanish>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city.</Spanish>
+		<English>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city</English>
+		<French>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city</French>
+		<German>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city</German>
+		<Italian>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city</Italian>
+		<Spanish>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city</Spanish>
 	</TEXT>
 
 	<TEXT>
@@ -561,27 +561,27 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CALL_BABY_SPIDER_HELP</Tag>
-		<English>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own.</English>
-		<French>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own.</French>
-		<German>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own.</German>
-		<Italian>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own.</Italian>
-		<Spanish>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own.</Spanish>
+		<English>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own</English>
+		<French>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own</French>
+		<German>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own</German>
+		<Italian>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own</Italian>
+		<Spanish>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CALL_SPIDER_HELP</Tag>
-		<English>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater.</English>
-		<French>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater.</French>
-		<German>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater.</German>
-		<Italian>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater.</Italian>
-		<Spanish>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater.</Spanish>
+		<English>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater</English>
+		<French>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater</French>
+		<German>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater</German>
+		<Italian>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater</Italian>
+		<Spanish>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CALL_GIANT_SPIDER_HELP</Tag>
-		<English>[ICON_BULLET]Spend 200 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater.</English>
-		<French>[ICON_BULLET]Spend 200 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater.</French>
-		<German>[ICON_BULLET]Spend 200 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater.</German>
-		<Italian>[ICON_BULLET]Spend 200 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater.</Italian>
-		<Spanish>[ICON_BULLET]Spend 200 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater.</Spanish>
+		<English>[ICON_BULLET]Spend 200 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</English>
+		<French>[ICON_BULLET]Spend 200 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</French>
+		<German>[ICON_BULLET]Spend 200 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</German>
+		<Italian>[ICON_BULLET]Spend 200 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</Italian>
+		<Spanish>[ICON_BULLET]Spend 200 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ARACHNOPHAGY</Tag>
@@ -641,11 +641,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SMEAR_POISON_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice a Baby Spider to gain the Poisoned Blade promotion.</English>
-		<French>[ICON_BULLET]Sacrifice a Baby Spider to gain the Poisoned Blade promotion.</French>
-		<German>[ICON_BULLET]Sacrifice a Baby Spider to gain the Poisoned Blade promotion.</German>
-		<Italian>[ICON_BULLET]Sacrifice a Baby Spider to gain the Poisoned Blade promotion.</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice a Baby Spider to gain the Poisoned Blade promotion.</Spanish>
+		<English>[ICON_BULLET]Sacrifice a Baby Spider to gain the Poisoned Blade promotion</English>
+		<French>[ICON_BULLET]Sacrifice a Baby Spider to gain the Poisoned Blade promotion</French>
+		<German>[ICON_BULLET]Sacrifice a Baby Spider to gain the Poisoned Blade promotion</German>
+		<Italian>[ICON_BULLET]Sacrifice a Baby Spider to gain the Poisoned Blade promotion</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice a Baby Spider to gain the Poisoned Blade promotion</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CANNIBALIZE</Tag>
@@ -665,11 +665,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CANNIBALIZE_HELP</Tag>
-		<English>[ICON_BULLET]Consumes a Baby Spider to recover 15% health.</English>
-		<French>[ICON_BULLET]Consumes a Baby Spider to recover 15% health.</French>
-		<German>[ICON_BULLET]Consumes a Baby Spider to recover 15% health.</German>
-		<Italian>[ICON_BULLET]Consumes a Baby Spider to recover 15% health.</Italian>
-		<Spanish>[ICON_BULLET]Consumes a Baby Spider to recover 15% health.</Spanish>
+		<English>[ICON_BULLET]Consumes a Baby Spider to recover 15% health</English>
+		<French>[ICON_BULLET]Consumes a Baby Spider to recover 15% health</French>
+		<German>[ICON_BULLET]Consumes a Baby Spider to recover 15% health</German>
+		<Italian>[ICON_BULLET]Consumes a Baby Spider to recover 15% health</Italian>
+		<Spanish>[ICON_BULLET]Consumes a Baby Spider to recover 15% health</Spanish>
 	</TEXT>
 
 	<TEXT>
@@ -690,11 +690,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_FEEDING_PEN_HELP</Tag>
-		<English>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</English>
-		<French>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</French>
-		<German>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</German>
-		<Italian>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</Italian>
-		<Spanish>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</Spanish>
+		<English>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level</English>
+		<French>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level</French>
+		<German>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level</German>
+		<Italian>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level</Italian>
+		<Spanish>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_FEEDING_PEN</Tag>
@@ -723,11 +723,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_HELP</Tag>
-		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe.</English>
-		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe.</French>
-		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe.</German>
-		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe.</Italian>
-		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe.</Spanish>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_MAZE_OF_WEBS</Tag>
@@ -901,11 +901,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_NESTING_GROUND_HELP</Tag>
-		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</English>
-		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</French>
-		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</German>
-		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Italian>
-		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Spanish>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_NESTING_GROUND</Tag>
@@ -941,11 +941,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_INFESTED_FORTRESS_HELP</Tag>
-		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</English>
-		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</French>
-		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</German>
-		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Italian>
-		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Spanish>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_INFESTED_FORTRESS</Tag>
@@ -973,11 +973,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DEEP_NEST_HELP</Tag>
-		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</English>
-		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</French>
-		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</German>
-		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Italian>
-		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units. [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe. [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK].</Spanish>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_COCOON</Tag>
@@ -1069,19 +1069,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY2_HELP</Tag>
-		<English>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK].</English>
-		<French>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK].</French>
-		<German>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK].</German>
-		<Italian>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK].</Italian>
-		<Spanish>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK].</Spanish>
+		<English>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK]</English>
+		<French>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK]</French>
+		<German>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK]</German>
+		<Italian>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY3_HELP</Tag>
-		<English>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK].</English>
-		<French>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK].</French>
-		<German>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK].</German>
-		<Italian>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK].</Italian>
-		<Spanish>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK].</Spanish>
+		<English>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</English>
+		<French>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</French>
+		<German>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</German>
+		<Italian>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ARACHNID_AVATAR</Tag>
@@ -1109,11 +1109,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SUMMON_ARACHNID_AVATAR_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK].</English>
-		<French>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK].</French>
-		<German>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK].</German>
-		<Italian>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK].</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK].</Spanish>
+		<English>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK]</English>
+		<French>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK]</French>
+		<German>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK]</German>
+		<Italian>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_AMALGAMATION</Tag>
@@ -1133,11 +1133,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_AMALGAMATE_HELP</Tag>
-		<English>[ICON_BULLET]Consume 10 baby spiders to gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK].</English>
-		<French>[ICON_BULLET]Consume 10 baby spiders to gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK].</French>
-		<German>[ICON_BULLET]Consume 10 baby spiders to gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK].</German>
-		<Italian>[ICON_BULLET]Consume 10 baby spiders to gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK].</Italian>
-		<Spanish>[ICON_BULLET]Consume 10 baby spiders to gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK].</Spanish>
+		<English>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again</English>
+		<French>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again</French>
+		<German>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again</German>
+		<Italian>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again</Italian>
+		<Spanish>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MESSAGE_NOT_ENOUGH_BABY_SPIDERS</Tag>

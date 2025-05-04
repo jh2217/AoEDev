@@ -463,6 +463,8 @@ def reqSummonArachnidAvatar(caster):
 
 
 def spellAmalgamate(caster):
+	caster.setDamage(caster.getDamage() - 10, caster.getOwner())
+	caster.setMadeAttack(False)
 	babyVictims = CountBabySpidersAndLog(caster, 10, 'Art/Modules/Arachnophobia/Buttons/Swarming.dds')
 	if not babyVictims:
 		return
