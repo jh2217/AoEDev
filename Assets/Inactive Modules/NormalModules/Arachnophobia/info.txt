@@ -57,9 +57,9 @@ Promotions:
 	Swarming III now grants 10% Defensive Strike chance and 5% Defensive Strike damage.
 	Swarming IV now grants Target Weakest Unit.
 
-	Added Arachnomancy I, auto-acquired by Archosian units with Channeling I. Grants +20% withdrawal chance and +20% collateral damage protection when starting turn with >= 10 Baby Spiders in the same tile.
+	Added Arachnomancy I, auto-acquired by Archosian units with Channeling I. Grants +20% withdrawal chance when starting turn with >= 10 Baby Spiders in the same tile.
 	Added Arachnomancy II, auto-acquired by Archosian units with Channeling II. Grants +20% withdrawal chance and +20% collateral damage protection when starting turn with >= 20 Baby Spiders in the same tile.
-	Added Arachnomancy III, auto-acquired by Archosian units with Channeling III. Grants +20% withdrawal chance and +20% collateral damage protection when starting turn with >= 40 Baby Spiders in the same tile.
+	Added Arachnomancy III, auto-acquired by Archosian units with Channeling III. Grants +20% withdrawal chance, +20% collateral damage and invisibility level 1 protection when starting turn with >= 40 Baby Spiders in the same tile.
 
 	Spider mutations can now be applied to defensive melee and rogue units.
 
