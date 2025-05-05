@@ -135,7 +135,7 @@ def doChanceArchosReplacement(self, iPlayer):
 		iNestPop 		= pNest.getPopulation()
 		iNumGroves 		= pPlayer.countNumBuildings(Building["Dark Weald"])
 		getUCC			= pPlayer.getUnitClassCount
-		iNumSpiders		= (getUCC(UnitClass["Spider"]) * 1 + (getUCC(UnitClass["Giant Spider"]) * 1))
+		iNumSpiders		= getUCC(UnitClass["Spider"]) * 1 + getUCC(UnitClass["Giant Spider"]) * 2
 
 		map 		= CyMap()
 		plotByIndex = map.plotByIndex
