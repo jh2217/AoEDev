@@ -133,19 +133,10 @@ def doChanceArchosReplacement(self, iPlayer):
 		Trait			= self.Traits
 		pNest 			= pPlayer.getCapitalCity()
 		iNestPop 		= pNest.getPopulation()
+		iNumFeedingPen  = pPlayer.getImprovementCount(getInfoType('IMPROVEMENT_FEEDING_PEN'))
 		iNumGroves 		= pPlayer.countNumBuildings(Building["Dark Weald"])
 		getUCC			= pPlayer.getUnitClassCount
 		iNumSpiders		= getUCC(UnitClass["Spider"]) * 1 + getUCC(UnitClass["Giant Spider"]) * 2
-
-		map 		= CyMap()
-		plotByIndex = map.plotByIndex
-
-		iNumFeedingPen = 0
-		for i in xrange(map.numPlots()):
-			pPlot = plotByIndex(i)
-			if pPlot.getImprovementType() == getInfoType('IMPROVEMENT_FEEDING_PEN'):
-				if pPlot.getOwner() == iPlayer:
-					iNumFeedingPen += 1
 
 		fpastureMult = 1
 		pastureBonuses = ["BONUS_COW", "BONUS_HORSE", "BONUS_HYAPON", "BONUS_CAMEL", "BONUS_PIG", "BONUS_SHEEP", "BONUS_NIGHTMARE"]
@@ -157,7 +148,7 @@ def doChanceArchosReplacement(self, iPlayer):
 		if pPlayer.hasTrait(Trait["Spiderkin"]):
 			fSpiderkin = 1.30
 
-		iSpiderSpawnChance = ((iNestPop + (iNumGroves*2) + iNumFeedingPen) * fpastureMult * fSpiderkin) - iNumSpiders
+		iSpiderSpawnChance = ((iNestPop + iNumFeedingPen + (iNumGroves*2)) * fpastureMult * fSpiderkin) - iNumSpiders
 		iSpiderSpawnChance = (iSpiderSpawnChance * 100)
 		iSpiderSpawnChance = scaleInverse(iSpiderSpawnChance)
 
