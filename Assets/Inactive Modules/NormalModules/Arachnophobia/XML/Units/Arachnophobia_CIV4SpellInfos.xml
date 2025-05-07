@@ -196,7 +196,7 @@
 			<PyRequirement>reqCallBabySpider(pCaster)</PyRequirement>
 			<Effect>EFFECT_BIRDSCATTER</Effect>
 			<Sound>AS2D_DISCOVERBONUS</Sound>
-			<Button>Art/Modules/Arachnophobia/Buttons/Call_Baby_Spider.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/Spider_Baby.dds</Button>
 		</SpellInfo>
 		<SpellInfo>			<!-- Call Spider -->
 			<Type>SPELL_CALL_SPIDER</Type>
@@ -212,7 +212,7 @@
 			<PyRequirement>reqCallSpider(pCaster)</PyRequirement>
 			<Effect>EFFECT_BIRDSCATTER</Effect>
 			<Sound>AS2D_DISCOVERBONUS</Sound>
-			<Button>Art/Modules/Arachnophobia/Buttons/Call_Spider.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/Spider_Adult.dds</Button>
 		</SpellInfo>
 		<SpellInfo>			<!-- Call Giant Spider -->
 			<Type>SPELL_CALL_GIANT_SPIDER</Type>
@@ -228,7 +228,7 @@
 			<PyRequirement>reqCallGiantSpider(pCaster)</PyRequirement>
 			<Effect>EFFECT_BIRDSCATTER</Effect>
 			<Sound>AS2D_DISCOVERBONUS</Sound>
-			<Button>Art/Modules/Arachnophobia/Buttons/Call_Giant_Spider.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/Spider_Giant.dds</Button>
 		</SpellInfo>
 
 		<!-- Spider Summoning End -->
