@@ -18,40 +18,18 @@
 			<iPillageGold>10</iPillageGold>
 			<BonusTypeStructs>
 				<BonusTypeStruct>
+					<BonusType>BONUS_BISON</BonusType>
+					<bBonusMakesValid>1</bBonusMakesValid>
+					<bBonusTrade>1</bBonusTrade>
+					<iDiscoverRand>0</iDiscoverRand>
+					<iSpreadRand>0</iSpreadRand>
+				</BonusTypeStruct>
+				<BonusTypeStruct>
 					<BonusType>BONUS_COW</BonusType>
 					<bBonusMakesValid>1</bBonusMakesValid>
 					<bBonusTrade>1</bBonusTrade>
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
-					<YieldChanges>
-						<iYieldChange>1</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-					</YieldChanges>
-				</BonusTypeStruct>
-				<BonusTypeStruct>
-					<BonusType>BONUS_HORSE</BonusType>
-					<bBonusMakesValid>1</bBonusMakesValid>
-					<bBonusTrade>1</bBonusTrade>
-					<iDiscoverRand>0</iDiscoverRand>
-					<iSpreadRand>0</iSpreadRand>
-					<YieldChanges>
-						<iYieldChange>1</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-					</YieldChanges>
-				</BonusTypeStruct>
-				<BonusTypeStruct>
-					<BonusType>BONUS_HYAPON</BonusType>
-					<bBonusMakesValid>1</bBonusMakesValid>
-					<bBonusTrade>1</bBonusTrade>
-					<iDiscoverRand>0</iDiscoverRand>
-					<iSpreadRand>0</iSpreadRand>
-					<YieldChanges>
-						<iYieldChange>1</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-					</YieldChanges>
 				</BonusTypeStruct>
 				<BonusTypeStruct>
 					<BonusType>BONUS_CAMEL</BonusType>
@@ -59,35 +37,48 @@
 					<bBonusTrade>1</bBonusTrade>
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
-					<YieldChanges>
-						<iYieldChange>1</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-					</YieldChanges>
 				</BonusTypeStruct>
 				<BonusTypeStruct>
-					<BonusType>BONUS_PIG</BonusType>
+					<BonusType>BONUS_DEER</BonusType>
 					<bBonusMakesValid>1</bBonusMakesValid>
 					<bBonusTrade>1</bBonusTrade>
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
-					<YieldChanges>
-						<iYieldChange>1</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-					</YieldChanges>
 				</BonusTypeStruct>
 				<BonusTypeStruct>
-					<BonusType>BONUS_SHEEP</BonusType>
+					<BonusType>BONUS_DEER_ARCTIC</BonusType>
 					<bBonusMakesValid>1</bBonusMakesValid>
 					<bBonusTrade>1</bBonusTrade>
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
-					<YieldChanges>
-						<iYieldChange>1</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-					</YieldChanges>
+				</BonusTypeStruct>
+				<BonusTypeStruct>
+					<BonusType>BONUS_FUR</BonusType>
+					<bBonusMakesValid>1</bBonusMakesValid>
+					<bBonusTrade>1</bBonusTrade>
+					<iDiscoverRand>0</iDiscoverRand>
+					<iSpreadRand>0</iSpreadRand>
+				</BonusTypeStruct>
+				<BonusTypeStruct>
+					<BonusType>BONUS_HORSE</BonusType>
+					<bBonusMakesValid>1</bBonusMakesValid>
+					<bBonusTrade>1</bBonusTrade>
+					<iDiscoverRand>0</iDiscoverRand>
+					<iSpreadRand>0</iSpreadRand>
+				</BonusTypeStruct>
+				<BonusTypeStruct>
+					<BonusType>BONUS_HYAPON</BonusType>
+					<bBonusMakesValid>1</bBonusMakesValid>
+					<bBonusTrade>1</bBonusTrade>
+					<iDiscoverRand>0</iDiscoverRand>
+					<iSpreadRand>0</iSpreadRand>
+				</BonusTypeStruct>
+				<BonusTypeStruct>
+					<BonusType>BONUS_IVORY</BonusType>
+					<bBonusMakesValid>1</bBonusMakesValid>
+					<bBonusTrade>1</bBonusTrade>
+					<iDiscoverRand>0</iDiscoverRand>
+					<iSpreadRand>0</iSpreadRand>
 				</BonusTypeStruct>
 				<BonusTypeStruct>
 					<BonusType>BONUS_NIGHTMARE</BonusType>
@@ -95,16 +86,32 @@
 					<bBonusTrade>1</bBonusTrade>
 					<iDiscoverRand>0</iDiscoverRand>
 					<iSpreadRand>0</iSpreadRand>
-					<YieldChanges>
-						<iYieldChange>1</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-						<iYieldChange>0</iYieldChange>
-					</YieldChanges>
+				</BonusTypeStruct>
+				<BonusTypeStruct>
+					<BonusType>BONUS_PIG</BonusType>
+					<bBonusMakesValid>1</bBonusMakesValid>
+					<bBonusTrade>1</bBonusTrade>
+					<iDiscoverRand>0</iDiscoverRand>
+					<iSpreadRand>0</iSpreadRand>
+				</BonusTypeStruct>
+				<BonusTypeStruct>
+					<BonusType>BONUS_SHEEP</BonusType>
+					<bBonusMakesValid>1</bBonusMakesValid>
+					<bBonusTrade>1</bBonusTrade>
+					<iDiscoverRand>0</iDiscoverRand>
+					<iSpreadRand>0</iSpreadRand>
+				</BonusTypeStruct>
+				<BonusTypeStruct>
+					<BonusType>BONUS_TOAD</BonusType>
+					<bBonusMakesValid>1</bBonusMakesValid>
+					<bBonusTrade>1</bBonusTrade>
+					<iDiscoverRand>0</iDiscoverRand>
+					<iSpreadRand>0</iSpreadRand>
 				</BonusTypeStruct>
 			</BonusTypeStructs>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
+					<PrereqTech>TECH_HUNTING</PrereqTech>
 					<TechYields>
 						<iYield>1</iYield>
 						<iYield>0</iYield>
@@ -112,7 +119,7 @@
 					</TechYields>
 				</TechYieldChange>
 				<TechYieldChange>
-					<PrereqTech>TECH_ANIMAL_HANDLING</PrereqTech>
+					<PrereqTech>TECH_ANIMAL_HUSBANDRY</PrereqTech>
 					<TechYields>
 						<iYield>1</iYield>
 						<iYield>0</iYield>
@@ -193,15 +200,15 @@
 			<Help>TXT_KEY_IMPROVEMENT_NESTING_GROUND_HELP</Help>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_NESTING_GROUND</ArtDefineTag>
 			<iUpgradeTime>60</iUpgradeTime>
+			<iPillageGold>10</iPillageGold>
+			<bOutsideBorders>1</bOutsideBorders>
+			<iMinimumDistance>1</iMinimumDistance>
+			<bFort>1</bFort>
 			<YieldChanges>
 				<iYieldChange>-1</iYieldChange>
 				<iYieldChange>0</iYieldChange>
 				<iYieldChange>0</iYieldChange>
 			</YieldChanges>
-			<iPillageGold>10</iPillageGold>
-			<bOutsideBorders>1</bOutsideBorders>
-			<iMinimumDistance>1</iMinimumDistance>
-			<bFort>1</bFort>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
@@ -270,15 +277,15 @@
 			<iRange>1</iRange>
 			<iRangeDefenseModifier>10</iRangeDefenseModifier>
 			<iVisibilityChange>1</iVisibilityChange>
+			<iPillageGold>10</iPillageGold>
+			<bOutsideBorders>1</bOutsideBorders>
+			<iMinimumDistance>1</iMinimumDistance>
+			<bFort>1</bFort>
 			<YieldChanges>
 				<iYieldChange>-1</iYieldChange>
 				<iYieldChange>0</iYieldChange>
 				<iYieldChange>0</iYieldChange>
 			</YieldChanges>
-			<iPillageGold>10</iPillageGold>
-			<bOutsideBorders>1</bOutsideBorders>
-			<iMinimumDistance>1</iMinimumDistance>
-			<bFort>1</bFort>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>
@@ -348,15 +355,15 @@
 			<iRange>2</iRange>
 			<iRangeDefenseModifier>20</iRangeDefenseModifier>
 			<iVisibilityChange>1</iVisibilityChange>
+			<iPillageGold>15</iPillageGold>
+			<bOutsideBorders>1</bOutsideBorders>
+			<iMinimumDistance>1</iMinimumDistance>
+			<bFort>1</bFort>
 			<YieldChanges>
 				<iYieldChange>-2</iYieldChange>
 				<iYieldChange>0</iYieldChange>
 				<iYieldChange>0</iYieldChange>
 			</YieldChanges>
-			<iPillageGold>15</iPillageGold>
-			<bOutsideBorders>1</bOutsideBorders>
-			<iMinimumDistance>1</iMinimumDistance>
-			<bFort>1</bFort>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_BROKEN_LANDS</TerrainType>

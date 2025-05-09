@@ -50,6 +50,13 @@ def setSpiderPromo(cf, spawnUnit, pPlayer, pCity):
 			iBroodStrength = 0
 		spawnUnit.changeFreePromotionPick(iBroodStrength)
 
+		iBroodExp = 0
+		meatBonuses = ["BONUS_BISON", "BONUS_COW", "BONUS_CAMEL", "BONUS_DEER", "BONUS_DEER_ARCTIC", "BONUS_FUR", "BONUS_HORSE", "BONUS_HYAPON", "BONUS_IVORY", "BONUS_NIGHTMARE", "BONUS_PIG", "BONUS_SHEEP", "BONUS_TOAD"]
+		for bonus in meatBonuses:
+			if pPlayer.getNumAvailableBonuses(getInfoType(bonus)) > 0:
+				iBroodExp += 1
+		spawnUnit.changeExperience(iBroodExp, -1, False, False, False)
+
 
 def spawnCocoon(pPlayer, pPlot):
 	# Spawn cocoon if one does not exist
@@ -138,17 +145,11 @@ def doChanceArchosReplacement(self, iPlayer):
 		getUCC			= pPlayer.getUnitClassCount
 		iNumSpiders		= getUCC(UnitClass["Spider"]) * 1 + getUCC(UnitClass["Giant Spider"]) * 2
 
-		fpastureMult = 1
-		pastureBonuses = ["BONUS_COW", "BONUS_HORSE", "BONUS_HYAPON", "BONUS_CAMEL", "BONUS_PIG", "BONUS_SHEEP", "BONUS_NIGHTMARE"]
-		for bonus in pastureBonuses:
-			if pPlayer.getNumAvailableBonuses(getInfoType(bonus)) > 0:
-				fpastureMult += 0.05
-
 		fSpiderkin = 1
 		if pPlayer.hasTrait(Trait["Spiderkin"]):
 			fSpiderkin = 1.30
 
-		iSpiderSpawnChance = ((iNestPop + iNumFeedingPen + (iNumGroves*2)) * fpastureMult * fSpiderkin) - iNumSpiders
+		iSpiderSpawnChance = ((iNestPop + iNumFeedingPen + (iNumGroves*2)) * fSpiderkin) - iNumSpiders
 		iSpiderSpawnChance = (iSpiderSpawnChance * 100)
 		iSpiderSpawnChance = scaleInverse(iSpiderSpawnChance)
 

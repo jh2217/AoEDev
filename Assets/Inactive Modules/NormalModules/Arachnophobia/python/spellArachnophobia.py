@@ -155,6 +155,13 @@ def setSpiderPromo(spawnUnit, pPlayer, pCity):
 			iBroodStrength = 0
 		spawnUnit.changeFreePromotionPick(iBroodStrength)
 
+		iBroodExp = 0
+		meatBonuses = ["BONUS_BISON", "BONUS_COW", "BONUS_CAMEL", "BONUS_DEER", "BONUS_DEER_ARCTIC", "BONUS_FUR", "BONUS_HORSE", "BONUS_HYAPON", "BONUS_IVORY", "BONUS_NIGHTMARE", "BONUS_PIG", "BONUS_SHEEP", "BONUS_TOAD"]
+		for bonus in meatBonuses:
+			if pPlayer.getNumAvailableBonuses(getInfoType(bonus)) > 0:
+				iBroodExp += 1
+		spawnUnit.changeExperience(iBroodExp, -1, False, False, False)
+
 
 def spellCallBabySpider(caster):
 	pPlot = caster.plot()

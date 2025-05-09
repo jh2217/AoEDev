@@ -30,7 +30,7 @@ Mechanics:
 	Giant Spiders of variant GREEN and GREY can now be upgraded to Spider Behemoths at level 8 and capital size 16.
 
 	All spiders now gain 5 BA after combat, win or lose.
-	Each type of controlled pasture meat resource (cow, horse, hyapon, camel, pig, sheep, nightmare) gives 5% more BA gain per turn, up to 35%.
+	Each type of controlled pasture meat resource (bison, cow, camel, deer, arctic deer, fur, horse, hyapon, ivory, nightmare, pig, sheep, toad) gives 1 exp to spawned spiders, up to 13.
 	BA penalty from existing Spiders and Giant Spiders is reduced. Each Spider/Giant Spider now only cost 1 BA per turn.
 
 Spells:
@@ -77,6 +77,8 @@ Buildings:
 
 Improvements:
 	Fixed bug where Infest Fortress slows down in forests.
+	Feeding Pen can now improve more meat resources (in total: bison, cow, camel, deer, arctic deer, fur, horse, hyapon, ivory, nightmare, pig, sheep, toad).
+	Feeding Pen loses default yield of 1 Food and additional yield of 1 Food at Animal Handling, but gains additional yield of 1 Food at Hunting.
 
 v1.9
 By: @LeastCraft
