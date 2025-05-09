@@ -3874,8 +3874,8 @@
 			<DefaultUnit>UNIT_CORGAYLE</DefaultUnit>
 			<iMercenaryWeight>0</iMercenaryWeight>
 		</UnitClassInfo>
-		<UnitClassInfo>		<!-- Karas -->
-			<Type>UNITCLASS_KARAS</Type>
+		<!-- <UnitClassInfo> -->		<!-- Karas -->
+		<!-- 	<Type>UNITCLASS_KARAS</Type>
 			<Description>TXT_KEY_UNIT_KARAS</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
@@ -3884,9 +3884,9 @@
 			<bUnique>1</bUnique>
 			<DefaultUnit>UNIT_KARAS</DefaultUnit>
 			<iMercenaryWeight>0</iMercenaryWeight>
-		</UnitClassInfo>
-		<UnitClassInfo>		<!-- Overseer -->
-			<Type>UNITCLASS_OVERSEER</Type>
+		</UnitClassInfo> -->
+		<!-- <UnitClassInfo> -->		<!-- Overseer -->
+			<!-- <Type>UNITCLASS_OVERSEER</Type>
 			<Description>TXT_KEY_UNIT_OVERSEER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
@@ -3895,9 +3895,9 @@
 			<bUnique>1</bUnique>
 			<DefaultUnit>UNIT_OVERSEER</DefaultUnit>
 			<iMercenaryWeight>0</iMercenaryWeight>
-		</UnitClassInfo>
-		<UnitClassInfo>		<!-- Combat Overseer -->
-			<Type>UNITCLASS_COMBAT_OVERSEER</Type>
+		</UnitClassInfo> -->
+		<!-- <UnitClassInfo> -->		<!-- Combat Overseer -->
+			<!-- <Type>UNITCLASS_COMBAT_OVERSEER</Type>
 			<Description>TXT_KEY_UNIT_COMBAT_OVERSEER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
@@ -3906,9 +3906,9 @@
 			<bUnique>1</bUnique>
 			<DefaultUnit>UNIT_COMBAT_OVERSEER</DefaultUnit>
 			<iMercenaryWeight>0</iMercenaryWeight>
-		</UnitClassInfo>
-		<UnitClassInfo>		<!-- Sluga Commander -->
-			<Type>UNITCLASS_SLUGA_COMMANDER</Type>
+		</UnitClassInfo> -->
+		<!-- <UnitClassInfo>	 -->	<!-- Sluga Commander -->
+			<!-- <Type>UNITCLASS_SLUGA_COMMANDER</Type>
 			<Description>TXT_KEY_UNIT_SLUGA_COMMANDER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
@@ -3917,9 +3917,9 @@
 			<bUnique>1</bUnique>
 			<DefaultUnit>UNIT_SLUGA_COMMANDER</DefaultUnit>
 			<iMercenaryWeight>0</iMercenaryWeight>
-		</UnitClassInfo>
-		<UnitClassInfo>		<!-- Sluga -->
-			<Type>UNITCLASS_SLUGA</Type>
+		</UnitClassInfo> -->
+		<!-- <UnitClassInfo>	 -->	<!-- Sluga -->
+			<!-- <Type>UNITCLASS_SLUGA</Type>
 			<Description>TXT_KEY_UNIT_SLUGA</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
@@ -3928,9 +3928,9 @@
 			<bUnique>1</bUnique>
 			<DefaultUnit>UNIT_SLUGA</DefaultUnit>
 			<iMercenaryWeight>0</iMercenaryWeight>
-		</UnitClassInfo>
-		<UnitClassInfo>		<!-- Battle Sluga -->
-			<Type>UNITCLASS_BATTLE_SLUGA</Type>
+		</UnitClassInfo> -->
+		<!-- <UnitClassInfo>	 -->	<!-- Battle Sluga -->
+			<!-- <Type>UNITCLASS_BATTLE_SLUGA</Type>
 			<Description>TXT_KEY_UNIT_BATTLE_SLUGA</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
@@ -3939,9 +3939,9 @@
 			<bUnique>1</bUnique>
 			<DefaultUnit>UNIT_BATTLE_SLUGA</DefaultUnit>
 			<iMercenaryWeight>0</iMercenaryWeight>
-		</UnitClassInfo>
-		<UnitClassInfo>		<!-- War Sluga -->
-			<Type>UNITCLASS_WAR_SLUGA</Type>
+		</UnitClassInfo> -->
+		<!-- <UnitClassInfo>	-->	<!-- War Sluga -->
+			<!-- <Type>UNITCLASS_WAR_SLUGA</Type>
 			<Description>TXT_KEY_UNIT_WAR_SLUGA</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
@@ -3950,9 +3950,9 @@
 			<bUnique>1</bUnique>
 			<DefaultUnit>UNIT_WAR_SLUGA</DefaultUnit>
 			<iMercenaryWeight>0</iMercenaryWeight>
-		</UnitClassInfo>
-		<UnitClassInfo>		<!-- Behemoth -->
-			<Type>UNITCLASS_BEHEMOTH_SLUGA</Type>
+		</UnitClassInfo> -->
+		<!-- <UnitClassInfo> -->		<!-- Behemoth -->
+			<!-- <Type>UNITCLASS_BEHEMOTH_SLUGA</Type>
 			<Description>TXT_KEY_UNIT_BEHEMOTH_SLUGA</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
@@ -3961,7 +3961,7 @@
 			<bUnique>1</bUnique>
 			<DefaultUnit>UNIT_BEHEMOTH_SLUGA</DefaultUnit>
 			<iMercenaryWeight>0</iMercenaryWeight>
-		</UnitClassInfo>
+		</UnitClassInfo> -->
 		<UnitClassInfo>		<!-- Agent -->
 			<Type>UNITCLASS_AGENT</Type>
 			<Description>TXT_KEY_UNIT_AGENT</Description>
