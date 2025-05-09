@@ -19,7 +19,6 @@
 			<bIgnoreHasCasted>1</bIgnoreHasCasted>
 			<bBuffCasterOnly>1</bBuffCasterOnly>
 			<ConvertUnitType>UNIT_GIANT_SPIDER</ConvertUnitType>
-			<PyResult>spellSpiderUpgradeToGiant(pCaster)</PyResult>
 			<PyRequirement>reqSpiderUpgradeToGiant(pCaster)</PyRequirement>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<Effect>EFFECT_IMPROVEMENT_GOODYHUT_POP</Effect>
@@ -43,7 +42,6 @@
 				<AddPromotion>PROMOTION_SPIDER_VENENUM_BEHEMOTH</AddPromotion>
 				<AddPromotion>PROMOTION_SPIDER_MUCRO_BEHEMOTH</AddPromotion>
 			</AddPromotions>
-			<PyResult>spellGiantSpiderUpgradeToBehemoth(pCaster)</PyResult>
 			<PyRequirement>reqGiantSpiderUpgradeToBehemoth(pCaster)</PyRequirement>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<Effect>EFFECT_IMPROVEMENT_GOODYHUT_POP</Effect>
@@ -233,7 +231,61 @@
 
 		<!-- Spider Summoning End -->
 
-		
+		<SpellInfo>			<!-- Smear Poison -->
+			<Type>SPELL_SMEAR_POISON</Type>
+			<Description>TXT_KEY_SPELL_SMEAR_POISON</Description>
+			<Civilopedia>TXT_KEY_SPELL_SMEAR_POISON_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_SMEAR_POISON_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<TechPrereq>TECH_EXPLORATION</TechPrereq>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
+			<UnitInStackPrereq>UNIT_BABY_SPIDER</UnitInStackPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bHasCasted>0</bHasCasted>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_POISONED_BLADE</AddPromotion>
+			</AddPromotions>
+			<PyResult>spellSmearPoison(pCaster)</PyResult>
+			<PyRequirement>reqSmearPoison(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Smear_Poison.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Cannibalize -->
+			<Type>SPELL_CANNIBALIZE</Type>
+			<Description>TXT_KEY_SPELL_CANNIBALIZE</Description>
+			<Civilopedia>TXT_KEY_SPELL_CANNIBALIZE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_CANNIBALIZE_HELP</Help>
+			<UnitInStackPrereq>UNIT_BABY_SPIDER</UnitInStackPrereq>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>10</iAIWeight>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellCannibalize(pCaster)</PyResult>
+			<PyRequirement>reqCannibalize(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_UN_SPIDER_SILK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Cannibalize.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Survival of the Fittest -->
+			<Type>SPELL_SURVIVAL_OF_THE_FITTEST</Type>
+			<Description>TXT_KEY_SPELL_SURVIVAL_OF_THE_FITTEST</Description>
+			<Civilopedia>TXT_KEY_SPELL_SURVIVAL_OF_THE_FITTEST_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_SURVIVAL_OF_THE_FITTEST_HELP</Help>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellSurvivalOfTheFittest(pCaster)</PyResult>
+			<PyRequirement>reqSurvivalOfTheFittest(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_UN_SPIDER_SILK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Survival_of_the_Fittest.dds</Button>
+		</SpellInfo>
 
 		<!-- Arachnomancy Start -->
 
@@ -416,50 +468,6 @@
 		</SpellInfo>
 
 		<!-- Arachnomancy End -->
-
-		<SpellInfo>			<!-- Smear Poison -->
-			<Type>SPELL_SMEAR_POISON</Type>
-			<Description>TXT_KEY_SPELL_SMEAR_POISON</Description>
-			<Civilopedia>TXT_KEY_SPELL_SMEAR_POISON_PEDIA</Civilopedia>
-			<Help>TXT_KEY_SPELL_SMEAR_POISON_HELP</Help>
-			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
-			<TechPrereq>TECH_EXPLORATION</TechPrereq>
-			<SpellClasses>
-				<SpellClass>
-					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
-					<bSpellClass>1</bSpellClass>
-				</SpellClass>
-			</SpellClasses>
-			<UnitInStackPrereq>UNIT_BABY_SPIDER</UnitInStackPrereq>
-			<bAllowAI>1</bAllowAI>
-			<bHasCasted>0</bHasCasted>
-			<bIgnoreHasCasted>1</bIgnoreHasCasted>
-			<bBuffCasterOnly>1</bBuffCasterOnly>
-			<AddPromotions>
-				<AddPromotion>PROMOTION_POISONED_BLADE</AddPromotion>
-			</AddPromotions>
-			<PyResult>spellSmearPoison(pCaster)</PyResult>
-			<PyRequirement>reqSmearPoison(pCaster)</PyRequirement>
-			<Effect>EFFECT_SPELL1</Effect>
-			<Sound>AS3D_SWORD_CHECK</Sound>
-			<Button>Art/Modules/Arachnophobia/Buttons/Smear_Poison.dds</Button>
-		</SpellInfo>
-		
-		<SpellInfo>			<!-- Cannibalize -->
-			<Type>SPELL_CANNIBALIZE</Type>
-			<Description>TXT_KEY_SPELL_CANNIBALIZE</Description>
-			<Civilopedia>TXT_KEY_SPELL_CANNIBALIZE_PEDIA</Civilopedia>
-			<Help>TXT_KEY_SPELL_CANNIBALIZE_HELP</Help>
-			<UnitInStackPrereq>UNIT_BABY_SPIDER</UnitInStackPrereq>
-			<bAllowAI>1</bAllowAI>
-			<iAIWeight>10</iAIWeight>
-			<bHasCasted>1</bHasCasted>
-			<PyResult>spellCannibalize(pCaster)</PyResult>
-			<PyRequirement>reqCannibalize(pCaster)</PyRequirement>
-			<Effect>EFFECT_SPELL1</Effect>
-			<Sound>AS3D_UN_SPIDER_SILK</Sound>
-			<Button>Art/Modules/Arachnophobia/Buttons/Cannibalize.dds</Button>
-		</SpellInfo>
 
 		<SpellInfo>			<!-- Mount Spider (Huntress) -->
 			<Type>SPELL_MOUNT_SPIDER_HUNTRESS</Type>

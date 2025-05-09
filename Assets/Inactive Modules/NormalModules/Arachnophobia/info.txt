@@ -26,8 +26,8 @@ Mechanics:
 	Strong promotion is granted to spiders at capital >= size 20 instead of size 16.
 	Leaders with Spiderkin trait gives the Spiderkin promotion to spawned spiders at capital >= size 12 instead of size 9.
 
-	Spiders can now be upgraded to Giant Spiders at capital size 8, but consumes another Spider in the process.
-	Giant Spiders of variant GREEN and GREY can now be upgraded to Spider Behemoths at level 8 and capital size 16, but consumes another Giant Spider in the process.
+	Spiders can now be upgraded to Giant Spiders at capital size 8.
+	Giant Spiders of variant GREEN and GREY can now be upgraded to Spider Behemoths at level 8 and capital size 16.
 
 	All spiders now gain 5 BA after combat, win or lose.
 	Each type of controlled pasture meat resource (cow, horse, hyapon, camel, pig, sheep, nightmare) gives 5% more BA gain per turn, up to 35%.
@@ -37,7 +37,9 @@ Spells:
 	Renamed Diet of Worms to Arachnophagy.
 
 	Call Spider can now only be cast in a player owned city of size >= 8.
-	Call Giant Spider can now only be cast in a player owned city of size >= 16. Cost increased to 200 BA.
+	Call Giant Spider can now only be cast in a player owned city of size >= 16.
+
+	Added Survival of the Fittest, where a Spider or Giant Spider can consume a Spider to gain 3 exp.
 
 	Arachnophagy now requires Arachnomancy I and sacrifices 10 Baby Spiders in the stack instead of 100 BA.
 	Symbiotic Communion now requires Arachnomancy II and sacrifices 20 Baby Spiders in the stack (in addition to the variant spider).
@@ -68,6 +70,10 @@ Promotions:
 
 Units:
 	Added Arachnid Avatar, a permanent summon which can "Amalgamate" with 10 Baby Spiders to recover 10% health, gain one stack of "Amalgamation" (+10% strength), and allow it to attack again.
+
+Buildings:
+	Renamed Diet of Worms to Arachnophagy.
+	Arachnophagy now causes 6 unhealthiness instead of 8.
 
 Improvements:
 	Fixed bug where Infest Fortress slows down in forests.

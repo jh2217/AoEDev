@@ -99,10 +99,6 @@ def CheckOwnUnitsExistInCasterTile(caster, amount=1, unitType='', withPromo='', 
 
 
 # Spider Upgrading Spells Start
-def spellSpiderUpgradeToGiant(caster):
-	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_SPIDER')
-	if pVictim != -1:
-		pVictim.kill(True, 0)
 
 
 def reqSpiderUpgradeToGiant(caster):
@@ -111,14 +107,8 @@ def reqSpiderUpgradeToGiant(caster):
 		pNest = pPlayer.getCapitalCity()
 		iNestPop = pNest.getPopulation()
 		if iNestPop >= 8:
-			return CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_SPIDER')
+			return True
 	return False
-
-
-def spellGiantSpiderUpgradeToBehemoth(caster):
-	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_GIANT_SPIDER')
-	if pVictim != -1:
-		pVictim.kill(True, 0)
 
 
 def reqGiantSpiderUpgradeToBehemoth(caster):
@@ -131,7 +121,7 @@ def reqGiantSpiderUpgradeToBehemoth(caster):
 		pNest = pPlayer.getCapitalCity()
 		iNestPop = pNest.getPopulation()
 		if iNestPop >= 16:
-			return CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_GIANT_SPIDER')
+			return True
 	return False
 # Spider Upgrading Spells End
 
@@ -223,7 +213,7 @@ def spellCallGiantSpider(caster):
 	spawnUnit.finishMoves()
 	
 	iBroodActivity = pPlayer.getCivCounter()
-	iCost = 20000
+	iCost = 15000
 	pPlayer.setCivCounter(iBroodActivity - iCost)
 
 
@@ -232,7 +222,7 @@ def reqCallGiantSpider(caster):
 	pCity = pPlot.getPlotCity()
 	pPlayer = gc.getPlayer(caster.getOwner())
 
-	return pCity.getPopulation() >= 16 and pPlayer.getCivCounter() >= 20000
+	return pCity.getPopulation() >= 16 and pPlayer.getCivCounter() >= 15000
 # Spider Summoning Spells End
 
 
@@ -249,7 +239,7 @@ def reqSmearPoison(caster):
 	if caster.getUnitCombatType()==-1: return False
 	if not pPoisonedBlade.getUnitCombat(caster.getUnitCombatType()): return False
 	
-	return CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_BABY_SPIDER')
+	return True
 	
 
 def spellCannibalize(caster):
@@ -264,7 +254,21 @@ def reqCannibalize(caster):
 	if caster.getUnitType() not in eligibleUnits: return False
 	if caster.getDamage() == 0: return False
 	
-	return CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_BABY_SPIDER')
+	return True
+	
+
+def spellSurvivalOfTheFittest(caster):
+	caster.changeExperience(2, -1, False, False, False)
+	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_SPIDER')
+	if pVictim != -1:
+		pVictim.kill(True, 0)
+
+
+def reqSurvivalOfTheFittest(caster):
+	eligibleUnits = [getInfoType('UNIT_SPIDER'), getInfoType('UNIT_GIANT_SPIDER')]
+	if caster.getUnitType() not in eligibleUnits: return False
+	
+	return CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_SPIDER')
 
 
 def onMoveMazeOfWebs(caster, pPlot):
