@@ -3664,7 +3664,8 @@ class CvEventManager:
 		if hasTrait(Trait["Spiderkin"]):
 			pNest = pPlayer.getCapitalCity()
 			iNestPop = pNest.getPopulation()
-			if iNestPop >= 15: setPromo(Promo["Spiderkin"], True)
+			spiderUnits = [getInfoType('UNIT_BABY_SPIDER'), getInfoType('UNIT_SPIDER'), getInfoType('UNIT_GIANT_SPIDER'), getInfoType('UNIT_NESTING_SPIDER'), getInfoType('UNIT_MOTHER_SPIDER')]
+			if iNestPop >= 15 and pUnit.getUnitType() not in spiderUnits: setPromo(Promo["Spiderkin"], True)
 
 		if iUnitType == ScorpClan["Whelp"]:
 			GoblinChoice = [(ScorpClan["Goblin"], 10)]
