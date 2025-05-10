@@ -332,8 +332,8 @@
 			<bAllowAI>0</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>0</bHasCasted>
-			<PyResult>spellCommunion(pCaster,1)</PyResult>
-			<PyRequirement>reqCommunion(pCaster,1)</PyRequirement>
+			<PyResult>spellCommunion(pCaster,'PROMOTION_SPIDER_ARGYRONETA')</PyResult>
+			<PyRequirement>reqCommunion(pCaster,'PROMOTION_SPIDER_ARGYRONETA')</PyRequirement>
 			<Effect>EFFECT_SPELL2</Effect>
 			<Sound>AS3D_DEMON_WOUND</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Sapphire.dds</Button>
@@ -352,8 +352,8 @@
 			<bAllowAI>0</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>0</bHasCasted>
-			<PyResult>spellCommunion(pCaster,2)</PyResult>
-			<PyRequirement>reqCommunion(pCaster,2)</PyRequirement>
+			<PyResult>spellCommunion(pCaster,'PROMOTION_SPIDER_VENENUM')</PyResult>
+			<PyRequirement>reqCommunion(pCaster,'PROMOTION_SPIDER_VENENUM')</PyRequirement>
 			<Effect>EFFECT_SPELL2</Effect>
 			<Sound>AS3D_DEMON_WOUND</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Emerald.dds</Button>
@@ -372,8 +372,8 @@
 			<bAllowAI>0</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>0</bHasCasted>
-			<PyResult>spellCommunion(pCaster,3)</PyResult>
-			<PyRequirement>reqCommunion(pCaster,3)</PyRequirement>
+			<PyResult>spellCommunion(pCaster,'PROMOTION_SPIDER_MUCRO')</PyResult>
+			<PyRequirement>reqCommunion(pCaster,'PROMOTION_SPIDER_MUCRO')</PyRequirement>
 			<Effect>EFFECT_SPELL2</Effect>
 			<Sound>AS3D_DEMON_WOUND</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Diamond.dds</Button>
@@ -392,8 +392,8 @@
 			<bAllowAI>0</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>0</bHasCasted>
-			<PyResult>spellCommunion(pCaster,4)</PyResult>
-			<PyRequirement>reqCommunion(pCaster,4)</PyRequirement>
+			<PyResult>spellCommunion(pCaster,'PROMOTION_SPIDER_RHAGODESSA')</PyResult>
+			<PyRequirement>reqCommunion(pCaster,'PROMOTION_SPIDER_RHAGODESSA')</PyRequirement>
 			<Effect>EFFECT_SPELL2</Effect>
 			<Sound>AS3D_DEMON_WOUND</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Ruby.dds</Button>
@@ -412,8 +412,8 @@
 			<bAllowAI>0</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>0</bHasCasted>
-			<PyResult>spellCommunion(pCaster,5)</PyResult>
-			<PyRequirement>reqCommunion(pCaster,5)</PyRequirement>
+			<PyResult>spellCommunion(pCaster,'PROMOTION_SPIDER_TEXTUS')</PyResult>
+			<PyRequirement>reqCommunion(pCaster,'PROMOTION_SPIDER_TEXTUS')</PyRequirement>
 			<Effect>EFFECT_SPELL2</Effect>
 			<Sound>AS3D_DEMON_WOUND</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Topaz.dds</Button>

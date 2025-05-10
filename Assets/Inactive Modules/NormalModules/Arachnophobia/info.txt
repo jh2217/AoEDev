@@ -20,6 +20,9 @@ By: @LeastCraft
 Traits:
 	Spiderkin 1 trait changed to grant Strong promotion to all spiders at capital >= size 8. No longer grants Spiderkin promotion to anyone.
 
+Spells:
+	Symbiotic Communion spells grant a buffed version of the base game Mutation instead of special spider mutations.
+
 Promotions:
 	Spiderkin promotion changed to:
 		1. Racial promotion
@@ -28,6 +31,9 @@ Promotions:
 		4. +20% vs Poisoned enemies
 		5. Better chances of good results from Spider Dens
 	Spiderkin is now the racial promotion of Archos instead of Poison Resistance.
+
+	Removed Venom Secretion, Jointed Limbs, Chitin Carapace, Trail Pheromone, Spitter Gland.
+	Spider variants grant a buffed version of the base game Mutation to newly created units instead.
 
 	Removed collateral damage part of swarming promotions to avoid confusion.
 	Swarming II now additionally grants 10% Defensive Strike chance and 5% Defensive Strike damage.

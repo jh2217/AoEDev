@@ -240,7 +240,6 @@ def reqSmearPoison(caster):
 	iPoisonedBlade = getInfoType('PROMOTION_POISONED_BLADE')
 	pPoisonedBlade = gc.getPromotionInfo(iPoisonedBlade)
 	if caster.isHasPromotion(iPoisonedBlade): return False
-	if caster.getUnitCombatType()==-1: return False
 	if not pPoisonedBlade.getUnitCombat(caster.getUnitCombatType()): return False
 	
 	return True
@@ -395,31 +394,21 @@ def reqArachnophagy(caster):
 	return CheckOwnUnitsExistInCasterTile(caster, amount=10, unitType='UNIT_BABY_SPIDER')
 
 
-def spellCommunion(caster, spider_type):
+spiderMutationDict = {
+	'PROMOTION_SPIDER_ARGYRONETA' : ['PROMOTION_MUTATION_HEALING', 'PROMOTION_MUTATION_HEALING_COMBAT'],
+	'PROMOTION_SPIDER_VENENUM' : ['PROMOTION_MUTATION_DEFENSIVE_STRIKE', 'PROMOTION_MUTATION_DEFENSIVE_STRIKE'],
+	'PROMOTION_SPIDER_MUCRO': ['PROMOTION_MUTATION_STRENGTH_DEFENSE'],
+	'PROMOTION_SPIDER_RHAGODESSA': ['PROMOTION_MUTATION_STRENGTH_ATTACK'],
+	'PROMOTION_SPIDER_TEXTUS': ['PROMOTION_MUTATION_FIRST_STRIKE', 'PROMOTION_MUTATION_FIRST_STRIKE_CHANCE']
+}
+
+
+def spellCommunion(caster, spiderVariant):
 	babyVictims = CountBabySpidersAndLog(caster, 20, 'Art/Modules/Arachnophobia/Buttons/SymbioticCommunion.dds')
 	if not babyVictims:
 		return
 	
-	iSpiderVariant = ''
-	iMutation = ''
-
-	if spider_type == 1:
-		iSpiderVariant = 'PROMOTION_SPIDER_ARGYRONETA'
-		iMutation = 'PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE'
-	if spider_type == 2:
-		iSpiderVariant = 'PROMOTION_SPIDER_VENENUM'
-		iMutation = 'PROMOTION_SPIDERMUTATION_SPITTER_GLAND'
-	if spider_type == 3:
-		iSpiderVariant = 'PROMOTION_SPIDER_MUCRO'
-		iMutation = 'PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE'
-	if spider_type == 4:
-		iSpiderVariant = 'PROMOTION_SPIDER_RHAGODESSA'
-		iMutation = 'PROMOTION_SPIDERMUTATION_VENOM_SECRETION'
-	if spider_type == 5:
-		iSpiderVariant = 'PROMOTION_SPIDER_TEXTUS'
-		iMutation = 'PROMOTION_SPIDERMUTATION_JOINTED_LIMBS'
-	
-	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_SPIDER', withPromo=iSpiderVariant)
+	pVictim = GetWorstOwnUnitsInCasterTile(caster, unitType='UNIT_SPIDER', withPromo=spiderVariant)
 	if pVictim != -1:
 		pVictim.kill(True, 0)
 		
@@ -427,30 +416,20 @@ def spellCommunion(caster, spider_type):
 			pVictim.kill(True, 0)
 
 		#Grant Mutation
-		iMelee = getInfoType('UNITCOMBAT_MELEE')
-		iRecon = getInfoType('UNITCOMBAT_RECON')
+		iMutated = getInfoType('PROMOTION_MUTATED')
+		pMutated = gc.getPromotionInfo(iMutated)
+		Mutations = spiderMutationDict[spiderVariant]
 
 		pPlot = caster.plot()
 		for i in range(pPlot.getNumUnits()):
 			pUnit = pPlot.getUnit(i)
-			if pUnit.getUnitCombatType() == iMelee or pUnit.getUnitCombatType() == iRecon:
-				pUnit.setHasPromotion(getInfoType(iMutation), True)
+			if not pUnit.isHasPromotion(iMutated) and pMutated.getUnitCombat(pUnit.getUnitCombatType()):
+				for mutation in Mutations:
+					pUnit.setHasPromotion(getInfoType(mutation), True)
+				pUnit.setHasPromotion(iMutated, True)
 
 
-def reqCommunion(caster, spider_type):
-	iSpiderVariant = ''
-	
-	if spider_type == 1:
-		iSpiderVariant = 'PROMOTION_SPIDER_ARGYRONETA'
-	if spider_type == 2:
-		iSpiderVariant = 'PROMOTION_SPIDER_VENENUM'
-	if spider_type == 3:
-		iSpiderVariant = 'PROMOTION_SPIDER_MUCRO'
-	if spider_type == 4:
-		iSpiderVariant = 'PROMOTION_SPIDER_RHAGODESSA'
-	if spider_type == 5:
-		iSpiderVariant = 'PROMOTION_SPIDER_TEXTUS'
-	
+def reqCommunion(caster, iSpiderVariant):
 	bBabySpidersInTile = CheckOwnUnitsExistInCasterTile(caster, amount=10, unitType='UNIT_BABY_SPIDER')
 	bVariantSpiderInTile = CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_SPIDER', withPromo=iSpiderVariant)
 	return bBabySpidersInTile and bVariantSpiderInTile

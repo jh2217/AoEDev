@@ -324,27 +324,27 @@
 
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA_HELP</Tag>
-		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city</English>
-		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city</French>
-		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city</German>
-		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city</Italian>
-		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] to newly created melee and recon units in the city</Spanish>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat to newly created units in the city</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat to newly created units in the city</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat to newly created units in the city</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat to newly created units in the city</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat to newly created units in the city</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_VENENUM_HELP</Tag>
-		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city</English>
-		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city</French>
-		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city</German>
-		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city</Italian>
-		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] to newly created melee and recon units in the city</Spanish>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage to newly created units in the city</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage to newly created units in the city</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage to newly created units in the city</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage to newly created units in the city</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage to newly created units in the city</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Tag>
-		<English>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city</English>
-		<French>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city</French>
-		<German>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city</German>
-		<Italian>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city</Italian>
-		<Spanish>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] to newly created melee and recon units in the city</Spanish>
+		<English>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength to newly created units in the city</English>
+		<French>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength to newly created units in the city</French>
+		<German>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength to newly created units in the city</German>
+		<Italian>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength to newly created units in the city</Italian>
+		<Spanish>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength to newly created units in the city</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_GREATER_HELP</Tag>
@@ -356,60 +356,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Tag>
-		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city</English>
-		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city</French>
-		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city</German>
-		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city</Italian>
-		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] to newly created melee and recon units in the city</Spanish>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength to newly created units in the city</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength to newly created units in the city</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength to newly created units in the city</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength to newly created units in the city</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength to newly created units in the city</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Tag>
-		<English>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city</English>
-		<French>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city</French>
-		<German>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city</German>
-		<Italian>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city</Italian>
-		<Spanish>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] to newly created melee and recon units in the city</Spanish>
-	</TEXT>
-
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE</Tag>
-		<English>Spider Mutation - Trail Pheromone</English>
-		<French>Spider Mutation - Trail Pheromone</French>
-		<German>Spider Mutation - Trail Pheromone</German>
-		<Italian>Spider Mutation - Trail Pheromone</Italian>
-		<Spanish>Spider Mutation - Trail Pheromone</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_SPITTER_GLAND</Tag>
-		<English>Spider Mutation - Spitter Gland</English>
-		<French>Spider Mutation - Spitter Gland</French>
-		<German>Spider Mutation - Spitter Gland</German>
-		<Italian>Spider Mutation - Spitter Gland</Italian>
-		<Spanish>Spider Mutation - Spitter Gland</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE</Tag>
-		<English>Spider Mutation - Chitin Carapace</English>
-		<French>Spider Mutation - Chitin Carapace</French>
-		<German>Spider Mutation - Chitin Carapace</German>
-		<Italian>Spider Mutation - Chitin Carapace</Italian>
-		<Spanish>Spider Mutation - Chitin Carapace</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_VENOM_SECRETION</Tag>
-		<English>Spider Mutation - Venom Secretion</English>
-		<French>Spider Mutation - Venom Secretion</French>
-		<German>Spider Mutation - Venom Secretion</German>
-		<Italian>Spider Mutation - Venom Secretion</Italian>
-		<Spanish>Spider Mutation - Venom Secretion</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_JOINTED_LIMBS</Tag>
-		<English>Spider Mutation - Jointed Limbs</English>
-		<French>Spider Mutation - Jointed Limbs</French>
-		<German>Spider Mutation - Jointed Limbs</German>
-		<Italian>Spider Mutation - Jointed Limbs</Italian>
-		<Spanish>Spider Mutation - Jointed Limbs</Spanish>
+		<English>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</English>
+		<French>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</French>
+		<German>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</German>
+		<Italian>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</Italian>
+		<Spanish>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</Spanish>
 	</TEXT>
 	
 	<TEXT>
@@ -455,43 +414,43 @@
 	
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a blue spider to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] on all melee and recon units in stack</English>
-		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a blue spider to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] on all melee and recon units in stack</French>
-		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a blue spider to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] on all melee and recon units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a blue spider to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] on all melee and recon units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a blue spider to grant [LINK=PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE]Spider Mutation - Trail Pheromone[\LINK] on all melee and recon units in stack</Spanish>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RITE_EMERALD_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a green spider to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] on all melee and recon units in stack</English>
-		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a green spider to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] on all melee and recon units in stack</French>
-		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a green spider to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] on all melee and recon units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a green spider to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] on all melee and recon units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a green spider to grant [LINK=PROMOTION_SPIDERMUTATION_SPITTER_GLAND]Spider Mutation - Spitter Gland[\LINK] on all melee and recon units in stack</Spanish>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RITE_DIAMOND_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a grey spider to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] on all melee and recon units in stack</English>
-		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a grey spider to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] on all melee and recon units in stack</French>
-		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a grey spider to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] on all melee and recon units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a grey spider to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] on all melee and recon units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a grey spider to grant [LINK=PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE]Spider Mutation - Chitin Carapace[\LINK] on all melee and recon units in stack</Spanish>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RITE_RUBY_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a red spider to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] on all melee and recon units in stack</English>
-		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a red spider to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] on all melee and recon units in stack</French>
-		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a red spider to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] on all melee and recon units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a red spider to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] on all melee and recon units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a red spider to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Venom Secretion[\LINK] on all melee and recon units in stack</Spanish>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RITE_TOPAZ_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a yellow spider to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] on all melee and recon units in stack</English>
-		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a yellow spider to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] on all melee and recon units in stack</French>
-		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a yellow spider to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] on all melee and recon units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a yellow spider to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] on all melee and recon units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a yellow spider to grant [LINK=PROMOTION_SPIDERMUTATION_VENOM_SECRETION]Spider Mutation - Jointed Limbs[\LINK] on all melee and recon units in stack</Spanish>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack</Spanish>
 	</TEXT>
 
 	<TEXT>
