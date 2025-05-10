@@ -278,9 +278,9 @@
 			<iCost>-1</iCost>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMoves>1</iMoves>
-			<iCombat>4</iCombat>
-			<iFirstStrikes>2</iFirstStrikes>
-			<iChanceFirstStrikes>2</iChanceFirstStrikes>
+			<iCombat>3</iCombat>
+			<iFirstStrikes>1</iFirstStrikes>
+			<iChanceFirstStrikes>1</iChanceFirstStrikes>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -324,12 +324,6 @@
 			</FreePromotions>
 			<PythonPostCombatLost>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatLost>
 			<PythonPostCombatWon>spiderCombatBAGain(pCaster,pOpponent)</PythonPostCombatWon>
-			<DamageTypeCombats>
-				<DamageTypeCombat>
-					<DamageType>DAMAGE_POISON</DamageType>
-					<iCombat>1</iCombat>
-				</DamageTypeCombat>
-			</DamageTypeCombats>
 			<bFreeXP>1</bFreeXP>
 			<UnitCreateFromCombat>UNIT_BABY_SPIDER</UnitCreateFromCombat>
 			<iUnitCreateFromCombatChance>25</iUnitCreateFromCombatChance>

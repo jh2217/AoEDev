@@ -17,16 +17,22 @@ tweaks to archos civ
 v1.11
 By: @LeastCraft
 
-Promotions:
-	Spiderkin promotion changed to:
-		1. Block promotions Bronze Weapon, Iron Weapon, Mithril Weapon and Rusted
-		2. +50% poison resistance
-		3. +20% vs Poisoned enemies
-		4. Better chances of good results from Spider Dens
-	Spiderkin is now the racial promotion of Archos instead of Poison Resistance.
-
 Traits:
 	Spiderkin 1 trait changed to grant Strong promotion to all spiders at capital >= size 8. No longer grants Spiderkin promotion to anyone.
+
+Promotions:
+	Spiderkin promotion changed to:
+		1. Racial promotion
+		2. Block promotions Bronze Weapon, Iron Weapon, Mithril Weapon and Rusted
+		3. +50% poison resistance
+		4. +20% vs Poisoned enemies
+		5. Better chances of good results from Spider Dens
+	Spiderkin is now the racial promotion of Archos instead of Poison Resistance.
+
+	Spider Combat changed to allow Nesting Spider to take the Combat and Barrage lines of promotions and exclude Spiderkin racial promotion.
+
+Units:
+	Nesting Spider strength reduced from 4+1 poison to 3, first strikes reduced from 2-4 to 1-2.
 
 
 v1.10

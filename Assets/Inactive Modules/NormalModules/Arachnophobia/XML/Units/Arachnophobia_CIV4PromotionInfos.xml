@@ -59,6 +59,42 @@
 			<Button>Art/Modules/Arachnophobia/Buttons/GrowthSpurts.dds</Button>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
+		<PromotionInfo>		<!-- Spider Combat -->
+			<Type>PROMOTION_SPIDERCOMBAT</Type>
+			<Description>TXT_KEY_PROMOTION_COMBATSIEGE</Description>
+			<bEffectProm>1</bEffectProm>
+			<PromotionAllows>
+				<Promotion>PROMOTION_DRILL3</Promotion>
+				<Promotion>PROMOTION_DRILL4</Promotion>
+				<Promotion>PROMOTION_COMBAT1</Promotion>
+				<Promotion>PROMOTION_COMBAT2</Promotion>
+				<Promotion>PROMOTION_COMBAT3</Promotion>
+				<Promotion>PROMOTION_COMBAT4</Promotion>
+				<Promotion>PROMOTION_COMBAT5</Promotion>
+			</PromotionAllows>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_ASSAULT1</Promotion>
+				<Promotion>PROMOTION_ACCURACY</Promotion>
+				<Promotion>PROMOTION_COMMANDER1</Promotion>
+				<Promotion>PROMOTION_SPIDERKIN</Promotion>
+			</PromotionExcludes>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<PromotionSummonPerk>PROMOTION_MOBILITY1</PromotionSummonPerk>
+			<PromotionCombatMods>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_SUBDUE_ANIMAL</PromotionType>
+					<iCombatMod>-25</iCombatMod>
+				</PromotionCombatMod>
+			</PromotionCombatMods>
+			<iMinLevel>-1</iMinLevel>
+			<Button>,Art/Interface/Buttons/Promotions/combatsiege1.dds</Button>
+			<bForceOverwrite>1</bForceOverwrite>
+		</PromotionInfo>
 		<PromotionInfo>			<!-- Fort Spider I -->
 			<Type>PROMOTION_FORTSPIDER1</Type>
 			<PromotionBuilds>
