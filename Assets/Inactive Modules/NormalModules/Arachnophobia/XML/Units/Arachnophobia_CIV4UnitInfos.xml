@@ -477,8 +477,8 @@
 			<PrereqTech>TECH_RAGE</PrereqTech>
 			<iCost>240</iCost>
 			<iMoves>1</iMoves>
-			<iCombat>11</iCombat>
-			<iCombatDefense>5</iCombatDefense>
+			<iCombat>14</iCombat>
+			<iCombatDefense>7</iCombatDefense>
 			<iFirstStrikes>2</iFirstStrikes>
 			<iChanceFirstStrikes>2</iChanceFirstStrikes>
 			<iCollateralDamage>40</iCollateralDamage>
@@ -544,8 +544,8 @@
 			<PrereqTech>TECH_DIVINE_ESSENCE</PrereqTech>
 			<iCost>240</iCost>
 			<iMoves>1</iMoves>
-			<iCombat>12</iCombat>
-			<iCombatDefense>7</iCombatDefense>
+			<iCombat>15</iCombat>
+			<iCombatDefense>9</iCombatDefense>
 			<iFirstStrikes>2</iFirstStrikes>
 			<iChanceFirstStrikes>2</iChanceFirstStrikes>
 			<iCollateralDamage>20</iCollateralDamage>
