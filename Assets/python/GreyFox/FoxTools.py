@@ -2496,8 +2496,8 @@ class FoxTools:
 		Lair["Griffin Weyr"] 		= git('IMPROVEMENT_GRIFFIN_WEYR')
 		Lair["Hippogriffin Weyr"] 	= git('IMPROVEMENT_HIPPOGRIFF_WEYR')
 		Lair["Ruins"] 				= git('IMPROVEMENT_RUINS')
-		Lair["Spider Den"] 			= git('IMPROVEMENT_DEN_SPIDER')
-		Lair["Wolf Den"] 			= git('IMPROVEMENT_DEN_WOLF')
+		Lair["Spider Den"] 			= git('IMPROVEMENT_SPIDER_DEN')
+		Lair["Wolf Den"] 			= git('IMPROVEMENT_WOLF_DEN')
 		self.Lairs = Lair
 
 	def getCivImprovementDict(self):

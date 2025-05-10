@@ -4507,9 +4507,9 @@
 			</GuardianPromotions>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Wolf Den -->
-			<Type>IMPROVEMENT_DEN_WOLF</Type>
-			<Description>TXT_KEY_IMPROVEMENT_DEN_WOLF</Description>
-			<ArtDefineTag>ART_DEF_IMPROVEMENT_DEN_WOLF</ArtDefineTag>
+			<Type>IMPROVEMENT_WOLF_DEN</Type>
+			<Description>TXT_KEY_IMPROVEMENT_WOLF_DEN</Description>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_WOLF_DEN</ArtDefineTag>
 			<bRequiresFlatlands>1</bRequiresFlatlands>
 			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
@@ -4539,7 +4539,7 @@
 			<iLairCreationWeight>60</iLairCreationWeight>
 		</ImprovementInfo>
 		<ImprovementInfo><!-- Spider Den -->
-			<Type>IMPROVEMENT_DEN_SPIDER</Type>
+			<Type>IMPROVEMENT_SPIDER_DEN</Type>
 			<Description>TXT_KEY_IMPROVEMENT_SPIDER_DEN</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_SPIDER_DEN</ArtDefineTag>
