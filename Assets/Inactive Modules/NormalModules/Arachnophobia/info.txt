@@ -29,6 +29,10 @@ Promotions:
 		5. Better chances of good results from Spider Dens
 	Spiderkin is now the racial promotion of Archos instead of Poison Resistance.
 
+	Removed collateral damage part of swarming promotions to avoid confusion.
+	Swarming II now additionally grants 10% Defensive Strike chance and 5% Defensive Strike damage.
+	Swarming III now grants +20% withdrawal chance instead of defensive strikes.
+
 	Spider Combat changed to allow Nesting Spider to take the Combat and Barrage lines of promotions and exclude Spiderkin racial promotion.
 
 Units:
@@ -79,8 +83,8 @@ Promotions:
 	Added Venenum Behemoth, which grants +2 strength, +2 ranged combat and Blitz.
 	Added Mucro Behemoth, which grants +2 strength and +50% vs Recon units.
 
-	Swarming III now grants 10% Defensive Strike chance and 5% Defensive Strike damage.
-	Swarming IV now grants Target Weakest Unit.
+	Swarming III now additionally grants 10% Defensive Strike chance and 5% Defensive Strike damage.
+	Swarming IV now additionally grants Target Weakest Unit.
 
 	Added Arachnomancy I, auto-acquired by Archosian units with Channeling I. Grants +20% withdrawal chance when starting turn with >= 10 Baby Spiders in the same tile.
 	Added Arachnomancy II, auto-acquired by Archosian units with Channeling II. Grants +20% withdrawal chance and +20% collateral damage protection when starting turn with >= 20 Baby Spiders in the same tile.

@@ -169,7 +169,6 @@
 			<Type>PROMOTION_SWARMING1</Type>
 			<Description>TXT_KEY_PROMOTION_SWARMING1</Description>
 			<iCombatPercent>25</iCombatPercent>
-			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
 			<bMustMaintain>1</bMustMaintain>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
@@ -189,7 +188,8 @@
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
 			<iCombatPercent>25</iCombatPercent>
-			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
+			<iDefensiveStrikeChance>10</iDefensiveStrikeChance>
+			<iDefensiveStrikeDamage>5</iDefensiveStrikeDamage>
 			<bMustMaintain>1</bMustMaintain>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
@@ -209,9 +209,7 @@
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
 			<iCombatPercent>25</iCombatPercent>
-			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
-			<iDefensiveStrikeChance>10</iDefensiveStrikeChance>
-			<iDefensiveStrikeDamage>5</iDefensiveStrikeDamage>
+			<iWithdrawalChange>20</iWithdrawalChange>
 			<bMustMaintain>1</bMustMaintain>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
@@ -231,7 +229,6 @@
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
 			<iCombatPercent>25</iCombatPercent>
-			<iCollateralDamageProtection>-25</iCollateralDamageProtection>
 			<bTargetWeakestUnit>1</bTargetWeakestUnit>
 			<bMustMaintain>1</bMustMaintain>
 			<PrereqUnits>
