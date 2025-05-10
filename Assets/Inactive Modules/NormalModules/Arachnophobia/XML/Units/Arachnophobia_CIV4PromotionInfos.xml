@@ -188,8 +188,6 @@
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
 			<iCombatPercent>25</iCombatPercent>
-			<iDefensiveStrikeChance>10</iDefensiveStrikeChance>
-			<iDefensiveStrikeDamage>5</iDefensiveStrikeDamage>
 			<bMustMaintain>1</bMustMaintain>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
@@ -209,7 +207,6 @@
 				</PrereqPromotionAND>
 			</PrereqPromotionANDs>
 			<iCombatPercent>25</iCombatPercent>
-			<iWithdrawalChange>20</iWithdrawalChange>
 			<bMustMaintain>1</bMustMaintain>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_BABY_SPIDER</PrereqUnit>
