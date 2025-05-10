@@ -14,6 +14,20 @@ LeastCraft
 tweaks to archos civ
 
 
+v1.11
+By: @LeastCraft
+
+Promotions:
+	Spiderkin promotion changed to:
+		1. Block promotions Bronze Weapon, Iron Weapon, Mithril Weapon and Rusted
+		2. +20% vs Poisoned enemies
+		3. +50% poison resistance
+	Spiderkin is now the racial promotion of Archos instead of Poison Resistance.
+
+Traits:
+	Spiderkin 1 trait changed to grant Strong promotion to all spiders at capital >= size 8. No longer grants Spiderkin promotion to anyone.
+
+
 v1.10
 By: @LeastCraft
 
@@ -23,7 +37,7 @@ Graphics:
 Mechanics:
 	Condition for natural Spider spawn changed to: capital >= size 8 and BA >= 500
 	Condition for natural Giant Spider spawn changed to: capital >= size 16 and BA >= 1000
-	Strong promotion is granted to spiders at capital >= size 20 instead of size 16.
+	Strong promotion is granted to spiders at capital >= size 24 instead of size 16.
 	Leaders with Spiderkin trait gives the Spiderkin promotion to spawned spiders at capital >= size 12 instead of size 9.
 
 	Spiders can now be upgraded to Giant Spiders at capital size 8.
@@ -79,6 +93,7 @@ Improvements:
 	Fixed bug where Infest Fortress slows down in forests.
 	Feeding Pen can now improve more meat resources (in total: bison, cow, camel, deer, arctic deer, fur, horse, hyapon, ivory, nightmare, pig, sheep, toad).
 	Feeding Pen loses default yield of 1 Food and additional yield of 1 Food at Animal Handling, but gains additional yield of 1 Food at Hunting.
+
 
 v1.9
 By: @LeastCraft

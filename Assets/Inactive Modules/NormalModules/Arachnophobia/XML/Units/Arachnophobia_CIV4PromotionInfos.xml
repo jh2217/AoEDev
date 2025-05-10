@@ -12,15 +12,36 @@
 		</PromotionInfo>
 		<PromotionInfo>			<!-- Spiderkin -->
 			<Type>PROMOTION_SPIDERKIN</Type>
+			<Description>TXT_KEY_PROMOTION_SPIDERKIN</Description>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_BRONZE_WEAPONS</Promotion>
+				<Promotion>PROMOTION_IRON_WEAPONS</Promotion>
+				<Promotion>PROMOTION_MITHRIL_WEAPONS</Promotion>
+				<Promotion>PROMOTION_RUSTED</Promotion>
+			</PromotionExcludes>
+			<PromotionCombatMods>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_POISONED</PromotionType>
+					<iCombatMod>20</iCombatMod>
+				</PromotionCombatMod>			
+			</PromotionCombatMods>
+			<DamageTypeResists>
+				<DamageTypeResist>
+					<DamageType>DAMAGE_POISON</DamageType>
+					<iResist>50</iResist>
+				</DamageTypeResist>
+			</DamageTypeResists>
+			<iMinLevel>-1</iMinLevel>
 			<Button>Art/Modules/Arachnophobia/Buttons/Spiderkin.dds</Button>
+			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
 		<PromotionInfo>			<!-- Growth Spurts -->
 			<Type>PROMOTION_GROWTH_SPURTS</Type>
 			<Description>TXT_KEY_PROMOTION_GROWTH_SPURTS</Description>
 			<PythonOnRemove>babySpiderGrowth(pCaster,ePromotion)</PythonOnRemove>
-			<Button>Art/Modules/Arachnophobia/Buttons/GrowthSpurts.dds</Button>
 			<iExpireChance>20</iExpireChance>
 			<iMinLevel>-1</iMinLevel>
+			<Button>Art/Modules/Arachnophobia/Buttons/GrowthSpurts.dds</Button>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
 		<PromotionInfo>			<!-- Fort Spider I -->

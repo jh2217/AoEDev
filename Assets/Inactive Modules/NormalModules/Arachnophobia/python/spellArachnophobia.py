@@ -133,11 +133,8 @@ def setSpiderPromo(spawnUnit, pPlayer, pCity):
 		pNest       = pPlayer.getCapitalCity()
 		iNestPop    = pNest.getPopulation()
 		getNum      = pNest.getNumBuilding
-		if pPlayer.hasTrait(Trait["Spiderkin"]):
-			if iNestPop >= 12:
-				setPromo( Effect["Spiderkin"], True)
 
-		if iNestPop >= 20:
+		if (pPlayer.hasTrait(Trait["Spiderkin"]) and iNestPop >= 8) or iNestPop >= 24:
 			setPromo( Effect["Strong"], True)
 
 		if pCity:
