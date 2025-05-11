@@ -14,6 +14,34 @@ LeastCraft
 tweaks to archos civ
 
 
+v1.12
+By: @LeastCraft
+
+Traits:
+	Renamed Spiderkin trait to Arachnomancer and reworked mechanics.
+	Arachnomancer I:
+		1. Increase Brood Activity gain and spider spawn rate by x1.3.
+		2. Grant Strong promotion to all spiders at capital >= size 8 instead of at capital >= size 24.
+		3. Arachnomancy spells cost 10% less baby spiders.
+		4. Grant Arachnomancy I to all commanders.
+	Arachnomancer II:
+		1. Arachnomancy spells cost an extra 10% less baby spiders.
+		2. +1 Food from Feeding Pens.
+		3. Grant Arachnomancy II to all commanders.
+	Arachnomancer III:
+		1. Arachnomancy spells cost an extra 10% less baby spiders.
+		2. +1 Commerce from Maze of Webs.
+		3. Grant Arachnomancy III to all commanders.
+
+	Trait counter is now increase by casting Arachnomancy related spells.
+
+Units:
+	Renamed Spiderkin unit to Black Recluse
+	Deep Enwebbed gains free Resist Poison promotion
+	Mother's Most Faithful gains free Resist Poison promotion
+	Black Recluse gains free Resist Poison promotion
+
+
 v1.11
 By: @LeastCraft
 
@@ -30,7 +58,7 @@ Promotions:
 		3. +50% poison resistance
 		4. +20% vs Poisoned enemies
 		5. Better chances of good results from Spider Dens
-	Spiderkin is now the racial promotion of Archos instead of Poison Resistance.
+	Spiderkin is now the racial promotion of Archos instead of Resist Poison promotion.
 
 	Removed Venom Secretion, Jointed Limbs, Chitin Carapace, Trail Pheromone, Spitter Gland.
 	Spider variants grant a buffed version of the base game Mutation to newly created units instead.

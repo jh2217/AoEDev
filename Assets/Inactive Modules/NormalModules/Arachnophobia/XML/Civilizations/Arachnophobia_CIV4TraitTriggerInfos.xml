@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Alex Mantzaris (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- Copyright Firaxis Games 2005 -->
+<!-- -->
+<!-- Basic Infos -->
+
+<Civ4TraitTriggerInfos xmlns="x-schema:Arachnophobia_CIV4CivilizationsSchema.xml">
+	<TraitTriggerInfos>
+		<TraitTriggerInfo> <!-- Cast                Arachnophagy                             Arachnomancer -->
+			<Type>TRAITTRIGGER_CAST_ARACHNOPHAGY</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SPIDERKIN</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			<PrereqSpellType>SPELL_ARACHNOPHAGY</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Rite of Sapphire                         Arachnomancer -->
+			<Type>TRAITTRIGGER_CAST_RITE_SAPPHIRE</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SPIDERKIN</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			<PrereqSpellType>SPELL_RITE_SAPPHIRE</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Rite of Emerald                          Arachnomancer -->
+			<Type>TRAITTRIGGER_CAST_RITE_EMERALD</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SPIDERKIN</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			<PrereqSpellType>SPELL_RITE_EMERALD</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Rite of Diamond                          Arachnomancer -->
+			<Type>TRAITTRIGGER_CAST_RITE_DIAMOND</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SPIDERKIN</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			<PrereqSpellType>SPELL_RITE_DIAMOND</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Rite of Ruby                             Arachnomancer -->
+			<Type>TRAITTRIGGER_CAST_RITE_RUBY</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SPIDERKIN</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			<PrereqSpellType>SPELL_RITE_RUBY</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Rite of Topaz                            Arachnomancer -->
+			<Type>TRAITTRIGGER_CAST_RITE_TOPAZ</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SPIDERKIN</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			<PrereqSpellType>SPELL_RITE_TOPAZ</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Summon Arachnid Avatar                   Arachnomancer -->
+			<Type>TRAITTRIGGER_CAST_SUMMON_ARACHNID_AVATAR</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SPIDERKIN</TraitType>
+					<iModifier>40</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			<PrereqSpellType>SPELL_SUMMON_ARACHNID_AVATAR</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Amalgamate                               Arachnomancer -->
+			<Type>TRAITTRIGGER_CAST_AMALGAMATE</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_SPIDERKIN</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>
+			<PrereqSpellType>SPELL_AMALGAMATE</PrereqSpellType>
+		</TraitTriggerInfo>
+	</TraitTriggerInfos>
+</Civ4TraitTriggerInfos>

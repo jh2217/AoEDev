@@ -8,7 +8,95 @@
 	<TraitInfos>
 		<TraitInfo>		<!-- Spiderkin -->
 			<Type>TRAIT_SPIDERKIN</Type>
+			<NextTrait>TRAIT_SPIDERKIN2</NextTrait>
+			<iLevel>1</iLevel>
+			<Description>TXT_KEY_TRAIT_SPIDERKIN_NEW</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SPIDERKIN_SHORT_NEW</ShortDescription>
 			<Help>TXT_KEY_TRAIT_SPIDERKIN_HELP_NEW</Help>
+			<Civilopedia>TXT_KEY_TRAIT_SPIDERKIN_PEDIA</Civilopedia>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_ARACHNOMANCY1</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
+			<bForceOverwrite>1</bForceOverwrite>
+		</TraitInfo>
+		<TraitInfo>		<!-- Spiderkin 2-->
+			<Type>TRAIT_SPIDERKIN2</Type>
+			<ParentTrait>TRAIT_SPIDERKIN</ParentTrait>
+			<NextTrait>TRAIT_SPIDERKIN3</NextTrait>
+			<iLevel>2</iLevel>
+			<Description>TXT_KEY_TRAIT_SPIDERKIN_NEW</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SPIDERKIN_SHORT_NEW</ShortDescription>
+			<Help>TXT_KEY_TRAIT_SPIDERKIN2_HELP_NEW</Help>
+			<Civilopedia>TXT_KEY_TRAIT_SPIDERKIN_PEDIA</Civilopedia>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<iMinRequiredPoints>300</iMinRequiredPoints>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_ARACHNOMANCY2</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_FEEDING_PEN</ImprovementType>
+					<ImprovementYields>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
+			<bForceOverwrite>1</bForceOverwrite>
+		</TraitInfo>
+		<TraitInfo>		<!-- Spiderkin 3-->
+			<Type>TRAIT_SPIDERKIN3</Type>
+			<ParentTrait>TRAIT_SPIDERKIN</ParentTrait>
+			<iLevel>3</iLevel>
+			<Description>TXT_KEY_TRAIT_SPIDERKIN_NEW</Description>
+			<ShortDescription>TXT_KEY_TRAIT_SPIDERKIN_SHORT_NEW</ShortDescription>
+			<Help>TXT_KEY_TRAIT_SPIDERKIN3_HELP_NEW</Help>
+			<Civilopedia>TXT_KEY_TRAIT_SPIDERKIN_PEDIA</Civilopedia>
+			<TraitClass>TRAITCLASS_EMERGENT</TraitClass>
+			<iMinRequiredPoints>3000</iMinRequiredPoints>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_ARACHNOMANCY3</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
+			<FreePromotionUnitCombats>
+				<FreePromotionUnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<bFreePromotionUnitCombat>1</bFreePromotionUnitCombat>
+				</FreePromotionUnitCombat>
+			</FreePromotionUnitCombats>
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_MAZE_OF_WEBS</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
+			<bForceOverwrite>1</bForceOverwrite>
 		</TraitInfo>
     </TraitInfos> 
 </Civ4TraitInfos>

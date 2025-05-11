@@ -380,8 +380,21 @@ def CountBabySpidersAndLog(caster, amount, icon):
 	return babyVictims
 
 
+def getArachnomancyCost(caster, baseCost):
+	cost = baseCost
+	pPlayer = gc.getPlayer(caster.getOwner())
+	if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SPIDERKIN')):
+		cost -= baseCost / 10
+	if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SPIDERKIN2')):
+		cost -= baseCost / 10
+	if pPlayer.hasTrait(gc.getInfoTypeForString('TRAIT_SPIDERKIN3')):
+		cost -= baseCost / 10
+	return cost
+
+
 def spellArachnophagy(caster):
-	babyVictims = CountBabySpidersAndLog(caster, 10, 'Art/Modules/Arachnophobia/Buttons/Arachnophagy.dds')
+	cost = getArachnomancyCost(caster, 10)
+	babyVictims = CountBabySpidersAndLog(caster, cost, 'Art/Modules/Arachnophobia/Buttons/Arachnophagy.dds')
 	if not babyVictims:
 		caster.setHasCasted(False)
 		return
@@ -391,7 +404,8 @@ def spellArachnophagy(caster):
 
 
 def reqArachnophagy(caster):
-	return CheckOwnUnitsExistInCasterTile(caster, amount=10, unitType='UNIT_BABY_SPIDER')
+	cost = getArachnomancyCost(caster, 10)
+	return CheckOwnUnitsExistInCasterTile(caster, amount=cost, unitType='UNIT_BABY_SPIDER')
 
 
 spiderMutationDict = {
@@ -404,7 +418,8 @@ spiderMutationDict = {
 
 
 def spellCommunion(caster, spiderVariant):
-	babyVictims = CountBabySpidersAndLog(caster, 20, 'Art/Modules/Arachnophobia/Buttons/SymbioticCommunion.dds')
+	cost = getArachnomancyCost(caster, 20)
+	babyVictims = CountBabySpidersAndLog(caster, cost, 'Art/Modules/Arachnophobia/Buttons/SymbioticCommunion.dds')
 	if not babyVictims:
 		return
 	
@@ -430,13 +445,15 @@ def spellCommunion(caster, spiderVariant):
 
 
 def reqCommunion(caster, iSpiderVariant):
-	bBabySpidersInTile = CheckOwnUnitsExistInCasterTile(caster, amount=20, unitType='UNIT_BABY_SPIDER')
+	cost = getArachnomancyCost(caster, 20)
+	bBabySpidersInTile = CheckOwnUnitsExistInCasterTile(caster, amount=cost, unitType='UNIT_BABY_SPIDER')
 	bVariantSpiderInTile = CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_SPIDER', withPromo=iSpiderVariant)
 	return bBabySpidersInTile and bVariantSpiderInTile
 
 
 def spellSummonArachnidAvatar(caster):
-	babyVictims = CountBabySpidersAndLog(caster, 40, 'Art/Modules/Arachnophobia/Buttons/Arachnomancy3.dds')
+	cost = getArachnomancyCost(caster, 40)
+	babyVictims = CountBabySpidersAndLog(caster, cost, 'Art/Modules/Arachnophobia/Buttons/Arachnomancy3.dds')
 	if not babyVictims:
 		caster.setHasCasted(False)
 		return
@@ -446,20 +463,24 @@ def spellSummonArachnidAvatar(caster):
 
 
 def reqSummonArachnidAvatar(caster):
-	return CheckOwnUnitsExistInCasterTile(caster, amount=40, unitType='UNIT_BABY_SPIDER')
+	cost = getArachnomancyCost(caster, 40)
+	return CheckOwnUnitsExistInCasterTile(caster, amount=cost, unitType='UNIT_BABY_SPIDER')
 
 
 def spellAmalgamate(caster):
-	caster.setDamage(caster.getDamage() - 10, caster.getOwner())
-	caster.setMadeAttack(False)
-	babyVictims = CountBabySpidersAndLog(caster, 10, 'Art/Modules/Arachnophobia/Buttons/Swarming.dds')
+	cost = getArachnomancyCost(caster, 10)
+	babyVictims = CountBabySpidersAndLog(caster, cost, 'Art/Modules/Arachnophobia/Buttons/Swarming.dds')
 	if not babyVictims:
 		return
 	
 	for pVictim in babyVictims:
 		caster.setHasCasted(False)
 		pVictim.kill(True, 0)
+	
+	caster.setDamage(caster.getDamage() - 10, caster.getOwner())
+	caster.setMadeAttack(False)
 
 
 def reqAmalgamate(caster):
-	return CheckOwnUnitsExistInCasterTile(caster, amount=10, unitType='UNIT_BABY_SPIDER')
+	cost = getArachnomancyCost(caster, 10)
+	return CheckOwnUnitsExistInCasterTile(caster, amount=cost, unitType='UNIT_BABY_SPIDER')

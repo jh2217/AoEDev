@@ -498,6 +498,10 @@
 			</UnitMeshGroups>
 			<FreePromotions>
 				<FreePromotion>
+					<PromotionType>PROMOTION_POISON_RESISTANCE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
 					<PromotionType>PROMOTION_CANNIBALIZE</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
@@ -564,6 +568,10 @@
 			</UnitMeshGroups>
 			<FreePromotions>
 				<FreePromotion>
+					<PromotionType>PROMOTION_POISON_RESISTANCE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
 					<PromotionType>PROMOTION_CANNIBALIZE</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
@@ -586,7 +594,14 @@
 		<UnitInfo>        <!-- Spiderkin -->
 			<Class>UNITCLASS_BEASTMASTER</Class>
 			<Type>UNIT_SPIDERKIN</Type>
+			<Description>TXT_KEY_UNIT_SPIDERKIN_NEW</Description>
 			<Civilopedia>TXT_KEY_UNIT_SPIDERKIN_PEDIA_NEW</Civilopedia>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_POISON_RESISTANCE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
 			<UnitMeshGroups>
 				<iGroupSize>4</iGroupSize>
 				<iMeleeWaveSize>4</iMeleeWaveSize>

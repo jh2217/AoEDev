@@ -38,12 +38,44 @@
 		<Spanish>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders. [NEWLINE][NEWLINE]Giant Spiders of variant Green and Grey can be further [LINK=SPELL_GIANT_SPIDER_ARCHOS]upgraded[\LINK] to Behemoths once they reach level 8 and the Archosian capital has 16+ population</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN_NEW</Tag>
+		<English>Arachnomancer</English>
+		<French>Arachnomancer</French>
+		<German>Arachnomancer</German>
+		<Italian>Arachnomancer</Italian>
+		<Spanish>Arachnomancer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN_SHORT_NEW</Tag>
+		<English>Ara</English>
+		<French>Ara</French>
+		<German>Ara</German>
+		<Italian>Ara</Italian>
+		<Spanish>Ara</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_TRAIT_SPIDERKIN_HELP_NEW</Tag>
-		<English>[NEWLINE][ICON_BULLET]Increases the chance for cities to generate Spiders.[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+.</English>
-		<French>[NEWLINE][ICON_BULLET]Increases the chance for cities to generate Spiders.[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+.</French>
-		<German>[NEWLINE][ICON_BULLET]Increases the chance for cities to generate Spiders.[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+.</German>
-		<Italian>[NEWLINE][ICON_BULLET]Increases the chance for cities to generate Spiders.[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+.</Italian>
-		<Spanish>[NEWLINE][ICON_BULLET]Increases the chance for cities to generate Spiders.[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+.</Spanish>
+		<English>[NEWLINE][ICON_BULLET]Increases the Brood Activity gain and chance of spider spawning. [NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+. [NEWLINE][ICON_BULLET] Arachnomancy spells cost 10% less baby spider sacrifice to cast.</English>
+		<French>[NEWLINE][ICON_BULLET]Increases the Brood Activity gain and chance of spider spawning. [NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+. [NEWLINE][ICON_BULLET] Arachnomancy spells cost 10% less baby spider sacrifice to cast.</French>
+		<German>[NEWLINE][ICON_BULLET]Increases the Brood Activity gain and chance of spider spawning. [NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+. [NEWLINE][ICON_BULLET] Arachnomancy spells cost 10% less baby spider sacrifice to cast.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Increases the Brood Activity gain and chance of spider spawning. [NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+. [NEWLINE][ICON_BULLET] Arachnomancy spells cost 10% less baby spider sacrifice to cast.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Increases the Brood Activity gain and chance of spider spawning. [NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+. [NEWLINE][ICON_BULLET] Arachnomancy spells cost 10% less baby spider sacrifice to cast.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN2_HELP_NEW</Tag>
+		<English>[NEWLINE][ICON_BULLET] Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</English>
+		<French>[NEWLINE][ICON_BULLET] Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</French>
+		<German>[NEWLINE][ICON_BULLET] Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</German>
+		<Italian>[NEWLINE][ICON_BULLET] Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET] Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN3_HELP_NEW</Tag>
+		<English>[NEWLINE][ICON_BULLET] Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</English>
+		<French>[NEWLINE][ICON_BULLET] Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</French>
+		<German>[NEWLINE][ICON_BULLET] Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</German>
+		<Italian>[NEWLINE][ICON_BULLET] Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET] Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPIDER_HELP</Tag>
@@ -86,12 +118,20 @@
 		<Spanish>The Archosian Fort Commander UU has roughly the same effectiveness compared to a normal Fort Commander. It has higher initial strength and combat ability (except against recon units), but takes a longer time to unlock its full abilities, and does not have access to the full set of promotions that the Fort Commander does. However, they do gain [LINK=PROMOTION_FORTSPIDER1]Fort Spider I[\LINK] and [LINK=PROMOTION_FORTSPIDER2]Fort Spider II[\LINK] at level 3 and 5 respectively. [NEWLINE][ICON_BULLET]With Fort Spider I, they can turn any fortification into a [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK] and [LINK=SPELL_SPAWN_BABY_SPIDER]summon a temporary baby spider[\LINK]. [NEWLINE][ICON_BULLET]With Fort Spider II, they gain a ranged attack.</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPIDERKIN_NEW</Tag>
+		<English>Black Recluse</English>
+		<French>Black Recluse</French>
+		<German>Black Recluse</German>
+		<Italian>Black Recluse</Italian>
+		<Spanish>Black Recluse</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPIDERKIN_PEDIA_NEW</Tag>
-		<English>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</English>
-		<French>Les Veneurs Archosiens passent des semaines dans les contr�es sauvages d'Erebus, pistant ses proies avec son compagnon Araign�e. Lorsqu'il faut frapper, l'Araign�e attaque et paralyse sa cible avec son venin avant que le Veneur fasse le tir mortel. Le clan a v�cu avec les Araign�es depuis si longtemps que le venin pr�sent dans la carcasse n'est plus mortel pour eux (m�me s'il continue de prendre son d�). [NEWLINE][NEWLINE]Quand un bin�me de chasse survit suffisamment longtemps pour �tre remarqu�, ils peuvent �tre envoy�s encore plus loin pour chasser des proies encore plus dangereuses. L'Araign�e devient plus dangereuse � mesure qu'elle grandit et le Reclus compte encore plus sur elle. [NEWLINE][NEWLINE]Les chasseurs les plus efficaces peuvent d�couvrir qu'ils d�veloppent des mutations tandis qu'ils continuent de manger la viande empoisonn�e de leurs victimes. Elles sont vues comme des "pr�sents" de la M�re et un signe que le chasseur est favoris�. N'importe comment, la plupart de ces mutations se r�v�lent b�n�fiques en combat et l'Arachnomorphe est pratiquement immunis� � tout empoisonnement ult�rieur.</French>
-		<German>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]Die erfolgreichsten J�ger m�gen Mutationen an sich bemerken, wenn sie nur kontinuierlich das vergiftete Fleisch ihrer Beute verzehren. Dies wird als ein "Geschenk" von Mutter und als Zeichen ihrer Gunst angesehen. In jedem Fall entpuppen sich viele dieser Mutationen als n�tzlich im Kampf, so sind die Sipplinge der Spinnentiere z.B. praktisch immun gegen weitere Vergiftungen.</German>
-		<Italian>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</Italian>
-		<Spanish>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</Spanish>
+		<English>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Black Recluse is practically immune to further poisoning.</English>
+		<French>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Black Recluse is practically immune to further poisoning.</French>
+		<German>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Black Recluse is practically immune to further poisoning.</German>
+		<Italian>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Black Recluse is practically immune to further poisoning.</Italian>
+		<Spanish>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Black Recluse is practically immune to further poisoning.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_WAKE_MOTHER_ARACHNOPHOBIA</Tag>
@@ -370,105 +410,6 @@
 		<Italian>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</Italian>
 		<Spanish>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</Spanish>
 	</TEXT>
-	
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE</Tag>
-		<English>Rite of Sapphire</English>
-		<French>Rite of Sapphire</French>
-		<German>Rite of Sapphire</German>
-		<Italian>Rite of Sapphire</Italian>
-		<Spanish>Rite of Sapphire</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_EMERALD</Tag>
-		<English>Rite of Emerald</English>
-		<French>Rite of Emerald</French>
-		<German>Rite of Emerald</German>
-		<Italian>Rite of Emerald</Italian>
-		<Spanish>Rite of Emerald</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_DIAMOND</Tag>
-		<English>Rite of Diamond</English>
-		<French>Rite of Diamond</French>
-		<German>Rite of Diamond</German>
-		<Italian>Rite of Diamond</Italian>
-		<Spanish>Rite of Diamond</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_RUBY</Tag>
-		<English>Rite of Ruby</English>
-		<French>Rite of Ruby</French>
-		<German>Rite of Ruby</German>
-		<Italian>Rite of Ruby</Italian>
-		<Spanish>Rite of Ruby</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_TOPAZ</Tag>
-		<English>Rite of Topaz</English>
-		<French>Rite of Topaz</French>
-		<German>Rite of Topaz</German>
-		<Italian>Rite of Topaz</Italian>
-		<Spanish>Rite of Topaz</Spanish>
-	</TEXT>
-	
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack</English>
-		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack</French>
-		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_EMERALD_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack</English>
-		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack</French>
-		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_DIAMOND_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack</English>
-		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack</French>
-		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_RUBY_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack</English>
-		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack</French>
-		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_TOPAZ_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack</English>
-		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack</French>
-		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack</Spanish>
-	</TEXT>
-
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION</Tag>
-		<English>Symbiotic Communion</English>
-		<French>Symbiotic Communion</French>
-		<German>Symbiotic Communion</German>
-		<Italian>Symbiotic Communion</Italian>
-		<Spanish>Symbiotic Communion</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION_END</Tag>
-		<English>Symbiotic Communion End</English>
-		<French>Symbiotic Communion End</French>
-		<German>Symbiotic Communion End</German>
-		<Italian>Symbiotic Communion End</Italian>
-		<Spanish>Symbiotic Communion End</Spanish>
-	</TEXT>
 
 	<TEXT>
 		<Tag>TXT_KEY_MISC_BROOD_ACTIVITY_1</Tag>
@@ -549,46 +490,6 @@
 		<German>[ICON_BULLET]Spend 150 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</German>
 		<Italian>[ICON_BULLET]Spend 150 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</Italian>
 		<Spanish>[ICON_BULLET]Spend 150 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_ARACHNOPHAGY</Tag>
-		<English>Arachnophagy</English>
-		<French>Arachnophagy</French>
-		<German>Arachnophagy</German>
-		<Italian>Arachnophagy</Italian>
-		<Spanish>Arachnophagy</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_ARACHNOPHAGY_PEDIA</Tag>
-		<English>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</English>
-		<French>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</French>
-		<German>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</German>
-		<Italian>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</Italian>
-		<Spanish>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_ARACHNOPHAGY</Tag>
-		<English>Arachnophagy</English>
-		<French>Arachnophagy</French>
-		<German>Arachnophagy</German>
-		<Italian>Arachnophagy</Italian>
-		<Spanish>Arachnophagy</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_ARACHNOPHAGY_PEDIA</Tag>
-		<English>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</English>
-		<French>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</French>
-		<German>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</German>
-		<Italian>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</Italian>
-		<Spanish>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_ARACHNOPHAGY_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY])</English>
-		<French>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY])</French>
-		<German>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY])</German>
-		<Italian>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY])</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY])</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SMEAR_POISON</Tag>
@@ -1075,6 +976,166 @@
 		<Spanish>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY1_PEDIA</Tag>
+		<English>With the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait, Archosian commanders will also acquire this promotion.</English>
+		<French>With the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait, Archosian commanders will also acquire this promotion.</French>
+		<German>With the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait, Archosian commanders will also acquire this promotion.</German>
+		<Italian>With the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait, Archosian commanders will also acquire this promotion.</Italian>
+		<Spanish>With the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait, Archosian commanders will also acquire this promotion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY2_PEDIA</Tag>
+		<English>With the [LINK=TRAIT_SPIDERKIN2]Arachnomancer[\LINK] trait at level 2, Archosian commanders will also acquire this promotion.</English>
+		<French>With the [LINK=TRAIT_SPIDERKIN2]Arachnomancer[\LINK] trait at level 2, Archosian commanders will also acquire this promotion.</French>
+		<German>With the [LINK=TRAIT_SPIDERKIN2]Arachnomancer[\LINK] trait at level 2, Archosian commanders will also acquire this promotion.</German>
+		<Italian>With the [LINK=TRAIT_SPIDERKIN2]Arachnomancer[\LINK] trait at level 2, Archosian commanders will also acquire this promotion.</Italian>
+		<Spanish>With the [LINK=TRAIT_SPIDERKIN2]Arachnomancer[\LINK] trait at level 2, Archosian commanders will also acquire this promotion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY3_PEDIA</Tag>
+		<English>With the [LINK=TRAIT_SPIDERKIN3]Arachnomancer[\LINK] trait at level 3, Archosian commanders will also acquire this promotion.</English>
+		<French>With the [LINK=TRAIT_SPIDERKIN3]Arachnomancer[\LINK] trait at level 3, Archosian commanders will also acquire this promotion.</French>
+		<German>With the [LINK=TRAIT_SPIDERKIN3]Arachnomancer[\LINK] trait at level 3, Archosian commanders will also acquire this promotion.</German>
+		<Italian>With the [LINK=TRAIT_SPIDERKIN3]Arachnomancer[\LINK] trait at level 3, Archosian commanders will also acquire this promotion.</Italian>
+		<Spanish>With the [LINK=TRAIT_SPIDERKIN3]Arachnomancer[\LINK] trait at level 3, Archosian commanders will also acquire this promotion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARACHNOPHAGY</Tag>
+		<English>Arachnophagy</English>
+		<French>Arachnophagy</French>
+		<German>Arachnophagy</German>
+		<Italian>Arachnophagy</Italian>
+		<Spanish>Arachnophagy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARACHNOPHAGY_PEDIA</Tag>
+		<English>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</English>
+		<French>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</French>
+		<German>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</German>
+		<Italian>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</Italian>
+		<Spanish>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ARACHNOPHAGY</Tag>
+		<English>Arachnophagy</English>
+		<French>Arachnophagy</French>
+		<German>Arachnophagy</German>
+		<Italian>Arachnophagy</Italian>
+		<Spanish>Arachnophagy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ARACHNOPHAGY_PEDIA</Tag>
+		<English>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</English>
+		<French>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</French>
+		<German>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</German>
+		<Italian>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</Italian>
+		<Spanish>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ARACHNOPHAGY_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY]) [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY]) [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY]) [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY]) [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY]) [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION</Tag>
+		<English>Symbiotic Communion</English>
+		<French>Symbiotic Communion</French>
+		<German>Symbiotic Communion</German>
+		<Italian>Symbiotic Communion</Italian>
+		<Spanish>Symbiotic Communion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION_END</Tag>
+		<English>Symbiotic Communion End</English>
+		<French>Symbiotic Communion End</French>
+		<German>Symbiotic Communion End</German>
+		<Italian>Symbiotic Communion End</Italian>
+		<Spanish>Symbiotic Communion End</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE</Tag>
+		<English>Rite of Sapphire</English>
+		<French>Rite of Sapphire</French>
+		<German>Rite of Sapphire</German>
+		<Italian>Rite of Sapphire</Italian>
+		<Spanish>Rite of Sapphire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_EMERALD</Tag>
+		<English>Rite of Emerald</English>
+		<French>Rite of Emerald</French>
+		<German>Rite of Emerald</German>
+		<Italian>Rite of Emerald</Italian>
+		<Spanish>Rite of Emerald</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_DIAMOND</Tag>
+		<English>Rite of Diamond</English>
+		<French>Rite of Diamond</French>
+		<German>Rite of Diamond</German>
+		<Italian>Rite of Diamond</Italian>
+		<Spanish>Rite of Diamond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_RUBY</Tag>
+		<English>Rite of Ruby</English>
+		<French>Rite of Ruby</French>
+		<German>Rite of Ruby</German>
+		<Italian>Rite of Ruby</Italian>
+		<Spanish>Rite of Ruby</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_TOPAZ</Tag>
+		<English>Rite of Topaz</English>
+		<French>Rite of Topaz</French>
+		<German>Rite of Topaz</German>
+		<Italian>Rite of Topaz</Italian>
+		<Spanish>Rite of Topaz</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_EMERALD_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_DIAMOND_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_RUBY_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_TOPAZ_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UNIT_ARACHNID_AVATAR</Tag>
 		<English>Arachnid Avatar</English>
 		<French>Arachnid Avatar</French>
@@ -1100,11 +1161,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SUMMON_ARACHNID_AVATAR_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK]</English>
-		<French>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK]</French>
-		<German>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK]</German>
-		<Italian>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK]</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK]</Spanish>
+		<English>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK] [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK] [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK] [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK] [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK] [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_AMALGAMATION</Tag>
@@ -1124,11 +1185,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_AMALGAMATE_HELP</Tag>
-		<English>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again</English>
-		<French>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again</French>
-		<German>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again</German>
-		<Italian>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again</Italian>
-		<Spanish>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again</Spanish>
+		<English>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again [NEWLINE][ICON_BULLET]Cost of consumption is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again [NEWLINE][ICON_BULLET]Cost of consumption is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again [NEWLINE][ICON_BULLET]Cost of consumption is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again [NEWLINE][ICON_BULLET]Cost of consumption is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again [NEWLINE][ICON_BULLET]Cost of consumption is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_MESSAGE_NOT_ENOUGH_BABY_SPIDERS</Tag>
