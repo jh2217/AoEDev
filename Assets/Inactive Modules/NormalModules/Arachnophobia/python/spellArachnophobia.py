@@ -430,7 +430,7 @@ def spellCommunion(caster, spiderVariant):
 
 
 def reqCommunion(caster, iSpiderVariant):
-	bBabySpidersInTile = CheckOwnUnitsExistInCasterTile(caster, amount=10, unitType='UNIT_BABY_SPIDER')
+	bBabySpidersInTile = CheckOwnUnitsExistInCasterTile(caster, amount=20, unitType='UNIT_BABY_SPIDER')
 	bVariantSpiderInTile = CheckOwnUnitsExistInCasterTile(caster, unitType='UNIT_SPIDER', withPromo=iSpiderVariant)
 	return bBabySpidersInTile and bVariantSpiderInTile
 
