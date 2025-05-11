@@ -628,7 +628,7 @@
 		</ImprovementInfo>
 
 		<ImprovementInfo>	<!-- Spider Den t1 -->
-			<Type>IMPROVEMENT_SPIDER_DEN</Type>
+			<Type>IMPROVEMENT_DEN_SPIDER</Type>
 			<Description>TXT_KEY_IMPROVEMENT_SPIDER_DEN_1</Description>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_SPIDER_DEN</ArtDefineTag>
 			<ImprovementUpgrade>IMPROVEMENT_SPIDER_DEN_2</ImprovementUpgrade>
@@ -864,9 +864,9 @@
 		</ImprovementInfo>
 
 		<ImprovementInfo>	<!-- Wolf Lair t1 -->
-			<Type>IMPROVEMENT_WOLF_DEN</Type>
+			<Type>IMPROVEMENT_DEN_WOLF</Type>
 			<Description>TXT_KEY_IMPROVEMENT_WOLF_LAIR_1</Description>
-			<ArtDefineTag>ART_DEF_IMPROVEMENT_WOLF_DEN</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_DEN_WOLF</ArtDefineTag>
 			<ImprovementUpgrade>IMPROVEMENT_WOLF_LAIR_2</ImprovementUpgrade>
 			<bHillsMakesValid>1</bHillsMakesValid>
 			<bPermanent>1</bPermanent>
@@ -948,7 +948,7 @@
 		<ImprovementInfo>	<!-- Wolf Lair t2 -->
 			<Type>IMPROVEMENT_WOLF_LAIR_2</Type>
 			<Description>TXT_KEY_IMPROVEMENT_WOLF_LAIR_2</Description>
-			<ArtDefineTag>ART_DEF_IMPROVEMENT_WOLF_DEN</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_DEN_WOLF</ArtDefineTag>
 			<ImprovementUpgrade>IMPROVEMENT_WOLF_LAIR_3</ImprovementUpgrade>
 			<bHillsMakesValid>1</bHillsMakesValid>
 			<bPermanent>1</bPermanent>
@@ -1030,7 +1030,7 @@
 		<ImprovementInfo>	<!-- Wolf Lair t3 -->
 			<Type>IMPROVEMENT_WOLF_LAIR_3</Type>
 			<Description>TXT_KEY_IMPROVEMENT_WOLF_LAIR_3</Description>
-			<ArtDefineTag>ART_DEF_IMPROVEMENT_WOLF_DEN</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_DEN_WOLF</ArtDefineTag>
 			<bHillsMakesValid>1</bHillsMakesValid>
 			<bPermanent>1</bPermanent>
 			<bOutsideBorders>1</bOutsideBorders>

@@ -1033,7 +1033,7 @@
 			<Button>Art/Interface/Buttons/Units/Lion.dds</Button>
 		</ImprovementArtInfo>
 		<ImprovementArtInfo>
-			<Type>ART_DEF_IMPROVEMENT_WOLF_DEN</Type>
+			<Type>ART_DEF_IMPROVEMENT_DEN_WOLF</Type>
 			<bExtraAnimations>0</bExtraAnimations>
 			<fScale>14.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>

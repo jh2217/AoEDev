@@ -24,7 +24,7 @@
 		<Tag>TXT_KEY_BUILD_MANA_BODY</Tag>
 		<English>Build Body Node</English>
 		<French>Construire un N&#156;ud de Corps</French>
-		<German>Errichtung eines Brunnens der Kï¿½rpermagie</German>
+		<German>Errichtung eines Brunnens der Körpermagie</German>
 		<Italian>Build Body Node</Italian>
 		<Spanish>Construir Nodo de Cuerpo</Spanish>
 	</TEXT>
@@ -39,10 +39,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_MANA_CREATION</Tag>
 		<English>Build Creation Node</English>
-		<French>Construire un N&#156;ud de Crï¿½ation</French>
-		<German>Errichtung eines Brunnens der Schï¿½pfungsmagie</German>
+		<French>Construire un N&#156;ud de Création</French>
+		<German>Errichtung eines Brunnens der Schöpfungsmagie</German>
 		<Italian>Build Creation Node</Italian>
-		<Spanish>Construir Nodo de Creaciï¿½n</Spanish>
+		<Spanish>Construir Nodo de Creación</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_MANA_DEATH</Tag>
@@ -82,7 +82,7 @@
 		<French>Construire un N&#156;ud d'Entropie</French>
 		<German>Errichtung eines Brunnens der Entropiemagie</German>
 		<Italian>Build Entropy Node</Italian>
-		<Spanish>Construir Nodo de Entropï¿½a</Spanish>
+		<Spanish>Construir Nodo de Entropía</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_MANA_FIRE</Tag>
@@ -111,7 +111,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_MANA_METAMAGIC</Tag>
 		<English>Build Metamagic Node</English>
-		<French>Construire un N&#156;ud de Mï¿½tamagie</French>
+		<French>Construire un N&#156;ud de Métamagie</French>
 		<German>Errichtung eines Brunnens der Metamagie</German>
 		<Italian>Build Metamagic Node</Italian>
 		<Spanish>Construir Nodo de Metamagia</Spanish>
@@ -119,7 +119,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_MANA_MIND</Tag>
 		<English>Build Mind Node</English>
-		<French>Construire un N&#156;ud de Pensï¿½e</French>
+		<French>Construire un N&#156;ud de Pensée</French>
 		<German>Errichtung eines Brunnens der Geistesmagie</German>
 		<Italian>Build Mind Node</Italian>
 		<Spanish>Construir Nodo de Mente</Spanish>
@@ -146,7 +146,7 @@
 		<French>Construire un N&#156;ud d'Esprit</French>
 		<German>Errichtung eines Brunnens der Seelenmagie</German>
 		<Italian>Build Spirit Node</Italian>
-		<Spanish>Construir Nodo de Espï¿½ritu</Spanish>
+		<Spanish>Construir Nodo de Espíritu</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_MANA_SUN</Tag>
@@ -175,7 +175,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MINE_PEDIA</Tag>
 		<English>The mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</English>
-		<French>La mine est un amï¿½nagement basique qui ne nï¿½cessite aucune technologie prï¿½alable pour sa construction. Une fois la technologie [LINK=TECH_MINING]Minage[\LINK] dï¿½couverte, les ouvriers construiront les mines 33% plus vite.</French>
+		<French>La mine est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_MINING]Minage[\LINK] découverte, les ouvriers construiront les mines 33% plus vite.</French>
 		<German>The mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</German>
 		<Italian>The mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</Italian>
 		<Spanish>The mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</Spanish>
@@ -183,7 +183,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_WORKSHOP_PEDIA</Tag>
 		<English>The workshop is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CRAFTING]Crafting[\LINK], workers build them 25% faster.</English>
-		<French>L'atelier est un amï¿½nagement basique qui ne nï¿½cessite aucune technologie prï¿½alable pour sa construction. Une fois la technologie [LINK=TECH_CRAFTING]Artisanat[\LINK] dï¿½couverte, les ouvriers construiront les ateliers 33% plus vite.</French>
+		<French>L'atelier est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_CRAFTING]Artisanat[\LINK] découverte, les ouvriers construiront les ateliers 33% plus vite.</French>
 		<German>The workshop is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CRAFTING]Crafting[\LINK], workers build them 25% faster.</German>
 		<Italian>The workshop is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CRAFTING]Crafting[\LINK], workers build them 25% faster.</Italian>
 		<Spanish>The workshop is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CRAFTING]Crafting[\LINK], workers build them 25% faster.</Spanish>
@@ -199,7 +199,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_COTTAGE_PEDIA</Tag>
 		<English>The cottage is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_EDUCATION]Education[\LINK], workers build them 25% faster.</English>
-		<French>Le cottage est un amï¿½nagement basique qui ne nï¿½cessite aucune technologie prï¿½alable pour sa construction. Une fois la technologie [LINK=TECH_EDUCATION]ï¿½ducation[\LINK] dï¿½couverte, les ouvriers construiront les cottages 33% plus vite.</French>
+		<French>Le cottage est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_EDUCATION]Éducation[\LINK] découverte, les ouvriers construiront les cottages 33% plus vite.</French>
 		<German>The cottage is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_EDUCATION]Education[\LINK], workers build them 25% faster.</German>
 		<Italian>The cottage is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_EDUCATION]Education[\LINK], workers build them 25% faster.</Italian>
 		<Spanish>The cottage is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_EDUCATION]Education[\LINK], workers build them 25% faster.</Spanish>
@@ -235,7 +235,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_BEDOUIN_SIT</Tag>
 		<English>Build Bedouin Sit</English>
-		<French>Construire une Halte Bï¿½douine</French>
+		<French>Construire une Halte Bédouine</French>
 		<German>Errichte Beduinensitz</German>
 		<Italian>Build Bedouin Sit</Italian>
 		<Spanish>Build Bedouin Sit</Spanish>
@@ -243,7 +243,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_BEDOUIN_SIT</Tag>
 		<English>Bedouin Sit (I)</English>
-		<French>Halte Bï¿½douine (I)</French>
+		<French>Halte Bédouine (I)</French>
 		<German>Beduinensitz (I)</German>
 		<Italian>Bedouin Sit (I)</Italian>
 		<Spanish>Bedouin Sit (I)</Spanish>
@@ -251,7 +251,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_BEDOUIN_CAMP</Tag>
 		<English>Bedouin Camp (II)</English>
-		<French>Camp Bï¿½douin (II)</French>
+		<French>Camp Bédouin (II)</French>
 		<German>Beduinenlager (II)</German>
 		<Italian>Bedouin Camp (II)</Italian>
 		<Spanish>Bedouin Camp (II)</Spanish>
@@ -259,7 +259,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_BEDOUIN_GATHERING</Tag>
 		<English>Bedouin Gathering (III)</English>
-		<French>Rassemblement de Bï¿½douins (III)</French>
+		<French>Rassemblement de Bédouins (III)</French>
 		<German>Beduinenversammlung (III)</German>
 		<Italian>Bedouin Gathering (III)</Italian>
 		<Spanish>Bedouin Gathering (III)</Spanish>
@@ -267,7 +267,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_BEDOUIN_VILLAGE</Tag>
 		<English>Bedouin Village (IV)</English>
-		<French>Village Bï¿½douin (IV)</French>
+		<French>Village Bédouin (IV)</French>
 		<German>Beduinendorf (IV)</German>
 		<Italian>Bedouin Village (IV)</Italian>
 		<Spanish>Bedouin Village (IV)</Spanish>
@@ -295,7 +295,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_MINE_HELP</Tag>
 		<English>The dwarven mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 25% faster. After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 25% faster.</English>
-		<French>La Mine Naine est un amï¿½nagement basique qui ne nï¿½cessite aucune technologie prï¿½alable pour sa construction. Une fois la technologie [LINK=TECH_MINING]Minage[\LINK] dï¿½couverte, les ouvriers construiront les Mines Naines 33% plus vite.</French>
+		<French>La Mine Naine est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_MINING]Minage[\LINK] découverte, les ouvriers construiront les Mines Naines 33% plus vite.</French>
 		<German>The dwarven mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 25% faster. After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 25% faster.</German>
 		<Italian>The dwarven mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 25% faster. After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 25% faster.</Italian>
 		<Spanish>The dwarven mine is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 25% faster. After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 25% faster.</Spanish>
@@ -303,7 +303,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_MINE_PEDIA</Tag>
 		<English>For most, a mine is just a hole in the ground to pull shinies out of. For the Khazad, a mine is a home-in-progress. Crude dwellings are carved into side tunnels, rubble is formed into simple fortifications and shops are set up to serve the miners and their families. From this, a trickle of commerce follows the wagons laden with ore. It's not much but give it time...</English>
-		<French>Pour beaucoup, la mine est un trou dans le sol dont on tire des trucs brillants. Pour les Khazad, une mine est un foyer en construction. Des logements rudes sont taillï¿½s sur le flanc des tunnels, les dï¿½combres sont transformï¿½s en fortifications simples et les ï¿½choppes sont taillï¿½es pour rï¿½pondre aux besoins des mineurs et de leurs familles. De ces ï¿½choppes, un petit rï¿½seau commercial suit les vagons chargï¿½s de minerai. Ce n'est pas grand chose, mais laissez-lui un peu de temps...</French>
+		<French>Pour beaucoup, la mine est un trou dans le sol dont on tire des trucs brillants. Pour les Khazad, une mine est un foyer en construction. Des logements rudes sont taillés sur le flanc des tunnels, les décombres sont transformés en fortifications simples et les échoppes sont taillées pour répondre aux besoins des mineurs et de leurs familles. De ces échoppes, un petit réseau commercial suit les vagons chargés de minerai. Ce n'est pas grand chose, mais laissez-lui un peu de temps...</French>
 		<German>For most, a mine is just a hole in the ground to pull shinies out of. For the Khazad, a mine is a home-in-progress. Crude dwellings are carved into side tunnels, rubble is formed into simple fortifications and shops are set up to serve the miners and their families. From this, a trickle of commerce follows the wagons laden with ore. It's not much but give it time...</German>
 		<Italian>For most, a mine is just a hole in the ground to pull shinies out of. For the Khazad, a mine is a home-in-progress. Crude dwellings are carved into side tunnels, rubble is formed into simple fortifications and shops are set up to serve the miners and their families. From this, a trickle of commerce follows the wagons laden with ore. It's not much but give it time...</Italian>
 		<Spanish>For most, a mine is just a hole in the ground to pull shinies out of. For the Khazad, a mine is a home-in-progress. Crude dwellings are carved into side tunnels, rubble is formed into simple fortifications and shops are set up to serve the miners and their families. From this, a trickle of commerce follows the wagons laden with ore. It's not much but give it time...</Spanish>
@@ -319,7 +319,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_SETTLEMENT_PEDIA</Tag>
 		<English>Once a mine has become prosperous, immigrants arrive from above and below to carve a space for themselves. Spiraling out from the main shaft, a network of living spaces, markets and workshops is hewn while the excess stone is used to build the walls ever higher. Finally, the fungal farms (that convert waste material and phosphates into edible, if plain-tasting, mushrooms) are expanded and the surplus is shipped back to the city... along with a wealth of trade and minerals.</English>
-		<French>Quand une mine devient prospï¿½re, les immigrants arrivent de partout pour se tailler une place. Spiralant depuis le puits principal, un rï¿½seau de lieux de vie, marchï¿½s et ateliers est taillï¿½, tandis que la pierre en excï¿½s est utilisï¿½e pour construire des murs toujours plus hauts. Enfin, les fermes fongiques (qui convertissent les gravats et les phosphates en champignons comestibles bien que fades) sont agrandies, et le surplus est renvoyï¿½ ï¿½ la ville, accompagnï¿½ des richesses du commerce et des minï¿½raux.</French>
+		<French>Quand une mine devient prospère, les immigrants arrivent de partout pour se tailler une place. Spiralant depuis le puits principal, un réseau de lieux de vie, marchés et ateliers est taillé, tandis que la pierre en excès est utilisée pour construire des murs toujours plus hauts. Enfin, les fermes fongiques (qui convertissent les gravats et les phosphates en champignons comestibles bien que fades) sont agrandies, et le surplus est renvoyé à la ville, accompagné des richesses du commerce et des minéraux.</French>
 		<German>Once a mine has become prosperous, immigrants arrive from above and below to carve a space for themselves. Spiraling out from the main shaft, a network of living spaces, markets and workshops is hewn while the excess stone is used to build the walls ever higher. Finally, the fungal farms (that convert waste material and phosphates into edible, if plain-tasting, mushrooms) are expanded and the surplus is shipped back to the city... along with a wealth of trade and minerals.</German>
 		<Italian>Once a mine has become prosperous, immigrants arrive from above and below to carve a space for themselves. Spiraling out from the main shaft, a network of living spaces, markets and workshops is hewn while the excess stone is used to build the walls ever higher. Finally, the fungal farms (that convert waste material and phosphates into edible, if plain-tasting, mushrooms) are expanded and the surplus is shipped back to the city... along with a wealth of trade and minerals.</Italian>
 		<Spanish>Once a mine has become prosperous, immigrants arrive from above and below to carve a space for themselves. Spiraling out from the main shaft, a network of living spaces, markets and workshops is hewn while the excess stone is used to build the walls ever higher. Finally, the fungal farms (that convert waste material and phosphates into edible, if plain-tasting, mushrooms) are expanded and the surplus is shipped back to the city... along with a wealth of trade and minerals.</Spanish>
@@ -327,7 +327,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_HALL</Tag>
 		<English>Dwarven Hall (III)</English>
-		<French>Chï¿½teau Nain (III)</French>
+		<French>Château Nain (III)</French>
 		<German>Zwergenhalle (III)</German>
 		<Italian>Dwarven Hall (III)</Italian>
 		<Spanish>Dwarven Hall (III)</Spanish>
@@ -335,7 +335,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_HALL_PEDIA</Tag>
 		<English>The Khazad have a complex system of ownership and an even more complex hierarchy; living below the surface demands draconian measures to keep order. After a probationary period, a settlement is taken over by some branch of the Khazad nobility and expanded to fit their needs (bloody nobles). Picky though they are, under their management the mines are deepened, the ramparts are expanded and the markets are packed. It may not be comfortable but "bein' a dwarf is about doin' yer duty, even if it makes ye miserable. ESPECIALLY if it makes ye miserable."</English>
-		<French>Les Khazad ont un systï¿½me complexe de propriï¿½tï¿½ et une hiï¿½rarchie encore plus complexe, car vivre sous la surface demande des mesures draconniennes pour maintenir l'ordre. Aprï¿½s une pï¿½riode de probation, un campement est rï¿½cupï¿½rï¿½ par une branche de la noblesse Khazad et ï¿½tendu pour subvenir ï¿½ leurs besoins (foutus nobles !). Aussi durs soient-ils, sous leur direction, les mines sont approfondies, les ramparts sont ï¿½tendus et les marchï¿½s sont regroupï¿½s. Ce n'est peut ï¿½tre pas confortable, mais "ï¿½tre un nain s'gnifie accomplir son d'voir, m'm si ï¿½a v'rend mis'rable. Surtout si ï¿½a v'rend mis'rable."</French>
+		<French>Les Khazad ont un système complexe de propriété et une hiérarchie encore plus complexe, car vivre sous la surface demande des mesures draconniennes pour maintenir l'ordre. Après une période de probation, un campement est récupéré par une branche de la noblesse Khazad et étendu pour subvenir à leurs besoins (foutus nobles !). Aussi durs soient-ils, sous leur direction, les mines sont approfondies, les ramparts sont étendus et les marchés sont regroupés. Ce n'est peut être pas confortable, mais "être un nain s'gnifie accomplir son d'voir, m'm si ça v'rend mis'rable. Surtout si ça v'rend mis'rable."</French>
 		<German>The Khazad have a complex system of ownership and an even more complex hierarchy; living below the surface demands draconian measures to keep order. After a probationary period, a settlement is taken over by some branch of the Khazad nobility and expanded to fit their needs (bloody nobles). Picky though they are, under their management the mines are deepened, the ramparts are expanded and the markets are packed. It may not be comfortable but "bein' a dwarf is about doin' yer duty, even if it makes ye miserable. ESPECIALLY if it makes ye miserable."</German>
 		<Italian>The Khazad have a complex system of ownership and an even more complex hierarchy; living below the surface demands draconian measures to keep order. After a probationary period, a settlement is taken over by some branch of the Khazad nobility and expanded to fit their needs (bloody nobles). Picky though they are, under their management the mines are deepened, the ramparts are expanded and the markets are packed. It may not be comfortable but "bein' a dwarf is about doin' yer duty, even if it makes ye miserable. ESPECIALLY if it makes ye miserable."</Italian>
 		<Spanish>The Khazad have a complex system of ownership and an even more complex hierarchy; living below the surface demands draconian measures to keep order. After a probationary period, a settlement is taken over by some branch of the Khazad nobility and expanded to fit their needs (bloody nobles). Picky though they are, under their management the mines are deepened, the ramparts are expanded and the markets are packed. It may not be comfortable but "bein' a dwarf is about doin' yer duty, even if it makes ye miserable. ESPECIALLY if it makes ye miserable."</Spanish>
@@ -355,7 +355,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DWARVEN_FORTRESS_PEDIA</Tag>
 		<English>Extending all the way into the Umber, the dwarven fortress is an implacable bastion of defense, industry and commerce. The tapped out tunnels have been converted into additional farm space and the entire complex has become a mecca of trade. It takes a long time for the humble dwarven mine to become the mighty dwarven fortress but once there it is the equivalent of a farm, town, citadel and mine-on-steroids... all in one. Just be sure to keep it safe from would-be pillagers, lest years of work be undone by the villainous surface dwellers.</English>
-		<French>S'ï¿½tendant partout dans les tï¿½nï¿½bres, la Forteresse Naine est un bastion dï¿½fensif, industriel et commercial implacable. les ramifications extï¿½rieures ont ï¿½tï¿½ converties en espace agricole supplï¿½mentaire et le complexe entier est devenu une Mecque du commerce. Le processus d'ï¿½volution de l'humble mine naine ï¿½ la puissante forteresse naine prend du temps, mais une fois fait elle reprï¿½sente l'ï¿½quivalent d'une ferme, d'une ville, d'une citadelle et d'une mine dopï¿½e aux stï¿½roï¿½des, le tout en un. Prenez juste garde ï¿½ le protï¿½ger des ï¿½ventuels pillards, plusieurs annï¿½es de travail pouvant ï¿½tre rï¿½duites ï¿½ nï¿½ant par les vils habitants de la surface.</French>
+		<French>S'étendant partout dans les ténèbres, la Forteresse Naine est un bastion défensif, industriel et commercial implacable. les ramifications extérieures ont été converties en espace agricole supplémentaire et le complexe entier est devenu une Mecque du commerce. Le processus d'évolution de l'humble mine naine à la puissante forteresse naine prend du temps, mais une fois fait elle représente l'équivalent d'une ferme, d'une ville, d'une citadelle et d'une mine dopée aux stéroïdes, le tout en un. Prenez juste garde à le protéger des éventuels pillards, plusieurs années de travail pouvant être réduites à néant par les vils habitants de la surface.</French>
 		<German>Extending all the way into the Umber, the dwarven fortress is an implacable bastion of defense, industry and commerce. The tapped out tunnels have been converted into additional farm space and the entire complex has become a mecca of trade. It takes a long time for the humble dwarven mine to become the mighty dwarven fortress but once there it is the equivalent of a farm, town, citadel and mine-on-steroids... all in one. Just be sure to keep it safe from would-be pillagers, lest years of work be undone by the villainous surface dwellers.</German>
 		<Italian>Extending all the way into the Umber, the dwarven fortress is an implacable bastion of defense, industry and commerce. The tapped out tunnels have been converted into additional farm space and the entire complex has become a mecca of trade. It takes a long time for the humble dwarven mine to become the mighty dwarven fortress but once there it is the equivalent of a farm, town, citadel and mine-on-steroids... all in one. Just be sure to keep it safe from would-be pillagers, lest years of work be undone by the villainous surface dwellers.</Italian>
 		<Spanish>Extending all the way into the Umber, the dwarven fortress is an implacable bastion of defense, industry and commerce. The tapped out tunnels have been converted into additional farm space and the entire complex has become a mecca of trade. It takes a long time for the humble dwarven mine to become the mighty dwarven fortress but once there it is the equivalent of a farm, town, citadel and mine-on-steroids... all in one. Just be sure to keep it safe from would-be pillagers, lest years of work be undone by the villainous surface dwellers.</Spanish>
@@ -363,7 +363,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_FORT_PEDIA</Tag>
 		<English>The fort is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster.</English>
-		<French>Le Fort est un amï¿½nagement basique qui ne nï¿½cessite aucune technologie prï¿½alable pour sa construction. Une fois la technologie [LINK=TECH_CONSTRUCTION]Construction[\LINK] dï¿½couverte, les ouvriers construiront les forts 75% plus vite.</French>
+		<French>Le Fort est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_CONSTRUCTION]Construction[\LINK] découverte, les ouvriers construiront les forts 75% plus vite.</French>
 		<German>The fort is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster.</German>
 		<Italian>The fort is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster.</Italian>
 		<Spanish>The fort is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster.</Spanish>
@@ -372,7 +372,7 @@
 		<Tag>TXT_KEY_IMPROVEMENT_CITADEL_OF_LIGHT</Tag>
 		<English>Citadel of Light</English>
 		<French>
-			<Text>Citadelle de la Lumiï¿½re</Text>
+			<Text>Citadelle de la Lumière</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -383,8 +383,8 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_CITADEL_OF_LIGHT_STRATEGY</Tag>
 		<English>The Citadel of Light is able to call a Pillar of Fire down on enemy units in range, but only if units are stationed in the Citadel.</English>
-		<French>La Citadelle de Lumiï¿½re est capable de gï¿½nï¿½rer un pilier de Feu sur les unitï¿½s ennemies ï¿½ moins de 2 cases, mais uniquement si des unitï¿½s sont stationnï¿½es dans la Citadelle.</French>
-		<German>Nï¿½hert sich eine feindliche Einheit der Zitadelle des Lichts auf weniger als 2 Felder erzeugt sie einen Feuerball.</German>
+		<French>La Citadelle de Lumière est capable de générer un pilier de Feu sur les unités ennemies à moins de 2 cases, mais uniquement si des unités sont stationnées dans la Citadelle.</French>
+		<German>Nähert sich eine feindliche Einheit der Zitadelle des Lichts auf weniger als 2 Felder erzeugt sie einen Feuerball.</German>
 		<Italian>The Citadel of Light produces a Fireball if an enemy unit is within 2 tiles of it at the start of your turn.</Italian>
 		<Spanish>La Ciudadela de la Luz produce una Bola de Fuego si una unidad enemiga se encuentra a 2 casillas de ella al comienzo del turno.</Spanish>
 	</TEXT>
@@ -403,7 +403,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DTESH_CATACOMBS_PEDIA</Tag>
 		<English>The catacombs are a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</English>
-		<French>Les Catacombes sont un amï¿½nagement basique qui ne nï¿½cessite aucune technologie prï¿½alable pour sa construction. Une fois la technologie [LINK=TECH_MINING]Minage[\LINK] dï¿½couverte, les ouvriers construiront les Catacombes 33% plus vite.</French>
+		<French>Les Catacombes sont un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_MINING]Minage[\LINK] découverte, les ouvriers construiront les Catacombes 33% plus vite.</French>
 		<German>The catacombs are a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</German>
 		<Italian>The catacombs are a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</Italian>
 		<Spanish>The catacombs are a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_MINING]Mining[\LINK], workers build them 33% faster.</Spanish>
@@ -411,7 +411,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DTESH_MAUSOLEUM_LESSER</Tag>
 		<English>Lesser Mausoleum (I)</English>
-		<French>Mausolï¿½e mineur (I)</French>
+		<French>Mausolée mineur (I)</French>
 		<German>Unbedeutendes Mausoleum (I)</German>
 		<Italian>Lesser Mausoleum (I)</Italian>
 		<Spanish>Lesser Mausoleum (I)</Spanish>
@@ -419,7 +419,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DTESH_MAUSOLEUM_LESSER_PEDIA</Tag>
 		<English>The lesser mausoleum is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster. A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</English>
-		<French>Le Mausolï¿½e Mineur est un amï¿½nagement basique qui ne nï¿½cessite aucune technologie prï¿½alable pour sa construction. Une fois la technologie [LINK=TECH_CONSTRUCTION]Construction[\LINK] dï¿½couverte, les ouvriers construiront les Mausolï¿½es Mineurs 75% plus vite. Un ouvrier ayant la promotion [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Spï¿½cialiste des mausolï¿½es[\LINK] peut construire directement un mausolï¿½e (plutï¿½t qu'un mausolï¿½e mineur)</French>
+		<French>Le Mausolée Mineur est un aménagement basique qui ne nécessite aucune technologie préalable pour sa construction. Une fois la technologie [LINK=TECH_CONSTRUCTION]Construction[\LINK] découverte, les ouvriers construiront les Mausolées Mineurs 75% plus vite. Un ouvrier ayant la promotion [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Spécialiste des mausolées[\LINK] peut construire directement un mausolée (plutôt qu'un mausolée mineur)</French>
 		<German>The lesser mausoleum is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster. A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</German>
 		<Italian>The lesser mausoleum is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster. A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</Italian>
 		<Spanish>The lesser mausoleum is a basic improvement (there is no prerequisite technology to build them). After your civilization has developed [LINK=TECH_CONSTRUCTION]Construction[\LINK], workers build them 75% faster. A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</Spanish>
@@ -427,7 +427,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DTESH_MAUSOLEUM</Tag>
 		<English>Mausoleum (II)</English>
-		<French>Mausolï¿½e (II)</French>
+		<French>Mausolée (II)</French>
 		<German>Mausoleum (II)</German>
 		<Italian>Mausoleum (II)</Italian>
 		<Spanish>Mausoleum (II)</Spanish>
@@ -435,7 +435,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DTESH_MAUSOLEUM_PEDIA</Tag>
 		<English>A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</English>
-		<French>Un ouvrier ayant la promotion [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Spï¿½cialiste des mausolï¿½es[\LINK] peut construire directement un mausolï¿½e (plutï¿½t qu'un mausolï¿½e mineur)</French>
+		<French>Un ouvrier ayant la promotion [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Spécialiste des mausolées[\LINK] peut construire directement un mausolée (plutôt qu'un mausolée mineur)</French>
 		<German>A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</German>
 		<Italian>A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</Italian>
 		<Spanish>A worker with [LINK=PROMOTION_MAUSOLEUM_SPECIALIST]Mausoleum Specialist[\LINK] can directly build a mausoleum instead of a lesser mausoleum.</Spanish>
@@ -443,7 +443,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DTESH_MAUSOLEUM_GREATER</Tag>
 		<English>Greater Mausoleum (III)</English>
-		<French>Mausolï¿½e majeur (III)</French>
+		<French>Mausolée majeur (III)</French>
 		<German>Bedeutendes Mausoleum (III)</German>
 		<Italian>Greater Mausoleum (III)</Italian>
 		<Spanish>Greater Mausoleum (III)</Spanish>
@@ -451,7 +451,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_MAUSOLEUM_SPECIALIST</Tag>
 		<English>Mausoleum Specialist</English>
-		<French>Spï¿½cialiste des mausolï¿½es</French>
+		<French>Spécialiste des mausolées</French>
 		<German>Mausoleumspezialist</German>
 		<Italian>Mausoleum Specialist</Italian>
 		<Spanish>Mausoleum Specialist</Spanish>
@@ -468,7 +468,7 @@
 		<Tag>TXT_KEY_IMPROVEMENT_DTESH_CRYPT_DEFILED</Tag>
 		<English>Defiled Crypt</English>
 		<French>
-			<Text>Crypte profanï¿½e</Text>
+			<Text>Crypte profanée</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -479,7 +479,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_PASTURE_CORRUPTED</Tag>
 		<English>Build a [LINK=IMPROVEMENT_PASTURE_CORRUPTED]Corrupted Pasture[\LINK]</English>
-		<French>Construire un [LINK=IMPROVEMENT_PASTURE_CORRUPTED]Pï¿½turage Corrompu[\LINK]</French>
+		<French>Construire un [LINK=IMPROVEMENT_PASTURE_CORRUPTED]Pâturage Corrompu[\LINK]</French>
 		<German>Errichtet [LINK=IMPROVEMENT_PASTURE_CORRUPTED]Verdorbenes Weideland[\LINK]</German>
 		<Italian>Build a [LINK=IMPROVEMENT_PASTURE_CORRUPTED]Corrupted Pasture[\LINK]</Italian>
 		<Spanish>Build a [LINK=IMPROVEMENT_PASTURE_CORRUPTEDT]Corrupted Pasture[\LINK]</Spanish>
@@ -487,7 +487,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_PASTURE_CORRUPTED</Tag>
 		<English>Corrupted Pasture</English>
-		<French>Pï¿½turage Corrompu</French>
+		<French>Pâturage Corrompu</French>
 		<German>Verdorbenes Weideland</German>
 		<Italian>Corrupted Pasture</Italian>
 		<Spanish>Corrupted Pasture</Spanish>
@@ -495,7 +495,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DTESH_PYRE</Tag>
 		<English>Pyre</English>
-		<French>Bï¿½cher</French>
+		<French>Bûcher</French>
 		<German>Scheiterhaufen</German>
 		<Italian>Pyre</Italian>
 		<Spanish>Pyre</Spanish>
@@ -503,7 +503,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DTESH_PYRE_AQUATIC</Tag>
 		<English>Aquatic Pyre</English>
-		<French>Bï¿½cher aquatique</French>
+		<French>Bûcher aquatique</French>
 		<German>Aquatic Pyre</German>
 		<Italian>Aquatic Pyre</Italian>
 		<Spanish>Aquatic Pyre</Spanish>
@@ -511,7 +511,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_DTESH_PYRE_AQUATIC_HELP</Tag>
 		<English>[ICON_BULLET][COLOR_WARNING_TEXT]Removes all Features and Resources from the plot[COLOR_REVERT]</English>
-		<French>[ICON_BULLET][COLOR_WARNING_TEXT]Dï¿½truit toutes les amï¿½liorations et ressources de la case[COLOR_REVERT]</French>
+		<French>[ICON_BULLET][COLOR_WARNING_TEXT]Détruit toutes les améliorations et ressources de la case[COLOR_REVERT]</French>
 		<German>[ICON_BULLET][COLOR_WARNING_TEXT]Removes all Features and Resources from the plot[COLOR_REVERT]</German>
 		<Italian>[ICON_BULLET][COLOR_WARNING_TEXT]Removes all Features and Resources from the plot[COLOR_REVERT]</Italian>
 		<Spanish>[ICON_BULLET][COLOR_WARNING_TEXT]Removes all Features and Resources from the plot[COLOR_REVERT]</Spanish>
@@ -527,7 +527,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_REFINERY_PEDIA</Tag>
 		<English>"I am telling you, it is not natural. This is the fifth case this month alone! How can I keep the energy flowing if all my men keep coming down with bloody flux and consumption? I have said it before, I respect Technopriest Alset but somewhere, somehow in this process he has created, there is something that is making my men sicken and die!"[NEWLINE][PARAGRAPH:1]Foreman Anacleto to visiting dignitaries to the initial prototype refinery[NEWLINE][NEWLINE]HISTORY: Fearing magic to be a tether to the gods, Mechanos technopriests strove long and hard to find a way to harness this energy without resorting to the magics so intertwined with the Gods of Erebus. Finally the great technopriest Alset discovered that certain crystals could be imbued with a mana like power from the nodes if those nodes were properly "excited" by a combination of solar energy and rhythmic tonal pulses. These crystals could later be used as batteries to power many of the most wonderful devices of the Mechanos. However this came at a terrible price of thousands of Mechanos workers who died slow and painful deaths before it was learned of the harmful radiation generated in the process.</English>
-		<French>"Je vous le dit, ce n'est pas naturel. C'est le cinquiï¿½me cas, rien que ce mois-ci ! Comment puis-je maintenir le flux d'ï¿½nergie si mes hommes continuent de s'ï¿½tioler ? Je l'ai dï¿½jï¿½ dit, je respecte le Technoprï¿½tre Alset mais d'unecertaine maniï¿½re, quelque part dans le processus qu'il a crï¿½ï¿½, il y a quelque chose qui rend mes hommes malade et les tue !" - Contremaï¿½tre Anacleto lors de la visite de dignitaires du prototype initial de raffinerie.[NEWLINE][NEWLINE]HISTOIRE : Craignant que la Magie soit un moyen de contrï¿½le des dieux, les technoprï¿½tres Mechanos chechï¿½rent fort et longtemps un moyen d'utiliser cette ï¿½nergie sans s'adonner ï¿½ la magie, ï¿½troitement liï¿½e aux dieux d'Erebus. Finalement, le grand technoprï¿½tre Alset dï¿½couvrit qu'il ï¿½tait possible d'insuffler ï¿½ certains cristaux un ï¿½quivalent de la mana ï¿½ partir des N&#156;uds, ï¿½ condition que ces N&#156;uds soient correctement "excitï¿½s" par une combianison d'ï¿½nergie solaire et de pulsations tonales rythmiques. Ces cristaux pouvaient ï¿½tre utilisï¿½s par la suite comme batteries pour alimenter la plupart des merveilleux appareils des Mechanos. Cependant le prix ï¿½ payer fut terrible : la mort lente et douloureuse de milliers d'ouvriers Mechanos avant la dï¿½couverte des radiations nocives gï¿½nï¿½rï¿½es lors du processus.</French>
+		<French>"Je vous le dit, ce n'est pas naturel. C'est le cinquième cas, rien que ce mois-ci ! Comment puis-je maintenir le flux d'énergie si mes hommes continuent de s'étioler ? Je l'ai déjà dit, je respecte le Technoprêtre Alset mais d'unecertaine manière, quelque part dans le processus qu'il a créé, il y a quelque chose qui rend mes hommes malade et les tue !" - Contremaître Anacleto lors de la visite de dignitaires du prototype initial de raffinerie.[NEWLINE][NEWLINE]HISTOIRE : Craignant que la Magie soit un moyen de contrôle des dieux, les technoprêtres Mechanos chechèrent fort et longtemps un moyen d'utiliser cette énergie sans s'adonner à la magie, étroitement liée aux dieux d'Erebus. Finalement, le grand technoprêtre Alset découvrit qu'il était possible d'insuffler à certains cristaux un équivalent de la mana à partir des N&#156;uds, à condition que ces N&#156;uds soient correctement "excités" par une combianison d'énergie solaire et de pulsations tonales rythmiques. Ces cristaux pouvaient être utilisés par la suite comme batteries pour alimenter la plupart des merveilleux appareils des Mechanos. Cependant le prix à payer fut terrible : la mort lente et douloureuse de milliers d'ouvriers Mechanos avant la découverte des radiations nocives générées lors du processus.</French>
 		<German>"I am telling you, it is not natural. This is the fifth case this month alone! How can I keep the energy flowing if all my men keep coming down with bloody flux and consumption? I have said it before, I respect Technopriest Alset but the somewhere, somehow in this process he has created, there is something that is making my men sicken and die!"[NEWLINE][PARAGRAPH:1]Foreman Anacleto to visiting dignitaries to the initial prototype refinery[NEWLINE][NEWLINE]HISTORY: Fearing magic to be a tether to the gods, Mechanos technopriests stroved long and hard to find a way to harness this energy without resorting to the magics so intertwined with the Gods of Erebus. Finally the great technopriest Alset discovered that if certain crystals could be imbued with a mana like power from the nodes if those nodes were properly "excited" by a combination of solar energy and rhythmic tonal pulses. These crystals could later be used as batteries to power many of the most wonderful devices of theMechanos. However this came at a terrible price of thousands of Mechanos workers who died slow and painful deaths before it was learned of the harmful radiation generated in the process.</German>
 		<Italian>"I am telling you, it is not natural. This is the fifth case this month alone! How can I keep the energy flowing if all my men keep coming down with bloody flux and consumption? I have said it before, I respect Technopriest Alset but the somewhere, somehow in this process he has created, there is something that is making my men sicken and die!"[NEWLINE][PARAGRAPH:1]Foreman Anacleto to visiting dignitaries to the initial prototype refinery[NEWLINE][NEWLINE]HISTORY: Fearing magic to be a tether to the gods, Mechanos technopriests stroved long and hard to find a way to harness this energy without resorting to the magics so intertwined with the Gods of Erebus. Finally the great technopriest Alset discovered that if certain crystals could be imbued with a mana like power from the nodes if those nodes were properly "excited" by a combination of solar energy and rhythmic tonal pulses. These crystals could later be used as batteries to power many of the most wonderful devices of theMechanos. However this came at a terrible price of thousands of Mechanos workers who died slow and painful deaths before it was learned of the harmful radiation generated in the process.</Italian>
 		<Spanish>"I am telling you, it is not natural. This is the fifth case this month alone! How can I keep the energy flowing if all my men keep coming down with bloody flux and consumption? I have said it before, I respect Technopriest Alset but the somewhere, somehow in this process he has created, there is something that is making my men sicken and die!"[NEWLINE][PARAGRAPH:1]Foreman Anacleto to visiting dignitaries to the initial prototype refinery[NEWLINE][NEWLINE]HISTORY: Fearing magic to be a tether to the gods, Mechanos technopriests stroved long and hard to find a way to harness this energy without resorting to the magics so intertwined with the Gods of Erebus. Finally the great technopriest Alset discovered that if certain crystals could be imbued with a mana like power from the nodes if those nodes were properly "excited" by a combination of solar energy and rhythmic tonal pulses. These crystals could later be used as batteries to power many of the most wonderful devices of theMechanos. However this came at a terrible price of thousands of Mechanos workers who died slow and painful deaths before it was learned of the harmful radiation generated in the process.</Spanish>
@@ -545,10 +545,10 @@
 		<Spanish>Yaranga</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_WOLF_DEN</Tag>
+		<Tag>TXT_KEY_IMPROVEMENT_DEN_WOLF</Tag>
 		<English>Wolf Lair</English>
-		<French>Taniï¿½re ï¿½ Loups</French>
-		<German>Wolfshï¿½hle</German>
+		<French>Tanière à Loups</French>
+		<German>Wolfshöhle</German>
 		<Italian>Wolf Lair</Italian>
 		<Spanish>Wolf Lair</Spanish>
 	</TEXT>
@@ -572,7 +572,7 @@
 		<Tag>TXT_KEY_IMPROVEMENT_LION_DEN</Tag>
 		<English>Lion Den</English>
 		<French>Antre des Lions</French>
-		<German>Lï¿½wenhï¿½hle</German>
+		<German>Löwenhöhle</German>
 		<Italian>Lion Den</Italian>
 		<Spanish>Guarida de Leones</Spanish>
 	</TEXT>
@@ -627,8 +627,8 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SPIDER_DEN</Tag>
 		<English>Spider Den</English>
-		<French>Cocon d'Araignï¿½e</French>
-		<German>Spinnenhï¿½hle</German>
+		<French>Cocon d'Araignée</French>
+		<German>Spinnenhöhle</German>
 		<Italian>Spider Den</Italian>
 		<Spanish>Spider Den</Spanish>
 	</TEXT>
@@ -636,15 +636,15 @@
 		<Tag>TXT_KEY_IMPROVEMENT_BEAR_DEN</Tag>
 		<English>Bear Den</English>
 		<French>Caverne d'Ours</French>
-		<German>Bï¿½renhï¿½hle</German>
+		<German>Bärenhöhle</German>
 		<Italian>Bear Den</Italian>
 		<Spanish>Guarida de Osos</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_BEAR_DEN_PEDIA</Tag>
 		<English>Spawns bears if it isn't eliminated.</English>
-		<French>[ICON_BULLET]Engendre des Ours s'il n'est pas dï¿½truit.</French>
-		<German>Erzeugt Bï¿½ren wenn es nicht zerstï¿½rt wird.</German>
+		<French>[ICON_BULLET]Engendre des Ours s'il n'est pas détruit.</French>
+		<German>Erzeugt Bären wenn es nicht zerstört wird.</German>
 		<Italian>Spawns bears if it isn't eliminated.</Italian>
 		<Spanish>Genera osos si no es eliminado.</Spanish>
 	</TEXT>
@@ -657,7 +657,7 @@
 			<Plural>0:1</Plural>
 		</French>
 		<German>
-			<Text>Kï¿½fig</Text>
+			<Text>Käfig</Text>
 			<Gender>Male</Gender>
 			<Plural>0</Plural>
 		</German>
@@ -675,8 +675,8 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_CASTLE</Tag>
 		<English>Castle</English>
-		<French>Chï¿½teau</French>
-		<German>Schloï¿½</German>
+		<French>Château</French>
+		<German>Schloß</German>
 		<Italian>Castle</Italian>
 		<Spanish>Castillo</Spanish>
 	</TEXT>
@@ -708,7 +708,7 @@
 		<Tag>TXT_KEY_IMPROVEMENT_BLIGHTED_FOREST</Tag>
 		<English>Blighted Forest</English>
 		<French>
-			<Text>Forï¿½t parasitï¿½e:Forï¿½ts parasitï¿½es</Text>
+			<Text>Forêt parasitée:Forêts parasitées</Text>
 			<Gender>Female</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -1128,7 +1128,7 @@
 		<Tag>TXT_KEY_IMPROVEMENT_DUNGEON_PEDIA</Tag>
 		<English>There are thousands of different kinds of dungeons spread across Erebus, some abandoned with forgotten treasures available for the taking, others are the lairs for dark creatures. The only way to tell the difference between the two is to explore them.</English>
 		<French>There are thousands of different kinds of dungeons spread across Erebus, some abandoned with forgotten treasures available for the taking, others are the lairs for dark creatures. The only way to tell the difference between the two is to explore them.</French>
-		<German>Es gibt Tausende verschiedene Arten von Dungeons ï¿½berall auf Erebus, einige verlassen, aber gefï¿½llt mit vergessenen Schï¿½tzen fï¿½r denjenigen, der sie sich nehmen mï¿½chte, andere sind Heimat fï¿½r dunkle Kreaturen. Der einzige Weg, um den Unterschied zwischen beiden herauszufinden, ist, sie zu erkunden.</German>
+		<German>Es gibt Tausende verschiedene Arten von Dungeons überall auf Erebus, einige verlassen, aber gefüllt mit vergessenen Schätzen für denjenigen, der sie sich nehmen möchte, andere sind Heimat für dunkle Kreaturen. Der einzige Weg, um den Unterschied zwischen beiden herauszufinden, ist, sie zu erkunden.</German>
 		<Italian>There are thousands of different kinds of dungeons spread across Erebus, some abandoned with forgotten treasures available for the taking, others are the lairs for dark creatures. The only way to tell the difference between the two is to explore them.</Italian>
 		<Spanish>There are thousands of different kinds of dungeons spread across Erebus, some abandoned with forgotten treasures available for the taking, others are the lairs for dark creatures. The only way to tell the difference between the two is to explore them.</Spanish>
 	</TEXT>
@@ -1156,7 +1156,7 @@
 		<Tag>TXT_KEY_IMPROVEMENT_GRAVEYARD</Tag>
 		<English>Graveyard</English>
 		<French>
-			<Text>Cimetiï¿½re:Cimetiï¿½res</Text>
+			<Text>Cimetière:Cimetières</Text>
 			<Gender>Male</Gender>
 			<Plural>0:1</Plural>
 		</French>
@@ -1168,23 +1168,23 @@
 		<Tag>TXT_KEY_IMPROVEMENT_GRAVEYARD_PEDIA</Tag>
 		<English>Casting Raise Skeleton on a graveyard will grant you 3 skeletons. Casting Sanctify on a graveyard grants a free Law Bringer. Robbing a graveyard produces random results. Casting Resurrection in a graveyard produces a free Champion.</English>
 		<French>Casting Raise Skeleton on a graveyard will grant you 3 skeletons. Casting Sanctify on a graveyard grants a free Law Bringer. Robbing a graveyard produces random results. Casting Resurrection in a graveyard produces a free Champion.</French>
-		<German>Wird der Zauber "Skelett erschaffen" auf einem Friedhof gewirkt, erheben sich 3 Skelette aus der Erde. Der Zauber "Heiligen" gewï¿½hrt einen kostenlosen Rechtsprecher, wenn er auf einem Friedhof gewirkt wird. Der Zauber "Auferstehung" gewï¿½hrt einen kostenlosen Waffenmeister, wenn er auf einem Friedhof gewirkt wird. Einen Friedhof zu plï¿½ndern, erbringt zufï¿½llige Ergebnisse.</German>
+		<German>Wird der Zauber "Skelett erschaffen" auf einem Friedhof gewirkt, erheben sich 3 Skelette aus der Erde. Der Zauber "Heiligen" gewährt einen kostenlosen Rechtsprecher, wenn er auf einem Friedhof gewirkt wird. Der Zauber "Auferstehung" gewährt einen kostenlosen Waffenmeister, wenn er auf einem Friedhof gewirkt wird. Einen Friedhof zu plündern, erbringt zufällige Ergebnisse.</German>
 		<Italian>Casting Raise Skeleton on a graveyard will grant you 3 skeletons. Casting Sanctify on a graveyard grants a free Law Bringer. Robbing a graveyard produces random results. Casting Resurrection in a graveyard produces a free Champion.</Italian>
-		<Spanish>Al lanzar Alzar Esqueleto sobre un cementerio te darï¿½ 3 esqueletos.  Al lanzar Santificar sobre un cementerio da gratis un Heraldo de la Ley.  Saquear un cementerio produce resultados aleatorios.  Lanzar Resurrecciï¿½n en un cementerio produce un Campeï¿½n gratis.</Spanish>
+		<Spanish>Al lanzar Alzar Esqueleto sobre un cementerio te dará 3 esqueletos.  Al lanzar Santificar sobre un cementerio da gratis un Heraldo de la Ley.  Saquear un cementerio produce resultados aleatorios.  Lanzar Resurrección en un cementerio produce un Campeón gratis.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_HELLFIRE</Tag>
 		<English>Hellfire</English>
 		<French>Feu d'Enfer</French>
-		<German>Hï¿½llenfeuer</German>
+		<German>Höllenfeuer</German>
 		<Italian>Hellfire</Italian>
 		<Spanish>Fuego Infernal</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_HELLFIRE_PEDIA</Tag>
 		<English>Spawns demons if it isn't eliminated.</English>
-		<French>[ICON_BULLET]Gï¿½nï¿½rent des dï¿½mons s'ils ne sont pas ï¿½liminï¿½s</French>
-		<German>Erzeugt Dï¿½monen bis es Zerstï¿½rt wird</German>
+		<French>[ICON_BULLET]Génèrent des démons s'ils ne sont pas éliminés</French>
+		<German>Erzeugt Dämonen bis es Zerstört wird</German>
 		<Italian>Spawns demons if it isn't eliminated.</Italian>
 		<Spanish>Genera demonios si no es eliminado.</Spanish>
 	</TEXT>
@@ -1208,7 +1208,7 @@
 		<Tag>TXT_KEY_IMPROVEMENT_MANA_BODY</Tag>
 		<English>Body Node</English>
 		<French>N&#156;ud de Corps</French>
-		<German>Manabrunnen Kï¿½rpermagie</German>
+		<German>Manabrunnen Körpermagie</German>
 		<Italian>Body Node</Italian>
 		<Spanish>Nodo de Cuerpo</Spanish>
 	</TEXT>
@@ -1223,10 +1223,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MANA_CREATION</Tag>
 		<English>Creation Node</English>
-		<French>N&#156;ud de Crï¿½ation</French>
-		<German>Manabrunnen Schï¿½pfungsmagie</German>
+		<French>N&#156;ud de Création</French>
+		<German>Manabrunnen Schöpfungsmagie</German>
 		<Italian>Creation Node</Italian>
-		<Spanish>Nodo de Creaciï¿½n</Spanish>
+		<Spanish>Nodo de Creación</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MANA_DEATH</Tag>
@@ -1258,7 +1258,7 @@
 		<French>N&#156;ud d'Entropie</French>
 		<German>Manabrunnen Entropiemagie</German>
 		<Italian>Entropy Node</Italian>
-		<Spanish>Nodo de Entropï¿½a</Spanish>
+		<Spanish>Nodo de Entropía</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MANA_FIRE</Tag>
@@ -1287,7 +1287,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MANA_METAMAGIC</Tag>
 		<English>Metamagic Node</English>
-		<French>N&#156;ud de Mï¿½tamagie</French>
+		<French>N&#156;ud de Métamagie</French>
 		<German>Manabrunnen Metamagie</German>
 		<Italian>Metamagic Node</Italian>
 		<Spanish>Nodo de Metamagia</Spanish>
@@ -1295,7 +1295,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MANA_MIND</Tag>
 		<English>Mind Node</English>
-		<French>N&#156;ud de Pensï¿½e</French>
+		<French>N&#156;ud de Pensée</French>
 		<German>Manabrunnen Geistesmagie</German>
 		<Italian>Mind Node</Italian>
 		<Spanish>Nodo de Mente</Spanish>
@@ -1314,7 +1314,7 @@
 		<French>N&#156;ud d'Ombre</French>
 		<German>Manabrunnen Schattenmagie</German>
 		<Italian>Shadow Node</Italian>
-		<Spanish>Nodo Sombrï¿½o</Spanish>
+		<Spanish>Nodo Sombrío</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MANA_SPIRIT</Tag>
@@ -1322,7 +1322,7 @@
 		<French>N&#156;ud d'Esprit</French>
 		<German>Manabrunnen Seelenmagie</German>
 		<Italian>Spirit Node</Italian>
-		<Spanish>Nodo de Espï¿½ritu</Spanish>
+		<Spanish>Nodo de Espíritu</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MANA_SUN</Tag>
@@ -1343,7 +1343,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_MONSTER_SKELETON</Tag>
 		<English>Ancient Skeleton</English>
-		<French>Squelette fossilisï¿½</French>
+		<French>Squelette fossilisé</French>
 		<German>Antikes Skelett</German>
 		<Italian>Ancient Skeleton</Italian>
 		<Spanish>Ancient Skeleton</Spanish>
@@ -1364,7 +1364,7 @@
 		<Tag>TXT_KEY_IMPROVEMENT_NECROTOTEM_PEDIA</Tag>
 		<English>The totems are said to be manufactured in hell itself and planted here in Erebus as a sign of hell's growing power. Regardless of their origin their effect is felt by any that come near, an overpowering fear that sends even the bravest running away from the totem</English>
 		<French>The totems are said to be manufactured in hell itself and planted here in Erebus as a sign of hell's growing power. Regardless of their origin their effect is felt by any that come near, an overpowering fear that sends even the bravest running away from the totem</French>
-		<German>Es heiï¿½t, die Totems werden in der Hï¿½lle selbst hergestellt und hier auf Erebus als Zeichen der wachsenden Macht der Hï¿½lle aufgestellt. Ungeachtet ihrer Herkunft ist ihr Effekt bei jedem zu beobachten, der sich ihnen nï¿½hert, ein ï¿½berwï¿½ltigendes Angstgefï¿½hl, das selbst die Mutigsten vor dem Totem davonrennen lï¿½sst.</German>
+		<German>Es heißt, die Totems werden in der Hölle selbst hergestellt und hier auf Erebus als Zeichen der wachsenden Macht der Hölle aufgestellt. Ungeachtet ihrer Herkunft ist ihr Effekt bei jedem zu beobachten, der sich ihnen nähert, ein überwältigendes Angstgefühl, das selbst die Mutigsten vor dem Totem davonrennen lässt.</German>
 		<Italian>The totems are said to be manufactured in hell itself and planted here in Erebus as a sign of hell's growing power. Regardless of their origin their effect is felt by any that come near, an overpowering fear that sends even the bravest running away from the totem</Italian>
 		<Spanish>The totems are said to be manufactured in hell itself and planted here in Erebus as a sign of hell's growing power. Regardless of their origin their effect is felt by any that come near, an overpowering fear that sends even the bravest running away from the totem</Spanish>
 	</TEXT>
@@ -1374,7 +1374,7 @@
 		<French>Manchots</French>
 		<German>Pinguine</German>
 		<Italian>Pinguini</Italian>
-		<Spanish>Pingï¿½inos</Spanish>
+		<Spanish>Pingüinos</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_COVE</Tag>
@@ -1391,8 +1391,8 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_PIRATE_COVE_PEDIA</Tag>
 		<English>Pirate Coves are available to civilizations that start with the seafaring tech (the Lanun).[NEWLINE][ICON_BULLET]While in a cove ships gain a defensive bonus, increased healing, and a slightly better sight range.[NEWLINE][ICON_BULLET]A cove can't be built within 3 tiles of another cove.</English>
-		<French>[ICON_BULLET]La Crique Pirate est seulement disponible pour les civilisations qui commencent avec la technologie Navigation (les Lanuns). Cela permet aux ouvriers de crï¿½er une crique sur une case de cï¿½te (possï¿½dï¿½e par le joueur ou non possï¿½dï¿½e) dans laquelle les navires peuvent entrer. Tant qu'ils sont dans la crique, les navires gagnent en dï¿½fense, augmente le taux de guï¿½rison et un champ de vision lï¿½gï¿½rement meilleur. Si une crique est dans une case possï¿½dï¿½e par le joueur, elle fournit une petite quantitï¿½ d'or. Une crique ne peut ï¿½tre construite ï¿½ moins de trois cases d'une autre crique.</French>
-		<German>Die Piratenbucht steht nur Zivilisationen zur Verfï¿½gung, die mit der Bootsbau-Technologie beginnen (die Lanun) [NEWLINE][ICON_BULLET] Wï¿½hrend Schiffe in einer Bucht liegen, erhalten sie einen Defensivbonus und eine leicht erhï¿½hte Sichtweite, auï¿½erdem sie heilen schneller.[NEWLINE][ICON_BULLET] Eine Bucht muss mindestens 3 Gelï¿½ndefelder Abstand zur nï¿½chsten haben.</German>
+		<French>[ICON_BULLET]La Crique Pirate est seulement disponible pour les civilisations qui commencent avec la technologie Navigation (les Lanuns). Cela permet aux ouvriers de créer une crique sur une case de côte (possédée par le joueur ou non possédée) dans laquelle les navires peuvent entrer. Tant qu'ils sont dans la crique, les navires gagnent en défense, augmente le taux de guérison et un champ de vision légèrement meilleur. Si une crique est dans une case possédée par le joueur, elle fournit une petite quantité d'or. Une crique ne peut être construite à moins de trois cases d'une autre crique.</French>
+		<German>Die Piratenbucht steht nur Zivilisationen zur Verfügung, die mit der Bootsbau-Technologie beginnen (die Lanun) [NEWLINE][ICON_BULLET] Während Schiffe in einer Bucht liegen, erhalten sie einen Defensivbonus und eine leicht erhöhte Sichtweite, außerdem sie heilen schneller.[NEWLINE][ICON_BULLET] Eine Bucht muss mindestens 3 Geländefelder Abstand zur nächsten haben.</German>
 		<Italian>Pirate Coves are available to civilizations that start with the seafaring tech (the Lanun).[NEWLINE][ICON_BULLET]While in a cove ships gain a defensive bonus, increased healing, and a slightly better sight range.[NEWLINE][ICON_BULLET]A cove can't be built within 3 tiles of another cove.</Italian>
 		<Spanish>Pirate Coves can only available to civilizations that start with the seafaring tech (the Lanun).[NEWLINE][ICON_BULLET]While in a cove ships gain a defensive bonus, increased healing, and a slightly better sight range.[NEWLINE][ICON_BULLET]A cove can't be built within 3 tiles of another cove.</Spanish>
 	</TEXT>
@@ -1423,7 +1423,7 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SHIP_WRECK</Tag>
 		<English>Ship Wreck</English>
-		<French>ï¿½pave de navire</French>
+		<French>Épave de navire</French>
 		<German>
 			<Text>Schiffswrack</Text>
 			<Gender>Neuter</Gender>
@@ -1436,7 +1436,7 @@
 		<Tag>TXT_KEY_IMPROVEMENT_SHIP_WRECK_PEDIA</Tag>
 		<English>Some occurred decades ago, for some it was centuries. In either case treasures may remain among the wreckage or monsters may lay in wait beneath them.</English>
 		<French>Some occurred decades ago, for some it was centuries. In either case treasures may remain among the wreckage or monsters may lay in wait beneath them.</French>
-		<German>Fï¿½r manche geschah es vor Jahrzehnten, fï¿½r andere waren es Jahrhunderte. In jedem Fall kï¿½nnen entweder Schï¿½tze in den Trï¿½mmern verborgen sein oder Monster in ihnen lauern.</German>
+		<German>Für manche geschah es vor Jahrzehnten, für andere waren es Jahrhunderte. In jedem Fall können entweder Schätze in den Trümmern verborgen sein oder Monster in ihnen lauern.</German>
 		<Italian>Some occurred decades ago, for some it was centuries. In either case treasures may remain among the wreckage or monsters may lay in wait beneath them.</Italian>
 		<Spanish>Some occurred decades ago, for some it was centuries. In either case treasures may remain among the wreckage or monsters may lay in wait beneath them.</Spanish>
 	</TEXT>
@@ -1444,7 +1444,7 @@
 		<Tag>TXT_KEY_IMPROVEMENT_SMOKE</Tag>
 		<English>Smoke</English>
 		<French>
-			<Text>Fumï¿½e</Text>
+			<Text>Fumée</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</French>
@@ -1455,16 +1455,16 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SMOKE_PEDIA</Tag>
 		<English>Smoke is an early indication that a tile could burst into flames.</English>
-		<French>La Fumï¿½e est une indication prï¿½ventive qu'une case peut s'incendier.</French>
-		<German>Rauch ist ein frï¿½hes Zeichen dafï¿½r das ein Feld bald in Flammen stehen kï¿½nnte.</German>
+		<French>La Fumée est une indication préventive qu'une case peut s'incendier.</French>
+		<German>Rauch ist ein frühes Zeichen dafür das ein Feld bald in Flammen stehen könnte.</German>
 		<Italian>Smoke is an early indication that a tile could burst into flames.</Italian>
-		<Spanish>El humo es una indicaciï¿½n previa de que una casilla podrï¿½a incendiarse.</Spanish>
+		<Spanish>El humo es una indicación previa de que una casilla podría incendiarse.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_SNAKE_PILLAR</Tag>
 		<English>Snake Pillar</English>
 		<French>Pilier Serpent</French>
-		<German>Schlangensï¿½ule</German>
+		<German>Schlangensäule</German>
 		<Italian>Snake Pillar</Italian>
 		<Spanish>Pilar Serpentino</Spanish>
 	</TEXT>
@@ -1483,10 +1483,10 @@
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_TOWER_PEDIA</Tag>
 		<English>[TAB]Built to guard the borders of countries that have long since passed away, the towers still offer a remarkable view of the surrounding lands.</English>
-		<French>[TAB]Construites depuis bien longtemps pour surveiller les frontiï¿½res des pays, les tours offrent toujours une vision remarquable des terres environnantes.</French>
-		<German>[TAB]Gebaut, um die Grenzen von lange verschollenen Lï¿½ndern zu bewachen, ermï¿½glichen diese Tï¿½rme immer noch einen auï¿½ergewï¿½hnlichen Ausblick auf das Land.</German>
+		<French>[TAB]Construites depuis bien longtemps pour surveiller les frontières des pays, les tours offrent toujours une vision remarquable des terres environnantes.</French>
+		<German>[TAB]Gebaut, um die Grenzen von lange verschollenen Ländern zu bewachen, ermöglichen diese Türme immer noch einen außergewöhnlichen Ausblick auf das Land.</German>
 		<Italian>[TAB]Built to guard the borders of countries that have long since passed away, the towers still offer a remarkable view of the surrounding lands.</Italian>
-		<Spanish>[TAB]Construidas para vigilar las fronteras de paï¿½ses desaparecidos hace ya tiempo, las torres aï¿½n ofrecen una vista destacable de las tierras de alrededor.</Spanish>
+		<Spanish>[TAB]Construidas para vigilar las fronteras de países desaparecidos hace ya tiempo, las torres aún ofrecen una vista destacable de las tierras de alrededor.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_WARNING_POST</Tag>
