@@ -142,11 +142,7 @@ def doChanceArchosReplacement(self, iPlayer):
 		getUCC			= pPlayer.getUnitClassCount
 		iNumSpiders		= getUCC(UnitClass["Spider"]) * 1 + getUCC(UnitClass["Giant Spider"]) * 2
 
-		fSpiderkin = 1
-		if pPlayer.hasTrait(Trait["Spiderkin"]):
-			fSpiderkin = 1.30
-
-		iSpiderSpawnChance = ((iNestPop + iNumFeedingPen + (iNumGroves*2)) * fSpiderkin) - iNumSpiders
+		iSpiderSpawnChance = (iNestPop + iNumFeedingPen + (iNumGroves*2)) - iNumSpiders
 		iSpiderSpawnChance = (iSpiderSpawnChance * 100)
 		iSpiderSpawnChance = scaleInverse(iSpiderSpawnChance)
 
