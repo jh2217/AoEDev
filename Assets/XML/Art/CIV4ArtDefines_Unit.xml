@@ -26358,16 +26358,17 @@
 		<UnitArtInfo> <!-- UNIT_ADJUNCT -->
 			<Type>ART_DEF_UNIT_ADJUNCT</Type>
 			<Button>Art/Interface/Buttons/Units/Courtesan.dds</Button>
-			<fScale>0.46</fScale>
+			<fScale>0.43</fScale>
 			<fInterfaceScale>1</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/units/Civs/Mekara/Adjunct/LightSwordsman.nif</NIF>
-			<KFM>Art/Units/Charlemagne_LightSwordsman/LightSwordsman.kfm</KFM>
+			<NIF>art/units/civs/lanun/seahag/medievalspy.nif</NIF>
+			<KFM>art/units/civs/lanun/seahag/medievalspy.kfm</KFM>
+			<SHADERNIF>art/units/civs/lanun/seahag/medievalspy_fx.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>0.9</fShadowScale>
+				<fShadowScale>0.8</fShadowScale>
 			</ShadowDef>
 			<fBattleDistance>0.35</fBattleDistance>
 			<fRangedDeathTime>0.31</fRangedDeathTime>
