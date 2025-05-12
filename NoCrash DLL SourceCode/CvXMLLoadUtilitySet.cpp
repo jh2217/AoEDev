@@ -1012,10 +1012,6 @@ bool CvXMLLoadUtility::LoadPreMenuGlobals()
 	{
 		GC.getBuildingClassInfo((BuildingClassTypes)i).readPass3();
 	}
-	for (int i = 0; i < GC.getNumTraitInfos(); ++i)
-	{
-		GC.getTraitInfo((TraitTypes)i).readPass3();
-	}
 	LoadGlobalClassInfo(GC.getProjectInfo(), "CIV4ProjectInfo", "GameInfo", "Civ4ProjectInfo/ProjectInfos/ProjectInfo", true);
 	for (int i=0; i < GC.getNumVoteSourceInfos(); ++i)
 	{
@@ -1057,6 +1053,10 @@ bool CvXMLLoadUtility::LoadPreMenuGlobals()
 	for (int i=0; i < GC.getNumUnitClassInfos(); ++i)
 	{
 		GC.getUnitClassInfo((UnitClassTypes)i).readPass3();
+	}
+	for (int i = 0; i < GC.getNumTraitInfos(); ++i)
+	{
+		GC.getTraitInfo((TraitTypes)i).readPass3();
 	}
 
 	LoadGlobalClassInfo(GC.getUnitArtStyleTypeInfo(), "CIV4UnitArtStyleTypeInfos", "Civilizations", "Civ4UnitArtStyleTypeInfos/UnitArtStyleTypeInfos/UnitArtStyleTypeInfo", false);

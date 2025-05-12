@@ -6,226 +6,7 @@
 <!-- Unit Infos -->
 <Civ4UnitInfos xmlns="x-schema:Arachnophobia_CIV4UnitSchema.xml">
 	<UnitInfos>
-		<UnitInfo><!-- Spider Huntress -->
-			<Class>UNITCLASS_HORSEMAN</Class>
-			<Type>UNIT_SPIDER_HUNTRESS</Type>
-			<Combat>UNITCOMBAT_MOUNTED</Combat>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_SPIDER_HUNTRESS</Description>
-			<Civilopedia>TXT_KEY_UNIT_HORSEMAN_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_HORSEMAN_STRATEGY</Strategy>
-			<Advisor>ADVISOR_MILITARY</Advisor>
-			<bMilitaryHappiness>1</bMilitaryHappiness>
-			<bMilitarySupport>1</bMilitarySupport>
-			<bMilitaryProduction>1</bMilitaryProduction>
-			<bPillage>1</bPillage>
-			<bNoDefensiveBonus>1</bNoDefensiveBonus>
-			<UnitClassUpgrades>
-				<UnitClassUpgradeType>UNITCLASS_HORSE_ARCHER</UnitClassUpgradeType>
-			</UnitClassUpgrades>
-			<UnitAIs>
-				<UnitAI>
-					<UnitAIType>UNITAI_ATTACK</UnitAIType>
-					<bUnitAI>1</bUnitAI>
-				</UnitAI>
-				<UnitAI>
-					<UnitAIType>UNITAI_PILLAGE</UnitAIType>
-					<bUnitAI>1</bUnitAI>
-				</UnitAI>
-			</UnitAIs>
-			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
-			<FlankingStrikes>
-				<FlankingStrike>
-					<FlankingStrikeUnitCombat>UNITCOMBAT_ADEPT</FlankingStrikeUnitCombat>
-					<bValidUnitCombat>1</bValidUnitCombat>
-				</FlankingStrike>
-				<FlankingStrike>
-					<FlankingStrikeUnitCombat>UNITCOMBAT_SIEGE</FlankingStrikeUnitCombat>
-					<bValidUnitCombat>1</bValidUnitCombat>
-				</FlankingStrike>
-			</FlankingStrikes>
-			<iFlankingDamage>100</iFlankingDamage>
-			<iFlankingDamageLimit>100</iFlankingDamageLimit>
-			<iFlankingDamageMaxUnits>4</iFlankingDamageMaxUnits>
-			<iCost>60</iCost>
-			<iMoves>2</iMoves>
-			<iCombat>3</iCombat>
-			<iFirstStrikes>1</iFirstStrikes>
-			<iWithdrawalProb>25</iWithdrawalProb>
-			<UnitCombatMods>
-				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iUnitCombatMod>25</iUnitCombatMod>
-				</UnitCombatMod>
-			</UnitCombatMods>
-			<iCultureGarrison>4</iCultureGarrison>
-			<iAsset>5</iAsset>
-			<UnitMeshGroups>
-				<iGroupSize>1</iGroupSize>
-				<iMeleeWaveSize>1</iMeleeWaveSize>
-				<iRangedWaveSize>0</iRangedWaveSize>
-				<UnitMeshGroup>
-					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_SPIDER_HUNTRESS</EarlyArtDefineTag>
-				</UnitMeshGroup>
-			</UnitMeshGroups>
-			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
-					<iNumApplied>1</iNumApplied>
-				</FreePromotion>
-			</FreePromotions>
-			<iTier>2</iTier>
-			<DamageTypeCombats>
-				<DamageTypeCombat>
-					<DamageType>DAMAGE_POISON</DamageType>
-					<iCombat>1</iCombat>
-				</DamageTypeCombat>
-			</DamageTypeCombats>
-			<iPowerMult>4</iPowerMult>
-		</UnitInfo>
-		<UnitInfo><!-- Spider Knightess -->
-			<Class>UNITCLASS_HORSE_ARCHER</Class>
-			<Type>UNIT_SPIDER_KNIGHTESS</Type>
-			<Combat>UNITCOMBAT_MOUNTED</Combat>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_SPIDER_KNIGHTESS</Description>
-			<Civilopedia>TXT_KEY_UNIT_HORSE_ARCHER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_HORSE_ARCHER_STRATEGY</Strategy>
-			<Advisor>ADVISOR_MILITARY</Advisor>
-			<bMilitaryHappiness>1</bMilitaryHappiness>
-			<bMilitarySupport>1</bMilitarySupport>
-			<bMilitaryProduction>1</bMilitaryProduction>
-			<bPillage>1</bPillage>
-			<bFirstStrikeImmune>1</bFirstStrikeImmune>
-			<bNoDefensiveBonus>1</bNoDefensiveBonus>
-			<UnitClassUpgrades>
-				<UnitClassUpgradeType>UNITCLASS_KNIGHT</UnitClassUpgradeType>
-			</UnitClassUpgrades>
-			<UnitAIs>
-				<UnitAI>
-					<UnitAIType>UNITAI_ATTACK</UnitAIType>
-					<bUnitAI>1</bUnitAI>
-				</UnitAI>
-				<UnitAI>
-					<UnitAIType>UNITAI_PILLAGE</UnitAIType>
-					<bUnitAI>1</bUnitAI>
-				</UnitAI>
-			</UnitAIs>
-			<PrereqTech>TECH_STIRRUPS</PrereqTech>
-			<FlankingStrikes>
-				<FlankingStrike>
-					<FlankingStrikeUnitCombat>UNITCOMBAT_ADEPT</FlankingStrikeUnitCombat>
-					<bValidUnitCombat>1</bValidUnitCombat>
-				</FlankingStrike>
-				<FlankingStrike>
-					<FlankingStrikeUnitCombat>UNITCOMBAT_SIEGE</FlankingStrikeUnitCombat>
-					<bValidUnitCombat>1</bValidUnitCombat>
-				</FlankingStrike>
-			</FlankingStrikes>
-			<iFlankingDamage>100</iFlankingDamage>
-			<iFlankingDamageLimit>100</iFlankingDamageLimit>
-			<iFlankingDamageMaxUnits>4</iFlankingDamageMaxUnits>
-			<iCost>140</iCost>
-			<iMoves>2</iMoves>
-			<iCombat>6</iCombat>
-			<iFirstStrikes>1</iFirstStrikes>
-			<iWithdrawalProb>35</iWithdrawalProb>
-			<iCultureGarrison>5</iCultureGarrison>
-			<iAsset>9</iAsset>
-			<UnitMeshGroups>
-				<iGroupSize>1</iGroupSize>
-				<iMeleeWaveSize>1</iMeleeWaveSize>
-				<iRangedWaveSize>0</iRangedWaveSize>
-				<UnitMeshGroup>
-					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_SPIDER_KNIGHTESS</EarlyArtDefineTag>
-				</UnitMeshGroup>
-			</UnitMeshGroups>
-			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
-					<iNumApplied>1</iNumApplied>
-				</FreePromotion>
-			</FreePromotions>
-			<iTier>3</iTier>
-			<DamageTypeCombats>
-				<DamageTypeCombat>
-					<DamageType>DAMAGE_POISON</DamageType>
-					<iCombat>1</iCombat>
-				</DamageTypeCombat>
-			</DamageTypeCombats>
-			<iPowerMult>4</iPowerMult>
-		</UnitInfo>
-		<UnitInfo><!-- War Spider -->
-			<Class>UNITCLASS_KNIGHT</Class>
-			<Type>UNIT_WAR_SPIDER</Type>
-			<Combat>UNITCOMBAT_MOUNTED</Combat>
-			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_WAR_SPIDER</Description>
-			<Civilopedia>TXT_KEY_UNIT_KNIGHT_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_KNIGHT_STRATEGY</Strategy>
-			<Advisor>ADVISOR_MILITARY</Advisor>
-			<bMilitaryHappiness>1</bMilitaryHappiness>
-			<bMilitarySupport>1</bMilitarySupport>
-			<bMilitaryProduction>1</bMilitaryProduction>
-			<bPillage>1</bPillage>
-			<bNoDefensiveBonus>1</bNoDefensiveBonus>
-			<UnitAIs>
-				<UnitAI>
-					<UnitAIType>UNITAI_ATTACK</UnitAIType>
-					<bUnitAI>1</bUnitAI>
-				</UnitAI>
-				<UnitAI>
-					<UnitAIType>UNITAI_PILLAGE</UnitAIType>
-					<bUnitAI>1</bUnitAI>
-				</UnitAI>
-			</UnitAIs>
-			<PrereqBuilding>BUILDING_HIPPODROME</PrereqBuilding>
-			<PrereqTech>TECH_ARMORED_CAVALRY</PrereqTech>
-			<iCost>260</iCost>
-			<iMoves>2</iMoves>
-			<iAirRange>1</iAirRange>
-			<iCombat>10</iCombat>
-			<iAirCombat>4</iAirCombat>
-			<iAirCombatLimit>25</iAirCombatLimit>
-			<iWithdrawalProb>35</iWithdrawalProb>
-			<iCultureGarrison>6</iCultureGarrison>
-			<iAsset>22</iAsset>
-			<UnitMeshGroups>
-				<iGroupSize>1</iGroupSize>
-				<iMeleeWaveSize>1</iMeleeWaveSize>
-				<iRangedWaveSize>0</iRangedWaveSize>
-				<UnitMeshGroup>
-					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_WAR_SPIDER</EarlyArtDefineTag>
-				</UnitMeshGroup>
-			</UnitMeshGroups>
-			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
-					<iNumApplied>1</iNumApplied>
-				</FreePromotion>
-			</FreePromotions>
-			<iCombatDefense>9</iCombatDefense>
-			<iTier>4</iTier>
-			<iWeaponTierMax>3</iWeaponTierMax>
-			<DamageTypeCombats>
-				<DamageTypeCombat>
-					<DamageType>DAMAGE_POISON</DamageType>
-					<iCombat>2</iCombat>
-				</DamageTypeCombat>
-			</DamageTypeCombats>
-			<iPowerMult>5</iPowerMult>
-		</UnitInfo>
-		
-		<UnitInfo><!-- Tribesman -->
-			<Class>UNITCLASS_WARRIOR</Class>
-			<Type>UNIT_TRIBESMAN</Type>
-			<iCombatLimit>90</iCombatLimit>
-		</UnitInfo>
-		
-		<UnitInfo><!-- Baby Spider T1 --><!-- Spiders -->
+		<UnitInfo>        <!-- Baby Spider T1 -->
 			<Class>UNITCLASS_BABY_SPIDER</Class>
 			<Type>UNIT_BABY_SPIDER</Type>
 			<Combat>UNITCOMBAT_ANIMAL</Combat>
@@ -234,7 +15,7 @@
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_BABY_SPIDER</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_SPIDER_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_BABY_SPIDER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>1</bAnimal>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -249,6 +30,7 @@
 			</UnitAIs>
 			<iMoves>1</iMoves>
 			<iCombat>1</iCombat>
+			<iWithdrawalProb>20</iWithdrawalProb>
 			<iCityAttack>-25</iCityAttack>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -304,10 +86,10 @@
 					<EarlyArtDefineTag>ART_DEF_UNIT_BABY_SPIDER</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>s
+			<FormationType>FORMATION_TYPE_ANIMAL</FormationType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</UnitInfo>
-		<UnitInfo><!-- Spider T2 -->
+		<UnitInfo>        <!-- Spider T2 -->
 			<Class>UNITCLASS_SPIDER</Class>
 			<Type>UNIT_SPIDER</Type>
 			<Combat>UNITCOMBAT_ANIMAL</Combat>
@@ -316,7 +98,7 @@
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_SPIDER</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_SPIDER_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_SPIDER_STRATEGY_NEW</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>1</bAnimal>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -337,6 +119,7 @@
 			<iMoves>1</iMoves>
 			<iCombat>3</iCombat>
 			<iCityAttack>-25</iCityAttack>
+			<iWorkRate>100</iWorkRate>
 			<TerrainNatives>
 				<TerrainNative>
 					<TerrainType>TERRAIN_MARSH</TerrainType>
@@ -387,7 +170,7 @@
 			</AppearanceTechs>
 			<bForceOverwrite>1</bForceOverwrite>
 		</UnitInfo>
-		<UnitInfo><!-- Giant Spider T3 -->
+		<UnitInfo>        <!-- Giant Spider T3 -->
 			<Class>UNITCLASS_GIANT_SPIDER</Class>
 			<Type>UNIT_GIANT_SPIDER</Type>
 			<Combat>UNITCOMBAT_BEAST</Combat>
@@ -396,7 +179,7 @@
 			<iExtraPerception>2</iExtraPerception>
 			<Description>TXT_KEY_UNIT_GIANT_SPIDER</Description>
 			<Civilopedia>TXT_KEY_MULTI_SPIDER_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_GIANT_SPIDER_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_GIANT_SPIDER_STRATEGY_NEW</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bAnimal>1</bAnimal>
 			<bHiddenNationality>1</bHiddenNationality>
@@ -418,6 +201,7 @@
 			<iMoves>1</iMoves>
 			<iCombat>5</iCombat>
 			<iCityAttack>-25</iCityAttack>
+			<iWorkRate>100</iWorkRate>
 			<TerrainNatives>
 				<TerrainNative>
 					<TerrainType>TERRAIN_MARSH</TerrainType>
@@ -583,11 +367,11 @@
 			</UnitMeshGroups>
 			<FreePromotions>
 				<FreePromotion>
-					<PromotionType>PROMOTION_CANNIBALIZE</PromotionType>
+					<PromotionType>PROMOTION_HERO</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 				<FreePromotion>
-					<PromotionType>PROMOTION_HERO</PromotionType>
+					<PromotionType>PROMOTION_CANNIBALIZE</PromotionType>
 					<iNumApplied>1</iNumApplied>
 				</FreePromotion>
 				<FreePromotion>
@@ -606,7 +390,7 @@
 			<Image>Art/Interface/Popups/Mother.dds</Image>
 			<Quote>TXT_KEY_UNIT_MOTHER_SPIDER_STRATEGY</Quote>
 			<UnitCreateFromCombat>UNIT_BABY_SPIDER</UnitCreateFromCombat>
-			<iUnitCreateFromCombatChance>75</iUnitCreateFromCombatChance>
+			<iUnitCreateFromCombatChance>100</iUnitCreateFromCombatChance>
 			<DamageTypeCombats>
 				<DamageTypeCombat>
 					<DamageType>DAMAGE_POISON</DamageType>
@@ -615,6 +399,372 @@
 			</DamageTypeCombats>
 			<iPowerMult>10</iPowerMult>
 			<bForceOverwrite>1</bForceOverwrite>
+		</UnitInfo>
+		<UnitInfo>        <!-- Deep Enwebbed -->
+			<Class>UNITCLASS_BERSERKER</Class>
+			<Type>UNIT_DEEP_ENWEBBED</Type>
+			<Combat>UNITCOMBAT_MELEE</Combat>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_DEEP_ENWEBBED</Description>
+			<Civilopedia>TXT_KEY_UNIT_DEEP_ENWEBBED_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BERSERKER_STRATEGY</Strategy>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bMilitarySupport>1</bMilitarySupport>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bPillage>1</bPillage>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_PILLAGE</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COLLATERAL</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<PrereqTech>TECH_RAGE</PrereqTech>
+			<iCost>240</iCost>
+			<iMoves>1</iMoves>
+			<iCombat>11</iCombat>
+			<iCombatDefense>5</iCombatDefense>
+			<iFirstStrikes>2</iFirstStrikes>
+			<iChanceFirstStrikes>2</iChanceFirstStrikes>
+			<iCollateralDamage>40</iCollateralDamage>
+			<iCollateralDamageLimit>20</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>4</iCollateralDamageMaxUnits>
+			<iConscription>4</iConscription>
+			<iCultureGarrison>4</iCultureGarrison>
+			<iAsset>26</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<iMeleeWaveSize>1</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BERSERKER_ARCHOS</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_CANNIBALIZE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<UnitCreateFromCombat>UNIT_BABY_SPIDER</UnitCreateFromCombat>
+			<iUnitCreateFromCombatChance>50</iUnitCreateFromCombatChance>
+			<iTier>4</iTier>
+			<iWeaponTierMax>3</iWeaponTierMax>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_POISON</DamageType>
+					<iCombat>1</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
+			<iPowerMult>3</iPowerMult>
+		</UnitInfo>
+		<UnitInfo>        <!-- Mother's Most Faithful -->
+			<Class>UNITCLASS_IMMORTAL</Class>
+			<Type>UNIT_MOTHERS_MOST_FAITHFUL</Type>
+			<Combat>UNITCOMBAT_MELEE</Combat>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MOTHERS_MOST_FAITHFUL</Description>
+			<Civilopedia>TXT_KEY_UNIT_MOTHERS_MOST_FAITHFUL_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_IMMORTAL_STRATEGY</Strategy>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bMilitarySupport>1</bMilitarySupport>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bPillage>1</bPillage>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK_CITY</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<PrereqTech>TECH_DIVINE_ESSENCE</PrereqTech>
+			<iCost>240</iCost>
+			<iMoves>1</iMoves>
+			<iCombat>12</iCombat>
+			<iCombatDefense>7</iCombatDefense>
+			<iFirstStrikes>2</iFirstStrikes>
+			<iChanceFirstStrikes>2</iChanceFirstStrikes>
+			<iCollateralDamage>20</iCollateralDamage>
+			<iCollateralDamageLimit>80</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>4</iCollateralDamageMaxUnits>
+			<iCultureGarrison>4</iCultureGarrison>
+			<iAsset>26</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<iMeleeWaveSize>1</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_IMMORTAL_ARCHOS_NEW</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_CANNIBALIZE</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<bImmortal>1</bImmortal>
+			<iMinLevel>6</iMinLevel>
+			<iTier>4</iTier>
+			<iWeaponTierMax>3</iWeaponTierMax>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_POISON</DamageType>
+					<iCombat>1</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
+		</UnitInfo>
+		<UnitInfo>        <!-- Spiderkin -->
+			<Class>UNITCLASS_BEASTMASTER</Class>
+			<Type>UNIT_SPIDERKIN</Type>
+			<Civilopedia>TXT_KEY_UNIT_SPIDERKIN_PEDIA_NEW</Civilopedia>
+			<UnitMeshGroups>
+				<iGroupSize>4</iGroupSize>
+				<iMeleeWaveSize>4</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BEASTMASTER_ARCHOS</EarlyArtDefineTag>
+				</UnitMeshGroup>
+				<UnitMeshGroup>
+					<iRequired>3</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_SPIDER_PURPLE</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+		</UnitInfo>
+		<UnitInfo>        <!-- Spider Huntress -->
+			<Class>UNITCLASS_HORSEMAN</Class>
+			<Type>UNIT_SPIDER_HUNTRESS</Type>
+			<Combat>UNITCOMBAT_MOUNTED</Combat>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SPIDER_HUNTRESS</Description>
+			<Civilopedia>TXT_KEY_UNIT_HORSEMAN_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HORSEMAN_STRATEGY</Strategy>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bMilitarySupport>1</bMilitarySupport>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bPillage>1</bPillage>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
+			<UnitClassUpgrades>
+				<UnitClassUpgradeType>UNITCLASS_HORSE_ARCHER</UnitClassUpgradeType>
+			</UnitClassUpgrades>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_PILLAGE</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<FlankingStrikes>
+				<FlankingStrike>
+					<FlankingStrikeUnitCombat>UNITCOMBAT_ADEPT</FlankingStrikeUnitCombat>
+					<bValidUnitCombat>1</bValidUnitCombat>
+				</FlankingStrike>
+				<FlankingStrike>
+					<FlankingStrikeUnitCombat>UNITCOMBAT_SIEGE</FlankingStrikeUnitCombat>
+					<bValidUnitCombat>1</bValidUnitCombat>
+				</FlankingStrike>
+			</FlankingStrikes>
+			<iFlankingDamage>100</iFlankingDamage>
+			<iFlankingDamageLimit>100</iFlankingDamageLimit>
+			<iFlankingDamageMaxUnits>4</iFlankingDamageMaxUnits>
+			<iCost>60</iCost>
+			<iMoves>2</iMoves>
+			<iCombat>3</iCombat>
+			<iFirstStrikes>1</iFirstStrikes>
+			<iWithdrawalProb>25</iWithdrawalProb>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
+			<iCultureGarrison>4</iCultureGarrison>
+			<iAsset>5</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<iMeleeWaveSize>1</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_SPIDER_HUNTRESS</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<iTier>2</iTier>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_POISON</DamageType>
+					<iCombat>1</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
+			<iPowerMult>4</iPowerMult>
+		</UnitInfo>
+		<UnitInfo>        <!-- Spider Knightess -->
+			<Class>UNITCLASS_HORSE_ARCHER</Class>
+			<Type>UNIT_SPIDER_KNIGHTESS</Type>
+			<Combat>UNITCOMBAT_MOUNTED</Combat>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SPIDER_KNIGHTESS</Description>
+			<Civilopedia>TXT_KEY_UNIT_HORSE_ARCHER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HORSE_ARCHER_STRATEGY</Strategy>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bMilitarySupport>1</bMilitarySupport>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bPillage>1</bPillage>
+			<bFirstStrikeImmune>1</bFirstStrikeImmune>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
+			<UnitClassUpgrades>
+				<UnitClassUpgradeType>UNITCLASS_KNIGHT</UnitClassUpgradeType>
+			</UnitClassUpgrades>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_PILLAGE</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<PrereqTech>TECH_STIRRUPS</PrereqTech>
+			<FlankingStrikes>
+				<FlankingStrike>
+					<FlankingStrikeUnitCombat>UNITCOMBAT_ADEPT</FlankingStrikeUnitCombat>
+					<bValidUnitCombat>1</bValidUnitCombat>
+				</FlankingStrike>
+				<FlankingStrike>
+					<FlankingStrikeUnitCombat>UNITCOMBAT_SIEGE</FlankingStrikeUnitCombat>
+					<bValidUnitCombat>1</bValidUnitCombat>
+				</FlankingStrike>
+			</FlankingStrikes>
+			<iFlankingDamage>100</iFlankingDamage>
+			<iFlankingDamageLimit>100</iFlankingDamageLimit>
+			<iFlankingDamageMaxUnits>4</iFlankingDamageMaxUnits>
+			<iCost>140</iCost>
+			<iMoves>2</iMoves>
+			<iCombat>6</iCombat>
+			<iFirstStrikes>1</iFirstStrikes>
+			<iWithdrawalProb>35</iWithdrawalProb>
+			<iCultureGarrison>5</iCultureGarrison>
+			<iAsset>9</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<iMeleeWaveSize>1</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_SPIDER_KNIGHTESS</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<iTier>3</iTier>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_POISON</DamageType>
+					<iCombat>1</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
+			<iPowerMult>4</iPowerMult>
+		</UnitInfo>
+		<UnitInfo>        <!-- War Spider -->
+			<Class>UNITCLASS_KNIGHT</Class>
+			<Type>UNIT_WAR_SPIDER</Type>
+			<Combat>UNITCOMBAT_MOUNTED</Combat>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_WAR_SPIDER</Description>
+			<Civilopedia>TXT_KEY_UNIT_KNIGHT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_KNIGHT_STRATEGY</Strategy>
+			<Advisor>ADVISOR_MILITARY</Advisor>
+			<bMilitaryHappiness>1</bMilitaryHappiness>
+			<bMilitarySupport>1</bMilitarySupport>
+			<bMilitaryProduction>1</bMilitaryProduction>
+			<bPillage>1</bPillage>
+			<bNoDefensiveBonus>1</bNoDefensiveBonus>
+			<UnitAIs>
+				<UnitAI>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_PILLAGE</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+			</UnitAIs>
+			<PrereqBuilding>BUILDING_HIPPODROME</PrereqBuilding>
+			<PrereqTech>TECH_ARMORED_CAVALRY</PrereqTech>
+			<iCost>260</iCost>
+			<iMoves>2</iMoves>
+			<iAirRange>1</iAirRange>
+			<iCombat>10</iCombat>
+			<iCombatDefense>9</iCombatDefense>
+			<iAirCombat>4</iAirCombat>
+			<iAirCombatLimit>25</iAirCombatLimit>
+			<iWithdrawalProb>35</iWithdrawalProb>
+			<iCultureGarrison>6</iCultureGarrison>
+			<iAsset>22</iAsset>
+			<UnitMeshGroups>
+				<iGroupSize>1</iGroupSize>
+				<iMeleeWaveSize>1</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
+				<UnitMeshGroup>
+					<iRequired>1</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_WAR_SPIDER</EarlyArtDefineTag>
+				</UnitMeshGroup>
+			</UnitMeshGroups>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
+					<iNumApplied>1</iNumApplied>
+				</FreePromotion>
+			</FreePromotions>
+			<iTier>4</iTier>
+			<iWeaponTierMax>3</iWeaponTierMax>
+			<DamageTypeCombats>
+				<DamageTypeCombat>
+					<DamageType>DAMAGE_POISON</DamageType>
+					<iCombat>2</iCombat>
+				</DamageTypeCombat>
+			</DamageTypeCombats>
+			<iPowerMult>5</iPowerMult>
 		</UnitInfo>
 	</UnitInfos>
 </Civ4UnitInfos>

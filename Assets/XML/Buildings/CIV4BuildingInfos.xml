@@ -3623,6 +3623,7 @@
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAsset>12</iAsset>
 			<fVisibilityPriority>100</fVisibilityPriority>
+			<bOverflowProduction>1</bOverflowProduction> <!-- Enables the city it's in to build multiple things per turn if production suffices -->
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
@@ -12055,6 +12056,7 @@
 					<iProductionTrait>100</iProductionTrait>
 				</ProductionTrait>
 			</ProductionTraits>
+			<bOverflowProduction>1</bOverflowProduction>
 			<GreatPeopleUnitClass>UNITCLASS_ENGINEER</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>1</iGreatPeopleRateChange>
 			<iCost>200</iCost>
@@ -14649,8 +14651,8 @@
 				</ProductionTrait>
 			</ProductionTraits>
 		</BuildingInfo>
-		<BuildingInfo>		<!-- Slave Pens                                                 Mekara UB -->
-			<BuildingClass>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClass>
+		<!-- <BuildingInfo>	-->	<!-- Slave Pens                                                 Mekara UB -->
+		<!--	<BuildingClass>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClass>
 			<Type>BUILDING_PAGAN_TEMPLE_MEKARA</Type>
 			<Description>TXT_KEY_BUILDING_PAGAN_TEMPLE_MEKARA</Description>
 			<Civilopedia>TXT_KEY_BUILDING_PAGAN_TEMPLE_MEKARA_PEDIA</Civilopedia>
@@ -14660,6 +14662,59 @@
 			<ArtDefineTag>ART_DEF_BUILDING_PAGAN_TEMPLE</ArtDefineTag>
 			<PrereqTech>TECH_CRAFTING</PrereqTech>
 			<FreePromotion>PROMOTION_SLAVER</FreePromotion>
+			<ProductionTraits/>
+			<bNeverCapture>1</bNeverCapture>
+			<iCost>60</iCost>
+			<iAdvancedStartCost>100</iAdvancedStartCost>
+			<iConquestProb>0</iConquestProb>
+			<iAsset>3</iAsset>
+			<fVisibilityPriority>1</fVisibilityPriority>
+			<CommerceModifiers>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+			</CommerceModifiers>
+			<YieldChanges>
+				<iYield>0</iYield>
+				<iYield>2</iYield>
+				<iYield>0</iYield>
+			</YieldChanges>
+			<LocalSpecialistYieldChanges>
+				<LocalSpecialistYieldChange>
+					<SpecialistType>SPECIALIST_SLAVE</SpecialistType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</LocalSpecialistYieldChange>
+			</LocalSpecialistYieldChanges>
+			<SpecialistCounts/>
+			<BonusHappinessChanges/>
+			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+					<iFlavor>10</iFlavor>
+				</Flavor>
+			</Flavors>
+			<iCrime>-5</iCrime>
+			<TrainXPRates>
+				<TrainXPRate>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<fTrainXPRate>0.25</fTrainXPRate>
+				</TrainXPRate>
+			</TrainXPRates>
+		</BuildingInfo> -->
+		<BuildingInfo>		<!-- Slave Pens  V2                                               Mekara V2 UB -->
+			<BuildingClass>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClass>
+			<Type>BUILDING_PAGAN_TEMPLE_MEKARA</Type>
+			<Description>TXT_KEY_BUILDING_PAGAN_TEMPLE_MEKARA</Description>
+			<Civilopedia>TXT_KEY_BUILDING_PAGAN_TEMPLE_MEKARA_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_PAGAN_TEMPLE_MEKARA_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_PAGAN_TEMPLE_MEKARA_HELP</Help>
+			<Advisor>ADVISOR_CULTURE</Advisor>
+			<ArtDefineTag>ART_DEF_BUILDING_PAGAN_TEMPLE</ArtDefineTag>
+			<PrereqTech>TECH_CRAFTING</PrereqTech>
 			<ProductionTraits/>
 			<bNeverCapture>1</bNeverCapture>
 			<iCost>60</iCost>

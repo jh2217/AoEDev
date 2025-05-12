@@ -78,33 +78,17 @@ bool CvUnitAI::AI_update()
 	FAssertMsg(canMove(), "canMove is expected to be true");
 	FAssertMsg(isGroupHead(), "isGroupHead is expected to be true"); // XXX is this a good idea???
 
-/*************************************************************************************************/
-/**	Xienwolf Tweak							05/12/09											**/
-/**																								**/
-/**			Places same restrictions on the AI as are placed on the Player for Blindness		**/
-/*************************************************************************************************/
+	// Places same restrictions on the AI as are placed on the Player for Blindness : Xienwolf 05/12/09
 	if (isBlind() && (!plot()->isVisible(getTeam(), false) || !plot()->isRevealed(getTeam(), false)))
 	{
 		finishMoves();
 		return false;
 	}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 	// allow python to handle it
-//FfH: Modified by Kael 10/02/2008
-//	CyUnit* pyUnit = new CyUnit(this);
-//	CyArgsList argsList;
-//	argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
-//	long lResult=0;
-//	gDLL->getPythonIFace()->callFunction(PYGameModule, "AI_unitUpdate", argsList.makeFunctionArgs(), &lResult);
-//	delete pyUnit;	// python fxn must not hold on to this pointer
-//	if (lResult == 1)
-//	{
-//		return false;
-//	}
+	// FfH: Modified by Kael 10/02/2008
 	if (isBarbarian())
 	{
+		claimFort(); // Barbs always try to claim forts before running off : Blazenclaw
 		CyUnit* pyUnit = new CyUnit(this);
 		CyArgsList argsList;
 		argsList.add(gDLL->getPythonIFace()->makePythonObject(pyUnit));	// pass in unit class
@@ -112,32 +96,25 @@ bool CvUnitAI::AI_update()
 		gDLL->getPythonIFace()->callFunction(PYGameModule, "AI_unitUpdate", argsList.makeFunctionArgs(), &lResult);
 		delete pyUnit;	// python fxn must not hold on to this pointer
 		if (lResult == 1)
-		{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							01/04/09											**/
-/**																								**/
-/**					Clearing Asserts and helping the AI stop looping so much					**/
-/*************************************************************************************************/
+		{	
+			// Clearing Asserts and helping the AI stop looping so much : Xienwolf
 			finishMoves();
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 			return false;
 		}
 	}
-//FfH: End Modify
+	//FfH: End Modify
 
-/*************************************************************************************************/
-/**	Xienwolf Tweak							01/04/09											**/
-/**					Clearing Asserts and helping the AI stop looping so much					**/
-/**Near as I can tell, this is refusing to allow the unit to do ANYTHING if it winds up isolated**/
-/**	I personally don't care for that, but it makes sense to keep the AI from trying to move the	**/
-/**	Unit, so need to re-apply this once I figure out how to check for possible missions/spells	**/
-/**				before canceling the unit's ability to make any movements						**/
-/*************************************************************************************************/
+	/*************************************************************************************************/
+	/**	Xienwolf Tweak							01/04/09											**/
+	/**					Clearing Asserts and helping the AI stop looping so much					**/
+	/**Near as I can tell, this is refusing to allow the unit to do ANYTHING if it winds up isolated**/
+	/**	I personally don't care for that, but it makes sense to keep the AI from trying to move the	**/
+	/**	Unit, so need to re-apply this once I figure out how to check for possible missions/spells	**/
+	/**				before canceling the unit's ability to make any movements						**/
+	/*************************************************************************************************/
 
-/**								---- Start Original Code ----									**
-//FfH: Added by Kael 12/22/2007
+	/**								---- Start Original Code ----									**
+	//FfH: Added by Kael 12/22/2007
 	CvPlot* pPlot = plot();
 	CvPlot* pLoopPlot;
 	bool bValid = false;
@@ -160,15 +137,19 @@ bool CvUnitAI::AI_update()
 		getGroup()->pushMission(MISSION_SKIP);
 		return false;
 	}
-//FfH: End Add
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
+	//FfH: End Add
+	/**								----  End Original Code  ----									**/
+	/*************************************************************************************************/
+	/**	Tweak									END													**/
+	/*************************************************************************************************/
 
 	if (getDomainType() == DOMAIN_LAND)
 	{
-		if (plot()->isWater() && !canMoveAllTerrain())
+		// Only ignore land units if they aren't allowed on the water tile
+		if (plot()->isWater()
+		 && !canMoveAllTerrain()
+		 && !plot()->getImprovementType() != NO_IMPROVEMENT
+		 && !GC.getImprovementInfo(plot()->getImprovementType()).isActsAsCity())
 		{
 			getGroup()->pushMission(MISSION_SKIP);
 			return false;
@@ -192,23 +173,13 @@ bool CvUnitAI::AI_update()
 	{
 		return false;
 	}
-/*************************************************************************************************/
-/**	MISSION_CLAIM_FORT						15/06/10									Snarko	**/
-/**																								**/
-/**						Adding a mission for the claim_fort action...							**/
-/**	If we can do it on this plot, let's. Skipping the mission part so we don't disrupt something**/
-/*************************************************************************************************/
-	if (canClaimFort())
-	{
-		claimFort();
-	}
-/*************************************************************************************************/
-/**	MISSION_CLAIM_FORT									END										**/
-/*************************************************************************************************/
 
-//FfH: Added by Kael 10/26/2008
+	//FfH: Added by Kael 10/26/2008
 	if (!isBarbarian())
 	{
+		// Claim fort without mission if we can : MISSION_CLAIM_FORT Snarko 15/06/10
+		claimFort();
+
 		if (getLevel() < 2)
 		{
 			bool bDoesBuild = false;
@@ -232,12 +203,12 @@ bool CvUnitAI::AI_update()
 			}
 		}
 	}
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/30/08											**/
-/**																								**/
-/**							Makes Enraged considerably more aggressive							**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
+	/*************************************************************************************************/
+	/**	Xienwolf Tweak							12/30/08											**/
+	/**																								**/
+	/**							Makes Enraged considerably more aggressive							**/
+	/*************************************************************************************************/
+	/**								---- Start Original Code ----									**
 	if (isHuman())
 	{
 		if (getGroup()->getHeadUnit()->isAIControl())
@@ -249,7 +220,7 @@ bool CvUnitAI::AI_update()
 			AI_barbAttackMove();
 		}
 	}
-/**								----  End Original Code  ----									**/
+	/**								----  End Original Code  ----									**/
 	if (getGroup()->getHeadUnit()->isAIControl())
 	{
 		if (AI_anyAttack(1, 90))
@@ -269,21 +240,13 @@ bool CvUnitAI::AI_update()
 			return true;
 		}
 		AI_summonAttackMove();
-/*************************************************************************************************/
-/**	AITweak								30/05/10							Snarko				**/
-/**																								**/
-/**		Moving on here makes little sense (unit is automated but no automation type set)		**/
-/**							AI_summonAttackMove should be enough								**/
-/*************************************************************************************************/
+		// Moving on here makes little sense (unit is automated but no automation type set) AI_summonAttackMove should be enough : AITweak Snarko 30/05/10
 		return true;
-/*************************************************************************************************/
-/**	AITweak									END													**/
-/*************************************************************************************************/
 	}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-//FfH: End Add
+	/*************************************************************************************************/
+	/**	Tweak									END													**/
+	/*************************************************************************************************/
+	//FfH: End Add
 
 	if (getGroup()->isAutomated())
 	{
@@ -400,13 +363,13 @@ bool CvUnitAI::AI_update()
 
 		case UNITAI_ATTACK:
 
-//Added by Kael 09/19/2007
+			//Added by Kael 09/19/2007
 			if (getDuration() > 0)
 			{
 				AI_summonAttackMove();
 				break;
 			}
-//FfH: End Add
+			//FfH: End Add
 
 			if (isBarbarian())
 			{
@@ -453,14 +416,7 @@ bool CvUnitAI::AI_update()
 			break;
 
 		case UNITAI_EXPLORE:
-/*************************************************************************************************/
-/**	AITweak								07/10/12							Snarko				**/
-/**																								**/
-/**		Making barbarian units set to explore AI more aggressive		**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-			AI_exploreMove();
-/**								----  End Original Code  ----									**/
+			// Making barbarian units set to explore AI more aggressive : AITweak Snarko 07/10/12
 			if (isBarbarian())
 			{
 				AI_barbExploreMove();
@@ -469,9 +425,6 @@ bool CvUnitAI::AI_update()
 			{
 				AI_exploreMove();
 			}
-/*************************************************************************************************/
-/**	AITweak									END													**/
-/*************************************************************************************************/
 			break;
 
 		case UNITAI_MISSIONARY:
@@ -639,11 +592,11 @@ bool CvUnitAI::AI_follow()
 	{
 		return true;
 	}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      03/31/10                              jdog5000        */
-/*                                                                                              */
-/* War tactics AI                                                                               */
-/************************************************************************************************/
+	/************************************************************************************************/
+	/* BETTER_BTS_AI_MOD                      03/31/10                              jdog5000        */
+	/*                                                                                              */
+	/* War tactics AI                                                                               */
+	/************************************************************************************************/
 	// Pushing MISSION_MOVE_TO missions when not all units could move resulted in stack being
 	// broken up on the next turn.  Also, if we can't attack now we don't want to queue up an
 	// attack for next turn, better to re-evaluate.
@@ -673,9 +626,9 @@ bool CvUnitAI::AI_follow()
 			return true;
 		}
 	}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
+	/************************************************************************************************/
+	/* BETTER_BTS_AI_MOD                       END                                                  */
+	/************************************************************************************************/
 
 	if (isFound())
 	{
@@ -1998,43 +1951,7 @@ void CvUnitAI::AI_settleMove()
 	if (AI_AddPopToCity())
 		return;
 
-/*************************************************************************************************/
-/**	Speedup								11/02/12										Snarko	**/
-/**																								**/
-/**		For the few cases where getPlotDanger is still used, use a threshold where possible		**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	int iDanger = GET_PLAYER(getOwnerINLINE()).AI_getPlotDanger(plot(), 3);
-
-	if (iDanger > 0)
-	{
-/*************************************************************************************************/
-/**	Tweak								15/07/10										Snarko	**/
-/**																								**/
-/**							Making settlers not as scared when protected						**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		if ((plot()->getOwnerINLINE() == getOwnerINLINE()) || (iDanger > 2))
-/**								----  End Original Code  ----									**/
-/**								---- Start Original Code ----									**
-		if (iDanger > getGroup()->canFight(true, true))
-		{
-			joinGroup(NULL);
-			if (AI_retreatToCity())
-			{
-				return;
-			}
-			if (AI_safety())
-			{
-				return;
-			}
-			getGroup()->pushMission(MISSION_SKIP);
-		}
-	}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-/**								----  End Original Code  ----									**/
+	// For the few cases where getPlotDanger is still used, use a threshold where possible : Speedup Snarko 11/02/12
 	if (GET_PLAYER(getOwnerINLINE()).AI_getPlotDanger(plot(), 3, true, getGroup()->canFight(true, true)))
 	{
 		joinGroup(NULL);
@@ -2048,9 +1965,6 @@ void CvUnitAI::AI_settleMove()
 		}
 		getGroup()->pushMission(MISSION_SKIP);
 	}
-/*************************************************************************************************/
-/**	Speedup									END													**/
-/*************************************************************************************************/
 
 
 	int iAreaBestFoundValue = 0;
@@ -2059,19 +1973,13 @@ void CvUnitAI::AI_settleMove()
 	for (int iI = 0; iI < GET_PLAYER(getOwnerINLINE()).AI_getNumCitySites(); iI++)
 	{
 		CvPlot* pCitySitePlot = GET_PLAYER(getOwnerINLINE()).AI_getCitySite(iI);
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                       01/10/09                                jdog5000      */
-/*                                                                                              */
-/* Bugfix, settler AI                                                                           */
-/************************************************************************************************/
-/* original bts code
+
+		// Bugfix, settler AI : UNOFFICIAL_PATCH jdog5000 01/10/09
+		/* original bts code
 		if (pCitySitePlot->getArea() == getArea())
-*/
+		*/
 		// Only count city sites we can get to
 		if ((pCitySitePlot->getArea() == getArea() || canMoveAllTerrain()) && generatePath(pCitySitePlot, MOVE_NO_ENEMY_TERRITORY, true))
-/************************************************************************************************/
-/* UNOFFICIAL_PATCH                        END                                                  */
-/************************************************************************************************/
 		{
 			if (plot() == pCitySitePlot)
 			{
@@ -2090,12 +1998,7 @@ void CvUnitAI::AI_settleMove()
 		}
 	}
 
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      01/16/09                                jdog5000      */
-/*                                                                                              */
-/* Gold AI                                                                                      */
-/************************************************************************************************/
-	// No new settling of colonies when AI is in financial trouble
+	// No new settling of colonies when AI is in financial trouble (Gold AI) : BETTER_BTS_AI_MOD jdog5000 01/16/09
 	if( plot()->isCity() && (plot()->getOwnerINLINE() == getOwnerINLINE()) )
 	{
 		if( GET_PLAYER(getOwnerINLINE()).AI_isFinancialTrouble() )
@@ -2103,10 +2006,6 @@ void CvUnitAI::AI_settleMove()
 			iOtherBestFoundValue = 0;
 		}
 	}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
-
 
 	if ((iAreaBestFoundValue == 0) && (iOtherBestFoundValue == 0))
 	{
@@ -2119,25 +2018,17 @@ void CvUnitAI::AI_settleMove()
 
 			if (NULL == getTransportUnit())
 			{
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      11/30/08                                jdog5000      */
-/*                                                                                              */
-/* Unit AI                                                                                      */
-/************************************************************************************************/
-/* original bts code
-				//may seem wasteful, but settlers confuse the AI.
+				//may seem wasteful, but settlers confuse the AI (Unit AI) : BETTER_BTS_AI_MOD jdog5000 11/30/08
+				/* original bts code
 				scrap();
 				return;
-*/
+				*/
 				if( GET_PLAYER(getOwnerINLINE()).AI_unitTargetMissionAIs(getGroup()->getHeadUnit(), MISSIONAI_PICKUP) == 0 )
 				{
 					//may seem wasteful, but settlers confuse the AI.
 					scrap();
 					return;
 				}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
 			}
 		}
 	}
@@ -2153,13 +2044,13 @@ void CvUnitAI::AI_settleMove()
 		}
 	}
 
-/*************************************************************************************************/
-/**	K-mod merger								16/02/12								Snarko	**/
-/**																								**/
-/**					Merging in features of K-mod, most notably the pathfinder					**/
-/*************************************************************************************************/
-// disabled by K-Mod. We go to a lot of trouble to pick good city sites. Don't let this mess it up for us!
-/**								---- Start Original Code ----									**
+	/*************************************************************************************************/
+	/**	K-mod merger								16/02/12								Snarko	**/
+	/**																								**/
+	/**					Merging in features of K-mod, most notably the pathfinder					**/
+	/*************************************************************************************************/
+	// disabled by K-Mod. We go to a lot of trouble to pick good city sites. Don't let this mess it up for us!
+	/**								---- Start Original Code ----									**
 	if ((iAreaBestFoundValue > 0) && plot()->isBestAdjacentFound(getOwnerINLINE()))
 	{
 		if (canFound(plot()))
@@ -2168,22 +2059,13 @@ void CvUnitAI::AI_settleMove()
 			return;
 		}
 	}
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	K-mod merger								END												**/
-/*************************************************************************************************/
+	/**								----  End Original Code  ----									**/
 
-/*************************************************************************************************/
-/**	Improved AI							01/05/11										Snarko	**/
-/**									Adapting AI to RifE											**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
+	// Adapting AI to RifE : Improved AI Snarko 01/05/11
+	/**								---- Start Original Code ----									**
 	if (!GC.getGameINLINE().isOption(GAMEOPTION_ALWAYS_PEACE) && !GC.getGameINLINE().isOption(GAMEOPTION_AGGRESSIVE_AI) && !getGroup()->canDefend())
-/**								----  End Original Code  ----									**/
+	/**								----  End Original Code  ----									**/
 	if (!GC.getGameINLINE().isOption(GAMEOPTION_ALWAYS_PEACE) && (getGroup()->canFight(true, true) < 2))
-/*************************************************************************************************/
-/**	Improved AI								END													**/
-/*************************************************************************************************/
 	{
 		if (AI_retreatToCity())
 		{
@@ -2193,29 +2075,16 @@ void CvUnitAI::AI_settleMove()
 
 	if (plot()->isCity() && (plot()->getOwnerINLINE() == getOwnerINLINE()))
 	{
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      08/20/09                                jdog5000      */
-/*                                                                                              */
-/* Unit AI, Efficiency                                                                          */
-/************************************************************************************************/
+		// Unit AI, Efficiency : BETTER_BTS_AI_MOD jdog5000 08/20/09
 		//if ((GET_PLAYER(getOwnerINLINE()).AI_getPlotDanger(plot()) > 0)
 		if ((GET_PLAYER(getOwnerINLINE()).AI_getAnyPlotDanger(plot()))
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
 			&& (GC.getGameINLINE().getMaxCityElimination() > 0))
 		{
-/*************************************************************************************************/
-/**	Improved AI							01/05/11										Snarko	**/
-/**									Adapting AI to RifE											**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
+			// Adapting AI to RifE : Improved AI Snarko 01/05/11
+			/**								---- Start Original Code ----									**
 			if (getGroup()->getNumUnits() < 3)
-/**								----  End Original Code  ----									**/
+			/**								----  End Original Code  ----									**/
 			if (getGroup()->canFight(true, true) < 2)
-/*************************************************************************************************/
-/**	Improved AI								END													**/
-/*************************************************************************************************/
 			{
 				getGroup()->pushMission(MISSION_SKIP);
 				return;
@@ -2246,11 +2115,7 @@ void CvUnitAI::AI_settleMove()
 		return;
 	}
 
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      09/18/09                                jdog5000      */
-/*                                                                                              */
-/* Settler AI                                                                                   */
-/************************************************************************************************/
+	// BETTER_BTS_AI_MOD : Settler AI jdog5000 09/18/09
 	if( getGroup()->isStranded() )
 	{
 		if (AI_load(UNITAI_SETTLER_SEA, MISSIONAI_LOAD_SETTLER, NO_UNITAI, -1, -1, -1, -1, MOVE_NO_ENEMY_TERRITORY, 1))
@@ -2258,9 +2123,6 @@ void CvUnitAI::AI_settleMove()
 			return;
 		}
 	}
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
 
 	if (AI_safety())
 	{
@@ -20156,54 +20018,6 @@ bool CvUnitAI::AI_pillageRange(int iRange, int iBonusValueThreshold)
 bool CvUnitAI::AI_found()
 {
 	PROFILE_FUNC();
-//
-//	CvPlot* pLoopPlot;
-//	CvPlot* pBestPlot;
-//	CvPlot* pBestFoundPlot;
-//	int iPathTurns;
-//	int iValue;
-//	int iBestValue;
-//	int iI;
-//
-//	iBestValue = 0;
-//	pBestPlot = NULL;
-//	pBestFoundPlot = NULL;
-//
-//	for (iI = 0; iI < GC.getMapINLINE().numPlotsINLINE(); iI++)
-//	{
-//		pLoopPlot = GC.getMapINLINE().plotByIndexINLINE(iI);
-//
-//		if (AI_plotValid(pLoopPlot) && (pLoopPlot != plot() || GET_PLAYER(getOwnerINLINE()).AI_getPlotDanger(pLoopPlot, 1) <= pLoopPlot->plotCount(PUF_canDefend, -1, -1, getOwnerINLINE())))
-//		{
-//			if (canFound(pLoopPlot))
-//			{
-//				iValue = pLoopPlot->getFoundValue(getOwnerINLINE());
-//
-//				if (iValue > 0)
-//				{
-//					if (!(pLoopPlot->isVisibleEnemyUnit(this)))
-//					{
-//						if (GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pLoopPlot, MISSIONAI_FOUND, getGroup(), 3) == 0)
-//						{
-//							if (generatePath(pLoopPlot, MOVE_SAFE_TERRITORY, true, &iPathTurns))
-//							{
-//								iValue *= 1000;
-//
-//								iValue /= (iPathTurns + 1);
-//
-//								if (iValue > iBestValue)
-//								{
-//									iBestValue = iValue;
-//									pBestPlot = getPathEndTurnPlot();
-//									pBestFoundPlot = pLoopPlot;
-//								}
-//							}
-//						}
-//					}
-//				}
-//			}
-//		}
-//	}
 
 	int iPathTurns;
 	int iValue;
@@ -20214,43 +20028,38 @@ bool CvUnitAI::AI_found()
 	for (int iI = 0; iI < GET_PLAYER(getOwnerINLINE()).AI_getNumCitySites(); iI++)
 	{
 		CvPlot* pCitySitePlot = GET_PLAYER(getOwnerINLINE()).AI_getCitySite(iI);
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                      10/23/09                                jdog5000      */
-/*                                                                                              */
-/* Settler AI                                                                                   */
-/************************************************************************************************/
-/* orginal BTS code
-		if (pCitySitePlot->getArea() == getArea())
-*/
-		if (pCitySitePlot->getArea() == getArea() || canMoveAllTerrain())
-/************************************************************************************************/
-/* BETTER_BTS_AI_MOD                       END                                                  */
-/************************************************************************************************/
+
+		// Settler AI : BETTER_BTS_AI_MOD jdog5000 10/23/09
+
+		if (pCitySitePlot->getArea() != getArea() && !canMoveAllTerrain())
+			continue;
+
+		if (!canFound(pCitySitePlot))
+			continue;
+
+		if (pCitySitePlot->isVisibleEnemyUnit(this))
+			continue;
+
+		// Disallow if we have another AI doing the same mission to the same plot
+		if (GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_FOUND, getGroup()) > 0)
+			continue;
+
+		// Disallow if current group can't defend and there aren't any other city guard missions enroute to that plot. Also allow faster AI settling : Blazenclaw AI_SpeedySettle
+		if (!(getGroup()->canDefend() || isHasPromotion((PromotionTypes)GC.getDefineINT("STARTING_SETTLER_PROMOTION"))) && GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_GUARD_CITY) == 0)
+			continue;
+
+		// Must be able to actually generate a path
+		if (!generatePath(pCitySitePlot, MOVE_SAFE_TERRITORY, true, &iPathTurns))
+			continue;
+
+		iValue = pCitySitePlot->getFoundValue(getOwnerINLINE());
+		iValue *= 1000;
+		iValue /= (iPathTurns + 1);
+		if (iValue > iBestFoundValue)
 		{
-			if (canFound(pCitySitePlot))
-			{
-				if (!(pCitySitePlot->isVisibleEnemyUnit(this)))
-				{
-					if (GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_FOUND, getGroup()) == 0)
-					{
-						if (getGroup()->canDefend() || GET_PLAYER(getOwnerINLINE()).AI_plotTargetMissionAIs(pCitySitePlot, MISSIONAI_GUARD_CITY) > 0)
-						{
-							if (generatePath(pCitySitePlot, MOVE_SAFE_TERRITORY, true, &iPathTurns))
-							{
-								iValue = pCitySitePlot->getFoundValue(getOwnerINLINE());
-								iValue *= 1000;
-								iValue /= (iPathTurns + 1);
-								if (iValue > iBestFoundValue)
-								{
-									iBestFoundValue = iValue;
-									pBestPlot = getPathEndTurnPlot();
-									pBestFoundPlot = pCitySitePlot;
-								}
-							}
-						}
-					}
-				}
-			}
+			iBestFoundValue = iValue;
+			pBestPlot = getPathEndTurnPlot();
+			pBestFoundPlot = pCitySitePlot;
 		}
 	}
 
@@ -28871,12 +28680,8 @@ void CvUnitAI::AI_summonAttackMove()
 }
 //FfH: End Add
 
-/*************************************************************************************************/
-/**	MISSION_CLAIM_FORT						15/06/10									Snarko	**/
-/**																								**/
-/**						Adding a mission for the claim_fort action...							**/
-/**							And teaching the AI how/when to do it								**/
-/*************************************************************************************************/
+
+// Teaching AI how/when to claim forts : Snarko MISSION_CLAIM_FORT 15/06/10
 bool CvUnitAI::AI_claimFort(int iRange, int iOddsThreshold)
 {
 	PROFILE_FUNC();
@@ -28956,35 +28761,47 @@ bool CvUnitAI::AI_canClaimFort(CvPlot* pPlot)
 		pPlot = plot();
 	}
 
-	if (!isBarbarian() && (GET_PLAYER(getOwnerINLINE())).getGold() < GET_PLAYER(getOwnerINLINE()).getClaimFortCost())
-	{
+	// Factor of 3 safety; ai shouldn't be out of gold when trekking out to claim a fort (unitai: will always claim if on tile, though)
+	if (!isBarbarian() && (GET_PLAYER(getOwnerINLINE())).getGold() < 3 * GET_PLAYER(getOwnerINLINE()).getClaimFortCost())
 		return false;
-	}
 
-	if (NO_IMPROVEMENT != pPlot->getRevealedImprovementType(getTeam(), false) && GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isFort())
+	if (NO_IMPROVEMENT == pPlot->getRevealedImprovementType(getTeam(), false) || !GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isFort())
+		return false;
+
+	// Barbs can't claim unowned naval forts.
+	else if (isBarbarian() && pPlot->isWater() && !pPlot->isOwned())
+		return false;
+
+	// If we don't think there's an owner, go for it
+	PlayerTypes eRevealedOwner = pPlot->getRevealedOwner(getTeam(), false);
+	if (eRevealedOwner == NO_PLAYER)
+		return true;
+
+	// If we're not at war with owner, can't claim
+	if (eRevealedOwner != getOwnerINLINE() && !GET_TEAM(getTeam()).isAtWar(pPlot->getRevealedTeam(getTeam(), false)))
+		return false;
+
+	// Check if we need to reappoint a commander to our fort. Can be expensive, but don't see how else to avoid.
+	if (pPlot->getImprovementOwner() == getOwnerINLINE())
 	{
-		if (pPlot->isOwned())
+		CvUnit* pLoopUnit;
+		CLLNode<IDInfo>* pUnitNode;
+		pUnitNode = pPlot->headUnitNode();
+		while (pUnitNode != NULL)
 		{
-			if (pPlot->getRevealedOwner(getTeam(), false) != getOwnerINLINE())
-			{
-				if (!GET_TEAM(getTeam()).isAtWar(pPlot->getRevealedTeam(getTeam(), false)))
-				{
-					return false;
-				}
-			}
-			else if (pPlot->getImprovementOwner() == getOwnerINLINE()) //It's already ours
+			pLoopUnit = ::getUnit(pUnitNode->m_data);
+			pUnitNode = pPlot->nextUnitNode(pUnitNode);
+			if (pLoopUnit->getUnitClassType() == GC.getDefineINT("FORT_COMMANDER_UNITCLASS"))
 			{
 				return false;
 			}
 		}
-		return true; //XXX if there can be such a thing as an unowned fort, gotta check if we're at war with the fort commanders civ (if any).
+		return true;
 	}
-	return false;
 
+	return false;
 }
-/*************************************************************************************************/
-/**	MISSION_CLAIM_FORT									END										**/
-/*************************************************************************************************/
+
 
 /*************************************************************************************************/
 /**	Improved AI							16/06/10										Snarko	**/
@@ -29201,50 +29018,58 @@ bool CvUnitAI::AI_exploreLair(int iRange, int iOddsThreshold)
 
 bool CvUnitAI::AI_canExploreLair(CvPlot* pPlot)
 {
-	if (isOnlyDefensive())
-	{
-		return false;
-	}
-
-	if (isBarbarian())
-	{
-		return false;
-	}
-	if (!canExploreLair(pPlot))
-	{
-		return false;
-	}
-	if (getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_SPELL"))
-		return false;
-
-	if (getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_BIRD"))
-		return false;
+	// This does true check, not 'visible' check
+	// if (!canExploreLair(pPlot))
+	// {
+	// 	return false;
+	// }
 
 	if (pPlot == NULL)
-	{
-		pPlot = plot();
-	}
+		return false;
 
-	if (NO_IMPROVEMENT != pPlot->getRevealedImprovementType(getTeam(), false) && GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isExplorable() && pPlot->getExploreNextTurn() <= GC.getGame().getGameTurn())
-	{
-		if (GET_PLAYER(getOwnerINLINE()).getNumCities() == 0)
-			return false;
-		if ((GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).getLairTier() - 1) * 50 > GC.getGame().getGameTurn())
-			return false;
-		if (GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).getLairTier() > getUnitInfo().getTier())
-			return false;
-		CvCity* pNearestCity = GC.getMap().findCity(getX_INLINE(), getY_INLINE(), NO_PLAYER, getTeam());
-		if (pNearestCity == NULL)
-			return true; //No city on this area
-		
-		int iCityDist = plotDistance(getX_INLINE(), getY_INLINE(), pNearestCity->getX(), pNearestCity->getY());
-		int iNumDefenders = pNearestCity->plot()->getNumDefenders(pNearestCity->getOwner()); //XXX take into account other players units?
-		if (range(18/std::max(1,iCityDist), 2, 5) > iNumDefenders)
-			return false;
+	if (pPlot->getRevealedImprovementType(getTeam(), false) == NO_IMPROVEMENT
+		|| isBarbarian()
+		|| !canFight()
+		|| getUnitCombatType() == GC.getInfoTypeForString("UNITCOMBAT_SIEGE")
+		|| getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_SPELL")
+		|| getSpecialUnitType() == GC.getDefineINT("SPECIALUNIT_BIRD")
+		|| isOnlyDefensive())
+		return false;
 
-		return true;
+	if (!GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isExplorable()
+	|| !(pPlot->getExploreNextTurn() <= GC.getGame().getGameTurn()))
+		return false;
+
+	bool bGoodyClass = false;
+	for (int i = 0; i < GC.getNumGoodyClassTypes(); i++)
+	{
+		if (GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).isGoodyClassType(i))
+		{
+			bGoodyClass = true;
+			break;
+		}
 	}
-	return false;
+	if (!bGoodyClass)
+		return false;
+
+	if (GET_PLAYER(getOwnerINLINE()).getNumCities() == 0)
+		return false;
+
+	// The higher tier of lair, the higher tier of unit required. Modulate effective unit tier with noBadExplore; accounts for hypothetical negative luck, if added.
+	if (!(getUnitInfo().getTier() * 25 + getNoBadExplore() + getNoBadExploreImprovement(pPlot->getRevealedImprovementType(getTeam(), false))
+			>= 20 * GC.getImprovementInfo(pPlot->getRevealedImprovementType(getTeam(), false)).getLairTier()))
+		return false;
+
+	// Need minimum 2, maximum 5 defenders on nearest city to explore a lair
+	CvCity* pNearestCity = GC.getMap().findCity(getX_INLINE(), getY_INLINE(), NO_PLAYER, getTeam());
+	if (pNearestCity == NULL)
+		return true; //No city on this area
+	int iCityDist = plotDistance(getX_INLINE(), getY_INLINE(), pNearestCity->getX(), pNearestCity->getY());
+	int iNumDefenders = pNearestCity->plot()->getNumDefenders(pNearestCity->getOwner()); //XXX take into account other players units? Blaze: Shouldn't be necessary given the #s involved
+	if (range(18/std::max(1,iCityDist), 2, 5) > iNumDefenders)
+		return false;
+
+	return true;
 
 }
 /*************************************************************************************************/

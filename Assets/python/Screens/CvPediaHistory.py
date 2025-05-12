@@ -112,6 +112,10 @@ class CvPediaHistory:
 			iNum = gc.getNumUnitCombatInfos()
 		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_CIV == self.iCivilopediaPageType):
 			iNum = gc.getNumCivilizationInfos()
+		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_CITYCLASS == self.iCivilopediaPageType):
+			iNum = gc.getNumCityClassInfos()
+		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_ROUTE == self.iCivilopediaPageType):
+			iNum = gc.getNumRouteInfos()
 		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_LEADER == self.iCivilopediaPageType):
 			iNum = gc.getNumLeaderHeadInfos()
 		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_RELIGION == self.iCivilopediaPageType):
@@ -161,6 +165,10 @@ class CvPediaHistory:
 			info = gc.getUnitCombatInfo(iEntry)
 		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_CIV == self.iCivilopediaPageType):
 			info = gc.getCivilizationInfo(iEntry)
+		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_CITYCLASS == self.iCivilopediaPageType):
+			iNum = gc.getCityClassInfo(iEntry)
+		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_ROUTE == self.iCivilopediaPageType):
+			iNum = gc.getRouteInfo(iEntry)
 		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_LEADER == self.iCivilopediaPageType):
 			info = gc.getLeaderHeadInfo(iEntry)
 		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_RELIGION == self.iCivilopediaPageType):
@@ -223,6 +231,10 @@ class CvPediaHistory:
 			iLink = WidgetTypes.WIDGET_PEDIA_JUMP_TO_UNIT_COMBAT
 		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_CIV == self.iCivilopediaPageType):
 			iLink = WidgetTypes.WIDGET_PEDIA_JUMP_TO_CIV
+		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_CITYCLASS == self.iCivilopediaPageType):
+			iLink = WidgetTypes.WIDGET_PEDIA_JUMP_TO_CITYCLASS
+		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_ROUTE == self.iCivilopediaPageType):
+			iLink = WidgetTypes.WIDGET_PEDIA_JUMP_TO_ROUTE
 		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_LEADER == self.iCivilopediaPageType):
 			iLink = WidgetTypes.WIDGET_PEDIA_JUMP_TO_LEADER
 		elif (CivilopediaPageTypes.CIVILOPEDIA_PAGE_RELIGION == self.iCivilopediaPageType):

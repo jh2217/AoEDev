@@ -169,9 +169,9 @@ void CyInfoPythonInterface2()
 		.def("getAttitudeChange", &CvHandicapInfo::getAttitudeChange, "int ()")
 		.def("getNoTechTradeModifier", &CvHandicapInfo::getNoTechTradeModifier, "int ()")
 		.def("getTechTradeKnownModifier", &CvHandicapInfo::getTechTradeKnownModifier, "int ()")
-		.def("getUnownedTilesPerGameAnimal", &CvHandicapInfo::getUnownedTilesPerGameAnimal, "int ()")
-		.def("getUnownedTilesPerBarbarianUnit", &CvHandicapInfo::getUnownedTilesPerBarbarianUnit, "int ()")
-		.def("getUnownedWaterTilesPerBarbarianUnit", &CvHandicapInfo::getUnownedWaterTilesPerBarbarianUnit, "int ()")
+		.def("getTilesPerAnimal", &CvHandicapInfo::getTilesPerAnimal, "int ()")
+		.def("getTilesPerOrc", &CvHandicapInfo::getTilesPerOrc, "int ()")
+		.def("getWaterTilesPerOrc", &CvHandicapInfo::getWaterTilesPerOrc, "int ()")
 		.def("getUnownedTilesPerBarbarianCity", &CvHandicapInfo::getUnownedTilesPerBarbarianCity, "int ()")
 		.def("getBarbarianCreationTurnsElapsed", &CvHandicapInfo::getBarbarianCreationTurnsElapsed, "int ()")
 		.def("getBarbarianCityCreationTurnsElapsed", &CvHandicapInfo::getBarbarianCityCreationTurnsElapsed, "int ()")
@@ -208,24 +208,17 @@ void CyInfoPythonInterface2()
 		.def("getAIAdvancedStartPercent", &CvHandicapInfo::getAIAdvancedStartPercent, "int ()")
 		.def("getNumGoodies", &CvHandicapInfo::getNumGoodies, "int ()")
 
-//FfH: Added by Kael 11/28/2008
-		.def("getLairSpawnRate", &CvHandicapInfo::getLairSpawnRate, "int ()")
-//FfH: End Add
 /*************************************************************************************************/
 /**	New Tag Defs	(HandicapInfos)			12/27/08								Xienwolf	**/
 /**																								**/
 /**								Exposes the Functions to Python									**/
 /*************************************************************************************************/
-		.def("getUnownedWaterTilesPerGameAnimal", &CvHandicapInfo::getUnownedWaterTilesPerGameAnimal, "int ()")
+		.def("getWaterTilesPerAnimal", &CvHandicapInfo::getWaterTilesPerAnimal, "int ()")
 		.def("getAnimalEscalationTurnsElapsed", &CvHandicapInfo::getAnimalEscalationTurnsElapsed, "int ()")
-		.def("getLairsPerCycle", &CvHandicapInfo::getLairsPerCycle, "int ()")
-		.def("getLairSpawnChance", &CvHandicapInfo::getLairSpawnChance, "int ()")
-		.def("getPercentDemonsPerUnownedEvilPlot", &CvHandicapInfo::getPercentDemonsPerUnownedEvilPlot, "int ()")
-		.def("getDemonGlobalCountSpawnBoostInterval", &CvHandicapInfo::getDemonGlobalCountSpawnBoostInterval, "int ()")
-		.def("getDemonGlobalCountSpawnBoostRate", &CvHandicapInfo::getDemonGlobalCountSpawnBoostRate, "int ()")
+		.def("getPercentDemonsPerEvilPlot", &CvHandicapInfo::getPercentDemonsPerEvilPlot, "int ()")
 		.def("getDemonPerTurnKnownTechsPercent", &CvHandicapInfo::getDemonPerTurnKnownTechsPercent, "int ()")
 		.def("getDemonGlobalCounterFreeXPPercent", &CvHandicapInfo::getDemonGlobalCounterFreeXPPercent, "int ()")
-		.def("getDemonSpawnRateGlobalCounterEnhancementPercent", &CvHandicapInfo::getDemonSpawnRateGlobalCounterEnhancementPercent, "int ()")
+		.def("getPercentDemonsPerEvilPlotPerGlobalCounter", &CvHandicapInfo::getPercentDemonsPerEvilPlotPerGlobalCounter, "int ()")
 		.def("getDemonBonus", &CvHandicapInfo::getDemonBonus, "int ()")
 		.def("getAIDemonBonus", &CvHandicapInfo::getAIDemonBonus, "int ()")
 /*************************************************************************************************/
@@ -267,6 +260,7 @@ void CyInfoPythonInterface2()
 /**																								**/
 /**								Exposes the Functions to Python									**/
 /*************************************************************************************************/
+		.def("getLairSpawnChance", &CvGameSpeedInfo::getLairSpawnChance, "int ()")
 		.def("getTurnsPerLairCycle", &CvGameSpeedInfo::getTurnsPerLairCycle, "int ()")
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
@@ -512,7 +506,6 @@ void CyInfoPythonInterface2()
 		.def("getPrereqCivilization", &CvImprovementInfo::getPrereqCivilization, "int ()")
 		.def("getPythonOnMove", &CvImprovementInfo::getPythonOnMove, "string ()")
 		.def("getSpawnUnitCiv", &CvImprovementInfo::getSpawnUnitCiv, "int ()")
-		.def("getSpawnPerGameLimit", &CvImprovementInfo::getSpawnPerGameLimit, "int ()")
 		.def("getSpawnAtOnceLimit", &CvImprovementInfo::getSpawnAtOnceLimit, "int ()")
 		.def("getLairCreationWeight", &CvImprovementInfo::getLairCreationWeight, "int ()")
 		.def("isExplorable", &CvImprovementInfo::isExplorable, "bool ()")

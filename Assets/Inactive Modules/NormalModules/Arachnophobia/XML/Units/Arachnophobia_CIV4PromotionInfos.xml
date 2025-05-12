@@ -11,7 +11,7 @@
 			<Description>TXT_KEY_PROMOTION_GROWTH_SPURTS</Description>
 			<PythonOnRemove>babySpiderGrowth(pCaster,ePromotion)</PythonOnRemove>
 			<Button>Art/Modules/Arachnophobia/Buttons/GrowthSpurts.dds</Button>
-			<iExpireChance>10</iExpireChance>
+			<iExpireChance>20</iExpireChance>
 			<iMinLevel>-1</iMinLevel>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
@@ -35,12 +35,7 @@
 			<Type>PROMOTION_POISONED</Type>
 			<Description>TXT_KEY_PROMOTION_POISONED</Description>
 			<Help>TXT_KEY_PROMOTION_POISONED_PEDIA</Help>
-			
 			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -77,8 +72,15 @@
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
-			
 			<iEnemyHealChange>-3</iEnemyHealChange>
 			<iNeutralHealChange>-5</iNeutralHealChange>
 			<iFriendlyHealChange>-8</iFriendlyHealChange>
@@ -161,6 +163,7 @@
 			<bNoXP>1</bNoXP>
 			<iCombatPercent>50</iCombatPercent>
 			<iCombatPercentDefense>-80</iCombatPercentDefense>
+			<iCityAttack>25</iCityAttack>
 			<bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
 			<iPromotionDuration>1</iPromotionDuration>
 			<PromotionOverwrites>
@@ -197,6 +200,7 @@
 			<bNoXP>1</bNoXP>
 			<iCombatPercent>50</iCombatPercent>
 			<iCombatPercentDefense>-80</iCombatPercentDefense>
+			<iCityAttack>25</iCityAttack>
 			<iFirstStrikesChange>1</iFirstStrikesChange>
 			<bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
 			<bImmuneToDefensiveStrike>1</bImmuneToDefensiveStrike>
@@ -220,65 +224,6 @@
 			</UnitCombats>
 			<Button>Art/Modules/Arachnophobia/Buttons/spiderrevealed.dds</Button>
 		</PromotionInfo>
-		<PromotionInfo>			<!-- Marked Prey -->
-			<Type>PROMOTION_MARKED_PREY</Type>
-			<Description>TXT_KEY_PROMOTION_MARKED_PREY</Description>
-						
-			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
-			</UnitCombats>
-
-			<PromotionCombatMods>
-				<PromotionCombatMod>
-					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
-					<iCombatMod>-50</iCombatMod>
-				</PromotionCombatMod>			
-			</PromotionCombatMods>
-			<bPrereqAlive>1</bPrereqAlive>
-			<iPromotionDuration>1</iPromotionDuration>
-			<iAIWeight>-100</iAIWeight>
-			<iMinLevel>-1</iMinLevel>
-			<Button>Art/Modules/Arachnophobia/Buttons/MarkedPrey.dds</Button>
-		</PromotionInfo>
 		<PromotionInfo>			<!-- Consume the Weak -->
 			<Type>PROMOTION_CONSUME_THE_WEAK</Type>
 			<Description>TXT_KEY_PROMOTION_CONSUME_THE_WEAK</Description>
@@ -296,15 +241,7 @@
 		<PromotionInfo>			<!-- Poison Fume -->
 			<Type>PROMOTION_POISON_FUME</Type>
 			<Description>TXT_KEY_PROMOTION_POISON_FUME</Description>
-			<iSameTileHealChange>-10</iSameTileHealChange>
-			<bPrereqAlive>1</bPrereqAlive>
-			<bRemovedWhenHealed>1</bRemovedWhenHealed>
-
 			<UnitCombats>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
-					<iMaxApplications>0</iMaxApplications>
-				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
@@ -341,10 +278,81 @@
 					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
 					<iMaxApplications>0</iMaxApplications>
 				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
 			</UnitCombats>
-
+			<iSameTileHealChange>-10</iSameTileHealChange>
+			<bPrereqAlive>1</bPrereqAlive>
+			<bRemovedWhenHealed>1</bRemovedWhenHealed>
 			<iMinLevel>-1</iMinLevel>
 			<Button>Art/Modules/Arachnophobia/Buttons/PoisonFume.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>			<!-- Marked Prey -->
+			<Type>PROMOTION_MARKED_PREY</Type>
+			<Description>TXT_KEY_PROMOTION_MARKED_PREY</Description>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_COMMANDER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<PromotionCombatMods>
+				<PromotionCombatMod>
+					<PromotionType>PROMOTION_SPIDER_BLOOD</PromotionType>
+					<iCombatMod>-50</iCombatMod>
+				</PromotionCombatMod>			
+			</PromotionCombatMods>
+			<bPrereqAlive>1</bPrereqAlive>
+			<iPromotionDuration>1</iPromotionDuration>
+			<iAIWeight>-100</iAIWeight>
+			<iMinLevel>-1</iMinLevel>
+			<Button>Art/Modules/Arachnophobia/Buttons/MarkedPrey.dds</Button>
 		</PromotionInfo>
 		
 		<!-- Spider Variations Start -->
@@ -355,7 +363,9 @@
 			<Type>PROMOTION_SPIDER_RHAGODESSA</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA</Description>
 			<NewName>TXT_KEY_UNITNAME_EXPLODER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Help>
 			
+			<iMovesChange>1</iMovesChange>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
 				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
@@ -390,7 +400,9 @@
 			<Type>PROMOTION_RHAGODESSA</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA</Description>
 			<NewName>TXT_KEY_UNITNAME_EXPLODER</NewName>
+			<Help>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Help>
 
+			<iMovesChange>1</iMovesChange>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_SPIDERKIN3</PrereqTrait>
 			</PrereqTraits>
@@ -432,6 +444,7 @@
 			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/SpiderRed.dds</Button>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
@@ -441,6 +454,7 @@
 			<NewName>TXT_KEY_UNITNAME_EXPLODER</NewName>
 			<Help>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Help>
 
+			<iMovesChange>1</iMovesChange>
 			<PromotionDegradesTo>
 				<Promotion>PROMOTION_SPIDER_RHAGODESSA</Promotion>
 			</PromotionDegradesTo>
@@ -475,6 +489,7 @@
 			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/SpiderRed.dds</Button>
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_RED</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
@@ -484,6 +499,10 @@
 			<Description>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_GREATER</Description>
 			<NewName>TXT_KEY_UNITNAME_EXPLODER_GREATER</NewName>
 			
+			<iKamikazePercent>25</iKamikazePercent>
+			<iCollateralDamageChange>100</iCollateralDamageChange>
+			<iCollateralLimitBoost>60</iCollateralLimitBoost>
+			<iCollateralExtraTargets>7</iCollateralExtraTargets>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
 			</PrereqUnits>
@@ -508,13 +527,15 @@
 		
 		<!-- Textus Start -->
 		
-		<PromotionInfo>
-			<!-- Spider - Textus  (Web Spider) -->
+		<PromotionInfo>		<!-- Spider - Textus  (Web Spider) -->
 			<Type>PROMOTION_SPIDER_TEXTUS</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS</Description>
 			<NewName>TXT_KEY_UNITNAME_WEAVER</NewName>
 			<Help>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Help>
 
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_MAZE_OF_WEBS</PromotionBuild>
+			</PromotionBuilds>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_SPIDER</PrereqUnit>
 				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
@@ -540,13 +561,15 @@
 			<Button>Art/Interface/Buttons/Promotions/SpiderYellow.dds</Button>
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_YELLOW</UnitArtStyleType>
 		</PromotionInfo>
-		<PromotionInfo>
-			<!-- Textus  (Web Spider) for trait Spiderkin -->
+		<PromotionInfo>		<!-- Textus  (Web Spider) for trait Spiderkin -->
 			<Type>PROMOTION_TEXTUS</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS</Description>
 			<NewName>TXT_KEY_UNITNAME_WEAVER</NewName>
 			<Help>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Help>
 
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_MAZE_OF_WEBS</PromotionBuild>
+			</PromotionBuilds>
 			<PrereqTraits>
 				<PrereqTrait>TRAIT_SPIDERKIN3</PrereqTrait>
 			</PrereqTraits>
@@ -588,15 +611,18 @@
 			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/SpiderYellow.dds</Button>
 		</PromotionInfo>
-		<PromotionInfo>
-			<!-- Spider - Textus  (Web Spider) Decay for Trait Spiderkin -->
+		<PromotionInfo>		<!-- Spider - Textus  (Web Spider) Decay for Trait Spiderkin -->
 			<Type>PROMOTION_SPIDER_TEXTUS_DECAY</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS</Description>
 			<NewName>TXT_KEY_UNITNAME_WEAVER</NewName>
 			<Help>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Help>
 
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_MAZE_OF_WEBS</PromotionBuild>
+			</PromotionBuilds>
 			<PromotionDegradesTo>
 				<Promotion>PROMOTION_SPIDER_TEXTUS</Promotion>
 			</PromotionDegradesTo>
@@ -631,12 +657,12 @@
 			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/SpiderYellow.dds</Button>
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_YELLOW</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
-		<PromotionInfo>
-			<!-- Spider - Textus  Greater (Web Spider) -->
+		<PromotionInfo>		<!-- Spider - Textus  Greater (Web Spider) -->
 			<Type>PROMOTION_SPIDER_TEXTUS_GREATER</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_TEXTUS_GREATER</Description>
 			<NewName>TXT_KEY_UNITNAME_WEAVER_GREATER</NewName>
@@ -702,7 +728,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREY</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Mucro  (Burrower Spider) for Trait Spiderkin -->
+		<PromotionInfo>		<!-- Spider - Mucro  (Burrower Spider) for Trait Spiderkin -->
 			<Type>PROMOTION_MUCRO</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_MUCRO</Description>
 			<NewName>TXT_KEY_UNITNAME_BURROWER</NewName>
@@ -749,6 +775,7 @@
 			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/SpiderGrey.dds</Button>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
@@ -792,6 +819,7 @@
 			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/SpiderGrey.dds</Button>
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREY</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
@@ -867,7 +895,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_BLUE</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Argyroneta  (Wetnurse Spider) for trait Spiderkin -->
+		<PromotionInfo>		<!-- Spider - Argyroneta  (Wetnurse Spider) for trait Spiderkin -->
 			<Type>PROMOTION_ARGYRONETA</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA</Description>
 			<NewName>TXT_KEY_UNITNAME_WETNURSE</NewName>
@@ -916,6 +944,7 @@
 			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/SpiderBlue.dds</Button>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
@@ -961,6 +990,7 @@
 			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/SpiderBlue.dds</Button>
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_BLUE</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
@@ -994,8 +1024,7 @@
 		
 		<!-- Venenum Start -->
 
-		<PromotionInfo>
-			<!-- Spider - Venenum  (Poison/Spitting Spider)  -->
+		<PromotionInfo>		<!-- Spider - Venenum  (Poison/Spitting Spider)  -->
 			<Type>PROMOTION_SPIDER_VENENUM</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_VENENUM</Description>
 			<NewName>TXT_KEY_UNITNAME_SPITTER</NewName>
@@ -1034,8 +1063,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREEN</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
-		<PromotionInfo>
-			<!--  Venenum  (Poison/Spitting Spider) for Spiderkin Trait  -->
+		<PromotionInfo>		<!-- Spider - Venenum  (Poison/Spitting Spider) for Spiderkin Trait  -->
 			<Type>PROMOTION_VENENUM</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_VENENUM</Description>
 			<NewName>TXT_KEY_UNITNAME_SPITTER</NewName>
@@ -1085,11 +1113,11 @@
 			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/SpiderGreen.dds</Button>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
-		<PromotionInfo>
-			<!-- Spider - Venenum  (Poison/Spitting Spider) Decay for Spiderkin Trait -->
+		<PromotionInfo>		<!-- Spider - Venenum  (Poison/Spitting Spider) Decay for Spiderkin Trait -->
 			<Type>PROMOTION_SPIDER_VENENUM_DECAY</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_VENENUM</Description>
 			<NewName>TXT_KEY_UNITNAME_SPITTER</NewName>
@@ -1132,24 +1160,16 @@
 			</UnitCombats>
 			<bNoXP>1</bNoXP>
 			<iMinLevel>1</iMinLevel>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Interface/Buttons/Promotions/SpiderGreen.dds</Button>
 			<UnitArtStyleType>UNIT_ARTSTYLE_SPIDER_GREEN</UnitArtStyleType>
 			<bForceOverwrite>1</bForceOverwrite>
 		</PromotionInfo>
-		<PromotionInfo>
-			<!-- Spider - Venenum Greater (Poison/Spitting Spider) -->
+		<PromotionInfo>		<!-- Spider - Venenum Greater (Poison/Spitting Spider) -->
 			<Type>PROMOTION_SPIDER_VENENUM_GREATER</Type>
 			<Description>TXT_KEY_PROMOTION_SPIDER_VENENUM_GREATER</Description>
 			<NewName>TXT_KEY_UNITNAME_SPITTER_GREATER</NewName>
 
-			<PromotionCombatApply>PROMOTION_POISON_FUME</PromotionCombatApply>
-			<DamageTypeCombats>
-				<DamageTypeCombat>
-					<DamageType>DAMAGE_POISON</DamageType>
-					<iCombat>1</iCombat>
-				</DamageTypeCombat>
-			</DamageTypeCombats>
-			<iWithdrawalChange>25</iWithdrawalChange>
 			<PrereqUnits>
 				<PrereqUnit>UNIT_GIANT_SPIDER</PrereqUnit>
 			</PrereqUnits>
@@ -1183,7 +1203,7 @@
 				<PrereqUnit>UNIT_HARUSPEX</PrereqUnit>
 			</PrereqUnits>
 			<bNoXP>1</bNoXP>
-			<bHeld>1</bHeld>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Modules/Arachnophobia/Buttons/SymbioticCommunion.dds</Button>
 		</PromotionInfo>
 		<PromotionInfo>			<!-- Symbiotic Communion End -->
@@ -1206,6 +1226,7 @@
 			<PromotionExcludes>
 				<Promotion>PROMOTION_SYMBIOTIC_COMMUNION</Promotion>
 			</PromotionExcludes>
+			<bGraphicalOnly>1</bGraphicalOnly>
 			<Button>Art/Modules/Arachnophobia/Buttons/SymbioticCommunionEnd.dds</Button>
 		</PromotionInfo>
 		
@@ -1309,6 +1330,40 @@
 			<iAirCombatLimitBoost>15</iAirCombatLimitBoost>
 			<iAirRangeChange>1</iAirRangeChange>
 			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		
+		<PromotionInfo>		<!-- Archosian Worker -->
+			<Type>PROMOTION_ARCHOSIAN_WORKER</Type>
+			<Description>TXT_KEY_PROMOTION_ARCHOSIAN_WORKER</Description>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bEffectProm>0</bEffectProm>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_ARCHOS</PrereqCivilization>
+			</PrereqCivilizations>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<PromotionBuilds>
+				<PromotionBuild>BUILD_FEEDING_PEN</PromotionBuild>
+			</PromotionBuilds>
+			<PromotionCannotBuilds>
+				<PromotionBuild>BUILD_PASTURE</PromotionBuild>
+			</PromotionCannotBuilds>
+			<Button>,Art/Interface/Teamcolor/archosbutton.dds</Button>
+		</PromotionInfo>
+		
+		<PromotionInfo>		<!-- No Exp (for dismounted spider) -->
+			<Type>PROMOTION_NO_EXP</Type>
+			<Description>TXT_KEY_PROMOTION_NO_EXP</Description>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<iExperiencePercent>-100</iExperiencePercent>
+			<Button>Art/Modules/Arachnophobia/Buttons/No_Exp.dds</Button>
 		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>

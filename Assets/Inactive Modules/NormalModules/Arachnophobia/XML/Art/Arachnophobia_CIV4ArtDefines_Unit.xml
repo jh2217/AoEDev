@@ -7,219 +7,6 @@
 <Civ4ArtDefines xmlns="x-schema:Arachnophobia_CIV4ArtDefinesSchema.xml">
 	<UnitArtInfos>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_SPIDER_HUNTRESS</Type>
-			<Button>Art/Modules/Arachnophobia/Buttons/Archos Spider_Huntress.dds</Button>
-			<fScale>0.32</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Modules/Arachnophobia/Units/Spider_Huntress/drowspiderrider.nif</NIF>
-			<KFM>Art/animations/spiderrider/drowspiderrider.kfm</KFM>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>0.8</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>0</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_SPIDER_KNIGHTESS</Type>
-			<Button>Art/Modules/Arachnophobia/Buttons/Archos Spider_Knightess.dds</Button>
-			<fScale>0.32</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Modules/Arachnophobia/Units/Spider_Knightess/drowspiderrider.nif</NIF>
-			<KFM>Art/animations/spiderrider/drowspiderrider.kfm</KFM>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>0</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_WAR_SPIDER</Type>
-			<Button>Art/Modules/Arachnophobia/Buttons/Archos War_Spider.dds</Button>
-			<fScale>0.5</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Modules/Arachnophobia/Units/War_Spider/abman-spider.nif</NIF>
-			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/WarElephantShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.45</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>0</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_BERSERKER_ARCHOS</Type>
-			<Button>Art/Modules/Arachnophobia/Buttons/Berserker Archos.dds</Button>
-			<fScale>0.44</fScale>
-			<fInterfaceScale>1</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Modules/Arachnophobia/Units/Berserker/maceman.nif</NIF>
-			<KFM>Art/Units/Maceman/Maceman.kfm</KFM>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>0</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_MAGE_ARCHOS</Type>
-			<Button>Art/Modules/Arachnophobia/Buttons/Mage Archos.dds</Button>
-			<fScale>0.46</fScale>
-			<fInterfaceScale>1</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Modules/Arachnophobia/Units/Mage/TaoistMissionary.nif</NIF>
-			<KFM>Art/Units/Heroes/Hemah/TaoistMissionary.kfm</KFM>
-			<SHADERNIF>Art/Modules/Arachnophobia/Units/Mage/TaoistMissionary_FX.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>0.85</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>1</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_ARCHMAGE_ARCHOS</Type>
-			<Button>Art/Interface/Buttons/Units/Archos Haruspex.dds</Button>
-			<fScale>0.46</fScale>
-			<fInterfaceScale>1</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/civs/archos/haruspex/Confucian_missionary.nif</NIF>
-			<KFM>Art/Units/Missionary/Confucian/Confucian_missionary.kfm</KFM>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>0</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_DRUID_ARCHOS</Type>
-			<Button>Art/Modules/Arachnophobia/Buttons/Archos Haruspex.dds</Button>
-			<fScale>0.52</fScale>
-			<fInterfaceScale>0.9</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Modules/Arachnophobia/Units/Haruspex/Feral_Aberrant.nif</NIF>
-			<KFM>Art/Units/Afterworld_Feral_Aberrant/Feral_Aberrant.kfm</KFM>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>0</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_NESTING_SPIDER</Type>
-			<Button>Art/Interface/Buttons/Units/Giant Spider.dds</Button>
-			<fScale>0.5</fScale>
-			<fInterfaceScale>0.7</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Heroes/Mother/abman-spider.nif</NIF>
-			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>0.75</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>1</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
-		</UnitArtInfo>
-		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_MOTHER_SPIDER</Type>
-			<Button>Art/Modules/Arachnophobia/Buttons/Mother_Of_Mothers.dds</Button>
-			<fScale>0.6</fScale>
-			<fInterfaceScale>0.7</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Modules/Arachnophobia/Units/Mother_Of_Mothers/Mother_Of_Mothers.nif</NIF>
-			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>0.75</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>1</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
-		</UnitArtInfo>
-		
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_GIANT_SPIDER_RED</Type>
 			<Button>Art/Interface/Buttons/Promotions/SpiderRedGreater.dds</Button>
 			<fScale>0.4</fScale>
@@ -338,6 +125,339 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPIDER_PURPLE</Type>
+			<Button>Art/Interface/Buttons/Units/Spider.dds</Button>
+			<fScale>0.3</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Spiders/spiderpurple/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_NESTING_SPIDER</Type>
+			<Button>Art/Interface/Buttons/Units/Giant Spider.dds</Button>
+			<fScale>0.5</fScale>
+			<fInterfaceScale>0.7</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/Heroes/Mother/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_MOTHER_SPIDER</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Mother_Of_Mothers.dds</Button>
+			<fScale>0.6</fScale>
+			<fInterfaceScale>0.7</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Mother_Of_Mothers/Mother_Of_Mothers.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPIDER_HUNTRESS</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Archos Spider_Huntress.dds</Button>
+			<fScale>0.32</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Spider_Huntress/drowspiderrider.nif</NIF>
+			<KFM>Art/animations/spiderrider/drowspiderrider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.8</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPIDER_KNIGHTESS</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Archos Spider_Knightess.dds</Button>
+			<fScale>0.32</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Spider_Knightess/drowspiderrider.nif</NIF>
+			<KFM>Art/animations/spiderrider/drowspiderrider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_WAR_SPIDER</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Archos War_Spider.dds</Button>
+			<fScale>0.5</fScale>
+			<fInterfaceScale>1.0</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/War_Spider/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/WarElephantShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1.0</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.45</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_BERSERKER_ARCHOS</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Berserker Archos.dds</Button>
+			<fScale>0.66</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Berserker/maceman.nif</NIF>
+			<KFM>Art/Units/Viking_Berserker/Berserker.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_IMMORTAL_ARCHOS_NEW</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Immortal Archos.dds</Button>
+			<fScale>0.66</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Immortal/warrior.nif</NIF>
+			<KFM>Art/animations/warrior/warchief.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPEARMAN_ARCHOS_NEW</Type>
+			<Button>Art/Interface/Buttons/Units/spearman.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Spearman/losha.nif</NIF>
+			<KFM>Art/Units/Heroes/Losha/losha.kfm</KFM>
+			<SHADERNIF>Art/Modules/Arachnophobia/Units/Spearman/losha_fx.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_PIKEMAN_ARCHOS_NEW</Type>
+			<Button>Art/Interface/Buttons/Units/Pikeman.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Pikeman/losha.nif</NIF>
+			<KFM>Art/Units/Heroes/Losha/losha.kfm</KFM>
+			<SHADERNIF>Art/Modules/Arachnophobia/Units/Pikeman/losha_fx.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_CROSSBOWMAN_ARCHOS</Type>
+			<Button>Art/Interface/Buttons/Units/Crossbowman.dds</Button>
+			<fScale>0.42</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Crossbowman/Crossbowman_Middle_East.nif</NIF>
+			<KFM>Art/Units/Crossbowman_Middle_East/Crossbowman.kfm</KFM>
+			<SHADERNIF>Art/Modules/Arachnophobia/Units/Crossbowman/Crossbowman_Middle_East_FX.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_MAGE_ARCHOS</Type>
+			<Button>Art/Interface/Buttons/Units/Mage.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Mage/TaoistMissionary.nif</NIF>
+			<KFM>Art/Units/Heroes/Hemah/TaoistMissionary.kfm</KFM>
+			<SHADERNIF>Art/Modules/Arachnophobia/Units/Mage/TaoistMissionary_FX.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.85</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_ARCHMAGE_ARCHOS</Type>
+			<Button>Art/Interface/Buttons/Units/Archmage.dds</Button>
+			<fScale>0.46</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Archmage/Confucian_missionary.nif</NIF>
+			<KFM>Art/Units/Missionary/Confucian/Confucian_missionary.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_DRUID_ARCHOS</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Archos Haruspex.dds</Button>
+			<fScale>0.52</fScale>
+			<fInterfaceScale>0.9</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Haruspex/Feral_Aberrant.nif</NIF>
+			<KFM>Art/Units/Afterworld_Feral_Aberrant/Feral_Aberrant.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
 		</UnitArtInfo>
 	</UnitArtInfos>
 </Civ4ArtDefines>

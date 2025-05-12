@@ -11,6 +11,7 @@ import WBPlayerUnits
 import WBInfoScreen
 import CvPlatyBuilderScreen
 import CvEventManager
+import CvEventInterface
 gc = CyGlobalContext()
 
 bApplyAll = False
@@ -361,7 +362,7 @@ class WBPromotionScreen:
 			bEffects = True
 		pUnit.setHasPromotion(item, bAdd)
 		if bEffects:
-			CvEventManager.CvEventManager().onUnitPromoted([pUnit, item])
+			CvEventInterface.getEventManager().onUnitPromoted([pUnit, item])
 
 	def update(self, fDelta):
 		return 1

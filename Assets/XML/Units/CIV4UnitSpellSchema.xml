@@ -111,6 +111,7 @@
 	<ElementType name="bIgnoreHasCasted" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bResistable" content="textOnly" dt:type="boolean"/>
 	<ElementType name="iRange" content="textOnly" dt:type="int"/>
+	<ElementType name="iTargetRange" content="textOnly" dt:type="int"/>
 	<ElementType name="iResistModify" content="textOnly" dt:type="int"/>
 	<ElementType name="iDamage" content="textOnly" dt:type="int"/>
 	<ElementType name="iDamageLimit" content="textOnly" dt:type="int"/>
@@ -231,6 +232,7 @@
 		<element type="bIgnoreHasCasted"/>
 		<element type="bResistable"/>
 		<element type="iRange"/>
+		<element type="iTargetRange"/>
 		<element type="iResistModify"/>
 		<element type="iDamage"/>
 		<element type="iDamageLimit"/>

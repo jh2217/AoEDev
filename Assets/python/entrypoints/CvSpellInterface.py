@@ -3974,8 +3974,11 @@ def spellSironasTouch(caster):
 
 def reqSlaveTradeBuy(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
+	eCiv 			= pPlayer.getCivilizationType()
 	iCiv = pPlayer.getCivilizationType()
 	if iCiv in [Civ["D'Tesh"],Civ["Mekara Order"]]:
+		return False
+	if eCiv == gc.getInfoTypeForString("CIVILIZATION_MEKARA_V2"):
 		return False
 	return True
 
@@ -9027,6 +9030,7 @@ def spellDefileCrypt(pCaster):
 
 #Snarko 26-06-2010
 #Making lairs use the SDK/XML system. But not all of them...
+# Note: This one is mostly depreciated; custom function one used more often. Should probably be merged... later...
 def exploreLairBigBad(argsList):
 	pUnit, pPlot = argsList
 	Manager		= CvEventInterface.getEventManager()
@@ -9037,7 +9041,10 @@ def exploreLairBigBad(argsList):
 	orcTeam				= gc.getORC_TEAM()
 	animalTeam			= gc.getANIMAL_TEAM()
 	demonTeam			= gc.getDEMON_TEAM()
-	iPlayer 			= pUnit.getOwner()
+	if not pUnit.isNone():
+		iPlayer 		= pUnit.getOwner()
+	else:
+		iPlayer			= pPlot.getOwner()
 	getPlayer 			= gc.getPlayer
 	pPlayer				= getPlayer(iPlayer)
 	iTeam 				= pPlayer.getTeam()
@@ -9167,7 +9174,7 @@ def exploreLairBigBad(argsList):
 	sHenchman 	= lHenchmanList[randNum(len(lHenchmanList), "Pick Henchman")]
 	iUnit 		= getInfoType(sMonster)
 	iHenchman 	= getInfoType(sHenchman)
-	newUnit 	= addUnitFixed(pUnit, iUnit, iSpawnPlayer)
+	newUnit 	= addUnitFixed(pPlot, iUnit, iSpawnPlayer)
 	if newUnit != -1:
 		setPromo 	= newUnit.setHasPromotion
 		for i in xrange(randNum(len(lPromoList)/4 + 1, "Pick Promotion Quantity")):
@@ -9178,7 +9185,10 @@ def exploreLairBigBad(argsList):
 		bPlayer = getPlayer(iSpawnPlayer)
 		iHench1 = randNum(4, "BigBad Lair Henchmen number 1")
 		iHench2 = randNum(4, "BigBad Lair Henchmen number 2")
-		iNoBadMod = pUnit.getNoBadExplore()/10
+		if pUnit != -1:
+			iNoBadMod = pUnit.getNoBadExplore()/10
+		else:
+			iNoBadMod = -1
 		iHenchtotal = iHench1 + iHench2 - iNoBadMod
 		getHandicap = getGame().getHandicapType()
 		if iHenchtotal > int(getHandicap):
@@ -11139,49 +11149,49 @@ def spellSettleCattle(pCaster):
 # Mekara Python: Jheral 4-mars-2011
 #
 # Python belonging to the Mekara Civilization
-#
-def findSlugaCommander(caster):
-	py = PyPlayer(caster.getOwner())
-	pPlot = caster.plot()
-	pBestUnit = -1
-	iBestRank = 7
-	iBestLevel = 9999
-	bSameGroup = False
-	for i in range(pPlot.getNumUnits()):
-		pUnit = pPlot.getUnit(i)
-		if pUnit.getOwner() == caster.getOwner():
-			if not pUnit.getID() == caster.getID():
-				if (bSameGroup and pUnit.getGroupID() == caster.getGroupID()) or (not bSameGroup):
-					if caster.getDomainType() == pUnit.getDomainType():
-						if not pUnit.getID() == caster.getCommanderUnit().getID() and not pUnit.getCommanderUnit().getID() == caster.getID():
-							if pUnit.getNumMinions() < pUnit.getCommandLimit():
-								if pUnit.getUnitClassType() == getInfoType("UNITCLASS_OVERSEER") or pUnit.getUnitClassType() == getInfoType("UNITCLASS_COMBAT_OVERSEER") or pUnit.getUnitClassType() == getInfoType("UNITCLASS_SLUGA_COMMANDER") or pUnit.getUnitClassType() == getInfoType("UNITCLASS_KARAS"):
-									iCommanderWeight = pUnit.getLevel()
-									if caster.getUnitClassType() == getInfoType("UNITCLASS_SLUGA") and pUnit.getUnitClassType() == getInfoType("UNITCLASS_OVERSEER"):
-										iCommanderWeight += 100
-									if (caster.getUnitClassType() == getInfoType("UNITCLASS_BATTLE_SLUGA") or caster.getUnitClassType() == getInfoType("UNITCLASS_WAR_SLUGA") or caster.getUnitClassType() == getInfoType("UNITCLASS_BEHEMOTH_SLUGA")) and (pUnit.getUnitClassType() == getInfoType("UNITCLASS_COMBAT_OVERSEER") or pUnit.getUnitClassType() == getInfoType("UNITCLASS_SLUGA_COMMANDER") or pUnit.getUnitClassType() == getInfoType("UNITCLASS_KARAS")):
-										iCommanderWeight += 100
-									if(pUnit.getGroupID() == caster.getGroupID()):
-										if not (bSameGroup):
-											pBestUnit = pUnit
-											iBestLevel = iCommanderWeight
-											bSameGroup = True
-										elif iCommanderWeight < iBestLevel:
-											pBestUnit = pUnit
-											iBestLevel = iCommanderWeight
-									else:
-										if iCommanderWeight < iBestLevel:
-											pBestUnit = pUnit
-											iBestLevel = iCommanderWeight
-	return pBestUnit
-
+#Do not trust any Sluga code
+#def findSlugaCommander(caster):
+#	py = PyPlayer(caster.getOwner())
+#	pPlot = caster.plot()
+#	pBestUnit = -1
+#	iBestRank = 7
+#	iBestLevel = 9999
+#	bSameGroup = False
+#	for i in range(pPlot.getNumUnits()):
+#		pUnit = pPlot.getUnit(i)
+#		if pUnit.getOwner() == caster.getOwner():
+#			if not pUnit.getID() == caster.getID():
+#				if (bSameGroup and pUnit.getGroupID() == caster.getGroupID()) or (not bSameGroup):
+#					if caster.getDomainType() == pUnit.getDomainType():
+#						if not pUnit.getID() == caster.getCommanderUnit().getID() and not pUnit.getCommanderUnit().getID() == caster.getID():
+#							if pUnit.getNumMinions() < pUnit.getCommandLimit():
+#								if pUnit.getUnitClassType() == getInfoType("UNITCLASS_OVERSEER") or pUnit.getUnitClassType() == getInfoType("UNITCLASS_COMBAT_OVERSEER") or pUnit.getUnitClassType() == getInfoType("UNITCLASS_SLUGA_COMMANDER") or pUnit.getUnitClassType() == getInfoType("UNITCLASS_KARAS"):
+#									iCommanderWeight = pUnit.getLevel()
+#									if caster.getUnitClassType() == getInfoType("UNITCLASS_SLUGA") and pUnit.getUnitClassType() == getInfoType("UNITCLASS_OVERSEER"):
+#										iCommanderWeight += 100
+#									if (caster.getUnitClassType() == getInfoType("UNITCLASS_BATTLE_SLUGA") or caster.getUnitClassType() == getInfoType("UNITCLASS_WAR_SLUGA") or caster.getUnitClassType() == getInfoType("UNITCLASS_BEHEMOTH_SLUGA")) and (pUnit.getUnitClassType() == getInfoType("UNITCLASS_COMBAT_OVERSEER") or pUnit.getUnitClassType() == getInfoType("UNITCLASS_SLUGA_COMMANDER") or pUnit.getUnitClassType() == getInfoType("UNITCLASS_KARAS")):
+#										iCommanderWeight += 100
+#									if(pUnit.getGroupID() == caster.getGroupID()):
+#										if not (bSameGroup):
+#											pBestUnit = pUnit
+#											iBestLevel = iCommanderWeight
+#											bSameGroup = True
+#										elif iCommanderWeight < iBestLevel:
+#											pBestUnit = pUnit
+#											iBestLevel = iCommanderWeight
+#									else:
+#										if iCommanderWeight < iBestLevel:
+#											pBestUnit = pUnit
+#											iBestLevel = iCommanderWeight
+#	return pBestUnit
+#Seems fine
 def reqMekaraWorldspell(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	py = PyPlayer(caster.getOwner())
 	if pPlayer.isHuman() == False:
 		iUnitCounter = 0
 		for pUnit in py.getUnitList():
-			if (pUnit.getUnitType() == getInfoType('UNIT_SLUGA')
+			if (pUnit.getUnitType() == getInfoType('UNIT_SLUGA_V2')
 				or pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')):
 					iUnitCounter += 1
 		if iUnitCounter < 12:
@@ -11191,17 +11201,17 @@ def reqMekaraWorldspell(caster):
 		if pTeam.getAtWarCount(True) == 0:
 			return False
 	return True
-
+#Seems fine
 def spellMekaraWorldspell(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
-	iBattleSluga = getInfoType('UNIT_WAR_SLUGA')
+	iBattleSluga = getInfoType('UNIT_WAR_SLUGA_V2')
 	py = PyPlayer(caster.getOwner())
 	for pUnit in py.getUnitList():
-		if (pUnit.getUnitType() == getInfoType('UNIT_SLUGA') or pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')):
+		if (pUnit.getUnitType() == getInfoType('UNIT_SLUGA_V2') or pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')):
 				newUnit = pPlayer.initUnit(iBattleSluga, pUnit.getX(), pUnit.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-				newUnit.setHasPromotion(getInfoType('PROMOTION_INDEPENDENT'), True)
+				newUnit.setHasPromotion(getInfoType('PROMOTION_INDEPENDENT_V2'), True)
 				pUnit.kill(True,0)
-
+#Seems fine
 def reqAscension(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	if isWorldUnitClass(caster.getUnitClassType()):
@@ -11279,63 +11289,62 @@ def spellCorgayleAscension(caster):
 				for i in xrange(iVampCount):
 					newUnit.setHasPromotion(iVampiricStrength, True)
 	caster.kill(True,0)
-
-def spellSlugaCreation(caster, slugaType):
-	pPlayer = gc.getPlayer(caster.getOwner())
-	pPlot = caster.plot()
-	if slugaType == 0:
-		iUnit = getInfoType("UNIT_SLUGA")
-	if slugaType == 1:
-		iUnit = getInfoType("UNIT_BATTLE_SLUGA")
-	if slugaType == 2:
-		iUnit = getInfoType("UNIT_SLAVE")
-	newUnit = pPlayer.initUnit(iUnit, pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-	caster.kill(True,0)
-
-def reqBehemothCreation(caster):
-	pPlayer = gc.getPlayer(caster.getOwner())
-	iMaterialCount = 0
-	pPlot = caster.plot()
-	if pPlayer.getLeaderType() != getInfoType('LEADER_JAMAL'): return False
-	if pPlayer.getUnitClassCount(getInfoType('UNITCLASS_BEHEMOTH_SLUGA')) >= 4: return False
-	for i in range(pPlot.getNumUnits()):
-		pUnit = pPlot.getUnit(i)
-		if (pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')
-			or pUnit.getUnitType() == getInfoType('UNIT_SLUGA')
-			or pUnit.getUnitType() == getInfoType('UNIT_BATTLE_SLUGA')
-			or pUnit.getUnitType() == getInfoType('UNIT_WAR_SLUGA')):
-			iMaterialCount += 1
-			if pUnit.isHasPromotion(getInfoType('PROMOTION_GIANTKIN')):
-				iMaterialCount += 1
-			if iMaterialCount >= 4:
-				return True
-	return False
-
-def spellBehemothCreation(caster):
-	pPlayer = gc.getPlayer(caster.getOwner())
-	pPlot = caster.plot()
-	iCounter = 0
-	iUnit = getInfoType('UNIT_BEHEMOTH_SLUGA')
-	while iCounter < 4:
-		for i in range(pPlot.getNumUnits()):
-			pUnit = pPlot.getUnit(i)
-			if (pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')
-				or pUnit.getUnitType() == getInfoType('UNIT_SLUGA')
-				or pUnit.getUnitType() == getInfoType('UNIT_BATTLE_SLUGA')
-				or pUnit.getUnitType() == getInfoType('UNIT_WAR_SLUGA')):
-				if iCounter < 4:
-					if pUnit.isHasPromotion(getInfoType('PROMOTION_GIANTKIN')):
-						iCounter += 1
-					iCounter += 1
-					pUnit.kill(True, 0)
-	if iCounter == 4:
-		pPlayer.initUnit(iUnit, caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
-
+#Disabled
+#def spellSlugaCreation(caster, slugaType):
+#	pPlayer = gc.getPlayer(caster.getOwner())
+#	pPlot = caster.plot()
+#	if slugaType == 0:
+#		iUnit = getInfoType("UNIT_SLUGA")
+#	if slugaType == 1:
+#		iUnit = getInfoType("UNIT_BATTLE_SLUGA")
+#	if slugaType == 2:
+#		iUnit = getInfoType("UNIT_SLAVE")
+#	newUnit = pPlayer.initUnit(iUnit, pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+#	caster.kill(True,0)
+#Disabled
+#def reqBehemothCreation(caster):
+#	pPlayer = gc.getPlayer(caster.getOwner())
+#	pPlot = caster.plot()
+#	if pPlayer.getLeaderType() != getInfoType('LEADER_JAMAL'): return False
+#	if pPlayer.getUnitClassCount(getInfoType('UNITCLASS_BEHEMOTH_SLUGA')) >= 4: return False
+#	for i in range(pPlot.getNumUnits()):
+#		pUnit = pPlot.getUnit(i)
+#		if (pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')
+#			or pUnit.getUnitType() == getInfoType('UNIT_SLUGA')
+#			or pUnit.getUnitType() == getInfoType('UNIT_BATTLE_SLUGA')
+#			or pUnit.getUnitType() == getInfoType('UNIT_WAR_SLUGA')):
+#			iMaterialCount += 1
+#			if pUnit.isHasPromotion(getInfoType('PROMOTION_GIANTKIN')):
+#				iMaterialCount += 1
+#			if iMaterialCount >= 4:
+#				return True
+#	return False
+#Disabled
+#def spellBehemothCreation(caster):
+#	pPlayer = gc.getPlayer(caster.getOwner())
+#	pPlot = caster.plot()
+#	iCounter = 0
+#	iUnit = getInfoType('UNIT_BEHEMOTH_SLUGA')
+#	while iCounter < 4:
+#		for i in range(pPlot.getNumUnits()):
+#			pUnit = pPlot.getUnit(i)
+#			if (pUnit.getUnitClassType() == getInfoType('UNITCLASS_SLAVE')
+#				or pUnit.getUnitType() == getInfoType('UNIT_SLUGA')
+#				or pUnit.getUnitType() == getInfoType('UNIT_BATTLE_SLUGA')
+#				or pUnit.getUnitType() == getInfoType('UNIT_WAR_SLUGA')):
+#				if iCounter < 4:
+#					if pUnit.isHasPromotion(getInfoType('PROMOTION_GIANTKIN')):
+#						iCounter += 1
+#					iCounter += 1
+#					pUnit.kill(True, 0)
+#	if iCounter == 4:
+#		pPlayer.initUnit(iUnit, caster.getX(), caster.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
+#Seems fine
 def reqEnslaveWorker(caster):
-	if caster.getUnitType()==getInfoType('UNIT_FAMILIAR'):
+	if caster.getUnitType()==getInfoType('UNIT_OVERSEER_V2'):
 		return False
 	return True
-
+#Seems fine
 def reqEnslaveDissidents(caster):
 	pPlot = caster.plot()
 	pCity = pPlot.getPlotCity()
@@ -11344,7 +11353,7 @@ def reqEnslaveDissidents(caster):
 	if (pCity.happyLevel() - pCity.unhappyLevel(0)) < 0:
 		return True
 	return False	
-	
+#Seems fine	
 def spellEnslaveDissidents(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pPlot = caster.plot()
@@ -11352,7 +11361,7 @@ def spellEnslaveDissidents(caster):
 	iUnit = getInfoType("UNIT_SLAVE")
 	newUnit = pPlayer.initUnit(iUnit, pPlot.getX(), pPlot.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 	pCity.changeHurryAngerTimer(3)
-
+#Seems fine
 def spellGladiatorGames(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pPlot = caster.plot()
@@ -11360,7 +11369,7 @@ def spellGladiatorGames(caster):
 	iGames = getInfoType('PROMOTION_WARGAMES_HELD')
 	caster.setHasPromotion(iGames, True)
 	pCity.setNumRealBuilding(getInfoType('BUILDING_WARGAMES'), 1)
-
+#Seems fine
 def spellGladiatorPerTurn(caster):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pPlot = caster.plot()
@@ -11371,7 +11380,7 @@ def spellGladiatorPerTurn(caster):
 	iDestruction = 1
 	if iRnd < 45:
 		caster.setHasPromotion(iGames, False)
-		if iRnd < 15:
+		if iRnd < 20:
 			caster.kill(True,0)
 		elif caster.getUnitType() != iUnit:
 			newUnit = pPlayer.initUnit(iUnit, pCity.getX(), pCity.getY(), UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
@@ -11382,7 +11391,7 @@ def spellGladiatorPerTurn(caster):
 				iDestruction = 0
 		if iDestruction == 1:
 			pCity.setNumRealBuilding(getInfoType('BUILDING_WARGAMES'), 0)
-
+#Seems fine (If ugly...)
 def spellAugmentation(caster, augmentationType):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	pPlot = caster.plot()
@@ -11504,7 +11513,7 @@ def spellAugmentation(caster, augmentationType):
 		pTarget.setHasPromotion(getInfoType('PROMOTION_MEKARA_RITUAL_TARGET'), False)	# Remove target promotion, since the ritual is over
 		pTarget.setHasPromotion(getInfoType('PROMOTION_MEKARA_AUGMENTED'), True)
 		# Add the Augmented promotion, making the unit immune to futher augmentation or mutation
-
+#Seems fine
 def reqAugmentation(caster, augmentationType):
 	pPlayer = gc.getPlayer(caster.getOwner())
 	if augmentationType == 0: # Beserker
@@ -11519,7 +11528,7 @@ def reqAugmentation(caster, augmentationType):
 		if iBonus < 1:
 			return False
 	return True
-
+#Seems fine(If ugly...)
 def getHelpAugmentation(argsList):
 	ePromotion, pCaster = argsList
 	bFirst = True
@@ -11696,7 +11705,7 @@ def getHelpAugmentation(argsList):
 			bFirst = False
 
 	return szHelp
-
+#Seems fine
 def spellShaperExperiments(caster):
 	pTarget = -1
 	pPlot = caster.plot()
@@ -11758,17 +11767,17 @@ def spellSlaveSettle(caster):
 	pCity = pPlot.getPlotCity()
 	pCity.changeFreeSpecialistCount(getInfoType('SPECIALIST_SLAVE'), 1)
 	caster.kill(True,0)
-
+#Seems fine
 def reqCorgayleChanneling1(pCaster):
 	if (pCaster.isHasPromotion(getInfoType('PROMOTION_CHANNELING1'))):
 		return False
 	return True
-
+#Seems fine
 def reqCorgayleChanneling2(pCaster):
 	if (pCaster.isHasPromotion(getInfoType('PROMOTION_CHANNELING2'))):
 		return False
 	return True
-
+#Seems fine
 def spellBloom(caster):
 	pPlot = caster.plot()
 	iTerrain = pPlot.getTerrainType()
@@ -11782,6 +11791,43 @@ def spellBloom(caster):
 		pPlot.setFeatureType(getInfoType('FEATURE_FOREST_NEW'), -1)
 	elif iTerrain == getInfoType('TERRAIN_MARSH'):
 		pPlot.setFeatureType(getInfoType('FEATURE_FOREST_NEW'), -1)
+# *******************
+# Mekara V2 Python: 2025-04-13
+#
+# Python belonging to the Mekara V2 Civilization
+#
+Slaves = [
+	getInfoType("UNIT_SLAVE"),
+	getInfoType("UNIT_SLAVE_UNDEAD")
+]
+#New V2 Behemoth spell, converted from Flight of Drakes
+def reqFormSlugaBehemoth(caster):
+	pPlot = caster.plot()
+	iUnitType = caster.getUnitType()
+	numSameTypeSlaves = 0 # Will add self
+	for i in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(i)
+		if (pUnit.isAlive() and pUnit.getOwner() == caster.getOwner() and pUnit.getUnitType() == iUnitType):
+			numSameTypeSlaves += 1
+	return numSameTypeSlaves >= 4
+#New V2 Behemoth spell, converted from Flight of Drakes
+def spellFormSlugaBehemoth(caster):
+	# The actual upgrading of the original unit is done in the XML,
+	# so this code just kills the two lowest experienced drakes of the same type
+	pPlot = caster.plot()
+	iUnitType = caster.getUnitType()
+	iID = caster.getID()
+	sameTypeSlaves = [] # Will not include self
+	for i in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(i)
+		if (pUnit.isAlive() and pUnit.getOwner() == caster.getOwner() and pUnit.getUnitType() == iUnitType and pUnit.getID() != iID):
+			sameTypeSlaves.append(pUnit)
+	sameTypeSlaves.sort(cmp = lambda a, b: a.getExperienceTimes100() - b.getExperienceTimes100())
+	for i in range(2):
+		if sameTypeSlaves[i].isImmortal():
+			sameTypeSlaves[i].changeImmortal(-10)
+		sameTypeSlaves[i].kill(True, 0)
+
 
 def reqAddT1Wolf(pCaster):
 	# check units on tile. If at least one wolf T2 or t3 is present and has not combat V, return true
@@ -12173,6 +12219,7 @@ def postCombatGodslayer(pCaster, pOpponent):
 def postCombatNetherBlade(pCaster, pOpponent):
 	gc 		= CyGlobalContext()
 	iWinner	= pCaster.getOwner()
+	pPlot = pCaster.plot()
 	if (pOpponent.isAlive()):
 		if not gc.isNoCrash():
 			gc.getGame().addtoDeathList(gc.getInfoTypeForString('DEATHLIST_NETHERBLADE'),pOpponent)

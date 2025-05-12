@@ -17273,6 +17273,8 @@
 			<bNoXP>1</bNoXP>
 			<PrereqImprovements>
 				<PrereqImprovement>IMPROVEMENT_RINWELL</PrereqImprovement>
+				<PrereqImprovement>IMPROVEMENT_RINWELL2</PrereqImprovement>
+				<PrereqImprovement>IMPROVEMENT_RINWELL3</PrereqImprovement>
 			</PrereqImprovements>
 			<UnitCombats>
 				<UnitCombat>
@@ -31668,8 +31670,8 @@
 				</DamageTypeResist>
 			</DamageTypeResists>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Sluga Innate Abilities-->
-			<Type>PROMOTION_SLUGA_ABILITIES</Type>
+	<!-- <PromotionInfo>	-->	<!-- Sluga Innate Abilities--> 
+		<!-- <Type>PROMOTION_SLUGA_ABILITIES</Type>
 			<Description>TXT_KEY_PROMOTION_SLUGA_ABILITIES</Description>
 			<bEffectProm>1</bEffectProm>
 			<bFreeUnit>1</bFreeUnit>
@@ -31740,9 +31742,9 @@
 					<iResist>100</iResist>
 				</DamageTypeResist>
 			</DamageTypeResists>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Slave Overseer Promotion Unlocker-->
-			<Type>PROMOTION_SLAVE_OVERSEER_ABILITIES</Type>
+		</PromotionInfo> -->
+	<!-- <PromotionInfo>	 -->	<!-- Slave Overseer Promotion Unlocker-->
+		<!-- <Type>PROMOTION_SLAVE_OVERSEER_ABILITIES</Type>
 			<Description>TXT_KEY_PROMOTION_SLAVE_OVERSEER_ABILITIES</Description>
 			<bEffectProm>1</bEffectProm>
 			<bAutoAcquire>1</bAutoAcquire>
@@ -31781,9 +31783,9 @@
 				<Promotion>PROMOTION_OVERSEER_ANIMALS_UNIT</Promotion>
 			</PromotionAllows>
 			<Button>Art/Interface/Buttons/Promotions/Sluga.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Overseer, Psionic Link -->
-			<Type>PROMOTION_SLUGA_PSIONIC_LINK</Type>
+		</PromotionInfo> -->
+	<!-- <PromotionInfo>	 -->	<!-- Overseer, Psionic Link -->
+		<!-- <Type>PROMOTION_SLUGA_PSIONIC_LINK</Type>
 			<Description>TXT_KEY_PROMOTION_SLUGA_PSIONIC_LINK</Description>
 			<fCasterXPRate>1.0</fCasterXPRate>
 			<bStackEffect>1</bStackEffect>
@@ -31795,9 +31797,9 @@
 			</PrereqUnits>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerPsionicLink.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Overseer -->
-			<Type>PROMOTION_OVERSEER</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Overseer -->
+			<!-- <Type>PROMOTION_OVERSEER</Type>
 			<Description>TXT_KEY_UNIT_OVERSEER</Description>
 			<Help>TXT_KEY_PROMOTION_OVERSEER_HELP</Help>
 			<MinionPromotions>
@@ -31824,9 +31826,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerOverseer.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Overseer, Unit -->
-			<Type>PROMOTION_OVERSEER_UNIT</Type>
+		</PromotionInfo> -->
+	<!-- <PromotionInfo>	 -->	<!-- Overseer, Unit -->
+			<!-- <Type>PROMOTION_OVERSEER_UNIT</Type>
 			<Description>TXT_KEY_UNIT_OVERSEER</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -31837,9 +31839,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionOverseer.dds</Button>
 			<iWorkRateModify>10</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Overseer, Sluga -->
-			<Type>PROMOTION_OVERSEER_SLUGA</Type>
+		</PromotionInfo> -->
+	<!-- <PromotionInfo> -->		<!-- Overseer, Sluga -->
+			<!-- <Type>PROMOTION_OVERSEER_SLUGA</Type>
 			<Description>TXT_KEY_UNIT_OVERSEER</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<iMovesChange>1</iMovesChange>
@@ -31850,9 +31852,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionOverseer.dds</Button>
 			<iWorkRateModify>30</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer I -->									<!-- Overseer Promotions - Start -->
-			<Type>PROMOTION_SKILLED_OVERSEER1</Type>
+		</PromotionInfo> -->
+	    <!-- <PromotionInfo> -->		<!-- Skilled Overseer I -->									<!-- Overseer Promotions - Start -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER1</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER1</Description>
 			<Help>TXT_KEY_PROMOTION_SKILLED_OVERSEER1_HELP</Help>
 			<MinionPromotions>
@@ -31864,9 +31866,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSkilledOverseer1.dds</Button>
 			<iWorkRateModify>20</iWorkRateModify>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER2</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer I, Unit -->
-			<Type>PROMOTION_SKILLED_OVERSEER1_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Skilled Overseer I, Unit -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER1_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER1</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -31878,9 +31880,9 @@
 			<iWorkRateModify>10</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER2_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer I, Sluga -->
-			<Type>PROMOTION_SKILLED_OVERSEER1_SLUGA</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Skilled Overseer I, Sluga -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER1_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER1</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -31891,9 +31893,9 @@
 			<iWorkRateModify>40</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER2_SLUGA</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer II -->
-			<Type>PROMOTION_SKILLED_OVERSEER2</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Skilled Overseer II -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER2</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER2</Description>
 			<Help>TXT_KEY_PROMOTION_SKILLED_OVERSEER2_HELP</Help>
 			<PrereqPromotionANDs>
@@ -31911,9 +31913,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSkilledOverseer2.dds</Button>
 			<iWorkRateModify>20</iWorkRateModify>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER3</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer II, Unit -->
-			<Type>PROMOTION_SKILLED_OVERSEER2_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Skilled Overseer II, Unit -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER2_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER2</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -31925,9 +31927,9 @@
 			<iWorkRateModify>10</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER3_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer II, Sluga -->
-			<Type>PROMOTION_SKILLED_OVERSEER2_SLUGA</Type>
+		</PromotionInfo> -->
+         <!-- <PromotionInfo>	 -->	<!-- Skilled Overseer II, Sluga -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER2_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER2</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -31938,9 +31940,9 @@
 			<iWorkRateModify>40</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER3_SLUGA</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer III -->
-			<Type>PROMOTION_SKILLED_OVERSEER3</Type>
+		</PromotionInfo> -->
+        <!--  <PromotionInfo>	 -->	<!-- Skilled Overseer III -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER3</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER3</Description>
 			<Help>TXT_KEY_PROMOTION_SKILLED_OVERSEER3_HELP</Help>
 			<PrereqPromotionANDs>
@@ -31958,9 +31960,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSkilledOverseer3.dds</Button>
 			<iWorkRateModify>20</iWorkRateModify>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER4</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer III, Unit -->
-			<Type>PROMOTION_SKILLED_OVERSEER3_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Skilled Overseer III, Unit -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER3_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER3</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -31972,9 +31974,9 @@
 			<iWorkRateModify>10</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER4_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer III, Sluga -->
-			<Type>PROMOTION_SKILLED_OVERSEER3_SLUGA</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Skilled Overseer III, Sluga -->
+		<!-- 	<Type>PROMOTION_SKILLED_OVERSEER3_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER3</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -31985,9 +31987,9 @@
 			<iWorkRateModify>40</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER4_SLUGA</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer IV -->
-			<Type>PROMOTION_SKILLED_OVERSEER4</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Skilled Overseer IV -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER4</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER4</Description>
 			<Help>TXT_KEY_PROMOTION_SKILLED_OVERSEER4_HELP</Help>
 			<PrereqPromotionANDs>
@@ -32005,9 +32007,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSkilledOverseer4.dds</Button>
 			<iWorkRateModify>20</iWorkRateModify>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER5</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer IV, Unit -->
-			<Type>PROMOTION_SKILLED_OVERSEER4_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Skilled Overseer IV, Unit -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER4_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER4</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32019,9 +32021,9 @@
 			<iWorkRateModify>10</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER5_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer IV, Sluga -->
-			<Type>PROMOTION_SKILLED_OVERSEER4_SLUGA</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Skilled Overseer IV, Sluga -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER4_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER4</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32032,9 +32034,9 @@
 			<iWorkRateModify>40</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER5_SLUGA</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer V -->
-			<Type>PROMOTION_SKILLED_OVERSEER5</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Skilled Overseer V -->
+		<!-- 	<Type>PROMOTION_SKILLED_OVERSEER5</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER5</Description>
 			<Help>TXT_KEY_PROMOTION_SKILLED_OVERSEER5_HELP</Help>
 			<PrereqPromotionANDs>
@@ -32051,9 +32053,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSkilledOverseer5.dds</Button>
 			<iWorkRateModify>20</iWorkRateModify>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer V, Unit -->
-			<Type>PROMOTION_SKILLED_OVERSEER5_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Skilled Overseer V, Unit -->
+		<!-- 	<Type>PROMOTION_SKILLED_OVERSEER5_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER5</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32064,9 +32066,9 @@
 			<Button>Art/Civs/Mekara/Promotions/SkilledOverseer5.dds</Button>
 			<iWorkRateModify>10</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Skilled Overseer V, Sluga -->
-			<Type>PROMOTION_SKILLED_OVERSEER5_SLUGA</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Skilled Overseer V, Sluga -->
+			<!-- <Type>PROMOTION_SKILLED_OVERSEER5_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER5</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32076,9 +32078,9 @@
 			<Button>Art/Civs/Mekara/Promotions/SkilledOverseer5.dds</Button>
 			<iWorkRateModify>40</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Farming -->
-			<Type>PROMOTION_OVERSEER_FARMING</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Farming -->
+			<!-- <Type>PROMOTION_OVERSEER_FARMING</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_FARMING</Description>
 			<Help>TXT_KEY_PROMOTION_OVERSEER_FARMING_HELP</Help>
 			<bAutoAcquire>1</bAutoAcquire>
@@ -32094,9 +32096,9 @@
 			</MinionPromotions>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerFarming.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Farming, Unit -->
-			<Type>PROMOTION_OVERSEER_FARMING_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Farming, Unit -->
+		<!-- 	<Type>PROMOTION_OVERSEER_FARMING_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_FARMING</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32107,9 +32109,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionFarming.dds</Button>
 			<iWorkRateModify>10</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Farming, Sluga -->
-			<Type>PROMOTION_OVERSEER_FARMING_SLUGA</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Farming, Sluga -->
+		<!-- 	<Type>PROMOTION_OVERSEER_FARMING_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_FARMING</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32124,9 +32126,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionFarming.dds</Button>
 			<iWorkRateModify>30</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Mining -->
-			<Type>PROMOTION_OVERSEER_MINING</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Mining -->
+		<!-- 	<Type>PROMOTION_OVERSEER_MINING</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_MINING</Description>
 			<Help>TXT_KEY_PROMOTION_OVERSEER_MINING_HELP</Help>
 			<bAutoAcquire>1</bAutoAcquire>
@@ -32142,9 +32144,9 @@
 			</MinionPromotions>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerStonework.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Mining, Unit -->
-			<Type>PROMOTION_OVERSEER_MINING_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Mining, Unit -->
+		<!-- 	<Type>PROMOTION_OVERSEER_MINING_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_MINING</Description>
 			<PrereqPermission>1</PrereqPermission>
 			<bGraphicalOnly>1</bGraphicalOnly>
@@ -32155,9 +32157,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionStonework.dds</Button>
 			<iWorkRateModify>10</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Mining, Sluga -->
-			<Type>PROMOTION_OVERSEER_MINING_SLUGA</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Mining, Sluga -->
+		<!-- 	<Type>PROMOTION_OVERSEER_MINING_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_MINING</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32172,9 +32174,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionStonework.dds</Button>
 			<iWorkRateModify>30</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Animal Husbandry -->
-			<Type>PROMOTION_OVERSEER_ANIMALS</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Animal Husbandry -->
+			<!-- <Type>PROMOTION_OVERSEER_ANIMALS</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_ANIMALS</Description>
 			<Help>TXT_KEY_PROMOTION_OVERSEER_ANIMALS_HELP</Help>
 			<bAutoAcquire>1</bAutoAcquire>
@@ -32190,9 +32192,9 @@
 			</MinionPromotions>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerAnimalHusbandry.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Animal Husbandry, Unit -->
-			<Type>PROMOTION_OVERSEER_ANIMALS_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Animal Husbandry, Unit -->
+			<!-- <Type>PROMOTION_OVERSEER_ANIMALS_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_ANIMALS</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32203,9 +32205,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionAnimalHusbandry.dds</Button>
 			<iWorkRateModify>10</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Animal Husbandry, Sluga -->
-			<Type>PROMOTION_OVERSEER_ANIMALS_SLUGA</Type>
+		</PromotionInfo> -->
+		<!--  <PromotionInfo>	 -->	<!-- Animal Husbandry, Sluga -->
+			<!-- <Type>PROMOTION_OVERSEER_ANIMALS_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_ANIMALS</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32219,9 +32221,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionAnimalHusbandry.dds</Button>
 			<iWorkRateModify>30</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Construction -->
-			<Type>PROMOTION_OVERSEER_CONSTRUCTION</Type>
+		</PromotionInfo> -->
+	<!-- 	<PromotionInfo>	 -->	<!-- Construction -->
+			<!-- <Type>PROMOTION_OVERSEER_CONSTRUCTION</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONSTRUCTION</Description>
 			<Help>TXT_KEY_PROMOTION_OVERSEER_CONSTRUCTION_HELP</Help>
 			<bAutoAcquire>1</bAutoAcquire>
@@ -32236,9 +32238,9 @@
 			</MinionPromotions>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerConstruction.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Construction, Unit -->
-			<Type>PROMOTION_OVERSEER_CONSTRUCTION_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Construction, Unit -->
+			<!-- <Type>PROMOTION_OVERSEER_CONSTRUCTION_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONSTRUCTION</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32249,9 +32251,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionConstruction.dds</Button>
 			<iWorkRateModify>10</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Construction, Sluga -->
-			<Type>PROMOTION_OVERSEER_CONSTRUCTION_SLUGA</Type>
+		</PromotionInfo> -->
+	<!-- 	<PromotionInfo>	 -->	<!-- Construction, Sluga -->
+			<!-- <Type>PROMOTION_OVERSEER_CONSTRUCTION_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_CONSTRUCTION</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32266,9 +32268,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionConstruction.dds</Button>
 			<iWorkRateModify>30</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Endurance -->
-			<Type>PROMOTION_OVERSEER_ENDURANCE</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Endurance -->
+		<!-- 	<Type>PROMOTION_OVERSEER_ENDURANCE</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_ENDURANCE</Description>
 			<Help>TXT_KEY_PROMOTION_OVERSEER_ENDURANCE_HELP</Help>
 			<MinionPromotions>
@@ -32278,9 +32280,9 @@
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
 			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Endurance, Unit+Sluga -->
-			<Type>PROMOTION_OVERSEER_ENDURANCE_UNIT</Type>
+		</PromotionInfo> -->
+	<!--  <PromotionInfo>	 -->	<!-- Endurance, Unit+Sluga -->
+			<!-- <Type>PROMOTION_OVERSEER_ENDURANCE_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_ENDURANCE</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<iMovesChange>1</iMovesChange>
@@ -32293,9 +32295,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionEndurance.dds</Button>
 			<iWorkRateModify>20</iWorkRateModify>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Artisan I -->
-			<Type>PROMOTION_OVERSEER_ARTISAN1</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Artisan I -->
+			<!-- <Type>PROMOTION_OVERSEER_ARTISAN1</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_ARTISAN1</Description>
 			<Help>TXT_KEY_PROMOTION_OVERSEER_ARTISAN1_HELP</Help>
 			<PrereqPromotionANDs>
@@ -32320,23 +32322,23 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerArtisan1.dds</Button>
 			<iMinLevel>3</iMinLevel>
 			<PromotionNextLevel>PROMOTION_OVERSEER_ARTISAN2</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Artisan I, Trigger -->
-			<Type>PROMOTION_OVERSEER_ARTISAN1_TRIGGER</Type>
-			<Description>TXT_KEY_PROMOTION_OVERSEER_ARTISAN1</Description>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Artisan I, Trigger -->
+		<!-- 	<Type>PROMOTION_OVERSEER_ARTISAN1_TRIGGER</Type>
+		 <Description>TXT_KEY_PROMOTION_OVERSEER_ARTISAN1</Description>
 			<bEffectProm>1</bEffectProm>
 			<PrereqPermission>1</PrereqPermission>
-			<PrereqUnits>
+			<PrereqUnits>  -->
 				<!-- PrereqUnit>UNIT_SLAVE</PrereqUnit>
 					<PrereqUnit>UNIT_SLAVE_UNDEAD</PrereqUnit -->
-				<PrereqUnit>UNIT_SLUGA</PrereqUnit>
+			<!--	<PrereqUnit>UNIT_SLUGA</PrereqUnit>
 			</PrereqUnits>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionArtisan1.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_OVERSEER_ARTISAN2_TRIGGER</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Artisan I, Unit -->
-			<Type>PROMOTION_OVERSEER_ARTISAN1_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Artisan I, Unit -->
+			<!-- <Type>PROMOTION_OVERSEER_ARTISAN1_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_ARTISAN1</Description>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
@@ -32365,9 +32367,9 @@
 			<PrereqInCity>1</PrereqInCity>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionArtisan1.dds</Button>
 			<PromotionNextLevel>PROMOTION_OVERSEER_ARTISAN2_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Artisan II -->
-			<Type>PROMOTION_OVERSEER_ARTISAN2</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Artisan II -->
+			<!-- <Type>PROMOTION_OVERSEER_ARTISAN2</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_ARTISAN2</Description>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
@@ -32395,21 +32397,21 @@
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerArtisan2.dds</Button>
 			<iMinLevel>5</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Artisan II, Trigger -->
-			<Type>PROMOTION_OVERSEER_ARTISAN2_TRIGGER</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Artisan II, Trigger -->
+		<!-- 	<Type>PROMOTION_OVERSEER_ARTISAN2_TRIGGER</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_ARTISAN</Description>
 			<bEffectProm>1</bEffectProm>
-			<PrereqUnits>
+			<PrereqUnits> -->
 				<!-- PrereqUnit>UNIT_SLAVE</PrereqUnit>
 					<PrereqUnit>UNIT_SLAVE_UNDEAD</PrereqUnit -->
-				<PrereqUnit>UNIT_SLUGA</PrereqUnit>
+				<!-- <PrereqUnit>UNIT_SLUGA</PrereqUnit>
 			</PrereqUnits>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionArtisan2.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Artisan II, Unit -->
-			<Type>PROMOTION_OVERSEER_ARTISAN2_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Artisan II, Unit -->
+			<!-- <Type>PROMOTION_OVERSEER_ARTISAN2_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_ARTISAN2</Description>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
@@ -32427,17 +32429,17 @@
 					<fProduction>1</fProduction>
 				</CityBonus>
 			</CityBonuses>
-			<PrereqUnits>
+			<PrereqUnits>  -->
 				<!-- PrereqUnit>UNIT_SLAVE</PrereqUnit>
 					<PrereqUnit>UNIT_SLAVE_UNDEAD</PrereqUnit -->
-				<PrereqUnit>UNIT_SLUGA</PrereqUnit>
+				<!-- <PrereqUnit>UNIT_SLUGA</PrereqUnit>
 			</PrereqUnits>
 			<PrereqInBorderSelf>1</PrereqInBorderSelf>
 			<PrereqInCity>1</PrereqInCity>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionArtisan2.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Scorch -->
-			<Type>PROMOTION_OVERSEER_SCORCH</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Scorch -->
+		<!-- 	<Type>PROMOTION_OVERSEER_SCORCH</Type>
 			<Description>TXT_KEY_SPELL_SCORCH</Description>
 			<TechPrereq>TECH_DIVINATION</TechPrereq>
 			<PrereqPromotionANDs>
@@ -32456,9 +32458,9 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerScorch.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Scorch, Casting -->
-			<Type>PROMOTION_OVERSEER_SCORCH_CASTING</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Scorch, Casting -->
+		<!-- 	<Type>PROMOTION_OVERSEER_SCORCH_CASTING</Type>
 			<Description>TXT_KEY_SPELL_OVERSEER_SCORCH</Description>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
@@ -32475,9 +32477,9 @@
 				<PromotionType>PROMOTION_OVERSEER_SCORCH_UNIT</PromotionType>
 			</MinionPromotions>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerScorch.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Scorch, Unit -->
-			<Type>PROMOTION_OVERSEER_SCORCH_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Scorch, Unit -->
+		<!-- 	<Type>PROMOTION_OVERSEER_SCORCH_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_SCORCH_CASTING</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32488,9 +32490,9 @@
 			<PythonOnRemove>spellScorch(pCaster)</PythonOnRemove>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionScorch.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Spring -->
-			<Type>PROMOTION_OVERSEER_SPRING</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Spring -->
+		<!-- 	<Type>PROMOTION_OVERSEER_SPRING</Type>
 			<Description>TXT_KEY_SPELL_SPRING</Description>
 			<TechPrereq>TECH_ELEMENTALISM</TechPrereq>
 			<PrereqPromotionANDs>
@@ -32509,9 +32511,9 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSpring.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Spring, Casting -->
-			<Type>PROMOTION_OVERSEER_SPRING_CASTING</Type>
+		</PromotionInfo> -->
+	<!-- 	<PromotionInfo>	 -->	<!-- Spring, Casting -->
+	<!-- 		<Type>PROMOTION_OVERSEER_SPRING_CASTING</Type>
 			<Description>TXT_KEY_SPELL_OVERSEER_SPRING</Description>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
@@ -32528,9 +32530,9 @@
 				<PromotionType>PROMOTION_OVERSEER_SPRING_UNIT</PromotionType>
 			</MinionPromotions>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSpring.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Spring, Unit -->
-			<Type>PROMOTION_OVERSEER_SPRING_UNIT</Type>
+		</PromotionInfo> -->
+	<!-- 	<PromotionInfo>	 -->	<!-- Spring, Unit -->
+	<!-- 		<Type>PROMOTION_OVERSEER_SPRING_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_SPRING_CASTING</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32541,9 +32543,9 @@
 			<PythonOnRemove>spellSpring(pCaster)</PythonOnRemove>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionSpring.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Bloom -->
-			<Type>PROMOTION_OVERSEER_BLOOM</Type>
+		</PromotionInfo> -->
+	<!-- 	<PromotionInfo>		 --> <!-- Bloom -->
+	<!-- 		<Type>PROMOTION_OVERSEER_BLOOM</Type>
 			<Description>TXT_KEY_SPELL_BLOOM</Description>
 			<TechPrereq>TECH_ALTERATION</TechPrereq>
 			<PrereqPromotionANDs>
@@ -32562,9 +32564,9 @@
 				</UnitCombat>
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerBloom.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Bloom, Casting -->
-			<Type>PROMOTION_OVERSEER_BLOOM_CASTING</Type>
+		</PromotionInfo> -->
+	<!-- 	<PromotionInfo>	 -->	<!-- Bloom, Casting -->
+	<!-- 		<Type>PROMOTION_OVERSEER_BLOOM_CASTING</Type>
 			<Description>TXT_KEY_SPELL_OVERSEER_BLOOM</Description>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
@@ -32581,9 +32583,9 @@
 				<PromotionType>PROMOTION_OVERSEER_BLOOM_UNIT</PromotionType>
 			</MinionPromotions>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerBloom.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Bloom, Unit -->										<!-- Overseer Promotions - End -->
-			<Type>PROMOTION_OVERSEER_BLOOM_UNIT</Type>
+		</PromotionInfo> -->
+	<!-- 	<PromotionInfo>	 -->	<!-- Bloom, Unit -->										<!-- Overseer Promotions - End -->
+	<!-- 		<Type>PROMOTION_OVERSEER_BLOOM_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_OVERSEER_BLOOM_CASTING</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -32594,7 +32596,7 @@
 			<PythonOnRemove>spellBloom(pCaster)</PythonOnRemove>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionBloom.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
+		</PromotionInfo> -->
 		<PromotionInfo>		<!-- Gladiator -->
 			<Type>PROMOTION_GLADIATOR</Type>
 			<Description>TXT_KEY_UNIT_GLADIATOR</Description>
@@ -32611,16 +32613,12 @@
 		<PromotionInfo>		<!-- Militia -->
 			<Type>PROMOTION_MILITIA</Type>
 			<Description>TXT_KEY_UNIT_MILITIA</Description>
-			<bAutoAcquire>1</bAutoAcquire>
-			<bMustMaintain>1</bMustMaintain>
-			<bNoXP>1</bNoXP>
 			<PrereqCivilizations>
-				<PrereqCivilization>CIVILIZATION_MEKARA</PrereqCivilization>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
 			</PrereqCivilizations>
-			<PrereqUnits>
-				<PrereqUnit>UNIT_MILITIA</PrereqUnit>
-				<PrereqUnit>UNIT_MILITIA_CROSSBOWMAN</PrereqUnit>
-			</PrereqUnits>
+			<PrereqTraits>
+				<PrereqTrait>TRAIT_HUMANIST1</PrereqTrait>
+			</PrereqTraits>
 			<bFreeUnit>1</bFreeUnit>
 			<iCombatPercent>-10</iCombatPercent>
 			<UnitCombats/>
@@ -32711,7 +32709,7 @@
 				<Promotion>PROMOTION_SUBDUE_BEASTS</Promotion>
 			</PromotionExcludes>
 			<PrereqCivilizations>
-				<PrereqCivilization>CIVILIZATION_MEKARA</PrereqCivilization>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
 			</PrereqCivilizations>
 			<UnitCombats>
 				<UnitCombat>
@@ -33532,8 +33530,8 @@
 			</UnitCombats>
 			<Button>Art/Interface/Buttons/Buildings/Colosseum.dds</Button>
 		</PromotionInfo>
-		<PromotionInfo>		<!-- Combat Overseer -->
-			<Type>PROMOTION_COM_OVERSEER</Type>
+<!-- 		<PromotionInfo>	 -->	<!-- Combat Overseer -->
+			<!-- <Type>PROMOTION_COM_OVERSEER</Type>
 			<Description>TXT_KEY_UNIT_COM_OVERSEER</Description>
 			<Help>TXT_KEY_UNIT_COM_OVERSEER_HELP</Help>
 			<MinionPromotions>
@@ -33568,9 +33566,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombatOverseer.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Combat Overseer, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_SLUGA</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Combat Overseer, Unit -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_SLUGA</Type>
 			<Description>TXT_KEY_UNIT_COM_OVERSEER</Description>
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -33596,9 +33594,9 @@
 			</PromotionDegradesTo>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombatOverseer.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Independent -->
-			<Type>PROMOTION_INDEPENDENT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Independent -->
+			<!-- <Type>PROMOTION_INDEPENDENT</Type>
 			<Description>TXT_KEY_PROMOTION_INDEPENDENT</Description>
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -33620,9 +33618,9 @@
 			<TempUnitCombat>UNITCOMBAT_MELEE</TempUnitCombat>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionIndependent.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Combat Sluga Innate Abilities-->
-			<Type>PROMOTION_COM_SLUGA_ABILITIES</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Combat Sluga Innate Abilities-->
+		<!-- 	<Type>PROMOTION_COM_SLUGA_ABILITIES</Type>
 			<Description>TXT_KEY_PROMOTION_SLUGA_ABILITIES</Description>
 			<bEffectProm>1</bEffectProm>
 			<bFreeUnit>1</bFreeUnit>
@@ -33673,9 +33671,9 @@
 					<iResist>100</iResist>
 				</DamageTypeResist>
 			</DamageTypeResists>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Leaderless, Battle Sluga -->
-			<Type>PROMOTION_LEADERLESS_BATTLE_SLUGA</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Leaderless, Battle Sluga -->
+			<!-- <Type>PROMOTION_LEADERLESS_BATTLE_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_LEADERLESS_SLUGA</Description>
 			<bEffectProm>0</bEffectProm>
 			<bHeld>1</bHeld>
@@ -33689,9 +33687,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionLeaderless.dds</Button>
 			<iExtraCombatStr>-8</iExtraCombatStr>
 			<iExtraCombatDefense>-8</iExtraCombatDefense>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Leaderless, War Sluga -->
-			<Type>PROMOTION_LEADERLESS_WAR_SLUGA</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Leaderless, War Sluga -->
+		<!-- 	<Type>PROMOTION_LEADERLESS_WAR_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_LEADERLESS_SLUGA</Description>
 			<bEffectProm>0</bEffectProm>
 			<bHeld>1</bHeld>
@@ -33707,9 +33705,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionLeaderless.dds</Button>
 			<iExtraCombatStr>-10</iExtraCombatStr>
 			<iExtraCombatDefense>-10</iExtraCombatDefense>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Leaderless, Behemoth Sluga -->
-			<Type>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Leaderless, Behemoth Sluga -->
+			<!-- <Type>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA</Type>
 			<Description>TXT_KEY_PROMOTION_LEADERLESS_SLUGA</Description>
 			<bEffectProm>0</bEffectProm>
 			<bHeld>1</bHeld>
@@ -33725,9 +33723,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionLeaderless.dds</Button>
 			<iExtraCombatStr>-13</iExtraCombatStr>
 			<iExtraCombatDefense>-13</iExtraCombatDefense>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Close Combat Training -->								<!-- Combat Overseer Promotions - Start -->
-			<Type>PROMOTION_COM_OVERSEER_MELEE_BASIC</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Close Combat Training -->								<!-- Combat Overseer Promotions - Start -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MELEE_BASIC</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_BASIC</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_BASIC_HELP</Help>
 			<MinionPromotions>
@@ -33736,9 +33734,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat1.dds</Button>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MELEE_1</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Close Combat Training, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_MELEE_BASIC_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Close Combat Training, Unit -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MELEE_BASIC_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_BASIC</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -33752,9 +33750,9 @@
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MELEE_1_UNIT</PromotionNextLevel>
 			<iExtraCombatStr>1</iExtraCombatStr>
 			<iExtraCombatDefense>1</iExtraCombatDefense>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Combat Drill I -->
-			<Type>PROMOTION_COM_OVERSEER_MELEE_1</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Combat Drill I -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MELEE_1</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_1</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_1_HELP</Help>
 			<PrereqPromotionANDs>
@@ -33769,9 +33767,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat2.dds</Button>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MELEE_2</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Combat Drill I, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_MELEE_1_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Combat Drill I, Unit -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_MELEE_1_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_1</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -33791,9 +33789,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombat2.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MELEE_2_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Combat Drill II -->
-			<Type>PROMOTION_COM_OVERSEER_MELEE_2</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Combat Drill II -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MELEE_2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_2</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_2_HELP</Help>
 			<PrereqPromotionANDs>
@@ -33808,9 +33806,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat3.dds</Button>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MELEE_3</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Combat Drill II, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_MELEE_2_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Combat Drill II, Unit -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MELEE_2_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_2</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -33830,9 +33828,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombat3.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MELEE_3_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Combat Drill III -->
-			<Type>PROMOTION_COM_OVERSEER_MELEE_3</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Combat Drill III -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_MELEE_3</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_3</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_3_HELP</Help>
 			<PrereqPromotionANDs>
@@ -33847,9 +33845,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat4.dds</Button>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MELEE_MASTER</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Combat Drill III, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_MELEE_3_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Combat Drill III, Unit -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MELEE_3_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_3</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -33870,9 +33868,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombat4.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MELEE_MASTER_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Close Combat Mastery -->
-			<Type>PROMOTION_COM_OVERSEER_MELEE_MASTER</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Close Combat Mastery -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MELEE_MASTER</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_MASTER</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_MASTER_HELP</Help>
 			<PrereqPromotionANDs>
@@ -33887,9 +33885,9 @@
 			</MinionPromotions>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat5.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Close Combat Mastery, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_MELEE_MASTER_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Close Combat Mastery, Unit -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MELEE_MASTER_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MELEE_MASTER</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -33902,9 +33900,9 @@
 			<iMinLevel>-1</iMinLevel>
 			<iExtraCombatStr>2</iExtraCombatStr>
 			<iExtraCombatDefense>2</iExtraCombatDefense>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Ranged Training -->
-			<Type>PROMOTION_COM_OVERSEER_RANGED_BASIC</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Ranged Training -->
+		<!--	<Type>PROMOTION_COM_OVERSEER_RANGED_BASIC</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_BASIC</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_BASIC_HELP</Help>
 			<MinionPromotions>
@@ -33913,9 +33911,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedTraining.dds</Button>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_RANGED_1</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Ranged Training, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_RANGED_BASIC_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Ranged Training, Unit -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_RANGED_BASIC_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_BASIC</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -33930,9 +33928,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRangedTraining.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_RANGED_1_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Ranged Expertise I -->
-			<Type>PROMOTION_COM_OVERSEER_RANGED_1</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Ranged Expertise I -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_RANGED_1</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_1</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_1_HELP</Help>
 			<PrereqPromotionANDs>
@@ -33947,9 +33945,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedExpertise1.dds</Button>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_RANGED_2</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Ranged Expertise I, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_RANGED_1_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Ranged Expertise I, Unit -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_RANGED_1_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_1</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -33964,9 +33962,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRangedExpertise1.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_RANGED_2_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Ranged Expertise II -->
-			<Type>PROMOTION_COM_OVERSEER_RANGED_2</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Ranged Expertise II -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_RANGED_2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_2</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_2_HELP</Help>
 			<PrereqPromotionANDs>
@@ -33981,9 +33979,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedExpertise2.dds</Button>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_RANGED_3</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Ranged Expertise II, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_RANGED_2_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Ranged Expertise II, Unit -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_RANGED_2_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_2</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -33997,9 +33995,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRangedExpertise2.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_RANGED_3_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Ranged Expertise III -->
-			<Type>PROMOTION_COM_OVERSEER_RANGED_3</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Ranged Expertise III -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_RANGED_3</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_3</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_3_HELP</Help>
 			<PrereqPromotionANDs>
@@ -34014,9 +34012,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedExpertise3.dds</Button>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_RANGED_MASTER</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Ranged Expertise III, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_RANGED_3_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Ranged Expertise III, Unit -->
+		<!--	<Type>PROMOTION_COM_OVERSEER_RANGED_3_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_3</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -34030,9 +34028,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRangedExpertise3.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_RANGED_MASTER_UNIT</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Ranged Mastery -->
-			<Type>PROMOTION_COM_OVERSEER_RANGED_MASTER</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>  -->		<!-- Ranged Mastery -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_RANGED_MASTER</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_MASTER</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_MASTER_HELP</Help>
 			<PrereqPromotionANDs>
@@ -34047,9 +34045,9 @@
 			</MinionPromotions>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedMastery.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Ranged Mastery, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_RANGED_MASTER_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Ranged Mastery, Unit -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_RANGED_MASTER_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_RANGED_MASTER</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -34062,9 +34060,9 @@
 			</PrereqUnits>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRangedMastery.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Celerity -->
-			<Type>PROMOTION_COM_OVERSEER_CELERITY1</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Celerity -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_CELERITY1</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_CELERITY1</Description>
 			<MinionPromotions>
 				<PromotionType>PROMOTION_CELERITY1_OVERSEER</PromotionType>
@@ -34074,9 +34072,9 @@
 				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
 			</PrereqBonusANDs>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_CELERITY2</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Celerity, Unit -->
-			<Type>PROMOTION_CELERITY1_OVERSEER</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Celerity, Unit -->
+		<!-- <Type>PROMOTION_CELERITY1_OVERSEER</Type>
 			<Description>TXT_KEY_PROMOTION_CELERITY1_OVERSEER</Description>
 			<TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
 			<bGraphicalOnly>1</bGraphicalOnly>
@@ -34085,9 +34083,9 @@
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCelerity.dds</Button>
 			<PromotionNextLevel>PROMOTION_CELERITY2_OVERSEER</PromotionNextLevel>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Enhanced Celerity -->
-			<Type>PROMOTION_COM_OVERSEER_CELERITY2</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Enhanced Celerity -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_CELERITY2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_CELERITY2</Description>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
@@ -34103,18 +34101,18 @@
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
 			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Enhanced Celerity, Unit -->
-			<Type>PROMOTION_CELERITY2_OVERSEER</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Enhanced Celerity, Unit -->
+			<!-- <Type>PROMOTION_CELERITY2_OVERSEER</Type>
 			<Description>TXT_KEY_PROMOTION_CELERITY2_OVERSEER</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<iMovesChange>1</iMovesChange>
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionEnhancedCelerity.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Regeneration -->
-			<Type>PROMOTION_COM_OVERSEER_REGENERATION</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Regeneration -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_REGENERATION</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_HELP</Help>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRegeneration.dds</Button>
@@ -34125,9 +34123,9 @@
 				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
 			</PrereqBonusANDs>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_REGENERATION2</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Regeneration, Casting -->
-			<Type>PROMOTION_COM_OVERSEER_REGENERATION_CASTING</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Regeneration, Casting -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_REGENERATION_CASTING</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING_HELP</Help>
 			<PrereqPromotionANDs>
@@ -34148,9 +34146,9 @@
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
 			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Regeneration, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_REGENERATION_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Regeneration, Unit -->
+		<!--	<Type>PROMOTION_COM_OVERSEER_REGENERATION_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_CASTING</Description>
 			<PrereqPermission>1</PrereqPermission>
 			<bHeld>1</bHeld>
@@ -34164,9 +34162,9 @@
 			</PromotionDegradesTo>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRegeneration.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Sustained Regeneration -->
-			<Type>PROMOTION_COM_OVERSEER_REGENERATION2</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Sustained Regeneration -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_REGENERATION2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2</Description>
 			<PrereqPromotionANDs>
 				<PrereqPromotionAND>
@@ -34188,9 +34186,9 @@
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
 			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Sustained Regeneration, Unit -->
-			<Type>PROMOTION_MINION_MARCH</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Sustained Regeneration, Unit -->
+			<!-- <Type>PROMOTION_MINION_MARCH</Type>
 			<Description>TXT_KEY_PROMOTION_MARCH</Description>
 			<PrereqPermission>1</PrereqPermission>
 			<PrereqUnits>
@@ -34202,9 +34200,9 @@
 			<iEnemyHealChange>10</iEnemyHealChange>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionSustainedRegeneration.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Stoneskin -->
-			<Type>PROMOTION_COM_OVERSEER_STONESKIN</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Stoneskin -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_STONESKIN</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_HELP</Help>
 			<PromotionAllows>
@@ -34214,9 +34212,9 @@
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_EARTH</PrereqBonus>
 			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Stoneskin, Casting -->
-			<Type>PROMOTION_COM_OVERSEER_STONESKIN_CASTING</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Stoneskin, Casting -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_STONESKIN_CASTING</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING_HELP</Help>
 			<PrereqPromotionANDs>
@@ -34237,9 +34235,9 @@
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_EARTH</PrereqBonus>
 			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Stoneskin, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_STONESKIN_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Stoneskin, Unit -->
+		<!--	<Type>PROMOTION_COM_OVERSEER_STONESKIN_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_CASTING</Description>
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -34254,9 +34252,9 @@
 			</PromotionDegradesTo>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionStoneskin.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Maelstrom -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Maelstrom -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MAELSTROM</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Help>
 			<PromotionAllows>
@@ -34267,9 +34265,9 @@
 				<PrereqBonus>BONUS_MANA_AIR</PrereqBonus>
 			</PrereqBonusANDs>
 			<PromotionNextLevel>PROMOTION_COM_OVERSEER_MAELSTROM2</PromotionNextLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Maelstrom, Casting -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Maelstrom, Casting -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING_HELP</Help>
 			<bGraphicalOnly>1</bGraphicalOnly>
@@ -34281,9 +34279,9 @@
 				<PromotionType>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT</PromotionType>
 			</MinionPromotions>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerMaelstrom1.dds</Button>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Maelstrom, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Maelstrom, Unit -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_CASTING</Description>
 			<bGraphicalOnly>0</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -34296,9 +34294,9 @@
 			<PythonOnRemove>spellSlugaMaelstrom1(pCaster)</PythonOnRemove>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionMaelstrom1.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Controlled Maelstrom -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM2</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Controlled Maelstrom -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MAELSTROM2</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_HELP</Help>
 			<PrereqPromotionANDs>
@@ -34323,9 +34321,9 @@
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_AIR</PrereqBonus>
 			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Controlled Maelstrom, Unit -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM2_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Controlled Maelstrom, Unit -->
+		<!-- 	<Type>PROMOTION_COM_OVERSEER_MAELSTROM2_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2</Description>
 			<bEffectProm>0</bEffectProm>
 			<bGraphicalOnly>0</bGraphicalOnly>
@@ -34337,9 +34335,9 @@
 			</PrereqUnits>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionMaelstrom2.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Controlled Maelstrom, Casting -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Controlled Maelstrom, Casting -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING</Description>
 			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING_HELP</Help>
 			<bGraphicalOnly>1</bGraphicalOnly>
@@ -34353,9 +34351,9 @@
 			<PrereqBonusANDs>
 				<PrereqBonus>BONUS_MANA_AIR</PrereqBonus>
 			</PrereqBonusANDs>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Controlled Maelstrom, Trigger -->
-			<Type>PROMOTION_COM_OVERSEER_MAELSTROM2_TRIGGER</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Controlled Maelstrom, Trigger -->
+			<!-- <Type>PROMOTION_COM_OVERSEER_MAELSTROM2_TRIGGER</Type>
 			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM2_CASTING</Description>
 			<bEffectProm>1</bEffectProm>
 			<PrereqPermission>1</PrereqPermission>
@@ -34373,9 +34371,9 @@
 			</PromotionOverwrites>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionMaelstrom2.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Double GC Limit Requirement -->
-			<Type>PROMOTION_DOUBLE_GC_REQUIREMENT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo> -->		<!-- Double GC Limit Requirement -->
+		<!-- 	<Type>PROMOTION_DOUBLE_GC_REQUIREMENT</Type>
 			<Description>TXT_KEY_PROMOTION_DOUBLE_GC_REQUIREMENT</Description>
 			<bEffectProm>1</bEffectProm>
 			<CommanderPromotions>
@@ -34383,17 +34381,17 @@
 			</CommanderPromotions>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionDoubleGCLimit.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Double GC Limit Requirement, Commander -->
-			<Type>PROMOTION_DOUBLE_GC_REQUIREMENT_COMMANDER</Type>
+		</PromotionInfo>  -->
+		<!-- <PromotionInfo> -->		<!-- Double GC Limit Requirement, Commander -->
+		<!--	<Type>PROMOTION_DOUBLE_GC_REQUIREMENT_COMMANDER</Type>
 			<Description>TXT_KEY_PROMOTION_DOUBLE_GC_REQUIREMENT</Description>
 			<bEffectProm>1</bEffectProm>
 			<iCommandLimit>-1</iCommandLimit>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerDoubleGCLimit.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Karas, Sluga Master -->
-			<Type>PROMOTION_KARAS_SLUGA_MASTER</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Karas, Sluga Master -->
+		<!-- 	<Type>PROMOTION_KARAS_SLUGA_MASTER</Type>
 			<Description>TXT_KEY_PROMOTION_KARAS_SLUGA_MASTER</Description>
 			<Help>TXT_KEY_PROMOTION_KARAS_SLUGA_MASTER_HELP</Help>
 			<PrereqPermission>1</PrereqPermission>
@@ -34403,9 +34401,9 @@
 			<UnitCombats/>
 			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSlugaMaster.dds</Button>
 			<iMinLevel>-1</iMinLevel>
-		</PromotionInfo>
-		<PromotionInfo>		<!-- Karas, Sluga Master, Unit -->							<!--Combat Overseer Promotions - End -->
-			<Type>PROMOTION_KARAS_SLUGA_MASTER_UNIT</Type>
+		</PromotionInfo> -->
+		<!-- <PromotionInfo>	 -->	<!-- Karas, Sluga Master, Unit -->							<!--Combat Overseer Promotions - End -->
+		<!-- 	<Type>PROMOTION_KARAS_SLUGA_MASTER_UNIT</Type>
 			<Description>TXT_KEY_PROMOTION_KARAS_SLUGA_MASTER</Description>
 			<bGraphicalOnly>1</bGraphicalOnly>
 			<PrereqPermission>1</PrereqPermission>
@@ -34420,7 +34418,7 @@
 			<iMinLevel>-1</iMinLevel>
 			<iExtraCombatStr>1</iExtraCombatStr>
 			<iExtraCombatDefense>1</iExtraCombatDefense>
-		</PromotionInfo>
+		</PromotionInfo> -->
 		<PromotionInfo>		<!-- Aspirant, Core Promo -->
 			<Type>PROMOTION_ASPIRANT</Type>
 			<Description>TXT_KEY_PROMOTION_ASPIRANT</Description>
@@ -34431,11 +34429,15 @@
 			<Button>Art/Civs/Mekara/spells/Ascension.dds</Button>
 			<iMinLevel>-1</iMinLevel>
 			<PromotionExcludes>
+			    <Promotion>PROMOTION_MILITIA</Promotion>
 				<Promotion>PROMOTION_MUTATED</Promotion>
 				<Promotion>PROMOTION_WITHERED</Promotion>
 				<Promotion>PROMOTION_POISONED</Promotion>
 				<Promotion>PROMOTION_MEKARA_RITUAL_TARGET</Promotion>
 			</PromotionExcludes>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_MILITIA</Promotion>
+			</PromotionOverwrites>
 			<PromotionAllows>
 				<Promotion>PROMOTION_ASPIRANT_1</Promotion>
 				<Promotion>PROMOTION_ASPIRANT_2</Promotion>
@@ -34450,6 +34452,7 @@
 			<bNoXP>1</bNoXP>
 			<iCollateralDamageProtection>20</iCollateralDamageProtection>
 			<PromotionExcludes>
+			    <Promotion>PROMOTION_MILITIA</Promotion>
 				<Promotion>PROMOTION_DISEASED</Promotion>
 				<Promotion>PROMOTION_PLAGUED</Promotion>
 				<Promotion>PROMOTION_BLACKBLOOD</Promotion>
@@ -34523,10 +34526,1315 @@
 			<iFriendlyHealChange>10</iFriendlyHealChange>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- Mutated -->					<!-- Mekara Promotions End -->
-			<Type>PROMOTION_MUTATED</Type>
+			<Type>PROMOTION_MUTATED</Type>      
 			<PromotionExcludes>
 				<Promotion>PROMOTION_MEKARA_RITUAL_TARGET</Promotion>
 			</PromotionExcludes>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Combat Overseer -->            <!-- Mekara OVERSEER V2 PROMOTION MERGE -->
+			<Type>PROMOTION_COM_OVERSEER_V2</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER</Description>
+			<Help>TXT_KEY_UNIT_COM_OVERSEER_HELP</Help>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_COM_OVERSEER_SLUGA_V2</PromotionType>
+				<PromotionType>PROMOTION_OVERSEER_UNIT_V2</PromotionType>
+			</MinionPromotions>
+			<PromotionAllows>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_BASIC</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_1</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_3</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_BASIC</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_1</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_3</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_CELERITY1_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_STONESKIN_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION2_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_CELERITY2_V2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_MASTER</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_MASTER</Promotion>
+			</PromotionAllows>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombatOverseer.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>	 	<!-- Overseer, Unit -->
+			<Type>PROMOTION_OVERSEER_UNIT_V2</Type>
+			<Description>TXT_KEY_UNIT_OVERSEER</Description>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionOverseer.dds</Button>
+			<iWorkRateModify>10</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo> 
+		<PromotionInfo>		<!-- Combat Overseer, Unit -->
+			<Type>PROMOTION_COM_OVERSEER_SLUGA_V2</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<iWorkRateModify>30</iWorkRateModify>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_LEADERLESS_BATTLE_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_LEADERLESS_WAR_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA_V2</Promotion>
+			</PromotionExcludes>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_LEADERLESS_BATTLE_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_LEADERLESS_WAR_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA_V2</Promotion>
+			</PromotionOverwrites>
+			<PromotionDegradesTo>
+				<Promotion>PROMOTION_LEADERLESS_BATTLE_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_LEADERLESS_WAR_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA_V2</Promotion>
+			</PromotionDegradesTo>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombatOverseer.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Combat Sluga Innate Abilities-->
+			<Type>PROMOTION_COM_SLUGA_ABILITIES_V2</Type>
+			<Description>TXT_KEY_PROMOTION_SLUGA_ABILITIES</Description>
+			<bFreeUnit>1</bFreeUnit>
+			<bPrereqAliveCapture>1</bPrereqAliveCapture>
+			<iSlaveGenerationChance>30</iSlaveGenerationChance>
+			<CaptureUnitClass>UNITCLASS_SLAVE</CaptureUnitClass>
+			<NotCapturedUnitCombats>
+				<NotCapturedUnitCombat>
+					<NotCapturedUnitCombatType>UNITCOMBAT_ANIMAL</NotCapturedUnitCombatType>
+					<bNotCapturedUnitCombat>1</bNotCapturedUnitCombat>
+				</NotCapturedUnitCombat>
+				<NotCapturedUnitCombat>
+					<NotCapturedUnitCombatType>UNITCOMBAT_BEAST</NotCapturedUnitCombatType>
+					<bNotCapturedUnitCombat>1</bNotCapturedUnitCombat>
+				</NotCapturedUnitCombat>
+			</NotCapturedUnitCombats>
+			<SecondaryUnitCombats>
+				<SecondaryUnitCombat>UNITCOMBAT_MELEE</SecondaryUnitCombat>
+			</SecondaryUnitCombats>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_DISEASED</Promotion>
+				<Promotion>PROMOTION_MUTATED</Promotion>
+				<Promotion>PROMOTION_ENRAGED</Promotion>
+				<Promotion>PROMOTION_PLAGUED</Promotion>
+				<Promotion>PROMOTION_BLACKBLOOD</Promotion>
+				<Promotion>PROMOTION_POISONED</Promotion>
+				<Promotion>PROMOTION_WITHERED</Promotion>
+				<Promotion>PROMOTION_MEKARA_RITUAL_TARGET</Promotion>
+				<Promotion>PROMOTION_SKILLED1</Promotion>
+				<Promotion>PROMOTION_SKILLED2</Promotion>
+				<Promotion>PROMOTION_SKILLED3</Promotion>
+				<Promotion>PROMOTION_SKILLED4</Promotion>
+				<Promotion>PROMOTION_SKILLED5</Promotion>
+				<Promotion>PROMOTION_APTITUDE1</Promotion>
+				<Promotion>PROMOTION_APTITUDE2</Promotion>
+				<Promotion>PROMOTION_FORTIFICATION_SPECIALIST</Promotion>
+				<Promotion>PROMOTION_HARDY1</Promotion>
+				<Promotion>PROMOTION_HARDY2</Promotion>
+				<Promotion>PROMOTION_HARDY3</Promotion>
+				<Promotion>PROMOTION_MOBILITY1</Promotion>
+				<Promotion>PROMOTION_MOBILITY2</Promotion>
+			</PromotionExcludes>
+			<PromotionAllows>
+				<Promotion>PROMOTION_INDEPENDENT_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_BASIC_UNIT</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_1_UNIT</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_2_UNIT</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_3_UNIT</Promotion>
+				<Promotion>PROMOTION_OVERSEER_CONTROL_MASTER_UNIT</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_1_UNIT</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_2_UNIT</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_3_UNIT</Promotion>
+				<Promotion>PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</Promotion>
+				<Promotion>PROMOTION_CELERITY1_OVERSEER_V2</Promotion>
+				<Promotion>PROMOTION_CELERITY2_OVERSEER_V2</Promotion>
+				<Promotion>PROMOTION_MINION_MARCH_V2</Promotion>
+				<Promotion>PROMOTION_REGENERATION</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_REGENERATION_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_STONESKIN</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_STONESKIN_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_KARAS_SLUGA_MASTER_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_SCORCH_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_SPRING_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_OVERSEER_BLOOM_UNIT_V2</Promotion>
+			</PromotionAllows>
+			<CommanderPromotions>
+				<PromotionType>PROMOTION_SLUGA_PSIONIC_LINK_V2</PromotionType>
+			</CommanderPromotions>
+			<Button>Art/Interface/Buttons/Promotions/Sluga.dds</Button>
+			<bImmuneToFear>1</bImmuneToFear>
+			<iMinLevel>-1</iMinLevel>
+			<DamageTypeResists>
+				<DamageTypeResist>
+					<DamageType>DAMAGE_POISON</DamageType>
+					<iResist>100</iResist>
+				</DamageTypeResist>
+			</DamageTypeResists>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Independent -->
+			<Type>PROMOTION_INDEPENDENT_V2</Type>
+			<Description>TXT_KEY_PROMOTION_INDEPENDENT</Description>
+			<bGraphicalOnly>0</bGraphicalOnly>
+			<PrereqPermission>1</PrereqPermission>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<PromotionExcludes>
+				<Promotion>PROMOTION_LEADERLESS_BATTLE_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_LEADERLESS_WAR_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA_V2</Promotion>
+			</PromotionExcludes>
+			<PromotionOverwrites>
+				<Promotion>PROMOTION_LEADERLESS_BATTLE_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_LEADERLESS_WAR_SLUGA_V2</Promotion>
+				<Promotion>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA_V2</Promotion>
+			</PromotionOverwrites>
+			<TempUnitCombat>UNITCOMBAT_MELEE</TempUnitCombat>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionIndependent.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Leaderless, Battle Sluga -->
+			<Type>PROMOTION_LEADERLESS_BATTLE_SLUGA_V2</Type>
+			<Description>TXT_KEY_PROMOTION_LEADERLESS_SLUGA</Description>
+			<bEffectProm>0</bEffectProm>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionLeaderless.dds</Button>
+			<iExtraCombatStr>-50</iExtraCombatStr>
+			<iExtraCombatDefense>-50</iExtraCombatDefense>
+			<iCombatPercent>-90</iCombatPercent>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Leaderless, War Sluga -->
+			<Type>PROMOTION_LEADERLESS_WAR_SLUGA_V2</Type>
+			<Description>TXT_KEY_PROMOTION_LEADERLESS_SLUGA</Description>
+			<bEffectProm>0</bEffectProm>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<iAirCombat>-2</iAirCombat>
+			<iAirCombatLimitBoost>-20</iAirCombatLimitBoost>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionLeaderless.dds</Button>
+			<iExtraCombatStr>-50</iExtraCombatStr>
+			<iExtraCombatDefense>-50</iExtraCombatDefense>
+			<iCombatPercent>-90</iCombatPercent>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Leaderless, Behemoth Sluga -->
+			<Type>PROMOTION_LEADERLESS_BEHEMOTH_SLUGA_V2</Type>
+			<Description>TXT_KEY_PROMOTION_LEADERLESS_SLUGA</Description>
+			<bEffectProm>0</bEffectProm>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<iAirCombat>-3</iAirCombat>
+			<iAirCombatLimitBoost>-30</iAirCombatLimitBoost>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionLeaderless.dds</Button>
+			<iExtraCombatStr>-50</iExtraCombatStr>
+			<iExtraCombatDefense>-50</iExtraCombatDefense>
+			<iCombatPercent>-90</iCombatPercent>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer, Psionic Link -->
+			<Type>PROMOTION_SLUGA_PSIONIC_LINK_V2</Type>
+			<Description>TXT_KEY_PROMOTION_SLUGA_PSIONIC_LINK</Description>
+			<iFreeXPPerTurn>0.2</iFreeXPPerTurn>
+            <fFreeXPCap>100</fFreeXPCap>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_OVERSEER_V2</PrereqUnit>
+				<PrereqUnit>UNIT_COMBAT_OVERSEER_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_COMMANDER_V2</PrereqUnit>
+				<PrereqUnit>UNIT_KARAS_V2</PrereqUnit>
+				<PrereqUnit>UNIT_COMMANDER</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerPsionicLink.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Skilled Overseer I, Unit -->             <!-- Overseer Slave Promotions Start -->
+			<Type>PROMOTION_SKILLED_OVERSEER1_UNIT_V2</Type>
+			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER1</Description>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Civs/Mekara/promotions/skilledOverseer1.dds</Button>
+			<iWorkRateModify>10</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER2_UNIT_V2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Skilled Overseer II, Unit -->
+			<Type>PROMOTION_SKILLED_OVERSEER2_UNIT_V2</Type>
+			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER2</Description>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Civs/Mekara/promotions/skilledOverseer2.dds</Button>
+			<iWorkRateModify>10</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER3_UNIT_V2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Skilled Overseer III, Unit -->
+			<Type>PROMOTION_SKILLED_OVERSEER3_UNIT_V2</Type>
+			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER3</Description>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Civs/Mekara/promotions/skilledOverseer3.dds</Button>
+			<iWorkRateModify>10</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER4_UNIT_V2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Skilled Overseer IV, Unit -->
+			<Type>PROMOTION_SKILLED_OVERSEER4_UNIT_V2</Type>
+			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER4</Description>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Civs/Mekara/Promotions/SkilledOverseer4.dds</Button>
+			<iWorkRateModify>10</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_SKILLED_OVERSEER5_UNIT_V2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Skilled Overseer V, Unit -->
+			<Type>PROMOTION_SKILLED_OVERSEER5_UNIT_V2</Type>
+			<Description>TXT_KEY_PROMOTION_SKILLED_OVERSEER5</Description>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ADEPT</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ANIMAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_BEAST</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DISCIPLE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_DEFENSIVE_MELEE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ROGUE</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Civs/Mekara/Promotions/SkilledOverseer5.dds</Button>
+			<iWorkRateModify>10</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Slave Overseer Promotion Unlocker-->    
+			<Type>PROMOTION_SLAVE_OVERSEER_ABILITIES_V2</Type>
+			<Description>TXT_KEY_PROMOTION_SLAVE_OVERSEER_ABILITIES</Description>
+			<bEffectProm>1</bEffectProm>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
+			</PrereqCivilizations>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SLAVE</PrereqUnit>
+				<PrereqUnit>UNIT_SLAVE_UNDEAD</PrereqUnit>
+			</PrereqUnits>
+			<PromotionAllows>
+				<Promotion>PROMOTION_OVERSEER_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_SKILLED_OVERSEER1_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_SKILLED_OVERSEER2_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_SKILLED_OVERSEER3_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_SKILLED_OVERSEER4_UNIT_V2</Promotion>
+				<Promotion>PROMOTION_SKILLED_OVERSEER5_UNIT_V2</Promotion>				
+				<Promotion>PROMOTION_CELERITY1_OVERSEER_V2</Promotion>
+				<Promotion>PROMOTION_CELERITY2_OVERSEER_V2</Promotion>
+			</PromotionAllows>
+			<Button>Art/Interface/Buttons/Promotions/Sluga.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Control Training -->								<!-- Combat+workrate Overseer promotion merge START -->
+			<Type>PROMOTION_OVERSEER_CONTROL_BASIC</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC</Description>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC_HELP</Help>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_CONTROL_BASIC_UNIT</PromotionType>
+				<PromotionType>PROMOTION_SKILLED_OVERSEER1_UNIT_V2</PromotionType>
+			</MinionPromotions>
+			<iWorkRateModify>20</iWorkRateModify>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat1.dds</Button>
+			<PromotionNextLevel>PROMOTION_OVERSEER_CONTROL_1</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Control Training, Unit -->
+			<Type>PROMOTION_OVERSEER_CONTROL_BASIC_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_BASIC_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombat1.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_OVERSEER_CONTROL_1_UNIT</PromotionNextLevel>
+			<iExtraCombatStr>1</iExtraCombatStr>
+			<iExtraCombatDefense>1</iExtraCombatDefense>
+			<iWorkRateModify>40</iWorkRateModify>
+			<iCombatPercent>20</iCombatPercent>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Control I -->
+			<Type>PROMOTION_OVERSEER_CONTROL_1</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1</Description>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1_HELP</Help>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_OVERSEER_CONTROL_BASIC</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_CONTROL_1_UNIT</PromotionType>
+				<PromotionType>PROMOTION_SKILLED_OVERSEER2_UNIT_V2</PromotionType>
+			</MinionPromotions>
+			<iWorkRateModify>20</iWorkRateModify>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat2.dds</Button>
+			<PromotionNextLevel>PROMOTION_OVERSEER_CONTROL_2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Control I, Unit -->
+			<Type>PROMOTION_OVERSEER_CONTROL_1_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_1_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<iCombatPercent>20</iCombatPercent>
+			<iWorkRateModify>40</iWorkRateModify>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iUnitCombatMod>10</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombat2.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_OVERSEER_CONTROL_2_UNIT</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Control II -->
+			<Type>PROMOTION_OVERSEER_CONTROL_2</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2</Description>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_HELP</Help>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_OVERSEER_CONTROL_1</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_CONTROL_2_UNIT</PromotionType>
+				<PromotionType>PROMOTION_SKILLED_OVERSEER3_UNIT_V2</PromotionType>
+			</MinionPromotions>
+			<iWorkRateModify>20</iWorkRateModify>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat3.dds</Button>
+			<PromotionNextLevel>PROMOTION_OVERSEER_CONTROL_3</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Control II, Unit -->
+			<Type>PROMOTION_OVERSEER_CONTROL_2_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_2_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<iChanceFirstStrikesChange>2</iChanceFirstStrikesChange>
+			<iCombatPercent>20</iCombatPercent>
+			<iWorkRateModify>40</iWorkRateModify>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iUnitCombatMod>10</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombat3.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_OVERSEER_CONTROL_3_UNIT</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Control III -->
+			<Type>PROMOTION_OVERSEER_CONTROL_3</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_3</Description>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_CONTROL_3_HELP</Help>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_OVERSEER_CONTROL_2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_CONTROL_3_UNIT</PromotionType>
+				<PromotionType>PROMOTION_SKILLED_OVERSEER4_UNIT_V2</PromotionType>
+			</MinionPromotions>
+		    <iWorkRateModify>20</iWorkRateModify>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat4.dds</Button>
+			<PromotionNextLevel>PROMOTION_OVERSEER_CONTROL_MASTER</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Control III, Unit -->
+			<Type>PROMOTION_OVERSEER_CONTROL_3_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_3_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<iFirstStrikesChange>2</iFirstStrikesChange>
+			<iCollateralDamageProtection>20</iCollateralDamageProtection>
+			<iCombatPercent>20</iCombatPercent>
+		    <iWorkRateModify>40</iWorkRateModify>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+					<iUnitCombatMod>20</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombat4.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_OVERSEER_CONTROL_MASTER_UNIT</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Control Mastery -->
+			<Type>PROMOTION_OVERSEER_CONTROL_MASTER</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER</Description>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER_HELP</Help>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_OVERSEER_CONTROL_3</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<PrereqPermission>1</PrereqPermission>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_CONTROL_MASTER_UNIT</PromotionType>
+				<PromotionType>PROMOTION_SKILLED_OVERSEER5_UNIT_V2</PromotionType>
+			</MinionPromotions>
+		    <iWorkRateModify>20</iWorkRateModify>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCombat5.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Control Mastery, Unit -->
+			<Type>PROMOTION_OVERSEER_CONTROL_MASTER_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_CONTROL_MASTER_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+		    <iWorkRateModify>40</iWorkRateModify>
+			<iCombatPercent>20</iCombatPercent>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCombat5.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+			<iExtraCombatStr>2</iExtraCombatStr>
+			<iExtraCombatDefense>2</iExtraCombatDefense>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Precision Training -->
+			<Type>PROMOTION_OVERSEER_PRECISION_BASIC</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC</Description>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC_HELP</Help>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</PromotionType>
+				<PromotionType>PROMOTION_SKILLED_OVERSEER1_UNIT_V2</PromotionType>
+			</MinionPromotions>
+		    <iWorkRateModify>20</iWorkRateModify>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedTraining.dds</Button>
+			<PromotionNextLevel>PROMOTION_OVERSEER_PRECISION_1</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Precision Training, Unit -->
+			<Type>PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_BASIC_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<iAirCombat>3</iAirCombat>
+			<iAirCombatLimitBoost>30</iAirCombatLimitBoost>
+			<iAirRangeChange>1</iAirRangeChange>
+		    <iWorkRateModify>40</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRangedTraining.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_OVERSEER_PRECISION_1_UNIT</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Precision I -->
+			<Type>PROMOTION_OVERSEER_PRECISION_1</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1</Description>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1_HELP</Help>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_OVERSEER_PRECISION_BASIC</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_PRECISION_1_UNIT</PromotionType>
+				<PromotionType>PROMOTION_SKILLED_OVERSEER2_UNIT_V2</PromotionType>
+			</MinionPromotions>
+		    <iWorkRateModify>20</iWorkRateModify>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedExpertise1.dds</Button>
+			<PromotionNextLevel>PROMOTION_OVERSEER_PRECISION_2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Precision I, Unit -->
+			<Type>PROMOTION_OVERSEER_PRECISION_1_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_1_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<iAirCombat>1</iAirCombat>
+			<iAirCombatLimitBoost>10</iAirCombatLimitBoost>
+			<iAirRangeChange>1</iAirRangeChange>
+		    <iWorkRateModify>40</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRangedExpertise1.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_OVERSEER_PRECISION_2_UNIT</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Precision II -->
+			<Type>PROMOTION_OVERSEER_PRECISION_2</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2</Description>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2_HELP</Help>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_OVERSEER_PRECISION_1</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_PRECISION_2_UNIT</PromotionType>
+				<PromotionType>PROMOTION_SKILLED_OVERSEER3_UNIT_V2</PromotionType>
+			</MinionPromotions>
+		    <iWorkRateModify>20</iWorkRateModify>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedExpertise2.dds</Button>
+			<PromotionNextLevel>PROMOTION_OVERSEER_PRECISION_3</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Precision II, Unit -->
+			<Type>PROMOTION_OVERSEER_PRECISION_2_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_2_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<iAirCombat>1</iAirCombat>
+			<iAirCombatLimitBoost>10</iAirCombatLimitBoost>
+		    <iWorkRateModify>40</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRangedExpertise2.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_OVERSEER_PRECISION_3_UNIT</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Precision III -->
+			<Type>PROMOTION_OVERSEER_PRECISION_3</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3</Description>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3_HELP</Help>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_OVERSEER_PRECISION_2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_PRECISION_3_UNIT</PromotionType>
+				<PromotionType>PROMOTION_SKILLED_OVERSEER4_UNIT_V2</PromotionType>
+			</MinionPromotions>
+		    <iWorkRateModify>20</iWorkRateModify>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedExpertise3.dds</Button>
+			<PromotionNextLevel>PROMOTION_OVERSEER_PRECISION_MASTER</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Precision III, Unit -->
+			<Type>PROMOTION_OVERSEER_PRECISION_3_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_3_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<iAirCombat>1</iAirCombat>
+			<iAirCombatLimitBoost>10</iAirCombatLimitBoost>
+		    <iWorkRateModify>40</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRangedExpertise3.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+			<PromotionNextLevel>PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Precision Mastery -->
+			<Type>PROMOTION_OVERSEER_PRECISION_MASTER</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER</Description>
+			<Help>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER_HELP</Help>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_OVERSEER_PRECISION_3</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<PrereqPermission>1</PrereqPermission>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</PromotionType>
+				<PromotionType>PROMOTION_SKILLED_OVERSEER5_UNIT_V2</PromotionType>
+			</MinionPromotions>
+		    <iWorkRateModify>20</iWorkRateModify>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRangedMastery.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Overseer Precision Mastery, Unit -->
+			<Type>PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</Type>
+			<Description>TXT_KEY_PROMOTION_OVERSEER_PRECISION_MASTER_UNIT</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<iAirCombat>2</iAirCombat>
+			<iAirCombatLimitBoost>15</iAirCombatLimitBoost>
+		    <iWorkRateModify>40</iWorkRateModify>
+			<iCombatPercent>10</iCombatPercent>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRangedMastery.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Celerity -->
+			<Type>PROMOTION_COM_OVERSEER_CELERITY1_V2</Type>
+			<Description>TXT_KEY_PROMOTION_CELERITY1_OVERSEER</Description>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_CELERITY1_OVERSEER_V2</PromotionType>
+			</MinionPromotions>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerCelerity.dds</Button>
+			<PrereqBonusANDs>
+				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
+			</PrereqBonusANDs>
+			<iMovesChange>1</iMovesChange>
+			<PromotionNextLevel>PROMOTION_COM_OVERSEER_CELERITY2_V2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Celerity, Unit -->
+			<Type>PROMOTION_CELERITY1_OVERSEER_V2</Type>
+			<Description>TXT_KEY_PROMOTION_CELERITY1_OVERSEER</Description>
+			<TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
+			<iMovesChange>1</iMovesChange>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionCelerity.dds</Button>
+			<PromotionNextLevel>PROMOTION_CELERITY2_OVERSEER_V2</PromotionNextLevel>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Enhanced Celerity -->
+			<Type>PROMOTION_COM_OVERSEER_CELERITY2_V2</Type>
+			<Description>TXT_KEY_PROMOTION_CELERITY2_OVERSEER</Description>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_COM_OVERSEER_CELERITY1_V2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<iMovesChange>1</iMovesChange>
+			<PrereqPermission>1</PrereqPermission>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_CELERITY2_OVERSEER_V2</PromotionType>
+			</MinionPromotions>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerEnhancedCelerity.dds</Button>
+			<PrereqBonusANDs>
+				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
+			</PrereqBonusANDs>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Enhanced Celerity, Unit -->
+			<Type>PROMOTION_CELERITY2_OVERSEER_V2</Type>
+			<Description>TXT_KEY_PROMOTION_CELERITY2_OVERSEER</Description>
+			<iMovesChange>1</iMovesChange>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionEnhancedCelerity.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Regeneration -->
+			<Type>PROMOTION_COM_OVERSEER_REGENERATION_V2</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Description>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION_HELP</Help>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerRegeneration.dds</Button>
+			<PrereqBonusANDs>
+				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
+			</PrereqBonusANDs>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_OVERSEER_CONTROL_2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_COM_OVERSEER_REGENERATION_UNIT_V2</PromotionType>
+			</MinionPromotions>
+			<PromotionNextLevel>PROMOTION_COM_OVERSEER_REGENERATION2_V2</PromotionNextLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Regeneration, Unit -->
+			<Type>PROMOTION_COM_OVERSEER_REGENERATION_UNIT_V2</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionRegeneration.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Sustained Regeneration -->
+			<Type>PROMOTION_COM_OVERSEER_REGENERATION2_V2</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2</Description>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_REGENERATION2_HELP</Help>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_COM_OVERSEER_REGENERATION_V2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_MINION_MARCH_V2</PromotionType>
+			</MinionPromotions>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSustainedRegeneration.dds</Button>
+			<PrereqBonusANDs>
+				<PrereqBonus>BONUS_MANA_BODY</PrereqBonus>
+			</PrereqBonusANDs>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Sustained Regeneration, Unit -->
+			<Type>PROMOTION_MINION_MARCH_V2</Type>
+			<Description>TXT_KEY_PROMOTION_MARCH</Description>
+			<PrereqPermission>1</PrereqPermission>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<bAlwaysHeal>1</bAlwaysHeal>
+			<iEnemyHealChange>10</iEnemyHealChange>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionSustainedRegeneration.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Stoneskin -->
+			<Type>PROMOTION_COM_OVERSEER_STONESKIN_V2</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Description>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_HELP</Help>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerStoneskin.dds</Button>
+			<PrereqPromotionORs>
+				<PrereqPromotionOR>
+					<PromotionType>PROMOTION_OVERSEER_PRECISION_2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionOR>
+			</PrereqPromotionORs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_COM_OVERSEER_STONESKIN_UNIT_V2</PromotionType>
+			</MinionPromotions>
+			<PrereqBonusANDs>
+				<PrereqBonus>BONUS_MANA_EARTH</PrereqBonus>
+			</PrereqBonusANDs>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Stoneskin, Unit -->
+			<Type>PROMOTION_COM_OVERSEER_STONESKIN_UNIT_V2</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN</Description>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_STONESKIN_HELP</Help>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<PrereqPermission>1</PrereqPermission>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionStoneskin.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Maelstrom -->
+			<Type>PROMOTION_COM_OVERSEER_MAELSTROM_V2</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM</Description>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Help>
+			<PrereqPromotionORs>
+				<PrereqPromotionOR>
+					<PromotionType>PROMOTION_OVERSEER_CONTROL_3</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionOR>
+				<PrereqPromotionOR>
+					<PromotionType>PROMOTION_OVERSEER_PRECISION_3</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionOR>
+			</PrereqPromotionORs>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerMaelstrom1.dds</Button>
+			<PrereqBonusANDs>
+				<PrereqBonus>BONUS_MANA_AIR</PrereqBonus>
+			</PrereqBonusANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT_V2</PromotionType>
+			</MinionPromotions>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Maelstrom, Unit -->
+			<Type>PROMOTION_COM_OVERSEER_MAELSTROM_UNIT_V2</Type>
+			<Description>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM</Description>
+			<Help>TXT_KEY_PROMOTION_COM_OVERSEER_MAELSTROM_HELP</Help>
+			<PrereqPermission>1</PrereqPermission>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionMaelstrom1.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Karas, Sluga Master -->
+			<Type>PROMOTION_KARAS_SLUGA_MASTER_V2</Type>
+			<Description>TXT_KEY_PROMOTION_KARAS_SLUGA_MASTER</Description>
+			<Help>TXT_KEY_PROMOTION_KARAS_SLUGA_MASTER_HELP</Help>
+			<PrereqPermission>1</PrereqPermission>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_KARAS_SLUGA_MASTER_UNIT_V2</PromotionType>
+			</MinionPromotions>
+			<UnitCombats/>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSlugaMaster.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Karas, Sluga Master, Unit -->							<!--Combat+Workrate Overseer Promotion merge - End -->
+			<Type>PROMOTION_KARAS_SLUGA_MASTER_UNIT_V2</Type>
+			<Description>TXT_KEY_PROMOTION_KARAS_SLUGA_MASTER</Description>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<PrereqPermission>1</PrereqPermission>
+			<iFirstStrikesChange>2</iFirstStrikesChange>
+			<iCollateralDamageProtection>20</iCollateralDamageProtection>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionSlugaMaster.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+			<iExtraCombatStr>1</iExtraCombatStr>
+			<iExtraCombatDefense>1</iExtraCombatDefense>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Scorch MEKARA -->                                      <!-- SLUGA TERRAFORM SPELLS -->
+			<Type>PROMOTION_OVERSEER_SCORCH_V2</Type>
+			<Description>TXT_KEY_SPELL_SCORCH_MEKARA_V2</Description>
+			<TechPrereq>TECH_DIVINATION</TechPrereq>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
+			</PrereqCivilizations>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_COM_OVERSEER_V2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_SCORCH_UNIT_V2</PromotionType>
+			</MinionPromotions>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerScorch.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Scorch, Unit MEKARA -->										
+			<Type>PROMOTION_OVERSEER_SCORCH_UNIT_V2</Type>
+			<Description>TXT_KEY_SPELL_SCORCH_MEKARA_V2</Description>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<PrereqPermission>1</PrereqPermission>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionBloom.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spring -->
+			<Type>PROMOTION_OVERSEER_SPRING_V2</Type>
+			<Description>TXT_KEY_SPELL_SPRING_MEKARA_V2</Description>
+			<TechPrereq>TECH_ELEMENTALISM</TechPrereq>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
+			</PrereqCivilizations>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_COM_OVERSEER_V2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_SPRING_UNIT_V2</PromotionType>
+			</MinionPromotions>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerSpring.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Spring, Unit -->										
+			<Type>PROMOTION_OVERSEER_SPRING_UNIT_V2</Type>
+			<Description>TXT_KEY_SPELL_SPRING_MEKARA_V2</Description>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<PrereqPermission>1</PrereqPermission>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionBloom.dds</Button>
+			<iMinLevel>-1</iMinLevel>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Bloom -->
+			<Type>PROMOTION_OVERSEER_BLOOM_V2</Type>
+			<Description>TXT_KEY_SPELL_BLOOM_MEKARA_V2</Description>
+			<TechPrereq>TECH_ALTERATION</TechPrereq>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
+			</PrereqCivilizations>
+			<PrereqPromotionANDs>
+				<PrereqPromotionAND>
+					<PromotionType>PROMOTION_COM_OVERSEER_V2</PromotionType>
+					<iPrereqApplications>1</iPrereqApplications>
+				</PrereqPromotionAND>
+			</PrereqPromotionANDs>
+			<MinionPromotions>
+				<PromotionType>PROMOTION_OVERSEER_BLOOM_UNIT_V2</PromotionType>
+			</MinionPromotions>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_WORKER</UnitCombatType>
+					<iMaxApplications>0</iMaxApplications>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/OverseerBloom.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>		<!-- Bloom, Unit -->										
+			<Type>PROMOTION_OVERSEER_BLOOM_UNIT_V2</Type>
+			<Description>TXT_KEY_SPELL_BLOOM_MEKARA_V2</Description>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<bAutoAcquire>1</bAutoAcquire>
+			<bMustMaintain>1</bMustMaintain>
+			<bNoXP>1</bNoXP>
+			<PrereqCivilizations>
+				<PrereqCivilization>CIVILIZATION_MEKARA_V2</PrereqCivilization>
+			</PrereqCivilizations>
+			<TechPrereq>TECH_ALTERATION</TechPrereq>
+			<PrereqPermission>1</PrereqPermission>
+			<PrereqUnits>
+				<PrereqUnit>UNIT_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BATTLE_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_WAR_SLUGA_V2</PrereqUnit>
+				<PrereqUnit>UNIT_BEHEMOTH_SLUGA_V2</PrereqUnit>
+			</PrereqUnits>
+			<Button>Art/Interface/Buttons/Promotions/Civs/Mekara/MinionBloom.dds</Button>
+			<iMinLevel>-1</iMinLevel>
 		</PromotionInfo>
 		<PromotionInfo>		<!-- DeathMarked -->
 			<Type>PROMOTION_DEATHMARKED</Type>

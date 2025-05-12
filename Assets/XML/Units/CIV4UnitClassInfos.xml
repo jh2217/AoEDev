@@ -849,6 +849,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
 			<DefaultUnit>UNIT_WATER_ELEMENTAL</DefaultUnit>
+			<bUnique>1</bUnique>
 			<iMercenaryWeight>0</iMercenaryWeight>
 		</UnitClassInfo>
 		<UnitClassInfo>		<!-- HYBOREM -->
@@ -3862,7 +3863,7 @@
 			<DefaultUnit>UNIT_WILD_VAHUA</DefaultUnit>
 			<iMercenaryWeight>1</iMercenaryWeight>
 		</UnitClassInfo>
-		<UnitClassInfo>		<!-- Corgayle -->
+		<UnitClassInfo>		<!-- Corgayle --> <!-- Mekara Start -->
 			<Type>UNITCLASS_CORGAYLE</Type>
 			<Description>TXT_KEY_UNIT_CORGAYLE</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
@@ -3983,7 +3984,7 @@
 			<DefaultUnit>UNIT_ADJUNCT</DefaultUnit>
 				<iMercenaryWeight>1</iMercenaryWeight>
 	</UnitClassInfo>
-		<UnitClassInfo>		<!-- Caretaker Matron -->
+	<UnitClassInfo>	<!-- Caretaker Matron --> <!-- Mekara End -->
 			<Type>UNITCLASS_CARETAKER_MATRON</Type>
 			<Description>TXT_KEY_UNIT_CARETAKER_MATRON</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
@@ -3994,6 +3995,94 @@
 			<DefaultUnit>UNIT_CARETAKER_MATRON</DefaultUnit>
 				<iMercenaryWeight>1</iMercenaryWeight>
 	</UnitClassInfo>
+	<UnitClassInfo>		<!-- Karas -->       <!-- Mekara V2 Start -->
+			<Type>UNITCLASS_KARAS_V2</Type>
+			<Description>TXT_KEY_UNIT_KARAS</Description>
+			<iMaxGlobalInstances>1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_KARAS_V2</DefaultUnit>
+			<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+		<UnitClassInfo>		<!-- Overseer -->
+			<Type>UNITCLASS_OVERSEER_V2</Type>
+			<Description>TXT_KEY_UNIT_OVERSEER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_OVERSEER_V2</DefaultUnit>
+			<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+		<UnitClassInfo>		<!-- Combat Overseer -->
+			<Type>UNITCLASS_COMBAT_OVERSEER_V2</Type>
+			<Description>TXT_KEY_UNIT_COM_OVERSEER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_COMBAT_OVERSEER_V2</DefaultUnit>
+			<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+		<UnitClassInfo>		<!-- Sluga Commander -->
+			<Type>UNITCLASS_SLUGA_COMMANDER_V2</Type>
+			<Description>TXT_KEY_UNIT_SLUGA_COMMANDER</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_SLUGA_COMMANDER_V2</DefaultUnit>
+			<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+		<UnitClassInfo>		<!-- Sluga -->
+			<Type>UNITCLASS_SLUGA_V2</Type>
+			<Description>TXT_KEY_UNIT_SLUGA</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_SLUGA_V2</DefaultUnit>
+			<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+		<UnitClassInfo>		<!-- Battle Sluga -->
+			<Type>UNITCLASS_BATTLE_SLUGA_V2</Type>
+			<Description>TXT_KEY_UNIT_BATTLE_SLUGA</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_BATTLE_SLUGA_V2</DefaultUnit>
+			<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+		<UnitClassInfo>		<!-- War Sluga -->
+			<Type>UNITCLASS_WAR_SLUGA_V2</Type>
+			<Description>TXT_KEY_UNIT_WAR_SLUGA</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_WAR_SLUGA_V2</DefaultUnit>
+			<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
+		<UnitClassInfo>		<!-- Behemoth --> <!-- Mekara V2 End -->
+			<Type>UNITCLASS_BEHEMOTH_SLUGA_V2</Type>
+			<Description>TXT_KEY_UNIT_BEHEMOTH_SLUGA</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>4</iMaxPlayerInstances>
+			<iInstanceCostModifier>0</iInstanceCostModifier>
+			<bUnique>1</bUnique>
+			<DefaultUnit>UNIT_BEHEMOTH_SLUGA_V2</DefaultUnit>
+			<iMercenaryWeight>0</iMercenaryWeight>
+		</UnitClassInfo>
 		<UnitClassInfo>		<!-- Barbatos -->
 			<Type>UNITCLASS_BARBATOS</Type>
 			<Description>TXT_KEY_UNIT_BARBATOS</Description>

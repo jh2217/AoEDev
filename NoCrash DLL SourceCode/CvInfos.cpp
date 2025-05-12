@@ -3077,6 +3077,7 @@ m_piDomainModifierPercent(NULL),
 m_pbTerrainDoubleMove(NULL),
 m_pbFeatureDoubleMove(NULL),
 m_pbPlotEffectDoubleMove(NULL),
+m_iMaxExpReward(-1),
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
@@ -4017,6 +4018,7 @@ void CvPromotionInfo::setSound(const TCHAR* szVal)
 {
 	m_szSound = szVal;
 }
+int CvPromotionInfo::getMaxExpReward() const { return m_iMaxExpReward; }
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
@@ -5303,6 +5305,7 @@ void CvPromotionInfo::read(FDataStreamBase* stream)
 /*************************************************************************************************/
 /**												END												**/
 /*************************************************************************************************/
+	stream->Read(&m_iMaxExpReward);
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
@@ -6229,7 +6232,8 @@ void CvPromotionInfo::write(FDataStreamBase* stream)
 /*************************************************************************************************/
 /**												END												**/
 /*************************************************************************************************/
-/*************************************************************************************************/
+	stream->Write(m_iMaxExpReward);
+	/*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
 /**										Leashes	a unit to a plot								**/
@@ -6959,7 +6963,8 @@ bool CvPromotionInfo::read(CvXMLLoadUtility* pXML)
 /*************************************************************************************************/
 /**												END												**/
 /*************************************************************************************************/
-/*************************************************************************************************/
+	pXML->GetChildXmlValByName(&m_iMaxExpReward, "iMaxExpReward", -1);
+	/*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
 /**										Leashes	a unit to a plot								**/
@@ -7981,7 +7986,8 @@ void CvPromotionInfo::copyNonDefaults(CvPromotionInfo* pClassInfo, CvXMLLoadUtil
 	if (isPrereqInBorderSelf()					== false)				m_bPrereqInBorderSelf				= pClassInfo->isPrereqInBorderSelf();
 	if (isPrereqInBorderNone()					== false)				m_bPrereqInBorderNone				= pClassInfo->isPrereqInBorderNone();
 	if (isAllowNULLUnitCombat()					== false)				m_bAllowNULLUnitCombat				= pClassInfo->isAllowNULLUnitCombat();
-/*************************************************************************************************/
+	if (getMaxExpReward() == -1)					m_iMaxExpReward = pClassInfo->getMaxExpReward();
+	/*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
 /**										Leashes	a unit to a plot								**/
@@ -10329,47 +10335,48 @@ void CvPromotionInfo::copyNonDefaultsReadPass2(CvPromotionInfo* pClassInfo, CvXM
 //
 //------------------------------------------------------------------------------------------------------
 CvSpellInfo::CvSpellInfo() :
-/*************************************************************************************************/
-/**	City Actions	(SpellInfos)			03/28/10								Grey Fox	**/
-/*************************************************************************************************/
-m_bCityAction(false),
-/*************************************************************************************************/
-/**	END																							**/
-/*************************************************************************************************/
-m_iPromotionPrereq1(NO_PROMOTION),
-m_iPromotionPrereq2(NO_PROMOTION),
-m_iUnitPrereq(NO_UNIT),
-m_iUnitCombatPrereq(NO_UNITCOMBAT),
-m_iUnitClassPrereq(NO_UNITCLASS),
-m_iUnitInStackPrereq(NO_UNIT),
-m_iUnitInStackTargetPrereq(NO_UNIT),
-m_iBuildingPrereq(NO_BUILDING),
-m_iBuildingTargetPrereq(NO_BUILDING),
-m_iBuildingClassOwnedPrereq(NO_BUILDINGCLASS),
-m_iCivilizationPrereq(NO_CIVILIZATION),
-m_iCorporationPrereq(NO_CORPORATION),
-m_iCorporationTargetPrereq(NO_CORPORATION),
-m_iFeatureOrPrereq1(NO_FEATURE),
-m_iFeatureOrPrereq2(NO_FEATURE),
-m_iFeatureOrTargetPrereq1(NO_FEATURE),
-m_iFeatureOrTargetPrereq2(NO_FEATURE),
-m_iPlotEffectPrereq(NO_PLOT_EFFECT),
-m_iPlotEffectTargetPrereq(NO_PLOT_EFFECT),
-m_iImprovementPrereq(NO_IMPROVEMENT),
-m_iImprovementTargetPrereq(NO_IMPROVEMENT),
-m_iPromotionInStackPrereq(NO_PROMOTION),
-m_iPromotionInStackTargetPrereq(NO_PROMOTION),
-m_iReligionPrereq(NO_RELIGION),
-m_iStateReligionPrereq(NO_RELIGION),
-m_iTechPrereq(NO_TECH),
-m_iNumPrereqTraits(0),
-m_piPrereqTraits(NULL),
-m_iNumPromotionsPrereq(0),
-m_piPromotionsPrereq(NULL),
-m_iNumAddPromotions(0),
-m_piAddPromotions(NULL),
-m_iNumRemovePromotions(0),
-m_piRemovePromotions(NULL),
+	/*************************************************************************************************/
+	/**	City Actions	(SpellInfos)			03/28/10								Grey Fox	**/
+	/*************************************************************************************************/
+	m_bCityAction(false),
+	/*************************************************************************************************/
+	/**	END																							**/
+	/*************************************************************************************************/
+	m_iPromotionPrereq1(NO_PROMOTION),
+	m_iPromotionPrereq2(NO_PROMOTION),
+	m_iUnitPrereq(NO_UNIT),
+	m_iUnitCombatPrereq(NO_UNITCOMBAT),
+	m_iUnitClassPrereq(NO_UNITCLASS),
+	m_iUnitInStackPrereq(NO_UNIT),
+	m_iUnitInStackTargetPrereq(NO_UNIT),
+	m_iBuildingPrereq(NO_BUILDING),
+	m_iBuildingTargetPrereq(NO_BUILDING),
+	m_iBuildingClassOwnedPrereq(NO_BUILDINGCLASS),
+	m_iCivilizationPrereq(NO_CIVILIZATION),
+	m_iCorporationPrereq(NO_CORPORATION),
+	m_iCorporationTargetPrereq(NO_CORPORATION),
+	m_iFeatureOrPrereq1(NO_FEATURE),
+	m_iFeatureOrPrereq2(NO_FEATURE),
+	m_iFeatureOrTargetPrereq1(NO_FEATURE),
+	m_iFeatureOrTargetPrereq2(NO_FEATURE),
+	m_iPlotEffectPrereq(NO_PLOT_EFFECT),
+	m_iPlotEffectTargetPrereq(NO_PLOT_EFFECT),
+	m_iImprovementPrereq(NO_IMPROVEMENT),
+	m_iImprovementTargetPrereq(NO_IMPROVEMENT),
+	m_iPromotionInStackPrereq(NO_PROMOTION),
+	m_iPromotionInStackTargetPrereq(NO_PROMOTION),
+	m_iReligionPrereq(NO_RELIGION),
+	m_iStateReligionPrereq(NO_RELIGION),
+	m_iTechPrereq(NO_TECH),
+	m_iNumPrereqTraits(0),
+	m_piPrereqTraits(NULL),
+	m_iNumPromotionsPrereq(0),
+	m_piPromotionsPrereq(NULL),
+	m_iNumAddPromotions(0),
+	m_piAddPromotions(NULL),
+	m_iNumRemovePromotions(0),
+	m_piRemovePromotions(NULL),
+	m_iNumSpellBonuses(0),
 m_cbSpellBonuses(NULL),
 /*************************************************************************************************/
 /**	New Tag Defs	(SpellInfos)			05/15/08								Xienwolf	**/
@@ -10422,6 +10429,7 @@ m_iDamage(0),
 m_iDamageLimit(0),
 m_iDamageType(NO_DAMAGE),
 m_iRange(0),
+m_iTargetRange(0),
 m_iResistModify(0),
 m_iAddPromotionType1(NO_PROMOTION),
 m_iAddPromotionType2(NO_PROMOTION),
@@ -10700,6 +10708,10 @@ const TCHAR *CvSpellInfo::getQuote() const				{return m_szQuote;}
 int CvSpellInfo::getRange() const
 {
 	return m_iRange;
+}
+int CvSpellInfo::getTargetRange() const
+{
+	return m_iTargetRange;
 }
 
 int CvSpellInfo::getEffect() const
@@ -11179,6 +11191,7 @@ void CvSpellInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_bHasCasted);
 	stream->Read(&m_bIgnoreHasCasted);
 	stream->Read(&m_iRange);
+	stream->Read(&m_iTargetRange);
 	stream->Read(&m_iResistModify);
 	stream->Read(&m_iDamage);
 	stream->Read(&m_iDamageLimit);
@@ -11360,6 +11373,7 @@ void CvSpellInfo::write(FDataStreamBase* stream)
 	stream->Write(m_bHasCasted);
 	stream->Write(m_bIgnoreHasCasted);
 	stream->Write(m_iRange);
+	stream->Write(m_iTargetRange);
 	stream->Write(m_iResistModify);
 	stream->Write(m_iDamage);
 	stream->Write(m_iDamageLimit);
@@ -11567,6 +11581,7 @@ bool CvSpellInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bHasCasted, "bHasCasted");
 	pXML->GetChildXmlValByName(&m_bIgnoreHasCasted, "bIgnoreHasCasted");
 	pXML->GetChildXmlValByName(&m_iRange, "iRange");
+	pXML->GetChildXmlValByName(&m_iTargetRange, "iTargetRange");
 	pXML->GetChildXmlValByName(&m_iResistModify, "iResistModify");
 
 	pXML->GetChildXmlValByName(&m_iDamage, "iDamage");
@@ -11772,6 +11787,7 @@ void CvSpellInfo::copyNonDefaults(CvSpellInfo* pClassInfo, CvXMLLoadUtility* pXM
 	if (getAIWeight()					== 0)					m_iAIWeight						= pClassInfo->getAIWeight();
 	if (getCasterMinLevel()				== 0)					m_iCasterMinLevel				= pClassInfo->getCasterMinLevel();
 	if (getRange()						== 0)					m_iRange						= pClassInfo->getRange();
+	if (getTargetRange() == 0)					m_iTargetRange = pClassInfo->getTargetRange();
 	if (getResistModify()				== 0)					m_iResistModify					= pClassInfo->getResistModify();
 	if (getDamage()						== 0)					m_iDamage						= pClassInfo->getDamage();
 	if (getDamageLimit()				== 0)					m_iDamageLimit					= pClassInfo->getDamageLimit();
@@ -13173,6 +13189,7 @@ m_iPrereqEthicalAlignment(NO_ETHICAL_ALIGNMENT),
 /*************************************************************************************************/
 m_iPrereqBuildingClass(NO_BUILDINGCLASS),
 m_iPrereqCivic(NO_CIVIC),
+m_iPrereqTrait(NO_TRAIT),
 m_iPrereqGlobalCounter(0),
 m_iPromotionFromCombat(NO_PROMOTION),
 m_iTier(0),
@@ -14337,6 +14354,10 @@ int CvUnitInfo::getPrereqCivic() const
 {
 	return m_iPrereqCivic;
 }
+int CvUnitInfo::getPrereqTrait() const
+{
+	return m_iPrereqTrait;
+}
 
 int CvUnitInfo::getPromotionFromCombat() const
 {
@@ -15314,6 +15335,7 @@ void CvUnitInfo::read(FDataStreamBase* stream)
 /*************************************************************************************************/
 	stream->Read(&m_iPrereqBuildingClass);
 	stream->Read(&m_iPrereqCivic);
+	stream->Read(&m_iPrereqTrait);
 	stream->Read(&m_iPrereqGlobalCounter);
 	stream->Read(&m_iPromotionFromCombat);
 	stream->Read(&m_iTier);
@@ -15942,6 +15964,7 @@ void CvUnitInfo::write(FDataStreamBase* stream)
 /*************************************************************************************************/
 	stream->Write(m_iPrereqBuildingClass);
 	stream->Write(m_iPrereqCivic);
+	stream->Write(m_iPrereqTrait);
 	stream->Write(m_iPrereqGlobalCounter);
 	stream->Write(m_iPromotionFromCombat);
 	stream->Write(m_iTier);
@@ -16778,6 +16801,8 @@ bool CvUnitInfo::read(CvXMLLoadUtility* pXML)
 	m_iPrereqBuildingClass = pXML->FindInInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(szTextVal, "PrereqCivic");
 	m_iPrereqCivic = pXML->FindInInfoClass(szTextVal);
+	pXML->GetChildXmlValByName(szTextVal, "PrereqTrait");
+	m_iPrereqTrait = pXML->FindInInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(szTextVal, "PromotionFromCombat");
 	m_iPromotionFromCombat = pXML->FindInInfoClass(szTextVal);
 	pXML->GetChildXmlValByName(&m_iPrereqGlobalCounter,"iPrereqGlobalCounter");
@@ -17116,6 +17141,7 @@ void CvUnitInfo::copyNonDefaults(CvUnitInfo* pClassInfo, CvXMLLoadUtility* pXML)
 	if(getPrereqAndTech()					== NO_TECH)			m_iPrereqAndTech					= pClassInfo->getPrereqAndTech();
 	if(getPrereqAndBonus()					== NO_BONUS)		m_iPrereqAndBonus					= pClassInfo->getPrereqAndBonus();
 	if(getPrereqCivic()						== NO_CIVIC)		m_iPrereqCivic						= pClassInfo->getPrereqCivic();
+	if (getPrereqTrait() == NO_TRAIT)		m_iPrereqTrait = pClassInfo->getPrereqTrait();
 	if(getDomainCargo()						== NO_DOMAIN)		m_iDomainCargo						= pClassInfo->getDomainCargo();
 	if(getAdvisorType()						== NO_ADVISOR)		m_iAdvisorType						= pClassInfo->getAdvisorType();
 	if(getDomainType()						== DOMAIN_LAND)		m_iDomainType						= pClassInfo->getDomainType();
@@ -20914,6 +20940,7 @@ m_bPrereqNoFreshWater(false),
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 m_bSeeInvisible(false),
+m_bOverflowProduction(false),
 m_bUnhappyProduction(false),
 m_iCrime(0),
 m_iFreePromotionPick(0),
@@ -21953,6 +21980,11 @@ bool CvBuildingInfo::isSeeInvisible() const
 	return m_bSeeInvisible;
 }
 
+bool CvBuildingInfo::isOverflowProduction() const
+{
+	return m_bOverflowProduction;
+}
+
 bool CvBuildingInfo::isUnhappyProduction() const
 {
 	return m_bUnhappyProduction;
@@ -22939,6 +22971,7 @@ void CvBuildingInfo::read(FDataStreamBase* stream)
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 	stream->Read(&m_bSeeInvisible);
+	stream->Read(&m_bOverflowProduction);
 	stream->Read(&m_bUnhappyProduction);
 	stream->Read(&m_iCrime);
 	stream->Read(&m_iFreePromotionPick);
@@ -23558,6 +23591,7 @@ void CvBuildingInfo::write(FDataStreamBase* stream)
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 	stream->Write(m_bSeeInvisible);
+	stream->Write(m_bOverflowProduction);
 	stream->Write(m_bUnhappyProduction);
 	stream->Write(m_iCrime);
 	stream->Write(m_iFreePromotionPick);
@@ -24135,6 +24169,7 @@ bool CvBuildingInfo::read(CvXMLLoadUtility* pXML)
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 	pXML->GetChildXmlValByName(&m_bSeeInvisible, "bSeeInvisible");
+	pXML->GetChildXmlValByName(&m_bOverflowProduction, "bOverflowProduction");
 	pXML->GetChildXmlValByName(&m_bUnhappyProduction, "bUnhappyProduction");
 	pXML->GetChildXmlValByName(&m_iCrime, "iCrime");
 	pXML->GetChildXmlValByName(&m_iFreePromotionPick, "iFreePromotionPick");
@@ -24797,6 +24832,7 @@ void CvBuildingInfo::copyNonDefaults(CvBuildingInfo* pClassInfo, CvXMLLoadUtilit
 	if (isNoCivicAnger()						== false)				m_bNoCivicAnger						= pClassInfo->isNoCivicAnger();
 	if (isRequiresCaster()						== false)				m_bRequiresCaster					= pClassInfo->isRequiresCaster();
 	if (isSeeInvisible()						== false)				m_bSeeInvisible						= pClassInfo->isSeeInvisible();
+	if (isOverflowProduction()					== false)				m_bOverflowProduction				= pClassInfo->isOverflowProduction();
 	if (isUnhappyProduction()					== false)				m_bUnhappyProduction				= pClassInfo->isUnhappyProduction();
 	if (isCarriesFreshWater()					== false)				m_bCarriesFreshWater				= pClassInfo->isCarriesFreshWater();
 	if (isPrereqNoFreshWater() == false)				m_bPrereqNoFreshWater = pClassInfo->isPrereqNoFreshWater();
@@ -27733,9 +27769,9 @@ m_iHappyBonus(0),
 m_iAttitudeChange(0),
 m_iNoTechTradeModifier(0),
 m_iTechTradeKnownModifier(0),
-m_iUnownedTilesPerGameAnimal(0),
-m_iUnownedTilesPerBarbarianUnit(0),
-m_iUnownedWaterTilesPerBarbarianUnit(0),
+m_iTilesPerAnimal(0),
+m_iTilesPerOrc(0),
+m_iWaterTilesPerOrc(0),
 m_iUnownedTilesPerBarbarianCity(0),
 m_iBarbarianCreationTurnsElapsed(0),
 m_iBarbarianCityCreationTurnsElapsed(0),
@@ -27792,24 +27828,18 @@ m_iAIFreeXP(0.0f),
 /**																								**/
 /**										Initial Values											**/
 /*************************************************************************************************/
-m_iUnownedWaterTilesPerGameAnimal(0),
+m_iWaterTilesPerAnimal(0),
 m_iAnimalEscalationTurnsElapsed(0),
-m_iLairSpawnChance(0),
-m_iLairsPerCycle(0),
-m_iPercentDemonsPerUnownedEvilPlot(0),
-m_iDemonGlobalCountSpawnBoostInterval(0),
-m_iDemonGlobalCountSpawnBoostRate(0),
+m_iPercentDemonsPerEvilPlot(0),
 m_iDemonPerTurnKnownTechsPercent(0),
 m_iDemonGlobalCounterFreeXPPercent(0),
-m_iDemonSpawnRateGlobalCounterEnhancementPercent(0),
+m_iPercentDemonsPerEvilPlotPerGlobalCounter(0),
 m_iDemonBonus(0),
-m_iAIDemonBonus(0),
+m_iAIDemonBonus(0)
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
 /*************************************************************************************************/
-m_iLairSpawnRate(0)
 //FfH: End Add
-
 {
 }
 
@@ -27932,19 +27962,19 @@ int CvHandicapInfo::getTechTradeKnownModifier() const
 	return m_iTechTradeKnownModifier;
 }
 
-int CvHandicapInfo::getUnownedTilesPerGameAnimal() const
+int CvHandicapInfo::getTilesPerAnimal() const
 {
-	return m_iUnownedTilesPerGameAnimal;
+	return m_iTilesPerAnimal;
 }
 
-int CvHandicapInfo::getUnownedTilesPerBarbarianUnit() const
+int CvHandicapInfo::getTilesPerOrc() const
 {
-	return m_iUnownedTilesPerBarbarianUnit;
+	return m_iTilesPerOrc;
 }
 
-int CvHandicapInfo::getUnownedWaterTilesPerBarbarianUnit() const
+int CvHandicapInfo::getWaterTilesPerOrc() const
 {
-	return m_iUnownedWaterTilesPerBarbarianUnit;
+	return m_iWaterTilesPerOrc;
 }
 
 int CvHandicapInfo::getUnownedTilesPerBarbarianCity() const
@@ -28133,27 +28163,18 @@ int CvHandicapInfo::getAIFreeXP() const
 /**	DecimalXP									END												**/
 /*************************************************************************************************/
 }
-
-int CvHandicapInfo::getLairSpawnRate() const
-{
-	return m_iLairSpawnRate;
-}
 //FfH: End Add
 /*************************************************************************************************/
 /**	New Tag Defs	(HandicapInfos)			12/27/08								Xienwolf	**/
 /**																								**/
 /**									Called for Logic Checks										**/
 /*************************************************************************************************/
-int CvHandicapInfo::getUnownedWaterTilesPerGameAnimal() const					{return m_iUnownedWaterTilesPerGameAnimal;}
+int CvHandicapInfo::getWaterTilesPerAnimal() const								{return m_iWaterTilesPerAnimal;}
 int CvHandicapInfo::getAnimalEscalationTurnsElapsed() const						{return m_iAnimalEscalationTurnsElapsed;}
-int CvHandicapInfo::getLairSpawnChance() const									{return m_iLairSpawnChance;}
-int CvHandicapInfo::getLairsPerCycle() const									{return m_iLairsPerCycle;}
-int CvHandicapInfo::getPercentDemonsPerUnownedEvilPlot() const					{return m_iPercentDemonsPerUnownedEvilPlot;}
-int CvHandicapInfo::getDemonGlobalCountSpawnBoostInterval() const				{return m_iDemonGlobalCountSpawnBoostInterval;}
-int CvHandicapInfo::getDemonGlobalCountSpawnBoostRate() const					{return m_iDemonGlobalCountSpawnBoostRate;}
+int CvHandicapInfo::getPercentDemonsPerEvilPlot() const							{return m_iPercentDemonsPerEvilPlot;}
 int CvHandicapInfo::getDemonPerTurnKnownTechsPercent() const					{return m_iDemonPerTurnKnownTechsPercent;}
 int CvHandicapInfo::getDemonGlobalCounterFreeXPPercent() const					{return m_iDemonGlobalCounterFreeXPPercent;}
-int CvHandicapInfo::getDemonSpawnRateGlobalCounterEnhancementPercent() const    {return m_iDemonSpawnRateGlobalCounterEnhancementPercent;}
+int CvHandicapInfo::getPercentDemonsPerEvilPlotPerGlobalCounter() const			{return m_iPercentDemonsPerEvilPlotPerGlobalCounter;}
 int CvHandicapInfo::getDemonBonus() const										{return m_iDemonBonus;}
 int CvHandicapInfo::getAIDemonBonus() const										{return m_iAIDemonBonus;}
 /*************************************************************************************************/
@@ -28211,9 +28232,9 @@ void CvHandicapInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_iAttitudeChange);
 	stream->Read(&m_iNoTechTradeModifier);
 	stream->Read(&m_iTechTradeKnownModifier);
-	stream->Read(&m_iUnownedTilesPerGameAnimal);
-	stream->Read(&m_iUnownedTilesPerBarbarianUnit);
-	stream->Read(&m_iUnownedWaterTilesPerBarbarianUnit);
+	stream->Read(&m_iTilesPerAnimal);
+	stream->Read(&m_iTilesPerOrc);
+	stream->Read(&m_iWaterTilesPerOrc);
 	stream->Read(&m_iUnownedTilesPerBarbarianCity);
 	stream->Read(&m_iBarbarianCreationTurnsElapsed);
 	stream->Read(&m_iBarbarianCityCreationTurnsElapsed);
@@ -28252,7 +28273,6 @@ void CvHandicapInfo::read(FDataStreamBase* stream)
 
 //FfH Improvements: Added by Kael 08/07/2007
 	stream->Read(&m_iAIFreeXP);
-	stream->Read(&m_iLairSpawnRate);
 //FfH: End Add
 
 	stream->ReadString(m_szHandicapName);
@@ -28261,16 +28281,12 @@ void CvHandicapInfo::read(FDataStreamBase* stream)
 /**																								**/
 /**									Read Data from Save Files									**/
 /*************************************************************************************************/
-	stream->Read(&m_iUnownedWaterTilesPerGameAnimal);
+	stream->Read(&m_iWaterTilesPerAnimal);
 	stream->Read(&m_iAnimalEscalationTurnsElapsed);
-	stream->Read(&m_iLairSpawnChance);
-	stream->Read(&m_iLairsPerCycle);
-	stream->Read(&m_iPercentDemonsPerUnownedEvilPlot);
-	stream->Read(&m_iDemonGlobalCountSpawnBoostInterval);
-	stream->Read(&m_iDemonGlobalCountSpawnBoostRate);
+	stream->Read(&m_iPercentDemonsPerEvilPlot);
 	stream->Read(&m_iDemonPerTurnKnownTechsPercent);
 	stream->Read(&m_iDemonGlobalCounterFreeXPPercent);
-	stream->Read(&m_iDemonSpawnRateGlobalCounterEnhancementPercent);
+	stream->Read(&m_iPercentDemonsPerEvilPlotPerGlobalCounter);
 	stream->Read(&m_iDemonBonus);
 	stream->Read(&m_iAIDemonBonus);
 /*************************************************************************************************/
@@ -28320,9 +28336,9 @@ void CvHandicapInfo::write(FDataStreamBase* stream)
 	stream->Write(m_iAttitudeChange);
 	stream->Write(m_iNoTechTradeModifier);
 	stream->Write(m_iTechTradeKnownModifier);
-	stream->Write(m_iUnownedTilesPerGameAnimal);
-	stream->Write(m_iUnownedTilesPerBarbarianUnit);
-	stream->Write(m_iUnownedWaterTilesPerBarbarianUnit);
+	stream->Write(m_iTilesPerAnimal);
+	stream->Write(m_iTilesPerOrc);
+	stream->Write(m_iWaterTilesPerOrc);
 	stream->Write(m_iUnownedTilesPerBarbarianCity);
 	stream->Write(m_iBarbarianCreationTurnsElapsed);
 	stream->Write(m_iBarbarianCityCreationTurnsElapsed);
@@ -28361,7 +28377,6 @@ void CvHandicapInfo::write(FDataStreamBase* stream)
 
 //FfH Improvements: Added by Kael 08/07/2007
 	stream->Write(m_iAIFreeXP);
-	stream->Write(m_iLairSpawnRate);
 //FfH: End Add
 
 	stream->WriteString(m_szHandicapName);
@@ -28370,16 +28385,12 @@ void CvHandicapInfo::write(FDataStreamBase* stream)
 /**																								**/
 /**									Write Data to Save Files									**/
 /*************************************************************************************************/
-	stream->Write(m_iUnownedWaterTilesPerGameAnimal);
+	stream->Write(m_iWaterTilesPerAnimal);
 	stream->Write(m_iAnimalEscalationTurnsElapsed);
-	stream->Write(m_iLairSpawnChance);
-	stream->Write(m_iLairsPerCycle);
-	stream->Write(m_iPercentDemonsPerUnownedEvilPlot);
-	stream->Write(m_iDemonGlobalCountSpawnBoostInterval);
-	stream->Write(m_iDemonGlobalCountSpawnBoostRate);
+	stream->Write(m_iPercentDemonsPerEvilPlot);
 	stream->Write(m_iDemonPerTurnKnownTechsPercent);
 	stream->Write(m_iDemonGlobalCounterFreeXPPercent);
-	stream->Write(m_iDemonSpawnRateGlobalCounterEnhancementPercent);
+	stream->Write(m_iPercentDemonsPerEvilPlotPerGlobalCounter);
 	stream->Write(m_iDemonBonus);
 	stream->Write(m_iAIDemonBonus);
 /*************************************************************************************************/
@@ -28423,9 +28434,9 @@ bool CvHandicapInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_iAttitudeChange, "iAttitudeChange");
 	pXML->GetChildXmlValByName(&m_iNoTechTradeModifier, "iNoTechTradeModifier");
 	pXML->GetChildXmlValByName(&m_iTechTradeKnownModifier, "iTechTradeKnownModifier");
-	pXML->GetChildXmlValByName(&m_iUnownedTilesPerGameAnimal, "iUnownedTilesPerGameAnimal");
-	pXML->GetChildXmlValByName(&m_iUnownedTilesPerBarbarianUnit, "iUnownedTilesPerBarbarianUnit");
-	pXML->GetChildXmlValByName(&m_iUnownedWaterTilesPerBarbarianUnit, "iUnownedWaterTilesPerBarbarianUnit");
+	pXML->GetChildXmlValByName(&m_iTilesPerAnimal, "iTilesPerAnimal");
+	pXML->GetChildXmlValByName(&m_iTilesPerOrc, "iTilesPerOrc");
+	pXML->GetChildXmlValByName(&m_iWaterTilesPerOrc, "iWaterTilesPerOrc");
 	pXML->GetChildXmlValByName(&m_iUnownedTilesPerBarbarianCity, "iUnownedTilesPerBarbarianCity");
 	pXML->GetChildXmlValByName(&m_iBarbarianCreationTurnsElapsed, "iBarbarianCreationTurnsElapsed");
 	pXML->GetChildXmlValByName(&m_iBarbarianCityCreationTurnsElapsed, "iBarbarianCityCreationTurnsElapsed");
@@ -28464,16 +28475,12 @@ bool CvHandicapInfo::read(CvXMLLoadUtility* pXML)
 /**																								**/
 /**									Loads Information from XML									**/
 /*************************************************************************************************/
-	pXML->GetChildXmlValByName(&m_iUnownedWaterTilesPerGameAnimal, "iUnownedWaterTilesPerGameAnimal");
+	pXML->GetChildXmlValByName(&m_iWaterTilesPerAnimal, "iWaterTilesPerAnimal");
 	pXML->GetChildXmlValByName(&m_iAnimalEscalationTurnsElapsed, "iAnimalEscalationTurnsElapsed");
-	pXML->GetChildXmlValByName(&m_iLairSpawnChance, "iLairSpawnChance");
-	pXML->GetChildXmlValByName(&m_iLairsPerCycle, "iLairsPerCycle");
-	pXML->GetChildXmlValByName(&m_iPercentDemonsPerUnownedEvilPlot, "iPercentDemonsPerUnownedEvilPlot");
-	pXML->GetChildXmlValByName(&m_iDemonGlobalCountSpawnBoostInterval, "iDemonGlobalCountSpawnBoostInterval");
-	pXML->GetChildXmlValByName(&m_iDemonGlobalCountSpawnBoostRate, "iDemonGlobalCountSpawnBoostRate");
+	pXML->GetChildXmlValByName(&m_iPercentDemonsPerEvilPlot, "iPercentDemonsPerEvilPlot");
 	pXML->GetChildXmlValByName(&m_iDemonPerTurnKnownTechsPercent, "iDemonPerTurnKnownTechsPercent");
 	pXML->GetChildXmlValByName(&m_iDemonGlobalCounterFreeXPPercent, "iDemonGlobalCounterFreeXPPercent");
-	pXML->GetChildXmlValByName(&m_iDemonSpawnRateGlobalCounterEnhancementPercent, "iDemonSpawnRateGlobalCounterEnhancementPercent");
+	pXML->GetChildXmlValByName(&m_iPercentDemonsPerEvilPlotPerGlobalCounter, "iPercentDemonsPerEvilPlotPerGlobalCounter");
 	pXML->GetChildXmlValByName(&m_iDemonBonus, "iDemonBonus");
 	pXML->GetChildXmlValByName(&m_iAIDemonBonus, "iAIDemonBonus");
 /*************************************************************************************************/
@@ -28509,7 +28516,6 @@ bool CvHandicapInfo::read(CvXMLLoadUtility* pXML)
 
 //FfH Improvements: Added by Kael 08/07/2007
 	pXML->GetChildXmlValByName(&m_iAIFreeXP, "iAIFreeXP");
-	pXML->GetChildXmlValByName(&m_iLairSpawnRate, "iLairSpawnRate");
 //FfH: End Add
 
 	return true;
@@ -28548,9 +28554,9 @@ void CvHandicapInfo::copyNonDefaults(CvHandicapInfo* pClassInfo, CvXMLLoadUtilit
 	if (getAttitudeChange()						== 0)		m_iAttitudeChange						= pClassInfo->getAttitudeChange();
 	if (getNoTechTradeModifier()				== 0)		m_iNoTechTradeModifier					= pClassInfo->getNoTechTradeModifier();
 	if (getTechTradeKnownModifier()				== 0)		m_iTechTradeKnownModifier				= pClassInfo->getTechTradeKnownModifier();
-	if (getUnownedTilesPerGameAnimal()			== 0)		m_iUnownedTilesPerGameAnimal			= pClassInfo->getUnownedTilesPerGameAnimal();
-	if (getUnownedTilesPerBarbarianUnit()		== 0)		m_iUnownedTilesPerBarbarianUnit			= pClassInfo->getUnownedTilesPerBarbarianUnit();
-	if (getUnownedWaterTilesPerBarbarianUnit()	== 0)		m_iUnownedWaterTilesPerBarbarianUnit	= pClassInfo->getUnownedWaterTilesPerBarbarianUnit();
+	if (getTilesPerAnimal()			== 0)		m_iTilesPerAnimal			= pClassInfo->getTilesPerAnimal();
+	if (getTilesPerOrc()		== 0)		m_iTilesPerOrc			= pClassInfo->getTilesPerOrc();
+	if (getWaterTilesPerOrc()	== 0)		m_iWaterTilesPerOrc	= pClassInfo->getWaterTilesPerOrc();
 	if (getUnownedTilesPerBarbarianCity()		== 0)		m_iUnownedTilesPerBarbarianCity			= pClassInfo->getUnownedTilesPerBarbarianCity();
 	if (getBarbarianCreationTurnsElapsed()		== 0)		m_iBarbarianCreationTurnsElapsed		= pClassInfo->getBarbarianCreationTurnsElapsed();
 	if (getBarbarianCityCreationTurnsElapsed()	== 0)		m_iBarbarianCityCreationTurnsElapsed	= pClassInfo->getBarbarianCityCreationTurnsElapsed();
@@ -28584,20 +28590,15 @@ void CvHandicapInfo::copyNonDefaults(CvHandicapInfo* pClassInfo, CvXMLLoadUtilit
 	if (getAIWarWearinessPercent()				== 0)		m_iAIWarWearinessPercent				= pClassInfo->getAIWarWearinessPercent();
 	if (getAIPerEraModifier()					== 0)		m_iAIPerEraModifier						= pClassInfo->getAIPerEraModifier();
 	if (getAIAdvancedStartPercent()				== 0)		m_iAIAdvancedStartPercent				= pClassInfo->getAIAdvancedStartPercent();
-	if (getUnownedWaterTilesPerGameAnimal()		== 0)		m_iUnownedWaterTilesPerGameAnimal		= pClassInfo->getUnownedWaterTilesPerGameAnimal();
+	if (getWaterTilesPerAnimal()				== 0)		m_iWaterTilesPerAnimal					= pClassInfo->getWaterTilesPerAnimal();
 	if (getAnimalEscalationTurnsElapsed()		== 0)		m_iAnimalEscalationTurnsElapsed			= pClassInfo->getAnimalEscalationTurnsElapsed();
-	if (getLairSpawnChance()					== 0)		m_iLairSpawnChance						= pClassInfo->getLairSpawnChance();
-	if (getLairsPerCycle()						== 0)		m_iLairsPerCycle						= pClassInfo->getLairsPerCycle();
-	if (getPercentDemonsPerUnownedEvilPlot()	== 0)		m_iPercentDemonsPerUnownedEvilPlot		= pClassInfo->getPercentDemonsPerUnownedEvilPlot();
-	if (getDemonGlobalCountSpawnBoostInterval()	== 0)		m_iDemonGlobalCountSpawnBoostInterval	= pClassInfo->getDemonGlobalCountSpawnBoostInterval();
-	if (getDemonGlobalCountSpawnBoostRate()		== 0)		m_iDemonGlobalCountSpawnBoostRate		= pClassInfo->getDemonGlobalCountSpawnBoostRate();
+	if (getPercentDemonsPerEvilPlot()			== 0)		m_iPercentDemonsPerEvilPlot				= pClassInfo->getPercentDemonsPerEvilPlot();
 	if (getDemonPerTurnKnownTechsPercent()		== 0)		m_iDemonPerTurnKnownTechsPercent		= pClassInfo->getDemonPerTurnKnownTechsPercent();
 	if (getDemonGlobalCounterFreeXPPercent()	== 0)		m_iDemonGlobalCounterFreeXPPercent		= pClassInfo->getDemonGlobalCounterFreeXPPercent();
-	if (getDemonSpawnRateGlobalCounterEnhancementPercent()	== 0)	m_iDemonSpawnRateGlobalCounterEnhancementPercent	= pClassInfo->getDemonSpawnRateGlobalCounterEnhancementPercent();
+	if (getPercentDemonsPerEvilPlotPerGlobalCounter()== 0)	m_iPercentDemonsPerEvilPlotPerGlobalCounter	= pClassInfo->getPercentDemonsPerEvilPlotPerGlobalCounter();
 	if (getDemonBonus()							== 0)		m_iDemonBonus							= pClassInfo->getDemonBonus();
 	if (getAIDemonBonus()						== 0)		m_iAIDemonBonus							= pClassInfo->getAIDemonBonus();
 	if (getAIFreeXP()							== 0)		m_iAIFreeXP								= (float)pClassInfo->getAIFreeXP()/100.0f;
-	if (getLairSpawnRate()						== 0)		m_iLairSpawnRate						= pClassInfo->getLairSpawnRate();
 	for (int i = 0; i < GC.getNumTechInfos(); i++)
 	{
 		if (m_pbFreeTechs[i]					== false)	m_pbFreeTechs[i]						= pClassInfo->isFreeTechs(i);
@@ -28673,6 +28674,7 @@ m_iNumTurnIncrements(0),
 /**																								**/
 /**										Initial Values											**/
 /*************************************************************************************************/
+m_iLairSpawnChance(0),
 m_iTurnsPerLairCycle(0),
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
@@ -28807,7 +28809,8 @@ int CvGameSpeedInfo::getNumTurnIncrements() const
 /**																								**/
 /**									Called for Logic Checks										**/
 /*************************************************************************************************/
-int CvGameSpeedInfo::getTurnsPerLairCycle() const    {return m_iTurnsPerLairCycle;}
+int CvGameSpeedInfo::getLairSpawnChance() const		{return m_iLairSpawnChance;}
+int CvGameSpeedInfo::getTurnsPerLairCycle() const	{return m_iTurnsPerLairCycle;}
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
 /*************************************************************************************************/
@@ -28857,6 +28860,7 @@ bool CvGameSpeedInfo::read(CvXMLLoadUtility* pXML)
 /**																								**/
 /**									Loads Information from XML									**/
 /*************************************************************************************************/
+	pXML->GetChildXmlValByName(&m_iLairSpawnChance, "iLairSpawnChance");
 	pXML->GetChildXmlValByName(&m_iTurnsPerLairCycle, "iTurnsPerLairCycle");
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
@@ -28927,6 +28931,7 @@ void CvGameSpeedInfo::copyNonDefaults(CvGameSpeedInfo* pClassInfo, CvXMLLoadUtil
 	if (getInflationOffset()			== 0)		m_iInflationOffset				= pClassInfo->getInflationOffset();
 	if (getInflationPercent()			== 0)		m_iInflationPercent				= pClassInfo->getInflationPercent();
 	if (getVictoryDelayPercent()		== 0)		m_iVictoryDelayPercent			= pClassInfo->getVictoryDelayPercent();
+	if (getLairSpawnChance()			== 0)		m_iLairSpawnChance				= pClassInfo->getLairSpawnChance();
 	if (getTurnsPerLairCycle()			== 0)		m_iTurnsPerLairCycle			= pClassInfo->getTurnsPerLairCycle();
 	if (getNumTurnIncrements()			== 0)
 	{
@@ -30450,8 +30455,7 @@ m_paImprovementBonus(NULL),
 /**								Added to by Valkrionn, 1/15/10									**/
 /**										Initial Values											**/
 /*************************************************************************************************/
-m_iSpawnUnitCiv(0),
-m_iSpawnPerGameLimit(-1),
+m_iSpawnUnitCiv(NO_CIVILIZATION),
 m_iSpawnAtOnceLimit(-1),
 m_iLairCreationWeight(0),
 /*************************************************************************************************/
@@ -30486,6 +30490,8 @@ m_iBasePlotCounterModify(0),
 m_bRequiresPeak(false),
 m_bUnique(false),
 m_iAppearanceProbability(0),
+m_iSpawnUnitChancePercentMod(0),
+m_iSpawnGroupChancePercentMod(0),
 m_iHealRateChange(0),
 m_iRange(0),
 m_iRangeDefenseModifier(0),
@@ -30830,6 +30836,15 @@ int CvImprovementInfo::getAppearanceProbability() const
 	return m_iAppearanceProbability;
 }
 
+int CvImprovementInfo::getSpawnUnitChancePercentMod() const
+{
+	return m_iSpawnUnitChancePercentMod;
+}
+int CvImprovementInfo::getSpawnGroupChancePercentMod() const
+{
+	return m_iSpawnGroupChancePercentMod;
+}
+
 int CvImprovementInfo::getHealRateChange() const
 {
 	return m_iHealRateChange;
@@ -30951,8 +30966,7 @@ bool CvImprovementInfo::isUnique() const
 /**									Called for Logic Checks										**/
 /*************************************************************************************************/
 int CvImprovementInfo::getSpawnUnitCiv() const							{return m_iSpawnUnitCiv;}
-int CvImprovementInfo::getSpawnPerGameLimit() const						{return m_iSpawnPerGameLimit < 0 ? MAX_INT : m_iSpawnPerGameLimit;}
-int CvImprovementInfo::getSpawnAtOnceLimit() const						{return m_iSpawnAtOnceLimit < 0 ? MAX_INT : m_iSpawnAtOnceLimit;}
+int CvImprovementInfo::getSpawnAtOnceLimit() const						{return m_iSpawnAtOnceLimit;}
 int CvImprovementInfo::getLairCreationWeight() const					{return m_iLairCreationWeight;}
 /*************************************************************************************************/
 /** Hinterlands				  				07/11/09								Valkrionn	**/
@@ -31284,6 +31298,8 @@ void CvImprovementInfo::read(FDataStreamBase* stream)
 	stream->Read(&m_bRequiresPeak);
 	stream->Read(&m_bUnique);
 	stream->Read(&m_iAppearanceProbability);
+	stream->Read(&m_iSpawnUnitChancePercentMod);
+	stream->Read(&m_iSpawnGroupChancePercentMod);
 	stream->Read(&m_iHealRateChange);
 	stream->Read(&m_iRange);
 	stream->Read(&m_iRangeDefenseModifier);
@@ -31335,7 +31351,6 @@ void CvImprovementInfo::read(FDataStreamBase* stream)
 /**									Read Data from Save Files									**/
 /*************************************************************************************************/
 	stream->Read(&m_iSpawnUnitCiv);
-	stream->Read(&m_iSpawnPerGameLimit);
 	stream->Read(&m_iSpawnAtOnceLimit);
 	stream->Read(&m_iLairCreationWeight);
 	stream->Read(&m_bExplorable);
@@ -31529,6 +31544,8 @@ void CvImprovementInfo::write(FDataStreamBase* stream)
 	stream->Write(m_bRequiresPeak);
 	stream->Write(m_bUnique);
 	stream->Write(m_iAppearanceProbability);
+	stream->Write(m_iSpawnUnitChancePercentMod);
+	stream->Write(m_iSpawnGroupChancePercentMod);
 	stream->Write(m_iHealRateChange);
 	stream->Write(m_iRange);
 	stream->Write(m_iRangeDefenseModifier);
@@ -31572,7 +31589,6 @@ void CvImprovementInfo::write(FDataStreamBase* stream)
 /**									Write Data to Save Files									**/
 /*************************************************************************************************/
 	stream->Write(m_iSpawnUnitCiv);
-	stream->Write(m_iSpawnPerGameLimit);
 	stream->Write(m_iSpawnAtOnceLimit);
 	stream->Write(m_iLairCreationWeight);
 /*************************************************************************************************/
@@ -31892,6 +31908,8 @@ bool CvImprovementInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bRequiresPeak, "bRequiresPeak");
 	pXML->GetChildXmlValByName(&m_bUnique, "bUnique");
 	pXML->GetChildXmlValByName(&m_iAppearanceProbability, "iAppearanceProbability");
+	pXML->GetChildXmlValByName(&m_iSpawnUnitChancePercentMod, "iSpawnUnitChancePercentMod");
+	pXML->GetChildXmlValByName(&m_iSpawnGroupChancePercentMod, "iSpawnGroupChancePercentMod");
 	pXML->GetChildXmlValByName(&m_iHealRateChange, "iHealRateChange");
 	pXML->GetChildXmlValByName(&m_iRange, "iRange");
 	pXML->GetChildXmlValByName(&m_iRangeDefenseModifier, "iRangeDefenseModifier");
@@ -31963,7 +31981,6 @@ bool CvImprovementInfo::read(CvXMLLoadUtility* pXML)
 /*************************************************************************************************/
 	pXML->GetChildXmlValByName(szTextVal, "SpawnUnitCiv");
 	m_aszExtraXML3forPass3.push_back(szTextVal);
-	pXML->GetChildXmlValByName(&m_iSpawnPerGameLimit, "iSpawnPerGameLimit", -1);
 	pXML->GetChildXmlValByName(&m_iSpawnAtOnceLimit, "iSpawnAtOnceLimit", -1);
 	pXML->GetChildXmlValByName(&m_iLairCreationWeight, "iLairCreationWeight");
 /*************************************************************************************************/
@@ -32170,6 +32187,8 @@ void CvImprovementInfo::copyNonDefaults(CvImprovementInfo* pClassInfo, CvXMLLoad
 	if (isSpawnOnlyForOwner()								== false)			m_bSpawnOnlyForOwner						= pClassInfo->isSpawnOnlyForOwner();
 	if (isPeakMakesValid()									== false)			m_bPeakMakesValid							= pClassInfo->isPeakMakesValid();
 	if (getAppearanceProbability()							== 0)				m_iAppearanceProbability					= pClassInfo->getAppearanceProbability();
+	if (getSpawnUnitChancePercentMod()						== 0)				m_iSpawnUnitChancePercentMod				= pClassInfo->getSpawnUnitChancePercentMod();
+	if (getSpawnGroupChancePercentMod()						== 0)				m_iSpawnGroupChancePercentMod				= pClassInfo->getSpawnGroupChancePercentMod();
 	if (getHealRateChange()									== 0)				m_iHealRateChange							= pClassInfo->getHealRateChange();
 	if (getRange()											== 0)				m_iRange									= pClassInfo->getRange();
 	if (getRangeDefenseModifier()							== 0)				m_iRangeDefenseModifier						= pClassInfo->getRangeDefenseModifier();
@@ -32187,7 +32206,6 @@ void CvImprovementInfo::copyNonDefaults(CvImprovementInfo* pClassInfo, CvXMLLoad
 	if (getHappiness()										== 0)				m_iHappiness								= pClassInfo->getHappiness();
 	if (getPillageGold()									== 0)				m_iPillageGold								= pClassInfo->getPillageGold();
 	if (getAdvancedStartCost()								== -1)				m_iAdvancedStartCost						= pClassInfo->getAdvancedStartCost();
-	if (getSpawnPerGameLimit()								== -1)				m_iSpawnPerGameLimit						= pClassInfo->getSpawnPerGameLimit();
 	if (getSpawnAtOnceLimit()								== -1)				m_iSpawnAtOnceLimit							= pClassInfo->getSpawnAtOnceLimit();
 	if (m_iWorldSoundscapeScriptId							== -1)				m_iWorldSoundscapeScriptId					= pClassInfo->getWorldSoundscapeScriptId();
 	if (getCultureControlStrength() == 0)	m_iCultureControlStrength = pClassInfo->getCultureControlStrength();
@@ -39959,6 +39977,7 @@ m_paiSpecialistHealthChange(NULL),
 m_paiSpecialistHappinessChange(NULL),
 m_paiSpecialistCrimeChange(NULL),
 m_paiUnitClassPlayerInstancesChange(NULL),
+m_piExtraUnitClass(NULL),
 /*************************************************************************************************/
 /**	Miner Trait 	 	Orbis from Sanguo Mod		18/02/09	Ahwaric		**/
 /*************************************************************************************************/
@@ -40587,6 +40606,18 @@ int CvTraitInfo::getImprovementYieldChangesVectorSize() { return m_aszImprovemen
 CvString CvTraitInfo::getImprovementYieldChangesNamesVectorElement(int i) { return m_aszImprovementYieldChanges[i]; }
 int* CvTraitInfo::getImprovementYieldChangesValuesVectorElement(int i) { return m_yiImprovementYieldChanges[i]; }
 
+int CvTraitInfo::getUnitClassesVectorSize() { return m_aszUnitClassesforPass3.size(); }
+int CvTraitInfo::getUnitClassesUnitVectorSize() { return m_aszUnitClassesUnitforPass3.size(); }
+CvString CvTraitInfo::getUnitClassesVectorElement(int i) { return m_aszUnitClassesforPass3[i]; }
+CvString CvTraitInfo::getUnitClassesUnitVectorElement(int i) { return m_aszUnitClassesUnitforPass3[i]; }
+
+int CvTraitInfo::getExtraUnitClasses(int i) const
+{
+	FAssertMsg(i < GC.getNumUnitClassInfos(), "Index out of bounds");
+	FAssertMsg(i > -1, "Index out of bounds");
+	return m_piExtraUnitClass[i];
+}
+
 int CvTraitInfo::getHurryPopulationModifier() const
 {
 	return m_iHurryPopulationModifier;
@@ -41072,9 +41103,45 @@ bool CvTraitInfo::read(CvXMLLoadUtility* pXML)
 
 		gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
 	}
+	CvString szClassVal;
 	/*************************************************************************************************/
 /**	Miner Trait							END			**/
 /*************************************************************************************************/
+	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(), "ExtraUnitClasses"))
+	{
+		if (pXML->SkipToNextVal())
+		{
+			iNumSibs = gDLL->getXMLIFace()->GetNumChildren(pXML->GetXML());
+			if (gDLL->getXMLIFace()->SetToChild(pXML->GetXML()))
+			{
+				if (0 < iNumSibs)
+				{
+					int iIndex;
+
+					for (j = 0; j < iNumSibs; j++)
+					{
+						if (pXML->GetChildXmlVal(szClassVal))
+						{
+							m_aszUnitClassesforPass3.push_back(szClassVal);
+							pXML->GetNextXmlVal(szTextVal);
+							m_aszUnitClassesUnitforPass3.push_back(szTextVal);
+
+							gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+						}
+						if (!gDLL->getXMLIFace()->NextSibling(pXML->GetXML()))
+						{
+							break;
+						}
+					}
+
+					gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+				}
+
+			}
+		}
+
+		gDLL->getXMLIFace()->SetToParent(pXML->GetXML());
+	}
 
 /*************************************************************************************************/
 /** bUniqueCult             Opera for LE/Orbis  06/07/09        imported by Valkrionn	09.26.09**/
@@ -41116,124 +41183,127 @@ void CvTraitInfo::copyNonDefaults(CvTraitInfo* pClassInfo, CvXMLLoadUtility* pXM
 	if (getNextTrait() == NO_TRAIT)		m_iNextTrait = pClassInfo->getNextTrait();
 	if (getParentTrait() == NO_TRAIT)		m_iParentTrait = pClassInfo->getParentTrait();
 
-	if (isAdaptive()								== false)		m_bAdaptive								= pClassInfo->isAdaptive();
-	if (isAgnostic()								== false)		m_bAgnostic								= pClassInfo->isAgnostic();
+	if (isAdaptive() == false)		m_bAdaptive = pClassInfo->isAdaptive();
+	if (isAgnostic() == false)		m_bAgnostic = pClassInfo->isAgnostic();
 	if (isAmphibian() == false)		m_bAmphibian = pClassInfo->isAmphibian();
-	if (isAssimilation()							== false)		m_bAssimilation							= pClassInfo->isAssimilation();
-	if (isBarbarianAlly()							== false)		m_bBarbarianAlly						= pClassInfo->isBarbarianAlly();
-	if (isIgnoreFood()								== false)		m_bIgnoreFood							= pClassInfo->isIgnoreFood();
+	if (isAssimilation() == false)		m_bAssimilation = pClassInfo->isAssimilation();
+	if (isBarbarianAlly() == false)		m_bBarbarianAlly = pClassInfo->isBarbarianAlly();
+	if (isIgnoreFood() == false)		m_bIgnoreFood = pClassInfo->isIgnoreFood();
 	if (isIgnoreHealth() == false)		m_bIgnoreHealth = pClassInfo->isIgnoreHealth();
-	if (isInsane()									== false)		m_bInsane								= pClassInfo->isInsane();
-	if (isSelectable()								== false)		m_bSelectable							= pClassInfo->isSelectable();
-	if (isSprawling()								== false)		m_bSprawling							= pClassInfo->isSprawling();
-/************************************************************************************************/
-/* Influence Driven War                   06/07/10                                 Valkrionn    */
-/*                                                                                              */
-/*						Prevents IDW effects within specific borders                            */
-/************************************************************************************************/
-	if (isFixedBorders()							== false)		m_bFixedBorders							= pClassInfo->isFixedBorders();
-	if (isInfluenceAllowed()						== false)		m_bInfluenceAllowed						= pClassInfo->isInfluenceAllowed();
-	if (getVictoryInfluenceModifier()				== 100)			m_iVictoryInfluenceModifier				= pClassInfo->getVictoryInfluenceModifier();
-	if (getDefeatInfluenceModifier()				== 100)			m_iDefeatInfluenceModifier				= pClassInfo->getDefeatInfluenceModifier();
-	if (getPillageInfluenceModifier()				== 100)			m_iPillageInfluenceModifier				= pClassInfo->getPillageInfluenceModifier();
-/*************************************************************************************************/
-/**	END																							**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Multiple Production 					07/10/09									Denev	**/
-/**							Merged by Valkrionn		13/01/2010									**/
-/**					Allows overflow production to produce multiple units each turn				**/
-/*************************************************************************************************/
-	if (isOverflowProduction()						== false)		m_bOverflowProduction					= pClassInfo->isOverflowProduction();
-/*************************************************************************************************/
-/**	Multiple Production							END												**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/**	Nomadic								01/15/10									Valkrionn	**/
-/**							Addition requested by Sylvain5477									**/
-/**						   Allows you to bypass the city check									**/
-/*************************************************************************************************/
-	if (isNomadic()									== false)		m_bNomadic								= pClassInfo->isNomadic();
-/*************************************************************************************************/
-/**	Nomadic									END													**/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/** bUniqueCult             Opera for LE/Orbis  06/07/09        imported by Valkrionn	09.26.09**/
-/*************************************************************************************************/
-	if (isUniqueCult()								== false)		m_bUniqueCult							= pClassInfo->isUniqueCult();
-	if (isIntolerant()								== false)		m_bIntolerant							= pClassInfo->isIntolerant();
-/*************************************************************************************************/
-/** End                                                                                         **/
-/*************************************************************************************************/
-/*************************************************************************************************/
-/** CityPopCap     Opera  9.8.09            imported by Valkrionn	09.26.09                    **/
-/*************************************************************************************************/
-	if (getInitialCityCap()							== 0)			m_iInitialCityCap						= pClassInfo->getInitialCityCap();
-	if (getMaxCityCap()								== 0)			m_iMaxCityCap							= pClassInfo->getMaxCityCap();
-/*************************************************************************************************/
-/** CityPopCap                  END                                                             **/
-/*************************************************************************************************/
-	if (getFreeXPFromCombat()						== 0)			m_iFreeXPFromCombat						= (float)pClassInfo->getFreeXPFromCombat()/100.0f;
-	if (getPillagingGold()							== 0)			m_iPillagingGold						= pClassInfo->getPillagingGold();
-	if (getHurryPopulationModifier()                == 0)           m_iHurryPopulationModifier              = pClassInfo->getHurryPopulationModifier();
-	if (getStartingGold()							== 0)			m_iStartingGold							= pClassInfo->getStartingGold();
-	if (getSummonDuration()							== 0)			m_iSummonDuration						= pClassInfo->getSummonDuration();
-	if (getUpgradeCostModifier()					== 0)			m_iUpgradeCostModifier					= pClassInfo->getUpgradeCostModifier();
-	if (getModReligionSpreadChance()				== 0)			m_iModReligionSpreadChance				= pClassInfo->getModReligionSpreadChance();
-	if (getHealth()									== 0)			m_iHealth								= pClassInfo->getHealth();
-	if (getHappiness()								== 0)			m_iHappiness							= pClassInfo->getHappiness();
-	if (getUpkeepModifier()							== 0)			m_iUpkeepModifier						= pClassInfo->getUpkeepModifier();
+	if (isInsane() == false)		m_bInsane = pClassInfo->isInsane();
+	if (isSelectable() == false)		m_bSelectable = pClassInfo->isSelectable();
+	if (isSprawling() == false)		m_bSprawling = pClassInfo->isSprawling();
+	/************************************************************************************************/
+	/* Influence Driven War                   06/07/10                                 Valkrionn    */
+	/*                                                                                              */
+	/*						Prevents IDW effects within specific borders                            */
+	/************************************************************************************************/
+	if (isFixedBorders() == false)		m_bFixedBorders = pClassInfo->isFixedBorders();
+	if (isInfluenceAllowed() == false)		m_bInfluenceAllowed = pClassInfo->isInfluenceAllowed();
+	if (getVictoryInfluenceModifier() == 100)			m_iVictoryInfluenceModifier = pClassInfo->getVictoryInfluenceModifier();
+	if (getDefeatInfluenceModifier() == 100)			m_iDefeatInfluenceModifier = pClassInfo->getDefeatInfluenceModifier();
+	if (getPillageInfluenceModifier() == 100)			m_iPillageInfluenceModifier = pClassInfo->getPillageInfluenceModifier();
+	/*************************************************************************************************/
+	/**	END																							**/
+	/*************************************************************************************************/
+	/*************************************************************************************************/
+	/**	Multiple Production 					07/10/09									Denev	**/
+	/**							Merged by Valkrionn		13/01/2010									**/
+	/**					Allows overflow production to produce multiple units each turn				**/
+	/*************************************************************************************************/
+	if (isOverflowProduction() == false)		m_bOverflowProduction = pClassInfo->isOverflowProduction();
+	/*************************************************************************************************/
+	/**	Multiple Production							END												**/
+	/*************************************************************************************************/
+	/*************************************************************************************************/
+	/**	Nomadic								01/15/10									Valkrionn	**/
+	/**							Addition requested by Sylvain5477									**/
+	/**						   Allows you to bypass the city check									**/
+	/*************************************************************************************************/
+	if (isNomadic() == false)		m_bNomadic = pClassInfo->isNomadic();
+	/*************************************************************************************************/
+	/**	Nomadic									END													**/
+	/*************************************************************************************************/
+	/*************************************************************************************************/
+	/** bUniqueCult             Opera for LE/Orbis  06/07/09        imported by Valkrionn	09.26.09**/
+	/*************************************************************************************************/
+	if (isUniqueCult() == false)		m_bUniqueCult = pClassInfo->isUniqueCult();
+	if (isIntolerant() == false)		m_bIntolerant = pClassInfo->isIntolerant();
+	/*************************************************************************************************/
+	/** End                                                                                         **/
+	/*************************************************************************************************/
+	/*************************************************************************************************/
+	/** CityPopCap     Opera  9.8.09            imported by Valkrionn	09.26.09                    **/
+	/*************************************************************************************************/
+	if (getInitialCityCap() == 0)			m_iInitialCityCap = pClassInfo->getInitialCityCap();
+	if (getMaxCityCap() == 0)			m_iMaxCityCap = pClassInfo->getMaxCityCap();
+	/*************************************************************************************************/
+	/** CityPopCap                  END                                                             **/
+	/*************************************************************************************************/
+	if (getFreeXPFromCombat() == 0)			m_iFreeXPFromCombat = (float)pClassInfo->getFreeXPFromCombat() / 100.0f;
+	if (getPillagingGold() == 0)			m_iPillagingGold = pClassInfo->getPillagingGold();
+	if (getHurryPopulationModifier() == 0)           m_iHurryPopulationModifier = pClassInfo->getHurryPopulationModifier();
+	if (getStartingGold() == 0)			m_iStartingGold = pClassInfo->getStartingGold();
+	if (getSummonDuration() == 0)			m_iSummonDuration = pClassInfo->getSummonDuration();
+	if (getUpgradeCostModifier() == 0)			m_iUpgradeCostModifier = pClassInfo->getUpgradeCostModifier();
+	if (getModReligionSpreadChance() == 0)			m_iModReligionSpreadChance = pClassInfo->getModReligionSpreadChance();
+	if (getHealth() == 0)			m_iHealth = pClassInfo->getHealth();
+	if (getHappiness() == 0)			m_iHappiness = pClassInfo->getHappiness();
+	if (getUpkeepModifier() == 0)			m_iUpkeepModifier = pClassInfo->getUpkeepModifier();
 	if (getDistanceMaintenanceModifier() == 0)			m_iDistanceMaintenanceModifier = pClassInfo->getDistanceMaintenanceModifier();
 	if (getRitualProductionModifier() == 0)			m_iRitualProductionModifier = pClassInfo->getRitualProductionModifier();
 	if (getMilitaryProductionModifier() == 0)			m_iMilitaryProductionModifier = pClassInfo->getMilitaryProductionModifier();
-	if (getLevelExperienceModifier()				== 0)			m_iLevelExperienceModifier				= pClassInfo->getLevelExperienceModifier();
-	if (getGreatPeopleRateModifier()				== 0)			m_iGreatPeopleRateModifier				= pClassInfo->getGreatPeopleRateModifier();
-	if (getGreatGeneralRateModifier()				== 0)			m_iGreatGeneralRateModifier				= pClassInfo->getGreatGeneralRateModifier();
+	if (getLevelExperienceModifier() == 0)			m_iLevelExperienceModifier = pClassInfo->getLevelExperienceModifier();
+	if (getGreatPeopleRateModifier() == 0)			m_iGreatPeopleRateModifier = pClassInfo->getGreatPeopleRateModifier();
+	if (getGreatGeneralRateModifier() == 0)			m_iGreatGeneralRateModifier = pClassInfo->getGreatGeneralRateModifier();
 	if (getExtraGrowthThreshold() == 0)			m_iExtraGrowthThreshold = pClassInfo->getExtraGrowthThreshold();
 	if (getACGrowthThreshold() == 0)			m_iACGrowthThreshold = pClassInfo->getACGrowthThreshold();
-	if (getDomesticGreatGeneralRateModifier()		== 0)			m_iDomesticGreatGeneralRateModifier		= pClassInfo->getDomesticGreatGeneralRateModifier();
-	if (getMaxGlobalBuildingProductionModifier()	== 0)			m_iMaxGlobalBuildingProductionModifier	= pClassInfo->getMaxGlobalBuildingProductionModifier();
-	if (getMaxTeamBuildingProductionModifier()		== 0)			m_iMaxTeamBuildingProductionModifier	= pClassInfo->getMaxTeamBuildingProductionModifier();
-	if (getMaxPlayerBuildingProductionModifier()	== 0)			m_iMaxPlayerBuildingProductionModifier	= pClassInfo->getMaxPlayerBuildingProductionModifier();
-	if (getMaxCities()								== -1)			m_iMaxCities							= pClassInfo->getMaxCities();
-	if (getMaxAnarchy()								== -1)			m_iMaxAnarchy							= pClassInfo->getMaxAnarchy();
+	if (getDomesticGreatGeneralRateModifier() == 0)			m_iDomesticGreatGeneralRateModifier = pClassInfo->getDomesticGreatGeneralRateModifier();
+	if (getMaxGlobalBuildingProductionModifier() == 0)			m_iMaxGlobalBuildingProductionModifier = pClassInfo->getMaxGlobalBuildingProductionModifier();
+	if (getMaxTeamBuildingProductionModifier() == 0)			m_iMaxTeamBuildingProductionModifier = pClassInfo->getMaxTeamBuildingProductionModifier();
+	if (getMaxPlayerBuildingProductionModifier() == 0)			m_iMaxPlayerBuildingProductionModifier = pClassInfo->getMaxPlayerBuildingProductionModifier();
+	if (getMaxCities() == -1)			m_iMaxCities = pClassInfo->getMaxCities();
+	if (getMaxAnarchy() == -1)			m_iMaxAnarchy = pClassInfo->getMaxAnarchy();
 	if (getFreeBuildingClass() == NO_BUILDINGCLASS)			m_iFreeBuildingClass = pClassInfo->getFreeBuildingClass();
-	if (getShortDescription()						== cDefault)	setShortDescription(					pClassInfo->getShortDescription());
-	for (int j = 0; j < NUM_YIELD_TYPES; j++ )
+	if (getShortDescription() == cDefault)	setShortDescription(pClassInfo->getShortDescription());
+	for (int j = 0; j < NUM_YIELD_TYPES; j++)
 	{
-		if (getExtraYieldThreshold(j)				== 0)			m_paiExtraYieldThreshold[j]				= pClassInfo->getExtraYieldThreshold(j);
-		if (getTradeYieldModifier(j)				== 0)			m_paiTradeYieldModifier[j]				= pClassInfo->getTradeYieldModifier(j);
-		if (getBaseYieldFromUnit(j)					== 0)			m_paiBaseYieldFromUnit[j]				= pClassInfo->getBaseYieldFromUnit(j);
-		if (getYieldFromUnitModifier(j)				== 0)			m_paiYieldFromUnitModifier[j]			= pClassInfo->getYieldFromUnitModifier(j);
+		if (getExtraYieldThreshold(j) == 0)			m_paiExtraYieldThreshold[j] = pClassInfo->getExtraYieldThreshold(j);
+		if (getTradeYieldModifier(j) == 0)			m_paiTradeYieldModifier[j] = pClassInfo->getTradeYieldModifier(j);
+		if (getBaseYieldFromUnit(j) == 0)			m_paiBaseYieldFromUnit[j] = pClassInfo->getBaseYieldFromUnit(j);
+		if (getYieldFromUnitModifier(j) == 0)			m_paiYieldFromUnitModifier[j] = pClassInfo->getYieldFromUnitModifier(j);
 	}
-	for ( int j = 0; j < NUM_COMMERCE_TYPES; j++ )
+	for (int j = 0; j < NUM_COMMERCE_TYPES; j++)
 	{
-/*************************************************************************************************/
-/**	TradeCommerceModifiers	 				09/05/10								Valkrionn	**/
-/**																								**/
-/**									Allows trade to grant culture								**/
-/*************************************************************************************************/
-		if (getTradeCommerceModifier(j)				== 0)			m_paiTradeCommerceModifier[j]			= pClassInfo->getTradeCommerceModifier(j);
-/*************************************************************************************************/
-/**	END																							**/
-/*************************************************************************************************/
-		if (getCommerceChange(j)					== 0)			m_paiCommerceChange[j]					= pClassInfo->getCommerceChange(j);
-		if (getCommerceModifier(j)					== 0)			m_paiCommerceModifier[j]				= pClassInfo->getCommerceModifier(j);
-		if (getBaseCommerceFromUnit(j)				== 0)			m_paiBaseCommerceFromUnit[j]			= pClassInfo->getBaseCommerceFromUnit(j);
-		if (getCommerceFromUnitModifier(j)			== 0)			m_paiCommerceFromUnitModifier[j]		= pClassInfo->getCommerceFromUnitModifier(j);
-		if (m_paiPeaceCommerceModifier[j]			== 0)			m_paiPeaceCommerceModifier[j]			= pClassInfo->getPeaceCommerceModifier(j);
+		/*************************************************************************************************/
+		/**	TradeCommerceModifiers	 				09/05/10								Valkrionn	**/
+		/**																								**/
+		/**									Allows trade to grant culture								**/
+		/*************************************************************************************************/
+		if (getTradeCommerceModifier(j) == 0)			m_paiTradeCommerceModifier[j] = pClassInfo->getTradeCommerceModifier(j);
+		/*************************************************************************************************/
+		/**	END																							**/
+		/*************************************************************************************************/
+		if (getCommerceChange(j) == 0)			m_paiCommerceChange[j] = pClassInfo->getCommerceChange(j);
+		if (getCommerceModifier(j) == 0)			m_paiCommerceModifier[j] = pClassInfo->getCommerceModifier(j);
+		if (getBaseCommerceFromUnit(j) == 0)			m_paiBaseCommerceFromUnit[j] = pClassInfo->getBaseCommerceFromUnit(j);
+		if (getCommerceFromUnitModifier(j) == 0)			m_paiCommerceFromUnitModifier[j] = pClassInfo->getCommerceFromUnitModifier(j);
+		if (m_paiPeaceCommerceModifier[j] == 0)			m_paiPeaceCommerceModifier[j] = pClassInfo->getPeaceCommerceModifier(j);
 	}
-	for ( int j = 0; j < GC.getNumPromotionInfos(); j++ )
+	for (int j = 0; j < GC.getNumPromotionInfos(); j++)
 	{
-		if (isFreePromotion(j)						== false)		m_pabFreePromotion[j]					= pClassInfo->isFreePromotion(j);
+		if (isFreePromotion(j) == false)		m_pabFreePromotion[j] = pClassInfo->isFreePromotion(j);
 	}
 	for (int j = 0; j < GC.getNumSpecialistInfos(); j++)
 	{
 		if (isFreeSpecialistNonStateReligion(j) == false)		m_pabFreeSpecialistNonStateReligion[j] = pClassInfo->isFreeSpecialistNonStateReligion(j);
 		if (isFreeSpecialistStateReligion(j) == false)		m_pabFreeSpecialistStateReligion[j] = pClassInfo->isFreeSpecialistStateReligion(j);
-		if (getSpecialistHappinessChange(j) == 0) m_paiSpecialistHappinessChange[j]= pClassInfo->getSpecialistHappinessChange(j);
-		if (getSpecialistHealthChange(j) == 0) m_paiSpecialistHealthChange[j]= pClassInfo->getSpecialistHealthChange(j);
+		if (getSpecialistHappinessChange(j) == 0) m_paiSpecialistHappinessChange[j] = pClassInfo->getSpecialistHappinessChange(j);
+		if (getSpecialistHealthChange(j) == 0) m_paiSpecialistHealthChange[j] = pClassInfo->getSpecialistHealthChange(j);
 		if (getSpecialistCrimeChange(j) == 0) m_paiSpecialistCrimeChange[j] = pClassInfo->getSpecialistCrimeChange(j);
+	}
+	for (int j = 0; j < GC.getNumUnitClassInfos(); j++)
+	{
 		if (getUnitClassPlayerInstancesChange(j) == 0) m_paiUnitClassPlayerInstancesChange[j] = pClassInfo->getUnitClassPlayerInstancesChange(j);
 	}
 
@@ -41242,25 +41312,25 @@ void CvTraitInfo::copyNonDefaults(CvTraitInfo* pClassInfo, CvXMLLoadUtility* pXM
 		if (isRevealBonus(j) == false)		m_pabRevealBonus[j] = pClassInfo->isRevealBonus(j);
 		if (isNoBonus(j) == false)		m_pabNoBonus[j] = pClassInfo->isNoBonus(j);
 	}
-	for ( int j = 0; j < GC.getNumUnitCombatInfos(); j++ )
+	for (int j = 0; j < GC.getNumUnitCombatInfos(); j++)
 	{
-		if (isFreePromotionUnitCombat(j)			== false)		m_pabFreePromotionUnitCombat[j]			= pClassInfo->isFreePromotionUnitCombat(j);
+		if (isFreePromotionUnitCombat(j) == false)		m_pabFreePromotionUnitCombat[j] = pClassInfo->isFreePromotionUnitCombat(j);
 	}
-	for ( int j = 0; j < GC.getNumSpecialistInfos(); j++)
+	for (int j = 0; j < GC.getNumSpecialistInfos(); j++)
 	{
-		for ( int i = 0; i < NUM_YIELD_TYPES; i++)
+		for (int i = 0; i < NUM_YIELD_TYPES; i++)
 		{
-			if (getSpecialistYieldChange(j, i)		== 0)			m_ppaiSpecialistYieldChange[j][i]		= pClassInfo->getSpecialistYieldChange(j, i);
+			if (getSpecialistYieldChange(j, i) == 0)			m_ppaiSpecialistYieldChange[j][i] = pClassInfo->getSpecialistYieldChange(j, i);
 		}
-		for ( int i = 0; i < NUM_COMMERCE_TYPES; i++)
+		for (int i = 0; i < NUM_COMMERCE_TYPES; i++)
 		{
-			if (getSpecialistCommerceChange(j, i)   == 0)			m_ppaiSpecialistCommerceChange[j][i]    = pClassInfo->getSpecialistCommerceChange(j, i);
+			if (getSpecialistCommerceChange(j, i) == 0)			m_ppaiSpecialistCommerceChange[j][i] = pClassInfo->getSpecialistCommerceChange(j, i);
 		}
 	}
-	for ( int j = 0; j < GC.getNumFeatureInfos(); j++ )
+	for (int j = 0; j < GC.getNumFeatureInfos(); j++)
 	{
-		if (m_paiFeatureGrowthChange[j]				== 0)			m_paiFeatureGrowthChange[j]				= pClassInfo->getFeatureGrowthChange(j);
-		if (m_paiFeatureProductionChange[j]         == 0)           m_paiFeatureProductionChange[j]         = pClassInfo->getFeatureProductionChange(j);
+		if (m_paiFeatureGrowthChange[j] == 0)			m_paiFeatureGrowthChange[j] = pClassInfo->getFeatureGrowthChange(j);
+		if (m_paiFeatureProductionChange[j] == 0)           m_paiFeatureProductionChange[j] = pClassInfo->getFeatureProductionChange(j);
 		for (int k = 0; k < NUM_YIELD_TYPES; k++)
 		{
 			if (m_ppiFeatureYieldChanges[j][k] == 0)				m_ppiFeatureYieldChanges[j][k] = pClassInfo->getFeatureYieldChanges(j, k);
@@ -41288,6 +41358,11 @@ void CvTraitInfo::copyNonDefaults(CvTraitInfo* pClassInfo, CvXMLLoadUtility* pXM
 	{
 		m_aszImprovementYieldChanges.push_back(pClassInfo->getImprovementYieldChangesNamesVectorElement(i));
 		m_yiImprovementYieldChanges.push_back(pClassInfo->getImprovementYieldChangesValuesVectorElement(i));
+	}
+	for (int i = 0; i < pClassInfo->getUnitClassesVectorSize(); i++)
+	{
+		m_aszUnitClassesforPass3.push_back(pClassInfo->getUnitClassesVectorElement(i));
+		m_aszUnitClassesUnitforPass3.push_back(pClassInfo->getUnitClassesUnitVectorElement(i));
 	}
 }
 /*************************************************************************************************/
@@ -41341,7 +41416,7 @@ bool CvTraitInfo::readPass3()
 		}
 	}
 	int iNumLoad = m_aszImprovementYieldChanges.size();
-	for (iI = 0; iI < iNumLoad; iI++)
+	for (int iI = 0; iI < iNumLoad; iI++)
 	{
 		FAssertMsg(GC.getInfoTypeForString(m_aszImprovementYieldChanges[iI]) >= 0, "Warning, about to leak memory in CvTraitInfo::readPass3");
 		for (int iJ = 0; iJ < NUM_YIELD_TYPES; iJ++)
@@ -41351,6 +41426,24 @@ bool CvTraitInfo::readPass3()
 	}
 	m_aszImprovementYieldChanges.clear();
 	m_yiImprovementYieldChanges.clear();
+
+	m_piExtraUnitClass = new int[GC.getNumUnitClassInfos()];
+	for (int iI = 0; iI < GC.getNumUnitClassInfos();iI++)
+	{
+		m_piExtraUnitClass[iI] = NO_UNIT;
+	}
+
+	iNumLoad = m_aszUnitClassesforPass3.size();
+
+	for (int iI = 0; iI < iNumLoad; iI++)
+	{
+		FAssertMsg(GC.getInfoTypeForString(m_aszUnitClassesforPass3[iI]) >= 0, "Warning, about to leak memory in CvTraitInfo::readPass3");
+		m_piExtraUnitClass[GC.getInfoTypeForString(m_aszUnitClassesforPass3[iI])] = GC.getInfoTypeForString(m_aszUnitClassesUnitforPass3[iI]);
+		
+	}
+	m_aszUnitClassesforPass3.clear();
+	m_aszUnitClassesUnitforPass3.clear();
+
 	return true;
 }
 //======================================================================================================

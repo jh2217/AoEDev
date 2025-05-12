@@ -12,14 +12,19 @@
 			<Help>TXT_KEY_SPELL_SPIDER_UPGRADE_HELP</Help>
 			<UnitPrereq>UNIT_SPIDER</UnitPrereq>
 			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<iCasterMinLevel>4</iCasterMinLevel>
 			<bAllowAI>1</bAllowAI>
+			<bHasCasted>0</bHasCasted>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
 			<iAIWeight>300</iAIWeight>
 			<bBuffCasterOnly>1</bBuffCasterOnly>
 			<ConvertUnitType>UNIT_GIANT_SPIDER</ConvertUnitType>
-			<Effect>EFFECT_SPELL1</Effect>
+			<PyRequirement>reqGiantSpiderUpgradeAlt(pCaster)</PyRequirement>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Effect>EFFECT_IMPROVEMENT_GOODYHUT_POP</Effect>
 			<Sound>AS3D_SPELL_COMMANDER_JOIN</Sound>
-			<PyRequirement>reqGiantSpiderUpgrade(pCaster)</PyRequirement>
-			<Button>Art/Interface/Buttons/Projects/Natures Revolt.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/GrowthSpurts.dds</Button>
+			<bForceOverwrite>1</bForceOverwrite>
 		</SpellInfo>
 		<SpellInfo>			<!-- Wake Mother -->
 			<Type>SPELL_WAKE_MOTHER</Type>
@@ -38,7 +43,7 @@
 			<bHasCasted>1</bHasCasted>
 			<PyResult>spellWakeMother(pCaster)</PyResult>
 			<PyRequirement>reqWakeMother(pCaster)</PyRequirement>
-			<Effect>EFFECT_SPELL1</Effect>
+			<Effect>EFFECT_PIT_BEAST_SUMMON</Effect>
 			<Sound>AS3D_SPELL_RAISE_SKELETON</Sound>
 			<Button>Art/Interface/Buttons/Spells/Civs/Archos/WakeMother.dds</Button>
 			<bForceOverwrite>1</bForceOverwrite>
@@ -49,19 +54,31 @@
 			<Description>TXT_KEY_SPELL_POISON_EXPLOSION1</Description>
 			<Help>TXT_KEY_SPELL_POISON_EXPLOSION_HELP</Help>
 			<PromotionPrereq1>PROMOTION_SPIDER_RHAGODESSA</PromotionPrereq1>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_DEBUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_OFFENSIVE</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
 			<bAllowAI>1</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>1</bHasCasted>
 			<iRange>1</iRange>
+			<iDamage>10</iDamage>
+			<iDamageLimit>40</iDamageLimit>
+			<DamageType>DAMAGE_POISON</DamageType>
 			<bResistable>1</bResistable>
-			<iResistModify>30</iResistModify>
 			<AddPromotions>
 				<AddPromotion>PROMOTION_POISONED</AddPromotion>
 			</AddPromotions>
 			<bImmuneNotAlive>1</bImmuneNotAlive>
 			<bSacrificeCaster>1</bSacrificeCaster>
-			<Effect>EFFECT_SPELL1</Effect>
-			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Effect>EFFECT_SPORES</Effect>
+			<Sound>AS3D_UN_SPIDER_SILK</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/PoisonExplosion1.dds</Button>
 		</SpellInfo>
 		<SpellInfo>			<!-- Poison Explosion II-->
@@ -69,26 +86,43 @@
 			<Description>TXT_KEY_SPELL_POISON_EXPLOSION2</Description>
 			<Help>TXT_KEY_SPELL_POISON_EXPLOSION_HELP</Help>
 			<PromotionPrereq1>PROMOTION_SPIDER_RHAGODESSA_GREATER</PromotionPrereq1>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_DEBUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_OFFENSIVE</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
 			<bAllowAI>1</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>1</bHasCasted>
 			<iRange>2</iRange>
+			<iDamage>10</iDamage>
+			<iDamageLimit>40</iDamageLimit>
+			<DamageType>DAMAGE_POISON</DamageType>
 			<bResistable>1</bResistable>
-			<iResistModify>30</iResistModify>
 			<AddPromotions>
 				<AddPromotion>PROMOTION_POISONED</AddPromotion>
 			</AddPromotions>
 			<bImmuneNotAlive>1</bImmuneNotAlive>
 			<bSacrificeCaster>1</bSacrificeCaster>
-			<Effect>EFFECT_SPELL1</Effect>
-			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Effect>EFFECT_SPORES</Effect>
+			<Sound>AS3D_UN_SPIDER_SILK</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/PoisonExplosion2.dds</Button>
 		</SpellInfo>
 		<SpellInfo>			<!-- Consume the Weak -->
 			<Type>SPELL_CONSUME_THE_WEAK</Type>
 			<Description>TXT_KEY_SPELL_CONSUME_THE_WEAK</Description>
-			<Help>TXT_KEY_SPELL_CONSUME_THE_WEAK_HELP</Help>
 			<PromotionPrereq1>PROMOTION_SPIDER_ARGYRONETA_GREATER</PromotionPrereq1>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
 			<bAllowAI>1</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>1</bHasCasted>
@@ -97,15 +131,46 @@
 				<AddPromotion>PROMOTION_CONSUME_THE_WEAK</AddPromotion>
 			</AddPromotions>
 			<bImmuneNeutral>1</bImmuneNeutral>
-			<Effect>EFFECT_SPELL1</Effect>
+			<Effect>EFFECT_SWORDS_SPARKS</Effect>
 			<Sound>AS3D_SWORD_CHECK</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/ConsumeTheWeak.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Poison Fume -->
+			<Type>SPELL_POISON_FUME</Type>
+			<Description>TXT_KEY_SPELL_POISON_FUME</Description>
+			<PromotionPrereq1>PROMOTION_SPIDER_VENENUM_GREATER</PromotionPrereq1>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_DEBUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
+			<bAllowAI>1</bAllowAI>
+			<bIsAutoCastable>1</bIsAutoCastable>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<bHasCasted>1</bHasCasted>
+			<bResistable>1</bResistable>
+			<iRange>1</iRange>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_POISON_FUME</AddPromotion>
+			</AddPromotions>
+			<bImmuneTeam>1</bImmuneTeam>
+			<bImmuneNeutral>1</bImmuneNeutral>
+			<bImmuneNotAlive>1</bImmuneNotAlive>
+			<Effect>EFFECT_SPORES</Effect>
+			<Sound>AS3D_UN_SPIDER_SILK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/PoisonFume.dds</Button>
 		</SpellInfo>
 		<SpellInfo>			<!-- Predatory Scream -->
 			<Type>SPELL_PREDATORY_SCREAM</Type>
 			<Description>TXT_KEY_SPELL_PREDATORY_SCREAM</Description>
-			<Help>TXT_KEY_SPELL_PREDATORY_SCREAM_HELP</Help>
 			<UnitPrereq>UNIT_MOTHER_SPIDER</UnitPrereq>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_DEBUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
 			<bAllowAI>1</bAllowAI>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>1</bHasCasted>
@@ -116,8 +181,8 @@
 			</AddPromotions>
 			<bImmuneTeam>1</bImmuneTeam>
 			<bImmuneNeutral>1</bImmuneNeutral>
-			<Effect>EFFECT_SPELL1</Effect>
-			<Sound>AS3D_DEMON_WOUND</Sound>
+			<Effect>EFFECT_BIRDSCATTER</Effect>
+			<Sound>AS3D_UN_SPIDER_SILK</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/PredatoryScream.dds</Button>
 		</SpellInfo>
 
@@ -129,13 +194,19 @@
 			<Help>TXT_KEY_SPELL_RITE_RUBY_HELP</Help>
 			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
 			<PromotionPrereq1>PROMOTION_SYMBIOTIC_COMMUNION</PromotionPrereq1>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
 			<bAllowAI>1</bAllowAI>
 			<iAIWeight>10</iAIWeight>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>0</bHasCasted>
 			<PyResult>spellCommunion(pCaster,1)</PyResult>
 			<PyRequirement>reqCommunion(pCaster,1)</PyRequirement>
-			<Effect>EFFECT_SPELL1</Effect>
+			<Effect>EFFECT_SPELL2</Effect>
 			<Sound>AS3D_DEMON_WOUND</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Ruby.dds</Button>
 		</SpellInfo>
@@ -145,13 +216,19 @@
 			<Help>TXT_KEY_SPELL_RITE_TOPAZ_HELP</Help>
 			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
 			<PromotionPrereq1>PROMOTION_SYMBIOTIC_COMMUNION</PromotionPrereq1>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
 			<bAllowAI>1</bAllowAI>
 			<iAIWeight>10</iAIWeight>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>0</bHasCasted>
 			<PyResult>spellCommunion(pCaster,2)</PyResult>
 			<PyRequirement>reqCommunion(pCaster,2)</PyRequirement>
-			<Effect>EFFECT_SPELL1</Effect>
+			<Effect>EFFECT_SPELL2</Effect>
 			<Sound>AS3D_DEMON_WOUND</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Topaz.dds</Button>
 		</SpellInfo>
@@ -161,13 +238,19 @@
 			<Help>TXT_KEY_SPELL_RITE_DIAMOND_HELP</Help>
 			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
 			<PromotionPrereq1>PROMOTION_SYMBIOTIC_COMMUNION</PromotionPrereq1>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
 			<bAllowAI>1</bAllowAI>
 			<iAIWeight>10</iAIWeight>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>0</bHasCasted>
 			<PyResult>spellCommunion(pCaster,3)</PyResult>
 			<PyRequirement>reqCommunion(pCaster,3)</PyRequirement>
-			<Effect>EFFECT_SPELL1</Effect>
+			<Effect>EFFECT_SPELL2</Effect>
 			<Sound>AS3D_DEMON_WOUND</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Diamond.dds</Button>
 		</SpellInfo>
@@ -177,13 +260,19 @@
 			<Help>TXT_KEY_SPELL_RITE_SAPPHIRE_HELP</Help>
 			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
 			<PromotionPrereq1>PROMOTION_SYMBIOTIC_COMMUNION</PromotionPrereq1>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
 			<bAllowAI>1</bAllowAI>
 			<iAIWeight>10</iAIWeight>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>0</bHasCasted>
 			<PyResult>spellCommunion(pCaster,4)</PyResult>
 			<PyRequirement>reqCommunion(pCaster,4)</PyRequirement>
-			<Effect>EFFECT_SPELL1</Effect>
+			<Effect>EFFECT_SPELL2</Effect>
 			<Sound>AS3D_DEMON_WOUND</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Sapphire.dds</Button>
 		</SpellInfo>
@@ -193,17 +282,223 @@
 			<Help>TXT_KEY_SPELL_RITE_EMERALD_HELP</Help>
 			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
 			<PromotionPrereq1>PROMOTION_SYMBIOTIC_COMMUNION</PromotionPrereq1>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
 			<bAllowAI>1</bAllowAI>
 			<iAIWeight>10</iAIWeight>
 			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
 			<bHasCasted>0</bHasCasted>
 			<PyResult>spellCommunion(pCaster,5)</PyResult>
 			<PyRequirement>reqCommunion(pCaster,5)</PyRequirement>
-			<Effect>EFFECT_SPELL1</Effect>
+			<Effect>EFFECT_SPELL2</Effect>
 			<Sound>AS3D_DEMON_WOUND</Sound>
 			<Button>Art/Modules/Arachnophobia/Buttons/Rite_Emerald.dds</Button>
 		</SpellInfo>
 
+		<!-- Symbiotic Communion End -->
 
+		<!-- Spider Summoning Start -->
+
+		<SpellInfo>			<!-- Call Baby Spider -->
+			<Type>SPELL_CALL_BABY_SPIDER</Type>
+			<Description>TXT_KEY_SPELL_CALL_BABY_SPIDER</Description>
+			<Help>TXT_KEY_SPELL_CALL_BABY_SPIDER_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>0</bHasCasted>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<bInBordersOnly>1</bInBordersOnly>
+			<bInCityOnly>1</bInCityOnly>
+			<PyResult>spellCallBabySpider(pCaster)</PyResult>
+			<PyRequirement>reqCallBabySpider(pCaster)</PyRequirement>
+			<Effect>EFFECT_BIRDSCATTER</Effect>
+			<Sound>AS2D_DISCOVERBONUS</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Call_Baby_Spider.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Call Spider -->
+			<Type>SPELL_CALL_SPIDER</Type>
+			<Description>TXT_KEY_SPELL_CALL_SPIDER</Description>
+			<Help>TXT_KEY_SPELL_CALL_SPIDER_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>0</bHasCasted>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<bInBordersOnly>1</bInBordersOnly>
+			<bInCityOnly>1</bInCityOnly>
+			<PyResult>spellCallSpider(pCaster)</PyResult>
+			<PyRequirement>reqCallSpider(pCaster)</PyRequirement>
+			<Effect>EFFECT_BIRDSCATTER</Effect>
+			<Sound>AS2D_DISCOVERBONUS</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Call_Spider.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Call Giant Spider -->
+			<Type>SPELL_CALL_GIANT_SPIDER</Type>
+			<Description>TXT_KEY_SPELL_CALL_GIANT_SPIDER</Description>
+			<Help>TXT_KEY_SPELL_CALL_GIANT_SPIDER_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>0</bHasCasted>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<bInBordersOnly>1</bInBordersOnly>
+			<bInCityOnly>1</bInCityOnly>
+			<PyResult>spellCallGiantSpider(pCaster)</PyResult>
+			<PyRequirement>reqCallGiantSpider(pCaster)</PyRequirement>
+			<Effect>EFFECT_BIRDSCATTER</Effect>
+			<Sound>AS2D_DISCOVERBONUS</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Call_Giant_Spider.dds</Button>
+		</SpellInfo>
+
+		<!-- Spider Summoning End -->
+
+		<SpellInfo>			<!-- Diet of Worms -->
+			<Type>SPELL_DIET_OF_WORMS</Type>
+			<Description>TXT_KEY_SPELL_DIET_OF_WORMS</Description>
+			<Civilopedia>TXT_KEY_SPELL_DIET_OF_WORMS_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_DIET_OF_WORMS_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_CITY_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
+			<PromotionPrereq1>PROMOTION_NATURE1</PromotionPrereq1>
+			<bAllowAI>1</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<bInBordersOnly>1</bInBordersOnly>
+			<bInCityOnly>1</bInCityOnly>
+			<PyResult>spellDietOfWorms(pCaster)</PyResult>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<CreateBuildingType>BUILDING_DIET_OF_WORMS</CreateBuildingType>
+			<Effect>EFFECT_SPORES</Effect>
+			<Sound>AS2D_BUILD_GRANARY</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Diet_Of_Worms.dds</Button>
+		</SpellInfo>
+
+		<SpellInfo>			<!-- Psalm for the Swarm -->
+			<Type>SPELL_PSALM_FOR_THE_SWARM</Type>
+			<Description>TXT_KEY_SPELL_PSALM_FOR_THE_SWARM</Description>
+			<Civilopedia>TXT_KEY_SPELL_PSALM_FOR_THE_SWARM_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_PSALM_FOR_THE_SWARM_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<UnitPrereq>UNIT_HARUSPEX</UnitPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<bInBordersOnly>1</bInBordersOnly>
+			<bInCityOnly>1</bInCityOnly>
+			<PyResult>spellPsalmForTheSwarm(pCaster)</PyResult>
+			<bDisplayWhenDisabled>1</bDisplayWhenDisabled>
+			<Effect>EFFECT_BIRDSCATTER</Effect>
+			<Sound>AS2D_RELIGION_CONVERT</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Psalm_For_The_Swarm.dds</Button>
+		</SpellInfo>
+
+		<SpellInfo>			<!-- Smear Poison -->
+			<Type>SPELL_SMEAR_POISON</Type>
+			<Description>TXT_KEY_SPELL_SMEAR_POISON</Description>
+			<Civilopedia>TXT_KEY_SPELL_SMEAR_POISON_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_SMEAR_POISON_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<SpellClasses>
+				<SpellClass>
+					<SpellClassType>SPELLCLASS_BUFF</SpellClassType>
+					<bSpellClass>1</bSpellClass>
+				</SpellClass>
+			</SpellClasses>
+			<UnitInStackPrereq>UNIT_BABY_SPIDER</UnitInStackPrereq>
+			<bAllowAI>1</bAllowAI>
+			<bHasCasted>0</bHasCasted>
+			<bIgnoreHasCasted>1</bIgnoreHasCasted>
+			<bBuffCasterOnly>1</bBuffCasterOnly>
+			<AddPromotions>
+				<AddPromotion>PROMOTION_POISONED_BLADE</AddPromotion>
+			</AddPromotions>
+			<PyResult>spellSmearPoison(pCaster)</PyResult>
+			<PyRequirement>reqSmearPoison(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Smear_Poison.dds</Button>
+		</SpellInfo>
+		
+		<SpellInfo>			<!-- Cannibalize -->
+			<Type>SPELL_CANNIBALIZE</Type>
+			<Description>TXT_KEY_SPELL_CANNIBALIZE</Description>
+			<Civilopedia>TXT_KEY_SPELL_CANNIBALIZE_PEDIA</Civilopedia>
+			<Help>TXT_KEY_SPELL_CANNIBALIZE_HELP</Help>
+			<UnitInStackPrereq>UNIT_BABY_SPIDER</UnitInStackPrereq>
+			<bAllowAI>1</bAllowAI>
+			<iAIWeight>10</iAIWeight>
+			<bHasCasted>1</bHasCasted>
+			<PyResult>spellCannibalize(pCaster)</PyResult>
+			<PyRequirement>reqCannibalize(pCaster)</PyRequirement>
+			<Effect>EFFECT_SPELL1</Effect>
+			<Sound>AS3D_UN_SPIDER_SILK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Cannibalize.dds</Button>
+		</SpellInfo>
+
+		<SpellInfo>			<!-- Mount Spider (Huntress) -->
+			<Type>SPELL_MOUNT_SPIDER_HUNTRESS</Type>
+			<Description>TXT_KEY_SPELL_MOUNT_SPIDER_HUNTRESS</Description>
+			<Help>TXT_KEY_SPELL_MOUNT_SPIDER_HUNTRESS_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<UnitPrereq>UNIT_SPEARMAN</UnitPrereq>
+			<UnitInStackPrereq>UNIT_SPIDER</UnitInStackPrereq>
+			<TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<ConvertUnitType>UNIT_SPIDER_HUNTRESS</ConvertUnitType>
+			<PyResult>spellMountSpider(pCaster)</PyResult>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Mount_Spider.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Mount Spider (Knightess) -->
+			<Type>SPELL_MOUNT_SPIDER_KNIGHTESS</Type>
+			<Description>TXT_KEY_SPELL_MOUNT_SPIDER_KNIGHTESS</Description>
+			<Help>TXT_KEY_SPELL_MOUNT_SPIDER_KNIGHTESS_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<UnitPrereq>UNIT_PIKEMAN</UnitPrereq>
+			<UnitInStackPrereq>UNIT_SPIDER</UnitInStackPrereq>
+			<TechPrereq>TECH_STIRRUPS</TechPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<ConvertUnitType>UNIT_SPIDER_KNIGHTESS</ConvertUnitType>
+			<PyResult>spellMountSpider(pCaster)</PyResult>
+			<bGraphicalOnly>1</bGraphicalOnly>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Mount_Spider.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Dismount Spider (Huntress) -->
+			<Type>SPELL_DISMOUNT_SPIDER_HUNTRESS</Type>
+			<Description>TXT_KEY_SPELL_DISMOUNT_SPIDER_HUNTRESS</Description>
+			<Help>TXT_KEY_SPELL_DISMOUNT_SPIDER_HUNTRESS_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<UnitPrereq>UNIT_SPIDER_HUNTRESS</UnitPrereq>
+			<TechPrereq>TECH_BRONZE_WORKING</TechPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<ConvertUnitType>UNIT_SPEARMAN</ConvertUnitType>
+			<PyResult>spellDismountSpider(pCaster)</PyResult>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Dismount_Spider.dds</Button>
+		</SpellInfo>
+		<SpellInfo>			<!-- Dismount Spider (Knightess) -->
+			<Type>SPELL_DISMOUNT_SPIDER_KNIGHTESS</Type>
+			<Description>TXT_KEY_SPELL_DISMOUNT_SPIDER_KNIGHTESS</Description>
+			<Help>TXT_KEY_SPELL_DISMOUNT_SPIDER_KNIGHTESS_HELP</Help>
+			<CivilizationPrereq>CIVILIZATION_ARCHOS</CivilizationPrereq>
+			<UnitPrereq>UNIT_SPIDER_KNIGHTESS</UnitPrereq>
+			<TechPrereq>TECH_IRON_WORKING</TechPrereq>
+			<bAllowAI>0</bAllowAI>
+			<bHasCasted>1</bHasCasted>
+			<ConvertUnitType>UNIT_PIKEMAN</ConvertUnitType>
+			<PyResult>spellDismountSpider(pCaster)</PyResult>
+			<Sound>AS3D_SWORD_CHECK</Sound>
+			<Button>Art/Modules/Arachnophobia/Buttons/Dismount_Spider.dds</Button>
+		</SpellInfo>
 	</SpellInfos>
 </Civ4SpellInfos>

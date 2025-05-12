@@ -197,7 +197,8 @@ class ScenarioFunctions:
 
 		pPlot = CyMap().plot(16,2)
 		if pPlot.getImprovementType() == gc.getInfoTypeForString('IMPROVMENT_JUNGLE_ALTAR'):
-			iChance = gc.getHandicapInfo(gc.getGame().getHandicapType()).getLairSpawnRate()
+			# DemonPerTurnKnownTechPercent is a decent standin for the old lairSpawnRate
+			iChance = gc.getHandicapInfo(gc.getGame().getHandicapType()).getDemonPerTurnKnownTechsPercent()
 			if gc.getGame().getSorenRandNum(100, "Fall of Cuantine") < iChance:
 				iRnd = gc.getGame().getSorenRandNum(100, "Fall of Cuantine")
 				if iRnd < 50:

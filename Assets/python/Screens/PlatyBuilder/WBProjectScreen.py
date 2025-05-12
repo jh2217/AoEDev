@@ -9,6 +9,7 @@ import WBPlayerUnits
 import WBInfoScreen
 import CvPlatyBuilderScreen
 import CvEventManager
+import CvEventInterface
 gc = CyGlobalContext()
 
 iChange = 1
@@ -233,7 +234,7 @@ class WBProjectScreen:
 			pCapital = gc.getPlayer(pTeamX.getLeaderID()).getCapitalCity()
 			if not pCapital.isNone():
 				for i in xrange(iCount):
-					CvEventManager.CvEventManager().onProjectBuilt([pCapital, item])
+					CvEventInterface.getEventManager().onProjectBuilt([pCapital, item])
 
 	def update(self, fDelta):
 		return 1

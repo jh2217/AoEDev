@@ -38,8 +38,8 @@
 				<iYieldChange>2</iYieldChange>
 			</YieldChanges>
 			<bDispellable>1</bDispellable>
-			<iSpawnChance>5</iSpawnChance>
-			<iSpreadChance>5</iSpreadChance>
+			<iSpawnChance>1</iSpawnChance>
+			<iSpreadChance>1</iSpreadChance>
 			<iDisappearChance>5</iDisappearChance>
 			<iHealthPercent>-50</iHealthPercent>
 			<TerrainBooleans>

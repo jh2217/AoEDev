@@ -71,13 +71,15 @@ def warScriptReplacement(self, iPlayer):
 										iEnemy = iPlayer2
 						#Special Logic for Anscarca to force wars.
 						#For each tier of planet extraction, increase the chance of war
-						anscarcaAgro = 0
-						for i in range(1,11):
-							anscarcaAgro = anscarcaAgro + getNumB(gc.getInfoTypeForString("BUILDING_PLANETARY_EXTRACTOR_ANSCARCA_" + str(i))) * .1 * i
-							if anscarcaAgro == 0: #Break if we don't have any value from first loop since higher tiers require lower tier.
-								break
-						if anscarcaAgro > 0 and getRandNum(1000, randName) < anscarcaAgro:
-							startWar(iPlayer, iPlayer2, WarPlanTotal)
+						if gc.getInfoTypeForString("MODULE_ANSCARCA")!=-1:
+							anscarcaAgro = 0
+							for i in range(1,11):
+								anscarcaAgro = anscarcaAgro + getNumB(gc.getInfoTypeForString("BUILDING_PLANETARY_EXTRACTOR_ANSCARCA_" + str(i))) * .1 * i
+								if anscarcaAgro == 0: #Break if we don't have any value from first loop since higher tiers require lower tier.
+									break
+							randName = "War Script, Player %s vs Player %s" % (iPlayer, iPlayer2)
+							if anscarcaAgro > 0 and getRandNum(1000, randName) < anscarcaAgro:
+								startWar(iPlayer, iPlayer2, WarPlanTotal)
 							
 		if iEnemy != -1:
 			if getRank(iPlayer) > getRank(iEnemy):

@@ -6392,10 +6392,16 @@ void CvGameTextMgr::setPlotHelp(CvWStringBuffer& szString, CvPlot* pPlot)
 				 GC.getGameINLINE().getActivePlayer() == NO_PLAYER ||
 				 GET_PLAYER(GC.getGameINLINE().getActivePlayer()).getCivilizationType() == GC.getImprovementInfo((ImprovementTypes) GC.getImprovementInfo(eImprovement).getImprovementUpgrade()).getPrereqCivilization())
 				{
-					if ((pPlot->getUpgradeProgress() > 0) || pPlot->isBeingWorked())
+					// Always show turns to upgrade if there is progress, it is being worked, or it is improving by itself
+					if ((pPlot->getUpgradeProgress() > 0) || pPlot->isBeingWorked() || (GC.getImprovementInfo(eImprovement).isOutsideBorders() && (pPlot->isWater() || eRevealOwner != NO_PLAYER)))
 					{
 						iTurns = pPlot->getUpgradeTimeLeft(eImprovement, eRevealOwner);
 						szString.append(gDLL->getText("TXT_KEY_PLOT_IMP_UPGRADE", iTurns, GC.getImprovementInfo((ImprovementTypes) GC.getImprovementInfo(eImprovement).getImprovementUpgrade()).getTextKeyWide()));
+					}
+					// Land forts must be owned to be upgraded
+					else if (GC.getImprovementInfo(eImprovement).isFort() && !pPlot->isWater() && (eRevealOwner == NO_PLAYER))
+					{
+						szString.append(gDLL->getText("TXT_KEY_PLOT_OWN_TO_UPGRADE", GC.getImprovementInfo((ImprovementTypes) GC.getImprovementInfo(eImprovement).getImprovementUpgrade()).getTextKeyWide()));
 					}
 					else
 					{
@@ -7300,6 +7306,20 @@ void CvGameTextMgr::parseTraits(CvWStringBuffer &szHelpString, TraitTypes eTrait
 			if (GC.getTraitInfo(eTrait).getUnitClassPlayerInstancesChange(iJ) != 0)
 			{
 				szHelpString.append(gDLL->getText("TXT_KEY_TRAIT_UNITCLASS_PLAYER_INSTANCES_CHANGE", GC.getUnitClassInfo((UnitClassTypes)iJ).getDescription(), GC.getTraitInfo(eTrait).getUnitClassPlayerInstancesChange(iJ)));
+			}
+		}
+		for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+		{
+			if (GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ) != NO_UNIT)
+			{
+				if (GC.getUnitClassInfo((UnitClassTypes)iJ).getDefaultUnitIndex() != GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ))
+				{
+					szHelpString.append(gDLL->getText("TXT_KEY_TRAIT_EXTRA_UNIT_UNITCLASS", GC.getUnitClassInfo((UnitClassTypes)iJ).getDescription(), GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide(), GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide()));
+				}
+				else
+				{
+					szHelpString.append(gDLL->getText("TXT_KEY_TRAIT_EXTRA_UNIT_UNITCLASS_DEFAULT", GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide(), GC.getUnitInfo((UnitTypes)GC.getTraitInfo(eTrait).getExtraUnitClasses(iJ)).getTextKeyWide()));
+				}
 			}
 		}
 		// Wonder Production Effects
@@ -14271,6 +14291,11 @@ void CvGameTextMgr::parseSpellHelp(CvWStringBuffer &szBuffer, SpellTypes eSpell,
 		szBuffer.append(pcNewline);
 		szBuffer.append(gDLL->getText("TXT_KEY_SPELL_RANGE", GC.getSpellInfo(eSpell).getRange()));
 	}
+	if (GC.getSpellInfo(eSpell).getTargetRange() != 0 )
+	{
+		szBuffer.append(pcNewline);
+		szBuffer.append(gDLL->getText("TXT_KEY_SPELL_TARGET_RANGE", GC.getSpellInfo(eSpell).getTargetRange()));
+	}
 	if (GC.getSpellInfo(eSpell).getConvertUnitType() != NO_UNIT)
 	{
 		szBuffer.append(pcNewline);
@@ -17998,6 +18023,22 @@ void CvGameTextMgr::setUnitHelp(CvWStringBuffer &szBuffer, UnitTypes eUnit, bool
 					szBuffer.append(gDLL->getText("TXT_KEY_UNIT_REQUIRES_STRING", GC.getCivicInfo((CivicTypes)(GC.getUnitInfo(eUnit).getPrereqCivic())).getTextKeyWide()));
 				}
 			}
+			if (GC.getUnitInfo(eUnit).getPrereqTrait() != NO_TRAIT)
+			{
+				bool bValid = false;
+				if (GC.getGameINLINE().getActivePlayer() != NO_PLAYER)
+				{
+					if (GET_PLAYER(ePlayer).hasTrait((TraitTypes)GC.getUnitInfo(eUnit).getPrereqTrait()))
+					{
+						bValid = true;
+					}	
+				}
+				if (bValid == false)
+				{
+					szBuffer.append(NEWLINE);
+					szBuffer.append(gDLL->getText("TXT_KEY_UNIT_REQUIRES_STRING", GC.getTraitInfo((TraitTypes)(GC.getUnitInfo(eUnit).getPrereqTrait())).getTextKeyWide()));
+				}
+			}
 			if (GC.getUnitInfo(eUnit).getPrereqGlobalCounter() != 0)
 			{
 				if (GC.getGameINLINE().getActivePlayer() == NO_PLAYER || GC.getGameINLINE().getGlobalCounter() < GC.getUnitInfo(eUnit).getPrereqGlobalCounter())
@@ -19244,6 +19285,11 @@ void CvGameTextMgr::setBuildingHelp(CvWStringBuffer &szBuffer, BuildingTypes eBu
 	{
 		szBuffer.append(NEWLINE);
 		szBuffer.append(gDLL->getText("TXT_KEY_BUILDING_HIDE_UNITS"));
+	}
+	if (kBuilding.isOverflowProduction())
+	{
+		szBuffer.append(NEWLINE);
+		szBuffer.append(gDLL->getText("TXT_KEY_CIVIC_OVERFLOW_PRODUCTION"));
 	}
 	if (kBuilding.isUnhappyProduction())
 	{
@@ -25491,28 +25537,37 @@ void CvGameTextMgr::setImprovementHelp(CvWStringBuffer &szBuffer, ImprovementTyp
 	if (info.getSpawnUnitType() != NO_UNIT)
 	{
 		szBuffer.append(NEWLINE);
-		if (info.getSpawnAtOnceLimit() > 0)
+		if (info.getSpawnUnitCiv() == NO_CIVILIZATION)
 		{
-			if (info.getSpawnPerGameLimit() > 0 && info.getSpawnPerGameLimit() < MAX_INT)
+			if (info.getSpawnAtOnceLimit() > -1)
 			{
-				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT_LIMIT_CAP", info.getSpawnAtOnceLimit(), info.getSpawnPerGameLimit(), GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_LIMIT_NOCIV", info.getSpawnAtOnceLimit(), ((CvWString)GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getType()).c_str(), GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getDescription()));
 			}
 			else
 			{
-				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_LIMIT", info.getSpawnAtOnceLimit(), ((CvWString)GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getType()).c_str(), GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE_NOCIV", GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getDescription()));
 			}
-		}
-		else if (info.getSpawnPerGameLimit() > 0 && info.getSpawnPerGameLimit() < MAX_INT)
-		{
-			szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT_CAP", info.getSpawnPerGameLimit(), GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
+
+			if (info.isSpawnOnlyForOwner())
+			{
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_FOR_OWNER_NOCIV_SUFFIX"));
+			}
 		}
 		else
 		{
-			szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE", GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
-		}
-		if (info.isSpawnOnlyForOwner())
-		{
-			szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_FOR_OWNER_SUFFIX"));
+			if (info.getSpawnAtOnceLimit() > -1)
+			{
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_LIMIT", info.getSpawnAtOnceLimit(), ((CvWString)GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getType()).c_str(), GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
+			}
+			else
+			{
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE", GC.getUnitInfo((UnitTypes)info.getSpawnUnitType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
+			}
+
+			if (info.isSpawnOnlyForOwner())
+			{
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_FOR_OWNER_SUFFIX"));
+			}
 		}
 		if (info.getNumSpawnPromotions() > 0)
 		{
@@ -25543,28 +25598,37 @@ void CvGameTextMgr::setImprovementHelp(CvWStringBuffer &szBuffer, ImprovementTyp
 	if (info.getSpawnGroupType() != NO_SPAWNGROUP)
 	{
 		szBuffer.append(NEWLINE);
-		if (info.getSpawnAtOnceLimit() > 0)
+		if (info.getSpawnUnitCiv() == NO_CIVILIZATION)
 		{
-			if (info.getSpawnPerGameLimit() > 0 && info.getSpawnPerGameLimit() < MAX_INT)
+			if (info.getSpawnAtOnceLimit() > -1)
 			{
-				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT_LIMIT_CAP", info.getSpawnAtOnceLimit(), info.getSpawnPerGameLimit(), GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_LIMIT_NOCIV", info.getSpawnAtOnceLimit(), ((CvWString)GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getType()).c_str(), GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getDescription()));
 			}
 			else
 			{
-				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_LIMIT", info.getSpawnAtOnceLimit(), ((CvWString)GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getType()).c_str(), GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE_NOCIV", GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getDescription()));
 			}
-		}
-		else if (info.getSpawnPerGameLimit() > 0 && info.getSpawnPerGameLimit() < MAX_INT)
-		{
-			szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT_CAP", info.getSpawnPerGameLimit(), GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
+
+			if (info.isSpawnOnlyForOwner())
+			{
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_FOR_OWNER_NOCIV_SUFFIX"));
+			}
 		}
 		else
 		{
-			szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE", GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
-		}
-		if (info.isSpawnOnlyForOwner())
-		{
-			szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_FOR_OWNER_SUFFIX"));
+			if (info.getSpawnAtOnceLimit() > -1)
+			{
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_LIMIT", info.getSpawnAtOnceLimit(), ((CvWString)GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getType()).c_str(), GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
+			}
+			else
+			{
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT_TYPE", GC.getSpawnGroupInfo((SpawnGroupTypes)info.getSpawnGroupType()).getDescription(), GC.getCivilizationInfo((CivilizationTypes)info.getSpawnUnitCiv()).getAdjective()));
+			}
+
+			if (info.isSpawnOnlyForOwner())
+			{
+				szBuffer.append(gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_FOR_OWNER_SUFFIX"));
+			}
 		}
 	}
 /*************************************************************************************************/
@@ -26392,6 +26456,32 @@ void CvGameTextMgr::setFeatureHelp(CvWStringBuffer &szBuffer, FeatureTypes eFeat
 
 }
 
+void CvGameTextMgr::setCityClassHelp(CvWStringBuffer& szBuffer, CityClassTypes eFeature, bool bCivilopediaText)
+{
+	if (NO_CITYCLASS == eFeature)
+	{
+		return;
+	}
+	CvCityClassInfo& feature = GC.getCityClassInfo(eFeature);
+
+	if (!bCivilopediaText)
+	{
+		szBuffer.append(feature.getDescription());
+	}
+}
+void CvGameTextMgr::setRouteHelp(CvWStringBuffer& szBuffer, RouteTypes eFeature, bool bCivilopediaText)
+{
+	if (NO_ROUTE == eFeature)
+	{
+		return;
+	}
+	CvRouteInfo& feature = GC.getRouteInfo(eFeature);
+
+	if (!bCivilopediaText)
+	{
+		szBuffer.append(feature.getDescription());
+	}
+}
 
 void CvGameTextMgr::setPlotEffectHelp(CvWStringBuffer& szBuffer, PlotEffectTypes eFeature, bool bCivilopediaText)
 {

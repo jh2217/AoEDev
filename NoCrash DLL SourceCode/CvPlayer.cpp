@@ -110,6 +110,7 @@ CvPlayer::CvPlayer()
 	m_paiFeatureHappiness = NULL;
 	m_paiUnitClassCount = NULL;
 	m_paiUnitClassPlayerInstancesChanges = NULL;
+	m_paiExtraUnitClasses = NULL;
 	m_paiUnitClassMaking = NULL;
 	m_paiBuildingClassCount = NULL;
 	m_paiBuildingClassMaking = NULL;
@@ -607,6 +608,7 @@ void CvPlayer::uninit()
 	SAFE_DELETE_ARRAY(m_paiFeatureHappiness);
 	SAFE_DELETE_ARRAY(m_paiUnitClassCount);
 	SAFE_DELETE_ARRAY(m_paiUnitClassPlayerInstancesChanges);
+	SAFE_DELETE_ARRAY(m_paiExtraUnitClasses);
 	SAFE_DELETE_ARRAY(m_paiUnitClassMaking);
 	SAFE_DELETE_ARRAY(m_paiBuildingClassCount);
 	SAFE_DELETE_ARRAY(m_paiBuildingClassMaking);
@@ -1223,12 +1225,15 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 		m_paiUnitClassCount = new int [GC.getNumUnitClassInfos()];
 		FAssertMsg(m_paiUnitClassPlayerInstancesChanges == NULL, "about to leak memory, CvPlayer::m_paiUnitClassPlayerInstancesChanges");
 		m_paiUnitClassPlayerInstancesChanges = new int[GC.getNumUnitClassInfos()];
+		FAssertMsg(m_paiExtraUnitClasses == NULL, "about to leak memory, CvPlayer::m_paiExtraUnitClasses");
+		m_paiExtraUnitClasses = new int[GC.getNumUnitClassInfos()];
 		FAssertMsg(m_paiUnitClassMaking==NULL, "about to leak memory, CvPlayer::m_paiUnitClassMaking");
 		m_paiUnitClassMaking = new int [GC.getNumUnitClassInfos()];
 		for (iI = 0; iI < GC.getNumUnitClassInfos(); iI++)
 		{
 			m_paiUnitClassCount[iI] = 0;
 			m_paiUnitClassPlayerInstancesChanges[iI] = 0;
+			m_paiExtraUnitClasses[iI] = NO_UNIT;
 			m_paiUnitClassMaking[iI] = 0;
 		}
 
@@ -1783,14 +1788,12 @@ void CvPlayer::addFreeUnit(UnitTypes eUnit, UnitAITypes eUnitAI)
 			{
 				if (!(GC.getUnitInfo(eUnit).isFound()))
 				{
-
-//FfH: Modified by Kael 09/16/2008
-//					iRandOffset = GC.getGameINLINE().getSorenRandNum(NUM_CITY_PLOTS, "Place Units (Player)");
-//					for (iI = 0; iI < NUM_CITY_PLOTS; iI++)
+					//FfH: Modified by Kael 09/16/2008
+					// iRandOffset = GC.getGameINLINE().getSorenRandNum(NUM_CITY_PLOTS, "Place Units (Player)");
+					// for (iI = 0; iI < NUM_CITY_PLOTS; iI++)
 					iRandOffset = GC.getGameINLINE().getSorenRandNum(21, "Place Units (Player)");
 					for (iI = 0; iI < 21; iI++)
-//FfH: End Modify
-
+					//FfH: End Modify
 					{
 						pLoopPlot = plotCity(pStartingPlot->getX_INLINE(), pStartingPlot->getY_INLINE(), ((iI + iRandOffset) % NUM_CITY_PLOTS));
 
@@ -1798,22 +1801,15 @@ void CvPlayer::addFreeUnit(UnitTypes eUnit, UnitAITypes eUnitAI)
 						{
 							if (pLoopPlot->getArea() == pStartingPlot->getArea())
 							{
-/*************************************************************************************************/
-/**	Mountain Mod 		 		expanded by Ahwaric	22.09.09		**/
-/*************************************************************************************************/
+								// Mountain Mod : Ahwaric 22.09.09
 								if ((!(pLoopPlot->isImpassable())) && (!(pLoopPlot->isPeak())))
-/*************************************************************************************************/
-/**	Mountain Mod END									**/
-/*************************************************************************************************/
 								{
 									if (!(pLoopPlot->isUnit()))
 									{
-
-//FfH: Modified by Kael 09/16/2008
-//										if (!(pLoopPlot->isGoody()))
+										//FfH: Modified by Kael 09/16/2008
+										// if (!(pLoopPlot->isGoody()))
 										if (pLoopPlot->getImprovementType() == NO_IMPROVEMENT)
-//FfH: End Modify
-
+										//FfH: End Modify
 										{
 											pBestPlot = pLoopPlot;
 											break;
@@ -1832,8 +1828,8 @@ void CvPlayer::addFreeUnit(UnitTypes eUnit, UnitAITypes eUnitAI)
 			pBestPlot = pStartingPlot;
 		}
 
-//FfH: Modified by Kael 08/13/2007
-//		initUnit(eUnit, pBestPlot->getX_INLINE(), pBestPlot->getY_INLINE(), eUnitAI);
+		//FfH: Modified by Kael 08/13/2007
+		// initUnit(eUnit, pBestPlot->getX_INLINE(), pBestPlot->getY_INLINE(), eUnitAI);
 		CvUnit* pUnit = initUnit(eUnit, pBestPlot->getX_INLINE(), pBestPlot->getY_INLINE(), eUnitAI);
 		if (GC.getUnitInfo(eUnit).getDefaultUnitAIType() == UNITAI_SETTLE)
 		{
@@ -1842,8 +1838,7 @@ void CvPlayer::addFreeUnit(UnitTypes eUnit, UnitAITypes eUnitAI)
 				pUnit->setHasPromotion((PromotionTypes)GC.getDefineINT("STARTING_SETTLER_PROMOTION"), true);
 			}
 		}
-//FfH: End Add
-
+		//FfH: End Add
 	}
 }
 
@@ -3292,6 +3287,17 @@ void CvPlayer::setHasTrait(TraitTypes eTrait, bool bNewValue)
 	for (UnitClassTypes eUnitClass = (UnitClassTypes)0; eUnitClass < GC.getNumUnitClassInfos(); eUnitClass = (UnitClassTypes)(eUnitClass + 1))
 	{
 		changeUnitClassPlayerInstancesChanges(eUnitClass, GC.getTraitInfo(eTrait).getUnitClassPlayerInstancesChange(eUnitClass) * iChange);
+		if (GC.getTraitInfo(eTrait).getExtraUnitClasses(eUnitClass) != NO_UNIT)
+		{
+			if (iChange > 0)
+			{
+				setExtraUnitClasses(eUnitClass, GC.getTraitInfo(eTrait).getExtraUnitClasses(eUnitClass));
+			}
+			else if (iChange<0)
+			{
+				setExtraUnitClasses(eUnitClass, NO_UNIT);
+			}
+		}
 	}
 
 	for (iI = 0; iI < NUM_YIELD_TYPES; iI++)
@@ -7962,7 +7968,13 @@ bool CvPlayer::canTrain(UnitTypes eUnit, bool bContinue, bool bTestVisible, bool
 			return false;
 		}
 	}
-	if (GC.getUnitInfo(eUnit).getPrereqGlobalCounter() != 0)
+	if (GC.getUnitInfo(eUnit).getPrereqTrait() != NO_TRAIT)
+	{
+		if (!hasTrait((TraitTypes)GC.getUnitInfo(eUnit).getPrereqTrait()))
+		{
+			return false;
+		}
+	}if (GC.getUnitInfo(eUnit).getPrereqGlobalCounter() != 0)
 	{
 		if (GC.getGameINLINE().getGlobalCounter() < GC.getUnitInfo(eUnit).getPrereqGlobalCounter())
 		{
@@ -15596,6 +15608,18 @@ void CvPlayer::changeUnitClassCount(UnitClassTypes eIndex, int iChange)
 	FAssert(getUnitClassCount(eIndex) >= 0);
 }
 
+int CvPlayer::getExtraUnitClasses(UnitClassTypes eIndex) const
+{
+	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
+	FAssertMsg(eIndex < GC.getNumUnitClassInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+	return m_paiExtraUnitClasses[eIndex];
+}
+void CvPlayer::setExtraUnitClasses(UnitClassTypes eIndex, int iChange)
+{
+	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
+	FAssertMsg(eIndex < GC.getNumUnitClassInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
+	m_paiExtraUnitClasses[eIndex] = iChange;
+}
 
 int CvPlayer::getUnitClassMaking(UnitClassTypes eIndex) const
 {
@@ -20929,6 +20953,7 @@ void CvPlayer::read(FDataStreamBase* pStream)
 	pStream->Read(GC.getNumBuildingInfos(), m_paiExtraBuildingHappiness);
 	pStream->Read(GC.getNumBuildingInfos(), m_paiExtraBuildingHealth);
 	pStream->Read(GC.getNumFeatureInfos(), m_paiFeatureHappiness);
+	pStream->Read(GC.getNumUnitClassInfos(), m_paiExtraUnitClasses);
 	pStream->Read(GC.getNumUnitClassInfos(), m_paiUnitClassCount);
 	pStream->Read(GC.getNumUnitClassInfos(), m_paiUnitClassMaking);
 	pStream->Read(GC.getNumUnitClassInfos(), m_paiUnitClassPlayerInstancesChanges);
@@ -21663,6 +21688,7 @@ void CvPlayer::write(FDataStreamBase* pStream)
 	pStream->Write(GC.getNumBuildingInfos(), m_paiExtraBuildingHappiness);
 	pStream->Write(GC.getNumBuildingInfos(), m_paiExtraBuildingHealth);
 	pStream->Write(GC.getNumFeatureInfos(), m_paiFeatureHappiness);
+	pStream->Write(GC.getNumUnitClassInfos(), m_paiExtraUnitClasses);
 	pStream->Write(GC.getNumUnitClassInfos(), m_paiUnitClassCount);
 	pStream->Write(GC.getNumUnitClassInfos(), m_paiUnitClassMaking);
 	pStream->Write(GC.getNumUnitClassInfos(), m_paiUnitClassPlayerInstancesChanges);

@@ -425,7 +425,10 @@ void CyInfoPythonInterface3()
 		.def("getYieldProduced", &CvCorporationInfo::getYieldProduced, "int (int i)")
 		;
 	python::class_<CvCityClassInfo, python::bases<CvInfoBase> >("CvCityClassInfo")
-		.def("getShortDescription", &CvCityClassInfo::getShortDescription, "int (int i)")
+		.def("getShortDescription", &CvCityClassInfo::getShortDescription, "int ()")
+		.def("getCityClassBuildings", &CvCityClassInfo::getCityClassBuildings, "int (int i)")
+		.def("getCityClassUnits", &CvCityClassInfo::getCityClassUnits, "int (int i)")
+
 		;
 	python::class_<CvTraitInfo, python::bases<CvInfoBase> >("CvTraitInfo")
 		.def("getLevel", &CvTraitInfo::getLevel, "int ()")

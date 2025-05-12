@@ -500,7 +500,7 @@
 			</Units>
 		</CivilizationInfo>
 		<CivilizationInfo>		<!-- Mekara Order -->
-			<Type>CIVILIZATION_MEKARA</Type>
+			<Type>CIVILIZATION_MEKARA_V2</Type>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_MOUNTED_ADEPT</UnitClassType>

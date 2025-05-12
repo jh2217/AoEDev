@@ -249,7 +249,7 @@ void CvGame::init(HandicapTypes eHandicap)
 								{
 									if (iAlignment == -1 || GC.getLeaderHeadInfo((LeaderHeadTypes)iLeader).getAlignment() == iAlignment)
 									{
-										iValue = 40000 + GC.getGameINLINE().getSorenRandNum(1000, "Random Leader");
+										iValue = 40000 + getSorenRandNum(1000, "Random Leader");
 										for (int iI = 0; iI < MAX_CIV_PLAYERS; iI++)
 										{
 											if (GC.getInitCore().getLeader((PlayerTypes)iI) == iLeader)
@@ -894,7 +894,8 @@ void CvGame::reset(HandicapTypes eHandicap, bool bConstructorCall)
 /**	New Tag Defs	(GameInfos)				10/01/08								Xienwolf	**/
 /**										Initial Values											**/
 /*************************************************************************************************/
-	m_iLastLairCycle = 0;
+	// First lair cycle is at a speed-fixed turn
+	m_iNextLairCycle = 0;
 	if (!bConstructorCall)
 	{
 		m_ppaaiProjectTimers = new int*[GC.getNumProjectInfos()];
@@ -3732,18 +3733,9 @@ int CvGame::getImprovementUpgradeTime(ImprovementTypes eImprovement) const
 	iTime *= GC.getGameSpeedInfo(getGameSpeedType()).getImprovementPercent();
 	iTime /= 100;
 
-/*************************************************************************************************/
-/**	Xienwolf Tweak							06/18/09											**/
-/**																								**/
-/**							They use Era in the WIERDEST places...								**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-	iTime *= GC.getEraInfo(getStartEra()).getImprovementPercent();
-	iTime /= 100;
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
+	// They use Era in the WIERDEST places... original code below for posterity : Xienwolf 06/18/09
+	// iTime *= GC.getEraInfo(getStartEra()).getImprovementPercent();
+	// iTime /= 100;
 
 	return iTime;
 }
@@ -6236,7 +6228,7 @@ void CvGame::setHolyCity(ReligionTypes eIndex, CvCity* pNewValue, bool bAnnounce
 /************************************************************************************************/
 		// From Sanguo Mod Performance, ie the CAR Mod
 		// Attitude cache
-		if (GC.getGameINLINE().isFinalInitialized())
+		if (isFinalInitialized())
 		{
 			for (int iJ = 0; iJ < MAX_CIV_PLAYERS; iJ++)
 			{
@@ -6486,15 +6478,9 @@ void CvGame::doTurn()
 
 	doUpdateCacheOnTurn();
 	setTurnSliceSinceBeginning(0);
-/*************************************************************************************************/
-/**	K-mod merger								16/02/12								Snarko	**/
-/**																								**/
-/**					Merging in features of K-mod, most notably the pathfinder					**/
-/*************************************************************************************************/
+
+	// Merging in features of K-mod, most notably the pathfinder : K-mod merger Snarko 16/02/12
 	CvSelectionGroup::path_finder.Reset(); // K-Mod. (this is the only manual reset we need. - I hope.)
-/*************************************************************************************************/
-/**	K-mod merger								END												**/
-/*************************************************************************************************/
 
 	updateScore();
 
@@ -6508,26 +6494,21 @@ void CvGame::doTurn()
 		}
 	}
 
+	// BARB SPAWNING:
+	// Spawning from python heroes and events ignores any limits (done elsewhere). Then:
+	// Lairs only spawn if under barb limit for that area and type.
+	// 1 animal lair can always spawn in valid plot per area, even if target limit is 0
+	createLairs();
+
+	// Lairs will roll to spawn barbs up to their limit or area limit (among all other plot::doTurn things...)
 	GC.getMapINLINE().doTurn();
 
-/*************************************************************************************************/
-/**	MultiBarb							01/01/09									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
+	// May spawn some barbs as defenders, ignoring limit. Barb cities build regardless of area limits
 	createBarbarianCities();
-
-	createBarbarianUnits();
-/**								----  End Original Code  ----									**/
-	createLairs();
-	createBarbarianCities();
+	// Random barbs of all types will attempt to spawn, rate-limited, up to their area limit.
 	createBarbarianUnits();
 	createAnimals();
 	createDemons();
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 
 	doGlobalWarming();
 
@@ -6555,11 +6536,7 @@ void CvGame::doTurn()
 	incrementGameTurn();
 	incrementElapsedGameTurns();
 
-/*************************************************************************************************/
-/**	New Tag Defs	(ProjectInfos)			10/01/08								Xienwolf	**/
-/**	New Tag Defs	(GameInfos)				10/01/08								Xienwolf	**/
-/**									Per Turn Decay Function										**/
-/*************************************************************************************************/
+	// Per Turn Decay Function : New Tag Defs (ProjectInfos, GameInfos) Xienwolf 10/01/08
 	for (iI=0;iI<GC.getNumProjectInfos();iI++)
 	{
 		if (getProjectTimer((ProjectTypes)iI, 0) != -1 && (getProjectTimer((ProjectTypes)iI, 0) + (GC.getProjectInfo((ProjectTypes)iI).getCooldown() * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100)) < getGameTurn())
@@ -6567,9 +6544,7 @@ void CvGame::doTurn()
 			clearProjectTimer((ProjectTypes)iI);
 		}
 	}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
+
 	if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
 	{
 		shuffleArray(aiShuffle, MAX_PLAYERS, getSorenRand());
@@ -6593,21 +6568,14 @@ void CvGame::doTurn()
 			{
 				kTeam.setTurnActive(true);
 				FAssert(getNumGameTurnActive() == kTeam.getAliveCount());
-/*************************************************************************************************/
-/**	Tweak									08/06/10									Snarko	**/
-/**																								**/
-/**							Fixing BtS bug. Caused WoC if first team was dead.					**/
-/*************************************************************************************************/
-/**			---- Start Original Code ----						**
-			}
 
-			break;
-/**			----  End Original Code  ----						**/
+				// Fixing BtS bug. Caused WoC if first team was dead : Snarko 08/06/10
+				// Vanilla:
+				// }
+				// break;
+
 				break;
 			}
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 		}
 	}
 	else
@@ -6640,7 +6608,7 @@ void CvGame::doTurn()
 		}
 	}
 
-//FfH: Added by Kael 09/26/2008
+	//FfH: Added by Kael 09/26/2008
 	if (isOption(GAMEOPTION_CHALLENGE_CUT_LOSERS))
 	{
 		if (countCivPlayersAlive() > 5)
@@ -6649,37 +6617,16 @@ void CvGame::doTurn()
 			if (getCutLosersCounter() == 0)
 			{
 				GET_PLAYER(getRankPlayer(countCivPlayersAlive() -1)).setAlive(false);
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**						Modifies Challenge escalation based on Gamespeed						**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				changeCutLosersCounter(50);
-/**								----  End Original Code  ----									**/
 				changeCutLosersCounter(50 * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100);
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 			}
 		}
 	}
 	if (isOption(GAMEOPTION_CHALLENGE_HIGH_TO_LOW))
 	{
-		if (!GC.getGameINLINE().isGameMultiPlayer())
+		if (!isGameMultiPlayer())
 		{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**						Modifies Challenge escalation based on Gamespeed						**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-			if (getGameTurn() >= 50)
-/**								----  End Original Code  ----									**/
+			// Modifies Challenge escalation based on Gamespeed : Xienwolf 12/13/08
 			if (getGameTurn() >= 50 * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100)
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 			{
 				if (getHighToLowCounter() < 2)
 				{
@@ -6704,18 +6651,8 @@ void CvGame::doTurn()
 	if (isOption(GAMEOPTION_CHALLENGE_INCREASING_DIFFICULTY))
 	{
 		changeIncreasingDifficultyCounter(1);
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**						Modifies Challenge escalation based on Gamespeed						**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		if (getIncreasingDifficultyCounter() >= 50)
-/**								----  End Original Code  ----									**/
+		// Modifies Challenge escalation based on Gamespeed : Xienwolf 12/13/08
 		if (getIncreasingDifficultyCounter() >= 50 * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100)
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 		{
 			if (getHandicapType() < (GC.getNumHandicapInfos() - 1))
 			{
@@ -6736,21 +6673,11 @@ void CvGame::doTurn()
 	}
 	if (isOption(GAMEOPTION_FLEXIBLE_DIFFICULTY))
 	{
-		if (!GC.getGameINLINE().isGameMultiPlayer())
+		if (!isGameMultiPlayer())
 		{
 			changeFlexibleDifficultyCounter(1);
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**						Modifies Challenge escalation based on Gamespeed						**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-			if (getFlexibleDifficultyCounter() >= 20)
-/**								----  End Original Code  ----									**/
+			// Modifies Challenge escalation based on Gamespeed : Xienwolf 12/13/08
 			if (getFlexibleDifficultyCounter() >= 20 * GC.getGameSpeedInfo(getGameSpeedType()).getGrowthPercent() / 100)
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
 			{
 				for (iI = 0; iI < MAX_PLAYERS; iI++)
 				{
@@ -6776,7 +6703,6 @@ void CvGame::doTurn()
 			}
 		}
 	}
-//FfH: End Add
 
 	testVictory();
 
@@ -6784,9 +6710,8 @@ void CvGame::doTurn()
 	gDLL->getEngineIFace()->DoTurn();
 
 	//Snarko temp
-//	PROFILE_END();
-
-//	stopProfilingDLL();
+	//	PROFILE_END();
+	//	stopProfilingDLL();
 
 	gDLL->getEngineIFace()->AutoSave();
 }
@@ -7176,6 +7101,8 @@ void CvGame::doDiploVote()
 
 void CvGame::createBarbarianCities()
 {
+	// MultiBarb edits; BARBARIAN_PLAYER -> ORC_PLAYER : Xienwolf 12/23/08
+
 	PROFILE("CvGame::createBarbarianCities");
 	CvPlot* pLoopPlot;
 	CvPlot* pBestPlot;
@@ -7233,18 +7160,7 @@ void CvGame::createBarbarianCities()
 	int iTargetCitiesMultiplier = 100;
 	{
 		int iTargetBarbCities = (getNumCivCities() * 5 * GC.getHandicapInfo(getHandicapType()).getBarbarianCityCreationProb()) / 100;
-/*************************************************************************************************/
-/**	MultiBarb							12/23/08									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		int iBarbCities = GET_PLAYER(BARBARIAN_PLAYER).getNumCities();
-/**								----  End Original Code  ----									**/
 		int iBarbCities = GET_PLAYER(ORC_PLAYER).getNumCities();
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 		if (iBarbCities < iTargetBarbCities)
 		{
 			iTargetCitiesMultiplier += (300 * (iTargetBarbCities - iBarbCities)) / iTargetBarbCities;
@@ -7268,18 +7184,7 @@ void CvGame::createBarbarianCities()
 			{
 				iTargetCities = pLoopPlot->area()->getNumUnownedTiles();
 
-/*************************************************************************************************/
-/**	MultiBarb							12/23/08									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (pLoopPlot->area()->getNumCities() == pLoopPlot->area()->getCitiesPerPlayer(BARBARIAN_PLAYER))
-/**								----  End Original Code  ----									**/
 				if (pLoopPlot->area()->getNumCities() == pLoopPlot->area()->getCitiesPerPlayer(ORC_PLAYER))
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 				{
 					iTargetCities *= 3;
 				}
@@ -7294,30 +7199,16 @@ void CvGame::createBarbarianCities()
 
 				iTargetCities /= std::max(1, iUnownedTilesThreshold);
 
-/*************************************************************************************************/
-/**	MultiBarb							12/23/08									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-				if (pLoopPlot->area()->getCitiesPerPlayer(BARBARIAN_PLAYER) < iTargetCities)
-				{
-					iValue = GET_PLAYER(BARBARIAN_PLAYER).AI_foundValue(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), GC.getDefineINT("MIN_BARBARIAN_CITY_STARTING_DISTANCE"));
-/**								----  End Original Code  ----									**/
 				if (pLoopPlot->area()->getCitiesPerPlayer(ORC_PLAYER) < iTargetCities)
 				{
 					iValue = GET_PLAYER(ORC_PLAYER).AI_foundValue(pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE(), GC.getDefineINT("MIN_BARBARIAN_CITY_STARTING_DISTANCE"));
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 
 					if (iTargetCitiesMultiplier > 100)
 					{
 						iValue *= pLoopPlot->area()->getNumOwnedTiles();
 					}
 
-					iValue += (100 + getSorenRandNum(50, "Barb City Found"));
-					iValue /= 100;
+					iValue += (getSorenRandNum(5, "Barb City Found"));
 
 					if (iValue > iBestValue)
 					{
@@ -7331,392 +7222,9 @@ void CvGame::createBarbarianCities()
 
 	if (pBestPlot != NULL)
 	{
-/*************************************************************************************************/
-/**	MultiBarb							12/23/08									Xienwolf	**/
-/**																								**/
-/**							Adds extra Barbarian Civilizations									**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-		GET_PLAYER(BARBARIAN_PLAYER).found(pBestPlot->getX_INLINE(), pBestPlot->getY_INLINE());
-/**								----  End Original Code  ----									**/
 		GET_PLAYER(ORC_PLAYER).found(pBestPlot->getX_INLINE(), pBestPlot->getY_INLINE());
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 	}
 }
-
-
-/*************************************************************************************************/
-/**	MultiBarb								12/23/08								Xienwolf	**/
-/**																								**/
-/**							Functions relocated and heavily rewritten							**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-void CvGame::createBarbarianUnits()
-{
-
-//FfH: Modified by Kael 08/02/2007
-//	CvUnit* pLoopUnit;
-//FfH: End Modify
-
-	CvArea* pLoopArea;
-	CvPlot* pPlot;
-	UnitAITypes eBarbUnitAI;
-	UnitTypes eBestUnit;
-	UnitTypes eLoopUnit;
-	bool bAnimals;
-	long lResult;
-	int iNeededBarbs;
-	int iDivisor;
-	int iValue;
-	int iBestValue;
-	int iLoop;
-	int iI, iJ;
-
-	if (isOption(GAMEOPTION_NO_BARBARIANS))
-	{
-		return;
-	}
-
-	lResult = 0;
-	gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianUnits", NULL, &lResult);
-	if (lResult == 1)
-	{
-		return;
-	}
-
-	bAnimals = false;
-
-	if (GC.getEraInfo(getCurrentEra()).isNoBarbUnits())
-	{
-		bAnimals = true;
-	}
-
-	if (getNumCivCities() < ((countCivPlayersAlive() * 3) / 2) && !isOption(GAMEOPTION_ONE_CITY_CHALLENGE))
-	{
-		bAnimals = true;
-	}
-
-//FfH: Added by Kael 11/27/2007
-	if (GC.getGameINLINE().isOption(GAMEOPTION_DOUBLE_ANIMALS) && getNumCivCities() < countCivPlayersAlive() * 3)
-	{
-		bAnimals = true;
-	}
-//FfH: End Add
-
-	if (getElapsedGameTurns() < ((GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent()) / 100))
-	{
-		bAnimals = true;
-	}
-
-	if (bAnimals)
-	{
-		createAnimals();
-	}
-	else
-	{
-		for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
-		{
-			if (pLoopArea->isWater())
-			{
-				eBarbUnitAI = UNITAI_ATTACK_SEA;
-				iDivisor = GC.getHandicapInfo(getHandicapType()).getUnownedWaterTilesPerBarbarianUnit();
-			}
-			else
-			{
-				eBarbUnitAI = UNITAI_ATTACK;
-				iDivisor = GC.getHandicapInfo(getHandicapType()).getUnownedTilesPerBarbarianUnit();
-			}
-
-			if (isOption(GAMEOPTION_RAGING_BARBARIANS))
-			{
-				iDivisor = std::max(1, (iDivisor / 2));
-			}
-
-			if (iDivisor > 0)
-			{
-
-//FfH: Modified by Kael 08/27/2007 (so that animals arent considered for barb spawn rates, and barbs spawn a little slower)
-//				iNeededBarbs = ((pLoopArea->getNumUnownedTiles() / iDivisor) - pLoopArea->getUnitsPerPlayer(BARBARIAN_PLAYER)); // XXX eventually need to measure how many barbs of eBarbUnitAI we have in this area...
-//				if (iNeededBarbs > 0)
-//				{
-//					iNeededBarbs = ((iNeededBarbs / 4) + 1);
-				iNeededBarbs = ((pLoopArea->getNumUnownedTiles() / iDivisor) - (pLoopArea->getUnitsPerPlayer(BARBARIAN_PLAYER) - pLoopArea->getAnimalsPerPlayer(BARBARIAN_PLAYER)));
-				if (iNeededBarbs > 0)
-				{
-					iNeededBarbs = ((iNeededBarbs / 6) + 1);
-//FfH: End Modify
-
-					for (iI = 0; iI < iNeededBarbs; iI++)
-					{
-						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_NOT_VISIBLE_TO_CIV | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
-
-						if (pPlot != NULL)
-						{
-							eBestUnit = NO_UNIT;
-							iBestValue = 0;
-
-							for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
-							{
-								bool bValid = false;
-								eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(BARBARIAN_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
-
-								if (eLoopUnit != NO_UNIT)
-								{
-									CvUnitInfo& kUnit = GC.getUnitInfo(eLoopUnit);
-
-									bValid = (kUnit.getCombat() > 0 && !kUnit.isOnlyDefensive());
-
-//FfH: Added by Kael 08/14/2007
-									if (GC.getUnitClassInfo((UnitClassTypes)iJ).getMaxGlobalInstances() == 1)
-									{
-										bValid = false;
-									}
-//FfH: End Add
-
-									if (bValid)
-									{
-										if (pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_SEA)
-										{
-											bValid = false;
-										}
-										else if (!pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_LAND)
-										{
-											bValid = false;
-										}
-									}
-
-									if (bValid)
-									{
-										if (!GET_PLAYER(BARBARIAN_PLAYER).canTrain(eLoopUnit))
-										{
-											bValid = false;
-										}
-									}
-
-									if (bValid)
-									{
-										if (NO_BONUS != kUnit.getPrereqAndBonus())
-										{
-											if (!GET_TEAM(BARBARIAN_TEAM).isHasTech((TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqAndBonus()).getTechCityTrade()))
-											{
-												bValid = false;
-											}
-										}
-									}
-
-									if (bValid)
-									{
-										bool bFound = false;
-										bool bRequires = false;
-										for (int i = 0; i < GC.getNUM_UNIT_PREREQ_OR_BONUSES(); ++i)
-										{
-											if (NO_BONUS != kUnit.getPrereqOrBonuses(i))
-											{
-												TechTypes eTech = (TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqOrBonuses(i)).getTechCityTrade();
-												if (NO_TECH != eTech)
-												{
-													bRequires = true;
-
-													if (GET_TEAM(BARBARIAN_TEAM).isHasTech(eTech))
-													{
-														bFound = true;
-														break;
-													}
-												}
-											}
-										}
-
-										if (bRequires && !bFound)
-										{
-											bValid = false;
-										}
-									}
-
-									if (bValid)
-									{
-										iValue = (1 + getSorenRandNum(1000, "Barb Unit Selection"));
-
-										if (kUnit.getUnitAIType(eBarbUnitAI))
-										{
-											iValue += 200;
-										}
-
-										if (iValue > iBestValue)
-										{
-											eBestUnit = eLoopUnit;
-											iBestValue = iValue;
-										}
-									}
-								}
-							}
-
-							if (eBestUnit != NO_UNIT)
-							{
-								GET_PLAYER(BARBARIAN_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), eBarbUnitAI);
-							}
-						}
-					}
-				}
-			}
-		}
-
-//FfH: Modified by Kael 08/02/2007 (so animals are never deleted)
-//		for (pLoopUnit = GET_PLAYER(BARBARIAN_PLAYER).firstUnit(&iLoop); pLoopUnit != NULL; pLoopUnit = GET_PLAYER(BARBARIAN_PLAYER).nextUnit(&iLoop))
-//		{
-//			if (pLoopUnit->isAnimal())
-//			{
-//				pLoopUnit->kill(false);
-//				break;
-//			}
-//		}
-//FfH: End Add
-
-	}
-}
-
-
-void CvGame::createAnimals()
-{
-	CvArea* pLoopArea;
-	CvPlot* pPlot;
-	UnitTypes eBestUnit;
-	UnitTypes eLoopUnit;
-	int iNeededAnimals;
-	int iValue;
-	int iBestValue;
-	int iLoop;
-	int iI, iJ;
-
-	if (GC.getEraInfo(getCurrentEra()).isNoAnimals())
-	{
-		return;
-	}
-
-	if (GC.getHandicapInfo(getHandicapType()).getUnownedTilesPerGameAnimal() <= 0)
-	{
-		return;
-	}
-
-	if (getNumCivCities() < countCivPlayersAlive())
-	{
-		return;
-	}
-
-	if (getElapsedGameTurns() < 5)
-	{
-		return;
-	}
-
-//FfH: Modified by Kael 08/27/2007 (So that water animals spawn)
-//	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
-//	{
-//		if (!(pLoopArea->isWater()))
-//		{
-//			iNeededAnimals = ((pLoopArea->getNumUnownedTiles() / GC.getHandicapInfo(getHandicapType()).getUnownedTilesPerGameAnimal()) - pLoopArea->getUnitsPerPlayer(BARBARIAN_PLAYER));
-//			if (iNeededAnimals > 0)
-//			{
-//				iNeededAnimals = ((iNeededAnimals / 5) + 1);
-//				for (iI = 0; iI < iNeededAnimals; iI++)
-//				{
-//					pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_NOT_VISIBLE_TO_CIV | RANDPLOT_PASSIBLE), pLoopArea->getID(), GC.getDefineINT("MIN_ANIMAL_STARTING_DISTANCE"));
-//					if (pPlot != NULL)
-//					{
-//						eBestUnit = NO_UNIT;
-//						iBestValue = 0;
-//						for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
-//						{
-//							eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(BARBARIAN_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
-//							if (eLoopUnit != NO_UNIT)
-//							{
-//								if (GC.getUnitInfo(eLoopUnit).getUnitAIType(UNITAI_ANIMAL))
-//								{
-//									if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
-//									{
-//										iValue = (1 + getSorenRandNum(1000, "Animal Unit Selection"));
-//										if (iValue > iBestValue)
-//										{
-//											eBestUnit = eLoopUnit;
-//											iBestValue = iValue;
-//										}
-//									}
-//								}
-//							}
-//						}
-//						if (eBestUnit != NO_UNIT)
-//						{
-//							GET_PLAYER(BARBARIAN_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ANIMAL);
-//						}
-//					}
-//				}
-//			}
-//		}
-	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
-	{
-		iNeededAnimals = ((pLoopArea->getNumUnownedTiles() / GC.getHandicapInfo(getHandicapType()).getUnownedTilesPerGameAnimal()) - pLoopArea->getUnitsPerPlayer(BARBARIAN_PLAYER));
-		if (pLoopArea->isWater())
-		{
-			iNeededAnimals = iNeededAnimals / 5;
-			if (pLoopArea->getNumUnownedTiles() < 20)
-			{
-				iNeededAnimals = 0;
-			}
-			if (pLoopArea->getUnitsPerPlayer(BARBARIAN_PLAYER) > 3)
-			{
-				iNeededAnimals = 0;
-			}
-		}
-		if (iNeededAnimals > 0)
-		{
-			iNeededAnimals = ((iNeededAnimals / 5) + 1);
-			if (GC.getGameINLINE().isOption(GAMEOPTION_DOUBLE_ANIMALS))
-			{
-				iNeededAnimals *= 2;
-			}
-			for (iI = 0; iI < iNeededAnimals; iI++)
-			{
-				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_NOT_VISIBLE_TO_CIV | RANDPLOT_PASSIBLE), pLoopArea->getID(), GC.getDefineINT("MIN_ANIMAL_STARTING_DISTANCE"));
-				if (pPlot != NULL)
-				{
-					eBestUnit = NO_UNIT;
-					iBestValue = 0;
-					for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
-					{
-						eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(BARBARIAN_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
-						if (eLoopUnit != NO_UNIT)
-						{
-							if (GC.getUnitInfo(eLoopUnit).getUnitAIType(UNITAI_ANIMAL))
-							{
-								if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
-								{
-									iValue = (1 + getSorenRandNum(1000, "Animal Unit Selection"));
-									if (iValue > iBestValue)
-									{
-										eBestUnit = eLoopUnit;
-										iBestValue = iValue;
-									}
-								}
-							}
-						}
-					}
-					if (eBestUnit != NO_UNIT)
-					{
-						CvUnit* pUnit;
-						pUnit = GET_PLAYER(BARBARIAN_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ANIMAL);
-						pUnit->setHasPromotion((PromotionTypes)GC.getDefineINT("HIDDEN_NATIONALITY_PROMOTION"), true);
-					}
-				}
-			}
-		}
-//FfH: End Modify
-
-	}
-}
-/**								----  End Original Code  ----									**/
-/*************************************************************************************************/
-/**	MultiBarb								END													**/
-/*************************************************************************************************/
 
 
 void CvGame::updateWar()
@@ -8634,12 +8142,12 @@ int CvGame::getSorenRandNum(int iNum, const char* pszLog)
 	return m_sorenRand.get(iNum, pszLog);
 /**								----  End Original Code  ----									**/
 	int Result = m_sorenRand.get(iNum, pszLog);
-	if (GC.getGameINLINE().isMPOption(MPOPTION_RANDOM_LOGGER) || gDLL->getChtLvl() > 0)
+	if (isMPOption(MPOPTION_RANDOM_LOGGER) || gDLL->getChtLvl() > 0)
 	{
 		if (isFinalInitialized())
 		{
 			TCHAR szFile[1024];
-			sprintf(szFile, "RandomLogger - Player %d - Set %d.log", GC.getGameINLINE().getActivePlayer(), getGameTurn()/50);
+			sprintf(szFile, "RandomLogger - Player %d - Set %d.log", getActivePlayer(), getGameTurn()/50);
 			TCHAR szOut[1024];
 			sprintf(szOut, "[%04d] %5d of %-5d -- %s\n", getGameTurn()+1, Result, iNum, pszLog);
 			gDLL->logMsg(szFile,szOut, false, false);
@@ -10830,9 +10338,9 @@ void CvGame::changeGlobalCounter(int iChange)
 {
 	if (iChange != 0)
 	{
-		if (!GC.getGameINLINE().isOption(GAMEOPTION_NO_GLOBAL_COUNTER))
+		if (!isOption(GAMEOPTION_NO_GLOBAL_COUNTER))
 		{
-			if (GC.getGameINLINE().isOption(GAMEOPTION_DOUBLE_GLOBAL_COUNTER))
+			if (isOption(GAMEOPTION_DOUBLE_GLOBAL_COUNTER))
 			{
 				iChange *= 2;
 			}
@@ -11186,7 +10694,7 @@ void CvGame::setProjectTimer(ProjectTypes eProject)
 	{
 		if (m_ppaaiProjectTimers[eProject][i] == -1)
 		{
-			m_ppaaiProjectTimers[eProject][i] = GC.getGameINLINE().getGameTurn();
+			m_ppaaiProjectTimers[eProject][i] = getGameTurn();
 			break;
 		}
 	}
@@ -11195,50 +10703,92 @@ void CvGame::setProjectTimer(ProjectTypes eProject)
 void CvGame::createLairs()
 {
 	PROFILE("CvGame::createLairs");
-	int iNetWeight, iWeight, iTargetWeight, iI, iJ, iK, iCiv, iFlags, iGoal, iUnit;
-	bool bEvilValid, bNormalValid;
-	CvPlot* pPlot=NULL;
-	ImprovementTypes eLair=NO_IMPROVEMENT;
-	PlayerTypes eSpawnPlayer=NO_PLAYER;
+	int iNetWeight, iWeight, iTargetWeight, iI, iJ, iK, iCiv, iFlags, iLairFlags, iGoal;
+	bool bEvilValid, bNormalValid, bNoSpawns;
+	PlayerTypes ePlayer;
+	CvPlot* pPlot = NULL;
+	CvArea* pArea = NULL;
+	ImprovementTypes eLair = NO_IMPROVEMENT;
 
 	if (isOption(GAMEOPTION_NO_LAIRS))
+		return;
+
+	if (getGameTurn() < getNextLairCycle())
+		return;
+
+	int iLairCycleLength = GC.getGameSpeedInfo(getGameSpeedType()).getTurnsPerLairCycle();
+	if (getGameTurn() == 0)
 	{
+		setNextLairCycle(iLairCycleLength);
 		return;
 	}
-	if ((getGameTurn() - getLastLairCycle()) != GC.getGameSpeedInfo(getGameSpeedType()).getTurnsPerLairCycle())
+	else
 	{
-		return;
+		// Some randomization in followup lair cycle length
+		setNextLairCycle(getGameTurn() + 11 * iLairCycleLength / 10 - getSorenRandNum(iLairCycleLength/5, "~ +-10% Randomization in cycle length"));
 	}
 
-	setLastLairCycle(getGameTurn());
+	iGoal = GC.getWorldInfo(GC.getMapINLINE().getWorldSize()).getDefaultPlayers();
+	if (iGoal <= 0) return;
 
-	iGoal = GC.getHandicapInfo(getHandicapType()).getLairsPerCycle();
-
-	for (iI = 0; iI < iGoal; iI++)
+	// Calculate the net of all possible positive weights on all lairs
+	iNetWeight = 0;
+	for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
 	{
-		iNetWeight = 0;
-		for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
+		iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
+		if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && isOption(GAMEOPTION_NO_DEMONS))
+		 && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && isOption(GAMEOPTION_NO_ANIMALS))
+		 && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && isOption(GAMEOPTION_NO_BARBARIANS)))
 		{
-			iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
-			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+			// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
+			iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
+			for (iK = 0; iK < GC.getNumTechInfos(); iK++)
 			{
-				// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
-				iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
-				for (iK = 0; iK < GC.getNumTechInfos(); iK++)
-				{
-					iWeight += (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeightTechs(iK)) * countKnownTechNumTeams((TechTypes)iK);
-				}
-				if (iWeight > 0)
-				{
-					iNetWeight += iWeight;
-				}
+				iWeight += (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeightTechs(iK)) * countKnownTechNumTeams((TechTypes)iK);
+			}
+			// Total weight for this lair might be negative; don't include if so
+			if (iWeight > 0)
+			{
+				iNetWeight += iWeight;
 			}
 		}
-		iTargetWeight = GC.getGameINLINE().getMapRandNum(iNetWeight, "Select Lair Spawn");
+	}
+
+	// Setting up the static flags
+	iFlags = RANDPLOT_PASSIBLE | RANDPLOT_NOT_CITY | RANDPLOT_NOT_IMPROVED | RANDPLOT_UNOCCUPIED | RANDPLOT_ADJACENT_UNOWNED;
+	if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+	{
+		iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
+	}
+
+	if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION"))
+	{
+		iFlags |= RANDPLOT_DEMON_ALLY;
+	}
+	else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION"))
+	{
+		iFlags |= RANDPLOT_ORC_ALLY;
+	}
+	else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION"))
+	{
+		iFlags |= RANDPLOT_ANIMAL_ALLY;
+	}
+	else
+	{
+		iFlags |= RANDPLOT_UNOWNED;
+	}
+
+	// 50 attempts to place the lairs...... stops early if places 2 though
+	for (iI = 0; iI < 50; iI++)
+	{
+		// Pick a random value from the static total sum. If we recalculate weights until this value, then our stopping point will be random & weight-modulated.
+		iTargetWeight = getMapRandNum(iNetWeight, "Select Lair Spawn");
 		for (iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
 		{
 			iCiv = GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv();
-			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS)) && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS)) && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
+			if (!(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && isOption(GAMEOPTION_NO_DEMONS))
+			 && !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && isOption(GAMEOPTION_NO_ANIMALS))
+			 && !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && isOption(GAMEOPTION_NO_BARBARIANS)))
 			{
 				// LairCreationWeights adjusted(?) : Hinterlands Valkrionn 07/11/09
 				iWeight = GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeight();
@@ -11246,6 +10796,7 @@ void CvGame::createLairs()
 				{
 					iWeight += (GC.getImprovementInfo((ImprovementTypes)iJ).getLairCreationWeightTechs(iK)) * countKnownTechNumTeams((TechTypes)iK);
 				}
+				// Total weight for this lair might be negative; don't include if so
 				if (iWeight > 0)
 				{
 					iTargetWeight -= iWeight;
@@ -11258,52 +10809,26 @@ void CvGame::createLairs()
 			}
 		}
 
-		iFlags = 0;
-		iFlags |= RANDPLOT_PASSIBLE;
-		iFlags |= RANDPLOT_NOT_CITY;
-		iFlags |= RANDPLOT_NOT_IMPROVED;
-		iFlags |= RANDPLOT_UNOCCUPIED;
-
-		if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
-		{
-			iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
-		}
-
+		iLairFlags = iFlags;
 		if (GC.getImprovementInfo(eLair).isWater())
 		{
-			iFlags |= RANDPLOT_WATER;
+			iLairFlags |= RANDPLOT_WATER;
 		}
 		else
 		{
-			iFlags |= RANDPLOT_LAND;
+			iLairFlags |= RANDPLOT_LAND;
 		}
 
 		if (GC.getImprovementInfo(eLair).isPeakMakesValid())
 		{
-			iFlags |= RANDPLOT_PEAK;
+			iLairFlags |= RANDPLOT_PEAK;
 		}
 		else
 		{
-			iFlags |= RANDPLOT_NOT_PEAK;
+			iLairFlags |= RANDPLOT_NOT_PEAK;
 		}
 
-		if (GC.getImprovementInfo(eLair).getSpawnUnitCiv() == GC.getDefineINT("DEMON_CIVILIZATION"))
-		{
-			iFlags |= RANDPLOT_DEMON_ALLY;
-		}
-		else if (GC.getImprovementInfo(eLair).getSpawnUnitCiv() == GC.getDefineINT("ORC_CIVILIZATION"))
-		{
-			iFlags |= RANDPLOT_ORC_ALLY;
-		}
-		else if (GC.getImprovementInfo(eLair).getSpawnUnitCiv() == GC.getDefineINT("ANIMAL_CIVILIZATION"))
-		{
-			iFlags |= RANDPLOT_ANIMAL_ALLY;
-		}
-		else
-		{
-			iFlags |= RANDPLOT_UNOWNED;
-		}
-
+		// Checking to see if *only* valid on hell terrain
 		bEvilValid = false;
 		bNormalValid = false;
 		for (iJ = 0; iJ < GC.getNumTerrainInfos(); iJ++)
@@ -11322,55 +10847,35 @@ void CvGame::createLairs()
 		}
 		if (bEvilValid && !bNormalValid)
 		{
-			iFlags |= RANDPLOT_EVIL;
+			iLairFlags |= RANDPLOT_EVIL;
 		}
 
-		pPlot = GC.getMapINLINE().syncRandPlot(iFlags);
-		if (pPlot != NULL && GC.getImprovementInfo(eLair).getTerrainMakesValid(pPlot->getTerrainType()))
+		pPlot = GC.getMapINLINE().syncRandPlot(iLairFlags);
+		if (pPlot == NULL || !GC.getImprovementInfo(eLair).getTerrainMakesValid(pPlot->getTerrainType()))
+			continue;
+
+		// Check spawning criteria vs density requirements. Lairs that don't spawn might fill up tiles...
+		bNoSpawns = false;
+		if (iCiv == GC.getDefineINT("DEMON_CIVILIZATION")) ePlayer = DEMON_PLAYER;
+		else if (iCiv == GC.getDefineINT("ORC_CIVILIZATION")) ePlayer = ORC_PLAYER;
+		else if (iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION")) ePlayer = ANIMAL_PLAYER;
+		else bNoSpawns = true;
+
+		pArea = pPlot->area();
+
+		if (bNoSpawns)
 		{
 			pPlot->setImprovementType(eLair);
-
-			iCiv = GC.getImprovementInfo(eLair).getSpawnUnitCiv();
-			iUnit = GC.getImprovementInfo(eLair).getSpawnUnitType();
-			if (iCiv != -1 && iUnit != -1
-				&& !(iCiv == GC.getDefineINT("DEMON_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_DEMONS))
-				&& !(iCiv == GC.getDefineINT("ANIMAL_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_ANIMALS))
-				&& !(iCiv == GC.getDefineINT("ORC_CIVILIZATION") && GC.getGameINLINE().isOption(GAMEOPTION_NO_BARBARIANS)))
-			{
-				for (int iI = MAX_PLAYERS-1; iI > -1 ; iI--)
-				{
-					if (GET_PLAYER((PlayerTypes)iI).isAlive() && GET_PLAYER((PlayerTypes)iI).getCivilizationType() == (CivilizationTypes)iCiv)
-					{
-						eSpawnPlayer = (PlayerTypes)iI;
-					}
-				}
-				if (eSpawnPlayer != NO_PLAYER)
-				{
-					CvUnit* pUnit = GET_PLAYER(eSpawnPlayer).initUnit((UnitTypes)iUnit, pPlot->getX(), pPlot->getY(), UNITAI_ATTACK);
-					if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
-					{
-						pUnit->setImmobileTimer(2);
-					}
-
-					// Allows for lairs to spawn a unit on creation, but spawn others normally : LairGuardians Valkrionn 7/17/10
-					if (GC.getImprovementInfo(eLair).getNumSpawnPromotions() > 0)
-					{
-						int iNumSpawnPromotions = GC.getImprovementInfo(eLair).getNumSpawnPromotions();
-						for (int iL = 0; iL < iNumSpawnPromotions; iL++)
-						{
-							pUnit->setHasPromotion((PromotionTypes)GC.getImprovementInfo(eLair).getSpawnPromotions(iL), true);
-						}
-					}
-				}
-			}
+			iGoal--;
 		}
-		else
+		// Lairs can only spawn if there's space for barbs to spawn; prevents wildly dense barb areas
+		// 1 animal lair can always spawn even if there's no space for a normal animal to spawn
+		else if (pArea != NULL && ((calcTargetBarbs(pArea, true, ePlayer) + (ePlayer == ANIMAL_PLAYER)) > pArea->getUnitsPerPlayer(ePlayer)))
 		{
-			if (iGoal < (GC.getHandicapInfo(getHandicapType()).getLairsPerCycle() + 50))
-			{
-				iGoal++;
-			}
+			pPlot->setImprovementType(eLair);
 		}
+
+		if (iGoal <= 0) return;
 	}
 }
 
@@ -11382,139 +10887,96 @@ void CvGame::createDemons()
 	UnitTypes eBestUnit;
 	UnitTypes eLoopUnit;
 	int iNeededDemons;
-	int iMultiplier;
 	int iValue;
 	int iBestValue;
 	int iLoop;
-	int iI, iJ;
+	int iI, iJ, iFlags;
 
 	if (isOption(GAMEOPTION_NO_DEMONS))
 	{
 		return;
 	}
 
-	iMultiplier = GC.getHandicapInfo(getHandicapType()).getPercentDemonsPerUnownedEvilPlot() + (getGlobalCounter()/std::max(1, GC.getHandicapInfo(getHandicapType()).getDemonGlobalCountSpawnBoostInterval()))*GC.getHandicapInfo(getHandicapType()).getDemonGlobalCountSpawnBoostRate();
+	iFlags = RANDPLOT_EVIL | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED;
+	// This makes demons much, much less dangerous if set
+	// if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+	// {
+	// 	iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
+	// }
 
-	if (iMultiplier > 0)
+	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
-		for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
+		// Demons have no spawn rate limit, instead depending on hell tiles
+		iNeededDemons = calcTargetBarbs(pLoopArea, true, DEMON_PLAYER) - (pLoopArea->getUnitsPerPlayer(DEMON_PLAYER));
+
+		for (iI = 0; iI < iNeededDemons; iI++)
 		{
+			pPlot = GC.getMapINLINE().syncRandPlot(iFlags, pLoopArea->getID());
 
-			iNeededDemons = (((int)sqrt((float)pLoopArea->getNumEvilTiles()*8) * iMultiplier) / 100 - (pLoopArea->getUnitsPerPlayer(DEMON_PLAYER)));
-			if (iNeededDemons > 0)
+			if (pPlot == NULL) continue;
+
+			eBestUnit = NO_UNIT;
+			iBestValue = 0;
+
+			for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
 			{
-				iNeededDemons = (iNeededDemons * (100 + (getGlobalCounter() * GC.getHandicapInfo(getHandicapType()).getDemonSpawnRateGlobalCounterEnhancementPercent()) / 100) / 100) / 8;
+				eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(DEMON_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+				if (eLoopUnit == NO_UNIT) continue;
 
-				for (iI = 0; iI < iNeededDemons; iI++)
+				CvUnitInfo& kUnit = GC.getUnitInfo(eLoopUnit);
+
+				// Hero demon units must be built/spawned in a dedicated manner
+				if (GC.getUnitClassInfo((UnitClassTypes)iJ).getMaxGlobalInstances() == 1) continue;
+
+				if (pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_SEA) continue;
+				else if (!pLoopArea->isWater() && !(kUnit.getDomainType() == DOMAIN_LAND || kUnit.getDomainType() == DOMAIN_IMMOBILE)) continue;
+				else if (pPlot->isPeak() && !(kUnit.isCanClimbPeaks() || kUnit.isCanMoveAllTerrain())) continue;
+
+				if (!GET_PLAYER(DEMON_PLAYER).canTrain(eLoopUnit, false, false, true)) continue;
+
+				if (NO_BONUS != kUnit.getPrereqAndBonus())
 				{
-					pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_EVIL | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
+					if (!GET_TEAM(DEMON_TEAM).isHasTech((TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqAndBonus()).getTechCityTrade())) continue;
+				}
 
-					if (pPlot != NULL)
+				bool bFound = false;
+				bool bRequires = false;
+				for (int i = 0; i < GC.getNUM_UNIT_PREREQ_OR_BONUSES(); ++i)
+				{
+					if (kUnit.getPrereqOrBonuses(i) == NO_BONUS) continue;
+
+					TechTypes eTech = (TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqOrBonuses(i)).getTechCityTrade();
+					if (eTech == NO_TECH) continue;
+					bRequires = true;
+
+					if (GET_TEAM(DEMON_TEAM).isHasTech(eTech))
 					{
-						eBestUnit = NO_UNIT;
-						iBestValue = 0;
-
-						for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
-						{
-							eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(DEMON_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
-						
-							if (eLoopUnit != NO_UNIT)
-							{
-								CvUnitInfo& kUnit = GC.getUnitInfo(eLoopUnit);
-
-								bool bValid = true;
-
-								if (GC.getUnitClassInfo((UnitClassTypes)iJ).getMaxGlobalInstances() == 1)
-								{
-									bValid = false;
-								}
-
-								if (bValid && !kUnit.isCanMoveAllTerrain())
-								{
-									if (pLoopArea->isWater() && kUnit.getDomainType() != DOMAIN_SEA)
-									{
-										bValid = false;
-									}
-									else if (!pLoopArea->isWater() && !(kUnit.getDomainType() == DOMAIN_LAND || kUnit.getDomainType() == DOMAIN_IMMOBILE))
-									{
-										bValid = false;
-									}
-								}
-
-								if (bValid)
-								{
-									if (!GET_PLAYER(DEMON_PLAYER).canTrain(eLoopUnit, false, false, true))
-									{
-										bValid = false;
-									}
-								}
-
-								if (bValid)
-								{
-									if (NO_BONUS != kUnit.getPrereqAndBonus())
-									{
-										if (!GET_TEAM(DEMON_TEAM).isHasTech((TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqAndBonus()).getTechCityTrade()))
-										{
-											bValid = false;
-										}
-									}
-								}
-
-								if (bValid)
-								{
-									bool bFound = false;
-									bool bRequires = false;
-									for (int i = 0; i < GC.getNUM_UNIT_PREREQ_OR_BONUSES(); ++i)
-									{
-										if (NO_BONUS != kUnit.getPrereqOrBonuses(i))
-										{
-											TechTypes eTech = (TechTypes)GC.getBonusInfo((BonusTypes)kUnit.getPrereqOrBonuses(i)).getTechCityTrade();
-											if (NO_TECH != eTech)
-											{
-												bRequires = true;
-
-												if (GET_TEAM(DEMON_TEAM).isHasTech(eTech))
-												{
-													bFound = true;
-													break;
-												}
-											}
-										}
-									}
-
-									if (bRequires && !bFound)
-									{
-										bValid = false;
-									}
-								}
-
-								if (bValid)
-								{
-									iValue = (1 + getSorenRandNum(1500, "Demon Unit Selection")) + GET_PLAYER(DEMON_PLAYER).AI_unitValue(eLoopUnit, UNITAI_ATTACK, pLoopArea);
-
-									if (kUnit.getUnitAIType(UNITAI_ATTACK))
-									{
-										iValue += 200;
-									}
-
-									if (iValue > iBestValue)
-									{
-										eBestUnit = eLoopUnit;
-										iBestValue = iValue;
-									}
-								}
-							}
-						}
-
-						if (eBestUnit != NO_UNIT)
-						{
-							CvUnit* pUnit = GET_PLAYER(DEMON_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ATTACK);
-							if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
-							{
-								pUnit->setImmobileTimer(2);
-							}
-						}
+						bFound = true;
+						break;
 					}
+				}
+				if (bRequires && !bFound) continue;
+
+				iValue = (1 + getSorenRandNum(1500, "Demon Unit Selection")) + GET_PLAYER(DEMON_PLAYER).AI_unitValue(eLoopUnit, UNITAI_ATTACK, pLoopArea);
+
+				if (kUnit.getUnitAIType(UNITAI_ATTACK))
+				{
+					iValue += 200;
+				}
+
+				if (iValue > iBestValue)
+				{
+					eBestUnit = eLoopUnit;
+					iBestValue = iValue;
+				}
+			}
+
+			if (eBestUnit != NO_UNIT)
+			{
+				CvUnit* pUnit = GET_PLAYER(DEMON_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ATTACK);
+				if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
+				{
+					pUnit->setImmobileTimer(2);
 				}
 			}
 		}
@@ -11528,138 +10990,118 @@ void CvGame::createAnimals()
 	CvPlot* pPlot;
 	UnitTypes eBestUnit;
 	UnitTypes eLoopUnit;
-	int iNeededAnimals, iValue, iNetValue, iTargetValue, iLoop, iI, iJ;
+	int iNeededAnimals, iTargetAnimals, iValue, iNetValue, iTargetValue, iLoop, iI, iJ, iFlags;
 
-	if (isOption(GAMEOPTION_NO_ANIMALS))
-	{
+	if (isOption(GAMEOPTION_NO_ANIMALS) || isOption(GAMEOPTION_NO_RANDOM_BARBARIANS))
 		return;
-	}
-
-	if (GC.getHandicapInfo(getHandicapType()).getUnownedTilesPerGameAnimal() <= 0)
-	{
-		return;
-	}
 
 	if (getNumCivCities() < countCivPlayersAlive())
-	{
 		return;
-	}
 
-	if (getElapsedGameTurns() < (5 * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 10000)) // TODO Ronkhar. Change this code to (X=getbarb%, Y=X*X/2000). Do not use pow(X,2) because X*X is quicker
-	{
+	// Random animals spawn 5x sooner than barbs, or once all civs settled
+	if ((5 * getElapsedGameTurns() < (GC.getGameSpeedInfo(getGameSpeedType()).getTurnsPerLairCycle()))
+	 || (getNumCivCities() < countCivPlayersAlive()))
 		return;
+
+	// Animals weighting gets weird if a mountain is picked; best to simply not choose mountains
+	iFlags = RANDPLOT_ANIMAL_ALLY | RANDPLOT_PASSIBLE | RANDPLOT_NOT_PEAK | RANDPLOT_UNOCCUPIED;
+	if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+	{
+		iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
 	}
 
 	for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
 	{
-		if (pLoopArea->isWater())
+		// Spawn at most 20% of limit (round up)
+		iTargetAnimals = calcTargetBarbs(pLoopArea, false, ANIMAL_PLAYER);
+		iNeededAnimals =  std::min(std::max(1, 2 * iTargetAnimals/10), iTargetAnimals - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER));
+
+		for (iI = 0; iI < iNeededAnimals; iI++)
 		{
-			iNeededAnimals = std::max(1, (pLoopArea->getNumUnownedTiles() / GC.getHandicapInfo(getHandicapType()).getUnownedWaterTilesPerGameAnimal())) - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER);
-			if (pLoopArea->getNumUnownedTiles() < 10)
+			pPlot = GC.getMapINLINE().syncRandPlot(iFlags, pLoopArea->getID());
+			if (pPlot == NULL) continue;
+
+			eBestUnit = NO_UNIT;
+			iNetValue = 0;
+
+			// Special check ;)
+			for (int iL = 0; iL < MAX_CIV_PLAYERS; iL++)
 			{
-				iNeededAnimals = 0;
-			}
-		}
-		else
-		{
-			iNeededAnimals = (pLoopArea->getNumUnownedTiles() / GC.getHandicapInfo(getHandicapType()).getUnownedTilesPerGameAnimal()) - pLoopArea->getUnitsPerPlayer(ANIMAL_PLAYER);
-		}
-
-		if (iNeededAnimals > 0)
-		{
-			iNeededAnimals = ((iNeededAnimals / 7) + 1);
-
-			if (GC.getGameINLINE().isOption(GAMEOPTION_DOUBLE_ANIMALS))
-			{
-				iNeededAnimals *= 2;
-			}
-
-			for (iI = 0; iI < iNeededAnimals; iI++)
-			{
-				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ANIMAL_ALLY | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
-
-				if (pPlot != NULL)
+				CvWString wDefault = CvWString::format(L"TiberiusW").GetCString();
+				CvWString wDefault2 = CvWString::format(L"Tiberius_W").GetCString();
+				if (GET_PLAYER((PlayerTypes)iL).isAlive() &&(GET_PLAYER((PlayerTypes)iL).getNameKey()==wDefault || GET_PLAYER((PlayerTypes)iL).getNameKey() == wDefault2) && ((ModuleIds)GC.getInfoTypeForString("MODULE_NOGGORMOTHA") != NO_MODULE) && !isUnitClassMaxedOut((UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_MURDERHOOF")))
 				{
-					eBestUnit = NO_UNIT;
-					iNetValue = 0;
-					for (int iL = 0; iL < MAX_CIV_PLAYERS; iL++)
-					{
-						CvWString wDefault = CvWString::format(L"TiberiusW").GetCString();
-						CvWString wDefault2 = CvWString::format(L"Tiberius_W").GetCString();
-						if (GET_PLAYER((PlayerTypes)iL).isAlive() &&(GET_PLAYER((PlayerTypes)iL).getNameKey()==wDefault || GET_PLAYER((PlayerTypes)iL).getNameKey() == wDefault2) && ((ModuleIds)GC.getInfoTypeForString("MODULE_NOGGORMOTHA") != NO_MODULE) && !isUnitClassMaxedOut((UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_MURDERHOOF")))
-						{
-							eBestUnit = (UnitTypes)GC.getInfoTypeForString("UNIT_MURDERHOOF");
-							iNetValue = 1000;
-						}
-					}
-					for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
-					{
-						eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+					eBestUnit = (UnitTypes)GC.getInfoTypeForString("UNIT_MURDERHOOF");
+					iNetValue = 1000;
+				}
+			}
 
-						if (eLoopUnit != NO_UNIT)
-						{
-/*************************************************************************************************/
-/** Feral Animals			  				10/19/09								Valkrionn	**/
-/**																								**/
-/*************************************************************************************************/
-							if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GC.getGameINLINE().isUnitClassMaxedOut((UnitClassTypes)iJ)))
-							{
-								if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
-								{
-									iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
-									for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
-									{
-										iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
-									}
-									if (iValue > 0)
-									{
-										iNetValue += iValue;
-									}
-								}
-							}
-						}
-					}
-					iTargetValue = GC.getGameINLINE().getMapRandNum(iNetValue, "Select Animal Spawn");
-					for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
-					{
-						eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+			// Get the plot-modulated weight summation of all possible animals to spawn
+			for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+			{
+				eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+				if (eLoopUnit == NO_UNIT) continue;
 
-						if (eLoopUnit != NO_UNIT)
-						{
-							if (!(GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ)) && !(GC.getGameINLINE().isUnitClassMaxedOut((UnitClassTypes)iJ)))
-							{
-								if ((pPlot->getFeatureType() != NO_FEATURE) ? GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()) : GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()))
-								{
-									iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
-									for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
-									{
-										iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
-									}
-									if (iValue > 0)
-									{
-										iTargetValue -= iValue;
-									}
-									if (iTargetValue <= 0)
-									{
-										eBestUnit = eLoopUnit;
-										break;
-									}
-								}
-							}
-						}
-					}
-/*************************************************************************************************/
-/**	New Tag Defs							END													**/
-/*************************************************************************************************/
+				// Disallowing already spawned world animals : Feral Animals Valkrionn 10/19/09
+				if ((GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ))
+				 || (GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ))
+				 || (isUnitClassMaxedOut((UnitClassTypes)iJ)))
+					continue;
 
-					if (eBestUnit != NO_UNIT)
-					{
-						CvUnit* pUnit = GET_PLAYER(ANIMAL_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ANIMAL);
-						if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
-						{
-							pUnit->setImmobileTimer(2);
-						}
-					}
+				// To be valid: If the plot has a feature, it must match. Otherwise, it must match the terrain.
+				if ((pPlot->getFeatureType() == NO_FEATURE) ? !GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()) : !GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()))
+					continue;
+
+				iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
+				for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
+				{
+					iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
+				}
+				if (iValue > 0)
+				{
+					iNetValue += iValue;
+				}
+			}
+
+			// From the total weight, pick a number at random. We then need to do the same calculation, to find which animal it's associated with.
+			iTargetValue = getMapRandNum(iNetValue, "Select Animal Spawn");
+			for (iJ = 0; iJ < GC.getNumUnitClassInfos(); iJ++)
+			{
+				eLoopUnit = ((UnitTypes)(GC.getCivilizationInfo(GET_PLAYER(ANIMAL_PLAYER).getCivilizationType()).getCivilizationUnits(iJ)));
+				if (eLoopUnit == NO_UNIT) continue;
+
+				// Disallowing already spawned world animals : Feral Animals Valkrionn 10/19/09
+				if ((GET_PLAYER(ANIMAL_PLAYER).isUnitClassMaxedOut((UnitClassTypes)iJ))
+				 || (GET_TEAM(GET_PLAYER(ANIMAL_PLAYER).getTeam()).isUnitClassMaxedOut((UnitClassTypes)iJ))
+				 || (isUnitClassMaxedOut((UnitClassTypes)iJ)))
+					continue;
+
+				// To be valid: If the plot has a feature, it must match. Otherwise, it must match the terrain.
+				if ((pPlot->getFeatureType() == NO_FEATURE) ? !GC.getUnitInfo(eLoopUnit).getTerrainNative(pPlot->getTerrainType()) : !GC.getUnitInfo(eLoopUnit).getFeatureNative(pPlot->getFeatureType()))
+					continue;
+
+				iValue = (GC.getUnitInfo(eLoopUnit).getAppearanceProb());
+				for (int iI = 0; iI < GC.getNumTechInfos(); iI++)
+				{
+					iValue += (GC.getUnitInfo(eLoopUnit).getAppearanceTechs(iI)) * (countKnownTechNumTeams((TechTypes)iI) > 0 ? 1 : 0);
+				}
+				if (iValue > 0)
+				{
+					iTargetValue -= iValue;
+				}
+				if (iTargetValue <= 0)
+				{
+					eBestUnit = eLoopUnit;
+					break;
+				}
+			}
+
+			if (eBestUnit != NO_UNIT)
+			{
+				CvUnit* pUnit = GET_PLAYER(ANIMAL_PLAYER).initUnit(eBestUnit, pPlot->getX_INLINE(), pPlot->getY_INLINE(), UNITAI_ANIMAL);
+				if (isMPOption(MPOPTION_SIMULTANEOUS_TURNS))
+				{
+					pUnit->setImmobileTimer(2);
 				}
 			}
 		}
@@ -11681,7 +11123,7 @@ void CvGame::createBarbarianUnits()
 	SpawnGroupTypes eBestGroup;
 	SpawnGroupTypes eLoopGroup;
 	long lResult;
-	int iNeededBarbs, iDivisor, iValue, iBestValue, iLoop, iI, iJ, iPreference;
+	int iNeededBarbs, iTargetBarbs, iValue, iBestValue, iLoop, iI, iJ, iPreference, iFlags;
 	bool bAlwaysSpawn;
 
 	if (isOption(GAMEOPTION_NO_BARBARIANS))
@@ -11696,157 +11138,158 @@ void CvGame::createBarbarianUnits()
 		return;
 	}
 
-
-	if ((getElapsedGameTurns() > ((GC.getHandicapInfo(getHandicapType()).getBarbarianCreationTurnsElapsed() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent()) / 10000)) && (getNumCivCities() > ((countCivPlayersAlive() * 3) / 2) || isOption(GAMEOPTION_NO_SETTLERS)))
+	// Random barbs only spawn past lair start, and if there are enough civ cities in the world
+	if ((getElapsedGameTurns() < GC.getGameSpeedInfo(getGameSpeedType()).getTurnsPerLairCycle())
+		|| (getNumCivCities() < ((countCivPlayersAlive() * 3) / 2) || isOption(GAMEOPTION_NO_SETTLERS)))
 	{
-		for(pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
+		return;
+	}
+
+	// Random spawn can't be on 1-tile island I guess, nor in deep ocean. Weighting is also weird for peaks, so don't spawn on those
+	iFlags = RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_NOT_PEAK | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED;
+	if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+	{
+		iFlags |= RANDPLOT_NOT_VISIBLE_TO_CIV;
+	}
+
+	for (pLoopArea = GC.getMapINLINE().firstArea(&iLoop); pLoopArea != NULL; pLoopArea = GC.getMapINLINE().nextArea(&iLoop))
+	{
+		// Don't count owned tiles, even if allied to orc player, to spawn random orcs
+		iTargetBarbs = calcTargetBarbs(pLoopArea, false, ORC_PLAYER);
+		// Spawn at most 20% of limit (round up)
+		iNeededBarbs = std::min(std::max(1, 2 * iTargetBarbs/10), iTargetBarbs - pLoopArea->getUnitsPerPlayer(ORC_PLAYER));
+
+		pLoopArea->isWater() ? eBarbUnitAI = UNITAI_ATTACK_SEA : eBarbUnitAI = UNITAI_ATTACK;
+
+		for (iI = 0; iI < iNeededBarbs; iI++)
 		{
-			if (pLoopArea->isWater())
+			pPlot = GC.getMapINLINE().syncRandPlot(iFlags, pLoopArea->getID());
+
+			if (pPlot == NULL) continue;
+
+			eBestGroup = NO_SPAWNGROUP;
+			iBestValue = 0;
+			bAlwaysSpawn = false;
+
+			for (iJ = 0; iJ < GC.getNumSpawnGroupInfos(); iJ++)
 			{
-				eBarbUnitAI = UNITAI_ATTACK_SEA;
-				iDivisor = GC.getHandicapInfo(getHandicapType()).getUnownedWaterTilesPerBarbarianUnit();
+				eLoopGroup = ((SpawnGroupTypes)iJ);
+
+				if (eLoopGroup == NO_SPAWNGROUP) continue;
+				if (!isSpawnGroupValid(eLoopGroup, pPlot, ORC_TEAM)) continue;
+
+				// We assume prereqs are met due to above. If group has prereqs (that are met), may adjust weight
+				iPreference = 0;
+
+				// Possible: Increase weight if has tech reqs? Or decrease, if lategame barbs are too strong? Simply diluting the pool may suffice.
+				// More prereqs from isSpawnGroupValid can be added to weights as well if needed.
+				// // 200 per TechAND?
+				// iPreference += (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs() * 200);
+				// // 200 per TechOR?
+				// iPreference += (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs() * 200);
+
+				// Any met terrain limit increases weight. The more possible limits, reduce the (still positive) weight
+				if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() > 0)
+				{
+					iPreference += 300;
+					iPreference -= std::min(GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() * 50, 200);
+				}
+				// Any met feature limit increases weight. The more possible limits, reduce the (still positive) weight
+				if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() > 0)
+				{
+					iPreference += 300;
+					iPreference -= std::min(GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() * 50, 200);
+				}
+
+				// Weights by default are ~1000
+				iValue = iPreference + (1 + getSorenRandNum(GC.getSpawnGroupInfo(eLoopGroup).getWeight(), "Barb Unit Selection"));
+
+				// AlwaysSpawns should still look for best among possible AlwaysSpawns
+				if (GC.getSpawnGroupInfo(eLoopGroup).isAlwaysSpawn())
+				{
+					if (bAlwaysSpawn && iBestValue > iValue) continue;
+
+					eBestGroup = eLoopGroup;
+					iBestValue = iValue;
+					bAlwaysSpawn = true;
+				}
+				else if (iValue > iBestValue && !bAlwaysSpawn)
+				{
+					eBestGroup = eLoopGroup;
+					iBestValue = iValue;
+				}
 			}
+
+			if (eBestGroup != NO_SPAWNGROUP)
+			{
+				createSpawnGroup(eBestGroup, pPlot, ORC_PLAYER, eBarbUnitAI);
+			}
+		}
+		// Python exposure for modular barb bosses. They can spawn regardless of density limit (if exist...)
+		if (pLoopArea->getNumUnownedTiles() > 0)
+		{
+			if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
+				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED| RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
 			else
-			{
-				eBarbUnitAI = UNITAI_ATTACK;
-				iDivisor = GC.getHandicapInfo(getHandicapType()).getUnownedTilesPerBarbarianUnit();
-			}
-
-			if (isOption(GAMEOPTION_RAGING_BARBARIANS) && iDivisor>0)
-			{
-				iDivisor = std::max(1, (iDivisor / 2));
-			}
-
-			if (iDivisor > 0)
-			{
-				iNeededBarbs = (std::max(1, (pLoopArea->getNumUnownedTiles() / iDivisor)) - (pLoopArea->getUnitsPerPlayer(ORC_PLAYER)));
-				if (pLoopArea->isWater() && pLoopArea->getNumUnownedTiles() > 100)
-				{
-					iNeededBarbs = std::max(5 - pLoopArea->getUnitsPerPlayer(ORC_PLAYER), iNeededBarbs);
-				}
-				if (pLoopArea->isWater() && pLoopArea->getNumUnownedTiles() < 10)
-				{
-					iNeededBarbs = 0;
-				}
-				if (iNeededBarbs > 0)
-				{
-					iNeededBarbs = ((iNeededBarbs / (6 * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() * GC.getGameSpeedInfo(getGameSpeedType()).getBarbPercent() / 10000)) + 1);
-
-					for (iI = 0; iI < iNeededBarbs; iI++)
-					{
-						if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
-							pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID());
-						else
-							pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID());
-
-						if (pPlot != NULL)
-						{
-							eBestGroup = NO_SPAWNGROUP;
-							iBestValue = 0;
-							bAlwaysSpawn = false;
-
-							for (iJ = 0; iJ < GC.getNumSpawnGroupInfos(); iJ++)
-							{
-								eLoopGroup = ((SpawnGroupTypes)iJ);
-
-								if (eLoopGroup != NO_SPAWNGROUP)
-								{
-									if (isSpawnGroupValid(eLoopGroup, pPlot, ORC_TEAM))
-									{
-										iPreference = 0;
-
-										if (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs() > 0)
-										{
-											int iNumPrereqTechANDs = GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechANDs();
-											for (int iK = 0; iK < iNumPrereqTechANDs; iK++)
-											{
-												if (!GET_TEAM(ORC_TEAM).isHasTech((TechTypes)GC.getSpawnGroupInfo(eLoopGroup).getPrereqTechANDs(iK)))
-												{
-													iPreference += 200;
-												}
-											}
-										}
-
-										if (GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs() > 0)
-										{
-											int iNumPrereqTechORs = GC.getSpawnGroupInfo(eLoopGroup).getNumPrereqTechORs();
-											for (int iK = 0; iK < iNumPrereqTechORs; iK++)
-											{
-												if (!GET_TEAM(ORC_TEAM).isHasTech((TechTypes)GC.getSpawnGroupInfo(eLoopGroup).getPrereqTechORs(iK)))
-												{
-													iPreference += 200;
-												}
-											}
-										}
-
-										if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains() > 0)
-										{
-											int iNumSpawnTerrains = GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnTerrains();
-											for (int iK = 0; iK < iNumSpawnTerrains; iK++)
-											{
-												TerrainTypes eSpawnTerrain = (TerrainTypes)GC.getSpawnGroupInfo(eLoopGroup).getSpawnTerrains(iK);
-												if (pPlot->getTerrainType() == eSpawnTerrain)
-												{
-													iPreference += 400;
-												}
-											}
-										}
-
-										if (GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures() > 0)
-										{
-											int iNumSpawnFeatures = GC.getSpawnGroupInfo(eLoopGroup).getNumSpawnFeatures();
-											for (int iK = 0; iK < iNumSpawnFeatures; iK++)
-											{
-												FeatureTypes eSpawnFeature = (FeatureTypes)GC.getSpawnGroupInfo(eLoopGroup).getSpawnFeatures(iK);
-												if (pPlot->getFeatureType() == eSpawnFeature)
-												{
-													iPreference += 400;
-												}
-											}
-										}
-
-										iValue = iPreference + (1 + getSorenRandNum(GC.getSpawnGroupInfo(eLoopGroup).getWeight(), "Barb Unit Selection"));
-										if (GC.getSpawnGroupInfo(eLoopGroup).isAlwaysSpawn())
-										{
-											eBestGroup = eLoopGroup;
-											iBestValue = iValue;
-											bAlwaysSpawn = true;
-										}
-										if (iValue > iBestValue && !bAlwaysSpawn)
-										{
-											eBestGroup = eLoopGroup;
-											iBestValue = iValue;
-										}
-									}
-								}
-							}
-
-							if (eBestGroup != NO_SPAWNGROUP)
-							{
-								createSpawnGroup(eBestGroup, pPlot, ORC_PLAYER, eBarbUnitAI);
-							}
-						}
-					}
-				}
-				else if (pLoopArea->getNumUnownedTiles() > 0)
-				{
-					if (isOption(GAMEOPTION_NO_VISIBLE_BARBARIANS))
-						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED| RANDPLOT_NOT_VISIBLE_TO_CIV), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
-					else
-						pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
-				CyPlot* pyPlot = new CyPlot(pPlot);
-					CyArgsList argsList;
-					argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));	// pass in plot class
-					gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianBosses", argsList.makeFunctionArgs());
-					delete pyPlot;	// python fxn must not hold on to this pointer
-				}
-			}
+				pPlot = GC.getMapINLINE().syncRandPlot((RANDPLOT_ORC_ALLY | RANDPLOT_ADJACENT_LAND | RANDPLOT_PASSIBLE | RANDPLOT_UNOCCUPIED), pLoopArea->getID(), GC.getDefineINT("MIN_BARBARIAN_STARTING_DISTANCE"));
+			CyPlot* pyPlot = new CyPlot(pPlot);
+			CyArgsList argsList;
+			argsList.add(gDLL->getPythonIFace()->makePythonObject(pyPlot));	// pass in plot class
+			gDLL->getPythonIFace()->callFunction(PYGameModule, "createBarbarianBosses", argsList.makeFunctionArgs());
+			delete pyPlot;	// python fxn must not hold on to this pointer
 		}
 	}
 }
-/*************************************************************************************************/
-/**	Spawn Groups							END													**/
-/*************************************************************************************************/
+
+// Each barb type has slightly different density limit calculation. All here for easy comparison.
+// Note that barbs can spawn as groups and so go over the limit on the turn spawned, but should not
+// be substantially over aside from happenstance of small limit and multiple large groups spawning.
+int CvGame::calcTargetBarbs(CvArea* pArea, bool bCountOwnedPlots, PlayerTypes ePlayer) const
+{
+	FAssertMsg(pArea != NULL, "Need passing valid area to calculated barb density");
+	FAssertMsg(ePlayer == ANIMAL_PLAYER || ePlayer == ORC_PLAYER || ePlayer == DEMON_PLAYER, "Need to calculate spawn for a barb team")
+
+	int iTargetBarbs = 0;
+	int iAreaSize = 0;
+
+	if (ePlayer == ANIMAL_PLAYER)
+	{
+		iAreaSize = (bCountOwnedPlots ? pArea->getNumTiles() : pArea->getNumUnownedTiles());
+		int iDivisor = (pArea->isWater() ?
+			GC.getHandicapInfo(getHandicapType()).getWaterTilesPerAnimal() :
+			GC.getHandicapInfo(getHandicapType()).getTilesPerAnimal());
+
+		iTargetBarbs = iAreaSize / std::max(1, iDivisor);
+
+		if (isOption(GAMEOPTION_DOUBLE_ANIMALS)) iTargetBarbs *= 2;
+	}
+	else if (ePlayer == ORC_PLAYER)
+	{
+		iAreaSize = (bCountOwnedPlots ? pArea->getNumTiles() : pArea->getNumUnownedTiles());
+		int iDivisor = (pArea->isWater() ?
+			GC.getHandicapInfo(getHandicapType()).getWaterTilesPerOrc() :
+			GC.getHandicapInfo(getHandicapType()).getTilesPerOrc());
+
+		// Originally had a max of 5 per body of water; will see if need to reduce
+		iTargetBarbs = iAreaSize / std::max(1, iDivisor);
+	}
+	else
+	{
+		// Demons don't have an "unowned evil" tile calculation; need to add one in CvArea if desired
+		iAreaSize = pArea->getNumEvilTiles();
+		// Reduce density on water, otherwise big oceans can get loooots of demons
+		if (pArea->isWater()) iAreaSize /= 20;
+
+		// AC effect is additive to demons/evil plot calcuation. Ex: 10AC*0.4/AC adds +4% to the X%demon/evil tile target density
+		int iCounterAdjust = getGlobalCounter() * GC.getHandicapInfo(getHandicapType()).getPercentDemonsPerEvilPlotPerGlobalCounter() / 100;
+		iTargetBarbs = (GC.getHandicapInfo(getHandicapType()).getPercentDemonsPerEvilPlot() + iCounterAdjust) * iAreaSize / 100;
+	}
+
+	if (isOption(GAMEOPTION_RAGING_BARBARIANS)) iTargetBarbs *= 2;
+
+	// Min limit for spawning is handled per spawning type (random/group, lair)
+	return std::max(0, iTargetBarbs);
+}
 
 /*************************************************************************************************/
 /**	Spawn Groups						08/12/10									Valkrionn	**/
@@ -11855,220 +11298,169 @@ void CvGame::createBarbarianUnits()
 /*************************************************************************************************/
 bool CvGame::isSpawnGroupValid(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, TeamTypes eTeam)
 {
-	bool bValid = true;
-
 	if (GC.getSpawnGroupInfo(eSpawnGroup).isNeverSpawn())
+		return false;
+
+	if (isOption(GAMEOPTION_NO_RANDOM_BARBARIANS) && !GC.getSpawnGroupInfo(eSpawnGroup).isAlwaysSpawn())
+		return false;
+
+	if (pPlot->isWater() && !GC.getSpawnGroupInfo(eSpawnGroup).isNaval())
 	{
-		bValid = false;
+		return false;
+	}
+	else if (!pPlot->isWater() && GC.getSpawnGroupInfo(eSpawnGroup).isNaval())
+	{
+		return false;
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).isUnique())
 	{
-		if (pPlot->isWater() && !GC.getSpawnGroupInfo(eSpawnGroup).isNaval())
+		if (getSpawnGroupCreatedCount(eSpawnGroup) != 0)
 		{
-			bValid = false;
-		}
-		else if (!pPlot->isWater() && GC.getSpawnGroupInfo(eSpawnGroup).isNaval())
-		{
-			bValid = false;
-		}
-	}
-
-	if (bValid)
-	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).isUnique())
-		{
-			if (getSpawnGroupCreatedCount(eSpawnGroup) != 0)
-			{
-				bValid = false;
-			}
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinTurn() != 0)
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinTurn() != 0)
+		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinTurn() >= getGameTurn())
 		{
-			if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinTurn() >= getGameTurn())
-			{
-				bValid = false;
-			}
-		}
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxTurn() != 0)
-		{
-			if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxTurn() <= getGameTurn())
-			{
-				bValid = false;
-			}
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxTurn() != 0)
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinAC() != 0)
+		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxTurn() <= getGameTurn())
 		{
-			if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinAC() >= getGlobalCounter())
-			{
-				bValid = false;
-			}
-		}
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxAC() != 0)
-		{
-			if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxAC() <= getGlobalCounter())
-			{
-				bValid = false;
-			}
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinAC() != 0)
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject() != NO_PROJECT)
+		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMinAC() >= getGlobalCounter())
 		{
-			if (GC.getGameINLINE().getProjectCreatedCount((ProjectTypes)(GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject())) == 0)
-			{
-				bValid = false;
-			}
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxAC() != 0)
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechANDs() > 0)
+		if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqMaxAC() <= getGlobalCounter())
 		{
-			if (eTeam != ORC_TEAM) {
-				int iNumPrereqTechANDs = GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechANDs();
-				for (int iK = 0; iK < iNumPrereqTechANDs; iK++)
-				{
-					if (!GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getPrereqTechANDs(iK)))
-					{
-						bValid = false;
-						break;
-					}
-				}
-			}
-			else
-			{
-				int iNumPrereqTechANDs = GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechANDs();
-				for (int iK = 0; iK < iNumPrereqTechANDs; iK++)
-				{
-					if (4*countKnownTechNumTeams((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getPrereqTechANDs(iK))<=countCivTeamsAlive())
-					{
-						bValid = false;
-						break;
-					}
-				}
-			}
-		}	
-	}
-
-	if (bValid)
-	{
-		bool bFound = false, bPass = false;
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechORs() > 0)
-		{
-			int iNumPrereqTechORs = GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechORs();
-			for (int iK = 0; iK < iNumPrereqTechORs; iK++)
-			{
-				bFound = true;
-				if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getPrereqTechORs(iK)))
-				{
-					bPass = true;
-					break;
-				}
-			}
-		}
-		if (bFound && !bPass)
-		{
-			bValid = false;
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject() != NO_PROJECT)
 	{
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechANDs() > 0)
+		if (getProjectCreatedCount((ProjectTypes)(GC.getSpawnGroupInfo(eSpawnGroup).getPrereqProject())) == 0)
 		{
-			int iNumBlockTechANDs = GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechANDs();
-			for (int iK = 0; iK < iNumBlockTechANDs; iK++)
+			return false;
+		}
+	}
+
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechANDs() > 0)
+	{
+		// Barb and demon teams gain tech in CvTeam::doTurn at a delay from civs that know it
+		int iNumPrereqTechANDs = GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechANDs();
+		for (int iK = 0; iK < iNumPrereqTechANDs; iK++)
+		{
+			if (!GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getPrereqTechANDs(iK)))
 			{
-				if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getBlockTechANDs(iK)))
-				{
-					bValid = false;
-					break;
-				}
+				return false;
 			}
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechORs() > 0)
 	{
-		bool bFound = false, bPass = false;
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechORs() > 0)
+		bool bPass = false;
+		int iNumPrereqTechORs = GC.getSpawnGroupInfo(eSpawnGroup).getNumPrereqTechORs();
+		for (int iK = 0; iK < iNumPrereqTechORs; iK++)
 		{
-			int iNumBlockTechORs = GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechORs();
-			for (int iK = 0; iK < iNumBlockTechORs; iK++)
+			if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getPrereqTechORs(iK)))
 			{
-				bFound = true;
-				if (!GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getBlockTechORs(iK)))
-				{
-					bPass = true;
-					break;
-				}
+				bPass = true;
+				break;
 			}
 		}
-		if (bFound && !bPass)
+		if (!bPass)
 		{
-			bValid = false;
+			return false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechANDs() > 0)
 	{
-		bool bFound = false, bPass = false;
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnTerrains() > 0)
+		int iNumBlockTechANDs = GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechANDs();
+		for (int iK = 0; iK < iNumBlockTechANDs; iK++)
 		{
-			int iNumSpawnTerrains = GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnTerrains();
-			for (int iK = 0; iK < iNumSpawnTerrains; iK++)
+			if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getBlockTechANDs(iK)))
 			{
-				TerrainTypes eSpawnTerrain = (TerrainTypes)GC.getSpawnGroupInfo(eSpawnGroup).getSpawnTerrains(iK);
-				bFound = true;
-				if (pPlot->getTerrainType() == eSpawnTerrain)
-				{
-					bPass = true;
-					break;
-				}
+				return false;
 			}
-		}
-		if (bFound && !bPass)
-		{
-			bValid = false;
 		}
 	}
 
-	if (bValid)
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechORs() > 0)
 	{
-		bool bFound = false, bPass = false;
-		if (GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnFeatures() > 0)
+		bool bPass = true;
+		int iNumBlockTechORs = GC.getSpawnGroupInfo(eSpawnGroup).getNumBlockTechORs();
+		for (int iK = 0; iK < iNumBlockTechORs; iK++)
 		{
-			int iNumSpawnFeatures = GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnFeatures();
-			for (int iK = 0; iK < iNumSpawnFeatures; iK++)
+			if (GET_TEAM(eTeam).isHasTech((TechTypes)GC.getSpawnGroupInfo(eSpawnGroup).getBlockTechORs(iK)))
 			{
-				FeatureTypes eSpawnFeature = (FeatureTypes)GC.getSpawnGroupInfo(eSpawnGroup).getSpawnFeatures(iK);
-				bFound = true;
-				if (pPlot->getFeatureType() == eSpawnFeature)
-				{
-					bPass = true;
-					break;
-				}
+				bPass = false;
+				break;
 			}
 		}
-		if (bFound && !bPass)
+		if (!bPass)
 		{
-			bValid = false;
+			return false;
 		}
 	}
 
-	if (bValid && !CvString(GC.getSpawnGroupInfo(eSpawnGroup).getPyRequirement()).empty()) /* testing lfgr proposition - 2013-11-21 */
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnTerrains() > 0)
+	{
+		bool bPass = false;
+		int iNumSpawnTerrains = GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnTerrains();
+		for (int iK = 0; iK < iNumSpawnTerrains; iK++)
+		{
+			TerrainTypes eSpawnTerrain = (TerrainTypes)GC.getSpawnGroupInfo(eSpawnGroup).getSpawnTerrains(iK);
+			if (pPlot->getTerrainType() == eSpawnTerrain)
+			{
+				bPass = true;
+				break;
+			}
+		}
+		if (!bPass)
+		{
+			return false;
+		}
+	}
+
+	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnFeatures() > 0)
+	{
+		bool bPass = false;
+		int iNumSpawnFeatures = GC.getSpawnGroupInfo(eSpawnGroup).getNumSpawnFeatures();
+		for (int iK = 0; iK < iNumSpawnFeatures; iK++)
+		{
+			FeatureTypes eSpawnFeature = (FeatureTypes)GC.getSpawnGroupInfo(eSpawnGroup).getSpawnFeatures(iK);
+			if (pPlot->getFeatureType() == eSpawnFeature)
+			{
+				bPass = true;
+				break;
+			}
+		}
+		if (!bPass)
+		{
+			return false;
+		}
+	}
+
+	if (!CvString(GC.getSpawnGroupInfo(eSpawnGroup).getPyRequirement()).empty()) /* testing lfgr proposition - 2013-11-21 */
 	{
 		CyPlot* pyPlot = new CyPlot(pPlot);
 		CyArgsList argsList;
@@ -12078,17 +11470,18 @@ bool CvGame::isSpawnGroupValid(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, TeamT
 		delete pyPlot;
 		if (lResult == 0)
 		{
-			bValid = false;
+			return false;
 		}
 	}
 
-	return bValid;
+	return true;
 }
 
 void CvGame::createSpawnGroup(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, PlayerTypes ePlayer, UnitAITypes eUnitAI)
 {
 	CvUnit* pCommanderUnit=NULL;
 	bool bCommanded = false;
+	CvWString szBuffer;
 
 	if (GC.getSpawnGroupInfo(eSpawnGroup).getNumCommanderUnits() > 0)
 	{
@@ -12097,6 +11490,13 @@ void CvGame::createSpawnGroup(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, Player
 		{
 			pCommanderUnit = GET_PLAYER(ePlayer).initUnit((UnitTypes)GC.getSpawnGroupInfo(eSpawnGroup).getCommanderUnits(iK), pPlot->getX_INLINE(), pPlot->getY_INLINE(), eUnitAI);
 			bCommanded = true;
+
+			// Tell players something spawned for them
+			if (ePlayer != DEMON_PLAYER && ePlayer != ANIMAL_PLAYER && ePlayer != ORC_PLAYER)
+			{
+				szBuffer = gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_GROUP", GC.getImprovementInfo(pPlot->getImprovementType()).getTextKeyWide(), pCommanderUnit->getName().GetCString());
+				gDLL->getInterfaceIFace()->addMessage(ePlayer, false, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_UNITGIFTED", MESSAGE_TYPE_INFO, pCommanderUnit->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_YELLOW"), pPlot->getX_INLINE(), pPlot->getY_INLINE(), true, true);
+			}
 
 			if (GC.getSpawnGroupInfo(eSpawnGroup).getNumCommanderPromotions() > 0)
 			{
@@ -12151,6 +11551,11 @@ void CvGame::createSpawnGroup(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, Player
 					{
 						pCommanderUnit->addMinionUnit(pUnit->getID());
 					}
+				}
+				else
+				{
+					szBuffer = gDLL->getText("TXT_KEY_IMPROVEMENT_SPAWN_UNIT", GC.getImprovementInfo(pPlot->getImprovementType()).getTextKeyWide(), pUnit->getName().GetCString());
+					gDLL->getInterfaceIFace()->addMessage(ePlayer, false, GC.getEVENT_MESSAGE_TIME(), szBuffer,  "AS2D_UNITGIFTED", MESSAGE_TYPE_INFO, pUnit->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_YELLOW"), pPlot->getX_INLINE(), pPlot->getY_INLINE(), iK==0, iK==0);
 				}
 			}
 		}
@@ -12232,14 +11637,14 @@ void CvGame::createSpawnGroup(SpawnGroupTypes eSpawnGroup, CvPlot* pPlot, Player
 /**	Spawn Groups							END													**/
 /*************************************************************************************************/
 
-int CvGame::getLastLairCycle() const
+int CvGame::getNextLairCycle() const
 {
-	return m_iLastLairCycle;
+	return m_iNextLairCycle;
 }
 
-void CvGame::setLastLairCycle(int iNewValue)
+void CvGame::setNextLairCycle(int iNewValue)
 {
-	m_iLastLairCycle = iNewValue;
+	m_iNextLairCycle = iNewValue;
 }
 
 int CvGame::getNumCivActive(CivilizationTypes eCivilization) const

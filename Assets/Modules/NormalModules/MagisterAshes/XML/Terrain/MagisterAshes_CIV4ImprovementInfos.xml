@@ -67,8 +67,8 @@
 					<GoodyClassType>GOODYCLASS_ABADDON</GoodyClassType>
 					<bGoodyClass>1</bGoodyClass>
 				</GoodyClass>
-				
 			</GoodyClasses>
+			<iBasePlotCounterModify>20</iBasePlotCounterModify>
 		</ImprovementInfo>
 		<ImprovementInfo>  <!--Wandering Castle of the Eternal Blizzard-->
 			<Type>IMPROVEMENT_BADBS_BLIZZARD</Type>
@@ -273,10 +273,11 @@
 			<FeatureUpgrade></FeatureUpgrade>
 			<PrereqCivilization>NONE</PrereqCivilization>
 			<PythonAtRange/>
+			<bSpawnOnlyForOwner>1</bSpawnOnlyForOwner>
 			<SpawnUnitType>UNIT_SCORPION</SpawnUnitType>
 			<SpawnUnitCiv>CIVILIZATION_DEMON</SpawnUnitCiv>
-			<iSpawnPerGameLimit>15</iSpawnPerGameLimit>
-			<iSpawnAtOnceLimit>1</iSpawnAtOnceLimit>
+			<iSpawnAtOnceLimit>2</iSpawnAtOnceLimit>
+			<iBasePlotCounterModify>20</iBasePlotCounterModify>
 		</ImprovementInfo>
 		<ImprovementInfo> 	<!--Whispering Woods-->
 			<Type>IMPROVEMENT_WHISPERING_WOOD</Type>
@@ -327,7 +328,6 @@
 			<iDefenseModifier>0</iDefenseModifier>
 			<iHappiness>0</iHappiness>
 			<iPillageGold>0</iPillageGold>
-			<bOutsideBorders>1</bOutsideBorders>
 			<TerrainMakesValids>
 				<TerrainMakesValid>
 					<TerrainType>TERRAIN_PLAINS</TerrainType>

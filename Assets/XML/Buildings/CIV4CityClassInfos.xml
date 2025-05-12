@@ -8,6 +8,7 @@
 	<CityClassInfos>
 	<CityClassInfo>
 	<Type>CITYCLASS_TEST</Type>
+	<Description>TXT_KEY_CITYCLASS_TEST</Description>
 	<Units>
 		<Unit>
 			<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
@@ -19,6 +20,7 @@
 	</CityClassInfo>
 	<CityClassInfo>
 	<Type>CITYCLASS_SAUROS_CUALLI</Type>
+		<Description>TXT_KEY_CITYCLASS_SAUROS_CUALLI</Description>
 	<Buildings>
 		<Building>
 			<BuildingClassType>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClassType>
@@ -135,9 +137,10 @@
 					<UnitType>NONE</UnitType>
 				</Unit>
 		</Units>
-		</CityClassInfo>
+	</CityClassInfo>
 	<CityClassInfo>
-	<Type>CITYCLASS_SAUROS_CLAN</Type>
+		<Type>CITYCLASS_SAUROS_CLAN</Type>
+		<Description>TXT_KEY_CITYCLASS_SAUROS_CLAN</Description>
 	<Buildings>
 		<Building>
 			<BuildingClassType>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClassType>

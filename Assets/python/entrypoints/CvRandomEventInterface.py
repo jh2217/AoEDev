@@ -104,7 +104,7 @@ def canTriggerAmathaonMessenger(argsList):
 	pPlayer = gc.getPlayer(kTriggeredData.ePlayer)
 	iPlayer = pPlayer.getCivilizationType()
 	pUnit = pPlayer.getUnit(kTriggeredData.iUnitId)
-	if (pUnit.getUnitClassType() == gc.getInfoTypeForString("UNITCLASS_FORT_COMMANDER")):
+	if (pUnit.getUnitClassType() == gc.getDefineINT("FORT_COMMANDER_UNITCLASS")):
 		return False
 	#if pUnit.getLevel() < 5:
 	#	return False
@@ -116,12 +116,12 @@ def canTriggerPseudoDragon(argsList):
 	iPlayer = pPlayer.getCivilizationType()
 	pUnit = pPlayer.getUnit(kTriggeredData.iUnitId)
 	iGood          = getInfoType('ALIGNMENT_GOOD')
-	if (pUnit.getUnitClassType() == gc.getInfoTypeForString("UNITCLASS_FORT_COMMANDER")):
+	if (pUnit.getUnitClassType() == gc.getDefineINT("FORT_COMMANDER_UNITCLASS")):
 		return False
 	#if pUnit.getLevel() < 5:
 	#	return False
 	#return True
-	return pUnit.isAlive() and not pUnit.isHasPromotion(getInfoType('PROMOTION_PSEUDODRAGON_COMPANION')) and (pPlayer.getAlignment()== iGood or pUnit.getRace()==getInfoType('PROMOTION_ELF')) and pUnit.getUnitCombatType()==getInfoType('UNITCOMBAT_ARCANE')
+	return pUnit.isAlive() and not pUnit.isHasPromotion(getInfoType('PROMOTION_PSEUDODRAGON_COMPANION')) and (pPlayer.getAlignment()== iGood or pUnit.getRace()==getInfoType('PROMOTION_ELF')) and pUnit.getUnitCombatType()==getInfoType('UNITCOMBAT_ADEPT')
 
 def canTriggerAmicus(argsList):
 	kTriggeredData = argsList[0]
@@ -129,7 +129,7 @@ def canTriggerAmicus(argsList):
 	iPlayer = pPlayer.getCivilizationType()
 	pUnit = pPlayer.getUnit(kTriggeredData.iUnitId)
 	iGood          = getInfoType('ALIGNMENT_GOOD')
-	if (pUnit.getUnitClassType() == gc.getInfoTypeForString("UNITCLASS_FORT_COMMANDER")):
+	if (pUnit.getUnitClassType() == gc.getDefineINT("FORT_COMMANDER_UNITCLASS")):
 		return False
 	if pUnit.getLevel() < 5:
 		return False
@@ -142,7 +142,7 @@ def canTriggerAppeleur(argsList):
 	iPlayer = pPlayer.getCivilizationType()
 	pUnit = pPlayer.getUnit(kTriggeredData.iUnitId)
 	iGood          = getInfoType('ALIGNMENT_GOOD')
-	if (pUnit.getUnitClassType() == gc.getInfoTypeForString("UNITCLASS_FORT_COMMANDER")):
+	if (pUnit.getUnitClassType() == gc.getDefineINT("FORT_COMMANDER_UNITCLASS")):
 		return False
 	return pUnit.isAlive() and not pUnit.isHasPromotion(getInfoType('PROMOTION_APPELEUR_COMPANION')) and (pPlayer.getAlignment()== iGood ) 
 

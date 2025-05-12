@@ -809,7 +809,8 @@ public:
 	bool getFeatureDoubleMove(int i) const;				// Exposed to Python
 	bool getPlotEffectDoubleMove(int i) const;				// Exposed to Python
 	bool getUnitCombat(int i) const;				// Exposed to Python
-/*************************************************************************************************/
+	int getMaxExpReward() const;
+	/*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
 /**										Leashes	a unit to a plot								**/
@@ -1435,6 +1436,7 @@ protected:
 	bool m_bTradeDefender;
 
 	CvString m_szSound;
+	int m_iMaxExpReward;
 /*************************************************************************************************/
 /**	MobileCage								01/28/2010								Valkrionn	**/
 /**																								**/
@@ -2120,6 +2122,7 @@ public:
 /**	New Tag Defs							END													**/
 /*************************************************************************************************/
 	int getRange() const;
+	int getTargetRange() const;
 	int getEffect() const;
 	int getAIWeight() const;
 	int getCasterMinLevel() const;
@@ -2310,6 +2313,7 @@ protected:
 	int m_iDamageType;
 	int m_iDelay;
 	int m_iRange;
+	int m_iTargetRange;
 	int m_iResistModify;
 	int m_iAddPromotionType1;
 	int m_iAddPromotionType2;
@@ -2918,6 +2922,7 @@ public:
 /*************************************************************************************************/
 	int getPrereqBuildingClass() const;
 	int getPrereqCivic() const;
+	int getPrereqTrait() const;
 	int getPrereqGlobalCounter() const;
 	int getPromotionFromCombat() const;
 	const TCHAR* getPyPreCombat() const;//PyPreCombat by BI 07/24/11
@@ -3415,6 +3420,7 @@ protected:
 /*************************************************************************************************/
 	int m_iPrereqBuildingClass;
 	int m_iPrereqCivic;
+	int m_iPrereqTrait;
 	int m_iPrereqGlobalCounter;
 	int m_iPromotionFromCombat;
 	int m_iTier;
@@ -4571,6 +4577,7 @@ public:
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 	bool isSeeInvisible() const;
+	bool isOverflowProduction() const;
 	bool isUnhappyProduction() const;
 	int getCrime() const;
 	int getFreePromotionPick() const;
@@ -4995,6 +5002,7 @@ protected:
 /**	Aqueduct END 									**/
 /*************************************************************************************************/
 	bool m_bSeeInvisible;
+	bool m_bOverflowProduction;
 	bool m_bUnhappyProduction;
 	int m_iCrime;
 	int m_iCrimePerTurn;
@@ -5777,9 +5785,9 @@ public:
 	int getAttitudeChange() const;				// Exposed to Python
 	int getNoTechTradeModifier() const;				// Exposed to Python
 	int getTechTradeKnownModifier() const;				// Exposed to Python
-	int getUnownedTilesPerGameAnimal() const;				// Exposed to Python
-	int getUnownedTilesPerBarbarianUnit() const;				// Exposed to Python
-	int getUnownedWaterTilesPerBarbarianUnit() const;				// Exposed to Python
+	int getTilesPerAnimal() const;				// Exposed to Python
+	int getTilesPerOrc() const;				// Exposed to Python
+	int getWaterTilesPerOrc() const;				// Exposed to Python
 	int getUnownedTilesPerBarbarianCity() const;				// Exposed to Python
 	int getBarbarianCreationTurnsElapsed() const;				// Exposed to Python
 	int getBarbarianCityCreationTurnsElapsed() const;				// Exposed to Python
@@ -5818,23 +5826,18 @@ public:
 
 //FfH Improvements: Added by Kael 08/07/2007
 	int getAIFreeXP() const;
-	int getLairSpawnRate() const;
 //FfH: End Add
 /*************************************************************************************************/
 /**	New Tag Defs	(HandicapInfos)			12/27/08								Xienwolf	**/
 /**																								**/
 /**								Defines Function for Use in .cpp								**/
 /*************************************************************************************************/
-	int getUnownedWaterTilesPerGameAnimal() const;
+	int getWaterTilesPerAnimal() const;
 	int getAnimalEscalationTurnsElapsed() const;
-	int getLairSpawnChance() const;
-	int getLairsPerCycle() const;
-	int getPercentDemonsPerUnownedEvilPlot() const;
-	int getDemonGlobalCountSpawnBoostInterval() const;
-	int getDemonGlobalCountSpawnBoostRate() const;
+	int getPercentDemonsPerEvilPlot() const;
 	int getDemonPerTurnKnownTechsPercent() const;
 	int getDemonGlobalCounterFreeXPPercent() const;
-	int getDemonSpawnRateGlobalCounterEnhancementPercent() const;
+	int getPercentDemonsPerEvilPlotPerGlobalCounter() const;
 	int getDemonBonus() const;
 	int getAIDemonBonus() const;
 /*************************************************************************************************/
@@ -5885,9 +5888,9 @@ protected:
 	int m_iAttitudeChange;
 	int m_iNoTechTradeModifier;
 	int m_iTechTradeKnownModifier;
-	int m_iUnownedTilesPerGameAnimal;
-	int m_iUnownedTilesPerBarbarianUnit;
-	int m_iUnownedWaterTilesPerBarbarianUnit;
+	int m_iTilesPerAnimal;
+	int m_iTilesPerOrc;
+	int m_iWaterTilesPerOrc;
 	int m_iUnownedTilesPerBarbarianCity;
 	int m_iBarbarianCreationTurnsElapsed;
 	int m_iBarbarianCityCreationTurnsElapsed;
@@ -5937,23 +5940,18 @@ protected:
 /*************************************************************************************************/
 /**	DecimalXP									END												**/
 /*************************************************************************************************/
-	int m_iLairSpawnRate;
 //FfH: End Add
 /*************************************************************************************************/
 /**	New Tag Defs	(HandicapInfos)			12/27/08								Xienwolf	**/
 /**																								**/
 /**								Defines Variable for Use in .cpp								**/
 /*************************************************************************************************/
-	int m_iUnownedWaterTilesPerGameAnimal;
+	int m_iWaterTilesPerAnimal;
 	int m_iAnimalEscalationTurnsElapsed;
-	int m_iLairSpawnChance;
-	int m_iLairsPerCycle;
-	int m_iPercentDemonsPerUnownedEvilPlot;
-	int m_iDemonGlobalCountSpawnBoostInterval;
-	int m_iDemonGlobalCountSpawnBoostRate;
+	int m_iPercentDemonsPerEvilPlot;
 	int m_iDemonPerTurnKnownTechsPercent;
 	int m_iDemonGlobalCounterFreeXPPercent;
-	int m_iDemonSpawnRateGlobalCounterEnhancementPercent;
+	int m_iPercentDemonsPerEvilPlotPerGlobalCounter;
 	int m_iDemonBonus;
 	int m_iAIDemonBonus;
 /*************************************************************************************************/
@@ -6014,6 +6012,7 @@ public:
 /**																								**/
 /**								Defines Function for Use in .cpp								**/
 /*************************************************************************************************/
+	int getLairSpawnChance() const;
 	int getTurnsPerLairCycle() const;
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
@@ -6063,6 +6062,7 @@ protected:
 /**																								**/
 /**								Defines Variable for Use in .cpp								**/
 /*************************************************************************************************/
+	int m_iLairSpawnChance;
 	int m_iTurnsPerLairCycle;
 /*************************************************************************************************/
 /**	New Tag Defs							END													**/
@@ -6644,7 +6644,6 @@ public:
 /**								Defines Function for Use in .cpp								**/
 /*************************************************************************************************/
 	int getSpawnUnitCiv() const;
-	int getSpawnPerGameLimit() const;
 	int getSpawnAtOnceLimit() const;
 	int getLairCreationWeight() const;
 /*************************************************************************************************/
@@ -6745,6 +6744,8 @@ public:
 	bool isRequiresPeak() const;
 	bool isUnique() const;
 	int getAppearanceProbability() const;
+	int getSpawnUnitChancePercentMod() const;
+	int getSpawnGroupChancePercentMod() const;
 	int getHealRateChange() const;
 	int getRange() const;
 	int getRangeDefenseModifier() const;
@@ -6864,6 +6865,8 @@ protected:
 	bool m_bRequiresPeak;
 	bool m_bUnique;
 	int m_iAppearanceProbability;
+	int m_iSpawnUnitChancePercentMod;
+	int m_iSpawnGroupChancePercentMod;
 	int m_iHealRateChange;
 	int m_iRange;
 	int m_iRangeDefenseModifier;
@@ -6913,7 +6916,6 @@ protected:
 /*************************************************************************************************/
 	std::vector<CvString> m_aszExtraXML3forPass3;
 	int m_iSpawnUnitCiv;
-	int m_iSpawnPerGameLimit;
 	int m_iSpawnAtOnceLimit;
 	int m_iLairCreationWeight;
 /*************************************************************************************************/
@@ -9322,7 +9324,12 @@ public:
 	int getImprovementYieldChangesVectorSize();
 	CvString getImprovementYieldChangesNamesVectorElement(int i);
 	int* getImprovementYieldChangesValuesVectorElement(int i);
-/*************************************************************************************************/
+	int getUnitClassesVectorSize();
+	int getUnitClassesUnitVectorSize();
+	CvString getUnitClassesVectorElement(int i);
+	CvString getUnitClassesUnitVectorElement(int i);
+	int getExtraUnitClasses(int i) const;
+	/*************************************************************************************************/
 /**	Miner Trait							END			**/
 /*************************************************************************************************/
 
@@ -9511,7 +9518,9 @@ protected:
 	int** m_ppiImprovementYieldChanges;
 	std::vector<CvString> m_aszImprovementYieldChanges;
 	std::vector<int*> m_yiImprovementYieldChanges;
-
+	std::vector<CvString> m_aszUnitClassesforPass3;
+	std::vector<CvString> m_aszUnitClassesUnitforPass3;
+	int* m_piExtraUnitClass;
 /*************************************************************************************************/
 /**	Miner Trait							END			**/
 /*************************************************************************************************/

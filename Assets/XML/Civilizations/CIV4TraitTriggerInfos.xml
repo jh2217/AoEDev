@@ -115,7 +115,7 @@
 			<TraitHookType>TRAITHOOK_BUILD_IMPROVEMENT</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_MANA_METAMAGIC</PrereqImprovementType>
 		</TraitTriggerInfo>
-		<TraitTriggerInfo> <!-- Build               Mind Mana                                	Dominant, Illusionist -->
+		<TraitTriggerInfo> <!-- Build               Mind Mana                                	Dominant, Illusionist, Caretaker -->
 			<Type>TRAITTRIGGER_BUILD_MANA_MIND</Type>
 			<CounterChanges>
 				<CounterChange>
@@ -124,6 +124,10 @@
 				</CounterChange>
 				<CounterChange>
 					<TraitType>TRAIT_ILLUSIONIST</TraitType>
+					<iModifier>25</iModifier>
+				</CounterChange>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
 					<iModifier>25</iModifier>
 				</CounterChange>
 			</CounterChanges>
@@ -5293,6 +5297,156 @@
 			<TraitClassType>TRAITCLASS_PERSONALITY</TraitClassType>
 			<TraitHookType>TRAITHOOK_IMPROVE_IMPROVEMENT</TraitHookType>
 			<PrereqImprovementType>IMPROVEMENT_CITADEL</PrereqImprovementType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Inspiration                               Caretaker -->
+			<Type>TRAITTRIGGER_CAST_INSPIRATION_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>2</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>			
+			<PrereqSpellType>SPELL_INSPIRATION</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Charm Person                               Caretaker -->
+			<Type>TRAITTRIGGER_CAST_CHARM_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>			
+			<PrereqSpellType>SPELL_CHARM_PERSON</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Building gives happiness                       Caretaker -->
+			<Type>TRAITTRIGGER_CONSTRUCT_BUILDING_HAPPINESS_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+				<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<bPrereqHappiness>1</bPrereqHappiness>
+	</TraitTriggerInfo>		
+	<TraitTriggerInfo> <!-- Construct           Building gives health                       Caretaker -->
+			<Type>TRAITTRIGGER_CONSTRUCT_BUILDING_HEALTH_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>20</iModifier>
+				</CounterChange>
+			</CounterChanges>
+		<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			
+			<bPrereqHealth>1</bPrereqHealth>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Construct           Infirmary                       			Caretaker -->
+			<Type>TRAITTRIGGER_CONSTRUCT_BUILDING_INFIRMARY_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>50</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_PERSONALITY</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CONSTRUCT_BUILDING</TraitHookType>
+			<PrereqBuildingClassType>BUILDINGCLASS_INFIRMARY</PrereqBuildingClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Train               Recon                                    	Caretaker -->
+			<Type>TRAITTRIGGER_TRAIN_RECON_IMPORTANT_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_TRAIN_UNIT</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_RECON</PrereqUnitCombatType>
+		</TraitTriggerInfo>		
+		<TraitTriggerInfo> <!-- Train               Disciple                                    Caretaker -->
+			<Type>TRAITTRIGGER_TRAIN_DISCIPLE_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>
+			
+				<TraitHookType>TRAITHOOK_TRAIN_UNIT</TraitHookType>
+			
+			<PrereqUnitCombatType>UNITCOMBAT_DISCIPLE</PrereqUnitCombatType>
+		</TraitTriggerInfo>	
+		<TraitTriggerInfo> <!-- Cast                Enter the Arena                               Caretaker -->
+			<Type>TRAITTRIGGER_CAST_ARENA_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>15</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>			
+			<PrereqSpellType>SPELL_ENTER_ARENA</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Capture             Anything captures Slave   		        	Caretaker -->
+			<Type>TRAITTRIGGER_CAPTURE_SLAVE_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>5</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CAPTURE_UNIT</TraitHookType>
+			<PrereqKilledUnitClassType>UNITCLASS_SLAVE</PrereqKilledUnitClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Gain GP		Great Healer                                		Caretaker  -->
+			<Type>TRAITTRIGGER_GAIN_GP_COMMANDER</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>150</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>						
+			<TraitHookType>TRAITHOOK_GP_BORN</TraitHookType>
+			<PrereqUnitClassType>UNITCLASS_HEALER</PrereqUnitClassType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Ascension                               Caretaker -->
+			<Type>TRAITTRIGGER_CAST_ASCENSION_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>200</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>			
+			<PrereqSpellType>SPELL_ASCENSION_V2</PrereqSpellType>
+		</TraitTriggerInfo>
+		<TraitTriggerInfo> <!-- Cast                Enslave Dissidents                             Caretaker -->
+			<Type>TRAITTRIGGER_CAST_ENSLAVE_DISSIDENTS_ZARIA</Type>
+			<CounterChanges>
+				<CounterChange>
+					<TraitType>TRAIT_ZARIA_INFO</TraitType>
+					<iModifier>10</iModifier>
+				</CounterChange>
+			</CounterChanges>
+			<TraitClassType>TRAITCLASS_EMERGENT</TraitClassType>			
+			<TraitHookType>TRAITHOOK_CAST_SPELL</TraitHookType>			
+			<PrereqSpellType>SPELL_ENSLAVE_DISSIDENTS_V2</PrereqSpellType>
 		</TraitTriggerInfo>
 	</TraitTriggerInfos>
 </Civ4TraitTriggerInfos>

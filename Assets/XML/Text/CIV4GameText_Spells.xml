@@ -2240,7 +2240,15 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_RANGE</Tag>
-		<English>[ICON_BULLET]Range: %D1</English>
+		<English>[ICON_BULLET]Area of Effect Radius: %D1</English>
+		<French>[ICON_BULLET]Portée : %d1</French>
+		<German>[ICON_BULLET]Reichweite: %D1</German>
+		<Italian>[ICON_BULLET]Range: %D1</Italian>
+		<Spanish>[ICON_BULLET]Range: %D1</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_TARGET_RANGE</Tag>
+		<English>[ICON_BULLET]Spell Range: %D1</English>
 		<French>[ICON_BULLET]Portée : %d1</French>
 		<German>[ICON_BULLET]Reichweite: %D1</German>
 		<Italian>[ICON_BULLET]Range: %D1</Italian>

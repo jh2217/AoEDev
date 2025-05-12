@@ -1253,22 +1253,22 @@ class CvGameUtils:
 				if pLoopPlayer.getLeaderType() == Leader["Duin"] and pLoopPlayer.isAlive(): return True
 		elif eUnit == Hero["Varulv"]:
 			if pPlayer.getLeaderType() != Leader["Duin"]: return True
-		elif eUnit == Unit["Summons"]["Water Elemental"]:
-			if not pPlayer.hasTrait(Trait["Hydromancer 2"]): return True
-		elif eUnit == gc.getInfoTypeForString("UNIT_PRIESTESS_OF_BHALL") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CUALLI"):
-			if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC2")):
-				return True
-		elif eUnit == gc.getInfoTypeForString("UNIT_LIZARD_PRIEST_OF_AGRUONN") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CLAN_OF_EMBERS"):
-			if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC2")):
-				return True
-		elif eUnit == gc.getInfoTypeForString("UNIT_HIGH_PRIESTESS_OF_BHALL") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CUALLI"):
-			if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC3")):
-				return True
-		elif eUnit == gc.getInfoTypeForString("UNIT_SHADOW_PRIEST_OF_AGRUONN") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CLAN_OF_EMBERS"):
-			if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC3")):
-				return True
-		elif eUnit == Hero["Kahd"]:
-			if not (pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_KAHD_OGHMA")) or pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_KAHD_MAMMON"))):	return True
+		#elif eUnit == Unit["Summons"]["Water Elemental"]:
+		#	if not pPlayer.hasTrait(Trait["Hydromancer 2"]): return True
+	#	elif eUnit == gc.getInfoTypeForString("UNIT_PRIESTESS_OF_BHALL") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CUALLI"):
+	#		if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC2")):
+	#			return True
+	#	elif eUnit == gc.getInfoTypeForString("UNIT_LIZARD_PRIEST_OF_AGRUONN") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CLAN_OF_EMBERS"):
+	#		if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC2")):
+	#			return True
+	#	elif eUnit == gc.getInfoTypeForString("UNIT_HIGH_PRIESTESS_OF_BHALL") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CUALLI"):
+	#		if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC3")):
+	#			return True
+	#	elif eUnit == gc.getInfoTypeForString("UNIT_SHADOW_PRIEST_OF_AGRUONN") and pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC")) and pPlayer.getCivilizationType()==gc.getInfoTypeForString("CIVILIZATION_CLAN_OF_EMBERS"):
+	#		if not pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_HEMAPYROSYNCRETISTIC3")):
+	#			return True
+	#	elif eUnit == Hero["Kahd"]:
+	#		if not (pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_KAHD_OGHMA")) or pPlayer.hasTrait(gc.getInfoTypeForString("TRAIT_KAHD_MAMMON"))):	return True
 
 		# emergency warrior production. # Note from Ronkhar : this would be bad when we enable Dtesh AI
 		#if bAI:
@@ -1296,19 +1296,19 @@ class CvGameUtils:
 		#	if eUnitClass == gc.getInfoTypeForString('UNIT_OVERSEER'): return True
 		#	if eUnitClass == gc.getInfoTypeForString('UNIT_COMBAT_OVERSEER'): return True
 		# TODO Ronkhar: redo all this limitation code
-		if pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_ZARIA'):
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_ASSASSIN'): return True
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_SHADOW'): return True
-		else:
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_AGENT'): return True
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_ADJUNCT'): return True
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_CARETAKER_MATRON'): return True
-		if pPlayer.getLeaderType() != gc.getInfoTypeForString('LEADER_JAMAL'):
-			if eUnitClass == gc.getInfoTypeForString('UNITCLASS_KARAS'): return True
-		if pPlayer.getLeaderType() != gc.getInfoTypeForString('LEADER_IRAM'):
-			if eUnit == gc.getInfoTypeForString('UNIT_CUSTODIAN'): return True
-			if eUnit == gc.getInfoTypeForString('UNIT_SHARPSHOOTER'): return True
-			if eUnit == gc.getInfoTypeForString('UNIT_SKIRMISHER'): return True
+		#if pPlayer.getLeaderType() == gc.getInfoTypeForString('LEADER_ZARIA'):
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_ASSASSIN'): return True
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_SHADOW'): return True
+		#else:
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_AGENT'): return True
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_ADJUNCT'): return True
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_CARETAKER_MATRON'): return True
+		#if pPlayer.getLeaderType() != gc.getInfoTypeForString('LEADER_JAMAL'):
+		#	if eUnitClass == gc.getInfoTypeForString('UNITCLASS_KARAS'): return True
+		#if pPlayer.getLeaderType() != gc.getInfoTypeForString('LEADER_IRAM'):
+		#	if eUnit == gc.getInfoTypeForString('UNIT_CUSTODIAN'): return True
+		#	if eUnit == gc.getInfoTypeForString('UNIT_SHARPSHOOTER'): return True
+		#	if eUnit == gc.getInfoTypeForString('UNIT_SKIRMISHER'): return True
 
 		## *******************
 		## Modular Python: ANW 29-may-2010

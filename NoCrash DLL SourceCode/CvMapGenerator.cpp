@@ -1209,12 +1209,11 @@ int CvMapGenerator::calculateNumBonusesToAdd(BonusTypes eBonusType)
 	int iBonusCount = (iBaseCount * (iLandTiles + iPlayers)) / 100;
 	iBonusCount = std::max(1, iBonusCount);
 
-//FfH: Added by Kael 09/29/2070
+	//FfH: Added by Kael 09/29/2070
 	if (GC.getGameINLINE().isOption(GAMEOPTION_DOUBLE_BONUSES))
 	{
 		iBonusCount *= 2;
 	}
-//FfH: End Add
 
 	return iBonusCount;
 }
@@ -1236,67 +1235,51 @@ void CvMapGenerator::addImprovements()
 	for (int iI = 0; iI < GC.getMapINLINE().numPlotsINLINE(); iI++)
 	{
 		pPlot = GC.getMapINLINE().plotByIndexINLINE(iI);
-		if (pPlot->getBonusType(NO_TEAM) == NO_BONUS)
+
+		if (pPlot->getBonusType(NO_TEAM) != NO_BONUS)
+			continue;
+
+		if (pPlot->getImprovementType() != NO_IMPROVEMENT)
+			continue;
+
+		bValid = true;
+		for (int iJ = 0; iJ < NUM_DIRECTION_TYPES; ++iJ)
 		{
-			if (pPlot->getImprovementType() == NO_IMPROVEMENT)
+			pAdjacentPlot = plotDirection(pPlot->getX_INLINE(), pPlot->getY_INLINE(), ((DirectionTypes)iJ));
+			if (pAdjacentPlot == NULL)
+				continue;
+
+			if (pAdjacentPlot->getImprovementType() != NO_IMPROVEMENT)
 			{
-				bValid = true;
-				for (int iJ = 0; iJ < NUM_DIRECTION_TYPES; ++iJ)
-				{
-					pAdjacentPlot = plotDirection(pPlot->getX_INLINE(), pPlot->getY_INLINE(), ((DirectionTypes)iJ));
-					if (pAdjacentPlot != NULL)
-					{
-						if (pAdjacentPlot->getImprovementType() != NO_IMPROVEMENT)
-						{
-							bValid = false;
-						}
-						if (pAdjacentPlot->isCity())
-						{
-							bValid = false;
-						}
-					}
-				}
-				if (pPlot->isCity())
-				{
-					bValid = false;
-				}
-				if (pPlot->getNumUnits() > 0)
-				{
-					bValid = false;
-				}
-				if (bValid)
-				{
-					for (int iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
-					{
-						if (pPlot->canHaveImprovement((ImprovementTypes)iJ, NO_TEAM))
-						{
-/*************************************************************************************************/
-/**	Xienwolf Tweak							12/13/08											**/
-/**																								**/
-/**					Reduction in massive Random Spam in Logger files by using Map				**/
-/*************************************************************************************************/
-/**								---- Start Original Code ----									**
-							if (GC.getGameINLINE().getSorenRandNum(10000, "Spawn Improvement") < GC.getImprovementInfo((ImprovementTypes)iJ).getAppearanceProbability())
-/**								----  End Original Code  ----									**/
-							if (GC.getGameINLINE().getMapRandNum(10000, "Spawn Improvement") < GC.getImprovementInfo((ImprovementTypes)iJ).getAppearanceProbability())
-/*************************************************************************************************/
-/**	Tweak									END													**/
-/*************************************************************************************************/
-							{
-								pPlot->setImprovementType((ImprovementTypes)iJ);
-/*************************************************************************************************/
-/**	Orbis	why should adding improvement remove features?	14/09/09	Ahwaric		**/
-/*************************************************************************************************/
-/**	---- Start Original Code ----	**
-								pPlot->setFeatureType(NO_FEATURE);
-/**	----  End Original Code  ----	**/
-/*************************************************************************************************/
-/**	Orbis	END										**/
-/*************************************************************************************************/
-							}
-						}
-					}
-				}
+				bValid = false;
+				break;
+			}
+			if (pAdjacentPlot->isCity())
+			{
+				bValid = false;
+				break;
+			}
+		}
+
+		if (pPlot->isCity() || !bValid)
+			continue;
+
+		if (pPlot->getNumUnits() > 0)
+			continue;
+
+		for (int iJ = 0; iJ < GC.getNumImprovementInfos(); iJ++)
+		{
+			if (!(pPlot->canHaveImprovement((ImprovementTypes)iJ, NO_TEAM)))
+				continue;
+
+			// Spawners can't be adjacent to another spawner on game start
+			if ((GC.getImprovementInfo((ImprovementTypes)iJ).getSpawnUnitCiv() != NO_CIVILIZATION) && (pPlot->isOwned() || pPlot->isAdjacentOwned()))
+				continue;
+
+			// Use MapRandNum instead of SorenRandNum to reduce logger spam : Xienwolf Tweak 12/13/08
+			if (GC.getGameINLINE().getMapRandNum(10000, "Spawn Improvement") < GC.getImprovementInfo((ImprovementTypes)iJ).getAppearanceProbability())
+			{
+				pPlot->setImprovementType((ImprovementTypes)iJ);
 			}
 		}
 	}

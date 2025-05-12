@@ -24,6 +24,7 @@ import WBPlayerUnits
 import WBInfoScreen
 import WBTradeScreen
 import CvEventManager
+import CvEventInterface
 import Popup
 
 gc = CyGlobalContext()
@@ -426,12 +427,12 @@ class CvWorldBuilderScreen:
 					bEffects = True
 				pCity.setNumRealBuilding(self.iSelection, 1)
 				if bEffects:
-					CvEventManager.CvEventManager().onBuildingBuilt([pCity, self.iSelection])
+					CvEventInterface.getEventManager().onBuildingBuilt([pCity, self.iSelection])
 		elif self.iPlayerAddMode == "City":
 			if self.m_pCurrentPlot.isCity(): return
 			pCity = gc.getPlayer(self.m_iCurrentPlayer).initCity(self.m_pCurrentPlot.getX(), self.m_pCurrentPlot.getY())
 			if bPython:
-				CvEventManager.CvEventManager().onCityBuilt([pCity])
+				CvEventInterface.getEventManager().onCityBuilt([pCity])
 	## Python Effects ##
 		elif self.iPlayerAddMode == "Improvements":
 			self.m_pCurrentPlot.setImprovementType(self.iSelection)
@@ -1448,6 +1449,7 @@ class CvWorldBuilderScreen:
 			for i in xrange(gc.getNumTerrainInfos()):
 				ItemInfo = gc.getTerrainInfo(i)
 				if ItemInfo.isGraphicalOnly(): continue
+				if i == gc.getInfoTypeForString('TERRAIN_HILL'): continue
 				lItems.append([ItemInfo.getDescription(), i])
 			lItems.sort()
 

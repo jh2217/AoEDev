@@ -19,6 +19,8 @@ import CvPediaPlotEffect
 import CvPediaImprovement
 import CvPediaCivic
 import CvPediaCivilization
+import CvPediaCityClass
+import CvPediaRoute
 import CvPediaLeader
 import CvPediaTrait
 import CvPediaSpecialist
@@ -67,10 +69,12 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		self.pediaBonus             = CvPediaBonus.CvPediaBonus(self)
 		self.pediaTerrain           = CvPediaTerrain.CvPediaTerrain(self)
 		self.pediaFeature           = CvPediaFeature.CvPediaFeature(self)
-		self.pediaPlotEffect           = CvPediaPlotEffect.CvPediaPlotEffect(self)
+		self.pediaPlotEffect        = CvPediaPlotEffect.CvPediaPlotEffect(self)
 		self.pediaImprovement       = CvPediaImprovement.CvPediaImprovement(self)
 		self.pediaCivic             = CvPediaCivic.CvPediaCivic(self)
 		self.pediaCivilization      = CvPediaCivilization.CvPediaCivilization(self)
+		self.pediaCityClass         = CvPediaCityClass.CvPediaCityClass(self)
+		self.pediaRoute             = CvPediaRoute.CvPediaRoute(self)
 		self.pediaLeader            = CvPediaLeader.CvPediaLeader(self)
 		self.pediaTrait             = CvPediaTrait.CvPediaTrait(self)
 		self.pediaSpecialist        = CvPediaSpecialist.CvPediaSpecialist(self)
@@ -98,7 +102,8 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_BUILDING   : self.placeBuildings,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_TERRAIN    : self.placeTerrains,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_FEATURE    : self.placeFeatures,
-			CivilopediaPageTypes.CIVILOPEDIA_PAGE_PLOT_EFFECT    : self.placePlotEffects,
+			CivilopediaPageTypes.CIVILOPEDIA_PAGE_PLOT_EFFECT: self.placePlotEffects,
+			CivilopediaPageTypes.CIVILOPEDIA_PAGE_ROUTE      : self.placeRoutes,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_BONUS      : self.placeBoni,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_IMPROVEMENT: self.placeImprovements,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_SPECIALIST : self.placeSpecialists,
@@ -107,6 +112,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_UNIT_GROUP : self.placeUnitGroups,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CIV        : self.placeCivs,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_LEADER     : self.placeLeaders,
+			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CITYCLASS  : self.placeCityClasses,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_TRAIT      : self.placeTraits,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_RELIGION   : self.placeReligions,
 			CivilopediaPageTypes.CIVILOPEDIA_PAGE_CORPORATION: self.placeCorporations,
@@ -189,7 +195,8 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_BUILDING"   , ()),
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_TERRAIN"    , ()),
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_FEATURE"    , ()),
-			localText.getText("TXT_KEY_PEDIA_CATEGORY_PLOT_EFFECT"    , ()),
+			localText.getText("TXT_KEY_PEDIA_CATEGORY_PLOT_EFFECT", ()),
+			localText.getText("TXT_KEY_PEDIA_CATEGORY_ROUTE"      , ()),
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_BONUS"      , ()),
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_IMPROVEMENT", ()),
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_SPECIALIST" , ()),
@@ -198,6 +205,7 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_UNIT_COMBAT", ()),
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_CIV"        , ()),
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_LEADER"     , ()),
+			localText.getText("TXT_KEY_PEDIA_CATEGORY_CITYCLASS"  , ()),
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_TRAIT"      , ()),
 			localText.getText("TXT_KEY_PEDIA_CATEGORY_RELIGION"   , ()),
 			localText.getText("TXT_KEY_CONCEPT_CORPORATIONS"      , ()),
@@ -292,6 +300,12 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 
 	def placeCivs(self):
 		self.placeFilterSort(self.pediaCivilization, WidgetTypes.WIDGET_PEDIA_JUMP_TO_CIV)
+
+	def placeCityClasses(self):
+		self.placeFilterSort(self.pediaCityClass, WidgetTypes.WIDGET_PEDIA_JUMP_TO_CITYCLASS)
+
+	def placeRoutes(self):
+		self.placeFilterSort(self.pediaRoute, WidgetTypes.WIDGET_PEDIA_JUMP_TO_ROUTE)
 
 	def placeLeaders(self):
 		self.placeFilterSort(self.pediaLeader, WidgetTypes.WIDGET_PEDIA_JUMP_TO_LEADER)
@@ -430,9 +444,6 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 				
 				# 2) affichage de la liste impossible, err à la ligne ci-dessous
 				#screen.setTableText(tableName, iColumn, iRow, u"<font=3>" + item[0] + u"</font>", getInfo(item[1]).getButton(), widget, item[1], 1,  CvUtil.FONT_LEFT_JUSTIFY)
-				print "SpawnGroupTest"
-				print item
-				print getInfo(item[1]).isUnique()
 				screen.setTableText(tableName, iColumn, iRow, u"<font=3>" + item[0] + u"</font>", "", widget, item[1], 1,  CvUtil.FONT_LEFT_JUSTIFY)
 				# screen.setTableText(tableName, iColumn, iRow, u"<font=3>" + item[0] + u"</font>", getInfo(item[1]).getButton(), widget, item[1], item[1],  CvUtil.FONT_LEFT_JUSTIFY)
 
@@ -529,6 +540,10 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			self.pediaCivic.interfaceScreen(iEntry)
 		elif (iScreen == CvScreenEnums.PEDIA_CIVILIZATION):
 			self.pediaCivilization.interfaceScreen(iEntry)
+		elif (iScreen == CvScreenEnums.PEDIA_CITYCLASS):
+			self.pediaCityClass.interfaceScreen(iEntry)
+		elif (iScreen == CvScreenEnums.PEDIA_ROUTE):
+			self.pediaRoute.interfaceScreen(iEntry)
 		elif (iScreen == CvScreenEnums.PEDIA_LEADER):
 			self.pediaLeader.interfaceScreen(iEntry)
 		elif (iScreen == CvScreenEnums.PEDIA_TRAIT):
@@ -603,6 +618,10 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			return self.pediaJump(CvScreenEnums.PEDIA_MAIN, int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_UNIT_GROUP), True)
 		if (szLink == "PEDIA_MAIN_CIV"):
 			return self.pediaJump(CvScreenEnums.PEDIA_MAIN, int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_CIV), True)
+		if (szLink == "PEDIA_MAIN_CITYCLASS"):
+			return self.pediaJump(CvScreenEnums.PEDIA_MAIN, int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_CITYCLASS), True)
+		if (szLink == "PEDIA_MAIN_ROUTE"):
+			return self.pediaJump(CvScreenEnums.PEDIA_MAIN, int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_ROUTE), True)
 		if (szLink == "PEDIA_MAIN_LEADER"):
 			return self.pediaJump(CvScreenEnums.PEDIA_MAIN, int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_LEADER), True)
 		if (szLink == "PEDIA_MAIN_TRAIT"):
@@ -676,6 +695,12 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 		for i in range(gc.getNumCivilizationInfos()):
 			if (gc.getCivilizationInfo(i).isMatchForLink(szLink, False)):
 				return self.pediaJump(CvScreenEnums.PEDIA_CIVILIZATION, i, True)
+		for i in range(gc.getNumCityClassInfos()):
+			if (gc.getCityClassInfo(i).isMatchForLink(szLink, False)):
+				return self.pediaJump(CvScreenEnums.PEDIA_CITYCLASS, i, True)
+		for i in range(gc.getNumRouteInfos()):
+			if (gc.getRouteInfo(i).isMatchForLink(szLink, False)):
+				return self.pediaJump(CvScreenEnums.PEDIA_ROUTE, i, True)
 		for i in range(gc.getNumLeaderHeadInfos()):
 			if (gc.getLeaderHeadInfo(i).isMatchForLink(szLink, False)):
 				return self.pediaJump(CvScreenEnums.PEDIA_LEADER, i, True)
@@ -735,6 +760,10 @@ class CvPediaMain( CvPediaScreen.CvPediaScreen ):
 			return self.pediaCivic.handleInput(inputClass)
 		if (self.iLastScreen == CvScreenEnums.PEDIA_CIVILIZATION or (self.iLastEntry == int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_CIV) and self.iLastScreen == CvScreenEnums.PEDIA_MAIN)):
 			return self.pediaCivilization.handleInput(inputClass)
+		if (self.iLastScreen == CvScreenEnums.PEDIA_CITYCLASS or (self.iLastEntry == int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_CITYCLASS) and self.iLastScreen == CvScreenEnums.PEDIA_MAIN)):
+			return self.pediaCityClass.handleInput(inputClass)
+		if (self.iLastScreen == CvScreenEnums.PEDIA_ROUTE or (self.iLastEntry == int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_ROUTE) and self.iLastScreen == CvScreenEnums.PEDIA_MAIN)):
+			return self.pediaRoute.handleInput(inputClass)
 		if (self.iLastScreen == CvScreenEnums.PEDIA_LEADER or (self.iLastEntry == int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_LEADER) and self.iLastScreen == CvScreenEnums.PEDIA_MAIN)):
 			return self.pediaLeader.handleInput(inputClass)
 		if (self.iLastScreen == CvScreenEnums.PEDIA_TRAIT or (self.iLastEntry == int(CivilopediaPageTypes.CIVILOPEDIA_PAGE_TRAIT) and self.iLastScreen == CvScreenEnums.PEDIA_MAIN)):

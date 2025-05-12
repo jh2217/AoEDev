@@ -834,6 +834,7 @@ void CvCity::reset(int iID, PlayerTypes eOwner, int iX, int iY, bool bConstructo
 	m_iMutateChance = 0;
 	m_iPlotRadius = 2;
 	m_iResistMagic = 0;
+	m_iOverflowProductionSources = 0;
 	m_iUnhappyProduction = 0;
 //FfH: End Add
 /*************************************************************************************************/
@@ -5324,6 +5325,7 @@ void CvCity::processBuilding(BuildingTypes eBuilding, int iChange, bool bObsolet
 		}
 //FfH: Added by Kael 08/04/2007
 		changeCrime(GC.getBuildingInfo(eBuilding).getCrime() * iChange);
+		changeOverflowProductionSources(iChange * GC.getBuildingInfo(eBuilding).isOverflowProduction());
 		changeUnhappyProduction(iChange * GC.getBuildingInfo(eBuilding).isUnhappyProduction());
 		if (GC.getBuildingInfo(eBuilding).getFreeBonus2() != NO_BONUS)
 		{
@@ -16205,7 +16207,7 @@ void CvCity::doProduction(bool bAllowNoProduction)
 			popOrder(0, true, true);
 		}
 /**								----  End Original Code  ----									**/
-		if (GET_PLAYER(getOwnerINLINE()).isOverflowProduction())
+		if (isOverflowProduction() || GET_PLAYER(getOwnerINLINE()).isOverflowProduction())
 		{
 			int iOverflowProductionModified = 0;
 			while (isProduction() && productionLeft() <= iOverflowProductionModified)
@@ -16718,6 +16720,7 @@ void CvCity::read(FDataStreamBase* pStream)
 	pStream->Read(&m_iMutateChance);
 	pStream->Read(&m_iPlotRadius);
 	pStream->Read(&m_iResistMagic);
+	pStream->Read(&m_iOverflowProductionSources);
 	pStream->Read(&m_iUnhappyProduction);
 //FfH: End Add
 /*************************************************************************************************/
@@ -17147,6 +17150,7 @@ void CvCity::write(FDataStreamBase* pStream)
 	pStream->Write(m_iMutateChance);
 	pStream->Write(m_iPlotRadius);
 	pStream->Write(m_iResistMagic);
+	pStream->Write(m_iOverflowProductionSources);
 	pStream->Write(m_iUnhappyProduction);
 //FfH: End Add
 /*************************************************************************************************/
@@ -19391,6 +19395,16 @@ void CvCity::setPlotRadius(int iNewValue)
 		updateFeatureHealth();
 		updateFeatureHappiness();
 	}
+}
+
+bool CvCity::isOverflowProduction() const
+{
+	return m_iOverflowProductionSources > 0;
+}
+
+void CvCity::changeOverflowProductionSources(int iChange)
+{
+	m_iOverflowProductionSources += iChange;
 }
 
 bool CvCity::isUnhappyProduction() const
@@ -21747,6 +21761,10 @@ bool CvCity::canSwitchToCultureLevel(CultureLevelTypes eCultureLevel, bool bIgno
 
 int CvCity::getCityUnits(int eUnitClass) const
 {
+	if (GET_PLAYER(getOwner()).getExtraUnitClasses((UnitClassTypes)eUnitClass) != NO_UNIT)
+	{
+		return GET_PLAYER(getOwner()).getExtraUnitClasses((UnitClassTypes)eUnitClass);
+	}
 	if (getCityClass() != NO_CITYCLASS)
 	{
 	//	if (GC.getCityClassInfo(getCityClass()).getCityClassUnits(eUnitClass) != NO_UNIT)

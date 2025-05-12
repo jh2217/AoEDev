@@ -13,46 +13,140 @@ LeastCraft
 [desc]
 tweaks to archos civ
 
-v1.0
-By: @LeastCraft
-
-Buildings:
-	Mother's Nest:
-	Grants "Spider Blood" to all eligible units
-	No longer grants +10% tech
-	Cost increased from 160 to 320
-
-Units:
-	Animal Packs and Archos now share the same spiders, with hidden nationality
-	CHANGED Baby spider to gain Growth Spurt immediately after and only after killing a living unit
-	ADDED 90% damage limit to Tribesman 
-	ADDED "Spider Blood" promotion to Nesting Spider
-	ADDED Spider Rider (Replaces chariot, same thing but does not require horses)
-	ADDED War Spider (Replaces war chariot, same thing but does not require horses)
-	REMOVED Huntsman and Recluse (Art kept, lore moved to spiderkin)
-
-v1.1
+v1.6
 By: @LeastCraft
 
 Graphics:
-	Updated Mother Model
+Updated models and buttons for Archos Spearman, Pikeman, Crossbowman, Mage and Archmage.
 
 Units:
-	ADDED Free Unit promotion to Baby Spider
+	Spider Huntress can now dismount to become a Spearman, and vice versa.
+	Spider Knightess can now dismount to become a Pikeman, and vice versa.
 
-v1.2
-By: @Honourable596
+	Updated Archos Unique "Immortal" to "Mother's Most Faithful", with collateral damage, free "Cannibalize", "Spider Blood" promotions, as well as new graphics.
+	Updated Archos Berserker to "Deep Enwebbed", with 50% chance to spawn Baby Spider from combat, free "Cannibalize", "Spider Blood" promotions, as well as new graphics.
+
+	Increased chance of Mother of Mothers creating Baby Spider from combat from 75% to 100%.
+	
+	Unique units for Warrior (Tribesman), Axeman (Brute), Champion (Chosen), Hunter (Huntsman), Ranger (Recluse), Spearman (Doviello Spearman), Pikeman (Doviello Pikeman) are removed, art moved to the regular units.
+
+Improvements:
+	Archosian Workers can no longer build pastures.
+	Changed Maze of Webs to now only yield +2 Commerce to the Archosian tribe and yield nothing to other civs.
+
+v1.5
+By: @LeastCraft
+
+QoL:
+	Fixed help text for Rhagodessa spider promotion.
+	Versions of spider variant promotions from Spiderkin trait are now hidden from civilopedia for clarity.
+	Updated strategy information for the Archos civilization and the spiders in civilopedia.
+
+New mechanics:
+	Archos now accumulate Brood Activity (BA) each turn which you can spend on spider related spells.
+	The capital will still spawn spider by chance each turn, and the chance to spawn a spider is proportional to the BA gained on that turn.
+	The rate of BA gain and the chance of spider spawn are no longer reduced by the number of spiders owned.
+	Automatically spawned spiders do not cost Brood Activity.
+	The tier of spider spawned automatically now depends on both the capital population and the BA saved up:
+	- If BA < 200 (Dormant), no spider will be spawned.
+	- If the capital >= size 1 and BA >= 200 (Astir), Baby Spiders will be spawned.
+	- If the capital >= size 6 and BA >= 400 (Restless), Spiders will be spawned.
+	- If the capital >= size 11 and BA >= 800 (Thronging), Giant Spiders will be spawned.
+	
+	Leaders with Spiderkin trait gives the Spiderkin promotion to spawned spiders at capital >= size 9 instead of size 10.
+
+Spells:
+	Added new spells which utilize BA:
+	- Call Baby Spider: Can be cast by any unit. Can only be cast in a player owned city. Consumes 25 BA to summon a Baby Spider.
+		- Can be used unlimited number of times per turn.
+	- Call Spider: Can be cast by any unit. Can only be cast in a player owned city of size >= 6. Consumes 75 BA to summon a Spider.
+		- Can be used unlimited number of times per turn.
+	- Call Giant Spider: Can be cast by any unit. Can only be cast in a player owned city of size >= 11. Consumes 150 BA to summon a Giant Spider.
+		- Can be used unlimited number of times per turn.
+	- Diet of Worms: Can be cast by units with Nature I promotion. Can only be cast in a player owned city. Consumes 100 BA to add 4 food and 8 unhealthiness in the city. Lasts until the caster leaves the city.
+		- Can only be used once per turn.
+	- Psalm for the Swarm: Can be cast by Haruspex. Can only be cast in a player owned city. Increase BA by 50.
+		- Can only be used once per turn.
+	
+	Poison Explosion 1 and 2 now deal poison damage and applies poison with 100% chance.
+
+	Added new spell "Poison Fume": Adds the "Poison Fume" promotion to units within 1 range.
+	
+Abilities:
+	Added new spells which utilize Baby Spiders:
+		- Smear Poison: Can be used by any unit except animals and beasts. Sacrifices the weakest Baby Spider to gain Poisoned Blade promotion.
+			- Can be used unlimited number of times per turn.
+		- Cannibalize: Can be used by Spiders and Giant Spiders. Consumes the weakest Baby Spider in stack to recover 15% health.
+			- Can only be used once per turn.
+	- Spider Upgrade now requires the caster (Spider) to be >= level 4 and capital to be >= size 11.
 
 Units:
-	Commented out scorpions as unique units
-	CHANGED the spider rider UU to replace the vanilla Horseman (tier 1 mounted) instead of the Horse Archer (tier 2 mounted) and adjusted stats accordingly
-	CHANGED the war spider into replacing the knight unit and only requiring the construction technology and siege workshop building - adjusted stats to match vanilla knight
-	RE-ADDED the Archos UU replacing the Hunter and Ranger Tier 2+3 recon units.
+	Baby Spider gains 20% withdrawal chance
+
+Promotions:
+	Growth Spurts now has 20% chance of wearing off per turn instead of 10%, meaning that Baby Spiders grow twice as fast as before.
+	Symbiotic Communion no longer costs all movement for Haruspex.
+	Rhagodessa now additionally grants +1 movement.
+	Greater Rhagodessa now additionally grants 100% collateral damage with max damage cap at 60% against up to 7 units and +25% strength, but self-destructs after battle.
+	Mucro Revealed 1 and Revealed 2 now additionally grants +25% city attack each.
+	Textus now additionally allows spiders to build Maze of Webs.
+	Greater Venenum changed to to grant access to spell "Poison Fume"
+	Added Archosian Worker, a promotion for Archosian Workers that allows them to build Feeding Pen.
+
+Improvements:
+	Added Maze of Webs, an improvement that provides commerce and slows down non-Spider units who are not part of the Archosian tribe.
+	Added Feeding Pen, a unique improvement similar to pasture that provides food, Brood Activity and has a chance to spawn Baby Spiders.
+
+Fixes:
+	"Poisoned", "Poison Fume" and "Marked Prey" promotion now correctly applies to defensive melee and rogue units.
+
+v1.4
+By: @LeastCraft (idea from @black_imperator)
+
+New mechanics:
+	When a spider with variant promotion is stationed in a city, +10% chance to grant the respective mutation to newly created melee and recon units in the city.
+
+Graphics: 
+	Updated buttons for Growth Spurts, Fort Spider I and Fort Spider II
+
+Promotions:
+	Changed Marked Prey to no longer grant Marksman Counter
+	Restored Spiderkin to original(+1 poison combat; pass Poisoned to enemies)
+	Fixed Mucro so that it cannot Burrow and Reveal in the same turn to get free buff
+	Swapped Venenum and Greater Venenum effects:
+	- Changed Venenum from (+1 poison combat and pass "Poison Fume" in combat) to (ranged attack)
+	- Changed Greater Venenum from (ranged attack) to (+1 poison combat and pass "Poison Fume" in combat and +25% withdrawal)
+
+	Added Symbiotic Communion promotion which allows the Haruspex access to sacrifial rites
+	Added Symbiotic Communion End promotion which removes Symbiotic Communion promotion and excludes it for 1 turn
+
+	Added 5 spider mutations for the Symbiotic Communion:
+	- Venom Secretion: +1 poison combat, immune to getting Poisoned
+	- Jointed Limbs: +1-2 first strikes
+	- Chitin Carapace: immune to first strikes
+	- Trail Pheromone: +30% vs Poisoned
+	- Spitter Gland: ranged attack
+
+Spells:
+	Added 5 spider mutation rites:
+	- Rite of Ruby: Sacrifices the weakest RED spider and grants Venom Secretion on melee and recon units in the same stack
+	- Rite of Topaz: Sacrifices the weakest YELLOW spider and grants Jointed Limbs on melee and recon units in the same stack
+	- Rite of Diamond: Sacrifices the weakest GREY spider and grants Chitin Carapace on melee and recon units in the same stack
+	- Rite of Sapphire: Sacrifices the weakest BLUE spider and grants Trail Pheromone on melee and recon units in the same stack
+	- Rite of Emerald: Sacrifices the weakest GREEN spider and grants Spitter Gland on melee and recon units in the same stack
+
+v1.3.1
+By: @FoxXavier
+
+Units:
+	Removed scorpion spawning
+	Rebalanced Spider Rider stats. Now replaces the horseman line. Loses a movement for extra poison damage. War Spider (Knight replacement) has gained a ranged attack.
+	Baby Spider gains +50% against animal units
 
 v1.3
 By: @LeastCraft
 
-QoA:
+QoL:
 	Added help text for Spider Upgrade spell
 
 Graphics:
@@ -82,68 +176,63 @@ Units:
 	Mother gains access to a new spell "Predatory Scream"
 
 Promotions:
-	CHANGED Spiderkin to give immunity to poison and +30% damage against poisoned units.
-	Poisoned now have applicable unitcombats so that it can be applied by spells
-	ADDED PROMOTION_SPIDER_MUCRO_BURROWED which grants invisibility
-	ADDED PROMOTION_SPIDER_MUCRO_REVEALED1 which buffs attack (+50%) and debuffs defense (-80%), and grants immunity to first strikes for 1 turn
-	ADDED PROMOTION_SPIDER_MUCRO_REVEALED2 which further grants 1 first strike, immunity to defensive strike and ignore terrain defense for 1 turn
-	ADDED PROMOTION_MARKED_PREY which grants -50% against spider blood and marksman counter until healed
-	ADDED PROMOTION_CONSUME_THE_WEAK which grants marksman for 1 turn
-	ADDED PROMOTION_POISON_FUME which "heals" units in the same tile by -10
+	Changed Spiderkin to give immunity to poison and +30% damage against poisoned units.
+	Changed Poisoned to have applicable unitcombats so that it can be applied by spells
+	Added PROMOTION_SPIDER_MUCRO_BURROWED which grants invisibility
+	Added PROMOTION_SPIDER_MUCRO_REVEALED1 which buffs attack (+50%) and debuffs defense (-80%), and grants immunity to first strikes for 1 turn
+	Added PROMOTION_SPIDER_MUCRO_REVEALED2 which further grants 1 first strike, immunity to defensive strike and ignore terrain defense for 1 turn
+	Added PROMOTION_MARKED_PREY which grants -50% against "Spider Blood" and Marksman Counter until healed
+	Added PROMOTION_CONSUME_THE_WEAK which grants "Marksman" for 1 turn
+	Added PROMOTION_POISON_FUME which "heals" units in the same tile by -10
 
-	CHANGED Rhagodessa to grant access to spell "Poison Explosion 1"
-	CHANGED Rhagodessa Greater to grant access to spell "Poison Explosion 2"
-	CHANGED Mucro to grant access to promotions "Burrow" and "Reveal 1"
-	CHANGED Mucro Greater to grant access to promotions "Reveal 2"
-	CHANGED Argyroneta to grant "Marksman" and pass "Marked Prey" to enemy in combat
-	CHANGED Argyroneta Greater to grant access to spell "Consume the Weak"
-	CHANGED Venenum to additionally pass "Poison Fume" in combat
+	Changed Rhagodessa to grant access to spell "Poison Explosion 1"
+	Changed Rhagodessa Greater to grant access to spell "Poison Explosion 2"
+	Changed Mucro to grant access to promotions "Burrow" and "Reveal 1"
+	Changed Mucro Greater to grant access to promotions "Reveal 2"
+	Changed Argyroneta to grant "Marksman" and pass "Marked Prey" to enemy in combat
+	Changed Argyroneta Greater to grant access to spell "Consume the Weak"
+	Changed Venenum to additionally pass "Poison Fume" in combat
 
-	CHANGED all greater spider variants to be available only to giant spiders, and no longer grants "beast" unicombat
-
-Spells:
-	ADDED SPELL_POISON_EXPLOSION1 which applies poison with 70% chance to all units in a 3x3 range and kills the caster
-	ADDED SPELL_POISON_EXPLOSION2 which applies poison with 70% chance to all units in a 5x5 range and kills the caster
-	ADDED SPELL_CONSUME_THE_WEAK which grants "Consume the Weak" Promotion to baby spiders and spiders (but not giant spiders) in stack.
-	ADDED SPELL_PREDATORY_SCREAM which applies "Marked Prey" Promotion to enemy units in a 3x3 range
-
-By: @FoxXavier
-
-Removed scorpion spawning
-Spider Rider stats have been rebalanced. Now replaces the horseman line. Loses a movement for extra poison damage. War Spider (Knight replacement) has gained a ranged attack.
-Baby Spider gains +50% against animal units
-
-v1.4
-By: @LeastCraft (idea from @black_imperator)
-
-Graphics: 
-	Updated buttons for growth spurts, fort spider I and fort spider II
-
-Promotions:
-	CHANGED Marked Prey to no longer grant marksman counter
-	RESTORED Spiderkin to original(+1 poison combat; pass poisoned to enemies)
-	FIXED Mucro so that it cannot Burrow and Reveal in the same turn to get free buff
-	SWAPPED Venenum and Greater Venenum effects:
-		CHANGED Venenum from (+1 poison combat and pass "Poison Fume" in combat) to (ranged attack)
-		CHANGED Greater Venenum from (ranged attack) to (+1 poison combat and pass "Poison Fume" in combat and +25% withdrawal)
-
-	ADDED Symbiotic Communion promotion which allows the haruspex access to sacrifial rites
-	ADDED Symbiotic Communion End promotion which removes Symbiotic Communion promotion and excludes it for 1 turn
-
-	ADDED 5 spider mutations for the Symbiotic Communion:
-		Venom Secretion: +1 poison combat, immune to getting poisoned
-		Jointed Limbs: +1-2 first strikes
-		Chitin Carapace: immune to first strikes
-		Trail Pheromone: +30% vs poisoned
-		Spitter Gland: ranged attack
+	All greater spider variants are now available only to Giant Spiders, and no longer grants "beast" unicombat
 
 Spells:
-	ADDED 5 spider mutation rites:
-		Rite of Ruby: Sacrifices the weakest RED spider and grants Venom Secretion on melee and recon units in the same stack
-		Rite of Topaz: Sacrifices the weakest RED spider and grants Jointed Limbs on melee and recon units in the same stack
-		Rite of Diamond: Sacrifices the weakest RED spider and grants Chitin Carapace on melee and recon units in the same stack
-		Rite of Sapphire: Sacrifices the weakest RED spider and grants Trail Pheromone on melee and recon units in the same stack
-		Rite of Emerald: Sacrifices the weakest RED spider and grants Spitter Gland on melee and recon units in the same stack
+	Added SPELL_POISON_EXPLOSION1 which applies poison with 70% chance to all units in a 3x3 range and kills the caster
+	Added SPELL_POISON_EXPLOSION2 which applies poison with 70% chance to all units in a 5x5 range and kills the caster
+	Added SPELL_CONSUME_THE_WEAK which grants "Consume the Weak" Promotion to Baby Spiders and Spiders (but not Giant Spiders) in stack.
+	Added SPELL_PREDATORY_SCREAM which applies "Marked Prey" Promotion to enemy units in a 3x3 range
 
-New mechanics:
-	When a spider with variant promotion is stationed in a city, +10% chance to grant the respective mutation to newly created melee and recon units in the city.
+v1.2
+By: @Honourable596
+
+Units:
+	Commented out scorpions as unique units
+	Spider Rider to replace Horseman (tier 1 mounted) instead of the Horse Archer (tier 2 mounted) and adjusted stats accordingly
+	War Spider to replace Knight and only requiring the construction technology and siege workshop building - adjusted stats to match vanilla knight
+	Brought back Huntsman and Recluse, Archos UU replacing the Hunter and Ranger Tier 2+3 recon units.
+
+v1.1
+By: @LeastCraft
+
+Graphics:
+	Updated Mother Model
+
+Units:
+	Added Free Unit promotion to Baby Spider
+
+v1.0
+By: @LeastCraft
+
+Buildings:
+	Mother's Nest:
+	- Grants "Spider Blood" to all eligible units
+	- No longer grants +10% tech
+	- Cost increased from 160 to 320
+
+Units:
+	Animal Packs and Archos now share the same spiders, with hidden nationality
+	Reworked Baby Spider growth mechanics to gain Growth Spurts immediately after and only after killing a living unit
+	Added 90% damage limit to Tribesman 
+	Added "Spider Blood" promotion to Nesting Spider
+	Added Spider Rider (Replaces chariot, same thing but does not require horses)
+	Added War Spider (Replaces war chariot, same thing but does not require horses)
+	Reverted unique units Huntsman and Recluse back to the generic Hunter and Ranger (Art kept, lore moved to spiderkin)
