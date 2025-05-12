@@ -13,6 +13,213 @@ LeastCraft
 [desc]
 tweaks to archos civ
 
+
+v1.12
+By: @LeastCraft
+
+Traits:
+	Renamed Spiderkin trait to Arachnomancer and reworked mechanics.
+	Arachnomancer I:
+		1. Grant Strong promotion to all spiders at capital >= size 8 instead of at capital >= size 24.
+		2. Arachnomancy spells cost 10% less baby spiders.
+		3. Grant Arachnomancy I to all commanders.
+	Arachnomancer II:
+		1. Arachnomancy spells cost an extra 10% less baby spiders.
+		2. +1 Food from Feeding Pens.
+		3. Grant Arachnomancy II to all commanders.
+	Arachnomancer III:
+		1. Arachnomancy spells cost an extra 10% less baby spiders.
+		2. +1 Commerce from Maze of Webs.
+		3. Grant Arachnomancy III to all commanders.
+
+	Trait counter is now increase by casting Arachnomancy related spells.
+
+Units:
+	Renamed Spiderkin unit to Black Recluse
+	Deep Enwebbed gains free Resist Poison promotion
+	Mother's Most Faithful gains free Resist Poison promotion
+	Black Recluse gains free Resist Poison promotion
+
+
+v1.11
+By: @LeastCraft
+
+Traits:
+	Spiderkin 1 trait changed to grant Strong promotion to all spiders at capital >= size 8. No longer grants Spiderkin promotion to anyone.
+
+Spells:
+	Symbiotic Communion spells grant a buffed version of the base game Mutation instead of special spider mutations.
+
+Promotions:
+	Spiderkin promotion changed to:
+		1. Racial promotion
+		2. Block promotions Bronze Weapon, Iron Weapon, Mithril Weapon and Rusted
+		3. +50% poison resistance
+		4. +20% vs Poisoned enemies
+		5. Better chances of good results from Spider Dens
+	Spiderkin is now the racial promotion of Archos instead of Resist Poison promotion.
+
+	Removed Venom Secretion, Jointed Limbs, Chitin Carapace, Trail Pheromone, Spitter Gland.
+	Spider variants grant a buffed version of the base game Mutation to newly created units instead.
+
+	Removed collateral damage part of swarming promotions to avoid confusion.
+	Swarming III no longer grants defensive strikes.
+
+	Spider Combat changed to allow Nesting Spider to take the Combat and Barrage lines of promotions and exclude Spiderkin racial promotion.
+
+Units:
+	Nesting Spider strength reduced from 4+1 poison to 3, first strikes reduced from 2-4 to 1-2.
+	Deep Enwebbed strength raised from 11/5 to 14/7 to make up for the lack of metal weapons.
+	Mother's Most Faithful strength raised from 12/7 to 15/9 to make up for the lack of metal weapons.
+
+
+v1.10
+By: @LeastCraft
+
+Graphics:
+	Further improved readability of spider icons by adding stripes to their abdomen (in the icon) according to their tiers.
+
+Mechanics:
+	Condition for natural Spider spawn changed to: capital >= size 8 and BA >= 500
+	Condition for natural Giant Spider spawn changed to: capital >= size 16 and BA >= 1000
+	Strong promotion is granted to spiders at capital >= size 24 instead of size 16.
+	Leaders with Spiderkin trait gives the Spiderkin promotion to spawned spiders at capital >= size 12 instead of size 9.
+
+	Spiders can now be upgraded to Giant Spiders at capital size 8.
+	Giant Spiders of variant GREEN and GREY can now be upgraded to Spider Behemoths at level 8 and capital size 16.
+
+	All spiders now gain 5 BA after combat, win or lose.
+	Each type of controlled pasture meat resource (bison, cow, camel, deer, arctic deer, fur, horse, hyapon, ivory, nightmare, pig, sheep, toad) gives 1 exp to spawned spiders, up to 13.
+	BA penalty from existing Spiders and Giant Spiders is reduced. Each Spider/Giant Spider now only cost 1 BA per turn.
+
+Spells:
+	Renamed Diet of Worms to Arachnophagy.
+
+	Call Spider can now only be cast in a player owned city of size >= 8.
+	Call Giant Spider can now only be cast in a player owned city of size >= 16.
+
+	Added Survival of the Fittest, where a Spider or Giant Spider can consume a Spider to gain 2 exp.
+
+	Arachnophagy now requires Arachnomancy I and sacrifices 10 Baby Spiders in the stack instead of 100 BA.
+	Symbiotic Communion now requires Arachnomancy II and sacrifices 20 Baby Spiders in the stack (in addition to the variant spider).
+	Added Summon Arachnid Avatar, which requires Arachnomancy III and sacrifices 40 Baby Spiders in the stack to summon an Arachnid Avatar.
+
+	Removed Consume the Weak.
+	Removed Poison Fume.
+	Removed Psalm for the Swarm.
+
+Promotions:
+	Renamed "No Exp" to "Mount" and updated button.
+
+	Greater Venenum changed to grant +1 ranged combat and +25% ranged damage limit.
+	Added Venenum Behemoth, which grants +2 strength, +2 ranged combat and Blitz.
+	Added Mucro Behemoth, which grants +2 strength and +50% vs Recon units.
+
+	Swarming III now additionally grants 10% Defensive Strike chance and 5% Defensive Strike damage.
+	Swarming IV now additionally grants Target Weakest Unit.
+
+	Added Arachnomancy I, auto-acquired by Archosian units with Channeling I. Grants +20% withdrawal chance when starting turn with >= 10 Baby Spiders in the same tile.
+	Added Arachnomancy II, auto-acquired by Archosian units with Channeling II. Grants +20% withdrawal chance and +20% collateral damage protection when starting turn with >= 20 Baby Spiders in the same tile.
+	Added Arachnomancy III, auto-acquired by Archosian units with Channeling III. Grants +20% withdrawal chance, +20% collateral damage protection and invisibility level 1 when starting turn with >= 40 Baby Spiders in the same tile.
+
+	Spider mutations can now be applied to defensive melee and rogue units.
+
+	Removed Consume the Weak.
+	Removed Poison Fume.
+
+Units:
+	Added Arachnid Avatar, a permanent summon which can "Amalgamate" with 10 Baby Spiders to recover 10% health, gain one stack of "Amalgamation" (+10% strength), and allow it to attack again.
+
+Buildings:
+	Renamed Diet of Worms to Arachnophagy.
+	Arachnophagy now causes 6 unhealthiness instead of 8.
+
+Improvements:
+	Fixed bug where Infest Fortress slows down in forests.
+	Feeding Pen can now improve more meat resources (in total: bison, cow, camel, deer, arctic deer, fur, horse, hyapon, ivory, nightmare, pig, sheep, toad).
+	Feeding Pen loses default yield of 1 Food and additional yield of 1 Food at Animal Handling, but gains additional yield of 1 Food at Hunting.
+
+
+v1.9
+By: @LeastCraft
+
+Graphics:
+	Updated a number of spider and spider variant related buttons for readability.
+
+Mechanics:
+	BA is no longer gained from the number of cities, and gain from Dark Weald and Feeding Pen is decreased.
+	BA penalty from existing Spiders and Giant Spiders is doubled.
+	Automatically spawned spiders now spawn hatching in a cocoon, which means they will no longer require micromanagement upon being spawned.
+
+Units:
+	Added Cocoon, which is spawned whenever a spider is automatically spawned in a location with no existing Cocoon.
+
+Spells:
+	Added Hatch, available to the Cocoon, which destroys the Cocoon and removes Hatching promotion on all spiders.
+
+Promotion:
+	Added Hatching, which is placed on all automatically spawned spiders. A hatching spider cannot move but costs no maintenance.
+
+
+v1.8
+By: @LeastCraft
+
+Spells:
+	Smear Poison now unlocks at Exploration technology.
+	Fixed Bug where civilian units can use Smear Poison.
+	Spiders summoned using BA now start with no movement.
+
+Units:
+	Spiders no longer inherit the free unit promotion from Baby Spiders.
+	Giant Spiders no longer have stealth.
+
+Improvements:
+	Maze of Webs now produces +1 commerce upon researching Medicine technology.
+	Maze of Webs now improves Silk with no additional yields, and can only be built on forested Silk.
+	Maze of Webs now has a 1/5000 chance per turn to discover a Silk resource on its plot.
+	Maze of Webs can no longer be built on Haunted Lands due to DLL change.
+
+
+v1.7
+By: @LeastCraft
+
+Graphics:
+Scaled down size of the Nesting Spider.
+
+Mechanics:
+	BA gain and spider spawn are again reduced by the number of existing Spiders and Giant Spiders (but not Baby Spiders).
+
+Spells:
+	Renamed Predatory Scream to Arachnophobia and changed button sprite.
+
+Units:
+	Baby Spiders gain the swarming ability, giving them +25% strength but suffers +25% more collateral damage for every 10 Baby Spiders in the same stack, up to +100%.
+	Increased Giant Spider work rate from 100 to 150.
+	Spiderkin now has access to spell "Consume the Weak".
+	Mother of Mothers now has free promotion Fear.
+	Mother of Mothers strength adjusted from 12+6 poison to 14+4 poison.
+	Nesting Spider strength adjusted from 3+2 poison to 4+1 poison.
+
+Promotions:
+	Added promotion Nesting, removes maintenance and supply cost, and gives additional stealth and +15% defensive strength for spiders.
+	Restored Argyroneta and Greater Argyroneta to grant aquatic abilities.
+	Greater Textus now additionally allows spiders to build Nesting Ground.
+	Fort Spider I now allows Nesting Spider to build Infested Fortress.
+	Renamed Marked Prey to Arachnophobia and changed button sprite.
+
+Buildings:
+	Archos can now build Barracks.
+	Restored Archos Palace name to Mother's Nest.
+
+Improvements:
+	Archosian Workers can no longer build forts.
+	Added Nesting Ground, an improvement that grants the Nesting promotion to spiders on the same tile, and provides -1 food on its tile.
+	Added Infested Fortress, which can be built by Nesting Spider over occupied forts and acts as a Nesting Ground with extra defensive bonuses.
+	Added Deep Nest, an upgrade over Nesting Ground and Infested Fortress.
+	Maze of Webs can now be additionally built in Haunted Lands.
+	Maze of Webs now removes Slow from spiders.
+
+
 v1.6
 By: @LeastCraft
 
@@ -34,6 +241,7 @@ Improvements:
 	Archosian Workers can no longer build pastures.
 	Changed Maze of Webs to now only yield +2 Commerce to the Archosian tribe and yield nothing to other civs.
 
+
 v1.5
 By: @LeastCraft
 
@@ -42,7 +250,7 @@ QoL:
 	Versions of spider variant promotions from Spiderkin trait are now hidden from civilopedia for clarity.
 	Updated strategy information for the Archos civilization and the spiders in civilopedia.
 
-New mechanics:
+Mechanics:
 	Archos now accumulate Brood Activity (BA) each turn which you can spend on spider related spells.
 	The capital will still spawn spider by chance each turn, and the chance to spawn a spider is proportional to the BA gained on that turn.
 	The rate of BA gain and the chance of spider spawn are no longer reduced by the number of spiders owned.
@@ -72,7 +280,6 @@ Spells:
 
 	Added new spell "Poison Fume": Adds the "Poison Fume" promotion to units within 1 range.
 	
-Abilities:
 	Added new spells which utilize Baby Spiders:
 		- Smear Poison: Can be used by any unit except animals and beasts. Sacrifices the weakest Baby Spider to gain Poisoned Blade promotion.
 			- Can be used unlimited number of times per turn.
@@ -88,17 +295,18 @@ Promotions:
 	Symbiotic Communion no longer costs all movement for Haruspex.
 	Rhagodessa now additionally grants +1 movement.
 	Greater Rhagodessa now additionally grants 100% collateral damage with max damage cap at 60% against up to 7 units and +25% strength, but self-destructs after battle.
-	Mucro Revealed 1 and Revealed 2 now additionally grants +25% city attack each.
+	Mucro Revealed 1 and Revealed 2 now additionally grants +25% city attack.
 	Textus now additionally allows spiders to build Maze of Webs.
 	Greater Venenum changed to to grant access to spell "Poison Fume"
 	Added Archosian Worker, a promotion for Archosian Workers that allows them to build Feeding Pen.
 
 Improvements:
-	Added Maze of Webs, an improvement that provides commerce and slows down non-Spider units who are not part of the Archosian tribe.
 	Added Feeding Pen, a unique improvement similar to pasture that provides food, Brood Activity and has a chance to spawn Baby Spiders.
+	Added Maze of Webs, an improvement that provides commerce and slows down non-Spider units who are not part of the Archosian tribe. Can be built in forests, ancient forests and jungles.
 
 Fixes:
 	"Poisoned", "Poison Fume" and "Marked Prey" promotion now correctly applies to defensive melee and rogue units.
+
 
 v1.4
 By: @LeastCraft (idea from @black_imperator)
@@ -135,6 +343,7 @@ Spells:
 	- Rite of Sapphire: Sacrifices the weakest BLUE spider and grants Trail Pheromone on melee and recon units in the same stack
 	- Rite of Emerald: Sacrifices the weakest GREEN spider and grants Spitter Gland on melee and recon units in the same stack
 
+
 v1.3.1
 By: @FoxXavier
 
@@ -142,6 +351,7 @@ Units:
 	Removed scorpion spawning
 	Rebalanced Spider Rider stats. Now replaces the horseman line. Loses a movement for extra poison damage. War Spider (Knight replacement) has gained a ranged attack.
 	Baby Spider gains +50% against animal units
+
 
 v1.3
 By: @LeastCraft
@@ -201,14 +411,16 @@ Spells:
 	Added SPELL_CONSUME_THE_WEAK which grants "Consume the Weak" Promotion to Baby Spiders and Spiders (but not Giant Spiders) in stack.
 	Added SPELL_PREDATORY_SCREAM which applies "Marked Prey" Promotion to enemy units in a 3x3 range
 
+
 v1.2
 By: @Honourable596
 
 Units:
 	Commented out scorpions as unique units
 	Spider Rider to replace Horseman (tier 1 mounted) instead of the Horse Archer (tier 2 mounted) and adjusted stats accordingly
-	War Spider to replace Knight and only requiring the construction technology and siege workshop building - adjusted stats to match vanilla knight
+	War Spider to replace Knight and only requiring the Construction technology and siege workshop building - adjusted stats to match vanilla knight
 	Brought back Huntsman and Recluse, Archos UU replacing the Hunter and Ranger Tier 2+3 recon units.
+
 
 v1.1
 By: @LeastCraft
@@ -218,6 +430,7 @@ Graphics:
 
 Units:
 	Added Free Unit promotion to Baby Spider
+
 
 v1.0
 By: @LeastCraft

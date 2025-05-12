@@ -7,51 +7,131 @@
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<TEXT>
 		<Tag>TXT_KEY_CIV_ARCHOS_STRATEGY_NEW</Tag>
-		<English>[TAB]Archosian spiders have hidden nationality, meaning they can enter other players territory and attack without declaring war, and excel at denying exploration and expansion of other civs. But, contrarily to units with [LINK=PROMOTION_HIDDEN_NATIONALITY]hidden nationality promotion[\LINK], they can't [LINK=SPELL_DECLARE_NATIONALITY]reveal their nationality[\LINK] and hence can't capture cities. [PARAGRAPH:2]Archosian spiders are acquired by spending a currency unique to Archos: Brood Activity (BA), which is accumulated each turn. You can get more BA per turn by increasing capital population, settling more cities and building more [LINK=BUILDING_DARK_WEALD]Dark Wealds[\LINK] and [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pens[\LINK]. The initial size of spiders spawned is limited by the population of the city you are trying to spawn it from: [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] (25 BA) are always available, [LINK=UNIT_SPIDER]adult spiders[\LINK] (75 BA) at 6+, and [LINK=UNIT_GIANT_SPIDER]giant spiders[\LINK] (150 BA) at 11+. Aside from spawning spiders you can also spend BA to cast [LINK=SPELL_DIET_OF_WORMS]Diet of Worms[\LINK] to speed up growth of your cities. In late game, you can build the [LINK=UNIT_HARUSPEX]Haruspex[\LINK] to cast [LINK=SPELL_PSALM_FOR_THE_SWARM]Psalm for the Swarm[\LINK] for quick accumulation of BA. [PARAGRAPH:2]If you save up enough BA, you will also start to get passive spider spawns, with the spawn rate being proportional to the BA gained per turn: [NEWLINE][NEWLINE][TAB]000-199 BA (Dormant): No spawns [NEWLINE][TAB]200-400 BA (Astir): [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] spawns [NEWLINE][TAB]400-800 BA (Restless) and capital size 6+: [LINK=UNIT_SPIDER]Adult Spider[\LINK] spawns [NEWLINE][TAB]800+ BA (Thronging) and capital size 11+: [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK] spawns [PARAGRAPH:2]Additionally, you'll want to save a couple of early spiders once they reach levels 4, 5, 6 and 7 to be devoured by Mother at your capital in order to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK]; while it might feel a waste of a perfectly good leveled spider, it'll help make all of your other spawned spiders in mid and late game match up to the strength of stronger units, keeping you competitive.</English>
-		<French>[TAB]Archosian spiders have hidden nationality, meaning they can enter other players territory and attack without declaring war, and excel at denying exploration and expansion of other civs. But, contrarily to units with [LINK=PROMOTION_HIDDEN_NATIONALITY]hidden nationality promotion[\LINK], they can't [LINK=SPELL_DECLARE_NATIONALITY]reveal their nationality[\LINK] and hence can't capture cities. [PARAGRAPH:2]Archosian spiders are acquired by spending a currency unique to Archos: Brood Activity (BA), which is accumulated each turn. You can get more BA per turn by increasing capital population, settling more cities and building more [LINK=BUILDING_DARK_WEALD]Dark Wealds[\LINK] and [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pens[\LINK]. The initial size of spiders spawned is limited by the population of the city you are trying to spawn it from: [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] (25 BA) are always available, [LINK=UNIT_SPIDER]adult spiders[\LINK] (75 BA) at 6+, and [LINK=UNIT_GIANT_SPIDER]giant spiders[\LINK] (150 BA) at 11+. Aside from spawning spiders you can also spend BA to cast [LINK=SPELL_DIET_OF_WORMS]Diet of Worms[\LINK] to speed up growth of your cities. In late game, you can build the [LINK=UNIT_HARUSPEX]Haruspex[\LINK] to cast [LINK=SPELL_PSALM_FOR_THE_SWARM]Psalm for the Swarm[\LINK] for quick accumulation of BA. [PARAGRAPH:2]If you save up enough BA, you will also start to get passive spider spawns, with the spawn rate being proportional to the BA gained per turn: [NEWLINE][NEWLINE][TAB]000-199 BA (Dormant): No spawns [NEWLINE][TAB]200-400 BA (Astir): [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] spawns [NEWLINE][TAB]400-800 BA (Restless) and capital size 6+: [LINK=UNIT_SPIDER]Adult Spider[\LINK] spawns [NEWLINE][TAB]800+ BA (Thronging) and capital size 11+: [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK] spawns [PARAGRAPH:2]Additionally, you'll want to save a couple of early spiders once they reach levels 4, 5, 6 and 7 to be devoured by Mother at your capital in order to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK]; while it might feel a waste of a perfectly good leveled spider, it'll help make all of your other spawned spiders in mid and late game match up to the strength of stronger units, keeping you competitive.</French>
-		<German>[TAB]Archosian spiders have hidden nationality, meaning they can enter other players territory and attack without declaring war, and excel at denying exploration and expansion of other civs. But, contrarily to units with [LINK=PROMOTION_HIDDEN_NATIONALITY]hidden nationality promotion[\LINK], they can't [LINK=SPELL_DECLARE_NATIONALITY]reveal their nationality[\LINK] and hence can't capture cities. [PARAGRAPH:2]Archosian spiders are acquired by spending a currency unique to Archos: Brood Activity (BA), which is accumulated each turn. You can get more BA per turn by increasing capital population, settling more cities and building more [LINK=BUILDING_DARK_WEALD]Dark Wealds[\LINK] and [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pens[\LINK]. The initial size of spiders spawned is limited by the population of the city you are trying to spawn it from: [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] (25 BA) are always available, [LINK=UNIT_SPIDER]adult spiders[\LINK] (75 BA) at 6+, and [LINK=UNIT_GIANT_SPIDER]giant spiders[\LINK] (150 BA) at 11+. Aside from spawning spiders you can also spend BA to cast [LINK=SPELL_DIET_OF_WORMS]Diet of Worms[\LINK] to speed up growth of your cities. In late game, you can build the [LINK=UNIT_HARUSPEX]Haruspex[\LINK] to cast [LINK=SPELL_PSALM_FOR_THE_SWARM]Psalm for the Swarm[\LINK] for quick accumulation of BA. [PARAGRAPH:2]If you save up enough BA, you will also start to get passive spider spawns, with the spawn rate being proportional to the BA gained per turn: [NEWLINE][NEWLINE][TAB]000-199 BA (Dormant): No spawns [NEWLINE][TAB]200-400 BA (Astir): [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] spawns [NEWLINE][TAB]400-800 BA (Restless) and capital size 6+: [LINK=UNIT_SPIDER]Adult Spider[\LINK] spawns [NEWLINE][TAB]800+ BA (Thronging) and capital size 11+: [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK] spawns [PARAGRAPH:2]Additionally, you'll want to save a couple of early spiders once they reach levels 4, 5, 6 and 7 to be devoured by Mother at your capital in order to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK]; while it might feel a waste of a perfectly good leveled spider, it'll help make all of your other spawned spiders in mid and late game match up to the strength of stronger units, keeping you competitive.</German>
-		<Italian>[TAB]Archosian spiders have hidden nationality, meaning they can enter other players territory and attack without declaring war, and excel at denying exploration and expansion of other civs. But, contrarily to units with [LINK=PROMOTION_HIDDEN_NATIONALITY]hidden nationality promotion[\LINK], they can't [LINK=SPELL_DECLARE_NATIONALITY]reveal their nationality[\LINK] and hence can't capture cities. [PARAGRAPH:2]Archosian spiders are acquired by spending a currency unique to Archos: Brood Activity (BA), which is accumulated each turn. You can get more BA per turn by increasing capital population, settling more cities and building more [LINK=BUILDING_DARK_WEALD]Dark Wealds[\LINK] and [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pens[\LINK]. The initial size of spiders spawned is limited by the population of the city you are trying to spawn it from: [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] (25 BA) are always available, [LINK=UNIT_SPIDER]adult spiders[\LINK] (75 BA) at 6+, and [LINK=UNIT_GIANT_SPIDER]giant spiders[\LINK] (150 BA) at 11+. Aside from spawning spiders you can also spend BA to cast [LINK=SPELL_DIET_OF_WORMS]Diet of Worms[\LINK] to speed up growth of your cities. In late game, you can build the [LINK=UNIT_HARUSPEX]Haruspex[\LINK] to cast [LINK=SPELL_PSALM_FOR_THE_SWARM]Psalm for the Swarm[\LINK] for quick accumulation of BA. [PARAGRAPH:2]If you save up enough BA, you will also start to get passive spider spawns, with the spawn rate being proportional to the BA gained per turn: [NEWLINE][NEWLINE][TAB]000-199 BA (Dormant): No spawns [NEWLINE][TAB]200-400 BA (Astir): [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] spawns [NEWLINE][TAB]400-800 BA (Restless) and capital size 6+: [LINK=UNIT_SPIDER]Adult Spider[\LINK] spawns [NEWLINE][TAB]800+ BA (Thronging) and capital size 11+: [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK] spawns [PARAGRAPH:2]Additionally, you'll want to save a couple of early spiders once they reach levels 4, 5, 6 and 7 to be devoured by Mother at your capital in order to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK]; while it might feel a waste of a perfectly good leveled spider, it'll help make all of your other spawned spiders in mid and late game match up to the strength of stronger units, keeping you competitive.</Italian>
-		<Spanish>[TAB]Archosian spiders have hidden nationality, meaning they can enter other players territory and attack without declaring war, and excel at denying exploration and expansion of other civs. But, contrarily to units with [LINK=PROMOTION_HIDDEN_NATIONALITY]hidden nationality promotion[\LINK], they can't [LINK=SPELL_DECLARE_NATIONALITY]reveal their nationality[\LINK] and hence can't capture cities. [PARAGRAPH:2]Archosian spiders are acquired by spending a currency unique to Archos: Brood Activity (BA), which is accumulated each turn. You can get more BA per turn by increasing capital population, settling more cities and building more [LINK=BUILDING_DARK_WEALD]Dark Wealds[\LINK] and [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pens[\LINK]. The initial size of spiders spawned is limited by the population of the city you are trying to spawn it from: [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] (25 BA) are always available, [LINK=UNIT_SPIDER]adult spiders[\LINK] (75 BA) at 6+, and [LINK=UNIT_GIANT_SPIDER]giant spiders[\LINK] (150 BA) at 11+. Aside from spawning spiders you can also spend BA to cast [LINK=SPELL_DIET_OF_WORMS]Diet of Worms[\LINK] to speed up growth of your cities. In late game, you can build the [LINK=UNIT_HARUSPEX]Haruspex[\LINK] to cast [LINK=SPELL_PSALM_FOR_THE_SWARM]Psalm for the Swarm[\LINK] for quick accumulation of BA. [PARAGRAPH:2]If you save up enough BA, you will also start to get passive spider spawns, with the spawn rate being proportional to the BA gained per turn: [NEWLINE][NEWLINE][TAB]000-199 BA (Dormant): No spawns [NEWLINE][TAB]200-400 BA (Astir): [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] spawns [NEWLINE][TAB]400-800 BA (Restless) and capital size 6+: [LINK=UNIT_SPIDER]Adult Spider[\LINK] spawns [NEWLINE][TAB]800+ BA (Thronging) and capital size 11+: [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK] spawns [PARAGRAPH:2]Additionally, you'll want to save a couple of early spiders once they reach levels 4, 5, 6 and 7 to be devoured by Mother at your capital in order to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK]; while it might feel a waste of a perfectly good leveled spider, it'll help make all of your other spawned spiders in mid and late game match up to the strength of stronger units, keeping you competitive.</Spanish>
+		<English>[TAB]The Archosian tribe despises metallurgy, instead heavily relies on their spiders to weaken their prey first before charging in. Spiders have hidden nationality, meaning they can enter other players territory and attack without declaring war, and excel at denying exploration and expansion of other civs. But, contrarily to units with [LINK=PROMOTION_HIDDEN_NATIONALITY]hidden nationality promotion[\LINK], they can't [LINK=SPELL_DECLARE_NATIONALITY]reveal their nationality[\LINK] and hence can't capture cities. [PARAGRAPH:2]Archosian spiders are acquired by spending a currency unique to Archos: Brood Activity (BA), which is accumulated each turn. You can get more BA per turn by increasing capital population and building more [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pens[\LINK] and [LINK=BUILDING_DARK_WEALD]Dark Wealds[\LINK]. Spiders also produce 5 BA from each combat (win or lose), so do use them aggressively. The initial size of spiders is limited by the population of the city you are trying to spawn it from: [LINK=SPELL_CALL_BABY_SPIDER]baby spiders[\LINK] (25 BA) are always available, [LINK=SPELL_CALL_SPIDER]adult spiders[\LINK] (75 BA) require size 8+, and [LINK=SPELL_CALL_GIANT_SPIDER]giant spiders[\LINK] (150 BA) require size 16+. [PARAGRAPH:2]If you save up enough BA, you will also start to get passive spider spawns, with the spawn rate being proportional to the BA gained per turn: [NEWLINE][NEWLINE][TAB]000-199 BA (Dormant): No spawns [NEWLINE][TAB]200-499 BA (Astir): [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] spawns [NEWLINE][TAB]500-999 BA (Restless) and capital size 8+: [LINK=UNIT_SPIDER]Adult Spider[\LINK] spawns [NEWLINE][TAB]1000+ BA (Thronging) and capital size 16+: [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK] spawns [PARAGRAPH:2]The most important way of improving the strength of spawned spiders is acquiring diverse meat resources. For each different meat resource (bison, cow, camel, deer, arctic deer, fur, horse, hyapon, ivory, nightmare, pig, sheep, toad) you own, your spawned spiders gain 1 experience upon spawning, adding up to a total of 13 if you have all of them. Additionally, you'll want to save a couple of early spiders once they reach levels 4, 5, 6 and 7 to be devoured by Mother at your capital in order to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK]; while it might feel a waste of a perfectly good leveled spider, it'll help make all of your other spawned spiders in mid and late game match up to the strength of stronger units, keeping you competitive. In the late game when your capital reaches size 24+, all spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion, making them even stronger. However, if you use leader with the [LINK=TRAIT_SPIDERKIN]Spiderkin[\LINK] trait, you will get the promotion at capital size 8+ instead. [PARAGRAPH:2]Although spawned baby spiders are free, adult spiders and giant spiders cost gold to maintain and can be a strain on your economy. This can be remedied by promoting your spiders to [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Weaver[\LINK] so that they can construct a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK], or capturing a fortress and turning it into an [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK]. When resting inside these fortifications, spiders do not cost any maintenance. [PARAGRAPH:2]If you still find yourself with too many spiders, Archosian spell casters also have access to the unique [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy[\LINK] line of spells, which sacrifices spiders for various effects.</English>
+		<French>[TAB]The Archosian tribe despises metallurgy, instead heavily relies on their spiders to weaken their prey first before charging in. Spiders have hidden nationality, meaning they can enter other players territory and attack without declaring war, and excel at denying exploration and expansion of other civs. But, contrarily to units with [LINK=PROMOTION_HIDDEN_NATIONALITY]hidden nationality promotion[\LINK], they can't [LINK=SPELL_DECLARE_NATIONALITY]reveal their nationality[\LINK] and hence can't capture cities. [PARAGRAPH:2]Archosian spiders are acquired by spending a currency unique to Archos: Brood Activity (BA), which is accumulated each turn. You can get more BA per turn by increasing capital population and building more [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pens[\LINK] and [LINK=BUILDING_DARK_WEALD]Dark Wealds[\LINK]. Spiders also produce 5 BA from each combat (win or lose), so do use them aggressively. The initial size of spiders is limited by the population of the city you are trying to spawn it from: [LINK=SPELL_CALL_BABY_SPIDER]baby spiders[\LINK] (25 BA) are always available, [LINK=SPELL_CALL_SPIDER]adult spiders[\LINK] (75 BA) require size 8+, and [LINK=SPELL_CALL_GIANT_SPIDER]giant spiders[\LINK] (150 BA) require size 16+. [PARAGRAPH:2]If you save up enough BA, you will also start to get passive spider spawns, with the spawn rate being proportional to the BA gained per turn: [NEWLINE][NEWLINE][TAB]000-199 BA (Dormant): No spawns [NEWLINE][TAB]200-499 BA (Astir): [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] spawns [NEWLINE][TAB]500-999 BA (Restless) and capital size 8+: [LINK=UNIT_SPIDER]Adult Spider[\LINK] spawns [NEWLINE][TAB]1000+ BA (Thronging) and capital size 16+: [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK] spawns [PARAGRAPH:2]The most important way of improving the strength of spawned spiders is acquiring diverse meat resources. For each different meat resource (bison, cow, camel, deer, arctic deer, fur, horse, hyapon, ivory, nightmare, pig, sheep, toad) you own, your spawned spiders gain 1 experience upon spawning, adding up to a total of 13 if you have all of them. Additionally, you'll want to save a couple of early spiders once they reach levels 4, 5, 6 and 7 to be devoured by Mother at your capital in order to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK]; while it might feel a waste of a perfectly good leveled spider, it'll help make all of your other spawned spiders in mid and late game match up to the strength of stronger units, keeping you competitive. In the late game when your capital reaches size 24+, all spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion, making them even stronger. However, if you use leader with the [LINK=TRAIT_SPIDERKIN]Spiderkin[\LINK] trait, you will get the promotion at capital size 8+ instead. [PARAGRAPH:2]Although spawned baby spiders are free, adult spiders and giant spiders cost gold to maintain and can be a strain on your economy. This can be remedied by promoting your spiders to [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Weaver[\LINK] so that they can construct a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK], or capturing a fortress and turning it into an [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK]. When resting inside these fortifications, spiders do not cost any maintenance. [PARAGRAPH:2]If you still find yourself with too many spiders, Archosian spell casters also have access to the unique [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy[\LINK] line of spells, which sacrifices spiders for various effects.</French>
+		<German>[TAB]The Archosian tribe despises metallurgy, instead heavily relies on their spiders to weaken their prey first before charging in. Spiders have hidden nationality, meaning they can enter other players territory and attack without declaring war, and excel at denying exploration and expansion of other civs. But, contrarily to units with [LINK=PROMOTION_HIDDEN_NATIONALITY]hidden nationality promotion[\LINK], they can't [LINK=SPELL_DECLARE_NATIONALITY]reveal their nationality[\LINK] and hence can't capture cities. [PARAGRAPH:2]Archosian spiders are acquired by spending a currency unique to Archos: Brood Activity (BA), which is accumulated each turn. You can get more BA per turn by increasing capital population and building more [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pens[\LINK] and [LINK=BUILDING_DARK_WEALD]Dark Wealds[\LINK]. Spiders also produce 5 BA from each combat (win or lose), so do use them aggressively. The initial size of spiders is limited by the population of the city you are trying to spawn it from: [LINK=SPELL_CALL_BABY_SPIDER]baby spiders[\LINK] (25 BA) are always available, [LINK=SPELL_CALL_SPIDER]adult spiders[\LINK] (75 BA) require size 8+, and [LINK=SPELL_CALL_GIANT_SPIDER]giant spiders[\LINK] (150 BA) require size 16+. [PARAGRAPH:2]If you save up enough BA, you will also start to get passive spider spawns, with the spawn rate being proportional to the BA gained per turn: [NEWLINE][NEWLINE][TAB]000-199 BA (Dormant): No spawns [NEWLINE][TAB]200-499 BA (Astir): [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] spawns [NEWLINE][TAB]500-999 BA (Restless) and capital size 8+: [LINK=UNIT_SPIDER]Adult Spider[\LINK] spawns [NEWLINE][TAB]1000+ BA (Thronging) and capital size 16+: [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK] spawns [PARAGRAPH:2]The most important way of improving the strength of spawned spiders is acquiring diverse meat resources. For each different meat resource (bison, cow, camel, deer, arctic deer, fur, horse, hyapon, ivory, nightmare, pig, sheep, toad) you own, your spawned spiders gain 1 experience upon spawning, adding up to a total of 13 if you have all of them. Additionally, you'll want to save a couple of early spiders once they reach levels 4, 5, 6 and 7 to be devoured by Mother at your capital in order to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK]; while it might feel a waste of a perfectly good leveled spider, it'll help make all of your other spawned spiders in mid and late game match up to the strength of stronger units, keeping you competitive. In the late game when your capital reaches size 24+, all spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion, making them even stronger. However, if you use leader with the [LINK=TRAIT_SPIDERKIN]Spiderkin[\LINK] trait, you will get the promotion at capital size 8+ instead. [PARAGRAPH:2]Although spawned baby spiders are free, adult spiders and giant spiders cost gold to maintain and can be a strain on your economy. This can be remedied by promoting your spiders to [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Weaver[\LINK] so that they can construct a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK], or capturing a fortress and turning it into an [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK]. When resting inside these fortifications, spiders do not cost any maintenance. [PARAGRAPH:2]If you still find yourself with too many spiders, Archosian spell casters also have access to the unique [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy[\LINK] line of spells, which sacrifices spiders for various effects.</German>
+		<Italian>[TAB]The Archosian tribe despises metallurgy, instead heavily relies on their spiders to weaken their prey first before charging in. Spiders have hidden nationality, meaning they can enter other players territory and attack without declaring war, and excel at denying exploration and expansion of other civs. But, contrarily to units with [LINK=PROMOTION_HIDDEN_NATIONALITY]hidden nationality promotion[\LINK], they can't [LINK=SPELL_DECLARE_NATIONALITY]reveal their nationality[\LINK] and hence can't capture cities. [PARAGRAPH:2]Archosian spiders are acquired by spending a currency unique to Archos: Brood Activity (BA), which is accumulated each turn. You can get more BA per turn by increasing capital population and building more [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pens[\LINK] and [LINK=BUILDING_DARK_WEALD]Dark Wealds[\LINK]. Spiders also produce 5 BA from each combat (win or lose), so do use them aggressively. The initial size of spiders is limited by the population of the city you are trying to spawn it from: [LINK=SPELL_CALL_BABY_SPIDER]baby spiders[\LINK] (25 BA) are always available, [LINK=SPELL_CALL_SPIDER]adult spiders[\LINK] (75 BA) require size 8+, and [LINK=SPELL_CALL_GIANT_SPIDER]giant spiders[\LINK] (150 BA) require size 16+. [PARAGRAPH:2]If you save up enough BA, you will also start to get passive spider spawns, with the spawn rate being proportional to the BA gained per turn: [NEWLINE][NEWLINE][TAB]000-199 BA (Dormant): No spawns [NEWLINE][TAB]200-499 BA (Astir): [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] spawns [NEWLINE][TAB]500-999 BA (Restless) and capital size 8+: [LINK=UNIT_SPIDER]Adult Spider[\LINK] spawns [NEWLINE][TAB]1000+ BA (Thronging) and capital size 16+: [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK] spawns [PARAGRAPH:2]The most important way of improving the strength of spawned spiders is acquiring diverse meat resources. For each different meat resource (bison, cow, camel, deer, arctic deer, fur, horse, hyapon, ivory, nightmare, pig, sheep, toad) you own, your spawned spiders gain 1 experience upon spawning, adding up to a total of 13 if you have all of them. Additionally, you'll want to save a couple of early spiders once they reach levels 4, 5, 6 and 7 to be devoured by Mother at your capital in order to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK]; while it might feel a waste of a perfectly good leveled spider, it'll help make all of your other spawned spiders in mid and late game match up to the strength of stronger units, keeping you competitive. In the late game when your capital reaches size 24+, all spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion, making them even stronger. However, if you use leader with the [LINK=TRAIT_SPIDERKIN]Spiderkin[\LINK] trait, you will get the promotion at capital size 8+ instead. [PARAGRAPH:2]Although spawned baby spiders are free, adult spiders and giant spiders cost gold to maintain and can be a strain on your economy. This can be remedied by promoting your spiders to [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Weaver[\LINK] so that they can construct a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK], or capturing a fortress and turning it into an [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK]. When resting inside these fortifications, spiders do not cost any maintenance. [PARAGRAPH:2]If you still find yourself with too many spiders, Archosian spell casters also have access to the unique [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy[\LINK] line of spells, which sacrifices spiders for various effects.</Italian>
+		<Spanish>[TAB]The Archosian tribe despises metallurgy, instead heavily relies on their spiders to weaken their prey first before charging in. Spiders have hidden nationality, meaning they can enter other players territory and attack without declaring war, and excel at denying exploration and expansion of other civs. But, contrarily to units with [LINK=PROMOTION_HIDDEN_NATIONALITY]hidden nationality promotion[\LINK], they can't [LINK=SPELL_DECLARE_NATIONALITY]reveal their nationality[\LINK] and hence can't capture cities. [PARAGRAPH:2]Archosian spiders are acquired by spending a currency unique to Archos: Brood Activity (BA), which is accumulated each turn. You can get more BA per turn by increasing capital population and building more [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pens[\LINK] and [LINK=BUILDING_DARK_WEALD]Dark Wealds[\LINK]. Spiders also produce 5 BA from each combat (win or lose), so do use them aggressively. The initial size of spiders is limited by the population of the city you are trying to spawn it from: [LINK=SPELL_CALL_BABY_SPIDER]baby spiders[\LINK] (25 BA) are always available, [LINK=SPELL_CALL_SPIDER]adult spiders[\LINK] (75 BA) require size 8+, and [LINK=SPELL_CALL_GIANT_SPIDER]giant spiders[\LINK] (150 BA) require size 16+. [PARAGRAPH:2]If you save up enough BA, you will also start to get passive spider spawns, with the spawn rate being proportional to the BA gained per turn: [NEWLINE][NEWLINE][TAB]000-199 BA (Dormant): No spawns [NEWLINE][TAB]200-499 BA (Astir): [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] spawns [NEWLINE][TAB]500-999 BA (Restless) and capital size 8+: [LINK=UNIT_SPIDER]Adult Spider[\LINK] spawns [NEWLINE][TAB]1000+ BA (Thronging) and capital size 16+: [LINK=UNIT_GIANT_SPIDER]Giant Spider[\LINK] spawns [PARAGRAPH:2]The most important way of improving the strength of spawned spiders is acquiring diverse meat resources. For each different meat resource (bison, cow, camel, deer, arctic deer, fur, horse, hyapon, ivory, nightmare, pig, sheep, toad) you own, your spawned spiders gain 1 experience upon spawning, adding up to a total of 13 if you have all of them. Additionally, you'll want to save a couple of early spiders once they reach levels 4, 5, 6 and 7 to be devoured by Mother at your capital in order to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK]; while it might feel a waste of a perfectly good leveled spider, it'll help make all of your other spawned spiders in mid and late game match up to the strength of stronger units, keeping you competitive. In the late game when your capital reaches size 24+, all spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion, making them even stronger. However, if you use leader with the [LINK=TRAIT_SPIDERKIN]Spiderkin[\LINK] trait, you will get the promotion at capital size 8+ instead. [PARAGRAPH:2]Although spawned baby spiders are free, adult spiders and giant spiders cost gold to maintain and can be a strain on your economy. This can be remedied by promoting your spiders to [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Weaver[\LINK] so that they can construct a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK], or capturing a fortress and turning it into an [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK]. When resting inside these fortifications, spiders do not cost any maintenance. [PARAGRAPH:2]If you still find yourself with too many spiders, Archosian spell casters also have access to the unique [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy[\LINK] line of spells, which sacrifices spiders for various effects.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BABY_SPIDER_STRATEGY</Tag>
-		<English>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing.</English>
-		<French>Cannibalize</French>
-		<German>Cannibalize</German>
-		<Italian>Cannibalize</Italian>
-		<Spanish>Cannibalize</Spanish>
+		<English>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak individually, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing. [NEWLINE][NEWLINE]Additionally, baby spiders grow stronger when large numbers of them are grouped together, gaining one stack of the [LINK=PROMOTION_SWARMING1]Swarming[\LINK] promotion for every 10 baby spiders in the same tile, up to 4 stacks. At [LINK=PROMOTION_SWARMING4]Swarming IV[\LINK] with 40 baby spiders, they gain the ability to target the weakest unit in a stack.</English>
+		<French>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak individually, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing. [NEWLINE][NEWLINE]Additionally, baby spiders grow stronger when large numbers of them are grouped together, gaining one stack of the [LINK=PROMOTION_SWARMING1]Swarming[\LINK] promotion for every 10 baby spiders in the same tile, up to 4 stacks. At [LINK=PROMOTION_SWARMING4]Swarming IV[\LINK] with 40 baby spiders, they gain the ability to target the weakest unit in a stack.</French>
+		<German>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak individually, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing. [NEWLINE][NEWLINE]Additionally, baby spiders grow stronger when large numbers of them are grouped together, gaining one stack of the [LINK=PROMOTION_SWARMING1]Swarming[\LINK] promotion for every 10 baby spiders in the same tile, up to 4 stacks. At [LINK=PROMOTION_SWARMING4]Swarming IV[\LINK] with 40 baby spiders, they gain the ability to target the weakest unit in a stack.</German>
+		<Italian>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak individually, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing. [NEWLINE][NEWLINE]Additionally, baby spiders grow stronger when large numbers of them are grouped together, gaining one stack of the [LINK=PROMOTION_SWARMING1]Swarming[\LINK] promotion for every 10 baby spiders in the same tile, up to 4 stacks. At [LINK=PROMOTION_SWARMING4]Swarming IV[\LINK] with 40 baby spiders, they gain the ability to target the weakest unit in a stack.</Italian>
+		<Spanish>After defeating (and eating) a living unit in battle, baby spider gains the [LINK=PROMOTION_GROWTH_SPURTS]Growth spurts[\LINK] promotion, transforming it into an [LINK=UNIT_SPIDER]adult spider[\LINK] with a probability of 20% per turn. [NEWLINE][NEWLINE]Baby Spiders are very weak individually, but the Archos civilization can make use of them by [LINK=SPELL_SMEAR_POISON]sacrificing[\LINK] them for poisoned weapons or [LINK=SPELL_CANNIBALIZE]feeding[\LINK] them to bigger spiders for healing. [NEWLINE][NEWLINE]Additionally, baby spiders grow stronger when large numbers of them are grouped together, gaining one stack of the [LINK=PROMOTION_SWARMING1]Swarming[\LINK] promotion for every 10 baby spiders in the same tile, up to 4 stacks. At [LINK=PROMOTION_SWARMING4]Swarming IV[\LINK] with 40 baby spiders, they gain the ability to target the weakest unit in a stack.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPIDER_STRATEGY_NEW</Tag>
-		<English>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Wetnurse; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 11+ population.</English>
-		<French>Cannibalize</French>
-		<German>Cannibalize</German>
-		<Italian>Cannibalize</Italian>
-		<Spanish>Cannibalize</Spanish>
+		<English>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 8+ population.</English>
+		<French>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 8+ population.</French>
+		<German>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 8+ population.</German>
+		<Italian>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 8+ population.</Italian>
+		<Spanish>From level 3, Spiders can choose 1 color among 5 possibilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA]Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Spitter; [LINK=PROMOTION_SPIDER_VENENUM]Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Burrower; [LINK=PROMOTION_SPIDER_MUCRO]Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA]Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Weaver; [LINK=PROMOTION_SPIDER_TEXTUS]Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Spiders can be [LINK=SPELL_SPIDER_ARCHOS]upgraded[\LINK] to [LINK=UNIT_GIANT_SPIDER]Giant Spiders[\LINK] once they reach level 4 and the Archosian capital has 8+ population.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GIANT_SPIDER_STRATEGY_NEW</Tag>
-		<English>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Blue (Greater Wetnurse; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders.</English>
-		<French>Cannibalize</French>
-		<German>Cannibalize</German>
-		<Italian>Cannibalize</Italian>
-		<Spanish>Cannibalize</Spanish>
+		<English>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders. [NEWLINE][NEWLINE]Giant Spiders of variant Green and Grey can be further [LINK=SPELL_GIANT_SPIDER_ARCHOS]upgraded[\LINK] to Behemoths once they reach level 8 and the Archosian capital has 16+ population.</English>
+		<French>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders. [NEWLINE][NEWLINE]Giant Spiders of variant Green and Grey can be further [LINK=SPELL_GIANT_SPIDER_ARCHOS]upgraded[\LINK] to Behemoths once they reach level 8 and the Archosian capital has 16+ population</French>
+		<German>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders. [NEWLINE][NEWLINE]Giant Spiders of variant Green and Grey can be further [LINK=SPELL_GIANT_SPIDER_ARCHOS]upgraded[\LINK] to Behemoths once they reach level 8 and the Archosian capital has 16+ population</German>
+		<Italian>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders. [NEWLINE][NEWLINE]Giant Spiders of variant Green and Grey can be further [LINK=SPELL_GIANT_SPIDER_ARCHOS]upgraded[\LINK] to Behemoths once they reach level 8 and the Archosian capital has 16+ population</Italian>
+		<Spanish>Giant Spiders can evolve along their color variant for even more powerful abilities:[NEWLINE][NEWLINE][TAB][ICON_BULLET]Blue (Greater Diver; [LINK=PROMOTION_SPIDER_ARGYRONETA_GREATER]Greater Argyroneta[\LINK]).[NEWLINE][TAB][ICON_BULLET]Green (Greater Spitter; [LINK=PROMOTION_SPIDER_VENENUM_GREATER]Greater Venenum[\LINK]).[NEWLINE][TAB][ICON_BULLET]Grey (Greater Burrower; [LINK=PROMOTION_SPIDER_MUCRO_GREATER]Greater Mucro[\LINK]).[NEWLINE][TAB][ICON_BULLET]Red (Greater Exploder; [LINK=PROMOTION_SPIDER_RHAGODESSA_GREATER]Greater Rhagodessa[\LINK]).[NEWLINE][TAB][ICON_BULLET]Yellow (Greater Weaver; [LINK=PROMOTION_SPIDER_TEXTUS_GREATER]Greater Textus[\LINK]). [NEWLINE][NEWLINE]Archosian Giant Spiders can be sacrificed at the capital to create [LINK=BUILDING_ARCHOS_NEST_ADDON1]Broodchambers[\LINK] which powers up future spiders. [NEWLINE][NEWLINE]Giant Spiders of variant Green and Grey can be further [LINK=SPELL_GIANT_SPIDER_ARCHOS]upgraded[\LINK] to Behemoths once they reach level 8 and the Archosian capital has 16+ population</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN_NEW</Tag>
+		<English>Arachnomancer</English>
+		<French>Arachnomancer</French>
+		<German>Arachnomancer</German>
+		<Italian>Arachnomancer</Italian>
+		<Spanish>Arachnomancer</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN_SHORT_NEW</Tag>
+		<English>Ara</English>
+		<French>Ara</French>
+		<German>Ara</German>
+		<Italian>Ara</Italian>
+		<Spanish>Ara</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN_HELP_NEW</Tag>
+		<English>[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+. [NEWLINE][ICON_BULLET] Arachnomancy spells cost 10% less baby spider sacrifice to cast.</English>
+		<French>[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+. [NEWLINE][ICON_BULLET] Arachnomancy spells cost 10% less baby spider sacrifice to cast.</French>
+		<German>[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+. [NEWLINE][ICON_BULLET] Arachnomancy spells cost 10% less baby spider sacrifice to cast.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+. [NEWLINE][ICON_BULLET] Arachnomancy spells cost 10% less baby spider sacrifice to cast.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Spiders will spawn with the [LINK=PROMOTION_STRONG]Strong[\LINK] promotion at capital size 8+ instead of 24+. [NEWLINE][ICON_BULLET] Arachnomancy spells cost 10% less baby spider sacrifice to cast.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN2_HELP_NEW</Tag>
+		<English>[NEWLINE][ICON_BULLET]Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</English>
+		<French>[NEWLINE][ICON_BULLET]Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</French>
+		<German>[NEWLINE][ICON_BULLET]Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRAIT_SPIDERKIN3_HELP_NEW</Tag>
+		<English>[NEWLINE][ICON_BULLET]Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</English>
+		<French>[NEWLINE][ICON_BULLET]Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</French>
+		<German>[NEWLINE][ICON_BULLET]Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</German>
+		<Italian>[NEWLINE][ICON_BULLET]Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</Italian>
+		<Spanish>[NEWLINE][ICON_BULLET]Arachnomancy spells cost an extra 10% less baby spider sacrifice to cast.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPIDER_HELP</Tag>
+		<English>[ICON_BULLET]Produces 5 Brood Activity from each combat</English>
+		<French>[ICON_BULLET]Produces 5 Brood Activity from each combat</French>
+		<German>[ICON_BULLET]Produces 5 Brood Activity from each combat</German>
+		<Italian>[ICON_BULLET]Produces 5 Brood Activity from each combat</Italian>
+		<Spanish>[ICON_BULLET]Produces 5 Brood Activity from each combat</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SPIDER_UPGRADE_HELP</Tag>
-		<English>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting [LINK=BUILDING_PALACE_ARCHOS]Silksong Cradle[\LINK] reaches 11 population.</English>
-		<French>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting [LINK=BUILDING_PALACE_ARCHOS]Silksong Cradle[\LINK] reaches 11 population.</French>
-		<German>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting [LINK=BUILDING_PALACE_ARCHOS]Silksong Cradle[\LINK] reaches 11 population.</German>
-		<Italian>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting [LINK=BUILDING_PALACE_ARCHOS]Silksong Cradle[\LINK] reaches 11 population.</Italian>
-		<Spanish>[ICON_BULLET]All spiders of level 4 or above can be upgraded to giant spiders once the city hosting [LINK=BUILDING_PALACE_ARCHOS]Silksong Cradle[\LINK] reaches 11 population.</Spanish>
+		<English>[ICON_BULLET]Requires minimum capital size 8</English>
+		<French>[ICON_BULLET]Requires minimum capital size 8</French>
+		<German>[ICON_BULLET]Requires minimum capital size 8</German>
+		<Italian>[ICON_BULLET]Requires minimum capital size 8</Italian>
+		<Spanish>[ICON_BULLET]Requires minimum capital size 8</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_GIANT_SPIDER_UPGRADE</Tag>
+		<English>Giant Spider Upgrade</English>
+		<French>�volution d'Araign�e Ancienne</French>
+		<German>Werte Riesenspinne auf</German>
+		<Italian>Giant Spider Upgrade</Italian>
+		<Spanish>Giant Spider Upgrade</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_GIANT_SPIDER_UPGRADE_HELP</Tag>
+		<English>[ICON_BULLET]Requires minimum capital size 16</English>
+		<French>[ICON_BULLET]Requires minimum capital size 16</French>
+		<German>[ICON_BULLET]Requires minimum capital size 16</German>
+		<Italian>[ICON_BULLET]Requires minimum capital size 16</Italian>
+		<Spanish>[ICON_BULLET]Requires minimum capital size 16</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_NESTING_SPIDER_STRATEGY_NEW</Tag>
+		<English>The Archosian Fort Commander UU has roughly the same effectiveness compared to a normal Fort Commander. It has higher initial strength and combat ability (except against recon units), but takes a longer time to unlock its full abilities, and does not have access to the full set of promotions that the Fort Commander does. However, they do gain [LINK=PROMOTION_FORTSPIDER1]Fort Spider I[\LINK] and [LINK=PROMOTION_FORTSPIDER2]Fort Spider II[\LINK] at level 3 and 5 respectively. [NEWLINE][ICON_BULLET]With Fort Spider I, they can turn any fortification into a [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK] and [LINK=SPELL_SPAWN_BABY_SPIDER]summon a temporary baby spider[\LINK]. [NEWLINE][ICON_BULLET]With Fort Spider II, they gain a ranged attack.</English>
+		<French>The Archosian Fort Commander UU has roughly the same effectiveness compared to a normal Fort Commander. It has higher initial strength and combat ability (except against recon units), but takes a longer time to unlock its full abilities, and does not have access to the full set of promotions that the Fort Commander does. However, they do gain [LINK=PROMOTION_FORTSPIDER1]Fort Spider I[\LINK] and [LINK=PROMOTION_FORTSPIDER2]Fort Spider II[\LINK] at level 3 and 5 respectively. [NEWLINE][ICON_BULLET]With Fort Spider I, they can turn any fortification into a [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK] and [LINK=SPELL_SPAWN_BABY_SPIDER]summon a temporary baby spider[\LINK]. [NEWLINE][ICON_BULLET]With Fort Spider II, they gain a ranged attack.</French>
+		<German>The Archosian Fort Commander UU has roughly the same effectiveness compared to a normal Fort Commander. It has higher initial strength and combat ability (except against recon units), but takes a longer time to unlock its full abilities, and does not have access to the full set of promotions that the Fort Commander does. However, they do gain [LINK=PROMOTION_FORTSPIDER1]Fort Spider I[\LINK] and [LINK=PROMOTION_FORTSPIDER2]Fort Spider II[\LINK] at level 3 and 5 respectively. [NEWLINE][ICON_BULLET]With Fort Spider I, they can turn any fortification into a [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK] and [LINK=SPELL_SPAWN_BABY_SPIDER]summon a temporary baby spider[\LINK]. [NEWLINE][ICON_BULLET]With Fort Spider II, they gain a ranged attack.</German>
+		<Italian>The Archosian Fort Commander UU has roughly the same effectiveness compared to a normal Fort Commander. It has higher initial strength and combat ability (except against recon units), but takes a longer time to unlock its full abilities, and does not have access to the full set of promotions that the Fort Commander does. However, they do gain [LINK=PROMOTION_FORTSPIDER1]Fort Spider I[\LINK] and [LINK=PROMOTION_FORTSPIDER2]Fort Spider II[\LINK] at level 3 and 5 respectively. [NEWLINE][ICON_BULLET]With Fort Spider I, they can turn any fortification into a [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK] and [LINK=SPELL_SPAWN_BABY_SPIDER]summon a temporary baby spider[\LINK]. [NEWLINE][ICON_BULLET]With Fort Spider II, they gain a ranged attack.</Italian>
+		<Spanish>The Archosian Fort Commander UU has roughly the same effectiveness compared to a normal Fort Commander. It has higher initial strength and combat ability (except against recon units), but takes a longer time to unlock its full abilities, and does not have access to the full set of promotions that the Fort Commander does. However, they do gain [LINK=PROMOTION_FORTSPIDER1]Fort Spider I[\LINK] and [LINK=PROMOTION_FORTSPIDER2]Fort Spider II[\LINK] at level 3 and 5 respectively. [NEWLINE][ICON_BULLET]With Fort Spider I, they can turn any fortification into a [LINK=IMPROVEMENT_INFESTED_FORTRESS]Infested Fortress[\LINK] and [LINK=SPELL_SPAWN_BABY_SPIDER]summon a temporary baby spider[\LINK]. [NEWLINE][ICON_BULLET]With Fort Spider II, they gain a ranged attack.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_SPIDERKIN_NEW</Tag>
+		<English>Black Recluse</English>
+		<French>Black Recluse</French>
+		<German>Black Recluse</German>
+		<Italian>Black Recluse</Italian>
+		<Spanish>Black Recluse</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPIDERKIN_PEDIA_NEW</Tag>
-		<English>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</English>
-		<French>Les Veneurs Archosiens passent des semaines dans les contr�es sauvages d'Erebus, pistant ses proies avec son compagnon Araign�e. Lorsqu'il faut frapper, l'Araign�e attaque et paralyse sa cible avec son venin avant que le Veneur fasse le tir mortel. Le clan a v�cu avec les Araign�es depuis si longtemps que le venin pr�sent dans la carcasse n'est plus mortel pour eux (m�me s'il continue de prendre son d�). [NEWLINE][NEWLINE]Quand un bin�me de chasse survit suffisamment longtemps pour �tre remarqu�, ils peuvent �tre envoy�s encore plus loin pour chasser des proies encore plus dangereuses. L'Araign�e devient plus dangereuse � mesure qu'elle grandit et le Reclus compte encore plus sur elle. [NEWLINE][NEWLINE]Les chasseurs les plus efficaces peuvent d�couvrir qu'ils d�veloppent des mutations tandis qu'ils continuent de manger la viande empoisonn�e de leurs victimes. Elles sont vues comme des "pr�sents" de la M�re et un signe que le chasseur est favoris�. N'importe comment, la plupart de ces mutations se r�v�lent b�n�fiques en combat et l'Arachnomorphe est pratiquement immunis� � tout empoisonnement ult�rieur.</French>
-		<German>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]Die erfolgreichsten J�ger m�gen Mutationen an sich bemerken, wenn sie nur kontinuierlich das vergiftete Fleisch ihrer Beute verzehren. Dies wird als ein "Geschenk" von Mutter und als Zeichen ihrer Gunst angesehen. In jedem Fall entpuppen sich viele dieser Mutationen als n�tzlich im Kampf, so sind die Sipplinge der Spinnentiere z.B. praktisch immun gegen weitere Vergiftungen.</German>
-		<Italian>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</Italian>
-		<Spanish>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Spiderkin is practically immune to further poisoning.</Spanish>
+		<English>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Black Recluse is practically immune to further poisoning.</English>
+		<French>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Black Recluse is practically immune to further poisoning.</French>
+		<German>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Black Recluse is practically immune to further poisoning.</German>
+		<Italian>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Black Recluse is practically immune to further poisoning.</Italian>
+		<Spanish>Archosian Hunters spend weeks in the wilds of Erebus, stalking prey with a spider companion. When it is time to strike, the spider attacks and paralyses the target with venom before the hunter deals the deathblow. The tribe have been living with spiders for so long that the venom in the carcass is no longer deadly to them - though it does take it's toll. [NEWLINE][NEWLINE]When a hunting team survives the wilds long enough to become noteworthy, they may be sent further afield to hunt more dangerous prey. The spider becomes more deadly as it grows and the hunter relies on it to a greater degree. [NEWLINE][NEWLINE]The most successful hunters may find that they develop mutations as they continue to eat the poisoned meat of their kills. This is seen as a "gift" from Mother and a sign that the hunter is favoured. In anycase, many of these mutations prove beneficial in combat and the Black Recluse is practically immune to further poisoning.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_WAKE_MOTHER_ARACHNOPHOBIA</Tag>
@@ -62,14 +142,6 @@
 		<Spanish>Ia! Black queen of the depths with a thousand young!</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_PALACE_ARCHOS_ARACHNOPHOBIA</Tag>
-		<English>Silksong Cradle</English>
-		<French>Silksong Cradle</French>
-		<German>Silksong Cradle</German>
-		<Italian>Silksong Cradle</Italian>
-		<Spanish>Silksong Cradle</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_UNIT_MOTHER_SPIDER_ARACHNOPHOBIA</Tag>
 		<English>Mother of Mothers</English>
 		<French>Mother of Mothers</French>
@@ -78,20 +150,20 @@
 		<Spanish>Mother of Mothers</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_MARKED_PREY</Tag>
-		<English>Marked Prey</English>
-		<French>Marked Prey</French>
-		<German>Marked Prey</German>
-		<Italian>Marked Prey</Italian>
-		<Spanish>Marked Prey</Spanish>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOPHOBIA</Tag>
+		<English>Arachnophobia</English>
+		<French>Arachnophobia</French>
+		<German>Arachnophobia</German>
+		<Italian>Arachnophobia</Italian>
+		<Spanish>Arachnophobia</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_SPELL_PREDATORY_SCREAM</Tag>
-		<English>Predatory Scream</English>
-		<French>Predatory Scream</French>
-		<German>Predatory Scream</German>
-		<Italian>Predatory Scream</Italian>
-		<Spanish>Predatory Scream</Spanish>
+		<Tag>TXT_KEY_SPELL_ARACHNOPHOBIA</Tag>
+		<English>Arachnophobia</English>
+		<French>Arachnophobia</French>
+		<German>Arachnophobia</German>
+		<Italian>Arachnophobia</Italian>
+		<Spanish>Arachnophobia</Spanish>
 	</TEXT>
 	
 	<TEXT>
@@ -119,30 +191,6 @@
 		<Spanish>War Spider</Spanish>
 	</TEXT>
 
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_POISON_EXPLOSION1</Tag>
-		<English>Poison Explosion I</English>
-		<French>Poison Explosion I</French>
-		<German>Poison Explosion I</German>
-		<Italian>Poison Explosion I</Italian>
-		<Spanish>Poison Explosion I</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_POISON_EXPLOSION2</Tag>
-		<English>Poison Explosion II</English>
-		<French>Poison Explosion II</French>
-		<German>Poison Explosion II</German>
-		<Italian>Poison Explosion II</Italian>
-		<Spanish>Poison Explosion II</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_POISON_EXPLOSION_HELP</Tag>
-		<English>[ICON_BULLET]Explode and poison all units in range.</English>
-		<French>[ICON_BULLET]Explode and poison all units in range.</French>
-		<German>[ICON_BULLET]Explode and poison all units in range.</German>
-		<Italian>[ICON_BULLET]Explode and poison all units in range.</Italian>
-		<Spanish>[ICON_BULLET]Explode and poison all units in range.</Spanish>
-	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_BURROWED_NO_REVEAL</Tag>
 		<English>Mucro Burrowed (Can't reveal yet)</English>
@@ -176,38 +224,111 @@
 		<Spanish>Mucro Revealed II</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_CONSUME_THE_WEAK</Tag>
-		<English>Consume the Weak</English>
-		<French>Consume the Weak</French>
-		<German>Consume the Weak</German>
-		<Italian>Consume the Weak</Italian>
-		<Spanish>Consume the Weak</Spanish>
+		<Tag>TXT_KEY_SPELL_POISON_EXPLOSION1</Tag>
+		<English>Poison Explosion I</English>
+		<French>Poison Explosion I</French>
+		<German>Poison Explosion I</German>
+		<Italian>Poison Explosion I</Italian>
+		<Spanish>Poison Explosion I</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_SPELL_CONSUME_THE_WEAK</Tag>
-		<English>Consume the Weak</English>
-		<French>Consume the Weak</French>
-		<German>Consume the Weak</German>
-		<Italian>Consume the Weak</Italian>
-		<Spanish>Consume the Weak</Spanish>
+		<Tag>TXT_KEY_SPELL_POISON_EXPLOSION2</Tag>
+		<English>Poison Explosion II</English>
+		<French>Poison Explosion II</French>
+		<German>Poison Explosion II</German>
+		<Italian>Poison Explosion II</Italian>
+		<Spanish>Poison Explosion II</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_POISON_FUME</Tag>
-		<English>Poison Fume</English>
-		<French>Poison Fume</French>
-		<German>Poison Fume</German>
-		<Italian>Poison Fume</Italian>
-		<Spanish>Poison Fume</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_POISON_FUME</Tag>
-		<English>Poison Fume</English>
-		<French>Poison Fume</French>
-		<German>Poison Fume</German>
-		<Italian>Poison Fume</Italian>
-		<Spanish>Poison Fume</Spanish>
+		<Tag>TXT_KEY_SPELL_POISON_EXPLOSION_HELP</Tag>
+		<English>[ICON_BULLET]Explode and poison all units in range</English>
+		<French>[ICON_BULLET]Explode and poison all units in range</French>
+		<German>[ICON_BULLET]Explode and poison all units in range</German>
+		<Italian>[ICON_BULLET]Explode and poison all units in range</Italian>
+		<Spanish>[ICON_BULLET]Explode and poison all units in range</Spanish>
 	</TEXT>
 	
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_VENENUM_BEHEMOTH</Tag>
+		<English>Venenum Behemoth</English>
+		<French>Venenum Behemoth</French>
+		<German>Venenum Behemoth</German>
+		<Italian>Venenum Behemoth</Italian>
+		<Spanish>Venenum Behemoth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_BEHEMOTH</Tag>
+		<English>Mucro Behemoth</English>
+		<French>Mucro Behemoth</French>
+		<German>Mucro Behemoth</German>
+		<Italian>Mucro Behemoth</Italian>
+		<Spanish>Mucro Behemoth</Spanish>
+	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_DIVER</Tag>
+		<English>Diver</English>
+		<French>Diver</French>
+		<German>Diver</German>
+		<Italian>Diver</Italian>
+		<Spanish>Diver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_DIVER_GREATER</Tag>
+		<English>Greater Diver</English>
+		<French>Greater Diver</French>
+		<German>Greater Diver</German>
+		<Italian>Greater Diver</Italian>
+		<Spanish>Greater Diver</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_SPITTER</Tag>
+		<English>Spitter</English>
+		<French>Spitter</French>
+		<German>Spitter</German>
+		<Italian>Spitter</Italian>
+		<Spanish>Spitter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_SPITTER_GREATER</Tag>
+		<English>Greater Spitter</English>
+		<French>Greater Spitter</French>
+		<German>Greater Spitter</German>
+		<Italian>Greater Spitter</Italian>
+		<Spanish>Greater Spitter</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_SPITTER_BEHEMOTH</Tag>
+		<English>Spitter Behemoth</English>
+		<French>Spitter Behemoth</French>
+		<German>Spitter Behemoth</German>
+		<Italian>Spitter Behemoth</Italian>
+		<Spanish>Spitter Behemoth</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_BURROWER</Tag>
+		<English>Burrower</English>
+		<French>Burrower</French>
+		<German>Burrower</German>
+		<Italian>Burrower</Italian>
+		<Spanish>Burrower</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_BURROWER_GREATER</Tag>
+		<English>Greater Burrower</English>
+		<French>Greater Burrower</French>
+		<German>Greater Burrower</German>
+		<Italian>Greater Burrower</Italian>
+		<Spanish>Greater Burrower</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNITNAME_BURROWER_BEHEMOTH</Tag>
+		<English>Burrower Behemoth</English>
+		<French>Burrower Behemoth</French>
+		<German>Burrower Behemoth</German>
+		<Italian>Burrower Behemoth</Italian>
+		<Spanish>Burrower Behemoth</Spanish>
+	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNITNAME_EXPLODER</Tag>
 		<English>Exploder</English>
@@ -240,242 +361,54 @@
 		<Italian>Greater Weaver</Italian>
 		<Spanish>Greater Weaver</Spanish>
 	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNITNAME_BURROWER</Tag>
-		<English>Burrower</English>
-		<French>Burrower</French>
-		<German>Burrower</German>
-		<Italian>Burrower</Italian>
-		<Spanish>Burrower</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNITNAME_BURROWER_GREATER</Tag>
-		<English>Greater Burrower</English>
-		<French>Greater Burrower</French>
-		<German>Greater Burrower</German>
-		<Italian>Greater Burrower</Italian>
-		<Spanish>Greater Burrower</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_GREATER_HELP</Tag>
-		<English>[ICON_BULLET]Gain even bigger buff on reveal.</English>
-		<French>[ICON_BULLET]Gain even bigger buff on reveal.</French>
-		<German>[ICON_BULLET]Gain even bigger buff on reveal.</German>
-		<Italian>[ICON_BULLET]Gain even bigger buff on reveal.</Italian>
-		<Spanish>[ICON_BULLET]Gain even bigger buff on reveal.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNITNAME_WETNURSE</Tag>
-		<English>Wetnurse</English>
-		<French>Wetnurse</French>
-		<German>Wetnurse</German>
-		<Italian>Wetnurse</Italian>
-		<Spanish>Wetnurse</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNITNAME_WETNURSE_GREATER</Tag>
-		<English>Greater Wetnurse</English>
-		<French>Greater Wetnurse</French>
-		<German>Greater Wetnurse</German>
-		<Italian>Greater Wetnurse</Italian>
-		<Spanish>Greater Wetnurse</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNITNAME_SPITTER</Tag>
-		<English>Spitter</English>
-		<French>Spitter</French>
-		<German>Spitter</German>
-		<Italian>Spitter</Italian>
-		<Spanish>Spitter</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNITNAME_SPITTER_GREATER</Tag>
-		<English>Greater Spitter</English>
-		<French>Greater Spitter</French>
-		<German>Greater Spitter</German>
-		<Italian>Greater Spitter</Italian>
-		<Spanish>Greater Spitter</Spanish>
-	</TEXT>
-	
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Tag>
-		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Venom Secretion to newly created melee and recon units in the city.</English>
-		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Venom Secretion to newly created melee and recon units in the city.</French>
-		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Venom Secretion to newly created melee and recon units in the city.</German>
-		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Venom Secretion to newly created melee and recon units in the city.</Italian>
-		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Venom Secretion to newly created melee and recon units in the city.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Tag>
-		<English>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Jointed Limbs to newly created melee and recon units in the city.</English>
-		<French>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Jointed Limbs to newly created melee and recon units in the city.</French>
-		<German>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Jointed Limbs to newly created melee and recon units in the city.</German>
-		<Italian>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Jointed Limbs to newly created melee and recon units in the city.</Italian>
-		<Spanish>[ICON_BULLET]Grants access to the Web Spell. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Jointed Limbs to newly created melee and recon units in the city.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Tag>
-		<English>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Chitin Carapace to newly created melee and recon units in the city.</English>
-		<French>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Chitin Carapace to newly created melee and recon units in the city.</French>
-		<German>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Chitin Carapace to newly created melee and recon units in the city.</German>
-		<Italian>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Chitin Carapace to newly created melee and recon units in the city.</Italian>
-		<Spanish>[ICON_BULLET]Gain the ability to burrow underground. Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks. [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Chitin Carapace to newly created melee and recon units in the city.</Spanish>
-	</TEXT>
+
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_ARGYRONETA_HELP</Tag>
-		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Trail Pheromone to newly created melee and recon units in the city.</English>
-		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Trail Pheromone to newly created melee and recon units in the city.</French>
-		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Trail Pheromone to newly created melee and recon units in the city.</German>
-		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Trail Pheromone to newly created melee and recon units in the city.</Italian>
-		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Trail Pheromone to newly created melee and recon units in the city.</Spanish>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat to newly created units in the city</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat to newly created units in the city</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat to newly created units in the city</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat to newly created units in the city</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat to newly created units in the city</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_SPIDER_VENENUM_HELP</Tag>
-		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Spitter Gland to newly created melee and recon units in the city.</English>
-		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Spitter Gland to newly created melee and recon units in the city.</French>
-		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Spitter Gland to newly created melee and recon units in the city.</German>
-		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Spitter Gland to newly created melee and recon units in the city.</Italian>
-		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant Spider Mutation - Spitter Gland to newly created melee and recon units in the city.</Spanish>
-	</TEXT>
-
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_VENOM_SECRETION</Tag>
-		<English>Spider Mutation - Venom Secretion</English>
-		<French>Spider Mutation - Venom Secretion</French>
-		<German>Spider Mutation - Venom Secretion</German>
-		<Italian>Spider Mutation - Venom Secretion</Italian>
-		<Spanish>Spider Mutation - Venom Secretion</Spanish>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage to newly created units in the city</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage to newly created units in the city</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage to newly created units in the city</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage to newly created units in the city</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage to newly created units in the city</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_JOINTED_LIMBS</Tag>
-		<English>Spider Mutation - Jointed Limbs</English>
-		<French>Spider Mutation - Jointed Limbs</French>
-		<German>Spider Mutation - Jointed Limbs</German>
-		<Italian>Spider Mutation - Jointed Limbs</Italian>
-		<Spanish>Spider Mutation - Jointed Limbs</Spanish>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_HELP</Tag>
+		<English>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength to newly created units in the city</English>
+		<French>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength to newly created units in the city</French>
+		<German>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength to newly created units in the city</German>
+		<Italian>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength to newly created units in the city</Italian>
+		<Spanish>[ICON_BULLET]Gain the ability to burrow underground; Reveal to gain buffs for 1 turn, but also become vulnerable to enemy attacks [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength to newly created units in the city</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE</Tag>
-		<English>Spider Mutation - Chitin Carapace</English>
-		<French>Spider Mutation - Chitin Carapace</French>
-		<German>Spider Mutation - Chitin Carapace</German>
-		<Italian>Spider Mutation - Chitin Carapace</Italian>
-		<Spanish>Spider Mutation - Chitin Carapace</Spanish>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_MUCRO_GREATER_HELP</Tag>
+		<English>[ICON_BULLET]Gain even bigger buff on reveal</English>
+		<French>[ICON_BULLET]Gain even bigger buff on reveal</French>
+		<German>[ICON_BULLET]Gain even bigger buff on reveal</German>
+		<Italian>[ICON_BULLET]Gain even bigger buff on reveal</Italian>
+		<Spanish>[ICON_BULLET]Gain even bigger buff on reveal</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE</Tag>
-		<English>Spider Mutation - Trail Pheromone</English>
-		<French>Spider Mutation - Trail Pheromone</French>
-		<German>Spider Mutation - Trail Pheromone</German>
-		<Italian>Spider Mutation - Trail Pheromone</Italian>
-		<Spanish>Spider Mutation - Trail Pheromone</Spanish>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_RHAGODESSA_HELP</Tag>
+		<English>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength to newly created units in the city</English>
+		<French>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength to newly created units in the city</French>
+		<German>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength to newly created units in the city</German>
+		<Italian>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength to newly created units in the city</Italian>
+		<Spanish>[ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength to newly created units in the city</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SPIDERMUTATION_SPITTER_GLAND</Tag>
-		<English>Spider Mutation - Spitter Gland</English>
-		<French>Spider Mutation - Spitter Gland</French>
-		<German>Spider Mutation - Spitter Gland</German>
-		<Italian>Spider Mutation - Spitter Gland</Italian>
-		<Spanish>Spider Mutation - Spitter Gland</Spanish>
-	</TEXT>
-	
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_RUBY</Tag>
-		<English>Rite of Ruby</English>
-		<French>Rite of Ruby</French>
-		<German>Rite of Ruby</German>
-		<Italian>Rite of Ruby</Italian>
-		<Spanish>Rite of Ruby</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_TOPAZ</Tag>
-		<English>Rite of Topaz</English>
-		<French>Rite of Topaz</French>
-		<German>Rite of Topaz</German>
-		<Italian>Rite of Topaz</Italian>
-		<Spanish>Rite of Topaz</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_DIAMOND</Tag>
-		<English>Rite of Diamond</English>
-		<French>Rite of Diamond</French>
-		<German>Rite of Diamond</German>
-		<Italian>Rite of Diamond</Italian>
-		<Spanish>Rite of Diamond</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE</Tag>
-		<English>Rite of Sapphire</English>
-		<French>Rite of Sapphire</French>
-		<German>Rite of Sapphire</German>
-		<Italian>Rite of Sapphire</Italian>
-		<Spanish>Rite of Sapphire</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_EMERALD</Tag>
-		<English>Rite of Emerald</English>
-		<French>Rite of Emerald</French>
-		<German>Rite of Emerald</German>
-		<Italian>Rite of Emerald</Italian>
-		<Spanish>Rite of Emerald</Spanish>
-	</TEXT>
-	
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_RUBY_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifices the weakest red spider in stack to grant Spider Mutation - Venom Secretion on melee and recon units in stack</English>
-		<French>[ICON_BULLET]Sacrifices the weakest red spider in stack to grant Spider Mutation - Venom Secretion on melee and recon units in stack</French>
-		<German>[ICON_BULLET]Sacrifices the weakest red spider in stack to grant Spider Mutation - Venom Secretion on melee and recon units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifices the weakest red spider in stack to grant Spider Mutation - Venom Secretion on melee and recon units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifices the weakest red spider in stack to grant Spider Mutation - Venom Secretion on melee and recon units in stack</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_TOPAZ_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Jointed Limbs on melee and recon units in stack</English>
-		<French>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Jointed Limbs on melee and recon units in stack</French>
-		<German>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Jointed Limbs on melee and recon units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Jointed Limbs on melee and recon units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Jointed Limbs on melee and recon units in stack</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_DIAMOND_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Chitin Carapace on melee and recon units in stack</English>
-		<French>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Chitin Carapace on melee and recon units in stack</French>
-		<German>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Chitin Carapace on melee and recon units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Chitin Carapace on melee and recon units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Chitin Carapace on melee and recon units in stack</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Trail Pheromone on melee and recon units in stack</English>
-		<French>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Trail Pheromone on melee and recon units in stack</French>
-		<German>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Trail Pheromone on melee and recon units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Trail Pheromone on melee and recon units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Trail Pheromone on melee and recon units in stack</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_RITE_EMERALD_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Spitter Gland on melee and recon units in stack</English>
-		<French>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Spitter Gland on melee and recon units in stack</French>
-		<German>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Spitter Gland on melee and recon units in stack</German>
-		<Italian>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Spitter Gland on melee and recon units in stack</Italian>
-		<Spanish>[ICON_BULLET]Sacrifices the weakest yellow spider in stack to grant Spider Mutation - Spitter Gland on melee and recon units in stack</Spanish>
-	</TEXT>
-
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION</Tag>
-		<English>Symbiotic Communion</English>
-		<French>Symbiotic Communion</French>
-		<German>Symbiotic Communion</German>
-		<Italian>Symbiotic Communion</Italian>
-		<Spanish>Symbiotic Communion</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION_END</Tag>
-		<English>Symbiotic Communion End</English>
-		<French>Symbiotic Communion End</French>
-		<German>Symbiotic Communion End</German>
-		<Italian>Symbiotic Communion End</Italian>
-		<Spanish>Symbiotic Communion End</Spanish>
+		<Tag>TXT_KEY_PROMOTION_SPIDER_TEXTUS_HELP</Tag>
+		<English>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</English>
+		<French>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</French>
+		<German>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</German>
+		<Italian>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</Italian>
+		<Spanish>[ICON_BULLET]Grants access to the Web Spell [NEWLINE][ICON_BULLET]When stationed in a city, +10% chance to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes to newly created units in the city</Spanish>
 	</TEXT>
 
 	<TEXT>
@@ -536,91 +469,27 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CALL_BABY_SPIDER_HELP</Tag>
-		<English>[ICON_BULLET]Spend 25 Brood Activity to summon a baby spider in a city you own.</English>
-		<French>[ICON_BULLET]Spend 25 Brood Activity to summon a baby spider in a city you own.</French>
-		<German>[ICON_BULLET]Spend 25 Brood Activity to summon a baby spider in a city you own.</German>
-		<Italian>[ICON_BULLET]Spend 25 Brood Activity to summon a baby spider in a city you own.</Italian>
-		<Spanish>[ICON_BULLET]Spend 25 Brood Activity to summon a baby spider in a city you own.</Spanish>
+		<English>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own</English>
+		<French>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own</French>
+		<German>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own</German>
+		<Italian>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own</Italian>
+		<Spanish>[ICON_BULLET]Spend 25 Brood Activity to summon a [LINK=UNIT_BABY_SPIDER]baby spider[\LINK] in a city you own</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CALL_SPIDER_HELP</Tag>
-		<English>[ICON_BULLET]Spend 75 Brood Activity to summon a giant spider in a city you own of size 6 or greater.</English>
-		<French>[ICON_BULLET]Spend 75 Brood Activity to summon a giant spider in a city you own of size 6 or greater.</French>
-		<German>[ICON_BULLET]Spend 75 Brood Activity to summon a giant spider in a city you own of size 6 or greater.</German>
-		<Italian>[ICON_BULLET]Spend 75 Brood Activity to summon a giant spider in a city you own of size 6 or greater.</Italian>
-		<Spanish>[ICON_BULLET]Spend 75 Brood Activity to summon a giant spider in a city you own of size 6 or greater.</Spanish>
+		<English>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater</English>
+		<French>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater</French>
+		<German>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater</German>
+		<Italian>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater</Italian>
+		<Spanish>[ICON_BULLET]Spend 75 Brood Activity to summon an [LINK=UNIT_SPIDER]adult spider[\LINK] in a city you own of size 8 or greater</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CALL_GIANT_SPIDER_HELP</Tag>
-		<English>[ICON_BULLET]Spend 150 Brood Activity to summon a giant spider in a city you own of size 11 or greater.</English>
-		<French>[ICON_BULLET]Spend 150 Brood Activity to summon a giant spider in a city you own of size 11 or greater.</French>
-		<German>[ICON_BULLET]Spend 150 Brood Activity to summon a giant spider in a city you own of size 11 or greater.</German>
-		<Italian>[ICON_BULLET]Spend 150 Brood Activity to summon a giant spider in a city you own of size 11 or greater.</Italian>
-		<Spanish>[ICON_BULLET]Spend 150 Brood Activity to summon a giant spider in a city you own of size 11 or greater.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_DIET_OF_WORMS</Tag>
-		<English>Diet of Worms</English>
-		<French>Diet of Worms</French>
-		<German>Diet of Worms</German>
-		<Italian>Diet of Worms</Italian>
-		<Spanish>Diet of Worms</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILDING_DIET_OF_WORMS_PEDIA</Tag>
-		<English>[ICON_BULLET]Created by the Diet of Worms spell. Adds 4 [ICON_FOOD] and 8 [ICON_UNHEALTHY] in the city.</English>
-		<French>[ICON_BULLET]Created by the Diet of Worms spell. Adds 4 [ICON_FOOD] and 8 [ICON_UNHEALTHY] in the city.</French>
-		<German>[ICON_BULLET]Created by the Diet of Worms spell. Adds 4 [ICON_FOOD] and 8 [ICON_UNHEALTHY] in the city.</German>
-		<Italian>[ICON_BULLET]Created by the Diet of Worms spell. Adds 4 [ICON_FOOD] and 8 [ICON_UNHEALTHY] in the city.</Italian>
-		<Spanish>[ICON_BULLET]Created by the Diet of Worms spell. Adds 4 [ICON_FOOD] and 8 [ICON_UNHEALTHY] in the city.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_DIET_OF_WORMS</Tag>
-		<English>Diet of Worms</English>
-		<French>Diet of Worms</French>
-		<German>Diet of Worms</German>
-		<Italian>Diet of Worms</Italian>
-		<Spanish>Diet of Worms</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_DIET_OF_WORMS_PEDIA</Tag>
-		<English>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</English>
-		<French>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</French>
-		<German>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</German>
-		<Italian>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</Italian>
-		<Spanish>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_DIET_OF_WORMS_HELP</Tag>
-		<English>[ICON_BULLET]Spend 100 Brood Activity to find an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +8 [ICON_UNHEALTHY])</English>
-		<French>[ICON_BULLET]Spend 100 Brood Activity to find an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +8 [ICON_UNHEALTHY])</French>
-		<German>[ICON_BULLET]Spend 100 Brood Activity to find an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +8 [ICON_UNHEALTHY])</German>
-		<Italian>[ICON_BULLET]Spend 100 Brood Activity to find an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +8 [ICON_UNHEALTHY])</Italian>
-		<Spanish>[ICON_BULLET]Spend 100 Brood Activity to find an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +8 [ICON_UNHEALTHY])</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_PSALM_FOR_THE_SWARM</Tag>
-		<English>Psalm for the Swarm</English>
-		<French>Psalm for the Swarm</French>
-		<German>Psalm for the Swarm</German>
-		<Italian>Psalm for the Swarm</Italian>
-		<Spanish>Psalm for the Swarm</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_PSALM_FOR_THE_SWARM_PEDIA</Tag>
-		<English>The haunting chants of the Haruspex draws forth even the most reclusive children of Mother.</English>
-		<French>The haunting chants of the Haruspex draws forth even the most reclusive children of Mother.</French>
-		<German>The haunting chants of the Haruspex draws forth even the most reclusive children of Mother.</German>
-		<Italian>The haunting chants of the Haruspex draws forth even the most reclusive children of Mother.</Italian>
-		<Spanish>The haunting chants of the Haruspex draws forth even the most reclusive children of Mother.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_SPELL_PSALM_FOR_THE_SWARM_HELP</Tag>
-		<English>[ICON_BULLET]Gains 50 Brood Activity.</English>
-		<French>[ICON_BULLET]Gains 50 Brood Activity.</French>
-		<German>[ICON_BULLET]Gains 50 Brood Activity.</German>
-		<Italian>[ICON_BULLET]Gains 50 Brood Activity.</Italian>
-		<Spanish>[ICON_BULLET]Gains 50 Brood Activity.</Spanish>
+		<English>[ICON_BULLET]Spend 150 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</English>
+		<French>[ICON_BULLET]Spend 150 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</French>
+		<German>[ICON_BULLET]Spend 150 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</German>
+		<Italian>[ICON_BULLET]Spend 150 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</Italian>
+		<Spanish>[ICON_BULLET]Spend 150 Brood Activity to summon a [LINK=UNIT_GIANT_SPIDER]giant spider[\LINK] in a city you own of size 16 or greater</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SMEAR_POISON</Tag>
@@ -640,11 +509,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_SMEAR_POISON_HELP</Tag>
-		<English>[ICON_BULLET]Sacrifice a Baby Spider without Growth Spurts to gain the Poisoned Blade promotion.</English>
-		<French>[ICON_BULLET]Sacrifice a Baby Spider without Growth Spurts to gain the Poisoned Blade promotion.</French>
-		<German>[ICON_BULLET]Sacrifice a Baby Spider without Growth Spurts to gain the Poisoned Blade promotion.</German>
-		<Italian>[ICON_BULLET]Sacrifice a Baby Spider without Growth Spurts to gain the Poisoned Blade promotion.</Italian>
-		<Spanish>[ICON_BULLET]Sacrifice a Baby Spider without Growth Spurts to gain the Poisoned Blade promotion.</Spanish>
+		<English>[ICON_BULLET]Sacrifice a [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] to gain the Poisoned Blade promotion</English>
+		<French>[ICON_BULLET]Sacrifice a [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] to gain the Poisoned Blade promotion</French>
+		<German>[ICON_BULLET]Sacrifice a [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] to gain the Poisoned Blade promotion</German>
+		<Italian>[ICON_BULLET]Sacrifice a [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] to gain the Poisoned Blade promotion</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice a [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] to gain the Poisoned Blade promotion</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CANNIBALIZE</Tag>
@@ -664,46 +533,37 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_CANNIBALIZE_HELP</Tag>
-		<English>[ICON_BULLET]Consumes the weakest Baby Spider in stack to recover 15% health.</English>
-		<French>[ICON_BULLET]Consumes the weakest Baby Spider in stack to recover 15% health.</French>
-		<German>[ICON_BULLET]Consumes the weakest Baby Spider in stack to recover 15% health.</German>
-		<Italian>[ICON_BULLET]Consumes the weakest Baby Spider in stack to recover 15% health.</Italian>
-		<Spanish>[ICON_BULLET]Consumes the weakest Baby Spider in stack to recover 15% health.</Spanish>
+		<English>[ICON_BULLET]Consumes a [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] to recover 15% health</English>
+		<French>[ICON_BULLET]Consumes a [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] to recover 15% health</French>
+		<German>[ICON_BULLET]Consumes a [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] to recover 15% health</German>
+		<Italian>[ICON_BULLET]Consumes a [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] to recover 15% health</Italian>
+		<Spanish>[ICON_BULLET]Consumes a [LINK=UNIT_BABY_SPIDER]Baby Spider[\LINK] to recover 15% health</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SURVIVAL_OF_THE_FITTEST</Tag>
+		<English>Survival of the Fittest</English>
+		<French>Survival of the Fittest</French>
+		<German>Survival of the Fittest</German>
+		<Italian>Survival of the Fittest</Italian>
+		<Spanish>Survival of the Fittest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SURVIVAL_OF_THE_FITTEST_PEDIA</Tag>
+		<English>Even when there's no outside threats, the spiders compete among themselves to keep the brood fresh and fierce.</English>
+		<French>Even when there's no outside threats, the spiders compete among themselves to keep the brood fresh and fierce.</French>
+		<German>Even when there's no outside threats, the spiders compete among themselves to keep the brood fresh and fierce.</German>
+		<Italian>Even when there's no outside threats, the spiders compete among themselves to keep the brood fresh and fierce.</Italian>
+		<Spanish>Even when there's no outside threats, the spiders compete among themselves to keep the brood fresh and fierce.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SURVIVAL_OF_THE_FITTEST_HELP</Tag>
+		<English>[ICON_BULLET]Consumes a [LINK=UNIT_SPIDER]Spider[\LINK] to gain 2 experience</English>
+		<French>[ICON_BULLET]Consumes a [LINK=UNIT_SPIDER]Spider[\LINK] to gain 2 experience</French>
+		<German>[ICON_BULLET]Consumes a [LINK=UNIT_SPIDER]Spider[\LINK] to gain 2 experience</German>
+		<Italian>[ICON_BULLET]Consumes a [LINK=UNIT_SPIDER]Spider[\LINK] to gain 2 experience</Italian>
+		<Spanish>[ICON_BULLET]Consumes a [LINK=UNIT_SPIDER]Spider[\LINK] to gain 2 experience</Spanish>
 	</TEXT>
 
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS</Tag>
-		<English>Maze of Webs</English>
-		<French>Maze of Webs</French>
-		<German>Maze of Webs</German>
-		<Italian>Maze of Webs</Italian>
-		<Spanish>Maze of Webs</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_PEDIA</Tag>
-		<English>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</English>
-		<French>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</French>
-		<German>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</German>
-		<Italian>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</Italian>
-		<Spanish>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_HELP</Tag>
-		<English>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</English>
-		<French>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</French>
-		<German>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</German>
-		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</Italian>
-		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants the [LINK=PROMOTION_SLOW]Slow[\LINK] debuff on non-Spider units who are not part of the Archosian tribe.</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_BUILD_MAZE_OF_WEBS</Tag>
-		<English>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</English>
-		<French>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</French>
-		<German>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</German>
-		<Italian>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</Italian>
-		<Spanish>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</Spanish>
-	</TEXT>
-	
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_FEEDING_PEN</Tag>
 		<English>Feeding Pen</English>
@@ -722,11 +582,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_IMPROVEMENT_FEEDING_PEN_HELP</Tag>
-		<English>[ICON_BULLET]Provides 2 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</English>
-		<French>[ICON_BULLET]Provides 2 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</French>
-		<German>[ICON_BULLET]Provides 2 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</German>
-		<Italian>[ICON_BULLET]Provides 2 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</Italian>
-		<Spanish>[ICON_BULLET]Provides 2 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level.</Spanish>
+		<English>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level</English>
+		<French>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level</French>
+		<German>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level</German>
+		<Italian>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level</Italian>
+		<Spanish>[ICON_BULLET]Provides 1 Brood Activity per turn. [NEWLINE][ICON_BULLET]Has a chance to spawn baby spiders regardless of current Brood Activity level</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_FEEDING_PEN</Tag>
@@ -736,6 +596,40 @@
 		<Italian>Build a [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pen[\LINK]</Italian>
 		<Spanish>Build a [LINK=IMPROVEMENT_FEEDING_PEN]Feeding Pen[\LINK]</Spanish>
 	</TEXT>
+	
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS</Tag>
+		<English>Maze of Webs</English>
+		<French>Maze of Webs</French>
+		<German>Maze of Webs</German>
+		<Italian>Maze of Webs</Italian>
+		<Spanish>Maze of Webs</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_PEDIA</Tag>
+		<English>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</English>
+		<French>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</French>
+		<German>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</German>
+		<Italian>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</Italian>
+		<Spanish>These elaborate traps woven in the deep forests can be deadly to most, but a clever forager would know how to make his fortune from it by harvesting silk and venom.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_MAZE_OF_WEBS_HELP</Tag>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_MAZE_OF_WEBS</Tag>
+		<English>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</English>
+		<French>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</French>
+		<German>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_MAZE_OF_WEBS]Maze of Webs[\LINK]</Spanish>
+	</TEXT>
+	
 	<TEXT>
 		<Tag>TXT_KEY_PROMOTION_ARCHOSIAN_WORKER</Tag>
 		<English>Archosian Worker</English>
@@ -755,11 +649,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_MOUNT_SPIDER_HUNTRESS_HELP</Tag>
-		<English>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</English>
-		<French>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</French>
-		<German>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</German>
-		<Italian>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</Italian>
-		<Spanish>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</Spanish>
+		<English>[ICON_BULLET]Mount a Spider to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</English>
+		<French>[ICON_BULLET]Mount a Spider to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</French>
+		<German>[ICON_BULLET]Mount a Spider to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</German>
+		<Italian>[ICON_BULLET]Mount a Spider to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Mount a Spider to become a [LINK=UNIT_SPIDER_HUNTRESS]Spider Huntress[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_MOUNT_SPIDER_KNIGHTESS</Tag>
@@ -771,11 +665,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_MOUNT_SPIDER_KNIGHTESS_HELP</Tag>
-		<English>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</English>
-		<French>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</French>
-		<German>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</German>
-		<Italian>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</Italian>
-		<Spanish>[ICON_BULLET]Mount the weakest Spider in stack to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</Spanish>
+		<English>[ICON_BULLET]Mount a Spider to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</English>
+		<French>[ICON_BULLET]Mount a Spider to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</French>
+		<German>[ICON_BULLET]Mount a Spider to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</German>
+		<Italian>[ICON_BULLET]Mount a Spider to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Mount a Spider to become a [LINK=UNIT_SPIDER_KNIGHTESS]Spider Knightess[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_DISMOUNT_SPIDER_HUNTRESS</Tag>
@@ -810,12 +704,12 @@
 		<Spanish>[ICON_BULLET]Dismount to become a [LINK=UNIT_PIKEMAN]Pikeman[\LINK]</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_PROMOTION_NO_EXP</Tag>
-		<English>No Exp</English>
-		<French>No Exp</French>
-		<German>No Exp</German>
-		<Italian>No Exp</Italian>
-		<Spanish>No Exp</Spanish>
+		<Tag>TXT_KEY_PROMOTION_MOUNT</Tag>
+		<English>Mount</English>
+		<French>Mount</French>
+		<German>Mount</German>
+		<Italian>Mount</Italian>
+		<Spanish>Mount</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_DEEP_ENWEBBED</Tag>
@@ -848,5 +742,461 @@
 		<German>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</German>
 		<Italian>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</Italian>
 		<Spanish>Those most faithful to Mother would offer up even their humanity, and in it place Mother would fill with its spite, its malice... [NEWLINE][NEWLINE]...And it is more horrible than anything the human body could hope to bear.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARMING1</Tag>
+		<English>Swarming I</English>
+		<French>Swarming I</French>
+		<German>Swarming I</German>
+		<Italian>Swarming I</Italian>
+		<Spanish>Swarming I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARMING2</Tag>
+		<English>Swarming II</English>
+		<French>Swarming II</French>
+		<German>Swarming II</German>
+		<Italian>Swarming II</Italian>
+		<Spanish>Swarming II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARMING3</Tag>
+		<English>Swarming III</English>
+		<French>Swarming III</French>
+		<German>Swarming III</German>
+		<Italian>Swarming III</Italian>
+		<Spanish>Swarming III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARMING4</Tag>
+		<English>Swarming IV</English>
+		<French>Swarming IV</French>
+		<German>Swarming IV</German>
+		<Italian>Swarming IV</Italian>
+		<Spanish>Swarming IV</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NESTING_GROUND</Tag>
+		<English>Nesting Ground</English>
+		<French>Nesting Ground</French>
+		<German>Nesting Ground</German>
+		<Italian>Nesting Ground</Italian>
+		<Spanish>Nesting Ground</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NESTING_GROUND_PEDIA</Tag>
+		<English>Any prey that are not finished on the spot will be dragged off to these dusky barrows to be enjoyed at a later date.</English>
+		<French>Any prey that are not finished on the spot will be dragged off to these dusky barrows to be enjoyed at a later date.</French>
+		<German>Any prey that are not finished on the spot will be dragged off to these dusky barrows to be enjoyed at a later date.</German>
+		<Italian>Any prey that are not finished on the spot will be dragged off to these dusky barrows to be enjoyed at a later date.</Italian>
+		<Spanish>Any prey that are not finished on the spot will be dragged off to these dusky barrows to be enjoyed at a later date.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_NESTING_GROUND_HELP</Tag>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_NESTING_GROUND</Tag>
+		<English>Build a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK]</English>
+		<French>Build a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK]</French>
+		<German>Build a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK]</German>
+		<Italian>Build a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK]</Italian>
+		<Spanish>Build a [LINK=IMPROVEMENT_NESTING_GROUND]Nesting Ground[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_NESTING</Tag>
+		<English>Nesting</English>
+		<French>Nesting</French>
+		<German>Nesting</German>
+		<Italian>Nesting</Italian>
+		<Spanish>Nesting</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_INFESTED_FORTRESS</Tag>
+		<English>Infested Fortress</English>
+		<French>Infested Fortress</French>
+		<German>Infested Fortress</German>
+		<Italian>Infested Fortress</Italian>
+		<Spanish>Infested Fortress</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_INFESTED_FORTRESS_PEDIA</Tag>
+		<English>The dark, damp interior of an abandoned castle makes for the perfect home of spiders.</English>
+		<French>The dark, damp interior of an abandoned castle makes for the perfect home of spiders.</French>
+		<German>The dark, damp interior of an abandoned castle makes for the perfect home of spiders.</German>
+		<Italian>The dark, damp interior of an abandoned castle makes for the perfect home of spiders.</Italian>
+		<Spanish>The dark, damp interior of an abandoned castle makes for the perfect home of spiders.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_INFESTED_FORTRESS_HELP</Tag>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_INFESTED_FORTRESS</Tag>
+		<English>[LINK=IMPROVEMENT_INFESTED_FORTRESS]Infest Fortress[\LINK]</English>
+		<French>[LINK=IMPROVEMENT_INFESTED_FORTRESS]Infest Fortress[\LINK]</French>
+		<German>[LINK=IMPROVEMENT_INFESTED_FORTRESS]Infest Fortress[\LINK]</German>
+		<Italian>[LINK=IMPROVEMENT_INFESTED_FORTRESS]Infest Fortress[\LINK]</Italian>
+		<Spanish>[LINK=IMPROVEMENT_INFESTED_FORTRESS]Infest Fortress[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DEEP_NEST</Tag>
+		<English>Deep Nest</English>
+		<French>Deep Nest</French>
+		<German>Deep Nest</German>
+		<Italian>Deep Nest</Italian>
+		<Spanish>Deep Nest</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DEEP_NEST_PEDIA</Tag>
+		<English>The portion above ground is but tip of the iceberg of the vast network of tunnels underneath.</English>
+		<French>The portion above ground is but tip of the iceberg of the vast network of tunnels underneath.</French>
+		<German>The portion above ground is but tip of the iceberg of the vast network of tunnels underneath.</German>
+		<Italian>The portion above ground is but tip of the iceberg of the vast network of tunnels underneath.</Italian>
+		<Spanish>The portion above ground is but tip of the iceberg of the vast network of tunnels underneath.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IMPROVEMENT_DEEP_NEST_HELP</Tag>
+		<English>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</English>
+		<French>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</French>
+		<German>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</German>
+		<Italian>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Removes [LINK=PROMOTION_SLOW]Slow[\LINK] from Spider units [NEWLINE][ICON_BULLET]Removes [LINK=PROMOTION_HASTED]Hasted[\LINK] and grants [LINK=PROMOTION_SLOW]Slow[\LINK] on non-Spider units who are not part of the Archosian tribe [NEWLINE][ICON_BULLET]Spiders resting on the same tile gain [LINK=PROMOTION_NESTING]Nesting[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COCOON</Tag>
+		<English>Cocoon</English>
+		<French>Cocoon</French>
+		<German>Cocoon</German>
+		<Italian>Cocoon</Italian>
+		<Spanish>Cocoon</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_COCOON_PEDIA</Tag>
+		<English>Don't poke it...</English>
+		<French>Don't poke it...</French>
+		<German>Don't poke it...</German>
+		<Italian>Don't poke it...</Italian>
+		<Spanish>Don't poke it...</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_HATCHING</Tag>
+		<English>Hatching</English>
+		<French>Hatching</French>
+		<German>Hatching</German>
+		<Italian>Hatching</Italian>
+		<Spanish>Hatching</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_HATCH</Tag>
+		<English>Hatch</English>
+		<French>Hatch</French>
+		<German>Hatch</German>
+		<Italian>Hatch</Italian>
+		<Spanish>Hatch</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY1</Tag>
+		<English>Arachnomancy I</English>
+		<French>Arachnomancy I</French>
+		<German>Arachnomancy I</German>
+		<Italian>Arachnomancy I</Italian>
+		<Spanish>Arachnomancy I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY2</Tag>
+		<English>Arachnomancy II</English>
+		<French>Arachnomancy II</French>
+		<German>Arachnomancy II</German>
+		<Italian>Arachnomancy II</Italian>
+		<Spanish>Arachnomancy II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY3</Tag>
+		<English>Arachnomancy III</English>
+		<French>Arachnomancy III</French>
+		<German>Arachnomancy III</German>
+		<Italian>Arachnomancy III</Italian>
+		<Spanish>Arachnomancy III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARM_CONCEALED1</Tag>
+		<English>Swarm Concealed I</English>
+		<French>Swarm Concealed I</French>
+		<German>Swarm Concealed I</German>
+		<Italian>Swarm Concealed I</Italian>
+		<Spanish>Swarm Concealed I</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARM_CONCEALED2</Tag>
+		<English>Swarm Concealed II</English>
+		<French>Swarm Concealed II</French>
+		<German>Swarm Concealed II</German>
+		<Italian>Swarm Concealed II</Italian>
+		<Spanish>Swarm Concealed II</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SWARM_CONCEALED3</Tag>
+		<English>Swarm Concealed III</English>
+		<French>Swarm Concealed III</French>
+		<German>Swarm Concealed III</German>
+		<Italian>Swarm Concealed III</Italian>
+		<Spanish>Swarm Concealed III</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY1_HELP</Tag>
+		<English>[ICON_BULLET]If starting turn with 10 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance</English>
+		<French>[ICON_BULLET]If starting turn with 10 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance</French>
+		<German>[ICON_BULLET]If starting turn with 10 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance</German>
+		<Italian>[ICON_BULLET]If starting turn with 10 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance</Italian>
+		<Spanish>[ICON_BULLET]If starting turn with 10 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY2_HELP</Tag>
+		<English>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK]</English>
+		<French>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK]</French>
+		<German>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK]</German>
+		<Italian>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]Allows: [LINK=PROMOTION_SYMBIOTIC_COMMUNION]Symbiotic Communion[\LINK] [NEWLINE][ICON_BULLET]If starting turn with 20 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY3_HELP</Tag>
+		<English>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</English>
+		<French>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</French>
+		<German>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</German>
+		<Italian>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</Italian>
+		<Spanish>[ICON_BULLET]If starting turn with 40 or more [LINK=UNIT_BABY_SPIDER]baby spiders[\LINK] in stack: [NEWLINE][TAB][ICON_BULLET]+20% Withdrawal Chance [NEWLINE][TAB][ICON_BULLET]Suffers 20% less Collateral Damage [NEWLINE][TAB][ICON_BULLET]Hidden with Natural Stealth (I) [NEWLINE][ICON_BULLET]Effect stacks with [LINK=PROMOTION_ARACHNOMANCY1]Arachnomancy I[\LINK] and [LINK=PROMOTION_ARACHNOMANCY2]Arachnomancy II[\LINK]</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY1_PEDIA</Tag>
+		<English>With the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait, Archosian commanders will also acquire this promotion.</English>
+		<French>With the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait, Archosian commanders will also acquire this promotion.</French>
+		<German>With the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait, Archosian commanders will also acquire this promotion.</German>
+		<Italian>With the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait, Archosian commanders will also acquire this promotion.</Italian>
+		<Spanish>With the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait, Archosian commanders will also acquire this promotion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY2_PEDIA</Tag>
+		<English>With the [LINK=TRAIT_SPIDERKIN2]Arachnomancer[\LINK] trait at level 2, Archosian commanders will also acquire this promotion.</English>
+		<French>With the [LINK=TRAIT_SPIDERKIN2]Arachnomancer[\LINK] trait at level 2, Archosian commanders will also acquire this promotion.</French>
+		<German>With the [LINK=TRAIT_SPIDERKIN2]Arachnomancer[\LINK] trait at level 2, Archosian commanders will also acquire this promotion.</German>
+		<Italian>With the [LINK=TRAIT_SPIDERKIN2]Arachnomancer[\LINK] trait at level 2, Archosian commanders will also acquire this promotion.</Italian>
+		<Spanish>With the [LINK=TRAIT_SPIDERKIN2]Arachnomancer[\LINK] trait at level 2, Archosian commanders will also acquire this promotion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_ARACHNOMANCY3_PEDIA</Tag>
+		<English>With the [LINK=TRAIT_SPIDERKIN3]Arachnomancer[\LINK] trait at level 3, Archosian commanders will also acquire this promotion.</English>
+		<French>With the [LINK=TRAIT_SPIDERKIN3]Arachnomancer[\LINK] trait at level 3, Archosian commanders will also acquire this promotion.</French>
+		<German>With the [LINK=TRAIT_SPIDERKIN3]Arachnomancer[\LINK] trait at level 3, Archosian commanders will also acquire this promotion.</German>
+		<Italian>With the [LINK=TRAIT_SPIDERKIN3]Arachnomancer[\LINK] trait at level 3, Archosian commanders will also acquire this promotion.</Italian>
+		<Spanish>With the [LINK=TRAIT_SPIDERKIN3]Arachnomancer[\LINK] trait at level 3, Archosian commanders will also acquire this promotion.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARACHNOPHAGY</Tag>
+		<English>Arachnophagy</English>
+		<French>Arachnophagy</French>
+		<German>Arachnophagy</German>
+		<Italian>Arachnophagy</Italian>
+		<Spanish>Arachnophagy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ARACHNOPHAGY_PEDIA</Tag>
+		<English>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</English>
+		<French>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</French>
+		<German>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</German>
+		<Italian>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</Italian>
+		<Spanish>[ICON_BULLET]Created by the Arachnophagy spell. Adds 4 [ICON_FOOD] and 6 [ICON_UNHEALTHY] in the city.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ARACHNOPHAGY</Tag>
+		<English>Arachnophagy</English>
+		<French>Arachnophagy</French>
+		<German>Arachnophagy</German>
+		<Italian>Arachnophagy</Italian>
+		<Spanish>Arachnophagy</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ARACHNOPHAGY_PEDIA</Tag>
+		<English>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</English>
+		<French>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</French>
+		<German>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</German>
+		<Italian>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</Italian>
+		<Spanish>Members of the Archosian tribe survived the harsh winters by learning to source their food from places where others would find unthinkable. The tradition is carried well into the Age of Rebirth.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_ARACHNOPHAGY_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY]) [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY]) [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY]) [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY]) [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 10 baby spiders as an extra source of food for the people of the city, at the cost of their health (+4 [ICON_FOOD], +6 [ICON_UNHEALTHY]) [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION</Tag>
+		<English>Symbiotic Communion</English>
+		<French>Symbiotic Communion</French>
+		<German>Symbiotic Communion</German>
+		<Italian>Symbiotic Communion</Italian>
+		<Spanish>Symbiotic Communion</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_SYMBIOTIC_COMMUNION_END</Tag>
+		<English>Symbiotic Communion End</English>
+		<French>Symbiotic Communion End</French>
+		<German>Symbiotic Communion End</German>
+		<Italian>Symbiotic Communion End</Italian>
+		<Spanish>Symbiotic Communion End</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE</Tag>
+		<English>Rite of Sapphire</English>
+		<French>Rite of Sapphire</French>
+		<German>Rite of Sapphire</German>
+		<Italian>Rite of Sapphire</Italian>
+		<Spanish>Rite of Sapphire</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_EMERALD</Tag>
+		<English>Rite of Emerald</English>
+		<French>Rite of Emerald</French>
+		<German>Rite of Emerald</German>
+		<Italian>Rite of Emerald</Italian>
+		<Spanish>Rite of Emerald</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_DIAMOND</Tag>
+		<English>Rite of Diamond</English>
+		<French>Rite of Diamond</French>
+		<German>Rite of Diamond</German>
+		<Italian>Rite of Diamond</Italian>
+		<Spanish>Rite of Diamond</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_RUBY</Tag>
+		<English>Rite of Ruby</English>
+		<French>Rite of Ruby</French>
+		<German>Rite of Ruby</German>
+		<Italian>Rite of Ruby</Italian>
+		<Spanish>Rite of Ruby</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_TOPAZ</Tag>
+		<English>Rite of Topaz</English>
+		<French>Rite of Topaz</French>
+		<German>Rite of Topaz</German>
+		<Italian>Rite of Topaz</Italian>
+		<Spanish>Rite of Topaz</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_SAPPHIRE_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_ARGYRONETA]blue spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +5% Healing and +5% Healing from Combat on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_EMERALD_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_VENENUM]green spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +10% Defensive Strike Chance and Damage on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_DIAMOND_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_MUCRO]grey spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Defense Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_RUBY_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_RHAGODESSA]red spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed +1 Attack Strength on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_RITE_TOPAZ_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 20 baby spiders and a [LINK=PROMOTION_SPIDER_TEXTUS]yellow spider[\LINK] to grant [LINK=PROMOTION_MUTATED]Mutation[\LINK] with guaranteed 1-2 First Strikes on all units in stack [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARACHNID_AVATAR</Tag>
+		<English>Arachnid Avatar</English>
+		<French>Arachnid Avatar</French>
+		<German>Arachnid Avatar</German>
+		<Italian>Arachnid Avatar</Italian>
+		<Spanish>Arachnid Avatar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ARACHNID_AVATAR_PEDIA</Tag>
+		<English>Tens of thousands of spiders bound into one by the singular will of a powerful arachnomancer.</English>
+		<French>Tens of thousands of spiders bound into one by the singular will of a powerful arachnomancer.</French>
+		<German>Tens of thousands of spiders bound into one by the singular will of a powerful arachnomancer.</German>
+		<Italian>Tens of thousands of spiders bound into one by the singular will of a powerful arachnomancer.</Italian>
+		<Spanish>Tens of thousands of spiders bound into one by the singular will of a powerful arachnomancer.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SUMMON_ARACHNID_AVATAR</Tag>
+		<English>Summon Arachnid Avatar</English>
+		<French>Summon Arachnid Avatar</French>
+		<German>Summon Arachnid Avatar</German>
+		<Italian>Summon Arachnid Avatar</Italian>
+		<Spanish>Summon Arachnid Avatar</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_SUMMON_ARACHNID_AVATAR_HELP</Tag>
+		<English>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK] [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK] [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK] [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK] [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Sacrifice 40 baby spiders to summon an [LINK=UNIT_ARACHNID_AVATAR]Arachnid Avatar[\LINK] [NEWLINE][ICON_BULLET]Cost of sacrifice is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_AMALGAMATION</Tag>
+		<English>Amalgamation</English>
+		<French>Amalgamation</French>
+		<German>Amalgamation</German>
+		<Italian>Amalgamation</Italian>
+		<Spanish>Amalgamation</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_AMALGAMATE</Tag>
+		<English>Amalgamate</English>
+		<French>Amalgamate</French>
+		<German>Amalgamate</German>
+		<Italian>Amalgamate</Italian>
+		<Spanish>Amalgamate</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SPELL_AMALGAMATE_HELP</Tag>
+		<English>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again [NEWLINE][ICON_BULLET]Cost of consumption is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</English>
+		<French>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again [NEWLINE][ICON_BULLET]Cost of consumption is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</French>
+		<German>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again [NEWLINE][ICON_BULLET]Cost of consumption is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</German>
+		<Italian>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again [NEWLINE][ICON_BULLET]Cost of consumption is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Italian>
+		<Spanish>[ICON_BULLET]Consume 10 baby spiders to recover 10% health, gain 1 stack of [LINK=PROMOTION_AMALGAMATION]Amalgamation[\LINK] and allow it to attack again [NEWLINE][ICON_BULLET]Cost of consumption is reduced by the [LINK=TRAIT_SPIDERKIN]Arachnomancer[\LINK] trait</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MESSAGE_NOT_ENOUGH_BABY_SPIDERS</Tag>
+		<English>Failed to cast spell: not enough Baby Spiders in tile.</English>
+		<French>Failed to cast spell: not enough Baby Spiders in tile.</French>
+		<German>Failed to cast spell: not enough Baby Spiders in tile.</German>
+		<Italian>Failed to cast spell: not enough Baby Spiders in tile.</Italian>
+		<Spanish>Failed to cast spell: not enough Baby Spiders in tile.</Spanish>
 	</TEXT>
 </Civ4GameText>

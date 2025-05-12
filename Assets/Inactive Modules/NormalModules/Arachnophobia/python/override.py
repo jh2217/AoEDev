@@ -18,6 +18,7 @@ gc					= CyGlobalContext()
 localText			= CyTranslator()
 getInfoType			= gc.getInfoTypeForString
 
+
 def setSpiderPromo(cf, spawnUnit, pPlayer, pCity):
 	Effect      = cf.Promotions["Effects"]
 	Buildings   = cf.Buildings
@@ -27,11 +28,8 @@ def setSpiderPromo(cf, spawnUnit, pPlayer, pCity):
 		pNest       = pPlayer.getCapitalCity()
 		iNestPop    = pNest.getPopulation()
 		getNum      = pNest.getNumBuilding
-		if pPlayer.hasTrait(Trait["Spiderkin"]):
-			if iNestPop >= 9:
-				setPromo( Effect["Spiderkin"], True)
 
-		if iNestPop >= 16:
+		if (pPlayer.hasTrait(Trait["Spiderkin"]) and iNestPop >= 8) or iNestPop >= 24:
 			setPromo( Effect["Strong"], True)
 
 		if pCity:
@@ -48,6 +46,30 @@ def setSpiderPromo(cf, spawnUnit, pPlayer, pCity):
 		else:
 			iBroodStrength = 0
 		spawnUnit.changeFreePromotionPick(iBroodStrength)
+
+		iBroodExp = 0
+		meatBonuses = ["BONUS_BISON", "BONUS_COW", "BONUS_CAMEL", "BONUS_DEER", "BONUS_DEER_ARCTIC", "BONUS_FUR", "BONUS_HORSE", "BONUS_HYAPON", "BONUS_IVORY", "BONUS_NIGHTMARE", "BONUS_PIG", "BONUS_SHEEP", "BONUS_TOAD"]
+		for bonus in meatBonuses:
+			if pPlayer.getNumAvailableBonuses(getInfoType(bonus)) > 0:
+				iBroodExp += 1
+		spawnUnit.changeExperience(iBroodExp, -1, False, False, False)
+
+
+def spawnCocoon(pPlayer, pPlot):
+	# Spawn cocoon if one does not exist
+	initUnit 	= pPlayer.initUnit
+	iCocoon     = getInfoType('UNIT_COCOON')
+	iNoAI       = UnitAITypes.NO_UNITAI
+	iWest       = DirectionTypes.DIRECTION_WEST
+	
+	bHasCocoon = False
+	for i in range(pPlot.getNumUnits()):
+		pUnit = pPlot.getUnit(i)
+		if pUnit.getUnitType() == iCocoon:
+			bHasCocoon = True
+	if not bHasCocoon:
+		initUnit(iCocoon, pPlot.getX(), pPlot.getY(), iNoAI, iWest)
+
 
 def doTurnArchosReplacement(self, iPlayer):
 	pPlayer         = gc.getPlayer(iPlayer)
@@ -76,15 +98,18 @@ def doTurnArchosReplacement(self, iPlayer):
 
 		# Spawn spiders from capital
 		if randNum(10000, "Spawn Roll") < iSpawnChance:
-			if iNestPop >= 11 and iBroodActivity >= 80000:
+			if iNestPop >= 16 and iBroodActivity >= 100000:
 				spawnUnit = initUnit( Unit["Giant Spider"], iX, iY, iNoAI, iSouth)
-			elif iNestPop >= 6 and iBroodActivity >= 40000:
+			elif iNestPop >= 8 and iBroodActivity >= 50000:
 				spawnUnit = initUnit( Unit["Spider"], iX, iY, iNoAI, iSouth)
 			elif iNestPop >= 1 and iBroodActivity >= 20000:
 				spawnUnit = initUnit( Unit["Baby Spider"], iX, iY, iNoAI, iSouth)
 			else:
 				spawnUnit = None
 			setSpiderPromo(self, spawnUnit, pPlayer, pNest)
+			if spawnUnit:
+				spawnUnit.setHasPromotion(getInfoType('PROMOTION_HATCHING'), True)
+				spawnCocoon(pPlayer, pNest.plot())
 		
 		# Spawn spiders from feeding pens
 		for i in xrange(map.numPlots()):
@@ -92,8 +117,12 @@ def doTurnArchosReplacement(self, iPlayer):
 			if pPlot.getImprovementType() == getInfoType('IMPROVEMENT_FEEDING_PEN'):
 				if pPlot.getOwner() == iPlayer:
 					if randNum(10000, "Spawn Roll") < iSpawnChance:
+						# Spawn baby spider
 						spawnUnit = initUnit(Unit["Baby Spider"], pPlot.getX(), pPlot.getY(), iNoAI, iSouth)
 						setSpiderPromo(self, spawnUnit, pPlayer, None)
+						spawnUnit.setHasPromotion(getInfoType('PROMOTION_HATCHING'), True)
+						spawnCocoon(pPlayer, pPlot)
+
 
 def doChanceArchosReplacement(self, iPlayer):
 	if iPlayer == -1:
@@ -103,33 +132,22 @@ def doChanceArchosReplacement(self, iPlayer):
 
 	iNumCities = pPlayer.getNumCities()
 	if iNumCities > 0:
+		UnitClass		= self.UnitClasses
 		Building		= self.Buildings
 		Trait			= self.Traits
 		pNest 			= pPlayer.getCapitalCity()
 		iNestPop 		= pNest.getPopulation()
+		iNumFeedingPen  = pPlayer.getImprovementCount(getInfoType('IMPROVEMENT_FEEDING_PEN'))
 		iNumGroves 		= pPlayer.countNumBuildings(Building["Dark Weald"])
-		
-		iNumSpiderCities = len(PyPlayer(iPlayer).getCityList())
+		getUCC			= pPlayer.getUnitClassCount
+		iNumSpiders		= getUCC(UnitClass["Spider"]) * 1 + getUCC(UnitClass["Giant Spider"]) * 2
 
-		map 		= CyMap()
-		plotByIndex = map.plotByIndex
-
-		iNumFeedingPen = 0
-		for i in xrange(map.numPlots()):
-			pPlot = plotByIndex(i)
-			if pPlot.getImprovementType() == getInfoType('IMPROVEMENT_FEEDING_PEN'):
-				if pPlot.getOwner() == iPlayer:
-					iNumFeedingPen += 1
-
-		fSpiderkin = 1
-		if pPlayer.hasTrait(Trait["Spiderkin"]):
-			fSpiderkin = 1.30
-
-		iSpiderSpawnChance = ((iNestPop + (iNumSpiderCities*2) + (iNumGroves*4) + (iNumFeedingPen*2)) * fSpiderkin)
+		iSpiderSpawnChance = (iNestPop + iNumFeedingPen + (iNumGroves*2)) - iNumSpiders
 		iSpiderSpawnChance = (iSpiderSpawnChance * 100)
 		iSpiderSpawnChance = scaleInverse(iSpiderSpawnChance)
 
 		return iSpiderSpawnChance
+
 
 def onLoadGame(self, argsList):
 	self.cf.doChanceArchos = types.MethodType(doChanceArchosReplacement, self.cf)
@@ -139,6 +157,15 @@ def onLoadGame(self, argsList):
 def onGameStart(self, argsList):
 	self.cf.doChanceArchos = types.MethodType(doChanceArchosReplacement, self.cf)
 	self.cf.doTurnArchos = types.MethodType(doTurnArchosReplacement, self.cf)
+
+
+spiderMutationDict = {
+	'PROMOTION_SPIDER_ARGYRONETA' : ['PROMOTION_MUTATION_HEALING', 'PROMOTION_MUTATION_HEALING_COMBAT'],
+	'PROMOTION_SPIDER_VENENUM' : ['PROMOTION_MUTATION_DEFENSIVE_STRIKE', 'PROMOTION_MUTATION_DEFENSIVE_STRIKE'],
+	'PROMOTION_SPIDER_MUCRO': ['PROMOTION_MUTATION_STRENGTH_DEFENSE'],
+	'PROMOTION_SPIDER_RHAGODESSA': ['PROMOTION_MUTATION_STRENGTH_ATTACK'],
+	'PROMOTION_SPIDER_TEXTUS': ['PROMOTION_MUTATION_FIRST_STRIKE', 'PROMOTION_MUTATION_FIRST_STRIKE_CHANCE']
+}
 
 
 def onUnitCreated(self, argsList):
@@ -173,48 +200,31 @@ def onUnitCreated(self, argsList):
 	pPlot 				= pUnit.plot()
 	iX = pPlot.getX(); iY = pPlot.getY()
 
-	iMelee = getInfoType('UNITCOMBAT_MELEE')
-	iRecon = getInfoType('UNITCOMBAT_RECON')
+	iMutated = getInfoType('PROMOTION_MUTATED')
+	pMutated = gc.getPromotionInfo(iMutated)
 
 	# When a spider with variant promotion is stationed in a city, +10% chance to grant the respective mutation to newly created melee and recon units in the city.
-	if pUnit.getUnitCombatType() == iMelee or pUnit.getUnitCombatType() == iRecon:
-		iSpiderRed = getInfoType('PROMOTION_SPIDER_RHAGODESSA')
-		iMutationRed = getInfoType('PROMOTION_SPIDERMUTATION_VENOM_SECRETION')
-		iSpiderYellow = getInfoType('PROMOTION_SPIDER_TEXTUS')
-		iMutationYellow = getInfoType('PROMOTION_SPIDERMUTATION_JOINTED_LIMBS')
-		iSpiderGrey = getInfoType('PROMOTION_SPIDER_MUCRO')
-		iMutationGrey = getInfoType('PROMOTION_SPIDERMUTATION_CHITIN_CARAPACE')
-		iSpiderBlue = getInfoType('PROMOTION_SPIDER_ARGYRONETA')
-		iMutationBlue = getInfoType('PROMOTION_SPIDERMUTATION_TRAIL_PHEROMONE')
-		iSpiderGreen = getInfoType('PROMOTION_SPIDER_VENENUM')
-		iMutationGreen = getInfoType('PROMOTION_SPIDERMUTATION_SPITTER_GLAND')
-
-		redCount = 0
-		yellowCount = 0
-		greyCount = 0
-		blueCount = 0
-		greenCount = 0
+	if not pUnit.isHasPromotion(iMutated) and pMutated.getUnitCombat(pUnit.getUnitCombatType()):
+		spiderCounts = {
+			'PROMOTION_SPIDER_ARGYRONETA' : 0,
+			'PROMOTION_SPIDER_VENENUM' : 0,
+			'PROMOTION_SPIDER_MUCRO': 0,
+			'PROMOTION_SPIDER_RHAGODESSA': 0,
+			'PROMOTION_SPIDER_TEXTUS': 0
+		}
 
 		for i in range(pPlot.getNumUnits()):
 			pUnitInStack = pPlot.getUnit(i)
-			if pUnitInStack.isHasPromotion(iSpiderRed):
-				redCount += 1
-			if pUnitInStack.isHasPromotion(iSpiderYellow):
-				yellowCount += 1
-			if pUnitInStack.isHasPromotion(iSpiderGrey):
-				greyCount += 1
-			if pUnitInStack.isHasPromotion(iSpiderBlue):
-				blueCount += 1
-			if pUnitInStack.isHasPromotion(iSpiderGreen):
-				greenCount += 1
+			for spiderVariant in spiderMutationDict.keys():
+				if pUnitInStack.isHasPromotion(getInfoType(spiderVariant)):
+					spiderCounts[spiderVariant] += 1
 
-		if (random.randint(1,100) <= redCount * 10):
-			pUnit.setHasPromotion(iMutationRed, True)
-		if (random.randint(1,100) <= yellowCount * 10):
-			pUnit.setHasPromotion(iMutationYellow, True)
-		if (random.randint(1,100) <= greyCount * 10):
-			pUnit.setHasPromotion(iMutationGrey, True)
-		if (random.randint(1,100) <= blueCount * 10):
-			pUnit.setHasPromotion(iMutationBlue, True)
-		if (random.randint(1,100) <= greenCount * 10):
-			pUnit.setHasPromotion(iMutationGreen, True)
+		isMutated = False
+		for spiderVariant, Mutations in spiderMutationDict.items():
+			if (random.randint(1,100) <= spiderCounts[spiderVariant] * 10):
+				for mutation in Mutations:
+					pUnit.setHasPromotion(getInfoType(mutation), True)
+				isMutated = True
+		
+		if isMutated:
+			pUnit.setHasPromotion(iMutated, True)

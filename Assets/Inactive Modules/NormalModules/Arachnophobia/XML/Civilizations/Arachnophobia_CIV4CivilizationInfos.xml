@@ -66,10 +66,6 @@
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
-					<BuildingType>NONE</BuildingType>
-				</Building>
-				<Building>
 					<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
@@ -224,7 +220,7 @@
 			<CivilizationSelectionSound>AS3D_RUSSIA_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_RUSSIA_ORDER</CivilizationActionSound>
 			<bGraphicalOnly>0</bGraphicalOnly>
-			<DefaultRace>PROMOTION_POISON_RESISTANCE</DefaultRace>
+			<DefaultRace>PROMOTION_SPIDERKIN</DefaultRace>
 			<Hero>UNIT_MOTHER_SPIDER</Hero>
 			<CivTrait>TRAIT_FERAL</CivTrait>
 			<MaintainFeatures>

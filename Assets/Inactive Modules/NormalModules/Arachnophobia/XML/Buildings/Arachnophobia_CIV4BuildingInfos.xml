@@ -10,9 +10,8 @@
 			<!-- Palace Archos -->
 			<BuildingClass>BUILDINGCLASS_PALACE</BuildingClass>
 			<Type>BUILDING_PALACE_ARCHOS</Type>
-			<Description>TXT_KEY_BUILDING_PALACE_ARCHOS_ARACHNOPHOBIA</Description>
+			<Description>TXT_KEY_BUILDING_PALACE_ARCHOS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_PALACE_ARCHOS_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_PALACE_ARCHOS_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_PALACE_ARCHOS_HELP</Help>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PALACE_ARCHOS</ArtDefineTag>
@@ -81,17 +80,17 @@
 			<bForceOverwrite>1</bForceOverwrite>
 		</BuildingInfo>
 		<BuildingInfo>
-			<!-- Diet of Worms Spell -->
-			<BuildingClass>BUILDINGCLASS_DIET_OF_WORMS</BuildingClass>
-			<Type>BUILDING_DIET_OF_WORMS</Type>
-			<Description>TXT_KEY_BUILDING_DIET_OF_WORMS</Description>
-			<Help>TXT_KEY_BUILDING_DIET_OF_WORMS_PEDIA</Help>
+			<!-- Arachnophagy Spell -->
+			<BuildingClass>BUILDINGCLASS_ARACHNOPHAGY</BuildingClass>
+			<Type>BUILDING_ARACHNOPHAGY</Type>
+			<Description>TXT_KEY_BUILDING_ARACHNOPHAGY</Description>
+			<Help>TXT_KEY_BUILDING_ARACHNOPHAGY_PEDIA</Help>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_DIET_OF_WORMS</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_ARACHNOPHAGY</ArtDefineTag>
 			<bNeverCapture>1</bNeverCapture>
 			<iAIWeight>10</iAIWeight>
 			<iConquestProb>0</iConquestProb>
-			<iHealth>-8</iHealth>
+			<iHealth>-6</iHealth>
 			<iAsset>1</iAsset>
 			<iPower>2</iPower>
 			<fVisibilityPriority>1</fVisibilityPriority>

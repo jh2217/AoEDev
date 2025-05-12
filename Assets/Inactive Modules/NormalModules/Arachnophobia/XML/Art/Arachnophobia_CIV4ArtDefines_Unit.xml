@@ -7,13 +7,13 @@
 <Civ4ArtDefines xmlns="x-schema:Arachnophobia_CIV4ArtDefinesSchema.xml">
 	<UnitArtInfos>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_GIANT_SPIDER_RED</Type>
-			<Button>Art/Interface/Buttons/Promotions/SpiderRedGreater.dds</Button>
-			<fScale>0.4</fScale>
+			<Type>ART_DEF_UNIT_BABY_SPIDER</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Spider_Baby.dds</Button>
+			<fScale>0.2</fScale>
 			<fInterfaceScale>0.7</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/animal/Spiders/spiderred/abman-spider.nif</NIF>
+			<NIF>Art/Units/animal/Giant Spider/abman-spider.nif</NIF>
 			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
@@ -31,13 +31,13 @@
 			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_GIANT_SPIDER_YELLOW</Type>
-			<Button>Art/Interface/Buttons/Promotions/SpiderYellowGreater.dds</Button>
-			<fScale>0.4</fScale>
-			<fInterfaceScale>0.7</fInterfaceScale>
+			<Type>ART_DEF_UNIT_SPIDER</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Spider_Adult.dds</Button>
+			<fScale>0.3</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/animal/Spiders/spideryellow/abman-spider.nif</NIF>
+			<NIF>Art/Units/animal/Giant Spider/abman-spider.nif</NIF>
 			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
@@ -55,10 +55,82 @@
 			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_GIANT_SPIDER_GREY</Type>
-			<Button>Art/Interface/Buttons/Promotions/SpiderGreyGreater.dds</Button>
+			<Type>ART_DEF_UNIT_GIANT_SPIDER</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Spider_Giant.dds</Button>
 			<fScale>0.4</fScale>
 			<fInterfaceScale>0.7</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Giant Spider/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPIDER_BLUE</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Spiderblue.dds</Button>
+			<fScale>0.3</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Spiders/spiderblue/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPIDER_GREEN</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreen.dds</Button>
+			<fScale>0.3</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Spiders/spidergreen/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPIDER_GREY</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGrey.dds</Button>
+			<fScale>0.3</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
 			<NIF>Art/Units/animal/Spiders/spidergrey/abman-spider.nif</NIF>
@@ -79,8 +151,56 @@
 			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPIDER_RED</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderRed.dds</Button>
+			<fScale>0.3</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Spiders/spiderred/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPIDER_YELLOW</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderYellow.dds</Button>
+			<fScale>0.3</fScale>
+			<fInterfaceScale>0.8</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Spiders/spideryellow/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_GIANT_SPIDER_BLUE</Type>
-			<Button>Art/Interface/Buttons/Promotions/SpiderBlueGreater.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderBlueGreater.dds</Button>
 			<fScale>0.4</fScale>
 			<fInterfaceScale>0.7</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
@@ -104,12 +224,133 @@
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_GIANT_SPIDER_GREEN</Type>
-			<Button>Art/Interface/Buttons/Promotions/SpiderGreenGreater.dds</Button>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreenGreater.dds</Button>
 			<fScale>0.4</fScale>
 			<fInterfaceScale>0.7</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
 			<NIF>Art/Units/animal/Spiders/spidergreen/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_GIANT_SPIDER_GREY</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreyGreater.dds</Button>
+			<fScale>0.4</fScale>
+			<fInterfaceScale>0.7</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Spiders/spidergrey/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_GIANT_SPIDER_RED</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderRedGreater.dds</Button>
+			<fScale>0.4</fScale>
+			<fInterfaceScale>0.7</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Spiders/spiderred/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_GIANT_SPIDER_YELLOW</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderYellowGreater.dds</Button>
+			<fScale>0.4</fScale>
+			<fInterfaceScale>0.7</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Units/animal/Spiders/spideryellow/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPIDER_BEHEMOTH_GREEN</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreenBehemoth.dds</Button>
+			<fScale>0.5</fScale>
+			<fInterfaceScale>0.7</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/spidergreenbehemoth/abman-spider.nif</NIF>
+			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>0.75</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>1</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_SPIDER_BEHEMOTH_GREY</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/SpiderGreyBehemoth.dds</Button>
+			<fScale>0.5</fScale>
+			<fInterfaceScale>0.7</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/spidergreybehemoth/abman-spider.nif</NIF>
 			<KFM>Art/animations/spider/abman-spider.kfm</KFM>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/FighterShadow.nif</ShadowNIF>
@@ -155,7 +396,7 @@
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_NESTING_SPIDER</Type>
 			<Button>Art/Interface/Buttons/Units/Giant Spider.dds</Button>
-			<fScale>0.5</fScale>
+			<fScale>0.4</fScale>
 			<fInterfaceScale>0.7</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
@@ -199,6 +440,29 @@
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
 			<SelectionSound>AS3D_UN_SPIDER_SELECT</SelectionSound>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_COCOON</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Hatch.dds</Button>
+			<fScale>7.0</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Structures/Improvements/Lairs/SpiderLair/SpiderLair.nif</NIF>
+			<KFM>Art/animations/wolf/wolf.kfm</KFM>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
 		</UnitArtInfo>
 
 		<UnitArtInfo>
@@ -451,6 +715,30 @@
 				<fShadowScale>1</fShadowScale>
 			</ShadowDef>
 			<fBattleDistance>0.35</fBattleDistance>
+			<fRangedDeathTime>0.31</fRangedDeathTime>
+			<bActAsRanged>0</bActAsRanged>
+			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
+			<AudioRunSounds>
+				<AudioRunTypeLoop/>
+				<AudioRunTypeEnd/>
+			</AudioRunSounds>
+		</UnitArtInfo>
+		<UnitArtInfo>
+			<Type>ART_DEF_UNIT_ARACHNID_AVATAR</Type>
+			<Button>Art/Modules/Arachnophobia/Buttons/Arachnomancy3.dds</Button>
+			<fScale>0.44</fScale>
+			<fInterfaceScale>1</fInterfaceScale>
+			<bActAsLand>0</bActAsLand>
+			<bActAsAir>0</bActAsAir>
+			<NIF>Art/Modules/Arachnophobia/Units/Avatar/Aztec_Jaguar.nif</NIF>
+			<KFM>Art/Units/Unique/Aztec/Jaguar/Aztec_Jaguar.kfm</KFM>
+			<SHADERNIF>Art/Modules/Arachnophobia/Units/Avatar/Aztec_Jaguar_fx.nif</SHADERNIF>
+			<ShadowDef>
+				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
+				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
+				<fShadowScale>1</fShadowScale>
+			</ShadowDef>
+			<fBattleDistance>0.4</fBattleDistance>
 			<fRangedDeathTime>0.31</fRangedDeathTime>
 			<bActAsRanged>0</bActAsRanged>
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
