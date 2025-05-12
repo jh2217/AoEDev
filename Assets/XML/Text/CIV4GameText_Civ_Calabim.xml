@@ -296,7 +296,7 @@ Elijah interrupted his servant, "Enough, it seems clear that Alexis is again beh
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_GIFT_VAMPIRISM_HELP</Tag>
-		<English>[ICON_BULLET]Gives living units of at least 6th level the [LINK=PROMOTION_VAMPIRE]Vampire[\LINK] promotion</English>
+		<English>[ICON_BULLET]Gives living units of at least 6th level the [LINK=PROMOTION_VAMPIRE]Vampire[\LINK] promotion.[NEWLINE][ICON_BULLET]for non Calabim the level requirement is 8.</English>
 		<French>[ICON_BULLET]Donne à une unité vivante de niveau 6 la promotion [LINK=PROMOTION_VAMPIRE]Vampire[\LINK].</French>
 		<German>[ICON_BULLET]Verleiht einer lebenden Einheit die Vampirismus-Beförderung, vorausgesetzt sie hat Erfahrungsstufe 6 erreicht.</German>
 		<Italian>[ICON_BULLET]Fornisce alle unita viventi di almeno 6° livello la promozione [LINK=PROMOTION_VAMPIRE]Vampiro[\LINK].</Italian>
@@ -304,7 +304,7 @@ Elijah interrupted his servant, "Enough, it seems clear that Alexis is again beh
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_SPELL_GIFT_VAMPIRISM_PEDIA</Tag>
-		<English>This ability can be used to spread vampirism to other units in the tile. To be worthy of vampirism the unit must be alive and at least 6th level. The Moroi are an exception to this and can receive vampirism at 4th level.</English>
+		<English>This ability can be used to spread vampirism to other units in the tile. To be worthy of vampirism the unit must be alive and at least 6th level. The Moroi are an exception to this and can receive vampirism at 4th level.[NEWLINE][ICON_BULLET]for non Calabim the level requirement is 8.</English>
 		<French>Cette capacité peut être utilisée pour répandre le vampirisme aux autres unités de la pile. Pour être digne d'être un vampire, l'unité doit être vivante et au moins de niveau 6. Les Moroïs sont une exception et peuvent recevoir le vampirisme au niveau 4.</French>
 		<German>Diese Fähigkeit kann benutzt werden, um andere Einheiten auf demselben Geländefeld mit Vampirismus zu infizieren. Um mit Vampirismus infiziert zu werden, muss die Einheit lebendig und mindestens Level 6 sein. Die Moroi bilden eine Ausnahme, sie können Vampirismus schon mit Level 4 erhalten.</German>
 		<Italian>Quest'abilità può essere usata per diffondere il vampirismo alle altre unità nella casella. Per essere degni del vampirismo un unità deve essere vivente di minimo 6° livello. I Moroi sono un'eccezione a questa regola e possono riceverlo dal 4° livello.</Italian>

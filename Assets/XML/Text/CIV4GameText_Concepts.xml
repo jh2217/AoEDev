@@ -97,6 +97,137 @@
 		<Spanish>[H1]Equipo[\H1][PARAGRAPH:2]El equipo es un tipo de objeto especial en Fall from Heaven.  Puede estar representado en forma de ascenso en una unidad que lo lleva, o como una unidad no trasladable cuando esta asentada en una casilla.  Algunas piezas de Equipo pueden usarse también como un edificio en una ciudad.[PARAGRAPH:2]La principal diferencia entre el equipo y otros ascensos es que si una unidad con una pieza de equipo es destruida ese equipo cae al suelo al mismo tiempo que la unidad muere, en lugar de perderse.[PARAGRAPH:2]Notas de Kael: Aunque el sistema de equipos permite a los modders crear un arsenal entero de espadas, escudos y arcos para sus ejércitos nuestro objetivo con el Equipo es usarlo sólo para artefactos raros y poderosos con un significante impacto estratégico.  Hacemos esto para evitar el micromanejo y mantener el especial encanto de capturar piezas de equipo.</Spanish>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_COMMANDERS</Tag>
+		<English>Commanders</English>
+		<French>Commanders</French>
+		<German>Commanders</German>
+		<Italian>Commanders</Italian>
+		<Spanish>Commanders</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_COMMANDERS_PEDIA</Tag>
+		<English>[H1]Commanders[\H1]
+
+[ICON_BULLET] Units assigned to a commander gain all commander buffs that apply to their unit class(Eg: Archers have the archer unit class and benefit from promotions like Archery Commander I).
+
+[ICON_BULLET]Commanders gain 25% of whatever experience their commanded units gain from combat. However, The commander's experience gain is diminished with every 10 experience points of difference between commander and commanded unit, meaning that lower level commanded units give higher level commanders less experience, and higher level commanded units also give less experience to low level commanders.
+
+[ICON_BULLET]Because commanders start with a command cap of 3 (75% xp) they will eventually fall behind, so consider taking a +1 command limit promotion to help them keep up.
+
+
+[H1]Command Range[\H1]
+
+[ICON_BULLET]Commanders have a value known as command range, this is how far away the unit can be from the commander and still benefit from the command promotions.
+
+[ICON_BULLET]A value of 0 means that the commander only effects units on the same tile, a value of 1 means it effects units within 1 tile radius, and so on.
+
+[ICON_BULLET]A unit outside of command range does not share experience with their commander.
+
+
+Noteworthy commanders and factions include:
+
+[ICON_BULLET][LINK=UNIT_COMMANDER]Great Commanders[\LINK] are the standard commander for most factions.
+[ICON_BULLET]The [LINK=CIVILIZATION_BANNOR]Bannor[\LINK], who make heavy use of command promotions and a special chain of command system to bolster their troops.
+[ICON_BULLET][LINK=LEADER_JAMAL]Jamal Dahkar[\LINK] of the Mekara, makes heavy use of commanders to empower [LINK=UNIT_SLUGA_V2]Slugas[\LINK] and regular units.
+[ICON_BULLET][LINK=UNIT_AURIC]Auric[\LINK], of the Illians as he leads his people towards regaining their birthright.</English>
+		<French>[H1]Commanders[\H1]
+
+[ICON_BULLET] Units assigned to a commander gain all commander buffs that apply to their unit class(Eg: Archers have the archer unit class and benefit from promotions like Archery Commander I).
+
+[ICON_BULLET]Commanders gain 25% of whatever experience their commanded units gain from combat. However, The commander's experience gain is diminished with every 10 experience points of difference between commander and commanded unit, meaning that lower level commanded units give higher level commanders less experience, and higher level commanded units also give less experience to low level commanders.
+
+[ICON_BULLET]Because commanders start with a command cap of 3 (75% xp) they will eventually fall behind, so consider taking a +1 command limit promotion to help them keep up.
+
+
+[H1]Command Range[\H1]
+
+[ICON_BULLET]Commanders have a value known as command range, this is how far away the unit can be from the commander and still benefit from the command promotions.
+
+[ICON_BULLET]A value of 0 means that the commander only effects units on the same tile, a value of 1 means it effects units within 1 tile radius, and so on.
+
+[ICON_BULLET]A unit outside of command range does not share experience with their commander.
+
+
+Noteworthy commanders and factions include:
+
+[ICON_BULLET][LINK=UNIT_COMMANDER]Great Commanders[\LINK] are the standard commander for most factions.
+[ICON_BULLET]The [LINK=CIVILIZATION_BANNOR]Bannor[\LINK], who make heavy use of command promotions and a special chain of command system to bolster their troops.
+[ICON_BULLET][LINK=LEADER_JAMAL]Jamal Dahkar[\LINK] of the Mekara, makes heavy use of commanders to empower [LINK=UNIT_SLUGA_V2]Slugas[\LINK] and regular units.
+[ICON_BULLET][LINK=UNIT_AURIC]Auric[\LINK], of the Illians as he leads his people towards regaining their birthright.</French>
+		<German>[H1]Commanders[\H1]
+
+[ICON_BULLET] Units assigned to a commander gain all commander buffs that apply to their unit class(Eg: Archers have the archer unit class and benefit from promotions like Archery Commander I).
+
+[ICON_BULLET]Commanders gain 25% of whatever experience their commanded units gain from combat. However, The commander's experience gain is diminished with every 10 experience points of difference between commander and commanded unit, meaning that lower level commanded units give higher level commanders less experience, and higher level commanded units also give less experience to low level commanders.
+
+[ICON_BULLET]Because commanders start with a command cap of 3 (75% xp) they will eventually fall behind, so consider taking a +1 command limit promotion to help them keep up.
+
+
+[H1]Command Range[\H1]
+
+[ICON_BULLET]Commanders have a value known as command range, this is how far away the unit can be from the commander and still benefit from the command promotions.
+
+[ICON_BULLET]A value of 0 means that the commander only effects units on the same tile, a value of 1 means it effects units within 1 tile radius, and so on.
+
+[ICON_BULLET]A unit outside of command range does not share experience with their commander.
+
+
+Noteworthy commanders and factions include:
+
+[ICON_BULLET][LINK=UNIT_COMMANDER]Great Commanders[\LINK] are the standard commander for most factions.
+[ICON_BULLET]The [LINK=CIVILIZATION_BANNOR]Bannor[\LINK], who make heavy use of command promotions and a special chain of command system to bolster their troops.
+[ICON_BULLET][LINK=LEADER_JAMAL]Jamal Dahkar[\LINK] of the Mekara, makes heavy use of commanders to empower [LINK=UNIT_SLUGA_V2]Slugas[\LINK] and regular units.
+[ICON_BULLET][LINK=UNIT_AURIC]Auric[\LINK], of the Illians as he leads his people towards regaining their birthright.</German>
+		<Italian>[H1]Commanders[\H1]
+
+[ICON_BULLET] Units assigned to a commander gain all commander buffs that apply to their unit class(Eg: Archers have the archer unit class and benefit from promotions like Archery Commander I).
+
+[ICON_BULLET]Commanders gain 25% of whatever experience their commanded units gain from combat. However, The commander's experience gain is diminished with every 10 experience points of difference between commander and commanded unit, meaning that lower level commanded units give higher level commanders less experience, and higher level commanded units also give less experience to low level commanders.
+
+[ICON_BULLET]Because commanders start with a command cap of 3 (75% xp) they will eventually fall behind, so consider taking a +1 command limit promotion to help them keep up.
+
+
+[H1]Command Range[\H1]
+
+[ICON_BULLET]Commanders have a value known as command range, this is how far away the unit can be from the commander and still benefit from the command promotions.
+
+[ICON_BULLET]A value of 0 means that the commander only effects units on the same tile, a value of 1 means it effects units within 1 tile radius, and so on.
+
+[ICON_BULLET]A unit outside of command range does not share experience with their commander.
+
+
+Noteworthy commanders and factions include:
+
+[ICON_BULLET][LINK=UNIT_COMMANDER]Great Commanders[\LINK] are the standard commander for most factions.
+[ICON_BULLET]The [LINK=CIVILIZATION_BANNOR]Bannor[\LINK], who make heavy use of command promotions and a special chain of command system to bolster their troops.
+[ICON_BULLET][LINK=LEADER_JAMAL]Jamal Dahkar[\LINK] of the Mekara, makes heavy use of commanders to empower [LINK=UNIT_SLUGA_V2]Slugas[\LINK] and regular units.
+[ICON_BULLET][LINK=UNIT_AURIC]Auric[\LINK], of the Illians as he leads his people towards regaining their birthright.</Italian>
+		<Spanish>[H1]Commanders[\H1]
+
+[ICON_BULLET] Units assigned to a commander gain all commander buffs that apply to their unit class(Eg: Archers have the archer unit class and benefit from promotions like Archery Commander I).
+
+[ICON_BULLET]Commanders gain 25% of whatever experience their commanded units gain from combat. However, The commander's experience gain is diminished with every 10 experience points of difference between commander and commanded unit, meaning that lower level commanded units give higher level commanders less experience, and higher level commanded units also give less experience to low level commanders.
+
+[ICON_BULLET]Because commanders start with a command cap of 3 (75% xp) they will eventually fall behind, so consider taking a +1 command limit promotion to help them keep up.
+
+
+[H1]Command Range[\H1]
+
+[ICON_BULLET]Commanders have a value known as command range, this is how far away the unit can be from the commander and still benefit from the command promotions.
+
+[ICON_BULLET]A value of 0 means that the commander only effects units on the same tile, a value of 1 means it effects units within 1 tile radius, and so on.
+
+[ICON_BULLET]A unit outside of command range does not share experience with their commander.
+
+
+Noteworthy commanders and factions include:
+
+[ICON_BULLET][LINK=UNIT_COMMANDER]Great Commanders[\LINK] are the standard commander for most factions.
+[ICON_BULLET]The [LINK=CIVILIZATION_BANNOR]Bannor[\LINK], who make heavy use of command promotions and a special chain of command system to bolster their troops.
+[ICON_BULLET][LINK=LEADER_JAMAL]Jamal Dahkar[\LINK] of the Mekara, makes heavy use of commanders to empower [LINK=UNIT_SLUGA_V2]Slugas[\LINK] and regular units.
+[ICON_BULLET][LINK=UNIT_AURIC]Auric[\LINK], of the Illians as he leads his people towards regaining their birthright.</Spanish>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CONCEPT_FORTS</Tag>
 		<English>Forts</English>
 		<French>Forts</French>
